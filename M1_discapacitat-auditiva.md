@@ -1,17 +1,34 @@
 ---
 modul: M1
 titol: "Alumnat amb discapacitat auditiva"
-tipus: perfil
+tipus: caracteristica
+subtipus: constitutiva
 descripcio: "Sordesa i hipoacúsia: llengua de signes, adaptacions i suports comunicatius"
 review_status: esborrany
 generat_at: 2026-03-18T12:59:19
+variables_configurables:
+  - nom: comunicacio
+    etiqueta: "Mode de comunicació"
+    tipus: enum
+    valors: [oral, LSC, mixta]
+    obligatori: true
+    defecte: oral
+    descripcio: "Llengua de Signes Catalana, oral, o mixta"
+    impacte: "LSC: prioritzar suport visual, estructura simple. Oral amb implant: adaptació similar a oient amb suport"
+  - nom: implant_coclear
+    etiqueta: "Implant coclear"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Porta implant coclear o audiòfon?"
+    impacte: "Amb implant: pot beneficiar-se de contingut oral/audiovisual amb subtítols"
 ---
 
 # 1. CONTINGUT ESPECÍFIC DEL PERFIL: ALUMNAT AMB DISCAPACITAT AUDITIVA
 
 **Nota important:** Els documents proporcionats per a la generació d'aquest perfil tracten sobre la diversitat de l'alumnat en un sentit ampli, la inclusió, la gestió de necessitats educatives diverses (com altes capacitats, trastorns de conducta, o deficiència visual), i marcs organitzatius com les aules d'acollida o els plans d'atenció a la diversitat. No obstant això, **cap dels documents conté informació específica detallada sobre el perfil de l'alumnat amb discapacitat auditiva (sordesa o hipoacúsia), les seves particularitats, barreres o necessitats concretes.** Per tant, les seccions següents reflectiran aquesta absència d'informació específica.
 
--   **Descripció del perfil:**
+-   **Descripció del tret:**
     Els documents proporcionats no contenen una descripció específica del perfil de l'alumnat amb discapacitat auditiva, ni detallen el seu espectre de variabilitat o prevalença. S'entén que la discapacitat auditiva pot anar des d'una hipoacúsia lleu fins a una sordesa profunda, amb implicacions diverses en el desenvolupament del llenguatge i la comunicació.
 
 -   **Manifestació per etapa educativa (Infantil/Primària, ESO, Batxillerat/FP):**

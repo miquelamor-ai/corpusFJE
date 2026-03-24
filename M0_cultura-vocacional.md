@@ -4,6 +4,9 @@ mòdul: 0
 etiquetes: [cultura vocacional, vocació, discerniment, per a qui sóc jo, acompanyament, interioritat, projecte vital, subjecte vocacional, Exercicis Espirituals]
 fonts: ["Jesuïtes — Província d'Espanya (2023). Per a qui sóc jo? Cap a una cultura vocacional a les nostres institucions i comunitats. Octubre 2023.", "Papa Francesc (2019). Crist Viu (Christus Vivit). Exhortació Apostòlica postsinodal.", "Sosa, A. SJ (2021). Carta a tota la Companyia sobre cultura vocacional. Abril 2021.", "Sínode sobre la joventut (2018). Document final de la XV Assemblea General Ordinària del Sínode dels Bisbes.", "SIPEI — Seminari Internacional de Pedagogia i Espiritualitat Ignasiana (2014). Declaració Final. Manresa.", "Arrupe, P. SJ (1973). Homes per als altres. X Congrés Europeu d'Antics Alumnes. València.", "Uríbarri, G. (2022). Jesucrist per a joves. Sal Terrae."]
 estat: revisat
+tipus: marc
+descripcio: "Cultura vocacional com a ecosistema educatiu: la pregunta 'Per a qui sóc jo?' com a eix del projecte vital de l'alumne"
+generat_at: 2026-03-17T00:00:00
 ---
 
 # 1. FONAMENT TEÒRIC

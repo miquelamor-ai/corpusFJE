@@ -6,6 +6,9 @@ subtipus: constitutiva
 descripcio: "TDL/TEL: característiques comunicatives, estratègies de suport i adaptació de materials"
 review_status: esborrany
 generat_at: 2026-03-18T15:27:36
+variables_configurables: []
+# Justificació: les adaptacions (simplificació sintàctica, suport visual,
+# temps extra) són consistents. Es pot afegir severitat en fase 2.
 ---
 
 **Nota important:** S'ha sol·licitat un document sobre el **Trastorn del Desenvolupament del Llenguatge (TDL)**. No obstant això, els documents font proporcionats tracten exclusivament sobre l'**alumnat d'origen estranger o nouvingut** i les seves característiques, barreres i necessitats educatives, lingüístiques i culturals. Per tal de complir amb la instrucció de no inventar contingut i de sintetitzar coneixement raonable basat en les fonts, aquest document descriu el perfil de l'**alumnat d'origen estranger/nouvingut**, utilitzant la informació dels documents proporcionats. Si es desitja un perfil sobre TDL, caldria proporcionar documents font rellevants per a aquest tema.

@@ -1,15 +1,33 @@
 ---
 modul: M1
 titol: "Alumnat amb TEA"
-tipus: perfil
+tipus: caracteristica
+subtipus: constitutiva
 descripcio: "Trastorn de l'Espectre Autista: característiques cognitives i emocionals, estratègies d'intervenció, detecció i suports a l'escola inclusiva"
 review_status: esborrany
 generat_at: 2026-03-21T19:30:00
+variables_configurables:
+  - nom: nivell_suport
+    etiqueta: "Nivell de suport (DSM-5)"
+    tipus: enum
+    valors: [1, 2, 3]
+    obligatori: true
+    defecte: 1
+    descripcio: "Nivell 1: necessita suport. Nivell 2: suport notable. Nivell 3: suport molt notable"
+    impacte: "Nivell 1: adaptació subtil (estructura, literalitat). Nivell 3: LF extrema + suport visual total"
+  - nom: comunicacio_oral
+    etiqueta: "Comunicació oral"
+    tipus: enum
+    valors: [fluida, limitada, no_verbal]
+    obligatori: true
+    defecte: fluida
+    descripcio: "Capacitat de comunicació verbal de l'alumne"
+    impacte: "No verbal: materials altament visuals, pictogrames obligatoris"
 ---
 
 # 1. CONTINGUT ESPECÍFIC DEL PERFIL: ALUMNAT AMB TEA
 
-## Descripció del perfil
+## Descripció del tret
 
 El Trastorn de l'Espectre Autista (TEA) és un trastorn profund del desenvolupament neurològic caracteritzat per alteracions significatives en tres àrees fonamentals: la comunicació, la interacció social i els patrons de comportament, que es presenten de forma simultània (DOC 12). No es tracta d'una malaltia, sinó d'una síndrome del neurodesenvolupament que afecta les funcions cerebrals en les àrees de raonament, habilitats de comunicació i interacció social (DOC 12). Com a síndrome, no existeix cura, però es pot millorar substancialment la qualitat de vida i ensenyar noves habilitats per fomentar la independència.
 

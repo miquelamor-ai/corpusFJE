@@ -1,15 +1,62 @@
 ---
 modul: M1
 titol: "Alumnat nouvingut — Perfil"
-tipus: perfil
+tipus: caracteristica
+subtipus: contextual
 descripcio: "Perfil, barreres, necessitats i principis d'actuació per a l'alumnat que s'incorpora al sistema educatiu"
 review_status: esborrany
 generat_at: 2026-03-18T13:30:00
+variables_configurables:
+  - nom: L1
+    etiqueta: "Llengua materna (L1)"
+    tipus: text
+    obligatori: true
+    descripcio: "Idioma principal de l'alumne"
+    impacte: "Determina la distància lingüística i els suports de traducció"
+  - nom: familia_linguistica
+    etiqueta: "Família lingüística"
+    tipus: enum
+    valors: [romanica, germanica, eslava, araboberber, sinotibetana, altra]
+    obligatori: false
+    defecte: null
+    descripcio: "Es pot inferir automàticament de la L1. Indica la distància amb el català"
+    impacte: "A més distància, més suport visual i estructural necessari"
+  - nom: alfabet_llati
+    etiqueta: "Alfabet llatí"
+    tipus: boolean
+    obligatori: true
+    defecte: true
+    descripcio: "L'alumne està alfabetitzat en alfabet llatí?"
+    impacte: "Si no: cal suport visual reforçat, tipografia més gran, evitar text dens"
+  - nom: escolaritzacio_previa
+    etiqueta: "Escolarització prèvia"
+    tipus: enum
+    valors: [si, parcial, no]
+    obligatori: true
+    defecte: si
+    descripcio: "Ha estat escolaritzat regularment al país d'origen?"
+    impacte: "Sense escolarització: cal bastida cognitiva bàsica, no només lingüística"
+  - nom: mecr
+    etiqueta: "Nivell de català (MECR)"
+    tipus: enum
+    valors: [pre-A1, A1, A2, B1, B2]
+    obligatori: true
+    defecte: A1
+    descripcio: "Nivell de competència en català segons el Marc Europeu"
+    impacte: "Determina la complexitat lingüística màxima del text de sortida"
+  - nom: calp
+    etiqueta: "Llengua acadèmica (CALP)"
+    tipus: enum
+    valors: [inicial, emergent, consolidat]
+    obligatori: false
+    defecte: inicial
+    descripcio: "Competència en llenguatge acadèmic (diferent del conversacional)"
+    impacte: "Inicial: vocabulari acadèmic amb definicions integrades. Consolidat: termes tècnics sense bastida"
 ---
 
 # 1. CONTINGUT ESPECÍFIC
 
-## Descripció del perfil
+## Descripció de la situació
 L'alumnat nouvingut és aquell que s'incorpora al sistema educatiu català havent estat escolaritzat prèviament en un altre sistema educatiu, sovint en un context cultural i lingüístic diferent. Aquest perfil ha experimentat un creixement continuat i significatiu en els darrers anys, passant de ser gairebé anecdòtic a principis dels anys noranta a representar un percentatge notable de l'alumnat, amb una distribució irregular al territori. Aquest perfil és extremadament heterogeni, ja que la "diversitat cultural és una de les múltiples diversitats que conformen la societat complexa" (DOC 2). No es tracta d'un grup homogeni, sinó d'individus amb "identitats de múltiples pertinences" (DOC 1, DOC 3), resultat de diverses identificacions flexibles i canviants. Generalment, la incorporació es produeix en els darrers vint-i-quatre mesos, o excepcionalment en els darrers trenta-sis mesos, especialment si procedeixen d'àmbits lingüístics i culturals molt allunyats del nostre. La seva arribada, especialment en les darreres dècades, ha estat ràpida i creixent, abastant totes les comarques catalanes (DOC 5). Aquest alumnat pot provenir de més de 150 estats diferents, amb experiències educatives prèvies molt variades, des de sistemes d'alta qualitat fins a escolaritzacions intermitents o inexistents. Aquesta diversitat s'amplifica amb factors socioeconòmics, d'edat i de gènere, que es combinen i fan difícil identificar grups culturals o socials uniformes (DOC 2). La globalització ha accelerat aquesta mobilitat, fent que les distàncies s'escurcin i la circulació d'informació i persones sigui extraordinària (DOC 4). Per tant, el perfil de l'alumnat nouvingut no es defineix per un origen comú, sinó per la seva recent incorporació i la necessitat d'adaptació a un nou entorn educatiu, social i lingüístic.
 
 ## Manifestació per etapa educativa

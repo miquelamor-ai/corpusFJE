@@ -6,6 +6,10 @@ subtipus: contextual
 descripcio: "Risc d'exclusió, entorn desfavorit: estratègies d'equitat i prevenció de l'abandonament"
 review_status: esborrany
 generat_at: 2026-03-18T15:27:26
+variables_configurables: []
+# Justificació: la vulnerabilitat socioeducativa és massa heterogènia per
+# parametritzar amb camps fixos. El docent pot afegir context via camp lliure
+# al perfil de l'alumne a l'AAU.
 ---
 
 ## 1. CONTINGUT ESPECÍFIC DEL PERFIL

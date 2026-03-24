@@ -1,11 +1,20 @@
 ---
 modul: M1
-titol: "Alumnat d'origen estranger i nouvingut"
+titol: "Alumnat amb discapacitat visual"
 tipus: caracteristica
 subtipus: constitutiva
-descripcio: "Perfil de l'alumnat d'origen estranger i nouvingut: reptes, necessitats i principis d'actuació per a una escola inclusiva."
+descripcio: "Discapacitat visual (baixa visió i ceguesa): adaptacions de format, accessibilitat i suports"
 review_status: esborrany
 generat_at: 2026-03-18T15:27:31
+variables_configurables:
+  - nom: grau
+    etiqueta: "Grau de discapacitat visual"
+    tipus: enum
+    valors: [baixa_visio, ceguesa]
+    obligatori: true
+    defecte: baixa_visio
+    descripcio: "Baixa visió: pot llegir amb adaptació de format. Ceguesa: necessita format alternatiu"
+    impacte: "Baixa visió: tipografia gran, alt contrast, evitar gràfics complexos. Ceguesa: text pla, descripcions d'imatges, estructura lineal"
 ---
 
 **Nota important:** Els documents proporcionats per a la generació d'aquest perfil tracten sobre l'alumnat d'origen estranger i nouvingut, no sobre l'alumnat amb discapacitat visual. Per tant, el contingut d'aquest document reflecteix la informació extreta de les fonts sobre l'alumnat d'origen estranger i nouvingut.

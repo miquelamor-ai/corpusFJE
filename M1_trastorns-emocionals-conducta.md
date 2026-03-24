@@ -1,15 +1,19 @@
 ---
 modul: M1
 titol: "Alumnat amb trastorns emocionals i de conducta"
-tipus: perfil
+tipus: caracteristica
+subtipus: contextual
 descripcio: "Ansietat, depressió, trastorns de conducta: estratègies de suport, gestió i contenció"
 review_status: esborrany
 generat_at: 2026-03-18T12:59:36
+variables_configurables: []
+# Justificació: la variabilitat interna és massa gran.
+# El docent aporta context específic per cada cas.
 ---
 
 # 1. CONTINGUT ESPECÍFIC
 
-## Descripció del perfil
+## Descripció de la situació
 L'alumnat amb trastorns emocionals i de conducta es caracteritza per presentar necessitats afectives greus i permanents, desajustaments de la personalitat, i problemes d'autoestima i autoconcepte que impacten significativament la seva participació i aprenentatge a l'escola. Aquest perfil no és homogeni; inclou des de conductes inhibides i manca d'interès fins a actituds violentes, sexistes o racistes, i trastorns de conducta explícits. La diversitat de l'alumnat és complexa, i aquests trastorns sovint coexisteixen amb altres factors de vulnerabilitat i exclusió social, o amb altres necessitats educatives. És fonamental entendre que aquestes manifestacions són barreres d'aprenentatge i participació, i no només un dèficit individual, requerint una atenció inclusiva i contextualitzada. La identitat d'aquests alumnes és el resultat de múltiples pertinences, flexibles i canviants, que poden ser condicionades per factors socials i personals.
 
 ## Manifestació per etapa educativa

@@ -6,6 +6,10 @@ subtipus: constitutiva
 descripcio: "Dislèxia, disgrafia, discalcúlia: detecció, estratègies i adaptacions de materials"
 review_status: esborrany
 generat_at: 2026-03-18T15:28:19
+variables_configurables: []
+# Justificació: les adaptacions de format (tipografia, espaiat, frases curtes,
+# suport visual) s'apliquen de manera universal. La variabilitat es cobreix
+# amb la intensitat de LF, que es calcula des del perfil global.
 ---
 
 ### Descripció del tret

@@ -1,15 +1,24 @@
 ---
 modul: M1
 titol: "Alumnat amb discapacitat motora"
-tipus: perfil
+tipus: caracteristica
+subtipus: constitutiva
 descripcio: "Limitacions de mobilitat: adaptació d'accés, materials i avaluació"
 review_status: esborrany
 generat_at: 2026-03-18T12:59:30
+variables_configurables:
+  - nom: acces_teclat
+    etiqueta: "Accés al teclat/pantalla"
+    tipus: boolean
+    obligatori: false
+    defecte: true
+    descripcio: "L'alumne pot interactuar amb teclat o pantalla tàctil?"
+    impacte: "Si no: evitar exercicis interactius que requereixin input manual, prioritzar formats de resposta oral o selecció simple"
 ---
 
 ### 1. CONTINGUT ESPECÍFIC
 
-#### Descripció del perfil
+#### Descripció del tret
 L'alumnat amb discapacitat motora es caracteritza per presentar limitacions significatives en la seva mobilitat, autonomia i/o coordinació, que poden afectar la seva interacció amb l'entorn físic i la realització de tasques quotidianes i acadèmiques. Aquesta condició no és homogènia, sinó que es manifesta en un ampli espectre de variabilitat, des de dificultats lleus en la motricitat fina o gruixuda fins a afectacions severes que requereixen suport extensiu per a la mobilitat i les activitats de la vida diària. La discapacitat motora pot ser d'origen divers (neurològic, muscular, ossi, etc.) i pot ser congènita o adquirida.
 
 És crucial entendre que la discapacitat motora no implica necessàriament una discapacitat intel·lectual o sensorial associada, tot i que poden coexistir (DOC 10). La intel·ligència i les capacitats cognitives d'aquest alumnat són tan diverses com les de qualsevol altre grup. La prevalença varia, però és un perfil present en els centres educatius, i la seva atenció s'emmarca en els principis d'una escola inclusiva que busca suprimir les barreres d'aprenentatge i participació per a tots els alumnes (DOC 10). L'objectiu és que puguin desenvolupar al màxim el seu potencial, adaptant l'entorn i les metodologies a les seves necessitats específiques de mobilitat i autonomia (DOC 8).

@@ -4,6 +4,9 @@ mòdul: 0
 etiquetes: [FJE, projecte educatiu, Horitzó, HoritzóMés, etapes educatives, MOPI, PIN, NEI, TQE, Essencials, 4C, ciutadania global, xarxa escoles]
 fonts: ["Jesuïtes Educació (2018). Díptic Essencials Horitzó 2020. Barcelona: FJE.", "Jesuïtes Educació (2019). Díptic Relat HoritzóMés. Barcelona: FJE.", "Jesuïtes Educació (2020). Díptic Essencials JE. Barcelona: FJE.", "Jesuïtes Educació (2021). Tríptic MOPI. Barcelona: FJE.", "Jesuïtes Educació (2021). Tríptic NEI. Barcelona: FJE.", "Jesuïtes Educació (2021). Tríptic TQE. Barcelona: FJE.", "Jesuïtes Educació (2021). Tríptic LLAR. Barcelona: FJE.", "Jesuïtes Educació (2022). Tríptic PIN. Barcelona: FJE.", "Jesuïtes Educació (2022). Tríptic Nova FP. Barcelona: FJE.", "Secretariat d'Educació SJ (2019). Escoles Jesuïtes: Una Tradició Viva en el Segle XXI. Roma.", "www.fje.edu — Portal de la Fundació Jesuïtes Educació."]
 estat: revisat
+tipus: marc
+descripcio: "Projecte educatiu de Jesuïtes Educació (FJE): Horitzó, HoritzóMés i els programes institucionals MOPI, PIN, NEI, TQE"
+generat_at: 2026-03-17T00:00:00
 ---
 
 # 1. FONAMENT TEÒRIC

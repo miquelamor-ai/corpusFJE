@@ -8,6 +8,22 @@ review_status: esborrany
 locked: true
 nota_revisio: "Versió DAC (ateneu.xtec.cat_2026-03-17_5): detecció per etapes, barreres, fortaleses."
 generat_at: 2026-03-18T17:13:12
+variables_configurables:
+  - nom: tipus_capacitat
+    etiqueta: "Tipus de capacitat"
+    tipus: enum
+    valors: [global, talent_especific]
+    obligatori: true
+    defecte: global
+    descripcio: "Superdotació global o talent en àrea concreta (verbal, matemàtic, artístic...)"
+    impacte: "Global: enriquiment transversal. Talent específic: aprofundiment en l'àrea de talent"
+  - nom: doble_excepcionalitat
+    etiqueta: "Doble excepcionalitat"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Coexisteix amb alguna dificultat d'aprenentatge (TDAH, dislèxia, TEA...)?"
+    impacte: "Si sí: cal equilibrar repte cognitiu amb suports per a la dificultat associada"
 ---
 
 ### 1. CONTINGUT ESPECÍFIC

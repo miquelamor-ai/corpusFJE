@@ -4,6 +4,9 @@ mòdul: 0
 etiquetes: [cura personalis, acompanyament, personalització, discreta caritat, pedagogia ignasiana]
 fonts: ["Comissió Internacional (1986). Característiques de l'educació a la Companyia de Jesús.", "Comissió Internacional (1993). Pedagogia Ignasiana. Un plantejament pràctic.", "Comissió Internacional (2019). Escoles Jesuïtes: Una Tradició Viva al Segle XXI.", "Charmot, F. (1952). La Pedagogía de los Jesuitas.", "Sacchini, F. (1625). Protrepticon ad Magistros.", "Jesuïtes Educació (2023). Per a qui sóc jo? Cap a una cultura vocacional."]
 estat: revisat
+tipus: marc
+descripcio: "Cura de la persona com a eix vertebrador de la pedagogia ignasiana: coneixement del subjecte, integralitat i acompanyament"
+generat_at: 2026-03-17T00:00:00
 ---
 
 # 1. FONAMENT TEÒRIC

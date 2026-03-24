@@ -1,15 +1,25 @@
 ---
 modul: M1
 titol: "Alumnat amb discapacitat intel·lectual"
-tipus: perfil
+tipus: caracteristica
+subtipus: constitutiva
 descripcio: "Discapacitat intel·lectual lleu, moderada i severa: adaptacions curriculars i suports"
 review_status: esborrany
 generat_at: 2026-03-18T12:59:04
+variables_configurables:
+  - nom: grau
+    etiqueta: "Grau de discapacitat intel·lectual"
+    tipus: enum
+    valors: [lleu, moderat, sever]
+    obligatori: true
+    defecte: lleu
+    descripcio: "Nivell de suport cognitiu necessari"
+    impacte: "Lleu: LF moderada, vocabulari simplificat. Sever: LF extrema, pictogrames obligatoris, frases mínimes"
 ---
 
 # 1. CONTINGUT ESPECÍFIC
 
-## Descripció del perfil
+## Descripció del tret
 L'alumnat amb discapacitat intel·lectual és un perfil que presenta limitacions significatives en el funcionament intel·lectual i en la conducta adaptativa, que es manifesten en habilitats conceptuals, socials i pràctiques. Aquestes limitacions afecten la capacitat d'aprendre, de raonar, de resoldre problemes i de comprendre idees complexes a un ritme similar al dels seus iguals. Els documents fan referència a aquesta condició com a "retard mental lleuger" i "retard mental mig" (DOC 10), i també com a "necessitats cognitives greus i permanents" (DOC 8).
 
 L'espectre de variabilitat és ampli, des de la discapacitat intel·lectual lleu, on les dificultats poden ser més subtils i requerir principalment adaptacions en el ritme i la complexitat dels continguts, fins a la moderada, que implica necessitats de suport més intensives en totes les àrees del desenvolupament. En els casos de discapacitat intel·lectual severa, les necessitats de suport són molt elevades i contínues. La inclusió d'aquest alumnat implica posar èmfasi en la supressió de barreres d’aprenentatge i de participació per garantir el seu èxit educatiu (DOC 10).

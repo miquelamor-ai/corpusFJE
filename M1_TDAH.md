@@ -1,17 +1,22 @@
 ---
 modul: M1
 titol: "Alumnat amb TDAH"
-tipus: perfil
+tipus: caracteristica
+subtipus: constitutiva
 descripcio: "Trastorn per Dèficit d'Atenció i Hiperactivitat: gestió d'aula, estratègies i adaptacions"
 review_status: esborrany
 generat_at: 2026-03-18T12:58:27
+variables_configurables: []
+# Justificació: les adaptacions per TDAH (estructura, brevetat, suports atencionals)
+# són consistents dins l'espectre. La variació individual es gestiona
+# millor via els complements (bastides, esquemes) que via sub-variables.
 ---
 
 **Contingut Específic: Perfil de l'Alumnat amb TDAH**
 
 **NOTA IMPORTANT:** Els documents font proporcionats per a la creació d'aquest perfil no contenen informació específica ni detallada sobre el Trastorn per Dèficit d'Atenció i Hiperactivitat (TDAH). Per tant, el contingut d'aquest document es basarà en els principis generals d'atenció a la diversitat, inclusió i necessitats educatives especials que sí que es descriuen en els documents, aplicant-los al context d'un perfil d'alumnat amb necessitats de suport educatiu, com ho seria l'alumnat amb TDAH. No s'inventarà informació concreta sobre el TDAH que no estigui explícitament en les fonts.
 
--   **Descripció del perfil**
+-   **Descripció del tret**
     L'alumnat amb TDAH, dins del marc de l'escola inclusiva, es considera part de la gran diversitat d'identitats i pertinences que conformen el nostre alumnat (DOC 1, DOC 2, DOC 3). En una societat globalitzada i complexa, la diversitat és la norma, i cada alumne és un individu amb múltiples factors que condicionen els seus comportaments i processos de socialització (DOC 2). Un perfil com el TDAH representaria una de les moltes manifestacions d'aquesta diversitat, que requereix una atenció individualitzada i contextualitzada. Els documents emfatitzen que la inclusió és un procés de recerca de noves fórmules per atendre la diversitat, aprenent a viure amb la diferència i a aprendre d'ella (DOC 10). Això implica identificar i suprimir les "barreres d'aprenentatge o de participació" que pugui experimentar qualsevol alumne, incloent-hi aquells amb TDAH, per tal d'assegurar la seva participació i èxit (DOC 10). La comprensió d'aquest perfil, per tant, s'emmarca en la necessitat de reconèixer les "necessitats individuals" de cada alumne, ja siguin cognitives, afectives, socials o d'altres tipus (DOC 8), i d'oferir respostes educatives que s'adaptin a la seva realitat única.
 
 -   **Manifestació per etapa educativa**
