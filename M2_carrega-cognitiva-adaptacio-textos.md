@@ -1,23 +1,23 @@
 ---
 modul: M2
-titol: "Càrrega cognitiva aplicada a l'adaptació de textos educatius"
+titol: "Càrrega cognitiva aplicada a l'adaptació de materials educatius"
 tipus: marc
-descripcio: "Aplicació de la teoria de Sweller a l'adaptació de textos: densitat conceptual, elements interactius, redundància funcional vs decorativa"
+descripcio: "Aplicació de la teoria de Sweller a l'adaptació de textos, activitats i disseny instruccional: densitat conceptual, elements interactius, redundància funcional vs decorativa"
 review_status: esborrany
 generat_at: 2026-03-24T23:00:00
 ---
 
 # 1. CONTINGUT ESPECÍFIC
 
-## Definició i principis aplicats a l'adaptació de textos
+## Definició i principis aplicats a l'adaptació de materials
 
 La teoria de la càrrega cognitiva (Sweller, 1988) distingeix tres tipus de càrrega que operen simultàniament durant l'aprenentatge:
 
 - **Càrrega intrínseca**: determinada per la complexitat del contingut i el nombre d'elements interactius (conceptes que s'han d'entendre simultàniament). No es pot eliminar sense buidar el contingut.
-- **Càrrega extrínseca**: causada per un disseny deficient del material (text confús, distractors visuals, informació redundant no funcional, format poc clar).
+- **Càrrega extrínseca**: causada per un disseny deficient del material (text confús, instruccions ambigües, distractors visuals, informació redundant no funcional, format poc clar).
 - **Càrrega germana o rellevant**: l'esforç cognitiu útil per construir esquemes mentals (comparar, connectar amb coneixement previ, inferir).
 
-L'objectiu d'una bona adaptació és **reduir la càrrega extrínseca** i **gestionar la intrínseca** sense eliminar-la, permetent que la càrrega germana pugui operar.
+L'objectiu d'una bona adaptació és **reduir la càrrega extrínseca** i **gestionar la intrínseca** sense eliminar-la, permetent que la càrrega germana pugui operar. Aquests principis s'apliquen per igual a textos, activitats, tasques i seqüències didàctiques.
 
 ## Regles per a l'adaptació de textos segons càrrega cognitiva
 
@@ -61,14 +61,93 @@ Un suport que és útil per a novells pot ser contraproduent per a experts. Exem
 
 L'adaptació ha d'ajustar el suport al nivell real, no al perfil genèric.
 
+## Regles per a l'adaptació d'activitats segons càrrega cognitiva
+
+### Nombre de passos simultanis
+
+Una activitat amb massa instruccions simultànies sobrecàrrega la memòria de treball igual que un text dens. L'alumne ha de poder retenir les instruccions mentre executa la tasca.
+
+Recomanacions per nivell:
+- **pre-A1/A1 o DI**: màxim 1-2 passos visibles alhora; completar un pas abans de mostrar el següent
+- **A2 o TDAH**: màxim 3 passos; numerar-los visualment; un verb d'acció per pas
+- **B1**: fins a 4-5 passos amb estructura clara
+- **B2**: seqüència completa amb marcadors visuals
+
+### Càrrega de la consigna
+
+La instrucció mateixa pot ser una font de càrrega extrínseca si és ambigua, llarga o combina múltiples demandes.
+
+Estratègies:
+- Separar "què has de fer" de "com ho has de fer" de "què s'avaluarà"
+- Una instrucció per frase: NO "Llegeix el text, subratlla les idees principals i fes un resum de 5 línies"
+- SÍ: "1. Llegeix el text. 2. Subratlla les idees principals. 3. Escriu un resum de 5 línies."
+- Per alumnat amb L2 baixa: la consigna en la seva L1 o amb suport visual
+
+### Modalitats de resposta
+
+No totes les modalitats tenen la mateixa càrrega cognitiva:
+- **Seleccionar** (triar A, B o C) < **Completar** (omplir buits) < **Produir** (escriure lliurement)
+- Per alumnat amb alta càrrega lingüística: preferir selecció o completar abans de producció
+- Per alumnat amb TEA: preferir formats tancats i predictibles sobre oberts
+- Per alumnat amb TDAH: tasques curtes amb feedback immediat
+
+### Activitats cooperatives i càrrega distribuïda
+
+Les activitats en grup poden reduir la càrrega cognitiva individual si estan ben dissenyades:
+- Cada membre té un rol clar amb una tasca delimitada (no "feu-ho tots junts")
+- El producte final integra les parts, però cada alumne només gestiona la seva càrrega
+- Bastida col·lectiva: un alumne llegeix, un altre anota, un altre resumeix
+- PERILL: si els rols no són clars, la càrrega augmenta (coordinació + contingut)
+
+## Regles per al disseny instruccional segons càrrega cognitiva
+
+### Seqüenciació de la sessió
+
+L'ordre en què es presenten els continguts i activitats afecta directament la càrrega:
+- **Activació** (5 min): connectar amb coneixement previ, càrrega mínima
+- **Presentació** (10-15 min): contingut nou, càrrega intrínseca alta → suports forts
+- **Pràctica guiada** (10-15 min): aplicar amb bastida, càrrega germana
+- **Pràctica autònoma** (10 min): aplicar sol, retirada gradual de suports
+- NO presentar contingut nou al final de la sessió, quan la fatiga cognitiva és alta
+
+### Transicions entre activitats
+
+Cada canvi d'activitat implica càrrega extrínseca: l'alumne ha de comprendre noves instruccions, reorientar l'atenció i adaptar-se a un nou format.
+- Minimitzar el nombre de transicions (3-4 per sessió, no 7-8)
+- Usar rutines: si el format de l'activitat és conegut, la càrrega de comprensió baixa a zero
+- Senyalitzar les transicions visualment i verbalment ("Ara passem a...")
+- Per alumnat amb TEA o TDAH: anticipar la transició ("En 2 minuts canviarem d'activitat")
+
+### Bastides i retirada gradual (scaffolding)
+
+El principi és: **més suport al principi, menys al final**. Però el ritme de retirada depèn del perfil:
+- Alumnat nouvingut pre-A1: mantenir bastides lingüístiques durant setmanes
+- Alumnat amb TDAH: mantenir bastides d'organització (checklist, temporitzadors) més temps que les de contingut
+- Alumnat amb altes capacitats: retirar bastides ràpidament per evitar avorriment (expertise reversal)
+
 ## Implicacions per a un assistent d'adaptació
 
+### Per a textos:
 1. Analitzar la densitat conceptual del text original abans d'adaptar
 2. Decidir quants conceptes nous pot processar l'alumne objectiu
 3. Distribuir els conceptes nous al llarg del text, no concentrar-los
 4. Cada concepte nou va seguit d'un reforç (exemple, analogia, connexió)
 5. Eliminar informació accessòria que no contribueix a l'objectiu curricular
 6. Evitar suports innecessaris que infantilitzin o distreguin
+
+### Per a activitats:
+1. Comptar el nombre de passos i decisions simultànies que demana l'activitat
+2. Descompondre tasques complexes en subtasques seqüencials
+3. Ajustar la modalitat de resposta al perfil (selecció → completar → producció)
+4. Incloure un exemple resolt abans de demanar producció autònoma
+5. Verificar que la consigna no afegeix càrrega innecessària
+6. Per activitats cooperatives: assignar rols explícits
+
+### Per a disseny instruccional:
+1. Seqüenciar de menor a major càrrega intrínseca dins la sessió
+2. Minimitzar transicions entre formats d'activitat
+3. Usar rutines i formats predictibles per reduir càrrega extrínseca
+4. Calibrar la retirada de bastides al perfil i progressió de l'alumne
 
 ## Autors i evidència clau
 
@@ -80,10 +159,13 @@ L'adaptació ha d'ajustar el suport al nivell real, no al perfil genèric.
 # 2. CONNEXIONS AMB ALTRES MÒDULS
 
 - **M1**: El perfil de l'alumne determina la càrrega assumible (L2, DI, TDAH → menor capacitat de processament)
+- **M1_creuament-variables-dependencies**: Quan hi ha múltiples condicions, la càrrega es multiplica
 - **M2_DUA**: El DUA proporciona el marc; la càrrega cognitiva proporciona els llindars
 - **M2_carrega-friccio-cognitiva**: Document germà sobre fricció desitjable en instrucció
+- **M2_aprenentatge-cooperatiu**: Activitats cooperatives com a eina de distribució de càrrega
 - **M3_lectura-facil**: La lectura fàcil és una estratègia de reducció de càrrega extrínseca
 - **M6**: L'avaluació ha de considerar la càrrega del format, no només del contingut
+- **M7_trauma-informed-adaptacio**: La seguretat emocional allibera recursos cognitius
 
 # 3. EXEMPLES OPERATIUS
 
@@ -119,3 +201,54 @@ Adaptació amb segmentació:
 **Fet!** Comprova: substitueix la x pel resultat."
 
 Principis aplicats: objectiu explícit, passos numerats, una acció per pas, confirmació final.
+
+### Exemple 3: Activitat de ciències, alumne nouvingut A1
+
+Activitat original (càrrega alta):
+"En grups de 3, observeu les mostres al microscopi, dibuixeu el que veieu, identifiqueu les parts de la cèl·lula i completeu la taula comparativa entre cèl·lula animal i vegetal."
+
+Anàlisi: 4 demandes simultànies + coordinació grupal + vocabulari científic → càrrega desbordant.
+
+Adaptació amb gestió de càrrega:
+"**Activitat: Mirem cèl·lules** (en parelles)
+
+**Pas 1**: Mira pel microscopi. Què veus? Dibuixa-ho.
+*(No cal que sigui perfecte — dibuixa les formes que veus)*
+
+**Pas 2**: Compara el teu dibuix amb aquesta imatge. [imatge referència amb parts etiquetades]
+Marca amb el dit: on és la **membrana**? On és el **nucli**?
+
+**Pas 3**: Ara mira la segona mostra. És igual o diferent? Marca les diferències.
+
+**Pas 4**: Completa amb la teva parella:
+| | Cèl·lula 1 | Cèl·lula 2 |
+|---|---|---|
+| Forma | ___ | ___ |
+| Té paret? | Sí / No | Sí / No |"
+
+Principis aplicats: descomposició en passos seqüencials, una demanda per pas, suport visual integrat, format de taula simplificat (selecció, no producció), parelles en lloc de grups de 3.
+
+### Exemple 4: Activitat de debat, alumne amb TDAH i vulnerabilitat emocional
+
+Activitat original:
+"Debat obert: argumenteu a favor o en contra de l'energia nuclear. Prepareu els arguments en 10 minuts i debateu durant 15 minuts."
+
+Anàlisi: tasca oberta + preparació autònoma + exposició oral + temps llarg → càrrega extrínseca i emocional alta.
+
+Adaptació amb estructura:
+"**Mini-debat: Energia nuclear — a favor o en contra?**
+
+**Fase 1 — Prepara't (5 min, individual)**
+Tria UNA posició: ⬜ A favor ⬜ En contra
+Escriu 2 arguments. Usa aquesta estructura:
+- Jo penso que ______ perquè ______.
+- A més, ______.
+
+**Fase 2 — Comparteix (5 min, en parelles)**
+Explica els teus 2 arguments a la teva parella. Escolta els seus.
+
+**Fase 3 — Debat (5 min, grup de 4)**
+Cada persona diu 1 argument. Després, 1 ronda de resposta.
+Regla: abans de respondre, repeteix el que ha dit l'altra persona."
+
+Principis aplicats: temps més curts per bloc, format guiat (frases inici), progressió individual→parella→grup, una sola demanda per fase, regla de reciprocitat que obliga a escoltar.
