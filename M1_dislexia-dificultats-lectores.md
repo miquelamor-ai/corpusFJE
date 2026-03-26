@@ -3,9 +3,10 @@ modul: M1
 titol: "Dislèxia i dificultats lectores"
 tipus: caracteristica
 subtipus: constitutiva
-descripcio: "Dislèxia, disgrafia, discalcúlia: detecció, estratègies i adaptacions de materials"
-review_status: esborrany
+descripcio: "Dislèxia: definició IDA 2025, classificació neurocognitiva, detecció (PRODISCAT/APPA), adaptacions per ruta afectada i grau de severitat"
+review_status: revisat
 generat_at: 2026-03-18T15:28:19
+actualitzat_at: 2026-03-25T22:00:00
 variables_configurables:
   - nom: tipus_dislexia
     etiqueta: "Tipus de dislèxia (ruta afectada)"
@@ -39,9 +40,35 @@ variables_configurables:
     impacte: "Si sí: format de columna estreta, màxim 44 caràcters per línia"
 ---
 
-### Tipus de dislèxia (classificació neurocognitiva)
+### 1. CONTINGUT ESPECÍFIC
 
-La dislèxia és un trastorn específic de l'aprenentatge de base neurobiològica que afecta la lectura. La classificació neurocognitiva distingeix tres tipus basats en quina ruta lectora falla:
+#### Descripció del tret
+
+##### Definició i base neurobiològica
+
+La dislèxia és un trastorn específic de l'aprenentatge de base neurobiològica que afecta principalment la lectura precisa i fluida i l'ortografia. La definició de consens més actualitzada és la del projecte Delphi (Carroll et al., 2025), adoptada com a referència per la **International Dyslexia Association (IDA, 2025)**:
+
+> *"Dyslexia is a specific learning disability characterized by difficulties in word reading and/or spelling that involve accuracy, speed, or both and vary across languages."*
+
+Aquesta revisió de 2025 suposa avenços conceptuals rellevants:
+- **Reconeix la dislèxia com a contínuum**, no com a categoria binària
+- **Elimina el criteri de discrepància QI**, superat per la recerca
+- **Afegeix la fluïdesa** (velocitat) com a dimensió nuclear, no només l'exactitud
+- Reconeix que les manifestacions **varien entre sistemes ortogràfics** (transparents com el català vs. opacs com l'anglès)
+- **Amplia les conseqüències secundàries**: comprensió lectora, vocabulari, expressió escrita, benestar emocional i oportunitats vitals
+
+La base neurobiològica implica diferències en circuits cerebrals de processament fonològic (via parieto-temporal), automatització lectora (via occipito-temporal) i producció (via frontal). La recerca genètica de 2025 ha identificat **80 regions del genoma associades a la dislèxia**, 36 de noves, amb gens implicats en el desenvolupament cerebral primerenc i solapament amb TDAH.
+
+La investigació de **Carreiras et al. (Basque Center on Cognition, 2025)**, dins el projecte europeu *Cortical Rhythmics*, evidencia que les **ones cerebrals corticals mostren diferències detectables des dels 4 mesos** i mig en infants que posteriorment presenten dislèxia, obrint la porta a biomarcadors precoços.
+
+##### Prevalença i perfil
+
+- Afecta aproximadament el **5-17% de la població** depenent dels criteris diagnòstics i la llengua
+- Proporció similar en nens i nenes (el biaix masculí clàssic respon a biaixos de derivació)
+- **Alta comorbiditat** amb TDAH, TDL (Trastorn del Desenvolupament del Llenguatge), discalcúlia i trastorn del desenvolupament de la coordinació (Carroll et al., 2025)
+- La dislèxia **coexisteix amb capacitats intel·lectuals normals o altes**
+
+##### Classificació neurocognitiva (rutes lectores)
 
 | Tipus | Ruta afectada | Error característic | Adaptació textual específica |
 |---|---|---|---|
@@ -54,156 +81,191 @@ La dislèxia és un trastorn específic de l'aprenentatge de base neurobiològic
 *   **Moderat**: requereix intervenció especialitzada i adaptacions sistemàtiques
 *   **Sever**: dificultats persistents malgrat intervencions intensives; necessita text molt simplificat i suport multimodal
 
-**Variables de format visual**: La recerca de Change Dyslexia (Rello, 2020) amb 97 participants identifica les dues variables amb més impacte en llegibilitat:
+**Variables de format visual** (Rello, 2020 — Change Dyslexia, 97 participants):
 *   **Tipografia**: palo sec (Arial, Verdana, OpenDyslexic) vs. serif; evitar cursiva
 *   **Interlineat i espaiat**: espaiat ampli redueix errors i augmenta velocitat lectora
 *   **Amplada de columna**: màxim 44 caràcters/línia per reduir errors de seguiment
 
 Aquestes variables afecten el renderitzat (CSS), no el contingut generat per la IA, però són part integral de l'adaptació per dislèxia.
 
-*Fonts: DSM-5-TR (APA); Rello, L. (2020) Change Dyslexia; UNIR Revista.*
+#### Manifestació per etapa educativa
 
-### Descripció del tret
+| Etapa | Senyals prelectores/lectores | Senyals d'escriptura | Impacte emocional |
+|-------|------------------------------|----------------------|-------------------|
+| **Infantil (I3–I5)** | Dificultat en rimes i segmentació sil·làbica; aprenentatge lent de lletres; historial familiar de dislèxia | — | Frustració en tasques de prereading |
+| **Primària (1r–3r)** | Errors de decodificació, confusió b/d/p/q, lectura lenta i molt esforçada, pseudoparaules impossibles | Ortografia molt deficient, lletra irregular | Ansietat lectora, evitació |
+| **Primària (4t–6è)** | Lectura mecànica sense fluïdesa, mala comprensió per excés d'esforç decodificador | Textos escrits molt curts i estructuralment simples | Baixa autoestima acadèmica |
+| **ESO** | Lectura lenta persistent (fins i tot amb exactitud acceptable), problemes en exàmens amb molt text | Ortografia erràtica, expressió escrita pobra | Desmotivació, comparació negativa amb iguals |
+| **Batxillerat/FP** | Lentitud en lectura extensiva, dificultats en idiomes estrangers escrits | Redaccions amb errors ortogràfics persistents | Síndrome de l'impostor, impacte en decisions vocacionals |
 
-> **NOTA**: El contingut d'aquesta secció prové de documents sobre alumnat d'origen estranger, NO de fonts específiques de dislèxia. Cal re-generar amb fonts especialitzades.
+#### Barreres d'aprenentatge
 
-El perfil d'alumnat amb "dificultats lectores" que es pot construir a partir dels documents proporcionats es centra en l'**alumnat d'origen estranger o nouvingut**. És crucial entendre que aquestes "dificultats lectores" no es refereixen a trastorns específics de l'aprenentatge de base neurobiològica com la dislèxia, la disgrafia o la discalcúlia (dels quals els documents no proporcionen informació), sinó a les barreres que sorgeixen de l'adquisició d'una nova llengua (L2) i la manca de referents culturals necessaris per accedir plenament al currículum ordinari.
+*   **Fonològica:** Dificultat per manipular segments sonors de les paraules (fonemes, rimes, síl·labes). Base del dèficit nuclear en la majoria de casos
+*   **Fluïdesa lectora:** Automatització deficient que ocupa recursos cognitius, empobrint la comprensió
+*   **Velocitat de processament:** Lentitud generalitzada en tasques simbòliques
+*   **Memòria de treball verbal:** Dificultats per mantenir seqüències d'instruccions o text oral mentre es processa
+*   **Ortografia:** Representació ortogràfica inestable; errors persistents malgrat l'aprenentatge explícit
+*   **Emocional/motivacional:** Cicle de frustració → evitació → menys pràctica → major retard. L'exposició acumulada a la lectura és un predictor clau del vocabulari i el coneixement general
 
-Aquest alumnat té una història personal i escolar diferent de la resta de companys, amb referents culturals, llengua familiar i cultura escolar de procedència que influeixen directament en el seu procés d'aprenentatge. Poden tenir un bon nivell de competència comunicativa en la llengua d'acollida, però presentar llacunes en els seus coneixements previs o dificultats en la comprensió de conceptes que estan fortament modulats per la cultura i la llengua d'aprenentatge. L'espectre de variabilitat és molt ampli, depenent de factors com l'edat d'incorporació al sistema educatiu, el sistema educatiu de procedència, el bagatge lingüístic i cultural previ, i el suport familiar i escolar rebut. La prevalença d'aquestes dificultats lectores, enteses com a reptes d'adaptació lingüística i cultural, és inherent a l'alumnat nouvingut que s'incorpora a un sistema educatiu amb una llengua i cultura diferents.
+#### Necessitats prioritàries
 
-### Manifestació per etapa educativa
+1.  **Instrucció lectora estructurada i explícita** (Structured Literacy): ensenyament sistemàtic de la correspondència grafema-fonema, síl·labes, morfemes. Evidència RCT extensa (Snowling, 2024)
+2.  **Intervenció intensiva en fluïdesa lectora**: lectura repetida, paired reading, texts al nivell instruccional
+3.  **Suport multimodal**: integrar canal auditiu (text a veu), visual i cinestèsic per consolidar associacions lletra-so
+4.  **Adaptació de materials i avaluació** (veure variables_configurables): tipografia, interlineat, columnes estretes, temps addicional
+5.  **Suport socioemocional**: adreçar la baixa autoestima acadèmica; treballar atribucions causals adaptatives
 
-*   **Infantil/Primària:** Els infants poden mostrar dificultats en l'adquisició del vocabulari bàsic, la comprensió de contes o instruccions senzilles, i la participació en activitats de grup que requereixen un domini lingüístic i referents culturals locals. Les rutines d'aula i els procediments didàctics poden resultar-los estranys. Les llacunes en coneixements previs poden ser menys evidents al principi, però es manifesten en àrees com el coneixement del medi.
-*   **ESO:** Les dificultats es fan més complexes, ja que el currículum exigeix un domini lingüístic acadèmic i una base de coneixements culturals més sòlida. Poden tenir problemes per comprendre textos de matèries específiques (història, geografia, ciències socials), participar en debats, o expressar idees complexes per escrit. La manca de referents culturals pot generar llacunes en àrees com les ciències socials o la literatura, fins i tot en alumnes amb bona competència comunicativa.
-*   **Batxillerat/FP:** En aquestes etapes, les exigències acadèmiques són molt altes. L'alumnat pot trobar barreres significatives en la comprensió de textos especialitzats, la redacció d'assajos argumentatius, l'anàlisi crítica de continguts o la participació en discussions complexes. Les diferències en la cultura escolar de procedència poden afectar la seva adaptació a metodologies d'estudi i avaluació.
+#### Fortaleses a aprofitar
 
-### Barreres d'aprenentatge
+*   Creativitat i pensament visual-espacial freqüentment preservats o destacats
+*   Capacitat de raonament oral i comprensió auditiva sovint superiors a la lectura
+*   Alta motivació quan se'ls ofereix el suport adequat i s'elimina la barrera de la decodificació
+*   Pensament holístic i capacitat de connexió entre idees
 
-*   **Lingüístic:** Dificultats en l'adquisició del català com a L2, tant a nivell comunicatiu com acadèmic. Això inclou vocabulari, sintaxi, comprensió lectora de textos complexos i expressió escrita. La llengua modula la realitat, i la comprensió de conceptes pot ser un repte quan la llengua d'aprenentatge és diferent de la materna.
-*   **Cognitiu:** Les llacunes en coneixements previs, especialment en àrees com història, geografia o ciències socials, que estan fortament lligades a la cultura d'acollida. La dificultat per relacionar nous conceptes amb esquemes de coneixement ja existents.
-*   **Emocional:** Frustració, baixa autoestima o desmotivació davant les dificultats persistents. Sentiments d'aïllament o incomprensió.
-*   **Social:** Dificultat per integrar-se plenament amb els companys a causa de les barreres lingüístiques i culturals. Desconeixement de les pràctiques culturals i normes socials de l'entorn.
-*   **Sensorial:** No aplicable directament a aquest perfil, ja que les dificultats no són de base sensorial.
-*   **Curricular:** El currículum ordinari pot no estar adaptat per incorporar els elements culturals i lingüístics necessaris per a la comprensió de l'alumnat d'origen estranger. Les rutines d'aula i els procediments didàctics poden ser estranys si provenen d'un sistema educatiu molt diferent.
+#### Senyals identificadors a l'aula
 
-### Necessitats prioritàries
+**Senyals d'alarma precoç (Infantil/1r Primària):**
+*   Dificultat per aprendre rimes i cançons
+*   Lentitud en reconèixer el propi nom escrit
+*   No automatitza el nom de les lletres malgrat l'exposició repetida
+*   Historial familiar de dificultats lectores
 
-1.  **Suport lingüístic intensiu:** Programes d'acollida lingüística, ensenyament explícit de vocabulari acadèmic i estructures gramaticals complexes, i estratègies de comprensió lectora adaptades.
-2.  **Contextualització cultural del currículum:** Incorporar elements de la cultura relacionada amb la llengua d'aprenentatge (entorn geogràfic, història, símbols, productes i pràctiques culturals) per facilitar la comprensió dels continguts.
-3.  **Adaptació de metodologies i rutines d'aula:** Explicar i modelar explícitament les rutines i procediments didàctics propis del sistema educatiu d'acollida.
-4.  **Suport emocional i social:** Fomentar la integració amb els companys, crear un clima d'aula acollidor i segur, i donar suport en la construcció de la identitat en el nou context.
-5.  **Avaluació adaptada:** Utilitzar instruments d'avaluació que tinguin en compte el nivell de domini de la L2 i els coneixements culturals de l'alumne.
+**Senyals consolidats (Primària–ESO):**
+*   Lectura molt lenta i esforçada, amb errors de decodificació (omissions, substitucions, inversions)
+*   Gran discrepància entre capacitat oral i rendiment escrit
+*   Ortografia erràtica en paraules conegudes
+*   Evitació de tasques de lectura i escriptura
+*   Millora notable amb temps addicional o lectura en veu alta
 
-### Fortaleses a aprofitar
+**Anti-senyals (que no apunten a dislèxia):**
+*   Dificultats únicament en una llengua (L2), però no en L1
+*   Dificultat en totes les matèries incloent matemàtiques sense component lector
+*   Millora ràpida i completa amb instrucció ordinària
 
-*   **Bagatge cultural i lingüístic:** L'experiència de viure en cultures diferents i el coneixement d'altres llengües són un recurs valuós. Aquest multilingüisme pot ajudar a clarificar i enriquir conceptes nous, oferint diferents perspectives semàntiques.
-*   **Motivació i voluntat de progressar:** Molts alumnes i les seves famílies tenen una gran motivació per l'èxit acadèmic i la integració.
-*   **Resiliència i adaptabilitat:** L'experiència de canvi i adaptació a un nou entorn pot haver desenvolupat una gran capacitat de resiliència.
-*   **Perspectives diverses:** Aporten punts de vista únics a l'aula que poden enriquir el debat i la comprensió global de temes.
+#### Perfils associats i comorbiditats
 
-### Senyals identificadors a l'aula
+*   **Dislèxia + TDAH**: comorbiditat documentada en un 30-40% dels casos. La fatiga lectora esgota la capacitat atencional ja limitada. Veure dependència #7 a M1_creuament-variables-dependencies.md
+*   **Dislèxia + TDL**: ambdós canals (oral i escrit) compromesos. Veure dependència #10
+*   **Dislèxia + Altes capacitats (2e)**: masking mutu — la intel·ligència compensa la dislèxia i viceversa. Veure dependència #13
+*   **Dislèxia + Nouvingut**: la barrera lingüística amplifica la fatiga lectora. Veure dependència #2
+*   **Dislèxia + Discalcúlia**: comparteixen dèficits en processament simbòlic
+*   **Dislèxia + Trastorn del desenvolupament de la coordinació** (Carroll et al., 2025)
 
-*   Dificultat per seguir instruccions orals complexes o textos escrits, fins i tot després d'haver adquirit un nivell bàsic de la llengua.
-*   Llacunes en els coneixements previs que no es corresponen amb la seva capacitat intel·lectual general (ex: en història o geografia local).
-*   Participació limitada en discussions de grup o dificultat per expressar idees de forma elaborada.
-*   Errors freqüents en la comprensió de conceptes abstractes o expressions idiomàtiques.
-*   Dificultat per adaptar-se a les rutines d'aula o a les expectatives de participació.
-*   Resultats acadèmics per sota de les expectatives en àrees amb alt component cultural o lingüístic, malgrat l'esforç.
+#### Principis d'actuació
 
-### Perfils associats i comorbiditats
+*   **Adaptar continguts:** Prioritzar la fluïdesa sobre l'exactitud en els textos generats: frases curtes, estructura predictible. No confondre dislèxia amb baixa intel·ligència ni amb manca d'esforç.
+*   **Adaptar activitats:** Oferir alternatives d'accés multimodal (text a veu, representació visual, oral). Evitar tasques que depenguin exclusivament de la lectura autònoma per accedir al contingut.
+*   **Adaptar avaluació:** En tasques escrites, valorar el contingut conceptual per sobre de la correcció ortogràfica. Permetre temps addicional, formats orals o tecnologia assistiva.
+*   **Adaptar interacció:** Activar les variables configurables (tipografia, columnes, tipus de dislèxia) per personalitzar el renderitzat. No confondre dislèxia amb dificultats per L2 (però tenir present que poden coexistir).
 
-Aquest perfil no es refereix a trastorns específics, per tant, el concepte de "comorbiditat" no aplica de la mateixa manera. No obstant això, les dificultats lectores derivades de la condició d'alumne d'origen estranger poden coexistir amb:
-*   **Dificultats socioemocionals:** Derivades del procés migratori, l'adaptació cultural o l'aïllament.
-*   **Retard en l'adquisició de la L2:** Si el suport lingüístic no és adequat o l'exposició a la llengua és limitada.
-*   **Desmotivació escolar:** Com a conseqüència de la frustració per les barreres d'aprenentatge.
-*   **En alguns casos, i de manera independent, podrien coexistir amb trastorns específics de l'aprenentatge (dislèxia, TDAH, etc.), però la detecció d'aquests es veu dificultada per les barreres lingüístiques i culturals inicials.**
+#### Línies vermelles
 
-### Principis d'actuació
+*   **No diagnosticar dislèxia** basant-se únicament en errors ortogràfics puntuals. **Per què?** La dislèxia és un diagnòstic clínic que requereix avaluació especialitzada.
+*   **No atribuir les dificultats a falta de motivació, mandra o baixa capacitat.** **Per què?** La dislèxia és de base neurobiològica; l'esforç que fa l'alumne per llegir pot ser enorme i invisible.
+*   **No eliminar l'accés als textos: adaptar, no simplificar fins a buidar de contingut.** **Per què?** L'alumne amb dislèxia pot processar contingut complex — el problema és el canal, no la capacitat.
+*   **No confondre el perfil de dislèxia fonològica amb el de dislèxia superficial.** **Per què?** Les adaptacions òptimes difereixen: la fonològica necessita vocabulari freqüent, la superficial paraules curtes.
+*   **No considerar la dislèxia "superable" sense suport.** **Per què?** És un tret persistent que requereix acomodació continuada al llarg de tota l'escolarització.
 
-Per a l'alumnat d'origen estranger amb dificultats lectores (derivades de la L2 i el context cultural), l'actuació docent ha de ser fonamentalment inclusiva i personalitzada. Això implica adaptar els continguts, les activitats, l'avaluació i la interacció a l'aula. En primer lloc, cal garantir un suport lingüístic continuat, no només en les hores específiques d'acollida, sinó en totes les àrees, explicitant el vocabulari i les estructures lingüístiques necessàries. Pel que fa als continguts, és essencial contextualitzar-los culturalment, incorporant referents propers a l'alumne o explicant els referents de la cultura d'acollida de manera explícita. Les activitats han de ser variades, amb suport visual, treball cooperatiu i oportunitats per practicar la llengua en contextos significatius. L'avaluació ha de ser formativa, contínua i flexible, tenint en compte el procés d'adquisició de la L2 i els coneixements previs. Finalment, la interacció a l'aula ha de fomentar un clima de respecte i acceptació de la diversitat, on l'alumne se senti segur per participar i preguntar, i on el seu bagatge cultural sigui valorat com una riquesa.
+#### Detecció i protocols
 
-### Línies vermelles
+##### Principis de detecció (Response to Intervention / RTI)
 
-*   **No confondre les dificultats d'adquisició de la L2 i de referents culturals amb una baixa capacitat intel·lectual o amb un trastorn específic de l'aprenentatge (com la dislèxia).** Això portaria a etiquetar erròniament l'alumne i a aplicar intervencions inadequades, ja que les necessitats i els suports són diferents.
-*   **No considerar el bagatge cultural i lingüístic de l'alumne com un inconvenient o un dèficit.** És una oportunitat per enriquir l'aula i el procés d'aprenentatge, i cal aprofitar-lo per construir nous coneixements.
-*   **No reduir el suport a l'alumnat d'origen estranger a una fase inicial d'acollida lingüística.** Les dificultats lingüístiques i la manca de referents culturals persisteixen més enllà de l'adquisició de la comunicació bàsica i requereixen un suport continuat i transversal en totes les àrees.
-*   **No assumir que l'alumne coneix les rutines i procediments didàctics de l'escola d'acollida.** Cal explicitar-los i modelar-los, ja que poden provenir de sistemes educatius molt diferents.
+La literatura actual defensa la detecció basada en resposta a la instrucció (RTI / Multi-Tiered Systems of Support), no en la discrepància QI-rendiment:
+1.  **Nivell 1:** Instrucció universal de qualitat + cribatge universal
+2.  **Nivell 2:** Intervenció en petit grup intensiva per a alumnat en risc
+3.  **Nivell 3:** Intervenció individualitzada per a alumnat amb dificultats persistents
 
----
+L'estudi de Vale De Oliveira et al. (2026) confirma que una intervenció fonosil·làbica multimodal sistemàtica aplicada a infants identificats precoçment elimina les diferències amb el grup de comparació en la majoria de casos, però subratlla la necessitat de suport individualitzat continuat per al subgrup amb dificultats persistents.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **marc_escola_inclusiva**: Aquest document perfila un tipus d'alumnat que requereix un enfocament inclusiu del currículum i de l'escola.
-*   **estrategia_acollida_linguistica**: Les necessitats lingüístiques d'aquest perfil d'alumnat es cobreixen amb estratègies d'acollida lingüística.
-*   **protocol_deteccio_NEE**: Tot i que no es tracta d'una NEE en el sentit de trastorn, les dificultats d'aquest perfil poden requerir protocols d'identificació de necessitats de suport.
-*   **eina_observacio_aula**: Per detectar els senyals identificadors i les barreres d'aprenentatge d'aquest alumnat.
+##### Protocols a Catalunya
 
-# 3. DETECCIÓ (Variables de Context)
+*   **PRODISCAT** (Departament d'Ensenyament / Col·legi de Logopedes de Catalunya): protocol de cribatge per edats des d'I3 fins als 18 anys, per a ús dels docents a l'aula
+*   **Projecte APPA** (Accions de Prevenció per Promoure l'Aprenentatge): pilot 2026 del Departament d'Educació amb 450 centres i 25.000 alumnes de 1r i 3r de primària per detecció precoç de dificultats lectores. Inclou derivació a Pediatria per a diagnòstic de trastorns específics com la dislèxia
+*   **CLC — Trastorns del Desenvolupament de l'Aprenentatge (2025)**: guia clínica que inclou PRODISLEX, PROLEXIA i recomanacions d'avaluació multiaxial
+
+### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+
+*   **M1_TDAH**: Comorbiditat 30-40%. Veure dependència #7 (dislèxia × TDAH) al document de creuaments
+*   **M1_TDL-trastorn-llenguatge**: Ambdós canals compromesos. Veure dependència #10 (dislèxia × TDL)
+*   **M1_altes-capacitats**: Doble excepcionalitat (2e). Veure dependència #13 i secció 2e
+*   **M1_alumnat-nouvingut**: La barrera L2 amplifica la fatiga lectora. Veure dependència #2
+*   **M1_creuament-variables-dependencies**: Dependencies #2, #7, #10, #13
+*   **M3_lectura-facil-comunicacio-clara**: Tècniques de simplificació directament aplicables
+*   **M2_carrega-cognitiva-adaptacio-textos**: Gestió de la càrrega cognitiva per perfil lector
+*   **M2_DUA-principis-pautes**: Marc general d'accessibilitat
+
+### 3. DETECCIÓ (Variables de Context)
+
 *   **Senyals del docent:**
-    *   "Observo que un alumne nouvingut té dificultats per seguir les explicacions, fins i tot després de mesos a l'aula."
-    *   "Els resultats en proves de comprensió lectora de textos acadèmics són baixos, tot i que oralment es comunica amb fluïdesa."
-    *   "L'alumne no participa en discussions sobre temes d'història o cultura local, o mostra desconeixement de fets bàsics."
-    *   "Les seves produccions escrites són molt bàsiques o presenten errors estructurals persistents, més enllà dels típics d'aprenentatge de L2."
-    *   "L'alumne sembla desorientat amb les rutines de treball en grup o les expectatives d'autonomia."
+    *   "Llegeix molt lentament i amb molts errors, tot i que entén bé quan li explico oralment."
+    *   "La seva ortografia és molt erràtica, fins i tot en paraules que hem treballat moltes vegades."
+    *   "Evita llegir en veu alta i es posa molt nerviós quan li toca."
+    *   "Hi ha una gran diferència entre el que sap dir i el que pot escriure."
+    *   "Confon lletres similars (b/d, p/q) de manera persistent."
+    *   "Té dificultats en idiomes estrangers escrits que no corresponen amb la seva capacitat oral."
 *   **Senyals de l'alumne:**
-    *   Frustració o desmotivació en tasques de lectura o escriptura complexes.
-    *   Preguntes freqüents sobre vocabulari o conceptes bàsics que altres companys ja dominen.
-    *   Silenci o poca participació en activitats que requereixen expressió oral o coneixements culturals.
+    *   Frustració o ansietat davant tasques de lectura
+    *   Evitació sistemàtica de la lectura i l'escriptura
+    *   Verbalitza que "és ximple" o que "no serveix per estudiar"
+    *   Rendiment oral molt superior al rendiment escrit
 *   **Senyals de context:**
-    *   Alumnat que s'ha incorporat tardanament al sistema educatiu.
-    *   Activitats que requereixen un alt nivell de comprensió lectora de textos amb referents culturals específics.
-    *   Avaluacions que no permeten l'ús de la llengua materna o que no tenen en compte el procés d'adquisició de la L2.
+    *   Historial familiar de dificultats lectores
+    *   Dificultats persistents malgrat instrucció adequada i continuada
+    *   Millora significativa amb temps addicional o amb suport oral
 *   **Anti-senyals:**
-    *   L'alumne mostra dificultats lectores similars en la seva llengua materna (pot indicar dislèxia, no només dificultat per L2).
-    *   Les dificultats són generalitzades en totes les àrees del currículum, incloses les matemàtiques o les arts, sense un component lingüístic o cultural clar.
-    *   L'alumne ha rebut suport lingüístic intensiu i contextualitzat durant un període prolongat i les dificultats persisteixen sense millora.
+    *   Les dificultats apareixen només en L2 però no en L1 (pot ser barrera lingüística, no dislèxia)
+    *   Dificultat generalitzada en totes les àrees sense component lector específic
+    *   Millora ràpida i completa amb instrucció ordinària
+    *   Les dificultats es van iniciar recentment i no tenen historial
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
-*   **Principi general:** L'agent ha de promoure una mirada inclusiva que valori la diversitat lingüística i cultural com un recurs, no com un obstacle, i que proporcioni suports personalitzats per garantir l'accés de tot l'alumnat al currículum.
+### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+
+*   **Principi general:** L'agent ha d'adaptar el format i la complexitat lèxica del text segons el tipus de dislèxia i el grau de severitat, sense reduir la profunditat conceptual. La dislèxia afecta el canal, no la capacitat.
 
 *   **Heurístiques per a l'Agent DOCENT:**
-    *   **Heurística: Contextualització Cultural Activa**
-        *   **Quan aplica:** Quan el docent detecta que l'alumnat d'origen estranger mostra llacunes en coneixements previs o dificultats en la comprensió de continguts lligats a la cultura d'acollida (ex: història, geografia, literatura).
-        *   **Fonament:** Els documents subratllen que la manca de referents culturals és una barrera significativa. Incorporar elements de la cultura d'aprenentatge facilita la connexió amb els nous coneixements i evita que l'alumne se senti exclòs o incomprès.
-        *   **Exemple complet de raonament:** Un docent està preparant una unitat sobre la història de Catalunya per a un grup d'ESO amb alumnes nouvinguts. L'agent raonaria que, en lloc de presentar els fets històrics de manera lineal i assumint coneixements previs, el docent hauria d'iniciar la unitat amb una activitat que connecti la història local amb la història global o amb els països d'origen dels alumnes. Per exemple, podria demanar que investiguin esdeveniments històrics similars en les seves cultures o que identifiquin personatges rellevants en la seva pròpia història. Això no només contextualitza el contingut, sinó que també valida el seu bagatge cultural, fent l'aprenentatge més significatiu i accessible.
-    *   **Heurística: Suport Lingüístic Explícit i Transversal**
-        *   **Quan aplica:** Quan l'alumne d'origen estranger, fins i tot amb competència comunicativa bàsica, té dificultats per comprendre textos acadèmics o expressar idees complexes en qualsevol àrea.
-        *   **Fonament:** L'adquisició de la L2 va més enllà de la comunicació oral. Cal un domini del llenguatge acadèmic i de les estructures textuals pròpies de cada matèria. El suport ha de ser continuat i no limitat a hores d'acollida.
-        *   **Exemple complet de raonament:** Una professora de ciències observa que un alumne nouvingut té problemes per entendre els enunciats dels problemes o els textos explicatius. L'agent suggeriria a la professora que, abans de començar la lectura, dediqui uns minuts a pre-ensenyar el vocabulari clau específic de la matèria (ex: "densitat", "reacció química", "ecosistema"), utilitzant sinònims senzills, imatges o gestos. A més, podria modelar la lectura dels textos, subratllant les idees principals i explicant les connexions lògiques, per tal de fer explícites les estratègies de comprensió lectora que sovint es donen per suposades.
-    *   **Heurística: Valoració del Bagatge Plurilingüe**
-        *   **Quan aplica:** Quan es vol potenciar la comprensió de conceptes o la creativitat lingüística en alumnes que coneixen diverses llengües.
-        *   **Fonament:** Les diferents perspectives semàntiques de les llengües poden enriquir la comprensió d'un concepte nou o donar una nova perspectiva a un concepte antic. El multilingüisme és una fortalesa.
-        *   **Exemple complet de raonament:** Un professor de llengua vol que els alumnes entenguin la polisèmia d'una paraula. L'agent podria proposar que els alumnes d'origen estranger comparteixin com es diu i quins significats té aquesta paraula en la seva llengua materna. Això no només enriqueix la comprensió de la paraula en català, sinó que també valida la seva llengua d'origen i els fa sentir valorats. Aquesta pràctica pot obrir un debat sobre com les llengües conceptualitzen la realitat de maneres diferents, aprofundint en la comprensió lingüística i cultural de tot el grup.
-    *   **Heurística: Adaptació de Rutines i Procediments Didàctics**
-        *   **Quan aplica:** Quan l'alumne d'origen estranger sembla desorientat amb la dinàmica de l'aula, les tasques o les expectatives de treball.
-        *   **Fonament:** Els sistemes educatius de procedència poden ser molt diferents, i les rutines d'aula són un element cultural més que cal aprendre.
-        *   **Exemple complet de raonament:** Un docent assigna un projecte de recerca en grup i nota que un alumne nouvingut no sap com començar, què s'espera d'ell en el treball en equip o com organitzar la informació. L'agent aconsellaria al docent que, abans de llançar-se al projecte, dediqui temps a explicar explícitament cada fase: com es forma un grup, quins rols hi ha, com es reparteixen les tasques, com es busca informació fiable, com es cita, etc. Podria utilitzar exemples concrets, llistes de verificació o fins i tot modelar una part del procés amb tot el grup, per fer transparents les expectatives i els procediments.
-    *   **Heurística: Avaluació Formativa i Flexible**
-        *   **Quan aplica:** Quan es necessita avaluar l'aprenentatge d'un alumne d'origen estranger sense que les barreres lingüístiques o culturals distorsionin el resultat.
-        *   **Fonament:** Una avaluació rígida pot no reflectir el coneixement real de l'alumne si no té prou domini de la L2 o dels referents culturals.
-        *   **Exemple complet de raonament:** Un professor ha de fer una avaluació sumativa d'una unitat. L'agent suggeriria que, per a l'alumnat d'origen estranger, es considerin formats d'avaluació alternatius o adaptats. Això podria incloure l'ús de suports visuals, la possibilitat de respondre oralment en lloc d'escrit (si el domini oral és superior), la utilització de diccionaris bilingües, o la simplificació d'enunciats. L'objectiu és avaluar el coneixement del contingut, no el domini perfecte de la L2.
+
+    *   **Nom:** Adaptació per ruta afectada
+    *   **Quan aplica:** Quan el docent indica que l'alumne té dislèxia i es coneix el tipus.
+    *   **Fonament:** La dislèxia fonològica, superficial i mixta requereixen estratègies lèxiques diferents. Aplicar una estratègia genèrica pot ser subòptim.
+    *   **Exemple complet de raonament:** "El docent indica que l'alumna té dislèxia fonològica i necessita adaptar un text de ciències. L'agent ha de raonar que la via grafema-fonema està compromesa, per tant ha de prioritzar vocabulari freqüent i conegut, evitar paraules noves fonèticament complexes (o introduir-les amb molt suport), i usar contextos que facilitin la deducció del significat. No ha de simplificar el contingut conceptual — l'alumna pot entendre la fotosíntesi, però necessita que les paraules siguin predictibles per la via lèxica. A més, ha d'activar la tipografia adaptada si està disponible."
+
+    *   **Nom:** Detecció vs. diagnòstic — el paper del docent
+    *   **Quan aplica:** Quan un docent pregunta si un alumne "té dislèxia" basant-se en errors lectors.
+    *   **Fonament:** El docent detecta senyals, no diagnostica. El protocol RTI estableix tres nivells de resposta abans del diagnòstic clínic.
+    *   **Exemple complet de raonament:** "Un docent pregunta si un alumne nouvingut que llegeix malament 'podria tenir dislèxia'. L'agent ha de raonar que primer cal descartar que les dificultats siguin per la barrera lingüística (L2). Si l'alumne també llegeix amb dificultats en la seva L1, el senyal és més consistent. L'agent recomanaria al docent: (1) observar si hi ha dificultats en L1, (2) aplicar adaptacions de Nivell 1 (instrucció de qualitat), (3) si persisteix, derivar al logopeda o EAP per a cribatge amb PRODISCAT. No dir mai a la família que l'alumne 'té dislèxia' sense avaluació professional."
+
+    *   **Nom:** Fluïdesa, no només exactitud
+    *   **Quan aplica:** Quan es dissenyen activitats lectores per a alumnat amb dislèxia.
+    *   **Fonament:** La definició IDA 2025 inclou la fluïdesa com a dimensió nuclear. Un alumne que llegeix exactament però molt lentament necessita suport tant com un que comet errors.
+    *   **Exemple complet de raonament:** "Un docent diu que l'alumna 'ja llegeix bé' perquè no comet gaires errors. L'agent ha de raonar que l'exactitud no és l'únic indicador — si la lectura és molt lenta, l'alumna gasta tots els seus recursos cognitius en descodificar i no en comprendre. L'agent recomanaria avaluar la fluïdesa (paraules per minut) i, si és baixa, implementar pràctica de lectura repetida amb textos al nivell instruccional per automatitzar la decodificació."
 
 *   **Heurístiques per a l'Agent ALUMNE:**
-    *   **Heurística: Demanar Clarificació Activa**
-        *   **Quan aplica:** Quan l'alumne no entén una instrucció, un concepte o una paraula en català.
-        *   **Fonament:** És fonamental que l'alumne es senti segur per expressar els seus dubtes i que entengui que és part del procés d'aprenentatge d'una nova llengua i cultura.
-        *   **Exemple complet de raonament:** Un alumne nouvingut està llegint un text de socials i no entén el significat d'una paraula clau com "monarquia parlamentària". L'agent guiaria l'alumne a no quedar-se amb el dubte, sinó a subratllar la paraula i, en primer lloc, intentar deduir el significat pel context. Si no és possible, l'agent l'animaria a preguntar al docent o a un company, o a buscar la paraula en un diccionari bilingüe. L'agent podria suggerir frases com "Ho pots explicar d'una altra manera?" o "Què vol dir 'monarquia parlamentària'?" per facilitar la pregunta.
-    *   **Heurística: Connectar amb el Propi Bagatge**
-        *   **Quan aplica:** Quan l'alumne troba un concepte nou o un fet cultural desconegut en el currículum.
-        *   **Fonament:** Utilitzar els coneixements i referents de la pròpia cultura i llengua pot ajudar a construir ponts cap als nous aprenentatges i enriquir la comprensió.
-        *   **Exemple complet de raonament:** Un alumne està estudiant un període històric a Catalunya i no entén la rellevància d'un esdeveniment. L'agent el guiaria a pensar si hi ha hagut esdeveniments similars o amb significats semblants en la història del seu país d'origen. Per exemple, si s'estudia un conflicte, l'agent podria preguntar: "Hi ha hagut conflictes similars al teu país? Quines van ser les causes? Quines conseqüències van tenir?" Això l'ajuda a relacionar el nou coneixement amb el seu propi marc de referència, fent-lo més comprensible i significatiu.
-    *   **Heurística: Participació Activa i Gradual**
-        *   **Quan aplica:** Quan l'alumne se sent insegur per participar en activitats orals o grupals a causa de les barreres lingüístiques.
-        *   **Fonament:** La participació activa és clau per a l'adquisició de la llengua i la integració social, però ha de ser un procés gradual i amb suport.
-        *   **Exemple complet de raonament:** Un alumne es mostra reticent a parlar en un debat a classe. L'agent l'animaria a començar amb petites intervencions, com assentir amb el cap, fer un gest, o dir una paraula clau. Després, podria suggerir-li que prepari una frase curta per expressar la seva opinió en un moment concret. L'agent també podria proposar-li que practiqui amb un company de confiança abans de participar en gran grup, o que utilitzi el seu quadern per anotar idees clau que vulgui compartir, reduint la pressió de la improvisació.
+
+    *   **Nom:** Accés multimodal al contingut
+    *   **Quan aplica:** Quan l'alumne ha de llegir un text per a una tasca.
+    *   **Fonament:** La dislèxia afecta la lectura, no la comprensió auditiva ni el raonament. Oferir canals alternatius elimina la barrera.
+    *   **Exemple complet de raonament:** "Un alumne amb dislèxia ha de llegir un capítol de novel·la per a classe. L'agent suggeriria: (1) escoltar l'audiollibre mentre segueix el text amb el dit, (2) llegir en veu alta amb un company (paired reading), (3) usar un lector de pantalla. L'objectiu és que accedeixi al contingut i pugui participar en la discussió a classe, no que demostri que sap descodificar."
+
+    *   **Nom:** Gestió de la frustració lectora
+    *   **Quan aplica:** Quan l'alumne expressa frustració, vergonya o evitació davant la lectura.
+    *   **Fonament:** El cicle frustració → evitació → menys pràctica → major retard és el principal risc a llarg termini.
+    *   **Exemple complet de raonament:** "L'alumne diu que 'no serveix per llegir'. L'agent ha de validar la frustració ('Entenc que llegir et costa molt esforç, i això és real — no és culpa teva'), explicar que la dislèxia afecta com el cervell processa les lletres però NO la intel·ligència, i proposar estratègies concretes per reduir la barrera (text a veu, tipografia adaptada, temps extra). L'objectiu és trencar el cicle d'evitació mantenint el contacte amb el text."
+
 ---
 
 ## 5. FONTS DEL CORPUS
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/index |
-| 2 | cursos:escola_inclusiva:ansu:b1:b1t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t1 |
-| 3 | cursos:escola_inclusiva:ansu:b3:b3t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t3 |
-| 4 | 795m_b36112876d.pdf | http://www.xtec.cat/sgfp/llicencies/200304/memories/795m.pdf |
+| # | Referència | Tipus | Any |
+|---|-----------|-------|-----|
+| 1 | Carroll, J.M. et al. *Toward a consensus on dyslexia: findings from a Delphi study.* JCPP. | Revisió Delphi consens | 2025 |
+| 2 | IDA *2025 Dyslexia Definition Project.* dyslexiaida.org | Definició oficial | 2025 |
+| 3 | Snowling, M.J. *Dyslexia and Language: Disorder or Difference?* Gresham College. | Conferència evidència | 2024 |
+| 4 | Vale De Oliveira et al. *Effects of a structured multisensory phonics-based intervention.* Frontiers in Education. | RCT intervenció | 2026 |
+| 5 | Mountford, H. et al. *Genetic study of dyslexia (1.2M participants).* Translational Psychiatry. | Genètica | 2025 |
+| 6 | Carreiras, M. et al. *Cortical Rhythmics project.* Basque Center on Cognition. | Biomarcadors | 2025 |
+| 7 | Departament d'Educació Catalunya. *Projecte APPA.* 3Cat. | Protocol Catalunya | 2026 |
+| 8 | PRODISCAT. *Protocol de Detecció i Actuació en la Dislèxia.* Col·legi Logopedes Catalunya. | Protocol Catalunya | Vigent |
+| 9 | CLC. *Trastorns del Desenvolupament de l'Aprenentatge.* Guia BP_08. | Guia clínica | 2025 |
+| 10 | Rello, L. *Change Dyslexia.* Investigació sobre llegibilitat tipogràfica. | Llegibilitat | 2020 |
 
-*4 documents font · secció generada automàticament*
+*10 fonts referencials · document actualitzat 2026-03-25*
