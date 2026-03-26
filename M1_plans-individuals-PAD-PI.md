@@ -2,9 +2,10 @@
 modul: M1
 titol: "Plans individuals i atenció a la diversitat"
 tipus: protocol
-descripcio: "PAD, PI i plans individualitzats compartits: estructura, elaboració i coordinació del suport al centre"
-review_status: esborrany
+descripcio: "PI obligatori (NEE) vs PSI voluntari (NESE), rols i responsabilitats, cicle de revisió, firma, plantilla PI, D150/2017"
+review_status: revisat
 generat_at: 2026-03-18T12:59:52
+actualitzat_at: 2026-03-27T02:00:00
 ---
 
 # 1. CONTINGUT ESPECÍFIC DEL PROTOCOL
@@ -74,21 +75,116 @@ Abans d'activar aquest protocol, el centre ha de tenir establerts els següents 
 
 ## Rols i responsabilitats
 
-| Rol                          | Funció
----
+| Rol | Funció en el PI | Obligatorietat |
+|-----|----------------|----------------|
+| **Tutor/a** | Responsable d'elaborar el PI i coordinar-ne el seguiment. Principal interlocutor amb la família i l'alumne. Convoca les reunions de seguiment trimestral. | Sempre que hi ha PI |
+| **Equip docent** | Col·labora en l'elaboració del PI. Aplica les mesures adaptades a les seves àrees. Participa en les sessions d'avaluació. | Sempre que hi ha PI |
+| **Direcció del centre** | Aprova el PI (amb el vistiplau de la CAEI/CAD). Vetlla per la coordinació i el compliment. Signa el PI. | Sempre que hi ha PI |
+| **CAEI / CAD** | Valora la proposta i aprova l'elaboració del PI. Prioritza les demandes d'atenció. Fa el seguiment global. | Sempre que hi ha PI |
+| **EAP** | Emet l'informe de reconeixement de NESE que és la base del PI obligatori. Assessora en la concreció de mesures. Participa en la CAEI com a mínim un cop per trimestre. | PI obligatori (NEE). Opcional en PSI |
+| **Mestre/a d'EE / Orientador/a** | Assessora el tutor en l'elaboració del PI. Dóna suport en la personalització de l'aprenentatge i l'avaluació de l'alumnat amb NEE. | PI obligatori (NEE) |
+| **Docent AED** | Participa en l'elaboració del PI. Fa el seguiment mensual amb el tutor. Participa en la CAEI trimestralment. | Quan hi ha AED assignat |
+| **Família / tutors legals** | Ha d'estar informada del procés. Col·labora en l'elaboració dels acords i en el seguiment. Consentiment per al dictamen EAP. | Sempre. La seva participació és un dret i una condició |
+| **Alumne/a** | Ha d'estar informat del procés i participar en l'elaboració dels acords (especialment a partir de 3r cicle de Primària i tota la Secundària). | Sempre, adaptat a l'edat i capacitats |
+| **Serveis externs** (CDIAP, EAIA, logopeda, fisioterapeuta, salut mental) | Aporten informes i recomanacions que el PI recull i coordina. No elaboren el PI però alimenten les decisions. | Quan n'hi ha implicats |
+
+## Tipus de plans: PI obligatori vs PSI
+
+#### PI obligatori (alumnat amb NEE — dictamen EAP)
+
+El PI és obligatori per a tot l'alumnat amb NEE reconegudes per l'EAP mitjançant dictamen. Inclou:
+- Alumnat amb discapacitat intel·lectual, física, sensorial o pluridiscapacitat
+- Alumnat amb TEA amb dictamen
+- Alumnat amb trastorns greus de conducta i salut mental
+
+Base normativa: D150/2017, art. 12. El PI ha de formar part de l'expedient acadèmic.
+Termini d'elaboració: màxim 2 mesos des de la proposta.
+Qui el signa: Director/a del centre i Tutor/a.
+Vigència i revisió: Trimestral per ajustar; anual per valorar continuïtat o tancament.
+
+Condicions de tancament:
+1. Ja no presenta les NESE que el van originar
+2. Canvia de centre (el PI acompanya l'expedient)
+3. Finalitza l'escolarització obligatòria (cal informe de traspàs)
+
+#### PSI — Pla de Suport Individualitzat sense dictamen (NESE sense NEE)
+
+Per a alumnat amb NESE que no requereix dictamen (dislèxia lleu-moderada, TDAH sense NEE, nouvingut, altes capacitats, vulnerabilitat), el centre pot elaborar un PSI voluntari.
+
+| | PI obligatori (NEE) | PSI voluntari (NESE sense NEE) |
+|--|---------------------|-------------------------------|
+| Base | Dictamen EAP | Decisió centre / família |
+| Obligatorietat | Sí (D150/2017 art. 12) | No — bona pràctica recomanada |
+| Qui proposa | EAP o orientador | Tutor, CAD, família |
+| Termini elaboració | Màxim 2 mesos | Flexible |
+| Signatura | Director + Tutor | Tutor + família (recomanat) |
+| Expedient acadèmic | Sí, obligatori | Recomanat però no obligatori |
+| Revisió | Trimestral obligatòria | Recomanada |
+| Serveis externs | EAP sempre implicat | Opcional |
+
+> **Nota:** Molts centres anomenen "PI" qualsevol pla independentment de si hi ha dictamen. Pedagògicament positiu; normativament, el PI formal del D150/2017 és el que porta dictamen EAP.
+
+## Firma i aprovació del PI
+
+Signen el PI:
+1. **Director/a del centre** — aprovació institucional
+2. **Tutor/a de l'alumne** — responsable elaboració i seguiment
+
+No signen però consten:
+- **Família:** conformitat o observacions
+- **Alumne:** participació (a partir de 3r cicle Primària)
+
+> **Cas especial 4t ESO:** El PI ha d'especificar criteris per avaluar si l'alumne assoleix el títol de Graduat en ESO.
+
+## Cicle de revisió i tancament
+
+| Moment | Acció | Responsable |
+|--------|-------|-------------|
+| Inici de curs | Revisió PI any anterior; confirmar vigència o actualitzar | Tutor + EAP |
+| Trimestral | Sessió seguiment: valorar progressos, ajustar mesures | Tutor + equip docent + CAEI |
+| Final de curs | Informe anual; decisió continuïtat, modificació o tancament | Tutor + Direcció + EAP |
+| Canvi d'etapa | Informe traspàs; PI acompanya expedient | Tutor sortint + Direcció |
+| Tancament | Acta tancament amb justificació | Direcció + Tutor |
+
+Condicions per al tancament del PI:
+- Alumne ha assolit objectius i mesures ordinàries són suficients
+- Canvia de centre (PI es trasllada, no es tanca)
+- Finalitza escolarització obligatòria
+- Família revoca consentiment (excepcional; centre ho documenta)
+
+## Contingut mínim del PI (estructura estàndard)
+
+| Apartat | Contingut |
+|---------|-----------|
+| 1. Dades de l'alumne | Nom, data naixement, curs, centre, tutor/a |
+| 2. Dades escolars | Historial escolarització, informes previs, dictamen EAP |
+| 3. Justificació del PI | NESE identificades, barreres principals, context familiar |
+| 4. Proposta educativa | Objectius prioritaris per àrees/competències; metodologia; recursos |
+| 5. Mesures i suports | Universals actives; addicionals; intensives (si NEE) |
+| 6. Criteris d'avaluació | Com s'avaluarà; adaptació instruments; qualificació adaptada |
+| 7. Temporització | Data inici, durada prevista, dates revisió trimestral |
+| 8. Coordinació | Professionals implicats; freqüència; serveis externs |
+| 9. Conformitat | Signatura director/a, tutor/a; conformitat família; participació alumne |
+| 10. Seguiment | Registre revisions trimestrals amb data, valoració i ajustos |
+
+> **Nota FJE:** Si cal una plantilla pròpia, elaborar-la sobre aquesta base afegint camps d'identitat ignasiana (connexió PAD de centre, cura personalis, tutor ignasianer).
+
+## Connexions amb altres fitxes del corpus
+
+- **M1_neurodiversitat-NESE.md** — La jerarquia NESE/NEE determina si el PI és obligatori o voluntari (PSI).
+- **M2_mesures-suports-inclusius.md** — Les mesures universals, addicionals i intensives que el PI coordina.
+- **M6_adaptacio-avaluacio-NEE.md** — Com s'avalua l'alumnat dins el marc del PI.
+- **M9_decrets-inclusio-ordenacio.md** — Base normativa: Decret 150/2017 i instruccions vigents.
 
 ## 5. FONTS DEL CORPUS
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:deic:modul_4:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/index |
-| 2 | cursos:escola_inclusiva:deic:modul_1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/index |
-| 3 | cursos:escola_inclusiva:deic:modul_4:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/practica_1 |
-| 4 | cursos:escola_inclusiva:deic:modul_1:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/practica_2 |
-| 5 | annex1_aules_nov_09_45cd56f376.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0055/7192e6a8-1bb3-4030-b7f8-562ecd7ff933/annex1_aules_nov_09.pdf |
-| 6 | pla_ind_altes_capacitats_756fd2c5a7.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_4/pla_ind_altes_capacitats.pdf |
-| 8 | cadsuports_a8c7a072f0.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_2/cadsuports.pdf |
-| 9 | PAD V1-1 Febrer 2008_4112dbf9af.pdf | http://www.xtec.cat/iesvilamajor/Documents%20de%20centre/PAD%20V1-1%20Febrer%202008.pdf |
-| 10 | pi_del_burgar_6348841d09.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_2/pi_del_burgar.pdf |
+| # | Referència | Tipus | Any |
+|---|-----------|-------|-----|
+| 1 | Decret 150/2017, d'atenció educativa. Art. 12 (PI). DOGC 7477. | Normativa | 2017 |
+| 2 | Departament d'Educació. Orientacions per a l'elaboració del PI. XTEC. | Orientacions | 2020 |
+| 3 | Departament d'Educació. DOIGC Educació Inclusiva. Curs 2025-2026. Gencat. | Instruccions | 2025 |
+| 4 | XTEC nou currículum. Pla de suport individualitzat. | Recurs | 2025 |
+| 5 | ECOM. El Pla de Suport Individualitzat (PI). | Divulgació | 2024 |
+| 6 | CGT Ensenyament. La FP al decret d'escola inclusiva. | Anàlisi | 2020 |
 
-*9 documents citats de 10 al corpus · secció generada automàticament*
+*6 fonts vigents 2017-2025 · secció actualitzada manualment*
