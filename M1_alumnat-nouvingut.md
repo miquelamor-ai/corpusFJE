@@ -3,9 +3,10 @@ modul: M1
 titol: "Alumnat nouvingut — Perfil"
 tipus: caracteristica
 subtipus: contextual
-descripcio: "Perfil, barreres, necessitats i principis d'actuació per a l'alumnat que s'incorpora al sistema educatiu"
-review_status: esborrany
+descripcio: "Perfil, barreres, necessitats i principis d'actuació per a l'alumnat que s'incorpora al sistema educatiu. Inclou marcs teòrics (BICS/CALP, translanguaging, dol migratori), normativa vigent (D150/2017, D175/2022), protocol de derivació, perfil 2a generació i heurística d'escolarització nul·la."
+review_status: revisat
 generat_at: 2026-03-18T13:30:00
+actualitzat_at: 2026-03-26T23:00:00
 variables_configurables:
   - nom: L1
     etiqueta: "Llengua materna (L1)"
@@ -58,6 +59,43 @@ variables_configurables:
 
 ## Descripció de la situació
 L'alumnat nouvingut és aquell que s'incorpora al sistema educatiu català havent estat escolaritzat prèviament en un altre sistema educatiu, sovint en un context cultural i lingüístic diferent. Aquest perfil ha experimentat un creixement continuat i significatiu en els darrers anys, passant de ser gairebé anecdòtic a principis dels anys noranta a representar un percentatge notable de l'alumnat, amb una distribució irregular al territori. Aquest perfil és extremadament heterogeni, ja que la "diversitat cultural és una de les múltiples diversitats que conformen la societat complexa" (DOC 2). No es tracta d'un grup homogeni, sinó d'individus amb "identitats de múltiples pertinences" (DOC 1, DOC 3), resultat de diverses identificacions flexibles i canviants. Generalment, la incorporació es produeix en els darrers vint-i-quatre mesos, o excepcionalment en els darrers trenta-sis mesos, especialment si procedeixen d'àmbits lingüístics i culturals molt allunyats del nostre. La seva arribada, especialment en les darreres dècades, ha estat ràpida i creixent, abastant totes les comarques catalanes (DOC 5). Aquest alumnat pot provenir de més de 150 estats diferents, amb experiències educatives prèvies molt variades, des de sistemes d'alta qualitat fins a escolaritzacions intermitents o inexistents. Aquesta diversitat s'amplifica amb factors socioeconòmics, d'edat i de gènere, que es combinen i fan difícil identificar grups culturals o socials uniformes (DOC 2). La globalització ha accelerat aquesta mobilitat, fent que les distàncies s'escurcin i la circulació d'informació i persones sigui extraordinària (DOC 4). Per tant, el perfil de l'alumnat nouvingut no es defineix per un origen comú, sinó per la seva recent incorporació i la necessitat d'adaptació a un nou entorn educatiu, social i lingüístic.
+
+##### Marc normatiu vigent a Catalunya
+
+- **Decret 150/2017**, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu (DOGC 7477). Estableix el marc general d'atenció a la diversitat i els principis d'inclusió que regulen l'actuació amb tot l'alumnat, inclòs el nouvingut.
+- **Decret 175/2022**, d'ordenació dels ensenyaments de l'educació bàsica. **Art. 24.8**: informes qualitatius trimestrals individuals obligatoris per a l'alumnat nouvingut. Aquests informes han de reflectir l'evolució lingüística, curricular i socioemocional.
+- **Gestió del centre. Curs 2025-2026** (instruccions operatives del Departament d'Educació). Concreta les actuacions dels centres per al curs vigent, incloent-hi protocols d'acollida, recursos d'aula d'acollida i coordinació amb els serveis educatius.
+- **Programa LIC-CCE** (Llengua, Interculturalitat i Cohesió Social — Centre de Competència Educativa). Programa institucional de la XTEC que estructura la formació docent, els recursos i els protocols per a l'atenció lingüística i la cohesió social als centres educatius catalans.
+
+##### Marcs teòrics de referència
+
+**1. BICS / CALP (Cummins, 1979–2000)**
+
+Distinció fonamental entre les habilitats comunicatives bàsiques interpersonals (*Basic Interpersonal Communicative Skills*, BICS) i la competència lingüística acadèmica cognitiva (*Cognitive Academic Language Proficiency*, CALP). Les BICS s'adquireixen en 1-3 anys d'immersió i permeten la comunicació quotidiana; la CALP requereix 5-8 anys i és imprescindible per al rendiment acadèmic. **Implicació clau**: no confondre la fluïdesa oral amb la competència acadèmica. Un alumne que conversa amb naturalitat pot seguir necessitant suport intensiu per comprendre textos acadèmics. La variable `calp` del frontmatter opera sobre aquesta distinció: un valor `inicial` indica que l'alumne pot tenir BICS però manca de CALP; `consolidat` implica que el llenguatge acadèmic ja és funcional.
+
+**2. Distància lingüística i alfabets**
+
+La distància tipològica entre la L1 de l'alumne i el català determina la velocitat d'adquisició i el tipus de suport necessari. La variable `familia_linguistica` del frontmatter infereix automàticament aquesta distància. Cinc nivells de referència:
+
+| Família lingüística | Distància amb el català | Exemples | Implicació |
+|---|---|---|---|
+| Romàniques | Mínima | Castellà, portuguès, italià, romanès | Transferència directa de lèxic i estructures |
+| Germàniques | Moderada | Anglès, alemany, neerlandès | Estructures sintàctiques divergents, lèxic parcialment compartit |
+| Eslaves | Alta | Ucraïnès, rus, polonès | Alfabet pot ser diferent (ciríl·lic), gramàtica molt divergent |
+| Àrab-berber | Molt alta | Àrab, amazic, darija | Alfabet no llatí, direccionalitat d'escriptura inversa, fonologia molt diferent |
+| Sinotibetanes | Màxima | Xinès mandarí, cantonès | Sistema logogràfic, tonalitat, absència de flexió morfològica |
+
+**3. Translanguaging (García & Wei, 2014; Cen Williams, 1994)**
+
+Marc que concep el repertori lingüístic de l'alumne com un sistema integrat, no com a llengües separades en compartiments estancs. Principis clau:
+- La L1 és una bastida cognitiva, no un obstacle: pensar en L1 per produir en L2 és un procés natural i productiu.
+- L'ús estratègic de les llengües de l'alumne redueix la càrrega cognitiva i facilita la comprensió de conceptes complexos.
+- Les pràctiques de translanguaging (permetre apunts en L1, glossaris bilingües, debats amb codi mixt) són pedagogia legítima, no un dèficit.
+- **Connexió amb el corpus**: M3_translanguaging-plurilinguisme.md desenvolupa aquest marc en profunditat.
+
+**4. Dol migratori (Achotegui, 1999–2017)**
+
+El procés migratori implica 7 tipus de dol: família, llengua, cultura, terra, estatus social, grup de pertinença i riscos per a la integritat física. Quan les condicions d'acollida són adverses (irregularitat administrativa, aïllament, racisme), el dol pot esdevenir el **Síndrome d'Ulisses**: un quadre d'estrès crònic amb símptomes d'ansietat, depressió, somatitzacions i confusió. Dades rellevants: els fills i filles de famílies migrades presenten índexs de salut mental més elevats que la població general, especialment quan acumulen factors de vulnerabilitat. **Implicació per al corpus**: el component emocional no és un complement de l'atenció educativa, sinó un **prerequisit**. Sense estabilitat emocional, les intervencions lingüístiques i curriculars perden efectivitat. L'heurística "L'àncora emocional" (secció 4) opera directament sobre aquest marc.
 
 ## Manifestació per etapa educativa
 
@@ -114,6 +152,16 @@ L'alumnat nouvingut pot presentar, com qualsevol altre alumne, altres necessitat
 *   **Situacions de vulnerabilitat social:** Poden provenir de famílies en situació de pobresa, amb dificultats d'habitatge, o amb experiències traumàtiques derivades del procés migratori, que afecten el seu benestar emocional i el seu rendiment escolar.
 *   **Problemes de salut crònics:** Condicions com l'asma (DOC 7) o altres malalties cròniques poden coexistir i requerir adaptacions, com en qualsevol altre alumne (DOC 8).
 *   **Dificultats emocionals o de salut mental:** El procés migratori pot desencadenar o agreujar problemes d'ansietat, depressió o estrès posttraumàtic, riscos vinculats directament a les pèrdues i al canvi radical d'entorn que comporta la migració.
+
+## Perfil adjacent: alumnat de 2a generació
+
+L'alumnat de segona generació —nascut a Catalunya o arribat en edat molt primerenca, amb famílies d'origen migrat— no activa els protocols de "nouvingut" però pot presentar necessitats similars que passen desapercebudes:
+
+- **Dicotomia lingüística**: la L1 domèstica (la llengua que es parla a casa) pot ser diferent de la llengua d'instrucció. L'alumne pot dominar el català oral quotidià però tenir mancances en el registre acadèmic de qualsevol de les seves llengües.
+- **Conflicte d'identitat**: tensió entre la cultura familiar i la cultura d'acollida, que pot manifestar-se com a rebuig d'una de les dues identitats, doble pertinença conflictiva o sentiment de no encaixar en cap dels dos mons.
+- **Risc de bretxa acadèmica**: el fenomen del *doble semillingüisme* (Cummins): quan l'alumne no assoleix competència acadèmica plena en cap de les seves llengües, el rendiment escolar global es ressent. Més freqüent en famílies amb baixa escolarització.
+- **Menor visibilitat**: en no ser identificats com a "nouvinguts", aquests alumnes no accedeixen als recursos específics (aula d'acollida, suport LIC, informes trimestrals). Les seves dificultats s'atribueixen erròniament a manca de motivació o capacitat.
+- **Implicació per a l'agent**: la variable `L1` pot indicar una llengua familiar diferent fins i tot per a alumnat nascut localment. Quan `L1 ≠ català` i `calp = inicial`, l'agent ha de considerar aquest perfil encara que `escolaritzacio_previa = si`.
 
 ## Principis d'actuació
 
@@ -176,6 +224,22 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
 *   **Activitat:** Tasques que requereixen alta competència lingüística (lectura, escriptura, debat), o activitats socials no estructurades. Activitat que requereix alt nivell de llengua sense suports visuals, contextuals o lingüístics addicionals.
 *   **Composició grup:** Presència d'altres alumnes nouvinguts que parlen la mateixa llengua o, per contra, absència total de referents lingüístics o culturals.
 
+**Protocol de derivació recomanat (basat en D150/2017 i D175/2022)**
+
+| Moment | Acció | Responsable |
+|---|---|---|
+| Matriculació | Recollida dades inicials (escolarització prèvia, L1, situació familiar) | Secretaria + Tutor/a |
+| 1a setmana | Entrevista família + acollida al centre | Tutor/a + LIC |
+| 1r mes | Avaluació inicial nivell MECR (comprensió oral, lectura, escriptura) | Aula d'acollida / LIC |
+| Trimestral | Informe qualitatiu individual (obligatori D175/2022 art. 24.8) | Equip docent |
+| Si persisteixen dificultats | Derivació EAP per valoració NEE | Tutor/a + EAP |
+
+**Anti-senyals específics (alerta de confusió diagnòstica)**
+
+- **Dificultats en L1 també** → possible TDL (Trastorn del Desenvolupament del Llenguatge) o dislèxia, no atribuïble únicament a la barrera L2. Derivar a logopèdia amb avaluació en L1 si és possible.
+- **Dificultats persistents >2 anys amb suport adequat** → revaluar NEE. La barrera lingüística habitualment es redueix significativament en aquest termini; si no ho fa, cal descartar causes subjacents.
+- **Retraïment sever, aïllament, resistència a anar a escola** → possible dol migratori complicat (Síndrome d'Ulisses). No confondre amb "timidesa" o "adaptació lenta". Derivar a salut mental si hi ha senyals d'alarma (somatitzacions, insomni, irritabilitat extrema).
+
 **Anti-senyals** (quan NO activar malgrat les aparences)
 *   Un alumne nou que es mostra callat però participa activament en tasques visuals o pràctiques i respon bé a suports no verbals: pot ser un estil d'aprenentatge o un període d'observació, no necessàriament una barrera insalvable.
 *   Un alumne que parla una altra llengua a casa però mostra fluïdesa i comprensió en català a l'escola: la seva condició de nouvingut és només d'origen, no implica necessàriament barreres actives.
@@ -228,6 +292,11 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
     *   **Fonament:** Els documents subratllen la importància de "l'acollida de l'alumnat i les seves famílies" i que el pla d'acollida ha d'incloure actuacions referides a la matriculació i l'acollida inicial de les famílies. La família és un agent clau en el procés d'integració: quan se sent part de la comunitat educativa, l'alumne ho percep i se sent més segur.
     *   **Exemple complet de raonament:** Un docent expressa: "M'agradaria parlar amb la família del nou alumne, però no sé com comunicar-me amb ells perquè no parlen català ni castellà." L'agent raonaria que la implicació familiar és crucial per a l'èxit de l'alumne. Aconsellaria al docent contactar amb el servei de mediació intercultural del centre o de l'ajuntament, si n'hi ha, per facilitar la comunicació. Proposaria utilitzar eines de traducció per a comunicacions escrites bàsiques (circulars, horaris) i organitzar una primera trobada amb un intèrpret per explicar el funcionament del centre, les expectatives i recollir informació rellevant sobre l'alumne (escolarització prèvia, interessos, situació familiar). L'objectiu és establir un canal de comunicació obert i de confiança que permeti a la família sentir-se part de la comunitat educativa i col·laborar en el procés d'aprenentatge del seu fill.
 
+*   **Heurística: "Construir l'escola des de zero"**
+    *   **Quan aplica:** Quan `escolaritzacio_previa = no` o `parcial`. L'alumne no ha estat escolaritzat de manera regular al país d'origen i desconeix les convencions bàsiques de l'entorn escolar.
+    *   **Fonament:** La barrera no és només lingüística sinó cultural-cognitiva. L'alumne pot no saber què és un quadern, com funciona un horari, què significa "fer deures" o com s'organitza un espai d'aula. Aprendre a "ser alumne" precedeix l'aprenentatge de continguts. Forçar una acceleració sense aquesta bastida genera frustració, fracàs i retraïment. El Decret 150/2017 emfatitza que les mesures han de ser proporcionades a les necessitats reals, no a les expectatives curriculars del nivell d'edat.
+    *   **Exemple complet de raonament:** Arriba l'Amadou, de 12 anys, procedent d'una zona rural de Guinea. No ha estat mai escolaritzat. El primer impuls del docent pot ser incorporar-lo a 1r d'ESO amb suports lingüístics, però l'agent ha de raonar que la prioritat és una altra: (1) **Orientació espaciotemporal**: que l'alumne entengui l'estructura del dia escolar, els espais del centre, les rutines bàsiques (seure, escoltar, demanar permís). (2) **Convencions escolars bàsiques**: ús del material (llapis, quadern, pissarra), dinàmiques d'aula (torns de paraula, treball individual vs. grupal), hàbits (puntualitat, ordre). (3) **Pre-lectoescriptura i pre-numeració**: si l'alumne no està alfabetitzat en cap llengua, cal un pla específic de lectoescriptura funcional, idealment coordinat amb l'aula d'acollida. (4) **Llengua en paral·lel**, no com a únic eix: el català s'aprèn mentre es construeixen les bases anteriors, no com a requisit previ. L'agent recomanarà coordinació amb l'EAP per dissenyar un pla d'incorporació progressiva, amb objectius realistes a curt termini i sense comparar el ritme amb el de l'alumnat escolaritzat. L'objectiu no és accelerar, sinó construir la bastida correcta perquè l'aprenentatge posterior sigui sòlid.
+
 **Heurístiques per a l'Agent ALUMNE**
 
 *   **Heurística: Demana ajuda per entendre.**
@@ -254,16 +323,17 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
 
 ## 5. FONTS DEL CORPUS
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:deic:modul_4:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/index |
-| 2 | cursos:escola_inclusiva:deic:modul_1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/index |
-| 3 | cursos:escola_inclusiva:deic:modul_4:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/practica_1 |
-| 4 | cursos:escola_inclusiva:deic:modul_1:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/practica_2 |
-| 5 | annex1_aules_nov_09_45cd56f376.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0055/7192e6a8-1bb3-4030-b7f8-562ecd7ff933/annex1_aules_nov_09.pdf |
-| 6 | pla_ind_altes_capacitats_756fd2c5a7.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_4/pla_ind_altes_capacitats.pdf |
-| 7 | asma_d9939fd703.pdf | http://www.xtec.cat/~rgrau/exemples/asma.pdf |
-| 8 | cadsuports_a8c7a072f0.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_2/cadsuports.pdf |
-| 10 | pi_del_burgar_6348841d09.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_2/pi_del_burgar.pdf |
+| # | Referència | Tipus | Any |
+|---|---|---|---|
+| 1 | Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC 7477. | Normativa Catalunya | 2017 |
+| 2 | Decret 175/2022, d'ordenació dels ensenyaments de l'educació bàsica. Art. 24.8. | Normativa Catalunya | 2022 |
+| 3 | Departament d'Educació. Gestió del centre. Curs 2025-2026. | Instruccions operatives | 2025 |
+| 4 | Programa LIC-CCE XTEC. Informes d'avaluació trimestral alumnat nouvingut. | Recurs institucional | 2025 |
+| 5 | Cummins, J. (2000). *Language, Power and Pedagogy*. Multilingual Matters. | Marc teòric BICS/CALP | 2000 |
+| 6 | García, O. & Wei, L. (2014). *Translanguaging: Language, Bilingualism and Education*. Palgrave. | Marc teòric translanguaging | 2014 |
+| 7 | Achotegui, J. (2009). Migración y salud mental. El síndrome del inmigrante con estrés crónico. *Abendua*. | Dol migratori | 2009 |
+| 8 | XTEC Ateneu — Formació escola inclusiva: alumnat nouvingut (b1-b3). Inclou: modul_1 (index, practica_2), modul_4 (index, practica_1), modul_2 (cadsuports), annex1_aules_nov_09, pla_ind_altes_capacitats, pi_del_burgar. | Formació docent | 2003–2009 |
+| 9 | Coelho, E. (2012). *Language and Learning in Multilingual Classrooms*. Multilingual Matters. | Didàctica plurilingüe | 2012 |
+| 10 | Huguet, À. & Navarro, J.L. (2006). Inmigración y resultados escolares. *Cultura y Educación*, 18(2). | Recerca local | 2006 |
 
-*9 documents citats de 10 al corpus · secció generada automàticament*
+*10 fonts · revisió completa 2026-03-26*
