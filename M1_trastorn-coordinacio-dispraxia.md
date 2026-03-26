@@ -3,10 +3,11 @@ modul: M1
 titol: "Trastorn del Desenvolupament de la Coordinació (TDC / Dispraxia)"
 tipus: caracteristica
 subtipus: constitutiva
-descripcio: "TDC/Dispraxia: definició DSM-5-TR (315.4) / ICD-11 (6A04), manifestació motora, impacte en escriptura i activitats escolars, variables configurables per grau i àrea afectada, comorbiditat amb dislèxia i TDAH"
-review_status: esborrany
+descripcio: "TDC/Dispraxia: criteris diagnòstics complets DSM-5-TR (315.4/F82) i ICD-11 (6A04), prevalença 5-6% amb comorbiditats, manifestació per dominis motors, senyals d'alerta per etapes, instruments d'avaluació (MABC-2, BOT-2, DCD-Q), diagnòstic diferencial, evidència intervenció (CO-OP, task-oriented), marc normatiu català D150/2017, variables configurables per grau i àrea afectada"
+review_status: revisat
+locked: true
 generat_at: 2026-03-27T03:00:00
-actualitzat_at: 2026-03-27T03:00:00
+actualitzat_at: 2026-03-27T03:30:00
 variables_configurables:
   - nom: grau
     etiqueta: "Grau de severitat"
@@ -45,49 +46,73 @@ variables_configurables:
 
 ##### Definició i marc conceptual
 
-El **Trastorn del Desenvolupament de la Coordinació (TDC)** — també conegut com a **dispraxia** en contextos europeus — és un trastorn del neurodesenvolupament caracteritzat per una **dificultat marcada en l'adquisició i l'execució d'habilitats motores coordinades**, que interfereix significativament en les activitats de la vida quotidiana i el rendiment acadèmic. Segons el **DSM-5-TR (315.4 / F82)**, les dificultats motores no s'expliquen per discapacitat intel·lectual, deficiència visual o una condició neurològica adquirida, i es manifesten des de les primeres etapes del desenvolupament. La **ICD-11 (6A04)** el classifica com a *Developmental motor coordination disorder*.
+El **Trastorn del Desenvolupament de la Coordinació (TDC)** — també conegut com a **dispraxia** en contextos europeus — és un trastorn del neurodesenvolupament caracteritzat per una **dificultat marcada en l'adquisició i l'execució d'habilitats motores coordinades**, que interfereix significativament en les activitats de la vida quotidiana i el rendiment acadèmic.
 
 La terminologia varia segons el context: el DSM-5 usa *Developmental Coordination Disorder (DCD)*, mentre que el terme **dispraxia** és més freqüent en la literatura europea i britànica. En l'àmbit educatiu català, sovint apareix com a "dificultats de coordinació motora" o "dispraxia" en els informes psicopedagògics. Malgrat la variació terminològica, el constructe clínic és el mateix: un trastorn neurològic de base que afecta la planificació, l'organització i l'execució d'accions motores.
 
 **Important:** El TDC **no és mandra, falta de pràctica ni descurança.** És una condició neurològica que afecta la manera com el cervell planifica i executa els moviments. L'alumne amb TDC s'esforça més que els seus iguals per produir resultats motors inferiors.
 
-##### Prevalença i perfil
+##### Criteris diagnòstics DSM-5-TR (315.4 / F82)
 
-- Afecta el **5-6% de la població escolar** (Blank et al., 2012), fet que el converteix en un dels trastorns del neurodesenvolupament més freqüents a les aules
-- Ràtio home:dona d'aproximadament **2:1** (Barnhart et al., 2003)
-- Alta comorbiditat: **dislèxia** (40-50%), **TDAH** (50%), **TEA** (subgrup significatiu)
-- **No s'associa a baixa intel·ligència**: la capacitat cognitiva és sovint normativa o superior
-- Persisteix a l'adolescència i l'edat adulta en la majoria de casos — les manifestacions canvien, però la condició de base es manté (Kirby & Sugden, 2007)
-- Infradetectat en comparació amb dislèxia o TDAH: molts alumnes arriben a secundària sense diagnòstic
+| Criteri | Descripció |
+|---------|------------|
+| **A** | L'adquisició i l'execució d'habilitats motores coordinades estan substancialment per sota del que s'espera donada l'edat cronològica i l'oportunitat d'aprenentatge. Les dificultats es manifesten com a maldestre (p. ex., deixar caure o xocar amb objectes), lentitud i imprecisió en habilitats motores (p. ex., agafar objectes, usar tisores o coberts, escriure, anar en bicicleta, participar en esports). |
+| **B** | El dèficit d'habilitats motores del criteri A interfereix significativament i de forma persistent en les activitats de la vida diària apropiades a l'edat (p. ex., cura personal i autocontrol) i afecta la productivitat acadèmica/escolar, les activitats prevocacionals i vocacionals, el lleure i el joc. |
+| **C** | L'inici dels símptomes és en el període primerenc del desenvolupament. |
+| **D** | Els dèficits d'habilitats motores no s'expliquen millor per discapacitat intel·lectual o deficiència visual i no són atribuïbles a una condició neurològica que afecti el moviment (p. ex., paràlisi cerebral, distròfia muscular, trastorn degeneratiu). |
 
-##### Components motors afectats
+La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination disorder* i el defineix com: *"A neurodevelopmental disorder characterised by a significant delay in the acquisition of gross and fine motor skills and impairment in the execution of coordinated motor skills that manifest in clumsiness, slowness, or inaccuracy of motor performance."* Els criteris d'exclusió són equivalents als del DSM-5-TR.
 
-El TDC pot afectar un o diversos components de manera independent i en diferent grau:
+##### Correspondència de codis diagnòstics
 
-| Component | Manifestació principal | Impacte en tasques escolars |
-|---|---|---|
+| Sistema | Codi | Denominació |
+|---------|------|-------------|
+| DSM-5-TR | 315.4 / F82 | Developmental Coordination Disorder |
+| ICD-11 | 6A04 | Developmental motor coordination disorder |
+| ICD-10 | F82 | Trastorn específic del desenvolupament de la funció motriu |
+
+##### Prevalença i perfil epidemiològic
+
+| Indicador | Dada | Font |
+|-----------|------|------|
+| **Prevalença global** | 5-6% de la població escolar | Blank et al., 2012 (EACD) |
+| **Ràtio per sexe** | 2:1 (nens:nenes), possible infradetecció en nenes | Barnhart et al., 2003 |
+| **Comorbiditat amb TDAH** | ≈ 50% | Barnhart et al., 2003 |
+| **Comorbiditat amb dislèxia** | 40-50% | Blank et al., 2012 |
+| **Comorbiditat amb TEA** | Subgrup significatiu (dades variables) | Blank et al., 2012 |
+| **Persistència a l'edat adulta** | Majoria de casos — les manifestacions canvien, la condició es manté | Kirby & Sugden, 2007 |
+| **Capacitat intel·lectual** | No s'associa a baixa intel·ligència; sovint normativa o superior | Polatajko, 1995 |
+| **Infradetecció** | Molt menys detectat que dislèxia o TDAH; molts arriben a ESO sense diagnòstic | Missiuna et al., 2007 |
+
+##### Manifestacions per domini
+
+| Domini | Manifestació | Impacte escolar |
+|--------|-------------|-----------------|
 | **Motricitat fina** | Dificultats en escriptura, dibuix, retallat, abotonament, ús de cremalleres i coberts | Escriptura lenta i il·legible; problemes en plàstica, tecnologia, laboratoris |
 | **Motricitat grossa** | Dificultats en equilibri, coordinació bilateral, saltar, llançar i atrapar | Problemes en EF, esports d'equip, jocs de pati; risc de caigudes |
 | **Planificació motora (praxia)** | Dificultat per seqüenciar moviments nous i complexos; aprendre noves habilitats motores costa molt més | Dificultat en activitats que requereixen passos motors seqüenciats: experiments, manualitats, cuina |
-| **Organització espacial** | Dificultat per orientar-se en el paper, organitzar l'espai de treball, gestionar materials | Treballs desorganitzats al paper; motxilla i pupitre desordenats; pèrdua freqüent de materials |
+| **Funcions executives vinculades al motor** | Dificultat per organitzar l'espai de treball, anticipar passos motors, canviar d'estratègia motora | Treballs desorganitzats al paper; motxilla i pupitre desordenats; pèrdua freqüent de materials |
+| **Escriptura (component transversal)** | Velocitat reduïda (×2 o ×3), il·legibilitat, fatiga acumulativa, dolor a la mà | Producció escrita molt inferior al potencial oral; exàmens incomplets; fatiga progressiva al llarg del dia |
+| **Autonomia personal** | Dificultat per vestir-se, lligar sabates, usar coberts, preparar material | Dependència de l'adult en autonomia bàsica; temps addicional en transicions |
+| **Impacte socioemocional** | Evitació de tasques motores, baixa autoestima, exclusió en jocs i esports d'equip | Aïllament, ansietat davant EF/plàstica, sentiment crònic de ser "maldestre" |
+
+##### Senyals d'alerta per etapes
+
+| Etapa | Senyals d'alerta principals |
+|-------|----------------------------|
+| **Infantil (I3-I5)** | Retard en grafisme (no dibuixa cercles, creu); dificultat amb tisores; no es vesteix sol; caigudes freqüents; evita jocs de construcció i manualitats; agafa el llapis amb presa immadura |
+| **Primària (1r-3r)** | Escriptura lenta i il·legible; gran diferència oral-escrit; problemes amb geometria (regle, compàs); dificultat en esports; fatiga motora en escriure; perd materials |
+| **Primària (4t-6è)** | Producció escrita molt per sota del potencial oral; evitació d'EF i plàstica; fatiga motora evident; treballs desorganitzats; impacte en totes les àrees amb component escrit |
+| **ESO** | Escriptura manual molt costosa; problemes amb instruments de laboratori; exàmens escrits no reflecteixen el coneixement real; dificultats en treballs manuals de tecnologia; frustració acadèmica |
+| **Batxillerat / FP** | Impacte en exàmens escrits llargs (PAU); dificultats en pràctiques de laboratori i treballs manuals d'FP; ansietat avaluativa; limitació percebuda d'opcions professionals |
 
 ##### Grau de severitat
 
 | Grau | Descripció clínica | Implicació per a l'assistent |
-|---|---|---|
+|------|------|------|
 | **Lleu** | Dificultats compensables; afecta principalment la velocitat i la fluïdesa motora; sovint passa desapercebut | Temps addicional, pauta clara, instruments adaptats opcionals |
 | **Moderat** | Impacte notable en escriptura manual i activitats manipulatives; requereix adaptació sistemàtica | Accés a teclat/tauleta per a producció escrita, adaptació d'EF, instruments ergonòmics |
 | **Sever** | Dificultats significatives en l'autonomia motora quotidiana; pot requerir tecnologia assistiva | Tecnologia assistiva, eliminació de barreres motores, alternatives no motores per a totes les tasques |
-
-#### Manifestació per etapa educativa
-
-| Etapa | Manifestacions motores | Impacte en tasques | Impacte emocional |
-|---|---|---|---|
-| **Infantil (I3–I5)** | Dificultat amb llapis, tisores, vestir-se, lligar sabates, abotonament; moviments "maldestres"; caigudes freqüents | Retard en grafisme; dificultat en manualitats i jocs de construcció | Frustració; dependència de l'adult per a tasques d'autonomia |
-| **Primària (1r–3r)** | Escriptura lenta i il·legible; dificultat amb geometria (regle, compàs); problemes amb esports | Producció escrita molt inferior al nivell oral; treballs desorganitzats al paper | Baixa autoestima; comparació amb iguals |
-| **Primària (4t–6è)** | Producció escrita molt per sota del potencial oral; evitació d'EF i plàstica; fatiga motora evident | Impacte en totes les àrees amb component escrit; problemes en laboratoris i tecnologia | Evitació de tasques motores; ansietat davant EF; sentiment de ser "maldestre" |
-| **ESO** | Escriptura manual molt costosa; problemes amb instruments de laboratori; dificultats en exàmens llargs escrits | Exàmens escrits no reflecteixen el coneixement real; dificultats en treballs manuals de tecnologia | Frustració acadèmica; dubtes sobre capacitat pròpia |
-| **Batxillerat / FP** | Impacte en exàmens escrits llargs (PAU); dificultats en pràctiques de laboratori i treballs manuals d'FP | Rendiment en exàmens cronometrats inferior al potencial; treballs pràctics d'FP compromesos | Ansietat avaluativa; limitació percebuda d'opcions professionals |
 
 #### Barreres d'aprenentatge
 
@@ -137,6 +162,63 @@ El TDC pot afectar un o diversos components de manera independent i en diferent 
 - Dificultats exclusivament en lectura i escriptura sense afectació motora general — valorar dislèxia, no TDC
 - Dificultat motora explicable per una condició visual no corregida
 
+#### Avaluació i diagnòstic
+
+##### Instruments d'avaluació estandarditzats
+
+| Instrument | Àrea | Edat | Ús |
+|------------|------|------|-----|
+| **MABC-2** (Movement Assessment Battery for Children – 2) | Destresa manual, punteria/recepció, equilibri | 3-16 anys | Diagnòstic clínic; gold standard per a TDC |
+| **BOT-2** (Bruininks-Oseretsky Test of Motor Proficiency – 2) | Motricitat fina i grossa (8 subtests) | 4-21 anys | Avaluació motora completa; identifica àrees afectades |
+| **DCD-Q** (Developmental Coordination Disorder Questionnaire) | Screening via qüestionari (pares/docents) | 5-15 anys | Detecció precoç; útil per cribratge escolar |
+| **DCDQ-07** (versió actualitzada) | Screening funcional | 5-15 anys | Versió revisada amb millors propietats psicomètriques |
+
+**Principis de detecció:** La detecció del TDC es basa en l'observació del desenvolupament motor i la resposta funcional en les activitats quotidianes i escolars. No existeix una prova única diagnòstica: el diagnòstic és clínic, realitzat per fisioterapeutes, terapeutes ocupacionals i/o psicòlegs, i requereix:
+
+1. **Avaluació motora estandarditzada**: proves com el MABC-2 o el BOT-2
+2. **Observació funcional**: com les dificultats motores afecten l'escriptura, l'autonomia i la participació escolar
+3. **Descart de causes alternatives**: deficiència visual, condició neurològica adquirida, discapacitat intel·lectual
+4. **Perspectiva longitudinal**: les dificultats han de ser persistents (no transitòries) i presents des de les primeres etapes
+
+##### Diagnòstic diferencial
+
+| Condició | Tret diferenciador respecte al TDC |
+|----------|-----------------------------------|
+| **Paràlisi cerebral** | Origen perinatal, signes neurològics durs (espasticitat, hipertonia); en TDC el to muscular és normal |
+| **TDAH** | Pot coexistir (50%); la impulsivitat motora del TDAH no és el mateix que la incoordinació del TDC; cal avaluar ambdós si coexisteixen |
+| **Dislèxia** | Pot coexistir (40-50%); la dislèxia afecta la via fonològica (ortografia, decodificació), el TDC la via motora (velocitat, llegibilitat, fatiga); l'escriptura es veu afectada per vies diferents |
+| **TEA** | Solapament en rigidesa motora i planificació; el TEA té criteris propis (comunicació social, interessos restringits); molts alumnes TEA tenen perfil motor compatible amb TDC |
+| **Baixa condició física / sedentarisme** | Millora amb entrenament; el TDC és persistent malgrat la pràctica; la incoordinació del TDC no respon a l'exercici de la mateixa manera que la baixa forma física |
+
+#### Marc normatiu català
+
+| Referència normativa | Rellevància per al TDC |
+|---------------------|----------------------|
+| **Decret 150/2017** d'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu | Estableix el dret a mesures i suports universals, addicionals i intensius. L'alumne amb TDC pot requerir mesures **addicionals** (adaptació d'accés) o **intensives** (PI) segons el grau |
+| **DOIGC 2025-2026** (Instruccions d'inici de curs) | Concreta els criteris de dotació de recursos i les funcions de l'EAP en la detecció i seguiment de NESE |
+| **Llei 17/2020** de modificació de la Llei 12/2009 d'Educació | Reforça el model d'escola inclusiva i el dret a ajustaments raonables per a tot l'alumnat amb diversitat funcional |
+
+**Nota:** A Catalunya, no existeix un protocol específic de TDC tan desenvolupat com els de TEA o dislèxia. La detecció depèn en gran mesura de la sensibilització del centre educatiu i de l'EAP de referència. Això fa que molts alumnes amb TDC arribin a secundària sense diagnòstic formal.
+
+##### Protocols a Catalunya
+
+- **EAP (Equip d'Assessorament Psicopedagògic)**: primera porta d'entrada escolar per a la valoració psicomotriu i la derivació
+- **Possible derivació a fisioterapeuta o terapeuta ocupacional** per a avaluació motora estandarditzada i intervenció
+- **CDIAP (Centres de Desenvolupament Infantil i Atenció Precoç)**: detecció en etapa 0-6 anys
+- **XTEC / Educació Inclusiva**: recursos de formació docent sobre diversitat funcional motora
+
+#### Evidència científica sobre intervenció
+
+| Enfocament | Tipus | Evidència | Descripció |
+|------------|-------|-----------|------------|
+| **CO-OP** (Cognitive Orientation to daily Occupational Performance) | Orientat a la tasca | **Forta** | L'alumne identifica objectius motors funcionals i aprèn estratègies cognitives (Goal-Plan-Do-Check) per resoldre'ls. Transferència a noves tasques demostrada |
+| **Task-oriented / task-specific** | Orientat a la tasca | **Forta** | Pràctica repetida de tasques funcionals concretes (escriptura, ús de tisores) amb feedback; millora l'habilitat específica entrenada |
+| **Integració sensorial (SI)** | Orientat al procés | **Feble-moderada** | Treballa el processament sensorial de base; evidència limitada de transferència a habilitats funcionals escolars |
+| **Neuromotor Task Training (NTT)** | Orientat a la tasca | **Moderada** | Combina pràctica de tasques funcionals amb entrenament de components neuromotors; resultats prometedors |
+| **Educació física adaptada** | Orientat a la tasca | **Moderada** | Programes d'EF amb instrucció individualitzada i objectius adaptats; millora la participació i la competència percebuda |
+
+**Nota sobre l'evidència:** Els enfocaments **orientats a la tasca** (CO-OP, task-specific) mostren consistentment millors resultats que els enfocaments **orientats al procés** (integració sensorial, entrenament perceptivomotor). La recomanació actual (EACD, Blank et al., 2012) és prioritzar les intervencions task-oriented. A l'escola, això significa **adaptar i practicar les tasques reals** (escriure, retallar, vestir-se) amb estratègies cognitives, en lloc d'exercicis perceptivomotors abstractes.
+
 #### Perfils associats i comorbiditats
 
 - **TDC + Dislèxia**: comorbiditat del **40-50%**. Ambdós afecten la producció escrita però per vies diferents: el TDC per la via motora (velocitat, llegibilitat, fatiga), la dislèxia per la via fonològica (ortografia, decodificació). Quan coexisteixen, l'escriptura manual es converteix en una barrera doblement costosa
@@ -160,25 +242,6 @@ El TDC pot afectar un o diversos components de manera independent i en diferent 
 - **No ridiculitzar la cal·ligrafia o la coordinació.** **Per què?** L'impacte en l'autoestima és devastador i persistent (Missiuna et al., 2008). Comentaris com "quina lletra més lletja" o "ets molt maldestre" tenen un efecte acumulatiu que genera evitació, ansietat i retraïment.
 - **No esperar que "ja aprendrà amb pràctica".** **Per què?** El TDC és persistent i requereix **adaptació**, no repetició. La pràctica pot millorar parcialment habilitats concretes, però no elimina el trastorn de base. La resposta és adaptar el canal, no repetir el que no funciona.
 - **No subestimar el cost energètic de l'escriptura manual.** **Per què?** Per a l'alumne amb TDC, escriure a mà és un exercici d'esforç cognitiu i motor que consumeix recursos que els iguals dediquen al contingut. La fatiga motora és real i acumulativa al llarg del dia escolar.
-
-#### Detecció i protocols
-
-##### Principis de detecció
-
-La detecció del TDC es basa en l'observació del desenvolupament motor i la resposta funcional en les activitats quotidianes i escolars. No existeix una prova única diagnòstica: el diagnòstic és clínic, realitzat per fisioterapeutes, terapeutes ocupacionals i/o psicòlegs, i requereix:
-
-1. **Avaluació motora estandarditzada**: proves com el MABC-2 (Movement Assessment Battery for Children) o el BOT-2 (Bruininks-Oseretsky Test)
-2. **Observació funcional**: com les dificultats motores afecten l'escriptura, l'autonomia i la participació escolar
-3. **Descart de causes alternatives**: deficiència visual, condició neurològica adquirida, discapacitat intel·lectual
-4. **Perspectiva longitudinal**: les dificultats han de ser persistents (no transitòries) i presents des de les primeres etapes
-
-##### Protocols a Catalunya
-
-- **EAP (Equip d'Assessorament Psicopedagògic)**: primera porta d'entrada escolar per a la valoració psicomotriu i la derivació
-- **Possible derivació a fisioterapeuta o terapeuta ocupacional** per a avaluació motora estandarditzada i intervenció
-- **CDIAP (Centres de Desenvolupament Infantil i Atenció Precoç)**: detecció en etapa 0-6 anys
-- **XTEC / Educació Inclusiva**: recursos de formació docent sobre diversitat funcional motora
-- **Nota important:** A Catalunya, no existeix un protocol específic de TDC tan desenvolupat com els de TEA o dislèxia. La detecció depèn en gran mesura de la sensibilització del centre educatiu i de l'EAP de referència. Això fa que molts alumnes amb TDC arribin a secundària sense diagnòstic formal
 
 ### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
 
@@ -267,5 +330,10 @@ La detecció del TDC es basa en l'observació del desenvolupament motor i la res
 | 6 | Kirby, A. & Sugden, D. *Children with developmental coordination disorders.* Journal of the Royal Society of Medicine, 100(4), 182-186. | Revisió | 2007 |
 | 7 | Magalhães, L.C. et al. *Activities and participation in children with developmental coordination disorder.* Research in Developmental Disabilities, 32(4), 1352-1357. | Recerca | 2011 |
 | 8 | Zwicker, J.G. et al. *Developmental coordination disorder: A review and update.* European Journal of Paediatric Neurology, 16(6), 573-581. | Neurociència | 2012 |
+| 9 | Polatajko, H.J. *A clinical trial of the process-oriented treatment approach for children with developmental co-ordination disorder.* Developmental Medicine & Child Neurology, 37(4), 310-319. | Intervenció | 1995 |
+| 10 | Missiuna, C. et al. *Missed and misunderstood: Children with coordination difficulties in the school system.* International Journal of Special Education, 22(1), 12-20. | Detecció | 2007 |
+| 11 | Missiuna, C. et al. *Psychological distress in children with developmental coordination disorder and attention-deficit hyperactivity disorder.* Research in Developmental Disabilities, 16(6), 485-494. | Impacte emocional | 1995 |
+| 12 | Generalitat de Catalunya. *Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu.* DOGC. | Normatiu | 2017 |
+| 13 | Generalitat de Catalunya. *Llei 17/2020, del 22 de desembre, de modificació de la Llei 12/2009, d'educació.* DOGC. | Normatiu | 2020 |
 
-*8 fonts referencials -- document generat 2026-03-27*
+*13 fonts referencials -- document revisat 2026-03-27*
