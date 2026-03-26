@@ -2,7 +2,7 @@
 modul: M1
 titol: "Creuament de variables i dependències per a l'adaptació"
 tipus: marc
-descripcio: "Matriu de dependències entre variables del perfil alumne: com la combinació de condicions modifica l'adaptació necessària. 22 dependències documentades amb criteris de selecció i prioritat."
+descripcio: "Matriu de dependències entre variables del perfil alumne: com la combinació de condicions modifica l'adaptació necessària. 22 dependències documentades amb criteris de selecció i prioritat. Inclou meta-secció sobre doble excepcionalitat (2e) com a creuament emergent."
 review_status: revisat
 generat_at: 2026-03-24T23:00:00
 actualitzat_at: 2026-03-25T18:00:00
@@ -194,6 +194,34 @@ Cada dependència porta una etiqueta de **prioritat**:
 - Evitar temes emocionalment carregats si el perfil ho indica
 
 ### BLOC C — Creuaments amb altes capacitats (masking)
+
+#### Doble excepcionalitat (2e) com a creuament especial
+
+El creuament `altes_capacitats + [qualsevol altra característica]` genera un perfil que s'anomena **doble excepcionalitat (2e)**. A diferència d'altres creuaments, la 2e no és additiva sinó que crea un perfil emergent amb propietats pròpies.
+
+##### Diferència amb altres creuaments
+
+| Creuament normal | Creuament 2e |
+|---|---|
+| Les necessitats se sumen | Les necessitats interactuen i s'emmascaren |
+| Cada condició és visible | Ambdues condicions poden ser invisibles |
+| Adaptar = suma de suports | Adaptar = equilibri repte/accessibilitat |
+| L'alumne rep atenció per almenys una condició | L'alumne pot no rebre cap atenció |
+
+##### Regla d'adaptació 2e
+
+Quan `altes_capacitats` està actiu amb qualsevol altra característica:
+1. **NO simplificar el contingut** — mantenir el repte cognitiu
+2. **SÍ adaptar el format** — segons la condició associada
+3. **El repte és tan necessari com l'accessibilitat** — un text accessible sense repte desconnecta l'alumne 2e tant com un text complex inaccessible
+4. **Prioritzar fortaleses** — les àrees d'interès i talent com a porta d'entrada
+
+##### Variables derivades
+
+- `perfil_2e` (boolean): true quan `altes_capacitats.actiu` + qualsevol altra `.actiu`
+- Impacte en `dua`: pot ser Enriquiment amb accessibilitat o Core+ (no Accés pur)
+- Impacte en `lf`: la intensitat LF ve de la condició associada, no d'AC
+- Impacte en `complements`: s'afegeixen automàticament `bastides` i el complement de la condició associada
 
 #### 13. Altes capacitats × Dislèxia — ALTA
 

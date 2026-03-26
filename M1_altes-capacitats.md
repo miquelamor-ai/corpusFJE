@@ -79,13 +79,60 @@ Aquests senyals no són diagnòstics, sinó indicadors per activar el procés de
 *   **Interaccions socials:** Poden preferir la companyia d'adults o de nens més grans, o tenir dificultats per connectar amb els seus iguals.
 *   **Aspectes emocionals:** Alta sensibilitat i intensitat emocional que es pot manifestar en reaccions intenses a la injustícia o a la frustració.
 
-#### Perfils associats i comorbiditats
+#### Doble excepcionalitat (2e)
 
-La **doble excepcionalitat** és la coexistència d'altes capacitats amb altres trastorns o dificultats d'aprenentatge. Aquesta combinació pot fer que les altes capacitats o les dificultats s'emmascarin mútuament, dificultant la identificació.
-*   **Altes capacitats i dificultats d'aprenentatge (DEA):** És la combinació més freqüent. Les AC poden ocultar les DEA (l'alumne compensa les dificultats amb la seva intel·ligència) o les DEA poden ocultar les AC (el baix rendiment en algunes àrees fa que no es considerin les AC).
-*   **Altes capacitats i Trastorn per Dèficit d'Atenció i Hiperactivitat (TDAH):** La inquietud, la distracció i la impulsivitat del TDAH poden emmascarar la rapidesa mental i la curiositat, o la capacitat intel·lectual pot fer que el TDAH passi desapercebut perquè l'alumne pot rendir bé malgrat les dificultats d'atenció.
-*   **Altes capacitats i Trastorn de l'Espectre Autista (TEA):** Les dificultats socials i de comunicació del TEA poden eclipsar les AC, o les AC poden ajudar a l'alumne a compensar algunes de les dificultats del TEA en àrees específiques.
-*   **Altes capacitats i trastorns emocionals:** L'alta sensibilitat i la intensitat emocional poden predisposar a ansietat, depressió o altres problemes emocionals si no hi ha un acompanyament adequat.
+La **doble excepcionalitat (2e)** es refereix a alumnes que presenten simultàniament altes capacitats intel·lectuals i una o més condicions associades (dislèxia, TEA, TDAH, trastorn del llenguatge, nouvingut, etc.). A diferència d'altres combinacions de condicions, la 2e no és additiva sinó que crea un **perfil emergent** amb propietats pròpies.
+
+##### Característiques del perfil 2e
+
+*   **Emmascarament mutu**: el potencial cognitiu compensa parcialment la dificultat, i la dificultat oculta el potencial. L'alumne pot semblar "normal" i no rebre cap suport.
+*   **Perfil "verd"**: en sistemes d'alerta per colors, l'alumne 2e queda sovint en verd (sense alerta) perquè les dues condicions es cancel·len estadísticament.
+*   **Rendiment irregular**: brillant en unes matèries o contextos, molt per sota en d'altres. Gran diferència entre capacitat oral i escrita.
+*   **Frustració i conducta**: la combinació de capacitat no reconeguda + dificultat no atesa genera frustració, ansietat, perfeccionisme extrem, o conducta disruptiva.
+*   **Creativitat + dèficit**: estratègies compensatòries úniques i creatives que poden confondre el diagnòstic.
+
+##### Senyals d'alerta 2e
+
+*   Rendiment acadèmic molt desigual entre matèries
+*   Gran diferència entre capacitat oral i escrita
+*   Frustració o conducta disruptiva en tasques "fàcils"
+*   Creativitat elevada però poc rendiment en tasques rutinàries
+*   Ansietat o perfeccionisme extrem
+*   Idees elaborades que no es reflecteixen en el treball escrit
+
+##### Principis d'intervenció 2e
+
+1.  **Identificar ambdues condicions**: no n'hi ha prou amb detectar una; cal buscar activament l'altra.
+2.  **Prioritzar fortaleses**: usar els punts forts com a via d'accés, no centrar-se exclusivament en el dèficit.
+3.  **Repte + accessibilitat**: mantenir el repte cognitiu alt (no simplificar el contingut) però adaptar el format a la condició associada.
+4.  **Flexibilitat avaluativa**: permetre demostrar coneixement per vies alternatives (oral, visual, projectes).
+5.  **Evitar la "normalització"**: el fet que l'alumne sembli "normal" no vol dir que no necessiti suport.
+
+##### Combinacions específiques 2e
+
+**AC + dislèxia**:
+*   Contingut complex però format visual/oral accessible
+*   Rendiment irregular: brillant verbalment, molt per sota en lectura/escriptura
+*   Pot evitar la lectura per frustració, però té idees elaborades oralment
+*   Alternatives multisensorials, suport auditiu, mapes conceptuals
+
+**AC + TEA**:
+*   Repte cognitiu dins estructura predictible i literal
+*   L'hiperfocus en àrees d'interès pot ser motor d'aprenentatge extraordinari
+*   Dificultats en flexibilitat cognitiva i comunicació social
+*   Aprofitar els interessos com a porta d'entrada + estructura clara + profunditat
+
+**AC + TDAH**:
+*   Repte intel·lectual amb tasques curtes i variades
+*   Alta creativitat combinada amb inatenció i baixa tolerància a la frustració
+*   Necessita variació i novetat per mantenir l'atenció
+*   La sobredotació pot compensar el TDAH en tasques interessants i fallar en les rutinàries
+
+**AC + nouvingut**:
+*   Contingut ric amb llengua simplificada i glossari bilingüe complet
+*   El potencial cognitiu pot quedar completament ocult per la barrera lingüística
+*   L'alumne pot tenir coneixements avançats en L1 que no pot demostrar en L2
+*   Permetre expressions en L1, repte conceptual des del dia 1
 
 #### Principis d'actuació
 
