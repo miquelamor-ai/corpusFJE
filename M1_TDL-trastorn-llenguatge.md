@@ -3,153 +3,302 @@ modul: M1
 titol: "Trastorn del Desenvolupament del Llenguatge (TDL)"
 tipus: caracteristica
 subtipus: constitutiva
-descripcio: "TDL/TEL: característiques comunicatives, estratègies de suport i adaptació de materials"
-review_status: esborrany
+descripcio: "TDL: definició CATALISE (Bishop et al., 2017), dimensionalitat clínica, components afectats (morfosintaxi, semàntica, pragmàtica, discurs, comprensió lectora), variables configurables per modalitat i grau de severitat"
+review_status: revisat
 generat_at: 2026-03-18T15:27:36
-variables_configurables: []
-# Justificació: les adaptacions (simplificació sintàctica, suport visual,
-# temps extra) són consistents. Es pot afegir severitat en fase 2.
+actualitzat_at: 2026-03-26T22:00:00
+variables_configurables:
+  - nom: modalitat
+    etiqueta: "Modalitat afectada"
+    tipus: enum
+    valors: [comprensiu, expressiu, mixt]
+    obligatori: true
+    defecte: mixt
+    descripcio: "Comprensiu: dificultats per entendre el que s'escolta o es llegeix. Expressiu: dificultats per produir missatges organitzats i gramaticalment correctes. Mixt: ambdues modalitats afectades (perfil més freqüent)"
+    impacte: "Comprensiu: simplificar text d'entrada, frases curtes, vocabulari freqüent. Expressiu: simplificar consignes de producció, modelar estructura esperada, oferir andamiatge. Mixt: ambdues estratègies"
+  - nom: morfosintaxi
+    etiqueta: "Component morfosintàctic afectat"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Dificultats amb conjugació verbal, pronoms, concordances, connectors i oracions subordinades"
+    impacte: "Usar estructures SVO simples, evitar passives i subordinades, oferir plantilles gramaticals en producció"
+  - nom: semantica
+    etiqueta: "Component semàntic/lèxic afectat"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Pobresa de vocabulari, dificultats d'evocació lèxica, accés lent a paraules poc freqüents"
+    impacte: "Vocabulari d'alta freqüència, definicions integrades al text, bancs de paraules en producció, evitar sinònims innecessaris"
+  - nom: pragmatica
+    etiqueta: "Component pragmàtic afectat"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Dificultats en l'ús funcional del llenguatge: inferències, llenguatge no literal, gestió de torns, adequació al context"
+    impacte: "Evitar consignes amb llenguatge figurat o ambigu, explicitar el context comunicatiu, estructurar rols en dinàmiques de grup"
+  - nom: discurs_narrativa
+    etiqueta: "Component discursiu/narratiu afectat"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Dificultats per organitzar i seqüenciar informació en textos llargs: coherència, cohesió, estructura narrativa"
+    impacte: "Guions d'estructura explícits, segmentació amb etiquetes de funció, mapes conceptuals com a suport de producció"
+  - nom: comprensio_lectora
+    etiqueta: "Comprensió lectora específica afectada"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Tendència a usar estratègies semàntiques saltant-se paraules funció (articles, preposicions, conjuncions); comprensió inestable en textos llargs"
+    impacte: "Ressaltar paraules funció clau, verificar comprensió literal abans d'inferencial, no assumir comprensió per lectura fluida"
+  - nom: grau
+    etiqueta: "Grau de severitat"
+    tipus: enum
+    valors: [lleu, moderat, sever]
+    obligatori: true
+    defecte: moderat
+    descripcio: "Lleu: dificultats compensables amb suport i estructura. Moderat: impacte notable, requereix adaptació sistemàtica. Sever: dificultats persistents i significatives, pot requerir suport AAC"
+    impacte: "Lleu: simplificació moderada, estructura clara. Moderat: reducció sintàctica, suport visual explícit, consignes molt curtes. Sever: text mínim, frases d'una clàusula, andamiatge màxim"
+  - nom: bilingue
+    etiqueta: "Context bilingüe/plurilingüe"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "L'alumne/a rep instrucció en una llengua que no és la seva L1. El bilingüisme no causa TDL, però pot intensificar les dificultats en la llengua vehicular"
+    impacte: "Incrementar suport semàntic addicional, reduir complexitat morfosintàctica per sobre del grau base, no atribuir tots els errors al TDL"
 ---
 
-**Nota important:** S'ha sol·licitat un document sobre el **Trastorn del Desenvolupament del Llenguatge (TDL)**. No obstant això, els documents font proporcionats tracten exclusivament sobre l'**alumnat d'origen estranger o nouvingut** i les seves característiques, barreres i necessitats educatives, lingüístiques i culturals. Per tal de complir amb la instrucció de no inventar contingut i de sintetitzar coneixement raonable basat en les fonts, aquest document descriu el perfil de l'**alumnat d'origen estranger/nouvingut**, utilitzant la informació dels documents proporcionats. Si es desitja un perfil sobre TDL, caldria proporcionar documents font rellevants per a aquest tema.
+### 1. CONTINGUT ESPECÍFIC
 
-## 1. CONTINGUT ESPECÍFIC DEL PERFIL: ALUMNAT D'ORIGEN ESTRANGER/NOUVINGUT
+#### Descripció del tret
 
-### Descripció del tret
-L'alumnat d'origen estranger o nouvingut representa una diversitat significativa a les aules, cadascun amb una història personal i escolar única. Aquest perfil inclou estudiants amb referents culturals, llengua familiar i experiències escolars de procedència diverses, factors que influeixen directament en el seu procés d'aprenentatge. L'arribada a un nou sistema educatiu i social pot ser un repte, especialment per a aquells que s'incorporen tardanament. Aquesta diversitat no s'ha de veure com un inconvenient, sinó com una oportunitat per enriquir l'aula i com un repte per proporcionar les ajudes necessàries. L'escola inclusiva ha de garantir l'èxit acadèmic de tots els alumnes, posant una atenció especial en els més vulnerables, com és el cas de l'alumnat de procedència estrangera. Cal donar una resposta individualitzada a les seves necessitats, considerant la seva situació personal, els valors culturals, la construcció de les seves identitats i l'adquisició de noves llengües, sempre dins del context social i escolar d'acollida. La motivació i la voluntat de progressar d'aquests alumnes i les seves famílies són elements clau que l'escola ha de tenir en compte per evitar que l'experiència d'incorporació esdevingui un fracàs personal.
+##### Definició i marc conceptual
 
-### Manifestació per etapa educativa
-Tot i que els documents no detallen les manifestacions per etapa educativa de manera explícita, es pot inferir que les dificultats i necessitats són presents en totes les etapes, amb matisos.
-- **Infantil/Primària:** L'adquisició de la llengua d'aprenentatge i la familiarització amb les rutines i la cultura escolar són fonamentals. Les llacunes en els coneixements previs poden ser menys evidents en etapes inicials, però la manca de referents culturals pot afectar la comprensió de conceptes bàsics.
-- **ESO:** Aquesta etapa pot presentar reptes significatius. L'exemple de l'Amal, que va arribar als 7 anys i a l'ESO tenia una bona competència comunicativa però llacunes en Ciències Socials per desconeixement cultural, il·lustra que fins i tot amb un bon domini de la llengua, els referents culturals i els coneixements previs específics del currículum poden ser una barrera important. Les rutines d'aula i els procediments didàctics poden resultar estranys si provenen d'un sistema educatiu molt diferent.
-- **Batxillerat/FP:** En aquestes etapes, les exigències acadèmiques són més altes i la complexitat del llenguatge acadèmic i els continguts curriculars augmenten. Les barreres lingüístiques i culturals poden ser més subtils però més profundes, afectant la comprensió de conceptes abstractes i la capacitat d'argumentació o anàlisi crítica si no s'han consolidat els referents culturals i els coneixements previs.
+El **Trastorn del Desenvolupament del Llenguatge (TDL)** és un trastorn del neurodesenvolupament caracteritzat per dificultats persistents en l'adquisició i l'ús del llenguatge — comprensiu i/o expressiu — que no s'expliquen per causes neurològiques adquirides, sensorials, motrius ni per un context socioeducatiu desfavorable. La terminologia actual prové del consens internacional **CATALISE** (Bishop et al., 2016, 2017), que va substituir l'anterior TEL (Trastorn Específic del Llenguatge). La raó del canvi és conceptual: "específic" implicava que el TDL era un trastorn pur i aïllat, quan la recerca ha demostrat que és altament heterogeni i de límits difusos.
 
-### Barreres d'aprenentatge
-- **Lingüístic:** La principal barrera és el domini insuficient de la llengua d'aprenentatge (L2). Fins i tot quan s'assoleix un nivell comunicatiu, les dificultats lingüístiques persisteixen en l'àmbit acadèmic i en la comprensió de conceptes modulats per la llengua i la cultura. La llengua no només és un mitjà de comunicació, sinó que modula la realitat a l'hora de conceptualitzar-la i representar-la.
-- **Cognitiu/Curricular:** La manca de referents culturals i de coneixements previs en àrees com geografia o història, que estan fortament lligades a la cultura d'acollida, pot generar llacunes importants. L'enfocament que la cultura d'acollida fa de certs continguts pot ser desconegut, dificultant l'accés al currículum ordinari.
-- **Emocional/Social:** La incorporació a una nova societat i escola pot generar un sentiment de fracàs personal si no es gestiona adequadament. Les rutines d'aula i els procediments didàctics (com ara la participació, el treball cooperatiu, l'avaluació) poden ser molt diferents del sistema educatiu d'origen, generant desorientació i dificultats d'adaptació social.
-- **Sensorial:** Els documents proporcionats no fan referència a barreres sensorials específiques d'aquest perfil, més enllà de les que pugui presentar qualsevol alumne.
-- **Cultural:** Els valors culturals, els símbols, les pràctiques socials i els productes culturals de la societat d'acollida són sovint desconeguts, la qual cosa afecta la comprensió de molts continguts curriculars i la integració social.
+La prevalença és del **7,6% de la població escolar**, fet que el converteix en un dels trastorns del neurodesenvolupament més freqüents a les aules — més prevalent que el TEA i el TDAH per separat. Apareix sovint en comorbiditat amb dislèxia, TDAH i TEA.
 
-### Necessitats prioritàries
-1.  **Suport lingüístic continuat:** Més enllà de l'adquisició inicial de la llengua per a la comunicació, cal un suport sostingut per als aprenentatges lingüístics acadèmics i per a la comprensió de les altres àrees o matèries.
-2.  **Tractament inclusiu del currículum:** Adaptar el currículum per incorporar elements de la cultura relacionada amb la llengua d'aprenentatge (entorn geogràfic i social, història, símbols, productes i pràctiques culturals) per facilitar la comprensió i l'accés als continguts.
-3.  **Resposta individualitzada:** Tenir en compte la situació personal, els valors culturals, la construcció de les identitats i l'adquisició de llengües de cada alumne per oferir ajudes personalitzades.
-4.  **Pla d'acollida integral:** Implementar un pla d'acollida i atenció psicoeducativa que faciliti la integració social i escolar, abordant tant els aspectes acadèmics com els emocionals i socials.
+##### El TDL com a espectre, no com a tipologia
 
-### Fortaleses a aprofitar
--   **Bilingüisme/Multilingüisme:** Els alumnes que coneixen o estan aprenent diverses llengües poden aprofitar les diferents perspectives semàntiques per clarificar i enriquir conceptes nous o donar una nova perspectiva a conceptes antics. El seu bagatge lingüístic és un recurs cognitiu valuós.
--   **Diversitat cultural:** Aporten una riquesa de referents culturals, històries personals i visions del món que poden enriquir l'aula i la comunitat educativa, transformant la diversitat en una oportunitat d'aprenentatge per a tots.
--   **Motivació i voluntat de progressar:** Molts d'aquests alumnes i les seves famílies tenen altes expectatives i una gran voluntat de progressar, la qual cosa és una palanca important per al seu èxit acadèmic si se'ls proporciona el suport adequat.
+La recerca actual desaconsella classificar el TDL en subtipus discrets i estables. Els perfils lingüístics dels alumnes no es reprodueixen de manera consistent: un alumne pot tenir morfosintaxi molt afectada però coherència narrativa relativament preservada, o dificultats severes de comprensió amb producció expressiva acceptable. Per tant, el model adequat de configuració **no és un menú de "tipus de TDL"**, sinó una combinació modular de components afectats amb grau de severitat independent.
 
-### Senyals identificadors a l'aula
--   **Dificultats en la comprensió de conceptes curriculars:** Fins i tot amb una bona competència comunicativa en la L2, poden mostrar llacunes en els coneixements previs o dificultats per entendre l'enfocament cultural de certes matèries (ex: resultats baixos en Ciències Socials malgrat ser bons estudiants).
--   **Desorientació davant rutines i procediments didàctics:** Poden mostrar confusió o dificultat per adaptar-se a les dinàmiques d'aula, les formes de participació, els mètodes de treball o els sistemes d'avaluació que són diferents dels seus sistemes educatius d'origen.
--   **Ús limitat de llenguatge acadèmic:** Poden comunicar-se fluidament en contextos socials, però tenir dificultats per expressar idees complexes, argumentar, analitzar o sintetitzar informació en el llenguatge propi de les diferents àrees curriculars.
--   **Dificultats en la interacció social:** Poden mostrar-se més aïllats o tenir dificultats per establir relacions amb els companys a causa de les barreres lingüístiques o culturals, o per desconeixement de les pràctiques socials del context.
+##### Prevalença i perfil
 
-### Perfils associats i comorbiditats
-Els documents proporcionats no fan referència a perfils associats o comorbiditats en el sentit clínic. En canvi, subratllen la gran diversitat inherent a l'alumnat d'origen estranger, on cada alumne té una història personal i escolar única. No es tracta d'un perfil homogeni, sinó d'un grup amb una àmplia variabilitat en el seu bagatge lingüístic, cultural, social i educatiu. Les dificultats que puguin presentar no són intrínseques a un trastorn, sinó que deriven de la interacció amb un nou context lingüístic i cultural.
+- Afecta el **7,6% de la població escolar** en els criteris CATALISE
+- Alta comorbiditat: **dislèxia** (fins al 50%), **TDAH** (25-40%), **TEA** (subgrup)
+- **No s'associa a baixa intel·ligència**: la capacitat cognitiva no verbal sovint és normativa o superior
+- Persisteix a l'adolescència i l'edat adulta en la majoria de casos, tot i que les manifestacions canvien
+- El bilingüisme **no causa TDL** però pot complicar la detecció si no s'avalua en totes dues llengües
 
-### Principis d'actuació
-L'actuació amb l'alumnat d'origen estranger es basa en un enfocament inclusiu que veu la diversitat com una oportunitat. Cal gestionar la diversitat per afavorir l'èxit acadèmic de tots, amb especial atenció als més vulnerables. Això implica donar una resposta individualitzada que tingui en compte la situació personal, els valors culturals, la construcció de la identitat i l'adquisició de llengües, sense oblidar el context social i escolar. Les propostes d'ajuda sovint es basen en principis vàlids per a tot l'alumnat, com ara crear un clima d'aula que afavoreixi els aprenentatges. És fonamental que el currículum incorpori elements de la cultura relacionada amb la llengua d'aprenentatge (geografia, història, símbols, productes i pràctiques culturals) per facilitar la comprensió dels continguts. Un cop l'alumne ha adquirit un nivell comunicatiu de la llengua, ha de continuar rebent suports tant lingüístics com curriculars per superar les dificultats i la manca de referents culturals. L'objectiu és garantir que tots els alumnes assoleixin els objectius educatius que els permetin desenvolupar una ciutadania de ple dret.
+##### Components del llenguatge afectats
 
-### Línies vermelles
--   **Evitar la visió de dèficit:** No s'ha de considerar el bagatge cultural i lingüístic de l'alumne d'origen estranger com un inconvenient, sinó com un repte i una oportunitat. Etiquetar-lo o veure'l com un "problema" pot limitar les expectatives i les oportunitats.
--   **No simplificar excessivament les dificultats:** Les dificultats no es redueixen només a la manca de domini de la llengua. Cal evitar la suposició que un cop s'adquireix la competència comunicativa, totes les barreres desapareixen. Les llacunes culturals i els coneixements previs diferents són igualment importants i requereixen atenció específica.
--   **Evitar l'aïllament o la segregació:** Les propostes d'ajuda han de ser inclusives i no segregar l'alumnat. L'objectiu és la integració plena en el currículum ordinari i la vida escolar, amb els suports necessaris.
--   **No ignorar el context social i emocional:** Les dificultats d'aprenentatge no es poden desvincular de l'experiència d'incorporació a una nova societat. Ignorar l'impacte emocional i social pot portar a un fracàs personal i acadèmic.
--   **No assumir homogeneïtat:** Cada alumne és únic. Evitar generalitzacions sobre "els alumnes estrangers" i reconèixer la diversitat de trajectòries, cultures i necessitats individuals.
+El TDL pot afectar un o diversos components de manera independent i en diferent grau:
 
----
+| Component | Manifestació principal | Impacte en tasques escrites i orals |
+|---|---|---|
+| **Morfosintaxi** | Errors de conjugació, concordança, ús de connectors i subordinades | Producció escrita pobra estructuralment; comprensió falla en frases complexes |
+| **Semàntica / Vocabulari** | Pobresa lèxica, dificultats d'evocació, menys flexibilitat en l'ús de paraules noves | Resposta amb vocabulari molt bàsic; comprensió falla en textos amb lèxic específic |
+| **Pragmàtica** | Inferències, llenguatge no literal, adequació al context comunicatiu | Dificultats en dinàmiques de grup, exposicions, consignes implícites |
+| **Discurs / Narrativa** | Coherència i seqüenciació en textos llargs | Textos escrits sense estructura; problemes en projectes, informes i exposicions |
+| **Comprensió lectora** | Ús d'estratègies semàntiques compensatòries, saltant-se paraules funció | Comprensió inestable malgrat lectura fluida aparent |
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
--   **Alumnat_Nouvingut_Pla_Acollida**: Aquest document complementa el perfil descrivint els protocols i accions concretes per a l'acollida i atenció d'aquest alumnat.
--   **Educació_Inclusiva_Principis**: Estableix els fonaments teòrics de l'escola inclusiva, que són la base per a l'atenció a la diversitat de l'alumnat d'origen estranger.
--   **Currículum_Inclusiu_Estratègies**: Ofereix metodologies per adaptar el currículum i fer-lo accessible, especialment rellevant per abordar les barreres curriculars i culturals d'aquest perfil.
--   **Adquisició_L2_Estratègies**: Proporciona eines i estratègies per al desenvolupament del llenguatge en L2, crucial per als aprenentatges lingüístics i acadèmics d'aquest alumnat.
+##### Grau de severitat
 
-## 3. DETECCIÓ (Variables de Context)
+| Grau | Descripció clínica | Implicació per a l'assistent |
+|---|---|---|
+| **Lleu** | Dificultats presents però compensables; sovint passa desapercebut | Estructura clara, frases simples, vocabulari freqüent |
+| **Moderat** | Impacte notable en comprensió i/o producció; requereix adaptació sistemàtica | Reducció sintàctica, suport visual, consignes d'un sol pas |
+| **Sever** | Dificultats persistents significatives; pot requerir suport augmentatiu i alternatiu | Text mínim, frases simples, andamiatge màxim, opcions no verbals |
 
-### Senyals del docent
--   "Observo que l'alumne té dificultats per entendre conceptes de Ciències Socials o Història, tot i que es comunica bé en català."
--   "M'adono que l'alumne no participa en les dinàmiques de grup o sembla desorientat amb les instruccions de treball cooperatiu."
--   "L'alumne presenta llacunes en els coneixements previs que no s'expliquen només per la seva escolarització anterior."
--   "M'interessa saber com aprofitar el bagatge cultural i lingüístic dels meus alumnes nouvinguts a l'aula."
--   "Busco maneres d'adaptar els materials curriculars per fer-los més accessibles a alumnes amb diferents referents culturals."
+#### Manifestació per etapa educativa
 
-### Senyals de l'alumne
--   Expressa confusió davant referències culturals locals (festes, personatges històrics, expressions idiomàtiques).
--   Mostra dificultats per seguir rutines d'aula o procediments didàctics que són habituals per a la majoria dels companys.
--   Té un bon nivell de llengua oral per a la interacció social, però lluita amb el llenguatge acadèmic o la comprensió de textos complexos.
+| Etapa | Manifestacions lingüístiques | Impacte en tasques | Impacte emocional |
+|---|---|---|---|
+| **Infantil (I3–I5)** | Retard en l'adquisició del vocabulari; frases curtes i mal estructurades; dificultat per seguir instruccions orals | Dificultats en rutines que depenen del llenguatge | Frustració en comunicar necessitats |
+| **Primària (1r–3r)** | Errors morfosintàctics persistents; vocabulari pobre; comprensió oral inferior als iguals | Problemes en comprensió lectora inicial; textos escrits molt simples | Baixa autoestima lingüística |
+| **Primària (4t–6è)** | Dificultats amb textos narratius i expositius; problemes de discurs i cohesió | Treballs escrits pobres; exposicions orals desorganitzades | Evitació de tasques de producció |
+| **ESO** | Dificultats en textos acadèmics complexos; problemes amb inferències i pragmàtica | Redaccions, treballs per projectes, debats; impacte en totes les àrees curriculars | Frustració, comparació negativa amb iguals |
+| **Batxillerat / FP** | Dificultat en llengua tècnica i especialitzada; producció escrita estructuralment feble | Informes, treballs de recerca, defensa oral de projectes | Síndrome de l'impostor; dubtes vocacionals |
 
-### Senyals de context
--   Moment d'incorporació tardana de l'alumne al sistema educatiu català.
--   Activitat que requereix un alt nivell de coneixements previs culturals o històrics de la societat d'acollida.
--   Composició del grup amb una alta diversitat cultural i lingüística.
+#### Barreres d'aprenentatge
 
-### Anti-senyals
--   L'alumne presenta dificultats de comprensió o expressió en la seva llengua materna, o en totes les llengües que coneix, de manera generalitzada i persistent des de petit. (Això podria indicar un TDL real, no una barrera per origen estranger).
--   Les dificultats de l'alumne es limiten a una àrea molt específica i no estan relacionades amb el llenguatge o els referents culturals.
--   L'alumne ha estat escolaritzat al sistema educatiu català des d'Infantil i no presenta cap barrera lingüística o cultural evident.
+- **Comprensió d'instruccions:** Instruccions multistep, consignes amb subordinades o condicionals i vocabulari específic representen una barrera d'accés directa
+- **Producció escrita:** La dificultat morfosintàctica i lèxica fa que el producte escrit no reflecteixi la capacitat conceptual real de l'alumne
+- **Velocitat de processament lingüístic:** El temps de reacció per evocar paraules i construir frases és superior al dels iguals, generant pressió en contextos temporals
+- **Comprensió lectora:** No és una barrera visible — l'alumne pot llegir en veu alta correctament però no haver-ho comprès; el docent pot confondre fluïdesa amb comprensió
+- **Participació oral:** Les dificultats expressives limiten la participació en debats, exposicions i dinàmiques de grup, infrarepresentant la competència cognitiva real
+- **Pragmàtica:** El llenguatge figurat, les consignes implícites i el sarcasme educatiu ("ara ens falten 5 minuts per acabar...") poden generar confusió genuïna, no manca d'atenció
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+#### Necessitats prioritàries
 
-### Principi general
-Prioritza la comprensió del bagatge personal, cultural i lingüístic de l'alumne per dissenyar suports individualitzats i inclusius que transformin la diversitat en un recurs d'aprenentatge.
+1. **Instrucció explícita del vocabulari** acadèmic i específic de cada àrea, no exposició incidental
+2. **Modelatge d'estructures lingüístiques** esperades (plantilles, inicis de frase, mapes d'estructura) en tasques de producció
+3. **Adaptació d'instruccions**: una instrucció alhora, en llenguatge literal, amb suport visual
+4. **Temps addicional** per a totes les tasques amb component lingüístic (comprensió o producció)
+5. **Dissociació entre competència lingüística i competència conceptual** en l'avaluació
+6. **Col·laboració logopeda–docent** per a la transferència de les estratègies d'intervenció a l'aula
 
-### Heurístiques per a l'Agent DOCENT
+#### Fortaleses a aprofitar
 
-1.  **Heurística: El currículum com a pont cultural**
-    *   **Quan aplica:** Quan un docent expressa preocupació per les llacunes de coneixement o la dificultat de l'alumnat d'origen estranger per connectar amb els continguts curriculars, especialment en àrees com Ciències Socials, Història o Literatura.
-    *   **Fonament:** Els documents subratllen que el currículum ha d'incorporar elements de la cultura d'aprenentatge (geografia, història, símbols, pràctiques culturals) per facilitar la comprensió. Les dificultats sovint no són per falta de capacitat, sinó per desconeixement dels referents culturals locals.
-    *   **Exemple complet de raonament:** Un docent pregunta: "Com puc fer que els meus alumnes nouvinguts entenguin la Revolució Industrial si no tenen els mateixos referents històrics o socials?" L'agent raonaria: "Sembla que el docent s'enfronta a una barrera curricular i cultural. En lloc de simplificar el contingut, podria ser útil buscar punts de connexió entre la Revolució Industrial i les experiències o coneixements culturals dels alumnes. Per exemple, es podria investigar si hi ha hagut processos similars de canvi social o tecnològic en els seus països d'origen, o utilitzar exemples concrets de productes culturals o pràctiques que reflecteixin el canvi. Això no només fa el contingut més accessible, sinó que també valida el bagatge cultural de l'alumne, convertint el currículum en un pont entre cultures, tal com suggereixen els principis d'actuació per a l'alumnat d'origen estranger."
+- Capacitat de raonament no verbal sovint normativa o superior a la mitjana
+- Memòria visual i processament espacial freqüentment preservats
+- Alta motivació quan les barreres lingüístiques s'eliminen i s'accedeix al contingut per canals alternatius
+- Capacitat per a tasques pràctiques, manipulatives i visuals no dependents del codi escrit
+- Resiliència i creativitat en la cerca d'estratègies compensatòries
 
-2.  **Heurística: Més enllà de la llengua comunicativa**
-    *   **Quan aplica:** Quan un docent observa que un alumne d'origen estranger té un bon nivell de català per comunicar-se diàriament, però continua mostrant dificultats en l'àmbit acadèmic o en la comprensió de conceptes complexos.
-    *   **Fonament:** Els documents destaquen que, fins i tot amb un nivell comunicatiu adquirit, calen suports continuats per als aprenentatges lingüístics acadèmics i per a la comprensió de les altres matèries. La llengua acadèmica és diferent de la social.
-    *   **Exemple complet de raonament:** Un docent comenta: "La Fàtima parla molt bé català al pati, però a classe de Biologia li costa molt entendre els textos i expressar-se amb precisió." L'agent raonaria: "Aquesta situació és un senyal clàssic que l'alumne necessita suport més enllà de la llengua comunicativa. La Fàtima ha desenvolupat la L2 per a la interacció social, però encara no domina el llenguatge acadèmic, que és més abstracte i específic de cada àrea. El docent podria implementar estratègies de suport lingüístic integrat, com ara l'ús de glossaris visuals, la reformulació de conceptes clau, l'ensenyament explícit de vocabulari científic o l'ús d'organitzadors gràfics. També és important que el docent sigui conscient que la comprensió de conceptes pot estar modulada per la llengua i la cultura, i que cal oferir múltiples vies d'accés al significat, no només a través del text escrit."
+#### Senyals identificadors a l'aula
 
-3.  **Heurística: La diversitat com a recurs d'aula**
-    *   **Quan aplica:** Quan un docent busca maneres d'enriquir les dinàmiques d'aula o de fomentar la inclusió de l'alumnat d'origen estranger.
-    *   **Fonament:** Els documents emfatitzen que el bagatge cultural i lingüístic d'aquests alumnes és una oportunitat per aprofitar i enriquir els aprenentatges de tot l'alumnat. El multilingüisme pot oferir noves perspectives semàntiques.
-    *   **Exemple complet de raonament:** Un docent vol saber "Com puc fer que els meus alumnes nouvinguts se sentin més integrats i aportin a la classe?" L'agent raonaria: "La clau és veure la diversitat com un recurs. Per exemple, en una activitat sobre geografia mundial, el docent podria demanar als alumnes d'origen estranger que comparteixin informació sobre els seus països, no només fets geogràfics, sinó també aspectes culturals, festes o tradicions. Això no només els dóna veu i valida la seva identitat, sinó que també enriqueix el coneixement de la resta de la classe. A més, es pot aprofitar el seu bilingüisme per explorar com es diuen certs conceptes en diferents idiomes, o per comparar perspectives culturals sobre un tema, fomentant així el pensament crític i la comprensió intercultural de tots els alumnes."
+**Senyals d'alarma:**
+- Vocabulari molt limitat per a l'edat; s'expressa amb paraules molt generals ("cosa", "fer", "allò")
+- Frases molt curtes, simples i mal estructurades en la producció oral i escrita
+- Gran diferència entre el que sembla que ha entès i el que és capaç de produir
+- Dificultat per seguir instruccions de dos o més passos
+- Problemes persistents per estructurar un relat o exposició oral amb coherència
+- Dificultats en totes les àrees que requereixen lectura i escriptura, sense component específicament lector
 
-4.  **Heurística: Rutines d'aula explícites i flexibles**
-    *   **Quan aplica:** Quan un docent detecta que un alumne d'origen estranger té dificultats per seguir les dinàmiques de classe, les instruccions o els procediments didàctics habituals.
-    *   **Fonament:** Els documents assenyalen que les rutines d'aula i els procediments didàctics poden resultar estranys per a alumnes que provenen de sistemes educatius diferents. Cal fer-los explícits i ser flexible.
-    *   **Exemple complet de raonament:** Un docent expressa: "La Maria, que acaba d'arribar, sovint no sap quan ha de parlar, com organitzar-se en grup o què s'espera d'ella en un treball." L'agent raonaria: "Aquesta situació indica que la Maria encara s'està adaptant a la 'cultura escolar' del nou sistema. El docent hauria de fer les rutines i els procediments d'aula el més explícits possible. Per exemple, podria crear un mural visual amb els passos per a un treball en grup, o una llista de normes de participació. També és útil modelar les conductes esperades i donar feedback clar i directe. A més, el docent hauria de ser flexible en les expectatives inicials i permetre a la Maria temps per assimilar aquestes noves dinàmiques, oferint suports addicionals com l'ajuda d'un company tutor o la repetició d'instruccions de manera individualitzada. Aquesta adaptació no només beneficia la Maria, sinó que clarifica les expectatives per a tot l'alumnat."
+**Senyals de context:**
+- Historial familiar de dificultats de llenguatge
+- Derivació o seguiment logopèdic previ o actual
+- Dificultats ja presents en l'etapa d'Infantil (retard en primeres paraules, frases curtes a I3)
 
-5.  **Heurística: L'acollida com a procés continu**
-    *   **Quan aplica:** Quan un docent o el centre es plantegen com garantir la integració i l'èxit a llarg termini de l'alumnat nouvingut, més enllà dels primers dies o setmanes.
-    *   **Fonament:** Els documents destaquen la necessitat d'un pla d'acollida i atenció psicoeducativa, i que els suports han de ser continuats, no només inicials, per garantir l'èxit escolar i evitar el fracàs personal.
-    *   **Exemple complet de raonament:** Un docent pregunta: "Hem fet un bon pla d'acollida inicial, però em preocupa que els alumnes nouvinguts puguin quedar-se enrere a mesura que avancen els cursos." L'agent raonaria: "És una preocupació vàlida, ja que l'acollida no és un esdeveniment puntual, sinó un procés continu. El docent hauria de considerar que els suports lingüístics i curriculars han de mantenir-se i adaptar-se a l'evolució de l'alumne. Això podria implicar la revisió periòdica del Pla Individualitzat, la coordinació amb el suport lingüístic, o la implementació de programes de tutoria entre iguals. A més, és crucial mantenir una comunicació fluida amb les famílies per entendre les seves expectatives i motivacions, i per assegurar que l'alumne se senti part de la comunitat educativa a llarg termini, evitant que la incorporació es visqui com una experiència de fracàs."
+**Anti-senyals (que no apunten a TDL):**
+- Dificultats úniques en L2, però no en L1 — probable barrera lingüística, no TDL
+- Dificultats aparegudes sobtadament — descartar causes neurològiques adquirides
+- Millora ràpida i completa amb instrucció ordinària
+- Dificultats exclusivament en lectura i escriptura sense afectació oral — valorar dislèxia en lloc de TDL
 
-### Heurístiques per a l'Agent ALUMNE
+#### Perfils associats i comorbiditats
 
-1.  **Heurística: El meu bagatge és un tresor**
-    *   **Quan aplica:** Quan un alumne d'origen estranger se sent insegur sobre la seva identitat cultural o lingüística, o creu que el seu origen és un inconvenient.
-    *   **Fonament:** Els documents emfatitzen que el bagatge personal, cultural i lingüístic de l'alumne és una oportunitat i un recurs valuós, no un inconvenient. El multilingüisme enriqueix la comprensió.
-    *   **Exemple complet de raonament:** Un alumne diu: "M'avergonyeix parlar la meva llengua a l'escola perquè ningú m'entén i em sento diferent." L'agent raonaria: "És normal sentir-se així al principi, però la teva llengua i la teva cultura són un tresor! Pensa que conèixer més d'una llengua t'ajuda a entendre el món de moltes maneres diferents. Per exemple, si a classe parlen d'un concepte nou, tu pots pensar com es diu o com s'explica a la teva llengua i això et pot ajudar a entendre'l millor. També pots compartir coses de la teva cultura amb els teus companys i professors, com ara festes, històries o maneres de fer. Això no només t'ajudarà a sentir-te més còmode, sinó que també enriquirà a tots els de la classe, ja que aprendran coses noves gràcies a tu. La teva diversitat és una força!"
+- **TDL + Dislèxia**: comorbiditat del 40-50%. Ambdós canals (oral i escrit) compromesos. Les dificultats fonològiques del TDL contribueixen als problemes lectors
+- **TDL + TDAH**: la dificultat d'evocació lèxica i la disfunció executiva s'intensifiquen mútuament. Les instruccions llargues generen una doble barrera (atenció + processament lingüístic)
+- **TDL + TEA**: superposició clínica en el component pragmàtic. El diagnòstic diferencial és complex i sovint ambdós coexisteixen
+- **TDL + Nouvingut**: la barrera de la L2 pot emmascarar o amplificar el TDL. L'avaluació en L1 és imprescindible per al diagnòstic diferencial
+- **TDL + Altes capacitats (2e)**: el potencial cognitiu compensa parcialment les dificultats lingüístiques, retardant la detecció fins que les demandes lingüístiques acadèmiques augmenten (generalment ESO)
 
-2.  **Heurística: Demanar ajuda és aprendre**
-    *   **Quan aplica:** Quan un alumne d'origen estranger té dificultats per entendre el que es fa a classe, els deures o les explicacions del professor, però no s'atreveix a preguntar.
-    *   **Fonament:** Els documents destaquen que l'alumne necessita ajudes i suports continuats. Demanar ajuda és un pas actiu en el seu procés d'aprenentatge i adaptació.
-    *   **Exemple complet de raonament:** Un alumne pensa: "No entenc el que diu el professor, però em fa vergonya preguntar perquè ja ho ha explicat." L'agent raonaria: "És molt important que sàpigues que demanar ajuda és una part fonamental d'aprendre, especialment quan estàs en un nou sistema educatiu i amb una nova llengua. Els professors saben que necessites temps per adaptar-te i estan allà per ajudar-te. Si no entens alguna cosa, pots aixecar la mà i preguntar. Si et fa vergonya fer-ho davant de tots, pots parlar amb el professor al final de la classe o durant el pati. També pots demanar ajuda a un company. Recorda que l'escola vol que tu tinguis èxit i per això et proporcionarà els suports que necessitis. No et quedis amb el dubte, preguntar t'ajudarà a aprendre més i millor!"
+#### Principis d'actuació
 
-3.  **Heurística: Les rutines són els meus aliats**
-    *   **Quan aplica:** Quan un alumne d'origen estranger se sent confús per les dinàmiques de classe, les normes o el que s'espera d'ell en diferents activitats.
-    *   **Fonament:** Els documents indiquen que les rutines d'aula i els procediments didàctics poden ser estranys. Entendre-les ajuda a la integració i a la participació.
-    *   **Exemple complet de raonament:** Un alumne se sent perdut quan el professor diu "feu grups de quatre i prepareu una presentació". L'agent raonaria: "Entenc que les maneres de treballar a l'escola poden ser diferents de les que coneixies. Però no et preocupis, les rutines i les normes de l'aula són com un mapa que t'ajuda a saber què fer. Intenta fixar-te en com actuen els teus companys o pregunta al professor què s'espera de tu en cada moment. Per exemple, si no saps com fer un treball en grup, pots demanar al professor que t'expliqui els passos o si hi ha algun company que et pugui ajudar. A poc a poc, aniràs entenent com funcionen les coses i et sentiràs més segur. Les rutines són els teus aliats per saber què toca fer i com fer-ho, i això t'ajudarà a participar més i a aprendre millor."
+- **Adaptar continguts:** Usar vocabulari d'alta freqüència, estructures SVO simples, definicions integrades, frases d'una sola clàusula. No reduir la profunditat conceptual — adaptar el canal lingüístic, no el contingut cognitiu.
+- **Adaptar activitats:** Oferir andamiatge lingüístic explícit en les tasques de producció (plantilles, guions, bancs de paraules). Proporcionar alternatives d'accés no exclusivament verbal (mapes conceptuals, suport visual, oral).
+- **Adaptar avaluació:** Dissociar la competència conceptual de la lingüística. Permetre respostes orals, esquemes, mapes o suport visual. Valorar el contingut per sobre de la forma lingüística. Proporcionar rúbriques que facin explícits els criteris d'avaluació.
+- **Adaptar interacció:** En dinàmiques de grup, estructurar explícitament els rols comunicatius. En exposicions orals, proporcionar guió previ i temps de preparació. Evitar consignes amb llenguatge figurat o implícit.
+
+#### Línies vermelles
+
+- **No confondre TDL amb baixa capacitat intel·lectual.** **Per què?** La capacitat no verbal és normativa o superior en la majoria de casos. El TDL afecta el canal lingüístic, no el raonament.
+- **No confondre TDL amb barrera lingüística en alumnat nouvingut.** **Per què?** El diagnòstic diferencial requereix avaluació en L1. Fins que no es descarta la causa lingüística, no és ètic ni rigorós assumir TDL.
+- **No avaluar la competència conceptual exclusivament a través de la producció escrita.** **Per què?** L'alumne pot saber la resposta però no poder-la expressar en el format requerit — la nota mesurarà el TDL, no el coneixement.
+- **No usar consignes implícites, iròniques o amb doble sentit.** **Per què?** Les dificultats pragmàtiques fan que el llenguatge no literal sigui genuïnament incomprensible, no una falta d'atenció.
+- **No donar múltiples instruccions simultànies.** **Per què?** La memòria de treball verbal limitada fa que l'alumne perdi parts de la instrucció, sense que sigui negligència.
+- **No esperar que el TDL "se superi" amb l'edat sense suport.** **Per què?** És un trastorn persistent. Les manifestacions canvien (les dificultats orals bàsiques milloren), però l'impacte en la comprensió i producció de textos acadèmics complexos persisteix a l'adolescència i l'edat adulta.
+
+#### Detecció i protocols
+
+##### Principis de detecció
+
+La detecció precoç del TDL es basa en l'observació sistemàtica de les etapes d'adquisició del llenguatge i la resposta a la instrucció. No existeix una prova única diagnòstica: el diagnòstic és clínic, realitzat per logopedes i/o psicòlegs, i requereix:
+
+1. **Avaluació multicomponent**: comprensió i expressió en vocabulari, morfosintaxi, discurs i pragmàtica
+2. **Avaluació en totes les llengües** del repertori de l'alumne (especialment en contextos bilingües)
+3. **Descart de causes alternatives**: audició, visió, context socioeducatiu, trastorn neurològic adquirit
+4. **Perspectiva longitudinal**: les dificultats han de ser persistents (no transitòries)
+
+##### Protocols a Catalunya
+
+- **CREDA (Centres de Recursos Educatius per a Deficients Auditius)** amb competència en TDL: suport especialitzat a centres ordinaris per a alumnat amb trastorns del llenguatge
+- **EAP (Equip d'Assessorament Psicopedagògic)**: primera porta d'entrada escolar per a la derivació al logopeda o al CREDA
+- **Col·legi de Logopedes de Catalunya (CLC)**: guies de bones pràctiques actualitzades el 2025
+- **XTEC / Educació Inclusiva**: recursos de formació docent sobre TDL, amb materials actualitzats 2022-2026
+
+### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+
+- **M1_dislexia-dificultats-lectores**: Comorbiditat 40-50%. Dificultats fonològiques del TDL contribueixen als problemes lectors. Veure dependència #10
+- **M1_TDAH**: Doble barrera atenció + processament lingüístic. Instruccions llargues especialment problemàtiques
+- **M1_TEA**: Superposició en el component pragmàtic. Diagnòstic diferencial complex
+- **M1_alumnat-nouvingut**: Barrera L2 pot emmascarar o amplificar el TDL. Veure dependència #2
+- **M1_altes-capacitats**: Doble excepcionalitat (2e) possible. Detecció tardana per compensació
+- **M1_creuament-variables-dependencies**: Dependencies #2, #10 (TDL × dislèxia), #TDL-TDAH, #TDL-TEA
+- **M3_lectura-facil-comunicacio-clara**: Tècniques de simplificació directament aplicables al component semàntic i morfosintàctic
+- **M2_carrega-cognitiva-adaptacio-textos**: La càrrega cognitiva del TDL es concentra en el processament lingüístic, no en la capacitat conceptual
+- **M2_DUA-principis-pautes**: Marc general d'accessibilitat; principi de representació múltiple especialment rellevant
+
+### 3. DETECCIÓ (Variables de Context)
+
+- **Senyals del docent:**
+  - "S'expressa amb frases molt curtes i simples, sobretot per escrit, però quan li pregunto oralment demostra que ho ha entès."
+  - "Té molt poca variació de vocabulari — sempre usa les mateixes paraules bàsiques."
+  - "No segueix instruccions de més d'un pas sense que li hagi de repetir."
+  - "Les seves redaccions no tenen estructura — és una llista de frases sense connexió."
+  - "En els treballs en grup, no participa gaire, però quan se li pregunta directament, respon bé."
+  - "Llegeix amb fluïdesa però no respon bé les preguntes de comprensió."
+
+- **Senyals de l'alumne:**
+  - Frustració o bloqueig davant tasques d'expressió escrita llarga
+  - Evitació de les exposicions orals i del treball en grup
+  - Dificultat per trobar les paraules ("se m'ha anat del cap", "com es diu...?")
+  - Rendiment molt variable depenent del format de la tasca (millora molt amb suport visual o oral)
+
+- **Senyals de context:**
+  - Seguiment logopèdic previ o actual
+  - Historial familiar de dificultats de llenguatge
+  - Dificultats presents des de l'etapa d'Infantil
+
+- **Anti-senyals:**
+  - Dificultats únicament en L2 (possible barrera lingüística, no TDL)
+  - Dificultats aparegudes sobtadament o associades a un event concret
+  - Millora ràpida i completa amb instrucció ordinària
+  - Dificultats exclusivament en lectura i escriptura sense afectació oral (valorar dislèxia)
+
+### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+
+- **Principi general:** L'agent ha d'adaptar la complexitat lingüística (sintàctica i lèxica) dels textos i consignes, sense reduir la profunditat conceptual ni cognitiva. El TDL afecta el canal, no la capacitat de pensar.
+
+- **Heurístiques per a l'Agent DOCENT:**
+
+  - **Nom:** Adaptació per component afectat
+  - **Quan aplica:** Quan el docent indica que l'alumne té TDL i es coneixen els components afectats.
+  - **Fonament:** El TDL és heterogeni — un alumne amb morfosintaxi afectada però semàntica preservada necessita una intervenció diferent que un amb dificultats de discurs i pragmàtica.
+  - **Exemple complet de raonament:** "El docent indica que l'alumna té TDL amb component morfosintàctic i de discurs afectats, grau moderat. L'agent ha de raonar que les frases han d'estar en SVO simple, evitar subordinades, i que els textos llargs han d'estar segmentats amb titulars de funció ('Primer fem X / Després fem Y / Al final...'). A més, en les consignes de producció ha d'oferir un guió d'estructura explícit ('Escriu 3 frases: una sobre el problema, una sobre la solució, una sobre el resultat'). No ha de simplificar el contingut conceptual — l'alumna pot entendre el tema al nivell del curs, però necessita el canal lingüístic adaptat."
+
+  - **Nom:** Detecció vs. diagnòstic — el paper del docent
+  - **Quan aplica:** Quan un docent pregunta si un alumne nouvingut o amb dificultats d'expressió "podria tenir TDL".
+  - **Fonament:** El TDL requereix avaluació especialitzada en totes les llengües del repertori. La barrera L2 pot produir un perfil superficialment idèntic al TDL.
+  - **Exemple complet de raonament:** "Un docent descriu un alumne que es va incorporar fa 6 mesos, parla poc i s'expressa amb frases molt simples en català i castellà. L'agent ha de raonar que primer cal saber si les dificultats apareixen també en la L1. Si l'alumne s'expressa amb normalitat en la seva llengua familiar, probablement és una barrera lingüística i no TDL. L'agent recomanaria: (1) observar l'alumne en contextos informals en la seva L1, (2) consultar la família sobre el desenvolupament del llenguatge en etapa primerenca, (3) si les dificultats es confirmen en L1, derivar a l'EAP per a avaluació logopèdica. No diagnosticar TDL sense avaluació professional."
+
+  - **Nom:** Dissociació competència lingüística–competència conceptual en l'avaluació
+  - **Quan aplica:** Quan es dissenyen activitats, rúbriques o criteris d'avaluació per a alumnat amb TDL.
+  - **Fonament:** Avaluar la producció lingüística com a mesura de la competència conceptual invalida els resultats per a l'alumne amb TDL.
+  - **Exemple complet de raonament:** "Un docent demana una rúbrica per a un treball de ciències socials per a un alumne amb TDL moderat. L'agent ha de separar els criteris lingüístics (estructura del text, riquesa de vocabulari, correcció gramatical) dels criteris conceptuals (identifica causes i conseqüències, relaciona conceptes, argumenta la seva opinió). Per a l'alumne amb TDL, els criteris lingüístics s'avaluen sobre el seu nivell adaptat, no sobre el nivell del curs. Els criteris conceptuals s'avaluen igual que la resta d'alumnes, i si cal, l'alumne pot demostrar la competència per via oral o amb suport visual."
+
+- **Heurístiques per a l'Agent ALUMNE:**
+
+  - **Nom:** Andamiatge lingüístic en producció escrita
+  - **Quan aplica:** Quan l'alumne ha de fer una redacció, informe, projecte o qualsevol tasca de producció escrita.
+  - **Fonament:** Les dificultats morfosintàctiques i discursives del TDL fan que la pàgina en blanc sigui una barrera paralitzant.
+  - **Exemple complet de raonament:** "Un alumne amb TDL ha d'escriure un informe sobre el canvi climàtic. L'agent suggeriria: (1) un esquema amb blocs etiquetats ('Definició / Causes / Conseqüències / Solucions'), (2) entre 1 i 3 preguntes guia per a cada bloc ('Quina és la principal causa? Dona un exemple'), (3) un banc de paraules clau del tema, (4) opcions d'inici de frase per a cada bloc ('La causa principal és... / Una conseqüència és... / Una possible solució seria...'). L'objectiu és eliminar la barrera de l'organització i el lèxic perquè l'alumne pugui demostrar el seu coneixement del tema."
+
+  - **Nom:** Comprensió de consignes complexes
+  - **Quan aplica:** Quan l'alumne no entén o no executa correctament una consigna de tasca o activitat.
+  - **Fonament:** Les instruccions multistep o amb vocabulari implícit generen una barrera d'accés a la tasca independent del coneixement del contingut.
+  - **Exemple complet de raonament:** "Un alumne amb TDL diu que no sap com fer una activitat de ciències. L'agent, en lloc de repetir la consigna, la reformularia en passos numerats: '1. Llegeix el text del pas 1. 2. Busca la paraula [terme clau]. 3. Escriu la definició amb les teves paraules.' Si el vocabulari de la consigna és abstracte, l'agent el substituiria per exemples concrets. No suposaria que l'alumne no sap el contingut — el problema pot ser la barrera lingüística de la consigna, no el coneixement."
+
 ---
 
 ## 5. FONTS DEL CORPUS
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/index |
-| 2 | cursos:escola_inclusiva:ansu:b1:b1t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t1 |
-| 3 | cursos:escola_inclusiva:ansu:b3:b3t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t3 |
-| 4 | 795m_b36112876d.pdf | http://www.xtec.cat/sgfp/llicencies/200304/memories/795m.pdf |
+| # | Referència | Tipus | Any |
+|---|-----------|-------|-----|
+| 1 | Bishop, D.V.M. et al. *CATALISE-2: a multinational and multidisciplinary Delphi consensus study.* PLOS ONE. | Consens internacional | 2017 |
+| 2 | Norbury, C.F. et al. *The impact of nonverbal ability on prevalence and clinical presentation of language disorder.* JCPP. | Prevalença i perfil clínic | 2016 |
+| 3 | Bishop, D.V.M. *Reconceptualizing DLD as a spectrum disorder.* JSLHR. | Marc dimensional | 2018 |
+| 4 | RADLD — Research Autism DLD. *Trastorn del Desenvolupament del Llenguatge (TDL/TEL).* radld.org | Divulgació científica | Vigent |
+| 5 | CREDA Cat Central / XTEC. *Actualització TDL: Terminologia i criteris d'identificació.* | Protocol Catalunya | 2026 |
+| 6 | XTEC / Educació Inclusiva. *Del TEL al TDL.* projectes.xtec.cat | Recursos docents | 2022 |
+| 7 | Col·legi de Logopedes de Catalunya. *Trastorns del Llenguatge Infantil.* Guia BP_05. | Guia clínica | 2025 |
+| 8 | Portal GVA Educació. *TDL: vocabulari i morfosintaxi (Julián Palazón López).* | Recurs educatiu | 2026 |
+| 9 | Frontiers in Education. *Educational practices for language development with DLD.* | Recerca educativa | 2024 |
+| 10 | De las Heras et al. *Reading Strategies for Children with DLD.* PMC / NIH. | Recerca estratègies lectores | 2022 |
+| 11 | Wiley / Cognitive Science. *What children with DLD teach us about word learning.* | Recerca aprenentatge lèxic | 2022 |
+| 12 | RedCenit. *Adaptaciones para el aula en el TEL/TDL.* redcenit.com | Pràctica educativa | 2016 |
+| 13 | Integratek Plus. *TDL en la escuela: Adaptaciones, pautas y normativa.* | Pràctica educativa | Vigent |
 
-*4 documents font · secció generada automàticament*
+*13 fonts referencials · document actualitzat 2026-03-26*
