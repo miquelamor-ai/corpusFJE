@@ -3,154 +3,391 @@ modul: M1
 titol: "Alumnat amb discapacitat auditiva"
 tipus: caracteristica
 subtipus: constitutiva
-descripcio: "Sordesa i hipoacúsia: llengua de signes, adaptacions i suports comunicatius"
-review_status: esborrany
+descripcio: "Discapacitat auditiva (hipoacúsia i sordesa): classificació audiomètrica, CREDA, MALL/SIAL, implant coclear, LSC, marc normatiu D150/2017 i Llei 17/2010"
+review_status: revisat
+locked: true
 generat_at: 2026-03-18T12:59:19
+actualitzat_at: 2026-03-27T23:00:00
 variables_configurables:
   - nom: comunicacio
     etiqueta: "Mode de comunicació"
     tipus: enum
-    valors: [oral, LSC, mixta]
+    valors: [oral, LSC, bimodal]
     obligatori: true
     defecte: oral
-    descripcio: "Llengua de Signes Catalana, oral, o mixta"
-    impacte: "LSC: prioritzar suport visual, estructura simple. Oral amb implant: adaptació similar a oient amb suport"
+    descripcio: "Oral: amb pròtesi/implant. LSC: Llengua de Signes Catalana com a L1. Bimodal: oral + signes simultàniament"
+    impacte: "LSC: contingut visual/escrit, intèrpret, LSC com a L1; Oral: subtítols, FM, verbalització clara; Bimodal: combinació"
   - nom: implant_coclear
     etiqueta: "Implant coclear"
     tipus: boolean
     obligatori: false
     defecte: false
-    descripcio: "Porta implant coclear o audiòfon?"
-    impacte: "Amb implant: pot beneficiar-se de contingut oral/audiovisual amb subtítols"
+    descripcio: "Porta implant coclear actiu?"
+    impacte: "Amb implant: pot beneficiar-se de contingut oral amb suport visual; sense implant amb DA severa/pregona: comunicació principalment visual"
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL PERFIL: ALUMNAT AMB DISCAPACITAT AUDITIVA
+# 1. CONTINGUT ESPECÍFIC
 
-**Nota important:** Els documents proporcionats per a la generació d'aquest perfil tracten sobre la diversitat de l'alumnat en un sentit ampli, la inclusió, la gestió de necessitats educatives diverses (com altes capacitats, trastorns de conducta, o deficiència visual), i marcs organitzatius com les aules d'acollida o els plans d'atenció a la diversitat. No obstant això, **cap dels documents conté informació específica detallada sobre el perfil de l'alumnat amb discapacitat auditiva (sordesa o hipoacúsia), les seves particularitats, barreres o necessitats concretes.** Per tant, les seccions següents reflectiran aquesta absència d'informació específica.
+## Definició i classificació
 
--   **Descripció del tret:**
-    Els documents proporcionats no contenen una descripció específica del perfil de l'alumnat amb discapacitat auditiva, ni detallen el seu espectre de variabilitat o prevalença. S'entén que la discapacitat auditiva pot anar des d'una hipoacúsia lleu fins a una sordesa profunda, amb implicacions diverses en el desenvolupament del llenguatge i la comunicació.
+La **discapacitat auditiva** comprèn qualsevol pèrdua total o parcial de la capacitat auditiva que, un cop considerada la millor amplificació possible, afecta significativament la comunicació, el desenvolupament del llenguatge i l'aprenentatge. L'OMS estableix el llindar de discapacitat auditiva a partir d'una pèrdua superior a **25 dB** en l'orella amb millor audició.
 
--   **Manifestació per etapa educativa (Infantil/Primària, ESO, Batxillerat/FP):**
-    La informació disponible no permet detallar les manifestacions específiques de la discapacitat auditiva en les diferents etapes educatives. Generalment, les necessitats i suports varien significativament segons l'edat d'aparició, el grau de pèrdua auditiva i si l'alumne ha adquirit o no una llengua oral o de signes.
+S'avalua principalment a través de l'**audiometria tonal** a les freqüències de la parla: 500 Hz, 1.000 Hz, 2.000 Hz i 3.000 Hz.
 
--   **Barreres d'aprenentatge (per àmbits: lingüístic, cognitiu, emocional, social, sensorial, curricular):**
-    Els documents no especifiquen les barreres d'aprenentatge concretes per a l'alumnat amb discapacitat auditiva. No obstant això, de forma general, les barreres podrien incloure dificultats en l'adquisició del llenguatge oral, l'accés a la informació auditiva a l'aula, la participació en discussions grupals, l'aïllament social, i la comprensió de conceptes abstractes si el llenguatge no s'ha desenvolupat plenament.
+### Classificació audiomètrica XTEC / CREDA
 
--   **Necessitats prioritàries (suports concrets ordenats per prioritat):**
-    Els documents no detallen suports concrets per a aquest perfil. Les necessitats prioritàries per a l'alumnat amb discapacitat auditiva solen centrar-se en l'accés a la comunicació (llengua de signes, sistemes de comunicació augmentativa, bucles magnètics, FM), el suport logopèdic, la formació del professorat en estratègies comunicatives, i l'adaptació de materials didàctics.
+| Categoria | Abrev. | Pèrdua (dB) | Implicació funcional i comunicativa |
+|:---|:---|:---|:---|
+| **Audició normal** | — | ≤ 20 dB | Sense restriccions. |
+| **Deficiència Auditiva Lleugera** | DAL | 21–40 dB | Dificultats en entorns sorollosos; pot passar desapercebuda; risc de retard articulatori. |
+| **Deficiència Auditiva Mitjana 1r grau** | DAM1 | 41–55 dB | Alta dificultat per entendre la parla a volum normal; retard de llenguatge probable. |
+| **Deficiència Auditiva Mitjana 2n grau** | DAM2 | 56–70 dB | Comprensió molt limitada sense pròtesi; amplificació constant necessària. |
+| **Deficiència Auditiva Severa 1r grau** | DAS1 | 71–80 dB | Sols percep veus molt intenses; risc elevat de no adquisició del llenguatge oral sense intervenció primerenca. |
+| **Deficiència Auditiva Severa 2n grau** | DAS2 | 81–90 dB | Percepció molt reduïda; depèn de pròtesi i suport logopèdic intensiu. |
+| **Deficiència Auditiva Pregona 1r grau** | DAP1 | 91–100 dB | Sols percep sons molt forts; implant coclear freqüentment indicat. |
+| **Deficiència Auditiva Pregona 2n grau** | DAP2 | 101–110 dB | Restes auditives molt limitades. |
+| **Deficiència Auditiva Pregona 3r grau** | DAP3 | 111–119 dB | Restes auditives mínimes. |
+| **Cofosi (sordesa total)** | — | ≥ 120 dB | Absència de percepció auditiva; comunicació visual/tàctil; LSC. |
 
--   **Fortaleses a aprofitar (capacitats sovint invisibles — el perfil NO és un dèficit):**
-    Els documents no identifiquen fortaleses específiques d'aquest perfil. Generalment, l'alumnat amb discapacitat auditiva pot desenvolupar una gran agudesa visual, habilitats d'observació, memòria visual, capacitat de concentració en tasques visuals i, en el cas d'usuaris de llengua de signes, una gran habilitat en la comunicació no verbal i una identitat cultural rica.
+> **Criteri de derivació al CREDA:** qualsevol alumne amb pèrdua auditiva confirmada, des de DAL, és susceptible de derivació per valoració. La intensitat del suport s'ajusta al grau de pèrdua i a l'impacte funcional real.
 
--   **Senyals identificadors a l'aula (per activar suport, NO per diagnosticar):**
-    Els documents no proporcionen senyals identificadors específics. Alguns senyals generals que podrien indicar una dificultat auditiva inclouen la manca de resposta a sons o veus, dificultat per seguir instruccions orals, problemes de llenguatge i parla, aïllament social, o una atenció visual excessiva per compensar.
+### Codis diagnòstics ICD-11
 
--   **Perfils associats i comorbiditats (quins coexisteixen freqüentment):**
-    Els documents no esmenten perfils associats o comorbiditats amb la discapacitat auditiva.
+| Sistema | Codi | Denominació |
+|:---|:---|:---|
+| **ICD-11** (OMS, 2019) | **AB50** | Deficiència auditiva congènita |
+| **ICD-11** | **AB51** | Deficiència auditiva adquirida |
+| **ICD-11** | **AB52** | Sordesa no especificada |
+| **ICD-10** (antic) | H90–H91 | Sordesa conductiva, neurosensorial i mixta |
 
--   **Principis d'actuació (adaptar continguts, activitats, avaluació, interacció — format narratiu):**
-    Sense informació específica, els principis d'actuació per a l'alumnat amb discapacitat auditiva s'emmarquen en els principis generals d'inclusió i atenció a la diversitat (DOC 8, DOC 10). Això implica crear un entorn comunicatiu accessible, assegurar que l'alumne tingui accés a la informació en el seu canal preferent (visual, llengua de signes, text), adaptar la metodologia per afavorir la participació activa, i oferir suports personalitzats. La flexibilitat en l'avaluació i la promoció de la interacció amb els companys són també fonamentals.
+## Tipologies
 
--   **Línies vermelles (biaixos a evitar, amb el PERQUÈ):**
-    Els documents no aborden biaixos específics per a aquest perfil. No obstant això, en l'atenció a la diversitat en general, és crucial evitar biaixos com la patologització de la diferència, la sobreprotecció que limita l'autonomia, o la infravaloració de les capacitats de l'alumne. És important no assumir que la dificultat en un àmbit (com l'audició) implica dificultats en tots els àmbits cognitius o socials, i no confondre la manca de llenguatge oral amb una manca de capacitat intel·lectual.
+### Per localització anatòmica
 
----
+| Tipus | Causa habitual | Característiques |
+|:---|:---|:---|
+| **Conductiva** | Otitis, tapó de cerumen, malformació oïda externa/mitjana | Sovint reversible amb tractament; amplificació molt efectiva |
+| **Neurosensorial** | Dany a la còclea o al nervi auditiu (genètica, prematuritat, meningitis, ototòxics) | Generalment permanent; pròtesi auditiva o implant coclear |
+| **Mixta** | Combinació de les dues anteriors | Tractament combinat |
+| **Trastorn del Processament Auditiu Central (TPAC)** | Disfunció de les vies auditives centrals | AV normal a l'audiometria; falles en discriminació i comprensió en soroll; sovint infradiagnosticat; freqüent comorbiditat amb TDAH i TDL |
+
+### Per moment d'adquisició
+
+| Tipus | Descripció | Implicació educativa clau |
+|:---|:---|:---|
+| **Prelingual** | Apareix abans de l'adquisició del llenguatge (0–2 anys) | Risc de no adquisició del llenguatge oral sense intervenció primerenca; LSC pot ser L1 |
+| **Perilingual** | Apareix durant l'adquisició (2–5 anys) | Intervenció logopèdica primerenca crítica; pronòstic variable |
+| **Postlingual** | Apareix un cop el llenguatge oral és adquirit | Base lingüística consolidada; menys impacte en la lectoescriptura |
+
+## Manifestacions a l'escola
+
+### Senyals d'alerta per etapes
+
+| Etapa | Senyals d'alerta |
+|:---|:---|
+| **Ed. Infantil (0–6)** | No es gira en sentir el seu nom; no localitza sons; retard en les primeres paraules; parla poc clara; no entén consignes senzilles; veu molt alta o indiferenciada |
+| **Ed. Primària (6–12)** | Demana freqüentment que li repeteixin; distracció en entorns sorollosos; ortografia i articulació pobres sense altra causa; fatiga en escolta prolongada; se situa prop del professor/a |
+| **ESO (12–16)** | Dificultats en exposicions orals; problemes en idiomes estrangers (comprensió oral); baixa participació oral; aïllament social; fatiga acumulada al final del dia |
+
+### Per àmbits funcionals
+
+| Àmbit | Alumnat hipoacúsic (DAL–DAS) | Alumnat sord (DAP–Cofosi) |
+|:---|:---|:---|
+| **Comunicació oral** | Dificultats en soroll; benefici de la lectura labial | Comunicació oral limitada; LSC com a llengua principal en molts casos |
+| **Lectoescriptura** | Ortografia fonètica alterada; comprensió lectora afectada | Metodologia visual específica; el català/castellà pot ser L2 |
+| **Matemàtiques** | Dificultats en explicacions orals llargues | Representació visual sistemàtica de totes les instruccions |
+| **Idiomes estrangers** | Discriminació fonètica estrangera molt difícil | Adaptació curricular significativa necessària |
+| **Educació Física** | No percep xiulets; dificultats amb instruccions en moviment | Senyals visuals (gestos, llum, contacte) en lloc d'acústics |
+| **Entorn digital** | Subtítols en tots els vídeos; sistema FM; altaveus personals | Contingut en LSC sempre que sigui possible; subtítols activats |
+
+## Barreres d'aprenentatge
+
+- **Accés a la informació oral:** La major part de la comunicació escolar és oral (explicacions, debats, consignes, feedback). L'alumnat amb DA té un accés reduït o nul a aquest canal.
+- **Soroll ambiental:** Les aules convencionals tenen nivells de soroll que degraden greument la relació senyal/soroll per a qui porta pròtesi o implant.
+- **Fatiga auditiva:** L'esforç d'escolta compensatòria (lectura labial, atenció sostinguda) genera fatiga acumulativa al llarg del dia.
+- **Llengua escrita com a L2:** Per a l'alumnat sord signant, el català/castellà escrit és una segona llengua; la comprensió lectora i l'expressió escrita requereixen metodologia específica.
+- **Idiomes estrangers:** La discriminació fonètica en una llengua estrangera és especialment difícil; la part oral de l'anglès, francès, etc. pot ser inaccessible.
+- **Comunicació no verbal perduda:** Tons de veu, ironies, dobles sentits, sorolls de fons significatius (riures, xiuxiuejos) que donen context social.
+- **Aïllament social:** La dificultat per seguir converses ràpides entre iguals pot generar exclusió no intencionada però real.
+
+## Necessitats prioritàries
+
+1. **Accés a la comunicació:** Garantir que tota la informació arribi a l'alumne pel seu canal preferent (oral amplificat, LSC, bimodal, escrit).
+2. **Sistema FM / Roger:** Micròfon del docent + receptor de l'alumne; millora decisivament la relació senyal/soroll. El CREDA el pot facilitar en préstec.
+3. **Suport CREDA + MALL:** Intervenció logopèdica, assessorament al tutor/a, seguiment audiològic, orientació comunicativa.
+4. **Subtítols en TOT material audiovisual:** Vídeos, podcasts, presentacions amb àudio. Sense excepció.
+5. **Reducció del soroll:** Suro a potes de cadires, portes ben tancades, aula allunyada de fonts de soroll, panells acústics si és possible.
+6. **Ubicació a l'aula:** Primera fila, de cara al docent, amb visió dels companys (lectura labial). Llum al rostre del docent, mai a contrallum.
+7. **Temps addicional:** En avaluacions amb component oral o de comprensió lectora. Mínim +25%.
+8. **Suport visual sistemàtic:** Esquemes, mapes conceptuals, instruccions escrites, pissarra digital — tot el que és oral ha de tenir un suport visual.
+9. **Intèrpret de LSC:** Si la modalitat comunicativa és LSC, l'alumne té dret a intèrpret a l'aula (Llei 17/2010).
+
+## Fortaleses a aprofitar
+
+L'alumnat amb discapacitat auditiva desenvolupa capacitats compensatòries que són un actiu:
+- **Agudesa visual:** Capacitat d'observació visual superior; detecten detalls visuals que altres no perceben.
+- **Memòria visual:** Retenció superior d'informació presentada visualment (esquemes, gràfics, mapes).
+- **Comunicació no verbal:** Domini de l'expressió corporal, gestual i facial; capacitat per llegir microexpressions.
+- **Concentració en tasques visuals:** Capacitat de treball sostingut en tasques que no depenen del canal auditiu.
+- **Identitat cultural rica (comunitat sorda):** Per a l'alumnat signant, la pertinença a la comunitat sorda és una font d'identitat, cultura i resiliència.
+- **Bilingüisme LSC-català/castellà:** L'alumnat bilingüe en LSC i llengua oral té avantatges cognitius associats al bilingüisme.
+
+## Perfils associats i comorbiditats
+
+| Perfil associat | Prevalença | Implicació |
+|:---|:---|:---|
+| **TDL (Trastorn del Llenguatge)** | Freqüent confusió diagnòstica | Cal descartar DA abans de diagnosticar TDL; audiometria obligatòria en tot cas de retard de llenguatge |
+| **TDAH** | Comorbiditat moderada, esp. amb TPAC | La fatiga auditiva pot semblar inatentió; avaluació diferencial necessària |
+| **Discapacitat visual (sordceguesa)** | Poc freqüent però molt greu | Comunicació tàctil (dactilobraille); suport CREDV + CREDA |
+| **TEA** | Minoritari | La DA pot emmascarar senyals de TEA o viceversa; avaluació especialitzada |
+| **Discapacitat intel·lectual** | En algunes etiologies congènites | Adaptació curricular significativa + adaptació comunicativa |
+| **TPAC** | Sovint infradiagnosticat | Audiometria normal però comprensió en soroll alterada; derivar a CREDA per valoració específica |
+
+> **Alerta:** No confondre mai el retard de llenguatge per manca d'accés auditiu amb una discapacitat intel·lectual o un trastorn del llenguatge. Un alumne sord sense intervenció primerenca pot semblar tenir un retard cognitiu que NO existeix.
+
+## L'implant coclear
+
+L'**implant coclear (IC)** és un dispositiu electrònic que estimula directament el nervi auditiu, bypassing la còclea danyada. Està indicat en sordeses severes-pregones neurosensorials bilaterals.
+
+### Implicacions educatives
+
+| Aspecte | Detall |
+|:---|:---|
+| **Edat d'implantació** | Més primerenca = millor pronòstic en adquisició de llenguatge oral. Implantació < 2 anys: resultats excel·lents en molts casos. |
+| **Rehabilitació** | Requereix logopèdia intensiva durant anys; el procés no és immediat. |
+| **Expectatives** | L'IC no "cura" la sordesa; dóna accés a sons, però la comprensió requereix aprenentatge. El rendiment auditiu varia enormement entre persones. |
+| **A l'aula** | L'alumne amb IC necessita igualment: sistema FM, ubicació preferent, subtítols, suport visual. No tractar com a "oient". |
+| **Manteniment** | El processador extern necessita càrrega diària, recanvi de piles/bateries, i cal evitar cops i aigua. |
+| **Decisió familiar** | L'IC és una decisió de la família; el centre NO pot pressionar. Respectar la modalitat comunicativa escollida (oral, LSC, bimodal). |
+
+## La Llengua de Signes Catalana (LSC)
+
+La **Llengua de Signes Catalana (LSC)** està reconeguda per la Llei 17/2010 del 3 de juny com a **llengua pròpia de la comunitat sorda de Catalunya**. No és una traducció del català sinó una llengua amb gramàtica, sintaxi i pragmàtica pròpies.
+
+### Implicacions educatives
+
+- L'alumnat sord signant té dret a rebre ensenyament en LSC o amb intèrpret de LSC.
+- El català/castellà escrit és per a ells una **L2**: cal metodologia d'ensenyament de segones llengües, no d'alfabetització en L1.
+- La LSC és un canal complet de comunicació: no és un "suport" ni un "recurs"; és una llengua plena.
+- El respecte a la identitat sorda i a la LSC és un principi normatiu, no una opció del centre.
+- El professorat pot aprendre LSC bàsica per facilitar la comunicació directa (cursos CREDA, FESOCA).
+
+## Principis d'actuació
+
+1. **Accés comunicatiu primer:** Abans de pensar en continguts, assegurar que l'alumne rep la informació pel seu canal preferent. Sense accés comunicatiu, no hi ha aprenentatge.
+2. **Modalitat comunicativa respectada:** Oral, LSC o bimodal — és una decisió de la família i l'alumne, no del centre. El centre s'adapta, no al revés.
+3. **Verbalització visual:** Parlar sempre de cara, amb bona il·luminació al rostre, sense objectes davant de la boca. No parlar mentre s'escriu a la pissarra.
+4. **Suport visual sistemàtic:** Tot el que es diu oralment ha de tenir un equivalent visual disponible.
+5. **Reducció del soroll:** Intervenir activament sobre l'acústica de l'aula; és una mesura de primera línia, no un luxe.
+6. **Coordinació CREDA–MALL:** El CREDA és l'aliat principal; la comunicació ha de ser fluida, regular i bidireccional.
+7. **Normalització:** L'alumne participa en totes les activitats amb les adaptacions necessàries. No excloure.
+
+## Línies vermelles
+
+- **No treure l'audiòfon o l'IC com a càstig:** Retirar l'accés auditiu és equivalent a tapar els ulls a un alumne vident. **Per què?** És una aggressió a la integritat funcional de la persona i vulnera els seus drets.
+- **No parlar des de l'esquena o en moviment:** L'alumne que fa lectura labial necessita veure la cara. **Per què?** Cada vegada que es parla d'esquena, l'alumne perd tota la informació i queda exclòs.
+- **No assumir que l'IC fa que l'alumne "senti normal":** L'alumne amb IC segueix necessitant totes les mesures de suport. **Per què?** L'IC dóna accés a sons, no comprensió automàtica; el rendiment varia enormement.
+- **No excloure la LSC:** Si la família ha triat LSC, no intentar "normalitzar" l'alumne forçant l'oralisme. **Per què?** La Llei 17/2010 garanteix el dret a la LSC; negar-la atempta contra la identitat lingüística.
+- **No excloure d'activitats per "raons pràctiques":** No treure l'alumne d'Ed. Física, sortides o debats. **Per què?** El D150/2017 garanteix la participació; l'exclusió empobreix l'experiència educativa.
+- **No confondre sordesa amb discapacitat intel·lectual:** El retard de llenguatge per manca d'accés auditiu NO és un retard cognitiu. **Per què?** Confondre-ho porta a rebaixar expectatives i a un currículum empobrit.
+
+## Marc normatiu català
+
+| Norma | Aplicació |
+|:---|:---|
+| **Decret 150/2017, art. 3.2.a** | Sordesa pregona i severa amb alt impacte funcional → **NEE** → **PI obligatori** (art. 18). Hipoacúsia lleugera/moderada → **NESE** → mesures addicionals (art. 7). |
+| **D150/2017, art. 7** | Mesures addicionals: suport MALL, sistema FM, adaptació de materials, temps addicional. |
+| **D150/2017, art. 9** | Mesures intensives: atenció directa CREDA; SIAL; MALL de centre o SIAL. |
+| **D150/2017, art. 14** | L'EAP coordina l'avaluació psicopedagògica i la derivació al CREDA. |
+| **DOIGC 2025-2026** | Protocols de coordinació CREDA–EAP–centre. |
+| **Llei 17/2010, del 3 de juny, de la LSC** | Reconeix la **Llengua de Signes Catalana** com a llengua pròpia de la comunitat sorda de Catalunya i garanteix el dret al seu ús en l'educació. |
+| **Llei 17/2020** | Accessibilitat universal; obligació de subtitulació i recursos d'accés auditiu en entorns educatius. |
+
+## El CREDA: servei de referència
+
+Els **Centres de Recursos Educatius per a Deficients Auditius (CREDA)** són serveis educatius específics del Departament d'Educació de Catalunya per a l'alumnat amb pèrdua auditiva i/o trastorns greus del llenguatge i la comunicació.
+
+### Destinataris
+
+- Infants i joves amb pèrdua auditiva (0–18 anys) i llurs famílies.
+- Alumnat amb greus trastorns del llenguatge i/o la comunicació (3–12 anys).
+- Centres i professorat que atenen aquest alumnat.
+- Professorat especialitzat MALL de la zona educativa.
+
+### Funcions principals
+
+- Valoració i seguiment del procés evolutiu audiològic, comunicatiu i lingüístic.
+- Intervenció logopèdica específica complementària a les mesures del centre.
+- Assessorament i formació al professorat i equips directius.
+- Orientació a les famílies sobre modalitat comunicativa (oralisme, LSC, bilingüisme).
+- Préstec de material especialitzat (sistemes FM, material logopèdic, etc.).
+- Atenció primerenca (0–3 anys) en col·laboració amb CDIAP i serveis de salut.
+
+### Seus territorials
+
+| Seu | Zona d'influència |
+|:---|:---|
+| **CREDA Pere Barnils** | Barcelona ciutat (Consorci d'Educació de Barcelona) |
+| **CREDA Catalunya Central** | Osona, Bages, Berguedà, Anoia |
+| **CREDA Lleida** | Lleida i comarques |
+| **CREDA Tarragona** | Tarragona i comarques |
+| **CREDA Girona** | Girona i comarques |
+| **CREDA Maresme–Vallès Oriental** | Maresme, Vallès Oriental |
+
+### Protocol d'accés
+
+**Via EAP (cas general):**
+Centre detecta → Tutor/a informa CAD → CAD sol·licita valoració EAP → EAP deriva al CREDA amb full protocolitzat de demanda
+
+**Via directa (0–3 anys):**
+Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ recomanat però no imprescindible)
+
+## Professionals especialitzats: MALL i SIAL
+
+| Professional | Nom complet | Funcions principals |
+|:---|:---|:---|
+| **MALL** | Mestre/a d'Audició i Llenguatge | Intervenció logopèdica directa; suport a l'aula ordinària; coordinació CREDA–família–tutoria; orientació al professorat |
+| **MESI** | Mestre/a Especialista en Suport Intensiu | Suport intensiu a alumnat amb NEE severes a l'aula ordinària |
+| **MALL de SIAL** | MALL adscrit al Suport Intensiu a l'Audició i el Llenguatge | Projectes específics d'audició i llenguatge per a tot el centre; col·labora amb l'equip directiu en la inclusió |
+
+> El **SIAL** és un recurs per a centres amb concentració significativa d'alumnat amb pèrdua auditiva que requereix intervenció d'alta intensitat de manera estable.
+
+## Mesures educatives per nivell (D150/2017)
+
+### Mesures universals (tot el grup classe)
+
+- Reduir el soroll de fons a l'aula (suro a les potes de les cadires, portes ben tancades, evitar aules prop de fonts de soroll).
+- Parlar sempre de cara a l'alumne; no parlar mentre s'escriu a la pissarra.
+- Suport visual sistemàtic: esquemes, imatges, subtítols activats en tots els vídeos.
+- Ubicar l'alumne a la primera fila, allunyat de fonts de soroll extern (finestra al carrer, porta).
+- Confirmar la comprensió de consignes de manera individualitzada (no preguntar «ho heu entès?» al grup).
+- Verbalitzar clarament el que es posa a la pissarra digital.
+
+### Mesures addicionals (hipoacúsia DAL–DAS — NESE)
+
+- **Sistema FM / Roger:** Micròfon del/la mestre/a + receptor de l'alumne; millora decisivament la relació senyal/soroll; el CREDA el pot facilitar en préstec.
+- Temps addicional en proves (+25% com a mínim).
+- Materials escrits com a suport de totes les explicacions orals.
+- Adaptació de les proves d'idiomes estrangers: substitució de la part oral per format escrit o supressió justificada.
+- Suport logopèdic del MALL (sessions individuals o en petit grup, dins o fora de l'aula).
+- Subtítols en tots els materials audiovisuals; plataformes digitals del centre amb subtitulat obligatori.
+- Avaluació alternativa en continguts amb alta càrrega oral (exposicions → presentació escrita + visual).
+
+### Mesures intensives (sordesa DAS2–Cofosi — NEE, PI obligatori)
+
+- Atenció directa del CREDA: sessions setmanals de logopèdia especialitzada.
+- Intèrpret de LSC a l'aula si la modalitat comunicativa és signant (Llei 17/2010).
+- MALL assignat al centre o SIAL si hi ha concentració d'alumnat.
+- PI amb objectius comunicatius, lingüístics i acadèmics; revisió trimestral amb CREDA–EAP–família.
+- Adaptació curricular significativa en idiomes estrangers si l'impacte funcional ho justifica.
+- Coordinació CREDA–EAP–centre–família amb periodicitat mínima trimestral.
+
+## Tecnologia de suport
+
+| Eina | Funció | Quan |
+|:---|:---|:---|
+| **Audiòfon** | Amplificació del so | DA lleugera a severa; ús constant |
+| **Implant coclear** | Estimulació directa del nervi auditiu | DA severa-pregona; decisió mèdica i familiar |
+| **Sistema FM / Roger** | Transmissió directa de la veu del docent a l'audiòfon/IC | Aula; millora relació senyal/soroll |
+| **Bucle magnètic** | Camp magnètic que transmet l'àudio a audiòfons amb posició T | Sales grans, auditoris |
+| **Subtitulació automàtica** | Transcripció en temps real de la parla | Totes les activitats amb àudio |
+| **Línia Braille + lector pantalla** | Per a sordceguesa | Combinació DA + DV |
+| **Aplicacions de transcripció** | Google Live Transcribe, Ava, Microsoft Teams subtítols | Classes, tutories, reunions |
 
 # 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
 
-*   **cursos:escola_inclusiva:deic:modul_4:index**: Proporciona una base teòrica sobre la identitat de múltiples pertinences, fonamental per entendre que cada alumne, inclòs aquell amb discapacitat auditiva, té una identitat complexa i no es defineix només per la seva condició.
-*   **cursos:escola_inclusiva:deic:modul_1:index**: Introdueix la diversitat de l'alumnat com una realitat complexa, emmarcant la discapacitat auditiva com una de les múltiples dimensions de la diversitat que l'escola ha d'atendre.
-*   **cursos:escola_inclusiva:deic:modul_4:practica_1**: Fomenta la reflexió sobre les identitats i la posició del docent davant la diversitat, ajudant a desenvolupar una actitud inclusiva cap a alumnes amb necessitats específiques com la discapacitat auditiva.
-*   **cursos:escola_inclusiva:deic:modul_1:practica_2**: Contextualitza la globalització i l'augment de la diversitat social, reforçant la idea que l'escola ha de ser inclusiva per a tots els perfils d'alumnat.
-*   **annex1_aules_nov_09_45cd56f376.pdf**: Detalla el Pla per a les Aules d'Acollida, que, tot i centrar-se en l'alumnat nouvingut, il·lustra un protocol d'atenció a la diversitat que pot inspirar l'organització de suports per a altres necessitats.
-*   **pla_ind_altes_capacitats_756fd2c5a7.pdf**: Presenta un pla individualitzat per a un alumne amb altes capacitats, oferint un exemple concret de com es dissenyen mesures pedagògiques i socials adaptades a necessitats específiques.
-*   **asma_d9939fd703.pdf**: Explica una condició de salut (asma) que pot afectar l'aprenentatge, servint com a exemple de com les condicions individuals requereixen atenció i adaptacions per part del docent.
-*   **cadsuports_a8c7a072f0.pdf**: Detalla les necessitats individuals i grupals de l'alumnat divers i proposa mesures organitzatives i metodològiques, proporcionant un marc general per a la gestió de la diversitat, incloent la discapacitat auditiva.
-*   **PAD V1-1 Febrer 2008_4112dbf9af.pdf**: És un Pla d'Atenció a la Diversitat (PAD) que estableix protocols per a la identificació, derivació i suport a l'alumnat amb necessitats educatives diverses, un marc institucional rellevant per a l'atenció a la discapacitat auditiva.
-*   **pi_del_burgar_6348841d09.pdf**: Defineix la inclusió i les "barreres d'aprenentatge", i descriu serveis de suport i coordinacions per atendre la diversitat, oferint un marc conceptual essencial per comprendre l'atenció a l'alumnat amb discapacitat auditiva.
+- **M1_model-caracteritzacio-diversitat.md** → Marc de 3 nivells; discapacitat auditiva = característica constitutiva
+- **M1_neurodiversitat-NESE.md** → Sordesa severa/pregona = NEE dins D150/2017
+- **M1_plans-individuals-PAD-PI.md** → PI obligatori per a NEE; el CREDA participa en l'elaboració
+- **M1_discapacitat-visual.md** → Perfil associat: sordceguesa (co-ocurrència)
+- **M1_TDL-trastorn-llenguatge.md** → Diagnòstic diferencial: cal descartar DA abans de diagnosticar TDL
+- **M1_TDAH.md** → Diagnòstic diferencial: la fatiga auditiva pot semblar inatentió
+- **M2_mesures-suports-inclusius.md** → Escala de mesures: universals → addicionals → intensives
+- **M2_carrega-cognitiva-adaptacio-textos.md** → Adaptació de textos: suport visual, estructura clara
+- **M3_comunicacio-augmentativa.md** → LSC, sistemes augmentatius i alternatius
+- **M3_llengua-diversitat.md** → LSC com a llengua pròpia; bilingüisme LSC-català
+- **M5_accessibilitat-digital.md** → Subtitulació, WCAG 2.1, accessibilitat auditiva digital
+- **M9_normativa-inclusio.md** → D150/2017, Llei 17/2010 (LSC), Llei 17/2020 (accessibilitat)
 
 # 3. DETECCIÓ (Variables de Context)
 
--   **Senyals del docent:**
-    *   "He notat que aquest alumne no respon quan el crido des de l'esquena o quan hi ha soroll ambiental."
-    *   "Observo que l'alumne té dificultats per seguir les explicacions orals sense suport visual."
-    *   "Em pregunto si les dificultats de llenguatge o de socialització d'aquest alumne podrien estar relacionades amb alguna dificultat auditiva no detectada."
-    *   "L'alumne sovint demana que li repeteixi les instruccions o les mira als companys abans d'actuar."
-    *   "He notat que l'alumne es mostra aïllat en activitats grupals on predomina la comunicació oral."
+**Senyals del docent:**
+- "Tinc un alumne que no es gira quan el crido i demana que li repeteixin tot."
+- "L'alumne es distreu molt en entorns sorollosos però en silenci funciona bé."
+- "Necessito saber com configurar el sistema FM que ens ha portat el CREDA."
+- "Tinc un alumne sord amb intèrpret de LSC; com coordino les explicacions?"
+- "L'alumne amb implant coclear segueix tenint dificultats; pensava que ja sentia bé."
+- "Com adapto els exàmens d'anglès per a un alumne amb hipoacúsia severa?"
 
--   **Senyals de l'alumne:**
-    *   L'alumne es mostra desorientat o confús durant les explicacions orals sense suport visual.
-    *   L'alumne tendeix a aïllar-se en activitats que requereixen escolta activa o interacció verbal ràpida.
-    *   L'alumne fa un ús excessiu de la lectura labial o de la mirada als companys per entendre.
+**Senyals de l'alumne:**
+- "No entenc el profe quan parla d'esquena a la pissarra."
+- "Em canso molt a les tardes i em perdo coses."
+- "Els vídeos sense subtítols no els puc seguir."
+- "No sento bé el profe quan els companys fan soroll."
+- "Necessito que em miris quan em parles."
 
--   **Senyals de context:**
-    *   En activitats amb molt soroll de fons o amb molts estímuls auditius simultanis.
-    *   Durant explicacions magistrals llargues sense suport visual o escrit.
-    *   En grups grans on la comunicació és menys directa i més dispersa.
+**Senyals de context:**
+- Aula amb reverberació alta, finestres al carrer, soroll ambiental.
+- Activitat amb component oral predominant (debat, dictàt, listening d'anglès).
+- Vídeo o podcast sense subtítols.
+- Canvi de professorat (el nou no coneix les mesures de l'alumne).
+- Sortida escolar a espai sorollós (museu interactiu, fàbrica).
+- Examen oral o exposició davant del grup.
 
--   **Anti-senyals:**
-    *   L'alumne participa activament en converses i activitats orals sense dificultat aparent, fins i tot en entorns sorollosos.
-    *   L'alumne segueix instruccions complexes sense necessitat de repetició o suport visual.
-    *   Les dificultats observades es manifesten de manera inconsistent o només en situacions de desinterès o fatiga, i no de forma persistent en la comprensió auditiva.
+**Anti-senyals:**
+- L'alumne segueix explicacions orals sense dificultat en tots els contextos (DA descartada o compensada).
+- Les dificultats són exclusivament de comprensió lectora sense component auditiu (considerar dislèxia, TDL).
+- L'alumne "no escolta" selectivament segons l'interès (explorar component conductual/motivacional).
+- Les dificultats apareixen només en una matèria concreta (pot ser curricular, no auditiu).
 
 # 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
 
--   **Principi general:** L'agent ha de promoure l'accessibilitat comunicativa i l'adaptació pedagògica per garantir la participació i l'aprenentatge de tot l'alumnat, reconeixent la diversitat com un valor.
+**Principi general:** L'adaptació per a l'alumnat amb DA és fonamentalment d'accés comunicatiu. El canal canvia; el contingut i l'exigència NO. Si l'alumne no accedeix a la informació, el problema és de l'entorn, no de l'alumne.
 
--   **Heurístiques per a l'Agent DOCENT:**
+## Heurístiques per a l'Agent DOCENT
 
-    *   **Heurística: Fomentar un entorn comunicatiu accessible.**
-        *   **Quan aplica:** Quan s'observen dificultats de comprensió o participació en activitats orals, o quan es té coneixement d'una discapacitat auditiva.
-        *   **Fonament:** Un entorn accessible redueix les barreres sensorials i lingüístiques, permetent a l'alumne accedir a la informació i expressar-se amb autonomia. Això s'alinea amb el principi d'inclusió (DOC 10) que busca suprimir barreres d'aprenentatge.
-        *   **Exemple complet de raonament:** Si un docent detecta que un alumne amb hipoacúsia lleu es perd en les explicacions orals, l'agent podria suggerir que el docent es col·loqui sempre de cara a l'alumne en parlar, utilitzi un to de veu clar i moderat, i s'asseguri que no hi hagi objectes que tapin la boca. A més, l'agent podria recomanar l'ús de suports visuals (pissarra, presentacions, esquemes) per complementar la informació oral i resumir els punts clau per escrit. Aquesta combinació de tècniques facilita la lectura labial i ofereix múltiples canals d'accés a la informació, assegurant que l'alumne pugui seguir el ritme de la classe i participar activament sense sentir-se exclòs per la seva condició auditiva.
+### H1: Canal comunicatiu primer, contingut després
+- **Quan aplica:** Quan un docent prepara una activitat i té un alumne amb DA al grup.
+- **Raonament:** Abans de pensar en el contingut, s'ha de garantir l'accés comunicatiu. Si l'alumne no rep la informació, no pot aprendre. L'ordre és: 1) canal accessible, 2) contingut, 3) avaluació.
+- **Resposta tipus:** "Comprova que l'alumne rep la informació: FM activat? Subtítols als vídeos? Instruccions escrites disponibles? Si l'alumne usa LSC, l'intèrpret està informat del tema? Un cop el canal està assegurat, la planificació de l'activitat és la mateixa que per a la resta."
 
-    *   **Heurística: Adaptar materials i metodologies.**
-        *   **Quan aplica:** Quan els materials o les activitats estàndard no permeten la plena participació o comprensió de l'alumne amb discapacitat auditiva.
-        *   **Fonament:** La diversificació de procediments i activitats és clau per atendre la diversitat (DOC 8). Les adaptacions permeten que l'alumne accedeixi al currículum i demostri el seu aprenentatge a través de diferents vies.
-        *   **Exemple complet de raonament:** Si un docent està planificant una activitat d'escolta d'un podcast en grup, i té un alumne amb sordesa, l'agent podria suggerir adaptar l'activitat. En lloc de només escoltar, es podria proporcionar una transcripció del podcast amb antelació, o subtítols. També es podria proposar una activitat prèvia de vocabulari clau i una posterior de discussió en petits grups amb suport visual o amb un intèrpret de llengua de signes si fos el cas. Aquesta adaptació no només facilita la comprensió del contingut per a l'alumne amb discapacitat auditiva, sinó que també pot beneficiar altres alumnes amb diferents estils d'aprenentatge o amb dificultats de processament auditiu, enriquint l'experiència per a tota la classe.
+### H2: Soroll = barrera invisible
+- **Quan aplica:** Quan un docent reporta que l'alumne "no presta atenció" o "es distreu".
+- **Raonament:** En un alumne amb DA, la distracció aparent sovint és fatiga auditiva per excés de soroll. Cal intervenir sobre l'acústica ABANS de qüestionar l'atenció.
+- **Resposta tipus:** "Pregunta't: l'aula és sorollosa? Hi ha reverberació? L'alumne porta el FM? Les cadires tenen protectors de suro? En la majoria de casos, millorant l'acústica es resol la 'inatentió'. Si persisteix, considera fatiga acumulativa: proporciona pauses breus o alterna activitats orals amb visuals."
 
-    *   **Heurística: Promoure la participació i la inclusió social.**
-        *   **Quan aplica:** Quan s'observa aïllament social o dificultats en la interacció amb els companys.
-        *   **Fonament:** La inclusió implica la participació i la consecució de l'èxit de tots els alumnes (DOC 10). La interacció social és fonamental per al desenvolupament integral.
-        *   **Exemple complet de raonament:** Si un docent nota que un alumne amb discapacitat auditiva tendeix a quedar-se al marge en els treballs en grup o en els moments de pati, l'agent podria suggerir estratègies per fomentar la seva inclusió. Això podria implicar assignar rols específics a l'alumne en treballs cooperatius que no depenguin exclusivament de la comunicació oral, com ara la creació de materials visuals o la recerca d'informació. També es podria organitzar activitats de sensibilització amb la resta de la classe sobre la discapacitat auditiva i la llengua de signes, o promoure jocs i dinàmiques que afavoreixin la comunicació no verbal i la cooperació entre tots els alumnes. L'objectiu és crear un clima d'aula on la diversitat sigui valorada i on tots se sentin partícips.
+### H3: L'implant coclear no és una solució màgica
+- **Quan aplica:** Quan un docent o família expressa frustració perquè l'alumne "ja porta implant i hauria de sentir bé".
+- **Raonament:** L'IC dóna accés a sons, no comprensió automàtica. El rendiment varia enormement segons l'edat d'implantació, la rehabilitació, el context acústic i la complexitat lingüística.
+- **Resposta tipus:** "L'alumne amb IC necessita TOTES les mesures: FM, subtítols, ubicació preferent, suport visual. L'IC ajuda, però no elimina la necessitat d'adaptació. Compara-ho amb unes ulleres: milloren la visió, però si la lletra és massa petita, no serveixen."
 
-    *   **Heurística: Col·laborar amb especialistes i famílies.**
-        *   **Quan aplica:** Davant de qualsevol necessitat educativa especial o per a una atenció integral de l'alumne.
-        *   **Fonament:** La coordinació amb serveis externs com l'EAP o el CREDA (DOC 10) i la implicació de les famílies són essencials per a una atenció efectiva i coherent.
-        *   **Exemple complet de raonament:** Quan un docent té un alumne amb discapacitat auditiva, l'agent hauria de recordar la importància de la col·laboració amb els professionals de l'EAP (psicopedagogs, logopedes) i, si s'escau, amb el CREDA, així com amb la família. L'agent podria suggerir al docent que estableixi reunions periòdiques amb aquests agents per compartir informació sobre el progrés de l'alumne, les estratègies que funcionen a casa i a l'escola, i per planificar conjuntament els suports necessaris. Aquesta comunicació fluida assegura que totes les parts implicades treballin en la mateixa direcció, oferint una resposta educativa coherent i adaptada a les necessitats individuals de l'alumne, tal com s'estableix en els plans d'atenció a la diversitat (DOC 9).
+## Heurístiques per a l'Agent ALUMNE
 
-    *   **Heurística: Utilitzar la tecnologia com a eina d'accessibilitat.**
-        *   **Quan aplica:** Per millorar l'accés a la informació i la comunicació de l'alumnat amb discapacitat auditiva.
-        *   **Fonament:** Els avenços tecnològics han permès una fluïdesa i velocitat extraordinàries en la circulació d'informació i la comunicació (DOC 4). Les TIC poden ser un recurs potent per a la inclusió.
-        *   **Exemple complet de raonament:** Si un docent busca maneres d'integrar millor un alumne amb discapacitat auditiva en les dinàmiques d'aula, l'agent podria proposar l'ús de diverses eines tecnològiques. Per exemple, es podrien utilitzar aplicacions de subtitulat automàtic en temps real per a les explicacions orals, sistemes de bucle magnètic o emissors FM per millorar la qualitat del so directament a l'audiòfon de l'alumne, o pissarres digitals interactives que permetin projectar i escriure simultàniament. L'agent podria també suggerir l'ús de tauletes o ordinadors per prendre apunts visuals o per accedir a materials multimèdia amb subtítols. Aquestes tecnologies no substitueixen la interacció humana, però actuen com a potents facilitadors de l'accés a la informació i la comunicació, empoderant l'alumne i reduint les barreres d'aprenentatge.
+### H1: Gestió de la fatiga auditiva
+- **Quan aplica:** Quan l'alumne reporta cansament, dificultat per concentrar-se a les últimes hores, mal de cap.
+- **Raonament:** La fatiga auditiva és acumulativa i real. No és mandra; és un límit fisiològic de l'esforç d'escolta compensatòria.
+- **Resposta tipus:** "La fatiga que sents és normal i no és culpa teva. Pots demanar pauses breus, alternar entre escolta i lectura, o demanar al professor que et doni les instruccions per escrit les últimes hores del dia."
 
--   **Heurístiques per a l'Agent ALUMNE:**
+### H2: Autoadvocacia comunicativa
+- **Quan aplica:** Quan l'alumne no entén alguna cosa, no rep el suport que necessita, o es troba en un entorn no adaptat.
+- **Raonament:** L'alumne ha d'aprendre a demanar el que necessita sense sentir-se una càrrega. Saber comunicar les pròpies necessitats és una competència clau.
+- **Resposta tipus:** "Tens dret a entendre tot el que es diu a classe. Si no sents bé, pots dir: 'Professor/a, podeu parlar-me de cara?' o 'Podeu activar els subtítols del vídeo?'. No és una molèstia; és el teu dret."
 
-    *   **Heurística: Identificar i comunicar les pròpies necessitats.**
-        *   **Quan aplica:** Quan l'alumne se sent perdut, no entén alguna cosa o necessita un suport específic.
-        *   **Fonament:** Fomentar l'autonomia i l'autoregulació de l'aprenentatge (DOC 8) implica que l'alumne sigui conscient de les seves pròpies necessitats i pugui expressar-les.
-        *   **Exemple complet de raonament:** Si un alumne amb discapacitat auditiva es troba en una situació on no pot seguir una explicació o una conversa, l'agent podria guiar-lo per identificar exactament què necessita. Per exemple, si no ha entès una instrucció oral, l'agent li podria suggerir que aixequi la mà i demani al professor que la repeteixi més lentament, que l'escrigui a la pissarra o que li faci un gest. També podria animar-lo a comunicar al docent si el soroll de fons és excessiu o si necessita seure en un lloc concret de l'aula per veure millor els llavis del professor. Aquesta capacitat d'autoreflexió i comunicació assertiva és crucial perquè l'alumne pugui gestionar el seu propi aprenentatge i assegurar-se que rep els suports necessaris sense dependre exclusivament de la detecció externa.
+# 5. FONTS
 
-    *   **Heurística: Utilitzar els recursos i suports disponibles.**
-        *   **Quan aplica:** Quan l'alumne té accés a eines o persones de suport per a la seva discapacitat auditiva.
-        *   **Fonament:** L'ús actiu dels recursos disponibles (tecnològics, humans) és clau per superar les barreres d'aprenentatge i participar plenament.
-        *   **Exemple complet de raonament:** Si un alumne disposa d'un audiòfon, un sistema FM, un intèrpret de llengua de signes o accés a materials amb subtítols, l'agent hauria d'encoratjar-lo a fer-ne un ús conscient i proactiu. Per exemple, l'agent podria recordar a l'alumne que s'asseguri que el seu audiòfon funciona correctament abans de començar la classe, que demani a l'intèrpret que repeteixi si no ha entès alguna cosa, o que consulti els subtítols dels vídeos. També podria suggerir-li que aprengui a utilitzar les funcions d'accessibilitat dels dispositius digitals. Aquesta heurística busca empoderar l'alumne perquè prengui un rol actiu en la gestió de la seva pròpia accessibilitat, maximitzant els beneficis dels suports que té al seu abast i reduint la seva dependència dels altres.
+| # | Referència | Rellevància |
+|---|-----------|-------------|
+| 1 | OMS (2019). *ICD-11: International Classification of Diseases, 11th Revision.* Codis AB50–AB52. | Classificació diagnòstica de referència |
+| 2 | CREDA (2024). *Guia de serveis educatius per a alumnat amb pèrdua auditiva a Catalunya.* Departament d'Educació. | Grups, funcions, protocol d'accés |
+| 3 | Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC 7477. | NEE, PI obligatori, mesures |
+| 4 | Llei 17/2010, del 3 de juny, de la Llengua de Signes Catalana. DOGC 5647. | Reconeixement LSC; dret a l'educació en LSC |
+| 5 | Llei 17/2020, de 22 de desembre, d'accessibilitat. DOGC 8303. | Accessibilitat universal; subtitulació |
+| 6 | DOIGC 2025-2026. Departament d'Educació. *Educació inclusiva: protocols de derivació.* | Coordinació CREDA–EAP–centre |
+| 7 | XTEC (2024). *Classificació de la pèrdua auditiva: taula de referència CREDA.* | Classificació audiomètrica catalana |
+| 8 | Marschark, M. & Spencer, P. E. (2010). *The Oxford Handbook of Deaf Studies, Language, and Education.* Oxford University Press. | Marc teòric de l'educació de l'alumnat sord |
+| 9 | Humphries, T. et al. (2012). "Language acquisition for deaf children: Reducing the harms of zero tolerance to the use of alternative approaches." *Harm Reduction Journal*, 9(1), 16. | Evidència sobre accés primerenc a la llengua de signes |
+| 10 | FESOCA (2023). *La Llengua de Signes Catalana: guia per a centres educatius.* Federació de Persones Sordes de Catalunya. | Guia pràctica LSC en centres |
+| 11 | Anderson, K. L. & Goldstein, H. (2004). "Speech perception benefits of FM and infrared devices to children with hearing aids in a typical classroom." *Language, Speech, and Hearing Services in Schools*, 35(2), 169–184. | Evidència sobre eficàcia del sistema FM |
+| 12 | Moeller, M. P. (2000). "Early intervention and language development in children who are deaf and hard of hearing." *Pediatrics*, 106(3), e43. | Evidència sobre intervenció primerenca |
 
-    *   **Heurística: Participar activament en la vida de l'aula i del centre.**
-        *   **Quan aplica:** En totes les activitats educatives i socials, per fomentar la inclusió i el desenvolupament integral.
-        *   **Fonament:** La participació és un pilar de la inclusió (DOC 10) i contribueix a la construcció de la identitat (DOC 1).
-        *   **Exemple complet de raonament:** L'agent hauria d'animar l'alumne amb discapacitat auditiva a no limitar-se a les activitats acadèmiques, sinó a involucrar-se en la vida social i extracurricular del centre. Per exemple, si hi ha un club de lectura, un equip esportiu o una activitat de teatre, l'agent podria ajudar l'alumne a explorar com podria participar, identificant possibles adaptacions o suports necessaris. Això podria incloure la comunicació amb els organitzadors per assegurar l'accessibilitat, o la cerca de companys amb qui pugui interactuar còmodament. La participació activa en aquests contextos no només enriqueix l'experiència educativa de l'alumne, sinó que també fomenta el desenvolupament d'habilitats socials, la construcció d'amistats i el sentiment de pertinença, elements crucials per al seu benestar i desenvolupament personal.
----
-
-## 5. FONTS DEL CORPUS
-
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:deic:modul_4:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/index |
-| 4 | cursos:escola_inclusiva:deic:modul_1:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/practica_2 |
-| 8 | cadsuports_a8c7a072f0.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_2/cadsuports.pdf |
-| 9 | PAD V1-1 Febrer 2008_4112dbf9af.pdf | http://www.xtec.cat/iesvilamajor/Documents%20de%20centre/PAD%20V1-1%20Febrer%202008.pdf |
-| 10 | pi_del_burgar_6348841d09.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_2/pi_del_burgar.pdf |
-
-*5 documents citats de 10 al corpus · secció generada automàticament*
+*12 fonts · document revisat manualment amb contingut clínic i normatiu*
