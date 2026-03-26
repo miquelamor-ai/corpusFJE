@@ -6,10 +6,37 @@ subtipus: constitutiva
 descripcio: "Trastorn per Dèficit d'Atenció i Hiperactivitat: gestió d'aula, estratègies i adaptacions"
 review_status: esborrany
 generat_at: 2026-03-18T12:58:27
-variables_configurables: []
-# Justificació: les adaptacions per TDAH (estructura, brevetat, suports atencionals)
-# són consistents dins l'espectre. La variació individual es gestiona
-# millor via els complements (bastides, esquemes) que via sub-variables.
+variables_configurables:
+  - nom: presentacio
+    etiqueta: "Presentació clínica (DSM-5)"
+    tipus: enum
+    valors: [inatent, hiperactiu, combinat]
+    obligatori: true
+    defecte: combinat
+    descripcio: "Inatent: dificultats en atenció sostinguda. Hiperactiu-impulsiu: impulsivitat, moviment. Combinat: ambdues (la més freqüent en edat escolar)"
+    impacte: "Inatent: chunking intens, negretes, títols cada 3-4 línies. Hiperactiu: frases directes, consignes d'un sol pas. Combinat: ambdues estratègies"
+  - nom: grau
+    etiqueta: "Grau de suport"
+    tipus: enum
+    valors: [lleu, moderat, sever]
+    obligatori: true
+    defecte: moderat
+    descripcio: "Intensitat del suport necessari per funcionar a l'aula"
+    impacte: "Lleu: estructura clara, contingut intact. Moderat: reducció de text, suport visual. Sever: text mínim, consignes d'un sol pas, vocabulari controlat"
+  - nom: baixa_memoria_treball
+    etiqueta: "Baixa memòria de treball"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Dèficit de memòria de treball associat: records incomplets, errors en instruccions, baixa comprensió lectora"
+    impacte: "Si sí: repetir concepte clau al final de cada bloc, no assumir info prèvia, instruccions numerades i seqüencials, evitar subordinades complexes"
+  - nom: fatiga_cognitiva
+    etiqueta: "Fatiga cognitiva / durada de tasca"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Fatiga ràpida en tasques sostingudes. Sessions òptimes: 10-15 minuts"
+    impacte: "Si sí: fragmentar text en blocs amb marcadors de progrés, feedback immediat entre blocs"
 ---
 
 **Contingut Específic: Perfil de l'Alumnat amb TDAH**
@@ -18,6 +45,27 @@ variables_configurables: []
 
 -   **Descripció del tret**
     L'alumnat amb TDAH, dins del marc de l'escola inclusiva, es considera part de la gran diversitat d'identitats i pertinences que conformen el nostre alumnat (DOC 1, DOC 2, DOC 3). En una societat globalitzada i complexa, la diversitat és la norma, i cada alumne és un individu amb múltiples factors que condicionen els seus comportaments i processos de socialització (DOC 2). Un perfil com el TDAH representaria una de les moltes manifestacions d'aquesta diversitat, que requereix una atenció individualitzada i contextualitzada. Els documents emfatitzen que la inclusió és un procés de recerca de noves fórmules per atendre la diversitat, aprenent a viure amb la diferència i a aprendre d'ella (DOC 10). Això implica identificar i suprimir les "barreres d'aprenentatge o de participació" que pugui experimentar qualsevol alumne, incloent-hi aquells amb TDAH, per tal d'assegurar la seva participació i èxit (DOC 10). La comprensió d'aquest perfil, per tant, s'emmarca en la necessitat de reconèixer les "necessitats individuals" de cada alumne, ja siguin cognitives, afectives, socials o d'altres tipus (DOC 8), i d'oferir respostes educatives que s'adaptin a la seva realitat única.
+
+### Presentacions clíniques del TDAH (DSM-5)
+
+El DSM-5 defineix tres presentacions clíniques del TDAH amb perfils cognitius i necessitats d'adaptació textual molt diferents. Ignorar aquesta variabilitat i tractar el TDAH com una condició homogènia produeix adaptacions genèriques poc útils per al docent.
+
+| Presentació | Perfil cognitiu | Estratègia d'adaptació principal |
+|---|---|---|
+| **Predomini inatent** | Dificultats en atenció sostinguda, omissions de paraules/frases, comprensió lectora deficient | Chunking molt intens, negretes per paraules clau, títols intermedis cada 3-4 línies |
+| **Predomini hiperactiu-impulsiu** | Impulsivitat en la lectura, tendència a saltar-se parts, dificultat per seguir textos llargs | Frases curtes i directes, verbs d'acció, consignes d'un sol pas, ritme dinàmic |
+| **Presentació combinada** | Les dues dimensions actives simultàniament (la més freqüent en edat escolar) | Combinació d'ambdues estratègies |
+
+**Grau de suport**: La intensitat de la presentació varia significativament. La Guia de Pràctica Clínica del SNS recomana graduar les intervencions:
+*   **Lleu**: estructura clara, frases curtes; contingut intact
+*   **Moderat**: reducció de text, suport visual explícit, llistes sobre paràgrafs
+*   **Sever**: text mínim, consignes d'un sol pas, vocabulari molt controlat
+
+**Memòria de treball**: Els dèficits de memòria de treball en el TDAH s'associen directament amb records incomplets, errors en seguir instruccions, mala comprensió lectora i baixa resolució de problemes. Quan aquest dèficit és rellevant, cal: repetir el concepte principal al final de cada bloc, no assumir informació prèvia, usar instruccions numerades i seqüencials (mai simultànies), i evitar subordinades complexes que sobrecarreguen el bucle fonològic.
+
+**Fatiga cognitiva**: Les sessions òptimes d'estudi amb TDAH no haurien de superar els 10-15 minuts. Les tasques han de ser breus, amb feedback immediat, i les activitats llargues s'han de dividir en parts amb marcadors visuals de progrés.
+
+*Fonts: DSM-5 (APA, 2013); Protocol TDAH (AEESME, 2021); Guia de Pràctica Clínica del SNS; Fundación CADAH.*
 
 -   **Manifestació per etapa educativa**
     Els documents no detallen la manifestació del TDAH per etapa educativa. No obstant això, el Pla d'Atenció a la Diversitat (PAD) i els documents sobre inclusió (DOC 9, DOC 10) subratllen la importància de considerar les necessitats individuals al llarg de tota l'escolarització, des de primària fins a secundària i batxillerat/FP. Les mesures d'atenció a la diversitat s'han de concretar i adaptar a cada nivell (DOC 9), i els plans individualitzats (com el que es mostra per altes capacitats en DOC 6) són eines per ajustar les mesures pedagògiques i socials a l'etapa vital i educativa de l'alumne. Això implica que les "barreres d'aprenentatge" (DOC 10) que un alumne amb TDAH pugui trobar, així com els suports necessaris, podrien variar significativament entre l'educació infantil/primària, l'ESO i el batxillerat/FP, requerint una revisió i adaptació contínua de les estratègies.
