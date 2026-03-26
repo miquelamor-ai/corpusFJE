@@ -2,10 +2,11 @@
 modul: M1
 titol: "Acollida en contextos de diversitat — Marc conceptual"
 tipus: protocol
-descripcio: "Pla d'acollida, fases d'incorporació, aula d'acollida, avaluació inicial i integració a l'aula ordinària"
-review_status: esborrany
+descripcio: "Pla d'acollida, fases d'incorporació, aula d'acollida, avaluació inicial i integració a l'aula ordinària. Inclou durada normativa AA (24/36 mesos), criteris de sortida MECR (B1 recomanat, B2 òptim) i taula d'escalada temporal del procés d'acollida."
+review_status: revisat
 locked: true
 generat_at: 2026-03-18T12:57:12
+actualitzat_at: 2026-03-27T03:00:00
 ---
 
 ## 1. CONTINGUT ESPECÍFIC DEL DOCUMENT
@@ -63,9 +64,32 @@ El protocol d'acollida es desenvolupa en les següents fases interconnectades:
     *   Treball de les habilitats socials i emocionals per a la integració.
     *   Participació gradual en algunes àrees de l'aula ordinària (educació física, plàstica, música, etc.).
 *   **Responsable:** Tutor/a d'aula d'acollida, tutor/a de referència.
-*   **Temporització:** Flexible, adaptada al ritme de cada alumne/a, amb una durada màxima establerta per normativa.
+*   **Temporització:**
+    *   **Règim general:** màxim **24 mesos** (2 anys) des de la primera incorporació al sistema educatiu català.
+    *   **Règim excepcional:** fins a **36 mesos** per a alumnat provinent d'àmbits lingüístics i culturals molt allunyats del català (sistemes d'escriptura no llatins, absència d'escolarització prèvia).
+    *   **Horari setmanal:** màxim **12 hores setmanals** (aprox. meitat horari lectiu), que es van reduint progressivament.
+    *   **Font normativa:** Orientacions per a la gestió i organització de les Aules d'Acollida, Departament d'Educació (2024).
 *   **Eines:** Materials didàctics específics per a l'aprenentatge de segones llengües, activitats contextualitzades, projectes interdisciplinaris.
 *   **Resultat esperat:** Adquisició de la llengua vehicular necessària per seguir el currículum ordinari i una integració social inicial.
+
+#### Criteris de sortida de l'Aula d'Acollida
+
+La decisió de sortida de l'AA es basa en el nivell de competència lingüística assolit segons el Marc Europeu Comú de Referència per a les Llengües (MECR):
+
+| Nivell MECR | Descriptor | Implicació per a l'AA |
+| :--- | :--- | :--- |
+| A1 (Accés) | Comprèn expressions quotidianes; comunicació elemental | Entrada a l'AA. Suport màxim intensiu. |
+| A2 (Plataforma) | Comprèn frases d'ús freqüent; intercanvis simples | Etapa intermèdia. Incorporació parcial a algunes àrees (EF, Plàstica, Música). |
+| B1 (Llindar) | Comprèn punts principals en llengua estàndard sobre temes habituals | Criteri de sortida recomanat per a la majoria. Incorporació a l'aula ordinària amb suports. |
+| B2 (Avançat) | Comprèn textos complexos; fluïdesa comunicativa | Criteri de sortida òptim. Autonomia per seguir currículum ordinari. |
+
+**Eines d'avaluació:**
+
+*   Pautes observació A1, A2 i B1 del MECR (XTEC)
+*   Graelles de descriptors per a cada nivell
+*   Decisió de sortida: CAD amb informe tutor/a AA i, si escau, EAP
+
+> **Advertència:** L'alumnat que exhaurit el període normatiu (24/36 mesos) no ha assolit B1, ha de continuar rebent mesures de suport lingüístic dins l'aula ordinària (D150/2017 art. 7), sense prorrogar AA. Centre ha de preveure mesures alternatives (PI o PSI).
 
 #### Fase 4: Integració progressiva a l'aula ordinària
 
@@ -107,6 +131,19 @@ El protocol d'acollida es desenvolupa en les següents fases interconnectades:
 | Alumnat "padrí/madrina" | Acompanya l'alumne/a nouvingut/da en la descoberta del centre i la socialització inicial | Fase 1 |
 | Família | Proporciona informació sobre l'alumne/a; participa en les reunions de seguiment; reforça l'aprenentatge des de casa | Totes |
 
+### Temporització i escalada del procés d'acollida
+
+| Moment | Acció clau | Responsable | Normativa |
+| :--- | :--- | :--- | :--- |
+| Dies 1-3 | Entrevista familiar, assignació tutoria, fitxa d'acollida | Equip directiu + Tutoria | DOIGC 2025-2026 |
+| Setmana 1-2 | Avaluació lingüística inicial (MECR) i competència curricular | Tutor/a AA + EAP | XTEC: Pautes observació A1/A2/B1 |
+| Mes 1 | Incorporació a l'AA (si procedeix); pla de suport provisional | Tutor/a AA + CAD | D150/2017, art. 7 |
+| Trimestre 1 | Primera revisió del pla; ajustament hores a l'AA | CAD + Tutoria + AA | Orientacions AA XTEC 2024 |
+| 6 mesos | Revisió MECR; valoració incorporació progressiva àrees ordinàries | CAD + EAP | Pautes MECR XTEC |
+| 12 mesos | Revisió anual; elaboració PI si persisteixen necessitats (NEE) o PSI (NESE) | CAD + EAP + Família | D150/2017, art. 18-22 |
+| 24 mesos | Finalització normativa AA (règim general); sortida o mesures alternatives | CAD + Equip directiu | Orientacions AA XTEC 2024 |
+| 36 mesos | Finalització normativa AA (règim excepcional); transició total a ordinària | CAD + EAP | Orientacions AA XTEC 2024 |
+
 ---
 
 ## CAPA AGENT
@@ -124,7 +161,7 @@ Aquest protocol d'acollida s'articula amb els documents del corpus de la manera 
 ## 3. DETECCIÓ DE TENSIONS O LLACUNES
 
 *   **Tensió recursos/realitat:** El protocol assumeix la disponibilitat d'Aula d'Acollida, però no tots els centres disposen d'aquest recurs. Cal preveure protocols alternatius per a centres sense AA.
-*   **Durada de l'acollida:** La normativa estableix una durada màxima a l'AA, però el ritme d'adquisició lingüística és molt variable. Pot haver-hi alumnes que surtin de l'AA sense haver assolit la competència necessària per seguir el currículum ordinari.
+*   **Durada de l'acollida (normativa precisa):** La normativa estableix una durada màxima de 24 mesos (règim general) o 36 mesos (règim excepcional) a l'AA, amb un màxim de 12 hores setmanals. El criteri de sortida recomanat és assolir el nivell B1 del MECR, amb el B2 com a òptim. L'alumnat que no assoleix B1 en exhaurir el termini no pot prorrogar l'AA: el centre ha de preveure suports alternatius (mesures addicionals D150/2017 art. 7, PI o PSI). Aquesta és la tensió principal del sistema i requereix pla de contingència explícit.
 *   **Formació del claustre:** El protocol requereix un claustre format en diversitat i inclusió, però la formació no sempre és homogènia ni sistemàtica.
 *   **Participació de les famílies:** Les barreres lingüístiques i culturals poden dificultar la comunicació amb les famílies. El protocol no detalla prou els mecanismes de mediació intercultural.
 *   **Llacuna en l'etapa postobligatòria:** El protocol se centra en l'escolarització obligatòria. La transició a la secundària postobligatòria i la prevenció de l'abandonament escolar queden poc desenvolupades.
@@ -156,5 +193,10 @@ Aquest protocol d'acollida s'articula amb els documents del corpus de la manera 
 | 8 | cadsuports_a8c7a072f0.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_2/cadsuports.pdf |
 | 9 | PAD V1-1 Febrer 2008_4112dbf9af.pdf | http://www.xtec.cat/iesvilamajor/Documents%20de%20centre/PAD%20V1-1%20Febrer%202008.pdf |
 | 10 | pi_del_burgar_6348841d09.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_2/pi_del_burgar.pdf |
+| 11 | Orientacions per a la gestió i organització de les Aules d'Acollida (2024). XTEC. | https://projectes.xtec.cat/acollidasuport/ |
+| 12 | Pautes d'observació A1, A2 i B1 del MECR – Aula d'Acollida XTEC | https://projectes.xtec.cat/aula-acollida/documents/pautes-dobservacio-a1-a2-i-b1-del-mecr/ |
+| 13 | DOIGC 2025-2026: Gestió de l'educació inclusiva | https://documents.espai.educacio.gencat.cat/IPCNormativa/DOIGC/GEST_Educacio_inclusiva.pdf |
+| 14 | Decret 150/2017, art. 7 i art. 18-22 | DOGC |
+| 15 | Nivells de referència MECR – Aules d'Acollida XTEC | https://sites.google.com/a/xtec.cat/aulesdacollida/programacions/nivells-de-referencia |
 
-*10 documents font · secció generada automàticament*
+*15 documents font · secció generada automàticament*
