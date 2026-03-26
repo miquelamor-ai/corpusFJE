@@ -6,13 +6,66 @@ subtipus: constitutiva
 descripcio: "Dislèxia, disgrafia, discalcúlia: detecció, estratègies i adaptacions de materials"
 review_status: esborrany
 generat_at: 2026-03-18T15:28:19
-variables_configurables: []
-# Justificació: les adaptacions de format (tipografia, espaiat, frases curtes,
-# suport visual) s'apliquen de manera universal. La variabilitat es cobreix
-# amb la intensitat de LF, que es calcula des del perfil global.
+variables_configurables:
+  - nom: tipus_dislexia
+    etiqueta: "Tipus de dislèxia (ruta afectada)"
+    tipus: enum
+    valors: [fonologica, superficial, mixta]
+    obligatori: true
+    defecte: fonologica
+    descripcio: "Fonològica: falla via grafema-fonema, confon paraules similars en so. Superficial: falla via visual/lèxica, confon homòfons. Mixta: ambdues vies afectades, errors semàntics"
+    impacte: "Fonològica: paraules freqüents, evitar vocabulari fonèticament complex. Superficial: paraules curtes, evitar homòfons. Mixta: màxima simplificació, redundància semàntica"
+  - nom: grau
+    etiqueta: "Grau de severitat"
+    tipus: enum
+    valors: [lleu, moderat, sever]
+    obligatori: true
+    defecte: moderat
+    descripcio: "Lleu: compensable amb adaptacions bàsiques. Moderat: intervenció sistemàtica. Sever: dificultats persistents, text molt simplificat + suport multimodal"
+    impacte: "Lleu: estructura clara, tipografia neta. Moderat: frases curtes, suport visual. Sever: text mínim, redundància en 3 canals (text+imatge+oral)"
+  - nom: tipografia_adaptada
+    etiqueta: "Tipografia adaptada per dislèxia"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Activa tipografia palo sec (Arial/Verdana/OpenDyslexic), interlineat generós, espaiat ampli. Afecta renderitzat, no contingut"
+    impacte: "Si sí: aplicar CSS amb font sans-serif, interlineat 1.5-2, espaiat entre lletres augmentat"
+  - nom: columnes_estretes
+    etiqueta: "Columnes estretes (màx. 44 caràcters/línia)"
+    tipus: boolean
+    obligatori: false
+    defecte: false
+    descripcio: "Limita l'amplada de text per reduir errors de seguiment de línia"
+    impacte: "Si sí: format de columna estreta, màxim 44 caràcters per línia"
 ---
 
+### Tipus de dislèxia (classificació neurocognitiva)
+
+La dislèxia és un trastorn específic de l'aprenentatge de base neurobiològica que afecta la lectura. La classificació neurocognitiva distingeix tres tipus basats en quina ruta lectora falla:
+
+| Tipus | Ruta afectada | Error característic | Adaptació textual específica |
+|---|---|---|---|
+| **Fonològica** | Via grafema-fonema | Confon paraules similars en so; problemes amb pseudoparaules | Paraules freqüents i conegudes, evitar vocabulari nou fonèticament complex |
+| **Superficial** | Via visual/lèxica | Confon homòfons, regularitza paraules irregulars, velocitat decreix amb paraules llargues | Paraules curtes, evitar homòfons ambigus, estructures morfològiques simples |
+| **Mixta/Profunda** | Ambdues vies | Errors semàntics (llegeix una paraula per una altra de significat similar) | Màxima simplificació, redundància semàntica, contextos molt explícits |
+
+**Grau de severitat (DSM-5-TR)**:
+*   **Lleu**: dificultats compensables amb suport i adaptacions bàsiques
+*   **Moderat**: requereix intervenció especialitzada i adaptacions sistemàtiques
+*   **Sever**: dificultats persistents malgrat intervencions intensives; necessita text molt simplificat i suport multimodal
+
+**Variables de format visual**: La recerca de Change Dyslexia (Rello, 2020) amb 97 participants identifica les dues variables amb més impacte en llegibilitat:
+*   **Tipografia**: palo sec (Arial, Verdana, OpenDyslexic) vs. serif; evitar cursiva
+*   **Interlineat i espaiat**: espaiat ampli redueix errors i augmenta velocitat lectora
+*   **Amplada de columna**: màxim 44 caràcters/línia per reduir errors de seguiment
+
+Aquestes variables afecten el renderitzat (CSS), no el contingut generat per la IA, però són part integral de l'adaptació per dislèxia.
+
+*Fonts: DSM-5-TR (APA); Rello, L. (2020) Change Dyslexia; UNIR Revista.*
+
 ### Descripció del tret
+
+> **NOTA**: El contingut d'aquesta secció prové de documents sobre alumnat d'origen estranger, NO de fonts específiques de dislèxia. Cal re-generar amb fonts especialitzades.
 
 El perfil d'alumnat amb "dificultats lectores" que es pot construir a partir dels documents proporcionats es centra en l'**alumnat d'origen estranger o nouvingut**. És crucial entendre que aquestes "dificultats lectores" no es refereixen a trastorns específics de l'aprenentatge de base neurobiològica com la dislèxia, la disgrafia o la discalcúlia (dels quals els documents no proporcionen informació), sinó a les barreres que sorgeixen de l'adquisició d'una nova llengua (L2) i la manca de referents culturals necessaris per accedir plenament al currículum ordinari.
 
