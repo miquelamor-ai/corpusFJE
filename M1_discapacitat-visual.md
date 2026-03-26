@@ -3,151 +3,288 @@ modul: M1
 titol: "Alumnat amb discapacitat visual"
 tipus: caracteristica
 subtipus: constitutiva
-descripcio: "Discapacitat visual (baixa visió i ceguesa): adaptacions de format, accessibilitat i suports"
-review_status: esborrany
+descripcio: "Discapacitat visual (baixa visió i ceguesa): classificació OMS/ICD-11, criteris ONCE, manifestacions escolars, tiflotecnologia, CREDV-ONCE i marc normatiu D150/2017"
+review_status: revisat
+locked: true
 generat_at: 2026-03-18T15:27:31
+actualitzat_at: 2026-03-27T22:00:00
 variables_configurables:
   - nom: grau
     etiqueta: "Grau de discapacitat visual"
     tipus: enum
-    valors: [baixa_visio, ceguesa]
+    valors: [baixa_visio_moderada, baixa_visio_greu, ceguesa]
     obligatori: true
-    defecte: baixa_visio
-    descripcio: "Baixa visió: pot llegir amb adaptació de format. Ceguesa: necessita format alternatiu"
-    impacte: "Baixa visió: tipografia gran, alt contrast, evitar gràfics complexos. Ceguesa: text pla, descripcions d'imatges, estructura lineal"
+    defecte: baixa_visio_moderada
+    descripcio: "Baixa visió moderada: AV < 0,3. Baixa visió greu: AV < 0,12. Ceguesa: sense percepció de llum o AV < 0,02"
+    impacte: "Baixa visió: ampliació, contrast, ajudes òptiques. Ceguesa: Braille, lector de pantalla, estructura lineal, descripcions d'imatges"
 ---
 
-**Nota important:** Els documents proporcionats per a la generació d'aquest perfil tracten sobre l'alumnat d'origen estranger i nouvingut, no sobre l'alumnat amb discapacitat visual. Per tant, el contingut d'aquest document reflecteix la informació extreta de les fonts sobre l'alumnat d'origen estranger i nouvingut.
+# 1. CONTINGUT ESPECÍFIC
 
-### Descripció del tret
+## Definició i classificació
 
-L'alumnat d'origen estranger o nouvingut és un grup heterogeni que enriqueix la diversitat de les nostres aules. Cada alumne té una història personal i escolar única, amb referents culturals, una llengua familiar i experiències educatives prèvies que influeixen directament en el seu procés d'aprenentatge. Aquesta diversitat, lluny de ser un inconvenient, representa un repte i una oportunitat per a l'escola inclusiva. Aquests alumnes sovint es troben en una situació de vulnerabilitat, necessitant suports específics per superar les dificultats lingüístiques i la manca de referents culturals necessaris per accedir al currículum ordinari. La seva incorporació al sistema educatiu català implica un procés d'adaptació a un nou context social i escolar, que pot incloure rutines d'aula i procediments didàctics diferents als que coneixien. És crucial considerar la seva situació personal, els valors culturals, la construcció de la seva identitat i el procés d'adquisició de noves llengües per garantir el seu èxit acadèmic i la seva plena integració. L'espectre de variabilitat és ampli, des d'alumnes amb un bon domini de la llengua d'acollida però amb llacunes culturals, fins a aquells amb escàs coneixement de la llengua i una cultura escolar molt diferent. La prevalença d'aquest perfil varia segons el context geogràfic i social, sent una realitat constant i creixent a les aules catalanes.
+La **discapacitat visual** comprèn qualsevol alteració de la funció visual que, un cop aplicada la millor correcció òptica possible, afecta significativament la realització d'activitats de la vida quotidiana, l'aprenentatge o la participació social.
 
-### Manifestació per etapa educativa
+S'avalua a partir de dos paràmetres fonamentals:
+- **Agudesa visual (AV):** capacitat per discriminar detalls i formes a distància determinada (es mesura en percentatge o fracció Snellen).
+- **Camp visual (CV):** amplitud del camp de visió perifèric (es mesura en graus).
 
-*   **Infantil/Primària:** L'alumnat nouvingut en aquestes etapes pot adquirir la llengua d'aprenentatge amb major rapidesa i naturalitat. No obstant això, poden manifestar dificultats en la comprensió de referents culturals bàsics (festes, tradicions, jocs) i en l'adaptació a les rutines i dinàmiques de l'aula, especialment si provenen de sistemes educatius molt diferents o no escolaritzats prèviament. La manca de vocabulari o d'estructures lingüístiques pot afectar la seva participació en activitats col·lectives i la interacció amb els companys.
-*   **ESO:** En aquesta etapa, les exigències curriculars augmenten significativament, i la complexitat del llenguatge acadèmic es fa més evident. Alumnes que tenen una bona competència comunicativa poden presentar llacunes en els coneixements previs o en l'enfocament cultural de certes matèries (geografia, història, ciències socials), la qual cosa afecta el seu rendiment acadèmic. L'adaptació a les rutines i procediments didàctics, que poden ser molt diferents als del seu país d'origen, també pot generar frustració i dificultats d'integració.
-*   **Batxillerat/FP:** L'alumnat que s'incorpora tardanament en aquestes etapes enfronta un repte major. La necessitat d'un domini avançat de la llengua acadèmica i de coneixements previs consolidats és fonamental. Les diferències en els sistemes educatius d'origen poden generar grans llacunes en àrees específiques, i la pressió per obtenir resultats acadèmics per a la continuïtat formativa o l'accés al món laboral és alta. La construcció de la identitat en un nou context social i cultural esdevé un factor clau en el seu benestar i rendiment.
+### Classificació OMS / ICD-11
 
-### Barreres d'aprenentatge
+| Categoria | Agudesa visual (millor ull, millor correcció) | Camp visual | Implicació funcional |
+|:---|:---|:---|:---|
+| **Visió normal** | ≥ 0,8 (80%) | ≥ 120° | Sense restriccions funcionals |
+| **Baixa visió moderada** | < 0,3 (30%) | < 60° | Dificultats en tasques d'alta exigència visual |
+| **Baixa visió greu** | < 0,12 (12%) | < 20° | Limitació important; necessita ajudes òptiques |
+| **Baixa visió profunda** | < 0,05 (5%) | < 10° | Dependència d'ajudes i adaptació de materials |
+| **Ceguesa quasi total** | < 0,02 (2%) | < 5° | Ús predominant de canals no visuals |
+| **Ceguesa total** | Sense percepció de llum | 0° | Codi Braille i tiflotecnologia com a eines principals |
 
-*   **Lingüístic:** La barrera més evident és el domini insuficient de la llengua d'aprenentatge (català/castellà) com a L2. Això afecta la comunicació, la comprensió de conceptes acadèmics i la participació activa a l'aula. La llengua no només és un vehicle, sinó que modula la conceptualització de la realitat, generant dificultats en la comprensió de determinats conceptes.
-*   **Cognitiu:** Llacunes en els coneixements previs, especialment en aquelles àrees on l'enfocament cultural o el currículum del país d'origen difereix significativament (ex: història, geografia, ciències socials). Això pot portar a un rendiment acadèmic inferior al potencial de l'alumne.
-*   **Emocional:** La vivència de la incorporació a una nova societat i sistema educatiu pot generar sentiments de fracàs personal, frustració o desmotivació, afectant la seva autoestima i el seu projecte de vida.
-*   **Social:** Desconeixement o dificultat d'adaptació a les rutines d'aula, els procediments didàctics i les normes socials implícites del nou context escolar. Això pot dificultar la interacció amb companys i docents, i la participació en activitats grupals.
-*   **Curricular:** La manca de referents culturals propis de la societat d'acollida dificulta l'accés i la comprensió del currículum ordinari. Elements com l'entorn geogràfic, la història, els símbols, els productes i les pràctiques culturals són fonamentals per a la comprensió profunda de moltes matèries.
+> **Criteri ONCE per a afiliació:** AV ≤ 0,1 (10%) o CV ≤ 10°, amb la millor correcció òptica possible.
 
-### Necessitats prioritàries
+### Codis diagnòstics
 
-1.  **Suport lingüístic intensiu i continuat:** Més enllà de l'adquisició inicial de la llengua comunicativa, cal un suport sostingut per al desenvolupament del llenguatge acadèmic, essencial per a la comprensió del currículum.
-2.  **Adaptació curricular i cultural:** Incorporar elements de la cultura d'acollida (geografia, història, símbols, pràctiques) al currículum per facilitar la comprensió dels continguts i contextualitzar els aprenentatges.
-3.  **Acompanyament en l'adaptació escolar i social:** Orientació sobre les rutines d'aula, els procediments didàctics i les expectatives del sistema educatiu, així com foment de la interacció amb els companys per afavorir la integració social.
-4.  **Reconeixement i valoració del bagatge previ:** Aprofitar la llengua familiar, els referents culturals i l'experiència escolar prèvia de l'alumne com a punt de partida i recurs per a l'aprenentatge.
-5.  **Atenció individualitzada i flexible:** Dissenyar respostes educatives que tinguin en compte la situació personal, els valors culturals i el ritme d'adquisició de llengües de cada alumne.
+| Sistema | Codi | Denominació |
+|:---|:---|:---|
+| **ICD-11** (OMS, 2019) | **9D90** | Visual impairment (inclou low vision i blindness) |
+| **ICD-10** (antic) | H54 | Visual impairment including blindness |
 
-### Fortaleses a aprofitar
+## Tipologies i etiologia
 
-L'alumnat d'origen estranger posseeix un bagatge personal i cultural ric que és una oportunitat per a l'aula. La seva llengua familiar i els seus referents culturals poden ser un recurs valuós per enriquir els aprenentatges de tot el grup, oferint noves perspectives en la conceptualització de la realitat i la comprensió de conceptes. Sovint, presenten una gran motivació i voluntat de progressar, tant ells com les seves famílies, la qual cosa és un motor potent per al seu èxit acadèmic. La seva experiència de vida, sovint marcada per canvis i adaptacions, els dota d'una resiliència i una capacitat d'adaptació que cal reconèixer i potenciar. A més, la diversitat lingüística que aporten pot ser un estímul per al desenvolupament del plurilingüisme de tots els alumnes.
+### Per moment d'aparició
 
-### Senyals identificadors a l'aula
+| Tipus | Descripció | Implicació educativa clau |
+|:---|:---|:---|
+| **Congènita** | Present des del naixement o primers mesos | No hi ha memòria visual; aprenentatge íntegrament multisensorial des de l'inici |
+| **Adquirida primerenca** | Apareix en els primers anys de vida | Pot haver-hi traces de memòria visual; adaptació progressiva |
+| **Adquirida tardana** | Apareix en edat escolar o adulta | L'alumne té conceptes visuals consolidats; l'adaptació és diferent |
 
-*   **Dificultat en la comprensió i expressió oral/escrita:** L'alumne pot tenir problemes per seguir les explicacions, participar en debats o redactar textos, fins i tot si la seva competència comunicativa bàsica és acceptable.
-*   **Llacunes en coneixements previs:** Es manifesta en dificultats per connectar amb nous continguts, especialment en àrees amb una forta càrrega cultural (història, geografia, literatura).
-*   **Desorientació davant rutines o metodologies:** L'alumne pot mostrar-se confús amb les dinàmiques de treball en grup, l'ús de certs materials o les expectatives sobre la participació a l'aula.
-*   **Manca de referents culturals:** No entén acudits, referències a esdeveniments locals, personatges públics o tradicions, la qual cosa pot afectar la seva integració social i la comprensió de textos.
-*   **Rendiment acadèmic desigual:** Pot destacar en àrees més universals (matemàtiques) i tenir dificultats en d'altres amb més càrrega lingüística o cultural.
-*   **Silenci o poca participació:** Pot ser un signe de por a equivocar-se, manca de confiança en la seva expressió lingüística o desconeixement de les normes de participació.
+### Per causa principal (freqüents en edat escolar)
 
-### Perfils associats i comorbiditats
+| Causa | Notes |
+|:---|:---|
+| Retinopatia de la prematuritat | Causa principal en nens prematurs |
+| Albinisme ocular | Baixa visió moderada; fotofòbia freqüent |
+| Nistagme | Moviment involuntari dels ulls; afecta l'agudesa |
+| Glaucoma congènit | Augment de la pressió intraocular; pot afectar el CV |
+| Atròfia òptica | Dany al nervi òptic; variabilitat funcional alta |
+| Discapacitat visual cortical (DVC/CVI) | D'origen neurològic central; freqüent en alumnes amb pluridiscapacitat |
 
-Els documents no descriuen perfils associats o comorbiditats en el sentit de trastorns del desenvolupament. No obstant això, la situació d'alumnat d'origen estranger pot coexistir amb altres necessitats educatives específiques, com dificultats d'aprenentatge o trastorns del neurodesenvolupament, que poden quedar emmascarades per les barreres lingüístiques i culturals. És important no confondre les dificultats derivades de l'adquisició d'una L2 o de la manca de referents culturals amb altres tipus de necessitats educatives. La manca d'un suport adequat pot, a la llarga, generar desmotivació i fracàs escolar, que podrien ser confosos amb altres perfils.
+## Manifestacions a l'escola
 
-### Principis d'actuació
+### Senyals d'alerta per etapes
 
-Per acompanyar l'alumnat d'origen estranger i nouvingut, és fonamental adoptar una perspectiva inclusiva que vegi la diversitat com una oportunitat. Això implica, en primer lloc, proporcionar suports lingüístics continuats que vagin més enllà de la comunicació bàsica, centrant-se en el llenguatge acadèmic. En segon lloc, cal un tractament inclusiu del currículum, adaptant els continguts i les activitats per incorporar elements de la cultura d'acollida (història, geografia, símbols, pràctiques) i contextualitzar els aprenentatges, alhora que es valora i s'aprofita el bagatge cultural i lingüístic de l'alumne. Les activitats han de ser dissenyades per facilitar la participació de tots, utilitzant metodologies que afavoreixin la interacció i el suport entre iguals. L'avaluació ha de ser formativa i tenir en compte el procés d'adquisició de la llengua i els coneixements previs de l'alumne, evitant que les barreres lingüístiques penalitzin el seu aprenentatge real. Finalment, és crucial tenir en compte la situació personal, els valors culturals i la construcció de la identitat de cada alumne, oferint una resposta individualitzada que afavoreixi la seva integració social i emocional a l'escola i a la societat.
+| Etapa | Senyals d'alerta |
+|:---|:---|
+| **Ed. Infantil (3-6)** | S'acosta molt als objectes; frota els ulls; evita tasques de motricitat fina; no reconeix cares a distància; no segueix la pilota |
+| **Ed. Primària (6-12)** | Lletra molt gran o molt petita; perd el fil en la lectura; fatiga visual; dificultats amb la pissarra; postura atípica en llegir |
+| **ESO (12-16)** | Fatiga en tasques llargues de lectura; dificultats amb materials no adaptats; evita activitats esportives amb pilota |
 
-### Línies vermelles
+### Per àmbits funcionals
 
-*   **No considerar la diversitat un inconvenient:** És un error percebre la presència d'alumnat d'origen estranger com un problema o una càrrega. **Per què?** Perquè aquesta visió redueix les oportunitats d'aprenentatge per a tots, ignora el valor del seu bagatge cultural i lingüístic, i pot generar actituds d'exclusió.
-*   **No confondre dificultats lingüístiques amb manca de capacitat:** Assumir que un alumne amb un domini limitat de la llengua d'aprenentatge té menys intel·ligència o potencial. **Per què?** Aquesta suposició és un biaix que pot portar a rebaixar les expectatives, oferir un currículum empobrit i limitar el desenvolupament acadèmic de l'alumne, impedint-li demostrar les seves veritables capacitats.
-*   **No segregar l'alumnat en espais aïllats de forma permanent:** Mantenir l'alumnat nouvingut exclusivament en aules d'acollida o grups separats sense una integració progressiva al grup ordinari. **Per què?** La segregació limita la interacció amb els companys, frena l'adquisició natural de la llengua i dels referents culturals, i pot generar sentiments d'aïllament i estigmatització, contradient els principis de l'escola inclusiva.
-*   **No ignorar el seu bagatge cultural i escolar previ:** No tenir en compte la llengua familiar, els coneixements previs o les experiències educatives del país d'origen. **Per què?** Aquest menyspreu priva l'alumne de punts de connexió amb els nous aprenentatges, desaprofita un recurs pedagògic valuós i pot fer que l'alumne se senti desvaloritzat i desconnectat del procés educatiu.
+| Àmbit | Alumnat amb baixa visió | Alumnat amb ceguesa |
+|:---|:---|:---|
+| **Lectoescriptura** | Lletra ampliada; ajudes òptiques (lupa, monocular); fatiga visual | Codi Braille; línia Braille; lector de pantalla |
+| **Matemàtiques** | Materials en format ampliat; calculadora parlant | Material tàctil; àbac; calculadora parlant |
+| **Educació Física** | Adaptació de regles; contrastar colors; evitar llum directa | Parella de referència; indicadors sonors; activitats sense component de persecució visual |
+| **Ús de les TIC** | Magnificadors de pantalla (ZoomText, Windows Magnifier) | Lectors de pantalla (JAWS, NVDA); línia Braille |
+| **Organització personal** | Marques tàctils d'organització; llocs fixes per als materials | Entrenament en orientació i mobilitat (bastó blanc) |
+
+## Barreres d'aprenentatge
+
+- **Accés a la informació visual:** El 80-90% de la informació escolar es transmet per via visual (pissarra, llibres, projeccions, gràfics). L'alumnat amb DV té un accés reduït o nul a aquest canal.
+- **Fatiga visual:** En baixa visió, l'esforç visual compensatori genera fatiga que redueix el rendiment al llarg de la jornada.
+- **Materials no adaptats:** Llibres de text, fitxes, exàmens i materials digitals sense adaptació de format (cos de lletra, contrast, alternatives textuals a imatges).
+- **Ritme de treball:** La lectura en Braille o amb magnificació és més lenta; l'alumne necessita més temps per a les mateixes tasques.
+- **Orientació espacial:** Dificultats per moure's en espais desconeguts, canvis de distribució de l'aula, sortides.
+- **Accés a la comunicació no verbal:** Pèrdua de gestos, expressions facials i informació contextual visual que els companys capten de forma automàtica.
+- **Participació en activitats col·lectives:** Esports amb pilota, experiments de laboratori, sortides, activitats amb component visual dominant.
+
+## Necessitats prioritàries
+
+1. **Adaptació de materials:** Tot material ha d'arribar a l'alumne en format accessible ABANS de la sessió (ampliat, Braille, audiodescripció, format digital compatible amb lector de pantalla).
+2. **Tiflotecnologia:** Accés a eines específiques (línia Braille, lector de pantalla JAWS/NVDA, magnificador ZoomText, anotador parlant) i formació en el seu ús.
+3. **Suport CREDV:** Mestre/a itinerant del CREDV-ONCE per a l'ensenyament del Braille, la tiflotecnologia, l'orientació i mobilitat, i l'assessorament al centre.
+4. **Ubicació a l'aula:** Lloc preferent (primera fila, bona il·luminació, lluny de contrallum) i estabilitat de la distribució del mobiliari.
+5. **Temps addicional:** En avaluacions i tasques de lectoescriptura. Referència: 1/3 de temps addicional com a mínim (ONCE).
+6. **Verbalització sistemàtica:** El docent ha de verbalitzar TOT el que escriu a la pissarra, projecta o assenyala. "Ho estic escrivint a la pissarra" no és suficient; cal dir QUÈ s'escriu.
+7. **Orientació i mobilitat:** Entrenament en desplaçaments autònoms pel centre i sortides (responsabilitat del CREDV en coordinació amb el tutor).
+
+## Fortaleses a aprofitar
+
+L'alumnat amb discapacitat visual desenvolupa compensatòriament capacitats que són un actiu a l'aula:
+- **Memòria auditiva i verbal:** Retenció superior d'informació oral; capacitat d'escoltar i processar explicacions orals complexes.
+- **Pensament analític seqüencial:** La lectura en Braille entrena un processament lineal i precís que afavoreix la comprensió textual detallada.
+- **Sensibilitat tàctil i propioceptiva:** Capacitat de discriminació tàctil superior, útil en ciències experimentals, arts plàstiques tàctils i tecnologia.
+- **Autonomia personal:** L'entrenament en orientació i mobilitat fomenta la presa de decisions i la resolució de problemes en contextos reals.
+- **Expressió oral:** Sovint presenten una fluïdesa verbal i una capacitat de síntesi oral superior a la mitjana per edat.
+
+## Perfils associats i comorbiditats
+
+| Perfil associat | Prevalença | Implicació |
+|:---|:---|:---|
+| **Pluridiscapacitat** | Freqüent en DVC/CVI | Requereix abordatge multidisciplinar; CREDV coordina amb EAP i serveis de salut |
+| **Discapacitat auditiva (sordceguesa)** | Poc freqüent però molt greu | Comunicació tàctil (dactilobraille); suport CREDV + CREDA |
+| **TEA** | Minoritari | La DV pot emmascarar senyals de TEA; avaluació especialitzada |
+| **Discapacitat intel·lectual** | En algunes etiologies congènites | Adaptació curricular significativa + adaptació de format |
+
+> **Alerta:** No confondre mai les dificultats derivades de la manca d'adaptació de materials amb una discapacitat intel·lectual. Un alumne amb DV pot tenir un rendiment baix perquè no hi veu, NO perquè no hi arriba cognitivament.
+
+## Principis d'actuació
+
+1. **Anticipació:** Tot material adaptat ha d'estar disponible ABANS de la sessió. La improvisació exclou.
+2. **Verbalització:** El docent ha de fer explícit verbalment tot el que és visual: gràfics, esquemes, canvis a la pissarra, indicacions gestuals.
+3. **Multisensorialitat:** Utilitzar canals tàctils, auditius i cinestèsics de forma sistemàtica, no com a recurs d'última hora.
+4. **Normalització:** L'alumne ha de participar en les mateixes activitats que els companys, amb les adaptacions necessàries. No excloure de sortides, educació física o laboratori.
+5. **Coordinació CREDV:** El mestre itinerant és l'aliat principal del tutor; la comunicació ha de ser fluida, regular i bidireccional.
+6. **Autonomia progressiva:** L'objectiu és que l'alumne sigui autònom en l'ús de la tiflotecnologia i en la mobilitat, no que depengui permanentment d'un adult.
+
+## Línies vermelles
+
+- **No excloure de cap activitat per "raons pràctiques":** No treure l'alumne d'educació física, sortides o laboratori perquè "és complicat adaptar-ho". **Per què?** El D150/2017 garanteix la participació en totes les activitats; l'exclusió vulnera drets i empobreix l'experiència educativa.
+- **No parlar sobre l'alumne com si no hi fos:** Adreçar-se directament a l'alumne, no al company o a l'acompanyant. **Per què?** La discapacitat visual no afecta la comprensió ni la comunicació; parlar per sobre de l'alumne és una forma de discriminació.
+- **No assumir que "ja s'ho arreglarà":** Si no es proporciona material adaptat, no es pot esperar un rendiment acadèmic adequat. **Per què?** L'alumne amb DV no "necessita esforçar-se més"; necessita que l'entorn s'adapti.
+- **No tocar l'alumne sense avisar:** Sempre avisar verbalment abans de qualsevol contacte físic (guiar, ajudar a seure). **Per què?** El contacte inesperat genera sobresalt i inseguretat; el respecte al cos és fonamental.
+- **No modificar la distribució de l'aula sense avisar:** L'alumne amb DV té un mapa mental de l'espai. **Per què?** Un canvi no anunciat pot provocar desorientació, caigudes i ansietat.
+
+## Marc normatiu català
+
+| Norma | Aplicació |
+|:---|:---|
+| **Decret 150/2017** | Ceguesa i baixa visió greu → **NEE** (art. 3.2.a) → **PI obligatori** (art. 18). Baixa visió moderada → NESE → mesures addicionals (art. 7). |
+| **D150/2017, art. 14** | L'EAP coordina l'avaluació psicopedagògica i la derivació al CREDV-ONCE. |
+| **D150/2017, art. 9** | Mesures intensives: mestre/a itinerant del CREDV com a recurs especialitzat. |
+| **DOIGC 2025-2026** | Protocols de derivació i coordinació EAP–CREDV–centre. |
+| **Conveni Dept. Educació – ONCE** | Base legal del CREDV-ONCE com a servei educatiu específic de Catalunya. |
+| **Llei 17/2020** | Accessibilitat universal; eliminació de barreres físiques, comunicatives i digitals. |
+
+## El CREDV-ONCE: servei de referència
+
+El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el servei educatiu específic de Catalunya per a l'alumnat amb ceguesa o baixa visió greu, fruit del conveni Departament d'Educació–ONCE. Seu central: Barcelona. Subseus: Girona, Lleida i Tarragona.
+
+### Àmbits d'intervenció
+
+| Àmbit | Funcions principals |
+|:---|:---|
+| **Alumnat i famílies** | Atenció primerenca (0-3 anys); avaluació funcional visual; entrenament Braille, tiflotecnologia i orientació/mobilitat; suport emocional |
+| **Centres i professorat** | Assessorament sobre adaptació de materials; formació del claustre; préstec de material tiflotècnic; modelatge d'estratègies inclusives |
+| **Zona educativa** | Coordinació amb EAP, serveis socials i salut; orientació a l'etapa postobligatòria |
+
+### Grups d'atenció del CREDV
+
+| Grup | Criteri | Modalitat de suport |
+|:---|:---|:---|
+| **Atenció directa intensiva** | Ceguesa total o baixa visió greu; ús de Braille | Mestre/a itinerant al centre; sessions setmanals |
+| **Atenció directa moderada** | Baixa visió moderada amb impacte acadèmic significatiu | Suport periòdic + assessorament al tutor/a |
+| **Seguiment i assessorament** | Baixa visió lleu o estabilitzada | Seguiment anual; recursos i orientació al centre |
+
+### Protocol d'accés al CREDV
+
+1. Detecció a l'aula o informe oftalmològic → tutor/a informa EAP
+2. EAP valora i emet informe psicopedagògic
+3. Derivació formal al CREDV-ONCE
+4. Avaluació funcional visual per part del CREDV
+5. Assignació de grup d'atenció i pla de suport
+6. Coordinació trimestral: CREDV–tutor/a–EAP–família
+
+## Tiflotecnologia: eines clau
+
+| Eina | Funció | Quan |
+|:---|:---|:---|
+| **Línia Braille** | Lectura tàctil de text digital | Ceguesa; lectura i escriptura |
+| **JAWS / NVDA** | Lector de pantalla (veu sintetitzada) | Ceguesa; accés a TIC |
+| **ZoomText** | Magnificador de pantalla | Baixa visió; ús de l'ordinador |
+| **Lupa electrònica** | Ampliació de text imprès en temps real | Baixa visió; lectura de materials no digitals |
+| **Anotador parlant (Braille Sense)** | Presa d'apunts en Braille amb sortida de veu | Ceguesa; classe, estudi |
+| **Magnificador Windows** | Integrat al SO; ampliació bàsica | Baixa visió; solució ràpida sense instal·lació |
+| **Calculadora parlant** | Resultat per veu | Tots els graus; matemàtiques |
+| **Impressora Braille** | Impressió de materials en relleu | Ceguesa; adaptació de materials |
 
 # 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Perfil_Alumnat_amb_NEE_específiques**: Aquest document descriu un altre perfil d'alumnat que pot requerir suports individualitzats.
-*   **Marc_Educació_Inclusiva**: Proporciona la base teòrica i els principis per a l'atenció a la diversitat, incloent l'alumnat nouvingut.
-*   **Estrategia_Aprenentatge_Cooperatiu**: Metodologia útil per fomentar la integració social i lingüística de l'alumnat d'origen estranger.
-*   **Estrategia_Andamiaje_Lingüístic**: Descriu tècniques per donar suport a l'adquisició del llenguatge acadèmic en L2.
-*   **Protocol_Pla_Acollida_Centre**: Guia per a la incorporació i atenció inicial de l'alumnat nouvingut al centre educatiu.
-*   **Eina_Observació_Lingüística_Inicial**: Instrument per avaluar el nivell de competència lingüística de l'alumnat nouvingut.
+
+- **M1_model-caracteritzacio-diversitat.md** → Marc de 3 nivells; discapacitat visual = característica constitutiva
+- **M1_neurodiversitat-NESE.md** → Ceguesa/baixa visió greu = NEE dins D150/2017
+- **M1_plans-individuals-PAD-PI.md** → PI obligatori per a NEE; el CREDV participa en l'elaboració
+- **M1_discapacitat-auditiva.md** → Perfil associat: sordceguesa (co-ocurrència)
+- **M2_mesures-suports-inclusius.md** → Escala de mesures: universals (DUA) → addicionals → intensives (PI + CREDV)
+- **M2_carrega-cognitiva-adaptacio-textos.md** → Adaptació de textos: format ampliat, estructura lineal, descripcions alternatives
+- **M5_tecnopedagogia** → Accessibilitat digital: WCAG 2.1, lectors de pantalla, disseny universal
+- **M9_normativa-inclusio.md** → D150/2017, Llei 17/2020 (accessibilitat)
 
 # 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
-    *   "Tinc un alumne nouvingut a l'aula, com puc ajudar-lo a integrar-se i aprendre?"
-    *   "Observo que un alumne no entén les explicacions malgrat esforçar-se i sembla frustrat."
-    *   "Com puc adaptar els meus materials i activitats per a un alumne que no domina el català o el castellà?"
-    *   "Un alumne amb bon rendiment en matemàtiques té dificultats significatives en història o literatura, per què passa això?"
-    *   "Vull aprofitar la diversitat cultural i lingüística de la meva aula, però no sé com integrar-la en el currículum."
-*   **Senyals de l'alumne:**
-    *   Pregunta freqüentment "Què vol dir...?" o mostra confusió amb el vocabulari acadèmic i les expressions idiomàtiques.
-    *   No participa activament en activitats que requereixen expressió oral, debats o coneixements culturals locals.
-    *   Mostra dificultat per seguir les instruccions de tasques complexes o amb moltes passes, especialment si són noves per a ell.
-    *   Se sent aïllat o té dificultats per fer amics i interactuar amb els companys fora de les activitats estructurades.
-*   **Senyals de context:**
-    *   Inici de curs o incorporació d'un nou alumne al llarg del curs sense un pla d'acollida clar.
-    *   Activitat que requereix un alt nivell de llenguatge acadèmic, comprensió de textos complexos o referents culturals específics de la societat d'acollida.
-    *   Grup amb alta diversitat lingüística i cultural, on les necessitats de suport poden ser variades.
-    *   Avaluació de continguts amb una forta càrrega cultural o lingüística, que pot no reflectir el coneixement real de l'alumne.
-*   **Anti-senyals:**
-    *   L'alumne té dificultats en totes les àrees, incloses aquelles que no depenen tant del llenguatge o la cultura (com algunes parts de les matemàtiques o habilitats motrius), la qual cosa podria indicar altres Necessitats Educatives Específiques.
-    *   L'alumne ha estat escolaritzat al sistema educatiu durant diversos anys (més de 3-4) i les dificultats lingüístiques i d'adaptació persisteixen sense millora significativa, malgrat els suports implementats.
-    *   Les dificultats de l'alumne són molt específiques d'una àrea i no estan clarament relacionades amb el llenguatge o els referents culturals, suggerint una possible dificultat d'aprenentatge intrínseca.
+
+**Senyals del docent:**
+- "Tinc un alumne que s'acosta molt a la pissarra i no copia bé els apunts."
+- "L'alumne evita les activitats amb lletra petita i triga molt a llegir."
+- "Necessito saber com adaptar els exàmens per a un alumne amb baixa visió."
+- "L'alumne amb ceguesa acaba d'arribar i no sé com preparar els materials."
+- "El mestre itinerant del CREDV ve setmanalment; com coordino les adaptacions?"
+
+**Senyals de l'alumne:**
+- "No veig bé la pissarra, encara que m'assegui a primera fila."
+- "Em canso molt de llegir i em fa mal el cap."
+- "No puc seguir la presentació perquè les lletres són massa petites."
+- "Necessito més temps per fer l'examen perquè llegeixo amb Braille."
+- "Com puc accedir a aquest PDF amb el lector de pantalla?"
+
+**Senyals de context:**
+- Inici de curs amb alumne amb DV que necessita adaptació d'aula i materials.
+- Activitat amb component visual dominant (laboratori, mapes, gràfics, vídeo sense audiodescripció).
+- Examen o prova escrita amb format estàndard (cos de lletra 10-11, interlineat simple).
+- Sortida escolar a espai desconegut per a l'alumne.
+- Canvi de distribució de l'aula o d'aula.
+
+**Anti-senyals:**
+- L'alumne porta ulleres i no presenta dificultats funcionals significatives (visió corregida dins rang normal).
+- Les dificultats de l'alumne són exclusivament de comprensió lectora però no de percepció visual (considerar dislèxia, TDL).
+- L'alumne manifesta "no veure" només en situacions d'avaluació (explorar component emocional).
 
 # 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
-*   **Principi general:** La inclusió de l'alumnat d'origen estranger es basa en el reconeixement del seu bagatge, la provisió de suports individualitzats i l'adaptació del context educatiu per garantir el seu èxit i benestar, evitant qualsevol forma de segregació o menyspreu de la seva identitat.
 
-*   **Heurístiques per a l'Agent DOCENT:**
-    *   **Nom:** Valoració del Bagatge Previ
-    *   **Quan aplica:** Quan un docent expressa preocupació per les "llacunes" o la falta de coneixements previs d'un alumne nouvingut, o quan l'alumne sembla desconnectat dels continguts.
-    *   **Fonament:** Els documents subratllen que l'alumnat d'origen estranger té una història personal i escolar diferent, i que el seu bagatge (llengua familiar, referents culturals) és una oportunitat, no un inconvenient. Ignorar-lo és una línia vermella.
-    *   **Exemple complet de raonament:** "El docent expressa que l'alumne nouvingut sembla tenir moltes llacunes en història i geografia. L'agent hauria de raonar que, en lloc de veure aquestes llacunes com un dèficit, cal entendre que l'alumne prové d'un sistema educatiu i d'una cultura amb altres referents. Per tant, l'agent suggeriria al docent que, abans d'abordar els continguts des de zero, intenti connectar amb els coneixements previs de l'alumne sobre la història o geografia del seu país d'origen. Això no només validarà el seu bagatge, sinó que també pot servir com a pont per introduir els nous conceptes, comparant i contrastant, i fent l'aprenentatge més significatiu i menys desconnectat de la seva realitat. Per exemple, si s'estudia un període històric, es pot preguntar si hi ha esdeveniments paral·lels o figures importants similars en la història del seu país, aprofitant la seva perspectiva per enriquir el debat a l'aula."
+**Principi general:** L'adaptació per a l'alumnat amb DV és fonamentalment d'accés al format, NO de simplificació del contingut. L'exigència curricular és la mateixa; el que canvia és COM arriba la informació.
 
-    *   **Nom:** Suport Lingüístic Integrat
-    *   **Quan aplica:** Quan el docent detecta dificultats de comprensió o expressió en la llengua d'aprenentatge en qualsevol àrea curricular, o quan l'alumne no participa per barreres lingüístiques.
-    *   **Fonament:** Els documents emfatitzen la necessitat de suports lingüístics continuats, no només per a la comunicació sinó també per al llenguatge acadèmic, i que la llengua modula la comprensió de la realitat.
-    *   **Exemple complet de raonament:** "Un docent comenta que un alumne nouvingut té dificultats per entendre els problemes de matemàtiques, tot i que sembla comprendre els conceptes numèrics bàsics. L'agent raonaria que la barrera no és matemàtica, sinó lingüística, ja que la comprensió de l'enunciat és crucial. Suggeriria al docent que utilitzi un llenguatge més simple i directe en els enunciats, que proporcioni glossaris visuals de vocabulari clau o que permeti l'ús de traductors en moments puntuals per aclarir termes. A més, podria proposar treballar la comprensió lectora dels enunciats en petits grups, on els companys puguin ajudar a desglossar el significat, o utilitzar representacions gràfiques i manipulatives per visualitzar el problema abans de resoldre'l, reduint la dependència del text i facilitant l'accés al contingut matemàtic."
+## Heurístiques per a l'Agent DOCENT
 
-    *   **Nom:** Adaptació Curricular Cultural
-    *   **Quan aplica:** Quan el docent observa que els continguts curriculars, especialment en ciències socials, literatura o art, no ressonen amb l'alumne o generen llacunes de comprensió per manca de referents.
-    *   **Fonament:** El currículum ha d'incorporar elements de la cultura d'acollida i la manca de referents culturals és una barrera important per accedir al currículum ordinari.
-    *   **Exemple complet de raonament:** "La professora de literatura es pregunta com fer que un alumne nouvingut s'interessi per la poesia catalana, ja que no té cap referent. L'agent raonaria que la manca de referents culturals és una barrera significativa. Proposaria a la docent que, en lloc d'esperar que l'alumne connecti automàticament, busqui ponts culturals. Per exemple, podria començar amb poemes que tractin temes universals (amor, natura, família) que puguin trobar ressò en qualsevol cultura. També podria animar l'alumne a compartir poemes o expressions literàries de la seva cultura d'origen, creant un diàleg intercultural a l'aula. A més, es podrien utilitzar recursos visuals o musicals per contextualitzar la poesia, fent-la més accessible i atractiva, i progressivament introduir els referents culturals catalans de manera explícita i contextualitzada."
+### H1: Adaptació de format, NO de contingut
+- **Quan aplica:** Quan un docent demana "com simplifico els materials per a l'alumne amb DV".
+- **Raonament:** La DV no és una discapacitat intel·lectual. L'alumne necessita que la informació li arribi per un canal accessible (ampliat, Braille, oral, tàctil), però el nivell d'exigència no ha de baixar. Si el docent simplifica, està creant una barrera nova (curricular) sobre la que ja existeix (sensorial).
+- **Resposta tipus:** "No cal simplificar el contingut. Cal adaptar el format: lletra Arial 18-22pt, interlineat 1,5, contrast alt (negre sobre blanc o blanc sobre negre), alternatives textuals per a imatges. Si l'alumne usa Braille, el material s'ha d'enviar al CREDV amb antelació perquè el transcriguin."
 
-    *   **Nom:** Foment de la Integració Social
-    *   **Quan aplica:** Quan el docent detecta que un alumne nouvingut té dificultats per interactuar amb els companys, se sent aïllat o mostra poca participació en activitats grupals.
-    *   **Fonament:** L'èxit escolar depèn també de la incorporació a la societat d'acollida i evitar que visquin la incorporació com un fracàs personal.
-    *   **Exemple complet de raonament:** "Un docent observa que un alumne nouvingut sempre treballa sol i no s'integra en els grups de joc al pati. L'agent raonaria que la integració social és tan crucial com l'acadèmica per al benestar i l'èxit de l'alumne. Suggeriria al docent que implementi estratègies de treball cooperatiu estructurat a l'aula, assignant rols clars que requereixin la participació de tots, inclòs l'alumne nouvingut, i que promoguin la interdependència positiva. Fora de l'aula, podria animar la participació en activitats extraescolars o proposar jocs organitzats al pati que no depenguin exclusivament del llenguatge verbal, com jocs de taula o esports. També és útil assignar un 'company tutor' o 'padrí' que l'acompanyi durant els primers dies o setmanes, facilitant la comunicació i l'orientació en l'entorn escolar."
+### H2: Verbalització sistemàtica
+- **Quan aplica:** Quan un docent projecta, escriu a la pissarra o fa servir gestos indicatius ("això", "aquí", "com veieu").
+- **Raonament:** Díctics i gestos són invisibles per a l'alumne amb DV. Cada "mireu" o "com veieu" és una microexclusió. El docent ha d'adquirir l'hàbit de fer explícit verbalment TOT el que és visual.
+- **Resposta tipus:** "Substitueix 'com podeu veure al gràfic' per 'al gràfic de barres que tenim a la pantalla, l'eix X mostra els anys 2020-2025 i l'eix Y mostra el nombre d'alumnes; la barra més alta correspon al 2024 amb 350 alumnes'. Descriu, no assenyalis."
 
-    *   **Nom:** Flexibilitat Metodològica
-    *   **Quan aplica:** Quan l'alumne mostra desorientació amb les rutines, els procediments didàctics habituals de l'aula o les expectatives sobre el seu rol.
-    *   **Fonament:** Si l'alumne prové d'un sistema educatiu diferent, moltes rutines i procediments li resultaran estranys. Les propostes inclusives són vàlides per a tot l'alumnat.
-    *   **Exemple complet de raonament:** "Un docent es queixa que un alumne nouvingut no sap com organitzar el seu material o com iniciar una tasca de projecte de forma autònoma. L'agent raonaria que les expectatives sobre l'autonomia i les metodologies de treball poden variar molt entre sistemes educatius. Proposaria al docent que sigui explícit en la presentació de les rutines i els procediments: utilitzar horaris visuals, llistes de verificació per a les tasques, i modelar els passos d'un projecte de forma clara i seqüenciada. També podria ser útil oferir opcions de treball més estructurades inicialment, amb suport individualitzat, i anar augmentant progressivament l'autonomia a mesura que l'alumne es familiaritza amb les dinàmiques de l'aula. La flexibilitat en la presentació de la informació i en les formes de resposta és clau per a la seva adaptació."
+### H3: Temps addicional en avaluació
+- **Quan aplica:** Quan un docent prepara un examen per a un grup que inclou un alumne amb DV.
+- **Raonament:** La lectura en Braille és ~3x més lenta que la lectura visual. La lectura amb magnificació és ~2x més lenta. L'ONCE recomana un mínim d'1/3 de temps addicional, però pot arribar al doble segons el grau.
+- **Resposta tipus:** "Dona un mínim d'1/3 de temps addicional (si l'examen és de 60 min, dona 80 min). Per a alumnes amb ceguesa i lectura Braille, considera el doble de temps. Format: Arial 18+, interlineat 1,5, un exercici per pàgina, enumera clarament les preguntes."
 
-*   **Heurístiques per a l'Agent ALUMNE:**
-    *   **Nom:** Clarificació de Conceptes
-    *   **Quan aplica:** Quan l'alumne expressa no entendre una paraula, una frase o un concepte nou en qualsevol matèria, o quan l'agent detecta signes de confusió.
-    *   **Fonament:** La llengua modula la realitat i la comprensió de conceptes pot ser difícil en una L2.
-    *   **Exemple complet de raonament:** "L'alumne pregunta a l'agent què significa 'democràcia' en el context d'una classe de ciències socials. L'agent raonaria que la comprensió de conceptes abstractes és un repte en una L2. En lloc de donar una definició simple, l'agent podria preguntar a l'alumne si té un concepte similar en la seva llengua o cultura d'origen, per establir un pont. Després, oferiria una explicació simplificada amb exemples concrets i visuals relacionats amb el seu context escolar o social. Per exemple, podria dir: 'La democràcia és una manera d'organitzar-nos on tothom pot dir la seva opinió i votar per escollir qui ens representa, com quan a l'aula decidim alguna cosa entre tots. És com si la veu de cada persona fos important.' Finalment, l'agent podria suggerir buscar la paraula en un diccionari bilingüe o preguntar al docent per més exemples."
+## Heurístiques per a l'Agent ALUMNE
 
-    *   **Nom:** Accés a Referents
----
+### H1: Gestió de la fatiga visual
+- **Quan aplica:** Quan l'alumne amb baixa visió reporta cansament, mal de cap, visió borrosa després de llegir.
+- **Raonament:** La fatiga visual és acumulativa al llarg del dia. No és mandra; és un límit fisiològic. L'alumne pot necessitar alternar entre lectura visual i auditiva, o fer pauses regulars.
+- **Resposta tipus:** "Pots alternar entre llegir i escoltar (activa el lector de pantalla per als textos llargs). Fes pauses de 5 min cada 20-30 min de lectura. Si el text és important i llarg, demana'l en format digital per poder ampliar-lo al teu gust."
 
-## 5. FONTS DEL CORPUS
+### H2: Autoadvocacia
+- **Quan aplica:** Quan l'alumne no rep el material adaptat, no entén alguna cosa visual, o necessita un suport que no se li ofereix.
+- **Raonament:** L'alumne ha d'aprendre a demanar el que necessita sense sentir-se una càrrega. L'autoadvocacia és una competència clau per a la vida adulta.
+- **Resposta tipus:** "Tens dret a rebre el material adaptat ABANS de la classe. Si no te l'han donat, pots dir al professor/a: 'Necessito el material en format ampliat/digital per poder seguir la classe.' No és una molèstia; és un dret recollit al teu PI."
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/index |
-| 2 | cursos:escola_inclusiva:ansu:b1:b1t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t1 |
-| 3 | cursos:escola_inclusiva:ansu:b3:b3t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t3 |
-| 4 | 795m_b36112876d.pdf | http://www.xtec.cat/sgfp/llicencies/200304/memories/795m.pdf |
+# 5. FONTS
 
-*4 documents font · secció generada automàticament*
+| # | Referència | Rellevància |
+|---|-----------|-------------|
+| 1 | OMS (2019). *ICD-11: International Classification of Diseases, 11th Revision.* Codi 9D90. | Classificació diagnòstica de referència |
+| 2 | ONCE (2023). *Criteris d'afiliació i serveis educatius.* | Criteris AV ≤ 0,1 / CV ≤ 10° |
+| 3 | CREDV-ONCE (2024). *Guia de serveis educatius per a alumnat amb discapacitat visual a Catalunya.* | Grups d'atenció, protocol d'accés |
+| 4 | Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC 7477. | NEE, PI obligatori, mesures intensives |
+| 5 | Llei 17/2020, de 22 de desembre, de modificació de la Llei 13/2014, d'accessibilitat. DOGC 8303. | Accessibilitat universal |
+| 6 | DOIGC 2025-2026. Departament d'Educació. *Educació inclusiva: protocols de derivació.* | Coordinació EAP–CREDV–centre |
+| 7 | Corn, A. L. & Erin, J. N. (2010). *Foundations of Low Vision: Clinical and Functional Perspectives.* AFB Press. | Marc teòric de la baixa visió funcional |
+| 8 | Holbrook, M. C. & Koenig, A. J. (2000). *Foundations of Education: Instructional Strategies for Teaching Children and Youths with Visual Impairments.* AFB Press. | Estratègies educatives per a DV |
+| 9 | WCAG 2.1 (2018). *Web Content Accessibility Guidelines.* W3C Recommendation. | Accessibilitat digital |
+| 10 | Barraga, N. C. & Erin, J. N. (2001). *Visual Handicaps and Learning.* Pro-Ed. | Impacte de la DV en l'aprenentatge |
+
+*10 fonts · document revisat manualment amb contingut clínic i normatiu*
