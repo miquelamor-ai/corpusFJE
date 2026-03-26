@@ -35,6 +35,23 @@ L'espectre de variabilitat és molt ampli: des d'alumnes com la Lluïsa, diagnos
 
 La prevalença se situa al voltant d'un 6,2/1000, afectant més freqüentment el sexe masculí en una proporció 4:1. En el síndrome d'Asperger la relació és de 8:1, i en el col·lectiu amb discapacitat intel·lectual profunda, d'1:1 (DOC 10). L'augment de diagnòstics observat s'explica per criteris diagnòstics més precisos, millor formació professional, major conscienciació familiar i millora dels registres (DOC 10). L'etiopatogènia és multifactorial, amb una important base genètica: si un bessó té TEA, el seu germà bessó té un 80% de possibilitats de patir-lo; un 6-9% dels germans també presenten el trastorn (DOC 10).
 
+### Nivells de suport del DSM-5
+
+El DSM-5 substitueix els antics subtipus (Asperger, Autisme Clàssic, TGD) per un sistema gradual que descriu **quant suport necessita la persona per funcionar** en el dia a dia. Avalua dues dimensions independents: **comunicació social** i **conductes restringides i repetitives**. Una mateixa persona pot tenir nivells de suport diferent en cada dimensió (ex: nivell 1 en comunicació i nivell 2 en conductes), cosa que permet un perfil molt més individualitzat.
+
+| Nivell | Denominació | Comunicació social | Conductes repetitives |
+|--------|-------------|-------------------|----------------------|
+| **Nivell 1** | Necessita suport | Dificultats evidents sense suport; pot mantenir converses però falla en el flux bidireccional; problemes per fer amistats | La inflexibilitat interfereix en un o més contextos; dificultats d'organització i planificació |
+| **Nivell 2** | Necessita suport substancial | Dèficits marcats verbals i no verbals, visibles fins i tot amb suports; interaccions limitades als seus interessos | Conductes repetitives freqüents i òbvies per a qualsevol observador; gran malestar davant el canvi |
+| **Nivell 3** | Necessita suport molt substancial | Dèficits severs; inicia molt poques interaccions; pot tenir un vocabulari molt limitat o no parlar | Inflexibilitat extensa que afecta totes les esferes de la vida; molt difícil redirigir l'atenció |
+
+**Aspectes clau per a l'adaptació educativa:**
+*   Els nivells **no són permanents ni estàtics**: una persona pot mostrar característiques de nivell 2 en la infància i evolucionar cap a nivell 1 amb intervenció adequada (logopèdia, teràpia ocupacional, suport conductual).
+*   Una mateixa persona pot tenir **nivell diferent per dimensió**: nivell 1 en comunicació i nivell 2 en conductes, o qualsevol altra combinació. L'adaptació ha de respondre al perfil real, no a una etiqueta única.
+*   Conèixer el nivell de suport és el punt de partida per dissenyar **adaptacions metodològiques i curriculars** específiques, coordinar equips interdisciplinaris i establir expectatives realistes per a l'alumne, la família i el centre.
+
+*Fonts: DSM-5 (APA, 2013); Guia TEA per a la comunitat educativa (CEICE-GVA).*
+
 ## Manifestació per etapa educativa
 
 - **Infantil / Primària**: Les dificultats es presenten majoritàriament en el primer i segon any de vida, interferint en les funcions de comunicació i socialització i afectant els processos bàsics d'atenció (DOC 15). A l'escola, s'observen dificultats per participar en jocs simbòlics, per seguir rutines sense suport visual, per comprendre instruccions verbals complexes i per establir relacions recíproques amb els companys. L'infant pot mostrar absència d'actitud anticipada, absència de somriure social, trastorns de l'alimentació o del son, i joc repetitiu amb objectes (DOC 15). Les USEE (Unitats de Suport a l'Educació Especial) poden ser un recurs clau en aquesta etapa per facilitar la inclusió (DOC 5, DOC 18).
