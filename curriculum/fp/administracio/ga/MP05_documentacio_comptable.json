@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GA",
+    "titol_cicle": "Gestio Administrativa",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "mitja",
+    "rd_titol": "RD 1456/2012",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2013/01/31/pdfs/BOE-A-2013-1118.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul forma l’auxiliar administratiu en la gestió i l’arxiu de la documentació empresarial, tant en format físic com digital. És una competència crítica per a perfils com auxiliar d’arxiu, assistent de secretaria, auxiliar de gestória i qualsevol posició administrativa que gestioni grans volums de documents en empreses, administracions públiques o despatxos professionals.\n\nEls continguts cobreixen els sistemes de classificació documental (alfabètic, numèric, cronològic, temàtic i geogràfic), els terminis de conservació de documents mercantils i fiscals següons el Codi de Comerç (6 anys) i la normativa fiscal (4 anys per a l’AEAT), i la normativa de protecció de dades (RGPD i LOPDGDD) aplicada a la documentació amb dades personals. S’introdueix la gestió documental digital: escanejat, nomenclatura de fitxers, emmagatzematge en núvol i seguretat bàsica. Els processos s’apliquen als documents més habituals: factures, contractes, nòmines, correspondència i documentació fiscal.\n\nLa pràctica se centra en la creació i organització d’un arxiu d’empresa simulada: des de la recepció d’un document, passant per la seva classificació i registre, fins a la seva localització posterior. S’inclouen exercicis de depuració d’arxiu (destrucció de documents caducats) i creació d’un sistema de gestió documental digital senzill en el núvol, preparant l’alumne per als entorns paperless actuals."
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "Documentacio i Arxivament Empresarial",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Classificacio, arxivament i gestio documental",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Classifica i organitza la documentacio empresarial aplicant criteris i sistemes d'arxivament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Distingeix els tipus de documentació empresarial (administrativa, comptable, comercial, laboral) i els seus circuits.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica sistemes d'arxivament (alfabetic, numeric, cronologic, tematic, geografic) al context adequat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Elabora indices, etiquetes i registres d'entrada/sortida de documents amb precisio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Organitza l'arxiu fisic i digital seguint criteris d'accessibilitat, ordre i seguretat.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Digitalitza documentacio empresarial aplicant tecniques d'escaneig i eines de gestio documental.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Digitalitza documents amb escaner o smartphone aplicant la resolucio i el format adequats (PDF, JPEG).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Aplica tecnologia OCR per convertir documents digitalitzats en text editable i cercable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Organitza els fitxers digitals en estructura de carpetes logica i aplica convencions de nomenclatura.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Fa copies de seguretat de la documentacio digital i restaura fitxers en cas de perdua.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica la normativa de proteccio de dades (RGPD) en la gestio i l'arxivament de documentacio empresarial.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Identifica les categories de dades personals i les obligacions del RGPD per a les empreses.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Aplica els terminis legals de conservacio de documents (fiscal 5 anys, laboral 4 anys, etc.).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Destrueix documentacio confidencial de forma segura (trituracio, eliminacio certificada).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Identifica les mesures de seguretat basiques per protegir dades personals en arxius fisics i digitals.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

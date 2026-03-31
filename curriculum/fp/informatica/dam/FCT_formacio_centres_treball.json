@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 450/2010",
+    "resolucio_cat": "Resolució ENS/2518/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/04/20/pdfs/BOE-A-2010-6154.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "La Formació en Centres de Treball és el mòdul professional que situa l’alumnat DAM en un entorn laboral real, aplicant i consolidant totes les competències adquirides al llarg del cicle. Desenvolupa l’adaptació a la cultura d’empresa, el treball en equip professional i l’autonomia tècnica. S’aplica en empreses de desenvolupament de programari, consultores TI, departaments informàtics d’empreses de qualsevol sector i startups tecnològiques.\n\nLes activitats realitzades durant la FCT varien en funció de l’empresa però solen incloure participació en projectes reals de desenvolupament d’aplicacions d’escriptori, mòbils o empresarials, ús de metodologies àgils i eines de gestió de projectes (Jira, Trello, GitHub Projects), integració en equips de treball amb rols definits, aplicació de fluxos de treball amb Git en entorns col·laboratius, i participació en reunions tècniques (daily standups, revisions de codi, demos). L’alumnat s’adapta als estàndards de qualitat i documentació de cada empresa.\n\nLa FCT té una duració de 383 hores i es realitza en empreses col·laboradores tutoritzades per un tutor d’empresa i un docent del centre. L’avaluació combina el seguiment del tutor d’empresa (actitud, autonomia, qualitat del treball) i la presentació d’una memòria de pràctiques al centre formatiu, que recull les tasques realitzades i les competències adquirides."
+  },
+  "modul": {
+    "codi": "FCT",
+    "nom": "Formació en Centres de Treball",
+    "hores_totals": 383,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Estada en empresa",
+        "hores": 383,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "S'integra en l'empresa o entitat col·laboradora, identificant l'estructura organitzativa, la cultura corporativa i les normes de funcionament intern pròpies del sector TIC.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat l'estructura organitzativa, la jerarquia i els rols del departament de tecnologia o desenvolupament de l'empresa.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han respectat les normes internes de l'empresa: horaris, confidencialitat, ús de recursos TIC, política de seguretat.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha comunicat de forma efectiva i professional amb companys, responsables i altres departaments.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han identificat les eines i metodologies de treball pròpies de l'empresa (Scrum, Kanban, DevOps, eines de gestió com Jira o Confluence).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha mostrat una actitud proactiva, responsable i compromesa amb les tasques assignades i amb la millora contínua.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa tasques professionals pròpies del perfil DAM en un entorn real d'empresa, aplicant els coneixements tècnics i les competències professionals adquirides al llarg del cicle.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han desenvolupat funcionalitats reals d'aplicacions en els llenguatges i tecnologies pròpies de l'empresa (Java, Kotlin, Swift, JavaScript, Python, etc.).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han resolt incidències tècniques i bugs en aplicacions existents, aplicant metodologies de depuració i diagnòstic.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha participat en el cicle complet de desenvolupament de programari: anàlisi de requeriments, disseny, implementació, proves i desplegament.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han integrat i consumit APIs i serveis externs en les aplicacions del projecte, gestionant l'autenticació i el tractament d'errors.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha treballat amb control de versions (Git) en un entorn col·laboratiu real, fent ús de branques, pull requests i revisions de codi.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica criteris de qualitat, seguretat i documentació en el seu treball, assegurant que les tasques realitzades compleixen els estàndards professionals de l'empresa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha escrit codi net, llegible i ben documentat seguint les guies d'estil i les convencions de l'equip de desenvolupament.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han implementat o executat tests (unitaris, d'integració, manuals) per a garantir la qualitat de les funcionalitats desenvolupades.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han aplicat les mesures de seguretat bàsiques en el desenvolupament: validació d'entrades, gestió d'autenticació, protecció de dades sensibles.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha elaborat la documentació tècnica necessària (comentaris de codi, README, documentació d'API) per a facilitar el manteniment.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.5",
+                "text": "S'han respectat els processos de qualitat de l'empresa: revisió de codi, integració contínua (CI/CD), gestió d'incidències.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Actua amb autonomia i iniciativa en la resolució de problemes tècnics, demostrant capacitat d'aprenentatge autònom i d'adaptació a noves tecnologies i metodologies.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'han resolt de forma autònoma problemes tècnics complexos, cercant informació en documentació oficial, Stack Overflow i altres fonts.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'han après i aplicat noves tecnologies, frameworks o eines no estudiades al cicle formatiu, necessàries per al lloc de treball.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'han proposat millores o optimitzacions als processos o al codi existent de l'empresa de forma justificada.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'ha gestionat eficientment el temps de treball, prioritzant les tasques assignades i complint els terminis establerts.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA4.5",
+                "text": "S'ha elaborat una memòria de l'FCT que recull les tasques realitzades, les competències adquirides i una valoració crítica de l'experiència.",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IFC",
+    "titol_cicle": "Instal·lacions Frigorífiques i de Climatització",
+    "familia_professional": "Instal·lació i Manteniment",
+    "grau": "mitja",
+    "rd_titol": "RD 1793/2010",
+    "resolucio_cat": "Resolució ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/01/18/pdfs/BOE-A-2011-1007.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Instal·lacions de Climatització del cicle Instal·lacions Frigorífiques i de Climatització forma el tècnic en les competències professionals específiques d'aquesta àrea dins del sector de instal·lació i manteniment. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a instal·lacions de climatització en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de instal·lacions de climatització: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de instal·lació i manteniment. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Instal·lacions de Climatització",
+    "hores_totals": 231,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Càrregues tèrmiques i psicrometria",
+        "hores": 77,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Calcula càrregues tèrmiques i analitza processos de tractament de l'aire.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Calcula càrregues tèrmiques de refrigeració i calefacció considerant transmissió, radiació, ventilació i càrregues internes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Utilitza el diagrama psicomètric per representar processos de tractament de l'aire.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Dimensiona conductes d'aire pel mètode d'igual fricció.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Selecciona difusors i reixetes en funció del cabal, abast i nivell sonor.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Muntatge i manteniment de climatització",
+        "hores": 154,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta i posa en marxa sistemes de climatització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Instal·la unitats interiors i exteriors respectant especificacions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Realitza connexió de línia frigorífica comprovant estanqueïtat.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Instal·la conductes d'aire amb elements de difusió i retorn.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Posa en marxa verificant pressions, temperatures, cabals i confort.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Aplica el RITE per a ventilació i qualitat de l'aire interior.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza manteniment preventiu i correctiu de sistemes de climatització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Executa manteniment preventiu segons RITE.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Diagnostica avaries amb instruments.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Repara o substitueix components defectuosos.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Registra intervencions amb documentació RITE.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

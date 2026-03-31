@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "mitja",
+    "rd_titol": "RD 1691/2007",
+    "resolucio_cat": "Resolució ENS/1891/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2007/12/24/pdfs/A52776-52804.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Seguretat Informàtica dota el tècnic SMX dels coneixements i habilitats per protegir sistemes, xarxes i dades en entorns de pimes i organitzacions de mida petita, i per sensibilitzar i formar els usuaris finals en bones pràctiques de seguretat. Aquestes competències s’apliquen en qualsevol rol TIC on la protecció de la informació és una responsabilitat quotidiana.\n\nEls continguts cobreixen els fonaments de la seguretat informàtica: amenaces (malware, phishing, ransomware, enginyeria social), vulnerabilitats i vectors d’atac. La seguretat perimetral s’aborda amb firewalls de Windows (Windows Defender Firewall) i Linux (ufw/iptables bàsic) i introducció a pfSense com a solució per a pimes. La seguretat en sistemes inclou el bastionament bàsic de Windows i Linux, la gestió d’actualitzacions de seguretat, antivirus i antimalware corporatiu i la protecció de dades amb LOPD/RGPD aplicada al context de l’empresa. Les còpies de seguretat es treballen com a primera línia de defensa: estratègia 3-2-1, eines de backup (Veeam Free, Macrium Reflect) i proves de restauració.\n\nEl mòdul combina teoria de seguretat amb pràctica en laboratoris controlats on es simulen atacs i es planifiquen respostes. Els alumnes realitzen auditories bàsiques de seguretat en xarxes simulades, implementen polítiques de còpies de seguretat i elaboren plans de seguretat per a una empresa fictícia."
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "Seguretat Informàtica",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Seguretat en sistemes i xarxes",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica les principals amenaces i vulnerabilitats que afecten els sistemes microinformàtics i les xarxes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han classificat els tipus de malware (virus, troià, ransomware, spyware, adware) i el seu mode d'actuació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat les tècniques d'atac més comunes (phishing, enginyeria social, força bruta, man-in-the-middle).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han descrit les vulnerabilitats típiques de sistemes operatius no actualitzats i serveis mal configurats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha valorat l'impacte potencial d'un incident de seguretat en una organització (econòmic, reputacional, legal).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han aplicat les bones pràctiques d'higiene digital per minimitzar l'exposició a les amenaces.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura i gestiona tallafocs per protegir sistemes i xarxes d'accessos no autoritzats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han configurat les regles del tallafoc de Windows Defender Firewall per permetre i bloquejar tràfic específic.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han configurat regles de tallafoc en Linux amb iptables o ufw per protegir serveis en producció.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha comprovat l'efectivitat de les regles del tallafoc realitzant proves de connexió des de xarxes externes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha documentat la política de tallafoc (regles, justificació, data de revisió) per a la seva gestió.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Implanta solucions antivirus i antimalware i gestiona les alertes de seguretat generades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha instal·lat i configurat una solució antivirus/antimalware en estacions de treball Windows i Linux.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han programat exploracions periòdiques i actualitzacions automàtiques de la base de signatures.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han gestionat les alertes de malware (quarantena, eliminació, restauració de fitxers afectats).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han revisat els registres d'activitat de l'antivirus per detectar patrons d'atac recurrents.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Implementa polítiques de còpies de seguretat i xifrat per garantir la integritat i confidencialitat de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'ha dissenyat una política de còpies de seguretat (freqüència, tipus: completa/incremental/diferencial, destí).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'han xifrat unitats d'emmagatzematge i fitxers sensibles amb BitLocker (Windows) o LUKS (Linux).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'ha verificat la integritat de les còpies de seguretat realitzant proves de restauració periòdiques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'han aplicat polítiques de contrasenyes robustes i gestors de contrasenyes per a ús corporatiu.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

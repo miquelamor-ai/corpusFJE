@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GUIA",
+    "titol_cicle": "Guia en el Medi Natural i de Temps de Lleure",
+    "familia_professional": "Activitats Físiques i Esportives",
+    "grau": "mitja",
+    "rd_titol": "RD 402/2020",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Desplaçament, Estada i Seguretat en el Medi Natural forma el tècnic en les habilitats fonamentals per conduir persones en entorns naturals amb seguretat. Prepara per treballar com a guia de muntanya, monitor d'activitats de natura, coordinador de rutes o tècnic de gestió d'espais naturals protegits, tant en empreses d'esports d'aventura com en administracions ambientals.\n\nEls continguts cobreixen la cartografia i l'orientació (mapes topogràfics, corbes de nivell, coordenades UTM, brúixola i GPS), els protocols de seguretat i primers auxilis en entorns remots (protocol PAS, RCP, immobilitzacions, evacuació), i les tècniques d'acampada i vivac amb criteris de mínima petjada ambiental. Es treballen els riscos meteorològics, geològics i biològics del medi natural i la presa de decisions en entorns incerts i canviants.\n\nLa metodologia és eminentment pràctica i es desenvolupa majoritàriament al medi natural real: sortides de camp, pernoctacions en bivac, simulacres d'emergència i itineraris de navegació amb mapa i brúixola. La progressió va del rocòdrom i l'entorn proper fins a travesses de diversos dies en muntanya. La certificació de primers auxilis i el treball amb protocols reals del cos de bombers i salvament són part integrant de la formació."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Desplaçament, estada i seguretat en el medi natural",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Orientació i cartografia",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Interpreta mapes topogràfics i utilitza instruments d'orientació per planificar itineraris al medi natural.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els elements d'un mapa topogràfic: corbes de nivell, escala, simbologia i coordenades UTM.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han utilitzat brúixola i GPS per a l'orientació en rutes reals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha planificat un itinerari valorant desnivell, distància, temps i dificultat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han aplicat tècniques d'orientació en situacions de visibilitat reduïda.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Seguretat i primers auxilis al medi natural",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA2",
+            "text": "Aplica protocols de seguretat i primers auxilis en activitats al medi natural.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han identificat els riscos associats a les activitats al medi natural: meteorologia, fauna, terreny.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha aplicat el protocol PAS (Protegir, Avisar, Socórrer) en situacions simulades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han realitzat tècniques de primers auxilis: RCP, immobilitzacions, cures bàsiques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha elaborat un pla de seguretat per a una activitat al medi natural.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Tècniques d'acampada i vivac",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA3",
+            "text": "Organitza estades al medi natural aplicant tècniques d'acampada i mínima petjada ambiental.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han seleccionat zones d'acampada valorant criteris ambientals i de seguretat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han muntat i desmuntat tendes i bivacs en diferents condicions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han aplicat tècniques de cuina de camp i gestió de residus.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han seguit els principis de mínima petjada ambiental (Leave No Trace).",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

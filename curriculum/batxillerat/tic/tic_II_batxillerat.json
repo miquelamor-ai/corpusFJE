@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Tecnologies de la Informació i la Comunicació II",
+    "codi_area": "TIC2",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/TIC-II.pdf",
+    "nota_estructura": "Matèria de 2n BAT, modalitat Ciències.",
+    "versio_schema": "1.0",
+    "descripcio": "Les Tecnologies de la Informació i la Comunicació II és la matèria de segon de Batxillerat que consolida i aprofundeix la formació tecnològica avançada iniciada a TIC I. Orienta l'alumnat cap als estudis superiors d'enginyeria informàtica, ciència de dades, intel·ligència artificial, ciberseguretat i sistemes cloud, i vers les sortides professionals en el sector tecnològic.\n\nLa matèria treballa la programació orientada a objectes —classes, herència, polimorfisme i encapsulació—, els fonaments de la intel·ligència artificial i l'aprenentatge automàtic —tipus d'algorismes, entrenament de models, datasets i bias—, les tècniques avançades de ciberseguretat —anàlisi de vulnerabilitats, resposta a incidents i hacking ètic—, i el desplegament d'aplicacions en entorns cloud i de contenidors amb el model DevOps. L'anàlisi i la visualització de grans conjunts de dades —Big Data, eines de visualització, interpretació de resultats— i el projecte TIC integrador de final de curs completen el currículum. El pensament crític sobre l'impacte social i ètic de la IA és un eix transversal de tota la matèria.\n\nL'enfocament pedagògic culmina en un projecte TIC integrador de llarga durada on l'alumnat aplica de manera autònoma els coneixements adquirits per resoldre un problema real: disseny, implementació, documentació i presentació pública d'una solució tecnològica original."
+  },
+  "competencies_clau": [
+    "CCL",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CE",
+    "CC"
+  ],
+  "blocs_sabers": [
+    "programacio_avancada",
+    "intel_ligencia_artificial",
+    "ciberseguretat_avancada",
+    "serveis_cloud",
+    "projecte_tic"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Desenvolupar aplicacions i sistemes complexos aplicant paradigmes de programació avançats (POO, funcional), patrons de disseny i metodologies de qualitat del programari.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA1.1",
+            "text": "Aplica el paradigma de la programació orientada a objectes (classes, herència, encapsulament, polimorfisme) per modelar solucions complexes."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Utilitza patrons de disseny clàssics (singleton, factory, observer) per resoldre problemes recurrents de forma reutilitzable i mantenible."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Desenvolupa aplicacions que consumeixen APIs externes i serveis web, gestionant peticions asíncrones i respostes JSON."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Implementa tests automatitzats (unitaris i d'integració) i aplica eines de CI/CD per garantir la qualitat del codi."
+          },
+          {
+            "codi": "CA1.5",
+            "text": "Utilitza un sistema de control de versions de forma col·laborativa (branching, pull requests, code review) en un projecte d'equip."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Comprendre els fonaments de la intel·ligència artificial i l'aprenentatge automàtic, i aplicar-los per crear solucions basades en dades que aportin valor real.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA2.1",
+            "text": "Descriu els principals paradigmes de la IA (aprenentatge supervisat, no supervisat, per reforços) i els relaciona amb casos d'ús reals."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Entrena i avalua models de ML amb scikit-learn (classificació, regressió, agrupament), interpretant les mètriques de rendiment."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Prepara i neteja conjunts de dades (data wrangling) amb pandas i numpy, identificant i tractant valors nuls, outliers i desequilibris de classes."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Reflexiona sobre les implicacions ètiques de la IA (biaix, transparència, responsabilitat) i aplica principis d'IA responsable en els seus projectes."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Aplicar tècniques avançades de ciberseguretat per protegir sistemes i xarxes, analitzar vulnerabilitats i respondre a incidents de seguretat de forma ètica.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA3.1",
+            "text": "Analitza la seguretat d'un sistema o aplicació web identificant vulnerabilitats del OWASP Top 10 i proposa mesures de mitigació concretes."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Realitza proves de penetració bàsiques (reconeixement, escaneig, explotació ètica) en entorns controlats, documentant els resultats."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Dissenya i implementa un pla de resposta a incidents que inclogui detecció, contenció, erradicació, recuperació i lliçons apreses."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Aplica tècniques de forènsica digital bàsica per analitzar logs, recuperar evidències i documentar un incident de seguretat."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Desplegar i gestionar aplicacions i serveis en entorns cloud i de contenidors, valorant les avantatges de l'escalabilitat, la resiliència i el model DevOps.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA4.1",
+            "text": "Descriu els models de servei cloud (IaaS, PaaS, SaaS, FaaS) i els principals proveïdors (AWS, Azure, GCP), seleccionant el més adequat per a cada cas."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Desplega una aplicació web senzilla en un servei cloud públic, configurant els recursos de xarxa, emmagatzematge i escalat automàtic."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Crea i gestiona contenidors amb Docker (imatges, Dockerfile, docker-compose) per garantir entorns reproductibles de desenvolupament i producció."
+          },
+          {
+            "codi": "CA4.4",
+            "text": "Automatitza tasques d'administració i desplegament amb scripts (bash, Python) i eines de CI/CD, aplicant els principis del model DevOps."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Planificar, desenvolupar i presentar un projecte TIC integrador que demostri la capacitat d'aplicar els coneixements adquirits per resoldre un problema real.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA5.1",
+            "text": "Defineix l'abast, els objectius i els requisits d'un projecte TIC real, elaborant un pla de treball amb fites, rols i gestió del risc."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Desenvolupa el projecte aplicant metodologies àgils (Scrum/Kanban) i registrant el progrés amb eines de gestió de projectes."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Presenta el projecte de forma oral i escrita, demostrant el funcionament del producte i les decisions tècniques preses."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Avalua crítica el projecte propi i el dels companys, identificant punts forts, millores possibles i oportunitats de continuació."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE6",
+      "text": "Analitzar i visualitzar grans conjunts de dades aplicant tècniques de Big Data i eines de visualització per extreure coneixement i suportar la presa de decisions.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA6.1",
+            "text": "Descriu les 5V del Big Data (volum, velocitat, varietat, veracitat, valor) i identifica casos d'ús on l'anàlisi massiva de dades aporta valor."
+          },
+          {
+            "codi": "CA6.2",
+            "text": "Aplica eines de visualització de dades (matplotlib, seaborn, Tableau bàsic) per crear gràfics informatius que comuniquin patrons i conclusions."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Dissenya un dashboard interactiu bàsic que integri múltiples visualitzacions i permeti filtrar i explorar un conjunt de dades real."
+          },
+          {
+            "codi": "CA6.4",
+            "text": "Interpreta els resultats d'una anàlisi de dades de forma crítica, diferenciant correlació de causalitat i avaluant la fiabilitat de les conclusions."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r": {},
+    "2n": {
+      "programacio_avancada": [
+        "Programació orientada a objectes (POO): classes, objectes, atributs i mètodes.",
+        "Pilars de la POO: encapsulament, herència, polimorfisme i abstracció.",
+        "Classes abstractes i interfícies: definició i ús en Python (ABC, Protocol).",
+        "Patrons de disseny: Singleton, Factory, Observer, Strategy, Decorator.",
+        "Programació funcional: funcions d'ordre superior, map/filter/reduce, lambda, list comprehension.",
+        "Gestió d'errors i excepcions: try/except/finally, creació d'excepcions personalitzades.",
+        "Mòduls i paquets Python: estructura de projecte, imports relatius i absoluts, PyPI.",
+        "APIs i serveis web: REST, JSON, peticions amb requests, autenticació OAuth2.",
+        "Programació asíncrona: async/await, event loop i casos d'ús.",
+        "Testing: unittest, pytest, mocking, cobertura de codi i TDD.",
+        "Control de versions avançat: git branching, merging, rebasing i resolució de conflictes.",
+        "Integració contínua: GitHub Actions, pipelines CI/CD i desplegament automàtic.",
+        "Complexitat algorísmica: notació O gran, espai i temps en algorismes clàssics.",
+        "Algorismes de cerca i ordenació avançats: quicksort, mergesort, BFS, DFS."
+      ],
+      "intel_ligencia_artificial": [
+        "Història i panorama de la IA: des dels anys 50 fins als LLMs actuals.",
+        "Tipus d'aprenentatge: supervisat, no supervisat, semi-supervisat i per reforços.",
+        "Pipeline de ML: recollida de dades, preprocessament, entrenament, avaluació i desplegament.",
+        "Preprocessament de dades: neteja, imputació, normalització, codificació de categoríques.",
+        "Algorismes de classificació: regressió logística, KNN, arbre de decisió, Random Forest.",
+        "Algorismes de regressió: regressió lineal, regressió polinomial, SVR.",
+        "Algorismes de clustering: K-Means, DBSCAN, agrupament jeràrquic.",
+        "Validació de models: train/test split, validació creuada (k-fold), corbes ROC/AUC.",
+        "Xarxes neuronals artificials: perceptro, capes ocultes, funcions d'activació, backpropagation.",
+        "Introducció al Deep Learning: CNN per a imatges, RNN/LSTM per a seqüències.",
+        "Models de llenguatge (LLMs): arquitectura Transformer, prompt engineering, RAG bàsics.",
+        "Eines de l'ecosistema Python: scikit-learn, pandas, numpy, matplotlib, TensorFlow/Keras.",
+        "Ètica de la IA: biaix en les dades, transparència, explicabilitat (XAI) i regulació (AI Act UE).",
+        "Casos d'ús de la IA en educació, salut, indústria i medi ambient."
+      ],
+      "ciberseguretat_avancada": [
+        "Marc de ciberseguretat: NIST CSF, ISO 27001 i Esquema Nacional de Seguretat (ENS).",
+        "Criptografia avançada: modes de xifrat de bloc, padding, MAC i HMAC.",
+        "Seguretat en aplicacions web: OWASP Top 10 (injecció SQL, XSS, CSRF, SSRF).",
+        "Proves de penetració (pentesting): metodologia PTES, fases i eines (Nmap, Metasploit, Burp).",
+        "Anàlisi de vulnerabilitats: CVE, CVSS, eines d'escaneig (Nessus, OpenVAS).",
+        "Seguretat en xarxes: VLAN, VPN (OpenVPN, WireGuard), segmentació i zero trust.",
+        "Gestió d'identitat i accés (IAM): SSO, SAML, OAuth2 i principi de mínim privilegi.",
+        "Resposta a incidents: fases (PICERL), SIEM, SOAR i exercicis de simulació.",
+        "Forènsica digital: cadena de custòdia, anàlisi de logs, recuperació de dades i eines (Autopsy).",
+        "Amenaces persistents avançades (APT): característiques, kill chain i indicadors de compòs.",
+        "Ciberintel·ligència (CTI): fonts d'informació, plataformes MISP i MITRE ATT&CK.",
+        "Hacking ètic i bug bounty: marc legal, responsabilitat i plataformes (HackerOne, Bugcrowd).",
+        "Normativa de protecció de dades en el context de la ciberseguretat (RGPD, NIS2).",
+        "Tendències: IA aplicada a la ciberseguretat, deepfakes i atacs de tipus prompt injection."
+      ],
+      "serveis_cloud": [
+        "Models cloud: IaaS, PaaS, SaaS, FaaS i CaaS. Selecció per cas d'ús.",
+        "Principals proveïdors: AWS, Azure, Google Cloud Platform. Comparativa de serveis.",
+        "Virtualització i contenidors: VMs vs. contenidors, Docker, Docker Compose.",
+        "Orquestració de contenidors: Kubernetes bàsics (pods, deployments, services, ingress).",
+        "Infraestructura com a codi (IaC): Terraform i Ansible. Principis i exemples.",
+        "Desplegament d'aplicacions web: serveis d'allotjament, balançadors de càrrega, CDN.",
+        "Bases de dades gestionades al núvol: RDS, Cloud SQL, Firestore.",
+        "Funcions sense servidor (serverless / FaaS): AWS Lambda, Cloud Functions. Casos d'ús.",
+        "Monitoratge i observabilitat: logs, mètriques, traces. Eines (Prometheus, Grafana, CloudWatch).",
+        "DevOps i CI/CD: principis, pipeline complet (build, test, deploy), GitHub Actions.",
+        "Seguretat al núvol (cloud security): model de responsabilitat compartida, IAM, secrets management.",
+        "Cost i optimització al núvol: models de preus, Reserved Instances i finOps.",
+        "Edge computing i CDN: concepte, casos d'ús i diferències respecte al cloud central.",
+        "Sostenibilitat al núvol: PUE, energia renovable i compromis climàtic dels grans proveïdors."
+      ],
+      "projecte_tic": [
+        "Metodologies de gestió de projectes: cascada vs. àgils. Scrum i Kanban.",
+        "Definició del projecte: identificació del problema, solució proposada i valor aportat.",
+        "Anàlisi de requisits: funcionals i no funcionals. Històries d'usuari i criteris d'acceptació.",
+        "Disseny de l'arquitectura: diagrama de components, capes i elecció de tecnologies.",
+        "Planificació: product backlog, sprints, estimació (story points, planning poker).",
+        "Eines de gestió: Jira, Trello, Notion o GitHub Projects. Registre del progrés.",
+        "Prototipat i validació: mockups (Figma), proves d'usuari i iteració.",
+        "Desenvolupament iteratiu: implementació per sprints, revisions i retrospectives.",
+        "Control de qualitat: code review, testing automàtic, desplegament a staging.",
+        "Documentació tècnica: README, diagrames UML, guia de desplegament i d'ús.",
+        "Presentació oral: estructura, demostració en viu, gestió de preguntes i feedback.",
+        "Avaluació i retrospectiva: què ha funcionat, què millorar i propers passos.",
+        "Propietat intel·lectual en el programari: llicències open source (MIT, GPL, Apache).",
+        "Emprenedoria digital: canvas de model de negoci, pitch i vies de financement."
+      ]
+    }
+  }
+}

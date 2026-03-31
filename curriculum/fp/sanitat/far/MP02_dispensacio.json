@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "FAR",
+    "titol_cicle": "Farmàcia i Parafarmàcia",
+    "familia_professional": "Sanitat",
+    "grau": "mitja",
+    "rd_titol": "RD 1689/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/12/17/pdfs/BOE-A-2011-19635.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP02 forma el tècnic en farmàcia en les competències essencials de dispensació de medicaments i productes parafarmacpèutics en l'oficina de farmàcia i la parafarmàcia. L'alumnat desenvolupa la capacitat d'atendre el públic, identificar les necessitats terapèutiques i aplicar protocols de dispensació amb prescripció i sense, vetllant per la seguretat del pacient i el compliment de la normativa sanitària vigent. Les competències adquirides s'apliquen directament en oficines de farmàcia, parafarmcàcies i serveis de dispensació hospitalaris.\n\nEl mòdul treballa la classificació ATC dels medicaments, les categories terapèutiques principals (antibiòtics, antihipertensius, ansiolítics, analgèsics, antiinflamatoris), la interpretació de receptes mèdiques i electròniques, i la gestió de la recepta mèdica oficial catalana. S'aborden les condicions legals de dispensació de medicaments de prescripció, d'ús hospitalari i estupefaïents, d'acord amb la Llei 29/2006 del medicament i el Reial Decret 1718/2010. L'alumnat aprèn a identificar interaccions i contraindicacions freqüents, a proporcionar informació sobre posologia i conservació, i a gestionar el programa SIFARE de facturació al CatSalut.\n\nLa formació combina pràctiques de dispensació simulada amb mostres de medicaments reals, jocs de rol d'atenció al públic i ús del programari de gestió de farmàcia (SGF). L'alumnat treballa amb el robot dispensador, el sistema de codis de barres i el lector d'e-recepta, reproduint les condicions reals d'una oficina de farmàcia comunitària."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Dispensació de Medicaments i Productes Parafarmacèutics",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Medicaments",
+        "hores": 132,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Classifica els medicaments en funció del seu origen, composició, forma farmacèutica i règim de dispensació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han classificat els medicaments per la seva font (síntesi química, origen biològic, plantes medicinals) i les seves implicacions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han descrit les formes farmacèutiques sòlides (comprimits, càpsules, grànuls), líquides (solucions, suspensions, xarops) i semisòlides (pomades, cremes, gels).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha distingit entre medicament de marca, genèric (EFG) i biosimilar, i s’han descrit els criteris de substitució.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han identificat els medicaments d’ús hospitalari i els subjectes a prescripció mèdica especial (estupefaents, psicotòpics).",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha usat el Vademecúm i la fitxa tècnica per obtenir informació sobre un medicament (indicacions, contraindicacions, posologia).",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Dispensa especialitats farmacèutiques (EFG i de marca) aplicant el protocol complet de dispensació i el consell sobre ús correcte.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha identificat el principi actiu, la dosi i la forma farmacèutica a partir de la prescripció.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han revisat les interaccions amb altri medicaments del pacient i les contraindicacions en funció de les patologies conegudes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha informat el pacient sobre la posologia correcta, els efectes adversos més freqüents i la importància de l’adherència al tractament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han gestionat les situacions d’incidències en la dispensació (medicament no disponible, recepta incorrecta, al·lèrgia declarada).",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha registrat la dispensació i les intervencions farmacèutiques realitzades.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Gestiona la dispensació de medicaments sota prescripció especial (estupefaents, psicotòpics) seguint els procediments legals específics.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha descrit la legislació específica sobre estupefaents i psicotòpics (Llei 17/1967 i normativa autonòmica).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha verificat la recepta d’estupefaents (recepta especial de color groc) i realitzat la dispensació seguint el protocol.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha realitzat el registre obligatori del llibre d’estupefaents i les comunicacions periòdiques a l’autoritat sanitària.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han descrit les condicions d’emmagatzematge especial (armari tancat amb clau) i el control d’inventari reglamentari.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Parafarmàcia",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dispensa productes de parafarmàcia (dermofarmàcia, nutrició, ortopèdia, material sanitari) aplicant el consell personalitzat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han classificat els productes de parafarmàcia (cosmètica, dietètica i nutrició, ortopèdia, higiene, fitoterap ia) i s’han descrit les seves categories regulatòries.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha proporcionat consell dietètic i nutricional bàsic (suplements vitamínics, proteícs, minerals) adaptat a les necessitats del client.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha realitzat el consell en cosmetologia (tipus de pell, fototip, selecció de tractaments dermatològics OTC) de forma científicament rigorosa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha orientat el client en la selecció de productes d’ortopèdia bàsica (faixes lumbars, canelleres, mitjons de compressió) i material de cura de ferides.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han identificat les situacions en les quals el consell de parafarmàcia requereix derivació al metge o especialista.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona la secció de parafarmàcia d’una oficina de farmàcia aplicant criteris de merchandising i gestió de l’estoc.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han aplicat tècniques bàsiques de merchandising farmacèutic (col·locació per categories, rotació de productes, zona calenta/freda).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha gestionat l’estoc de parafarmàcia (control de caducitats, nivells mínims, rotació de productes) amb el sistema informàtic.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han identificat els proveïdors de parafarmàcia i realitzat comandes seguint els protocols de l’establiment.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han aplicat criteris de gestió de la rendibilitat de la secció (marges comercials, productes amb baixa rotació).",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

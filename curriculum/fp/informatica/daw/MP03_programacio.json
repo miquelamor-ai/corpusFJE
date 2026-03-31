@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 686/2010",
+    "resolucio_cat": "Resolució ENS/2243/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/06/04/pdfs/BOE-A-2010-8881.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Programació en el DAW estableix les bases de la programació orientada a objectes que sustenten el desenvolupament web modern. Desenvolupa competències en programació estructurada, POO i ús de biblioteques, essencials per als mòduls posteriors d’entorn client i servidor. S’aplica en qualsevol rol de programador web, tant en la lògica de negoci del backend com en la comprensió de frameworks i patrons de disseny.\n\nEls continguts cobreixen els fonaments de la programació (variables, tipus de dades, estructures de control, funcions) i la transició al paradigma orientat a objectes en Java i Python: classes, herència, polimorfisme, encapsulació, interfaces i classes abstractes. S’estudien les col·leccions i estructures de dades de la biblioteca estàndard, la gestió d’excepcions, l’accés a fitxers i la serialització, les proves unitàries amb JUnit o pytest, i el flux de treball amb Git (branques, merges, pull requests) com a eina de col·laboració professional.\n\nEl mòdul s’imparteix amb exercicis progressius de complexitat creixent, des de problemes algorítmics bàsics fins a projectes de programari amb múltiples classes i tests. L’alumnat treballa en IDE (VS Code, IntelliJ) reproduint el flux professional: anàlisi, disseny, implementació, prova i documentació del codi."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Programació",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Fonaments de programació",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Escriu i executa programes senzills reconeixent i aplicant els elements bàsics del llenguatge de programació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els tipus de dades primitius i les seves operacions.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han utilitzat variables, constants i expressions aritmètiques i lògiques correctament.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han implementat estructures de control condicional (if/elif/else, switch).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han implementat estructures de control iteratiu (for, while, do-while).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han tractat errors amb mecanismes d'excepcions (try/except/finally).",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa algorismes i els implementa en funcions i mòduls reutilitzables.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han dissenyat algorismes de cerca i ordenació sobre llistes i arrays.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han creat funcions amb paràmetres i valors de retorn ben definits.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han aplicat tècniques de recursivitat per resoldre problemes adequats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han organitzat els programes en mòduls i paquets reutilitzables.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha analitzat la complexitat algorísmica bàsica (O(n), O(n²), O(log n)).",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Gestiona col·leccions de dades i fitxers aplicant les estructures de dades adequades a cada problema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han manipulat llistes, tuples, diccionaris i conjunts amb les operacions pròpies.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han llegit i escrit fitxers de text i fitxers CSV.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha treballat amb fitxers JSON per a l'intercanvi de dades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha seleccionat l'estructura de dades més adequada (piles, cues, llistes enllaçades) per a cada problema.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Programació orientada a objectes aplicada al web",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica la programació orientada a objectes dissenyant classes, herència i polimorfisme per a aplicacions web.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han definit classes amb atributs, mètodes, constructors i destructors.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han aplicat els principis d'encapsulament i visibilitat (públic, privat, protegit).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha implementat l'herència i la sobreescriptura de mètodes.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha aplicat el polimorfisme amb interfícies i classes abstractes.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han aplicat els principis SOLID en el disseny de classes.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Implementa patrons de disseny orientats al desenvolupament web per millorar la mantenibilitat i escalabilitat del codi.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha aplicat el patró MVC per separar la lògica de presentació, negoci i dades.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han implementat patrons creacionals (Singleton, Factory) en casos d'ús adequats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha aplicat el patró Observer per gestionar esdeveniments en aplicacions web.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha valorat l'ús de patrons de disseny en frameworks web reals (Laravel, Django).",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

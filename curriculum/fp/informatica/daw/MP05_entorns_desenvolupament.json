@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 686/2010",
+    "resolucio_cat": "Resolució ENS/2243/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/06/04/pdfs/BOE-A-2010-8881.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Entorns de Desenvolupament en el DAW forma l’alumnat en les eines professionals que acompanyen el cicle de vida del programari web: editors, depuradors, control de versions i integració contínua. Desenvolupa competències en productivitat i col·laboració, transversals a tots els rols del sector web. S’aplica des del primer dia de treball en qualsevol empresa que desenvolupa programari, sent un complement imprescindible per a la resta de mòduls del cicle.\n\nEls continguts cobreixen la configuració avançada de VS Code i WebStorm per al desenvolupament web (extensions, linters, formaters, snippets), depuració de codi JavaScript al navegador i al servidor (Chrome DevTools, Node.js debugger), control de versions avançat amb Git (branques, resolució de conflictes, estratègia GitFlow, GitHub/GitLab), gestors de paquets npm i yarn per a dependències frontend, introducció a la integració i entrega contínua (CI/CD) amb GitHub Actions o GitLab CI, i anàlisi estàtica de codi i bones pràctiques (ESLint, Prettier, SonarCloud).\n\nEl mòdul s’imparteix integrat amb la resta del cicle, aplicant les eines sobre projectes reals de desenvolupament web. Les activitats inclouen la configuració completa de l’entorn professional, la gestió d’un repositori col·laboratiu amb branques i pull requests, i la posada en marxa d’un pipeline CI que automatitza proves i desplegament."
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "Entorns de Desenvolupament",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Entorns i eines de desenvolupament web",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona el control de versions del codi font amb Git aplicant fluxos de treball en equip.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han realitzat les operacions bàsiques de Git (init, clone, add, commit, push, pull).",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha gestionat el treball en branques (branch, checkout, merge, rebase).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han resolt conflictes de fusió (merge conflicts) de forma efectiva.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha treballat amb repositoris remots a GitHub/GitLab (pull requests, code review).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha aplicat un flux de treball Git (Gitflow o GitHub Flow) en un projecte d'equip.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Utilitza IDEs i eines de depuració per al desenvolupament web eficient.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha configurat un IDE (VS Code) amb extensions específiques per al desenvolupament web.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han utilitzat les DevTools del navegador per inspeccionar i depurar HTML, CSS i JavaScript.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han definit i executat tasques automatitzades de compilació i linting (npm scripts, Makefile).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han configurat linters i formaters de codi (ESLint, Prettier, Pylint) per garantir la qualitat.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'han depurat errors de backend amb eines de depuració del servidor (pdb, debugger integrat).",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Implementa proves de programari i integració contínua bàsica per garantir la qualitat del codi.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han escrit proves unitàries per a funcions i components (Jest, PyTest).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han escrit proves d'integració per verificar la interacció entre components.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha calculat i interpretat la cobertura de codi (code coverage).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha configurat un pipeline bàsic de CI/CD amb GitHub Actions o GitLab CI per automatitzar proves.",
+                "pes_percentual": 30
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

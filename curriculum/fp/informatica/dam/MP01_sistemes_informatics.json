@@ -1,0 +1,233 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 450/2010",
+    "resolucio_cat": "Resolució ENS/2518/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/04/20/pdfs/BOE-A-2010-6154.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Sistemes Informàtics proporciona a l'alumnat DAM les bases per configurar i gestionar entorns de treball adequats per al desenvolupament multiplataforma. Desenvolupa competències en selecció de maquinari, administració de sistemes operatius Windows i GNU/Linux, i gestió de virtualització. S'aplica en tasques de sysadmin junior, tècnic de suport TI i en la preparació d'entorns de desplegament d'aplicacions.\n\nEls continguts abasten arquitectures de processadors x86, x86-64 i ARM, jerarquies de memòria i la seva incidència en el rendiment, hipervisors de tipus 1 i 2 (VMware, VirtualBox, Hyper-V), contenidors Docker, gestors de paquets apt, dnf, chocolatey i winget, gestió de permisos NTFS i Unix, administració de serveis amb systemd, automatització amb scripts Bash i PowerShell, anàlisi de rendiment amb top, htop i perfmon, configuració de xarxa en entorns físics i virtualitzats (NAT, pont, host-only) i protocols SSH, DNS i proxy local.\n\nEl mòdul es desenvolupa en aules-laboratori equipades amb màquines virtuals preconfigurades. L'alumnat realitza pràctiques guiades d'instal·lació i configuració de sistemes, scripts d'automatització i simulació d'entorns de xarxa. La metodologia combina demostracions del docent, pràctiques individuals i resolució de casos pràctics, preparant l'alumnat per gestionar infraestructures d'equip de desenvolupament."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Sistemes Informàtics",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Arquitectura i maquinari",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Avalua sistemes informàtics identificant els seus components hardware, les seves característiques tècniques i la seva adequació a les necessitats del desenvolupament d'aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els components principals d'un sistema informàtic (CPU, memòria, emmagatzematge, perifèrics) i les seves funcions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han comparat arquitectures de processadors (x86, x86-64, ARM) i els seus casos d'ús en aplicacions multiplataforma.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han analitzat les jerarquies de memòria (registres, caché, RAM, emmagatzematge) i el seu impacte en el rendiment de les aplicacions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han seleccionat components hardware adequats per a entorns de desenvolupament i desplegament d'aplicacions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han interpretat les especificacions tècniques de components hardware, identificant els paràmetres rellevants per al rendiment del sistema.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Instal·la i configura programari de base per a entorns de desenvolupament, gestionant la virtualització i els entorns de treball adequats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han instal·lat i configurat hipervisors de tipus 1 i 2 per a la creació d'entorns de desenvolupament virtualitzats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han creat i gestionat màquines virtuals amb diferents sistemes operatius per provar la portabilitat d'aplicacions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han configurat entorns amb contenidors (Docker) per al desplegament d'aplicacions en entorns aïllats i reproduïbles.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han realitzat instantànies i clonacions de màquines virtuals per gestionar configuracions de referència.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Gestiona sistemes operatius en entorns de desenvolupament, configurant usuaris, permisos, serveis i optimitzant el rendiment per a tasques de programació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha gestionat l'estructura de fitxers i directoris en sistemes operatius Windows i GNU/Linux, aplicant permisos adequats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han administrat comptes d'usuari i grups, assignant permisos d'accés en funció del rol en l'equip de desenvolupament.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han configurat i gestionat serveis del sistema operatius necessaris per al desenvolupament (servidors web locals, bases de dades, etc.).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han automatitzat tasques d'administració mitjançant scripts de shell (Bash) i PowerShell.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.5",
+                "text": "S'ha diagnosticat i resolt problemes de rendiment del sistema operatiu que afecten l'entorn de desenvolupament.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Sistemes operatius",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura sistemes operatius per a entorns de desenvolupament multiplataforma, instal·lant i gestionant els components de programari necessaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha instal·lat i configurat un sistema operatiu GNU/Linux per a tasques de desenvolupament, optimitzant els paràmetres del kernel.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha configurat un entorn de desenvolupament Windows amb les eines, SDK i runtimes necessaris per a aplicacions multiplataforma.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han gestionat paquets i dependències de sistema amb gestors de paquets (apt, dnf, chocolatey, winget).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha configurat el subsistema de xarxa del sistema operatiu per permetre comunicació entre aplicacions i serveis locals.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha documentat la configuració del sistema operatiu permetent la seva reproducció en altres equips de l'equip de desenvolupament.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Utilitza eines de línia de comandes i scripting per automatitzar tasques del sistema operatiu relacionades amb el cicle de vida del desenvolupament de programari.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han creat scripts Bash i PowerShell per automatitzar tasques repetitives de compilació, proves i desplegament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han gestionat processos i serveis del sistema des de la línia de comandes, controlant l'execució d'aplicacions en segon pla.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han utilitzat eines de línia de comandes per analitzar el rendiment del sistema (top, htop, Task Manager, perfmon).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han configurat tasques programades (cron, Tasques Programades de Windows) per a l'execució automàtica de processos de manteniment.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica mesures de seguretat i bones pràctiques en la gestió de sistemes operatius, protegint l'entorn de desenvolupament i els actius del projecte.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han configurat polítiques de seguretat del sistema operatiu (tallafoc, antivirus, actualitzacions automàtiques).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha gestionat l'accés al sistema aplicant el principi de mínims privilegis per a usuaris i processos.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han configurat i revisat registres (logs) del sistema per detectar activitats inusuals o problemes de seguretat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han realitzat còpies de seguretat del sistema i dels projectes de desenvolupament, verificant la integritat de les dades guardades.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Gestiona la connectivitat de xarxa del sistema operatiu, configurant interfícies, protocols i serveis de xarxa per a entorns de desenvolupament i proves.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'ha configurat la connectivitat de xarxa del sistema (IP, màscara, gateway, DNS) en entorns físics i virtualitzats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'han diagnosticat problemes de connectivitat de xarxa utilitzant eines com ping, traceroute, netstat i Wireshark.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'han configurat xarxes virtuals (NAT, pont, host-only) en entorns de virtualització per a proves d'aplicacions en xarxa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'han configurat serveis bàsics de xarxa (DNS local, proxy, servidor web local) per a l'entorn de desenvolupament.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

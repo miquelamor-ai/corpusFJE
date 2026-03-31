@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schema_infantil_v1",
+  "description": "Schema per al currículum d'Educació Infantil 2n cicle (3-6 anys) de Catalunya",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "familia":       { "type": "string", "const": "infantil" },
+        "etapa":         { "type": "string", "const": "infantil" },
+        "cicle":         { "type": "string", "const": "segon_cicle" },
+        "edat":          { "type": "string", "const": "3-6" },
+        "decret":        { "type": "string", "description": "Referència normativa (ex: Decret 21/2023)" },
+        "versio_schema": { "type": "string" }
+      },
+      "required": ["familia", "etapa", "cicle", "edat", "decret", "versio_schema"]
+    },
+    "ambits": {
+      "type": "array",
+      "description": "3 àmbits principals d'infantil",
+      "items": {
+        "type": "object",
+        "properties": {
+          "codi":  { "type": "string", "examples": ["AMB1", "AMB2", "AMB3"] },
+          "nom":   { "type": "string" },
+          "arees": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "codi": { "type": "string" },
+                "nom":  { "type": "string" },
+                "objectius_desenvolupament": {
+                  "type": "array",
+                  "description": "ODA: Objectius de Desenvolupament i Aprenentatge",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "codi":  { "type": "string", "examples": ["ODA1", "ODA2"] },
+                      "text":  { "type": "string" },
+                      "blocs_contingut": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "bloc":  { "type": "string" },
+                            "items": {
+                              "type": "array",
+                              "items": { "type": "string" }
+                            }
+                          },
+                          "required": ["bloc", "items"]
+                        }
+                      },
+                      "orientacions_avaluacio": {
+                        "type": "array",
+                        "description": "Descriptors de progressió (qualitatiu, no numèric)",
+                        "items": { "type": "string" }
+                      }
+                    },
+                    "required": ["codi", "text"]
+                  }
+                }
+              },
+              "required": ["codi", "nom", "objectius_desenvolupament"]
+            }
+          }
+        },
+        "required": ["codi", "nom", "arees"]
+      }
+    }
+  },
+  "required": ["meta", "ambits"]
+}

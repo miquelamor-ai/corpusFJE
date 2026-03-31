@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "mitja",
+    "rd_titol": "RD 1691/2007",
+    "resolucio_cat": "Resolució ENS/1891/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2007/12/24/pdfs/A52776-52804.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Formació en Centres de Treball (FCT) és l’estada pràctica en empresa que completa el cicle formatiu SMX, permetent a l’alumne aplicar en un entorn laboral real les competències tècniques adquirides durant el cicle. La FCT representa la primera experiència professional real de molts alumnes i és, sovint, el punt d’entrada al mercat laboral del sector TIC.\n\nDurant l’estada, l’alumne participa en les tasques habituals del servei tècnic o departament TIC de l’empresa: muntatge i reparació d’equips, suport a usuaris, instal·lació de sistemes operatius i aplicacions, configuració de xarxes i perifèrics, gestió del parc informàtic i atenció d’incidències. El seguiment es realitza mitjançant un diari d’activitats, tutories periòdiques amb el tutor d’empresa i el tutor docent, i l’avaluació final basada en l’informe de l’empresa i la memòria de l’alumne.\n\nLa FCT es desenvolupa en empreses de serveis informàtics (SATs, botigues d’informàtica, empreses de manteniment), departaments TIC d’empreses de qualsevol sector o administracions públiques. L’alumne s’incorpora a l’equip de treball de l’empresa, respectant els protocols, horaris i cultura professional establerts. La duració és de 360 hores i es realitza un cop superats tots els mòduls professionals del cicle."
+  },
+  "modul": {
+    "codi": "FCT",
+    "nom": "Formació en Centres de Treball",
+    "hores_totals": 360,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Estada en empresa del sector TIC",
+        "hores": 360,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "S'integra al lloc de treball en un servei tècnic, departament informàtic o empresa TIC, adaptant-se a la seva cultura organitzativa i als procediments interns.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han complert els horaris i la normativa interna de l'empresa de pràctiques de forma responsable.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha mostrat una actitud proactiva, iniciativa i disposició per aprendre de les tasques encomanades.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha comunicat de forma adequada i professional amb els companys, responsables i clients de l'empresa.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han respectat les normes de confidencialitat i protecció de dades dels clients de l'empresa.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha gestionat el treball personal de forma organitzada, prioritzant les tasques i complint els terminis establerts.",
+                "pes_percentual": 10
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa tasques tècniques pròpies del perfil SMX aplicant els coneixements i habilitats adquirits al cicle formatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han muntat, configurat i posat en marxa equips microinformàtics seguint les especificacions tècniques del projecte.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han instal·lat i configurat sistemes operatius (Windows i/o Linux) i el programari d'aplicació requerit pels usuaris.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han diagnosticat i resolt incidències tècniques d'hardware i software reportades pels usuaris finals.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han configurat i mantingut elements de xarxa (switches, routers, punts d'accés WiFi) i serveis associats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'han realitzat tasques d'administració bàsica de servidors (còpies de seguretat, gestió d'usuaris, monitoratge).",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica els protocols i procediments de treball establerts per l'empresa amb qualitat i seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha documentat el treball realitzat (incidències, intervencions, configuracions) seguint els formats de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han aplicat les normes de prevenció de riscos laborals i els protocols de seguretat de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha utilitzat el sistema de ticketing o gestió d'incidències de l'empresa per registrar i fer el seguiment de les tasques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha assegurat la qualitat del treball realitzat verificant el resultat final amb l'usuari o el responsable tècnic.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Actua amb autonomia creixent en la resolució de problemes tècnics habituals de l'entorn professional.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'han resolt de forma autònoma incidències habituals del perfil SMX sense necessitat de supervisió constant.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'han identificat correctament els límits de la pròpia competència i se sol·licitat ajuda quan la situació ho requeria.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'ha aplicat el pensament crític per analitzar problemes tècnics i valorar les millors solucions disponibles.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'ha mostrat capacitat d'adaptació davant de situacions i tecnologies noves no tractades explícitament al cicle formatiu.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

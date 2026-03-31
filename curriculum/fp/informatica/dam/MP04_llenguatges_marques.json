@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 450/2010",
+    "resolucio_cat": "Resolució ENS/2518/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/04/20/pdfs/BOE-A-2010-6154.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Llenguatges de Marques i Sistemes de Gestió d’Informació capacita l’alumnat DAM per estructurar, transformar i intercanviar informació entre aplicacions i sistemes heterogenis, una competència fonamental en aplicacions modernes. S’aplica en tasques de desenvolupament de serveis web, integració de sistemes i manipulació de dades en formats estàndard, en rols de programador backend i integrador de sistemes.\n\nEls continguts aborden HTML5 i CSS3 com a estàndards de presentació web, XML i la seva validació mitjançant DTD i esquemes XSD, transformació de documents XML amb XSLT, accés i manipulació de documents XML amb DOM i SAX, el format JSON i la seva comparativa amb XML en API REST, YAML per a configuració d’aplicacions, expressions regulars per a la validació de dades, i l’ús de biblioteques Java i Python per parsejar, generar i validar documents en tots aquests formats en aplicacions multiplataforma.\n\nLes pràctiques es desenvolupen en entorn de laboratori amb exercicis de transformació de documents, creació de petites API REST simulades i integració de fonts de dades en format JSON i XML. La metodologia és progressiva: del document estàtic a la integració dinàmica en aplicacions reals, amb projectes que combinen disseny de l’estructura de dades i implementació del codi de processament."
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "Llenguatges de Marques i Sistemes de Gestió d'Informació",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "XML, JSON, HTML i CSS",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix les característiques dels llenguatges de marques, identificant XML i JSON com a formats d'intercanvi de dades i analitzant la seva estructura i validació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat les característiques i diferències dels principals llenguatges de marques (XML, HTML, Markdown) i el seu àmbit d'aplicació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han creat i validat documents XML ben formats i vàlids, aplicant esquemes XSD i DTD.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han construït i analitzat documents JSON per a l'intercanvi de dades entre serveis i aplicacions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han aplicat transformacions XSLT sobre documents XML per generar sortides en diferents formats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han realitzat consultes sobre documents XML amb XPath per extreure informació de manera selectiva.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Crea documents web amb HTML5 i CSS3, aplicant estàndards d'accessibilitat i bones pràctiques de maquetació web.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han creat pàgines web semàntiques amb HTML5, utilitzant els elements estructurals adequats al contingut.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han aplicat estils visuals amb CSS3 (selectors, model de caixa, tipografia, colors) per definir l'aspecte de les pàgines web.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han creat dissenys adaptatius (responsive) amb Flexbox i Grid CSS per a la visualització en dispositius de diverses mides.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han aplicat pràctiques d'accessibilitat web (WCAG) en els documents HTML, incloent atributs ARIA i contrast de colors adequat.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'han validat documents HTML i CSS amb les eines oficials del W3C, corregint els errors detectats.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Processa documents XML i JSON des de codi, parsejant, modificant i generant dades en aquests formats per a la comunicació entre aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han parsejat documents XML des de codi aplicació amb API SAX i DOM, extraient informació i gestionant errors.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han llegit i generat documents JSON des de codi, serialitzant i deserialitzant objectes de manera eficient.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha consumit informació de serveis web REST que retornen dades en format JSON, processant la resposta a l'aplicació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han generat documents XML i JSON programàticament per publicar dades de l'aplicació en formats estàndard d'intercanvi.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Sistemes de gestió d'informació",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Utilitza sistemes ERP i CRM identificant la seva funcionalitat, arquitectura i integració amb aplicacions de l'entorn empresarial.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat les característiques i mòduls principals dels sistemes ERP, reconeixent els processos empresarials que gestionen.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han realitzat operacions bàsiques sobre un sistema ERP (Odoo, ERPNext), gestionant clients, productes i comandes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han integrat dades entre un sistema ERP i una aplicació externa mitjançant API REST o fitxers d'intercanvi.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han generat informes i exportacions de dades des d'un sistema ERP, adaptant la sortida als requeriments de l'empresa.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona sistemes de gestió de continguts (CMS) i plataformes col·laboratives, integrant-los en el context del desenvolupament d'aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han instal·lat i configurat sistemes CMS (WordPress, Drupal) per a la publicació i gestió de continguts digitals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han personalitzat plantilles i extensions d'un CMS per adaptar-lo als requeriments funcionals i visuals d'un projecte.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha consumit la API REST d'un CMS des d'una aplicació externa per obtenir i publicar continguts de manera programàtica.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han gestionat usuaris, rols i permisos en plataformes col·laboratives, garantint la seguretat i la confidencialitat de la informació.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

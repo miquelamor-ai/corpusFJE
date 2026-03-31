@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "TAPIC",
+    "titol_cicle": "Anatomia Patologica i Citologia",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 1030/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/07/15/pdfs/BOE-A-2011-12296.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP08 forma el tècnic TAPIC en les tècniques de biologia molecular aplicades al diagnòstic anatomopatològic, una àrea en constant creixement en els laboratoris d'anatomia patològica de referència per a la medicina personalitzada en oncologia. Les competències s'apliquen en laboratoris de biologia molecular i patologia molecular d'hospitals universitàris i centres de referència oncològica.\n\nEl mòdul treballa l'extracció de DNA i RNA de teixits fixats en formol i inclòs en parafina (FFPE), la reacció en cadena de la polimeresa (PCR) convencional i en temps real (qPCR), la hibridació in situ per fluorescència (FISH i CISH) per a la detecció d'amplificacions gèniques (HER2, ALK, ROS1) i translocacions cromosomiques, la sequnciàació Sanger i les bases del seqenciament de nova generació (NGS) aplicat a panells genòmics tumorals. S'estudia la gestió de la preanaltíca molecular (qualitat del teixit, mesura de la concentració i integritat del DNA per espectrofotometria i electroforesi), els controls de qualitat i la interpretació dels resultats en el context diagnòstic.\n\nLa formació es desenvolupa en laboratori de biologia molecular equipat amb termocicladors, sistemes qPCR, microscopi de fluorescència i equipament per a electroforesi. L'alumnat realitza extraccions de DNA de talls de parafina, amplificació per PCR i interpretació de resultats FISH, en protocols estretament vinculats als casos clínics reals del servei d'anatomia patològica."
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "Biologia Molecular",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Extraccio i quantificacio d'acids nucleics",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Extrau ADN i ARN de mostres FFPE aplicant els protocols del laboratori de biologia molecular.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Desparafina les seccions FFPE i elimina els ions formol entrecreuats aplicant calor o proteinasa K per a l'alliberament dels acids nucleics.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica els kits d'extraccio automatitzada (QIAamp FFPE, cobas DNA) o manual (fenol-cloroform) adaptant el protocol al tipus de mostra.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Quantifica el DNA/RNA per espectrofotometria (Nanodrop) i fluorimetria (Qubit), registrant la concentracio, el ratio 260/280 i el 260/230 com a indicadors de puresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Avalua la integritat del RNA per electroforesi en gel d'agarosa o Bioanalyzer (RIN), seleccionant les mostres aptes per a estudis d'expressio genica.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza la retrotranscripcio del ARN en ADN complementari (RT-PCR) per a estudis d'expressio genica i deteccio de transcrits de fusio en patologia oncologica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Prepara la reaccio RT utilitzant transcriptasa inversa (SuperScript IV), primers aleatoris o oligo-dT i controls d'integritat del ARN.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Detecta transcrits de fusio oncogenics (BCR-ABL, EML4-ALK, SYT-SSX) per RT-PCR semiquantitativa amb electroforesi en gel i compara amb controls positius.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Interpreta els resultats RT-PCR (presencia/absencia de bandes, mida del producte) i els correlaciona amb els resultats IHQ corresponents (ALK, ROS1).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Gestiona els reactius RT-PCR (temperatures d'emmagatzematge, lot, caducitat) i registra cada reaccio al full de treball del laboratori molecular.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica tecniques de PCR quantitativa en temps real (qPCR) per a la deteccio i quantificacio de marcadors moleculars en mostres de patologia oncologica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Dissenya o selecciona els primers i sondes TaqMan per a la deteccio d'alteracions moleculars especifiques (mutacions KRAS, BRAF V600E, EGFR ex19del/L858R).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Programa el termociclador (ABI QuantStudio, BioRad CFX) amb els parametres adequats i realitza la reaccio qPCR incloent controls positius, negatius i calibradors.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Analitza les corbes d'amplificacio, calcula el Ct i expressa el resultat com a concentracio relativa (2-ddCt) o absoluta (corba de calibratge extern) segons el protocol.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Interpreta els resultats qPCR en el context del diagnostic molecular oncologic i identifica possibles interferencies (inhibidors, degradacio del DNA, contaminacio).",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Tecniques moleculars avancades: PCR digital i NGS",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza la PCR digital per gotes (ddPCR) per a la deteccio i quantificacio absoluta de mutacions en mostres de biopsies liquides (DNA tumoral circulant).",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Prepara la reaccio ddPCR (mastermix, primers, sondes i mostra ctDNA) en la concentracio adequada i genera les gotes amb el generador Bio-Rad.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Processa la placa en el termociclador, llegeix les gotes al lector ddPCR i analitza les dades amb el software QuantaSoft per calcular la fraccio al'lelica de la mutacio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Interpreta el resultat ddPCR (gotes positives/negatives, concentracio copies/ul, fraccio al'lelica) i el correlaciona amb el resultat de la biopsia tissular del cas.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Aplica els controls de qualitat interns de la ddPCR (control no template, control positiu, particio de les gotes) i valida el resultat seguint els criteris del SOP.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Participa en la preparacio de biblioteques per a sequenciacio de nova generacio (NGS) aplicada al diagnostic molecular oncologic en laboratori d'anatomia patologica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Realitza la fragmentacio del DNA, la reparacio d'extrems, la lligacio d'adaptadors i l'amplificacio de la biblioteca seguint el kit de panel NGS (Illumina TSO500 o similar).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Quantifica i avalua la qualitat de la biblioteca (Qubit, Bioanalyzer) i realitza la normalitzacio i barreja de les biblioteques (pooling) per a la sequenciacio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Interpreta el rapport de qualitat de la sequenciacio (coverage, uniformitat, fraccio tumoral, TMB, MSI) i identifica els variants reportables per al diagnostic oncologic.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Correlaciona els variants genomics detectats per NGS (SNVs, indels, CNVs, fusions) amb les bases de dades de variants i la seva significacio terapeutica (OncoKB, ClinVar, COSMIC).",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica les tecniques de sequenciacio de Sanger per a la confirmacio de variants puntuals detectades per NGS.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Realitza l'amplificacio del fragment d'interes per PCR especifica, purifica el producte (ExoSAP-IT) i prepara la reaccio de sequenciacio amb BigDye Terminator.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Processa les mostres en l'analitzador de sequencies capil'lars (ABI 3130 o similar), analitza els electroferogrames amb el software Sequencing Analysis i identifica les variants.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Interpreta el resultat de Sanger en el context de la variant detectada per NGS i determina si es una confirmacio de la variant somatica o un artefacte de la sequenciacio masiva.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Documenta els resultats de Sanger al sistema d'informacio del laboratori i redacta l'informe tecnic de confirmacio per al cas clinic corresponent.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

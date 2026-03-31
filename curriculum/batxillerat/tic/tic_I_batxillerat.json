@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Tecnologies de la Informació i la Comunicació I",
+    "codi_area": "TIC1",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/TIC-I.pdf",
+    "nota_estructura": "Matèria de 1r BAT, modalitat Ciències.",
+    "versio_schema": "1.0",
+    "descripcio": "Les Tecnologies de la Informació i la Comunicació I és una matèria de primer de Batxillerat de la modalitat de Ciències que desenvolupa la competència digital avançada i el pensament computacional. Prepara l'alumnat per als estudis universitaris d'informàtica, telecomunicacions, enginyeria de dades i ciberseguretat, i per a la comprensió crítica de la societat digital.\n\nLa matèria treballa el disseny i la implementació d'algorismes i programes —estructures de control, funcions, llistes i bones pràctiques de programació—, l'arquitectura dels sistemes informàtics i les xarxes de comunicació —protocols, topologies, dispositius i configuració bàsica—, les bases de dades relacionals i el disseny de pàgines web estàtiques amb HTML i CSS, i les mesures de ciberseguretat davant amenaces habituals —malware, phishing, enginyeria social i protecció de dades. La creació de continguts digitals de qualitat —web, presentacions i documents multimèdia— incorpora criteris d'usabilitat, accessibilitat i gestió dels drets d'autoria. La reflexió sobre les implicacions ètiques, socials i legals de la tecnologia digital forma part del currículum.\n\nL'enfocament pedagògic és pràctic i orientat a la resolució de problemes reals: els projectes de programació, la configuració de xarxes simulades i la creació de productes digitals alternen amb el debat sobre les responsabilitats ciutadanes en l'entorn digital."
+  },
+  "competencies_clau": [
+    "CCL",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CE",
+    "CC"
+  ],
+  "blocs_sabers": [
+    "programacio_algorismes",
+    "sistemes_i_xarxes",
+    "bases_dades_i_web",
+    "seguretat_informatica",
+    "etica_digital"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Dissenyar i implementar algorismes i programes per resoldre problemes de manera eficient, aplicant estructures de control, dades i bones pràctiques de programació.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA1.1",
+            "text": "Dissenya algorismes per resoldre problemes concrets, emprant diagrames de flux o pseudocodi per representar la lògica de la solució."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Implementa programes en Python aplicant estructures de selecció, repetició i modularització amb funcions."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Utilitza estructures de dades (llistes, diccionaris, tuples) per gestionar conjunts d'informació de forma eficient."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Detecta, interpreta i corregeix errors de sintaxi, lògica i execució, aplicant tècniques de depuració i proves."
+          },
+          {
+            "codi": "CA1.5",
+            "text": "Documenta el codi amb comentaris i README, seguint les convencions de llegibilitat i mantenibilitat del programari."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Comprendre l'arquitectura dels sistemes informàtics i de les xarxes de comunicació per configurar-los, diagnosticar-ne problemes i optimitzar-ne el rendiment.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA2.1",
+            "text": "Descriu els components d'un sistema informàtique (CPU, memòria, emmagatzematge, periferies) i n'explica el funcionament conjunt."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Identifica els nivells del model OSI/TCP-IP i descriu la funció de cada capa en la transmissió de dades."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Configura una xarxa d'àrea local (LAN) bàsica, assignant adreces IP, màscares i passarel·les per garantir la connectivitat."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Diagnostica problemes de connectivitat senzills emprant eines de xarxa (ping, traceroute, ipconfig) i en proposa solucions."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Dissenyar i consultar bases de dades relacionals i desenvolupar pàgines web estàtiques, comprenent l'estructura de la informació en l'entorn digital.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA3.1",
+            "text": "Dissenya un esquema relacional (entitat-relació) per a un problema de gestió de dades, identificant entitats, atributs i relacions."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Crea i consulta una base de dades relacional amb SQL (SELECT, INSERT, UPDATE, DELETE, JOIN)."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Desenvolupa pàgines web estàtiques amb HTML5 i CSS3, aplicant semàntica, accessibilitat i disseny responsive bàsic."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Integra JavaScript bàsic en una pàgina web per afegir interactivitat (validació de formularis, manipulació del DOM)."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Aplicar mesures de seguretat informàtica per protegir sistemes, dades i comunicacions, identificant les amenaces i vulnerabilitats més habituals.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA4.1",
+            "text": "Identifica les principals amenaces de seguretat (malware, phishing, ransomware) i descriu els mecanismes de protecció adequats."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Aplica polítiques bàsiques de seguretat: contrasenyes robustes, autenticació en dos factors, actualitzacions i còpies de seguretat."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Comprend els fonaments de la criptografia simètrica i asimètrica, i explica el funcionament dels certificats digitals i HTTPS."
+          },
+          {
+            "codi": "CA4.4",
+            "text": "Analitza la seguretat d'una xarxa Wi-Fi i proposa mesures de millora concretes i justificades."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Reflexionar sobre les implicacions ètiques, socials i legals de la tecnologia digital, adoptant un comportament responsable i crític en l'entorn en línia.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA5.1",
+            "text": "Analitza casos reals d'ús indegut de la tecnologia (fake news, ciberassetjament, biaix algorísmic) i proposa respostes individuals i col·lectives."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Descriu els drets digitals bàsics (privacitat, accés a la informació, no-discriminació) i els relaciona amb la legislació vigent (RGPD, LOPDGDD)."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Avalua crítica la seva pròpia petjada digital i proposa estratègies per a una gestió responsable de la identitat en línia."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Reflexiona sobre l'impacte mediambiental de la tecnologia (consum energètic, residus electrònics) i promou pràctiques sostenibles."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE6",
+      "text": "Crear continguts digitals de qualitat (web, presentacions, documents multimèdia) aplicant criteris d'usabilitat, accessibilitat i drets d'autoria.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA6.1",
+            "text": "Produeix continguts digitals multimèdia (vídeo, podcast, infografia) amb eines digitals, aplicant criteris de qualitat i accessibilitat."
+          },
+          {
+            "codi": "CA6.2",
+            "text": "Gestiona la publicació de continguts en plataformes digitals, aplicant les llicències Creative Commons adequades."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Avalua crítica continguts digitals existents en relació a la seva accessibilitat, usabilitat i compliment dels drets d'autoria."
+          },
+          {
+            "codi": "CA6.4",
+            "text": "Col·labora en projectes digitals compartits (wikis, repositoris, espais de treball en el núvol), aplicant normes de treball cooperatiu."
+          }
+        ],
+        "2n": []
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r": {
+      "programacio_algorismes": [
+        "Pensament computacional: descomposició, abstracció, reconeixement de patrons, algorismia.",
+        "Algorismes: definició, característiques i representació (pseudocodi, diagrama de flux).",
+        "Estructures de control: sequèncial, condicional (if/elif/else) i iterativa (for, while).",
+        "Funcions i modularització: definició, paràmetres, valors de retorn i àmbits de variables.",
+        "Llistes i tuples: creació, accés, modificació i recorregut.",
+        "Diccionaris i conjunts: operacions i aplicacions en la gestió de dades.",
+        "Cadenes de caràcters: mètodes d'ús més frequent i format de sortida.",
+        "Entrada i sortida de dades: teclat, pantalla i fitxers de text.",
+        "Depuració i proves: errors de sintaxi vs. errors de lògica, tècniques de debugging.",
+        "Documentació del codi: comentaris, docstrings i README bàsics.",
+        "Entorns de desenvolupament: IDE (VSCode, PyCharm, Thonny) i notebooks Jupyter.",
+        "Control de versions bàsic: git init, commit, push, pull amb GitHub.",
+        "Resolució de problemes reals amb Python: exemples de ciències i dades.",
+        "Introducció a les llibreries Python: math, random, datetime i os."
+      ],
+      "sistemes_i_xarxes": [
+        "Arquitectura d'un sistema informàtique: CPU, memòria RAM, ROM, caché i emmagatzematge.",
+        "Representació de la informació: binari, hexadecimal i codificació de caràcters (ASCII, Unicode).",
+        "Sistemes operatius: funcions, tipus (Windows, GNU/Linux, macOS) i gestió de recursos.",
+        "Virtualització: concepte, hipervisors i cas d'ús en entorns professionals.",
+        "Xarxes de comunicació: tipologies (LAN, WAN, MAN), topologies i medis de transmissió.",
+        "Model OSI: set capes, funcions i protocols associats a cada capa.",
+        "Protocol TCP/IP: capes, adreces IPv4/IPv6, màscares de subxarxa i encaminament.",
+        "Serveis de xarxa bàsics: DNS, DHCP, HTTP/HTTPS, FTP, SSH.",
+        "Xarxes sense fil (Wi-Fi): estàndards 802.11, bandes de freqüència i configuració bàsica.",
+        "Diagnòsi de xarxa: ping, traceroute, nslookup, netstat i Wireshark (introducció).",
+        "El núvol (cloud computing): models IaaS, PaaS, SaaS i principals proveïdors.",
+        "Internet of Things (IoT): concepte, arquitectura i exemples d'aplicació.",
+        "Sistemes encastats i microcontroladors: Arduino i Raspberry Pi com a plataformes d'aprenentatge.",
+        "Tendències en arquitectura de sistemes: edge computing, computació quàntica i 5G."
+      ],
+      "bases_dades_i_web": [
+        "Dades vs. informació vs. coneixement: la piràmide DICS i el valor de les dades.",
+        "Model relacional: entitats, atributs, relacions, claus primàries i forànies.",
+        "Diagrama entitat-relació (ER): notació de Chen i notació de Crow's Foot.",
+        "SQL bàsica: CREATE, DROP, INSERT, UPDATE, DELETE i SELECT amb clàusules WHERE.",
+        "Consultes avançades SQL: JOIN (INNER, LEFT, RIGHT), GROUP BY, ORDER BY i funcions d'agregat.",
+        "Sistemes gestors de bases de dades (SGBD): SQLite, MySQL, PostgreSQL. Comparativa.",
+        "Introducció a les bases de dades NoSQL: MongoDB i casos d'ús.",
+        "Fonaments d'HTML5: estructura, semàntica, etiquetes principals i accessibilitat (ARIA).",
+        "CSS3: selectors, model de caixa, Flexbox, Grid i disseny responsive (media queries).",
+        "JavaScript bàsic: variables, funcions, events i manipulació del DOM.",
+        "Xarxa World Wide Web: funcionament d'HTTP/HTTPS, URL, cookies i sessions.",
+        "Eines de desenvolupament web: editors, navegadors, DevTools i validadors W3C.",
+        "APIs RESTful: concepte, peticions GET/POST, format JSON i consum bàsic des de Python.",
+        "Seguretat web bàsica: injecció SQL, XSS i mesures preventives."
+      ],
+      "seguretat_informatica": [
+        "Conceptes bàsics de seguretat: confidencialitat, integritat, disponibilitat (CIA).",
+        "Principals amenaces: virus, troians, ransomware, spyware, adware i rootkits.",
+        "Atacs de xarxa: phishing, spoofing, man-in-the-middle, DDoS i enginyeria social.",
+        "Mecanismes de protecció: antivirus, tallafoc (firewall), IDS/IPS i DMZ.",
+        "Política de contrasenyes: longitud, complexitat, gestors de contrasenyes i 2FA.",
+        "Criptografia simètrica: AES, DES. Principi de funcionament i aplicacions.",
+        "Criptografia asimètrica: RSA, claus pública/privada i infraestructura de clau pública (PKI).",
+        "Certificats digitals i HTTPS: SSL/TLS, autoritats de certificació i cadena de confiança.",
+        "Signatura digital i no-repudi: concepte i aplicacions legals.",
+        "Còpies de seguretat: tipus (completa, incremental, diferencial) i estratègia 3-2-1.",
+        "Normativa de seguretat: ISO 27001, NIST i Esquema Nacional de Seguretat.",
+        "Hacking ètic i pentesting: concepte, fases i eines bàsics (Kali Linux, introducció)."
+      ],
+      "etica_digital": [
+        "Identitat digital: petjada digital, reputació en línia i gestió de la privacitat.",
+        "Drets digitals: accés a la informació, privacitat, protecció de dades i no-discriminació.",
+        "Legislació vigent: RGPD (Reglament General de Protecció de Dades) i LOPDGDD a Espanya.",
+        "Ciberassetjament (cyberbullying): identificació, prevenció i protocols d'actuació.",
+        "Desinformació i fake news: mecanismes de difusió, verificació de fonts i fact-checking.",
+        "Biaix algorísmic: com els algorismes poden reproduir i amplificar discriminacions.",
+        "Inclusió digital i bretxa digital: causes, impacte social i mesures de reducció.",
+        "Drets d'autoria en el món digital: llicències Creative Commons, copyleft i domini públic.",
+        "Impacte mediambiental de la tecnologia: consum energètic de centres de dades, e-waste.",
+        "Tecnologia sostenible: principis d'eco-disseny, repairability i obsolescència programada.",
+        "Salut digital: addicció a la tecnologia, temps de pantalla i ergonomia digital.",
+        "Participació cívica digital: e-democràcia, peticions en línia i activisme digital responsable."
+      ]
+    },
+    "2n": {}
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "familia_professional": "Energia i Aigua",
+    "grau": "superior",
+    "rd_titol": "RD 385/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/04/15/pdfs/BOE-A-2011-6733.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Solar Tèrmica del cicle Energies Renovables forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de energia i aigua. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a solar tèrmica en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de solar tèrmica: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de energia i aigua. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Solar Tèrmica",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Disseny de sistemes solars tèrmics",
+        "hores": 82,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya instal·lacions solars tèrmiques per a ACS.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Dimensiona la superfície de captadors amb mètode f-chart.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Selecciona captadors, acumulador i components hidràulics.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Aplica normativa CTE HE4.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Elabora documentació tècnica del projecte.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Muntatge i manteniment",
+        "hores": 83,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta i manté instal·lacions solars tèrmiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Munta captadors solars amb estructures de suport.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Instal·la circuit hidràulic i acumulador.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Realitza posada en marxa i verificació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Executa manteniment preventiu i correctiu.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

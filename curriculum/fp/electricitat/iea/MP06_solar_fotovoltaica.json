@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "familia_professional": "Electricitat i Electrònica",
+    "grau": "mitja",
+    "rd_titol": "RD 177/2008",
+    "resolucio_cat": "Resolució ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07960-07985.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d'Instal·lacions Solars Fotovoltaiques prepara l'alumne de Grau Mitjà IEA per dissenyar, instal·lar i posar en marxa sistemes fotovoltaics aïllats i connectats a la xarxa en l'àmbit residencial i rural. Les competències s'apliquen en el perfil creixent d'instal·lador de sistemes d'autoconsum, gestió dels tràmits administratius davant la distribuïdora i en tasques de manteniment de parcs fotovoltaics petits.\n\nL'alumne treballa amb panells monocristal·lins, policristal·lins i de capa fina, interpretant la corba I-V i les condicions estàndard (STC). S'estudien els reguladors de càrrega MPPT i PWM, els inversors string, microinversors i híbrids, i els sistemes d'emmagatzematge (bateries de plom-àcid i liti, amb paràmetres de capacitat, profunditat de descàrrega DOD i cicles de vida). El dimensionament de sistemes aïllats es basa en l'inventari de càrregues, les hores de sol pic (HPS) i els dies d'autonomia requerits. Per a sistemes connectats a xarxa s'aplica el RD 244/2019, que regula l'autoconsum amb i sense excedents, i es gestionen els tràmits de connexió.\n\nLes pràctiques inclouen el muntatge de panells, connexió de reguladors i inversors, i verificació de la instal·lació amb el sistema de monitoratge. Al taller s'utilitzen multímetres i equips de mesura solar per comprovar la potència generada i la injecció a xarxa. La seguretat en treballs en coberta, la gestió del risc d'arc en corrent contínua i els EPI específics per a sistemes fotovoltaics estructuren la metodologia preventiva del mòdul."
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "Instal·lacions Solars Fotovoltaiques",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Sistemes fotovoltaics",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els components d’un sistema fotovoltaic i descriu el principi de funcionament de la conversió fotovoltaica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha descrit el principi de l’efecte fotovoltaic i la corba I-V d’una cèl·lula solar en condicions estàndard (STC).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat els tipus de panells fotovoltaics (monocristal·lí, policristal·lí, capa fina) i les seves característiques tècniques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han descrit les funcions del regulador de càrrega (MPPT, PWM) i el seu dimensionament bàsic.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han identificat els tipus d’inversors (string, microinversors, híbrids) i les seves característiques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han descrit els tipus de bateries d’emmagatzematge (plom-àcid, liti) i els seus paràmetres (capacitat, DOD, cicles de vida).",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Dissenya una instal·lació fotovoltaica aïllada de la xarxa per a una aplicació residencial o rural senzilla.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha calculat el consum energètic diari de la instal·lació a partir de l’inventari de càrregues.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha dimensionat el camp de panells en funció de la irradiació solar de la zona (HPS) i el consum calculat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha dimensionat la bateria d’emmagatzematge en funció dels dies d’autonomia requerits.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han seleccionat el regulador i l’inversor adequats i definit el cablejat i les proteccions del sistema.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Instal·la i posa en marxa sistemes fotovoltaics connectats a la xarxa aplicant la normativa RD 244/2019.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han descrit els requisits tècnics i administratius del RD 244/2019 per a instal·lacions d’autoconsum connectades a xarxa.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha dimensionat un sistema d’autoconsum connectat a xarxa (sense bateria) per a un habitatge o empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha realitzat el muntatge i la connexió dels panells, l’inversor de xarxa i les proteccions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha verificat el funcionament de la instal·lació amb el monitoratge de l’inversor i comprovat la injecció a xarxa.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA3.5",
+                "text": "S'han gestionat els tràmits d’autorització i connexió a xarxa davant de la companyia distribuïdora.",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

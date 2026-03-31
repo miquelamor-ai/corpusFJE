@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "mitja",
+    "rd_titol": "RD 1691/2007",
+    "resolucio_cat": "Resolució ENS/1891/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2007/12/24/pdfs/A52776-52804.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Sistemes Operatius en Xarxa forma el tècnic SMX en la gestió de serveis de xarxa corporativa, especialment l’administració de dominis Windows i servidors Linux en entorns de petita i mitjana empresa. Aquestes competències s’apliquen en rols de tècnic de xarxes, administrador de sistemes junior o responsable TIC en organitzacions amb infraestructura pròpia.\n\nEls continguts cobreixen Windows Server: instal·lació i configuració, Active Directory Domain Services (AD DS), creació i gestió d’usuaris, grups i unitats organitzatives, polítiques de grup (GPO) per a la gestió centralitzada d’escriptoris, DNS i DHCP integrats i carpetes compartides amb permisos NTFS i de xarxa. En l’àmbit Linux servidor, es treballa amb Samba per a la integració en entorns Windows (servidor de fitxers, membres de domini), NFS per a compartició en entorns Linux purs i administració remota amb SSH. S’introdueix la replicació de controladors de domini i la gestió de còpies de seguretat del directori actiu.\n\nEl mòdul es desenvolupa en un laboratori virtualitzat que reprodueix una xarxa corporativa de pimes. Els alumnes implanten un domini Windows des de zero, integren equips clients i servidors Linux i configuren els serveis de xarxa de forma progressiva. L’avaluació es basa en la demostració pràctica de la infraestructura funcionant."
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "Sistemes Operatius en Xarxa",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Windows Server: Active Directory i serveis de directori",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la i configura Windows Server per actuar com a controlador de domini en una xarxa d'empresa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha instal·lat Windows Server (2019/2022) en modalitat Server Core i amb experiència d'escriptori.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha promocionat el servidor a controlador de domini instal·lant el rol Active Directory Domain Services (AD DS).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han creat i organitzat unitats organitzatives (OU), usuaris i grups al domini.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han unit equips clients Windows al domini i verificat l'autenticació centralitzada.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han configurat els serveis DNS i DHCP integrats amb Active Directory.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica polítiques de grup (GPO) per gestionar i controlar la configuració dels equips i usuaris del domini.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han creat i vinculat GPO a unitats organitzatives per aplicar configuracions als usuaris i equips.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han configurat polítiques de restricció de programari, mapa de unitats de xarxa i escriptoris redirigits.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha verificat l'aplicació correcta de les GPO amb les eines gpresult i RSOP.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han configurat polítiques de contrasenya i bloqueig de comptes a nivell de domini.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Gestiona còpies de seguretat del servidor i l'accés remot als sistemes Windows Server.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han configurat tasques de còpia de seguretat del servidor amb Windows Server Backup.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha configurat l'accés remot al servidor mitjançant RDP (Remote Desktop Protocol) amb seguretat adequada.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han restaurat dades i la configuració del sistema des de còpies de seguretat existents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha monitoritzat l'estat del servidor amb el Monitor de rendiment i el Visor d'esdeveniments.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Linux servidor: Samba, NFS i administració remota",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la i configura un servidor Linux (Ubuntu Server/Debian) per prestar serveis en una xarxa local.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha instal·lat una distribució Linux en mode servidor (sense entorn gràfic) i realitzat la configuració inicial.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha configurat la xarxa amb adreça IP estàtica, màscara, passarel·la i DNS al servidor.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han gestionat serveis del sistema amb systemctl (inici, aturada, habilitació, comprovació d'estat).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han configurat regles de tallafoc amb ufw per permetre el tràfic dels serveis instal·lats.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura Samba i NFS per compartir recursos entre sistemes Linux i Windows en una xarxa mixta.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha instal·lat i configurat Samba per compartir carpetes accessibles des de clients Windows i Linux.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han creat usuaris Samba i configurat permisos d'accés als recursos compartits.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha configurat NFS per compartir sistemes de fitxers entre equips Linux de la xarxa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha configurat l'accés remot segur al servidor Linux via SSH (autenticació per clau pública).",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

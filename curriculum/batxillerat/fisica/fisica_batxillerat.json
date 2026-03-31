@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Física",
+    "codi_area": "FIS",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Fisica.pdf",
+    "nota_estructura": "Matèria de 1r i 2n de Batxillerat, modalitat Ciències.",
+    "versio_schema": "1.0",
+    "descripcio": "La Física de Batxillerat ofereix el marc teòric i matemàtic per comprendre el comportament del món natural, des del moviment dels cossos fins a la física nuclear. És una matèria imprescindible per accedir a estudis d'Enginyeria, Física, Arquitectura, Telecomunicacions i qualsevol àmbit on el raonament quantitatiu i la modelització siguin fonamentals.\n\nLa matèria recorre un ampli ventall de conceptes: cinemàtica i dinàmica newtoniana, lleis de conservació de l'energia i el moment, gravitació universal i astronomia, moviment harmònic simple i ones mecàniques, so i llum. L'electromagnetisme és un dels nuclis centrals, amb el tractament del camp elèctric i el magnètic, la inducció electromagnètica i la teoria ondulatòria de la llum. S'introdueix la física moderna a través de la teoria quàntica —efecte fotoelèctric, dualitat ona-corpuscle, principi d'incertesa— i de la relativitat especial. La física nuclear i les reaccions de fissió i fusió tanquen un currículum que combina formalisme matemàtic rigorós amb interpretació física dels fenòmens.\n\nLa metodologia de la Física de Batxillerat gira entorn de la resolució de problemes quantitatius, el disseny i la realització d'experiments de laboratori i l'ús de sensors i eines digitals per recollir i analitzar dades. L'alumne aprèn a identificar les condicions d'aplicabilitat d'un model, a estimar ordres de magnitud i a avaluar la incertesa experimental, cosa que consolida un pensament científic precís i transferible a altres disciplines."
+  },
+  "competencies_clau": [
+    "CCL",
+    "CP",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CC",
+    "CE",
+    "CCEC"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Analitzar el moviment dels cossos aplicant les lleis de la cinemàtica i la dinàmica newtoniana, resolent problemes en situacions reals i interpretant els resultats en termes de forces, energia i quantitat de moviment.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA1.1",
+            "text": "Descriure el moviment rectilini uniforme (MRU) i el moviment rectilini uniformement accelerat (MRUA), aplicant les equacions cinemàtiques per resoldre problemes de posició, velocitat i acceleració en una i dues dimensions."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Analitzar el moviment circular (MCU i MCUA), calculant les magnituds angulars i lineals, i identificar la força centrípeta com a causa del canvi de direcció."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Aplicar les lleis de Newton per resoldre situacions d'estàtica i de dinàmica (pla inclinat, polges, sistemes de cossos), identificant totes les forces que actuen sobre cada cos."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Aplicar els principis de conservació de l'energia mecànica i de la quantitat de moviment per resoldre problemes de col·lisions (elàstiques i inelàstiques) i de sistemes mecànics."
+          },
+          {
+            "codi": "CA1.5",
+            "text": "Analitzar situacions d'estàtica de sòlids rígids, calculant el moment de forces i les condicions d'equilibri traslacional i rotacional."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Interpretar el camp gravitatori com a interacció entre masses, aplicant la llei de gravitació universal per descriure el moviment orbital de planetes i satèl·lits i comprendre la naturalesa de la gravitació a escala astronòmica.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA2.1",
+            "text": "Aplicar la llei de gravitació universal per calcular la força gravitatòria entre masses, el camp gravitatori i el potencial gravitatori en un punt de l'espai."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Descriure les lleis de Kepler i demostrar la seva relació amb la llei de gravitació universal; calcular el període orbital i la velocitat de satèl·lits artificials."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Aplicar el principi de conservació de l'energia mecànica en problemes de moviment orbital, calculant la velocitat d'escapament i l'energia dels satèl·lits."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Analitzar els moviments vibratoris i ondulatoris, identificant les magnituds característiques de les ones mecàniques i electromagnètiques, i aplicant els principis de la superposició, la reflexió, la refracció i la difracció.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA3.1",
+            "text": "Descriure el moviment harmònic simple (MHS): equació del moviment, velocitat, acceleració, energia potencial elàstica i cinètica; analitzar el pèndol simple i el sistema massa-molla."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Identificar les magnituds característiques de les ones mecàniques (longitud d'ona, freqüència, amplitud, velocitat de propagació) i aplicar-les per resoldre problemes d'ones transversals i longitudinals."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Descriure els fenòmens de reflexió, refracció, difracció i interferència d'ones; aplicar el principi de Huygens i interpretar l'experiment de Young."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Explicar el fenomen de l'efecte Doppler i les seves aplicacions (radar, ecografia, astronomia); calcular la variació de freqüència en fonts en moviment."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Comprendre el camp elèctric i el magnètic com a manifestacions de la interacció electromagnètica, aplicant les lleis de Coulomb, Gauss, Ampère i Faraday per resoldre problemes i explicar el funcionament de dispositius tecnològics.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA4.1",
+            "text": "Calcular el camp elèctric i el potencial elèctric creat per distribucions de càrregues (càrrega puntual, dipol, plans infinits), aplicant el teorema de Gauss per a distribucions de simetria especial."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Analitzar el moviment d'una càrrega en un camp elèctric uniform i calcular la capacitat d'un condensador pla; relacionar l'energia emmagatzemada amb el camp elèctric."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Descriure el camp magnètic creat per corrents (fils, espires, solenoides) aplicant la llei de Biot-Savart i la llei d'Ampère; calcular la força sobre una càrrega en moviment (força de Lorentz)."
+          },
+          {
+            "codi": "CA4.4",
+            "text": "Aplicar la llei de Faraday-Lenz per calcular la fem induïda en circuits en moviment o en camps variables; comprendre el funcionament de generadors i transformadors."
+          },
+          {
+            "codi": "CA4.5",
+            "text": "Descriure les equacions de Maxwell de manera qualitativa i comprendre com predien l'existència de les ones electromagnètiques; identificar l'espectre electromagnètic i les seves aplicacions."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Aplicar els principis de l'òptica geomètrica i ondulatòria per explicar la formació d'imatges en miralls i lents, i comprendre els fenòmens de dispersió, interferència i difracció de la llum.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA5.1",
+            "text": "Aplicar les lleis de la reflexió i la refracció (Snell) per construir raigs de llum i determinar la posició i les característiques de les imatges en miralls plans i esfèrics."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Calcular la posició, mida i naturalesa de les imatges formades per lents convergents i divergents, aplicant la fórmula del fabricant de lents i l'equació de conjugació."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Explicar la dispersió de la llum (prismes, arc de Sant Martí), la interferència (làmines primes, interferòmetre de Michelson) i la difracció (xarxa de difracció), i calcular les posicions dels màxims i mínims."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE6",
+      "text": "Comprendre els fonaments de la física quàntica i la teoria de la relativitat especial, identificant les limitacions de la física clàssica i interpretant fenòmens com l'efecte fotoelèctric, la dualitat ona-corpuscle i la dilatació del temps.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA6.1",
+            "text": "Descriure el model atòmic de Bohr, calcular les longituds d'ona de les sèries espectrals de l'hidrogen i relacionar les transicions electròniques amb l'emissió i l'absorció de fotons."
+          },
+          {
+            "codi": "CA6.2",
+            "text": "Explicar l'efecte fotoelèctric, l'efecte Compton i la dualitat ona-corpuscle; aplicar el principi d'incertesa de Heisenberg i descriure la funció d'ona com a probabilitat."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Descriure els postulats de la relativitat especial, calcular la contracció de longituds, la dilatació del temps i l'equivalència massa-energia (E = mc²); interpretar paradoxes relativistes."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE7",
+      "text": "Analitzar la naturalesa del nucli atòmic, els processos de radioactivitat i les reaccions nuclears (fissió i fusió), valorant les aplicacions de l'energia nuclear i els riscos associats des d'una perspectiva científica i ètica.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA7.1",
+            "text": "Descriure l'estructura del nucli atòmic (protons, neutrons, nombre màssic, nombre atòmic), la força nuclear forta i les causes de l'estabilitat nuclear."
+          },
+          {
+            "codi": "CA7.2",
+            "text": "Explicar els tipus de radioactivitat (alfa, beta i gamma), escriure equacions de desintegració nuclear i calcular l'activitat, la vida mitjana i la llei de desintegració radioactiva."
+          },
+          {
+            "codi": "CA7.3",
+            "text": "Analitzar les reaccions de fissió i fusió nuclear, calculant l'energia alliberada a partir del defecte de massa; avaluar les aplicacions (reactor nuclear, bomba atòmica, fusió nuclear) i els riscos socials i mediambientals."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r": {
+      "cinematica_i_dinamica": [
+        "El sistema de referència i les magnituds vectorials: posició, desplaçament, velocitat i acceleració.",
+        "El moviment rectilini uniforme (MRU): equació de la posició; representació gràfica x-t i v-t.",
+        "El moviment rectilini uniformement accelerat (MRUA): equacions cinemàtiques i càlcul de distàncies i temps.",
+        "El moviment de caiguda lliure i el llançament vertical: efecte de la gravetat i velocitat terminal.",
+        "El moviment parabòlic: composició del moviment horitzontal (MRU) i vertical (MRUA); abast i altura màxima.",
+        "El moviment circular uniforme (MCU): velocitat angular, velocitat lineal, acceleració centrípeta i període.",
+        "El moviment circular uniformement accelerat (MCUA): acceleració angular, equació angular i relació amb magnituds lineals.",
+        "La primera llei de Newton (inèrcia) i els sistemes de referència inercials.",
+        "La segona llei de Newton: F = ma; aplicació a sistemes de múltiples cossos i plans inclinats.",
+        "La tercera llei de Newton: forces d'acció i reacció; exemples en la vida quotidiana.",
+        "Les forces de fregament estàtic i cinètic: coeficient de fregament i aplicacions.",
+        "El treball i la potència: càlcul del treball d'una força constant i variable; eficiència de màquines.",
+        "L'energia cinètica i el teorema treball-energia.",
+        "L'energia potencial gravitatòria i elàstica; el principi de conservació de l'energia mecànica.",
+        "La quantitat de moviment (moment lineal) i el principi de conservació; impuls i col·lisions elàstiques i inelàstiques.",
+        "El moment d'inèrcia i el moment angular; condicions d'equilibri de sòlids rígids.",
+        "La gravetat i el pes: distinció entre massa i pes; variació de g amb l'altitud."
+      ],
+      "camp_gravitatori": [
+        "La llei de gravitació universal de Newton: constant G, forces entre masses i superposició.",
+        "El camp gravitatori g: definició com a força per unitat de massa; camp creat per una massa puntual i per la Terra.",
+        "El potencial gravitatori V: definició, càlcul i relació amb l'energia potencial gravitatòria.",
+        "Les superfícies equipotencials i la relació entre camp i potencial (gradient).",
+        "Les lleis de Kepler: llei de les òrbites (el·líptica), llei de les àrees (areal) i llei dels períodes (T² ∝ r³).",
+        "La demostració de la tercera llei de Kepler a partir de la llei de gravitació universal per a òrbites circulars.",
+        "El moviment orbital de satèl·lits artificials: velocitat orbital, període i altitud.",
+        "La velocitat d'escapament: derivació a partir de la conservació de l'energia.",
+        "L'energia mecànica d'un satèl·lit en òrbita circular: energia cinètica, potencial i total.",
+        "Les pertorbacions orbitals i les maniobres de canvi d'òrbita (Hohmann); l'astronàutica bàsica.",
+        "Aplicacions pràctiques: GPS, satèl·lits meteorològics, telescopi espacial Hubble."
+      ],
+      "vibracions_i_ones": [
+        "El moviment harmònic simple (MHS): característiques, equació de posició x(t) = A·cos(ωt + φ).",
+        "Velocitat i acceleració en el MHS: expressions i representació gràfica.",
+        "L'energia en el MHS: energia cinètica, potencial elàstica i total; conservació de l'energia.",
+        "El pèndol simple: equació del moviment per a petites oscil·lacions, expressió del període.",
+        "El sistema massa-molla: constant elàstica, posició d'equilibri i període.",
+        "Les ones mecàniques: transversals i longitudinals; propietats (longitud d'ona, freqüència, amplitud, velocitat, fase).",
+        "L'equació d'ona i la relació entre velocitat, freqüència i longitud d'ona (v = λ·f).",
+        "La intensitat i l'atenuació de les ones; decibels i escala logarítmica de so.",
+        "La reflexió i la transmissió d'ones en una interfície; la superposició i la interferència (constructiva i destructiva).",
+        "Les ones estacionàries: formació, nodes i ventres; harmònics en cordes i columnes d'aire.",
+        "El fenomen de la ressonància i les seves aplicacions (instruments musicals, edificis).",
+        "La difracció d'ones mecàniques: condicions i exemples.",
+        "L'efecte Doppler: fórmula per a fonts i observadors en moviment; aplicacions (astronomia, radar).",
+        "Les ones electromagnètiques: naturalesa transversal, velocitat de la llum, relació E i B; espectre electromagnètic.",
+        "La polarització de la llum: llei de Malus i aplicacions (ulleres de sol, pantalles LCD)."
+      ]
+    },
+    "2n": {
+      "camp_electric_i_magnetic": [
+        "La càrrega elèctrica: propietats, quantització i conservació; conductors i aïllants.",
+        "La llei de Coulomb: expressió vectorial, constant k i comparació amb la llei de gravitació universal.",
+        "El camp elèctric E: definició, superposició de camps i línies de força.",
+        "El teorema de Gauss: flux elèctric i aplicació per calcular E en distribucions simètriques (esfera, cilindre, pla infinit).",
+        "El potencial elèctric V: definició, càlcul per a càrregues puntuals i relació amb E (gradient).",
+        "L'energia potencial elèctrica i l'energia del sistema de càrregues.",
+        "Els conductors en equilibri electrostàtic: distribució de càrregues, camp nul a l'interior, gàbia de Faraday.",
+        "El condensador: capacitat, condensador pla (C = ε₀A/d), energia emmagatzemada, dielèctrics.",
+        "El corrent elèctric: intensitat, densitat de corrent, llei d'Ohm i resistivitat.",
+        "El camp magnètic B: definició, línies de camp i propietats; fonts de camp magnètic.",
+        "La força de Lorentz: sobre una càrrega en moviment i sobre un conductor recte.",
+        "La llei de Biot-Savart: camp creat per un fil rectilini, espira circular i solenoide.",
+        "La llei d'Ampère: càlcul de B en conductors de simetria especial.",
+        "La inducció electromagnètica: llei de Faraday, força electromotriu induïda i llei de Lenz.",
+        "L'autoinducció i la inductància: energia emmagatzemada en un camp magnètic.",
+        "El corrent altern: generació (alternador), valors eficaços, circuits RL, RC i RLC; ressonància.",
+        "El transformador: principi de funcionament, ràtio de tensions i transport d'energia elèctrica."
+      ],
+      "optica": [
+        "La naturalesa de la llum: model corpuscular (Newton), model ondulatori (Huygens) i model quàntic (fotons).",
+        "La reflexió: llei de la reflexió; miralls plans (formació d'imatges, imatge virtual).",
+        "Els miralls esfèrics (còncaus i convexos): centre de curvatura, focus, equació de miralls i augment.",
+        "La refracció: llei de Snell; índex de refracció i velocitat de la llum en el medi.",
+        "La reflexió total interna i l'angle crític; aplicació a les fibres òptiques.",
+        "Les lents primes (convergents i divergents): focus, distància focal, equació de les lents i augment lateral.",
+        "Sistemes òptics: l'ull humà (defectes i correccions), lupa, microscopi i telescopi.",
+        "La dispersió de la llum: descomposició per un prisma, arc de Sant Martí i aberracions cromàtiques.",
+        "La interferència de la llum: experiment de Young, condicions de màxims i mínims, aplicació a làmines primes.",
+        "La difracció de la llum: xarxa de difracció, equació de la xarxa i resolució d'espectres.",
+        "La polarització: llum polaritzada linealment, llei de Malus, polaritzadors i analitzadors; birrefringència."
+      ],
+      "fisica_moderna": [
+        "La crisi de la física clàssica a finals del segle XIX: radiació del cos negre, efecte fotoelèctric, espectres atòmics.",
+        "La hipòtesi de Planck: la quantització de l'energia; la constant de Planck h.",
+        "L'efecte fotoelèctric: explicació d'Einstein, energia cinètica dels fotoelectrons, funció de treball i freqüència llindar.",
+        "L'efecte Compton: dispersió de fotons per electrons i canvi de longitud d'ona.",
+        "La dualitat ona-corpuscle: la longitud d'ona de de Broglie (λ = h/p); difracció d'electrons.",
+        "El principi d'incertesa de Heisenberg: relació entre Δx i Δp; implicacions conceptuals.",
+        "El model atòmic de Bohr: postulats, quantització del moment angular, nivells d'energia de l'hidrogen i espectres.",
+        "La mecànica quàntica: funció d'ona i densitat de probabilitat; equació de Schrödinger (descripció qualitativa).",
+        "Els postulats de la relativitat especial d'Einstein: constància de c i equival·lència de lleis físiques en tot inercial.",
+        "La cinemàtica relativista: dilatació del temps (Δt' = γΔt) i contracció de longituds (L' = L/γ); factor de Lorentz γ.",
+        "L'equivalència massa-energia: E = mc²; l'energia en repòs i l'energia cinètica relativista.",
+        "Aplicacions de la relativitat: GPS, acceleradors de partícules, vida de muons."
+      ],
+      "fisica_nuclear": [
+        "L'estructura del nucli atòmic: protons, neutrons, nombre atòmic Z, nombre màssic A, isòtops.",
+        "Les forces nuclears: la força nuclear forta, el seu abast i la seva intensitat en comparació amb l'electrostàtica.",
+        "L'energia d'enllaç nuclear: defecte de massa, corba d'energia d'enllaç per nucleó i estabilitat nuclear.",
+        "La radioactivitat natural: partícules alfa (α), beta (β⁻ i β⁺) i radiació gamma (γ); penetrabilitat i ionització.",
+        "La llei de desintegració radioactiva: N(t) = N₀·e^(−λt); constant de desintegració, vida mitjana i període de semidesintegració.",
+        "L'activitat radioactiva: la becquerel i el curie; càlcul de l'activitat d'una mostra.",
+        "La datació radiomètrica: mètode del carboni-14 i d'altres isòtops; aplicació en arqueologia i geologia.",
+        "Les reaccions nuclears: conservació del nombre de nucleons i de la càrrega; balanç energètic (Q).",
+        "La fissió nuclear: reacció en cadena, massa crítica; funcionament d'un reactor nuclear de fissió.",
+        "La fusió nuclear: condicions de temperatura i pressió; la fusió en les estrelles; la investigació en fusió (ITER).",
+        "Les centrals nuclears: fonts d'energia, cicle del combustible nuclear, residus radioactius i riscos.",
+        "Les aplicacions de la radioactivitat: medicina nuclear (PET, gammagrafia, radioteràpia), indústria i arqueologia.",
+        "La protecció radiològica: dosi absorbida (gray), dosi equivalent (sievert), factors de ponderació i mesures de seguretat.",
+        "Les partícules elementals: el model estàndard; quarks, leptons i bosons; el bosó de Higgs."
+      ]
+    }
+  },
+  "blocs_sabers": [
+    "cinematica_i_dinamica",
+    "camp_gravitatori",
+    "vibracions_i_ones",
+    "camp_electric_i_magnetic",
+    "optica",
+    "fisica_moderna",
+    "fisica_nuclear"
+  ]
+}

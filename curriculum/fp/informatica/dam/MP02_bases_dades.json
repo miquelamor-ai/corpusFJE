@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 450/2010",
+    "resolucio_cat": "Resolució ENS/2518/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/04/20/pdfs/BOE-A-2010-6154.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Bases de Dades forma els futurs programadors DAM en el disseny, implementació i explotació de sistemes de base de dades que sustenten les aplicacions multiplataforma. Desenvolupa competències en modelatge de dades, escriptura de consultes avançades i integració d’informació entre fonts heterogènies. S’aplica directament en rols de programador backend, analista de dades i dissenyador de sistemes d’informació empresarials.\n\nEls continguts inclouen el model entitat-relació, normalització fins a tercera forma normal, DDL i DML de SQL estàndard, subconsultes, joins, funcions d’agregació, procediments emmagatzemats, disparadors (triggers) i vistes en gestors com MySQL/MariaDB, PostgreSQL i Oracle. Es treballen també bases de dades NoSQL orientades a documents (MongoDB) i clau-valor, conversió de models relacionals a objecte-relacional, control de transaccions amb ACID, gestió de concurrència i còpies de seguretat amb mysqldump i pg_dump.\n\nEl mòdul combina pràctiques en entorns de servidor local (XAMPP, Docker amb PostgreSQL) i pràctiques de simulació empresarial on l’alumnat dissenya i implementa la base de dades d’un projecte real. Es treballa per fases —disseny, implementació, consultes, optimització— i s’introdueix la revisió entre iguals dels dissenys com a tècnica de qualitat professional. Les pràctiques inclouen also la tuning de consultes amb EXPLAIN i la creació d’índexs per millorar el rendiment en escenaris amb dades de producció."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Bases de Dades",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Model relacional i SQL",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els elements del model entitat-relació i el model relacional, dissenyant esquemes de bases de dades adequats als requeriments d'una aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat les entitats, atributs i relacions d'un sistema d'informació, representant-los amb diagrames ER.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha transformat un diagrama entitat-relació en un esquema relacional aplicant les regles de transformació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han aplicat les formes normals (1FN, 2FN, 3FN) per garantir la qualitat i la coherència del disseny de la base de dades.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han definit claus primàries, claus foranes i restriccions d'integritat en l'esquema relacional.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha documentat el disseny de la base de dades amb diccionari de dades i justificació de les decisions preses.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza consultes sobre una o diverses taules d'una base de dades relacional, utilitzant SQL per obtenir, filtrar, ordenar i agregar informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han construït consultes SELECT amb clàusules WHERE, ORDER BY i LIMIT per recuperar dades específiques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han realitzat consultes multitaula amb JOIN (INNER, LEFT, RIGHT, FULL OUTER) per combinar informació de diverses taules.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han utilitzat funcions d'agregació (COUNT, SUM, AVG, MAX, MIN) amb GROUP BY i HAVING per obtenir estadístiques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han creat subconsultes i consultes niuades per resoldre requeriments complexos d'informació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'han optimitzat consultes SQL analitzant plans d'execució i creant índexs adequats.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Modifica les dades emmagatzemades en una base de dades relacional, garantint la integritat i la consistència amb operacions DML i control de transaccions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han inserit, actualitzat i eliminat registres amb sentències INSERT, UPDATE i DELETE, verificant l'efecte de les restriccions d'integritat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha gestionat el control de transaccions (BEGIN, COMMIT, ROLLBACK) per garantir l'atomicitat i la consistència de les operacions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han creat i executat procediments emmagatzemats i funcions SQL per encapsular lògica de negoci a la base de dades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han implementat disparadors (triggers) per automatitzar accions sobre les dades en resposta a events de la base de dades.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Bases de dades distribuïdes i alternatives",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Utilitza sistemes gestors de bases de dades no relacionals (NoSQL), identificant els seus tipus, característiques i casos d'ús adequats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han diferenciat els principals tipus de bases de dades NoSQL (documental, clau-valor, columnar, grafs) i els seus casos d'ús.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han realitzat operacions CRUD sobre una base de dades documental (MongoDB) amb el seu llenguatge de consulta natiu.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han comparat les característiques ACID i BASE i s'ha avaluat el teorema CAP en l'elecció d'un sistema de base de dades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha seleccionat el tipus de base de dades (relacional o NoSQL) adequat per a un requeriment d'aplicació, justificant la decisió.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra bases de dades en entorns de producció, aplicant mesures de seguretat, còpies de seguretat i optimització del rendiment.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han creat usuaris de base de dades amb els permisos mínims necessaris per a cada aplicació o component del sistema.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han realitzat còpies de seguretat lògiques i físiques de bases de dades, verificant la integritat de les dades exportades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha restaurat una base de dades a partir d'una còpia de seguretat en un entorn de proves, verificant la integritat de les dades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han identificat i resolt problemes de rendiment de la base de dades analitzant logs, consultes lentes i estadístiques del sistema gestor.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

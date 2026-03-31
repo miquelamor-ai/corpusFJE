@@ -1,0 +1,620 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "rd_titol": "RD 1629/2009, de 30 d'octubre",
+    "resolucio_cat": "Resolució ENS/1787/2010, de 26 de maig",
+    "font": "https://www.boe.es/eli/es/rd/2009/10/30/1629",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d’Administració de Sistemes Operatius en Xarxa capacita el tècnic per gestionar infraestructures de xarxa heterogènies basades en Windows Server i GNU/Linux, amb especial atenció als serveis de directori. Aquestes competències s’apliquen en el rol d’administrador de sistemes en organitzacions amb entorns corporatius de mida mitjana o gran.\n\nEls continguts abracen l’Active Directory de Windows Server: instal·lació i promoció de controladors de domini, gestió d’objectes (usuaris, grups, unitats organitzatives), polítiques de grup (GPO) per a gestió centralitzada d’escriptoris i seguretat, DHCP i DNS integrats i relacions de confiança entre dominis. En el món Linux, es treballa OpenLDAP com a servei de directori, Kerberos per a autenticació, Samba per a integració amb entorns Windows, NFS per a compartició de fitxers i administració remota amb SSH i Ansible. S’estudia la integració de sistemes Linux en dominis Active Directory amb realmd i sssd.\n\nEl mòdul es desenvolupa en un laboratori virtualitzat que replica una xarxa corporativa real amb controladors de domini Windows i Linux simultànis. Els alumnes gestionen l’entorn de forma progressiva, partint d’una instal·lació verge fins a aconseguir una infraestructura funcional amb autenticació centralitzada, polítiques aplicades i serveis de fitxers operatius."
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "Administració de sistemes operatius en xarxa",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Serveis de directori",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta serveis de directori interpretant les especificacions tècniques i integrant el servei en la infraestructura de xarxa existent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'han descrit les característiques, components i funcions d'un servei de directori (LDAP, X.500) i la seva utilitat en entorns corporatius.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat el servei Active Directory Domain Services (AD DS) en Windows Server, definint el nom de domini i la zona DNS associada.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'ha configurat el servidor DNS integrat amb Active Directory per a la resolució de noms al domini.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha instal·lat i configurat un servidor LDAP en GNU/Linux (OpenLDAP), definint l'esquema de directori i les unitats organitzatives bàsiques.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'han creat i gestionat objectes del directori (usuaris, grups, equips, unitats organitzatives) des de la consola gràfica i des de la línia d'ordres.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'ha verificat la correcta integració del servei de directori amb la xarxa comprovant la resolució de noms i l'autenticació d'usuaris.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Fonaments dels serveis de directori",
+                "items": [
+                  "Protocol LDAP: estructura, operacions bàsiques (bind, search, add, modify, delete)",
+                  "Estàndard X.500: origen i relació amb LDAP",
+                  "Model de dades LDAP: DIT (Directory Information Tree), entrades, atributs, esquemes",
+                  "Casos d'ús: autenticació centralitzada, directori corporatiu, control d'accés"
+                ]
+              },
+              {
+                "bloc": "Active Directory Domain Services (AD DS)",
+                "items": [
+                  "Conceptes: domini, arbre, bosc, relacions de confiança",
+                  "Instal·lació del rol AD DS i promoció del servidor a controlador de domini",
+                  "Integració de DNS amb Active Directory: zones integrades en el directori",
+                  "Eines d'administració: Active Directory Users and Computers, ADAC, PowerShell (AD Module)"
+                ]
+              },
+              {
+                "bloc": "OpenLDAP en GNU/Linux",
+                "items": [
+                  "Instal·lació i configuració bàsica de slapd (OpenLDAP)",
+                  "Fitxers de configuració: slapd.conf i directori /etc/ldap",
+                  "Definició d'esquemes i objectClass: inetOrgPerson, posixAccount, groupOfNames",
+                  "Gestió amb eines de línia d'ordres: ldapadd, ldapmodify, ldapsearch, ldapdelete",
+                  "Importació i exportació de dades en format LDIF"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona usuaris i grups en un servei de directori aplicant polítiques de seguretat i control d'accés als recursos de xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'han creat, modificat i eliminat comptes d'usuari i grups en Active Directory, assignant atributs i configurant restriccions d'inici de sessió.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'han configurat les polítiques de contrasenya (longitud mínima, complexitat, caducitat, bloqueig) a nivell de domini i de grups específics (Fine-Grained Password Policies).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'han organitzat els objectes del directori en Unitats Organitzatives (OU) aplicant una estructura lògica que facilita la delegació administrativa.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha configurat la delegació de control sobre OU específiques per permetre l'administració distribuïda sense atorgar privilegis de domini complets.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'han gestionat perfils d'usuari mòbils (roaming profiles) i carpetes redirigides per garantir la disponibilitat de les dades de l'usuari en qualsevol equip del domini.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2f",
+                "text": "S'han documentat les estructures d'usuaris, grups i OU creades, justificant les decisions de disseny preses.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió d'usuaris i grups a Active Directory",
+                "items": [
+                  "Tipus de grups: seguretat vs. distribució; àmbit: local de domini, global, universal",
+                  "Estratègia AGDLP (Accounts → Global → Domain Local → Permissions)",
+                  "Plantilles d'usuari: creació i còpia per agilitzar la provisió de comptes",
+                  "Gestió massiva: importació d'usuaris amb CSV i PowerShell (New-ADUser)"
+                ]
+              },
+              {
+                "bloc": "Polítiques de comptes i seguretat",
+                "items": [
+                  "Default Domain Policy: configuració de polítiques de contrasenya i bloqueig de comptes",
+                  "Fine-Grained Password Policies (PSO): aplicació a grups i usuaris específics",
+                  "Auditoria d'inici de sessió i d'accés a objectes del directori",
+                  "Comptes de servei gestionats (MSA i gMSA)"
+                ]
+              },
+              {
+                "bloc": "Estructura organitzativa i delegació",
+                "items": [
+                  "Disseny d'una estructura d'OU: criteris geogràfics, departamentals o funcionals",
+                  "Delegació de control amb l'assistent i via ACL al directori",
+                  "Perfils mòbils i redirecció de carpetes: configuració i problemàtiques habituals",
+                  "Carpetes base (Home Folders): assignació i permisos"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica directrius de grup (GPO) per automatitzar la configuració d'entorns d'usuari i equip en un domini de directori actiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'ha descrit el funcionament de les directrius de grup (GPO) i la jerarquia d'aplicació (LSDOU: local, lloc, domini, OU).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'han creat i vinculat GPO a dominis, llocs i unitats organitzatives per aplicar configuracions a usuaris i equips del domini.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'han configurat GPO per gestionar la configuració del sistema (escriptori, programes d'inici, mapeig de unitats de xarxa, impressores).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'han aplicat GPO de seguretat per restringir l'accés als panells de control, dispositius extraïbles i instal·lació de programari no autoritzat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'ha comprovat l'aplicació correcta de les GPO mitjançant les eines gpresult, gpupdate i el modelat de directrius (Group Policy Modeling).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3f",
+                "text": "S'han diagnosticat i resolt problemes d'aplicació de GPO analitzant el registre d'esdeveniments i els informes de resultant de directrius (RSOP).",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Fonaments de les GPO",
+                "items": [
+                  "Estructura d'una GPO: Computer Configuration vs. User Configuration",
+                  "Jerarquia d'herència i prioritat LSDOU; bloqueig d'herència i aplicació forçada (Enforced)",
+                  "Filtratge de seguretat i filtratge WMI de les GPO",
+                  "Consola GPMC (Group Policy Management Console): creació, edició i vinculació de GPO"
+                ]
+              },
+              {
+                "bloc": "Configuracions habituals via GPO",
+                "items": [
+                  "Configuració de l'entorn d'usuari: escriptori, protector de pantalla, fons de pantalla corporatiu",
+                  "Mapeig d'unitats de xarxa i configuració d'impressores per grup o OU",
+                  "Desplegament de programari (MSI) via GPO: assignació i publicació",
+                  "Scripts d'inici/tancament de sessió i d'arrencada/apagada"
+                ]
+              },
+              {
+                "bloc": "Verificació i resolució de problemes",
+                "items": [
+                  "gpupdate /force: forçar la replicació i aplicació de directrius",
+                  "gpresult /r i gpresult /h: informes de directrius resultants",
+                  "RSOP (Resultant Set of Policy): modelat i registre",
+                  "Registre d'esdeveniments: Event Viewer, filtratge per origen GroupPolicy"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Administració de xarxes Windows",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra el servei de resolució de noms DNS en entorns Windows Server, configurant zones, registres i la integració amb Active Directory.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'ha descrit el funcionament del protocol DNS: jerarquia de noms, zones, tipus de registres (A, AAAA, CNAME, MX, NS, PTR, SRV, TXT) i resolució recursiva vs. iterativa.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat el rol DNS en Windows Server, creant zones primàries, secundàries i d'estub per a la resolució de noms interns.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han creat i gestionat registres DNS de forma manual i dinàmica (DDNS) per a equips del domini.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'han configurat zones de resolució inversa (reverse lookup zones) per a la resolució de noms a partir d'adreces IP.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha verificat el funcionament del servei DNS amb les eines nslookup, Resolve-DnsName (PowerShell) i l'analitzador d'esdeveniments DNS.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han diagnosticat problemes de resolució de noms analitzant els registres del servidor DNS i els arxius de traces (debug logging).",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Protocol DNS: conceptes bàsics",
+                "items": [
+                  "Espai de noms DNS: estructura jeràrquica, dominis arrel, TLD, dominis de segon nivell",
+                  "Tipus de servidors DNS: autoritat, recursiu, caché (forwarder)",
+                  "Procés de resolució: resolució recursiva, iterativa i en caché",
+                  "Registres de recurs (RR): A, AAAA, CNAME, MX, NS, PTR, SRV, TXT, SOA"
+                ]
+              },
+              {
+                "bloc": "Servei DNS en Windows Server",
+                "items": [
+                  "Instal·lació del rol DNS i integració amb AD DS (zones integrades en el directori)",
+                  "Creació i gestió de zones primàries, secundàries, stub i zones de delegació",
+                  "Actualitzacions dinàmiques (DDNS): segures i no segures",
+                  "Reenviadors (Forwarders) i reenviadors condicionals (Conditional Forwarders)"
+                ]
+              },
+              {
+                "bloc": "Diagnòstic i resolució de problemes DNS",
+                "items": [
+                  "nslookup: consultes interactives i de script",
+                  "Resolve-DnsName i Clear-DnsClientCache (PowerShell)",
+                  "Habilitació del registre de depuració (debug logging) al servidor DNS",
+                  "Problemes habituals: registres obsolets, conflictes de zona, errors de replicació"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura i gestiona el servei DHCP en entorns Windows Server, assegurant l'assignació dinàmica i estàtica d'adreces IP als equips de la xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'ha descrit el funcionament del protocol DHCP i el procés DORA (Discover, Offer, Request, Acknowledge) d'assignació d'adreces.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'ha instal·lat i configurat el rol DHCP en Windows Server, creant àmbits (scopes) amb rang d'adreces, màscara de subxarxa, durada del préstec i opcions de servidor.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'han configurat exclusions i reserves d'adreces per garantir que dispositius específics reben sempre la mateixa adreça IP.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha configurat la alta disponibilitat del servei DHCP mitjançant la funcionalitat DHCP Failover (balanceig de càrrega o reserva activa-passiva).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'ha verificat el correcte funcionament del servei DHCP analitzant el log del servidor i comprovant l'assignació d'adreces als clients.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Protocol DHCP",
+                "items": [
+                  "Procés DORA: Discover, Offer, Request, Acknowledge",
+                  "Opcions DHCP: opció 3 (gateway), opció 6 (DNS), opció 15 (nom de domini), opció 51 (temps de préstec)",
+                  "Renovació i alliberament del préstec d'adreça (lease)",
+                  "Relay Agent DHCP: funcionament en xarxes amb múltiples subxarxes"
+                ]
+              },
+              {
+                "bloc": "Servei DHCP en Windows Server",
+                "items": [
+                  "Instal·lació i autorització del servidor DHCP al domini",
+                  "Creació d'àmbits (scopes), superàmbits i àmbits multicast",
+                  "Configuració d'exclusions i reserves per adreça MAC",
+                  "Opcions d'àmbit i opcions de servidor: prioritat d'aplicació"
+                ]
+              },
+              {
+                "bloc": "Alta disponibilitat i monitorització",
+                "items": [
+                  "DHCP Failover: modes Load Balance i Hot Standby",
+                  "Registres DHCP: ubicació, interpretació i rotació",
+                  "Integració DHCP-DNS: actualització dinàmica de registres DNS",
+                  "Eines de diagnòstic: ipconfig /all, Get-DhcpServerv4Lease (PowerShell)"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Administra l'accés remot i les connexions VPN en entorns Windows Server, configurant protocols d'autenticació i xifrat per garantir comunicacions segures.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'han identificat els protocols i tecnologies d'accés remot (RDP, VPN, DirectAccess/Always On VPN) i els seus casos d'ús en entorns corporatius.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'ha configurat el servei Remote Desktop Services (RDS) en Windows Server per permetre l'accés remot a escriptoris i aplicacions publicades.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'ha instal·lat i configurat el rol RRAS (Routing and Remote Access Service) per implementar una solució VPN amb protocols PPTP, L2TP/IPsec o SSTP.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'ha configurat el servidor NPS (Network Policy Server) com a servidor RADIUS per centralitzar l'autenticació dels usuaris d'accés remot.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'han configurat polítiques de xarxa (Network Policies) en NPS per autoritzar l'accés remot en funció del grup de l'usuari, el mètode d'autenticació i les condicions de connexió.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3f",
+                "text": "S'ha verificat la seguretat de les connexions remotes comprovant el xifrat, els certificats i els registres d'autenticació.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Accés remot en Windows Server",
+                "items": [
+                  "Protocols d'accés remot: RDP (Remote Desktop Protocol), SSH per a Windows (OpenSSH)",
+                  "Remote Desktop Services: components (RD Session Host, RD Gateway, RD Web Access)",
+                  "Configuració de permisos d'accés remot i restriccions per GPO",
+                  "Certificats per a RDP: configuració i confiança"
+                ]
+              },
+              {
+                "bloc": "Solucions VPN amb RRAS",
+                "items": [
+                  "Protocols VPN: PPTP, L2TP/IPsec, SSTP, IKEv2; comparativa de seguretat",
+                  "Configuració de RRAS com a servidor VPN: adreces del pool de clients, autenticació",
+                  "Túnels VPN site-to-site amb RRAS",
+                  "Ports de tallafoc necessaris per a cada protocol VPN"
+                ]
+              },
+              {
+                "bloc": "Autenticació centralitzada amb NPS (RADIUS)",
+                "items": [
+                  "Protocol RADIUS: funcionament, atributs i missatges",
+                  "Instal·lació i configuració del rol NPS en Windows Server",
+                  "Polítiques de sol·licitud de connexió i polítiques de xarxa",
+                  "Integració NPS-Active Directory per a l'autenticació d'usuaris de domini"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Administració de xarxes Linux",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura i administra serveis de xarxa en sistemes GNU/Linux, implementant resolució de noms, assignació d'adreces i accés remot segur.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'ha configurat el servidor DNS BIND9 en GNU/Linux, definint zones de resolució directa i inversa per als dominis gestionats.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat el servidor DHCP ISC-DHCP o Kea en GNU/Linux, creant subxarxes, reserves i opcions de servidor.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'ha configurat el servei SSH per a l'accés remot segur, desactivant l'autenticació per contrasenya i habilitant l'autenticació per clau pública/privada.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'han configurat túnels SSH (port forwarding local, remot i dinàmic) per a redirecció segura de ports i serveis.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha implementat una solució VPN amb OpenVPN o WireGuard en GNU/Linux, configurant servidor i client per a accés remot segur.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han verificat i diagnosticat els serveis de xarxa configurats utilitzant les eines ss, netstat, dig, tcpdump i journalctl.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Servidor DNS amb BIND9",
+                "items": [
+                  "Instal·lació i estructura de configuració: named.conf, named.conf.options, named.conf.local",
+                  "Definició de zones primàries i secundàries: fitxers de zona, registres SOA i NS",
+                  "Zones de resolució inversa (in-addr.arpa)",
+                  "Proves i verificació: named-checkconf, named-checkzone, dig, nslookup"
+                ]
+              },
+              {
+                "bloc": "Servidor DHCP en GNU/Linux",
+                "items": [
+                  "Instal·lació i configuració d'ISC-DHCP-Server o Kea",
+                  "Definició de subxarxes, rangs, reserves per adreça MAC i opcions globals",
+                  "Fitxers de log i taula de préstecs actius (dhcpd.leases)",
+                  "Configuració del Relay Agent en entorns amb múltiples VLAN"
+                ]
+              },
+              {
+                "bloc": "Accés remot segur: SSH i VPN",
+                "items": [
+                  "Configuració avançada d'OpenSSH: sshd_config, autenticació per clau, fail2ban",
+                  "Generació i gestió de parells de claus: ssh-keygen, ssh-copy-id, authorized_keys",
+                  "Port forwarding SSH: -L (local), -R (remot), -D (dinàmic/SOCKS)",
+                  "OpenVPN: instal·lació, PKI amb Easy-RSA, configuració de servidor i client",
+                  "WireGuard: configuració simplificada, generació de claus, fitxer wg0.conf"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Integra sistemes GNU/Linux en entorns de directori actiu Windows, configurant l'autenticació centralitzada i l'accés als recursos compartits.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'ha unit un sistema GNU/Linux a un domini Active Directory mitjançant les eines SSSD i Realm (realmd), configurant l'autenticació Kerberos.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'ha configurat l'inici de sessió en GNU/Linux amb credencials de domini Active Directory, comprovant la resolució d'usuaris i grups del directori.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'ha configurat el servei Samba en GNU/Linux per compartir recursos (carpetes i impressores) i accedir-hi des de clients Windows i Linux.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha configurat el client NFS en GNU/Linux per muntar sistemes de fitxers remots compartits per servidors NFS, gestionant permisos i opcions de muntatge.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'han configurat i gestionat permisos de compartició (SMB/NFS) i permisos del sistema de fitxers (ACL POSIX i ACL NFSv4), assegurant el control d'accés adequat.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració Linux-Active Directory",
+                "items": [
+                  "Protocol Kerberos: conceptes bàsics, tiquets i autenticació",
+                  "Eines d'integració: realmd, SSSD, winbind; comparativa",
+                  "Unió al domini: realm join, configuració de /etc/sssd/sssd.conf",
+                  "Inici de sessió amb comptes de domini: pam_sss, nss"
+                ]
+              },
+              {
+                "bloc": "Compartició de recursos amb Samba",
+                "items": [
+                  "Instal·lació i configuració de Samba: smb.conf, seccions [global], [homes], [printers]",
+                  "Compartició de carpetes: permisos SMB i permisos POSIX, mapeig d'usuaris",
+                  "Samba com a membre del domini Active Directory (mode 'member server')",
+                  "Accés des de clients Windows (Explorador) i Linux (smbclient, mount.cifs)"
+                ]
+              },
+              {
+                "bloc": "NFS: sistema de fitxers en xarxa",
+                "items": [
+                  "Protocol NFS v3 vs. NFSv4: autenticació, rendiment, ACL",
+                  "Configuració del servidor NFS: /etc/exports, opcions (rw, ro, no_root_squash, sync)",
+                  "Configuració del client NFS: muntatge manual i via /etc/fstab",
+                  "Autofs: muntatge automàtic i dinàmic de recursos NFS"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Implementa i gestiona la seguretat del sistema operatiu Linux en entorns de xarxa, configurant tallafocs, sistemes de detecció d'intrusions i actualitzacions de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'ha configurat el tallafoc del sistema amb iptables o nftables, definint regles de filtratge per a tràfic entrant, sortint i redireccionat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'han gestionat les regles de tallafoc amb les eines d'alt nivell firewalld (zones i serveis) o ufw, verificant la persistència entre reinicis.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'ha configurat Fail2Ban per protegir serveis exposats a Internet (SSH, Apache, Samba) contra atacs de força bruta, definint filtres i accions personalitzades.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'han configurat polítiques de SELinux o AppArmor per limitar els privilegis dels processos en execució i reduir la superfície d'atac del sistema.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'han aplicat actualitzacions de seguretat de forma automatitzada i planificada, gestionant reinicis necessaris de forma controlada.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3f",
+                "text": "S'ha realitzat una auditoria bàsica de seguretat del sistema analitzant registres del sistema (journalctl, /var/log/auth.log) i identificant accessos sospitosos.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Tallafocs en GNU/Linux",
+                "items": [
+                  "Netfilter: arquitectura del subsistema de filtrat del kernel Linux",
+                  "iptables: taules (filter, nat, mangle), cadenes (INPUT, OUTPUT, FORWARD), regles i objectius",
+                  "nftables: substitut modern d'iptables; sintaxi bàsica i taules",
+                  "Eines d'alt nivell: ufw (Ubuntu/Debian) i firewalld (RHEL/Fedora); zones i serveis predefinits",
+                  "Persistència de regles: iptables-save/restore, fitxers de configuració firewalld"
+                ]
+              },
+              {
+                "bloc": "Protecció contra intrusions",
+                "items": [
+                  "Fail2Ban: instal·lació, fitxers jail.conf i jail.local, creació de filtres personalitzats",
+                  "ClamAV: antivirus per a servidors Linux, actualització de signatures i escaneig programat",
+                  "AIDE (Advanced Intrusion Detection Environment): comprovació d'integritat de fitxers",
+                  "Rkhunter i Chkrootkit: detecció de rootkits"
+                ]
+              },
+              {
+                "bloc": "Control d'accés obligatori i auditoria",
+                "items": [
+                  "SELinux: modes (enforcing, permissive, disabled), contextos de seguretat, resolució de problemes amb audit2allow",
+                  "AppArmor: perfils, modes (enforce/complain), gestió amb aa-status i aa-enforce",
+                  "Sistema d'auditoria del kernel (auditd): regles d'auditoria i anàlisi amb ausearch/aureport",
+                  "Rotació i anàlisi de logs: logrotate, journalctl, centralització amb rsyslog"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

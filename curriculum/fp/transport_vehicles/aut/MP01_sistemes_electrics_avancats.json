@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AUT",
+    "titol_cicle": "Automocio",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "grau": "superior",
+    "rd_titol": "RD 1796/2008",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Sistemes Electrics i Electronics Avancats del cicle Automocio forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de transport i manteniment de vehicles. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a sistemes electrics i electronics avancats en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de sistemes electrics i electronics avancats: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de transport i manteniment de vehicles. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Sistemes Electrics i Electronics Avancats",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Electronica i gestio electronica del motor",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Diagnostica sistemes de gestio electronica del motor amb equips avancats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Interpreta dades de centraletes amb equips de diagnosi.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Analitza senyals de sensors i actuadors amb oscil·loscopi.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Diagnostica avaries en sistemes d'injeccio i encesa electronics.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Reprogramacio i actualitza centraletes electroniques.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Xarxes de comunicacio del vehicle",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Diagnostica i repara xarxes de comunicacio del vehicle.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica i diagnostica xarxes CAN, LIN i FlexRay.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Analitza trames de comunicacio amb equips especialitzats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Localitza avaries en multiplexat i gateway.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Configura moduls i programa funcions a centraletes.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Sistemes ADAS i conduccio assistida",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Diagnostica i calibra sistemes ADAS.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica components i funcionament de sistemes ADAS.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Calibra cameres, radars i sensors ADAS.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Diagnostica avaries en frenada autonoma i LKA.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Aplica protocols de seguretat en manipulacio d'ADAS.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

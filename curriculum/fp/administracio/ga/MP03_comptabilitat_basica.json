@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GA",
+    "titol_cicle": "Gestio Administrativa",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "mitja",
+    "rd_titol": "RD 1456/2012",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2013/01/31/pdfs/BOE-A-2013-1118.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul introdueix l’auxiliar administratiu en els fonaments de la comptabilitat i en la gestió de la documentació empresarial. És una primera aproximació al món comptable, sense arribar a la profunditat del grau superior, però suficient per donar suport a les tasques comptables dàries d’una empresa. Els llocs de treball associats inclouen auxiliar de comptabilitat, assistent de gestoría i administratiü de facturació.\n\nEls continguts cobreixen els conceptes fonamentals del Pla General Comptable: elements patrimonials (actiu, passiu i patrimoni net), el mètode comptable per partida doble, el registre d’assentaments bàsics (compres, vendes, cobraments, pagaments i despeses) i la lectura simplificada d’un balanç de situació. A diferència del grau superior, no s’aborda l’IS ni la formulació completa de comptes anuals, sinó que es treballen les operacions més habituals de l’empresa. S’utilitza programari comptable senzill (ContaPlus bàsic o equivalents) per familiaritzar-se amb el cicle comptable digital.\n\nLa dinàmica de classe combina explicació conceptual amb pràctica immediata: per a cada tipus d’operació explicada, l’alumnat fa assentaments primer en paper i després en ordinador. Supòsits comptables progressivament més complexos permeten consolidar els conceptes de manera gradual, posant l’accent en la coherència i l’equilibri del balanç com a indicador de la correcció dels registres."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Comptabilitat Basica i Documentacio Empresarial",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Comptabilitat basica",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Registra operacions comptables basiques aplicant el metode de partida doble i el PGC PIME.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica els comptes del balanc (actiu, passiu, patrimoni net) i els comptes de resultats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Registra assentaments de compres, vendes, pagaments i cobraments al diari comptable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Calcula l'IVA suportat i repercutit i el reflecteix correctament en els assentaments.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Trasllada els assentaments del diari al major i comprova la coherencia del balanc de comprovacio.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Elabora el balanc de situacio simplificat i el compte de perdues i guanys d'una PIME.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Classifica les partides del balanc en actiu no corrent, corrent, passiu i patrimoni net.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Calcula el resultat de l'exercici a partir del compte de perdues i guanys simplificat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Interpreta els indicadors basics de salut financera (liquiditat, endeutament) d'una empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Detecta i corregeix errors basics en un balanc o compte de resultats simplificats.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Utilitza software comptable per gestionar les operacions d'una PIME de forma autonoma.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Configura una empresa en ContaPlus/Sage50 amb les dades fiscals i el pla de comptes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Introdueix assentaments, gestiona l'IVA i genera informes del programa comptable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Genera el balanc, el compte de resultats i el llibre diari des del software comptable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Fa copies de seguretat i manté la integritat de les dades comptables del programa.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Software de gestio comptable",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Opera amb programes de gestio integrada (ERP) per a les tasques administratives i comptables d'una PIME.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Navega per les principals funcionalitats d'un ERP (facturacio, comptabilitat, estoc) de forma autonoma.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Introdueix i consulta dades de clients, proveïdors i articles al sistema ERP.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Genera informes de vendes, compres i comptabilitat des del ERP per a la presa de decisions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Compara les funcionalitats de ContaPlus, Sage50 i Holded identificant avantatges per a cada tipus d'empresa.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

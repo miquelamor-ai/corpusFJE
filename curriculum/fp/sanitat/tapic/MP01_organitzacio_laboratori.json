@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "TAPIC",
+    "titol_cicle": "Anatomia Patològica i Citologia",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 1030/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/07/15/pdfs/BOE-A-2011-12296.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP01 forma el tècnic superior en anatomia patològica i citologia (TAPIC) en l'organització i la gestió del laboratori anatomopatològic com a entorn de treball segur, funcional i documentalment traçable. L'alumnat adquireix les competències per gestionar mostres biològiques, mantenir l'equipament i garantir la qualitat del procés preanalític. Les sortides professionals inclouen laboratoris d'anatomia patològica, serveis de citologia de centres hospitalaris i laboratoris de biologia molecular.\n\nEl mòdul aborda l'organització de l'espai del laboratori (zones pre, intra i postanaltiques), la recepcíó, identificació i registre de mostres (biòpsies, peces quirúrgiques, mostres citològiques), la cadena de custòdia i la traçabilitat. S'estudia la normativa de bioseguretat (nivells de contenció 1-3, EPI, gestió de residus biosanitaris del grup III), el manteniment preventiu de l'equipament (micròtom, criòstat, processador de teixits, bany d'extensió) i la documentació del Sistema de Gestió de Qualitat (ISO 15189).\n\nLa metodologia inclou pràctiques de registre i etiquetatge de mostres, simulació de circuits de laboratori, manteniment bàsic dels instruments i elaboració de procediments normalitzats de treball (PNT). L'alumnat aprèn a interpretar les peticions analítiques i a prioritzar mostres urgents (biòpsies intraoperatories) dins el flux de treball real d'un servei d'anatomia patològica hospitalari."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Organització i Gestió del Laboratori",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Gestió del laboratori anatomopatològic",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Organitza els espais del laboratori anatomopatològic aplicant els criteris funcionals i de seguretat establerts per la normativa vigent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica les zones diferenciades del laboratori (recepció, processament, diagnòstic) i les seves funcions específiques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Descriu les condicions ambientals necessàries (temperatura, ventilació, il·luminació) per a cada àrea de treball.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Aplica els circuits de mostres (net i brut) per evitar la contaminació creuada entre zones.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Manté l'ordre i la neteja dels espais de treball seguint els protocols establerts pel laboratori.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Registra les incidències relacionades amb l'organització dels espais en els sistemes d'informació del laboratori.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona els residus biosanitaris generats al laboratori aplicant la normativa mediambiental i de seguretat biològica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Classifica els residus biosanitaris segons el grup de risc (I, II, III, IV) d'acord amb la normativa catalana vigent.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Selecciona els contenidors adequats per a cada tipus de residu i els identifica correctament amb l'etiquetatge reglamentari.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Aplica els procediments d'envasat, emmagatzematge temporal i retirada de residus biosanitaris perillosos.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Complimenta el registre de producció de residus biosanitaris conforme al Decret 27/1999 de gestió de residus sanitaris.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica la normativa de prevenció de riscos laborals i seguretat biològica pròpia del laboratori anatomopatològic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Identifica els riscos laborals específics del laboratori (biològics, químics, físics) i les mesures preventives associades.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Utilitza correctament els equips de protecció individual (guants, bata, mascareta, ulleres) adequats a cada procediment.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Actua davant d'accidents biològics (punxada, esquitxada) seguint el protocol d'actuació d'urgències del centre.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Manipula correctament els productes químics fixadors (formol, glutaraldehid) aplicant les fitxes de seguretat (FDS).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.5",
+                "text": "Verifica el funcionament dels sistemes de seguretat (campanes extractores, dutxes d'emergència, rentaülls) periòdicament.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Aplica els sistemes de qualitat i acreditació vigents en el laboratori anatomopatològic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "Descriu els fonaments de la norma ISO 15189 aplicada als laboratoris clínics i anatomopatològics.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.2",
+                "text": "Complimenta els registres de control de qualitat (temperatura neveres, calibratge d'equips, controls de reactius).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "Gestiona les no-conformitats detectades seguint el procediment documentat del sistema de qualitat del laboratori.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "Participa en les auditories internes de qualitat aportant la documentació i els registres sol·licitats.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

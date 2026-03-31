@@ -1,0 +1,643 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "primaria",
+    "area_materia": "Matemàtiques",
+    "codi_area": "MAT",
+    "decret": "175/2022",
+    "data_decret": "2022-09-27",
+    "font": "https://educacio.gencat.cat/web/.content/home/departament/normativa/curriculum/primaria/mat-primaria.pdf",
+    "nota_estructura": "Els sabers s'organitzen per cicles: CI=1r-2n (Cicle Inicial), CM=3r-4t (Cicle Mitjà), CS=5è-6è (Cicle Superior). Les competències específiques són transversals a tota l'etapa i els criteris d'avaluació es graduен per cicle. Els sentits matemàtics són: numèric, mesura, espacial, algebraic, estocàstic i socioemocional.",
+    "descripcio": "Les Matemàtiques a Primària construeixen en l'alumnat de 6 a 12 anys la capacitat de comprendre, descriure i actuar sobre la realitat mitjançant el pensament quantitatiu, espacial i lògic. La matèria connecta amb tots els àmbits de vida —la mesura, la distribució de l'espai, les decisions amb dades— i és fonamental per a l'aprenentatge científic i tecnològic posterior.\n\nEls sabers matemàtics s'organitzen en sis sentits. El sentit numèric inclou els sistemes de numeració, les operacions i les seves propietats, les fraccions i els decimals, i l'estimació i el càlcul mental. El sentit de la mesura abasta les magnituds, les unitats del sistema mètric, el temps i les superfícies elementals. El sentit espacial treballa les figures geomètriques, les transformacions, la simetria i les coordenades. El sentit algebraic introdueix patrons, seqüències i el pensament proporcional. El sentit estocàstic cobreix la recollida i representació de dades i la probabilitat intuïtiva. El sentit socioemocional treballa les actituds positives davant el repte matemàtic, la perseverança i la cooperació.\n\nL'enfocament metodològic és competencial i basat en la resolució de problemes com a eix vertebrador. L'alumnat explora, experimenta, representa i argumenta les seves idees matemàtiques. L'ús de materials manipulatius, la representació múltiple dels conceptes i les rutines de pensament afavoreixen una comprensió profunda i transferible a situacions de la vida quotidiana.",
+    "versio_schema": "1.0"
+  },
+  "competencies_clau": [
+    "CCL",
+    "CP",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CC",
+    "CE",
+    "CCEC"
+  ],
+  "blocs_sabers": [
+    "sentit_numeric",
+    "sentit_mesura",
+    "sentit_espacial",
+    "sentit_algebraic",
+    "sentit_estocastic",
+    "sentit_socioemocional"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "bloc_competencial": "resolucio_problemes",
+      "text": "Traduir problemes i interpretar situacions quotidianes fent-ne una representació matemàtica personal a través de conceptes, eines i estratègies per analitzar-ne els elements més rellevants.",
+      "competencies_clau": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "1.1 Iniciar-se en la interpretació de la informació d'un problema i d'una situació de la vida quotidiana responent a les preguntes plantejades o fent noves preguntes.",
+          "1.2 Proposar representacions matemàtiques, amb recursos manipulatius, gràfics i digitals, orientades a la resolució de problemes i de situacions de la vida quotidiana."
+        ],
+        "CM": [
+          "1.1 Interpretar la informació d'un problema i d'una situació de la vida quotidiana responent a les preguntes plantejades o fent noves preguntes.",
+          "1.2 Proposar representacions matemàtiques, amb recursos manipulatius, gràfics i digitals, que ajudin en la resolució de problemes i de situacions de la vida quotidiana."
+        ],
+        "CS": [
+          "1.1 Interpretar i reformular de forma verbal i gràfica, problemes i situacions de la vida quotidiana, responent a les preguntes plantejades o fent noves preguntes.",
+          "1.2 Elaborar representacions matemàtiques eficaces, amb recursos manipulatius, gràfics i digitals, que portin a la resolució de problemes i de situacions de la vida quotidiana."
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "bloc_competencial": "resolucio_problemes",
+      "text": "Resoldre problemes, aplicant diferents tècniques, estratègies i formes de raonament, per explorar i compartir diferents maneres de procedir, obtenir solucions i assegurar la seva validesa des d'un punt de vista formal i en relació amb el context plantejat i generar noves preguntes i reptes.",
+      "competencies_clau": [
+        "CCL",
+        "STEM",
+        "CD",
+        "CPSAA",
+        "CC"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "2.1 Emprar estratègies i formes pròpies de raonar per resoldre un problema i explicar el procés.",
+          "2.2 Explorar, compartir i resoldre un mateix problema a partir de diferents propostes, parlant-ne sense biaix de gènere.",
+          "2.3 Comprovar que les solucions obtingudes es corresponen amb la pregunta formulada relacionant les solucions amb la pregunta."
+        ],
+        "CM": [
+          "2.1 Emprar estratègies i formes de raonament diverses per resoldre un problema i explicar-ne el procés.",
+          "2.2 Explorar, compartir i resoldre un mateix problema a partir de diferents propostes, parlant-ne sense biaix de gènere.",
+          "2.3 Demostrar la correcció matemàtica de les solucions d'un problema i la seva coherència en el context plantejat."
+        ],
+        "CS": [
+          "2.1 Seleccionar entre diferents estratègies per resoldre un problema i compartint i justificant l'estratègia seleccionada.",
+          "2.2 Compartir i obtenir possibles solucions d'un problema seleccionant d'entre diverses opcions compartides i justificant l'escollida sense biaix de gènere.",
+          "2.3 Argumentar la correcció matemàtica de les solucions d'un problema i la seva coherència en el context plantejat generant, si escau, noves preguntes i reptes."
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "bloc_competencial": "raonament_prova",
+      "text": "Explorar, formular i comprovar conjectures senzilles, reconeixent el valor del raonament espacial, raonament lògic i incorporar-hi l'argumentació per integrar i generar nou coneixement matemàtic.",
+      "competencies_clau": [
+        "CCL",
+        "STEM",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "3.1 Iniciar-se en la realització de conjectures matemàtiques investigant patrons i propietats, fent deduccions i comprovant-les.",
+          "3.2 Proposar exemples de problemes i situacions i explicant com es poden resoldre matemàticament.",
+          "3.3 Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l'espai."
+        ],
+        "CM": [
+          "3.1 Formular conjectures matemàtiques senzilles i investigant patrons, propietats i relacions, així com fent deduccions i comprovant-les.",
+          "3.2 Proposar exemples de problemes i situacions, explicant com es poden resoldre raonant i argumentant en les situacions en què calgui aplicar-ho.",
+          "3.3 Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l'espai."
+        ],
+        "CS": [
+          "3.1 Analitzar conjectures matemàtiques senzilles investigant patrons, propietats i relacions, així com fent deduccions i comprovant-les.",
+          "3.2 Crear exemples de problemes i situacions justificant que es poden resoldre oferint els propis raonaments i arguments.",
+          "3.3 Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l'espai."
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "bloc_competencial": "raonament_prova",
+      "text": "Utilitzar el pensament computacional, descompondre en parts més petites, reconeixent patrons i dissenyant algorismes per solucionar problemes i situacions de la vida quotidiana.",
+      "competencies_clau": [
+        "STEM",
+        "CD",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "4.1 Descriure rutines i activitats senzilles que es realitzin pas a pas, en situacions de l'aula i de la vida quotidiana.",
+          "4.2 Descompondre un problema o situació de la vida quotidiana en tasques concretes, abordant-les d'una en una per poder trobar la solució global.",
+          "4.3 Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+          "4.4 Explicar instruccions pas a pas per resoldre un problema i d'altres de similars provant i duent a terme possibles solucions amb dispositius digitals i sense."
+        ],
+        "CM": [
+          "4.1 Descriure rutines i activitats senzilles que es realitzin pas a pas, en situacions de l'aula i de la vida quotidiana.",
+          "4.2 Descompondre un problema o situació de la vida quotidiana en tasques concretes, abordant-les d'una en una per poder trobar la solució global.",
+          "4.3 Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+          "4.4 Definir instruccions pas a pas per resoldre un problema i d'altres de similars provant i duent a terme possibles solucions amb dispositius digitals i sense."
+        ],
+        "CS": [
+          "4.1 Descompondre un problema o situació de la vida quotidiana en tasques, abordant-les d'una en una per poder trobar la solució global, entre d'altres, amb dispositius digitals.",
+          "4.2 Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+          "4.3 Trobar els principis que generen els patrons d'un problema, descartant les dades irrellevants tot identificant les parts més importants.",
+          "4.4 Definir instruccions pas a pas per resoldre un problema i d'altres de similars provant i duent a terme possibles solucions amb dispositius digitals."
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "bloc_competencial": "connexions",
+      "text": "Utilitzar connexions entre diferents idees matemàtiques, així com identificar les matemàtiques implicades en altres àrees o amb la vida quotidiana, interrelacionant conceptes i procediments per interpretar situacions i contextos diversos.",
+      "competencies_clau": [
+        "CCL",
+        "STEM",
+        "CPSAA",
+        "CC",
+        "CE"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "5.1 Reconèixer connexions entre els diferents elements matemàtics relacionant i ampliar coneixements en un context matemàtic.",
+          "5.2 Reconèixer les matemàtiques presents en la vida quotidiana i en altres àrees en situacions en què se'n pugui fer ús."
+        ],
+        "CM": [
+          "5.1 Realitzar connexions entre els diferents elements matemàtics valorant-ne la utilitat per raonar i fixar coneixements en un context matemàtic.",
+          "5.2 Interpretar situacions en contextos diversos reconeixent les connexions entre les matemàtiques i la vida quotidiana en situacions en què se'n pugui fer ús (se'n faci ús)."
+        ],
+        "CS": [
+          "5.1 Connectar diferents elements de les matemàtiques valorant-ne la utilitat per relacionar i ampliar coneixements en un context matemàtic.",
+          "5.2 Utilitzar les connexions entre les matemàtiques i altres àrees i també entre les matemàtiques i situacions de contextos no matemàtics en què se'n pugui fer ús, desenvolupant la capacitat crítica, creativa i innovadora."
+        ]
+      }
+    },
+    {
+      "codi": "CE6",
+      "bloc_competencial": "comunicacio_representacio",
+      "text": "Comunicar i representar, de forma individual i col·lectiva, conceptes, procediments i resultats matemàtics utilitzant el llenguatge oral, escrit, gràfic, multimodal, en diferents formats i amb la terminologia matemàtica adequada, per donar significat i permanència a les idees matemàtiques.",
+      "competencies_clau": [
+        "CCL",
+        "CP",
+        "STEM",
+        "CD"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "6.1 Seleccionar el llenguatge matemàtic bàsic present en la vida quotidiana donant-li significat.",
+          "6.2 Explicar idees i processos matemàtics utilitzats en la resolució d'un problema o justificant la solució obtinguda de forma verbal, amb l'ajuda del gest o de la representació gràfica."
+        ],
+        "CM": [
+          "6.1 Reconèixer i usar llenguatge matemàtic present en el seu entorn donant-li significat.",
+          "6.2 Explicar idees i processos matemàtics utilitzats en la resolució d'un problema o justificant la solució obtinguda de forma verbal, amb l'ajuda del gest, la representació gràfica i també la representació digital."
+        ],
+        "CS": [
+          "6.1 Interpretar i usar llenguatge matemàtic adequat donant-li significat.",
+          "6.2 Representar conceptes, procediments i resultats matemàtics utilitzant diferents eines i formes de representació, inclosa la digital, per visualitzar idees i estructurar processos matemàtics.",
+          "6.3 Explicar idees i processos matemàtics utilitzats en la resolució d'un problema o argumentant la solució obtinguda de forma verbal, amb l'ajuda del gest, la representació gràfica i també la representació digital."
+        ]
+      }
+    },
+    {
+      "codi": "CE7",
+      "bloc_competencial": "destreses_socioemocionals",
+      "text": "Desenvolupar destreses personals que ajudin a identificar i gestionar emocions, aprenent de l'error i afrontant les situacions d'incertesa com una oportunitat, per perseverar i gaudir del procés d'aprendre matemàtiques.",
+      "competencies_clau": [
+        "CPSAA",
+        "CC"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "7.1 Reconèixer les pròpies emocions en abordar nous reptes matemàtics, sent proactiu en la cerca de possibles solucions, demanant ajuda només després d'un primer intent.",
+          "7.2 Expressar actituds positives davant de nous reptes matemàtics, com ara la predisposició i la receptivitat, entenent l'error com una oportunitat d'aprenentatge."
+        ],
+        "CM": [
+          "7.1 Identificar les pròpies emocions en abordar nous reptes matemàtics, sent proactiu en la cerca de possibles solucions, demanant ajuda, si cal, formulant clarament la pregunta.",
+          "7.2 Mostrar actituds positives davant de nous reptes matemàtics, com ara l'esforç i la flexibilitat, entenent l'error com una oportunitat d'aprenentatge."
+        ],
+        "CS": [
+          "7.1 Regular les pròpies emocions i desenvolupar l'autoconfiança per abordar nous reptes matemàtics, identificant les pròpies fortaleses i superant les debilitats.",
+          "7.2 Mantenir actituds positives davant de nous reptes matemàtics, com ara la perseverança i la flexibilitat, entenent l'error com una oportunitat d'aprenentatge."
+        ]
+      }
+    },
+    {
+      "codi": "CE8",
+      "bloc_competencial": "destreses_socioemocionals",
+      "text": "Desenvolupar destreses socials participant activament en els equips de treball i reconeixent la diversitat i el valor de les aportacions dels altres, per compartir i construir coneixement matemàtic de manera col·lectiva.",
+      "competencies_clau": [
+        "CCL",
+        "CPSAA",
+        "CC"
+      ],
+      "criteris_avaluacio": {
+        "CI": [
+          "8.1 Participar en el treball en equip, tant en entorn presencial com virtual, escoltant les altres persones reconeixent les seves aportacions, en situacions en què es comparteixi i construeixi coneixement matemàtic de manera conjunta."
+        ],
+        "CM": [
+          "8.1 Col·laborar en el treball en equip, tant en entorn presencial com virtual, assumint-ne responsabilitats per construir coneixement matemàtic.",
+          "8.2 Implicar-se amb el grup, amb empatia i respecte, compartint les pròpies opinions, maneres de fer, estratègies i pensaments tot escoltant i reconeixent les aportacions de les altres persones per enriquir l'aprenentatge propi i col·lectiu."
+        ],
+        "CS": [
+          "8.1 Col·laborar i aportar estratègies i raonaments matemàtics en el treball en equip, tant en entorn presencial com virtual, construint coneixement matemàtic de manera conjunta.",
+          "8.2 Equilibrar les necessitats personals amb les del grup, des de l'empatia i el respecte, reconeixent la diversitat i el valor de les aportacions de les altres persones per generar nou aprenentatge matemàtic, tant individual com col·lectiu."
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "CI": {
+      "nota": "Primer i segon curs (Cicle Inicial)",
+      "sentit_numeric": {
+        "nom": "Sentit numèric",
+        "subapartats": {
+          "Comptatge": [
+            "Ús d'estratègies variades de comptatge i recompte sistemàtic en situacions de la vida quotidiana amb quantitats fins al 199 adquirint una base sòlida en la comprensió i maneig d'aquestes quantitats."
+          ],
+          "Quantitat": [
+            "Realització d'estimacions raonades de quantitats en contextos de resolució de problemes.",
+            "Domini de la lectura, representació (inclosa la recta numèrica), composició, descomposició de nombres naturals fins al 199.",
+            "Exploració de la representació d'una mateixa quantitat de diferents maneres (manipulativa, gràfica o numèrica) i estratègies d'elecció de la representació adequada per a cada situació problematitzada fent especial esment al nombre 10."
+          ],
+          "Sentit de les operacions": [
+            "Familiarització d'estratègies de càlcul mental amb nombres naturals fins al 199, posant especial atenció al rang 1-20 en situacions en què es treballi la descomposició de dígits, especialment el 10, dobles i quasi dobles.",
+            "Pràctica de la suma i la resta de nombres naturals amb flexibilitat i sentit en situacions contextualitzades, usant estratègies i eines de resolució i propietats."
+          ],
+          "Relacions": [
+            "Aplicació de les relacions que es generen en les operacions fent ús del sistema de numeració de base deu fins al 199.",
+            "Comparació i ordenació dels nombres naturals en contextos de la vida quotidiana.",
+            "Identificació de les relacions entre la suma i la resta descobrint la seva aplicació en contextos quotidians."
+          ],
+          "Educació financera": [
+            "Reconeixement del sistema monetari europeu: monedes i bitllets d'euro (1, 2, 5, 10, 20 i 50), valor i equivalència."
+          ]
+        }
+      },
+      "sentit_mesura": {
+        "nom": "Sentit de la mesura",
+        "subapartats": {
+          "Magnitud": [
+            "Apreciació dels atributs mesurables dels objectes (longitud, massa, capacitat), distàncies i temps.",
+            "Introducció de les unitats convencionals (metre, quilo i litre) i no convencionals en situacions en què es facin mesuraments en el context escolar o de la vida quotidiana.",
+            "Reconeixement de les unitats de mesura del temps (any, mes, setmana, dia i hora) en situacions de la vida quotidiana."
+          ],
+          "Mesura": [
+            "Aplicació de processos de mesura a través d'una repetició d'una unitat i a través de la utilització d'instruments no convencionals.",
+            "Experimentació de processos de mesura amb instruments convencionals (regles, cintes mètriques, balances, calendaris...) en contextos quotidians."
+          ],
+          "Estimació i relacions": [
+            "Selecció d'estratègies de comparació directa i ordenació de mesures de la mateixa magnitud segons la demanda del problema.",
+            "Estimació de mesures (distàncies, mides, masses, capacitats...) cercant formes de comparar-les amb altres mesures."
+          ]
+        }
+      },
+      "sentit_espacial": {
+        "nom": "Sentit espacial",
+        "subapartats": {
+          "Formes geomètriques de dues o tres dimensions": [
+            "Identificació i classificació de formes geomètriques de dues dimensions en objectes de la vida quotidiana tenint en compte els seus elements.",
+            "Introducció d'estratègies i tècniques de construcció de composició i descomposició de formes geomètriques senzilles d'una, dues o tres dimensions de forma manipulativa.",
+            "Introducció del vocabulari geomètric bàsic en la descripció verbal dels elements i les propietats de formes geomètriques senzilles.",
+            "Reconeixement de les propietats de formes geomètriques de dues i tres dimensions explorant amb materials manipulables (mecanos, tangram, jocs de figures…) i també amb eines digitals."
+          ],
+          "Localització i sistemes de representació": [
+            "Descripció de la posició relativa d'objectes en l'espai amb relació a un mateix amb el vocabulari adequat (a dalt, a baix, davant, darrere, entremig, a prop, lluny…) i també de dos objectes entre si (junts, separats, un sobre l'altre, etc.) en situacions d'interpretació de moviments.",
+            "Representació i elaboració d'itineraris senzills amb referents de l'entorn proper."
+          ],
+          "Moviments i transformacions": [
+            "Construcció de figures a partir de moviments, girs, fent simetries, superposant figures per comprovar semblances, diferències, encaixos, fer noves agrupacions…"
+          ],
+          "Raonament, modelització i visualització geomètrica": [
+            "Utilització de models geomètrics en la resolució de problemes relacionats amb els altres sentits.",
+            "Reconeixement de l'entorn a través de les relacions geomètriques.",
+            "Reconeixement i representació d'una figura en tres dimensions a partir d'una fotografia o fent una predicció de la part oculta d'un cos.",
+            "Representació d'un espai conegut de manera que es pugui identificar.",
+            "Reconeixement d'objectes des de diverses perspectives.",
+            "Composició i descomposició de figures manipulant-les."
+          ]
+        }
+      },
+      "sentit_algebraic": {
+        "nom": "Sentit algebraic",
+        "subapartats": {
+          "Patrons": [
+            "Agrupació d'elements a partir de semblances i diferències d'objectes, en aspectes diversos, i ordenació seguint criteris qualitatius i quantitatius.",
+            "Exploració d'estratègies per identificar, descriure, completar i estendre seqüències a partir de regularitats en una col·lecció de nombres, figures o imatges."
+          ],
+          "Model matemàtic": [
+            "Descoberta d'estratègies de modelització de situacions de la vida quotidiana mitjançant dibuixos, esquemes, diagrames, objectes manipulables, dramatitzacions…"
+          ],
+          "Relacions i funcions": [
+            "Comprensió de l'expressió de relacions d'igualtat i desigualtat amb els signes = i ≠, < i > entre expressions que incloguin operacions.",
+            "Comprensió i representació de la igualtat com a expressió d'una relació d'equivalència entre dos elements i obtenció de dades senzilles desconegudes (representades a través d'un símbol) en qualsevol dels dos elements.",
+            "Identificació dels canvis que es produeixen com a resultat d'una acció."
+          ],
+          "Pensament computacional": [
+            "Descoberta i comprensió d'estratègies quan s'interpreten, modifiquen o creen algorismes senzills que incorporen processos seqüencials i instruccions de bucle i condicionals."
+          ]
+        }
+      },
+      "sentit_estocastic": {
+        "nom": "Sentit estocàstic",
+        "subapartats": {
+          "Inferència: recollir dades per resoldre preguntes": [
+            "Reconeixement i formulació de preguntes en situacions properes que es resolen recollint dades.",
+            "Organització i estratègies per a la recollida de dades."
+          ],
+          "Distribució: criteris per organitzar les dades": [
+            "Representació gràfica i interpretació de les dades recollides (tenint en compte la classificació de les dades, la durada de la recollida i el context).",
+            "Introducció a la lectura i interpretació de la freqüència absoluta.",
+            "Identificació dels elements que intervenen en els gràfics estadístics de fets o situacions de la vida quotidiana."
+          ],
+          "Predictibilitat i incertesa: atzar i probabilitat": [
+            "Reconeixement en situacions concretes de si un esdeveniment és impossible, possible o segur, i fins a quin punt és més o menys possible."
+          ]
+        }
+      },
+      "sentit_socioemocional": {
+        "nom": "Sentit socioemocional",
+        "subapartats": {
+          "Creences, actituds i emocions pròpies": [
+            "Identificació i expressió de les pròpies emocions en situacions d'aprenentatge de les matemàtiques amb curiositat i iniciativa envers aquests aprenentatges.",
+            "Adquisició d'autonomia i estratègies per a la presa de decisions en situacions de resolució de problemes, tant per donar resposta a la situació plantejada com per fer-se altres preguntes i continuar aprenent.",
+            "Identificació de la contribució de les matemàtiques (numeració, geometria, estadística…) als diversos àmbits de coneixement humà des d'una perspectiva de gènere."
+          ],
+          "Treball en equip, inclusió, respecte i diversitat": [
+            "Participació activa en el treball en equip en matemàtiques valorant i incorporant les idees de tots i totes.",
+            "Identificació i rebuig d'actituds discriminatòries mostrant sensibilitat i respecte envers les diferències individuals, també les referents a la diversitat de gènere, presents a l'aula."
+          ]
+        }
+      }
+    },
+    "CM": {
+      "nota": "Tercer i quart curs (Cicle Mitjà)",
+      "sentit_numeric": {
+        "nom": "Sentit numèric",
+        "subapartats": {
+          "Comptatge": [
+            "Ús d'estratègies variades del comptatge, recompte sistemàtic i adaptació del comptatge a la mida dels nombres en situacions de la vida quotidiana amb quantitats de fins al 9.999."
+          ],
+          "Quantitat": [
+            "Aplicació d'estratègies i tècniques d'interpretació i manipulació de l'ordre de magnitud dels nombres (desenes, centenes i milers).",
+            "Realització d'estimacions i aproximacions raonades de quantitats en contextos de resolució de problemes.",
+            "Domini de la lectura, representació (inclosa la recta numèrica), composició, descomposició de nombres naturals fins al 9.999.",
+            "Familiarització amb les fraccions pròpies amb denominador fins al nombre 10 aprofitant els contextos de la vida quotidiana en què s'ha de descriure una situació."
+          ],
+          "Sentit de les operacions": [
+            "Posada en pràctica d'estratègies de càlcul mental amb nombres naturals.",
+            "Reconeixement d'estratègies de càlcul mental amb fraccions senzilles (½, ⅓ o ¾), com a part d'una col·lecció.",
+            "Ús estratègic de les operacions (suma, resta, multiplicació, divisió) per resoldre situacions contextualitzades.",
+            "Construcció de les taules de multiplicar amb el suport de la idea del nombre de vegades, suma repetida o disposició en quadrícules i combinacions diverses.",
+            "Automatització dels resultats més freqüents i estratègies per trobar la resta.",
+            "Maneig de la suma, resta, multiplicació i divisió de nombres naturals resoltes amb flexibilitat i sentit, mentalment, de manera escrita o amb calculadora en situacions contextualitzades, usant estratègies i eines de resolució i propietats.",
+            "Aplicació d'estratègies per fer càlculs aproximats de sumes, restes, multiplicacions i divisions amb nombres naturals."
+          ],
+          "Relacions": [
+            "Aplicació de les relacions que es generen en les operacions fent ús del sistema de numeració de base deu fins al 9.999.",
+            "Comparació i ordenació dels nombres naturals en contextos de la vida quotidiana copsant el patró que segueix el sistema de numeració decimal.",
+            "Ús de les relacions entre les operacions per ajudar a comprendre-les i per agilitzar el càlcul, mental o escrit."
+          ],
+          "Educació financera": [
+            "Aplicació del càlcul i l'estimació de quantitats i canvi (euros i cèntims d'euro) en la vida quotidiana (ingressos, despeses i estalvi), promovent decisions per a una gestió responsable dels diners."
+          ]
+        }
+      },
+      "sentit_mesura": {
+        "nom": "Sentit de la mesura",
+        "subapartats": {
+          "Magnitud": [
+            "Utilització dels atributs mesurables dels objectes (longitud, massa, capacitat, superfície, volum i amplitud de l'angle).",
+            "Maneig de les unitats convencionals (km, m, cm, mm; kg, g; l i ml) i no convencionals en situacions de la vida quotidiana.",
+            "Aplicació de la mesura del temps (any, mes, setmana, dia, hora i minuts) i referències de la durada de períodes de temps."
+          ],
+          "Mesura": [
+            "Pràctica d'estratègies per fer mesuraments amb instruments i unitats no convencionals (repetició d'una unitat, ús de quadrícules...) i convencionals.",
+            "Realització de mesuraments mitjançant instruments convencionals (regla, cinta mètrica, balança, rellotge analògic i digital)."
+          ],
+          "Estimació i relacions": [
+            "Ús d'estratègies de comparació i ordenació de mesures de la mateixa magnitud (km, m, cm, mm; kg, g; l i ml) i aplicació d'equivalències entre unitats en problemes de la vida quotidiana que impliquin convertir unitats.",
+            "Estimació per comparació de mesures de longitud, massa i capacitat.",
+            "Avaluació de resultats de mesuraments i estimacions o càlculs de mesures."
+          ]
+        }
+      },
+      "sentit_espacial": {
+        "nom": "Sentit espacial",
+        "subapartats": {
+          "Formes geomètriques de dues i tres dimensions": [
+            "Identificació i classificació de formes geomètriques de dues o tres dimensions en objectes de la vida quotidiana atenent als seus elements i a les relacions entre ells.",
+            "Utilització d'estratègies i tècniques de construcció de formes geomètriques de dues dimensions per composició i descomposició, a través de materials manipulables, instruments de dibuix (regle i cartabó) i aplicacions informàtiques.",
+            "Ús del vocabulari geomètric en la descripció verbal dels elements i les propietats de formes geomètriques.",
+            "Experimentació amb les propietats de les formes geomètriques de dues i tres dimensions amb materials manipulables (quadrícules, geoplans, policubs...) i també amb eines digitals (programes de geometria dinàmica, realitat augmentada, robòtica educativa...)."
+          ],
+          "Localització i sistemes de representació": [
+            "Descripció de la posició relativa d'objectes en l'espai o representacions d'aquests utilitzant vocabulari geomètric adequat (paral·lel, perpendicular, oblic, dreta, esquerra, etc.).",
+            "Descripció i interpretació de moviments, amb relació a un mateix o a altres punts de referència utilitzant vocabulari geomètric adequat.",
+            "Interpretació d'itineraris en plànols fent servir suports físics i virtuals."
+          ],
+          "Moviments i transformacions": [
+            "Identificació de figures transformades mitjançant translacions, girs ampliacions/reduccions i simetries en elements de l'entorn que ens envolta.",
+            "Generació de figures transformades a partir de simetries i translacions d'un patró inicial i predicció del resultat."
+          ],
+          "Raonament, modelització i visualització geomètrica": [
+            "Identificació de models geomètrics en la resolució de problemes semblants.",
+            "Aplicació d'estratègies en el càlcul de perímetres de figures planes utilitzant-les en la resolució de problemes de la vida quotidiana.",
+            "Reconeixement de relacions geomètriques en l'art, les ciències i la vida quotidiana.",
+            "Ús de punts de referència per indicar una posició o bé un desplaçament fet en un context conegut.",
+            "Ús de les visualitzacions dels moviments d'un cos per identificar una figura i raonant els resultats obtinguts."
+          ]
+        }
+      },
+      "sentit_algebraic": {
+        "nom": "Sentit algebraic",
+        "subapartats": {
+          "Patrons": [
+            "Identificació, descripció verbal, representació i predicció raonada de termes a partir de les regularitats en una col·lecció de nombres, figures o imatges.",
+            "Exploració i adquisició d'estratègies per identificar, descriure, completar i estendre seqüències a partir de regularitats en una col·lecció de nombres, figures o imatges."
+          ],
+          "Model matemàtic": [
+            "Modelització de situacions de la vida quotidiana de forma pautada usant representacions matemàtiques (gràfiques, taules...)."
+          ],
+          "Relacions i funcions": [
+            "Utilització de relacions d'igualtat i desigualtat i ús dels signes = i ≠ entre expressions que incloguin operacions i les seves propietats.",
+            "Expressió de la igualtat com a equivalència entre dos elements i obtenció de dades senzilles desconegudes (representades a través d'un símbol) en qualsevol dels dos elements.",
+            "Representació de la relació major que i menor que, i ús dels signes < i >.",
+            "Identificació del canvi com a resultat d'una acció i de l'acció que pot revertir-la."
+          ],
+          "Pensament computacional": [
+            "Comprensió i aplicació d'estratègies quan s'interpreten, modifiquen o creen algorismes senzills de programació per blocs que incorporen: diferenciació entre processos seqüencials i paral·lels; comprensió de les instruccions de bucle i condicionals; comprensió de la gestió de dades amb variables; ús d'operadors lògics i d'esdeveniments."
+          ]
+        }
+      },
+      "sentit_estocastic": {
+        "nom": "Sentit estocàstic",
+        "subapartats": {
+          "Inferència: recollir dades per resoldre preguntes": [
+            "Reconeixement i formulació de preguntes en situacions properes que es resolen recollint dades.",
+            "Organització i estratègies per a la recollida de dades.",
+            "Presa de decisions a partir de les dades."
+          ],
+          "Distribució: criteris per organitzar les dades": [
+            "Representació gràfica i interpretació de les dades recollides (tenint en compte la classificació de les dades, la durada de la recollida i el context).",
+            "Iniciació en la representació de dades amb eines digitals, entre d'altres.",
+            "Interpretació de la freqüència absoluta i la moda de la situació a analitzar.",
+            "Utilització de la lectura i de la interpretació de gràfics estadístics de la vida quotidiana (pictogrames, gràfics de barres, histogrames...)."
+          ],
+          "Predictibilitat i incertesa: atzar i probabilitat": [
+            "Discriminació de situacions susceptibles de ser predites per poder saber si un fenomen és impossible, possible o segur.",
+            "Comparació de la probabilitat de dos successos de forma intuïtiva."
+          ]
+        }
+      },
+      "sentit_socioemocional": {
+        "nom": "Sentit socioemocional",
+        "subapartats": {
+          "Creences, actituds i emocions": [
+            "Identificació de les pròpies emocions i de les dels altres en contextos d'aprenentatge de les matemàtiques, fomentant la iniciativa i tolerància en l'alumnat quan s'enfronten a aquestes situacions.",
+            "Foment de l'autonomia i estratègies per a la presa de decisions en situacions de resolució de problemes tant per donar resposta a la situació plantejada com per fer-se altres preguntes i continuar aprenent.",
+            "Valoració de la contribució de les matemàtiques (numeració, geometria, estadística...) als diferents àmbits del coneixement humà des d'una perspectiva de gènere."
+          ],
+          "Treball en equip, inclusió, respecte i diversitat": [
+            "Descoberta i ús de les tècniques cooperatives en el treball en equip en matemàtiques, escolta activa i respecte pel treball dels altres.",
+            "Identificació i rebuig d'actituds discriminatòries mostrant sensibilitat i respecte envers les diferències individuals, també les referents a la diversitat de gènere, presents a l'aula."
+          ]
+        }
+      }
+    },
+    "CS": {
+      "nota": "Cinquè i sisè curs (Cicle Superior)",
+      "sentit_numeric": {
+        "nom": "Sentit numèric",
+        "subapartats": {
+          "Comptatge": [
+            "Ús d'estratègies variades de comptatge, recompte sistemàtic (ús de taules de doble entrada i diagrames d'arbre) i adaptació del comptatge a la mida dels nombres en situacions de la vida quotidiana."
+          ],
+          "Quantitat": [
+            "Aplicació d'estratègies i tècniques d'interpretació i manipulació de l'ordre de magnitud dels nombres.",
+            "Realització d'estimacions i aproximacions raonades de quantitats en contextos de resolució de problemes.",
+            "Domini de la lectura, interpretació i representació de nombres naturals i decimals (inclosa la recta numèrica) i reflexió sobre les característiques del sistema de numeració decimal.",
+            "Ús amb seguretat de la composició i descomposició de nombres naturals i decimals fins a les mil·lèsimes.",
+            "Utilització de fraccions, percentatges i decimals per expressar quantitats en contextos de la vida quotidiana i elecció de la millor representació per a cada situació o problema."
+          ],
+          "Sentit de les operacions": [
+            "Utilització d'estratègies de càlcul mental amb nombres naturals i decimals.",
+            "Aplicació d'estratègies de càlcul mental amb fraccions senzilles com a part d'una col·lecció.",
+            "Ús estratègic d'operacions simples o combinades (suma, resta, multiplicació, divisió) per resoldre situacions contextualitzades.",
+            "Reconeixement de la potència com a producte de factors iguals. Quadrats i cubs.",
+            "Domini de les estratègies de resolució d'operacions aritmètiques, simples o combinades i de les propietats, amb nombres naturals i decimals (fins a les mil·lèsimes), amb flexibilitat i sentit mentalment, de forma escrita o amb calculadora en situacions contextualitzades.",
+            "Aplicació d'estratègies per fer càlculs aproximats de sumes, restes, multiplicacions i divisions amb nombres naturals, decidint quin tipus de càlcul és el pertinent."
+          ],
+          "Relacions": [
+            "Reflexió sobre les característiques del sistema de numeració de base deu (nombres naturals i decimals fins a les mil·lèsimes) i aplicació de les relacions que es generen en les operacions.",
+            "Comparació i ordenació de nombres naturals, fraccions i decimals fins a les mil·lèsimes en contextos de la vida quotidiana.",
+            "Identificació i aplicació de les relacions entre les operacions aritmètiques en contextos quotidians.",
+            "Coneixement de la relació entre fraccions senzilles, decimals i percentatges.",
+            "Ús de les relacions i propietats de les operacions per ajudar a comprendre-les i per agilitzar el càlcul, mental o escrit.",
+            "Identificació i ús de les relacions entre nombres naturals basats en la divisibilitat, divisors i múltiples."
+          ],
+          "Educació financera": [
+            "Resolució de problemes relacionats amb el consum responsable (valor/preu, qualitat/preu i el millor preu) i amb els diners (preus, interessos, impostos i rebaixes)."
+          ],
+          "Raonament proporcional": [
+            "Identificació de situacions proporcionals i no proporcionals en problemes de la vida quotidiana: identificació com a comparació multiplicativa entre magnituds.",
+            "Resolució de problemes de proporcionalitat, percentatges i escales de la vida quotidiana, a través de la comparació multiplicativa entre magnituds."
+          ]
+        }
+      },
+      "sentit_mesura": {
+        "nom": "Sentit de la mesura",
+        "subapartats": {
+          "Magnitud": [
+            "Selecció i ús de les unitats adequades de longitud, massa, capacitat i superfície, volum, magnituds informàtiques bàsiques, temps i graus (angles) en contextos de la vida quotidiana."
+          ],
+          "Mesura": [
+            "Selecció i ús d'instruments (analògics o digitals) i unitats adequades per mesurar longituds, objectes (massa, capacitat, superfície…), angles i temps."
+          ],
+          "Estimació i relacions": [
+            "Ús d'estratègies de comparació i ordenació de mesures de la mateixa magnitud aplicant les equivalències entre unitats (sistema mètric decimal) en problemes de la vida quotidiana.",
+            "Identificació de la relació entre el sistema mètric decimal i el sistema de numeració decimal.",
+            "Estimació per comparació de la mesura d'angles i superfícies.",
+            "Avaluació de resultats de mesuraments i estimacions o càlculs de mesures, raonant si són o no possibles."
+          ]
+        }
+      },
+      "sentit_espacial": {
+        "nom": "Sentit espacial",
+        "subapartats": {
+          "Formes geomètriques de dues i tres dimensions": [
+            "Identificació i classificació de formes geomètriques en objectes de la vida quotidiana en funció dels seus elements i de les relacions que hi ha entre aquests.",
+            "Coneixença de tècniques de construcció de formes geomètriques per composició i descomposició, amb materials manipulables, instruments de dibuix i aplicacions informàtiques.",
+            "Domini del vocabulari geomètric en la descripció verbal dels elements i les propietats de formes geomètriques.",
+            "Aprofundiment en les propietats de formes geomètriques transformant-les, a partir de materials manipulables (quadrícules, geoplans, policubs...) i també amb eines digitals (programes de geometria dinàmica, realitat augmentada, robòtica educativa...)."
+          ],
+          "Localització i sistemes de representació": [
+            "Domini en la localització i desplaçaments en plànols i mapes a partir de punts de referència (inclosos els punts cardinals), direccions i càlcul de distàncies (escales).",
+            "Disseny i interpretació de plànols amb suports físics i virtuals usant un vocabulari adient."
+          ],
+          "Moviments i transformacions": [
+            "Identificació de figures transformades a partir de girs, translacions, simetries i de patrons inicials i també fent una predicció dels resultats en elements de l'entorn que ens envolta.",
+            "Generació de figures transformades a partir de patrons inicials i fent una predicció del resultat.",
+            "Identificació de figures semblants, generació a partir de patrons inicials i predicció del resultat en situacions de la realitat propera."
+          ],
+          "Raonament i modelització i visualització geomètrica": [
+            "Aplicació d'estratègies per al càlcul d'àrees i perímetres de figures planes en situacions de la vida quotidiana.",
+            "Posada en pràctica de models geomètrics en la resolució de problemes relacionats amb els altres sentits matemàtics.",
+            "Elaboració de conjectures sobre propietats geomètriques utilitzant instruments de dibuix (compàs i transportador d'angles) i programes de geometria dinàmica.",
+            "Identificació de les idees i les relacions geomètriques en l'art, les ciències i la vida quotidiana.",
+            "Representació de recorreguts dels quals es té una vivència personal.",
+            "Modificació mental d'un cos o d'una figura quan fem prediccions sobre el resultat."
+          ]
+        }
+      },
+      "sentit_algebraic": {
+        "nom": "Sentit algebraic",
+        "subapartats": {
+          "Patrons": [
+            "Creació de patrons recurrents a partir de regularitats o d'altres patrons utilitzant nombres, figures o imatges.",
+            "Aplicació d'estratègies d'identificació, representació (verbal, taules, gràfics i notacions inventades) i predicció raonada de termes a partir de les regularitats en una col·lecció de nombres, figures o imatges."
+          ],
+          "Model matemàtic": [
+            "Modelització de problemes de la vida quotidiana usant representacions matemàtiques."
+          ],
+          "Relacions i funcions": [
+            "Utilització de relacions d'igualtat i desigualtat usant els signes < i > en expressions senzilles relacionades a través d'aquests signes i els signes = i ≠.",
+            "Construcció d'igualtats en què observar i determinar dades senzilles desconegudes representades a través d'una lletra o símbol.",
+            "Identificació del canvi com a resultat d'una acció i de l'acció que pot revertir-la així com dels símbols que ho indiquen."
+          ],
+          "Pensament computacional": [
+            "Aplicació d'estratègies quan s'interpreten, modifiquen o creen algorismes de programació per blocs que incorporen diferenciació entre processos seqüencials i paral·lels, comprensió de les instruccions de bucle i condicionals, comprensió de la gestió de dades amb variables i l'ús d'operadors lògics i d'esdeveniments."
+          ]
+        }
+      },
+      "sentit_estocastic": {
+        "nom": "Sentit estocàstic",
+        "subapartats": {
+          "Inferència: recollir dades per resoldre preguntes": [
+            "Reconeixement i formulació de preguntes en situacions properes que es resolen recollint dades.",
+            "Organització i estratègies per a la recollida de dades.",
+            "Presa de decisions a partir de les dades, tenint en compte la mesura de la mostra."
+          ],
+          "Distribució: criteris per organitzar les dades": [
+            "Representació gràfica i interpretació de les dades recollides (tenint en compte la classificació de les dades, la durada de la recollida i el context).",
+            "Representació de dades amb eines digitals, entre d'altres.",
+            "Interpretació de la freqüència absoluta, la moda, la mitjana i la mediana de la situació a analitzar.",
+            "Descripció, interpretació i anàlisi crítica de conjunts de dades i gràfics estadístics de la vida quotidiana."
+          ],
+          "Predictibilitat i incertesa: atzar i probabilitat": [
+            "Descripció de successos i discussió del seu grau de probabilitat.",
+            "Realització de prediccions i discussió si els resultats obtinguts concorden o no amb les prediccions."
+          ]
+        }
+      },
+      "sentit_socioemocional": {
+        "nom": "Sentit socioemocional",
+        "subapartats": {
+          "Creences, actituds i emocions": [
+            "Identificació d'estratègies de millora de la perseverança i el sentit de la responsabilitat envers l'aprenentatge de les matemàtiques tant per donar resposta al repte inicial com per continuar fent-se preguntes i seguir aprenent.",
+            "Treball de la flexibilitat cognitiva, l'adaptació i el canvi d'estratègia en cas necessari. Valorar l'error com a oportunitat d'aprenentatge.",
+            "Valoració de la contribució de les matemàtiques (numeració, geometria, estadística…) als diferents àmbits del coneixement humà des d'una perspectiva de gènere."
+          ],
+          "Treball en equip, inclusió, respecte i diversitat": [
+            "Aplicació de tècniques cooperatives per al treball en equip en matemàtiques i estratègies per a la gestió de conflictes.",
+            "Promoció de conductes empàtiques i inclusives i acceptació de la diversitat, també les referents a la diversitat de gènere, present en l'aula i en la societat."
+          ]
+        }
+      }
+    }
+  }
+}

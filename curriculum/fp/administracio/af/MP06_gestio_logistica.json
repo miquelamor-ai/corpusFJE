@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AF",
+    "titol_cicle": "Administració i Finances",
+    "familia_professional": "Administració i Gestió",
+    "grau": "superior",
+    "rd_titol": "RD 1584/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/11/17/pdfs/BOE-A-2011-17980.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul prepara el tècnic superior per gestionar els fluxos de compres, vendes i logística de l'empresa, assegurant l'eficiència de la cadena de subministrament. Els perfils professionals als quals s'orienta inclouen responsable de compres, tècnic de logística, cap de magatzem i gestor comercial en empreses industrials, comercials i de distribució.\n\nEls continguts cobreixen el cicle comercial complet: des de la selecció i homologació de proveïdors fins al lliurament al client final. S'estudia la gestió d'estocs (mètodes FIFO, LIFO, cost mitjà ponderat), la planificació de la demanda, els indicadors logístics clau (KPI), la normativa del Codi de Comerç sobre obligacions mercantils i el Reglament de Facturació (RD 1619/2012) per a la gestió documental de compres i vendes. Les eines habituals inclouen ERP amb mòdul de compres i vendes (SAP Business One, Holded, Odoo) i plataformes de gestió de magatzem (WMS).\n\nLa pràctica es vertebra entorn d'una empresa de distribució simulada on l'alumnat gestiona comandes de compra i venda, controla estocs, calcula costos logístics i avalua proveïdors. Els exercicis de negociació amb proveïdors, la gestió d'incidències de transport i la preparació de documentació d'exportació introdueixen la complexitat real del sector i desenvolupen la capacitat de presa de decisions en contextos de pressió temporal."
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "Gestió Logística i Comercial",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Compres i magatzem",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona el procés de compres empresarial elaborant i tramitant la documentació mercantil corresponent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha elaborat una sol·licitud de pressupost, una comanda i un albarà de recepció.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han seleccionat proveïdors aplicant criteris de preu, qualitat, termini de lliurament i condicions de pagament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha tramitat la documentació duanera bàsica per a importacions intracomunitàries i extracomunità ries.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han identificat els INCOTERMS principals (EXW, FOB, CIF, DDP) i el seu impacte en el cost de compra.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Controla l'estoc d'un magatzem aplicant mètodes de valoració i tècniques de gestió d'inventaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha valorat l'estoc amb els mètodes FIFO, LIFO i Preu Mig Ponderat (PMP), analitzant les diferències.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha calculat el punt de comanda, l'estoc de seguretat i la quantitat econòmica de comanda (EOQ).",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha aplicat el model VMI (Vendor Managed Inventory) identificant els avantatges per a la cadena de subministrament.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha realitzat un inventari físic i s'han identificat i corregit les diferències d'estoc.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Comercialització i venda",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona les relacions comercials amb clients aplicant tècniques de CRM i estratègies de canal de vendes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha segmentat la cartera de clients i s'han definit estratègies de fidelització per a cada segment.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha gestionat un CRM (Salesforce, HubSpot o similar) registrant oportunitats, contactes i accions comercials.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han analitzat els canals de venda (directe, distribuïdor, e-commerce) i s'ha seleccionat el mix adequat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha elaborat un informe de vendes mensual analitzant desviacions respecte als objectius comercials.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

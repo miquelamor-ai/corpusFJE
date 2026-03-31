@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "CAI",
+    "titol_cicle": "Cures Auxiliars d Infermeria",
+    "familia_professional": "Sanitat",
+    "grau": "mitja",
+    "rd_titol": "RD 546/1995",
+    "resolucio_cat": "Resolucio ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/1995/04/21/pdfs/A11690-11700.pdf",
+    "versio_schema": "1.0",
+    "codi_mp": "MP05",
+    "descripcio": "MP05 proporciona al tècnic CAI els coneixements farmacològics bàsics necessaris per col·laborar amb l'equip d'infermeria en l'administració de medicaments de manera segura, reconeixent els efectes secundaris freqüents i aplicant les normes de gestió del medicament en l'entorn hospitalari i residencial. Les competències s'apliquen en hospitals, residències i centres d'atenció primària.\n\nEl mòdul treballa els principis bàsics de la farmacologia (farmacodinàmica, farmacocinètica, dosi, posologia, vies d'administració), les principals categories terapèutiques d'ús freqüent en el pacient hospitalitzat (analgèsics, antibiòtics, antihipertensius, antidiabètics, anticoagulants, diuètics, corticoides, broncodilatadors), els principis de seguretat en l'administració de medicaments (regla dels 5 correctes, doble comprovació en medicaments d'alt risc), i els errors de medicació i la seva prevenció (sistema d'alertes, comunicació d'incidents). S'estudia la gestió del medicament a la unitat d'hospitalització (carros de medicació, neveres, estupefaïents, caducitats) d'acord amb la Llei 29/2006 del medicament i els protocols de l'hospital.\n\nLa metodologia inclou el càlcul de dosis bàsiques, la preparació de medicació oral i injectable (simulació sense punxada real), la interpretació de les targetes de medicació del pacient i la simulació de situacions d'errors de medicació i actuació davant reaccions adverses freqüents. L'alumnat treballa amb el programari de prescripció electrònica assistida i el registre de l'administració de medicaments al sistema informàtic de la unitat."
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "Farmacologia basica i administracio de medicaments",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Farmacologia basica i administracio segura de medicaments",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els principals grups farmacologics i la seva accio terapeutica, efectes secundaris i contraindicacions en el context de les cures auxiliars d infermeria",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Classifica els farmacs mes utilitzats en l ambit hospitalari i d atencio primaria per grups terapeutics (analgesics, antipireticos, antibioctics, antihipertensius, hipoglucemiants, anticoagulants, ansiolitics) descrivint el mecanisme d accio i les indicacions principals",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Identifica els efectes secundaris mes frequents i les reaccions adverses greus dels farmacs d us comun i les actuacions davant una sospita de reaccio adversa al personal d infermeria",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Interpreta les prescripcions mediques orals i escrites (nom farmac, dosi, via, frequencia i durada) identificant possibles errors de prescripcio i aplicant el protocol de comunicacio de dubtes al personal d infermeria",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Descriu les interaccions farmacologiques mes rellevants en el pacient polimedicat (anticoagulants i AINEs, antihipertensius i diuretics) i la importancia de revisar la llista de medicaments a cada ingres",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Prepara i administra medicaments per les principals vies d administracio seguint les ordres del personal d infermeria i els protocols del centre",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Prepara medicaments per via oral (comprimit, gelula, solucio, suspensio) calculant la dosi unitaria a partir de la presentacio disponible, i verifica la compatibilitat amb la via de sonda nasogastrica",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Prepara medicaments injectables calculant el volum a aspirar a partir de la concentracio de l ampolla o el vial i realitza la injeccio intramuscular i subcutania amb tecnica aseptica",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Prepara els medicaments per via topica (pomada, crema, col.liri, pegat transdermique) seguint les indicacions d aplicacio i la frequencia prescrites i registrant l aplicacio a la historia clinica",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Respecta els deu drets de l administracio de medicaments aplicant la doble verificacio en farmacs d alt risc (insulines, opiacis, anticoagulants, electrolits concentrats)",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Conserva, emmagatzema i gestiona els medicaments seguint la normativa vigent i els protocols del centre sanitari",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Emmagatzema els medicaments en les condicions adequades de temperatura (ambient, refrigeraci 2-8 graus C, congelacio -20 graus C) i llum, i verifica la caducitat dels estocs aplicant el sistema FIFO en la rotacio del carro de medicacio",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Gestiona el carro de medicacio verificant el stock, realitzant les comandes a la farmacia hospitalaria i controlant els medicaments de doble clau (estupefaents, benzodiacepines, opiacis) documentant existencies i consums",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Detecta i notifica errors i incidents en la cadena del medicament (error de dispensacio, preparacio, administracio) al sistema de notificacio del centre (NOTIFIC@, SNNS) per contribuir a la seguretat del pacient",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Descriu la farmacovigilancia com el sistema de monitoratge dels efectes adversos dels medicaments (targeta groga de l AEMPS) i la seva importancia per a la seguretat del pacient i la deteccio de nous efectes adversos",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Aplica les normes d administracio segura de medicaments d alt risc i gestiona les situacions de reaccio al.lergica o adversa greu",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "Identifica els medicaments d alt risc categoritzats per l ISMP Espanya (insulines, opiacis, anticoagulants orals, citostaticos, electrolits concentrats) i aplica les mesures de doble verificacio i etiquetatge especial",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.2",
+                "text": "Actua davant una reaccio anafilactica (angioedema, urticaria, hipotensio, broncoespasme) seguint el protocol d emergencia (avis urgent a infermeria, posicio del pacient, preparacio d epinefrina i equip de reanimacio)",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "Actua davant una extravasacio d un farmac vesicant (vincristina, doxorubicina, solucio hipertonica) aplicant el protocol del centre (aturar la infusio, aspirar al maxim, injectar antidot si n hi ha, seguiment de la zona)",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "Documenta les incidencies relacionades amb la medicacio (reaccions adverses, errors d administracio) a la historia clinica electronica del pacient i al sistema de notificacio intern del centre",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

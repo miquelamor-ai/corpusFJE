@@ -1,0 +1,298 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "rd_titol": "RD 1629/2009, de 30 d'octubre",
+    "resolucio_cat": "Resolució ENS/1787/2010, de 26 de maig",
+    "font": "https://www.boe.es/eli/es/rd/2009/10/30/1629",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Gestió d’un Sistema Operatiu Lliure aprofundeix en l’administració avançada de GNU/Linux i introdueix la virtualització i la contenidorització com a tecnologies clau de la infraestructura moderna. Les competències adquirides s’apliquen en rols d’administrador de sistemes Linux, enginyer DevOps o tècnic de plataformes en entorns que operen infraestructura basada en programari lliure.\n\nEls continguts cobreixen la gestió avançada de sistemes de fitxers LVM i RAID per software, la compilació i gestió de paquets, la creació i gestió de màquines virtuals amb KVM/QEMU i libvirt, i la gestió de contenidors amb Docker (imatges, xarxes, volums, Docker Compose). S’introdueix Kubernetes per a l’orquestració de contenidors a nivell bàsic. L’automatització és un eix central: scripting avançat en Bash i Python, gestió de configuració amb Ansible (playbooks, rols, inventaris), pipelines CI/CD bàsics amb Jenkins o GitLab CI i monitorització avançada amb Prometheus i Grafana.\n\nEl mòdul té un enfocament eminentment pràctic basat en la línia de comandes. Els alumnes gestionen infraestructures completes al laboratori: despleguen clústest KVM, construeixen imatges Docker personalitzades i automatitzen la configuració de servidors amb Ansible. El projecte final consisteix a desplegar una aplicació multi-contenidor amb monitorització i recuperació automàtica davant fallades."
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "Gestió d'un sistema operatiu lliure",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Virtualització",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta solucions de virtualització configurant hipervisors de tipus 1 i tipus 2, i gestionant màquines virtuals en entorns de producció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'han identificat els conceptes fonamentals de la virtualització: hipervisors de tipus 1 (bare-metal) i tipus 2 (hosted), i les seves diferències.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat VMware ESXi com a hipervisor de tipus 1 en un servidor físic.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'ha instal·lat i configurat VirtualBox i VMware Workstation com a hipervisors de tipus 2 per a entorns de desenvolupament i proves.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha configurat i gestionat KVM (Kernel-based Virtual Machine) sobre sistemes GNU/Linux utilitzant libvirt i virt-manager.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'han creat i configurat màquines virtuals assignant recursos (CPU virtual, RAM, discs virtuals, xarxes) de manera eficient.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han gestionat snapshots i clons de màquines virtuals per a còpies de seguretat i desplegament ràpid.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1g",
+                "text": "S'han configurat xarxes virtuals (NAT, pont, xarxa interna, host-only) per interconnectar màquines virtuals entre si i amb la xarxa física.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1h",
+                "text": "S'ha realitzat la migració de màquines virtuals entre hipervisors i entre hosts utilitzant eines d'exportació/importació (OVF/OVA).",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Fonaments de la virtualització",
+                "items": [
+                  "Conceptes de virtualització: màquina virtual, hipervisor, host, guest",
+                  "Hipervisors de tipus 1: VMware ESXi, Microsoft Hyper-V, Proxmox VE",
+                  "Hipervisors de tipus 2: VirtualBox, VMware Workstation, QEMU",
+                  "Virtualització completa vs. paravirtualització; extensions de virtualització de la CPU (VT-x, AMD-V)"
+                ]
+              },
+              {
+                "bloc": "VMware i VirtualBox",
+                "items": [
+                  "Instal·lació i configuració de VMware ESXi i vSphere Client",
+                  "Creació i gestió de màquines virtuals amb VMware: configuració de recursos i xarxa",
+                  "Instal·lació i configuració de VirtualBox; Guest Additions",
+                  "Gestió de snapshots, clons i exportació OVF/OVA"
+                ]
+              },
+              {
+                "bloc": "KVM i libvirt",
+                "items": [
+                  "Instal·lació de KVM i libvirt en sistemes GNU/Linux (Debian/Ubuntu, Rocky Linux)",
+                  "Gestió de màquines virtuals amb virt-manager i virsh",
+                  "Configuració de xarxes virtuals amb libvirt: NAT, pont i xarxes aïllades",
+                  "Gestió d'imatges de disc virtuals: qcow2, raw; redimensionament i snapshots"
+                ]
+              },
+              {
+                "bloc": "Xarxes i emmagatzematge virtual",
+                "items": [
+                  "Xarxes virtuals: NAT, pont (bridge), host-only, xarxa interna",
+                  "Commutadors virtuals (vSwitch) i grups de ports en VMware",
+                  "Emmagatzematge virtual: thin provisioning vs. thick provisioning",
+                  "Migració de màquines virtuals: live migration, vMotion"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Contenidors i orquestració",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desplega i gestiona aplicacions en contenidors Docker i configura plataformes d'orquestració Kubernetes per a entorns de producció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'han identificat les diferències entre contenidors i màquines virtuals, i els casos d'ús adequats per a cada tecnologia.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat Docker Engine en sistemes GNU/Linux i s'ha verificat el seu funcionament.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han creat imatges Docker personalitzades mitjançant fitxers Dockerfile, aplicant bones pràctiques (imatges base lleugeres, capes mínimes, usuari no root).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'han gestionat contenidors Docker (creació, execució, aturada, eliminació) i s'han configurat volums i xarxes de contenidors.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha definit i desplegat aplicacions multi-contenidor utilitzant Docker Compose, configurant serveis, xarxes i volums.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'ha configurat un registre d'imatges Docker (Docker Hub, registre privat) per emmagatzemar i distribuir imatges personalitzades.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1g",
+                "text": "S'ha instal·lat i configurat un clúster Kubernetes (k8s) i s'han desplegat aplicacions utilitzant Pods, Deployments i Services.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1h",
+                "text": "S'ha configurat la gestió de recursos en Kubernetes: namespaces, límits de CPU/memòria, ConfigMaps i Secrets.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Fonaments de contenidors i Docker",
+                "items": [
+                  "Conceptes de contenidor: aïllament de processos, namespaces, cgroups, capes de sistema de fitxers",
+                  "Diferències entre contenidors i màquines virtuals: avantatges i limitacions",
+                  "Instal·lació de Docker Engine i Docker CLI; Docker Desktop",
+                  "Cicle de vida d'un contenidor: imatge, contenidor, registre"
+                ]
+              },
+              {
+                "bloc": "Docker: imatges, contenidors i xarxes",
+                "items": [
+                  "Dockerfile: instruccions FROM, RUN, COPY, ADD, EXPOSE, CMD, ENTRYPOINT",
+                  "Construcció d'imatges: docker build, docker tag, docker push",
+                  "Gestió de contenidors: docker run, exec, logs, inspect, stats",
+                  "Xarxes Docker: bridge, host, none, xarxes personalitzades; DNS intern",
+                  "Volums Docker: volums gestionats, bind mounts, tmpfs"
+                ]
+              },
+              {
+                "bloc": "Docker Compose",
+                "items": [
+                  "Fitxer docker-compose.yml: estructura, serveis, xarxes i volums",
+                  "Desplegament de piles multi-contenidor: bases de dades, servidors web, aplicacions",
+                  "Variables d'entorn i fitxers .env en Docker Compose",
+                  "Escalat de serveis i dependències entre contenidors"
+                ]
+              },
+              {
+                "bloc": "Kubernetes",
+                "items": [
+                  "Arquitectura de Kubernetes: master node, worker nodes, etcd, API server, scheduler",
+                  "Objectes bàsics: Pod, Deployment, ReplicaSet, Service, Namespace",
+                  "Instal·lació d'un clúster k8s: minikube (desenvolupament), kubeadm (producció)",
+                  "Gestió amb kubectl: apply, get, describe, logs, exec, delete",
+                  "ConfigMaps i Secrets; Ingress i exposició de serveis; Persistent Volumes"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Automatització i scripting avançat",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Automatitza tasques d'administració de sistemes mitjançant scripts Bash i Python avançats, i gestiona la configuració d'infraestructures amb Ansible.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'han creat scripts Bash avançats amb estructures de control, funcions, gestió d'errors i arguments per automatitzar tasques d'administració.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'han utilitzat expressions regulars i eines de processament de text (awk, sed, grep) dins de scripts Bash per manipular fitxers i sortides de comandes.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han programat scripts Python per a tasques d'administració de sistemes: gestió de fitxers, processos, xarxa i API REST.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha instal·lat i configurat Ansible i s'han creat inventaris per gestionar grups d'hosts remots.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'han escrit playbooks Ansible per automatitzar la instal·lació de programari, la configuració de serveis i la gestió d'usuaris en múltiples servidors.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han creat rols Ansible reutilitzables per estructurar i modularitzar la configuració d'infraestructures complexes.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1g",
+                "text": "S'han integrat scripts d'automatització amb eines de control de versions (Git) i s'han establert fluxos de treball bàsics de CI/CD.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1h",
+                "text": "S'han programat tasques periòdiques amb cron i systemd timers, i s'han monitorat els registres del sistema per detectar errors d'automatització.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Scripting Bash avançat",
+                "items": [
+                  "Funcions en Bash: definició, paràmetres, valors de retorn i àmbit de variables",
+                  "Gestió d'errors: codis de sortida, trap, set -e, set -o pipefail",
+                  "Processament d'arguments: getopts, $@, $#",
+                  "Expressions regulars i eines de text: grep -E, sed, awk, cut, sort, uniq",
+                  "Redirecció avançada: here documents, here strings, descriptors de fitxers"
+                ]
+              },
+              {
+                "bloc": "Python per a administració de sistemes",
+                "items": [
+                  "Mòduls estàndard per a sys-admin: os, sys, subprocess, shutil, pathlib",
+                  "Gestió de fitxers de configuració: configparser, json, yaml (PyYAML)",
+                  "Automatització de xarxa: socket, paramiko (SSH), requests (API REST)",
+                  "Scripts Python per a gestió de processos i monitoratge del sistema"
+                ]
+              },
+              {
+                "bloc": "Ansible: gestió de configuració",
+                "items": [
+                  "Arquitectura d'Ansible: control node, managed nodes, inventari, playbooks, mòduls",
+                  "Instal·lació i configuració d'Ansible; autenticació SSH amb claus",
+                  "Playbooks YAML: plays, tasks, handlers, variables, facts i condicionals",
+                  "Mòduls Ansible essencials: apt/dnf, copy, template, service, user, file, command",
+                  "Rols Ansible: estructura de directoris, reutilització i Ansible Galaxy"
+                ]
+              },
+              {
+                "bloc": "Automatització i CI/CD bàsic",
+                "items": [
+                  "Planificació de tasques: cron, crontab, systemd timers",
+                  "Control de versions amb Git: flux de treball bàsic aplicat a scripts i playbooks",
+                  "Introducció a CI/CD: pipelines bàsics amb GitHub Actions o GitLab CI",
+                  "Monitoratge d'automatitzacions: logs de sistema, journalctl, alertes bàsiques"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

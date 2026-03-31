@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GUIA",
+    "titol_cicle": "Guia en el Medi Natural i de Temps de Lleure",
+    "familia_professional": "Activitats Físiques i Esportives",
+    "grau": "mitja",
+    "rd_titol": "RD 402/2020",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Conducció de Grups a Peu i en Activitats d'Escalada forma el tècnic en les competències de guiatge de senderisme, travesses de muntanya i supervisió d'activitats d'escalada esportiva. Habilita per treballar com a guia de senderisme, monitor d'escalada en rocòdroms i parets naturals, i tècnic en empreses d'aventura i turisme actiu.\n\nEls continguts cobreixen la planificació d'itineraris a peu (senyalització GR/PR/SL, càlcul de temps, gestió meteorològica), les tècniques de conducció de grup en marxa (ritme, comunicació, reagrupament, decisió en bifurcacions), i la progressió en roques: materials d'escalada (arnès, corda, mosquetó, assegurador), tècniques d'assegurança i ràpel, instal·lació de reunions i avaluació del risc objectiu i subjectiu.\n\nLa formació es desenvolupa al rocòdrom del centre i en parets naturals de la geografia catalana. L'alumne practica la conducció de companys en rutes reals i supervisa activitats d'escalada en condicions controlades. L'avaluació inclou proves pràctiques en terreny real i la presentació d'un projecte de ruta guiada completa."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Conducció de grups a peu i en activitats d'escalada",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Senderisme i guiatge a peu",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Guia grups en rutes de senderisme i travesses de muntanya, adaptant el ritme i la comunicació al perfil dels participants.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha planificat un itinerari a peu valorant desnivell, distància, horari i capacitat del grup.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han interpretat senyals de camins homologats (GR, PR, SL).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha conduït el grup amb tècniques de comunicació i dinamització durant la marxa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha gestionat la previsió meteorològica i les decisions de ruta en cas de canvi de condicions.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Progressió en roques i escalada esportiva",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA2",
+            "text": "Supervisa activitats d'escalada esportiva i progressió en roques en condicions de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han identificat els materials d'escalada: arnès, corda, mosquetó, dispositiu d'assegurança, casc.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han aplicat tècniques d'assegurança i ràpel en paret natural i rocòdrom.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han instal·lat reunions i punts d'ancoratge bàsics.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha avaluat el risc objectiu i subjectiu de la via d'escalada.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

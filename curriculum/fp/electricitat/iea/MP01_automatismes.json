@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "familia_professional": "Electricitat i Electrònica",
+    "grau": "mitja",
+    "rd_titol": "RD 177/2008",
+    "resolucio_cat": "Resolució ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07960-07985.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d'Automatismes Industrials capacita l'alumne de Grau Mitjà IEA per muntar, verificar i mantenir circuits de maniobra amb contactors, relés i elements de comandament, i per programar autòmats programables (PLC) en entorns industrials senzills. Les competències adquirides s'apliquen directament en tasques d'instal·lador elèctric: muntatge de quadres de maniobra, arrencadors de motors i sistemes de control discret en indústria, comerç i serveis.\n\nEl mòdul treballa amb contactors, relés tèrmics, temporitzadors i finals de carrera seguint la simbologia normalitzada IEC/UNE. A la UF1 s'estudia el circuit de potència i el circuit de maniobra, incloent enclavaments elèctrics i mecànics, arrencadors estrella-triangle i diagnosi d'avaries amb multímetre. A la UF2 s'introdueix el controlador lògic programable (PLC): arquitectura de CPU, mòduls d'entrades i sortides digitals, cicle de scan, i programació en llenguatge de contactes Ladder amb temporizadors i comptadors, amb PLCs Siemens S7 i Allen-Bradley Micro. La normativa de referència és IEC 60617 i les prescripcions de seguretat elèctrica aplicables a treballs en baixa tensió.\n\nEl mòdul es desenvolupa principalment al taller elèctric, on l'alumne munta circuits reals sobre panells de pràctiques i quadres de maniobra. La posada en marxa supervisada de programes PLC, la simulació amb software de fabricant i la verificació amb instruments de mesura (multímetre, comprovador de fases) són activitats centrals. S'apliquen en tot moment les normes de seguretat elèctrica i els equips de protecció individual corresponents al treball en baixa tensió industrial."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Automatismes Industrials",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Automatismes elèctrics",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els components dels automatismes elèctrics identificant les seves característiques i funcions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els tipus de contactors i les seves aplicacions en circuits de maniobra.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han descrit les característiques tècniques dels relés tèrmics i el seu paper en la protecció de motors.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han classificat els relés temporitzadors (a la connexió i a la desconnexció) i els seus símbols normalitzats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han identificat els elements de comandament (polsadors, selectors, finals de carrera) i els seus símbols.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han consultat els catàlegs tècnics per seleccionar components adequats a les necessitats del circuit.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Interpreta esquemes elèctrics de maniobra aplicant la simbologia normalitzada (IEC/UNE).",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han llegit i interpretat esquemes de circuits de marxa-parada amb autoencastament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han identificat els circuits de potència i de maniobra en un esquema complet.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha verificat la correspondència entre el circuit de maniobra i el de potència.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han identificat les mesures de seguretat representades en l'esquema (enclavaments, proteccions).",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Munta i verifica circuits d'automatismes elèctrics aplicant les tècniques de cablejat correctes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha realitzat el cablejat d'un circuit de marxa-parada simple sobre panel de pràctiques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha muntat un circuit de marxa-parada amb enclavament elèctric i mecànic.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha muntat un circuit d'arrancador estrella-triangle i comprovat el seu funcionament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha verificat el funcionament del circuit amb instruments de mesura (multímetre, comprovador de fases).",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA3.5",
+                "text": "S'han aplicat les normes de seguretat elèctrica durant el muntatge i la verificació.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Diagnostica avàries en circuits d'automatismes elèctrics aplicant metodologia sistemàtica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'ha realitzat una inspecció visual prèvia per detectar anomalies evidents (cables cremats, contactes oxidats).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'ha seguit una metodologia lògica de diàgnosi (des de la font cap a la càrrega).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'ha usat el multímetre per mesurar tensions i continuitats en el circuit defectuós.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'ha localitzat l'avària i proposat la solució correctiva adequada.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "PLC iniciació",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els components i l'arquitectura d'un controlador lògic programable (PLC) industrial.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han descrit els blocs funcionals d'un PLC (CPU, mòduls E/S, font d'alimentació, rack).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat els tipus d'entrades i sortides (digitals i analògiques) i el seu connexionat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha descrit el cicle de scan del PLC i la seva influència en el control de processos.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han comparat PLCs de diferents fabricants (Siemens S7, Allen-Bradley Micro) i les seves prestacions bàsiques.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha realitzat la connexió de sensors i actuadors als mòduls d'E/S del PLC.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Programa un PLC en llenguatge de contactes (Ladder) per resoldre automatismes bàsics.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han identificat els elements bàsics del llenguatge Ladder (contactes NA/NC, bobines, temporizadors, comptadors).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha programat un circuit de marxa-parada amb autoencastament en Ladder.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han programat seqüències temporitzades i comptadors per controlar processos simples.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha simulat el programa amb el software del fabricant abans de carregar-lo al PLC.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha documentat el programa amb comentaris i descripció de les variables.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Posa en marxa i verifica programes de PLC en instal·lacions reals o simulades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha transferit el programa al PLC i verificat la configuració de les E/S.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha realitzat la posada en marxa supervisada d'un automatisme senzill controlat per PLC.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha usat el mode monitor del software per fer el seguiment en temps real de l'execució del programa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han localitzat i corregit errors de programació a partir de l'observació del comportament del sistema.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

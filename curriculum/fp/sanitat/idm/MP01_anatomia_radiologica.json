@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IDM",
+    "titol_cicle": "Imatge per al Diagnòstic i Medicina Nuclear",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 770/2014",
+    "resolucio_cat": "Resolució ENS/XXX/2015",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2014/09/19/pdfs/BOE-A-2014-9566.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Anatomia Radiològica del cicle Imatge per al Diagnòstic i Medicina Nuclear forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de sanitat. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a anatomia radiològica en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de anatomia radiològica: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de sanitat. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Anatomia Radiològica",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Anatomia per la imatge",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica estructures anatòmiques en imatges radiològiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica anatomia de cràni i columna en radiografia i TC.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Identifica anatomia toracoabdominal en TC i RM.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Identifica anatomia musculoesquelètica en radiografia i RM.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Reconeix variants anatòmiques normals.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Anatomia seccional",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Interpreta anatomia seccional en plans axial, coronal i sagital.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Interpreta talls axials de TC cranial.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Interpreta talls de TC toracoabdominal.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Interpreta imatges de RM cerebral i articular.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Correlaciona anatomia seccional amb anatomia macroscòpica.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

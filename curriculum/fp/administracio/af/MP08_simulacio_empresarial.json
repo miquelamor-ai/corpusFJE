@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AF",
+    "titol_cicle": "Administracio i Finances",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "superior",
+    "rd_titol": "RD 1584/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/11/17/pdfs/BOE-A-2011-17980.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul és el punt d’integració de tots els aprenentatges del cicle: l’alumnat gestiona una empresa virtual de cap a cap durant tot el curs. Els perfils professionals als quals es prepara són els mateixos que el conjunt del títol, però amb la capacitat diferencial de funcionar de manera autònoma en entorns administratius complexos i de coordinar equips de treball.\n\nLa simulació empresarial integra tots els processos treballats als mòduls anteriors: comptabilitat i fiscalitat (PGC, IVA, IS, IRPF), gestió de personal (nòmines, Seguretat Social, contractació), logística i compres, comunicació amb clients i proveïdors, i gestió financera. S’utilitza un ERP complet (Odoo, Holded o SAP B1) on es configuren tots els mòduls des de zero: pla de comptes, fitxes de productes i clients, cicle de compres i vendes, gestió de tresoreria i generació d’informes de direcció. El Reglament de Facturació i el Codi de Comerç guien la documentació generada.\n\nEls alumnes es distribueixen en ròls empresarials (director financer, responsable de RRHH, cap de compres, etc.) que rodalitzen al llarg del curs. Les decisions es prenen en equip i s’avaluen per la seva impacte en els resultats de l’empresa simulada: rendibilitat, liquiditat i satisfacció del client. El mòdul culmina amb una presentació davant d’un jurat extern dels resultats de l’exercici empresarial."
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "Simulacio Empresarial",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Practica simulada integral SEFED",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Opera en el marc de l'empresa simulada SEFED complint les funcions d'un departament administratiu real.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Gestiona la documentacio d'entrada i sortida de l'empresa simulada amb rigor i ordre.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Processa comandes, factures i albarans seguint el circuit comercial complet de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Collabora amb altres departaments (comptabilitat, RRHH, logistica) dins la xarxa SEFED.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Utilitza el software ERP de l'empresa simulada per registrar totes les operacions.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona de manera integral el cicle comptable i fiscal de l'empresa simulada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Registra totes les operacions comptables de l'empresa simulada al software gestio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Tanca l'exercici comptable i elabora el balanc i el compte de resultats de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Elabora les liquidacions periodiques d'IVA i retencions de l'empresa simulada.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Analitza els resultats financers i proposa millores a la gestio de l'empresa.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Elabora la documentacio de tancament i presentacio de resultats de l'empresa simulada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Prepara la memoria anual de l'empresa simulada amb els indicadors de gestio clau.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Presenta els comptes anuals i els resultats de gestio als avaluadors i companys.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Reflexiona sobre les decisions preses i els errors comesos durant la simulacio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Elabora un informe de millora amb propostes per a la seguent edicio de simulacio.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

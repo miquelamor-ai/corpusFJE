@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "A3D",
+    "titol_cicle": "Animacions 3D, Jocs i Entorns Interactius",
+    "familia_professional": "Imatge i So",
+    "grau": "superior",
+    "rd_titol": "RD 1087/2012",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El cicle formatiu de grau superior en Animacions 3D, Jocs i Entorns Interactius forma professionals capacos de crear continguts multimedia interactius, animacions tridimensionals i videojocs. L'alumnat adquireix competencies en modelatge 3D, texturitzacio, il·luminacio digital, rigging i animacio de personatges, aixi com en el disseny i programacio de mecaniques de joc.\n\nLa formacio integra coneixements tecnics i artistics, combinant el domini de programari especialitzat com Unity, Unreal Engine, Maya, 3ds Max i Blender amb fonaments de narrativa visual, disseny de nivells i experiencia d'usuari. Es treballen projectes reals que simulen fluxos de produccio professionals en estudis d'animacio i desenvolupament de videojocs.\n\nLes sortides professionals inclouen animador/a 3D, modelador/a de personatges i escenaris, dissenyador/a de videojocs, artista d'efectes visuals, programador/a de mecaniques interactives i tecnic/a en realitat virtual i augmentada. El sector de l'entreteniment digital es un dels de major creixement a Catalunya i a escala internacional, oferint oportunitats en estudis d'animacio, empreses de videojocs, productores audiovisuals i departaments de comunicacio digital."
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "Programacio i Engines",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Fonaments de programacio per a videojocs",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa scripts funcionals per a entorns interactius.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Aplica estructures de dades i algorismes basics en C# o similar.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Implementa patrons de disseny habituals en videojocs.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Programa sistemes d'entrada i control del jugador.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Depura i optimitza el codi seguint bones practiques.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Motors de joc (Unity / Unreal)",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Utilitza motors de joc per desenvolupar entorns interactius complets.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Configura escenes, cameres i sistemes de joc dins del motor.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Implementa mecaniques de joc (fisica, IA basica, interficies).",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Integra assets 3D, sons i animacions dins del motor.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Genera builds per a diferents plataformes (PC, mobil, consola).",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Realitat virtual augmentada i experiencies immersives",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions de realitat virtual i augmentada funcionals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Configura entorns de RV i RA amb els SDK corresponents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Implementa interaccions naturals amb controladors i tracking.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Optimitza el rendiment per garantir fluidesa en temps real.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Aplica principis d'experiencia d'usuari especifics de RV/RA.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

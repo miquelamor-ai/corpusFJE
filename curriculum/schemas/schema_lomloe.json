@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schema_lomloe_v1",
+  "description": "Schema per al currículum LOMLOE de Catalunya: Primària, ESO i Batxillerat. Decret 175/2022 (P+ESO) i Decret 221/2022 (BAT).",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "familia":       { "type": "string", "const": "lomloe" },
+        "etapa":         { "type": "string", "enum": ["primaria", "eso", "batxillerat"] },
+        "area_materia":  { "type": "string", "examples": ["Matemàtiques", "Filosofia", "Llengua Catalana"] },
+        "codi_area":     { "type": "string", "examples": ["MAT", "FIL", "LC"] },
+        "decret":        { "type": "string", "examples": ["175/2022", "221/2022"] },
+        "versio_schema": { "type": "string" }
+      },
+      "required": ["familia", "etapa", "area_materia", "codi_area", "decret", "versio_schema"]
+    },
+
+    "competencies_clau": {
+      "type": "array",
+      "description": "Codis de les CC que treballa aquesta àrea/matèria",
+      "items": {
+        "type": "string",
+        "enum": ["CCL", "CP", "STEM", "CD", "CPSAA", "CC", "CE", "CCEC"]
+      }
+    },
+
+    "cursos": {
+      "type": "object",
+      "description": "Claus: '1r', '2n', '3r'... per ESO/BAT. Per primària també es pot usar '1r_cicle', '2n_cicle', '3r_cicle'.",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+
+          "competencies_especifiques": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "codi":                { "type": "string", "examples": ["CE1", "CE2"] },
+                "text":                { "type": "string" },
+                "competencies_clau":   {
+                  "type": "array",
+                  "description": "Quines CC activa aquesta CE",
+                  "items": { "type": "string" }
+                },
+                "criteris_avaluacio": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "codi": { "type": "string", "examples": ["CA1.1", "CA1.2"] },
+                      "text": { "type": "string" },
+                      "descriptors_assoliment": {
+                        "type": "object",
+                        "description": "4 nivells LOMLOE",
+                        "properties": {
+                          "NA":  { "type": "string", "description": "No assolit" },
+                          "AS":  { "type": "string", "description": "Assolit satisfactòriament" },
+                          "AN":  { "type": "string", "description": "Assolit notablement" },
+                          "AE":  { "type": "string", "description": "Assolit excel·lentment" }
+                        }
+                      }
+                    },
+                    "required": ["codi", "text"]
+                  }
+                }
+              },
+              "required": ["codi", "text", "criteris_avaluacio"]
+            }
+          },
+
+          "sabers_basics": {
+            "type": "array",
+            "description": "Organitzats per blocs temàtics",
+            "items": {
+              "type": "object",
+              "properties": {
+                "bloc": { "type": "string", "examples": ["Sentit numèric", "Mesura", "Geometria"] },
+                "sabers": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "codi":                    { "type": "string", "examples": ["S1.1", "S2.3"] },
+                      "text":                    { "type": "string" },
+                      "competencies_relacionades": {
+                        "type": "array",
+                        "description": "Codis de CE que treballen aquest saber",
+                        "items": { "type": "string" }
+                      }
+                    },
+                    "required": ["codi", "text"]
+                  }
+                }
+              },
+              "required": ["bloc", "sabers"]
+            }
+          }
+
+        },
+        "required": ["competencies_especifiques", "sabers_basics"]
+      }
+    }
+
+  },
+  "required": ["meta", "competencies_clau", "cursos"]
+}

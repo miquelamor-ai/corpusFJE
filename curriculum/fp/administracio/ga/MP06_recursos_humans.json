@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GA",
+    "titol_cicle": "Gestio Administrativa",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "mitja",
+    "rd_titol": "RD 1456/2012",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2013/01/31/pdfs/BOE-A-2013-1118.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul introdueix l’auxiliar administratiu en els processos bàsics d’administració de personal, proporcionant les competències necessaries per donar suport a l’àrea de recursos humans en petites i mitjanes empreses. Els llocs de treball als quals s’orienta inclouen auxiliar de RRHH, auxiliar de nòmines i assistent de personal en empreses amb departament de RRHH constituent o en gestories laborals.\n\nEls continguts cobreixen la documentació laboral bàsica: alta i baixa a la Seguretat Social (sistema RED), tipus de contractes més habituals i els seus requisits següons l’Estatut dels Treballadors, elements de la nòmina (salari base, complements, retencions d’IRPF i cotització a la SS) i el calendari de les obligacions laborals mensuals i anuals. A diferència del grau superior (MP02 i MP07 AF), no s’entra en gestió de plans de formació, avaluació de l’acompliment ni relacions laborals complexes, sinó en la tramitració administrativa operativa.\n\nLa metodologia combina l’anàlisi de nòmines reals anonimitzades (identificació dels seus elements) amb la pràctica de càlcul de retencions i cotitzacions en casos senzills. L’alumnat practica la cumplimentació de formularis oficials (contractes, TC1, TC2) i la gestió del calendari laboral d’una empresa ficticia, adquirint una visió operativa del cicle administratiu de personal."
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "Recursos Humans Basics",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Contractacio, nomines i seguretat social",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora nomines basiques de treballadors aplicant la legislacio laboral i les deduccions vigents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica les parts d'una nomina (salari base, complements, deduccions de SS i IRPF, liquid a percebre).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Calcula les quotes de Seguretat Social (contingencies comunes, atur, formacio) a carrec empresa i treballador.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Aplica la retencio d'IRPF sobre el salari brut en funcio de la situacio personal del treballador.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Verifica la correcio d'una nomina detectant errors en les bases, tipus i imports.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Tramita documentacio basica de contractacio laboral aplicant els tipus de contractes mes habituals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Identifica els tipus de contractes mes habituals (indefinit, temporal, a temps parcial, en practiques) i les seves caracteristiques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Completa models de contracte laboral amb les dades del treballador i de l'empresa correctament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Tramita altes i baixes a la Seguretat Social a traves del Sistema RED online (simulacio).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Identifica les obligacions de l'empresa en materia de comunicacio de contractes i registre de jornada.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

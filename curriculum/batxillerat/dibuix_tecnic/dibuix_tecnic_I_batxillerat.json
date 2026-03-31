@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Dibuix Tècnic I",
+    "codi_area": "DT1",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Dibuix-Tecnic-I.pdf",
+    "nota_estructura": "Matèria de 1r BAT, modalitat Ciències i Arts.",
+    "versio_schema": "1.0",
+    "descripcio": "El Dibuix Tècnic I és una matèria de la modalitat de Ciències i de la modalitat d'Arts de primer de Batxillerat que introdueix els fonaments del llenguatge gràfic normalitzat com a eina universal de comunicació tècnica. Connecta directament amb els estudis d'arquitectura, enginyeria, disseny industrial i formació professional tecnològica, i desenvolupa la capacitat de pensar i comunicar en l'espai.\n\nLa matèria treballa la normalització UNE/ISO —formats, escales, línies i acotació—, les construccions de geometria plana —bisectrius, tangències, corbes còniques i espirals—, i la representació ortogonal en el sistema dièdric europeu amb les seves vistes canòniques: alçat, planta i perfil. S'hi introdueixen els sistemes axonomètrics —isometria, dimètria i perspectiva cavalera— com a recursos per a la visualització tridimensional. El CAD 2D i les eines de representació digital complementen la formació analògica, afegint criteris de productivitat i precisió a la documentació tècnica.\n\nL'enfocament pedagògic és pràctic i progressiu: els exercicis avancen des de la manipulació d'instruments de dibuix fins a la resolució de problemes de representació cada vegada més complexos. El treball combina la construcció geomètrica precisa a mà alçada i amb instruments amb l'ús de programari CAD, fomentant la transferència entre la representació analògica i la digital."
+  },
+  "competencies_clau": [
+    "CCL",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CE",
+    "CCEC"
+  ],
+  "blocs_sabers": [
+    "normalitzacio",
+    "geometria_plana",
+    "representacio_dihedrica",
+    "axonometria",
+    "informatica_grafica"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Interpretar i aplicar les normes de representació tècnica (UNE/ISO) per produir i llegir documentació gràfica normalitzada, valorant la normalització com a llenguatge universal de la tècnica.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA1.1",
+            "text": "Aplica les normes bàsiques de representació (formats, escales, tipus de línies, retolació) en làmines tècniques manuals i digitals."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Identifica i usa les escales gràfiques i numèriques adequades, calculant les dimensions reals a partir de les representades."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Interpreta i elabora la llegenda, el quadre de retolació i les indicacions de plec seguint els estàndards UNE/ISO."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Diferencia els tipus de línies (contorn, aresta oculta, eix, trencament) i els aplica correctament en la documentació gràfica."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Resoldre problemes de geometria plana aplicant construccions geomètriques fonamentals i relacions entre figures per donar resposta a necessitats de disseny i representació tècnica.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA2.1",
+            "text": "Resol construccions de rectes i angles (bisectrius, mediatrius, paral·leles, perpendiculars) amb precisió instrumental i justificant el procediment."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Construeix polígons regulars i irregulars inscrits i circumscrits, identificant les propietats que en determinen la forma."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Aplica els teoremes de semblança i homotècia per a problemes de proporcionalitat gràfica en contextos de disseny."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Resol tangències i enllaços entre rectes i circumferències, aplicant-los en el disseny de perfils tècnics."
+          },
+          {
+            "codi": "CA2.5",
+            "text": "Traça còniques (el·lipse, paràbola, hipèrbola) a partir de les seves propietats geomètriques i en identifica les aplicacions."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Representar objectes tridimensionals en el sistema dièdric europeu, llegint i elaborant vistes ortogonals per comunicar informació tècnica amb exactitud.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA3.1",
+            "text": "Obté les vistes (planta, alçat, perfil) d'objectes senzills i complexos aplicant les regles de projecció ortogonal."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Reconstrueix la forma tridimensional d'un objecte a partir de les seves vistes dièdriques, detectant possibles inconsistències."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Representa arestes i superfícies visibles i ocultes de forma correcta, distingint aresta de contorn, real i virtual."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Acota plànols de peces mecàniques senzilles seguint les normes d'acotació, garantint la llegibilitat de la documentació."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Representar objectes en sistemes axonomètrics (isometria, dimètria, perspectiva cavalera) per facilitar la comprensió espacial i la comunicació de formes tridimensionals.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA4.1",
+            "text": "Representa objectes prismàtics i cilíndrics en perspectiva isomètrica, respectant els angles i coeficients de reducció."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Dibuixa representacions en perspectiva cavalera d'elements arquitectònics senzills, aplicant l'angle i la reducció axial."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Compara les distorsions de cada sistema axonomètric i tria el més adequat segons l'objectiu comunicatiu."
+          },
+          {
+            "codi": "CA4.4",
+            "text": "Representa circumferències i corbes en perspectiva axonomètrica, integrant-les en conjunts volumètrics."
+          }
+        ],
+        "2n": []
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Utilitzar aplicacions CAD 2D i eines digitals de representació per incrementar la precisió, la productivitat i la qualitat de la documentació tècnica.",
+      "criteris_avaluacio": {
+        "1r": [
+          {
+            "codi": "CA5.1",
+            "text": "Utilitza un programa CAD 2D per crear, modificar i dimensionar geometries, aplicant capes i tipus de línia normalitzats."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Gestiona l'entorn de treball digital (plantilles, blocs, capes, escales d'impressió) per produir documentació tècnica normalitzada."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Exporta i comparteix fitxers en formats estàndard (DWG, PDF, SVG), valorant la interoperabilitat."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Compara el dibuix manual i el digital, identificant els avantatges i limitacions de cada mètode."
+          }
+        ],
+        "2n": []
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r": {
+      "normalitzacio": [
+        "Sistemes de normalització: UNE, ISO, DIN. Àmbit d'aplicació i camp de validància.",
+        "Formats de paper: sèrie A. Doble, triple i quàdruple format.",
+        "Tipus de línies: contorn, aresta oculta, eix de simetria, trencament, auxiliar.",
+        "Escales numèriques i gràfiques: escales de reducció i ampliació normalitzades.",
+        "Retolació normalitzada: tipus de lletra, alçada mínima, inclinació.",
+        "Quadre de retolació: elements obligatoris en plànols tècnics.",
+        "Acotació: elements bàsics i regles generals d'acotació de peces.",
+        "Toleràncies dimensionals i geomètriques: conceptes bàsics.",
+        "Simbologia de vistes en plànols (angle europeu i americà).",
+        "Plec de plànols: procediment estàndard i instruccions de plegat.",
+        "Llegibilitat i claredat: principis de qualitat de la documentació tècnica.",
+        "Aplicació de normes en projectes reals d'enginyeria i arquitectura."
+      ],
+      "geometria_plana": [
+        "Rectes: posicions relatives, angles, bisectriu, mediatriu.",
+        "Paral·leles i perpendiculars: construcció amb regle i compàs.",
+        "Divisió de segments en parts iguals i proporcionals (Tales).",
+        "Polígons regulars: triangle, quadrat, pentàgon, hexàgon, octàgon.",
+        "Polígons irregulars: mètodes de construcció a partir de condicions.",
+        "Circumferència: elements, posicions relatives amb rectes i circumferències.",
+        "Tangències: recta-circumferència i circumferència-circumferència.",
+        "Enllaços: arc d'enllaç interior i exterior entre dues circumferències.",
+        "Homotècia i semblança: centre homotetic, raó, construcció.",
+        "Proporcions: sèries modulars, nombre auri i secció àuria en disseny.",
+        "El·lipse: mètode de l'eix major i menor (trammel) i mètode focal.",
+        "Paràbola: mètode de la directriu i el focus.",
+        "Hipèrbola: construcció a partir de focus i vèrtexs.",
+        "Espirals i evolvents: aplicacions en perfils de dentats i cargols.",
+        "Aplicacions de la geometria plana en el disseny industrial i arquitectònic."
+      ],
+      "representacio_dihedrica": [
+        "Sistema dièdric: plans de projecció, primer i tercer angle.",
+        "Projecció ortogonal: vistes fonamentals (planta, alçat, perfil dret, perfil esquerre).",
+        "Obtenció metòdica de vistes a partir de l'objecte tridimensional.",
+        "Correspondència entre vistes: línies de referència i ordre d'obtenció.",
+        "Arestes visibles (línia contínua) i ocultes (línia discontinua).",
+        "Vistes auxiliars: obtenció per canvi de pla de projecció.",
+        "Seccions: secció recta, secció oblíqua i traç del pla secant.",
+        "Mig tall i tall parcial: convencions en plànols de peces.",
+        "Ruptures i trencaments convencionals en peces llargues.",
+        "Acotació de vistes: regles d'ordre, prioritat i no-redundància.",
+        "Reconstrucció d'objectes a partir de dues o tres vistes.",
+        "Representació de roscats, xavetes i unions mecàniques.",
+        "Lectura de plànols de conjunts mecànics senzills.",
+        "Aplicació del sistema dièdric en projectes arquitectònics bàsics."
+      ],
+      "axonometria": [
+        "Fonaments de la projecció axonomètrica: tipus principals.",
+        "Isometria: angles dels eixos (30 graus) i coeficients de reducció.",
+        "Representació isomètrica de prismes, cilindres i objectes compostos.",
+        "El·lipse isomètrica: construcció per al cercle en cada pla de l'isometria.",
+        "Dimètria: angles i coeficients, diferències respecte a la isometria.",
+        "Perspectiva cavalera: angle frontal, coeficient de reducció (0,5).",
+        "Representació cavalera d'objectes amb superfícies corbes i forats.",
+        "Criteris per a la tria del sistema axonomètric.",
+        "Axonometria en arquitectura: representació d'espais i volumetries interiors.",
+        "Obtenció d'axonometria a partir de les vistes ortogonals d'un objecte.",
+        "Ombres en perspectiva axonomètrica: principis bàsics.",
+        "Color i textura en representacions axonomètriques digitals."
+      ],
+      "informatica_grafica": [
+        "Introducció al CAD 2D: entorn de treball, menús i barres d'eines.",
+        "Sistemes de coordenades: cartesianes absolutes, polars i relatives.",
+        "Entitats bàsiques: punt, línia, arc, cercle, polilínia, spline, rectangle.",
+        "Modificació d'entitats: moure, copiar, rotar, escalar, simetria, matriu.",
+        "Capes (layers): creació, propietats i ús per a documentació tècnica.",
+        "Blocs i atributs: creació, inserció i gestió de símbol normalitzats.",
+        "Acotació automàtica: tipus d'acotes (lineal, radial, angular), estils.",
+        "Plantilles de dibuix: configuració d'unitats, límits i escales.",
+        "Impressió i traçat: espai model i paper, escala de plot, estils de traçat.",
+        "Formats d'exportació: DWG, DXF, PDF, SVG i formats d'imatge.",
+        "Programari CAD lliure vs. propietari (FreeCAD, LibreCAD, AutoCAD).",
+        "Us de la IA en la generació i verificació de dibuixos tècnics."
+      ]
+    },
+    "2n": {}
+  }
+}

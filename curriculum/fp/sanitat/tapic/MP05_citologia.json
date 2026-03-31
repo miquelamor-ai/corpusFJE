@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "TAPIC",
+    "titol_cicle": "Anatomia Patologica i Citologia",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 1030/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/07/15/pdfs/BOE-A-2011-12296.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP05 forma el tècnic TAPIC en les tècniques de preparació i tintura de mostres citològiques, un dels pilars del cribratge oncològic i del diagnòstic citopatològic. L'alumnat adquireix les competències per processar mostres ginecològiques, respiratòries, urinàries, de líquids corporals i per puncció amb agulla fina (PAAF), amb aplicació en serveis de citologia hospitalaris, laboratoris de cribratge cervical i unitats de diagnòstic per la imatge.\n\nEl mòdul treballa la citologia exfoliativa i la citologia per aspiració, les tècniques de preparació convencional (extensió, fixació i tintura de Papanicolau) i en capa fina (ThinPrep, SurePath), el processament de mostres líquides (sedimentació, citocentrifugació, filtració) i la tintura de May-Grünwald-Giemsa per a mostres hematològiques i de líquids. S'estudia el Sistema de Bethesda 2014 per a la citologia ginecològica (NILM, ASCUS, LSIL, HSIL, carcinoma), la nomenclatura de la citologia de l'esput i la urinària (Sistema de París 2016) i les bases del cribratge de càncer de coll uteri a Catalunya (PASSIR).\n\nLa metodologia combina processament de mostres reals al laboratori, interpretació de preparacions citològiques al microscopi, ús de la plataforma de citologia digital i sessions de revisió de casos amb el citopatològ. L'alumnat aprèn a classificar les mostres per qualitat, a identificar les cèl·lules normals de cada localització i a reconèixer les alteracions benignes i malignes més freqüents."
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "Citologia",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Citologia exfoliativa: tecnica de Papanicolau",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Processa mostres de citologia exfoliativa (cervicovaginal, esput, orina, liquids biologics) aplicant els protocols preanaltics del laboratori de citologia.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Recepciona i identifica les mostres citologiques verificant l'etiquetatge, el tipus de pot, el fixador i les dades cliniques del volant de peticio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Processa les mostres de cervix (convencional o base liquida) seguint el protocol de centrifugacio, extensio i fixacio en alcohol etanol al 95%.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Prepara extensions d'esput per concentracio mucolisi (Mucolex o DTT) i extensions d'orina per centrifugacio, valorant la cel.lularitat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Processa liquids pleurals, peritoneals i LCR per citocentrifugacio (Cytospin), ajustant la velocitat i temps al tipus de mostra.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza la tintura de Papanicolau (PAP) en citologia exfoliativa, obtenint preparats amb tintura nuclear i citoplasmatics optims per al diagnostic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Efectua la sequencia completa de la tintura PAP (hematoxilina Harris, OG-6, EA-65) respectant els temps d'immersio en cada pas.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Controla la qualitat de la tintura nuclear (blau-violaci fosc amb detall de cromatina) i citoplasmatics (verd basals, rosa superficials, taronja queratinitzades).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Munta els portaobjectes amb medi DPX i comprova l'absencia de bombolles i la correcta cobertura del coverglass.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Registra la serie de tintura (lot, data, responsable) i actua davant incidencies (sobretincio, precipitat) aplicant el protocol d'accions correctives.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Interpreta els preparats citologics ginecologics aplicant la classificacio de Bethesda 2014 per a les alteracions epitelials i no epitelials.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Reconeix les cel.lules del frotis cervicovaginal normal (superficials, intermitges, parabasals, endocervicals, metaplasia escamosa) i valora l'adequacio de la mostra.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Identifica les categories diagnostiques de Bethesda (NILM, ASC-US, LSIL, HSIL, carcinoma) i les alteracions no epitelials (Trichomonas, Candida, Actinomyces, Herpes).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Distingeix els canvis citopatics del VPH (coilocits, binucleacio, hipercromasi) i els correlaciona amb les categories Bethesda corresponents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Completa el formulari de prescreening indicant el resultat i els casos que requereixen revisio pel cito-patolog.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "PAAF i citologia en base liquida (LBC ThinPrep)",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Processa mostres obtingudes per punxio-aspiracio amb agulla fina (PAAF) de tiroides, gangli, mama i altres orgues per a estudi citologic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Recepciona les mostres de PAAF verificant el nombre de passes, la localitzacio de la lesio i el tipus de material (directe, salina o PreservCyt).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Processa el material directe: efectua extensions per tecnica de spreading o squash, fixa en alcohols (citologia humida) o deixa assecar (May-Grunwald Giemsa).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Elabora el bloc cel.lular (cell block) a partir del residu de la PAAF per obtenir seccions per a IHQ en casos de material insuficient.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Valora la idoneitat del material (satisfactori/insatisfactori) i comunica el resultat al clinic seguint el circuit ROSE (Rapid On-Site Evaluation).",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Prepara preparats de citologia en base liquida (LBC) amb el sistema ThinPrep seguint el protocol del fabricant i els controls de qualitat interns.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Opera el processador ThinPrep: carrega els pots PreservCyt, selecciona el programa adequat i supervisa el cicle de filtracio i transferencia.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Realitza la tintura PAP adaptada a base liquida verificant que la monocapa cel.lular te la densitat optima (50.000-70.000 cel.lules/cm2).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Comprova la qualitat dels preparats LBC (monocapa, absencia de fons hemorragic i mucus, cel.lularitat representativa) i registra les incidencies.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Gestiona els residus del PreservCyt (metanol al 50%) segons el pla de residus quimics del centre i mante el registre de manteniment del processador.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Interpreta preparats de PAAF de tiroides aplicant el sistema Bethesda per a la Citologia Tiroidea (TBSRTC) i preparats LBC de cervix en el marc del cribratge de cancer cervical.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Reconeix les categories diagnostiques TBSRTC (I-VI) per a PAAF de tiroides: no diagnostic, benigne, atipia VUS, neoplasia fol.licular, suspita de malignitat i maligne.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Identifica les caracteristiques citomorfologiques del carcinoma papil.lar de tiroides (nuclis en vidre esmerilat, pseudoinclusios, ranures nuclears).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Compara les caracteristiques dels preparats LBC versus citologia convencional (distribucio cel.lular, fons, artefactes) i valora les avantatges del LBC per al cribratge.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Correlaciona el resultat citologic de PAAF de tiroides amb les dades ecografiques (categoria TIRADS) i identifica els casos que requereixen control o biopsia.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

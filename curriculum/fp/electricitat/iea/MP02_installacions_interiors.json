@@ -1,0 +1,202 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "familia_professional": "Electricitat i Electrònica",
+    "grau": "mitja",
+    "rd_titol": "RD 177/2008",
+    "resolucio_cat": "Resolució ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07960-07985.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d'Instal·lacions Elèctriques Interiors forma l'alumne de Grau Mitjà IEA per dissenyar, muntar, verificar i mantenir instal·lacions elèctriques en habitatges i locals comercials. Les competències s'apliquen en les tasques quotidianes de l'instal·lador autoritzat: traçat de canalitzacions, cablejat de circuits, muntatge de quadres de protecció i obtenció del certificat d'instal·lació elèctrica (CIE) necessari per legalitzar la instal·lació.\n\nEl marc normatiu fonamental és el Reglament Electrotècnic per a Baixa Tensió (REBT, RD 842/2002) i les seves instruccions tècniques complementàries ITC-BT-10, 15, 16, 17, 19, 20, 21, 22, 23, 24 i 25. L'alumne aprèn a seleccionar conductors per criteri de densitat de corrent i de caiguda de tensió (límits del 3% i 5%), a triar canalitzacions (tub rígid, flexible, safata, canal), a dimensionar l'interruptor general automàtic (IGA), interruptors magnetotèrmics i diferencials, i a elaborar l'esquema unifilar del quadre. L'esquema de posada a terra (ITC-BT-18) i els esquemes de distribució TT, TN i IT completen el contingut normatiu.\n\nLa part pràctica es desenvolupa al taller elèctric amb instal·lació real en habitatge simulat: traçat de regates, passaconductors, connexió de mecanismes (interruptors, commutadors, preses) i muntatge del quadre. La verificació inclou mesura d'aïllament amb megòhmmetre, comprovació de la posta a terra i test dels diferencials, i finalitza amb l'elaboració de l'acta de verificació. Les normes de seguretat elèctrica i les cinc regles d'or s'apliquen en totes les pràctiques."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Instal·lacions Elèctriques Interiors",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "REBT i instal·lació bàsica",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Interpreta el Reglament Electrotècnic per a Baixa Tensió (REBT) aplicant les instruccions tècniques complementaries (ITC-BT-01 a 25) en la planificació d’instal·lacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els àmbits d’aplicació de les ITC-BT més rellevants (ITC-BT-10, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han determinat les categories de les instal·lacions en funció de la tensió nominal i els criteris de classificació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han identificat els requisits de la ITC-BT-17 per a dispositius de comandament i protecció.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han consultat les taules de la ITC-BT-19 per a la selecció de conductors i seccions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han identificat els esquemes de distribució (TT, TN, IT) i les seves implicacions en la protecció contra contactes indirectes.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Selecciona els cablejats i canalitzacions adequats per a cada tipus d’instal·lació interior seguint les prescripcions del REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han seleccionat els conductors (Cu/Al, secció, aïllament) en funció de la intensitat admissible i la caiguda de tensió.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han identificat els tipus de canalitzacions (tub rígid, flexible, safata, canal) i els seus àmbits d’aplicació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha calculat la caiguda de tensió en una línia i verificat que compleix els límits reglamentaris (3% i 5%).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han aplicat els criteris de selecció de conductors per a circuits de força, llum i preses de corrent.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Dissenya el quadre elèctric de protecció d’una instal·lació bàsica calculant i seleccionant els dispositius de protecció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha calculat la intensitat nominal dels circuits i seleccionat els magnetotèrmics corresponents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han seleccionat els interruptors diferencials en funció de la sensibilitat requerida (30 mA, 300 mA).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha dimensionat el IGA (Interruptor General Automàtic) en funció de la potència total prevista.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha elaborat l’esquema unifilar del quadre de protecció amb tots els elements i les seves connexions.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Instal·lació en habitatges i locals",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza la instal·lació elèctrica interior d’un habitatge aplicant el REBT i les tècniques de muntatge correctes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha interpretat el plànol elèctric de l’habitatge i identificat tots els circuits previstos (il·luminació, preses, cuina, rentadora, etc.).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han traçat i executat les canalitzacions encastades i vistes seguint el projecte.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha realitzat el cablejat dels circuits de lluminació i força respectant els codis de colors.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han connectat els mecanismes (interruptors, commutadors, encreuaments, preses de corrent) i les llumàries.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha muntat i connexionat el quadre de protecció de l’habitatge.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica i certifica les instal·lacions elèctriques realitzades aplicant les proves reglamentàries.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha realitzat la prova d’aïllament entre conductors i entre conductors i terra amb el megòhmmetre.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha mesurat la resistència del circuit de posta a terra i comprovat que compleix els valors reglamentaris.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha verificat el funcionament dels diferencials amb el polsador de test i amb el comprovador de diferencials.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha elaborat l’acta de verificació i el certificat d’instal·lació elèctrica (CIE) correctament.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Localitza i repara avàries en instal·lacions elèctriques interiors de forma segura i eficient.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha identificat el tipus d’avària (curtcircuit, derivació a terra, circuit obert) a partir dels símptomes observats.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha aplicat el protocol de seguretat de les cinc regles d’or abans d’intervenir en la instal·lació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha usat el polímetre i el comprovador de circuits per localitzar el punt de l’avària.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha reparat l’avària i verificat el correcte funcionament de la instal·lació un cop reparada.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

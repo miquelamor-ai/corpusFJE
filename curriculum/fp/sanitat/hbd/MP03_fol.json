@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "HBD",
+    "titol_cicle": "Higiene Bucodental",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 768/2014",
+    "resolucio_cat": "Resolució ENS/XXX/2015",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2014/09/19/pdfs/BOE-A-2014-9564.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Formació i Orientació Laboral (FOL) del cicle Higiene Bucodental prepara el tècnic superior per incorporar-se al mercat de treball del sector de sanitat amb coneixements sobre contractació, drets laborals, prevenció de riscos i planificació de la carrera professional. Les sortides professionals inclouen el treball per compte aliè en empreses del sector, l'administració pública i l'exercici lliure de la professió.\n\nEls continguts cobreixen la legislació laboral bàsica (Estatut dels Treballadors, convenis col·lectius del sector de sanitat), els tipus de contracte i les modalitats de contractació, la interpretació de la nòmina i les cotitzacions a la Seguretat Social, la prevenció de riscos laborals específics del sector (identificació de riscos, mesures de protecció individual i col·lectiva, plans d'emergència), els drets i deures dels treballadors i la representació sindical. S'inclouen les tècniques de cerca activa de feina: elaboració del currículum vitae, carta de presentació, portals d'ocupació i preparació d'entrevistes.\n\nLa metodologia combina la resolució de casos pràctics reals (càlcul de nòmines, interpretació de contractes i convenis, anàlisi de riscos laborals) amb la simulació de processos de selecció i l'elaboració d'un pla de prevenció de riscos adaptat a un lloc de treball del sector de sanitat. L'avaluació inclou proves escrites, l'anàlisi de documents laborals i la presentació d'un itinerari professional personalitzat."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Formació i Orientació Laboral",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Incorporació al treball",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica drets i deures laborals i contractació del sector de la higiene bucodental.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica elements del contracte de treball i modalitats habituals al sector.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Interpreta una nòmina identificant conceptes salarials i deduccions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Descriu prestacions de la Seguretat Social i requisits.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Aplica tècniques de recerca de feina adaptades al sector de la higiene bucodental.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Prevenció de riscos laborals",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Avalua riscos laborals del sector de la higiene bucodental i aplica mesures preventives.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica riscos específics: agents biològics, radiacions ionitzants, ergonomia dental.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Selecciona EPI adequats per a cada tasca.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Descriu protocols d'actuació en emergències.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Elabora un pla de prevenció de riscos bàsic.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

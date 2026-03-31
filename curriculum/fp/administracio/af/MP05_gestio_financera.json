@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AF",
+    "titol_cicle": "Administració i Finances",
+    "familia_professional": "Administració i Gestió",
+    "grau": "superior",
+    "rd_titol": "RD 1584/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/11/17/pdfs/BOE-A-2011-17980.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul capacita el tècnic superior per analitzar i gestionar la situació financera de l'empresa, avaluant fonts de finançament i instruments d'inversió. Els llocs de treball als quals s'orienta inclouen analista financer, tècnic de tresoreria, gestor de riscos i responsable de finançament en departaments financers d'empreses i entitats bancàries.\n\nEls continguts s'organitzen al voltant de tres eixos: l'anàlisi patrimonial i financera (ràtios de liquiditat, solvència, rendibilitat i endeutament), les fonts de finançament empresarial (préstecs, leasing, confirming, factoring, ampliacions de capital, obligacions) i la matemàtica financera aplicada (capitalització simple i composta, TIR, VAN i payback per a decisions d'inversió). S'estudia la normativa sobre instruments financers, la Llei Concursal i el marc regulatori bancari bàsic. Les eines de treball inclouen full de càlcul avançat per a models financers i programari ERP en el mòdul de finances.\n\nEn la pràctica, l'alumnat realitza anàlisis financeres d'empreses reals a partir dels seus comptes anuals publicats, compara ofertes de finançament bancari, simula decisions d'inversió amb criteris de rendibilitat i elabora plans de tresoreria mensuals. El treball per projectes en petits grups potencia la capacitat d'argumentar decisions financeres davant la resta de la classe, reproduint dinàmiques de comitès financers reals."
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "Gestió Financera",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Instruments financers",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els mercats financers i els seus instruments, analitzant el funcionament dels mercats de capitals i monetaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els mercats financers (monetari, de capitals, de divises i de derivats) i les seves funcions.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han descrit les principals institucions financeres (bancs, caixes, asseguradores, fons d'inversió).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han calculat rendibilitats i riscos associats a instruments de renda fixa (bons, obligacions, lletres del Tresor).",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han analitzat les característiques de la renda variable (accions) i els principals índexs borsaris (IBEX-35, Eurostoxx).",
+                "pes_percentual": 30
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona carteres d'inversió col·lectives analitzant les característiques dels fons d'inversió i productes d'estalvi.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han classificat els fons d'inversió (monetaris, de renda fixa, de renda variable, mixtos, garantits) i els seus riscos.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha calculat el valor liquidatiu d'un fons i la rendibilitat obtinguda per un partícip.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han comparat productes d'estalvi a llarg termini: plans de pensions, PIAS i assegurances d'estalvi.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha valorat la fiscalitat dels productes financers i el seu impacte en la rendibilitat neta.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Avalua inversions empresarials aplicant mètodes estàtics i dinàmics per a la selecció de projectes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha calculat el Valor Actualitzat Net (VAN) d'un projecte d'inversió i s'ha interpretat el resultat.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha calculat la Taxa Interna de Rendibilitat (TIR) i s'ha comparat amb el cost del capital.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha aplicat el mètode del Payback (període de recuperació) per avaluar la liquiditat d'una inversió.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han comparat projectes d'inversió alternatius seleccionant la millor opció justificadament.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Finançament empresarial",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona fonts de finançament bancari analitzant les condicions dels productes crediticis per a empreses.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat les principals fonts de finançament extern a curt termini (pòlissa de crèdit, descompte comercial, factoring).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han calculat els costos d'un préstec bancari (TAE, quota d'amortització per sistema francès i americà).",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han diferenciat les operacions de leasing financer i operatiu, i s'han calculat les quotes corresponents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha comparat el renting com a alternativa al leasing per a la gestió de la flota i equipaments d'empresa.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona el pressupost de tresoreria elaborant plans de finançament a curt termini per cobrir necessitats de liquiditat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha elaborat un pressupost de tresoreria mensual identificant cobros i pagaments previstos.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han detectat dèficits de tresoreria i s'han proposat mesures per cobrir-los (crèdit bancari, ajornament proveïdors).",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han calculat ràtios financers bàsics (liquiditat, solvència, endeutament) per valorar la salut financera.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha elaborat un informe de decisions de finançament argumentant les opcions seleccionades.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

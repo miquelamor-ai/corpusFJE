@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Dibuix Tècnic II",
+    "codi_area": "DT2",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Dibuix-Tecnic-II.pdf",
+    "nota_estructura": "Matèria de 2n BAT.",
+    "versio_schema": "1.0",
+    "descripcio": "El Dibuix Tècnic II és la matèria de segon de Batxillerat que consolida i amplia els coneixements iniciats a Dibuix Tècnic I. Aprofundeix en la representació de geometria complexa i en l'ús professional del CAD 3D, i prepara l'alumnat per a les proves d'accés a la universitat en itineraris d'arquitectura, enginyeria i disseny, on el pensament espacial és una competència clau.\n\nLa matèria tracta la representació de seccions, talls i trencaments de sòlids i peces tècniques, el desenvolupament de superfícies polihèdriques i de revolució —prismes, piràmides, cilindres, cons—, i la perspectiva cònica frontal i obliqua per representar espais i propostes arquitectòniques amb realisme. S'incorpora la lectura i l'elaboració de plànols d'arquitectura i urbanisme amb la seva simbologia específica —plantes, seccions, alçats, cotes i indicadors de materials. El modelatge CAD 3D permet visualitzar, girar i documentar objectes des de qualsevol punt de vista i genera renders i vistes explosionades per a la comunicació professional.\n\nL'enfocament pedagògic integra la resolució d'exercicis tècnics progressivament complexos amb el treball de projectes que simulen encàrrecs reals de disseny de producte o interiorisme. L'alumnat aprèn a triar el sistema de representació més adequat en funció del propòsit comunicatiu, alternant el dibuix manual i el CAD 3D."
+  },
+  "competencies_clau": [
+    "CCL",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CE",
+    "CCEC"
+  ],
+  "blocs_sabers": [
+    "seccions_i_trencaments",
+    "desenvolupaments",
+    "perspectiva_conica",
+    "plantes_i_urbanisme",
+    "cad_3d"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Representar seccions, talls i trencaments de sòlids i peces tècniques per facilitar la comprensió de formes interiors complexes i la producció de documentació tècnica completa.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA1.1",
+            "text": "Realitza seccions rectes, oblíqua i per plans girats d'objectes complexos, aplicant les convencions de ratllat i identificant les superfícies seccionades."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Representa talls totals, mig tall i talls parcials, seleccionant el tipus adequat en funció de la geometria de la peça i la informació a transmetre."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Interpreta i produeix plànols amb trencaments i ruptures de peces llargues, aplicant les convencions normalitzades (UNE-EN ISO 129)."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Integra seccions i vistes en una mateixa làmina, garantint la coherència entre les representacions i la llegibilitat del conjunt."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Obtenir i dibuixar el desenvolupament de superfícies polihèdriques i de revolució per resoldre problemes de fabricació, patronatge i disseny de productes.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA2.1",
+            "text": "Desenvolupa superfícies polihèdriques (prismes, piràmides, troncs) aplicant el mètode de la triangulació o de la línia de màxima pendent."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Obté el desenvolupament de superfícies de revolució (cilindre, con, tronc de con), calculant la longitud d'arc i l'angle del sector."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Resol problemes de patronatge i tall de materials (planxes, cartronats) a partir dels desenvolupaments obtinguts."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Identifica les superfícies no desenvolupables (esfera, toroide) i aplica mètodes aproximats per al seu tractament."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Representar objectes i espais en perspectiva cònica (frontal i oblíqua) per comunicar propostes de disseny i arquitectura amb realisme i expressivitat.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA3.1",
+            "text": "Construeix perspectives còniques frontals (un punt de fuga) d'interiors i exteriors arquitectònics, situant correctament el punt de vista i l'horitzont."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Realitza perspectives còniques oblíqus (dos punts de fuga) d'objectes i edificis, determinant els punts de fuga sobre la línia d'horitzont."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Aplica recursos de representació (escales humanes, ombres, textures) per incrementar el realisme i la qualitat comunicativa de la perspectiva cònica."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Obté la perspectiva cònica a partir de les vistes dièdriques d'un espai, mantenint la coherència entre tots dos sistemes de representació."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Llegir, interpretar i elaborar plànols d'arquitectura i urbanisme aplicant la simbologia i les normes específiques del sector.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA4.1",
+            "text": "Llegeix i interpreta plànols d'arquitectura residencial (planta, secció, alçat, coberta), identificant els elements constructius i les seves cotes."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Elabora plànols d'habitatge senzill a escala, aplicant la simbologia normalitzada per a obertures, mobiliari i instal·lacions."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Interpreta plànols d'urbanisme bàsics (parcel·lari, xarxa viària, zonificació) i situa un edifici en el seu emplaçament amb cotes de referència."
+          },
+          {
+            "codi": "CA4.4",
+            "text": "Relaciona els plànols de representació arquitectònica amb les fases d'un projecte constructiu (avantprojecte, projecte bàsic, projecte executiu)."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Utilitzar programari CAD 3D per modelar, visualitzar i documentar objectes i espais, valorant les possibilitats professionals del disseny assistit per ordinador.",
+      "criteris_avaluacio": {
+        "1r": [],
+        "2n": [
+          {
+            "codi": "CA5.1",
+            "text": "Crea models tridimensionals de peces i conjunts mecànics senzills amb un programa CAD 3D, aplicant operacions d'extrusió, revolució i tallat boola."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Genera vistes ortogonals, seccions i perspectives a partir del model 3D, integrant-les en una làmina tècnica normalitzada."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Aplica materials, llums i renderitzat bàsic per obtenir visualitzacions realistes destinades a la comunicació del projecte."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Valora les possibilitats professionals del CAD 3D (enginyeria, arquitectura, animació, impressió 3D) i reflexiona sobre la seva incidència en el món laboral."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r": {},
+    "2n": {
+      "seccions_i_trencaments": [
+        "Concepte de secció i tall en representació tècnica. Distinció entre tots dos.",
+        "Pla secant: posició, representació i simbologia del traç de secció.",
+        "Tall total: obtenció, representació i ratllat de superfícies seccionades.",
+        "Mig tall: avantatges en peces simètriques. Representació normalitzada.",
+        "Tall parcial i escotadura: aplicacions en peces amb details interiors puntuals.",
+        "Secció abatuda i secció transportada: definició i casos d'ús.",
+        "Secció per plans paral·lels (escalonada): representació i simbologia.",
+        "Ratllat de seccions: angles, separació i orientació en conjunts de materials.",
+        "Convencions de secció en peces específiques: dentats, roscats, nervadures.",
+        "Trencaments i ruptures: tipus i convencions segun el tipus de peça.",
+        "Lectura i interpretació de seccions en plànols industrials reals.",
+        "Aplicació de seccions en plànols arquitectònics: seccions constructives.",
+        "Normes UNE-EN ISO 128 i 129 aplicables a seccions i talls.",
+        "Integració de seccions i vistes en una mateixa làmina de documentació tècnica."
+      ],
+      "desenvolupaments": [
+        "Superfícies polihèdriques: definició, classificació i condicions de desenvolupabilitat.",
+        "Desenvolupament de prismes rectes: mètode de la línia d'intersecció.",
+        "Desenvolupament de piràmides rectes i oblíqus: mètode de la triangulació.",
+        "Troncs de piràmide i de prisma: obtenció del desenvolupament complet.",
+        "Cilindre recte: desenvolupament i càlcul de la longitud de la directriu.",
+        "Con recte: desenvolupament (sector circular) i càlcul de l'angle del sector.",
+        "Tronc de con recte: metodologia i càlcul de les generatrius.",
+        "Superfícies regles no desenvolupables: aproximació per triangulació.",
+        "Esfera: mètode dels fusos i de les cintes. Limitacions del mètode.",
+        "Intersecció de sòlids: càlcul i representació de la línia d'intersecció.",
+        "Aplicacions en planxisteria, calderia i disseny d'envasos i envolupants.",
+        "Patronatge bàsic aplicat al disseny de producte i packaging.",
+        "Eines CAD per a la generació automàtica de desenvolupaments (sheet metal).",
+        "Criteris de qualitat i eficiència material en el disseny de desenvolupaments."
+      ],
+      "perspectiva_conica": [
+        "Fonaments de la perspectiva cònica: punt de vista, pla del quadre, horitzont.",
+        "Elements de la perspectiva cònica: PV, PC, PF, línia de terra, línia d'horitzont.",
+        "Perspectiva cònica frontal (un punt de fuga): construcció pas a pas.",
+        "Perspectiva d'interiors arquitectònics amb un punt de fuga.",
+        "Perspectiva cònica oblíqua (dos punts de fuga): determinació dels PF.",
+        "Perspectiva de conjunts d'edificis en perspectiva oblíqua.",
+        "Perspectiva cònica aèria (tres punts de fuga): cas especial i aplicacions.",
+        "Escala de figures humanes en perspectiva cònica: mètode del punt de mesura.",
+        "Ombres en perspectiva cònica: llum artificial i llum natural (solar).",
+        "Reflexos i transparències: recursos gràfics per a la representació d'espais.",
+        "Perspectiva i comunicació visual: de l'esbos a la representació professional.",
+        "Eines digitals per a la generació de perspectiva cònica (SketchUp, Revit, CAD 3D).",
+        "Comparativa entre perspectiva axonomètrica i cònica: intenció comunicativa.",
+        "La perspectiva cònica en l'art i l'arquitectura a través de la història."
+      ],
+      "plantes_i_urbanisme": [
+        "El projecte arquitectònic: fases i tipus de plànols (avantprojecte, bàsic, executiu).",
+        "Planta arquitectònica: convencions de talls, representació d'obertures i escales.",
+        "Simbologia normalitzada en plànols d'arquitectura: mobiliari, instal·lacions, estructura.",
+        "Secció constructiva: representació d'elements (fonamentació, estructura, coberta).",
+        "Alçat: representació exterior d'un edifici i simbologia de materials.",
+        "Plànol de coberta: tipologies i representació de pendents.",
+        "Plànol d'implantació: situació de l'edifici en el solar amb cotes topogràfiques.",
+        "Plànols d'urbanisme: parcel·lari, xarxa viària, zonificació i usos del sòl.",
+        "Cotes i acotació en plànols d'arquitectura: criteris específics del sector.",
+        "Llegenda i quadre de superfícies en plànols d'habitatge.",
+        "Normativa bàsics: CTE (Codi Tècnic de l'Edificació), accessibilitat i normativa local.",
+        "Modelat BIM: introducció al Building Information Modeling i eines associades.",
+        "Lectura crítica de plànols d'obres reals: anàlisi i comprensió.",
+        "Relació entre el plànol i l'obra: visita tècnica virtual o presencial."
+      ],
+      "cad_3d": [
+        "Introducció al CAD 3D: entorn de treball, sistemes de coordenades 3D.",
+        "Modelat sòlid: extrusió, revolució, tallat boolles (unió, diferència, intersecció).",
+        "Modelat de superfícies: conceptes bàsics, diferències respecte al sòlid.",
+        "Arbre de disseny (feature tree): gestió i edició de l'historial de modelat.",
+        "Restriccions i cotes en esquissos 2D: disseny paramètric.",
+        "Assemblatge de conjunts: restriccions entre peces, graus de llibertat.",
+        "Obtenció automàtica de vistes i seccions des del model 3D.",
+        "Renderitzat i visualització: materials, textures, llums i càmeres.",
+        "Exportació a formats d'impressió 3D: STL, OBJ, STEP.",
+        "Introducció al CAM: connexió entre el model 3D i la fabricació digital.",
+        "Programari 3D lliure i professional: FreeCAD, Fusion 360, SolidWorks, Revit.",
+        "Tendències: IA generativa aplicada al disseny 3D i al prototipat ràpid.",
+        "Projecte de disseny integrador: de l'esbos manual al model 3D documentat.",
+        "Ètica i sostenibilitat en el disseny de producte: economia circular i eco-disseny."
+      ]
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GA",
+    "titol_cicle": "Gestio Administrativa",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "mitja",
+    "rd_titol": "RD 1456/2012",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2013/01/31/pdfs/BOE-A-2013-1118.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul prepara l’alumnat per a la inserció laboral com a auxiliar administratiu i per a l’exercici responsable dels seus drets i deures com a treballador. És un mòdul transversal de tots els cicles formatius que ofereix les eines fonamentals per navegar el mercat de treball amb autonomia des del primer moment.\n\nEls continguts inclouen la normativa laboral bàsica aplicada al perfil auxiliar: tipus de contracte més habituals en el sector (temporal, parcial, en pràctiques), el concepte de conveni col·lectiu i com afecta les condicions de treball, els drets i deures fonamentals següons l’Estatut dels Treballadors, i les prestacions de la Seguretat Social més rellevants (atur, baixa per malaltia). La prevenció de riscos laborals (LPRL) s’aborda des d’una perspectiva pràctica: riscos habituals en oficina, normes bàsiques de seguretat i protocols d’actuació. La recerca de feina (CV Europass, carta de presentació, entrevista) i les vies d’itinerari professional tanquen el mòdul.\n\nLa metodologia és activa i orientada a la pràctica: simulació d’entrevistes de feina amb retroalimentació, anàlisi d’ofertes laborals reals del sector, elaboració del CV propi i visites virtuals o presencials a empreses del territori. L’objectiu és que l’alumne arribi a la FCT i al mercat laboral amb coneixement dels seus drets i amb eines concretes per gestionar la seva carrera professional des del primer dia."
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "Formacio i Orientacio Laboral",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Treball i relacions laborals",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Analitza el mercat laboral del sector administratiu identificant oportunitats i tendencies.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica els llocs de treball habituals del sector administratiu i els seus requisits professionals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Utilitza portals d'ocupacio (InfoJobs, LinkedIn, Feina.cat) per cercar ofertes del sector admin.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Elabora un curriculum vitae i una carta de presentacio adaptats a una oferta del sector.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Prepara i simula una entrevista de feina per a un lloc administratiu, demostrant habilitats comunicatives.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Coneix els drets i deures laborals aplicables als treballadors del sector administratiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Identifica els drets basics dels treballadors recollits a l'Estatut dels Treballadors (ET).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Aplica el conveni collectiu d'oficines i despatxos per determinar condicions laborals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Reconeix les situacions de discriminacio, assetjament i vulneracio de drets en el treball.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Identifica els mecanismes de resolucio de conflictes laborals (conciliacio, arbitratge, judici).",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "PRL en entorns d'oficina",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica les mesures de prevencio de riscos laborals especifiques dels entorns administratius i d'oficina.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica els riscos ergonomics de l'oficina (postura, PVD, il·luminacio) i les seves mesures preventives.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica les normes d'higiene postural al treball amb ordinador i en el trasllat de carregues.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Identifica els riscos psicosocials (estres, burnout, assetjament) i els protocols de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Actua correctament davant d'una emergencia (incendi, accident) seguint el pla d'evacuacio.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

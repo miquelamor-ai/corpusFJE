@@ -1,0 +1,93 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "HBD",
+    "titol_cicle": "Higiene Bucodental",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 768/2014",
+    "resolucio_cat": "Resolució ENS/XXX/2015",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2014/09/19/pdfs/BOE-A-2014-9564.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Exploració Bucodental del cicle Higiene Bucodental forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de sanitat. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a exploració bucodental en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de exploració bucodental: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de sanitat. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Exploració Bucodental",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Anatomia oral i exploració",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza l'exploració bucodental i registra les dades clíniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica l'anatomia de la cavitat oral i les dents.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Realitza l'odontograma identificant càries, absencies i restauracions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Calcula índexs epidemiològics (CAOD, IPC).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Detecta signes de malaltia periodontal i lesions de mucosa.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Realitza radiografies dentals periapicals.",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Registre i documentació clínica",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Registra i documenta les dades de l'exploració bucodental.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Elabora la història clínica bucodental del pacient.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Realitza fotografia clínica intraoral i extraoral.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Pren impressions dentals i confecciona models d'estudi.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Gestiona la documentació clínica amb programari dental.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

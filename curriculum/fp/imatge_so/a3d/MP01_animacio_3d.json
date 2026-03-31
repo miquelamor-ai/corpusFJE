@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "A3D",
+    "titol_cicle": "Animacions 3D, Jocs i Entorns Interactius",
+    "familia_professional": "Imatge i So",
+    "grau": "superior",
+    "rd_titol": "RD 1087/2012",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El cicle formatiu de grau superior en Animacions 3D, Jocs i Entorns Interactius forma professionals capacos de crear continguts multimedia interactius, animacions tridimensionals i videojocs. L'alumnat adquireix competencies en modelatge 3D, texturitzacio, il·luminacio digital, rigging i animacio de personatges, aixi com en el disseny i programacio de mecaniques de joc.\n\nLa formacio integra coneixements tecnics i artistics, combinant el domini de programari especialitzat com Unity, Unreal Engine, Maya, 3ds Max i Blender amb fonaments de narrativa visual, disseny de nivells i experiencia d'usuari. Es treballen projectes reals que simulen fluxos de produccio professionals en estudis d'animacio i desenvolupament de videojocs.\n\nLes sortides professionals inclouen animador/a 3D, modelador/a de personatges i escenaris, dissenyador/a de videojocs, artista d'efectes visuals, programador/a de mecaniques interactives i tecnic/a en realitat virtual i augmentada. El sector de l'entreteniment digital es un dels de major creixement a Catalunya i a escala internacional, oferint oportunitats en estudis d'animacio, empreses de videojocs, productores audiovisuals i departaments de comunicacio digital."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Animacio 3D",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Fonaments de l'animacio 3D",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera animacions 3D aplicant tecniques d'animacio basiques i principis de temporitzacio.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Aplica els 12 principis de l'animacio en la creacio de sequencies.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Configura les corbes d'animacio i els fotogrames clau.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Utilitza eines de temporitzacio per aconseguir moviments naturals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Exporta les animacions en els formats estandard de la industria.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Animacio avancada de personatges",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Crea animacions complexes de personatges aplicant tecniques de rigging i skinning.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Construeix esquelets funcionals per a personatges humanoides i no humanoides.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica tecniques de skinning per vincular la malla a l'esquelet.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Anima cicles de locomocio i accions complexes dels personatges.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Implementa expressions facials mitjancant blend shapes o bones facials.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Dinamiques i simulacions",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implementa simulacions fisiques realistes en escenes 3D.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Configura sistemes de particules per a efectes visuals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica simulacions de tela, cabells i cossos rigids.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Ajusta parametres de dinamiques per obtenir resultats naturals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Integra les simulacions dins del flux de produccio d'animacio.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

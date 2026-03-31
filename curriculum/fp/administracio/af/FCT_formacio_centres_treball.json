@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AF",
+    "titol_cicle": "Administracio i Finances",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "superior",
+    "rd_titol": "RD 1584/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/11/17/pdfs/BOE-A-2011-17980.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "La FCT és el mòdul de pràctiques en empresa que clou el cicle superior d’Administració i Finances. Permet a l’alumnat aplicar en un context laboral real totes les competències adquirides al llarg del cicle: comptabilitat, gestió de personal, finances, logística i comunicació professional. És l’espai on el perfil tècnic superior demostra la seva capacitat d’integració en un equip de treball professional.\n\nL’alumnat s’incorpora a empreses o organismes dels sectors administratiu, financer, assessor o industrial on desenvolupa tasques reals sota la supervisió d’un tutor d’empresa. Les activitats habituals inclouen comptabilització de factures en ERP, elaboració de nòmines, gestió de tràmits fiscals (liquidació d’IVA, retencions IRPF), coordinació de compres i vendes, atenció al client i suport a la gestió administrativa general. La duració habitual és de 400 hores. El centre educatiu fa el seguiment mitjançant visites i reunions de tutoria.\n\nLa FCT té un valor formatiu diferencial perquè posa l’alumnat davant de situacions imprevisibles que no es poden simular a l’aula: la pressió dels terminis fiscals reals, la gestió d’informació confidencial, la dinàmica d’equips interdepartamentals i la cultura organitzacional de cada empresa. L’avaluació integra la valoració del tutor d’empresa, el diari de pràctiques i una memòria final de l’alumne."
+  },
+  "modul": {
+    "codi": "FCT",
+    "nom": "Formacio en Centres de Treball",
+    "hores_totals": 380,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Practica professional en empresa",
+        "hores": 380,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "S'integra en l'empresa adaptant-se a la cultura organitzativa i als protocols interns.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Respecta les normes de funcionament intern, puntualitat i presencia professional.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'adapta a l'organigrama i als canals de comunicacio interna de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Mostra actitud proactiva i disposicio a aprendre en l'entorn laboral real.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Gestiona adequadament els conflictes i les relacions interpersonals a la feina.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa tasques administratives reals amb qualitat i adequacio al context empresarial.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Gestiona documentacio administrativa (factures, albarans, comandes) amb precisio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Utilitza les aplicacions informatiques de l'empresa per a tasques comptables o de RRHH.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Atent clients i proveïdors seguint els protocols de qualitat de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Arxiva i digitalitza documentacio respectant els criteris de l'empresa i el RGPD.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Actua de manera autonoma i responsable en el seu lloc de treball.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Planifica i organitza les seves tasques amb autonomia i criteris de prioritzacio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Resol incidents administratius habituals sense necessitat de supervisio constant.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Avalua el propi rendiment identificant punts de millora.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Demostra integritat professional i confidencialitat en el tractament de la informacio.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

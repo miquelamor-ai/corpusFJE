@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 686/2010",
+    "resolucio_cat": "Resolució ENS/2243/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/06/04/pdfs/BOE-A-2010-8881.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El Projecte de DAW és el mòdul integrador del cicle: l’alumnat planifica i desenvolupa una aplicació web completa de manera autònoma, demostrant que ha assolit les competències professionals del títol. Desenvolupa la capacitat de gestió de projecte, presa de decisions tècniques i presentació professional. S’aplica directament com a portafoli real en processos de selecció d’empreses del sector web i digital.\n\nEls continguts integren tot el curriculum del cicle: disseny UX/UI i prototip a Figma, maquetació HTML/CSS responsiva i accessible, frontend en JavaScript amb framework (Vue.js o React), backend REST amb PHP o Python, base de dades relacional, autenticació d’usuaris, desplegament en servidor real amb HTTPS i CI/CD, proves automatitzades, documentació tècnica (memòria, diagrama de components, manual d’usuari i API) i presentació oral davant tribunal amb demostració de la solució funcionant.\n\nEl mòdul es desenvolupa de manera autònoma amb tutories periòdiques del docent. L’alumnat defineix el seu propi projecte web, estableix el calendari de lliuraments parcials (disseny, backend, frontend, desplegament) i defensa el producte final davant un tribunal. El procés simula la gestió real d’un encàrrec professional, del brief al producte en producció."
+  },
+  "modul": {
+    "codi": "MP12",
+    "nom": "Projecte de Desenvolupament d'Aplicacions Web",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Projecte integrador",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya l'arquitectura d'una aplicació web completa integrant els coneixements adquirits al cicle formatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha elaborat la documentació de requisits funcionals i no funcionals de l'aplicació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha dissenyat l'arquitectura del sistema (frontend, backend, base de dades, infraestructura).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha dissenyat la base de dades i les seves relacions amb un diagrama entitat-relació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han dissenyat els prototips de les principals interfícies de l'aplicació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha planificat el projecte amb eines de gestió (Kanban, diagrames de Gantt) i s'ha gestionat amb Git.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Implementa l'aplicació web full-stack seguint bones pràctiques de codi, seguretat i rendiment.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha implementat el backend amb API REST i autenticació, seguint els principis de codi net.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha implementat el frontend consumint l'API i oferint una interfície usable i accessible.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han implementat proves automatitzades que garanteixin la qualitat del codi.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha desplegat l'aplicació en un entorn de producció accessible via URL pública.",
+                "pes_percentual": 30
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Documenta i presenta el projecte de forma professional demostrant les competències tècniques i transversals del cicle.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha elaborat la memòria tècnica del projecte amb estructura clara (introducció, anàlisi, disseny, implementació, conclusions).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha documentat la instal·lació, configuració i ús de l'aplicació (manual d'ús, README).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha presentat el projecte davant d'un tribunal defensant les decisions tècniques adoptades.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'ha reflexionat sobre les millores futures i l'escalabilitat de l'aplicació.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "RPAE",
+    "titol_cicle": "Realitzacio de Projectes d'Audiovisuals i Espectacles",
+    "familia_professional": "Imatge i So",
+    "grau": "superior",
+    "rd_titol": "RD 1681/2011",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Formació i Orientació Laboral (FOL) del cicle Realitzacio de Projectes d'Audiovisuals i Espectacles prepara el tècnic superior per incorporar-se al mercat de treball del sector de imatge i so amb coneixements sobre contractació, drets laborals, prevenció de riscos i planificació de la carrera professional. Les sortides professionals inclouen el treball per compte aliè en empreses del sector, l'administració pública i l'exercici lliure de la professió.\n\nEls continguts cobreixen la legislació laboral bàsica (Estatut dels Treballadors, convenis col·lectius del sector de imatge i so), els tipus de contracte i les modalitats de contractació, la interpretació de la nòmina i les cotitzacions a la Seguretat Social, la prevenció de riscos laborals específics del sector (identificació de riscos, mesures de protecció individual i col·lectiva, plans d'emergència), els drets i deures dels treballadors i la representació sindical. S'inclouen les tècniques de cerca activa de feina: elaboració del currículum vitae, carta de presentació, portals d'ocupació i preparació d'entrevistes.\n\nLa metodologia combina la resolució de casos pràctics reals (càlcul de nòmines, interpretació de contractes i convenis, anàlisi de riscos laborals) amb la simulació de processos de selecció i l'elaboració d'un pla de prevenció de riscos adaptat a un lloc de treball del sector de imatge i so. L'avaluació inclou proves escrites, l'anàlisi de documents laborals i la presentació d'un itinerari professional personalitzat."
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "FOL",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Incorporacio al treball",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica drets i deures de les relacions laborals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Analitza elements d'un contracte de treball.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Calcula nomines i conceptes retributius.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Reconeix prestacions de Seguretat Social.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Identifica causes d'extincio del contracte.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica tecniques de recerca de feina en realitzacio audiovisual.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Elabora curriculum adaptat al sector.",
+                "pes_percentual": 35
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Identifica oportunitats laborals.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Prepara entrevistes laborals.",
+                "pes_percentual": 35
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Prevencio de riscos laborals",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica mesures de prevencio de riscos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica riscos laborals del sector.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica protocols d'emergencia.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Valora l'ergonomia al lloc de treball.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Coneix normativa de prevencio.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "rd_titol": "RD 1629/2009, de 30 d'octubre",
+    "resolucio_cat": "Resolució ENS/1787/2010, de 26 de maig",
+    "font": "https://www.boe.es/eli/es/rd/2009/10/30/1629",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d’Administració de Xarxes de Comunicació forma el tècnic en el disseny, configuració i manteniment d’infraestructures de xarxa basades en commutadors i encaminadors. Les competències s’apliquen en rols de tècnic de xarxes, network engineer o administrador de sistemes en empreses amb infraestructura pròpia o en empreses proveïdores de serveis TIC.\n\nEls continguts cobreixen la capa d’accés i distribució de xarxa: VLANs, trunking 802.1Q, Spanning Tree Protocol (STP/RSTP), Link Aggregation (LACP). L’encaminament s’estudia amb protocols estàtics i dinàmics: RIP, OSPF i BGP a nivell introductori. Es configuren i administren dispositius Cisco (IOS) i dispositius de codi obert com pfSense i VyOS. Les xarxes privades virtuals es treballen amb IPsec i OpenVPN per a connexions site-to-site i client-to-site. La monitorització de xarxa s’aborda amb SNMP, Nagios, Zabbix i Wireshark per a la captura i anàlisi de tràfic.\n\nEl mòdul es basa en la pràctica amb equipament físic (switches Cisco Catalyst, routers) i simuladors com Cisco Packet Tracer i GNS3. Els alumnes dissenyen i implementen topologies de xarxa per projectes, documentant la configuració i resolent incidències en escenaris que reprodueixen xarxes corporatives reals."
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "Administració de xarxes de comunicació",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Configuració de dispositius de xarxa",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura dispositius de xarxa de capa 2 i capa 3 interpretant esquemes de xarxa i aplicant bones pràctiques de disseny i segmentació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'ha descrit el model de referència OSI i TCP/IP, identificant la funció dels dispositius de xarxa (switch, router, firewall) a cada capa.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha configurat un switch gestionable per accés per consola, Telnet i SSH, establint contrasenyes segures i banners de seguretat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han creat i configurat VLANs en switches gestionables, assignant ports d'accés i configurant ports troncals (trunk) amb protocol 802.1Q.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha configurat el protocol STP (Spanning Tree Protocol) i les seves variants (RSTP, PVST+) per evitar bucles en xarxes amb commutadors redundants.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha configurat un router per connectar xarxes de diferent subxarxa, definint adreces IP en les interfícies i rutes estàtiques entre xarxes.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'ha verificat la connectivitat entre dispositius de xarxa aplicant les eines ping, traceroute i show (Cisco IOS) per diagnosticar problemes de capa 2 i capa 3.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Fonaments de xarxes i models de referència",
+                "items": [
+                  "Model OSI: les 7 capes, unitats de dades de protocol (PDU) a cada capa",
+                  "Model TCP/IP: comparativa amb OSI, capes i protocols principals",
+                  "Dispositius de xarxa: repetidor, hub, bridge, switch, router, firewall; capa d'operació",
+                  "Adreces MAC: estructura, OUI, funcionament de la taula CAM del switch"
+                ]
+              },
+              {
+                "bloc": "Commutació i VLANs",
+                "items": [
+                  "Funcionament del switch: aprenentatge de MACs, flooding, forwarding, filtering",
+                  "VLANs (IEEE 802.1Q): creació, assignació de ports, ports d'accés i troncals",
+                  "Inter-VLAN routing: router-on-a-stick i switch de capa 3 (SVI)",
+                  "Spanning Tree Protocol (STP): elecció del root bridge, ports root/designated/blocked",
+                  "RSTP (802.1w) i PVST+: convergència ràpida, ports edge (PortFast), BPDU Guard"
+                ]
+              },
+              {
+                "bloc": "Encaminament estàtic i configuració de routers",
+                "items": [
+                  "Configuració bàsica de Cisco IOS: modes de configuració (privileged EXEC, global, interface)",
+                  "Configuració d'interfícies: adreça IP, máscara, no shutdown; interfícies subinterface per VLANs",
+                  "Rutes estàtiques: sintaxi, rutes per defecte (default route), sumarització",
+                  "Taula d'encaminament: interpretació de les rutes (C, S, O, R), mètriques i distàncies administratives",
+                  "NAT/PAT: concepte, tipus (estàtic, dinàmic, overload) i configuració bàsica"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Implementa mecanismes de seguretat en dispositius de xarxa, configurant llistes de control d'accés i protocols de seguretat de port per protegir la infraestructura.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'han creat i aplicat llistes de control d'accés estàndard (ACL) en routers per filtrar tràfic basant-se en l'adreça IP d'origen.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'han creat i aplicat llistes de control d'accés esteses (Extended ACL) per filtrar tràfic per adreça IP d'origen i destinació, protocol i port.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'ha configurat Port Security en switches per limitar el nombre de MACs per port i prevenir atacs de MAC flooding.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha configurat DHCP Snooping i Dynamic ARP Inspection (DAI) en switches per protegir la xarxa contra atacs DHCP rogue i ARP spoofing.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'ha configurat l'accés de gestió als dispositius de xarxa de forma segura (SSH en lloc de Telnet, ACL de gestió, autenticació RADIUS/TACACS+).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2f",
+                "text": "S'han documentat les configuracions de seguretat aplicades als dispositius de xarxa, justificant les decisions de disseny i els riscos mitigats.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Llistes de control d'accés (ACL)",
+                "items": [
+                  "Concepte d'ACL: permès/denegat, ordre de les regles, deny implicit al final",
+                  "ACL estàndard (1-99, 1300-1999): filtratge per IP d'origen; ubicació recomanada prop del destí",
+                  "ACL esteses (100-199, 2000-2699): filtratge per IP origen/destí, protocol, port; ubicació prop de l'origen",
+                  "ACL nomenades (named ACL): creació, edició i eliminació de línies",
+                  "Aplicació d'ACL a interfícies: inbound vs. outbound; verificació amb show ip access-lists"
+                ]
+              },
+              {
+                "bloc": "Seguretat de port en switches",
+                "items": [
+                  "Port Security: modes (protect, restrict, shutdown), sticky MAC, violació d'accions",
+                  "DHCP Snooping: ports fiables i no fiables, taula de vinculació (binding table)",
+                  "Dynamic ARP Inspection (DAI): validació de paquets ARP amb la taula DHCP Snooping",
+                  "IP Source Guard: filtratge de tràfic IP per adreça MAC i IP"
+                ]
+              },
+              {
+                "bloc": "Gestió segura de dispositius",
+                "items": [
+                  "Configuració d'SSH: generació de claus RSA, versió SSHv2, nombre màxim de sessions",
+                  "AAA (Authentication, Authorization, Accounting): conceptes bàsics",
+                  "Integració amb RADIUS i TACACS+ per a autenticació centralitzada de dispositius",
+                  "Còpia de seguretat i restauració de la configuració: TFTP, FTP, SCP"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Configura xarxes sense fils (WLAN) seguint estàndards IEEE 802.11, implementant mecanismes de seguretat adequats per a entorns corporatius.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'han identificat els estàndards IEEE 802.11 (a/b/g/n/ac/ax), les seves freqüències de treball, amplades de canal i taxes de transferència màximes.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'ha configurat un punt d'accés (AP) en mode autònom i en mode lleuger (CAPWAP), definint SSID, canal, potència i estàndard de xifrat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'ha configurat la seguretat de la xarxa sense fils amb WPA2-Enterprise (802.1X) integrant un servidor RADIUS per a l'autenticació d'usuaris corporatius.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'han configurat múltiples SSID amb VLANs associades per segmentar el tràfic de xarxa (corporatiu, invitats, IoT) en la mateixa infraestructura física.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'ha analitzat l'espectre radioelèctric amb eines de captura (Wireshark, inSSIDer) per identificar problemes d'interferències i solapament de canals.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Estàndards i tecnologia Wi-Fi",
+                "items": [
+                  "IEEE 802.11: evolució (b, a, g, n, ac, ax/Wi-Fi 6); bandes 2.4 GHz vs. 5 GHz vs. 6 GHz",
+                  "Canals no solapats: 1, 6, 11 a 2.4 GHz; canals a 5 GHz",
+                  "MIMO, beamforming, OFDMA: millores de rendiment en Wi-Fi 5 i Wi-Fi 6",
+                  "Modes de funcionament: infraestructura (BSS, ESS) i ad-hoc (IBSS)"
+                ]
+              },
+              {
+                "bloc": "Configuració i seguretat de la WLAN",
+                "items": [
+                  "Modes d'autenticació: Open, WPA2-Personal (PSK), WPA2-Enterprise (802.1X/EAP)",
+                  "Xifrat: TKIP (deprecated) vs. AES/CCMP; WPA3 i SAE",
+                  "Configuració de múltiples SSID i assignació de VLAN per SSID",
+                  "CAPWAP: arquitectura de controladora (WLC) i AP lleugers; avantatges de gestió centralitzada"
+                ]
+              },
+              {
+                "bloc": "Anàlisi i optimització de la WLAN",
+                "items": [
+                  "Eines d'anàlisi: inSSIDer, Wireshark (filtre wlan), airodump-ng (auditoria)",
+                  "Interferències: fonts d'interferència, solapament de canals, pla de freqüències",
+                  "Roaming: 802.11r (Fast BSS Transition), 802.11k i 802.11v",
+                  "Bones pràctiques de disseny: cobertura, potència d'emissió, posicionament d'AP"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Protocols d'encaminament i VPN",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura protocols d'encaminament dinàmic en routers, analitzant les taules d'encaminament resultants i verificant la convergència de la xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'han identificat les característiques, avantatges i inconvenients dels protocols d'encaminament per vector de distàncies (RIP, EIGRP) i per estat d'enllaç (OSPF, IS-IS).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha configurat el protocol OSPF en una xarxa de routers, definint àrees (area 0 i àrees estub), identificadors de router i xarxes anunciades.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'ha analitzat el procés d'elecció del DR/BDR (Designated Router/Backup Designated Router) en OSPF i s'ha modificat la prioritat per influir en el resultat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'han configurat àrees OSPF estub (stub, totally stub, NSSA) per reduir la mida de la LSDB i l'ús de recursos en routers de frontera.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha verificat l'estat de les adjacències OSPF i el contingut de la LSDB i la taula d'encaminament amb les ordres show ip ospf neighbor, show ip ospf database i show ip route.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han diagnosticat i resolt problemes de convergència OSPF analitzant l'estat de les adjacències, els timers Hello/Dead i la connectivitat entre routers.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Classificació i conceptes d'encaminament dinàmic",
+                "items": [
+                  "IGP vs. EGP: encaminament interior i exterior; àmbits d'aplicació",
+                  "Vector de distàncies (Distance Vector): algoritme Bellman-Ford, problema del compte a l'infinit",
+                  "Estat d'enllaç (Link State): algoritme Dijkstra (SPF), LSDB (Link State Database)",
+                  "Mètriques: hop count (RIP), cost (OSPF), compost (EIGRP); distàncies administratives"
+                ]
+              },
+              {
+                "bloc": "Protocol OSPF (OSPFv2 i OSPFv3)",
+                "items": [
+                  "Procés d'establiment d'adjacències: missatges Hello, DBD, LSR, LSU, LSAck",
+                  "Tipus de xarxes OSPF: broadcast, punt a punt, NBMA; elecció DR/BDR",
+                  "Àrees OSPF: backbone (area 0), àrees regulars, stub, totally stub i NSSA",
+                  "Sumarització entre àrees (inter-area) i rutes externes redistribuïdes (external LSA)",
+                  "OSPFv3 per a IPv6: diferències amb OSPFv2, configuració bàsica"
+                ]
+              },
+              {
+                "bloc": "BGP: encaminament entre sistemes autònoms",
+                "items": [
+                  "Concepte de Sistema Autònom (AS) i número d'AS (ASN): públics i privats",
+                  "iBGP vs. eBGP: sessions internes i externes, TTL, next-hop",
+                  "Atributs BGP principals: AS-PATH, NEXT-HOP, LOCAL-PREF, MED, COMMUNITY",
+                  "Procés de selecció de ruta BGP: ordre de preferència d'atributs",
+                  "Casos d'ús: connexió a Internet amb ISP, política de rutes empresarial"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Implementa solucions VPN per a la interconnexió segura de xarxes i usuaris remots, configurant protocols de túnel i mètodes de xifrat i autenticació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'han descrit els tipus de VPN (site-to-site, d'accés remot, MPLS-VPN) i els protocols de túnel (IPsec, GRE, L2TP, SSL/TLS) identificant els casos d'ús de cadascun.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'ha configurat una VPN site-to-site amb IPsec en routers Cisco, definint les fases IKE (ISAKMP) i IPsec, els protocols de xifrat i autenticació.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'ha configurat un túnel GRE sobre IPsec per transportar tràfic multicast i protocols d'encaminament dinàmic a través de la VPN.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha implementat una solució VPN SSL per a accés remot d'usuaris (client-to-site) configurant el portal web i el client VPN.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'ha verificat el funcionament dels túnels VPN comprovant l'establiment de les associacions de seguretat (SA) i el xifrat del tràfic amb eines d'anàlisi de paquets.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2f",
+                "text": "S'han identificat i resolt problemes habituals en túnels IPsec (desajust de paràmetres, problemes de NAT-T, caducitat de SA) analitzant els missatges de depuració.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Tecnologies VPN: conceptes i classificació",
+                "items": [
+                  "Tipus de VPN: site-to-site (LAN-to-LAN), accés remot (client-to-site), MPLS Layer 3 VPN",
+                  "Protocols de túnel: GRE, L2TP, PPTP, IPsec, SSL/TLS; comparativa de seguretat",
+                  "Xifrat simètric i asimètric: AES, 3DES, RSA; funcions de hash: MD5, SHA",
+                  "PKI (Public Key Infrastructure): certificats X.509, CA, CRL"
+                ]
+              },
+              {
+                "bloc": "VPN IPsec site-to-site",
+                "items": [
+                  "Arquitectura IPsec: capçaleres AH i ESP; modes transport i túnel",
+                  "IKEv1: Fase 1 (ISAKMP SA: main mode / aggressive mode) i Fase 2 (IPsec SA: quick mode)",
+                  "IKEv2: simplificació del procés d'establiment, avantatges sobre IKEv1",
+                  "NAT Traversal (NAT-T): encapsulació UDP port 4500 per a IPsec darrere de NAT",
+                  "GRE over IPsec: configuració combinada per suportar multicast i protocols IGP"
+                ]
+              },
+              {
+                "bloc": "VPN d'accés remot",
+                "items": [
+                  "VPN SSL (WebVPN / AnyConnect): funcionament, portal web, client de software",
+                  "OpenVPN: arquitectura, PKI amb Easy-RSA, modes TUN (capa 3) i TAP (capa 2)",
+                  "WireGuard: protocol modern, rendiment, configuració simplificada",
+                  "Split tunneling: avantatges, riscos de seguretat i configuració"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Configura i verifica la qualitat de servei (QoS) en xarxes de comunicació, prioritzant el tràfic crític per garantir el rendiment de les aplicacions sensibles a la latència.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'han descrit els mecanismes de QoS (classificació, marcatge, cuing, policing, shaping) i la seva necessitat en xarxes convergents que transporten dades, veu i vídeo.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'ha configurat la classificació i el marcatge del tràfic en routers i switches mit·jançant classes de QoS (class-maps) i polítiques (policy-maps).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'han configurat cues de prioritat (LLQ/PQ) per garantir ample de banda mínim i màxima latència per al tràfic de veu (VoIP).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'ha configurat policing i shaping per limitar i modelar el tràfic d'acord amb els acords de nivell de servei (SLA) contractats.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'ha verificat l'efectivitat de les polítiques de QoS analitzant les estadístiques de les interfícies i les cues amb les ordres show policy-map interface.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Fonaments de QoS",
+                "items": [
+                  "Necessitat de QoS: congestió, latència, jitter, pèrdua de paquets; impacte en veu i vídeo",
+                  "Models de QoS: Best Effort, IntServ (RSVP), DiffServ (DSCP)",
+                  "Camps de marcatge: CoS (802.1p), ToS (IP Precedence), DSCP (PHB: EF, AF, CS, BE)",
+                  "Eines de QoS: classificació, marcatge, cuing (queuing), policing, shaping, RED/WRED"
+                ]
+              },
+              {
+                "bloc": "Configuració de QoS en Cisco IOS (MQC)",
+                "items": [
+                  "Modular QoS CLI (MQC): class-map, policy-map, service-policy",
+                  "CBWFQ (Class-Based Weighted Fair Queuing): garantia d'ample de banda per classe",
+                  "LLQ (Low Latency Queuing): cua de prioritat estricta per a tràfic de veu (VoIP)",
+                  "Policing (CIR/BC/BE) i Shaping: diferències de comportament davant de la congestió"
+                ]
+              },
+              {
+                "bloc": "QoS en entorns WAN i verificació",
+                "items": [
+                  "QoS en enllaços WAN: importància en enllaços de menys ample de banda",
+                  "Compressió de la capçalera RTP (cRTP) per a optimitzar VoIP",
+                  "show policy-map interface: interpretació d'estadístiques, drops, conforming/exceeding",
+                  "Planificació de QoS: anàlisi del tràfic previ, definició de classes i polítiques"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Monitorització i manteniment de xarxes",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Monitoritza el rendiment i disponibilitat de la infraestructura de xarxa implementant eines de supervisió i configurant alertes per a la detecció proactiva d'incidències.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'ha configurat el protocol SNMP (v2c i v3) en dispositius de xarxa (routers, switches) per permetre la supervisió remota des d'una estació de gestió (NMS).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat una eina de monitorització de xarxa (Nagios, Zabbix o Grafana+Prometheus) per supervisar dispositius, serveis i mètriques de rendiment.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han configurat alertes i notificacions (correu electrònic, Telegram) en l'eina de monitorització per avisar davant de caigudes de dispositius o superació de llindars.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha configurat NetFlow o sFlow en routers i switches per recollir estadístiques de fluxos de tràfic i analitzar-les amb un col·lector (ntopng, Elastiflow).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'han interpretat els gràfics de rendiment (utilització d'ample de banda, latència, errors) per identificar tendències i possibles problemes de capacitat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'ha documentat l'arquitectura de monitorització implementada, incloent-hi la llista de dispositius supervisats, les mètriques recollides i els procediments d'alerta.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Protocol SNMP i gestió de xarxa",
+                "items": [
+                  "Arquitectura SNMP: agent, NMS (Network Management System), MIB (Management Information Base)",
+                  "Operacions SNMP: Get, GetNext, GetBulk, Set, Trap, Inform",
+                  "SNMPv2c vs. SNMPv3: community strings vs. autenticació i xifrat (authPriv)",
+                  "Configuració SNMP en Cisco IOS: community strings de lectura/escriptura, trap-source, trap-receiver"
+                ]
+              },
+              {
+                "bloc": "Eines de monitorització",
+                "items": [
+                  "Nagios/Icinga: arquitectura, plugins, host-checks i service-checks, notificacions",
+                  "Zabbix: instal·lació, agents, plantilles, triggers i accions",
+                  "Grafana + InfluxDB/Prometheus: panells de control, datasources, alertes",
+                  "Cacti: gràfics MRTG/RRDtool per a la visualització d'utilització d'ample de banda (SNMP)"
+                ]
+              },
+              {
+                "bloc": "Anàlisi de fluxos de tràfic",
+                "items": [
+                  "NetFlow v5/v9 i IPFIX: camps exportats, configuració en Cisco IOS",
+                  "sFlow: mostreig de paquets, implementació en switches HP/Aruba i altres",
+                  "Col·lectors de fluxos: ntopng, nfdump/nfsen, Elastiflow (ELK Stack)",
+                  "Casos d'ús: detecció de tràfic anòmal, anàlisi de protocols, top talkers"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Analitza i captura tràfic de xarxa amb eines especialitzades per diagnosticar problemes de connectivitat, rendiment i seguretat en la infraestructura.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'ha capturat i analitzat tràfic de xarxa amb Wireshark, aplicant filtres de captura i de visualització per aïllar protocols i converses específiques.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'han diagnosticat problemes de capa d'aplicació (HTTP, DNS, SMTP, DHCP) analitzant les capçaleres dels paquets capturats i els temps de resposta.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'ha configurat un port mirror (SPAN) en un switch per redirigir el tràfic d'un segment de xarxa a la interfície de captura de l'analitzador.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'han realitzat proves de rendiment de xarxa amb eines com iperf3 per mesurar l'ample de banda real, la latència i la pèrdua de paquets entre dos punts.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'han identificat patrons d'atac comuns en captures de xarxa (ARP spoofing, port scanning, SYN flood) i s'han proposat mesures de mitigació.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Wireshark: captura i anàlisi de tràfic",
+                "items": [
+                  "Interfície de Wireshark: panells de paquets, bytes i detall; estadístiques",
+                  "Filtres de captura (BPF) i filtres de visualització (sintaxi Wireshark): diferències i ús",
+                  "Anàlisi de protocols: dissecció de trames Ethernet, paquets IP, segments TCP/UDP",
+                  "Seguiment de fluxos (Follow TCP/UDP Stream); estadístiques de conversa i de protocols",
+                  "Exportació de dades: PCAP, CSV; ús de tshark (Wireshark CLI)"
+                ]
+              },
+              {
+                "bloc": "Tècniques de captura i mesura de rendiment",
+                "items": [
+                  "SPAN (Switch Port Analyzer): local SPAN i RSPAN (Remote SPAN); configuració en IOS",
+                  "TAP de xarxa: avantatges sobre SPAN per a la captura passiva de tràfic",
+                  "iperf3: proves de rendiment TCP i UDP; opcions principals (-c, -s, -t, -P, -u)",
+                  "ping i traceroute avançat: mtr, pathping; interpretació de la pèrdua i la latència per salt"
+                ]
+              },
+              {
+                "bloc": "Detecció d'anomalies i atacs de xarxa",
+                "items": [
+                  "ARP spoofing i man-in-the-middle: identificació en captures, mesures de mitigació (DAI)",
+                  "Escaneig de ports: signatures de nmap en captures (SYN scan, UDP scan)",
+                  "Atacs DoS/DDoS: SYN flood, UDP flood; impacte en la taula de connexions",
+                  "Reconeixement i anàlisi d'anomalies de tràfic: baselining, detecció de desviacions"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica procediments de manteniment preventiu i correctiu en la infraestructura de xarxa, gestionant canvis i documentant la topologia i les configuracions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'han establert procediments de còpia de seguretat de les configuracions dels dispositius de xarxa, automatitzant-les amb scripts i emmagatzemant-les en un repositori centralitzat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'ha documentat la topologia de xarxa (diagrames lògics i físics) i l'inventari de dispositius (model, firmware, interfícies, adreces IP) amb eines com draw.io o NetBox.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'ha aplicat un procés de gestió de canvis per planificar, aprovar i implementar modificacions a la infraestructura de xarxa minimitzant el risc d'incidències.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'ha configurat Syslog en dispositius de xarxa per centralitzar els registres en un servidor de logs, aplicant nivells de gravetat per filtrar events rellevants.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'han actualitzat el firmware/IOS dels dispositius de xarxa de forma planificada, verificant la compatibilitat i realitzant proves de regressió après la actualització.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3f",
+                "text": "S'ha elaborat un pla de recuperació davant desastres (DRP) per a la infraestructura de xarxa, identificant els elements crítics i els temps de recuperació objectiu (RTO/RPO).",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió de configuracions i còpies de seguretat",
+                "items": [
+                  "Còpia de configuracions: TFTP, FTP, SCP; automatització amb scripts Python (Netmiko, Paramiko)",
+                  "Control de versions de configuració: Git per a l'historial de canvis en dispositius de xarxa",
+                  "RANCID i Oxidized: eines de còpia automàtica i comparació de configuracions de xarxa",
+                  "Gestió d'inventari de xarxa: NetBox, LibreNMS; base de dades de dispositius i circuits"
+                ]
+              },
+              {
+                "bloc": "Syslog i gestió d'esdeveniments",
+                "items": [
+                  "Protocol Syslog (RFC 5424): format del missatge, facility i severity (0-7)",
+                  "Configuració de Syslog en Cisco IOS: logging host, logging trap, logging buffered",
+                  "Servidor Syslog: rsyslog, syslog-ng; centralització i rotació de logs",
+                  "SIEM (Security Information and Event Management): concepte, Graylog i ELK Stack"
+                ]
+              },
+              {
+                "bloc": "Manteniment i gestió de canvis",
+                "items": [
+                  "Actualització de firmware/IOS: descàrrega verificada, còpia a la flash, boot system",
+                  "Procés de gestió de canvis ITIL: petició de canvi (RFC), aprovació, implementació, revisió postimplementació",
+                  "Documentació de xarxa: diagrames amb draw.io, Packet Tracer; taules d'adreces IP i VLANs",
+                  "Pla de continuïtat i recuperació davant desastres: identificació de SPOF, RTO/RPO, procediments de failover"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AF",
+    "titol_cicle": "Administració i Finances",
+    "familia_professional": "Administració i Gestió",
+    "grau": "superior",
+    "rd_titol": "RD 1584/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/11/17/pdfs/BOE-A-2011-17980.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul prepara l’alumnat per a la inserció professional i per a l’exercici dels seus drets i deures com a treballadors. És un mòdul transversal present a tots els cicles formatius i ofereix eines pràctiques per navegar el mercat laboral del sector administratiu i financer amb autonomia i criteri.\n\nEls continguts inclouen la normativa laboral fonamental: l’Estatut dels Treballadors, els tipus de contracte i les seves condicions, la Seguretat Social (cotització, prestacions per atur, jubilació), la negociació col·lectiva i els convenis del sector. S’aborda la prevenció de riscos laborals (LPRL) aplicada a l’oficina: riscos ergonòmics, visuals i psicosocials. La part d’orientació laboral treballa la recerca de feina (CV, carta de presentació, entrevista), l’autoocupació i les formes jurídiques d’empresa, i les vies de formació permanent al llarg de la vida professional.\n\nLa metodologia combina l’anàlisi de casos laborals reals (acomiadaments, baixes, conflictes), simulacions d’entrevistes de feina i visites a empreses del sector. L’alumnat elabora el seu propi pla de carrera professional i aprendre a calcular la seva nòmina i les cotitzacions, connectant directament amb els continguts tècnics del cicle per donar sentit pràctic als drets laborals que els assistiran al llarg de la seva vida professional."
+  },
+  "modul": {
+    "codi": "MP11",
+    "nom": "Formació i Orientació Laboral",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Incorporació al treball",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Analitza el mercat laboral del sector administratiu identificant oportunitats d'ocupació i les condicions de treball.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha descrit l'estructura del mercat laboral administratiu (modalitats d'ocupació, sectors, perfils professionals demandats).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat les fonts d'ocupació pública i privada (portals web, ETTs, borses d'ocupació, oposicions).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha elaborat un currículum vitae i una carta de motivació adaptats a ofertes reals del sector administratiu.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han simulat entrevistes de feina identificant les tècniques de comunicació i presentació personal adequades.",
+                "pes_percentual": 30
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Interpreta la normativa laboral bàsica i els convenis col·lectius aplicables al sector administratiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han identificat els drets i deures laborals recollits a l'Estatut dels Treballadors.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han analitzat els principals tipus de contractes laborals (indefinit, temporal, a temps parcial, en pràctiques) i les seves condicions.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han interpretat les clàusules essencials del Conveni Col·lectiu d'Oficines i Despatxos vigent a Catalunya.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han calculat les principals retencions i cotitzacions d'una nòmina administrativa senzilla.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "PRL en oficines",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica mesures de prevenció de riscos laborals en entorns d'oficina identificant els principals hazards ergonòmics i psicosocials.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els riscos ergonòmics propis del treball d'oficina (postura, pantalla, teclat, il·luminació) i les mesures preventives.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han analitzat els riscos psicosocials (estrès, assetjament, síndrome de burnout) i els recursos de suport disponibles.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han descrit els plans d'emergència i evacuació d'un edifici d'oficines i s'han practicat simulacres.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha identificat el marc normatiu de PRL (Llei 31/1995, RD 488/1997 sobre pantalles) i les obligacions empresarials.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

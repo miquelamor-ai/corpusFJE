@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SEA",
+    "titol_cicle": "Sistemes Electrotècnics i Automatitzats",
+    "familia_professional": "Electricitat i Electrònica",
+    "grau": "superior",
+    "rd_titol": "RD 182/2008",
+    "resolucio_cat": "Resolució ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07986-08003.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "La Formació en Centres de Treball (FCT) del SEA és el mòdul que permet al tècnic superior aplicar en entorn laboral real les competències adquirides al centre educatiu. Amb 383 hores en empreses instal·ladores elèctriques, indústria o serveis de manteniment, el tècnic consolida el seu perfil professional en condicions reals: ritme productiu, gestió de la documentació tècnica, coordinació amb altres equips i responsabilitat sobre la qualitat i la seguretat de les instal·lacions.\n\nDurant la FCT el tècnic executa el cablejat i connexionat d'instal·lacions elèctriques interiors seguint el REBT, munta i connecta quadres elèctrics de distribució i de maniobra, realitza les mesures de verificació (continuïtat, aïllament, terra, funcionament de proteccions) i elabora protocols de proves. Participa en la posada en marxa d'automatismes industrials (circuits de maniobra, PLC, variadors de freqüència) i en la instal·lació i connexió de sistemes fotovoltaics (panells, inversors, connexió a xarxa). En manteniment, executa plans de manteniment preventiu, diagnostica i repara avaries elèctriques i d'automatisme, i registra les intervencions al sistema de gestió de manteniment (GMAO). En tot moment aplica les cinc regles d'or, els permisos de treball i els EPI reglamentaris.\n\nLa FCT es desenvolupa sota la tutoria del responsable designat per l'empresa i amb el seguiment del tutor docent. L'avaluació integra l'informe del tutor d'empresa (actitud, autonomia, rigor tècnic, relació amb l'equip) i la memòria de pràctiques del tècnic. La progressió en autonomia—des de tasques guiades fins a la proposta de millores en els plans de manteniment—i la capacitat de comunicació eficaç amb clients i responsables d'instal·lació determinen el grau de maduresa professional assolit."
+  },
+  "modul": {
+    "codi": "FCT",
+    "nom": "Formació en Centres de Treball",
+    "hores_totals": 383,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Pràctiques en empreses instal·ladores elèctriques, indústria o manteniment",
+        "hores": 383,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "S'integra en l'organització d'una empresa instal·ladora elèctrica, industrial o de manteniment aplicant les normes de funcionament intern, la cultura de seguretat i la prevenció de riscos laborals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Coneix i respecta les normes d'organització, jerarquia, funcionament intern i règim de seguretat del centre de treball.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Compleix els horaris, les normes d'assistència, els protocols de seguretat i utilitza en tot moment els EPI reglamentaris.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Aplica les cinc regles d'or i els procediments de permisos de treball en totes les intervencions sobre instal·lacions elèctriques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Manté una actitud professional, col·laboradora i d'aprenentatge continu amb l'equip d'instal·ladors o de manteniment.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Interpreta els plànols, esquemes elèctrics i ordres de treball facilitades pel responsable de la instal·lació o del manteniment.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza les tasques d'instal·lació, connexió i verificació de sistemes elèctrics en baixa tensió i automatismes amb autonomia creixent i rigor tècnic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Executa el cablejat i connexionat d'instal·lacions elèctriques interiors d'habitatges i locals seguint el REBT i les instruccions del cap d'equip.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Munta i connecta quadres elèctrics de distribució i de maniobra verificant la correcta identificació i protecció de tots els circuits.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Realitza les mesures de verificació (continuïtat, aïllament, terra, funcionament de proteccions) i elabora els protocols de proves.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Participa en el muntatge i posada en marxa d'automatismes industrials (circuits de maniobra, PLC, variadors de freqüència) sota supervisió.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "Col·labora en la instal·lació i posada en marxa de sistemes fotovoltaics (connexió de panells, instal·lació d'inversors, connexió a xarxa).",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Participa en les tasques de manteniment preventiu i correctiu d'instal·lacions elèctriques i sistemes automatitzats del centre de treball.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Executa les operacions del pla de manteniment preventiu (inspeccions visuals, mesures, neteja, apretament de connexions) d'instal·lacions elèctriques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Diagnostica i repara avaries elèctriques i d'automatisme localitzant el component defectuós i restituint el servei en el menor temps possible.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Registra les intervencions de manteniment (hores, materials, descripció de l'avaria, solució aplicada) en el sistema de gestió del manteniment (GMAO).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Proposa millores en els plans de manteniment o en els sistemes instal·lats identificant punts de millora basant-se en l'experiència de les pràctiques.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "TAPIC",
+    "titol_cicle": "Anatomia Patologica i Citologia",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 1030/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/07/15/pdfs/BOE-A-2011-12296.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP12 és el mòdul de síntesi del cicle TAPIC: l'alumnat ha de demostrar la integració de totes les competències professionals adquirides mitjançant l'elaboració, execució i defensa d'un projecte professional original relacionat amb l'anatomia patològica, la citologia, la biologia molecular o la gestió de la qualitat del laboratori. Es desenvolupa en el darrer curs i té un caràcter interdisciplinar i avaluatiu global.\n\nEl projecte pot abordar problemàtiques reals del laboratori d'anatomia patològica: la validació d'una nova tinció o anticòs, la implantació d'un nou protocol de processament (citologia en capa fina, FISH per a un nou marcador), el disseny d'un sistema de gestió de qualitat per a una tècnica concreta, la implementació d'una eina de patologia digital o la revisió sistemàtica d'un aspecte de la pràctica tècnica. El projecte s'estructura seguint el mètode científic: identificació del problema, revisió bibliogràfica, disseny de la solució, implementació o prova pilot, resultats i conclusions. La normativa aplicada inclou la ISO 15189, la legislació de biobancs (RD 1716/2011) i la regulació de la investigació biomèdica.\n\nL'alumnat treballa de manera autònoma amb el suport d'un tutor docent i, quan és possible, d'un professional del servei d'anatomia patològica. La defensa pública davant d'un tribunal avaluador de professionals del sector constitueix l'evidència final d'assoliment de les competències del cicle i prepara l'alumnat per a l'entorn de treball real."
+  },
+  "modul": {
+    "codi": "MP12",
+    "nom": "Projecte de Tecniques d'Anatomia Patologica i Citologia",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Disseny, implementacio i presentacio del projecte TAPIC",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya un projecte de millora o innovacio en el camp de l'anatomia patologica i citologia identificant un problema real del laboratori i plantejant una solucio fonamentada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica un problema o oportunitat de millora real en el laboratori d'anatomia patologica (optimitzacio d'un protocol IHQ, implementacio de telepatologia, millora del flux de macroscopia) i el justifica amb dades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Revisa la bibliografia cientifica i tecnica relacionada amb el problema (articles PubMed, guies de la SEAP, protocols de la CAP) i elabora el marc teorico-practic del projecte.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Planteja els objectius del projecte (general i especifics), la metodologia (disseny experimental, grup control, indicadors de resultat) i el cronograma d'execucio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Analitza els recursos necessaris (materials, equips, temps del personal, financament) i els possibles riscos del projecte, elaborant una matriu DAFO del projecte.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Implementa el projecte de millora o innovacio en el laboratori d'anatomia patologica, recollint dades i analitzant els resultats obtinguts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Executa el protocol experimental o de millora dissenyat, registrant les dades de forma sistematica en el quadern de laboratori i en els fulls de registre del projecte.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Analitza les dades obtingudes aplicant les eines estadistiques adequades (estadistica descriptiva, comparacio de proporcions, grafics de control) i interpreta els resultats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Compara els resultats obtinguts amb els objectius plantejats i amb la bibliografia de referencia, identificant les limitacions del projecte i les causes de les desviacions observades.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Elabora les conclusions del projecte i proposa accions de millora o propers passos per a la continuitat del projecte en el laboratori.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Presenta el projecte TAPIC davant d'un tribunal avaluador demostrant les competencies comunicatives, tecniques i reflexives adquirides al llarg del cicle formatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Redacta la memoria escrita del projecte seguint l'estructura establerta (introduccio, objectius, metodologia, resultats, discussio, conclusions, bibliografia) en un format professional i llegible.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Prepara la presentacio oral amb suport visual (PowerPoint o Prezi) de 15-20 minuts, estructurant el contingut de forma clara i destacant les aportacions originals del projecte.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Defensa el projecte davant del tribunal responent a les preguntes amb seguretat i fonamentant les decisions metodologiques preses, demostrant domini dels continguts tecnics del cicle.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Reflexiona sobre el proces d'aprenentatge viscut al llarg del cicle i en la realitzacio del projecte, identificant les competencies professionals i personals adquirides i els aspectes de millora futura.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

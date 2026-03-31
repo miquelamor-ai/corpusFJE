@@ -1,0 +1,498 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "rd_titol": "RD 1629/2009, de 30 d'octubre",
+    "resolucio_cat": "Resolució ENS/1787/2010, de 26 de maig",
+    "font": "https://www.boe.es/eli/es/rd/2009/10/30/1629",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Serveis en Xarxa forma el tècnic en la instal·lació, configuració i manteniment dels serveis fonamentals d’Internet i de les xarxes corporatives. Les competències adquirides s’apliquen directament en tasques d’administrador de xarxes i sistemes: gestió de servidors DNS, web, correu i FTP en empreses, ISPs i organismes públics.\n\nEls continguts cobreixen la pila de protocols TCP/IP en profunditat: model OSI, adreçament IPv4 i IPv6, subnetting CIDR i VLSM. S’estudien i configuren els serveis principals: DNS amb BIND9 (zones, registres A, MX, CNAME, PTR, transferència de zones), DHCP amb ISC-DHCPD i pools dinàmics, servidors web Apache2 i Nginx (hosting virtual, SSL/TLS amb Let’s Encrypt, proxy invers), servidors FTP amb ProFTPD i vsftpd, i serveis de correu amb Postfix, Dovecot i SpamAssassin. S’introdueix la gestió de certificats X.509 i la configuració segura dels serveis.\n\nEls alumnes deplegen i mantenen en laboratori una infraestructura de serveis completa que simula un entorn d’empresa real. El treball s’organitza per tasques professionals —instal·lació, configuració, proves, documentació i resolució d’incidències— i incorpora l’ús de virtualització per reproduir escenaris complexos amb múltiples servidors interconnectats."
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "Serveis en xarxa",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Protocols de xarxa i capa d'aplicació",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Analitza el model de comunicació en xarxa, identificant els protocols de la pila TCP/IP i la funció de cada capa en la transmissió de dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'han descrit les capes del model OSI i del model TCP/IP, identificant-ne les equivalències i la funció de cada capa.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'han analitzat les unitats de dades de protocol (PDU) a cada capa: segments, paquets, trames i bits.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han identificat i comparat els protocols de transport TCP i UDP, les seves capçaleres i els camps rellevants (ports, número de seqüència, flags).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha analitzat el protocol IP (v4 i v6): estructura de la capçalera, adreçament, enrutament i fragmentació.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'han capturat i analitzat trames de xarxa amb Wireshark, identificant els protocols en ús i el contingut de les PDU.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han identificat les principals eines de diagnòstic de xarxa (ping, traceroute, nslookup, netstat, ss, tcpdump) i interpretat els resultats.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1g",
+                "text": "S'ha configurat l'adreçament IP estàtic i s'ha verificat la connectivitat entre màquines en una xarxa local.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Models de referència: OSI i TCP/IP",
+                "items": [
+                  "Model OSI: 7 capes, funcions i protocols associats a cada capa",
+                  "Model TCP/IP: 4 capes i equivalència amb el model OSI",
+                  "PDU: segment (transport), paquet (xarxa), trama (enllaç), bit (física)",
+                  "Encapsulament i desencapsulament de dades en la transmissió"
+                ]
+              },
+              {
+                "bloc": "Protocols de transport: TCP i UDP",
+                "items": [
+                  "TCP: connexió orientada, fiabilitat, control de flux i de congestió",
+                  "Three-way handshake i tancament de connexió (FIN/ACK)",
+                  "Capçalera TCP: ports, número de seqüència i d'ACK, finestra, flags",
+                  "UDP: transmissió no fiable, sense connexió; casos d'ús (DNS, streaming, VoIP)",
+                  "Multiplexació i demultiplexació: ports origen i destí"
+                ]
+              },
+              {
+                "bloc": "Protocol IP i diagnòstic de xarxa",
+                "items": [
+                  "IPv4: estructura de la capçalera, TTL, TOS, fragmentació",
+                  "Adreçament IPv4: classes, màscara de subxarxa, CIDR, subnetworking",
+                  "IPv6: estructura de la capçalera, adreçament, autoconfiguració (SLAAC)",
+                  "Coexistència IPv4/IPv6: dual stack i túnels",
+                  "Eines de diagnòstic: ping (ICMP), traceroute, netstat/ss, Wireshark, tcpdump"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura i administra el servei DNS, gestionant zones, registres i la resolució de noms en una xarxa corporativa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'ha descrit el funcionament del sistema DNS: jerarquia de zones, servidors arrel, TLD, servidors autoritatius i recursiu/caché.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'ha instal·lat i configurat un servidor DNS primari amb BIND9 o Windows Server DNS per a una zona local.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'han creat i gestionat els registres de recursos (RR) principals: A, AAAA, CNAME, MX, NS, PTR, TXT i SOA.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha configurat la zona de resolució inversa (PTR) per a la xarxa local.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'ha configurat la transferència de zona entre el servidor DNS primari i el secundari per a alta disponibilitat.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2f",
+                "text": "S'han diagnosticat problemes de resolució de noms amb les eines nslookup, dig i host.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Funcionament del sistema DNS",
+                "items": [
+                  "Jerarquia DNS: zona arrel, TLD, dominis de segon nivell i subdominis",
+                  "Tipus de servidors DNS: autoritatiu, recursiu, forwarder i caché",
+                  "Procés de resolució iterativa vs. resolució recursiva",
+                  "TTL (Time To Live) i caché DNS: funcionament i implicacions",
+                  "Registres de recursos (RR): A, AAAA, CNAME, MX, NS, PTR, TXT, SOA"
+                ]
+              },
+              {
+                "bloc": "Configuració de BIND9 i Windows Server DNS",
+                "items": [
+                  "Instal·lació de BIND9 en GNU/Linux: estructura de fitxers de configuració",
+                  "named.conf: opcions globals, declaració de zones i ACLs",
+                  "Fitxers de zona: format, registres mínims i sintaxi",
+                  "Zones de resolució directa e inversa: creació i manteniment",
+                  "Transferència de zona: configuració master/slave i NOTIFY",
+                  "DNS en Windows Server: instal·lació del rol, zones AD-integrades"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Serveis d'Internet: HTTP, FTP, correu, DNS, DHCP",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura i administra el servei DHCP per a l'assignació automàtica d'adreces IP en una xarxa local, garantint la disponibilitat i la seguretat del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'ha descrit el protocol DHCP i el procés DORA (Discover, Offer, Request, Acknowledge) d'assignació d'adreces.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'ha instal·lat i configurat un servidor DHCP (isc-dhcp-server o DHCP de Windows Server) definint el rang d'adreces, la màscara, la passarel·la i els servidors DNS.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'han configurat reserves d'adreces IP estàtiques per a dispositius específics identificats per la seva adreça MAC.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'ha configurat el temps de lloguer (lease time) i analitzat el fitxer de lloguers actius (dhcpd.leases).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha configurat un relay agent DHCP per servir múltiples subxarxes des d'un únic servidor DHCP.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han identificat les vulnerabilitats del protocol DHCP (DHCP starvation, rogue DHCP) i les mesures de mitigació (DHCP snooping).",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Protocol DHCP",
+                "items": [
+                  "Funcionament del protocol DHCP: procés DORA",
+                  "Opcions DHCP: adreça, màscara, passarel·la, DNS, domini, NTP",
+                  "Temps de lloguer: renovació (T1), reenllaç (T2) i expiració",
+                  "Adreces APIPA (169.254.0.0/16): funcionament i diagnòstic"
+                ]
+              },
+              {
+                "bloc": "Configuració del servidor DHCP",
+                "items": [
+                  "isc-dhcp-server: instal·lació i fitxer dhcpd.conf",
+                  "Declaració de subxarxes (subnet), rangs (range) i reserves (host)",
+                  "DHCP en Windows Server: instal·lació del rol, àmbits i opcions",
+                  "Relay agent DHCP: ip helper-address en routers i commutadors gestionats",
+                  "Alta disponibilitat DHCP: failover entre dos servidors",
+                  "Seguretat DHCP: DHCP snooping en commutadors gestionats"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura i administra els serveis de correu electrònic i transferència de fitxers, garantint la seguretat i el correcte funcionament en un entorn corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'han descrit els protocols de correu electrònic: SMTP per a l'enviament i POP3/IMAP per a la recepció, identificant-ne les diferències.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'ha instal·lat i configurat un servidor de correu (Postfix com a MTA i Dovecot com a MDA) per a un domini local.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'han configurat els registres DNS necessaris per al servei de correu: MX, SPF (TXT), DKIM i DMARC.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'ha configurat el xifrat de les connexions SMTP i IMAP amb TLS/SSL (STARTTLS i SMTPS/IMAPS).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'ha instal·lat i configurat un servidor FTP (vsftpd o ProFTPD) gestionant els usuaris, els permisos i el directori chroot.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2f",
+                "text": "S'ha configurat FTPS (FTP sobre TLS) i SFTP (SSH File Transfer Protocol) com a alternatives segures al FTP en clar.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2g",
+                "text": "S'ha verificat el funcionament dels serveis de correu i FTP amb eines de diagnòstic (telnet, openssl s_client, curl, FileZilla).",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Serveis de correu electrònic",
+                "items": [
+                  "Arquitectura del correu: MUA, MTA, MDA, MRA i els seus rols",
+                  "Protocol SMTP: flux d'enviament, ports 25, 587 i 465",
+                  "Protocols de recepció: POP3 (ports 110/995) vs. IMAP (ports 143/993)",
+                  "Postfix: instal·lació, main.cf, master.cf i conceptes bàsics de configuració",
+                  "Dovecot: protocols suportats, autenticació i maildir vs. mbox",
+                  "Antispam i autenticitat: SPF, DKIM, DMARC; registres DNS associats",
+                  "Xifrat: STARTTLS, SMTPS, IMAPS; gestió de certificats"
+                ]
+              },
+              {
+                "bloc": "Servei FTP i transferència de fitxers",
+                "items": [
+                  "Protocol FTP: modes actiu i passiu; ports 20 i 21",
+                  "vsftpd: instal·lació i vsftpd.conf; usuaris locals, virtuals i anònim",
+                  "Chroot jail: confinament d'usuaris al seu directori home",
+                  "FTPS (FTP+TLS): mode explícit (STARTTLS) i implícit (FTPS)",
+                  "SFTP: funcionament sobre SSH, gestió de claus i permisos",
+                  "Alternatives modernes: rsync, SCP, SFTP integrat en OpenSSH"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Configura servidors proxy i de VPN, gestionant el control d'accés i assegurant les comunicacions en un entorn corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3a",
+                "text": "S'ha descrit la funció d'un servidor proxy i les diferències entre proxy directe, invers i transparent.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3b",
+                "text": "S'ha instal·lat i configurat Squid com a proxy HTTP caché, definint les ACL per controlar l'accés per adreça IP, domini i horari.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3c",
+                "text": "S'ha configurat una VPN de tipus site-to-site i d'accés remot (road warrior) amb OpenVPN o WireGuard.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3d",
+                "text": "S'han gestionat els certificats i les claus necessaris per a l'autenticació en una VPN amb PKI pròpia.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA3e",
+                "text": "S'ha verificat la connectivitat de la VPN i analitzat el tràfic xifrat amb Wireshark per confirmar l'efectivitat del xiframent.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Servidors proxy",
+                "items": [
+                  "Proxy directe vs. invers vs. transparent: casos d'ús",
+                  "Squid: instal·lació, squid.conf, ACLs i polítiques d'accés",
+                  "Caché web: beneficis, caducitat i configuració",
+                  "Proxy invers amb Nginx: concepte bàsic i configuració"
+                ]
+              },
+              {
+                "bloc": "Xarxes privades virtuals (VPN)",
+                "items": [
+                  "Conceptes de VPN: túnel, encapsulament i xiframent",
+                  "Tipus de VPN: site-to-site i accés remot (road warrior)",
+                  "OpenVPN: instal·lació, PKI amb easy-rsa, fitxers de configuració",
+                  "WireGuard: instal·lació, generació de claus, configuració de peers",
+                  "Protocols VPN: comparació OpenVPN, WireGuard, IPsec/L2TP, PPTP",
+                  "Verificació i diagnòstic de la VPN: ping, traceroute, Wireshark"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Administració de servidors web i d'aplicació",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura i administra servidors web, gestionant els hosts virtuals, la seguretat i el rendiment per a un entorn de producció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1a",
+                "text": "S'ha instal·lat i configurat el servidor web Apache2 i/o Nginx en un sistema GNU/Linux, verificant el funcionament bàsic.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1b",
+                "text": "S'han configurat hosts virtuals basats en nom (Name-based Virtual Hosts) per allotjar múltiples llocs web en un únic servidor.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1c",
+                "text": "S'ha configurat HTTPS amb certificats TLS/SSL obtinguts amb Let's Encrypt (certbot) i gestió de la renovació automàtica.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1d",
+                "text": "S'han configurat les redireccions HTTP → HTTPS i entre dominis amb els directives Redirect i RewriteRule (Apache) o return i rewrite (Nginx).",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1e",
+                "text": "S'ha configurat el control d'accés al servidor web: autenticació bàsica (htpasswd), restricció per IP i configuració de CORS.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1f",
+                "text": "S'han analitzat els registres (logs) d'accés i d'errors del servidor web per diagnosticar problemes i monitoritzar el tràfic.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA1g",
+                "text": "S'ha configurat Nginx com a proxy invers davant d'un servidor d'aplicació, millorant el rendiment amb caché i balanceig de càrrega bàsic.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Servidor web Apache2",
+                "items": [
+                  "Instal·lació i estructura de directoris: sites-available, sites-enabled, mods-available",
+                  "Directives principals: ServerName, DocumentRoot, Directory, Options, AllowOverride",
+                  "Hosts virtuals basats en nom: configuració i habilitació (a2ensite)",
+                  "Mòduls d'Apache: mod_rewrite, mod_ssl, mod_headers, mod_proxy",
+                  "Fitxer .htaccess: ús, limitacions i directives comuns",
+                  "Logs: access.log i error.log; format CustomLog i nivells LogLevel"
+                ]
+              },
+              {
+                "bloc": "Servidor web Nginx",
+                "items": [
+                  "Instal·lació i estructura de configuració: nginx.conf, sites-available, sites-enabled",
+                  "Blocs server i location: directives principals",
+                  "Hosts virtuals en Nginx: configuració i gestió",
+                  "Nginx com a proxy invers: upstream, proxy_pass, headers de proxy",
+                  "Balanceig de càrrega: mètodes round-robin, least_conn, ip_hash",
+                  "Caché en Nginx: proxy_cache_path i directives de caché"
+                ]
+              },
+              {
+                "bloc": "HTTPS i seguretat web",
+                "items": [
+                  "Certificats TLS/SSL: tipus (DV, OV, EV), cadena de confiança",
+                  "Let's Encrypt i certbot: obtenció, instal·lació i renovació automàtica",
+                  "Configuració TLS: protocols (TLS 1.2, 1.3), cipher suites i HSTS",
+                  "Capçaleres de seguretat HTTP: CSP, X-Frame-Options, X-Content-Type-Options",
+                  "Eines de diagnòstic web: curl, wget, Mozilla Observatory, SSL Labs"
+                ]
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Desplega i administra servidors d'aplicació, configurant l'entorn d'execució per a aplicacions web dinàmiques basades en tecnologies com PHP, Python o Java.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2a",
+                "text": "S'ha configurat l'entorn d'execució PHP amb php-fpm i integrat amb Nginx o Apache per servir aplicacions PHP dinàmiques.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2b",
+                "text": "S'ha desplegat una aplicació web Python (Flask o Django) amb Gunicorn com a servidor WSGI i Nginx com a proxy invers.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2c",
+                "text": "S'ha configurat un servidor d'aplicació Java (Tomcat) per desplegar aplicacions web empaquetades en format WAR.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2d",
+                "text": "S'han configurat entorns virtuals i gestors de dependències (venv + pip, Composer) per aïllar les dependències de cada aplicació.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2e",
+                "text": "S'han configurat variables d'entorn i fitxers de configuració per separar la configuració sensible del codi font de l'aplicació.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2f",
+                "text": "S'ha introduït la contenidorització amb Docker per desplegar servidors web i d'aplicació en contenidors, gestionant imatges i volums bàsics.",
+                "pes_percentual": null
+              },
+              {
+                "codi": "CA2g",
+                "text": "S'han configurat processos de supervisió (systemd, supervisor) per garantir que els serveis s'reiniciïn automàticament davant errors.",
+                "pes_percentual": null
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Servidors d'aplicació web",
+                "items": [
+                  "Arquitectura de 3 capes: servidor web, servidor d'aplicació i base de dades",
+                  "PHP-FPM: instal·lació, configuració de pools i integració amb Nginx/Apache",
+                  "Gunicorn (Python WSGI): treballadors, binding i configuració bàsica",
+                  "uWSGI: alternativa a Gunicorn; configuració bàsica",
+                  "Apache Tomcat: estructura, desplegament de WARs, connectors HTTP i AJP"
+                ]
+              },
+              {
+                "bloc": "Gestió d'entorns i dependències",
+                "items": [
+                  "Entorns virtuals Python: venv, virtualenv; gestió amb pip i requirements.txt",
+                  "Composer (PHP): gestió de dependències i autoloading",
+                  "Variables d'entorn: fitxers .env, gestió de secrets i bones pràctiques",
+                  "Systemd: creació d'unitats de servei, gestió i logs (journalctl)",
+                  "Supervisor: configuració de programes i grups de processos"
+                ]
+              },
+              {
+                "bloc": "Introducció a la contenidorització",
+                "items": [
+                  "Conceptes Docker: imatge, contenidor, volum i xarxa",
+                  "Dockerfile: instruccions bàsiques (FROM, RUN, COPY, CMD, EXPOSE, ENV)",
+                  "Docker Compose: definició de serveis multi-contenidor (web + bd + cache)",
+                  "Registres d'imatges: Docker Hub; push i pull d'imatges",
+                  "Comparació VM vs. contenidors: avantatges i limitacions"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

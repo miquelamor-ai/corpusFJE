@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "EVA",
+    "titol_cicle": "Electromecanica de Vehicles Automobils",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "grau": "mitja",
+    "rd_titol": "RD 453/2010",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Sistemes de Transmissio i Frenada del cicle Electromecanica de Vehicles Automobils forma el tècnic en les competències professionals específiques d'aquesta àrea dins del sector de transport i manteniment de vehicles. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a sistemes de transmissio i frenada en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de sistemes de transmissio i frenada: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de transport i manteniment de vehicles. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Sistemes de Transmissio i Frenada",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Embragatges i caixes de canvis",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mante i repara sistemes de transmissio.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Diagnostica avaries en embragatges i caixes de canvis.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Desmunta, repara i munta conjunts de transmissio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Comprova caixes manuals i automatiques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Mante diferencials i juntes.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Sistemes de frenada",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mante i repara sistemes de frenada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Diagnostica avaries en sistemes de frenada.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Substitueix pastilles, discos i tambors.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Comprova i repara sistemes ABS i ESP.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Realitza purgat del circuit hidraulic.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Suspensio i direccio",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mante i repara sistemes de suspensio i direccio.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Diagnostica avaries en suspensio i direccio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Substitueix amortidors, molles i rotules.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Realitza alineacio de rodes amb equip electronic.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Comprova i repara la direccio assistida.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

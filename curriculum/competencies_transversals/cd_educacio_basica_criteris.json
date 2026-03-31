@@ -1,0 +1,479 @@
+{
+  "meta": {
+    "familia": "transversal",
+    "etapa": "educacio_basica",
+    "competencia_codi": "CD",
+    "competencia_nom": "Competència Digital",
+    "document_tipus": "criteris_avaluacio_orientacions",
+    "decret": "175/2022",
+    "data_decret": "2022-08-24",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/Competencies_CD.pdf",
+    "nota_estructura": "Els criteris d'avaluació s'organitzen per cicles (CI, CM, CS a primària) i per trams (1r-3r i 4t a l'ESO).",
+    "versio_schema": "1.0",
+    "descripcio": "La Competència Digital (CD) forma part de les competències transversals del currículum de l'educació bàsica a Catalunya (Decret 175/2022), alineada amb el marc europeu DigComp 2.1. El seu propòsit és que tot l'alumnat de Primària i ESO desenvolupi la capacitat d'actuar de manera crítica, segura i creativa en entorns digitals, independentment de la matèria cursada. La CD no és una matèria autònoma sinó un eix competencial que travessa totes les àrees i s'avalua des de qualsevol context disciplinar.\n\nAquest document recull els criteris d'avaluació per a cadascuna de les cinc competències específiques de la CD: CD1 (Informació i alfabetització informacional), centrada en la cerca, verificació i organització crítica de la informació; CD2 (Creació de continguts digitals), orientada a la producció en múltiples formats respectant la propietat intel·lectual; CD3 (Comunicació i col·laboració), enfocada a la participació responsable en entorns virtuals; CD4 (Seguretat digital), que promou la protecció de dades i l'ús saludable de la tecnologia; i CD5 (Resolució de problemes), que impulsa el pensament computacional i la robòtica educativa.\n\nEls criteris s'organitzen per cicles a Primària (CI, CM, CS) i per trams a l'ESO (1r-3r i 4t), garantint una progressió coherent des de l'ús guiat fins a l'autonomia plena. A més dels criteris, s'inclouen les orientacions metodològiques que guien el professorat per integrar la competència digital de manera transversal en qualsevol matèria."
+  },
+  "definicio": "La competència digital implica l'ús creatiu, crític i segur de les tecnologies de la informació i la comunicació per assolir els objectius relacionats amb el treball, l'ocupabilitat, l'aprenentatge, el temps lliure i la participació en la societat. Requereix la comprensió i el coneixement d'aquestes tecnologies, les seves aplicacions, possibilitats i limitacions, i la capacitat de cercar, obtenir i processar informació per transformar-la en coneixement.",
+  "dimensions": [
+    {
+      "codi": "CD1",
+      "nom": "Informació i alfabetització informacional",
+      "descripcio": "Identificar, localitzar, recuperar, emmagatzemar, organitzar i analitzar la informació digital, avaluant-ne la finalitat i la relevància."
+    },
+    {
+      "codi": "CD2",
+      "nom": "Creació de continguts digitals",
+      "descripcio": "Crear i editar continguts digitals nous (textos, imatges, vídeos), integrar i reelaborar coneixements i continguts previs, produir expressions artístiques, fitxers multimèdia i programació informàtica."
+    },
+    {
+      "codi": "CD3",
+      "nom": "Comunicació i col·laboració",
+      "descripcio": "Comunicar-se en entorns digitals, compartir recursos a través de les eines en línia, connectar i col·laborar amb d'altres a través de les eines digitals, interaccionar i participar en comunitats i xarxes."
+    },
+    {
+      "codi": "CD4",
+      "nom": "Seguretat i ús saludable",
+      "descripcio": "Protecció de dispositius, continguts, dades personals i privacitat en entorns digitals. Protecció de la salut i el benestar davant les amenaces a la integritat física i psicològica."
+    },
+    {
+      "codi": "CD5",
+      "nom": "Resolució de problemes i pensament computacional",
+      "descripcio": "Identificar necessitats i recursos digitals, prendre decisions fonamentades en la selecció de les eines digitals adequades, resoldre problemes conceptuals a través de la tecnologia digital, pensar de manera computacional."
+    }
+  ],
+  "criteris_avaluacio": {
+    "primaria_CI": [
+      {
+        "competencia": "CD1",
+        "codi": "CD1.1.CI",
+        "descripcio": "Identificar informació en documents digitals senzills (textos, imatges i vídeos) i distingir entre informació útil i no útil per a una tasca concreta."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.2.CI",
+        "descripcio": "Fer cerques guiades a Internet, amb paraules clau senzilles, per obtenir informació sobre un tema proper a l'experiència de l'alumnat."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.3.CI",
+        "descripcio": "Organitzar informació digital en categories senzilles (carpetes, etiquetes) amb l'ajuda del docent, per facilitar-ne la recuperació posterior."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.4.CI",
+        "descripcio": "Reconeixer que la informació que es troba a Internet pot no ser certa i que cal verificar-la contrastant amb altres fonts o amb persones adultes de confiança."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.1.CI",
+        "descripcio": "Crear produccions digitals senzilles (dibuixos, textos curts, presentacions) amb eines bàsiques i adequades a l'edat, per comunicar idees o resultats d'aprenentatge."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.2.CI",
+        "descripcio": "Modificar i reelaborar produccions digitals senzilles afegint o canviant elements (text, imatge, so) per millorar-ne el contingut o la presentació."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.3.CI",
+        "descripcio": "Reconeixer que les produccions digitals (música, imatges, textos) tenen autors i no es poden usar lliurement sense permís, i identificar continguts d'ús lliure."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.1.CI",
+        "descripcio": "Participar en activitats digitals col·lectives guiades (fòrums, documents compartits, videoconferència) seguint les normes bàsiques de comunicació respectuosa en línia."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.2.CI",
+        "descripcio": "Enviar i rebre comunicacions digitals senzilles (correus electrònics, missatges) en entorns educatius controlats, seguint les indicacions del docent."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.3.CI",
+        "descripcio": "Identificar la diferència entre la comunicació presencial i la digital, i valorar la importància de les normes de respecte i cortesia en la comunicació en línia."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.1.CI",
+        "descripcio": "Conexer i aplicar normes bàsiques de seguretat en l'ús de dispositius digitals: no compartir contrasenyes, no obrir enllaços desconeguts, demanar ajuda a un adult."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.2.CI",
+        "descripcio": "Identificar situacions de risc en l'ús d'Internet (compartir informació personal, contactes desconeguts) i saber a qui acudir en cas de sentir-se incòmode o en perill."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.3.CI",
+        "descripcio": "Reconeixer la importància d'un ús equilibrat dels dispositius digitals, alternant-lo amb activitats físiques, joc a l'aire lliure i descans de les pantalles."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.4.CI",
+        "descripcio": "Identificar que els dispositius digitals consumeixen energia i que cal apagar-los o posar-los en mode d'estalvi quan no s'utilitzen per cuidar el medi ambient."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.1.CI",
+        "descripcio": "Identificar problemes senzills del seu entorn i proposar solucions usant eines digitals bàsiques, explicant els passos seguits per arribar a la solució."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.2.CI",
+        "descripcio": "Seguir seqüències d'instruccions (algorismes) per realitzar tasques digitals simples, com programació per blocs visual (Scratch Jr, Code.org), reconeixent-ne l'estructura bàsica."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.3.CI",
+        "descripcio": "Descompondre una tasca senzilla en passos i reconeixer errors en una seqüència d'instruccions per corregir-los, amb l'ajuda del docent o en parella."
+      }
+    ],
+    "primaria_CM": [
+      {
+        "competencia": "CD1",
+        "codi": "CD1.1.CM",
+        "descripcio": "Realitzar cerques a Internet amb paraules clau específiques, seleccionar les fonts més fiables i comparar informació de diverses fonts per identificar coincidències i discrepancies."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.2.CM",
+        "descripcio": "Organitzar i classificar informació digital de manera autònoma en carpetes i subcarpetes, i usar metadades senzilles (etiquetes, títols) per facilitar la recuperació posterior."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.3.CM",
+        "descripcio": "Avaluar la credibilitat de les fonts digitals usant criteris senzills (autoria, data, institució que publica) i distingir entre fets i opinions en els textos digitals."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.4.CM",
+        "descripcio": "Extreure informació rellevant de documents digitals (textos, taules, gràfics) i resumir-la amb les seves pròpies paraules, citant la font d'on prové."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.1.CM",
+        "descripcio": "Crear produccions digitals més complexes (presentacions, vídeos curts, podcasts) combinant text, imatge i so de manera coherent, pensant en el destinatari i la finalitat."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.2.CM",
+        "descripcio": "Aplicar conceptes bàsics de programació per blocs (Scratch) per crear animacions o jocs senzills, usant seqüències, bucles i condicions de manera conscient."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.3.CM",
+        "descripcio": "Identificar i aplicar les llicències Creative Commons en les produccions pròpies i respectar les de les produccions d'altri, citant adequadament les fonts usades."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.1.CM",
+        "descripcio": "Col·laborar en projectes digitals compartits, respectant les aportacions dels companys i usant eines de treball cooperatiu (documents compartits, plataformes col·laboratives)."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.2.CM",
+        "descripcio": "Adaptar el missatge i el to de la comunicació digital al context i al destinatari, seguint les normes de netiqueta i valorant la importància del respecte en línia."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.3.CM",
+        "descripcio": "Identificar i analitzar situacions de comunicació digital inadequada o perillosa (ciberassetjament, continguts inapropiats) i saber com actuar: demanar ajuda, bloquejar, reportar."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.1.CM",
+        "descripcio": "Gestionar contrasenyes segures (llargues, variades, úniques per servei) i protegir els dispositius amb mesures bàsiques de seguretat (antivirus, actualitzacions)."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.2.CM",
+        "descripcio": "Reconeixer i evitar les principals amenaces en l'ús d'Internet (phishing, virus, continguts perjudicials) i saber com protegir-se i on demanar ajuda."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.3.CM",
+        "descripcio": "Regular l'ús dels dispositius digitals per mantenir un estil de vida saludable, equilibrant el temps de pantalla amb altres activitats i respectant els temps de descans."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.4.CM",
+        "descripcio": "Identificar l'impacte ambiental dels dispositius digitals (consum energètic, residus electrònics) i adoptar hàbits d'ús responsable per minimitzar-lo."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.1.CM",
+        "descripcio": "Identificar i definir problemes del seu entorn susceptibles de ser resolts amb eines digitals, i planificar les fases de la solució de manera ordenada."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.2.CM",
+        "descripcio": "Crear programes o animacions amb llenguatges de programació per blocs (Scratch), incorporant seqüències, bucles, condicions i variables senzilles de manera autònoma."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.3.CM",
+        "descripcio": "Depurar errors en els programes o seqüències d'instruccions, identificant la causa del problema i proposant solucions alternatives de manera sistemàtica."
+      }
+    ],
+    "primaria_CS": [
+      {
+        "competencia": "CD1",
+        "codi": "CD1.1.CS",
+        "descripcio": "Dissenyar i executar estratègies de cerca avançada en múltiples fonts digitals, valorant críticament la relevància, la fiabilitat i la completesa de la informació obtinguda."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.2.CS",
+        "descripcio": "Sintetitzar informació procedent de diverses fonts digitals, elaborant un producte propi que integri i relacioni les dades de manera coherent i amb veu pròpia."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.3.CS",
+        "descripcio": "Detectar desinformació, informació esbiaixada i notícies falses (fake news) en entorns digitals, usant estratègies de verificació (fact-checking, contrast de fonts)."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.4.CS",
+        "descripcio": "Gestionar i organitzar la informació digital de manera sistemàtica, usant eines de gestió de la informació i documentant el procés de cerca per poder reproduir-lo."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.1.CS",
+        "descripcio": "Crear produccions digitals complexes i originals (webs, documentals, aplicacions senzilles) integrant diversos formats i medis, pensant en l'audiència a qui van dirigides."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.2.CS",
+        "descripcio": "Programar aplicacions o jocs amb llenguatges de text o mixtos (blocs + text), incorporant estructures de programació avançades (funcions, llistes, paràmetres) de manera funcional."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.3.CS",
+        "descripcio": "Aplicar criteris estètics i de disseny en les produccions digitals, adaptant el format i el contingut a la finalitat i al destinatari, i demanant feedback per millorar-les."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.1.CS",
+        "descripcio": "Liderar i gestionar projectes col·laboratius en entorns digitals, distribuint tasques, fent seguiment del progrés i resolent conflictes de manera constructiva."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.2.CS",
+        "descripcio": "Participar en comunitats digitals d'aprenentatge o interès, aportant continguts de qualitat i interactuant de manera responsable, respectuosa i conscient de la petjada digital."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.3.CS",
+        "descripcio": "Analitzar críticament l'impacte de les xarxes socials en la comunicació, la identitat digital i les relacions socials, i adoptar comportaments responsables i reflexius en línia."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.1.CS",
+        "descripcio": "Gestionar la identitat digital pròpia de manera responsable, protegint les dades personals i la privacitat en tots els entorns digitals que utilitza (xarxes socials, jocs, plataformes)."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.2.CS",
+        "descripcio": "Analitzar les amenaces a la ciberseguretat (enginyeria social, malware, suplantació d'identitat) i aplicar mesures de protecció eficaces de manera autònoma."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.3.CS",
+        "descripcio": "Identificar i gestionar els riscos per a la salut mental derivats d'un ús excessiu de les tecnologies digitals (addicció, FOMO, cyberbullying), adoptant hàbits saludables."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.4.CS",
+        "descripcio": "Analitzar l'impacte socioambiental de les tecnologies digitals (bretxa digital, consum de recursos, condicions laborals en cadena de producció) i reflexionar sobre el consum responsable."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.5.CS",
+        "descripcio": "Reconeixer els drets digitals propis i dels altres, i actuar de manera ètica davant situacions de vulneració d'aquests drets (ciberassetjament, discriminació en línia, hate speech)."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.6.CS",
+        "descripcio": "Aplicar criteris d'accessibilitat i disseny universal en les produccions digitals pròpies per garantir-ne la usabilitat per al màxim de persones possible, incloent persones amb diversitat funcional."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.1.CS",
+        "descripcio": "Analitzar problemes complexos del seu entorn, descomposant-los en subproblemes i dissenyant solucions digitals eficients, creatives i viables."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.2.CS",
+        "descripcio": "Programar aplicacions funcionals usant conceptes avançats (mòduls, API senzilles, bases de dades simples) i documentar el codi per facilitar-ne la comprensió i el manteniment."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.3.CS",
+        "descripcio": "Avaluar críticament les solucions digitals dissenyades (eficiència, usabilitat, accessibilitat, impacte ètic) i proposar millores basades en el feedback dels usuaris i les proves realitzades."
+      }
+    ],
+    "eso_1r_3r": [
+      {
+        "competencia": "CD1",
+        "codi": "CD1.1.ESO13",
+        "descripcio": "Dissenyar i executar estratègies de cerca complexes en bases de dades especialitzades i fonts acadèmiques, avaluant críticament la qualitat, la fiabilitat i la relevància de la informació obtinguda."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.2.ESO13",
+        "descripcio": "Analitzar i contrastar informació procedent de múltiples fonts digitals, identificant biaixos, interessos i punts de vista divergents, i elaborar conclusions pròpies documentades i argumentades."
+      },
+      {
+        "competencia": "CD1",
+        "codi": "CD1.3.ESO13",
+        "descripcio": "Aplicar tècniques de fact-checking i verificació de la informació per detectar desinformació, notícies falses i manipulació informativa en l'entorn digital, i compartir-les de manera responsable."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.1.ESO13",
+        "descripcio": "Crear produccions digitals complexes i originals usant diverses eines i formats (web, vídeo, podcast, presentació interactiva), integrant continguts de forma coherent i amb una finalitat comunicativa clara."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.2.ESO13",
+        "descripcio": "Programar aplicacions, jocs o webs usant llenguatges de text (Python, JavaScript, HTML/CSS), incorporant estructures de programació avançades i resolent problemes reals o simulats del seu entorn."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.3.ESO13",
+        "descripcio": "Aplicar i respectar les normatives de drets d'autor i propietat intel·lectual en les produccions digitals pròpies, citant correctament les fonts i usant llicències adequades als propòsits de cada producció."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.1.ESO13",
+        "descripcio": "Participar activament en projectes col·laboratius en entorns digitals, gestionant la comunicació, les tasques i els conflictes de manera constructiva i respectant la diversitat d'opinions i estils de treball."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.2.ESO13",
+        "descripcio": "Analitzar críticament l'impacte de les xarxes socials i els algorismes en la formació de l'opinió pública, la identitat digital i el comportament social, i adoptar actituds crítiques i responsables."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.3.ESO13",
+        "descripcio": "Gestionar la pròpia identitat digital de manera reflexiva i responsable, protegint la privacitat i actuant èticament en tots els espais digitals, amb consciència de la petjada digital generada."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.1.ESO13",
+        "descripcio": "Analitzar les principals amenaces a la ciberseguretat i la privacitat (phishing, ransomware, enginyeria social) i aplicar mesures de protecció avançades de manera autònoma i sistemàtica."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.2.ESO13",
+        "descripcio": "Reflexionar sobre l'impacte de l'ús intensiu de les tecnologies digitals en la salut física i mental, i desenvolupar estratègies personals per a un ús saludable i equilibrat, amb criteris propis."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.3.ESO13",
+        "descripcio": "Analitzar l'impacte social, econòmic i ambiental de les tecnologies digitals (IA, big data, automatització) i reflexionar sobre les implicacions ètiques i de justícia social que comporten."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.4.ESO13",
+        "descripcio": "Identificar i respondre adequadament a situacions de vulneració dels drets digitals propis i aliens (ciberassetjament, discriminació, hate speech) i activar els mecanismes de protecció disponibles."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.1.ESO13",
+        "descripcio": "Analitzar problemes complexos i dissenyar solucions digitals innovadores, aplicant el pensament computacional i els principis del disseny centrat en l'usuari per maximitzar l'impacte i la usabilitat."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.2.ESO13",
+        "descripcio": "Desenvolupar projectes de programació o robòtica en equip, aplicant metodologies àgils (prototipat, iteració, feedback), i documentant el procés i el resultat de manera clara i rigorosa."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.3.ESO13",
+        "descripcio": "Avaluar críticament les solucions tecnològiques existents i les pròpies, considerant la seva eficiència, usabilitat, accessibilitat i impacte ètic i social, i proposar-ne millores fonamentades."
+      }
+    ],
+    "eso_4t": [
+      {
+        "competencia": "CD1",
+        "codi": "CD1.1.ESO4",
+        "descripcio": "Planificar i executar projectes de recerca d'informació en fonts acadèmiques i especialitzades, avaluant-ne críticament la qualitat i els biaixos potencials, i elaborant síntesis originals que inclouen la pròpia veu crítica i argumentada."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.1.ESO4",
+        "descripcio": "Dissenyar, produir i publicar creacions digitals complexes i amb valor per a una audiència real, demostrant domini dels aspectes tècnics, estètics i de contingut, i gestionant els drets d'autor de manera completa i autònoma."
+      },
+      {
+        "competencia": "CD2",
+        "codi": "CD2.2.ESO4",
+        "descripcio": "Programar i publicar aplicacions, webs o jocs complets usant eines professionals o semiprofessionals, documentant el codi, realitzant proves d'usabilitat i aplicant principis d'accessibilitat i disseny inclusiu."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.1.ESO4",
+        "descripcio": "Liderar i coordinar projectes col·laboratius en entorns digitals complexos, gestionant la comunicació entre equips, el control de versions i les eines de gestió de projectes professionals."
+      },
+      {
+        "competencia": "CD3",
+        "codi": "CD3.2.ESO4",
+        "descripcio": "Analitzar i avaluar críticament el propi comportament i el dels altres en els entorns digitals, reflexionant sobre l'ètica digital, la ciutadania activa en línia i l'impacte de les decisions digitals en la societat."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.1.ESO4",
+        "descripcio": "Dissenyar i implementar polítiques de seguretat personal i col·lectiva en entorns digitals (contrasenyes robustes, autenticació en dos passos, actualització de sistemes, còpies de seguretat) i assessorar altres persones."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.2.ESO4",
+        "descripcio": "Analitzar en profunditat l'impacte de les tecnologies digitals en la salut mental dels adolescents (addiccions, FOMO, comparació social en xarxes) i dissenyar estratègies personals i col·lectives per a un ús saludable."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.3.ESO4",
+        "descripcio": "Reflexionar críticament sobre el model econòmic i social de les plataformes digitals (economia de l'atenció, monetització de dades, bretxa digital) i el seu impacte en la igualtat i la justícia social."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.4.ESO4",
+        "descripcio": "Actuar com a agent actiu en la promoció dels drets digitals i la lluita contra les discriminacions en l'entorn digital, dissenyant accions de sensibilització o intervenció al seu entorn proper."
+      },
+      {
+        "competencia": "CD4",
+        "codi": "CD4.5.ESO4",
+        "descripcio": "Analitzar les implicacions ètiques, socials i laborals de la intel·ligència artificial, l'automatització i les tecnologies emergents, i reflexionar sobre el propi posicionament creatiu i professional en aquest context."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.1.ESO4",
+        "descripcio": "Dissenyar, implementar i avaluar projectes tecnològics o digitals complets que responguin a necessitats reals o simulades del seu entorn, aplicant metodologies de disseny, iteració i presentació a una audiència real."
+      },
+      {
+        "competencia": "CD5",
+        "codi": "CD5.2.ESO4",
+        "descripcio": "Reflexionar sobre el futur professional en l'era digital, identificant les competències clau que cal desenvolupar i dissenyant un itinerari personal d'aprenentatge continuat en l'àmbit digital i tecnològic."
+      }
+    ]
+  },
+  "orientacions_metodologiques": {
+    "primaria": "A primària, la competència digital s'ha d'integrar de manera transversal en totes les àrees, partint d'activitats globalitzades i significatives per a l'alumnat. Es recomana l'ús de metodologies actives (projectes, reptes, aprenentatge cooperatiu) en què les eines digitals siguin un mitjà per aprendre continguts i competències, no una finalitat en si mateixes. El docent ha d'actuar com a model d'ús crític i responsable de la tecnologia, i proporcionar a l'alumnat situacions d'aprenentatge autèntiques. Cal progressar de la direcció alta al cicle inicial fins a la major autonomia al cicle superior. La programació per blocs (Scratch, Code.org) és un recurs especialment adequat per treballar el pensament computacional. La dimensió de seguretat i ús saludable (CD4) és especialment rellevant i cal tractar-la amb naturalitat i de manera preventiva.",
+    "eso": "A l'ESO, la competència digital s'ha d'aprofundir i consolidar a través de situacions d'aprenentatge cada vegada més complexes i autònomes. Es recomana l'ús de projectes interdisciplinaris en què l'alumnat hagi de mobilitzar competències digitals de múltiples àmbits per resoldre reptes reals o simulats. Cal donar espai a la reflexió crítica sobre l'impacte social, econòmic i ambiental de les tecnologies, i fomentar una ciutadania digital activa, responsable i compromesa. La programació en llenguatges de text (Python, JavaScript, HTML/CSS) és una eina poderosa per treballar el pensament computacional. Les conexions amb el món professional i els itineraris postobligatoris s'han de treballar especialment a 4t d'ESO."
+  },
+  "connexions_materies": [
+    "Tecnologia i Digitalització",
+    "Ciències de la Naturalesa",
+    "Ciències Socials",
+    "Llengua Catalana i Literatura",
+    "Llengua Castellana i Literatura",
+    "Matemàtiques",
+    "Educació Artística",
+    "Educació Física",
+    "Lengües Estrangeres",
+    "Música",
+    "Filosofia",
+    "Emprenedoria i Orientació",
+    "Educació per a la Ciutadania"
+  ]
+}

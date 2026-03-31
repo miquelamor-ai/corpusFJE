@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "TAPIC",
+    "titol_cicle": "Anatomia Patologica i Citologia",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 1030/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/07/15/pdfs/BOE-A-2011-12296.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP09 forma el tècnic TAPIC en els sistemes de gestió de la qualitat aplicats als laboratoris anatomopatològics i en la gestió de la documentació clínica i tècnica associada al procés diagnòstic. Les competències adquirides garantitzen la traçabilitat, la seguretat i la millora contínua del laboratori d'anatomia patològica, i s'apliquen en serveis hospitalaris i laboratoris privats acreditats.\n\nEl mòdul treballa els principis dels sistemes de gestió de la qualitat en el laboratori clínic (norma ISO 15189:2022), les fases preanaltíca, analítica i postanaltíca i els seus indicadors de qualitat, la gestió de no conformitats, accions correctives i preventives (CAPA), i l'auditoria interna. S'estudia la documentació del laboratori (PNT, instruccions de treball, registres, manual de qualitat), el sistema informàtic de laboratori (LIMS: sol·licituds, resultats, informes i arxiu d'imatges), i la normativa de protecció de dades en l'àmbit sanitari (RGPD, Llei orgànica 3/2018) aplicada a la custòdia de blocs de parafina, preparats histològics i mostres biològiques.\n\nLa metodologia inclou l'elaboració de PNT reals del laboratori, la realització d'un cicle de millora (identificació de problema, anàlisi de causa arrel, acció correctiva i verificació), el registre al LIMS de casos simulats i la preparació d'un informe d'auditoria interna. L'alumnat treballa amb casos pràctics de gestió de no conformitats i aplica la metodologia de resolució de problemes en entorns de laboratori hospitalari."
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "Qualitat i Documentacio",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Qualitat ISO 15189 i documentacio SNOMED en laboratori d'anatomia patologica",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica els requisits del sistema de gestio de la qualitat (SGQ) de la norma ISO 15189 en les activitats del laboratori d'anatomia patologica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica els elements clau de la ISO 15189 (gestio de documents, no conformitats, accions correctives, auditories internes) i els correlaciona amb les activitats del laboratori.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Elabora i actualitza SOPs per a tecniques de laboratori (HE, IHQ, necropsia) respectant el format i la numeracio del sistema documental del centre.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Registra les no conformitats detectades (resultats fora de control, incidencies de mostra, errors de documentacio) al sistema de gestio i proposa accions correctives.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Participa en la preparacio d'auditories internes identificant les evidencies objectives (registres, SOPs, calibracions) que demostren el compliment dels requisits.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Utilitza la nomenclatura SNOMED CT per a la codificacio de les lesions histologiques i citologiques en els informes anatomopatologics.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Descriu l'estructura jerarquica de SNOMED CT (conceptes, relacions, descripcions) i explica les seves avantatges en la interoperabilitat amb sistemes HIS i PACS.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Codifica lesions histologiques frequents (adenocarcinoma de colon, carcinoma papil.lar de tiroides, carcinoma ductal infiltrant de mama) amb els codis SNOMED T (topografia) i M (morfologia).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Utilitza el browser oficial de SNOMED CT per a la cerca de conceptes i verifica la codificacio amb el patolog responsable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Registra la codificacio SNOMED al SIL (LIS) i comprova la correcta importacio en el sistema d'explotacio estadistica i epidemiologica del servei.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Gestiona els controls de qualitat interns i externs (EQAS) i els indicadors de qualitat del laboratori d'anatomia patologica per a la millora continua del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Prepara i analitza els controls de qualitat interns per a les tincions histologiques (controls positius/negatius per HE, IHQ, tincions especials) i registra els resultats als grafics de control (Levey-Jennings).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Participa en els programes externs de control de qualitat (EQAS) de la SEAP o NordiQC, comparant els resultats del laboratori amb els del grup de referencia.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Monitora els indicadors de qualitat del laboratori (temps de resposta, taxa de discordances, taxa de mostres insatisfactories) i elabora l'informe mensual d'indicadors.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Proposa accions de millora basades en l'analisi dels indicadors i dels resultats dels EQAS, documentant-les en el pla de millora del servei.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

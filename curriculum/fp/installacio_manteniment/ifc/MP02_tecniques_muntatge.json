@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IFC",
+    "titol_cicle": "Instal·lacions Frigorífiques i de Climatització",
+    "familia_professional": "Instal·lació i Manteniment",
+    "grau": "mitja",
+    "rd_titol": "RD 1793/2010",
+    "resolucio_cat": "Resolució ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/01/18/pdfs/BOE-A-2011-1007.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Tècniques de Muntatge d’Instal·lacions del cicle Instal·lacions Frigorífiques i de Climatització forma el tècnic en les competències professionals específiques d'aquesta àrea dins del sector de instal·lació i manteniment. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a tècniques de muntatge d’instal·lacions en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de tècniques de muntatge d’instal·lacions: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de instal·lació i manteniment. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Tècniques de Muntatge d’Instal·lacions",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Soldadura i mecanització",
+        "hores": 82,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza operacions de mecanitzat bàsic i soldadura de canonades per a instal·lacions frigorífiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Talla i corba canonades de coure respectant radis mínims.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Realitza soldadures heterogènies i autògenes en canonades de coure verificant estanqueïtat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Realitza connexions abocardades i amb racors de compressió.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Mecanitza peces metàl·liques per a suports i bancades.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Aplica normes de seguretat en soldadura (ventilació, EPI, extintor).",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Muntatge i posada en marxa de circuits frigorífics",
+        "hores": 83,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta i posa en marxa circuits frigorífics amb proves d’estanqueïtat, buit i càrrega.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Munta un circuit frigorífic complet seguint l’esquema.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Realitza la prova d’estanqueïtat amb nitrogen.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Realitza el buit amb bomba de buit.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Carrega refrigerant usant balança electrònica.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Verifica funcionament mesurant pressions i temperatures.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

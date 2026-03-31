@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SEA",
+    "titol_cicle": "Sistemes Electrotècnics i Automatitzats",
+    "familia_professional": "Electricitat i Electrònica",
+    "grau": "superior",
+    "rd_titol": "RD 182/2008",
+    "resolucio_cat": "Resolució ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07986-08003.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d'Instal·lacions Elèctriques en Baixa Tensió forma el tècnic superior SEA per dissenyar, executar, verificar i mantenir instal·lacions elèctriques d'habitatges, locals comercials i edificis, amb un nivell de responsabilitat que inclou la redacció de la memòria tècnica i la legalització. Les competències s'apliquen en el projecte i direcció tècnica d'obres elèctriques, en la coordinació d'equips d'instal·ladors i en la relació amb organismes de certificació i distribuïdores.\n\nEl marc normatiu central és el REBT (RD 842/2002) i les seves ITC-BT, especialment ITC-BT-17, 18, 24, 25, 27, 28 i 29. L'alumne aprèn a determinar el grau d'electrificació i la previsió de càrregues, a dissenyar els circuits interiors (ITC-BT-25) amb les seccions de conductor per criteri de densitat de corrent i caiguda de tensió màxima admissible, a dimensionar el quadre de distribució (IGA, ICP, diferencials i magnetotèrmics per circuit) i a instal·lar el sistema de posta a terra (ITC-BT-18). La verificació reglamentària inclou mesura de continuïtat de conductors, resistència d'aïllament, resistència de terra i comprovació de proteccions amb analitzador de xarxa, amb l'elaboració del protocol de proves i l'acta d'autocontrol.\n\nLa metodologia integra el disseny assistit (esquemes unifilars, memòria tècnica) amb el muntatge real al taller: canalitzacions, passaconductors, connexions a borns i quadres elèctrics. La diagnosi sistemàtica d'avaries (observació, mesura, hipòtesi, verificació) amb multímetre i pinça amperimètrica i la localització de curtcircuits, defectes a terra i circuits oberts completen la formació pràctica, sempre amb aplicació estricta de les cinc regles d'or."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Instal·lacions Elèctriques en Baixa Tensió",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Instal·lació interior d'edificis",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya instal·lacions elèctriques interiors d'habitatges i locals comercials aplicant el Reglament Electrotècnic de Baixa Tensió (REBT) i les seves instruccions tècniques complementàries (ITC).",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Interpreta els plànols arquitectònics i aplica la normativa del REBT (RD 842/2002) per determinar el grau d'electrificació i la previsió de càrregues.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Dissenya els circuits interiors de l'habitatge (ITC-BT-25) definint el número de circuits, les seccions de conductors i les proteccions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Dimensiona el quadre de distribució (IGA, ICP, diferencials, magnetotèrmics per circuit) complint les ITC-BT-17 i ITC-BT-24.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Calcula la secció de conductors per criteris de densitat de corrent màxima admissible i de caiguda de tensió màxima permesa.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.5",
+                "text": "Elabora la memòria tècnica i l'esquema unifilar de la instal·lació per a la seva legalització davant l'organisme competent.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza el muntatge i cablejat d'instal·lacions elèctriques interiors aplicant les tècniques d'instal·lació, les canalitzacions normalitzades i les regles de l'art.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Selecciona i instal·la les canalitzacions adequades (tubs corrugats, safates, canals, tubs rígids) en funció del tipus d'edifici i de local.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Realitza el passaconductors per les canalitzacions respectant els radis de curvatura mínims i la separació entre circuits.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Executa les connexions als quadres elèctrics i als mecanismes (endolls, interruptors, polsadors) aplicant les tècniques de borns i de brides.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Instal·la el sistema de posta a terra de l'edifici (elèctrode, línia principal, derivacions) complint la ITC-BT-18.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "Interpreta i aplica la normativa d'instal·lació en locals de risc especial (ITC-BT-28, ITC-BT-29) i banys (ITC-BT-27).",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Proteccions i verificació REBT",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Verifica les instal·lacions elèctriques en baixa tensió realitzant les proves i mesures de posada en marxa exigides pel REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Realitza les mesures elèctriques de verificació (continuïtat de conductors, resistència d'aïllament, resistència de terra) amb els instruments adequats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Verifica el funcionament dels dispositius de protecció (magnetotèrmics, diferencials) comprovant la seva sensibilitat i el temps d'actuació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Mesura els paràmetres elèctrics de la instal·lació (tensió, intensitat, potència, factor de potència) amb analitzador de xarxa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Elabora el protocol de proves i l'acta d'autocontrol de la instal·lació amb els resultats de les mesures i les conclusions.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Localitza i repara avaries en instal·lacions elèctriques en baixa tensió aplicant procediments de diagnòstic sistemàtic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Aplica el mètode de diagnòstic sistemàtic (observació, mesura, hipòtesi, verificació) per localitzar avaries en instal·lacions elèctriques.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Identifica els tipus d'avaries elèctriques més freqüents (curtcircuits, defectes a terra, circuits oberts, males connexions) pels seus símptomes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Utilitza instruments de mesura (multímetre, pinça amperimètrica, comprovador de línies) per localitzar el punt de falla en el circuit.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Repara les avaries localitzades restituint les condicions originals de la instal·lació i verifica el seu funcionament correcte posteriorment.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica les normes de seguretat en els treballs en instal·lacions elèctriques de baixa tensió seguint la normativa de prevenció de riscos laborals del sector elèctric.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Identifica els riscos específics del treball en instal·lacions elèctriques (electrocució, arc elèctric, cremades, caigudes) i les seves causes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Aplica les cinc regles d'or de la seguretat elèctrica en tots els treballs sobre instal·lacions en baixa tensió.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Selecciona i utilitza correctament els equips de protecció individual (EPI) apropiats per a treballs elèctrics en baixa tensió.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Actua correctament en cas d'accident per electrocució (tall del corrent, primers auxilis, avís als serveis d'emergència) sense posar-se en risc.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

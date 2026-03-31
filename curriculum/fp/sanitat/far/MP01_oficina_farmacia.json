@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "FAR",
+    "titol_cicle": "Farmàcia i Parafarmàcia",
+    "familia_professional": "Sanitat",
+    "grau": "mitja",
+    "rd_titol": "RD 1689/2011",
+    "resolucio_cat": "Resolució ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/12/17/pdfs/BOE-A-2011-19635.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP01 proporciona al tecnic en Farmacia i Parafarmacia (Grau Mitja) les competencies per organitzar i gestionar una oficina de farmacia: zones funcionals, control d'estoc, cadena del fred, comandes a distribuidors i atencio farmaceutica al public. S'aplica en oficines de farmacia i serveis d'atencio al client de parafarmacies.\n\nEl modul treballa conceptes com les zones funcionals de la farmacia (atencio al public, dispensacio, magatzem, laboratori de formulacio) i la seva normativa (Llei 25/1990 del medicament i legislacio autonomica catalana). S'estudien les condicions de conservacio dels medicaments (temperatura, humitat, llum), el sistema FIFO per a la rotacio d'estoc, la gestio de la cadena del fred per a medicaments termolabils com vacunes i insulines, i l'us del sistema informatic de gestio de farmacia (SGF). La dispensacio amb recepta inclou el protocol complet: verificacio de la recepta, identificacio del medicament per DCI o nom comercial, deteccio d'interaccions, consell al pacient i tramitacio al col.legi farmaceutic. La dispensacio sense recepta aplica el proces SEFAC i la identificacio de signes d'alerta.\n\nEl modul es desenvolupa amb simulacions d'atencio al public en entorn de farmacia, jocs de rol de dispensacio amb recepta i sense, gestio practica de l'estoc amb programari SGF i practiques en oficines de farmacia reals durant la FCT."
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Oficina de Farmàcia",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Organització i gestió de la farmàcia",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Organitza l’espai i les àrees funcionals d’una oficina de farmàcia aplicant criteris de seguretat, accessibilitat i eficiència.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han descrit les zones funcionals d’una oficina de farmàcia (zona d’atenció al públic, zona de dispensació, magatzem, laboratori de formulació) i les seves característiques.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat les condicions ambientals requerides (temperatura, humitat, llum) per a la correcta conservació dels medicaments.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han descrit els criteris d’organització de l’estoc al magatzem (FIFO, per laboratori, per forma farmacèutica) i les seves avantatges.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha descrit la normativa d’autorització i funcionament de les oficines de farmàcia (Llei 25/1990 del medicament i legislació autonòmica).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han identificat les funcions del personal de la farmàcia (farmacèutic titular, adjunts, tècnics) i les seves responsabilitats.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona l’estoc d’una oficina de farmàcia controlant les caducitats, la cadena del fred i les comandes als distribuïdors.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha realitzat una revisió d’estoc identificant medicaments propers a la caducitat i aplicant el protocol de retirada.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha gestionat la cadena del fred per a medicaments termolàbils (vacunes, insulines) verificant les temperatures del frigorífic.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha realitzat una comanda als distribuïdors (cooperatives farmacèutiques) a partir de l’anàlisi de l’estoc mínim.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han registrat les entrades de mercaderia verificant l’albarà, el lot i la data de caducitat.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha usat el sistema informàtic de gestió de la farmàcia (SGF) per a la gestió de l’estoc.",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Atenció farmacèutica",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dispensa medicaments amb recepta mèdica aplicant el protocol de dispensació i les normes deontològiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha verificat l’autenticitat i la validesa de la recepta (data, signatura, dades del pacient, prescripció).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'ha identificat el medicament prescrit (DCI o nom comercial), la forma farmacèutica i la posologia.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han detectat possibles interaccions medicamentoses o al·lèrgies a partir del perfil farmacoterapèutic del pacient.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha proporcionat la informació necessària al pacient sobre la posologia, la conservació i els efectes adversos.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha registrat la dispensació al sistema informàtic i tramitat la recepta al col·legi farmacèutic.",
+                "pes_percentual": 15
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Proporciona consell farmacèutic en la dispensació de medicaments sense recepta (EFP/OTC) identificant situacions d’autocura i de derivació al metge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha realitzat el procés SEFAC (Símptoma, Exploració, Fàrmac, Actuació, Consell) per a la dispensació sense recepta.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han identificat els signes d’alerta que requereixen derivació al metge en les consultes més freqüents (tos, dolor de cap, febre, diarrea).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha seleccionat el medicament OTC més adequat en funció dels símptomes, l’edat i les patologies del pacient.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha documentat l’actuació farmacèutica al registre d’intervencions de la farmàcia.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha comunicat de forma empàtica i clara adaptant el missatge al perfil del pacient.",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

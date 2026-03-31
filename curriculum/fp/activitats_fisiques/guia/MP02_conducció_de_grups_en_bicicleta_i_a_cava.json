@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GUIA",
+    "titol_cicle": "Guia en el Medi Natural i de Temps de Lleure",
+    "familia_professional": "Activitats Físiques i Esportives",
+    "grau": "mitja",
+    "rd_titol": "RD 402/2020",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Conducció de Grups en Bicicleta i a Cavall desenvolupa les competències tècniques i pedagògiques per guiar grups en rutes ciclistes i eqüestres al medi natural. Capacita per treballar en empreses de turisme actiu, centres eqüestres, parcs naturals i serveis de lloguer de bicicletes amb guiatge inclòs.\n\nEls continguts cobreixen la mecànica bàsica de la bicicleta (transmissió, frens, suspensió, roda), la planificació de rutes ciclistes (perfil altimètric, paviment, trànsit, avituallament), les tècniques de conducció de grup (reagrupaments, senyalització, comunicació per ràdio) i el maneig eqüestre (munta, embridament, alimentació i benestar animal). S'inclou la normativa de circulació aplicable a grups ciclistes i la regulació d'activitats eqüestres.\n\nLa metodologia combina sessions de mecànica al taller amb sortides reals en bicicleta de muntanya i de carretera, i pràctiques de munta i guiatge a cavall en centres eqüestres col·laboradors. L'avaluació es basa en la conducció real de grups, la resolució d'incidències mecàniques i la gestió de la seguretat en ruta."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Conducció de grups en bicicleta i a cavall",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Conducció de grups en bicicleta",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Condueix grups en rutes de bicicleta tot-terreny i de carretera, garantint la seguretat i l'experiència dels participants.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha planificat una ruta en bicicleta adaptada al nivell del grup.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han revisat els elements mecànics de la bicicleta abans de la sortida.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han aplicat tècniques de conducció de grup en ruta: reagrupaments, senyalització, comunicació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han resolt incidències mecàniques bàsiques durant la ruta.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Conducció de grups a cavall",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA2",
+            "text": "Condueix grups en rutes a cavall, gestionant la seguretat i el benestar animal.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han aplicat tècniques bàsiques de munta i maneig del cavall.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha planificat una ruta eqüestre valorant el terreny i el nivell dels participants.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha garantit el benestar de l'animal: alimentació, hidratació, descans.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han gestionat situacions imprevistes durant la ruta eqüestre.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

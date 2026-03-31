@@ -1,0 +1,660 @@
+{
+  "meta": {
+    "familia": "infantil",
+    "etapa": "infantil",
+    "cicle": "segon_cicle",
+    "edat": "3-6",
+    "decret": "181/2008",
+    "data_decret": "2008-12-09",
+    "font": "Currículum i Orientacions. Educació Infantil. Segon Cicle. Departament d'Ensenyament, Generalitat de Catalunya (juny 2016). Basat en el Decret 181/2008, de 9 de desembre, i la Llei 12/2009 d'Educació.",
+    "nota_estructura": "IMPORTANT: El currículum d'Educació Infantil NO segueix l'estructura LOMLOE (competències específiques + sabers bàsics). S'estructura en 9 Capacitats globals, 4 Eixos transversals, 10 Objectius de cicle, 3 Àrees amb blocs de continguts, i 10 Criteris d'avaluació. El camp 'ambits' mapeja les 3 Àrees del document. Dins de cada àrea, 'objectius_desenvolupament' mapeja els blocs temàtics de continguts (no hi ha ODA individuals numerats). Les orientacions d'avaluació i els criteris es recullen a nivell de cicle (veure 'avaluacio_cicle'). Normativa d'avaluació: Ordre EDU/484/2009.",
+    "versio_schema": "1.0",
+    "nota_decret": "L'usuari va indicar Decret 21/2023, però el document PDF proporcionat correspon al Decret 181/2008 (document Departament d'Ensenyament, juny 2016). Si disposeu del document del Decret 21/2023, cal actualitzar aquest fitxer.",
+    "descripcio": "L'Educació Infantil de segon cicle (3-6 anys) regulada pel Decret 181/2008 és una etapa educativa amb identitat pròpia i caràcter voluntari, fonamental per al desenvolupament global de l'infant en els àmbits motor, afectiu, social, cognitiu i lingüístic. El currículum s'orienta al desenvolupament de capacitats globals de la persona, no a la transmissió de continguts acadèmics, i reconeix el joc i l'experiència directa com a motors de l'aprenentatge. Connecta amb les competències de Primària i prepara l'infant per a la transició escolar.\n\nEl marc curricular s'organitza en tres àrees d'experiència interconnectades: el Descobriment d'un mateix i de l'altre (identitat, cos, emocions, relacions socials), el Descobriment de l'entorn natural i social (exploració, pensament lògic, medi natural i cultural) i la Comunicació i els llenguatges (llenguatge oral, escrit, matemàtic, artístic, corporal i audiovisual). Nou capacitats globals orienten la pràctica docent de manera holística, i deu objectius de cicle concreten els aprenentatges esperats. L'avaluació és global, contínua i formativa, basada en l'observació sistemàtica.\n\nL'enfocament pedagògic és globalitzador i centrat en l'infant com a protagonista del seu aprenentatge. El joc simbòlic, el treball per racons, la rutina com a estructura segura i l'organització de l'espai com a tercer mestre caracteritzen la metodologia d'aquesta etapa. La família és considerada agent educatiu clau i la seva participació és un principi fonamental del Decret 181/2008. Nota: aquest fitxer recull el currículum del Decret 181/2008, vigent fins a la implantació del Decret 21/2023."
+  },
+  "capacitats_globals": [
+    "Progressar en el coneixement i domini del seu cos, en el moviment i la coordinació tot percebent les seves possibilitats.",
+    "Assolir progressivament seguretat afectiva i emocional i anar-se formant una imatge positiva d'ell mateix i dels altres.",
+    "Adquirir progressivament hàbits bàsics d'autonomia en accions quotidianes per actuar amb seguretat i eficàcia.",
+    "Pensar, crear, elaborar explicacions i anar comprenent la realitat, per intervenir-hi socialment.",
+    "Progressar en la comunicació i expressió ajustada als diferents contextos i situacions de comunicació habituals per mitjà dels diversos llenguatges.",
+    "Observar i explorar l'entorn immediat, natural i físic, amb una actitud de curiositat i respecte i participar, gradualment, en activitats socials i culturals.",
+    "Mostrar iniciativa per afrontar situacions de la vida quotidiana, identificar-ne els perills i aprendre a actuar-hi en conseqüència.",
+    "Conviure en la diversitat, avançar en la relació amb els altres i en la resolució pacífica de conflictes.",
+    "Comportar-se d'acord amb unes pautes de convivència que el portin cap a una autonomia personal, cap a la col·laboració, cap a la integració social i cap al respecte als altres."
+  ],
+  "eixos_capacitats": [
+    {
+      "codi": "EIX1",
+      "nom": "Aprendre a ser i actuar de forma cada vegada més autònoma",
+      "descripcio": "Progressar en el coneixement i domini d'un mateix, en el moviment i la coordinació, assolint seguretat afectiva i emocional i formant-se una imatge positiva pròpia i dels altres."
+    },
+    {
+      "codi": "EIX2",
+      "nom": "Aprendre a pensar i a comunicar",
+      "descripcio": "Pensar, crear, elaborar explicacions i comprendre la realitat, progressant en la comunicació i expressió ajustada als diferents contextos per mitjà dels diversos llenguatges."
+    },
+    {
+      "codi": "EIX3",
+      "nom": "Aprendre a descobrir i tenir iniciativa",
+      "descripcio": "Observar i explorar l'entorn immediat, natural i físic amb curiositat i respecte, mostrant iniciativa per afrontar situacions de la vida quotidiana i identificar-ne els perills."
+    },
+    {
+      "codi": "EIX4",
+      "nom": "Aprendre a conviure i habitar el món",
+      "descripcio": "Conviure en la diversitat, avançar en la relació amb els altres, la resolució pacífica de conflictes i comportar-se d'acord amb pautes de convivència que permetin l'autonomia personal i la integració social."
+    }
+  ],
+  "objectius_cicle": [
+    {
+      "codi": "OBJ1",
+      "text": "Identificar-se com a persona i anar descobrint les pròpies possibilitats i limitacions, construint-se una imatge ajustada i positiva d'un mateix.",
+      "eix": "EIX1"
+    },
+    {
+      "codi": "OBJ2",
+      "text": "Adquirir progressivament autonomia en la realització d'activitats habituals i en la resolució de problemes de la vida quotidiana.",
+      "eix": "EIX1"
+    },
+    {
+      "codi": "OBJ3",
+      "text": "Descobrir, conèixer i controlar progressivament el propi cos, les seves possibilitats perceptives i motrius, i avançar en l'adquisició de pràctiques saludables.",
+      "eix": "EIX1"
+    },
+    {
+      "codi": "OBJ4",
+      "text": "Aprendre a relacionar-se amb els altres i adquirir progressivament pautes elementals de convivència i relació social, tot exercitant-se en la resolució pacífica de conflictes.",
+      "eix": "EIX4"
+    },
+    {
+      "codi": "OBJ5",
+      "text": "Observar i explorar l'entorn immediat, natural, social i cultural, interessant-se per les situacions i fets més significatius, tot identificant els canvis i relacions.",
+      "eix": "EIX3"
+    },
+    {
+      "codi": "OBJ6",
+      "text": "Representar i evocar aspectes de la realitat viscuda, coneguda o imaginada, i expressar-los mitjançant les possibilitats simbòliques que ofereix el joc i altres formes de representació i expressió.",
+      "eix": "EIX2"
+    },
+    {
+      "codi": "OBJ7",
+      "text": "Comprendre les intencions comunicatives i els missatges dels altres nens i nenes i de les persones adultes, i comunicar-se de manera cada vegada més elaborada.",
+      "eix": "EIX2"
+    },
+    {
+      "codi": "OBJ8",
+      "text": "Iniciar-se en les habilitats matemàtiques, en les lògico-matemàtiques i en la lectura, l'escriptura i el càlcul.",
+      "eix": "EIX2"
+    },
+    {
+      "codi": "OBJ9",
+      "text": "Conèixer i participar en festes, tradicions i costums del propi entorn, valorant la diversitat cultural existent.",
+      "eix": "EIX4"
+    },
+    {
+      "codi": "OBJ10",
+      "text": "Actuar amb autonomia i iniciativa, adaptant les pròpies actuacions a les situacions que es presenten i fomentant el respecte envers un mateix, els altres i el medi.",
+      "eix": "EIX3"
+    }
+  ],
+  "criteris_avaluacio_cicle": [
+    {
+      "codi": "CA1",
+      "text": "Identificar les pròpies característiques personals, reconèixer les emocions bàsiques pròpies i dels altres, i manifestar actituds de respecte cap a la diversitat.",
+      "area": "AMB1"
+    },
+    {
+      "codi": "CA2",
+      "text": "Realitzar de manera autònoma activitats habituals de la vida quotidiana, relacionades amb la higiene, l'alimentació, el descans i la cura d'un mateix.",
+      "area": "AMB1"
+    },
+    {
+      "codi": "CA3",
+      "text": "Manifestar actituds de respecte, col·laboració i ajuda mútua en les relacions amb els iguals i amb les persones adultes.",
+      "area": "AMB1"
+    },
+    {
+      "codi": "CA4",
+      "text": "Mostrar confiança en les pròpies possibilitats motrius per realitzar els moviments fonamentals bàsics, orientar-se i desplaçar-se en l'espai.",
+      "area": "AMB1"
+    },
+    {
+      "codi": "CA5",
+      "text": "Mostrar interès i curiositat per l'entorn natural, social i cultural, identificant alguns elements, sers vius i fenòmens característics i les seves relacions.",
+      "area": "AMB2"
+    },
+    {
+      "codi": "CA6",
+      "text": "Fer observacions, formular hipòtesis i extreure conclusions senzilles en relació amb fenòmens i situacions de l'entorn immediat.",
+      "area": "AMB2"
+    },
+    {
+      "codi": "CA7",
+      "text": "Establir relacions entre objectes i col·leccions, identificar les propietats, fer comparacions i ordenar-los seguint un criteri.",
+      "area": "AMB2"
+    },
+    {
+      "codi": "CA8",
+      "text": "Comprendre missatges orals i escrits en contextos habituals, i expressar-se oralment amb claredat en situacions comunicatives diverses.",
+      "area": "AMB3"
+    },
+    {
+      "codi": "CA9",
+      "text": "Usar de manera creativa i funcional els recursos expressius dels diferents llenguatges (corporal, visual i plàstic, musical, matemàtic i audiovisual).",
+      "area": "AMB3"
+    },
+    {
+      "codi": "CA10",
+      "text": "Mostrar interès per la llengua escrita i iniciar-se en el seu ús en situacions significatives de l'aula.",
+      "area": "AMB3"
+    }
+  ],
+  "ambits": [
+    {
+      "codi": "AMB1",
+      "nom": "Descoberta d'un mateix i dels altres",
+      "descripcio": "Àrea centrada en el coneixement del propi cos, les emocions, l'autonomia personal, el moviment i les relacions afectives amb els altres.",
+      "arees": [
+        {
+          "codi": "AMB1",
+          "nom": "Descoberta d'un mateix i dels altres",
+          "objectius_desenvolupament": [
+            {
+              "codi": "AMB1-BC1",
+              "text": "Autoconeixement i gestió de les emocions",
+              "blocs_contingut": [
+                {
+                  "bloc": "Coneixement del cos",
+                  "items": [
+                    "Exploració del cos: parts, característiques i possibilitats d'acció i sensació.",
+                    "Percepció global del propi cos i dels altres.",
+                    "Lateralitat i orientació espacial del propi cos.",
+                    "Sensacions i percepcions del propi cos en situació de repòs i de moviment.",
+                    "Identificació dels sentits i les seves funcions.",
+                    "Acceptació del propi cos i el dels altres com és."
+                  ]
+                },
+                {
+                  "bloc": "Emocions i autoregulació",
+                  "items": [
+                    "Identificació, expressió i verbalització de les emocions bàsiques pròpies (alegria, tristesa, por, ràbia) i dels altres.",
+                    "Identificació dels factors que provoquen les emocions pròpies.",
+                    "Inici de l'autoregulació de les emocions: estratègies per calmar-se, respiració.",
+                    "Comprensió i empatia amb les emocions dels companys i companyes.",
+                    "Tolerància a la frustració i acceptació dels propis errors."
+                  ]
+                },
+                {
+                  "bloc": "Autoimatge i autoestima",
+                  "items": [
+                    "Construcció progressiva d'una imatge ajustada i positiva d'un mateix.",
+                    "Identificació de les pròpies capacitats i limitacions.",
+                    "Confiança en les pròpies possibilitats per realitzar les tasques.",
+                    "Valoració positiva de les diferències individuals."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Identifica i anomena les parts del cos i les relaciona amb les seves funcions.",
+                "Expressa les emocions bàsiques pròpies i reconeix les dels altres.",
+                "Mostra una actitud progressivament positiva envers un mateix i els altres.",
+                "Inicia estratègies bàsiques d'autoregulació emocional."
+              ]
+            },
+            {
+              "codi": "AMB1-BC2",
+              "text": "Joc i moviment",
+              "blocs_contingut": [
+                {
+                  "bloc": "Habilitats motrius bàsiques",
+                  "items": [
+                    "Adquisició de les habilitats motrius fonamentals: córrer, saltar, llançar, rebre, equilibrar-se, rodar, trepar.",
+                    "Coordinació dinàmica general i coordinació òculo-manual.",
+                    "Control tònic i del cos en repòs i en moviment.",
+                    "Progressiva interiorització de l'esquema corporal.",
+                    "Lateralitat: reconeixement progressiu de la dreta i l'esquerra."
+                  ]
+                },
+                {
+                  "bloc": "Orientació en l'espai i el temps",
+                  "items": [
+                    "Orientació i desplaçament en l'espai: nocions bàsiques (dalt/baix, dins/fora, davant/darrere, a prop/lluny).",
+                    "Situació i desplaçament dels objectes en l'espai.",
+                    "Nocions temporals bàsiques: ara/abans/després, avui/ahir/demà, seqüències temporals habituals.",
+                    "Orientació i localització en espais habituals."
+                  ]
+                },
+                {
+                  "bloc": "El joc",
+                  "items": [
+                    "El joc com a activitat pròpia d'aquesta etapa: joc simbòlic, joc de regles, joc cooperatiu.",
+                    "Participació activa en jocs individuals, per parelles i en grup.",
+                    "Acceptació de les normes bàsiques dels jocs.",
+                    "El joc com a instrument de relació social i coneixement de l'entorn.",
+                    "Gaudi amb el joc lliure i dirigit."
+                  ]
+                },
+                {
+                  "bloc": "Salut i hàbits posturals",
+                  "items": [
+                    "Actitud de cura del propi cos en la pràctica de l'activitat física.",
+                    "Prevenció d'accidents en el joc i el moviment.",
+                    "Hàbits posturals saludables.",
+                    "Relaxació i descans com a part de l'activitat diària."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Realitza les habilitats motrius fonamentals amb progressiva coordinació i eficàcia.",
+                "S'orienta en l'espai i el temps usant les nocions bàsiques apreses.",
+                "Participa activament en els jocs respectant les normes.",
+                "Mostra progressiva autonomia en la pràctica d'activitat física."
+              ]
+            },
+            {
+              "codi": "AMB1-BC3",
+              "text": "Relacions afectives i comunicatives",
+              "blocs_contingut": [
+                {
+                  "bloc": "Relació amb els iguals",
+                  "items": [
+                    "Establiment de relacions positives amb els iguals.",
+                    "Participació en activitats de grup: joc cooperatiu, treball en equip.",
+                    "Respecte per la diversitat: diferències físiques, de gènere, de cultura i de capacitats.",
+                    "Resolució pacífica de conflictes: diàleg, mediació, negociació.",
+                    "Inici del reconeixement del punt de vista dels altres."
+                  ]
+                },
+                {
+                  "bloc": "Relació amb les persones adultes",
+                  "items": [
+                    "Establiment de llaços afectius amb les persones adultes de referència (família i mestres).",
+                    "Seguretat emocional a partir de les relacions afectives estables.",
+                    "Participació en situacions d'interacció i comunicació amb persones adultes.",
+                    "Comprensió i acceptació de les normes i límits establerts per les persones adultes."
+                  ]
+                },
+                {
+                  "bloc": "Identitat i diversitat",
+                  "items": [
+                    "Reconeixement de la pròpia identitat: nom, sexe, família, grup d'iguals.",
+                    "Valoració i respecte de les diferències individuals i culturals.",
+                    "Coneixement i respecte de les normes bàsiques de convivència.",
+                    "Participació en situacions de la vida social de l'aula i de l'escola."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "S'relaciona de manera positiva amb els companys i les persones adultes.",
+                "Respecta les diferències individuals i culturals dels altres.",
+                "Intenta resoldre els conflictes de manera progressivament autònoma i pacífica.",
+                "Mostra seguretat en les relacions afectives amb les persones de referència."
+              ]
+            },
+            {
+              "codi": "AMB1-BC4",
+              "text": "Autonomia personal i relacional",
+              "blocs_contingut": [
+                {
+                  "bloc": "Hàbits d'higiene i salut",
+                  "items": [
+                    "Adquisició progressiva d'hàbits d'higiene personal: rentar-se les mans, netejar-se la cara, cura de les dents.",
+                    "Autonomia progressiva en el vestir-se i desvestir-se.",
+                    "Control dels esfínters i autonomia en el bany.",
+                    "Hàbits saludables d'alimentació: provar aliments diversos, menjar de manera autònoma.",
+                    "Hàbits de descans: reconeixement de la necessitat de repòs."
+                  ]
+                },
+                {
+                  "bloc": "Rutines i organització",
+                  "items": [
+                    "Participació activa en les rutines quotidianes de l'aula.",
+                    "Reconeixement i acceptació de la seqüència temporal de les activitats diàries.",
+                    "Organització progressiva del propi espai i dels materials de treball.",
+                    "Responsabilitat en les tasques assignades a l'aula.",
+                    "Acceptació de les normes de funcionament de l'aula i de l'escola."
+                  ]
+                },
+                {
+                  "bloc": "Iniciativa i presa de decisions",
+                  "items": [
+                    "Manifestació d'iniciativa per proposar i realitzar activitats.",
+                    "Presa de decisions progressivament autònoma en situacions quotidianes.",
+                    "Resolució progressivament autònoma de problemes de la vida quotidiana.",
+                    "Acceptació dels resultats de les pròpies decisions.",
+                    "Valoració de l'esforç com a part del procés d'aprenentatge."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Realitza de manera progressivament autònoma les activitats d'higiene i cura personal.",
+                "Participa en les rutines quotidianes de l'aula de manera activa i responsable.",
+                "Mostra iniciativa en la presa de decisions i en la resolució de problemes quotidians.",
+                "Organitza el propi espai i els materials amb progressiva autonomia."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codi": "AMB2",
+      "nom": "Descoberta de l'entorn",
+      "descripcio": "Àrea centrada en l'exploració i comprensió del món natural, social i físic, i en el pensament lògic-matemàtic.",
+      "arees": [
+        {
+          "codi": "AMB2",
+          "nom": "Descoberta de l'entorn",
+          "objectius_desenvolupament": [
+            {
+              "codi": "AMB2-BC1",
+              "text": "Exploració de l'entorn",
+              "blocs_contingut": [
+                {
+                  "bloc": "Entorn natural",
+                  "items": [
+                    "Observació i reconeixement dels elements naturals de l'entorn immediat: plantes, animals, terra, aire, aigua.",
+                    "Identificació de les característiques bàsiques dels éssers vius: creixement, alimentació, reproducció.",
+                    "Observació dels canvis en la natura associats a les estacions de l'any.",
+                    "Fenòmens atmosfèrics bàsics: pluja, vent, sol, neu.",
+                    "Respecte i cura dels éssers vius i del medi natural."
+                  ]
+                },
+                {
+                  "bloc": "Entorn social i cultural",
+                  "items": [
+                    "Coneixement de l'entorn social immediat: escola, família, barri, poble o ciutat.",
+                    "Identificació dels principals serveis i equipaments de la comunitat.",
+                    "Coneixement d'algunes professions i tasques laborals dels adults de l'entorn.",
+                    "Participació en festes, tradicions i costums del propi entorn cultural.",
+                    "Valoració de la diversitat cultural present a l'entorn."
+                  ]
+                },
+                {
+                  "bloc": "Entorn físic i objectes",
+                  "items": [
+                    "Exploració i manipulació d'objectes: propietats físiques (color, forma, mida, textura, pes, temperatura).",
+                    "Classificació d'objectes segons les seves propietats.",
+                    "Identificació de les funcions i l'ús dels objectes quotidians.",
+                    "Reconeixement de les màquines i aparells bàsics de l'entorn i la seva utilitat.",
+                    "Interès per com funcionen les coses de l'entorn immediat."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Mostra interès i curiositat per l'entorn natural, social i físic.",
+                "Identifica i anomena elements naturals de l'entorn i les seves característiques bàsiques.",
+                "Participa en les festes i tradicions de l'entorn cultural.",
+                "Explora i manipula objectes identificant les seves propietats."
+              ]
+            },
+            {
+              "codi": "AMB2-BC2",
+              "text": "Experimentació i interpretació",
+              "blocs_contingut": [
+                {
+                  "bloc": "Observació i experimentació",
+                  "items": [
+                    "Ús dels sentits per observar i explorar l'entorn: vista, oïda, olfacte, gust, tacte.",
+                    "Formulació de preguntes i hipòtesis sobre fenòmens i situacions de l'entorn.",
+                    "Ús d'instruments bàsics d'observació: lupa, balança, regle, termòmetre.",
+                    "Recollida d'informació a través de l'observació directa.",
+                    "Comunicació dels resultats de les exploracions."
+                  ]
+                },
+                {
+                  "bloc": "Semblances i diferències",
+                  "items": [
+                    "Identificació de semblances i diferències entre objectes, animals i plantes.",
+                    "Agrupació i classificació d'elements segons un o diversos criteris.",
+                    "Identificació de la pertinença o no a un grup o conjunt.",
+                    "Comparació de col·leccions d'objectes: més, menys, igual."
+                  ]
+                },
+                {
+                  "bloc": "Mesurament",
+                  "items": [
+                    "Mesurament de longituds, capacitats i masses amb unitats no convencionals.",
+                    "Comparació i ordenació d'objectes per mida, pes, capacitat.",
+                    "Ús de vocabulari específic relacionat amb la mesura: llarg/curt, gran/petit, pesat/lleuger.",
+                    "Aproximació a les unitats de mesura convencionals de temps: dies, setmanes."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Usa els sentits per observar i explorar l'entorn de manera sistemàtica.",
+                "Formula preguntes i hipòtesis senzilles sobre els fenòmens observats.",
+                "Clasifica elements seguint criteris de semblança i diferència.",
+                "Mesura i compara objectes usant unitats no convencionals."
+              ]
+            },
+            {
+              "codi": "AMB2-BC3",
+              "text": "Raonament i representació",
+              "blocs_contingut": [
+                {
+                  "bloc": "Pensament lògic-matemàtic",
+                  "items": [
+                    "Comparació, ordenació i seriació d'objectes i col·leccions seguint un criteri.",
+                    "Identificació de patrons i seqüències senzilles.",
+                    "Resolució de problemes lògics senzills.",
+                    "Iniciació al raonament deductiu: si... llavors...",
+                    "Reconeixement de la causa i l'efecte en situacions quotidianes."
+                  ]
+                },
+                {
+                  "bloc": "Nombres i càlcul",
+                  "items": [
+                    "Ús dels nombres en context: comptar, llegir i escriure nombres.",
+                    "Correspondència entre nombre i quantitat fins a 10 (i progressivament fins a 20).",
+                    "Iniciació al concepte de la descomposició numèrica.",
+                    "Operacions bàsiques: afegir i llevar en situacions concretes i manipulatives.",
+                    "Ús del nombre ordinal en situacions quotidianes.",
+                    "Monedes i bitllets: reconeixement en situació de joc simbòlic."
+                  ]
+                },
+                {
+                  "bloc": "Geometria i espai",
+                  "items": [
+                    "Reconeixement i diferenciació de les formes geomètriques bàsiques planes: cercle, quadrat, triangle, rectangle.",
+                    "Exploració de formes tridimensionals: esfera, cub, cilindre.",
+                    "Identificació de les figures geomètriques en objectes de l'entorn.",
+                    "Composició i descomposició de figures geomètriques senzilles.",
+                    "Orientació espacial: nocions de posició i desplaçament."
+                  ]
+                },
+                {
+                  "bloc": "Mesura del temps",
+                  "items": [
+                    "Nocions temporals bàsiques: ahir, avui, demà; matí, tarda, nit.",
+                    "Seqüenciació d'esdeveniments quotidians.",
+                    "El calendari: dies de la setmana, mesos de l'any.",
+                    "Les estacions de l'any i els canvis associats.",
+                    "Durada i successió d'esdeveniments: primer, després, al final."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Estableix relacions lògiques entre objectes i col·leccions.",
+                "Compta, llegeix i escriu nombres en situacions significatives.",
+                "Reconeix i diferencia les formes geomètriques bàsiques en l'entorn.",
+                "Utilitza les nocions temporals bàsiques per situar-se en el temps."
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "codi": "AMB3",
+      "nom": "Comunicació i llenguatges",
+      "descripcio": "Àrea centrada en el desenvolupament de la comunicació oral i escrita, l'expressió plàstica, musical, corporal i l'ús de les TIC.",
+      "arees": [
+        {
+          "codi": "AMB3",
+          "nom": "Comunicació i llenguatges",
+          "objectius_desenvolupament": [
+            {
+              "codi": "AMB3-BC1",
+              "text": "Observar, escoltar i experimentar",
+              "blocs_contingut": [
+                {
+                  "bloc": "Escolta activa i comprensió oral",
+                  "items": [
+                    "Escolta activa de textos orals: contes, poemes, cançons, instruccions.",
+                    "Comprensió del significat de missatges orals en contextos habituals.",
+                    "Identificació d'informació rellevant en textos orals senzills.",
+                    "Reconeixement de la intencionalitat comunicativa dels missatges orals.",
+                    "Comprensió d'instruccions orals senzilles i complexes."
+                  ]
+                },
+                {
+                  "bloc": "Exploració de materials i tècniques plàstiques",
+                  "items": [
+                    "Exploració i ús de materials plàstics diversos: llapis, pintures, plastilina, argila, paper.",
+                    "Experimentació amb tècniques plàstiques bàsiques: dibuix, pintura, collage, modelatge, estampació.",
+                    "Observació i anàlisi d'obres d'art i imatges de l'entorn.",
+                    "Reconeixement dels elements bàsics de la imatge: punt, línia, forma, color, textura."
+                  ]
+                },
+                {
+                  "bloc": "Exploració sonora i musical",
+                  "items": [
+                    "Discriminació auditiva: sons de l'entorn, silenci, soroll.",
+                    "Exploració de les propietats del so: intensitat, durada, altura, timbre.",
+                    "Ús i exploració d'instruments musicals de percussió, de vent i de corda.",
+                    "Audició de peces musicals de gèneres i cultures diverses.",
+                    "Identificació del ritme i la melodia en cançons i peces musicals."
+                  ]
+                },
+                {
+                  "bloc": "Iniciació a la llengua escrita",
+                  "items": [
+                    "Exploració i observació del codi escrit en l'entorn: rètols, llibres, pantalles.",
+                    "Diferenciació entre el codi oral i el codi escrit.",
+                    "Reconeixement de la funció social de l'escriptura.",
+                    "Exploració de les característiques del codi escrit: linealitat, arbitrarietat.",
+                    "Identificació del propi nom escrit i el dels companys."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Mostra escolta activa en situacions comunicatives diverses.",
+                "Comprèn el significat de textos orals i instruccions habituals.",
+                "Explora i usa materials i tècniques plàstiques amb interès.",
+                "S'inicia en l'exploració del codi escrit reconeixent la seva funcionalitat."
+              ]
+            },
+            {
+              "codi": "AMB3-BC2",
+              "text": "Parlar, expressar i comunicar",
+              "blocs_contingut": [
+                {
+                  "bloc": "Llengua oral",
+                  "items": [
+                    "Expressió oral de necessitats, desitjos, sentiments, experiències i idees.",
+                    "Ús progressivament ajustat de la llengua en situacions comunicatives diverses: conversa, narració, descripció, explicació.",
+                    "Ampliació progressiva del vocabulari.",
+                    "Ús de frases cada vegada més complexes i gramaticalment correctes.",
+                    "Pronunciació progressivament clara i entenedora.",
+                    "Participació activa en situacions de comunicació de grup: assemblea, debat, conversa."
+                  ]
+                },
+                {
+                  "bloc": "Expressió de les emocions i experiències",
+                  "items": [
+                    "Expressió verbal de les emocions, sentiments i experiències pròpies.",
+                    "Ús de recursos lingüístics per expressar estats emocionals.",
+                    "Narració d'experiències viscudes de manera progressivament coherent i ordenada.",
+                    "Descripció d'objectes, situacions i persones de l'entorn.",
+                    "Formulació de preguntes per obtenir informació."
+                  ]
+                },
+                {
+                  "bloc": "Expressió artística i corporal",
+                  "items": [
+                    "Expressió corporal: gest, postura, moviment com a vehicle de comunicació.",
+                    "Expressió plàstica: representació de la realitat i de la imaginació.",
+                    "Expressió musical: cant, interpretació rítmica, dansa.",
+                    "El joc dramàtic i el teatre com a forma d'expressió i comunicació.",
+                    "Valoració de les produccions pròpies i dels altres."
+                  ]
+                },
+                {
+                  "bloc": "Estratègies comunicatives",
+                  "items": [
+                    "Ús de les normes bàsiques de la comunicació: torn de paraula, escolta, respecte.",
+                    "Adaptació progressiva del registre comunicatiu al context i a l'interlocutor.",
+                    "Ús de recursos no verbals: mirada, gest, postura en la comunicació.",
+                    "Iniciació a l'argumentació i la justificació d'opinions.",
+                    "Resolució de malentesos comunicatius."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "S'expressa oralment amb progressiva claredat, riquesa lèxica i correcció gramatical.",
+                "Participa activament en situacions comunicatives de grup.",
+                "Usa la llengua oral per expressar emocions, experiències i idees.",
+                "Adapta progressivament el seu registre comunicatiu al context."
+              ]
+            },
+            {
+              "codi": "AMB3-BC3",
+              "text": "Interpretar, representar i crear",
+              "blocs_contingut": [
+                {
+                  "bloc": "Jocs lingüístics i literatura infantil",
+                  "items": [
+                    "Participació i gaudi amb jocs lingüístics: endevinalles, dites, jocs de paraules, rimes.",
+                    "Escolta i comprensió de contes, poemes i altres textos literaris.",
+                    "Reconeixement de les estructures narratives bàsiques dels contes.",
+                    "Memorització i recitació de poemes i cançons.",
+                    "Creació col·lectiva i individual de contes, poemes i altres textos orals.",
+                    "Valoració dels llibres i la literatura com a font de plaer i coneixement."
+                  ]
+                },
+                {
+                  "bloc": "Lectura i escriptura funcional",
+                  "items": [
+                    "Iniciació a la lectura en situacions significatives: nom propi, rètols, títols de contes.",
+                    "Iniciació a l'escriptura del propi nom i de paraules significatives.",
+                    "Comprensió de la relació entre el text escrit i la imatge.",
+                    "Ús funcional de la lectura i l'escriptura: llistes, notes, cartells.",
+                    "Exploració de l'ordinador i la tauleta com a eines per llegir i escriure.",
+                    "Reconeixement de les lletres de l'alfabet en situacions significatives."
+                  ]
+                },
+                {
+                  "bloc": "Cançons i expressió musical",
+                  "items": [
+                    "Aprenentatge i interpretació de cançons de la tradició popular catalana i d'altres cultures.",
+                    "Creació col·lectiva de cançons i composicions rítmiques senzilles.",
+                    "Interpretació rítmica amb instruments de percussió.",
+                    "Dramatització de cançons i textos musicals.",
+                    "Apreciació i valoració de diverses manifestacions musicals."
+                  ]
+                },
+                {
+                  "bloc": "Tecnologies de la informació i la comunicació (TIC)",
+                  "items": [
+                    "Ús de l'ordinador, la tauleta digital i altres dispositius com a eines d'aprenentatge.",
+                    "Iniciació a la navegació per internet de manera supervisada.",
+                    "Ús d'aplicacions i programes educatius adequats a l'edat.",
+                    "Creació de produccions digitals senzilles: dibuixos, fotografies, vídeos.",
+                    "Ús responsable i segur de les tecnologies: concepte bàsic de privacitat."
+                  ]
+                }
+              ],
+              "orientacions_avaluacio": [
+                "Participa amb gaudi en jocs lingüístics i en l'escolta de textos literaris.",
+                "S'inicia en la lectura i l'escriptura en situacions significatives i funcionals.",
+                "Interpreta i crea cançons i produccions musicals senzilles.",
+                "Usa les TIC com a eina d'aprenentatge de manera supervisada."
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

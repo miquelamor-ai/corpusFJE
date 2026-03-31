@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Matemàtiques I",
+    "codi_area": "MAT1",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/Matematiques-I.pdf",
+    "nota_estructura": "Matemàtiques I és matèria de 1r de Batxillerat de la modalitat Ciències i Tecnologia. Els sabers bàsics s'organitzen en quatre blocs: Nombres i àlgebra, Anàlisi matemàtica, Geometria, i Estadística i probabilitat.",
+    "versio_schema": "1.0",
+    "descripcio": "Les Matemàtiques I de Batxillerat de la modalitat de Ciències i Tecnologia constitueixen la base del pensament formal i quantitatiu que necessiten els alumnes per accedir a estudis d'Enginyeria, Física, Matemàtiques, Economia, Arquitectura i qualsevol disciplina on la modelització sigui clau. Consoliden els fonaments del càlcul, l'àlgebra i la geometria analítica.\n\nEls sabers bàsics s'articulen en quatre grans blocs. El bloc de nombres i àlgebra treballa els nombres reals i complexos, els polinomis, les equacions i sistemes d'equacions, i les progressions aritmètiques i geomètriques. L'anàlisi matemàtica introdueix les funcions reals, els límits i la continuïtat, el càlcul diferencial —derivades, regles de derivació i aplicacions a l'estudi de funcions— i una iniciació al càlcul integral. La geometria analítica treballa vectors, rectes i còniques al pla. Finalment, l'estadística i la probabilitat aborden la distribució de Laplace, la distribució normal i els rudiments del raonament probabilístic, preparant el terreny per a l'estadística inferencial de segon curs.\n\nL'enfocament pedagògic de la matèria prioritza la resolució de problemes en contextos reals i la comunicació matemàtica rigorosa, tant oral com escrita. L'alumne aprèn a planificar estratègies, validar resultats i usar recursos digitals —calculadores gràfiques, fulls de càlcul, programari de geometria dinàmica— com a eines de comprovació i exploració, sense substituir el raonament fonamental."
+  },
+  "competencies_clau": [
+    "CCL",
+    "CP",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CE"
+  ],
+  "blocs_sabers": [
+    "Nombres i àlgebra",
+    "Anàlisi matemàtica",
+    "Geometria",
+    "Estadística i probabilitat"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "MAT1-CE1",
+      "bloc_competencial": "Resolució de problemes i raonament matemàtic",
+      "text": "Planificar i aplicar estratègies per a la resolució de problemes matemàtics, avaluant críticament els resultats obtinguts i la idoneïtat del procés seguit per argumentar i justificar les solucions amb rigor.",
+      "competencies_clau": [
+        "STEM",
+        "CCL",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "1r": [
+          "1.1 Identificar i interpretar l'estructura d'un problema matemàtic, reformulant-lo si cal per facilitar-ne la resolució.",
+          "1.2 Seleccionar i aplicar estratègies adequades per resoldre problemes, valorant la correcció del procediment i la raonabilitat del resultat.",
+          "1.3 Argumentar i justificar les solucions obtingudes, utilitzant el vocabulari matemàtic adequat tant en forma escrita com oral."
+        ]
+      }
+    },
+    {
+      "codi": "MAT1-CE2",
+      "bloc_competencial": "Pensament computacional i modelització",
+      "text": "Formular models matemàtics per descriure situacions de la realitat, interpretant i validant els resultats en el context original i identificant les limitacions del model.",
+      "competencies_clau": [
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "criteris_avaluacio": {
+        "1r": [
+          "2.1 Traduir situacions reals a expressions algebraiques, funcionals o geomètriques, identificant les variables rellevants.",
+          "2.2 Interpretar els resultats del model en el context real, valorant la seva coherència i propietat.",
+          "2.3 Utilitzar eines digitals per a l'exploració i la representació de models matemàtics."
+        ]
+      }
+    },
+    {
+      "codi": "MAT1-CE3",
+      "bloc_competencial": "Connexions matemàtiques",
+      "text": "Reconèixer les connexions entre els diferents àmbits de les matemàtiques i amb altres disciplines, identificant les matemàtiques com a eina de comprensió del món i de la ciència.",
+      "competencies_clau": [
+        "STEM",
+        "CCL",
+        "CP"
+      ],
+      "criteris_avaluacio": {
+        "1r": [
+          "3.1 Identificar relacions entre conceptes algebraics, geomètrics i analítics, establint ponts entre els diferents blocs de contingut.",
+          "3.2 Reconèixer aplicacions de les matemàtiques en contextos de la física, la química i altres ciències.",
+          "3.3 Valorar el paper de la història de les matemàtiques en el desenvolupament del pensament científic."
+        ]
+      }
+    },
+    {
+      "codi": "MAT1-CE4",
+      "bloc_competencial": "Comunicació matemàtica",
+      "text": "Interpretar, expressar i comunicar informació i coneixements matemàtics de manera clara i precisa, fent ús del llenguatge formal, gràfic i simbòlic propi de les matemàtiques.",
+      "competencies_clau": [
+        "CCL",
+        "STEM",
+        "CD"
+      ],
+      "criteris_avaluacio": {
+        "1r": [
+          "4.1 Interpretar i produir representacions gràfiques de funcions, dades estadístiques i figures geomètriques amb precisió.",
+          "4.2 Expressar processos i resultats matemàtics de forma escrita clara, amb notació simbòlica adequada.",
+          "4.3 Llegir i comprendre textos matemàtics i científics elementals que incorporin notació formal."
+        ]
+      }
+    },
+    {
+      "codi": "MAT1-CE5",
+      "bloc_competencial": "Sentit estadístic i probabilístic",
+      "text": "Recollir, organitzar, analitzar i interpretar dades estadístiques i situacions de probabilitat, fent ús d'eines adequades per extreure conclusions fonamentades i prendre decisions informades.",
+      "competencies_clau": [
+        "STEM",
+        "CD",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "1r": [
+          "5.1 Calcular i interpretar mesures de centralització i dispersió per descriure conjunts de dades.",
+          "5.2 Calcular probabilitats d'esdeveniments simples i compostos, aplicant les regles i teoremes elementals.",
+          "5.3 Analitzar distribucions estadístiques, identificant-ne la forma, la centralitat i la dispersió per extreure'n conclusions."
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r": {
+      "nota": "Els sabers bàsics de Matemàtiques I s'organitzen en quatre blocs de contingut que corresponen als grans àmbits de la matemàtica de batxillerat científic: àlgebra, anàlisi, geometria i estadística.",
+      "Nombres i àlgebra": {
+        "subapartats": {
+          "Nombres reals i complexos": [
+            "El conjunt dels nombres reals: propietats, representació i operacions.",
+            "Nombres complexos en forma binòmica: operacions bàsiques, mòdul i argument.",
+            "Aplicació dels nombres complexos en situacions geomètriques i científiques."
+          ],
+          "Polinomis i fraccions algebraiques": [
+            "Operacions amb polinomis: divisió, teorema del residu i del factor.",
+            "Descomposició factorial de polinomis.",
+            "Fraccions algebraiques: simplificació i operacions."
+          ],
+          "Sistemes d'equacions": [
+            "Sistemes d'equacions lineals: mètodes de resolució (substitució, igualació, reducció, Cramer).",
+            "Sistemes no lineals amb dues incògnites.",
+            "Interpretació geomètrica dels sistemes d'equacions."
+          ]
+        }
+      },
+      "Anàlisi matemàtica": {
+        "subapartats": {
+          "Funcions reals": [
+            "Funcions elementals: polynomials, racionals, irracionals, exponencials, logarítmiques i trigonomètriques.",
+            "Propietats de les funcions: domini, recorregut, paritat, periodicitat.",
+            "Composició i inversió de funcions."
+          ],
+          "Límits i continuïtat": [
+            "Concepte de límit d'una funció en un punt i a l'infinit.",
+            "Propietats dels límits i indeterminacions elementals.",
+            "Continuïtat d'una funció: definició, tipus de discontinuïtat i teorema de Bolzano."
+          ],
+          "Derivació": [
+            "Derivada d'una funció en un punt: definició i interpretació geomètrica.",
+            "Regles de derivació: derivada de la suma, producte, quocient i composició (regla de la cadena).",
+            "Aplicació de les derivades: monotonia, extrems, concavitat i representació de funcions."
+          ]
+        }
+      },
+      "Geometria": {
+        "subapartats": {
+          "Trigonometria": [
+            "Raons trigonomètriques: sinus, cosinus, tangent i les seves relacions.",
+            "Identitats trigonomètriques fonamentals i fórmules d'addició.",
+            "Resolució de triangles rectangles i obliquangles (teorema del sinus i del cosinus)."
+          ],
+          "Geometria analítica en el pla": [
+            "Vectors en el pla: operacions, producte escalar i angle entre vectors.",
+            "Rectes en el pla: equacions, posicions relatives i distàncies.",
+            "Còniques: equació i elements de la circumferència, la paràbola, l'el·lipse i la hipèrbola."
+          ]
+        }
+      },
+      "Estadística i probabilitat": {
+        "subapartats": {
+          "Estadística unidimensional": [
+            "Variables estadístiques: distribució de freqüències, representacions gràfiques.",
+            "Mesures de centralització: mitjana, mediana i moda.",
+            "Mesures de dispersió: rang, variança i desviació típica."
+          ],
+          "Probabilitat": [
+            "Espai mostral, succés i probabilitat: definicions i propietats.",
+            "Probabilitat condicionada, regla del producte i teorema de Bayes.",
+            "Distribucions de probabilitat discretes: distribució binomial."
+          ]
+        }
+      }
+    }
+  }
+}

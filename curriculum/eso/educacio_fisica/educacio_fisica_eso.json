@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "eso",
+    "area_materia": "Educació Física",
+    "codi_area": "EF",
+    "decret": "175/2022",
+    "data_decret": "2022-09-27",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Educacio-Fisica.pdf",
+    "nota_estructura": "Les CE i els criteris s'apliquen a tota l'etapa ESO. Els criteris s'organitzen per agrupament: '1r_3r' (1r, 2n i 3r) i '4t'. Els sabers també estan diferenciats per agrupament.",
+    "versio_schema": "1.0",
+    "descripcio": "L'Educació Física a l'ESO és la matèria que treballa el desenvolupament motriu, la salut i el benestar de l'alumnat a través del moviment i la pràctica esportiva. Contribueix a la formació integral de la persona, combinant el component físic amb el cognitiu, emocional i social, i educa hàbits de vida activa que han de perdurar en l'edat adulta. Conecta amb la Biologia (sistemes orgànics, salut), la Psicologia (regulació emocional) i la Ciutadania (joc net, respecte).\n\nEls constructes disciplinaris propis inclouen la condició física (resistència aeròbica, força, flexibilitat, velocitat), les habilitats motrius bàsiques i específiques (girs, llançaments, equilibri), els conceptes tàctics dels esports (espai, temps, cooperació, oposició), la freqüència cardíaca i l'esforç percebut com a indicadors d'intensitat, i els principis del disseny de l'entrenament (progressió, especificitat, recuperació). La seguretat, les primeres cures i la prevenció de lesions també formen part del saber de la matèria.\n\nL'enfocament pedagògic és actiu, inclusiu i basat en l'experiència directa. La metodologia comprèn jocs modificats, minivoleis, atletisme, expressió corporal, activitats a la natura i esports alternatius, evitant el model reproductor d'habilitats tancades. Es promou l'autonomia de l'alumne en el disseny de sessions i en el monitoratge de la pròpia activitat física. L'avaluació inclou proves físiques, l'observació d'actituds i l'autoavaluació del progrés personal."
+  },
+  "competencies_clau": [
+    "CPSAA",
+    "CC",
+    "CCL",
+    "STEM",
+    "CD",
+    "CCEC",
+    "CE"
+  ],
+  "blocs_sabers": [
+    "vida_activa_saludable",
+    "activitat_fisica_context",
+    "expressiocorporal_comunicacio",
+    "interaccio_entorn"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "bloc_competencial": "vida_activa_saludable",
+      "text": "Adoptar hàbits de vida activa i saludable, identificant els efectes de l'activitat física i el sedentarisme sobre la salut i el benestar, per millorar la qualitat de vida pròpia i de l'entorn.",
+      "competencies_clau": [
+        "CPSAA",
+        "STEM",
+        "CC"
+      ],
+      "criteris_avaluacio": {
+        "nota": "Els criteris varien en complexitat entre 1r-3r i 4t, incorporant progressivament l'autonomia i la reflexió crítica.",
+        "1r_3r": [
+          {
+            "codi": "CA1.1",
+            "text": "Identificar els efectes de la pràctica regular d'activitat física sobre el cos i la salut, relacionant-los amb el benestar físic, mental i social."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Reconèixer i aplicar els principals principis del condicionament físic (freqüència, intensitat, durada i tipus d'activitat) en situacions pràctiques supervisades."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Identificar conductes sedentàries i factors de risc en l'entorn quotidià, proposant alternatives actives per combatre-les."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Aplicar tècniques bàsiques de relaxació i control de l'esforç com a estratègies de recuperació i benestar personal."
+          }
+        ],
+        "4t": [
+          {
+            "codi": "CA1.1",
+            "text": "Analitzar de manera crítica la influència dels hàbits de vida activa sobre la salut a llarg termini, argumentant les seves implicacions per al benestar personal i col·lectiu."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Dissenyar i autoavaluar un pla personal d'activitat física adaptada als propis objectius de salut i condicionament físic, aplicant els principis bàsics d'entrenament."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Avaluar de manera crítica l'impacte del sedentarisme i del consum excessiu de pantalles en la salut, proposant estratègies personals i col·lectives de millora."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Aplicar de manera autònoma tècniques de relaxació, control emocional i gestió de l'estrès relacionades amb la pràctica d'activitat física."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "bloc_competencial": "vida_activa_saludable",
+      "text": "Gestionar de manera eficient les capacitats físiques bàsiques, aplicant els coneixements sobre el cos i el moviment per optimitzar el rendiment i prevenir riscos i lesions en la pràctica d'activitat física.",
+      "competencies_clau": [
+        "CPSAA",
+        "STEM"
+      ],
+      "criteris_avaluacio": {
+        "nota": "En 4t s'incorpora l'autonomia en el disseny i l'autoregulació de la pràctica.",
+        "1r_3r": [
+          {
+            "codi": "CA2.1",
+            "text": "Reconèixer les principals capacitats físiques (resistència, força, flexibilitat i velocitat) i relacionar-les amb les activitats físiques i esportives de l'entorn."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Aplicar les mesures bàsiques de seguretat i prevenció de lesions (escalfament, tornada a la calma, hidratació) en les sessions d'activitat física."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Utilitzar les pulsacions i la percepció de l'esforç com a indicadors per regular la intensitat de l'activitat física en les sessions pràctiques."
+          }
+        ],
+        "4t": [
+          {
+            "codi": "CA2.1",
+            "text": "Analitzar la relació entre les capacitats físiques, el rendiment motor i la salut, aplicant aquest coneixement per adaptar la pràctica a les pròpies necessitats."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Dissenyar i executar de manera autònoma protocols d'escalfament, tornada a la calma i prevenció de lesions adequats al tipus d'activitat física realitzada."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Controlar i autoregular la intensitat de la pràctica física a partir de paràmetres objectius (freqüència cardíaca, zones d'entrenament) i subjectius (percepció de l'esforç)."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "bloc_competencial": "activitat_fisica_context",
+      "text": "Participar en activitats físiques i esportives individuals i col·lectives, aplicant els fonaments tècnics i tàctics bàsics i els valors del joc net, per gaudir de la pràctica i millorar les habilitats motrius.",
+      "competencies_clau": [
+        "CC",
+        "CPSAA",
+        "CCL"
+      ],
+      "criteris_avaluacio": {
+        "nota": "Els criteris de 4t incorporen major autonomia tàctica i lideratge en el grup.",
+        "1r_3r": [
+          {
+            "codi": "CA3.1",
+            "text": "Participar activament en jocs i esports individuals i col·lectius, aplicant els fonaments tècnics bàsics de les modalitats practicades amb actitud positiva cap a la millora."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Aplicar els principis bàsics del joc net (respecte a les regles, als companys i als adversaris) en qualsevol situació de pràctica esportiva o lúdica."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Identificar i aplicar elements tàctics senzills (atac, defensa, col·laboració) en situacions de joc col·lectiu."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Reconèixer i valorar la diversitat d'habilitats motrius, acceptant les diferències individuals i col·laborant per a la consecució d'objectius comuns."
+          }
+        ],
+        "4t": [
+          {
+            "codi": "CA3.1",
+            "text": "Aplicar amb eficàcia els fonaments tècnics i tàctics de les modalitats esportives practicades, adaptant-los a les exigències de situació de joc real."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Promoure activament el joc net i els valors esportius, identificant i rebutjant actituds discriminatòries o contràries a la convivència en l'activitat física."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Liderar i coordinar el grup en situacions de joc col·lectiu, prenent decisions tàctiques justificades i col·laborant per a la resolució de problemes motors."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Avaluar de manera crítica les pròpies competències motrius i les del grup, identificant fortaleses i proposant estratègies de millora col·lectives."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "bloc_competencial": "expressiocorporal_comunicacio",
+      "text": "Explorar i emprar les possibilitats expressives del cos i del moviment, creant i comunicant idees, sensacions i emocions a través de la motricitat, per enriquir la cultura corporal pròpia i reconèixer la dels altres.",
+      "competencies_clau": [
+        "CCEC",
+        "CCL",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "nota": "En 4t es valora especialment la creació autònoma i la capacitat de dirigir composicions.",
+        "1r_3r": [
+          {
+            "codi": "CA4.1",
+            "text": "Explorar les possibilitats expressives del propi cos (gest, postura, mirada, moviment) per comunicar emocions i idees en activitats d'expressió corporal."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Participar en activitats rítmiques i de dansa, coordinant el moviment amb el ritme musical i adaptant-lo als elements expressius proposats."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Col·laborar en la creació de composicions corporals grupals senzilles, respectant les aportacions de tots els membres del grup."
+          }
+        ],
+        "4t": [
+          {
+            "codi": "CA4.1",
+            "text": "Crear i interpretar composicions corporals individuals i grupals, utilitzant els elements expressius del moviment (espai, temps, intensitat, relació) amb intenció comunicativa."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Dissenyar i conduir seqüències rítmiques i coreogràfiques, aplicant criteris estètics i expressius i adaptant-les al context i al públic."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Valorar críticamente les manifestacions de cultura corporal (dansa, acrobàcia, arts del circ) de l'entorn proper i d'altres cultures, des d'una perspectiva inclusiva i no estereotipada."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "bloc_competencial": "interaccio_entorn",
+      "text": "Participar en activitats físiques en el medi natural i urbà de manera responsable i sostenible, valorant i respectant l'entorn com a espai de pràctica i gaudi, i fomentant hàbits de preservació ambiental.",
+      "competencies_clau": [
+        "CC",
+        "STEM",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "nota": "Els criteris de 4t incorporen la reflexió crítica sobre la sostenibilitat i la planificació autònoma.",
+        "1r_3r": [
+          {
+            "codi": "CA5.1",
+            "text": "Participar en activitats físiques en el medi natural (senderisme, orientació, jocs al bosc) aplicant les normes bàsiques de seguretat i respecte a l'entorn."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Identificar els principals riscos associats a la pràctica d'activitat física en el medi natural i urbà, i aplicar mesures preventives bàsiques."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Reconèixer la importància de preservar el medi natural com a espai de pràctica física, adoptant actituds de respecte i cura de l'entorn."
+          }
+        ],
+        "4t": [
+          {
+            "codi": "CA5.1",
+            "text": "Planificar i executar activitats físiques en el medi natural i urbà, aplicant estratègies d'orientació, seguretat i minimització de l'impacte ambiental."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Analitzar de manera crítica la relació entre l'activitat física en el medi natural i la sostenibilitat, proposant pràctiques respectuoses amb el medi ambient."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Valorar la diversitat de pràctiques físiques en el medi natural de les cultures de l'entorn, reconeixent el seu valor cultural i la seva contribució al benestar de les persones."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE6",
+      "bloc_competencial": "vida_activa_saludable",
+      "text": "Analitzar de manera crítica la influència de l'entorn social, cultural i mediàtic en les pràctiques d'activitat física, la imatge corporal i els models de salut, per construir una identitat corporal positiva i inclusiva.",
+      "competencies_clau": [
+        "CC",
+        "CCL",
+        "CPSAA",
+        "CD"
+      ],
+      "criteris_avaluacio": {
+        "nota": "Competència amb fort component reflexiu i crític, que guanya complexitat en 4t.",
+        "1r_3r": [
+          {
+            "codi": "CA6.1",
+            "text": "Identificar la influència dels mitjans de comunicació i les xarxes socials en la percepció de la imatge corporal i els models d'activitat física, adoptant una actitud crítica."
+          },
+          {
+            "codi": "CA6.2",
+            "text": "Reconèixer i rebutjar estereotips de gènere, capacitisme i discriminació en l'esport i l'activitat física, promovent la igualtat i la inclusió."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Valorar la diversitat de pràctiques físiques i esportives en relació amb la cultura i la identitat, reconeixent el seu valor com a patrimoni cultural."
+          }
+        ],
+        "4t": [
+          {
+            "codi": "CA6.1",
+            "text": "Analitzar críticamente els missatges mediàtics sobre l'activitat física, la salut i la imatge corporal, argumentant les seves implicacions socials i personals."
+          },
+          {
+            "codi": "CA6.2",
+            "text": "Proposar i dur a terme accions concretes per promoure la inclusió, la igualtat de gènere i el respecte a la diversitat en la pràctica d'activitat física a l'entorn proper."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Investigar i comunicar pràctiques físiques i esportives representatives de diverses cultures, valorant-les com a expressions del patrimoni cultural de la humanitat."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "1r_3r": {
+      "vida_activa_saludable": {
+        "descripcio": "Coneixements i habilitats per comprendre i gestionar els efectes de l'activitat física sobre la salut i el benestar, adoptant hàbits actius sostenibles.",
+        "subapartats": {
+          "efectes_activitat_fisica": [
+            "Efectes de l'activitat física regular sobre el sistema cardiovascular, muscular, ossi i el benestar mental.",
+            "El sedentarisme: causes, conseqüències i estratègies per reduir-lo en la vida quotidiana.",
+            "Les capacitats físiques bàsiques (resistència, força, flexibilitat i velocitat): concepte i relació amb la salut.",
+            "Principis bàsics del condicionament físic: freqüència, intensitat, temps i tipus d'activitat (principi FITT)."
+          ],
+          "seguretat_i_prevencio": [
+            "Escalfament i tornada a la calma: funcions, tipus i aplicació pràctica.",
+            "Hidratació i alimentació en relació amb la pràctica física.",
+            "Prevenció de lesions esportives més freqüents i primers auxilis bàsics.",
+            "Control de l'esforç: freqüència cardíaca, zones d'entrenament i percepció subjectiva de l'esforç (escala de Borg)."
+          ],
+          "benestar_i_autoconeixement": [
+            "Tècniques de relaxació i control de l'estrès: respiració conscient, relaxació muscular progressiva.",
+            "Connexió entre activitat física, autoestima i benestar emocional.",
+            "Imatge corporal: influències culturals i mediàtiques, estereotips de gènere i models de salut crítica."
+          ]
+        }
+      },
+      "activitat_fisica_context": {
+        "descripcio": "Pràctica d'activitats físiques i esportives individuals i col·lectives, adquirint habilitats tècniques, tàctiques i valors del joc net.",
+        "subapartats": {
+          "habilitats_motrius": [
+            "Habilitats motrius bàsiques: locomoció, manipulació i estabilitat en contextos variats.",
+            "Habilitats motrius específiques de les modalitats esportives practicades (llançaments, recepcions, desplaçaments, fintes).",
+            "Resolució de problemes motors en situacions de joc: presa de decisions senzilles en atac i defensa."
+          ],
+          "esports_i_jocs": [
+            "Jocs i esports individuals: atletisme, natació, gimnàstica, arts marcials (iniciació).",
+            "Jocs i esports col·lectius d'invasió (basquetbol, futbol sala, handbol): regles bàsiques, tècnica i tàctica elemental.",
+            "Jocs i esports de xarxa i paret (voleibol, bàdminton): regles bàsiques i habilitats específiques.",
+            "Jocs populars i tradicionals de Catalunya i d'altres cultures com a expressió del patrimoni cultural.",
+            "El joc net: respecte a les regles, als companys i als adversaris; resolució pacífica de conflictes."
+          ],
+          "organitzacio_i_arbitratge": [
+            "Coneixement i aplicació bàsica del reglament de les modalitats practicades.",
+            "Funcions de l'àrbitre i del jutge: respecte i acceptació de les decisions arbitrals.",
+            "Organització senzilla d'activitats esportives: tornejos i competicions a l'aula."
+          ]
+        }
+      },
+      "expressiocorporal_comunicacio": {
+        "descripcio": "Exploració de les possibilitats expressives del cos i el moviment per comunicar emocions, idees i crear composicions motrius amb sentit estètic.",
+        "subapartats": {
+          "elements_expressius": [
+            "El cos com a instrument d'expressió i comunicació: gest, postura, mirada i moviment.",
+            "Elements del moviment expressiu: espai, temps, intensitat i relació.",
+            "Exploració i experimentació de les pròpies possibilitats expressives."
+          ],
+          "ritme_i_dansa": [
+            "Ritme i coordinació: pulsació, tempo, frase musical i sincronització amb la música.",
+            "Danses del món i danses tradicionals catalanes: participació i valoració cultural.",
+            "Coreografies grupals senzilles: creació cooperativa i representació."
+          ],
+          "activitats_expressives": [
+            "Jocs d'expressió corporal i d'improvisació.",
+            "Iniciació a les activitats de circ: malabars, acrobàcia per parelles.",
+            "Teatre físic i mímica com a formes d'expressió corporal no verbal."
+          ]
+        }
+      },
+      "interaccio_entorn": {
+        "descripcio": "Pràctica responsable i sostenible d'activitats físiques en el medi natural i urbà, valorant l'entorn com a espai de gaudi i preservació.",
+        "subapartats": {
+          "activitat_medi_natural": [
+            "El medi natural com a espai de pràctica física: característiques i tipus d'activitats (senderisme, orientació, escalada de bloc, BTT).",
+            "Principis bàsics de l'orientació: mapa, brúixola i punts cardinals.",
+            "Normes de comportament responsable en el medi natural: principis de no deixar rastre (Leave No Trace).",
+            "Seguretat en el medi natural: identificació de riscos i mesures preventives bàsiques."
+          ],
+          "activitat_medi_urba": [
+            "Activitats físiques en l'entorn urbà: cicloturisme, atletisme urbà, jocs de carrer.",
+            "Ús segur i responsable dels espais urbans per a la pràctica d'activitat física.",
+            "El paisatge urbà com a espai de pràctica i d'expressió de la cultura corporal."
+          ]
+        }
+      }
+    },
+    "4t": {
+      "vida_activa_saludable": {
+        "descripcio": "Aprofundiment en la gestió autònoma de la pròpia salut i condicionament físic, amb anàlisi crítica dels factors socials i mediàtics que influeixen en la cultura corporal.",
+        "subapartats": {
+          "planificacio_activitat_fisica": [
+            "Principis avançats de l'entrenament: sobrecàrrega progressiva, especificitat, reversibilitat i variació.",
+            "Disseny i autoavaluació d'un pla personal d'activitat física orientat a la salut.",
+            "Mètodes i sistemes d'entrenament de les capacitats físiques: continu, intervállic, circuit.",
+            "Tecnologia i activitat física: aplicacions mòbils, dispositius de monitoració i mesura de l'activitat."
+          ],
+          "salut_critica": [
+            "Anàlisi crítica dels models de cos i de salut difosos pels mitjans i les xarxes socials.",
+            "Trastorns de conducta alimentària i la seva relació amb l'activitat física i la imatge corporal.",
+            "Dopatge i substàncies dopants: riscos per a la salut i implicacions ètiques.",
+            "Activitat física i col·lectius vulnerables: envelliment, discapacitat i diversitat funcional."
+          ],
+          "benestar_global": [
+            "Gestió de l'estrès i la salut mental: activitat física, mindfulness i tècniques de relaxació avançades.",
+            "Ergonomia i postura: prevenció de lesions relacionades amb postures inadequades en la vida quotidiana i l'estudi.",
+            "Primeres actuacions davant situacions d'emergència: RCP bàsica i maniobra de Heimlich."
+          ]
+        }
+      },
+      "activitat_fisica_context": {
+        "descripcio": "Pràctica esportiva amb major autonomia tècnica, tàctica i organitzativa, fomentant el lideratge, la inclusió i la reflexió sobre el fenomen esportiu.",
+        "subapartats": {
+          "perfeccionament_tecnic_tactic": [
+            "Consolidació i perfeccionament tècnic de les modalitats esportives practicades.",
+            "Anàlisi tàctica de situacions de joc: presa de decisions complexa en esports d'invasió i de xarxa.",
+            "Adaptació tàctica al sistema de joc del rival i a les característiques del propi equip.",
+            "Estadística i anàlisi del rendiment esportiu: lectura i interpretació de dades bàsiques."
+          ],
+          "organitzacio_lideratge": [
+            "Planificació i organització autònoma d'activitats esportives: lliga, torneig, jornada esportiva.",
+            "Arbitratge i mediació en situacions de conflicte esportiu.",
+            "Lideratge positiu en l'equip: motivació, cohesió i gestió de conflictes.",
+            "L'esport com a fenomen social, cultural i econòmic: valors, disfuncions i reptes actuals (dopatge, violència, discriminació)."
+          ]
+        }
+      },
+      "expressiocorporal_comunicacio": {
+        "descripcio": "Creació i interpretació de composicions corporals amb autonomia i intenció comunicativa, valorant la diversitat de manifestacions de la cultura corporal.",
+        "subapartats": {
+          "creacio_i_interpretacio": [
+            "Creació autònoma de composicions corporals individuals i grupals amb intenció artística i comunicativa.",
+            "Disseny de coreografies i seqüències expressives: estructura, musicalitat i posada en escena.",
+            "Tècniques de dansa contemporània, urbana i tradicional: elements i aplicació creativa."
+          ],
+          "cultura_corporal": [
+            "Manifestacions de la cultura corporal: dansa, teatre físic, arts marcials, circ i esport espectacle.",
+            "Diversitat cultural i expressió corporal: danses del món com a expressió de la identitat i el patrimoni.",
+            "Anàlisi crítica de les representacions mediàtiques de la cultura corporal: gènere, estètica i inclusió."
+          ]
+        }
+      },
+      "interaccio_entorn": {
+        "descripcio": "Planificació autònoma d'activitats en el medi natural, amb anàlisi crítica de la sostenibilitat i el compromís amb la preservació de l'entorn.",
+        "subapartats": {
+          "planificacio_activitats_medi_natural": [
+            "Planificació d'una sortida o activitat en el medi natural: objectius, itinerari, material, seguretat i impacte ambiental.",
+            "Orientació avançada: lectura de mapes topogràfics, altimetria i ús d'aplicacions GPS.",
+            "Primers auxilis en el medi natural: actuació davant d'hipotèrmia, picades, fractures i esgotament per calor.",
+            "Regulació legal de les activitats en el medi natural a Catalunya: espais naturals protegits i normativa d'accés."
+          ],
+          "sostenibilitat_i_compromis": [
+            "Impacte ambiental de les activitats esportives en el medi natural: anàlisi i propostes de minimització.",
+            "Turisme actiu i senderisme responsable: valors, pràctiques i certificació de camins.",
+            "Compromís personal i col·lectiu amb la sostenibilitat en la pràctica física a l'aire lliure."
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "TAPIC",
+    "titol_cicle": "Anatomia Patologica i Citologia",
+    "familia_professional": "Sanitat",
+    "grau": "superior",
+    "rd_titol": "RD 1030/2011",
+    "resolucio_cat": "Resolucio ENS/XXX/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2011/07/15/pdfs/BOE-A-2011-12296.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "MP04 forma el tècnic TAPIC en les tècniques histoquímiques i immunohistoquímiques avançades que permeten la caracterització molecular dels teixits i orienten el diagnòstic diferencial i el tractament personalitzat del càncer. Les competències s'apliquen en serveis d'anatomia patològica hospitalaris, laboratoris de referència i centres de diagnòstic oncològic.\n\nEl mòdul treballa els fonaments de la histoquímica (reaccions químiques in situ sobre tall histològic) i de la immunohistoquímica (IHQ), incloent el principi antigèn-anticòs, els mètodes de detecció (avidina-biotina, polímers HRP/AP), el desemmascarament antigènic (calor, proteasa), els controls positius i negatius, i la interpretació semiquantitativa dels resultats (H-score, escala 0-3+). S'estudien els panells d'anticòssos més freqüents en la pràctica diagnòstica: marcadors epitelials (CK AE1/AE3, CAM5.2), limfoides (CD3, CD20, CD30), neuroendocrins (CgA, Syn), proliferació (Ki-67) i oncoproteïnes (HER2, ER, PR, PD-L1). La normativa de bioseguretat amb substàncies carcingøenes (DAB) és tractada específicament.\n\nLa formació es desenvolupa en el laboratori d'IHQ del centre, amb autotenyidors immunohistoquímics automàtics (BenchMark, Bond). L'alumnat prepara els casos, valida els controls de qualitat, interpreta els resultats i els documenta al sistema informàtic del laboratori (LIMS), reproduint el flux de treball real d'un servei d'anatomia patològica hospitalari."
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "Histoquimica i Immunohistoquimica",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Tincions especials: PAS, Grocott i Alcian Blue",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Prepara solucions de reactius per a tincions especials seguint els protocols del laboratori d'anatomia patologica i les normes de seguretat quimica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica els reactius necessaris per a les tincions PAS, Grocott i Alcian Blue i comprova la seva data de caducitat i estat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Prepara les solucions de treball respectant les concentracions indicades en el protocol i registra cada lot al quadern de laboratori.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Manipula acids i oxidants (acid periodic, cromi) amb EPI adequats i gestiona els residus quimics segons el pla de residus del centre.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Valida les solucions preparades amb controls positius i negatius abans d'incorporar-les a la serie de tintura.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tincions histoquimiques especials de polisacarids, fongs i mucines sobre seccions de teixit fixat en formol i inclus en parafina.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Efectua la tintura PAS (Periodic Acid-Schiff) per evidenciar glicogen i mucines neutres, aplicant el temps d'oxidacio i contratintura de Hematoxilina correctes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Aplica la tintura de Grocott (GMS) per detectar fongs, controlant el temps d'impregnacio argentica i la contratintura de fons amb verd llum.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Utilitza Alcian Blue (pH 2.5 i pH 1.0) per diferenciar mucines acides (sulfatades versus carboxilades) i interpreta el resultat de la doble tintura AB-PAS.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Registra cada pas de la tintura al full de treball i comprova el resultat amb el control de qualitat intern, documentant les incidencies.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Interpreta els resultats de les tincions especials correlacionant la positivitat cromatica amb els components tissulars i les possibles patologies.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Identifica al microscopi optic les estructures tenyides per PAS (glicogen hepatic, membrana basal, fongs) i descriu la seva distribucio al teixit.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Distingeix entre artefactes de tintura (precipitats de plata, sobretincio) i positivitat real, aplicant criteris d'acceptacio establerts al SOP del laboratori.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Relaciona els patrons d'Alcian Blue amb el tipus de mucina i la seva significacio en lesions de l'estomac, pulmo i colon.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Redacta un informe tecnic de la serie de tincions especials amb la valoracio dels controls i les observacions microscopiques rellevants.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Immunohistoquimica (IHQ) i Hibridacio in situ per fluorescencia (FISH)",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Processa mostres de teixit per a estudis d'immunohistoquimica aplicant protocols de recuperacio antigenica i bloqueig d'interferencies.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Selecciona les seccions APES o electrostaticament carregades adequades per a IHQ i comprova el gruix de tall (3-4 micres) al microtom.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Aplica el protocol de recuperacio antigenica (calor en tampo citrat pH 6 o EDTA pH 9) adaptant temps i temperatura al marcador requerit.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Realitza el bloqueig de peroxidasa endogena (H2O2 al 3%) i proteines inespecifiques (suer normal) per reduir el fons de la reaccio.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Programa i supervisa les incubacions d'anticossos en immunotenyidor automatic (Ventana BenchMark o Leica Bond) seguint el protocol validat.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa reaccions d'immunohistoquimica amb anticossos primaris per a marcadors de diagnostic oncologic i infeccio, interpretant els controls de qualitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Aplica panells d'anticossos per a carcinomes (CK AE1/AE3, CAM5.2), limfomes (CD20, CD3, CD30) i tumors mesenquimatosos (Vimentina, SMA, Desmina).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Interpreta els controls positius i negatius de cada serie IHQ i actua en cas de fallida del control seguint el protocol d'accions correctives.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Puntua la immunoexpressio d'HER2 en carcinoma de mama (score 0, 1+, 2+, 3+) seguint els criteris ASCO/CAP vigents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Registra els resultats IHQ al SIL (Sistema d'Informacio del Laboratori) i gestiona les mostres post-IHQ per a possibles estudis moleculars addicionals.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Realitza tecniques de hibridacio in situ per fluorescencia (FISH) per detectar amplificacions, delecions i translocacions cromosomiques en teixit inclus en parafina.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "Prepara les seccions per a FISH (desparafinatge, pretractament proteolitic, desnaturalitzacio del DNA) seguint el protocol del kit de sondes comercial.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "Hibrida les sondes marcades amb fluorocroms (FITC, Texas Red, Aqua) sobre la seccio tissular i realitza els rentats post-hibridacio per reduir el soroll de fons.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "Analitza els senyals FISH al microscopi de fluorescencia comptant un minim de 20 cel.lules tumorals i classifica el cas com amplificat, no amplificat o equivoc seguint els criteris ASCO/CAP per a HER2.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "Documenta el resultat FISH amb imatge representativa capturada per camera digital i l'incorpora a l'informe tecnic del cas.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

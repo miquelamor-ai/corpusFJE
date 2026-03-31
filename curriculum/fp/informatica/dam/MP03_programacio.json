@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 450/2010",
+    "resolucio_cat": "Resolució ENS/2518/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/04/20/pdfs/BOE-A-2010-6154.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Programació és el nucli formatiu del DAM: desenvolupa les competències de programació orientada a objectes (POO) imprescindibles per construir aplicacions multiplataforma professionals. Forma programadors capaços de dissenyar, implementar, provar i mantenir programari en entorns reals. S’aplica en qualsevol lloc de treball relacionat amb el desenvolupament de programari: programador junior, analista-programador, tècnic de manteniment d’aplicacions.\n\nEls continguts cobreixen els fonaments de la programació estructurada (variables, tipus, control de flux, subprogrames), la transició al paradigma orientat a objectes amb Java i Python com a llenguatges principals: classes, objectes, herència, polimorfisme, encapsulació i abstracció. S’estudien les col·leccions i estructures de dades (llistes, piles, cues, arbres, mapes), la gestió d’excepcions, l’accés a fitxers i fluxos d’E/S, la programació concurrent amb fils, i els fonaments de proves unitàries amb JUnit o pytest, juntament amb l’ús de control de versions Git en tots els projectes.\n\nEl mòdul s’imparteix en cicles progressius de complexitat creixent, combinant exercicis de consolidació, projectes de codi complet i revisió entre parells. L’alumnat treballa amb entorns de desenvolupament integrat (IntelliJ IDEA, Eclipse, VS Code) simulant el flux professional: anàlisi de requisits, disseny, codificació, proves i documentació."
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Programació",
+    "hores_totals": 255,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Fonaments de programació",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els elements bàsics d'un programa informàtic, identificant-los i aplicant-los en la creació de programes simples.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han identificat els tipus de dades primitius, les variables i les constants, i s'han declarat correctament en un llenguatge de programació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han utilitzat operadors aritmètics, relacionals i lògics per construir expressions i condicions en programes.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han implementat estructures de control de flux (if-else, switch) per bifurcar l'execució del programa.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han implementat estructures de repetició (for, while, do-while) per iterar sobre dades i repetir blocs de codi.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han llegit i escrit dades per consola, gestionant l'entrada de l'usuari i la sortida de resultats de manera adequada.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Utilitza estructures de dades bàsiques (arrays, llistes, mapes) per emmagatzemar i manipular col·leccions d'informació en programes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han declarat i manipulat arrays unidimensionals i multidimensionals, accedint als elements per índex.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han recorregut col·leccions amb bucles i iteradors, aplicant operacions de cerca, ordenació i filtratge.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han utilitzat col·leccions dinàmiques (ArrayList, HashMap) de la biblioteca estàndard per gestionar dades de mida variable.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han implementat algorismes d'ordenació bàsics (bombolla, inserció, selecció) i s'ha analitzat la seva eficiència.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'han aplicat algorismes de cerca seqüencial i binària sobre col·leccions, comparant la seva eficiència.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Escriu i utilitza funcions i mètodes per modularitzar el codi, aplicant el principi de responsabilitat única i reutilitzant funcionalitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han definit funcions amb paràmetres i valors de retorn, aplicant la signatura adequada al seu propòsit.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'ha gestionat l'àmbit de les variables (local, global) i s'ha evitat l'efecte de la contaminació de l'espai de noms.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han implementat funcions recursives per a la resolució de problemes que es descomponen en subproblemes de la mateixa naturalesa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han documentat les funcions amb comentaris i docstrings que descriguen el propòsit, els paràmetres i el valor de retorn.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Gestiona errors i excepcions en els programes, implementant mecanismes de control d'errors que garanteixin la robustesa de les aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'han identificat els tipus d'errors (sintàctics, semàntics, d'execució) i s'han corregit amb l'ajut de l'IDE i el depurador.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'han gestionat excepcions amb blocs try-catch-finally, capturant errors específics i executant accions de recuperació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'han creat i llançat excepcions personalitzades per comunicar errors específics del domini de l'aplicació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'han registrat errors en fitxers de log per facilitar el diagnòstic de problemes en entorns de producció.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Programació Orientada a Objectes",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa programes orientats a objectes, aplicant els principis fonamentals de l'encapsulació, l'herència i el polimorfisme.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han definit classes amb atributs, constructors i mètodes, aplicant el principi d'encapsulació amb modificadors d'accés.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han implementat relacions d'herència entre classes, reutilitzant i especialitzant el comportament de la classe pare.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha aplicat el polimorfisme per tractar objectes de subclasses de manera uniforme a través de referències a la classe base.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han definit i implementat interfícies i classes abstractes per establir contractes entre components de l'aplicació.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han identificat i aplicat patrons de disseny bàsics (Singleton, Factory, Observer) per resoldre problemes recurrents.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Dissenya i implementa la capa de model d'una aplicació aplicant principis SOLID i bones pràctiques de la programació orientada a objectes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha aplicat el principi de responsabilitat única (SRP) en el disseny de classes, garantint que cada classe tingui un únic motiu per canviar.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha aplicat el principi obert/tancat (OCP) dissenyant classes extensibles sense necessitat de modificar el codi existent.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han aplicat els principis de substitució de Liskov (LSP) i inversió de dependències (DIP) en el disseny de jerarquies de classes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha refactoritzat codi existent per eliminar duplicació (DRY), millorar la llegibilitat i aplicar els principis SOLID.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Implementa la gestió de fitxers i la persistència de dades en aplicacions orientades a objectes, serialitzant i deserialitzant objectes en diversos formats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'han llegit i escrit fitxers de text i binaris, gestionant correctament els recursos amb blocs try-with-resources o patrons equivalents.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han serialitzat i deserialitzat objectes en format JSON i XML per a la persistència i l'intercanvi de dades entre aplicacions.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'ha gestionat el sistema de fitxers (crear, copiar, moure, eliminar directoris i fitxers) de manera portable entre sistemes operatius.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han implementat fluxos de dades (streams) per processar grans volums d'informació de manera eficient.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Estructures de dades i algorismes",
+        "hores": 57,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implementa estructures de dades avançades (piles, cues, arbres, grafs) i selecciona l'estructura adequada per a cada problema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han implementat i aplicat piles (LIFO) i cues (FIFO) per resoldre problemes on l'ordre d'accés és determinant.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han implementat arbres binaris de cerca, realitzant operacions d'inserció, cerca i recorregut (inordre, preordre, postordre).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han representat i recorregut grafs (en amplada BFS i en profunditat DFS) per resoldre problemes de connectivitat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'ha seleccionat i justificat l'estructura de dades adequada per a un problema donat, considerant la complexitat temporal i espacial.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Analitza i avalua algorismes aplicant la notació O gran, seleccionant l'algorisme més eficient per a cada context.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha analitzat la complexitat temporal i espacial d'algorismes senzills utilitzant la notació O gran.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han comparat algorismes d'ordenació avançats (QuickSort, MergeSort, HeapSort) i s'ha seleccionat el més adequat.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han implementat estratègies algorísmiques (divideix i vença, programació dinàmica, greedy) per resoldre problemes complexos.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'ha mesurat el rendiment real d'algorismes amb eines de profiling, comparant els resultats teòrics amb els empírics.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

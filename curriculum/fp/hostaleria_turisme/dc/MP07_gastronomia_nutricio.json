@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DC",
+    "titol_cicle": "Direcció de Cuina",
+    "familia_professional": "Hostaleria i Turisme",
+    "grau": "superior",
+    "rd_titol": "RD 687/2010",
+    "decret": "175/2022",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul de Gastronomia i nutrició del cicle Direcció de Cuina forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de hostaleria i turisme. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a gastronomia i nutrició en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de gastronomia i nutrició: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de hostaleria i turisme. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "Gastronomia i nutrició",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Ciència dels aliments",
+        "hores": 50,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Analitza composició nutricional per planificar ofertes saludables.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha descrit composició nutricional.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat efectes de la cocció sobre nutrients.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'ha calculat valor energètic de plats.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han descrit necessitats nutricionals per grups.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Dietètica aplicada",
+        "hores": 49,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya ofertes per dietes terapèutiques i alternatives.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han dissenyat menús terapèutics.",
+                "pes_percentual": 30
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han elaborat propostes vegetarianes/veganes.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han aplicat tendències en alimentació saludable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han dissenyat cartes per col·lectivitats.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "schema_fp_v1",
+  "description": "Schema per al currículum de Formació Professional a Catalunya. Estructura: Cicle > Mòdul Professional (MP) > Unitat Formativa (UF) > Resultat d'Aprenentatge (RA) > Criteris d'Avaluació (CA) + Continguts.",
+  "type": "object",
+  "properties": {
+    "meta": {
+      "type": "object",
+      "properties": {
+        "familia":            { "type": "string", "const": "fp" },
+        "cicle_formatiu":     { "type": "string", "examples": ["ASIX", "DAM", "DAW", "SMX"] },
+        "titol_cicle":        { "type": "string" },
+        "grau":               { "type": "string", "enum": ["basic", "mitja", "superior"] },
+        "familia_professional":{ "type": "string", "examples": ["Informàtica i Comunicacions"] },
+        "rd_titol":           { "type": "string", "description": "Reial Decret estatal del títol" },
+        "resolucio_cat":      { "type": "string", "description": "Resolució catalana de concreció curricular" },
+        "versio_schema":      { "type": "string" }
+      },
+      "required": ["familia", "cicle_formatiu", "titol_cicle", "grau", "familia_professional", "versio_schema"]
+    },
+
+    "modul": {
+      "type": "object",
+      "description": "Un fitxer = un Mòdul Professional (MP)",
+      "properties": {
+        "codi":        { "type": "string", "examples": ["MP01", "MP06"] },
+        "nom":         { "type": "string" },
+        "hores_totals":{ "type": "integer" },
+        "uf": {
+          "type": "array",
+          "description": "Unitats Formatives del mòdul",
+          "items": {
+            "type": "object",
+            "properties": {
+              "codi":  { "type": "string", "examples": ["UF1", "UF2"] },
+              "nom":   { "type": "string" },
+              "hores": { "type": "integer" },
+              "resultats_aprenentatge": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "codi": { "type": "string", "examples": ["RA1", "RA2"] },
+                    "text": { "type": "string" },
+                    "criteris_avaluacio": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "codi":            { "type": "string", "examples": ["CA1a", "CA1b"] },
+                          "text":            { "type": "string" },
+                          "pes_percentual":  {
+                            "type": ["number", "null"],
+                            "description": "% de la nota de la UF que representa aquest CA. Null si no està especificat al decret."
+                          }
+                        },
+                        "required": ["codi", "text"]
+                      }
+                    },
+                    "continguts": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "bloc":  { "type": "string" },
+                          "items": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                          }
+                        },
+                        "required": ["bloc", "items"]
+                      }
+                    }
+                  },
+                  "required": ["codi", "text", "criteris_avaluacio"]
+                }
+              }
+            },
+            "required": ["codi", "nom", "hores", "resultats_aprenentatge"]
+          }
+        }
+      },
+      "required": ["codi", "nom", "hores_totals", "uf"]
+    }
+
+  },
+  "required": ["meta", "modul"]
+}

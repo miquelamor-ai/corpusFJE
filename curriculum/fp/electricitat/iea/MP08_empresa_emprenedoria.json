@@ -1,0 +1,86 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "familia_professional": "Electricitat i Electrònica",
+    "grau": "mitja",
+    "rd_titol": "RD 177/2008",
+    "resolucio_cat": "Resolució ENS/XXX/2010",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07960-07985.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "El mòdul d'Empresa i Iniciativa Emprenedora orienta l'alumne de Grau Mitjà IEA cap a la creació i gestió d'una petita empresa instal·ladora elèctrica. Les competències s'apliquen tant per als alumnes que vulguin establir-se com a autònoms o constituir una societat limitada, com per als que necessitin comprendre el funcionament empresarial del sector per treballar-hi amb responsabilitat.\n\nEl mòdul cobreix les formes jurídiques adequades per a una empresa instal·ladora (autònom vs. societat limitada), els requisits d'inscripció al Registre d'Instal·ladors Elèctrics (REIE) i les categories d'habilitació professional, les obligacions fiscals bàsiques (IVA, IRPF, Seguretat Social) i les assegurances obligatòries de responsabilitat civil i accidents. A partir d'aquestes bases, l'alumne elabora un pla d'empresa que inclou la descripció de l'activitat (instal·lació, manteniment, eficiència energètica), el mercat objectiu, un estudi de viabilitat econòmica (inversió inicial, costos fixos i variables, ingressos previstos), el pla de màrqueting i les fonts de finançament disponibles (subvencions, fons Next Generation, crèdits ICO).\n\nLa metodologia és eminentment pràctica: l'alumne construeix i presenta el pla d'empresa davant el grup, simulant la defensa davant potencials inversors o clients. El treball inclou recerca de mercat real, càlcul de pressupostos d'instal·lació i anàlisi de la competència local, integrant així les competències tècniques del cicle amb la visió empresarial i emprenedora."
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "Empresa i Iniciativa Emprenedora",
+    "hores_totals": 33,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Empresa i emprenedoria en el sector elèctric",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica les formes jurídiques d’empresa adequades per a la creació d’una empresa instal·ladora elèctrica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'han comparat les característiques del treballador autònom instal·lador amb les de la societat limitada.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han descrit els requisits per a la inscripció en el Registre d’Instal·ladors Elèctrics (REIE) i les categories d’habilitació.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han identificat les obligacions fiscals i laborals bàsiques d’una empresa instal·ladora (IVA, IRPF, SS).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han descrit les assegurances obligàtories per a empreses instal·ladores (responsabilitat civil, accidents).",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Elabora un pla d’empresa bàsic per a la creació d’una petita empresa instal·ladora elèctrica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha descrit l’activitat de l’empresa (serveis d’instal·lació, manteniment, eficiència energètica) i el mercat objectiu.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'ha elaborat un estudi de viabilitat econòmica bàsic (inversió inicial, costos fixos i variables, ingressos previstos).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha descrit el pla de màrqueting bàsic (canals de captació, política de preus, imatge de marca).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han identificat les fonts de finançament disponibles (subvencions, fons Next Generation, crèdits ICO).",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha presentat el pla d’empresa de forma clara i estructurada davant el grup.",
+                "pes_percentual": 15
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

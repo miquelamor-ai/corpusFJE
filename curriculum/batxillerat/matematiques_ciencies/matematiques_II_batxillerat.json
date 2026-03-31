@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Matemàtiques II",
+    "codi_area": "MAT2",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/Matematiques-II.pdf",
+    "nota_estructura": "Matemàtiques II és matèria de 2n de Batxillerat de la modalitat Ciències i Tecnologia, continuació de Matemàtiques I. Aprofundeix en àlgebra matricial, geometria vectorial en l'espai, anàlisi avançada i estadística inferencial.",
+    "versio_schema": "1.0",
+    "descripcio": "Les Matemàtiques II de Batxillerat aprofundeixen els continguts de primer curs i preparen l'alumne per a la selectivitat i per als estudis universitaris de les branques científiques, tecnològiques i d'enginyeria. Consoliden la capacitat de modelitzar situacions complexes amb eines matemàtiques avançades, de raonar amb rigor formal i d'afrontar problemes oberts amb autonomia i precisió.\n\nLa matèria avança en àlgebra matricial —matrius, determinants, rang, sistemes d'equacions lineals i teorema de Rouché-Frobenius— i en geometria vectorial a l'espai tridimensional, incloent-hi equacions de rectes i plans, producte vectorial i mixt, i distàncies i angles. L'anàlisi matemàtica aprofundeix en el càlcul diferencial de funcions de variable real —regla de la cadena, optimització, estudi complet de funcions— i desenvolupa el càlcul integral, amb les tècniques d'integració —substitució, per parts, descomposició en fraccions simples— i les aplicacions al càlcul d'àrees i volums. L'estadística inferencial incorpora intervals de confiança, contrastació d'hipòtesis i distribucions de mostreig, connectant la probabilitat amb la presa de decisions basada en dades.\n\nL'ensenyament de Matemàtiques II es caracteritza per un alt grau d'exigència en la formalització i la demostració. Les activitats combinen exercicis de càlcul sistemàtic amb problemes d'aplicació en física, economia i enginyeria. El treball amb programari matemàtic —CAS, fulls de càlcul, programari estadístic— és habitual i afavoreix la comprensió visual i la verificació de resultats analítics."
+  },
+  "competencies_clau": [
+    "CCL",
+    "CP",
+    "STEM",
+    "CD",
+    "CPSAA",
+    "CE"
+  ],
+  "blocs_sabers": [
+    "Àlgebra matricial",
+    "Geometria vectorial",
+    "Anàlisi matemàtica avançada",
+    "Estadística inferencial"
+  ],
+  "competencies_especifiques": [
+    {
+      "codi": "MAT2-CE1",
+      "bloc_competencial": "Resolució de problemes i raonament matemàtic",
+      "text": "Planificar, executar i avaluar processos de resolució de problemes matemàtics complexos, argumentant les solucions amb rigor lògic i formal i valorant l'eficiència de les estratègies emprades.",
+      "competencies_clau": [
+        "STEM",
+        "CCL",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "2n": [
+          "1.1 Analitzar i formalitzar problemes matemàtics complexos, seleccionant les eines i tècniques més adequades per a la seva resolució.",
+          "1.2 Construir demostracions i justificacions matemàtiques rigoroses, fent ús del raonament deductiu.",
+          "1.3 Comunicar processos i solucions matemàtiques de manera precisa i estructurada, tant per escrit com oralment."
+        ]
+      }
+    },
+    {
+      "codi": "MAT2-CE2",
+      "bloc_competencial": "Modelització matemàtica avançada",
+      "text": "Construir i avaluar models matemàtics per a la resolució de problemes de la ciència i la tecnologia, interpretant críticament els resultats i les limitacions dels models.",
+      "competencies_clau": [
+        "STEM",
+        "CD",
+        "CE"
+      ],
+      "criteris_avaluacio": {
+        "2n": [
+          "2.1 Formular models matemàtics que incorporin àlgebra lineal, càlcul integral o estadística per descriure fenòmens científics.",
+          "2.2 Avaluar la validesa i les limitacions dels models matemàtics aplicats, proposant millores quan escaigui.",
+          "2.3 Emprar programari matemàtic per a la construcció, simulació i visualització de models."
+        ]
+      }
+    },
+    {
+      "codi": "MAT2-CE3",
+      "bloc_competencial": "Connexions matemàtiques i interdisciplinàries",
+      "text": "Identificar les connexions entre els blocs matemàtics i amb les ciències experimentals i tecnologia, reconeixent el paper de les matemàtiques com a llenguatge universal de la ciència.",
+      "competencies_clau": [
+        "STEM",
+        "CCL",
+        "CP"
+      ],
+      "criteris_avaluacio": {
+        "2n": [
+          "3.1 Reconèixer les connexions entre l'àlgebra matricial, la geometria vectorial i l'anàlisi en la resolució de problemes integrals.",
+          "3.2 Aplicar conceptes matemàtics en contextos de física, química, economia i enginyeria.",
+          "3.3 Valorar la transversalitat de les matemàtiques com a eina de modelització en diverses disciplines."
+        ]
+      }
+    },
+    {
+      "codi": "MAT2-CE4",
+      "bloc_competencial": "Sentit estadístic inferencial",
+      "text": "Aplicar tècniques d'estadística inferencial per a la presa de decisions fonamentada a partir de mostres, avaluant críticament els resultats i les limitacions de les inferències realitzades.",
+      "competencies_clau": [
+        "STEM",
+        "CD",
+        "CPSAA"
+      ],
+      "criteris_avaluacio": {
+        "2n": [
+          "4.1 Comprendre i aplicar les propietats de la distribució normal i calcular probabilitats associades.",
+          "4.2 Construir i interpretar intervals de confiança per a una proporció i per a una mitjana.",
+          "4.3 Plantejar i resoldre contrastos d'hipòtesis senzills, interpretant els resultats en context."
+        ]
+      }
+    }
+  ],
+  "sabers_basics": {
+    "2n": {
+      "nota": "Els sabers bàsics de Matemàtiques II aprofundeixen i amplien els de Matemàtiques I. Incorporen àlgebra matricial i geometria en l'espai, càlcul integral i estadística inferencial, amb orientació cap a les PAU i als estudis universitaris de ciències i tecnologia.",
+      "Àlgebra matricial": {
+        "subapartats": {
+          "Matrius i determinants": [
+            "Matrius: definició, tipus i operacions (suma, producte, transposada).",
+            "Determinants d'ordre 2 i 3: propietats i regla de Sarrus.",
+            "Matriu inversa: càlcul i condicions d'existència.",
+            "Rang d'una matriu: mètode de Gauss."
+          ],
+          "Sistemes d'equacions lineals": [
+            "Sistemes d'equacions lineals i expressió matricial.",
+            "Teorema de Rouché-Fröbenius: compatibilitat de sistemes.",
+            "Resolució de sistemes compatibles determinats per la regla de Cramer i el mètode de Gauss.",
+            "Discussió i resolució de sistemes amb paràmetres."
+          ]
+        }
+      },
+      "Geometria vectorial": {
+        "subapartats": {
+          "Vectors en l'espai": [
+            "Vectors a R³: operacions, producte escalar, producte vectorial i producte mixt.",
+            "Aplicacions del producte vectorial: àrea i volum.",
+            "Interpretació geomètrica dels productes de vectors."
+          ],
+          "Geometria analítica en l'espai": [
+            "Rectes en l'espai: equacions paramètriques, contínua i implícita.",
+            "Plans en l'espai: equació general i equació normal.",
+            "Posicions relatives de rectes i plans. Interseccions.",
+            "Distàncies i angles entre elements geomètrics en l'espai."
+          ]
+        }
+      },
+      "Anàlisi matemàtica avançada": {
+        "subapartats": {
+          "Derivades i aplicacions avançades": [
+            "Derivació de funcions implícites i paramètriques.",
+            "Regla de L'Hôpital per a la resolució d'indeterminacions.",
+            "Estudi complet de funcions: monotonia, extrems, concavitat, inflexió i asímptotes.",
+            "Optimització: problemes de màxims i mínims."
+          ],
+          "Càlcul integral": [
+            "Integral indefinida: primitives i tècniques bàsiques d'integració (per parts, canvi de variable, fraccions parcials).",
+            "Integral definida: Regla de Barrow i interpretació geomètrica.",
+            "Aplicacions de la integral: àrea de recintes plans, volums de sòlids de revolució."
+          ]
+        }
+      },
+      "Estadística inferencial": {
+        "subapartats": {
+          "Distribucions de probabilitat": [
+            "Distribució binomial: càlcul de probabilitats i aplicacions.",
+            "Distribució normal: propietats, tipificació i taules.",
+            "Aproximació de la distribució binomial per la normal (condicions i càlcul)."
+          ],
+          "Inferència estadística": [
+            "Distribució mostral de la mitjana i de la proporció.",
+            "Intervals de confiança per a la proporció i per a la mitjana (variança coneguda).",
+            "Contrastos d'hipòtesis: conceptes bàsics, errors de tipus I i II, i significació estadística."
+          ]
+        }
+      }
+    }
+  }
+}

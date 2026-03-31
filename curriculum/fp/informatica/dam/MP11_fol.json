@@ -1,0 +1,217 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "familia_professional": "Informàtica i Comunicacions",
+    "grau": "superior",
+    "rd_titol": "RD 450/2010",
+    "resolucio_cat": "Resolució ENS/2518/2012",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2010/04/20/pdfs/BOE-A-2010-6154.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Formació i Orientació Laboral proporciona a l’alumnat DAM les competències sociolaborals i jurídiques per incorporar-se al mercat de treball TI de manera segura, informada i activa. Desenvolupa habilitats per a la recerca de feina, el coneixement dels drets i deures laborals i la gestió de la carrera professional. És aplicable des del primer dia de vida laboral en qualsevol empresa del sector.\n\nEls continguts abasten el marc jurídic laboral espanyol i català (Estatut dels Treballadors, convenis col·lectius del sector TI, Llei de Prevenció de Riscos Laborals), la tipologia de contractes habituals en el sector informàtic (obra i servei, indefinit, en pràctiques, autònom/freelance), la nòmina i cotitzacions a la Seguretat Social, la negociació col·lectiva i els drets sindicals, els riscos laborals específics del treball amb pantalles i postures prolongades (ergonomia, RSI), i tècniques de recerca activa de feina: currículum, carta de presentació, LinkedIn, entrevista i portafoli tècnic.\n\nEl mòdul combina sessions teòriques sobre normativa laboral amb activitats pràctiques de simulació: elaboració del currículum, simulació d’entrevistes de feina per al sector TI, anàlisi de contractes reals i resolució de casos laborals. Es fomenta la reflexió sobre drets i deures i es treballa la marca personal digital del futur professional TI."
+  },
+  "modul": {
+    "codi": "MP11",
+    "nom": "Formació i Orientació Laboral",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Incorporació al treball",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona oportunitats d'ocupació identificant les diferents possibilitats d'inserció i les alternatives d'aprenentatge al llarg de la vida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha valorat la importància de la formació permanent com a factor clau per a l'empleabilitat i l'adaptació als canvis tecnològics del sector TIC.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat els itineraris formatius relacionats amb el perfil DAM (certificacions, graus, màsters, bootcamps).",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han determinat les aptituds i actituds requerides per al treball en el sector del desenvolupament de programari.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han identificat els principals jaciments d'ocupació per al perfil DAM (startups, consultores, empreses de producte, administració pública).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'han elaborat el currículum vitae i el perfil professional en plataformes com LinkedIn, adequant-los al sector TIC.",
+                "pes_percentual": 30
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica les estratègies de recerca de feina, analitzant les seves pròpies capacitats i interessos i els requeriments del mercat laboral TIC.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'han identificat les fonts d'informació i les plataformes de recerca de feina específiques del sector TIC (Infojobs, LinkedIn, Indeed, GitHub Jobs, Stack Overflow Jobs).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han preparat i simulat entrevistes de selecció tècniques i competencials habituals al sector del desenvolupament.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'ha valorat la importància del portfolio de projectes (GitHub, portfolio web) com a eina diferenciadora en la recerca de feina TIC.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han analitzat les ofertes de treball identificant-ne els requeriments tècnics, les condicions laborals i les possibilitats de creixement.",
+                "pes_percentual": 30
+              }
+            ]
+          },
+          {
+            "codi": "RA3",
+            "text": "Determina l'acció protectora del sistema de la Seguretat Social davant les contingències cobertes, identificant les bases de cotització i les prestacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA3.1",
+                "text": "S'ha identificat l'estructura del sistema de Seguretat Social espanyol i els règims que el componen.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.2",
+                "text": "S'han identificat les cotitzacions a la Seguretat Social (empresa i treballador) i la seva influència en el cost laboral.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.3",
+                "text": "S'han descrit les prestacions de la Seguretat Social: incapacitat temporal, desocupació, jubilació, maternitat/paternitat.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.4",
+                "text": "S'han calculat les prestacions bàsiques a partir de les bases de cotització i els períodes de carència.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA3.5",
+                "text": "S'han valorat les particularitats de la cotització com a autònom (RETA) per a professionals TIC emprenedors.",
+                "pes_percentual": 20
+              }
+            ]
+          },
+          {
+            "codi": "RA4",
+            "text": "Exerceix els drets i compleix les obligacions que es deriven de les relacions laborals, reconeixent-los en els diferents contractes de treball i en la negociació col·lectiva.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA4.1",
+                "text": "S'han identificat els conceptes bàsics del dret laboral: relació laboral, contracte, conveni col·lectiu, Estatut dels Treballadors.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA4.2",
+                "text": "S'han descrit les modalitats de contractació laboral més habituals al sector TIC (indefinit, temporal, per obra, pràctiques, teletreball).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA4.3",
+                "text": "S'ha interpretat una nòmina identificant-ne els conceptes salarials, les deduccions i la liquidació final.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA4.4",
+                "text": "S'han identificat les causes i els procediments d'extinció del contracte (acomiadament disciplinari, per causes objectives, ERO) i els drets del treballador.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA4.5",
+                "text": "S'ha valorat el paper dels sindicats, els comitès d'empresa i la negociació col·lectiva en la defensa dels drets laborals.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Prevenció de riscos laborals",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Avalua els riscos derivats de l'activitat professional de desenvolupament de programari, analitzant les condicions de treball i els factors de risc presents en els entorns TIC.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "S'ha valorat la importància de la cultura preventiva en l'empresa i la responsabilitat individual de cada treballador.",
+                "pes_percentual": 15
+              },
+              {
+                "codi": "CA1.2",
+                "text": "S'han identificat els riscos ergonòmics associats al treball amb ordinadors (postura, pantalla, il·luminació, soroll).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.3",
+                "text": "S'han identificat els riscos psicosocials habituals al sector TIC (estrès, burnout, aïllament en teletreball).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.4",
+                "text": "S'han descrit els riscos elèctrics i d'incendi associats als centres de processament de dades (CPD) i les mesures preventives.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA1.5",
+                "text": "S'ha realitzat una avaluació bàsica de riscos d'un lloc de treball de programador aplicant metodologies estandarditzades.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Participa en l'elaboració d'un pla de prevenció de riscos per a un entorn de treball TIC, identificant les responsabilitats i els organismes implicats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "S'ha descrit el marc normatiu de la prevenció de riscos laborals a Espanya (Llei 31/1995 i reglaments de desenvolupament).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.2",
+                "text": "S'han identificat els drets i les obligacions de treballadors i empresaris en matèria de prevenció.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.3",
+                "text": "S'han descrit les mesures de prevenció i protecció col·lectives i individuals aplicables a entorns de treball informàtic.",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.4",
+                "text": "S'han descrit els procediments d'actuació davant d'emergències i accidents laborals (primers auxilis, evacuació, comunicació).",
+                "pes_percentual": 20
+              },
+              {
+                "codi": "CA2.5",
+                "text": "S'ha valorat la gestió de la salut laboral i la vigilància de la salut com a eines de prevenció de malalties professionals.",
+                "pes_percentual": 20
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GA",
+    "titol_cicle": "Gestio Administrativa",
+    "familia_professional": "Administracio i Gestio",
+    "grau": "mitja",
+    "rd_titol": "RD 1456/2012",
+    "resolucio_cat": "Resolucio ENS/XXX/2013",
+    "decret": "175/2022",
+    "font": "https://www.boe.es/boe/dias/2013/01/31/pdfs/BOE-A-2013-1118.pdf",
+    "versio_schema": "1.0",
+    "descripcio": "Aquest mòdul forma l’auxiliar administratiu en els processos bàsics del cicle de compravenda: des de la recepció de comandes fins a la facturació i el control d’estocs senzill. Els llocs de treball als quals s’orienta inclouen auxiliar de compres, auxiliar de vendes, operari de magatzem administratiu i suport a l’àrea comercial en petites i mitjanes empreses.\n\nEls continguts cobreixen la documentació bàsica del cicle comercial: sol·licitud d’oferta, albarà de lliurament, factura comercial i nota d’abonament, tot seguint el Reglament de Facturació (RD 1619/2012) i els requisits del Codi de Comerç. S’introdueix el càlcul mercantil aplicat: percentatges de descompte, recàrrecs, IVA (tipus reduït, general i superreduït) i càlcul del preu de cost. A diferència del grau superior, no s’entra en gestió logística estratègica sinó en l’operativa documental i numèrica bàsica.\n\nLa pràctica es vertebra entorn de la gestió d’un petit magatzem simulat: l’alumnat rep comandes, comprova albaran’s, elabora factures, gestiona devolucions i porta un control bàsic d’estocs. El càlcul mental, la precisió documental i l’ordre en la gestió dels documents són les competències transversals que es reforcen constantment al llarg del mòdul."
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Operacions Comercials",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Compravenda i documentacio comercial",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora i processa documentacio de compravenda (comandes, albarans, factures) amb precisio.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Identifica els elements obligatoris d'una factura i verifica la seva correcio fiscal i comptable.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Elabora i gestiona comandes i albarans de compra i venda seguint el circuit comercial complet.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Calcula descomptes, recàrrecs, IVA i import total de les operacions de compravenda.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Arxiva i digitalitza la documentacio comercial seguint sistemes d'organitzacio adequats.",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica els termes comercials internacionals (INCOTERMS) en operacions de comerc exterior basiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Identifica els INCOTERMS mes habituals (EXW, FOB, CIF, DDP) i les responsabilitats de cada part.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Interpreta documentacio de comerc exterior (factura proforma, packing list, certificat d'origen).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Calcula el cost total d'una operacio d'importacio o exportacio incloent transport i assegurances.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Distingeix les principals modalitats de pagament internacional (transferencia, carta de credit).",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Comerc electronic i plataformes digitals",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Opera en plataformes de comerc electronic B2B i B2C gestionant el cicle de venda digital.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA1.1",
+                "text": "Distingeix els models de negoci B2B, B2C, C2C i les seves implicacions operatives i legals.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.2",
+                "text": "Gestiona productes, preus i estoc en plataformes de comerc electronic (Shopify, PrestaShop, Amazon).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.3",
+                "text": "Processa comandes digitals, gestiona devolucions i atent consultes de clients online.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA1.4",
+                "text": "Aplica la normativa de proteccio del consumidor digital i el dret de desistiment (14 dies).",
+                "pes_percentual": 25
+              }
+            ]
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica estrategies basiques de marketing digital per a la promocio de productes i serveis en linia.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA2.1",
+                "text": "Crea i gestiona contingut per a xarxes socials orientat a la promocio comercial de l'empresa.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.2",
+                "text": "Interpreta metriques basiques de rendiment d'una botiga online (conversio, ticket mitja, rebot).",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.3",
+                "text": "Configura campanyes publicitaries basiques a Google Ads o Meta Ads per a una PIME.",
+                "pes_percentual": 25
+              },
+              {
+                "codi": "CA2.4",
+                "text": "Elabora un pla de comunicacio digital basic per a la promocio d'un producte o servei.",
+                "pes_percentual": 25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
