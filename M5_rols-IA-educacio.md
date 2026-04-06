@@ -1,123 +1,193 @@
 ---
 modul: M5
-titol: "Rols de la IA a l'educació"
+titol: "Els 7 rols de la IA en educació"
 tipus: marc
-descripcio: "Els set enfocaments de Mollick i altres models de rols de la IA com a tutor, company, assistent, expert"
+descripcio: "Set rols d'interacció IA-alumne (adaptació Mollick), tres famílies (procesuals, mixtos, productius), comportament per nivell i col·lapse a N4"
 review_status: esborrany
-generat_at: 2026-03-21T07:17:24
+generat_at: 2026-04-06
 ---
 
 # 1. CONTINGUT ESPECÍFIC
 
 ## Definició i principis
-Els documents proporcionats se centren en la integració general de dispositius digitals i internet en l'educació, més que en els rols específics de la Intel·ligència Artificial (IA). Estableixen que la tecnologia digital ha irromput a les aules com un reflex de la seva presència creixent en la vida quotidiana i professional. El principi fonamental és que el món digital i l'analògic són complementaris i compatibles, i que les institucions educatives han de trobar maneres de fomentar la seva "convivència" per millorar l'aprenentatge.
 
-Aquesta integració tecnològica permet als estudiants un accés sense precedents a la informació, facilitant la recerca i la capacitat de pensar activament, prendre decisions, manipular i mostrar dades. També es destaca que la tecnologia pot suportar una instrucció més individualitzada, permetent als alumnes aprendre a un ritme adaptat al seu desenvolupament. Aquestes capacitats desafien els models educatius tradicionals, obrint la porta a alternatives com les aules invertides i els models híbrids o en línia.
+Els 7 rols de la IA a l'aula defineixen **com actua la IA** durant una activitat d'aprenentatge. Són la capa d'implementació de l'arquitectura Quest-Rol-Nivell: la Quest defineix la intenció pedagògica, el Rol defineix el comportament de la IA, i el Nivell defineix el grau d'autonomia.
 
-És important subratllar que, tot i que aquest marc general d'integració tecnològica és la base sobre la qual es podrien construir els rols de la IA, els documents no defineixen ni exploren directament la IA, els seus principis, la seva epistemologia o els seus orígens. La discussió se centra en les eines digitals en un sentit ampli i els seus beneficis generals per a l'aprenentatge, sense aprofundir en les capacitats intel·ligents o els rols específics que la IA podria assumir com a tutor, company, assistent o expert.
+Els rols s'originen en l'adaptació d'Ethan Mollick (2023) per a l'àmbit educatiu, reconfigurats dins del marc de Jesuïtes Educació per integrar-se amb el Model 4D, els nivells MIHIA i el marc cognitiu de fricció productiva.
+
+### Els 7 rols
+
+| # | Rol | La IA actua com a... | Què fa |
+|---|---|---|---|
+| 1 | **Mentor Socràtic** | Guia que pregunta | Fa preguntes per guiar el pensament, no dóna respostes directes |
+| 2 | **Simulador / Actor** | Personatge o escenari | Representa situacions, personatges o contextos amb què l'alumne interactua |
+| 3 | **Crític / Editor** | Revisor exigent | Avalua la feina de l'alumne, detecta errors, suggereix millores sense reescriure |
+| 4 | **Generador de Casos** | Creador de material | Genera exemples, dades, problemes o escenaris per analitzar |
+| 5 | **Teachable Agent** | "Alumne" que aprèn | L'alumne ensenya a la IA; la IA simula malentesos |
+| 6 | **Contrincant** | Devil's Advocate | Contradiu l'alumne sistemàticament per obligar-lo a argumentar |
+| 7 | **Traductor / Adaptador** | Personalitzador | Adapta contingut a nivells, llengües, formats o necessitats |
+
+### Les tres famílies de rols
+
+L'anàlisi dels 21 exemples del document `exemples-rols-mihia.md` revela que els 7 rols es comporten diferentment segons el nivell de delegació. Aquesta diferència és estructural:
+
+**Rols procesuals** (N2-N3 nadiu, **col·lapsen a N4**): Mentor Socràtic, Teachable Agent, Contrincant. La seva essència és el procés d'interacció — l'alumne pensa, pregunta, defensa, ensenya. A N4, la IA genera el diàleg complet i el rol perd la seva raó de ser: l'alumne ja no pensa, llegeix un producte. Indueixen principalment Resistència i Descoberta.
+
+**Rols mixtos** (N2-N4 viable): Crític / Editor, Simulador. Funcionen tant en iteració (N2-N3) com en generació completa (N4). El canvi de nivell no destrueix l'essència del rol. Indueixen principalment Recursivitat i Descoberta.
+
+**Rols productius** (N3-N4 nadiu, N2 queda limitat): Generador de Casos, Traductor / Adaptador. La seva naturalesa és produir. La fricció productiva es trasllada al moment en què l'alumne treballa amb el producte, no a la interacció amb la IA.
+
+### Comportament per nivell
+
+| Rol | N0 | N1 | N2 | N3 | N4 | N5 |
+|---|---|---|---|---|---|---|
+| Mentor Socràtic | — | Context | **Nadiu** | **Nadiu** | ⚠️ Col·lapse | Meta-disseny |
+| Simulador | — | Context | **Nadiu** | **Nadiu** | Viable amb risc | Meta-disseny |
+| Crític / Editor | — | Context | **Nadiu** | **Nadiu** | Viable | Meta-disseny |
+| Generador de Casos | — | Context | Limitat | **Nadiu** | **Nadiu** | Meta-disseny |
+| Teachable Agent | — | Context | **Nadiu** | **Nadiu** | ⚠️ Col·lapse | Meta-disseny |
+| Contrincant | — | Context | **Nadiu** | **Nadiu** | ⚠️ Col·lapse | Meta-disseny |
+| Traductor / Adaptador | — | Context | Limitat | **Nadiu** | **Nadiu** | Meta-disseny |
+
+### Matriu Rol × Moviment de Fricció
+
+| Rol | Descoberta | Recursivitat | Resistència |
+|---|---|---|---|
+| Mentor Socràtic | ★★ | ★ | ★★ |
+| Simulador | ★★ | ★★ | ★ |
+| Crític / Editor | ★ | ★★ | ★ |
+| Generador de Casos | ★★ | ★ | — |
+| Teachable Agent | ★★ | ★ | ★★ |
+| Contrincant | ★ | ★★ | ★★ |
+| Traductor / Adaptador | ★ | ★ | — |
 
 ## Autors i evidència clau
-Els documents no citen autors específics, estudis concrets o evidències empíriques relacionades amb els rols de la IA en l'educació, ni fan referència als "set enfocaments de Mollick" o altres models de rols de la IA. La seva creació es basa en "la inquietud social existente al respecto, de la preocupación de colegios y familias y de las publicaciones sobre el tema", indicant una resposta a un context social i educatiu ampli, però sense fonamentar-se en recerca acadèmica específica sobre IA. Per tant, no és possible identificar autors o evidències clau sobre IA a partir d'aquestes fonts.
+
+*   **Mollick, E. (2023)**: Proposta original dels rols d'interacció IA a l'aula. La classificació en 7 rols ha estat àmpliament difosa i adoptada en contextos educatius.
+*   **Novokshanova, E. (2025)**: La matriu Rol × Moviment de Fricció es fonamenta en els tres moviments de fricció productiva (Descoberta, Recursivitat, Resistència).
+*   **Document `exemples-rols-mihia.md` (JE, 2026)**: L'anàlisi dels 21 exemples (7 rols × 3 etapes × 6 nivells) revela el patró de les tres famílies i el col·lapse a N4.
+*   **ADR Arquitectura Quest-Rol-Nivell (JE, 2026)**: Decisió de situar els rols com a capa d'implementació (no de primer nivell).
 
 ## Exemples concrets d'aplicació a l'aula
-Els exemples següents es basen en la integració general de la tecnologia digital, ja que els documents font no aborden directament la IA.
 
-*   **Primària:** Els alumnes utilitzen tauletes per accedir a aplicacions interactives que reforcen conceptes de matemàtiques o llengua. Per exemple, poden resoldre problemes de sumes amb jocs digitals o escoltar contes en diferents idiomes amb suport visual. Això els permet aprendre al seu propi ritme i de manera més atractiva, aprofitant la capacitat dels dispositius per oferir "instrucció directa i individualitzada".
-*   **Secundària:** En un projecte de ciències socials, els estudiants utilitzen internet per investigar sobre un esdeveniment històric, accedint a notícies, documents i vídeos d'arxiu. Després, creen una presentació multimèdia o un curt documental amb eines digitals per "manipular o mostrar informació", facilitant una recerca més àmplia i una expressió creativa del seu aprenentatge.
-*   **Batxillerat/FP:** Els estudiants de FP accedeixen a plataformes en línia amb simulacions de processos industrials o tutorials en vídeo per aprendre tècniques específiques d'un ofici. Aquesta pràctica s'integra en un model d'aula invertida, on l'aprenentatge teòric es fa a casa amb recursos digitals, i el temps a l'aula es dedica a la pràctica supervisada i la resolució de dubtes, permetent "aprendre a un ritme acomodat al seu desenvolupament".
+1.  **Mentor Socràtic a N2 (Filosofia, 4t ESO)**: L'alumne escriu la seva posició sobre cotxes autònoms (200 paraules). Envia el text a la IA: "Ets un filòsof socràtic. Llegeix la meva argumentació i fes-me 3 preguntes profundes que m'obliguin a pensar millor." La IA NO dóna respostes, només pregunta. L'alumne ha de respondre per escrit, millorant el seu raonament. Moviment: Resistència (ha de defensar la posició). Mode ICAP: Interactive.
+
+2.  **Generador de Casos a N3 (Matemàtiques, 1r ESO)**: L'alumne demana: "Crea'm 10 equacions de primer grau de dificultat mitjana, sense solucions." Les resol manualment. Després demana les solucions per verificar. Pot demanar més exercicis si necessita més pràctica. Moviment: Recursivitat. La fricció no resideix en la interacció amb la IA sinó en la resolució autònoma.
+
+3.  **Teachable Agent a N2 (Ciències, 2n ESO)**: La IA actua com "Alex, un alumne de 1r ESO que no entén la fotosíntesi". L'alumne ha d'explicar-li el procés. La IA fa preguntes ingènues amb malentesos típics. L'alumne corregeix i reformula. Moviment: Resistència + Descoberta (l'alumne veu els seus propis buits quan intenta ensenyar).
 
 ## Errors comuns — què NO fer
-Els errors següents es deriven de la interpretació dels documents sobre la integració general de la tecnologia, no específicament de la IA.
 
-1.  **Introduir tecnologia sense un propòsit pedagògic clar:** Seria un error utilitzar dispositius digitals o internet a l'aula simplement per estar al dia o per la seva novetat, sense haver definit prèviament quins objectius d'aprenentatge es volen aconseguir i com la tecnologia ajudarà a assolir-los. Els documents emfatitzen que la tecnologia és una "ajuda, guia", no un fi en si mateix.
-2.  **Ignorar la necessitat d'una revisió i adaptació contínua:** El món digital és "vertiginós", i les orientacions sobre el seu ús han de ser "avaluades i revisades amb certa regularitat". Un error seria establir un protocol d'ús de la tecnologia i no actualitzar-lo, quedant obsolet ràpidament i perdent la seva eficàcia o rellevància per a les necessitats del moment.
-3.  **Fomentar un ús exclusiu o desequilibrat de la tecnologia:** Els documents subratllen la importància de la "convivència" entre el món digital i l'analògic, considerant-los "complementaris i compatibles". Un error seria oblidar el valor de les eines i metodologies analògiques, o caure en una dependència excessiva de les pantalles, sense buscar un equilibri que enriqueixi l'experiència educativa de l'alumne.
+1.  **Dir "usa ChatGPT" en lloc de "usa la IA com a [Rol]".** El rol defineix el comportament esperat de la IA. Sense rol, l'alumne interactua amb una IA genèrica i la interacció tendeix cap a la delegació. El prompt ha de codificar el comportament del rol ("Ets un crític exigent que assenyala errors sense reescriure").
+
+2.  **Usar rols procesuals a N4.** Mentor Socràtic, Teachable Agent i Contrincant col·lapsen a N4. Si l'alumne demana "genera un diàleg socràtic complet", la IA produeix un text que l'alumne llegeix passivament. El rol ha perdut la seva essència: l'alumne ja no pensa, consumeix. Excepció: si l'objectiu és aprendre enginyeria de prompts, no el contingut.
+
+3.  **Assignar un rol sense verificar la matriu d'afinitats Quest × Rol.** No tots els rols serveixen totes les Quests. Un Traductor/Adaptador per a una Quest Critique és forçat. Un Contrincant per a una Quest Right-Sizing no té sentit. La matriu dispersa d'afinitats filtra les combinacions incoherents.
+
+4.  **Confondre la família del rol i triar el nivell equivocat.** Un Generador de Casos (productiu) a N2 queda limitat perquè la seva naturalesa és produir, no dialogar. Un Mentor Socràtic (procesual) a N4 col·lapsa. Verificar la família abans d'assignar el nivell.
+
+5.  **No seqüenciar rols dins d'una tasca complexa.** Una tasca de 3 sessions pot usar Generador de Casos (material) → Mentor Socràtic (anàlisi) → Crític (refinament). Cada fase demana un rol diferent. Usar un sol rol per a tota la tasca limita la varietat de fricció.
 
 ## Matissos i excepcions
-Els documents es presenten com una "ajuda, guia, y no un documento normativo", la qual cosa implica que la seva aplicació ha de ser flexible i adaptada a les "circunstancias y contexto" de cada centre. Això significa que no hi ha una única fórmula per a la integració tecnològica, i les directrius generals poden requerir ajustos significatius segons:
 
-*   **Etapa educativa:** Les necessitats i capacitats dels alumnes d'infantil no són les mateixes que les de batxillerat, i l'ús de la tecnologia ha de modular-se en conseqüència.
-*   **Recursos disponibles:** La infraestructura tecnològica del centre, la formació del professorat i l'accés dels alumnes a dispositius fora de l'aula són factors determinants.
-*   **Cultura del centre i projecte educatiu:** Cada escola té la seva pròpia identitat i prioritats, que influiran en com s'integra la tecnologia.
-*   **La naturalesa canviant de la tecnologia:** La rapidesa dels canvis digitals fa que qualsevol orientació sigui temporal. L'excepció és la necessitat d'una adaptació contínua, més que l'aplicació cega d'un model.
-*   **Situacions on l'analògic és superior:** La "convivència" implica que hi ha moments i contextos on les eines i metodologies analògiques són pedagògicament més efectives o adequades, i no tot requereix una solució digital.
+*   **El Simulador és un cas especial.** Pot funcionar a N4 (la IA genera una entrevista completa amb un personatge històric), però aleshores l'activitat canvia de naturalesa: l'alumne ja no practica la interacció sinó que avalua un producte. Això pot ser pedagògicament vàlid si l'objectiu és l'anàlisi crítica del text generat, no la pràctica de la interacció.
+
+*   **El Crític/Editor a N4 té un ús legítim.** Quan l'alumne envia un text i la IA el reescriu millorat, l'alumne pot comparar les dues versions i aprendre de les diferències. La fricció es trasllada a la comparació (Descoberta). Però si l'alumne simplement entrega la versió de la IA, no hi ha aprenentatge.
+
+*   **Rols productius a N2.** Un Generador de Casos que només genera 2-3 exercicis senzills a petició de l'alumne funciona a N2, però no aprofita el potencial del rol. La naturalesa productiva del rol brilla a N3-N4, on la IA genera material divers i l'alumne hi treballa.
+
+*   **Combinar rols no és barrejar-los.** Seqüenciar rols (primer Generador, després Mentor) és bo. Però demanar a la IA que sigui "Mentor Socràtic i Generador de Casos alhora" confon el comportament de la IA i dilueix la fricció.
 
 # 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-- **M5_Integracio_Tecnologica_Aula**: Aquest document estableix el marc general per a la integració de dispositius digitals a l'aula, un prerequisit per entendre com la IA podria encaixar en aquest ecosistema.
-- **M5_Competencia_Digital_Docent**: La capacitat dels docents per integrar la tecnologia, tal com es descriu en aquest document, és fonamental per a qualsevol discussió sobre els rols de la IA a l'educació.
-- **M5_Aules_Invertides**: Els documents font esmenten les aules invertides com una alternativa que desafia el model tradicional, una metodologia que sovint s'aprofita de les eines digitals i, potencialment, de la IA.
+
+*   **M5_arquitectura-quest-rol-nivell**: Els rols són la capa d'implementació dins l'arquitectura Q>R>N. La matriu Quest × Rol determina les combinacions vàlides.
+*   **M5_quests-missions-aprenentatge**: Cada Quest admet un subconjunt de rols (matriu d'afinitats). El docent tria primer la Quest i després el Rol compatible.
+*   **M5_nivells-delegacio-mihia**: Les 3 famílies tenen rangs nadius diferenciats. El col·lapse a N4 dels procesuals és un dels principis operatius més importants.
+*   **M2_carrega-friccio-cognitiva**: Les 3 famílies deriven de l'anàlisi de quina càrrega externalitzen i quina fricció generen.
+*   **M5_disseny-instruccional-amb-IA**: La tria del Rol és el pas 2 de la seqüència de disseny del docent.
+*   **M5_prompt-engineering-educatiu**: El prompt ha de codificar el comportament del rol. Cada rol requereix un tipus de prompt diferent.
 
 # 3. DETECCIÓ (Variables de Context)
-- **Senyals del docent:**
-    - "Com puc aprofitar les noves tecnologies per personalitzar l'aprenentatge dels meus alumnes?"
-    - "Quins avantatges té l'ús d'eines digitals per a la recerca i la creació de continguts a l'aula?"
-    - "Estic buscant maneres de fer les meves classes més dinàmiques i connectades amb la realitat digital dels alumnes."
-    - "Vull entendre millor com la tecnologia pot ajudar els alumnes a aprendre al seu propi ritme."
-    - "Com puc assegurar que la tecnologia que utilitzo complementa, i no substitueix, les metodologies tradicionals?"
-- **Senyals de l'alumne:**
-    - L'alumne mostra interès per utilitzar dispositius digitals per a tasques d'aprenentatge.
-    - L'alumne pregunta si pot utilitzar internet per trobar informació addicional per a un projecte.
-    - L'alumne expressa frustració amb mètodes d'aprenentatge que no s'adapten al seu ritme.
-- **Senyals de context:**
-    - El centre educatiu està revisant o elaborant el seu pla digital.
-    - S'estan implementant noves eines o dispositius digitals a l'aula.
-    - Es planteja un projecte que requereix recerca intensiva o creació de contingut multimèdia.
-- **Anti-senyals:**
-    - La pregunta del docent o alumne se centra exclusivament en la gestió de pantalles o la prevenció de riscos digitals sense cap intenció pedagògica.
-    - El context demana una solució que no implica cap tipus de tecnologia digital.
-    - La consulta és sobre un aspecte purament administratiu o tècnic de la infraestructura digital del centre.
+
+**Senyals del docent**
+*   "Vull que la IA faci preguntes, no que doni respostes."
+*   "Quin tipus d'interacció hauria de tenir l'alumne amb la IA?"
+*   "Puc combinar diferents rols de la IA en una mateixa activitat?"
+*   "Per què quan demano als alumnes que facin un diàleg socràtic amb la IA, acaben copiant el diàleg sencer?"
+*   "Necessito que la IA simuli un personatge per a un role-play."
+
+**Senyals de l'alumne**
+*   L'alumne interactua amb la IA de manera genèrica, sense un rol definit ("explica'm X", "fes-me Y").
+*   L'alumne usa un rol procesual demanant productes complets ("genera un debat", "escriu un diàleg socràtic").
+*   L'alumne aprofita la interacció amb un rol i mostra Resistència, Recursivitat o Descoberta.
+
+**Senyals de context**
+*   Es dissenya una nova activitat amb IA i cal decidir el tipus d'interacció.
+*   Es configura un assistent institucional i cal definir el seu comportament per defecte.
+*   Es revisen activitats existents per detectar per què "no funcionen" amb IA.
+
+**Anti-senyals**
+*   El docent pregunta sobre aspectes tècnics de la IA (tokens, models, configuració) sense connexió amb rols pedagògics.
+*   L'alumne usa la IA per a tasques purament mecàniques (format, ortografia) on el concepte de "rol" no aplica.
 
 # 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
-- **Principi general:** La tecnologia digital és una eina complementària que pot potenciar l'aprenentatge quan s'integra amb una intenció pedagògica clara i adaptada al context.
 
-- **Heurístiques per a l'Agent DOCENT:**
-    - **Heurística: Potenciar la recerca i l'accés a la informació.**
-        - **Quan aplica:** Quan el docent vol que els alumnes explorin temes en profunditat, accedeixin a una àmplia gamma de recursos o realitzin projectes de recerca.
-        - **Fonament:** Els documents destaquen que els dispositius digitals i internet faciliten l'accés a "recursos amplis per facilitar la investigació amb major facilitat que per mitjà de llibres i fonts escrites". Això permet als alumnes "pensar activament en la informació" i "prendre decisions".
-        - **Exemple complet de raonament:** Un docent de secundària vol que els seus alumnes investiguin sobre la història local. En lloc de limitar-se als llibres de text, l'agent podria suggerir l'ús de bases de dades en línia, arxius digitals de premsa o portals de patrimoni cultural. El raonament és que, segons els documents, la tecnologia amplia l'abast de la recerca i permet als alumnes interactuar amb la informació de manera més dinàmica. Això no només enriqueix el contingut, sinó que també desenvolupa la competència digital i el pensament crític en la selecció de fonts, un aspecte clau en l'era digital. L'agent recordaria al docent que, tot i la facilitat d'accés, cal guiar els alumnes en la validació de les fonts.
+**Principi general:** L'agent ha de guiar el docent perquè triï el rol de la IA que millor serveixi la intenció pedagògica (Quest) i sigui coherent amb el nivell de delegació (MIHIA), verificant que la combinació genera fricció productiva.
 
-    - **Heurística: Fomentar l'aprenentatge individualitzat i al propi ritme.**
-        - **Quan aplica:** Quan el docent té un grup amb ritmes d'aprenentatge diversos o vol oferir trajectòries personalitzades.
-        - **Fonament:** Els documents assenyalen que els estudiants "més fàcilment són capaços d'aconseguir instrucció directa i individualitzada i d'aprendre a un ritme acomodat al seu desenvolupament".
-        - **Exemple complet de raonament:** Una docent de primària té alumnes amb diferents nivells de comprensió lectora. L'agent podria suggerir l'ús de plataformes educatives que ofereixen materials de lectura amb diferents nivells de dificultat o exercicis interactius que s'adapten al rendiment de cada alumne. El raonament és que la tecnologia permet una adaptació del contingut i del ritme d'aprenentatge que seria molt difícil d'aconseguir amb mètodes purament analògics. Això permet que cada alumne avanci segons les seves capacitats, mantenint la motivació i assegurant una comprensió més profunda, tal com s'indica en els documents sobre la individualització de l'aprenentatge.
+### Heurístiques per a l'Agent DOCENT
 
-    - **Heurística: Integrar la tecnologia com a eina de creació i expressió.**
-        - **Quan aplica:** Quan el docent vol que els alumnes produeixin continguts multimèdia, presentacions o projectes digitals.
-        - **Fonament:** Els documents esmenten que amb els dispositius digitals "creamos y publicamos contenido multimedia en segundos" i els alumnes "pueden manipular o mostrar información".
-        - **Exemple complet de raonament:** Un docent de batxillerat vol que els seus alumnes presentin un treball sobre un tema d'actualitat. En lloc d'un assaig escrit, l'agent podria suggerir la creació d'un podcast, un vídeo curt o una infografia interactiva utilitzant eines digitals. El raonament és que la tecnologia no només facilita el consum d'informació, sinó també la seva producció i publicació, permetent als alumnes desenvolupar habilitats de comunicació digital i creativitat. Aquesta aproximació s'alinea amb la idea que els dispositius són "eines necessàries en gairebé qualsevol treball" i que els alumnes poden "mostrar informació" de maneres innovadores.
+1.  **Heurística: Triar el rol des de l'objectiu, no des de l'eina.**
+    *   **Quan aplica:** Quan el docent diu "vull usar ChatGPT" o "vull que la IA faci X" sense haver definit l'objectiu pedagògic.
+    *   **Fonament:** L'arquitectura Quest-Rol-Nivell estableix que la pregunta correcta és "què vull que passi cognitivament?" (Quest), no "quina eina vull usar?" (Rol). Començar pel Rol indueix a *solution looking for a problem* (ADR Xat 4). El Rol ha de ser conseqüència de la Quest, no l'inrevés.
+    *   **Exemple complet de raonament:** Un docent diu "vull usar la IA com a tutor". L'agent preguntaria: "Quin és l'objectiu d'aprenentatge?" Si és "que l'alumne aprofundeixi en la seva comprensió d'un tema", la Quest és Clarity i el Rol compatible és Mentor Socràtic. Si és "que practiqui habilitats en un context realista", la Quest és Mission i el Rol és Simulador. El mateix desig vague ("tutor") porta a rols molt diferents segons la intenció pedagògica. L'agent ha de resoldre la Quest primer.
 
-    - **Heurística: Fomentar la "convivència" digital-analògica.**
-        - **Quan aplica:** Quan el docent està dissenyant activitats i vol assegurar un equilibri entre l'ús de la tecnologia i els mètodes tradicionals.
-        - **Fonament:** Els documents emfatitzen que el món digital i analògic són "complementarios y compatibles" i que els centres han d'adoptar mesures per a la seva "convivencia".
-        - **Exemple complet de raonament:** Un docent de secundària està planificant una unitat didàctica. L'agent podria suggerir que, si bé la recerca inicial es faci en línia, la discussió i el debat es realitzin en format presencial, i la presentació final pugui combinar elements digitals (com una presentació interactiva) amb elements analògics (com un mural o un prototip físic). El raonament és que no es tracta de substituir un mètode per un altre, sinó d'integrar el millor de cada món. Això evita la dependència excessiva de les pantalles i fomenta habilitats com la interacció social i la manipulació física, que són igualment importants per al desenvolupament integral de l'alumne.
+2.  **Heurística: Verificar la família del rol abans d'assignar el nivell.**
+    *   **Quan aplica:** Quan es tria un rol i un nivell de delegació per a una activitat.
+    *   **Fonament:** Les tres famílies (procesuals, mixtos, productius) tenen rangs nadius diferenciats. Els rols procesuals col·lapsen a N4: la IA genera el producte complet i l'alumne ja no exerceix el procés cognitiu que el rol havia d'induir. Això és una conseqüència directa del marc de fricció (Novokshanova): el Col·lapse (surt del bucle massa aviat) esdevé inevitable quan la IA fa tot el bucle de cop.
+    *   **Exemple complet de raonament:** Un docent vol que els alumnes facin un debat amb un Contrincant (rol procesual) i proposa N4: "La IA generarà un debat complet amb arguments i contraarguments." L'agent alertaria que el Contrincant és procesual i col·lapsa a N4: l'essència del rol és que l'alumne argumenti, no que llegeixi arguments. Suggerira N2-N3: l'alumne escriu la seva posició, la IA la contradiu, l'alumne respon, la IA ataca des d'un angle nou. Ara l'alumne pensa activament (Resistència) durant 5-6 rondes (Recursivitat).
 
-    - **Heurística: Mantenir una actitud d'adaptació i revisió constant.**
-        - **Quan aplica:** Quan el docent busca orientació a llarg termini sobre l'ús de la tecnologia o s'enfronta a noves eines o tendències.
-        - **Fonament:** Els documents adverteixen sobre els "cambios vertiginosos" del món digital i la necessitat de "evaluar y revisar con cierta regularidad" les orientacions.
-        - **Exemple complet de raonament:** Un docent pregunta quina és la "millor" eina digital per a una tasca. L'agent podria respondre que no hi ha una "millor" eina universal, sinó la més adequada per a un context i moment determinats. El raonament és que, donada la ràpida evolució tecnològica, una eina avui puntera pot ser obsoleta demà. Per tant, és més important desenvolupar la capacitat d'avaluar críticament les noves tecnologies i adaptar les pràctiques pedagògiques, en lloc d'adherir-se rígidament a una solució concreta. L'agent podria suggerir que el docent es mantingui informat i participi en formacions contínues.
+3.  **Heurística: Seqüenciar rols dins de tasques complexes.**
+    *   **Quan aplica:** Quan l'activitat dura més d'una sessió o té múltiples fases.
+    *   **Fonament:** Cada fase d'una tasca pot requerir un tipus de fricció diferent. Un Generador de Casos proporciona matèria primera (Descoberta), un Mentor Socràtic guia l'anàlisi (Recursivitat), un Crític refina el producte (Resistència). Usar un sol rol per a tota la tasca limita la varietat de fricció i empobreix l'activitat.
+    *   **Exemple complet de raonament:** Un docent d'economia dissenya una tasca de 3 sessions sobre estratègia empresarial. L'agent suggerira: Sessió 1 — Generador de Casos (N3): la IA genera un cas empresarial fictici amb dades, l'alumne l'analitza amb DAFO. Sessió 2 — Mentor Socràtic (N2): la IA fa preguntes sobre la seva anàlisi ("per què consideres que la internacionalització és una amenaça?"). Sessió 3 — Crític (N2): l'alumne escriu la seva proposta estratègica, la IA assenyala febleses sense reescriure. Tres rols, tres tipus de fricció, tres sessions.
 
-- **Heurístiques per a l'Agent ALUMNE:**
-    - **Heurística: Utilitzar la tecnologia per accedir a informació i recursos addicionals.**
-        - **Quan aplica:** Quan l'alumne necessita aprofundir en un tema, trobar exemples o aclarir dubtes.
-        - **Fonament:** Els documents indiquen que els estudiants "tenen accés a la informació sense sortir de la seva aula" i "poden accedir a recursos amplis per facilitar la investigació".
-        - **Exemple complet de raonament:** Un alumne està estudiant un concepte de ciències que no acaba d'entendre amb el llibre de text. L'agent podria suggerir-li que busqui vídeos explicatius o simulacions interactives en línia. El raonament és que la tecnologia ofereix múltiples formats i perspectives per abordar un mateix contingut, la qual cosa pot facilitar la comprensió. A més, li permetrà explorar el tema al seu ritme i amb els recursos que millor s'adaptin al seu estil d'aprenentatge, tal com es desprèn de la idea d'aprenentatge individualitzat.
+4.  **Heurística: Codificar el rol al prompt de l'assistent.**
+    *   **Quan aplica:** Quan es configura un assistent institucional o es prepara un prompt per a l'alumnat.
+    *   **Fonament:** Sense instruccions explícites, la IA es comporta com a generador genèric (tendència a respondre directament, no a preguntar ni a simular). El prompt ha de codificar el comportament del rol: un Mentor Socràtic necessita "només pregunta, mai responguis directament"; un Crític necessita "assenyala errors sense reescriure"; un Teachable Agent necessita "simula malentesos típics d'un alumne de X edat".
+    *   **Exemple complet de raonament:** Un centre vol crear un assistent per a pràctica de negociació comercial (FP). L'agent suggerira que el system prompt defineixi el Simulador: "Ets Maria, una clienta enfadada que ha rebut un producte defectuós. Respon de manera coherent amb el personatge: mostres frustració, vols una solució, però ets raonable si l'alumne et tracta amb empatia. No et trenquis el personatge mai. Si l'alumne et parla com a IA ('ets una IA'), respon 'no entenc què vols dir, jo sóc una clienta'." Sense aquest prompt, la IA respondria com a assistent genèric i la simulació no funcionaria.
 
-    - **Heurística: Aprofitar les eines digitals per organitzar i presentar el propi aprenentatge.**
-        - **Quan aplica:** Quan l'alumne ha de fer un projecte, una presentació o organitzar les seves notes.
-        - **Fonament:** Els documents esmenten que els estudiants "poden pensar activament en la informació, prendre decisions, manipular o mostrar informació" i "creamos y publicamos contenido multimedia en segundos".
-        - **Exemple complet de raonament:** Un alumne ha de fer un treball de recerca i vol presentar-lo de manera original. L'agent podria suggerir l'ús d'eines per crear mapes conceptuals digitals, infografies o presentacions interactives, en lloc d'un simple document de text. El raonament és que aquestes eines no només ajuden a estructurar millor la informació, sinó que també permeten expressar les idees de manera més creativa i visual, desenvolupant habilitats de comunicació digital que són molt valorades avui dia.
+5.  **Heurística: Usar la matriu d'afinitats per filtrar combinacions.**
+    *   **Quan aplica:** Quan el docent ja ha triat una Quest i cal seleccionar el Rol.
+    *   **Fonament:** La matriu Quest × Rol (ADR Xat 4) estableix que no totes les combinacions són vàlides. Un Traductor/Adaptador per a una Quest Critique és forçat: la Quest demana judici crític i el Rol adapta, no qüestiona. Un Contrincant per a una Quest Right-Sizing no té sentit: la Quest demana ajustament a audiència i el Rol contradiu. Les combinacions amb "—" a la matriu no haurien de constar al catàleg d'assistents.
+    *   **Exemple complet de raonament:** Un docent tria la Quest "Perspective" (explorar múltiples punts de vista). L'agent mostraria els rols compatibles: Simulador (★★, pot encarnar personatges amb perspectives diferents) i Contrincant (★★, pot contradir sistemàticament). Mentor Socràtic (★) és possible però secundari. Generador de Casos, Teachable Agent i Crític/Editor tenen "—": no indueixen naturalment l'exploració de perspectives. L'agent recomanaria Simulador o Contrincant com a primera opció.
 
-    - **Heurística: Gestionar el propi ritme d'aprenentatge amb suport digital.**
-        - **Quan aplica:** Quan l'alumne sent que necessita més temps per entendre un concepte o vol avançar més ràpid en un altre.
-        - **Fonament:** Els documents destaquen que els estudiants "són capaços d'aconseguir instrucció directa i individualitzada i d'aprendre a un ritme acomodat al seu desenvolupament".
-        - **Exemple complet de raonament:** Un alumne té dificultats amb les matemàtiques i se sent endarrerit respecte als seus companys. L'agent podria suggerir-li que utilitzi plataformes d'exercicis interactius o tutorials en línia que li permetin repassar els conceptes bàsics tantes vegades com necessiti, sense la pressió del ritme de la classe. El raonament és que la tecnologia ofereix la flexibilitat per adaptar-se a les necessitats individuals de cada alumne, permetent-li consolidar coneixements o avançar en temes que domina, fomentant així l'autonomia en l'aprenentatge.
+### Heurístiques per a l'Agent ALUMNE
+
+1.  **Heurística: Definir el rol abans de començar a parlar amb la IA.**
+    *   **Quan aplica:** Quan l'alumne obre un xat amb la IA sense una intenció clara.
+    *   **Fonament:** Sense rol definit, la interacció tendeix cap a la delegació: l'alumne demana respostes i la IA les dóna. Definir el rol al principi ("avui la IA és el meu crític, no el meu redactor") estableix un contracte d'interacció que preserva la fricció productiva i ajuda l'alumne a exercir D1 (decidir què delega) i D2 (descriure el rol).
+    *   **Exemple complet de raonament:** Un alumne ha d'escriure un assaig sobre Kafka. Abans d'obrir la IA, l'agent li suggerira pensar: "Necessito que la IA m'escrigui l'assaig o que m'ajudi a millorar el meu?" Si és el segon, el rol és Crític. L'alumne escriu primer, després envia a la IA: "Ets un crític literari. Llegeix el meu assaig i digues-me 3 punts febles sense reescriure res." Ara la interacció preserva la propietat cognitiva de l'alumne sobre el contingut de l'assaig.
+
+2.  **Heurística: Reconèixer quan el rol de la IA ha col·lapsat.**
+    *   **Quan aplica:** Quan l'alumne nota que la IA "li ha fet la feina" en lloc d'ajudar-lo a pensar.
+    *   **Fonament:** El col·lapse és una de les tres fallades de la fricció productiva (Novokshanova): l'alumne surt del bucle massa aviat i accepta el producte generat. Si l'alumne se n'adona, pot tornar a entrar al bucle: "Espera, no vull que m'escriguis el text. Vull que em facis preguntes sobre el que he escrit jo."
+    *   **Exemple complet de raonament:** Un alumne ha demanat a la IA que generi un diàleg socràtic complet sobre ètica. Rep 8 preguntes amb respostes model. L'agent l'ajudaria a veure que ha passat de "pensar amb la IA" a "llegir el que la IA ha pensat". Suggerira: "Esborrem tot això. Escriu tu una idea sobre el tema. Ara digues a la IA: 'fes-me preguntes sobre el que he escrit, no em donis respostes.'" L'alumne recupera l'agència i el diàleg torna a ser Interactiu.
+
+3.  **Heurística: Adaptar el rol a la seva necessitat, no usar el rol per defecte.**
+    *   **Quan aplica:** Quan l'alumne té llibertat per triar com interactuar amb la IA.
+    *   **Fonament:** El Model 4D situa la Delegació (D1) com la primera competència: decidir quan, per a què i amb quin grau d'autonomia usar la IA. Un alumne que sempre usa la IA com a Generador (N4) per a totes les tasques no exerceix D1. Triar conscientment entre "avui necessito un Crític" i "avui necessito un Simulador" és un acte de metacognició.
+    *   **Exemple complet de raonament:** Un alumne de FP ha de preparar una entrevista d'acollida en serveis socials. L'agent li preguntaria: "Què necessites? Si vols practicar l'entrevista, la IA pot ser un Simulador (persona en situació vulnerable que respon les teves preguntes). Si vols revisar el teu protocol, la IA pot ser un Crític (llegeix el teu protocol i assenyala febleses). Si vols veure casos nous, pot ser un Generador de Casos." La tria conscient del rol és ja un exercici d'aprenentatge.
+
 ---
 
 ## 5. FONTS DEL CORPUS
 
 | # | Títol | URL |
 |---|-------|-----|
-| 1 | Uso de las tecnologias en el aula. EDUCSI (1) | file://upload/Uso de las tecnologias en el aula. EDUCSI (1).pdf |
-| 2 | Documento pantallas ok | file://upload/Documento pantallas ok.pdf |
+| 1 | Mollick, E. (2023). Assigning AI: Seven Ways of Using AI in Class | https://www.oneusefulthing.org/p/assigning-ai-seven-approaches-for |
+| 2 | Novokshanova, E. (2025). Productive Friction in Human-AI Feedback | file://upload/Novokshanova_2025_ProductiveFriction.pdf |
+| 3 | ADR Arquitectura Quest-Rol-Nivell (JE, 2026) | file://docs/decisions/arquitectura-quest-rol-nivell.md |
+| 4 | Exemples d'Aplicació dels 7 Rols (JE, 2026) | file://public/exemples-rols-mihia.md |
+| 5 | docs/marcs-teorics/friccio-cognitiva-extens.md | file://docs/marcs-teorics/friccio-cognitiva-extens.md |
 
-*2 documents font · secció generada automàticament*
+*5 documents font · secció generada manualment*
