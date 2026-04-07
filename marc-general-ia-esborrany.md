@@ -759,6 +759,23 @@ El propòsit d'aprenentatge és el concepte primari del disseny d'activitats amb
 
 El nombre i la denominació definitiva dels propòsits és objecte de revisió periòdica. El principi que es manté estable és que **el propòsit pedagògic precedeix l'elecció de l'eina**.
 
+Cada propòsit mobilitza un moviment de fricció productiva diferent, externalitza un tipus concret de càrrega extrínseca i situa l'alumnat en un mode d'implicació cognitiva (Chi i Wylie, 2014) que el docent pot verificar:
+
+| Família | Propòsit | Fricció dominant | Càrrega externalitzada | Mode ICAP |
+| :---- | :---- | :---- | :---- | :---- |
+| **Comprendre** | Anchor | Descoberta | Organització | Constructive |
+| | Clarity | Recursivitat | Formulació | Interactive |
+| | Reverse | Descoberta | Producte a analitzar | Constructive |
+| **Avaluar** | Compare | Descoberta | Cerca de casos | Constructive |
+| | Critique | Resistència | Cap o mínima | Interactive |
+| | Perspective | Resistència | Encarnació de personatges | Interactive |
+| **Fer** | Level-Up | Recursivitat | Generació d'exercicis | Active → Constructive |
+| | Repte integrador (*Mission*) | Recursivitat | Context, dades | Interactive |
+| | Right-Sizing | Judici (selectiu) | Adaptació tècnica | Constructive |
+| | Growth | Descoberta (interna) | — | Constructive |
+
+La consonància entre famílies i moviments de fricció és emergent, no imposada: els propòsits de la família *Comprendre* tendeixen a la descoberta, els d'*Avaluar* a la resistència i els de *Fer* a la recursivitat. Quan un docent tria un propòsit, implícitament selecciona el tipus de fricció productiva que vol provocar a l'aula.
+
 ##### 2.3.2. Rols de la IA
 
 Els rols — adaptats de Mollick i Mollick (2023) — defineixen **com actua la IA per servir un propòsit concret**. No són un catàleg independent sinó la capa d'implementació dels propòsits d'aprenentatge:
@@ -773,7 +790,22 @@ Els rols — adaptats de Mollick i Mollick (2023) — defineixen **com actua la 
 | **Contrincant** | Defensa la posició contrària | N2-N3 |
 | **Traductor / Adaptador** | Simplifica o canvia de registre | N2-N4 |
 
-Cada propòsit admet un subconjunt de rols compatibles (matriu d'afinitats), i cada combinació propòsit × rol té un rang de nivells on funciona amb sentit pedagògic. La correspondència no és 1:1; és una matriu dispersa que el docent navega amb doble entrada: pot partir del propòsit ("què vull que passi?") o del rol ("conec aquest rol, a quins propòsits serveix?"). La coherència institucional es preserva perquè la jerarquia conceptual és una sola: **propòsit → rol → nivell**.
+Cada propòsit admet un subconjunt de rols compatibles. La correspondència no és 1:1; és una matriu dispersa que el docent navega amb doble entrada: pot partir del propòsit ("què vull que passi?") o del rol ("conec aquest rol, a quins propòsits serveix?"). La coherència institucional es preserva perquè la jerarquia conceptual és una sola: **propòsit → rol → nivell**.
+
+**Matriu d'afinitats propòsit × rol** (★★ = afinitat nadiua · ★ = possible · — = forçat o incoherent):
+
+| Propòsit | Mentor socràtic | Simulador | Crític/Editor | Generador de casos | Alumne invers | Contrincant | Traductor/Adaptador |
+| :---- | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| **Anchor** | ★★ | ★ | — | ★ | ★ | — | ★ |
+| **Clarity** | ★★ | — | ★ | — | ★★ | — | ★ |
+| **Compare** | ★ | ★ | ★★ | ★★ | — | ★ | — |
+| **Critique** | ★ | — | ★★ | ★ | — | ★★ | — |
+| **Growth** | ★★ | — | ★★ | — | ★ | ★ | — |
+| **Level-Up** | ★ | ★ | — | ★★ | — | — | ★★ |
+| **Mission** | ★ | ★★ | ★ | ★★ | — | ★ | ★ |
+| **Perspective** | ★ | ★★ | — | ★ | — | ★★ | ★ |
+| **Reverse** | — | — | ★ | — | ★★ | — | — |
+| **Right-Sizing** | ★ | — | — | ★ | — | — | ★★ |
 
 **Tres famílies de rols.** L'anàlisi dels rols revela comportaments diferenciats segons el nivell de delegació:
 
@@ -812,12 +844,43 @@ No és un objectiu per a totes les etapes ni per a tots els alumnes. És l'horit
 
 ### **3\. ÀMBIT GESTIÓ: PROCESSOS I SISTEMES INTEL·LIGENTS** {#3.-àmbit-gestió:-processos-i-sistemes-intel·ligents}
 
-*En desenvolupament*
+La IA en la gestió institucional persegueix un objectiu diferent del de l'aprenentatge: aquí l'objectiu primari és el **rendiment** —un procés àgil, un informe precís, una comunicació clara—, no la construcció d'esquemes mentals. Per tant, l'externalització de càrrega cognitiva a la IA és legítima en la mesura que allibera temps i atenció per a allò que realment importa: l'acompanyament de les persones, la presa de decisions amb criteri i la cura de la comunitat educativa. Tanmateix, el risc no és menor que en l'àmbit pedagògic; simplement té un altre nom: l'**erosió del judici professional**. Un equip que delega sistemàticament l'anàlisi, la priorització o la redacció sense exercir-ne el criteri pot trobar-se despullat precisament quan la situació reclama discerniment humà. La fricció aquí no aporta valor a la tasca —convé reduir-la—, però la supervisió activa del resultat és irrenunciable.
 
-La incidència de la IA en la gestió institucional de centre s'organitza sota dos pilars d'eficàcia executiva:
+#### **Principis transversals de la gestió institucional** {#principis-transversals-de-la-gestió-institucional}
 
-- **1\. Assistents Formals: Interfícies RAG corporatives (reactives)** dissenyades per a donar cobertura procedimental sobre el marc de direcció, plantilles i bústia normativa a demanda.  
-- **2\. Agents Autònoms Organitzatius: Integracions proactives** amb potestat tècnica per a orquestrar automatitzacions directes sobre tràmits administratius o de recursos humans en l'ERP institucional, sense requerir l'impuls actiu del personal.
+- **Eficiència amb sentit:** Automatitzar per alliberar temps per a les relacions humanes, no per treure les persones del circuit. Tota automatització ha de servir al projecte educatiu i al benestar de la comunitat, mai a la reducció de plantilla o a la deshumanització dels processos. Declareu quan heu usat la IA per elaborar comunicats, informes o documents: la transparència és un valor professional.
+- **Supervisió activa:** La IA genera informació versemblant, no necessàriament correcta. El professional revisa, contrasta i valida tot allò que l'eina produeix abans de difondre-ho, arxivar-ho o basar-hi cap decisió. La responsabilitat final és sempre de la persona, no de l'eina.
+- **Tracte personal quan cal:** No tot s'ha d'automatitzar. Hi ha situacions —l'acollida de famílies noves, la gestió d'un conflicte, l'atenció a una família en situació vulnerable, una comunicació de resultat acadèmic delicat— on la presència humana directa és l'única resposta adequada. La cura humana és irreemplaçable; l'eficiència tecnològica mai no l'ha de substituir.
+- **Compliment normatiu i protecció de dades:** Cap dada sensible del centre, de famílies ni d'alumnes ha d'entrar en eines que no compleixin la normativa vigent. El marc regulador aplicable —Reglament General de Protecció de Dades (RGPD), Llei Orgànica de Protecció de Dades i Garantia dels Drets Digitals (LOPDGDD) i Reglament europeu d'Intel·ligència Artificial (UE 2024/1689)— no és un obstacle burocràtic sinó una garantia de drets fonamentals. Abans de desplegar qualsevol eina d'IA en processos de gestió, cal una avaluació d'impacte sobre la protecció de dades i la verificació que el proveïdor compleix les obligacions de transparència, seguretat i auditabilitat que exigeix la normativa. El model PIO d'autoavaluació (OEIAC, 2025) ofereix un marc pràctic per a aquesta verificació.
+
+#### **Àmbits d'actuació en gestió** {#àmbits-d'actuació-en-gestió}
+
+1. **Administració i processos:** Classificació d'incidències, gestió de matrícules, generació de documentació rutinària, preparació de formularis i plantilles. La IA permet absorbir un volum de tasques repetitives que, fetes manualment, consumeixen un temps que no aporta valor relacional. Per exemple, un sistema de gestió automatitzada d'incidències i peticions —avaries TIC, sol·licituds de material, peticions de famílies— pot classificar, prioritzar i enrutar cada cas al responsable adequat sense intervenció manual, alliberant el personal per atendre les situacions que requereixen criteri. Tanmateix, tot document generat ha de ser revisat pel professional responsable abans de la seva difusió o arxiu, perquè un error administratiu pot tenir conseqüències reals sobre persones concretes.
+
+2. **Comunicació institucional:** Traduccions, resums de normativa, butlletins, correus i atenció multilingüe. La IA facilita la producció de textos en els diversos idiomes de la comunitat educativa i pot agilitzar la comunicació en contextos d'alta diversitat lingüística. El professional, però, ha de verificar que el to, el matís i el caràcter propi del centre es preservin en cada comunicació: una traducció automàtica que perd el sentit d'una frase sensible pot generar malentesos greus.
+
+3. **Planificació i coordinació:** Elaboració d'horaris, distribució de recursos, logística d'esdeveniments, síntesi d'actes de reunions. L'automatització d'aquestes tasques pot estalviar desenes d'hores cada curs. L'equip, tanmateix, ha de mantenir el judici sobre les prioritzacions: un algorisme pot optimitzar una distribució d'espais, però no pot ponderar el benestar d'un equip docent ni les necessitats d'un projecte educatiu concret.
+
+4. **Anàlisi i seguiment:** Indicadors de centre, informes agregats, detecció de patrons en dades d'assistència, rendiment o satisfacció. La IA pot processar volums de dades que manualment serien inabordables i visualitzar tendències útils per a la presa de decisions. Per exemple, l'explotació de dades per a la gestió —creuament d'indicadors d'assistència, rendiment acadèmic, satisfacció de famílies i ús d'espais— pot revelar patrons que informen decisions estratègiques de direcció: redistribució de recursos, priorització d'intervencions o anticipació de problemes emergents. El risc és confondre un patró estadístic amb una explicació causal: la interpretació de les dades i la decisió que se'n deriva corresponen al professional, que coneix el context que les xifres no capturen.
+
+5. **Atenció a famílies i comunitat:** La IA pot donar suport logístic —preparar respostes a preguntes freqüents, generar esborranys de comunicació, organitzar cites—, però mai no substitueix el contacte directe amb les persones. En situacions que impliquen vulnerabilitat, conflicte o acompanyament emocional, l'atenció la dona una persona. La tecnologia hi arriba fins a la porta; qui hi entra és el professional.
+
+6. **Qualitat del servei i desenvolupament professional:** Detecció de necessitats formatives, assignació òptima de professionals a projectes o etapes, seguiment d'indicadors de qualitat del servei educatiu. La IA pot creuar dades que manualment serien inabordables —perfils, disponibilitat, resultats de satisfacció— per proposar distribucions o identificar àrees de millora. Tanmateix, tota decisió sobre persones —avaluació del rendiment, reassignació, feedback professional— exigeix el judici d'un responsable que coneix el context humà que les dades no capturen. L'eficiència del sistema no pot desacoblar-se de la cura de les persones que el fan funcionar.
+
+#### **Nivells de delegació en gestió** {#nivells-de-delegació-en-gestió}
+
+Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la gestió, amb una diferència fonamental: l'externalització de càrrega cognitiva és legítima quan l'objectiu és rendiment, però la supervisió del resultat continua sent obligatòria en tots els nivells.
+
+| Grau | Exemple en gestió |
+| :---- | :---- |
+| **N0 — No delegació** | Entrevista presencial amb una família en situació de conflicte. Cap intervenció de la IA. |
+| **N1 — Exploració** | Consulta de normativa vigent o cerca de criteris per informar una decisió administrativa. |
+| **N2 — Suport/Revisió** | El professional redacta un comunicat a famílies i utilitza la IA per revisar-ne el to i detectar-hi ambigüitats. |
+| **N3 — Cocreació** | Creuament de perfils i necessitats formatives per proposar un pla de formació contínua, validat per l'equip directiu. |
+| **N4 — Delegació supervisada** | Generació automàtica d'un informe mensual d'indicadors a partir de dades estructurades, validat pel responsable abans de la seva difusió. |
+| **N5 — Agència autònoma** | Classificació automàtica i enrutament d'incidències tècniques al sistema de gestió, dins de paràmetres predefinits i amb auditoria periòdica. |
+
+**Línia vermella.** Tota decisió que afecti directament persones —mesures disciplinàries, avaluació de personal, atenció a famílies vulnerables, comunicació de situacions sensibles— requereix judici humà final. La IA pot preparar informació, sintetitzar antecedents o proposar opcions, però la decisió, la comunicació i la responsabilitat són sempre d'una persona. Aquesta línia no és una limitació tècnica: és un principi institucional coherent amb l'humanisme que fonamenta tot el marc.
 
 ---
 
@@ -874,6 +937,10 @@ UNESCO. (2025). *Marco de competencias para estudiantes en materia de IA* \[*AI 
 **Yan, L., Sha, L., Zhao, L., Li, Y., Martinez-Maldonado, R., Chen, G., ... & Gaševic, D. (2025).** Practical and ethical challenges of large language models in education: A systematic scoping review. *British Journal of Educational Technology, 55*(2), 765–784.
 
 **Zimmerman, B. J. (2002).** Becoming a self-regulated learner: An overview. *Theory Into Practice, 41*(2), 64–70.
+
+**UNESCO. (2023).** *Guidance for generative AI in education and research*. UNESCO Publishing. [https://doi.org/10.54675/EWZQ9977](https://doi.org/10.54675/EWZQ9977)
+
+**Comissió Europea. (2022).** *Ethical guidelines on the use of artificial intelligence and data in teaching and learning for educators*. Oficina de Publicacions de la Unió Europea. [https://op.europa.eu/en/publication-detail/-/publication/d81a0d54-5348-11ed-92ed-01aa75ed71a1](https://op.europa.eu/en/publication-detail/-/publication/d81a0d54-5348-11ed-92ed-01aa75ed71a1)
 
 **OEIAC — Observatori d'Ètica en Intel·ligència Artificial de Catalunya (2025).** *El Model PIO Obligacions i Drets: Un enfocament d'autoavaluació per al compliment de la regulació en dades i sistemes d'IA en el marc de la Unió Europea.* Universitat de Girona / Catalonia.AI. [https://www.udg.edu/ca/catedres/oeiac/informes-i-transferencia/informe-model-pio-2025](https://www.udg.edu/ca/catedres/oeiac/informes-i-transferencia/informe-model-pio-2025)
 
