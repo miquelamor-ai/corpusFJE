@@ -120,11 +120,7 @@
 
 [**REFERÈNCIES	28**](#referències)
 
-## 
-
 ## **INTRODUCCIÓ** {#introducció}
-
-###  {#heading}
 
 Jesuïtes Educació assumeix el repte de la intel·ligència artificial (IA) des d'una mirada esperançada i exigent. Com ens recordava Sant Ignasi de Loiola, estem cridats a "trobar Déu en totes les coses"; avui, aquesta crida inclou també la tecnologia digital. No la veiem com una simple eina freda, sinó com una extensió de la capacitat humana que hem de saber discernir i posar al servei de la nostra missió i a favor del bé comú.
 
@@ -666,8 +662,10 @@ El docent és el segon nivell de la cascada 4D: exerceix les quatre dimensions (
 1. **Disseny curricular i instruccional:** Assistència en la planificació estratègica de programacions, unitats formatives, situacions d'aprenentatge competencials, tasques, activitats i dinàmiques. La IA pot ajudar a esbossar objectius, explorar connexions interdisciplinàries o reformular reptes segons diferents nivells de complexitat. Tanmateix, el criteri pedagògic del docent és l'única garantia que la proposta té sentit en el context real de l'aula, respon al perfil de sortida de l'alumnat i s'emmarca en el projecte educatiu de centre. En aquest àmbit, el fonament cognitiu del marc és especialment rellevant: el docent ha de discernir quina càrrega cognitiva externalitza a la IA (la que no aporta valor al seu creixement professional) i quina preserva (l'anàlisi pedagògica, el judici sobre el context, la presa de decisions de disseny).  
 2. **Creació i adaptació de materials:** Producció, modificació o adaptació de recursos didàctics accessibles en formats diversos (textuals, visuals, auditius…). La IA permet una personalització de materials per atendre les múltiples necessitats educatives presents a l’aula. El docent n'és el validador final: ha de verificar la correcció factual, declarar l'ús de l'eina i assegurar-se que els materials respecten la propietat intel·lectual i la integritat del corpus institucional.  
 3. **Avaluació i seguiment:** Suport en el disseny d'instruments d'avaluació (rúbriques, qüestionaris, etc.) i en la generació de retroalimentació preliminar. La IA pot ajudar a analitzar patrons en les dades d'aprenentatge per detectar necessitats individuals de suport. No obstant això, l'avaluació és un acte de discerniment professional: la decisió final sobre el progrés de l'estudiant i la calidesa de la retroalimentació significativa corresponen exclusivament al docent, qui vetlla per no substituir el diàleg avaluatiu per l'automatització buida. En la línia del *backward design* (Wiggins i McTighe, 2005), el disseny de l'avaluació ha de partir del que l'alumnat ha de demostrar que ha après — i quan la IA forma part de l'activitat, l'avaluació ha de mesurar el pensament de l'alumne, no la qualitat del producte generat per la màquina.  
-4. **Planificació i gestió de la docència:** Agilització de la gestió, síntesi de reunions, comunicats i documentació etc.. L'eficiència que aporta l'automatització és un mitjà, no una finalitat: l'objectiu prioritari és alliberar temps per dedicar-lo a la funció més humana i insubstituïble de l'escola: l'acompanyament personal, el vincle emocional i l'escolta activa de l'educand.  
-5. **Desenvolupament professional:** Reflexió sobre la pràctica i experimentació controlada. El docent ha de liderar el seu propi creixement en competència digital docent específic en IA, avaluant críticament el potencial i els riscos de cada nova eina abans de l'aula, i compartint el coneixement amb la comunitat educativa per evitar la fractura digital i pedagògica.
+4. **Planificació i gestió de la docència:** Síntesi de reunions, comunicats a famílies, actes d'avaluació, informes de seguiment i documentació interna. La IA pot absorbir una part significativa de la càrrega administrativa que històricament ha restat temps a la tasca pedagògica. Tanmateix, l'eficiència que aporta l'automatització és un mitjà, no una finalitat: l'objectiu prioritari és alliberar temps per dedicar-lo a la funció més humana i insubstituïble de l'escola — l'acompanyament personal, el vincle emocional i l'escolta activa de l'educand. Com en la gestió institucional, el docent que delega la redacció de comunicats o informes a la IA ha de revisar-ne el to, la precisió i l'adequació al context: una comunicació automàtica que no recull el matís d'una situació familiar delicada pot fer més mal que bé. La transparència és igualment exigible: cal declarar l'ús de la IA en la producció de documents professionals.  
+5. **Desenvolupament professional:** Reflexió sobre la pràctica, experimentació controlada i creixement continu en competència digital docent específica en IA. El docent ha de liderar el seu propi desenvolupament professional, avaluant críticament el potencial i els riscos de cada nova eina abans d'introduir-la a l'aula. Això implica dedicar temps a explorar, testejar i documentar usos de la IA en un entorn segur — no improvisar davant l'alumnat. La institució té la responsabilitat de facilitar aquest procés amb formació estructurada, espais de pràctica compartida i acompanyament entre iguals. El coneixement generat s'ha de socialitzar dins la comunitat educativa per evitar la fractura digital i pedagògica: que uns docents integrin la IA amb criteri mentre d'altres la ignoren o la utilitzen sense marc és un risc institucional que cal prevenir activament.
+
+**El paper irreductible del docent.** En tots cinc àmbits, el patró és el mateix: la IA pot generar, organitzar, sintetitzar o adaptar, però el judici professional — pedagògic, relacional, ètic — és exclusivament humà. El docent no és un validador passiu de productes generats per la màquina; és el dissenyador de les condicions en què l'aprenentatge es fa possible. Quan la IA s'integra bé a la pràctica docent, el resultat no és un professor que treballa menys, sinó un professor que dedica més temps al que realment importa: pensar, acompanyar i decidir amb criteri.
 
 ### **2\. ÀMBIT ALUMNAT: APRENDRE SOBRE, PER A I AMB LA IA** {#2.-àmbit-alumnat}
 
@@ -902,6 +900,8 @@ UNESCO. (2025). *Marco de competencias para estudiantes en materia de IA* \[*AI 
 
 **Sosa, A. (2017).** *La educación de la Compañía: una pedagogía al servicio de la formación de un ser humano reconciliado*. Rio de Janeiro: JESEDU-Rio2017.
 
+**Sosa, A. (2019).** *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI — Principis orientadors*. Roma: Secretariat d'Educació de la Companyia de Jesús.
+
 **Bjork, E. L., i Bjork, R. A. (2011).** *Making things hard on yourself, but in a good way: Creating desirable difficulties to enhance learning*. Worth Publishers.
 
 **Departament d'Educació i Formació Professional. (2025).** *Competència digital docent en intel·ligència artificial*. Generalitat de Catalunya.
@@ -937,6 +937,10 @@ UNESCO. (2025). *Marco de competencias para estudiantes en materia de IA* \[*AI 
 **Yan, L., Sha, L., Zhao, L., Li, Y., Martinez-Maldonado, R., Chen, G., ... & Gaševic, D. (2025).** Practical and ethical challenges of large language models in education: A systematic scoping review. *British Journal of Educational Technology, 55*(2), 765–784.
 
 **Zimmerman, B. J. (2002).** Becoming a self-regulated learner: An overview. *Theory Into Practice, 41*(2), 64–70.
+
+**Chi, M. T. H., i Wylie, R. (2014).** The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist, 49*(4), 219–243. [https://doi.org/10.1080/00461520.2014.965823](https://doi.org/10.1080/00461520.2014.965823)
+
+**Kahneman, D. (2011).** *Thinking, fast and slow*. Farrar, Straus and Giroux.
 
 **UNESCO. (2023).** *Guidance for generative AI in education and research*. UNESCO Publishing. [https://doi.org/10.54675/EWZQ9977](https://doi.org/10.54675/EWZQ9977)
 
