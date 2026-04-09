@@ -69,16 +69,19 @@ La mateixa informació, dos camins d'accés. Molts docents ja coneixen els Rols 
 
 Els tres patrons anteriors (Fonamentació / Diàleg Crític / Orquestració) **es dissolen**. No afegien valor que els propòsits d'aprenentatge no proporcionin directament, i introduïen una capa sintètica innecessària.
 
-### 5. Seqüència de disseny del docent
+### 5. Seqüència de disseny del docent (v2)
 
-El docent pren quatre decisions en cascada:
+El docent pren cinc decisions en cascada. L'evolució v2 incorpora l'**estructura temporal** (Vendrell & Johnston, 2026): *quan* intervé la IA i *quan* no dins la mateixa activitat. Rol i Nivell es contextualitzen dins la fase "amb IA".
 
 | Pas | Pregunta | Eix | Referència |
 |---|---|---|---|
-| 1 | "Què ha d'aprendre l'alumne?" | Tria un **Propòsit d'aprenentatge** | `M5_proposits-aprenentatge` |
-| 2 | "Com ha d'actuar la IA?" | Tria un **Rol** compatible (matriu d'afinitats) | `M5_rols-IA-educacio` |
-| 3 | "Quanta autonomia?" | Tria un **Nivell** (rang nadiu × sostre d'etapa) | `M5_nivells-delegacio-mihia` |
-| 4 | "Hi ha fricció productiva?" | Verifica amb els criteris del marc cognitiu | `M2_carrega-friccio-cognitiva` |
+| 1 | **"Què ha d'aprendre l'alumne?"** | Tria un **Propòsit d'aprenentatge** | `M5_proposits-aprenentatge` |
+| 2 | **"On poso la fricció i on la IA?"** | Dissenya l'**estructura temporal**: Fase 1 (sense IA: l'alumnat genera sol) → Fase 2 (amb IA: desafia, contrasta) → Fase 3 (sense IA: sintetitza, integra) | Vendrell & Johnston (2026) |
+| 3 | **"Com ha d'actuar la IA a la Fase 2?"** | Tria un **Rol** compatible (matriu d'afinitats) | `M5_rols-IA-educacio` |
+| 4 | **"Quanta autonomia a la Fase 2?"** | Tria un **Nivell** (rang nadiu × sostre d'etapa) | `M5_nivells-delegacio-mihia` |
+| 5 | **"L'activitat preserva el pensament crític?"** | **Checklist de verificació** (8 preguntes basades en Vendrell P1-P8) | `M2_carrega-friccio-cognitiva` + ADR |
+
+No tota activitat requereix les tres fases. Una exploració (Anchor, N1) pot ser tota Fase 2. Però quan l'objectiu és aprenentatge profund (Critique, Perspective, Mission), la seqüència completa protegeix l'autonomia cognitiva.
 
 ### 6. Relació entre els 3 eixos
 

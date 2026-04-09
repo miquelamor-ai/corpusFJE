@@ -31,16 +31,19 @@ detection:
 
 ## Contingut
 
-### 1. La seqüència de disseny del docent
+### 1. La seqüència de disseny del docent (v2)
 
-El disseny d'una activitat amb IA segueix quatre decisions en cascada (arquitectura P>R>N):
+El disseny d'una activitat amb IA segueix cinc decisions en cascada (arquitectura P>R>N v2, que incorpora l'estructura temporal de Vendrell & Johnston, 2026):
 
 | Pas | Pregunta del docent | Decisió | Referència |
 |---|---|---|---|
 | **1** | "Què vull que passi cognitivament?" | Triar un **Propòsit d'aprenentatge** | `M5_proposits-aprenentatge` |
-| **2** | "Com ha d'actuar la IA?" | Triar un **Rol** compatible | `M5_rols-IA-educacio` — matriu d'afinitats |
-| **3** | "Quanta autonomia?" | Triar un **Nivell** | `M5_nivells-delegacio-mihia` — rang nadiu × sostre |
-| **4** | "Hi ha fricció productiva?" | Verificar amb el marc cognitiu | `M2_carrega-friccio-cognitiva` — 7 criteris |
+| **2** | "On poso la fricció i on la IA?" | Dissenyar l'**estructura temporal**: Fase 1 (sense IA: l'alumnat genera sol) → Fase 2 (amb IA: desafia, contrasta) → Fase 3 (sense IA: sintetitza, integra) | Vendrell & Johnston (2026) |
+| **3** | "Com ha d'actuar la IA a la Fase 2?" | Triar un **Rol** compatible | `M5_rols-IA-educacio` — matriu d'afinitats |
+| **4** | "Quanta autonomia a la Fase 2?" | Triar un **Nivell** | `M5_nivells-delegacio-mihia` — rang nadiu × sostre |
+| **5** | "L'activitat preserva el pensament crític?" | **Checklist de verificació** (7 criteris cognitius + 8 principis Vendrell) | `M2_carrega-friccio-cognitiva` + ADR |
+
+No tota activitat requereix les tres fases: una exploració breu (Propòsit: Anchor, N1) pot ser tota Fase 2. Però quan l'objectiu és aprenentatge profund (Critique, Perspective, Mission), la seqüència completa protegeix l'autonomia cognitiva.
 
 ### 2. Alliberament gradual de la responsabilitat (GRR) aplicat a la IA
 
@@ -136,27 +139,34 @@ Per a activitats existents que ja incorporen IA:
    - Tema / Contingut curricular
    - Objectiu d'aprenentatge (formulat com a constructe, no com a tasca)
 
-2. DISSENY PROPÒSIT-ROL-NIVELL
+2. DISSENY PROPÒSIT-ROL-NIVELL (v2)
    - Propòsit d'aprenentatge triat i justificació
-   - Rol de la IA assignat (verificat a la matriu d'afinitats)
-   - Nivell MIHIA (verificat: rang nadiu × sostre d'etapa)
+   - Estructura temporal: quines fases té l'activitat?
+     · Fase 1 (sense IA): què genera l'alumnat sol?
+     · Fase 2 (amb IA): rol + nivell + restriccions
+     · Fase 3 (sense IA): com sintetitza i integra?
+   - Rol de la IA a la Fase 2 (verificat a la matriu d'afinitats)
+   - Nivell MIHIA a la Fase 2 (verificat: rang nadiu × sostre d'etapa)
    - Família del rol (procesual / mixt / productiu)
 
-3. PREPARACIÓ (Jo faig)
-   - Què modela el docent
-   - Com es presenta la tasca
+3. FASE 1 — SENSE IA (Fricció cognitiva)
+   - Què fa l'alumnat autònomament (hipòtesi, argument, pla, esborrany...)
    - Activació de coneixements previs
    - CFF establerta (pre-compromís, predicció, justificació...)
+   - Mode ICAP esperat (Constructive o Interactive)
+   - Preparació docent (Jo faig): què modela el docent
 
-4. INTERACCIÓ AMB IA (Nosaltres fem → Tu fas)
+4. FASE 2 — AMB IA (Interacció)
    - Prompt/instrucció (amb bastida progressiva segons nivell)
    - Restriccions i pautes
+   - Funció de la IA: desafiar, contrastar, ampliar, provocar (no resoldre)
    - Moviment de fricció esperat (Descoberta / Recursivitat / Resistència)
-   - Mode ICAP esperat (Constructive o Interactive)
+   - Checkpoints d'avaluació durant la interacció (Vendrell P3)
 
-5. POST-IA (Fricció productiva)
-   - Què fa l'alumne amb el resultat de la IA
+5. FASE 3 — SENSE IA (Síntesi i metacognició)
+   - Què fa l'alumnat amb el resultat de la IA
    - On resideix la propietat cognitiva (McCrea)
+   - Documentació del procés: diari reflexiu, log de prompts, comparació abans/després
    - Verificació: càrrega externalitzada = extrínseca (no germana)
 
 6. EVIDÈNCIA D'APRENENTATGE
@@ -213,7 +223,7 @@ Quan la IA s'usa en **gestió** (administrativa, organitzativa, institucional), 
 
 | Document | Relació |
 |---|---|
-| `M5_arquitectura-proposit-rol-nivell` | La seqüència de disseny (4 passos) opera dins l'arquitectura P>R>N |
+| `M5_arquitectura-proposit-rol-nivell` | La seqüència de disseny (5 passos, v2) opera dins l'arquitectura P>R>N v2 |
 | `M5_proposits-aprenentatge` | Pas 1: triar propòsit d'aprenentatge |
 | `M5_rols-IA-educacio` | Pas 2: triar Rol compatible |
 | `M5_nivells-delegacio-mihia` | Pas 3: triar Nivell (rang × sostre) |
