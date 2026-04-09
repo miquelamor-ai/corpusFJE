@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "entorns de desenvolupament",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "desenvolupament de programari",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els elements i les eines que intervenen en el desenvolupament d’un programa informàtic, analitzant-ne les característiques i les fases en què actuen fins arribar a la seva posada en funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la relació dels programes amb els components del sistema informàtic: memòria, processador, perifèrics, entre d’altres."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les fases de desenvolupament d’una aplicació informàtica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Diferencia els conceptes de codi font, objecte i executable."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix les característiques de la generació de codi intermedi per a la seva execució en màquines virtuals."
+              },
+              {
+                "codi": "CA14",
+                "text": "Classifica els llenguatges de programació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Avalua la funcionalitat oferta per les eines utilitzades en programació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Avalua entorns de desenvolupament integrat analitzant-ne les característiques per editar codi font i generar executable.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Instal·la entorns de desenvolupament, propietaris i lliures."
+              },
+              {
+                "codi": "CA22",
+                "text": "Afegeix i elimina mòduls en l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA23",
+                "text": "Personalitza i automatitza l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura el sistema d’actualització de l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA25",
+                "text": "Genera executables a partir de codi font de diferents llenguatges en un mateix entorn de desenvolupament."
+              },
+              {
+                "codi": "CA26",
+                "text": "Genera executables a partir d’un mateix codi font amb diversos entorns de desenvolupament."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les característiques comunes i específiques de diversos entorns de desenvolupament."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Desenvolupament de programari",
+                "items": [
+                  "Concepte de programa informàtic.",
+                  "Codi font, codi objecte i codi executable; màquines virtuals.",
+                  "Tipus de llenguatges de programació.",
+                  "Característiques dels llenguatges més difosos.",
+                  "Fases del desenvolupament d’una aplicació: anàlisi, disseny, codificació, proves, documentació, manteniment i explotació, entre d’altres.",
+                  "Procés d’obtenció de codi executable a partir del codi font; eines implicades."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i ús d’entorns de desenvolupament",
+                "items": [
+                  "Funcions d’un entorn de desenvolupament.",
+                  "Instal·lació d’un entorn de desenvolupament.",
+                  "Ús bàsic d’un entorn de desenvolupament.",
+                  "Edició de programes.",
+                  "Generació d’executables."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "optimització de programari",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Verifica el funcionament de programes dissenyant i realitzant proves.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els diferents tipus de proves."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix casos de prova."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les eines de depuració i prova d’aplicacions ofertes per l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza eines de depuració per definir punts de ruptura i seguiment."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza les eines de depuració per examinar i modificar el comportament d’un programa en temps d’execució."
+              },
+              {
+                "codi": "CA16",
+                "text": "Efectua proves unitàries de classes i funcions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Implementa proves automàtiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta les incidències detectades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Optimitza codi emprant les eines disponibles en l’entorn de desenvolupament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els patrons de refacció més usuals."
+              },
+              {
+                "codi": "CA22",
+                "text": "Elabora les proves associades a la refacció."
+              },
+              {
+                "codi": "CA23",
+                "text": "Revisa el codi font utilitzant un analitzador de codi."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica les possibilitats de configuració d’un analitzador de codi."
+              },
+              {
+                "codi": "CA25",
+                "text": "Aplica patrons de refacció amb les eines que proporciona l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza el control de versions integrat en l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza eines de l’entorn de desenvolupament per documentar les classes."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Disseny i realització de proves",
+                "items": [
+                  "Planificació de proves.",
+                  "Tipus de proves: funcionals, estructurals, regressió i altres.",
+                  "Procediments i casos de prova.",
+                  "Proves de codi: cobriment, valors límit, classes d’equivalència i altres.",
+                  "Proves unitàries; eines."
+                ]
+              },
+              {
+                "bloc": "Documentació i optimització",
+                "items": [
+                  "Refacció. Concepte. Limitacions. Patrons de refacció més usuals.",
+                  "Proves i refacció. Eines d’ajuda a la refacció.",
+                  "Control de versions. Estructura de les eines de control de versions.",
+                  "Dipòsit. Eines de control de versions.",
+                  "Documentació. Ús de comentaris. Alternatives."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "introducció al disseny orientat a objectes",
+        "hores": 26,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera diagrames de classes valorant-ne la importància en el desenvolupament d’aplicacions i emprant les eines disponibles en l’entorn.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els conceptes bàsics de la programació orientada a objectes."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la el mòdul de l’entorn de desenvolupament integrat que permet l’ús de diagrames de classes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les eines per elaborar diagrames de classes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Interpreta el significat de diagrames de classes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Traça diagrames de classes a partir de les especificacions d’aquestes classes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Genera codi a partir d’un diagrama de classes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Genera un diagrama de classes mitjançant enginyeria inversa."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Genera diagrames de comportament valorant-ne la importància en el desenvolupament d’aplicacions i emprant les eines disponibles en l’entorn.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els diferents tipus de diagrames de comportament."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix el significat dels diagrames de casos d’ús."
+              },
+              {
+                "codi": "CA23",
+                "text": "Interpreta diagrames d’interacció."
+              },
+              {
+                "codi": "CA24",
+                "text": "Elabora diagrames d’interacció senzills."
+              },
+              {
+                "codi": "CA25",
+                "text": "Interpreta el significat de diagrames d’activitats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Elabora diagrames d’activitats senzills."
+              },
+              {
+                "codi": "CA27",
+                "text": "Interpreta diagrames d’estats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Planteja diagrames d’estats senzills."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració de diagrames de classes",
+                "items": [
+                  "Classes. Atributs, mètodes i visibilitat.",
+                  "Objectes. Definició.",
+                  "Relacions. Herència, composició, agregació.",
+                  "Notació dels diagrames de classes."
+                ]
+              },
+              {
+                "bloc": "Elaboració de diagrames de comportament",
+                "items": [
+                  "Tipus. Camp d’aplicació.",
+                  "Diagrames de casos d’ús. Actors, escenari, relació de comunicació.",
+                  "Diagrames de seqüència. Línia de vida d’un objecte, activació, enviament de missatges.",
+                  "Diagrames de col·laboració. Objectes, missatges."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

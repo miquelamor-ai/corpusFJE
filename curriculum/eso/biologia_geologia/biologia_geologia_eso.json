@@ -6,521 +6,269 @@
     "codi_area": "BG",
     "decret": "175/2022",
     "data_decret": "2022-09-27",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Biologia-Geologia.pdf",
-    "nota_estructura": "Les CE s'organitzen per agrupament: '1r_3r' (1r, 2n i 3r ESO, matèria troncal) i '4t' (optativa de 4t ESO). Els sabers bàsics també estan diferenciats per agrupament.",
-    "nota_acces": "PDF no accessible via WebFetch. Contingut basat en el coneixement del Decret 175/2022 i el currículum oficial de Biologia i Geologia ESO.",
-    "versio_schema": "1.0",
+    "font": "PDF oficial XTEC: Biologia-i-Geologia.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
     "descripcio": "La Biologia i Geologia a l'ESO introdueix l'alumnat en el coneixement científic dels éssers vius i de la Terra com a sistema dinàmic. Connecta l'estudi dels organismes amb els processos geològics que conformen el planeta, i proporciona les bases científiques necessàries per comprendre les grans qüestions ambientals i de salut del segle XXI. La matèria prepara per a la continuïtat en Biologia i Geologia de Batxillerat i per a estudis de ciències de la salut i de la natura.\n\nEls grans constructes disciplinaris inclouen la teoria cel·lular, la genètica i l'herència (gen, al·lel, fenotip, genotip), l'evolució darwiniana (selecció natural, adaptació, especiació), l'ecologia (ecosistema, cadena tròfica, cicles biogeoquímics, biodiversitat) i la geologia dinàmica (tectònica de plaques, roques i minerals, temps geològic, riscos naturals). La taxonomia, la histologia i la fisiologia dels sistemes orgànics (digestiu, circulatori, nerviós, reproductor) completen el cos conceptual.\n\nL'enfocament pedagògic combina la indagació científica (observació, hipòtesi, experimentació, comunicació) amb el treball de camp i el laboratori. El disseny experimental senzill, l'ús del microscopi i la interpretació de gràfiques i dades en context real caracteritzen la pràctica d'aula. La connexió amb la salut, el medi ambient i les decisions personals (alimentació, vacunació, canvi climàtic) fa de la matèria un espai d'educació científica per a la ciutadania."
   },
-  "competencies_clau": [
-    "STEM",
-    "CCL",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
-  "blocs_sabers": [
-    "organitzacio_dels_essers_vius",
-    "esser_huma_salut",
-    "plantes_animals_ecosistemes",
-    "geologia_geodinamica",
-    "tecnologia_ciencia_societat"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "bloc_competencial": "interpretacio_fenomens_naturals",
-      "text": "Interpretar i explicar fenòmens naturals, problemes i situacions relacionades amb la biologia i la geologia, aplicant els models i les lleis científiques més adequats, per comprendre i predir el comportament de la naturalesa.",
-      "competencies_clau": [
-        "STEM",
-        "CCL",
-        "CPSAA"
-      ],
+      "text": "Interpretar fenòmens de la naturalesa, predient i argumentant el seu comportament a partir de models, lleis i teories propis de la biologia i la geologia per apropiar-se de conceptes i processos propis de la ciència.",
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i descriure fenòmens naturals biològics i geològics de l'entorn proper, relacionant-los amb models i conceptes científics."
+            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la biologia i la geologia, interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques."
           },
           {
             "codi": "CA1.2",
-            "text": "Aplicar models científics senzills (cèl·lula, ecosistema, cicle de l'aigua, tectònica de plaques) per explicar fenòmens observats en la naturalesa."
+            "text": "Interpretar i predir el comportament de fenòmens quotidians rellevants, relacionant-los amb models, lleis i teories adequades de la biologia i la geologia."
           },
           {
             "codi": "CA1.3",
-            "text": "Relacionar les característiques dels éssers vius (nutrició, relació i reproducció) amb les estructures biològiques que les fan possibles."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Usar la terminologia científica bàsica de manera correcta per descriure i explicar fenòmens biològics i geològics en contextos propers."
+            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic i proporcionar possible solucions."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA1.1",
-            "text": "Interpretar fenòmens naturals complexos (genètica, evolució, dinàmica interna de la Terra) aplicant models i lleis científiques de manera autònoma."
+            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la biologia i la geologia, interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques i defensant amb criteri opinions pròpies fonamentades."
           },
           {
             "codi": "CA1.2",
-            "text": "Establir relacions causals entre processos biològics i geològics, incorporant la dimensió temporal i espacial en l'explicació dels fenòmens."
+            "text": "Interpretar i predir el comportament de fenòmens quotidians, argumentant-ho amb rigor sobre la base de models, lleis i teories adequades de la biologia i la geologia."
           },
           {
             "codi": "CA1.3",
-            "text": "Aplicar els principis de genètica mendeliana i molecular per explicar la transmissió de caràcters hereditaris en situacions diverses."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Usar la terminologia científica específica de manera rigorosa per interpretar i comunicar fenòmens biològics i geològics en contextos variats."
+            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic, proporcionar possibles solucions i argumentar sobre la seva validesa."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "bloc_competencial": "investigacio_cientifica",
-      "text": "Planificar i dur a terme investigacions científiques sobre fenòmens naturals, analitzant-ne els resultats, per verificar hipòtesis i generar coneixement científic.",
-      "competencies_clau": [
-        "STEM",
-        "CD",
-        "CPSAA",
-        "CE"
-      ],
+      "text": "Identificar, seleccionar, organitzar i avaluar críticament dades i informació, contrastant-ne la fiabilitat per resoldre preguntes relacionades amb la biologia i la geologia i descartar solucions pseudocientífiques.",
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA2.1",
-            "text": "Formular preguntes investigables sobre fenòmens biològics i geològics i plantejar hipòtesis senzilles basades en l'observació i els coneixements previs."
+            "text": "Resoldre qüestions relacionades amb els sabers de la matèria de Biologia i Geologia localitzant, seleccionant fonts fiables i organitzant informació mitjançant l'ús i citació correctes de diferents fonts."
           },
           {
             "codi": "CA2.2",
-            "text": "Dissenyar i realitzar experiments senzills seguint el mètode científic, identificant variables i controlant-les de manera adequada."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Recollir, organitzar i representar dades d'investigacions biològiques i geològiques usant instruments de mesura i eines digitals bàsiques."
-          },
-          {
-            "codi": "CA2.4",
-            "text": "Analitzar resultats d'investigacions, extraure'n conclusions i contrastar-les amb la hipòtesi inicial, reconeixent les limitacions del procés."
+            "text": "Reconèixer la informació amb base científica distingint-la de pseudociències, rumors, teories conspiratòries, falses notícies i creences, etc., i mantenint una actitud escèptica davant d'aquests."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA2.1",
-            "text": "Dissenyar investigacions científiques autònomes sobre fenòmens biològics i geològics, seleccionant la metodologia més adequada a cada situació."
+            "text": "Resoldre qüestions i aprofundir en aspectes relacionats amb els sabers de la matèria de Biologia i Geologia localitzant, seleccionant, organitzant i analitzant críticament la informació de diferents fonts, citant-les correctament amb respecte per la propietat intel·lectual."
           },
           {
             "codi": "CA2.2",
-            "text": "Aplicar tècniques de laboratori i de camp (microscòpia, bioindicadors, anàlisi de roques) de manera rigorosa i segura."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Analitzar dades quantitatives i qualitatives d'investigacions complexes, usant eines estadístiques i digitals per extreure'n conclusions fonamentades."
-          },
-          {
-            "codi": "CA2.4",
-            "text": "Comunicar els resultats d'investigacions científiques de manera clara i estructurada, usant formats diversos (informe, presentació, pòster científic)."
+            "text": "Contrastar la fiabilitat de la informació sobre temes relacionats amb els sabers de la matèria de Biologia i Geologia, utilitzant fonts fiables (tenint en compte si s'identifica l'autor o responsable, si hi ha una institució al darrere, quina és la finalitat o intenció de publicar aquella informació, si es pot verificar amb altres fonts, si hi ha bibliografia, etc.) adoptant una actitud crítica i escèptica vers informacions no fonamentades en la ciència, com pseudociències, teories conspiratòries, creences, falses notícies, mentides, etc."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "bloc_competencial": "pensament_critic_cientific",
-      "text": "Analitzar informació científica de fonts diverses, avaluant-ne la fiabilitat i validesa, per desenvolupar el pensament crític i prendre decisions fonamentades sobre qüestions biològiques i geològiques.",
-      "competencies_clau": [
-        "CCL",
-        "STEM",
-        "CD",
-        "CC"
-      ],
+      "text": "Dissenyar, desenvolupar i comunicar el plantejament i les conclusions de recerques dins de l'àmbit escolar, incloent la formulació de preguntes i d'hipòtesis i la seva contrastació experimental, seguint els passos de les metodologies pròpies de la ciència, com l'experimentació i la cerca d'evidències, cooperant quan calgui, per indagar en aspectes relacionats amb la biologia i la geologia.",
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA3.1",
-            "text": "Buscar i seleccionar informació científica sobre biologia i geologia de fonts diverses, valorant-ne la credibilitat i adequació."
+            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l'experimentació, la presa de dades i l'anàlisi de fenòmens biològics i geològics."
           },
           {
             "codi": "CA3.2",
-            "text": "Distingir entre afirmacions científiques i pseudocientífiques, identificant mites i errors conceptuals comuns en l'àmbit biològic i geològic."
+            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l'ús de la deducció, el treball experimental i el raonament logicomatemàtic."
           },
           {
             "codi": "CA3.3",
-            "text": "Contrastar informació científica provinent de fonts diverses, identificant coincidències i discrepàncies de manera crítica."
+            "text": "Portar a terme dissenys experimentals fent servir els instruments, eines o tècniques adequades amb correcció i interpretar-ne els resultats utilitzant, quan sigui necessari, eines matemàtiques i tecnològiques."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Cooperar en un projecte científic assumint responsablement una funció concreta, utilitzant espais virtuals quan sigui necessari, respectant la diversitat i afavorint la inclusió."
+          },
+          {
+            "codi": "CA3.5",
+            "text": "Presentar els resultats i les conclusions obtingudes mitjançant l'experimentació i observació de camp utilitzant el format adequat (taules, gràfics, informes, etc.) i, quan sigui necessari, eines digitals."
+          },
+          {
+            "codi": "CA3.6",
+            "text": "Valorar la contribució de la ciència a la societat i la tasca de les persones que s'hi han dedicat, reflexionant sobre els biaixos de gènere en les ciències i la tecnologia, i entenent la recerca com una tasca col·lectiva i interdisciplinària en constant evolució, influïda pel context polític i els recursos econòmics."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA3.1",
-            "text": "Avaluar críticament la fiabilitat i validesa de fonts d'informació científica sobre biologia i geologia, identificant sesgos i interessos implícits."
+            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l'experimentació, la presa de dades i l'anàlisi de fenòmens biològics i geològics, diferenciant-les d'aquelles qüestions pseudocientífiques que no admeten comprovació experimental."
           },
           {
             "codi": "CA3.2",
-            "text": "Analitzar qüestions sociocientífiques controvertides (enginyeria genètica, canvi climàtic, extinció d'espècies) reconeixent la complexitat i els conflictes d'interessos."
+            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l'ús de la deducció, el treball experimental i el raonament logicomatemàtic."
           },
           {
             "codi": "CA3.3",
-            "text": "Argumentar posicions fonamentades sobre temes biològics i geològics d'actualitat, distingint entre l'evidència científica i els judicis de valor."
+            "text": "Portar a terme l'experimentació plantejada fent servir els instruments, eines o tècniques adequades amb correcció i interpretar-ne els resultats quan sigui necessari amb eines matemàtiques i tecnològiques per obtenir conclusions raonades i fonamentades o valorar la impossibilitat de fer-ho."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Establir col·laboracions quan sigui necessari en les diferents fases del projecte científic per treballar amb més eficiència, valorant la importància de la cooperació en la investigació, respectant la diversitat i afavorint la inclusió."
+          },
+          {
+            "codi": "CA3.5",
+            "text": "Presentar de manera clara i rigorosa els resultats i les conclusions obtingudes mitjançant l'experimentació, argumentant la connexió entre uns i altres, i l'observació de camp, utilitzant el format adequat (taules, gràfics, informes, etc.) i eines digitals."
+          },
+          {
+            "codi": "CA3.6",
+            "text": "Valorar la contribució de la ciència a la societat i la tasca de les persones que s'hi han dedicat, argumentant sobre els biaixos de gènere en les ciències i la tecnologia i entenent la recerca com una tasca col·lectiva i interdisciplinària en constant evolució, influïda pel context polític i els recursos econòmics."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "bloc_competencial": "salut_i_medi_ambient",
-      "text": "Adoptar hàbits saludables i de respecte pel medi ambient, analitzant-ne els fonaments biològics i geològics, per promoure el benestar personal i col·lectiu i la sostenibilitat del planeta.",
-      "competencies_clau": [
-        "STEM",
-        "CPSAA",
-        "CC",
-        "CE"
-      ],
+      "text": "Fer servir diverses formes de raonament, com el pensament hipoteticodeductiu i el pensament computacional, per resoldre problemes o donar explicació a fenòmens naturals i processos de la vida quotidiana relacionats amb la biologia i la geologia, mitjançant l'anàlisi crítica de les respostes i solucions i reformulant el procediment, si fos necessari.",
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA4.1",
-            "text": "Relacionar els hàbits de vida saludables (alimentació, exercici físic, descans, higiene) amb el funcionament dels sistemes de l'organisme humà."
+            "text": "Resoldre problemes o donar explicació a processos biològics o geològics utilitzant coneixements, dades i informació aportades, el raonament lògic, el pensament computacional o recursos digitals."
           },
           {
             "codi": "CA4.2",
-            "text": "Identificar les principals malalties infeccioses i no infeccioses, valorant el paper de les vacunes, els medicaments i els hàbits saludables en la prevenció."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Reconèixer l'impacte de les activitats humanes sobre els ecosistemes i les formacions geològiques, proposant mesures de conservació i reducció de l'impacte."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Valorar la biodiversitat com un recurs essencial per a la vida i identificar les principals amenaces que la posen en risc a escala local i global."
+            "text": "Analitzar críticament la solució a un problema sobre fenòmens biològics i geològics."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar les bases moleculars i cel·lulars de la salut i la malaltia, relacionant el funcionament del sistema immunitari amb la resposta a agents patògens."
+            "text": "Resoldre problemes o donar explicació a processos biològics o geològics utilitzant coneixements, dades i informació aportades, el raonament lògic, el pensament computacional o recursos digitals."
           },
           {
             "codi": "CA4.2",
-            "text": "Avaluar l'impacte de factors ambientals (contaminació, canvi climàtic, pèrdua d'hàbitat) sobre la biodiversitat i els ecosistemes, proposant solucions fonamentades."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Argumentar sobre la importància de la conservació de la geodiversitat i la biodiversitat com a patrimoni natural, valorant les polítiques de protecció."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Reconèixer les implicacions ètiques de les biotecnologies aplicades a la salut i al medi ambient, adoptant posicions argumentades sobre el seu ús responsable."
+            "text": "Analitzar críticament la solució a un problema o fenòmens biològics i geològics i canviar els procediments usats o revisar les conclusions si aquesta solució no fos viable o davant de noves dades aportades amb posterioritat."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "bloc_competencial": "comunicacio_cientifica",
-      "text": "Comunicar coneixements, resultats i opinions sobre fenòmens biològics i geològics, usant el llenguatge científic i diversos formats de representació, per compartir el coneixement i participar en la cultura científica.",
-      "competencies_clau": [
-        "CCL",
-        "STEM",
-        "CD",
-        "CCEC"
-      ],
+      "text": "Analitzar els efectes de determinades accions sobre el medi ambient i la salut, basant-se en els fonaments de les ciències biològiques i geològiques, per fer propostes d'acció i per decidir de manera informada sobre problemàtiques actuals i adoptar hàbits que minimitzin els impactes mediambientals, que siguin compatibles amb un desenvolupament sostenible i que permetin mantenir i millorar la salut individual i col·lectiva.",
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA5.1",
-            "text": "Elaborar textos, presentacions i representacions visuals (esquemes, mapes conceptuals, dibuixos científics) per comunicar coneixements biològics i geològics."
+            "text": "Justificar amb fonaments científics la importància de la preservació de la biodiversitat, la conservació de l'entorn, la protecció dels éssers vius de l'entorn, el desenvolupament sostenible i la qualitat de vida."
           },
           {
             "codi": "CA5.2",
-            "text": "Usar la terminologia científica específica de la biologia i la geologia de manera adequada en produccions orals i escrites."
+            "text": "Justificar la necessitat de tenir hàbits sostenibles analitzant d'una manera crítica les activitats pròpies i alienes i basant-se en els raonaments propis, coneixements adquirits i informació disponible."
           },
           {
             "codi": "CA5.3",
-            "text": "Interpretar i comunicar informació presentada en taules, gràfiques, mapes geològics senzills, fotografies i esquemes de processos biològics."
+            "text": "Justificar la necessitat de tenir hàbits saludables, analitzant les accions pròpies i alienes (alimentació, higiene, postura corporal, activitat física, desplaçaments, relacions interpersonals, descans, exposició a les pantalles, maneig de l'estrès, seguretat en les pràctiques sexuals, consum de substàncies...), amb actitud crítica i basant-se en fonaments de la fisiologia."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Identificar algunes situacions en què els coneixements derivats de la biologia i la geologia poden contribuir a millorar la sostenibilitat ambiental i la salut individual i col·lectiva."
+          },
+          {
+            "codi": "CA5.5",
+            "text": "Emprendre, de manera guiada i amb la metodologia adequada, projectes científics relacionats amb la millora de la societat i que afavoreixin el creixement entre iguals com a base d'una comunitat científica escolar crítica i ètica."
+          },
+          {
+            "codi": "CA5.6",
+            "text": "Justificar la necessitat de la seguretat i la sostenibilitat en la mobilitat de les persones i preveure les conseqüències del comportament viari tant per a la pròpia persona com per a altres, des de la perspectiva de la salut i el medi ambient."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA5.1",
-            "text": "Elaborar treballs i projectes científics usant formats variats (informe de recerca, article científic divulgatiu, vídeo explicatiu) amb rigor i creativitat."
+            "text": "Justificar amb fonaments científics la importància de la preservació de la biodiversitat, la conservació de l'entorn, la protecció dels éssers vius de l'entorn, el desenvolupament sostenible i la qualitat de vida i identificar els possibles riscos naturals potenciats per determinades accions humanes sobre una zona geogràfica, tenint en compte les seves característiques litològiques, el relleu i la vegetació."
           },
           {
             "codi": "CA5.2",
-            "text": "Interpretar i comunicar informació científica complexa (mapes geològics, arbres filogenètics, cariotips, gràfiques evolutives) de manera precisa i fonamentada."
+            "text": "Argumentar sobre la necessitat de tenir hàbits sostenibles, analitzant les accions pròpies i alienes (hàbits de consum, generació residus, transport...), amb actitud crítica i basant-se en fonaments del funcionament dels sistemes naturals."
           },
           {
             "codi": "CA5.3",
-            "text": "Participar en debats científics sobre temes biològics i geològics d'actualitat, argumentant posicions amb evidències i respectant les opinions dels altres."
+            "text": "Argumentar sobre la necessitat de tenir hàbits saludables, analitzant les accions pròpies i alienes (alimentació, higiene, postura corporal, activitat física, desplaçaments segurs, relacions interpersonals, descans, exposició a les pantalles, maneig de l'estrès, seguretat en les pràctiques sexuals, consum de substàncies...), amb actitud crítica i basant-se en fonaments de la fisiologia."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Argumentar, justificant les raons aportades, sobre com els coneixements derivats de la biologia i la geologia poden contribuir a millorar la sostenibilitat ambiental i la salut individual i col·lectiva."
+          },
+          {
+            "codi": "CA5.5",
+            "text": "Emprendre, de forma autònoma amb la metodologia adequada, projectes científics relacionats amb la millora de la societat i que afavoreixin el creixement entre iguals com a base d'una comunitat científica escolar crítica i ètica."
+          },
+          {
+            "codi": "CA5.6",
+            "text": "Adoptar actituds compromeses i actives davant de pràctiques, comportaments i hàbits per a una mobilitat segura i sostenible que suposen un risc per a la nostra salut, contrastant informacions fiables, objectives i amb una base científica vàlida."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "bloc_competencial": "ciencia_tecnologia_societat",
-      "text": "Reconèixer el paper de la ciència i la tecnologia en la comprensió i transformació de la realitat biològica i geològica, valorant les implicacions ètiques, socials i ambientals del progrés científic.",
-      "competencies_clau": [
-        "STEM",
-        "CC",
-        "CD",
-        "CE"
-      ],
+      "text": "Analitzar els elements del paisatge, utilitzant de forma integrada els coneixements procedents de la biologia, la geologia i les ciències ambientals per explicar-ne l'origen i la possible evolució, així com les característiques de la comunitat d'organismes, la dinàmica del relleu i els possibles riscos naturals.",
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA6.1",
-            "text": "Identificar aportacions rellevants de la biologia i la geologia al progrés de la humanitat, reconeixent el caràcter provisional i acumulatiu del coneixement científic."
+            "text": "Identificar els diferents elements del paisatge i justificar el seu grau de desenvolupament."
           },
           {
             "codi": "CA6.2",
-            "text": "Valorar la contribució de dones i homes de manera equitativa al desenvolupament de la biologia i la geologia al llarg de la història."
+            "text": "Reconèixer la transformació dels paisatges associada als canvis geològics, biològics i ambientals que experimenten."
           },
           {
             "codi": "CA6.3",
-            "text": "Reconèixer aplicacions tecnològiques basades en coneixements biològics i geològics (biotecnologia, georecursos, medicina) presents en la vida quotidiana."
+            "text": "Relacionar les activitats humanes amb els impactes que reben els paisatges."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar les implicacions ètiques, socials i ambientals de les biotecnologies actuals (edició gènica, teràpia gènica, OGM), adoptant posicions crítiques i fonamentades."
+            "text": "Justificar les relacions i la influència mútua que mantenen els diferents elements del paisatge."
           },
           {
             "codi": "CA6.2",
-            "text": "Relacionar els avenços en biologia molecular i geologia amb reptes globals actuals (canvi climàtic, pandèmies, gestió de recursos naturals), valorant el paper de la ciència."
+            "text": "Relacionar el grau de desenvolupament integral d'un paisatge amb els esdeveniments biològics, geològics i ambientals esdevinguts."
           },
           {
             "codi": "CA6.3",
-            "text": "Reconèixer la importància de la col·laboració internacional en la recerca biològica i geològica per abordar reptes globals, valorant el coneixement científic com a bé comú."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE7",
-      "bloc_competencial": "dimensio_socioemocional",
-      "text": "Desenvolupar actituds científiques com la curiositat, el rigor, la perseverança i el treball cooperatiu, gestionant les pròpies emocions davant de la incertesa i l'error, per construir una identitat positiva com a aprenent de ciències.",
-      "competencies_clau": [
-        "CPSAA",
-        "CC",
-        "STEM"
-      ],
-      "criteris_avaluacio": {
-        "1r_3r": [
-          {
-            "codi": "CA7.1",
-            "text": "Mostrar curiositat i interès per l'observació i l'estudi dels éssers vius i els fenòmens geològics de l'entorn proper, valorant la naturalesa com a font de coneixement."
+            "text": "Identificar i analitzar críticament les activitats humanes que impacten en el paisatge i fer propostes plausibles de reversió."
           },
           {
-            "codi": "CA7.2",
-            "text": "Afrontar amb perseverança les dificultats pròpies de l'aprenentatge de les ciències, gestionant la frustració i aprenent dels errors en les investigacions."
+            "codi": "CA6.4",
+            "text": "Identificar els principals riscos geològics derivats de causes naturals o antròpiques i proposar mesures de prevenció i correcció."
           },
           {
-            "codi": "CA7.3",
-            "text": "Cooperar en treballs i investigacions científiques en grup, valorant les aportacions dels companys i assumint responsabilitats compartides."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA7.1",
-            "text": "Desenvolupar una actitud científica autònoma i rigorosa davant de fenòmens biològics i geològics complexos, gestionant la incertesa pròpia de la investigació científica."
-          },
-          {
-            "codi": "CA7.2",
-            "text": "Liderar i participar activament en projectes científics cooperatius, distribuint tasques, resolent conflictes i valorant la diversitat de perspectives com a enriquiment."
-          },
-          {
-            "codi": "CA7.3",
-            "text": "Reflexionar sobre el propi procés d'aprenentatge en biologia i geologia, identificant fortaleses i àrees de millora per regular l'aprenentatge de manera autònoma."
+            "codi": "CA6.5",
+            "text": "Deduir i explicar la història d'un paisatge concret identificar-ne els elements més rellevants, utilitzant el raonament, els coneixements sobre la successió i els principis geològics bàsics (horitzontalitat, superposició, actualisme, neocatastrofisme...)."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r_3r": {
-      "organitzacio_dels_essers_vius": {
-        "descripcio": "Estudi de l'organització dels éssers vius des del nivell cel·lular fins al nivell de l'organisme, incloent la classificació dels grans grups i les funcions vitals.",
-        "subapartats": {
-          "la_cellula": [
-            "La cèl·lula com a unitat de vida: estructura i funció dels orgànuls cel·lulars principals (membrana, nucli, mitocondri, cloroplast, reticle endoplasmàtic, aparell de Golgi).",
-            "Diferències entre cèl·lula procariota i eucariota. Cèl·lules animals i vegetals: similituds i diferències.",
-            "Observació de cèl·lules amb el microscopi òptic: preparació de mostres senzilles i interpretació d'imatges microscòpiques.",
-            "Divisió cel·lular: mitosi com a base del creixement i la reparació dels éssers vius."
-          ],
-          "classificacio_dels_essers_vius": [
-            "Criteris de classificació dels éssers vius: els cinc regnes (moneres, protoctists, fongs, plantes i animals) i els seus principals representants.",
-            "Ús de claus dicotòmiques senzilles per a la identificació d'espècies de l'entorn proper.",
-            "Biodiversitat local i global: valor de la diversitat biològica i principals amenaces."
-          ],
-          "funcions_vitals": [
-            "Les tres funcions vitals: nutrició, relació i reproducció. Definició i exemples en organismes diversos.",
-            "Reproducció sexual i asexual: comparació de ventatges i desavantatges en organismes dels cinc regnes.",
-            "Nutrició autòtrofa (fotosíntesi) i heteròtrofa: comparació i importància per als ecosistemes."
-          ]
-        }
-      },
-      "esser_huma_salut": {
-        "descripcio": "Estudi de l'anatomia i la fisiologia dels principals sistemes de l'organisme humà, relacionant el seu funcionament amb els hàbits de vida saludables.",
-        "subapartats": {
-          "sistemes_i_aparells": [
-            "Aparell digestiu: òrgans, funció i procés de la digestió. Principals nutrients i la seva importància per a l'organisme.",
-            "Aparell circulatori: cor, vasos sanguinis i sang. El doble circuit circulatori. Principals malalties cardiovasculars i prevenció.",
-            "Aparell respiratori: òrgans i mecànica respiratòria. Intercanvi de gasos. Efectes del tabac i la contaminació sobre la salut respiratòria.",
-            "Aparell excretor: ronyons, formació de l'orina i eliminació de productes de rebuig. Importància de la hidratació.",
-            "Sistema nerviós: organització (SNC i SNP), l'arc reflex, el cervell i les seves funcions. Higiene mental i efectes de les substàncies addictives.",
-            "Sistema endocrí: glàndules endocrines principals i les seves hormones. Regulació hormonal del cos.",
-            "Sistema locomotor: esquelet i músculs. Articulacions i moviment. Prevenció de lesions."
-          ],
-          "salut_i_malaltia": [
-            "Concepte de salut integral (física, mental i social). Factors que influeixen en la salut.",
-            "Malalties infeccioses: agents patògens (bacteris, virus, fongs, paràsits), vies de transmissió i mecanismes de defensa de l'organisme.",
-            "El sistema immunitari: immunitat innata i adquirida. Vacunes i seroprevencció.",
-            "Malalties no infeccioses: causes, prevenció i tractament de les principals malalties cròniques (diabetis, obesitat, malalties cardiovasculars).",
-            "Primers auxilis bàsics: actuació davant de ferides, cremades, fractures i ofegament. RCP bàsica.",
-            "Conductes de risc per a la salut: substàncies addictives (tabac, alcohol, drogues), sedentarisme, malnutrició."
-          ],
-          "aparell_reproductor": [
-            "Aparell reproductor masculí i femení: òrgans i funcions. El cicle menstrual.",
-            "Fecundació, embaràs i part: etapes del desenvolupament embrionari.",
-            "Mètodes anticonceptius: mecanisme d'acció i eficàcia. Infeccions de transmissió sexual (ITS) i prevenció.",
-            "Sexualitat i afectivitat: respecte, diversitat i consentiment en les relacions."
-          ]
-        }
-      },
-      "plantes_animals_ecosistemes": {
-        "descripcio": "Estudi de la diversitat, l'anatomia i la fisiologia de plantes i animals, i de les relacions entre els éssers vius i el medi en els ecosistemes.",
-        "subapartats": {
-          "plantes": [
-            "Diversitat de plantes: briòfits, pteridòfits, gimnospermes i angiospermes. Adaptacions al medi terrestre.",
-            "Anatomia i fisiologia vegetal: arrel, tija, fulla i flor. Funcions de nutrició (fotosíntesi i respiració), relació i reproducció.",
-            "Fotosíntesi: reacció global, factors que la afecten i importància per als ecosistemes i l'atmosfera.",
-            "Reproducció de les plantes: pol·linització, fecundació, formació del fruit i la llavor. Dispersió de llavors."
-          ],
-          "animals": [
-            "Diversitat animal: invertebrats (porifer, cnidaris, mol·luscs, anèl·lids, artròpodes, equinoderms) i vertebrats (peixos, amfibis, rèptils, ocells i mamífers). Criteris de classificació.",
-            "Adaptacions dels animals al medi: formes de locomoció, nutrició, relació i reproducció en els principals grups.",
-            "Etologia bàsica: conductes instintives i apreses, comunicació animal, conducta social."
-          ],
-          "ecosistemes": [
-            "Components dels ecosistemes: factors abiòtics i biòtics. Hàbitat i nínxol ecològic.",
-            "Relacions tròfiques: cadenes i xarxes alimentàries. Productors, consumidors i descomponedors. Piràmides ecològiques.",
-            "Cicles biogeoquímics: cicle del carboni, del nitrogen i de l'aigua. Importància per al manteniment de la vida.",
-            "Principals biomes i ecosistemes de Catalunya i del món: característiques i fauna i flora representatives.",
-            "Alteracions dels ecosistemes: contaminació, deforestació, espècies invasores, canvi climàtic. Mesures de conservació."
-          ]
-        }
-      },
-      "geologia_geodinamica": {
-        "descripcio": "Estudi de la composició i estructura de la Terra, dels minerals i les roques, i dels processos geològics interns i externs que modelen el relleu terrestre.",
-        "subapartats": {
-          "minerals_i_roques": [
-            "Els minerals: definició, propietats (duresa, color, lluentor, clivatge, exfoliació) i classificació. Minerals més comuns.",
-            "Les roques: formació i classificació en magmàtiques, sedimentàries i metamòrfiques. El cicle de les roques.",
-            "Identificació de minerals i roques de Catalunya: recursos geològics locals i la seva importància econòmica.",
-            "Ús dels minerals i les roques en la societat: construcció, indústria, agricultura."
-          ],
-          "geodinamica_interna": [
-            "Estructura interna de la Terra: escorça, mantell i nucli. Mètodes d'estudi de l'interior terrestre.",
-            "La tectònica de plaques: evidències, moviment de les plaques i conseqüències (terratrèmols, volcans, formació de muntanyes).",
-            "Terratrèmols: causes, ones sísmiques, mesura (escales de Richter i Mercalli) i prevenció de riscos.",
-            "Volcans: estructura, tipus d'erupcions i productes volcànics. Distribució geogràfica i riscos."
-          ],
-          "geodinamica_externa": [
-            "Meteorització física i química: agents i efectes sobre les roques. Formació del sòl.",
-            "Erosió, transport i sedimentació: agents geològics externs (aigua, vent, gel) i les seves formes de relleu.",
-            "El relleu de Catalunya: principals unitats morfoestructurals i la seva origen geològic.",
-            "Riscos geològics externs: esllavissades, inundacions, erosió costanera. Prevenció i gestió del risc."
-          ]
-        }
-      },
-      "tecnologia_ciencia_societat": {
-        "descripcio": "Relació entre el coneixement biològic i geològic, el progrés tecnològic i els reptes socials i ambientals del món actual.",
-        "subapartats": {
-          "ciencia_i_tecnologia": [
-            "El mètode científic: observació, hipòtesi, experimentació, anàlisi de resultats i conclusions. Caràcter provisional del coneixement científic.",
-            "Instruments científics: microscopi, lupa binocular, instruments de camp. Normes de seguretat al laboratori.",
-            "Ús de tecnologies digitals en biologia i geologia: sensors, simuladors, bases de dades científiques."
-          ],
-          "ciencia_i_societat": [
-            "La ciència com a activitat humana: paper de dones i homes en la història de la biologia i la geologia.",
-            "Aplicacions de la biologia i la geologia en la vida quotidiana: medicina, agricultura, mineria, construcció.",
-            "Reptes globals relacionats amb la biologia i la geologia: canvi climàtic, pèrdua de biodiversitat, gestió de residus."
-          ]
-        }
-      }
-    },
-    "4t": {
-      "genetica_evolucio": {
-        "descripcio": "Estudi dels mecanismes de transmissió hereditària, la base molecular de la genètica i els processos evolutius que expliquen la diversitat de la vida.",
-        "subapartats": {
-          "bases_de_la_herencia": [
-            "Material genètic: ADN, estructura de doble hèlix i funció. Cromosomes, gens i al·lels.",
-            "El cariotip humà: autosomes i cromosomes sexuals. Diagnòstic citogenètic i les seves aplicacions.",
-            "Divisió cel·lular: mitosi i meiosi. Importància de la meiosi en la variabilitat genètica."
-          ],
-          "genetica_mendeliana": [
-            "Lleis de Mendel: dominància, segregació i assortiment independent. Resolució de problemes de genètica mendeliana.",
-            "Herència lligada al sexe: daltonisme, hemofília. Resolució de problemes.",
-            "Herència no mendeliana: codominància, herència poligènica, epistasi. Exemples humans."
-          ],
-          "genetica_molecular": [
-            "Flux de la informació genètica: replicació de l'ADN, transcripció i traducció. El codi genètic.",
-            "Mutacions: tipus (gèniques, cromosòmiques, genòmiques), causes i conseqüències. Síndrome de Down i altres anomalies cromosòmiques.",
-            "Biotecnologia bàsica: PCR, electroforesi, clonació, organismes genèticament modificats (OGM). Aplicacions i implicacions ètiques.",
-            "Projecte Genoma Humà: resultats, aplicacions en medicina (teràpia gènica, farmacogenòmica) i qüestions ètiques."
-          ],
-          "evolucio": [
-            "Proves de l'evolució: registre fòssil, anatomia comparada (òrgans homòlegs i anàlegs), embriologia, biogeografia i biologia molecular.",
-            "Teories evolutives: lamarckisme, darwinisme i teoria sintètica de l'evolució. Selecció natural.",
-            "Mecanismes evolutius: mutació, recombinació, deriva genètica, flux gènic i selecció natural. Especiació.",
-            "Evolució humana: principals etapes de l'hominització. Homo sapiens i la seva expansió per la Terra.",
-            "Biodiversitat com a resultat de l'evolució: valor de la diversitat biològica i amenaces actuals."
-          ]
-        }
-      },
-      "geologia_dinamica_interna": {
-        "descripcio": "Estudi aprofundit de la dinàmica interna de la Terra, la història geològica i els recursos geològics, incloent les implicacions per a la societat.",
-        "subapartats": {
-          "tectonica_plaques_aprofundiment": [
-            "Teoria de la tectònica de plaques: fonaments, evidències i consens científic actual.",
-            "Tipus de límits de plaques: convergents, divergents i transformants. Processos i formes de relleu associats.",
-            "Orogènesi: formació de les grans serralades. La formació del relleu de la Península Ibèrica.",
-            "Riscos tectònics: predicció i prevenció de terratrèmols i erupcions volcàniques."
-          ],
-          "historia_geologica": [
-            "Principis d'estratigrafia: superposició, horizontalitat original, continuïtat lateral. Lectura d'un tall geològic.",
-            "Datació relativa i absoluta: fòssils guia, radiometria. Escala del temps geològic.",
-            "Història geològica de la Terra: principals eres geològiques, esdeveniments clau (orogènies, extincions massives, derives continentals).",
-            "Geologia de Catalunya: unitats geològiques, principals materials i recursos."
-          ],
-          "recursos_geologics": [
-            "Minerals i roques com a recursos: extracció, ús i impacte ambiental de la mineria.",
-            "Combustibles fòssils: formació, reserves mundials, ús energètic i impacte climàtic. Alternatives renovables.",
-            "Aigues subterrànies: aqüífers, contaminació i gestió sostenible.",
-            "Gestió sostenible dels recursos geològics: economia circular, reciclatge de materials, reducció de l'impacte ambiental."
-          ]
-        }
-      },
-      "ecologia_medi_ambient": {
-        "descripcio": "Estudi aprofundit de les relacions ecològiques, la dinàmica dels ecosistemes i els principals problemes ambientals globals, amb propostes de solució.",
-        "subapartats": {
-          "dinamica_ecosistemes": [
-            "Flux d'energia i cicle de matèria en els ecosistemes. Eficiència ecològica i limitacions.",
-            "Successions ecològiques: primàries i secundàries. Clímax i pertorbacions.",
-            "Regulació de poblacions: creixement, capacitat de càrrega, competència intraespecífica i interespecífica.",
-            "Relacions entre espècies: depredació, parasitisme, comensalisme, mutualisme. Exemples rellevants."
-          ],
-          "problemes_ambientals_globals": [
-            "Canvi climàtic: causes (efecte hivernacle, emissions de GEH), evidències actuals, conseqüències i solucions.",
-            "Pèrdua de biodiversitat: taxes actuals d'extinció, causes principals i impacte en els ecosistemes i la societat.",
-            "Contaminació: tipus (atmosfèrica, hídrica, edàfica, lumínica, acústica), fonts i efectes sobre la salut i els ecosistemes.",
-            "Gestió sostenible dels ecosistemes: àrees protegides, restauració ecològica, economia circular, Agenda 2030."
-          ]
-        }
-      }
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l'enfocament competencial dels aprenentatges. Això modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer, segon i tercer curs Projecte científic - Formulació de preguntes, hipòtesis i conjectures científiques. - Estratègies d'utilització d'eines digitals per a la cerca d'informació, col·laboració i comunicació de processos, resultats o idees en diferents formats (presentació, gràfica, vídeo, pòster, informe…) en el context de problemes investigables. - Reconeixement i utilització de fonts fiables d'informació científica. - Disseny de recerques, experiments i estudis observacionals, per respondre a una qüestió científica determinada fent servir instruments i espais (laboratori, aules, entorn…) de manera adequada. - Elaboració de maquetes i models per a la representació i comprensió de conceptes, processos o elements de la natura. - Utilització de diferents mètodes d'observació i presa de dades de fenòmens naturals en el context de problemes investigables. - Utilització de diferents mètodes estadístics d'anàlisi de resultats i diferenciació entre correlació i causalitat. - Contribució de les grans científiques i científics al desenvolupament de les ciències biològiques i geològiques. Geologia - Relació i diferenciació entre el concepte de roca i mineral. - Ús d'estratègies de classificació de les roques sedimentàries, metamòrfiques i ígnies de l'entorn. - Identificació d'algunes roques i minerals rellevants de l'entorn. - Relació de determinats objectes i materials quotidians amb els minerals i les roques que s'utilitzen en la seva fabricació i anàlisi de casos amb impacte econòmic i social. - Anàlisi de l'estructura bàsica de la geosfera i relació amb el seu origen. La cèl·lula - Reflexió i justificació sobre la cèl·lula com a unitat estructural i funcional de tots els éssers vius, el cas dels virus. - Diferenciació entre la cèl·lula procariota i l'eucariota i identificació dels organismes de què formen part. - Diferenciació entre la cèl·lula animal i vegetal i relació amb l'estratègia nutritiva dels organismes de què formen part. - Relació entre el material genètic i les funcions que exerceix qualsevol tipus cel·lular. - Ús del microscopi i de diferents tècniques per a l'observació i la comparació de tipus de cèl·lules al microscopi. Éssers vius - Observació i identificació de les característiques distintives d'espècies representatives de l'entorn proper i ubicació dels principals grups taxonòmics corresponents (regne). - Ús d'estratègies per al reconeixement de les espècies més comunes dels ecosistemes de l'entorn (guies, claus dicotòmiques, eines digitals, visualment…). Ecologia i sostenibilitat - Identificació dels elements integrants de diferents ecosistemes de l'entorn, així com de les relacions intraespecífiques i interespecífiques que tenen. - Reconeixement de la importància de la conservació dels ecosistemes, la biodiversitat i la implantació d'un model de desenvolupament sostenible. Anàlisi de la relació de la sostenibilitat amb alguns ODS (ODS 11. Ciutats i comunitats sostenibles; ODS 12. Consum i producció responsables; ODS 13. Acció climàtica). - Anàlisi de les funcions de l'atmosfera i la hidrosfera i el seu paper essencial per a la vida a la Terra a partir dels impactes que genera l'activitat humana i dels riscos que se'n deriven. - Descripció de la importància de diferents interaccions entre atmosfera, hidrosfera, geosfera i biosfera en processos clau per a la vida. - Anàlisi de comportaments relacionats amb les causes del canvi climàtic i de les conseqüències sobre els ecosistemes i la vida de les persones. Anàlisi de la relació de la sostenibilitat amb alguns ODS (ODS 14. Vida submarina; ODS 15. Vida terrestre). - Valoració de la importància dels hàbits i producció sostenibles (consum responsable, gestió de residus, respecte al medi ambient…). Cos humà - Reflexió sobre les necessitats de l'organisme humà relatives a la seva supervivència i relació amb el conjunt d'aparells i sistemes d'òrgans que integren el cos humà. - Relació entre l'anatomia, la fisiologia i la funció dels aparells i sistemes d'òrgans implicats en les diferents necessitats (nutrició, relació, reproducció). - Investigació sobre situacions i problemes relatius a la salut relacionats amb l'anatomia i la fisiologia de l'organisme humà. Hàbits saludables - Comparació i valoració de dietes saludables i no recomanables a partir de la identificació dels seus components. - Diferenciació entre sexe, gènere, identitat i orientació sexual i valoració de la importància del respecte vers la llibertat i la diversitat sexual. - Investigació i reflexió sobre situacions relatives a les malalties de transmissió sexual i els embarassos no desitjats i la importància de la seva prevenció mitjançant l'ús d'anticonceptius i pràctiques sexuals responsables. - Investigació, reflexió i debat sobre situacions relatives a temes afectivosexuals, de manera respectuosa i responsable, avaluant idees preconcebudes mitjançant l'ús de fonts d'informació adequades. - Investigació, reflexió i debat sobre situacions relatives al consum de drogues (incloent-hi aquelles de curs legal) destacant els efectes perjudicials sobre la salut dels consumidors i les persones del seu entorn proper. - Valoració del desenvolupament d'hàbits encaminats a la conservació de la salut física, mental i social (higiene de son, hàbits posturals, ús responsable de les noves tecnologies, exercici físic, desplaçaments segurs, control de l'estrès…). Salut i malaltia - Anàlisi dels factors que incideixen sobre la salut i de les causes de les malalties. - Diferenciació entre malaltia i símptomes, exploració i diagnòstic a partir de casos concrets. - Estudi dels tipus de fàrmacs més comuns a la farmaciola i diferenciació de la seva acció terapèutica. - Diferenciació de les malalties infeccioses i raonament sobre les mesures de prevenció i tractaments en funció de l'agent causant i la reflexió sobre l'ús adequat dels antibiòtics i de l'automedicació. - Anàlisi dels diferents tipus de mecanismes de defensa de l'organisme davant d'agents patògens (barreres externes i sistema immunitari) i el seu paper en la prevenció i la superació de malalties infeccioses. - Argumentació sobre la importància de la vacunació en la prevenció de malalties i la millora de la qualitat de vida humana a partir de l'anàlisi de casos. - Valoració de la importància dels trasplantaments i la donació d'òrgans. Quart curs Projecte científic - Formulació de preguntes, hipòtesis i conjectures científiques. - Estratègies d'utilització d'eines digitals per a la cerca d'informació, col·laboració i comunicació de processos, resultats o idees en diferents formats (presentació, gràfica, vídeo, pòster, informe…) en el context de problemes investigables. - Reconeixement i utilització de fonts fiables d'informació científica. - Argumentació sobre l'essencialitat d"
     }
+  ],
+  "_validacio": {
+    "fragments_ok": 84,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
   }
 }

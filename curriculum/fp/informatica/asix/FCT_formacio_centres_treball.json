@@ -3,136 +3,17 @@
     "familia": "fp",
     "cicle_formatiu": "ASIX",
     "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
-    "familia_professional": "Informàtica i Comunicacions",
     "grau": "superior",
-    "rd_titol": "RD 1629/2009",
-    "resolucio_cat": "Resolució ENS/1812/2012",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2009/11/04/pdfs/BOE-A-2009-17458.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul de Formació en Centres de Treball (FCT) és l’estada pràctica en empresa que clou el cicle formatiu ASIX, permetent a l’alumne aplicar les competències adquirides en un entorn laboral real. Constitueix una oportunitat professional de primer ordre: molts alumnes obtenen la seva primera oferta de feina a partir de la FCT, en rols d’administrador de sistemes, tècnic de xarxes o suport TIC en organitzacions de tots els sectors.\n\nDurant l’estada, l’alumne participa en les tasques quotidianes del departament TIC de l’empresa: administració de servidors Windows i Linux, gestió de còpies de seguretat, configuració de xarxes, suport a usuaris, implantació d’aplicacions o participació en projectes d’infraestructura. El seguiment es formalitza mitjançant un diari d’activitats, tutories periòdiques amb el tutor d’empresa i el tutor docent, i l’avaluació final a partir dels informes de l’empresa i la memòria de l’alumne.\n\nLa FCT es desenvolupa en empreses del sector TIC (integradors de sistemes, MSPs, empreses de serveis informàtics) o en departaments TIC d’organitzacions de qualsevol sector. L’alumne s’integra en l’equip de treball, seguint els protocols, horaris i cultura professional de l’empresa. La duració és de 383 hores i es realitza un cop superats tots els mòduls professionals del cicle."
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "FCT",
-    "nom": "Formació en Centres de Treball",
+    "nom": "Formació en centres de treball",
     "hores_totals": 383,
-    "uf": [
-      {
-        "codi": "UF1",
-        "nom": "Estada en empresa",
-        "hores": 383,
-        "resultats_aprenentatge": [
-          {
-            "codi": "RA1",
-            "text": "S'integra a l'empresa o entitat, actuant d'acord amb la seva organització, normes internes i cultura corporativa, identificant els canals de comunicació i les relacions jeràrquiques establertes.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA1.1",
-                "text": "S'ha identificat l'estructura organitzativa de l'empresa i el lloc que ocupa el departament d'informàtica o sistemes.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA1.2",
-                "text": "S'ha actuat de manera responsable i professional en el lloc de treball, respectant les normes internes i els horaris establerts.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA1.3",
-                "text": "S'ha comunicat eficaçment amb el tutor/a d'empresa i amb els companys, adaptant el registre a cada situació.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA1.4",
-                "text": "S'han identificat i aplicat les polítiques de confidencialitat, privacitat de dades i seguretat de la informació de l'empresa.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA1.5",
-                "text": "S'ha mostrat iniciativa i disposició per aprendre, adaptant-se als canvis i als nous requeriments de l'entorn laboral.",
-                "pes_percentual": 20
-              }
-            ]
-          },
-          {
-            "codi": "RA2",
-            "text": "Executa tasques professionals pròpies del perfil d'administrador/a de sistemes informàtics en xarxa, aplicant els coneixements i les habilitats adquirits al llarg del cicle formatiu.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA2.1",
-                "text": "S'han instal·lat, configurat i administrat sistemes operatius i serveis de xarxa en entorns reals d'empresa.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA2.2",
-                "text": "S'han resolt incidències tècniques relacionades amb sistemes, xarxes o serveis, seguint els procediments establerts.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA2.3",
-                "text": "S'han realitzat tasques de manteniment preventiu i correctiu de la infraestructura informàtica de l'empresa.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA2.4",
-                "text": "S'ha participat en projectes d'implantació o millora de sistemes, contribuint activament a les tasques assignades.",
-                "pes_percentual": 25
-              }
-            ]
-          },
-          {
-            "codi": "RA3",
-            "text": "Aplica protocols de seguretat informàtica i bones pràctiques professionals en totes les tasques realitzades a l'empresa, minimitzant riscos i garantint la integritat dels sistemes.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA3.1",
-                "text": "S'han aplicat les polítiques de seguretat de l'empresa en la gestió d'usuaris, permisos i accessos als sistemes.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.2",
-                "text": "S'han realitzat còpies de seguretat i procediments de recuperació d'acord amb la política de backup de l'empresa.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.3",
-                "text": "S'han detectat i comunicat vulnerabilitats o comportaments anòmals dels sistemes al responsable corresponent.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.4",
-                "text": "S'ha actuat d'acord amb la normativa de protecció de dades (RGPD) i les obligacions legals de l'entorn professional.",
-                "pes_percentual": 25
-              }
-            ]
-          },
-          {
-            "codi": "RA4",
-            "text": "Actua amb autonomia i responsabilitat professional en la realització de les tasques assignades, demostrant capacitat de planificació, autogestió i millora contínua.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA4.1",
-                "text": "S'han planificat i organitzat les tasques assignades, establint prioritats i complint els terminis acordats.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA4.2",
-                "text": "S'han pres decisions tècniques adequades davant situacions no previstes, consultant al responsable quan ha estat necessari.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA4.3",
-                "text": "S'ha elaborat documentació de les tasques realitzades, incidències resoltes i configuracions aplicades.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA4.4",
-                "text": "S'ha avaluat de manera crítica la pròpia actuació professional, identificant àrees de millora i proposant accions correctives.",
-                "pes_percentual": 25
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "uf": []
   }
 }

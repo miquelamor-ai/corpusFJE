@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MITF",
+    "titol_cicle": "Manteniment d'Instal·lacions Tèrmiques i de Fluids",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/57/2017, de 31 de març, per la qual s'estableix el currículum del cicle formatiu de grau mitjà de manteniment i control de la maquinària de vaixells i embarcacions.",
+    "data_decret": "2017-03-31",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "manteniment de la planta propulsora i maquinària auxiliar",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "operació i control de la planta propulsora i dels equips auxiliars",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Efectua la preparació de la posada en marxa de la planta propulsora i maquinària auxiliar, verificant la funcionalitat dels seus elements i circuits auxiliars i aplicant les seqüències establertes en equips reals i/o simulats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les condicions i paràmetres de funcionament dels circuits de subministrament energètic i de fluids, utilitzant la documentació tècnica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Prepara el transvasament de combustible, tenint en compte l'estabilitat del vaixell i complint la normativa establerta."
+              },
+              {
+                "codi": "CA13",
+                "text": "Comprova que les depuradores de combustible i oli funcionen amb eficàcia i seguretat, ajustant els seus paràmetres de funcionament en cas necessari."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica que els compressors d'aire funcionen amb eficàcia i seguretat i que s'obtenen les pressions d'aire establertes, ajustant els seus paràmetres de funcionament en cas necessari."
+              },
+              {
+                "codi": "CA15",
+                "text": "Efectua l'arrencada/parada dels equips de producció i distribució d'aigua, aplicant els procediments establerts i comprovant que els paràmetres de funcionament s'ajusten als valors establerts.1.6 Comprova la disposició i operativitat dels elements i serveis essencials per iniciar la travessia (línia d'eixos, sistema de govern, sentines, llastos, ventilació i extracció en cambra de màquines, freqüència de purgat del sistema d'aire comprimit entre d'altres), aplicant-hi mesures correctives.1.7 Comprova els nivells de tancs i càrters, l'absència de pèrdues, la posició de les vàlvules i els valors de pressió i cabal dels circuits dels diferents serveis, justificant la seva disposició per a l'arrencada de la planta propulsora.1.8 Comprova que el sistema d'alarmes acústiques i visuals dels paràmetres de funcionament de la planta propulsora i les màquines i equips auxiliars, funcionin en el temps i forma requerits.1.9 Comprova que la planta propulsora del vaixell, màquines i equips auxiliars es posa en funcionament d'acord amb la normativa de prevenció de riscos laborals i mediambientals."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra capacitat per al treball en equip. 2. Efectua les operacions de posada en marxa/parada i control dels motors tèrmics i els seus sistemes auxiliars, aplicant les seqüències establertes en equips reals i/o simulats i justificant els rangs i paràmetres requerits en cada fase del procés. Criteris d'avaluació2.1 Comprova que la parada d'emergència per sobrevelocitat dels motors propulsors i auxiliars actua d'acord amb els paràmetres i seqüència establerts en la documentació tècnica.2.2 Verifica que les unitats de gestió electrònica del sistema d'encesa i del sistema d'injecció compleixen les especificacions fixades pel fabricant.2.3 Verifica que el sistema d'alimentació d'aire permet el funcionament correcte del motor propulsor desenvolupant el màxim rendiment energètic.2.3 Comprova el funcionament dels sistemes de lubricació del motor, controlant que s'assoleixen les pressions mínimes exigides i verificant l'absència de fuites.2.4 Verifica la refrigeració dels elements del motor, controlant la temperatura del refrigerant i comprovant la seva efectivitat en diferents règims de treball."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Posada en marxa de la planta propulsora i maquinària auxiliar",
+                "items": [
+                  "Interpretació de plànols i documentació tècnica dels equips i circuits auxiliars.",
+                  "Emmagatzematge, transvasament i tractament de combustibles, aigües i olis. Circuit de combustible: components. Normativa relacionada amb el maneig i emmagatzematge de combustible. Prevenció i lluita contra la contaminació per hidrocarburs. Circuits d'oli lubricant: components. Anàlisi i tractament d'aigua per a motors i calderes.",
+                  "Comprovació dels sistemes de purificació i clarificació de combustibles i olis. Constitució i funcionament d'una separadora centrifugadora. Determinació del disc de gravetat i la temperatura de treball.",
+                  "Verificació dels sistemes d'aire comprimit. Funcionament d'un compressor d'aire en diverses etapes. Circuits de distribució: vàlvules de seguretat, vàlvules de purga, vàlvules reguladores de pressió, endolls ràpids, mànegues.",
+                  "Sistema d'aigua dolça sanitària. Sistemes de producció per osmosi inversa i evaporació. Components i funcionament. Subsistemes de distribució d'aigua dolça freda i d'aigua dolça calenta. Producció d'aigua calenta.1.6 Comprovació de la disponibilitat de la línia d'eixos. Hèlixs de pales fixes. Sistema d'hèlix de pas variable. Mecanisme d'accionament de les pales orientables. Reductora: reductor inversor i reductora-embragatge.1.7 Comprovació del sistema de govern. El servomotor de govern i els seus components. Govern local i d'emergència. Comunicacions amb pont i sala de màquines. Servomotors de govern electrohidràulics.1.8 Comprovació dels sistemes de vaixell. Sistema per esgotament. Components. Espais del vaixell que han de ser esgotats. Pous i caixes de fang. Sistema de llast. Components. Llast necessari i la seva distribució. Separació d'aigües oleaginoses. Tractament d'aigües residuals. Tractament de residus sòlids. Prevenció de la contaminació. Normativa.1.9 Comprovació de circuits. Verificació de circuits sobre plànols i en equips reals. Identificació de components. Encebament d'una bomba centrífuga. Ejectors.",
+                  "Organització de les tasques. 2. Operacions de posada en marxa, parada i control de motors tèrmics i els seus sistemes auxiliars:2.1 Motors alternatius de combustió interna. Classificació: motors gasolina i dièsel de dos i quatre temps. Motors de gas. Funcionament. Constitució dels motors de combustió interna. Funcions de cadascuna de les peces del motor. Accessoris del motor: seguretat del càrter, detector de boira de càrter, control de fuites del circuit d'injecció, tancs d'expansió i tancs de gravetat, entre d'altres.2.2 Sistemes d'alimentació de combustible en motors dièsel, gasolina i gasos liquats de petroli GLP. Sistemes amb carburador: principis i tipus de carburadors. Sistemes amb injecció de gasolina. Injecció electrònica. Sistemes d'injecció dièsel: bombes rotatives, en línia i amb control electrònic. Injectors: tipus i funcionament.2.3 El circuit d'aire de càrrega. Motors d'aspiració natural i motors sobrealimentats. Sobrealimentació: turbocompressors. Refrigerador d'aire de càrrega.",
+                  "Sistemes d'arrencada i maniobra. Arrencada elèctrica. Components i funcionament. Arrencada pneumàtica. Components i funcionament. El regulador de velocitat. Funcionament i tipus.2.5 Sistemes d'encesa.2.6 Combustió. Sistema d'exhaustació: components. Contrapressions.2.7 Sistema de lubricació.2.8 Sistema de refrigeració.2.9 Seguretats del motor. Parades d'emergència. Per sobrevelocitat, per baixa pressió d'oli.2.10 Operacions d'arrencada i parada. Caracterització de fases: escalfament, arrencada, postarrencada, parada i refredament. Paràmetres que han de ser controlats. 3. Operació de plantes propulsores de vapor i de turbines de gas:3.1 Plantes de vapor a bord. Descripció general d'una planta propulsora de vapor.3.2 Operació i manteniment de calderes de vapor.3.3 Turbines de vapor. Principis de funcionament. Turboalternadors i turbobombes.3.4 Descripció general d'una planta propulsora amb turbines de gas.3.5 Principis de funcionament de les turbines de gas.3.6 Descripció dels components bàsics de la turbina de gas.",
+                  "Sistemes associats de la turbina de gas.3.8 Seqüència d'arrencada d'una turbina de gas.3.9 Procediments de les turbines de gas. Procediments d'arrencada i parada. Procediment de rentat. Procediment de refrigeració d'emergència. Procediment de posada en servei/retirada del sistema antigel.3.10 Procediments contra incendis a la turbina. 4. Prevenció de riscos laborals i mediambientals en els treballs de manteniment de la planta propulsora i maquinària auxiliar:4.1 Valoració de perill i risc.4.2 Identificació de perills i avaluació de riscos en les instal·lacions de màquines.4.3 Mesures de prevenció i resposta a contingències.4.4 Normativa actual.4.5 Mesures de precaució durant treballs d'operació i manteniment. Treballs en espais confinats. Riscos per treballs en alçada.4.6 Mitjans de protecció individual i col·lectiva. Equips de protecció individual (EPI). Senyalització de seguretat.4.7 Preparació de la zona de treball. Ordre, cura i neteja.4.8 Higiene en el treball.4.9 Manipulació de residus i productes perillosos. Sistema de recollida i eliminació de residus. Emmagatzematge i manipulació de productes perillosos.",
+                  "Investigació d'accidents. Recerca de les causes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "manteniment de la planta propulsora i dels equips auxiliars",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Duu a terme operacions de manteniment preventiu, predictiu i correctiu sobre equips de la planta propulsora i maquinària auxiliar, interpretant el pla de manteniment i seguint els procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix la seqüència i procediments de les operacions de manteniment de la planta propulsora i maquinària auxiliar, seguint les indicacions del pla de manteniment i la planificació de la travessia."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza la localització, desmuntatge, manteniment i muntatge d'elements d'acord amb la documentació tècnica, seleccionant els mitjans que s'han d'emprar"
+              },
+              {
+                "codi": "CA13",
+                "text": "Valora l'estat dels elements en relació amb les especificacions de manteniment per determinar el tipus d'intervenció que cal efectuar."
+              },
+              {
+                "codi": "CA14",
+                "text": "Aplica els serveis alternatius o d'emergència previstos durant les operacions de manteniment, complint amb les normes de seguretat laboral i ambiental."
+              },
+              {
+                "codi": "CA15",
+                "text": "Instal·la components en els sistemes de transvasament i purificació de combustibles i olis d'embarcacions, d'acord amb especificacions tècniques i procediments establerts, i complint amb la qualitat i la normativa de seguretat i ambiental.1.6 Realitza la instal·lació i el manteniment d'equips en els sistemes de conducció i abastament d'aigües de l'embarcació, ajustant els paràmetres necessaris per garantir la seva operativitat i complint especificacions tècniques, amb la qualitat i seguretat requerides.1.7 Neteja els bescanviadors de calor quan els paràmetres de pressió i temperatura així ho aconsellin.1.8 Duu a terme les proves funcionals i de fiabilitat, regulant els sistemes i verificant la restitució de la funcionalitat del conjunt.1.9 Elabora l'informe de l'avaria, utilitzant el procediment establert.1.10 Manté, conserva i actualitza en inventari els recanvis exigits per l'administració i societats classificadores, per a totes les màquines i equips que configuren la planta propulsora, en condicions òptimes per a la seva utilització immediata."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Duu a terme operacions de manteniment preventiu i correctiu sobre motors de combustió interna, aplicant els procediments establerts, complint amb la qualitat i seguretat requerides i seleccionant els estris i eines adequats. Criteris d'avaluació2.1 Fa el desmuntatge/muntatge dels sistemes alternatius biela-pistó del motor, calibrant les camises i substituint els components sotmesos al desgast (segments i coixinets entre d'altres).2.2 Aplica els parells d'acollament establerts pel constructor.2.3 Verifica que la pressió de descàrrega del sistema de sobrealimentació del motor a diferents règims és la requerida, comprovant pèrdues, sorolls i vibracions anormals.2.4 Fa el desmuntatge de culates, especejament, ajust de vàlvules i muntatge hermètic sobre el bloc del motor, verificant el seu estat i substituint les peces en mal estat.2.5 Fa el desmuntatge, neteja, esmerilat o rectificació, si cal, així com el muntatge i substitució de l'assentament de les vàlvules, seguint els procediments establerts pel fabricant.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA26",
+                "text": "Neteja/canvia toveres, tara injectors i cala la bomba d'injecció, d'acord amb les especificacions tècniques.2.7 Desmunta, verifica i munta el cigonyal del motor d'una embarcació esportiva o d'esbarjo, comprovant i substituint coixinets.2.8 Efectua la posada a punt de la distribució del motor d'una embarcació esportiva o d'esbarjo, substituint les peces desgastades o trencades.2.9 Desmunta/munta el sistema d'encesa d'un motor de gasolina, ajustant els paràmetres per obtenir les prestacions de funcionament establertes.2.10 Revisa/desmunta/munta els circuits de lubricació, refrigeració i combustible, amb les seves bombes corresponents substituint , si s'escau, les peces trencades o gastades.2.11 Recull informació sobre la funcionalitat i l'autodiagnosi del motor principal i serveis auxiliars en el diari de màquines i la té en compte procedint en conseqüència.2.12 Comprova l'abast de les disfuncions observades per determinar-ne l'origen, seguint un procés raonat de causa-efecte.2.13 Utilitza la documentació tècnica per diagnosticar l'estat, fallada o avaria del motor principal i utilitza els equips de mesura adequats, permetent la identificació de l'avaria i la causa que la provoca."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Manté sistemes de propulsió d'embarcacions auxiliars amb motors forabord, intraforabord i de raig d'aigua per garantir la seva eficiència energètica, aplicant els procediments establerts en la documentació tècnica i utilitzant els estris i eines requerits. Criteris d'avaluació3.1 Identifica sobre plànol, maqueta o equip real els components que configuren el sistema de propulsió d'una embarcació, relacionant-los amb la funció que fan.3.2 Efectua les operacions de posada en marxa, parada i parada d'emergència, seguint els procediments establerts en la documentació tècnica per comprovar la seva operativitat.3.3 Efectua operacions de manteniment per garantir l'eficiència energètica dels sistemes de propulsió, d'acord amb la documentació tècnica.3.4 Fa els ajustos de funcionament d'un sistema de propulsió de raig d'aigua (sistema de transmissió del motor, bomba hidràulica, cilindres hidràulics del servo, entre d'altres), complint els procediments establerts i verificant els paràmetres de funcionament òptim.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA35",
+                "text": "Repara les avaries més freqüents que es produeixen en els sistemes de propulsió d'embarcacions (sistema elèctric, pèrdues de compressió, embragatges, desgastos de pinyó i corona de la cua, entre d'altres), utilitzant els procediments i les eines requerits."
+              },
+              {
+                "codi": "CA36",
+                "text": "Fa les operacions de manteniment prèvies a una parada prolongada del motor, seguint els procediments establerts."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica el funcionament dels sistemes, segons condicions de qualitat i fiabilitat definides, comprovant el seu comportament (sorolls, vibracions i anomalies) i fent els ajustos necessaris."
+              },
+              {
+                "codi": "CA38",
+                "text": "Elabora els informes tècnics de les reparacions, descrivint la seqüència seguida, identificant les peces reparades o substituïdes i utilitzant el vocabulari tècnic de forma precisa i clara."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Manteniment de la planta propulsora i maquinària auxiliar",
+                "items": [
+                  "Realització d'operacions de manteniment. Operacions de manteniment preventiu. Pla de manteniment programat. Interpretació d'anàlisi d'olis.",
+                  "Operacions de localització, desmuntatge i muntatge de peces d'equips de la planta propulsora/maquinària auxiliar. Utilització de plànols i documentació tècnica. Interpretació de paràmetres. Utilització d'estris i eines especials.",
+                  "Procediments de comprovació d'elements.1.3.1 Maneig d'equips de mesurament i verificació.1.4 Procediments de funcionament d'emergència en cas de fallades o avaries d'equips.1.5 Instal·lació i manteniment de sistemes de transvasament i purificació de combustible i oli d'embarcacions.1.6 Manteniment i instal·lació d'equips dels sistemes de conducció i abastament d'aigües de l'embarcació.1.7 Proves funcionals i de fiabilitat.1.8 Condicions que s'han d'observar per a una bona comunicació.1.9 Elaboració d'informes d'avaries. 2. Manteniment de motors de combustió interna:2.1 Desmuntatge i muntatge d'un tren alternatiu.2.2 Desmuntatge i muntatge del sistema d'arrencada del motor.2.3 Verificació i localització d'avaries en sistemes de sobrealimentació.2.4 Desmuntatge i muntatge d'una culata. Ajust de vàlvules.2.5 Reglatge de vàlvules.2.6 Desmuntatge i muntatge d'injectors. Timbratge d'injectors.2.7 Calat de les bombes d'injecció al motor.2.8 Operacions de verificació, desmuntatge i muntatge de la cigonya d'una embarcació.",
+                  "Operacions de verificació, desmuntatge i muntatge d'elements del sistema de distribució en una embarcació.2.10 Desmuntatge, muntatge i ajust del sistema d'encesa d'un motor de gasolina. 3. Manteniment de sistemes de propulsió d'embarcacions auxiliars amb motors forabord, intraforabord i de raig d'aigua:3.1 Identificació de components de sistemes de propulsió d'embarcacions amb motors forabord, intraforabord i de raig d'aigua. Sistema d'embragatge i inversió de marxa. Cues en Z i cues en S. Fluids hidràulics.3.2 Manteniment del sistema de propulsió de raig d'aigua. Línia d'eix de transmissió motor-propulsor. Unitat bomba de l'hèlix. Servo de la unitat. Sistema hidràulic i de lubricació. Sistema de control.3.3 Operacions de posada en marxa, parada i parada d'emergència.3.4 Execució d'operacions de manteniment.3.5 Desmuntatge i muntatge del sistema de transmissió del motor en un sistema de raig d'aigua.3.6 Desmuntatge i muntatge del sistema hidràulic en un sistema de raig d'aigua.",
+                  "Identificació d'anomalies o fallades de funcionament. Avaries del sistema elèctric (generador, bobina, cables i bugia). Avaries del carburador (brutícia en xiclets, flotador, combustible contaminat, obstrucció de filtres d'aire i combustible). Pèrdues de compressió per desgast de camises, cèrcols i pistons. Desgastos de pinyó i corona de la cua. Avaries a l'embragatge. Normes de prevenció de riscos laborals i mediambientals.",
+                  "Manteniment previ a parades prolongades.",
+                  "Verificació dels manteniments o reparacions.",
+                  "Realització d'informes tècnics."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

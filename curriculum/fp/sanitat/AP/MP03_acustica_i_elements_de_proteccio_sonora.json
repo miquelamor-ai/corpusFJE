@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AP",
+    "titol_cicle": "Audiologia Protètica",
+    "grau": "superior",
+    "familia_professional": "Sanitat",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 114/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'audiologia protètica.",
+    "data_decret": "2012-10-09",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "acústica i elements de protecció sonora",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "característiques i paràmetres físics del so",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mesura els paràmetres físics del so, i en reconeix la naturalesa i en descriu les propietats físiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les característiques del moviment vibratori harmònic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu la propagació del moviment ondulatori."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els paràmetres de les ones sonores."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els fenòmens d’interferències entre les ones."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix el fenomen de la difracció."
+              },
+              {
+                "codi": "CA16",
+                "text": "Defineix les lleis de la reflexió i la refracció."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica el fenomen de focalització."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu els factors que intervenen en la velocitat de propagació del so."
+              },
+              {
+                "codi": "CA19",
+                "text": "Defineix les ones estacionàries sonores, les maneres normals de vibració i el fenomen de la ressonància acústica."
+              },
+              {
+                "codi": "CA110",
+                "text": "Aplica el teorema de Fourier per a l’anàlisi de les ones sonores complexes."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Mesura de paràmetres físics del so",
+                "items": [
+                  "Sons, infrasons i ultrasons.",
+                  "Paràmetres físics del so.",
+                  "Tipus d’ones sonores:",
+                  "Nivells acústics.",
+                  "Superposició d’ones sonores.",
+                  "Ressonància acústica.",
+                  "Difracció d’ones sonores.",
+                  "Acoblament d’impedàncies.",
+                  "Filtres acústics."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "psicoacústica",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina la percepció auditiva de l’individu i descriu els processos psicoacústics involucrats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix el rang dinàmic de l’oïda."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu el camuflament, els seus tipus i patrons."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu les característiques de la selectivitat freqüencial i discriminació de freqüències en persones normooients i amb pèrdua auditiva."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu la discriminació d’intensitat sonora i el fenomen subjectiu de sonoritat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu la discriminació freqüencial i el fenomen subjectiu de percepció tonal."
+              },
+              {
+                "codi": "CA16",
+                "text": "Explica el camuflament en la percepció sonora."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu les característiques de la resolució i de la integració temporal en l’audició normal i en la pèrdua auditiva."
+              },
+              {
+                "codi": "CA18",
+                "text": "Enuncia les teories de percepció del to."
+              },
+              {
+                "codi": "CA19",
+                "text": "Descriu els mecanismes de l’audició binaural."
+              },
+              {
+                "codi": "CA110",
+                "text": "Descriu les característiques de la percepció de la parla."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Determinació de la percepció auditiva",
+                "items": [
+                  "Rang dinàmic normal i patològic.",
+                  "L’efecte de l’emmascarament.",
+                  "Resolució de freqüència i discriminació de freqüències. Filtres auditius.",
+                  "Sonia, sensació d’intensitat.",
+                  "Percepció de la sonoritat. Llei de Weber-Fechner.",
+                  "Resolució freqüencial. Corbes psicoacústiques de sintonia de l’orella sana i de l’orella patològica.",
+                  "Resolució i integració temporal en l’audició normal i en la pèrdua auditiva.",
+                  "Audició binaural."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "acústica de sales",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya sales de camp sonor i relaciona les propietats del recinte amb les proves a efectuar.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les característiques acústiques de les sales de camp sonor."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu la normativa vigent."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona els materials per al condicionament acústic de la sala."
+              },
+              {
+                "codi": "CA14",
+                "text": "Determina la posició dels elements a la sala."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els mètodes de calibratge d’un camp acústic de mesura."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica procediments de determinació de llindars auditius per al calibratge de la sala."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza el sonòmetre per determinar l’adequació del condicionament de la sala."
+              },
+              {
+                "codi": "CA18",
+                "text": "Revisa l’equip visualment i acústicament en el rang de les freqüències d’examen."
+              },
+              {
+                "codi": "CA19",
+                "text": "Du a terme comprovacions electroacústiques en l’equip."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Disseny de sales de camp sonor",
+                "items": [
+                  "Característiques acústiques de les sales audiomètriques de camp sonor.",
+                  "Normativa sobre les característiques tècniques de les instal·lacions de camp sonor.",
+                  "Nivells sonors en recintes.",
+                  "Correcció acústica d’una sala. Aïllament acústic: tècniques i materials.",
+                  "Condicionament acústic.",
+                  "Sales audiomètriques: característiques físiques i acústiques."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "mesures acústiques i sonometria",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mesura nivells sonors i d’exposició al soroll amb l’aplicació de tècniques de sonometria.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu l’audició verbal i musical en un recinte tancat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les característiques acústiques de recintes oberts i tancats."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els paràmetres que determinen els nivells d’exposició al soroll."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu la normativa vigent en el mesurament de nivells sonors."
+              },
+              {
+                "codi": "CA15",
+                "text": "Mesura de nivells sonors en recintes oberts i tancats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora informes i mapes dels nivells sonors dels recintes avaluats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Mesura de nivells sonors i d’exposició al soroll",
+                "items": [
+                  "L’audició verbal i musical en recintes tancats.",
+                  "El so en espais oberts i tancats.",
+                  "Realització de mapes de soroll.",
+                  "Normativa vigent en matèria de mesurament de nivells sonors."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "elements de protecció sonora",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina necessitats de protecció auditiva i relaciona les mesures de l’entorn amb la normativa vigent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els efectes del soroll en l’audició humana."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els elements de protecció sonora i aïllament acústic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Enumera les recomanacions de protecció sobre exposició al soroll."
+              },
+              {
+                "codi": "CA14",
+                "text": "Selecciona el material de protecció acústica segons la normativa vigent."
+              },
+              {
+                "codi": "CA15",
+                "text": "Comprova l’efectivitat dels elements de protecció sonora."
+              },
+              {
+                "codi": "CA16",
+                "text": "Emet un informe amb les condicions d’ús dels protectors i comportament de les persones en l’entorn sorollós."
+              },
+              {
+                "codi": "CA17",
+                "text": "Demostra autonomia en la resolució de contingències."
+              },
+              {
+                "codi": "CA18",
+                "text": "Demostra interès per atendre les necessitats de l’usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Determinació de necessitats de protecció auditiva",
+                "items": [
+                  "Elements de protecció sonora.",
+                  "Legislació sobre protecció auditiva.",
+                  "Selecció i utilització de protectors auditius.",
+                  "Manteniment de protectors auditius."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

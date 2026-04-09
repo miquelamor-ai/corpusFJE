@@ -2,544 +2,145 @@
   "meta": {
     "familia": "lomloe",
     "etapa": "eso",
-    "area_materia": "Tecnologia i Digitalització",
-    "codi_area": "TD",
+    "area_materia": "Tecnologia",
+    "codi_area": "TEC",
     "decret": "175/2022",
     "data_decret": "2022-09-27",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Tecnologia.pdf",
-    "nota_estructura": "Tecnologia i Digitalització s'imparteix a tota l'ESO. Els criteris s'organitzen per agrupament: '1r_3r' (1r, 2n i 3r) i '4t'. Els sabers s'organitzen en blocs: tecnologia i societat, disseny i projectes, materials i fabricació, estructures i mecanismes, electrònica i control, i digitalització.",
-    "versio_schema": "1.0",
+    "font": "PDF oficial XTEC: Tecnologia.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
     "descripcio": "La Tecnologia a l'ESO és la matèria que desenvolupa en l'alumnat la competència per comprendre, analitzar i crear solucions tècniques als problemes de la vida quotidiana i de la societat. Combina el pensament tecnològic amb la pràctica de taller i el disseny, i prepara per a la Tecnologia i la Digitalització de Batxillerat, els cicles formatius de FP de la família industrial i per a qualsevol àmbit professional que requereixi competència tècnica.\n\nEls constructes disciplinaris fonamentals inclouen el procés tecnològic (identificació del problema, disseny, construcció, avaluació), els materials i les seves propietats (fusta, metall, plàstic, compostos), les estructures i els esforços (tracció, compressió, flexió, torsió), els mecanismes (engranatges, politges, biela-manovella), l'electricitat bàsica (circuits, llei d'Ohm, components) i la programació com a eina de control (blocs, Python bàsic, Arduino). El disseny assistit per ordinador (CAD) i la fabricació digital (impressió 3D, tall làser) completen el currículum.\n\nL'enfocament pedagògic és eminentment pràctic i basat en el projecte tecnològic: l'alumne dissenya, construeix i avalua artefactes reals al taller. La metodologia combina el treball manual amb eines, el disseny en CAD i la programació de microcontroladors. El treball en equip, la distribució de tasques i la memòria tècnica del projecte formen part de l'aprenentatge. L'avaluació integra el producte final, el procés de treball i la documentació tècnica elaborada."
   },
-  "competencies_clau": [
-    "STEM",
-    "CD",
-    "CCL",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
-  "blocs_sabers": [
-    "tecnologia_i_societat",
-    "disseny_i_projectes",
-    "materials_fabricacio_estructures",
-    "mecanismes_i_control",
-    "electronica_i_programacio",
-    "digitalitzacio"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "bloc_competencial": "resolucio_problemes_tecnologics",
-      "text": "Identificar i definir problemes tecnològics i de l'entorn, explorant les necessitats individuals i col·lectives, per proposar solucions creatives i innovadores mitjançant el procés de disseny.",
-      "competencies_clau": [
-        "STEM",
-        "CD",
-        "CE",
-        "CPSAA"
-      ],
+      "text": "Identificar i proposar problemes tecnològics amb iniciativa i creativitat, tot estudiant les necessitats de l’entorn proper, aplicant estratègies i processos col·laboratius i iteratius relatius a projectes, per idear i planificar solucions de manera eficient i innovadora.",
       "criteris_avaluacio": {
-        "nota": "A 1r-3r l'alumnat treballa amb problemes més delimitats i amb suport. A 4t s'espera major autonomia i complexitat en les propostes.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i definir problemes tecnològics o necessitats de l'entorn proper (personal, domèstic, escolar), recollint informació rellevant de forma estructurada."
+            "text": "Idear i planificar solucions tecnològiques emprenedores que generin un valor a la comunitat, a partir de l’observació i l’anàlisi de l’entorn més proper, tot estudiant les necessitats, els requisits i les possibilitats de millora."
           },
           {
             "codi": "CA1.2",
-            "text": "Generar idees i propostes de solució a problemes tecnològics usant tècniques de creativitat (pluja d'idees, mapas mentals, SCAMPER), seleccionant i justificant la solució adoptada."
+            "text": "Aplicar, amb iniciativa, estratègies col·laboratives de gestió de projectes amb perspectiva interdisciplinària, seguint un procés iteratiu de validació, des de la fase d’ideació fins a la resolució de problemes."
           },
           {
             "codi": "CA1.3",
-            "text": "Planificar el procés de disseny i construcció d'un prototip o solució tecnològica senzilla, identificant les fases, els materials i les eines necessàries."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Construir prototips o solucions tecnològiques senzilles seguint el pla de treball, usant materials, eines i tècniques de fabricació bàsiques amb seguretat."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA1.1",
-            "text": "Analitzar problemes tecnològics o necessitats socials amb autonomia, contextualitzant-los, identificant requisits i restriccions, i recollint informació de fonts diverses."
-          },
-          {
-            "codi": "CA1.2",
-            "text": "Generar i avaluar múltiples propostes de solució a problemes tecnològics complexos, usant tècniques de creativitat i criteris de viabilitat tècnica, econòmica i ambiental."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Planificar de manera autònoma el procés de disseny i construcció d'un projecte tecnològic, distribuint tasques, gestionant recursos i previent riscos."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Construir prototips o solucions tecnològiques de complexitat mitjana, integrant components de diferent naturalesa (mecànica, electrònica, digital), amb qualitat i seguretat."
+            "text": "Desenvolupar la gestió del projecte de manera creativa, aplicant estratègies i tècniques col·laboratives, així com mètodes de recerca per a la ideació de solucions eficients, innovadores i respectuoses amb el medi ambient."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "bloc_competencial": "disseny_i_representacio",
-      "text": "Representar i comunicar dissenys i solucions tecnològiques usant formes d'expressió gràfica, tècnica i digital, per transmetre informació amb claredat i precisió en contextos diversos.",
-      "competencies_clau": [
-        "STEM",
-        "CD",
-        "CCL",
-        "CCEC"
-      ],
+      "text": "Aplicar diferents tècniques i coneixements interdisciplinaris utilitzant procediments i recursos tecnològics tot preveient el cicle de vida dels productes per construir solucions tecnològiques sostenibles que donin resposta a necessitats plantejades.",
       "criteris_avaluacio": {
-        "nota": "La progressió implica major precisió en la representació i ús creixent d'eines digitals.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA2.1",
-            "text": "Representar objectes i solucions tecnològiques mitjançant esbossos, croquis i vistes (alçat, planta, perfil), usant convencions bàsiques del dibuix tècnic."
+            "text": "Analitzar el disseny d’un producte que doni resposta a una necessitat plantejada, avaluant-ne la demanda, l’evolució i la previsió de fi del cicle de vida amb criteri ètic, sostenible i responsable."
           },
           {
             "codi": "CA2.2",
-            "text": "Usar eines digitals bàsiques (editors gràfics, CAD 2D senzill) per representar i comunicar dissenys tecnològics."
+            "text": "Fabricar productes i solucions tecnològiques, fent ús del disseny assistit, utilitzant les diferents tècniques d’elaboració manual, mecànica i digital, emprant de manera adequada els diferents materials i recursos mecànics, elèctrics, electrònics i digitals."
           },
           {
             "codi": "CA2.3",
-            "text": "Llegir i interpretar plànols, esquemes i instruccions de muntatge senzills, identificant elements, cotes i símbols estàndard."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA2.1",
-            "text": "Representar peces i conjunts tècnics amb vistes normalitzades, seccions i acotació bàsica, aplicant les normes bàsiques del dibuix tècnic (ISO)."
-          },
-          {
-            "codi": "CA2.2",
-            "text": "Usar eines digitals de CAD 2D/3D per modelar i representar dissenys tecnològics, explorant la impressió 3D i la fabricació digital com a eines de prototipatge."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Elaborar documentació tècnica completa d'un projecte (memòria, plànols, pressupost, instruccions), comunicant-ne els resultats de forma clara i professional."
+            "text": "Argumentar les solucions tecnològiques aportades a les necessitats plantejades, valorant-ne laviabilitat econòmica, l’ús funcional, sostenible i eficient."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "bloc_competencial": "materials_i_fabricacio",
-      "text": "Identificar i seleccionar materials i processos de fabricació adequats per a la resolució de problemes tecnològics, valorant les seves propietats, el seu origen i el seu impacte ambiental i social.",
-      "competencies_clau": [
-        "STEM",
-        "CC",
-        "CE"
-      ],
+      "text": "Comunicar, argumentar i difondre idees i solucions tecnològiques en diferents espais virtuals, emprant diversos recursos tot aplicant els elements i les tècniques necessàries per intercanviar la informació i fomentar el treball en equip.",
       "criteris_avaluacio": {
-        "nota": "S'espera major riquesa en la justificació de la selecció de materials i processos a mesura que progressen els cursos.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA3.1",
-            "text": "Identificar i classificar els materials d'ús tecnològic (metalls, fusta, plàstics, tèxtils, ceràmics) per les seves propietats físiques, mecàniques i estètiques principals."
+            "text": "Intercanviar informació i fomentar el treball en equip de manera assertiva, emprant les eines digitals, el vocabulari tècnic, símbols i esquemes de sistemes tecnològics apropiats."
           },
           {
             "codi": "CA3.2",
-            "text": "Seleccionar materials adequats per a un disseny o projecte senzill, justificant la tria en funció de les propietats requerides i el cost."
-          },
-          {
-            "codi": "CA3.3",
-            "text": "Aplicar tècniques bàsiques de conformació (tall, doblat, perforat, unió) sobre materials tous i semidurs amb les eines manuals adequades i de forma segura."
-          },
-          {
-            "codi": "CA3.4",
-            "text": "Reconèixer el cicle de vida dels materials i valorar la importància del reciclatge, la reutilització i el consum responsable per reduir l'impacte ambiental."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA3.1",
-            "text": "Analitzar les propietats físiques, mecàniques, tèrmiques i elèctriques dels materials d'ús tecnològic (incloent materials compostos, polímers especials, semiconductors i nanomaterials) i les seves aplicacions."
-          },
-          {
-            "codi": "CA3.2",
-            "text": "Seleccionar i justificar materials per a un projecte tecnològic complexe, avaluant propietats, cost, disponibilitat, sostenibilitat i normativa de seguretat."
-          },
-          {
-            "codi": "CA3.3",
-            "text": "Aplicar tècniques de fabricació convencional (torn, fresadora, soldadura, impressió 3D) i digital (tall làser, CNC), valorant la qualitat del resultat i les mesures de seguretat."
-          },
-          {
-            "codi": "CA3.4",
-            "text": "Analitzar l'impacte ambiental i social de la producció i el consum de materials tecnològics, relacionant-ho amb l'economia circular i els ODS."
+            "text": "Presentar i difondre les propostes o solucions tecnològiques de manera concreta, emprant l’entonació, l’expressió, l’adaptació del discurs i del temps, usant un llenguatge inclusiu i lliure d’estereotips sexistes."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "bloc_competencial": "mecanismes_i_estructures",
-      "text": "Analitzar i dissenyar estructures i mecanismes identificant els esforços, les transmissions de moviment i les transformacions d'energia, per comprendre el funcionament de màquines i sistemes tecnològics.",
-      "competencies_clau": [
-        "STEM",
-        "CD"
-      ],
+      "text": "Desenvolupar solucions sostenibles a problemes plantejats que incorporin l’automatització i les tecnologies emergents, per dissenyar i construir sistemes de control programables i robòtics.",
       "criteris_avaluacio": {
-        "nota": "La complexitat de l'anàlisi i el disseny augmenta de 3r a 4t, introduint càlculs i simulació.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA4.1",
-            "text": "Identificar els esforços (tracció, compressió, flexió, torsió, tallant) que suporten les estructures i reconèixer elements resistents (biga, pilar, arc, triangulació)."
+            "text": "Dissenyar, construir, controlar i/o simular sistemes automàtics programables i robots que siguin capaços de fer tasques de forma autònoma, aplicant coneixements de mecànica, electrònica, pneumàtica i components dels sistemes de control, així com altres coneixements interdisciplinaris."
           },
           {
             "codi": "CA4.2",
-            "text": "Analitzar mecanismes de transmissió i transformació del moviment (engranatges, politges, lleves, biela-manovella) identificant el moviment d'entrada, sortida i la relació de transmissió."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Construir maquetes d'estructures senzilles i mecanismes bàsics, verificant-ne el funcionament i identificant possibles millores."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA4.1",
-            "text": "Analitzar i dimensionar estructures senzilles (ponts, grues, bastides) calculant esforços bàsics i seleccionant materials i perfils adequats, usant eines de simulació si escau."
-          },
-          {
-            "codi": "CA4.2",
-            "text": "Analitzar i dissenyar sistemes mecànics compostos (trens d'engranatges, sistemes de politges, mecanismes de transformació), calculant relacions de transmissió i parell motor."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Integrar estructures i mecanismes en el disseny d'un projecte tecnològic complet, documentant-ne el funcionament i validant-ne el rendiment amb proves."
+            "text": "Integrar a les màquines i sistemes tecnològics aplicacions digitals emergents de control i simulació com Internet de les coses, tractament massiu de dades (big data) i intel·ligència artificial amb sentit crític, ètic i sostenible."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "bloc_competencial": "electronica_i_control",
-      "text": "Analitzar, dissenyar i programar sistemes electrònics i de control, identificant els components, les seves funcions i les interaccions, per resoldre problemes d'automatització i robòtica en contextos reals.",
-      "competencies_clau": [
-        "STEM",
-        "CD",
-        "CE"
-      ],
+      "text": "Emprar les eines digitals de disseny i fabricació, adaptant-les i configurant-les a les necessitats tot aplicant els coneixements interdisciplinaris, per a una producció més eficient i sostenible.",
       "criteris_avaluacio": {
-        "nota": "Progressió des de circuits bàsics (1r-3r) fins a sistemes automatitzats i programables (4t).",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA5.1",
-            "text": "Identificar els components electrònics bàsics (resistència, condensador, díode, LED, transistor) i les seves funcions, llegint esquemes de circuits simples."
+            "text": "Resoldre tasques proposades de manera eficient mitjançant l’ús i la configuració de diferents aplicacions i eines digitals, tot aplicant coneixements interdisciplinaris amb autonomia."
           },
           {
             "codi": "CA5.2",
-            "text": "Muntar circuits elèctrics i electrònics bàsics (sèrie, paral·lel, divisor de tensió, amplificador LED) en suport físic (protoboard) o simulat, verificant el seu funcionament."
+            "text": "Utilitzar en el disseny de solucions, eines de representació en tres dimensions i d’experimentació virtual mitjançant simuladors, per a la construcció del coneixement tecnològic."
           },
           {
             "codi": "CA5.3",
-            "text": "Programar sistemes de control senzills usant llenguatge de blocs (Scratch, mBlock, S4A) per automatitzar respostes a sensors bàsics (llum, temperatura, distància)."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA5.1",
-            "text": "Analitzar circuits electrònics analògics i digitals de complexitat mitjana (amplificadors operacionals bàsics, portes lògiques, multiplexors), interpretant esquemes i calculant magnituds."
+            "text": "Emprar diferents gestors de presentació, eines de difusió o publicació de la informació per a la realització de tasques col·laboratives."
           },
           {
-            "codi": "CA5.2",
-            "text": "Dissenyar i implementar sistemes de control automàtic (llaç obert i tancat) amb microcontroladors (Arduino, Raspberry Pi), programant en llenguatge textual (C/C++ bàsic, Python)."
-          },
-          {
-            "codi": "CA5.3",
-            "text": "Integrar sensors, actuadors i comunicació (Bluetooth, WiFi bàsic) en projectes de robòtica o IoT, documentant el disseny i validant el comportament del sistema."
+            "codi": "CA5.4",
+            "text": "Configurar programes o aplicacions informàtiques per al control de diferents automatismes."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "bloc_competencial": "digitalitzacio",
-      "text": "Usar amb solvència les eines i entorns digitals per cercar, crear, compartir i gestionar informació i continguts, adoptant hàbits d'ús segur, crític i responsable de la tecnologia digital i valorant el seu impacte en la societat.",
-      "competencies_clau": [
-        "CD",
-        "CCL",
-        "CC",
-        "CPSAA"
-      ],
+      "text": "Analitzar processos tecnològics, valorant l’impacte en la societat i l’entorn, tot aplicant criteris de sostenibilitat, per fer un ús ètic i ecosocialment responsable de la tecnologia.",
       "criteris_avaluacio": {
-        "nota": "La dimensió digital és transversal i s'articula al llarg de tota l'etapa, amb creixent autonomia i pensament crític.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA6.1",
-            "text": "Usar amb eficàcia entorns digitals i eines de productivitat (processadors de text, fulls de càlcul, presentadors, eines collaboratives) per organitzar, elaborar i compartir informació."
+            "text": "Fer un ús responsable de la tecnologia, mitjançant l’anàlisi i l’aplicació de criteris de sostenibilitat en la selecció de materials, el disseny i els processos de fabricació dels productes tecnològics, tot minimitzant l’impacte en la societat i el planeta."
           },
           {
             "codi": "CA6.2",
-            "text": "Cercar, seleccionar i contrastar informació en fonts digitals diverses, valorant la seva fiabilitat i rellevància i evitant la desinformació."
+            "text": "Analitzar els beneficis i valorar la contribució de les tecnologies al desenvolupament sostenible i la cura de l’entorn, que aporten l’arquitectura bioclimàtica, les energies renovables i la mobilitat eficient."
           },
           {
             "codi": "CA6.3",
-            "text": "Aplicar les mesures bàsiques de seguretat digital (contrasenyes segures, privacitat, reconeixement de phishing) per protegir la identitat i les dades en entorns digitals."
-          },
-          {
-            "codi": "CA6.4",
-            "text": "Reconèixer els drets d'autoria i les llicències de continguts digitals (copyright, Creative Commons), citant les fonts i respectant la propietat intel·lectual."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA6.1",
-            "text": "Usar amb solvència eines digitals avançades (eines de col·laboració, gestió de projectes, creació multimedia) per produir continguts digitals de qualitat en contextos diversos."
-          },
-          {
-            "codi": "CA6.2",
-            "text": "Avaluar críticament fonts d'informació digitals i algorismes de recomanació, identificant sesgos, cambres d'eco i estratègies de manipulació informativa."
-          },
-          {
-            "codi": "CA6.3",
-            "text": "Analitzar i gestionar la pròpia empremta digital i la privacitat en xarxes socials i plataformes digitals, adoptant hàbits d'ús responsable i saludable."
-          },
-          {
-            "codi": "CA6.4",
-            "text": "Analitzar l'impacte social, econòmic i ambiental de la digitalització i de les tecnologies emergents (IA, big data, blockchain, impressió 3D), adoptant una perspectiva crítica i ètica."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE7",
-      "bloc_competencial": "tecnologia_i_societat",
-      "text": "Analitzar la relació entre tecnologia, societat i entorn natural, reconeixent el paper de la tecnologia en la resolució de reptes globals i valorant la importància de la perspectiva ètica, sostenible i de gènere en el desenvolupament tecnològic.",
-      "competencies_clau": [
-        "CC",
-        "CPSAA",
-        "CE",
-        "STEM"
-      ],
-      "criteris_avaluacio": {
-        "nota": "Dimensió reflexiva i crítica que acompanya tot el currículum de TD.",
-        "1r_3r": [
-          {
-            "codi": "CA7.1",
-            "text": "Reconèixer exemples d'innovació tecnològica al llarg de la història i la seva influència en les formes de vida, el treball i la societat."
-          },
-          {
-            "codi": "CA7.2",
-            "text": "Identificar reptes globals actuals (canvi climàtic, accés a l'aigua, salut, mobilitat) on la tecnologia pot contribuir a solucions, relacionant-los amb els ODS."
-          },
-          {
-            "codi": "CA7.3",
-            "text": "Reconèixer la bretxa de gènere en l'àmbit tecnològic i científic, identificant obstacles i valorant referents femenins en tecnologia i enginyeria."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA7.1",
-            "text": "Analitzar l'impacte social, econòmic i ambiental d'innovacions tecnològiques rellevants (automatització, IA, biotecnologia, energies renovables), valorant beneficis i riscos."
-          },
-          {
-            "codi": "CA7.2",
-            "text": "Dissenyar o avaluar solucions tecnològiques orientades a reptes globals o locals, considerant criteris de sostenibilitat, accessibilitat, equitat i ètica tecnològica."
-          },
-          {
-            "codi": "CA7.3",
-            "text": "Argumentar sobre el paper de la perspectiva de gènere, la diversitat i la inclusió en el disseny tecnològic, proposant criteris per a una tecnologia més justa i representativa."
+            "text": "Identificar i valorar la repercussió i els beneficis del desenvolupament de projectes tecnològics de caràcter social per mitjà de comunitats obertes, accions de voluntariat o projectes de servei a la comunitat."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r_3r": {
-      "tecnologia_i_societat": {
-        "descripcio": "Comprensió de les relacions entre tecnologia, persones i entorn, i valoració del seu impacte en la vida quotidiana i els reptes globals.",
-        "subapartats": {
-          "historia_i_evolucio": [
-            "Evolució de la tecnologia: de l'eina manual a la digitalització. Revolucions industrials i tecnològiques.",
-            "Relació entre necessitat, invent, innovació i tecnologia: exemples propers i globals.",
-            "Aportacions de persones rellevants en la història de la tecnologia, amb perspectiva de gènere."
-          ],
-          "tecnologia_i_ods": [
-            "Objectius de Desenvolupament Sostenible (ODS): relació amb reptes tecnològics actuals.",
-            "Tecnologia sostenible: concepte, exemples i criteris d'avaluació (eficiència energètica, economia circular).",
-            "Impacte ambiental de la producció i el consum tecnològic: obsolescència programada i gestió de residus electrònics (RAEE)."
-          ],
-          "genere_i_tecnologia": [
-            "Bretxa de gènere en ciència i tecnologia: dades, causes i estratègies per reduir-la.",
-            "Referents femenins en tecnologia, enginyeria i ciències: contribucions reconegudes i invisibilitzades."
-          ]
-        }
-      },
-      "disseny_i_projectes": {
-        "descripcio": "Aplicació del procés de disseny tecnològic per resoldre problemes de manera creativa, planificada i reflexiva.",
-        "subapartats": {
-          "proces_de_disseny": [
-            "Fases del procés de disseny: identificació del problema, investigació, generació d'idees, prototipatge, proves i avaluació.",
-            "Pensament de disseny (design thinking): empatia, definició, ideació, prototipatge i prova.",
-            "Tècniques de creativitat: pluja d'idees, mapa mental, SCAMPER, anàlisi morfològica."
-          ],
-          "representacio_tecnica": [
-            "Esbós i croquis: representació a mà alçada d'idees i objectes tecnològics.",
-            "Vistes bàsiques (alçat, planta, perfil): convenció i interpretació.",
-            "Escales: concepte, càlcul i aplicació en representació de plànols senzills.",
-            "Eines digitals de representació: editors gràfics, CAD 2D bàsic (Tinkercad, LibreCAD)."
-          ],
-          "planificacio_i_avaluacio": [
-            "Diagrama de Gantt i planificació de tasques: distribució del temps i recursos.",
-            "Memòria tècnica: estructura i continguts bàsics.",
-            "Avaluació del procés i del producte: criteris de qualitat, funcionalitat i estètica.",
-            "Documentació del projecte: portafoli digital o físic del procés de disseny."
-          ]
-        }
-      },
-      "materials_fabricacio_estructures": {
-        "descripcio": "Coneixement i selecció de materials d'ús tecnològic, tècniques de fabricació manual i principis estructurals bàsics.",
-        "subapartats": {
-          "materials": [
-            "Classificació de materials: metalls, fustes, plàstics, tèxtils, ceràmics i compostos. Propietats i usos.",
-            "Propietats dels materials: mecàniques (resistència, duresa, elasticitat), tèrmiques, elèctriques i estètiques.",
-            "Procés d'obtenció de materials: recursos naturals, transformació industrial i impacte ambiental.",
-            "Reciclatge i reutilització: símbols de reciclatge, classificació de residus i economia circular."
-          ],
-          "fabricacio_manual": [
-            "Eines manuals bàsiques: ús segur de serra, escaire, llima, ganivet de maqueta, perforadora.",
-            "Tècniques de conformació: mesura i marcat, tall, doblat, perforat i acabat superficial.",
-            "Unions: coles, cargols, reblonat, soldadura tova. Selecció segons material i requeriment.",
-            "Normes de seguretat al taller: EPI, ordre, neteja i gestió de residus."
-          ],
-          "estructures": [
-            "Tipus d'esforços: tracció, compressió, flexió, torsió i tallant. Identificació en elements reals.",
-            "Elements estructurals: pilars, bigues, arcs, cordes i triangulació. Funcions i exemples.",
-            "Estabilitat i rigidesa d'estructures: triangulació com a recurs bàsic per reforçar estructures.",
-            "Construcció de maquetes estructurals: verificació i millora del disseny."
-          ]
-        }
-      },
-      "mecanismes_i_control": {
-        "descripcio": "Comprensió dels mecanismes de transmissió i transformació del moviment i introducció als sistemes de control senzills.",
-        "subapartats": {
-          "mecanismes": [
-            "Màquines simples: palanca, politja, pla inclinat, cargol i roda i eix. Principi i avantatge mecànic.",
-            "Mecanismes de transmissió del moviment rotatiu: rodes de fricció, engranatges, cadena i politges. Relació de transmissió.",
-            "Mecanismes de transformació del moviment: biela-manovella, lleva-seguidor, cargol-femella, cremallera. Identificació i ús."
-          ],
-          "electricitat_basica": [
-            "Circuit elèctric bàsic: generador, conductor, receptor i interruptor. Esquema i funcionament.",
-            "Magnituds elèctriques: tensió (V), intensitat (A), resistència (Ω) i potència (W). Llei d'Ohm.",
-            "Circuits en sèrie i paral·lel: diferències, càlcul de resistència equivalent i aplicació pràctica.",
-            "Seguretat elèctrica: riscos, proteccions (fusibles, diferencials) i normes d'ús."
-          ],
-          "control_basic": [
-            "Sistemes de control: concepte, components (sensor, controlador, actuador) i tipus (llaç obert/tancat).",
-            "Automatismes elèctrics senzills: interruptors, relés i temporitzadors. Muntatge i prova.",
-            "Programació per blocs (Scratch, mBlock): seqüència, condicions, bucles i gestió de sensors bàsics."
-          ]
-        }
-      },
-      "digitalitzacio": {
-        "descripcio": "Ús responsable, crític i eficaç d'eines i entorns digitals per a l'aprenentatge, la comunicació i la creació de continguts.",
-        "subapartats": {
-          "eines_digitals": [
-            "Processador de text: format avançat, estils, taules, imatges i índexs.",
-            "Full de càlcul: fórmules, funcions bàsiques, gràfiques i format condicional.",
-            "Presentador digital: disseny, animació i recursos multimèdia.",
-            "Eines col·laboratives en línia (Google Workspace, Microsoft 365): edició simultània i gestió de versions."
-          ],
-          "cerca_i_gestio_informacio": [
-            "Estratègies de cerca avançada a internet: operadors booleians, filtres i fonts especialitzades.",
-            "Avaluació de fonts: fiabilitat, autoria, data, intencionalitat i contrast de fonts.",
-            "Gestió de la informació: organització en carpetes, eines de notes i gestors de referències bàsics.",
-            "Desinformació i fakenews: identificació, verificació (fact-checking) i actitud crítica."
-          ],
-          "seguretat_privacitat": [
-            "Identitat digital: petjada digital, reputació en línia i gestió de la privacitat.",
-            "Seguretat a internet: contrasenyes segures, autenticació de dos factors, reconeixement de phishing i malware.",
-            "Drets digitals: dret a l'oblit, protecció de dades (RGPD bàsic) i denúncia de situacions abusives.",
-            "Ús saludable de la tecnologia: temps de pantalla, higiene digital i prevenció de l'addicció."
-          ]
-        }
-      }
-    },
-    "4t": {
-      "tecnologia_i_societat": {
-        "descripcio": "Anàlisi crítica de la relació entre tecnologia, societat i medi ambient, amb focus en les tecnologies emergents i els reptes globals actuals.",
-        "subapartats": {
-          "tecnologies_emergents": [
-            "Intel·ligència artificial: tipus, aplicacions, oportunitats i riscos ètics (sesgos, privacitat, automatització).",
-            "Big data i Internet of Things (IoT): conceptes, aplicacions i implicacions per a la privacitat.",
-            "Biotecnologia i nanomaterials: exemples d'aplicació i qüestions ètiques.",
-            "Impressió 3D i fabricació digital: aplicacions, accés democràtic i impacte en la indústria."
-          ],
-          "sostenibilitat_i_etica": [
-            "Economia circular aplicada a la tecnologia: disseny per a la durabilitat, reparabilitat i reciclabilitat.",
-            "Accés a la tecnologia i bretxa digital: desigualtats globals i locals en l'accés i l'ús.",
-            "Ètica en el disseny tecnològic: principis de disseny inclusiu, accessible i responsable.",
-            "Regulació tecnològica: drets i deures en l'era digital, normativa europea (AI Act, RGPD)."
-          ]
-        }
-      },
-      "disseny_i_projectes": {
-        "descripcio": "Aplicació del procés de disseny tecnològic complet a projectes integrats de complexitat mitjana-alta.",
-        "subapartats": {
-          "metodologies_disseny": [
-            "Design thinking aplicat a projectes reals o simulats: fases, eines i documentació.",
-            "Agile i Scrum bàsic: iteració, sprints, retrospectives i adaptació contínua en projectes tecnològics.",
-            "Avaluació del cicle de vida d'un producte tecnològic (LCA): impacte ambiental de cada fase."
-          ],
-          "representacio_avancada": [
-            "Dibuix tècnic normalitzat: vistes, seccions, acotació i formats (ISO).",
-            "CAD 3D (Fusion 360, FreeCAD, Tinkercad): modelat de peces i conjunts, renderitzat bàsic.",
-            "Impressió 3D: preparació de fitxers (STL, slicer), paràmetres d'impressió i postprocessat.",
-            "Tall làser i CNC bàsic: preparació de fitxers i procés de fabricació."
-          ],
-          "gestio_projectes": [
-            "Gestió de projectes tecnològics: EDT (Estructura de Descomposició del Treball), Gantt i pressupost.",
-            "Documentació tècnica completa: memòria, plànols, plec de condicions i pressupost.",
-            "Presentació i defensa de projectes: comunicació oral, suport visual i resposta a preguntes."
-          ]
-        }
-      },
-      "mecanismes_i_control": {
-        "descripcio": "Anàlisi i disseny de sistemes mecànics complexos i sistemes de control automatitzat amb microcontroladors.",
-        "subapartats": {
-          "mecanismes_avancats": [
-            "Trens d'engranatges: tipus (cilíndrics, cònicss, planetaris), càlcul de la relació de transmissió total.",
-            "Sistemes de transmissió per corretja i cadena: avantatges, aplicacions i càlcul bàsic.",
-            "Mecanismes de precisió: cargol sense fi, cremallera i eix de lleva. Aplicació en robòtica.",
-            "Anàlisi cinemàtica bàsica: velocitat angular, velocitat lineal i acceleració en sistemes mecànics."
-          ],
-          "electronica_avancada": [
-            "Components electrònics: díodes, transistors (commutació), amplificadors operacionals bàsics.",
-            "Electrònica digital: portes lògiques, circuits combinacionals bàsics (sumador, multiplexor).",
-            "Sensors i actuadors: tipus (temperatura, distància, llum, humitat, moviment), senyals analògics i digitals.",
-            "Disseny de PCB bàsic: esquema, placa i prototipatge (KiCad o similar)."
-          ],
-          "programacio_i_automatitzacio": [
-            "Programació de microcontroladors (Arduino, ESP32): estructura del programa, E/S digital i analògica.",
-            "Programació en Python o C++ bàsic: variables, condicionals, bucles, funcions i biblioteques.",
-            "Sistemes de control en llaç tancat: PID bàsic, exemples de regulació de temperatura o posició.",
-            "Robòtica i IoT: integració de sensors, actuadors i comunicació sense fil (WiFi, Bluetooth, MQTT bàsic)."
-          ]
-        }
-      },
-      "digitalitzacio": {
-        "descripcio": "Ús avançat i crític d'eines digitals per a la creació, l'anàlisi de dades, la programació i la ciutadania digital responsable.",
-        "subapartats": {
-          "programacio_i_pensament_computacional": [
-            "Pensament computacional: descomposició, patrons, abstracció i algoritmes en problemes reals.",
-            "Programació en Python: tipus de dades, estructures de control, funcions, fitxers i biblioteques bàsiques (NumPy, Matplotlib).",
-            "Algorismia bàsica: ordenació, cerca i complexitat. Aplicació a problemes tecnològics.",
-            "Aplicacions web bàsiques: HTML, CSS i JavaScript bàsic per crear pàgines web senzilles."
-          ],
-          "dades_i_ia": [
-            "Recollida i visualització de dades: fulls de càlcul avançats, eines de visualització (Tableau Public, Google Data Studio bàsic).",
-            "Intel·ligència artificial aplicada: reconeixement d'imatge, processament de llenguatge natural, recomanadors. Exemples i experimentació.",
-            "Sesgos en les dades i l'IA: causes, efectes i responsabilitat en el disseny de sistemes intel·ligents.",
-            "Machine learning bàsic: concepte d'entrenament, validació i predicció. Eines sense codi (Teachable Machine, ML4Kids)."
-          ],
-          "ciutadania_digital_avancada": [
-            "Drets digitals avançats: neutralitat de la xarxa, llibertat d'expressió i censura digital.",
-            "Ciberseguretat avançada: xifrat, VPN, autenticació i seguretat en xarxes.",
-            "Propietat intel·lectual i llicències: copyright, copyleft, Creative Commons i programari lliure.",
-            "Impacte ambiental de la digitalització: consum energètic dels centres de dades, petjada de carboni digital i solucions."
-          ]
-        }
-      }
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers es formulen amb relació a contextos on es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d’organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Procés de resolució de problemes i projectes ● Estratègies i tècniques - Aplicació d’estratègies de gestió de projectes col·laboratius i de tècniques de resolució de problemes iteratives. - Cerca, comparació i estudi de les necessitats del centre educatiu, dels àmbits local i regional, etc. per al plantejament de projectes col·laboratius o cooperatius. - Implementació de diferents tècniques d’ideació per a la resolució de problemes. - Resolució de problemes amb actitud emprenedora, creativa i perseverant, des d’una perspectiva interdisciplinària de l’activitat tecnològica, tot fomentant la satisfacció i l’interès pel treball i la qualitat del mateix. ● Productes i materials - Selecció i utilització de diferents productes i materials per a la resolució de problemes. - Anàlisi del cicle de vida d’un producte i identificació de les diferents fases. - Selecció de materials tot utilitzant diverses estratègies, d’acord amb les seves propietats o requisits, per a la resolució de problemes i projectes. ● Fabricació - Valoració, selecció i utilització de diferents tècniques de fabricació en la resolució de problemes i projectes. - Utilització de diferents eines de disseny i de fabricació assistit per ordinador en 2D i 3D, per a la representació i/o fabricació de peces aplicades a projectes. - Valoració, selecció i utilització de diferents tècniques de fabricació manual i mecànica, en les aplicacions pràctiques. - Implementació, en aplicacions pràctiques, de tècniques de fabricació digital, com la impressió 3D i el tall. ● Difusió - Documentació, presentació i difusió de projectes, integrant diferents elements, tècniques i eines. Utilització d’una comunicació efectiva basada en una entonació, expressió, gestió del temps i adaptació del discurs i amb un ús de llenguatge inclusiu i lliure d’estereotips de gènere. Operadors tecnològics - Identificació dels components electrònics analògics bàsics i la seva simbologia, amb l’anàlisi i el muntatge físic i simulats de circuits elementals. - Representació, anàlisi, disseny, simulació i muntatge de circuits electrònics digitals senzills i la seva aplicació. - Representació, anàlisi, disseny, simulació i muntatge de circuits pneumàtics bàsics amb components que compleixin una determinada funció en un mecanisme o màquina. - Anàlisi, descripció i relació dels diferents elements mecànics, electrònics i pneumàtics aplicats a la robòtica, fent ús del muntatge físic o simulat. Pensament computacional, automatització i robòtica - Utilització de diferents components de sistemes de control programat: controladors, sensors i actuadors, que permetin l’optimització dels recursos i apliquin l’automatització i la robotització. - Disseny i implementació d’aplicacions informàtiques per a ordinador i dispositius mòbils. Utilització de simuladors informàtics en la verificació i comprovació del funcionament dels sistemes dissenyats. Introducció de les aplicacions de la intel·ligència artificial i al tractament massiu de dades (Big Data). Ús d’espais digitals compartits i discos virtuals per l’emmagatzematge i compartició d’informació. - Integració de les telecomunicacions en els sistemes de control digital; Internet de les coses amb els diferents elements, comunicacions i control, mitjançant l’aplicació pràctica per donar resposta a les necessitats personals o col·lectives. - Disseny, construcció i control de robots senzills de manera física o simulada per al desenvolupament de tasques reals o fictícies. Tecnologia sostenible - Selecció de materials i disseny de processos, productes i sistemes tecnològics per a una sostenibilitat mediambiental, econòmica i social. - Justificació de l’energia com a factor tecnològic clau del desenvolupament sostenible. Eficiència energètica, consum responsable i energies renovables. - Cerca, aplicació i disseny d’estratègies d’estalvi energètic en edificis. Anàlisi de l’arquitectura bioclimàtica i sostenible en la reducció de l’impacte ambiental tant en l’àmbit local com en el global. - Anàlisi i valoració de la mobilitat sostenible dels diferents mitjans de transport públic o privat. - Creació de comunitats obertes d’aprenentatge, foment del voluntariat tecnològic i la implementació de projectes de servei a la comunitat amb un compromís actiu tant en l’àmbit local com en el global."
     }
+  ],
+  "_validacio": {
+    "fragments_ok": 51,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
   }
 }

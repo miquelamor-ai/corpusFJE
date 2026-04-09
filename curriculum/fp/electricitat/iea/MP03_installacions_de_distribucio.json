@@ -1,0 +1,535 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "instal·lacions de distribució",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "centres de transformació i xarxes de distribució en baixa tensió",
+        "hores": 40,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica la configuració i els tipus de centres de transformació, descrivint les característiques i funcions de cada element.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la funció del centre de transformació i la seva situació a la xarxa de generació, transport i distribució d’energia elèctrica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Classifica els centres de transformació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les parts fonamentals d’un centre de transformació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu la funció, característiques i senyalitzacions dels diferents tipus de cel·les."
+              },
+              {
+                "codi": "CA15",
+                "text": "Interpreta esquemes elèctrics unifilars dels diferents tipus de centres de transformació i de les diferents disposicions de cel·les."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica els aparells de maniobra i els elements de protecció de les cel·les."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu les característiques dels transformadors de mesura i protecció, relacionant-los amb la seva funció."
+              },
+              {
+                "codi": "CA18",
+                "text": "Interpreta esquemes de connexió de transformadors de mesura i protecció."
+              },
+              {
+                "codi": "CA19",
+                "text": "Descriu les característiques, funció i comandament dels aparells de maniobra i dels elements de protecció."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica les característiques i connexions dels quadres de distribució de baixa tensió."
+              },
+              {
+                "codi": "CA111",
+                "text": "Descriu la instal·lació de posada a terra d’un centre de transformació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix els procediments de manteniment dels centres de transformació analitzant protocols i identificant activitats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu les fases i procediments de connexió del transformador."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu les fases i procediments de connexió de cel·les."
+              },
+              {
+                "codi": "CA23",
+                "text": "Reconeix les instruccions generals per a la realització de maniobres en un centre de transformació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Detalla les maniobres que cal realitzar a les cel·les, en l’ordre correcte i sobre els elements adequats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu les operacions de seguretat prèvies a la intervenció (tall de fonts de tensió, enclavaments i bloquejos, detecció d’absència de tensió, entre d’altres)."
+              },
+              {
+                "codi": "CA26",
+                "text": "Descriu els procediments per realitzar mesures de paràmetres característics."
+              },
+              {
+                "codi": "CA27",
+                "text": "Descriu el procediment a seguir en un supòsit de manteniment correctiu."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Identifica la configuració d’una xarxa de distribució en baixa tensió, reconeixent-ne els components i descrivint-ne les característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Selecciona el tipus de xarxa i el sistema d’instal·lació adequats per a un supòsit de distribució d’energia elèctrica en baixa tensió."
+              },
+              {
+                "codi": "CA32",
+                "text": "Classifica els tipus d’elements d’una xarxa aèria (suports, conductors, accessoris de subjecció, entre d’altres) d’acord amb la seva funció."
+              },
+              {
+                "codi": "CA33",
+                "text": "Classifica els tipus d’elements d’una xarxa subterrània (conductors, rases, registres, galeries, accessoris de senyalització, entre d’altres) d’acord amb la seva funció."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica els tipus de conductors emprats en xarxes de distribució."
+              },
+              {
+                "codi": "CA35",
+                "text": "Identifica els elements de la xarxa amb la seva representació simbòlica en els plànols i esquemes que caracteritzen la instal·lació."
+              },
+              {
+                "codi": "CA36",
+                "text": "Reconeix la normativa en el traçat de la xarxa i respecte a les distàncies reglamentàries."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica el compliment de la normativa sobre encreuaments, proximitats i paral·lelismes a les instal·lacions que afecten la xarxa."
+              },
+              {
+                "codi": "CA38",
+                "text": "Demostra coneixement suficient de la ITC-BT-08."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Realitza operacions de muntatge i manteniment d’una xarxa aèria de baixa tensió descrivint-les i aplicant les tècniques corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Descriu les fases i procediments de muntatge dels suports."
+              },
+              {
+                "codi": "CA42",
+                "text": "Descriu les fases i procediments d’estesa i tibament dels cables."
+              },
+              {
+                "codi": "CA43",
+                "text": "Munta els accessoris (suports per a fixació de cables, abraçadores, pinces, bressols, entre d’altres) i cables en una instal·lació a escala sobre paret o façana."
+              },
+              {
+                "codi": "CA44",
+                "text": "Realitza empalmaments utilitzant peces metàl·liques de connexió."
+              },
+              {
+                "codi": "CA45",
+                "text": "Amarra un conductor sobre un aïllador."
+              },
+              {
+                "codi": "CA46",
+                "text": "Realitza derivacions amb caixa d’empalmament i amb peces de connexió."
+              },
+              {
+                "codi": "CA47",
+                "text": "Diagnostica les causes d’avaries en una línia de xarxa trenada sobre suports i façana interpretant-ne els símptomes."
+              },
+              {
+                "codi": "CA48",
+                "text": "Efectua les mesures de paràmetres característics."
+              },
+              {
+                "codi": "CA49",
+                "text": "Elabora un informe de les activitats realitzades i els resultats obtinguts."
+              },
+              {
+                "codi": "CA410",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA411",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA412",
+                "text": "Actua amb responsabilitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Realitza operacions de muntatge i manteniment d’una xarxa subterrània de baixa tensió descrivint-les i aplicant les tècniques corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Descriu les fases i procediments d’obertura i condicionament de rases."
+              },
+              {
+                "codi": "CA52",
+                "text": "Descriu les fases i procediments de l’estesa dels cables directament soterrats, sota tub i a l’aire, allotjats en galeries."
+              },
+              {
+                "codi": "CA53",
+                "text": "Realitza un empalmament d’unió aèria-subterrània amb maniguet preaïllat."
+              },
+              {
+                "codi": "CA54",
+                "text": "Realitza derivacions amb connector a pressió recobert per cinta o maniguet."
+              },
+              {
+                "codi": "CA55",
+                "text": "Diagnostica les causes d’avaries en línies de xarxes subterrànies."
+              },
+              {
+                "codi": "CA56",
+                "text": "Efectua les mesures de paràmetres característics."
+              },
+              {
+                "codi": "CA57",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA58",
+                "text": "Elabora un informe de les activitats realitzades i resultats obtinguts."
+              },
+              {
+                "codi": "CA59",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA510",
+                "text": "Actua amb responsabilitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA6",
+            "text": "Aplica les normes de prevenció de riscos laborals i de protecció ambiental en el muntatge i manteniment d’instal·lacions elèctriques de distribució, identificant-ne els riscos associats i les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA61",
+                "text": "Identifica els riscos laborals en les tasques de manteniment de centres de transformació i en les de muntatge i manteniment de línies aèries i subterrànies de baixa tensió i instal·lacions d’enllaç (manipulació de materials, equips, eines, estris, màquines, realització de maniobres, verificació d’instal·lacions, reparació i substitució d’elements, treballs en alçada, treballs en rases i galeries, entre d’altres)."
+              },
+              {
+                "codi": "CA62",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA63",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA64",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració dels centres de transformació (CT)",
+                "items": [
+                  "Estructura del sistema elèctric.",
+                  "Situació i funció dels centres de transformació en el sistema elèctric.",
+                  "Classificació dels CT segons: alimentació, propietat, emplaçament, connexió de servei, obra civil.",
+                  "Centres de transformació d’abonat o client amb dues alimentacions: esquemes, utilització.",
+                  "Parts fonamentals d’un CT.",
+                  "Transformador de distribució: constitució, característiques generals, connexions de primari i secundari, placa de característiques.",
+                  "Transformadors de mesura i protecció: TT, TI, característiques, funció, esquemes de connexió.",
+                  "Aparellatge: tipus (seccionadors, interruptors, interruptors automàtics, fusibles, parallamps, entre d’altres), característiques, funció.",
+                  "Esquemes unifilars de CT.",
+                  "Cel·les: tipus, senyalització, connexions entre cel·les.",
+                  "Quadre de distribució de baixa tensió.",
+                  "Instal·lació de posada a terra."
+                ]
+              },
+              {
+                "bloc": "Operacions de manteniment de centres de transformació",
+                "items": [
+                  "Instruccions generals per a la realització de maniobres. Cas particular de dues alimentacions.",
+                  "Utilització dels equips de protecció individual.",
+                  "Eines i instrumentació específica.",
+                  "Maniobres bàsiques segons el tipus de cel·la.",
+                  "Plans de manteniment en centres de transformació.",
+                  "Avaries tipus en centres de transformació. Localització i reparació.",
+                  "Mesures característiques i paràmetres de control d’un centre de transformació.",
+                  "Condicions de posada en servei d’un centre de transformació."
+                ]
+              },
+              {
+                "bloc": "Configuració de xarxes aèries de distribució en baixa tensió",
+                "items": [
+                  "Tipologia i estructura de les xarxes de baixa tensió.",
+                  "Representació simbòlica de xarxes en plànols i esquemes.",
+                  "Tipus i característiques dels suports.",
+                  "Tipus i característiques dels conductors.",
+                  "Elements accessoris de subjecció en suports i façanes.",
+                  "Tensors.",
+                  "Aïlladors.",
+                  "Elements accessoris de connexió i empalmament i de protecció i senyalització.",
+                  "Condicions generals i especials d’instal·lació de xarxes de baixa tensió.",
+                  "Connexió a terra.",
+                  "Sistemes de connexió del neutre i de les masses en xarxes de distribució: esquemes i criteris d’elecció. ITC-BT 08."
+                ]
+              },
+              {
+                "bloc": "Operacions de muntatge i manteniment de xarxes aèries de baixa tensió",
+                "items": [
+                  "Documentació administrativa associada (certificat d’instal·lació, sol·licitud de descàrrec, permís d’obra, entre d’altres).",
+                  "Eines i instrumentació específica.",
+                  "Fases de muntatge d’una instal·lació de xarxa aèria de baixa tensió.",
+                  "Procediments d’hissat, fonamentació i formigonada de suports.",
+                  "Procediments d’estesa i tibament de conductors.",
+                  "Tècniques de subjecció, connexió i empalmament de conductors.",
+                  "Posada a terra i continuïtat del conductor neutre.",
+                  "Plans de manteniment en xarxes aèries.",
+                  "Avaries tipus en xarxes aèries: localització, reparació.",
+                  "Mesures característiques i paràmetres de control d’una xarxa aèria.",
+                  "Qualitat en el muntatge i manteniment de xarxes aèries de baixa tensió.",
+                  "Condicions de posada en servei d’una xarxa de baixa tensió."
+                ]
+              },
+              {
+                "bloc": "Operacions de muntatge i manteniment de xarxes subterrànies de baixa tensió",
+                "items": [
+                  "Documentació administrativa associada (certificat d’instal·lació, sol·licitud de descàrrec, permís d’obra, entre d’altres).",
+                  "Eines i instrumentació específica.",
+                  "Fases de muntatge d’una instal·lació de xarxa subterrània de baixa tensió.",
+                  "Procediments d’excavació, col·locació de tubs i condicionament de rases.",
+                  "Procediments d’estesa de cables (per gravetat i per lliscament i rotació) i col·locació en safates.",
+                  "Tècniques de connexió i empalmament de conductors.",
+                  "Posada a terra i continuïtat del conductor neutre.",
+                  "Marcatge de conductors.",
+                  "Plans de manteniment en xarxes subterrànies.",
+                  "Qualitat en el muntatge i manteniment de xarxes subterrànies de baixa tensió.",
+                  "Avaries tipus en xarxes subterrànies: localització, reparació.",
+                  "Mesures característiques i paràmetres de control d’una xarxa subterrània."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos laborals i protecció ambiental en les operacions de muntatge i manteniment d’instal·lacions elèctriques de distribució",
+                "items": [
+                  "Identificació de riscos en el manteniment de centres de transformació i en el muntatge i manteniment de línies aèries i subterrànies de baixa tensió i instal·lacions d’enllaç.",
+                  "Mesures de seguretat i de protecció individual en les operacions de manteniment de centres de transformació, i en les de muntatge i manteniment de línies aèries i subterrànies de baixa tensió i instal·lacions d’enllaç (aplicació de la normativa de prevenció de riscos laborals, inclosa la de seguretat davant el risc elèctric).",
+                  "Classificació dels residus generats per a la retirada selectiva.",
+                  "Compliment de la normativa de protecció ambiental i de prevenció de riscos laborals."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "instal·lacions d’enllaç",
+        "hores": 59,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura instal·lacions d’enllaç, en edificis d’habitatges, oficines i locals comercials i/o industrials, seleccionant els elements que les componen i el seu emplaçament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta un projecte d’instal·lació d’enllaç identificant les característiques dels elements que la componen (caixa general de protecció, conductors de la línia general d’alimentació i derivacions individuals, entre d’altres) i condicions de muntatge."
+              },
+              {
+                "codi": "CA12",
+                "text": "Interpreta l’esquema d’un projecte i el dimensionament de la instal·lació d’un doble subministrament."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els elements de la instal·lació amb la seva representació simbòlica en els esquemes i la seva ubicació en els plànols."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza la previsió de càrrega de la instal·lació d’acord amb les prescripcions reglamentàries i els requeriments del client."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona l’esquema de la instal·lació d’enllaç adequat a les característiques de l’edifici (unifamiliar, edifici d’habitatges, concentració d’indústries, entre d’altres)."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza els càlculs necessaris per al dimensionament de la línia general d’alimentació i les derivacions individuals."
+              },
+              {
+                "codi": "CA17",
+                "text": "Selecciona –a catàlegs comercials–, els materials, equips i dispositius que configuren la instal·lació (caixa general de protecció, conductors de la línia general d’alimentació i derivacions individuals, canalitzacions, conjunts de mesura, entre d’altres) a partir dels càlculs realitzats i l’aplicació de la normativa i reglamentació vigents."
+              },
+              {
+                "codi": "CA18",
+                "text": "Determina els sistemes d’instal·lació de línies i comptadors i la seva ubicació."
+              },
+              {
+                "codi": "CA19",
+                "text": "Especifica les característiques de la instal·lació de posada a terra de l’edi-fici."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora la memòria tècnica de disseny utilitzant eines informàtiques."
+              },
+              {
+                "codi": "CA111",
+                "text": "Confecciona el pressupost de la instal·lació."
+              },
+              {
+                "codi": "CA112",
+                "text": "Aplica el REBT, normes particulars de les companyies subministradores i disposicions vigents publicades per l’òrgan competent de la Generalitat de Catalunya relatives a instal·lacions d’enllaç."
+              },
+              {
+                "codi": "CA113",
+                "text": "Mostra autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza operacions de muntatge i manteniment d’instal·lacions d’enllaç en edificis d’habitatges, oficines, locals comercials i/o industrials, descrivint-les i aplicant les tècniques corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els procediments de muntatge de les parts de la instal·lació (caixa general de protecció, línia general d’alimentació, derivacions individuals, entre d’altres)."
+              },
+              {
+                "codi": "CA22",
+                "text": "Munta una línia general d’alimentació constituïda per conductors aïllats, sota un tub, en muntatge superficial."
+              },
+              {
+                "codi": "CA23",
+                "text": "Connecta la caixa general de protecció d’acord amb les instruccions de muntatge i reglamentació vigent."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza el replanteig simulat d’una centralització de comptadors en un lloc, a partir de la documentació tècnica, elaborant un croquis (planta del local i alçat de les parets) amb la disposició dels seus elements i comprovant el compliment de les dimensions reglamentàries."
+              },
+              {
+                "codi": "CA25",
+                "text": "Connecta les unitats funcionals d’una centralització de comptadors senzilla amb discriminació horària."
+              },
+              {
+                "codi": "CA26",
+                "text": "Munta una derivació individual de conductors aïllats, sota un tub, en muntatge superficial, així com la caixa de l’interruptor de control de potència (subministraments iguals o inferiors a 63 A)."
+              },
+              {
+                "codi": "CA27",
+                "text": "Diagnostica les causes d’avaries reals o simulades en una instal·lació elèctrica d’enllaç."
+              },
+              {
+                "codi": "CA28",
+                "text": "Efectua mesures de paràmetres característics."
+              },
+              {
+                "codi": "CA29",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA210",
+                "text": "Elabora un informe de les activitats realitzades i resultats obtinguts."
+              },
+              {
+                "codi": "CA211",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA212",
+                "text": "Demostra coneixement suficient de la normativa aplicable a les instal·lacions d’enllaç."
+              },
+              {
+                "codi": "CA213",
+                "text": "Actua amb responsabilitat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració de les instal·lacions elèctriques d’enllaç",
+                "items": [
+                  "Previsió de càrregues per a subministraments en baixa tensió.",
+                  "Connexions de servei: tipus, instal·lació.",
+                  "Instal·lacions d’enllaç: parts, esquemes.",
+                  "Caixa general de protecció: funció, tipus, característiques, ubicació.",
+                  "Caixes de protecció i mesura: funció, tipus, característiques, ubicació.",
+                  "Interruptor general de maniobra: funció, característiques, ubicació.",
+                  "Línies general d’alimentació: càlcul, conductors utilitzats, sistemes d’ins-tal·lació.",
+                  "Derivacions individuals: càlcul, conductors utilitzats, sistemes d’ins-tal·lació.",
+                  "Comptadors: funcionament, tipus, sistemes d’instal·lació.",
+                  "Tarifació elèctrica.",
+                  "Instal·lacions de posada a terra en edificis.",
+                  "Documents i impresos autonòmics normalitzats requerits per a la posada en servei d’instal·lacions d’enllaç.",
+                  "Reglament electrotècnic per a baixa tensió i instruccions tècniques complementàries: estructura, ITC-BT-01, 02 i 03.",
+                  "Normativa i reglamentació vigents aplicables (parts relatives a la configuració de les instal·lacions elèctriques d’enllaç):"
+                ]
+              },
+              {
+                "bloc": "Operacions de muntatge i manteniment d’instal·lacions elèctriques d’enllaç",
+                "items": [
+                  "Documentació administrativa associada als treballs de manteniment (sol·licitud de descàrrec, permís d’obres, entre altres).",
+                  "Replanteig d’instal·lacions d’enllaç.",
+                  "Fases de muntatge d’una instal·lació elèctrica d’enllaç.",
+                  "Caixa general de protecció: tipus de muntatges.",
+                  "Línia general d’alimentació: sistemes d’instal·lació, tapes de registre.",
+                  "Derivacions individuals: sistemes d’instal·lació, caixes de registre.",
+                  "Comptadors: esquemes de connexió directa i amb transformadors d’in-tensitat.",
+                  "Avaries tipus en instal·lacions d’enllaç: localització, reparació.",
+                  "Caixes de protecció i mesura: instal·lació.",
+                  "Qualitat en el muntatge i manteniment d’instal·lacions d’enllaç.",
+                  "Normativa i reglamentació vigent aplicable (parts relatives al muntatge i manteniment de les instal·lacions elèctriques d’enllaç):",
+                  "Mesures dels paràmetres característics.",
+                  "Elaboració d’informes. Fulls de reparacions."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

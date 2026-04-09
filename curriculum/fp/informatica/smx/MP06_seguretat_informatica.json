@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "grau": "mitja",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "seguretat informàtica",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "seguretat passiva",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica mesures de seguretat passiva en sistemes informàtics descrivint característiques d’entorns i relacionant-les amb les seves necessitats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les diferències entre seguretat física i lògica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix les característiques de la ubicació física i condicions ambientals dels equips i servidors."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica la necessitat de protegir físicament els sistemes informàtics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica el funcionament dels sistemes d’alimentació ininterrompuda."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona els punts d’aplicació dels sistemes d’alimentació ininterrompuda."
+              },
+              {
+                "codi": "CA16",
+                "text": "Esquematitza les característiques d’una política de seguretat basada en llistes de control d’accés detallant-hi l’organització d’usuaris i grups per garantir la seguretat de la informació i funcionalitats suportades per l’equip informàtic, segons les especificacions tècniques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Valora els avantatges que suposa la utilització de sistemes biomètrics i la importància d’establir una política de contrasenyes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els tipus d’accés al sistema així com els mecanismes de seguretat descrivint-ne les característiques principals i eines associades més comunes per garantir l’ús dels recursos del sistema."
+              },
+              {
+                "codi": "CA19",
+                "text": "Explica els procediments dels sistemes per establir permisos i drets d’usuaris, detallant-ne l’organització i les eines administratives associades per organitzar polítiques de seguretat, segons els procediments establerts en el programari base."
+              },
+              {
+                "codi": "CA110",
+                "text": "Comprova el registre dels usuaris i grups a l’inventari, registrant-hi els canvis detectats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Seguretat física i seguretat lògica",
+                "items": [
+                  "Ubicació física i condicions ambientals dels equips i servidors.",
+                  "Protecció física dels sistemes informàtics.",
+                  "Els sistemes d’alimentació ininterrompuda.",
+                  "Aplicació dels sistemes d’alimentació ininterrompuda.",
+                  "Polítiques de seguretat basades en llistes de control d’accés.",
+                  "Polítiques de contrasenyes; sistemes biomètrics.",
+                  "Mecanismes de seguretat d’accés al sistema.",
+                  "Permisos i drets d’usuaris.",
+                  "Gestió de l’inventari dels registres d’usuaris, incidències i alarmes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "còpies de seguretat",
+        "hores": 26,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona dispositius d’emmagatzematge descrivint els procediments efectuats i aplicant tècniques per assegurar la integritat de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta la documentació tècnica relativa a la política d’emmagatzematge, fins i tot en cas d’estar editada en la llengua estrangera d’ús més freqüent en el sector, utilitzant-la d’ajuda."
+              },
+              {
+                "codi": "CA12",
+                "text": "Té en compte factors inherents a l’emmagatzematge de la informació (rendiment, disponibilitat, accessibilitat, entre d’altres), identificant els paràmetres de configuració i els components crítics del sistema."
+              },
+              {
+                "codi": "CA13",
+                "text": "Classifica i enumera els principals mètodes d’emmagatzematge, inclosos els sistemes d’emmagatzematge en xarxa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les tecnologies d’emmagatzematge redundant i distribuït."
+              },
+              {
+                "codi": "CA15",
+                "text": "Programa còpies de seguretat tenint en compte la freqüència i l’esquema de rotació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza còpies de seguretat amb diferents estratègies."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza suports d’emmagatzematge remots i extraïbles."
+              },
+              {
+                "codi": "CA18",
+                "text": "Crea i restaura imatges de còpia de seguretat de sistemes en funcionament."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica la necessitat de custòdia dels suports d’emmagatzematge."
+              },
+              {
+                "codi": "CA110",
+                "text": "Aplica i documenta procediments de mesura de rendiment, de verificació i de detecció d’anomalies seleccionant les eines adequades i utilitzant les mètriques de rendiment adequades indicades segons especificacions tècniques rebudes."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Polítiques d’emmagatzematge",
+                "items": [
+                  "Emmagatzematge de la informació: paràmetres de configuració, rendiment, disponibilitat, accessibilitat.",
+                  "Mètodes d’emmagatzematge locals i en xarxa.",
+                  "Tecnologies d’emmagatzematge redundant i distribuït.",
+                  "Programació temporal de còpies de seguretat seguint esquemes de rotació.",
+                  "Realització de còpies de seguretat seguint diverses estratègies.",
+                  "Utilització de suports d’emmagatzematge remots i extraïbles.",
+                  "Creació i restauració de còpies de seguretat.",
+                  "Aplicació de procediments de mesura de rendiment, de verificació i de detecció d’anomalies.",
+                  "Custòdia de suports d’emmagatzematge."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "legislació de seguretat i protecció de dades",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix la legislació i normativa sobre seguretat i protecció de dades analitzant-ne les repercussions de l’incompliment.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu la legislació sobre protecció de dades de caràcter personal."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina la necessitat de controlar l’accés a la informació personal emmagatzemada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les figures legals que intervenen en el tractament i manteniment dels fitxers de dades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Contrasta l’obligació de posar a disposició de les persones les dades personals que els concerneixen."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu la legislació actual sobre els serveis de la societat de la informació i comerç electrònic."
+              },
+              {
+                "codi": "CA16",
+                "text": "Contrasta les normes sobre gestió de seguretat de la informació, en especial les referents al correu electrònic."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza actualitzacions periòdiques dels sistemes per corregir possibles vulnerabilitats."
+              },
+              {
+                "codi": "CA18",
+                "text": "Verifica que les llicències d’ús dels components de programari compleixen la legislació vigent."
+              },
+              {
+                "codi": "CA19",
+                "text": "Descriu els plans de manteniment i d’administració de seguretat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Protecció de dades",
+                "items": [
+                  "Legislació sobre protecció de dades.",
+                  "Mecanismes de control d’accés a informació personal emmagatzemada.",
+                  "Tractament i manteniment de fitxers de dades.",
+                  "Dades personals.",
+                  "Legislació sobre els serveis de la societat de la informació, comerç i correu electrònic.",
+                  "Configuració de programes clients de correu electrònic per al compliment de normes sobre gestió de seguretat de la informació.",
+                  "Actualitzacions de seguretat del sistema.",
+                  "Legislació sobre llicències d’ús de programari.",
+                  "Plans de manteniment i d’administració de seguretat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "seguretat activa",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica mecanismes de seguretat activa descrivint-ne les característiques i relacionant-les amb les necessitats d’ús del sistema informàtic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Segueix plans de contingència per actuar davant fallades de seguretat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els mecanismes de protecció del sistema contra virus i programes maliciosos per assegurar-ne i verificar-ne l’actualització."
+              },
+              {
+                "codi": "CA13",
+                "text": "Verifica l’origen i l’autenticitat de les aplicacions que s’instal·len en els sistemes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la, prova i actualitza aplicacions específiques per a la detecció i eliminació de programari maliciós, automatitzant tasques de protecció i de desinfecció."
+              },
+              {
+                "codi": "CA15",
+                "text": "Aplica tècniques de recuperació de dades."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu sistemes d’identificació com la signatura electrònica, certificat digital, entre d’altres."
+              },
+              {
+                "codi": "CA17",
+                "text": "Obté i utilitza sistemes d’identificació com la signatura electrònica, el certificat digital, entre d’altres, amb la finalitat bàsica de la signatura de documents i de missatgeria electrònica, seguint la documentació que descriu els procediments."
+              },
+              {
+                "codi": "CA18",
+                "text": "Interpreta la documentació tècnica associada, fins i tot en cas d’estar editada en la llengua estrangera d’ús més freqüent en el sector, i utilitzant-la d’ajuda."
+              },
+              {
+                "codi": "CA19",
+                "text": "Detecta i resol les alarmes i les incidències de seguretat seguint les instruccions pertinents."
+              },
+              {
+                "codi": "CA110",
+                "text": "Realitza la documentació adient sobre les incidències de seguretat, segons indicacions de l’administrador."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Alarmes i incidències de seguretat. Protecció contra programari maliciós",
+                "items": [
+                  "Fallades de seguretat: plans de contingència.",
+                  "Virus i programes maliciosos.",
+                  "Utilització de mecanismes per a la verificació de l’origen i l’autenticitat d’aplicacions.",
+                  "Instal·lació, prova, utilització, actualització i automatització d’eines per a la protecció i desinfecció contra programari maliciós.",
+                  "Utilització de tècniques de recuperació de dades.",
+                  "Sistemes d’identificació: signatura electrònica, certificat digital.",
+                  "Obtenció d’identificacions digitals; utilització de signatura electrònica, especialment en documents i de missatgeria electrònica, seguint la documentació que descriu els procediments.",
+                  "Interpretació i utilització com a ajuda de documentació tècnica.",
+                  "Detecció i resolució d’incidències seguint les instruccions pertinents.",
+                  "Documentació de les incidències de seguretat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "tallafocs i monitoratge de xarxes",
+        "hores": 38,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Assegura la privadesa de la informació transmesa en xarxes informàtiques descrivint vulnerabilitats i instal·lant programari específic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la necessitat d’inventariar i controlar els serveis de xarxa."
+              },
+              {
+                "codi": "CA12",
+                "text": "Contrasta la incidència de les tècniques d’enginyeria social en els fraus informàtics i robatoris d’informació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Dedueix la importància de minimitzar el volum de trànsit generat per la publicitat i el correu brossa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Aplica mesures per evitar el monitoratge de xarxes cablejades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Classifica i valora les propietats de seguretat dels protocols usats en xarxes sense fil."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza eines de control del monitoratge de xarxes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Instal·la i configura un tallafocs en un equip o servidor, seguint la documentació tècnica associada."
+              },
+              {
+                "codi": "CA18",
+                "text": "Interpreta la documentació tècnica associada, fins i tot en cas d’estar editada en la llengua estrangera d’ús més freqüent en el sector, utilitzant-la d’ajuda."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza informes d’incidències de seguretat detallant les activitats realitzades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Assegura la privadesa de la informació",
+                "items": [
+                  "Inventari i control dels serveis de xarxa.",
+                  "Fraus informàtics i robatoris d’informació; enginyeria social.",
+                  "Publicitat i correu brossa.",
+                  "Seguretat en xarxes cablejades i control del monitoratge.",
+                  "Seguretat en les xarxes sense fil i en els seus protocols.",
+                  "Utilització d’eines de control del monitoratge en xarxes.",
+                  "Tallafocs en equips i servidors: instal·lació, configuració i utilització.",
+                  "Interpretació i utilització com a ajuda de documentació tècnica.",
+                  "Realització d’informes d’incidències de seguretat."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

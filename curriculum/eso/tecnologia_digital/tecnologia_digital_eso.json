@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "eso",
+    "area_materia": "Tecnologia i Digitalització",
+    "codi_area": "TID",
+    "decret": "175/2022",
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Tecnologia-i-Digitalitzacio.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "La Tecnologia i Digitalització a l'ESO forma l'alumnat com a dissenyador i constructor de solucions tecnològiques, combinant pensament tècnic, creativitat i responsabilitat ecosocial. La matèria integra les dimensions física del món tecnològic (materials, estructures, mecanismes, electricitat) amb la dimensió digital (programació, robòtica, IoT, eines digitals), i estableix connexions directes amb les Matemàtiques (càlcul, geometria, algorísmica), la Física i Química (circuits, forces, energia), i les Ciències Socials (impacte ambiental i social de la tecnologia). Prepara per a itineraris científics i tecnològics de Batxillerat i FP.\n\nEls grans constructes disciplinaris s'organitzen en quatre blocs: el procés tecnològic (anàlisi de problemes, disseny, planificació, construcció, avaluació i documentació en memòria de projecte); les tècniques i sistemes tecnològics (estructures, mecanismes, circuits elèctrics i electrònics, materials, fabricació digital); el pensament computacional i la programació (algorísmica, diagrames de flux, programació de dispositius, robòtica, IA aplicada, Internet de les Coses); i la tecnologia sostenible (cicle de vida, economia circular, eficiència energètica, ODS, ètica tecnològica).\n\nL'enfocament pedagògic és eminentment pràctic i basat en projectes: l'alumnat defineix un problema real, dissenya una solució, la construeix i la documenta de forma col·laborativa. L'aula taller, el treball en equip i l'ús d'eines digitals de disseny (CAD 2D/3D) i de programació formen part del context habitual d'aprenentatge. L'avaluació valora el procés complet —des de la detecció del problema fins a l'avaluació crítica del producte final— incloent la documentació tècnica, el treball cooperatiu i la reflexió sobre la sostenibilitat de la solució adoptada."
+  },
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Buscar, analitzar i seleccionar la informació adequada, de manera crítica i segura, tot aplicant processos de recerca, mètodes d’anàlisi de productes i experimentant amb eines de simulació, per delimitar problemes tecnològics i proposar solucions a partir de la informació obtinguda Criteris d’avaluació 1.1 Identificar i definir problemes o necessitats plantejades, tot cercant i contrastant la informació procedent de diferents fonts de manera crítica i segura, fent ús dels coneixements científics i tecnològics, avaluant-ne la fiabilitat i la pertinència.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA1.1",
+            "text": "Identificar i definir problemes o necessitats plantejades, tot cercant i contrastant la informació procedent de diferents fonts de manera crítica i segura, fent ús dels coneixements científics i tecnològics, avaluant-ne la fiabilitat i la pertinència."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Analitzar i examinar productes tecnològics d’ús habitual a través de l’anàlisi d’objectes i sistemes, fent ús dels coneixements científics i tecnològics, utilitzant, si s’escau, eines de simulació, en la construcció de coneixement."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Planificar, dissenyar i desenvolupar solucions a problemes tecnològics amb autonomia i actitud creativa, tot aplicant el procés tecnològic, coneixements interdisciplinaris i treballant de manera ordenada i cooperativa, per resoldre problemes o necessitats de manera eficaç, innovadora i sostenible.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA2.1",
+            "text": "Idear i dissenyar solucions tecnològiques originals a problemes plantejats, tot aplicant el procés tecnològic amb conceptes, tècniques i procediments interdisciplinaris amb actitud emprenedora, perseverant i creativa, documentant la informació en una memòria de projecte."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Seleccionar, planificar i organitzar el temps, els materials i les eines, així com les tasques necessàries per a la construcció d’una solució definida en un projecte, treballant individualment o en grup de manera cooperativa."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Aplicar criteris de sostenibilitat en el disseny de solucions tecnològiques considerant tot el cicle de vida útil de l’objecte."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Aplicar de manera apropiada diferents tècniques i coneixements interdisciplinaris, tot utilitzant operadors, sistemes tecnològics i eines, seguint la planificació i el disseny sostenible previ per construir solucions tecnològiques que donin resposta a necessitats en diferents contextos.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA3.1",
+            "text": "Fabricar objectes o models mitjançant la manipulació i la conformació de materials, tot emprant instruments de mesura, eines i màquines adequades, posant en pràctica els fonaments d’estructures, mecanismes, electricitat i electrònica seguint les normes de seguretat i de salut."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Avaluar el resultat d’una construcció tot contrastant les seves funcions en relació amb els requeriments tècnics del projecte, mitjançant l’observació i l’ús d’instruments de mesura per validar el resultat final."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Descriure, representar i intercanviar idees o solucions a problemes tecnològics o digitals, utilitzant els mitjans de representació, simbologia i vocabulari adequats, així com els instruments i els recursos disponibles, utilitzant les eines digitals per argumentar, comunicar i difondre informació.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA4.1",
+            "text": "Documentar el procés de la creació d’un producte des del disseny fins a l’avaluació, elaborant la documentació tècnica i gràfica amb l’ajuda d’eines digitals, emprant els formats i el vocabulari tècnic adequats, de manera col·laborativa, tant presencialment com en remot."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Representar objectes, diagrames i esquemes tècnics mitjançant eines digitals col·laboratives, tot aplicant les normes tècniques corresponents."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Utilitzar dispositius i recursos digitals per a comunicar-se amb els altres, per difondre els propis aprenentatges i argumentar-los."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Desenvolupar algorismes i aplicacions informàtiques en diferents entorns, tot aplicant els principis del pensament computacional i incorporant les tecnologies emergents, per resoldre problemes concrets, automatitzar processos i aplicar-los en sistemes de control o robòtica.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA5.1",
+            "text": "Descriure, interpretar i dissenyar solucions a problemes informàtics mitjançant algorismes i diagrames de flux, tot aplicant els elements i les tècniques de programació de manera creativa."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Programar aplicacions senzilles per a diferents dispositius (ordinadors, dispositius mòbils i altres) emprant els elements de programació de manera apropiada, fent servir el programari i els llenguatges de programació adients i mòduls d’intel·ligència artificial que afegeixin funcionalitats."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Automatitzar processos, màquines i objectes de manera autònoma, amb o sense connexió a Internet, mitjançant l’anàlisi, la construcció i la programació de robots i sistemes de control."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE6",
+      "text": "Utilitzar els fonaments del funcionament dels dispositius i de les aplicacions habituals de l’entorn digital d’aprenentatge, analitzant-ne els components i les funcions i ajustant-los a les necessitats per fer-ne un ús més eficient i segur, per detectar i resoldre problemes tècnics senzills.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA6.1",
+            "text": "Fer un ús eficient i segur dels dispositius digitals d’ús quotidià en la resolució de problemes senzills, analitzant els components i els sistemes de comunicació, per identificar els riscos i adoptar mesures de seguretat per a la protecció de dades i equips."
+          },
+          {
+            "codi": "CA6.2",
+            "text": "Crear continguts, elaborar materials i difondre’ls en diferents plataformes, configurant correctament les eines digitals habituals de l’entorn d’aprenentatge, ajustant-les a les necessitats i respectant les llicències i els drets d’autoria."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Organitzar la informació de manera estructurada, aplicant tècniques d’emmagatzematge segur."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE7",
+      "text": "Fer ús ètic, sostenible i ecosocialment responsable de la tecnologia, identificant les repercussions i les aportacions, per valorar l’impacte del desenvolupament tecnològic a la societat i a l’entorn.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA7.1",
+            "text": "Identificar la influència de l’activitat tecnològica en la societat i en la sostenibilitat ambiental al llarg de la història, analitzant-ne les aportacions i les repercussions tot valorant- ne la importància per al desenvolupament sostenible."
+          },
+          {
+            "codi": "CA7.2",
+            "text": "Fer un ús responsable i ètic de les tecnologies emergents, tot identificant les seves aportacions al benestar, a la igualtat social i a la reducció de l’impacte ambiental."
+          },
+          {
+            "codi": "CA7.3",
+            "text": "Valorar l’economia circular com una aportació tecnològica i social a la sostenibilitat per reduir la necessitat de matèries primeres i aconseguir la reducció de residus."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers es formulen amb relació a contextos on es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d’organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Procés de resolució de problemes i de projectes - Aplicació d’estratègies, tècniques i marcs de resolució de problemes en diferents contextos i les seves fases. - Aplicació d’estratègies de cerca crítica d’informació per a la recerca i la definició de problemes plantejats. - Anàlisi de productes i de sistemes tecnològics per a la construcció de coneixement des de diferents enfocaments i àmbits. - Anàlisi i disseny d’estructures per a la construcció de models. - Anàlisi i disseny de sistemes mecànics bàsics. Muntatges físics i/o ús de simuladors. - Muntatge d’esquemes i circuits elèctrics o electrònics, físics o simulats. Interpretació, càlcul, disseny i aplicació en projectes. - Identificar les característiques dels materials d’ús tecnològic i el seu impacte ambiental. - Utilització d’eines i tècniques de manipulació i mecanització de materials per a la construcció d’objectes i de prototips. Iniciació a la fabricació digital. Aplicació de les normes de seguretat i d’higiene. - Desenvolupament de l’emprenedoria, la resiliència, la perseverança i la creativitat per resoldre problemes des d’una perspectiva interdisciplinària. Comunicació i difusió d’idees - Ús del vocabulari tècnic apropiat. Desenvolupament de les habilitats bàsiques de comunicació interpersonal. Ús adequat de pautes de conducta pròpies de l’entorn virtual. - Ús de les normes d’acotació i aplicació de les escales i les tècniques de representació gràfica. - Utilització d’aplicacions CAD en 2D i 3D per a la representació d’esquemes, circuits, plànols i objectes. - Utilització d’eines digitals per a l’elaboració, la publicació i la difusió de documentació tècnica i informació multimèdia relativa a projectes. Pensament computacional, programació i robòtica - Resolució de processos mitjançant algorísmica i representació amb diagrames de flux. - Implementació d’aplicacions informàtiques senzilles per a ordinador i dispositius mòbils i iniciació a la intel·ligència artificial. - Disseny i implementació de sistemes de control programat. Muntatge físic i/o ús de simuladors i programació senzilla de dispositius. Internet de les coses. - Iniciació a la robòtica. Muntatge i control programat de robots o dispositius programables de manera física o mitjançant simuladors. - Aplicació de tècniques de depuració iteratives d’un programa informàtic per a la identificació de l’error com a part del procés d’aprenentatge i afirmació de l’autoconfiança. Digitalització de l’entorn personal d’aprenentatge - Ús de dispositius digitals, tant dels elements del maquinari com del programari. Identificació i resolució de problemes tècnics senzills. - Utilització de sistemes de comunicació digital d’ús comú. Transmissió de dades. Tecnologies sense fil per a la comunicació. - Utilització d’eines i entorns virtuals d’aprenentatge. Configuració, manteniment i ús crític. - Utilització d’eines d’edició i creació de continguts. Instal·lació, configuració i ús responsable de les aplicacions i de la propietat intel·lectual. - Implementació de tècniques de tractament, organització i emmagatzematge segur de la informació. Còpies de seguretat. - Implementació de la seguretat a la xarxa: riscos, amenaces i atacs. Aplicació de mesures de protecció de les dades i de la informació. Accions preventives per al benestar digital. Tecnologia sostenible - Desenvolupament tecnològic: creativitat, innovació, investigació, obsolescència i impacte social i ambiental. Utilització ètica de les aplicacions i les tecnologies emergents. - Aplicació de la tecnologia sostenible. Valoració crítica de la contribució a la consecució dels objectius de desenvolupament sostenible. - Valoració de l’energia com a factor tecnològic clau del desenvolupament sostenible. Eficiència energètica, consum responsable i energies renovables."
+    }
+  ],
+  "_validacio": {
+    "fragments_ok": 90,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
+}

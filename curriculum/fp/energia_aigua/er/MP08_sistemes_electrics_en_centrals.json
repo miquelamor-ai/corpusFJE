@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "sistemes elèctrics en centrals",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "característiques i materials dels sistemes elèctrics",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza sistemes elèctrics, interpretant esquemes i identificant-ne les característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques dels sistemes elèctrics i els tipus de xarxes elèctriques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Distingeix el subsistema de generació d’energia elèctrica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Distingeix el subsistema de transport d’energia elèctrica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Distingeix el subsistema de distribució d’energia."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els components d’un sistema elèctric."
+              },
+              {
+                "codi": "CA16",
+                "text": "Relaciona els elements de la xarxa amb la seva simbologia, sobre plànols i esquemes del sistema elèctric."
+              },
+              {
+                "codi": "CA17",
+                "text": "Classifica les xarxes de distribució en funció de la seva connexió."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els tipus d’esquemes en xarxes de baixa tensió i alta tensió en funció de la seva connexió a terra."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Classifica els materials elèctrics i magnètics, reconeixent les seves propietats i característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Diferencia els conductors d’instal·lacions d’enllaç i interior."
+              },
+              {
+                "codi": "CA22",
+                "text": "Enumera els conductors per a xarxes de distribució d’energia elèctrica aèries."
+              },
+              {
+                "codi": "CA23",
+                "text": "Categoritza els conductors per a xarxes de distribució d’energia elèctrica subterrània."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica les característiques i els tipus de condensadors."
+              },
+              {
+                "codi": "CA25",
+                "text": "Classifica els diferents aïllants."
+              },
+              {
+                "codi": "CA26",
+                "text": "Selecciona aïllants en funció del grau d’aïllament."
+              },
+              {
+                "codi": "CA27",
+                "text": "Reconeix les característiques i les magnituds fonamentals dels materials ferromagnètics."
+              },
+              {
+                "codi": "CA28",
+                "text": "Diferencia elements de funcionament electromagnètic en centrals elèctriques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Calcula circuits d’instal·lacions elèctriques trifàsiques i monofàsiques utilitzades en centrals elèctriques, utilitzant taules i tècniques de configuració.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Reconeix els valors característics del corrent altern."
+              },
+              {
+                "codi": "CA32",
+                "text": "Realitza càlculs de tensió, intensitat i potència, entre d’altres en circuits de corrent altern monofàsic."
+              },
+              {
+                "codi": "CA33",
+                "text": "Reconeix els avantatges dels sistemes trifàsics en la generació i en el transport de l’energia elèctrica."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica els sistemes de generació i de distribució a tres i quatre fils."
+              },
+              {
+                "codi": "CA35",
+                "text": "Reconeix la diferència entre sistemes equilibrats i desequilibrats."
+              },
+              {
+                "codi": "CA36",
+                "text": "Realitza càlculs d’intensitats, de tensions i de potències, entre altres, en receptors trifàsics equilibrats."
+              },
+              {
+                "codi": "CA37",
+                "text": "Calcula i millora el factor de potència de circuits de corrent altern."
+              },
+              {
+                "codi": "CA38",
+                "text": "Calcula seccions de línies monofàsiques i trifàsiques de corrent altern."
+              },
+              {
+                "codi": "CA39",
+                "text": "Selecciona elements de protecció elèctrica."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Característiques dels sistemes elèctrics",
+                "items": [
+                  "Característiques del sistema elèctric. Tipus de xarxes elèctriques. Xarxa elèctrica nacional.",
+                  "Descripció del sistema elèctric.",
+                  "Subsistemes de generació. Tipus de generadors. Característiques i utilització. Subsistemes de transport. Tipus i característiques. Subsistemes de distribució. Tipus i característiques. Distribució en alta tensió (AT). Distribució en mitjana tensió (MT). Distribució en baixa tensió (BT).",
+                  "Constitució de les xarxes de distribució. Parts. Característiques.",
+                  "Elements d’un sistema elèctric. Subestació elevadora i reductora. Línia de transport. Centre de repartiment. Línia de distribució en MT. Centre de transformació. Línies de distribució de BT.",
+                  "Simbologia elèctrica d’alta i de mitjana tensió. Interpretació de plànols. Normes d’aplicació.",
+                  "Tipus de línies a les xarxes de distribució. Aèries i subterrànies. Característiques diferenciadores. Normativa.",
+                  "Tipus de connexió de les xarxes de distribució: xarxa radial, xarxa en anell, xarxa en fus normal, xarxa en fus sostingut i xarxa en baixa tensió, entre d’altres.",
+                  "Tipus d’esquemes en xarxes de baixa tensió en funció de la seva connexió a terra. Característiques i utilització."
+                ]
+              },
+              {
+                "bloc": "Classificació dels materials elèctrics i magnètics utilitzats en centrals elèctriques",
+                "items": [
+                  "Característiques fonamentals dels materials. Materials conductors. Força elèctrica: llei de Coulomb. Llei d’Ohm. Corrent en conductors metàl·lics i efecte Joule. Conseqüències i aplicacions.",
+                  "Conductors per a instal·lacions d’enllaç i interior. Designació normalitzada de conductors. Composició. Tipus. Colors normalitzats. Materials aïllants. Característiques dels materials aïllants.",
+                  "Conductors per a xarxes de distribució d’energia elèctrica aèries. Naturalesa i característiques. Conductors alumini-acer. Xarxa trenada, entre d’altres.",
+                  "Conductors per a xarxes de distribució d’energia elèctrica subterrànies. Característiques i constitució dels cables subterranis. Envolupants. Empalmaments.",
+                  "Condensadors. Capacitat. Característiques. Tipus. Aplicacions. Connexions.",
+                  "Aïllants. Funcionalitat i materials emprats. Paràmetres característics d’un aïllador. Classificació dels aïlladors. Ferramenta. Elecció del número d’elements d’una cadena d’aïlladors en funció del grau d’aïllament requerit per la línia. Aïllador polimèric.",
+                  "Materials magnètics. Conceptes generals del magnetisme. Corba d’imantació dels materials ferromagnètics. Tipus de comportament magnètic. Cicle d’histèresi. Tipus de materials ferromagnètics. Influència de la tensió a les característiques magnètiques. Pèrdues magnètiques. Circuit magnètic.",
+                  "Inductors. Inductància. Característiques. Tipus. Aplicacions. Connexions.",
+                  "Electroimant. Tipus. Càlcul de la força de tracció d’electroimants. Utilització."
+                ]
+              },
+              {
+                "bloc": "Càlcul de circuits en instal·lacions elèctriques trifàsiques i monofàsiques",
+                "items": [
+                  "Valors característics del corrent altern. Comportament dels receptors elementals (resistor, inductor pur i condensador) en corrent altern monofàsic. Circuits amb resistor, inductor i condensadors en acoblament sèrie, paral·lel o mixt en corrent altern monofàsic.",
+                  "Potència en corrent altern monofàsic. Potencia aparent, activa i reactiva. Factor de potència.",
+                  "Resolució de circuits de corrent altern monofàsic. Característiques especials, ressonància inductiva, ressonància capacitiva.",
+                  "Sistemes trifàsics. Connexió de generadors trifàsics. Connexió de receptors trifàsics. Potència en sistemes trifàsics. Correcció del factor de potència.",
+                  "Sistemes trifàsics equilibrats i desequilibrats. Connexió a terra.",
+                  "Càlculs característics en sistemes trifàsics equilibrats. Tensió i potències trifàsiques. Caiguda de tensió en línies elèctriques. Intensitats de fase i de línia. Càlculs bàsics en sistemes trifàsics desequilibrats.",
+                  "Càlculs de seccions en línies elèctriques equilibrades. Càlcul de la secció dels conductors d’una instal·lació tenint en compte la intensitat màxima admissible. Càlcul de la secció dels conductors d’una instal·lació tenint en compte la caiguda de tensió. Càlcul de la secció dels conductors d’una instal·lació tenint en compte la intensitat de curtcircuit. Seccions normalitzades.",
+                  "Reglamentació elèctrica. Reglament electrotècnic de baixa tensió. Reglament de línies elèctriques d’alta tensió. Reglament de centrals i centres de transformació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "mesures elèctriques i qualitat de l’energia elèctrica",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza mesures elèctriques, utilitzant els equips adequats i interpretant els resultats obtinguts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les metodologies d’errors en les mesures."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina la precisió dels aparells de mesura."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els diferents instruments de mesura."
+              },
+              {
+                "codi": "CA14",
+                "text": "Classifica els diferents sistemes de mesura."
+              },
+              {
+                "codi": "CA15",
+                "text": "Efectua mesures elèctriques (tensió, intensitat i potència, entre d’altres)."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica les funcions dels analitzadors de xarxes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Interpreta els resultats obtinguts de les mesures."
+              },
+              {
+                "codi": "CA18",
+                "text": "Observa les normes de seguretat dels equips i de les persones en la realització de mesures."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Caracteritza els paràmetres de qualitat de l’energia elèctrica, aplicant la normativa vigent nacional i internacional i relacionant-los amb els sistemes d’alimentació i de subministrament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica la normativa nacional i internacional relacionada amb la qualitat de l’energia elèctrica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Precisa les característiques de l’alimentació en baixa tensió."
+              },
+              {
+                "codi": "CA23",
+                "text": "Reconeix les característiques de l’alimentació en mitjana tensió."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix la continuïtat del subministrament d’energia elèctrica."
+              },
+              {
+                "codi": "CA25",
+                "text": "Estableix les responsabilitats en el compliment de la qualitat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Reconeix les pertorbacions provocades i induïdes per instal·lacions receptores."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els problemes causats per una mala qualitat de l’energia elèctrica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica els equips que milloren la qualitat de l’energia elèctrica."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització de mesures elèctriques",
+                "items": [
+                  "Errors en les mesures. Metodologies. Errors típics. Sensibilitat.",
+                  "Precisió dels aparells de mesura. Normes generals per a la presa de mesures elèctriques.",
+                  "Instruments de mesura analògics i digitals. El polímetre. L’oscil·loscopi. Pinça amperimètrica. Avantatges i inconvenients. Utilització. Característiques. Sistemes de mesura.",
+                  "Mesures elèctriques fonamentals. Mesura d’intensitat. Mesura de tensió. Mesures de potència. Mesures d’energia. Mesura de la freqüència i ordre de fases. Mesura del factor de potència. Mesura de la resistència elèctrica. Mesura de la continuïtat elèctrica. Mesura de la resistivitat del terreny. Mesura del valor de la posada a terra. Mesura de la sensibilitat de l’interruptor diferencial.",
+                  "Interpretació de resultats. Mesures visuals. Mesures gràfiques. Sistemes informàtics de mesura. Elaboració d’informes. Tractament de les dades obtingudes.",
+                  "Analitzadors de xarxes. Utilització. Tipus. Característiques. Anàlisis de resultats. Mesura d’harmònics i de pertorbacions de xarxa."
+                ]
+              },
+              {
+                "bloc": "Característiques dels paràmetres de qualitat de l’energia elèctrica",
+                "items": [
+                  "Normativa relacionada amb la qualitat de l’energia elèctrica.",
+                  "Característiques de l’alimentació en baixa i en mitjana tensió. Freqüència. Amplitud de la tensió subministrada. Distorsió harmònica.",
+                  "Qualitat d’energia elèctrica. Variacions de la tensió subministrada. Variacions ràpides de tensió. Buits de tensió. Interrupcions breus de la tensió subministrada. Interrupcions llargues de la tensió subministrada. Sobretensions temporals a la xarxa entre fases i terra. Sobretensions transitòries entre fases i terra. Desequilibri de la tensió subministrada. Tensions harmòniques. Transmissió de senyals d’informació per la xarxa.",
+                  "Responsabilitats en el compliment de la qualitat.",
+                  "Pertorbacions provocades i induïdes per instal·lacions receptores. Tipus de receptors. Soroll elèctric.",
+                  "Problemes causats per una mala qualitat de l’energia elèctrica.",
+                  "Equips per millorar la qualitat d’energia elèctrica. Filtres d’harmònics (passius i actius). Transformadors d’aïllament. Transformadors ferroressonants. Sistema d’alimentació ininterrompuda (SAI). Compensadors estàtics. Interruptor automàtic d’estat sòlid."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "màquines elèctriques",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Distingeix les característiques de les màquines elèctriques estàtiques i rotatives, especificant-ne la constitució i els valors.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica les màquines elèctriques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix la constitució de les màquines elèctriques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Enuncia el principi de funcionament de les màquines elèctriques rotatives."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica les característiques de les màquines elèctriques rotatives."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica el funcionament i la constitució de les màquines elèctriques estàtiques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Enumera les magnituds nominals a la placa de característiques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza càlculs de comprovació de les característiques descrites en la documentació tècnica."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els elements auxiliars que componen les màquines elèctriques."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza operacions de posada en marxa de màquines rotatives i estàtiques."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Característiques elèctriques de les màquines elèctriques rotatives i estàtiques",
+                "items": [
+                  "Classificació de màquines elèctriques. Màquines rotatives. Màquines estàtiques.",
+                  "Generadors elèctrics. Tipus de generadors elèctrics. Funcions generals dels generadors elèctrics. Funcionament del generador síncron. Constitució i característiques del generador síncron. Funcionament del generador asíncron. Funcionament del generador de corrent continu. Constitució i característiques del generador de corrent continu.",
+                  "Alternadors. Funcions de l’alternador. Constitució de l’alternador. Característiques generals de l’excitació. Sistemes auxiliars de l’alternador. Funcionament de l’alternador. Característiques de l’alternador. Regulació de l’alternador. Acoblament d’alternadors.",
+                  "Motors elèctrics. Funcions generals dels motors elèctrics. Característiques generals dels motors elèctrics. Parts fonamentals d’un motor elèctric. Tipus de motors elèctrics. Constitució, característiques i funcionament dels motors de corrent altern. Constitució, característiques i funcionament dels motors de corrent continu.",
+                  "La placa de característiques a les màquines rotatives. Normativa.",
+                  "Càlculs bàsics de les màquines rotatives. Parell. Velocitat. Tensió. Intensitat. Resistència d’aïllament. Factor de potència. Corbes característiques.",
+                  "Transformadors. Funcions dels transformadors. Tipus de transformadors. Constitució, característiques elèctriques i funcionament dels transformadors. Anàlisi de la placa de característiques. Regulació dels transformadors. Transformadors especials. Acoblament de transformadors.",
+                  "Càlculs bàsics dels transformadors. Assajos. Corbes característiques. Tensió. Intensitat. Potència. Relació de transformació. Tensió de curtcircuit. Pèrdues en càrrega i en buit.",
+                  "Elements auxiliars de les màquines. Arrencadors. Reguladors de velocitat. Aparellatge. Proteccions. Connexions.",
+                  "Posada en marxa de generadors elèctrics de corrent continu. Posada en marxa dels alternadors. Tipus i característiques. Precaucions i tècniques. Posada en marxa de motors elèctrics. Arrencada. Control de velocitat. Parada i inversió de gir. Posada en marxa de transformadors. Connexions en línia."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "aparellatge, protecció i sistemes auxiliars en centrals elèctriques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza l’aparellatge i les proteccions elèctriques a les centrals i subestacions, descrivint-ne la constitució, el funcionament i interpretant-ne les magnituds fonamentals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la constitució i el funcionament dels diferents tipus d’elements de tall."
+              },
+              {
+                "codi": "CA12",
+                "text": "Diferencia els tipus d’elements de protecció i les seves característiques tècniques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix les característiques de l’arc elèctric i les seves tècniques de ruptura."
+              },
+              {
+                "codi": "CA14",
+                "text": "Classifica els fusibles (calibre i poder de tall, entre d’altres)."
+              },
+              {
+                "codi": "CA15",
+                "text": "Calcula corrents de curtcircuit."
+              },
+              {
+                "codi": "CA16",
+                "text": "Classifica l’aparellatge per a protecció i mesura."
+              },
+              {
+                "codi": "CA17",
+                "text": "Selecciona l’aparellatge de tall i protecció."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix les característiques tècniques de l’aparellatge de mesura."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura els sistemes auxiliars de suport (tensió segura i corrent continu, entre d’altres), distingint instal·lacions i interpretant esquemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix els sistemes auxiliars de suport."
+              },
+              {
+                "codi": "CA22",
+                "text": "Configura sistemes auxiliars de corrent altern."
+              },
+              {
+                "codi": "CA23",
+                "text": "Configura sistemes auxiliars de corrent continu."
+              },
+              {
+                "codi": "CA24",
+                "text": "Interpreta esquemes de sistemes auxiliars de suport."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els circuits alimentats pels serveis auxiliars."
+              },
+              {
+                "codi": "CA26",
+                "text": "Reconeix els procediments d’actuació dels serveis auxiliars."
+              },
+              {
+                "codi": "CA27",
+                "text": "Distingeix els principals tipus d’acumuladors d’energia elèctrica i les seves característiques."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica els mètodes emprats per a la rectificació del corrent altern."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Característiques de l’aparellatge i proteccions elèctriques",
+                "items": [
+                  "Tipus de proteccions elèctriques en centrals elèctriques i subestacions. Problemes fonamentals de l’aparellatge. L’arc elèctric. Ruptura d’un circuit de corrent altern. Ruptura en l’aire. Ruptura en l’oli. Ruptura mitjançant aire comprimit. Ruptura en hexafluorur de sofre. Ruptura en el buit. Ruptura estàtica.",
+                  "Tipus d’aparells de tall. Seccionadors. Interruptors. Interruptors-seccionadors. Interruptors automàtics o disjuntors.",
+                  "Tallacircuits fusibles. Classificació. Característiques constructives.",
+                  "Càlcul bàsic de corrents de curtcircuit. Components asimètrics. Curtcircuit monofàsic a terra. Curtcircuit entre fases. Conceptes bàsics en l’elecció d’un interruptor. Poder de tall i poder de connexió.",
+                  "Aparellatge per a protecció i mesura. Aspectes generales de protecció d’equips. Parallamps autovàlvula. Transformadors de tensió per mesura i protecció. Transformadors d’intensitat per mesura i protecció. Relés de protecció. Tipus.",
+                  "Sistemes de posada a terra. Característiques. Càlcul.",
+                  "Magnituds fonamentals de l’aparellatge en centrals i subestacions. Magnituds elèctriques. Magnituds mecàniques.",
+                  "Aparellatge de mesura. Cel·les de mesura. Mesura de magnituds fonamentals elèctriques."
+                ]
+              },
+              {
+                "bloc": "Configuració de sistemes auxiliars de suport",
+                "items": [
+                  "Sistemes auxiliars de suport. Definició. Tipus. Armaris de serveis auxiliars.",
+                  "Serveis auxiliars de corrent altern. Tipus. Característiques. Utilització.",
+                  "Serveis auxiliars de corrent continu. Tipus. Característiques. Utilització.",
+                  "Esquemes de serveis auxiliars. Alimentació de serveis auxiliars.",
+                  "Circuits alimentats pels serveis auxiliars. Tipus i característiques.",
+                  "Actuació dels serveis auxiliars. Procediments.",
+                  "Acumuladors. Tipus. Característiques.",
+                  "Rectificadors. Tipus. Característiques."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

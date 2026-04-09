@@ -1,0 +1,512 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "configuració d’instal·lacions solars fotovoltaiques",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "estudis de viabilitat en instal·lacions solars fotovoltaiques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Calcula el potencial solar d’una zona relacionant-lo amb les possibilitats d’implantació d’instal·lacions solars.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix les necessitats energètiques generals dels diferents tipus d’usuaris: edifici amb diversos habitatges, habitatge unifamiliar i piscina climatitzada per energia solar tèrmica amb sistema de suport."
+              },
+              {
+                "codi": "CA12",
+                "text": "Quantifica l’energia elèctrica i l’energia tèrmica per a calefacció, climatització i aigua calenta sanitària que s’han de subministrar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Valora les possibilitats de subministrament de diferents energies convencionals (electricitat, gas natural i gasoil, entre d’altres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Mesura els paràmetres de radiació solar utilitzant els instruments adequats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina els paràmetres de radiació solar amb les taules existents."
+              },
+              {
+                "codi": "CA16",
+                "text": "Valora les possibilitats, tècniques i legals, per realitzar una instal·lació solar tèrmica o fotovoltaica depenent de la seva ubicació i tipus d’edifici."
+              },
+              {
+                "codi": "CA17",
+                "text": "Determina els criteris per a l’elecció d’una determinada configuració d’una instal·lació solar tèrmica o fotovoltaica."
+              },
+              {
+                "codi": "CA18",
+                "text": "Formalitza documents en els quals es reflecteixin els resultats obtinguts en els estudis de consums energètics."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Elabora avantprojectes de diferents tipus d’instal·lacions solars bàsiques, identificant-hi les necessitats energètiques i valorant-ne la viabilitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica l’aportació de l’energia solar a les necessitats energètiques de l’usuari."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona l’emplaçament idoni, raonant el potencial i possible aprofitament energètic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Determina les característiques dels principals elements i components dels circuits de la instal·lació solar tèrmica o fotovoltaica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Efectua un pressupost orientatiu de la instal·lació solar tèrmica o fotovoltaica considerant-ne l’amortització."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix el marc administratiu i normatiu referent a les instal·lacions solars."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica els tràmits administratius per a la realització d’una instal·lació solar."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica tota la documentació necessària per sol·licitar l’autorització de la instal·lació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Classifica les actuacions pertinents per a l’obtenció de possibles ajuts financers."
+              },
+              {
+                "codi": "CA29",
+                "text": "Redacta avantprojectes d’instal·lacions solars."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Càlcul del potencial solar i implantació d’instal·lacions solars",
+                "items": [
+                  "Necessitats energètiques en un habitatge.",
+                  "Consums energètics. Consums elèctrics, energia elèctrica. Potència elèctrica.",
+                  "Factor de simultaneïtat. Consum d’aigua. Consum de gas.",
+                  "Factors d’emplaçament d’instal·lacions solars: anàlisi d’ombreig i repercussió de l’orientació i de la inclinació en la captació solar mitjançant captadors tèrmics o fotovoltaics.",
+                  "El sol com a font d’energia. Radiació solar. L’atles de radiació solar de Catalunya.",
+                  "Potencial solar d’una zona. Taules i sistemes de mesures.",
+                  "Paràmetres bàsics per a la determinació del potencial solar d’una zona.",
+                  "Variables climàtiques que afecten el rendiment de les instal·lacions solars.",
+                  "Estudis tècnics d’ubicació i d’orientació per a la realització d’instal·lacions solars.",
+                  "Normatives d’aplicació d’instal·lacions solars."
+                ]
+              },
+              {
+                "bloc": "Elaboració d’avantprojectes d’instal·lacions solars",
+                "items": [
+                  "Instal·lació solar tèrmica. Funcionament global.",
+                  "Tipus d’instal·lacions solars tèrmiques.",
+                  "Elements d’una instal·lació solar tèrmica: bescanviadors, dipòsits d’acumulació/expansió, bombes de circulació, canonades, purgadors, cabalímetres, vàlvules i elements de regulació i de control.",
+                  "Instal·lació solar fotovoltaica. Funcionament global.",
+                  "Tipus d’instal·lació solar fotovoltaica.",
+                  "Elements d’una instal·lació solar fotovoltaica connectada a xarxa i especificacions.",
+                  "Elements d’una instal·lació solar fotovoltaica aïllada i especificacions.",
+                  "Estudis econòmics i financers d’una instal·lació solar.",
+                  "Normatives d’aplicació d’instal·lacions solars.",
+                  "Tràmits administratius.",
+                  "Ajuts financers."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "configuració d’instal·lacions solars fotovoltaiques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura instal·lacions solars fotovoltaiques aïllades, seleccionant i calculant equips i elements.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les diferents tecnologies d’elements, equips, components i materials d’instal·lacions solars fotovoltaiques aïllades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina les dades necessàries per al dimensionament d’una instal·lació solar fotovoltaica aïllada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona els elements, els equips, els components i els materials conforme a la tecnologia estàndard del sector i les normes d’homologació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza manuals, taules i programes de càlcul informatitzat per determinar les característiques dels elements, equips, components i materials."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza els càlculs per dimensionar les instal·lacions solars fotovoltaiques aïllades."
+              },
+              {
+                "codi": "CA16",
+                "text": "Compara els càlculs realitzats amb els d’una altra instal·lació de funcionament òptim."
+              },
+              {
+                "codi": "CA17",
+                "text": "Determina la compatibilitat entre els diferents elements de la instal·lació solar i els de les instal·lacions auxiliars."
+              },
+              {
+                "codi": "CA18",
+                "text": "Efectua una anàlisi dels costos, del subministrament i de la intercanviabilitat per a l’elecció de components."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura instal·lacions solars fotovoltaiques connectades a xarxa analitzant-ne la connectivitat i valorant-ne els costos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Utilitza documentació tècnica en l’anàlisi de les diferents tecnologies d’elements, equips, components i materials d’instal·lacions solars fotovoltaiques connectades a xarxa."
+              },
+              {
+                "codi": "CA22",
+                "text": "Recull les dades necessàries per a l’anàlisi i dimensionament d’una instal·lació solar fotovoltaica connectada a xarxa."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els elements, equips, components i materials."
+              },
+              {
+                "codi": "CA24",
+                "text": "Calcula les característiques dels elements, equips, components i materials."
+              },
+              {
+                "codi": "CA25",
+                "text": "Dimensiona les instal·lacions solars fotovoltaiques connectades a xarxa."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova la compatibilitat i la idoneïtat dels elements de la instal·lació solar i els de les instal·lacions auxiliars."
+              },
+              {
+                "codi": "CA27",
+                "text": "Valora el cost, el subministrament i la compatibilitat en l’elecció de components."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Selecciona estructures de suport per a instal·lacions solars fotovoltaiques dimensionant i identificant materials i elements.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Enumera les característiques dels materials i dels elements comercials utilitzats en les estructures."
+              },
+              {
+                "codi": "CA32",
+                "text": "Distingeix les lleis i els conceptes bàsics de mecànica que intervenen en el disseny d’estructures."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els perfils i els materials utilitzant taules,, promptuaris i normalitzacions."
+              },
+              {
+                "codi": "CA34",
+                "text": "Classifica les estructures de les instal·lacions solars fotovoltaiques."
+              },
+              {
+                "codi": "CA35",
+                "text": "Elegeix el material de l’estructura atenent les característiques de les instal·lacions solars fotovoltaiques."
+              },
+              {
+                "codi": "CA36",
+                "text": "Enumera els diferents sistemes d’ubicació i de col·locació de les estructures."
+              },
+              {
+                "codi": "CA37",
+                "text": "Reconeix diferents sistemes de seguiment solar."
+              },
+              {
+                "codi": "CA38",
+                "text": "Determina i elegeix estructures en funció de les característiques de la instal·lació."
+              },
+              {
+                "codi": "CA39",
+                "text": "Dimensiona els suports, bancades i altres elements subjectes a sol·licitacions mecàniques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Calcula instal·lacions elèctriques d’interior aplicant la normativa relacionada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Reconeix l’articulat i les instruccions tècniques complementàries del REBT amb relació a instal·lacions fotovoltaiques."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica els elements de la instal·lació amb la seva simbologia normalitzada en els esquemes i la seva ubicació en els plànols."
+              },
+              {
+                "codi": "CA43",
+                "text": "Calcula les potències de tots els circuits."
+              },
+              {
+                "codi": "CA44",
+                "text": "Elegeix el tipus de canalització segons les normes."
+              },
+              {
+                "codi": "CA45",
+                "text": "Calcula les seccions dels conductors dels circuits de la instal·lació."
+              },
+              {
+                "codi": "CA46",
+                "text": "Calcula els dispositius de tall i protecció de la instal·lació."
+              },
+              {
+                "codi": "CA47",
+                "text": "Utilitza catàlegs i documentació tècnica per justificar les decisions adoptades."
+              },
+              {
+                "codi": "CA48",
+                "text": "Aplica les normes tecnològiques relacionades amb el tipus de local o habitatge."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració i càlcul d’instal·lacions solars fotovoltaiques aïllades",
+                "items": [
+                  "Conceptes i magnituds bàsiques.",
+                  "Cèl·lules, mòduls i generadors fotovoltaics.",
+                  "Acumuladors. Reguladors. Convertidors. Aplicacions. Tipus. Característiques tècniques.",
+                  "Esquemes d’una instal·lació solar fotovoltaica aïllada.",
+                  "Dades per a l’anàlisi i dimensionament d’una instal·lació fotovoltaica aïllada: ubicació, utilitat, nivell d’utilització, característiques tècniques dels elements receptors en c.c. i en c.a., necessitats energètiques, futures ampliacions i disponibilitat econòmica entre d’altres.",
+                  "Descripció d’equips i elements constituents d’una instal·lació solar fotovoltaica aïllada. Receptors en c.c. i en c.a., acumuladors, mòduls, reguladors, inversors i proteccions entre altres.",
+                  "Procés de càlcul d’una instal·lació solar fotovoltaica aïllada.",
+                  "Estructures de subjecció dels mòduls. Tipus d’esforços. Càlcul elemental d’esforços. Materials. Suports i ancoratges.",
+                  "Anàlisi de cost. Subministrament."
+                ]
+              },
+              {
+                "bloc": "Configuració i càlcul d’instal·lacions solars fotovoltaiques connectades a xarxa",
+                "items": [
+                  "Esquema d’una instal·lació solar fotovoltaica connectada a xarxa.",
+                  "Classificació d’instal·lacions en funció de la mida i de la ubicació. Parcs fotovoltaics. Petites instal·lacions. Instal·lació solar fotovoltaica sobre coberta. Instal·lació solar fotovoltaica sobre terreny.",
+                  "Dades per a l’anàlisi i el dimensionament d’una instal·lació fotovoltaica connectada a xarxa. Ubicació, superfície disponible, disponibilitat econòmica, normativa vigent, entre altres.",
+                  "Descripció d’equips i d’elements constituents d’una instal·lació solar fotovoltaica connectada a xarxa. Mòduls, inversors, comptadors, proteccions, entre d’altres.",
+                  "Procés de càlcul d’una instal·lació solar fotovoltaica connectada a xarxa.",
+                  "Anàlisi de cost i subministrament (disponibilitat del material, terminis de lliurament entre d’altres)."
+                ]
+              },
+              {
+                "bloc": "Selecció d’estructures per a instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Materials normalitzats.",
+                  "Tractaments superficials.",
+                  "Característiques mecàniques dels materials i dels elements.",
+                  "Conceptes bàsics d’estructura de materials. Tipus d’esforços. Càlcul elemental d’esforços.",
+                  "Conceptes fonamentals sobre la ubicació i la col·locació de mòduls fotovoltaics.",
+                  "Estructures fixes. Estructures al terra, estructures en pal.",
+                  "Sistemes d’ancoratge. Punts de suport. Elements d’ancoratge.",
+                  "Estructures mòbils: el seguidor solar.",
+                  "Tipus de seguiment solar: d’un eix i de dos eixos. Seguiment de l’altura solar, seguiment de l’azimutal solar, seguiment d’eix polar."
+                ]
+              },
+              {
+                "bloc": "Càlcul d’instal·lacions elèctriques d’interior",
+                "items": [
+                  "Condicions generals de les instal·lacions interiors d’habitatges i d’edificis.",
+                  "Característiques especials dels locals de pública concurrència i/o d’ús industrial. Enllumenat d’emergència. Previsió de càrregues en instal·lacions d’interior.",
+                  "Canalitzacions elèctriques. Tubs i canals protectors. Tipus. Característiques tècniques.",
+                  "Càlcul de seccions dels conductors. Tipus. Característiques tècniques.",
+                  "Dispositius de tall i de protecció. Protecció contra sobreintensitats. Protecció contra sobretensions. Protecció contra els contactes directes i indirectes.",
+                  "Instal·lacions de presa de terra. Sistemes de connexió del neutre i de les masses en xarxes de distribució d’energia elèctrica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "documentació administrativa i tècnica d’instal·lacions solars fotovoltaiques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Representa instal·lacions solars fotovoltaiques, reconeixent plànols i projectes i utilitzant aplicacions de disseny assistit per ordinador.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la informació necessària per a l’aixecament de plànols de l’edificació o del projecte d’edificació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Representa en els plànols els punts i accidents més singulars existents a l’edifici."
+              },
+              {
+                "codi": "CA13",
+                "text": "Efectua croquis de les diferents parts de la instal·lació solar fotovoltaica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Dibuixa els diferents plànols utilitzant la simbologia normalitzada."
+              },
+              {
+                "codi": "CA15",
+                "text": "Emplena una llista de materials incloent-hi els codis i especificacions dels elements del projecte."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora els plànols mitjançant aplicacions informàtiques de disseny assistit."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Elabora documentació tècnica d’instal·lacions solars fotovoltaiques, definint operacions, procediments i criteris per al muntatge i el manteniment.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Emplena el manual de seguretat i de protecció."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix les operacions de vigilància i de manteniment segons la reglamentació vigent."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les referències comercials, codis i especificacions tècniques dels elements de la instal·lació en el procés de preparació del pressupost."
+              },
+              {
+                "codi": "CA24",
+                "text": "Elabora pressuposts d’instal·lacions solars fotovoltaiques."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els riscos presents en el procés de muntatge de la instal·lació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Elabora estudis de seguretat del muntatge d’instal·lacions solars fotovoltaiques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Determina els criteris de control de qualitat i protecció ambiental que s’han d’establir en el procés de muntatge de la instal·lació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Emplena la documentació administrativa per a l’obtenció de subvencions, identificant-hi processos i documents legals per a la tramitació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els processos administratius per a l’autorització d’instal·lacions."
+              },
+              {
+                "codi": "CA32",
+                "text": "Proposa solucions tècniques que s’han d’incloure en la documentació."
+              },
+              {
+                "codi": "CA33",
+                "text": "Emplena els documents administratius necessaris per a la instal·lació."
+              },
+              {
+                "codi": "CA34",
+                "text": "Reconeix els tipus de subvencions estatals i autonòmiques existents."
+              },
+              {
+                "codi": "CA35",
+                "text": "Elabora les memòries i altres documents."
+              },
+              {
+                "codi": "CA36",
+                "text": "Reconeix normes per aconseguir l’autorització de la instal·lació."
+              },
+              {
+                "codi": "CA37",
+                "text": "Calcula estudis d’amortització d’instal·lacions."
+              },
+              {
+                "codi": "CA38",
+                "text": "Valora els consums energètics i el preu de l’energia."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Representació gràfica d’instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Conceptes avançats de realització de croquis i perspectives: dièdrica i isomètrica.",
+                  "Simbologia elèctrica aplicada a les instal·lacions elèctriques de propòsit general.",
+                  "Simbologia necessària per a la representació d’instal·lacions fotovoltaiques.",
+                  "Simbologia elèctrica i electrònica, entre altres.",
+                  "Representació de circuits elèctrics i electrònics. Esquemes unifilars i multifilars.",
+                  "Esquemes i diagrames simbòlics funcionals. Diagrames de blocs de les instal·lacions.",
+                  "Plànols.",
+                  "Dibuix assistit per ordinador (CAD)."
+                ]
+              },
+              {
+                "bloc": "Elaboració de documentació tècnica de les instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Projectes. Documents i parts. Memòria. Pressupost. Plec de condicions. Plànols. Normatives d’aplicació.",
+                  "Manuals de seguretat i de protecció. Manual de manteniment.",
+                  "Definició de partides. Referències i codis comercials. Concepte de preu unitari de materials i mà d’obra. Concepte de pressupost d’execució material.",
+                  "Concepte de despesa general, benefici industrial i impost sobre el valor afegit.",
+                  "Tècniques de seguretat. Risc. Definició i identificació. Avaluació de riscos.",
+                  "Normativa d’aplicació. Equips de protecció individual.",
+                  "Tècniques de protecció ambiental.",
+                  "Qualitat. Sistemes, criteris i control."
+                ]
+              },
+              {
+                "bloc": "Emplenament de la documentació administrativa per a l’obtenció de subvencions",
+                "items": [
+                  "Processos administratius per a l’autorització d’instal·lacions.",
+                  "Documentació tècnica associada a solucions tècniques.",
+                  "Documents administratius per a la instal·lació.",
+                  "Tipus de subvencions estatals i autonòmiques.",
+                  "Memòries i altres documents.",
+                  "Normes d’aplicació per a l’autorització de la instal·lació.",
+                  "Estudi d’amortització de les instal·lacions.",
+                  "Valoració dels consums energètics. Valoració del preu de l’energia."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

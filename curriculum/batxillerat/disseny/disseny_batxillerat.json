@@ -6,231 +6,177 @@
     "codi_area": "DIS",
     "decret": "171/2022",
     "data_decret": "2022-09-20",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/arts/Disseny.pdf",
-    "nota_estructura": "Matèria de 1r i 2n de Batxillerat, modalitat Arts.",
-    "versio_schema": "1.0",
-    "descripcio": "El Disseny és una matèria de la modalitat d'Arts de primer i segon de Batxillerat que forma en la cultura i la pràctica del disseny com a disciplina creativa, comunicativa i social. Connecta amb els estudis superiors d'arts aplicades, disseny gràfic, disseny de producte, arquitectura d'interiors i comunicació visual, i obre portes a les professions creatives del segle XXI.\n\nLa matèria treballa els fonaments i principis del disseny —equilibri, proporció, ritme, jerarquia, contrast i harmonia—, la comunicació visual i la tipografia —retícula, llegibilitat, jerarquia tipogràfica, identitat visual—, i el disseny centrat en l'usuari com a metodologia de treball. Els àmbits d'aplicació inclouen el disseny gràfic editorial, la identitat corporativa, el packaging, el disseny de producte amb criteris ergonòmics i de sostenibilitat, i el disseny digital interactiu amb nocions d'UX i UI. Les eines digitals de maquetació, vectorització i prototipatge s'integren al llarg de tot el currículum.\n\nL'enfocament pedagògic segueix la lògica del projecte de disseny: investigació, ideació, prototipatge i presentació. Les activitats parteixen de reptes reals —dissenyar una campanya, un envàs, una interfície—, i l'alumnat aprèn a justificar les decisions creatives i a defensar les seves propostes amb argumentació tècnica i estètica."
+    "font": "PDF oficial XTEC: Disseny.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "El Disseny al Batxillerat introdueix l'alumnat en la cultura del disseny com a disciplina que integra funcionalitat, estètica, comunicació i responsabilitat social. Aborda els camps del disseny gràfic, industrial i d'interiors, connectant amb la Història de l'Art, el Dibuix Artístic i Tècnic, i les Tècniques d'Expressió Graficoplàstica. Prepara per als estudis superiors de Disseny, Arquitectura, Comunicació Visual i Enginyeria de Producte.\n\nEls constructes fonamentals abracen la teoria del disseny (forma, funció, semàntica del producte, ergonomia, usabilitat), la història i els moviments del disseny (Arts and Crafts, Bauhaus, Ulm, disseny contemporani sostenible), els principis del disseny gràfic (tipografia, color, composició, retícula, imatge), els processos de disseny centrat en les persones (investigació, ideació, prototipatge, avaluació) i la relació entre disseny, tecnologia i societat (sostenibilitat, disseny inclusiu, economia circular).\n\nL'enfocament pedagògic s'articula en projectes de disseny reals o simulats que recorren totes les fases del procés creatiu, des de la recerca d'usuaris fins al prototip final. El design thinking i el briefinj professional guien els reptes. L'avaluació considera el procés (quadern de projecte, iteracions, decisions argumentades) tant com el producte final, afavorint la reflexió crítica sobre les pròpies solucions i les dels companys."
   },
-  "competencies_clau": [
-    "CCL",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Comprendre i aplicar els fonaments i principis del disseny —unitat, equilibri, ritme, jerarquia, contrast, harmonia— analitzant la seva presència en productes, espais i comunicacions visuals de l'entorn per disposar de criteris estètics i funcionals en la presa de decisions creatives.",
+      "text": "Avaluar els fonaments del disseny i descobrir el significat d'aquest concepte, analitzant críticament diversos productes de disseny pla i tridimensional, per adquirir consciència sobre la complexitat dels processos i les eines inherents al disseny, assumint l'enriquiment que suposa la diversitat cultural i artística.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA1.1",
-            "text": "Identifica i analitza els principis del disseny —equilibri, ritme, proporció, jerarquia, contrast, unitat— en peces de disseny gràfic i de producte de l'entorn quotidià."
+            "text": "Reconèixer la relació entre les formes i les funcions en objectes de disseny, tant bidimensional com tridimensional, valorant aquests objectes proactivament com a productes susceptibles de transformacions i millores."
           },
           {
             "codi": "CA1.2",
-            "text": "Aplica els fonaments del disseny en composicions originals, justificant les decisions formals amb criteris estètics i funcionals."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Analitza la relació entre forma i funció en objectes de disseny industrial, identificant-ne els materials, la usabilitat i l'impacte ambiental."
-          }
-        ],
-        "2n": [
-          {
-            "codi": "CA1.1",
-            "text": "Aplica de manera autònoma els principis del disseny en projectes complexos de disseny gràfic, de producte i digital, prenent decisions justificades sobre forma, funció i material."
+            "text": "Descobrir el concepte de disseny i la seva terminologia associada com a part fonamental de l'enriquiment artístic i cultural, analitzant amb detall produccions de disseny diverses."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Dominar els recursos de la comunicació visual i la tipografia —retícula, llegibilitat, jerarquia tipogràfica, imatge i text— per dissenyar peces de comunicació visual eficaces que combinin funcionalitat i qualitat estètica en suports analògics i digitals.",
+      "text": "Reflexionar des de la pròpia identitat cultural sobre els orígens, els principis i les funcions del disseny, comparant i analitzant produccions de diferents èpoques, estils i àmbits d'aplicació, per valorar la influència de l'entorn i la cultura en l'activitat del disseny, associant aquestes tasques amb els nivells d'impacte mediambiental de l'ésser humà al planeta.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA2.1",
-            "text": "Utilitza la tipografia com a eina de comunicació, aplicant criteris de llegibilitat, jerarquia i harmonia tipogràfica en composicions de disseny editorial."
+            "text": "Identificar les característiques fonamentals dels moviments, dels corrents i de les escoles relacionats amb el disseny, reflexionant de manera comparada i des de la pròpia identitat cultural sobre l'enriquiment que comporta conèixer productes de disseny en contextos geogràfics, històrics i socials diversos."
           },
           {
             "codi": "CA2.2",
-            "text": "Aplica la teoria del color en projectes de disseny, seleccionant paletes cromàtiques adequades a la identitat i al context comunicatiu."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Dissenya retícules i sistemes compositius per organitzar la informació visual de manera clara, jeràrquica i estèticament coherent."
-          }
-        ],
-        "2n": [
-          {
-            "codi": "CA2.1",
-            "text": "Dissenya sistemes d'identitat visual corporativa complets —logotip, paleta cromàtica, tipografia, aplicacions— amb coherència estètica i funcional."
-          },
-          {
-            "codi": "CA2.2",
-            "text": "Crea peces de disseny editorial de qualitat professional —revista, catàleg, llibre— aplicant criteris tipogràfics, compositius i de jerarquia visual avançats."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Elabora projectes de packaging i disseny d'envàs, integrant criteris d'ergonomia, sostenibilitat, comunicació i estètica."
+            "text": "Examinar la importància de l'impacte mediambiental de l'activitat humana, analitzant elements dissenyats en èpoques, localitzacions i funcions diverses, establint arguments per promoure una consciència proactiva i compromesa amb el medi ambient i amb el disseny sostenible de productes de disseny."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Planificar i executar projectes de disseny gràfic —identitat corporativa, cartelleria, publicació editorial, packaging— aplicant metodologies de disseny centrades en l'usuari, des de la detecció de necessitats fins al producte final, amb ús de programari professional.",
+      "text": "Analitzar críticament la relació que s'estableix entre la forma i la funció dels elements constitutius en productes de disseny, per tal de comprendre la importància de la dimensió simbòlica i semàntica dels llenguatges propis de la disciplina, tot identificant la varietat relativa a contextos geogràfics, econòmics i socials diversos.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA3.1",
-            "text": "Dissenya peces de comunicació visual bàsiques —cartells, logotips, flyers— aplicant les fases del procés de disseny: recerca, ideació, prototip i avaluació."
+            "text": "Comparar objectes i productes de disseny de categories i objectius semblants, analitzant les diferents solucions de disseny aplicades en els contextos originals."
           },
           {
             "codi": "CA3.2",
-            "text": "Utilitza programari de disseny vectorial i de maquetació (Inkscape, Canva, Adobe Express o similars) per executar projectes de disseny gràfic."
-          },
-          {
-            "codi": "CA3.3",
-            "text": "Presenta i defensa projectes de disseny gràfic explicant les decisions preses en relació amb el públic objectiu i el context comunicatiu."
-          }
-        ],
-        "2n": [
-          {
-            "codi": "CA3.1",
-            "text": "Dissenya objectes de producte considerant la materialitat, els processos de fabricació, l'ergonomia, la usabilitat i la sostenibilitat, presentant-ne els prototips i la memòria tècnica."
-          },
-          {
-            "codi": "CA3.2",
-            "text": "Aplica metodologies de disseny centrat en l'usuari —Design Thinking, mapes d'empatia, user journey— per resoldre problemes de disseny de producte o d'entorn."
+            "text": "Aprofundir en l'observació d'objectes de disseny, reconeixent, de manera crítica, a través dels seus elements sintàctics i constitutius, les dimensions simbòliques i semàntiques pròpies del llenguatge del disseny."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Concebre i desenvolupar propostes de disseny de producte i de disseny d'entorns, tenint en compte factors ergonòmics, de sostenibilitat, d'accessibilitat i de viabilitat tècnica i econòmica, integrant el pensament sistèmic i la mirada crítica sobre el disseny com a disciplina que conforma la cultura material.",
+      "text": "Descobrir i comprendre formes d'expressió personals, desenvolupant propostes imaginatives de productes de disseny, partint de la pròpia identitat cultural, per adaptar amb creativitat diferents solucions a necessitats expressives i de comunicació pròpies, potenciant així l'autoestima i el creixement personal.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA4.1",
-            "text": "Reconeix i analitza referents del disseny nacional i internacional —Bauhaus, Escola Suïssa, Memphis, dissenyadors catalans contemporanis— identificant-ne la influència en el disseny actual."
+            "text": "Projectar solucions de disseny aplicat a necessitats personals, poètiques o d'expressió pròpies, integrant en el desenvolupament la interacció amb altres camps, la innovació i l'autocrítica, així com la pròpia identitat personal."
           },
           {
             "codi": "CA4.2",
-            "text": "Valora el disseny com a activitat cultural, econòmica i social, identificant la seva presència en la vida quotidiana."
-          }
-        ],
-        "2n": [
-          {
-            "codi": "CA4.1",
-            "text": "Dissenya interfícies digitals —web, app, xarxa social— aplicant els principis de UX/UI: arquitectura d'informació, wireframes, prototips interactius i tests d'usabilitat."
-          },
-          {
-            "codi": "CA4.2",
-            "text": "Crea peces de motion graphics o disseny en moviment aplicant principis d'animació i narrativa visual."
+            "text": "Desenvolupar i avaluar propostes de disseny col·lectives basades en problemes concrets establerts, aportant solucions personals i imaginatives i oferint una visió empàtica i col·laborativa."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "text": "Crear i presentar projectes de disseny digital i interactiu —interfícies, webs, apps, motion graphics— aplicant els principis de la UX/UI i les convencions del disseny per a pantalles, i reflexionant sobre l'impacte cultural, social i ambiental del disseny en el món contemporani.",
+      "text": "Idear i resoldre amb creativitat problemes elementals de disseny bidimensional i tridimensional, preocupant-se per la correcció tècnica, el rigor i la coherència de la factura del producte, per potenciar una actitud crítica que qüestioni o valori la idoneïtat de les solucions de disseny segons les idees, els sentiments o les emocions que es vulguin comunicar.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA5.1",
-            "text": "Reflexiona críticament sobre l'impacte social, cultural i mediambiental del disseny, identificant casos de disseny ètic, disseny inclusiu i disseny circular."
+            "text": "Plantejar propostes hipotètiques ambicioses de disseny de manera crítica i argumentada, preocupant-se per l'anàlisi correcta de les problemàtiques donades, l'aplicació de les tècniques d'execució i el desenvolupament i la presentació del producte de disseny."
           },
           {
             "codi": "CA5.2",
-            "text": "Elabora i presenta un portafolis professional de disseny que reflecteixi la trajectòria, els interessos i l'estil personal de l'alumne."
+            "text": "Idear i elaborar propostes de disseny, valorant tant la selecció coherent i adequada de recursos tècnics com el rigor i la correcció a l'hora d'utilitzar-los, cercant el desenvolupament de la identitat personal."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE6",
+      "text": "Experimentar de manera creativa configuracions formals, compositives i estructurals, utilitzant les metodologies i els processos propis del disseny i identificant els diferents elements plàstics, estètics, funcionals i comunicatius, per resoldre problemes de disseny sostenibles que suposin reptes innovadors a problemes reals de l'entorn proper, a més de reconèixer aquestes configuracions en diferents camps.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA6.1",
+            "text": "Reconèixer les estructures formals i compositives en objectes i productes de diferents àmbits del disseny, analitzant amb interès els processos i els mètodes utilitzats per desenvolupar-los."
           },
           {
-            "codi": "CA5.3",
-            "text": "Planifica i executa un projecte de disseny integral de llarga durada, des de la recerca fins a la presentació pública, integrant diverses branques del disseny."
+            "codi": "CA6.2",
+            "text": "Planificar propostes de disseny sostenibles utilitzant creativament configuracions formals i argumentant-ne la selecció, partint d'una proposta original, innovadora o preexistent."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Resoldre problemes de disseny en què la sostenibilitat sigui un condicionant bàsic, usant per això la metodologia projectual pròpia del disseny i afrontant el problema com un repte personal."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE7",
+      "text": "Desenvolupar projectes de disseny individuals i col·laboratius, aplicant amb criteri les eines, els suports, les tècniques, les formes i els sistemes de representació i presentació, per integrar-los en la construcció d'una personalitat creativa i innovadora capaç d'apreciar diferents punts de vista i valorar tant l'intercanvi d'idees com el treball col·laboratiu.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA7.1",
+            "text": "Planificar un projecte de disseny individual o col·laboratiu definint les formes de presentació i tècniques de treball segons els recursos temporals i materials disponibles i adaptant-les amb creativitat i flexibilitat al concepte de la proposta."
+          },
+          {
+            "codi": "CA7.2",
+            "text": "Crear un producte de disseny col·laboratiu o individual, seleccionant amb rigor les eines, els sistemes de representació i els procediments segons la funcionalitat i la voluntat estètica i comunicativa de la proposta."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE8",
+      "text": "Planificar les fases d'un projecte de disseny bidimensional o tridimensional i, coneixent-les, saber-les desconstruir amb flexibilitat i eficàcia amb vista a les necessitats, les circumstàncies i les característiques del projecte, seleccionant amb criteri els recursos i les eines disponibles, per analitzar les repercussions de les fases del procés en el producte final acabat.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA8.1",
+            "text": "Planificar projectes individuals o col·lectius, aplicant estratègies creatives, gestionant amb flexibilitat i eficàcia les diferents fases, el pla de desenvolupament, els objectius proposats i l'avaluació del projecte, i cercant la coherència sostenible entre el producte final, el públic objectiu, el procés del disseny i els recursos disponibles."
+          },
+          {
+            "codi": "CA8.2",
+            "text": "Imaginar les fases d'un projecte a partir de l'estudi d'un producte de disseny donat, determinant creativament possibles problemes associats al desenvolupament de cada fase i proposant-hi propostes de millora."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE9",
+      "text": "Crear un disseny tant bidimensional com tridimensional, mitjançant un projecte individual o col·laboratiu que consideri les oportunitats personals, econòmiques i socials que se'n podrien derivar, per situar el concepte de disseny inclusiu en un pla superior de prioritat.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA9.1",
+            "text": "Analitzar les possibilitats d'intervenció del disseny inclusiu en diferents àmbits de l'activitat humana, valorant l'adequació de projectes innovadors i transformadors de la societat."
+          },
+          {
+            "codi": "CA9.2",
+            "text": "Implementar un projecte col·laboratiu de disseny de producte o d'espais que prioritzi l'adequació a una sèrie de necessitats funcionals concretes, implicant-se en el procés i afavorint el treball col·laboratiu."
+          },
+          {
+            "codi": "CA9.3",
+            "text": "Desenvolupar un projecte individual de disseny inclusiu, elaborant un producte innovador partint d'un altre ja existent, tenint en compte les oportunitats socials, econòmiques i de transformació d'aquest tipus de projectes."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r": {
-      "fonaments_i_principis_disseny": [
-        "Els principis del disseny: equilibri (simètric i asimètric), proporció, ritme, jerarquia, contrast, unitat, simplicitat.",
-        "Forma i funció: la dialèctica entre l'estètica i la utilitat en el disseny de productes i comunicacions.",
-        "El procés de disseny: recerca i empatia, definició del problema, ideació (brainstorming, mapes mentals), prototipatge i avaluació.",
-        "Història del disseny: Bauhaus, Escola de Ulm, disseny nòrdic, Memphis Group, disseny català contemporani.",
-        "El disseny en la vida quotidiana: productes, espais, comunicacions, senyalística, packaging.",
-        "Sostenibilitat i disseny: impacte ambiental dels materials, disseny circular, eco-disseny.",
-        "Accessibilitat i disseny inclusiu: disseny universal, normatives bàsiques d'accessibilitat.",
-        "Referents del disseny internacional i nacional: Dieter Rams, Charles i Ray Eames, André Ricard, América Sánchez."
-      ],
-      "color_i_tipografia": [
-        "Teoria del color: cercle cromàtic, colors primaris, secundaris i terciaris, temperatura del color.",
-        "Harmonia cromàtica: paletes complementàries, anàlogues, tríadiques, monocromàtiques.",
-        "El color en la comunicació: psicologia del color, connotacions culturals, identitat de marca.",
-        "Tipografia bàsica: anatomia de la lletra, families tipogràfiques (serif, sans-serif, display, monospace).",
-        "Criteris de llegibilitat: cos, interlineat, interletrat, longitud de línia, contrast tipogràfic.",
-        "Jerarquia tipogràfica: títol, subtítol, cos de text, peu de foto, citació.",
-        "Combinació de tipografies: criteris per harmonitzar dues o tres famílies en un mateix projecte.",
-        "Recursos tipogràfics gratuïts i comercials: Google Fonts, Adobe Fonts, repositoris oberts."
-      ],
-      "comunicacio_visual_basica": [
-        "Elements de la comunicació visual: punt, línia, forma, textura, color, espai.",
-        "La retícula com a eina compositiva: tipus de retícules (modular, columnar, jerárquica), columnes i marges.",
-        "Relació imatge-text: integració, jerarquia, contrast i complementarietat.",
-        "El cartell com a peça de comunicació: estructura, llegibilitat, impacte visual, funció.",
-        "Identitat visual bàsica: logotip, isotip, imagotip, anagrama, diferències i aplicacions.",
-        "Disseny editorial bàsic: maquetació de pàgina doble, portades, pàgines interiors.",
-        "Programari de disseny vectorial: eines bàsiques d'Inkscape, Illustrator o Canva.",
-        "Presentació de treballs de disseny: mockups, arxius digitals, explicació oral del procés."
-      ]
-    },
-    "2n": {
-      "disseny_grafic_avançat": [
-        "Identitat corporativa completa: logotip, paleta cromàtica, tipografia corporativa, to comunicatiu, manual d'identitat.",
-        "Disseny editorial avançat: revistes, catàlegs, llibres d'artista, fanzines, publicacions digitals.",
-        "Packaging i disseny d'envàs: estructura, materials, impressió, sostenibilitat, comunicació visual.",
-        "Cartelleria de gran format: adaptació de la composició a l'escala, relació amb l'espai públic.",
-        "Disseny de senyalística i wayfinding: pictogrames, sistemes de orientació en espais.",
-        "Programari de disseny avançat: Adobe InDesign, Illustrator, Photoshop o alternatives lliures.",
-        "Preparació d'arxius per a impressió: modes de color CMYK, resolució, sagnat, marques de tall.",
-        "Portafolis professional: estructura, presentació, storytelling del procés creatiu."
-      ],
-      "disseny_producte": [
-        "Disseny industrial i de producte: història, metodologies, referents contemporanis.",
-        "Materials i processos de fabricació: fusta, metall, plàstic, ceràmica, materials bio-basats.",
-        "Ergonomia i usabilitat: anthropometria, factors humans, disseny per a tothom.",
-        "Croquis i dibuix tècnic bàsic aplicat al disseny de producte: vistes, cotes, perspectiva explosa.",
-        "Prototipatge: maquetes en cartró, fusta balsa, materials reciclats, impressió 3D bàsica.",
-        "Design Thinking aplicat al disseny de producte: empatia, definició, ideació, prototip, test.",
-        "Disseny circular i d'economia circular: vida útil del producte, reparabilitat, reciclabilitat.",
-        "Presentació de projectes de producte: memòria tècnica, plànols, renderitzat bàsic."
-      ],
-      "disseny_digital_i_interactiu": [
-        "Disseny per a pantalles: diferències respecte al disseny imprès, resolució, mode de color RGB.",
-        "UX (User Experience): investigació d'usuaris, arquitectura d'informació, fluxos d'interacció.",
-        "UI (User Interface): components visuals d'interfície, sistemes de disseny, accessibilitat digital.",
-        "Wireframes i prototips: low-fidelity, high-fidelity, eines de prototipatge (Figma, Adobe XD).",
-        "Disseny web bàsic: estructura d'una pàgina web, disseny responsiu, grid de 12 columnes.",
-        "Disseny per a xarxes socials: formats, mides, composicions adaptades a cada plataforma.",
-        "Motion graphics bàsic: principis d'animació, storyboard, eines bàsiques d'animació (Canva, After Effects).",
-        "Impacte social i cultural del disseny digital: ètica de les interfícies, dark patterns, accessibilitat."
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar l'aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos i circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds, amb les capacitats que sustenten l'enfocament competencial dels aprenentatges, la qual cosa modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Fonaments, història i camps del disseny - Anàlisi de l'evolució històrica del disseny establint ponts amb el coneixement ja estudiat per l'alumnat des d'altres disciplines. - Aplicació dels conceptes d'ecologia, sostenibilitat i inclusivitat a un projecte de societat madur des dels punts de vista diversos. - Diferenciació de les tendències, períodes, escoles i principals personalitats del disseny a través d'una tria d'exemples de l'entorn proper. - Descobriment del disseny i dels camps d'aplicació d'aquest en un context proper a l'alumnat i amb relació a possibles sortides professionals. El disseny: configuració formal i metodologia - Comparació i anàlisi del llenguatge visual, la sintaxi de la imatge i els seus elements bàsics: punt, línia, pla, color, forma i textura en relació amb els conceptes ja estudiats en el curs de dibuix artístic i la resta de matèries artístiques. - Ús i aplicació de la composició modular i d'altres metodologies d'ordenació compositiva a través d'una tria d'exemples de l'entorn proper. - Reconeixement de la dimensió semàntica del disseny com a eina poderosa de modificació del món. - Identificació de les fases del procés del disseny a partir d'assajos elementals i d'exemples més elaborats. - Experimentació del procés creatiu a partir de l'aplicació de metodologies i tècniques variades. Disseny gràfic - Anàlisi i valoració del paper de la tipografia i dels elements tipogràfics de les principals famílies en la llegibilitat i la comunicació d'un producte a partir de contextos reals. - Ús i aplicació de la retícula i d'altres tècniques de maquetació aplicades a la composició de pàgina, els estampats i la imatge corporativa vinculades tant a funcions esteticoestilístiques com funcionals en contextos reals. - Ús de l'experimentació en el disseny corporatiu i la senyalística a través d'assajos plàstics. - Diferenciació del paper dels elements visuals i conceptuals en projectes de disseny publicitari i comunicació gràfica a partir de la desconstrucció de casos reals. Disseny tridimensional - Anàlisi de la tipologia d'objectes associada al disseny de producte i descoberta dels sistemes de representació més adients en cada fase a partir dels coneixements vinculats a disciplines cursades per l'alumnat prèviament. - Comparació dels conceptes de diversitat funcional, antropometria i ergonomia a partir tant de l'evolució de productes al llarg de la història com de l'anàlisi d'objectes propers. - Ús i experimentació amb materials, textures i colors per tal de valorar la repercussió en els dissenys. - Anàlisi dels sistemes de producció vinculats al disseny a partir de la realitat industrial de l'entorn. - Experimentació amb propostes d'embalatge (packaging) vinculades a necessitats reals en un context proper. Anàlisi dels seus efectes econòmics i de sostenibilitat. - Classificació dels espais segons l'ús. Estudi de la distribució i els recorreguts interns a partir d'un debat sobre l'evolució de l'organització social i les funcions. - Anàlisi dels elements constructius i dels principis d'il·luminació en el disseny d'espais interiors per mitjà de l'observació directa de l'entorn proper i especialment en relació amb el concepte de disseny inclusiu. - Experimentació amb els diferents elements constitutius del disseny d'interior a l'hora de generar un efecte psicològic positiu a partir de contextos reals."
     }
-  },
-  "blocs_sabers": [
-    "fonaments_i_principis_disseny",
-    "color_i_tipografia",
-    "comunicacio_visual_basica",
-    "disseny_grafic_avançat",
-    "disseny_producte",
-    "disseny_digital_i_interactiu"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 132,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

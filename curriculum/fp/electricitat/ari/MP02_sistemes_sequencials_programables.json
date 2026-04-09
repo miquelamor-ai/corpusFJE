@@ -3,79 +3,206 @@
     "familia": "fp",
     "cicle_formatiu": "ARI",
     "titol_cicle": "Automatització i Robòtica Industrial",
-    "familia_professional": "Electricitat i Electrònica",
     "grau": "superior",
-    "rd_titol": "RD 1581/2011",
-    "resolucio_cat": "Resolució ENS/XXX/2013",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2011/12/10/pdfs/BOE-A-2011-19365.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul de Sistemes Seqüencials Programables del cicle Automatització i Robòtica Industrial forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de electricitat i electrònica. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a sistemes seqüencials programables en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de sistemes seqüencials programables: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de electricitat i electrònica. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "MP02",
-    "nom": "Sistemes Seqüencials Programables",
-    "hores_totals": 231,
+    "nom": "sistemes seqüencials programables",
+    "hores_totals": 165,
     "uf": [
       {
         "codi": "UF1",
-        "nom": "Programació de PLC",
-        "hores": 132,
+        "nom": "instal·lació i muntatge de PLC",
+        "hores": 22,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Programa autòmats programables per a processos industrials.",
+            "text": "Reconeix dispositius programables, identificant la seva funcionalitat i determinant les seves característiques tècniques.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "Configura maquinari del PLC en TIA Portal.",
-                "pes_percentual": 15
+                "codi": "CA11",
+                "text": "Reconeix aplicacions automàtiques amb sistemes seqüencials programables."
               },
               {
-                "codi": "CA1.2",
-                "text": "Programa en Ladder amb funcions bàsiques i avançades.",
-                "pes_percentual": 25
+                "codi": "CA12",
+                "text": "Identifica la funció dels dispositius seqüencials dins d’un sistema seqüencial."
               },
               {
-                "codi": "CA1.3",
-                "text": "Programa seqüències en Grafcet (SFC).",
-                "pes_percentual": 25
+                "codi": "CA13",
+                "text": "Identifica el funcionament dels dispositius programables."
               },
               {
-                "codi": "CA1.4",
-                "text": "Gestiona E/S analògiques i configura PID.",
-                "pes_percentual": 20
+                "codi": "CA14",
+                "text": "Classifica els dispositius programables, atenent diferents criteris."
               },
               {
-                "codi": "CA1.5",
-                "text": "Programa en Text Estructurat (ST).",
-                "pes_percentual": 15
+                "codi": "CA15",
+                "text": "Relaciona els components dels dispositius programables amb la seva funcionalitat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina les característiques tècniques dels dispositius programables."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica els elements de seguretat en els PLC."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Configura comunicacions industrials entre PLC, HMI i dispositius.",
+            "text": "Configura sistemes programables, seleccionant i connectant els elements que el componen.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "Estableix comunicacions Profinet entre PLCs.",
-                "pes_percentual": 25
+                "codi": "CA21",
+                "text": "Identifica les especificacions tècniques de l’automatització."
               },
               {
-                "codi": "CA2.2",
-                "text": "Configura pantalles HMI per a supervisió de processos.",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Selecciona els components adequats segons les especificacions tècniques i de seguretat."
               },
               {
-                "codi": "CA2.3",
-                "text": "Implementa comunicacions Modbus amb dispositius de camp.",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Representa el croquis del sistema automàtic."
               },
               {
-                "codi": "CA2.4",
-                "text": "Diagnostica avaries de comunicació amb eines de xarxa.",
-                "pes_percentual": 25
+                "codi": "CA24",
+                "text": "Dibuixa els esquemes de connexió de la instal·lació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza simbologia normalitzada."
+              },
+              {
+                "codi": "CA26",
+                "text": "Munta i connecta els components del sistema de control seqüencial."
+              },
+              {
+                "codi": "CA27",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA28",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA29",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, eines, estris, màquines i mitjans de transport."
+              },
+              {
+                "codi": "CA32",
+                "text": "Opera amb màquines i eines, respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials, eines, màquines de tall i conformació, entre d’altres."
+              },
+              {
+                "codi": "CA34",
+                "text": "Reconeix els elements de seguretat, els equips de protecció individual i col·lectiva (calçat, protecció ocular i indumentària, entre d’altres) que s’han d’emprar en les diferents operacions de muntatge i manteniment."
+              },
+              {
+                "codi": "CA35",
+                "text": "Identifica l’ús correcte dels elements de seguretat i dels equips de protecció individual i col·lectiva."
+              },
+              {
+                "codi": "CA36",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerides."
+              },
+              {
+                "codi": "CA37",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA38",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA39",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              },
+              {
+                "codi": "CA310",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, conservació i netedat."
+              },
+              {
+                "codi": "CA311",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              },
+              {
+                "codi": "CA312",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA313",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de dispositius programables",
+                "items": [
+                  "Aplicacions automàtiques amb sistemes seqüencials programables.",
+                  "Funcionalitat dels dispositius d’un sistema seqüencial programable.",
+                  "Funcionament dels dispositius programables. Principi de funcionament i conceptes bàsics: estructura interna, programació, transmissió del programa i cicle d’execució del programa, entre d’altres.",
+                  "Classificació dels dispositius programables. Criteris de classificació. Relés programables, PLC compacte, PLC modular, PLC per aplicacions concretes i dispositius programables de seguretat, entre d’altres.",
+                  "Components dels dispositius programables. Classificació, tipologia i funcionalitat. Tipus de mòduls",
+                  "Característiques tècniques dels dispositius programables. Alimentació, entrades i sortides, ports de comunicació, temps d’execució del programa i capacitat de memòria entre d’altres.",
+                  "PLC de seguretat."
+                ]
+              },
+              {
+                "bloc": "Configuració de sistemes programables",
+                "items": [
+                  "Especificacions tècniques de la instal·lació. Requeriments de funcionalitat, compatibilitat amb d’altres sistemes i condicions ambientals entre d’altres.",
+                  "Criteris de selecció i dimensionament dels dispositius programables.",
+                  "Criteris de selecció de components.",
+                  "Elements de seguretat en un PLC. Relé de seguretat, PLC redundant, entre d’altres.",
+                  "Representació del croquis.",
+                  "Esquemes de connexió.",
+                  "Simbologia normalitzada.",
+                  "Tècniques de muntatge i connexió. Replanteig dels elements, marcatge de conductors i col·locació de terminals, entre d’altres.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental",
+                "items": [
+                  "Normativa de prevenció de riscos laborals relativa als sistemes automàtics.",
+                  "Prevenció de riscos laborals en els processos de muntatge i manteniment.",
+                  "Equips de protecció individual: característiques i criteris d’utilització. Protecció col·lectiva. Mitjans i equips de protecció.",
+                  "Normativa reguladora en gestió de residus."
+                ]
               }
             ]
           }
@@ -83,32 +210,294 @@
       },
       {
         "codi": "UF2",
-        "nom": "Integració de sistemes automatitzats",
-        "hores": 99,
+        "nom": "programació de PLC",
+        "hores": 55,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Integra sistemes automatitzats amb sensors, actuadors i supervisió SCADA.",
+            "text": "Programa l’autòmat programable i coneix el seu entorn de programació.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "Connecta sensors industrials (inductius, capacitius, fotoelèctrics) al PLC.",
-                "pes_percentual": 25
+                "codi": "CA11",
+                "text": "Relaciona sistemes de numeració i sistemes de codificació de la informació."
               },
               {
-                "codi": "CA1.2",
-                "text": "Integra variadors de freqüència i servoaccionaments amb el PLC.",
-                "pes_percentual": 25
+                "codi": "CA12",
+                "text": "Identifica funcions lògiques."
               },
               {
-                "codi": "CA1.3",
-                "text": "Configura sistema SCADA per a supervisió remota.",
-                "pes_percentual": 25
+                "codi": "CA13",
+                "text": "Utilitza mètodes sistemàtics per solucionar casos d’aplicacions de circuits d’automatismes elèctrics cablats."
               },
               {
-                "codi": "CA1.4",
-                "text": "Realitza posada en marxa i ajust del sistema automatitzat complet.",
-                "pes_percentual": 25
+                "codi": "CA14",
+                "text": "Utilitza diferents llenguatges de programació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Coneix les diferents instruccions de programació del PLC."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica les tècniques de programació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Programa PLC de diferents fabricants i compara les seves funcionalitats."
+              },
+              {
+                "codi": "CA18",
+                "text": "Analitza la documentació tècnica i comercial dels diferents fabricants."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica el funcionament del PLC, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA22",
+                "text": "Monitoritza el programa i l’estat de les variables des de la unitat de programació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Comprova la resposta del PLC a la programació de les diferents instruccions."
+              },
+              {
+                "codi": "CA24",
+                "text": "Mesura els paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Respecta les normes de seguretat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de l’autòmat programable i l’entorn de programació",
+                "items": [
+                  "Sistemes de numeració i codificació. Conversió entre sistemes.",
+                  "Funcions lògiques aplicades a la programació d’autòmats.",
+                  "Tècniques de disseny de circuits d’automatismes de control combinacional per mètodes sistemàtics.",
+                  "Llenguatges de programació de PLC. Norma IEC 61131-3. Llenguatges textuals: llista d’ instruccions (IL) i text estructurat (ST). Llenguatges gràfics: diagrama de contactes (LD), funcions lògiques (FBD) i diagrama de funció seqüencial (SFC), entre d’altres.",
+                  "Instruccions de programació de PLC. Tractament d’entrades i de sortides binàries, funcions de retenció, funcions de flancs, temporitzadors, comptadors, comparadors, moviment de valors i registres de desplaçament, entre d’altres.",
+                  "Tècniques de programació lineal i programació estructurada. Blocs o unitats d’organització del programa.",
+                  "Tècniques de programació d’autòmats de diferents fabricants.",
+                  "Documentació tècnica i comercial dels fabricants.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament del PLC",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Monitoratge de programes.",
+                  "Diagnosi i localització d’avaries.",
+                  "Instruments de mesura.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "disseny de sistemes combinacionals i seqüencials",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix les seqüències de control dels sistemes programats, interpretant els requeriments i establint els procediments de programació necessaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Determina els requeriments tècnics i funcionals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Estableix la seqüència de control."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina els diferents tipus de funcionament."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica les fases de programació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix els diferents entorns de programació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Avalua els punts crítics de la programació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora un pla detallat per a la programació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Programa sistemes combinacionals i seqüencials, partint de les condicions de control i utilitzant tècniques estructurades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Dissenya i analitza el programa de sistemes combinacionals i seqüencials."
+              },
+              {
+                "codi": "CA22",
+                "text": "Dissenya i programa seqüències de control utilitzant tècniques estructurades. Aplica diferents llenguatges de programació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els diferents blocs o unitats d’organització de programa."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza el programa, facilitant futures modificacions."
+              },
+              {
+                "codi": "CA25",
+                "text": "Comprova que el funcionament del programa coincideix amb la seqüència de control establerta."
+              },
+              {
+                "codi": "CA26",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA27",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Verifica el funcionament del sistema de control programat, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA32",
+                "text": "Verifica la seqüència de control."
+              },
+              {
+                "codi": "CA33",
+                "text": "Monitoritza el programa i l’estat de les variables des de la unitat de programació."
+              },
+              {
+                "codi": "CA34",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA35",
+                "text": "Mesura els paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA36",
+                "text": "Respecta les normes de seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Repara avaries en sistemes de control programats, diagnosticant disfuncions i desenvolupant la documentació requerida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica la causa de l’avaria a través de les mesures realitzades i de l’observació del comportament de l’automatització."
+              },
+              {
+                "codi": "CA43",
+                "text": "Selecciona els elements que cal substituir, atenent la seva compatibilitat i funcionalitat dins del sistema."
+              },
+              {
+                "codi": "CA44",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA45",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA46",
+                "text": "Redacta el manual d’ús."
+              },
+              {
+                "codi": "CA47",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA48",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA49",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de les seqüències de control dels sistemes programats",
+                "items": [
+                  "Interpretació de requeriments. Característiques tècniques i funcionals.",
+                  "Mètodes sistemàtics per a la programació de seqüències de control.",
+                  "Sistema de posada en marxa i aturada: manual, automàtic, pas a pas, aturada a final de cicle, posada del sistema a l’estat inicial, aturada d’emergència, entre d’altres.",
+                  "Fases de programació. Identificació d’entrades i de sortides, seccions del programa i seqüència del programa, entre d’altres.",
+                  "Entorns de programació.",
+                  "Tècniques de localització de punts crítics.",
+                  "Planificació per a la programació. Dades generals, necessitats, calendari de comandes, recepció de material i calendari d’actuació, entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Programació de sistemes combinacionals i seqüencials",
+                "items": [
+                  "Aplicacions automatitzades de sistemes combinacionals i seqüencials.",
+                  "Aplicacions automatitzades de seqüències de control amb lògica programada.",
+                  "Tècniques d’implementació de mètodes sistemàtics de programació de sistemes seqüencials utilitzant diferents llenguatges de programació.",
+                  "Blocs o unitats d’organització del programa.",
+                  "Comprovació del funcionament de les condicions de control establertes."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament de control",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Monitoratge de programes.",
+                  "Diagnosi i localització d’avaries.",
+                  "Instruments de mesura.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Reparació d’avaries",
+                "items": [
+                  "Diagnosi i localització d’avaries.",
+                  "Tècniques i protocols d’actuació.",
+                  "Compatibilitat d’equips substituïts.",
+                  "Configuració de registres d’avaries automatitzat i documental.",
+                  "Memòria tècnica.",
+                  "Valoració econòmica.",
+                  "Manual d’ús.",
+                  "Reglamentació vigent."
+                ]
               }
             ]
           }

@@ -1,0 +1,319 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "programació multimèdia i dispositius mòbils",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "desenvolupament d’aplicacions per a dispositius mòbils",
+        "hores": 45,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica tecnologies de desenvolupament per a dispositius mòbils avaluant-ne les característiques i capacitats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza les limitacions que planteja l’execució d’aplicacions als dispositius mòbils."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu diferents tecnologies de desenvolupament d’aplicacions per a dispositius mòbils."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la, configura i utilitza entorns de treball per al desenvolupament d’aplicacions per a dispositius mòbils."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu configuracions que classifiquen els dispositius mòbils segons les seves característiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu perfils que estableixen la relació entre el dispositiu i l’aplicació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Analitza l’estructura d’aplicacions existents per a dispositius mòbils identificant les classes utilitzades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza modificacions sobre aplicacions existents."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza emuladors per comprovar el funcionament de les aplicacions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa aplicacions per a dispositius mòbils analitzant i fent servir les tecnologies i llibreries específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Genera l’estructura de classes necessària per a l’aplicació."
+              },
+              {
+                "codi": "CA22",
+                "text": "Analitza i utilitza les classes que modelen finestres, menús, alertes i controls per al desenvolupament d’aplicacions gràfiques senzilles."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza les classes necessàries per a la connexió i comunicació amb dispositius sense fils."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza les classes necessàries per a l’intercanvi de missatges de text i multimèdia."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza les classes necessàries per establir connexions i comunicacions HTTP i HTTPS."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza les classes necessàries per establir connexions amb magatzems de dades garantint la persistència."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves d’interacció usuari-aplicació per optimitzar les aplicacions desenvolupades a partir d’emuladors."
+              },
+              {
+                "codi": "CA28",
+                "text": "Empaqueta i desplega les aplicacions desenvolupades en dispositius mòbils reals."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta els processos necessaris per al desenvolupament de les aplicacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Anàlisi de tecnologies per a aplicacions en dispositius mòbils",
+                "items": [
+                  "Limitacions que planteja l’execució d’aplicacions en dispositius mòbils: desconnexió, seguretat, memòria, consum de bateria, emmagatzematge.",
+                  "Entorns integrats de treball.",
+                  "Mòduls per al desenvolupament d’aplicacions mòbils.",
+                  "Emuladors.",
+                  "Configuracions. Tipus i característiques. Dispositius suportats.",
+                  "Perfils. Característiques. Arquitectura i requeriments. Dispositius suportats.",
+                  "Cicle de vida d’una aplicació: descobriment, instal·lació, execució, actualització i esborrament.",
+                  "Modificació d’aplicacions existents.",
+                  "Utilització d’entorns d’execució de l’administrador d’aplicacions."
+                ]
+              },
+              {
+                "bloc": "Programació de dispositius mòbils",
+                "items": [
+                  "Eines i fases de construcció.",
+                  "Interfícies d’usuari. Classes associades.",
+                  "Context gràfic. Imatges.",
+                  "Esdeveniments del teclat.",
+                  "Tècniques d’animació i de so.",
+                  "Descobriment de serveis.",
+                  "Bases de dades i emmagatzematge.",
+                  "Persistència.",
+                  "Model de fils.",
+                  "Comunicacions: classes associades. Tipus de connexions.",
+                  "Gestió de la comunicació sense fils.",
+                  "Enviament i recepció de missatges de text. Seguretat i permisos.",
+                  "Enviament i recepció de missatgeria multimèdia. Sincronització de continguts. Seguretat i permisos.",
+                  "Tractament de connexions HTTP i HTTPS."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "programació multimèdia",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa programes que integren continguts multimèdia analitzant i fent servir tecnologies i llibreries específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza entorns de desenvolupament multimèdia."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix les classes que permeten la captures, el processament i l’emmagatzematge de dades multimèdia."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza classes per a la conversió de dades multimèdia d’un format a un altre."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza classes per construir processadors per transformar les fonts de dades multimèdia."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza classes per controlar esdeveniments, tipus de multimèdia i excepcions, entre d’altres."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza classes per a la creació i control d’animacions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza classes per construir reproductors de continguts multimèdia."
+              },
+              {
+                "codi": "CA18",
+                "text": "Depura i documenta els programes desenvolupats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Ús de llibreries multimèdia integrades",
+                "items": [
+                  "Conceptes sobre aplicacions multimèdia.",
+                  "Arquitectura de l’API utilitzada.",
+                  "Fonts de dades multimèdia. Classes.",
+                  "Dades basades en el temps.",
+                  "Processament d’objectes multimèdia. Classes. Estats, mètodes i esdeveniments.",
+                  "Reproducció d’objectes multimèdia. Classes. Estats, mètodes i esdeveniments."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "desenvolupament de jocs per a dispositius mòbils",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona i prova motors de jocs analitzant l’arquitectura de jocs 2D i 3D.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els conceptes fonamentals de l’animació 2D i 3D."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els elements que componen l’arquitectura d’un joc en 2D i 3D."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza els components d’un motor de jocs."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza entorns de desenvolupament de jocs."
+              },
+              {
+                "codi": "CA15",
+                "text": "Analitza diferents motors de jocs, les seves característiques i funcionalitats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica els blocs funcionals d’un joc existent."
+              },
+              {
+                "codi": "CA17",
+                "text": "Defineix i executa els processos de renderització."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix la representació lògica i espacial d’una escena gràfica sobre un joc existent."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa jocs 2D i 3D senzills fent servir motors de jocs.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Estableix la lògica d’un joc nou."
+              },
+              {
+                "codi": "CA22",
+                "text": "Crea objectes i defineix els fons."
+              },
+              {
+                "codi": "CA23",
+                "text": "Instal·la i utilitza extensions per al tractament d’escenes."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza instruccions gràfiques per determinar les propietats finals de la superfície d’un objecte o imatge."
+              },
+              {
+                "codi": "CA25",
+                "text": "Incorpora so als diferents esdeveniments del joc."
+              },
+              {
+                "codi": "CA26",
+                "text": "Desenvolupa i implanta jocs per a dispositius mòbils."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves de funcionament i optimització dels jocs desenvolupats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta les fases de disseny i desenvolupament dels jocs creats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Anàlisi de motors de jocs",
+                "items": [
+                  "Conceptes d’animació.",
+                  "Arquitectura del joc. Components.",
+                  "Motors de jocs: tipus i utilització.",
+                  "Àrees d’especialització, llibreries utilitzades i llenguatges de programació.",
+                  "Components d’un motor de jocs.",
+                  "Llibreries que proporcionen les funcions bàsiques d’un motor 2D/3D.",
+                  "API gràfics 3D.",
+                  "Estudi de jocs existents.",
+                  "Aplicació de modificacions sobre jocs existents."
+                ]
+              },
+              {
+                "bloc": "Desenvolupaments de jocs 2D i 3D",
+                "items": [
+                  "Entorns de desenvolupament per a jocs.",
+                  "Integració del motor de jocs en entorns de desenvolupament.",
+                  "Conceptes avançats de programació 3D.",
+                  "Fases de desenvolupament.",
+                  "Propietats dels objectes: llum, textures, reflexos, ombres.",
+                  "Aplicació de les funcions del motor gràfic. Renderització.",
+                  "Aplicació de les funcions del graf d’escena. Tipus de nodes i la seva utilització.",
+                  "Anàlisi d’execució. Optimització del codi."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

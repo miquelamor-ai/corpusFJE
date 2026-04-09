@@ -2,406 +2,215 @@
   "meta": {
     "familia": "lomloe",
     "etapa": "primaria",
-    "area_materia": "Educació Artística: Música i Arts Plàstiques i Visuals",
+    "area_materia": "Educació Artística",
     "codi_area": "EA",
     "decret": "175/2022",
-    "data_decret": "2022-08-22",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Educacio-Artistica.pdf",
-    "nota_estructura": "Inclou tant l'àmbit musical com el plàstic-visual. S'organitza integrant música i arts visuals per cicles.",
-    "descripcio": "L'Educació Artística a Primària integra la música i les arts plàstiques i visuals com a formes d'expressió, comunicació i comprensió del món. Per a l'alumnat de 6 a 12 anys, la matèria és un espai privilegiat per al desenvolupament de la sensibilitat estètica, la creativitat i la consciència cultural, conectant amb l'àmbit emocional, social i patrimonial.\n\nEls sabers propis de l'Educació Artística s'organitzen en dos grans eixos complementaris. En l'àmbit musical, es treballen el ritme i el pols, la melodia, l'harmonia i la forma, la percepció auditiva, la veu i el cos com a instruments, i la interpretació instrumental. En l'àmbit plàstic i visual, els conceptes clau inclouen els elements visuals (línia, forma, color, textura, espai), la composició, les tècniques bidimensionals i tridimensionals, la imatge digital i el disseny. Transversalment, la percepció i anàlisi d'obres artístiques, el context cultural i la creació pròpia constitueixen els nuclis d'una educació artística integral que desenvolupa alhora la sensibilitat estètica i el pensament crític.\n\nLa metodologia de l'Educació Artística és vivencial, experimental i procedimental: es parteix del fer per comprendre. L'exploració de materials, la improvisació musical, la creació per projectes i la connexió amb el patrimoni cultural local i universal són les estratègies metodològiques centrals. La dimensió col·lectiva —el conjunt coral, la instal·lació artística compartida— és essencial per al creixement personal i social de l'alumnat.",
-    "versio_schema": "1.0"
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Educacio-Artistica.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "L'Educació Artística a Primària integra quatre disciplines —música, arts plàstiques i visuals, educació audiovisual i arts escèniques i performatives— en una àrea que desenvolupa la sensibilitat estètica, el pensament creatiu i la capacitat d'expressió i comunicació de l'alumnat. La matèria connecta amb la Llengua (narració, comunicació multimodal), les Ciències Socials (patrimoni cultural, diversitat de cultures) i l'Educació Física (expressió corporal i moviment). Prepara per a la participació cultural activa i desenvolupa competències transversals com el pensament creatiu, la col·laboració i la gestió emocional.\n\nEls grans constructes disciplinaris inclouen la percepció i l'anàlisi (audició activa, observació d'obres, lectura d'imatges i textos audiovisuals amb perspectiva de gènere), la creació i la interpretació (experimentació amb materials sonors, plàstics, digitals i corporals; tècniques bidimensionals, tridimensionals i audiovisuals) i la cultura artística (reconeixement de manifestacions de diverses èpoques, cultures i estils, identificació de professions artístiques). El procés creatiu —planificació, experimentació, avaluació i difusió— és tan important com el producte final.\n\nL'enfocament pedagògic fomenta l'exploració lliure i guiada, la presa de riscos creatius i el respecte per les diverses lectures i interpretacions. Les situacions d'aprenentatge integren la percepció i la producció: s'analitzen obres per aprendre a crear, i es crea per aprendre a mirar i escoltar. El treball col·laboratiu en projectes artístics de grup —concerts, exposicions, curtmetratges, representacions escèniques— afavoreix el sentit de pertinença i la responsabilitat compartida. L'avaluació posa l'accent en el procés, l'autoregulació i la reflexió sobre el propi aprenentatge artístic, i no exclusivament en la qualitat del resultat final."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Percebre, observar i analitzar manifestacions artístiques musicals i plàstiques i visuals de tipologia diversa, identificant-ne els elements formals, expressius i culturals, per desenvolupar la sensibilitat estètica, el pensament crític i la consciència cultural.",
+      "text": "Descobrir propostes artístiques de diferents cultures, èpoques i estils, mitjançant la percepció i la vivència, per desenvolupar la curiositat, el respecte i el gaudi.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA1.1",
-            "text": "Identificar elements bàsics del so (altura, durada, intensitat, timbre) en obres musicals i de la natura escoltades a l'aula."
+            "text": "Descobrir obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència."
           },
           {
             "codi": "CA1.2",
-            "text": "Observar i descriure imatges, obres d'art i manifestacions plàstiques senzilles identificant colors, formes i textures bàsiques."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Mostrar atenció i respecte durant l'escolta musical i la contemplació d'obres d'art."
+            "text": "Descriure manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les característiques amb actitud oberta i interès."
           }
         ],
         "CM": [
           {
             "codi": "CA1.1",
-            "text": "Analitzar elements formals del so (altura, durada, intensitat, timbre, textura) i de les obres musicals (ritme, melodia, harmonia, forma) en les escoltades a l'aula."
+            "text": "Reconèixer obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència."
           },
           {
             "codi": "CA1.2",
-            "text": "Observar i analitzar obres plàstiques i visuals identificant els elements del llenguatge visual (punt, línia, forma, color, textura, espai) i la composició."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Expressar les pròpies percepcions i opinions sobre obres musicals i plàstiques amb vocabulari específic adequat."
+            "text": "Descriure manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les característiques amb actitud oberta i interès, establint relacions entre elles."
           }
         ],
         "CS": [
           {
             "codi": "CA1.1",
-            "text": "Analitzar i interpretar obres musicals i plàstiques i visuals de gèneres i èpoques diverses, identificant les característiques formals, expressius, estètics i culturals i l'estil de l'autor o la tradició artística."
+            "text": "Distingir i valorar obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència."
           },
           {
             "codi": "CA1.2",
-            "text": "Elaborar judicis estètics argumentats sobre obres d'art i manifestacions musicals, usant vocabulari específic i fonamentant les opinions en coneixements artístics."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Relacionar manifestacions artístiques amb el seu context social, cultural e històric."
+            "text": "Analitzar manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les seves característiques establint relacions entre elles i valorant la diversitat que les genera."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Expressar-se i comunicar-se a través del so i la música, explorant les possibilitats sonores de la veu, el cos i els instruments, per experimentar el plaer de fer música, expressar emocions i participar en pràctiques musicals individuals i col·lectives.",
+      "text": "Investigar i analitzar diferents manifestacions culturals i artístiques i els seus contextos emprant diversos canals i mitjans d’accés a la informació, per desenvolupar el pensament propi, la identitat cultural i l’esperit crític.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA2.1",
-            "text": "Reproduir cançons senzilles, rimes i cançons de l'entorn amb afinació i ritme bàsics."
+            "text": "Utilitzar de forma col·laborativa les estratègies treballades per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació."
           },
           {
             "codi": "CA2.2",
-            "text": "Explorar les possibilitats sonores de la veu, el cos (percussió corporal) i instruments de percussió senzills."
+            "text": "Identificar múltiples lectures, tècniques i/o elements de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, i trobar diferències i similituds entre elles amb respecte i interès."
           },
           {
             "codi": "CA2.3",
-            "text": "Participar activament en activitats musicals col·lectives (cant coral, jocs rítmics, danses senzilles)."
+            "text": "Identificar i expressar les sensacions i emocions produïdes per diferents manifestacions culturals i artístiques de manera respectuosa i dialogant."
           }
         ],
         "CM": [
           {
             "codi": "CA2.1",
-            "text": "Interpretar cançons i peces musicals individuals i col·lectives amb afinació, ritme i expressivitat creixents."
+            "text": "Usar estratègies de forma personal i/o col·laborativa per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació."
           },
           {
             "codi": "CA2.2",
-            "text": "Llegir i escriure notació musical bàsica (figures de nota, pentagrama, clau de sol) en activitats musicals."
+            "text": "Interpretar i compartir múltiples lectures de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, i analitzant-ne els elements i les tècniques que les caracteritzen, amb actitud d’interès, diàleg i respecte."
           },
           {
             "codi": "CA2.3",
-            "text": "Participar en activitats musicals col·lectives (conjunts instrumentals, cant coral, danses) amb responsabilitat i cooperació."
+            "text": "Identificar i compartir les sensacions, emocions i evocacions produïdes per diferents manifestacions culturals i artístiques de manera respectuosa i dialogant."
           }
         ],
         "CS": [
           {
             "codi": "CA2.1",
-            "text": "Interpretar peces musicals de dificultat creixent (sols, dúos, conjunts) amb afinació, ritme, dinàmica i expressió musicals adequats."
+            "text": "Desenvolupar estratègies de forma personal i/o col·laborativa per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació."
           },
           {
             "codi": "CA2.2",
-            "text": "Llegir i escriure partitures bàsiques (figures de nota, silenci, clau de sol, tonalitat, indicació de temps) i improvisar sobre patrons rítmics i melòdics senzills."
+            "text": "Comparar i compartir múltiples lectures de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, analitzant els elements i les tècniques utilitzades que les caracteritzen i desenvolupant criteris de valoració propis, amb actitud oberta, de diàleg i de respecte."
           },
           {
             "codi": "CA2.3",
-            "text": "Dirigir i coordinar activitats musicals col·lectives, assumint responsabilitat en el resultat de grup."
+            "text": "Valorar i compartir les sensacions i emocions i evocacions produïdes per diferents manifestacions culturals i artístiques, atenent el seu context i relacionant-les de manera inclusiva amb la pròpia identitat cultural de manera respectuosa i dialogant."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Expressar-se i comunicar-se a través de les arts plàstiques i visuals, explorant materials, tècniques i procediments diversos, per construir representacions visuals pròpies, comunicar idees i emocions i desenvolupar la creativitat.",
+      "text": "Experimentar i crear amb les possibilitats del so, la imatge, el cos i els mitjans digitals i multimodals, mitjançant activitats i experiències que incorporin l’aprenentatge autoregulat per expressar i comunicar coneixements, idees, sentiments i emocions.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA3.1",
-            "text": "Explorar materials i tècniques bàsiques de les arts plàstiques (dibuix, pintura, modelatge, collage) i experimentar amb les seves possibilitats expressives."
+            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, mostrant confiança en les pròpies capacitats."
           },
           {
             "codi": "CA3.2",
-            "text": "Crear representacions plàstiques i visuals senzilles que expressin idees, sentiments o experiències personals."
+            "text": "Expressar idees, coneixements, sentiments i emocions amb creacions pròpies fent servir aprenentatges dels referents artístics treballats."
           },
           {
             "codi": "CA3.3",
-            "text": "Presentar les creacions pròpies amb cura i explicar de forma bàsica el que s'ha volgut expressar."
+            "text": "Compartir creacions personals, evidenciant empatia i respecte envers les dels altres i acceptant-ne les diferents lectures i interpretacions."
           }
         ],
         "CM": [
           {
             "codi": "CA3.1",
-            "text": "Usar materials i tècniques plàstiques i visuals diverses (acrílic, aquarel·la, guix, argila, gravat senzill, fotografia) amb intenció expresiva."
+            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, amb curiositat, interès i afany de superació."
           },
           {
             "codi": "CA3.2",
-            "text": "Crear produccions plàstiques i visuals planificades que responguin a una intenció estètica o comunicativa definida."
+            "text": "Expressar idees, coneixements, sentiments i emocions amb creacions pròpies fent servir aprenentatges dels referents artístics treballats."
           },
           {
             "codi": "CA3.3",
-            "text": "Reflexionar sobre el propi procés creatiu i el resultat de les produccions plàstiques, identificant-ne els encerts i les millores possibles."
+            "text": "Documentar i compartir creacions personals, evidenciant empatia i respecte per les dels altres i acceptant-ne les diferents lectures i interpretacions."
           }
         ],
         "CS": [
           {
             "codi": "CA3.1",
-            "text": "Usar tècniques i procediments plàstics i visuals avançats (perspectiva bàsica, composició, mescla de colors, tècniques mixtes) amb intenció estètica i expressiva pròpia."
+            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, amb curiositat, interès i afany de superació."
           },
           {
             "codi": "CA3.2",
-            "text": "Crear produccions plàstiques i visuals originals que mostrin una intenció comunicativa o estètica personal i ús conscient dels elements del llenguatge visual."
+            "text": "Produir creacions personals adaptades a una finalitat específica mitjançant l’expressió d’idees, sentiments i emocions utilitzant aprenentatges dels referents artístics treballats."
           },
           {
             "codi": "CA3.3",
-            "text": "Presentar i explicar les pròpies creacions artístiques argumentant les decisions preses en el procés creatiu."
+            "text": "Documentar i compartir creacions personals, evidenciant empatia i respecte per les dels altres i acceptant-ne les diferents lectures i interpretacions."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Crear projectes artístics individuals i col·lectius, integrant elements musicals i plàstics i visuals, mobilitzant la imaginació, l'experimentació i el procés creatiu per generar produccions originals i significatives amb intenció comunicativa o estètica.",
+      "text": "Dissenyar, elaborar i difondre creacions culturals i artístiques col·laboratives, assumint diferents rols, posant en valor el procés, per desenvolupar la creativitat, el sentit de pertinença i arribar a un resultat final.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA4.1",
-            "text": "Participar en projectes artístics senzills que integrin elements musicals i plàstics, aportant idees pròpies."
+            "text": "Participar en el procés de disseny de produccions culturals i creacions artístiques col·laboratives treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu, basat en la igualtat i la perspectiva de gènere, i en el respecte a la diversitat cultural."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Participar activament, experimentant diferents rols en el procés de creació, utilitzant elements de diferents llenguatges artístics, mostrant interès i respecte."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Compartir les experiències creatives, gaudint del resultat final obtingut, identificant les parts del procés creatiu realitzat i valorant les opinions i sensacions dels altres."
           }
         ],
         "CM": [
           {
             "codi": "CA4.1",
-            "text": "Realitzar projectes artístics col·lectius integrant elements musicals i plàstics i visuals, distribuint rols i responsabilitats."
+            "text": "Col·laborar en el procés de disseny de produccions culturals i creacions artístiques treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu basat en la igualtat i la perspectiva de gènere i en el respecte a la diversitat cultural."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Participar activament, coneixent i experimentant diferents rols en el procés de creació, usant elements de diferents llenguatges artístics i mostrant interès i respecte."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Documentar i compartir les experiències creatives, gaudint del resultat final obtingut, descrivint les parts del procés creatiu i els rols establerts, valorant les opinions i sensacions dels altres, mitjançant un enfocament coeducatiu, basat en la igualtat, i el respecte a la diversitat cultural."
           }
         ],
         "CS": [
           {
             "codi": "CA4.1",
-            "text": "Concebre, planificar i realitzar projectes artístics creatius i originals, individuals o col·lectius, que integrin elements musicals i plàstics amb intenció artística definida."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE5",
-      "text": "Reconèixer, valorar i gaudir del patrimoni artístic i cultural català, hispànic i universal, en els àmbits musical i plàstic i visual, per construir la identitat cultural pròpia, promoure el respecte i la curiositat envers la diversitat cultural i artística.",
-      "criteris_avaluacio": {
-        "CI": [
-          {
-            "codi": "CA5.1",
-            "text": "Reconèixer manifestacions artístiques del patrimoni cultural català (cançons populars, danses, festes, monuments) i mostrar-ne respecte i valoració."
+            "text": "Planificar els processos de disseny de produccions culturals i creacions artístiques col·laboratives treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu basat en la igualtat i la perspectiva de gènere i en el respecte a la diversitat cultural."
           },
           {
-            "codi": "CA5.2",
-            "text": "Identificar diferències entre manifestacions artístiques de cultures diverses i mostrar curiositat envers la diversitat cultural."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA5.1",
-            "text": "Identificar i descriure manifestacions artístiques del patrimoni cultural català i universal (obres pictòriques, escultures, arquitectura, obres musicals) en el seu context cultural."
+            "codi": "CA4.2",
+            "text": "Implicar-se i participar activament assumint i experimentant diferents rols en el procés de creació, fent servir elements de diferents llenguatges artístics i exercint responsabilitat i mostrant respecte."
           },
           {
-            "codi": "CA5.2",
-            "text": "Mostrar respecte i valoració crític-positiva envers la diversitat cultural i artística del món."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA5.1",
-            "text": "Analitzar el patrimoni artístic català i universal (obres representatives de la pintura, l'escultura, l'arquitectura, la música) en el seu context cultural i valorar-lo com a bé comú."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Comparar manifestacions artístiques de cultures diverses, identificant similituds i diferències i reflexionant sobre els valors que expressen."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE6",
-      "text": "Explorar i usar les tecnologies digitals en la percepció, creació i difusió de manifestacions artístiques musicals i plàstiques i visuals, per ampliar les possibilitats creatives, accedir al patrimoni cultural digital i desenvolupar la competència digital en contextos artístics.",
-      "criteris_avaluacio": {
-        "CI": [
-          {
-            "codi": "CA6.1",
-            "text": "Explorar recursos digitals senzills (aplicacions de so, de dibuix) per a la creació i l'escolta artística."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA6.1",
-            "text": "Usar recursos i eines digitals (programari d'edició de so, de imatge) per crear, editar i difondre produccions artístiques."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA6.1",
-            "text": "Usar amb autonomia eines digitals avançades per crear, editar, distribuir i presentar produccions artístiques musicals i plàstiques i visuals."
-          },
-          {
-            "codi": "CA6.2",
-            "text": "Reflexionar sobre l'impacte de les tecnologies digitals en la creació, distribució i consum de l'art contemporani."
+            "codi": "CA4.3",
+            "text": "Documentar i compartir les experiències creatives, gaudint del resultat final obtingut, descrivint les parts del procés creatiu i els rols establerts, valorant les opinions i sensacions dels altres, mitjançant un enfocament coeducatiu, basat en la igualtat, i el respecte a la diversitat cultural."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "CI": {
-      "percepcio_estetica": [
-        "El so: qualitats bàsiques (altura: greu/agut; durada: llarg/curt; intensitat: fort/fluix; timbre)",
-        "Sons de la natura, del cos i de l'entorn: identificació i classificació",
-        "El silenci com a element musical bàsic",
-        "Escolta activa de peces musicals: atenció i concentració",
-        "Observació d'obres d'art: identificació de colors, formes i textures bàsics",
-        "El color: colors primaris i secundaris; color càlid i fred",
-        "La línia i la forma: línies rectes i corbes, formes geomètriques bàsiques",
-        "La textura visual i tàctil: rude/llis, dur/tou"
-      ],
-      "expressio_musical": [
-        "La veu cantada: salut vocal, postura i respiració bàsica",
-        "Cançons populars catalanes: repertori bàsic (El ball de la civada, El gegant del pi, etc.)",
-        "Cançons de l'entorn i rimes infantils en diverses llengües",
-        "Percussió corporal: palmades, patades, dits, veu",
-        "Instruments de percussió indeterminada: pandero, caixeta, maraques, triangle",
-        "Pols i ritme: marcar el pols i reproduir ritmes senzills",
-        "Danses tradicionals catalanes: sardana (elements bàsics), danses en rotllana",
-        "El cos en moviment: sincronització moviment-música"
-      ],
-      "expressio_plastica_i_visual": [
-        "El dibuix: línia de contorn, traç lliure i controlat amb llapis, retoladors i ceres",
-        "La pintura: tempera, aquarel·la i ceres; pinzell, esponja, dits",
-        "El collage: ús de papers i materials del reciclatge",
-        "El modelatge: argila i plastilina; formes bàsiques (bola, cilindre, placa)",
-        "La impressió: estampació amb objectes, vegetals i esponges",
-        "Cura dels materials i espai de treball: ordre i neteja",
-        "Presentació de les creacions: exposicions d'aula"
-      ],
-      "creacio_artistica": [
-        "L'exploració com a punt de partida de la creació artística",
-        "Narració a través de la imatge: seqüències d'il·lustracions",
-        "Integració de so i imatge: creació de sons per a narracions i imatges",
-        "Improvisació musical i plàstica: llibertat i experimentació",
-        "El procés creatiu: idear, experimentar, crear"
-      ],
-      "patrimoni_cultural": [
-        "Cançons i danses populars de Catalunya: identificació i participació",
-        "Festes tradicionals catalanes i elements artístics vinculats (gegants, gralleres, castells)",
-        "Monuments i edificis emblemàtics de l'entorn proper",
-        "Contes i tradicions populars catalanes amb elements musicals i plàstics",
-        "Artistes catalans destacats: reconeixement de Joan Miró, Antoni Gaudí (obres principals)"
-      ]
-    },
-    "CM": {
-      "percepcio_estetica": [
-        "Elements del so: altura, durada, intensitat, timbre; textura musical (monofonia, polifonia bàsica)",
-        "Formes musicals bàsiques: cançó estròfica, rondó, tema i variacions",
-        "Paràmetres del llenguatge visual: punt, línia, forma, color, textura, espai i llum",
-        "La composició: equilibri, simetria, asimetria, ritme visual, proporció",
-        "Color: cercle cromàtic, complementaris, harmonia cromàtica",
-        "Gèneres musicals: música clàssica, folk, pop, jazz — reconeixement i descripció",
-        "Gèneres plàstics: retrat, paisatge, natura morta, abstracció — identificació i anàlisi",
-        "Vocabulari específic d'educació artística: melodi, harmonia, ritme, composició, contrast, perspectiva bàsica"
-      ],
-      "expressio_musical": [
-        "La veu: tècnica vocal bàsica (respiració, articulació, dicció); registres vocal",
-        "Cant coral a dues veus: cànons i bordons",
-        "Flauta dolça de bec soprano: posicions bàsiques (do, re, mi, fa, sol, la)",
-        "Instruments d'altura determinada: metallòfon, xilòfon — lectura de partitures senzilles",
-        "Notació musical: figures (negra, blanca, mínima, corxera), silencis; pentagrama; clau de sol",
-        "Ritme: compassos de 2/4, 3/4, 4/4; lectures rítmiques",
-        "Danses del món: danses de rotllana, danses de parella de diverses cultures",
-        "Improvisació rítmica i melòdica sobre escales pentatòniques"
-      ],
-      "expressio_plastica_i_visual": [
-        "Tècniques de pintura: acrílic, aquarel·la, guix, tècniques mixtes",
-        "Tècniques de dibuix: llapis de colors, sanguina, carbó; ombra i volum bàsics",
-        "Tècniques tridimensionals: paper (origami, papiroflèxia, paper maché), fang, guix",
-        "Gravat senzill: monotipia, punta seca sobre poliestirè",
-        "Fotografia i vídeo com a eines creatives",
-        "La perspectiva bàsica: punt de fuga i línia d'horitzó",
-        "La proporció i la figura humana: esquema corporal",
-        "Disseny i arts aplicades: cartell, logotip, il·lustració"
-      ],
-      "creacio_artistica": [
-        "El procés creatiu: ideació, planificació, realització, reflexió i presentació",
-        "Projectes artístics interdisciplinaris: integrar música i arts plàstiques",
-        "La creació col·lectiva: distribució de rols, cooperació i responsabilitat",
-        "Improvisació i composició musical breu: creació de melodies sobre patrons rítmics",
-        "Narració visual: còmic, story board, il·lustració de contes",
-        "Art instal·lació senzill: creació d'ambients sonors i visuals"
-      ],
-      "patrimoni_cultural": [
-        "Patrimoni musical català: havaneres, cobla, sardanes, música de gralla, cançó tradicional",
-        "Obres representatiu de la pintura catalana: modernisme (Rusiñol, Casas), noucentisme",
-        "Arquitectura catalana: el modernisme (Gaudí, Domènech i Montaner, Puig i Cadafalch)",
-        "Museus i espais culturals de Catalunya: Museu Nacional d'Art de Catalunya, Palau de la Música",
-        "Patrimoni musical universal: Beethoven, Mozart, Bach — obres representatives",
-        "Grans mestres de la pintura universal: Velázquez, Picasso, Dalí — obres principals"
-      ]
-    },
-    "CS": {
-      "percepcio_estetica": [
-        "Anàlisi auditiva d'obres musicals: forma, gènere, estil, època i context cultural",
-        "Anàlisi d'obres plàstiques i visuals: elements formals, compositius, expressius i simbòlics",
-        "Història de l'art bàsica: períodes principals (art romànic, gòtic, renaixement, barroc, impressionisme, art modern i contemporani)",
-        "Estils musicals per èpoques: música medieval, barroca, clàssica, romàntica, contemporània",
-        "El cinema com a art: banda sonora, fotografia i narrativa visual",
-        "Art i societat: relació entre les manifestacions artístiques i el seu context social i cultural",
-        "Lectura crítica d'imatges publicitàries, mediàtiques i artístiques: intenció, manipulació, valors"
-      ],
-      "expressio_musical": [
-        "Tècnica vocal avançada: cant a dues i tres veus, harmonia coral",
-        "Instruments melòdics: flauta dolça — repertori avançat; introducció a altres instruments",
-        "Lectura i escriptura de partitures: figures, silencis, tonalitat (clau de sol i fa), indicació de temps",
-        "Teoria musical bàsica: escales, intervals, acords (tríades)",
-        "Composició musical: creació de melodies, harmonitzacions senzilles, ostinats rítmics",
-        "Improvisació musical: sobre modes, escales pentatòniques i blues",
-        "Danses del món i d'autor: estudi d'estils i tradicions diverses",
-        "Producció musical amb tecnologia: DAW bàsic (GarageBand, Bandlab); edició de so"
-      ],
-      "expressio_plastica_i_visual": [
-        "Tècniques de pintura avançades: oli (simulat), aquarel·la humida, tècniques expressionistes",
-        "Tècniques de dibuix avançades: perspectiva cònica, retrat i figura humana amb proporció",
-        "Escultura i instal·lació: materials diversos (filferro, fusta, pedra, materials reciclats)",
-        "Gravat: aiguafort simplificat, linòleum, serigrafia",
-        "Fotografia artística: composició, llum, profunditat de camp; postproducció bàsica",
-        "Disseny gràfic: cartell, identitat visual, tipografia bàsica",
-        "Animació i vídeo: stop motion, vídeo artístic",
-        "Art digital: il·lustració digital, retoc fotogràfic"
-      ],
-      "creacio_artistica": [
-        "Projectes artístics complexos: planificació, execució, documentació i presentació pública",
-        "Creació multidisciplinària: integració de música, arts plàstiques, dansa i teatre",
-        "L'art com a eina de reflexió i transformació social",
-        "Portafolis artístic: documentació del procés creatiu i les produccions pròpies",
-        "Exposicions i concerts: preparació, organització i presentació al públic",
-        "Crítica artística bàsica: escriure i comentar obres pròpies i alienes amb vocabulari específic"
-      ],
-      "patrimoni_cultural": [
-        "Patrimoni musical català: la Nova Cançó, els havaneres, la música simfònica catalana, les bandes",
-        "Patrimoni artístic català: grans monuments (Sagrada Família, Palau de la Música), museus (MNAC, Fundació Miró, Fundació Tàpies)",
-        "Patrimoni artístic universal: obres i autors de referència de tots els períodes de la història de l'art",
-        "Patrimoni immaterial: danses, músiques i arts populars de Catalunya i del món",
-        "UNESCO: patrimoni de la humanitat; responsabilitat i conservació del patrimoni",
-        "L'art contemporani: tendències actuals en música i arts visuals; art i tecnologia"
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, les persones docents poden valorar la possibilitat d’organitzar els sabers de l’àrea o de les diferents àrees coordinades en un àmbit, a partir de situacions d’aprenentatge. Les situacions permeten programar el curs de qualsevol nivell, àrea o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer i segon Educació musical ● Percepció i anàlisi - Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu. - Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades. - Reconeixement de professions vinculades a la creació i interpretació musical, amb perspectiva de gènere, en les audicions i obres treballades. - Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies durant l’audició i la pràctica musical. - Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades. - Reconeixement i capacitat de relació del caràcter i el tempo en audicions en viu o gravades i en les interpretacions pròpies. - Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació - Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula. - Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn. - Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals, practicades a l’aula, les representacions i/o els concerts, reconeixent el silenci musical com a element fonamental. - Ús d’aplicacions digitals d’enregistrament en creacions musicals tant personals com de grup per expressar idees o emocions. - Realització i interpretació d’una creació col·laborativa d’una pràctica musical, respectant i valorant els diferents rols exercits, el procés i el producte final. Educació plàstica i visual ● Percepció i anàlisi - Identificació i cerca d’imatges de l’entorn associant-les al valor comunicatiu compartint múltiples lectures i interpretacions en pràctiques observacionals. - Reconeixement de professions vinculades a la creació, en els àmbits de creació plasticoartística, amb perspectiva de gènere de les obres treballades. - Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudi, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere. - Identificació i gaudi d’espais culturals i artístics participant amb respecte i valoració d’aquests espais en activitats i visites culturals. - Identificació dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació activa de les manifestacions artístiques treballades. - Percepció i expressió de les sensacions i els sentiments que ens evoca l’observació activa de les manifestacions artístiques treballades amb respecte. - Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades. - Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació - Experimentació amb diferents mitjans, suports i materials d’expressió plàstica, utilitzant tècniques bidimensionals i tridimensionals i digitals en imatges, dibuixos, pintures, modelats i construccions pròpies en les produccions artístiques treballades en diversitat de contextos. - Planificació i experimentació de processos creatius, personals o col·laboratius en les produccions artístiques treballades a l’aula, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals. - Utilització d’aplicacions digitals per a la captura, creació, manipulació i creació de produccions plàstiques i visuals de grup en els processos creatius per expressar idees o emocions. Educació audiovisual ● Percepció i anàlisi - Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual. - Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades. - Reconeixement d’elements propis del llenguatge audiovisual mitjançant el visionament de propostes icòniques, cinematogràfiques i audiovisuals. - Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació - Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual en el context escolar i/o a l’entorn més proper. - Experimentació i maneig d’eines adequades per al registre d’imatge i so d’ús a l’entorn escolar, per narrar, documentar i expressar idees, sentiments o emocions. - Ús d’estratègies elementals de cerca i filtratge en els processos de cerca d’informació. - Planificació i experimentació de processos creatius audiovisuals col·laboratius, per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals. - Iniciació a la creació de produccions audiovisuals multimodals en grup a partir de presentacions, seqüenciant so i imatges estàtiques o en moviment per narrar o documentar processos viscuts o petites històries creades. - Experimentació en la creació i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes vinculades a projectes del grup que es proposen a l’entorn escolar. Educació en arts escèniques i performatives ● Percepció i anàlisi - Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques i performatives de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, a partir d’espectacles enregistrats o en viu. - Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades, compartint-les amb respecte. - Reconeixement, amb perspectiva de gènere, de professions vinc"
     }
-  },
-  "blocs_sabers": [
-    "percepcio_estetica",
-    "expressio_musical",
-    "expressio_plastica_i_visual",
-    "creacio_artistica",
-    "patrimoni_cultural"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 99,
+    "fragments_no_trobats": 132,
+    "pct_verificat": 42.9,
+    "errors_mostra": [
+      "  CI CA1.1: «descobrir obres de manifestacions culturals i»",
+      "  CI CA1.1: «perspectiva de gènere, evidenciant interès, curiositat»",
+      "  CI CA1.2: «descriure manifestacions culturals i artístiques en»",
+      "  CI CA1.2: «i artístiques en diferents contextos a»",
+      "  CI CA1.2: «diferents contextos a partir de l’exploració»"
+    ]
+  }
 }

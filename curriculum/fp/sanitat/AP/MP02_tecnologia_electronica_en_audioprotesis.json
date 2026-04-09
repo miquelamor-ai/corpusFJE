@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AP",
+    "titol_cicle": "Audiologia Protètica",
+    "grau": "superior",
+    "familia_professional": "Sanitat",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 114/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'audiologia protètica.",
+    "data_decret": "2012-10-09",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "tecnologia electrònica en audiopròtesis",
+    "hores_totals": 231,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "electrònica analògica",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mesura magnituds elèctriques i electromagnètiques en circuits elèctrics relacionant instruments i tècniques de mesura.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els fenòmens elèctrics i electromagnètics que apareixen en els circuits electrònics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix les magnituds elèctriques i electromagnètiques fonamentals i les seves unitats de mesura, presents en els circuits de corrent continu i de corrent altern."
+              },
+              {
+                "codi": "CA13",
+                "text": "Enuncia les lleis i principis elèctrics i electromagnètics fonamentals."
+              },
+              {
+                "codi": "CA14",
+                "text": "Distingeix magnituds elèctriques i utilitza diferents aparells de mesura."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona l’instrument de mesura i els elements auxiliars més adequats d’acord amb la magnitud, rang i precisió requerits."
+              },
+              {
+                "codi": "CA16",
+                "text": "Segueix els procediments normalitzats per fer la connexió de l’aparell de mesura."
+              },
+              {
+                "codi": "CA17",
+                "text": "Interpreta els resultats obtinguts i relaciona els efectes que es produeixen amb les causes que els originen."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora un informe de les activitats desenvolupades i resultats obtinguts."
+              },
+              {
+                "codi": "CA19",
+                "text": "Reconeix els diferents tipus de fonts d’energia."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta circuits elèctrics i electrònics analògics, i interpreta esquemes i diagrames de blocs.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Explica les característiques morfològiques i elèctriques de components electrònics analògics, la tipologia i les aplicacions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu el funcionament, pel que fa a valors i tipus de senyals, dels diferents components bàsics dins d’un circuit."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els components del circuit."
+              },
+              {
+                "codi": "CA24",
+                "text": "Relaciona els símbols que apareixen en els esquemes amb els elements reals."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els blocs funcionals presents en el circuit i n’explica les característiques i tipologia."
+              },
+              {
+                "codi": "CA26",
+                "text": "Calcula les magnituds bàsiques característiques del circuit."
+              },
+              {
+                "codi": "CA27",
+                "text": "Munta circuits analògics bàsics utilitzant sistemes d’inserció ràpida."
+              },
+              {
+                "codi": "CA28",
+                "text": "Relaciona les variacions en els paràmetres del circuit amb els canvis en les característiques dels components."
+              },
+              {
+                "codi": "CA29",
+                "text": "Explica la relació entre els efectes detectats i les causes que els produeixen."
+              },
+              {
+                "codi": "CA210",
+                "text": "Munta circuits analògics bàsics, utilitzant la soldadura electrònica dels components."
+              },
+              {
+                "codi": "CA211",
+                "text": "Demostra destresa en la identificació i muntatge de circuits analògics."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Mesurament de magnituds elèctriques i electromagnètiques",
+                "items": [
+                  "Magnituds elèctriques i electromagnètiques.",
+                  "Fonts d’energia.",
+                  "Circuits en corrent continu.",
+                  "Circuits en corrent altern.",
+                  "Mesurament de magnituds analògiques.",
+                  "Aplicació de lleis i teoremes en el càlcul bàsic de circuits: Kirchoff, Thevenin i Norton i teoremes de superposició de fonts."
+                ]
+              },
+              {
+                "bloc": "Muntatge de circuits elèctrics i electrònics analògics",
+                "items": [
+                  "Components elèctrics i electrònics.",
+                  "Circuits d’aplicació i els seus elements.",
+                  "Aplicacions amb circuits integrats lineals.",
+                  "Construcció de circuits amb plaques de proves."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "electrònica digital",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta circuits electrònics digitals i en descriu els esquemes i el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els components del circuit."
+              },
+              {
+                "codi": "CA12",
+                "text": "Interpreta els símbols i blocs funcionals que apareixen en els esquemes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Explica les característiques i tipologia de components i blocs funcionals del circuit."
+              },
+              {
+                "codi": "CA14",
+                "text": "Explica el funcionament global del circuit."
+              },
+              {
+                "codi": "CA15",
+                "text": "Aplica les lleis i teoremes fonamentals de l’àlgebra de Boole en l’anàlisi de funcions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Munta circuits digitals bàsics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Contrasta els estats lògics previstos amb els senyals reals mesurats."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica les variacions en el circuit i en modifica els paràmetres."
+              },
+              {
+                "codi": "CA19",
+                "text": "Reconeix la relació entre senyals analògics i digitals."
+              },
+              {
+                "codi": "CA110",
+                "text": "Demostra destresa en la identificació i muntatge de circuits digitals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Sistemes numèrics i àlgebra de Boole",
+                "items": [
+                  "Sistema decimal, binari, octal i hexadecimal. Conversió entre sistemes.",
+                  "Codis binaris.",
+                  "Operacions aritmètiques bàsiques en binari.",
+                  "Principis i regles fonamentals de l’àlgebra de Boole."
+                ]
+              },
+              {
+                "bloc": "Portes lògiques. Circuits bàsics",
+                "items": [
+                  "Portes OR, AND i NOT.",
+                  "Portes NOR, NAND i EXOR.",
+                  "Funcions amb tot tipus de portes."
+                ]
+              },
+              {
+                "bloc": "Circuits específics. Característiques",
+                "items": [
+                  "Circuits combinacionals. Comparadors, codificadors i multiplexors.",
+                  "Circuits digitals aritmètics. Sumador i restador.",
+                  "Circuits seqüencials. Comptadors."
+                ]
+              },
+              {
+                "bloc": "Circuits electrònics de conversió analògica-digital i digital-analògica",
+                "items": [
+                  "Fonaments dels sistemes de conversió analògica-digital. Mostreig i quantificació.",
+                  "Fonaments dels sistemes de conversió digital-analògica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "reparació i detecció d’avaries",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Detecta disfuncions bàsiques en circuits electrònics, i en descriu els esquemes i el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Explica les diferències bàsiques que existeixen entre els circuits electrònics digitals cablejats i programats."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els components i blocs funcionals del circuit."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona els símbols que apareixen en els esquemes amb els elements reals."
+              },
+              {
+                "codi": "CA14",
+                "text": "Explica el funcionament del circuit i les seves mesures."
+              },
+              {
+                "codi": "CA15",
+                "text": "Contrasta els estats lògics previstos amb els senyals reals mesurats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica possibles problemes d’acord amb l’estat dels components."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica la relació entre els efectes detectats i les causes que els produeixen."
+              },
+              {
+                "codi": "CA18",
+                "text": "Segueix els procediments normalitzats per fer la connexió dels aparells de mesura."
+              },
+              {
+                "codi": "CA19",
+                "text": "Interpreta els resultats obtinguts i en relaciona els efectes amb les causes que els originen."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora informes de les activitats desenvolupades i els resultats obtinguts."
+              },
+              {
+                "codi": "CA111",
+                "text": "Reconeix els diferents tipus de fonts d’energia, utilitzats en els dispositius d’ajut tècnic."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Repara ajuts tècnics auditius, i n’identifica els components i els relaciona amb les seves possibles avaries.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els blocs dels diferents tipus d’ajuts tècnics."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu les principals fonts d’avaria."
+              },
+              {
+                "codi": "CA23",
+                "text": "Classifica els equips d’ajuts tècnics electrònics en audiopròtesi."
+              },
+              {
+                "codi": "CA24",
+                "text": "Descriu els blocs que componen els ajuts tècnics."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza els comandaments presents en cada equip."
+              },
+              {
+                "codi": "CA26",
+                "text": "Observa que el comportament dels ajuts tècnics és el previst."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica tècniques de reparació d’ajuts tècnics auditius."
+              },
+              {
+                "codi": "CA28",
+                "text": "Defineix un conjunt de recomanacions d’ús i manteniment d’ajuts tècnics."
+              },
+              {
+                "codi": "CA29",
+                "text": "Demostra autonomia en la resolució de contingències."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica els protocols de seguretat i salut laboral."
+              },
+              {
+                "codi": "CA211",
+                "text": "Aplica la normativa de residus i protecció ambiental."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Detecció de disfuncions simples en circuits electrònics",
+                "items": [
+                  "Seguiment d’un circuit electrònic.",
+                  "Detecció d’anomalies de forma visual.",
+                  "Mesures en electrònica analògica.",
+                  "Mesures en electrònica digital."
+                ]
+              },
+              {
+                "bloc": "Reparació d’ajuts tècnics auditius",
+                "items": [
+                  "Tipus d’ajuts tècnics.",
+                  "Components dels blocs principals dels ajuts tècnics.",
+                  "Tècniques de reparació d’ajuts tècnics.",
+                  "Detecció i causes d’avaries.",
+                  "Reparació d’ajust tècnics.",
+                  "Normativa sobre seguretat i salut laboral."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MI",
+    "titol_cicle": "Mecatrònica Industrial",
+    "grau": "desconegut",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/228/2016, de 24 d'agost, per la qual s'estableix el currículum del cicle formatiu de grau superior de mecatrònica industrial.",
+    "data_decret": "2016-08-24",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "elements de màquines",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "materials i tractaments",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Analitza els processos de solidificació de materials metàl·lics, i els tractaments tèrmics, termoquímics i químics que s'hi realitzen, identificant les modificacions de les característiques que es produeixen en funció d'aquests tractaments.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu el procés de solidificació dels aliatges binaris, tenint en compte el procés de difusió i creixement dendrític de gra."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica cadascuna de les parts del diagrama d'equilibri d'aliatges metàl·lics binaris.1.3 Identifica les propietats del producte obtingut en cadascuna de les parts del diagrama d'equilibri.1.4 Identifica els possibles defectes que es poden produir durant el procés de solidificació i les solucions per pal·liar-los.1.5 Descriu els diferents tractaments tèrmics i termoquímics per a materials metàl·lics.1.6 Explica els processos de transformació en els diferents tractaments tèrmics, relacionant-los amb les propietats obtingudes.1.7 Descriu els equips utilitzats per tractar tèrmicament i termoquímicament els materials metàl·lics.1.8 Identifica les variables que cal controlar en els processos de tractament tèrmic per assegurar l'obtenció de les propietats requerides.1.9 Descriu els possibles defectes que poden provocar els tractaments tèrmics així com la forma d'evitar-los, solucionar-los o minimitzar-los. 2. Obté i interpreta les dades dels materials d'elements de màquines, relacionant-ne les característiques amb els seus requeriments funcionals, tècnics i econòmics."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Tractaments tèrmics i termoquímics",
+                "items": [
+                  "Solidificacions i diagrames d'equilibri.",
+                  "Diagrames transformació, temps, temperatura (TTT).",
+                  "Estructures cristal·lines.",
+                  "Tractaments més usuals utilitzats en fabricació mecànica (tremp, reveniment, martempering, austempering, recuit, enduriment per precipitació, cementació, nitruració, carbonitruració, sinterització, etc.).",
+                  "Equips per a tractaments tèrmics i termoquímics.",
+                  "Defectuositat en els tractaments tèrmics."
+                ]
+              },
+              {
+                "bloc": "Obtenció de dades de materials",
+                "items": [
+                  "Materials normalitzats.",
+                  "Formes comercials.",
+                  "Classificació dels materials.",
+                  "Propietats físiques, químiques, mecàniques i tecnològiques dels materials usats en els elements mecànics.",
+                  "Materials metàl·lics, ceràmics, polimèrics i compostos més utilitzats en elements de màquines.",
+                  "Ús de catàlegs comercials."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "cinemàtica de sistemes mecànics",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina la funció de les parts i dels elements d'un sistema mecànic i la seva relació amb la resta de components, analitzant la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els elements comercials utilitzats en els conjunts mecànics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina les seves característiques físiques a partir de plànols i catàlegs tècnics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona els diferents mecanismes en funció de les transformacions del moviment que produeixen."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els òrgans de transmissió i la funció que compleixen a les cadenes cinemàtiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Relaciona els elements de màquines amb la funció que compleixen."
+              },
+              {
+                "codi": "CA16",
+                "text": "Defineix els efectes de la lubricació en el comportament dels diferents elements i òrgans."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Calcula les magnituds cinemàtiques i dinàmiques d'operació de cadenes cinemàtiques, partint d'una configuració donada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona les fórmules i les unitats que s'utilitzaran en el càlcul dels elements, en funció de les seves característiques."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina les dimensions geomètriques necessàries."
+              },
+              {
+                "codi": "CA23",
+                "text": "Calcula les velocitats lineals i de rotació a partir de les especificacions de partida."
+              },
+              {
+                "codi": "CA24",
+                "text": "Calcula el valor del parell i de la potència transmesos."
+              },
+              {
+                "codi": "CA25",
+                "text": "Determina la relació i el rendiment de transmissió de la cadena cinemàtica."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Determinació de la funció de les parts i dels elements de sistemes mecànics",
+                "items": [
+                  "Sistemes i elements mecànics.",
+                  "Mecanismes (lleves, cargols i trens d'engranatges, entre d'altres).",
+                  "Moviments: lliscament, rodolament, pivotant i d'altres.",
+                  "Lubricació i lubricants."
+                ]
+              },
+              {
+                "bloc": "Càlcul de cadenes cinemàtiques",
+                "items": [
+                  "Identificació de cadenes cinemàtiques.",
+                  "Baules d'una cadena cinemàtica.",
+                  "Tipus de transmissions mecàniques.",
+                  "Càlcul de cadenes cinemàtiques"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "disseny de màquines",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Relaciona solucions constructives de mecanismes amb les funcions que exerceixen, interpretant el sistema en el seu conjunt.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Determina les sol·licitacions requerides als elements del mecanisme, en funció de les seves especificacions."
+              },
+              {
+                "codi": "CA12",
+                "text": "Calcula els límits d'operació del mecanisme, en funció de les característiques tècniques i geomètriques dels seus elements."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina la relació existent entre les variables d'entrada i de sortida del mecanisme."
+              },
+              {
+                "codi": "CA14",
+                "text": "Justifica la selecció d'aquests components en detriment d'altres alternatives semblants."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica les toleràncies geomètriques i superficials dels seus elements, en funció de les prestacions i precisions requerides."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina el tipus d'ajust d'acord amb la funció del mecanisme."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Selecciona components comercials d'elements mecatrònics, valorant les seves condicions operatives.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona les fórmules i les unitats que s'utilitzaran en el càlcul dels elements, en funció de les seves característiques."
+              },
+              {
+                "codi": "CA22",
+                "text": "Obté el valor dels diferents esforços que actuen sobre els elements de transmissió, en funció de les sol·licitacions que es transmetran (velocitat màxima, potència i esforç màxim, entre d'altres)."
+              },
+              {
+                "codi": "CA23",
+                "text": "Dimensiona els diversos elements i òrgans, aplicant càlculs, normes, àbacs i taules, entre d'altres, imputant els coeficients de seguretat necessaris, tenint en compte la seva aplicació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Escull el component comercial més adequat, segons el dimensionament realitzat."
+              },
+              {
+                "codi": "CA25",
+                "text": "Calcula la vida útil dels elements normalitzats sotmesos a desgast, trencament o fatiga."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Relació de solucions constructives amb les funcions que exerceixen",
+                "items": [
+                  "Solucions constructives d'elements de màquines.",
+                  "Toleràncies dimensionals.",
+                  "Toleràncies geomètriques.",
+                  "Ajustos.",
+                  "Qualitats superficials.",
+                  "Especificacions tècniques."
+                ]
+              },
+              {
+                "bloc": "Selecció de components comercials d'elements mecànics",
+                "items": [
+                  "Càlcul dimensional d'elements (rosques, rodaments, xavetes, casquets, passadors, molles, guies, unions fixes i desmuntables, eixos, eixos roscats, politges, rodes dentades i motors, entre altres).",
+                  "Coeficient de seguretat.",
+                  "Resistència de materials.",
+                  "Relació entre velocitat, parell, potència i rendiment.",
+                  "Anàlisi de fatiga aplicada al manteniment preventiu d'elements mecànics. Vida útil i concentradors de tensió."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

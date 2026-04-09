@@ -1,0 +1,79 @@
+@prefix eli:     <http://data.europa.eu/eli/ontology#> .
+@prefix eadop:   <https://portaljuridic.gencat.cat/eli-eadop#> .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175>
+      a       eli:Work ;
+      eli:consolidated_By "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/con/20250108" , "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/con/20251029" ;
+      eli:date_document "2022-09-27" ;
+      eli:in_force "in force" ;
+      eli:jurisdiction <http://www.elidata.es/mdr/authority/jurisdiction/1/es-ct> ;
+      eli:number "175" ;
+      eli:responsibility_of
+              "Departament d'Educació" ;
+      eli:type_document <http://www.elidata.es/mdr/authority/resource-type/1/d> ;
+      eli:version "http://www.elidata.es/mdr/authority/version/dof" ;
+      eadop:date_no_longer_in_force
+              "2025-01-07" ;
+      eadop:date_publication
+              "2022-09-29" ;
+      eadop:first_date_entry_in_force
+              "2022-09-30" ;
+      eadop:has_member "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof" ;
+      eadop:is_about "organització de l'ensenyament" , "ensenyament primari" , "ensenyament secundari" ;
+      eadop:is_member_of "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175" ;
+      eadop:is_realized_by
+              "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat" ;
+      eadop:realizes "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof" ;
+      eadop:uri_schema "/eli/{jurisdiction}/{type}/{year}/{month}/{day}/{number}/{version}/{version_date}/{language}/{format}" ;
+      eadop:uri_this "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175" ;
+      eadop:version_data "2022-09-30" .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/rdf>
+      a       eli:Manifestation ;
+      eli:format <http://www.iana.org/assignments/media-types/text/rdf> ;
+      eli:is_embodied_by <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/rdf> ;
+      eli:legal_value "oficial" ;
+      eli:this_manifestation
+              <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/rdf> .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/pdf>
+      a       eli:Manifestation ;
+      eli:format <http://www.iana.org/assignments/media-types/application/pdf> ;
+      eli:is_embodied_by <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/pdf> ;
+      eli:legal_value "oficial" ;
+      eli:this_manifestation
+              <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/pdf> .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/xml>
+      a       eli:Manifestation ;
+      eli:format <http://www.iana.org/assignments/media-types/text/xml> ;
+      eli:is_embodied_by <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/xml> ;
+      eli:legal_value "oficial" ;
+      eli:this_manifestation
+              <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/xml> .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/turtle>
+      a       eli:Manifestation ;
+      eli:format <http://www.iana.org/assignments/media-types/text/turtle> ;
+      eli:is_embodied_by <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/turtle> ;
+      eli:legal_value "oficial" ;
+      eli:this_manifestation
+              <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/turtle> .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof>
+      a       eli:Expression ;
+      eli:embodies <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat> ;
+      eli:language "http://www.elidata.es/mdr/authority/language/cat" ;
+      eli:published_in_format
+              "https://dogc.gencat.cat/ca/" ;
+      eli:publisher_agent "https://dogc.gencat.cat/ca/sobre-el-dogc/eadop/" ;
+      eli:this_expression "https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat" ;
+      eli:title "DECRET 175/2022, de 27 de setembre, d'ordenació dels ensenyaments de l'educació bàsica." .
+
+<https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/html>
+      a       eli:Manifestation ;
+      eli:format <http://www.iana.org/assignments/media-types/text/html> ;
+      eli:is_embodied_by <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/html> ;
+      eli:legal_value "oficial" ;
+      eli:this_manifestation
+              <https://portaljuridic.gencat.cat/eli/es-ct/d/2022/09/27/175/dof/cat/html> .

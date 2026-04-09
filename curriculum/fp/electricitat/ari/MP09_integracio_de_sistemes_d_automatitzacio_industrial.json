@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "integració de sistemes d’automatització industrial",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sistemes d’automatització industrial",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Planifica la instal·lació del sistema automàtic, identificant els requeriments de la instal·lació i gestionant l’aprovisionament de material.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les fases d’instal·lació del sistema automàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona eines i equips associats a cada fase d’instal·lació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Planifica el lliurament d’equips i d’elements."
+              },
+              {
+                "codi": "CA14",
+                "text": "Elabora un protocol de comprovació del material rebut."
+              },
+              {
+                "codi": "CA15",
+                "text": "Avalua els punts crítics de la instal·lació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina els recursos humans de cada fase de muntatge."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora un pla detallat d’aprovisionament i de muntatge de la instal·lació automàtica."
+              },
+              {
+                "codi": "CA18",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA111",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA112",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona el muntatge d’instal·lacions automàtiques, seguint el pla de muntatge i resolent contingències.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Assigna els mitjans materials i humans segons el pla de muntatge."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza el replanteig de la instal·lació segons les especificacions indicades en els plànols i en els esquemes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Adequa el pla de muntatge a les característiques de la instal·lació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Aplica tècniques de gestió de recursos per al muntatge de la instal·lació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Determina indicadors de control de muntatge."
+              },
+              {
+                "codi": "CA26",
+                "text": "Determina els mesuraments necessaris per a l’acceptació de la instal·lació automàtica."
+              },
+              {
+                "codi": "CA27",
+                "text": "Determina els valors mínims d’aïllament, rigidesa dielèctrica, resistència de terra i corrents de fuita acceptables per a l’acceptació de la instal·lació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica els requeriments mínims per a la posada en marxa de la instal·lació."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza les mesures necessàries per a l’anàlisi de la xarxa de subministrament (detecció d’harmònics i pertorbacions)."
+              },
+              {
+                "codi": "CA210",
+                "text": "Determina mesures de seguretat en la posada en marxa d’instal·lacions automàtiques."
+              },
+              {
+                "codi": "CA211",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA212",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA213",
+                "text": "Identifica possibles contingències i planteja solucions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Planificació de la instal·lació del sistema automàtic",
+                "items": [
+                  "Aplicació de les tècniques de planificació en una instal·lació automàtica. Diagrames de flux, Gantt, PERT, entre d’altres.",
+                  "Fases de la instal·lació automàtica.",
+                  "Eines i equips.",
+                  "Gestió de l’aprovisionament i de l’emmagatzematge de materials. Tècniques d’aprovisionament. Protocol de recepció i comprovació dels materials. Control i ruptura d’estoc. Magatzems en empreses d’automatització. Fulls de comanda. Eines informàtiques per a l’organització d’un magatzem.",
+                  "Comprovació de materials. Recepció i verificació del funcionament.",
+                  "Identificació de punts crítics en una instal·lació automàtica."
+                ]
+              },
+              {
+                "bloc": "Gestió del muntatge d’una instal·lació automàtica",
+                "items": [
+                  "Equips de mesura de seguretat elèctrica.",
+                  "Gestió de recursos humans.",
+                  "Indicadors de muntatge. Temps. Nivells de qualitat. Entre d’altres.",
+                  "Valors mínims d’acceptació. Aïllament. Resistència. Rigidesa dielèctrica. Temps de disparament. Entre d’altres.",
+                  "Requeriments de posada en marxa.",
+                  "Assaigs d’elements de protecció. Sensibilitat. Temps de disparament. Selectivitat elèctrica.",
+                  "Anàlisi de la xarxa de subministrament. Harmònics. Pertorbacions. Nivells de tensió d’alimentació. Estabilitat de la xarxa.",
+                  "Seguretat industrial. Seguretat aplicada a les màquines. Categories de seguretat aplicades als sistemes automàtics. Categories 1, 2, 3 i 4. Seguretat aplicada a les persones. Equips de protecció individual (EPI).",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "muntatge, programació i ajust dels sistemes",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Integra els elements del sistema automàtic, interpretant la documentació tècnica del projecte i seguint els procediments i les normes de seguretat en muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Munta el quadre de distribució elèctrica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la els sistemes de distribució elèctrica i de fluids requerits en el sistema automàtic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Connecta equips sensors i de captació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Connecta els actuadors, manipuladors i dispositius elèctrics de potència."
+              },
+              {
+                "codi": "CA15",
+                "text": "Acobla mecànicament els diferents tipus d’actuadors."
+              },
+              {
+                "codi": "CA16",
+                "text": "Munta els robots industrials i els sistemes de control de moviments en aquells casos que són necessaris."
+              },
+              {
+                "codi": "CA17",
+                "text": "Munta els dispositius de mesura i de regulació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Munta els elements de supervisió i adquisició de dades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica la reglamentació vigent i les normes de seguretat."
+              },
+              {
+                "codi": "CA110",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA111",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA112",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA113",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA114",
+                "text": "Utilitza les eines adequades per a cada operació."
+              },
+              {
+                "codi": "CA115",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              },
+              {
+                "codi": "CA116",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA117",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa operacions d’ajustament, parametrització i programació dels dispositius del sistema automàtic, a partir de les especificacions tècniques del disseny i utilitzant les eines de programari i de maquinari requerides.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els senyals que han de processar els controladors lògics."
+              },
+              {
+                "codi": "CA22",
+                "text": "Calibra els dispositius de mesura segons les especificacions tècniques de funcionament del sistema automàtic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Elabora els programes dels dispositius de control lògic del sistema automàtic segons les especificacions tècniques demandades."
+              },
+              {
+                "codi": "CA24",
+                "text": "Estableix les seqüències de control per a les solucions robotitzades i de control de moviment."
+              },
+              {
+                "codi": "CA25",
+                "text": "Estableix paràmetres per als dispositius de regulació i control."
+              },
+              {
+                "codi": "CA26",
+                "text": "Elabora la programació dels dispositius de supervisió i d’adquisició de dades."
+              },
+              {
+                "codi": "CA27",
+                "text": "Estableix paràmetres i ajusta la xarxa de comunicació industrial."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza la documentació tècnica en funció de les operacions d’ajustament, parametrització i programació dels dispositius del sistema automàtic."
+              },
+              {
+                "codi": "CA29",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA212",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA213",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració d’elements del sistema automàtic",
+                "items": [
+                  "Configuració dels quadres elèctrics. Índex de protecció IP i IK dels quadres elèctrics.",
+                  "Dimensionament del quadre elèctric. Mecanització. Elements auxiliars.",
+                  "Aplicació de les tècniques d’instal·lació i de muntatge de sistemes elèctrics, pneumàtics i hidràulics. Punts d’alimentació elèctrica i transformació a diferents tensions. Punts d’alimentació fluídica i dispositius de regulació. Dispositius de seguretat elèctrica. Protecció d’equips, protecció de persones i mòduls de seguretat. Dispositius de seguretat fluídica. Xarxes de comunicació entre els equips.",
+                  "Compatibilitat entre sistemes i equips. Convertidors de senyals elèctrica, elèctrica-fluídica i fluídica-elèctrica. Compatibilitat entre els dispositius de comunicacions.",
+                  "Aplicació de les tècniques de connexió dels components i sistemes elèctrics, pneumàtics i hidràulics.",
+                  "Aplicació de les tècniques de muntatge de robots i sistemes de control de moviment.",
+                  "Aplicació de les tècniques de connexió de dispositius de control, supervisió i de mesura i regulació.",
+                  "Reglamentació i normes de seguretat."
+                ]
+              },
+              {
+                "bloc": "Execució d’operacions d’ajustaments, parametrització i programació",
+                "items": [
+                  "Aplicació de les tècniques d’identificació de senyals en el sistema automàtic. Senyal de consigna. Senyal d’error. Senyal de control. Variable manipulada. Pertorbacions. Variable controlada. Mesura. Entre d’altres.",
+                  "Aplicació de les tècniques de calibratge dels dispositius de mesura i de regulació. Rang de mesura. Linealitat. Precisió. Sensibilitat. Error. Histèresis. Repetibilitat. Entre d’altres.",
+                  "Aplicació de les tècniques de programació i parametrització dels diferents dispositius de control. Dispositius de control: autòmats programables, ordinadors industrials, sistemes encastats (embedded). Controladors de motors: convertidores de freqüència, servomotor, entre d’altres. Controladors de manipuladors i robots. Dispositius de supervisió i adquisició de dades: pannels tàctils i sistemes SCADA. Intercanvi de dades entre aplicacions amb DDE, OPC, ActiveX, entre d’altres.",
+                  "Aplicació de les tècniques de parametrització i ajust de les xarxes de comunicació industrial en un sistema automàtic integrat.",
+                  "Documentació tècnica de les operacions d’ajustament, parametrització i programació dels dispositius integrats en el sistema automàtic."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "posada en marxa dels sistemes d’automatització",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Verifica el funcionament del sistema automàtic segons les especificacions tècniques del disseny, realitzant el replanteig necessari i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Verifica el funcionament del quadre de distribució elèctric."
+              },
+              {
+                "codi": "CA12",
+                "text": "Comprova el funcionament de tots els dispositius del sistema automàtic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Verifica el funcionament dels programes de control, adquisició i supervisió dissenyats conforme als requeriments del sistema automàtic."
+              },
+              {
+                "codi": "CA14",
+                "text": "Comprova la idoneïtat dels paràmetres establerts per als dispositius realitzant, si escau, els ajusts necessaris per a la seva optimització."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza una posada en marxa de tot el sistema automàtic, verificant el seu funcionament i realitzant els ajusts oportuns conforme als requeriments establerts."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora un informe tècnic de les activitats desenvolupades dels resultats obtinguts i de les modificacions realitzades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza les modificacions oportunes en la documentació tècnica en funció dels resultats de les verificacions de funcionament realitzades en el sistema automàtic i el seu corresponent replanteig."
+              },
+              {
+                "codi": "CA18",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA111",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA112",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Localitza avaries produïdes en el sistema automàtic, utilitzant la documentació tècnica i establint criteris d’actuació conforme a protocols prèviament establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Emplena l’ordre de reparació de l’avaria."
+              },
+              {
+                "codi": "CA22",
+                "text": "Documenta el procediment que se seguirà per a la identificació d’avaries."
+              },
+              {
+                "codi": "CA23",
+                "text": "Segueix el procediment establert per a la localització d’avaries."
+              },
+              {
+                "codi": "CA24",
+                "text": "Valora i justifica la presa de decisions en la reparació o substitució de dispositius."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza el pressupost de la reparació i/o substitució dels dispositius."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza la reparació seguint les normes i els procediments de seguretat establerts i utilitzant els equips de protecció individual i col·lectius requerits."
+              },
+              {
+                "codi": "CA27",
+                "text": "Estudia la conveniència de realitzar modificacions en el disseny o en la tecnologia del sistema automàtic, a fi d’evitar l’avaria."
+              },
+              {
+                "codi": "CA28",
+                "text": "Emplena el corresponent informe tècnic de l’avaria."
+              },
+              {
+                "codi": "CA29",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA210",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza les eines adequades per a cada operació."
+              },
+              {
+                "codi": "CA212",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA214",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Verificació del funcionament del sistema automàtic",
+                "items": [
+                  "Verificacions en el funcionament del quadre de distribució elèctric.",
+                  "Verificacions en el funcionament de tots els dispositius del sistema automàtic.",
+                  "Verificacions en el funcionament dels programes de control, adquisició i supervisió.",
+                  "Verificacions i optimització a l’establiment de paràmetres en dispositius.",
+                  "Procediments de posada en marxa, verificació i ajust d’un sistema automàtic complet.",
+                  "Informes tècnics d’activitats desenvolupades dels resultats obtinguts i de les modificacions realitzades."
+                ]
+              },
+              {
+                "bloc": "Localització d’avaries en el sistema automàtic",
+                "items": [
+                  "Sol·licitud d’intervenció i ordre de treball.",
+                  "Procediments per a la identificació i reparació d’avaries en el sistema automàtic.",
+                  "Informes tècnics d’avaries i fulls de reparació.",
+                  "Pressupost de la reparació i/o substitució dels dispositius.",
+                  "Reglamentació i normativa vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "planificació i gestió del manteniment dels sistemes d’automatització",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Planifica el manteniment d’un sistema d’automatització industrial, aplicant els requeriments del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Selecciona les parts de la instal·lació susceptibles de manteniment."
+              },
+              {
+                "codi": "CA12",
+                "text": "Planifica l’aprovisionament de cadascuna de les parts."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina les tasques bàsiques de manteniment preventiu."
+              },
+              {
+                "codi": "CA14",
+                "text": "Determina les tasques bàsiques del manteniment predictiu i correctiu."
+              },
+              {
+                "codi": "CA15",
+                "text": "Programa el manteniment de la instal·lació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Analitza les instruccions dels fabricants dels equips i elements que intervenen en la instal·lació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Proposa ajusts dels equips i dels elements per al seu bon funcionament."
+              },
+              {
+                "codi": "CA18",
+                "text": "Determina les característiques tècniques i d’acceptació per a la substitució d’equips o d’elements."
+              },
+              {
+                "codi": "CA19",
+                "text": "Elabora un pla detallat de manteniment."
+              },
+              {
+                "codi": "CA110",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA111",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA112",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA113",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA114",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona el manteniment de sistemes automàtics, aplicant el pla de manteniment i la normativa vigent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica tots els apartats del pla de muntatge."
+              },
+              {
+                "codi": "CA22",
+                "text": "Adequa el pla de manteniment a les característiques de la instal·lació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Aplica tècniques de gestió de personal per al manteniment d’instal·lacions."
+              },
+              {
+                "codi": "CA24",
+                "text": "Aplica tècniques de gestió de materials i elements per al manteniment d’instal·lacions."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix procediments per a la gestió del manteniment."
+              },
+              {
+                "codi": "CA26",
+                "text": "Determina indicadors de control del manteniment."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica la reglamentació vigent i la de seguretat en el treball durant el manteniment."
+              },
+              {
+                "codi": "CA28",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA29",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA210",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA211",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió del manteniment d’una instal·lació automàtica",
+                "items": [
+                  "Continguts bàsics d’un pla de manteniment.",
+                  "Tècniques de gestió de recursos humans i materials.",
+                  "Procediments i indicadors de gestió per al manteniment.",
+                  "Eines informàtiques per a la gestió del manteniment.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MI",
+    "titol_cicle": "Mecatrònica Industrial",
+    "grau": "desconegut",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/228/2016, de 24 d'agost, per la qual s'estableix el currículum del cicle formatiu de grau superior de mecatrònica industrial.",
+    "data_decret": "2016-08-24",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "sistemes elèctrics i electrònics",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "electricitat industrial",
+        "hores": 50,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els elements de naturalesa elèctrica-electrònica en una màquina, equip industrial o línia automatitzada, descrivint la funció que realitzen i la seva relació amb la resta d'elements.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les característiques del senyal de corrent altern."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica l'estructura i els components que configuren les instal·lacions de subministrament d'energia elèctrica en una màquina o línia automatitzada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els actuadors de naturalesa elèctrica presents a les màquines o línies automatitzades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Relaciona els sensors i els transductors de la màquina, amb la resta d'elements."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els dispositius i l'estructura dels busos de comunicacions en una màquina o línia automatitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica les característiques dels motors de corrent continu i altern, així com dels transformadors."
+              },
+              {
+                "codi": "CA17",
+                "text": "Relaciona els paràmetres dels motors de corrent altern (monofàsics i trifàsics) i continu i transformadors amb el seu funcionament en servei i en buit."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix els sistemes d'arrencada i de frenada."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica els sistemes de correcció del factor de potència i la seva influència en les instal·lacions."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora croquis dels sistemes de control i regulació electrònica."
+              },
+              {
+                "codi": "CA111",
+                "text": "Identifica les magnituds que cal controlar en els sistemes de regulació de velocitat."
+              },
+              {
+                "codi": "CA112",
+                "text": "Calcula paràmetres i magnituds de les instal·lacions."
+              },
+              {
+                "codi": "CA113",
+                "text": "Caracteritza els elements de protecció."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació de circuits i elements dels sistemes d'alimentació, protecció i arrencada de màquines elèctriques",
+                "items": [
+                  "Fonaments de corrent altern.",
+                  "Elements d'aparellatge elèctric.",
+                  "Actuadors de naturalesa elèctrica.",
+                  "Sensors i transductors.",
+                  "Sistemes elèctric-electrònics de protecció i seguretat.",
+                  "Components i busos de comunicació industrials.",
+                  "Característiques dels motors de corrent continu i altern.",
+                  "Característiques dels transformadors.",
+                  "Paràmetres i connexionat dels motors de corrent altern i continu i transformadors. Funcionament en servei i buit.",
+                  "Sistemes d'arrencada i de frenada.",
+                  "Sistemes de correcció del factor de potència.",
+                  "Magnituds que cal controlar en els sistemes de regulació de velocitat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "configuració i muntatge de sistemes elèctrics i electrònics",
+        "hores": 75,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura els automatismes de naturalesa electrotècnica pel que fa a la màquina o a la instal·lació automatitzada, adoptant la solució més adequada i complint les condicions de funcionament establertes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix les característiques funcionals dels automatismes elèctrics que s'empraran a les diferents parts de la màquina o línia automatitzada."
+              },
+              {
+                "codi": "CA12",
+                "text": "Proposa solucions de configuració d'automatismes elèctrics pel que fa a la màquina o a la instal·lació automatitzada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Calcula els valors de les magnituds dels paràmetres de la instal·lació.1.4 Adopta la solució més adequada, complint els requisits de funcionament i de cost exigits.1.5 Selecciona els elements de naturalesa elèctrica per realitzar la funció demandada.1.6 Realitza plànols i esquemes de funcionament dels automatismes elèctrics, utilitzant eines informàtiques.1.7 Utilitza la simbologia normalitzada.1.8 Elabora diagrames funcionals.1.9 Selecciona, dels catàlegs, els elements dels sistemes de comandament i de maniobra. 2. Munta instal·lacions d'alimentació i automatismes electrotècnics associats, interpretant esquemes i aplicant tècniques de muntatge. Criteris d'avaluació2.1 Identifica els procediments utilitzats en el muntatge i manteniment de les instal·lacions.2.2 Selecciona les eines d'acord amb el tipus d'intervenció.2.3 Elabora un pla de muntatge de la instal·lació.2.4 Realitza replantejos de les instal·lacions.2.5 Munta i connexiona equips i elements de les instal·lacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració d'automatismes i d'elements de tecnologia electrotècnica",
+                "items": [
+                  "Càlcul i selecció d'elements en sistemes electricoelectrònics.",
+                  "Característiques i paràmetres dels components dels dispositius electrònics dels equips de comandament i maniobra.",
+                  "Elaboració de diagrames funcionals."
+                ]
+              },
+              {
+                "bloc": "Muntatge d'instal·lacions d'alimentació i automatismes electrotècnics",
+                "items": [
+                  "Procediments en el muntatge i manteniment de les instal·lacions.",
+                  "Elaboració de plans de muntatge.",
+                  "Replanteig d'instal·lacions.",
+                  "Tècniques de muntatge.",
+                  "Muntatge i connexionat d'equips i d'elements de les instal·lacions.",
+                  "Realització d'ajustos.",
+                  "Operacions de muntatge i proves funcionals.",
+                  "Regulació i posada en marxa del sistema."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental en el muntatge de sistemes elèctrics i electrònics",
+                "items": [
+                  "Normativa de prevenció de riscos laborals.",
+                  "Prevenció de riscos laborals en els processos de muntatge.",
+                  "Equips de protecció individual: característiques i criteris d'utilització. Protecció col·lectiva. Mitjans i equips de protecció."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "diagnosi d'avaries i manteniment en sistemes elèctrics i electrònics",
+        "hores": 40,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Diagnostica avaries i disfuncions en instal·lacions d'alimentació i automatismes electrotècnics associats, identificant les causes que les produeixen i relacionant-les amb els elements responsables.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Elabora un pla d'intervenció per al diagnòstic de l'avaria.1.2 Identifica els símptomes de l'avaria o de la disfunció.1.3 Realitza mesures en els circuits.1.4 Elabora hipòtesis de les possibles causes de l'avaria o de la disfunció.1.5 Localitza el subsistema o bloc responsable.1.6 Identifica el o els elements que produeixen les disfuncions o avaries.1.7 Documenta el procés de diagnosi.1.8 Treballa en equip. 2. Manté instal·lacions d'alimentació i automatismes electrotècnics associats, substituint elements i verificant el funcionament de la instal·lació. Criteris d'avaluació2.1 Elabora un procediment d'intervenció.2.2 Reconstrueix part de la instal·lació.2.3 Substitueix elements de les instal·lacions.2.4 Aplica tècniques de manteniment preventiu.2.5 Realitza ajustos a les instal·lacions.2.6 Posa en funcionament la instal·lació.2.7 Té en compte el temps de realització de les operacions de manteniment.2.8 Documenta les intervencions realitzades.2.9 Treballa en equip."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los. Criteris d'avaluació3.1 Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, de les eines, dels estris, de les màquines i dels mitjans de transport.3.2 Opera amb màquines i eines, respectant les normes de seguretat.3.3 Identifica les causes més freqüents d'accidents en la manipulació de materials, eines, màquines de tall i conformats, entre d'altres.3.4 Reconeix els elements de seguretat, els equips de protecció individual i col·lectiva (calçat, protecció ocular i indumentària, entre d'altres) que s'han de fer serviren les diferents operacions de muntatge i manteniment.3.5 Identifica l'ús correcte dels elements de seguretat i dels equips de protecció individual i col·lectiva.3.6 Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerits.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA37",
+                "text": "Identifica les possibles fonts de contaminació de l'entorn ambiental."
+              },
+              {
+                "codi": "CA38",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA39",
+                "text": "Valora l'ordre i la neteja d'instal·lacions i d'equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Diagnòstic d'avaries i disfuncions",
+                "items": [
+                  "Elaboració de plans d'intervenció per a la diagnosi.",
+                  "Símptomes típics de l'avaria o disfunció.",
+                  "Equips i instruments de mesura. Tipologia. Realització de mesures en els circuits.",
+                  "Tècniques de localització d'avaries i de disfuncions."
+                ]
+              },
+              {
+                "bloc": "Manteniment d'instal·lacions d'alimentació i d'automatismes electrotècnics",
+                "items": [
+                  "Elaboració de plans de manteniment.",
+                  "Elaboració de procediments d'intervenció.",
+                  "Reconstrucció de part de la instal·lació.",
+                  "Tècniques de substitució d'elements de les instal·lacions.",
+                  "Tècniques de manteniment preventiu.",
+                  "Tècniques de manteniment correctiu.",
+                  "Ajustos a les instal·lacions.",
+                  "Posada a punt de les instal·lacions."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental",
+                "items": [
+                  "Normativa de prevenció de riscos laborals.",
+                  "Prevenció de riscos laborals en els processos de manteniment.",
+                  "Equips de protecció individual: característiques i criteris d'utilització. Protecció col·lectiva. Mitjans i equips de protecció.",
+                  "Normativa reguladora en gestió de residus."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

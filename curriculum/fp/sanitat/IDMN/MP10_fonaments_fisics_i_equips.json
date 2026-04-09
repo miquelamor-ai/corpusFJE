@@ -1,0 +1,553 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IDMN",
+    "titol_cicle": "Imatge per al Diagnòstic i Medicina Nuclear",
+    "grau": "superior",
+    "familia_professional": "Sanitat",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/2181/2018, de 18 de setembre, per la qual s'estableix el currículum del cicle formatiu de grau superior d'Imatge per al Diagnòstic i Medicina Nuclear.",
+    "data_decret": "2018-09-18",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "Fonaments Físics i Equips",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "radiacions i ones",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza les radiacions ionitzants, no ionitzants i ones materials, descrivint el seu ús diagnòstic i terapèutic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix els fonaments físics necessaris per a la comprensió del funcionament dels diferents equips de diagnòstic i de tractament radioteràpic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els diferents tipus d'energies utilitzades en imatge per al diagnòstic i radioteràpia."
+              },
+              {
+                "codi": "CA13",
+                "text": "Classifica els diferents tipus de materials d'acord amb el seu comportament davant d'un camp magnètic."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica les característiques de les radiacions ionitzants d'origen nuclear i no nuclear."
+              },
+              {
+                "codi": "CA15",
+                "text": "Estableix diferències entre radiació ionitzant electromagnètica i radiació de partícules."
+              },
+              {
+                "codi": "CA16",
+                "text": "Justifica l'ús per formació d'imatges i l'ús terapèutic de les radiacions ionitzants."
+              },
+              {
+                "codi": "CA17",
+                "text": "Relaciona les característiques de les radiacions no ionitzants amb l'obtenció d'imatges diagnòstiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Relaciona l'ús d'ones materials amb l'obtenció d'imatges diagnòstiques."
+              },
+              {
+                "codi": "CA19",
+                "text": "Defineix les unitats i les magnituds utilitzades en radioteràpia i imatge per al diagnòstic."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització de les radiacions i les ones",
+                "items": [
+                  "Estructura de l'àtom.",
+                  "Radiació electromagnètica i de partícules.",
+                  "Càrrega elèctrica. Camp elèctric.",
+                  "Radiació ionitzant i no ionitzant.",
+                  "Llei inversa.",
+                  "Ones mecàniques i ultrasons.",
+                  "Magnetisme i aplicacions en l'obtenció d'imatges diagnòstiques.",
+                  "Aplicacions de les radiacions ionitzants en radioteràpia i imatge per al diagnòstic.",
+                  "Aplicació de les radiacions no ionitzants i ones materials en radioteràpia i imatge per al diagnòstic.",
+                  "Unitats i magnituds d'ús en radioteràpia i imatge per al diagnòstic."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "equips de raig X, tomografia computada i radioteràpia",
+        "hores": 58,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els equips de radiologia convencional, identificant-ne els seus components i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta les dades de corbes d'emissió de raigs X i les relaciona amb les propietats físiques de la radiació generada."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les diferents interaccions amb la matèria i l'atenuació que pateix la radiació X."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les densitats radiogràfiques en imatges diagnòstiques."
+              },
+              {
+                "codi": "CA14",
+                "text": "Defineix l'estructura i el funcionament del tub de raigs X."
+              },
+              {
+                "codi": "CA15",
+                "text": "Relaciona les propietats de la radiació produïda amb les característiques del tub de raigs X."
+              },
+              {
+                "codi": "CA16",
+                "text": "Relaciona els paràmetres tècnics amb les característiques de la radiació X produïda."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica els components dels equips de radiologia convencional."
+              },
+              {
+                "codi": "CA18",
+                "text": "Determina el tipus d'equip i els dispositius accessoris que s'han d'utilitzar en funció del tipus d'exploració."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica la influència dels paràmetres tècnics dels equips utilitzats en la qualitat de la imatge obtinguda."
+              },
+              {
+                "codi": "CA110",
+                "text": "Utilitza diferents equips de raigs X per obtenir les imatges diagnòstiques i fer tractaments de radioteràpia."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Caracteritza els equips de tomografia computada (TC), identificant els seus components i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu l'evolució de la imatge tomogràfica i dels equips de TC."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica l'estructura de les sales d'exploració i els components dels equips de TC."
+              },
+              {
+                "codi": "CA23",
+                "text": "Diferencia les característiques tècniques d'un TC convencional i un TC helicoïdal."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix les característiques dels equips de TC multitall i de tomografia de feix electrònic."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix els usos diagnòstics i terapèutics de les exploracions mitjançant TC."
+              },
+              {
+                "codi": "CA26",
+                "text": "Defineix les normes de seguretat en l'ús d'equips de TC."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els paràmetres de la imatge de TC mitjançant l'ús de programari específic."
+              },
+              {
+                "codi": "CA28",
+                "text": "Aplica normes de postprocessament per obtenir imatges de qualitat."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza reconstruccions d'imatges 2D i 3D."
+              },
+              {
+                "codi": "CA210",
+                "text": "Reconeix artefactes en imatges de TC."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Caracteritza els equips de radioteràpia, identificant els seus components i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu els elements d'una unitat de tractament de teleteràpia."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica la formació de la radiació en un ALE (accelerador lineal d'electrons)."
+              },
+              {
+                "codi": "CA33",
+                "text": "Reconeix les diferents aplicacions de les radiacions de fotons i d'electrons."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica les unitats monitores."
+              },
+              {
+                "codi": "CA35",
+                "text": "Utilitza correctament l'equip per fer el tractament de radioteràpia al pacient."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza el sistema d'adquisició d'imatges per fer el centratge del pacient."
+              },
+              {
+                "codi": "CA37",
+                "text": "Descriu els elements d'una unitat de cobalt."
+              },
+              {
+                "codi": "CA38",
+                "text": "Descriu els elements d'una unitat de tractament de braquiteràpia."
+              },
+              {
+                "codi": "CA39",
+                "text": "Estima els diferents tipus de fonts de radiació que es poden utilitzar en els tractaments de braquiteràpia relacionant-los amb les mesures de seguretat necessàries."
+              },
+              {
+                "codi": "CA310",
+                "text": "Efectua el control de la posició de la font durant el tractament."
+              },
+              {
+                "codi": "CA311",
+                "text": "Utilitza correctament l'equip per fer el tractament de braquiteràpia al pacient."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització dels equips de radiologia convencional",
+                "items": [
+                  "Identificació de la radiació X.",
+                  "Descripció de les interaccions dels raigs X amb la matèria.",
+                  "Definició dels components i funcionament del tub de raigs X.",
+                  "Calor i refrigeració.",
+                  "Identificació de les característiques tècniques del feix de radiació.",
+                  "Radiació dispersa. Reixetes antidifusores.",
+                  "Selecció dels dispositius restrictius del feix de radiació.",
+                  "Identificació de taules i dispositius murals. Dissenys, components i aplicacions.",
+                  "Receptors d'imatge.",
+                  "Consola de comandaments.",
+                  "Exposició automàtica.",
+                  "Utilització de diferents equips de raigs X d'imatge per al diagnòstic.",
+                  "Utilització de diferents equips de raigs X de radioteràpia.",
+                  "Ús eficient dels recursos."
+                ]
+              },
+              {
+                "bloc": "Caracterització d'equips de Tomografia Computada (TC)",
+                "items": [
+                  "Descripció de l'evolució de les tècniques tomogràfiques.",
+                  "Diferenciació de les característiques d'un equip de TC convencional i un de TC helicoïdal.",
+                  "Definició de les característiques de TC multitall.",
+                  "Identifica els components d'un equip de TC.",
+                  "Reconeixement dels usos diagnòstics i terapèutics de la TC.",
+                  "Definició de les normes de seguretat en les exploracions de TC.",
+                  "Representació de la imatge en TC.",
+                  "Qualitat de la imatge: resolució espacial, temporal, de contrast, soroll, linealitat i uniformitat espacial.",
+                  "Reconeixement d'artefactes en TC.",
+                  "Ús eficient dels recursos."
+                ]
+              },
+              {
+                "bloc": "Caracterització dels equips de radioteràpia",
+                "items": [
+                  "Descripció d'una unitat de tractament de teleteràpia.",
+                  "Descripció dels diferents elements d'un ALE (accelerador lineal d'electrons).",
+                  "Isocentre.",
+                  "Sistema d'acceleració d'electrons en un ALE (accelerador lineal d'electrons).",
+                  "Formació d'un feix de raigs X.",
+                  "Col·limador de raigs X: MLC.",
+                  "Producció d'un feix d'electrons.",
+                  "Utilització dels aplicadors d'electrons.",
+                  "Reconeixement del sistema de control de la dosi. Cambres de ionització.",
+                  "Utilització dels sistemes d'adquisició d'imatges.",
+                  "Identificació de les unitats monitores.",
+                  "Descripció d'una unitat de cobalt.",
+                  "Descripció d'una unitat de tractament de braquiteràpia."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "processament de la imatge",
+        "hores": 40,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Processa i tracta imatges radiogràfiques descrivint les característiques dels receptors i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu l'estructura de les emulsions fotosensibles i el procés de captura d'imatge en la pel·lícula radiogràfica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona el tipus de pel·lícula en funció del tipus d'imatge requerida."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els elements accessoris de la pel·lícula radiogràfica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Revela pel·lícules radiogràfiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu el procediment de captura d'imatge en format digital directe o indirecte."
+              },
+              {
+                "codi": "CA16",
+                "text": "Processa la imatge primària digital per obtenir una imatge final de qualitat."
+              },
+              {
+                "codi": "CA17",
+                "text": "Defineix el procediment que cal utilitzar per dur a terme el registre d'imatge en radioscòpia."
+              },
+              {
+                "codi": "CA18",
+                "text": "Marca i identifica la imatge mitjançant els instruments i l'equip adequat per a cada modalitat de captura."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica els factors tècnics que diferencien imatges radiogràfiques."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica artefactes en imatges radiogràfiques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tasques de gestió de dades sanitàries, d'imatges diagnòstiques i de tractaments terapèutics interpretant l'estandardització de la informació clínica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els condicionants tecnològics dels sistemes de comunicació locals i remots."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix el concepte d'estàndard de maneig i intercanvi electrònic d'informació en sistemes de salut i relaciona els principals estàndards de gestió de salut amb els criteris internacionals."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu la informació aportada pels serveis de l'estàndard DICOM (Digital Imaging and Communication in Medicine)."
+              },
+              {
+                "codi": "CA24",
+                "text": "Enumera la informació proporcionada pels sistemes HIS (sistema d'informació hospitalària) i RIS (sistema d'informació radiològica) i les seves diferències."
+              },
+              {
+                "codi": "CA25",
+                "text": "Enumera les especificacions bàsiques dels PACS (Picture Archiving and Communication System) relacionant-los amb les diferents modalitats d'adquisició."
+              },
+              {
+                "codi": "CA26",
+                "text": "Relaciona els estàndards HL7 (Health Level Seven) i DICOM amb els sistemes HIS, RIS i PACS (Picture Archiving and Communication System)."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les dades dels estudis o tractaments en el sistema de gestió i accedeix al sistema amb seguretat i seguint els protocols establerts."
+              },
+              {
+                "codi": "CA28",
+                "text": "Captura, emmagatzema, recupera i processa estudis i informes."
+              },
+              {
+                "codi": "CA29",
+                "text": "Reconeix en els procediments de gestió d'estudis i tractaments les normes de confidencialitat requerides."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Processament d'imatge en radiologia convencional",
+                "items": [
+                  "Descripció de l'estructura i tipus de pel·lícules.",
+                  "Pantalles de reforç.",
+                  "Xassís radiogràfics.",
+                  "Identificació i marcatge de la imatge.",
+                  "Registre d'imatge en radiografia digital.",
+                  "Registre d'imatge en radioscòpia.",
+                  "Identificació dels factors que condicionen la qualitat de la imatge radiogràfica.",
+                  "Utilització de mètodes d'ajust de la imatge per a l'optimització de la visualització: contrast, resolució, saturació i lluentor."
+                ]
+              },
+              {
+                "bloc": "Gestió de la imatge diagnòstica",
+                "items": [
+                  "Xarxes de comunicació i bases de dades.",
+                  "Telemedicina.",
+                  "Estandardització de la gestió i planificació dels serveis.",
+                  "Estandardització d'imatge mèdica. DICOM, principals característiques de l'estàndard.",
+                  "HIS. Gestió i planificació de l'activitat hospitalària.",
+                  "RIS. Gestió del sistema d'imatge mèdica.",
+                  "PACS i modalitats d'adquisició.",
+                  "Integració HIS-RIS-PACS.",
+                  "Software de gestió HIS i RIS i de tractament de la imatge mèdica.",
+                  "Requeriments de la protecció de dades."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "equips de ressonància magnètica i ultrasons",
+        "hores": 42,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els equips de ressonància magnètica (RM), identificant-ne els seus components i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu l'origen dels senyals utilitzats en la captura d'imatges mitjançant ressonància magnètica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els paràmetres de captura del senyal en funció de les seqüències utilitzades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica imatges d'RM obtingudes mitjançant diferents seqüències."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu l'estructura de les sales d'exploració i els components dels diferents equips de ressonància magnètica."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona els materials i accessoris necessaris per a les exploracions d'RM."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix els usos diagnòstics i terapèutics de les exploracions mitjançant ressonància magnètica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Defineix les normes de seguretat en l'ús d'equips de ressonància magnètica."
+              },
+              {
+                "codi": "CA18",
+                "text": "Simula una exploració d'RM utilitzant seqüències específiques."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica normes de postprocessament per obtenir imatges de qualitat."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica usos de l'RM en noves tècniques diagnòstiques i terapèutiques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Caracteritza els equips d'ultrasonografia, identificant els seus components i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu l'origen dels senyals utilitzats en la formació d'imatges mitjançant l'ús d'ultrasons."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix les propietats de la propagació d'ones sonores en diferents mitjans."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els components dels diferents equips d'ultrasonografia."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona l'equip i els accessoris d'acord amb el tipus d'exploració requerida."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica les normes de seguretat en l'ús d'equips d'ultrasonografia."
+              },
+              {
+                "codi": "CA26",
+                "text": "Diferencia imatges de diferents modalitats d'ultrasonografia."
+              },
+              {
+                "codi": "CA27",
+                "text": "Manipula imatges d'ultrasonografia aplicant tècniques de postprocessament obtenint un producte de qualitat."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica artefactes en imatges d'ultrasonografia."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització d'equips de ressonància magnètica (RM)",
+                "items": [
+                  "Comportament de l'spin nuclear en un camp magnètic.",
+                  "Generació del senyal de ressonància.",
+                  "Descripció de la sala d'exploració d'RM.",
+                  "Identificació dels equips de ressonància oberts i tancats.",
+                  "Identificació dels diferents tipus d'imants i la seva classificació.",
+                  "Descripció d'emissors i receptors de radiofreqüència (RF).",
+                  "Control de la consola de comandaments i la planificació de l'exploració.",
+                  "Descripció dels usos diagnòstics i terapèutics de l'RM.",
+                  "Seguretat en les exploracions d'RM.",
+                  "Captura de senyal. Transformada de Fourier. Espai K. Matriu de dades.",
+                  "Temps de repetició, d'eco, d'adquisició i d'inversió.",
+                  "Reconstrucció 2D i 3D.",
+                  "Artefactes en RM.",
+                  "Distorsions de la imatge.",
+                  "Identificació de les noves tècniques: RM funcional, RM intervencionista, RM en simulació radioteràpica i espectroscòpia per RM.",
+                  "Ús eficient dels recursos."
+                ]
+              },
+              {
+                "bloc": "Caracterització d'equips d'ultrasons",
+                "items": [
+                  "Descripció de les ones mecàniques, característiques. Rangs sonors.",
+                  "Producció i recepció d'ultrasons: efecte piezoelèctric.",
+                  "Interaccions d'ultrasons amb el medi: propagació d'ultrasons en mitjans homogenis i no homogenis.",
+                  "Transductors. Components i tipus.",
+                  "Control de la consola o taula de control.",
+                  "Selecció dels dispositius de sortida: monitors i impressores.",
+                  "Usos diagnòstics i terapèutics de les imatges d'ultrasons.",
+                  "Diferenciació de modes d'operació de l'ecografia.",
+                  "Manipulació de la imatge digitalitzada estàtica i en moviment. Ultrasonografia 2D, 3D i 4D.",
+                  "Identificació d'artefactes en ultrasonografia.",
+                  "Ús eficient dels recursos."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

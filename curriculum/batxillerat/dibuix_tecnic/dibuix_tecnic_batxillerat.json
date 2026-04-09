@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "batxillerat",
+    "area_materia": "Dibuix Tècnic",
+    "codi_area": "DT",
+    "decret": "171/2022",
+    "data_decret": "2022-09-20",
+    "font": "PDF oficial XTEC: Dibuix-Tecnic.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "El Dibuix Tècnic al Batxillerat forma el pensament espacial i la capacitat de representació normalitzada d'objectes tridimensionals en el pla, competència fonamental per als estudis d'enginyeria, arquitectura i disseny industrial. Connecta amb les Matemàtiques (geometria, vectors, transformacions), la Física (òptica, estàtica) i la Tecnologia i Enginyeria, i constitueix la base del llenguatge visual tècnic universal.\n\nEls constructes disciplinaris estructuren-se en geometria plana (construccions fonamentals, corbes còniques, tangències, enllaços), geometria descriptiva (sistema dièdric: planta, alçat i perfil; sistema axonomètric: isometria i perspectiva cavalera; sistema cònic: perspectiva intuïtiva), normalització (acotació, escales, gruixos de línia, vistes reglamentàries) i lectura i interpretació de plànols tècnics. L'ús del CAD 2D (AutoCAD, FreeCAD) s'introdueix progressivament com a extensió del dibuix manual.\n\nL'enfocament pedagògic alterna la resolució sistemàtica de problemes geomètrics amb l'aplicació a objectes i espais reals. El treball progressiu del manual al digital facilita la comprensió dels procediments subjacents. L'avaluació mesura la precisió de les construccions, la correcció de la normalització, la lectura de plànols amb vistes donades i la capacitat de visualització i representació espacial en situacions noves."
+  },
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Examinar elements i formes de l'entorn que permetin fer evidents conceptes propis de la geometria plana i projectiva, per analitzar de forma raonada les estructures geomètriques i els elements tècnics implícits.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA1.1",
+            "text": "Analitzar, al llarg de la història, la relació entre les matemàtiques i el dibuix geomètric valorant-ne la importància en diferents camps com l'arquitectura o l'enginyeria."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA1.1",
+            "text": "Analitzar l'evolució de les formes geomètriques a l'arquitectura i a les enginyeries contemporànies valorant la influència de la tecnologia i les eines digitals en camps com l'arquitectura o l'enginyeria."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Analitzar formes i traçats d'acord amb els principis propis del llenguatge de la geometria plana, per decidir els procediments idonis que permetin traçar-los gràficament amb precisió i de forma raonada.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA2.1",
+            "text": "Solucionar gràficament càlculs matemàtics i transformacions bàsiques"
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Resoldre tangències aplicant els geometria plana."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Representar corbes còniques i les propietats i mostrant interès per la seves tangents aplicant propietats i precisió, la claredat i la neteja."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA2.1",
+            "text": "Construir figures planes aplicant els traçats propis de les transformacions geomètriques."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Avaluar i decidir els procediments més adequats, fent ús de la geometria plana i descriptiva, així com de les convencions pròpies de la normalització de forma apropiada, per crear i concretar formes bidimensionals i tridimensionals.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA3.1",
+            "text": "Representar en sistema dièdric directe els elements bàsics a l'espai i determinar-ne la relació de pertinença, posició i distància."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Definir en sistemes axonomètrics elements i figures planes valorant-ne la importància com a mètodes de representació espacial."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Dibuixar elements a l'espai fent servir la perspectiva cònica."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA3.1",
+            "text": "Valorar els procediments propis de l'operativitat dièdrica (abatiment, canvi de pla i gir) resolent i concretant formes en sistema dièdric directe i avaluant la idoneïtat de cada procediment."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Representar sòlids polièdrics i de revolució aplicant els fonaments del sistema dièdric directe."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Representar sòlids polièdrics aplicant els procediments de les perspectives axonomètriques."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Dissenyar projectes gràfics senzills fent ús del sistema de plans acotats."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Dissenyar i reelaborar formes bidimensionals i tridimensionals, valorant la importància del croquis a mà alçada, per representar-les amb precisió en projectes gràfics col·laboratius que permetin proposar, criticar, revisar, comparar, fer hipòtesis i traçar de forma consensuada i eficaç, fent ús de les eines digitals disponibles.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA4.1",
+            "text": "Documentar gràficament objectes senzills mitjançant les vistes acotades aplicant la normativa UNE ISO en la utilització de sintaxi, escales i formats, valorant la importància d'usar un llenguatge tècnic comú."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Crear figures planes i tridimensionals mitjançant programes de dibuix vectorial, fent ús de les eines que aporten i les tècniques associades."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Recrear virtualment peces en tres dimensions per a la presentació de projectes en grup."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA4.1",
+            "text": "Desenvolupar projectes col·laboratius elaborant la documentació gràfica (croquis, plànols) necessària fent ús de les convencions pròpies de la normalització."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Desenvolupar projectes col·laboratius integrant les eines digitals CAD, valorant les possibilitats que aporten al desenvolupament de projectes compartits."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar l'aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos i circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds, amb les capacitats que sustenten l'enfocament competencial dels aprenentatges, la qual cosa modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer curs Fonaments geomètrics - Comprensió i anàlisi de la presència de la geometria i el desenvolupament del dibuix tècnic aplicat als àmbits de l'arquitectura i l'urbanisme, el disseny industrial, l'electrònica, la geologia, valorant la necessitat de la qualitat gràfica i precisió en els traçats. - Identificació i traçat dels llocs geomètrics fonamentals incloent-hi l'arc capaç, aplicant-los amb criteri a les construccions fonamentals. - Comparació i traçat de formes poligonals aplicant amb criteri les relacions de proporcionalitat i semblança, així com d'equivalència. - Traçat dels polígons, concretament de triangles, quadrilàters i polígons regulars, aplicant amb criteri mètodes de construcció i propietats pròpies. - Anàlisi i traçat de tangències bàsiques i corbes tècniques aplicant amb criteri mètodes de construcció propis. Geometria projectiva - Comprensió i anàlisi dels sistemes de representació atenent els fonaments de la geometria projectiva. - Anàlisi i traçat en sistema dièdric directe de punt, recta i pla atenent les condicions de pertinença i les diferents possibilitats de determinació del pla. - Anàlisi i traçat de les relacions entre elements, intersecció, paral·lelisme i perpendicularitat, en sistema dièdric directe. - Anàlisi dels sistemes axonomètrics ortogonals i oblics atenent el càlcul dels diferents coeficients de reducció. - Anàlisi i traçat de sòlids polièdrics fent ús dels sistemes axonomètrics normalitzats. - Anàlisi i valoració del sistema de plans acotats aplicat al traçat d'elements fonamentals i la interpretació en representacions topogràfiques. - Anàlisi i traçat dels fonaments del sistema cònic frontal i oblic atenent els seus elements fonamentals. Documentació gràfica de projectes: normalització i DAO - Ús i traçat d'escales numèriques i gràfiques aplicades al desenvolupament de projectes gràfics. - Anàlisi del concepte de normalització atenent el desenvolupament de projectes gràfics. - Comprensió i anàlisi de la normalització aplicada a l'acotació, línies normalitzades i els seus significats, i al format i plegat de plànols. - Experimentació i ús del traçat de croquis a mà alçada en la representació i l'anàlisi de sòlids del disseny industrial. - Avaluació i tria de les vistes dièdriques significatives en el desenvolupament de projectes gràfics i de narrativa visual. - Experimentació i ús de les eines DAO de dibuix vectorial en 2D i 3D en el desenvolupament de projectes gràfics i de narrativa visual. Segon curs Fonaments geomètrics - Comprensió i anàlisi de la presència i l'evolució de la geometria atenent la transformació tecnològica a l'arquitectura i l'enginyeria a partir de la revolució industrial fins als nostres dies. - Anàlisi i traçat de les transformacions geomètriques i l'aplicació de l'homologia i l'afinitat a la resolució de problemes als sistemes de representació, com per exemple la secció plana de sòlids. - Anàlisi i traçat del concepte de potència d'un punt respecte a una circumferència, eix radical i centre radical aplicant-los amb criteri a la resolució de tangències. - Anàlisi i traçat de corbes còniques i les seves tangents atenent les seves propietats, aplicant amb criteri els mètodes de construcció. Geometria projectiva - Anàlisi i traçat de l'operativitat dièdrica: abatiment, canvi de pla i gir atenent les seves aplicacions, com per exemple a l'obtenció de verdaderes magnituds i la resolució de problemes de distàncies, entre d'altres. - Anàlisi i traçat de sòlids polièdrics, concretament de la piràmide i del prisma en sistema dièdric directe. - Anàlisi i traçat de cossos de revolució, concretament del con i el cilindre rectes en sistema dièdric directe. - Anàlisi i traçat de poliedres regulars, concretament del tetraedre, l'hexaedre i l'octaedre en sistema dièdric directe. - Anàlisi i traçat de seccions planes i la seva verdadera magnitud en sistema dièdric aplicades als sòlids anteriors. - Anàlisi i traçat de sòlids polièdrics amb corbes fent ús dels sistemes axonomètrics normalitzats. - Anàlisi i traçat de cobertes simples i representació de perfils i seccions de terrenys partint de la seva representació amb corbes de nivell en sistema acotat. - Anàlisi i traçat de sòlids i formes tridimensionals, sistema cònic frontal i oblic, fent ús del programari DAO més adequat per facilitar que l'alumnat experimenti les diverses possibilitats d'aquest sistema de perspectiva sense la limitació del format paper. Documentació gràfica de projectes: normalització i DAO - Comprensió i anàlisi de sòlids i volums senzills fent ús del croquis i representant-los desenvolupant projectes gràfics, aplicant amb criteri els talls, les seccions i els trencaments adequats, així com les perspectives normalitzades necessàries. - Disseny i proposta de la documentació gràfica necessària en el desenvolupament de projectes en col·laboració i fent ús de les eines DAO. - Avaluació crítica de projectes i propostes, incloent-hi les pròpies propostes atenent criteris d'ecologia i sostenibilitat."
+    }
+  ],
+  "_validacio": {
+    "fragments_ok": 42,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
+}

@@ -3,110 +3,17 @@
     "familia": "fp",
     "cicle_formatiu": "IEA",
     "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
-    "familia_professional": "Electricitat i Electrònica",
     "grau": "mitja",
-    "rd_titol": "RD 177/2008",
-    "resolucio_cat": "Resolució ENS/XXX/2010",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2008/02/15/pdfs/A07960-07985.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "La Formació en Centres de Treball (FCT) de l'IEA és el mòdul que permet a l'alumne de Grau Mitjà aplicar en context real totes les competències adquirides al centre educatiu. Amb 360 hores en empreses instal·ladores, de manteniment elèctric o de serveis, l'alumne consolida el seu perfil professional com a instal·lador elèctric en les condicions reals de l'ofici: ritme productiu, responsabilitat, treball en equip i relació amb clients i caps d'equip.\n\nDurant la FCT l'alumne realitza tasques reals de muntatge i cablejat de circuits elèctrics, interpretació de plànols i esquemes, ús d'instruments de mesura professionals i elaboració de documentació tècnica (albarans, parts de treball, certificats). Treballa en instal·lacions d'habitatges i locals (REBT), en quadres de distribució i maniobra, i participa en tasques de verificació i diagnosi d'avaries. En tot moment aplica les cinc regles d'or de la seguretat elèctrica, els EPI obligatoris i els protocols de l'empresa.\n\nLa FCT es desenvolupa en l'entorn real de l'empresa, sota la tutoria del responsable designat pel centre de treball i amb el seguiment del tutor docent. L'avaluació integra l'informe del tutor d'empresa (actitud, autonomia, qualitat tècnica) i la memòria de pràctiques de l'alumne. El grau d'autonomia creix progressivament, des de tasques guiades fins a la planificació i execució independent de tasques d'instal·lació o manteniment de complexitat creixent."
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "FCT",
-    "nom": "Formació en Centres de Treball",
-    "hores_totals": 360,
-    "uf": [
-      {
-        "codi": "UF1",
-        "nom": "Formació en empresa del sector elèctric",
-        "hores": 360,
-        "resultats_aprenentatge": [
-          {
-            "codi": "RA1",
-            "text": "S’integra en l’empresa d’acollida adaptant-se a la seva organització, cultura i normativa interna.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA1.1",
-                "text": "S'ha respectat el reglament intern de l’empresa (horaris, protocols de comunicació, jerarquia).",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA1.2",
-                "text": "S'ha actuat de forma responsable i professional en totes les tasques encomanades.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA1.3",
-                "text": "S'ha col·laborat activament amb l’equip de treball i acceptat les indicacions del tutor d’empresa.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA1.4",
-                "text": "S'han aplicat les normes de seguretat i PRL de l’empresa en tot moment.",
-                "pes_percentual": 25
-              }
-            ]
-          },
-          {
-            "codi": "RA2",
-            "text": "Realitza tasques reals d’instal·lació, manteniment i verificació d’instal·lacions elèctriques sota supervisió.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA2.1",
-                "text": "S'han realitzat tasques de muntatge i cablejat de circuits elèctrics seguint les instruccions del tutor.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA2.2",
-                "text": "S'han interpretat plànols i esquemes de les instal·lacions reals de l’empresa.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA2.3",
-                "text": "S'han usat correctament les eines i instruments de mesura habituals de l’empresa.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA2.4",
-                "text": "S'han realitzat proves de funcionament i verificació de les instal·lacions executades.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA2.5",
-                "text": "S'ha elaborat la documentació tècnica requerida (albarans, parts de treball, certificats).",
-                "pes_percentual": 20
-              }
-            ]
-          },
-          {
-            "codi": "RA3",
-            "text": "Actua de forma autònoma i responsable en tasques d’instal·lació o manteniment elèctric de complexitat creixent.",
-            "criteris_avaluacio": [
-              {
-                "codi": "CA3.1",
-                "text": "S'han resolt situacions imprevistes durant les tasques d’instal·lació de forma eficient i segura.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.2",
-                "text": "S'ha planificat i executat una tasca completa d’instal·lació o manteniment amb supervisió mínima.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.3",
-                "text": "S'ha demostrat iniciativa i capacitat de millora contínua en les tasques encomanades.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.4",
-                "text": "S'ha comunicat eficаçment amb clients o usuaris finals sobre les tasques realitzades.",
-                "pes_percentual": 25
-              }
-            ]
-          }
-        ]
-      }
-    ]
+    "nom": "Formació en centres de treball",
+    "hores_totals": 383,
+    "uf": []
   }
 }

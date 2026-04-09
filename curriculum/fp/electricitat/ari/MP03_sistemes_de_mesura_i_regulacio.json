@@ -1,0 +1,679 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "sistemes de mesura i regulació",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sensors, sistemes de condicionament i mesura i dispositius d’accionament",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els dispositius de mesura, identificant la seva funcionalitat i determinant les seves característiques tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els tipus de sensors i transductors utilitzats en els sistemes de mesura en funció de la magnitud que cal mesurar i les seves característiques de funcionament."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els circuits condicionadors de senyal que constitueixen els dispositius de mesura."
+              },
+              {
+                "codi": "CA13",
+                "text": "Estableix les especificacions tècniques del sistema de mesura."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica la funcionalitat dels sistemes de mesura per a diferents aplicacions industrials."
+              },
+              {
+                "codi": "CA15",
+                "text": "Analitza la idoneïtat de la regulació per a diferents aplicacions industrials."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix els blocs que constitueixen un llaç de regulació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Determina les variables que defineixen un sistema de regulació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta transductors i sensors de sistemes establint els requisits de funcionament i seleccionant els elements del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Munta el sistema de mesura i regulació, implementant dispositius."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona els dispositius de mesura i regulació en funció de l’aplicació requerida."
+              },
+              {
+                "codi": "CA23",
+                "text": "Determina les variables de mesura del procés que s’ha de controlar."
+              },
+              {
+                "codi": "CA24",
+                "text": "Calibra i ajusta els dispositius de mesura."
+              },
+              {
+                "codi": "CA25",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA26",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza les eines adequades per a cada operació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA29",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Verifica el funcionament dels sistemes de mesura, aplicant la normativa de seguretat a cada cas concret.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Segueix un protocol d’actuació per a la posada en servei i comprovació."
+              },
+              {
+                "codi": "CA32",
+                "text": "Reajusta els dispositius que conformen el sistema de mesura."
+              },
+              {
+                "codi": "CA33",
+                "text": "Verifica la resposta del sistema davant de situacions anòmales."
+              },
+              {
+                "codi": "CA34",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA35",
+                "text": "Resol satisfactòriament els problemes que es presenten. Té en compte les mesures de seguretat requerides en cada fase."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Reconeix els dispositius d’accionament i l’acoblament a l’equip de regulació, identificant la seva funcionalitat i determinant les seves característiques tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els tipus dispositius d’accionament i de preaccionament."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica la funcionalitat dels dispositius d’accionament per a diferents aplicacions industrials."
+              },
+              {
+                "codi": "CA43",
+                "text": "Analitza la interconnexió de l’acoblament dels diferents dispositius d’accionament i de preaccionament per als equips de regulació."
+              },
+              {
+                "codi": "CA44",
+                "text": "Reconeix i utilitza dispositius de pneumàtica i hidràulica proporcional."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de dispositius de mesura",
+                "items": [
+                  "Relació d’aplicacions industrials amb sistemes de mesura i regulació.",
+                  "Estructura d’un sistema automàtic de mesura i regulació: xarxa d’alimentació, armaris elèctrics, armaris i pupitres de comandament, regulació i control, cablatge, sensors, dispositius d’accionament i posicionadors, entre d’altres.",
+                  "Tecnologies aplicades en sistemes de mesura i regulació.",
+                  "Tipus de processos industrials aplicables.",
+                  "Elements d’un bucle de control. Variables de mesura: pressió, nivell, temperatura, cabal, humitat, velocitat, analitzadors químics, entre d’altres. Tipus de regulació d’un procés: llaç obert i llaç tancat."
+                ]
+              },
+              {
+                "bloc": "Muntatge de transductors i sensors en sistemes de mesura",
+                "items": [
+                  "Arquitectura del sistema de mesura: sensors, transductors i transmissors de mesura. Sistemes de condicionament del senyal.",
+                  "Característiques dels elements de mesura: rang, sensibilitat, resolució, sobrerang, resposta en freqüència, resposta temporal. Condicions ambientals de treball, entre d’altres.",
+                  "Errors de mesura: error de zero, error de linealitat, repetibilitat, histèresi. Error combinat (precisió). Condicions ambientals de treball.",
+                  "Transductor de pressió, cabal, nivell, temperatura, velocitat, posició, força, acceleració, distància, corrent, entre d’altres.",
+                  "Ponts de mesura (Wheatstone).",
+                  "Tècniques de calibratge de sensors i transductors.",
+                  "Connexió dels sensors als dispositius de mesura. Nivells elèctrics, linealització, entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament dels sistemes de mesura",
+                "items": [
+                  "Tècniques de verificació i tècniques d’ajustament.",
+                  "Tècniques de mesura i comprovació elèctrica.",
+                  "Pla d’actuació per a posada en servei.",
+                  "Protocol de posada en marxa particularitzat per a la seqüència de funcionament.",
+                  "Aplicació de la normativa de seguretat a cada cas.",
+                  "Reglamentació vigent.",
+                  "Relació de dispositius d’accionament i preaccionament: arrencadors, variadors, vàlvules de regulació i control, posicionadors, motors, entre d’altres.",
+                  "Contextualització de la funcionalitat dels dispositius d’accionament dins del procés que s’ha de regular.",
+                  "Connexió dels dispositius d’accionament al regulador.",
+                  "Cables i sistemes de conducció: tipus i característiques. Interferències."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes de regulació automàtica",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els dispositius de regulació, identificant la seva funcionalitat i determinant les seves característiques tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els dispositius de regulació utilitzats en l’àmbit industrial en funció de l’aplicació requerida."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina l’estabilitat del sistema de control, aplicant diversos criteris d’estabilitat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Aplica els algoritmes de regulació en el sistema de control."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta i desenvolupa equips de mesura i regulació, identificant les variables del procés, establint els requisits de funcionament i seleccionant els dispositius del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Determina les variables del procés que s’ha de controlar."
+              },
+              {
+                "codi": "CA22",
+                "text": "Estableix les especificacions tècniques del sistema de control."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els dispositius de mesura i regulació en funció de l’aplicació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Proposa estratègies de control per al procés plantejat."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta el sistema de mesura i regulació, implementant dispositius."
+              },
+              {
+                "codi": "CA26",
+                "text": "Calibra i ajusta els dispositius de mesura."
+              },
+              {
+                "codi": "CA27",
+                "text": "Estableix els paràmetres dels controladors."
+              },
+              {
+                "codi": "CA28",
+                "text": "Analitza l’estabilitat del sistema de control, aplicant diversos criteris i utilitzant sistemes d’enregistrament de la resposta."
+              },
+              {
+                "codi": "CA29",
+                "text": "Verifica la resposta del sistema davant de diferents entrades i possibles pertorbacions, utilitzant sistemes d’enregistrament."
+              },
+              {
+                "codi": "CA210",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA212",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA213",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, conservació i netedat."
+              },
+              {
+                "codi": "CA214",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Verifica el funcionament dels sistemes de mesura i regulació, aplicant la normativa de seguretat a cada cas concret.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Comprova el connexionat entre dispositius."
+              },
+              {
+                "codi": "CA32",
+                "text": "Verifica el funcionament dels dispositius de protecció."
+              },
+              {
+                "codi": "CA33",
+                "text": "Segueix un protocol d’actuació per a la posada en servei i comprovació."
+              },
+              {
+                "codi": "CA34",
+                "text": "Sintonitza el sistema de regulació."
+              },
+              {
+                "codi": "CA35",
+                "text": "Verifica la seqüència de control."
+              },
+              {
+                "codi": "CA36",
+                "text": "Reajusta els dispositius que conformen el sistema de mesura i regulació."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica la resposta del sistema davant de situacions anòmales."
+              },
+              {
+                "codi": "CA38",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA39",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Diagnostica avaries en els sistemes de mesura i regulació, identificant la naturalesa de l’avaria i aplicant els procediments i les tècniques establertes per a cada cas.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Reconeix els punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA42",
+                "text": "Utilitza instrumentació de mesura i comprovació."
+              },
+              {
+                "codi": "CA43",
+                "text": "Diagnostica les causes de l’avaria."
+              },
+              {
+                "codi": "CA44",
+                "text": "Localitza l’avaria."
+              },
+              {
+                "codi": "CA45",
+                "text": "Restableix el funcionament del sistema."
+              },
+              {
+                "codi": "CA46",
+                "text": "Documenta l’avaria en un informe d’incidències del sistema."
+              },
+              {
+                "codi": "CA47",
+                "text": "Valora econòmicament l’avaria."
+              },
+              {
+                "codi": "CA48",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA49",
+                "text": "Identifica possibles contingències i planteja solucions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, de les eines, dels estris, de les màquines i dels mitjans de transport."
+              },
+              {
+                "codi": "CA52",
+                "text": "Opera amb màquines i eines, respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA53",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials, eines, màquines de tall i conformació, entre d’altres."
+              },
+              {
+                "codi": "CA54",
+                "text": "Reconeix els elements de seguretat, els equips de protecció individual i col·lectiva (calçat, protecció ocular i indumentària, entre d’altres) que s’han d’emprar en les diferents operacions de muntatge i manteniment."
+              },
+              {
+                "codi": "CA55",
+                "text": "Identifica l’ús correcte dels elements de seguretat i dels equips de protecció individual i col·lectiva."
+              },
+              {
+                "codi": "CA56",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerits."
+              },
+              {
+                "codi": "CA57",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA58",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA59",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA6",
+            "text": "Elabora esquemes de sistemes de mesura i regulació, seleccionant els elements que les componen partint d’especificacions o condicions determinades i aplicant la normativa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA61",
+                "text": "Recopila la documentació tècnica necessària (projecte, especificacions tècniques, manuals tècnics i manuals de producte) per al seu ús en la programació del sistema de control."
+              },
+              {
+                "codi": "CA62",
+                "text": "Elabora esquemes de sistemes de mesura i regulació amb una aplicació informàtica."
+              },
+              {
+                "codi": "CA63",
+                "text": "Elabora els plànols del sistema a partir d’una aplicació real."
+              },
+              {
+                "codi": "CA64",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA65",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de dispositius de regulació",
+                "items": [
+                  "Estructura d’un sistema de regulació i control. Cablatge, sensors, dispositius d’accionament i posicionadors, entre d’altres.",
+                  "Tecnologies aplicades en sistemes de mesura i regulació. Variables de mesura.",
+                  "Tipus de regulació d’un procés: llaç obert i llaç tancat.",
+                  "Consignes, mesura de procés i sortides de control.",
+                  "Estabilitat del sistema.",
+                  "Algoritmes de regulació PID.",
+                  "Reguladors amb lògica difusa.",
+                  "Estructures avançades de regulació: relació (ràtio), anticipatiu, cascada, entre d’altres.",
+                  "Tipus de sortides de control dels equip de regulació: contínua, modulació per polsos, entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Muntatge i desenvolupament d’equips de mesura i regulació",
+                "items": [
+                  "Especificacions dels sistemes de control.",
+                  "Estratègies bàsiques de control.",
+                  "Tractament i condicionadors dels senyals.",
+                  "Selecció i dimensionament dels components d’un sistema de mesura i regulació.",
+                  "Determinació de l’estabilitat d’un sistema de control.",
+                  "Criteris de selecció i determinació de controladors.",
+                  "Estratègies de control per minimitzar les pertorbacions.",
+                  "Tècniques de muntatge i posada en marxa de sistemes de mesura i de regulació."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament dels sistemes de mesura i regulació",
+                "items": [
+                  "Sintonització de controladors. Mètode estímul-resposta, regles empíriques, autosintonia i control adaptatiu.",
+                  "Paràmetres i programació d’elements de control analògic i digital.",
+                  "Tècniques de regulació davant de l’envelliment del sistema.",
+                  "Tècniques de verificació.",
+                  "Tècniques d’ajustament.",
+                  "Pla d’actuació per a la posada en servei.",
+                  "Protocol de posada en marxa particularitzat per a la seqüència de funcionament.",
+                  "Aplicació de la normativa de seguretat a cada cas.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Diagnòstic d’avaries en els sistemes de mesura i regulació",
+                "items": [
+                  "Tècniques de manteniment.",
+                  "Diagnosi i localització d’avaries. Protocols de proves. Pla d’actuació davant de disfuncions del sistema.",
+                  "Avaries típiques en sistemes de mesura i regulació.",
+                  "Equips i aparells de mesura.",
+                  "Informe d’incidències."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental",
+                "items": [
+                  "Normativa de prevenció de riscos laborals relativa als sistemes automàtics.",
+                  "Prevenció de riscos laborals en els processos de muntatge i manteniment.",
+                  "Equips de protecció individual: característiques i criteris d’utilització. Protecció col·lectiva. Mitjans i equips de protecció.",
+                  "Normativa reguladora en gestió de residus."
+                ]
+              },
+              {
+                "bloc": "Muntatge i desenvolupament d’equips de mesura i regulació",
+                "items": [
+                  "Simbologia normalitzada en sistemes de mesura i regulació.",
+                  "Programari per a elaboració d’esquemes. Diagrames de flux, P&I, disposició (layout), entre d’altres."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "sistemes de mesura virtual i adquisició de dades",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix el funcionament dels sistemes de mesura i adquisició de dades, identificant la seva aplicació i determinant les seves característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les diverses parts dels sistemes de mesura i d’adquisició de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els diversos sistemes d’adquisició de dades autònoms."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix els diversos sistemes de mesura i adquisició de dades amb connexió directa al PC."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix els diversos sistemes d’instrumentació virtual i d’adquisició de dades basats en bus dedicat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix les diverses funcionalitats dels PLC destinats al registre de dades dels processos controlats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Dissenya i munta sistemes d’instrumentació virtual i d’adquisició de dades, seleccionant la tecnologia adequada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Determina les especificacions tècniques dels sistemes d’instrumentació virtual i d’adquisició de dades."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona la tecnologia utilitzada en funció de les característiques de l’aplicació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta sistemes d’adquisició de dades autònoms."
+              },
+              {
+                "codi": "CA24",
+                "text": "Munta sistemes d’instrumentació virtual i adquisició de dades amb connexió directa al PC."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta sistemes d’instrumentació i d’adquisició de dades basats en bus dedicat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Implementa funcionalitats dels PLC destinades al registre de dades dels processos controlats."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza llenguatges de programació gràfica o textual, destinats a la programació d’entorns d’instrumentació virtual."
+              },
+              {
+                "codi": "CA28",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA211",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              },
+              {
+                "codi": "CA212",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Verifica el funcionament dels sistemes d’instrumentació virtual i d’adquisició de dades, analitzant les dades, identificant possibles avaries i desenvolupant la documentació requerida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA32",
+                "text": "Verifica i calibra els sensors, i el sistema de condicionament de senyal, ajustant els elements necessaris per corregir els possibles errors i desviaments de les mesures."
+              },
+              {
+                "codi": "CA33",
+                "text": "Comprova la resposta del sistema davant d’anomalies."
+              },
+              {
+                "codi": "CA34",
+                "text": "Reconeix punts susceptibles d’avaries."
+              },
+              {
+                "codi": "CA35",
+                "text": "Utilitza aplicacions informàtiques per analitzar les dades adquirides."
+              },
+              {
+                "codi": "CA36",
+                "text": "Elabora registres de dades."
+              },
+              {
+                "codi": "CA37",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA38",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA39",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement del funcionament dels sistemes d’instrumentació virtual i sistemes d’adquisició de dades",
+                "items": [
+                  "Classificació dels sistemes d’instrumentació virtual i sistemes d’adquisició de dades. Àrees d’aplicació de la instrumentació virtual i dels sistemes SCADA.",
+                  "Sistemes d’instrumentació virtual: processament, presentació, emmagatzematge i transmissió de dades.",
+                  "Maquinari d’adquisició i programari de programació i configuració dels sistemes d’instrumentació virtual i d’adquisició de dades.",
+                  "Sistemes d’adquisició de dades autònoms (dataloggers). Instal·lació, configuració i manteniment. Mesures de temperatura, humitat, qualitat del servei de xarxa de subministrament, entre d’altres.",
+                  "Sistemes d’instrumentació virtual i adquisició de dades amb connexió directa al PC. Dispositius amb connexió al bus intern. Dispositius exteriors connectats directament al PC. Avantatges i inconvenients de cada sistema.",
+                  "Sistemes d’instrumentació virtual i adquisició de dades basats en bus dedicat. Autenticació, canals i protocols.",
+                  "Funcionalitats dels PLC destinats al registre de dades. Sistema d’emmagatzematge, extracció i tractament de dades.",
+                  "Llenguatges i entorns de programació orientats a la instrumentació virtual.",
+                  "Consulta i gestió remota dels equips d’instrumentació virtual i d’adquisició de dades."
+                ]
+              },
+              {
+                "bloc": "Disseny i muntatge de sistemes d’instrumentació virtual i d’adquisició de dades",
+                "items": [
+                  "Especificacions tècniques de la instal·lació i característiques de les variables que s’han d’enregistrar.",
+                  "Diagrama de blocs i esquemes de connexió.",
+                  "Tècniques de muntatge i connexió. Ubicació dels sensors, sistema de mesura, immunització a les pertorbacions electromagnètiques, entre d’altres.",
+                  "Implementació del sistema d’instrumentació virtual i d’adquisició de dades. Selecció de la tecnologia que s’ha d’utilitzar.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament dels sistemes d’instrumentació virtual i d’adquisició de dades",
+                "items": [
+                  "Tècniques de verificació. Calibratge dels sensors i dispositius del sistema d’instrumentació virtual.",
+                  "Enregistrament i anàlisi de dades en els sistemes d’instrumentació virtual i d’adquisició de dades.",
+                  "Diagnosi i localització d’avaries.",
+                  "Tècniques d’actuació.",
+                  "Registres d’avaries.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

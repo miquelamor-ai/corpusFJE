@@ -1,0 +1,220 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "programació bàsica",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "programació estructurada",
+        "hores": 85,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix l’estructura d’un programa informàtic, identificant i relacionant els elements propis del llenguatge de programació utilitzat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els blocs que componen l’estructura d’un programa informàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Crea projectes de desenvolupament d’aplicacions i utilitza entorns integrats de desenvolupament."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els diferents tipus de variables i la utilitat específica de cadascun."
+              },
+              {
+                "codi": "CA14",
+                "text": "Modifica el codi d’un programa per crear i utilitzar variables."
+              },
+              {
+                "codi": "CA15",
+                "text": "Crea i utilitza constants i literals."
+              },
+              {
+                "codi": "CA16",
+                "text": "Classifica, reconeix i utilitza en expressions els operadors del llenguatge."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comprova el funcionament de les conversions de tipus explícites i implícites."
+              },
+              {
+                "codi": "CA18",
+                "text": "Introdueix comentaris en el codi."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Estructura d’un programa informàtic",
+                "items": [
+                  "Blocs d’un programa informàtic.",
+                  "Projectes de desenvolupament d’aplicacions. Entorn integrat de desenvolupament.",
+                  "Variables. Tipus i utilitat.",
+                  "Utilització de variables.",
+                  "Constants. Tipus i utilitzat.",
+                  "Operadors del llenguatge de programació.",
+                  "Conversions de tipus de dades.",
+                  "Comentaris al codi."
+                ]
+              },
+              {
+                "bloc": "Tipus de dades simples i compostes. Programació estructurada",
+                "items": [
+                  "Fonaments de programació.",
+                  "Introducció a l’algorísmia.",
+                  "Disseny d’algorismes.",
+                  "Prova de programes.",
+                  "Tipus de dades simples i compostes.",
+                  "Estructures de selecció.",
+                  "Estructures de repetició.",
+                  "Estructures de salt.",
+                  "Tractament de cadenes.",
+                  "Depuració d’errors.",
+                  "Documentació dels programes.",
+                  "Entorns de desenvolupament de programes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "disseny modular",
+        "hores": 50,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Escriu i prova programes senzills reconeixent i aplicant els fonaments de la programació modular.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza els conceptes relacionats amb la programació modular."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza els avantatges i la necessitat de la programació modular."
+              },
+              {
+                "codi": "CA13",
+                "text": "Aplica el concepte d’anàlisi descendent en l’elaboració de programes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Modula correctament els programes realitzats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza correctament les crides a funcions i la seva parametrització."
+              },
+              {
+                "codi": "CA16",
+                "text": "Té en compte l’àmbit de les variables en les crides a les funcions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Prova, depura, comenta i documenta els programes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Defineix el concepte de llibreries i la seva utilitat."
+              },
+              {
+                "codi": "CA19",
+                "text": "Utilitza llibreries en l’elaboració de programes."
+              },
+              {
+                "codi": "CA110",
+                "text": "Coneix les nocions bàsiques de la recursivitat i llurs aplicacions clàssiques."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació modular",
+                "items": [
+                  "Concepte.",
+                  "Avantatges i inconvenients.",
+                  "Anàlisis descendent (top down).",
+                  "Modulació de programes.",
+                  "Crides a funcions. Tipus i funcionament.",
+                  "Àmbit de les crides a funcions.",
+                  "Prova, depuració i comentaris de programes.",
+                  "Concepte de llibreries.",
+                  "Utilització de llibreries.",
+                  "Introducció al concepte de recursivitat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "fonaments de gestió de fitxers",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya, prova i documenta programes que realitzen diferents operacions sobre fitxers documentant el programa i les proves realitzades",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els conceptes relacionats amb fitxers."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els diferents tipus de fitxers."
+              },
+              {
+                "codi": "CA13",
+                "text": "Estableix i diferencia les operacions a realitzar sobre els fitxers en el llenguatge de programació emprat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza correctament diferents operacions sobre fitxers."
+              },
+              {
+                "codi": "CA15",
+                "text": "Modula adequadament els programes que gestionen fitxers."
+              },
+              {
+                "codi": "CA16",
+                "text": "Dissenya, prova i documenta programes simples que gestionen fitxers."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió de fitxers",
+                "items": [
+                  "Concepte i tipus de fitxers.",
+                  "Operacions sobre fitxers seqüencials i relatius.",
+                  "Disseny de programes de gestió de fitxers.",
+                  "Modulació de les operacions sobre fitxers."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

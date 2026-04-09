@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "informàtica industrial",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "equips, xarxes locals i entorn web",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta els elements d’un sistema informàtic industrial, reconeixent els seus components i configurant el sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Realitza l’estudi de la instal·lació corresponent a un sistema informàtic integrat a un entorn industrial."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els components que configuren un equip informàtic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les característiques i les funcions que exerceixen els components."
+              },
+              {
+                "codi": "CA14",
+                "text": "Connecta els components d’un sistema informàtic."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica les pertorbacions que poden afectar un sistema informàtic en l’àmbit industrial."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix les precaucions i els requisits per assegurar un funcionament fiable del sistema."
+              },
+              {
+                "codi": "CA17",
+                "text": "Relaciona la representació gràfica dels components amb la documentació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Configura els diferents elements."
+              },
+              {
+                "codi": "CA19",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA110",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA111",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA112",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA113",
+                "text": "Utilitza les eines adequades per a cada operació."
+              },
+              {
+                "codi": "CA114",
+                "text": "Determina les mesures de seguretat i de protecció personal que s'han d’adoptar en cada cas."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Instal·la el programari del sistema informàtic, configurant i optimitzant els paràmetres de funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Relaciona el programari de sistemes operatius i controladors amb la seva aplicació."
+              },
+              {
+                "codi": "CA22",
+                "text": "Interpreta les funcions que exerceix un sistema operatiu i els controladors."
+              },
+              {
+                "codi": "CA23",
+                "text": "Optimitza la instal·lació del sistema operatiu i dels controladors."
+              },
+              {
+                "codi": "CA24",
+                "text": "Empra utilitats informàtiques per millorar el funcionament del sistema."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura el programari instal·lat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Configura el sistema per donar resposta a les diferents situacions d’emergència."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA28",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Instal·la xarxes locals d’ordinadors, configurant els paràmetres i realitzant les proves per a la posada en servei del sistema, optimitzant les característiques funcionals i de fiabilitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Indica les característiques de la instal·lació elèctrica i les condicions ambientals requerides, especificant les condicions estàndard que ha de complir una sala on s’ubica un sistema informàtic."
+              },
+              {
+                "codi": "CA32",
+                "text": "Enumera les diferents parts que configuren una instal·lació informàtica, indicant la funció, la relació i les característiques de cadascuna d’elles."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les diferents configuracions topològiques pròpies de les xarxes locals d’ordinadors, indicant les característiques diferencials i d'aplicació de cadascuna d’elles."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica els tipus de suport de transmissió utilitzats a les xarxes locals de comunicació, indicant-ne les característiques i els paràmetres més representatius."
+              },
+              {
+                "codi": "CA35",
+                "text": "Identifica la funció de cada un dels fils del cable utilitzat en una xarxa d’àrea local, realitzant cingladors per a la interconnexió dels diferents components de la xarxa."
+              },
+              {
+                "codi": "CA36",
+                "text": "Prepara la instal·lació de subministrament d’energia elèctrica i, si escau, el sistema d’alimentació ininterrompuda, comprovant la seguretat elèctrica i ambiental requerida."
+              },
+              {
+                "codi": "CA37",
+                "text": "Realitza el connexionat físic de les targetes."
+              },
+              {
+                "codi": "CA38",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA39",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA310",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              },
+              {
+                "codi": "CA311",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Configura pàgines web, per a la seva utilització en control industrial, utilitzant el llenguatge de programació orientat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Relaciona els diferents passos que s’han de realitzar, de forma general, des de la generació d’una aplicació web fins a la publicació en un equip servidor."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica l’estructura bàsica que ha de tenir la codificació d’un programa per a pàgines web."
+              },
+              {
+                "codi": "CA43",
+                "text": "Interpreta el codi d’un programa bàsic aplicat a pàgines web."
+              },
+              {
+                "codi": "CA44",
+                "text": "Dissenya petites aplicacions de pàgines web mitjançant programes informàtics adequats, utilitzant les seves principals eines."
+              },
+              {
+                "codi": "CA45",
+                "text": "Utilitza programes clients FTP per a la transferència d’arxius creats en la generació d’una pàgina web, per a la seva publicació i funcionament en un servidor."
+              },
+              {
+                "codi": "CA46",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Diagnostica avaries en sistemes i programes informàtics, identificant la naturalesa de l’avaria i aplicant els procediments i les tècniques més adequades per a cada cas.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Classifica les tipologies i les característiques de les avaries de naturalesa física que es presenten en els sistemes informàtics."
+              },
+              {
+                "codi": "CA52",
+                "text": "Utilitza els mitjans tècnics específics necessaris per a la localització d’avaries de naturalesa física en un sistema informàtic."
+              },
+              {
+                "codi": "CA53",
+                "text": "Realitza hipòtesis de la causa possible que pot produir l’avaria, i la relaciona amb els símptomes (físics i/o lògics) que presenta el sistema."
+              },
+              {
+                "codi": "CA54",
+                "text": "Identifica els símptomes de l’avaria, i la caracteritza pels efectes que produeix."
+              },
+              {
+                "codi": "CA55",
+                "text": "Localitza l’element (físic o lògic) responsable de l’avaria i realitza la substitució o modificació de l’element, configuració i/o programa."
+              },
+              {
+                "codi": "CA56",
+                "text": "Realitza les comprovacions, modificacions i ajustaments dels paràmetres del sistema, segons les especificacions de la documentació tècnica."
+              },
+              {
+                "codi": "CA57",
+                "text": "Identifica possibles contingències i planteja solucions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge i configuració d’un sistema informàtic",
+                "items": [
+                  "Arquitectura física d’un sistema informàtic.",
+                  "Components que integren un sistema informàtic. Unitat central de procés o processador, memòria, sistema d’emmagatzemament, entre d’altres.",
+                  "Ordinadors personals, industrials i sistema encastat (embedded): estructura, tipologia, configuracions i característiques.",
+                  "Perifèrics bàsics: impressores, senyalitzador, monitor, escàner, entre d’altres.",
+                  "Ports de comunicacions: USB, Ethernet, Wi-Fi, Bluetooth, HDMI, FireWire, sata, RS-232, entre d’altres.",
+                  "Pertorbacions que poden afectar un sistema informàtic en l’àmbit industrial."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i configuració del programari del sistema informàtic",
+                "items": [
+                  "Estudi i característiques dels sistemes operatius actuals: monousuari i multiusuari. Lliure, propietari.",
+                  "Instal·lació i configuració de sistemes operatius lliures i propietaris.",
+                  "Configuració de l’equip informàtic.",
+                  "Operacions específiques amb dispositius d’emmagatzematge massiu.",
+                  "Components que integren un sistema operatiu.",
+                  "Operacions amb directoris, arxius i discs.",
+                  "Programes d’utilitats de manteniment i posada al punt per a ordinadors.",
+                  "Situacions d’emergència que puguin presentar-se en un equip o sistema informàtic. Virus, pèrdua de dades, sistemes de disc redundant, recuperació de fitxers entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i configuració de xarxes locals d’ordinadors",
+                "items": [
+                  "Instal·lació de sales informàtiques. Condicions elèctriques i mediambientals.",
+                  "Equips que intervenen en una xarxa d’àrea local d’ordinadors.",
+                  "Característiques de les topologies de xarxes.",
+                  "Tipus de suport de transmissió. Amb i sense fil.",
+                  "L’estàndard Ethernet. Protocols i connexions. TCP/IP. UDP, entre d’altres.",
+                  "Tècniques de muntatge, connexió i configuració dels equips de la xarxa local d’ordinadors. Adreces fixes i adreces dinàmiques. Protocol d’assignació dinàmica d’hoste (host) (DHCP).",
+                  "Tècniques de muntatge, connexió i configuració de la xarxa local a Internet: IP fixes i dinàmiques, sistemes de nom de domini (DNS), configuració de la porta d’enllaç.",
+                  "Seguretats en l’accés de les xarxes a Internet. Antivirus, tallafocs, filtratge d’adreces, ordinadors intermediaris (proxy), entre d’altres.",
+                  "Programes d’utilitats de monitorització, manteniment i posada al punt per a ordinadors."
+                ]
+              },
+              {
+                "bloc": "Configuració de pàgines web industrials",
+                "items": [
+                  "Utilització de les eines que ofereix un programari (software) de disseny de pàgines web. Estructura dels arxius que componen una pàgina web. Programes clients FTP per publicar la pàgina en un servidor web.",
+                  "Configuració, parametrització i programació de dispositius amb servidor web encastat mitjançant editors gràfics i amb llenguatge textual específic."
+                ]
+              },
+              {
+                "bloc": "Diagnosi d’avaries en sistemes i programes informàtics",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Eines tipus maquinari (hardware) o programari (software).",
+                  "Accés remot als equips.",
+                  "Diagnòstic i localització d’avaries.",
+                  "Tècniques d’actuació.",
+                  "Registres d’avaries."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "programació d’equips i sistemes industrials",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica les estructures de programació, dissenyant algoritmes aplicats a llenguatges d’alt nivell.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les diferents estructures bàsiques de control utilitzades en la programació estructurada."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els diferents sistemes de representació gràfica per als programes informàtics, indicant la simbologia normalitzada utilitzada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Compara les característiques diferencials d’un llenguatge de baix nivell amb un altre d’alt nivell."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza diagrames de flux d’aplicacions, utilitzant la simbologia normalitzada."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza i verifica algoritmes que resolen aplicacions, utilitzant les estructures bàsiques de control i modulant al màxim la possible la solució."
+              },
+              {
+                "codi": "CA16",
+                "text": "Codifica programes d’aplicació industrial en el llenguatge d’alt nivell adequat, utilitzant les estructures bàsiques per a una programació estructurada."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza tècniques de depuració per a la verificació del correcte funcionament del programa."
+              },
+              {
+                "codi": "CA18",
+                "text": "Crea llibreries pròpies per a la utilització d’altres aplicacions."
+              },
+              {
+                "codi": "CA19",
+                "text": "Genera els fitxers executables/instal·lables degudament, per a la seva execució en un sistema informàtic."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Programa equips i sistemes industrials, utilitzant llenguatges d’alt nivell i aplicant les tècniques de la programació estructurada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Configura el maquinari, el sistema operatiu i instal·la l’entorn de programació."
+              },
+              {
+                "codi": "CA22",
+                "text": "Representa gràficament els algoritmes i estructura el pseudocodi."
+              },
+              {
+                "codi": "CA23",
+                "text": "Estructura, edita, transfereix i comprova programes."
+              },
+              {
+                "codi": "CA24",
+                "text": "Programa aplicacions reals en equips industrials."
+              },
+              {
+                "codi": "CA25",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA26",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA27",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació d’estructures de programació",
+                "items": [
+                  "Programació estructurada.",
+                  "Representació gràfica dels algoritmes.",
+                  "Pseudocodi.",
+                  "Llenguatges de programació.",
+                  "Llenguatges d’alt nivell.",
+                  "Entitats que utilitzen els llenguatges d’alt nivell.",
+                  "Joc d’instruccions del llenguatge.",
+                  "Llibreries i funcions bàsiques de l’entorn de desenvolupament.",
+                  "Declaració i desenvolupament de funcions d’usuari."
+                ]
+              },
+              {
+                "bloc": "Programació d’equips i de sistemes industrials",
+                "items": [
+                  "Configuració del maquinari.",
+                  "Configuració del sistema operatiu i instal·lació de l’entorn de programació.",
+                  "Elaboració de programes: estructuració, edició, posada en marxa i comprovació.",
+                  "Generació de programes executables.",
+                  "Programes d’aplicació reals en equips industrials: PLC, sistema encastat (embedded) i dispositius microprocessats entre d’altres."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

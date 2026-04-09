@@ -3,79 +3,135 @@
     "familia": "fp",
     "cicle_formatiu": "SMX",
     "titol_cicle": "Sistemes Microinformàtics i Xarxes",
-    "familia_professional": "Informàtica i Comunicacions",
     "grau": "mitja",
-    "rd_titol": "RD 1691/2007",
-    "resolucio_cat": "Resolució ENS/1891/2012",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2007/12/24/pdfs/A52776-52804.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul d’Aplicacions Web capacita el tècnic SMX per instal·lar, configurar i mantenir llocs web basats en gestors de continguts (CMS), que és la tecnologia predominant en la presència web de la gran majoria de pimes, comerços i organitzacions. Aquestes competències s’apliquen en rols de tècnic de suport web, webmaster o responsable TIC en organitzacions que gestionen la seva presència digital.\n\nEls continguts cobreixen la instal·lació i configuració de WordPress com a CMS principal: instal·lació manual (descàrrega, base de dades MySQL, fitxer wp-config), gestió de temes i plugins, configuració de permalinks, optimització del rendiment (caché, compressió), còpies de seguretat amb UpdraftPlus i migració entre entorns. S’estudien altres CMS com Joomla i Drupal a nivell comparatiu. La seguretat de llocs web es treballa en profunditat: actualitzacions de seguretat, plugins de seguretat (Wordfence, Sucuri), protecció contra força bruta, certificats SSL/TLS i configuració de HTTPS. S’introdueix el manteniment de bases de dades MySQL/MariaDB i la resolució d’errors habituals (Error 500, problemes de permisos, conflictes de plugins).\n\nEls alumnes deplegen llocs web complets en servidors virtuals locals (XAMPP, Laragon) i en entorns d’hosting real. El mòdul culmina amb el manteniment i actualització d’un lloc web de producció simulat, on s’apliquen procediments professionals de canvi controlat per minimitzar el risc d’incidències."
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "MP08",
-    "nom": "Aplicacions Web",
-    "hores_totals": 99,
+    "nom": "aplicacions web",
+    "hores_totals": 165,
     "uf": [
       {
         "codi": "UF1",
-        "nom": "Instal·lació i configuració de gestors de continguts (CMS)",
-        "hores": 66,
+        "nom": "ofimàtica i eines web",
+        "hores": 22,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Instal·la i configura gestors de continguts (CMS) en entorns de hosting local i remot.",
+            "text": "Instal·la, si s’escau, aplicacions web, descrivint-ne les característiques i entorns d’ús.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'ha preparat l'entorn LAMP/LEMP (Linux, Apache/Nginx, MySQL, PHP) per allotjar un CMS.",
-                "pes_percentual": 20
+                "codi": "CA11",
+                "text": "Descriu l’origen i l’evolució dels serveis web de darrera generació."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'ha instal·lat WordPress des de zero configurant la base de dades, l'usuari i el fitxer wp-config.php.",
-                "pes_percentual": 20
+                "codi": "CA12",
+                "text": "Instal·la, si s’escau, diferents aplicacions web, descrivint-ne les característiques i entorns d’ús."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'ha instal·lat i configurat Joomla o Drupal com a alternativa a WordPress per a un projecte concret.",
-                "pes_percentual": 20
+                "codi": "CA13",
+                "text": "Configura i utilitza el correu electrònic web. Gestiona comptes d’usuari."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'han instal·lat i configurat plugins/extensions per ampliar la funcionalitat del CMS (SEO, caché, galeries).",
-                "pes_percentual": 20
+                "codi": "CA14",
+                "text": "Configura aplicacions de calendari web."
               },
               {
-                "codi": "CA1.5",
-                "text": "S'ha configurat un tema o plantilla personalitzada adaptada als requeriments visuals del client.",
-                "pes_percentual": 20
+                "codi": "CA15",
+                "text": "Reconeix les prestacions específiques de les aplicacions instal·lades (cites, tasques, entre d’altres)."
+              },
+              {
+                "codi": "CA16",
+                "text": "Configura les aplicacions web per integrar-les amb el servei de correu."
+              },
+              {
+                "codi": "CA17",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta adequadament la configuració de les aplicacions web d’escriptori, les incidències aparegudes i les solucions aportades."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Gestiona el desplegament d'un lloc web en un servei d'allotjament professional (hosting).",
+            "text": "Instal·la aplicacions d’ofimàtica web, descrivint-ne les característiques i entorn d’ús.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'ha seleccionat i contractat un servei d'allotjament web adequat als requeriments del projecte (shared, VPS).",
-                "pes_percentual": 25
+                "codi": "CA21",
+                "text": "Cerca i interpreta l’origen i evolució de les aplicacions ofimàtiques."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'ha configurat un domini personalitzat amb els registres DNS necessaris per apuntar al servidor d'allotjament.",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Estableix la utilitat de les aplicacions d’ofimàtica web."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'ha migrat un lloc web local al servidor d'allotjament remot (fitxers + base de dades).",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Descriu diferents eines d’ofimàtica web (processador de textos, full de càlcul, entre altres)."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'ha configurat i activat el certificat SSL/TLS (HTTPS) al domini en producció.",
-                "pes_percentual": 25
+                "codi": "CA24",
+                "text": "Configura aplicacions d’ofimàtica web."
+              },
+              {
+                "codi": "CA25",
+                "text": "Gestiona els comptes d’usuari."
+              },
+              {
+                "codi": "CA26",
+                "text": "Aplica criteris de seguretat en l’accés dels usuaris."
+              },
+              {
+                "codi": "CA27",
+                "text": "Reconeix les prestacions específiques de cadascuna de les aplicacions instal·lades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza les aplicacions de forma col·laborativa."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta adequadament la configuració i gestió de les aplicacions ofimàtiques web, les incidències aparegudes i les solucions aportades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació, si escau, d’aplicacions web",
+                "items": [
+                  "Origen i evolució de les aplicacions web.",
+                  "Instal·lació, si escau, d’aplicacions web. Característiques i entorn d’ús.",
+                  "Correu electrònic web. Gestió de comptes d’usuari.",
+                  "Configuració de calendari web.",
+                  "Eines específiques web: cites, tasques, entre d’altres.",
+                  "Configuració de les diferents aplicacions per integrar-les en un servidor de correu.",
+                  "Documentació tècnica.",
+                  "Elaboració de documentacions."
+                ]
+              },
+              {
+                "bloc": "Realitza tasques de configuració d’aplicacions d’ofimàtica web",
+                "items": [
+                  "Origen i evolució de les aplicacions ofimàtiques web.",
+                  "Funcionalitats de les aplicacions d’ofimàtica web.",
+                  "Característiques distintives de les aplicacions d’ofimàtica web.",
+                  "Configuració i, si escau, instal·lació d’aplicacions d’ofimàtica web.",
+                  "Gestió d’usuaris.",
+                  "Permisos associats als usuaris. Comprovació de la seguretat.",
+                  "Utilització de les funcionalitats de les aplicacions d’ofimàtica web.",
+                  "Utilització col·laborativa de les aplicacions d’ofimàtica web.",
+                  "Documentació de la configuració, de les incidències aparegudes i de les solucions aportades."
+                ]
               }
             ]
           }
@@ -83,58 +139,473 @@
       },
       {
         "codi": "UF2",
-        "nom": "Manteniment i seguretat de llocs web",
-        "hores": 33,
+        "nom": "gestors d’arxius web",
+        "hores": 25,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Realitza el manteniment periòdic d'un lloc web CMS aplicant actualitzacions i còpies de seguretat.",
+            "text": "Instal·la, amb l’ajuda de la documentació tècnica, serveis de gestió d’arxius web, descrivint-ne les característiques, entorns d’ús, i verificant-ne la integritat.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'han actualitzat el nucli (core), els plugins i els temes del CMS a les darreres versions estables.",
-                "pes_percentual": 25
+                "codi": "CA11",
+                "text": "Estableix la utilitat d’un servei de gestió d’arxius web."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han realitzat còpies de seguretat completes del lloc web (fitxers i base de dades) de forma automàtica.",
-                "pes_percentual": 25
+                "codi": "CA12",
+                "text": "Descriu diferents aplicacions de gestió d’arxius web."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'ha verificat el funcionament del lloc web després de cada actualització i s'ha restaurat en cas d'error.",
-                "pes_percentual": 25
+                "codi": "CA13",
+                "text": "Instal·la i adapta una eina de gestió d’arxius web."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'ha monitoritzat el rendiment del lloc web (temps de càrrega, errors 404, disponibilitat) amb eines com Google Search Console.",
-                "pes_percentual": 25
+                "codi": "CA14",
+                "text": "Crea i classifica comptes d’usuari en funció dels seus permisos."
+              },
+              {
+                "codi": "CA15",
+                "text": "Gestiona arxius i directoris."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica criteris d’indexació sobre els arxius i directoris."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comprova la seguretat del gestor d’arxius."
+              },
+              {
+                "codi": "CA18",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              },
+              {
+                "codi": "CA19",
+                "text": "Documenta adequadament la configuració dels serveis de gestió d’arxius web, les incidències aparegudes i les solucions aportades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de serveis de gestió d’arxius web",
+                "items": [
+                  "Funcionalitats de les aplicacions de gestió d’arxius web.",
+                  "Tipus d’aplicacions de gestió d’arxius web.",
+                  "Instal·lació i configuració de les aplicacions de gestió d’arxius web.",
+                  "Administració d’aplicacions de correu web: creació d’usuaris. Permisos. Tipus d’usuari.",
+                  "Gestió d’arxius i directoris. Creació de recursos compartits.",
+                  "Indexació d’arxius i directoris.",
+                  "Seguretat del gestor d’arxius.",
+                  "Cerca i interpretació de documentació tècnica.",
+                  "Documentació del procés d’instal·lació, de les incidències aparegudes i de les solucions aportades."
+                ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "gestors de continguts",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la gestors de continguts, identificant-ne les aplicacions i configurant-los segons requeriments amb l’ajuda de la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els requeriments necessaris per instal·lar gestors de continguts."
+              },
+              {
+                "codi": "CA12",
+                "text": "Gestiona usuaris amb rols diferents."
+              },
+              {
+                "codi": "CA13",
+                "text": "Personalitza la interfície del gestor de continguts."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza proves de funcionament."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza tasques d’actualització del gestor de continguts, especialment les de seguretat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Instal·la i configura els mòduls i menús necessaris."
+              },
+              {
+                "codi": "CA17",
+                "text": "Activa i configura els mecanismes de seguretat proporcionats pel mateix gestor de continguts."
+              },
+              {
+                "codi": "CA18",
+                "text": "Habilita fòrums i estableix regles d’accés."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza proves de funcionament."
+              },
+              {
+                "codi": "CA110",
+                "text": "Realitza còpies de seguretat dels continguts del gestor."
+              },
+              {
+                "codi": "CA111",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              },
+              {
+                "codi": "CA112",
+                "text": "Documenta adequadament la instal·lació del gestor de continguts, les incidències aparegudes i les solucions aportades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de gestors de continguts",
+                "items": [
+                  "Instal·lació en sistemes operatius lliures i propietaris.",
+                  "Creació d’usuaris i grups d’usuaris.",
+                  "Utilització de la interfície gràfica. Personalització de l’entorn.",
+                  "Funcionalitats proporcionades pel gestor de continguts.",
+                  "Actualitzacions del gestor de continguts.",
+                  "Configuració de mòduls i menús. Sindicació.",
+                  "Mecanismes de seguretat.",
+                  "Configuració de fòrums (regles d’accés).",
+                  "Funcionament dels gestors de continguts.",
+                  "Còpies de seguretat.",
+                  "Cerca i interpretació de documentació tècnica.",
+                  "Documentació del procés d’instal·lació, de les incidències aparegudes i de les solucions aportades."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "portals web d’aprenentatge",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la, amb l’ajuda de la documentació tècnica, sistemes de gestió d’aprenentatge a distància, descrivint-ne l’estructura del lloc i la jerarquia de directoris generada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix l’estructura del lloc i la jerarquia de directoris generada."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza modificacions en l’estètica o aspecte del lloc."
+              },
+              {
+                "codi": "CA13",
+                "text": "Manipula i genera perfils personalitzats."
+              },
+              {
+                "codi": "CA14",
+                "text": "Comprova la funcionalitat de les comunicacions mitjançant fòrums, consultes, entre d’altres."
+              },
+              {
+                "codi": "CA15",
+                "text": "Importa i exporta continguts en diferents formats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza còpies de seguretat i restauracions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza informes d’accés i utilització del lloc."
+              },
+              {
+                "codi": "CA18",
+                "text": "Comprova la seguretat del lloc."
+              },
+              {
+                "codi": "CA19",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              },
+              {
+                "codi": "CA110",
+                "text": "Documenta adequadament la instal·lació del gestor d’aprenentatge, les incidències aparegudes i les solucions aportades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de sistemes de gestió d’aprenentatge a distància",
+                "items": [
+                  "Elements lògics que componen el lloc: comunicació, materials i activitats.",
+                  "Instal·lació en sistemes operatius lliures i propietaris. Personalització de l’entorn. Navegació i edició. Interfície gràfica associada.",
+                  "Creació i configuració de perfils d’usuari.",
+                  "Activació i ús de funcionalitats. Fòrums. Consultes.",
+                  "Creació de cursos seguint especificacions.",
+                  "Còpies de seguretat. Mecanismes de restauració de cursos i dades.",
+                  "Registres d’ús del lloc i de les activitats.",
+                  "Gestió d’usuaris i grups. Seguretat.",
+                  "Cerca i interpretació de documentació tècnica.",
+                  "Documentació del procés d’instal·lació, de les incidències aparegudes i de les solucions aportades."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "fonaments d’HTML i fulls d’estils",
+        "hores": 58,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Construeix un document HTML emprant una sintaxi i estructura correctes i fent que el codi sigui llegible i entenedor, amb l’ajut de comentaris i tabulacions dels blocs de codi corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Estructura correctament i identifica totes les parts d’un document HTML."
+              },
+              {
+                "codi": "CA12",
+                "text": "Fa un ús adequat dels comentaris per aclarir parts del codi."
+              },
+              {
+                "codi": "CA13",
+                "text": "Tabula correctament els blocs de manera que el codi sigui entenedor."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza les feines en el temps proposat i amb la metodologia establerta."
+              }
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Aplica mesures de seguretat bàsiques a un lloc web CMS per protegir-lo d'atacs comuns.",
+            "text": "Utilitza les etiquetes amb els seus atributs seguint la sintaxi correcta definida per l’estàndard.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'han configurat plugins de seguretat (Wordfence, Sucuri) per a la detecció d'intrusions i el bloqueig d'IPs malicioses.",
-                "pes_percentual": 25
+                "codi": "CA21",
+                "text": "Identifica i usa els atributs propis de cada etiqueta."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'ha modificat la URL d'accés al panell d'administració i implementat l'autenticació en dos factors (2FA).",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Utilitza el valors adients i entenedors per a cada atribut de les etiquetes."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'han configurat les capçaleres de seguretat HTTP (CSP, X-Frame-Options, HSTS) al servidor web.",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Combina les etiquetes de manera adequada seguint l’ordre establert."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'han identificat i corregit vulnerabilitats de seguretat comunes en webs CMS (SQL injection, XSS bàsic).",
-                "pes_percentual": 25
+                "codi": "CA24",
+                "text": "Fa un ús parametritzat de les etiquetes per donar vistositat al document HTML."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza les feines en el temps proposat i amb la metodologia establerta."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Implementa un lloc web a partir de diversos documents HTML.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els diferents documents i objectes del lloc web seguint les normes establertes."
+              },
+              {
+                "codi": "CA32",
+                "text": "Estructura correctament l’organització d’arxius dins el lloc."
+              },
+              {
+                "codi": "CA33",
+                "text": "Utilitza adequadament els enllaços relatius i absoluts als documents o objectes del lloc web."
+              },
+              {
+                "codi": "CA34",
+                "text": "Realitza les feines en el temps proposat i amb la metodologia establerta."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Coneix i domina eines de programari per desenvolupar documents HTML.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Utilitza amb habilitat editors HTML."
+              },
+              {
+                "codi": "CA42",
+                "text": "Fa servir amb habilitat gestors i entorns de programació HTML avançats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Construeix un document en cascada (CSS) emprant una sintaxi i estructura correctes i fent que el codi sigui llegible i entenedor amb l’ajut de comentaris i tabulacions dels blocs de codi corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Estructura correctament i identifica cada part d’un document en cascada (CSS)."
+              },
+              {
+                "codi": "CA52",
+                "text": "Fa un ús adequat dels comentaris per aclarir parts del codi."
+              },
+              {
+                "codi": "CA53",
+                "text": "Tabula correctament els blocs de manera que el codi sigui entenedor."
+              },
+              {
+                "codi": "CA54",
+                "text": "Realitza les feines en el temps proposat i amb la metodologia establerta."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA6",
+            "text": "Utilitza i coneix els estils amb els seus atributs seguint la sintaxi correcta definida per l’estàndard.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA61",
+                "text": "Identifica i usa els atributs propis de cada estil."
+              },
+              {
+                "codi": "CA62",
+                "text": "Utilitza els valors adients i entenedors per a cada estil."
+              },
+              {
+                "codi": "CA63",
+                "text": "Combina les etiquetes de manera adequada seguint l’ordre establert."
+              },
+              {
+                "codi": "CA64",
+                "text": "Fa un ús parametritzat dels estils per donar vistositat al document."
+              },
+              {
+                "codi": "CA65",
+                "text": "Realitza les feines en el temps proposat i amb la metodologia establerta."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA7",
+            "text": "Implementa un lloc web a partir de diversos documents HTML amb estils.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA71",
+                "text": "Identifica els diferents documents i objectes del lloc web seguint les normes establertes."
+              },
+              {
+                "codi": "CA72",
+                "text": "Estructura correctament l’organització d’estils."
+              },
+              {
+                "codi": "CA73",
+                "text": "Utilitza adequadament els nivells d’aplicació dels estils en el web."
+              },
+              {
+                "codi": "CA74",
+                "text": "Realitza les feines en el temps proposat i amb la metodologia establerta."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA8",
+            "text": "Coneix i domina eines de programari per desenvolupar documents amb estils.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA81",
+                "text": "Coneix i utilitza amb habilitat editors CSS."
+              },
+              {
+                "codi": "CA82",
+                "text": "Coneix i utilitza amb habilitat gestors i entorns de programació CSS avançats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Origen i evolució de l’HTML",
+                "items": [
+                  "Definicions i estàndards SGM.",
+                  "Versions HTML."
+                ]
+              },
+              {
+                "bloc": "Estructura d’un document HTML",
+                "items": [
+                  "Identificació SGML.",
+                  "Capçalera.",
+                  "Cos del document."
+                ]
+              },
+              {
+                "bloc": "Text",
+                "items": [
+                  "Blocs de text.",
+                  "Formats i elements."
+                ]
+              },
+              {
+                "bloc": "Hipervincles",
+                "items": [
+                  "Relatius i absoluts.",
+                  "Marques dins d’un document HTML."
+                ]
+              },
+              {
+                "bloc": "Imatges",
+                "items": [
+                  "Incorporació d’imatges.",
+                  "Ús de mapes sensibles."
+                ]
+              },
+              {
+                "bloc": "Taules",
+                "items": [
+                  "Files, columnes i cel·les.",
+                  "Combinació de cel·les.",
+                  "Imbricació de taules."
+                ]
+              },
+              {
+                "bloc": "Llistes",
+                "items": [
+                  "Llistes numerades.",
+                  "Llistes no numerades.",
+                  "Llistes de definició."
+                ]
+              },
+              {
+                "bloc": "Formularis",
+                "items": [
+                  "Propietats dels formularis.",
+                  "Elements dels formularis.",
+                  "Ús de formularis."
+                ]
+              },
+              {
+                "bloc": "Marcs",
+                "items": [
+                  "Definició de marcs.",
+                  "Ús de marcs."
+                ]
+              },
+              {
+                "bloc": "Editors i gestors d’HTML",
+                "items": [
+                  "Editors simples.",
+                  "Editors avançats.",
+                  "Gestors de llenguatges HTML."
+                ]
               }
             ]
           }

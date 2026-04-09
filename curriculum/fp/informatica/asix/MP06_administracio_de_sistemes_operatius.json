@@ -1,0 +1,408 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "administració de sistemes operatius",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "administració avançada de sistemes operatius",
+        "hores": 70,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra el servei de directori interpretant-ne especificacions i integrant-lo en una xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la funció, els elements i les estructures lògiques del servei de directori."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina i crea l’esquema del servei de directori."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza la instal·lació del servei de directori al servidor."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza la configuració i personalització del servei de directori."
+              },
+              {
+                "codi": "CA15",
+                "text": "Integra el servei de directori amb altres serveis."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica filtres de cerca en el servei de directori."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza el servei de directori com a mecanisme d’acreditació centralitzada dels usuaris en una xarxa."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza la configuració del client per a la seva integració en el servei de directori."
+              },
+              {
+                "codi": "CA19",
+                "text": "Utilitza eines gràfiques i comandaments per a l’administració del servei de directori."
+              },
+              {
+                "codi": "CA110",
+                "text": "Documenta l’estructura i la implantació del servei de directori."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra de forma remota el sistema operatiu en xarxa valorant-ne la importància i aplicant-hi criteris de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu mètodes d’accés i d’administració remota de sistemes."
+              },
+              {
+                "codi": "CA22",
+                "text": "Diferencia entre els serveis orientats a sessió i els no orientats a sessió."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza eines d’administració remota subministrades pel mateix sistema operatiu."
+              },
+              {
+                "codi": "CA24",
+                "text": "Instal·la serveis d’accés i administració remota."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza comandaments i eines gràfiques per gestionar els serveis d’accés i administració remota."
+              },
+              {
+                "codi": "CA26",
+                "text": "Crea comptes d’usuari per a l’accés remot."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves d’accés i administració remota entre sistemes heterogenis."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza mecanismes d’encriptació de la informació transferida."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta els processos i serveis del sistema administrats de forma remota."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Administra servidors d’impressió descrivint-ne les funcions i integrant-los en una xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu la funcionalitat dels sistemes i servidors d’impressió."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els ports i els protocols utilitzats."
+              },
+              {
+                "codi": "CA33",
+                "text": "Utilitza les eines per a la gestió d’impressores integrades en el sistema operatiu."
+              },
+              {
+                "codi": "CA34",
+                "text": "Instal·la i configura un servidor d’impressió en entorn web."
+              },
+              {
+                "codi": "CA35",
+                "text": "Crea i classifica impressores lògiques."
+              },
+              {
+                "codi": "CA36",
+                "text": "Crea grups d’impressió."
+              },
+              {
+                "codi": "CA37",
+                "text": "Gestiona impressores i cues de treballs mitjançant comandaments i eines gràfiques."
+              },
+              {
+                "codi": "CA38",
+                "text": "Comparteix impressores en xarxa entre sistemes operatius diferents."
+              },
+              {
+                "codi": "CA39",
+                "text": "Documenta la configuració del servidor d’impressió i de les impressores creades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Administra processos del sistema descrivint-ne i aplicant-hi criteris de seguretat i eficiència.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Descriu el concepte de procés del sistema, tipus, estats i cicle de vida."
+              },
+              {
+                "codi": "CA42",
+                "text": "Utilitza interrupcions i excepcions per descriure els esdeveniments interns del processador."
+              },
+              {
+                "codi": "CA43",
+                "text": "Diferencia entre procés, fil i treball."
+              },
+              {
+                "codi": "CA44",
+                "text": "Realitza tasques de creació, manipulació i acabament de processos."
+              },
+              {
+                "codi": "CA45",
+                "text": "Utilitza el sistema de fitxers com a mitjà lògic per al registre i identificació dels processos del sistema."
+              },
+              {
+                "codi": "CA46",
+                "text": "Utilitza eines gràfiques i comandaments per al control i seguiment dels processos del sistema."
+              },
+              {
+                "codi": "CA47",
+                "text": "Comprova la seqüència d’arrencada del sistema, els processos implicats i la relació entre ells."
+              },
+              {
+                "codi": "CA48",
+                "text": "Pren mesures de seguretat davant l’aparició de processos no identificats."
+              },
+              {
+                "codi": "CA49",
+                "text": "Documenta els processos habituals del sistema, la seva funció i la relació entre ells."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Integra sistemes operatius lliures i propietaris, justificant i garantint-ne la interoperabilitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Identifica la necessitat de compartir recursos en xarxa entre diferents sistemes operatius."
+              },
+              {
+                "codi": "CA52",
+                "text": "Estableix nivells de seguretat per controlar l’accés del client als recursos compartits en xarxa."
+              },
+              {
+                "codi": "CA53",
+                "text": "Comprova la connectivitat de la xarxa en un escenari heterogeni."
+              },
+              {
+                "codi": "CA54",
+                "text": "Descriu la funcionalitat dels serveis que permeten compartir recursos en xarxa."
+              },
+              {
+                "codi": "CA55",
+                "text": "Instal·la i configura serveis per compartir recursos en xarxa."
+              },
+              {
+                "codi": "CA56",
+                "text": "Comprova el funcionament dels serveis instal·lats."
+              },
+              {
+                "codi": "CA57",
+                "text": "Treballa en grup per accedir a sistemes de fitxers i impressores en xarxa des d’equips amb diferents sistemes operatius."
+              },
+              {
+                "codi": "CA58",
+                "text": "Documenta la configuració dels serveis instal·lats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Administració de servei de directori",
+                "items": [
+                  "Servei de directori. Definició, elements i nomenclatura. LDAP.",
+                  "Esquema del servei de directori.",
+                  "Controladors de domini.",
+                  "Instal·lació, configuració i personalització del servei de directori.",
+                  "Creació de dominis.",
+                  "Objectes que administra un domini: usuaris globals, grups i equips, entre d’altres.",
+                  "Eines gràfiques d’administració del servei de directori."
+                ]
+              },
+              {
+                "bloc": "Instal·lació, configuració i ús de serveis d’accés i administració remota",
+                "items": [
+                  "Terminals en mode text.",
+                  "Escriptori remot.",
+                  "Protocols d’accés remot i ports implicats.",
+                  "Serveis d’accés remot del mateix sistema operatiu.",
+                  "Eines gràfiques externes per a l’administració remota."
+                ]
+              },
+              {
+                "bloc": "Administració de servidors d’impressió",
+                "items": [
+                  "Ports i protocols d’impressió.",
+                  "Sistemes d’impressió.",
+                  "Ordres per a la gestió d’impressores i treballs."
+                ]
+              },
+              {
+                "bloc": "Administració de processos del sistema",
+                "items": [
+                  "Processos. Tipus. Estats. Estructura.",
+                  "Fils d’execució.",
+                  "Transicions d’estats.",
+                  "Prioritats.",
+                  "Gestió dels processos del sistema. Línia d’ordre. Entorn gràfic.",
+                  "Seqüència d’arrencada del sistema. Dimonis."
+                ]
+              },
+              {
+                "bloc": "Integració de sistemes operatius en xarxa lliures i propietaris",
+                "items": [
+                  "Descripció d’escenaris heterogenis.",
+                  "Instal·lació, configuració i ús de serveis de xarxa per compartir recursos.",
+                  "Configuració de recursos compartits en xarxa.",
+                  "Utilització de xarxes heterogènies."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "automatització de tasques i llenguatges de guions",
+        "hores": 29,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona l’automatització de tasques del sistema, aplicant-hi criteris d’eficiència i utilitzant comandaments i eines gràfiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els avantatges de l’automatització de les tasques repetitives en el sistema."
+              },
+              {
+                "codi": "CA12",
+                "text": "Utilitza els comandaments del sistema per a la planificació de tasques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Estableix restriccions de seguretat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza planificacions de tasques repetitives o puntuals relacionades amb l’administració del sistema."
+              },
+              {
+                "codi": "CA15",
+                "text": "Automatitza l’administració de comptes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Instal·la i configura eines gràfiques per a la planificació de tasques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza eines gràfiques per a la planificació de tasques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta els processos programats com a tasques automàtiques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Utilitza llenguatges de guions en sistemes operatius, descrivint-ne l’aplicació i administrant-hi serveis del sistema operatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Utilitza i combina les estructures del llenguatge per crear guions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza eines per depurar errors sintàctics i d’execució."
+              },
+              {
+                "codi": "CA23",
+                "text": "Interpreta guions de configuració del sistema operatiu."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza canvis i adaptacions de guions del sistema."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea i prova guions d’administració de serveis."
+              },
+              {
+                "codi": "CA26",
+                "text": "Crea i prova guions d’automatització de tasques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Implanta guions en sistemes lliures i propietaris."
+              },
+              {
+                "codi": "CA28",
+                "text": "Consulta i utilitza llibreries de funcions."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta els guions creats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Automatització de tasques del sistema",
+                "items": [
+                  "Automatització de les tasques del sistema.",
+                  "Comandaments del sistema per a l’automatització de tasques.",
+                  "Restriccions de seguretat.",
+                  "Planificació de les tasques de manteniment del sistema.",
+                  "Utilitats gràfiques per a l’automatització de tasques."
+                ]
+              },
+              {
+                "bloc": "Aplicació de llenguatge scripting en sistemes operatius lliures i propietaris",
+                "items": [
+                  "Estructures del llenguatge.",
+                  "Creació i depuració d’scripts.",
+                  "Interpretació d’scripts del sistema. Adaptacions.",
+                  "Utilització d’extensions de comandaments per a tasques d’administració.",
+                  "Scripts per a l’administració de comptes d’usuari, processos i serveis del sistema operatiu."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,579 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "EMV",
+    "titol_cicle": "Electromecànica de Vehicles Automòbils",
+    "grau": "mitja",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "font_tipus": "decret",
+    "font_ref": "Decret 185/2015, de 25 d'agost",
+    "titol_decret": "DECRET 185/2015, de 25 d'agost, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'electromecànica de vehicles automòbils.",
+    "data_decret": "2015-08-25",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/08/25/185/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "Sistemes Auxiliars del Motor",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "combustibles i sistemes anticontaminació",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix els diferents combustibles utilitzats en els motors tèrmics determinant les característiques de la combustió.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Coneix les característiques dels combustibles utilitzats en els motors tèrmics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu el procés d'obtenció dels diferents combustibles."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els combustibles alternatius i les seves aplicacions."
+              },
+              {
+                "codi": "CA14",
+                "text": "Coneix les característiques de combustió dels combustibles emprats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Coneix la composició química dels gasos d'escapament generats per cadascun dels combustibles."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica les normes de seguretat i de protecció ambiental en la manipulació de combustibles."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Coneix els diferents sistemes anticontaminació utilitzats en els motors de cicle Otto i Dièsel emprats en els vehicles automòbils determinant-ne l'efecte en el medi ambient.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix la finalitat dels sistemes d'anticontaminació."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica les diferents solucions anticontaminants."
+              },
+              {
+                "codi": "CA23",
+                "text": "Coneix el funcionament dels sistemes anticontaminants dels motors de cicle Otto."
+              },
+              {
+                "codi": "CA24",
+                "text": "Coneix el funcionament dels sistemes anticontaminants dels motors de cicle Dièsel."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els components dels sistemes anticontaminants."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprèn els processos i reaccions químiques que es produeixen en els sistemes anticontaminants."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica les normes de seguretat i de protecció ambiental estipulades en la manipulació i canvi dels catalitzadors i filtres de partícules."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Combustibles",
+                "items": [
+                  "Combustibles emprats i característiques.",
+                  "Processos d'obtenció dels combustibles.",
+                  "Combustibles alternatius.",
+                  "Característiques dels gasos d'escapament en els motors tèrmics.",
+                  "Anàlisi de gasos d'escapament.",
+                  "Funcionament dels sistemes anticontaminants.",
+                  "Catalitzadors. Substitució i verificació.",
+                  "Manipulació i emmagatzematge de combustibles."
+                ]
+              },
+              {
+                "bloc": "Motors dièsel",
+                "items": [
+                  "Sistemes anticontaminants.",
+                  "Funcionament dels sistemes anticontaminants.",
+                  "Filtres de partícules.",
+                  "Altres tipus de motors.",
+                  "Catalitzadors. Substitució i verificació.",
+                  "Ajustos i posada a punt."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes auxiliars dels motors. Gestió i funcionament",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix el funcionament dels sistemes auxiliars en els motors de cicle Otto i els seus paràmetres relacionant-los amb la funcionalitat dels elements que els constitueixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els elements que constitueixen els sistemes d'encesa."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix les característiques que determinen el funcionament dels sistemes d'encesa."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els elements que componen els sistemes d'alimentació dels motors de benzina i de GLP."
+              },
+              {
+                "codi": "CA14",
+                "text": "Coneix els paràmetres dels sistemes d'alimentació dels motors de benzina i de GLP, pressions, cabals, temperatures, entre altres."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els sensors, actuadors i unitats de gestió que intervenen en els sistemes d'injecció de benzina i de GLP."
+              },
+              {
+                "codi": "CA16",
+                "text": "Coneix els paràmetres de funcionament dels sensors, actuadors i unitats de control dels sistemes d'injecció de benzina i de GLP (tensió, resistència, senyals, corbes característiques, entre altres)."
+              },
+              {
+                "codi": "CA17",
+                "text": "Analitza les característiques que defineixen les diferents fases de funcionament del motor de benzina: arrencada en fred, postarrencada, acceleració, tall en retenció entre altres."
+              },
+              {
+                "codi": "CA18",
+                "text": "Manifesta especial interès per les novetats tecnològiques del sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Coneix el funcionament de sistemes auxiliars dels motors de cicle dièsel i els seus paràmetres, interpretant la funcionalitat dels elements que els constitueixen. Criteris d'avaluació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els elements que componen els sistemes d'alimentació dels motors dièsel."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix les característiques que determinen el funcionament dels sistemes d'alimentació dièsel."
+              },
+              {
+                "codi": "CA23",
+                "text": "Coneix els paràmetres dels sistemes d'alimentació dels motors dièsel: pressions, cabals, temperatures, entre altres."
+              },
+              {
+                "codi": "CA24",
+                "text": "Coneix els paràmetres de funcionament dels sensors, actuadors i unitats de control del sistema d'injecció dièsel."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu el funcionament dels sistemes d'arrencada en fred dels motors dièsel."
+              },
+              {
+                "codi": "CA26",
+                "text": "Coneix els diferents ajustos que cal fer en els sistemes d'injecció."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les característiques que defineixen les diferents fases de funcionament del motor dièsel: arrencada en fred, postescalfament, acceleració, tall de règim màxim, entre altres."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Coneix el funcionament de sistemes auxiliars en altres tipus de motors tèrmics i interpreta la funcionalitat dels elements que els constitueixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Coneix les característiques dels combustibles utilitzats."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els elements que componen els sistemes d'alimentació i encesa."
+              },
+              {
+                "codi": "CA33",
+                "text": "Coneix el funcionament i els ajustos del circuit d'encesa."
+              },
+              {
+                "codi": "CA34",
+                "text": "Defineix les característiques que determinen el funcionament dels sistemes d'alimentació."
+              },
+              {
+                "codi": "CA35",
+                "text": "Coneix els paràmetres dels sistemes d'alimentació dels motors: pressions, cabals, temperatures, entre altres."
+              },
+              {
+                "codi": "CA36",
+                "text": "Coneix els paràmetres de funcionament dels sensors, actuadors i unitats de control del sistema d'alimentació de combustible."
+              },
+              {
+                "codi": "CA37",
+                "text": "Descriu el funcionament dels sistemes d'arrencada en fred dels motors."
+              },
+              {
+                "codi": "CA38",
+                "text": "Coneix els diferents ajustos que cal fer en els sistemes d'injecció."
+              },
+              {
+                "codi": "CA39",
+                "text": "Identifica les característiques que defineixen les diferents fases de funcionament del motor: arrencada en fred, postescalfament, acceleració, tall de règim màxim, entre altres."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Coneix el funcionament dels sistemes auxiliars en vehicles elèctrics interpretant-ne les variacions dels paràmetres i la funcionalitat dels elements que els constitueixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els elements que componen els sistemes de gestió del motor en vehicles elèctrics."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica els elements que componen els sistemes de gestió dels motors en vehicles híbrids."
+              },
+              {
+                "codi": "CA43",
+                "text": "Coneix els paràmetres dels sistemes de regulació i de control dels motors."
+              },
+              {
+                "codi": "CA44",
+                "text": "Coneix els paràmetres de funcionament dels sensors, dels actuadors i de les unitats de control del sistema."
+              },
+              {
+                "codi": "CA45",
+                "text": "Coneix els diferents ajustos que cal fer en els sistemes elèctrics."
+              },
+              {
+                "codi": "CA46",
+                "text": "Identifica les característiques que defineixen les diferents fases de funcionament del motor."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Sistemes auxiliars en els motors de cicle Otto",
+                "items": [
+                  "Sistemes d'admissió i d'escapament.",
+                  "Sistemes d'encesa.",
+                  "Interpretació d'esquemes elèctrics de gestió de sistemes d'encesa.",
+                  "Elements dels sistemes d'alimentació de combustible dels motors de cicle Otto.",
+                  "Paràmetres característics dels sistemes d'alimentació.",
+                  "Interpretació d'esquemes elèctrics de gestió de sistemes d'alimentació dels motors."
+                ]
+              },
+              {
+                "bloc": "Sistemes auxiliars dels motors dièsel",
+                "items": [
+                  "Tipus i característiques dels sistemes d'alimentació dièsel.",
+                  "Sistemes d'admissió i d'escapament.",
+                  "Constitució i funcionament dels sistemes d'alimentació dièsel.",
+                  "Paràmetres de funcionament: estàtics i dinàmics.",
+                  "Sensors, actuadors i unitats de gestió.",
+                  "Sistemes d'arrencada en fred dels motors dièsel."
+                ]
+              },
+              {
+                "bloc": "Sistemes auxiliars d'altres motors de combustió interna",
+                "items": [
+                  "Sistemes auxiliars en altres tipus de motors.",
+                  "Sistemes d'encesa.",
+                  "Sistemes d'admissió i d'escapament.",
+                  "Tipus i característiques dels sistemes d'alimentació.",
+                  "Constitució i funcionament dels sistemes d'alimentació.",
+                  "Paràmetres de funcionament: estàtics i dinàmics.",
+                  "Sensors, actuadors i unitats de gestió.",
+                  "Sistemes d'arrencada en fred dels motors."
+                ]
+              },
+              {
+                "bloc": "Sistemes auxiliars dels motors elèctrics",
+                "items": [
+                  "Sistemes de gestió del motor en vehicles elèctrics.",
+                  "Sensors, actuadors i unitats de gestió.",
+                  "Paràmetres de funcionament: estàtics i dinàmics.",
+                  "Interpretació d'esquemes elèctrics de gestió."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Verificació, diagnosi i manteniment dels sistemes auxiliars",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Verifica els sistemes d'alimentació dels motors, interpretant i aplicant procediments establerts en la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta la documentació tècnica determinant el procés de desmuntatge i muntatge dels elements que constitueixen els sistemes d'encesa i alimentació dels motors de cicle Otto."
+              },
+              {
+                "codi": "CA12",
+                "text": "Interpreta la documentació tècnica determinant el procés de desmuntatge i muntatge dels elements que constitueixen els sistemes d'alimentació dels motors de cicle Dièsel."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona els mitjans, estris i eines necessaris en funció del procés de desmuntatge i muntatge."
+              },
+              {
+                "codi": "CA14",
+                "text": "Estableix la seqüència d'operacions de desmuntatge i muntatge, seguint l'establerta en documentació tècnica."
+              },
+              {
+                "codi": "CA15",
+                "text": "Verifica l'estat dels components."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica els ajustos de paràmetres estipulats en la documentació tècnica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Esborra els històrics de les unitats de comandament i efectua la recàrrega."
+              },
+              {
+                "codi": "CA18",
+                "text": "Verifica que després de les operacions realitzades es restitueix la funcionalitat requerida."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica les normes de seguretat i protecció ambiental estipulada en les diferents operacions."
+              },
+              {
+                "codi": "CA110",
+                "text": "Desenvolupa totes les operacions amb l'ordre i la neteja requerida."
+              },
+              {
+                "codi": "CA111",
+                "text": "Dona suport per solucionar els problemes que se'ls puguin presentar als companys."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica els sistemes de sobrealimentació i anticontaminació dels motors interpretant els valors obtinguts en les proves de funcionament del motor.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Coneix i identifica els diferents sistemes de sobrealimentació utilitzats en els motors tèrmics."
+              },
+              {
+                "codi": "CA22",
+                "text": "Diagnostica possibles disfuncions en el sistema de sobrealimentació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Fa el desmuntatge i el muntatge dels elements que constitueixen els sistemes de sobrealimentació dels motors."
+              },
+              {
+                "codi": "CA24",
+                "text": "Relaciona els processos de combustió dels motors tèrmics amb els residus contaminants generats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Relaciona les fonts de contaminació del motor amb els diferents elements contaminants: vapors de combustible, vapors d'oli, residus de combustió."
+              },
+              {
+                "codi": "CA26",
+                "text": "Coneix els sistemes d'anticontaminació utilitzats en els motors."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza el procés de diagnosi de gasos d'escapament en els motors."
+              },
+              {
+                "codi": "CA28",
+                "text": "Desmunta i munta els elements dels sistemes anticontaminants i en realitza l'ajust."
+              },
+              {
+                "codi": "CA29",
+                "text": "Aplica les normes d'ús en equips i mitjans, així com les de seguretat i ambientals estipulades, durant tot el procés de treball."
+              },
+              {
+                "codi": "CA210",
+                "text": "Estableix mecanismes de coordinació i control de la informació del procés i dels resultats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Identifica avaries en els sistemes auxiliars dels motors relacionant-ne els símptomes i els efectes amb les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Comprova si existeixen sorolls anòmals, preses d'aire o pèrdues de combustible."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica l'element o sistema que presenta la disfunció."
+              },
+              {
+                "codi": "CA33",
+                "text": "Localitza i interpreta la documentació tècnica."
+              },
+              {
+                "codi": "CA34",
+                "text": "Selecciona l'equip de mesura o de control, efectuant-ne l'entrada en servei."
+              },
+              {
+                "codi": "CA35",
+                "text": "Connecta els equips en els punts de mesura correctes fent la presa de paràmetres."
+              },
+              {
+                "codi": "CA36",
+                "text": "Fa els processos guiats de diagnosi previs a la reparació d'avaries."
+              },
+              {
+                "codi": "CA37",
+                "text": "Adquireix la informació de les unitats de gestió electrònica."
+              },
+              {
+                "codi": "CA38",
+                "text": "Compara els valors obtinguts en les comprovacions amb aquells estipulats en la documentació."
+              },
+              {
+                "codi": "CA39",
+                "text": "Determina els elements que cal substituir o reparar."
+              },
+              {
+                "codi": "CA310",
+                "text": "Identifica les causes que han provocat l'avaria."
+              },
+              {
+                "codi": "CA311",
+                "text": "Aplica les normes de seguretat i protecció ambiental estipulada en les diferents operacions."
+              },
+              {
+                "codi": "CA312",
+                "text": "Persisteix en la consecució dels objectius tot i els obstacles i contratemps tècnics que es presentin."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Fa el manteniment correctiu dels sistemes auxiliars del motor interpretant i aplicant procediments de reparació establerts en la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Interpreta la documentació tècnica determinant el procés de desmuntatge i de muntatge dels elements que constitueixen els sistemes d'encesa i d'alimentació del motor."
+              },
+              {
+                "codi": "CA42",
+                "text": "Fa els processos de diagnosi previs a la reparació d'avaries."
+              },
+              {
+                "codi": "CA43",
+                "text": "Selecciona els mitjans, els estris i les eines necessaris en funció del procés de desmuntatge i de muntatge."
+              },
+              {
+                "codi": "CA44",
+                "text": "Estableix la seqüència d'operacions de desmuntatge i de muntatge, seguint la que s'estableix en la documentació tècnica."
+              },
+              {
+                "codi": "CA45",
+                "text": "Verifica l'estat dels components."
+              },
+              {
+                "codi": "CA46",
+                "text": "Aplica els ajustos de paràmetres estipulats en la documentació tècnica."
+              },
+              {
+                "codi": "CA47",
+                "text": "Verifica que després de les operacions realitzades es restitueix la funcionalitat requerida."
+              },
+              {
+                "codi": "CA48",
+                "text": "Aplica les normes de seguretat personal i protecció ambiental estipulada en les diferents operacions."
+              },
+              {
+                "codi": "CA49",
+                "text": "Desenvolupa totes les operacions amb l'ordre i la neteja requerits."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Verificació dels sistemes auxiliars dels motors",
+                "items": [
+                  "Interpretació de documentació tècnica.",
+                  "Funcionament i posada al punt d'equips i mitjans.",
+                  "Processos de desmuntatge i de muntatge dels sistemes d'encesa.",
+                  "Posada al punt dels sistemes d'encesa sobre el motor.",
+                  "Paràmetres a ajustar en els sistemes.",
+                  "Processos d'adaptació i reprogramació dels components electrònics.",
+                  "Mètodes i tècniques de comprovació dels components dels sistemes.",
+                  "Processos de desmuntatge i de muntatge dels sistemes d'injecció.",
+                  "Posada al punt dels sistemes d'injecció sobre el motor.",
+                  "Ajust de paràmetres en els sistemes d'alimentació dels motors.",
+                  "Manteniment del sistema d'arrencada en fred.",
+                  "Substitució i ajust d'injectors.",
+                  "Ajustos i reparació dels diferents sensors i actuadors del sistema d'injecció.",
+                  "Precaucions en el maneig dels sistemes d'alimentació i combustibles."
+                ]
+              },
+              {
+                "bloc": "Verificació dels sistemes de sobrealimentació i anticontaminació dels motors",
+                "items": [
+                  "Sistemes de sobrealimentació: constitució i funcionament.",
+                  "Influència en el rendiment del motor. Pressió de bufada.",
+                  "Processos de desmuntatge, de muntatge i d'ajust dels sistemes de sobrealimentació.",
+                  "Diagnosi i reparació dels sistemes d'anticontaminació dels motors.",
+                  "Verificació del funcionament dels sistemes anticontaminants.",
+                  "Normativa anticontaminació."
+                ]
+              },
+              {
+                "bloc": "Identificació d'avaries",
+                "items": [
+                  "Avaries dels sistemes auxiliars dels motors tèrmics.",
+                  "Identificació de símptomes i disfuncions.",
+                  "Tècniques de diagnosi.",
+                  "Interpretació i maneig de documentació tècnica.",
+                  "Funcionament d'equips de diagnosi.",
+                  "Presa i interpretació de paràmetres.",
+                  "Sistemes d'autodiagnosi."
+                ]
+              },
+              {
+                "bloc": "Manteniment dels sistemes auxiliars",
+                "items": [
+                  "Operacions de manteniment preventiu, predictiu i correctiu.",
+                  "Interpretació de les dades subministrades pels equips de diagnosi.",
+                  "Identificació d'avaries i disfuncions en els sistemes auxiliars del motor.",
+                  "Símptomes d'avaries i disfuncions en els sistemes auxiliars del motor.",
+                  "Processos de desmuntatge i de muntatge. Mitjans, estris i eines."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

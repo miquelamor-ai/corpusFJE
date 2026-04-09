@@ -1,0 +1,590 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "grau": "mitja",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "sistemes operatius monolloc",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "introducció als sistemes operatius",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix les característiques dels sistemes operatius, descrivint-ne els tipus i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica i descriu els elements funcionals d’un sistema informàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Codifica i relaciona la informació en els diferents sistemes de representació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Defineix el concepte de sistema operatiu, els seus elements i la seva estructura."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza les funcions del sistema operatiu."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu l’arquitectura del sistema operatiu."
+              },
+              {
+                "codi": "CA16",
+                "text": "Coneix l’evolució dels sistemes operatius fins a l’actualitat."
+              },
+              {
+                "codi": "CA17",
+                "text": "Classifica els sistemes operatius."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu l’estructura i organització de diferents sistemes d’arxius."
+              },
+              {
+                "codi": "CA19",
+                "text": "Descriu sistemes de gestió de memòria i la seva funcionalitat."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica els processos, estats i sistemes bàsics de planificació."
+              },
+              {
+                "codi": "CA111",
+                "text": "Analitza aspectes de la gestió d’entrada/sortida."
+              },
+              {
+                "codi": "CA112",
+                "text": "Constata la utilitat dels sistemes transaccionals i les seves repercussions en seleccionar un sistema d’arxius."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Crea màquines virtuals identificant-ne el camp d’aplicació i instal·lant-hi programari específic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Diferencia entre màquina real i màquina virtual."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu els avantatges i inconvenients de la utilització de màquines virtuals."
+              },
+              {
+                "codi": "CA23",
+                "text": "Instal·la el programari lliure i propietari per a la creació de màquines virtuals."
+              },
+              {
+                "codi": "CA24",
+                "text": "Crea màquines virtuals a partir de sistemes operatius lliures i propietaris."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura màquines virtuals."
+              },
+              {
+                "codi": "CA26",
+                "text": "Relaciona la màquina virtual amb el sistema operatiu amfitrió."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves de rendiment del sistema."
+              },
+              {
+                "codi": "CA28",
+                "text": "Comprova el funcionament correcte de la instal·lació i configuració de màquina virtual."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta el procés d’instal·lació i configuració de màquina virtual, així com les incidències aparegudes i les solucions adients."
+              },
+              {
+                "codi": "CA210",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització dels sistemes operatius, tipus i aplicacions",
+                "items": [
+                  "El sistema informàtic: components físics i lògics. El programari base.",
+                  "Codificació de la informació en diferents sistemes de representació.",
+                  "Concepte de sistema operatiu. Elements i estructura.",
+                  "Funcions del sistema operatiu. Recursos.",
+                  "Arquitectura del sistema operatiu.",
+                  "Evolució històrica. Sistemes operatius actuals.",
+                  "Classificació dels sistemes operatius.",
+                  "Gestió d’arxius: sistemes d’arxius, arxiu, directori, atributs, permisos.",
+                  "Gestió de la memòria.",
+                  "Gestió de processos. Estats dels processos. Prioritat i planificació.",
+                  "Gestió d’entrada/sortida.",
+                  "Sistemes transaccionals."
+                ]
+              },
+              {
+                "bloc": "Configuració de màquines virtuals",
+                "items": [
+                  "Descripció de màquina real i màquina virtual.",
+                  "Virtualització i màquina virtual: avantatges i inconvenients.",
+                  "Programari (propietari i lliure) per a la creació de màquines virtuals: instal·lació.",
+                  "Creació de màquines virtuals per a sistemes operatius lliures i propietaris.",
+                  "Configuració i utilització de màquines virtuals.",
+                  "Relació amb el sistema operatiu amfitrió.",
+                  "Realització de proves de rendiment del sistema.",
+                  "Comprovació del funcionament correcte de les instal·lacions i configuracions realitzades.",
+                  "Documentació del procés d’instal·lació i de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes operatius propietaris",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la sistemes operatius propietaris, relacionant-ne les característiques amb el maquinari de l’equip i el programari d’aplicació, i amb l’ajuda de documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Verifica la idoneïtat del maquinari disponible per a la instal·lació de sistemes operatius."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona el sistema operatiu a instal·lar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Elabora un pla d’instal·lació i clonació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la sistemes operatius propietaris i configura paràmetres bàsics de la instal·lació seguint els passos de la documentació tècnica."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona aplicacions bàsiques a instal·lar."
+              },
+              {
+                "codi": "CA16",
+                "text": "Implanta sistemes duals amb diferents sistemes operatius."
+              },
+              {
+                "codi": "CA17",
+                "text": "Configura el gestor d’arrencada."
+              },
+              {
+                "codi": "CA18",
+                "text": "Respecta i coneix les normes d’utilització del programari (llicències)."
+              },
+              {
+                "codi": "CA19",
+                "text": "Documenta el procés d’instal·lació, les incidències aparegudes i les seves solucions per assessorar l’usuari final."
+              },
+              {
+                "codi": "CA110",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tasques bàsiques de configuració de sistemes operatius propietaris, interpretant requeriments i descrivint els procediments seguits amb l’ajuda de documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza arrencades i parades del sistema."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza el sistema operatiu en mode ordre i mode gràfic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Diferencia les interfícies d’usuari segons les seves propietats i aplica preferències en la configuració de l’entorn personal."
+              },
+              {
+                "codi": "CA24",
+                "text": "Opera adequadament amb arxius i directoris, i gestiona els permisos i atributs d’arxius i directoris."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza tasques de compressió i descompressió de fitxers."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza la configuració per a l’actualització del sistema operatiu."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza operacions d’instal·lació i desinstal·lació d’utilitats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza assistents de configuració del sistema (accés a xarxes, dispositius perifèrics, entre altres)."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica i implanta pegats del sistema, així com altres mòduls de codi."
+              },
+              {
+                "codi": "CA210",
+                "text": "Verifica que les llicències d’ús dels components de programari compleixen la legislació vigent i realitza l’inventari del programari instal·lat."
+              },
+              {
+                "codi": "CA211",
+                "text": "Comprova el funcionament correcte de les configuracions realitzades."
+              },
+              {
+                "codi": "CA212",
+                "text": "Realitza una documentació adequada de la configuració del sistema operatiu orientada a l’usuari final, i cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Realitza operacions bàsiques d’administració i manteniment de sistemes operatius propietaris, interpretant requeriments i optimitzant el sistema per al seu ús amb l’ajut de documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Crea i gestiona usuaris i grups, i configura perfils d’usuari i grup."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza eines gràfiques per descriure l’organització dels arxius del sistema."
+              },
+              {
+                "codi": "CA33",
+                "text": "Actua sobre els processos de l’usuari i serveis del sistema en funció de les necessitats puntuals."
+              },
+              {
+                "codi": "CA34",
+                "text": "Aplica criteris per a l’optimització de la memòria disponible i optimitza el funcionament dels dispositius d’emmagatzematge."
+              },
+              {
+                "codi": "CA35",
+                "text": "Analitza l’activitat del sistema a partir de les traces generades pel mateix sistema."
+              },
+              {
+                "codi": "CA36",
+                "text": "Reconeix i configura els recursos compartibles del sistema."
+              },
+              {
+                "codi": "CA37",
+                "text": "Interpreta la informació de configuració del sistema operatiu, del maquinari instal·lat i aplicacions, i aplica tècniques de manteniment del programari d’aplicació."
+              },
+              {
+                "codi": "CA38",
+                "text": "Executa operacions per a l’automatització de tasques del sistema."
+              },
+              {
+                "codi": "CA39",
+                "text": "Executa programes i guions administratius segons indicacions de l’administrador."
+              },
+              {
+                "codi": "CA310",
+                "text": "Aplica mètodes per a la recuperació del sistema operatiu."
+              },
+              {
+                "codi": "CA311",
+                "text": "Comprova el funcionament correcte del sistema després de la realització de tasques de manteniment i administració, i manté l’inventari del programari actualitzat."
+              },
+              {
+                "codi": "CA312",
+                "text": "Documenta adequadament les tasques d’administració, les incidències aparegudes i les solucions aportades, i cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de sistemes operatius propietaris",
+                "items": [
+                  "Requisits tècnics del sistema operatiu a instal·lar.",
+                  "Selecció del sistema operatiu a instal·lar.",
+                  "Mètodes d’instal·lació i planificació dels paràmetres bàsics: particions, sistemes d’arxius a emprar. Esquemes de partició. Clonació.",
+                  "Instal·lació de sistemes operatius i configuració de paràmetres bàsics.",
+                  "Selecció d’aplicacions bàsiques a instal·lar.",
+                  "Creació d’escenaris duals amb diferents sistemes operatius instal·lats.",
+                  "Gestor d’arrencada. Configuració.",
+                  "Normes d’utilització del programari.",
+                  "Documentació del procés d’instal·lació i incidències.",
+                  "Interpretació de documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Realització de tasques bàsiques de configuració i manteniment sobre sistemes operatius propietaris",
+                "items": [
+                  "Arrencada i parada del sistema. Sessions.",
+                  "Utilització del sistema operatiu: mode ordre, mode gràfic.",
+                  "Interfícies d’usuari: tipus, propietats i usos. Configuració de les preferències d’escriptori. Accessibilitat per a persones discapacitades.",
+                  "Operació amb arxius: nom i extensió, comodins. Operacions més comunes. Permisos i atributs d’arxius i directoris. Estructura de l’arbre de directoris. Rutes. Eines gràfiques.",
+                  "Compressió i descompressió de fitxers.",
+                  "Actualització del sistema operatiu.",
+                  "Agregació, configuració, eliminació i/o actualització de programari del sistema operatiu.",
+                  "Configuració de l’entorn de xarxa i la connectivitat, i configuració de dispositius perifèrics en diferents sistemes operatius. Assistents i consola.",
+                  "Implantació de pegats del sistema i mòduls de codi.",
+                  "Inventari del programari instal·lat.",
+                  "Funcionament correcte de les configuracions realitzades.",
+                  "Documentació del procés de configuració. Interpretació de documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Administració dels sistemes operatius propietaris",
+                "items": [
+                  "Creació i gestió d’usuaris i grups. Gestió de perfils d’usuaris i grups locals. Contrasenyes. Permisos.",
+                  "Gestió del sistema d’arxius. Eines gràfiques i de consola.",
+                  "Gestió dels processos del sistema i d’usuari. Activació i desactivació de serveis.",
+                  "Optimització de la memòria i del funcionament dels dispositius d’emmagatzematge.",
+                  "Rendiment del sistema. Eines del sistema de seguiment i monitoratge.",
+                  "Compartició de recursos.",
+                  "Interpretació de dades de configuració i comportament del sistema operatiu, maquinari instal·lat i aplicacions. Tècniques de manteniment del programari d’aplicació.",
+                  "Automatització de tasques.",
+                  "Execució de programes i guions administratius.",
+                  "Mètodes per a la recuperació del sistema operatiu.",
+                  "Comprovació del funcionament correcte del sistema. Manteniment de l’inventari del programari utilitzat i seguiment del registre de canvis.",
+                  "Documentació de les tasques d’administració i les incidències aparegudes amb les seves solucions. Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "sistemes operatius lliures",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la sistemes operatius lliures, relacionant-ne les característiques amb el maquinari de l’equip i el programari d’aplicació, i amb l’ajuda de documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Verifica la idoneïtat del maquinari disponible per a la instal·lació de sistemes operatius."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona el sistema operatiu a instal·lar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Elabora un pla d’instal·lació. Clonació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la sistemes operatius lliures i configura paràmetres bàsics de la instal·lació seguint els passos de la documentació tècnica."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona aplicacions bàsiques a instal·lar."
+              },
+              {
+                "codi": "CA16",
+                "text": "Implanta sistemes duals amb els diferents sistemes operatius lliures i propietaris instal·lats."
+              },
+              {
+                "codi": "CA17",
+                "text": "Configura el gestor d’arrencada."
+              },
+              {
+                "codi": "CA18",
+                "text": "Respecta i coneix les normes d’utilització del programari."
+              },
+              {
+                "codi": "CA19",
+                "text": "Documenta el procés d’instal·lació, les incidències aparegudes i les seves solucions per assessorar l’usuari final."
+              },
+              {
+                "codi": "CA110",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tasques bàsiques de configuració de sistemes operatius lliures, interpretant requeriments i descrivint els procediments seguits amb l’ajuda de documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza arrencades i parades del sistema."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza el sistema operatiu en mode ordre i mode gràfic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Diferencia les interfícies d’usuari segons les seves propietats i aplica preferències en la configuració de l’entorn personal."
+              },
+              {
+                "codi": "CA24",
+                "text": "Opera adequadament amb arxius i directoris, i gestiona els permisos i atributs d’arxius i directoris."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza tasques de compressió i descompressió de fitxers."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza la configuració per a l’actualització del sistema operatiu."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza operacions d’instal·lació i desinstal·lació d’utilitats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza assistents de configuració del sistema (accés a xarxes, dispositius perifèrics, entre altres)."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza l’inventari del programari instal·lat."
+              },
+              {
+                "codi": "CA210",
+                "text": "Comprova el funcionament correcte de les configuracions realitzades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Realitza una documentació adequada de la configuració del sistema operatiu orientada a l’usuari final, i cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Realitza operacions bàsiques d’administració i manteniment de sistemes operatius lliures, interpretant requeriments i optimitzant el sistema per al seu ús amb l’ajut de documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Crea i gestiona usuaris i grups, i configura perfils d’usuari i grup."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza eines gràfiques per descriure l’organització dels arxius del sistema."
+              },
+              {
+                "codi": "CA33",
+                "text": "Actua sobre els processos de l’usuari i serveis del sistema en funció de les necessitats puntuals."
+              },
+              {
+                "codi": "CA34",
+                "text": "Aplica criteris per a l’optimització de la memòria disponible i optimitza el funcionament dels dispositius d’emmagatzematge."
+              },
+              {
+                "codi": "CA35",
+                "text": "Analitza l’activitat del sistema a partir de les traces generades pel mateix sistema."
+              },
+              {
+                "codi": "CA36",
+                "text": "Reconeix i configura els recursos compartibles del sistema."
+              },
+              {
+                "codi": "CA37",
+                "text": "Interpreta la informació de configuració del sistema operatiu, del maquinari instal·lat i aplicacions, i aplica tècniques de manteniment del programari d’aplicació."
+              },
+              {
+                "codi": "CA38",
+                "text": "Executa operacions per a l’automatització de tasques del sistema."
+              },
+              {
+                "codi": "CA39",
+                "text": "Executa programes i guions administratius segons indicacions de l’administrador."
+              },
+              {
+                "codi": "CA310",
+                "text": "Aplica mètodes per a la recuperació del sistema operatiu."
+              },
+              {
+                "codi": "CA311",
+                "text": "Comprova el funcionament correcte del sistema després de la realització de tasques de manteniment i administració, i manté l’inventari del programari actualitzat."
+              },
+              {
+                "codi": "CA312",
+                "text": "Documenta adequadament les tasques d’administració, les incidències aparegudes i les solucions aportades, i cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de sistemes operatius lliures",
+                "items": [
+                  "Requisits tècnics del sistema operatiu a instal·lar.",
+                  "Selecció del sistema operatiu a instal·lar.",
+                  "Mètodes d’instal·lació i planificació dels paràmetres bàsics: particions, sistemes d’arxius a emprar. Esquemes de partició. Clonació.",
+                  "Instal·lació de sistemes operatius i configuració de paràmetres bàsics.",
+                  "Selecció d’aplicacions bàsiques a instal·lar.",
+                  "Creació d’escenaris duals amb diferents sistemes operatius lliures i propietaris instal·lats.",
+                  "Gestor d’arrencada. Configuració.",
+                  "Normes d’utilització del programari.",
+                  "Documentació del procés d’instal·lació i incidències.",
+                  "Interpretació de documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Realització de tasques bàsiques de configuració i manteniment sobre sistemes operatius lliures",
+                "items": [
+                  "Arrencada i parada del sistema. Sessions.",
+                  "Utilització del sistema operatiu: mode ordre, mode gràfic.",
+                  "Interfícies d’usuari: tipus, propietats i usos. Configuració de les preferències d’escriptori. Accessibilitat per a persones discapacitades.",
+                  "Operació amb arxius: nom i extensió, comodins. Operacions més comunes. Permisos i atributs d’arxius i directoris. Estructura de l’arbre de directoris. Rutes. Eines gràfiques.",
+                  "Compressió i descompressió de fitxers.",
+                  "Actualització del sistema operatiu.",
+                  "Agregació, configuració, eliminació i/o actualització de programari del sistema operatiu.",
+                  "Configuració de l’entorn de xarxa i la connectivitat, i configuració de dispositius perifèrics en diferents sistemes operatius. Assistents i consola.",
+                  "Inventari del programari instal·lat.",
+                  "Funcionament correcte de les configuracions realitzades.",
+                  "Documentació del procés de configuració. Interpretació de documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Administració dels sistemes operatius lliures",
+                "items": [
+                  "Creació i gestió d’usuaris i grups. Gestió de perfils d’usuaris i grups locals. Contrasenyes. Permisos.",
+                  "Gestió del sistema d’arxius. Eines gràfiques i de consola.",
+                  "Gestió dels processos del sistema i d’usuari. Activació i desactivació de serveis.",
+                  "Optimització de la memòria i del funcionament dels dispositius d’emmagatzematge.",
+                  "Rendiment del sistema. Eines del sistema de seguiment i monitoratge.",
+                  "Compartició de recursos.",
+                  "Interpretació de dades de configuració i comportament del sistema operatiu, maquinari instal·lat i aplicacions. Tècniques de manteniment del programari d’aplicació.",
+                  "Automatització de tasques.",
+                  "Execució de programes i guions administratius.",
+                  "Mètodes per a la recuperació del sistema operatiu.",
+                  "Comprovació del funcionament correcte del sistema. Manteniment de l’inventari del programari utilitzat i seguiment del registre de canvis.",
+                  "Documentació de les tasques d’administració i les incidències aparegudes amb les seves solucions. Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AU",
+    "titol_cicle": "Automoció",
+    "grau": "desconegut",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE EDU/69/2023, de 30 de març, per la qual s'estableix el currículum del cicle formatiu de grau mitjà de Manteniment d'Embarcacions d'Esbarjo.",
+    "data_decret": "2023-03-30",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Manteniment de les Instal·lacions i Màquines Elèctriques en Vaixells i Embarcacions",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "circuits elèctrics als vaixells",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina paràmetres de funcionament de circuits elèctrics de corrent continu, corrent altern i corrent altern trifàsic a partir d'especificacions tècniques, fent lectures amb equips de mesura i càlcul de magnituds elèctriques.",
+            "criteris_avaluacio": [],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Efectua l'acoblament i la distribució de càrrega segons les demandes de força i enllumenat, controlant els paràmetres de funcionament dels generadors elèctrics en el quadre de distribució d'energia. Criteris d'avaluació2.1 Verifica el funcionament dels generadors elèctrics, controlant-ne els paràmetres des del quadre de distribució d'energia.2.2 Comprova el funcionament dels instruments de mesura i les làmpades de senyalització del quadre de distribució.2.3 Verifica el funcionament dels sistemes de protecció dels generadors davant sobrecàrregues i potència inversa, comprovant l'activació de les alarmes.2.4 Acobla dos o més generadors en funció de la demanda, controlant els paràmetres de funcionament i equilibrant la càrrega.2.5 Desacobla els generadors i connecta la presa de corrent exterior, comprovant els paràmetres de funcionament i la correcta successió de fases.2.6 Verifica el funcionament en automàtic de l'acoblament, repartiment de càrrega i desacoblament de generadors, en funció de la demanda de força i enllumenat.",
+            "criteris_avaluacio": [],
+            "continguts": [
+              {
+                "bloc": "Determinació dels paràmetres de funcionament en corrent continu (CC), corrent altern (CA) i corrent altern trifàsic",
+                "items": [
+                  "Conductors i aïllants.",
+                  "Circuits elèctrics en corrent continu.",
+                  "Circuits elèctrics en corrent altern: resistències, bobines i condensadors en corrent altern. Factor de potència. Millora del factor de potència. Potència aparent, activa i reactiva. Mesures de tensió, intensitat i potència en corrent altern monofàsic.",
+                  "Circuits elèctrics trifàsics: connexió dels generadors trifàsics. Connexió de receptors trifàsics: estrella, triangle. Millora del factor de potència a les instal·lacions trifàsiques. Mesures de tensió, intensitat i potència en els sistemes trifàsics. Mesura de la potència aparent, activa i reactiva en els sistemes trifàsics.",
+                  "Instal·lacions d'alta tensió."
+                ]
+              },
+              {
+                "bloc": "Control dels generadors elèctrics",
+                "items": [
+                  "Circuits magnètics de les màquines elèctriques.",
+                  "Alternador trifàsic: circuit magnètic i circuit elèctric. Constitució de l'estator i rotor de l'alternador. Alternador amb escombretes i excitatriu incorporada a l'alternador. Alternadors sense escombretes.",
+                  "Sistemes de mesura elèctrica. Sistemes de mesura: bobina mòbil, ferro mòbil, electrodinàmic, d'inducció i làmines vibrants. Ampliació de l'abast en la mesura d'intensitat en corrent altern amb transformadors d'intensitat. Mesures de potència.2.4 Sistemes de protecció d'alternadors: interruptor automàtic. Protecció magnètica per a curtcircuits. Protecció tèrmica de sobrecàrregues. Bobina de mínima tensió. Relé de sobrecàrrega. Serveis no essencials.2.5 Control d'acoblament d'alternadors: sistema manual i automàtic. Sincronoscopi i làmpades indicadores de sincronisme. Relé de sincronisme. Sistemes per a la regulació de velocitat (freqüència) dels alternadors. Equilibrament de les càrregues, regulació de càrrega variant la velocitat. Funcionament de l'alternador com a motor síncron, relé de potència inversa.2.6 Control de la desconnexió d'alternadors i connexió de la presa de corrent exterior: reducció de la càrrega de l'alternador i desconnexió. Exclusió d'alternadors i presa de corrent exterior. Relé de successió de fases."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "màquines elèctriques i instal·lacions de corrent altern als vaixells",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Efectua operacions de manteniment de la maquinària elèctrica, identificant avaries i disfuncions, aplicant les tècniques per aconseguir un rendiment òptim i analitzant-ne la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Efectua mesuraments, seguint els procediments establerts, per verificar que els valors dels aïllaments de generadors, equips i línies s'ajusten als paràmetres establerts."
+              },
+              {
+                "codi": "CA12",
+                "text": "Verifica que els consums i les temperatures de generadors i màquines elèctriques rotatives no superen els valors especificats."
+              },
+              {
+                "codi": "CA13",
+                "text": "Efectua les operacions de greixatge, neteja i alineació de les màquines giratòries, verificant els valors de temperatura i vibració."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica el funcionament dels transformadors monofàsics i trifàsics segons els paràmetres de funcionament establerts en les especificacions tècniques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica avaries, relacionant-les amb la causa, utilitzant els aparells de mesura especificats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Repara o substitueix els elements avariats, utilitzant les eines amb seguretat i verificant la restitució del funcionament.1.7 Identifica els sistemes de propulsió elèctrica i els seus elements auxiliars. 2. Efectua operacions de manteniment preventiu i correctiu del quadre principal de distribució, efectuant els mesuraments i les intervencions segons la documentació tècnica. Criteris d'avaluació2.1 Reconeix els elements del quadre principal del vaixell, interpretant la simbologia en els esquemes de distribució de la documentació tècnica i en diferencia la xarxa principal de la xarxa d'enllumenat amb els seus diferents nivells de tensió.2.2 Comprova els elements de protecció dels generadors, del quadre principal i dels diferents consumidors, verificant que el disparament selectiu actua segons el que hi ha establert.2.3 Verifica el funcionament dels sistemes de distribució de corrent elèctric aplicats a instal·lacions del vaixell (planta de fred i servotimó, entre d'altres), interpretant els esquemes associats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Manteniment de generadors i receptors elèctrics",
+                "items": [
+                  "Mesurament d'aïllament elèctric. Aparells de mesura d'aïllament (Megger). Làmpades de baix aïllament. Relé diferencial de fuita de corrent.",
+                  "Mesurament d'intensitat de corrent i temperatura en generadors i motors. Pinces amperimètriques. Mesura de la temperatura de debanats. Funcionament dels ventiladors. Sensors de temperatura en alternadors i motors especials.",
+                  "Característiques de funcionament dels motors de corrent continu i de corrent altern. Principi de funcionament del motor de corrent altern. Motors trifàsics. Motor de gàbia d'esquirol. Corbes de parell/velocitat i d'intensitat/velocitat. Sistemes d'arrencada del motor de corrent altern. Arrencada directa. Corbes de parell/velocitat i d'intensitat/velocitat. Inversió de gir. Necessitat de l'arrencada estrella/triangle. Corbes de parell/velocitat i d'intensitat/velocitat. Impossibilitat d'arrencada del motor monofàsic de gàbia d'esquirol. Motor de fase partida amb debanat auxiliar. Motor de fase partida amb condensador.",
+                  "Transformadors monofàsics i trifàsics. Principi de funcionament del transformador. Funcionament del transformador en buit i en càrrega. Característiques del transformador trifàsic. Connexió del transformador.1.5 Funcionament dels rodaments i acoblament. Mesurament de vibracions i de la temperatura dels rodaments. Greixatge de rodaments. Acoblament flexible.1.6 Utilització d'eines, aparells de mesura i aplicació de tècniques de mesurament.1.7 Localització i reparació d'avaries en maquinària elèctrica.1.8 Sistemes de propulsió elèctrics. 2. Operacions de manteniment preventiu i correctiu del quadre principal de distribució:2.1 Documentació i simbologia del quadre principal. Interpretació de la documentació i esquema elèctric del quadre principal. Característiques dels interruptors automàtics. Bobina de mínima tensió i de màxima tensió. Interruptors automàtics de potència. Desconnexió dels serveis no essencials. Alarmes i diferents esglaons. Elements lligats al sistema contraincendis. Desconnexió dels equips de combustibles i comburents.",
+                  "Arrencada del grup d'emergència. Relé de fallada de tensió. Arrencada i acoblament del grup d'emergència. Quadre d'emergència.2.3 Embarrats. Indicadors d'aïllament dels embarrats. Equilibratge del consum de fases. Mesura del factor de potència.2.4 Interpretació de l'esquema elèctric per a la posada en marxa de l'equip frigorífic. Tipus d'arrencada dels compressors de fred. Solenoide de descompressió per a l'arrencada.2.5 Interpretació de l'esquema elèctric per a la posada en marxa de l'equip elèctric del servomotor del timó. Arrencada local o remota (pont). Solenoides o electrovàlvules. Finals de cursa. Sensors de nivell. Indicadors i alarmes.2.6 Localització i reparació d'avaries en el quadre principal. 3. Muntatge d'instal·lacions elèctriques elementals de baixa tensió:3.1 Disseny dels esquemes elèctrics. Esquema multifilar i unifilar. Esquema de força o principal i esquema de comandament o maniobra. Tensions de força i tensions de comandament.3.2 Muntatge de sistemes d'arrencada aplicant-hi normativa de baixa tensió per a l'elecció del cablatge segons la intensitat prevista, el nombre de conductors de la línia i la temperatura ambient. Taules.",
+                  "Utilització i elecció de l'eina.",
+                  "Tipus de làmpades d'il·luminació: làmpades incandescents. Làmpades fluorescents. Reactàncies i encebadors. Condensadors per millorar el factor de potència.",
+                  "Elements de maniobra, indicació, protecció i control d'arrencada dels motors de corrent altern. Simbologia. Interruptors unipolars i bipolars. Commutadors simples o d'encreuament. Fusibles. Tipus de fusibles. Contactors. Contactes auxiliars. Realimentació. Protecció de motors. Relé tèrmic de sobrecàrrega. Relé de maniobra. Detectors de temperatura de debanats.",
+                  "Mesures de tensió, intensitat i continuïtat. Utilització del polímetre. Pinces amperimètriques."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "instal·lacions de corrent continu i equips electrònics als vaixells",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Efectua el manteniment i la instal·lació de serveis i circuits de corrent continu, interpretant esquemes i efectuant les operacions programades o requerides per mantenir-ne l'operativitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Efectua les operacions de manteniment i la instal·lació dels sistemes de generació i acumulació d'energia elèctrica i dels motors de corrent continu del vaixell i de les embarcacions auxiliars segons el pla establert.1.2 Aplica la seqüència d'intervenció per localitzar la causa o les causes de l'avaria o disfunció en els equips de bateries, sistemes de càrrega i motors de corrent continu del vaixell i de les embarcacions auxiliars, contrastant els valors mesurats i interpretant-ne la documentació tècnica.1.3 Verifica el funcionament dels carregadors de bateries i generadors de càrrega de bateries del vaixell i de les embarcacions auxiliars, manejant amb precisió els aparells de mesura.1.4 Efectua les operacions de manteniment i la instal·lació dels sistemes de distribució i d'alimentació dels equips electricoelectrònics, govern, enllumenat i senyalització de corrent continu, utilitzant els instruments i la documentació tècnica.1.5 Comprova la disposició dels circuits per a la connexió automàtica de l'enllumenat d'emergència i efectua, en cas que sigui necessari, les accions correctives."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica el funcionament de les alarmes generals, les alarmes del motor principal i les alarmes dels motors auxiliars quan es produeixen variacions dels paràmetres que controlen.1.7 Comprova els paràmetres de funcionament dels elements elèctrics constituents del motor d'arrencada del vaixell i de les embarcacions auxiliars, identificant les causes de possibles disfuncions o avaries.1.8 Aplica la normativa de gestió dels residus generats en les operacions de manteniment i instal·lació dels sistemes de distribució, generació i acumulació d'energia elèctrica del vaixell i de les embarcacions auxiliars. 2. Localitza i repara per substitució avaries en reguladors de generadors i reguladors de càrrega de bateries, aplicant els protocols d'intervenció establerts i analitzant els paràmetres de funcionament. Criteris d'avaluació2.1 Comprova l'operativitat dels elements que constitueixen un carregador de bateries i un generador, segons la seva funció dins de l'equip.2.2 Localitza i substitueix elements defectuosos del sistema de càrrega de bateries d'acord amb els procediments d'intervenció establerts en la documentació tècnica, utilitzant les eines i els aparells de mesura amb precisió."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Manteniment d'instal·lacions de corrent continu",
+                "items": [
+                  "Efecte químic del corrent elèctric. Bateries. Característiques dels acumuladors de plom. Constitució i capacitat dels acumuladors. Tensió i corrent de càrrega i de descàrrega. Resistència interna.",
+                  "Alimentació de corrent continu als aparells de pont. Quadre de corrent continu. Proteccions. Rectificador trifàsic.1.3 Característiques dels carregadors de bateries. Intensitat de càrrega de bateries. Control de càrrega de bateries.1.4 Característiques dels generadors de càrrega de bateries. Regulador. Control de la càrrega de bateries. Variació del corrent d'excitació amb la velocitat de gir.1.5 Muntatge i desmuntatge del generador de càrrega de bateries.1.6 Motor d'arrencada elèctrica. Característiques de l'estator. Nombre de pols. Característiques del rotor. Col·lector de delgues. Bobina de connexió del motor d'arrencada. Sistemes d'engranatge.1.7 Muntatge i desmuntatge del motor d'arrencada elèctrica.1.8 Manteniment de bateries. Comprovació de l'estat de les bateries. Densímetres. Mesuradors de curtcircuit. Col·locació de bateries subjectes en un lloc sec i ventilat. Manteniment dels terminals de connexió nets i collats. Manteniment del nivell d'electròlit. Evitar la descàrrega completa de les bateries.",
+                  "Sistema de llums d'emergència. Relé de fallada de tensió. Quadre de llums d'emergència.1.10 Sistemes d'alarma. Sistemes d'alarma a relés desexcitats i excitats. Utilització d'autòmats programables. Relés de maniobra. 2. Localització i reparació per substitució de sistemes electrònics de regulació:2.1 Característiques dels rectificadors monofàsics i trifàsics. Díodes rectificadors. Pont rectificador.2.2 Reguladors de tensió d'alternadors per a càrrega de bateries. Díodes Zener. Transistors bipolars. NPN i PNP. Ajust i comprovació del regulador segons la documentació tècnica.2.3 Reguladors de tensió per a alternadors amb escombretes. Tiristors. Elements de control de tiristors. Relé d'encebament. Ajust de la tensió i de la velocitat de resposta segons la documentació tècnica.2.4 Reguladors de tensió per a alternadors sense escombretes. Doble alternador: induït fix i mòbil i inductor fix i mòbil. Pont rectificador giratori. Comprovació dels díodes. Targeta de regulació de tensió. Ajust de la tensió i de la velocitat de resposta segons documentació tècnica.",
+                  "Característiques dels convertidors de freqüència. Transistor bipolar de porta aïllada (IGBT).",
+                  "Localització i reparació d'avaries en reguladors electrònics.",
+                  "Esquemes electrònics bàsics."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos laborals i mediambientals en els treballs de manteniment d'instal·lacions i equips elèctrics",
+                "items": [
+                  "Normativa de riscos laborals.",
+                  "Compliment de la reglamentació de les instal·lacions quant a conservació i seguretat.",
+                  "Procés de suspensió de la tensió.",
+                  "Risc de curtcircuit en arc elèctric amb tensions inferiors a 50 volts.",
+                  "Treball amb tensions superiors a la de seguretat.",
+                  "Normativa sobre materials i equips.",
+                  "Ordre, cura i neteja de les instal·lacions, eines i equips.",
+                  "Normativa de riscos mediambientals."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

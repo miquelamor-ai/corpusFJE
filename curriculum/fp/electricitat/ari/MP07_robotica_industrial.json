@@ -1,0 +1,656 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "robòtica industrial",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "configuració de robots industrials",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix diferents tipus de robots i sistemes de control de moviment, identificant els components que els formen i determinant les seves aplicacions en entorns industrials automatitzats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica aplicacions industrials en les quals es justifica l’ús de robots i de sistemes de control de moviment."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina la tipologia i les característiques dels robots i dels manipuladors industrials."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona els elements elèctrics que conformen un sistema robotitzat i de control de moviment, amb la seva aplicació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix els sistemes mecànics utilitzats en les articulacions de robots i manipuladors industrials."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els sistemes d’alimentació elèctrica, pneumàtica i/o oleohidràulica requerits per a diferents tipus d’aplicacions robòtiques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica robots i manipuladors industrials en funció de l’aplicació requerida."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix els elements que integren una cel·la robotitzada."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix el layout d’una cel·la robotitzada com a esquema de distribució lògic i ordenat per a optimitzar el procés."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica la reglamentació i la normativa sobre seguretat en maquinària industrial."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura sistemes robòtics i de control de moviment, seleccionant i connectant els elements que el componen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona elements de captació i d’actuació necessaris per comunicar els robots i els manipuladors industrials amb el seu entorn."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza croquis i esquemes de sistemes robòtics i de control de moviment mitjançant busos de comunicació industrial."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza simbologia normalitzada per a la representació dels dispositius."
+              },
+              {
+                "codi": "CA24",
+                "text": "Representa els elements de seguretat requerits en l’entorn d’un robot."
+              },
+              {
+                "codi": "CA25",
+                "text": "Connecta els components del sistema robòtic i de control de moviment."
+              },
+              {
+                "codi": "CA26",
+                "text": "Descriu els elements de comandament i senyalització que formen part del tauler de control."
+              },
+              {
+                "codi": "CA27",
+                "text": "Analitza el funcionament, la seqüència, la trajectòria i les interaccions del robot amb altres elements del sistema robotitzat."
+              },
+              {
+                "codi": "CA28",
+                "text": "Té en compte les mesures de seguretat."
+              },
+              {
+                "codi": "CA29",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA210",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica les normes de seguretat i prevenció de riscos laborals en sistemes robotitzats, identificant i interpretant els factors de risc i utilitzant els mitjans i els equips de seguretat individuals i col·lectius necessaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos, el nivell de perillositat i les causes més freqüents d’accidents que suposa la manipulació de robots industrials."
+              },
+              {
+                "codi": "CA32",
+                "text": "Opera amb màquines i eines, respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els mitjans i els equips de seguretat individuals i col·lectius necessaris per al muntatge de sistemes robotitzats, i els relaciona amb els factors de risc associats."
+              },
+              {
+                "codi": "CA34",
+                "text": "Descriu les característiques dels mitjans i dels equips de seguretat individuals i col·lectius, necessaris en cada una de les fases de muntatge del sistema robotitzat."
+              },
+              {
+                "codi": "CA35",
+                "text": "Descriu les característiques i la finalitat dels senyals reglamentaris, per indicar llocs de risc i situacions d’emergència."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA37",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA38",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de diferents tipus de robots i sistemes de control de moviment",
+                "items": [
+                  "Aplicacions de robots i sistemes de control de moviment (motion control).",
+                  "Tipologia i característiques dels robots.",
+                  "Anàlisi de sistemes de seguretat en entorns robotitzats.",
+                  "Morfologia d’un robot. Elements constitutius. Graus de llibertat.",
+                  "Sistemes mecànics: elements mecànics. Sistemes de transmissió. Transformació de moviment i reductors.",
+                  "Sensors interns i externs.",
+                  "Actuadors: elèctrics, pneumàtics i hidràulics.",
+                  "Elements terminals i de manipulació.",
+                  "Estris i eines del robot.",
+                  "Unitats de control de robots.",
+                  "Sistemes de control de moviment.",
+                  "Unitats de programació.",
+                  "Sistemes telemanipulats per al control de manipuladors i/o robots.",
+                  "Sistemes de guiatge.",
+                  "Sistemes de navegació en aplicacions mòbils.",
+                  "Característiques bàsiques de cel·les robotitzades.",
+                  "Instal·lació en cel·les robotitzades. Espai de treball. Layout.",
+                  "Reglamentació i normativa industrial."
+                ]
+              },
+              {
+                "bloc": "Configuració d’instal·lacions de robots i sistemes de control de moviment en el seu entorn",
+                "items": [
+                  "Simbologia normalitzada.",
+                  "Representació d’esquemes en aplicacions robotitzades. Esquemes pneumàtics i hidràulics aplicats al control de moviment.",
+                  "Connexió de sensors per a la captació de senyals digitals i analògiques en entorns robotitzats i de control de moviment.",
+                  "Connexió d'actuadors utilitzats en robòtica i sistemes de control de moviment: pneumàtics, hidràulics i elèctrics.",
+                  "Connexió de controladors (drivers) en sistemes de control de moviment.",
+                  "Connexió de dispositius i mòduls de seguretat en entorns robotitzats.",
+                  "Pannels i elements de comandament i senyalització.",
+                  "Tipus de funcionament: posada en marxa, aturada general, aturades d’emergència, manual, automàtic, pas a pas, entre d’altres.",
+                  "Representació de seqüències i diagrames de flux.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Seguretat i prevenció de riscos laborals en sistemes robotitzats",
+                "items": [
+                  "Normativa sobre seguretat i salut laboral en els sistemes robotitzats.",
+                  "Requisits de seguretat en una cel·la robotitzada.",
+                  "Factors de risc.",
+                  "Tècniques de manipulació i trasllat de càrregues.",
+                  "Prevenció de riscos laborals en els processos de muntatge i funcionament de sistemes robotitzats.",
+                  "Pla de seguretat en sistemes robotitzats.",
+                  "Mitjans i equips de seguretat individuals i col·lectius.",
+                  "Senyalització, tipus i senyals."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "programació de robots industrials",
+        "hores": 38,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Programa robots i sistemes de control de moviment, utilitzant tècniques de programació i processament de dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Planifica la trajectòria de moviment d’un robot."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els diferents tipus de senyals que s’han de processar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els sistemes de representació, posicionament i arquitectura de control del robot."
+              },
+              {
+                "codi": "CA14",
+                "text": "Estableix la seqüència de control mitjançant un gràfic seqüencial o un diagrama de flux."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica les instruccions de programació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica els diferents tipus de dades processades en la programació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Programa el robot o el sistema de control de moviment."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza diferents llenguatges i sistemes de programació."
+              },
+              {
+                "codi": "CA19",
+                "text": "Integra la programació del robot dins una cel·la robotitzada."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora el protocol de posada en marxa del sistema."
+              },
+              {
+                "codi": "CA111",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA112",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA113",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA114",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica el funcionament de robots i sistemes de control de moviment, ajustant els dispositius de control i aplicant les normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova el connexionat entre els elements que conformen un sistema robotitzat i/o de control de moviment."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica el funcionament dels dispositius de seguretat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Segueix un protocol d’actuació per a la posada en servei d’un robot i/o un sistema de control de moviment."
+              },
+              {
+                "codi": "CA24",
+                "text": "Verifica la seqüència de funcionament."
+              },
+              {
+                "codi": "CA25",
+                "text": "Calibra els sensors interns per al posicionament d’un robot i/o un sistema de control d’eixos."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova la resposta dels sistemes de control de moviment davant de situacions anòmals."
+              },
+              {
+                "codi": "CA27",
+                "text": "Monitoritza l’estat dels senyals externs i interns, i el valor de les dades processades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Té en compte les normes de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA29",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació de robots i sistemes de control de moviment",
+                "items": [
+                  "Posicionament de robots. Operacions lògiques aplicades a la programació de robots.",
+                  "Llenguatges de programació de robots.",
+                  "Programació per aprenentatge o guiatge. Actiu, passiu i estès.",
+                  "Programació seqüencial.",
+                  "Programació de sistemes de control de moviment.",
+                  "Tipus de funcionament, posada en marxa i aturada.",
+                  "Integració del robot en una cel·la robotitzada."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament de robots i sistemes de control de moviment",
+                "items": [
+                  "Tècniques de verificació, de mesura i d’ajustament.",
+                  "Monitoratge de programes.",
+                  "Instruments de mesura.",
+                  "Pla d’actuació per a la posada en servei.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "manteniment de robots industrials",
+        "hores": 17,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Manté sistemes industrials robotitzats, aplicant tècniques de manteniment industrial d’acord amb els procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els tipus de manteniment industrial."
+              },
+              {
+                "codi": "CA12",
+                "text": "Aplica les tècniques de manteniment associades a sistemes robotitzats."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza la planificació del manteniment en un sistema robotitzat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Segueix els procediments de manteniment establerts."
+              },
+              {
+                "codi": "CA15",
+                "text": "Redacta el manual de manteniment."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza el pla de manteniment a partir del pla de qualitat i les condicions de protecció mediambientals."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora documentació de registre d’avaries."
+              },
+              {
+                "codi": "CA18",
+                "text": "Té en compte les normes de seguretat requerides en cada fase."
+              },
+              {
+                "codi": "CA19",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA111",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Repara avaries en entorns industrials robotitzats i/o de control de moviment, diagnosticant disfuncions i elaborant informes d’incidències.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix els punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza instrumentació de mesura i comprovació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Diagnostica les causes de les avaries."
+              },
+              {
+                "codi": "CA24",
+                "text": "Localitza les avaries."
+              },
+              {
+                "codi": "CA25",
+                "text": "Restableix el funcionament del sistema."
+              },
+              {
+                "codi": "CA26",
+                "text": "Documenta l’avaria en un informe d’incidències del sistema."
+              },
+              {
+                "codi": "CA27",
+                "text": "Té en compte les normes de seguretat."
+              },
+              {
+                "codi": "CA28",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA29",
+                "text": "Utilitza les eines adequades per a cada operació."
+              },
+              {
+                "codi": "CA210",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA211",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Manteniment de sistemes industrials robotitzats",
+                "items": [
+                  "Tipus de manteniment: correctiu, preventiu, predictiu i productiu total (TPM).",
+                  "Conceptes associats al manteniment: fiabilitat, mantenibilitat i disponibilitat.",
+                  "Planificació, programació i organització del manteniment. Pla de manteniment: reparació, modificació, substitució.",
+                  "Diagrames de presa de decisions.",
+                  "Mètodes de diagnosi i adquisició de dades.",
+                  "Documentació associada al manteniment.",
+                  "Recopilació d’informació i històric d’avaries associat al manteniment.",
+                  "Manual de manteniment. Procediments d’actuació en la reparació i en el manteniment de sistemes industrials robotitzats.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Reparació d’avaries en entorns industrials robotitzats i/o de control de moviment",
+                "items": [
+                  "Tècniques de diagnosi i localització d’avaries: tècniques d’actuació.",
+                  "Equips i eines utilitzats en la localització i en la reparació d’avaries en robots industrials.",
+                  "Tècniques de reparació d’avaries en robots industrials.",
+                  "Tècniques de monitoratge i execució de programes.",
+                  "Registres d’avaries.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "servoaccionaments",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix diferents tipus de servomotors industrials i servoaccionaments, identificant els components que els formen i determinant les seves aplicacions en entorns industrials automatitzats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Determina la tipologia i les característiques dels servomotors industrials."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les parts que formen un servomotor industrial i els elements que el controlen."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica aplicacions industrials en les quals es justifica l’ús de servomotors i de sistemes de control de moviment."
+              },
+              {
+                "codi": "CA14",
+                "text": "Relaciona els elements que conformen un sistema de control de moviment, amb la seva aplicació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix els paràmetres cinemàtics i dinàmics de control."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix els servomotors en aplicacions industrials de control d’eixos (multieixos)."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix els servomotors com a elements actuadors dels robots industrials."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix els sistemes mecànics utilitzats en la transmissió de moviment dels servomotors industrials."
+              },
+              {
+                "codi": "CA19",
+                "text": "Reconeix els elements i els sistemes de seguretat en aplicacions industrials de control de moviments amb servomotors."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica els sistemes d’alimentació elèctrica per aplicacions de control de moviment utilitzant servomotors."
+              },
+              {
+                "codi": "CA111",
+                "text": "Identifica la reglamentació i la normativa sobre seguretat en maquinària industrial."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura servoaccionaments amb servomotors, seleccionant, connectant i parametritzant els elements que el componen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza croquis i esquemes de sistemes de control de moviment per aplicacions industrials."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza simbologia normalitzada per a la representació dels dispositius."
+              },
+              {
+                "codi": "CA23",
+                "text": "Representa els elements de seguretat requerits en l’entorn de l’aplicació industrial."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona elements de captació, control i actuació necessaris per a una aplicació industrial de control de moviment amb servomotor."
+              },
+              {
+                "codi": "CA25",
+                "text": "Connecta els components del sistema de control de moviment en aplicacions industrials amb servomotors."
+              },
+              {
+                "codi": "CA26",
+                "text": "Connecta els elements de control del servomotor amb el sistema general que controla l’aplicació industrial (host controller - PLC)."
+              },
+              {
+                "codi": "CA27",
+                "text": "Integra el sistema de control del servomotor en una aplicació industrial controlada amb autòmat programable."
+              },
+              {
+                "codi": "CA28",
+                "text": "Parametritza i programa els elements de control de moviment d’acord amb la posició, la velocitat, l’acceleració, la desacceleració, el fre i sentit de gir, parell i consum requerits en l’aplicació."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza aplicacions dels servomotors en sistemes de posicionament de control d’eixos (multieixos)."
+              },
+              {
+                "codi": "CA210",
+                "text": "Descriu els elements de comandament i senyalització que formen part del tauler de control."
+              },
+              {
+                "codi": "CA211",
+                "text": "Analitza el funcionament, la seqüència, les trajectòries i les interaccions del servomotor amb altres elements del sistema automatitzat."
+              },
+              {
+                "codi": "CA212",
+                "text": "Aplica les mesures de seguretat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA214",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA215",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de diferents tipus de servomotors i servoaccionaments",
+                "items": [
+                  "Tipus de motors utilitzats com a servomotors industrials. Brushless DC i AC. Tipus de commutació.",
+                  "Característiques dels servomotors industrials.",
+                  "Aplicacions dels sensors i captadors de posició.",
+                  "Dispositius de control de posició, de velocitat i de moviment (servodriver).",
+                  "Paràmetres cinemàtics i dinàmics.",
+                  "Entrades i sortides de control externes configurables.",
+                  "Comunicació amb controladors externs.",
+                  "Sistemes de posicionament multieixos. Servoaccionaments per al control d’eixos.",
+                  "Els servomotors com actuadors de robots industrials.",
+                  "Elements de transmissió de moviment. Tipus d’accionaments.",
+                  "Elements i sistemes de seguretat dels servomotors.",
+                  "Reglamentació i normativa industrial."
+                ]
+              },
+              {
+                "bloc": "Configuració de servoaccionaments amb servomotors",
+                "items": [
+                  "Representació gràfica d’aplicacions industrials de control de moviment amb servomotors.",
+                  "Representació de seqüències de moviments, diagrames de fase i diagrames de flux.",
+                  "Tipus de connexió dels elements que componen un sistema de control de moviment amb servomotor.",
+                  "Dispositius de seguretat al sistema del servomotor.",
+                  "Tipus de connexió del sistema de control del servomotor a l’autòmat programable (host controller) que controla l’aplicació industrial.",
+                  "Instruccions de control del servomotor amb autòmat programable.",
+                  "Paràmetres i instruccions de control de posició, velocitat, acceleració, desacceleració, fre i sentit de gir, parell i consum del servomotor.",
+                  "Monitoratge de paràmetres.",
+                  "Tipus de funcionament: de posada en marxa, aturada general, aturades d’emergència, manual, automàtic, pas a pas, entre d’altres.",
+                  "Aplicacions dels servomotors en sistemes de posicionament de control d’eixos (multieixos).",
+                  "Pannels i elements de comandament i de senyalització.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

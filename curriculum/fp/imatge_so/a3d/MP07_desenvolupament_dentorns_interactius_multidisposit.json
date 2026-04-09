@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "A3D",
+    "titol_cicle": "Animacions 3D, Jocs i Entorns Interactius",
+    "grau": "superior",
+    "familia_professional": "Imatge i So",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/31/2016, de 17 de febrer, per la qual s'estableix el currículum del cicle formatiu de grau superior d'animacions 3D, jocs i entorns interactius.",
+    "data_decret": "2016-02-17",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "desenvolupament d'entorns interactius multidispositiu",
+    "hores_totals": 264,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "desenvolupament d'aplicacions multidispositiu",
+        "hores": 40,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera les aplicacions de projectes multimèdia interactives fins a la seva compilació final, relacionant les conseqüències de les decisions preses en aquesta fase amb la possibilitat d'ulteriors desenvolupaments i actualitzacions dels projectes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Realitza l'anàlisi de les especificacions del projecte per a la seva estructuració en objectes, esdeveniments i funcionalitats."
+              },
+              {
+                "codi": "CA12",
+                "text": "Edita el codi font corresponent a la lògica de l'aplicació per donar resposta als esdeveniments i funcionalitats descrites en les especificacions del projecte."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza les tasques de depuració i detecció d'errors sobre codis font propis o reutilitzats, fins a la consecució del funcionament predeterminat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza la compilació d'aplicacions, personalitzant les diferents opcions per a la seva adequació a les especificacions del projecte."
+              },
+              {
+                "codi": "CA15",
+                "text": "Documenta el codi font, possibilitant les adaptacions i desenvolupaments posteriors."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Generació d'aplicacions per a projectes multimèdia interactius",
+                "items": [
+                  "Desenvolupament d'aplicacions multimèdia:",
+                  "Programació d'aplicacions per a multimèdia:",
+                  "Mecanismes, representació (tipus i estructures) de dades i operadors.",
+                  "Ocupació de components i creació de la interfície d'usuari:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "programació d'aplicacions multidispositiu",
+        "hores": 40,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implementa projectes multimèdia multidispositiu, tenint en compte les especificacions tècniques de cada tipus de dispositiu amb el qual es va a accedir al projecte multimèdia.",
+            "criteris_avaluacio": [],
+            "continguts": [
+              {
+                "bloc": "Implementació de projectes multimèdia multidispositiu",
+                "items": [
+                  "Programació orientada a objectes (POO):",
+                  "Desenvolupament de projectes multimèdia per a plataformes multidispositiu:",
+                  "Verificació i validació d'aplicacions multidispositiu."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "disseny de videojocs",
+        "hores": 60,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya elements per a aplicacions interactives d'entreteniment, mitjançant eines especifiques de disseny de videojocs i objectes 3D.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Dissenya el concepte d'una aplicació interactiva d'entreteniment."
+              },
+              {
+                "codi": "CA12",
+                "text": "Valora i adequa els recursos necessaris per a la creació d'un videojoc."
+              },
+              {
+                "codi": "CA13",
+                "text": "Adapta els elements per a la creació d'un videojoc, mitjançant eines específiques de creació de videojocs."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura els controls d'animació mitjançant eines específiques de creació de videojocs."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza els elements de postprocessament per a la creació de videojocs."
+              },
+              {
+                "codi": "CA16",
+                "text": "Finalitza la producció de l'aplicació interactiva d'entreteniment, valorant el resultat final. Testeja el producte final."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Disseny d'elements per a aplicacions interactives d'entreteniment",
+                "items": [
+                  "Plataformes i arquitectures per a sistemes interactius d'entreteniment (videoconsoles, ordinadors personals i dispositius mòbils):",
+                  "Creació de videojocs. Motors:",
+                  "Adaptació de materials i textures. Motors:",
+                  "Efectes de postprocessament. Motors:",
+                  "Valoració i anàlisi del resultats finals:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "desenvolupament de videojocs",
+        "hores": 50,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions interactives d'entreteniment, permetent la interacció amb els elements 3D i la participació de varis usuaris finals simultàniament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Genera entorns interactius en els quals s'integren elements 3D, i els dóna interactivitat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Desenvolupa aplicacions interactives d'entreteniment aplicades al sector educatiu (solucions d'aprenentatge electrònic (e-learning), serious games i TV interactiva, entre d'altres), augmentant la participació de l'usuari en els entorns d'aprenentatge."
+              },
+              {
+                "codi": "CA13",
+                "text": "Desenvolupa aplicacions interactives d'entreteniment per a espais i esdeveniments multimèdia, destinades a la transmissió de continguts dependents de la interactivitat de l'usuari."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea entorns interactius de videojocs que permetin la interactivitat entre els elements 3D, responent a models naturals de comportament físic, a partir d'esdeveniments desencadenats per l'usuari."
+              },
+              {
+                "codi": "CA15",
+                "text": "Posa en producció aplicacions interactives d'entreteniment en diferents entorns i dispositius, verificant la seva funcionalitat i resolent les incidències que puguin sorgir."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Desenvolupament d'aplicacions interactives d'entreteniment",
+                "items": [
+                  "Sistemes interactius d'entreteniment:",
+                  "Programació gràfica 3D:",
+                  "Verificació i validació d'aplicacions interactives d'entreteniment."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "desenvolupament d'aplicacions multimèdia",
+        "hores": 21,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implementa projectes multimèdia interactius amb comunicació amb diferents dispositius físics externs que actuen com a fonts d'informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Valora i selecciona els diferents sistemes de comunicació entre dispositius multimèdia i sistemes de captació de dades capaces de rebre informació de l'entorn."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza aplicacions multimèdia per a la comunicació entre els dispositius encarregats de gestionar els continguts interactius, responent a diferents esdeveniments d'entrada i de sortida."
+              },
+              {
+                "codi": "CA13",
+                "text": "Desenvolupa aplicacions multimèdia amb funcionalitats de lectura de dades des de dispositius externs (sensors, polsadors i càmeres de vídeo, entre d'altres), processament i conversió en esdeveniments gestionats."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza aplicacions multimèdia capaces d'actuar sobre dispositius externs (tals com a controls d'il·luminació, àudio i vídeo), a partir de la interacció de l'usuari."
+              },
+              {
+                "codi": "CA15",
+                "text": "Desenvolupa la comunicació entre dispositius mòbils i elements d'accés a la informació (codis QR i comunicació Bluetooth, entre d'altres), i aconsegueix la ubiqüitat dels continguts."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implementació de projectes multimèdia interactius amb comunicació amb dispositius físics externs",
+                "items": [
+                  "Elements de maquinari per a la interacció:",
+                  "Intercanvi d'informació entre dispositius:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF6",
+        "nom": "simulació d'entorns multidispositiu",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implementa un entorn de simulació i prova per a la revisió i verificació de les aplicacions realitzades amb un enfocament cap a un disseny per a tothom i una orientació multiplataforma i multidispositiu, garantint el funcionament correcte sota les condicions inicials especificades per al projecte abans de la posada en producció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Dissenya un entorn de simulació capaç de reproduir les condicions reals en les quals es posarà en producció l'aplicació i el projecte."
+              },
+              {
+                "codi": "CA12",
+                "text": "Implementa un entorn de simulació multiplataforma i multidispositiu i de disseny per a tothom, sobre el qual es realitzaran les verificacions del projecte."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la el projecte en diferents entorns de programari i maquinari, en verifica el correcte funcionament sobre les especificacions fixades en el projecte i defineix els requeriments mínims de treball finals."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza les bateries de proves necessàries per a la validació del prototip sobre el públic objectiu destinatari de l'aplicació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Documenta i executa les accions associades a les conclusions obtingudes de la bateria de proves realitzades per a la verificació de l'aplicació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Documenta l'aplicació mitjançant la creació de manuals d'instal·lació, ús i especificacions tècniques per a l'engegada del projecte multimèdia i el seu correcte funcionament."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implementació d'entorns de simulació i prova",
+                "items": [
+                  "Simulació d'entorns multidispositiu:",
+                  "Entorns de simulació basats en virtualització:",
+                  "Verificació i validació d'instal·lacions multimèdia interactives:",
+                  "Entorns de simulació de disseny per a tothom."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

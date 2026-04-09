@@ -1,0 +1,478 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "gestió del muntatge d’instal·lacions solars fotovoltaiques",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "característiques i equips de les instal·lacions solars fotovoltaiques",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Discrimina tipus d’instal·lacions solars fotovoltaiques per al seu muntatge, interpretant documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Selecciona els documents i la informació necessària per organitzar el muntatge de la instal·lació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix el tipus d’instal·lació fotovoltaica i els seus elements constituents a partir dels plànols."
+              },
+              {
+                "codi": "CA13",
+                "text": "Caracteritza una instal·lació fotovoltaica autònoma."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix una instal·lació fotovoltaica autònoma amb suport energètic."
+              },
+              {
+                "codi": "CA15",
+                "text": "Diferencia entre una instal·lació fotovoltaica autònoma i una instal·lació fotovoltaica connectada a xarxa."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica el sistema de seguiment d’una instal·lació fotovoltaica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix els sistemes de telecontrol."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Selecciona equips i elements d’instal·lacions solars fotovoltaiques, valorant-ne l’ús, la situació i reconeixent-ne les característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Detalla els elements i els equips que integren les instal·lacions fotovoltaiques."
+              },
+              {
+                "codi": "CA22",
+                "text": "Escull els possibles tipus de mòduls fotovoltaics."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els diferents sistemes d’estructures i d’ancoratge."
+              },
+              {
+                "codi": "CA24",
+                "text": "Reconeix els elements de sincronització, regulació i control."
+              },
+              {
+                "codi": "CA25",
+                "text": "Selecciona els sistemes d’acumulació d’energia."
+              },
+              {
+                "codi": "CA26",
+                "text": "Escull tipus de convertidors utilitzats en instal·lacions fotovoltaiques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els sistemes de seguiment solar."
+              },
+              {
+                "codi": "CA28",
+                "text": "Reconeix sistemes auxiliars i de suport."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Tipus d’instal·lacions fotovoltaiques",
+                "items": [
+                  "Funcionament global i configuració d’una instal·lació solar fotovoltaica connectada a xarxa. Funcionament global i configuració d’una instal·lació solar fotovoltaica aïllada. Emmagatzematge i acumulació. Funcionament global i configuració d’una instal·lació de suport amb un petit aerogenerador, grup electrogen o equip similar.",
+                  "Documentació tècnica i informació necessàries per organitzar el muntatge de la instal·lació.",
+                  "Especificacions tècniques i descripció d’equips i d’elements constituents. Mòduls fotovoltaics. Suports i ancoratges. Inversors per a instal·lacions aïllades i de connexió a xarxa. Acumuladors compactes i estacionaris, petits aerogeneradors, grups electrògens, equips de regulació i control i aparells de mesura i protecció. Catàlegs tècnics. Catàlegs de fabricants.",
+                  "Funcionament i característiques de les instal·lacions fotovoltaiques autònomes amb suport energètic. Precaucions. Tipus. Esquemes funcionals. Esquemes elèctrics.",
+                  "Funcionament i característiques d’instal·lacions fotovoltaiques connectades a xarxa. Precaucions. Tipus. Esquemes funcionals. Esquemes elèctrics.",
+                  "Sistemes de seguiment d’una instal·lació fotovoltaica. Característiques tècniques dels elements de guiatge d’instal·lacions fotoelèctriques. Plànols. Esquemes. Catàlegs.",
+                  "Característiques tècniques dels sistemes de telecontrol instal·lats en instal·lacions fotovoltaiques.",
+                  "Normativa d’aplicació: plec de condicions tècniques per a instal·lacions aïllades de xarxa, plec de condicions tècniques per a instal·lacions connectades a xarxa, ordenances municipals, reglament de seguretat, codi de l’edificació, REBT. Normes UNE d’aplicació en aquestes instal·lacions."
+                ]
+              },
+              {
+                "bloc": "Selecció dels equips i dels elements de les instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Determinació i selecció d’equips i d’elements necessaris per al muntatge. Característiques tècniques. Tipus. Esquemes de connexions. Catàlegs de fabricants.",
+                  "Selecció de mòduls fotovoltaics. Característiques. Precaucions. Tipologia. Criteris de selecció.",
+                  "Estructures i ancoratge. Càlculs justificatius. Perfils. Estructures prefabricades. Suports. Tipus d’instal·lació segons coberta plana transitable i no transitable, coberta inclinada de teula, fibrociment o xapa trapezoïdal i instal·lació al terra.",
+                  "Elements de sincronització, regulació i control. Criteris de selecció. Tipus. Normativa. Incompatibilitats.",
+                  "Selecció de sistemes d’acumulació d’energia. Selecció de bateries. Ubicació. Tipus.",
+                  "Elecció de tipus de convertidors utilitzats en instal·lacions fotovoltaiques. Convertidors de CC i CA. Filtres i paràsits a la xarxa.",
+                  "Elecció del sistema de seguiment solar. Tipus. Característiques. Catàlegs.",
+                  "Elecció del sistema auxiliar i de suport. Tipus. Característiques."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "muntatge d’instal·lacions solars fotovoltaiques",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documents per a la planificació i per a la supervisió del muntatge d’instal·lacions solars fotovoltaiques, establint els procediments de les seves fases i aplicant-hi tècniques de gestió de l’aprovisionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Seqüencia les fases de muntatge i els documents de gestió."
+              },
+              {
+                "codi": "CA12",
+                "text": "Planifica l’aprovisionament de materials en cada etapa del muntatge."
+              },
+              {
+                "codi": "CA13",
+                "text": "Emplena els informes de treball, les certificacions d’obra, els albarans, els fulls de comanda i les modificacions d’obra, entre d’altres, necessaris en el procés de muntatge."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza la documentació tècnica i administrativa mitjançant programes informàtics."
+              },
+              {
+                "codi": "CA15",
+                "text": "Desenvolupa cronogrames per a la supervisió del muntatge de la instal·lació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Defineix criteris de control de l’aprovisionament."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comprova les prescripcions tècniques dels components determinats en el procés."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica tècniques de logística per al proveïment en instal·lacions solars fotovoltaiques."
+              },
+              {
+                "codi": "CA19",
+                "text": "Elabora informació complementària per a la correcta instal·lació dels equips."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta instal·lacions solars fotovoltaiques aïllades, amb o sense suport energètic, atenent les especificacions tècniques dels elements i dels equips.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza el replanteig de la instal·lació fotovoltaica aïllada."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza operacions de mecanització i conformació d’estructures i fixació d’ancoratges."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta el circuit elèctric general de la instal·lació fotovoltaica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Instal·la circuits elèctrics de suport energètic."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta el sistema d’emmagatzematge d’energia."
+              },
+              {
+                "codi": "CA26",
+                "text": "Interconnecta els diferents subsistemes elèctrics."
+              },
+              {
+                "codi": "CA27",
+                "text": "Controla les operacions de muntatge, fixació i connexió elèctrica de la instal·lació solar fotovoltaica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Posa en marxa la instal·lació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Munta instal·lacions solars fotovoltaiques de connexió a xarxa, de diferents tecnologies, atenent les especificacions reglamentàries.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Realitza el replanteig de la instal·lació fotovoltaica connectada a xarxa."
+              },
+              {
+                "codi": "CA32",
+                "text": "Determina el punt de connexió a la xarxa, segons les condicions reglamentàries establertes."
+              },
+              {
+                "codi": "CA33",
+                "text": "Realitza operacions per al muntatge d’estructures suport."
+              },
+              {
+                "codi": "CA34",
+                "text": "Munta el circuit general de la instal·lació fotovoltaica connectada a xarxa en baixa o mitjana tensió."
+              },
+              {
+                "codi": "CA35",
+                "text": "Estableix les condicions d’interconnexió entre els diferents subsistemes elèctrics."
+              },
+              {
+                "codi": "CA36",
+                "text": "Controla les operacions de muntatge, fixació i connexions de la instal·lació."
+              },
+              {
+                "codi": "CA37",
+                "text": "Posada en marxa de la instal·lació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració de documentació tècnica per al muntatge d’instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Utilització de projectes i memòries tècniques. Concepte i tipus de projectes i memòries tècniques.",
+                  "Documents que componen un projecte. La memòria, plànols, pressupostos. Plec de condicions, l’estudi de seguretat i salut, i d’impacte ambiental. Annexos.",
+                  "Plànols de detall i de conjunt. Diagrames. Fluxgrames i cronogrames utilitzats en aquestes instal·lacions.",
+                  "Procediments i operacions de replanteig de les instal·lacions.",
+                  "Utilització de programari per a la representació d’instal·lacions solars fotovoltaiques.",
+                  "Interpretació de plànols i d’esquemes.",
+                  "Operacions bàsiques amb arxius gràfics."
+                ]
+              },
+              {
+                "bloc": "Muntatge d’instal·lacions solars fotovoltaiques aïllades",
+                "items": [
+                  "Replanteig i verificació de les dades del projecte sobre el terreny. Supervisió del marcatge. Realització de les modificacions necessàries.",
+                  "Escomeses i quadres de protecció general. Proteccions. Tipus i característiques. Canalitzacions i conduccions. Conductors elèctrics. Equips elèctrics i electrònics de protecció, maniobra i seguretat.",
+                  "Motoritzacions i sistemes automàtics de seguiment solar.",
+                  "Tipus de mòduls i laminats. Especificacions elèctriques i mecàniques.",
+                  "Sistemes d’agrupament i formes de connexió dels generadors fotovoltaics. Muntatge de mòduls i quadre de control del generador fotovoltaic.",
+                  "Muntatge de circuits i equips elèctrics d’instal·lacions solars fotovoltaiques. Muntatge de circuits i equips elèctrics i electrònics de sistemes de suport eòlics i sincronització de grups electrògens.",
+                  "Orientació i inclinació òptima del generador solar i estudi de les ombres. Seguiment solar en un o dos eixos.",
+                  "Muntatge d’estructures de subjecció d’instal·lacions solars fotovoltaiques. Transport i col·locació d’equips i de materials.",
+                  "Muntatge d’estructures resistents per a cada tipus de coberta. Tipus. Materials constructius. Suports i ancoratges. Resistència dels elements constructius. Impermeabilització.",
+                  "Integració arquitectònica i urbanística. Estètica i tècnica.",
+                  "Estructures dels sistemes de seguiment. Seguiment en un i dos eixos.",
+                  "Muntatge de sistemes d’acumulació. Bancades d’acumuladors.",
+                  "Bancades de grups electrògens de suport."
+                ]
+              },
+              {
+                "bloc": "Muntatge d’instal·lacions solars fotovoltaiques connectades a xarxa",
+                "items": [
+                  "Replanteig de la instal·lació fotovoltaica connectada a xarxa. Característiques específiques.",
+                  "Connexió a la xarxa dels sistemes fotovoltaics. Característiques. Condicions específiques de les companyies subministradores.",
+                  "Muntatge d’estructures amb suports mòbils de diferents tecnologies. Característiques especials. Ambients agressius.",
+                  "Muntatge de circuits i d’equips elèctrics d’instal·lacions solars fotovoltaiques.",
+                  "Interconnexió dels diferents subsistemes de les instal·lacions solars fotovoltaiques. Precaucions i característiques. Normativa d’aplicació.",
+                  "Muntatge d’equips de tarifació i de protecció. Seguretat en la instal·lació. Equips de protecció.",
+                  "Proves elèctriques i ajustaments de les instal·lacions fotovoltaiques. Ajust de circuits de control. Control dels punts crítics. Valors d’acceptació.",
+                  "Documentació tècnica relacionada amb la posada en funcionament.",
+                  "Estris, eines i mitjans utilitzats en el muntatge. Tècniques d’utilització.",
+                  "Riscos derivats dels sistemes de seguiment solar.",
+                  "Senyalització de les zones de treball."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "gestió del manteniment i prevenció de riscos d’instal·lacions solars fotovoltaiques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora el pla de manteniment de les instal·lacions solars fotovoltaiques, reconeixent les operacions de manteniment i les tècniques de reconeixement d’avaries.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix les operacions de manteniment preventiu en instal·lacions fotovoltaiques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Redacta el procediment que cal seguir en cadascuna de les operacions de manteniment."
+              },
+              {
+                "codi": "CA13",
+                "text": "Elabora ordres de treball i albarans entre d’altres."
+              },
+              {
+                "codi": "CA14",
+                "text": "Estableix els recursos humans i mitjans materials necessaris per a la realització del manteniment."
+              },
+              {
+                "codi": "CA15",
+                "text": "Elabora un pressupost de manteniment."
+              },
+              {
+                "codi": "CA16",
+                "text": "Redacta el manual de manteniment i el llibre d’incidències."
+              },
+              {
+                "codi": "CA17",
+                "text": "Analitza tècniques de gestió d’inventari."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza programari informàtic per a la gestió del pla del manteniment."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Supervisa el manteniment d’instal·lacions solars fotovoltaiques, reconeixent fases i procediments d’actuació en instal·lacions i sistemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Elabora criteris de supervisió de les operacions de manteniment preventiu."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix diferents tipus d’avaries i el seu diagnòstic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Supervisa operacions de desmuntatge i substitució d’equips i de components."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix criteris de supervisió de les operacions de manteniment i de reparació de components."
+              },
+              {
+                "codi": "CA25",
+                "text": "Gestiona les eines i el magatzem de material de manteniment."
+              },
+              {
+                "codi": "CA26",
+                "text": "Defineix diferents tipus de maniobres i ajustaments per al correcte funcionament de la instal·lació."
+              },
+              {
+                "codi": "CA27",
+                "text": "Determina operacions d’ajustament i d’adaptació estacional d’instal·lacions relacionades amb les variacions climatològiques."
+              },
+              {
+                "codi": "CA28",
+                "text": "Valora els resultats de les operacions d’ajustament."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza les proves complint les prescripcions reglamentàries."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, de les eines, dels estris i de les màquines."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza les màquines complint les normes de seguretat."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials i d’eines, entre d’altres."
+              },
+              {
+                "codi": "CA34",
+                "text": "Descriu els elements de seguretat (proteccions, alarmes i aturades d’emergència, entre d’altres) de les màquines i els equips de protecció individual (calçat, protecció ocular i indumentària, entre d’altres) que s’han d’utilitzar en les diferents operacions de muntatge i de manteniment."
+              },
+              {
+                "codi": "CA35",
+                "text": "Relaciona la manipulació de materials, d’eines i de màquines amb les mesures de seguretat i de protecció personal requerides."
+              },
+              {
+                "codi": "CA36",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en la preparació i execució de les operacions de muntatge i de manteniment de les instal·lacions fotovoltaiques."
+              },
+              {
+                "codi": "CA37",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA38",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA39",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració del pla de manteniment d’instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Operacions de manteniment preventiu i correctiu en instal·lacions fotovoltaiques.",
+                  "Manteniment d’instal·lacions solars fotovoltaiques. Procediments i operacions. Comprovació i ajustaments dels paràmetres als valors de consigna. Avaries crítiques. Pla d’actuació que cal seguir. Disposició de recanvis fonamentals.",
+                  "Manual de procediment en les operacions de manteniment.",
+                  "Pla de manteniment d’instal·lacions solars fotovoltaiques.",
+                  "Normativa d’aplicació en el manteniment d’instal·lacions solars fotovoltaiques.",
+                  "Documentació del manteniment. Ordres de treball. Albarans.",
+                  "Identificació de recursos humans en les operacions de manteniment. Identificació de mitjans materials per a la realització del manteniment.",
+                  "El pressupost de manteniment. Característiques i tipus.",
+                  "El manual de manteniment. Elements bàsics i estructura. El llibre d’incidències. Característiques i redacció.",
+                  "Materials de manteniment d’instal·lacions solars fotovoltaiques i el seu emmagatzematge. Recepció i codificació de subministres. Organització del magatzem. Gestió de l’estoc.",
+                  "Gestió i emmagatzematge de compres.",
+                  "Programari informàtic per a la gestió del pla del manteniment."
+                ]
+              },
+              {
+                "bloc": "Supervisió del manteniment d’instal·lacions solars fotovoltaiques",
+                "items": [
+                  "Tècniques de supervisió de les operacions de manteniment preventiu. Organització del manteniment d’instal·lacions solars fotovoltaiques.",
+                  "Planificació i programació del manteniment. Plans de manteniment. Tasques del manteniment preventiu.",
+                  "Tipus d’avaries i el seu diagnòstic.",
+                  "Operacions de desmuntatge i substitució d’equips i de components.",
+                  "Operacions de manteniment i de reparació de components.",
+                  "Eines en el manteniment. El magatzem de material de manteniment.",
+                  "Tipus de maniobres i ajustaments en el manteniment d’instal·lacions fotovoltaiques.",
+                  "Operacions d’ajustament i d’adaptació estacional d’instal·lacions. Precaucions i ajustaments amb les variacions climatològiques.",
+                  "Reglamentació de les instal·lacions fotovoltaiques relacionades amb el manteniment."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental",
+                "items": [
+                  "Normativa de prevenció de riscos laborals relativa a les instal·lacions fotovoltaiques.",
+                  "Prevenció de riscos laborals en els processos de muntatge i de manteniment.",
+                  "Equips de protecció individual. Característiques i criteris d’utilització. Protecció col·lectiva. Mitjans i equips de protecció.",
+                  "Pla de seguretat en el manteniment d’instal·lacions solars fotovoltaiques.",
+                  "Normativa reguladora en gestió de residus."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

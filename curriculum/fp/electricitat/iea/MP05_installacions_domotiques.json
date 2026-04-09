@@ -1,0 +1,681 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "instal·lacions domòtiques",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Instal·lacions domòtiques amb sistemes descentralitzats",
+        "hores": 50,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica àrees de gestió i sistemes automàtics que configuren les instal·lacions automatitzades en habitatges, analitzant-ne el funcionament, característiques i normes d'aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les diferents tipologies d'automatitzacions domèstiques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els principis de funcionament de les xarxes automàtiques en habitatges."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix aplicacions automàtiques en les àrees de gestió: confort, seguretat, energia i telecomunicacions."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les diferents tecnologies aplicades a l'automatització d'habitatges en funció del sistema de control utilitzat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu les característiques especials dels conductors en instal·lacions domòtiques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica i descriu els equips i elements que configuren la instal·lació automatitzada, interpretant-ne la documentació tècnica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Consulta la normativa vigent relativa a les instal·lacions automatitzades en habitatges."
+              },
+              {
+                "codi": "CA18",
+                "text": "Relaciona els elements de la instal·lació amb els símbols que apareixen en els esquemes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica les normes de prevenció de riscos laborals i de protecció ambiental en el muntatge i manteniment d'instal·lacions domòtiques, identificant-hi els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els riscos laborals en les tasques de muntatge i manteniment d'instal·lacions domòtiques (manipulació de materials, equips, eines, utensilis, màquines, realització de proves, reparació i substitució d'elements, entre d'altres)."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina les mesures de seguretat i de protecció personal que s'han d'adoptar en cada cas."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les possibles fonts de contaminació de l'entorn ambiental."
+              },
+              {
+                "codi": "CA24",
+                "text": "Valora l'ordre i la netedat d'instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Configura sistemes tècnics, justificant-ne l'elecció i reconeixent-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Reconeix les diferents tècniques de transmissió en instal·lacions automatitzades mitjançant sistemes descentralitzats de bus."
+              },
+              {
+                "codi": "CA32",
+                "text": "Justifica la utilització de sistemes domòtics descentralitzats de bus a partir de les condicions i requeriments de la instal·lació que cal fer."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els diferents tipus de sensors, i actuadors en instal·lacions automatitzades mitjançant sistemes descentralitzats de bus."
+              },
+              {
+                "codi": "CA34",
+                "text": "Descriu diferents protocols de les instal·lacions automatitzades mitjançant sistemes descentralitzats de bus."
+              },
+              {
+                "codi": "CA35",
+                "text": "Utilitza el programari de configuració apropiat en sistemes descentralitzats de bus."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza documentació tècnica."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Munta petites instal·lacions automatitzades d'habitatges mitjançant sistemes descentralitzats de bus, descrivint els elements que les conformen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Fa els croquis i esquemes necessaris per configurar les instal·lacions."
+              },
+              {
+                "codi": "CA42",
+                "text": "Determina els paràmetres dels elements i equips de la instal·lació automatitzada."
+              },
+              {
+                "codi": "CA43",
+                "text": "Fa el cablatge d'un sistema per bus de camp."
+              },
+              {
+                "codi": "CA44",
+                "text": "Munta sensors i actuadors, elements de control i supervisa un sistema domòtic per bus de camp."
+              },
+              {
+                "codi": "CA45",
+                "text": "Utilitza les eines i equips adequats."
+              },
+              {
+                "codi": "CA46",
+                "text": "Utilitza el programari de configuració específic."
+              },
+              {
+                "codi": "CA47",
+                "text": "Verifica el funcionament correcte de la instal·lació."
+              },
+              {
+                "codi": "CA48",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA49",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA410",
+                "text": "Aplica la normativa vigent."
+              },
+              {
+                "codi": "CA411",
+                "text": "Col·labora amb l'equip de treball amb actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Munta les àrees de gestió d'una instal·lació domòtica mitjançant sistemes descentralitzats de bus, seguint els procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Consulta catàlegs comercials per seleccionar els materials."
+              },
+              {
+                "codi": "CA52",
+                "text": "Utilitza les eines i equips adequats al tipus d'instal·lació."
+              },
+              {
+                "codi": "CA53",
+                "text": "Tria l'opció que millor compleix les especificacions funcionals, tècniques, normatives i de posada en obra de la instal·lació."
+              },
+              {
+                "codi": "CA54",
+                "text": "Fa els croquis i esquemes per configurar la solució proposada."
+              },
+              {
+                "codi": "CA55",
+                "text": "Fa el cablatge de la instal·lació."
+              },
+              {
+                "codi": "CA56",
+                "text": "Programa els elements de control d'acord amb les especificacions donades i el manual del fabricant."
+              },
+              {
+                "codi": "CA57",
+                "text": "Fa la posada en servei de la instal·lació."
+              },
+              {
+                "codi": "CA58",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA59",
+                "text": "Fa el pressupost corresponent a la solució adoptada."
+              },
+              {
+                "codi": "CA510",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA511",
+                "text": "Organitza les diferents fases del treball."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA6",
+            "text": "Manté instal·lacions domòtiques mitjançant sistemes de control descentralitzats de bus, atenent les especificacions del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA61",
+                "text": "Ajusta els diferents elements de control perquè funcionin coordinadament."
+              },
+              {
+                "codi": "CA62",
+                "text": "Mesura els paràmetres elèctrics de distorsió a la xarxa."
+              },
+              {
+                "codi": "CA63",
+                "text": "Identifica els elements susceptibles de ser objecte de manteniment."
+              },
+              {
+                "codi": "CA64",
+                "text": "Repara l'avaria i comprova la compatibilitat de l'element substituït, si escau."
+              },
+              {
+                "codi": "CA65",
+                "text": "Comprova, en el cas de manteniment correctiu, que l'avaria coincideix amb la indicada a l'informe d'avaries."
+              },
+              {
+                "codi": "CA66",
+                "text": "Fa les proves, comprovacions i ajustos amb la precisió necessària per a la posada en servei de la instal·lació, seguint el que s'especifica en la documentació tècnica."
+              },
+              {
+                "codi": "CA67",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA68",
+                "text": "Elabora, si s'escau, un informe de disconformitats relatives al pla de qualitat."
+              },
+              {
+                "codi": "CA69",
+                "text": "Actua de manera responsable en les taques de manteniment predictiu i correctiu."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA7",
+            "text": "Diagnostica avaries i disfuncions en equips i instal·lacions domòtiques automatitzades mitjançant sistemes de control descentralitzats de bus, aplicant tècniques de mesurament i relacionant els efectes amb les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA71",
+                "text": "Formula hipòtesis raonades de les possibles causes de la disfunció i la seva repercussió en la instal·lació."
+              },
+              {
+                "codi": "CA72",
+                "text": "Mesura els paràmetres de funcionament utilitzant els instruments o el programari adequats."
+              },
+              {
+                "codi": "CA73",
+                "text": "Localitza l'avaria utilitzant un procediment tècnic d'intervenció."
+              },
+              {
+                "codi": "CA74",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric)."
+              },
+              {
+                "codi": "CA75",
+                "text": "Confecciona un informe d'incidències."
+              },
+              {
+                "codi": "CA76",
+                "text": "Elabora un informe, en el format adequat, de les activitats desenvolupades i dels resultats obtinguts, que permetrà actualitzar l'arxiu històric d'avaries."
+              },
+              {
+                "codi": "CA77",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Àrees de gestió en instal·lacions domòtiques",
+                "items": [
+                  "Introducció a l'automatització d'habitatges.",
+                  "Característiques d'un habitatge automatitzat.",
+                  "Àrees d'aplicació en les instal·lacions domèstiques: àrea de seguretat, àrea de confortabilitat, àrea de gestió d'energia, àrea de gestió de comunicacions.",
+                  "Sistemes de control, depenent de la seva configuració i arquitectura: sistemes centralitzats i descentralitzats, de llaç obert i de llaç tancat.",
+                  "Tipus de senyals en un sistema de control: senyals digitals i analògics.",
+                  "Topologies de les xarxes: estrella, anell, bus i arbre.",
+                  "Suports de comunicació de xarxes domòtiques: corrents portadors, cablatge específic i senyals radiats.",
+                  "Elements fonamentals d'una instal·lació domòtica: sensors, actuadors, dispositius de control i elements auxiliars.",
+                  "Transducció de les principals magnituds físiques (temperatura, pressió, velocitat i il·luminació, entre d'altres). Principi de funcionament dels diferents sensors que intervenen en instal·lacions domòtiques.",
+                  "Tecnologies aplicades a la automatització d'habitatges: sistemes descentralitzats de bus, sistemes basats en autòmats programables, sistemes per corrents portadors i sistemes sense fil.",
+                  "Simbologia general dels sistemes de control.",
+                  "Documentació tècnica.",
+                  "Reglamentació (ITC-51)."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos laborals i protecció ambiental en les operacions de muntatge i manteniment d'instal·lacions domòtiques",
+                "items": [
+                  "Identificació de riscos.",
+                  "Mesures de seguretat i de protecció individual (aplicació de la normativa de prevenció de riscos laborals, inclosa la de seguretat enfront el risc elèctric).",
+                  "Classificació dels residus generats per a la seva retirada selectiva.",
+                  "Compliment de la normativa de protecció ambiental i de prevenció de riscos laborals."
+                ]
+              },
+              {
+                "bloc": "Sistemes tècnics de bus aplicats a l'automatització d'habitatges",
+                "items": [
+                  "Introducció al sistema de bus aplicat.",
+                  "Factors que determinen la utilització de instal·lacions domòtiques basades en sistemes de bus.",
+                  "Mitjans de comunicació utilitzats.",
+                  "Topologia de la xarxa.",
+                  "Components del sistema.",
+                  "Dimensionament del sistema.",
+                  "Tècniques de comunicació en sistemes per bus de camp.",
+                  "Adreçament dels components.",
+                  "Programari per a la configuració dels elements: descripció i ús.",
+                  "Simbologia emprada.",
+                  "Elements de protecció de la instal·lació."
+                ]
+              },
+              {
+                "bloc": "Muntatge d'instal·lacions electrotècniques automatitzades d'habitatges mitjançant sistemes descentralitzats de bus",
+                "items": [
+                  "Plànols i esquemes elèctrics normalitzats en instal·lacions de bus. Tipologia.",
+                  "Emplaçament i muntatge dels elements de les instal·lacions domòtiques en habitatges segons l'àrea de gestió i el sistema utilitzat.",
+                  "Eines i equips.",
+                  "Preinstal·lació de sistemes automàtics: canalitzacions, tubs, caixes, estructura, entre d'altres.",
+                  "Execució del muntatge: cablatge, connexió i instal·lació de dispositius, en instal·lacions descentralitzades de bus.",
+                  "Programació i configuració d'elements.",
+                  "Treball en equip."
+                ]
+              },
+              {
+                "bloc": "Muntatge i configuració de les àrees de gestió en habitatges mitjançant sistemes descentralitzats de bus",
+                "items": [
+                  "Planificació del muntatge de les àrees de gestió d'un habitatge domòtic.",
+                  "Instal·lacions amb diferents àrees de gestió de sistemes descentralitzats de bus.",
+                  "Comunicació entre sistemes domòtics diferents.",
+                  "Cablatges específics i comuns, per als sistemes domòtics utilitzats.",
+                  "Programació i posada en servei d'àrees de gestió en habitatges amb sistema per bus de camp.",
+                  "Qualitat en el muntatge d'àrees de gestió en sistemes domòtics descentralitzats de bus.",
+                  "Organització del treball."
+                ]
+              },
+              {
+                "bloc": "Manteniment d'instal·lacions electrotècniques automatitzades d'habitatges mitjançant sistemes descentralitzats de bus",
+                "items": [
+                  "Manteniment correctiu i preventiu en les instal·lacions domòtiques.",
+                  "Manteniment d'instal·lacions domòtiques amb sistemes descentralitzats de bus (manteniment dels elements que intervenen en les diferents àrees de gestió): reparació d'avaries, seqüències de treball, comprovació de les característiques de cada element, comprovació visual i funcional, inspeccions periòdiques.",
+                  "Mitjans utilitzats.",
+                  "Ajustos d'elements de control en sistemes domòtics descentralitzats de bus.",
+                  "Revisió dels elements de protecció de les instal·lacions domòtiques."
+                ]
+              },
+              {
+                "bloc": "Avaries a les instal·lacions electrotècniques automatitzades d'habitatges mitjançant sistemes descentralitzats de bus",
+                "items": [
+                  "Avaries tipus: símptomes i efectes.",
+                  "Diagnosi d'avaries: proves, mesures, procediments i elements de seguretat.",
+                  "Informes d'incidències.",
+                  "Resolució de problemes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Instal·lacions domòtiques amb sistemes centralitzats i distribuïts",
+        "hores": 49,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura sistemes tècnics, justificant-ne l'elecció i reconeixent-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les diferents tècniques de transmissió en instal·lacions automatitzades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Justifica la utilització de sistemes domòtics a partir de les condicions i requeriments de la instal·lació que cal fer."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els diferents tipus de sensors i actuadors."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu diferents protocols de les instal·lacions automatitzades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu els sistemes controlats per autòmats programables."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu els sistemes controlats per corrents portadors."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu els sistemes controlats per sistemes sense fil."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza el programari de configuració apropiat en sistemes amb autòmat programable."
+              },
+              {
+                "codi": "CA19",
+                "text": "Utilitza documentació tècnica."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta petites instal·lacions automatitzades d'habitatges, descrivint els elements que les conformen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Fa els croquis i esquemes necessaris per configurar les instal·lacions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina els paràmetres dels elements i equips de la instal·lació automatitzada."
+              },
+              {
+                "codi": "CA23",
+                "text": "Connecta els sensors i actuadors per a un sistema domòtic amb autòmat programable."
+              },
+              {
+                "codi": "CA24",
+                "text": "Munta sensors i actuadors, elements de control i supervisió d'un sistema domòtic per corrents portadores i xarxa sense fils."
+              },
+              {
+                "codi": "CA25",
+                "text": "Verifica el funcionament correcte de la instal·lació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza les eines i equips adequats."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza el programari de configuració específic."
+              },
+              {
+                "codi": "CA28",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA29",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica la normativa vigent."
+              },
+              {
+                "codi": "CA211",
+                "text": "Col·labora amb l'equip de treball amb actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Munta les àrees de control d'una instal·lació domòtica seguint els procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Consulta catàlegs comercials per seleccionar els materials."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza les eines i equips adequats."
+              },
+              {
+                "codi": "CA33",
+                "text": "Tria l'opció que millor compleix les especificacions funcionals, tècniques, normatives i de posada en obra de la instal·lació."
+              },
+              {
+                "codi": "CA34",
+                "text": "Fa els croquis i esquemes per configurar la solució proposada."
+              },
+              {
+                "codi": "CA35",
+                "text": "Estén el cablatge de la instal·lació."
+              },
+              {
+                "codi": "CA36",
+                "text": "Programa els elements de control d'acord amb les especificacions donades i el manual del fabricant."
+              },
+              {
+                "codi": "CA37",
+                "text": "Fa la posada en servei de la instal·lació."
+              },
+              {
+                "codi": "CA38",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA39",
+                "text": "Fa el pressupost corresponent a la solució adoptada."
+              },
+              {
+                "codi": "CA310",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA311",
+                "text": "Organitza les diferents fases del treball."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Manté instal·lacions domòtiques atenent les especificacions del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Ajusta els diferents elements de control perquè funcionin coordinadament."
+              },
+              {
+                "codi": "CA42",
+                "text": "Mesura els paràmetres elèctrics de distorsió a la xarxa."
+              },
+              {
+                "codi": "CA43",
+                "text": "Identifica els elements susceptibles de ser objecte de manteniment."
+              },
+              {
+                "codi": "CA44",
+                "text": "Repara l'avaria i comprova la compatibilitat de l'element substituït, si escau."
+              },
+              {
+                "codi": "CA45",
+                "text": "Comprova, en el cas de manteniment correctiu, que l'avaria coincideix amb la indicada a l'informe d'avaries."
+              },
+              {
+                "codi": "CA46",
+                "text": "Fa les proves, comprovacions i ajustos amb la precisió necessària per a la posada en servei de la instal·lació, seguint allò especificat en la documentació tècnica."
+              },
+              {
+                "codi": "CA47",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA48",
+                "text": "Elabora, si escau, un informe de disconformitats relatives al pla de qualitat."
+              },
+              {
+                "codi": "CA49",
+                "text": "Actua de manera responsable en les tasques de manteniment predictiu i correctiu."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Diagnostica avaries i disfuncions en equips i instal·lacions domòtiques aplicant tècniques de mesurament i relacionant aquestes amb les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Formula hipòtesis raonades de les possibles causes de la disfunció i la seva repercussió en instal·lació."
+              },
+              {
+                "codi": "CA52",
+                "text": "Mesura els paràmetres de funcionament utilitzant els instruments o el programari adequats."
+              },
+              {
+                "codi": "CA53",
+                "text": "Localitza l'avaria utilitzant un procediment tècnic d'intervenció."
+              },
+              {
+                "codi": "CA54",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat enfront el risc elèctric)."
+              },
+              {
+                "codi": "CA55",
+                "text": "Confecciona un informe d'incidències."
+              },
+              {
+                "codi": "CA56",
+                "text": "Elabora un informe, en el format adequat, de les activitats desenvolupades i dels resultats obtinguts, que permetrà actualitzar l'arxiu històric d'avaries."
+              },
+              {
+                "codi": "CA57",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que se li presenten."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configura sistemes tècnics, justificant-ne l'elecció i reconeixent-ne el funcionament",
+                "items": [
+                  "Introducció al sistema aplicat.",
+                  "Factors que determinen la utilització de sistemes domòtics en una instal·lació.",
+                  "Topologia del sistema.",
+                  "Elements fonamentals d'una instal·lació domòtica.",
+                  "Configuració d'entrades-sortides.",
+                  "Llenguatges de programació: llista d'instruccions, diagrama de contactes i funcions lògiques.",
+                  "Tècniques de programació (diagrama Grafcet).",
+                  "Programari de disseny i control: descripció i utilització.",
+                  "Simbologia específica.",
+                  "Elements de protecció."
+                ]
+              },
+              {
+                "bloc": "Muntatge d'instal·lacions electrotècniques automatitzades d'habitatges",
+                "items": [
+                  "Plànols i esquemes elèctrics normalitzats. Tipologia.",
+                  "Emplaçament i muntatge dels elements de les instal·lacions domòtiques en habitatges segons l'àrea de gestió i el sistema utilitzat.",
+                  "Eines i equips.",
+                  "Preinstal·lació de sistemes automàtics: canalitzacions, tubs, caixes, estructura, entre d'altres.",
+                  "Execució del muntatge: cablatge, connexió i instal·lació de dispositius, en instal·lacions.",
+                  "Programació i configuració d'elements.",
+                  "Treball en equip."
+                ]
+              },
+              {
+                "bloc": "Muntatge i configuració de les àrees de control en habitatges",
+                "items": [
+                  "Planificació de les àrees de control d'un habitatge domòtic.",
+                  "Instal·lacions amb diferents àrees de control de sistemes.",
+                  "Comunicació entre sistemes domòtics diferents.",
+                  "Cablatges específics i comuns, per al sistema domòtic utilitzat.",
+                  "Programació i posada en servei d'àrees de control en habitatges.",
+                  "Qualitat en el muntatge d'àrees de control.",
+                  "Organització del treball."
+                ]
+              },
+              {
+                "bloc": "Manteniment d'instal·lacions electrotècniques automatitzades d'habitatges",
+                "items": [
+                  "Manteniment correctiu i preventiu en les instal·lacions domòtiques.",
+                  "Manteniment d'instal·lacions domòtiques (manteniment dels elements que intervenen en les diferents àrees de gestió): reparació d'avaries, seqüències de treball, comprovació de les característiques de cada element, comprovació visual i funcional, inspeccions periòdiques.",
+                  "Mitjans utilitzats.",
+                  "Ajustos d'elements de control en sistemes domòtics.",
+                  "Revisió dels elements de protecció de les instal·lacions domòtiques."
+                ]
+              },
+              {
+                "bloc": "Avaries a les instal·lacions electrotècniques automatitzades d'habitatges",
+                "items": [
+                  "Avaries tipus: símptomes i efectes.",
+                  "Diagnosi d'avaries: proves, mesures, procediments i elements de seguretat.",
+                  "Informes d'incidències.",
+                  "Resolució de problemes."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

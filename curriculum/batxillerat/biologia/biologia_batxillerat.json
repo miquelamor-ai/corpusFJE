@@ -6,298 +6,209 @@
     "codi_area": "BIO",
     "decret": "171/2022",
     "data_decret": "2022-09-20",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Biologia.pdf",
-    "nota_estructura": "Matèria de 1r i 2n de Batxillerat, modalitat Ciències.",
-    "versio_schema": "1.0",
-    "descripcio": "La Biologia de Batxillerat aprofundeix en el coneixement científic dels éssers vius des de l'escala molecular fins als ecosistemes. Forma alumnes amb pensament crític i rigor científic, i connecta directament amb estudis universitaris de Medicina, Farmàcia, Biotecnologia, Ciències Ambientals, Veterinària i Biologia. La seva sòlida base teòrica i experimental la converteix en una matèria de referència per a qualsevol carrera de ciències de la vida.\n\nLa matèria treballa conceptes fonamentals com la composició i funció de les biomolècules (glúcids, lípids, proteïnes i àcids nucleics), l'organització de la cèl·lula procariota i eucariota, el metabolisme cel·lular incloent-hi la respiració i la fotosíntesi, els mecanismes del cicle cel·lular, la mitosi i la meiosi. S'aprofundeix en la genètica mendeliana i molecular, el flux de la informació genètica —replicació, transcripció i traducció—, les mutacions i la seva relació amb malalties hereditàries. La microbiologia, l'evolució per selecció natural, l'ecologia dels ecosistemes, la immunologia i les tècniques biotecnològiques completen un currículum ric en vocabulari científic precís.\n\nEl treball a Biologia combina l'estudi teòric de models i lleis biològiques amb la pràctica de laboratori: observació al microscopi, tincions, resolució de problemes de genètica i disseny d'experiments. L'alumne aprèn a formular hipòtesis, interpretar dades experimentals i comunicar conclusions amb rigor. La connexió constant entre fenòmens observables i mecanismes moleculars és el tret metodològic distintiu de la matèria."
+    "font": "PDF oficial XTEC: Biologia.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "La Biologia al Batxillerat ofereix una visió integradora dels éssers vius des de l'escala molecular fins a la biosfera, proporcionant els fonaments conceptuals i metodològics per als estudis universitaris en ciències de la salut, biociències i medi ambient. Connecta amb la Química (bioelements, reaccions metabòliques), la Física (biofísica de membranes, tècniques instrumentals), la Geologia (evolució, ecosistemes) i les Matemàtiques (models poblacionals, estadística).\n\nEls grans constructes disciplinaris estructuren-se al voltant de la cèl·lula com a unitat de vida (organografia, divisió cel·lular, diferenciació), la bioquímica (biomolècules, enzims, metabolisme energètic i biosíntesi), la genètica molecular (expressió gènica, regulació, tècniques de DNA recombinant, CRISPR), la microbiologia i immunologia (infecció, resposta immunitària, vacunes, antibiòtics), i l'evolució com a fil conductor (selecció natural, especiació, filogènia). El mètode científic, la revisió crítica de fonts i el disseny experimental són pràctiques vertebradores.\n\nL'enfocament pedagògic combina la investigació guiada al laboratori, l'anàlisi de casos clínics i ambientals reals, i la discussió de les implicacions ètiques de les biotecnologies. Les pràctiques de laboratori (microscòpia, cultius, electroforesi) són obligatòries i avaluables. L'avaluació inclou informes científics, resolució de problemes experimentals i exposicions orals, a més de proves escrites que mesuren comprensió profunda i transferència a situacions noves."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Analitzar l'estructura i el funcionament de la cèl·lula com a unitat fonamental de la vida, identificant els orgànuls i les biomolècules implicades en els processos cel·lulars bàsics, per comprendre com s'organitza la matèria viva.",
+      "text": "Interpretar, comunicar informació i dades procedents de treballs científics, i argumentar amb precisió i utilitzant diferents formats, per analitzar conceptes, processos, mètodes, experiments o resultats de les ciències biològiques.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i descriure les biomolècules (glúcids, lípids, proteïnes i àcids nucleics), relacionant la seva estructura molecular amb la funció biològica que exerceixen."
+            "text": "Analitzar críticament conceptes i processos relacionats amb els sabers de la Biologia, seleccionant i interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes o d'altres)."
           },
           {
             "codi": "CA1.2",
-            "text": "Diferenciar la cèl·lula procariota de l'eucariota, comparant les estructures i els orgànuls cel·lulars i relacionant-los amb les seves funcions."
+            "text": "Comunicar informacions o opinions raonades relacionades amb els sabers de la matèria de Biologia transmetent-les de manera clara i rigorosa, utilitzant la terminologia i el format adequats (models, gràfics, taules, informes, diagrames, fórmules, continguts digitals o d'altres) i responent de manera fonamentada a les qüestions que puguin sorgir durant el procés."
           },
           {
             "codi": "CA1.3",
-            "text": "Explicar el metabolisme cel·lular, distingint les vies catabòliques (respiració cel·lular i fermentació) de les anabòliques (fotosíntesi), i calcular el rendiment energètic dels processos."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Descriure el cicle cel·lular i els mecanismes de divisió (mitosi i meiosi), explicant la importància de la regulació del cicle i les conseqüències del seu descontrol."
+            "text": "Argumentar sobre aspectes relacionats amb els sabers de la matèria de Biologia, defensant una posició de manera raonada i amb una actitud oberta, flexible, receptiva, respectuosa davant l'opinió dels altres i basada en els coneixements científics."
           }
         ],
-        "2n": []
+        "BAT2": [
+          {
+            "codi": "CA1.1",
+            "text": "Analitzar críticament conceptes i processos relacionats amb els sabers de la Biologia, seleccionant i interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes o d'altres)."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Comunicar informacions o opinions raonades relacionades amb els sabers de la matèria de Biologia, transmetre-les de manera clara i rigorosa, utilitzant la terminologia i el format adequats (models, gràfics, taules, vídeos, informes, diagrames, fórmules, esquemes, símbols, continguts digitals o d'altres) i responent de manera fonamentada i precisa a les qüestions que puguin sorgir durant el procés."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Argumentar sobre aspectes relacionats amb els sabers de la matèria de Biologia, considerant els punts forts i febles de diferents posicions de manera raonada i amb una actitud oberta, flexible, receptiva i respectuosa davant l'opinió dels altres i basada en els coneixements científics."
+          }
+        ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Comprendre els mecanismes de l'herència genètica i l'expressió gènica, interpretant les lleis de Mendel i els fonaments moleculars del flux de la informació genètica, per explicar la variabilitat i la continuïtat dels éssers vius.",
+      "text": "Identificar, seleccionar, organitzar i avaluar críticament informació, contrastant-ne la fiabilitat per resoldre preguntes plantejades de manera autònoma i crear continguts relacionats amb les ciències biològiques.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA2.1",
-            "text": "Aplicar les lleis de Mendel per resoldre problemes de genètica mendeliana simple i dihíbrida, interpretant genotips i fenotips i calculant proporcions genotípiques i fenotípiques."
+            "text": "Plantejar i resoldre qüestions relacionades amb els sabers de la matèria, localitzant i citant fonts adequades i seleccionant, organitzant i analitzant críticament la informació."
           },
           {
             "codi": "CA2.2",
-            "text": "Explicar les excepcions a la genètica mendeliana (codominància, dominància incompleta, lligament, epistàsia), justificant amb exemples reals la variabilitat dels patrons d'herència."
+            "text": "Contrastar i justificar la credibilitat de la informació relacionada amb els sabers de la matèria, utilitzant fonts fiables i adoptant una actitud crítica i escèptica vers informacions interessades, sense autoria contrastada o sense una base científica, com ara pseudociències, teories de la conspiració, creences infundades, rumors, etc."
           },
           {
             "codi": "CA2.3",
-            "text": "Descriure el procés de replicació de l'ADN i els mecanismes de transcripció i traducció, relacionant cada etapa amb les estructures moleculars implicades."
-          },
-          {
-            "codi": "CA2.4",
-            "text": "Analitzar els tipus de mutacions (gèniques, cromosòmiques i genòmiques), avaluant els seus efectes sobre els organismes i la seva relació amb malalties hereditàries."
+            "text": "Argumentar sobre la contribució de la ciència a la societat i la tasca de les persones que s'hi dediquen, reflexionant sobre els biaixos de gènere en les ciències i entenent la investigació com una tasca col·lectiva i interdisciplinària en constant evolució influïda pel context polític i els recursos econòmics."
           }
         ],
-        "2n": []
+        "BAT2": [
+          {
+            "codi": "CA2.1",
+            "text": "Plantejar i resoldre qüestions i crear continguts relacionats amb els sabers de la matèria de Biologia localitzant i citant fonts adequades i seleccionant, organitzant i analitzant críticament la informació."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Contrastar i justificar la credibilitat d'informació relacionada amb els sabers de la matèria, utilitzant fonts fiables, aportant dades i adoptant una actitud crítica i escèptica vers informacions interessades, sense autoria contrastada o sense una base científica, com ara pseudociències, teories de la conspiració, creences infundades, rumors, etc."
+          }
+        ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Reconèixer la diversitat i el funcionament dels microorganismes, analitzant el seu paper en els cicles biogeoquímics, la salut humana i les aplicacions biotecnològiques, per valorar la seva importància ecològica i social.",
+      "text": "Dissenyar i desenvolupar projectes de recerca relacionats amb la biologia i analitzar críticament els resultats d'aquests projectes i de treballs d'investigació i divulgació, comprovant si segueixen els passos de la metodologia científica, per avaluar la fiabilitat de les conclusions.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA3.1",
-            "text": "Classificar els microorganismes (bacteris, virus, fongs microscòpics i protozous) per les seves característiques estructurals i metabòliques, distingint els seus mecanismes de reproducció."
+            "text": "Plantejar preguntes i formular hipòtesis que puguin ser respostes o contrastades utilitzant mètodes científics i intentin explicar fenòmens biològics, i fer prediccions sobre aquests fenòmens."
           },
           {
             "codi": "CA3.2",
-            "text": "Descriure el cicle de vida dels virus i els mecanismes d'infecció bacteriana, relacionant-los amb les malalties que causen i amb les estratègies de prevenció i tractament."
+            "text": "Avaluar la fiabilitat de les conclusions d'un treball de recerca propi d'acord amb la interpretació dels resultats obtinguts."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Dissenyar l'experimentació, la presa de dades i l'anàlisi de fenòmens biològics, i seleccionar els instruments necessaris, de manera que permetin respondre preguntes investigables concretes i contrastar una hipòtesi plantejada minimitzant els biaixos en la mesura que sigui possible."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Portar a terme experiments i prendre dades quantitatives i qualitatives sobre fenòmens biològics, seleccionant i utilitzant els instruments, les eines o les tècniques adequats amb correcció i precisió."
+          },
+          {
+            "codi": "CA3.5",
+            "text": "Interpretar i analitzar resultats obtinguts en el projecte de recerca utilitzant, quan calgui, eines matemàtiques i tecnològiques i reconeixent-ne l'abast i les limitacions per obtenir conclusions raonades i fonamentades o valorar la impossibilitat de fer-ho."
+          },
+          {
+            "codi": "CA3.6",
+            "text": "Establir col·laboracions dins i fora del centre educatiu en les diferents fases del projecte científic per treballar amb més eficiència, utilitzant les eines tecnològiques adequades, valorant la importància de la cooperació a la recerca, respectant la diversitat i afavorint la inclusió."
           }
         ],
-        "2n": []
+        "BAT2": [
+          {
+            "codi": "CA3.1",
+            "text": "Avaluar la fiabilitat de les conclusions d'un treball de recerca o de divulgació científica relacionat amb els sabers de la matèria d'acord amb la interpretació dels resultats obtinguts."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Argumentar, utilitzant exemples concrets, sobre la contribució de la ciència a la societat i la tasca de les persones que s'hi han dedicat, reflexionant sobre els biaixos de gènere en les ciències i entenent la investigació com una tasca col·lectiva i interdisciplinària en constant evolució influïda pel context polític i els recursos econòmics."
+          }
+        ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Interpretar els mecanismes de l'evolució biològica a partir de l'evidència paleontològica, molecular i anatòmica, relacionant la selecció natural i altres forces evolutives amb la biodiversitat actual.",
+      "text": "Aplicar els aprenentatges de manera integrada i les diverses formes de raonament pròpies de la ciència, per plantejar i resoldre problemes relacionats amb les ciències biològiques, cercant i utilitzant les estratègies adequades, analitzant críticament les solucions i reformulant el procediment, si calgués.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA4.1",
-            "text": "Interpretar les evidències de l'evolució (registre fòssil, anatomia comparada, biogeografia i filogènia molecular), valorant la teoria sintètica de l'evolució com el marc explicatiu de la biologia."
+            "text": "Resoldre problemes o donar explicació a processos biològics fent servir recursos variats com ara coneixements, dades i informació, raonament lògic, pensament computacional o recursos digitals."
           },
           {
             "codi": "CA4.2",
-            "text": "Analitzar els mecanismes evolutius (selecció natural, deriva genètica, flux gènic, mutació), aplicant els conceptes de freqüència al·lèlica i equilibri de Hardy-Weinberg per interpretar canvis en les poblacions."
+            "text": "Analitzar críticament la solució a problemes sobre fenòmens biològics, i modificar els procediments utilitzats o conclusions obtingudes si aquesta solució no és viable o davant de noves dades aportades o trobades amb posterioritat."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA4.1",
+            "text": "Explicar fenòmens relacionats amb els sabers de la matèria mitjançant el plantejament i la resolució de problemes, cercant i utilitzant les estratègies i els recursos adequats."
           },
           {
-            "codi": "CA4.3",
-            "text": "Reconstruir filogenèsies i classificar els éssers vius en els dominis i regnes, justificant els criteris de classificació taxonòmica amb exemples d'organismes representatius."
+            "codi": "CA4.2",
+            "text": "Analitzar críticament la solució a un problema fent servir els sabers de la matèria de Biologia i reformular els procediments utilitzats o les conclusions si aquesta solució no fos viable o davant de noves dades aportades o trobades amb posterioritat."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "text": "Analitzar el funcionament dels ecosistemes, els fluxos d'energia i els cicles de la matèria, interpretant les relacions entre els éssers vius i el medi, per comprendre l'impacte de les activitats humanes sobre la biosfera.",
+      "text": "Dissenyar, promoure i executar iniciatives de conservació del medi ambient basades en fonaments científics i analitzar els impactes d'activitats humanes sobre el medi ambient o la disponibilitat de recursos, a partir d'observacions de camp i d'informació en diferents formats per promoure i adoptar hàbits compatibles amb el desenvolupament sostenible.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA5.1",
-            "text": "Analitzar l'estructura dels ecosistemes, identificant els nivells tròfics i representant les xarxes alimentàries, les piràmides ecològiques i els fluxos d'energia."
+            "text": "Analitzar les causes i les conseqüències ecològiques, socials i econòmiques dels principals problemes mediambientals des d'una perspectiva individual, local i global, concebent-los com a grans reptes de la humanitat i basant-se en dades científiques i en els sabers de la matèria de Biologia."
           },
           {
             "codi": "CA5.2",
-            "text": "Descriure els cicles biogeoquímics principals (carboni, nitrogen, fòsfor i sofre), relacionant-los amb els processos biòtics i abiòtics que regulen la disponibilitat de nutrients."
-          },
+            "text": "Proposar i justificar la necessitat d'adoptar hàbits i portar a terme iniciatives sostenibles i saludables en l'àmbit local i argumentar sobre els efectes positius i la urgència d'adoptar- los basant-se en els sabers de la matèria."
+          }
+        ],
+        "BAT2": [
           {
-            "codi": "CA5.3",
-            "text": "Interpretar les dinàmiques de les poblacions i les comunitats, explicant la successió ecològica i els factors que afecten la biodiversitat dels ecosistemes."
-          },
-          {
-            "codi": "CA5.4",
-            "text": "Avaluar l'impacte de les activitats humanes sobre els ecosistemes (deforestació, contaminació, canvi climàtic, pèrdua de biodiversitat), argumentant mesures de conservació i gestió sostenible."
+            "codi": "CA5.1",
+            "text": "Argumentar sobre la importància d'adoptar hàbits saludables i un model de desenvolupament sostenible, basant-se en els principis de la biologia, en particular de la biologia molecular, i relacionar-los amb els processos macroscòpics."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "text": "Valorar les aplicacions de la biotecnologia en l'àmbit de la salut, l'agricultura, la indústria i el medi ambient, analitzant les implicacions ètiques i socials de la manipulació del material genètic.",
+      "text": "Descriure, integrar i relacionar els principals processos característics dels éssers vius per justificar la complexitat de la vida i desmarcar-la del que és inert.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA6.1",
-            "text": "Descriure les tècniques bàsiques de l'enginyeria genètica (PCR, electroforesi, seqüenciació, clonatge i CRISPR), explicant el principi científic en què es basen i les seves aplicacions."
+            "text": "Identificar i diferenciar les diferents biomolècules pròpies dels éssers vius."
           },
           {
             "codi": "CA6.2",
-            "text": "Analitzar les aplicacions de la biotecnologia en medicina (teràpia gènica, vacunes recombinants, anticossos monoclonals), agricultura (organismes transgènics) i medi ambient (biorremediació), valorant-ne els riscos i beneficis."
+            "text": "Identificar experimentalment diferents tipus de biomolècules i relacionar-les amb les estructures biològiques i els aliments."
           },
           {
             "codi": "CA6.3",
-            "text": "Debatre les implicacions ètiques i socials de la manipulació genètica i la biotecnologia, argumentant posicions raonades basades en l'evidència científica i el respecte als drets fonamentals."
+            "text": "Justificar el concepte de cèl·lula com a unitat estructural i funcional dels éssers vius."
+          },
+          {
+            "codi": "CA6.4",
+            "text": "Argumentar la importància del programa genètic per a la vida dels éssers vius i la seva relació amb l'evolució biològica."
           }
-        ]
-      }
-    },
-    {
-      "codi": "CE7",
-      "text": "Descriure els mecanismes de defensa de l'organisme davant de les malalties infeccioses i no infeccioses, relacionant el funcionament del sistema immunitari amb les estratègies de prevenció i tractament, per promoure hàbits saludables basats en l'evidència científica.",
-      "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        ],
+        "BAT2": [
           {
-            "codi": "CA7.1",
-            "text": "Descriure els mecanismes de la immunitat innata i adaptativa (humoral i cel·lular), explicant el paper dels leucòcits, anticossos i limfòcits en la resposta immune."
-          },
-          {
-            "codi": "CA7.2",
-            "text": "Explicar el principi de la vacunació i la immunitat de grup, analitzant el funcionament de les vacunes i els tractaments immunoteràpics contra el càncer i les malalties autoimmunes."
-          },
-          {
-            "codi": "CA7.3",
-            "text": "Relacionar la higiene, l'alimentació, l'exercici físic i l'evitació de factors de risc (tabac, alcohol, sedentarisme) amb la prevenció de malalties, argumentant hàbits saludables fonamentats en l'evidència."
+            "codi": "CA6.1",
+            "text": "Explicar les característiques i els processos vitals dels éssers vius mitjançant l'anàlisi de les seves biomolècules, de les seves funcions, de les interaccions bioquímiques entre biomolècules i de les seves reaccions metabòliques."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r": {
-      "la_cellula": [
-        "Les biomolècules inorgàniques: l'aigua i les sals minerals, propietats i funcions biològiques.",
-        "Els glúcids: estructura dels monosacàrids, disacàrids i polisacàrids; funcions energètiques i estructurals.",
-        "Els lípids: triglicèrids, fosfolípids i esterols; la membrana plasmàtica i la seva permeabilitat selectiva.",
-        "Les proteïnes: estructura primària, secundària, terciària i quaternària; relació estructura-funció.",
-        "Els àcids nucleics: ADN i ARN, estructura i tipus (ARNm, ARNt, ARNr); paper en l'emmagatzematge i transmissió de la informació genètica.",
-        "La cèl·lula procariota: estructura, funcions dels components i exemples de bacteris.",
-        "La cèl·lula eucariota animal i vegetal: orgànuls membranosos (reticle endoplasmàtic, aparell de Golgi, lisosomes, vacúols, mitocondris, cloroplasts) i no membranosos (ribosomes, citoesquelet, centríols).",
-        "La membrana plasmàtica: model fluid-mosaic, transport passiu (difusió, osmosi) i actiu (bombes iòniques, endocitosi, exocitosi).",
-        "El metabolisme cel·lular: conceptes d'anabolisme i catabolisme; enzims i la seva regulació.",
-        "La respiració cel·lular: glucòlisi, cicle de Krebs i cadena de transport d'electrons; balanç energètic en ATP.",
-        "La fermentació làctica i alcohòlica: condicions, productes i aplicacions industrials.",
-        "La fotosíntesi: fase lluminosa (fotosistemes I i II, fotofosforilació) i fase fosca (cicle de Calvin); factors limitants.",
-        "El cicle cel·lular: fases G1, S, G2 i mitosi; punts de control i regulació.",
-        "La mitosi: profase, metafase, anafase i telofase; importància per al creixement i la reparació tissular.",
-        "La meiosi: meiosi I i meiosi II; recombinació genètica i importància per a la variabilitat."
-      ],
-      "genoma_i_expressio_genica": [
-        "L'ADN com a material genètic: evidències experimentals (experiments de Griffith, Avery, Hershey i Chase).",
-        "La replicació de l'ADN: mecanisme semiconservatiu, enzims implicats (helicasa, ADN polimerasa, lligasa) i fidelitat de la còpia.",
-        "La transcripció: síntesi de l'ARNm a partir de la plantilla d'ADN; ARN polimerasa; processament del pre-ARNm (splicing, capping, poliadenilació) en eucariotes.",
-        "La traducció: el codi genètic i les seves propietats; paper dels ribosomes, ARNt i ARNm; fases d'iniciació, elongació i terminació.",
-        "Regulació de l'expressió gènica en procariotes: l'operó lac com a model; repressors i activadors.",
-        "Regulació de l'expressió gènica en eucariotes: factors de transcripció, modificació de la cromatina, ARN no codificant.",
-        "Les mutacions gèniques: substitució, inserció i deleció de nucleòtids; mutacions silencioses, de sentit erroni i de terminació; relació amb el càncer.",
-        "Les mutacions cromosòmiques estructurals: delecions, duplicacions, inversions i translocacions.",
-        "Les mutacions cromosòmiques numèriques: aneuploidies (trisomia 21, síndrome de Turner, Klinefelter) i poliploidies.",
-        "Genètica mendeliana: lleis de la segregació i de l'assortiment independent; càlcul de proporcions amb quadrats de Punnett.",
-        "Herència lligada al sexe: herència de caràcters lligats als cromosomes X i Y; exemples en humans (daltonisme, hemofília).",
-        "Extensions de la genètica mendeliana: al·lels múltiples, codominància, dominància incompleta, epistàsia i lligament gènic.",
-        "La genètica de poblacions: freqüències al·lèliques i genotípiques; principi d'Hardy-Weinberg i les seves condicions.",
-        "Les tècniques bàsiques d'estudi del genoma: cariotip, PCR i electroforesi en gel."
-      ],
-      "microbiologia": [
-        "Els bacteris: estructura cel·lular (paret, membrana, citoplasma, nucleoide, plasmidis, fímbries, flagels, càpsula); formes i agrupacions.",
-        "Metabolisme bacterià: bacteris autòtrofs i heteròtrofs, aerobis i anaerobis; importància en els cicles biogeoquímics.",
-        "Reproducció bacteriana: fisió binària, conjugació, transformació i transducció; temps de generació i creixement exponencial.",
-        "Els virus: estructura (càpsida, embolcall, genoma d'ADN o ARN); classificació i exemples representatius.",
-        "El cicle línic i lisogènic dels bacteriòfags; cicle de replicació dels virus animals; retrovirus i VIH.",
-        "Les malalties infeccioses bacterianes: tuberculosi, salmonel·losi, càries dental; mecanismes de virulència i resistència als antibiòtics.",
-        "Les malalties infeccioses víriques: grip, COVID-19, hepatitis; mecanismes d'evasió de la immunitat.",
-        "Els fongs microscòpics: llevats i floridures; reproducció i aplicacions biotecnològiques (pa, cervesa, formatge, penicil·lina).",
-        "Els protozous: estructura, tipus de moviment (pseudòpodes, cilis, flagels) i malalties associades (malària, leishmaniosi, tripanosomiasi).",
-        "Els prions i els viroïdes: naturalesa, mecanisme de malaltia i exemples (malaltia de les vaques boges, EEB).",
-        "Mètodes de cultiu microbià: medis de cultiu sòlids i líquids, tècniques d'esterilització i de control microbià.",
-        "Els microorganismes en biotecnologia: fermentació industrial, producció d'enzims, antibiòtics i biocombustibles.",
-        "Bioindicadors i microbioma: el paper dels microorganismes en l'ecosistema intestinal humà i la salut."
-      ]
-    },
-    "2n": {
-      "evolucio": [
-        "Les teories evolutives: fixisme, lamarckisme, darwinisme i teoria sintètica (neodarwinisme); contribucions de cada corrent.",
-        "L'evidència de l'evolució: registre fòssil, anatomia comparada (òrgans homòlegs, anàlegs i vestigials), embriologia comparada.",
-        "L'evidència molecular de l'evolució: seqüències de proteïnes i d'ADN, filogènia molecular i rellotge molecular.",
-        "La selecció natural: variació, herència i adaptació; selecció direccional, estabilitzadora i disruptiva; adaptació al medi.",
-        "La deriva genètica: efecte fundador i coll d'ampolla; importància en poblacions petites.",
-        "El flux gènic i la migració: efectes sobre la variabilitat genètica de les poblacions.",
-        "L'especiació: concepte biològic d'espècie; especiació al·lopàtrica, simpàtrica i parapàtrica; mecanismes d'aïllament reproductor.",
-        "La macroevolució: pautes evolutives (anagenesi, cladogènesi); evolució convergent i radiació adaptativa.",
-        "La classificació dels éssers vius: taxonomia linneana, nomenclatura binomial i cladística.",
-        "Els dominis de la vida: Archaea, Bacteria i Eukarya; diversitat de regnes i filos principals.",
-        "La filogènia dels vertebrats: peixos, amfibis, rèptils, ocells i mamífers; adaptacions i característiques clau.",
-        "L'evolució humana: austral·lopitecs, Homo habilis, Homo erectus, Homo neanderthalensis i Homo sapiens; bipedisme i encefalització.",
-        "La biogeografia: distribució dels éssers vius i la seva relació amb l'evolució; endemismes i vicariança."
-      ],
-      "ecologia": [
-        "L'ecosistema: components biòtics (productors, consumidors, descomponedors) i abiòtics (temperatura, llum, humitat, sòl).",
-        "Les relacions entre espècies: depredació, parasitisme, mutualisme, comensalisme i competència; coevolució.",
-        "Les xarxes tròfiques i les cadenes alimentàries; piràmides ecològiques (biomassa, energia, nombre d'individus).",
-        "El flux d'energia als ecosistemes: productivitat primària neta i bruta; eficiència ecològica del 10%.",
-        "El cicle del carboni: fotosíntesi, respiració, descomposició, combustió i emmagatzematge en dipòsits geològics.",
-        "El cicle del nitrogen: fixació (bacteris simbiòtics i lliures), nitrificació, desnitrificació i incorporació per les plantes.",
-        "El cicle del fòsfor i del sofre: fonts, transformacions i impacte de la contaminació (eutrofització, pluja àcida).",
-        "La dinàmica de poblacions: taxa de creixement, capacitat de càrrega (K), models logístic i exponencial.",
-        "La successió ecològica: successió primària i secundària; clímax i pertorbacions.",
-        "La biodiversitat: diversitat genètica, d'espècies i d'ecosistemes; índexs de biodiversitat (Shannon, Simpson).",
-        "Les amenaces a la biodiversitat: destrucció d'hàbitats, espècies invasores, sobreexplotació, contaminació i canvi climàtic.",
-        "Els biomes terrestres: bosc tropical, sabana, desert, bosc temperat, taigà i tundra; característiques i distribució.",
-        "Els ecosistemes aquàtics: ecosistemes d'aigua dolça (llacunes, rius) i marins (oceà obert, litoral, coralls); productivitat."
-      ],
-      "biotecnologia": [
-        "L'enginyeria genètica: conceptes bàsics d'ADN recombinant, vectors (plasmidis, virus), enzims de restricció i lligasa.",
-        "La PCR (reacció en cadena de la polimerasa): principi, etapes (desnaturalització, hibridació, elongació) i aplicacions.",
-        "L'electroforesi en gel d'agarosa: principi de separació per mida, interpretació de resultats i aplicació en anàlisi genètica.",
-        "La seqüenciació de l'ADN: mètode de Sanger i seqüenciació de nova generació (NGS); el Projecte Genoma Humà.",
-        "El clonatge molecular: obtenció d'una còpia idèntica d'un gen o d'un organisme; clonatge terapèutic i reproductiu.",
-        "CRISPR-Cas9: mecanisme d'acció, aplicacions en medicina, agricultura i investigació; implicacions ètiques.",
-        "Les vacunes recombinants i la teràpia gènica: principis, exemples (vacunes ARNm COVID-19) i limitacions actuals.",
-        "Els anticossos monoclonals: producció i aplicacions en diagnòstic (ELISA) i tractament (immunoteràpia del càncer).",
-        "Els organismes transgènics en agricultura: arrós daurat, cotó Bt; avantatges, riscos i debat social.",
-        "La biorremediació: ús de microorganismes per descontaminar sòls i aigües; exemples i limitacions.",
-        "La biotecnologia industrial: producció de fàrmacs (insulina, eritropoetina), enzims industrials i biocombustibles.",
-        "El biobanc i la genòmica personal: implicacions ètiques, privadesa genètica i consell genètic."
-      ],
-      "salut_i_malaltia": [
-        "El concepte de salut i malaltia: definició de l'OMS, determinants de la salut i models biomèdic i biopsicosocial.",
-        "El sistema immunitari innat: barreres físiques i químiques (pell, mucoses, pH, lisozima), resposta inflamatòria i febre.",
-        "Les cèl·lules de la immunitat innata: neutròfils, macròfags, cèl·lules dendrítiques i cèl·lules NK; fagocitosi i opsonització.",
-        "La immunitat adaptativa humoral: limfòcits B, síntesi d'anticossos, classes d'immunoglobulines (IgG, IgA, IgM, IgE, IgD) i la seva funció.",
-        "La immunitat adaptativa cel·lular: limfòcits T cooperadors (CD4+) i citotòxics (CD8+); presentació d'antígens via MHC.",
-        "La memòria immunològica: resposta primària i secundària; base biològica de les vacunes.",
-        "Les vacunes: tipus (atenuades, inactivades, subunitats, ARNm, vectors vírics), calendari vacunal i immunitat de grup.",
-        "Els antibiòtics: mecanisme d'acció (inhibició de paret, membrana, síntesi de proteïnes o d'ADN); resistència bacteriana i ús responsable.",
-        "Les malalties autoimmunes: lupus, esclerosi múltiple, diabetis tipus 1; mecanismes de fallada de la tolerància immunològica.",
-        "Les al·lèrgies: mecanisme de sensibilització i resposta al·lèrgica (IgE, mastòcits, histamina); anafilaxi i tractament.",
-        "El càncer: mutacions i desregulació del cicle cel·lular; oncògens i gens supressors de tumors; tractaments (cirurgia, radioteràpia, quimioteràpia, immunoteràpia).",
-        "Les malalties cardiovasculars: arteriosclerosi, hipertensió, infart; factors de risc i prevenció.",
-        "Hàbits saludables: alimentació equilibrada (dieta mediterrània), activitat física, gestió de l'estrès, son, evitació del tabac i l'alcohol."
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar l'aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos i circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds, amb les capacitats que sustenten l'enfocament competencial dels aprenentatges, la qual cosa modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer curs Projecte científic - Plantejament amb perspectiva científica d'hipòtesis, preguntes, problemes i conjectures investigables en el context escolar. - Estratègies per a la cerca d'informació, col·laboració, comunicació i interacció amb institucions científiques: eines digitals, formats de presentació de processos, resultats i idees (diapositives, gràfics, vídeos, pòsters, informes i d'altres), en la resolució de problemes investigables. - Fonts fiables d'informació: cerca, reconeixement i utilització en recerques experimentals o estudis observacionals formulats a l'aula. - Experiències científiques de laboratori o de camp en el context escolar: disseny, planificació i realització. Contrast d'hipòtesis. Controls experimentals. - Mètodes d'anàlisi de resultats: organització, representació i eines estadístiques, aplicables a les recerques plantejades. - Estratègies de comunicació científica: vocabulari científic, formats (informes, vídeos, models, gràfics i d'altres) i eines digitals. - La tasca científica i les persones dedicades a la ciència: contribució a les ciències biològiques, geològiques i ambientals i importància social. El paper de la dona a la ciència. Casos històrics amb biaix de gènere. - L'evolució històrica del saber científic: la ciència com a tasca col·lectiva, interdisciplinària i en contínua construcció. Història de la vida - Contrast de diferents hipòtesis sobre l'origen dels éssers vius. - Anàlisi dels canvis en els grans grups d'éssers vius al llarg de la història de la Terra en vista de les teories evolutives. - Comparació dels principals grups taxonòmics d'acord amb les seves característiques fonamentals, amb un enfocament evolutiu. Bioquímica, fisiologia animal i vegetal - Diferenciació entre biomolècules orgàniques i inorgàniques i les seves característiques generals. - L'aigua i les sals minerals: relació entre les seves característiques químiques i funcions biològiques. - Anàlisi de les característiques químiques, isomeries, enllaços i funcions dels monosacàrids (pentoses, hexoses en les seves formes lineals i cícliques), disacàrids i polisacàrids amb més rellevància biològica. - Diferenciació entre els lípids amb àcids grassos i sense: característiques químiques, tipus i funcions biològiques dels diferents tipus de lípids. - La funció de nutrició en animals: importància biològica i estructures implicades en diferents grups taxonòmics, amb un enfocament evolutiu. - Reconeixement de la importància de les vitamines i sals com a cofactors enzimàtics i la necessitat d'incorporar-los a la dieta dels humans. - Identificació al laboratori i estudi dels diferents nutrients de la dieta humana. Anàlisi de la fiabilitat de les etiquetes dels aliments. - La funció de nutrició en vegetals: la fotosíntesi, el seu balanç general i importància per a la vida a la Terra. Comparació de la composició, la formació i els mecanismes de transport de la saba bruta i la saba elaborada. - La funció de relació en animals: fisiologia i funcionament dels sistemes de coordinació (nerviós i endocrí), dels receptors sensorials i dels òrgans efectors, amb un enfocament evolutiu. - La funció de relació en vegetals: tipus de respostes dels vegetals a estímuls i influència de les fitohormones (auxines, citoquinines, etilè, etc.). - La funció de reproducció en animals: importància biològica, tipus, estructures implicades en diferents grups taxonòmics, amb un enfocament evolutiu. - La funció de reproducció: la reproducció sexual i asexual, rellevància evolutiva, els cicles biològics, tipus de reproducció asexual, processos implicats en la reproducció sexual (pol·linització, fecundació, dispersió de la llavor i el fruit) i la relació amb l'ecosistema. Biologia cel·lular - Anàlisi de la teoria cel·lular i les seves implicacions biològiques. - Diferenciació d'imatges obtingudes per microscòpia òptica i electrònica, tenint en compte el poder de resolució de cadascuna i les tècniques de preparació de les mostres. - Anàlisi de la ultraestructura de la membrana plasmàtica i relació amb les seves propietats. - Anàlisi del procés osmòtic i repercussió sobre la cèl·lula animal, vegetal i procariota. - Anàlisi funcional bàsica dels orgànuls de la cèl·lula eucariota (animal i vegetal). - Anàlisi dels diferents mecanismes de transport a través de la membrana plasmàtica (difusió simple i facilitada, transport actiu, endocitosi i exocitosi), relacionant cadascun amb les propietats de les molècules transportades. - Estratègies de captació i aprofitament d'energia. Ecologia i sostenibilitat - El medi ambient com a motor econòmic i social: importància i necessitat de l'adopció d'un model de desenvolupament sostenible, a partir de casos de l'entorn proper i global. - La sostenibilitat de les activitats quotidianes: ús d'indicadors de sostenibilitat, hàbits de vida compatibles i coherents amb un model de desenvolupament sostenible. Concepte de petjada ecològica. - El canvi cap a un model de desenvolupament sostenible: iniciatives locals i globals. - La dinàmica dels ecosistemes: els fluxos d'energia, els cicles de la matèria (carboni, nitrogen, fòsfor i sofre) i les relacions tròfiques. Resolució de problemes plantejats en l'àmbit local i global. - El canvi climàtic: la seva relació amb el cicle del carboni, causes i conseqüències sobre la salut, economia, ecologia i societat. Segon curs Les biomolècules i el metabolisme - Identificació de biomolècules en funció de la seva estructura química i relació d'aquesta amb les funcions que exerceixen. - Classificació de les biomolècules segons les funcions que exerceixen. - Concepte de metabolisme. Comparació entre anabolisme i catabolisme. - Relació entre les característiques químiques, estructura i funció biològica de les proteïnes, analitzant la importància del seu paper biocatalitzador. - Visió general dels diferents processos implicats en la respiració cel·lular anaeròbica - (glucòlisi i fermentació) i aeròbica (β-oxidació dels àcids grassos, cicle de Krebs, cadena de transport d'electrons i fosforilació oxidativa). - Anàlisi del significat biològic, a escala molecular i cel·lular de les principals rutes catabòliques. El metabolisme com a manera de processar la matèria i l'energia. - Comparació entre metabolisme aeròbic i anaeròbic: càlcul comparatiu del rendiment energètic i reflexió sobre l'eficiència de cadascun. - Anàlisi de les principals rutes d'anabolisme heteròtrof (síntesi d'aminoàcids, proteïnes i àcids grassos) i autòtrof (fotosíntesi i quimiosíntesi) i la seva importància biològica. - Anàlisi de les fermentacions com a degradacions parcials de les biomolècules i la seva aplicació en l'obtenció d'aliments. Genètica i cicle cel·lu"
     }
-  },
-  "blocs_sabers": [
-    "la_cellula",
-    "genoma_i_expressio_genica",
-    "microbiologia",
-    "evolucio",
-    "ecologia",
-    "biotecnologia",
-    "salut_i_malaltia"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 62,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

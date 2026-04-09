@@ -1,0 +1,483 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "subestacions elèctriques",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "interpretació de projectes de subestacions elèctriques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza les subestacions elèctriques, reconeixent-ne les diferents configuracions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els diferents tipus de subestacions elèctriques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Distingeix la funció d’una subestació elèctrica dins del sistema de transport i distribució elèctrica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Distingeix diferents configuracions de subestacions."
+              },
+              {
+                "codi": "CA14",
+                "text": "N’identifica els components i les tecnologies de funcionament."
+              },
+              {
+                "codi": "CA15",
+                "text": "Interpreta els reglaments tècnics i de seguretat d’aplicació en aquest tipus d’instal·lacions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix la normativa legal aplicable."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Interpreta projectes de subestacions, identificant les característiques i la funció dels components.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta els diferents documents que componen un projecte d’una subestació elèctrica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix els elements en els plànols de la instal·lació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les fases generals del desenvolupament d’un procés de muntatge d’una subestació elèctrica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Dibuixa esquemes, croquis i cronogrames de subestacions elèctriques."
+              },
+              {
+                "codi": "CA25",
+                "text": "Elabora en CAD plànols de subestacions elèctriques."
+              },
+              {
+                "codi": "CA26",
+                "text": "Classifica la documentació tècnica i administrativa relacionada amb l’execució del muntatge de la instal·lació."
+              },
+              {
+                "codi": "CA27",
+                "text": "Caracteritza cadascun dels elements que componen la subestació (transformadors de potència, interruptors, seccionadors, autovàlvules, transformadors de mesura, sistemes d’alimentació ininterrompuda (SAI), protecció contra llamps, protecció contra incendis, entre d’altres)."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització de subestacions elèctriques",
+                "items": [
+                  "Característiques bàsiques de les subestacions elèctriques.",
+                  "Funció de la subestació elèctrica dins del sistema de transport d’energia.",
+                  "Principals components. Embarrats, seccionadors, transformadors, interruptors.",
+                  "Reglamentació tècnica i de seguretat.",
+                  "Normativa aplicable. Reglament d’alta tensió. REBT. Reglament de centrals, subestacions i centres de transformació."
+                ]
+              },
+              {
+                "bloc": "Interpretació de projectes de subestacions",
+                "items": [
+                  "Projectes de subestacions elèctriques.",
+                  "Simbologia tècnica d’aplicació en la representació gràfica de plànols.",
+                  "Fases de muntatge d’una subestació.",
+                  "Elaboració d’esquemes i de documents relatius a les subestacions amb ajuda de CAD.",
+                  "Interpretació d’esquemes i de plànols.",
+                  "Gestió de documents tècnics i administratius vinculats amb el muntatge de subestacions."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "muntatge de subestacions elèctriques",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Planifica processos de muntatge de subestacions elèctriques, reconeixent-ne els elements i les característiques de muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les parts del projecte necessàries per a la planificació del muntatge."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els reglaments i les normes relatives a qualitat i seguretat d’aplicació en la planificació del muntatge."
+              },
+              {
+                "codi": "CA13",
+                "text": "Defineix les fases del muntatge."
+              },
+              {
+                "codi": "CA14",
+                "text": "Elabora el pla de muntatge."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix les diferents tècniques que s’han d’utilitzar en els processos de muntatge de subestacions elèctriques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Selecciona els recursos humans que intervenen en el muntatge de subestacions elèctriques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Aplica el pla de seguretat i salut laboral en el muntatge de subestacions elèctriques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Programa plans d’aprovisionament per al muntatge de subestacions elèctriques, especificant-ne les fases i organitzant-ne la logística.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix tipus de plans d’aprovisionament."
+              },
+              {
+                "codi": "CA22",
+                "text": "Elabora programes d’aprovisionament del muntatge de subestacions elèctriques."
+              },
+              {
+                "codi": "CA23",
+                "text": "Coordina la planificació del muntatge amb les capacitats de provisió i emmagatzematge."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix els criteris de control de qualitat en les diferents fases de l’aprovisionament."
+              },
+              {
+                "codi": "CA25",
+                "text": "Dissenya l’aprovisionament dels sistemes i equips de seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Planifica operacions de supervisió, control del muntatge i posada en servei, identificant tècniques específiques de sistemes i d’elements.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Seqüencia el muntatge mitjançant un fluxgrama."
+              },
+              {
+                "codi": "CA32",
+                "text": "Reconeix les operacions de muntatge d’interruptors, seccionadors i altre aparellatge."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les operacions de muntatge de línies d’alta tensió."
+              },
+              {
+                "codi": "CA34",
+                "text": "Defineix les operacions de muntatge i de connexió dels transformadors."
+              },
+              {
+                "codi": "CA35",
+                "text": "Identifica operacions de muntatge dels embarrats, connexions aèries, xarxes d’entrada i sortida i xarxa de terra."
+              },
+              {
+                "codi": "CA36",
+                "text": "Relaciona les operacions de muntatge dels sistemes de regulació i control."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica el muntatge d’elements, línies i connexions entre d’altres."
+              },
+              {
+                "codi": "CA38",
+                "text": "Defineix els paràmetres i els procediments de mesura que cal emprar en les proves de posada en servei."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Realitza el replantejament d’elements i obra civil de subestacions elèctriques, identificant-ne la utilització i les característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Relaciona l’obra civil necessària amb els diferents tipus de subestacions elèctriques."
+              },
+              {
+                "codi": "CA42",
+                "text": "Ubica els equips emprats a les subestacions."
+              },
+              {
+                "codi": "CA43",
+                "text": "Reconeix els elements d’obra civil, fonamentacions, suports i infraestructures a les subestacions elèctriques."
+              },
+              {
+                "codi": "CA44",
+                "text": "Especifica la disposició general d’aïllants, interruptors, seccionadors i altre aparellatge."
+              },
+              {
+                "codi": "CA45",
+                "text": "Distribueix els elements de protecció, detecció, senyalització i maniobra de les subestacions elèctriques."
+              },
+              {
+                "codi": "CA46",
+                "text": "Distingeix les ubicacions habituals i funcions de les línies d’entrada i de sortida, cel·les, mòduls híbrids, transformadors i embarrats."
+              },
+              {
+                "codi": "CA47",
+                "text": "Reconeix les ubicacions habituals i funcions de bateries i rectificadors de corrent continu, xarxes de terra i parallamps."
+              },
+              {
+                "codi": "CA48",
+                "text": "Identifica la tecnologia SIG (sistema d’informació geogràfica) i els seus components."
+              },
+              {
+                "codi": "CA49",
+                "text": "Interpreta els esquemes elèctrics de les diferents configuracions de subestacions elèctriques."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Planificació de processos de muntatge en subestacions",
+                "items": [
+                  "El projecte tècnic aplicat al muntatge.",
+                  "Planificació del muntatge de subestacions elèctriques.",
+                  "Normativa aplicable al muntatge de subestacions elèctriques.",
+                  "Fases del pla de muntatge en subestacions.",
+                  "Tècniques de muntatge. Tesat, acoblament, anivellament, ancoratge, connexions.",
+                  "Recursos humans per al muntatge de subestacions elèctriques.",
+                  "Pla de seguretat i de salut laboral."
+                ]
+              },
+              {
+                "bloc": "Programació de plans de muntatge",
+                "items": [
+                  "Pla d’aprovisionament. Control logístic.",
+                  "Pla de demanda, aprovisionament, emmagatzematge i posada en obra d’equips propis a les subestacions elèctriques.",
+                  "Coordinació d’equips i d’eines per al muntatge.",
+                  "Pla de qualitat en el muntatge de subestacions elèctriques.",
+                  "Pla de seguretat en el muntatge de subestacions elèctriques.",
+                  "Programari informàtic de planificació assistida.",
+                  "Visualització i interpretació de gràfics digitalitzats.",
+                  "Operacions bàsiques amb arxius informàtics."
+                ]
+              },
+              {
+                "bloc": "Planificació de la supervisió i control del muntatge i posada en servei de les instal·lacions de subestacions",
+                "items": [
+                  "Muntatge dels elements principals d’una subestació.",
+                  "Procediments de muntatge de línies d’alta tensió.",
+                  "Tasques de muntatge i de connexió de transformadors. Transformadors de potència, de mesura i auxiliars.",
+                  "Procés de muntatge d’embarrat, connexions i confecció de xarxa de terra. Càlcul mecànic i elèctric.",
+                  "Operacions de muntatge dels equips de regulació i de control.",
+                  "Simulació de muntatge d’una subestació."
+                ]
+              },
+              {
+                "bloc": "Replantejament de l’obra civil en el muntatge de subestacions",
+                "items": [
+                  "Configuracions i tipus d’obres en subestacions.",
+                  "Ubicació dels principals equips de les subestacions.",
+                  "Obra civil.",
+                  "Situació i funcions específiques dels components bàsics d’una subestació elèctrica.",
+                  "Tecnologia SIG. Fonaments i aplicacions.",
+                  "Esquemes de subestacions elèctriques."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "manteniment de subestacions elèctriques",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Planifica el manteniment de subestacions elèctriques, reconeixent-ne els punts crítics i redactant-ne el pla de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la documentació tècnica referida a la subestació elèctrica necessària per realitzar la planificació del seu manteniment."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els equips i els elements de les subestacions elèctriques susceptibles de manteniment."
+              },
+              {
+                "codi": "CA13",
+                "text": "Enumera els punts crítics d’una subestació elèctrica en els quals poden produir-se avaries."
+              },
+              {
+                "codi": "CA14",
+                "text": "Defineix les possibles causes i les conseqüències funcionals de les avaries."
+              },
+              {
+                "codi": "CA15",
+                "text": "Redacta el procediment per a la detecció d’avaries en subestacions elèctriques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Detalla especificacions tècniques de materials per gestionar-ne l’adquisició en el procés de manteniment."
+              },
+              {
+                "codi": "CA17",
+                "text": "Redacta els procediments de manteniment preventiu usuals a les subestacions elèctriques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta el pla de seguretat en el procés de manteniment."
+              },
+              {
+                "codi": "CA19",
+                "text": "Determina els mitjans i els equips de seguretat que cal tenir en compte durant el manteniment."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza operacions de manteniment correctiu de primer nivell de les subestacions elèctriques, interpretant documentació tècnica i aplicant els procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Indica els reglaments i les normatives que afecten l’operació de manteniment en subestacions elèctriques."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica les parts, els equips i els components susceptibles de manteniment de primer nivell."
+              },
+              {
+                "codi": "CA23",
+                "text": "Reconeix la influència de l’operació i del manteniment de primer nivell en el funcionament general de les subestacions elèctriques."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza el procediment de la descàrrega que cal seguir abans d’intervenir en qualsevol component o instal·lació de la subestació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica les fases del procediment d’operació sobre interruptors, seccionadors, sistemes de control i resta de sistemes."
+              },
+              {
+                "codi": "CA26",
+                "text": "Seqüencia les actuacions de control i de manteniment d’equips i de la instal·lació."
+              },
+              {
+                "codi": "CA27",
+                "text": "Documenta el protocol per a la restitució del servei de forma coordinada i segura amb el centre de control."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Planificació de programes de manteniment, recursos i protocols",
+                "items": [
+                  "Documents tècnics vinculats al manteniment d’una subestació elèctrica.",
+                  "Manteniment d’equips elèctrics i electrònics de subestacions.",
+                  "Necessitat del manteniment dels elements constitutius d’una subestació elèctrica.",
+                  "Punts crítics d’una subestació susceptibles de patir avaries.",
+                  "Avaries en subestacions. Causes i efectes principals.",
+                  "Detecció d’avaries. Procediments de diagnòstic. Mesures directes i indirectes de tensió, intensitat i temperatura.",
+                  "Manteniment preventiu. Pla de seguretat. Posada en descàrrega d’instal·lacions."
+                ]
+              },
+              {
+                "bloc": "Operacions de manteniment en subestacions",
+                "items": [
+                  "Normativa aplicable al manteniment de subestacions elèctriques.",
+                  "Equips d’una subestació elèctrica susceptibles de manteniment de primer nivell.",
+                  "Procediments de descàrrega de les instal·lacions i equips de les subestacions.",
+                  "Fases d’operacions de manteniment específic en sistemes elèctrics i electrònics de control.",
+                  "Necessitats del manteniment correctiu.",
+                  "Restitució del servei en una subestació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "operacions locals en subestacions elèctriques",
+        "hores": 11,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza les operacions fonamentals dels sistemes, equips i instruments de subestacions elèctriques, aplicant tècniques específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les tècniques pròpies de cadascun dels sistemes i equips."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els requisits de seguretat per operar sobre els diferents equips."
+              },
+              {
+                "codi": "CA13",
+                "text": "Seqüencia les actuacions en els sistemes, equips i instruments de subestacions elèctriques."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza els instruments precisos per a les operacions de sistemes i equips."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza la documentació pròpia de cada equip o sistema."
+              },
+              {
+                "codi": "CA16",
+                "text": "Té en compte les normes de riscos professionals."
+              },
+              {
+                "codi": "CA17",
+                "text": "Simula l’operació sobre interruptors, seccionadors, entre d’altres."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització de les operacions fonamentals dels sistemes, equips i instruments de subestacions elèctriques",
+                "items": [
+                  "Tècniques d’operació en sistemes. Tècniques d’operació en equips.",
+                  "Requisits de seguretat per operar sobre els diferents equips. Tècniques específiques de seguretat i prevenció en els processos d’operació.",
+                  "Seqüències d’actuacions en els sistemes de subestacions elèctriques. Seqüències d’actuació en equips.",
+                  "Instruments emprats en les operacions de sistemes. Instruments i equips usuals en operacions de subestacions.",
+                  "Documentació pròpia d’equip o de sistemes.",
+                  "Normes específiques de riscos professionals i seguretat en els processos d’operació de subestacions.",
+                  "Operacions sobre interruptors. Operacions sobre seccionadors. Operacions en preses de terra. Operacions mecàniques d’instal·lacions i d’equips. Operacions elèctriques de circuits."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

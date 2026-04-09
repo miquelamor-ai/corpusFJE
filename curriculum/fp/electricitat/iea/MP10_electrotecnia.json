@@ -1,0 +1,684 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "electrotècnia",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "corrent continu i electromagnetisme",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza càlculs en circuits elèctrics de corrent continu, aplicant principis i conceptes bàsics d’electricitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques de conductors, aïllants i semiconductors, diferenciant-ne el comportament."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les principals magnituds elèctriques i utilitza correctament les seves unitats."
+              },
+              {
+                "codi": "CA13",
+                "text": "Resol problemes sobre la llei d’Ohm i la variació de la resistència amb la temperatura."
+              },
+              {
+                "codi": "CA14",
+                "text": "Calcula potències, energies i rendiments elèctrics."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix els efectes químics i tèrmics de l’electricitat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Interpreta i realitza esquemes de circuits elèctrics, utilitzant simbologia normalitzada."
+              },
+              {
+                "codi": "CA17",
+                "text": "Simplifica agrupacions sèrie-paral·lel de resistències."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza càlculs en circuits elèctrics de CC que inclou connexions sèrie i paral·lel o diverses malles."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza mesuraments de resistència, tensió i intensitat observant les normes de seguretat dels equips i les persones."
+              },
+              {
+                "codi": "CA110",
+                "text": "Reconeix les propietats i la funció dels condensadors."
+              },
+              {
+                "codi": "CA111",
+                "text": "Simplifica agrupacions sèrie-paral·lel de condensadors."
+              },
+              {
+                "codi": "CA112",
+                "text": "Identifica les característiques, formes de connexió i simbologia d’aparells de mesura de resistència, tensió i intensitat."
+              },
+              {
+                "codi": "CA113",
+                "text": "Identifica conductors d’una canalització elèctrica utilitzant la funció de comprovació de continuïtat del multímetre."
+              },
+              {
+                "codi": "CA114",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix els principis bàsics de l’electromagnetisme, descrivint les interaccions entre camps magnètics i conductors elèctrics i relacionant l’experiència de Faraday amb el principi de funcionament dels generadors elèctrics.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix les característiques dels imants, així com dels camps magnètics que originen."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix els camps magnètics creats per conductors recorreguts per corrents elèctrics."
+              },
+              {
+                "codi": "CA23",
+                "text": "Realitza càlculs bàsics de circuits magnètics, utilitzant les magnituds adequades i les seves unitats."
+              },
+              {
+                "codi": "CA24",
+                "text": "Descriu l’experiència d’Oersted."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix l’acció d’un camp magnètic sobre corrents elèctrics i la relaciona amb el principi de funcionament dels motors."
+              },
+              {
+                "codi": "CA26",
+                "text": "Descriu l’experiència de Faraday."
+              },
+              {
+                "codi": "CA27",
+                "text": "Relaciona la llei d’inducció de Faraday amb la producció i utilització de l’energia elèctrica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Reconeix el fenomen de l’autoinducció."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Càlculs en circuits elèctrics de corrent continu",
+                "items": [
+                  "Generació i consum d’electricitat.",
+                  "Efectes de l’electricitat.",
+                  "Aïllants, conductors i semiconductors.",
+                  "Càrregues elèctriques.",
+                  "Moviment de càrregues. Corrent elèctric. Intensitat del corrent elèctric.",
+                  "Manteniment del corrent: DDP i FEM.",
+                  "Sentit real i convencional del corrent.",
+                  "Circuit elèctric.",
+                  "Corrent continu (CC) i corrent altern (CA).",
+                  "Sistema internacional d’unitats. Unitats d’intensitat i tensió.",
+                  "Resistència elèctrica. Unitat.",
+                  "Llei d’Ohm.",
+                  "Resistència interna d’un generador.",
+                  "Llei d’Ohm generalitzada per a circuits de CC.",
+                  "Resistència d’un conductor. Resistivitat.",
+                  "Potència elèctrica.",
+                  "Energia elèctrica.",
+                  "Rendiment.",
+                  "Efecte químic de l’electricitat.",
+                  "Efecte tèrmic de l’electricitat.",
+                  "Llei de Joule.",
+                  "Associació de resistències en sèrie.",
+                  "Associació de resistències en paral·lel.",
+                  "Circuits amb associacions sèrie-paral·lel.",
+                  "Lleis de Kirchhoff.",
+                  "Materials aïllants.",
+                  "Rigidesa dielèctrica.",
+                  "Característiques i funcionament d’un condensador.",
+                  "Capacitat.",
+                  "Associació de condensadors en sèrie.",
+                  "Associació de condensadors en paral·lel.",
+                  "Càrrega i descàrrega de condensadors: conceptes bàsics.",
+                  "Mesures de resistència: aparells, connexions, seguretat, simbologia.",
+                  "Identificació de conductors utilitzant la funció de continuïtat del multímetre.",
+                  "Procediment. Mesures de seguretat.",
+                  "Mesures de tensió i intensitat en circuits de CC: aparells, connexions, seguretat, simbologia.",
+                  "Mesures de capacitat."
+                ]
+              },
+              {
+                "bloc": "Electromagnetisme",
+                "items": [
+                  "Magnetisme.",
+                  "Camp magnètic produït per un imant.",
+                  "Camps magnètics creats per un corrent elèctric circulant per un conductor rectilini i per un solenoide.",
+                  "Materials magnètics.",
+                  "Magnituds magnètiques. Unitats.",
+                  "Circuits magnètics.",
+                  "Corbes de magnetització.",
+                  "Experiència d’Oersted.",
+                  "Interaccions entre camps magnètics i corrents elèctrics.",
+                  "Forces sobre corrents situats en l’interior de camps magnètics.",
+                  "Definició d’ampere.",
+                  "Forces electromotrius induïdes.",
+                  "Experiències de Faraday. Relació amb el principi de funcionament dels generadors elèctrics.",
+                  "Llei de Faraday.",
+                  "Sentit de la força electromotriu induïda: llei de Lenz.",
+                  "Corrents de Foucault.",
+                  "Forces electromotrius autoinduïdes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "corrent altern",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza càlculs en circuits elèctrics de corrent altern (CA) monofàsic, aplicant les tècniques més adequades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la forma de generar CA monofàsic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les característiques d’un senyal sinusoïdal."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix els valors característics del CA."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les relacions entre tensió, intensitat i potència en circuits bàsics de CA amb resistències, amb bobines pures i amb condensadors purs."
+              },
+              {
+                "codi": "CA15",
+                "text": "Calcula tensions, intensitats i potències en circuits de CA amb acoblament sèrie de resistències, bobines i condensadors."
+              },
+              {
+                "codi": "CA16",
+                "text": "Dibuixa els triangles d’impedàncies, tensions i potències en circuits de CA amb acoblament sèrie de resistències, bobines i condensadors."
+              },
+              {
+                "codi": "CA17",
+                "text": "Calcula el factor de potència de circuits de CA."
+              },
+              {
+                "codi": "CA18",
+                "text": "Mesura tensions, intensitats, potències i factors de potència, observant les normes de seguretat dels equips i de les persones."
+              },
+              {
+                "codi": "CA19",
+                "text": "Relaciona el factor de potència amb el consum d’energia elèctrica."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica la manera de corregir el factor de potència d’una instal·lació."
+              },
+              {
+                "codi": "CA111",
+                "text": "Calcula les potències, intensitat i factor de potència d’una instal·lació monofàsica senzilla."
+              },
+              {
+                "codi": "CA112",
+                "text": "Calcula caigudes de tensió en línies monofàsiques de CA."
+              },
+              {
+                "codi": "CA113",
+                "text": "Descriu el concepte de ressonància, les seves característiques i aplicacions."
+              },
+              {
+                "codi": "CA114",
+                "text": "Identifica les característiques, formes de connexió i simbologia d’aparells de mesura de tensió, intensitat, potència i factor de potència (voltímetre, amperímetre, multímetre, fasímetre, wattímetre i pinça amperimètrica i wattimètrica)."
+              },
+              {
+                "codi": "CA115",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza càlculs de les magnituds elèctriques bàsiques d’un sistema trifàsic, reconeixent el tipus de sistema i la naturalesa i tipus de connexió dels receptors.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica la forma de generar CA trifàsic."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix els avantatges dels sistemes trifàsics en la generació i transport de l’energia elèctrica."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu els sistemes de generació i distribució a tres i quatre fils."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica les dues formes de connexió dels receptors trifàsics."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix la diferència entre receptors equilibrats i desequilibrats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza càlculs d’intensitats, tensions i potències en receptors trifàsics equilibrats, connectats tant en estrella com en triangle."
+              },
+              {
+                "codi": "CA27",
+                "text": "Mesura tensions, intensitats, potències i energies, segons el tipus de sistema trifàsic i el tipus de càrrega."
+              },
+              {
+                "codi": "CA28",
+                "text": "Observa les normes de seguretat dels equips i les persones en la realització de mesures."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza càlculs de millora del factor de potència en instal·lacions trifàsiques."
+              },
+              {
+                "codi": "CA210",
+                "text": "Identifica les característiques, simbologia i forma de connexió d’un comptador trifàsic d’energia ."
+              },
+              {
+                "codi": "CA211",
+                "text": "Calcula caigudes de tensió en línies trifàsiques de CA."
+              },
+              {
+                "codi": "CA212",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Càlculs de circuits de corrent altern monofàsic",
+                "items": [
+                  "Avantatges del CA davant el CC.",
+                  "Generació de corrents alterns.",
+                  "Valors característics.",
+                  "Comportament dels receptors elementals (resistència, bobina pura, condensador) en CA monofàsic.",
+                  "Circuits RLC sèrie.",
+                  "Potència.",
+                  "Factor de potència. Correcció del factor de potència.",
+                  "Acoblament en paral·lel de receptors.",
+                  "Resolució de circuits.",
+                  "Ressonància.",
+                  "Càlculs en instal·lacions de CA monofàsic.",
+                  "Tipus de làmpades. Utilització. Concepte d’eficiència energètica aplicat a làmpades.",
+                  "Mesures de tensió, intensitat i potència en circuits monofàsics."
+                ]
+              },
+              {
+                "bloc": "Càlculs en sistemes trifàsics",
+                "items": [
+                  "Avantatges davant els sistemes monofàsics.",
+                  "Generació de corrents alterns trifàsics.",
+                  "Connexió de generadors trifàsics.",
+                  "Connexió de receptors trifàsics.",
+                  "Potència en sistemes trifàsics.",
+                  "Correcció del factor de potència.",
+                  "Mesures de tensions i intensitats en sistemes trifàsics.",
+                  "Mesures de potència activa en sistemes trifàsics.",
+                  "Mesures d’energia en sistemes trifàsics.",
+                  "Càlcul de caigudes de tensió en línies trifàsiques de CA."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "màquines elèctriques",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix les característiques de les màquines de corrent continu realitzant proves i descrivint-ne la constitució i el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica les màquines de corrent continu segons la seva excitació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els principis de funcionament de les màquines de corrent continu."
+              },
+              {
+                "codi": "CA13",
+                "text": "Interpreta la placa de característiques d’una màquina de corrent continu."
+              },
+              {
+                "codi": "CA14",
+                "text": "Interpreta esquemes bàsics de connexió de motors de corrent continu."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els elements que componen inductor i induït."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix la funció del col·lector."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu la reacció de l’induït i els sistemes de compensació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Mesura la intensitat d’una arrencada amb reòstat."
+              },
+              {
+                "codi": "CA19",
+                "text": "Inverteix la polaritat dels debanats per comprovar la inversió del sentit de gir."
+              },
+              {
+                "codi": "CA110",
+                "text": "Observa les mesures de seguretat adequades durant els assajos."
+              },
+              {
+                "codi": "CA111",
+                "text": "Interpreta les característiques mecàniques d’un motor de corrent continu."
+              },
+              {
+                "codi": "CA112",
+                "text": "Reconeix els paràmetres sobre els que cal incidir per variar la velocitat de motors de corrent continu."
+              },
+              {
+                "codi": "CA113",
+                "text": "Col·labora amb l’equip de treball en la realització dels assajos, amb actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix les característiques de les màquines rotatives de corrent altern realitzant càlculs i descrivint-ne la constitució i el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Classifica les màquines rotatives de corrent altern."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els elements que constitueixen un motor d’inducció trifàsic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu el principi de funcionament de les màquines rotatives de corrent altern."
+              },
+              {
+                "codi": "CA24",
+                "text": "Interpreta plaques de característiques."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu les connexions dels debanats relacionant-les amb la caixa de borns."
+              },
+              {
+                "codi": "CA26",
+                "text": "Estableix la diferència de funcionament dels rotors de gàbia d’esquirol i bobinat."
+              },
+              {
+                "codi": "CA27",
+                "text": "Interpreta la característica mecànica d’un motor d’inducció."
+              },
+              {
+                "codi": "CA28",
+                "text": "Consulta informació tècnica i comercial de diferents fabricants."
+              },
+              {
+                "codi": "CA29",
+                "text": "Descriu el procediment a seguir per invertir el sentit de gir de motors d’inducció."
+              },
+              {
+                "codi": "CA210",
+                "text": "Reconeix els paràmetres sobre els que cal incidir per variar la velocitat dels motors de corrent altern."
+              },
+              {
+                "codi": "CA211",
+                "text": "Calcula potències absorbides, intensitats nominals i lliscaments de motors de corrent altern a partir de les característiques descrites en la documentació tècnica."
+              },
+              {
+                "codi": "CA212",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Reconeix les característiques dels transformadors realitzant assaigs i càlculs i descrivint-ne la constitució i el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu els circuits elèctric i magnètic del transformador monofàsic."
+              },
+              {
+                "codi": "CA32",
+                "text": "Descriu el principi de funcionament dels transformadors."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les magnituds nominals a la placa de característiques."
+              },
+              {
+                "codi": "CA34",
+                "text": "Realitza l’assaig en buit per determinar la relació de transformació i les pèrdues en el ferro."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza l’assaig en curtcircuit per determinar la impedància de curtcircuit i les pèrdues en el coure."
+              },
+              {
+                "codi": "CA36",
+                "text": "Connecta adequadament els aparells de mesura en els assajos."
+              },
+              {
+                "codi": "CA37",
+                "text": "Observa les mesures de seguretat adequades durant els assajos."
+              },
+              {
+                "codi": "CA38",
+                "text": "Calcula el rendiment del transformador assajat."
+              },
+              {
+                "codi": "CA39",
+                "text": "Reconeix i utilitza les relacions fonamentals dels transformadors."
+              },
+              {
+                "codi": "CA310",
+                "text": "Dedueix les conseqüències d’un accident de curtcircuit."
+              },
+              {
+                "codi": "CA311",
+                "text": "Identifica el grup de connexió amb l’esquema de connexions d’un transformador trifàsic."
+              },
+              {
+                "codi": "CA312",
+                "text": "Descriu les condicions d’acoblament dels transformadors."
+              },
+              {
+                "codi": "CA313",
+                "text": "Col·labora amb l’equip de treball en la realització dels assajos, amb una actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Màquines de corrent continu",
+                "items": [
+                  "Constitució de la màquina de corrent continu.",
+                  "Principi de funcionament com a generador.",
+                  "Reacció de l’induït.",
+                  "Tipus d’excitació.",
+                  "Principi de funcionament com a motor.",
+                  "Parell motor.",
+                  "Característiques mecàniques.",
+                  "Regulació de velocitat.",
+                  "Inversió del sentit de gir.",
+                  "Designació de borns.",
+                  "Placa de característiques.",
+                  "Esquemes bàsics de connexió de motors de corrent continu.",
+                  "Mesures de seguretat en la realització d’assajos de màquines de corrent continu."
+                ]
+              },
+              {
+                "bloc": "Màquines rotatives de corrent altern",
+                "items": [
+                  "Tipus i utilitat dels alternadors.",
+                  "Constitució de l’alternador trifàsic.",
+                  "Principi de funcionament de l’alternador trifàsic.",
+                  "Constitució i tipus de motors asíncrons trifàsics.",
+                  "Principi de funcionament del motor asíncron trifàsic: camp giratori, velocitat de sincronisme, velocitat del rotor, lliscament.",
+                  "Paràmetres que determinen la velocitat dels motors d’inducció.",
+                  "Característica mecànica.",
+                  "Sistemes d’arrencada.",
+                  "Inversió del sentit de gir.",
+                  "Plaques de característiques dels motors de corrent altern.",
+                  "Motors monofàsics.",
+                  "Càlculs: potències absorbides, intensitats i lliscaments."
+                ]
+              },
+              {
+                "bloc": "Transformadors",
+                "items": [
+                  "Principi de funcionament.",
+                  "El transformador monofàsic.",
+                  "Assajos en buit i en curtcircuit.",
+                  "Caiguda de tensió.",
+                  "Rendiment.",
+                  "L’autotransformador.",
+                  "El transformador trifàsic.",
+                  "Grups de connexió.",
+                  "Acoblament en paral·lel.",
+                  "Mesures de seguretat en la realització d’assajos de transformadors."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "seguretat en les instal·lacions electrotècniques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els riscos i efectes de l’electricitat, relacionant-los amb els dispositius",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Utilitza el REBT i la normativa de seguretat davant el risc elèctric."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els inconvenients de l’efecte tèrmic de l’electricitat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els riscos de xoc elèctric en les persones i els seus efectes fisiològics, així com els factors relacionats."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els riscos d’incendi per escalfament."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix els tipus d’accidents elèctrics."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix els riscos derivats de l’ús d’instal·lacions elèctriques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora instruccions d’utilització de les aules-taller tenint en compte la normativa en matèria de seguretat elèctrica."
+              },
+              {
+                "codi": "CA18",
+                "text": "Interpreta les cinc regles d’or per a la realització de treballs sense tensió."
+              },
+              {
+                "codi": "CA19",
+                "text": "Calcula la secció dels conductors d’una instal·lació, considerant les prescripcions reglamentàries."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica les proteccions necessàries d’una instal·lació contra sobreintensitats i sobretensions."
+              },
+              {
+                "codi": "CA111",
+                "text": "Identifica els sistemes de protecció contra contactes directes i indirectes."
+              },
+              {
+                "codi": "CA112",
+                "text": "Valora la importància del compliment de la normativa en matèria de seguretat elèctrica."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Seguretat en les instal·lacions electrotècniques",
+                "items": [
+                  "Efectes de l’electricitat en les persones.",
+                  "Efectes de l’electricitat en els materials.",
+                  "Factors que condicionen els efectes.",
+                  "El Reglament electrotècnic per a baixa tensió i la seguretat en instal·lacions elèctriques.",
+                  "Càlcul de seccions dels conductors d’una instal·lació tenint en compte l’escalfament.",
+                  "Caiguda de tensió en línies elèctriques.",
+                  "Càlcul de la secció dels conductors d’una instal·lació tenint en compte la caiguda de tensió.",
+                  "Risc en l’ús d’instal·lacions electrotècniques.",
+                  "Riscos en els treballs elèctrics en baixa tensió. Normativa de seguretat davant el risc elèctric.",
+                  "Importància del compliment de la normativa en matèria de seguretat elèctrica.",
+                  "Proteccions en instal·lacions electrotècniques i màquines.",
+                  "Aïllament dels receptors.",
+                  "Protecció dels embolcalls.",
+                  "Protecció contra sobreintensitats.",
+                  "Protecció contra sobretensions.",
+                  "Accidents elèctrics.",
+                  "Contactes directes.",
+                  "Contactes indirectes.",
+                  "Esquemes de neutre. Normativa."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

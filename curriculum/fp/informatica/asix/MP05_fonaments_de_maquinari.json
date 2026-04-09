@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "fonaments de maquinari",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "arquitectura de sistemes",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura equips microinformàtics, components i perifèrics, analitzant-ne les característiques i la relació amb el conjunt.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica i caracteritza els dispositius que constitueixen els blocs funcionals d’un equip microinformàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu la funció dels elements físics i lògics que intervenen en el procés de posada en marxa d’un equip."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza l’arquitectura general d’un equip i els mecanismes de connexió entre dispositius."
+              },
+              {
+                "codi": "CA14",
+                "text": "Estableix els paràmetres de configuració (maquinari i programari) d’un equip microinformàtic amb les utilitats específiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Avalua les prestacions de l’equip."
+              },
+              {
+                "codi": "CA16",
+                "text": "Executa utilitats de revisió i diagnòstic."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica avaries i les seves causes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Classifica els dispositius perifèrics i els seus mecanismes de comunicació."
+              },
+              {
+                "codi": "CA19",
+                "text": "Utilitza protocols estàndard de comunicació sense fils entre dispositius."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració d’equips i perifèrics: arquitectura d’ordinadors",
+                "items": [
+                  "Esquema funcional i estructura d’un ordinador. Components funcionals del sistema informàtic. La unitat central de procés, la memòria, el subsistema d’E/S, tipus d’arquitectures de bus, interfícies.",
+                  "Funció dels dispositius físics i lògics.",
+                  "Components físics del sistemes informàtics xassís, alimentació i refrigeració, plaques base, processadors i memòries, dispositius d’emmagatzematge, controladors, perifèrics.",
+                  "Seqüència d’arrencada d’un equip. Possibilitats.",
+                  "Instal·lació i configuració de dispositius.",
+                  "Configuració, verificació i avaluació d’equips.",
+                  "Programari de revisió i diagnòstic. Identificació d’avaries.",
+                  "Els perifèrics. Classificació.",
+                  "Protocols de comunicació amb i sense fils. Mecanismes i tècniques d’interconnexió. Comunicació entre sistemes. Connexió a xarxes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "instal·lació, configuració i recuperació de programari",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la programari de propòsit general avaluant-ne les característiques i els entorns d’aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Cataloga els tipus de programari segons la llicència, la distribució i el propòsit."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza les necessitats específiques de programari associades a l’ús de sistemes informàtics en diferents entorns productius."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la i avalua utilitats per a la gestió d’arxius, recuperació de dades, manteniment i optimització del sistema i seguretat bàsica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la i avalua programari ofimàtic i d’utilitat general."
+              },
+              {
+                "codi": "CA15",
+                "text": "Consulta la documentació i les ajudes interactives."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica la repercussió de l’eliminació, modificació i/o actualització de les utilitats instal·lades al sistema."
+              },
+              {
+                "codi": "CA17",
+                "text": "Prova i compara aplicacions portables i no portables."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza inventaris del programari instal·lat i les característiques de la seva llicència."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa procediments per recuperar el programari bàsic d’un equip, analitzant i utilitzant imatges emmagatzemades en memòria auxiliar.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els suports de memòria auxiliar adequats per a l’emmagatzematge i la restauració d’imatges de programari."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix la diferència entre una instal·lació estàndard i una preinstal·lació o imatge de programari."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica i prova les diferents seqüències d’arrencada configurables en un equip."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza eines per al format i la partició del disc."
+              },
+              {
+                "codi": "CA25",
+                "text": "Empra diferents utilitats i suports per realitzar imatges."
+              },
+              {
+                "codi": "CA26",
+                "text": "Restaura imatges des de diferents ubicacions."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza clonacions de dispositius."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de programari d’utilitat i propòsit general per a un sistema informàtic",
+                "items": [
+                  "Tipus d’aplicacions. Comparació d’aplicacions. Avaluació i rendiment.",
+                  "Entorns operatius. Necessitats dels entorns d’explotació.",
+                  "Instal·lació, prova, avaluació i desinstal·lació d’utilitats. Requeriments.",
+                  "Programari de propòsit general: instal·lació, avaluació, documentació i ajuda.",
+                  "Instal·lació i prova d’aplicacions portables i no portables.",
+                  "Realització d’inventaris."
+                ]
+              },
+              {
+                "bloc": "Creació d’imatges de programari. Suport del programari bàsic d’un sistema",
+                "items": [
+                  "Dispositius d’emmagatzematge. Imatges de seguretat. Suports per a imatges de seguretat.",
+                  "Opcions d’arrencada d’un sistema.",
+                  "Eines de format i partició de disc d’un disc.",
+                  "Creació i recuperació d’imatges.",
+                  "Servidors d’imatges: unidestinació/multidestinació.",
+                  "Clonacions i eines de clonació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "implantació i manteniment de CPD",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta maquinari específic de centres de processament de dades (CPD), analitzant-ne les característiques i les aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les diferències entre les configuracions de maquinari de tipus personal i empresarial."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza entorns que requereixen implantar solucions de maquinari específiques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Detalla components maquinari específics per a solucions empresarials."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza els requeriments bàsics de seguretat física, organització i condicions ambientals d’un CPD."
+              },
+              {
+                "codi": "CA15",
+                "text": "Implanta sistemes d’alimentació ininterrompuda i estabilitzadors de tensió."
+              },
+              {
+                "codi": "CA16",
+                "text": "Manipula correctament dispositius maquinari en arquitectures d’alta disponibilitat per a emmagatzematge i alimentació amb connexió en calent."
+              },
+              {
+                "codi": "CA17",
+                "text": "Documenta procediments, incidències i paràmetres utilitzats en la instal·lació i configuració de dispositius de maquinari."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza eines d’inventariat, registrant les característiques dels dispositius de maquinari."
+              },
+              {
+                "codi": "CA19",
+                "text": "Classifica i organitza la documentació tècnica, els controladors, les utilitats i els accessoris del maquinari."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant-ne els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, eines, útils, màquines i mitjans de transport."
+              },
+              {
+                "codi": "CA22",
+                "text": "Opera les màquines respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials i eines, entre d’altres."
+              },
+              {
+                "codi": "CA24",
+                "text": "Descriu els elements de seguretat (proteccions, alarmes, i passos de emergència, entre d’altres) de les màquines i els equips de protecció individual (calçat, protecció ocular i indumentària, entre d’altres) que empra en les diferents operacions de muntatge i manteniment."
+              },
+              {
+                "codi": "CA25",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerides."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA27",
+                "text": "Classifica els residus generats per la retirada selectiva."
+              },
+              {
+                "codi": "CA28",
+                "text": "Valora l’ordre i la neteja d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implantació de maquinari en centres de processament de dades (CPD)",
+                "items": [
+                  "Arquitectures d’ordinadors personals, sistemes departamentals i grans ordinadors.",
+                  "Estructura d’un CPD.",
+                  "Components específics en solucions empresarials: bastidors o racks, dispositius de connexió en calent, discos, fonts d’alimentació, control remot.",
+                  "Organització. Seguretat física.",
+                  "Arquitectures d’alta disponibilitat.",
+                  "Documentació de procediments i incidències. Normes de manipulació.",
+                  "Inventari i documentació del maquinari i el programari de sistemes.",
+                  "Documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Compliment de les normes de prevenció de riscos laborals i protecció ambiental",
+                "items": [
+                  "Identificació de riscos.",
+                  "Determinació de les mesures de prevenció de riscos laborals.",
+                  "Prevenció de riscos laborals en els processos de muntatge i manteniment.",
+                  "Equips de protecció individual.",
+                  "Compliment de la normativa de prevenció de riscos laborals.",
+                  "Compliment de la normativa de protecció ambiental."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

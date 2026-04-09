@@ -1,0 +1,283 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "A3D",
+    "titol_cicle": "Animacions 3D, Jocs i Entorns Interactius",
+    "grau": "superior",
+    "familia_professional": "Imatge i So",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/31/2016, de 17 de febrer, per la qual s'estableix el currículum del cicle formatiu de grau superior d'animacions 3D, jocs i entorns interactius.",
+    "data_decret": "2016-02-17",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "color, il·luminació i acabats 2D i 3D",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "mapatge UV",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera els mapes UV dels models, analitzant les possibilitats d'ús de les eines de programari més adequades per a l'operació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Estudia la geometria de cada model, analitzant la seva morfologia per a la seva idònia col·locació en un espai bidimensional, amb vista a la seva posterior pintada i aplicació de mapes."
+              },
+              {
+                "codi": "CA12",
+                "text": "Genera els mapes UV de cada element del model segons les seves característiques, usant els mapes plans, cilíndrics, esfèrics, automàtics o basats en càmera, que s'adeqüin millor a la seva morfologia."
+              },
+              {
+                "codi": "CA13",
+                "text": "Optimitza els models per pintar en 2D cada superfície, modificant els punts als mapes UV mitjançant l'eina necessària."
+              },
+              {
+                "codi": "CA14",
+                "text": "Soluciona els problemes que experimentarà la geometria quan s'apliquin les expressions, flexions o plecs i replegaments, modificant els punts als mapes UV amb l'eina precisa."
+              },
+              {
+                "codi": "CA15",
+                "text": "Optimitza l'aplicació de textures de cada model, generant les versions d'UV (UV sets) necessàries."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Generació dels mapes UV dels models",
+                "items": [
+                  "Parametrització bidimensional d'objectes tridimensionals.",
+                  "Característiques morfològiques dels objectes.",
+                  "Els mapes UV:",
+                  "Creació dels mapes UV:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "texturització 3D",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Defineix i aplica els materials virtuals sobre els models, analitzant tots els paràmetres que afecten el comportament de les superfícies i interpretant els estudis de color.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza les característiques de cada element del model, generant els materials virtuals necessaris."
+              },
+              {
+                "codi": "CA12",
+                "text": "Elegeix el material adequat segons la textura que cal reproduir, i l'aplica a cada element del model."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza i cataloga els referents necessaris (reals o no) per a l'ajust dels paràmetres d'especularitat, refracció i reflexió, transparència, ambient, translucència i autoil·luminació, i de les intensitats de relleu volumètric (desplaçament) o visual (bump) de cada material."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea multimaterials per a la creació d'una sola textura."
+              },
+              {
+                "codi": "CA15",
+                "text": "Crea les normals mitjançant un programari 2D o 3D d'alta poligonització."
+              },
+              {
+                "codi": "CA16",
+                "text": "Anima les textures segons els paràmetres requerits."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Definició i aplicació dels materials virtuals sobre els models",
+                "items": [
+                  "Anàlisi de les característiques superficials dels objectes reals:",
+                  "Comportament dels materials en diferents entorns.",
+                  "Cerca de fonts reals o virtuals per la texturització.",
+                  "Aplicació dels materials sobre els models:",
+                  "Animació de les textures.",
+                  "Nomenclatura i arxivament de materials, mapes i models texturitzats.",
+                  "Creació de multimaterial.",
+                  "Materials específics segons motors de renderització.",
+                  "Aplicació de normals en el canal de relleu específic per a videojocs segons programari.",
+                  "Creació de les normals a través d'un programari 2D o 3D d'alta poligonització."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "color i texturització 2D",
+        "hores": 45,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica color físicament o per ordinador per a stop-motion, adaptant-se a la carta de color i als dissenys originals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Decideix la manera de fragmentació dels dibuixos per a l'òptima aplicació del color, buscant l'eficàcia i el resultat artístic desitjat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona els materials de tinció per a l'acoloriment segons els requeriments de la captura d'imatge i els efectes predissenyats."
+              },
+              {
+                "codi": "CA13",
+                "text": "Aplica els colors físicament o per ordinador amb les tècniques adequades per a cada cas."
+              },
+              {
+                "codi": "CA14",
+                "text": "Aplica els colors sobre elements tridimensionals per a stop-motion segons els dissenys originals, tenint en compte els paràmetres d'il·luminació i la posada en escena."
+              },
+              {
+                "codi": "CA15",
+                "text": "Aplica els colors sobre fons, artificis i telonets segons els dissenys originals, tenint en compte els paràmetres de la càmera de captura i d'il·luminació. 2. Genera textures procedimentals 2D i 3D i mapa de bits (bitmap), animant-los (si escau) i analitzant les seves possibilitats d'ajust als estudis de color i a la dimensió del projecte. Criteris d'avaluació2.1 Pinta els mapes necessaris per donar forma, color, els anima, si escau, i s'ajusta als esbossos de color i als fulls de model.2.2 Aconsegueix l'aparença desitjada, creant les textures procedimentals 2D als diferents materials i modificant els seus paràmetres amb el programari 3D pertinent.2.3 Aconsegueix l'aparença desitjada, generant les textures procedimentals 3D (fixant-la, si escau, a la geometria) als diferents materials i modificant els seus paràmetres amb el programari 3D adequat.2.4 Pinta els mapes de bits (bitmap) emprant programari 3D directament sobre la geometria, o en 2D prenent els mapes UV com a punt de referència i adaptant-se al que s'ha establert en els estudis de color i a la resolució final."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Aplicació de color físicament o per ordinador per a stop-motion",
+                "items": [
+                  "Aplicació de color sobre superfícies físiques:",
+                  "Aplicació de color per ordinador:",
+                  "Nomenclatura per gestionar i organitzar les textures."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "acabats 3D",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera cabell virtual, geometria pintada (paint effects), animant-los (si escau) i analitzant les seves possibilitats d'ajust als estudis de color i a la dimensió del projecte.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Genera cabell virtual sobre cada una de les superfícies que el requereixin, interpretant la informació continguda en els estudis de color."
+              },
+              {
+                "codi": "CA12",
+                "text": "Pinta els mapes necessaris per donar forma, color, gruix i longitud al cabell, animant-los, si escau, i ajustant-se als esbossos de color i als fulls de model."
+              },
+              {
+                "codi": "CA13",
+                "text": "Aconsegueix l'aparença desitjada segons els paràmetres amb el programari 3D pertinent."
+              },
+              {
+                "codi": "CA14",
+                "text": "Genera geometria pintada (paint effects) sobre els models i ajustant els seus paràmetres, interpretant els estudis de color."
+              },
+              {
+                "codi": "CA15",
+                "text": "Optimitza el volum de geometria pintada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica la geometria pintada i converteix a polígons per a la seva animació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Dissenya un sistema d'arxivament dels models texturitzats, materials, procedimentals 2D i 3D i mapes de bits en les ubicacions pertinents i amb els noms adequats, per a la localització immediata per part de qualsevol usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Generació de cabell virtual, geometria pintada (paint effects)",
+                "items": [
+                  "Anàlisis de la morfologia real del cabell.",
+                  "Característiques del cabell: forma, gruix, longitud, color i comportament segons els ambients.",
+                  "Generació de cabell virtual:",
+                  "Generació de geometria pintada:",
+                  "Nomenclatura per gestionar i organitzar les textures."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "il·luminació",
+        "hores": 60,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Defineix i desglossa els llums necessaris per a cada escenari, analitzant els estudis de color.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Prepara el material de treball, substituint les referències dels models preparats per a animació per les dels models texturitzats i finalitzat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Elabora un desglossament dels llums necessaris per a cada escenari, amb el suport dels estudis de color prèviament realitzats."
+              },
+              {
+                "codi": "CA13",
+                "text": "Defineix l'orientació, l'altura i l'amplitud dels feixos de cada font de llum segons els estudis de color, dibuixant un croquis amb els plans de planta i l'alçat de cada escenari."
+              },
+              {
+                "codi": "CA14",
+                "text": "Decideix els tipus de llum (direccional, ambiental, focal, puntual, d'àrea, de volum o d'altres) que s'empraran en cada cas, segons el tipus de feix dibuixat en els plans."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina les propietats de les ombres generades per cada llum, atenent els estudis de color."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica, modifica i anima els llums virtuals i els seus paràmetres a cada escenari, valorant l'elecció de les eines de programari adequades.",
+            "criteris_avaluacio": [],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Il·lumina cada pla animat, realçant els personatges definits i analitzant la intencionalitat dramàtica. Criteris d'avaluació3.1 Extreu les característiques fonamentals dels estils i gèneres emprats en la il·luminació d'audiovisuals, analitzant cada un d'ells.3.2 Comprova l'efecte causat per la il·luminació de l'escenari, la renderització i el visionament en els fotogrames que es considerin necessaris de cada pla ja animat.3.3 Aconsegueix un millor aprofitament de la il·luminació després del moviment de càmeres i personatges, recol·locant els llums de l'escenari.3.4 Realça els personatges i la seva adequació dramàtica, creant els llums nous necessaris específics per a cada pla.3.5 Ajusta el comportament de la il·luminació del cabell i la geometria pintada, creant llums específics per a ells i definint el seus mapes d'ombres característics.3.6 Anima els llums, utilitzant fotogrames clau en la seva posició d'inici i final, la intensitat, el color o aquells paràmetres que siguin necessaris, adaptant-se a les exigències del guió.",
+            "criteris_avaluacio": [],
+            "continguts": [
+              {
+                "bloc": "Definició i desglossament dels llums necessaris per a cada escenari",
+                "items": [
+                  "Preparació del material de treball per a la il·luminació.",
+                  "Elaboració del croquis de projecció dels feixos de llum:",
+                  "Desglossament de llums d'escenari:"
+                ]
+              },
+              {
+                "bloc": "Aplicació, modificació i animació dels llums virtuals",
+                "items": [
+                  "Aplicació virtual de llums d'escenari:",
+                  "Realçament dels personatges i la seva adequació dramàtica amb la llum.",
+                  "Comprovació i renderització de proves segons els paràmetres de les especificacions.",
+                  "Nomenclatura i arxivament de llums de pla i plans il·luminats."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

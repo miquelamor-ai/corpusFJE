@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "grau": "mitja",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "xarxes locals",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "introducció a les xarxes locals",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix l’estructura de xarxes locals cablejades analitzant-ne les característiques d’entorns d’aplicació i descrivint-ne la funcionalitat dels components.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els principis de funcionament de les xarxes locals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els diferents tipus de xarxes tenint en compte les arquitectures i tecnologies existents."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu els elements de la xarxa local i la seva funció, tenint-ne en compte les característiques i funcionalitats associades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica i classifica els mitjans de transmissió."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza aplicacions per representar el mapa físic i lògic de la xarxa local."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix les diferents topologies de xarxa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica estructures alternatives."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica la normativa legal i tècnica que afecta la implantació de les xarxes locals en funció de procediments donats."
+              },
+              {
+                "codi": "CA19",
+                "text": "Interpreta la documentació tècnica associada als elements de comunicació, fins i tot si està editada en la llengua estrangera d’ús més freqüent en el sector, utilitzant-la d’ajut."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desplega el cablejat d’una xarxa local interpretant-ne especificacions i aplicant-hi tècniques de muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix i munta els diferents tipus de targetes de xarxa."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix els detalls del cablejat de la instal·lació i el seu desplegament (categoria del cablejat, espais pels quals discorre, suport per a les canalitzacions, entre d’altres)."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona i munta les canalitzacions i tubs, i selecciona les eines adequades per realitzar-ne la instal·lació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Munta els armaris de comunicacions i els seus accessoris."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta i connecta les preses d’usuari i els panells de connexions."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova les línies de comunicacions entre les preses d’usuaris i els panells de connexions."
+              },
+              {
+                "codi": "CA27",
+                "text": "Etiqueta els cables i preses d’usuari."
+              },
+              {
+                "codi": "CA28",
+                "text": "Treballa amb la qualitat i seguretat requerides."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta les activitats realitzades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Identifica la normativa legal i tècnica que afecta la implantació de les xarxes locals en funció d’unes especificacions donades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, eines, útils, màquines i mitjans de transport."
+              },
+              {
+                "codi": "CA32",
+                "text": "Opera les màquines respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials i eines."
+              },
+              {
+                "codi": "CA34",
+                "text": "Descriu els equips de protecció individual (calçat, protecció ocular, indumentària, entre d’altres) que s’han d’emprar en les operacions de muntatge i manteniment."
+              },
+              {
+                "codi": "CA35",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerides."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA37",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA38",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Introducció a les xarxes locals",
+                "items": [
+                  "Definició i tipus de xarxes.",
+                  "Arquitectura i tecnologia existent.",
+                  "Definició, característiques i funcionalitats associades als elements d’una xarxa.",
+                  "Mitjans de transmissió: cables i sense fils.",
+                  "Definicions de mapa físic i lògic d’una xarxa local. Representacions per mitjà d’aplicacions.",
+                  "Topologies de xarxa locals: físiques i lògiques.",
+                  "Estructures alternatives.",
+                  "Normativa legal i tècnica d’implantació de xarxes locals.",
+                  "Documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Muntatge físic de la xarxa",
+                "items": [
+                  "Tipus de targetes de xarxa i configuració.",
+                  "Cablejat: tipus de cables i muntatge de cables de coure i fibra òptica.",
+                  "Canalitzacions: muntatge de diferents tipus de canaletes.",
+                  "Armaris: muntatge d’armaris de connexió.",
+                  "Panells de connexió: muntatge de panells de connexió.",
+                  "Rosetes: muntatge de les preses d’usuari.",
+                  "Etiquetatge dels cables.",
+                  "Seguretat i verificació de la instal·lació.",
+                  "Documentació dels procediments.",
+                  "Normativa del sistema de cablejat estructurat."
+                ]
+              },
+              {
+                "bloc": "Normes de seguretat i riscos",
+                "items": [
+                  "Identificació de riscos professionals.",
+                  "Normes de seguretat.",
+                  "Elements de seguretat.",
+                  "Protecció personal.",
+                  "Causes de contaminació i gestió de residus.",
+                  "Ordre i netedat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "configuració de commutadors i encaminadors",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Enumera i explica les característiques dels protocols que es configuren en una xarxa local tenint en compte la tecnologia i els estàndards utilitzats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Explica el sistema d’adreçament dels nodes que s’utilitza a la xarxa local en funció de les tecnologies de xarxa usades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Enumera i explica les característiques dels protocols que es configuren en una xarxa local tenint en compte la tecnologia i estàndards utilitzats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Instal·la xarxes locals sense fils, descrivint-ne les prestacions i aplicant-hi tècniques de muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les característiques funcionals de les xarxes sense fils."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els modes de funcionament de les xarxes sense fil."
+              },
+              {
+                "codi": "CA23",
+                "text": "Instal·la adaptadors i punts d’accés sense fil i configura els modes de funcionament i els paràmetres bàsics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova la connectivitat entre diversos dispositius i adaptadors sense fil."
+              },
+              {
+                "codi": "CA25",
+                "text": "Instal·la el programari corresponent."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica els protocols a configurar, la seva funció i el seu rang de valors permès i configura els paràmetres bàsics dels protocols amb les característiques de seguretat de transmissió i xifratge per a la seva integració en xarxes segures tenint en compte els criteris de seguretat donats."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica els mecanismes de seguretat bàsics."
+              },
+              {
+                "codi": "CA28",
+                "text": "Crea i configura VLAN."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta els processos a realitzar en la configuració dels protocols en els nodes de la xarxa local d’acord amb unes especificacions donades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica la configuració especificada als elements actius (commutadors i encaminadors), fent ús d’uns procediments especificats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Interconnexió de la xarxa",
+                "items": [
+                  "Adreçament físic i lògic de la xarxa.",
+                  "Protocols de nivell d’enllaç: protocols de control d’enllaç lògic i protocols d’accés al medi (protocols de contesa, de pas de testimoni, entre d’altres).",
+                  "Protocol de xarxa (IP i IPX, entre d’altres).",
+                  "Classes i tipus d’adreça IP: IPv4 i IPv6.",
+                  "Adreçament públic i privat: NATP.",
+                  "Protocols de la capa de transport: TCP i UDP. Ports."
+                ]
+              },
+              {
+                "bloc": "Configuració de dispositius de xarxes",
+                "items": [
+                  "Característiques de les xarxes sense fils.",
+                  "Arquitectura de les xarxes sense fils.",
+                  "Instal·lació i configuració dels dispositius de les xarxes sense fils.",
+                  "Antenes i connectivitat.",
+                  "Programari dels dispositius de les xarxes sense fils.",
+                  "Protocols de seguretat: autenticació i xifratge.",
+                  "Mètodes de seguretat bàsics (‘disable broadcast’ SSID, filtratge de MAC, etc.).",
+                  "Definició i configuració de VLAN.",
+                  "Documentació dels procediments de configuració.",
+                  "Procediments de configuració dels elements actius de xarxes locals. Encaminadors en una xarxa local (configuració bàsica, segmentació d’una xarxa local, taules de rutes)."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "resolució d’incidències en xarxes locals",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica els procediments de prova i verificació dels elements de connectivitat de la xarxa i les eines per a aquests processos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Explica les etapes d’un procés de verificació de connectivitat en una xarxa local."
+              },
+              {
+                "codi": "CA12",
+                "text": "Enumera les eines utilitzades per verificar la connectivitat en una xarxa local, segons les tecnologies implementades a les xarxes locals."
+              },
+              {
+                "codi": "CA13",
+                "text": "Explica el funcionament operatiu de les eines de gestió de xarxa per comprovar l’estat dels dispositius de comunicacions, tenint en compte les especificacions tècniques de les eines."
+              },
+              {
+                "codi": "CA14",
+                "text": "En un cas pràctic d’una xarxa local ja instal·lada, verifica les opcions de connexió permeses i prohibides, així com l’accés als recursos compartits, seguint uns procediments donats."
+              },
+              {
+                "codi": "CA15",
+                "text": "En un cas pràctic d’una xarxa local ja instal·lada: documenta els processos de prova i verificació realitzats, d’acord amb unes especificacions tècniques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Enumera els components actualitzables dels dispositius de comunicacions descrivint-ne les característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els paràmetres de compatibilitat dels components a actualitzar per assegurar l’efectivitat en els processos segons especificacions tècniques dels components esmentats."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu els passos a seguir per a l’actualització de programari de dispositius de comunicacions, detallant-ne les accions realitzades, les eines del programari utilitzades i sobre quins components s’ha actuat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Realitza la substitució de components de dispositius de comunicacions per aconseguir una configuració donada, seguint uns procediments definits."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza l’actualització de programari de dispositius de comunicacions per aconseguir una configuració donada, seguint uns procediments definits."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Identifica comportaments anòmals dels dispositius de la xarxa local i en procedeix a l’atenció i resolució seguint uns procediments donats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica incidències i comportaments anòmals."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica si la disfunció és causada pel maquinari o pel programari."
+              },
+              {
+                "codi": "CA33",
+                "text": "Monitora els senyals visuals dels dispositius d’interconnexió."
+              },
+              {
+                "codi": "CA34",
+                "text": "Verifica els protocols de comunicacions."
+              },
+              {
+                "codi": "CA35",
+                "text": "Restitueix el funcionament substituint equips o elements."
+              },
+              {
+                "codi": "CA36",
+                "text": "Soluciona les disfuncions software (configurant o reinstal·lant)."
+              },
+              {
+                "codi": "CA37",
+                "text": "Elabora un informe d’incidències."
+              },
+              {
+                "codi": "CA38",
+                "text": "Enumera els procediments i les eines utilitzades per a la detecció d’incidències dels elements de comunicacions de la xarxa local, segons les especificacions d’un pla de contingències definit."
+              },
+              {
+                "codi": "CA39",
+                "text": "Simula avaries en la xarxa per procedir a la seva solució segons els procediments establerts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Descriu les tècniques i els procediments de monitoratge de la xarxa local segons unes especificacions donades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els paràmetres que identifiquen el rendiment d’una xarxa local tenint-ne en compte l’arquitectura i la tecnologia de xarxa de suport."
+              },
+              {
+                "codi": "CA42",
+                "text": "Enumera les eines maquinari i programari utilitzades en el monitoratge d’una xarxa local tenint-ne en compte les especificacions tècniques."
+              },
+              {
+                "codi": "CA43",
+                "text": "Explica el funcionament de les eines de gestió de la xarxa per obtenir informació del trànsit i rendiment de les comunicacions de la xarxa local, segons especificacions tècniques de les mateixes eines."
+              },
+              {
+                "codi": "CA44",
+                "text": "Explica el procés a seguir per monitorar el trànsit d’una xarxa local en funció de les topologies i protocols de xarxa implementats."
+              },
+              {
+                "codi": "CA45",
+                "text": "Descriu els procediments de resolució d’incidències segons el pla de manteniment preventiu i periòdic."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Procediments sistemàtics de verificació i prova d’elements de connectivitat de xarxes locals",
+                "items": [
+                  "Procediments de verificació de la connectivitat.",
+                  "Eines de verificació d’elements de connectivitat de xarxes locals.",
+                  "Casos pràctics: verificació de les connexions i documentació dels processos de prova i verificacions realitzats."
+                ]
+              },
+              {
+                "bloc": "Actualització dels dispositius de xarxes",
+                "items": [
+                  "Paràmetres de compatibilitat entre elements.",
+                  "Descripció dels passos a seguir en l’actualització de programari de dispositius de comunicació i realització amb la qualitat i seguretat requerides.",
+                  "Substitució de components dels dispositius de comunicacions amb la qualitat i seguretat requerides."
+                ]
+              },
+              {
+                "bloc": "Detecció i diagnòstic d’incidències en xarxes locals",
+                "items": [
+                  "Procediments de diagnòstic en xarxes locals.",
+                  "Eines de diagnòstic, incloses en el sistema operatiu. Eines de diagnòstic especialitzades: analitzadors lògics i analitzadors de cablatge. Eines de gestió de xarxa.",
+                  "Detecció i identificació d’incidències. Tipus d’incidència (maquinari i/o programari).",
+                  "Resolució d’incidències de la xarxa local. Substitució dels elements de maquinari i programari dels dispositius de xarxa.",
+                  "Verificació posterior del funcionament correcte del maquinari dels dispositius de xarxa.",
+                  "Verificació posterior de la configuració i del funcionament correcte del programari dels dispositius de xarxa. Verificació dels protocols de comunicació.",
+                  "Elaboració d’informes d’incidències. Eines de disseny gràfic i documentació per a xarxes. Tipus i funcions d’eines de disseny gràfic i documentació per a xarxes locals.",
+                  "Elaboració dels procediments per a la detecció d’incidències.",
+                  "Simulació d’avaries: identificar els símptomes del funcionament anòmal; caracteritzar en funció dels efectes produïts; formular una hipòtesi de la possible causa de la disfunció; descriure el pla d’intervenció per resoldre l’anomalia; aplicar el pla descrit i reparar el mal funcionament detectat."
+                ]
+              },
+              {
+                "bloc": "Monitoratge de la xarxa local per detectar qualsevol situació anòmala",
+                "items": [
+                  "Procediments d’anàlisi de protocols de comunicacions en xarxes locals. Analitzadors. de protocols. Aplicació de filtres per a captura de trànsit. Anàlisi de trànsit a nivell de xarxa. Sondes de monitoratge remot i detecció d’intrusos.",
+                  "Gestió i control en els protocols de comunicacions. Factors que determinen el rendiment d’una xarxa local. Mètriques. Eines de mesura. Protocols de gestió.",
+                  "Execució de processos periòdics per identificar i diagnosticar deficiències de la xarxa local.",
+                  "Detecció dels problemes de seguretat de la xarxa local.",
+                  "Funcionament i configuració de les eines de monitoratge"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "màquines elèctriques",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "transformadors",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documentació tècnica de transformadors relacionant símbols normalitzats i representant gràficament elements i procediments.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Dibuixa croquis i plànols dels transformadors i els seus bobinats."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dibuixa esquemes de plaques de borns, connexions i debanats segons normes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza esquemes de maniobres i assajos de transformadors."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza programari de disseny per realitzar esquemes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza simbologia normalitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Redacta documentació tècnica diversa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Analitza documents convencionals utilitzats en el manteniment de transformadors."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza un informe de treball tipus."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza un pla de muntatge i un de manteniment de transformadors."
+              },
+              {
+                "codi": "CA110",
+                "text": "Respecta els temps previstos en els dissenys."
+              },
+              {
+                "codi": "CA111",
+                "text": "Respecta els criteris de qualitat establerts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta transformadors monofàsics i trifàsics, acoblant-ne els elements i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona el material de muntatge segons càlculs, esquemes i especificacions del fabricant."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona les eines i equips adequats a cada procediment."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica cada peça de la màquina i el seu acoblament."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza els bobinatges del transformador."
+              },
+              {
+                "codi": "CA25",
+                "text": "Connecta els debanats primaris i secundaris a la placa de borns."
+              },
+              {
+                "codi": "CA26",
+                "text": "Munta el nucli magnètic."
+              },
+              {
+                "codi": "CA27",
+                "text": "Acobla tots els elements de la màquina."
+              },
+              {
+                "codi": "CA28",
+                "text": "Prova el seu funcionament realitzant assajos habituals."
+              },
+              {
+                "codi": "CA29",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA210",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza catàlegs de fabricants per a la selecció del material."
+              },
+              {
+                "codi": "CA212",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Organitza les diferents fases del treball en les operacions de muntatge de transformadors."
+              },
+              {
+                "codi": "CA214",
+                "text": "Manté l’àrea de treball, les eines, estris i equips amb el grau apropiat d’ordre, conservació i netedat."
+              },
+              {
+                "codi": "CA215",
+                "text": "Col·labora amb l’equip de treball amb una actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Repara avaries en transformadors, realitzant comprovacions i ajustos per a la posada en servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Classifica avaries característiques i els seus símptomes en petits transformadors monofàsics, trifàsics i autotransformadors."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza mitjans i equips de localització i reparació d’avaries."
+              },
+              {
+                "codi": "CA33",
+                "text": "Localitza l’avaria i n’identifica les solucions possibles."
+              },
+              {
+                "codi": "CA34",
+                "text": "Desenvolupa un pla de treball per a la reparació d’avaries."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza operacions de manteniment."
+              },
+              {
+                "codi": "CA36",
+                "text": "Realitza mesures elèctriques per a la localització d’avaries."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica el funcionament de la màquina mitjançant assajos."
+              },
+              {
+                "codi": "CA38",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA39",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA310",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA311",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Aplica les normes de prevenció de riscos laborals i de protecció ambiental en el muntatge i manteniment de màquines elèctriques, identificant-ne els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els riscos laborals en les tasques de muntatge i manteniment de màquines elèctriques (manipulació de materials, equips, eines, estris, màquines, realització de proves i verificacions, reparació i substitució d’elements, entre d’altres)."
+              },
+              {
+                "codi": "CA42",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA43",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA44",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració de documentació tècnica de transformadors",
+                "items": [
+                  "Simbologia normalitzada i convencionalismes de representació en reparació de transformadors.",
+                  "Plànols i esquemes elèctrics normalitzats.",
+                  "Aplicació de programari informàtic de dibuix tècnic i càlcul d’instal·la-cions.",
+                  "Documents utilitzats en el manteniment.",
+                  "Elaboració de plans de manteniment i muntatge de transformadors.",
+                  "Qualitat en l’elaboració de documentació tècnica de transformadors.",
+                  "Normativa i reglamentació."
+                ]
+              },
+              {
+                "bloc": "Muntatge i assaig de transformadors",
+                "items": [
+                  "Generalitats, tipologia i constitució de transformadors.",
+                  "Característiques funcionals, constructives i de muntatge.",
+                  "Valors característics (relació de transformació, potències, tensió de curtcircuit, entre d’altres).",
+                  "Debanats primaris i secundaris.",
+                  "Nuclis magnètics.",
+                  "Operacions per a la construcció de transformadors.",
+                  "Càlcul dels bobinatges.",
+                  "Assajos normalitzats aplicats a transformadors.",
+                  "Organització del muntatge i assaig de transformadors.",
+                  "Qualitat en el muntatge de transformadors.",
+                  "Treball en equip en el muntatge i assaig de transformadors."
+                ]
+              },
+              {
+                "bloc": "Manteniment i reparació de transformadors",
+                "items": [
+                  "Tècniques de manteniment de transformadors.",
+                  "Eines i equips.",
+                  "Diagnosi i reparació de transformadors.",
+                  "Organització en la realització de manteniment correctiu i preventiu de transformadors.",
+                  "Qualitat en el manteniment i reparació de transformadors.",
+                  "Organització en la detecció d’avaries d’acord amb el pla de manteniment.",
+                  "Resolució de problemes en el manteniment i reparació de transformadors."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos laborals i protecció ambiental en les operacions de muntatge i manteniment de màquines elèctriques",
+                "items": [
+                  "Identificació de riscos.",
+                  "Mesures de seguretat i de protecció individual (aplicació de la normativa de prevenció de riscos laborals, inclosa la de seguretat davant el risc elèctric).",
+                  "Classificació dels residus generats per a la retirada selectiva.",
+                  "Compliment de la normativa de protecció ambiental i de prevenció de riscos laborals."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "màquines rotatives de corrent continu",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documentació tècnica de màquines elèctriques rotatives de corrent continu relacionant símbols normalitzats i representant gràficament elements i procediments.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Dibuixa croquis i plànols de les màquines elèctriques rotatives de corrent continu i els seus bobinatges."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dibuixa esquemes de plaques de borns, connexions i debanats segons normes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza esquemes de maniobres i assajos de màquines elèctriques rotatives de corrent continu."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza programari informàtic de disseny per realitzar esquemes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza simbologia normalitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Redacta documentació tècnica diversa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Analitza documents convencionals utilitzats en el manteniment de màquines elèctriques rotatives de corrent continu."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza un informe de treball tipus."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza un pla de muntatge i un de manteniment de màquines elèctriques rotatives de corrent continu."
+              },
+              {
+                "codi": "CA110",
+                "text": "Respecta els temps previstos en els dissenys."
+              },
+              {
+                "codi": "CA111",
+                "text": "Respecta els criteris de qualitat establerts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta màquines elèctriques rotatives de corrent continu, acoblant-ne els elements i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona el material de muntatge, les eines i els equips."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica cada peça de la màquina i el seu acoblament."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza les eines i equips característics d’un taller de bobinatge."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza bobines de la màquina rotativa de corrent continu."
+              },
+              {
+                "codi": "CA25",
+                "text": "Acobla bobines i altres elements de les màquines de corrent continu."
+              },
+              {
+                "codi": "CA26",
+                "text": "Connecta els bobinatges rotòric i estatòric."
+              },
+              {
+                "codi": "CA27",
+                "text": "Munta les escombretes i el col·lector connectant-los als seus borns."
+              },
+              {
+                "codi": "CA28",
+                "text": "Prova el seu funcionament realitzant assajos habituals."
+              },
+              {
+                "codi": "CA29",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA210",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza catàlegs de fabricants per a la selecció del material."
+              },
+              {
+                "codi": "CA212",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Organitza les diferents fases del treball en les operacions de muntatge de màquines elèctriques rotatives de corrent continu."
+              },
+              {
+                "codi": "CA214",
+                "text": "Manté l’àrea de treball, les eines, estris i equips amb el grau apropiat d’ordre, conservació i netedat."
+              },
+              {
+                "codi": "CA215",
+                "text": "Col·labora amb l’equip de treball amb actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Manté i repara màquines elèctriques rotatives de corrent continu realitzant comprovacions i ajustos per a la posada en servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Classifica avaries característiques i els seus símptomes en màquines elèctriques rotatives de corrent continu."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza mitjans i equips de localització d’avaries."
+              },
+              {
+                "codi": "CA33",
+                "text": "Localitza l’avaria i proposa possibles solucions."
+              },
+              {
+                "codi": "CA34",
+                "text": "Desenvolupa un pla de treball per a la reparació d’avaries."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza mesures elèctriques per a la localització d’avaries."
+              },
+              {
+                "codi": "CA36",
+                "text": "Repara l’avaria."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica el funcionament de la màquina mitjançant assajos."
+              },
+              {
+                "codi": "CA38",
+                "text": "Substitueix escombretes, coixinets, entre d’altres."
+              },
+              {
+                "codi": "CA39",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA310",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA311",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA312",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Realitza maniobres característiques en màquines elèctriques rotatives de corrent continu, interpretant esquemes i aplicant tècniques de muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Prepara eines i equips."
+              },
+              {
+                "codi": "CA42",
+                "text": "Acobla mecànicament les màquines de corrent continu."
+              },
+              {
+                "codi": "CA43",
+                "text": "Munta circuits de comandament i força per a les maniobres d’arrencada, inversió, entre d’altres."
+              },
+              {
+                "codi": "CA44",
+                "text": "Connecta les màquines de corrent continu als diferents circuits."
+              },
+              {
+                "codi": "CA45",
+                "text": "Mesura magnituds elèctriques."
+              },
+              {
+                "codi": "CA46",
+                "text": "Analitza resultats de paràmetres mesurats."
+              },
+              {
+                "codi": "CA47",
+                "text": "Té en compte la documentació tècnica."
+              },
+              {
+                "codi": "CA48",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA49",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA410",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA411",
+                "text": "Elabora un informe de les activitats realitzades i resultats obtinguts."
+              },
+              {
+                "codi": "CA412",
+                "text": "Organitza les diferents fases del treball en la realització de maniobres de màquines elèctriques rotatives de corrent continu."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració de documentació tècnica de màquines elèctriques rotatives de corrent continu",
+                "items": [
+                  "Simbologia normalitzada i convencionalismes de representació en la reparació de màquines elèctriques rotatives de corrent continu.",
+                  "Plànols i esquemes elèctrics normalitzats.",
+                  "Aplicació de programari de dibuix tècnic i càlcul d’instal·lacions.",
+                  "Documents utilitzats en el manteniment.",
+                  "Elaboració de plans de manteniment i muntatge de màquines elèctriques rotatives de corrent continu.",
+                  "Qualitat en l’elaboració de documentació tècnica de màquines elèctriques rotatives de corrent continu.",
+                  "Normativa i reglamentació."
+                ]
+              },
+              {
+                "bloc": "Muntatge de màquines elèctriques rotatives de corrent continu",
+                "items": [
+                  "Generalitats, tipologia i constitució de màquines elèctriques rotatives de corrent continu.",
+                  "Característiques funcionals, constructives i de muntatge.",
+                  "Valors característics (potència, tensió, velocitat, rendiment, entre d’al-tres).",
+                  "Corbes característiques de les màquines elèctriques rotatives de corrent continu.",
+                  "Debanats rotòrics i estatòrics.",
+                  "Circuits magnètics. Rotor i estator.",
+                  "Processos de muntatge i desmuntatge de màquines elèctriques rotatives de corrent continu.",
+                  "Assajos normalitzats de màquines elèctriques rotatives de corrent continu.",
+                  "Organització del muntatge de màquines elèctriques rotatives de corrent continu.",
+                  "Qualitat en el muntatge de màquines elèctriques rotatives de corrent continu.",
+                  "Treball en equip en el muntatge de màquines elèctriques rotatives de corrent continu."
+                ]
+              },
+              {
+                "bloc": "Manteniment i reparació de màquines elèctriques rotatives de corrent continu",
+                "items": [
+                  "Tècniques de manteniment de màquines elèctriques rotatives de corrent continu.",
+                  "Eines i equips.",
+                  "Diagnosi i reparació de màquines elèctriques rotatives de corrent continu.",
+                  "Informes típics utilitzats en el manteniment de màquines elèctriques rotatives de corrent continu.",
+                  "Organització en la realització de manteniment correctiu i preventiu.",
+                  "Organització en la detecció d’avaries d’acord amb el pla de manteniment.",
+                  "Qualitat en el manteniment i reparació de màquines elèctriques de corrent continu.",
+                  "Resolució de problemes en el manteniment i reparació de màquines elèctriques rotatives de corrent continu."
+                ]
+              },
+              {
+                "bloc": "Maniobres de les màquines elèctriques rotatives de corrent continu",
+                "items": [
+                  "Regulació i control de generadors de CC rotatius.",
+                  "Arrencada i control de motors de CC.",
+                  "Qualitat en la realització de maniobres de màquines elèctriques rotatives de CC.",
+                  "Organització en la realització de maniobres de màquines elèctriques rotatives de corrent continu."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "màquines rotatives de corrent altern",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documentació tècnica de màquines elèctriques rotatives de corrent altern relacionant símbols normalitzats i representant gràficament elements i procediments.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Dibuixa croquis i plànols de les màquines elèctriques rotatives de corrent altern i els seus bobinatges."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dibuixa esquemes de plaques de borns, connexions i debanats segons les normes corresponents."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza esquemes de maniobres i assajos de màquines elèctriques rotatives de corrent altern."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza programari de disseny per realitzar esquemes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza simbologia normalitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Redacta documentació tècnica diversa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Analitza documents convencionals utilitzats en el manteniment de màquines elèctriques rotatives de corrent altern."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza un informe de treball tipus."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza un pla de muntatge i un de manteniment de màquines elèctriques rotatives de corrent altern."
+              },
+              {
+                "codi": "CA110",
+                "text": "Respecta els temps previstos en els dissenys."
+              },
+              {
+                "codi": "CA111",
+                "text": "Respecta els criteris de qualitat establerts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta màquines elèctriques rotatives de corrent altern, acoblant-ne els elements i verificant el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona el material de muntatge, les eines i els equips."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica cada peça de la màquina i el seu acoblament."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza les eines i equips característics d’un taller de bobinatge."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza bobines de la màquina rotativa de corrent altern."
+              },
+              {
+                "codi": "CA25",
+                "text": "Acobla bobines i altres elements de les màquines de corrent altern."
+              },
+              {
+                "codi": "CA26",
+                "text": "Connecta els bobinatges rotòric i estatòric."
+              },
+              {
+                "codi": "CA27",
+                "text": "Munta les escombretes i anells lliscants connectant-los als borns."
+              },
+              {
+                "codi": "CA28",
+                "text": "Prova el seu funcionament realitzant els assaigs habituals."
+              },
+              {
+                "codi": "CA29",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA210",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza catàlegs de fabricants per a la selecció del material."
+              },
+              {
+                "codi": "CA212",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Organitza les diferents fases del treball en les operacions de muntatge de màquines rotatives de corrent altern."
+              },
+              {
+                "codi": "CA214",
+                "text": "Manté l’àrea de treball, les eines, estris i equips amb el grau apropiat d’ordre, conservació i netedat."
+              },
+              {
+                "codi": "CA215",
+                "text": "Col·labora amb l’equip de treball amb una actitud responsable, respectuosa i tolerant."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Manté i repara màquines elèctriques rotatives de corrent altern realitzant comprovacions i ajustos per a la posada en servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Classifica avaries característiques i els seus símptomes en màquines elèctriques rotatives de corrent altern."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza mitjans i equips de localització d’avaries."
+              },
+              {
+                "codi": "CA33",
+                "text": "Localitza l’avaria i hi proposa possibles solucions."
+              },
+              {
+                "codi": "CA34",
+                "text": "Desenvolupa un pla de treball per a la reparació d’avaries."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza mesures elèctriques per a la localització d’avaries."
+              },
+              {
+                "codi": "CA36",
+                "text": "Repara l’avaria."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica el funcionament de la màquina mitjançant assajos."
+              },
+              {
+                "codi": "CA38",
+                "text": "Substitueix escombretes, coixinets, entre d’altres."
+              },
+              {
+                "codi": "CA39",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA310",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA311",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA312",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Realitza maniobres característiques en màquines elèctriques rotatives de corrent altern, interpretant esquemes i aplicant tècniques de muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Prepara eines i equips."
+              },
+              {
+                "codi": "CA42",
+                "text": "Acobla mecànicament les màquines de corrent altern."
+              },
+              {
+                "codi": "CA43",
+                "text": "Munta circuits de comandament i força per a les maniobres d’arrencada i inversió, entre d’altres."
+              },
+              {
+                "codi": "CA44",
+                "text": "Connecta les màquines de corrent altern als diferents circuits."
+              },
+              {
+                "codi": "CA45",
+                "text": "Mesura magnituds elèctriques."
+              },
+              {
+                "codi": "CA46",
+                "text": "Analitza resultats de paràmetres mesurats."
+              },
+              {
+                "codi": "CA47",
+                "text": "Té en compte la documentació tècnica."
+              },
+              {
+                "codi": "CA48",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA49",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA410",
+                "text": "Respecta criteris de qualitat."
+              },
+              {
+                "codi": "CA411",
+                "text": "Elabora un informe de les activitats realitzades i resultats obtinguts."
+              },
+              {
+                "codi": "CA412",
+                "text": "Organitza les diferents fases del treball en la realització de maniobres de màquines rotatives de corrent altern."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració de documentació tècnica de màquines elèctriques rotatives de corrent altern",
+                "items": [
+                  "Simbologia normalitzada i convencionalismes de representació en la reparació de màquines elèctriques rotatives de corrent altern.",
+                  "Plànols i esquemes elèctrics normalitzats.",
+                  "Aplicació de programari de dibuix tècnic i càlcul d’instal·lacions.",
+                  "Documents utilitzats en el manteniment de màquines elèctriques rotatives de corrent altern.",
+                  "Elaboració de plans de manteniment i muntatge de màquines elèctriques rotatives de corrent altern.",
+                  "Qualitat en l’elaboració de documentació tècnica de màquines elèctriques rotatives de corrent altern.",
+                  "Normativa i reglamentació."
+                ]
+              },
+              {
+                "bloc": "Muntatge de màquines elèctriques rotatives de corrent altern",
+                "items": [
+                  "Generalitats, tipologia i constitució de màquines elèctriques rotatives de corrent altern.",
+                  "Característiques funcionals, constructives i de muntatge.",
+                  "Valors característics (potència, tensió, velocitat, rendiment, entre d’al-tres).",
+                  "Corbes característiques de les màquines elèctriques rotatives de corrent altern.",
+                  "Debanats rotòrics i estatòrics.",
+                  "Circuits magnètics. Rotor i estator.",
+                  "Processos de muntatge i desmuntatge de màquines elèctriques rotatives de corrent altern.",
+                  "Assajos normalitzats de màquines elèctriques rotatives de corrent altern.",
+                  "Organització del muntatge de màquines elèctriques rotatives de corrent altern.",
+                  "Qualitat en el muntatge de màquines elèctriques rotatives de corrent altern.",
+                  "Treball en equip en el muntatge de màquines elèctriques rotatives de corrent altern."
+                ]
+              },
+              {
+                "bloc": "Manteniment i reparació de màquines elèctriques rotatives de corrent altern",
+                "items": [
+                  "Tècniques de manteniment de màquines elèctriques rotatives de corrent altern.",
+                  "Eines i equips.",
+                  "Diagnosi i reparació de màquines elèctriques rotatives de corrent altern.",
+                  "Informes típics utilitzats en el manteniment de màquines elèctriques rotatives de corrent altern.",
+                  "Organització en la realització de manteniment correctiu i preventiu.",
+                  "Organització en la detecció d’avaries d’acord amb el pla de manteniment.",
+                  "Qualitat en el manteniment i reparació de màquines elèctriques rotatives de corrent altern.",
+                  "Resolució de problemes en el manteniment i reparació de màquines elèctriques rotatives de corrent altern."
+                ]
+              },
+              {
+                "bloc": "Maniobres de les màquines elèctriques rotatives de corrent altern",
+                "items": [
+                  "Regulació i control d’alternadors.",
+                  "Arrencada i control de motors de CA.",
+                  "Qualitat en la realització de maniobres de màquines elèctriques rotatives de CA.",
+                  "Organització en la realització de maniobres de màquines elèctriques rotatives de corrent altern."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

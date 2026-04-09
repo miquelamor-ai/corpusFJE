@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "GA",
+    "titol_cicle": "Gestió Administrativa",
+    "grau": "mitja",
+    "familia_professional": "Administració i Gestió",
+    "font_tipus": "decret",
+    "font_ref": "Decret 159/2015, de 14 de juliol",
+    "titol_decret": "DECRET 159/2015, de 14 de juliol, pel qual s'estableix el currículum del cicle formatiu de grau mitjà de gestió administrativa.",
+    "data_decret": "2015-07-14",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/07/14/159/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "tractament de la documentació comptable",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "preparació i codificació comptable",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Prepara la documentació suport dels fets comptables interpretant-ne la informació que conté.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els diferents tipus de documents suport que són objecte de registre comptable."
+              },
+              {
+                "codi": "CA12",
+                "text": "Comprova que la documentació de suport rebuda conté tots els registres de control intern establerts -firma, autoritzacions o d'altres- per al seu registre comptable."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les errades habituals i efectua propostes per a esmenar-les, si és el cas, seguint els protocols establerts per l’empresa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Classifica la documentació de suport d'acord a criteris prèviament establerts."
+              },
+              {
+                "codi": "CA15",
+                "text": "Efectua el procediment d'acord amb els principis de seguretat i confidencialitat de la informació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Manté l’espai de treball amb el grau apropiat d'ordre i pulcritud."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reporta o documenta, segons els protocols establerts en cada cas, la situació de cada document de suport."
+              },
+              {
+                "codi": "CA18",
+                "text": "Analitza les implicacions de l’externalització de les obligacions comptables i fiscals de l’empresa i reconeix la documentació i dades a aportar periòdicament."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Codifica els documents suport per a la seva comptabilització garantint la traçabilitat de les operacions econòmiques i financeres a què corresponen i aplicant-hi la metodologia comptable i els criteris del pla general de comptabilitat PIME.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Codifica els documents conforme al pla general de comptabilitat."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina quins comptes es carreguen i quins s'abonen segons els diferents fets comptables, segons el pla de comptes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Codifica operacions de compres i despeses, i vendes i ingressos, pagaments i cobraments, habituals en l’operativa de l’empresa."
+              },
+              {
+                "codi": "CA24",
+                "text": "Codifica operacions de compra i venda en el mercat domèstic, el mercat interior i els mercats exteriors."
+              },
+              {
+                "codi": "CA25",
+                "text": "Codifica operacions comercials amb creditors i deutors."
+              },
+              {
+                "codi": "CA26",
+                "text": "Codifica documents representatius de despeses i ingressos financers, i de transferències i traspassos bancaris."
+              },
+              {
+                "codi": "CA27",
+                "text": "Codifica documents fiscals de declaracions i liquidacions d’impostos."
+              },
+              {
+                "codi": "CA28",
+                "text": "Codifica documents laborals corresponents a nòmines i a empresaris autònoms."
+              },
+              {
+                "codi": "CA29",
+                "text": "Codifica operacions d’adquisició d’actiu no corrent habituals en l’empresa."
+              },
+              {
+                "codi": "CA210",
+                "text": "Codifica operacions habituals de serveis bancaris i de finançament bàsic."
+              },
+              {
+                "codi": "CA211",
+                "text": "Codifica documents representatius de variació d’existències."
+              },
+              {
+                "codi": "CA212",
+                "text": "Codifica documents representatius de depreciacions d’immobilitzat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Codificació de la documentació suport",
+                "items": [
+                  "Concepte de càrrec i abonament.",
+                  "Aplicació del pla general de comptabilitat.",
+                  "Documents suport.",
+                  "Traçabilitat en la informació comptable. Concepte i finalitats."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "registre comptable",
+        "hores": 36,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Registra comptablement les operacions econòmiques i financeres habituals corresponents a un exercici econòmic complet en aplicacions informàtiques, reconeixent-ne i aplicant-hi la metodologia comptable i els criteris del pla general de comptabilitat PIME.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els comptes que intervenen en les operacions més habituals de les empreses."
+              },
+              {
+                "codi": "CA12",
+                "text": "Introdueix el codi dels comptes conforme al pla general de comptabilitat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina quins comptes es carreguen i quins s'abonen segons els diferents fets comptables, segons el pla de comptes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Efectua els assentaments corresponents a compres i despeses, i vendes i ingressos habituals a l’empresa."
+              },
+              {
+                "codi": "CA15",
+                "text": "Efectua els assentaments corresponents a la resta d’operacions habituals a l’empresa."
+              },
+              {
+                "codi": "CA16",
+                "text": "emplena els diferents camps del llibre de béns d'inversió per mitjans manuals i/o informàtics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comptabilitza les operacions relatives a la liquidació de l’IVA."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza les còpies de seguretat segons el protocol establert per a salvaguardar les dades registrades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Efectua el procediment d'acord amb els principis de responsabilitat, seguretat i confidencialitat de la informació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Comptabilitza operacions econòmiques i financeres habituals corresponents a un exercici econòmic complet, reconeixent-ne i aplicant-hi la metodologia comptable i els criteris del pla de comptabilitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els fets econòmics i financers que originen una anotació comptable."
+              },
+              {
+                "codi": "CA22",
+                "text": "Introdueix correctament la informació derivada de cada fet econòmic en l'aplicació informàtica de forma cronològica."
+              },
+              {
+                "codi": "CA23",
+                "text": "Obté periòdicament, o de forma puntual, els balanços de comprovació de sumes i saldos."
+              },
+              {
+                "codi": "CA24",
+                "text": "Efectua els càlculs necessaris per a les operacions derivades dels registres comptables que s'han de realitzar abans del tancament de l'exercici econòmic."
+              },
+              {
+                "codi": "CA25",
+                "text": "Introdueix correctament en l'aplicació informàtica les amortitzacions corresponents, les correccions de valor reversibles i la regularització comptable que correspon a un exercici econòmic concret."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Comptabilització d'operacions d'un exercici econòmic complet",
+                "items": [
+                  "Assentament d'obertura.",
+                  "Registre comptable d'operacions diàries.",
+                  "Balanç de comprovació de sumes i saldos.",
+                  "Regularització.",
+                  "Compte de pèrdues i guanys.",
+                  "Balanç de situació final.",
+                  "Assentament de tancament."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "comptes anuals i control intern, 33 hores",
+        "hores": 0,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Obté o confecciona el resultat comptable i el balanç de situació com a comptes anuals bàsics, utilitzant aplicacions informàtiques específiques, i col·labora en la preparació d'informació i en la posterior elaboració de la resta de comptes anuals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Obté amb mitjans informàtics el resultat comptable i el balanç de situació final."
+              },
+              {
+                "codi": "CA12",
+                "text": "Prepara, segons pautes establertes, la informació econòmica rellevant per elaborar la memòria, l'estat de canvis en el patrimoni net, i l'estat de fluxos d'efectiu, de l'empresa per a un exercici econòmic concret."
+              },
+              {
+                "codi": "CA13",
+                "text": "Redacta la memòria de l'empresa per a un exercici econòmic concret, segons informació i documentació molt pautada, i partint de les instruccions rebudes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica el funcionament del procés, contrastant els resultats amb les dades introduïdes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Comprova els comptes relacionant cada registre comptable amb les dades dels documents suport.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova els saldos dels comptes per verificar la correcció dels assentaments."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica els saldos dels comptes deutors i creditors de les administracions públiques amb la documentació laboral i fiscal."
+              },
+              {
+                "codi": "CA23",
+                "text": "Comprova els saldos de caixa amb els registres corresponents."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova els saldos bancaris de dipòsits i inversions, i de préstecs i crèdits, amb la documentació suport."
+              },
+              {
+                "codi": "CA25",
+                "text": "Fa les correccions adequades a través de la conciliació bancària perquè, tant els llibres comptables com el saldo dels comptes, reflecteixin les mateixes quantitats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova els saldos de clients i proveïdors d'acord amb les normes internes rebudes."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova que els saldos de l'amortització acumulada dels elements de l'immobilitzat concordin amb les quanties de quotes d'amortització establertes."
+              },
+              {
+                "codi": "CA28",
+                "text": "Comprova l'exactitud dels saldos d'existències amb la realitat física detallada en inventaris i/o proporcionada pel departament de magatzem."
+              },
+              {
+                "codi": "CA29",
+                "text": "Comprova el saldo dels comptes com a pas previ a l'inici de les operacions de tancament de l'exercici."
+              },
+              {
+                "codi": "CA210",
+                "text": "Comunica els errors detectats segons el procediment establert."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza aplicacions informàtiques per a la comprovació dels registres comptables."
+              },
+              {
+                "codi": "CA212",
+                "text": "Arxiva la documentació suport dels assentaments seguint els procediments establerts."
+              },
+              {
+                "codi": "CA213",
+                "text": "Realitza el procediment amb rigor i amb pulcritud, i d'acord amb els principis de seguretat i confidencialitat de la informació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Comptes anuals",
+                "items": [
+                  "Resultat comptable i balanços.",
+                  "Comptes anuals.",
+                  "Obtenció de dades i informació, amb mitjans convencionals i informàtics.",
+                  "Aplicacions informàtiques específiques de comptabilitat i gestió.",
+                  "Redacció de comptes anuals en base a pautes establertes i dades rebudes."
+                ]
+              },
+              {
+                "bloc": "Comprovació de comptes",
+                "items": [
+                  "La comprovació dels registres comptables.",
+                  "La conciliació bancària i els saldos de caixa.",
+                  "La comprovació en les aplicacions informàtiques.",
+                  "El control intern i les auditories.",
+                  "Arxiu dels documents mercantils per a l'optimització del procés comptable."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

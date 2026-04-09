@@ -1,0 +1,213 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MI",
+    "titol_cicle": "Mecatrònica Industrial",
+    "grau": "desconegut",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/228/2016, de 24 d'agost, per la qual s'estableix el currículum del cicle formatiu de grau superior de mecatrònica industrial.",
+    "data_decret": "2016-08-24",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "simulació de sistemes mecatrònics",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "simulació de cèl·lules robotitzades i prototips mecatrònics",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Simula el funcionament d'una cèl·lula robotitzada, dissenyant-la i realitzant operacions de control.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Selecciona el programari idoni per optimitzar el disseny de cèl·lules robotitzades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dissenya cèl·lules robotitzades amb diferents posicions de robot: centrada en el robot, amb el robot en línia i amb un robot mòbil."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza el control de la cèl·lula robotitzada: control de seqüència, interfície de l'operador, supervisió de seguretat, enclavaments, detecció i recuperació d'errors."
+              },
+              {
+                "codi": "CA14",
+                "text": "Opera sobre el control de la cèl·lula, mitjançant relés, autòmats o ordinadors."
+              },
+              {
+                "codi": "CA15",
+                "text": "Analitza el temps de cicle, utilitzant la metodologia RTM."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Simula cèl·lules robotitzades i prototips mecatrònics, validant el seu disseny mitjançant programes informàtics de simulació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Detecta les possibles col·lisions a què pugui estar sotmès el sistema mecatrònic."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica els moviments del sistema mecatrònic, lliscament, rodament, i pivotant, entre d'altres."
+              },
+              {
+                "codi": "CA23",
+                "text": "Aplica la simulació de fluids i l'anàlisi tèrmica als sistemes mecatrònics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza les funcions de validació del disseny mecatrònic mitjançant programes de simulació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Avalua el potencial de fabricació de la solució proposada."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Simulació del funcionament d'una cèl·lula robotitzada",
+                "items": [
+                  "Importació de dades de sistemes CAD.",
+                  "Generació de posicions d'un robot, usant models CAD.",
+                  "Generació de programes de robot.",
+                  "Instruccions de control de flux i d'entrades/sortides.",
+                  "Sistemes de referència de la base i de la posició final.",
+                  "Sistemes de posicionament de robots.",
+                  "Representació gràfica d'una programació virtual/programació real.",
+                  "Verificació dels estats de les entrades/sortides (E/S) de la cèl·lula de treball.",
+                  "Detecció de col·lisions.",
+                  "Eixos controlats.",
+                  "Anàlisi de l'abast.",
+                  "Programari.",
+                  "Creació de macros o interfícies amb l'usuari.",
+                  "Optimització de trajectòries, acceleracions i singularitats.",
+                  "Sistemes d'emmagatzematge.",
+                  "Variadors de velocitat.",
+                  "Eixos controladors."
+                ]
+              },
+              {
+                "bloc": "Simulació i validació de sistemes mecatrònics",
+                "items": [
+                  "Aplicació de programari per a la simulació dels sistemes mecatrònics dissenyats.",
+                  "Validació mitjançant la comprovació de trajectòries, col·lisions i abasts, entre d'altres, dels sistemes mecatrònics.",
+                  "Comprovació dels sistemes i controls de seguretat adoptats, abans de la posada en marxa.",
+                  "Posada en marxa dels sistemes mecatrònics."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "simulació d'estacions automatitzades",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Integra sistemes d'adquisició de dades en entorns de simulació, monitoritzant l'estat del sistema mecatrònic i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Integra sistemes d'exploració lineal i càmeres d'estat sòlid."
+              },
+              {
+                "codi": "CA12",
+                "text": "Aplica les funcions de detecció i digitalització."
+              },
+              {
+                "codi": "CA13",
+                "text": "Preprocessa les imatges i processa les imatges."
+              },
+              {
+                "codi": "CA14",
+                "text": "Segmenta les imatges i obté les característiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix les escenes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Simula processos mecatrònics complexos, integrant subsistemes i analitzant el seu funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les característiques del procés que se simularà."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona els subsistemes que l'integren."
+              },
+              {
+                "codi": "CA23",
+                "text": "Verifica la relació entre els subsistemes."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica desviacions del funcionament previst."
+              },
+              {
+                "codi": "CA25",
+                "text": "Localitza els elements responsables de la desviació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Corregeix la desviació."
+              },
+              {
+                "codi": "CA27",
+                "text": "Documenta el resultat de la simulació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració de sistemes d'adquisició de dades",
+                "items": [
+                  "Procés d'adquisició de dades.",
+                  "Esquema de blocs d'un SAD (sistema d'adquisició de dades). Transductors i convertidors. Condicionament del senyal.",
+                  "Visió artificial.",
+                  "Elements dels sistemes de visió artificial: lents, cambres i programari.",
+                  "Preprocessament i processament d'imatges.",
+                  "Segmentació d'imatges.",
+                  "Reconeixement d'escenes.",
+                  "Monitorització de l'estat del sistema.",
+                  "Verificació del funcionament."
+                ]
+              },
+              {
+                "bloc": "Simulació de processos mecatrònics complexos",
+                "items": [
+                  "Característiques dels processos que se simularan.",
+                  "Selecció de subsistemes.",
+                  "Integració de subsistemes.",
+                  "Desviacions del funcionament.",
+                  "Anàlisi i correcció de disfuncions.",
+                  "Documentació de resultats."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

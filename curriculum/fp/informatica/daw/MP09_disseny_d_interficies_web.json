@@ -1,0 +1,342 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "disseny d’interfícies web",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "disseny de la interfície. Estils",
+        "hores": 39,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Planifica la creació d’una interfície web valorant i aplicant especificacions de disseny.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la importància de la comunicació visual i els seus principis bàsics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza i selecciona els colors i les tipografies adequats per a la seva visualització en pantalla."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza alternatives per a la presentació de la informació en documents web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Valora la importància de definir i aplicar la guia d’estil en el desenvolupament d’una aplicació web."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza i valora diferents aplicacions per al disseny de documents web."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza marcs, taules i capes per presentar la informació de manera ordenada."
+              },
+              {
+                "codi": "CA17",
+                "text": "Crea i utilitza plantilles de disseny."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Crea interfícies web homogènies definint i aplicant estils.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix les possibilitats de modificar les etiquetes HTML."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix estils de forma directa."
+              },
+              {
+                "codi": "CA23",
+                "text": "Defineix i associa estils globals en fulls externs."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix fulls d’estil alternatius."
+              },
+              {
+                "codi": "CA25",
+                "text": "Redefineix estils."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica les diferents propietats de cada element."
+              },
+              {
+                "codi": "CA27",
+                "text": "Crea classes d’estils."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza eines de validació de fulls d’estils."
+              },
+              {
+                "codi": "CA29",
+                "text": "Utilitza i actualitza la guia d’estil."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Planificació d’interfícies gràfiques",
+                "items": [
+                  "Elements del disseny: percepció visual.",
+                  "Color, tipografia, icones.",
+                  "Interacció persona-ordinador.",
+                  "Interpretació de guies d’estil. Elements.",
+                  "Generació de documents i llocs web.",
+                  "Aplicacions per al desenvolupament web.",
+                  "Llenguatges de marques.",
+                  "Components d’una interfície web.",
+                  "Mapa de navegació. Prototips.",
+                  "Maquetació web. Elements d’ordenació.",
+                  "Plantilla de disseny."
+                ]
+              },
+              {
+                "bloc": "Definició i aplicació d’estils",
+                "items": [
+                  "Estils en línia basats en etiquetes i en classes.",
+                  "Crear i vincular fulls d’estil.",
+                  "Crear i vincular fulls d’estil en cascada externa.",
+                  "Eines i test de verificació.",
+                  "Guia d’estil."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "elements multimèdia: creació i integració",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Prepara arxius multimèdia per al web, analitzant-ne les característiques i manejant eines específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les implicacions de les llicències i els drets d’autor en l’ús de material multimèdia."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els formats d’imatge, àudio i vídeo que cal utilitzar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza les eines disponibles per a generar contingut multimèdia."
+              },
+              {
+                "codi": "CA14",
+                "text": "Empra eines per al tractament digital de la imatge."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza eines per manipular àudio i vídeo."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza animacions a partir d’imatges fixes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Importa i exporta imatges, àudio i vídeo en diversos formats segons la seva finalitat."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica la guia d’estil."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Integra contingut multimèdia en documents web valorant la seva aportació i seleccionant adequadament els elements interactius.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica i analitza les tecnologies relacionades amb la inclusió de contingut multimèdia i interactiu."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica les necessitats específiques de configuració dels navegadors web per suportar contingut multimèdia i interactiu."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza eines gràfiques per al desenvolupament de contingut multimèdia interactiu."
+              },
+              {
+                "codi": "CA24",
+                "text": "Analitza el codi generat per les eines de desenvolupament de contingut interactiu."
+              },
+              {
+                "codi": "CA25",
+                "text": "Afegeix elements multimèdia a documents web."
+              },
+              {
+                "codi": "CA26",
+                "text": "Afegeix interactivitat a elements d’un document web."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova els elements multimèdia i interactius en diferents navegadors."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Preparació i implantació de contingut multimèdia",
+                "items": [
+                  "Tipus d’imatges al web. Mapa de bits, imatge vectorial.",
+                  "Formats d’imatges.",
+                  "Programari per crear i processar imatges.",
+                  "Optimització d’imatges per al web.",
+                  "Programari per manipular àudio i vídeo.",
+                  "Animació d’imatges i de text.",
+                  "Integració d’àudio i de vídeo en una animació.",
+                  "Àudio: formats. Conversions de formats (exportar i importar).",
+                  "Vídeo: codificació de vídeo, conversió de formats (exportar i importar).",
+                  "Guia d’estil."
+                ]
+              },
+              {
+                "bloc": "Integració de contingut interactiu",
+                "items": [
+                  "Eines per a la inclusió de contingut multimèdia interactiu.",
+                  "Configuració dels navegadors.",
+                  "Elements interactius bàsics i avançats. Desenvolupament.",
+                  "Comportaments interactius. Comportament dels elements.",
+                  "Execució de seqüències d’ordres.",
+                  "Execució i verificació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "accessibilitat i usabilitat",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa interfícies web accessibles, analitzant les pautes establertes i aplicant-hi tècniques de verificació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la necessitat de dissenyar webs accessibles."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza l’accessibilitat de diferents documents web."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les principals pautes d’accessibilitat al contingut."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza els possibles errors segons els punts de verificació de prioritat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Assoleix el nivell de conformitat desitjat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica els nivells assolits mitjançant l’ús de tests externs."
+              },
+              {
+                "codi": "CA17",
+                "text": "Verifica la visualització de la interfície amb diferents navegadors i tecnologies."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa interfícies web amigables analitzant i aplicant les pautes d’usabilitat establertes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Analitza la usabilitat de diferents documents web."
+              },
+              {
+                "codi": "CA22",
+                "text": "Valora la importància de l’ús d’estàndards en la creació de documents web."
+              },
+              {
+                "codi": "CA23",
+                "text": "Modifica la interfície web per adequar-la a l’objectiu que persegueix i als usuaris als quals va dirigida."
+              },
+              {
+                "codi": "CA24",
+                "text": "Verifica la facilitat de navegació d’un document web mitjançant diferents perifèrics."
+              },
+              {
+                "codi": "CA25",
+                "text": "Analitza diferents tècniques per verificar la usabilitat d’un document web."
+              },
+              {
+                "codi": "CA26",
+                "text": "Verifica la usabilitat de la interfície web creada en diferents navegadors i tecnologies."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Desenvolupament de webs accessibles",
+                "items": [
+                  "El Consorci World Wide Web (W3C).",
+                  "Principis generals de disseny accessible.",
+                  "Pautes d’Accessibilitat al Contingut al Web (WCAG).",
+                  "Tècniques per satisfer els requisits definits a les WCAG.",
+                  "Prioritats. Punts de verificació. Nivells d’adequació.",
+                  "Mètodes per realitzar revisions preliminars i avaluacions d’adequació o conformitat de documents web.",
+                  "Eines d’anàlisi d’accessibilitat web.",
+                  "Revisió de l’accessibilitat web des de diferents navegadors."
+                ]
+              },
+              {
+                "bloc": "Desenvolupament de webs amigables. Usabilitat",
+                "items": [
+                  "Anàlisi de la usabilitat. Tècniques.",
+                  "Estàndards.",
+                  "Identificació de l’objectiu del web.",
+                  "Tipus d’usuari.",
+                  "Informació fàcilment accessible."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

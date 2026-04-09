@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "planificació i administració de xarxes",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "introducció a les xarxes",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix l’estructura de les xarxes de dades identificant-ne els elements i els principis de funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els factors que impulsen la contínua expansió i evolució de les xarxes de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Diferencia els diferents mitjans de transmissió utilitzats en les xarxes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix els diferents tipus de xarxa i les seves topologies."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les arquitectures de xarxa i els nivells que les componen."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu el concepte de protocol de comunicació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu el funcionament de les piles de protocols en les diferents arquitectures de xarxa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Presenta i descriu els elements funcionals, físics i lògics, de les xarxes de dades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Diferencia els dispositius d’interconnexió de xarxes atenent el nivell funcional en què s’enquadren."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Integra ordinadors i perifèrics en xarxes cablejades i sense fils, avaluant-ne el funcionament i les prestacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els estàndards per a xarxes cablejades i sense fils."
+              },
+              {
+                "codi": "CA22",
+                "text": "Munta cables directes, creuats i de consola."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza comprovadors per verificar la connectivitat de diferents tipus de cables."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza el sistema d’adreçament lògic IP per assignar adreces de xarxa i màscares de subxarxa."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura adaptadors de xarxa cablejats i sense fil sota diferents sistemes operatius."
+              },
+              {
+                "codi": "CA26",
+                "text": "Integra dispositius a xarxes cablejades i sense fils."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova la connectivitat entre diversos dispositius i adaptadors sense fils sobre diferents configuracions."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza aplicacions per representar el mapa físic i lògic d’una xarxa."
+              },
+              {
+                "codi": "CA29",
+                "text": "Monitora la xarxa mitjançant aplicacions basades en el protocol SNMP."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització de xarxes",
+                "items": [
+                  "Terminologia: xarxes LAN, MAN i WAN, topologies, arquitectures, protocols.",
+                  "Sistemes de numeració decimal, hexadecimal i binari. Conversió entre sistemes.",
+                  "Arquitectura de xarxes.",
+                  "Capsulament de la informació.",
+                  "El model OSI.",
+                  "El model TCP/IP.",
+                  "Les tecnologies Ethernet.",
+                  "El model OSI i Ethernet.",
+                  "Tipus de cablatge Ethernet."
+                ]
+              },
+              {
+                "bloc": "Integració d’elements en una xarxa",
+                "items": [
+                  "Els mitjans físics.",
+                  "Ample de banda i taxa de transferència.",
+                  "Els cables metàl·lics (coaxial, STP i UTP).",
+                  "Factors físics que afecten la transmissió.",
+                  "La connexió sense fils. Els espectres d’ona de microones i ràdio.",
+                  "Topologies. Associació i autenticació a la WLAN.",
+                  "Adreçament.",
+                  "Dominis de col·lisió i de difusió.",
+                  "Adreces IPv4 i màscares de xarxa.",
+                  "Adreçament dinàmic (DHCP).",
+                  "Adaptadors.",
+                  "Adaptadors amb fils: instal·lació i configuració.",
+                  "Adaptadors sense fils: instal·lació i configuració."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "administració de dispositius de xarxa",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra commutadors establint opcions de configuració per a la seva integració a la xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Connecta commutadors entre si i amb les estacions de treball."
+              },
+              {
+                "codi": "CA12",
+                "text": "Interpreta la informació que proporcionen els LED (díode electroluminescent) del commutador."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza diferents mètodes per accedir al mode de configuració del commutador."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els fitxers que guarden la configuració del commutador."
+              },
+              {
+                "codi": "CA15",
+                "text": "Administra la taula d’adreces MAC del commutador."
+              },
+              {
+                "codi": "CA16",
+                "text": "Configura la seguretat del port."
+              },
+              {
+                "codi": "CA17",
+                "text": "Actualitza el sistema operatiu del commutador."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza els comandaments proporcionats pel sistema operatiu del commutador que permeten fer el seguiment de possibles incidències."
+              },
+              {
+                "codi": "CA19",
+                "text": "Comprova l’Spanning Tree Protocol a un commutador."
+              },
+              {
+                "codi": "CA110",
+                "text": "Modifica els paràmetres que determinen el procés de selecció del pont arrel."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra les funcions bàsiques d’un encaminador (router) establint opcions de configuració per a la seva integració a la xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta la informació que proporcionen els LED de l’encaminador."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza diferents mètodes per accedir al mode de configuració de l’encaminador."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les etapes de la seqüència d’arrencada de l’encaminador."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza els comandaments per a la configuració i administració bàsica de l’encaminador."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els fitxers que guarden la configuració de l’encaminador i els gestiona mitjançant les comandaments corresponents."
+              },
+              {
+                "codi": "CA26",
+                "text": "Configura rutes estàtiques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza els comandaments proporcionats pel sistema operatiu de l’encaminador que permeten fer el seguiment de possibles incidències."
+              },
+              {
+                "codi": "CA28",
+                "text": "Configura l’encaminador com a servidor d’adreces IP dinàmiques."
+              },
+              {
+                "codi": "CA29",
+                "text": "Descriu les capacitats de filtratge de trànsit de l’encaminador."
+              },
+              {
+                "codi": "CA210",
+                "text": "Utilitza comandaments per gestionar llistes de control d’accés."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració i administració de commutadors",
+                "items": [
+                  "Segmentació de la xarxa. Avantatges que presenta.",
+                  "Commutadors i dominis de col·lisió i de difusió.",
+                  "Segmentació de xarxes.",
+                  "Formes de connexió al commutador per a la seva configuració.",
+                  "Configuració del commutador.",
+                  "Configuració dinàmica i estàtica de la taula d’adreces MAC."
+                ]
+              },
+              {
+                "bloc": "Configuració i administració bàsica d’encaminadors",
+                "items": [
+                  "Els encaminadors a les LAN i a les WAN.",
+                  "Components de l’encaminador.",
+                  "Formes de connexió a l’encaminador per a la seva configuració inicial.",
+                  "Comandaments per a la configuració de l’encaminador.",
+                  "Comandaments per a l’administració de l’encaminador.",
+                  "Configuració de l’encaminament estàtic.",
+                  "Definició i ubicació de llistes de control d’accés (ACL)."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "administració avançada de xarxes",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura xarxes locals virtuals identificant-ne el camp d’aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els avantatges que presenta la utilització de xarxes locals virtuals (VLAN)."
+              },
+              {
+                "codi": "CA12",
+                "text": "Implementa VLAN."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza el diagnòstic d’incidències en VLAN."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura enllaços troncals."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza un encaminador per interconnectar diverses VLAN."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu els avantatges que aporta l’ús de protocols d’administració centralitzada de VLAN."
+              },
+              {
+                "codi": "CA17",
+                "text": "Configura els commutadors per treballar d’acord amb els protocols d’administració centralitzada."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tasques avançades d’administració de xarxa analitzant i utilitzant protocols dinàmics d’encaminament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Configura el protocol d’encaminament RIPv1."
+              },
+              {
+                "codi": "CA22",
+                "text": "Configura xarxes amb el protocol RIPv2."
+              },
+              {
+                "codi": "CA23",
+                "text": "Realitza el diagnòstic d’errors en una xarxa que utilitza RIP."
+              },
+              {
+                "codi": "CA24",
+                "text": "Valora la necessitat d’utilitzar màscares de longitud variable en IPv4."
+              },
+              {
+                "codi": "CA25",
+                "text": "Divideix una xarxa principal en subxarxes de diferents mides amb VLSM."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza agrupacions de xarxes amb CIDR."
+              },
+              {
+                "codi": "CA27",
+                "text": "Habilita i configura OSPF en un encaminador."
+              },
+              {
+                "codi": "CA28",
+                "text": "Estableix i propaga una ruta per defecte usant OSPF."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Connecta xarxes privades a xarxes públiques identificant i aplicant diferents tecnologies.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu els avantatges i inconvenients de l’ús de la traducció d’adreces de xarxa (NAT)."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza NAT per realitzar la traducció estàtica d’adreces de xarxa."
+              },
+              {
+                "codi": "CA33",
+                "text": "Utilitza NAT per realitzar la traducció dinàmica d’adreces de xarxa."
+              },
+              {
+                "codi": "CA34",
+                "text": "Descriu les característiques de les tecnologies Frame relay, XDSI i ADSL."
+              },
+              {
+                "codi": "CA35",
+                "text": "Descriu les analogies i diferències entre les tecnologies «Wifi» i «Wimax»."
+              },
+              {
+                "codi": "CA36",
+                "text": "Descriu les característiques de les tecnologies UMTS i HSDPA."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració de xarxes virtuals",
+                "items": [
+                  "El disseny de xarxes locals en tres capes (nucli, accés i distribució).",
+                  "Implantació i configuració de xarxes virtuals.",
+                  "Definició d’enllaços troncals en els commutadors i encaminadors. El protocol IEEE802.1Q."
+                ]
+              },
+              {
+                "bloc": "Configuració i administració de protocols dinàmics",
+                "items": [
+                  "Protocols encaminadors i protocols d’encaminament.",
+                  "Protocols d’encaminament interior i exterior.",
+                  "L’encaminament sense classe.",
+                  "La subdivisió de xarxes i l’ús de màscares de longitud variable (VLM).",
+                  "El protocol RIPv2; RIPv1 amb comparació.",
+                  "Configuració i administració de RIPv1.",
+                  "Administració i configuració de RIPv2."
+                ]
+              },
+              {
+                "bloc": "Configuració de l’accés a Internet des d’una LAN",
+                "items": [
+                  "Adreçament intern i adreçament extern.",
+                  "Origen NAT i destinació NAT.",
+                  "NAT estàtic, dinàmic, de sobrecàrrega (PAT) i invers.",
+                  "Configuració de NAT.",
+                  "Diagnòstic d’incidències de NAT.",
+                  "Configuració de PAT."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

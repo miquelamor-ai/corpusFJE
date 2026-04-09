@@ -2,403 +2,439 @@
   "meta": {
     "familia": "lomloe",
     "etapa": "primaria",
-    "area_materia": "Llengua Estrangera: Anglès",
+    "area_materia": "Llengua Estrangera",
     "codi_area": "ANG",
     "decret": "175/2022",
-    "data_decret": "2022-08-22",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Llengua-Estrangera.pdf",
-    "descripcio": "La Llengua Estrangera: Anglès a Primària permet a l'alumnat d'entre 6 i 12 anys obrir-se a la comunicació en un idioma diferent del propi. Contribueix a la formació lingüística global, facilita l'accés a la cultura internacional i connecta amb l'àmbit personal, social i acadèmic en un món cada vegada més multilingüe i interconnectat.\n\nEl currículum d'anglès a Primària s'articula entorn de la competència comunicativa en les seves quatre habilitats: comprensió oral i escrita, expressió oral i escrita. Els sabers inclouen el sistema fonètic i d'entonació de la llengua anglesa, el lèxic d'ús freqüent en contextos quotidians, les estructures morfosintàctiques bàsiques i les convencions discursives pròpies de la comunicació informal i formal. L'educació literària es treballa mitjançant cançons, contes breus i textos adaptats que permeten descobrir la cultura dels països anglòfons. La reflexió sobre la llengua i l'autoavaluació de la pròpia producció formen part dels sabers de metacomunicació.\n\nL'enfocament metodològic és comunicatiu i basat en l'ús real de la llengua en situacions significatives. L'aprenentatge actiu, el treball per tasques i projectes, el joc lingüístic i l'exposició a inputs autèntics (àudio, vídeo, lectura extensiva) afavoreixen la confiança en la comunicació. Es potencia la interacció oral des dels primers cursos i es fomenta una actitud positiva davant l'error com a oportunitat d'aprenentatge.",
-    "versio_schema": "1.0"
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Llengua-Estrangera.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "La Llengua Estrangera (anglès) a Primària desenvolupa la competència comunicativa de l'alumnat en una llengua addicional, obrint finestres a altres cultures i formes de veure el món. La matèria és pont transversal amb totes les àrees del currículum: els continguts del Coneixement del Medi, les Matemàtiques i l'Educació Artística es poden vehicular parcialment en anglès mitjançant enfocaments AICLE (Aprenentatge Integrat de Continguts i Llengua Estrangera). Prepara per a un món plurilingüe i connecta directament amb la Segona Llengua Estrangera i amb les àrees de Llengua Catalana i Castellana.\n\nEls grans constructes disciplinaris inclouen la competència oral receptiva (comprensió de textos breus i senzills en llengua estàndard, amb suport gestual i iconogràfic), la competència oral productiva (frases curtes, ritme, accentuació, entonació), la competència escrita inicial (lectura i escriptura de mots i textos breus a partir de models), la consciència lingüística (comparació de sistemes entre llengües, estratègies de transferència) i la dimensió intercultural (reconeixement de costums i realitats dels països de parla anglesa, rebuig d'estereotips). El repertori lingüístic personal i la mediació interlingüística són eixos vertebradors.\n\nL'enfocament pedagògic prioritza la comunicació autèntica i significativa per sobre de la gramàtica descontextualitzada. Les rutines d'aula en anglès, les cançons, les dramatitzacions, els projectes col·laboratius i l'ús de plataformes d'intercanvi amb alumnat anglòfon creen contextos reals d'ús. L'error és concebut com a oportunitat d'aprenentatge i s'evita la correcció sistemàtica que inhibeix la producció. L'avaluació observa el grau d'autonomia progressiva en la comprensió i producció oral i escrita, l'ús estratègic de recursos i la capacitat de mediació en situacions comunicatives quotidianes."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Comprendre el sentit global i les informacions específiques de textos orals senzills en anglès, de tipologia i temàtica diversa, identificant la idea principal i els detalls rellevants, per construir significat i participar en situacions comunicatives de la vida quotidiana.",
+      "text": "Comprendre la diversitat lingüística i cultural a partir del reconeixement de les llengües de l'alumnat i la realitat plurilingüe, pluricultural i intercultural, per afavorir la transferència lingüística, identificar i rebutjar estereotips i prejudicis lingüístics, i valorar aquesta diversitat com a font de riquesa cultural.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global de missatges orals breus en anglès (instruccions, salutacions, presentacions, contes simples) de la vida quotidiana de l'aula."
+            "text": "Participar amb respecte en la comunicació intercultural, identificant i analitzant, de forma guiada, les discriminacions, els prejudicis i els estereotips més comuns, en situacions quotidianes i habituals."
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar paraules clau i expressions familiars en textos orals breus en anglès, amb ajuda visual i gestual."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Mostrar comprensió de missatges orals en anglès mitjançant respostes no verbals (assenyalar, dibuixar, actuar)."
+            "text": "Reconèixer i valorar la diversitat lingüística i cultural relacionada amb la llengua estrangera, identificant els seus elements culturals i lingüístics elementals."
           }
         ],
         "CM": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global i informació específica de textos orals en anglès de tipologia diversa (narracions, descripcions, diàlegs, instruccions), identificant el tema i els detalls rellevants."
+            "text": "Participar amb respecte en situacions interculturals, identificant i comparant semblances i diferències elementals entre llengües i cultures, i mostrant rebuig davant discriminacions, prejudicis i estereotips de qualsevol tipus en contextos comunicatius quotidians i habituals."
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar les idees principals i les paraules clau en textos orals en anglès de durada moderada, amb suport visual ocasional."
+            "text": "Reconèixer, comprendre i valorar la diversitat lingüística i cultural pròpia de països on es parla la llengua estrangera com a font d'enriquiment personal, identificant elements culturals i lingüístics elementals que fomentin la cultura de la pau."
           },
           {
             "codi": "CA1.3",
-            "text": "Comprendre missatges orals en anglès de vídeos, cançons i presentacions digitals adequades al nivell."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques per a la comprensió dels aspectes més rellevants de la diversitat lingüística i cultural."
           }
         ],
         "CS": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre i interpretar textos orals en anglès de tipologia diversa i nivell de complexitat moderat, identificant el tema, les idees principals i secundàries, la intenció de l'emissor i informació implícita."
+            "text": "Participar amb estima i respecte en situacions interculturals, construint vincles entre les diferents llengües i cultures, i mostrant rebuig davant discriminacions, prejudicis i estereotips de qualsevol tipus en contextos comunicatius quotidians i habituals."
           },
           {
             "codi": "CA1.2",
-            "text": "Comprendre textos orals autèntics o poc adaptats en anglès (vídeos, podcasts, programes) sobre temes d'interès per a l'alumnat."
+            "text": "Reconèixer, comprendre i valorar la diversitat lingüística i cultural pròpia de països on es parla la llengua estrangera com a font d'enriquiment personal, identificant elements culturals i lingüístics bàsics que fomentin la sostenibilitat i la cultura de la pau."
           },
           {
             "codi": "CA1.3",
-            "text": "Avaluar críticament la informació continguda en textos orals en anglès, identificant el punt de vista i la fiabilitat de la font."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques per a la comprensió de la diversitat lingüística i cultural."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Llegir i comprendre textos escrits en anglès de tipologia i gèneres diversos, identificant el tema, les idees principals i la intenció de l'autor, activant estratègies de comprensió lectora per extreure informació i gaudir de la lectura en llengua estrangera.",
+      "text": "Comprendre i interpretar textos orals i multimodals breus i senzills, en la llengua estàndard, i identificar el sentit general i la informació més rellevant, valorant, de manera progressivament autònoma, aspectes formals i de contingut bàsics, per construir coneixement, formar-se una opinió i eixamplar les possibilitats de gaudi i lleure.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer i llegir en veu alta paraules i frases senzilles en anglès amb pronunciació aproximada."
+            "text": "Reconèixer i comprendre paraules i expressions habituals en textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia experiència, expressats de forma entenedora, clara, senzilla i directa, en llengua estàndard i en diferents suports."
           },
           {
             "codi": "CA2.2",
-            "text": "Comprendre el sentit global de textos escrits molt breus i senzills en anglès (etiquetes, llistes, missatges curts, textos il·lustrats) amb suport visual."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Identificar informació específica en textos curts i senzills en anglès amb ajuda de preguntes guia."
+            "text": "Seleccionar i aplicar de forma guiada estratègies elementals per captar la idea global i identificar elements específics amb ajuda d'elements lingüístics i no lingüístics del context, en situacions comunicatives quotidianes i de rellevància per a l'alumnat."
           }
         ],
         "CM": [
           {
             "codi": "CA2.1",
-            "text": "Llegir textos en anglès de tipologia diversa (narracions, textos informatius senzills, instruccions, diàlegs) amb comprensió del sentit global i les idees principals."
-          },
-          {
-            "codi": "CA2.2",
-            "text": "Identificar informació específica en textos en anglès mitjançant estratègies de lectura (skimming, scanning)."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Llegir textos literaris breus en anglès (contes, poemes) adaptats al nivell i gaudir-ne."
+            "text": "Reconèixer i comprendre paraules, frases i el sentit global de textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia experiència, així com de textos de ficció adequats al nivell de desenvolupament de l'alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports."
           }
         ],
         "CS": [
           {
             "codi": "CA2.1",
-            "text": "Llegir textos en anglès de gèneres i suports diversos (digitals i analògics) amb estratègies d'interpretació i comprensió crítica."
-          },
-          {
-            "codi": "CA2.2",
-            "text": "Inferir el significat de paraules i expressions desconegudes en textos en anglès a partir del context."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Llegir textos literaris en anglès (contes, novel·les juvenils adaptades, poesia) i interpretar els seus elements formals i temàtics."
+            "text": "Reconèixer i interpretar el sentit global, així com paraules i frases específiques de textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i àmbits pròxims a la pròpia experiència, així com de textos literaris adequats al nivell de desenvolupament de l'alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Produir textos orals en anglès, planificats o espontanis, de tipologia diversa i adequats a la situació comunicativa, utilitzant el vocabulari, les estructures i la pronúncia treballats, per expressar idees, sentiments i informació de forma comprensible.",
+      "text": "Produir textos orals i multimodals amb coherència, claredat i registre adequats, atenent les convencions pròpies dels diferents gèneres discursius, i participar en interaccions orals variades, amb autonomia, per expressar idees, sentiments i conceptes, construir coneixement i establir vincles personals.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA3.1",
-            "text": "Produir enunciats orals breus i memorizats en anglès (salutacions, presentació personal, noms d'objectes, accions bàsiques) en situacions de l'aula."
+            "text": "Expressar oralment frases curtes amb informació bàsica sobre assumptes quotidians i de rellevància per a l'alumnat, utilitzant de forma guiada recursos verbals i no verbals, a partir de models i estructures prèviament presentats i parant atenció al ritme, l'accentuació i l'entonació."
           },
           {
             "codi": "CA3.2",
-            "text": "Reproduir oralment cançons, rimes, rodolins i textos memorizats en anglès amb pronunciació i ritme adequats."
+            "text": "Seleccionar i aplicar de forma guiada estratègies bàsiques per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
           },
           {
             "codi": "CA3.3",
-            "text": "Participar en interaccions orals molt senzilles en anglès (saludar, presentar-se, preguntar el nom) amb frases formulaiques."
+            "text": "Participar, de forma guiada, en situacions interactives elementals sobre temes quotidians, preparats prèviament, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Seleccionar i utilitzar, de forma guiada i en entorns propers, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges senzills i breus, i formular i contestar preguntes bàsiques per a la comunicació."
           }
         ],
         "CM": [
           {
             "codi": "CA3.1",
-            "text": "Produir textos orals en anglès sobre temes familiars (la família, l'escola, el temps lliure, els animals) amb pronunciació i entonació adequades."
+            "text": "Expressar oralment frases curtes amb informació bàsica sobre assumptes quotidians i de rellevància per a l'alumnat, utilitzant de forma guiada recursos verbals i no verbals, parant atenció al ritme, l'accentuació i l'entonació."
           },
           {
             "codi": "CA3.2",
-            "text": "Fer presentacions orals curtes en anglès sobre temes treballats, amb suport visual."
+            "text": "Seleccionar i aplicar de forma guiada estratègies per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
           },
           {
             "codi": "CA3.3",
-            "text": "Participar en diàlegs i converses senzilles en anglès sobre temes quotidians, mantenint la interacció."
+            "text": "Participar en situacions interactives d'intercanvis d'informació breus i senzills sobre temes quotidians, de rellevància personal i pròxims a la seva experiència, preparats prèviament, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia i respecte per la cortesia lingüística i l'etiqueta digital."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Seleccionar i utilitzar, de forma guiada i en situacions quotidianes, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges breus i formular i contestar preguntes senzilles."
           }
         ],
         "CS": [
           {
             "codi": "CA3.1",
-            "text": "Produir textos orals en anglès de tipologia diversa (exposicions, presentacions, debats) amb adequació al context i a la intenció comunicativa."
+            "text": "Expressar oralment textos breus i senzills, prèviament preparats, sobre assumptes quotidians i de rellevància per a l'alumnat, utilitzant de forma guiada recursos verbals i no verbals, i usant formes i estructures bàsiques i d'ús freqüent."
           },
           {
             "codi": "CA3.2",
-            "text": "Usar la llengua anglesa de forma fluïda i amb recursos per superar dificultats comunicatives (paràfrasi, definicions, reformulació)."
+            "text": "Seleccionar i aplicar de forma guiada coneixements i estratègies per preparar i produir textos adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, usant, amb ajuda, recursos físics o digitals en funció de la tasca i les necessitats de cada moment."
           },
           {
             "codi": "CA3.3",
-            "text": "Participar en debats i discussions en anglès defensant un punt de vista amb arguments i escoltant activament els altres."
+            "text": "Participar en situacions interactives d'intercanvis d'informació breus i senzills sobre temes quotidians, de rellevància personal i pròxims a la pròpia experiència, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia i respecte per la cortesia lingüística i l'etiqueta digital, així com per les diferents necessitats, idees i motivacions dels interlocutors."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Seleccionar i utilitzar, de forma guiada i en situacions quotidianes, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges breus i formular i contestar preguntes senzilles."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Produir textos escrits en anglès, de tipologia diversa i adequats al destinatari i a la finalitat comunicativa, aplicant les convencions del sistema d'escriptura de l'anglès i les normes ortogràfiques bàsiques, per comunicar idees i informació de forma efectiva.",
+      "text": "Comprendre i interpretar textos escrits i multimodals, reconeixent el sentit global, les idees principals i la informació implícita i explícita, i realitzant, de manera progressivament autònoma, reflexions elementals sobre aspectes formals i de contingut, per adquirir i construir coneixement, i respondre a necessitats i interessos comunicatius diversos.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA4.1",
-            "text": "Copiar i escriure paraules i frases molt senzilles en anglès seguint un model, amb atenció a les convencions gràfiques bàsiques."
+            "text": "Reconèixer i comprendre paraules i expressions habituals en textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia experiència, expressats de forma entenedora, clara, senzilla i directa, i en llengua estàndard."
           },
           {
             "codi": "CA4.2",
-            "text": "Completar textos molt senzills en anglès (frases amb buits, etiquetes, llistes) amb paraules del vocabulari treballat."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies elementals en situacions comunicatives quotidianes i de rellevància per a l'alumnat que permetin captar la idea global i identificar elements específics amb ajuda d'elements lingüístics i no lingüístics."
           }
         ],
         "CM": [
           {
             "codi": "CA4.1",
-            "text": "Escriure textos breus en anglès de tipologia diversa (descripció, narració senzilla, missatge, postal) amb adequació al destinatari."
+            "text": "Reconèixer i comprendre el sentit global, així com paraules i frases prèviament indicades en textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la seva experiència, així com de textos de ficció adequats al nivell de desenvolupament de l'alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports."
           },
           {
             "codi": "CA4.2",
-            "text": "Aplicar les normes ortogràfiques bàsiques de l'anglès i el vocabulari treballat en les produccions escrites."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies adequades en situacions comunicatives quotidianes i de rellevància per a l'alumnat que permetin captar el sentit global i processar informacions explícites en textos breus i senzills sobre temes familiars."
           }
         ],
         "CS": [
           {
             "codi": "CA4.1",
-            "text": "Produir textos escrits en anglès de tipologia diversa (argumentatius, expositius, creatius) amb adequació, coherència i correcció."
+            "text": "Reconèixer i comprendre el sentit global, així com paraules i frases específiques de textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i àmbits pròxims a la seva experiència, així com de textos literaris adequats al nivell de desenvolupament de l'alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports."
           },
           {
             "codi": "CA4.2",
-            "text": "Revisar i millorar les produccions escrites en anglès autònomament, atenent aspectes de correcció gramatical i ortogràfica."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Produir textos en entorns digitals en anglès (missatges, entrades de blog, presentacions) adaptant el format i el registre."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies i coneixements adequats en situacions comunicatives quotidianes i de rellevància per a l'alumnat que permetin captar el sentit global i processar informacions explícites en textos diversos."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "text": "Interactuar en anglès en situacions de comunicació quotidiana i acadèmica, de forma oral i escrita, mobilitzant estratègies de mediació i reparació de la comunicació per negociar significats, col·laborar i assolir objectius comunicatius conjunts.",
+      "text": "Produir textos escrits i multimodals amb adequació, coherència i cohesió, aplicant estratègies elementals de planificació, redacció, revisió, correcció i edició, amb regulació dels iguals i autoregulació progressivament autònoma i atenent les convencions pròpies del gènere discursiu triat, per construir coneixement i donar resposta de manera informada, eficaç i creativa a demandes comunicatives concretes.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA5.1",
-            "text": "Participar en interaccions simples i rutinàries en anglès de l'aula (salutació, comptar, colors, dies de la setmana) utilitzant expressions apreses."
+            "text": "Escriure paraules, expressions conegudes i frases, sobre assumptes quotidians i de rellevància personal per a l'alumnat, a partir de models, i amb una finalitat específica, a través d'eines analògiques i digitals, utilitzant estructures i lèxic elemental."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Seleccionar i aplicar de forma guiada estratègies bàsiques per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
           }
         ],
         "CM": [
           {
             "codi": "CA5.1",
-            "text": "Participar en interaccions orals i escrites en anglès per dur a terme tasques col·laboratives, negociant significats i reparant malentesos."
+            "text": "Redactar textos breus i senzills, sobre assumptes quotidians i de rellevància personal per a l'alumnat, amb adequació a la situació comunicativa proposada, a partir de models, i a través d'eines analògiques i digitals, utilitzant estructures i lèxic elemental."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Seleccionar i aplicar de forma guiada estratègies per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
           }
         ],
         "CS": [
           {
             "codi": "CA5.1",
-            "text": "Interactuar de forma efectiva en anglès en tasques col·laboratives i de comunicació real, aplicant estratègies de mediació lingüística i intercultural."
+            "text": "Organitzar i redactar textos breus i senzills, sobre assumptes quotidians i freqüents, de rellevància personal per a l'alumnat i pròxims a la seva experiència, prèviament preparats, amb adequació a la situació comunicativa proposada, a través d'eines analògiques i digitals, i usant estructures i lèxic bàsic d'ús comú."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Seleccionar i aplicar de forma guiada coneixements i estratègies per preparar i produir textos adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, usant amb ajuda recursos físics o digitals en funció de la tasca i les necessitats de cada moment."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "text": "Reflexionar sobre el funcionament de la llengua anglesa i les seves convencions comunicatives, comparant-les amb les de les altres llengües del propi repertori, per millorar l'aprenentatge de l'anglès i consolidar la consciència plurilingüe i intercultural.",
+      "text": "Cercar, seleccionar i contrastar informació procedent de diverses fonts, de forma planificada i de manera progressivament autònoma, avaluant la seva fiabilitat, reconeixent alguns riscos de manipulació i desinformació i adoptant un punt de vista personal i respectuós amb la propietat intel·lectual, per transformar-la en coneixement i comunicar-la de manera creativa.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA6.1",
-            "text": "Reconèixer similituds bàsiques entre l'anglès, el català i el castellà (paraules comunes, internacionalismes)."
+            "text": "Aplicar estratègies de cerca d'informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes propers i d'interès personal, de forma guiada, a la xarxa i a les biblioteques."
           },
           {
             "codi": "CA6.2",
-            "text": "Mostrar curiositat i actitud positiva envers la llengua anglesa i les cultures angloparlants."
+            "text": "Comunicar els resultats d'un procés d'investigació, individual o grupal, realitzat de forma acompanyada, sobre temes propers i d'interès personal."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Adoptar hàbits d'ús segur i saludable de les tecnologies digitals de forma guiada en relació amb l'accés a la informació i a la comunicació en l'entorn immediat."
           }
         ],
         "CM": [
           {
             "codi": "CA6.1",
-            "text": "Reflexionar sobre les similituds i diferències entre l'anglès i les altres llengües del repertori, identificant patrons i regularitats."
+            "text": "Aplicar estratègies de cerca d'informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes d'interès personal, ecològic i social, de forma progressivament autònoma, a la xarxa i a les biblioteques."
           },
           {
             "codi": "CA6.2",
-            "text": "Reconèixer aspectes culturals bàsics dels països angloparlants i mostrar respecte per la diversitat cultural."
+            "text": "Comunicar de forma creativa i respectant els drets de la propietat intel·lectual, els resultats d'un procés d'investigació, individual o grupal, realitzat de forma acompanyada, senzill, sobre temes d'interès personal, ecològic i social, que incloguin els objectius de desenvolupament sostenible."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Adoptar hàbits d'ús segur, sostenible i saludable de les tecnologies digitals, amb acompanyament, en relació amb l'accés, la fiabilitat i verificació de les fonts d'informació i la comunicació al seu entorn immediat i a la xarxa."
           }
         ],
         "CS": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar les característiques gramaticals i discursives de la llengua anglesa i comparar-les amb les del català i el castellà per millorar les pròpies produccions."
+            "text": "Aplicar estratègies de cerca d'informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes d'interès personal, ecològic i social, de forma progressivament autònoma, a la xarxa i a les biblioteques, valorant-ne críticament el resultat."
           },
           {
             "codi": "CA6.2",
-            "text": "Valorar la competència en anglès com a eina d'accés a la cultura, al coneixement i a la comunicació global."
+            "text": "Comunicar de forma creativa i respectant els drets de la propietat intel·lectual, els resultats d'un procés d'investigació, individual o grupal, sobre temes d'interès personal, ecològic i social, que incloguin els objectius de desenvolupament sostenible."
+          },
+          {
+            "codi": "CA6.3",
+            "text": "Adoptar hàbits d'ús crític, segur, sostenible i saludable de les tecnologies digitals, de forma progressivament autònoma, en relació amb la fiabilitat i la verificació de les fonts, la credibilitat de la informació i la comunicació a l'entorn immediat i a la xarxa."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE7",
+      "text": "Seleccionar i llegir de manera autònoma obres diverses atenent els propis gustos i interessos, compartint les experiències de lectura, per iniciar la construcció de la identitat lectora, fomentar el gust per la lectura com a font de plaer i gaudir de la seva dimensió social.",
+      "criteris_avaluacio": {
+        "CI": [
+          {
+            "codi": "CA7.1",
+            "text": "Llegir de manera autònoma textos de diferents autors i autores que s'adeqüin als propis gustos i interessos, seleccionats de manera acompanyada, des de les diferents etapes del procés evolutiu de la lectura."
+          },
+          {
+            "codi": "CA7.2",
+            "text": "Compartir lectures, per mitjà de recomanacions, presentacions i a partir d'interaccions orals, en el marc de la biblioteca d'aula i de centre, per expressar gustos i interessos i iniciar- se en una comunitat lectora."
+          }
+        ],
+        "CM": [
+          {
+            "codi": "CA7.1",
+            "text": "Llegir de manera autònoma o acompanyada textos de diversos autors i autores que s'adeqüin als propis gustos i interessos i seleccionats amb autonomia creixent, avançant en la construcció de la identitat lectora."
+          },
+          {
+            "codi": "CA7.2",
+            "text": "Compartir lectures per mitjà de recomanacions, presentacions i a partir d'interaccions orals, en el marc de la biblioteca d'aula i de centre, per expressar gustos i interessos, valorar les obres de forma argumentada i que permetin sentir-se membre d'una comunitat lectora."
+          }
+        ],
+        "CS": [
+          {
+            "codi": "CA7.1",
+            "text": "Llegir de manera autònoma textos de diversos autors i autores que s'adeqüin als propis gustos i interessos, seleccionats amb criteri propi, progressant en la construcció de la identitat lectora."
+          },
+          {
+            "codi": "CA7.2",
+            "text": "Compartir lectures per mitjà de recomanacions, presentacions i a partir d'interaccions orals, per mitjans analògics i digitals, en el marc de la biblioteca d'aula i de centre, per expressar gustos i interessos, valorar les obres de forma crítica i que permetin sentir-se membre d'una comunitat lectora."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE8",
+      "text": "Mediar entre diferents llengües en situacions predictibles, utilitzant estratègies i coneixements per processar i transmetre informació bàsica i senzilla, per tal de facilitar la comunicació.",
+      "criteris_avaluacio": {
+        "CI": [
+          {
+            "codi": "CA8.1",
+            "text": "Interpretar i explicar informació bàsica de conceptes, comunicacions i textos breus i senzills, de manera guiada, en situacions de comunicació de diversitat lingüística, social i cultural, mostrant empatia i interès per entendre's en un entorn immediat."
+          }
+        ],
+        "CM": [
+          {
+            "codi": "CA8.1",
+            "text": "Interpretar i explicar textos, conceptes i comunicacions breus i senzills, de manera guiada, en situacions de comunicació de diversitat lingüística, social i cultural, mostrant empatia i interès per entendre's en el seu entorn més proper."
+          },
+          {
+            "codi": "CA8.2",
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies elementals que ajudin a crear ponts i que facilitin la comprensió i producció d'informació, així com la comunicació fluida, fent servir, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+          }
+        ],
+        "CS": [
+          {
+            "codi": "CA8.1",
+            "text": "Inferir i comunicar textos, conceptes i comunicacions breus i senzills, de manera guiada, en situacions de comunicació amb diversitat lingüística i cultural, mostrant respecte i empatia per les persones interlocutores, per les llengües emprades i interès per participar en la solució de malentesos en l'entorn proper."
+          },
+          {
+            "codi": "CA8.2",
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques que ajudin a crear ponts i facilitin la comprensió i producció d'informació i la comunicació fluida, adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, fent servir, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE9",
+      "text": "Reflexionar de forma guiada sobre el llenguatge i reconèixer i usar els repertoris lingüístics personals i a partir de processos de comprensió i producció de textos orals, escrits i multimodals, utilitzant la terminologia elemental adequada, per iniciar-se en el desenvolupament de la consciència lingüística i millorar les destreses en la posada en pràctica d'aquests processos.",
+      "criteris_avaluacio": {
+        "CI": [
+          {
+            "codi": "CA9.1",
+            "text": "Comparar i contrastar similituds i diferències evidents entre llengües, reflexionant, de manera guiada, sobre aspectes elementals del seu funcionament."
+          },
+          {
+            "codi": "CA9.2",
+            "text": "Identificar i aplicar, de forma guiada, els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d'aprendre la llengua estrangera, amb suport d'altres participants i de suports analògics i digitals."
+          },
+          {
+            "codi": "CA9.3",
+            "text": "Identificar i explicar, de manera guiada, progressos i dificultats elementals d'aprenentatge de la llengua estrangera."
+          }
+        ],
+        "CM": [
+          {
+            "codi": "CA9.1",
+            "text": "Comparar i contrastar les similituds i diferències entre llengües, reflexionant, de manera guiada, sobre aspectes bàsics del seu funcionament."
+          },
+          {
+            "codi": "CA9.2",
+            "text": "Utilitzar i diferenciar, de forma guiada, els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d'aprendre la llengua estrangera, amb suport d'altres participants i de suports analògics i digitals."
+          },
+          {
+            "codi": "CA9.3",
+            "text": "Identificar, registrar i aplicar, de manera guiada, els progressos i dificultats elementals d'aprenentatge de la llengua estrangera, reconeixent els aspectes que ajuden a millorar i participant en activitats d'autoavaluació i coavaluació."
+          }
+        ],
+        "CS": [
+          {
+            "codi": "CA9.1",
+            "text": "Comparar i contrastar les similituds i diferències entre llengües, reflexionant, de manera progressivament autònoma, sobre aspectes bàsics del seu funcionament."
+          },
+          {
+            "codi": "CA9.2",
+            "text": "Utilitzar i diferenciar de forma progressivament autònoma els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d'aprendre la llengua estrangera, amb suport d'altres participants i de suports analògics i digitals."
+          },
+          {
+            "codi": "CA9.3",
+            "text": "Identificar, registrar i utilitzar, de manera guiada, els progressos i dificultats d'aprenentatge de la llengua estrangera, reconeixent els aspectes que ajuden a millorar i realitzant activitats d'autoavaluació i coavaluació."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE10",
+      "text": "Posar al servei de la convivència democràtica, la resolució dialogada dels conflictes i la igualtat de drets de totes les persones les pròpies pràctiques comunicatives, utilitzant un llenguatge no discriminatori i desterrant els abusos de poder a través de la paraula, per afavorir un ús eficaç, ètic i democràtic del llenguatge.",
+      "criteris_avaluacio": {
+        "CI": [
+          {
+            "codi": "CA10.1",
+            "text": "Rebutjar els usos lingüístics discriminatoris identificats a partir de la reflexió grupal acompanyada sobre els aspectes elementals, verbals i no verbals, que regeixen la comunicació, i tenint en compte la perspectiva de gènere."
+          },
+          {
+            "codi": "CA10.2",
+            "text": "Utilitzar, amb l'acompanyament i planificació necessaris, estratègies elementals per a l'escolta activa i el consens, iniciant-se en la gestió dialogada de conflictes."
+          }
+        ],
+        "CM": [
+          {
+            "codi": "CA10.1",
+            "text": "Rebutjar els usos lingüístics discriminatoris i identificar els abusos de poder a través de la paraula, mitjançant la reflexió grupal acompanyada sobre els aspectes bàsics, verbals i no verbals, que regeixen la comunicació, i tenint en compte la perspectiva de gènere."
+          },
+          {
+            "codi": "CA10.2",
+            "text": "Utilitzar, amb l'acompanyament i planificació necessaris, estratègies bàsiques per a la comunicació assertiva i el consens, progressant en la gestió dialogada de conflictes."
+          }
+        ],
+        "CS": [
+          {
+            "codi": "CA10.1",
+            "text": "Rebutjar els usos lingüístics discriminatoris i els abusos de poder a través de la paraula identificats mitjançant la reflexió grupal acompanyada sobre diferents aspectes, verbals i no verbals, que regeixen la comunicació, i tenint en compte la perspectiva de gènere."
+          },
+          {
+            "codi": "CA10.2",
+            "text": "Utilitzar, amb l'acompanyament i planificació necessaris, estratègies bàsiques per a la deliberació argumentada i la gestió dialogada de conflictes, proposant solucions creatives."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "CI": {
-      "comprensio": [
-        "Vocabulari bàsic d'alta freqüència en anglès: colors, números (1-20), dies de la setmana, mesos, estacions, animals, parts del cos, aliments, família, casa, classe",
-        "Comprensió d'instruccions de classe en anglès (sit down, stand up, open your book, listen, look)",
-        "Comprensió de salutacions i fórmules bàsiques de cortesia en anglès",
-        "Identificació del tema de textos orals i escrits molt breus amb suport visual",
-        "Estratègia de comprensió: ús del context visual i gestual per inferir significat",
-        "Reconeixement de sons i fonemes específics de l'anglès (th, sh, ch, ck)"
-      ],
-      "produccio": [
-        "Producció oral d'expressions formulaiques i memorizades en anglès: salutacions, presentació personal (name, age, favourite colour)",
-        "Reproducció de cançons, rimes i xants en anglès amb pronunciació i ritme",
-        "Escriptura de paraules i frases molt breus en anglès seguint models",
-        "Ortografia de paraules d'alta freqüència en anglès (sight words)",
-        "Pronunciació bàsica: sons vocàlics i consonàntics diferencials de l'anglès"
-      ],
-      "interaccio": [
-        "Rutines comunicatives de l'aula en anglès: salutació, comiat, demana de permís",
-        "Participació en jocs comunicatius en anglès: preguntes i respostes bàsiques",
-        "Ús de la llengua anglesa en activitats de role play senzilles",
-        "Estratègia de reparació bàsica: repetir, demanar que repeteixin (Can you repeat, please?)"
-      ],
-      "reflexio_linguistica": [
-        "Reconeixement de paraules internacionals comunes en anglès, català i castellà",
-        "L'alfabet anglès: reconeixement i pronunciació",
-        "Diferències fonètiques bàsiques entre l'anglès i el català/castellà",
-        "Actitud positiva i curiositat envers la llengua anglesa i la cultura angloparlant"
-      ],
-      "plurilinguisme": [
-        "Relació entre paraules en anglès i les seves equivalents en català i castellà",
-        "Consciència de la diversitat lingüística: reconeixement de diferents llengües del món",
-        "Valoració del repertori plurilingüe propi com a riquesa personal"
-      ]
-    },
-    "CM": {
-      "comprensio": [
-        "Vocabulari temàtic en anglès: rutines diàries, roba, temps meteorològic, esports, transport, vacances, professions, emocions, medi ambient",
-        "Comprensió de textos orals de durada moderada: narracions, descripcions, instruccions, diàlegs",
-        "Estratègies de comprensió oral: identificar les paraules clau, inferir el significat pel context, usar el coneixement del món",
-        "Comprensió de textos escrits: narració breu, text informatiu senzill, text instructiu, diàleg",
-        "Estratègies de comprensió lectora: skimming (lectura ràpida per al sentit global), scanning (cerca d'informació específica)",
-        "Textos multimodals en anglès: relació entre imatge i text",
-        "Lectura de textos literaris breus en anglès: contes, poemes, còmics adaptats"
-      ],
-      "produccio": [
-        "Producció oral sobre temes familiars: família, escola, hobbies, descripció de persones i llocs",
-        "Presentació oral breu en anglès amb suport visual",
-        "Pronunciació i entonació en anglès: sons dígrafs, accents tònics, reducció vocàlica",
-        "Escriptura de textos breus en anglès: descripció, narració senzilla, postal, missatge",
-        "Estructures gramaticals en producció: present simple, present continuous, past simple regular",
-        "Ortografia de l'anglès: paraules d'alta freqüència, patrons ortogràfics bàsics",
-        "Connectors bàsics en anglès: and, but, because, then, first, next, finally"
-      ],
-      "interaccio": [
-        "Participació en diàlegs i converses en anglès sobre temes quotidians",
-        "Interacció per a la realització de tasques col·laboratives en anglès",
-        "Estratègies de reparació: demanar aclariments (What do you mean? Can you explain?), reformular",
-        "Jocs de rol i simulacions en anglès sobre situacions quotidianes",
-        "Interacció digital en anglès: missatges senzills, participació en fòrums d'aprenentatge"
-      ],
-      "reflexio_linguistica": [
-        "Present simple: formes afirmativa, negativa i interrogativa; usos",
-        "Present continuous: formes i usos per a accions en curs",
-        "Past simple: verbs regulars i irregulars freqüents",
-        "Futur amb going to i will: usos bàsics",
-        "Adjectius en anglès: posició i grau comparatiu i superlatiu bàsic",
-        "Pronoms personals i possessius en anglès",
-        "Preposicions de lloc i de temps en anglès",
-        "Articles en anglès: a/an/the; usos bàsics i absència d'article",
-        "Quantificadors bàsics: some, any, much, many, a lot of",
-        "Formació de preguntes en anglès: auxiliars do/does/did/will"
-      ],
-      "plurilinguisme": [
-        "Comparació de sistemes gramaticals: l'anglès, el català i el castellà (similituds i diferències)",
-        "Transferències positives entre les llengües del repertori en la comprensió i producció en anglès",
-        "Reconeixement de falsos amics entre l'anglès i el català/castellà",
-        "Valoració de la competència en anglès per accedir a la cultura global",
-        "Coneixement d'aspectes culturals dels països angloparlants: festes, tradicions, gastronomia"
-      ]
-    },
-    "CS": {
-      "comprensio": [
-        "Vocabulari acadèmic i temàtic en anglès: medi ambient, societat, tecnologia, salut, drets humans, ciència",
-        "Comprensió de textos orals de complexitat moderada: conferències breus, reportatges, debats, entrevistes",
-        "Estratègies avançades de comprensió oral: presa de notes, identificació del punt de vista, avaluació de la fiabilitat",
-        "Comprensió de textos escrits de gèneres diversos: article, reportatge, conte, poema, text científic divulgatiu",
-        "Lectura crítica en anglès: identificació de la intenció, el biaix i els arguments",
-        "Estratègies avançades de comprensió lectora: inferència, síntesi, avaluació crítica",
-        "Textos literaris en anglès: novel·les juvenils adaptades, poesia, textos dramàtics"
-      ],
-      "produccio": [
-        "Producció oral de qualitat en anglès: exposicions, debats, presentacions, narracions",
-        "Pronunciació i entonació avançades en anglès: patrons d'accentuació, ritme, entonació",
-        "Producció escrita de tipologia diversa en anglès: argumentativa, expositiva, creativa, formal",
-        "Estructures gramaticals avançades: present perfect, condicionals (0, 1, 2), veu passiva, reported speech",
-        "Cohesió textual en anglès: connectors i marcadors del discurs variats",
-        "Revisió i edició de les pròpies produccions escrites en anglès",
-        "Producció en entorns digitals en anglès: blog, podcast, presentació, correu electrònic formal"
-      ],
-      "interaccio": [
-        "Interacció fluïda en anglès en tasques de col·laboració i comunicació real",
-        "Estratègies de mediació lingüística i intercultural en anglès",
-        "Debat i discussió en anglès: defensa de posicions, negociació, escolta activa",
-        "Interacció digital en anglès: participació en projectes col·laboratius internacionals (eTwinning, etc.)",
-        "Estratègies de reparació i compensació comunicativa avançades"
-      ],
-      "reflexio_linguistica": [
-        "Present perfect: formes i usos (experiència, resultat, durada)",
-        "Condicionals en anglès: zero, first i second conditional",
-        "La veu passiva en anglès: formes i usos",
-        "El reported speech (estil indirecte) en anglès: afirmació, pregunta, ordre",
-        "Modals en anglès: can, could, may, might, must, should, would — usos i significats",
-        "Oracions de relatiu en anglès: who, which, that, where",
-        "Connectors i marcadors del discurs en anglès: however, although, therefore, moreover, on the other hand",
-        "Lèxic: paraules derivades, compostos, frases fetes i expressions idiomàtiques freqüents",
-        "Comparació sistemàtica de la gramàtica de l'anglès amb el català i el castellà",
-        "L'anglès com a lingua franca: varietats i norma; anglès britànic i americà"
-      ],
-      "plurilinguisme": [
-        "Anàlisi contrastiva entre l'anglès i les altres llengües del repertori: fonologia, morfologia i sintaxi",
-        "Transferència de coneixements entre les llengües per millorar la competència en anglès",
-        "Dimensió intercultural: estereotips, tòpics i diversitat cultural al món angloparlant",
-        "L'anglès en el món digital i de la ciència: accés a recursos, comunitats i coneixement global",
-        "Consciència plurilingüe: valoració del propi repertori i motivació per a l'aprenentatge de noves llengües"
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, les persones docents poden valorar la possibilitat d'organitzar els sabers de l'àrea o de les diferents àrees coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, àrea o àmbit a partir d'una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l'enfocament competencial dels aprenentatges. Això modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer cicle Les llengües i els seus parlants - Presa de consciència de la diversitat lingüística per mitjà de la biografia lingüística personal i el mapa lingüístic de l'aula, treballats amb acompanyament. - Ús d'un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana. - Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic per superar mancances comunicatives amb acompanyament. - Reconeixement d'aspectes socioculturals i sociolingüístics elementals i més significatius relatius als costums, la vida quotidiana i les manifestacions culturals i artístiques en països on es parla la llengua estrangera. Comunicació oral - Ús de la llengua estrangera a l'aula amb autoconfiança progressiva. - Comprensió de textos orals de tipologia diversa en diferents formats i mitjans. - Identificació de la incidència dels components (situació, participants o intenció) en l'acte comunicatiu en diferents situacions comunicatives de l'aula. - Aplicació d'estratègies lingüístiques elementals amb acompanyament, en contextos propers, per dotar textos breus i senzills d'adequació, coherència, cohesió i correcció. - Identificació d'elements bàsics de contingut (tema, fórmules fixes, lèxic) i forma (estructura, format, imatges) en les produccions orals. - Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d'aula. - Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals, de forma progressivament autònoma. - Interacció oral adequada en situacions d'aula. Reconeixement i utilització d'estratègies bàsiques de cortesia lingüística. - Aplicació d'estratègies d'escolta activa en la resolució dialogada dels conflictes, tenint en compte la perspectiva de gènere. - Ús d'eines analògiques i digitals elementals per a la producció oral i multimodal, en el marc de les situacions d'aprenentatge i amb acompanyament. Comprensió lectora - Lectura individual i silenciosa, amb fluïdesa adequada al nivell cognitiu, de textos de l'aula i del seu entorn. - Lectura en veu alta amb entonació i ritme progressivament adequats al nivell cognitiu, amb preparació prèvia. - Ús d'elements gràfics i paratextuals bàsics que afavoreixen la comprensió abans, durant i després de l'experiència lectora, en textos propers, de la vida quotidiana, de mitjans de comunicació i escolars. - Aplicació d'estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en textos diversos i amb acompanyament. - Detecció d'usos clarament discriminatoris del llenguatge verbal i icònic, de forma guiada, en contextos quotidians i mitjans de comunicació. Expressió escrita - Comprensió i ús de convencions del codi escrit en el marc de les propostes de comprensió o producció de textos d'ús escolar i social. - Producció de textos propers o viscuts, de tipologia diversa, dirigits a diferents destinataris, amb acompanyament i una intenció concreta. - Aplicació d'estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals propers a la seva experiència personal, en diferents suports, amb diferents propòsits i de forma acompanyada. - Utilització d'elements gràfics i paratextuals adequats al suport, de forma acompanyada, que facilitin l'organització i la comprensió del text produït a l'aula. - Cura en la presentació de les produccions escrites en qualsevol suport. Alfabetització informacional - Aplicació d'estratègies bàsiques per a la recerca guiada d'informació senzilla en fonts documentals variades i amb diferents suports i formats, reconeixent l'autoria. - Aplicació d'estratègies bàsiques que permetin comparar informació de diferents fonts, reelaborar-la i comunicar-la en situacions properes, amb acompanyament. - Comunicació creativa del coneixement, de forma acompanyada, amb respecte a la propietat intel·lectual. - Utilització de la biblioteca i dels recursos digitals de l'aula i del centre, amb guiatge, per dur a terme treballs d'investigació. Educació literària - Lectura d'obres o fragments variats i diversos de la literatura infantil adequats als propis interessos i organitzats en itineraris lectors. - Comprensió dels elements constitutius essencials de l'obra literària (tema, personatges, trama, escenari) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d'obres de qualitat. - Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals amb acompanyament. - Inici de la construcció de la identitat lectora, afavorint l'expressió de gustos i interessos, per mitjà de la lectura autònoma i la lectura compartida i guiada. - Ús de la biblioteca de l'aula, del centre i de l'entorn proper com a espai de trobada d'activitats literàries compartides i com a element impulsor de comunitats lectores. - Reconeixement de les dades bàsiques d'un llibre (persones autores, il·lustradores, editorial, col·lecció) en el context de les lectures d'aula i de la biblioteca, amb acompanyament. - Escriptura de textos literaris senzills (rodolins, endevinalles, contes…) a partir de models coneguts i analitzats, amb acompanyament. - Exploració de les il·lustracions i de la relació que s'estableix amb el text en els àlbums il·lustrats, amb acompanyament. Reflexió sobre la llengua - Utilització de metallenguatge específic bàsic en el marc de propostes de producció i comprensió de textos orals, escrits o multimodals. - Diferències elementals entre llengua oral i llengua escrita en l'ús quotidià. - Discriminació fonètica de sons, síl·labes i accents i correspondència entre els sons i les grafies en la lectura i en les diferents produccions escrites, tenint en compte les diferents etapes del procés evolutiu de la lectura i l'escriptura. - Formulació i comprovació d'hipòtesis (substitució, canvi d'ordre, manipulació) i establiment de generalitzacions sobre aspectes lingüístics elementals, aplicació de l'ortografia de base i de les normes ortogràfiques més senzilles i d'ús més freqüent, prestant especial atenció a la concordança en l'escriptura de paraules d'ús habitual a la classe, en els aprenentatges i en els textos propis. - Ús de signes bàsics de puntuació com a mecanisme organitzador del text escrit. - Comprensió i ús de les modalitats oracionals en relació amb la intenció comunicativa. - Comprensió i ús de mecanismes bàsics de cohesió textual, amb especial atenció als connectors temporals i explicatius a partir de la reflexió compartida sobre les produccions escrites. Segon cicle Les llengües i els seus parlant"
     }
-  },
-  "blocs_sabers": [
-    "comprensio",
-    "produccio",
-    "interaccio",
-    "reflexio_linguistica",
-    "plurilinguisme"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 300,
+    "fragments_no_trobats": 475,
+    "pct_verificat": 38.7,
+    "errors_mostra": [
+      "  CI CA1.1: «participar amb respecte en la comunicació»",
+      "  CI CA1.1: «en la comunicació intercultural, identificant i»",
+      "  CI CA1.1: «intercultural, identificant i analitzant, de forma»",
+      "  CI CA1.1: «analitzant, de forma guiada, les discriminacions,»",
+      "  CI CA1.1: «guiada, les discriminacions, els prejudicis i»"
+    ]
+  }
 }

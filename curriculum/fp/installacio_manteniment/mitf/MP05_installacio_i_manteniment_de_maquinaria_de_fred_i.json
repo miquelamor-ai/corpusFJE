@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MITF",
+    "titol_cicle": "Manteniment d'Instal·lacions Tèrmiques i de Fluids",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/57/2017, de 31 de març, per la qual s'estableix el currículum del cicle formatiu de grau mitjà de manteniment i control de la maquinària de vaixells i embarcacions.",
+    "data_decret": "2017-03-31",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "instal·lació i manteniment de maquinària de fred i climatització en vaixells i embarcacions",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "muntatge i operació d'equips frigorífics en vaixells",
+        "hores": 95,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza operacions de muntatge d'equips en instal·lacions frigorífiques i sistemes de climatització, seleccionant els mitjans necessaris i associant les característiques tècniques dels components amb la seva funció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Enumera les diferents parts o elements que componen les instal·lacions de fred i de climatització descrivint la funció que realitzen cadascun, i relacionant-los amb el cicle termodinàmic (p-h) corresponent."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix el volum i la potència de la maquinària que s'ha d'utilitzar a la instal·lació, segons el balanç tèrmic calculat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Defineix la disposició dels diferents elements de les instal·lacions frigorífiques i els sistemes de climatització del vaixell, analitzant la documentació tècnica i tenint en compte criteris de seguretat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Elabora esquemes de connexió de canonades, atenent el tipus de fluid i els procediments establerts."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza la preparació de la maquinària per a l'arrencada, efectuant les operacions de buit i estanquitat, comprovant els paràmetres establerts.1.6 Determina els valors dels paràmetres (intensitat/voltatge) en els circuits elèctrics que intervenen en el funcionament dels equips, atenent a especificacions tècniques i plànols.1.7 Efectua la comprovació i l'ajust de la vàlvula de seguretat contra sobrepressions i els elements de regulació i control, valorant plànols i especificacions tècniques.1.8 Efectua l'operació de càrrega de refrigerant en la instal·lació frigorífica o sistema de climatització, comprovant els nivells de cabal en el sistema d'alta pressió.1.10 Identifica els diferents sistemes de la instal·lació corresponent, els equips i elements que la configuren, interpretant la documentació tècnica.1.11 Relaciona els components reals de la instal·lació amb les seves representacions i símbols utilitzats en els plànols.1.12 Explica el funcionament de cada instal·lació.1.13 Classifica els diferents tipus de compressors frigorífics utilitzats en els sistemes de refrigeració, explicant les característiques mecàniques i tèrmiques, i en descriu les parts que els constitueixen i la funció que realitzen."
+              },
+              {
+                "codi": "CA112",
+                "text": "Descriu les característiques dels olis utilitzats en la lubricació de compressors frigorífics.1.13 Identifica la funció del condensador en el sistema de refrigeració, els paràmetres que el caracteritzen i les característiques constructives.1.14 Estableix els mètodes de regulació de la pressió de condensació.1.15 Determina la funció de l'evaporador en el sistema frigorífic, els paràmetres que el defineixen i les seves característiques constructives, classificant-los segons els tipus.1.16 Explica els dispositius utilitzats per a l'alimentació de fluid frigorífic en els evaporadors.1.17 Explica els procediments de desglaç dels evaporadors.1.18 Descriu el sistema de regulació i control emprat, explicant les variacions que es produeixen en els paràmetres de la instal·lació quan es modifiquen els elements que la integren. 2. Efectua, a un simulador, planta frigorífica o instal·lació, operacions de posada en marxa, control de funcionament i parada de la instal·lació frigorífica i del sistema de climatització, identificant les variables de funcionament i avaluant la seva influència en el rendiment de la instal·lació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge d'equips en instal·lacions frigorífiques i sistemes de climatització",
+                "items": [
+                  "Normes europees sobre gasos fluorats d'efecte hivernacle.",
+                  "Interpretació de la documentació tècnica. Plànols. Normativa.",
+                  "Interpretació de les taules termodinàmiques: Aïllaments. Humitat i aire.",
+                  "Maneig i interpretació de catàlegs tècnics dels equips que constitueixen les instal·lacions frigorífiques.",
+                  "Compressors frigorífics. Desplaçament positiu.",
+                  "Condensadors. Coeficient de transmissió de calor. Condensadors de calor sensible: d'aire i aigua.",
+                  "Evaporadors. Coeficient de transmissió de calor. Segons la seva utilització. Banys de salmorres. Desglaç de l'evaporador.",
+                  "Elements de control de l'expansió del refrigerant. Vàlvules d'expansió: termostàtica, automàtica i electrònica.",
+                  "Elements de control de pressió i temperatura: pressòstats i termòstats.",
+                  "Elements de regulació: vàlvules reguladores i solenoides.1.11 Elements de seguretat contra sobrepressió: vàlvula de seguretat.1.12 Elements accessoris per obtenir millor rendiment. Separadors d'oli. Filtre assecador. Visor de líquid i gas.1.13 Túnels de congelació (congelació ultraràpida). Temperatures de treball. Túnels: constitució.1.14 Bombes de calor: tipus i característiques. Vàlvules de quatre vies. Bomba d'aigua-aire. Bomba d'aire-aire.1.15 Automatismes en equips frigorífics.1.16 Conceptes bàsics de fred i cicles frigorífics. Temperatura. Pressió. Treball, potència, energia. Calor. Llei dels gasos ideals. 2. Operacions de posada en marxa, control i parada de la instal·lació frigorífica i del sistema de climatització:2.1 Verificació dels retenidors i segellats en la transmissió del compressor.2.2 Identificació de l'estat de les vàlvules del circuit: connexió elèctrica.2.3 Comprovació de l'operativitat del compressor.2.4 Comprovació a l'evaporador dels sistemes de desglaç o conductes de desguàs de l'aigua condensada (aire humit).",
+                  "Comprovació en el sistema de climatització de la funcionalitat de la vàlvula de quatre vies (bomba de calor).2.6 Comprovació i calibratge dels pressòstats de control i regulació.2.7 Comprovació dels elements de seguretat contra les sobrepressions: vàlvula de seguretat.2.8 Control de les humitats en el circuit interior.2.9 Manipulació de gasos fluorats d'efecte hivernacle.2.10 Precaucions amb equips que utilitzin gasos fluorats d'efecte hivernacle.2.11 Estat del gas i líquid del refrigerant: nivells.2.12 Comprovació del dispositiu de parada.2.13 Traçat del cicle termodinàmic sobre el diagrama p-h corresponent.2.14 Traçat del cicle de condicionament d'aire sobre el diagrama psicromètric. 3. Prevenció de riscos laborals i mediambientals:3.1 Normativa d'aplicació de riscos laborals durant les operacions de reparació i manteniment.3.2 Àrees pressuritzades.3.3 Mesures d'aplicació de seguretat en el trasllat de refrigerant i oli.3.4 Normativa aplicada a transports frigorífics.",
+                  "Normes per a la protecció individual i col·lectiva.",
+                  "Mesures de protecció en àrees elèctriques.",
+                  "Mesures de seguretat en zones de treball en embarcacions esportives i d'esbarjo.",
+                  "Mesures d'higiene i neteja en el treball.",
+                  "Elaboració d'informes d'accidents."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "manteniment d'equips i instal·lacions frigorífiques en vaixells",
+        "hores": 70,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Localitza i repara fallades i avaries dels equips i elements que componen una instal·lació frigorífica i un sistema de climatització, valorant paràmetres de funcionament i aplicant procediments segons especificacions tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Estableix el procés per a la realització del manteniment correctiu en els seus diferents elements i aparells, verificant-ne el funcionament correcte."
+              },
+              {
+                "codi": "CA12",
+                "text": "Localitza la fallada en el sistema, utilitzant documentació tècnica, seguint la seqüència de localització i els mitjans d'alarma o mesurament segons el protocol establert."
+              },
+              {
+                "codi": "CA13",
+                "text": "Localitza la fallada o avaria segons la zona de treball (alta o baixa pressió i elements accessoris), mitjançant comprovacions sensorials (alarmes, gebres i núvols de gas, entre d'altres) o d'aparells de mesurament (manòmetres, termòmetres i detector de fuita de gasos, entre d'altres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Efectua l'aïllament i la separació de la màquina o lloc d'avaria de la instal·lació, operant les vàlvules segons la zona de treball.1.5 Duu a terme el desmuntatge i muntatge de l'aparell o element afectat, segons la seqüència establerta i utilitzant els estris i eines amb precisió i seguretat.1.6 Duu a terme la reparació o substitució de l'element avariat, valorant el temps de parada i complint amb les normes de seguretat.1.7 Duu a terme l'arrencada del sistema, verificant els paràmetres de funcionament dels aparells o elements reparats o substituïts.1.8 Emplena la fitxa de seguiment d'avaria, segons l'element o la màquina, detallant la causa, el remei aplicat i el temps emprat. 2. Fa el manteniment preventiu de la instal·lació frigorífica i del sistema de climatització, valorant la normativa de seguretat i medi ambient i seguint els protocols establerts. Criteris d'avaluació2.1 Programa el manteniment preventiu d'elements i aparells que constitueixen la instal·lació, tenint en compte la documentació tècnica i els temps de reparació necessaris."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Localització i reparació de fallades i avaries dels equips i elements de la instal·lació frigorífica i de climatització",
+                "items": [
+                  "Interpretació de paràmetres continguts en la documentació tècnica.",
+                  "Protocols de localització de fallades i avaries.",
+                  "Temperatura de l'evaporador.",
+                  "Temperatura de la cambra o espai refrigerant.",
+                  "Temperatura de les línies d'aspiració i líquid.",
+                  "Soroll.",
+                  "Vàlvula de quatre vies.",
+                  "Muntatge i desmuntatge de compressors.",
+                  "Muntatge de condensadors i evaporadors.",
+                  "Muntatge i desmuntatge de vàlvules de regulació.",
+                  "Sistemes de desglaç.",
+                  "Tractament dels gasos fluorats d'efecte hivernacle. Recuperació. Detecció i reparació de fuites.",
+                  "Aparells de mesurament en els seus diferents suports.",
+                  "Elaboració de l'informe amb fitxa tècnica de l'avaria: causes i remeis.1.15 Elaboració de l'informe sobre l'estat de la instal·lació en funcionament després de la reparació.1.16 Procediments de desmuntatge, reparació i muntatge dels equips, atenent a la documentació tècnica i utilització d'aparells de mesura i calibratge.1.17 Procediments de calibratge i controls de tolerància. 2. Manteniment preventiu de la instal·lació frigorífica i del sistema de climatització:2.1 Dades rellevants dels equips.2.2 Programació del manteniment. Instal·lació frigorífica. Sistema de climatització.2.3 Procediments de manteniment de preventiu. Instal·lació frigorífica. Sistema de climatització.2.4 Elaboració de llibres de registre.2.5 Control i emmagatzematge de peces de respecte.2.6 Control i emmagatzematge d'estris i eines. 3. Prevenció de riscos laborals i mediambientals:3.1 Normativa d'aplicació de riscos laborals durant les operacions de reparació i manteniment.3.2 Àrees pressuritzades.",
+                  "Mesures d'aplicació de seguretat en el trasllat de refrigerant i oli.",
+                  "Normativa aplicada a transports frigorífics.",
+                  "Normes per a la protecció individual i col·lectiva.",
+                  "Mesures de protecció en àrees elèctriques.",
+                  "Mesures de seguretat en zones de treball en embarcacions esportives i d'esbarjo.",
+                  "Mesures d'higiene i neteja en el treball.",
+                  "Elaboració d'informes d'accidents."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

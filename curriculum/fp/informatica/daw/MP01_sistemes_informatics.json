@@ -3,89 +3,138 @@
     "familia": "fp",
     "cicle_formatiu": "DAW",
     "titol_cicle": "Desenvolupament d'Aplicacions Web",
-    "familia_professional": "Informàtica i Comunicacions",
     "grau": "superior",
-    "rd_titol": "RD 686/2010",
-    "resolucio_cat": "Resolució ENS/2243/2013",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2010/06/04/pdfs/BOE-A-2010-8881.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul de Sistemes Informàtics en el DAW proporciona la base d’infraestructura necessaria per al desplegament d’aplicacions web, amb especial atenció a l’entorn servidor Linux. Desenvolupa competències d’administració de sistemes orientades a l’operació de servidors web. S’aplica en rols de webmaster, administrador de sistemes web, tècnic de suport TI i programador web amb capacitat de gestionar el seu propi servidor.\n\nEls continguts abasten l’arquitectura de maquinari per a servidors (CPU, RAM, SSD NVMe, interfícies de xarxa), sistemes operatius Linux per a servidor (Ubuntu Server, Debian), gestió d’usuaris i grups, permisos Unix (chmod, chown, ACL), systemd per a la gestió de serveis, scripting Bash per a l’automatització, accés remot segur amb SSH (desactivació de root, autenticació per clau pública/privada), tallafoc amb ufw i iptables, transferència de fitxers amb SCP i SFTP, virtualització amb hipervisors i contenidors Docker i Docker Compose per al desplegament de serveis web.\n\nLes pràctiques es realitzen en laboratori amb màquines virtuals Linux, reproduint l’administració real d’un servidor web. L’alumnat instal·la i configura sistemes des de zero, configura serveis i accés remot, i desplega aplicacions web en contenidors Docker, simulant el treball d’un sysadmin o DevOps junior en una empresa de serveis web."
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "MP01",
-    "nom": "Sistemes Informàtics",
-    "hores_totals": 165,
+    "nom": "sistemes informàtics",
+    "hores_totals": 198,
     "uf": [
       {
         "codi": "UF1",
-        "nom": "Arquitectura i maquinari",
-        "hores": 66,
+        "nom": "instal·lació, configuració i explotació del sistema informàtic",
+        "hores": 60,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Avalua sistemes informàtics identificant els seus components i les seves característiques.",
+            "text": "Instal·la sistemes operatius, analitzant les seves característiques i interpretant la documentació tècnica.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'han identificat els components físics d'un sistema informàtic i les seves funcions.",
-                "pes_percentual": 15
+                "codi": "CA11",
+                "text": "Identifica els elements funcionals d’un sistema informàtic i els seus mecanismes d’interconnexió."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han classificat els tipus de memòria i les seves característiques (RAM, ROM, cau).",
-                "pes_percentual": 15
+                "codi": "CA12",
+                "text": "Identifica les característiques, les funcions i l’arquitectura d’un sistema operatiu."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'han descrit les arquitectures de processadors actuals i les seves implicacions per al rendiment.",
-                "pes_percentual": 15
+                "codi": "CA13",
+                "text": "Compara diferents sistemes operatius, les seves versions i llicències d’ús, en funció dels seus requisits, característiques i camps d’aplicació."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'han analitzat els sistemes d'emmagatzematge (HDD, SSD, NVMe) i la seva adequació a servidors web.",
-                "pes_percentual": 15
+                "codi": "CA14",
+                "text": "Realitza instal·lacions de diferents sistemes operatius."
               },
               {
-                "codi": "CA1.5",
-                "text": "S'han identificat les interfícies de xarxa i els dispositius de connectivitat rellevants.",
-                "pes_percentual": 20
+                "codi": "CA15",
+                "text": "Preveu i aplica tècniques d’actualització i rescats."
               },
               {
-                "codi": "CA1.6",
-                "text": "S'ha valorat la relació cost-rendiment de diferents configuracions de maquinari per a servidors.",
-                "pes_percentual": 20
+                "codi": "CA16",
+                "text": "Soluciona incidències del sistema i del procés d’inici."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza eines per conèixer el programari instal·lat en el sistema i el seu origen."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora documentació de suport relativa a les instal·lacions efectuades i les incidències detectades."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Instal·la sistemes operatius planificant el procés i interpretant documentació tècnica.",
+            "text": "Configura el programari de base, atenent les necessitats d’explotació del sistema informàtic.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'ha planificat la partició del disc i el sistema de fitxers adequat per a un servidor web.",
-                "pes_percentual": 20
+                "codi": "CA21",
+                "text": "Planifica, crea i configura comptes d’usuari, grups, perfils i polítiques de contrasenyes locals."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'ha realitzat la instal·lació d'un sistema operatiu seguint les millors pràctiques de seguretat.",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Assegura l’accés al sistema mitjançant l’ús de directives de compte i directives de contrasenyes."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'han configurat els paràmetres bàsics del sistema (xarxa, usuaris, permisos).",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Actua sobre els serveis i els processos en funció de les necessitats del sistema."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'ha verificat el correcte funcionament del sistema després de la instal·lació.",
-                "pes_percentual": 15
+                "codi": "CA24",
+                "text": "Instal·la, configura i verifica protocols de xarxa."
               },
               {
-                "codi": "CA2.5",
-                "text": "S'ha documentat el procés d'instal·lació i la configuració resultant.",
-                "pes_percentual": 15
+                "codi": "CA25",
+                "text": "Analitza i configura els diferents mètodes de resolució de noms."
+              },
+              {
+                "codi": "CA26",
+                "text": "Optimitza l’ús dels sistemes operatius per a sistemes portàtils."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza màquines virtuals per realitzar tasques de configuració de sistemes operatius i analitzar els seus resultats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta les tasques de configuració del programari de base."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de programari lliure i propietari",
+                "items": [
+                  "Estructura i components d’un sistema informàtic. Perifèrics i adaptadors per a la connexió de dispositius. Tipus de xarxes, cablatge i connectors.",
+                  "Mapa físic i lògic d’una xarxa.",
+                  "Arquitectura d’un sistema operatiu.",
+                  "Funcions d’un sistema operatiu.",
+                  "Tipus de sistemes operatius.",
+                  "Tipus d’aplicacions.",
+                  "Llicències i tipus de llicències.",
+                  "Gestors d’arrencada.",
+                  "Consideracions prèvies a la instal·lació de sistemes operatius lliures i propietaris.",
+                  "Instal·lació de sistemes operatius. Requisits, versions i llicències.",
+                  "Instal·lació/desinstal·lació d’aplicacions. Requisits, versions i llicències.",
+                  "Actualització de sistemes operatius i aplicacions.",
+                  "Fitxers d’inici de sistemes operatius.",
+                  "Registre del sistema.",
+                  "Actualització i manteniment de controladors de dispositius."
+                ]
+              },
+              {
+                "bloc": "Administració de programari de base",
+                "items": [
+                  "Administració d’usuaris i grups locals.",
+                  "Usuaris i grups predeterminats.",
+                  "Seguretat de comptes d’usuari.",
+                  "Seguretat de contrasenyes.",
+                  "Administració de perfils locals d’usuari.",
+                  "Configuració del protocol TCP/IP en un client de xarxa. Direccions IP. Màscares de subxarxa.",
+                  "Configuració de la resolució de noms.",
+                  "Fitxers de configuració de xarxa.",
+                  "Optimització de sistemes per a ordinadors portàtils. Arxius de xarxa sense connexió."
+                ]
               }
             ]
           }
@@ -93,89 +142,199 @@
       },
       {
         "codi": "UF2",
-        "nom": "Sistemes operatius Linux per a servidors web",
-        "hores": 99,
+        "nom": "gestió de la informació i de recursos en una xarxa",
+        "hores": 80,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Administra el sistema operatiu Linux en entorns de servidor web gestionant usuaris, permisos i processos.",
+            "text": "Assegura la informació del sistema.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'han creat i gestionat usuaris i grups seguint criteris de seguretat.",
-                "pes_percentual": 15
+                "codi": "CA11",
+                "text": "Compara diversos sistemes de fitxers i analitza les diferències i els avantatges d’implementació."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han configurat els permisos de fitxers i directoris (chmod, chown, ACL).",
-                "pes_percentual": 20
+                "codi": "CA12",
+                "text": "Descriu l’estructura de directoris del sistema operatiu."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'han monitoritzat i gestionat processos del sistema (ps, top, htop, systemctl).",
-                "pes_percentual": 20
+                "codi": "CA13",
+                "text": "Identifica els directoris contenidors dels fitxers de configuració del sistema (binaris, ordres i llibreries)."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'han configurat i gestionat serveis del sistema amb systemd.",
-                "pes_percentual": 20
-              },
-              {
-                "codi": "CA1.5",
-                "text": "S'han escrit scripts de shell per automatitzar tasques d'administració.",
-                "pes_percentual": 25
+                "codi": "CA14",
+                "text": "Utilitza eines d’administració de discs per crear particions, unitats lògiques, volums simples i volums distribuïts."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Configura l'accés remot segur a servidors Linux mitjançant SSH i altres protocols.",
+            "text": "Centralitza la informació en servidors administrant estructures de dominis i analitzant els seus avantatges.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'ha configurat el servidor SSH amb paràmetres segurs (desactivació root, claus públiques).",
-                "pes_percentual": 30
+                "codi": "CA21",
+                "text": "Implementa dominis."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'han generat i gestionat parells de claus SSH per a l'autenticació sense contrasenya.",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Administra comptes d’usuari i comptes d’equip."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'ha configurat el tallafoc (ufw/iptables) per restringir l'accés al servidor.",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Centralitza la informació personal dels usuaris del domini mitjançant l’ús de perfils mòbils i carpetes personals."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'ha utilitzat la transferència segura de fitxers (SCP, SFTP).",
-                "pes_percentual": 20
+                "codi": "CA24",
+                "text": "Crea i administra grups de seguretat."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea plantilles que facilitin l’administració d’usuaris amb característiques similars."
+              },
+              {
+                "codi": "CA26",
+                "text": "Organitza els objectes del domini per facilitar la seva administració."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza màquines virtuals per administrar dominis i verificar el seu funcionament."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta l’estructura del domini i les tasques realitzades."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA3",
-            "text": "Implementa entorns virtualitzats i contenidors Docker per al desenvolupament i desplegament d'aplicacions web.",
+            "text": "Administra l’accés a dominis analitzant i respectant requeriments de seguretat.",
             "criteris_avaluacio": [
               {
-                "codi": "CA3.1",
-                "text": "S'han creat i gestionat màquines virtuals amb hipervisors tipus 1 i tipus 2.",
-                "pes_percentual": 20
+                "codi": "CA31",
+                "text": "Incorpora equips al domini."
               },
               {
-                "codi": "CA3.2",
-                "text": "S'han creat imatges Docker personalitzades a partir de Dockerfiles.",
-                "pes_percentual": 25
+                "codi": "CA32",
+                "text": "Preveu bloquejos d’accessos no autoritzats al domini."
               },
               {
-                "codi": "CA3.3",
-                "text": "S'han desplegat aplicacions web en contenidors Docker gestionant ports i volums.",
-                "pes_percentual": 25
+                "codi": "CA33",
+                "text": "Administra l’accés a recursos locals i recursos de xarxa."
               },
               {
-                "codi": "CA3.4",
-                "text": "S'han definit entorns multi-contenidor amb Docker Compose.",
-                "pes_percentual": 30
+                "codi": "CA34",
+                "text": "Implementa i verifica directives de grup."
+              },
+              {
+                "codi": "CA35",
+                "text": "Assigna directives de grup."
+              },
+              {
+                "codi": "CA36",
+                "text": "Documenta les tasques i les incidències."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Administració de la informació",
+                "items": [
+                  "Sistemes d’arxius.",
+                  "Gestió de sistemes de fitxers mitjançant comandaments i entorns gràfics.",
+                  "Gestió d’enllaços.",
+                  "Estructura de directoris de sistemes operatius lliures i propietaris.",
+                  "Cerca d’informació del sistema mitjançant comandaments i eines gràfiques.",
+                  "Identificació del programari instal·lat mitjançant comandaments i eines gràfiques.",
+                  "Gestió de la informació del sistema. Rendiment. Estadístiques.",
+                  "Muntatge i desmuntatge de dispositius en sistemes operatius.",
+                  "Automatització.",
+                  "Eines d’administració de discos. Particions i volums. Desfragmentació i revisió."
+                ]
+              },
+              {
+                "bloc": "Administració de dominis",
+                "items": [
+                  "Estructura client-servidor.",
+                  "Protocol LDAP.",
+                  "Concepte de domini. Subdominis. Requisits necessaris per muntar un domini.",
+                  "Administració de comptes. Comptes predeterminats.",
+                  "Contrasenyes. Bloquejos de compte.",
+                  "Comptes d’usuaris i d’equips.",
+                  "Perfils mòbils i obligatoris.",
+                  "Carpetes personals.",
+                  "Plantilles d’usuari. Variables d’entorn.",
+                  "Administració de grups. Tipus. Estratègies d’imbricació. Grups predeterminats."
+                ]
+              },
+              {
+                "bloc": "Administració de l’accés al domini",
+                "items": [
+                  "Equips del domini.",
+                  "Permisos i drets.",
+                  "Administració de l’accés a recursos. SAMBA. NFS.",
+                  "Permisos de xarxa. Permisos locals. Herència. Permisos efectius.",
+                  "Delegació de permisos.",
+                  "Llistes de control d’accés.",
+                  "Directives de grup. Drets d’usuaris. Directives de seguretat. Objectes de directiva. Àmbit de les directives. Plantilles."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "implantació de programari específic",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta programari específic amb estructura client/servidor donant resposta als requisits funcionals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Instal·la programari específic segons la documentació tècnica. Eines ofimàtiques, d’internet i utilitats de propòsit general."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza instal·lacions desateses."
+              },
+              {
+                "codi": "CA13",
+                "text": "Configura i utilitza un servidor d’actualitzacions."
+              },
+              {
+                "codi": "CA14",
+                "text": "Segueix els protocols d’actuació per resoldre incidències documentant les tasques realitzades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Planifica protocols d’actuació per resoldre incidències."
+              },
+              {
+                "codi": "CA16",
+                "text": "Dóna assistència tècnica a través de la xarxa documentant les incidències."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora guies visuals i manuals per instruir en l’ús de sistemes operatius o aplicacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Resolució d’incidències i assistència tècnica",
+                "items": [
+                  "Interpretació, anàlisi i elaboració de documentació tècnica.",
+                  "Interpretació, anàlisi i elaboració de manuals d’instal·lació i configuració de sistemes operatius i aplicacions.",
+                  "Llicències de client i llicències de servidor.",
+                  "Instal·lacions desateses.",
+                  "Implementació de fitxers de respostes.",
+                  "Servidors d’actualitzacions automàtiques.",
+                  "Parts d’incidències.",
+                  "Protocols d’actuació.",
+                  "Administració remota."
+                ]
               }
             ]
           }

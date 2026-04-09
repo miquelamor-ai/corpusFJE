@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "accés a dades",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "persistència en fitxers",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions que gestionen informació emmagatzemada en fitxers identificant el camp d’aplicació dels fitxers i utilitzant classes específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Utilitza classes per gestionar fitxers i directoris."
+              },
+              {
+                "codi": "CA12",
+                "text": "Valora els avantatges i els inconvenients de les diferents formes d’accés."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza classes per recuperar informació emmagatzemada en un fitxer XML."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza classes per emmagatzemar informació en un fitxer XML."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza classes per convertir a un altre format informació continguda en un fitxer XML."
+              },
+              {
+                "codi": "CA16",
+                "text": "Preveu i gestiona les excepcions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Prova i documenta les aplicacions desenvolupades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió de fitxers",
+                "items": [
+                  "Classes associades a les operacions de gestió de fitxers i directoris: creació, esborrament, còpia, moviment, entre altres.",
+                  "Formes d’accés a un fitxer.",
+                  "Classes per a gestió de fluxos de dades des de/cap a fitxers.",
+                  "Treball amb fitxers XML: analitzadors sintàctics (parser) i vinculació (binding).",
+                  "Excepcions: detecció i tractament."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "persistència en BDR-BDOR-BDOO",
+        "hores": 27,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions que gestionen informació emmagatzemada en bases de dades relacionals identificant i utilitzant mecanismes de connexió.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Valora els avantatges i inconvenients d’utilitzar connectors."
+              },
+              {
+                "codi": "CA12",
+                "text": "Utilitza gestors de bases de dades incrustats i independents."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza el connector idoni en l’aplicació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Estableix la connexió."
+              },
+              {
+                "codi": "CA15",
+                "text": "Defineix l’estructura de la base de dades."
+              },
+              {
+                "codi": "CA16",
+                "text": "Desenvolupa aplicacions que modifiquen el contingut de la base de dades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Defineix els objectes destinats a emmagatzemar el resultat de les consultes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Desenvolupa aplicacions que fan consultes."
+              },
+              {
+                "codi": "CA19",
+                "text": "Elimina els objectes un cop finalitzada la seva funció."
+              },
+              {
+                "codi": "CA110",
+                "text": "Gestiona les transaccions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona la persistència de les dades identificant eines de mapatge objecte-relacional (ORM) i desenvolupant aplicacions que les utilitzen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Instal·la l’eina ORM."
+              },
+              {
+                "codi": "CA22",
+                "text": "Configura l’eina ORM."
+              },
+              {
+                "codi": "CA23",
+                "text": "Defineix els fitxers de mapatge."
+              },
+              {
+                "codi": "CA24",
+                "text": "Aplica mecanismes de persistència als objectes."
+              },
+              {
+                "codi": "CA25",
+                "text": "Desenvolupa aplicacions que modifiquen i recuperen objectes persistents."
+              },
+              {
+                "codi": "CA26",
+                "text": "Desenvolupa aplicacions que realitzen consultes utilitzant el llenguatge SQL."
+              },
+              {
+                "codi": "CA27",
+                "text": "Gestiona les transaccions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Desenvolupa aplicacions que gestionen la informació emmagatzemada en bases de dades objecte-relacionals i orientades a objectes valorant-ne les característiques i utilitzant els mecanismes d’accés incorporats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els avantatges i inconvenients de les bases de dades que emmagatzemen objectes."
+              },
+              {
+                "codi": "CA32",
+                "text": "Estableix i tanca connexions."
+              },
+              {
+                "codi": "CA33",
+                "text": "Gestiona la persistència d’objectes simples."
+              },
+              {
+                "codi": "CA34",
+                "text": "Gestiona la persistència d’objectes estructurats."
+              },
+              {
+                "codi": "CA35",
+                "text": "Desenvolupa aplicacions que realitzen consultes."
+              },
+              {
+                "codi": "CA36",
+                "text": "Modifica els objectes emmagatzemats."
+              },
+              {
+                "codi": "CA37",
+                "text": "Gestiona les transaccions."
+              },
+              {
+                "codi": "CA38",
+                "text": "Prova i documenta les aplicacions desenvolupades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió de connectors",
+                "items": [
+                  "El desfasament objecte-relacional.",
+                  "Protocols d’accés a bases de dades. Connectors.",
+                  "Execució de sentències de descripció de dades.",
+                  "Execució de sentències de modificació de dades.",
+                  "Execució de consultes."
+                ]
+              },
+              {
+                "bloc": "Eines de mapatge objecte-relacional (ORM)",
+                "items": [
+                  "Concepte de mapatge objecte-relacional.",
+                  "Característiques de les eines ORM. Eines ORM més utilitzades.",
+                  "Instal·lació d’una eina ORM.",
+                  "Estructura d’un fitxer de mapatge. Elements, propietats.",
+                  "Classes persistents.",
+                  "Sessions, estats d’un objecte.",
+                  "Càrrega, emmagatzematge i modificació d’objectes.",
+                  "Consultes SQL."
+                ]
+              },
+              {
+                "bloc": "Bases de dades objecte-relacionals i orientades a objectes",
+                "items": [
+                  "Característiques de les bases de dades objecte-relacionals.",
+                  "Gestió d’objectes amb SQL. Especificacions en estàndards SQL.",
+                  "Accés a les funcions del gestor des del llenguatge de programació.",
+                  "Característiques de les bases de dades orientades a objectes.",
+                  "Tipus de dades: tipus bàsics i tipus estructurats.",
+                  "La interfície de programació d’aplicacions de la base de dades."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "persistència en BD natives XML",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions que gestionen la informació emmagatzemada en bases de dades natives XML avaluant i utilitzant classes específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Valora els avantatges i els inconvenients d’utilitzar una base de dades nativa XML."
+              },
+              {
+                "codi": "CA12",
+                "text": "Estableix la connexió amb la base de dades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Desenvolupa aplicacions que fan consultes sobre el contingut de la base de dades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Afegeix i elimina col·leccions de la base de dades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Desenvolupa aplicacions per afegir, modificar i eliminar documents XML de la base de dades."
+              }
+            ],
+            "continguts": []
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "components d’accés a dades",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Programa components d’accés a dades identificant les característiques que ha de posseir un component i utilitzant eines de desenvolupament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Valora els avantatges i els inconvenients d’utilitzar programació orientada a components."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica eines de desenvolupament de components."
+              },
+              {
+                "codi": "CA13",
+                "text": "Programa components que gestionen informació emmagatzemada en fitxers."
+              },
+              {
+                "codi": "CA14",
+                "text": "Programa components que gestionen, mitjançant connectors, informació emmagatzemada en bases de dades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Programa components que gestionen informació utilitzant mapatge objecte-relacional."
+              },
+              {
+                "codi": "CA16",
+                "text": "Programa components que gestionen informació emmagatzemada en bases de dades objecte-relacionals i orientades a objectes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Programa components que gestionen informació emmagatzemada en una base de dades nativa XML."
+              },
+              {
+                "codi": "CA18",
+                "text": "Prova i documenta els components desenvolupats."
+              },
+              {
+                "codi": "CA19",
+                "text": "Integra els components desenvolupats en aplicacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació de components d’accés a dades",
+                "items": [
+                  "Concepte de component; característiques.",
+                  "Propietats i atributs.",
+                  "Esdeveniments; associació d’accions a esdeveniments.",
+                  "Persistència del component.",
+                  "Eines per a desenvolupament de components no visuals.",
+                  "Empaquetatge de components."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

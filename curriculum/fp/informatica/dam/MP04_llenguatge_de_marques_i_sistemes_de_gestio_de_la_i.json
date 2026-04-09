@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "llenguatge de marques i sistemes de gestió de la informació",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "programació amb XML",
+        "hores": 45,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix les característiques de llenguatges de marques analitzant-ne i interpretant-ne fragments de codi.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques generals dels llenguatges de marques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els avantatges que proporcionen en el tractament de la informació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Classifica els llenguatges de marques i n’identifica els més rellevants."
+              },
+              {
+                "codi": "CA14",
+                "text": "Diferencia els àmbits d’aplicació dels llenguatges de marques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix la necessitat i els àmbits específics d’aplicació d’un llenguatge de marques de propòsit general."
+              },
+              {
+                "codi": "CA16",
+                "text": "Analitza les característiques pròpies del llenguatge d’etiquetatge extensible (extensible markup language o XML)."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica l’estructura d’un document XML i les seves regles sintàctiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Contrasta la necessitat de crear documents XML ben formats i la influència en el seu processament."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica els avantatges que aporten els espais de noms."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Utilitza llenguatges de marques per a la transmissió d’informació a través del web analitzant l’estructura dels documents i identificant-ne els elements.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica i classifica els llenguatges de marques relacionats amb el web i les seves diferents versions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Analitza l’estructura d’un document HTML (llenguatge d’etiquetatge d’hipertext) i identifica les seccions que el componen."
+              },
+              {
+                "codi": "CA23",
+                "text": "Reconeix la funcionalitat de les principals etiquetes i atributs del llenguatge HTML."
+              },
+              {
+                "codi": "CA24",
+                "text": "Estableix les semblances i diferències entre els llenguatges HTML i XHTML."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix la utilitat d’XHTML en els sistemes de gestió d’informació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza eines en la creació del web."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els avantatges que aporta l’ús de fulls d’estil."
+              },
+              {
+                "codi": "CA28",
+                "text": "Aplica fulls d’estil."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Estableix mecanismes de validació per a documents XML utilitzant mètodes per definir-ne la sintaxi i l’estructura.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Estableix la necessitat de descriure la informació transmesa en els documents XML i les seves regles."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica les tecnologies relacionades amb la definició de documents XML."
+              },
+              {
+                "codi": "CA33",
+                "text": "Analitza l’estructura i la sintaxi específica utilitzada en la descripció."
+              },
+              {
+                "codi": "CA34",
+                "text": "Crea descripcions de documents XML."
+              },
+              {
+                "codi": "CA35",
+                "text": "Utilitza descripcions en l’elaboració i validació de documents XML."
+              },
+              {
+                "codi": "CA36",
+                "text": "Associa les descripcions de documents XML amb els documents XML."
+              },
+              {
+                "codi": "CA37",
+                "text": "Utilitza eines específiques de validació."
+              },
+              {
+                "codi": "CA38",
+                "text": "Documenta les descripcions de documents XML."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement de les característiques de llenguatges de marques",
+                "items": [
+                  "Classificació.",
+                  "XML: estructura i sintaxi.",
+                  "Etiquetes.",
+                  "Eines d’edició.",
+                  "Elaboració de documents XML ben formats.",
+                  "Utilització d’espais de noms en XML."
+                ]
+              },
+              {
+                "bloc": "Utilització de llenguatges de marques en entorns web",
+                "items": [
+                  "Identificació d’etiquetes i atributs d’HTML.",
+                  "XHTM: diferències sintàctiques i estructurals amb HTML.",
+                  "Versions de HTML i d’XHTML.",
+                  "Eines de disseny web.",
+                  "Fulls d’estil."
+                ]
+              },
+              {
+                "bloc": "Definició d’esquemes i vocabularis en XML",
+                "items": [
+                  "Utilització de mètodes de definició de documents XML.",
+                  "Creació de descripcions.",
+                  "Associació amb documents XML.",
+                  "Validació.",
+                  "Eines de creació i validació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "àmbits d’aplicació de l’XML",
+        "hores": 27,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera canals de continguts analitzant i utilitzant tecnologies de sindicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els avantatges que aporta la sindicació de continguts en la gestió i transmissió de la informació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix els àmbits d’aplicació de la sindicació de continguts."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza les tecnologies en què es basa la sindicació de continguts."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica l’estructura i la sintaxi d’un canal de continguts."
+              },
+              {
+                "codi": "CA15",
+                "text": "Crea i valida canals de continguts."
+              },
+              {
+                "codi": "CA16",
+                "text": "Comprova la funcionalitat i l’accés als canals de continguts."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza eines específiques com a agregadors i directoris de canals."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza conversions sobre documents XML utilitzant tècniques i eines de processament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica la necessitat de la conversió de documents XML."
+              },
+              {
+                "codi": "CA22",
+                "text": "Estableix àmbits d’aplicació de la conversió de documents XML."
+              },
+              {
+                "codi": "CA23",
+                "text": "Analitza les tecnologies implicades i el seu mode de funcionament."
+              },
+              {
+                "codi": "CA24",
+                "text": "Descriu la sintaxi específica utilitzada en la conversió i adaptació de documents XML."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea especificacions de conversió."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica i caracteritza eines específiques relacionades amb la conversió de documents XML."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza conversions amb diferents formats de sortida."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta i depura les especificacions de conversió."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Gestiona informació en format XML analitzant i utilitzant tecnologies d’emmagatzematge i llenguatges de consulta.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els principals mètodes d’emmagatzematge de la informació utilitzada en documents XML."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els inconvenients d’emmagatzemar informació en format XML."
+              },
+              {
+                "codi": "CA33",
+                "text": "Estableix tecnologies eficients d’emmagatzematge d’informació en funció de les seves característiques."
+              },
+              {
+                "codi": "CA34",
+                "text": "Utilitza sistemes gestors de bases de dades relacionals en l’emmagatzematge d’informació en format XML."
+              },
+              {
+                "codi": "CA35",
+                "text": "Utilitza tècniques específiques per crear documents XML a partir d’informació emmagatzemada en bases de dades relacionals."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica les característiques dels sistemes gestors de bases de dades natives XML."
+              },
+              {
+                "codi": "CA37",
+                "text": "Instal·la i analitza sistemes gestors de bases de dades natives XML."
+              },
+              {
+                "codi": "CA38",
+                "text": "Utilitza tècniques per gestionar la informació emmagatzemada en bases de dades natives XML."
+              },
+              {
+                "codi": "CA39",
+                "text": "Identifica llenguatges i eines per al tractament i emmagatzematge d’informació i la seva inclusió en documents XML."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Aplicació dels llenguatges de marques a la sindicació de continguts",
+                "items": [
+                  "Àmbits d’aplicació.",
+                  "Estructura dels canals de continguts.",
+                  "Tecnologies de creació de canals de continguts.",
+                  "Validació.",
+                  "Directoris de canals de continguts.",
+                  "Agregació."
+                ]
+              },
+              {
+                "bloc": "Conversió i adaptació de documents XML",
+                "items": [
+                  "Tècniques de transformació de documents XML.",
+                  "Descripció de l’estructura i de la sintaxi.",
+                  "Utilització de plantilles. Utilització d’eines de processament.",
+                  "Elaboració de documentació."
+                ]
+              },
+              {
+                "bloc": "Emmagatzematge d’informació",
+                "items": [
+                  "Sistemes d’emmagatzematge d’informació.",
+                  "Inserció i extracció d’informació en XML.",
+                  "Tècniques de recerca d’informació en documents XML.",
+                  "Llenguatges de consulta i manipulació.",
+                  "Dipòsit XML natiu.",
+                  "Eines de tractament i emmagatzematge d’informació en format XML."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "sistemes de gestió d’informació empresarial",
+        "hores": 27,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Treballa amb sistemes empresarials de gestió d’informació realitzant tasques d’importació, integració, assegurament i extracció de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els avantatges dels sistemes de gestió i planificació de recursos empresarials."
+              },
+              {
+                "codi": "CA12",
+                "text": "Avalua les característiques de les principals aplicacions de gestió empresarial."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la aplicacions de gestió empresarial."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura i adapta les aplicacions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Estableix i verifica l’accés segur a la informació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Genera informes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza tasques d’integració amb aplicacions ofimàtiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza procediments d’extracció d’informació per al seu tractament i incorporació a diversos sistemes."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza tasques d’assistència i resolució d’incidències."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora documents relatius a l’explotació de l’aplicació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Sistemes de gestió empresarial",
+                "items": [
+                  "Instal·lació.",
+                  "Adaptació i configuració.",
+                  "Integració de mòduls.",
+                  "Elaboració d’informes.",
+                  "Integració amb aplicacions ofimàtiques.",
+                  "Exportació d’informació."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

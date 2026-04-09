@@ -2,47 +2,106 @@
   "meta": {
     "familia": "fp",
     "cicle_formatiu": "ICTI",
-    "titol_cicle": "Il·luminacio, Captacio i Tractament d'Imatge",
-    "familia_professional": "Imatge i So",
+    "titol_cicle": "Il·luminació, Captació i Tractament d'Imatge",
     "grau": "superior",
-    "rd_titol": "RD 1685/2011",
-    "decret": "175/2022",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul de Luminotecnia del cicle Il·luminacio, Captacio i Tractament d'Imatge forma el tècnic superior en les competències professionals específiques d'aquesta àrea dins del sector de imatge i so. Desenvolupa els coneixements tècnics, les habilitats pràctiques i les actituds professionals necessàries per exercir amb solvència les funcions associades a luminotecnia en empreses i institucions del sector. Les competències adquirides s'apliquen tant en el treball per compte aliè com en l'exercici lliure de la professió.\n\nEls continguts cobreixen els fonaments teòrics i els procediments tècnics de luminotecnia: la terminologia professional específica, els protocols i les normatives vigents del sector, les tècniques i instruments propis de l'àmbit, la documentació tècnica associada i els criteris de qualitat i seguretat aplicables. S'inclouen els aspectes ètics i deontològics de la professió, la normativa de prevenció de riscos laborals específica i la gestió dels recursos materials i humans implicats en les tasques del mòdul.\n\nLa metodologia combina les sessions teòriques amb la pràctica intensiva en tallers, laboratoris o espais professionals simulats del centre educatiu. L'alumne resol casos pràctics reals o simulats, elabora documentació tècnica i treballa en equip seguint els protocols professionals del sector de imatge i so. L'avaluació integra proves teòriques, pràctiques de taller o laboratori, l'elaboració de documentació tècnica i l'observació de les actituds professionals durant les activitats pràctiques."
+    "familia_professional": "Imatge i So",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2015, de 8 de setembre",
+    "titol_decret": "DECRET 197/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'il·luminació, captació i tractament d'imatge.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "MP04",
-    "nom": "Luminotecnia",
+    "nom": "luminotècnia",
     "hores_totals": 132,
     "uf": [
       {
         "codi": "UF1",
-        "nom": "Fonaments de luminotecnia",
-        "hores": 66,
+        "nom": "tecnologia i planificació d’instal·lacions d’il·luminació",
+        "hores": 20,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Aplica els fonaments de la luminotecnia en el disseny d'il·luminacio.",
+            "text": "Determina les condicions tècniques dels equips d'il·luminació que s'ocuparan en projectes audiovisuals i d'espectacles, relacionant les seves característiques funcionals i operatives amb els usos a què es destinen.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "Calcula magnituds fotometriques (lux, lumens, candeles).",
-                "pes_percentual": 25
+                "codi": "CA11",
+                "text": "Avalua les qualitats d'emissió de llum de fonts: naturals, incandescents, fluorescents i de descàrrega en diversos projectes audiovisuals, escènics i d'espectacles quant a tecnologia d'emissió, fotometria, colorimetria, tipus de feix lluminós, tensió, potència i eficàcia lluminosa."
               },
               {
-                "codi": "CA1.2",
-                "text": "Selecciona fonts de llum segons les seves caracteristiques.",
-                "pes_percentual": 25
+                "codi": "CA12",
+                "text": "Compara i defineix els efectes de la il·luminació amb aparells de llum directa, refractada, reflectida i modular, tant fixos com robotitzats, sobre localitzacions, escenes, decorats, presentadors, convidats, públic i intèrprets en projectes audiovisuals, escènics i d'espectacles."
               },
               {
-                "codi": "CA1.3",
-                "text": "Utilitza programari de simulacio d'il·luminacio.",
-                "pes_percentual": 25
+                "codi": "CA13",
+                "text": "Defineix les opcions d'escomesa elèctrica o grup electrogen quant a potència, fases elèctriques, seccions de cable, connectors, quadres elèctrics i distribució de línies en projectes audiovisuals i d'espectacles."
               },
               {
-                "codi": "CA1.4",
-                "text": "Aplica normativa de seguretat electrica en instal·lacions.",
-                "pes_percentual": 25
+                "codi": "CA14",
+                "text": "Determina la idoneïtat de diverses configuracions de taules de llums i reguladors (dimmers) per a diferents projectes televisius, escènics i d'espectacles, en funció del material d'il·luminació involucrat i de les intencions expressives i dramàtiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Valora la utilització de filtres d'efectes de color, difusors, neutres i convertidors de temperatura de color sobre els diferents tipus d'aparells d'il·luminació utilitzats en projectes audiovisuals, escènics, i d'espectacles, i en documenta els resultats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza les previsions necessàries i organitza la instal·lació, el muntatge i el desmuntatge d'il·luminacions per a audiovisuals i espectacles en viu, interpretant plànols d'il·luminació i justificant les decisions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Analitza la documentació tècnica, i en busca la viabilitat per a l'emplaçament sol·licitat, segons condicions de seguretat i eficàcia."
+              },
+              {
+                "codi": "CA22",
+                "text": "Estableix la distribució de tasques concretes, temps i personal necessari, seguint les indicacions del pla d'il·luminació amb criteris de producció i operativitat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Estableix la forma de relació amb les activitats de so i decoració, respecte a la utilització d'espais i temps d'execució de les tasques, buscant la major operativitat i seguretat possibles."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza una previsió per coordinar la seguretat en una determinada localització i hi aporta solucions en els plans d'emergència i d’evacuació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Preveu el transport i l’emmagatzematge provisional dels equips d'il·luminació per a rodatges itinerants, establint les condicions necessàries per a la seguretat del material."
+              },
+              {
+                "codi": "CA26",
+                "text": "Preveu la quantitat, el transport, el tiratge de mànegues i la càrrega i la descàrrega d'equips, buscant la màxima eficàcia en el muntatge."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Determinació de les característiques tècniques dels equips d'il·luminació",
+                "items": [
+                  "Les lluminàries:",
+                  "Els dispositius d'il·luminació. Anàlisi i comparació:",
+                  "Definició d'escomeses elèctriques per a instal·lacions d'il·luminació en espectacles i mitjans audiovisuals. Magnituds elèctriques. Subministrament i connexions elèctriques a la xarxa i a grups electrògens. Quadres elèctrics, fases, tipus de cable i connectors.",
+                  "Els reguladors de llum (dimmers). Tipus. Els balasts.",
+                  "Les taules d'il·luminació:",
+                  "Els filtres:"
+                ]
+              },
+              {
+                "bloc": "Organització de la instal·lació, muntatge i desmuntatge d'il·luminacions",
+                "items": [
+                  "Anàlisi de la documentació tècnica:",
+                  "Organització de recursos humans. Estimació de temps.",
+                  "Interaccions amb les instal·lacions de so:",
+                  "Interacció amb els decorats i la seguretat:",
+                  "El transport i l’emmagatzematge de materials."
+                ]
               }
             ]
           }
@@ -50,32 +109,211 @@
       },
       {
         "codi": "UF2",
-        "nom": "Sistemes electrics per a espectacles",
-        "hores": 66,
+        "nom": "instal·lació elèctrica, cablatge i manteniment d’equips d’il·luminació",
+        "hores": 20,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Instal·la i gestiona sistemes electrics per a espectacles i rodatges.",
+            "text": "Realitza la instal·lació elèctrica i el cablatge dels elements necessaris, valorant el compliment de les condicions de seguretat i el respecte al treball d'altres equips confluents.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "Dimensiona instal·lacions electriques per a produccions.",
-                "pes_percentual": 25
+                "codi": "CA11",
+                "text": "Calcula els consums previstos i estudia les possibilitats de presa de corrent al lloc d'acció, respectant l'entorn i prenent les previsions necessàries per a l'ús d'equips autònoms."
               },
               {
-                "codi": "CA1.2",
-                "text": "Instal·la quadres electrics i sistemes de distribucio.",
-                "pes_percentual": 30
+                "codi": "CA12",
+                "text": "Posa en marxa els equips autònoms insonoritzats, i els col·loca en emplaçaments adequats."
               },
               {
-                "codi": "CA1.3",
-                "text": "Aplica protocols de seguretat electrica en muntatges.",
-                "pes_percentual": 25
+                "codi": "CA13",
+                "text": "Realitza la connexió elèctrica a fonts fixes o autònomes, distribuint adequadament el consum per fases."
               },
               {
-                "codi": "CA1.4",
-                "text": "Realitza manteniment preventiu d'equips d'il·luminacio.",
-                "pes_percentual": 20
+                "codi": "CA14",
+                "text": "Connecta els multifilars necessaris, tenint en compte l'agrupació prevista per realitzar la distribució de connexions (patch) segons el pla d’il·luminació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Connecta els equips a les fonts elèctriques, respectant les connexions dels equips de so i les condicions de seguretat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Efectua les connexions de control dels equips, seguint les instruccions del pla d'il·luminació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza el manteniment dels equips d'il·luminació per a la seva utilització en audiovisuals i espectacles en viu, considerant l'aplicació de protocols establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza una actualització permanent sobre equips i accessoris del mercat, i els manté actualitzats per a la seva possible adequació a les necessitats de noves produccions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza la neteja i el manteniment mecànic i elèctric dels equips de suport i suspensió, substituint les peces necessàries, aplicant els materials de greixatge i netedat adequats."
+              },
+              {
+                "codi": "CA23",
+                "text": "Neteja i soluciona els problemes tècnics dels projectors en la seva part òptica i elèctrica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova en termes de rendiment, temperatura de color i pampallugueig (flicker), i substitueix, si escau, les làmpades imperfectes o inservibles per d'altres, respectant el tipus, la forma, la connexió i el consum per al projector corresponent."
+              },
+              {
+                "codi": "CA25",
+                "text": "Estableix protocols de detecció d'avaries en els equips d'il·luminació, regulació i control, i en decideix el descart, la substitució o la tramesa a reparació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza inventaris de material, etiquetant cada element segons un ordre lògic d'utilització i emmagatzematge mitjançant aplicacions informàtiques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Verifica i prepara els materials per al seu muntatge segons la documentació tècnica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Emmagatzema els materials amb seguretat i organitza els contenidors (flycase), etiquetant-ne convenientment cada un per a la ràpida localització dels elements d'il·luminació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització de la instal·lació elèctrica",
+                "items": [
+                  "Càlculs dels consums elèctrics previstos al lloc d'acció:",
+                  "Els grups electrògens:",
+                  "Anàlisi dels elements de seguretat elèctrica:",
+                  "Cablatge i connexió elèctrica:",
+                  "Procediments de connexió d’armaris de reguladors (racks de dimmers).",
+                  "Protocols de senyal d’intercomunicació entre dispositius:",
+                  "Relació amb els proveïdors. Els manuals tècnics dels fabricants.",
+                  "Connexionat de làmpades. Tipus de rosques i cartutxos.",
+                  "Manteniment mecànic: netedat i materials de greixatge.",
+                  "Revisió i manteniment dels focus.",
+                  "Rendiment de les làmpades:",
+                  "Protocol de detecció d’avaries: revisió, tramesa a reparació i reposició.",
+                  "Control d’estoc:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "muntatge de la il·luminació d’espectacles en viu",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta i desmunta els equips d'il·luminació per a espectacles en viu, aplicant el pla d'il·luminació i valorant el compliment de les condicions de seguretat i el respecte al treball d'altres equips confluents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Instal·la els suports i els materials de suspensió, tenint en compte la seguretat en la distribució de càrregues sobre públic i artistes i les instal·lacions d'altres equips."
+              },
+              {
+                "codi": "CA12",
+                "text": "Disposa els projectors segons el plànol de muntatge, tenint en compte la immediata connexió i adapta el pla, si escau, a les condicions d'un nou local."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la els equips de regulació i control segons el pla, s’adapta a possibles noves condicions i respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Orienta els projectors, col·loca els filtres previstos i disposa els calats (gobos), accessoris i perifèrics necessaris segons el pla d'il·luminació, seguint les normes de seguretat personal."
+              },
+              {
+                "codi": "CA15",
+                "text": "Verifica el funcionament del sistema, soluciona imprevistos i corregeix els errors, i s’adapta a noves condicions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Instal·la i posa en funcionament les il·luminacions complementàries i de servei."
+              },
+              {
+                "codi": "CA17",
+                "text": "Desmunta l'equipament i el guarda correctament i organitzadament per al seu transport a noves localitzacions."
+              },
+              {
+                "codi": "CA18",
+                "text": "Genera la documentació necessària sobre la instal·lació i incidències, aportant totes les dades que siguin rellevants per a la direcció de l'espectacle, responsables dels llocs de representació o responsables del manteniment dels equips."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge i desmuntatge d'equips d'il·luminació per a espectacles en viu",
+                "items": [
+                  "La fitxa tècnica de l’espai escènic.",
+                  "Instal·lació de suports:",
+                  "Les passarel·les d’elèctrics en els espais escènics.",
+                  "Tècniques d'instal·lació de projectors. Lectura de plànols de llums.",
+                  "Instal·lació i connexionat de reguladors (dimmers). Armaris (racks). El caixetí de connexionat de reguladors (patch de dimmers), numeració i croquis.",
+                  "Instal·lació i connexionat de taules d'il·luminació i altres equips de control. El caixetí de connexionat (patch) de senyal, numeració i croquis.",
+                  "Tècniques d'orientació i filtratge de projectors en altura.",
+                  "Procediments i protocols de comprovació d’instal·lacions d’il·luminacions.",
+                  "Les il·luminacions complementàries i de servei en un local de pública concurrència. Normativa aplicable.",
+                  "Desmuntatge d’equips. Preparació, condicionament i transport de contenidors i caixes.",
+                  "Sistemes òptics tradicionals de comunicació a l'escenari. Intercomunicadors d'escena per cable i ràdio. Operació. Sistemes de seguiment i CCTV (càmeres de televisió).",
+                  "Informes d’incidències en instal·lacions."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "muntatge de la il·luminació per a audiovisuals",
+        "hores": 29,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta i desmunta equips d'il·luminació per a audiovisuals, aplicant les instruccions provinents de la direcció de fotografia i valorant el compliment de les condicions de seguretat i el respecte al treball d'altres equips confluents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Estableix les connexions elèctriques provisionals sense causar danys a l'entorn, a decorats, a habitatges o a persones."
+              },
+              {
+                "codi": "CA12",
+                "text": "Canvia la configuració dels projectors i la distribució del caixetí de connexionat (patch) del plató per al compliment del pla d'il·luminació del programa, en considera la seguretat i respecta les activitats d'altres equips confluents."
+              },
+              {
+                "codi": "CA13",
+                "text": "Disposa els projectors segons els requeriments de la direcció de fotografia, buscant les millors condicions d'estabilitat dels equips i respectant les condicions de seguretat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Filtra, rebota o talla els llums segons les instruccions de la direcció de fotografia, utilitzant els accessoris necessaris per a la fixació amb seguretat i eficàcia dels elements que s'instal·laran."
+              },
+              {
+                "codi": "CA15",
+                "text": "Estableix un protocol de coordinació amb l'equip de so per a la ubicació dels elements d'il·luminació que faciliti la major funcionalitat d'ambdós equips."
+              },
+              {
+                "codi": "CA16",
+                "text": "Resol, durant la instal·lació, els imprevistos plantejats a qualsevol instal·lació, ubicació o necessitat que la producció requereixi."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge i desmuntatge d'equips d'il·luminació d'audiovisuals",
+                "items": [
+                  "La connexió elèctrica:",
+                  "El caixetí de connexionat (patch) físic d'il·luminació.",
+                  "Disposició dels projectors. Interpretació dels plànols d’il·luminació.",
+                  "Instal·lació dels focus:",
+                  "Suports i accessoris:",
+                  "Tècniques de col·locació d’accessoris:",
+                  "Coordinació amb l’equip d’àudio.",
+                  "La gestió d’imprevistos."
+                ]
               }
             ]
           }

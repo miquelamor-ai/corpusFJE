@@ -1,0 +1,302 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "sistemes de gestió empresarial",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sistemes ERP-CRM. Implantació",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica sistemes de planificació de recursos empresarials i de gestió de relacions amb clients (ERP-CRM) reconeixent-ne les característiques i verificant la configuració del sistema informàtic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els diferents sistemes ERP-CRM que hi ha al mercat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Compara sistemes ERP-CRM en funció de les seves característiques i requisits."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix els magatzems de dades (data warehouse) acoblables i/o incorporats als diferents sistemes ERP-CRM."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica el sistema operatiu adequat a cada sistema ERP-CRM."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica el sistema gestor de dades adequat a cada sistema ERP-CRM."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica les configuracions del sistema operatiu i del gestor de dades per garantir la funcionalitat de l’ERP-CRM."
+              },
+              {
+                "codi": "CA17",
+                "text": "Documenta les operacions realitzades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta les incidències produïdes durant el procés."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Implanta sistemes ERP-CRM interpretant-ne la documentació tècnica i identificant-ne les diferents opcions i mòduls.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els diferents tipus de llicència."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els mòduls que componen el ERP-CRM."
+              },
+              {
+                "codi": "CA23",
+                "text": "Realitza instal·lacions monoestació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza instal·lacions client/servidor."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura els mòduls instal·lats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza instal·lacions adaptades a les necessitats plantejades en diferents supòsits."
+              },
+              {
+                "codi": "CA27",
+                "text": "Instal·la i configura, si hi ha possibilitat, algun magatzem de dades adequat al sistema ERP-CRM."
+              },
+              {
+                "codi": "CA28",
+                "text": "Comprova l’ERP-CRM."
+              },
+              {
+                "codi": "CA29",
+                "text": "Documenta les operacions realitzades i les incidències."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació de sistemes ERP-CRM",
+                "items": [
+                  "Concepte d’ERP (sistemes de planificació de recursos empresarials).",
+                  "Revisió dels ERP actuals.",
+                  "Concepte de CRM (sistemes de gestió de relacions amb clients).",
+                  "Revisió dels CRM actuals.",
+                  "Concepte de data warehouse (magatzems de dades).",
+                  "Revisió dels data warehouse actuals i possiblement incorporats als sistemes ERP-CRM.",
+                  "Sistemes gestors de bases de dades compatibles amb el programari.",
+                  "Configuració de la plataforma.",
+                  "Verificació de la instal·lació i configuració dels sistemes operatius i de gestió de dades."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i configuració de sistemes ERP-CRM",
+                "items": [
+                  "Tipus de llicència.",
+                  "Tipus d’instal·lació. Monoestació. Client/servidor.",
+                  "Mòduls d’un sistema ERP-CRM: descripció, tipologia i interconnexió entre mòduls.",
+                  "Processos d’instal·lació del sistema ERP-CRM.",
+                  "Paràmetres de configuració del sistema ERP-CRM: descripció, tipologia i ús.",
+                  "Actualització del sistema ERP-CRM i aplicació d’actualitzacions.",
+                  "Serveis d’accés al sistema ERP-CRM: característiques i paràmetres de configuració, instal·lació.",
+                  "Magatzems de dades incorporats/acoblables al sistema ERP-CRM.",
+                  "Entorns de desenvolupament, proves i explotació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes ERP-CRM. Explotació i adequació",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza operacions de gestió i consulta de la informació seguint les especificacions de disseny i utilitzant les eines proporcionades pels sistemes ERP-CRM i solucions d’intel·ligència de negocis (BI).",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Utilitza eines i llenguatges de consulta i manipulació de dades proporcionades pels sistemes ERP-CRM."
+              },
+              {
+                "codi": "CA12",
+                "text": "Genera formularis."
+              },
+              {
+                "codi": "CA13",
+                "text": "Genera informes, des del sistema ERP-CRM i des de solucions BI."
+              },
+              {
+                "codi": "CA14",
+                "text": "Genera quadres de comandament, des del sistema ERP-CRM i des de solucions BI."
+              },
+              {
+                "codi": "CA15",
+                "text": "Exporta dades i informes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Automatitza les extraccions de dades mitjançant processos."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza les funcionalitats d’accés centralitzat que proporcionen les solucions BI."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta les operacions realitzades i les incidències observades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Adapta sistemes ERP-CRM identificant els requeriments d’un supòsit empresarial i utilitzant les eines proporcionades per aquests sistemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les possibilitats d’adaptació de l’ERP-CRM."
+              },
+              {
+                "codi": "CA22",
+                "text": "Adapta definicions de camps, taules i vistes de la base de dades de l’ERP-CRM."
+              },
+              {
+                "codi": "CA23",
+                "text": "Adapta consultes."
+              },
+              {
+                "codi": "CA24",
+                "text": "Adapta interfícies d’entrada de dades i de processos."
+              },
+              {
+                "codi": "CA25",
+                "text": "Personalitza informes i quadres de comandament."
+              },
+              {
+                "codi": "CA26",
+                "text": "Adapta procediments emmagatzemats de servidor."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta les operacions realitzades i les incidències observades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Desenvolupa components per a un sistema ERP-CRM analitzant i utilitzant el llenguatge de programació incorporat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Reconeix les sentències del llenguatge propi del sistema ERP-CRM."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza els elements de programació del llenguatge per crear components de manipulació de dades."
+              },
+              {
+                "codi": "CA33",
+                "text": "Modifica components programari per afegir noves funcionalitats al sistema."
+              },
+              {
+                "codi": "CA34",
+                "text": "Integra els nous components programari en el sistema ERP-CRM."
+              },
+              {
+                "codi": "CA35",
+                "text": "Verifica el funcionament correcte dels components creats."
+              },
+              {
+                "codi": "CA36",
+                "text": "Documenta tots els components creats o modificats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Organització i consulta de la informació",
+                "items": [
+                  "Definició de camps.",
+                  "Consultes d’accés a dades.",
+                  "Interfícies d’entrada de dades i de processos. Formularis.",
+                  "Informes i llistats de l’aplicació.",
+                  "Càlculs de comandes, albarans, factures, assentaments predefinits, traçabilitat, producció, entre d’altres.",
+                  "Gràfics i quadres de comandament.",
+                  "Informes i quadres de comandament des de solucions BI.",
+                  "Eines de monitoratge i d’avaluació del rendiment.",
+                  "Incidències: resolució i identificació.",
+                  "Processos d’extracció de dades en sistemes ERP-CRM i magatzems de dades.",
+                  "Accés centralitzat proporcionat per les solucions BI."
+                ]
+              },
+              {
+                "bloc": "Implantació de sistemes ERP-CRM en una empresa",
+                "items": [
+                  "Tipus d’empresa. Necessitats de l’empresa.",
+                  "Selecció dels mòduls del sistema ERP-CRM.",
+                  "Taules i vistes que cal adaptar.",
+                  "Consultes necessàries per obtenir informació.",
+                  "Creació de formularis personalitzats.",
+                  "Creació d’informes personalitzats.",
+                  "Creació de quadres de comandament personalitzats."
+                ]
+              },
+              {
+                "bloc": "Desenvolupament de components",
+                "items": [
+                  "Tècniques i estàndards.",
+                  "Llenguatge proporcionat pels sistemes ERP-CRM. Característiques i sintaxi del llenguatge. Declaració de dades. Estructures de programació. Sentències del llenguatge.",
+                  "Entorns de desenvolupament i eines de desenvolupament en sistemes ERP i CRM. 3.4 Inserció, modificació i eliminació de dades en els objectes.",
+                  "Operacions de consulta. Eines.",
+                  "Formularis i informes en sistemes ERP-CRM.",
+                  "Extraccions d’informacions contingudes en sistemes ERP-CRM, processament de dades.",
+                  "Trucades a funcions, llibreries de funcions (API).",
+                  "Depuració d’un programa.",
+                  "Maneig d’errors."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

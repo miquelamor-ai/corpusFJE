@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "EMV",
+    "titol_cicle": "Electromecànica de Vehicles Automòbils",
+    "grau": "mitja",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "font_tipus": "decret",
+    "font_ref": "Decret 185/2015, de 25 d'agost",
+    "titol_decret": "DECRET 185/2015, de 25 d'agost, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'electromecànica de vehicles automòbils.",
+    "data_decret": "2015-08-25",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/08/25/185/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "circuits de fluids. Suspensió i direcció",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "circuits pneumàtics i hidràulics",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix les càrregues transmeses pels elements actuadors de sistemes hidràulics i pneumàtics analitzant-los amb les lleis físiques que els governen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les característiques dels fluids emprats en els circuits."
+              },
+              {
+                "codi": "CA12",
+                "text": "Coneix les magnituds i unitats de mesura emprades en hidràulica i pneumàtica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Interpreta els principis bàsics de la física de fluids."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les pèrdues de càrrega que es produeixen en la transmissió de força mitjançant fluids."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els problemes que ocasionen els fregaments i els cops."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu les característiques de funcionament dels principals elements hidràulics i pneumàtics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Interpreta la simbologia d’elements i esquemes utilitzats en els circuits de fluids."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu el funcionament dels elements hidràulics i pneumàtics en el circuit a què pertanyen."
+              },
+              {
+                "codi": "CA19",
+                "text": "Relaciona les magnituds del circuit amb les càrregues transmeses."
+              },
+              {
+                "codi": "CA110",
+                "text": "Dóna suport per solucionar els problemes que es puguin presentar als companys."
+              },
+              {
+                "codi": "CA111",
+                "text": "És capaç d’emetre crítiques de manera positiva."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta circuits de fluids relacionant-ne la funció dels elements amb l'operativitat del circuit i la seva aplicació als vehicles automòbils.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza l'esquema del circuit utilitzant simbologia normalitzada."
+              },
+              {
+                "codi": "CA22",
+                "text": "Interpreta el funcionament del circuit."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta els elements que constitueixen el circuit, sobre panell o maqueta."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova les funcions dels esquemes electrònics associats al circuit amb els equips adequats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Ajusta els paràmetres utilitzant la documentació tècnica."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova l'estanquitat i l’operativitat del circuit seguint procediments establerts."
+              },
+              {
+                "codi": "CA27",
+                "text": "Verifica les pressions de treball en la instal·lació, mitjançant aparells de mesura comparant-los amb els valors teòrics."
+              },
+              {
+                "codi": "CA28",
+                "text": "Accepta els errors, treballant decididament per superar-los."
+              },
+              {
+                "codi": "CA29",
+                "text": "Té l’actitud permanent d’adquirir i compartir nous coneixements."
+              },
+              {
+                "codi": "CA210",
+                "text": "Coneix els seus punts febles o les àrees de millora."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elements hidràulics",
+                "items": [
+                  "Fluids: propietats, magnituds i unitats.",
+                  "Principis físics dels fluids: pèrdues de càrrega, fregament, cop d'ariet, entre altres.",
+                  "Transmissió de força mitjançant fluids. Estructura, funció i aplicació de components.",
+                  "Simbologia.",
+                  "Interpretació d'esquemes."
+                ]
+              },
+              {
+                "bloc": "Circuits hidràulics",
+                "items": [
+                  "Funcionament i característiques dels circuits de fluids.",
+                  "Muntatge de circuits hidràulics i pneumàtics.",
+                  "Estructura dels circuits (oberta, tancada).",
+                  "Aparells de mesura i control.",
+                  "Actuadors hidràulics i pneumàtics.",
+                  "Muntatge i ajust d'elements.",
+                  "Manteniment dels circuits hidràulics i pneumàtics. Processos d'actuació per resoldre avaries.",
+                  "Estanquitat i impermeabilització dels circuits."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes de suspensió i direcció",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix el funcionament dels sistemes de suspensió, la ubicació i funcionalitat dels seus elements, identificant les avaries relacionant-les amb els símptomes i les seves causes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Relaciona els principis físics a què està sotmès un vehicle amb els treballs i oscil·lacions que es produeixen en els sistemes de suspensió."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les característiques i el funcionament dels elements dels diferents tipus de suspensions."
+              },
+              {
+                "codi": "CA13",
+                "text": "Coneix les funcions dels elements electrònics emprats en els sistemes de suspensió."
+              },
+              {
+                "codi": "CA14",
+                "text": "Interpreta els esquemes pneumàtics/hidràulics dels diferents sistemes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Interpreta els esquemes de funcionament electroelectrònics dels diferents sistemes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica la constitució i característiques de rodes i pneumàtics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza el diagrama de seqüència lògica del procés de diagnòstic d'avaries."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza diagrames de localització d'avaries guiades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Es fa responsable del treball del seu equip, tant de l'èxit com del fracàs."
+              },
+              {
+                "codi": "CA110",
+                "text": "Extreu aprenentatge de qualsevol situació viscuda o observada."
+              },
+              {
+                "codi": "CA111",
+                "text": "Pot centrar-se en els esdeveniments que interessa observar malgrat que estiguin envoltats d’altres que provoquin distorsió."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Coneix el funcionament dels sistemes de direcció, la ubicació i funcionalitat dels seus elements, identificant les avaries relacionant-les amb els símptomes i les seves causes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Relaciona la geometria de la direcció del vehicle amb el moviment angular de les rodes."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu les característiques de funcionament dels elements o mecanismes dels sistemes de direccions."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu la geometria de direcció així com els principis cinemàtics que la justifiquen."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica els diferents sistemes de direcció."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu la constitució i funcionament dels sistemes d'orientació de rodes del darrere."
+              },
+              {
+                "codi": "CA26",
+                "text": "Coneix les funcions dels elements electrònics emprats en els sistemes de direcció."
+              },
+              {
+                "codi": "CA27",
+                "text": "Interpreta els esquemes de funcionament electroelectrònics dels diferents sistemes."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza el diagrama de seqüència lògica del procés de diagnòstic d'avaries."
+              },
+              {
+                "codi": "CA29",
+                "text": "Utilitza correctament els diagrames de localització d'avaries guiades."
+              },
+              {
+                "codi": "CA210",
+                "text": "Influeix i dinamitza el seu entorn."
+              },
+              {
+                "codi": "CA211",
+                "text": "Motiva els companys vers la realització de la tasca."
+              },
+              {
+                "codi": "CA212",
+                "text": "Demostra una actitud d'atenció i col·laboració en les activitats realitzades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, i les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, de les eines, dels estris i de les màquines del taller d'electromecànica."
+              },
+              {
+                "codi": "CA32",
+                "text": "Descriu les mesures de seguretat i de protecció personal i col·lectiva que s'han d'adoptar en l'execució d'operacions en l'àrea d'electromecànica."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les causes més freqüents d'accidents en la manipulació de materials, eines, màquines i equips de treball pels treballadors."
+              },
+              {
+                "codi": "CA34",
+                "text": "Valora adequadament l'ordre i la neteja d'instal·lacions i equips com a primer factor de prevenció de riscos."
+              },
+              {
+                "codi": "CA35",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA36",
+                "text": "Compleix la normativa de prevenció de riscos laborals i de protecció ambiental en les operacions realitzades."
+              },
+              {
+                "codi": "CA37",
+                "text": "Roman informat sobre les noves tendències i innovacions."
+              },
+              {
+                "codi": "CA38",
+                "text": "Sap interaccionar amb èxit en diferents entorns."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Suspensió",
+                "items": [
+                  "Característiques, constitució i funcionament dels sistemes de suspensions.",
+                  "Principis físics que actuen sobre la suspensió.",
+                  "Elements de guiatge i suport.",
+                  "Tipus de suspensió.",
+                  "Esquemes de funcionament.",
+                  "Rodes i pneumàtics, característiques, identificació i legislació aplicada."
+                ]
+              },
+              {
+                "bloc": "Direcció",
+                "items": [
+                  "Característiques, constitució i funcionament dels sistemes de direcció.",
+                  "Càlcul de transmissió de moviment.",
+                  "Principis físics que actuen sobre la direcció.",
+                  "Elements de guiatge i suport.",
+                  "Geometria de la direcció, principis cinemàtics.",
+                  "Mecanismes i comandaments que integren les direccions.",
+                  "Esquemes de funcionament."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos i protecció ambiental",
+                "items": [
+                  "Riscos inherents al taller d'electromecànica.",
+                  "Mitjans de prevenció.",
+                  "Prevenció i protecció col·lectiva.",
+                  "Equips de protecció individual o EPI.",
+                  "Senyalització en el taller.",
+                  "Seguretat en el taller.",
+                  "Fitxes de seguretat.",
+                  "Gestió ambiental.",
+                  "Emmagatzematge i retirada de residus."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "diagnosi i manteniment dels sistemes de direcció i suspensió",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desmunta i munta els sistemes de suspensió i de direcció convencionals i pilotades interpretant i aplicant procediments establerts en la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les peces a desmuntar/muntar o substituir."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona i interpreta la documentació tècnica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona l'equip i les eines necessàries i en realitza el calibratge."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza el desmuntatge/muntatge dels elements que constitueixen els sistemes de direcció i de suspensió."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza el desmuntatge/muntatge de pneumàtics segons els procediments establerts."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica els parells d’estrenyiment reflectits en la documentació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza càlculs de relacions de transmissió en les direccions."
+              },
+              {
+                "codi": "CA18",
+                "text": "Verifica que les intervencions realitzades restitueixen la funcionalitat del sistema."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica les normes de seguretat personal i protecció ambiental estipulada en les diferents operacions."
+              },
+              {
+                "codi": "CA110",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA111",
+                "text": "Dóna suport per solucionar els problemes que se’ls puguin presentar als companys."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza els manteniments en sistemes de suspensió i direcció aplicant els procediments establerts en la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova la possible existència de sorolls, de lliscaments o de pèrdues de fluids en els sistemes de suspensió i de direcció."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona i interpreta la documentació tècnica relacionada amb el procés de reparació i manteniment."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els mitjans, les eines i l’utillatge específic necessari per a l'actuació sobre els diferents elements."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza la connexió i calibratge de les eines de prova o de mesura."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza el manteniment de conduccions, de vàlvules i de repartidors en funció del seu estat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza l'ajust de paràmetres als valors especificats en la documentació tècnica, així com l’ajust dels angles que formen la geometria de direcció."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova la transmissió d'esforços a través dels elements de comandament de la direcció i la suspensió."
+              },
+              {
+                "codi": "CA28",
+                "text": "Comprova que no existeixen sorolls anòmals en els sistemes intervinguts verificant que les intervencions realitzades restitueixen la funcionalitat requerida."
+              },
+              {
+                "codi": "CA29",
+                "text": "Mesura tots els valors de pressions hidràuliques i pneumàtiques, i els compara amb els que es reflecteixen a la documentació tècnica."
+              },
+              {
+                "codi": "CA210",
+                "text": "Realitza el reglatge d'altura sota el vehicle."
+              },
+              {
+                "codi": "CA211",
+                "text": "Realitza l'equilibratge estàtic i dinàmic del conjunt roda-pneumàtic."
+              },
+              {
+                "codi": "CA212",
+                "text": "Relaciona el desgast dels pneumàtics amb les causes que el produeixen."
+              },
+              {
+                "codi": "CA213",
+                "text": "Respecta les mesures de seguretat i els reglatges en el maneig d'elements de seguretat passiva."
+              },
+              {
+                "codi": "CA214",
+                "text": "Interactua i es relaciona amb els altres tot basant-se en la comprensió."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Realitza la diagnosi electrònica dels sistemes de suspensió i direcció relacionant les dades obtingudes amb els símptomes i les causes que les provoquen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les dades del vehicle o vehicles a la documentació tècnica."
+              },
+              {
+                "codi": "CA32",
+                "text": "Determina el tipus d’electrònica i de xarxes de comunicació del vehicle automòbil."
+              },
+              {
+                "codi": "CA33",
+                "text": "Configura i connecta correctament l’aparell de diagnosi."
+              },
+              {
+                "codi": "CA34",
+                "text": "Realitza l'extracció de dades de les centraletes electròniques per determinar l'avaria."
+              },
+              {
+                "codi": "CA35",
+                "text": "Compara els paràmetres obtinguts de les centrals electròniques amb els facilitats en especificacions tècniques."
+              },
+              {
+                "codi": "CA36",
+                "text": "Relaciona les avaries detectades amb els símptomes i causes detectades anteriorment."
+              },
+              {
+                "codi": "CA37",
+                "text": "Realitza la recàrrega de dades i esborrament de la memòria d'avaries de les centrals electròniques."
+              },
+              {
+                "codi": "CA38",
+                "text": "Persisteix en la consecució dels objectius."
+              },
+              {
+                "codi": "CA39",
+                "text": "Proposa millores de manera habitual."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Desmuntatge i muntatge",
+                "items": [
+                  "Interpreta la documentació tècnica.",
+                  "Eines, aparells i utillatges.",
+                  "Tipus d’unions d’elements mecànics.",
+                  "Tècniques de desmuntatge/muntatge dels elements de suspensió.",
+                  "Tècniques de desmuntatge/muntatge dels elements de direcció.",
+                  "Ordre i organització del lloc de treball.",
+                  "Precaucions i seguretat en el manteniment dels elements de suspensió."
+                ]
+              },
+              {
+                "bloc": "Manteniment",
+                "items": [
+                  "Manuals tècnics.",
+                  "Diagrames de diagnòstic d'avaries.",
+                  "Mètodes guiats per a la resolució d'avaries.",
+                  "Equips i mitjans de mesurament, control i diagnosi.",
+                  "Processos d'actuació per resoldre avaries.",
+                  "Recàrrega de fluids.",
+                  "Reglatge dels elements de suspensió.",
+                  "Ajust de paràmetres.",
+                  "Equilibratge estàtic i dinàmic.",
+                  "Alineament de direcció.",
+                  "Cotes de direcció: verificació i ajust.",
+                  "Aparells de diagnosi.",
+                  "Dades tècniques del vehicle.",
+                  "Unitats de control electrònic.",
+                  "Xarxes de comunicació.",
+                  "Lectura de memòries d’avaries de les unitats electròniques.",
+                  "Interpretació de paràmetres: de lectura directa i dels que subministren els equips d'autodiagnosi del vehicle.",
+                  "Esborrament de memòries de les unitats electròniques.",
+                  "Ajustos bàsics dels sistemes de suspensió.",
+                  "Ajustos bàsics dels sistemes de direcció."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

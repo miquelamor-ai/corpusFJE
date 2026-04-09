@@ -1,0 +1,718 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "sistemes de potència",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "configuració d’instal·lacions elèctriques",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina els paràmetres de sistemes elèctrics, realitzant càlculs i mesures en circuits de corrent altern monofàsic i trifàsic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les característiques dels circuits de corrent continu."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix les característiques del senyal de corrent altern sinusoïdal."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix el comportament dels receptors davant el corrent altern."
+              },
+              {
+                "codi": "CA14",
+                "text": "Determina els paràmetres d’un circuit de corrent altern."
+              },
+              {
+                "codi": "CA15",
+                "text": "Caracteritza els sistemes de distribució a tres i quatre fils."
+              },
+              {
+                "codi": "CA16",
+                "text": "Munta circuits amb receptors de corrent altern."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix l’efecte dels desequilibris en sistemes trifàsics."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza càlculs dels paràmetres d’un circuit de corrent altern, i els contrasta amb les mesures realitzades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Utilitza aplicacions informàtiques per simular circuits elèctrics."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica els harmònics, els seus efectes i les tècniques de filtratge."
+              },
+              {
+                "codi": "CA111",
+                "text": "Mostra autonomia resolent els problemes que es presenten."
+              },
+              {
+                "codi": "CA112",
+                "text": "És crític amb els resultats obtinguts i els relaciona amb els ordres de magnitud corresponents."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Identifica instal·lacions de distribució elèctrica industrials en BT i configura línies elèctriques, dimensionant conductors i proteccions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica la funció dels centres de transformació, les xarxes de BT i la instal·lació d’enllaç d’una indústria."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica les parts de les instal·lacions d’enllaç industrials i les relaciona amb la seva funció."
+              },
+              {
+                "codi": "CA23",
+                "text": "Dimensiona la secció dels conductors elèctrics d’una línia a partir de la previsió de càrregues."
+              },
+              {
+                "codi": "CA24",
+                "text": "Dimensiona les canalitzacions pels conductors d’una línia elèctrica."
+              },
+              {
+                "codi": "CA25",
+                "text": "Relaciona els dispositius de protecció elèctrica amb la seva funcionalitat i els seus paràmetres característics."
+              },
+              {
+                "codi": "CA26",
+                "text": "Dimensiona les proteccions del circuit de corrent altern mantenint la selectivitat elèctrica."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les tarifes elèctriques d’interès industrial i les relaciona amb el dimensionament de la instal·lació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica tècniques de compensació de l’energia reactiva."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica la instal·lació de posada a terra i la relaciona amb la seva funcionalitat."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica la reglamentació vigent."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Determinació dels paràmetres característics dels sistemes elèctrics",
+                "items": [
+                  "Corrent continu.",
+                  "Corrent altern.",
+                  "Comportament dels receptors en corrent altern.",
+                  "Paràmetres d’un circuit de corrent altern.",
+                  "Distribució a tres i quatre fils.",
+                  "Connexió de receptors trifàsics.",
+                  "Mesures directes i indirectes en circuits de corrent altern.",
+                  "Harmònics. Tècniques de detecció, mesura i filtratge."
+                ]
+              },
+              {
+                "bloc": "Instal·lacions de distribució elèctrica en BT en l’àmbit industrial",
+                "items": [
+                  "Centres de transformació. Xarxes de BT aèries i subterrànies.",
+                  "Instal·lacions d’enllaç industrials. Escomesa, caixa general de protecció, línia general d’alimentació, centralització de comptadors, derivacions individuals, entre d’altres.",
+                  "Dimensionament de les seccions dels conductors d’una línia elèctrica industrial.",
+                  "Dimensionament de les canalitzacions d’una línia elèctrica industrial.",
+                  "Proteccions elèctriques. Selectivitat de les proteccions. Dimensionament de proteccions per a una línia elèctrica industrial.",
+                  "Tarifes elèctriques en l’entorn industrial.",
+                  "Equips per compensar l’energia reactiva del sistema.",
+                  "Instal·lació de posada a terra.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "màquines elèctriques",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix el funcionament de les màquines elèctriques estàtiques i dinàmiques, identificant la seva aplicació i determinant les seves característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els tipus de màquines elèctriques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els elements mecànics i elèctrics de les màquines."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona cada element de la màquina amb la seva funció."
+              },
+              {
+                "codi": "CA14",
+                "text": "Calcula les magnituds elèctriques i mecàniques requerides per l’aplicació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Relaciona les màquines amb les seves aplicacions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Interpreta la placa de característiques i les corbes característiques de les màquines."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica els sistemes de posada en marxa, inversió de gir i frenada, dels motors elèctrics."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els sistemes de variació de velocitat dels motors elèctrics."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica els sistemes d’acoblament de càrregues als motors i entre màquines."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra iniciativa en la resolució de les tasques proposades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Instal·la motors elèctrics, realitzant esquemes de l’automatisme i ajustant els accionaments elèctrics.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les especificacions tècniques de l’automatització."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona el motor elèctric segons els requeriments de l’automatització."
+              },
+              {
+                "codi": "CA23",
+                "text": "Dimensiona els accionaments elèctrics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza esquemes de connexió."
+              },
+              {
+                "codi": "CA25",
+                "text": "Connecta els accionaments al motor."
+              },
+              {
+                "codi": "CA26",
+                "text": "Configura i munta les proteccions elèctriques del motor."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els diferents tipus de cicles de funcionament dels motors elèctrics."
+              },
+              {
+                "codi": "CA28",
+                "text": "Ajusta els paràmetres dels accionaments elèctrics."
+              },
+              {
+                "codi": "CA29",
+                "text": "Caracteritza el funcionament del motor segons diferents ajustaments dels seus accionaments."
+              },
+              {
+                "codi": "CA210",
+                "text": "Munta diferents tipus d’engegada i de frenada de motors en buit i en càrrega i realitza inversions de gir."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mesura les pertorbacions en l’engegada de motors."
+              },
+              {
+                "codi": "CA212",
+                "text": "Respecta els paràmetres de compatibilitat electromagnètica."
+              },
+              {
+                "codi": "CA213",
+                "text": "Aplica la reglamentació vigent."
+              },
+              {
+                "codi": "CA214",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA215",
+                "text": "Aplica criteris de qualitat."
+              },
+              {
+                "codi": "CA216",
+                "text": "Organitza les diferents fases del treball en la realització de maniobres de màquines elèctriques."
+              },
+              {
+                "codi": "CA217",
+                "text": "Manté l’àrea de treball, els utensilis i els equips amb el grau apropiat d’ordre, conservació i netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Configura sistemes de control i regulació de motors elèctrics, seleccionant, connectant i ajustant els accionaments electrònics.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Relaciona els accionaments de les màquines elèctriques amb la seva funcionalitat i aplicacions industrials."
+              },
+              {
+                "codi": "CA32",
+                "text": "Determina les característiques dels accionaments electrònics de potència."
+              },
+              {
+                "codi": "CA33",
+                "text": "Realitza esquemes de connexió dels accionaments."
+              },
+              {
+                "codi": "CA34",
+                "text": "Ajusta i programa els paràmetres dels accionaments en funció de les variables de control."
+              },
+              {
+                "codi": "CA35",
+                "text": "Caracteritza el funcionament del motor segons diferents ajustaments dels seus accionaments."
+              },
+              {
+                "codi": "CA36",
+                "text": "Connecta els accionaments al motor."
+              },
+              {
+                "codi": "CA37",
+                "text": "Controla l’arrencada i la frenada de motors elèctrics de CC i CA utilitzant accionaments electrònics."
+              },
+              {
+                "codi": "CA38",
+                "text": "Regula la velocitat, l’acceleració i el parell de motors elèctrics de CC i CA utilitzant accionaments electrònics."
+              },
+              {
+                "codi": "CA39",
+                "text": "Identifica els elements de comandament i de senyalització que configuren el tauler de control."
+              },
+              {
+                "codi": "CA310",
+                "text": "Aplica la reglamentació vigent."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Verifica el funcionament de màquines elèctriques, identificant possibles avaries i desenvolupant la documentació requerida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA42",
+                "text": "Verifica la seqüència de control."
+              },
+              {
+                "codi": "CA43",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA44",
+                "text": "Mesura els paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA45",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA46",
+                "text": "Identifica la causa de l’avaria."
+              },
+              {
+                "codi": "CA47",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA48",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA49",
+                "text": "Treballa en equip."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Manté màquines elèctriques, substituint elements i realitzant el seu ajustament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Diferencia tipus de manteniment."
+              },
+              {
+                "codi": "CA52",
+                "text": "Identifica les operacions de manteniment."
+              },
+              {
+                "codi": "CA53",
+                "text": "Planifica el manteniment preventiu i predictiu."
+              },
+              {
+                "codi": "CA54",
+                "text": "Elabora el procediment d’actuació."
+              },
+              {
+                "codi": "CA55",
+                "text": "Interpreta els protocols d’actuació i el pla de qualitat per al manteniment correctiu."
+              },
+              {
+                "codi": "CA56",
+                "text": "Comprova els paràmetres de la instal·lació."
+              },
+              {
+                "codi": "CA57",
+                "text": "Determina els elements més usuals susceptibles de ser intervinguts."
+              },
+              {
+                "codi": "CA58",
+                "text": "Substitueix elements de les instal·lacions automàtiques."
+              },
+              {
+                "codi": "CA59",
+                "text": "Ajusta accionaments i màquines elèctriques."
+              },
+              {
+                "codi": "CA510",
+                "text": "Redacta informes de manteniment i registres d’avaries utilitzant eines informàtiques."
+              },
+              {
+                "codi": "CA511",
+                "text": "Aplica la reglamentació vigent."
+              },
+              {
+                "codi": "CA512",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA513",
+                "text": "Manté l’àrea de treball, els utensilis i els equips amb el grau apropiat d’ordre, conservació i netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA6",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental en les operacions de muntatge i manteniment de màquines elèctriques, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA61",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, de les eines, dels estris, de les màquines i dels mitjans de transport."
+              },
+              {
+                "codi": "CA62",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la realització de proves i verificacions elèctriques i la substitució i reparació d’elements elèctrics."
+              },
+              {
+                "codi": "CA63",
+                "text": "Descriu les característiques i la finalitat dels senyals reglamentaris, per indicar llocs de risc i situacions d’emergència."
+              },
+              {
+                "codi": "CA64",
+                "text": "Opera amb màquines i eines, respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA65",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials, eines, màquines de tall i conformació, situacions de risc elèctric, entre d’altres."
+              },
+              {
+                "codi": "CA66",
+                "text": "Reconeix els elements de seguretat, els equips de protecció individual i col·lectiva (calçat, protecció ocular i indumentària, entre d’altres) que s’han d’emprar en les diferents operacions de muntatge i de manteniment."
+              },
+              {
+                "codi": "CA67",
+                "text": "Identifica l’ús correcte dels elements de seguretat i dels equips de protecció individual i col·lectiva."
+              },
+              {
+                "codi": "CA68",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerides."
+              },
+              {
+                "codi": "CA69",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA610",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA611",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement del funcionament de les màquines elèctriques",
+                "items": [
+                  "Classificació de les màquines elèctriques.",
+                  "Elements mecànics i elèctrics de les màquines.",
+                  "Magnituds elèctriques i mecàniques de les màquines elèctriques. Corbes característiques.",
+                  "Placa de característiques.",
+                  "Màquines elèctriques estàtiques. Transformadors elèctrics.",
+                  "Màquines elèctriques rotatives. Generadors i motors elèctrics.",
+                  "Tipus de motors. Corrent continu. Corrent altern: síncrons i asíncrons. Dahlander. Servomotors. De reluctància. Pas a pas. Síncrons sense escombretes (brushless). Lineals. Entre d’altres.",
+                  "Criteris de selecció de màquines elèctriques.",
+                  "Esquemes de connexió de màquines.",
+                  "Sistemes d’engegada, inversió de gir i frenada de motors.",
+                  "Sistemes d’acoblament de càrregues als motors i entre màquines.",
+                  "Sistemes de variació de velocitat dels motors elèctrics."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i connexió de motors elèctrics",
+                "items": [
+                  "Especificacions tècniques de la instal·lació.",
+                  "Criteris de selecció de components.",
+                  "Esquemes de connexió.",
+                  "Simbologia normalitzada.",
+                  "Tècniques de muntatge i connexió.",
+                  "Accionaments elèctrics: principis de funcionament, aplicacions i característiques tècniques.",
+                  "Protecció elèctrica de motors.",
+                  "Refrigeració de motors.",
+                  "Paràmetres d’ajustament dels accionaments elèctrics.",
+                  "Posada en marxa de motors elèctrics. Engegada en buit. Engegada en càrrega. Inversió de gir.",
+                  "Variació de la velocitat i frenada de motors.",
+                  "Cicles de funcionament. Servei continu, temporal i intermitent.",
+                  "Tècniques de mesura.",
+                  "Influència de les pertorbacions elèctriques en el funcionament de motors. Compatibilitat electromagnètica. Filtres d’interferència electromagnètica (EMI).",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Configuració de sistemes de control i regulació de motors elèctrics",
+                "items": [
+                  "Accionaments electrònics: arrencador electrònic, variadors de velocitat de motors de CC i variadors de freqüència.",
+                  "Connexió d’accionaments electrònics al motor.",
+                  "Paràmetres d’ajust de velocitat, acceleració, parell, frenada i sentit de gir del motor.",
+                  "Programació d’accionaments electrònics.",
+                  "Control de l’arrencada, sentit de gir i frenada de motors de CC mitjançant accionaments electrònics.",
+                  "Regulació de la velocitat de motors de CC mitjançant accionaments electrònics.",
+                  "Engegada de motors de CA mitjançant arrencador electrònic.",
+                  "Control de l’arrencada, sentit de gir i frenada de motors de CA mitjançant variador de freqüència.",
+                  "Regulació de velocitat, acceleració, desacceleració i parell de motors de CA mitjançant variador de freqüència.",
+                  "Monitoratge d’instruccions i de paràmetres.",
+                  "Aplicacions industrials.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Verificació i posada en marxa de màquines elèctriques",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Instruments de mesura.",
+                  "Diagnosi i localització d’avaries.",
+                  "Tècniques d’actuació.",
+                  "Registres d’avaries.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Manteniment de màquines elèctriques",
+                "items": [
+                  "Tipus de manteniment.",
+                  "Operacions de manteniment a les màquines elèctriques.",
+                  "Pla de manteniment de màquines elèctriques: reparació, modificació, substitució.",
+                  "Procediments d’actuació en el manteniment de màquines elèctriques.",
+                  "Tipus d’informes utilitzats en el manteniment de màquines elèctriques. Històric d’avaries.",
+                  "Ajustament d’elements i de sistemes.",
+                  "Aplicacions informàtiques específiques.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental en les operacions de muntatge i manteniment de màquines elèctriques",
+                "items": [
+                  "Normativa de prevenció de riscos laborals relativa a les màquines elèctriques.",
+                  "Senyalització, tipus i senyals.",
+                  "Prevenció de riscos laborals en els processos de muntatge i manteniment de màquines elèctriques.",
+                  "Prevenció de l’efecte flicker.",
+                  "Equips de protecció individual: característiques i criteris d’utilització. Protecció col·lectiva. Mitjans i equips de protecció.",
+                  "Normativa reguladora en gestió de residus."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "electrònica de potència",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina les característiques de circuits electrònics de potència, analitzant el seu funcionament i configurant algunes de les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix el funcionament dels sistemes electrònics de control de potència."
+              },
+              {
+                "codi": "CA12",
+                "text": "Relaciona els sistemes electrònics de control de potència amb les seves aplicacions."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina les característiques dels convertidors estàtics de potència: rectificadors monofàsics, onduladors i trossejadors."
+              },
+              {
+                "codi": "CA14",
+                "text": "Determina les característiques dels circuits amplificadors i oscil·ladors."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina les característiques dels sistemes d’alimentació ininterrompuda (SAI) i els relaciona amb les seves aplicacions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Representa circuits electrònics de potència utilitzant la simbologia normalitzada."
+              },
+              {
+                "codi": "CA17",
+                "text": "Munta circuits electrònics de potència."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza aplicacions informàtiques per simular circuits electrònics de potència."
+              },
+              {
+                "codi": "CA19",
+                "text": "Mesura i visualitza senyals d’entrada i de sortida en circuits electrònics analògics."
+              },
+              {
+                "codi": "CA110",
+                "text": "Aplica la normativa vigent."
+              },
+              {
+                "codi": "CA111",
+                "text": "Respecta els temps previstos en els processos."
+              },
+              {
+                "codi": "CA112",
+                "text": "Aplica criteris de qualitat."
+              },
+              {
+                "codi": "CA113",
+                "text": "Manté l’àrea de treball, els utensilis i els equips amb el grau apropiat d’ordre, conservació i netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica el funcionament del sistema electrònic de potència, identificant possibles avaries i desenvolupant la documentació requerida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica la seqüència de control."
+              },
+              {
+                "codi": "CA23",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA24",
+                "text": "Mesura els paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica la causa de l’avaria."
+              },
+              {
+                "codi": "CA27",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA28",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA29",
+                "text": "Treballa en equip."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Determinació de les característiques dels circuits electrònics de potència",
+                "items": [
+                  "Components electrònics de control de potència. Díodes, tiristors, triacs, GTO, MOSFET, entre d’altres.",
+                  "Rectificadors monofàsics no controlats i controlats.",
+                  "Fonts d’alimentació lineals i commutades.",
+                  "Trossejadors.",
+                  "Onduladors.",
+                  "Amplificadors operacionals.",
+                  "Oscil·ladors.",
+                  "Sistemes d’alimentació ininterrompuda (SAI).",
+                  "Aplicacions informàtiques per a la simulació de circuits electrònics.",
+                  "Aparells i tècniques de mesura.",
+                  "Normativa vigent."
+                ]
+              },
+              {
+                "bloc": "Verificació i posada en marxa del sistema electrònic de potència",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Instruments de mesura.",
+                  "Diagnosi i localització d’avaries.",
+                  "Tècniques d’actuació.",
+                  "Registres d’avaries.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

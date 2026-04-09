@@ -1,0 +1,465 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "LCB",
+    "titol_cicle": "Laboratori Clínic i Biomèdic",
+    "grau": "superior",
+    "familia_professional": "Sanitat",
+    "font_tipus": "ordre",
+    "font_ref": "Ordre ENS/238/2017, de 17 d'octubre",
+    "titol_decret": "ORDRE ENS/238/2017, de 17 d'octubre, per la qual s'estableix el currículum del cicle formatiu de grau superior de Laboratori Clínic i Biomèdic.",
+    "data_decret": "2017-10-17",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/o/2017/10/17/ens238",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "Anàlisi Bioquímica",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "tècniques del laboratori de bioquímica",
+        "hores": 43,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica les tècniques utilitzades al laboratori de bioquímica clínica, identificant els equips i les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Detalla el fonament de les tècniques basades en els mètodes de detecció de la radiació electromagnètica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els components d'aparells i equips."
+              },
+              {
+                "codi": "CA13",
+                "text": "Posa a punt els equips."
+              },
+              {
+                "codi": "CA14",
+                "text": "Prepara els patrons i obté corbes de calibratge."
+              },
+              {
+                "codi": "CA15",
+                "text": "Fa mesuraments a punt final, dos punts i cinètiques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Prepara les fases i aplica la mostra per a la separació cromatogràfica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu el fonament de l'osmometria."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els riscos inherents al mètode de treball i la tècnica instrumental seleccionada."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica els procediments de manteniment, conservació i neteja d'equips i materials."
+              },
+              {
+                "codi": "CA110",
+                "text": "Defineix l'ús eficient dels recursos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Les tècniques utilitzades al laboratori de bioquímica clínica",
+                "items": [
+                  "Espectrometria d'absorció molecular.",
+                  "Espectrometria d'emissió atòmica.",
+                  "Espectrometria d'absorció atòmica.",
+                  "Espectrometria de luminescència.",
+                  "Espectrometria de masses.",
+                  "Espectrometria de dispersió de la radiació.",
+                  "Fotometria de reflectància. Química seca.",
+                  "Cromatografia.",
+                  "Osmometria.",
+                  "Refractometria de líquids.",
+                  "Automatització."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "anàlisis bioquímiques dels components metabòlics",
+        "hores": 80,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Analitza les magnituds bioquímiques relacionades amb el metabolisme dels principis immediats, seleccionant la tècnica adequada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix els perfils bioquímics relacionats amb el metabolisme dels principis immediats."
+              },
+              {
+                "codi": "CA12",
+                "text": "Mesura la concentració de glucosa, fructosamina i Hb glicosilada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina la concentració de lípids, lipoproteïnes i apoproteïnes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Mesura la concentració de proteïnes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza proteïnogrames i quantifica les fraccions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Valora la coherència del resultat obtingut i, si escau, aplica mesures correctores."
+              },
+              {
+                "codi": "CA17",
+                "text": "Recull dades i efectua el control de qualitat en allò referent a les anàlisis realitzades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica les normes de qualitat, prevenció de riscos laborals i protecció ambiental a tot el procés."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Analitza les magnituds bioquímiques relacionades amb els productes acabats del metabolisme seleccionant la tècnica adequada.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Fa la posada a punt dels equips en funció de la tècnica i la variable a determinar."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona reactius, blancs i controls."
+              },
+              {
+                "codi": "CA23",
+                "text": "Verifica el calibratge de l'equip."
+              },
+              {
+                "codi": "CA24",
+                "text": "Determina magnituds com a bilirubina, creatinina, àcid úric, urea i àcid làctic."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza sistemes de química seca en la determinació d'aquestes magnituds."
+              },
+              {
+                "codi": "CA26",
+                "text": "Valora la coherència del resultat obtingut i, si escau, aplica mesures correctores."
+              },
+              {
+                "codi": "CA27",
+                "text": "Relaciona les desviacions d'aquestes variables amb les principals síndromes associades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Recull dades i efectua el control de qualitat analític."
+              },
+              {
+                "codi": "CA29",
+                "text": "Emplena informes tècnics."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Determina magnituds relacionades amb els equilibris hidroelectrolític i acidobàsic associant-les amb els trastorns corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les variables bioquímiques dels trastorns hidroelectrolítics i acidobàsics."
+              },
+              {
+                "codi": "CA32",
+                "text": "Descriu la tècnica que determina l'osmolalitat."
+              },
+              {
+                "codi": "CA33",
+                "text": "Descriu les tècniques de determinació de gasos i electròlits."
+              },
+              {
+                "codi": "CA34",
+                "text": "Defineix les magnituds bioquímiques relacionades amb el metabolisme del calci i el fòsfor."
+              },
+              {
+                "codi": "CA35",
+                "text": "Determina la concentració de sodi i potassi."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica els patrons d'alteració de gasos en sang."
+              },
+              {
+                "codi": "CA37",
+                "text": "Descriu les magnituds a determinar a la capçalera del pacient."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Determina enzims, descrivint la seqüència del procediment.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Classifica els enzims segons la seva funció i localització."
+              },
+              {
+                "codi": "CA42",
+                "text": "Descriu el fonament de la determinació de l'activitat enzimàtica."
+              },
+              {
+                "codi": "CA43",
+                "text": "Interpreta el protocol de la tècnica."
+              },
+              {
+                "codi": "CA44",
+                "text": "Verifica el calibratge de l'equip."
+              },
+              {
+                "codi": "CA45",
+                "text": "Determina els enzims hepàtics i pancreàtics."
+              },
+              {
+                "codi": "CA46",
+                "text": "Determina els enzims musculars i cardíacs."
+              },
+              {
+                "codi": "CA47",
+                "text": "Separa isoenzims per electroforesi."
+              },
+              {
+                "codi": "CA48",
+                "text": "Recull dades i efectua el control de qualitat analític."
+              },
+              {
+                "codi": "CA49",
+                "text": "Emplena informes tècnics."
+              },
+              {
+                "codi": "CA410",
+                "text": "Aplica les normes de qualitat, prevenció de riscos laborals i protecció ambiental a tot el procés."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Les magnituds bioquímiques relacionades amb el metabolisme de principis immediats",
+                "items": [
+                  "Patrons d'alteració del metabolisme dels carbohidrats: determinacions.",
+                  "Patrons d'alteració del metabolisme de lípids i lipoproteïnes: determinacions.",
+                  "Patrons d'alteració del metabolisme de proteïnes: determinacions. Separació de proteïnes plasmàtiques."
+                ]
+              },
+              {
+                "bloc": "Les magnituds bioquímiques relacionades amb els productes acabats del metabolisme",
+                "items": [
+                  "Composts nitrogenats no proteics: urea i creatinina. Determinacions. Aclariments.",
+                  "Cossos cetònics.",
+                  "Determinació de bilirubina total, directa i indirecta.",
+                  "Àcid làctic i pirúvic.",
+                  "Alteracions del metabolisme de les purines: determinació d'àcid úric."
+                ]
+              },
+              {
+                "bloc": "Les magnituds bioquímiques relacionades amb els trastorns dels equilibris hidroelectrolític i acidobàsic",
+                "items": [
+                  "Equilibri hidroelectrolític.",
+                  "Patrons d'alteració de l'EAB: determinació de gasos en sang. Gasometria.",
+                  "Determinacions a la capçalera del pacient (POCT)."
+                ]
+              },
+              {
+                "bloc": "Determinació d'enzims",
+                "items": [
+                  "Utilitat de la determinació enzimàtica en el diagnòstic clínic.",
+                  "Enzims.",
+                  "Isoenzims. Determinació.",
+                  "Patrons d'alteració enzimàtica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "anàlisis bioquímiques en líquids corporals, femta i estudis especials",
+        "hores": 42,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza tècniques d'estudi de mostres d'orina, seguint els protocols establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Aplica tècniques d'anàlisis fisicoquímiques i bioquímiques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Centrifuga la mostra i n'obté el sediment."
+              },
+              {
+                "codi": "CA13",
+                "text": "Defineix les característiques microscòpiques del sediment urinari."
+              },
+              {
+                "codi": "CA14",
+                "text": "Elabora un arxiu digital de les imatges obtingudes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina la concentració de substàncies excretades en orina de 24 hores."
+              },
+              {
+                "codi": "CA16",
+                "text": "Calcula la depuració de creatinina."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza anàlisis de càlculs urinaris."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica les normes de qualitat, seguretat, salut laboral i protecció ambiental a tot el procés."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Caracteritza determinacions en femta i altres líquids corporals seleccionant la tècnica en funció de la mostra.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Defineix les magnituds bioquímiques associades a l'absorció."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix les característiques microscòpiques de la malabsorció en femta."
+              },
+              {
+                "codi": "CA23",
+                "text": "Determina la presència de sang en femta."
+              },
+              {
+                "codi": "CA24",
+                "text": "Determina magnituds bioquímiques en LCR i líquids serosos."
+              },
+              {
+                "codi": "CA25",
+                "text": "Fa el recompte d'elements formes en LCR i líquids serosos."
+              },
+              {
+                "codi": "CA26",
+                "text": "Relaciona les desviacions d'aquestes variables amb les principals patologies associades."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les determinacions bioquímiques i microscòpiques a realitzar en líquid sinovial."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica les determinacions bioquímiques i microscòpiques a realitzar en semen."
+              },
+              {
+                "codi": "CA29",
+                "text": "Aplica criteris d'ordre i neteja en la recollida d'equips i materials."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Caracteritza les determinacions indicades en altres estudis especials descrivint les tècniques que s'empraran.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Defineix els principals patrons d'alteració hormonal."
+              },
+              {
+                "codi": "CA32",
+                "text": "Descriu les proves basals i funcionals utilitzades en el diagnòstic dels trastorns endocrins."
+              },
+              {
+                "codi": "CA33",
+                "text": "Determina hormones com TSH, T3, T4."
+              },
+              {
+                "codi": "CA34",
+                "text": "Determina marcadors tumorals."
+              },
+              {
+                "codi": "CA35",
+                "text": "Descriu les tècniques utilitzades en el monitoratge de fàrmacs."
+              },
+              {
+                "codi": "CA36",
+                "text": "Realitza procediments per detectar la presència de drogues d'abús i tòxics en mostres biològiques."
+              },
+              {
+                "codi": "CA37",
+                "text": "Identifica les variables bioquímiques en el seguiment de l'embaràs."
+              },
+              {
+                "codi": "CA38",
+                "text": "Enumera les determinacions pròpies del diagnòstic de metabolopaties."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Les tècniques d'estudi de mostres d'orina",
+                "items": [
+                  "Estudi de l'orina.",
+                  "Examen físic de l'orina.",
+                  "Examen bioquímic de l'orina.",
+                  "Càlcul de l'aclariment de creatinina.",
+                  "Anàlisi microscòpica del sediment urinari.",
+                  "Anàlisi de càlculs urinaris."
+                ]
+              },
+              {
+                "bloc": "Les determinacions en femta i altres líquids corporals",
+                "items": [
+                  "Estudi de la funció digestiva. Determinació de substàncies eliminades per excrements.",
+                  "Determinació de sang en femta.",
+                  "Estudi bioquímic i microscòpic d'altres líquids corporals: líquid cefaloraquidi i líquid sinovial.",
+                  "Tècniques de reproducció assistida. Seminograma.",
+                  "Estudi bioquímic de líquids serosos: líquids pleurals, pericàrdics i peritoneals."
+                ]
+              },
+              {
+                "bloc": "Caracterització de les determinacions indicades en estudis especials",
+                "items": [
+                  "Fisiopatologia hormonal. Mètodes de determinació d'hormones. Patrons d'alteració hormonal.",
+                  "Determinació de marcadors tumorals.",
+                  "Monitoratge de fàrmacs.",
+                  "Detecció i quantificació de drogues d'abús i altres tòxics.",
+                  "Embaràs i neonatologia: marcadors bioquímics. Detecció precoç de malalties endocrinometabòliques en el nounat.",
+                  "Proves de fecundació.",
+                  "Protocol d'estudi de càlculs biliars."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "instal·lacions elèctriques especials",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "instal·lacions d’enllumenat exterior",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta una instal·lació elèctrica petita d’enllumenat exterior (llums muntats sobre braç, fixats sobre mur o paret, o sobre columna, entre d’altres possibilitats) aplicant la normativa i reglamentació vigents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta les especificacions tècniques de la instal·lació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Calcula els paràmetres necessaris per al dimensionament de la instal·lació (conductors, posada a terra, dispositius de tall, comandament i protecció, entre d’altres), utilitzant les lleis i regles del càlcul electrotècnic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina el traçat de la instal·lació i els sistemes d’instal·lació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Especifica les característiques de la instal·lació de posada a terra de la instal·lació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Dibuixa l’esquema unifilar de la instal·lació i el funcional del quadre de comandament, utilitzant simbologia normalitzada i suport informàtic."
+              },
+              {
+                "codi": "CA16",
+                "text": "Selecciona, de catàlegs comercials, els materials, equips i dispositius que configuren la instal·lació, a partir dels càlculs realitzats, l’aplicació de la normativa i reglamentació vigent i les especificacions tècniques de la instal·lació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Aplica la normativa i reglamentació vigents."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza les operacions mecàniques i elèctriques necessàries (muntatge de llums i equips auxiliars, caixes de protecció i derivació, canalitzacions elèctriques i quadre de protecció, mesura i comandament, connexió d’elements, entre d’altres), complint les especificacions donades, les instruccions dels fabricants i la normativa i reglamentació vigents."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza el muntatge d’acord amb els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA110",
+                "text": "Verifica la posada en servei de la instal·lació seguint el procediment descrit a la norma UNE 20460-6-61."
+              },
+              {
+                "codi": "CA111",
+                "text": "Utilitza el luxímetre per mesurar el nivell d’il·luminació."
+              },
+              {
+                "codi": "CA112",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA113",
+                "text": "Col·labora amb l’equip de treball en la resolució dels problemes que es presenten, amb una actitud responsable, respectuosa i tolerant."
+              },
+              {
+                "codi": "CA114",
+                "text": "Demostra coneixement suficient de la normativa aplicable a les instal·lacions d’enllumenat exterior."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Manté instal·lacions d’enllumenat exterior aplicant tècniques de mesuraments elèctrics i relacionant la disfunció amb la causa que la produeix.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els símptomes observats o mesurats com a disfuncions o possibles avaries."
+              },
+              {
+                "codi": "CA22",
+                "text": "Formula hipòtesis raonades de les possibles causes de les avaries, reals o provocades, en una instal·lació d’enllumenat exterior."
+              },
+              {
+                "codi": "CA23",
+                "text": "Localitza les avaries realitzant les proves, comprovacions i mesures d’acord amb el protocol tècnic d’intervenció establert."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza les operacions de reparació o substitució dels elements aplicant els procediments requerits."
+              },
+              {
+                "codi": "CA25",
+                "text": "Aplica la normativa i reglamentació vigents."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza adequadament equips i eines, segons el tipus d’intervenció."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova la funcionalitat de la instal·lació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA29",
+                "text": "Descriu les mesures més importants a adoptar en el manteniment preventiu d’una instal·lació d’enllumenat exterior."
+              },
+              {
+                "codi": "CA210",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica les normes de prevenció de riscos laborals i de protecció ambiental en el muntatge i manteniment d’instal·lacions elèctriques especials identificant-ne els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos laborals en les tasques de muntatge i manteniment d’instal·lacions elèctriques especials (manipulació de materials, equips, eines, estris, màquines, verificació d’instal·lacions, reparació i substitució d’elements, treballs en alçada, entre d’altres)."
+              },
+              {
+                "codi": "CA32",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA34",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lacions d’enllumenat exterior",
+                "items": [
+                  "Definició.",
+                  "Connexions de servei des de les xarxes de distribució de la companyia subministradora.",
+                  "Càlcul de la secció dels conductors.",
+                  "Eficiència energètica.",
+                  "Quadres de protecció, mesura i control.",
+                  "Xarxes d’alimentació: tipus, sistemes d’instal·lació i materials emprats.",
+                  "Suports de llums: característiques i instal·lació elèctrica.",
+                  "Llums: classificació, característiques, instal·lació elèctrica i equips auxiliars. Llums amb LED.",
+                  "Esquemes de connexió de diferents tipus de làmpades i equips auxiliars.",
+                  "Protecció contra contactes directes i indirectes.",
+                  "Posada a terra.",
+                  "Verificació de la posada en servei d’instal·lacions d’enllumenat exterior seguint la metodologia de la norma UNE-20.460-6-61.",
+                  "Conceptes bàsics d’il·luminació: flux lluminós i nivell d’il·luminació. Ús del luxímetre.",
+                  "Qualitat en el muntatge d’instal·lacions d’enllumenat exterior.",
+                  "Treball en equip i resolució de problemes en les instal·lacions d’enllumenat exterior.",
+                  "Normativa i reglamentació aplicable:"
+                ]
+              },
+              {
+                "bloc": "Manteniment i detecció d’avaries d’instal·lacions d’enllumenat exterior",
+                "items": [
+                  "Avaries tipus en les instal·lacions d’enllumenat exterior: símptomes i efectes.",
+                  "Diagnosi d’avaries i defectes de la instal·lació d’enllumenat exterior: mètodes d’anàlisi i avaluació.",
+                  "Reparació d’avaries d’instal·lacions d’enllumenat exterior: mètodes i tècniques, ordres de treball i elements de seguretat.",
+                  "Manteniment d’instal·lacions d’enllumenat exterior."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos laborals i protecció ambiental en les operacions de muntatge i manteniment d’instal·lacions elèctriques especials",
+                "items": [
+                  "Identificació de riscos.",
+                  "Mesures de seguretat i de protecció individual (aplicació de la normativa de prevenció de riscos laborals, inclosa la de seguretat davant el risc elèctric).",
+                  "Classificació dels residus generats per a la retirada selectiva.",
+                  "Compliment de la normativa de protecció ambiental i de prevenció de riscos laborals."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "instal·lacions de receptors i de característiques especials",
+        "hores": 77,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta una instal·lació elèctrica petita d’un local de característiques especials interpretant-ne la documentació tècnica i aplicant-hi el REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta el projecte de la instal·lació identificant els elements que la componen i les seves característiques amb la representació simbòlica en els esquemes i l’emplaçament en els plànols."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona –de catàlegs comercials– els materials, equips i dispositius que configuren la instal·lació a partir de les especificacions del projecte."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els requeriments del projecte en relació amb la qualitat i la seguretat en les operacions de muntatge de la instal·lació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Organitza les diferents fases del muntatge."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza el replanteig d’una instal·lació petita d’un local de característiques especials, seguint la documentació tècnica."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza les operacions mecàniques i elèctriques necessàries (muntatge de canalitzacions elèctriques, premsaestopes, si escauen, caixes de connexió, elements de maniobra, receptors per a enllumenat, dispositius de comandament i protecció, bases de preses de corrent domèstiques i/o industrials, execució de connexions, entre d’altres), d’acord amb la documentació tècnica, les instruccions dels fabricants i les prescripcions del REBT."
+              },
+              {
+                "codi": "CA17",
+                "text": "Fa un ús adequat del material, equips i eines."
+              },
+              {
+                "codi": "CA18",
+                "text": "Respecta els temps estipulats."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza el muntatge d’acord amb els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA110",
+                "text": "Comprova la funcionalitat de la instal·lació."
+              },
+              {
+                "codi": "CA111",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA112",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA113",
+                "text": "Actua amb responsabilitat ."
+              },
+              {
+                "codi": "CA114",
+                "text": "Demostra coneixement suficient de la reglamentació aplicable a les instal·lacions en locals de característiques especials."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta instal·lacions elèctriques amb finalitats o en ubicacions especials aplicant el REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta les especificacions del client i relaciona la tipologia de la ins-tal·lació"
+              },
+              {
+                "codi": "CA22",
+                "text": "Calcula els paràmetres necessaris per al dimensionament de la instal·lació (conductors, dispositius de seccionament, si escauen, i de protecció, entre d’altres), utilitzant les lleis i regles del càlcul electrotècnic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Determina els sistemes d’instal·lació a utilitzar."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona –de catàlegs comercials– els materials, equips i dispositius que configuren la instal·lació, tenint en compte els càlculs realitzats i les característiques de la instal·lació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Aplica la normativa i reglamentació vigents."
+              },
+              {
+                "codi": "CA26",
+                "text": "Dibuixa, manualment o amb suport informàtic, l’esquema unifilar de la instal·lació, utilitzant simbologia normalitzada, i un croquis o plànol amb la ubicació en planta de cada element de la instal·lació i el traçat d’aquesta."
+              },
+              {
+                "codi": "CA27",
+                "text": "Organitza les diferents fases del muntatge."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza les operacions mecàniques i elèctriques necessàries per al muntatge de la instal·lació (provisional d’obres, part de la instal·lació a escala d’un estand o d’una piscina, entre d’altres possibilitats) d’acord amb la documentació tècnica, les instruccions dels fabricants i les prescripcions del REBT."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza el muntatge d’acord amb els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA210",
+                "text": "Comprova la funcionalitat de la instal·lació."
+              },
+              {
+                "codi": "CA211",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA212",
+                "text": "Actua amb responsabilitat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA214",
+                "text": "Demostra coneixement suficient de la reglamentació aplicable a les instal·lacions elèctriques amb finalitats i en ubicacions especials."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Munta una instal·lació de molt baixa tensió interpretant-ne la documentació tècnica i aplicant-hi el REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu diferents casos reals d’instal·lacions de MBT."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els elements de la instal·lació i les seves característiques amb la representació simbòlica en els esquemes i l’emplaçament en els plànols."
+              },
+              {
+                "codi": "CA33",
+                "text": "Selecciona –de catàlegs comercials– els materials, equips i dispositius que configuren la instal·lació, a partir de la documentació tècnica i l’aplicació del REBT."
+              },
+              {
+                "codi": "CA34",
+                "text": "Organitza les diferents fases del muntatge."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza les operacions mecàniques i elèctriques necessàries per al muntatge de la instal·lació (muntatge de canalitzacions elèctriques, dispositius de comandament i protecció, receptors per a enllumenat de MBT, bases de presa de corrent de BT i de MBT, execució de connexions, entre d’altres), d’acord amb la documentació tècnica, les instruccions dels fabricants i les prescripcions del REBT."
+              },
+              {
+                "codi": "CA36",
+                "text": "Fa un ús adequat del material, equips i eines."
+              },
+              {
+                "codi": "CA37",
+                "text": "Realitza el muntatge d’acord amb els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA38",
+                "text": "Respecta els temps estipulats."
+              },
+              {
+                "codi": "CA39",
+                "text": "Comprova la funcionalitat de la instal·lació."
+              },
+              {
+                "codi": "CA310",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA311",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA312",
+                "text": "Actua amb responsabilitat."
+              },
+              {
+                "codi": "CA313",
+                "text": "Demostra coneixement suficient de la reglamentació aplicable a les instal·lacions elèctriques a tensions no usuals."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Munta una instal·lació de receptors atenent el REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Classifica diferents receptors en funció de la seva protecció contra xocs elèctrics."
+              },
+              {
+                "codi": "CA42",
+                "text": "Relaciona diferents receptors i les seves diverses classes amb instal·lacions reals (diferents usos, tipus de locals o emplaçaments)."
+              },
+              {
+                "codi": "CA43",
+                "text": "Interpreta les especificacions tècniques de la instal·lació."
+              },
+              {
+                "codi": "CA44",
+                "text": "Determina el sistema de connexió adequat dels receptors que s’han de muntar."
+              },
+              {
+                "codi": "CA45",
+                "text": "Calcula els paràmetres necessaris per al dimensionament de la instal·lació (conductors, dispositius de comandament i protecció, entre d’altres), utilitzant les lleis i regles del càlcul electrotècnic."
+              },
+              {
+                "codi": "CA46",
+                "text": "Selecciona –de catàlegs comercials– els materials, equips i dispositius que configuren la instal·lació, a partir dels càlculs realitzats i les especificacions tècniques de la instal·lació."
+              },
+              {
+                "codi": "CA47",
+                "text": "Realitza les operacions mecàniques i elèctriques necessàries per al muntatge de receptors (motors, transformadors, reactàncies o cables i plafons radiants, entre d’altres possibilitats), d’acord amb les especificacions tècniques i les instruccions dels fabricants."
+              },
+              {
+                "codi": "CA48",
+                "text": "Mesura intensitat, tensió, potència i factor de potència dels receptors i els compara amb els valors teòrics."
+              },
+              {
+                "codi": "CA49",
+                "text": "Aplica el REBT."
+              },
+              {
+                "codi": "CA410",
+                "text": "Realitza el muntatge d’acord amb els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA411",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA412",
+                "text": "Actua amb responsabilitat."
+              },
+              {
+                "codi": "CA413",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA414",
+                "text": "Demostra coneixement suficient de la reglamentació aplicable a les instal·lacions elèctriques de receptors."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Manté instal·lacions de receptors i de característiques especials aplicant tècniques de mesuraments elèctrics i relacionant la disfunció amb la causa que la produeix",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Identifica els símptomes observats o mesurats com a disfuncions o possibles avaries."
+              },
+              {
+                "codi": "CA52",
+                "text": "Formula hipòtesis raonades de les possibles causes de les avaries, reals o provocades, en instal·lacions de receptors i de característiques especials."
+              },
+              {
+                "codi": "CA53",
+                "text": "Localitza les avaries realitzant les proves, comprovacions i mesures d’acord amb el protocol tècnic d’intervenció establert."
+              },
+              {
+                "codi": "CA54",
+                "text": "Realitza les operacions de reparació o substitució dels elements aplicant els procediments requerits."
+              },
+              {
+                "codi": "CA55",
+                "text": "Aplica el REBT."
+              },
+              {
+                "codi": "CA56",
+                "text": "Utilitza adequadament equips i eines, segons el tipus d’intervenció."
+              },
+              {
+                "codi": "CA57",
+                "text": "Comprova la funcionalitat de la instal·lació."
+              },
+              {
+                "codi": "CA58",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA59",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA510",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lacions elèctriques en locals de característiques especials",
+                "items": [
+                  "Interpretació del projecte (instal·lacions en locals de característiques especials).",
+                  "Replantejament d’una instal·lació: objectius i procediment.",
+                  "Classificació de les instal·lacions en locals de característiques especials.",
+                  "Simbologia específica.",
+                  "Instal·lacions en locals humits: definició, condicions que han de complir les canalitzacions elèctriques, aparellatge, receptors d’enllumenat i aparells portàtils d’enllumenat (ITC-BT-30).",
+                  "Instal·lacions en locals molls: definició, condicions que han de complir les canalitzacions, aparellatge, dispositius de protecció, aparells mòbils i portàtils, receptors d’enllumenat (ITC-BT-30).",
+                  "Instal·lacions en locals amb risc de corrosió: definició, condicions que han de complir els materials i aparells (ITC-BT-30).",
+                  "Instal·lacions en locals polsosos sense risc d’incendi o explosió: definició, condicions que han de complir les canalitzacions, equips o aparellatge (ITC-BT-30).",
+                  "Instal·lacions en locals a temperatura elevada: definició, condicions que han de complir els conductors aïllats, canalitzacions amb conductors nus, aparells (ITC-BT-30).",
+                  "Instal·lacions en locals a temperatura molt baixa: definició, condicions que han de complir el materials i els aparells (ITC-BT-30).",
+                  "Instal·lacions en locals on hi ha bateries d’acumuladors: condicions que han de complir els equips elèctrics, locals, llums i làmpades, acumuladors, parts nues sota tensió (ITC-BT-30).",
+                  "Instal·lacions en locals afectes a un servei elèctric: definició, condicions que han de complir els locals afectes a un servei elèctric (ITC-BT-30).",
+                  "Instal·lacions en altres locals de característiques especials: definició, criteris de selecció i instal·lació dels equips elèctrics en funció de les influències externes (ITC-BT-30).",
+                  "Organització del muntatge.",
+                  "Qualitat en el muntatge d’instal·lacions en locals de característiques especials.",
+                  "Resolució de problemes en el muntatge d’instal·lacions en locals de característiques especials.",
+                  "Normativa i reglamentació aplicable:"
+                ]
+              },
+              {
+                "bloc": "Muntatge d’instal·lacions elèctriques amb finalitats o en ubicacions especials",
+                "items": [
+                  "Classificació de les instal·lacions amb finalitats o en ubicacions especials.",
+                  "Simbologia específica.",
+                  "Instal·lacions en piscines i fonts (ITC-BT-31):",
+                  "Instal·lacions de màquines d’elevació i transport (ITC-BT-32):",
+                  "Instal·lacions provisionals i temporals d’obres (ITC-BT-33):",
+                  "Instal·lacions en fires i estands (ITC-BT-34):",
+                  "Instal·lacions en establiments agrícoles i hortícoles (ITC-BT-35):",
+                  "Tanques elèctriques per al bestiar (ITC-BT-39):",
+                  "Instal·lacions en caravanes i parcs de caravanes (ITC-BT-41):",
+                  "Instal·lacions en ports i marines per a vaixells d’esbarjo (ITC-BT-42):",
+                  "Instal·lacions elèctriques en mobles (ITC-BT-49):",
+                  "Instal·lacions en locals que contenen radiadors per a saunes (ITC-BT-50):",
+                  "Qualitat en el muntatge d’instal·lacions elèctriques amb finalitats o en ubicacions especials.",
+                  "Resolució de problemes en el muntatge d’instal·lacions elèctriques amb finalitats o en ubicacions especials.",
+                  "Normativa i reglamentació aplicable:"
+                ]
+              },
+              {
+                "bloc": "Instal·lacions a tensions no usuals",
+                "items": [
+                  "Classificació de les instal·lacions a tensions no usuals.",
+                  "Simbologia específica.",
+                  "Instal·lacions a molt baixa tensió (ITC-BT-36):",
+                  "Instal·lacions a tensions especials (ITC-BT-37):",
+                  "Qualitat en el muntatge d’instal·lacions a tensions no usuals.",
+                  "Resolució de problemes en el muntatge d’instal·lacions a tensions no usuals.",
+                  "Normativa i reglamentació vigent:"
+                ]
+              },
+              {
+                "bloc": "Instal·lacions de receptors",
+                "items": [
+                  "Classificació de les instal·lacions de receptors.",
+                  "Simbologia específica.",
+                  "Mesures elèctriques: intensitat, tensió, potència i factor de potència; equips, procediments.",
+                  "Prescripcions generals d’instal·lació de receptors (ITC-BT-43)",
+                  "Aparells d’escalfament (ITC-BT-45):",
+                  "Cables i plafons radiants (ITC-BT-46):",
+                  "Motors (ITC-BT-47):",
+                  "Transformadors i autotransformadors. Reactàncies i rectificadors. Condensadors (ITC-BT-48):",
+                  "Qualitat en el muntatge d’instal·lacions de receptors.",
+                  "Resolució de problemes en el muntatge d’instal·lacions de receptors.",
+                  "Normativa i reglamentació vigent:"
+                ]
+              },
+              {
+                "bloc": "Manteniment i detecció d’avaries d’instal·lacions de receptors i de característiques especials",
+                "items": [
+                  "Avaries tipus en les instal·lacions de receptors i de característiques especials: símptomes i efectes.",
+                  "Diagnosi d’avaries i defectes de la instal·lació: mètodes d’anàlisi i avaluació.",
+                  "Reparació d’avaries: mètodes i tècniques, ordres de treball i elements de seguretat.",
+                  "Manteniment d’instal·lacions de receptors i de característiques especials."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "documentació tècnica de les instal·lacions elèctriques especials",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza la memòria tècnica de disseny d’una instal·lació elèctrica on una part, o la seva totalitat, és de característiques especials, atenent el REBT.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica el tipus d’instal·lació, atenent l’ús a què es destina, les característiques de l’emplaçament i la potència."
+              },
+              {
+                "codi": "CA12",
+                "text": "Confecciona una petita memòria descriptiva de la instal·lació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina la previsió de càrregues atenent el REBT i els requeriments del client."
+              },
+              {
+                "codi": "CA14",
+                "text": "Calcula els paràmetres necessaris per al dimensionament de la ins-tal·la-ció."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina les característiques de la instal·lació de posada a terra."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina els sistemes d’instal·lació a utilitzar."
+              },
+              {
+                "codi": "CA17",
+                "text": "Selecciona –de catàlegs comercials– els materials, equips i dispositius que configuren la instal·lació, a partir dels càlculs realitzats, l’aplicació de la normativa i reglamentació vigent i els requeriments del client."
+              },
+              {
+                "codi": "CA18",
+                "text": "Dibuixa els croquis o plànols i els esquemes necessaris utilitzant simbologia normalitzada i reflectint tota la informació necessària."
+              },
+              {
+                "codi": "CA19",
+                "text": "Emplena els impresos normalitzats requerits."
+              },
+              {
+                "codi": "CA110",
+                "text": "Utilitza eines informàtiques de suport per a la confecció dels documents de la MTD."
+              },
+              {
+                "codi": "CA111",
+                "text": "Elabora les instruccions generals per a l’ús i manteniment correctes de la instal·lació."
+              },
+              {
+                "codi": "CA112",
+                "text": "Confecciona el pressupost de la instal·lació."
+              },
+              {
+                "codi": "CA113",
+                "text": "Mostra iniciativa i autonomia."
+              },
+              {
+                "codi": "CA114",
+                "text": "Presenta el treball amb estructura, ordre, pulcritud i correcció gramatical, i en el temps i format requerits."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Memòria tècnica de disseny d’instal·lacions elèctriques especials: dades que ha de reflectir i procediment d’elaboració",
+                "items": [
+                  "Càlculs de les instal·lacions elèctriques de baixa tensió.",
+                  "Previsió de càrregues.",
+                  "Normes associades a criteris de qualitat estandarditzats.",
+                  "Documents i impresos autonòmics normalitzats requerits per a la posada en servei d’instal·lacions.",
+                  "Posada en servei de les instal·lacions i informació als usuaris (REBT, articles 18 i 19).",
+                  "Tramitació de la documentació per a la posada en servei de la instal·lació.",
+                  "Procediment administratiu per a l’aplicació del REBT: Decret 363/2004."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

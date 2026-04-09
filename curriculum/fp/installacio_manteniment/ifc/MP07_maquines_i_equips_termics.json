@@ -1,0 +1,462 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IFC",
+    "titol_cicle": "Instal·lacions Frigorífiques i de Climatització",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "decret",
+    "font_ref": "Decret 200/2015, de 15 de setembre",
+    "titol_decret": "DECRET 200/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions frigorífiques i de climatització.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/200/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "màquines i equips tèrmics",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "balanç energètic d’instal·lacions tèrmiques",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix les magnituds i els valors que determinen el funcionament dels equips tèrmics, relacionant-los amb el comportament dels mateixos i comparant-los amb els seus rangs de funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Relaciona cada magnitud amb la seva corresponent unitat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza conversions entre unitats en el sistema internacional i altres sistemes (pressió, potència i energia, entre d’altres)."
+              },
+              {
+                "codi": "CA13",
+                "text": "Associa cada equip de mesura i automatització amb les corresponents magnituds que es mesuraran o controlaran respectivament."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza mesures de magnituds tèrmiques en diverses instal·lacions amb precisió i exactitud."
+              },
+              {
+                "codi": "CA15",
+                "text": "Compara els mesuraments amb els valors normals de funcionament."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora hipòtesis de les desviacions de les mesures."
+              },
+              {
+                "codi": "CA17",
+                "text": "Respecta els criteris de qualitat i seguretat requerits."
+              },
+              {
+                "codi": "CA18",
+                "text": "Respecta les normes d’utilització dels equips, del material i de les instal·lacions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Calcula les càrregues tèrmiques d’instal·lacions frigorífiques, de climatització i de calefacció, justificant els procediments i resultats obtinguts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Obté les característiques de l’aire humit."
+              },
+              {
+                "codi": "CA22",
+                "text": "Representa els processos de tractament d’aire sobre el diagrama psicomètric."
+              },
+              {
+                "codi": "CA23",
+                "text": "Obté les condicions exteriors i interiors de disseny per al càlcul de càrregues."
+              },
+              {
+                "codi": "CA24",
+                "text": "Segueix les directrius de la normativa relacionada amb el tipus d’instal·lació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Calcula els cabals d’aire per a ventilació en cambres i locals."
+              },
+              {
+                "codi": "CA26",
+                "text": "Calcula els coeficients de transmissió dels tancaments."
+              },
+              {
+                "codi": "CA27",
+                "text": "Calcula la potència d’una cambra frigorífica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Calcula les càrregues tèrmiques de calefacció d’un local o habitatge."
+              },
+              {
+                "codi": "CA29",
+                "text": "Utilitza taules,, diagrames i programes informàtics d’aplicació."
+              },
+              {
+                "codi": "CA210",
+                "text": "Col·labora entre companys durant la realització de les tasques."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació de magnituds d’instal·lacions tèrmiques",
+                "items": [
+                  "Magnituds i unitats físiques que intervenen en instal·lacions. Sistemes d’unitats.",
+                  "Mesures i procediments.",
+                  "Termometria i calorimetria. Calor específic, sensible i latent.",
+                  "Transmissió de la calor. Concepte d’entalpia. Canvi d’estat."
+                ]
+              },
+              {
+                "bloc": "Càlcul de càrregues tèrmiques",
+                "items": [
+                  "Aplicació d’higrometria en instal·lacions tèrmiques. Diagrama psicomètric.",
+                  "Identificació de les propietats de l’aire humit. Normativa d’aplicació.",
+                  "Càlcul de la càrrega tèrmica d’una instal·lació frigorífica. Normativa d’aplicació.",
+                  "Càlcul de les necessitats d’ACS. Normativa d’aplicació.",
+                  "Càlcul de la càrrega tèrmica d’una instal·lació de calefacció. Normativa d’aplicació.",
+                  "Programes informàtics d’aplicació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "instal·lacions frigorífiques i de climatització",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora el cicle frigorífic d’una instal·lació, interpretant els diagrames de refrigerants i obtenint el balanç energètic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Relaciona cada element i equip d’una instal·lació frigorífica amb el procés termodinàmic corresponent sobre el diagrama de refrigerant."
+              },
+              {
+                "codi": "CA12",
+                "text": "Representa sobre un diagrama de Mollier els valors mesurats en una instal·lació real."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica el procés termodinàmic del refrigerant dins del cicle frigorífic."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza càlculs de balanç energètic sobre diagrames i taules de refrigerant."
+              },
+              {
+                "codi": "CA15",
+                "text": "Valora com afecta al rendiment d’una instal·lació les modificacions sobre els paràmetres del cicle frigorífic."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora el cicle frigorífic d’una instal·lació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Obté el balanç energètic de la instal·lació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Selecciona els tipus de refrigerant emprats en equips frigorífics, consultant documentació tècnica i descrivint les seves aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Classifica els refrigerants tenint en compte el seu grau de seguretat."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica els refrigerants tenint en compte el seu efecte sobre el medi ambient."
+              },
+              {
+                "codi": "CA23",
+                "text": "Classifica els refrigerants tenint en compte el seu camp d’aplicació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Obté les variables termodinàmiques de diferents refrigerants a partir de diagrames i de taules."
+              },
+              {
+                "codi": "CA25",
+                "text": "Relaciona cada refrigerant amb el tipus d’oli que es pot emprar."
+              },
+              {
+                "codi": "CA26",
+                "text": "Selecciona els tipus de refrigerants per a equips frigorífics amb diferents aplicacions."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els criteris de qualitat, seguretat i respecte al medi ambient requerits."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Reconeix els components d’una instal·lació frigorífica (bescanviadors de calor i dispositius d’expansió, entre d’altres), descrivint els seus principis de funcionament, característiques i camp d’aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Associa els tipus d’evaporadors, condensadors i bescanviadors de calor amb el seu camp d’aplicació."
+              },
+              {
+                "codi": "CA32",
+                "text": "Detalla els tipus de dispositius d’expansió, així com les seves parts i principis de funcionament."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els tipus i les característiques d’elements auxiliars d’instal·lacions frigorífiques (separadors d’oli, valvuleria i filtres, entre d’altres)."
+              },
+              {
+                "codi": "CA34",
+                "text": "Descriu els tipus i la funció que realitzen els elements de regulació i de protecció."
+              },
+              {
+                "codi": "CA35",
+                "text": "Analitza els sistemes de desgebrament."
+              },
+              {
+                "codi": "CA36",
+                "text": "Manté una actitud d’interès per l’evolució de la tecnologia en el sector."
+              }
+            ],
+            "continguts": []
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "instal·lacions de calefacció i ACS",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els processos de generació de calor analitzant els principis de combustió, radiació solar i el seu camp d’aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els components que intervenen en el procés de combustió."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les característiques dels diferents tipus de combustibles."
+              },
+              {
+                "codi": "CA13",
+                "text": "Calcula la variació en el rendiment de la combustió amb diferents combustibles."
+              },
+              {
+                "codi": "CA14",
+                "text": "Calcula la superfície de captació necessària."
+              },
+              {
+                "codi": "CA15",
+                "text": "Obté dades a partir de les taules de radiació solar."
+              },
+              {
+                "codi": "CA16",
+                "text": "Valora com afecten al rendiment les variacions d’orientació i inclinació dels captadors."
+              },
+              {
+                "codi": "CA17",
+                "text": "Relaciona el sistema de producció de calor amb el seu camp d’aplicació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix màquines i equips tèrmics reals i els seus elements, descrivint la funció que realitza cada component en el conjunt.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Classifica els diferents sistemes de compressió mecànica per a refrigeració i les seves aplicacions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica els diferents tipus de calderes, cremadors i captadors solars tèrmics."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta i desmunta diferents tipus de compressors, calderes, cremadors i captadors solars tèrmics, entre d’altres."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica les parts que componen cada tipus de compressors, calderes, cremadors i captadors solars tèrmics, entre d’altres."
+              },
+              {
+                "codi": "CA25",
+                "text": "Detalla els sistemes de regulació de potència en generadors tèrmics."
+              },
+              {
+                "codi": "CA26",
+                "text": "Respecta els criteris de qualitat i de seguretat requerits."
+              },
+              {
+                "codi": "CA27",
+                "text": "Respecta els temps previstos per al procés."
+              },
+              {
+                "codi": "CA28",
+                "text": "Distribueix el treball equitativament dins d’un grup."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza els treballs de muntatge i desmuntatge amb ordre i netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Reconeix els elements d’una instal·lació de calefacció i aigua calenta sanitària (ACS), descrivint els seus principis de funcionament i camp d’aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els tipus d’emissors i bescanviadors de calor."
+              },
+              {
+                "codi": "CA32",
+                "text": "Reconeix els elements auxiliars d’instal·lacions de calefacció."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els elements auxiliars d’instal·lacions d’energia solar tèrmica."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica els elements auxiliars d’instal·lacions d’ACS."
+              },
+              {
+                "codi": "CA35",
+                "text": "Identifica els elements de regulació i de protecció de les instal·lacions."
+              },
+              {
+                "codi": "CA36",
+                "text": "Manté una actitud d’interès per l’evolució de la tecnologia en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Generació de calor",
+                "items": [
+                  "Teoria de la combustió. Anàlisi i productes.",
+                  "Classificació dels combustibles.",
+                  "Característiques dels combustibles. Poder calorífic.",
+                  "Principi de funcionament dels captadors solars tèrmics.",
+                  "Radiació solar. Disposició i orientació de captadors solars tèrmics. Càlcul de superfícies de captació.",
+                  "Rendiment d’equips de generació de calor, calderes (convencionals, baixa temperatura i condensació, entre d’altres) i captadors, entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Identificació de màquines i d’equips tèrmics",
+                "items": [
+                  "Compressors. Classificació. Parts. Olis. Estanquitat. Sistemes de regulació de capacitat. Regulació de potència.",
+                  "Tipus de calderes i de cremadors. Convencional, baixa temperatura, condensació, entre d’altres. Característiques, components i aplicacions. Regulació de potència.",
+                  "Captadors solars. Característiques, components i aplicacions.",
+                  "Eficiència energètica en equips de producció tèrmica.",
+                  "Tècniques de muntatge.",
+                  "Màquines frigorífiques: compressors, condensadors i evaporadors. Classificació. Parts. Olis, estanquitat. Sistemes de regulació de capacitat."
+                ]
+              },
+              {
+                "bloc": "Identificació dels components d’instal·lacions de calefacció, energia solar tèrmica i ACS",
+                "items": [
+                  "Esquemes d’instal·lacions. Interpretació i representació. Simbologia.",
+                  "Vasos tipus i aplicacions d’expansió. Tipus, característiques i aplicacions.",
+                  "Bombes i circuladors. Tipus, característiques i aplicacions.",
+                  "Captadors solars tèrmics. Tipus, característiques i aplicacions.",
+                  "Elements auxiliars d’instal·lacions de calefacció i d’instal·lacions solars tèrmiques.",
+                  "Emissors, bescanviadors de calor i elements terminals.",
+                  "Dipòsits acumuladors.",
+                  "Bomba de calor. Tipus (aire-aire, aire-aigua, geotèrmica, entre d’altres).",
+                  "Dispositius de control i de seguretat.",
+                  "Evolució de la tecnologia."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "cambres frigorífiques",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els diferents tipus de cambres i instal·lacions frigorífiques, descrivint la seva constitució i el seu camp d’aplicació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta esquemes de principi d’instal·lacions de refrigeració domèstica, comercial i industrial (cambres frigorífiques i túnels de congelació, entre d’altres)."
+              },
+              {
+                "codi": "CA12",
+                "text": "Classifica les instal·lacions frigorífiques en funció de la finalitat i del tipus de refrigerant emprat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona les cambres frigorífiques amb la seva aplicació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica la funció que realitza cada equip en el conjunt de la instal·lació i la seva interrelació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Caracteritza els aïllaments i els materials utilitzats en la fabricació de cambres frigorífiques i túnels de congelació, entre d’altres."
+              },
+              {
+                "codi": "CA16",
+                "text": "Calcula els gruixos dels aïllaments."
+              },
+              {
+                "codi": "CA17",
+                "text": "Selecciona els materials constructius de les cambres frigorífiques en funció del seu camp d’aplicació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els tipus de tancaments, portes i ferramentes."
+              },
+              {
+                "codi": "CA19",
+                "text": "Valora les tècniques utilitzades per evitar la congelació de terra i de les parets limítrofes."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Aplicacions d’instal·lacions frigorífiques",
+                "items": [
+                  "Esquemes d’instal·lacions. Interpretació i representació. Simbologia.",
+                  "Cambres frigorífiques comercials i industrials. Tipus i aplicacions.",
+                  "Túnels de congelació. Tipus i aplicacions.",
+                  "Elements constructius de les cambres. Tancaments, portes, ferramentes, entre d’altres. Gruix d’aïllament.",
+                  "Normativa de seguretat."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

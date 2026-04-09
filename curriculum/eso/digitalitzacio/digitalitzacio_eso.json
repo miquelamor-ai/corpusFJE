@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "familia": "lomloe",
+    "etapa": "eso",
+    "area_materia": "Digitalització",
+    "codi_area": "DIG",
+    "decret": "175/2022",
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Digitalitzacio.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "La Digitalització a l'ESO forma l'alumnat com a ciutadà digital competent, capaç de gestionar dispositius i entorns tecnològics, crear continguts i actuar de manera segura i crítica a la xarxa. La matèria no és instrumental en sentit estret: articula capacitats que travessen totes les àrees del currículum, des de la recerca d'informació a les Ciències Socials fins al tractament de dades a les Matemàtiques o la creació audiovisual a Educació Artística. Prepara per a la Tecnologia i Digitalització i per a qualsevol itinerari en què la competència digital sigui condició de participació plena.\n\nEls grans constructes disciplinaris s'organitzen en quatre eixos: la gestió de dispositius i sistemes (maquinari, sistemes operatius, xarxes, IoT); la creació de continguts i el desenvolupament d'aplicacions (pensament computacional, programació, producció multimèdia, realitat augmentada); la seguretat i el benestar digital (privadesa, identitat digital, petjada digital, riscos per a la salut); i la ciutadania digital crítica (drets d'autoria, desinformació, bretxa digital, impacte social de la IA i els algoritmes, ODS).\n\nL'enfocament pedagògic prioritza l'aprenentatge basat en reptes i situacions reals per sobre de la instrucció tècnica descontextualitzada. L'alumnat resol problemes autèntics, fabrica artefactes digitals i reflexiona sobre les implicacions ètiques i socials de les seves decisions tecnològiques. El treball col·laboratiu en xarxa, la documentació del procés i la comunicació dels resultats a audiències reals són pràctiques habituals. L'avaluació valora la resolució de problemes, la qualitat de les produccions digitals i la capacitat de reflexió crítica, no la memorització de procediments tècnics."
+  },
+  "competencies_especifiques": [
+    {
+      "codi": "CE1",
+      "text": "Gestionar les eines i els dispositius informàtics i de comunicació d’ús quotidià aplicant els coneixements de maquinari i sistemes operatius per resoldre problemes tècnics senzills.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA1.1",
+            "text": "Connectar dispositius i gestionar xarxes locals aplicant els coneixements i processos associats a sistemes de comunicació amb fil i sense fil amb una actitud proactiva."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Gestionar, a nivell bàsic, sistemes operatius configurant-ne les característiques en funció de les necessitats personals."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Resoldre problemes tècnics senzills analitzant components i funcions dels dispositius digitals, avaluant les solucions de manera crítica i reformulant el procediment, si cal."
+          },
+          {
+            "codi": "CA1.4",
+            "text": "Fer un ús responsable dels dispositius i de la seva utilització per promoure la sostenibilitat, tot fomentant la reutilització i l’estalvi i l’eficiència energètica La competència fa referència a la gestió de les eines i dispositius informàtics habituals de l’entorn de l’alumnat."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE2",
+      "text": "Idear solucions innovadores i creatives aplicant diferents formes de raonament, integrant-les en l’entorn personal d’aprenentatge tot fent ús de les eines i els recursos d’edició, la creació de continguts digitals i el desenvolupament d’aplicacions per optimitzar l’aprenentatge permanent.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA2.1",
+            "text": "Cercar i seleccionar informació per a la ideació de solucions innovadores, amb responsabilitat i sentit crític."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Dissenyar solucions possibles a problemes plantejats aplicant diferents formes de raonament, com el pensament de disseny i el pensament computacional, tenint en compte les tecnologies emergents, la realitat virtual, augmentada i mixta."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Generar o modificar, de forma individual o col·laborativa, continguts amb suport digital i creacions audiovisuals, integrant imatge, so i vídeo per a la construcció de produccions multimèdia."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Desenvolupar aplicacions fent servir el programari i els llenguatges de programació adients, per la resolució de problemes concrets tenint en compte criteris d’autoria i llicències d’ús."
+          },
+          {
+            "codi": "CA2.5",
+            "text": "Integrar els continguts digitals en entorns personals d’aprenentatge (pàgina web, espai al núvol, carpetes, etc.) autoregulant el propi aprenentatge de manera autònoma."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE3",
+      "text": "Identificar riscos i amenaces i aplicar mesures preventives i correctives, adquirint hàbits que fomentin el benestar digital per protegir dispositius, dades personals i la pròpia salut.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA3.1",
+            "text": "Configurar adequadament les opcions de privadesa de les aplicacions, xarxes socials i espais virtuals i utilitzar les eines i tècniques de seguretat, per protegir les dades personals, la petjada digital i preservar la seva identitat a la xarxa."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Configurar i actualitzar mesures de protecció i seguretat de dispositius i sistemes digitals d’ús habitual (antivirus, contrasenyes, bloqueig de pantalla, protecció de la comunicació, etc."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Identificar i prendre mesures per protegir-se davant d’amenaces, atacs, intrusions o infeccions que esdevenen a la xarxa."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Identificar situacions de risc per a la salut associades a l’ús de les tecnologies digitals i adoptar les mesures necessàries per tenir cura de la pròpia salut."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE4",
+      "text": "Fer un ús actiu, responsable i ètic de les tecnologies digitals, valorant les possibles accions que cal fer a la xarxa i identificar-ne les repercussions per exercir una ciutadania digital crítica.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA4.1",
+            "text": "Respectar els drets d’autoria i les llicències d’ús en la comunicació, col·laboració i participació a la xarxa, fent un ús ètic de les dades i de les produccions, i justificar-ne les raons."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Analitzar i valorar críticament les aportacions de les tecnologies digitals a les gestions administratives i el comerç electrònic, identificant els problemes derivats de la bretxa social d’accés i l’ús per a determinats col·lectius."
+          },
+          {
+            "codi": "CA4.3",
+            "text": "Valorar la importància de l’oportunitat, la facilitat i la llibertat d’expressió que suposen els mitjans digitals connectats, analitzant de manera crítica els missatges que es reben tenint en compte la seva objectivitat, ideologia, intencionalitat, biaixos i caducitat."
+          },
+          {
+            "codi": "CA4.4",
+            "text": "Participar, col·laborar i interactuar en espais virtuals de comunicació i plataformes d’aprenentatge col·laboratiu, compartint i publicant informació i dades, adaptant-se a diferents audiències amb una actitud respectuosa, responsable i participativa."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE5",
+      "text": "Analitzar l’impacte de les tecnologies digitals a la societat, a partir de la identificació dels canvis econòmics i socials a escala global, i aplicar les tecnologies emergents per al disseny de solucions a problemes reals tenint en compte els objectius de desenvolupament sostenible.",
+      "criteris_avaluacio": {
+        "ESO13": [
+          {
+            "codi": "CA5.1",
+            "text": "Identificar els canvis econòmics i socials derivats de l’ús de les tecnologies digitals aplicades a diferents àmbits."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Analitzar i valorar l’impacte de les tecnologies digitals en la societat tenint en compte els ODS."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Aplicar les tecnologies emergents en el disseny de solucions a problemes reals tenint en compte els objectius de desenvolupament sostenible."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Analitzar l’ús d’eines de simulació i supercomputadors en el tractament de dades i valorar-ne l’impacte en la societat de la informació i l’aplicació a tecnologies associades."
+          }
+        ]
+      }
+    }
+  ],
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d’organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Dispositius digitals, sistemes operatius i de comunicació. - Anàlisi, implementació i configuració d’ordinadors: elements, muntatge, configuració i resolució de problemes. - Gestió bàsica de sistemes operatius: instal·lació i configuració d’usuari. - Gestió bàsica de sistemes de comunicació i Internet. Dispositius de xarxa i funcionament. - Configuració d’una xarxa domèstica i connexió de dispositius. - Posada en servei de dispositius connectats (IoT+Wearables). Configuració i connexió de dispositius. - Reutilització de dispositius digitals adaptats a necessitats específiques. - Aplicació d’estratègies d’estalvi i eficiència energètica en sistemes i dispositius electrònics. Digitalització de l’entorn personal d’aprenentatge - Ús d’estratègies eficaces de cerca i selecció crítica d’informació. - Edició i creació de continguts: aplicacions de productivitat, desenvolupament d’aplicacions senzilles per a dispositius mòbils i web, realitat virtual, augmentada i mixta. - Comunicació i col·laboració sincrònica i asincrònica en xarxa. - Publicació i difusió responsable d’informació i dades en xarxes informàtiques. Creació i publicació de continguts en suport digital - Ús d’estratègies avançades de cerca i selecció crítica d’informació. - Edició i creació de continguts: desenvolupament d’aplicacions senzilles per a dispositius mòbils i web, fent servir diferents llenguatges de programació. Aplicació d’estructures de programació comunes: condicionals i repeticions. - Ús d’eines per a la producció de continguts amb realitat virtual, augmentada i mixta. - Desenvolupament de continguts per a Internet en format web, aplicant estàndards d’accessibilitat. - Aplicació de tecnologies emergents (IA, IoT) en la implementació de solucions a problemes reals. - Creació de continguts audiovisuals amb eines digitals. Ús d’eines d’edició i tractament d’imatge, àudio i vídeo. - Aplicació de tècniques de raonament lògic com el pensament de disseny i el pensament computacional en la resolució de problemes en el disseny de solucions. - Comunicació i col·laboració sincrònica i asincrònica en xarxa. - Publicació i difusió responsable d’informació i dades en xarxes informàtiques. - Pràctica de l’educació mediàtica: periodisme digital, blogosfera, estratègies comunicatives. Seguretat i benestar digital - Avaluació i configuració de la seguretat en dispositius. Mesures preventives i correctives per fer front a riscos, amenaces i atacs a dispositius. - Aplicació de criteris de seguretat i de protecció de dades. Identitat, reputació, privadesa i empremta digital. Mesures preventives. Configuració de xarxes socials. Gestió d’identitats virtuals. - Aplicació de criteris de seguretat en la salut física i mental. Riscos, amenaces al benestar personal. Opcions de resposta. Situacions de violència i de risc a la xarxa. Ciutadania digital crítica - Caracterització de la interactivitat a la xarxa: llibertat d’expressió, propietat intel·lectual i llicències d’ús. - Ús crític de la xarxa, eines per detectar notícies falses i fraus. - Gestió d’operacions administratives: serveis públics en línia, registres digitals i certificats oficials. - Fer un ús segur del comerç electrònic: factures digitals, formes de pagament i criptomonedes. - Gestió ètica en l’ús de dades i eines digitals: intel·ligència artificial, biaixos, algorísmics i ideològics, obsolescència programada i sobirania tecnològica. - Aplicació proactiva de la responsabilitat social: plataformes d’iniciativa ciutadana, voluntariat i comunitats de maquinari i programari lliures. - Anàlisi de l’impacte de les tecnologies digitals en la societat i els canvis socials i econòmics que se’n deriven. - Comprendre la cultura digital com a font d’aprenentatge permanent, coneixement de les tecnologies digitals emergents i els seus àmbits d’aplicació."
+    }
+  ],
+  "_validacio": {
+    "fragments_ok": 47,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
+}

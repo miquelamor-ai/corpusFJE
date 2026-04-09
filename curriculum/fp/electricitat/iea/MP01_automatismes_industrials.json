@@ -1,0 +1,1029 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "automatismes industrials",
+    "hores_totals": 231,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "dibuix tècnic aplicat als automatismes",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dibuixa elements bàsics, conjunts de peces i esquemes elèctrics, aplicant-hi la normalització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Representa a mà alçada vistes i talls."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dibuixa croquis de perfils, envolupants, quadres i altres components."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reflecteix les cotes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Dibuixa els esquemes i plànols segons normalització i convencionalismes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza la simbologia normalitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Té en compte les representacions de peces i conjunts, atenent les escales establertes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Té en compte la distribució dels elements i el seu dimensionament en les representacions realitzades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza programes informàtics de CAD electrotècnic."
+              },
+              {
+                "codi": "CA19",
+                "text": "Respecta els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Dibuix tècnic aplicat",
+                "items": [
+                  "Simbologia normalitzada de representació de peces aplicades a la mecanització de quadres i canalitzacions.",
+                  "Escales.",
+                  "Simbologia normalitzada i convencionalismes de representació a les instal·lacions d’automatismes.",
+                  "Plànols i esquemes elèctrics normalitzats. Tipologia.",
+                  "Interpretació d’esquemes elèctrics de les instal·lacions d’automatismes.",
+                  "Aplicació de programes informàtics de dibuix tècnic.",
+                  "Qualitat en el dibuix tècnic d’automatismes.",
+                  "Resolució de problemes en el disseny de plànols i esquemes elèctrics."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "mecanització de quadres elèctrics",
+        "hores": 27,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina el procés a seguir en les operacions de mecanització, interpretant plànols i utilitzant documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la simbologia i especificacions tècniques en els plànols."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les diferents vistes, seccions, talls i detalls."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica materials (perfils, envolupants i quadres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Defineix les fases i les operacions del procés."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza el pla de mecanització."
+              },
+              {
+                "codi": "CA16",
+                "text": "Analitza eines, mitjans tècnics i de seguretat segons el requeriment de cada intervenció."
+              },
+              {
+                "codi": "CA17",
+                "text": "Té en compte els temps previstos per als processos."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Executa operacions de mecanització, aplicant tècniques de mesurament i marcatge, i utilitzant màquines i eines.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta la documentació tècnica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina el pla de mecanització."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els equips, eines, mitjans tècnics i de seguretat."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza mesuraments amb la precisió exigida."
+              },
+              {
+                "codi": "CA25",
+                "text": "Executa operacions de distribució, traçat i marcatge."
+              },
+              {
+                "codi": "CA26",
+                "text": "Opera amb les eines i equips de treball característics."
+              },
+              {
+                "codi": "CA27",
+                "text": "Executa les operacions de mecanització en perfils, envolupants, quadres i canalitzacions."
+              },
+              {
+                "codi": "CA28",
+                "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental."
+              },
+              {
+                "codi": "CA29",
+                "text": "Resol satisfactòriament les contingències sorgides."
+              },
+              {
+                "codi": "CA210",
+                "text": "Elabora un informe del procés de mecanització."
+              },
+              {
+                "codi": "CA211",
+                "text": "Té en compte els temps previstos per al procés."
+              },
+              {
+                "codi": "CA212",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA213",
+                "text": "Manté l’àrea de treball, les eines, estris i equips amb el grau apropiat d’ordre, conservació i netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica les normes de prevenció de riscos laborals i de protecció ambiental en el muntatge i manteniment d’automatismes industrials, identificant-ne els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els riscos laborals en les tasques de muntatge i manteniment d’instal·lacions d’automatismes industrials (manipulació de materials, equips, eines, estris, màquines, realització de proves, reparació i substitució d’elements, entre d’altres)."
+              },
+              {
+                "codi": "CA32",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA34",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Organització del procés de mecanització de quadres elèctrics",
+                "items": [
+                  "Materials característics dels quadres elèctrics i canalitzacions.",
+                  "Seqüència de les diferents operacions de mecanització.",
+                  "Equips i eines utilitzats en les operacions de mecanització.",
+                  "Normativa i reglamentació.",
+                  "Utilització d’eines, equips i mitjans tècnics en la mecanització de quadres elèctrics.",
+                  "Distribució dels elements d’acord amb la documentació tècnica.",
+                  "Operacions de mesurament i marcatge.",
+                  "Operacions de mecanització.",
+                  "Operacions de fixació.",
+                  "Qualitat en la mecanització de quadres elèctrics.",
+                  "Identificació de riscos.",
+                  "Mesures de seguretat i de protecció individual (aplicació de la normativa de prevenció de riscos laborals, inclosa la de seguretat davant el risc elèctric).",
+                  "Classificació dels residus generats per a la seva retirada selectiva.",
+                  "Compliment de la normativa de protecció ambiental i de prevenció de riscos laborals."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "automatització elèctrica cablada",
+        "hores": 72,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura circuits bàsics de comandament i potència, seleccionant-ne els elements i elaborant esquemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els circuits d’arrencada, inversió i regulació de velocitat de motors elèctrics trifàsics i monofàsics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els principis de funcionament i les característiques dels mecanismes (accionament, control, protecció i senyalització), receptors i motors que intervenen en el sistema automàtic proposat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Calcula les característiques tècniques dels components de la instal·lació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza catàlegs de fabricants per a la selecció de materials."
+              },
+              {
+                "codi": "CA15",
+                "text": "Elabora esquemes de comandament i potència, amb la simbologia normalitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza programes informàtics de CAD electrotècnic."
+              },
+              {
+                "codi": "CA17",
+                "text": "Aplica la normativa electrotècnica i convencionalismes d’automatismes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Té en compte els temps previstos per al procés."
+              },
+              {
+                "codi": "CA19",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta circuits d’automatismes per a maniobres de motors petits, interpretant-ne els esquemes i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta els esquemes de comandament i potència."
+              },
+              {
+                "codi": "CA22",
+                "text": "Relaciona cada element amb la seva funció de conjunt."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta circuits de comandament i potència."
+              },
+              {
+                "codi": "CA24",
+                "text": "Connecta els motors elèctrics al circuit de potència."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza maniobres amb motors."
+              },
+              {
+                "codi": "CA26",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA28",
+                "text": "Opera amb autonomia en les activitats proposades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza mesures elèctriques per verificar el funcionament correcte de l’automatisme."
+              },
+              {
+                "codi": "CA210",
+                "text": "Té en compte els temps estimats en les activitats."
+              },
+              {
+                "codi": "CA211",
+                "text": "Organitza les diferents fases del treball de muntatge."
+              },
+              {
+                "codi": "CA212",
+                "text": "Manté l’àrea de treball, les eines, estris i equips amb el grau apropiat d’ordre, conservació i netedat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Munta quadres i sistemes elèctrics associats, interpretant-ne la documentació tècnica i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Interpreta els croquis i esquemes de quadres i sistemes elèctrics."
+              },
+              {
+                "codi": "CA32",
+                "text": "Relaciona cada element amb la seva funció de conjunt."
+              },
+              {
+                "codi": "CA33",
+                "text": "Selecciona components, eines, mitjans tècnics i de seguretat."
+              },
+              {
+                "codi": "CA34",
+                "text": "Distribueix els components en els quadres."
+              },
+              {
+                "codi": "CA35",
+                "text": "Mecanitza la placa de muntatge, perfils, envolupants i canalitzacions."
+              },
+              {
+                "codi": "CA36",
+                "text": "Munta els mecanismes del quadre i els elements de la instal·lació."
+              },
+              {
+                "codi": "CA37",
+                "text": "Connecta els equips i elements de la instal·lació."
+              },
+              {
+                "codi": "CA38",
+                "text": "Comprova el funcionament de la instal·lació."
+              },
+              {
+                "codi": "CA39",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA310",
+                "text": "Estableix criteris de qualitat en el muntatge de sistemes elèctrics associats als quadres elèctrics."
+              },
+              {
+                "codi": "CA311",
+                "text": "Realitza el muntatge de quadres elèctrics i sistemes elèctrics associats en el temps previst."
+              },
+              {
+                "codi": "CA312",
+                "text": "Organitza les diferents fases del treball de muntatge."
+              },
+              {
+                "codi": "CA313",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que se li presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Localitza avaries i disfuncions en les instal·lacions d’automatització elèctrica cablada, analitzant-ne els símptomes i identificant les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Elabora un pla d’intervenció."
+              },
+              {
+                "codi": "CA42",
+                "text": "Realitza mesures i verificacions per a la localització d’avaries en instal·lacions d’automatització elèctrica cablada."
+              },
+              {
+                "codi": "CA43",
+                "text": "Identifica disfuncions de la instal·lació mitjançant comprovació funcional en instal·lacions d’automatització elèctrica cablada."
+              },
+              {
+                "codi": "CA44",
+                "text": "Identifica la causa de l’avaria."
+              },
+              {
+                "codi": "CA45",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric)."
+              },
+              {
+                "codi": "CA46",
+                "text": "Opera amb autonomia i destresa en la manipulació d’elements, equips i eines."
+              },
+              {
+                "codi": "CA47",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA48",
+                "text": "Aplica les normes de qualitat."
+              },
+              {
+                "codi": "CA49",
+                "text": "Organitza les diferents fases del treball de localització d’avaries i disfuncions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Repara avaries i disfuncions en les instal·lacions d’automatització elèctrica cablada, ajustant o substituint els elements defectuosos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Elabora un pla d’intervenció correctiva i preventiva."
+              },
+              {
+                "codi": "CA52",
+                "text": "Repara l’avaria substituint elements en instal·lacions d’automatització elèctrica cablada."
+              },
+              {
+                "codi": "CA53",
+                "text": "Ajusta les proteccions d’acord amb les característiques dels receptors."
+              },
+              {
+                "codi": "CA54",
+                "text": "Verifica la compatibilitat del nou element instal·lat."
+              },
+              {
+                "codi": "CA55",
+                "text": "Registra dades per a l’elaboració de l’informe de reparació i factura."
+              },
+              {
+                "codi": "CA56",
+                "text": "Restableix les condicions de funcionament normal."
+              },
+              {
+                "codi": "CA57",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA58",
+                "text": "Opera amb autonomia i destresa en la manipulació d’elements, equips i eines."
+              },
+              {
+                "codi": "CA59",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA510",
+                "text": "Aplica les normes de qualitat."
+              },
+              {
+                "codi": "CA511",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració de circuits bàsics d’automatismes industrials cablats",
+                "items": [
+                  "Memòria tècnica d’instal·lacions d’automatismes industrials cablats.",
+                  "Certificat de la instal·lació.",
+                  "Simbologia.",
+                  "Càlculs.",
+                  "Tipus de sensors. Característiques i aplicacions.",
+                  "Tipus d’actuadors. Característiques i aplicacions.",
+                  "Elements de control, protecció i senyalització.",
+                  "Elaboració de documents d’instruccions generals d’ús i manteniment.",
+                  "Seqüència d’operacions i control de temps.",
+                  "Aplicació de programes informàtics de càlcul i configuració d’instal·lacions d’automatismes industrials cablats.",
+                  "Resolució de problemes en l’elaboració de documentació tècnica.",
+                  "Qualitat en la configuració d’instal·lacions d’automatismes industrials cablats."
+                ]
+              },
+              {
+                "bloc": "Muntatge d’instal·lacions d’automatismes industrials cablats aplicats a motors petits",
+                "items": [
+                  "Control de potència: arrencada i maniobra de motors (monofàsics i trifàsics).",
+                  "Proteccions contra curtcircuits i sobrecàrregues.",
+                  "Arrencadors.",
+                  "Aplicacions industrials d’automatismes per a motors petits.",
+                  "Organització del procés de muntatge d’instal·lacions d’automatismes industrials cablats aplicats a motors petits.",
+                  "Qualitat en el muntatge d’instal·lacions d’automatismes industrials cablats aplicats a motors petits.",
+                  "Mesures de magnituds elèctriques: tensió, intensitat, resistència i continuïtat,"
+                ]
+              },
+              {
+                "bloc": "Muntatge d’instal·lacions d’automatismes industrials cablats",
+                "items": [
+                  "Característiques de les instal·lacions d’automatismes cablats.",
+                  "Muntatge de les instal·lacions d’automatismes.",
+                  "Muntatge d’armaris, quadres elèctrics i canalitzacions.",
+                  "Circuits de força.",
+                  "Circuits de comandament.",
+                  "Cables, terminals, connexió.",
+                  "Qualitat en el muntatge d’armaris i quadres elèctrics d’automatismes industrials cablats.",
+                  "Organització del procés de muntatge d’instal·lacions bàsiques d’automatismes industrials cablats."
+                ]
+              },
+              {
+                "bloc": "Avaries d’instal·lacions d’automatismes cablats",
+                "items": [
+                  "Tipologia d’avaries característiques en instal·lacions d’automatismes cablats.",
+                  "Anàlisi de símptomes. Sistemes emprats.",
+                  "Qualitat en la localització d’avaries i disfuncions de les instal·lacions d’automatització elèctrica cablada.",
+                  "Organització en la detecció d’avaries d’acord amb el pla de manteniment."
+                ]
+              },
+              {
+                "bloc": "Manteniment i reparació d’instal·lacions d’automatismes industrials cablats",
+                "items": [
+                  "Manteniment correctiu i preventiu d’automatismes cablats.",
+                  "Diagnosi i localització d’avaries en instal·lacions d’automatismes cablats (proves, mesures, procediments).",
+                  "Reparació d’avaries.",
+                  "Equips utilitzats.",
+                  "Organització del manteniment correctiu i preventiu en instal·lacions d’automatismes cablats industrials."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "automatització pneumàtica i electropneumàtica",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura circuits bàsics pneumàtics i electropneumàtics de comandament i potència per a aplicacions industrials senzilles, seleccionant-ne els elements i el seu emplaçament i elaborant-ne la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els principis de funcionament i característiques d’elements pneumàtics i electropneumàtics (unitat de manteniment, actuadors, vàlvules, electrovàlvules, elements de comandament o senyal i elements de memòria i retard)."
+              },
+              {
+                "codi": "CA12",
+                "text": "Calcula les característiques tècniques dels components bàsics d’una instal·lació pneumàtica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona material a partir de documentació tècnica i catàlegs de fabricants."
+              },
+              {
+                "codi": "CA14",
+                "text": "Elabora esquemes de comandament i potència pneumàtics i electropneumàtics, amb la simbologia normalitzada."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza programari de CAD pneumàtic i electropneumàtic."
+              },
+              {
+                "codi": "CA16",
+                "text": "Té en compte els temps previstos per al procés."
+              },
+              {
+                "codi": "CA17",
+                "text": "Respecta els criteris de qualitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta circuits bàsics pneumàtics i electropneumàtics de comandament i potència per a aplicacions industrials senzilles, interpretant-ne documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta esquemes pneumàtics i electropneumàtics de comandament i potència."
+              },
+              {
+                "codi": "CA22",
+                "text": "Relaciona cada element amb la seva funció de conjunt."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta circuits bàsics pneumàtics i electropneumàtics de comandament i potència."
+              },
+              {
+                "codi": "CA24",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA25",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova la funcionalitat del muntatge."
+              },
+              {
+                "codi": "CA27",
+                "text": "Opera amb autonomia en les activitats proposades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Té en compte els temps previstos per al procés."
+              },
+              {
+                "codi": "CA29",
+                "text": "Col·labora amb l’equip de treball amb actitud responsable, respectuosa i tolerant."
+              },
+              {
+                "codi": "CA210",
+                "text": "Organitza les diferents fases del treball en les operacions de muntatge i manteniment de circuits bàsics de comandament i potència pneumàtics."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Localitza avaries i disfuncions en instal·lacions pneumàtiques i electropneumàtiques, analitzant els símptomes i identificant les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Elabora un pla d’intervenció."
+              },
+              {
+                "codi": "CA32",
+                "text": "Realitza mesures i verificacions per a la localització d’avaries en instal·lacions pneumàtiques i electropneumàtiques."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica disfuncions de la instal·lació mitjançant una comprovació funcional en instal·lacions pneumàtiques i electropneumàtiques."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica la causa de l’avaria."
+              },
+              {
+                "codi": "CA35",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric)."
+              },
+              {
+                "codi": "CA36",
+                "text": "Opera amb autonomia i destresa en la manipulació d’elements, equips i eines."
+              },
+              {
+                "codi": "CA37",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA38",
+                "text": "Aplica les normes de qualitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Repara avaries i disfuncions en instal·lacions pneumàtiques i electropneumàtiques, ajustant o substituint els elements defectuosos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Elabora un pla d’intervenció correctiva i preventiva."
+              },
+              {
+                "codi": "CA42",
+                "text": "Repara l’avaria substituint elements en instal·lacions pneumàtiques i electropneumàtiques."
+              },
+              {
+                "codi": "CA43",
+                "text": "Verifica la compatibilitat del nou element instal·lat."
+              },
+              {
+                "codi": "CA44",
+                "text": "Registra dades per a l’elaboració de l’informe de reparació i factura."
+              },
+              {
+                "codi": "CA45",
+                "text": "Restableix les condicions de funcionament normal."
+              },
+              {
+                "codi": "CA46",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA47",
+                "text": "Opera amb autonomia i destresa en la manipulació d’elements, equips i eines en instal·lacions pneumàtiques i electropneumàtiques."
+              },
+              {
+                "codi": "CA48",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA49",
+                "text": "Aplica les normes de qualitat."
+              },
+              {
+                "codi": "CA410",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració de circuits pneumàtics i electropneumàtics bàsics",
+                "items": [
+                  "Memòria tècnica d’instal·lacions pneumàtiques i electropneumàtiques.",
+                  "Càlculs elementals en circuits pneumàtics i electropneumàtics.",
+                  "Simbologia.",
+                  "Elements pneumàtics: unitat de manteniment, actuadors, vàlvules.",
+                  "Elements electropneumàtics: electrovàlvules, elements de comandament o senyal, i elements de memòria i retard.",
+                  "Elaboració de documents d’instruccions generals d’ús i manteniment.",
+                  "Seqüència d’operacions i control de temps.",
+                  "Qualitat en la configuració d’instal·lacions pneumàtiques i electropneumàtiques.",
+                  "Aplicació de programes informàtics de càlcul, dibuix d’esquemes i configuració de les instal·lacions pneumàtiques i electropneumàtiques."
+                ]
+              },
+              {
+                "bloc": "Muntatge d’instal·lacions industrials bàsiques pneumàtiques i electropneumàtiques",
+                "items": [
+                  "Característiques de les instal·lacions d’automatismes pneumàtics i electropneumàtics",
+                  "Interpretació d’esquemes de circuits pneumàtics i electropneumàtics.",
+                  "Circuits bàsics pneumàtics de control i variació de velocitat d’un cilindre.",
+                  "Circuits bàsics electropneumàtics de control.",
+                  "Tècniques i eines utilitzades en el muntatge.",
+                  "Organització del procés de muntatge d’instal·lacions industrials bàsiques pneumàtiques i electropneumàtiques."
+                ]
+              },
+              {
+                "bloc": "Avaries d’instal·lacions d’automatismes pneumàtics i electropneumàtics",
+                "items": [
+                  "Tipologia d’avaries característiques en instal·lacions d’automatismes pneumàtics i electropneumàtics.",
+                  "Anàlisi de símptomes. Sistemes emprats.",
+                  "Organització en la detecció d’avaries d’acord amb el pla de manteniment."
+                ]
+              },
+              {
+                "bloc": "Manteniment i reparació d’instal·lacions d’automatismes industrials pneumàtics i electropneumàtics",
+                "items": [
+                  "Manteniment correctiu i preventiu d’automatismes industrials pneumàtics i electropneumàtics.",
+                  "Diagnosi i localització d’avaries d’automatismes pneumàtics i electropneumàtics (proves, mesures, procediments i elements de seguretat).",
+                  "Reparació d’avaries.",
+                  "Equips utilitzats.",
+                  "Organització del manteniment correctiu i preventiu en instal·lacions d’automatismes industrials pneumàtics i electropneumàtics."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "automatització programable",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura circuits bàsics d’automatismes programables, seleccionant-ne els elements i elaborant-ne els esquemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les especificacions tècniques del sistema automàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els principis de funcionament i característiques de mecanismes (accionament, control, protecció i senyalització), receptors i motors que intervenen en el sistema automàtic proposat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Calcula les característiques tècniques dels components de la instal·lació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza catàlegs de fabricants per a la selecció de materials."
+              },
+              {
+                "codi": "CA15",
+                "text": "Elabora esquemes de connexió d’entrades i sortides de l’autòmat, amb la simbologia normalitzada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Confecciona el programa de control de l’autòmat."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza programes informàtics de CAD electrotècnic."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica la normativa electrotècnica i convencionalismes d’automatismes."
+              },
+              {
+                "codi": "CA19",
+                "text": "Té en compte els temps previstos per al procés."
+              },
+              {
+                "codi": "CA110",
+                "text": "Respecta els criteris de qualitat."
+              },
+              {
+                "codi": "CA111",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta sistemes automàtics amb control programable, interpretant-ne la documentació tècnica i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les entrades, sortides (analògiques i digitals) i les seves referències."
+              },
+              {
+                "codi": "CA22",
+                "text": "Connecta els equips i elements perifèrics del sistema."
+              },
+              {
+                "codi": "CA23",
+                "text": "Estableix la comunicació del programari amb el dispositiu programable."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza circuits de control bàsics amb autòmats programables."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza petits programes seqüencials de control a partir del GRAFCET."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza un control de motors asíncrons amb convertidors de freqüència."
+              },
+              {
+                "codi": "CA27",
+                "text": "Verifica el funcionament del sistema."
+              },
+              {
+                "codi": "CA28",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat vers el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza les activitats en el temps requerit."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica les normes de qualitat en les intervencions."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra autonomia i resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA212",
+                "text": "Organitza les diferents fases del treball en les operacions de muntatge de sistemes automàtics amb control programable."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Localitza avaries i disfuncions en instal·lacions d’automatització programable, analitzant-ne els símptomes i identificant-hi les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Elabora un pla d’intervenció."
+              },
+              {
+                "codi": "CA32",
+                "text": "Realitza mesures i verificacions per a la localització d’avaries en instal·lacions d’automatització programable."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica disfuncions de la instal·lació mitjançant una comprovació funcional en instal·lacions d’automatització programable."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica la causa de l’avaria."
+              },
+              {
+                "codi": "CA35",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric)."
+              },
+              {
+                "codi": "CA36",
+                "text": "Opera amb autonomia i destresa en la manipulació d’elements, equips i eines."
+              },
+              {
+                "codi": "CA37",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA38",
+                "text": "Aplica les normes de qualitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Repara avaries i disfuncions en instal·lacions d’automatització programable, ajustant-hi o substituint-hi els elements defectuosos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Elabora un pla d’intervenció correctiva i preventiva."
+              },
+              {
+                "codi": "CA42",
+                "text": "Repara l’avaria substituint elements en instal·lacions d’automatització programable."
+              },
+              {
+                "codi": "CA43",
+                "text": "Ajusta les proteccions d’acord amb les característiques dels receptors."
+              },
+              {
+                "codi": "CA44",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA45",
+                "text": "Verifica la compatibilitat del nou element instal·lat."
+              },
+              {
+                "codi": "CA46",
+                "text": "Registra dades per elaborar l’informe de reparació i factura."
+              },
+              {
+                "codi": "CA47",
+                "text": "Restableix les condicions de funcionament normal."
+              },
+              {
+                "codi": "CA48",
+                "text": "Opera amb autonomia i destresa en la manipulació d’elements, equips i eines en instal·lacions d’automatització programable."
+              },
+              {
+                "codi": "CA49",
+                "text": "Realitza la intervenció en el temps requerit."
+              },
+              {
+                "codi": "CA410",
+                "text": "Aplica les normes de qualitat."
+              },
+              {
+                "codi": "CA411",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració de circuits bàsics amb autòmats programables",
+                "items": [
+                  "Memòria tècnica d’instal·lacions amb autòmats programables.",
+                  "Càlculs.",
+                  "Simbologia.",
+                  "Estructura i característiques fonamentals dels autòmats programables.",
+                  "Programació bàsica d’autòmats. Llenguatges i procediments.",
+                  "Elaboració de documents d’instruccions generals d’ús i manteniment.",
+                  "Seqüència d’operacions i control del temps.",
+                  "Qualitat en la configuració d’instal·lacions amb autòmats programables.",
+                  "Aplicació de programes informàtics de càlcul i configuració d’instal·lacions amb autòmats programables."
+                ]
+              },
+              {
+                "bloc": "Sistemes automàtics amb control programable",
+                "items": [
+                  "Entrades i sortides digitals i analògiques.",
+                  "Muntatge i connexió d’autòmats programables.",
+                  "Control de potència: arrencada i maniobra de motors (monofàsics i trifàsics).",
+                  "Proteccions contra curtcircuits i sobrecàrregues.",
+                  "Variadors de velocitat electrònics.",
+                  "Aplicacions industrials amb autòmats.",
+                  "Qualitat en el muntatge de sistemes automàtics amb control programable.",
+                  "Organització del muntatge d’instal·lacions elèctriques automatitzades amb control programable."
+                ]
+              },
+              {
+                "bloc": "Avaries d’instal·lacions automàtiques amb control programable",
+                "items": [
+                  "Tipologia d’avaries característiques en instal·lacions automàtiques de control programable.",
+                  "Anàlisi de símptomes. Sistemes emprats.",
+                  "Organització en la detecció d’avaries d’acord amb el pla de manteniment."
+                ]
+              },
+              {
+                "bloc": "Manteniment i reparació d’instal·lacions d’automatització industrial programable",
+                "items": [
+                  "Manteniment correctiu i preventiu d’instal·lacions d’automatització industrial programable.",
+                  "Diagnosi i localització d’avaries en instal·lacions amb autòmats programables (proves, mesures, procediments i elements de seguretat).",
+                  "Reparació d’avaries.",
+                  "Equips utilitzats.",
+                  "Organització en la realització de manteniment correctiu i preventiu en instal·lacions d’automatització industrial programable."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

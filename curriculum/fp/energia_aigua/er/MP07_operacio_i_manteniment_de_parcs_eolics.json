@@ -1,0 +1,453 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "operació i manteniment de parcs eòlics",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "posada en servei d’instal·lacions d’energia eòlica",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els processos de posada en marxa d’instal·lacions d’energia eòlica, utilitzant la documentació existent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les diferents parts de la instal·lació d’energia eòlica que intervenen en la posada en marxa."
+              },
+              {
+                "codi": "CA12",
+                "text": "Distingeix els esquemes, les normes i les especificacions tècniques de la instal·lació d’energia eòlica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina les proves reglamentàries que cal realitzar per a la posada en marxa de la instal·lació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Determina els equips i els recursos necessaris per a l’execució de les proves."
+              },
+              {
+                "codi": "CA15",
+                "text": "Elabora procediments per al control i el seguiment de la posada en marxa."
+              },
+              {
+                "codi": "CA16",
+                "text": "Redacta els criteris d’aplicació en els plans de seguretat, protecció ambiental i qualitat en la posada en servei de la instal·lació d’energia eòlica."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza les operacions de posada en marxa, regulació i control d’instal·lacions d’energia eòlica simulant el procediment establert i complint les especificacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Realitza la posada en marxa i de parada de l’aerogenerador."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica el sistema d’orientació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Regula la velocitat de funcionament i la potència generada a l’aerogenerador."
+              },
+              {
+                "codi": "CA24",
+                "text": "Realitza mesures de temperatura."
+              },
+              {
+                "codi": "CA25",
+                "text": "Mesura valors de pressió en el grup hidràulic."
+              },
+              {
+                "codi": "CA26",
+                "text": "Mesura velocitats del rotor."
+              },
+              {
+                "codi": "CA27",
+                "text": "Controla els paràmetres de funcionament i els ajusta als seus valors de disseny."
+              },
+              {
+                "codi": "CA28",
+                "text": "Valora la informació subministrada pels registres."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza el procediment de l’operació de control del sistema."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització de processos de la posada en marxa d’instal·lacions eòliques",
+                "items": [
+                  "Identificació dels diferents components de la instal·lació, localització del seu emplaçament.",
+                  "Tipus d’aerogeneradors.",
+                  "Parts d’un aerogenerador. Especificació de les característiques de cadascun dels elements que la componen: torres, góndoles, pales, rotor, multiplicadores, transformadors, equips de mesura, equips de control.",
+                  "Principi de funcionament d’un aerogenerador.",
+                  "Processos de posada en marxa d’un aerogenerador. Paràmetres que s’han de controlar, equips necessaris.",
+                  "Seguretat i medi ambient."
+                ]
+              },
+              {
+                "bloc": "Realització de les operacions de posada en marxa, regulació i control",
+                "items": [
+                  "Equips i tècniques per a la revisió elèctrica.",
+                  "Procediments i operacions per a la presa de mesures.",
+                  "Maniobres de posada en servei i aturada de la instal·lació.",
+                  "Protocols per a la posada en tensió d’instal·lacions.",
+                  "Comprovació de subsistemes d’orientació, frenada i posició de les pales (pitch).",
+                  "Tipus de control.",
+                  "Principis de regulació i de control emprats a l’aerogenerador.",
+                  "Circuits típics de control pneumàtic, hidràulic i elèctric en aerogeneradors."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "gestió del manteniment d’instal·lacions d’energia eòlica",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora el pla de manteniment d’instal·lacions d’energia eòlica, identificant procediments i actuacions específiques dels sistemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els diferents tipus de manteniment."
+              },
+              {
+                "codi": "CA12",
+                "text": "Classifica les operacions de manteniment preventiu justificant-ne la temporalització."
+              },
+              {
+                "codi": "CA13",
+                "text": "Redacta el procediment en cadascuna de les operacions de manteniment."
+              },
+              {
+                "codi": "CA14",
+                "text": "Redacta el procediment per a la detecció de les avaries més usuals en els diferents tipus d’instal·lacions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Elabora especificacions de diferents materials per gestionar-ne l’adquisició en el procés de manteniment."
+              },
+              {
+                "codi": "CA16",
+                "text": "Estableix els recursos humans i mitjans materials necessaris per a la realització del manteniment."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza els plans de seguretat, protecció ambiental i qualitat en el procés de manteniment."
+              },
+              {
+                "codi": "CA18",
+                "text": "Redacta el manual de manteniment."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Defineix els procediments per al manteniment preventiu i correctiu d’instal·lacions d’energia eòlica, utilitzant la documentació existent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta en els documents dels plans de manteniment les operacions de manteniment."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix les tasques, temps, recursos humans i materials per a la realització del manteniment d’una instal·lació d’energia eòlica."
+              },
+              {
+                "codi": "CA23",
+                "text": "Determina el model de magatzem de materials i d’eines de manteniment."
+              },
+              {
+                "codi": "CA24",
+                "text": "Diagnostica diferents avaries i disfuncions a les instal·lacions."
+              },
+              {
+                "codi": "CA25",
+                "text": "Redacta els criteris d’aplicació dels plans de seguretat, protecció ambiental i qualitat en el manteniment d’instal·lacions d’energia eòlica."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica indicadors clau per al manteniment d’equips de centrals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració d’un pla de manteniment d’una instal·lació d’energia eòlica",
+                "items": [
+                  "Estructura del manteniment.",
+                  "Organització del manteniment.",
+                  "Tècniques de diagnòstic i de localització.",
+                  "Manteniment d’equips i d’elements.",
+                  "Gestió econòmica del manteniment.",
+                  "Organització i gestió del magatzem de manteniment."
+                ]
+              },
+              {
+                "bloc": "Definició de procediments per al manteniment preventiu i correctiu d’instal·lacions d’energia eòlica",
+                "items": [
+                  "Programa de manteniment.",
+                  "Planificació i gestió del manteniment preventiu.",
+                  "Mesures de paràmetres: procediments d’obtenció i de registre.",
+                  "Anàlisis termogràfiques de vibracions i d’olis.",
+                  "Sistemes de monitoratge de vibracions."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "prevenció de riscos en instal·lacions d’energia eòlica",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica protocols d’actuació propis de situacions d’emergència i de primers auxilis en parcs eòlics segons la normativa de seguretat, procediments d’atenció sanitària bàsica i els plans d’emergència establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix el pla d’emergència."
+              },
+              {
+                "codi": "CA12",
+                "text": "Enumera els dispositius d’emergència, equips i mesures de protecció propis dels parcs eòlics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix la tipologia d’accidents que poden produir-se en els treballs relacionats amb els parcs eòlics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Defineix les actuacions que cal seguir per a les persones davant d’accidents o contingències relacionats amb atrapaments, caigudes, incendis i electrocucions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Aplica mesures de reanimació, inhibició d’hemorràgies, immobilitzacions i embenats i altres actuacions de primers auxilis en diferents supòsits simulats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica tècniques d’actuació en simulacres d’extinció d’incendis."
+              },
+              {
+                "codi": "CA17",
+                "text": "Classifica els procediments d’evacuació d’aerogeneradors i parcs eòlics."
+              },
+              {
+                "codi": "CA18",
+                "text": "Simula tècniques de conducció de vehicles tot terreny en els processos d’accés i evacuació de parcs eòlics."
+              },
+              {
+                "codi": "CA19",
+                "text": "Emplena els informes descriptius de diferents situacions d’emergència i de valoració de danys."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant els riscos associats, les mesures i els equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els riscos i el nivell de perillositat que suposen la manipulació dels materials, de les eines, dels estris i de les màquines."
+              },
+              {
+                "codi": "CA22",
+                "text": "Opera les màquines complint les normes de seguretat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials i d’eines, entre d’altres."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica els elements de seguretat (proteccions, alarmes i aturades de emergència, entre d’altres) de les màquines i dels equips de protecció individual (calçat, protecció ocular i indumentària, entre d’altres) que s’han d’emprar en les diferents operacions de muntatge."
+              },
+              {
+                "codi": "CA25",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerides."
+              },
+              {
+                "codi": "CA26",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han de prendre en la preparació i en l’execució de les operacions de muntatge i de manteniment de les instal·lacions eòliques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA28",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA29",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Aplicació de protocols d’emergència i de primers auxilis en parcs eòlics",
+                "items": [
+                  "Pla d’emergència en parcs eòlics terrestres i marins.",
+                  "Dispositius d’emergència, equips i mesures de protecció propis dels parcs eòlics.",
+                  "Tipologia d’accidents en parcs eòlics.",
+                  "Actuacions davant d’accidents o contingències, atrapaments, caigudes, incendis i electrocució, entre d’altres.",
+                  "Reanimació. Inhibició d’hemorràgies. Immobilitzacions i embenats. Primers auxilis en parcs eòlics.",
+                  "Tècniques d’actuació en simulacres d’extinció d’incendis.",
+                  "Procediments d’evacuació d’aerogeneradors i parcs eòlics.",
+                  "Tècniques de conducció de vehicles tot terreny en els processos d’accés i d’evacuació de parcs eòlics.",
+                  "Normativa específica d’emergència i de valoració de danys."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos, seguretat i protecció mediambiental",
+                "items": [
+                  "Normativa de prevenció de riscos laborals relativa a les instal·lacions eòliques.",
+                  "Prevenció de riscos laborals en els processos de muntatge i de manteniment.",
+                  "Equips de protecció individual.",
+                  "Protecció col·lectiva.",
+                  "Normativa reguladora en gestió de residus."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "manteniment d’instal·lacions d’energia eòlica",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza el manteniment preventiu d’una instal·lació d’energia eòlica utilitzant els mitjans i procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Realitza operacions de desmuntatge i de substitució d’equips i de components."
+              },
+              {
+                "codi": "CA12",
+                "text": "Comprova els parells de collament dels diferents equips i elements."
+              },
+              {
+                "codi": "CA13",
+                "text": "Pren mostres d’oli."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza tècniques d’anàlisi de vibracions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Canvia el lubricant de la multiplicadora i d’altres elements dinàmics de l’aerogenerador."
+              },
+              {
+                "codi": "CA16",
+                "text": "Manté els equips elèctrics per garantir-ne el bon funcionament."
+              },
+              {
+                "codi": "CA17",
+                "text": "Avalua els valors de temperatura en equips, elements i conduccions."
+              },
+              {
+                "codi": "CA18",
+                "text": "Emplena el registre de les operacions de manteniment."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza el manteniment correctiu d’una instal·lació d’energia eòlica, atenent les característiques tècniques dels equips i de les instal·lacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les possibles avaries i les seves causes."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza operacions de reparació de components."
+              },
+              {
+                "codi": "CA23",
+                "text": "Elabora i emplena el registre de les operacions de manteniment."
+              },
+              {
+                "codi": "CA24",
+                "text": "Relaciona els valors de mesurament de la instal·lació elèctrica i de generació amb una possible avaria."
+              },
+              {
+                "codi": "CA25",
+                "text": "Substitueix peces mecàniques o hidràuliques de l’aerogenerador."
+              },
+              {
+                "codi": "CA26",
+                "text": "Repara equips elèctrics de generació, protecció i evacuació d’energia."
+              },
+              {
+                "codi": "CA27",
+                "text": "Assegura el correcte funcionament del sistema després de la reparació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització del manteniment preventiu d’instal·lacions d’energia eòlica",
+                "items": [
+                  "Àrea de treball.",
+                  "Tipologia d’avaries.",
+                  "Operacions de recanvi d’equips.",
+                  "Operacions mecàniques en el manteniment d’instal·lacions d’energia eòlica: canvis d’oli, comprovació dels parells de serratge, anàlisi de vibracions.",
+                  "Operacions elèctriques de manteniment de circuits.",
+                  "Neteja d’equips i d’instal·lacions.",
+                  "Greixatge d’equips.",
+                  "Documentació generada. Històrics d’avaries."
+                ]
+              },
+              {
+                "bloc": "Realització del manteniment correctiu d’instal·lacions d’energia eòlica",
+                "items": [
+                  "Diagnòstic d’avaries en instal·lacions d’energia eòlica.",
+                  "Procediments d’aïllament mecànic i elèctric dels diferents components.",
+                  "Mètodes mecànics per a la reparació dels diferents components de les instal·lacions: soldadura, roscatge i unió d’elements.",
+                  "Desmuntatge i reparació o reposició d’equips i de components.",
+                  "Sistemes de comprovació i procediments de posada en funcionament de la instal·lació."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,110 +3,150 @@
     "familia": "fp",
     "cicle_formatiu": "DAW",
     "titol_cicle": "Desenvolupament d'Aplicacions Web",
-    "familia_professional": "Informàtica i Comunicacions",
     "grau": "superior",
-    "rd_titol": "RD 686/2010",
-    "resolucio_cat": "Resolució ENS/2243/2013",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2010/06/04/pdfs/BOE-A-2010-8881.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul de Programació en el DAW estableix les bases de la programació orientada a objectes que sustenten el desenvolupament web modern. Desenvolupa competències en programació estructurada, POO i ús de biblioteques, essencials per als mòduls posteriors d’entorn client i servidor. S’aplica en qualsevol rol de programador web, tant en la lògica de negoci del backend com en la comprensió de frameworks i patrons de disseny.\n\nEls continguts cobreixen els fonaments de la programació (variables, tipus de dades, estructures de control, funcions) i la transició al paradigma orientat a objectes en Java i Python: classes, herència, polimorfisme, encapsulació, interfaces i classes abstractes. S’estudien les col·leccions i estructures de dades de la biblioteca estàndard, la gestió d’excepcions, l’accés a fitxers i la serialització, les proves unitàries amb JUnit o pytest, i el flux de treball amb Git (branques, merges, pull requests) com a eina de col·laboració professional.\n\nEl mòdul s’imparteix amb exercicis progressius de complexitat creixent, des de problemes algorítmics bàsics fins a projectes de programari amb múltiples classes i tests. L’alumnat treballa en IDE (VS Code, IntelliJ) reproduint el flux professional: anàlisi, disseny, implementació, prova i documentació del codi."
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "MP03",
-    "nom": "Programació",
-    "hores_totals": 165,
+    "nom": "programació",
+    "hores_totals": 297,
     "uf": [
       {
         "codi": "UF1",
-        "nom": "Fonaments de programació",
-        "hores": 99,
+        "nom": "programació estructurada",
+        "hores": 85,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Escriu i executa programes senzills reconeixent i aplicant els elements bàsics del llenguatge de programació.",
+            "text": "Reconeix l’estructura d’un programa informàtic, identificant i relacionant els elements propis del llenguatge de programació utilitzat.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'han identificat els tipus de dades primitius i les seves operacions.",
-                "pes_percentual": 15
+                "codi": "CA11",
+                "text": "Identifica els blocs que componen l’estructura d’un programa informàtic."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han utilitzat variables, constants i expressions aritmètiques i lògiques correctament.",
-                "pes_percentual": 20
+                "codi": "CA12",
+                "text": "Crea projectes de desenvolupament d’aplicacions i utilitza entorns integrats de desenvolupament."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'han implementat estructures de control condicional (if/elif/else, switch).",
-                "pes_percentual": 20
+                "codi": "CA13",
+                "text": "Identifica els diferents tipus de variables i la utilitat específica de cadascun."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'han implementat estructures de control iteratiu (for, while, do-while).",
-                "pes_percentual": 20
+                "codi": "CA14",
+                "text": "Modifica el codi d’un programa per crear i utilitzar variables."
               },
               {
-                "codi": "CA1.5",
-                "text": "S'han tractat errors amb mecanismes d'excepcions (try/except/finally).",
-                "pes_percentual": 25
+                "codi": "CA15",
+                "text": "Crea i utilitza constants i literals."
+              },
+              {
+                "codi": "CA16",
+                "text": "Classifica, reconeix i utilitza en expressions els operadors del llenguatge."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comprova el funcionament de les conversions de tipus explícites i implícites."
+              },
+              {
+                "codi": "CA18",
+                "text": "Introdueix comentaris en el codi."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Desenvolupa algorismes i els implementa en funcions i mòduls reutilitzables.",
+            "text": "Utilitza correctament tipus de dades simples i compostes emprant les estructures de control adients.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'han dissenyat algorismes de cerca i ordenació sobre llistes i arrays.",
-                "pes_percentual": 20
+                "codi": "CA21",
+                "text": "Descriu els fonaments de la programació."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'han creat funcions amb paràmetres i valors de retorn ben definits.",
-                "pes_percentual": 20
+                "codi": "CA22",
+                "text": "Escriu algorismes simples."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'han aplicat tècniques de recursivitat per resoldre problemes adequats.",
-                "pes_percentual": 20
+                "codi": "CA23",
+                "text": "Analitza i dissenya els possibles algorismes per resoldre problemes."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'han organitzat els programes en mòduls i paquets reutilitzables.",
-                "pes_percentual": 20
+                "codi": "CA24",
+                "text": "Escriu i prova programes senzills reconeixent i aplicant els fonaments de la programació."
               },
               {
-                "codi": "CA2.5",
-                "text": "S'ha analitzat la complexitat algorísmica bàsica (O(n), O(n²), O(log n)).",
-                "pes_percentual": 20
+                "codi": "CA25",
+                "text": "Utilitza estructures de dades simples i compostes."
+              },
+              {
+                "codi": "CA26",
+                "text": "Escriu i prova codi que faci ús de les estructures de selecció."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza correctament les diferents estructures de repetició disponibles."
+              },
+              {
+                "codi": "CA28",
+                "text": "Reconeix les possibilitats de les sentències de salt."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza operacions bàsiques, compostes i de tractament de caràcters."
+              },
+              {
+                "codi": "CA210",
+                "text": "Revisa i corregeix els errors apareguts en els programes."
+              },
+              {
+                "codi": "CA211",
+                "text": "Comenta i documenta adequadament els programes realitzats."
+              },
+              {
+                "codi": "CA212",
+                "text": "Utilitza un entorn integrat de desenvolupament en la creació i compilació de programes simples."
               }
-            ]
-          },
-          {
-            "codi": "RA3",
-            "text": "Gestiona col·leccions de dades i fitxers aplicant les estructures de dades adequades a cada problema.",
-            "criteris_avaluacio": [
+            ],
+            "continguts": [
               {
-                "codi": "CA3.1",
-                "text": "S'han manipulat llistes, tuples, diccionaris i conjunts amb les operacions pròpies.",
-                "pes_percentual": 25
+                "bloc": "Estructura d’un programa informàtic",
+                "items": [
+                  "Blocs d’un programa informàtic.",
+                  "Projectes de desenvolupament d’aplicacions. Entorns integrats de desenvolupament.",
+                  "Variables. Tipus i utilitat.",
+                  "Utilització de variables.",
+                  "Constants. Tipus i utilitat.",
+                  "Operadors del llenguatge de programació.",
+                  "Conversions de tipus de dades.",
+                  "Comentaris al codi."
+                ]
               },
               {
-                "codi": "CA3.2",
-                "text": "S'han llegit i escrit fitxers de text i fitxers CSV.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.3",
-                "text": "S'ha treballat amb fitxers JSON per a l'intercanvi de dades.",
-                "pes_percentual": 25
-              },
-              {
-                "codi": "CA3.4",
-                "text": "S'ha seleccionat l'estructura de dades més adequada (piles, cues, llistes enllaçades) per a cada problema.",
-                "pes_percentual": 25
+                "bloc": "Tipus de dades simples i compostes. Programació estructurada",
+                "items": [
+                  "Fonaments de programació.",
+                  "Introducció a l’algorísmica.",
+                  "Disseny d’algorismes.",
+                  "Prova de programes.",
+                  "Tipus de dades simples i compostes.",
+                  "Estructures de selecció.",
+                  "Estructures de repetició.",
+                  "Estructures de salt.",
+                  "Tractament de cadenes.",
+                  "Depuració d’errors.",
+                  "Documentació dels programes.",
+                  "Entorns de desenvolupament de programes."
+                ]
               }
             ]
           }
@@ -114,63 +154,604 @@
       },
       {
         "codi": "UF2",
-        "nom": "Programació orientada a objectes aplicada al web",
-        "hores": 66,
+        "nom": "disseny modular",
+        "hores": 50,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Aplica la programació orientada a objectes dissenyant classes, herència i polimorfisme per a aplicacions web.",
+            "text": "Escriu i prova programes senzills reconeixent i aplicant els fonaments de la programació modular.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'han definit classes amb atributs, mètodes, constructors i destructors.",
-                "pes_percentual": 20
+                "codi": "CA11",
+                "text": "Analitza els conceptes relacionats amb la programació modular."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han aplicat els principis d'encapsulament i visibilitat (públic, privat, protegit).",
-                "pes_percentual": 20
+                "codi": "CA12",
+                "text": "Analitza els avantatges i la necessitat de la programació modular."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'ha implementat l'herència i la sobreescriptura de mètodes.",
-                "pes_percentual": 20
+                "codi": "CA13",
+                "text": "Aplica el concepte d’anàlisi descendent en l’elaboració de programes."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'ha aplicat el polimorfisme amb interfícies i classes abstractes.",
-                "pes_percentual": 20
+                "codi": "CA14",
+                "text": "Modula correctament els programes realitzats."
               },
               {
-                "codi": "CA1.5",
-                "text": "S'han aplicat els principis SOLID en el disseny de classes.",
-                "pes_percentual": 20
+                "codi": "CA15",
+                "text": "Realitza correctament les crides a funcions i la seva parametrització."
+              },
+              {
+                "codi": "CA16",
+                "text": "Té en compte l’àmbit de les variables en les crides a les funcions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Prova, depura, comenta i documenta els programes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Defineix el concepte de llibreries i la seva utilitat."
+              },
+              {
+                "codi": "CA19",
+                "text": "Utilitza llibreries en l’elaboració de programes."
+              },
+              {
+                "codi": "CA110",
+                "text": "Coneix les nocions bàsiques de la recursivitat i llurs aplicacions clàssiques."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació modular",
+                "items": [
+                  "Concepte.",
+                  "Avantatges i inconvenients.",
+                  "Anàlisi descendent (top down).",
+                  "Modulació de programes.",
+                  "Crides a funcions. Tipus i funcionament.",
+                  "Àmbit de les crides a funcions.",
+                  "Prova, depuració i comentaris de programes.",
+                  "Concepte de llibreries.",
+                  "Utilització de llibreries.",
+                  "Introducció al concepte de recursivitat."
+                ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "fonaments de gestió de fitxers",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dissenya, prova i documenta programes que realitzen diferents operacions sobre fitxers documentant el programa i les proves realitzades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els conceptes relacionats amb fitxers."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els diferents tipus de fitxers."
+              },
+              {
+                "codi": "CA13",
+                "text": "Estableix i diferencia les operacions a realitzar sobre els fitxers en el llenguatge de programació emprat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza correctament diferents operacions sobre fitxers."
+              },
+              {
+                "codi": "CA15",
+                "text": "Modula adequadament els programes que gestionen fitxers."
+              },
+              {
+                "codi": "CA16",
+                "text": "Dissenya, prova i documenta programes simples que gestionen fitxers."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió de fitxers",
+                "items": [
+                  "Concepte i tipus de fitxers.",
+                  "Operacions sobre fitxers seqüencials i relatius.",
+                  "Disseny de programes de gestió de fitxers.",
+                  "Modulació de les operacions sobre fitxers."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "programació orientada a objectes. Fonaments",
+        "hores": 35,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Escriu i prova programes senzills, reconeixent i aplicant els fonaments de la programació orientada a objectes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Instancia objectes a partir de classes predefinides."
+              },
+              {
+                "codi": "CA12",
+                "text": "Utilitza mètodes i propietats dels objectes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Escriu crides a mètodes estàtics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza paràmetres en la crida a mètodes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Incorpora i utilitza llibreries d’objectes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza constructors."
+              },
+              {
+                "codi": "CA17",
+                "text": "Distingeix dades estàtiques de dades dinàmiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix els mecanismes de destrucció i/o finalització d’objectes."
+              },
+              {
+                "codi": "CA19",
+                "text": "Reconeix els mecanismes d’alliberament de memòria."
+              },
+              {
+                "codi": "CA110",
+                "text": "Utilitza l’entorn integrat de desenvolupament en la creació i compilació de programes simples."
+              }
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Implementa patrons de disseny orientats al desenvolupament web per millorar la mantenibilitat i escalabilitat del codi.",
+            "text": "Desenvolupa programes organitzats en classes analitzant i aplicant els principis de la programació orientada a objectes.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'ha aplicat el patró MVC per separar la lògica de presentació, negoci i dades.",
-                "pes_percentual": 30
+                "codi": "CA21",
+                "text": "Reconeix la sintaxi, l’estructura i els components típics d’una classe."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'han implementat patrons creacionals (Singleton, Factory) en casos d'ús adequats.",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Defineix classes."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'ha aplicat el patró Observer per gestionar esdeveniments en aplicacions web.",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Defineix propietats i mètodes."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'ha valorat l'ús de patrons de disseny en frameworks web reals (Laravel, Django).",
-                "pes_percentual": 20
+                "codi": "CA24",
+                "text": "Crea constructors."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea destructors i/o mètodes de finalització."
+              },
+              {
+                "codi": "CA26",
+                "text": "Desenvolupa programes que instancien i utilitzen objectes de les classes creades anteriorment."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza mecanismes per controlar la visibilitat de les classes i dels seus membres."
+              },
+              {
+                "codi": "CA28",
+                "text": "Defineix i utilitza classes heretades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Crea i utilitza mètodes estàtics."
+              },
+              {
+                "codi": "CA210",
+                "text": "Crea i utilitza conjunts i llibreries de classes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Desenvolupa programes aplicant característiques avançades dels llenguatges orientats a objectes i de l’entorn de programació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els conceptes d’herència, superclasse i subclasse."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza modificadors per bloquejar i forçar l’herència de classes i mètodes."
+              },
+              {
+                "codi": "CA33",
+                "text": "Reconeix la incidència dels constructors en l’herència."
+              },
+              {
+                "codi": "CA34",
+                "text": "Reconeix la incidència dels destructors i/o mètodes de finalització en l’herència."
+              },
+              {
+                "codi": "CA35",
+                "text": "Crea classes heretades que sobreescriguin la implementació de mètodes de la superclasse."
+              },
+              {
+                "codi": "CA36",
+                "text": "Coneix l’existència de l’herència múltiple i els problemes derivats."
+              },
+              {
+                "codi": "CA37",
+                "text": "Dissenya i aplica jerarquies de classes."
+              },
+              {
+                "codi": "CA38",
+                "text": "Prova i depura les jerarquies de classes."
+              },
+              {
+                "codi": "CA39",
+                "text": "Realitza programes que implementin i utilitzin jerarquies de classes."
+              },
+              {
+                "codi": "CA310",
+                "text": "Comenta i documenta el codi."
+              },
+              {
+                "codi": "CA311",
+                "text": "Entén, defineix i implementa interfícies."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Introducció a la programació orientada a objectes",
+                "items": [
+                  "Tipus primitius de dades.",
+                  "Característiques dels objectes.",
+                  "Definició d’objectes.",
+                  "Taules de tipus primitius davant de taules d’objectes.",
+                  "Utilització de mètodes.",
+                  "Utilització de propietats.",
+                  "Utilització de mètodes estàtics.",
+                  "Constructors.",
+                  "Memòria: gestió dinàmica enfront de gestió estàtica; possibilitats del llenguatge.",
+                  "Destrucció i/o finalització d’objectes i alliberament de memòria."
+                ]
+              },
+              {
+                "bloc": "Desenvolupament de programes organitzats en classes",
+                "items": [
+                  "Concepte de classe. Estructura i membres.",
+                  "Creació d’atributs.",
+                  "Creació de mètodes.",
+                  "Sobrecàrrega de mètodes.",
+                  "Creació de constructors.",
+                  "Creació de destructors i/o mètodes de finalització.",
+                  "Utilització de classes i objectes. Visibilitat.",
+                  "Conjunts i llibreries de classes."
+                ]
+              },
+              {
+                "bloc": "Utilització avançada de classes en el disseny d’aplicacions",
+                "items": [
+                  "Composició de classes.",
+                  "Herència.",
+                  "Jerarquia de classes: superclasses i subclasses.",
+                  "Classes i mètodes abstractes i finals.",
+                  "Sobreescriptura de mètodes.",
+                  "Herència i constructors/destructors/mètodes de finalització.",
+                  "Interfícies."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "POO. Llibreries de classes fonamentals",
+        "hores": 35,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Escriu programes que manipulin informació seleccionant i utilitzant els tipus avançats de dades facilitats pel llenguatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Escriu programes que utilitzin taules (arrays)."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix les llibreries de classes relacionades amb la representació i manipulació de col·leccions."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza les classes bàsiques (vectors, llistes, piles, cues, taules de Hash) per emmagatzemar i processar informació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza iteradors per recórrer els elements de les col·leccions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix les característiques i els avantatges de cadascuna de les col·leccions de dades disponibles."
+              },
+              {
+                "codi": "CA16",
+                "text": "Crea classes i mètodes genèrics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza expressions regulars en la recerca de patrons en cadenes de text."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica les classes relacionades amb el tractament de documents XML."
+              },
+              {
+                "codi": "CA19",
+                "text": "Dissenya programes que realitzen manipulacions sobre documents XML."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona els errors que poden aparèixer en els programes, utilitzant el control d’excepcions facilitat pel llenguatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix els mecanismes de control d’excepcions facilitats pel llenguatge."
+              },
+              {
+                "codi": "CA22",
+                "text": "Implementa la gestió d’excepcions en la utilització de classes facilitades pel llenguatge."
+              },
+              {
+                "codi": "CA23",
+                "text": "Implementa el llançament d’excepcions en les classes que desenvolupa."
+              },
+              {
+                "codi": "CA24",
+                "text": "Reconeix la incidència de l’herència en la gestió d’excepcions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Desenvolupa interfícies gràfiques d’usuari simples, utilitzant les llibreries de classes adequades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Utilitza les eines de l’entorn de desenvolupament per crear interfícies gràfiques d’usuari simples."
+              },
+              {
+                "codi": "CA32",
+                "text": "Programa controladors d’esdeveniments."
+              },
+              {
+                "codi": "CA33",
+                "text": "Escriu programes que utilitzin interfícies gràfiques per a l’entrada i sortida d’informació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Realitza operacions bàsiques d’entrada/sortida d’informació, sobre consola i fitxers, utilitzant les llibreries de classes adequades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Utilitza la consola per realitzar operacions d’entrada i de sortida d’informació."
+              },
+              {
+                "codi": "CA42",
+                "text": "Aplica formats en la visualització de la informació."
+              },
+              {
+                "codi": "CA43",
+                "text": "Reconeix les possibilitats d’entrada/sortida del llenguatge i les llibreries associades."
+              },
+              {
+                "codi": "CA44",
+                "text": "Utilitza fitxers per emmagatzemar i recuperar informació."
+              },
+              {
+                "codi": "CA45",
+                "text": "Crea programes que utilitzen diversos mètodes d’accés al contingut dels fitxers."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Aplicació de les estructures d’emmagatzematge en la programació orientada a objectes",
+                "items": [
+                  "Estructures de dades avançades.",
+                  "Creació d’arrays.",
+                  "Arrays multidimensionals.",
+                  "Cadenes de caràcters.",
+                  "Col·leccions i iteradors.",
+                  "Classes i mètodes genèrics.",
+                  "Manipulació de documents XML. Expressions regulars de cerca."
+                ]
+              },
+              {
+                "bloc": "Control d’excepcions",
+                "items": [
+                  "Captura d’excepcions.",
+                  "Captura enfront de delegació.",
+                  "Llançament d’excepcions.",
+                  "Excepcions i herència."
+                ]
+              },
+              {
+                "bloc": "Interfícies gràfiques d’usuari",
+                "items": [
+                  "Creació i ús d’interfícies gràfiques d’usuari simples.",
+                  "Concepte d’esdeveniment. Creació de controladors d’esdeveniments.",
+                  "Paquets de classes per al disseny d’interfícies."
+                ]
+              },
+              {
+                "bloc": "Lectura i escriptura d’informació",
+                "items": [
+                  "Tipus de fluxos. Fluxos de bytes i de caràcters.",
+                  "Classes relatives a fluxos. Utilització de fluxos.",
+                  "Entrada/sortida. Llibreries associades.",
+                  "Fitxers de dades. Registres.",
+                  "Gestió de fitxers."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF6",
+        "nom": "POO. Introducció a la persistència en les BD",
+        "hores": 29,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona informació emmagatzemada en bases de dades relacionals mantenint la integritat i la consistència de les dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques i els mètodes d’accés a sistemes gestors de bases de dades relacionals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Programa connexions amb bases de dades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Escriu codi per emmagatzemar informació en bases de dades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea programes per recuperar i mostrar informació emmagatzemada en bases de dades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Efectua esborraments i modificacions sobre la informació emmagatzemada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Crea aplicacions que executin consultes sobre bases de dades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Crea aplicacions per possibilitar la gestió d’informació present en bases de dades relacionals."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona informació emmagatzemada en bases de dades objecte-relacionals mantenint la integritat i la consistència de les dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les característiques de les bases de dades objecte-relacionals."
+              },
+              {
+                "codi": "CA22",
+                "text": "Analitza la seva aplicació en el desenvolupament d’aplicacions mitjançant llenguatges orientats a objectes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Classifica i analitza els diferents mètodes que suporten els sistemes gestors de bases de dades per a la gestió de la informació emmagatzemada de forma objecte-relacional."
+              },
+              {
+                "codi": "CA24",
+                "text": "Programa aplicacions que emmagatzemen objectes en bases de dades objecte-relacionals."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza programes per recuperar, actualitzar i eliminar objectes de les bases de dades objecte-relacionals."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza programes per emmagatzemar i gestionar tipus de dades estructurades, compostes i relacionades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Utilitza bases de dades orientades a objectes, analitzant les seves característiques i aplicant tècniques per mantenir la persistència de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les característiques de les bases de dades orientades a objectes."
+              },
+              {
+                "codi": "CA32",
+                "text": "Analitza la seva aplicació en el desenvolupament d’aplicacions mitjançant llenguatges orientats a objectes."
+              },
+              {
+                "codi": "CA33",
+                "text": "Defineix les estructures de dades necessàries per a l’emmagatzematge d’objectes."
+              },
+              {
+                "codi": "CA34",
+                "text": "Classifica i analitza els diferents mètodes que suporten els sistemes gestors per a la gestió de la informació emmagatzemada."
+              },
+              {
+                "codi": "CA35",
+                "text": "Programa aplicacions que emmagatzemin objectes en les bases de dades orientades a objectes."
+              },
+              {
+                "codi": "CA36",
+                "text": "Realitza programes per recuperar, actualitzar i eliminar objectes de les bases de dades orientades a objectes."
+              },
+              {
+                "codi": "CA37",
+                "text": "Realitza programes per emmagatzemar i gestionar tipus de dades estructurades, compostes i relacionades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Disseny de programes amb llenguatges de programació orientats a objectes per la gestió de bases de dades relacionals",
+                "items": [
+                  "Establiment de connexions.",
+                  "Recuperació d’informació.",
+                  "Manipulació de la informació."
+                ]
+              },
+              {
+                "bloc": "Disseny de programes amb llenguatges de programació orientats a objectes per la gestió de bases de dades objecte-relacionals",
+                "items": [
+                  "Establiment de connexions.",
+                  "Recuperació d’informació.",
+                  "Manipulació de la informació."
+                ]
+              },
+              {
+                "bloc": "Disseny de programes amb llenguatges de programació orientats a objectes per la gestió de bases de dades orientades a objectes",
+                "items": [
+                  "Introducció a les bases de dades orientades a objectes.",
+                  "Característiques de les bases de dades orientades a objectes.",
+                  "El model de dades orientat a objectes.",
+                  "El model estàndard ODMG.",
+                  "Prototipus i productes comercials de SGBDOO."
+                ]
               }
             ]
           }

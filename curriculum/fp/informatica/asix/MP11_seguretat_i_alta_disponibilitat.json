@@ -1,0 +1,413 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP11",
+    "nom": "seguretat i alta disponibilitat",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "seguretat física, lògica i legislació",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Adopta pautes i pràctiques de tractament segur de la informació, reconeixent les vulnerabilitats d’un sistema informàtic i la necessitat d’assegurar-lo.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Valora la importància d’assegurar la privadesa, coherència i disponibilitat de la informació en els sistemes informàtics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les diferències entre seguretat física i lògica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Classifica les principals vulnerabilitats d’un sistema informàtic, segons la tipologia i origen."
+              },
+              {
+                "codi": "CA14",
+                "text": "Contrasta la incidència de les tècniques d’enginyeria social en els fraus informàtics."
+              },
+              {
+                "codi": "CA15",
+                "text": "Adopta polítiques de contrasenyes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Valora els avantatges que suposa la utilització de sistemes biomètrics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Aplica tècniques criptogràfiques en l’emmagatzematge i la transmissió de la informació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix la necessitat d’establir un pla integral de protecció perimètrica, especialment en sistemes connectats a xarxes públiques."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica les fases de l’anàlisi forense davant d’atacs a un sistema."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix la legislació i normativa sobre seguretat i protecció de dades valorant-ne la importància.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu la legislació sobre protecció de dades de caràcter personal."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina la necessitat de controlar l’accés a la informació personal emmagatzemada."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les figures legals que intervenen en el tractament i el manteniment dels fitxers de dades."
+              },
+              {
+                "codi": "CA24",
+                "text": "Contrasta l’obligació de posar a disposició de les persones les dades personals que els concerneixen."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu la legislació actual sobre els serveis de la societat de la informació i de comerç electrònic."
+              },
+              {
+                "codi": "CA26",
+                "text": "Contrasta les normes sobre gestió de seguretat de la informació."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprèn la necessitat de conèixer i respectar la normativa legal aplicable."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Adopció de pautes de seguretat informàtica",
+                "items": [
+                  "Fiabilitat, confidencialitat, integritat i disponibilitat.",
+                  "Elements vulnerables en el sistema informàtic: maquinari, programari i dades.",
+                  "Anàlisi de les principals vulnerabilitats d’un sistema informàtic.",
+                  "Amenaces. Tipus: amenaces físiques, amenaces lògiques.",
+                  "Seguretat física i ambiental.",
+                  "Seguretat lògica:"
+                ]
+              },
+              {
+                "bloc": "Legislació i normes sobre seguretat",
+                "items": [
+                  "Legislació sobre protecció de dades.",
+                  "Legislació sobre els serveis de la societat de la informació i el correu electrònic."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "seguretat activa i accés remot",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta mecanismes de seguretat activa, seleccionant i executant contramesures davant d’amenaces o atacs al sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica els principals tipus d’amenaces lògiques contra un sistema informàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Verifica l’origen i l’autenticitat de les aplicacions instal·lades en un equip, així com l’estat d’actualització del sistema operatiu."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica l’anatomia dels atacs més habituals, així com les mesures preventives i pal·liatives disponibles."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza diversos tipus d’amenaces, atacs i programari maliciós, en entorns d’execució controlats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Implanta aplicacions específiques per a la detecció d’amenaces i l’eliminació de programari maliciós."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza tècniques de xifratge, signatures i certificats digitals en un entorn de treball basat en l’ús de xarxes públiques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Avalua les mesures de seguretat dels protocols usats en xarxes sense fil."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix la necessitat d’inventariar i controlar els serveis de xarxa que s’executen en un sistema."
+              },
+              {
+                "codi": "CA19",
+                "text": "Descriu els tipus i característiques dels sistemes de detecció d’intrusions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Implanta tècniques segures d’accés remot a un sistema informàtic, interpretant i aplicant el pla de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu escenaris típics de sistemes amb connexió a xarxes públiques en els quals cal fortificar la xarxa interna."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica les zones de risc d’un sistema, segons criteris de seguretat perimètrica."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els protocols segurs de comunicació i els seus àmbits d’utilització."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura xarxes privades virtuals mitjançant protocols segurs a diferents nivells."
+              },
+              {
+                "codi": "CA25",
+                "text": "Implanta un servidor com a passarel·la d’accés a la xarxa interna des d’ubicacions remotes."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica i configura els possibles mètodes d’autenticació en l’accés d’usuaris remots a través de la passarel·la."
+              },
+              {
+                "codi": "CA27",
+                "text": "Instal·la, configura i integra en la passarel·la un servidor remot d’autenticació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implantació de mecanismes de seguretat activa",
+                "items": [
+                  "Atacs i contramesures en sistemes personals:",
+                  "Seguretat en la xarxa corporativa:"
+                ]
+              },
+              {
+                "bloc": "Implantació de tècniques d’accés remot. Seguretat perimètrica",
+                "items": [
+                  "Elements bàsics de la seguretat perimètrica.",
+                  "Perímetres de xarxa. Zones desmilitaritzades.",
+                  "Arquitectura feble de subxarxa protegida.",
+                  "Arquitectura forta de subxarxa protegida.",
+                  "Xarxes privades virtuals. VPN.",
+                  "Beneficis i desavantatges de les VPN envers les línies dedicades.",
+                  "Tècniques de xifratge. Clau pública i clau privada:",
+                  "Servidors d’accés remot:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "tallafocs i servidors intermediaris",
+        "hores": 27,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta tallafocs per assegurar un sistema informàtic, analitzant-ne les prestacions i controlant-ne el trànsit cap a la xarxa interna.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les característiques, tipus i funcions dels tallafocs."
+              },
+              {
+                "codi": "CA12",
+                "text": "Classifica els nivells en els quals es realitza el filtratge de trànsit."
+              },
+              {
+                "codi": "CA13",
+                "text": "Planifica la instal·lació de tallafocs per limitar els accessos a determinades zones de la xarxa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura filtres en un tallafocs a partir d’un llistat de regles de filtratge."
+              },
+              {
+                "codi": "CA15",
+                "text": "Revisa els registres d’esdeveniments de tallafocs, per verificar que les regles s’apliquen correctament."
+              },
+              {
+                "codi": "CA16",
+                "text": "Prova diferents opcions per implementar tallafocs, tant de programari com de maquinari."
+              },
+              {
+                "codi": "CA17",
+                "text": "Diagnostica problemes de connectivitat en els clients provocats pels tallafocs."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora documentació relativa a la instal·lació, configuració i utilització de tallafocs."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Implanta servidors intermediaris, aplicant-hi criteris de configuració que garanteixin el funcionament segur del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els tipus de servidors intermediaris, les seves característiques i funcions principals."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la i configura un servidor cau."
+              },
+              {
+                "codi": "CA23",
+                "text": "Configura els mètodes d’autenticació en el servidor intermediari."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura un servidor intermediari en mode transparent."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza el servidor intermediari per establir restriccions d’accés web."
+              },
+              {
+                "codi": "CA26",
+                "text": "Soluciona problemes d’accés des dels clients fins al servidor intermediari."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves de funcionament del servidor intermediari, monitorant la seva activitat amb eines gràfiques."
+              },
+              {
+                "codi": "CA28",
+                "text": "Configura un servidor intermediari en mode invers."
+              },
+              {
+                "codi": "CA29",
+                "text": "Elabora documentació relativa a la instal·lació, configuració i ús de servidors intermediaris."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació i configuració de tallafocs",
+                "items": [
+                  "Tipus de tallafocs. Característiques. Funcions principals.",
+                  "Utilització de tallafocs.",
+                  "Filtratge de paquets de dades.",
+                  "Instal·lació de tallafocs. Ubicació.",
+                  "Regles de filtratge dels tallafocs.",
+                  "Proves de funcionament. Sondeig.",
+                  "Registres d’esdeveniments d’un tallafoc."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i configuració de servidors intermediaris",
+                "items": [
+                  "Tipus de servidors intermediaris. Característiques i funcions.",
+                  "Instal·lació de servidors intermediaris.",
+                  "Instal·lació i configuració de clients de servidors intermediaris.",
+                  "Configuració de l’emmagatzematge en memòria cau d’un servidor intermediari.",
+                  "Mètodes d’autenticació en un servidor intermediari.",
+                  "Configuració de filtres."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "alta disponibilitat",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta solucions d’alta disponibilitat emprant tècniques de virtualització i configurant els entorns de prova.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza supòsits i situacions en les quals es fa necessari implementar solucions d’alta disponibilitat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica solucions de maquinari per assegurar la continuïtat en el funcionament d’un sistema."
+              },
+              {
+                "codi": "CA13",
+                "text": "Avalua les possibilitats de la virtualització de sistemes per implementar solucions d’alta disponibilitat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Implanta un servidor redundant que garanteixi la continuïtat de serveis en casos de caiguda del servidor principal."
+              },
+              {
+                "codi": "CA15",
+                "text": "Implanta un sistema de balanç de càrrega a l’entrada de la xarxa interna."
+              },
+              {
+                "codi": "CA16",
+                "text": "Implanta sistemes d’emmagatzematge redundant sobre servidors i dispositius específics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Avalua la utilitat dels sistemes de clústers per augmentar la fiabilitat i productivitat del sistema."
+              },
+              {
+                "codi": "CA18",
+                "text": "Analitza solucions de futur per a un sistema amb demanda creixent."
+              },
+              {
+                "codi": "CA19",
+                "text": "Esquematitza i documenta solucions per a diferents supòsits amb necessitats d’alta disponibilitat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implantació de solucions d’alta disponibilitat",
+                "items": [
+                  "Definició i objectius.",
+                  "Anàlisi de configuracions d’alta disponibilitat.",
+                  "Instal·lació i configuració de solucions d’alta disponibilitat.",
+                  "Virtualització de sistemes.",
+                  "Possibilitats de la virtualització de sistemes.",
+                  "Eines per a la virtualització.",
+                  "Configuració i utilització de màquines virtuals.",
+                  "Alta disponibilitat i virtualització.",
+                  "Simulació de serveis amb virtualització."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

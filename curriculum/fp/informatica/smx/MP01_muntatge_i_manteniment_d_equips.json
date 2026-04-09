@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "grau": "mitja",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "muntatge i manteniment d’equips",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "electricitat a l’ordinador",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Mesura paràmetres elèctrics, identificant el tipus de senyal i relacionant-la amb les seves unitats característiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica el tipus de senyal a mesurar amb l’aparell corresponent."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona la magnitud, el rang de mesura i connecta l’aparell segons la magnitud a mesurar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona la mesura obtinguda amb els valors típics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els blocs d’una font d’alimentació (FA) per a un ordinador personal."
+              },
+              {
+                "codi": "CA15",
+                "text": "Enumera les tensions proporcionades per una FA típica."
+              },
+              {
+                "codi": "CA16",
+                "text": "Mesura les tensions en FA típiques d’ordinadors personals."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica els blocs d’un sistema d’alimentació ininterrompuda."
+              },
+              {
+                "codi": "CA18",
+                "text": "Mesura els senyals en els punts significatius d’un sistema d’alimentació ininterrompuda o SAI."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica que compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant-ne els riscos associats, les mesures i equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els riscos i el nivell de perillositat que suposa la manipulació dels materials, eines, útils, màquines i mitjans de transport."
+              },
+              {
+                "codi": "CA22",
+                "text": "Opera les màquines respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials, eines, màquines de tall i materials conformats, entre d’altres."
+              },
+              {
+                "codi": "CA24",
+                "text": "Descriu els elements de seguretat (proteccions, alarmes, passos d’emergència, entre d’altres) de les màquines i els equips de protecció individual (calçat, protecció ocular, indumentària, entre d’altres) que s’han d’utilitzar en les diferents operacions de muntatge i manteniment."
+              },
+              {
+                "codi": "CA25",
+                "text": "Relaciona la manipulació de materials, eines i màquines amb les mesures de seguretat i protecció personal requerides."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA27",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA28",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Mesurament de paràmetres elèctrics",
+                "items": [
+                  "Tipus de senyals.",
+                  "Selecció de la magnitud i el rang de mesura, i connexió de l’aparell.",
+                  "Valors tipus.",
+                  "Blocs d’una font d’alimentació.",
+                  "Enumeració de les tensions proporcionades per una FA típica.",
+                  "Mesurament de les tensions en FA típiques.",
+                  "Sistemes d’alimentació interromputs.",
+                  "Mesurament de senyals d’un SAI.",
+                  "Prevenció de riscos laborals en els processos de muntatge i manteniment. Equips de protecció individual.",
+                  "Determinació de les mesures de prevenció de riscos laborals.",
+                  "Compliment de la normativa de protecció ambiental.",
+                  "Valoració de l’ordre i la netedat al treball."
+                ]
+              },
+              {
+                "bloc": "Compliment de les normes de prevenció de riscos laborals i protecció ambiental",
+                "items": [
+                  "Compliment de la normativa de prevenció de riscos laborals.",
+                  "Identificació de les causes més freqüents d’accidents.",
+                  "Prevenció de riscos laborals en els processos de muntatge i manteniment. Equips de protecció individual.",
+                  "Determinació de les mesures de prevenció de riscos laborals.",
+                  "Compliment de la normativa de protecció ambiental.",
+                  "Valoració de l’ordre i la netedat al treball."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "components d’un equip microinformàtic",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona els components d’integració d’un equip microinformàtic estàndard, descrivint-ne les funcions i comparant-ne les prestacions de diferents fabricants.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els blocs que componen un equip microinformàtic i les seves funcions."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix l’arquitectura de busos."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu les característiques dels tipus de microprocessadors (freqüència, tensions, potència, sòcols, entre d’altres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu la funció dels dissipadors i ventiladors."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu les característiques i utilitats més importants de la configuració de la placa base."
+              },
+              {
+                "codi": "CA16",
+                "text": "Avalua tipus de xassís per a la placa base i la resta de components."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica i manipula els components bàsics (mòduls de memòria, discos fixos i els seus controladors, suports de memòries auxiliars, entre d’altres)."
+              },
+              {
+                "codi": "CA18",
+                "text": "Analitza la funció de l’adaptador gràfic i el monitor."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica i manipula diferents adaptadors (gràfics, LAN, mòdems, entre d’altres)."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica els elements que acompanyen un component d’integració (documentació, controladors, cables i programari d’utilitats, entre d’altres)."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació dels blocs funcionals d’un sistema microinformàtic i funcionalitat dels components de les plaques base",
+                "items": [
+                  "Principals funcions de cada bloc.",
+                  "Reconeixement de l’arquitectura de busos.",
+                  "Característiques dels microprocessadors.",
+                  "Control de temperatures en un sistema microinformàtic.",
+                  "El programa de configuració de la placa base. Programari base i d’aplicació.",
+                  "Dispositius integrats a placa.",
+                  "Identificació i manipulació dels components bàsics. Tipus de memòria.",
+                  "Característiques i funcions de cada tipus.",
+                  "Anàlisi del mercat de components d’equips microinformàtics.",
+                  "L’adaptador gràfic i el monitor d’un equip microinformàtic.",
+                  "Connectivitat LAN i WAN d’un sistema microinformàtic.",
+                  "Controladors de dispositius."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "muntatge d’un equip microinformàtic",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Acobla un equip microinformàtic, interpretant-ne els plans i les instruccions del fabricant, i aplicant-hi tècniques de muntatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Selecciona les eines i estris necessaris per al muntatge d’equips microinformàtics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Interpreta la documentació tècnica de tots els components a acoblar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Determina el sistema d’obertura/tancament del xassís i els diferents sistemes de fixació per acoblar/desacoblar els elements de l’equip."
+              },
+              {
+                "codi": "CA14",
+                "text": "Acobla diferents conjunts de placa base, microprocessador i elements de refrigeració en diferents models de xassís, segons les especificacions donades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Acobla els mòduls de memòria RAM, els discs fixos, les unitats de lectura/enregistrament en suports de memòria auxiliar i altres components."
+              },
+              {
+                "codi": "CA16",
+                "text": "Configura paràmetres bàsics del conjunt accedint a la configuració de la placa base."
+              },
+              {
+                "codi": "CA17",
+                "text": "Executa utilitats de revisió i diagnòstic per verificar les prestacions del conjunt acoblat."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza un informe de muntatge, especificant-hi tots els detalls del procés."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Anàlisi del mercat de components d’equips microinformàtics i acoblat d’equips microinformàtics",
+                "items": [
+                  "Eines i estris.",
+                  "Interpretació de la documentació tècnica.",
+                  "El xassís. Fixació dels mòduls de memòria RAM. Fixació i connexió de les unitats de disc fix. Fixació i connexió de la resta d’adaptadors i components. Fixació i connexió de les unitats de lectura/enregistrament en suports de memòria auxiliar.",
+                  "Seqüència de muntatge d’un ordinador. Precaucions i advertències de seguretat. Encadellat del processador. Refrigeració del processador.",
+                  "La memòria RAM. Discos fixos i controladors de disc. Suports de memòria auxiliar i unitats de lectura/enregistrament.",
+                  "Configuració de paràmetres bàsics segons la placa base. Components OEM i components “retail”.",
+                  "Utilitats de revisió i diagnòstic. Controladors de dispositius.",
+                  "Realització d’un informe de muntatge."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "noves tendències de muntatge",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix noves tendències en l’acoblament d’equips microinformàtics descrivint-ne els avantatges i adaptant-les a les característiques d’ús dels equips.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les noves possibilitats per donar forma al conjunt xassís-placa base."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les prestacions i característiques d’algunes de les plataformes semiencaixades (barebones) més representatives del moment."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu les característiques dels ordinadors d’entreteniment multimèdia (HTPC), els xassissos i components específics emprats en el seu assemblatge."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les característiques diferencials que demanden els equips informàtics utilitzats en altres camps d’aplicació específics."
+              },
+              {
+                "codi": "CA15",
+                "text": "Avalua la presència de la informàtica mòbil com a mercat emergent, amb una alta demanda en equips i dispositius amb característiques específiques: mòbils, PDA, navegadors, entre d’altres."
+              },
+              {
+                "codi": "CA16",
+                "text": "Avalua la presència de la personalització de PC (modding) com a corrent alternatiu a assemblatge d’equips microinformàtics."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza documentació específica per al suport a l’usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Aplicacions de noves tendències en equips informàtics",
+                "items": [
+                  "Reconeixement de novetats per al xassís-placa base.",
+                  "Ús de barebones per al muntatge d’equips.",
+                  "Descripció de les característiques dels ordinadors d’entreteniment multimèdia.",
+                  "Descripció de les característiques d’ordinadors d’aplicacions específiques.",
+                  "Informàtica mòbil.",
+                  "Avaluació de la presència de la personalització de PC (modding).",
+                  "Documentar les noves tendències, elaborar guies d’usuari per a l’aplicació d’aquestes noves tendències."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "manteniment d’equips microinformàtics",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Manté equips informàtics i perifèrics interpretant-ne les recomanacions dels fabricants i relacionant-ne les disfuncions amb les seves causes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els senyals acústics i/o visuals que avisen de problemes al maquinari d’un equip."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica i resol les avaries produïdes per sobreescalfament del microprocessador."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica i resol avaries típiques d’un equip microinformàtic (mala connexió de components, incompatibilitats, problemes en discos fixos, brutícia, entre d’altres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica i soluciona problemes mecànics en perifèrics d’impressió estàndard."
+              },
+              {
+                "codi": "CA15",
+                "text": "Substitueix components deteriorats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica la compatibilitat dels components substituïts."
+              },
+              {
+                "codi": "CA17",
+                "text": "Substitueix materials consumibles en perifèrics d’impressió estàndard."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica i soluciona problemes mecànics en perifèrics d’entrada."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza actualitzacions i ampliacions de components."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora informes d’avaria (reparació o ampliació) i les guies tècniques de suport a l’usuari."
+              },
+              {
+                "codi": "CA111",
+                "text": "Associa les característiques i prestacions dels perifèrics de captura d’imatges digitals, fixes i en moviment amb les seves possibles aplicacions."
+              },
+              {
+                "codi": "CA112",
+                "text": "Associa les característiques i prestacions d’altres perifèrics multimèdia amb les seves possibles aplicacions."
+              },
+              {
+                "codi": "CA113",
+                "text": "Reconeix els usos i àmbits d’aplicació d’equips de fotocòpies, impressió digital professional i filmació."
+              },
+              {
+                "codi": "CA114",
+                "text": "Aplica tècniques de manteniment preventiu als perifèrics."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Manteniment d’equips microinformàtics i perifèrics",
+                "items": [
+                  "Senyals d’advertència, lluminosos i acústics.",
+                  "Detecció d’avaries per sobreescalfament.",
+                  "Detecció d’avaries en un equip microinformàtic. Errors comuns.",
+                  "Impressores.",
+                  "Substitució de components deteriorats.",
+                  "Incompatibilitats.",
+                  "Substitució de materials consumibles en impressores.",
+                  "Perifèrics d’entrada.",
+                  "Ampliacions de maquinari.",
+                  "Elaboració d’informes d’avaria.",
+                  "Utilització d’una aplicació per a la captura d’imatges i/o vídeos digitals.",
+                  "Utilització d’una aplicació per a altres perifèrics multimèdia.",
+                  "Tècniques de manteniment preventiu."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF6",
+        "nom": "instal·lació de programari",
+        "hores": 28,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la programari en un equip informàtic utilitzant una imatge emmagatzemada en un suport de memòria i justificant el procediment a seguir.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la diferència entre una instal·lació estàndard i una preinstal·lació de programari."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica i prova les diferents seqüències d’arrencada configurables a la placa base."
+              },
+              {
+                "codi": "CA13",
+                "text": "Inicialitza equips des de diferents suports de memòria auxiliar."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza imatges d’una preinstal·lació de programari."
+              },
+              {
+                "codi": "CA15",
+                "text": "Restaura imatges sobre el disc fix des de diferents suports."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu les utilitats per a la creació d’imatges de partició/disc."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza documentació del procés i les guies de suport a l’usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de programari",
+                "items": [
+                  "Diferenciació entre instal·lació i preinstal·lació de programari.",
+                  "Opcions d’arrencada d’un equip.",
+                  "Inicialització d’equips des de diferents suports.",
+                  "Restauració d’imatges. Realització i restauració d’una imatge des de diferents suports de memòria auxiliar.",
+                  "Utilitats per a la creació d’imatges de partició/disc.",
+                  "Realització de documentació del procés i guies d’atenció a l’usuari."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

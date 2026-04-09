@@ -5,420 +5,266 @@
     "area_materia": "Educació Física",
     "codi_area": "EF",
     "decret": "175/2022",
-    "data_decret": "2022-08-22",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Educacio-Fisica.pdf",
-    "descripcio": "L'Educació Física a Primària contribueix de manera singular al desenvolupament integral de l'alumnat de 6 a 12 anys. A través del moviment, el joc i l'activitat física, la matèria connecta els àmbits de la salut, les emocions, les relacions socials i el gaudi del cos, formant ciutadans actius i conscients de les seves possibilitats motrius.\n\nEls sabers propis de l'Educació Física s'organitzen en torn a conceptes com la condició física i la salut (resistència, força, flexibilitat, coordinació), les habilitats motrius bàsiques (desplaçaments, girs, salts, llançaments, recepcions), les habilitats esportives i les activitats en el medi natural. El joc motor i les activitats expressives (expressió corporal, dansa, ritme) amplien el repertori motriu. La consciència corporal, el coneixement del propi cos i la gestió de l'esforç constitueixen sabers transversals. La dimensió socioemocional s'expressa en conceptes com la cooperació, el fair play, la resolució pacífica dels conflictes esportius i el respecte per la diversitat en l'activitat física.\n\nLa metodologia de l'Educació Física és activa per definició: l'aprenentatge es produeix en l'acció, a través del joc cooperatiu, l'ensenyament recíproc i el descobriment guiat. L'alumnat analitza i experimenta situacions motrius reals i variades, transfereix habilitats entre contextos diversos i construeix els propis aprenentatges motors de manera reflexiva, autònoma i progressivament independent al llarg de l'etapa.",
-    "versio_schema": "1.0"
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Educacio-Fisica.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "L'Educació Física a Primària desenvolupa les capacitats motrius, la consciència corporal i els hàbits saludables de l'alumnat, contribuint al seu benestar físic, mental i social. La matèria és eix d'una educació integral que connecta amb les Ciències Naturals (anatomia, fisiologia bàsica, nutrició), l'Educació en Valors Cívics (convivència, resolució de conflictes, igualtat de gènere) i l'Educació Artística (expressió corporal, dansa). Prepara per a un estil de vida actiu al llarg de tota la vida i contribueix decisivament al desenvolupament emocional i social de l'infant.\n\nEls grans constructes disciplinaris comprenen les habilitats motrius bàsiques (desplaçaments, salts, girs, llançaments, recepcions), l'esquema corporal i la consciència postural (lateralitat, equilibri, coordinació, relaxació, respiració), la salut i hàbits saludables (activitat física habitual, higiene, alimentació, hidratació, descans, prevenció de riscos i primers auxilis bàsics), les activitats lúdiques i culturals (joc tradicional i popular, esports cooperatius i d'oposició, activitats a la natura) i l'expressió i comunicació corporal (dansa, dramatització, comunicació no verbal).\n\nL'enfocament pedagògic prioritza l'aprenentatge per la pràctica en entorns inclusius on tothom participa independentment del nivell motor o del gènere. Els reptes motrius oberts, els jocs cooperatius i les activitats expressives substitueixen la instrucció directa i l'entrenament repetitiu. La reflexió sobre la pràctica —per què hem triat aquesta estratègia, com ens hem sentit, com podríem millorar— integra dimensions cognitives i emocionals a l'àrea. L'avaluació observa el progrés individual en les habilitats motrius, l'autoregulació emocional en situació de joc, la responsabilitat vers la pròpia salut i les actituds d'inclusió i respecte envers la diversitat."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Adoptar hàbits i estils de vida saludables, reconeixent els efectes de la pràctica regular d'activitat física sobre la salut física, mental i social i gestionant el propi cos i la condició física de forma autònoma i responsable per al benestar present i futur.",
+      "text": "Resoldre situacions motrius diverses de forma eficaç i creativa, articulant capacitats i habilitats motrius per donar resposta a projectes i pràctiques d'activitats físiques de la vida quotidiana.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA1.1",
-            "text": "Identificar hàbits relacionats amb la salut (higiene, hidratació, descans, alimentació equilibrada) vinculats a la pràctica d'activitat física."
+            "text": "Experimentar diferents maneres de donar resposta a projectes i pràctiques d'activitats físiques variades individuals i col·lectives, valorant-ne la consecució."
           },
           {
             "codi": "CA1.2",
-            "text": "Reconèixer els efectes immediats de l'activitat física sobre el propi cos (canvis en la freqüència cardíaca, suor, cansament) i valorar-los positivament."
+            "text": "Adoptar decisions eficaces en la pràctica d'activitats físiques individuals i de col·laboració amb l'ús d'estratègies conegudes."
           },
           {
             "codi": "CA1.3",
-            "text": "Respectar les normes d'higiene bàsiques abans, durant i després de la pràctica física."
+            "text": "Emprar capacitats i habilitats motrius pròpies per resoldre situacions motrius millorant progressivament el control corporal."
           }
         ],
         "CM": [
           {
             "codi": "CA1.1",
-            "text": "Relacionar la pràctica regular d'activitat física amb la millora de la condició física i el benestar físic i mental."
+            "text": "Desenvolupar projectes i pràctiques d'activitats físiques variades individuals i col·lectives, establint reptes possibles d'aconseguir, planificant les accions i valorant-ne la consecució tot identificant en què es pot millorar."
           },
           {
             "codi": "CA1.2",
-            "text": "Mesurar i registrar paràmetres bàsics de la condició física (freqüència cardíaca, resistència, flexibilitat) i interpretar els resultats."
+            "text": "Adoptar decisions eficaces en la pràctica d'activitats físiques individuals, de cooperació, de col·laboració, d'oposició i de col·laboració-oposició amb l'ús d'estratègies conegudes i modificades."
           },
           {
             "codi": "CA1.3",
-            "text": "Planificar activitats físiques d'intensitat moderada per a la millora de la salut, amb ajuda del docent."
+            "text": "Emprar capacitats i habilitats motrius pròpies i apreses de manera eficaç per resoldre situacions motrius millorant progressivament el control i el domini corporal."
           }
         ],
         "CS": [
           {
             "codi": "CA1.1",
-            "text": "Planificar i dur a terme sessions d'activitat física orientades a la millora de la condició física i la salut de forma autònoma."
+            "text": "Desenvolupar projectes i pràctiques d'activitats físiques variades individuals i col·lectives, establint reptes possibles d'aconseguir, planificant les accions tot introduint canvis durant el procés per assolir-los, si cal."
           },
           {
             "codi": "CA1.2",
-            "text": "Analitzar i interpretar dades de la pròpia condició física (test de Cooper, flexibilitat, força) i elaborar plans de millora personal."
+            "text": "Prendre decisions eficaces en la pràctica d'activitats físiques individuals, de cooperació, de col·laboració, d'oposició i de col·laboració-oposició amb l'ús d'estratègies conegudes, modificades i inèdites."
           },
           {
             "codi": "CA1.3",
-            "text": "Adoptar de forma autònoma hàbits d'activitat física regular, alimentació saludable, descans adequat i gestió de l'estrès."
+            "text": "Emprar capacitats i habilitats motrius pròpies i apreses de manera eficaç i creativa per resoldre situacions motrius millorant progressivament el control i la coordinació corporal."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Gestionar de forma autònoma el propi aprenentatge motor, reconeixent les pròpies possibilitats i limitacions, establint objectius, superant reptes motors i valorant l'esforç i la millora personal com a part del procés d'aprenentatge.",
+      "text": "Desenvolupar un estil de vida actiu i saludable, incorporant la pràctica habitual d'activitats físiques i altres comportaments beneficiosos per a la salut durant la vida quotidiana per adquirir hàbits que contribueixin al benestar físic, mental i social.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA2.1",
-            "text": "Realitzar activitats motrius de control postural, equilibri, desplaçament i coordinació bàsics adequats al nivell de l'etapa."
+            "text": "Identificar la pràctica habitual d'activitats físiques en la vida quotidiana, la higiene personal, l'educació postural, l'alimentació saludable, la hidratació i el descans com a comportaments beneficiosos per a la salut."
           },
           {
             "codi": "CA2.2",
-            "text": "Reconèixer les pròpies possibilitats i limitacions en les tasques motrius i mostrar actitud d'esforç i superació senzilla."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Participar en les activitats d'aprenentatge motor amb actitud positiva, independentment del resultat."
+            "text": "Evitar conductes de risc, reconeixent els possibles riscos que poden existir en la pràctica d'activitats físiques a l'escola i a la vida quotidiana."
           }
         ],
         "CM": [
           {
             "codi": "CA2.1",
-            "text": "Executar habilitats motrius específiques (salts, girs, llançaments, recepcions, equilibris) de forma tècnicament correcta i progressiva."
+            "text": "Incorporar la pràctica habitual d'activitats físiques en la vida quotidiana, la higiene personal, l'educació postural, l'alimentació saludable, la hidratació i el descans com a comportaments beneficiosos per a la salut valorant-ne la contribució al benestar físic, mental i social."
           },
           {
             "codi": "CA2.2",
-            "text": "Establir objectius de millora personal a partir de l'autoavaluació i mostrar perseverança per aconseguir-los."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Usar estratègies per superar dificultats i errors en l'aprenentatge motor."
+            "text": "Evitar conductes de risc, anticipant els possibles riscos que poden existir en la pràctica d'activitats físiques a l'escola i a la vida quotidiana, aplicant protocols d'actuació bàsics en cas d'accidents o lesions."
           }
         ],
         "CS": [
           {
             "codi": "CA2.1",
-            "text": "Executar habilitats motrius complexes (tècniques esportives, habilitats acrobàtiques bàsiques) amb eficàcia, seguretat i estètica."
+            "text": "Integrar la pràctica habitual d'activitats físiques en la vida quotidiana, la higiene personal, l'educació postural, l'alimentació saludable, la hidratació i el descans com a comportaments beneficiosos per a la salut, justificant-ne la contribució al benestar físic, mental i social i els perjudicis de no fer-ho."
           },
           {
             "codi": "CA2.2",
-            "text": "Autoavaluar el propi aprenentatge motor, establir objectius de millora i usar estratègies d'aprenentatge autònom."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Ajudar els companys en el procés d'aprenentatge motor, adoptant rols de guia o entrenador."
+            "text": "Adoptar mesures de seguretat i de prevenció d'accidents com a resultat de la presa de consciència dels possibles riscos que poden existir en la pràctica d'activitats físiques a l'escola i a la vida quotidiana, aplicant protocols d'actuació i tècniques bàsiques de primers auxilis en cas d'accidents o lesions."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Expressar i comunicar idees, emocions i experiències a través del cos i el moviment, explorant les possibilitats expressives del cos i participant en activitats d'expressió corporal, dansa i teatre de moviment per a la comunicació i el gaudi.",
+      "text": "Prendre part en activitats motrius individuals i col·lectives, de joc i d'expressió i comunicació corporal per integrar-les en el repertori motriu i afavorir les relacions interpersonals.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA3.1",
-            "text": "Explorar les possibilitats expressives bàsiques del cos (gest, postura, moviment) en resposta a estímuls sonors, musicals o visuals."
+            "text": "Participar activament en els jocs i en activitats col·lectives senzilles d'expressió i comunicació corporal pròpies de l'entorn proper gaudint de la seva pràctica, tot afavorint la seva pervivència."
           },
           {
             "codi": "CA3.2",
-            "text": "Participar en danses i activitats rítmiques senzilles de la cultura pròpia (sardana bàsica, danses de rotllana) i d'altres cultures."
+            "text": "Practicar jocs i activitats individuals i col·lectives d'expressió i comunicació corporal tot defugint d'assignar-les a un tipus determinat de persones segons el seu gènere."
           },
           {
             "codi": "CA3.3",
-            "text": "Representar personatges, objectes o situacions a través del moviment corporal i el joc dramàtic."
+            "text": "Comunicar vivències, emocions i idees a través de manifestacions expressives senzilles utilitzant els recursos expressius del propi cos."
           }
         ],
         "CM": [
           {
             "codi": "CA3.1",
-            "text": "Crear i interpretar coreografies senzilles individuals i col·lectives que expressin una idea, emoció o relat."
+            "text": "Participar activament en els jocs i en activitats col·lectives elaborades d'expressió i comunicació corporal pròpies de l'entorn proper i d'altres llocs del món gaudint de la seva pràctica tot afavorint les relacions interpersonals."
           },
           {
             "codi": "CA3.2",
-            "text": "Participar en danses del món i de Catalunya, identificant els seus trets culturals i gaudint de la seva pràctica."
+            "text": "Practicar jocs i activitats individuals i col·lectives d'expressió i comunicació corporal tot defugint d'assignar-les a un tipus determinat de persones segons el seu gènere identificant i rebutjant comportaments discriminatoris."
           },
           {
             "codi": "CA3.3",
-            "text": "Valorar les activitats d'expressió corporal com a forma d'expressió artística i comunicació no verbal."
+            "text": "Comunicar vivències, emocions i idees a través de manifestacions expressives elaborades utilitzant els recursos expressius del propi cos."
           }
         ],
         "CS": [
           {
             "codi": "CA3.1",
-            "text": "Crear i interpretar coreografies i espectacles d'expressió corporal de certa complexitat, integrant elements de dansa, teatre de moviment i ritme."
+            "text": "Participar activament en els jocs i en activitats col·lectives elaborades d'expressió i comunicació corporal pròpies de l'entorn proper i d'altres llocs del món gaudint de la seva pràctica, tot afavorint la seva difusió."
           },
           {
             "codi": "CA3.2",
-            "text": "Valorar i analitzar espectacles de dansa i expressió corporal de la cultura pròpia i d'altres cultures."
+            "text": "Practicar jocs i activitats individuals i col·lectives d'expressió i comunicació corporal tot defugint d'assignar-les a un tipus determinat de persones segons el seu gènere identificant i rebutjant comportaments discriminatoris i estereotips de gènere, sensibilitzant per evitar-ne la reproducció."
           },
           {
             "codi": "CA3.3",
-            "text": "Usar el cos i el moviment com a eina de comunicació i expressió artística en projectes interdisciplinaris."
+            "text": "Comunicar vivències, emocions i idees a través de manifestacions expressives elaborades de manera creativa utilitzant els recursos expressius del propi cos."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Participar en jocs i esports individuals i col·lectius, aplicant les habilitats motrius específiques, les regles i les estratègies de joc de forma autònoma i progressiva, valorant el joc com a eina de relació social, aprenentatge i gaudi.",
+      "text": "Valorar l'entorn com a espai de pràctica d'activitats físiques i d'ocupació del temps de lleure, utilitzant-lo de manera respectuosa i responsable per participar en la seva conservació i millora.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA4.1",
-            "text": "Participar en jocs motors senzills individuals i col·lectius, comprenent les regles bàsiques i respectant els companys."
+            "text": "Practicar algun tipus d'activitat física vinculada al barri, al poble o a la ciutat o al medi natural com una forma d'enriquir les tipologies d'activitats físiques que es donen en contextos de pràctica motriu a l'escola i d'ocupar el temps de lleure."
           },
           {
             "codi": "CA4.2",
-            "text": "Demostrar habilitats motrius bàsiques (córrer, saltar, llançar, rebre, esquivar) en situacions de joc."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Mostrar actituds de fair play: acceptar el resultat, respectar les regles i als companys."
+            "text": "Valorar l'entorn com a espai de pràctica d'activitats físiques saludables i satisfactòries en el temps de lleure fent-ne un ús respectuós."
           }
         ],
         "CM": [
           {
             "codi": "CA4.1",
-            "text": "Participar en jocs i esports d'iniciació (bàsquet, voleibol, futbol, handbol, atletisme) aplicant habilitats específiques i tàctiques bàsiques."
+            "text": "Practicar activitats físiques variades vinculades al barri, al poble o a la ciutat o al medi natural com una forma d'enriquir les tipologies d'activitats físiques que es donen en contextos de pràctica motriu a l'escola i d'ocupar el temps de lleure."
           },
           {
             "codi": "CA4.2",
-            "text": "Comprendre i aplicar les regles dels jocs i esports treballats, actuant com a àrbitre en situacions senzilles."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Demostrar actituds de col·laboració, respecte i inclusió en les activitats físiques col·lectives."
+            "text": "Valorar l'entorn com a espai de pràctica d'activitats físiques saludables i satisfactòries en el temps de lleure, contribuint a la seva conservació utilitzant els espais, els materials i les instal·lacions de manera respectuosa i responsable."
           }
         ],
         "CS": [
           {
             "codi": "CA4.1",
-            "text": "Participar en esports individuals i col·lectius amb domini de les habilitats específiques, les tàctiques bàsiques i les regles, amb esperit de superació i fair play."
+            "text": "Practicar activitats físiques variades vinculades al barri, al poble o a la ciutat o al medi natural com una forma d'enriquir les tipologies d'activitats físiques que es donen en contextos de pràctica motriu a l'escola i d'ocupar el temps de lleure identificant les possibilitats que ofereixen els diferents entorns."
           },
           {
             "codi": "CA4.2",
-            "text": "Dissenyar i aplicar estratègies de joc en situacions d'esport col·lectiu, prenent decisions tàctiques individuals i de grup."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Organitzar i arbitrar activitats esportives i de joc, adoptant actituds responsables, inclusives i respectuoses."
+            "text": "Valorar l'entorn com a espai de pràctica d'activitats físiques saludables i satisfactòries en el temps de lleure, contribuint a la seva conservació utilitzant els espais, els materials i les instal·lacions de manera respectuosa i responsable i de les mesures que cal prendre per minimitzar-ne les afectacions."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "text": "Realitzar activitats físiques en el medi natural i urbà de forma segura i responsable, respectant el medi ambient, les normes de convivència i les de seguretat vial, per afavorir la connexió amb la natura i el gaudi de l'entorn.",
+      "text": "Mostrar comportaments i actituds empàtiques i inclusives en la pràctica d'activitats físiques emprant habilitats socials i processos d'autoregulació per fomentar la convivència.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA5.1",
-            "text": "Participar en activitats a l'aire lliure i a l'espai natural proper de forma segura, respectant les normes bàsiques de l'entorn."
+            "text": "Participar en activitats físiques percebent les emocions i els sentiments propis i de les altres persones, controlant les emocions pròpies negatives que hi puguin aparèixer fomentant la convivència."
           },
           {
             "codi": "CA5.2",
-            "text": "Identificar i respectar les normes bàsiques de seguretat vial per a vianants i ciclistes."
+            "text": "Respectar les normes de funcionament de la classe, les regles de les activitats practicades, els espais i els materials emprats en els contextos de pràctica motriu a l'escola."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Reconèixer que en la pràctica d'activitats físiques tothom és diferent."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Desenvolupar habilitats socials a través de la participació en contextos de pràctica motriu a l'escola, iniciant-se en la resolució de conflictes."
+          },
+          {
+            "codi": "CA5.5",
+            "text": "Mostrar una actitud de rebuig vers actuacions contràries a la convivència en la pràctica d'activitats físiques."
           }
         ],
         "CM": [
           {
             "codi": "CA5.1",
-            "text": "Realitzar activitats d'orientació i senderisme bàsics en espais naturals propers, usant elements bàsics de mapa i brúixola."
+            "text": "Participar en activitats físiques reconeixent les emocions i els sentiments propis i de les altres persones, autoregulant el propi comportament i les emocions negatives que hi puguin aparèixer fomentant la convivència."
           },
           {
             "codi": "CA5.2",
-            "text": "Respectar el medi natural durant les activitats a l'aire lliure i adoptar actituds de conservació mediambiental."
+            "text": "Respectar les normes consensuades de funcionament de la classe, les regles de les activitats practicades, els espais i els materials emprats en els contextos de pràctica motriu a l'escola."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Valorar les diferències individuals de tothom en la pràctica d'activitats físiques com un enriquiment personal i col·lectiu."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Desenvolupar habilitats socials a través de la participació en contextos de pràctica motriu a l'escola, iniciant-se en la resolució de conflictes."
+          },
+          {
+            "codi": "CA5.5",
+            "text": "Rebutjar qualsevol tipus d'actuacions contràries a la convivència en la pràctica d'activitats físiques."
           }
         ],
         "CS": [
           {
             "codi": "CA5.1",
-            "text": "Planificar i realitzar activitats de muntanya i medi natural (senderisme, escalada bàsica, bicicleta de muntanya) aplicant criteris de seguretat i respecte ambiental."
+            "text": "Comprendre les conductes, les emocions i els sentiments propis i de les altres persones, autoregulant el propi comportament i les emocions negatives que hi puguin aparèixer, expressant-les de forma assertiva fomentant la convivència."
           },
           {
             "codi": "CA5.2",
-            "text": "Argumentar sobre la importància de la conservació del medi natural i l'impacte ambiental de les activitats físiques a la natura."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE6",
-      "text": "Reconèixer i valorar la cultura esportiva i les manifestacions de l'activitat física i la dansa en la cultura pròpia i en altres cultures, fomentant actituds d'inclusió, igualtat, respecte i esperit crític envers la pràctica esportiva i l'activitat física.",
-      "criteris_avaluacio": {
-        "CI": [
+            "text": "Respectar les normes consensuades de funcionament de la classe, les regles de les activitats practicades, contribuint a la seva creació, modificació i millora, els espais i els materials emprats en els contextos de pràctica motriu a l'escola."
+          },
           {
-            "codi": "CA6.1",
-            "text": "Reconèixer manifestacions de l'activitat física i l'esport en l'entorn proper i valorar la participació de tots, independentment del gènere o la capacitat."
-          }
-        ],
-        "CM": [
+            "codi": "CA5.3",
+            "text": "Valorar les diferències individuals de tothom en la pràctica d'activitats físiques com un enriquiment personal i col·lectiu mostrant una actitud crítica amb els estereotips dels models corporals en els mitjans de comunicació i la publicitat."
+          },
           {
-            "codi": "CA6.1",
-            "text": "Analitzar la presència de l'esport i l'activitat física en la cultura i la societat, identificant estereotips de gènere i valorant la igualtat en l'esport."
-          }
-        ],
-        "CS": [
+            "codi": "CA5.4",
+            "text": "Desenvolupar habilitats socials a través de la participació en contextos de pràctica motriu a l'escola, utilitzant estratègies de resolució de conflictes."
+          },
           {
-            "codi": "CA6.1",
-            "text": "Analitzar críticament el fenomen esportiu en la societat contemporània (valors, contra-valors, espectacle esportiu, dopatge, discriminació) i adoptar actituds de consum crític."
+            "codi": "CA5.5",
+            "text": "Rebutjar qualsevol tipus d'actuacions contràries a la convivència en la pràctica d'activitats físiques."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "CI": {
-      "activitat_fisica_i_salut": [
-        "Hàbits d'higiene personal relacionats amb l'activitat física: rentar-se les mans, dutxar-se",
-        "Hidratació: importància de beure aigua durant i després de l'activitat física",
-        "El descans: hores de son recomanades per a nens i nenes de 6-8 anys",
-        "Alimentació saludable bàsica: els grups d'aliments i la piràmide alimentosa",
-        "Canvis del cos durant l'exercici: cor (palpitacions), respiració, temperatura corporal",
-        "Roba i calçat adequats per a la pràctica d'activitat física",
-        "Espais d'activitat física segurs: normes bàsiques de seguretat al gimnàs i al pati"
-      ],
-      "cos_i_moviment": [
-        "Esquema corporal: consciència i domini de les parts del cos",
-        "Lateralitat: dreta/esquerra; dominàncies corporals",
-        "Control postural: equilibri estàtic i dinàmic bàsic",
-        "Desplaçaments: córrer, caminar, saltar, gatejar, bolcar de diverses formes",
-        "Salts: salt amb dos peus, a peu coix, amb impuls",
-        "Girs: girs corporals sobre l'eix longitudinal i transversal",
-        "Llançaments i recepcions: amb dues mans i una mà, objectes de mides diverses",
-        "Coordinació òculo-manual i òculo-pèdica bàsica",
-        "Orientació en l'espai: conceptes espacials (davant/darrera, a sobre/a sota, a la dreta/esquerra)",
-        "Orientació en el temps: pols, ritme bàsic, ràpid/lent"
-      ],
-      "joc_i_esport": [
-        "El joc com a activitat natural i de relació social",
-        "Jocs populars i tradicionals de Catalunya: joc de la pilota, cuit, xarranca, corda",
-        "Jocs motors cooperatius i competitius senzills",
-        "Regles bàsiques dels jocs: acceptació i respecte",
-        "Fair play: saber guanyar i perdre; respecte als companys",
-        "Jocs d'habilitat bàsica: pilota, cordes, cercols, cons",
-        "Iniciació a jocs amb raquetes (badminton senzill) i bitlles"
-      ],
-      "expressio_corporal": [
-        "El cos com a instrument d'expressió i comunicació",
-        "Gest i expressió facial: transmetre emocions a través del cos",
-        "Imitació i mime bàsic",
-        "Dansa i moviment: resposta al ritme musical; danses de rotllana i corros",
-        "Sardana: passos bàsics i formació en rotllana",
-        "Dramatització de situacions quotidianes i contes amb el cos"
-      ],
-      "medi_natural": [
-        "Activitats a l'aire lliure: jocs al pati, en espais verds i parcs",
-        "Respecte per la natura: no llençar escombraries, respectar els animals i les plantes",
-        "Normes bàsiques de seguretat a l'aire lliure",
-        "La bicicleta: parts bàsiques, ús del casc i normes bàsiques de seguretat vial",
-        "Observació i reconeixement de l'entorn natural proper"
-      ]
-    },
-    "CM": {
-      "activitat_fisica_i_salut": [
-        "Condició física i salut: components (resistència aeròbica, força, flexibilitat, velocitat)",
-        "Freqüència cardíaca: presa del pols en repòs i en activitat; zona aeròbica",
-        "Escalfament i tornada a la calma: importància i exercicis bàsics",
-        "Prevenció de lesions: estiraments, escalfament, execució correcta",
-        "Alimentació i esport: necessitats nutricionals per a la pràctica física",
-        "Sedentarisme i activitat física: riscos del sedentarisme; recomanacions d'activitat física per a infants",
-        "Postura corporal en la vida quotidiana: higiene postural",
-        "Les tecnologies i la salut: ús responsable del temps de pantalla"
-      ],
-      "cos_i_moviment": [
-        "Habilitats motrius específiques: llançaments i recepcions amb precisió i varietat",
-        "Bots i conduccions de pilota amb la mà i el peu",
-        "Salts amb carrera d'impuls: salt de longitud, salt d'alçada bàsic",
-        "Acrobàcies bàsiques: rodolins endavant i enrere, equilibris en grup",
-        "Equilibris sobre aparells: barra d'equilibri, trampolí bàsic",
-        "Coordinació complexa: habilitats combinades (córrer i llançar, saltar i rebre)",
-        "Orientació espacial avançada: mapa del pati, punts cardinals bàsics"
-      ],
-      "joc_i_esport": [
-        "Iniciació als esports col·lectius: bàsquet (passos bàsics, dribling, cistella), futbol sala (conduccions, tirs), handbol (llançaments), voleibol (toc de dits i avantbraç)",
-        "Iniciació als esports individuals: atletisme (carrera de velocitat i de resistència, salt de longitud), gimnàstica rítmica bàsica",
-        "Tàctiques bàsiques de joc col·lectiu: desmarcatge, passada i tret a porteria/cistella",
-        "Les regles del joc: comprensió i aplicació; arbitratge entre iguals",
-        "Esport adaptat: jocs inclusius per a la participació de tothom",
-        "Jocs populars de Catalunya i del món: origen, tradicions i valors",
-        "El fair play i l'esport: respecte, acceptació del resultat, joc net"
-      ],
-      "expressio_corporal": [
-        "Creació de coreografies senzilles: estructura (introducció, desenvolupa i final), ritme i sincronia",
-        "Danses del món: danses típiques de diverses cultures (griega, africana, llatinoamericana)",
-        "Danses catalanes: sardana, ball de gitanes, jota catalana",
-        "Teatre de moviment: pantomima, expressió dramàtica amb el cos",
-        "Comunicació no verbal: lectura i ús del llenguatge corporal en situacions diverses",
-        "El ritme corporal: percussió corporal, baile amb percussió"
-      ],
-      "medi_natural": [
-        "Senderisme: introducció a la lectura de mapes (escala bàsica, signes convencionals)",
-        "Orientació bàsica: ús de la brúixola i punts cardinals",
-        "Activitats de descoberta del medi natural: observació de flora i fauna de l'entorn",
-        "La bicicleta: tècnica bàsica de pilotatge, normes de circulació per a ciclistes",
-        "Impacte ambiental de les activitats físiques en la natura i mesures de prevenció",
-        "Primers auxilis bàsics: actuació davant ferides lleus, cremades i torcedures"
-      ]
-    },
-    "CS": {
-      "activitat_fisica_i_salut": [
-        "Planificació d'un programa d'activitat física personal: objectius, freqüència, intensitat, durada",
-        "Tests de condició física: test de Cooper, test de flexibilitat, test de força (abdominals, flexions)",
-        "Principis d'entrenament: progressivitat, continuïtat, especificitat; aplicació bàsica",
-        "Nutrició i hidratació per a l'esport: macronutrients, hidratació adequada, suplements (riscos)",
-        "Prevenció de lesions esportives: escalfament, estiraments, execució correcta; actuació bàsica davant lesions",
-        "Salut mental i activitat física: efectes de l'exercici sobre el benestar emocional i la gestió de l'estrès",
-        "L'activitat física al llarg de la vida: estils de vida actius; barreres i facilitadors",
-        "Tecnologia wearable i apps de salut: ús crític per al seguiment de l'activitat física"
-      ],
-      "cos_i_moviment": [
-        "Habilitats acrobàtiques bàsiques: equilibris individuals i en grup, torres humanes bàsiques, rodolins variats",
-        "Tècniques d'atletisme: velocitat (sortida de tacs, postura de cursa), llançament de pilota, salt de longitud i triple salt",
-        "Nataciió: tècniques bàsiques de crol i esquena (si l'escola disposa de piscina)",
-        "Orientació competitiva: lectura de mapes, curses d'orientació en el medi natural",
-        "Condicionament físic: treball de resistència aeròbica, força, flexibilitat i velocitat de reacció",
-        "Autoavaluació de la pròpia condició física i planificació de la millora"
-      ],
-      "joc_i_esport": [
-        "Esports col·lectius: bàsquet, futbol sala, handbol, voleibol, ultimate (frisbi) — tècnica i tàctica avançada",
-        "Esports individuals: atletisme, badminton, tennis de taula, gimnàstica rítmica i acrobàtica bàsica",
-        "Esports d'aventura: escalada bàsica en rocòdrom, mountain bike, kayak (si és viable)",
-        "Tàctiques de joc col·lectiu: sistemes de joc bàsics (1-2-1, 2-1-2), defensa i atac",
-        "Arbitratge i organització d'activitats esportives: tornejos, campionats escolars",
-        "L'esport com a fenomen cultural i social: el fair play, els valors olímpics, l'esport i el gènere",
-        "Esport adaptat i inclusiu: esports per a persones amb diversitat funcional; paral·limpisme",
-        "Consum crític de l'esport: espectacle esportiu, màrqueting i dopatge"
-      ],
-      "expressio_corporal": [
-        "Coreografies complexes: creació i interpretació amb elements de dansa contemporània, hip hop, flamenco",
-        "Danses de Catalunya i del món: estudis de diferents tradicions culturals; ball de gegants, moixiganga",
-        "Espectacles d'expressió corporal: integració de música, moviment, text i vestuari",
-        "L'expressió corporal i les arts escèniques: relació amb el teatre, la dansa contemporània i el circ",
-        "Valoració de l'expressió corporal com a art i cultura: assistència o visionat d'espectacles"
-      ],
-      "medi_natural": [
-        "Senderisme de muntanya: planificació d'una sortida, equipament necessari, seguretat i rescat bàsic",
-        "Curses d'orientació: lectura de mapes topogràfics bàsics, ús avançat de la brúixola",
-        "Activitats nàutiques bàsiques: vela, piragüisme (si l'escola disposa de recursos)",
-        "Cicloturisme: rutes en bicicleta, normes de circulació, manteniment bàsic de la bici",
-        "Respecte i conservació del medi ambient: Leave No Trace, petjada ecològica de les activitats físiques",
-        "Primers auxilis avançats: RCP bàsica (conscienciació), actuació en accidents a la muntanya"
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, les persones docents poden valorar la possibilitat d'organitzar els sabers de l'àrea o de les diferents àrees coordinades en un àmbit, a partir de situacions d'aprenentatge. Les situacions permeten programar el curs de qualsevol nivell, àrea o àmbit a partir d'una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l'enfocament competencial dels aprenentatges. Això modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer i segon curs Resolució de problemes en situacions motrius ● Resolució de reptes i projectes motrius - Vivència de pràctiques d'activitats físiques múltiples i variades a l'escola. - Identificació dels límits i de les possibilitats del propi cos en la realització d'activitats físiques. - Planificació de projectes d'activitats físiques senzilles. - Identificació dels encerts i de les errades comesos en l'execució d'activitats motrius. - Identificació dels condicionants fisiològics i biològics propis (asma, cardiopaties, lesions…), si n'hi ha, en la pràctica d'activitats físiques. - Identificació del ritme cardíac i respiratori com a indicador de la intensitat de l'esforç en l'execució d'activitats físiques. - Adequació de les accions pròpies a les capacitats i limitacions personals i a les condicions de realització de les situacions motrius plantejades. - Coordinació d'accions amb les altres persones en situacions de pràctica d'activitats físiques col·laboratives. - Aplicació d'estratègies de resolució de situacions motrius conegudes plantejades o practicades anteriorment. ● Esquema corporal - Coneixement de les principals parts del cos de manera vivenciada. - Consciència del to muscular, la relaxació i la respiració del propi cos en situacions de repòs i en moviment millorant progressivament el control i domini corporal. - Experimentació de postures i moviments corporals diferents en situacions motrius variades. - Afirmació de la lateralitat predominant en un mateix a través de tasques centrades fonamentalment en els segments corporals dominants. - Experimentació de situacions motrius d'equilibri i desequilibri estàtic i dinàmic en diferents situacions motrius senzilles. - Interacció del propi cos amb l'espai i el temps a partir de vivències sensorials i motrius. ● Habilitats motrius - Execució de desplaçaments, salts, girs, maneig i control d'objectes en situacions motrius diverses millorant progressivament el control corporal. - Utilització de les capacitats físiques de forma genèrica i jugada a través d'activitats d'intensitat entre moderada i elevada. - Realització d'activitats d'activació corporal i de relaxació de forma jugada en el cas d'activitats físiques d'intensitat entre moderada i elevada. Vida activa i saludable ● Hàbits saludables - Reconeixement dels efectes físics beneficiosos que la pràctica habitual d'activitats físiques i un estil de vida actiu tenen per a la salut en la vida quotidiana. - Valoració de la importància de mantenir uns hàbits higiènics en la pràctica d'activitats físiques i en la vida quotidiana. - Valoració de la necessitat de fer servir un equipament que permeti dur a terme pràctiques d'activitats físiques d'una manera adequada. - Utilització de postures adequades a les necessitats motrius en situacions quotidianes. - Identificació dels aliments que són saludables i dels que no ho són en la dieta alimentària diària. - Correcta hidratació en la pràctica d'activitats físiques i en la vida quotidiana. - Coneixement de les hores necessàries de descans diari per compensar i recuperar- se de l'esforç físic i mental d'acord amb les necessitats pròpies de l'edat. ● Mesures de seguretat i primers auxilis - Respecte vers les mesures bàsiques de seguretat d'un mateix en la pràctica d'activitats físiques. - Utilització amb cura dels espais i materials usats en la pràctica d'activitats físiques. - Reconeixement de les possibles situacions de risc, accidents o lesions que es poden produir en la pràctica d'activitats físiques a l'escola i a la vida quotidiana. Activitats motrius lúdiques, culturals i expressives ● Joc - Reconeixement del joc com a mitjà de relació amb les altres persones i de divertiment a través de la pràctica de jocs senzills. - Participació en els jocs practicats a l'escola ajustant la pròpia actuació, pel que fa a aspectes motrius. - Participació en el desenvolupament de jocs col·laboratius, mostrant respecte i responsabilitat. - Participació en jocs tradicionals i populars com a element de la realitat social i cultural. - Respecte vers les normes i les persones que participen en els jocs que es practiquen a l'escola. - Coneixement del fet que les pràctiques de les diferents activitats físiques i jocs no estan associades a un gènere determinat a través de la participació en activitats motrius. - Coneixement de dones esportistes referents en la societat actual. - Participació en tota mena de jocs i activitats d'expressió i comunicació corporal indistintament del gènere de les persones participants. ● Expressió i comunicació corporal - Exploració de les possibilitats expressives del cos i el moviment en situacions motrius variades. - Exploració de les possibilitats expressives amb objectes i materials en situacions motrius variades. - Comunicació d'emocions, idees, personatges o situacions a través del cos, el gest i el moviment de manera espontània en situacions motrius variades. - Adequació del moviment i l'expressió a pulsacions i estructures rítmiques i musicals senzilles o estímuls visuals, plàstics, verbals o d'altre tipus en situacions motrius variades. - Participació en activitats col·lectives d'expressió i comunicació corporal que es proposen a l'escola. - Reproducció de balls, danses i coreografies senzilles de l'entorn proper. Interacció amb l'entorn en el temps de lleure ● Temps de lleure saludable - Valoració de les pràctiques d'activitats físiques programades que es realitzen fora de l'escola. - Enumeració de les activitats físiques que l'alumnat faci durant el temps de lleure amb la intenció que tothom en conegui de noves. - Identificació d'alguna entitat de l'entorn més proper que fa pràctiques d'activitats físiques saludables. - Descripció de les característiques que defineixen el temps de lleure saludable, satisfactori i respectuós amb l'entorn. - Coneixement d'algunes pràctiques d'activitats físiques que es poden dur a terme al barri, al poble o a la ciutat o al medi natural. - Construcció de materials senzills i segurs que puguin ser utilitzats en la pràctica d'activitats físiques. Autoregulació emocional i interacció social en situacions motrius ● Gestió emocional - Identificació de la pràctica d'activitats físiques com una manera saludable de conèixer-se a un mateix. - Percepció de conductes, sentiments i emocions pròpies i de les altres persones com a resultat de la participació en activitats físiques controlant les pròpies emocions. - Verbalització d'emocions derivades de la interacció social en situacions motrius col·lectives. ● Habilitats socials - Participació en l'elaboració de les normes de funcionament del grup en la pràctica d'activitats físiques i compromís d'aplicar-les. - Respecte per"
     }
-  },
-  "blocs_sabers": [
-    "activitat_fisica_i_salut",
-    "cos_i_moviment",
-    "joc_i_esport",
-    "expressio_corporal",
-    "medi_natural"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 84,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

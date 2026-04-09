@@ -1,0 +1,263 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "A3D",
+    "titol_cicle": "Animacions 3D, Jocs i Entorns Interactius",
+    "grau": "superior",
+    "familia_professional": "Imatge i So",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/31/2016, de 17 de febrer, per la qual s'estableix el currículum del cicle formatiu de grau superior d'animacions 3D, jocs i entorns interactius.",
+    "data_decret": "2016-02-17",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "animació d'elements 2D i 3D",
+    "hores_totals": 231,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "tècniques d'animació amb captura d'imatge fixa",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora el layout i prepara els plans per a animació, analitzant les característiques del guió tècnic i l'animació assistida per ordinador.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Realitza un desglossament de seqüències i plans, especificant els personatges, escenaris i elements d'attrezzo que intervenen en cada un d'ells."
+              },
+              {
+                "codi": "CA12",
+                "text": "Col·loca les referències (enllaços als elements que compondran la seqüència animada) als models originals preparats per animar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Optimitza els temps d'execució de diferents processos posteriors, ocultant les geometries que no intervindran en el pla."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza la importació i la col·locació d'una banda de so amb el doblatge original i els efectes diegètics per a la seva utilització i sincronització per part dels animadors."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza l'acotació dels plans quant al nombre de fotogrames, desplaçaments, girs i escalat que requereixen els personatges i objectes amb què interactuen (props)."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza l'animació i la captura en stop-motion o pixilació, valorant les possibilitats d'optimització de les operacions i adaptant-se als requeriments del guió tècnic.1.7 Optimitza les seqüències mecàniques per reduir al mínim els temps de modificació de posada en escena mitjançant la realització d'un pla de treball.1.8 Desenvolupa un mètode d'emmagatzematge i de monitoratge en temps real, preparant el sistema de captura d'imatges fixes per a la seva seqüenciació.1.9 Realitza un diagrama de moviments temporitzats segons el guió il·lustrat, la carta d'animació i la velocitat de moviment prevista, decidint el nombre de fotogrames per segon.1.10 Dissenya la posada en escena amb els decorats i els elements que cal animar, disposant llums i càmera (trets i enquadraments) i preparant mecanismes i suports ocults per a subjeccions, moviments i efectes de càmera.1.11 Realitza l'animació, modificant posicions als fotogrames adequats i substituint els elements necessaris segons el pla de treball."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració del layout i preparació dels plans per a l'animació",
+                "items": [
+                  "Programari de col·locació d'elements (personatges, escenaris i attrezzo).",
+                  "Interpretació de les cartes de rodatge.",
+                  "Composició final de l'escena animada: interpretació de la carta de rodatge i del guió il·lustrat:"
+                ]
+              },
+              {
+                "bloc": "Realització de l'animació i captura en stop-motion o pixilació",
+                "items": [
+                  "Iniciació a l'animació:",
+                  "Optimització del procés depenent de la tècnica:",
+                  "Sistemes de captura d'imatges seqüenciades:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "tècniques de captació de moviment",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza la captura de moviment i rotoscòpia en 2D i 3D, valorant la utilització de les eines físiques o virtuals pertinents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Valora els moviments (desplaçament i velocitat), el nombre d'elements, el nombre de sensors de captura necessaris per a cada element i la translació de la captura a l'espai virtual, per dissenyar el sistema de captura de moviment i/o rotoscòpia més adequat al projecte."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza la distribució en l'espai real de les càmeres de captura segons el sistema predissenyat i d'acord amb el programari de captura de moviment."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza la ubicació definitiva dels sensors de captura en els punts adequats de l'actor, responent a les exigències del programari i mitjançant diversos assaigs."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza la captura de moviment traslladant els resultats al rigging del model que s'animarà.1.5 Implanta en el rigging del model que s'animarà la variació dels punts de referència dels sensors de captura entre fotogrames, després de la realització de la captura de moviment.1.6 Captura els fotogrames de referència necessaris i ajusta les mides de les imatges de referència per a rotoscòpia, els adapta als enquadraments previstos en el guió tècnic i ressalta els elements que s'han de rotoscopiar sobre les imatges de referència.1.7 Realitza els ajustos de les imatges de referència (ampliació o disminució i enquadrament) segons les indicacions del guió tècnic i indica els detalls dels elements que es rotoscopiaran.1.8 Enclava les imatges de referència tenint en compte la fragmentació espai-temporal dels plans, per al seu ús en interlínies d'animació (pegbars) o en pantalles virtuals.1.9 Dibuixa, físicament o virtualment, sobre les imatges de referència, els personatges i els elements que s'animaran, respectant els fulls de model."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització de la captura de moviment i rotoscòpia en 2D i 3D",
+                "items": [
+                  "La rotoscòpia:",
+                  "Sistemes de captura de moviment:",
+                  "Realització de la captura i translació al rigging dels models:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "animació 2D",
+        "hores": 32,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Anima fotogrames sobre superfície física o per ordinador en 2D a partir de la interpretació del guió, per aconseguir l'expressivitat requerida, aplicant tècniques de dibuix i animació i analitzant característiques expressives.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Temporitza els moviments de tots els elements 2D que s'animaran, indicant el nombre de fotogrames necessari per a cada variació i generant una carta d'animació per a cada pla, personatge i/o decorat."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dibuixa els fotogrames clau i fragmenta decorats, personatges i elements d'attrezzo a les diferents capes que cal animar, a partir de la interpretació expressiva del guió, el guió tècnic i l'animació assistida per ordinador, configurant el pla d'animació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Dibuixa les intercalacions, adaptant-se als temps marcats i als dibuixos anteriors i posteriors segons la carta d'animació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Executa la prova de línia amb els mitjans necessaris i comprova que no hi hagi cap error en l'animació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Sincronitza l'animació 2D amb la banda sonora, el doblatge original i els efectes diegètics segons les exigències del guió.1.6 Exporta l'animació realitzada amb els paràmetres adequats segons les especificacions del producte. 2. Col·loca i mou les càmeres en 2D i 3D, a partir de la interpretació de guions tècnics, el guió il·lustrat i l'animació assistida per ordinador, analitzant la narrativa audiovisual i les característiques de l'òptica aplicada. Criteris d'avaluació2.1 Valora i determina les focals virtuals que s'utilitzaran per aconseguir l'expressivitat visual requerida.2.2 Col·loca les focals fixes en cada pla, ajustant les distàncies càmera-objecte en funció dels enquadraments del guió il·lustrat i la profunditat de camp predefinida.2.3 Interpreta i defineix, a partir del guió il·lustrat, els moviments interns i externs, i les entrades i sortides de personatges, per a la composició dels enquadraments.2.4 Marca les trajectòries dels moviments de càmera temporitzant-los (arrencades, frenades, acceleracions i desceleracions) mitjançant la col·locació de fotogrames clau (key frames), adaptant-se a l'acció del pla i al dramatisme requerit."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Animació de fotogrames 2D",
+                "items": [
+                  "La carta d'animació:",
+                  "Estudi de l'animació:",
+                  "Emmagatzematge i moviment de la informació:"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "animació 3D",
+        "hores": 60,
+        "resultats_aprenentatge": []
+      },
+      {
+        "codi": "UF5",
+        "nom": "rigging i animació de personatges",
+        "hores": 60,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora el character setup de personatges de 3D, avaluant les alternatives d'utilització de tots els elements que afecten la realització del disseny de la interfície més adequat per a l'animació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA17",
+                "text": "Inclou músculs i diferencia els sòlids rígids i les geometries controlades per partícules, automatitzant moviments secundaris i col·lisions."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora la interfície d'animació, reunint en una sola eina totes les possibles deformacions (de diferents graus de complexitat segons les parts que cal animar), per a la utilització del character setup per altres usuaris."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza una llibreria d'animacions del personatge i l'organitza de manera que sigui accessible per a la realització d'un projecte."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració del character setup de personatges 3D",
+                "items": [
+                  "El character setup: eines i informació compartida:",
+                  "La creació de l'esquelet i els diferents controls d'animació de personatges i attrezzo:",
+                  "Elaboració de les renderitzacions de prova i correcció d'errors."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF6",
+        "nom": "partícules, simulacions i efectes",
+        "hores": 39,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza els efectes 3D segons les necessitats del guió, aplicant les lleis físiques a l'univers virtual.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Defineix les característiques dels efectes 3D que cal generar quant a durada, tipologia d'efecte i moment de l'aplicació (anterior o posterior a l'animació dels personatges) i les consigna en una llista."
+              },
+              {
+                "codi": "CA12",
+                "text": "Genera les partícules i crea els emissors necessaris per a cada pla, assigna els camps de força que definiran el comportament d'aquestes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea objectes dinàmics (rigid bodies) de comportament actiu o passiu, simula moviments i col·lisions i controla els seus comportaments, fins a aconseguir l'efecte desitjat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea les geometries controlades per partícules necessàries per a cada pla, pinta les influències i genera els tensors que definiran el moviment."
+              },
+              {
+                "codi": "CA15",
+                "text": "Crea multituds realitzant la substitució de les partícules per models animats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Configura els atributs del maquinari de renderització de memòria intermèdia per visionar les partícules prèviament a la generació de les imatges."
+              },
+              {
+                "codi": "CA17",
+                "text": "Tria la zona i crea els cabells amb els paràmetres òptims segons els requeriments."
+              },
+              {
+                "codi": "CA18",
+                "text": "Assigna quins elements tindran un comportament de teixit i optimitza els seus paràmetres i la interacció amb les forces."
+              },
+              {
+                "codi": "CA19",
+                "text": "Crea i simula el comportament de diferents tipus de fluids segons els requeriments previs."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització d'efectes 3D",
+                "items": [
+                  "Planificació dels efectes segons el guió.",
+                  "Programari d'efectes 3D:",
+                  "Creació de multituds 3D.",
+                  "El maquinari de renderització memòria intermèdia."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

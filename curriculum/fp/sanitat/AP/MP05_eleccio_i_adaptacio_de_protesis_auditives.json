@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AP",
+    "titol_cicle": "Audiologia Protètica",
+    "grau": "superior",
+    "familia_professional": "Sanitat",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 114/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'audiologia protètica.",
+    "data_decret": "2012-10-09",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "elecció i adaptació de pròtesis auditives",
+    "hores_totals": 264,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "processament de senyal a les pròtesis no implantables",
+        "hores": 79,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els diferents tipus de sistemes de processament de senyal, i en reconeix les característiques bàsiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les diferents característiques dels senyals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Representa els senyals en els plans freqüencial i temporal."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza els sistemes de representació lineals i logarítmics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descompon freqüencialment els senyals."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu les propietats dels sistemes de procés."
+              },
+              {
+                "codi": "CA16",
+                "text": "Caracteritza els sistemes lineals en el pla temporal i freqüencial."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix el procés realitzat pels sistemes d’entrada i amplificació de senyal."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix les característiques no ideals d’un sistema."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Descriu els sistemes de procés de senyal en els audiòfons de diferents tecnologies, i interpreta les fases del seu comportament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Classifica els audiòfons d’acord amb el seu format i la seva tecnologia."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu els processos de senyal realitzats pels transductors d’entrada."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu els processos de senyal realitzats pels transductors de sortida."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica els processos realitzats pels blocs de preamplificació, amplificació i filtratge realitzats sobre la resposta de l’audiòfon."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu els sistemes de control automàtic de guany a l’audiòfon."
+              },
+              {
+                "codi": "CA26",
+                "text": "Reconeix els sistemes direccionals en els audiòfons."
+              },
+              {
+                "codi": "CA27",
+                "text": "Reconeix els sistemes emfatitzadors de parla i reductors de soroll en els audiòfons digitals."
+              },
+              {
+                "codi": "CA28",
+                "text": "Descriu els sistemes de cancel·lació de retroalimentació (feedback) en els audiòfons digitals."
+              },
+              {
+                "codi": "CA29",
+                "text": "Descriu els sistemes especials de procés de senyal en audiòfons digitals."
+              },
+              {
+                "codi": "CA210",
+                "text": "Identifica les característiques de les fonts d’alimentació en els audiòfons."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació dels tipus de sistemes de processament de senyal",
+                "items": [
+                  "Senyals continus i discrets, aleatoris i deterministes.",
+                  "Sistemes de representació en els plans temporal i freqüencial.",
+                  "Escales de representació de les senyals, lineal i logarítmica.",
+                  "Classificació i descripció dels senyals:",
+                  "Propietats dels sistemes: linealitat, variabilitat i estabilitat.",
+                  "Caracterització de sistemes lineals: temporal i freqüencial.",
+                  "Sistemes amplificadors, filtres, transductors i generadors.",
+                  "Característiques no ideals dels sistemes:"
+                ]
+              },
+              {
+                "bloc": "Descripció dels sistemes de senyals en els audiòfons",
+                "items": [
+                  "Definició i classificació segons format.",
+                  "Transductors d’entrada, el micròfon, bobina inductiva i entrada d’audio.",
+                  "Transducció de sortida: auricular i vibrador ossi.",
+                  "Bloc de processament i control.",
+                  "Procés de senyal a l’audiòfon analògic:",
+                  "Procés de senyal a l’audiòfon digital:",
+                  "Font d’alimentació en les pròtesis no implantables."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "caracterització i anàlisi electroacústica de les pròtesis no implantables",
+        "hores": 32,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza mesures electroacústiques i relaciona els diferents elements de l’analitzador d’audiòfons amb la seva funció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la composició i l’esquema d’un analitzador d’audiòfons."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els diferents blocs funcionals de l’analitzador."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu el procés de calibratge d’un analitzador."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les normatives internacionals de mesura."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza i interpreta les diferents mesures electroacústiques amb l’analitzador."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització de mesures electroacústiques",
+                "items": [
+                  "L’analitzador d’audiòfons",
+                  "Calibratge de l’analitzador.",
+                  "Tipus de mesures electroacústiques a realitzar.",
+                  "Normatives internacionals de mesurament de control de qualitat.",
+                  "Mesures quantitatives i mesures qualitatives."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "tria de pròtesis auditives no implantades i ajuts tècnics",
+        "hores": 45,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona la pròtesi auditiva no implantable i en relaciona les especificacions tècniques amb les característiques anatomosensorials de l’usuari.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les característiques tècniques de les pròtesis auditives no implantables."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les característiques personals, socials i anatomosensorials de l’hipoacúsic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Emet un pronòstic audioprotètic."
+              },
+              {
+                "codi": "CA14",
+                "text": "Selecciona la via d’estimulació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina els paràmetres d’estimulació a través del mètode prescriptiu."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina les característiques de l’adaptació protètica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comprova les característiques electroacústiques de les pròtesis seleccionades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Determina els mètodes complementaris de rehabilitació del sistema auditiu."
+              },
+              {
+                "codi": "CA19",
+                "text": "Demostra interès per atendre les necessitats de l’usuari."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Selecciona l’ajuda tècnica complementària, i la relaciona amb les característiques de l’usuari i el seu entorn.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els ajuts tècnics complementaris."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica factors individuals i de l’entorn."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica la finalitat dels ajuts tècnics complementaris."
+              },
+              {
+                "codi": "CA24",
+                "text": "Determina l’ajuda tècnica complementària."
+              },
+              {
+                "codi": "CA25",
+                "text": "Verifica la compatibilitat de l’ajuda tècnica complementària amb la pròtesi auditiva de l’usuari."
+              },
+              {
+                "codi": "CA26",
+                "text": "Adapta els paràmetres de funcionament de l’ajuda tècnica complementària."
+              },
+              {
+                "codi": "CA27",
+                "text": "Verifica el resultat de l’adaptació de l’ajuda tècnica complementària."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Selecció de la pròtesi auditiva no implantable",
+                "items": [
+                  "Pròtesis auditives no implantables.",
+                  "Mesurament de les característiques electroacústiques de les pròtesis auditives.",
+                  "Normativa de mesura en l’ajust protètic.",
+                  "Mètodes prescriptius.",
+                  "Mètodes complementaris de rehabilitació del sistema auditiu."
+                ]
+              },
+              {
+                "bloc": "Selecció d’ajuts tècnics complementaris",
+                "items": [
+                  "Ajuts tècnics relacionats i no relacionats amb l’audiòfon.",
+                  "Selecció, adaptació i verificació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "adaptació de pròtesis auditives no implantades",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Adapta la pròtesi auditiva no implantable aplicant tècniques de programació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Maneja equips i aplicacions informàtiques per a la programació de les pròtesis auditives."
+              },
+              {
+                "codi": "CA12",
+                "text": "Demostra interès per la incorporació de noves tecnologies i procediments en l’adaptació audioprotètica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Ajusta els valors dels paràmetres de les pròtesis auditives."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza mesures electroacústiques de verificació del preajustament de les pròtesis auditives de via aèria."
+              },
+              {
+                "codi": "CA15",
+                "text": "Contempla/preveu les característiques individuals de l’usuari en l’ajust dels paràmetres de l’audiopròtesi."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora un pla d’acomodació a la pròtesi auditiva."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Adaptació de la pròtesi auditiva no implantable",
+                "items": [
+                  "Equips i aplicacions informàtiques.",
+                  "Paràmetres de programació.",
+                  "Preajustament en acoblador acústic.",
+                  "Adaptació protètica en nens, adults i en ancians."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "programació de pròtesis auditives implantades",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Regula la pròtesi auditiva implantada, aplicant tècniques de programació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les pròtesis auditives implantables."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica la pròtesi implantada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Maneja equips i aplicacions informàtiques per a la programació de les pròtesis."
+              },
+              {
+                "codi": "CA14",
+                "text": "Avalua la integritat de l’implant coclear."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona la manera d’estimulació, l’estratègia de codificació i els paràmetres de programació de l’implant coclear."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina el rang dinàmic elèctric corresponent a cada un dels elèctrodes de l’implant coclear."
+              },
+              {
+                "codi": "CA17",
+                "text": "Programa l’implant d’orella mitja."
+              },
+              {
+                "codi": "CA18",
+                "text": "Ajusta l’audiòfon osteointegrat."
+              },
+              {
+                "codi": "CA19",
+                "text": "Descriu l’implant de tronc cerebral."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Regulació de la pròtesi auditiva implantada",
+                "items": [
+                  "Pròtesis auditives implantables: característiques i tècniques de programació.",
+                  "Programació d’implants coclears.",
+                  "Ajust d’audiòfons osteointegrats.",
+                  "Programació d’implants d’orella mitjana."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF6",
+        "nom": "valoració i verificació de l’eficàcia protètica",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Comprova el resultat de l’adaptació protètica i aplica tècniques audiològiques subjectives i objectives.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les proves objectives i subjectives."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona les proves de verificació d’acord amb el tipus de pròtesi."
+              },
+              {
+                "codi": "CA13",
+                "text": "Considera l’edat de l’usuari i la seva capacitat de resposta durant l’avaluació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza les proves de verificació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Determina les correccions per millorar els resultats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza els reajustaments, verificant el resultat final."
+              },
+              {
+                "codi": "CA17",
+                "text": "Es responsabilitza el treball desenvolupat i del compliment dels objectius."
+              },
+              {
+                "codi": "CA18",
+                "text": "Demostra autonomia en la resolució de contingències relacionades amb la seva activitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Avalua la satisfacció de l’usuari aplicant protocols de qualitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu les característiques generals de les escales de valoració de la qualitat de vida."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica les escales d’acord amb l’edat d’aplicació i els seus objectius."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu el protocol d’aplicació de cada escala."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona l’escala segons les característiques individuals de l’usuari."
+              },
+              {
+                "codi": "CA25",
+                "text": "Analitza els resultats quantitativament i qualitativament."
+              },
+              {
+                "codi": "CA26",
+                "text": "Determina la necessitat de revisió de l’adaptació protètica o d’ajuts tècnics auditius."
+              },
+              {
+                "codi": "CA27",
+                "text": "Demostra responsabilitat davant dels èxits i fracassos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Comprovació del resultat de l’adaptació protètica",
+                "items": [
+                  "Classificació de les proves de verificació.",
+                  "Proves de verificació subjectiva en nens i adults.",
+                  "Proves de verificació objectiva.",
+                  "Procés d’”adaptació fina” i resolució de problemes."
+                ]
+              },
+              {
+                "bloc": "Avaluació de la satisfacció de l’usuari",
+                "items": [
+                  "Escales d’aplicació general.",
+                  "Escales per a l’avaluació de nens.",
+                  "Escales per a l’avaluació d’adults.",
+                  "Escales específiques per a l’avaluació d’ancians."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

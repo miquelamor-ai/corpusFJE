@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IEA",
+    "titol_cicle": "Instal·lacions Elèctriques i Automàtiques",
+    "grau": "mitja",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "decret",
+    "font_ref": "Decret 125/2012, de 9 d'octubre",
+    "titol_decret": "DECRET 125/2012, de 9 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions elèctriques i automàtiques.",
+    "data_decret": "2012-10-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2012/10/09/125/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "electrònica",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "electrònica digital",
+        "hores": 26,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix circuits lògics combinacionals determinant-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Utilitza diferents sistemes de numeració i codis."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les funcions lògiques fonamentals utilitzades en els circuits electrònics digitals."
+              },
+              {
+                "codi": "CA13",
+                "text": "Representa els circuits lògics mitjançant la simbologia adequada."
+              },
+              {
+                "codi": "CA14",
+                "text": "Interpreta les funcions combinacionals bàsiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els components i blocs funcionals."
+              },
+              {
+                "codi": "CA16",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA17",
+                "text": "Verifica el funcionament dels circuits."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica les diferents famílies d’integrats i la seva aplicació."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix circuits lògics seqüencials determinant-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu diferències entre circuits combinacionals i seqüencials."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu diferències entre sistemes síncrons i asíncrons."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els components i blocs funcionals."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza els instruments lògics de mesura adequats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA26",
+                "text": "Verifica el funcionament de circuits bàsics seqüencials."
+              },
+              {
+                "codi": "CA27",
+                "text": "Descriu aplicacions reals dels circuits amb dispositius lògics seqüencials."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Circuits lògics combinacionals",
+                "items": [
+                  "Introducció a les tècniques digitals.",
+                  "Sistemes digitals.",
+                  "Sistemes de numeració.",
+                  "Simbologia.",
+                  "Anàlisi de circuits amb portes lògiques.",
+                  "Tipus de portes lògiques: NOT, OR, AND, NOR, NAND i EXOR.",
+                  "Anàlisi de circuits combinacionals.",
+                  "Codificadors i descodificadors.",
+                  "Multiplexors i demultiplexors.",
+                  "Comparadors."
+                ]
+              },
+              {
+                "bloc": "Circuits lògics seqüencials",
+                "items": [
+                  "Sistemes seqüencials. Tipus de biestables.",
+                  "Biestables R-S.",
+                  "Biestables J-K.",
+                  "Biestables T.",
+                  "Biestables D.",
+                  "Comptadors.",
+                  "Registres de desplaçament.",
+                  "Aplicacions amb circuits seqüencials."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "electrònica analògica",
+        "hores": 40,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix circuits de rectificació i filtratge determinant-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els diferents components."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els paràmetres i magnituds que caracteritzen els circuits amb components passius."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza els instruments de mesura adients (multímetre i oscil·loscopi, entre d’altres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Relaciona els components amb els símbols que apareixen als esquemes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu els tipus de rectificadors i filtres."
+              },
+              {
+                "codi": "CA16",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA17",
+                "text": "Obté els paràmetres i característiques elèctriques dels components dels sistemes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu les aplicacions reals d’aquest tipus de circuits."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Reconeix fonts d’alimentació determinant-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu les diferències entre fonts commutades i no commutades."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu el funcionament dels diferents blocs que componen els sistemes complets d’alimentació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les característiques més rellevants proporcionades pels fabricants."
+              },
+              {
+                "codi": "CA24",
+                "text": "Descriu les diferents configuracions de circuits reguladors integrats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza els instruments de mesura adients (multímetre i oscil·loscopi, entre d’altres)."
+              },
+              {
+                "codi": "CA27",
+                "text": "Descriu aplicacions reals de les fonts commutades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Verifica el funcionament de les fonts commutades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Reconeix circuits amplificadors determinant-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu diferents tipologies de circuits amplificadors."
+              },
+              {
+                "codi": "CA32",
+                "text": "Descriu els paràmetres i característiques dels diferents circuits amplificadors."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els components amb els símbols que apareixen als esquemes."
+              },
+              {
+                "codi": "CA34",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA35",
+                "text": "Verifica el seu funcionament."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza els instruments de mesura adients."
+              },
+              {
+                "codi": "CA37",
+                "text": "Descriu aplicacions reals dels circuits amplificadors."
+              },
+              {
+                "codi": "CA38",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Reconeix sistemes electrònics de potència verificant-ne les característiques i funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Reconeix els elements dels sistemes electrònics de potència."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica la funció de cada bloc del sistema."
+              },
+              {
+                "codi": "CA43",
+                "text": "Enumera les característiques més rellevants dels components."
+              },
+              {
+                "codi": "CA44",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA45",
+                "text": "Verifica el funcionament dels components (tiristor, diac, triac, entre d’altres)."
+              },
+              {
+                "codi": "CA46",
+                "text": "Utilitza els instruments de mesura adients."
+              },
+              {
+                "codi": "CA47",
+                "text": "Visualitza els senyals més significatius."
+              },
+              {
+                "codi": "CA48",
+                "text": "Descriu aplicacions reals dels sistemes d’alimentació controlats."
+              },
+              {
+                "codi": "CA49",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Reconeix circuits de temporització i oscil·lació verificant-ne les característiques i el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Reconeix els components dels circuits de temporització i oscil·lació amb dispositius integrats."
+              },
+              {
+                "codi": "CA52",
+                "text": "Descriu el funcionament de temporitzadors i oscil·ladors."
+              },
+              {
+                "codi": "CA53",
+                "text": "Verifica el funcionament dels circuits de temporització."
+              },
+              {
+                "codi": "CA54",
+                "text": "Verifica el funcionament dels circuits oscil·ladors."
+              },
+              {
+                "codi": "CA55",
+                "text": "Utilitza els instruments de mesura adients."
+              },
+              {
+                "codi": "CA56",
+                "text": "Munta o simula circuits."
+              },
+              {
+                "codi": "CA57",
+                "text": "Visualitza els senyals més significatius."
+              },
+              {
+                "codi": "CA58",
+                "text": "Descriu aplicacions reals dels circuits amb dispositius integrats de temporització i oscil·lació."
+              },
+              {
+                "codi": "CA59",
+                "text": "Realitza les tasques que cal fer individualment amb autosuficiència i seguretat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Components electrònics emprats en rectificació i filtratge. Tipologia i característiques",
+                "items": [
+                  "Components passius: tipus, característiques i aplicacions.",
+                  "Resistències fixes, ajustables i potenciòmetres.",
+                  "Condensadors i bobines.",
+                  "Díodes semiconductors.",
+                  "Rectificació. Filtres.",
+                  "Díodes Zener. Característiques i aplicacions.",
+                  "Components actius. Característiques i aplicacions.",
+                  "El transistor. Polarització."
+                ]
+              },
+              {
+                "bloc": "Fonts d’alimentació",
+                "items": [
+                  "Fonts lineals: estabilització i regulació amb dispositius integrats.",
+                  "Fonts commutades. Característiques. Fonaments. Blocs funcionals.",
+                  "Mesures amb el multímetre.",
+                  "Mesures amb l’oscil·loscopi."
+                ]
+              },
+              {
+                "bloc": "Amplificadors operacionals",
+                "items": [
+                  "Característiques de l’amplificador operacional.",
+                  "L’amplificador operacional com a comparador.",
+                  "L’amplificador operacional com a amplificador. Sumadors i restadors.",
+                  "Aplicacions bàsiques amb dispositius integrats."
+                ]
+              },
+              {
+                "bloc": "Components emprats en electrònica de potència",
+                "items": [
+                  "Tiristor, fototiristor, triac i diac.",
+                  "Sistemes d’alimentació controlats."
+                ]
+              },
+              {
+                "bloc": "Circuits generadors de senyal",
+                "items": [
+                  "Temporitzadors.",
+                  "Oscil·ladors."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

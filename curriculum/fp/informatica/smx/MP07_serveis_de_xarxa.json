@@ -1,0 +1,441 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "grau": "mitja",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "serveis de xarxa",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "configuració de la xarxa (DNS i DHCP)",
+        "hores": 36,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la serveis de configuració dinàmica, descrivint-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix el funcionament dels mecanismes automatitzats de configuració dels paràmetres de xarxa."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els avantatges que proporcionen."
+              },
+              {
+                "codi": "CA13",
+                "text": "Il·lustra els procediments i pautes que intervenen en una sol·licitud de configuració dels paràmetres de xarxa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la un servei de configuració dinàmica dels paràmetres de xarxa."
+              },
+              {
+                "codi": "CA15",
+                "text": "Presenta el servei per assignar la configuració bàsica als sistemes d’una xarxa local."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza assignacions dinàmiques i estàtiques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix les diferents topologies de xarxa."
+              },
+              {
+                "codi": "CA18",
+                "text": "Verifica l’assignació correcta dels paràmetres."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza la documentació adient per donar suport a l’usuari."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Instal·la serveis de resolució de noms, descrivint-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica i descriu escenaris en els quals sorgeix la necessitat d’un servei de resolució de noms."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica els principals mecanismes de resolució de noms."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu l’estructura, nomenclatura i funcionalitat dels sistemes de noms jeràrquics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Instal·la un servei jeràrquic de resolució de noms."
+              },
+              {
+                "codi": "CA25",
+                "text": "Prepara el servei per emmagatzemar les respostes procedents de servidors de xarxes públiques i servir-les als equips de la xarxa local."
+              },
+              {
+                "codi": "CA26",
+                "text": "Afegeix registres de noms corresponents a una zona nova, amb opcions a servidors de correu i àlies."
+              },
+              {
+                "codi": "CA27",
+                "text": "Treballa en grup per realitzar transferències de zona entre dos o més servidors."
+              },
+              {
+                "codi": "CA28",
+                "text": "Comprova el funcionament correcte del servidor."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza la documentació adient per donar suport a l’usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de serveis de configuració dinàmica de sistemes",
+                "items": [
+                  "Adreça IP, màscara de xarxa, porta d’enllaç.",
+                  "DHCP. Rangs, exclusions, concessions i reserves.",
+                  "Instal·lació d’un servei DHCP.",
+                  "Comprovació del funcionament bàsic.",
+                  "Configuració de les assignacions dinàmiques i estàtiques.",
+                  "Configuració dels paràmetres de xarxa del client.",
+                  "Comprovació del funcionament del DHCP.",
+                  "Realització de documentació adient per donar suport a l’usuari."
+                ]
+              },
+              {
+                "bloc": "Instal·lació de serveis de resolució de noms",
+                "items": [
+                  "Sistemes de noms plans i jeràrquics.",
+                  "Zones primàries i secundàries.",
+                  "Tipus de registres.",
+                  "Instal·lació d’un servei DNS.",
+                  "Configuració del servei per fer servir les respostes d’altres DNS. Transferències de zona.",
+                  "Creació d’una zona.",
+                  "Realització de transferències entre dos o més servidors.",
+                  "Comprovació del funcionament del servei de DNS.",
+                  "Realització de documentació adient per donar suport a l’usuari."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "correu electrònic i transmissió d’arxius",
+        "hores": 32,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la serveis de transferència de fitxers, descrivint-ne les característiques i aplicacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Estableix la utilitat i el mode d’operació del servei de transferència de fitxers."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la un servei de transferència de fitxers."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea usuaris i grups per a accés remot al servidor."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura l’accés anònim."
+              },
+              {
+                "codi": "CA15",
+                "text": "Estableix límits en les diferents maneres d’accés."
+              },
+              {
+                "codi": "CA16",
+                "text": "Comprova l’accés al servidor, tant en mode actiu com en mode passiu."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza proves amb clients en línia de comandaments i en mode gràfic."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza la documentació adient per donar suport a l’usuari."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona servidors de correu electrònic identificant-ne requeriments d’utilització i aplicant-hi criteris de configuració.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els diferents protocols que intervenen en la tramesa i recollida del correu electrònic."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la un servidor de correu electrònic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Crea comptes d’usuari i en verifica l’accés."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix àlies per als comptes de correu."
+              },
+              {
+                "codi": "CA25",
+                "text": "Aplica mètodes per impedir usos indeguts del servidor de correu electrònic."
+              },
+              {
+                "codi": "CA26",
+                "text": "Instal·la serveis per permetre la recollida remota del correu existent a les bústies d’usuari."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza clients de correu electrònic per enviar i rebre correu."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza la documentació adient per donar suport a l’usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de serveis de transferència de fitxers",
+                "items": [
+                  "Instal·lació d’un servei de FTP.",
+                  "Usuaris i grups.",
+                  "Accés anònim.",
+                  "Permisos. Quotes. Límit d’amplada de banda.",
+                  "Comandaments de control, autenticació, gestió i transferència de fitxers.",
+                  "Transferència en mode text i binari. Comprovació del servei des de línia de comandament i de manera gràfica.",
+                  "Realització de documentació adient per donar suport a l’usuari."
+                ]
+              },
+              {
+                "bloc": "Gestió de serveis de correu electrònic",
+                "items": [
+                  "Protocols i serveis de descàrrega de correu.",
+                  "Instal·lació d’un servei de correu electrònic.",
+                  "Comptes de correu.",
+                  "Àlies i bústies d’usuari.",
+                  "Protecció del servidor per impedir usos indeguts.",
+                  "Instal·lació d’un servei de recollida correu electrònic.",
+                  "Verificació de l’accés, per mitjà de clients de correu.",
+                  "Realització de documentació adient per donar suport a l’usuari."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Servidor web i servidor intermediari (proxy)",
+        "hores": 32,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona servidors web identificant-ne requeriments d’utilització i aplicant-hi criteris de configuració.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els fonaments i protocols en què es basa el funcionament d’un servidor web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la un servidor web."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea llocs virtuals."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica les possibilitats existents per discriminar el lloc de destinació del trànsit entrant al servidor."
+              },
+              {
+                "codi": "CA15",
+                "text": "Configura la seguretat del servidor."
+              },
+              {
+                "codi": "CA16",
+                "text": "Comprova l’accés dels usuaris al servidor."
+              },
+              {
+                "codi": "CA17",
+                "text": "Diferencia i prova l’execució de codi al servidor i en el client."
+              },
+              {
+                "codi": "CA18",
+                "text": "Instal·la mòduls sobre el servidor."
+              },
+              {
+                "codi": "CA19",
+                "text": "Estableix mecanismes per assegurar les comunicacions entre el client i el servidor."
+              },
+              {
+                "codi": "CA110",
+                "text": "Realitza la documentació adient per donar suport a l’usuari."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Estableix l’accés de xarxes locals a xarxes públiques identificant possibles escenaris i aplicant programari específic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Instal·la i configura el maquinari d’un sistema amb accés a una xarxa privada local i a una xarxa pública."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la una aplicació que actuï de passarel·la entre la xarxa privada local i la xarxa pública."
+              },
+              {
+                "codi": "CA23",
+                "text": "Reconeix i diferencia les característiques principals i possibilitats de l’aplicació seleccionada."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura els sistemes de la xarxa privada local per accedir a la xarxa pública a través de la passarel·la."
+              },
+              {
+                "codi": "CA25",
+                "text": "Estableix els procediments de control d’accés per assegurar el trànsit que es transmet a través de la passarel·la."
+              },
+              {
+                "codi": "CA26",
+                "text": "Implementa mecanismes per accelerar les comunicacions entre la xarxa privada local i la pública."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els possibles escenaris d’aplicació d’aquest tipus de mecanismes."
+              },
+              {
+                "codi": "CA28",
+                "text": "Estableix un mecanisme que permeti reexpedir trànsit de xarxa entre dues o més interfícies d’un mateix sistema."
+              },
+              {
+                "codi": "CA29",
+                "text": "Comprova l’accés a una xarxa determinada des dels sistemes connectats a una altra xarxa diferent."
+              },
+              {
+                "codi": "CA210",
+                "text": "Implanta i verifica la configuració per accedir des d’una xarxa pública a un servei localitzat en una màquina d’una xarxa privada local."
+              },
+              {
+                "codi": "CA211",
+                "text": "Realitza la documentació adient per donar suport a l’usuari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió de servidors web",
+                "items": [
+                  "Servidors virtuals. Nom d’encapçalament d’ordinador central. Identificació d’un servidor virtual.",
+                  "Accés anònim i autenticat. Mètodes d’autenticació.",
+                  "Instal·lació d’un servidor web.",
+                  "Creació de llocs virtuals.",
+                  "Configuració de la seguretat.",
+                  "Comprovació del funcionament tant de manera local com remota.",
+                  "Instal·lació i configuració de nous mòduls.",
+                  "Instal·lació i configuració de comunicacions segures.",
+                  "Realització de documentació adient per donar suport a l’usuari."
+                ]
+              },
+              {
+                "bloc": "Interconnexió de xarxes privades amb xarxes públiques",
+                "items": [
+                  "Passarel·les a nivell d’aplicació. Emmagatzematge en memòria cau.",
+                  "Instal·lació d’una aplicació que faci de passarel·la (servidor intermediari).",
+                  "Configuració de la xarxa local per fer servir l’aplicació per accedir a xarxes públiques.",
+                  "Establiment de mecanismes de control d’accés."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "accés a sistemes remots",
+        "hores": 32,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona mètodes d’accés remot descrivint-ne les característiques i instal·lant-hi els serveis corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu mètodes d’accés i administració remota de sistemes."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la un servei d’accés remot en línia de comandaments."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la un servei d’accés remot en mode gràfic."
+              },
+              {
+                "codi": "CA14",
+                "text": "Comprova el funcionament d’ambdós mètodes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els principals avantatges i deficiències de cadascun."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza proves d’accés remot entre sistemes de diferent naturalesa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza proves d’administració remota entre sistemes de diferent naturalesa."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió d’accés remot",
+                "items": [
+                  "Terminals en mode text. Terminals en mode gràfic.",
+                  "Instal·lació d’un servei d’accés remot en línia de comandaments.",
+                  "Instal·lació d’un servei d’accés remot en mode gràfic.",
+                  "Comprovació del funcionament d’ambdós mètodes.",
+                  "Identificació dels avantatges i deficiències d’ambdós mètodes.",
+                  "Realització d’accés remot entre sistemes de diferent naturalesa.",
+                  "Realització d’administració remota entre sistemes de diferent naturalesa."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

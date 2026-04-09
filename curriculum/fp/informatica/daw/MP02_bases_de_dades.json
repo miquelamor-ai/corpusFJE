@@ -1,0 +1,506 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "bases de dades",
+    "hores_totals": 231,
+    "uf": [
+      {
+        "codi": "UF3",
+        "nom": "Llenguatges SQL: DCL i extensió procedimental. SGBD corporatiu",
+        "hores": 0,
+        "resultats_aprenentatge": []
+      },
+      {
+        "codi": "UF1",
+        "nom": "introducció a les bases de dades",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els elements de les bases de dades analitzant-ne les funcions i valorant la utilitat dels sistemes gestors.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els diferents elements, objectes i estructures d’emmagatzematge físic disponibles en un SGBD corporatiu i els relaciona amb els elements de l’esquema físic de la base de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els diferents sistemes lògics d’emmagatzematge i les seves característiques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els diferents tipus de bases de dades en funció de la ubicació de la informació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica un sistema gestor de bases de dades: funcions, components, objectius, tipus de llenguatge de bases de dades i diferents usuaris de la base de dades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica l’estructura d’un diccionari de dades."
+              },
+              {
+                "codi": "CA16",
+                "text": "Diferencia entre el nivell intern, el nivell conceptual i el nivell físic d’una base de dades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Diferencia entre els diferents models de bases de dades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica les bases de dades distribuïdes: utilitat, diferències, avantatges i inconvenients, distribució de les dades, arquitectura, seguretat i recuperació."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica el disseny d’una base de dades distribuïda."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica les bases de dades centralitzades i les bases de dades distribuïdes: utilitat, diferències, avantatges i inconvenients."
+              },
+              {
+                "codi": "CA111",
+                "text": "Diferencia entre les diferents tècniques de fragmentació en un model distribuït."
+              },
+              {
+                "codi": "CA112",
+                "text": "Identifica les tècniques de distribució de dades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Dissenya models lògics normalitzats interpretant diagrames entitat/relació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica, selecciona i ordena la informació que ha de contenir la base de dades, segons els requeriments de l’usuari."
+              },
+              {
+                "codi": "CA22",
+                "text": "Analitza la informació que s’ha de representar i decideix el disseny per a la base de dades, segons els requeriments de l’usuari."
+              },
+              {
+                "codi": "CA23",
+                "text": "Defineix les entitats: nom, atributs, dominis dels atributs i camps claus."
+              },
+              {
+                "codi": "CA24",
+                "text": "Defineix les relacions: nom, atributs i grau."
+              },
+              {
+                "codi": "CA25",
+                "text": "Realitza el disseny lògic de la base de dades utilitzant el model entitat-relació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza eines gràfiques per representar el disseny lògic."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica els principals elements del model relacional: relacions, atributs, domini dels atributs, diferents tipus de claus i cardinalitat de les relacions."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica i interpreta les regles d’integritat associades a cadascuna de les claus primàries."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica i interpreta les regles d’integritat associades a cadascuna de les claus foranes, tenint en compte les diferents possibilitats de modificar i/o esborrar (eliminació i/o modificació en cascada, restricció de l’eliminació i/o modificació, eliminació i/o modificació aplicant valors nuls als registres relacionats)."
+              },
+              {
+                "codi": "CA210",
+                "text": "Identifica les taules, els camps i les relacions entre taules, d’un disseny lògic."
+              },
+              {
+                "codi": "CA211",
+                "text": "Tradueix un model entitat-relació a model relacional aplicant les regles corresponents de traducció."
+              },
+              {
+                "codi": "CA212",
+                "text": "Aplica les regles de normalització en el model relacional."
+              },
+              {
+                "codi": "CA213",
+                "text": "Elabora la guia d’usuari i la documentació completa relativa al disseny físic (taules, atributs i relacions) de la base de dades relacional, de manera estructurada i clara; afegint les restriccions que no es poden plasmar en el disseny lògic."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Introducció a les bases de dades",
+                "items": [
+                  "Evolució històrica de les bases de dades.",
+                  "Avantatges i inconvenients de les bases de dades.",
+                  "Emmagatzematge de la informació.",
+                  "Sistemes gestors de base de dades.",
+                  "Arquitectura ANSI/X3/SPARC.",
+                  "Models de bases de dades.",
+                  "Bases de dades centralitzades i bases de dades distribuïdes."
+                ]
+              },
+              {
+                "bloc": "Model entitat-relació",
+                "items": [
+                  "El concepte de model entitat-relació.",
+                  "Entitat: representació gràfica, atributs i tipus de claus.",
+                  "Relació: representació gràfica, atributs, grau i cardinalitat.",
+                  "Diagrames entitat-relació.",
+                  "El model entitat-relació estès."
+                ]
+              },
+              {
+                "bloc": "Model relacional",
+                "items": [
+                  "Terminologia del model relacional.",
+                  "El concepte de relació. Propietats i relacions.",
+                  "Atributs i domini dels atributs.",
+                  "El concepte de claus i tipus de claus: claus candidates, claus primàries, claus foranes, claus alternatives.",
+                  "Altres conceptes: tupla, grau, cardinalitat, valors nuls, comparació amb fitxes.",
+                  "Regles d’integritat: integritat d’entitat i integritat referencial.",
+                  "Traducció del model entitat-relació al model relacional."
+                ]
+              },
+              {
+                "bloc": "Normalització",
+                "items": [
+                  "El concepte de normalització i la relació universal.",
+                  "El concepte de dependències funcionals i els seus tipus.",
+                  "Primera forma normal (1FN).",
+                  "Segona forma normal (2FN).",
+                  "Tercera forma normal (3FN).",
+                  "Forma normal Boyce Codd.",
+                  "Altres formes normals (4FN, 5FN).",
+                  "Desnormalització."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "llenguatges SQL: DML i DDL",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Consulta i modifica la informació emmagatzemada en una base de dades emprant assistents, eines gràfiques i el llenguatge de manipulació de dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL per consultar i modificar les dades de la base de dades de manera interactiva."
+              },
+              {
+                "codi": "CA12",
+                "text": "Empra assistents, eines gràfiques i el llenguatge de manipulació de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza consultes simples de selecció sobre una taula (amb restricció i ordenació) per consultar les dades d’una base de dades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza consultes utilitzant funcions afegides i valors nuls."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza consultes amb diverses taules mitjançant composicions internes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza consultes amb diverses taules mitjançant composicions externes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza consultes amb subconsultes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica eines i sentències per modificar el contingut de la base de dades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Formula consultes per inserir, modificar i/o eliminar dades de la base de dades."
+              },
+              {
+                "codi": "CA110",
+                "text": "Insereix en una taula dades com a resultant de l’execució d’una consulta."
+              },
+              {
+                "codi": "CA111",
+                "text": "Identifica les transaccions i el seu funcionament."
+              },
+              {
+                "codi": "CA112",
+                "text": "Controla els canvis produïts per una transacció: parcialment o totalment."
+              },
+              {
+                "codi": "CA113",
+                "text": "Identifica els efectes de les diferents polítiques de bloqueig de registres."
+              },
+              {
+                "codi": "CA114",
+                "text": "Adopta mesures per mantenir la integritat i la consistència de la informació."
+              },
+              {
+                "codi": "CA115",
+                "text": "Identifica les transaccions, les concurrències i la recuperació d’errades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza el disseny físic de bases de dades utilitzant assistents, eines gràfiques i el llenguatge de definició de dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els tipus de llenguatges per definir i manipular dades sobre un SGBDR corporatiu de manera interactiva."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els elements de l’estructura d’una base de dades i els defineix emprant assistents, eines gràfiques i/o el llenguatge de definició de dades (DDL), a partir del disseny de la BD i dels requeriments d’usuari."
+              },
+              {
+                "codi": "CA23",
+                "text": "Empra assistents, eines gràfiques i el llenguatge de definició de dades per a definir l’estructura d’una base de dades sobre un SGBDR corporatiu de manera interactiva i tenint en compte les regles sintàctiques."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica les funcions, la sintaxi i les ordres bàsiques del llenguatge SQL per definir l’estructura d’una base de dades."
+              },
+              {
+                "codi": "CA25",
+                "text": "Defineix els índex en una base de dades per tal de millorar el rendiment del sistema gestor de bases de dades."
+              },
+              {
+                "codi": "CA26",
+                "text": "Crea, modifica i elimina sinònims a taules i vistes de la BD."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica i implanta les restriccions a les taules que estan reflectides en el disseny lògic."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Llenguatges de la base de dades per manipular dades",
+                "items": [
+                  "El llenguatge de manipulació de dades (DML).",
+                  "Unió, intersecció i diferència de consultes.",
+                  "Altres clàusules del llenguatge.",
+                  "Extensions del llenguatge.",
+                  "Eines de la BD per a l’optimització de consultes."
+                ]
+              },
+              {
+                "bloc": "Estratègies per al control de les transaccions i de la concurrència",
+                "items": [
+                  "Concepte d’integritat.",
+                  "Concepte de transacció. Control.",
+                  "Propietats de les transaccions: atomicitat, consistència, aïllament i permanència.",
+                  "Estats d’una transacció: activa, parcialment compromesa, fallida, avortada i compromesa.",
+                  "Problemes derivats de l’execució concurrent de transaccions.",
+                  "Control de concurrència: tècniques optimistes i pessimistes.",
+                  "Recuperació davant errades. Mecanismes per desfer transaccions."
+                ]
+              },
+              {
+                "bloc": "Llenguatges de la base de dades per crear l’estructura de la base de dades",
+                "items": [
+                  "Tipus de llenguatges per gestionar les dades en un SGBDR corporatiu.",
+                  "Eines gràfiques proporcionades pel sistema gestor per a la implementació de la base de dades.",
+                  "El llenguatge de definició de dades (DDL).",
+                  "Extensions del llenguatge."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Llenguatges SQL: DCL i extensió procedimental. SGBD corporatiu",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta mètodes de control d’accés utilitzant assistents, eines gràfiques i comandes del llenguatge del sistema gestor de bases de dades corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Coneix la normativa vigent sobre la protecció de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els diferents tipus d’usuaris d’una organització, per tal d’identificar-ne els privilegis."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea, modifica i elimina comptes d’usuaris; assignant privilegis sobre la base de dades i els seus objectes, garantint el compliment dels requisits de seguretat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Agrupa i desagrupa privilegis, per tal d’assignar i eliminar privilegis a usuaris, garantint el compliment dels requisits de seguretat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Agrupa i desagrupa grups de privilegis a usuaris, garantint el compliment dels requisits de seguretat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Assigna i desassigna rols a usuaris."
+              },
+              {
+                "codi": "CA17",
+                "text": "Crea vistes personalitzades per a cada tipus d’usuari de la base de dades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa procediments emmagatzemats avaluant i utilitzant les sentències del llenguatge incorporat en el sistema gestor de bases de dades corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les eines disponibles en el sistema gestor de bases de dades per editar guions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix guions per automatitzar tasques que gestionen la base de dades."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els tipus de dades, identificadors, variables i constants."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza estructures de control de flux i llibreries de funcions."
+              },
+              {
+                "codi": "CA25",
+                "text": "Desenvolupa procediments i funcions d’usuari."
+              },
+              {
+                "codi": "CA26",
+                "text": "Gestiona els possibles errors dels procediments i funcions i controla les transaccions."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza cursors per manipular les dades d’una base de dades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza les funcions incorporades en el sistema gestor de bases de dades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Desenvolupa disparadors."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió d’usuaris",
+                "items": [
+                  "Creació, modificació i eliminació d’usuaris.",
+                  "Administració de perfils, privilegis i rols.",
+                  "Assignació i desassignació de privilegis a usuaris sobre objectes de la base de dades.",
+                  "Definició de rols. Assignació i desassignació de rols a usuaris.",
+                  "Normativa legal vigent sobre protecció de dades."
+                ]
+              },
+              {
+                "bloc": "Programació en bases de dades",
+                "items": [
+                  "Entorns de desenvolupament a l’entorn de la base de dades.",
+                  "Tipus de guions: guions simples, procediments i funcions.",
+                  "La sintaxi del llenguatge de programació.",
+                  "Procediments i funcions.",
+                  "Control d’errors.",
+                  "Cursors i transaccions.",
+                  "Eines de depuració i control de codi.",
+                  "Facilitats per al desenvolupament d’entorns gràfics.",
+                  "Llibreries bàsiques disponibles.",
+                  "Disparadors."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "bases de dades objecte-relacionals",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona la informació emmagatzemada en bases de dades objecte-relacionals, avaluant i utilitzant les possibilitats que proporciona el sistema gestor.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les característiques de les bases de dades objecte-relacionals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Crea tipus de dades objecte, els seus atributs i mètodes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea taules d’objectes i taules de columnes tipus objecte."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea tipus de dades col·lecció."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza consultes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Modifica la informació emmagatzemada mantenint la integritat i la consistència de les dades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Ús de bases de dades objecte-relacionals",
+                "items": [
+                  "Característiques de les bases de dades objecte-relacionals.",
+                  "Tipus de dades objecte.",
+                  "Definició de tipus d’objecte.",
+                  "Herència.",
+                  "Identificadors; referències.",
+                  "Tipus de dades col·lecció.",
+                  "Declaració i inicialització d’objectes.",
+                  "Ús de la sentència SELECT.",
+                  "Inserció d’objectes.",
+                  "Modificació i esborrament d’objectes."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

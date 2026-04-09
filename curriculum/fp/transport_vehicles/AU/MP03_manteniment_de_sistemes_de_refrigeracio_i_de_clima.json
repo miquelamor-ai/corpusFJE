@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "AU",
+    "titol_cicle": "Automoció",
+    "grau": "desconegut",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE EDU/69/2023, de 30 de març, per la qual s'estableix el currículum del cicle formatiu de grau mitjà de Manteniment d'Embarcacions d'Esbarjo.",
+    "data_decret": "2023-03-30",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "Manteniment de Sistemes de Refrigeració i de Climatització en Embarcacions d'Esbarjo",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "muntatge i posada en marxa del sistema de refrigeració i de climatització",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Efectua operacions de muntatge de fred i climatització utilitzats en embarcacions, seleccionant els mitjans necessaris i associant els elements amb la funció en el sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques de la maquinària que cal utilitzar en la instal·lació, utilitzant la documentació tècnica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Preveu la disposició dels diferents elements dels sistemes de climatització de l'embarcació, analitzant la documentació tècnica i tenint en compte criteris de seguretat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Elabora esquemes de connexió de canonades, atenent el tipus de fluid i els procediments establerts.1.4 Ubica els components de la instal·lació i els interconnecta.1.5 Prepara la maquinària per a l'arrencada, efectuant les operacions de buit i estanquitat, i en comprova els paràmetres establerts.1.6 Determina els valors dels paràmetres (intensitat-voltatge) en els circuits elèctrics que intervenen en el funcionament dels equips, atenent especificacions tècniques i plànols.1.7 Efectua la comprovació i l'ajust de la vàlvula de seguretat contra sobrepressions i els elements de regulació i control, valorant plànols i especificacions tècniques.1.8 Efectua l'operació de càrrega de refrigerant en la instal·lació frigorífica o sistema de climatització, i en comprova els nivells de cabal en el sistema d'alta pressió. 2. Efectua la posada en marxa, control de funcionament i parada de sistemes de fred i de climatització usats en embarcacions d'esbarjo, identificant les variables de funcionament i avaluant-ne la influència en el rendiment de la instal·lació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge d'equips en instal·lacions de fred i climatització",
+                "items": [
+                  "Normes europees sobre gasos fluorats d'efecte hivernacle.",
+                  "Interpretació de la documentació tècnica. Plànols. Normativa.",
+                  "Compressors de fred.",
+                  "Condensadors.",
+                  "Evaporadors.",
+                  "Elements de control de pressió i temperatura.",
+                  "Elements de regulació.",
+                  "Elements de seguretat contra sobrepressió: vàlvula de seguretat.",
+                  "Elements accessoris per obtenir millor rendiment.",
+                  "Bombes de calor: tipus i característiques."
+                ]
+              },
+              {
+                "bloc": "Posada en marxa, control i parada de sistemes de fred i climatització",
+                "items": [
+                  "Comprovació de l'operativitat del compressor.",
+                  "Comprovació en el sistema de climatització de la funcionalitat de la vàlvula de quatre vies (bomba de calor).",
+                  "Comprovació i calibratge dels pressòstats de control i regulació.",
+                  "Manipulació de gasos fluorats d'efecte hivernacle.",
+                  "Precaucions amb equips que utilitzin gasos fluorats d'efecte hivernacle."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "manteniment del sistema de refrigeració i de climatització",
+        "hores": 33,
+        "resultats_aprenentatge": []
+      }
+    ]
+  }
+}

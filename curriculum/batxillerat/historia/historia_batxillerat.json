@@ -6,279 +6,189 @@
     "codi_area": "HIS",
     "decret": "171/2022",
     "data_decret": "2022-09-20",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/humanitats-cs/Historia.pdf",
-    "nota_estructura": "Matèria de 2n de Batxillerat, modalitat Humanitats i Ciències Socials. Cobreix la història contemporània des del s.XVIII fins a l'actualitat.",
-    "versio_schema": "1.0",
-    "descripcio": "La Història és matèria de 2n de Batxillerat, modalitat Humanitats i Ciències Socials, i abasta la història contemporània des del segle XVIII fins a l’actualitat. Proporciona a l’alumnat les eines per comprendre el món present des de la perspectiva del passat, i connecta amb estudis d’humanitats, ciències polítiques, dret, periodisme, geografia i relacions internacionals. És matèria habitual a les proves d’accés a la universitat.\n\nLa disciplina treballa conceptes com causalitat múltiple, canvi i continuitat, empatia històrica, perspectiva i relativisme cultural. El vocabulari específic inclou termes com font primària i secundària, historiografia, cronologia, periodització, procés revolucionari, imperialisme, totalitarisme, democràcia liberal, guerra freda, descolonització, globalització, estat del benestar i construcció europea. L’alumnat aprèn a interpretar fonts de naturalesa diversa, textuals, estadístiques, cartogràfiques i iconogràfiques, i a construir narratives argumentades que integren perspectives diverses i respecten el context de cada època.\n\nL’enfocament pedagògic prioritza el pensament històric per sobre de la memorització de dates: l’alumnat analitza documents, elabora comentaris de fonts primàries, construeix explicacions causals i debat interpretacions historiogràfiques. Formats com l’assaig argumentat, la línia del temps comparativa, el treball de recerca i la simulació de processos històrics són propis d’aquesta matèria."
+    "font": "PDF oficial XTEC: Historia.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "La Història al Batxillerat aborda el món contemporani des de les revolucions liberals del s. XVIII fins al present, analitzant els processos que han configurat les societats actuals: industrialització, imperialisme, guerres mundials, totalitarismes, descolonització, Guerra Freda i globalització. Connecta amb la Història de la Filosofia (pensament polític modern), la Geografia (geopolítica), les Ciències Socials i l'Economia, i prepara per a estudis universitaris d'humanitats i ciències socials.\n\nEls constructes metodològics i conceptuals inclouen l'anàlisi de fonts primàries i secundàries (comentari de text, mapa, gràfic, imatge), la causalitat múltiple i la multicausalitat, el canvi i la continuïtat, la perspectiva i el punt de vista historiogràfic, els conceptes de revolució, imperialisme, totalitarisme, democràcia i globalització, i les tensions entre identitat nacional i pluralitat cultural. La consciència temporal i la contextualització rigorosa d'esdeveniments i processos articulen la matèria.\n\nL'enfocament pedagògic prioritza el treball directe amb fonts documentals, la construcció d'arguments historiogràfics i la discussió de perspectives diverses sobre els mateixos fets. La redacció d'assajos d'anàlisi i la presentació oral estructurada reforcen les competències comunicatives. L'avaluació mesura la capacitat d'anàlisi crítica, la qualitat de l'argumentació, el domini conceptual i la connexió entre passats i presents."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Aplicar el pensament històric i els procediments propis de la disciplina per analitzar i interpretar processos i fets del passat, reconeixent la causalitat múltiple, el canvi i la continuïtat, i la relació entre passats i presents.",
+      "text": "Aplicar els procediments de la recerca històrica a partir de la formulació de preguntes i l'anàlisi de fonts, per interpretar el passat, formar-se un criteri propi a partir del contrast d'informacions i desenvolupar el pensament crític.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA1.1",
-            "text": "Explicar les característiques de la historiografia i el mètode històric, diferenciant les fonts primàries de les secundàries i aplicant procediments d'anàlisi crítica."
+            "text": "Plantejar-se preguntes i hipòtesis sobre fets o fenòmens històrics, seleccionar, analitzar i obtenir informació de diferents fonts per interpretar el passat de manera crítica, aportant arguments i dades contrastats."
           },
           {
             "codi": "CA1.2",
-            "text": "Construir explicacions causals multicausals sobre processos i fets, utilitzant conceptes temporals com canvi, continuïtat, durada i simultaneïtat."
+            "text": "Comunicar i transferir els coneixements adquirits mitjançant recursos expressius que incorporin formats i llenguatges diversos i la presentació de la informació en mitjans i entorns digitals, així com usar adequadament el vocabulari específic de la història contemporània mitjançant la lectura activa, l'elaboració de textos escrits, les intervencions orals i les produccions audiovisuals,"
           },
           {
             "codi": "CA1.3",
-            "text": "Elaborar narratives històriques argumentades, incorporant perspectives diverses i respectant el context de cada època."
+            "text": "Demostrar la comprensió integrada de sabers i mostrar una actitud participativa en el marc de l'exercici d'una ciutadania democràtica."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Interpretar i valorar críticament fonts primàries i secundàries de naturalesa diversa (textuals, estadístiques, cartogràfiques, iconogràfiques) per construir explicacions històriques argumentades i rigoroses.",
+      "text": "Analitzar de forma crítica i comparar els diferents règims polítics de la contemporaneïtat i la construcció de l'estat de dret per participar de manera respectuosa i compromesa en activitats comunitàries que promoguin la convivència, la cohesió social i l'equitat, posant en valor els principis democràtics.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA2.1",
-            "text": "Analitzar i interpretar fonts primàries textuals —discursos, tractats, constitucions, premsa— situant-les en el seu context de producció i avaluant la seva fiabilitat."
+            "text": "Reconèixer el llegat democràtic i les accions a favor de la llibertat identificant i comparant els diferents règims polítics des de la fallida de la monarquia absoluta i els inicis de l'estat liberal fins a l'actualitat, i l'evolució de les seves institucions i lleis."
           },
           {
             "codi": "CA2.2",
-            "text": "Llegir i interpretar mapes històrics, gràfics estadístics i dades demogràfiques, extraient-ne informació rellevant per a la comprensió dels processos estudiats."
+            "text": "Identificar i valorar de manera crítica la transició cap a la democràcia, analitzant les ruptures i les continuïtats, mitjançant l'estudi de les memòries plurals."
           },
           {
             "codi": "CA2.3",
-            "text": "Analitzar imatges, obres d'art, cartells i fotografies com a fonts històriques, identificant la intenció comunicativa i el context sociopolític."
+            "text": "Valorar de manera crítica la potencialitat del sistema democràtic actual i els reptes pendents, aportant possibles solucions a les problemàtiques actuals."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Comprendre i explicar els processos de crisi de l'Antic Règim, les revolucions liberals i nacionals del segle XIX i la configuració del món contemporani, identificant els seus actors, causes i conseqüències.",
+      "text": "Identificar la pluralitat nacional, cultural i lingüística per respectar els sentiments de pertinença, l'existència d'identitats múltiples i desenvolupar l'empatia i el respecte com a base de la convivència en una societat democràtica.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA3.1",
-            "text": "Explicar les causes de la crisi de l'Antic Règim i les revolucions liberals (americana i francesa), relacionant-les amb les idees il·lustrades i els canvis socioeconòmics."
+            "text": "Identificar els diferents processos polítics, socials i culturals que han tingut lloc al llarg de la història en la formació de l'Estat i en la construcció de les diferents nacionalitats i, específicament, en l'evolució del catalanisme."
           },
           {
             "codi": "CA3.2",
-            "text": "Analitzar les transformacions que va comportar la Revolució Industrial, identificant les seves fases, els seus motors i les seves conseqüències socials i econòmiques."
-          },
-          {
-            "codi": "CA3.3",
-            "text": "Descriure els moviments nacionals i liberals del segle XIX, l'extensió del constitucionalisme i la formació dels estats nació a Europa i Amèrica."
-          },
-          {
-            "codi": "CA3.4",
-            "text": "Relacionar el moviment obrer i les ideologies socialistes amb les transformacions socials del segle XIX i els conflictes de classe."
+            "text": "Reconèixer i identificar les identitats múltiples existents als territoris per entendre que el respecte dels diferents sentiments de pertinença és la base d'una convivència pacífica en el marc d'un sistema democràtic i plural."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Analitzar els processos d'imperialisme, les tensions internacionals i els conflictes bèl·lics del segle XX, especialment les dues guerres mundials, reconeixent-ne les causes estructurals, el desenvolupament i les transformacions que van generar.",
+      "text": "Analitzar l'evolució econòmica de l'Estat espanyol i els seus efectes, relacionar-la amb la desigualtat social i territorial, percebre la natura dels canvis en el món actual i actuar amb criteris de sostenibilitat i de manera crítica i compromesa per a la millora de la societat i de l'entorn.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar les causes i conseqüències del colonialisme i l'imperialisme del darrer terç del segle XIX, identificant les motivacions econòmiques, polítiques i ideològiques."
+            "text": "Analitzar l'evolució econòmica de l'Estat espanyol, els seus diferents ritmes i cicles de creixement, en el context dels països del seu entorn."
           },
           {
             "codi": "CA4.2",
-            "text": "Explicar les causes de la Primera Guerra Mundial, el seu desenvolupament i les transformacions del mapa europeu que va generar, valorant el paper dels tractats de pau."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Comprendre la crisi dels anys trenta, les causes i conseqüències de la gran depressió econòmica i l'auge dels feixismes i el nazisme."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Analitzar les causes, el desenvolupament i les conseqüències de la Segona Guerra Mundial, incloent-hi l'Holocaust i les seves implicacions ètiques i polítiques."
+            "text": "Identificar les conseqüències del creixement econòmic, en els contextos històrics i actualment, analitzant críticament la idea de progrés i valorant els seus efectes pel que fa a la desigualtat social, els desequilibris territorials, la degradació ambiental i les relacions de dependència, reflectint actituds en favor dels objectius de desenvolupament sostenible i comportaments"
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "text": "Comprendre i analitzar el món bipolar de la Guerra Freda, els processos de descolonització i la configuració geopolítica del segle XX, relacionant-los amb les tensions i conflictes del món actual.",
+      "text": "Analitzar la societat espanyola, els canvis i les continuïtats al llarg del temps, en relació amb l'evolució de la població, els nivells i les formes de vida i treball i els moviments i conflictes socials, per valorar els progressos i les limitacions per avançar en l'equitat, la justícia i la cohesió social.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA5.1",
-            "text": "Explicar els orígens i la lògica de la Guerra Freda, identificant els blocs geopolítics, les aliances i els principals conflictes indirectes."
+            "text": "Descriure les transformacions socials i les diferents maneres d'organització i participació política que s'han produït del pas de l'Antic Règim a la nova societat de classes, analitzant el sorgiment i l'evolució del concepte de ciutadania i les noves formes de relació social, identificant les desigualtats i la concentració del poder en determinats grups socials."
           },
           {
             "codi": "CA5.2",
-            "text": "Analitzar els processos de descolonització d'Àsia i Àfrica, identificant les seves causes, les lluites d'alliberament i les conseqüències per als nous estats independents."
+            "text": "Analitzar de manera multicausal l'evolució demogràfica de l'Estat espanyol, la desigual distribució de la població i el paper de les migracions interiors i exteriors i els exilis en la història contemporània d'Espanya."
           },
           {
             "codi": "CA5.3",
-            "text": "Comprendre la construcció europea, des dels seus orígens als anys cinquanta fins a la Unió Europea actual, valorant els seus assoliments i reptes."
+            "text": "Caracteritzar el naixement i l'evolució del moviment obrer durant els segles XIX i XX, interpretant les causes de la conflictivitat social i laboral i la seva articulació en moviments socials i polítics."
           },
           {
             "codi": "CA5.4",
-            "text": "Explicar la caiguda del comunisme, la dissolució de l'URSS i la fi de la Guerra Freda, analitzant les seves causes i les conseqüències geopolítiques mundials."
+            "text": "Deduir, per mitjà de l'estudi crític de notícies i dades estadístiques, l'evolució de la societat, identificant els èxits i els retrocessos experimentats i les mesures adoptades per les institucions fins al present, l'evolució dels nivells de vida i de benestar, així com els límits i reptes de futur, des d'una perspectiva solidària a favor dels col·lectius més vulnerables."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "text": "Analitzar i valorar els reptes i transformacions del món actual del segle XXI, inclosos la globalització, els conflictes geopolítics, la crisi mediambiental i els reptes de la democràcia, construint una visió crítica i compromesa del present.",
+      "text": "Analitzar críticament el paper de les creences i les ideologies en l'evolució de l'articulació social, en l'ús del poder i en la configuració d'identitats i projectes polítics, per comprendre la complexitat de la contemporaneïtat i per valorar i respectar la convivència en una societat plural i democràtica.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar les transformacions del món actual derivades de la globalització econòmica, cultural i tecnològica, identificant desigualtats i desequilibris."
+            "text": "Generar opinions argumentades, debatre i transferir idees i coneixements sobre la funció que han exercit les diferents ideologies a l'articulació social i política de l'Espanya contemporània, identificant les principals cultures polítiques que s'han anat succeint, les formes d'organització i els diferents projectes polítics que representaven i expressant actituds respectuoses davant les idees"
           },
           {
             "codi": "CA6.2",
-            "text": "Explicar els principals conflictes geopolítics del segle XXI, incloent-hi el terrorisme, les guerres regionals i les crisis migratòries."
+            "text": "Emprar el rigor metodològic de la història en l'estudi de les grans reformes estructurals que va emprendre la Segona República, identificant-ne els èxits i les reaccions antidemocràtiques que van derivar en el cop d'estat i l'esclat de la Guerra Civil, i en l'estudi del marc conceptual sobre els sistemes"
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE7",
+      "text": "Analitzar les dinàmiques d'interdependència entre diferents agents en el context d'un món globalitzat per avalar els compromisos de cooperació, promoure actituds solidàries i proposar alternatives a les problemàtiques locals i globals basades en la cultura de la pau i en la consecució d'un món més solidari i sostenible.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA7.1",
+            "text": "Assenyalar els reptes globals i els principals compromisos de cooperació en l'esfera internacional, així com els que emanen d'una ciutadania europea responsable i solidària."
           },
           {
-            "codi": "CA6.3",
-            "text": "Valorar els reptes de la democràcia liberal en el context actual, analitzant el populisme, la desinformació i la crisi de les institucions."
+            "codi": "CA7.2",
+            "text": "Plantejar propostes d'acció que fomentin una actitud solidària i pacífica i alternatives davant de les problemàtiques que es viuen actualment a escala local, europea i global."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE8",
+      "text": "Analitzar els processos i els fenòmens històrics des de la perspectiva de gènere i la investigació sobre el moviment feminista, per visibilitzar-ne la presència dins la història, promoure actituds en defensa de la igualtat i rebutjar qualsevol forma de discriminació i violència.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA8.1",
+            "text": "Introduir la perspectiva de gènere en l'observació i l'anàlisi de la realitat històrica i actual, identificant els mecanismes de dominació que han generat i mantingut la desigualtat entre homes i dones i l'assignació de rols de gènere i que han relegat les dones a un paper subordinat a la societat."
           },
           {
-            "codi": "CA6.4",
-            "text": "Reflexionar sobre la crisi mediambiental i els reptes del desenvolupament sostenible com a fenòmens d'abast global amb causes i conseqüències históriques."
+            "codi": "CA8.2",
+            "text": "Reconèixer els moviments, les causes i els lideratges en pro de l'equitat de gènere i d'opció afectivosexual en l'època contemporània i les aportacions de les dones en diferents àmbits socials, econòmics, polítics i culturals."
+          },
+          {
+            "codi": "CA8.3",
+            "text": "Participar en debats i projectes o accions de defensa de l'equitat de gènere i de rebuig de qualsevol manifestació de discriminació i violència per mitjà de propostes d'actuació."
+          }
+        ]
+      }
+    },
+    {
+      "codi": "CE9",
+      "text": "Analitzar el llegat cultural i patrimonial per valorar-lo com a expressió de les memòries plurals, individuals i col·lectives i contribuir a la seva recuperació, conservació i promoció com a element conformador de les identitats i cohesionador de la comunitat.",
+      "criteris_avaluacio": {
+        "BAT1": [
+          {
+            "codi": "CA9.1",
+            "text": "Elaborar treballs d'indagació i recerca, iniciant-se en la metodologia històrica i la historiografia, generant productes relacionats amb la memòria col·lectiva sobre esdeveniments, personatges o elements patrimonials d'interès social o cultural de l'entorn local, posant en valor el patrimoni històric i considerant-lo un bé comú que s'ha de protegir."
+          },
+          {
+            "codi": "CA9.2",
+            "text": "Participar en accions, recerques i projectes de recuperació de la memòria històrica a partir de la recollida de fonts directes i indirectes i d'arxius personals, locals i institucionals."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r": {},
-    "2n": {
-      "revolucions_i_liberalisme": [
-        "La historiografia: definició, escoles historiogràfiques i debats actuals.",
-        "Tipologia de fonts primàries i secundàries: textuals, visuals, cartogràfiques i estadístiques.",
-        "Procediments d'anàlisi crítica de fonts: context, autor, destinatari i intencionalitat.",
-        "L'Antic Règim: estructura social estamental, monarquia absoluta i economia agrària.",
-        "La Il·lustració: idees de raó, progrés, llibertat i separació de poders.",
-        "La Revolució Americana: causes, independència i construcció de la república.",
-        "La Revolució Francesa: fases, actors socials, Declaració dels Drets de l'Home i impacte europeu.",
-        "L'era napoleònica: conquestes, difusió dels ideals liberals i restauració de l'ordre.",
-        "La Revolució Industrial: Primera Revolució (carbó, tèxtil, vapor) i Segona Revolució (electricitat, químic, petroli).",
-        "Transformacions socials de la industrialització: burgesia, proletariat i condicions de treball.",
-        "El moviment obrer: sindicalisme, marxisme, anarquisme i Internacionals obreres.",
-        "Liberalisme polític i econòmic: doctrina, partits liberals i constitucionalisme.",
-        "Romanticisme i nacionalisme: cultures nacionals, llenguatge i construcció d'identitats.",
-        "Formació dels estats nació: unificació italiana, unificació alemanya i desintegració d'imperis.",
-        "La Restauració i el Congrés de Viena: equilibri europeu i moviments reaccionaris.",
-        "Les revolucions de 1830 i 1848: causes, desenvolupament i fracassos.",
-        "Catalunya i Espanya al segle XIX: liberalisme, carlisme, Restauració i Renaixença.",
-        "El sufragi i l'extensió dels drets polítics: del sufragi censatari al universal masculí."
-      ],
-      "imperialisme_i_primera_guerra": [
-        "L'imperialisme: definició, motivacions econòmiques, polítiques, estratègiques i ideològiques.",
-        "La Conferència de Berlín (1884-85) i el repartiment d'Àfrica.",
-        "L'expansió colonial a Àsia: Índia britànica, Indoxina francesa i la Xina.",
-        "Conseqüències del colonialisme per als pobles colonitzats: explotació, resistències i transformació cultural.",
-        "El Japó Meiji: modernització, expansió i imperialisme asiàtic.",
-        "Les tensions europees a finals del segle XIX: aliances, armamentisme i crisi dels Balcans.",
-        "Causes de la Primera Guerra Mundial: imperialisme, nacionalisme, aliances i l'atemptat de Sarajevo.",
-        "El desenvolupament de la Gran Guerra: front occidental, front oriental i guerra de trinxeres.",
-        "Noves tecnologies militars: gas, tancs, aviació i guerra submarina.",
-        "El front home i el paper de les dones en la rereguarda durant la guerra.",
-        "L'entrada dels EUA i la derrota dels Imperis Centrals (1917-1918).",
-        "La Revolució Russa de 1917: febrer i octubre, Lenin i la instauració del règim bolxevic.",
-        "Els Tractats de Pau: Versalles, Saint-Germain, Trianon i el nou mapa d'Europa.",
-        "La Societat de Nacions: objectius, estructura i limitacions.",
-        "Conseqüències humanes i materials de la guerra: baixes, destrossa i trauma col·lectiu.",
-        "Canvis territorials i nous estats a Europa Central i Oriental.",
-        "La Revolució Russa i la creació de l'URSS: bolxevics, guerra civil i NEP."
-      ],
-      "entre_guerres_i_segona_guerra": [
-        "El període d'entreguerres: inestabilitat política i econòmica a Europa.",
-        "Els anys vint: boom econòmic, societat de masses i cultura de la modernitat.",
-        "La crisi del 29: causes, Dijous Negre, propagació mundial i conseqüències.",
-        "El New Deal de Roosevelt: intervencionisme estatal i recuperació econòmica als EUA.",
-        "Auge dels feixismes: Itàlia de Mussolini, causes i característiques del feixisme.",
-        "El nazisme: Hitler, ideologia racial, antisemitisme i presa del poder a Alemanya.",
-        "L'Alemanya nazi: instruments de control, propaganda de Goebbels i repressió.",
-        "Els règims autoritaris a Europa: Hongria, Polònia, Portugal i Espanya (Primo de Rivera i Franco).",
-        "La Segona República Espanyola i la Guerra Civil (1936-1939): causes, bàndols i internacionalització.",
-        "L'URSS de Stalin: col·lectivització, plans quinquennals i terror estalinista.",
-        "Les polítiques d'apazivament: München (1938) i la fallida de la seguretat col·lectiva.",
-        "Causes de la Segona Guerra Mundial: rearmament alemany, expansionisme i fallida diplomàtica.",
-        "El desenvolupament de la Segona Guerra Mundial: Blitzkrieg, front atlàntic i Operació Barbarroja.",
-        "La guerra del Pacífic: Pearl Harbor, expansió japonesa i la bomba atòmica.",
-        "L'Holocaust: antisemitisme, legislació racial, camps de concentració i extermini.",
-        "La resistència i la col·laboració a l'Europa ocupada.",
-        "La derrota de l'Eix i la fi de la guerra: desembarcament de Normandia, rendicions i conferències de pau.",
-        "Les conferències de pau: Ialta, Potsdam i la nova arquitectura internacional.",
-        "Conseqüències humanes, materials i polítiques de la Segona Guerra Mundial."
-      ],
-      "guerra_freda": [
-        "Orígens de la Guerra Freda: desconfiança entre EUA i URSS, i la divisió del món.",
-        "La Doctrina Truman i el Pla Marshall: contenció del comunisme i reconstrucció europea.",
-        "El Bloc Oriental: satèl·lits soviètics, COMECON i Pacte de Varsòvia.",
-        "El Bloc Occidental: aliança atlàntica, OTAN i hegemonia nord-americana.",
-        "La crisi de Berlín i la construcció del mur (1948, 1961).",
-        "La guerra de Corea (1950-1953): primer conflicte directe de la Guerra Freda.",
-        "La carrera nuclear: bomba atòmica, bomba d'hidrogen i equilibri del terror.",
-        "La carrera espacial: Sputnik, Apol·lo 11 i la competició tecnológica.",
-        "La crisi dels míssils de Cuba (1962): moment de màxima tensió i negociació.",
-        "El moviment de no-alineats: Conferència de Bandung i Tercer Món.",
-        "La guerra de Vietnam: intervenció nord-americana, resistència vietnamita i moviment antimilitarista.",
-        "La Revolució Cubana: Castro, el Che Guevara i l'expansió del model revolucionari a Llatinoamèrica.",
-        "La Primavera de Praga (1968): Txecoslovàquia i la Doctrina Bréjnev.",
-        "La distensió (détente): acords SALT, Helsinki i la coexistència pacífica.",
-        "La segona Guerra Freda: invasió d'Afganistan i l'era Reagan.",
-        "La caiguda del comunisme a Europa de l'Est: revolucions de 1989 i el mur de Berlín.",
-        "La dissolució de l'URSS (1991): Gorbatxov, Glasnost, Perestroika i fi de la Guerra Freda.",
-        "Els processos de descolonització: causes, vies d'independència i postcolonialisme.",
-        "La descolonització d'Àsia: Índia, Indoxina i guerres d'alliberament.",
-        "La descolonització d'Àfrica: moviments independentistes, neocolonialisme i conflictes.",
-        "La construcció europea: CECA, CEE, Tractat de Maastricht i Unió Europea.",
-        "La transició democràtica a Espanya: mort de Franco, reforma política i Constitució del 1978."
-      ],
-      "mon_actual_s_xxi": [
-        "La globalització: definició, dimensions econòmica, cultural i tecnològica.",
-        "El nou ordre mundial unipolar: hegemonia nord-americana i multipolaritat emergent.",
-        "L'11-S i la guerra contra el terror: Al-Qaeda, guerres d'Afganistan i Iraq.",
-        "El terrorisme global: causes, organitzacions i repercussions geopolítiques.",
-        "L'auge de la Xina: creixement econòmic, model polític i rivalitat amb els EUA.",
-        "La crisi financera del 2008: causes, conseqüències globals i polítiques d'austeritat.",
-        "Les primaveres àrabs (2010-2012): causes, revoltes i resultats diversos.",
-        "La guerra de Síria i la crisi de refugiats: causes, actors i impacte humanitari.",
-        "El conflicte israelopalestí: orígens, fases i situació actual.",
-        "L'auge dels populismes: causes, actors destacats i reptes per a la democràcia.",
-        "La desinformació i les xarxes socials: impacte en la política i en la democràcia.",
-        "La crisi climàtica: evidències científiques, Acords de París i moviments socials.",
-        "Els Objectius de Desenvolupament Sostenible (ODS) i l'Agenda 2030.",
-        "Les desigualtats globals: Nord-Sud, pobresa i flux de riquesa.",
-        "Les migracions contemporànies: causes, rutes i repercussions polítiques i socials.",
-        "La Rússia de Putin: autoritarisme, expansionisme i guerra d'Ucraïna.",
-        "La pandèmia de la COVID-19: impacte global, respostes polítiques i conseqüències.",
-        "El futur de la democràcia liberal: reptes, renovació i alternatives."
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar l'aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos i circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds, amb les capacitats que sustenten l'enfocament competencial dels aprenentatges, la qual cosa modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Aproximació a la història - Ús de fonts històriques diverses per a la construcció del coneixement sobre el passat recent. Contrast i valoració crítica d'informacions diferents, incloent-hi les dels mitjans de comunicació, sobre un mateix fet o fenomen, valorant solucions i alternatives als problemes. - Anàlisi de textos, interpretació i elaboració de mapes, esquemes i síntesis, representació de gràfics i interpretació d'imatges a través de mitjans digitals accessibles. - Identificació dels components econòmics, socials, polítics i culturals que intervenen en els processos històrics i anàlisi de les interrelacions que s'hi produeixen per elaborar explicacions sobre els fets. Anàlisi de les interpretacions historiogràfiques sobre determinats processos i esdeveniments rellevants de la història d'Espanya. - Aplicació de metodologies de recerca en l'anàlisi i la interpretació de problemes socials rellevants, individualment i en equip, amb l'ús específic del lèxic històric. Aplicació de l'argumentació històrica en la interpretació de fets i fenòmens. - Ús de mitjans, gèneres i formats digitals diversos per crear produccions personals i comunicar resultats de recerques. Ús de recursos propis de l'audiovisual, el cinema i la fotografia en la creació de productes digitals en la narració de fets, en l'expressió de sentiments i en la denúncia de situacions de violència o discriminació que afectin col·lectius i persones. - Maneig i utilització segura de dispositius tecnològics, aplicacions informàtiques i plataformes digitals, valorant les seves aportacions a la història en la cerca, el tractament de la informació i l'elaboració de coneixement. - Cerca, tractament de la informació, ús de dades en entorns digitals, interpretació de les fonts i avaluació de la fiabilitat. Identificació de les notícies falses i enganyoses en els mitjans de comunicació. - Elaboració de judicis propis i argumentats davant problemes d'actualitat contextualitzats històricament i establiment de vincles entre el passat i el present. Defensa i exposició crítica per mitjà de presentacions i debats. - Aplicació dels mètodes de recerca de les ciències socials en l'anàlisi problematitzada i multicausal de fenòmens de l'entorn i dels seus vincles amb fenòmens globals. Relació entre la cronologia històrica general i la història personal, familiar i comunitària. - Valoració del paper de les persones, individualment i col·lectivament, com a subjectes de la història i exercitació de l'empatia històrica, especialment amb col·lectius minoritzats. Societats en el temps - Identificació de les causes i les conseqüències dels fets històrics i dels principals processos d'evolució i canvi anteriors a l'època contemporània que permetin l'anàlisi de situacions posteriors, així com les particularitats de l'evolució històrica de Catalunya. Valoració argumentada de les continuïtats i dels canvis en la societat d'època contemporània respecte de l'Antic Règim. - Anàlisi i sistematització dels fets polítics més rellevants de la construcció de l'estat liberal a Espanya. Identificació de l'impacte de la guerra del Francès i anàlisi dels punts més significatius de la Constitució de Cadis, en comparació amb altres textos constitucionals posteriors. - Anàlisi del procés de domini colonial i sotmetiment de les poblacions i de l'emancipació de les colònies a llarg dels segles XIX i XX. Valoració de les conseqüències de la colonització sobre les poblacions autòctones fins a l'actualitat a través d'alguns casos o situacions. - Interpretació dels canvis en les condicions de vida dels diferents grups socials aplicant la perspectiva de gènere. Debat sobre els mecanismes de dominació, rols de gènere, espais d'activitat i escenaris de sociabilitat de les dones en alguns episodis històrics de l'entorn proper. - Interpretació del procés d'industrialització al segle XIX i de les transformacions econòmiques, demogràfiques, socials i culturals. Caracterització del naixement i de l'evolució del moviment obrer, en la seva pluralitat de manifestacions. Identificació de les singularitats de la industrialització i de la lluita obrera a Catalunya. - Identificació de l'evolució de la distribució demogràfica de la població a Espanya i Catalunya a partir d'exemples locals: de la societat agrària a l'èxode rural. - Anàlisi i caracterització del règim polític de la Restauració i de la seva crisi, així com de l'oposició al sistema i el sorgiment de noves cultures polítiques: de la Primera República a la Segona República. - Interpretació del procés de recuperació de la identitat nacional i dels orígens i de l'evolució del catalanisme polític i de les realitzacions de la Mancomunitat de Catalunya. - Sistematització de les fases polítiques de la Segona República i valoració argumentada de la política reformista i les reaccions antidemocràtiques. Anàlisi de l'evolució política i de les realitzacions de la Generalitat republicana. - Anàlisi del context de la insurrecció militar i de les fases principals de la Guerra Civil. Establiment de relacions amb la situació internacional: l'auge dels totalitarismes i els feixismes, la Segona Guerra Mundial i l'Holocaust. - Anàlisi de la situació de Catalunya durant el conflicte: guerra, revolució i situació de la població civil a la rereguarda. Explicació argumentada del desenllaç de la guerra i de les conseqüències del conflicte: repressió, exili i resistència. - Identificació dels elements que defineixen la dictadura franquista i sistematització de l'evolució política, econòmica i social del franquisme a Catalunya. Anàlisi de la dictadura franquista en relació amb l'àmbit europeu i internacional. Interpretació del paper de les migracions internes i externes. - Anàlisi de la repressió política, ideològica i social en el conjunt d'Espanya i de la repressió identitària. Descripció i valoració de l'evolució de les diverses formes d'oposició al règim franquista i reconeixement del paper de la memòria històrica de la lluita per la democràcia. - Recerca sobre canvis i continuïtats en la vida quotidiana, la cultura i les mentalitats a Catalunya i Espanya durant el franquisme. Reflexió sobre la situació de les dones durant el franquisme i en relació amb altres etapes històriques. Reptes del món actual - Caracterització dels fets més rellevants de la transició política cap a l'establiment d'un estat democràtic: limitacions i reptes. Coneixement dels principals ordenaments jurídics d'àmbit autonòmic, estatal, europeu i internacional com a garants de drets i llibertats per a l'exercici de la ciutadania. Anàlisi dels aspectes rellevants de la Constitució Espanyola i de l'Estatut d'autonomia de Catalunya. - Descripció del model d'org"
     }
-  },
-  "blocs_sabers": [
-    "revolucions_i_liberalisme",
-    "imperialisme_i_primera_guerra",
-    "entre_guerres_i_segona_guerra",
-    "guerra_freda",
-    "mon_actual_s_xxi"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 119,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

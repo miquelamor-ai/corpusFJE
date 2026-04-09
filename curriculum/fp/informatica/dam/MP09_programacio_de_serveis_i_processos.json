@@ -1,0 +1,284 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "programació de serveis i processos",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "seguretat i criptografia",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Protegeix les aplicacions i les dades definint i aplicant criteris de seguretat en l’accés, emmagatzematge i transmissió de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica i aplica principis i pràctiques de programació segura."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza les principals tècniques i pràctiques criptogràfiques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Defineix i implanta polítiques de seguretat per limitar i controlar l’accés dels usuaris a les aplicacions desenvolupades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza esquemes de seguretat basats en rols."
+              },
+              {
+                "codi": "CA15",
+                "text": "Usa algoritmes criptogràfics per protegir l’accés a la informació emmagatzemada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica mètodes per assegurar la informació transmesa."
+              },
+              {
+                "codi": "CA17",
+                "text": "Desenvolupa aplicacions que utilitzin sòcols segurs per a la transmissió d’informació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Depura i documenta les aplicacions desenvolupades."
+              }
+            ],
+            "continguts": []
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "processos i fils",
+        "hores": 37,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions compostes per diversos processos reconeixent i aplicant principis de programació paral·lela.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les característiques de la programació concurrent i els seus àmbits d’aplicació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les diferències entre programació paral·lela i programació distribuïda, els seus avantatges i inconvenients."
+              },
+              {
+                "codi": "CA13",
+                "text": "Analitza les característiques dels processos i de la seva execució per al sistema operatiu."
+              },
+              {
+                "codi": "CA14",
+                "text": "Caracteritza els fils d’execució i en descriu la relació amb els processos."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza classes per programar aplicacions que creïn subprocessos."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza mecanismes per sincronitzar i obtenir el valor retornat pels subprocessos iniciats."
+              },
+              {
+                "codi": "CA17",
+                "text": "Desenvolupa aplicacions que gestionin i utilitzin processos per a l’execució de diverses tasques en paral·lel."
+              },
+              {
+                "codi": "CA18",
+                "text": "Depura i documenta les aplicacions desenvolupades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa aplicacions compostes per diversos fils d’execució analitzant i aplicant llibreries específiques del llenguatge de programació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica situacions en què sigui útil l’ús de diversos fils en un programa."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix els mecanismes per crear, iniciar i finalitzar fils."
+              },
+              {
+                "codi": "CA23",
+                "text": "Programa aplicacions que implementin diversos fils."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica els possibles estats d’execució d’un fil i programa aplicacions que els gestionin."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza mecanismes per compartir informació entre diversos fils d’un mateix procés."
+              },
+              {
+                "codi": "CA26",
+                "text": "Desenvolupa programes formats per diversos fils sincronitzats mitjançant tècniques específiques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Estableix i controla la prioritat de cadascun dels fils d’execució."
+              },
+              {
+                "codi": "CA28",
+                "text": "Depura i documenta els programes desenvolupats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació multiprocés",
+                "items": [
+                  "Caracterització de la programació concurrent, paral·lela i distribuïda.",
+                  "Identificació de les diferències entre els paradigmes de programació paral·lela i distribuïda.",
+                  "Identificació dels estats d’un procés.",
+                  "Executables. Processos. Serveis.",
+                  "Caracterització dels fils i relació amb els processos.",
+                  "Programació d’aplicacions multiprocés.",
+                  "Sincronització i comunicació entre processos.",
+                  "Gestió de processos i desenvolupament d’aplicacions amb finalitat de computació paral·lela.",
+                  "Depuració i documentació d’aplicacions."
+                ]
+              },
+              {
+                "bloc": "Programació multifil",
+                "items": [
+                  "Elements relacionats amb la programació de fils. Llibreries i classes.",
+                  "Gestió de fils.",
+                  "Programació d’aplicacions multifil.",
+                  "Estats d’un fil. Canvis d’estat.",
+                  "Compartició d’informació entre fils i gestió de recursos compartits pels fils.",
+                  "Programes multifil, que permetin la sincronització entre ells.",
+                  "Gestió de fils per part del sistema operatiu. Planificació i accés a la seva prioritat.",
+                  "Depuració i documentació d’aplicacions."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "sòcols i serveis",
+        "hores": 37,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Programa mecanismes de comunicació en xarxa emprant sòcols i analitzant l’escenari d’execució.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica escenaris que necessiten establir comunicació en xarxa entre diverses aplicacions."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els rols de client i de servidor i les seves funcions associades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix llibreries i mecanismes del llenguatge de programació que permetin programar aplicacions en xarxa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza el concepte de sòcol, els seus tipus i característiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza sòcols per programar una aplicació client que es comuniqui amb un servidor."
+              },
+              {
+                "codi": "CA16",
+                "text": "Desenvolupa una aplicació servidor en xarxa i en verifica el funcionament."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa aplicacions que ofereixen serveis en xarxa, utilitzant llibreries de classes i aplicant criteris d’eficiència i disponibilitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Analitza llibreries que permetin implementar protocols estàndard de comunicació en xarxa."
+              },
+              {
+                "codi": "CA22",
+                "text": "Programa clients de protocols estàndard de comunicacions i en verifica el funcionament."
+              },
+              {
+                "codi": "CA23",
+                "text": "Desenvolupa i prova serveis de comunicació en xarxa."
+              },
+              {
+                "codi": "CA24",
+                "text": "Analitza els requeriments necessaris per crear serveis capaços de gestionar diversos clients concurrents."
+              },
+              {
+                "codi": "CA25",
+                "text": "Incorpora mecanismes per possibilitar la comunicació simultània de diversos clients amb el servei."
+              },
+              {
+                "codi": "CA26",
+                "text": "Verifica la disponibilitat del servei."
+              },
+              {
+                "codi": "CA27",
+                "text": "Depura i documenta les aplicacions desenvolupades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació de comunicacions en xarxa",
+                "items": [
+                  "Comunicació entre aplicacions.",
+                  "Rols client i servidor.",
+                  "Elements de programació d’aplicacions en xarxa. Llibreries.",
+                  "Sòcols.",
+                  "Creació de sòcols.",
+                  "Enllaçament i establiment de connexions.",
+                  "Utilització de sòcols per a la transmissió i recepció d’informació.",
+                  "Programació d’aplicacions client i servidor.",
+                  "Utilització de fils en la programació d’aplicacions en xarxa."
+                ]
+              },
+              {
+                "bloc": "Generació de serveis en xarxa",
+                "items": [
+                  "Anàlisi de llibreries de classes i components, que utilitzant objectes predefinits permetin la implementació de protocols estàndard de comunicació en xarxa a nivell d’aplicació (telnet, ftp, http, pop3, smtp, entre d’altres).",
+                  "Programació i verificació d’aplicacions client de protocols estàndard.",
+                  "Programació de servidors, que permetin l’establiment de connexions, la transmissió d’informació i la finalització de connexions.",
+                  "Anàlisi de requeriments per a servidors concurrents.",
+                  "Implementació de comunicacions simultànies.",
+                  "Verificació de la disponibilitat del servei.",
+                  "Depuració i documentació d’aplicacions."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MI",
+    "titol_cicle": "Mecatrònica Industrial",
+    "grau": "desconegut",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/228/2016, de 24 d'agost, per la qual s'estableix el currículum del cicle formatiu de grau superior de mecatrònica industrial.",
+    "data_decret": "2016-08-24",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "representació gràfica de sistemes mecatrònics",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "representació gràfica",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dibuixar productes mecànics, aplicant normes de representació gràfica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Selecciona el sistema de representació gràfica més adequat per representar el producte, depenent de la informació que es desitgi mostrar."
+              },
+              {
+                "codi": "CA12",
+                "text": "Prepara els instruments de representació i els suports necessaris."
+              },
+              {
+                "codi": "CA13",
+                "text": "Elabora un croquis a mà alçada segons les normes de representació gràfica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Tria l'escala en funció de la mida dels objectes que es representaran."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza les vistes mínimes necessàries per visualitzar el producte."
+              },
+              {
+                "codi": "CA16",
+                "text": "Representa els detalls, identificant-ne l'escala i la posició a la peça."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza els talls i les seccions necessaris per representar totes les parts ocultes del producte."
+              },
+              {
+                "codi": "CA18",
+                "text": "Representa especejaments de conjunt.1.9 Té en compte les normes de representació gràfica per determinar el tipus i el gruix de línia, segons el que representa.1.10 Plega plànols, seguint normes específiques. 2. Estableix característiques de productes mecànics, interpretant especificacions tècniques segons la normativa. Criteris d'avaluació2.1 Selecciona el tipus d'acotació, tenint en compte la funció del producte o el seu procés de fabricació.2.2 Representa cotes segons les normes de representació gràfica.2.3 Representa toleràncies dimensionals segons les normes específiques.2.4 Representa símbols normalitzats per definir les toleràncies geomètriques.2.5 Representa en el pla materials, seguint la normativa aplicable.2.6 Representa en el pla tractaments i les seves zones d'aplicació, seguint la normativa aplicable.2.7 Representa elements normalitzats, seguint la normativa aplicable (cargols, passadors i soldadures, entre d'altres). 3. Representa sistemes d'automatització pneumàtics, hidràulics i elèctrics, aplicant normes de representació i especificant la informació bàsica d'equips i d'elements."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Representació de productes mecànics",
+                "items": [
+                  "Tècniques de realització de croquis.",
+                  "Sistemes de representació gràfica. Vistes normalitzades.",
+                  "Normes de dibuix industrial.",
+                  "Simbologia d'elements elèctrics, electrònics i programables.",
+                  "Simbologia de connexions entre components."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "disseny assistit per ordinador (CAD)",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documentació gràfica, utilitzant aplicacions de dibuix assistit per ordinador.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Selecciona opcions i preferències del CAD en funció de les característiques de la representació que s'ha de realitzar."
+              },
+              {
+                "codi": "CA12",
+                "text": "Crea capes de dibuix per facilitar la identificació de les diferents parts de la representació gràfica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Representa objectes en dos i tres dimensions."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza els elements continguts en llibreries específiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Representa les cotes, les toleràncies dimensionals, geomètriques i superficials de la peça o conjunt, seguint la normativa aplicable."
+              },
+              {
+                "codi": "CA16",
+                "text": "Assigna restriccions a les peces per simular el seu muntatge i moviment."
+              },
+              {
+                "codi": "CA17",
+                "text": "Simula la interacció entre les peces d'un conjunt per verificar-ne el muntatge i la funcionalitat."
+              },
+              {
+                "codi": "CA18",
+                "text": "Importa i exporta arxius, possibilitant el treball en grup i la cessió de dades per a altres aplicacions."
+              },
+              {
+                "codi": "CA19",
+                "text": "Imprès i plegament dels plànols, seguint les normes de representació gràfica."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Dissenya prototips i mecanismes dels sistemes mecatrònics, utilitzant programes específics per a la simulació en tres dimensions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona el programari idoni per optimitzar el disseny de sistemes mecatrònics."
+              },
+              {
+                "codi": "CA22",
+                "text": "Idea solucions constructives de sòlids i superfícies."
+              },
+              {
+                "codi": "CA23",
+                "text": "Dissenya els assemblatges dels sistemes mecatrònics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Importa/exporta elements mecatrònics."
+              },
+              {
+                "codi": "CA25",
+                "text": "Actualitza el control de revisions per reduir costos i seleccionar el disseny adequat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Calcula la vida útil dels elements, així com el seu cost de fabricació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Elaboració de documentació gràfica de productes mecatrònics",
+                "items": [
+                  "Coneixement dels tipus de programes de CAD ( 2D i 3D).",
+                  "Configuració del programari. Fitxers de plantilla.",
+                  "Gestió i control de capes i propietat d'objectes.",
+                  "Blocs, atributs, referències externes i llibreries de producte.",
+                  "Ordres de l'entorn del dibuix (2D) dibuix, modificació, referències a objecte i acotació."
+                ]
+              },
+              {
+                "bloc": "Disseny de prototips mecatrònics",
+                "items": [
+                  "Disseny d'elements 3D.",
+                  "Disseny de superfícies 3D.",
+                  "Importació/exportació d'elements 2D (DXF) i 3D (STEP, IGES, etc.)",
+                  "Assemblatge de sistemes i assignació de restriccions.",
+                  "Disseny en explosió.",
+                  "Anàlisi d'esforços dels elements dissenyats.",
+                  "Anàlisi de col·lisions en l'assemblatge.",
+                  "Moviments (lliscament, rodament, pivotat, i d'altres).",
+                  "Assignació de materials i propietats (render).",
+                  "Impressió i plegament de plànols."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

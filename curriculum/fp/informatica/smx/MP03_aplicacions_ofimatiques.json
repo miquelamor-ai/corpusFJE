@@ -3,105 +3,140 @@
     "familia": "fp",
     "cicle_formatiu": "SMX",
     "titol_cicle": "Sistemes Microinformàtics i Xarxes",
-    "familia_professional": "Informàtica i Comunicacions",
     "grau": "mitja",
-    "rd_titol": "RD 1691/2007",
-    "resolucio_cat": "Resolució ENS/1891/2012",
-    "decret": "175/2022",
-    "font": "https://www.boe.es/boe/dias/2007/12/24/pdfs/A52776-52804.pdf",
-    "versio_schema": "1.0",
-    "descripcio": "El mòdul d’Aplicacions Ofimàtiques capacita el tècnic SMX per gestionar i donar suport a les aplicacions de productivitat i col·laboració que utilitzen els usuaris finals en entorns corporatius. Aquesta competència és transversal a qualsevol rol de suport TIC i és fonamental per atendre les consultes i incidències ofimàtiques del dia a dia en empreses de tots els sectors.\n\nEls continguts abracen la suite ofimàtica avançada amb Microsoft Office (Word, Excel, PowerPoint, Outlook) i LibreOffice com a alternativa lliure: tractament avançat de documents, fulls de càlcul amb fórmules complexes, taules dinàmiques i macros bàsiques, presentacions professionals i gestió del correu corporatiu. Les eines col·laboratives en el núvol es treballen amb Microsoft 365 (OneDrive, Teams, SharePoint) i Google Workspace (Drive, Docs, Meet): gestió de fitxers, col·laboració en temps real, videoconferència i calendaris compartits. S’introdueix la gestió de contrasenyes, la seguretat bàsica en el núvol i la migració de dades entre plataformes.\n\nEl mòdul es desenvolupa de manera pràctica, amb exercicis basats en casos d’ús reals d’empresa: creació de documents corporatius, automatització de tasques repetitives amb macros i gestió de projectes col·laboratius. S’incorporen simulacions d’atenció a l’usuari per practicar la resolució d’incidències ofimàtiques en entorn professional."
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
   },
   "modul": {
     "codi": "MP03",
-    "nom": "Aplicacions Ofimàtiques",
-    "hores_totals": 99,
+    "nom": "aplicacions ofimàtiques",
+    "hores_totals": 165,
     "uf": [
       {
         "codi": "UF1",
-        "nom": "Suite ofimàtica avançada",
-        "hores": 66,
+        "nom": "aplicacions ofimàtiques i atenció a l’usuari",
+        "hores": 20,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Elabora documents de text complexos amb processadors de text (Word/Writer) aplicant formats avançats.",
+            "text": "Instal·la i actualitza aplicacions ofimàtiques i corporatives interpretant especificacions i descrivint els passos a seguir en el procés.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'han aplicat estils de paràgraf i caràcter per garantir la coherència visual del document.",
-                "pes_percentual": 20
+                "codi": "CA11",
+                "text": "Proposa solucions de programari."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han creat i gestionat taules de continguts, índexs i references creuades automàticament.",
-                "pes_percentual": 20
+                "codi": "CA12",
+                "text": "Respecta les llicències de programari."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'ha utilitzat la combinació de correspondència (mailing) per generar documents personalitzats en sèrie.",
-                "pes_percentual": 20
+                "codi": "CA13",
+                "text": "Actualitza les aplicacions."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'han inserit i editat imatges, formes, SmartArt i objectes incrustats al document.",
-                "pes_percentual": 20
+                "codi": "CA14",
+                "text": "Identifica i estableix les fases del procés d’instal·lació."
               },
               {
-                "codi": "CA1.5",
-                "text": "S'han protegit documents amb contrasenya i s'han configurat restriccions d'edició.",
-                "pes_percentual": 20
+                "codi": "CA15",
+                "text": "Respecta les especificacions tècniques del procés d’instal·lació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elimina i/o afegeix components de la instal·lació en l’equip."
+              },
+              {
+                "codi": "CA17",
+                "text": "Configura les aplicacions segons els criteris establerts."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta les incidències."
+              },
+              {
+                "codi": "CA19",
+                "text": "Soluciona problemes en la instal·lació o integració amb el sistema informàtic."
               }
-            ]
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Crea fulls de càlcul avançats (Excel/Calc) amb fórmules complexes, gràfics i macros bàsiques.",
+            "text": "Aplica tècniques de suport en l’ús d’aplicacions, identificant i resolent incidències.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'han aplicat fórmules avançades amb funcions lògiques (SI, I, O), de cerca (BUSCARV, ÍNDEX/COINCIDIR) i estadístiques.",
-                "pes_percentual": 20
+                "codi": "CA21",
+                "text": "Elabora guies visuals amb els conceptes bàsics d’ús d’una aplicació."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'han creat i personalitzat gràfics de diferents tipus per representar dades de forma visual.",
-                "pes_percentual": 20
+                "codi": "CA22",
+                "text": "Identifica problemes relacionats amb l’ús d’aplicacions ofimàtiques."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'han aplicat taules dinàmiques per analitzar i resumir conjunts de dades.",
-                "pes_percentual": 20
+                "codi": "CA23",
+                "text": "Identifica problemes relacionats amb virus, programes maliciosos (malware) i cavalls de Troia."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'han enregistrat i editat macros bàsiques en VBA/Basic per automatitzar tasques repetitives.",
-                "pes_percentual": 20
+                "codi": "CA24",
+                "text": "Utilitza manuals d’usuari per instruir en l’ús d’aplicacions."
               },
               {
-                "codi": "CA2.5",
-                "text": "S'han protegit fulls i cel·les per evitar modificacions no autoritzades en documents compartits.",
-                "pes_percentual": 20
+                "codi": "CA25",
+                "text": "Aplica tècniques d’assessorament en l’ús d’aplicacions."
+              },
+              {
+                "codi": "CA26",
+                "text": "Realitza informes d’incidències."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica els procediments necessaris per salvaguardar la informació i la seva recuperació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza els recursos disponibles (documentació tècnica, ajudes en línia, suport tècnic, entre altres) per solucionar incidències."
+              },
+              {
+                "codi": "CA29",
+                "text": "Soluciona les incidències en el temps adequat i amb el nivell de qualitat esperat."
               }
-            ]
-          },
-          {
-            "codi": "RA3",
-            "text": "Dissenya presentacions professionals (PowerPoint/Impress) aplicant principis de comunicació visual.",
-            "criteris_avaluacio": [
+            ],
+            "continguts": [
               {
-                "codi": "CA3.1",
-                "text": "S'han creat presentacions amb plantilles personalitzades i patrons de diapositives coherents.",
-                "pes_percentual": 33
+                "bloc": "Instal·lació d’aplicacions",
+                "items": [
+                  "Tipus d’aplicacions ofimàtiques i corporatives.",
+                  "Tipus de llicències programari.",
+                  "Actualització del programari.",
+                  "Procediments d’instal·lació i configuració.",
+                  "Especificacions tècniques en el procés d’instal·lació.",
+                  "Necessitats dels entorns d’explotació.",
+                  "Configuració i adaptació del programari a l’empresa.",
+                  "Documentació de les incidències en el procés d’implantació.",
+                  "Resolució de problemes en la implantació."
+                ]
               },
               {
-                "codi": "CA3.2",
-                "text": "S'han incorporat animacions, transicions i elements multimèdia (vídeo, àudio) de forma adequada.",
-                "pes_percentual": 34
-              },
-              {
-                "codi": "CA3.3",
-                "text": "S'han exportat presentacions en formats estàndard (PDF, vídeo) per a la seva distribució.",
-                "pes_percentual": 33
+                "bloc": "Tècniques de suport a l’usuari",
+                "items": [
+                  "Elaboració de guies i manuals d’ús d’aplicacions.",
+                  "Identificació dels problemes amb el programari ofimàtic.",
+                  "Identificació dels problemes amb el programari malintencionat.",
+                  "Utilització dels manuals d’usuari per instruir en l’ús d’aplicacions.",
+                  "Tècniques d’assessorament en l’ús d’aplicacions.",
+                  "Realització d’informes d’incidències.",
+                  "Salvaguarda de la informació.",
+                  "Utilització de tots els recursos disponibles per a la resolució d’incidències.",
+                  "Resolució d’incidències en el temps i la qualitat adequats."
+                ]
               }
             ]
           }
@@ -109,58 +144,353 @@
       },
       {
         "codi": "UF2",
-        "nom": "Internet i eines col·laboratives en el núvol",
-        "hores": 33,
+        "nom": "el correu i l’agenda electrònica",
+        "hores": 20,
         "resultats_aprenentatge": [
           {
             "codi": "RA1",
-            "text": "Utilitza eines de correu electrònic i calendari de forma professional en un entorn corporatiu.",
+            "text": "Realitza operacions de gestió del correu i l’agenda electrònica, relacionant-ne les necessitats d’ús amb la configuració.",
             "criteris_avaluacio": [
               {
-                "codi": "CA1.1",
-                "text": "S'ha configurat un client de correu (Outlook/Thunderbird) amb protocols IMAP i SMTP.",
-                "pes_percentual": 25
+                "codi": "CA11",
+                "text": "Descriu els elements que componen un correu electrònic, necessitats bàsiques de gestió del correu."
               },
               {
-                "codi": "CA1.2",
-                "text": "S'han gestionat carpetes, filtres i regles de correu per organitzar la safata d'entrada.",
-                "pes_percentual": 25
+                "codi": "CA12",
+                "text": "Configura diferents tipus de comptes de correu electrònic."
               },
               {
-                "codi": "CA1.3",
-                "text": "S'han compartit calendaris i programat reunions amb eines com Google Calendar o Outlook Calendar.",
-                "pes_percentual": 25
+                "codi": "CA13",
+                "text": "Classifica i arxiva els missatges de correu."
               },
               {
-                "codi": "CA1.4",
-                "text": "S'han identificat i evitat amenaces de correu com el phishing i el spam.",
-                "pes_percentual": 25
+                "codi": "CA14",
+                "text": "Opera amb la llibreta d’adreces."
+              },
+              {
+                "codi": "CA15",
+                "text": "Treballa amb totes les opcions de gestió de correu electrònic (etiquetes, filtres, carpetes, entre d’altres)."
+              },
+              {
+                "codi": "CA16",
+                "text": "Analitza les necessitats bàsiques de l’agenda electrònica, configuració."
+              },
+              {
+                "codi": "CA17",
+                "text": "Connecta i sincronitza agendes de l’equip informàtic amb dispositius mòbils."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza opcions d’agenda electrònica."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Correu i agenda electrònica",
+                "items": [
+                  "Correu electrònic, elements que en formen part, necessitats bàsiques.",
+                  "Configuració de comptes de correu POP i WEB.",
+                  "Classificació i arxivament dels missatges de correu electrònic.",
+                  "La llibreta d’adreces.",
+                  "Opcions del correu electrònic.",
+                  "Agenda electrònica, necessitats bàsiques, configuració i utilització.",
+                  "Sincronització d’agendes electròniques amb els dispositius mòbils.",
+                  "Opcions de l’agenda electrònica."
+                ]
               }
             ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "processadors de text",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documents i plantilles, descrivint i aplicant les opcions avançades de processadors de textos.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Personalitza les opcions de programari i la barra d’eines."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dissenya plantilles."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza aplicacions i perifèrics per introduir textos i imatges."
+              },
+              {
+                "codi": "CA14",
+                "text": "Importa i exporta documents creats amb altres aplicacions i en altres formats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Crea i utilitza macros en la realització de documents."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora manuals específics."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Processador de textos",
+                "items": [
+                  "Personalització del programari.",
+                  "Elaboració de documents i plantilles mitjançant processadors de text. Creació i ús de plantilles.",
+                  "Inserció de text i d’imatges des de perifèrics i d’altres xarxes.",
+                  "Importació i exportació de documents.",
+                  "Disseny i creació de macros.",
+                  "Elaboració de diversos tipus de documents (manuals, comunicats d’incidències, entre d’altres)."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "fulls de càlcul",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documents i plantilles de càlcul, descrivint i aplicant opcions avançades de fulls de càlcul.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Personalitza les opcions de programari i barra d’eines."
+              },
+              {
+                "codi": "CA12",
+                "text": "Utilitza els diversos tipus de dades i referència per a cel·les, rangs, fulls i llibres."
+              },
+              {
+                "codi": "CA13",
+                "text": "Aplica fórmules i funcions."
+              },
+              {
+                "codi": "CA14",
+                "text": "Genera i modifica gràfics de diferents tipus."
+              },
+              {
+                "codi": "CA15",
+                "text": "Empra macros per a la realització de documents i plantilles."
+              },
+              {
+                "codi": "CA16",
+                "text": "Importa i exporta fulls de càlcul creades amb altres aplicacions i en altres formats."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza el full de càlcul com a base de dades: formularis, creació de llistes, filtratge, protecció i ordenació de dades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza aplicacions i perifèrics per introduir textos, nombres, codis i imatges."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Full de càlcul",
+                "items": [
+                  "Personalització del programari.",
+                  "Treball amb dades, cel·les, rangs, fulls, llibres, etc. Elaboració de diversos tipus de documents (pressupostos, factures, inventaris, entre d’altres).",
+                  "Fórmules, funcions.",
+                  "Creació de taules i gràfics dinàmics.",
+                  "Elaboració de plantilles i ús d’assistents. Disseny i creació de documents amb macros.",
+                  "Importació i exportació de fulls de càlcul de diferents aplicacions i formats.",
+                  "Utilització del full de càlcul com a base de dades: formularis, creació de llistes, filtratge, protecció i ordenació de dades.",
+                  "Importació des d’altres documents i perifèrics de textos, nombres, codis i imatges."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "bases de dades",
+        "hores": 35,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora documents amb bases de dades ofimàtiques descrivint i aplicant operacions de manipulació de dades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els elements de les bases de dades relacionals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Crea bases de dades ofimàtiques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza les taules de la base de dades (inserir, modificar i eliminar registres)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza assistents en la creació de consultes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza assistents en la creació de formularis."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza assistents en la creació d’informes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza recerca i filtratge sobre la informació emmagatzemada."
+              },
+              {
+                "codi": "CA18",
+                "text": "Crea i utilitza macros."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Bases de dades",
+                "items": [
+                  "Elements de les bases de dades relacionals.",
+                  "Creació de bases de dades.",
+                  "Maneig d’assistents. Creació i utilització de taules.",
+                  "Maneig d’assistents. Creació i utilització de consultes.",
+                  "Maneig d’assistents. Creació i utilització de formularis.",
+                  "Maneig d’assistents. Creació i utilització d’informes.",
+                  "Recerca i filtratge de la informació emmagatzemada.",
+                  "Disseny i creació de macros."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF6",
+        "nom": "imatge i vídeo - presentacions",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Manipula imatges digitals analitzant les possibilitats de diferents programes i aplicant tècniques bàsiques de captura i edició.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza els diversos formats d’imatges."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza l’adquisició d’imatges amb perifèrics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Treballa amb imatges a diferents resolucions, segons la seva finalitat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Empra eines per a l’edició d’imatge digital."
+              },
+              {
+                "codi": "CA15",
+                "text": "Importa i exporta imatges en diversos formats."
+              }
+            ],
+            "continguts": []
           },
           {
             "codi": "RA2",
-            "text": "Treballa col·laborativament amb eines en el núvol (Drive/OneDrive) i suites ofimàtiques en línia.",
+            "text": "Manipula seqüències de vídeo analitzant les possibilitats de diversos programes i aplicant tècniques bàsiques de captura i edició bàsiques.",
             "criteris_avaluacio": [
               {
-                "codi": "CA2.1",
-                "text": "S'han creat, organitzat i compartit documents amb permisos diferenciats a Google Drive o OneDrive.",
-                "pes_percentual": 25
+                "codi": "CA21",
+                "text": "Reconeix els elements que componen una seqüència de vídeo."
               },
               {
-                "codi": "CA2.2",
-                "text": "S'ha treballat simultàniament en documents compartits identificant els canvis de cada col·laborador.",
-                "pes_percentual": 25
+                "codi": "CA22",
+                "text": "Estudia els tipus de formats i còdecs més emprats."
               },
               {
-                "codi": "CA2.3",
-                "text": "S'han utilitzat eines de videoconferència i missatgeria col·laborativa (Meet, Teams) per a reunions professionals.",
-                "pes_percentual": 25
+                "codi": "CA23",
+                "text": "Importa i exporta seqüències de vídeo."
               },
               {
-                "codi": "CA2.4",
-                "text": "S'han gestionat versions de documents al núvol i s'han recuperat versions anteriors quan ha estat necessari.",
-                "pes_percentual": 25
+                "codi": "CA24",
+                "text": "Captura seqüències de vídeo amb recursos adequats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Elabora vídeos tutorials."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Elabora presentacions multimèdia descrivint i aplicant normes bàsiques de composició i disseny.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les opcions bàsiques de les aplicacions de presentacions."
+              },
+              {
+                "codi": "CA32",
+                "text": "Reconeix els diversos tipus de visualització associats a una presentació."
+              },
+              {
+                "codi": "CA33",
+                "text": "Aplica i recorre les diverses tipografies i normes bàsiques de composició, disseny i utilització del color."
+              },
+              {
+                "codi": "CA34",
+                "text": "Dissenya plantilles de presentacions."
+              },
+              {
+                "codi": "CA35",
+                "text": "Crea presentacions."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza perifèrics per executar presentacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Tractament d’imatge",
+                "items": [
+                  "Formats i resolució d’imatges.",
+                  "Adquisició d’imatges des de perifèrics. Importació i exportació d’imatges.",
+                  "Utilització de retoc fotogràfic, ajustos d’imatge i de color.",
+                  "Edició d’imatge digital.",
+                  "Importació i exportació d’imatge en diversos formats."
+                ]
+              },
+              {
+                "bloc": "Tractament del vídeo",
+                "items": [
+                  "Composició d’una seqüència de vídeo.",
+                  "Formats de vídeo i els còdecs.",
+                  "Importació i exportació de vídeos.",
+                  "Captura de seqüències de vídeo.",
+                  "Elaboració de videotutorials."
+                ]
+              },
+              {
+                "bloc": "Elaboració de presentacions",
+                "items": [
+                  "Opcions d’un programa de presentacions.",
+                  "Tipus de visualització associats a una presentació.",
+                  "Aplicació de les diferents tipografies i normes bàsiques de composició, disseny i utilització del color.",
+                  "Ús de plantilles i assistents. Patrons de diapositives.",
+                  "Disseny i edició de diapositives. Format de diapositives, textos i objectes.",
+                  "Importació i exportació de presentacions. Utilització de perifèrics de presentacions."
+                ]
               }
             ]
           }

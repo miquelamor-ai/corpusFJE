@@ -1,0 +1,370 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "desplegament d’aplicacions web",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "servidors web i de transferència de fitxers",
+        "hores": 39,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta arquitectures web analitzant i aplicant criteris de funcionalitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza aspectes generals d’arquitectures web, les seves característiques, els avantatges i els inconvenients."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els fonaments i protocols en els quals es basa el funcionament d’un servidor web."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza la instal·lació i la configuració bàsica de servidors web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Classifica i descriu els principals servidors d’aplicacions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza la instal·lació i configuració bàsica de servidors d’aplicacions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza proves de funcionament dels servidors web i d’aplicacions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Analitza l’estructura i els recursos que componen una aplicació web."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu els requeriments del procés d’implantació d’una aplicació web."
+              },
+              {
+                "codi": "CA19",
+                "text": "Documenta els processos d’instal·lació i de configuració realitzats sobre els servidors web i d’aplicacions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Gestiona servidors web avaluant i aplicant criteris de configuració per a l’accés segur als serveis.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix els paràmetres d’administració més importants del servidor web."
+              },
+              {
+                "codi": "CA22",
+                "text": "Amplia la funcionalitat del servidor mitjançant l’activació i la configuració de mòduls."
+              },
+              {
+                "codi": "CA23",
+                "text": "Crea i configura llocs virtuals."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura els mecanismes d’autenticació i control d’accés del servidor."
+              },
+              {
+                "codi": "CA25",
+                "text": "Obté i instal·la certificats digitals."
+              },
+              {
+                "codi": "CA26",
+                "text": "Estableix mecanismes per a assegurar les comunicacions entre el client i el servidor."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves de funcionament i de rendiment del servidor web."
+              },
+              {
+                "codi": "CA28",
+                "text": "Elabora documentació relativa a la configuració, administració segura i recomanacions d’ús del servidor."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza els ajustaments necessaris per a la implantació d’aplicacions en el servidor web."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Administra servidors de transferència de fitxers avaluant i aplicant criteris de configuració que garanteixin la disponibilitat del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Instal·la i configura servidors de transferència de fitxers."
+              },
+              {
+                "codi": "CA32",
+                "text": "Crea usuaris i grups per a l’accés remot al servidor."
+              },
+              {
+                "codi": "CA33",
+                "text": "Configura l’accés anònim."
+              },
+              {
+                "codi": "CA34",
+                "text": "Comprova l’accés al servidor, tant en manera activa com en manera passiva."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza proves amb clients en línia d’ordres i clients en mode gràfic."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza el protocol segur de transferència de fitxers."
+              },
+              {
+                "codi": "CA37",
+                "text": "Configura i utilitza serveis de transferència de fitxers integrats en servidors web."
+              },
+              {
+                "codi": "CA38",
+                "text": "Utilitza el navegador com a client del servei de transferència de fitxers."
+              },
+              {
+                "codi": "CA39",
+                "text": "Elabora documentació relativa a la configuració i administració del servei de transferència de fitxers."
+              },
+              {
+                "codi": "CA310",
+                "text": "Documenta els procediments d’instal·lació i de configuració."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implantació d’arquitectures web",
+                "items": [
+                  "Arquitectures web. Models.",
+                  "Servidors web i d’aplicacions. Instal·lació i configuració bàsica.",
+                  "Estructura i recursos que componen una aplicació web. Descriptor de desplegament."
+                ]
+              },
+              {
+                "bloc": "Administració de servidors web",
+                "items": [
+                  "Configuració avançada del servidor web.",
+                  "Mòduls: instal·lació, configuració i ús.",
+                  "Servidors virtuals. Creació, configuració i utilització.",
+                  "Autenticació i control d’accés.",
+                  "El protocol HTTPS.",
+                  "Certificats. Servidors de certificats.",
+                  "Desplegament d’aplicacions sobre servidors web."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i administració de servidors de transferència de fitxers",
+                "items": [
+                  "Configuració del servei de transferència de fitxers. Permisos i quotes.",
+                  "Tipus d’usuaris i accessos al servei.",
+                  "Modes de connexió del client.",
+                  "Protocol de transferència de fitxers segur.",
+                  "Utilització d’eines gràfiques.",
+                  "Utilització del servei de transferència de fitxers des del navegador.",
+                  "Utilització del servei de transferència de fitxers en el procés de desplegament de l’aplicació web."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "servidors d’aplicacions web",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta aplicacions web en servidors d’aplicacions avaluant i aplicant criteris de configuració per al seu funcionament segur.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els components i el funcionament dels serveis proporcionats pel servidor d’aplicacions."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els principals arxius de configuració i biblioteques compartides."
+              },
+              {
+                "codi": "CA13",
+                "text": "Configura el servidor d’aplicacions per a cooperar amb el servidor web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura i activa els mecanismes de seguretat del servidor d’aplicacions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Configura i utilitza els components web del servidor d’aplicacions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza els ajustaments necessaris per al desplegament d’aplicacions sobre el servidor."
+              },
+              {
+                "codi": "CA17",
+                "text": "Realitza proves de funcionament i rendiment de l’aplicació web desplegada."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora documentació relativa a l’administració i recomanacions d’ús del servidor d’aplicacions."
+              },
+              {
+                "codi": "CA19",
+                "text": "Elabora documentació relativa al desplegament d’aplicacions sobre el servidor d’aplicacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Administració de servidors d’aplicacions",
+                "items": [
+                  "Arquitectura i configuració bàsica del servidor d’aplicacions.",
+                  "Administració d’aplicacions web.",
+                  "Autenticació d’usuaris. Dominis de seguretat per a l’autenticació.",
+                  "Administració de sessions. Sessions persistents.",
+                  "Arxius de registre d’accés i filtre de sol·licituds.",
+                  "Configuració del servidor d’aplicacions per a la cooperació amb servidors web.",
+                  "Desplegament d’aplicacions en el servidor d’aplicacions.",
+                  "Seguretat en el servidor d’aplicacions. Configuració del servidor d’aplicacions amb suport SSL/T."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "aplicacions web",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Verifica l’execució d’aplicacions web comprovant els paràmetres de configuració de serveis de xarxa.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu l’estructura, la nomenclatura i la funcionalitat dels sistemes de noms jeràrquics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les necessitats de configuració del servidor de noms en funció dels requeriments d’execució de les aplicacions web desplegades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica la funció, els elements i les estructures lògiques del servei de directori."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza la configuració i la personalització del servei de directori."
+              },
+              {
+                "codi": "CA15",
+                "text": "Analitza la capacitat del servei de directori com a mecanisme d’autenticació centralitzada dels usuaris en una xarxa."
+              },
+              {
+                "codi": "CA16",
+                "text": "Especifica els paràmetres de configuració en el servei de directoris adequats per al procés de validació d’usuaris de l’aplicació web."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora documentació relativa a les adaptacions realitzades en els serveis de xarxa."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Serveis de xarxa implicats en el desplegament d’una aplicació web",
+                "items": [
+                  "Resolutors de noms. Procés de resolució d’un nom de domini.",
+                  "Paràmetres de configuració i registres del servidor de noms afectats en el desplegament.",
+                  "Servei de directoris: característiques i funcionalitat.",
+                  "Arxius bàsics de configuració. Interpretació i ús.",
+                  "Autenticació d’usuaris en el servei de directoris.",
+                  "Adaptació de la configuració del servidor de directoris per al desplegament de l’aplicació. Usuaris centralitzats."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "control de versions i documentació",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Elabora la documentació de l’aplicació web avaluant i seleccionant eines de generació de documentació i control de versions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica diferents eines de generació de documentació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Documenta els components programari utilitzant els generadors específics de les plataformes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza diferents formats per a la documentació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza eines col·laboratives per a l’elaboració i el manteniment de la documentació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Instal·la, configura i utilitza un sistema de control de versions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Garanteix l’accessibilitat i la seguretat de la documentació emmagatzemada pel sistema de control de versions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Documenta la instal·lació, la configuració i l’ús del sistema de control de versions utilitzat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Documentació i sistemes de control de versions",
+                "items": [
+                  "Eines externes per a la generació de documentació. Instal·lació, configuració i ús.",
+                  "Creació i utilització de plantilles.",
+                  "Instal·lació, configuració i ús de sistemes de control de versions.",
+                  "Operacions avançades.",
+                  "Seguretat dels sistemes de control de versions.",
+                  "Història d’un repositori."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

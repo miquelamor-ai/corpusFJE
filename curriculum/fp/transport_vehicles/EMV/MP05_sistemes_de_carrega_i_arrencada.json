@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "EMV",
+    "titol_cicle": "Electromecànica de Vehicles Automòbils",
+    "grau": "mitja",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "font_tipus": "decret",
+    "font_ref": "Decret 185/2015, de 25 d'agost",
+    "titol_decret": "DECRET 185/2015, de 25 d'agost, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'electromecànica de vehicles automòbils.",
+    "data_decret": "2015-08-25",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/08/25/185/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP05",
+    "nom": "sistemes de càrrega i arrencada",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "principis electrotècnics bàsics",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix els principis bàsics elèctrics relacionant-los amb les seves unitats de mesura.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Coneix les diferents magnituds elèctriques i les seves unitats associades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Coneix les lleis que regeixen els principis elèctrics bàsics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els tipus de corrent elèctric (AC, DC)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza càlculs bàsics de les magnituds elèctriques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Comprèn el fenomen de transformació i rectificació del corrent."
+              },
+              {
+                "codi": "CA16",
+                "text": "Coneix els principis bàsics d'electrònica digital."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Coneix la funcionalitat d'elements i conjunts elèctrics i electrònics bàsics en els vehicles aplicant les lleis i regles de l'electricitat i el magnetisme.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els elements elèctrics i electrònics per la seva simbologia i realitza la seva representació."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els tipus de circuits elèctrics segons les seves connexions."
+              },
+              {
+                "codi": "CA23",
+                "text": "Descriu les característiques i les connexions dels aparells de mesura elèctrica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Coneix les característiques fonamentals dels semiconductors."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu els diferents tipus de components electrònics bàsics."
+              },
+              {
+                "codi": "CA26",
+                "text": "Coneix el funcionament dels elements passius utilitzats en els circuits."
+              },
+              {
+                "codi": "CA27",
+                "text": "Descriu els processos de generació de moviment per efecte de l'electromagnetisme."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Components elèctrics i electrònics",
+                "items": [
+                  "Lleis i regles de l'electricitat: magnituds i unitats.",
+                  "Generació de corrent, efectes electromagnètics.",
+                  "Rectificació de corrent."
+                ]
+              },
+              {
+                "bloc": "Funcionament característiques dels conjunts elèctrics i electrònics bàsics",
+                "items": [
+                  "Característiques i constitució dels elements i conjunts elèctrics i electrònics bàsics.",
+                  "Funció dels components elèctrics i electrònics: semiconductors i acumuladors, entre d’altres.",
+                  "Identificació de les funcions lògiques bàsiques digitals.",
+                  "Resolució de circuits elèctrics.",
+                  "Característiques dels aparells de mesura més usuals.",
+                  "Magnituds i conceptes típics dels aparells de mesura."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "circuits elèctrics bàsics: simbologia i esquemes",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Interpreta els esquemes elèctrics i identifica la simbologia elèctrica relacionant la funció dels seus elements amb l'operativitat del circuit.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta els esquemes elèctrics dels circuits."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica la simbologia utilitzada en els esquemes elèctrics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Assenyala sobre els esquemes elèctrics les línies de corrent."
+              },
+              {
+                "codi": "CA14",
+                "text": "Interpreta la documentació tècnica d'equips i aparells de mesura."
+              },
+              {
+                "codi": "CA15",
+                "text": "Aparells de mesura."
+              },
+              {
+                "codi": "CA16",
+                "text": "Relaciona els components elèctrics més usuals amb la seva simbologia i els identifica visualment."
+              },
+              {
+                "codi": "CA17",
+                "text": "Coneix les aplicacions de conjunts electrònics bàsics en vehicles."
+              },
+              {
+                "codi": "CA18",
+                "text": "Compleix les normes de prevenció de riscos laborals en el lloc de treball."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta circuits elèctrics i electrònics bàsics relacionant la funció dels seus elements amb l'operativitat del circuit.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta la documentació tècnica d’equips i aparells de mesura."
+              },
+              {
+                "codi": "CA22",
+                "text": "Munta els circuits elèctrics."
+              },
+              {
+                "codi": "CA23",
+                "text": "Calibra i ajusta els aparells de mesura."
+              },
+              {
+                "codi": "CA24",
+                "text": "Mesura els paràmetres dels circuits determinant la connexió de l'aparell."
+              },
+              {
+                "codi": "CA25",
+                "text": "Selecciona les eines, els estris i els materials necessaris per al muntatge dels circuits."
+              },
+              {
+                "codi": "CA26",
+                "text": "Munta circuits elèctrics utilitzant diferents components."
+              },
+              {
+                "codi": "CA27",
+                "text": "Verifica la funcionalitat dels circuits muntats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica els components elèctrics més usuals i la seva aplicació en vehicles."
+              },
+              {
+                "codi": "CA29",
+                "text": "Compleix les normes de prevenció de riscos laborals en el lloc de treball."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Coneix la funcionalitat, constitució i el manteniment dels acumuladors emprats en els vehicles elèctrics aplicant els protocols de manipulació i reciclatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Interpreta els esquemes elèctrics de connexió dels acumuladors."
+              },
+              {
+                "codi": "CA32",
+                "text": "Interpreta la documentació tècnica d’equips i els aparells de mesura."
+              },
+              {
+                "codi": "CA33",
+                "text": "Mesura els paràmetres dels circuits determinant la connexió de l'aparell."
+              },
+              {
+                "codi": "CA34",
+                "text": "Interconnecta diferents muntatges d'acumuladors i en realitza la càrrega."
+              },
+              {
+                "codi": "CA35",
+                "text": "Compleix les normes de prevenció de riscos elèctrics en el lloc de treball."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza els equips de protecció personal en el treball al taller."
+              },
+              {
+                "codi": "CA37",
+                "text": "Aplica les normes de seguretat personals i de protecció ambiental estipulada en les diferents operacions i processos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Interpretació d’esquemes",
+                "items": [
+                  "Seguiment i representació de circuits.",
+                  "Simbologia elèctrica.",
+                  "Aparells de mesura."
+                ]
+              },
+              {
+                "bloc": "Circuits elèctrics",
+                "items": [
+                  "Característiques dels circuits. Tècniques de muntatge.",
+                  "Muntatge de circuits elèctrics i electrònics: interpretació i representació d'esquemes.",
+                  "Resolució de circuits en corrent continu.",
+                  "Connectors, tipus, eines i estris d'unió.",
+                  "Característiques i constitució dels elements i dels conjunts elèctrics i electrònics bàsics.",
+                  "Funció dels components elèctrics i electrònics: semiconductors.",
+                  "Identificació de les funcions lògiques bàsiques digitals."
+                ]
+              },
+              {
+                "bloc": "Acumuladors",
+                "items": [
+                  "Característiques dels acumuladors.",
+                  "Associació d'acumuladors elèctrics.",
+                  "Muntatge d’acumuladors.",
+                  "Reciclatge d’acumuladors.",
+                  "Normes de seguretat i d'ús que cal tenir en compte en el muntatge de circuits."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "circuits de càrrega. Funcionament, verificació i diagnosi",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix el funcionament dels sistemes de càrrega i descriu la ubicació i funcionalitat dels elements que els constitueixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Coneix les característiques i la constitució del circuit de càrrega."
+              },
+              {
+                "codi": "CA12",
+                "text": "Coneix les característiques dels elements que componen el circuit de càrrega."
+              },
+              {
+                "codi": "CA13",
+                "text": "Localitza els elements que componen els circuits de càrrega en el vehicle."
+              },
+              {
+                "codi": "CA14",
+                "text": "Coneix els paràmetres a controlar en els sistemes de càrrega."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Identifica avaries dels circuits de càrrega, relaciona els símptomes i efectes amb les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta la documentació tècnica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els símptomes provocats per l'avaria."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els equips i aparells de mesura, i escull el punt de connexió adequat."
+              },
+              {
+                "codi": "CA24",
+                "text": "Pren mesures de diferents paràmetres en funció dels símptomes detectats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Compara els paràmetres obtinguts en els mesuraments amb què estan especificats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Extreu la informació de les unitats de gestió electrònica."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova l'absència de sorolls anòmals, vibracions i lliscaments."
+              },
+              {
+                "codi": "CA28",
+                "text": "Determina les causes que han provocat l’avaria."
+              },
+              {
+                "codi": "CA29",
+                "text": "Compleix les normes de prevenció de riscos laborals en el lloc de treball."
+              },
+              {
+                "codi": "CA210",
+                "text": "Utilitza els equips de protecció personal en el treball al taller."
+              },
+              {
+                "codi": "CA211",
+                "text": "Aplica les normes de seguretat personals i de protecció ambiental estipulada en les diferents operacions i processos."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Repara avaries en el sistema de càrrega, interpretant i aplicant procediments establerts segons especificacions tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Interpreta la documentació tècnica, i la relaciona amb el sistema objecte del manteniment."
+              },
+              {
+                "codi": "CA32",
+                "text": "Selecciona els equips i els mitjans necessaris i escull els punts de connexió adequats."
+              },
+              {
+                "codi": "CA33",
+                "text": "Desmunta/munta, seguint procediments de treball establerts."
+              },
+              {
+                "codi": "CA34",
+                "text": "Comprova l’estat dels elements i determina els que s’han de reparar o substituir."
+              },
+              {
+                "codi": "CA35",
+                "text": "Repara els elements del sistema quan en sigui factible la reparació."
+              },
+              {
+                "codi": "CA36",
+                "text": "Munta els elements substituïts i n’ajusta els paràmetres de funcionament."
+              },
+              {
+                "codi": "CA37",
+                "text": "Verifica, després de les operacions realitzades, que es restitueix la funcionalitat requerida pel sistema."
+              },
+              {
+                "codi": "CA38",
+                "text": "Compleix les normes de prevenció de riscos laborals en el lloc de treball."
+              },
+              {
+                "codi": "CA39",
+                "text": "Utilitza els equips de protecció personal en el treball al taller."
+              },
+              {
+                "codi": "CA310",
+                "text": "Aplica les normes de seguretat personals i de protecció ambiental estipulades en les diferents operacions i processos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Sistemes de càrrega",
+                "items": [
+                  "Circuit de càrrega.",
+                  "Components.",
+                  "Constitució i característiques.",
+                  "Paràmetres de funcionament."
+                ]
+              },
+              {
+                "bloc": "Avaries dels sistemes de càrrega",
+                "items": [
+                  "Documentació tècnica del vehicle i dels equips de mesura.",
+                  "Paràmetres de funcionament correcte dels conjunts, dels components i dels elements de cadascun dels sistemes.",
+                  "Disfuncions dels sistemes de càrrega.",
+                  "Mètodes de diagnòstic en casos de processos guiats.",
+                  "Interaccions entre els diferents sistemes.",
+                  "Normes de seguretat i d'ús que cal tenir en compte en els processos."
+                ]
+              },
+              {
+                "bloc": "Manteniment dels sistemes de càrrega",
+                "items": [
+                  "Processos de desmuntatge i muntatge dels sistemes.",
+                  "Control i ajust dels paràmetres dels sistemes de càrrega.",
+                  "Processos de manteniment dels components electrònics.",
+                  "Reparació i ajust dels sistemes de càrrega.",
+                  "Normes de seguretat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "motors elèctrics. Funcionament, verificació i diagnosi",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Coneix el funcionament dels motors elèctrics i descriu la ubicació i funcionalitat dels elements que els constitueixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Coneix els diferents tipus de motors elèctrics emprats en l’automòbil."
+              },
+              {
+                "codi": "CA12",
+                "text": "Coneix les característiques i la constitució del circuit d’engegada."
+              },
+              {
+                "codi": "CA13",
+                "text": "Coneix les característiques dels elements que componen el circuit d’engegada."
+              },
+              {
+                "codi": "CA14",
+                "text": "Localitza els elements que componen els circuits d’engegada en el vehicle."
+              },
+              {
+                "codi": "CA15",
+                "text": "Coneix els paràmetres a controlar en els sistemes d’engegada."
+              },
+              {
+                "codi": "CA16",
+                "text": "Coneix el funcionament i les característiques dels motors elèctrics emprats en els vehicles automòbils."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Identifica avaries dels motors elèctrics, en relaciona els símptomes i els efectes amb les causes que les produeixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta la documentació tècnica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els símptomes provocats per l'avaria."
+              },
+              {
+                "codi": "CA23",
+                "text": "Selecciona els equips i els aparells de mesura, i escull el punt de connexió adequat."
+              },
+              {
+                "codi": "CA24",
+                "text": "Pren mesures de diferents paràmetres en funció dels símptomes detectats."
+              },
+              {
+                "codi": "CA25",
+                "text": "Compara els paràmetres obtinguts en els mesuraments amb els que estan especificats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Extreu la informació de les unitats de gestió electrònica."
+              },
+              {
+                "codi": "CA27",
+                "text": "Comprova l'absència de sorolls anòmals, vibracions i lliscaments."
+              },
+              {
+                "codi": "CA28",
+                "text": "Determina les causes que han provocat l'avaria."
+              },
+              {
+                "codi": "CA29",
+                "text": "Compleix les normes de prevenció de riscos elèctrics en el lloc de treball."
+              },
+              {
+                "codi": "CA210",
+                "text": "Utilitza els equips de protecció personal en el treball al taller."
+              },
+              {
+                "codi": "CA211",
+                "text": "Aplica les normes de seguretat personals i de protecció ambiental estipulada en les diferents operacions i processos."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Repara els motors elèctrics del vehicle, interpretant els procediments establerts pels fabricants, i aplicant les seves especificacions tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Interpreta la documentació tècnica i la relaciona amb el sistema objecte del manteniment."
+              },
+              {
+                "codi": "CA32",
+                "text": "Selecciona els equips i mitjans necessaris, i en realitza la connexió en els punts adequats."
+              },
+              {
+                "codi": "CA33",
+                "text": "Comprova l'estat dels elements i determina els que s'han de reparar o substituir."
+              },
+              {
+                "codi": "CA34",
+                "text": "Segueix un procés de seqüenciació en les operacions de desmuntatge, i muntatge dels conjunts i elements segons els procediments indicats."
+              },
+              {
+                "codi": "CA35",
+                "text": "Munta els elements substituïts i n’ajusta els paràmetres."
+              },
+              {
+                "codi": "CA36",
+                "text": "Verifica que després de les operacions realitzades es restitueix la funcionalitat requerida del sistema."
+              },
+              {
+                "codi": "CA37",
+                "text": "Compleix les normes de prevenció de riscos elèctrics en el lloc de treball."
+              },
+              {
+                "codi": "CA38",
+                "text": "Aplica les normes d'ús en equips i mitjans, així com les mesures de seguretat personal i de protecció ambiental en totes les operacions."
+              },
+              {
+                "codi": "CA39",
+                "text": "Utilitza els equips de protecció personal en el treball al taller."
+              },
+              {
+                "codi": "CA310",
+                "text": "Aplica les normes de seguretat personals i de protecció ambiental estipulada en les diferents operacions i processos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Motors elèctrics",
+                "items": [
+                  "Constitució i característiques.",
+                  "Paràmetres de funcionament.",
+                  "Sistemes d’arrencada.",
+                  "Funcions dels motors elèctrics en els automòbils."
+                ]
+              },
+              {
+                "bloc": "Avaries dels motors elèctrics",
+                "items": [
+                  "Documentació tècnica del vehicle.",
+                  "Avaries dels sistemes d’arrencada.",
+                  "Avaries dels motors elèctrics.",
+                  "Paràmetres de funcionament correcte dels conjunts, dels components i dels elements de cadascun dels sistemes.",
+                  "Disfuncions dels motors elèctrics i causes a què obeeixen.",
+                  "Mètodes de diagnòstic en casos de processos guiats.",
+                  "Interaccions presentades entre diferents sistemes.",
+                  "Identificació d'avaries dels motors elèctrics."
+                ]
+              },
+              {
+                "bloc": "Manteniment dels motors elèctrics",
+                "items": [
+                  "Processos de desmuntatge i de muntatge dels motors elèctrics.",
+                  "Reparació i ajust dels sistemes amb motors elèctrics.",
+                  "Processos de manteniment i programació dels components electrònics del sistema.",
+                  "Reparació i ajust dels sistemes amb motors elèctrics.",
+                  "Normes de seguretat i d'ús."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "EMV",
+    "titol_cicle": "Electromecànica de Vehicles Automòbils",
+    "grau": "mitja",
+    "familia_professional": "Transport i Manteniment de Vehicles",
+    "font_tipus": "decret",
+    "font_ref": "Decret 185/2015, de 25 d'agost",
+    "titol_decret": "DECRET 185/2015, de 25 d'agost, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'electromecànica de vehicles automòbils.",
+    "data_decret": "2015-08-25",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/08/25/185/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Motors",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "motors: funcionament i components",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza el funcionament dels motors emprats en vehicles automòbils, interpretant-ne les variacions dels paràmetres característics i la funcionalitat dels elements que els constitueixen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica i coneix els diferents components dels motors, relacionant-los amb la funció que compleixen."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els cicles termodinàmics dels motors."
+              },
+              {
+                "codi": "CA13",
+                "text": "Fa els diagrames i càlculs teòrics i reals dels motors."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les característiques constructives dels motors d'explosió."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu les característiques constructives dels motors de combustió."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu les característiques constructives dels motors GLP."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica les característiques dels motors híbrids."
+              },
+              {
+                "codi": "CA18",
+                "text": "Coneix els reglatges i les posades al punt dels motors."
+              },
+              {
+                "codi": "CA19",
+                "text": "Té l'actitud permanent d'adquirir i compartir nous coneixements."
+              },
+              {
+                "codi": "CA110",
+                "text": "Dona suport per solucionar els problemes que se'ls puguin presentar als companys."
+              },
+              {
+                "codi": "CA111",
+                "text": "Sap quins recursos utilitzar per solucionar problemes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Identifica els elements que constitueixen els sistemes de lubricació i refrigeració dels motors, descrivint-ne la funció en el sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu les característiques i propietats dels lubricants i refrigerants utilitzats en els motors."
+              },
+              {
+                "codi": "CA22",
+                "text": "Coneix els sistemes de lubricació utilitzats en els vehicles automòbils i els seus paràmetres de funcionament."
+              },
+              {
+                "codi": "CA23",
+                "text": "Coneix els sistemes de refrigeració emprats en els vehicles automòbils i els seus paràmetres de funcionament."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica els components dels sistemes de lubricació i la funció que fan cadascun."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els components dels sistemes de refrigeració i la funció que fan cadascun."
+              },
+              {
+                "codi": "CA26",
+                "text": "Descriu les operacions que cal fer en el maneig i l'aplicació de juntes i segelladors per aconseguir l'estanquitat dels circuits."
+              },
+              {
+                "codi": "CA27",
+                "text": "Descriu les precaucions a seguir en el maneig dels fluids dels circuits de refrigeració i lubricació."
+              },
+              {
+                "codi": "CA28",
+                "text": "Té l'actitud permanent d'adquirir i compartir nous coneixements."
+              },
+              {
+                "codi": "CA29",
+                "text": "Dona suport per solucionar els problemes que se'ls puguin presentar als companys."
+              },
+              {
+                "codi": "CA210",
+                "text": "Sap quins recursos utilitzar per solucionar problemes."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Motors",
+                "items": [
+                  "Components dels motors tèrmics.",
+                  "Cicles termodinàmics dels motors.",
+                  "Càlculs bàsics.",
+                  "Diagrames teòrics i pràctics dels motors.",
+                  "Característiques i funcionament dels motors d'explosió.",
+                  "Característiques i funcionament dels motors de combustió.",
+                  "Característiques i funcionament dels motors amb altres combustibles.",
+                  "Característiques i funcionament dels motors híbrids.",
+                  "Paràmetres estàtics i dinàmics de funcionament dels motors."
+                ]
+              },
+              {
+                "bloc": "Sistemes de refrigeració i de lubricació",
+                "items": [
+                  "Característiques i propietats dels lubricants.",
+                  "Característiques i refrigerants utilitzats en el motor.",
+                  "Components del sistema de lubricació i la funció que fa cadascun.",
+                  "Components del sistema de refrigeració i la funció que fa cadascun.",
+                  "Juntes i segelladors utilitzats en els motors.",
+                  "Normes de seguretat en l'ús de fluids dels circuits de refrigeració i de lubricació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "Verificació, diagnosi d'avaries i manteniment dels motors",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Fa les operacions de desmuntatge, verificació i muntatge dels components del motor, aplicant els procediments establerts a la documentació tècnica i les mesures de prevenció de riscos laborals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta la documentació tècnica determinant el procés de desmuntatge i de muntatge dels diferents components del motor."
+              },
+              {
+                "codi": "CA12",
+                "text": "Selecciona els mitjans, els estris i les eines necessaris en funció del procés de desmuntatge i muntatge."
+              },
+              {
+                "codi": "CA13",
+                "text": "Fa la seqüència d'operacions de desmuntatge i muntatge, seguint el procediment establert en la documentació tècnica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica l'estat de les peces comprovant que no existeixen trencaments o desgastos anòmals."
+              },
+              {
+                "codi": "CA15",
+                "text": "Comprova que la cilindrada i relació de compressió es corresponen amb les especificacions tècniques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Fa els ajustos de paràmetres estipulats en la documentació tècnica."
+              },
+              {
+                "codi": "CA17",
+                "text": "Verifica que després de les operacions realitzades es restitueix la funcionalitat requerida."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica les normes de seguretat personals i protecció ambiental en les diferents operacions."
+              },
+              {
+                "codi": "CA19",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA110",
+                "text": "Estableix mecanismes de coordinació i de control de la informació del procés i dels resultats."
+              },
+              {
+                "codi": "CA111",
+                "text": "Persisteix en la consecució dels objectius tot i els obstacles i contratemps tècnics que es presentin."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Fa les operacions de desmuntatge, verificació i muntatge dels components dels sistemes de lubricació i de refrigeració dels motors, interpretant procediments establerts a la documentació tècnica, i aplicant les mesures de prevenció de riscos laborals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta la documentació tècnica determinant el procés de desmuntatge i muntatge dels sistemes de lubricació i refrigeració."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona els mitjans, estris i eines necessaris en funció del procés de desmuntatge i muntatge."
+              },
+              {
+                "codi": "CA23",
+                "text": "Fa el desmuntatge i muntatge seguint la seqüència d'operacions establerta en la documentació tècnica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Purga i verifica l'estanquitat del circuit de refrigeració."
+              },
+              {
+                "codi": "CA25",
+                "text": "Fa els ajustos de paràmetres estipulats en la documentació tècnica."
+              },
+              {
+                "codi": "CA26",
+                "text": "Verifica que després de les operacions realitzades es restitueix la funcionalitat requerida."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza els equips de protecció personal en el treball al taller."
+              },
+              {
+                "codi": "CA28",
+                "text": "Aplica les normes de seguretat i protecció ambiental estipulada en les diferents operacions."
+              },
+              {
+                "codi": "CA29",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA210",
+                "text": "Estableix mecanismes de coordinació i control de la informació del procés i dels resultats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Identifica avaries en els motors i en els seus sistemes de lubricació i de refrigeració relacionant-ne els símptomes i els efectes amb les causes que les produeixen i aplicant les mesures de prevenció de riscos laborals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Localitza i interpreta la documentació tècnica corresponent i la seva relació amb el sistema objecte de la reparació."
+              },
+              {
+                "codi": "CA32",
+                "text": "Selecciona els mitjans i els equips, fent la presa de paràmetres necessaris en els punts de mesura correctes."
+              },
+              {
+                "codi": "CA33",
+                "text": "Comprova que no existeixen fuites de fluids, vibracions i sorolls anòmals."
+              },
+              {
+                "codi": "CA34",
+                "text": "Verifica els nivells del refrigerant i del lubricant del motor."
+              },
+              {
+                "codi": "CA35",
+                "text": "Verifica l'estat del lubricant, comprovant que manté les característiques d'ús determinades."
+              },
+              {
+                "codi": "CA36",
+                "text": "Reconeix les disfuncions i símptomes de les avaries."
+              },
+              {
+                "codi": "CA37",
+                "text": "Aplica procediments establerts en la localització d'avaries."
+              },
+              {
+                "codi": "CA38",
+                "text": "Compara els valors dels paràmetres obtinguts amb els que es donen en la documentació tècnica."
+              },
+              {
+                "codi": "CA39",
+                "text": "Aplica les normes de seguretat personals i de protecció ambiental en les diferents operacions."
+              },
+              {
+                "codi": "CA310",
+                "text": "Sap quins recursos utilitzar per solucionar problemes."
+              },
+              {
+                "codi": "CA311",
+                "text": "Utilitza una gran varietat de recursos."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Fa el manteniment dels motors i dels sistemes de lubricació i de refrigeració interpretant els procediments establerts a la documentació tècnica i aplicant les mesures de prevenció de riscos laborals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Interpreta la documentació tècnica determinant el procés de verificació i manteniment periòdic dels diferents components del motor i dels sistemes de lubricació i de refrigeració."
+              },
+              {
+                "codi": "CA42",
+                "text": "Fa les operacions periòdiques establertes de manteniment preventiu. Selecciona els mitjans, els estris i les eines necessaris en funció del procés de reparació."
+              },
+              {
+                "codi": "CA43",
+                "text": "Fa la seqüència d'operacions de desmuntatge i de muntatge, en el manteniment preventiu i correctiu, seguint el procediment establert en la documentació tècnica."
+              },
+              {
+                "codi": "CA44",
+                "text": "Efectua les reparacions, seguint els procediments establerts."
+              },
+              {
+                "codi": "CA45",
+                "text": "Verifica l'estat de les peces comprovant que no existeixen trencaments o desgastos anòmals."
+              },
+              {
+                "codi": "CA46",
+                "text": "Aplica les normes de seguretat personal i protecció ambiental en les diferents operacions."
+              },
+              {
+                "codi": "CA47",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA48",
+                "text": "Dona suport per solucionar els problemes que se'ls puguin presentar als companys."
+              },
+              {
+                "codi": "CA49",
+                "text": "Persisteix en la consecució dels objectius tot i els obstacles i contratemps tècnics que es presentin."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Verificació del motor",
+                "items": [
+                  "Interpretació de la documentació tècnica.",
+                  "Estris i eines necessaris en els processos.",
+                  "Tècniques i mètodes de desmuntatge i muntatge.",
+                  "Tècniques i mètodes de verificació.",
+                  "Verificació de les operacions portades a terme.",
+                  "Normes de seguretat laboral i protecció ambiental."
+                ]
+              },
+              {
+                "bloc": "Verificació dels sistemes de lubricació i de refrigeració",
+                "items": [
+                  "Interpretació de la documentació tècnica corresponent.",
+                  "Estris i eines necessaris en els processos.",
+                  "Tècniques i mètodes de desmuntatge i muntatge.",
+                  "Tècniques i mètodes de verificació.",
+                  "Verificació de les operacions portades a terme.",
+                  "Normes de seguretat laboral i de protecció ambiental."
+                ]
+              },
+              {
+                "bloc": "Identificació d'avaries dels motors i dels sistemes de refrigeració i lubricació",
+                "items": [
+                  "Interpretació de la documentació tècnica i dels equips de mesura.",
+                  "Disfuncions dels motors tèrmics i causes a què obeeixen.",
+                  "Disfuncions dels sistemes de refrigeració i de lubricació i causes a què obeeixen.",
+                  "Tècniques i mètodes de diagnosi d'avaries.",
+                  "Normes de seguretat i d'ús en els processos de diagnosi."
+                ]
+              },
+              {
+                "bloc": "Manteniment dels motors i dels sistemes de lubricació i de refrigeració",
+                "items": [
+                  "Interpretació de documentació tècnica.",
+                  "Estris i eines necessaris en els processos.",
+                  "Tècniques i mètodes de desmuntatge, muntatge i reparació.",
+                  "Verificació de les operacions portades a terme."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

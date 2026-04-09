@@ -1,0 +1,507 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IDMN",
+    "titol_cicle": "Imatge per al Diagnòstic i Medicina Nuclear",
+    "grau": "superior",
+    "familia_professional": "Sanitat",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/2181/2018, de 18 de setembre, per la qual s'estableix el currículum del cicle formatiu de grau superior d'Imatge per al Diagnòstic i Medicina Nuclear.",
+    "data_decret": "2018-09-18",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "Atenció al Pacient",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "organització sanitària",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica l'ambient de treball, relacionant-lo amb l'estructura del sector sanitari.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Organitza el treball tenint en compte l'assistència prevista, els mitjans, els recursos i les necessitats de l'equip de treball."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix les característiques fonamentals del sistema sanitari a Espanya i a Catalunya, assenyalant les particularitats del sistema públic i privat d'assistència."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els factors condicionants de la salut d'una comunitat determinada a partir d'estudis i d'informes."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu les característiques del servei de diagnòstic per la imatge i medicina nuclear en el sistema sanitari, les seves funcions i dependències."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu les característiques de la unitat de radioteràpia en el sistema sanitari, les seves funcions i dependències."
+              },
+              {
+                "codi": "CA16",
+                "text": "Detalla les analogies i diferències entre el servei de diagnòstic per la imatge, medicina nuclear i radioteràpia de la xarxa pública i privada."
+              },
+              {
+                "codi": "CA17",
+                "text": "Enumera les funcions i les competències dels professionals sanitaris en les diferents seccions dels serveis de diagnòstic per la imatge i de medicina nuclear."
+              },
+              {
+                "codi": "CA18",
+                "text": "Enumera les funcions i les competències dels professionals sanitaris en la unitat de radioteràpia."
+              },
+              {
+                "codi": "CA19",
+                "text": "Identifica les tècniques de gestió d'existències i elaboració d'inventari en un servei de diagnòstic per la imatge, medicina nuclear i radioteràpia."
+              },
+              {
+                "codi": "CA110",
+                "text": "Defineix els trets bàsics de la documentació i gestió econòmica en les empreses del sector sanitari."
+              },
+              {
+                "codi": "CA111",
+                "text": "Descriu les aplicacions informàtiques de gestió del fitxer de pacients i històries clíniques, de gestió econòmica i de gestió del maquinari de les unitats."
+              },
+              {
+                "codi": "CA112",
+                "text": "Descriu les tècniques de control de qualitat en la prestació del servei/producte."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Organització sanitària",
+                "items": [
+                  "Estructura del sistema sanitari públic i privat a Espanya i Catalunya.",
+                  "Salut pública i comunitària.",
+                  "Indicadors de salut.",
+                  "Servei de diagnòstic per la imatge, medicina nuclear i radioteràpia en el sistema sanitari.",
+                  "Gestió del magatzem sanitari.",
+                  "Economia sanitària.",
+                  "Aplicacions informàtiques específiques dels serveis.",
+                  "Qualitat en la prestació del servei de diagnòstic per la imatge, medicina nuclear i radioteràpia.",
+                  "Legislació vigent aplicada a l'àmbit d'activitat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "acolliment del pacient",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica els protocols d'acolliment del pacient en la unitat de diagnòstic o tractament segons el pla d'actuació que s'ha de desenvolupar.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Interpreta els documents de citació i el procediment adequat per dur-la a terme, en funció dels diferents tipus de serveis o unitats de diagnòstic o de radioteràpia."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu les dades que identifiquen el pacient."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica el tipus d'exploració o tractament que s'ha de fer."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu el significat i l'estructura d'una història clínica tipus i la seqüència lògica per guardar documents i proves diagnòstiques."
+              },
+              {
+                "codi": "CA15",
+                "text": "Registra les dades del pacient en la documentació clínica."
+              },
+              {
+                "codi": "CA16",
+                "text": "Defineix la informació que cal lliurar al pacient segons la tècnica a realitzar."
+              },
+              {
+                "codi": "CA17",
+                "text": "Verifica l'emplenament del consentiment informat."
+              },
+              {
+                "codi": "CA18",
+                "text": "Comprova el compliment de la preparació prèvia del pacient."
+              },
+              {
+                "codi": "CA19",
+                "text": "Valora la importància de l'actitud de confidencialitat i discreció en relació amb la legislació vigent en matèria de protecció de dades."
+              },
+              {
+                "codi": "CA110",
+                "text": "Valora la importància d'atendre les necessitats dels usuaris."
+              },
+              {
+                "codi": "CA111",
+                "text": "Valora la importància de la responsabilitat social i dels principis ètics en els processos de salut."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica tècniques de comunicació i suport psicològic, identificant les característiques dels usuaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els elements de la comunicació."
+              },
+              {
+                "codi": "CA22",
+                "text": "Analitza els diferents tipus de llenguatge, tècniques i estratègies per a una bona comunicació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Estableix les habilitats personals i socials que s'han de desenvolupar per aconseguir una perfecta comunicació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Caracteritza el comportament de diferents tipus d'usuaris."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica possibles circumstàncies psicològiques generadores de disfunció del comportament."
+              },
+              {
+                "codi": "CA26",
+                "text": "Valora la importància del suport psicològic en les diferents intervencions."
+              },
+              {
+                "codi": "CA27",
+                "text": "Determina la relació d'ajuda, els seus components i les habilitats que s'han de desenvolupar per poder realitzar-la."
+              },
+              {
+                "codi": "CA28",
+                "text": "Valora la importància de la cortesia, l'amabilitat, el respecte, la discreció, la cordialitat i l'interès en la interrelació amb l'usuari."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica aspectes relatius al gènere pel que fa a la salut i a la malaltia."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Acolliment del pacient",
+                "items": [
+                  "Protocols de citació, registre i identificació de pacients.",
+                  "Documents clínics.",
+                  "Documents no clínics.",
+                  "Documentació informativa sobre exploracions i tractaments.",
+                  "Normes deontològiques.",
+                  "Llei de protecció de dades.",
+                  "Responsabilitat social i principis ètics."
+                ]
+              },
+              {
+                "bloc": "Comunicació amb l'usuari i suport psicològic",
+                "items": [
+                  "Elements de la comunicació.",
+                  "Tècniques de comunicació.",
+                  "Fases d'atenció a l'usuari.",
+                  "Mediació cultural en l'entorn sanitari.",
+                  "Desenvolupament de la personalitat.",
+                  "Canvis psicològics i adaptació en la malaltia.",
+                  "Psicologia del malalt crònic, oncològic, geriàtric i terminal.",
+                  "Psicologia del nen i l'adolescent amb malaltia.",
+                  "Mecanismes de defensa davant la malaltia.",
+                  "Relació d'ajuda.",
+                  "Gènere. Salut i malaltia."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "preparació del pacient",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza els procediments de preparació del pacient per aplicar la tècnica d'exploració o el tractament prescrit descrivint els protocols d'actuació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques i les condicions de l'estat general del pacient."
+              },
+              {
+                "codi": "CA12",
+                "text": "Valora el grau d'autonomia del pacient."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona les activitats que assegurin el confort i el benestar del pacient segons el protocol d'actuació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Defineix el posicionament del pacient segons el protocol que s'ha de realitzar."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza tècniques de mobilització o transferència."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica els principis d'ergonomia."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu les repercussions d'una mobilització i un trasllat inadequats."
+              },
+              {
+                "codi": "CA18",
+                "text": "Demostra cortesia, respecte, discreció i comunicació eficaç."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Aplica tècniques d'administració de contrastos i radiofàrmacs relacionant-les amb la via d'administració segons protocol de la unitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els diferents tipus de contrastos i radiofàrmacs."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu les propietats, les interaccions i els principals riscos associats als compostos de contrast."
+              },
+              {
+                "codi": "CA23",
+                "text": "Defineix les complicacions i les contraindicacions del seu ús."
+              },
+              {
+                "codi": "CA24",
+                "text": "Informa el pacient i en comprova els antecedents al·lèrgics."
+              },
+              {
+                "codi": "CA25",
+                "text": "Enumera les diferents vies d'administració de contrastos."
+              },
+              {
+                "codi": "CA26",
+                "text": "Prepara el material i la zona d'intervenció."
+              },
+              {
+                "codi": "CA27",
+                "text": "Selecciona la dosi adequada en cada cas."
+              },
+              {
+                "codi": "CA28",
+                "text": "Realitza la tècnica d'administració de contrast."
+              },
+              {
+                "codi": "CA29",
+                "text": "Realitza operacions d'administració de la medicació sobre maniquins d'entrenament."
+              },
+              {
+                "codi": "CA210",
+                "text": "Descriu les actuacions que s'han de dur a terme en cas de reaccions adverses i reaccions anafilàctiques."
+              },
+              {
+                "codi": "CA211",
+                "text": "Selecciona tècniques de suport vital bàsic."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Preparació del pacient",
+                "items": [
+                  "L'ésser humà i les seves necessitats.",
+                  "Factors determinants de la salut.",
+                  "Higiene i confort en la unitat de diagnòstic o tractament.",
+                  "Tècniques de posicionament, mobilització i trasllat."
+                ]
+              },
+              {
+                "bloc": "Administració de contrastos",
+                "items": [
+                  "Bases de farmacologia.",
+                  "Principis de farmacocinètica.",
+                  "Productes de contrast.",
+                  "Tècniques d'administració i material.",
+                  "Actuacions en cas de reaccions adverses i anafilàctiques."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "manipulació i control d'equips",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Observa paràmetres fisicoclínics, relacionant-los amb l'estat general del pacient.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Pren les constants vitals utilitzant els materials adequats i seguint les prescripcions establertes."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu els procediments per avaluar el nivell de consciència del pacient."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els paràmetres fisicoclínics que cal observar."
+              },
+              {
+                "codi": "CA14",
+                "text": "Enumera els signes de possibles alteracions de l'estat general."
+              },
+              {
+                "codi": "CA15",
+                "text": "Registra els signes i símptomes que han resultat de l'observació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu les actuacions que cal realitzar en cas de necessitat, seguint els protocols de la unitat."
+              },
+              {
+                "codi": "CA17",
+                "text": "Descriu les actuacions que cal realitzar en l'atenció als pacients en exploracions intervencionistes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu les actuacions que cal realitzar en l'atenció als pacients amb necessitats especials."
+              },
+              {
+                "codi": "CA19",
+                "text": "Valora la importància de l'ordre i el rigor en l'observació dels paràmetres observats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Manipula equips i dispositius que porta el pacient relacionant les característiques tècniques amb la tècnica d'exploració i el protocol de la unitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Classifica els diferents equips i instruments terapèutics."
+              },
+              {
+                "codi": "CA22",
+                "text": "Interpreta la documentació tècnica d'equips i dispositius."
+              },
+              {
+                "codi": "CA23",
+                "text": "Defineix les característiques i les tècniques d'utilització dels diferents equips i instruments terapèutics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica els criteris de manipulació dels equips i dels instruments."
+              },
+              {
+                "codi": "CA25",
+                "text": "Descriu les mesures que cal dur a terme per mantenir operatius els equips i instruments terapèutics."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova l'operativitat dels equips i dispositius segons el protocol de treball establert."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les possibles contingències en equips i dispositius."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica procediments de resolució de contingències segons protocols de la unitat."
+              },
+              {
+                "codi": "CA29",
+                "text": "Aplica les tècniques generals de neteja i asèpsia en la manipulació dels equips i dispositius."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica normes de prevenció i protecció de malalties infeccioses identificant els riscos i les mesures de prevenció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les situacions de risc de contaminació."
+              },
+              {
+                "codi": "CA32",
+                "text": "Determina les mesures preventives que cal prendre."
+              },
+              {
+                "codi": "CA33",
+                "text": "Fa el rentat de mans sistemàtic."
+              },
+              {
+                "codi": "CA34",
+                "text": "Fa la neteja, desinfecció i esterilització del material i els equips."
+              },
+              {
+                "codi": "CA35",
+                "text": "Elimina el material d'un sol ús i els residus aplicant la norma corresponent."
+              },
+              {
+                "codi": "CA36",
+                "text": "Empra les mesures de protecció, higiene i seguretat establertes tant per al personal com per a la persona usuària."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Observació del pacient",
+                "items": [
+                  "Valoració del nivell de consciència.",
+                  "Presa de constants vitals.",
+                  "Protocols d'exploració.",
+                  "Atenció al pacient en exploracions intervencionistes.",
+                  "Atenció a pacients amb necessitats especials."
+                ]
+              },
+              {
+                "bloc": "Manipulació i control d'equips i dispositius",
+                "items": [
+                  "Característiques tècniques d'equipaments sanitaris.",
+                  "Material d'un sol ús i material reutilitzable.",
+                  "Equips d'oxigenoteràpia.",
+                  "Aspiradors.",
+                  "Equips de monitoratge i perfusió.",
+                  "Sondes, drenatges i ostomies."
+                ]
+              },
+              {
+                "bloc": "Prevenció i protecció de malalties infeccioses",
+                "items": [
+                  "Infecció i cadena epidemiològica.",
+                  "Malalties transmissibles.",
+                  "Infeccions nosocomials.",
+                  "Aïllament personal i del pacient.",
+                  "Rentat de mans.",
+                  "Neteja, desinfecció i esterilització del material.",
+                  "Eliminació de residus."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

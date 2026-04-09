@@ -1,0 +1,449 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "SMX",
+    "titol_cicle": "Sistemes Microinformàtics i Xarxes",
+    "grau": "mitja",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 193/2013, de 9 de juliol",
+    "titol_decret": "DECRET 193/2013, de 9 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau mitjà de sistemes microinformàtics i xarxes.",
+    "data_decret": "2013-07-09",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/09/193/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP04",
+    "nom": "sistemes operatius en xarxa",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sistemes operatius propietaris en xarxa",
+        "hores": 36,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la i monitora sistemes operatius en xarxa propietaris, descrivint-ne les característiques i eines utilitzades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Realitza l’estudi de compatibilitat del sistema informàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Planifica i realitza el mètode de partició del disc."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona i aplica els sistemes d’arxius i components a instal·lar."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la i actualitza el sistema."
+              },
+              {
+                "codi": "CA15",
+                "text": "Comprova el funcionament correcte i la connectivitat dels sistemes operatius i programari instal·lats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Diferencia els modes d’instal·lació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Aplica procediments per l’automatització d’instal·lacions i tasques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Interpreta la informació de configuració del sistema operatiu en xarxa."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza tasques de manteniment del programari instal·lat en el sistema i de configuració de l’entorn."
+              },
+              {
+                "codi": "CA110",
+                "text": "Instal·la, configura i descriu les característiques de programes de monitoratge."
+              },
+              {
+                "codi": "CA111",
+                "text": "Identifica problemes de rendiment en el sistema a partir de les traces generades pel mateix sistema."
+              },
+              {
+                "codi": "CA112",
+                "text": "Documenta adequadament els processos realitzats d’instal·lació i monitoratge, les incidències aparegudes i les solucions aportades."
+              },
+              {
+                "codi": "CA113",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tasques de gestió sobre dominis utilitzant eines d’administració de dominis i interpretant-ne la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica la funció de servei de directori i domini, l’estructura, els seus elements i nomenclatura."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza la instal·lació i configuració bàsica del servei de directori i estableix relacions de confiança."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza eines gràfiques d’administració de domini i consoles d’administració."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza agrupacions d’elements per a la creació de models administratius."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea, configura i gestiona comptes d’usuari, grups, equips i diferents tipus de perfils."
+              },
+              {
+                "codi": "CA26",
+                "text": "Especifica el propòsit dels grups, els seus tipus i àmbits, i gestiona la pertinença d’usuaris a grups."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les característiques d’usuaris i grups predeterminats i especials."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza eines per a l’administració d’usuaris i grups, incloses en el sistema operatiu en xarxa."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica i aplica directives a la gestió del domini."
+              },
+              {
+                "codi": "CA210",
+                "text": "Verifica la correcció de les tasques realitzades i documenta adequadament les tasques de gestió i administració de dominis realitzades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació, actualització i monitoratge de sistemes operatius en xarxa propietaris",
+                "items": [
+                  "Realització de l’estudi de compatibilitat del sistema informàtic. Planificació i realització del mètode de partició del disc. Selecció i aplicació dels sistemes d’arxius i components a instal·lar. Instal·lació i actualització del sistema. Comprovació del funcionament correcte i connectivitat del sistema.",
+                  "Diferenciació dels modes i mètodes d’instal·lació. Automatització d’instal·lacions i tasques.",
+                  "Interpretació de la informació de configuració del sistema. Realització de tasques de manteniment del programari instal·lat en el sistema i de configuració de l’entorn personal.",
+                  "Instal·lació, configuració i descripció dels programes de monitoratge. Observació de l’activitat del sistema. Identificació de problemes de rendiment del sistema. Arrencada/parada. Processos. Descripció de les possibles errades i solucions.",
+                  "Documentació del procés d’instal·lació i monitoratge, de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Gestió de dominis",
+                "items": [
+                  "Identificació de la funció de servei de directori i domini. Estructura. Elements i nomenclatura. Realització de la instal·lació i configuració bàsica d’un servei de directori. Creació de dominis i establiment de relacions de confiança.",
+                  "Ús d’eines gràfiques d’administració de dominis. Consoles d’administració.",
+                  "Utilització d’agrupacions d’elements per a la creació de models administratius. Creació, configuració i gestió de comptes d’usuari, grup, equip i diferents tipus de perfils.",
+                  "Especificació del propòsit dels grups. Tipus i àmbits. Propietats. Gestió de la pertinença d’usuaris a grups. Identificació de les característiques d’usuaris i grups predeterminats i especials del sistema. Utilització d’eines per a l’administració d’usuaris i grups, incloses en el sistema operatiu en xarxa .",
+                  "Aplicació de directives a la gestió de dominis. Tipus de directives.",
+                  "Comprovació del funcionament correcte de les instal·lacions i configuracions realitzades. Documentació del procés d’instal·lació i de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes operatius lliures en xarxa",
+        "hores": 36,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la i monitora sistemes operatius en xarxa lliures, descrivint-ne les característiques i eines utilitzades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Realitza l’estudi de compatibilitat del sistema informàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Planifica i realitza el mètode de partició del disc."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la i actualitza el sistema."
+              },
+              {
+                "codi": "CA14",
+                "text": "Comprova el funcionament correcte i la connectivitat dels sistemes operatius i programari instal·lats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Diferencia els modes d’instal·lació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica procediments per a l’automatització d’instal·lacions i tasques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Interpreta la informació de configuració del sistema operatiu en xarxa."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza tasques de manteniment del programari instal·lat en el sistema i de configuració de l’entorn."
+              },
+              {
+                "codi": "CA19",
+                "text": "Instal·la, configura i descriu les característiques de programes de monitoratge."
+              },
+              {
+                "codi": "CA110",
+                "text": "Identifica problemes de rendiment en el sistema a partir de les traces generades pel mateix sistema."
+              },
+              {
+                "codi": "CA111",
+                "text": "Documenta adequadament els processos realitzats d’instal·lació i monitoratge, les incidències aparegudes i les solucions aportades."
+              },
+              {
+                "codi": "CA112",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Realitza tasques de gestió sobre dominis utilitzant eines d’administració de dominis i interpretant-ne la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica la funció de servei de directori i domini, l’estructura, els seus elements i nomenclatura."
+              },
+              {
+                "codi": "CA22",
+                "text": "Realitza la instal·lació i configuració bàsica del servei de directori i estableix relacions de confiança."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza eines gràfiques d’administració de domini i consoles d’administració."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza agrupacions d’elements per a la creació de models administratius."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea, configura i gestiona comptes d’usuari, grups, equips i diferents tipus de perfils."
+              },
+              {
+                "codi": "CA26",
+                "text": "Especifica el propòsit dels grups, els seus tipus i àmbits, i gestiona la pertinença d’usuaris a grups."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica les característiques d’usuaris i grups predeterminats i especials."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza eines per a l’administració d’usuaris i grups, incloses en el sistema operatiu en xarxa."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica i aplica directrius a la gestió del domini"
+              },
+              {
+                "codi": "CA210",
+                "text": "Verifica la correcció de les tasques realitzades i documenta adequadament les tasques de gestió i administració de dominis realitzades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació, actualització i monitoratge de sistemes operatius en xarxa lliures",
+                "items": [
+                  "Realització de l’estudi de compatibilitat del sistema informàtic. Planificació i realització de la partició del disc. Selecció i aplicació dels sistemes d’arxius i components a instal·lar.",
+                  "Instal·lació i actualització del sistema. Comprovació del funcionament correcte i connectivitat del sistema.",
+                  "Diferenciació dels modes i mètodes d’instal·lació. Automatització d’instal·lacions i tasques.",
+                  "Interpretació de la informació de configuració del sistema. Realització de tasques de manteniment del programari instal·lat en el sistema i de configuració de l’entorn personal.",
+                  "Instal·lació, configuració i descripció dels programes de monitoratge. Observació de l’activitat del sistema. Identificació de problemes de rendiment del sistema. Arrencada/aturada. Processos. Descripció de les possibles errades i solucions.",
+                  "Documentació del procés d’instal·lació i monitoratge, de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              },
+              {
+                "bloc": "Gestió de dominis",
+                "items": [
+                  "Identificació de la funció de servei de directori i domini. Estructura. Elements i nomenclatura. Realització de la instal·lació i configuració bàsica d’un servei de directori. Creació de dominis i establiment de relacions de confiança.",
+                  "Utilització d’eines gràfiques d’administració de dominis. Consoles d’administració.",
+                  "Ús d’agrupacions d’elements per a la creació de models administratius. Creació, configuració i gestió de comptes d’usuari, grup, equip i diferents tipus de perfils.",
+                  "Especificació del propòsit dels grups. Tipus i àmbits. Propietats. Gestió de la pertinença d’usuaris a grups. Identificació de les característiques d’usuaris i grups predeterminats i especials del sistema. Utilització d’eines per a l’administració d’usuaris i grups, incloses en el sistema operatiu en xarxa .",
+                  "Aplicació de directrius a la gestió de dominis. Tipus de directrius.",
+                  "Comprovació del funcionament correcte de les instal·lacions i configuracions realitzades. Documentació del procés d’instal·lació i de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "compartició de recursos i seguretat",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Comparteix recursos en xarxa i gestiona la seguretat, instal·lant programari específic i interpretant la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la diferència entre permís i dret."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica i assigna els recursos del sistema que es compartiran."
+              },
+              {
+                "codi": "CA13",
+                "text": "Comparteix impressores en xarxa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza l’entorn gràfic per compartir recursos."
+              },
+              {
+                "codi": "CA15",
+                "text": "Estableix nivells de seguretat per controlar l’accés del client als recursos compartits en xarxa."
+              },
+              {
+                "codi": "CA16",
+                "text": "Gestiona grups d’usuaris i l’accés als recursos compartits del sistema."
+              },
+              {
+                "codi": "CA17",
+                "text": "Comprova el funcionament correcte de les configuracions realitzades."
+              },
+              {
+                "codi": "CA18",
+                "text": "Documenta les tasques de gestió de recursos realitzades, les incidències aparegudes i les solucions aportades."
+              },
+              {
+                "codi": "CA19",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Compartició i seguretat en sistemes operatius en xarxa",
+                "items": [
+                  "Reconeixement de la diferència entre permisos i drets. Utilitat i necessitat.",
+                  "Identificació i assignació de recursos a compartir. Arxius i directoris.",
+                  "Compartició d’impressores en xarxa.",
+                  "Utilització de l’entorn gràfic per compartir recursos.",
+                  "Establiment de nivells de seguretat per controlar l’accés del client als recursos compartits en xarxa.",
+                  "Gestió de grups d’usuaris i de l’accés als recursos compartits del sistema.",
+                  "Comprovació del funcionament correcte de les instal·lacions i configuracions realitzades.",
+                  "Documentació del procés d’instal·lació i de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "integració de sistemes operatius",
+        "hores": 36,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza tasques d’integració de sistemes operatius lliures i propietaris, instal·lant programari específic i interpretant la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la necessitat de compartir recursos en xarxa entre diferents sistemes operatius."
+              },
+              {
+                "codi": "CA12",
+                "text": "Comprova la connectivitat de la xarxa en un escenari heterogeni."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu la funcionalitat dels serveis que permeten compartir recursos en xarxa."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la i configura serveis per compartir recursos en xarxa."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza eines gràfiques per a la gestió de recursos compartits en escenaris heterogenis."
+              },
+              {
+                "codi": "CA16",
+                "text": "Accedeix a sistemes d’arxius en xarxa des d’equips amb diferents sistemes operatius."
+              },
+              {
+                "codi": "CA17",
+                "text": "Accedeix a impressores des d’equips amb diferents sistemes operatius."
+              },
+              {
+                "codi": "CA18",
+                "text": "Gestiona usuaris i grups."
+              },
+              {
+                "codi": "CA19",
+                "text": "Estableix nivells de seguretat per controlar l’accés dels usuaris i grups als recursos compartits en xarxa."
+              },
+              {
+                "codi": "CA110",
+                "text": "Comprova el funcionament dels serveis instal·lats."
+              },
+              {
+                "codi": "CA111",
+                "text": "Documenta les tasques d’integració realitzades, les incidències aparegudes i les solucions aportades."
+              },
+              {
+                "codi": "CA112",
+                "text": "Cerca i interpreta documentació tècnica en les llengües oficials i en les de més ús en el sector."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Serveis per compartir recursos en escenaris heterogenis",
+                "items": [
+                  "Identificació de la necessitat de compartir recursos en xarxa entre diferents sistemes operatius.",
+                  "Comprovació de la connectivitat en escenaris heterogenis.",
+                  "Descripció de la funcionalitat dels serveis de xarxa per compartir recursos en escenaris heterogenis.",
+                  "Instal·lació i configuració de serveis de xarxa per compartir recursos.",
+                  "Ús d’eines gràfiques per a la gestió de recursos compartits en escenaris heterogenis.",
+                  "Accés a sistemes d’arxius en xarxa en escenaris heterogenis. Fitxers de configuració",
+                  "Accés a impressores en escenaris heterogenis. Fitxers de configuració.",
+                  "Gestió d’usuaris i grups.",
+                  "Establiment de nivells de seguretat per controlar l’accés dels usuaris i grups als recursos compartits en xarxa.",
+                  "Comprovació del funcionament correcte de les instal·lacions i configuracions realitzades.",
+                  "Documentació del procés d’instal·lació i de les incidències aparegudes amb les seves solucions.",
+                  "Interpretació de documentació tècnica."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

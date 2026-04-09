@@ -1,0 +1,530 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IFC",
+    "titol_cicle": "Instal·lacions Frigorífiques i de Climatització",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "decret",
+    "font_ref": "Decret 200/2015, de 15 de setembre",
+    "titol_decret": "DECRET 200/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions frigorífiques i de climatització.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/200/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "instal·lacions elèctriques i automatismes",
+    "hores_totals": 264,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "representació gràfica en instal·lacions elèctriques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Dibuixa esquemes de quadres elèctrics i d’instal·lacions aplicant-hi la normativa i els convencionalismes de representació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la simbologia i la relaciona amb els elements reals."
+              },
+              {
+                "codi": "CA12",
+                "text": "Especifica les característiques dels elements que intervenen en els circuits elèctrics tenint en compte la seva funció i aplicació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Representa gràficament els esquemes elèctrics i de control amb la simbologia d’aplicació i utilitzant programari de dibuix."
+              },
+              {
+                "codi": "CA14",
+                "text": "Aplica la normativa electrotècnica corresponent."
+              },
+              {
+                "codi": "CA15",
+                "text": "Té en compte la normativa de representació del sector."
+              },
+              {
+                "codi": "CA16",
+                "text": "Representa gràficament els borns amb la simbologia i numeració correcta."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza programes de disseny d’ús habitual al sector."
+              },
+              {
+                "codi": "CA18",
+                "text": "Verifica el funcionament dels circuits utilitzant programari de simulació."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Representació gràfica i simbologia a les instal·lacions elèctriques",
+                "items": [
+                  "Normes de representació.",
+                  "Simbologia normalitzada a les instal·lacions elèctriques i circuits electrònics.",
+                  "Plànols i esquemes elèctrics normalitzats.",
+                  "Interpretació d’esquemes elèctrics de les instal·lacions elèctriques i circuits electrònics.",
+                  "Normativa i reglamentació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "muntatge i mecanització de quadres elèctrics",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta circuits de maniobra i força amb components característics, interpretant esquemes i verificant el seu funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu les magnituds fonamentals de les instal·lacions elèctriques i les relaciona amb les seves unitats."
+              },
+              {
+                "codi": "CA12",
+                "text": "Interpreta els símbols normalitzats elèctrics i electrònics en croquis i esquemes."
+              },
+              {
+                "codi": "CA13",
+                "text": "Calcula les magnituds característiques en circuits de CC i CA, i aplica les lleis i els teoremes bàsics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu el funcionament dels circuits de contactors, relés i temporitzadors."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu els principis de funcionament dels receptors i motors."
+              },
+              {
+                "codi": "CA16",
+                "text": "Interpreta esquemes elèctrics, analitzant el funcionament dels circuits de força i comandament dels equips i de les instal·lacions."
+              },
+              {
+                "codi": "CA17",
+                "text": "Munta circuits senzills de maniobra i força utilitzant components elèctrics típics d’instal·lacions frigorífiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Munta circuits senzills amb transformadors i fonts d’alimentació."
+              },
+              {
+                "codi": "CA19",
+                "text": "Munta circuits senzills de fonts d’alimentació amb panells solars."
+              },
+              {
+                "codi": "CA110",
+                "text": "Munta circuits de comandament i de regulació de velocitat de motors monofàsics i trifàsics."
+              },
+              {
+                "codi": "CA111",
+                "text": "Mesura les magnituds fonamentals amb els equips adequats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta quadres i sistemes elèctrics associats, interpretant esquemes i justificant la funció de cada element en el conjunt.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Interpreta els esquemes de maniobra, control i força."
+              },
+              {
+                "codi": "CA22",
+                "text": "Selecciona els components i els conductors que configuren el quadre."
+              },
+              {
+                "codi": "CA23",
+                "text": "Relaciona cada element amb la seva funció en el conjunt."
+              },
+              {
+                "codi": "CA24",
+                "text": "Mecanitza el tauler elèctric, munta les guies i canalons i deixa els marges disposats en l’esquema."
+              },
+              {
+                "codi": "CA25",
+                "text": "Selecciona les eines requerides per a cada intervenció."
+              },
+              {
+                "codi": "CA26",
+                "text": "Munta els elements dels quadres elèctrics en condicions de qualitat."
+              },
+              {
+                "codi": "CA27",
+                "text": "Munta els quadres de comandament i de protecció en condicions de qualitat."
+              },
+              {
+                "codi": "CA28",
+                "text": "Aplica les normatives i reglamentacions electrotècniques."
+              },
+              {
+                "codi": "CA29",
+                "text": "Comprova el funcionament del quadre, d’acord amb les especificacions."
+              },
+              {
+                "codi": "CA210",
+                "text": "Opera amb autonomia en les activitats proposades."
+              },
+              {
+                "codi": "CA211",
+                "text": "Respecta els temps estipulats per a la realització de l’activitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Mesura magnituds i realitza comprovacions de seguretat elèctriques, actuant sobre equips i instal·lacions en funcionament i interpretant-ne els resultats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Selecciona l’instrument de mesura corresponent a la magnitud que s’ha de mesurar i als valors dels paràmetres."
+              },
+              {
+                "codi": "CA32",
+                "text": "Aplica procediments de mesura d’acord amb la magnitud que s’ha de mesurar."
+              },
+              {
+                "codi": "CA33",
+                "text": "Interpreta el valor de la mesura d’acord amb les especificacions."
+              },
+              {
+                "codi": "CA34",
+                "text": "Verifica la resposta dels elements de protecció davant d’anomalies."
+              },
+              {
+                "codi": "CA35",
+                "text": "Opera amb autonomia en les activitats proposades."
+              },
+              {
+                "codi": "CA36",
+                "text": "Respecta els temps estipulats per a la realització de l’activitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Compleix les normes de prevenció de riscos laborals i de protecció ambiental, identificant-hi els riscos associats, les mesures i els equips per prevenir-los.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els riscos i el nivell de perillositat que suposen la manipulació dels materials, eines, estris, màquines i mitjans de transport."
+              },
+              {
+                "codi": "CA42",
+                "text": "Opera les eines i els equips de mesura respectant les normes de seguretat."
+              },
+              {
+                "codi": "CA43",
+                "text": "Identifica les causes més freqüents d’accidents en la manipulació de materials, eines, màquines de tall i conformació, entre d’altres."
+              },
+              {
+                "codi": "CA44",
+                "text": "Descriu els elements de seguretat (proteccions, alarmes, passos d’emergència, entre d’altres) de les màquines i dels equips de protecció individual (calçat, protecció ocular, indumentària, entre d’altres) que s’han d’emprar en les diferents operacions de muntatge i desmuntatge de quadres elèctrics i motors, entre d’altres."
+              },
+              {
+                "codi": "CA45",
+                "text": "Relaciona la manipulació de materials, eines, i equips de mesura amb les mesures de seguretat i protecció personal requerits."
+              },
+              {
+                "codi": "CA46",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en la preparació i execució de les operacions de muntatge i de manteniment de les instal·lacions elèctriques associades a les instal·lacions tèrmiques."
+              },
+              {
+                "codi": "CA47",
+                "text": "Identifica les possibles fonts de contaminació de l’entorn ambiental."
+              },
+              {
+                "codi": "CA48",
+                "text": "Classifica els residus generats per a la seva retirada selectiva."
+              },
+              {
+                "codi": "CA49",
+                "text": "Valora l’ordre i la netedat d’instal·lacions i d’equips com a primer factor de prevenció de riscos."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge de circuits elèctrics bàsics de maniobra i força",
+                "items": [
+                  "Muntatge de circuits bàsics elèctrics de maniobra i força i fonts d’alimentació: convencionals i panells fotovoltaics. Corrent continu. Magnituds elèctriques i unitats.",
+                  "Simbologia i representació gràfica. Interpretació d’esquemes.",
+                  "Elements dels circuits: interruptors, commutadors, polsadors, relés, contactors i temporitzadors, entre d’altres.",
+                  "Components passius: resistències, bobines i condensadors.",
+                  "Motors: Tipus. Característiques. Connexions.",
+                  "Aparell de mesura. Tipus. Aplicacions.",
+                  "Mesura de les magnituds fonamentals sobre circuits. Procediments de mesura. Seguretat en les mesures elèctriques."
+                ]
+              },
+              {
+                "bloc": "Muntatge de quadres i sistemes elèctrics associats",
+                "items": [
+                  "Mecanitzacions de quadres elèctrics i muntatge de guies i de canalons.",
+                  "Proteccions. Tipus i característiques. Aplicacions.",
+                  "Quadres elèctrics. Tipologia i característiques. Camps d’aplicació.",
+                  "Conductors elèctrics. Classificació i aplicacions. Seccions.",
+                  "Colors normalitzats.",
+                  "Muntatge d’un quadre de comandament i protecció (ICP, PIA, ID, magnetotèrmics).",
+                  "Muntatge, distribució i connexions d’elements de protecció, comandament i senyalització.",
+                  "Mesures elèctriques en les instal·lacions."
+                ]
+              },
+              {
+                "bloc": "Presa de dades en instal·lacions en servei",
+                "items": [
+                  "Equips de mesura: tipologia i característiques.",
+                  "Preparació per a la mesura de magnituds en instal·lacions en servei.",
+                  "Registre i interpretació de mesures elèctriques.",
+                  "Comprovacions sobre els elements de protecció."
+                ]
+              },
+              {
+                "bloc": "Prevenció de riscos laborals i de protecció ambiental",
+                "items": [
+                  "Identificació de riscos associats a les operacions de muntatge i de manteniment de les instal·lacions elèctriques.",
+                  "Determinació de les mesures de prevenció de riscos laborals.",
+                  "Prevenció de riscos laborals en les operacions de muntatge i de manteniment de les instal·lacions elèctriques, associades a les instal·lacions tèrmiques.",
+                  "Factors físics de l’entorn de treball.",
+                  "Equips de protecció individual.",
+                  "Compliment de la normativa de prevenció de riscos laborals i de seguretat davant del risc elèctric.",
+                  "Compliment de la normativa de protecció ambiental.",
+                  "Mètodes/normes d’ordre i de netedat.",
+                  "Protecció ambiental.",
+                  "Compromís ètic amb els valors de conservació i defensa del patrimoni ambiental i cultural de la societat."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "Automatització elèctrica cablada i programable",
+        "hores": 143,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta i desmunta motors elèctrics identificant-ne els components i descrivint-ne la funció en el conjunt.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els tipus de motors elèctrics utilitzats a les instal·lacions frigorífiques, de climatització i de ventilació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Desmunta/munta els motors utilitzant eines i tècniques adequades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els elements constitutius dels motors elèctrics, segons el tipus."
+              },
+              {
+                "codi": "CA14",
+                "text": "Descriu els diferents circuits d'engegada dels motors elèctrics."
+              },
+              {
+                "codi": "CA15",
+                "text": "Mesura els paràmetres característics i de funcionament i determina l'estat del motor."
+              },
+              {
+                "codi": "CA16",
+                "text": "Opera amb autonomia en les activitats proposades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Respecta els temps estipulats per fer l'activitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Connecta els motors amb els elements auxiliars de comandament, protecció i regulació de velocitat, interpretant esquemes i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els circuits d'engegada i d'inversió dels motors elèctrics trifàsics."
+              },
+              {
+                "codi": "CA22",
+                "text": "Descriu els sistemes de regulació de velocitat."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els elements de protecció i de regulació de velocitat dels motors."
+              },
+              {
+                "codi": "CA24",
+                "text": "Connecta els motors elèctrics amb els elements auxiliars d'acord amb el tipus i les característiques."
+              },
+              {
+                "codi": "CA25",
+                "text": "Opera amb autonomia en les activitats proposades."
+              },
+              {
+                "codi": "CA26",
+                "text": "Respecta els temps estipulats per fer l'activitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Localitza i repara disfuncions dels quadres i de la instal·lació elèctrica, identificant-hi les causes que les produeixen i relacionant-les amb els símptomes que presenta.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Interpreta els esquemes dels quadres i de la instal·lació, relacionant-los amb els elements reals."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els símptomes de la disfunció."
+              },
+              {
+                "codi": "CA33",
+                "text": "Elabora un procediment d'intervenció."
+              },
+              {
+                "codi": "CA34",
+                "text": "Fa mesures i verificacions."
+              },
+              {
+                "codi": "CA35",
+                "text": "Elabora hipòtesis de les possibles causes de l'avaria."
+              },
+              {
+                "codi": "CA36",
+                "text": "Localitza l'element responsable de la disfunció o avaria."
+              },
+              {
+                "codi": "CA37",
+                "text": "Repara la disfunció substituint l'element o reconstruint el cablatge."
+              },
+              {
+                "codi": "CA38",
+                "text": "Verifica el restabliment del funcionament després de la intervenció."
+              },
+              {
+                "codi": "CA39",
+                "text": "Fa la intervenció en el temps establert."
+              },
+              {
+                "codi": "CA310",
+                "text": "Maneja amb destresa els equips i les eines."
+              },
+              {
+                "codi": "CA311",
+                "text": "Elabora un informe de les intervencions efectuades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Munta sistemes automàtics senzills amb autòmats programables, interpretant esquemes i verificant l'execució del programa de control.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els elements que componen l'autòmat programable."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica els tipus d'entrades i de sortides (analògiques i digitals) de l'autòmat."
+              },
+              {
+                "codi": "CA43",
+                "text": "Relaciona cada entrada o sortida amb la seva numeració."
+              },
+              {
+                "codi": "CA44",
+                "text": "Connecta els equips i els elements perifèrics a l'autòmat (el cablatge de l'alimentació i entrades i sortides, entre d'altres)."
+              },
+              {
+                "codi": "CA45",
+                "text": "Interpreta les funcions bàsiques i instruccions d'aplicació."
+              },
+              {
+                "codi": "CA46",
+                "text": "Programa circuits automàtics bàsics i en verifica el funcionament."
+              },
+              {
+                "codi": "CA47",
+                "text": "Estableix la comunicació del programari amb l'autòmat mitjançant el programa de comunicacions corresponent."
+              },
+              {
+                "codi": "CA48",
+                "text": "Carrega el programa de control a l'autòmat."
+              },
+              {
+                "codi": "CA49",
+                "text": "Verifica el funcionament del programa."
+              },
+              {
+                "codi": "CA410",
+                "text": "Localitza i soluciona disfuncions senzilles en circuits automàtics bàsics amb autòmats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Connexions de motors",
+                "items": [
+                  "Classificació de les màquines elèctriques: generadors, transformadors i motors.",
+                  "Identificació i interpretació de les plaques de característiques.",
+                  "Motors de CA i motors de CC: posada en servei.",
+                  "Motors pas a pas (regulació de vàlvules, comportes, entre d'altres).",
+                  "Muntatge de sistemes d'engegada de motors trifàsics (proteccions del motor, estrella-triangle i doble estrella, entre d'altres).",
+                  "Muntatge de sistemes d'engegada de motors monofàsics (PTC, relé intensitat i condensadors entre d'altres).",
+                  "Muntatge d'inversors de gir de motors trifàsics i monofàsics.",
+                  "Muntatge de sistemes de regulació de velocitat de motors elèctrics trifàsics i monofàsics i de CC. Precaucions."
+                ]
+              },
+              {
+                "bloc": "Muntatge de sistemes de comandament i de control",
+                "items": [
+                  "Constitució dels sistemes de comandament i de regulació. Principis bàsics.",
+                  "Dispositius de comandament i de regulació: sensors (pressòstats, termòstats, entre d'altres), reguladors i actuadors.",
+                  "Interpretació d'esquemes d'automatismes elèctrics.",
+                  "Muntatge de circuits de comandament i de potència.",
+                  "Identificació i localització de disfuncions en quadres elèctrics i instal·lacions associades."
+                ]
+              },
+              {
+                "bloc": "Localització i reparació de disfuncions de l'equip elèctric",
+                "items": [
+                  "Símptomes de les disfuncions elèctriques freqüents. Detecció de disfuncions.",
+                  "Comparació d'esquemes amb quadres reals. Relació causa-efecte de les disfuncions.",
+                  "Procediments d'intervenció sobre equips elèctrics.",
+                  "Substitució de components o reparació dels existents."
+                ]
+              },
+              {
+                "bloc": "Connexió i programació d'autòmats programables",
+                "items": [
+                  "Estructura i característiques dels autòmats programables.",
+                  "Entrades i sortides: digitals, analògiques.",
+                  "Muntatge i connexió d'autòmats programables en instal·lacions (alimentació, entrades i sortides, i interfície).",
+                  "Programació bàsica d'autòmats: llenguatges i procediments.",
+                  "Manteniment i reparació d'instal·lacions d'automatització programables.",
+                  "Muntatge i connexió d'autòmats programables en instal·lacions auxiliars (bombes d'aigua, electropneumàtiques, entre d'altres)."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

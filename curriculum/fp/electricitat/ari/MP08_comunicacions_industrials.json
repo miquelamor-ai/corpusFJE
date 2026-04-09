@@ -1,0 +1,661 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "comunicacions industrials",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "estructures i protocols de comunicacions industrials",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els sistemes de comunicació industrial i les normes físiques utilitzades, identificant els diferents elements que els componen i relacionant el seu funcionament amb les prestacions del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la funcionalitat dels sistemes de comunicació industrial i les seves possibilitats d’integració i d’intercanvi de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix l’estructura d’un sistema de comunicació industrial."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els nivells funcionals i operatius, i els relaciona amb els camps d’aplicació característics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix les característiques que determinen els entorns industrials de control distribuït i entorns CIM (computer integrated manufacturing)."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza el model de referència OSI (open system interconnection) d'ISO (international organization for standardization), descrivint la funció de cada un dels seus nivells i la relació entre ells."
+              },
+              {
+                "codi": "CA16",
+                "text": "Determina les tècniques de transmissió de dades en funció de la tecnologia emprada."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza els paràmetres de comunicació, identificant la funció que realitza en la transmissió de dades sèrie."
+              },
+              {
+                "codi": "CA18",
+                "text": "Reconeix les normes físiques utilitzades en xarxes de comunicació industrial identificant les interfícies i els elements de connexió."
+              },
+              {
+                "codi": "CA19",
+                "text": "Reconeix les diferents tècniques de control de flux de detecció d’errors i d’accés al medi en la transmissió de dades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Elabora programes bàsics de comunicació entre un ordinador i perifèrics externs d’aplicació industrial, utilitzant interfícies i protocols normalitzats i aplicant tècniques estructurades.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els camps bàsics que inclouen un protocol de comunicació industrial."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica les interfícies per als diferents tipus de comunicació industrial."
+              },
+              {
+                "codi": "CA23",
+                "text": "Configura la comunicació entre un ordinador i un equip industrial."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona els comandaments del protocol de comunicació que cal utilitzar per realitzar un programa de comunicació, identificant el mètode per a la detecció i correcció de possibles errors que es puguin produir."
+              },
+              {
+                "codi": "CA25",
+                "text": "Elabora el diagrama de flux que respon al funcionament d’un programa de comunicació industrial, utilitzant simbologia normalitzada."
+              },
+              {
+                "codi": "CA26",
+                "text": "Codifica el programa de comunicació en un llenguatge d’alt nivell."
+              },
+              {
+                "codi": "CA27",
+                "text": "Verifica la idoneïtat del programa amb el diagrama de flux elaborat i amb les especificacions proposades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta el programa, aplicant els procediments estandaritzats amb la suficient precisió per assegurar-ne el posterior manteniment."
+              },
+              {
+                "codi": "CA29",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA212",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement dels sistemes de comunicacions industrials",
+                "items": [
+                  "El procés de comunicació. Funcions i característiques dels elements que hi intervenen.",
+                  "Estructura d’una xarxa de comunicació industrial. Piràmide CIM.",
+                  "Arquitectura. Piràmide de les comunicacions. Nivells i relació entre nombre de dispositius, volum de dades i velocitat de resposta.",
+                  "Normativa de les xarxes de comunicació industrial. Organismes de normalització (ISO, IEC, IEEE...). Normes o recomanacions que afecten les comunicacions. Model OSI. Funció de cada capa i model reduït aplicat a les comunicacions industrials.",
+                  "Tipus de transmissió de dades. Transmissió sèrie i paral·lel.",
+                  "Organització de missatges de dades sèrie. Model asíncron i els seus paràmetres de comunicació. Model síncron.",
+                  "Modes de transmissió. Símplex, dúplex i semidúplex.",
+                  "Mètodes d’accés al medi. Centralitzats: mestre-esclau i pas de testimoni. Aleatoris: CSMA/CD. Sistema determinista i probabilístic.",
+                  "Normalització de les comunicacions sèrie. Característiques, senyals elèctriques, funció de cada senyal, connexions d’equips en xarxa i sistema diferencial com a mètode d’eliminació d’interferències durant la transmissió. Aplicacions industrials. RS232, RS422, RS485, USB, entre d’altres.",
+                  "Tècniques de control de flux.",
+                  "Tècniques de control d’errors.",
+                  "Característiques de les topologies de xarxes a l’àmbit industrial."
+                ]
+              },
+              {
+                "bloc": "Elaboració de programes bàsics de comunicació",
+                "items": [
+                  "Protocols de comunicacions. Camps genèrics que intervenen en un protocol d’un equip industrial.",
+                  "Dispositius de conversió. Convertidor de norma física. Convertidors de protocol.",
+                  "Estudi d’un protocol industrial. Instruccions de lectura i d’escriptura de dades. Instruccions de control. Tècniques per al control d’errors.",
+                  "Elaboració d’un programa en llenguatge d’alt nivell per a la comunicació entre un ordinador i un equip industrial."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes de control i supervisió de processos",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Configura els diferents equips de control i supervisió que intervenen en un sistema automàtic, programant els equips i integrant les comunicacions a una planta de producció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Relaciona les funcions que ofereix un sistema de supervisió i control amb aplicacions industrials d’automatització."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix totes les eines de configuració, i les relaciona amb la funció que realitzaran dins de l’aplicació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Configura avisos i alarmes, i les registra en un arxiu per a un posterior tractament."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura i programa sistemes de control i supervisió de diferents fabricants."
+              },
+              {
+                "codi": "CA15",
+                "text": "Integra plafons d’operador i ordinadors com a dispositius de control, supervisió i adquisició de dades en una xarxa de comunicació industrial."
+              },
+              {
+                "codi": "CA16",
+                "text": "Configura un sistema de control i supervisió per a la presentació gràfica de dades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Dóna funcionalitat al sistema de control per treballar amb dades relatives al manteniment de la màquina o al procés industrial."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA19",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica el funcionament del sistema de comunicació industrial, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica els paràmetres de configuració de cada equip."
+              },
+              {
+                "codi": "CA23",
+                "text": "Verifica el funcionament del programa perquè respecti les especificacions donades."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA25",
+                "text": "Mesura paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA27",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA28",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA210",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració dels diferents equips de control i supervisió",
+                "items": [
+                  "Definició i classificació dels sistemes de supervisió i control que intervenen en un sistema de comunicació industrial. Sistemes basats en panells d’operador: de tecles, tàctil amb o sense tecles. Sistemes basats en ordinador (SCADA).",
+                  "Principals característiques dels sistemes de supervisió i de control.",
+                  "Ergonomia en el disseny d’equips de supervisió. Disseny dels gràfics, distribució i navegació de les pantalles. Ús dels colors. Informació textual. Comandament i inserció de dades per l’operador. Representació de gràfics de tendència i de taules. Alarmes. Entre d’altres.",
+                  "Disseny de diferents pantalles i la interacció entre elles. Estructura jeràrquica d’accés a diferents pantalles. Seguretat per l’accés a pantalles d’aplicació específica (posada en marxa i manteniment).",
+                  "Visualització i escriptura de variables locals i globals.",
+                  "Generació de petits programes o scripts d'aplicació en els sistemes de supervisió.",
+                  "Representació gràfica de senyals dinàmics. Eines de visualització analògica: rellotges, barres gràfiques i corbes de tendències.",
+                  "Registre de valors i tractament d’arxius.",
+                  "Enllaç entre aplicacions mitjançant DDE, OPC, ActiveX, entre d’altres.",
+                  "Gestió de les dades per a la seva utilització en tècniques de manteniment: avisos, enregistraments numèrics i gràfics, i creació d’informes."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament del sistema de comunicació industrial",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Monitoratge de programes.",
+                  "Instruments de mesura.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "xarxes industrials",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Programa i configura els diferents busos utilitzats en l’àmbit industrial, identificant els elements que l’integren i relacionant-los amb la resta de dispositius que configuren un sistema automàtic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els diferents busos industrials actuals, i els relaciona amb la piràmide de les comunicacions."
+              },
+              {
+                "codi": "CA12",
+                "text": "Configura els equips d’una xarxa industrial per a la comunicació entre dispositius."
+              },
+              {
+                "codi": "CA13",
+                "text": "Programa una xarxa industrial per a l'intercanvi de dades entre dispositius."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura els components per a la seva utilització en la interconnexió de diferents xarxes per canvi de protocol o medi físic."
+              },
+              {
+                "codi": "CA15",
+                "text": "Representa els sistemes de comunicació industrial mitjançant blocs funcionals."
+              },
+              {
+                "codi": "CA16",
+                "text": "Selecciona els equips i els elements de la instal·lació a partir de documentació tècnica dels fabricants."
+              },
+              {
+                "codi": "CA17",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA18",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA19",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA110",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica el funcionament del sistema de comunicació industrial, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica els paràmetres de configuració de cada equip."
+              },
+              {
+                "codi": "CA23",
+                "text": "Verifica el funcionament del programa perquè respecti les especificacions donades."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA25",
+                "text": "Mesura paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA27",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA210",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Repara disfuncions en sistemes de comunicació industrial, observant el comportament del sistema i utilitzant eines de diagnosi.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica la tipologia i les característiques de les avaries de naturalesa física o lògica que es presenten en els sistemes de comunicació industrial."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els símptomes de l’avaria, caracteritzant els efectes que produeix a través de les mesures realitzades i de l’observació del comportament del sistema i dels equips."
+              },
+              {
+                "codi": "CA34",
+                "text": "Repara l’avaria."
+              },
+              {
+                "codi": "CA35",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA36",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA37",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              },
+              {
+                "codi": "CA38",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA39",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              },
+              {
+                "codi": "CA310",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació i configuració dels diferents busos de comunicació d’una planta industrial",
+                "items": [
+                  "Estudi i classificació dels busos industrials actuals segons l’àmbit d’aplicació.",
+                  "Interconnexió de xarxes. Repetidors. Ponts (bridges). Encaminador (router). Passarel·la (gateway). Entre d’altres.",
+                  "Busos de camp a nivell sensor-actuador.",
+                  "Xarxa de comunicació entre un controlador i perifèria descentralitzada.",
+                  "Xarxa de comunicació per a l'intercanvi de dades entre controladors.",
+                  "Xarxa de comunicació industrial (autòmats programables) amb integració de xarxa d’oficines (ordinadors).",
+                  "Incorporació de diferents equips de control en un mateix sistema de comunicació amb supervisió i intercanvi de dades entre tots ells."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament del sistema de comunicació industrial",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Monitoratge de programes.",
+                  "Instruments de mesura.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Reparació de disfuncions en sistemes de comunicació industrial",
+                "items": [
+                  "Diagnosi i localització d’avaries.",
+                  "Tècniques i protocols d’actuació.",
+                  "Configuració de registres d’avaries automatitzat i documental.",
+                  "Memòria tècnica.",
+                  "Valoració econòmica.",
+                  "Manual d’ús.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "sistemes d’accés remot a processos industrials",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Programa i configura els diferents busos utilitzats en l’àmbit industrial, identificant els elements que l’integren i relacionant-los amb la resta de dispositius que configuren un sistema automàtic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Configura els equips d’una xarxa industrial per a la comunicació entre dispositius."
+              },
+              {
+                "codi": "CA12",
+                "text": "Programa una xarxa industrial per a l'intercanvi de dades entre dispositius."
+              },
+              {
+                "codi": "CA13",
+                "text": "Configura els components per a la seva utilització en la interconnexió de diferents xarxes per canvi de protocol o medi físic."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza tècniques d’accés remot per al control de processos i la comunicació entre diferents equips industrials."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza tècniques de control remot per a la realització de funcions de manteniment."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza diferents medis físics per a la comunicació entre equips i sistemes."
+              },
+              {
+                "codi": "CA17",
+                "text": "Representa els sistemes de comunicació industrial mitjançant blocs funcionals."
+              },
+              {
+                "codi": "CA18",
+                "text": "Selecciona els equips i els elements de la instal·lació a partir de documentació tècnica dels fabricants."
+              },
+              {
+                "codi": "CA19",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA110",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA111",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA112",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica el funcionament del sistema de comunicació industrial, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA22",
+                "text": "Verifica els paràmetres de configuració de cada equip."
+              },
+              {
+                "codi": "CA23",
+                "text": "Verifica el funcionament del programa perquè respecti les especificacions donades."
+              },
+              {
+                "codi": "CA24",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA25",
+                "text": "Mesura paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA27",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              },
+              {
+                "codi": "CA29",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA210",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA211",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Repara disfuncions en sistemes de comunicació industrial, observant el comportament del sistema i utilitzant eines de diagnosi.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica la tipologia i les característiques de les avaries de naturalesa física o lògica que es presenten en els sistemes de comunicació industrial."
+              },
+              {
+                "codi": "CA33",
+                "text": "Identifica els símptomes de l’avaria, caracteritzant els efectes que produeix a través de les mesures realitzades i de l’observació del comportament del sistema i dels equips."
+              },
+              {
+                "codi": "CA34",
+                "text": "Repara l’avaria."
+              },
+              {
+                "codi": "CA35",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA36",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA37",
+                "text": "Manté l’àrea de treball, les eines, els utensilis i els equips amb el grau apropiat d’ordre, conservació i netedat."
+              },
+              {
+                "codi": "CA38",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA39",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              },
+              {
+                "codi": "CA310",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació i configuració dels diferents busos de comunicació d’una planta industrial",
+                "items": [
+                  "Sistemes per a l’accés a xarxes industrials des de l’exterior.",
+                  "Configuració de xarxes industrials amb la utilització de la tecnologia sense fil.",
+                  "Control de processos per ordinador.",
+                  "Elaboració de plànols i d’esquemes d’una xarxa de comunicació en sistemes d’automatització industrial.",
+                  "Elaboració de manuals d’instruccions de servei i manteniment de xarxes de comunicació."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament del sistema de comunicació industrial",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Monitoratge de programes.",
+                  "Instruments de mesura.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Reparació de disfuncions en sistemes de comunicació industrial",
+                "items": [
+                  "Diagnosi i localització d’avaries.",
+                  "Tècniques i protocols d’actuació.",
+                  "Configuració de registres d’avaries automatitzat i documental.",
+                  "Memòria tècnica.",
+                  "Valoració econòmica.",
+                  "Manual d’ús.",
+                  "Reglamentació vigent."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

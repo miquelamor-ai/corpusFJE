@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP08",
+    "nom": "serveis de xarxa i Internet",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "serveis de noms i de configuració automàtica",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra serveis de resolució de noms, analitzant-los i garantint la seguretat del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica i descriu escenaris en els quals sorgeix la necessitat d’un servei de resolució de noms."
+              },
+              {
+                "codi": "CA12",
+                "text": "Classifica els principals mecanismes de resolució de noms."
+              },
+              {
+                "codi": "CA13",
+                "text": "Descriu l’estructura, la nomenclatura i la funcionalitat dels sistemes de noms jeràrquics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Instal·la i configura serveis jeràrquics de resolució de noms."
+              },
+              {
+                "codi": "CA15",
+                "text": "Prepara el servei per reexpedir consultes de recursos externs a un altre servidor de noms."
+              },
+              {
+                "codi": "CA16",
+                "text": "Prepara el servei per emmagatzemar i distribuir les respostes procedents d’altres servidors."
+              },
+              {
+                "codi": "CA17",
+                "text": "Afegeix registres de noms corresponents a una zona nova, amb opcions relatives a servidors de correu i àlies."
+              },
+              {
+                "codi": "CA18",
+                "text": "Implementa solucions de servidors de noms en adreces IP dinàmiques."
+              },
+              {
+                "codi": "CA19",
+                "text": "Realitza transferències de zona entre dos o més servidors."
+              },
+              {
+                "codi": "CA110",
+                "text": "Documenta els procediments d’instal·lació i configuració."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra serveis de configuració automàtica, identificant-los i verificant la correcta assignació dels paràmetres.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix els mecanismes automatitzats de configuració dels paràmetres de xarxa i els avantatges que proporcionen."
+              },
+              {
+                "codi": "CA22",
+                "text": "Il·lustra els procediments i les pautes que intervenen en una sol·licitud de configuració dels paràmetres de xarxa."
+              },
+              {
+                "codi": "CA23",
+                "text": "Instal·la servidors de configuració dels paràmetres de xarxa."
+              },
+              {
+                "codi": "CA24",
+                "text": "Prepara el servei per assignar la configuració bàsica als equips d’una xarxa local."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura assignacions estàtiques i dinàmiques."
+              },
+              {
+                "codi": "CA26",
+                "text": "Integra en el servei opcions addicionals de configuració."
+              },
+              {
+                "codi": "CA27",
+                "text": "Documenta els procediments realitzats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació i administració de serveis de noms de domini",
+                "items": [
+                  "Sistemes de resolució de noms.",
+                  "Sistemes de noms plans i jeràrquics.",
+                  "Procés de resolució d’un nom de domini.",
+                  "Servidors arrel i dominis de primer nivell i successius.",
+                  "Zones primàries i secundàries.",
+                  "Tipus de registres.",
+                  "Servidors de noms en adreces IP dinàmiques.",
+                  "Transferències de zona."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i administració de serveis de configuració automàtica de xarxa",
+                "items": [
+                  "Funcionament del servei.",
+                  "Assignacions. Tipus.",
+                  "Paràmetres i declaracions de configuració.",
+                  "Ordres utilitzades per al funcionament del servei."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "serveis web i de transferència de fitxers",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra servidors web aplicant criteris de configuració i assegurant el funcionament del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els fonaments i protocols en els quals es basa el funcionament d’un servidor web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la i configura servidors web."
+              },
+              {
+                "codi": "CA13",
+                "text": "Amplia la funcionalitat del servidor mitjançant l’activació i configuració de mòduls."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea i configura llocs web virtuals."
+              },
+              {
+                "codi": "CA15",
+                "text": "Configura els mecanismes d’autenticació i control d’accés del servidor."
+              },
+              {
+                "codi": "CA16",
+                "text": "Obté i instal·la certificats digitals."
+              },
+              {
+                "codi": "CA17",
+                "text": "Estableix mecanismes per assegurar les comunicacions entre el client i el servidor."
+              },
+              {
+                "codi": "CA18",
+                "text": "Realitza proves de monitoratge del servei."
+              },
+              {
+                "codi": "CA19",
+                "text": "Analitza els registres del servei per a l’elaboració d’estadístiques i la resolució d’incidències."
+              },
+              {
+                "codi": "CA110",
+                "text": "Elabora documentació relativa a la instal·lació, configuració i recomanacions d’ús del servei."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra serveis de transferència de fitxers assegurant i limitant l’accés a la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Estableix la utilitat i el mode d’operació del servei de transferència de fitxers."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la i configura servidors de transferència de fitxers."
+              },
+              {
+                "codi": "CA23",
+                "text": "Crea usuaris i grups per a l’accés remot al servidor."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura l’accés anònim."
+              },
+              {
+                "codi": "CA25",
+                "text": "Estableix limitacions en els diferents modes d’accés."
+              },
+              {
+                "codi": "CA26",
+                "text": "Comprova l’accés al servidor, tant en manera activa com en manera passiva."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves amb clients en línia d’ordres i amb clients en manera gràfica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza el navegador com a client del servei de transferència de fitxers."
+              },
+              {
+                "codi": "CA29",
+                "text": "Elabora documentació relativa a la instal·lació, configuració i recomanacions d’ús del servei."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació i administració de servidors web",
+                "items": [
+                  "Característiques generals d’un servidor web.",
+                  "Configuració bàsica d’un servidor web.",
+                  "Mòduls: instal·lació, configuració i utilització.",
+                  "Llocs web virtuals: creació, configuració i utilització.",
+                  "Autenticació i control d’accés.",
+                  "Certificats. Servidors de certificats.",
+                  "Navegadors web. Paràmetres d’aparença i ús."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i administració de serveis de transferència de fitxers",
+                "items": [
+                  "Tipus de transferència de fitxers.",
+                  "Configuració del servei de transferència de fitxers.",
+                  "Tipus d’usuaris i accessos al servei.",
+                  "Modes de connexió del client.",
+                  "Permisos i quotes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "correu electrònic i missatgeria",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra servidors de correu electrònic, aplicant criteris de configuració i garantint la seguretat del servei.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els diferents protocols que intervenen en l’enviament i recollida del correu electrònic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la i configura un servidor de correu electrònic."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea comptes d’usuari i en verifica l’accés."
+              },
+              {
+                "codi": "CA14",
+                "text": "Estableix i aplica mètodes per impedir usos indeguts del servidor de correu electrònic."
+              },
+              {
+                "codi": "CA15",
+                "text": "Instal·la serveis per permetre la recollida remota del correu existent en les bústies d’usuari."
+              },
+              {
+                "codi": "CA16",
+                "text": "Usa clients de correu electrònic per enviar i rebre correu des dels comptes creats en el servidor."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza la signatura digital i el correu xifrat."
+              },
+              {
+                "codi": "CA18",
+                "text": "Configura el servidor de correu com a servei segur."
+              },
+              {
+                "codi": "CA19",
+                "text": "Elabora documentació relativa a la instal·lació, configuració i recomanacions d’utilització del servei."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra serveis de missatgeria instantània, notícies i llistes de distribució, verificant i assegurant l’accés dels usuaris.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els serveis de missatgeria instantània, notícies i llistes de distribució."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la i configura el servei de missatgeria instantània."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza clients gràfics i de text de missatgeria instantània."
+              },
+              {
+                "codi": "CA24",
+                "text": "Instal·la i configura el servei de notícies."
+              },
+              {
+                "codi": "CA25",
+                "text": "Instal·la i configura el servei de llistes de distribució."
+              },
+              {
+                "codi": "CA26",
+                "text": "Determina el tipus de llista i els modes d’accés permesos."
+              },
+              {
+                "codi": "CA27",
+                "text": "Crea comptes d’usuari verificant-ne l’accés als serveis de missatgeria instantània, notícies i llistes de distribució."
+              },
+              {
+                "codi": "CA28",
+                "text": "Elabora documentació relativa a la instal·lació, configuració i recomanacions d’ús dels serveis de missatgeria instantània, notícies i llistes de distribució."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació i administració del servei de correu electrònic",
+                "items": [
+                  "Protocols de transferència de missatges.",
+                  "Comptes de correu, àlies i bústies d’usuari.",
+                  "Protocols i serveis de baixada de correu.",
+                  "Clients de correu electrònic.",
+                  "Correu segur: signatura digital i xifratge de missatges."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i administració de serveis de missatgeria instantània, notícies i llistes de distribució",
+                "items": [
+                  "Característiques del servei de missatgeria instantània. Protocols.",
+                  "Clients gràfics de missatgeria instantània.",
+                  "Clients en mode text de missatgeria instantània.",
+                  "Característiques del servei de llistes de distribució.",
+                  "Tipus de llistes de distribució. Protocols.",
+                  "Tipus d’accés a la llista de distribució."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "serveis d’àudio i vídeo",
+        "hores": 24,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Administra serveis d’àudio identificant-ne les necessitats de distribució i adaptant-ne els formats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu la funcionalitat del servei d’àudio."
+              },
+              {
+                "codi": "CA12",
+                "text": "Instal·la i configura un servidor de distribució d’àudio."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la i configura el client per a l’accés al servidor d’àudio."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix i utilitza formats d’àudio digital."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza eines de reproducció d’àudio en el client."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza serveis d’àudio a través del navegador."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza tècniques de sindicació i subscripció d’àudio."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora documentació relativa a la instal·lació i administració del servidor d’àudio."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Administra serveis de vídeo identificant-ne les necessitats de distribució i adaptant-ne els formats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu la funcionalitat del servei de vídeo."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la i configura un servidor de vídeo."
+              },
+              {
+                "codi": "CA23",
+                "text": "Configura el client per a l’accés al servidor de vídeo."
+              },
+              {
+                "codi": "CA24",
+                "text": "Reconeix i utilitza formats de compressió de vídeo digital."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza tècniques de sindicació i subscripció de vídeo."
+              },
+              {
+                "codi": "CA26",
+                "text": "Descriu les característiques i els protocols utilitzats en el servei de videoconferència."
+              },
+              {
+                "codi": "CA27",
+                "text": "Instal·la i configura eines gràfiques per fer videoconferències."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza eines gràfiques i navegadors per fer videoconferències."
+              },
+              {
+                "codi": "CA29",
+                "text": "Elabora documentació relativa a la instal·lació i administració del servidor de vídeo i del servei de videoconferència."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació i administració del servei d’àudio",
+                "items": [
+                  "Servidors de reproducció en temps real.",
+                  "Formats d’àudio.",
+                  "Sindicació i subscripció d’àudio. Podcast."
+                ]
+              },
+              {
+                "bloc": "Instal·lació i administració del servei de vídeo",
+                "items": [
+                  "Formats d’imatge.",
+                  "Servidors de vídeo.",
+                  "Formats de vídeo. Còdecs i reproductors.",
+                  "Sindicació i subscripció de vídeo."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

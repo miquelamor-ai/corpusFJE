@@ -1,0 +1,456 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "telecontrol i automatismes",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "accionament i control d’instal·lacions de generació d’energia elèctrica",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Munta els accionaments utilitzats en instal·lacions de generació d’energia elèctrica, reconeixent-ne el funcionament i utilitzant documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica els diferents tipus d’accionaments utilitzats en centrals de generació d’energia elèctrica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Calcula la força i la velocitat d’actuació d’accionaments pneumàtics, hidràulics i elèctrics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza el muntatge d’accionaments tot o res."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els circuits electrònics associats amb accionaments de control proporcional."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza les connexions d’accionaments de control proporcional."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica el correcte funcionament d’accionaments de control proporcional."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Controla l’equipament elèctric i electrònic, configurant-ne i ajustant-ne els paràmetres.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix la funció i l’ajust de l’alternador."
+              },
+              {
+                "codi": "CA22",
+                "text": "Determina els ajustaments de l’excitació per als valors desitjats."
+              },
+              {
+                "codi": "CA23",
+                "text": "Configura els equips elèctrics de potència en alta tensió de la central."
+              },
+              {
+                "codi": "CA24",
+                "text": "Ajusta els acumuladors per a la càrrega desitjada."
+              },
+              {
+                "codi": "CA25",
+                "text": "Ajusta els rectificadors als paràmetres de potència i senyal especificats."
+              },
+              {
+                "codi": "CA26",
+                "text": "Reconeix els sistemes elèctrics auxiliars de la central (megafonia i telefonia, entre d’altres)."
+              },
+              {
+                "codi": "CA27",
+                "text": "Relaciona la instal·lació d’enllumenat i emergència amb els espais de la central."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Verificació i muntatge d’accionaments per a instal·lacions de generació d’energia elèctrica",
+                "items": [
+                  "Accionaments tipus tot o res. Connexió, instal·lació, accionaments pneumàtics, accionaments hidràulics i elèctrics.",
+                  "Càlcul de força parell i velocitat d’actuació dels diferents tipus d’accionaments.",
+                  "Muntatge d’accionaments de tot o res.",
+                  "Accionaments de control proporcional o servocontrolats."
+                ]
+              },
+              {
+                "bloc": "Control d’equipament elèctric i electrònic",
+                "items": [
+                  "Ajust de l’alternador. Funció de les parts de l’alternador.",
+                  "Ajustaments de l’excitació. Parts de l’excitació. Paràmetres de control.",
+                  "Configuració d’equips elèctrics de potència en alta tensió de la central.",
+                  "Selecció d’interruptors generals. Selecció d’interruptors de control.",
+                  "Ajustaments dels acumuladors.",
+                  "Configuració d’acumuladors.",
+                  "Connexió d’acumuladors.",
+                  "Ajustaments dels rectificadors.",
+                  "Rectificadors compactes.",
+                  "Configuració de rectificadors.",
+                  "Paràmetres de potència i de senyal.",
+                  "Sistemes de megafonia en centrals elèctriques. Configuració i ajustaments.",
+                  "Sistemes de telefonia i comunicacions en centrals. Precaucions.",
+                  "Característiques específiques de les instal·lacions d’enllumenat. Equips d’enllumenat d’emergència. Precaucions. Normes específiques."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "instrumentació i mesura d’instal·lacions de generació d’energia elèctrica",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els elements d’instrumentació, control i mesura utilitzats en instal·lacions de generació d’energia elèctrica, seleccionant elements i valorant paràmetres.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica els sensors elèctrics."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix el funcionament dels sensors elèctrics, mecànics i químics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els senyals generats per transductors emprats en centrals de generació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Connecta els sensors emprats en centrals de generació."
+              },
+              {
+                "codi": "CA15",
+                "text": "Enumera els circuits condicionadors de senyal i equips d’adquisició i mesura associats a transductors analògics i digitals."
+              },
+              {
+                "codi": "CA16",
+                "text": "Descriu els instruments de mesura utilitzats en centrals."
+              },
+              {
+                "codi": "CA17",
+                "text": "Determina els valors màxim, mitjà i eficaç de variables elèctriques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Obté els valors de variables pròpies de la xarxa elèctrica (potència activa i reactiva, factor de potència i freqüència, entre d’altres)."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització dels elements d’instrumentació i mesura utilitzats en instal·lacions de generació d’energia elèctrica",
+                "items": [
+                  "Transductors de variables físiques i elèctriques de tensió i intensitat contínua i alterna.",
+                  "Composició i funcionament dels transductors. Propietats característiques.",
+                  "Càlcul de valors màxim mitjà i eficaç del senyal elèctric.",
+                  "Obtenció dels valors característics d’una xarxa elèctrica a partir dels valors instantanis de tensió i d’intensitat, potència activa i reactiva, factor de potència, freqüència i fase.",
+                  "Condicionadors de senyal per a transductors i centrals d’adquisició de mesures.",
+                  "Sistemes d’adquisició i de tractament de dades."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "automatització i control en centrals de generació d’energia elèctrica",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Determina l’equipament elèctric i electrònic de control en centrals, configurant i ajustant sistemes de control.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica el funcionament general i els blocs constitutius del variador de freqüència."
+              },
+              {
+                "codi": "CA12",
+                "text": "Configura els paràmetres de funcionament del variador de freqüència."
+              },
+              {
+                "codi": "CA13",
+                "text": "Connecta el variador de freqüència."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica el maquinari necessari per al control de potència a força de microprocessador."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els perifèrics i els mòduls d’entrada i de sortida."
+              },
+              {
+                "codi": "CA16",
+                "text": "Connecta entrades i sortides digitals i analògiques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Configura els paràmetres fonamentals de senyals analògics."
+              },
+              {
+                "codi": "CA18",
+                "text": "Configura terminals de diàleg home-màquina de control local."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura instal·lacions automatitzades d’aplicació en processos, reconeixent elements i ajustant paràmetres.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Determina el funcionament d’un sistema de regulació i de control amb realimentació negativa."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els sistemes de control PID, de variables físiques, en manera local."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els sistemes de control basats en lògica de control difusa."
+              },
+              {
+                "codi": "CA24",
+                "text": "Compara el funcionament d’un sistema convencional amb un sistema de control difús."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura els elements d’E/S d’un sistema automàtic."
+              },
+              {
+                "codi": "CA26",
+                "text": "Configura els sistemes de control del sistema automàtic."
+              },
+              {
+                "codi": "CA27",
+                "text": "Simula el funcionament dels sistemes automàtics utilitzats en centrals elèctriques."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Utilitza aplicacions de control automàtic amb programari tipus SCADA, simulant controls i reconeixent ajusts de sistemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Relaciona els sistemes SCADA (supervisory control and data acquisition) habituals en telecontrol."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica les característiques bàsiques d’un sistema SCADA."
+              },
+              {
+                "codi": "CA33",
+                "text": "Utilitza interfícies gràfiques d’operació com a elements de diàleg home-màquina."
+              },
+              {
+                "codi": "CA34",
+                "text": "Realitza l’adquisició de dades i generació de senyals de control."
+              },
+              {
+                "codi": "CA35",
+                "text": "Simula la supervisió i el manteniment d’una central de generació d’energia, a través d’un SCADA."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica la utilització de sistemes SCADA en el control de subestacions elèctriques."
+              },
+              {
+                "codi": "CA37",
+                "text": "Opera una central eòlica o solar a través d’un sistema SCADA."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Equipament elèctric i electrònic de control en centrals",
+                "items": [
+                  "Variadors de freqüència amb i sense connexió a xarxa.",
+                  "Verificació dels senyals característics.",
+                  "Autòmat programable (PLC) i altres equips basats en microprocessadors i microcontroladors utilitzats per al control automàtic i servocontrol.",
+                  "Perifèrics i mòduls d’entrada i de sortida.",
+                  "Configuració de paràmetres de funcionament i alarmes.",
+                  "Programació bàsica de sistemes automatitzats basat en PLC.",
+                  "Equips de diàleg home-màquina. Booleans (polsadors, visualitzadors) terminals operador i programes SCADA."
+                ]
+              },
+              {
+                "bloc": "Configuració d’instal·lacions automatitzades d’aplicació en processos de centrals",
+                "items": [
+                  "Sistemes de control de variables físiques amb realimentació negativa.",
+                  "Control proporcional integral i derivatiu (PID). Control P. Control I. Control D.",
+                  "Sistemes de control òptim i adaptatiu implementats a còpia de tecnologia de lògica difusa (fuzzy logic).",
+                  "Configuració de sistemes automàtics de control de lògica difusa.",
+                  "Actuacions de control local en parcs eòlics.",
+                  "Actuacions de control local de parcs fotovoltaics.",
+                  "Simulació d’actuacions de control local de centrals hidràuliques.",
+                  "Elements de control i de maniobra en subestacions elèctriques."
+                ]
+              },
+              {
+                "bloc": "Utilització d’aplicacions de control automàtic amb programari tipus SCADA",
+                "items": [
+                  "Aplicacions SCADA (supervisor control and data acquisition).",
+                  "Característiques del programari SCADA. Editor gràfic. Sinòptics del procés.",
+                  "Interfícies gràfiques en aplicacions SCADA.",
+                  "Tècniques d’adquisició de dades. Punts. Tipus de punts. Objectes. Tipus d’objectes.",
+                  "Aplicacions en centrals de generació. Pantalles SCADA. Pantalles SCADA en centrals elèctriques tèrmiques. Pantalles SCADA en centrals eòliques.",
+                  "Pantalles SCADA en centrals fotovoltaiques.",
+                  "Tècniques de simulació de centrals elèctriques amb sistemes SCADA.",
+                  "Supervisió de sistemes descentralitzats amb programari SCADA."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "sistemes de comunicació i xarxes en centrals de generació d’energia elèctrica",
+        "hores": 44,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza sistemes de transmissió i comunicació per al telecontrol de processos, reconeixent-ne els components i els senyals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica els mitjans de transmissió emprats en telecontrol."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les propietats característiques dels mitjans de transmissió."
+              },
+              {
+                "codi": "CA13",
+                "text": "Implementa un sistema bàsic de transmissió a través de bus de camp per al control i mesura de variables físiques."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els busos de camp normalitzats més habituals en control de centrals de generació d’energia elèctrica."
+              },
+              {
+                "codi": "CA15",
+                "text": "Relaciona els sistemes de control en subestacions elèctriques a nivell de camp."
+              },
+              {
+                "codi": "CA16",
+                "text": "Distingeix una xarxa d’àrea local (LAN) utilitzada en sistemes de telecontrol."
+              },
+              {
+                "codi": "CA17",
+                "text": "Configura els paràmetres bàsics d’una xarxa d’àrea local."
+              },
+              {
+                "codi": "CA18",
+                "text": "Acciona elements a través d’una xarxa d’àrea local."
+              },
+              {
+                "codi": "CA19",
+                "text": "Opera una estació remota a través d’Internet."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Verifica xarxes de vigilància i control d’accessos, operant i configurant elements i sistemes.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els sistemes de videovigilància i control d’accés."
+              },
+              {
+                "codi": "CA22",
+                "text": "Instal·la un sistema d’alarma i control d’accessos a un recinte."
+              },
+              {
+                "codi": "CA23",
+                "text": "Verifica el funcionament del sistema d’alarma."
+              },
+              {
+                "codi": "CA24",
+                "text": "Instal·la càmeres IP per a la vigilància d’un espai."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza càmeres IP per a la vigilància d’un espai."
+              },
+              {
+                "codi": "CA26",
+                "text": "Configura un circuit tancat de televisió per a la vigilància d’un espai."
+              },
+              {
+                "codi": "CA27",
+                "text": "Simula la vigilància d’un espai mitjançant un circuit tancat de televisió."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització de sistemes de transmissió i de comunicació per al telecontrol de processos automàtics en centrals",
+                "items": [
+                  "Mitjans de transmissió.",
+                  "Propietats dels mitjans de transmissió.",
+                  "Busos de camp industrials.",
+                  "Sistemes de transmissió.",
+                  "Aplicacions de busos de camp en centrals elèctriques. Norma IEC 61850 per a la comunicació entre subestacions.",
+                  "Control de subestacions elèctriques.",
+                  "Xarxa d’àrea local (LAN). Descripció d’una xarxa Ethernet Industrial.",
+                  "Components bàsics de maquinari.",
+                  "Xarxes d’àrea extensa (WAN) i Internet.",
+                  "Configuració. Sistemes digitals de transmissió de dades (DSL). Descripció.",
+                  "Sistemes de modulació. Tipus de sistemes: ADSL, HDSL, SDSL, entre d’altres.",
+                  "Tècniques de telecontrol en centrals elèctriques."
+                ]
+              },
+              {
+                "bloc": "Verificació de xarxes de vigilància i control d’accessos utilitzant sistemes de seguretat i d’alarma",
+                "items": [
+                  "Sistemes d’alarma. Descripció i funcionament. Control d’accessos i presència.",
+                  "Instal·lació de sistemes d’alarma i control d’accessos. Funcionament dels sistemes d’alarma.",
+                  "Càmeres IP. Funcionament.",
+                  "Instal·lació i connexió de càmeres IP.",
+                  "Operació i vigilància d’espais mitjançant càmeres IP.",
+                  "Instal·lació de circuits tancats de televisió.",
+                  "Instal·lacions de control d’accessos amb circuit tancat de televisió. Control d’accessos.",
+                  "Seguretat en el control per Internet."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,734 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "administració de sistemes gestors de bases de dades",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "Llenguatges SQL: DCL i extensió procedimental. SGBD corporatiu, 33 hores",
+        "hores": 0,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta mètodes de control d'accés utilitzant assistents, eines gràfiques i comandaments del llenguatge del sistema gestor de bases de dades corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Coneix la normativa vigent sobre la protecció de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els diferents tipus d'usuaris d'una organització, per tal d'identificar els privilegis."
+              },
+              {
+                "codi": "CA13",
+                "text": "Crea, modifica i elimina comptes d'usuaris, assignant privilegis sobre la base de dades i els seus objectes, garantint el compliment dels requisits de seguretat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Agrupa i desagrupa privilegis, per tal d'assignar i d'eliminar privilegis a usuaris, garantint el compliment dels requisits de seguretat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Agrupa i desagrupa grups de privilegis a usuaris, garantint el compliment dels requisits de seguretat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Assigna i desassigna rols a usuaris."
+              },
+              {
+                "codi": "CA17",
+                "text": "Crea vistes personalitzades per a cada tipus d'usuari de la base de dades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa procediments emmagatzemats avaluant i utilitzant les sentències del llenguatge incorporat en el sistema gestor de bases de dades corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les eines disponibles en el sistema gestor de bases de dades per editar guions."
+              },
+              {
+                "codi": "CA22",
+                "text": "Defineix guions per automatitzar tasques que gestionen la base de dades."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els tipus de dades, identificadors, variables i constants."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza estructures de control de flux i llibreries de funcions."
+              },
+              {
+                "codi": "CA25",
+                "text": "Desenvolupa procediments i funcions d'usuari."
+              },
+              {
+                "codi": "CA26",
+                "text": "Gestiona els possibles errors dels procediments i funcions i controla les transaccions."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza cursors per manipular les dades d'una base de dades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza les funcions incorporades en el sistema gestor de bases de dades."
+              },
+              {
+                "codi": "CA29",
+                "text": "Desenvolupa disparadors."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Implanta sistemes gestors de bases de dades corporatius analitzant-ne les característiques i ajustant-se als requeriments del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Descriu els sistemes físics (RAID, SAN, NAS...) i els lògics (fitxers plans, fitxers d'accés directe, fitxers indexats, fitxers XML i SGBD) d'emmagatzematge de la informació: RAID, SAN, NAS, etc."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica altres mecanismes d'emmagatzematge avançats: XML i LDAP."
+              },
+              {
+                "codi": "CA33",
+                "text": "Distingeix entre els diferents SGBD (en xarxa, jeràrquic, relacional, documental i orientat a objectes) i n'identifica l'emmagatzematge en cada tipus."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica les funcions del SGBD."
+              },
+              {
+                "codi": "CA35",
+                "text": "Descriu els nivells de l'arquitectura general d'un SGBD."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica els diferents tipus d'usuari."
+              },
+              {
+                "codi": "CA37",
+                "text": "Identifica els diferents tipus de SGBD comercials i en coneix les característiques."
+              },
+              {
+                "codi": "CA38",
+                "text": "Descriu els components funcionals d'un SGBD: processos, gestor de fitxers, gestor de la base de dades, estructura de dades, transaccions, arxius log, etc."
+              },
+              {
+                "codi": "CA39",
+                "text": "Selecciona el SGBD corresponent segons els requeriments de l'usuari i identifica el programari i el maquinari necessari per dur a terme la instal·lació."
+              },
+              {
+                "codi": "CA310",
+                "text": "Instal·la el SGBD i documenta el procés d'instal·lació, identificant les eines implicades durant el procés."
+              },
+              {
+                "codi": "CA311",
+                "text": "Resol les incidències que es produeixen durant la instal·lació (si s'escau) i les documenta."
+              },
+              {
+                "codi": "CA312",
+                "text": "Verifica que la instal·lació del SGBD ha estat correcta i que correspon als requeriments de l'usuari."
+              },
+              {
+                "codi": "CA313",
+                "text": "Interpreta la documentació tècnica del fabricant del SGBD."
+              },
+              {
+                "codi": "CA314",
+                "text": "Identifica les característiques del sistema operatiu on s'instal·la el SGBD i el seu funcionament."
+              },
+              {
+                "codi": "CA315",
+                "text": "Identifica i crea el diccionari de dades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Configura el sistema gestor de bases de dades corporatiu interpretant-ne les especificacions tècniques i els requisits d'explotació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Descriu els paràmetres de configuració d'inici i d'aturada de l'SGBD."
+              },
+              {
+                "codi": "CA42",
+                "text": "Configura el SGBD tenint en compte els requeriments de l'usuari."
+              },
+              {
+                "codi": "CA43",
+                "text": "Identifica i configura els comptes d'administració del SGBD i la resta d'usuaris."
+              },
+              {
+                "codi": "CA44",
+                "text": "Configura l'espai físic tenint en compte les característiques del SGBD i la necessitat d'emmagatzematge."
+              },
+              {
+                "codi": "CA45",
+                "text": "Configura el diccionari de dades, en funció dels requeriments establerts."
+              },
+              {
+                "codi": "CA46",
+                "text": "Configura l'accés remot a la base de dades, tant des de clients com des d'altres processos executats en el mateix servidor."
+              },
+              {
+                "codi": "CA47",
+                "text": "Configura les eines i programari client del SGBD."
+              },
+              {
+                "codi": "CA48",
+                "text": "Defineix paràmetres relatius a les connexions: temps d'espera, nombre màxim de connexions, etc."
+              },
+              {
+                "codi": "CA49",
+                "text": "Configura la connectivitat en xarxa del SGBD."
+              },
+              {
+                "codi": "CA410",
+                "text": "Configura sistemes de bases de dades per intercanviar processos o dades: ODBC, client/servidor, RDA, DTP)."
+              },
+              {
+                "codi": "CA411",
+                "text": "Documenta el procés de configuració del SGBD."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Aplica criteris de disponibilitat analitzant-los i ajustant la configuració del sistema gestor de bases de dades corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Identifica les bases de dades distribuïdes: utilitat, diferències, avantatges i inconvenients, distribució de les dades, arquitectura, seguretat i recuperació."
+              },
+              {
+                "codi": "CA52",
+                "text": "Identifica els components d'un SGBD distribuït i els diferents tipus."
+              },
+              {
+                "codi": "CA53",
+                "text": "Diferencia entre les diferents tècniques de fragmentació en un model distribuït."
+              },
+              {
+                "codi": "CA54",
+                "text": "Identifica les tècniques de distribució de dades."
+              },
+              {
+                "codi": "CA55",
+                "text": "Identifica el disseny d'una base de dades distribuïda."
+              },
+              {
+                "codi": "CA56",
+                "text": "Identifica els paràmetres de configuració d'un SGBD distribuït: distribució de les dades, estructura local i administració de cada node, esquema de replicació."
+              },
+              {
+                "codi": "CA57",
+                "text": "Implanta una base de dades distribuïda homogènia."
+              },
+              {
+                "codi": "CA58",
+                "text": "Crea una base de dades distribuïda mitjançant la integració d'un conjunt de bases de dades preexistents."
+              },
+              {
+                "codi": "CA59",
+                "text": "Configura un node mestre i d'altres nodes esclaus, per replicar el primer."
+              },
+              {
+                "codi": "CA510",
+                "text": "Configura un sistema de replicació en cadena."
+              },
+              {
+                "codi": "CA511",
+                "text": "Planifica i desenvolupa tasques administratives, fent ús de les eines del SGBD."
+              },
+              {
+                "codi": "CA512",
+                "text": "Configura els mecanismes d'interconnexió dels diferents nodes de la base de dades."
+              },
+              {
+                "codi": "CA513",
+                "text": "Configura els paràmetres corresponents per controlar les transaccions distribuïdes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA6",
+            "text": "Optimitza el rendiment del sistema aplicant tècniques de monitoratge i fent adaptacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA61",
+                "text": "Identifica l'estructura de control d'un SGBD."
+              },
+              {
+                "codi": "CA62",
+                "text": "Identifica les tasques del DBA i les de la resta d'usuaris d'un SGBD."
+              },
+              {
+                "codi": "CA63",
+                "text": "Crea i modifica usuaris, donant permís d'accés a objectes de la base de dades i aplicant els drets corresponents tenint en compte l'organització."
+              },
+              {
+                "codi": "CA64",
+                "text": "Crea espais d'emmagatzematge físics per emmagatzemar objectes lògics de la base de dades."
+              },
+              {
+                "codi": "CA65",
+                "text": "Identifica les eines disponibles del SGBD per planificar les tasques administratives."
+              },
+              {
+                "codi": "CA66",
+                "text": "Desenvolupa tasques administratives comunes, fent ús de les eines del SGBD: atura i posa en marxa la base de dades, crea la base de dades, gestiona les cues de processos, gestiona el clúster, salvaguarda i recupera les dades, audita la base de dades, gestiona el diari de transaccions."
+              },
+              {
+                "codi": "CA67",
+                "text": "Construeix guions de sentències per automatitzar tasques administratives."
+              },
+              {
+                "codi": "CA68",
+                "text": "Descriu i posa en marxa tècniques i procediments per mantenir la seguretat, integritat i privacitat de la informació emmagatzemada."
+              },
+              {
+                "codi": "CA69",
+                "text": "Coneix els factors i paràmetres que afecten el rendiment."
+              },
+              {
+                "codi": "CA610",
+                "text": "Identifica i utilitza les eines de monitoratge disponibles al SGBD."
+              },
+              {
+                "codi": "CA611",
+                "text": "Aplica tècniques de monitoratge i optimització del rendiment del sistema."
+              },
+              {
+                "codi": "CA612",
+                "text": "Identifica els diferents tipus d'optimització: d'emmagatzematge, d'espai en disc i de procediments de transferències i de comunicacions."
+              },
+              {
+                "codi": "CA613",
+                "text": "Identifica i utilitza tècniques d'optimització de consultes en un SGBD."
+              },
+              {
+                "codi": "CA614",
+                "text": "Documenta els criteris de rendiment i d'altres paràmetres monitorats, els resultats obtinguts i, si escau, les noves adaptacions del sistema."
+              },
+              {
+                "codi": "CA615",
+                "text": "Fa modificacions en la configuració del sistema operatiu per millorar el rendiment del gestor, si escau."
+              },
+              {
+                "codi": "CA616",
+                "text": "Planifica i documenta un manteniment preventiu, si escau."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Gestió d'usuaris",
+                "items": [
+                  "Creació, modificació i eliminació d'usuaris.",
+                  "Administració de perfils, privilegis i rols.",
+                  "Assignació i desassignació de privilegis a usuaris sobre objectes de la base de dades.",
+                  "Definició de rols. Assignació i desassignació de rols a usuaris.",
+                  "Normativa legal vigent sobre protecció de dades."
+                ]
+              },
+              {
+                "bloc": "Programació en bases de dades",
+                "items": [
+                  "Entorns de desenvolupament a l'entorn de la base de dades.",
+                  "Tipus de guions: guions simples, procediments i funcions.",
+                  "La sintaxi del llenguatge de programació:",
+                  "Procediments i funcions.",
+                  "Control d'errors.",
+                  "Cursors i transaccions.",
+                  "Eines de depuració i de control de codi.",
+                  "Facilitats per al desenvolupament d'entorns gràfics.",
+                  "Llibreries bàsiques disponibles.",
+                  "Disparadors"
+                ]
+              },
+              {
+                "bloc": "Tipus d'emmagatzematge de la informació. SGBD corporatius. Instal·lació",
+                "items": [
+                  "Emmagatzematge en fitxers: plans, indexats, accés directe.",
+                  "Sistemes d'emmagatzematge: RAID, SAN, NAS, etc.",
+                  "Suports de còpies de seguretat.",
+                  "Emmagatzematge en SGBD:",
+                  "Tipus de SGBD comercials:",
+                  "Característiques dependents del sistema operatiu: memòria compartida, semàfors, gestió de processos i CPU, gestió d'E/S a disc, privilegis i altres paràmetres d'entorn del sistema."
+                ]
+              },
+              {
+                "bloc": "Comunicacions",
+                "items": [
+                  "Configuració de l'accés remot a la base de dades.",
+                  "Filosofia client/servidor (sockets, RPC, CORB, etc.).",
+                  "Interoperabilitat entre sistemes de bases de dades (RDA, ODBC, client/servidor, DTP, etc.)."
+                ]
+              },
+              {
+                "bloc": "SGBD distribuïts",
+                "items": [
+                  "Conceptes de SGBD distribuïts.",
+                  "Les regles de dades per a SGBD distribuïts.",
+                  "Components dels SGBD distribuïts: maquinari, programari (DDBMS, DTM, DBM i nodes), processadors locals, processador de dades distribuït, diccionari global.",
+                  "Conceptes de distribució, autonomia i heterogeneïtat.",
+                  "Tipus de SGBD distribuïts:",
+                  "Bloqueig i concurrència. Transaccions distribuïdes.",
+                  "Tècniques de fragmentació: vertical, horitzontal i mixta.",
+                  "Tècniques de distribució de dades.",
+                  "Esquemes d'assignació i replicació de dades.",
+                  "Seguretat i recuperació de la informació en les bases de dades distribuïdes.",
+                  "Nivells de processament de consultes: processadors locals, processadors distribuïts. Consultes distribuïdes.",
+                  "Disseny i gestió de bases de dades distribuïdes.",
+                  "Administració de bases de dades distribuïdes.",
+                  "Estructura de control d'un SGBD: diccionari de dades, variables de configuració, fitxers d'auditoria i control de transaccions.",
+                  "Control i administració d'un SGBD. Funcions de l'administrador del SGBD. Tipus d'usuaris (rols) en un SGBD. Permisos d'accés.",
+                  "Tasques administratives comunes, fent ús de les eines del SGBD:",
+                  "Factors i paràmetres que influeixen en el rendiment.",
+                  "Eines per al monitoratge: traces, fitxers log, definició d'alertes, altres eines del SGBD.",
+                  "Optimització de l'emmagatzematge en memòria.",
+                  "Optimització de l'espai en disc.",
+                  "Optimització de procediments de transferència i comunicacions.",
+                  "Ajust de paràmetres del SGBD per a l'optimització de l'execució de consultes: índexs, clústers.",
+                  "Manteniment preventiu."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "instal·lació i ajustament de SGBD corporatiu",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta sistemes gestors de bases de dades corporatius analitzant-ne les característiques i ajustant-se als requeriments del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Descriu els sistemes físics (RAID, SAN, NAS...) i els lògics (fitxers plans, fitxers d’accés directe, fitxers indexats, fitxers XML i SGBD) d’emmagatzematge de la informació: RAID, SAN, NAS, etc."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica altres mecanismes d’emmagatzematge avançats: XML i LDAP."
+              },
+              {
+                "codi": "CA13",
+                "text": "Distingeix entre els diferents SGBD (en xarxa, jeràrquic, relacional, documental i orientat a objectes) i n’identifica l’emmagatzematge en cada tipus."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica les funcions del SGBD."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu els nivells de l’arquitectura general d’un SGBD."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica els diferents tipus d’usuari."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica els diferents tipus de SGBD comercials i en coneix les característiques."
+              },
+              {
+                "codi": "CA18",
+                "text": "Descriu els components funcionals d’un SGBD: processos, gestor de fitxers, gestor de la base de dades, estructura de dades, transaccions, arxius log, etc."
+              },
+              {
+                "codi": "CA19",
+                "text": "Selecciona el SGBD corresponent segons els requeriments de l’usuari i identifica el programari i el maquinari necessari per dur a terme la instal·lació."
+              },
+              {
+                "codi": "CA110",
+                "text": "Instal·la el SGBD i documenta el procés d’instal·lació, identificant les eines implicades durant el procés."
+              },
+              {
+                "codi": "CA111",
+                "text": "Resol les incidències que es produeixen durant la instal·lació (si s’escau) i les documenta."
+              },
+              {
+                "codi": "CA112",
+                "text": "Verifica que la instal·lació del SGBD ha estat correcta i que correspon als requeriments de l’usuari."
+              },
+              {
+                "codi": "CA113",
+                "text": "Interpreta la documentació tècnica del fabricant del SGBD."
+              },
+              {
+                "codi": "CA114",
+                "text": "Identifica les característiques del sistema operatiu on s’instal·la el SGBD i el seu funcionament."
+              },
+              {
+                "codi": "CA115",
+                "text": "Identifica i crea el diccionari de dades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura el sistema gestor de bases de dades corporatiu interpretant-ne les especificacions tècniques i els requisits d’explotació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els paràmetres de configuració d’inici i d’aturada de l’SGBD."
+              },
+              {
+                "codi": "CA22",
+                "text": "Configura el SGBD tenint en compte els requeriments de l’usuari."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica i configura els comptes d’administració del SGBD i la resta d’usuaris."
+              },
+              {
+                "codi": "CA24",
+                "text": "Configura l’espai físic tenint en compte les característiques del SGBD i la necessitat d’emmagatzematge."
+              },
+              {
+                "codi": "CA25",
+                "text": "Configura el diccionari de dades, en funció dels requeriments establerts."
+              },
+              {
+                "codi": "CA26",
+                "text": "Configura l’accés remot a la base de dades, tant des de clients com des d’altres processos executats en el mateix servidor."
+              },
+              {
+                "codi": "CA27",
+                "text": "Configura les eines i programari client del SGBD."
+              },
+              {
+                "codi": "CA28",
+                "text": "Defineix paràmetres relatius a les connexions: temps d’espera, nombre màxim de connexions, etc."
+              },
+              {
+                "codi": "CA29",
+                "text": "Configura la connectivitat en xarxa del SGBD."
+              },
+              {
+                "codi": "CA210",
+                "text": "Configura sistemes de bases de dades per intercanviar processos o dades: ODBC, client/servidor, RDA, DTP)."
+              },
+              {
+                "codi": "CA211",
+                "text": "Documenta el procés de configuració del SGBD."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica criteris de disponibilitat analitzant-los i ajustant la configuració del sistema gestor de bases de dades corporatiu.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les bases de dades distribuïdes: utilitat, diferències, avantatges i inconvenients, distribució de les dades, arquitectura, seguretat i recuperació."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els components d’un SGBD distribuït i els diferents tipus."
+              },
+              {
+                "codi": "CA33",
+                "text": "Diferencia entre les diferents tècniques de fragmentació en un model distribuït."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica les tècniques de distribució de dades."
+              },
+              {
+                "codi": "CA35",
+                "text": "Identifica el disseny d’una base de dades distribuïda."
+              },
+              {
+                "codi": "CA36",
+                "text": "Identifica els paràmetres de configuració d’un SGBD distribuït: distribució de les dades, estructura local i administració de cada node, esquema de replicació."
+              },
+              {
+                "codi": "CA37",
+                "text": "Implanta una base de dades distribuïda homogènia."
+              },
+              {
+                "codi": "CA38",
+                "text": "Crea una base de dades distribuïda mitjançant la integració d’un conjunt de bases de dades preexistents."
+              },
+              {
+                "codi": "CA39",
+                "text": "Configura un node mestre i d’altres nodes esclaus, per replicar el primer."
+              },
+              {
+                "codi": "CA310",
+                "text": "Configura un sistema de replicació en cadena."
+              },
+              {
+                "codi": "CA311",
+                "text": "Realitza i planifica tasques administratives, fent ús de les eines del SGBD."
+              },
+              {
+                "codi": "CA312",
+                "text": "Configura els mecanismes d’interconnexió dels diferents nodes de la base de dades."
+              },
+              {
+                "codi": "CA313",
+                "text": "Configura els paràmetres corresponents per controlar les transaccions distribuïdes."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Optimitza el rendiment del sistema aplicant tècniques de monitoratge i realitzant adaptacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica l’estructura de control d’un SGBD."
+              },
+              {
+                "codi": "CA42",
+                "text": "Identifica les tasques del DBA i les de la resta d’usuaris d’un SGBD."
+              },
+              {
+                "codi": "CA43",
+                "text": "Crea i modifica usuaris, donant permís d’accés a objectes de la base de dades i aplicant els drets corresponents tenint en compte l’organització."
+              },
+              {
+                "codi": "CA44",
+                "text": "Crea espais d’emmagatzematge físics per emmagatzemar objectes lògics de la base de dades."
+              },
+              {
+                "codi": "CA45",
+                "text": "Identifica les eines disponibles del SGBD per planificar les tasques administratives."
+              },
+              {
+                "codi": "CA46",
+                "text": "Realitza tasques administratives comunes, fent ús de les eines del SGBD: atura i posa en marxa la base de dades, crea la base de dades, gestiona les cues de processos, gestiona el clúster, salvaguarda i recupera les dades, audita la base de dades, gestiona el diari de transaccions."
+              },
+              {
+                "codi": "CA47",
+                "text": "Construeix guions de sentències per automatitzar tasques administratives."
+              },
+              {
+                "codi": "CA48",
+                "text": "Descriu i posa en marxa tècniques i procediments per mantenir la seguretat, integritat i privacitat de la informació emmagatzemada."
+              },
+              {
+                "codi": "CA49",
+                "text": "Coneix els factors i paràmetres que afecten el rendiment."
+              },
+              {
+                "codi": "CA410",
+                "text": "Identifica i utilitza les eines de monitoratge disponibles al SGBD."
+              },
+              {
+                "codi": "CA411",
+                "text": "Aplica tècniques de monitoratge i optimització del rendiment del sistema."
+              },
+              {
+                "codi": "CA412",
+                "text": "Identifica els diferents tipus d’optimització: d’emmagatzematge, d’espai en disc i de procediments de transferències i de comunicacions."
+              },
+              {
+                "codi": "CA413",
+                "text": "Identifica i utilitza tècniques d’optimització de consultes en un SGBD."
+              },
+              {
+                "codi": "CA414",
+                "text": "Documenta els criteris de rendiment i d’altres paràmetres monitorats, els resultats obtinguts i, si escau, les noves adaptacions del sistema."
+              },
+              {
+                "codi": "CA415",
+                "text": "Realitza modificacions en la configuració del sistema operatiu per millorar el rendiment del gestor, si escau."
+              },
+              {
+                "codi": "CA416",
+                "text": "Planifica i documenta un manteniment preventiu, si escau."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Tipus d’emmagatzematge de la informació. SGBD corporatius. Instal·lació",
+                "items": [
+                  "Emmagatzematge en fitxers: plans, indexats, accés directe.",
+                  "Sistemes d’emmagatzematge: RAID, SAN, NAS, etc.",
+                  "Suports de còpies de seguretat.",
+                  "Emmagatzematge en SGBD:",
+                  "Tipus de SGBD comercials:",
+                  "Característiques dependents del sistema operatiu: memòria compartida, semàfors, gestió de processos i CPU, gestió d’E/S a disc, privilegis i altres paràmetres d’entorn del sistema."
+                ]
+              },
+              {
+                "bloc": "Comunicacions",
+                "items": [
+                  "Configuració de l’accés remot a la base de dades.",
+                  "Filosofia client/servidor (sockets, RPC, CORB, etc.).",
+                  "Interoperabilitat entre sistemes de bases de dades (RDA, ODBC, client/servidor, DTP, etc.)."
+                ]
+              },
+              {
+                "bloc": "SGBD distribuïts",
+                "items": [
+                  "Conceptes de SGBD distribuïts.",
+                  "Les regles de dades per a SGBD distribuïts.",
+                  "Components dels SGBD distribuïts: maquinari, programari (DDBMS, DTM, DBM i nodes), processadors locals, processador de dades distribuït, diccionari global.",
+                  "Conceptes de distribució, autonomia i heterogeneïtat.",
+                  "Tipus de SGBD distribuïts:",
+                  "Bloqueig i concurrència. Transaccions distribuïdes.",
+                  "Tècniques de fragmentació: vertical, horitzontal i mixta.",
+                  "Tècniques de distribució de dades.",
+                  "Esquemes d’assignació i replicació de dades.",
+                  "Seguretat i recuperació de la informació en les bases de dades distribuïdes.",
+                  "Nivells de processament de consultes: processadors locals, processadors distribuïts. Consultes distribuïdes.",
+                  "Disseny i gestió de bases de dades distribuïdes.",
+                  "Administració de bases de dades distribuïdes.",
+                  "Estructura de control d’un SGBD: diccionari de dades, variables de configuració, fitxers d’auditoria i control de transaccions.",
+                  "Control i administració d’un SGBD. Funcions de l’administrador del SGBD. Tipus d’usuaris (rols) en un SGBD. Permisos d’accés.",
+                  "Tasques administratives comunes, fent ús de les eines del SGBD:",
+                  "Factors i paràmetres que influeixen en el rendiment.",
+                  "Eines per al monitoratge: traces, fitxers log, definició d’alertes, altres eines del SGBD.",
+                  "Optimització de l’emmagatzematge en memòria.",
+                  "Optimització de l’espai en disc.",
+                  "Optimització de procediments de transferència i comunicacions.",
+                  "Ajust de paràmetres del SGBD per a l’optimització de l’execució de consultes: índexs, clústers.",
+                  "Manteniment preventiu."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

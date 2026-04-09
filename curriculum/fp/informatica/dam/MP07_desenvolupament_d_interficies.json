@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAM",
+    "titol_cicle": "Desenvolupament d'Aplicacions Multiplataforma",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 260/2013, de 3 de desembre",
+    "titol_decret": "DECRET 260/2013, de 3 de desembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions multiplataforma.",
+    "data_decret": "2013-12-03",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/12/03/260/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "desenvolupament d’interfícies",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "disseny i implementació d’interfícies",
+        "hores": 79,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Genera interfícies gràfiques d’usuari mitjançant editors visuals fent servir les funcionalitats de l’editor i adaptant el codi generat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Crea una interfície gràfica fent servir els assistents d’un editor visual."
+              },
+              {
+                "codi": "CA12",
+                "text": "Utilitza les funcions de l’editor per situar els components de la interfície."
+              },
+              {
+                "codi": "CA13",
+                "text": "Modifica les propietats dels components per adaptar-les a les necessitats de l’aplicació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Analitza el codi generat per l’editor visual."
+              },
+              {
+                "codi": "CA15",
+                "text": "Modifica el codi generat per l’editor visual."
+              },
+              {
+                "codi": "CA16",
+                "text": "Associa als esdeveniments les accions corresponents."
+              },
+              {
+                "codi": "CA17",
+                "text": "Desenvolupa una aplicació que inclou la interfície gràfica obtinguda."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Genera interfícies gràfiques d’usuari basades en XML fent servir eines específiques i adaptant el document XML generat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Descriu els avantatges de generar interfícies d’usuari a partir de la seva descripció XML."
+              },
+              {
+                "codi": "CA22",
+                "text": "Genera la descripció de la interfície en XML fent servir un editor gràfic."
+              },
+              {
+                "codi": "CA23",
+                "text": "Analitza el document XML generat."
+              },
+              {
+                "codi": "CA24",
+                "text": "Modifica el document XML."
+              },
+              {
+                "codi": "CA25",
+                "text": "Assigna accions als esdeveniments."
+              },
+              {
+                "codi": "CA26",
+                "text": "Genera el codi corresponent a la interfície a partir del document XML."
+              },
+              {
+                "codi": "CA27",
+                "text": "Programa una aplicació que inclou la interfície generada."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Crea components visuals valorant i emprant eines específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica les eines per disseny i prova de components"
+              },
+              {
+                "codi": "CA32",
+                "text": "Crea components visuals."
+              },
+              {
+                "codi": "CA33",
+                "text": "Defineix les seves propietats i assigna valors per defecte."
+              },
+              {
+                "codi": "CA34",
+                "text": "Determina els esdeveniments als quals ha de respondre el component i els associa a les accions corresponents."
+              },
+              {
+                "codi": "CA35",
+                "text": "Realitza proves unitàries sobre els components desenvolupats."
+              },
+              {
+                "codi": "CA36",
+                "text": "Documenta els components creats."
+              },
+              {
+                "codi": "CA37",
+                "text": "Empaqueta els components."
+              },
+              {
+                "codi": "CA38",
+                "text": "Programa aplicacions amb interfície gràfica que utilitza els components creats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Dissenya interfícies gràfiques identificant i aplicant criteris d’usabilitat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Crea menús que s’ajusten als estàndards."
+              },
+              {
+                "codi": "CA42",
+                "text": "Crea menús contextuals, l’estructura i contingut dels quals segueixen els estàndards establerts."
+              },
+              {
+                "codi": "CA43",
+                "text": "Distribueix accions en menús, barres d’eines, botons de comandes, entre d’altres, seguint un criteri coherent."
+              },
+              {
+                "codi": "CA44",
+                "text": "Distribueix adequadament els controls en les interfícies d’usuari."
+              },
+              {
+                "codi": "CA45",
+                "text": "Utilitza el tipus de control més adient en cada cas."
+              },
+              {
+                "codi": "CA46",
+                "text": "Dissenya l’aspecte de la interfície d’usuari (colors i fonts entre d’altres) atenent-ne la llegibilitat."
+              },
+              {
+                "codi": "CA47",
+                "text": "Verifica que els missatges generats per l’aplicació són adequats en extensió i claredat."
+              },
+              {
+                "codi": "CA48",
+                "text": "Realitza proves per avaluar la usabilitat de l’aplicació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Crea informes avaluant i utilitzant eines gràfiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Estableix l’estructura de l’informe."
+              },
+              {
+                "codi": "CA52",
+                "text": "Genera informes bàsics a partir d’una font de dades mitjançant assistents."
+              },
+              {
+                "codi": "CA53",
+                "text": "Estableix filtres sobre els valors a presentar als informes."
+              },
+              {
+                "codi": "CA54",
+                "text": "Inclou valors calculats, recomptes i totals."
+              },
+              {
+                "codi": "CA55",
+                "text": "Inclou gràfics generats a partir de les dades."
+              },
+              {
+                "codi": "CA56",
+                "text": "Utilitza eines per generar codi corresponent als informes d’una aplicació."
+              },
+              {
+                "codi": "CA57",
+                "text": "Modifica el codi corresponent als informes."
+              },
+              {
+                "codi": "CA58",
+                "text": "Desenvolupa una aplicació que inclou informes incrustats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Confecció d’interfícies d’usuari",
+                "items": [
+                  "Llibreries de components disponibles per diferents sistemes operatius i llenguatges de programació; característiques.",
+                  "Eines propietàries i lliures d’edició d’interfícies.",
+                  "Components: característiques i camps d’aplicació.",
+                  "Enllaç de components a orígens de dades.",
+                  "Associació d’accions a esdeveniments.",
+                  "Edició del codi generat per les eines de disseny.",
+                  "Classes, propietats, mètodes.",
+                  "Esdeveniments; escoltadors."
+                ]
+              },
+              {
+                "bloc": "Generació d’interfícies a partir de documents XML",
+                "items": [
+                  "Llenguatges de descripció d’interfícies basades en XML. Àmbit d’aplicació.",
+                  "Elements, etiquetes, atributs i valors.",
+                  "Eines lliures i propietàries per a la creació d’interfícies d’usuari multiplataforma.",
+                  "Controls, propietats.",
+                  "Esdeveniments; controladors.",
+                  "Edició del document XML.",
+                  "Generació de codi per a diferents plataformes."
+                ]
+              },
+              {
+                "bloc": "Creació de components visuals",
+                "items": [
+                  "Concepte de component; característiques.",
+                  "Propietats i atributs.",
+                  "Esdeveniments; associació d’accions a esdeveniments.",
+                  "Persistència del component.",
+                  "Eines per al desenvolupament de components visuals.",
+                  "Empaquetatge de components."
+                ]
+              },
+              {
+                "bloc": "Usabilitat",
+                "items": [
+                  "Concepte d’usabilitat. Característiques, atributs.",
+                  "Mesura d’usabilitat d’aplicacions; tipus de mètriques.",
+                  "Pautes de disseny de l’estructura de la interfície d’usuari; menús, finestres, quadres de diàleg, dreceres de teclat, entre d’altres.",
+                  "Pautes de disseny de l’aspecte de la interfície d’usuari: colors, fonts, icones, distribució dels elements.",
+                  "Pautes de disseny dels elements interactius de la interfície d’usuari: botons de comandes, llistes desplegables, entre d’altres.",
+                  "Pautes de disseny de la seqüència de control de l’aplicació."
+                ]
+              },
+              {
+                "bloc": "Confecció d’informes",
+                "items": [
+                  "Informes incrustats i no incrustats a l’aplicació.",
+                  "Eines gràfiques integrades i externes a l’IDE.",
+                  "Estructura general. Seccions.",
+                  "Filtratge de dades.",
+                  "Numeració de línies, recomptes i totals.",
+                  "Llibreries per generació d’informes. Classes, mètodes i atributs.",
+                  "Connexió amb les fonts de dades. Execució de consultes."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "preparació i distribució d’aplicacions",
+        "hores": 20,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Avalua el funcionament d’aplicacions dissenyant i executant proves.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Estableix una estratègia de proves."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza proves d’integració dels diferents elements."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza proves de regressió."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza proves de volum i d’estrès."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza proves de seguretat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Realitza proves d’ús de recursos per part de l’aplicació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Documenta l’estratègia de proves i els resultats obtinguts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Documenta aplicacions seleccionant i utilitzant eines específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica sistemes de generació d’ajudes."
+              },
+              {
+                "codi": "CA22",
+                "text": "Genera ajudes als formats habituals."
+              },
+              {
+                "codi": "CA23",
+                "text": "Genera ajudes sensibles al context."
+              },
+              {
+                "codi": "CA24",
+                "text": "Documenta l’estructura de la informació persistent."
+              },
+              {
+                "codi": "CA25",
+                "text": "Confecciona el manual d’usuari i la guia de referència."
+              },
+              {
+                "codi": "CA26",
+                "text": "Confecciona els manuals d’instal·lació, configuració i administració."
+              },
+              {
+                "codi": "CA27",
+                "text": "Confecciona tutorials."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Prepara aplicacions per a la seva distribució avaluant i analitzant eines específiques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Empaqueta els components que requereix l’aplicació."
+              },
+              {
+                "codi": "CA32",
+                "text": "Personalitza l’assistent d’instal·lació."
+              },
+              {
+                "codi": "CA33",
+                "text": "Empaqueta l’aplicació per ser instal·lada de forma típica, completa o personalitzada."
+              },
+              {
+                "codi": "CA34",
+                "text": "Genera paquets d’instal·lació fent servir l’entorn de desenvolupament."
+              },
+              {
+                "codi": "CA35",
+                "text": "Genera paquets d’instal·lació fent servir eines externes."
+              },
+              {
+                "codi": "CA36",
+                "text": "Genera paquets instal·lables en mode desatès."
+              },
+              {
+                "codi": "CA37",
+                "text": "Prepara el paquet d’instal·lació perquè l’aplicació pugui ser correctament desinstal·lada."
+              },
+              {
+                "codi": "CA38",
+                "text": "Prepara l’aplicació per ser descarregada des d’un servidor web i executada."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Realització de proves",
+                "items": [
+                  "Objectiu, importància i limitacions del procés de prova. Estratègies.",
+                  "Proves d’integració: ascendents i descendents.",
+                  "Proves de sistema: configuració, recuperació, entre d’altres.",
+                  "Proves d’ús de recursos.",
+                  "Proves de seguretat.",
+                  "Proves manuals i automàtiques. Eines de programari per a la realització de proves."
+                ]
+              },
+              {
+                "bloc": "Documentació d’aplicacions",
+                "items": [
+                  "Fitxers d’ajuda. Formats.",
+                  "Eines de generació d’ajudes.",
+                  "Taules de continguts, índexs, sistemes de cerca, entre d’altres.",
+                  "Tipus de manuals: manual d’usuari, guia de referència, guies ràpides, manuals d’instal·lació, configuració i administració. Destinataris i estructura."
+                ]
+              },
+              {
+                "bloc": "Distribució d’aplicacions",
+                "items": [
+                  "Components d’una aplicació. Empaquetatge.",
+                  "Instal·ladors.",
+                  "Paquets autoinstal·lables.",
+                  "Eines per crear paquets d’instal·lació.",
+                  "Personalització de la instal·lació: logotips, fons, diàlegs, botons, idioma, entre d’altres.",
+                  "Assistents d’instal·lació i desinstal·lació."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

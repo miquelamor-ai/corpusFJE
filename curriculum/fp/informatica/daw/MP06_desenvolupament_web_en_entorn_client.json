@@ -1,0 +1,410 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "desenvolupament web en entorn client",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sintaxi del llenguatge. Objectes predefinits del llenguatge",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona les arquitectures i tecnologies de programació sobre clients web, identificant i analitzant les capacitats i característiques de cadascuna.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Caracteritza i diferencia els models d’execució de codi al servidor i al client web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les capacitats i els mecanismes d’execució de codi dels navegadors web."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica i caracteritza els principals llenguatges relacionats amb la programació de clients web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix les particularitats de la programació de guions i els seus avantatges i desavantatges sobre la programació tradicional."
+              },
+              {
+                "codi": "CA15",
+                "text": "Verifica els mecanismes d’integració dels llenguatges de marques amb els llenguatges de programació de clients web."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix i avalua les eines de programació sobre clients web."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Escriu sentències simples, aplicant la sintaxi del llenguatge i verificant la seva execució sobre navegadors web.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona un llenguatge de programació de clients web en funció de les seves possibilitats."
+              },
+              {
+                "codi": "CA22",
+                "text": "Utilitza els diferents tipus de variables i operadors disponibles en el llenguatge."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica els àmbits d’utilització de les variables."
+              },
+              {
+                "codi": "CA24",
+                "text": "Reconeix i comprova les peculiaritats del llenguatge respecte a les conversions entre diferents tipus de dades."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza mecanismes de decisió en la creació de blocs de sentències."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza bucles i verifica el seu funcionament."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Escriu codi, identificant i aplicant les funcionalitats aportades pels objectes predefinits del llenguatge.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els objectes predefinits del llenguatge."
+              },
+              {
+                "codi": "CA32",
+                "text": "Analitza els objectes referents a les finestres del navegador i els documents web que hi contenen."
+              },
+              {
+                "codi": "CA33",
+                "text": "Escriu sentències que utilitzin els objectes predefinits del llenguatge per canviar l’aspecte del navegador i el document que hi conté."
+              },
+              {
+                "codi": "CA34",
+                "text": "Genera textos i etiquetes com a resultat de l’execució de codi al navegador."
+              },
+              {
+                "codi": "CA35",
+                "text": "Escriu sentències que utilitzin els objectes predefinits del llenguatge per interactuar amb l’usuari."
+              },
+              {
+                "codi": "CA36",
+                "text": "Utilitza les característiques pròpies del llenguatge en documents compostos per diverses finestres i marcs."
+              },
+              {
+                "codi": "CA37",
+                "text": "Utilitza galetes (cookies) per emmagatzemar informació i recuperar-ne el contingut."
+              },
+              {
+                "codi": "CA38",
+                "text": "Depura i documenta el codi."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Selecció d’arquitectures i d’eines de programació",
+                "items": [
+                  "Models d’execució de codi.",
+                  "Mecanismes d’execució de codi en un navegador web.",
+                  "Capacitats i limitacions d’execució.",
+                  "Llenguatges de programació en entorn client.",
+                  "Programació de guions.",
+                  "Integració del codi amb les etiquetes HTML.",
+                  "Eines de programació sobre clients web. Tecnologies i llenguatges associats."
+                ]
+              },
+              {
+                "bloc": "Aplicació i verificació de la sintaxi del llenguatge",
+                "items": [
+                  "Selecció de llenguatge de programació de clients web.",
+                  "Variables.",
+                  "Tipus de dades.",
+                  "Assignacions.",
+                  "Operadors.",
+                  "Sentències.",
+                  "Decisions.",
+                  "Bucles.",
+                  "Comentaris al codi.",
+                  "Eines per programar, provar i depurar el codi."
+                ]
+              },
+              {
+                "bloc": "Identificació i aplicació dels objectes predefinits del llenguatge",
+                "items": [
+                  "Utilització d’objectes. Objectes natius del llenguatge.",
+                  "Objectes predefinits associats al navegador.",
+                  "Gestió de l’aparença de la finestra.",
+                  "Generació de text i elements HTML des de codi.",
+                  "Interacció amb el navegador.",
+                  "Aplicacions pràctiques dels marcs.",
+                  "Creació de noves finestres.",
+                  "Comunicació entre finestres.",
+                  "Galetes (cookies).",
+                  "Documentació del codi."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "estructures definides pel programador. Objectes",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Programa codi per a clients web analitzant i utilitzant estructures definides per l’usuari.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Classifica i utilitza les funcions predefinides del llenguatge."
+              },
+              {
+                "codi": "CA12",
+                "text": "Crea i utilitza funcions definides per l’usuari."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix les característiques del llenguatge relatives a la creació i ús d’arrays."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea i utilitza arrays."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix les característiques d’orientació a objectes del llenguatge."
+              },
+              {
+                "codi": "CA16",
+                "text": "Crea codi per definir l’estructura d’objectes."
+              },
+              {
+                "codi": "CA16",
+                "text": "Crea mètodes i propietats."
+              },
+              {
+                "codi": "CA17",
+                "text": "Crea codi que faci ús d’objectes definits per l’usuari."
+              },
+              {
+                "codi": "CA18",
+                "text": "Depura i documenta el codi."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Programació amb arrays, funcions i objectes definits per l’usuari",
+                "items": [
+                  "Funcions predefinides del llenguatge.",
+                  "Crides a funcions. Definició de funcions.",
+                  "Arrays.",
+                  "Creació d’objectes.",
+                  "Definició de mètodes i de propietats.",
+                  "Ús d’objectes.",
+                  "Documentació del codi."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "esdeveniments. Manejament de formularis. Model d’objectes del document",
+        "hores": 42,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions web interactives integrant mecanismes de maneig d’esdeveniments.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix les possibilitats del llenguatge de marques relatives a la captura dels esdeveniments produïts."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les característiques del llenguatge de programació relatives a la gestió dels esdeveniments."
+              },
+              {
+                "codi": "CA13",
+                "text": "Diferencia els tipus d’esdeveniments que es poden manejar."
+              },
+              {
+                "codi": "CA14",
+                "text": "Crea un codi que capturi i utilitzi esdeveniments."
+              },
+              {
+                "codi": "CA15",
+                "text": "Reconeix les capacitats del llenguatge relatives a la gestió de formularis web."
+              },
+              {
+                "codi": "CA16",
+                "text": "Valida formularis web utilitzant esdeveniments."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza expressions regulars per facilitar els procediments de validació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Prova i documenta el codi."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa aplicacions web analitzant i aplicant les característiques del model d’objectes del document.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Reconeix el model d’objectes del document d’una pàgina web."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els objectes del model, les seves propietats i els seus mètodes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Crea i verifica un codi que accedeixi a l’estructura del document."
+              },
+              {
+                "codi": "CA24",
+                "text": "Crea nous elements de l’estructura i en modifica elements ja existents."
+              },
+              {
+                "codi": "CA25",
+                "text": "Associa accions als esdeveniments del model."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica les diferències que presenta el model en diferents navegadors."
+              },
+              {
+                "codi": "CA27",
+                "text": "Programa aplicacions web de manera que funcionin en navegadors amb diferents implementacions del model."
+              },
+              {
+                "codi": "CA28",
+                "text": "Independitza les tres facetes (contingut, aspecte i comportament), en aplicacions web."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració al codi de la gestió d’esdeveniments i formularis",
+                "items": [
+                  "Model de gestió d’esdeveniments.",
+                  "Captura i ús d’esdeveniments.",
+                  "Utilització de formularis des de codi.",
+                  "Modificació d’aparença i comportament. Utilització de galetes (cookies).",
+                  "Validació i enviament.",
+                  "Expressions regulars.",
+                  "Prova i documentació del codi."
+                ]
+              },
+              {
+                "bloc": "Anàlisi i aplicació del model d’objectes del document (DOM)",
+                "items": [
+                  "El model d’objectes del document (DOM).",
+                  "Objectes del model. Propietats i mètodes dels objectes.",
+                  "Accés al document des de codi.",
+                  "Programació d’esdeveniments.",
+                  "Diferències en les implementacions del model.",
+                  "Diferenciació entre contingut, aspecte i comportament en les aplicacions web."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "comunicació asíncrona client-servidor",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions web dinàmiques, reconeixent i aplicant mecanismes de comunicació asíncrona entre client i servidor.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Avalua els avantatges i els inconvenients d’utilitzar mecanismes de comunicació asíncrona entre client i servidor web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza els mecanismes disponibles per a l’establiment de la comunicació asíncrona."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza els objectes relacionats."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica les seves propietats i els seus mètodes."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza comunicació asíncrona en l’actualització dinàmica del document web."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza diferents formats en l’enviament i en la recepció d’informació."
+              },
+              {
+                "codi": "CA17",
+                "text": "Programa aplicacions web asíncrones de manera que funcionin en diferents navegadors."
+              },
+              {
+                "codi": "CA18",
+                "text": "Classifica i analitza llibreries que facilitin la incorporació de les tecnologies d’actualització dinàmica a la programació de pàgines web."
+              },
+              {
+                "codi": "CA19",
+                "text": "Crea i depura programes que utilitzin aquestes llibreries."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement i aplicació de mecanismes de comunicació asíncrona",
+                "items": [
+                  "Mecanismes de comunicació asíncrona.",
+                  "Objectes relacionats. Propietats i mètodes dels objectes.",
+                  "Modificació dinàmica del document utilitzant comunicació asíncrona.",
+                  "Formats per a l’enviament i per a la recepció d’informació.",
+                  "Programació en diferents navegadors",
+                  "Llibreries d’actualització dinàmica."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

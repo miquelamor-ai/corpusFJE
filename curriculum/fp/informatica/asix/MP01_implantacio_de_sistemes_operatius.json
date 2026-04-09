@@ -1,0 +1,494 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP01",
+    "nom": "implantació de sistemes operatius",
+    "hores_totals": 231,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "instal·lació, configuració i explotació del sistema informàtic",
+        "hores": 60,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Instal·la sistemes operatius, analitzant-ne les característiques i interpretant-ne la documentació tècnica.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els elements funcionals d’un sistema informàtic i els seus mecanismes d’interconnexió."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les característiques, funcions i arquitectura d’un sistema operatiu."
+              },
+              {
+                "codi": "CA13",
+                "text": "Compara diferents sistemes operatius, les seves versions i llicències d’ús, en funció dels requisits, característiques i camps d’aplicació."
+              },
+              {
+                "codi": "CA14",
+                "text": "Realitza instal·lacions de diferents sistemes operatius."
+              },
+              {
+                "codi": "CA15",
+                "text": "Preveu i aplica tècniques d’actualització i rescats."
+              },
+              {
+                "codi": "CA16",
+                "text": "Soluciona incidències del sistema i del procés d’inici."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza eines per conèixer el programari instal·lat en el sistema i el seu origen."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora documentació de suport relativa a les instal·lacions efectuades i les incidències detectades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura el programari de base, atenent les necessitats d’explotació del sistema informàtic.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Planifica, crea i configura comptes d’usuari, grups, perfils i polítiques de contrasenyes locals."
+              },
+              {
+                "codi": "CA22",
+                "text": "Assegura l’accés al sistema mitjançant l’ús de directives de compte i directives de contrasenyes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Actua sobre els serveis i processos en funció de les necessitats del sistema."
+              },
+              {
+                "codi": "CA24",
+                "text": "Instal·la, configura i verifica protocols de xarxa."
+              },
+              {
+                "codi": "CA25",
+                "text": "Analitza i configura els diferents mètodes de resolució de noms."
+              },
+              {
+                "codi": "CA26",
+                "text": "Optimitza l’ús dels sistemes operatius per a sistemes portàtils."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza màquines virtuals per realitzar tasques de configuració de sistemes operatius i analitzar-ne els resultats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta les tasques de configuració del programari de base."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de programari lliure i propietari",
+                "items": [
+                  "Estructura i components d’un sistema informàtic. Perifèrics i adaptadors per a la connexió de dispositius. Tipus de xarxes, cablatge i connectors.",
+                  "Mapa físic i lògic d’una xarxa.",
+                  "Arquitectura d’un sistema operatiu.",
+                  "Funcions d’un sistema operatiu.",
+                  "Tipus de sistemes operatius.",
+                  "Tipus d’aplicacions.",
+                  "Llicències i tipus de llicències.",
+                  "Gestors d’arrencada.",
+                  "Consideracions prèvies a la instal·lació de sistemes operatius lliures i propietaris.",
+                  "Instal·lació de sistemes operatius. Requisits, versions i llicències.",
+                  "Instal·lació/desinstal·lació d’aplicacions. Requisits, versions i llicències.",
+                  "Actualització de sistemes operatius i aplicacions.",
+                  "Fitxers d’inici de sistemes operatius.",
+                  "Registre del sistema.",
+                  "Actualització i manteniment de controladors de dispositius."
+                ]
+              },
+              {
+                "bloc": "Administració de programari de base",
+                "items": [
+                  "Administració d’usuaris i grups locals.",
+                  "Usuaris i grups predeterminats.",
+                  "Seguretat de comptes d’usuari.",
+                  "Seguretat de contrasenyes.",
+                  "Administració de perfils locals d’usuari.",
+                  "Configuració del protocol TCP/IP en un client de xarxa. Direccions IP. Màscares de subxarxa.",
+                  "Configuració de la resolució de noms.",
+                  "Fitxers de configuració de xarxa.",
+                  "Optimització de sistemes per a ordinadors portàtils. Arxius de xarxa sense connexió."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "gestió de la informació i de recursos en una xarxa",
+        "hores": 80,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Assegura la informació del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Compara diversos sistemes de fitxers i n’analitza les diferències i avantatges d’implementació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Descriu l’estructura de directoris del sistema operatiu."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els directoris contenidors dels fitxers de configuració del sistema (binaris, ordres i llibreries)."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza eines d’administració de discos per crear particions, unitats lògiques, volums simples i volums distribuïts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Centralitza la informació en servidors administrant estructures de dominis i analitzant-ne els avantatges.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Implementa dominis."
+              },
+              {
+                "codi": "CA22",
+                "text": "Administra comptes d’usuari i comptes d’equip."
+              },
+              {
+                "codi": "CA23",
+                "text": "Centralitza la informació personal dels usuaris del domini mitjançant l’ús de perfils mòbils i carpetes personals."
+              },
+              {
+                "codi": "CA24",
+                "text": "Crea i administra grups de seguretat."
+              },
+              {
+                "codi": "CA25",
+                "text": "Crea plantilles que facilitin l’administració d’usuaris amb característiques similars."
+              },
+              {
+                "codi": "CA26",
+                "text": "Organitza els objectes del domini per facilitar-ne l’administració."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza màquines virtuals per administrar dominis i verificar-ne el funcionament."
+              },
+              {
+                "codi": "CA28",
+                "text": "Documenta l’estructura del domini i les tasques realitzades."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Administra l’accés a dominis analitzant i respectant requeriments de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Incorpora equips al domini."
+              },
+              {
+                "codi": "CA32",
+                "text": "Preveu bloquejos d’accessos no autoritzats al domini."
+              },
+              {
+                "codi": "CA33",
+                "text": "Administra l’accés a recursos locals i recursos de xarxa."
+              },
+              {
+                "codi": "CA34",
+                "text": "Implementa i verifica directives de grup."
+              },
+              {
+                "codi": "CA35",
+                "text": "Assigna directives de grup."
+              },
+              {
+                "codi": "CA36",
+                "text": "Documenta les tasques i les incidències."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Administració de la informació",
+                "items": [
+                  "Sistemes d’arxius.",
+                  "Gestió de sistemes de fitxers mitjançant comandaments i entorns gràfics.",
+                  "Gestió d’enllaços.",
+                  "Estructura de directoris de sistemes operatius lliures i propietaris.",
+                  "Cerca d’informació del sistema mitjançant comandes i eines gràfiques.",
+                  "Identificació del programari instal·lat mitjançant comandes i eines gràfiques.",
+                  "Gestió de la informació del sistema. Rendiment. Estadístiques.",
+                  "Muntatge i desmuntatge de dispositius en sistemes operatius.",
+                  "Automatització.",
+                  "Eines d’administració de discos. Particions i volums. Desfragmentació i revisió."
+                ]
+              },
+              {
+                "bloc": "Administració de dominis",
+                "items": [
+                  "Estructura client/servidor.",
+                  "Protocol LDAP (protocol d’accés a directoris lleugers).",
+                  "Concepte de domini. Subdominis. Requisits necessaris per muntar un domini.",
+                  "Administració de comptes. Comptes predeterminats.",
+                  "Contrasenyes. Bloquejos de compte.",
+                  "Comptes d’usuaris i equips.",
+                  "Perfils mòbils i obligatoris.",
+                  "Carpetes personals.",
+                  "Plantilles d’usuari. Variables d’entorn.",
+                  "Administració de grups. Tipus. Estratègies d’imbricació. Grups predeterminats."
+                ]
+              },
+              {
+                "bloc": "Administració de l’accés al domini",
+                "items": [
+                  "Equips del domini.",
+                  "Permisos i drets.",
+                  "Administració de l’accés a recursos. SAMBA. NFS.",
+                  "Permisos de xarxa. Permisos locals. Herència. Permisos efectius.",
+                  "Delegació de permisos.",
+                  "Llistes de control d’accés.",
+                  "Directives de grup. Drets d’usuaris. Directives de seguretat. Objectes de directiva. Àmbit de les directives. Plantilles."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "implantació de programari específic",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Implanta programari específic amb estructura client/servidor donant resposta als requisits funcionals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Instal·la programari específic segons la documentació tècnica. Eines ofimàtiques, d’Internet i utilitats de propòsit general."
+              },
+              {
+                "codi": "CA12",
+                "text": "Realitza instal·lacions desateses."
+              },
+              {
+                "codi": "CA13",
+                "text": "Configura i utilitza un servidor d’actualitzacions."
+              },
+              {
+                "codi": "CA14",
+                "text": "Segueix els protocols d’actuació per resoldre incidències documentant-ne les tasques realitzades."
+              },
+              {
+                "codi": "CA15",
+                "text": "Planifica protocols d’actuació per resoldre incidències."
+              },
+              {
+                "codi": "CA16",
+                "text": "Dóna assistència tècnica a través de la xarxa documentant-ne les incidències."
+              },
+              {
+                "codi": "CA17",
+                "text": "Elabora guies visuals i manuals per instruir en l’ús de sistemes operatius o aplicacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Resolució d’incidències i assistència tècnica",
+                "items": [
+                  "Interpretació, anàlisi i elaboració de documentació tècnica.",
+                  "Interpretació, anàlisi i elaboració de manuals d’instal·lació i configuració de sistemes operatius i aplicacions.",
+                  "Llicències de client i llicències de servidor.",
+                  "Instal·lacions desateses.",
+                  "Implementació de fitxers de respostes.",
+                  "Servidors d’actualitzacions automàtiques.",
+                  "Parts d’incidències.",
+                  "Protocols d’actuació.",
+                  "Administració remota."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "seguretat, rendiment i recursos",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona còpies de seguretat i sistemes tolerants a errors.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Implanta sistemes d’emmagatzematge redundant (RAID)."
+              },
+              {
+                "codi": "CA12",
+                "text": "Implanta i automatitza plans de còpies de seguretat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Administra quotes de disc."
+              },
+              {
+                "codi": "CA14",
+                "text": "Documenta les operacions realitzades i els mètodes a seguir per a la recuperació davant desastres."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Detecta problemes de rendiment monitorant el sistema amb les eines adequades i documentant el procediment.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els objectes monitorats en un sistema informàtic."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica els tipus de successos."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza eines de monitoratge en temps real."
+              },
+              {
+                "codi": "CA24",
+                "text": "Monitora el rendiment mitjançant registres de comptador i de seguiment del sistema."
+              },
+              {
+                "codi": "CA25",
+                "text": "Planifica i configura alertes de rendiment."
+              },
+              {
+                "codi": "CA26",
+                "text": "Interpreta els registres de rendiment emmagatzemats."
+              },
+              {
+                "codi": "CA27",
+                "text": "Analitza el sistema mitjançant tècniques de simulació per optimitzar-ne el rendiment."
+              },
+              {
+                "codi": "CA28",
+                "text": "Elabora documentació de suport i d’incidències."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Audita la utilització i l’accés a recursos identificant i respectant les necessitats de seguretat del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Administra drets d’usuari i directives de seguretat."
+              },
+              {
+                "codi": "CA32",
+                "text": "Identifica els objectes i esdeveniments auditables."
+              },
+              {
+                "codi": "CA33",
+                "text": "Elabora un pla d’auditories."
+              },
+              {
+                "codi": "CA34",
+                "text": "Identifica les repercussions de les auditories en el rendiment del sistema."
+              },
+              {
+                "codi": "CA35",
+                "text": "Audita successos correctes i erronis."
+              },
+              {
+                "codi": "CA36",
+                "text": "Audita els intents d’accés i els accessos a recursos del sistema."
+              },
+              {
+                "codi": "CA37",
+                "text": "Gestiona els registres d’auditoria."
+              },
+              {
+                "codi": "CA38",
+                "text": "Documenta el procés d’auditoria i els seus resultats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Assegurament de la informació",
+                "items": [
+                  "Extensió d’un volum. Volums distribuïts. RAID0 per programari.",
+                  "Tolerància a fallades de maquinari. RAID1 i RAID5 per programari.",
+                  "Tolerància a fallades de programari de les dades.",
+                  "Tipus de còpies de seguretat.",
+                  "Plans de còpies de seguretat. Programació de còpies de seguretat.",
+                  "Recuperació en cas de fallada del sistema.",
+                  "Discos d’arrencada. Discos de recuperació.",
+                  "Còpies de seguretat del sistema. Recuperació del sistema mitjançant consola. Punts de recuperació."
+                ]
+              },
+              {
+                "bloc": "Supervisió del rendiment del sistema",
+                "items": [
+                  "Eines de monitoratge en temps real.",
+                  "Eines de monitoratge continuada.",
+                  "Eines d’anàlisi del rendiment.",
+                  "Registres de successos.",
+                  "Monitoratge de successos.",
+                  "Gestió d’aplicacions, processos i subprocessos.",
+                  "Monitoratge d’aplicacions i processos."
+                ]
+              },
+              {
+                "bloc": "Directives de seguretat i auditories",
+                "items": [
+                  "Requisits de seguretat del sistema i de les dades.",
+                  "Drets d’usuari.",
+                  "Directives de seguretat local.",
+                  "Registre del sistema operatiu.",
+                  "Objectius de l’auditoria.",
+                  "Àmbit de l’auditoria. Aspectes auditables.",
+                  "Mecanismes d’auditoria. Alarmes i accions correctives.",
+                  "Informació del registre d’auditoria.",
+                  "Tècniques i eines d’auditoria.",
+                  "Informes d’auditoria."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -3,204 +3,112 @@
     "familia": "lomloe",
     "etapa": "eso",
     "area_materia": "Cultura Clàssica",
-    "codi_area": "CLC",
+    "codi_area": "CC",
     "decret": "175/2022",
-    "data_decret": "2022-08-22",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Cultura-Classica-ESO.pdf",
-    "versio_schema": "1.0",
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Cultura-Classica.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
     "descripcio": "La Cultura Clàssica a l'ESO és una matèria optativa que aproxima l'alumnat als fonaments grecoromans de la civilització occidental. A través de la llengua, la literatura, la mitologia, el dret i les arts de Grècia i Roma, l'alumne comprèn l'origen de moltes institucions, valors i expressions culturals del present. La matèria connecta amb la Història, la Literatura, la Filosofia i l'estudi de qualsevol llengua d'arrel llatina.\n\nEls constructes clau inclouen el llatí i el grec com a sistemes lingüístics (morfologia, sintaxi, traducció), l'etimologia com a eina per comprendre el lèxic científic i culte del català, el castellà i l'anglès, la mitologia grecoromana (déus, herois, mites fundacionals), i les grans aportacions de Roma: dret, república, arquitectura, urbanisme, literatura èpica i lírica. El llegat hel·lènic en filosofia, democràcia, teatre i ciència completa el quadre.\n\nL'enfocament pedagògic és cultural i interdisciplinari: es llegeixen textos en traducció, s'analitzen obres d'art i monuments, i es traça la pervivència del món clàssic en la cultura contemporània (cinema, literatura, toponímia, vocabulari científic). La traducció de textos llatins o grecs senzills activa el pensament analític i la precisió lingüística. El debat sobre els valors clàssics i el seu contrast amb la societat actual dóna sentit contemporani a la matèria."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "CC",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Reconèixer i comprendre els elements bàsics de les llengues grega i llatina, identificant les arrels clàssiques en el lèxic de les llengues modernes i establint connexions etimològiques que enriqueixin el propi vocabulari i la comprensió lingüística.",
+      "text": "Analitzar i diferenciar els diferents models d’organització política, social, econòmica i territorial del període grecoromà amb el moment històric present per ser conscient de les arrels clàssiques del món actual.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO13": [
           {
             "codi": "CA1.1",
-            "text": "Identificar les principals característiques del grec i el llatí com a llengues flexives, reconeixent les categories gramaticals bàsiques (nom, verb, adjectiu) i les seves declinacions o conjugacions principals."
+            "text": "Identificar i establir els espais geogràfics on es va desenvolupar la civilització grega i romana, i quins van ser els seus sistemes polítics i econòmics més representatius, així com les institucions que van vertebrar la seva societat, per mitjà de mapes, plànols i diverses fonts històriques, tot identificant, a més, els elements de canvi i continuïtat entre ambdues civilitzacions."
           },
           {
             "codi": "CA1.2",
-            "text": "Reconèixer arrels, prefixos i sufixos llatins i grecs presents en el vocabulari de les llengues modernes (català, castellà, anglès, francès) i deduir el significat de paraules desconegudes a partir d'elements etimològics."
+            "text": "Justificar i valorar la importància la influència dels fets històrics del període grecoromà respecte al moment històric present, per mitjà de l’anàlisi comparativa de textos antics i moderns en els seus més variats formats."
           },
           {
             "codi": "CA1.3",
-            "text": "Analitzar l'origen grecollatí del vocabulari científic, mèdic, jurídic i filosòfic, aplicant-lo per comprendre millor termes especialitzats."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Comparar el sistema lingüístic del llatí i el grec amb el de les llengues romàniques, identificant semblances i diferències estructurals."
+            "text": "Valorar críticament les formes de vida, costums i actituds de la societat romana en comparació amb els de les nostres societats a partir del contingut de fonts gregues i llatines en diferents suports, aplicant la perspectiva de gènere."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Llegir, comprendre i interpretar textos grecollatins en traducció, identificant els seus elements literaris, estilístics i culturals, i valorant la producció literària clàssica com a fonament de la literatura occidental.",
+      "text": "Analitzar i avaluar críticament les cosmovisions que contenen les manifestacions culturals grecoromanes amb l’objectiu d’establir vincles amb les manifestacions cultural actuals, fent ús d’eines digitals per a la cerca i el tractament de la informació.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO13": [
           {
             "codi": "CA2.1",
-            "text": "Llegir i comprendre textos grecollatins en traducció, identificant les idees principals, els personatges i el context narratiu."
+            "text": "Llegir i interpretar manifestacions culturals grecoromanes a partir del seu context històric, així com la intencionalitat dels seus autors o autores."
           },
           {
             "codi": "CA2.2",
-            "text": "Analitzar els elements literaris i estilístics de textos de la literatura grega i llatina (epopeia, tragèdia, comèdia, lírica, oratòria, historiografia), identificant recursos retòrics i narratius."
+            "text": "Relacionar les manifestacions culturals grecoromanes amb manifestacions culturals d’èpoques posteriors, a partir d’imatges, fotografies i reproduccions de pintures, escultures, edificacions, ceràmiques, joies, fragments d’obres literàries, documents, etc."
           },
           {
             "codi": "CA2.3",
-            "text": "Situar les obres llegides en el seu context cultural i en el període literari corresponent, relacionant-les amb l'autor i el gènere."
-          },
-          {
-            "codi": "CA2.4",
-            "text": "Establir connexions entre les obres de la literatura clàssica i les de la literatura posterior (medieval, renaixentista, contemporània), identificant influències i reescriptures."
+            "text": "Analitzar els canvis i continuïtats que es donen en les manifestacions culturals actuals d’arrel grecoromana, tenint en compte la seva evolució històrica, plantejant la seva perspectiva de futur i desenvolupant estratègies de cerca d’informació en diferents suports (amb especial referència als digitals) i"
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Conèixer i analitzar les institucions polítiques, socials, religioses i culturals de Grècia i Roma antigues, comprendre la seva organització i evolució, i reconèixer la seva influència en la conformació del món occidental contemporani.",
+      "text": "Valorar i argumentar el patrimoni cultural grecoromà com a herència rebuda del passat, per defensar-ne la conservació.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO13": [
           {
             "codi": "CA3.1",
-            "text": "Descriure l'organització política, social i familiar de la polis grega i de la Roma republicana i imperial, comparant-les amb les institucions polítiques contemporànies."
+            "text": "Identificar, reconèixer i valorar les principals manifestacions artístiques grecoromanes en el seu context històric a partir de la lectura de textos grecs i llatins traduïts i d’imatges contingudes en ceràmiques i en estàtues d’època grega i romana, sense renunciar a denunciar aquelles expressions que atempten contra la igualtat de gènere i d’oportunitats i que, segons els criteris actuals,"
           },
           {
             "codi": "CA3.2",
-            "text": "Analitzar el sistema de creences religioses i mitològiques de Grècia i Roma, identificant els principals déus, mites i ritus, i la seva funció social i cultural."
+            "text": "Entendre i valorar el concepte de patrimoni cultural (material i immaterial) com a herència pròpia del passat, amb la qual el poble viu el present i el transmet a generacions futures, tot analitzant exemples concrets que permetin rastrejar la seva continuïtat des de l’antiguitat fins als nostres dies."
           },
           {
             "codi": "CA3.3",
-            "text": "Explicar l'organització de la vida quotidiana a Grècia i Roma: habitatge, alimentació, vestimenta, educació, oci, treball i família."
+            "text": "Investigar, de manera guiada, el patrimoni històric, arqueològic, artístic i cultural heretat de les civilitzacions grega i romana, amb l’objectiu d’actuar de forma adequada, empàtica i respectuosa vers aquest patrimoni, interessant-se pels processos de construcció, preservació, conservació i restauració i per aquelles actituds cíviques que n’asseguren la sostenibilitat."
           },
           {
             "codi": "CA3.4",
-            "text": "Reconèixer la influència de les institucions i conceptes polítics grecolatins (democràcia, república, senat, dret romà) en les societats actuals."
-          },
-          {
-            "codi": "CA3.5",
-            "text": "Analitzar el paper de la dona en la societat grega i romana, comparant-lo amb les concepcions actuals de la igualtat de gènere."
+            "text": "Valorar les implicacions culturals, econòmiques i identitàries, de memòria històrica i de convivència, que hi ha al darrere de la conservació i la difusió del patrimoni cultural grecoromà, a través de la comprensió i assimilació dels conceptes de colonització i romanització."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Identificar, analitzar i valorar les manifestacions artístiques i arquitectòniques de les cultures grega i romana, situant-les en el seu context cultural i relacionant-les amb el patrimoni artístic posterior i amb les expressions contemporànies.",
+      "text": "Percebre i valorar com a llengües originàries la llengua grega i la llengua llatina i conèixer els principals autors i autores de la seva literatura, per ser conscient de l’estreta dependència de les llengües i literatures actuals respecte dels seus referents grecoromans.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO13": [
           {
             "codi": "CA4.1",
-            "text": "Reconèixer i analitzar les principals manifestacions artístiques i arquitectòniques de Grècia (ordre dòric, jònic, corinti; escultura; ceràmica) i de Roma (arc de triomf, basílica, amfiteatre, escultura, mosaic)."
+            "text": "Valorar críticament la diversitat lingüística i cultural a la qual donen origen el grec i el llatí i adequar-s’hi, identificant i explicant semblances i diferències entre els elements lingüístics de l’entorn de l’alumnat, relacionant-los amb els de la cultura pròpia i desenvolupant una cultura compartida i una ciutadania compromesa amb els valors democràtics."
           },
           {
             "codi": "CA4.2",
-            "text": "Analitzar obres d'art grecoromanes representatives (Partenó, Colosseu, Venus de Milo, August de Prima Porta) des d'una perspectiva formal i contextual."
+            "text": "Inferir significats de termes grecs i llatins aplicant els coneixements lèxics i fonètics d’altres llengües del repertori individual de l’alumnat, sobre la base de l’anàlisi comparativa de les llengües grega i llatina i la llengua o llengües d’ús habitual per part de l’alumnat."
           },
           {
             "codi": "CA4.3",
-            "text": "Identificar la influència de l'art grecoromà en les arts del Renaixement, el Neoclassicisme i l'art contemporani."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Valorar el patrimoni arqueològic i artístic grecolatí com a bé cultural que cal preservar, i reflexionar sobre els reptes de la seva conservació."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE5",
-      "text": "Reconèixer i analitzar la pervivència de la cultura clàssica grecollatina en la llengua, la literatura, el pensament, el dret, l'art i els valors de les societats contemporànies, valorant la tradició clàssica com a referent cultural viu i significatiu.",
-      "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
-          {
-            "codi": "CA5.1",
-            "text": "Identificar i analitzar mots, expressions, frases fetes, dites i locucions llatines i gregues presents en la llengua i la cultura actuals."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Reconèixer la influència del pensament filosòfic grecollatí (Sòcrates, Plató, Aristòtil, Epicur, Estoics, Ciceró, Sèneca) en la filosofia i l'ètica contemporànies."
-          },
-          {
-            "codi": "CA5.3",
-            "text": "Identificar la presència de la mitologia grecolatina en la literatura, el cinema, la publicitat, el còmic i l'art contemporanis."
-          },
-          {
-            "codi": "CA5.4",
-            "text": "Analitzar la influència del dret romà en els sistemes jurídics actuals, reconeixent termes i principis jurídics d'origen llatí."
-          },
-          {
-            "codi": "CA5.5",
-            "text": "Reflexionar sobre la rellevància de l'herència clàssica per a la comprensió del món contemporani, valorant els clàssics com a referents culturals vius."
+            "text": "Analitzar i explicar de manera oral, escrita o multimodal el caràcter clàssic i humanista de les diverses manifestacions literàries i artístiques de la civilització grega i llatina, utilitzant un vocabulari correcte i una expressió adequada."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "4t": {
-      "llengua_i_textos": [
-        "El grec i el llatí: dues grans llengues de l'antiguitat; famílies lingüístiques; lloc del grec i el llatí en la tradició lingüística europea",
-        "Morfologia nominal bàsica del llatí: les cinc declinacions; gènere, nombre, cas i les seves funcions sintàctiques",
-        "Morfologia verbal bàsica del llatí: conjugacions; temps i modes principals (present, imperfet, futur, perfecte)",
-        "Morfologia bàsica del grec: l'alfabet grec; morfologia nominal bàsica; el verb grec; temps principals",
-        "Etimologia i vocabulari: arrels llatines i gregues en les llengues modernes; lèxic patrimonial i cultismes",
-        "Vocabulari científic i tècnic d'origen grecollatí: medicina, biologia, física, química, filosofia, dret",
-        "Lèxic llatí i grec en la llengua quotidiana: locucions, frases fetes, termes jurídics, litúrgics i acadèmics",
-        "Textos grecollatins en traducció: tipologia (narratiu, dramàtic, filosòfic, líric, epistolar, historiogràfic)",
-        "Lectura i comentari de textos clàssics: Homero, Virgili, Cèsar, Ciceró, Ovidi, Sèneca, Plató, Aristòtil",
-        "Recursos literaris en els textos clàssics: epítets, al·literació, quiasme, hipèrbole, anàfora, paral·lelisme",
-        "La literatura grega: èpica (Ilíada, Odissea), tragèdia (Èsquil, Sòfocles, Eurípides), comèdia, lírica",
-        "La literatura llatina: Virgili (Eneida), Ovidi (Metamorfosis), Cèsar, Ciceró, Horaci, Tàcit, Plaute"
-      ],
-      "civilitzacio_i_cultura": [
-        "La Grècia antiga: periodització, polis, democràcia atenesa, sistema polític espartà",
-        "Roma: monarquia, república i imperi; institucions polítiques romanes (senat, cònsols, tribuns)",
-        "La societat grega: ciutadans, metecs, esclaus; el paper de la dona; l'agora com a espai públic",
-        "La societat romana: patricis, plebeus, esclaus; el dret de ciutadania; la família romana (pater familias)",
-        "Religió grega: els déus de l'Olimp, els mites de creació, els oracles, els jocs olímpics",
-        "Religió romana: els déus del panteó romà, les correspon­dències greco-romanes, el culte imperial",
-        "Mitologia: els principals mites grecolatins (Hèracles, Odisseu, Eneas, Perseu, Orfeu, Prometeu, Edip)",
-        "Vida quotidiana a Grècia: l'educació, l'agora, el simposion, el teatre, l'alimentació",
-        "Vida quotidiana a Roma: la domus, les insulae, els banys, l'amfiteatre, l'alimentació, el vestit",
-        "L'art grec: arquitectura (ordes clàssics, temples, teatres), escultura (kouros, kore, el Partenó), ceràmica",
-        "L'art romà: arquitectura (basílica, fòrum, arc de triomf, termes), escultura retratística, pintura mural, mosaic",
-        "L'exèrcit romà: organització, conquestes, romanització; la romanització de la Península Ibèrica i Catalunya",
-        "Les vies romanes i el territori: calçades, aqüeductes, ponts; herència romana en el territori català"
-      ],
-      "pervivencia_classica": [
-        "La pervivència del llatí: del llatí vulgar a les llengues romàniques; el llatí com a llengua de cultura medieval i científica",
-        "La influència del grec: la transmissió del saber grec a través de l'àrab i el llatí medieval",
-        "El Renaixement i el classicisme: recuperació de la cultura grecolatina; humanisme i neoplatonisme",
-        "La mitologia en la literatura occidental: de Dante a Shakespeare, dels romàntics als contemporanis",
-        "La mitologia en l'art: des del Renaixement fins al s. XXI; publicitat, còmic, cinema i videojocs",
-        "El dret romà i els sistemes jurídics actuals: principis fonamentals, terminologia, influència en el dret civil",
-        "El pensament filosòfic grecollatí i la filosofia moderna: Plató, Aristòtil, Estoics, Epicuris i el seu llegat",
-        "L'arquitectura clàssica i el seu llegat: neoclassicisme, arquitectura civil i religiosa d'inspiració grecolatina",
-        "Expressions i locucions llatines en ús actual: carpe diem, veni vidi vici, per se, modus vivendi, etc.",
-        "Topònims i antropònims d'origen grecollatí en el territori català i europeu",
-        "El patrimoni arqueològic grecolatí a Catalunya: Empúries, Tarraco, Barcino, Ilerda; conservació i valoració",
-        "La recepció dels clàssics en la cultura de masses: cinema de sandàlies, sèries televisives, còmics, videojocs"
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers es formulen en relació amb contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d’organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Grècia i Roma com a civilitzacions històriques - Localització en el temps i en l’espai de Grècia i Roma en el context geogràfic de la Mediterrània al llarg de la història. - Identificació de les primeres formes de pensament racional sorgides en la Grècia antiga i la seva influència en la tradició filosòfica posterior, a partir de la lectura comparada de textos d’un nivell assequible per a l’alumnat. - Valoració de la importància de les primeres aportacions científiques dels grecs i la seva continuïtat i desenvolupament en el món científic i tècnic de l’època romana. - Caracterització de l’origen mític del món segons els grecs i els romans i comparació amb altres cosmogonies antigues i modernes. - Identificació de les divinitats gregues i romanes, així com dels principals relats mítics i d’altres formes de religiositat popular, especialment al món romà, establint paral·lelismes amb el present. - Reconeixement dels principis de l’urbanisme grec i, sobretot, romà, i valoració de la importància del món urbà en la civilització clàssica, tot localitzant les ciutats principals, els edificis urbans més representatius i algunes de les grans obres públiques, per observació directa o indirecta. - Identificació dels elements que configuren l’art clàssic i dels canvis i continuïtats entre Grècia i Roma, localitzant, analitzant i valorant els elements patrimonials d’època clàssica a Catalunya. - Anàlisi d’aspectes de la vida quotidiana (lleure, costums, relacions familiars i socials) entre els grecs i els romans, a partir de reconstruccions històriques en suports diversos, inclosos els mitjans audiovisuals i eines digitals. Iniciació als elements bàsics de les llengües i literatures grega i llatina - Localització en el temps i en l’espai de les llengües grega i llatina i la seva difusió en el món antic i actual. - Identificació de les arrels comunes de les llengües grega i llatina i de les seves relacions amb altres famílies lingüístiques a partir d’exemples de contextos històrics i lingüístics diferents. - Identificació dels trets bàsics dels alfabets grec i llatí i comparació amb alfabets d’altres llengües a partir d’exemples pràctics. - Comparació d’alguns elements estructurals de la llengua pròpia amb les llengües grega i llatina com a iniciació al concepte de llengua flexiva. - Reconeixement de diversos tipus de fonts històriques escrites, identificant els sistemes d’escriptura, els diferents suports materials i les informacions que aporten al coneixement del passat. - Identificació i presa de consciència de la diversitat lingüística de les llengües romàniques, valorant-ne l’origen comú. - Identificació de llatinismes i d’ètims etimològics grecs en la llengua pròpia, així com d’elements del vocabulari culte i terminologia cientificotècnica, a partir tant d’exemples concrets com de textos de dificultat progressiva. - Caracterització dels principals gèneres literaris d’època clàssica i valoració de la literatura grecoromana com a expressió de la dimensió cultural i estètica de la llengua, a partir de fragments traduïts a les llengües d’aprenentatge, i identificació de la pervivència posterior d’aquests gèneres literaris per mitjà de fonts i suports diversos. L’herència de la cultura clàssica - Reconeixement de la pertinença a una cultura d’origen grecoromà, valorant críticament la incidència de les aportacions de la cultura clàssica. - Identificació de les relacions d’intercanvi cultural entre grecs i romans i altres cultures coetànies en el camp de la literatura, l’art i el pensament, fonamentalment. - Reconeixement i valoració de les diferents visions de la cultura clàssica al llarg de la història de la cultura occidental, especialment en els períodes de reivindicació del passat clàssic, tot interpretant l’ús que s’ha fet del llegat que li és propi. - Anàlisi i valoració de les aportacions artístiques de l’antiguitat clàssica a partir d’exemples provinents del passat i del present. - Reconeixement d’elements de la mitologia clàssica en manifestacions artístiques i culturals del món actual (arts plàstiques, arts escèniques, música, dansa, cinema). - Caracterització dels valors, disposicions i costums fruit de l’herència clàssica en diversos camps (educació, pensament, dret i política, fonamentalment)."
     }
-  },
-  "blocs_sabers": [
-    "llengua_i_textos",
-    "civilitzacio_i_cultura",
-    "pervivencia_classica"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 36,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MITF",
+    "titol_cicle": "Manteniment d'Instal·lacions Tèrmiques i de Fluids",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/57/2017, de 31 de març, per la qual s'estableix el currículum del cicle formatiu de grau mitjà de manteniment i control de la maquinària de vaixells i embarcacions.",
+    "data_decret": "2017-03-31",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP10",
+    "nom": "fonaments de construcció naval",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "fonaments nàutics",
+        "hores": 99,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els paràmetres específics, elements constructius, equips i instal·lacions de servei del vaixell, interpretant plànols i esquemes i utilitzant la nomenclatura tècnica.",
+            "criteris_avaluacio": [],
+            "continguts": [
+              {
+                "bloc": "Caracterització del vaixell",
+                "items": [
+                  "Tipus de vaixells. Dimensions i parts. Característiques principals.",
+                  "Geometria del vaixell i representacions: Plànols de referència. Plànols de formes. Corbes hidrostàtiques. Corbes KC i KN. Taules hidrostàtiques.",
+                  "Caracterització d'elements estructurals. Classificació. Funcions. Sistemes de construcció naval.1.4 Determinació d'esforços als cascos: esforços tallants i moments flectors.1.5 Caracterització d'equips propulsors i de govern. Sistemes i principis de propulsió. Tipus de propulsors. Sistemes de control de govern.1.6 Caracterització d'instal·lacions i serveis. 2. Resistències a la marxa del vaixell:2.1 Resistència de l'aigua, dels apèndixs, per formació d'ones, per formació de solc, de l'aire, etc.2.2 Resistències accidentals de la brutícia de la carena, navegació en canals, navegació per zones de baix fons.2.3 Canals d'experiències. Tipus. Estudis que s'hi fan. 3. Condició d'estabilitat i ajustament del vaixell:3.1 Paràmetres hidrostàtics: centre de carena i flotació. Radis metacèntrics. Tones per unitat d'immersió. Moment unitari.3.2 Coordenades dels centres de gravetat: efectes del trasllat, càrrega i descàrrega de pesos. Efectes de pesos suspesos i de les carenes líquides. Càlcul del centre de gravetat del vaixell utilitzant quadre de moments.",
+                  "Càlcul de l'estabilitat transversal inicial: identificació de l'alçada metacèntrica. Classificació de l'estabilitat inicial. Valors del GM segons criteris d'estabilitat. Detecció i correcció de l'estabilitat indiferent o negativa. Efecte de les carenes líquides. Efecte de l'acumulació de gel en coberta i superestructures d'embarcacions de pesca.",
+                  "Càlcul del GM i del KG mitjançant l'experiència d'estabilitat. Criteris de fiabilitat.",
+                  "Càlcul del GM en funció del període doble de balanç. Limitacions. Període de balanç i sincronisme. Forma de minimitzar els seus efectes.",
+                  "Optimització dels valors d'estabilitat inicial.",
+                  "Càlcul de l'escora permanent a partir de la distribució de pesos. Limitacions.",
+                  "Procediments informatitzats."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

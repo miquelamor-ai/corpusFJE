@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MITF",
+    "titol_cicle": "Manteniment d'Instal·lacions Tèrmiques i de Fluids",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/57/2017, de 31 de març, per la qual s'estableix el currículum del cicle formatiu de grau mitjà de manteniment i control de la maquinària de vaixells i embarcacions.",
+    "data_decret": "2017-03-31",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "regulació i manteniment d'automatismes en vaixells i embarcacions",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "muntatge i manteniment de sistemes pneumàtics",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Controla el funcionament de sistemes pneumàtics, interpretant informació tècnica i ajustant els paràmetres de la instal·lació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica cadascun dels components del sistema pneumàtic, associant-los amb la seva simbologia normalitzada i la seva funció en el sistema."
+              },
+              {
+                "codi": "CA12",
+                "text": "Determina els paràmetres de treball dels elements dels sistemes pneumàtics per complir les especificacions tècniques de funcionament."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els elements de subministrament i condicionament de l'aire comprimit."
+              },
+              {
+                "codi": "CA14",
+                "text": "Ajusta els fluxos i les pressions d'aire comprimit segons les especificacions de la instal·lació.1.5 Verifica la qualitat de l'aire (filtrat i humitat relativa, entre d'altres), ajustant el funcionament dels sistemes de filtrat i assecatge de l'aire comprimit. 2. Realitza operacions de muntatge i manteniment correctiu de sistemes pneumàtics, interpretant documentació tècnica i aplicant tècniques de muntatge. Criteris d'avaluació2.1 Identifica les operacions de manteniment programat en els circuits pneumàtics associats als sistemes pneumàtics del vaixell.2.2 Relaciona els principis de funcionament i les característiques dels elements pneumàtics amb la disposició d'elements en la documentació tècnica.2.3 Utilitza la simbologia pneumàtica normalitzada en l'elaboració d'esquemes de comandament i potència.2.4 Ajusta els elements d'entrada i processament (sensors i temporitzadors, entre d'altres), interpretant diagrames.2.5 Localitza avaries i/o disfuncions dels sistemes pneumàtics, seguint la seqüència lògica establerta."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Control del funcionament de sistemes pneumàtics",
+                "items": [
+                  "Aplicacions pneumàtiques. Elements d'un sistema pneumàtic.",
+                  "Determinació dels paràmetres de treball dels elements dels sistemes pneumàtics. Pressions de treball. Força desenvolupada pels actuadors. Cabals d'aire comprimit.",
+                  "Regulació dels paràmetres dels sistemes pneumàtics.",
+                  "Assecatge de l'aire comprimit.",
+                  "Manteniment de la xarxa de subministrament d'aire comprimit.",
+                  "Simbologia normalitzada dels elements de subministrament i condicionament de l'aire comprimit.",
+                  "Tècniques d'automatització.",
+                  "Control de processos.",
+                  "Tipus de processos industrials.",
+                  "Funcions lògiques exercides pels sistemes de control.",
+                  "Realització de funcions lògiques mitjançant elements de processament elèctric i pneumàtic.1.12 Funció dels elements de la cadena de comandament.1.13 Representació dels desenvolupaments seqüencials del moviment i els estats de commutació.1.14 Comparació dels diferents tipus de comandament i mitjans de treball. 2. Muntatge i manteniment de sistemes pneumàtics:2.1 Aplicació de sistemes pneumàtics a bord.2.2 Manteniment programat dels circuits pneumàtics.2.3 Constitució i funcionament dels elements pneumàtics. Vàlvules de vies. Actuadors pneumàtics. Funcions lògiques.2.4 Elaboració d'esquemes pneumàtics. Sistemes de comandament directe. Sistemes de comandament indirecte. Baixa pressió. Sistemes de memòries pneumàtiques.2.5 Interpretació d'esquemes pneumàtics. Simbologia normalitzada. Sistemes de numeració de components. Descripció del funcionament del sistema.2.6 Localització d'avaries. Tipologia d'avaries característiques en instal·lacions pneumàtiques. Diagnòstic i localització d'avaries.",
+                  "Manteniment i reparació d'instal·lacions pneumàtiques. Manteniment preventiu i correctiu d'instal·lacions pneumàtiques.",
+                  "Tècniques i procediments de muntatge de sistemes pneumàtics. Interpretació d'esquemes de muntatge. Connexió d'elements sobre plafó de pràctiques. Verificació de funcionalitat i ajust de paràmetres."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "muntatge i manteniment de sistemes oleohidràulics",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Manté sistemes oleohidràulics, interpretant documentació tècnica i comprovant el funcionament del sistema.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les operacions de manteniment en els circuits oleohidràulics associats als sistemes de propulsió, govern i auxiliars de l'embarcació, per garantir la seva operativitat amb la qualitat i seguretat requerides."
+              },
+              {
+                "codi": "CA12",
+                "text": "Verifica la funcionalitat dels components i els paràmetres de treball dels sistemes oleohidràulics."
+              },
+              {
+                "codi": "CA13",
+                "text": "Realitza el manteniment del sistema de generació d'energia hidràulica d'acord amb la documentació tècnica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Verifica la funcionalitat dels elements de comandament i la regulació dels sistemes oleohidràulics, valorant deficiències i avaries.1.5 Ajusta els fluxos i les pressions del fluid hidràulic segons les especificacions tècniques de la instal·lació.1.6 Adopta mesures de prevenció de la contaminació per abocaments de fluids oleohidràulics durant les operacions de manteniment. 2. Realitza operacions de muntatge i reparació de sistemes oleohidràulics, interpretant documentació tècnica i seleccionant els components i estris necessaris. Criteris d'avaluació2.1 Utilitza la simbologia normalitzada en l'elaboració d'esquemes oleohidràulics de comandament i potència.2.2 Identifica el funcionament dels sistemes oleohidràulics a partir de croquis i esquemes.2.3 Munta i connecta els equips i elements de la instal·lació.2.4 Selecciona components i eines per procedir en muntatge dels sistemes oleohidràulics.2.5 Localitza i repara avaries, substituint o reparant els elements del sistema oleohidràulic requerits per restablir la seva operativitat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge de sistemes oleohidràulics",
+                "items": [
+                  "Elaboració d'esquemes d'aplicacions oleohidràuliques. Simbologia normalitzada.",
+                  "Interpretació d'esquemes hidràulics. Simbologia normalitzada. Especificacions tècniques.",
+                  "Muntatge d'elements oleohidràulics. Materials i eines de muntatge. Tècniques de muntatge i connexió d'elements oleohidràulics.",
+                  "Ajust de paràmetres de funcionament i regulació. Mesurament de paràmetres. Regulació de cabals. Ajust de pressions de treball.",
+                  "Proves de funcionament de la instal·lació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "configuració i control d'automatismes programables",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Realitza projectes de control lògic programable (PLC), analitzant les funcions exercides pels automatismes i aplicant tècniques de programació i muntatge de l'autòmat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les entrades i sortides digitals del controlador lògic programable i la seva referència."
+              },
+              {
+                "codi": "CA12",
+                "text": "Dissenya programes per al control de processos elementals d'automatització industrial.1.3 Utilitza aplicacions informàtiques per a l'edició i gestió de projectes de control lògic programable.1.4 Connecta els equips i elements perifèrics del sistema d'acord amb el programa dissenyat.1.5 Comprova que la configuració establerta permet la comunicació del programari amb el dispositiu programable.1.6 Munta circuits bàsics de control amb autòmats programables d'acord amb el projecte dissenyat.1.7 Ajusta els paràmetres i verifica el funcionament del sistema.1.8 Localitza i soluciona disfuncions en circuits automàtics elementals controlats per PLC, interpretant la documentació tècnica. 2. Configura automatismes bàsics electropneumàtics i electrohidràulics, cablats o programats, interpretant esquemes elèctrics i ajustant els paràmetres de processament. Criteris d'avaluació2.1 Verifica la disposició dels sensors d'entrada i elements de processament de senyals elèctrics d'un sistema automàtic, segons tipus i prestacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Configuració d'automatismes elèctrics de control i processament",
+                "items": [
+                  "Simbologia normalitzada i la seva representació en instal·lacions electrohidràuliques i electropneumàtiques. Plànols i esquemes elèctrics normalitzats.",
+                  "Interpretació d'esquemes elèctrics de sistemes electrohidràulics i electropneumàtics.",
+                  "Dibuix de circuits d'automatismes electrohidràulics i electropneumàtics.",
+                  "Muntatge de circuits electropneumàtics i electrohidràulics de control i potència. Ajust de paràmetres: temporitzadors, pressòstats.",
+                  "Avaries característiques d'instal·lacions d'automatismes. Tipologia d'avaries en instal·lacions d'automatismes.",
+                  "Electrohidràulica proporcional. Electrovàlvules proporcionals. Amplificador de dos canals.",
+                  "Muntatge i configuració de sistemes electrohidràulics proporcionals."
+                ]
+              },
+              {
+                "bloc": "Programació de controladors lògics programables",
+                "items": [
+                  "Estructura del controlador lògic programable. Mòduls d'entrada. Mòduls de sortida.",
+                  "Elaboració de programes. Llenguatges de programació. Estructuració del programa. Documentació tècnica.",
+                  "Comunicacions. Consola de programació. Configuració del sistema.",
+                  "Muntatge i connexió d'autòmats programables. Procediments de muntatge i activació de l'autòmat. Proves de funcionament i ajust de variables.",
+                  "Tècniques de localització d'avaries en sistemes governats per autòmats."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

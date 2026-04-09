@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MI",
+    "titol_cicle": "Mecatrònica Industrial",
+    "grau": "desconegut",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/228/2016, de 24 d'agost, per la qual s'estableix el currículum del cicle formatiu de grau superior de mecatrònica industrial.",
+    "data_decret": "2016-08-24",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP02",
+    "nom": "sistemes hidràulics i pneumàtics",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sistemes pneumàtics",
+        "hores": 54,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els elements dels sistemes automàtics seqüencials de tecnologia pneumàtica/electro-pneumàtica, atenent les seves característiques físiques i funcionals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA19",
+                "text": "Calcula les magnituds i els paràmetres bàsics d'un sistema automàtic pneumàtic/electropneumàtic.1.10 Identifica les situacions d'emergència que poden presentar-se en el procés automàtic pneumàtic/electropneumàtic.1.11 Realitza proves i mesures en els punts notables d'un sistema automàtic pneumàtic/electropneumàtic. 2. Configura els sistemes automàtics de tecnologies pneumàtiques/electropneumàtiques, adoptant la solució més adequada i complint les condicions de funcionament establertes. Criteris d'avaluació2.1 Proposa possibles solucions de configuració de circuits pneumàtics en l'entorn d'una màquina.2.2 Adopta la solució més adequada, optimitzant cicles i complint les condicions establertes en el funcionament i la seguretat del sistema.2.3 Selecciona els elements d'un sistema pneumàtic i electropneumàtic.2.4 Aplica procediments de càlcul en funció de les necessitats de funcionament establertes.2.5 Realitza plànols i esquemes de principi de sistemes pneumàtics i electropneumàtics, utilitzant taules de seqüències, diagrames de fases o GRAFCET."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació i característiques físiques i funcionals dels components pneumàtics",
+                "items": [
+                  "Lleis físiques, propietats dels gasos. Producció, emmagatzematge, preparació i distribució de l'aire comprimit.",
+                  "Simbologia ISO (vàlvules, actuadors, indicadors i altres). Tipus, funcionament, aplicació i manteniment.",
+                  "Elements de control, comandament i regulació.",
+                  "Dispositius de comandament i regulació: sensors i reguladors.",
+                  "Anàlisi de circuits electropneumàtics."
+                ]
+              },
+              {
+                "bloc": "Configuració de sistemes pneumàtics/electropneumàtics",
+                "items": [
+                  "Simbologia gràfica normalitzada dels sistemes pneumàtics cablats i/o programats.",
+                  "Configuració de sistemes.2.2.1 Disseny del circuit i dels sistemes de seguretat.2.2.2 Càlcul.2.2.3 Selecció d'elements.2.2.4 Reglamentació2.2.5 Normativa electrotècnica aplicada.2.2.6 Simbologia.2.2.7 Representació d'esquemes elèctrics.2.2.8 Programari de simulació.2.3 Interpretació i realització de plànols, diagrames de fases, taules de seqüències, GRAFCET i esquemes de circuits.2.4 Plànols de conjunt dels sistemes pneumàtics de màquines. Llista d'especejament. 3. Muntatge de l'automatisme pneumàtic/electropneumàtic:3.1 Elaboració gràfica i croquis de posicionament de circuits.3.2 Elaboració de la fitxa de muntatge i desmuntatge de sistemes pneumàtics/electropneumàtics.3.3 Tècnica operativa de les connexions.3.4 Normes de pràctica professional comunament acceptades al sector.3.5 Configuració de circuits d'automatismes cablats pneumàtics.3.6 Operacions de muntatge i proves funcionals. Mitjans i procediments.3.7 Regulació i posada en marxa del sistema.3.8 Normativa de seguretat i mediambiental."
+                ]
+              },
+              {
+                "bloc": "Ajustos i reglatges mecànics en els sistemes pneumàtics",
+                "items": [
+                  "Estris de verificació i les tècniques metrològiques.",
+                  "Obtenció de dades, paràmetres, senyals, etc. dels sistemes.",
+                  "Mètodes d'ajust i reglatge de jocs, carreres, pressions i velocitats, entre d'altres.",
+                  "Aparells de mesura: pressió, cabal, temperatura entre d'altres."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sistemes hidràulics",
+        "hores": 25,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els elements que componen els sistemes automàtics seqüencials de tecnologia hidràulica/electrohidràulica, atenent les seves característiques físiques i funcionals.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica l'estructura i els components que configuren les instal·lacions de subministrament d'energia hidràulica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Relaciona les seves característiques dimensionals i funcionals amb els requeriments dels diferents actuadors."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les diferències entre els sistemes de control automàtics basats en tecnologia hidràulica i els que utilitzen tecnologia híbrida electrohidràulica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Obté informació de la documentació de sistemes de control automàtics realitzats amb tecnologia hidràulica/electrohidràulica.1.5 Reconeix les prestacions, el funcionament general i les característiques del sistema.1.6 Relaciona els símbols que apareixen en la documentació amb els elements reals del sistema.1.7 Reconeix la funció, el tipus i les característiques de cada component, equip o dispositiu del sistema automàtic hidràulic/electrohidràulic.1.8 Descriu la seqüència de funcionament d'un sistema automàtic hidràulic/electrohidràulic.1.9 Calcula les magnituds i els paràmetres bàsics d'un sistema automàtic hidràulic/electrohidràulic.1.10 Identifica les diferents situacions d'emergència que poden presentar-se en el procés automàtic hidràulic/electrohidràulic.1.11 Realitza les proves i les mesures en els punts notables d'un sistema automàtic hidràulic /electrohidràulic real o simulat. 2. Configura els sistemes automàtics de tecnologies hidràuliques/electrohidràuliques, adoptant la solució més adequada i complint les condicions de funcionament establertes."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació i característiques físiques i funcionals dels components hidràulics",
+                "items": [
+                  "Simbologia i aplicacions.",
+                  "Acumuladors hidràulics.",
+                  "Vàlvules i servovàlvules.",
+                  "Plànols de conjunt dels sistemes hidràulics de màquines. Llista d'especejament."
+                ]
+              },
+              {
+                "bloc": "Muntatge de l'automatisme hidràulic/electrohidràulic",
+                "items": [
+                  "Elaboració gràfica i croquis de posicionament de circuits.",
+                  "Elaboració de la fitxa de muntatge i desmuntatge de sistemes hidràulics/electrohidràulics.",
+                  "Tècnica operativa del connexionat.",
+                  "Normes de pràctica professional comunament acceptades al sector.",
+                  "Configuració de circuits d'automatismes cablats hidràulics.",
+                  "Operacions de muntatge i proves funcionals. Mitjans i procediments.",
+                  "Regulació i posada en marxa del sistema.",
+                  "Normativa de seguretat i mediambiental."
+                ]
+              },
+              {
+                "bloc": "Ajustos i reglatges mecànics en els sistemes hidràulics",
+                "items": [
+                  "Estris de verificació i les tècniques metrològiques.",
+                  "Obtenció de dades, paràmetres, senyals, etc. dels sistemes.",
+                  "Mètodes d'ajust i reglatge de jocs, carreres, pressions i velocitats, entre d'altres.",
+                  "Aparells de mesura: pressió, cabal, temperatura, entre d'altres."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "manteniment dels sistemes pneumàtics i hidràulics",
+        "hores": 20,
+        "resultats_aprenentatge": []
+      }
+    ]
+  }
+}

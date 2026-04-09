@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "MI",
+    "titol_cicle": "Mecatrònica Industrial",
+    "grau": "desconegut",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "ORDRE ENS/228/2016, de 24 d'agost, per la qual s'estableix el currículum del cicle formatiu de grau superior de mecatrònica industrial.",
+    "data_decret": "2016-08-24",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "integració de sistemes",
+    "hores_totals": 198,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "regulació i control de sistemes",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Identifica els elements que componen el llaç de regulació dels sistemes industrials, relacionant la seva funció amb els elements que conformen els processos d'automatització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els diferents tipus de regulació utilitzats en la indústria, especialment en el camp dels processos continus."
+              },
+              {
+                "codi": "CA12",
+                "text": "Relaciona les característiques i les variables d'un procés continu amb els seus llaços de regulació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Estableix la relació que existeix entre els paràmetres d'un regulador PID amb la resposta de les variables d'un procés."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica les característiques diferencials existents entre els sistemes de regulació automàtics cablats i els programats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica els equips, els elements i els dispositius de tecnologia electrotècnica (autòmats, reguladors de temperatura i reguladors de nivell, entre d'altres) dels sistemes automàtics, definint la seva funció, la tipologia i les característiques."
+              },
+              {
+                "codi": "CA16",
+                "text": "Identifica els equips, els elements i els dispositius de tecnologia fluídica dels sistemes automàtics, definint la seva funció, la tipologia i les característiques."
+              },
+              {
+                "codi": "CA17",
+                "text": "Obté informació de la documentació i dels esquemes corresponents a casos pràctics de sistemes automàtics."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica els dispositius i els components que configuren el sistema automàtic global (comandament, regulació, força, proteccions, mesures, i entrades i sortides, entre d'altres), explicant les característiques i el funcionament de cada un."
+              },
+              {
+                "codi": "CA19",
+                "text": "Diferencia els diferents modes de funcionament i les seves característiques específiques de sistemes reals o simulats."
+              },
+              {
+                "codi": "CA110",
+                "text": "Calcula les magnituds i els paràmetres bàsics d'un sistema, i els contrasta amb els valors reals mesurats en el sistema esmentat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació i funcions dels elements del llaç de regulació",
+                "items": [
+                  "Components d'un sistema de regulació i control.",
+                  "Esquemes de comandament i potència.",
+                  "Tipus de control (llaç obert i tancat).",
+                  "Control de processos d'esdeveniments discrets.",
+                  "Control de processos continus.",
+                  "Funció de transferència. Estabilitat.",
+                  "Elements dels sistemes controlats. Reguladors.",
+                  "Tipologia i característiques funcionals.",
+                  "Sistemes de control (P, PI, PID)."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "programació de PLC",
+        "hores": 55,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Integra el PLC en el muntatge de sistemes mecatrònics de processos discrets i continus, connexionant-lo, programant-lo, comprovant i mantenint el seu funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Obté la informació necessària per a l'elaboració dels programes de control del PLC d'un sistema automàtic, definit amb tecnologies pneumàtiques i/o hidràulica, elèctrica i mecànica."
+              },
+              {
+                "codi": "CA12",
+                "text": "Estableix el diagrama de flux i/o de seqüència corresponent al procés que es vol automatitzar."
+              },
+              {
+                "codi": "CA13",
+                "text": "Escull el llenguatge de programació més adequat al tipus de control que es pretén desenvolupar."
+              },
+              {
+                "codi": "CA14",
+                "text": "Aplica els principis de la programació modular i estructurada dels programes de control elaborats que governen el sistema automàtic."
+              },
+              {
+                "codi": "CA15",
+                "text": "Realitza rutines d'autodiagnosi que facilitin el diagnòstic d'avaries i el manteniment del sistema automàtic.1.6 Documenta els programes corresponents al control del sistema que facilitin la consulta i/o posterior manteniment de l'esmentat sistema.1.7 Preveu les diferents situacions d'emergència que poden presentar-se i implementa la resposta que l'equip de control ha d'oferir.1.8 Munta i connexiona els elements i les xarxes dels sistemes mecànics, elèctrics, pneumàtics i/o hidràulics i de control, d'acord amb els plans, els esquemes i les llistes de materials.1.9 Aconsegueix el funcionament correcte en la posada en marxa mitjançant la regulació i el control de les variables físiques que afecten el sistema.1.10 Assoleix la fiabilitat del procés i qualitat del producte definit, a través de l'adequada integració entre la part lògica i física del sistema.1.11 Identifica els símptomes de l'avaria.1.12 Localitza l'element responsable de l'avaria o del programa.1.13 Corregeix la disfunció i/o modifica el programa en el temps adequat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració d'autòmats programables",
+                "items": [
+                  "L'autòmat programable com a element de control en els sistemes automàtics.",
+                  "Estructura funcional d'un autòmat.",
+                  "Constitució. Funcions. Característiques.",
+                  "Entrades i sortides: digitals, analògiques i especials.",
+                  "Programació d'autòmats: llenguatge literal, de contactes, GRAFCET i d'altres.",
+                  "Resolució d'automatismes mitjançant la utilització d'autòmats programables i automatismes discrets i continus de diferents tecnologies.",
+                  "Tècniques de programació per autòmats programables.",
+                  "La comunicació de l'autòmat amb el seu entorn. Procediments.",
+                  "L'autòmat en el control elèctric i de fluids.",
+                  "Simbologia i representació gràfica.",
+                  "Aplicacions als sistemes de producció automatitzats."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "comunicacions industrials",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Integra les comunicacions industrials i els sistemes de supervisió al muntatge global dels sistemes mecatrònics de processos discrets i continus controlats per PLC, verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA16",
+                "text": "Comunica amb un bus industrial els autòmats programables i els PC, a nivell cèl·lula i a nivell camp o procés, connectant sensors i actuadors a sistemes de control d'automatització (autòmats, PC i terminals d'operador, entre d'altres), obtenint un funcionament fiable i de qualitat."
+              },
+              {
+                "codi": "CA17",
+                "text": "Implementa una xarxa industrial per a la comunicació entre PLC i per a la connexió de dues PLC de la cèl·lula o sistema de producció automatitzat a través de la xarxa telefònica."
+              },
+              {
+                "codi": "CA18",
+                "text": "Identifica símptomes d'avaries, maquinari o programari."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració de comunicacions industrials",
+                "items": [
+                  "Comunicacions industrials i control distribuït: elements de la comunicació, xarxes de comunicació, comunicacions industrials i normalització.",
+                  "El control integral dels processos. Fonaments CIM. Piràmide d'automatització.",
+                  "Protocols de comunicació: funcions i característiques, normalització i nivells.",
+                  "Xarxes industrials i busos de camp més estesos al mercat europeu (AS-i, Profibus, Ethenet Industrial i PROFInet, entre d'altres).",
+                  "Configuracions físiques. Programació de les comunicacions. Diagnòstic d'avaries.",
+                  "Interfície màquina-usuari: diferents tipologies d'Interfície HMI com ara panells d'operació o pantalles tàctils.",
+                  "Sistemes SCADA: descripció del sistema."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF4",
+        "nom": "manipuladors i robots",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Integra manipuladors i/o robots a sistemes mecatrònics de processos discrets i continus controlats per PLC, optimitzant el sistema i verificant-ne el funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica la tipologia, els graus de llibertat, la tecnologia i els àmbits d'aplicació de diferents tipus de manipuladors i robots utilitzats en el camp de l'automatització."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les estructures morfològiques més usuals en les quals es poden trobar els manipuladors i robots utilitzats en l'automatització industrial, descrivint la funció de cada una de les seves parts operatives."
+              },
+              {
+                "codi": "CA13",
+                "text": "Obté informació de la documentació tècnica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els dispositius i els components que configuren els sistemes automàtics manipulats i/o robotitzats reals."
+              },
+              {
+                "codi": "CA15",
+                "text": "Descriu la seqüència de funcionament d'un sistema manipulat i/o robotitzat dins del procés automatitzat amb PLC, com a element essencial de control."
+              },
+              {
+                "codi": "CA16",
+                "text": "Elabora el programa de control del manipulador i/o robot, integrant-lo al programa general de control del sistema automatitzat."
+              },
+              {
+                "codi": "CA17",
+                "text": "Preveu les situacions d'emergència que poden presentar-se."
+              },
+              {
+                "codi": "CA18",
+                "text": "Implementa la resposta que caldria donar davant situacions d'emergència."
+              },
+              {
+                "codi": "CA19",
+                "text": "Munta i connexiona els elements i les xarxes dels sistemes mecànics, elèctrics, pneumàtics i/o hidràulics i de control, d'acord amb els plans, esquemes i llistes de materials."
+              },
+              {
+                "codi": "CA110",
+                "text": "Aconsegueix el funcionament correcte en la posada en marxa."
+              },
+              {
+                "codi": "CA111",
+                "text": "Assoleix la fiabilitat del procés i la qualitat del producte definit."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Integració de manipuladors i robots",
+                "items": [
+                  "Els dispositius d'actuació en els processos seqüencials: manipuladors i robots. Tipologia i característiques. Camps d'aplicació.",
+                  "Elements de màquines. Transformacions i característiques.",
+                  "Transformacions.",
+                  "Cinemàtica i dinàmica de robots.",
+                  "Sensors, actuadors pneumàtics, hidràulics i elèctrics, i sistemes de control per a robots i manipuladors.",
+                  "La comunicació del robot amb el seu entorn. Característiques i procediments.",
+                  "Intel·ligència i visió artificial. Fonaments i elements que componen un sistema."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF5",
+        "nom": "posada en marxa i manteniment de sistemes mecatrònics",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Posa en marxa sistemes mecatrònics de producció discrets i continus, integrant tecnologies, optimitzant cicles i complint les condicions de funcionament.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Elabora un esquema general de les seccions que componen l'estructura del sistema automàtic."
+              },
+              {
+                "codi": "CA12",
+                "text": "Proposa configuracions alternatives que compleixin les especificacions funcionals i tècniques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Confecciona l'esquema amb la simbologia adequada."
+              },
+              {
+                "codi": "CA14",
+                "text": "Comprova i/o selecciona els elements del sistema, a partir de catàlegs tècnics comercials i càlculs necessaris."
+              },
+              {
+                "codi": "CA15",
+                "text": "Preveu les situacions d'emergència que poden presentar-se en els sistemes automàtics."
+              },
+              {
+                "codi": "CA16",
+                "text": "Documenta els procediments de muntatge i posada en marxa de la instal·lació.1.7 Elabora els programes dels sistemes de control emprats.1.8 Munta i connexiona els elements i les xarxes dels sistemes mecànics, elèctrics, pneumàtics i/o hidràulics i de control, amb les condicions de qualitat i seguretat establertes.1.9 Respecta les normes de pràctica professional comunament acceptades en el sector industrial.1.10 Aconsegueix el funcionament correcte en la posada en marxa mitjançant la regulació i el control de les variables físiques que afecten el sistema.1.11 Assoleix la fiabilitat del procés i la qualitat del producte definit, a través de l'adequada integració entre la part lògica i física del sistema.1.12 Planifica les posades en marxa amb les condicions de qualitat i seguretat establertes. 2. Diagnostica avaries en sistemes mecatrònics discrets i continus simulats, identificant la naturalesa de l'avaria, realitzant les intervencions correctives necessàries per eliminar la disfuncionalitat i restablir el funcionament."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Muntatge, posada en marxa i manteniment de sistemes mecatrònics",
+                "items": [
+                  "Disseny de sistemes de control automàtic: elaboració d'especificacions i quaderns de càrrega. Càlculs. Selecció de tecnologies, equips i dispositius.",
+                  "Anàlisi de la documentació tècnica de sistemes mecatrònics.",
+                  "Muntatge de línies de producció automatitzades: tècnica operativa.",
+                  "Anàlisi funcional de sistemes automàtics cablats.",
+                  "Anàlisi funcional de sistemes automàtics programats.",
+                  "Mesures en els sistemes automàtics. Instruments i procediments.",
+                  "Manteniment de línies de producció automatitzades: aplicació de tècniques preventives i correctives tipus.",
+                  "Identificació de riscos en sistemes mecatrònics. Normativa, mitjans i equips de seguretat."
+                ]
+              },
+              {
+                "bloc": "Diagnosi d'avaries en sistemes mecatrònics",
+                "items": [
+                  "Avaries tipus en els sistemes mecatrònics.",
+                  "Processos de diagnòstic i localització d'avaries. Sistemes monitoritzats.",
+                  "Processos de reparació d'avaries i correcció de disfuncions.",
+                  "Procediments de substitució dels elements en sistemes mecatrònics.",
+                  "Normativa de prevenció de riscos laborals i de protecció ambiental. Mesures de seguretat."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

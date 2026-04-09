@@ -6,292 +6,237 @@
     "codi_area": "QUI",
     "decret": "171/2022",
     "data_decret": "2022-09-20",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Quimica.pdf",
-    "nota_estructura": "Matèria de 1r i 2n de Batxillerat, modalitat Ciències.",
-    "versio_schema": "1.0",
-    "descripcio": "La Química de Batxillerat aprofundeix en la comprensió de la matèria a escala atòmica i molecular, i estableix les bases per a estudis universitaris de Química, Farmàcia, Medicina, Enginyeria Química, Materials i Ciències de la Salut. Proporciona eines per entendre processos industrials, medi ambientals i bioquímics essencials per al món actual.\n\nLa matèria desenvolupa conceptes fonamentals com l'estructura atòmica i la taula periòdica, els models d'enllaç químic —iònic, covalent i metàl·lic— i les forces intermoleculars que determinen les propietats macroscòpiques de les substàncies. La termodinàmica química —entalpia, entropia i energia de Gibbs— permet predir l'espontaneïtat de les reaccions. La cinètica química estudia la velocitat de reacció i els factors que la condicionen, com la concentració, la temperatura i els catalitzadors. L'equilibri químic i la llei d'acció de masses, les reaccions àcid-base, els processos d'oxidació-reducció i l'electroquímica constitueixen eixos clau del currículum. La química orgànica —grups funcionals, isomeria, polímers i bioquímica— tanca un recorregut integrador per la disciplina.\n\nLa metodologia de la Química combina la resolució de problemes estequiomètrics i de càlcul químic amb pràctiques de laboratori que inclouen titulacions, reaccions de precipitació, electròlisi i síntesi de compostos. L'ús de models moleculars, visualitzadors tridimensionals i eines digitals enriqueix la comprensió de l'estructura de la matèria. El raonament basat en dades experimentals i l'anàlisi de l'error en les mesures són hàbits que es treballen de forma sistemàtica."
+    "font": "PDF oficial XTEC: Quimica.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "La Química al Batxillerat aprofundeix en la comprensió de la matèria a escala atòmica i molecular, dels mecanismes de les reaccions i de les aplicacions industrials i bioquímiques de la química. Proporciona els fonaments imprescindibles per als estudis universitaris en química, farmàcia, medicina, enginyeria química i biociències, i connecta estretament amb la Física (termodinàmica, electromagnetisme), la Biologia (bioquímica) i les Matemàtiques (càlcul estequiomètric).\n\nEls grans blocs disciplinaris inclouen l'estructura atòmica i l'enllaç químic (model quàntic elemental, taula periòdica, tipus d'enllaç, propietats moleculars), la termoquímica i cinètica (energia de les reaccions, velocitat, mecanismes, catàlisi), l'equilibri químic (principi de Le Chatelier, equilibris àcid-base, solubilitat, redox), la química orgànica (funció, nomenclatura, reactivitat, polímers, biomolècules), i la química industrial i mediambiental (processos clau, impacte ambiental, química verda). El treball experimental és indissociable de l'aprenentatge teòric.\n\nL'enfocament pedagògic combina la resolució de problemes numèrics (estequiometria, pH, constants d'equilibri) amb la pràctica de laboratori (tècniques bàsiques, síntesi, anàlisi) i l'estudi de casos aplicats (fàrmacs, plàstics, aliments, contaminants). La comprensió dels models com a representacions simplificades de la realitat és central. L'avaluació inclou resolució de problemes justificats, informes de laboratori, qüestions de comprensió conceptual i connexió entre estructura molecular i propietats macroscòpiques."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Interpretar l'estructura atòmica i la classificació periòdica dels elements, relacionant la configuració electrònica amb les propietats químiques dels elements i la seva posició a la taula periòdica, per predir el comportament químic de les substàncies.",
+      "text": "Analitzar fenòmens i resoldre problemes basats en situacions relacionades amb la química mitjançant l'ús dels seus models, lleis i teories, atenent la base experimental i la conceptualització, per evidenciar la importància de la química com a ciència rellevant, i les connexions amb la vida quotidiana, el benestar comú i la sostenibilitat ambiental.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA1.1",
-            "text": "Descriure l'evolució dels models atòmics (Thomson, Rutherford, Bohr i model quàntic) i aplicar el model mecànico-quàntic per determinar la configuració electrònica dels elements i la seva posició a la taula periòdica."
+            "text": "Aplicar els models, les lleis i les teories científiques en l'anàlisi de fenòmens fisicoquímics quotidians, interpretant les causes que els produeixen i explicant-les utilitzant diversitat de suports i mitjans de comunicació."
           },
           {
             "codi": "CA1.2",
-            "text": "Interpretar les tendències periòdiques (radi atòmic, energia d'ionització, electronegativitat, afinitat electrònica) i relacionar-les amb el comportament químic dels elements."
+            "text": "Resoldre problemes fisicoquímics plantejats a partir de situacions quotidianes, aplicant els models, les lleis i les teories científiques per proposar i argumentar possibles solucions, expressant adequadament els resultats."
           },
           {
             "codi": "CA1.3",
-            "text": "Descriure la formació de l'enllaç iònic i calcular l'energia reticular; justificar les propietats dels compostos iònics (punt de fusió, solubilitat, conductivitat) a partir de la seva estructura."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Aplicar la teoria VSEPR i la teoria de l'orbital molecular (OM) per predir la geometria i la polaritat de molècules covalents; identificar els tipus de forces intermoleculars i relacionar-les amb les propietats físiques."
+            "text": "Identificar situacions problemàtiques a l'entorn quotidià, locals o globals, emprendre iniciatives i cercar solucions sostenibles des de la química, analitzant críticament l'impacte produït en la societat i en el medi ambient."
           }
         ],
-        "2n": []
+        "BAT2": [
+          {
+            "codi": "CA1.1",
+            "text": "Reconèixer la importància de la química i les seves connexions amb altres àrees en el desenvolupament de la societat, el progrés de la ciència, la tecnologia, l'economia i la sostenibilitat, identificant els avenços en el camp de la química que han estat fonamentals en aquests aspectes."
+          },
+          {
+            "codi": "CA1.2",
+            "text": "Descriure els principals processos químics que succeeixen a l'entorn i les propietats dels sistemes materials a partir dels coneixements, les destreses i les actituds propis de les diferents disciplines de la química."
+          },
+          {
+            "codi": "CA1.3",
+            "text": "Reconèixer la naturalesa experimental i interdisciplinària de la química i la seva influència en la investigació científica i en els àmbits econòmic i laboral actuals i les seves aplicacions en altres camps del coneixement i de l'activitat humana."
+          }
+        ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Analitzar els tipus d'enllaç químic (iònic, covalent i metàl·lic) i les forces intermoleculars, relacionant-los amb les propietats macroscòpiques de les substàncies, per comprendre la diversitat de materials i els seus usos.",
+      "text": "Formular preguntes i hipòtesis i contrastar-les a través de la indagació i l'experimentació atenent normes de seguretat, i argumentar mitjançant models i lleis de la química en situacions relacionades amb els sistemes materials i les aplicacions pràctiques de la química per proposar solucions a problemàtiques sociomediambientals.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA2.1",
-            "text": "Aplicar la llei de Hess i les energies d'enllaç per calcular l'entalpia estàndard de reacció; interpretar diagrames d'entalpia de reaccions exotèrmiques i endotèrmiques."
+            "text": "Formular i contrastar hipòtesis com a respostes a diferents problemes i observacions, utilitzant de manera adient el treball experimental, la indagació, la recerca d'evidències i el raonament logicomatemàtic."
           },
           {
             "codi": "CA2.2",
-            "text": "Calcular la variació d'entropia i d'energia de Gibbs d'una reacció, i determinar la seva espontaneïtat en funció de la temperatura; interpretar el significat termodinàmic del punt d'equilibri."
+            "text": "Utilitzar diferents mètodes per cercar la resposta a una sola qüestió o observació, confrontant els resultats obtinguts per diferents mètodes i assegurant-ne la coherència i fiabilitat."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Integrar les lleis i les teories científiques conegudes en el procediment de contrast de les hipòtesis formulades, aplicant relacions qualitatives i quantitatives entre les diferents variables, per garantir-ne la fiabilitat i la coherència amb el coneixement científic."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Posar en pràctica els coneixements adquirits en l'experimentació científica al laboratori, al camp o a altres entorns, incloent-hi el coneixement dels materials i els aparells de mesura i de recollida i tractament de dades, la normativa bàsica i normes de seguretat pròpies d'aquests espais, i comprenent la importància de la seguretat en el progrés científic i emprenedor."
           }
         ],
-        "2n": []
+        "BAT2": [
+          {
+            "codi": "CA2.1",
+            "text": "Relacionar la química amb situacions problemàtiques actuals, associades al desenvolupament de la ciència i la tecnologia, analitzant com es presenta a través dels mitjans de comunicació o com són percebuts en la vida quotidiana."
+          },
+          {
+            "codi": "CA2.2",
+            "text": "Reconèixer i comunicar que la química constitueix un cos de coneixement imprescindible per a l'estudi i la discussió de qüestions significatives en els àmbits social, econòmic, polític i ètic, identificant-ne la presència i la influència."
+          },
+          {
+            "codi": "CA2.3",
+            "text": "Aplicar de manera informada, coherent i raonada els models i les lleis de la química, explicant i predient les conseqüències d'experiments, fenòmens naturals, processos industrials i descobriments científics."
+          },
+          {
+            "codi": "CA2.4",
+            "text": "Posar en pràctica els coneixements adquirits en l'experimentació científica al laboratori, al camp o a altres entorns, incloent-hi el coneixement dels materials i els aparells de mesura i de recollida i tractament de dades, la normativa bàsica i normes de seguretat pròpies d'aquests espais, i comprenent la importància de la seguretat en el progrés científic i emprenedor."
+          }
+        ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Aplicar els principis de la termodinàmica química per calcular l'entalpia, l'entropia i l'energia de Gibbs de les reaccions, i predir l'espontaneïtat dels processos químics en diferents condicions.",
+      "text": "Interpretar i organitzar informació en diferents formats a partir de fonts diverses, utilitzant de manera adequada els diversos registres de comunicació de la química (unitats, formulació, llenguatge simbòlic, matemàtic i d'altres), per evidenciar la necessitat d'establir una eina de comunicació entre comunitats científiques i en la investigació.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA3.1",
-            "text": "Explicar la influència de la temperatura, la concentració, la pressió i els catalitzadors sobre la velocitat de reacció, aplicant la teoria de col·lisions i la llei d'Arrhenius per calcular la constant de velocitat."
+            "text": "Utilitzar i relacionar de manera rigorosa el Sistema Internacional d'Unitats (SI) i altres sistemes d'unitats, emprant correctament la seva notació i les seves equivalències, tot fent possible una comunicació efectiva amb tota la comunitat científica."
           },
           {
             "codi": "CA3.2",
-            "text": "Determinar l'ordre de reacció a partir de dades experimentals (llei de velocitat integrada) i calcular el temps de semireacció en reaccions d'ordre zero, primer i segon."
+            "text": "Anomenar i formular correctament substàncies simples, ions i compostos químics inorgànics i orgànics utilitzant les normes de la IUPAC, com a part d'un llenguatge integrador i universal per a tota la comunitat científica."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Emprar diferents formats per interpretar i expressar informació relativa a un procés fisicoquímic concret, relacionant i extraient la informació més rellevant de cada format per a la resolució d'un problema."
+          },
+          {
+            "codi": "CA3.4",
+            "text": "Posar en pràctica els coneixements adquirits en l'experimentació científica al laboratori, al camp o a altres entorns, incloent-hi el coneixement dels materials i els aparells de mesura i de recollida i tractament de dades, la normativa bàsica i normes de seguretat pròpies d'aquests espais, i comprenent la importància de la seguretat en el progrés científic i emprenedor."
           }
         ],
-        "2n": []
+        "BAT2": [
+          {
+            "codi": "CA3.1",
+            "text": "Utilitzar correctament el Sistema Internacional d'Unitats (SI) i altres sistemes d'unitats i les normes de nomenclatura de la IUPAC com a base d'un llenguatge universal per a la química, que permeti una comunicació efectiva amb tota la comunitat científica."
+          },
+          {
+            "codi": "CA3.2",
+            "text": "Emprar amb rigor eines matemàtiques per donar suport al desenvolupament del pensament científic, aplicant aquestes eines en la resolució de problemes, usant equacions, unitats i operacions."
+          },
+          {
+            "codi": "CA3.3",
+            "text": "Practicar i fer respectar les normes de seguretat relacionades amb la manipulació de substàncies químiques al laboratori i en altres entorns, i els procediments per a la correcta gestió i eliminació dels residus, utilitzant correctament els codis de comunicació característics de la química."
+          }
+        ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Interpretar la velocitat de reacció i els factors que la modifiquen (temperatura, concentració, superfície de contacte i catalitzadors) aplicant la teoria de les col·lisions i la teoria del complex activat per comprendre i controlar els processos químics.",
+      "text": "Seleccionar i avaluar críticament informació i recursos, en diferents formats i plataformes, tant en el treball individual com col·lectiu, crear i comunicar coneixement de manera efectiva i en diversos formats i argumentar l'ús responsable de substàncies i processos químics per al reconeixement de la influència positiva de la química en la societat.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT1": [
           {
             "codi": "CA4.1",
-            "text": "Escriure l'expressió de la constant d'equilibri (Kc i Kp) per a reaccions homogènies i heterogènies; calcular les concentracions o pressions d'equilibri a partir de Kc o Kp i de les condicions inicials."
+            "text": "Interactuar amb altres membres de la comunitat educativa, mitjançant diferents entorns d'aprenentatge, reals i virtuals, utilitzant de forma autònoma i eficient recursos variats, analògics i digitals, de forma rigorosa i respectuosa i analitzant críticament totes les aportacions."
           },
           {
             "codi": "CA4.2",
-            "text": "Aplicar el principi de Le Chatelier per predir el desplaçament de l'equilibri en resposta a canvis de temperatura, concentració i pressió; relacionar Kc, Kp i Qc."
+            "text": "Gestionar de forma autònoma i versàtil, individualment i en grup, la informació i la creació de continguts, amb fonament científic, utilitzant amb criteri i rigor les fonts i les eines més fiables, millorant així l'aprenentatge propi i col·lectiu."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA4.1",
+            "text": "Analitzar la composició química dels sistemes materials que es troben a l'entorn proper, al medi natural i a l'entorn industrial i tecnològic, argumentant que les seves propietats, aplicacions i beneficis estan basats en els principis de la química."
+          },
+          {
+            "codi": "CA4.2",
+            "text": "Argumentar de manera informada, aplicant les teories i les lleis de la química, que els efectes negatius de determinades substàncies a l'ambient i a la salut són degudes al mal ús que es fa d'aquests productes o a la negligència, i no a la ciència química en si."
           },
           {
             "codi": "CA4.3",
-            "text": "Aplicar la teoria de Brønsted-Lowry per identificar àcids i bases conjugats; calcular el pH de solucions d'àcids i bases forts i febles (Ka, Kb i Kw); resoldre problemes de tampons (equació de Henderson-Hasselbalch)."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Aplicar el concepte de solubilitat i producte de solubilitat (Kps) per predir la precipitació de compostos iònics poc solubles i calcular la solubilitat en presència d'ions comuns."
+            "text": "Explicar, emprant els coneixements científics adequats, quins són els beneficis dels nombrosos productes de la tecnologia química i com el seu ús i la seva aplicació han contribuït al progrés de la societat."
           }
-        ],
-        "2n": []
+        ]
       }
     },
     {
       "codi": "CE5",
-      "text": "Aplicar el principi d'equilibri químic i la llei d'acció de masses per calcular constants d'equilibri, predir el desplaçament de l'equilibri (principi de Le Chatelier) i resoldre problemes d'àcids i bases en sistemes aquosos.",
+      "text": "Resoldre i interpretar problemes en contextos relacionats amb la química, aplicant habilitats de cooperació, coordinació, emprenedoria i tècniques de treball pròpies de la comunitat química (experimentació, indagació, raonament logicomatemàtic, etc.), per reconèixer el paper de la química i predir la influència dels seus avenços en una societat basada en valors ètics i sostenibles.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA5.1",
-            "text": "Ajustar reaccions d'oxidació-reducció pel mètode de l'ió-electró en medi àcid i bàsic; identificar oxidant i reductor, i calcular la variació d'estat d'oxidació."
+            "text": "Participar de manera activa en la construcció del coneixement científic, evidenciant la presència de la interacció, la cooperació i l'avaluació entre iguals, millorant la capacitat de qüestionament, la reflexió i el debat en' assolir el consens en la resolució d'un problema o d'una situació d'aprenentatge."
           },
           {
             "codi": "CA5.2",
-            "text": "Calcular el potencial estàndard de cel·la electroquímica a partir dels potencials estàndard de reducció; aplicar l'equació de Nernst per a condicions no estàndard i predir l'espontaneïtat de la reacció redox."
+            "text": "Construir i produir coneixements per mitjà del treball col·lectiu, a més d'explorar alternatives per superar l'assimilació de coneixements ja elaborats i trobant moments per a l'anàlisi, la discussió i la síntesi, obtenint com a resultat l'elaboració de productes representats en informes, pòsters, presentacions, articles, etc."
           },
           {
             "codi": "CA5.3",
-            "text": "Aplicar les lleis de Faraday per calcular la massa depositada o el volum de gas produït en un procés d'electròlisi; analitzar el funcionament de piles de combustible i bateries de liti."
+            "text": "Debatre, de manera informada i argumentada, sobre les diferents qüestions mediambientals, socials i ètiques relacionades amb el desenvolupament de les ciències, aconseguint un consens sobre les conseqüències d'aquests avenços i proposant solucions creatives en comú a les qüestions plantejades."
+          }
+        ],
+        "BAT2": [
+          {
+            "codi": "CA5.1",
+            "text": "Reconèixer la important contribució a la química del treball col·laboratiu entre especialistes de diferents disciplines científiques posant en relleu les connexions entre les lleis i les teories pròpies de cada disciplina."
+          },
+          {
+            "codi": "CA5.2",
+            "text": "Reconèixer l'aportació de la química al desenvolupament del pensament científic i a l'autonomia de pensament crític a través de la posada en pràctica de les metodologies de treball pròpies de les disciplines científiques."
+          },
+          {
+            "codi": "CA5.3",
+            "text": "Valorar les aportacions de la física a la societat, debatent de manera fonamentada sobre el seu impacte des del punt de vista de l'ètica i de la sostenibilitat, i reflexionant sobre les causes i les conseqüències dels biaixos de gènere en les ciències."
           },
           {
             "codi": "CA5.4",
-            "text": "Descriure i aplicar el concepte de corrosió metàl·lica i els mètodes de protecció (passivació, galvanitzat, protecció catòdica)."
+            "text": "Resoldre problemes relacionats amb la química i estudiar situacions relacionades amb aquesta ciència, reconeixent la importància de la contribució particular de cada membre de l'equip i la diversitat de pensament, i consolidant habilitats socials positives en els equips de treball."
+          },
+          {
+            "codi": "CA5.5",
+            "text": "Representar i visualitzar de forma eficient els conceptes de química que presentin més dificultats utilitzant eines digitals i recursos variats, incloent-hi experiències de laboratori real i virtual."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "text": "Analitzar les reaccions d'oxidació-reducció i els processos electroquímics, aplicant les lleis de Faraday per calcular potencials de cel·la, predir l'espontaneïtat de les reaccions redox i comprendre el funcionament de piles i electròlisi.",
+      "text": "Construir coneixement químic de forma activa, col·lectiva i evolutiva a partir de situacions de l'entorn proper o global, i argumentar el caràcter multidisciplinari i versàtil de la química i les seves relacions amb altres camps de coneixement per actuar com a agents crítics en l'anàlisi i la difusió d'informació i promoure una societat igualitària, saludable i sostenible.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT1": [
           {
             "codi": "CA6.1",
-            "text": "Nombrar i formular compostos orgànics de les famílies principals (hidrocarburs, alcohols, aldehids, cetones, àcids carboxílics, èsters, amines i amides) aplicant la nomenclatura IUPAC."
+            "text": "Identificar i argumentar científicament les repercussions de les accions que l'alumne o alumna emprèn en la seva vida quotidiana, i analitzar com millorar-les com a forma de participar activament en la construcció d'una societat millor."
           },
           {
             "codi": "CA6.2",
-            "text": "Descriure els mecanismes de reacció bàsics (substitució radicalaria en alcans; addició electròfila en alquens; substitució nucleòfila en halogenurs d'alquil; substitució electròfila aromàtica en benzè)."
+            "text": "Detectar les necessitats de la societat sobre les quals aplicar els coneixements científics adequats que ajudin a millorar-la, incidint especialment en aspectes importants com ara el desenvolupament sostenible i la preservació de la salut."
           },
           {
             "codi": "CA6.3",
-            "text": "Identificar i resoldre problemes de reaccions de condensació (esterificació, amidació, formació de polímers per condensació) i de reaccions d'addició per a polímers sintètics."
-          },
-          {
-            "codi": "CA6.4",
-            "text": "Relacionar les propietats dels compostos orgànics (punt d'ebullició, solubilitat, acidesa) amb els grups funcionals presents i les interaccions intermoleculars."
+            "text": "Solucionar problemes i qüestions que són característics de la química utilitzant les eines proveïdes per les matemàtiques i la tecnologia, reconeixent així la relació entre els fenòmens experimentals i naturals i conceptes propis d'aquesta disciplina."
           }
-        ]
-      }
-    },
-    {
-      "codi": "CE7",
-      "text": "Reconèixer les famílies de compostos orgànics i els seus grups funcionals, descriure els mecanismes de reacció orgànica bàsics (substitució, addició, eliminació i condensació) i valorar la importància de la química orgànica en la societat i la salut.",
-      "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        ],
+        "BAT2": [
           {
-            "codi": "CA7.1",
-            "text": "Identificar les famílies de compostos orgànics d'interès biològic (aminoàcids i proteïnes, monosacàrids i polisacàrids, àcids grassos i lípids, bases nitrogenades i nucleòtids) i relacionar-ne l'estructura amb la funció."
-          },
-          {
-            "codi": "CA7.2",
-            "text": "Analitzar les propietats dels polímers sintètics (polietilè, PVC, niló, polièster) i dels plàstics biodegradables, valorant l'impacte ambiental dels plàstics i les estratègies de gestió de residus."
-          },
-          {
-            "codi": "CA7.3",
-            "text": "Debatre l'impacte de la indústria química en la societat i el medi ambient (producció de fertilitzants, fàrmacs, pesticides, materials), argumentant l'ús de principis de química verda per minimitzar residus i consum d'energia."
+            "codi": "CA6.1",
+            "text": "Explicar i raonar els conceptes fonamentals que es troben a la base de la química aplicant els conceptes, les lleis i les teories d'altres disciplines científiques (especialment de la física) per mitjà de l'experimentació i la indagació."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r": {
-      "estructura_atomica_i_classificacio": [
-        "L'àtom: protons, neutrons i electrons; nombre atòmic (Z), nombre màssic (A) i isòtops; massa atòmica relativa.",
-        "L'evolució dels models atòmics: Thomson (model del pastís de panses), Rutherford (nucli i electrons), Bohr (òrbites quantitzades).",
-        "El model mecànico-quàntic: funció d'ona, números quàntics (n, l, ml, ms) i orbitals atòmics (s, p, d, f).",
-        "La configuració electrònica: principi d'aufbau, regla de Hund i principi d'exclusió de Pauli; notació abreujada.",
-        "La taula periòdica: períodes i grups, metalls, no metalls i semimetalls; elements representatius, de transició i interns.",
-        "Les propietats periòdiques: radi atòmic, energia d'ionització, afinitat electrònica i electronegativitat (escala de Pauling).",
-        "L'enllaç iònic: formació, energia reticular (cicle de Born-Haber), propietats dels sòlids iònics.",
-        "L'enllaç covalent: compartició d'electrons, estructures de Lewis, càrrega formal i ressonància.",
-        "La teoria VSEPR: geometria molecular (lineal, angular, triangular plana, tetràedrica, trigonal bipiramidal, octaèdrica).",
-        "La polaritat molecular: moment dipolar, distinció entre polar i apolar; molècules amb enllaços polars però apolar global.",
-        "L'hibridació: sp, sp², sp³ i la seva relació amb la geometria; els orbitals π i σ en alquens i alquins.",
-        "La teoria de l'orbital molecular (OM): OM d'enllaç i antienllaç; ordre d'enllaç i propietats magnètiques (O₂, N₂, F₂).",
-        "L'enllaç metàl·lic: model del mar d'electrons; conductivitat, ductilitat i punt de fusió dels metalls.",
-        "Les forces intermoleculars: forces de London (dispersió), forces dipol-dipol i pont d'hidrogen; efecte en ebullició i solubilitat.",
-        "Les xarxes cristal·lines: sòlids iònics, moleculars, covalents (diamant, quars) i metàl·lics; tipus d'empaquetament (cúbic, hexagonal)."
-      ],
-      "termodinamica_quimica": [
-        "El sistema i l'entorn: tipus de sistemes (obert, tancat i aïllat); variables d'estat (P, V, T, n).",
-        "La calor i el treball: calor (Q) i treball (W) com a formes de transferència d'energia; convenció de signes.",
-        "La primera llei de la termodinàmica: ΔU = Q + W; energia interna i funcions d'estat.",
-        "L'entalpia (H): definició, ΔH de reacció, reaccions exotèrmiques (ΔH < 0) i endotèrmiques (ΔH > 0).",
-        "L'entalpia estàndard de formació (ΔHf°) i la llei de Hess: càlcul de ΔH a partir de ΔHf° dels reactius i productes.",
-        "Les energies d'enllaç: càlcul aproximat de ΔH a partir de la ruptura i formació d'enllaços.",
-        "La calorimetria: bomba calorimètrica i calorímetre de vas, càlcul de calors de reacció experimentalment.",
-        "L'entropia (S): concepte de desordre molecular; la segona llei (ΔS_univers ≥ 0) i la tercera llei (S = 0 al zero absolut).",
-        "La variació d'entropia en processos físics (fusió, vaporització, dissolució) i químics (canvi de mols de gas).",
-        "L'energia de Gibbs (G = H − TS): criteri d'espontaneïtat (ΔG < 0); relació entre ΔG°, ΔH° i ΔS°.",
-        "La dependència de l'espontaneïtat de la temperatura: els quatre casos possibles en funció del signe de ΔH i ΔS.",
-        "La relació entre ΔG° i la constant d'equilibri K: ΔG° = −RT·ln K."
-      ],
-      "cinetica_quimica": [
-        "La velocitat de reacció: expressió a partir de la variació de concentracions respecte al temps; unitats.",
-        "Els factors que afecten la velocitat: concentració, temperatura, superfície de contacte, catalitzadors i llum.",
-        "La teoria de les col·lisions: energia d'activació (Ea), orientació i la freqüència de col·lisions.",
-        "La teoria del complex activat (estat de transició): diagrama energia-coordenada de reacció, Ea directa i inversa.",
-        "La llei de velocitat: llei de velocitat diferencial, ordre de reacció (zero, primer, segon) i constant de velocitat k.",
-        "La determinació experimental de l'ordre de reacció: mètode d'aïllament i mètode de les velocitats inicials.",
-        "Les lleis de velocitat integrades: per a ordre zero (C = C₀ − kt), primer ordre (ln C = ln C₀ − kt) i segon ordre.",
-        "El temps de semireacció: expressió per a reaccions de primer ordre (t₁/₂ = ln2/k) i de segon ordre.",
-        "L'equació d'Arrhenius: k = A·e^(−Ea/RT); determinació gràfica de Ea i del factor preexponencial A.",
-        "Els catalitzadors: homogenis i heterogenis; mecanisme d'acció (reducció de l'Ea), examples industrials (procés Haber, catalitzador catalític).",
-        "Els enzims com a biocatalitzadors: especificitat, cinètica de Michaelis-Menten (qualitativa) i efecte dels inhibidors.",
-        "El mecanisme de reacció: reaccions elementals i molecularitat; l'etapa limitant de la velocitat; intermedis de reacció."
-      ],
-      "equilibri_quimic": [
-        "El concepte d'equilibri dinàmic: velocitats iguals en la reacció directa i inversa; evidències macroscòpiques.",
-        "La llei d'acció de masses: constant d'equilibri Kc i Kp; relació entre Kc i Kp (Kp = Kc·(RT)^Δn).",
-        "L'equilibri homogeni i heterogeni: expressió de K per a sistemes amb sòlids i líquids purs.",
-        "El quocient de reacció Q: comparació de Q i K per predir el sentit de l'evolució cap a l'equilibri.",
-        "El càlcul de concentracions d'equilibri: taula ICE (initial, change, equilibrium) i resolució d'equacions.",
-        "El principi de Le Chatelier: efecte dels canvis de concentració, temperatura i pressió sobre l'equilibri.",
-        "La constant d'equilibri i la temperatura: la relació entre K i ΔG°; com ΔH afecta el desplaçament de K.",
-        "Els equilibris àcid-base: teoria de Brønsted-Lowry, parelles àcid-base conjugades, autodissociació de l'aigua (Kw).",
-        "El pH: definició, mesura i càlcul per a àcids i bases forts.",
-        "Els àcids i bases febles: Ka i Kb, grau de dissociació (α) i càlcul de pH; relació Ka · Kb = Kw.",
-        "Les solucions tampó: principi de funcionament, equació de Henderson-Hasselbalch, capacitat tampó.",
-        "Les valoracions àcid-base: corbes de valoració, punt d'equivalència i indicadors àcid-base.",
-        "L'equilibri de solubilitat: producte de solubilitat Kps, càlcul de la solubilitat i l'efecte de l'ió comú.",
-        "La precipitació selectiva i les condicions per a la precipitació; aplicació en l'anàlisi qualitativa."
-      ]
-    },
-    "2n": {
-      "quimica_electroquimica": [
-        "L'oxidació i la reducció: canvis d'estat d'oxidació; oxidant i reductor.",
-        "L'ajust de reaccions redox per el mètode de l'ió-electró en medi àcid i en medi bàsic.",
-        "Les cel·les galvàniques: ànod, càtode, pont salí i la seva funció; convenció de polaritat.",
-        "Els potencials estàndard de reducció: l'elèctrode estàndard d'hidrogen (SHE) com a referència; sèrie electroquímica.",
-        "El potencial de cel·la: E°cel·la = E°càtode − E°ànod; relació amb ΔG° i amb K.",
-        "L'equació de Nernst: E = E° − (RT/nF)·ln Q; càlcul per a condicions no estàndard.",
-        "Les piles comercials: pila Leclanché, pila alcalina, acumulador de plom-àcid, bateria de liti-ió.",
-        "La pila de combustible d'hidrogen: reaccions d'elèctrode, eficiència i impacte ambiental.",
-        "L'electròlisi: cel·la electrolítica, polaritat dels elèctrodes, reaccions en l'electròlisi de l'aigua i del NaCl fos i en dissolució.",
-        "Les lleis de Faraday: primera llei (massa proporcional a la càrrega) i segona llei (equivalents proporcionals); càlcul de masses i volums.",
-        "La galvanoplàstia i l'anoditzat: aplicació industrial de l'electròlisi per a recobriments metàl·lics.",
-        "La corrosió de metalls: mecanisme electroquímic, factors que l'acceleren i mètodes de protecció (galvanitzat, pintures, protecció catòdica)."
-      ],
-      "quimica_organica_i_reaccions": [
-        "L'àtom de carboni: hibridació sp³, sp² i sp; l'esquelet carbonat (cadena lineal, ramificada i cíclica); isomeria de cadena, posició i funció.",
-        "La isomeria espacial: isomeria geomètrica (cis-trans) en alquens; isomeria òptica, carboni quiral, enantiòmers i activitat òptica.",
-        "Els alcans: nomenclatura IUPAC, propietats físiques, reacció de combustió i substitució radicalaria (mecanisme).",
-        "Els alquens i alquins: nomenclatura, propietats, addició electròfila (regla de Markovnikov, mecanisme carbocació), hidrogenació, hidratació i halogenació.",
-        "Els aromàtics: benzè (model de Kekulé i Hückel), propietats d'aromaticitat, substitució electròfila aromàtica (nitració, halogenació, sulfonació).",
-        "Els alcohols i els fenols: nomenclatura, classificació (primari, secundari, terciàri), propietats i reaccions d'oxidació.",
-        "Els aldehids i les cetones: nomenclatura, propietats, reacció d'oxidació (distinció aldehi/cetona amb reactiu de Tollens i Fehling) i addició nucleòfila.",
-        "Els àcids carboxílics: nomenclatura, propietats àcid-base (Ka), reaccions d'esterificació i formació d'amides.",
-        "Els èsters: nomenclatura, síntesi per esterificació (Fischer-Speier), hidròlisi àcida i bàsica (saponificació) i aplicació en sabons.",
-        "Les amines: nomenclatura, classificació, basicitat (Kb) i reaccions amb àcids.",
-        "Els compostos nitrogenats d'interès biològic: aminoàcids (estructura i propietats amfòteres), pèptids i proteïnes (estructura primària, secundària, terciària, quaternària).",
-        "La síntesi orgànica: estratègies de planificació (retrosíntesi bàsica); protecció de grups funcionals."
-      ],
-      "compostos_organics": [
-        "Els polímers d'addició: monòmers amb doble enllaç (etilè, propilè, estirè, clorur de vinil, tetrafluoretilè); mecanisme de polimerització radicalaria i aniònica.",
-        "Els polímers de condensació: poliamides (niló 6,6), polièsters (PET), policarbonats i resines epoxi; eliminació d'aigua o metanol.",
-        "Les propietats físiques dels polímers: temperatura de transició vítria (Tg), cristalinitat, termoestabilitat; polímers termoplàstics i termoestables.",
-        "Els bioplàstics i els polímers biodegradables: àcid polilàctic (PLA), polihidroxialcanoats (PHA); avantatges i limitacions.",
-        "Els hidrocarburs com a combustibles: petroli brut, destil·lació fraccionada, refineria; gasolina, gasoil, GLP i gas natural.",
-        "La petroquímica: obtenció d'etilè, propilè i BTX (benzè, toluè, xilè) com a matèries primeres de la indústria química.",
-        "La química verda: 12 principis de Anastas i Warner; prevenció de residus, economia atòmica, dissolvents alternatius.",
-        "Els medicaments i fàrmacs: analgèsics (aspirina, paracetamol), antibiòtics (penicil·lina), hormones sintètiques i fàrmacs de síntesi.",
-        "Els colorants i pigments: colorants naturals i sintètics (derivats de l'anil·lina); tintes per a tèxtils.",
-        "Els detergents i sabons: estructura (cap hidròfil, cua hidròfob), acció netejant, emulsificació; diferència amb els sabons.",
-        "Els pesticides, herbicides i fertilitzants: procés Haber-Bosch (síntesi de l'amoníac); impacte ambiental i alternatives."
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar l'aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos i circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds, amb les capacitats que sustenten l'enfocament competencial dels aprenentatges, la qual cosa modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer curs Enllaç químic i estructura de la matèria - Identificació i argumentació del desenvolupament de la taula periòdica: reconeixement i valoració de les contribucions històriques en la seva elaboració i de la importància com a eina predictiva de les propietats dels elements i de la relació amb els seus usos quotidians i les problemàtiques associades a l'augment de la demanda actual d'algun d'ells. - Organització de l'estructura electrònica dels àtoms i anàlisi de la interacció amb la radiació electromagnètica: explicació de la posició d'un element a la taula periòdica i de la similitud en les propietats dels elements químics de cada grup en situacions reals. - Aplicació de teories sobre l'estabilitat dels àtoms i dels ions: predicció de la formació d'enllaços entre els elements, de la representació d'aquests i de la predicció de les propietats de les substàncies químiques amb relació a la vida quotidiana. Relació propietats-estructura. Comprovació mitjançant l'observació i l'experimentació. - Utilització de la nomenclatura de substàncies simples, ions i compostos químics inorgànics: relació amb la composició, les propietats, l'estructura de les substàncies i les aplicacions que tenen a la vida quotidiana. Reaccions químiques - Interpretació i aplicació de les lleis fonamentals de la química: relacions estequiomètriques en les reaccions químiques i en la composició dels compostos. Resolució de qüestions quantitatives relacionades amb la química a la vida quotidiana i/o en contextos rellevants socialment. - Identificació i classificació de les reaccions químiques: relacions que hi ha entre la química i alguns aspectes importants de la societat actual com, per exemple, la conservació del medi ambient o el desenvolupament de fàrmacs. Identificació i investigació de reaccions químiques de la vida quotidiana com ara les reaccions àcid- base i reaccions redox com les combustions. - Càlcul de quantitats de matèria en sistemes fisicoquímics concrets, com ara gasos ideals o dissolucions, i investigació i interpretació de les seves propietats i de les variables mesurables pròpies del seu estat en situacions de la vida quotidiana i en contextos rellevants socialment. - Aplicació de l'estequiometria de les reaccions químiques en contextos d'aplicacions en els processos industrials més significatius de l'enginyeria química, i paràmetres mediambientals com ara la petjada ecològica o de carboni. Química orgànica - Identificació i comparació de propietats físiques i químiques generals dels compostos orgànics a partir de les estructures químiques dels seus grups funcionals: generalitats en les diferents sèries homòlogues i les seves aplicacions, en especial en contextos propers a l'alumnat i en situacions reals. - Utilització de les regles de la IUPAC per formular i anomenar correctament alguns compostos orgànics monofuncionals i polifuncionals (hidrocarburs, compostos oxigenats i compostos nitrogenats), i establiment de connexions amb els usos i els productes on es troben els compostos formulats, amb relació a la vida quotidiana i a qüestions d'interès ecosocial. Segon curs Enllaç químic i estructura de la matèria  Espectres atòmics i tècniques espectroscòpiques - Caracterització dels espectres atòmics com a evidència experimental responsable de la necessitat de la revisió del model atòmic. Identificació i argumentació de la rellevància de l'espectroscòpia en el context del desenvolupament històric del model atòmic. - Interpretació dels espectres d'emissió i absorció dels elements i de la seva contribució en el coneixement de l'Univers. Relació amb l'estructura electrònica de l'àtom. - Utilització de dades de diverses tècniques espectroscòpiques (UV, IR, RMN, espectrometria de masses) en la identificació de substàncies d'interès i rellevància en la vida quotidiana i qüestions sociocientífiques d'actualitat. Explicació de les bases del seu funcionament.  Principis quàntics de l'estructura atòmica - Relació entre el fenomen dels espectres atòmics i la quantització de l'energia. Del model de Bohr als models mecano-quàntics: necessitat d'una estructura electrònica a diferents nivells i les seves connexions amb la recerca científica bàsica i amb els avenços cientificotecnològics actuals. - Explicacions i aplicació del principi d'incertesa de Heisenberg i de la doble naturalesa ona-corpuscle de l'electró i de la naturalesa probabilística del concepte d'orbital. - Identificació dels nombres quàntics i aplicació del principi d'exclusió de Pauli. Construcció de l'estructura electrònica de l'àtom. Utilització del diagrama de Moeller per escriure la configuració electrònica dels elements químics més freqüents a l'entorn i al cos humà, i/o els protagonistes de situacions reals en controvèrsia i amb impacte socioambiental.  Taula periòdica i propietats dels àtoms - Argumentació basada en evidències de la naturalesa experimental de l'origen de la taula periòdica. Justificació de la llei periòdica i agrupament dels elements sobre la base de les propietats. - Relacions entre la teoria atòmica actual i les lleis experimentals observades. - Predicció de la situació d'un element a la taula periòdica a partir de la configuració electrònica, i de la configuració electrònica a partir de la situació de l'element, tot establint connexions amb les característiques i els usos de les substàncies quotidianes que el contenen. - Raonament en base a les dades, o en base al model de càrrega de l'àtom, de les tendències periòdiques. Aplicació a la predicció dels valors de les propietats dels elements de la taula a partir de la seva posició.  Enllaç químic i forces intermoleculars - Predicció i justificació del tipus d'enllaç a partir de les característiques dels elements individuals que el formen en relació amb les propietats de la substància formada i amb la seva presència a la vida quotidiana. - Interpretació de l'energia implicada en la formació de molècules, estructures cristal·lines 3D i estructures macromoleculars. Predicció i justificació de propietats de les substàncies químiques en relació amb la vida quotidiana i amb els seus usos i interès. - Aplicació de les estructures de Lewis i teoria de RPECV per explicar i predir geometries de compostos moleculars i la seva polaritat amb relació al seu comportament en fenòmens de l'entorn quotidià. - Aplicació del cicle de Born-Haber i de l'energia intercanviada en la formació de cristalls iònics. - Aplicació dels models del núvol electrònic per explicar les propietats característiques dels cristalls metàl·lics en metalls d'ús destacat en situacions d'actualitat. - Relacions entre forces intermoleculars i propietats macroscòpiques de compostos molecul"
     }
-  },
-  "blocs_sabers": [
-    "estructura_atomica",
-    "termodinamica",
-    "cinetica",
-    "equilibri",
-    "electroquimica",
-    "quimica_organica"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 94,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

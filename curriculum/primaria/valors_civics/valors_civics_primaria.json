@@ -2,385 +2,129 @@
   "meta": {
     "familia": "lomloe",
     "etapa": "primaria",
-    "area_materia": "Valors Cívics i Ètics",
+    "area_materia": "Educació en Valors Cívics i Ètics",
     "codi_area": "VCE",
     "decret": "175/2022",
-    "data_decret": "2022-08-22",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Valors-Civics-i-Etics.pdf",
-    "descripcio": "Els Valors Cívics i Ètics a Primària acompanyen l'alumnat de 6 a 12 anys en la construcció d'una identitat personal sòlida i d'una ciutadania activa, responsable i compromesa. La matèria connecta els àmbits de la vida interior (emocions, valors, autoconeixement), les relacions interpersonals i la participació en la societat democràtica.\n\nEls sabers s'organitzen en nuclis temàtics complementaris. L'educació emocional aborda el reconeixement i la gestió de les pròpies emocions, l'empatia, la regulació emocional i la resiliència. L'ètica personal treballa la reflexió sobre els valors, la consciència moral i la presa de decisions responsable. La convivència i la ciutadania inclou els drets humans, la no-discriminació, la resolució pacífica de conflictes i la participació democràtica. La sostenibilitat i el compromís cívic connecten la matèria amb la justícia social, el medi ambient i la responsabilitat global.\n\nLa metodologia és dialògica i vivencial: el debat filosòfic per a nens i nenes, l'aprenentatge servei, el role-playing i l'assemblea de classe permeten experimentar els valors en situacions reals. La reflexió cooperativa, la gestió col·lectiva de conflictes i la presa de decisions en grup afavoreixen el creixement moral i cívic de l'alumnat al llarg de l'etapa.",
-    "versio_schema": "1.0"
+    "data_decret": "2022-09-27",
+    "font": "PDF oficial XTEC: Educacio-en-Valors-Civics-i-Etics.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
+    "descripcio": "L'Educació en Valors Cívics i Ètics a Primària acompanya l'alumnat en la construcció de la seva identitat personal i moral, el desenvolupament de la consciència cívica i l'adquisició de valors per viure en societat de manera democràtica, justa i sostenible. La matèria connecta amb el Coneixement del Medi (societat, institucions, medi ambient), la Llengua (diàleg argumentatiu, resolució de conflictes), l'Educació Física (convivència, gestió emocional) i totes les àrees que treballen la perspectiva de gènere i la igualtat. És eix transversal del Projecte Educatiu de Centre i preparació per a l'Educació per a la Ciutadania de l'ESO.\n\nEls grans constructes disciplinaris abasten l'autoconeixement i l'autonomia moral (identitat personal, pensament crític i ètic, prevenció de riscos digitals), la societat, la justícia i la democràcia (drets humans, Convenció dels Drets de l'Infant, institucions democràtiques, cultura de pau, solidaritat, igualtat de gènere), la sostenibilitat i l'ètica ambiental (relació individu-societat-natura, canvi climàtic, ODS, consum responsable) i l'educació emocional (identificació i regulació d'emocions, empatia, relacions afectives saludables, prevenció de l'assetjament).\n\nL'enfocament pedagògic es basa en el diàleg filosòfic, el debat argumentatiu i la reflexió col·lectiva a partir de situacions reals o dilemes ètics propers a l'experiència de l'alumnat. Les assemblees de classe, els projectes de servei a l'entorn i la connexió amb els ODS converteixen la matèria en un espai d'acció, no només de reflexió. La perspectiva de gènere i la inclusió de totes les identitats travessen tots els blocs de contingut. L'avaluació posa l'accent en l'argumentació, la coherència entre valors i actuacions, la capacitat de reconèixer prejudicis i la presa de decisions moralment justificades en situacions concretes."
   },
-  "competencies_clau": [
-    "CCL",
-    "CP",
-    "STEM",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE",
-    "CCEC"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "text": "Construir una identitat personal positiva i coherent, reconeixent les pròpies característiques, fortaleses i àrees de millora, gestionant les emocions i els conflictes de forma assertiva i desenvolupant l'autoestima, l'autoconeixement i l'autonomia personal.",
+      "text": "Identificar aspectes vinculats a la pròpia identitat i a les qüestions ètiques relatives a un mateix, en el seu entorn proper, buscant la informació a l’abast i interpretant-la de forma reflexiva i crítica per promoure l’autoconeixement i el desenvolupament de l’autonomia moral.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i expressar les pròpies emocions bàsiques (alegria, tristesa, por, ràbia, sorpresa) en situacions quotidianes de forma verbal i no verbal."
+            "text": "Reconèixer les pròpies capacitats físiques, sensorials i cognitives tenint en compte els punts forts i febles de la pròpia identitat promovent l’autoconeixement."
           },
           {
             "codi": "CA1.2",
-            "text": "Reconèixer les pròpies qualitats i les dels companys i adoptar actituds d'autoestima positiva."
+            "text": "Identificar trets personals que facilitin el procés de construcció de la pròpia identitat amb responsabilitat i autonomia."
           },
           {
             "codi": "CA1.3",
-            "text": "Identificar i aplicar estratègies bàsiques de gestió emocional en situacions de conflicte quotidianes (respirar, comptar, demanar ajuda)."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA1.1",
-            "text": "Analitzar i gestionar les pròpies emocions en situacions de conflicte o de pressió, aplicant estratègies de regulació emocional."
+            "text": "Interpretar críticament la informació de l’entorn afavorint la construcció de la pròpia identitat."
           },
           {
-            "codi": "CA1.2",
-            "text": "Mostrar autoestima positiva i realista, reconeixent fortaleses i àrees de millora sense comparar-se negativament amb els altres."
+            "codi": "CA1.4",
+            "text": "Mostrar conductes que evidenciïn autonomia moral en un context social amb gran diversitat d’interessos."
           },
           {
-            "codi": "CA1.3",
-            "text": "Prendre decisions personals de forma autònoma i raonada, tenint en compte les conseqüències per a un mateix i per als altres."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA1.1",
-            "text": "Analitzar la pròpia identitat personal (valors, creences, motivacions, fortaleses) i el seu procés de construcció en relació amb l'entorn social i cultural."
-          },
-          {
-            "codi": "CA1.2",
-            "text": "Gestionar les emocions complexes (frustració, enveja, ira, decepció) de forma autònoma i constructiva, aplicant estratègies de benestar emocional."
-          },
-          {
-            "codi": "CA1.3",
-            "text": "Prendre decisions complexes de forma autònoma i responsable, avaluant les alternatives i les conseqüències ètiques."
+            "codi": "CA1.5",
+            "text": "Mostrar una actitud responsable, respectuosa i assertiva amb relació a problemàtiques diverses i riscos derivats de l’ús acrític i de l’abús de les xarxes socials, com a factors de prevenció de situacions de ciberassetjament entre iguals i en el context educatiu."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "text": "Participar de forma activa, respectuosa i empàtica en la vida de grup i de la comunitat, aplicant habilitats socials i de convivència per establir relacions positives, resoldre conflictes de forma dialogada i construir entorns inclusius i equitatius.",
+      "text": "Actuar i interactuar atenent a normes i valors cívics i ètics, reflexionant sobre la seva importància per a la vida individual i col·lectiva, per aplicar-los de manera efectiva i argumentada en diferents contextos i amb la finalitat de promoure una convivència pacífica, respectuosa, democràtica i justa.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA2.1",
-            "text": "Participar en la vida del grup de classe respectant les normes de convivència, el torn de paraula i les opinions dels companys."
+            "text": "Investigar sobre la naturalesa social i política de l’ésser humà en el marc d’una convivència democràtica."
           },
           {
             "codi": "CA2.2",
-            "text": "Mostrar actituds d'empatia, cooperació i respecte envers els companys, amb independència de les seves característiques personals."
+            "text": "Interactuar amb els altres adoptant conductes cíviques i democràtiques en un marc de respecte, empatia i consideració adequada de les relacions afectives que s’estableixin."
           },
           {
             "codi": "CA2.3",
-            "text": "Reconèixer situacions de conflicte a l'aula i usar estratègies bàsiques de resolució dialogada."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA2.1",
-            "text": "Aplicar habilitats socials (escolta activa, assertivitat, empatia) en les relacions amb els companys i en la resolució de conflictes."
+            "text": "Manifestar actituds alineades amb valors com la justícia, la pau i el rebuig a la violència, la solidaritat i el respecte per les minories i les diferents identitats humanes i personals en el seu entorn."
           },
           {
-            "codi": "CA2.2",
-            "text": "Identificar i rebutjar comportaments de discriminació, bullying i assetjament a l'escola i adoptar actituds de defensa de les víctimes."
+            "codi": "CA2.4",
+            "text": "Analitzar el paper de les institucions públiques, dels organismes internacionals i les organitzacions no governamentals en la promoció de la pau, la solidaritat i la cooperació entre nacions a través del diàleg argumentatiu."
           },
           {
-            "codi": "CA2.3",
-            "text": "Participar en projectes de millora de la convivència escolar i de l'entorn proper."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA2.1",
-            "text": "Analitzar conflictes socials de l'entorn i aplicar estratègies de mediació i negociació per a la resolució no violenta."
-          },
-          {
-            "codi": "CA2.2",
-            "text": "Promoure actituds d'inclusió i respecte a la diversitat cultural, religiosa, de gènere i d'orientació sexual en l'entorn escolar i social."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Participar en iniciatives de voluntariat i servei a la comunitat com a expressió de la ciutadania activa."
+            "codi": "CA2.5",
+            "text": "Reflexionar sobre la defensa d’una efectiva igualtat de gènere i sobre el problema de la violència contra les dones i la conducta sexista, a través de l’anàlisi de les mesures de prevenció de la desigualtat, la violència i la discriminació per raó de gènere i orientació sexual."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "text": "Conèixer i valorar els drets i deures fonamentals de les persones, identificant situacions d'injustícia, discriminació i vulneració de drets en l'entorn proper i al món, i adoptant actituds i compromisos de defensa i promoció de la dignitat humana.",
+      "text": "Interpretar les relacions sistèmiques entre l’individu, la societat i la natura, així com la importància de l’acció local i les seves conseqüències en l’entorn proper, per desenvolupar un paper actiu i conseqüent amb el respecte, la cura i la protecció de les persones i del planeta.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA3.1",
-            "text": "Identificar drets bàsics dels infants (dret a l'educació, a la salut, al joc, a la família) i reconèixer situacions on es respecten o es vulneren."
+            "text": "Identificar propostes per afavorir l’aturada del canvi climàtic a partir de l’anàlisi de les problemàtiques en el context local i argumentant el deure ètic de protegir i tenir cura de la natura."
           },
           {
             "codi": "CA3.2",
-            "text": "Mostrar actituds de respecte i igualtat envers les persones de diferent origen, cultura, gènere o capacitat."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA3.1",
-            "text": "Identificar els drets humans fonamentals i analitzar situacions d'injustícia i vulneració de drets en el món."
-          },
-          {
-            "codi": "CA3.2",
-            "text": "Reconèixer situacions de discriminació per raó de gènere, ètnia, religió, capacitat o origen i argumentar la seva injustícia."
+            "text": "Realitzar accions que afavoreixen l’assoliment dels objectius de desenvolupament sostenible a través d’acords i actuacions individuals i col·lectives."
           },
           {
             "codi": "CA3.3",
-            "text": "Adoptar actituds de compromís amb la defensa dels drets humans i la igualtat."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA3.1",
-            "text": "Analitzar la Declaració Universal dels Drets Humans i la Convenció dels Drets de l'Infant, identificant situacions de vulneració al món actual."
-          },
-          {
-            "codi": "CA3.2",
-            "text": "Argumentar críticament sobre situacions d'injustícia global (desigualtats nord-sud, pobreza, discriminació) i proposar accions de transformació social."
-          },
-          {
-            "codi": "CA3.3",
-            "text": "Adoptar compromisos personals de defensa dels drets humans i de lluita contra la discriminació."
+            "text": "Desenvolupar actituds i valors de compromís basats en el respecte, cura i protecció de les persones, dels animals i del planeta, a través d’accions individuals, en l’àmbit local, vinculades al consum responsable i de productes de proximitat, l’ús sostenible de l’aigua, de l’energia, de la mobilitat, la gestió dels residus i el respecte per la diversitat ètnica i cultural."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "text": "Comprendre el funcionament de les institucions democràtiques, reconèixer els valors i principis de la democràcia i la ciutadania activa, i participar de forma responsable en la vida de la comunitat escolar, local i global.",
+      "text": "Desenvolupar l’autoestima i l’estima de l’entorn, a partir de la identificació, expressió i gestió de les emocions i sentiments propis i reconeixent i valorant els dels altres, amb la finalitat d’assolir una actitud empàtica i respectuosa envers un mateix, els altres i la natura.",
       "criteris_avaluacio": {
         "CI": [
           {
             "codi": "CA4.1",
-            "text": "Conèixer les normes bàsiques de convivència de l'escola i el seu valor per a la vida en comú."
+            "text": "Expressar de manera respectuosa les pròpies emocions manifestant una ajustada autoestima en activitats creatives individuals i de grup."
           },
           {
             "codi": "CA4.2",
-            "text": "Participar en la presa de decisions col·lectives de l'aula (assemblees de classe, elecció de delegats) de forma respectuosa."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA4.1",
-            "text": "Comprendre el funcionament de les institucions democràtiques bàsiques (ajuntament, parlament, govern) i la seva funció en la societat."
+            "text": "Regular adequadament les pròpies emocions a partir de la identificació d’aquestes i les dels altres, en activitats de reflexió tant individuals com col·lectives."
           },
           {
-            "codi": "CA4.2",
-            "text": "Participar activament en espais de democràcia escolar (consell de delegats, assemblea, projectes de millora) aportant idees i assumint responsabilitats."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA4.1",
-            "text": "Analitzar el funcionament de la democràcia liberal, els seus principis (separació de poders, drets fonamentals, participació ciutadana) i les seves amenaces."
+            "codi": "CA4.3",
+            "text": "Manifestar una actitud empàtica i respectuosa envers un mateix, els altres i la natura, en activitats realitzades en l’entorn escolar."
           },
           {
-            "codi": "CA4.2",
-            "text": "Participar críticament en el debat públic sobre temes d'interès social i polític, argumentant des dels valors democràtics."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE5",
-      "text": "Reconèixer la interdependència entre les persones i el medi natural, adoptant actituds i comportaments sostenibles en la vida quotidiana, valorant la responsabilitat col·lectiva davant dels reptes mediambientals i comprometent-se amb un futur sostenible.",
-      "criteris_avaluacio": {
-        "CI": [
-          {
-            "codi": "CA5.1",
-            "text": "Identificar accions quotidianes que ajuden a cuidar el medi natural (reciclar, estalviar aigua i energia, no contaminar) i dur-les a terme."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Mostrar actituds de respecte i cura envers els éssers vius i el medi natural de l'entorn."
-          }
-        ],
-        "CM": [
-          {
-            "codi": "CA5.1",
-            "text": "Analitzar problemes mediambientals de l'entorn proper (residus, contaminació, pèrdua de biodiversitat) i proposar accions de millora."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Adoptar de forma consistent hàbits de consum responsable i sostenible en la vida quotidiana (reducció, reutilització i reciclatge)."
-          }
-        ],
-        "CS": [
-          {
-            "codi": "CA5.1",
-            "text": "Analitzar la crisi climàtica i els reptes mediambientals globals (pèrdua de biodiversitat, deforestació, contaminació) des d'una perspectiva científica i ètica."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Adoptar compromisos personals i col·lectius de sostenibilitat i de responsabilitat envers les generacions futures."
+            "codi": "CA4.4",
+            "text": "Identificar i prendre consciència de fets i accions dirigides a membres de la comunitat educativa que, si persisteixen en el temps, poden derivar en relacions abusives, situacions d’assetjament i maltractament entre iguals en el context educatiu i, en aquest cas, prendre-hi partit des d’un posicionament proactiu com a factor de prevenció."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "CI": {
-      "identitat_i_autonomia": [
-        "Les emocions bàsiques: alegria, tristesa, por, ràbia, sorpresa, fàstic — reconeixement i expressió",
-        "El cos i les emocions: sensacions físiques associades a les emocions",
-        "Estratègies bàsiques de regulació emocional: respiració, comptar fins a deu, parlar amb un adult",
-        "L'autoconeixement: les pròpies qualitats, gustos i preferències",
-        "L'autoestima: valorar-se un mateix de forma positiva i realista",
-        "L'autonomia personal: tasques i responsabilitats a l'escola i a casa",
-        "La presa de decisions senzilles: pensar abans d'actuar, les conseqüències de les decisions"
-      ],
-      "convivencia_i_relacions": [
-        "Normes de convivència a l'aula i a l'escola: el per què de les normes",
-        "El respecte: vers les persones, els materials i els espais comuns",
-        "L'empatia: posar-se en el lloc dels altres; les emocions dels altres",
-        "La cooperació: ajudar els companys; el treball en equip",
-        "El conflicte: situacions de conflicte quotidià; estratègies bàsiques de resolució (parlar, escoltar, cedir)",
-        "Les diferències entre les persones: diversitat de característiques físiques, famílies, cultures",
-        "L'amistat: característiques d'una bona amistat; fer amics"
-      ],
-      "drets_i_deures": [
-        "Els drets dels infants: dret a l'educació, a la salut, al joc, a la família, a ser escoltat",
-        "Els deures a l'escola i a casa: responsabilitats i compromisos bàsics",
-        "La igualtat: tothom té els mateixos drets, independentment del seu origen, gènere o capacitat",
-        "Situacions d'injustícia bàsica: identificar quan no es respecten els drets d'algú",
-        "Les regles i les lleis: per a què serveixen; les normes de circulació per als vianants"
-      ],
-      "democracia_i_ciutadania": [
-        "La vida en comú: la classe i l'escola com a comunitat",
-        "L'assemblea de classe: expressió d'opinions, presa de decisions col·lectives",
-        "El delegat i la delegada de classe: representació i responsabilitat",
-        "L'ajuntament: qui governa el poble o la ciutat; serveis bàsics per a la ciutadania",
-        "Els símbols de Catalunya i d'Espanya: senyera, bandera, himne"
-      ],
-      "medi_ambient_i_sostenibilitat": [
-        "La natura i els éssers vius: plantes, animals, ecosistemes bàsics de l'entorn",
-        "La cura del medi ambient: no llençar escombraries, recollir els residus",
-        "El reciclatge: els contenidors de colors i els materials que hi van",
-        "L'estalvi d'energia i d'aigua: accions quotidianes",
-        "Els animals: drets dels animals; tracte respectuós i cura dels animals de companyia",
-        "La natura com a font de benestar: gaudir i respectar els espais naturals"
-      ]
-    },
-    "CM": {
-      "identitat_i_autonomia": [
-        "La identitat personal: qui sóc; valors, creences, cultura familiar i influències de l'entorn",
-        "Les emocions complexes: frustració, enveja, vergonya, orgull, decepció — reconeixement i gestió",
-        "Estratègies de regulació emocional: mindfulness bàsic, relaxació, diàleg intern positiu",
-        "L'autoestima i l'autoimatge: factors que l'afecten (comparació, xarxes socials, pressions del grup)",
-        "La presa de decisions: anàlisi d'alternatives, conseqüències i valors en joc",
-        "L'autonomia en l'aprenentatge: responsabilitat envers les pròpies tasques i resultats",
-        "La gestió del temps: planificació de tasques i responsabilitats"
-      ],
-      "convivencia_i_relacions": [
-        "Habilitats socials: escolta activa, assertivitat, comunicació no violenta",
-        "La resolució de conflictes: mètodes de mediació i negociació bàsics",
-        "El bullying i l'assetjament escolar: definició, tipus (físic, verbal, relacional, ciberbullying) i actuació",
-        "La diversitat cultural a l'escola i a la societat: respecte, curiositat i enriquiment mutu",
-        "La igualtat de gènere: estereotips i rols de gènere; igualtat d'oportunitats",
-        "Relacions familiars: diversitat de models familiars; drets i responsabilitats en la família",
-        "La inclusió: actituds davant la diversitat funcional i les necessitats especials",
-        "El voluntariat i el servei a la comunitat: exemples propers; participació en projectes solidaris"
-      ],
-      "drets_i_deures": [
-        "La Declaració Universal dels Drets Humans: origen, principis bàsics i alguns drets fonamentals",
-        "La Convenció sobre els Drets de l'Infant (ONU, 1989): drets específics dels infants",
-        "Situacions de vulneració de drets al món: pobresa infantil, treball infantil, manca d'educació",
-        "La discriminació: per raó d'ètnia, religió, gènere, capacitat, origen — identificació i rebuig",
-        "Les lleis i el sistema jurídic bàsic: per a què serveixen les lleis; la Constitució espanyola",
-        "L'Estatut d'Autonomia de Catalunya: drets i deures dels catalans",
-        "El comerç just i el consum responsable: impacte de les decisions de consum sobre els drets de les persones"
-      ],
-      "democracia_i_ciutadania": [
-        "La democràcia: principis (llibertat, igualtat, participació, separació de poders), orígens i evolució",
-        "Institucions democràtiques de Catalunya: Generalitat, Parlament de Catalunya, ajuntament",
-        "Institucions democràtiques d'Espanya: Govern, Corts Generals, Monarquia constitucional",
-        "La participació ciutadana: eleccions, associacionisme, plataformes ciutadanes",
-        "El consell de delegats i la democràcia escolar: participació activa en la vida del centre",
-        "Els mitjans de comunicació i la democràcia: llibertat de premsa, desinformació i pensament crític",
-        "Els valors democràtics: tolerància, respecte a la minoria, solidaritat, responsabilitat"
-      ],
-      "medi_ambient_i_sostenibilitat": [
-        "Els problemes mediambientals de l'entorn proper: residus, contaminació de l'aire, de l'aigua i del sòl",
-        "L'escalfament global i el canvi climàtic: causes bàsiques i efectes principals",
-        "La biodiversitat: importància; espècies amenaçades i en perill d'extinció",
-        "El desenvolupament sostenible: definició i principis bàsics (ODS, Agenda 2030)",
-        "Hàbits de consum responsable: reducció, reutilització i reciclatge; consum de proximitat",
-        "L'energia: fonts renovables i no renovables; importància de les energies netes",
-        "La responsabilitat individual i col·lectiva envers el medi ambient"
-      ]
-    },
-    "CS": {
-      "identitat_i_autonomia": [
-        "La identitat complexa: identitat personal, cultural, de gènere, social i la seva construcció",
-        "La intel·ligència emocional: autoconeixement, autoregulació, motivació, empatia i habilitats socials",
-        "Estratègies avançades de benestar emocional: mindfulness, assertivitat, resiliència",
-        "El pensament crític aplicat a la pròpia vida: qüestionar creences, prendre decisions ètiques",
-        "El projecte de vida: valors personals, interessos, objectius a curt i llarg termini",
-        "L'autonomia i la responsabilitat: implicacions ètiques de les decisions personals",
-        "La pressió del grup i les xarxes socials: influència en l'autoimatge i la presa de decisions"
-      ],
-      "convivencia_i_relacions": [
-        "La mediació escolar: tècniques de mediació i resolució no violenta de conflictes complexos",
-        "La comunicació no violenta (CNV): observació, sentiments, necessitats i peticions",
-        "L'assetjament escolar i el ciberbullying: prevenció, actuació i suport a les víctimes",
-        "La diversitat cultural: interculturalitat, identitats múltiples, diàleg intercultural",
-        "La igualtat real de gènere: la bretxa de gènere; feminisme i igualtat d'oportunitats",
-        "El respecte a la diversitat sexual i de gènere: LGBTIQ+, identitat de gènere i orientació sexual",
-        "La ciutadania global: pertinença a múltiples comunitats (local, nacional, europea, mundial)",
-        "El servei a la comunitat com a valor: aprenentatge servei, voluntariat i compromís social"
-      ],
-      "drets_i_deures": [
-        "La Declaració Universal dels Drets Humans (1948): articles principals; context històric",
-        "El sistema internacional de drets humans: ONU, Unicef, Amnistia Internacional, organismes de protecció",
-        "Les desigualtats globals: nord-sud, pobresa extrema, accés a l'educació i la sanitat",
-        "La justícia social: igualtat vs. equitat; redistribució de la riquesa i polítiques socials",
-        "El dret internacional humanitari: conflictes armats, refugiats, crims de guerra",
-        "La corrupció i la transparència: impacte de la corrupció en els drets; importància de la transparència",
-        "Els drets digitals: privacitat, llibertat d'expressió en línia, protecció de dades"
-      ],
-      "democracia_i_ciutadania": [
-        "Sistemes polítics: democràcia, dictadura, teocràcia, monarquia absoluta — comparació i anàlisi",
-        "La Unió Europea: institucions, valors, drets dels ciutadans europeus; historia bàsica",
-        "La participació democràtica: formes diverses (vot, associacionisme, activisme, peticions)",
-        "Les amenaces a la democràcia: populisme, desinformació, fake news, extremisme",
-        "El pensament crític i els mitjans de comunicació: verificació de fonts, alfabetització mediàtica",
-        "La responsabilitat ciutadana davant reptes globals: canvi climàtic, migracions, desigualtats",
-        "La Constitució espanyola i els drets fonamentals: articles principals i significat",
-        "Moviments socials i canvi social: sufragisme, moviments pels drets civils, moviment ecologista"
-      ],
-      "medi_ambient_i_sostenibilitat": [
-        "La crisi climàtica: causes (efecte hivernacle, emissions de CO₂), efectes actuals i futurs",
-        "L'Agenda 2030 i els Objectius de Desenvolupament Sostenible (ODS): els 17 ODS; compromisos globals",
-        "La biodiversitat: serveis ecosistèmics, sis extinció massiva, causes i conseqüències",
-        "La transició energètica: energies renovables vs. fòssils; reptes de la transició",
-        "L'economia circular: de l'economia lineal a la circular; ecodisseny, reparació, reutilització",
-        "El consum crític i responsable: empremta de carboni, petjada hídrica, consum de proximitat i de temporada",
-        "Justícia climàtica: qui pateix més el canvi climàtic; responsabilitats diferenciades nord-sud",
-        "L'activisme mediambiental jove: Fridays for Future, Greta Thunberg; el paper dels joves en la lluita climàtica"
-      ]
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, les persones docents poden valorar la possibilitat d’organitzar els sabers de l’àrea o de les diferents àrees coordinades en un àmbit, a partir de situacions d’aprenentatge. Les situacions permeten programar el curs de qualsevol nivell, àrea o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Cinquè o sisè Autoconeixement i autonomia moral - Desenvolupament del pensament crític i ètic en situacions de debat a l’aula. - Construcció de la pròpia identitat personal en un context plural des del reconeixement de les diferències individuals tenint en compte la perspectiva de gènere. - Desenvolupament de l’autonomia i la responsabilitat, en funció dels propis desitjos i raons, amb voluntat i judici moral en un entorn amb gran diversitat d’interessos. - Valoració de l’ètica com a principi de les nostres accions en entorns propers relacionats amb la vida quotidiana. - Reconeixement de la importància de l’ètica en l’establiment de normes presents a la societat. - Coneixement i prevenció dels riscos que implica l’ús acrític, l’abús i la sobreexposició a les xarxes socials en la preservació de la privacitat i la vulneració de la pròpia identitat i la dels altres, en la relació entre iguals. - Coneixement i prevenció de les conseqüències d’un mal ús i abús de les noves tecnologies, en el temps de lleure, que poden derivar en conductes addictives relacionades tant amb l’ús dels dispositius com amb els continguts que ofereixen. Societat, justícia i democràcia - Valoració del diàleg i de l’argumentació en la presa democràtica de decisions i en la resolució pacífica de conflictes en la relació entre iguals i en contextos propers. - Comprensió i ús dels conceptes de llei, Estat, democràcia, justícia, ciutadania i drets humans en el context social proper. - Presa de consciència de la conducta cívica, les lleis, els principis i valors democràtics i la justícia en les interrelacions a l’aula i en el centre educatiu. - Coneixement de la Declaració Universal dels Drets Humans i la Convenció sobre els Drets de l’Infant i la seva rellevància ètica en la relació entre les persones tant a l’escola com fora. - Anàlisi de les causes de la pobresa i l’explotació infantil en la societat globalitzada. - Recerca de solucions locals i globals en situacions properes de desigualtat econòmica. - Promoció de la cultura de la pau i la no-violència a favor de la convivència en l’entorn proper. - Identificació del paper i valoració de les actuacions de les organitzacions no governamentals i les organitzacions no governamentals per al desenvolupament en l’entorn proper. Sostenibilitat i ètica ambiental - Desenvolupament de l’empatia, la cura i el respecte als éssers vius i el medi natural, en actuacions quotidianes relacionades amb l’entorn proper. - Valoració i reconeixement de l’impacte de l’activitat humana en el planeta a partir d’accions quotidianes. - Anàlisi del grau de sostenibilitat d’un determinat mode de vida amb relació als ecosistemes i les societats en el territori més proper. - Anàlisi dels límits del planeta i el canvi climàtic en el món actual en el marc de projectes realitzats a l’aula. - Identificació de mecanismes i estratègies per al desenvolupament sostenible en el context local. - Realització d’accions individuals vinculades a l’economia circular, al consum responsable i de productes de proximitat, a l’ús sostenible de l’aigua, de l’energia, de la mobilitat, i a la gestió dels residus, en l’àmbit local. - Presa de consciència del deure ètic i l’obligació legal de protegir i tenir cura del medi natural en la construcció d’un compromís col·lectiu. - Desenvolupament d’hàbits i actuacions individuals i col·lectives en el marc dels objectius de desenvolupament sostenible en el context proper i en l’orientació que donem al nostre estil de vida. Educació emocional - Presa de consciència, expressió i regulació de les emocions pròpies i alienes, basades en una autoestima ajustada, com a aspecte determinant en la millora del benestar individual i col·lectiu en la relació amb un mateix i amb els iguals. - Construcció de relacions afectives saludables a partir del reconeixement de la igualtat i del respecte mutu com a factors que les determinen en la relació entre iguals. - Coneixement de la interrelació entre els aspectes afectius i el desenvolupament de la sexualitat i la seva influència en el benestar emocional individual i col·lectiu, en el marc de projectes realitzats a l’aula. - Reconeixement de l’empatia com una habilitat emocional afavoridora del benestar mutu en les relacions amb els altres. - Identificació de fets, accions i actituds que poden derivar en situacions de relacions abusives i maltractament entre iguals en l’entorn educatiu."
     }
-  },
-  "blocs_sabers": [
-    "identitat_i_autonomia",
-    "convivencia_i_relacions",
-    "drets_i_deures",
-    "democracia_i_ciutadania",
-    "medi_ambient_i_sostenibilitat"
-  ]
+  ],
+  "_validacio": {
+    "fragments_ok": 191,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
+  }
 }

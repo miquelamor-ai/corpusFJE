@@ -1,0 +1,454 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "IFC",
+    "titol_cicle": "Instal·lacions Frigorífiques i de Climatització",
+    "grau": "mitja",
+    "familia_professional": "Instal·lació i Manteniment",
+    "font_tipus": "decret",
+    "font_ref": "Decret 200/2015, de 15 de setembre",
+    "titol_decret": "DECRET 200/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau mitjà d'instal·lacions frigorífiques i de climatització.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/200/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "configuració d’instal·lacions de fred i climatització",
+    "hores_totals": 132,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "configuració d’instal·lacions frigorífiques",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els components i obté les característiques tècniques dels equips d’instal·lacions frigorífiques, interpretant la documentació tècnica i descrivint la seva funció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica, sobre els plànols d’una instal·lació frigorífica, els elements que componen la instal·lació i la funció que realitza cada un."
+              },
+              {
+                "codi": "CA12",
+                "text": "Obté les característiques tècniques dels equips i dels elements i els paràmetres de funcionament d’una instal·lació frigorífica."
+              },
+              {
+                "codi": "CA13",
+                "text": "Obté les característiques tècniques dels equips i dels elements, les dimensions de les canonades, del dipòsit d’inèrcia, del dipòsit d’expansió i els paràmetres de funcionament per a una instal·lació frigorífica."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza acuradament el material tècnic subministrat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza TIC per a l’obtenció de documentació tècnica."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Configura instal·lacions frigorífiques de petita potència, seleccionant els equips i elements i justificant-ne l’elecció en funció del camp d’aplicació i la reglamentació vigent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica i aplica la normativa corresponent."
+              },
+              {
+                "codi": "CA22",
+                "text": "Calcula les càrregues tèrmiques i determina la potència frigorífica de la instal·lació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Dimensiona les canonades del circuit frigorífic per a una instal·lació, utilitzant taules i programes informàtics."
+              },
+              {
+                "codi": "CA24",
+                "text": "Especifica el tipus de refrigerant i la quantitat i el tipus d’oli lubricant per a una instal·lació de climatització."
+              },
+              {
+                "codi": "CA25",
+                "text": "Té en compte les repercussions mediambientals dels gasos fluorats d’efecte hivernacle."
+              },
+              {
+                "codi": "CA26",
+                "text": "Especifica els paràmetres de control (temperatura exterior, interior, rescalfament, subrefredament, consums elèctrics, pressions en el circuit frigorífic i hidràulic i cicles de desgebrament, entre d’altres) en una instal·lació frigorífica."
+              },
+              {
+                "codi": "CA27",
+                "text": "Selecciona els elements constituents de la instal·lació a partir de les dades calculades i utilitzant catàlegs comercials."
+              },
+              {
+                "codi": "CA28",
+                "text": "Elabora el pressupost utilitzant catàlegs comercials."
+              },
+              {
+                "codi": "CA29",
+                "text": "Col·labora entre companys durant la realització de les tasques."
+              },
+              {
+                "codi": "CA210",
+                "text": "Respecta les normes d’utilització dels mitjans informàtics."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra interès per l’evolució tecnològica del sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Dibuixa plànols i esquemes de principi d’instal·lacions, interpretant i aplicant la simbologia específica i els convencionalismes de representació corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Utilitza mitjans informàtics (programes de CAD) en la representació gràfica de plànols i esquemes."
+              },
+              {
+                "codi": "CA32",
+                "text": "Dibuixa esquemes de principi d’una instal·lació frigorífica utilitzant la simbologia establerta."
+              },
+              {
+                "codi": "CA33",
+                "text": "Representa la instal·lació d’una cambra frigorífica, dibuixant un esquema i indicant la ubicació dels elements i el circuit frigorífic utilitzant simbologia normalitzada."
+              },
+              {
+                "codi": "CA34",
+                "text": "Col·labora entre companys durant la realització de les tasques."
+              },
+              {
+                "codi": "CA35",
+                "text": "Respecta les normes d’utilització dels mitjans informàtics."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Elabora la documentació tècnica i administrativa, interpretant la normativa i emplenant documents en formats preestablerts per a la legalització d’instal·lacions de petita potència.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica el procediment per al registre d’instal·lacions frigorífiques."
+              },
+              {
+                "codi": "CA42",
+                "text": "Selecciona o mesura les dades que s’han d’incloure en la documentació."
+              },
+              {
+                "codi": "CA43",
+                "text": "Emplena els documents requerits per al registre d’una instal·lació de petita potència i adjunta la documentació tècnica requerida."
+              },
+              {
+                "codi": "CA44",
+                "text": "Utilitza acuradament el material tècnic subministrat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació d’instal·lacions frigorífiques i dels seus components",
+                "items": [
+                  "Instal·lacions tipus. Classificació. Elements constituents i característiques tècniques.",
+                  "Sistemes de desgebrament.",
+                  "Instal·lacions de compressió en diverses etapes.",
+                  "Instal·lacions d’absorció."
+                ]
+              },
+              {
+                "bloc": "Configuració d’instal·lacions frigorífiques de petita potència",
+                "items": [
+                  "Selecció i dimensionament de màquines i d’elements.",
+                  "Cambres frigorífiques: comercials i industrials. Canonades",
+                  "Tècniques de configuració de les instal·lacions.",
+                  "Criteris per a la determinació de l’estructura general de la instal·lació.",
+                  "Mètodes de càlcul de la potència frigorífica de la instal·lació.",
+                  "Mètodes de càlcul de les caigudes de pressió en les diferents línies.",
+                  "Tècniques per al dimensionament de canonades en cada tram del circuit.",
+                  "Catàlegs comercials.",
+                  "Criteris per a la selecció de compressors, evaporadors, condensadors i resta d’elements i materials de la instal·lació."
+                ]
+              },
+              {
+                "bloc": "Representació de plànols i esquemes de principi",
+                "items": [
+                  "Aplicació de programes CAD.",
+                  "Simbologia d’instal·lacions frigorífiques.",
+                  "Realització de croquis."
+                ]
+              },
+              {
+                "bloc": "Elaboració de la documentació tècnica i administrativa",
+                "items": [
+                  "Reglament de seguretat per a instal·lacions frigorífiques.",
+                  "Instruccions tècniques complementàries.",
+                  "Llibre de registre.",
+                  "Models de formats establerts.",
+                  "Reals decrets mencionats al reglament (prevenció i control de la legionel·losis, resistència a les baixes temperatures, entre d’altres).",
+                  "Normes europees sobre gasos fluorats d’efecte hivernacle."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "configuració d’instal·lacions, climatització i ventilació",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els components i obté les característiques tècniques dels equips d’instal·lacions de climatització-ventilació, interpretant la documentació tècnica i descrivint la seva funció.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica, sobre els plànols d’una instal·lació de climatització, els elements que componen la instal·lació i la funció que realitza cada un."
+              },
+              {
+                "codi": "CA12",
+                "text": "Obté les característiques tècniques dels equips i dels elements i els paràmetres de funcionament d’una instal·lació de climatització."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica, sobre els plànols d’una instal·lació de climatització amb planta refrigeradora, els elements que componen la instal·lació i la funció que exerceixen."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica, sobre els plànols d’una instal·lació de climatització VRV, els elements que componen la instal·lació i la funció de cada un."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza acuradament el material tècnic subministrat."
+              },
+              {
+                "codi": "CA16",
+                "text": "Utilitza TIC per a l’obtenció de documentació tècnica."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Determina xarxes de distribució d’aigua i de conductes d’aire per a petites instal·lacions de climatització, analitzant les seves característiques i seleccionant els seus elements.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Obté les dades necessàries per definir les xarxes d’aigua i els conductes d’aire."
+              },
+              {
+                "codi": "CA22",
+                "text": "Calcula les dimensions dels conductes d’aire per a xarxes de distribució senzilles."
+              },
+              {
+                "codi": "CA23",
+                "text": "Calcula la pèrdua de càrrega i el cabal d’aire d’una instal·lació senzilla de climatització."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona els ventiladors necessaris per a la distribució d’aire, independents o integrats als equips de climatització i ventilació en catàlegs a partir de les dades anteriors."
+              },
+              {
+                "codi": "CA25",
+                "text": "Calcula els diàmetres de les canonades d’aigua per a una instal·lació de climatització."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza taules, diagrames i programes informàtics."
+              },
+              {
+                "codi": "CA27",
+                "text": "Selecciona les bombes de circulació, dipòsit d’expansió i vàlvula de seguretat a partir de les dades necessàries."
+              },
+              {
+                "codi": "CA28",
+                "text": "Determina el gruix i les característiques de l’aïllant."
+              },
+              {
+                "codi": "CA29",
+                "text": "Respecta les normes d’utilització dels mitjans informàtics."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Configura instal·lacions de climatització de petita potència, seleccionant els equips i els elements i justificant-ne l’elecció en funció del camp d’aplicació i reglamentació vigent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica i aplica la normativa corresponent."
+              },
+              {
+                "codi": "CA32",
+                "text": "Calcula les canalitzacions d’aire utilitzant taules i programes informàtics."
+              },
+              {
+                "codi": "CA33",
+                "text": "Determina les dimensions de les canonades de refrigerant i d’aigua."
+              },
+              {
+                "codi": "CA34",
+                "text": "Representa una instal·lació de climatització tot aire, dibuixant un esquema i indicant la ubicació dels elements i de les canalitzacions."
+              },
+              {
+                "codi": "CA35",
+                "text": "Especifica els paràmetres de control (temperatura exterior, interior, rescalfament, subrefredament, consums elèctrics i pressions en el circuit frigorífic i hidràulic, entre d’altres) en una instal·lació de climatització."
+              },
+              {
+                "codi": "CA36",
+                "text": "Té en compte les repercussions mediambientals dels gasos fluorats d’efecte hivernacle."
+              },
+              {
+                "codi": "CA37",
+                "text": "Selecciona els elements constituents de la instal·lació a partir de les dades calculades i utilitzant catàlegs comercials."
+              },
+              {
+                "codi": "CA38",
+                "text": "Elabora el pressupost utilitzant catàlegs comercials."
+              },
+              {
+                "codi": "CA39",
+                "text": "Col·labora entre companys durant la realització de les tasques."
+              },
+              {
+                "codi": "CA310",
+                "text": "Respecta les normes d’utilització dels mitjans informàtics."
+              },
+              {
+                "codi": "CA311",
+                "text": "Mostra interès per l’evolució tecnològica del sector."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Dibuixa plànols i esquemes de principi d’instal·lacions, interpretant i aplicant la simbologia específica i els convencionalismes de representació corresponents.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Utilitza mitjans informàtics (programes de CAD) en la representació gràfica de plànols i esquemes."
+              },
+              {
+                "codi": "CA42",
+                "text": "Dibuixa esquemes de principi d’una instal·lació amb planta refrigeradora i unitats de tractament d’aire, utilitzant la simbologia i les normes establertes."
+              },
+              {
+                "codi": "CA43",
+                "text": "Representa el circuit elèctric d’una instal·lació de climatització, especificant els paràmetres de funcionament i de seguretat."
+              },
+              {
+                "codi": "CA44",
+                "text": "Representa una instal·lació de climatització amb planta refrigeradora, dibuixant un esquema de la instal·lació indicant-hi la ubicació dels elements i de les canalitzacions."
+              },
+              {
+                "codi": "CA45",
+                "text": "Representa una instal·lació de climatització amb sistema VRV, dibuixant un esquema de la instal·lació indicant-hi la ubicació dels elements i de les canalitzacions."
+              },
+              {
+                "codi": "CA46",
+                "text": "Dibuixa, sobre els plànols de planta de locals i habitatges, instal·lacions de climatització en escales i formats normalitzats."
+              },
+              {
+                "codi": "CA47",
+                "text": "Col·labora entre companys durant la realització de les tasques."
+              },
+              {
+                "codi": "CA48",
+                "text": "Respecta les normes d’utilització dels mitjans informàtics."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Elabora la documentació tècnica i administrativa, interpretant la normativa i emplenant documents en formats preestablerts per a la legalització d’instal·lacions de petita potència.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Identifica el procediment per al registre d’instal·lacions frigorífiques i de climatització."
+              },
+              {
+                "codi": "CA52",
+                "text": "Selecciona o mesura les dades que s’han d’incloure en la documentació."
+              },
+              {
+                "codi": "CA53",
+                "text": "Emplena els documents requerits per al registre d’una instal·lació de petita potència, adjuntant-hi la documentació tècnica requerida."
+              },
+              {
+                "codi": "CA54",
+                "text": "Utilitza acuradament el material tècnic subministrat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Identificació d’instal·lacions de climatització-ventilació i dels seus components",
+                "items": [
+                  "Instal·lacions tipus. Classificació. Elements constituents i característiques tècniques.",
+                  "Descripció i anàlisi d’instal·lacions de climatització. Instal·lacions tot aire. Instal·lacions amb planta refrigeradora i fan-coils. Instal·lacions de volum de refrigerant variable (VRV)."
+                ]
+              },
+              {
+                "bloc": "Configuració de xarxes d’aigua per a instal·lacions de climatització",
+                "items": [
+                  "Càlcul de xarxes de canonades. Pèrdues de càrrega, velocitats.",
+                  "Descripció i dimensionament d’elements d’instal·lacions d’aigua, bombes, circuladors, dipòsits acumuladors i vasos d’expansió.",
+                  "Descripció i selecció dels elements de seguretat i de control.",
+                  "Representació de plànols i d’esquemes de principi."
+                ]
+              },
+              {
+                "bloc": "Configuració de conductes d’aire",
+                "items": [
+                  "Càlcul i traçat de conductes d’aire. Conductes d’impulsió, retorn, extracció i renovació.",
+                  "Selecció de reixetes i difusors.",
+                  "Descripció i selecció d’elements auxiliars d’instal·lacions d’aire condicionat i ventilació.",
+                  "Normativa d’aplicació."
+                ]
+              },
+              {
+                "bloc": "Configuració d’instal·lacions i de climatització i ventilació de petita potència",
+                "items": [
+                  "Tècniques de configuració de les instal·lacions.",
+                  "Criteris per a la determinació de l’estructura general de la instal·lació.",
+                  "Mètodes de càlcul de les càrregues tèrmiques.",
+                  "Mètodes de càlcul de la potència de la instal·lació.",
+                  "Catàlegs comercials.",
+                  "Criteris per a la selecció d’equips i de materials de la instal·lació.",
+                  "Estalvi energètic.",
+                  "Tècniques per a l’optimació de les característiques tèrmiques de l’edifici.",
+                  "Estalvi energètic en els sistemes de tractament de l’aire.",
+                  "Mètodes de càlcul i avaluació de tècniques d’estalvi energètic."
+                ]
+              },
+              {
+                "bloc": "Representació de plànols i d’esquemes de principi",
+                "items": [
+                  "Aplicació de programes CAD.",
+                  "Simbologia d’instal·lacions de climatització.",
+                  "Realització de croquis."
+                ]
+              },
+              {
+                "bloc": "Elaboració de la documentació tècnica i administrativa",
+                "items": [
+                  "Normativa d’aplicació a instal·lacions tèrmiques i a instal·lacions de refrigeració.",
+                  "Normes europees sobre gasos fluorats d’efecte hivernacle.",
+                  "RITE (IT-1 Disseny i dimensionament)."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

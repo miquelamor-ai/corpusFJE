@@ -1,0 +1,419 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ASIX",
+    "titol_cicle": "Administració de Sistemes Informàtics en Xarxa",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 197/2013, de 23 de juliol",
+    "titol_decret": "DECRET 197/2013, de 23 de juliol, pel qual s’estableix el currículum del cicle formatiu de grau superior d’administració de sistemes informàtics en xarxa.",
+    "data_decret": "2013-07-23",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2013/07/23/197/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP09",
+    "nom": "implantació d’aplicacions web",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "llenguatges de guions de servidor",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Prepara l’entorn de desenvolupament i els servidors d’aplicacions web instal·lant i integrant les funcionalitats necessàries.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica el programari necessari per al seu funcionament."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les diferents tecnologies emprades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la i configura servidors web i de bases de dades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix les possibilitats de processament en els entorns client i servidor."
+              },
+              {
+                "codi": "CA15",
+                "text": "Afegeix i configura els components i mòduls necessaris per al processament de codi al servidor."
+              },
+              {
+                "codi": "CA16",
+                "text": "Instal·la i configura l’accés a bases de dades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Estableix i verifica la seguretat en els accessos al servidor."
+              },
+              {
+                "codi": "CA18",
+                "text": "Utilitza plataformes integrades orientades a la prova i desenvolupament d’aplicacions web."
+              },
+              {
+                "codi": "CA19",
+                "text": "Documenta els procediments realitzats."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Genera documents web utilitzant llenguatges de guions de servidor.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els llenguatges de guions de servidor més rellevants."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix la relació entre els llenguatges de guions de servidor i els llenguatges de marques utilitzats en els clients."
+              },
+              {
+                "codi": "CA23",
+                "text": "Reconeix la sintaxi bàsica d’un llenguatge de guions concret."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza estructures de control del llenguatge."
+              },
+              {
+                "codi": "CA25",
+                "text": "Defineix i utilitza funcions."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza formularis per introduir informació."
+              },
+              {
+                "codi": "CA27",
+                "text": "Estableix i utilitza mecanismes per assegurar la persistència de la informació entre diferents documents web relacionats."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica i assegura els usuaris que accedeixen al document web."
+              },
+              {
+                "codi": "CA29",
+                "text": "Verifica l’aïllament de l’entorn específic de cada usuari."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Genera documents web amb accés a bases de dades utilitzant llenguatges de guions de servidor.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Identifica els sistemes gestors de bases de dades més utilitzats en entorns web."
+              },
+              {
+                "codi": "CA32",
+                "text": "Verifica la integració dels sistemes gestors de bases de dades amb el llenguatge de guions de servidor."
+              },
+              {
+                "codi": "CA33",
+                "text": "Configura en el llenguatge de guions la connexió per a l’accés al sistema gestor de base de dades."
+              },
+              {
+                "codi": "CA34",
+                "text": "Crea bases de dades i taules en el gestor utilitzant el llenguatge de guions."
+              },
+              {
+                "codi": "CA35",
+                "text": "Obté i actualitza la informació emmagatzemada en bases de dades."
+              },
+              {
+                "codi": "CA36",
+                "text": "Aplica criteris de seguretat en l’accés dels usuaris."
+              },
+              {
+                "codi": "CA37",
+                "text": "Comprova el funcionament i el rendiment del sistema."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Instal·lació de servidors d’aplicacions web",
+                "items": [
+                  "Anàlisi de requeriments.",
+                  "Servidor web: instal·lació i configuració.",
+                  "Sistema gestor de base de dades: instal·lació i configuració.",
+                  "Processament de codi: llenguatges d’script en client i servidor.",
+                  "Mòduls i components necessaris.",
+                  "Configuració de l’accés a bases de dades.",
+                  "Control d’accessos.",
+                  "Utilitats de prova i instal·lació integrada.",
+                  "Documentació."
+                ]
+              },
+              {
+                "bloc": "Programació de documents web utilitzant llenguatges d’script de servidor",
+                "items": [
+                  "Classificació.",
+                  "Integració amb els llenguatges de marques.",
+                  "Sintaxi.",
+                  "Eines d’edició de codi.",
+                  "Elements del llenguatge.",
+                  "Comentaris.",
+                  "Funcions integrades i d’usuari.",
+                  "Gestió d’errors.",
+                  "Mecanismes d’introducció d’informació: formularis.",
+                  "Autenticació d’usuaris.",
+                  "Control d’accessos.",
+                  "Sessions.",
+                  "Configuració de l’intèrpret."
+                ]
+              },
+              {
+                "bloc": "Accés a bases de dades des de llenguatges d’script de servidor",
+                "items": [
+                  "Integració dels llenguatges d’script de servidor amb els sistemes gestors de base de dades.",
+                  "Connexió a bases de dades.",
+                  "Creació de bases de dades i taules.",
+                  "Recuperació de la informació de la base de dades des d’una pàgina web.",
+                  "Modificació de la informació emmagatzemada: insercions, actualitzacions i esborraments.",
+                  "Verificació de la informació.",
+                  "Gestió d’errors.",
+                  "Mecanismes de seguretat i control d’accessos.",
+                  "Verificació del funcionament i proves de rendiment."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "implantació de gestors de continguts",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Gestiona aplicacions d’ofimàtica web integrant funcionalitats i assegurant l’accés a la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix la utilitat de les aplicacions d’ofimàtica web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Classifica segons la funcionalitat i les prestacions específiques."
+              },
+              {
+                "codi": "CA13",
+                "text": "Instal·la aplicacions d’ofimàtica web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Configura les aplicacions per integrar-les en una intranet."
+              },
+              {
+                "codi": "CA15",
+                "text": "Gestiona els comptes d’usuari."
+              },
+              {
+                "codi": "CA16",
+                "text": "Aplica criteris de seguretat en l’accés dels usuaris."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza les aplicacions de forma cooperativa."
+              },
+              {
+                "codi": "CA18",
+                "text": "Elabora documentació relativa a l’ús i gestió de les aplicacions."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Implanta gestors de continguts seleccionant-los i establint la configuració dels paràmetres.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Valora l’ús i utilitat dels gestors de continguts."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica segons la funcionalitat principal del lloc web que permeten gestionar."
+              },
+              {
+                "codi": "CA23",
+                "text": "Instal·la diferents tipus de gestors de continguts."
+              },
+              {
+                "codi": "CA24",
+                "text": "Diferencia les seves característiques (ús, llicència, entre d’altres)."
+              },
+              {
+                "codi": "CA25",
+                "text": "Personalitza i configura els gestors de continguts."
+              },
+              {
+                "codi": "CA26",
+                "text": "Activa i configura els mecanismes de seguretat proporcionats pels mateixos gestors de continguts."
+              },
+              {
+                "codi": "CA27",
+                "text": "Realitza proves de funcionament."
+              },
+              {
+                "codi": "CA28",
+                "text": "Publica els gestors de continguts."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Administra gestors de continguts adaptant-los als requeriments i garantint la integritat de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Adapta i configura els mòduls del gestor de continguts."
+              },
+              {
+                "codi": "CA32",
+                "text": "Crea i gestiona usuaris amb diferents perfils."
+              },
+              {
+                "codi": "CA33",
+                "text": "Integra mòduls atenent requeriments de funcionalitat."
+              },
+              {
+                "codi": "CA34",
+                "text": "Fa còpies de seguretat dels continguts."
+              },
+              {
+                "codi": "CA35",
+                "text": "Importa i exporta continguts en diferents formats."
+              },
+              {
+                "codi": "CA36",
+                "text": "Gestiona plantilles."
+              },
+              {
+                "codi": "CA37",
+                "text": "Integra funcionalitats de sindicació."
+              },
+              {
+                "codi": "CA38",
+                "text": "Realitza actualitzacions."
+              },
+              {
+                "codi": "CA39",
+                "text": "Obté informes d’accés."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Realitza modificacions en gestors de continguts adaptant-ne l’aparença i les funcionalitats.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica l’estructura de directoris del gestor de continguts."
+              },
+              {
+                "codi": "CA42",
+                "text": "Reconeix la funcionalitat dels fitxers que utilitza i la seva naturalesa (codi, imatges, configuració, entre d’altres)."
+              },
+              {
+                "codi": "CA43",
+                "text": "Selecciona les funcionalitats que cal adaptar i incorporar."
+              },
+              {
+                "codi": "CA44",
+                "text": "Identifica els recursos afectats per les modificacions."
+              },
+              {
+                "codi": "CA45",
+                "text": "Modifica el codi de l’aplicació per incorporar noves funcionalitats i adaptar-ne d’altres existents."
+              },
+              {
+                "codi": "CA46",
+                "text": "Verifica el correcte funcionament de tots els canvis."
+              },
+              {
+                "codi": "CA47",
+                "text": "Documenta els canvis realitzats."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Implantació d’aplicacions d’ofimàtica web",
+                "items": [
+                  "Tipus d’aplicacions.",
+                  "Instal·lació.",
+                  "Configuració.",
+                  "Integració d’aplicacions heterogènies.",
+                  "Gestió d’usuaris.",
+                  "Control d’accessos.",
+                  "Seguretat de la informació"
+                ]
+              },
+              {
+                "bloc": "Instal·lació de gestors de continguts",
+                "items": [
+                  "Tipus de gestors de continguts.",
+                  "Llicències d’ús.",
+                  "Requeriments de funcionament.",
+                  "Instal·lació.",
+                  "Creació de la base de dades.",
+                  "Estructura.",
+                  "Creació de continguts.",
+                  "Personalització de la interfície.",
+                  "Mecanismes de seguretat integrats.",
+                  "Verificació del funcionament i rendiment.",
+                  "Publicació."
+                ]
+              },
+              {
+                "bloc": "Administració de gestors de continguts",
+                "items": [
+                  "Configuració de mòduls.",
+                  "Perfils.",
+                  "Usuaris i grups.",
+                  "Integració de mòduls.",
+                  "Còpies de seguretat.",
+                  "Importació i exportació de la informació.",
+                  "Gestió de temes.",
+                  "Plantilles.",
+                  "Sindicació de continguts.",
+                  "Actualització del gestor de continguts.",
+                  "Control d’accessos."
+                ]
+              },
+              {
+                "bloc": "Adaptació de gestors de continguts",
+                "items": [
+                  "Selecció de modificacions a realitzar.",
+                  "Reconeixement d’elements involucrats.",
+                  "Modificació de l’aparença.",
+                  "Incorporació i adaptació de funcionalitats.",
+                  "Verificació del funcionament.",
+                  "Documentació."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

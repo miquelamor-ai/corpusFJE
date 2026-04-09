@@ -1,0 +1,354 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ER",
+    "titol_cicle": "Energies Renovables",
+    "grau": "superior",
+    "familia_professional": "Energia i Aigua",
+    "font_tipus": "decret",
+    "font_ref": "Decret 195/2015, de 8 de setembre",
+    "titol_decret": "DECRET 195/2015, de 8 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'energies renovables.",
+    "data_decret": "2015-09-08",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/08/195/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP03",
+    "nom": "prevenció de riscos elèctrics",
+    "hores_totals": 66,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "efectes fisiològics i riscos del corrent elèctric",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Caracteritza els efectes fisiològics del corrent elèctric depenent dels graus d’exposició al corrent.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els factors que influeixen en l’efecte elèctric sobre el cos humà (tipus de corrent, intensitat, durada del contacte, recorregut a través del cos, impedància del cos humà, tensió i freqüència)."
+              },
+              {
+                "codi": "CA12",
+                "text": "Distingeix el llindar de percepció, de reacció, de no deixar anar i de fibril·lació ventricular del corrent altern."
+              },
+              {
+                "codi": "CA13",
+                "text": "Reconeix les conseqüències de la fibril·lació ventricular."
+              },
+              {
+                "codi": "CA14",
+                "text": "Explica les característiques de l’asfíxia o aturada respiratòria."
+              },
+              {
+                "codi": "CA15",
+                "text": "Ressenya les característiques de la tetanització muscular."
+              },
+              {
+                "codi": "CA16",
+                "text": "Reconeix les característiques de les cremades provocades pel corrent elèctric."
+              },
+              {
+                "codi": "CA17",
+                "text": "Identifica els efectes indirectes provocats pel corrent com els cops contra objectes, les caigudes o d’altres."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Avalua els riscos de treballs en presència de tensió elèctrica, aplicant els procediments establerts.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Avalua els riscos professionals específics relacionats amb els treballs de proximitat a instal·lacions amb tensió elèctrica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Classifica els riscos professionals específics relacionats amb l’electricitat estàtica i la seva influència en els riscos d’explosió."
+              },
+              {
+                "codi": "CA23",
+                "text": "Avalua els riscos professionals específics relacionats amb el maneig de components de tecnologia SIG (sistemes d’informació geogràfica)."
+              },
+              {
+                "codi": "CA24",
+                "text": "Determina els riscos professionals més freqüents presents en el maneig d’eines i d’equips portàtils emprats en els treballs en presència de tensió elèctrica."
+              },
+              {
+                "codi": "CA25",
+                "text": "Avalua els riscos relacionats amb les maniobres per connectar o deixar sense tensió elèctrica una instal·lació."
+              },
+              {
+                "codi": "CA26",
+                "text": "Identifica els riscos d’explosió i incendi provocats per les instal·lacions elèctriques."
+              },
+              {
+                "codi": "CA27",
+                "text": "Interpreta la senyalització de conductors, canalitzacions, aparells i equips de les instal·lacions d’alta tensió precisant els requisits reglamentaris vigents."
+              },
+              {
+                "codi": "CA28",
+                "text": "Avalua els riscos professionals relacionats amb les condicions d’il·luminació i de preparació de les àrees de treball"
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Caracterització dels efectes fisiològics del corrent elèctric sobre el cos humà",
+                "items": [
+                  "Factors que influeixen en l’efecte elèctric: tipus de corrent i intensitat. El recorregut del corrent elèctric a través del cos, la impedància del cos humà, la tensió i la freqüència.",
+                  "Contactes directes i indirectes.",
+                  "Xoc elèctric i arc elèctric.",
+                  "El corrent altern: llindar de percepció, llindar de reacció. Llindar de no deixar anar. Llindar de fibril·lació ventricular.",
+                  "Efectes de l’electricitat: directes, indirectes i secundaris.",
+                  "Efectes indirectes. Cops contra objectes i caigudes.",
+                  "Efectes secundaris: efectes precoços o tardans. Danys cerebrals, embòlia, trombes, cremades internes, gangrena, problemes renals i trastorns mentals."
+                ]
+              },
+              {
+                "bloc": "Avaluació de riscos en treballs en presència de tensió elèctrica",
+                "items": [
+                  "Definició de risc elèctric.",
+                  "Identificació i avaluació de riscos en alta tensió.",
+                  "Riscos d’origen mecànic.",
+                  "Riscos de tipus elèctric.",
+                  "Exposició als camps electromagnètics. Càrregues electrostàtiques.",
+                  "Incendis, deflagracions i detonacions. Triangle de foc. Classes de foc.",
+                  "Riscos d’explosió i d’incendis.",
+                  "Riscos mediambientals.",
+                  "Senyalització de conductors, canalitzacions i equips d’instal·lacions elèctriques.",
+                  "Riscos associats a les àrees de treball."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "protocols de seguretat en instal·lacions elèctriques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Aplica el protocol de seguretat per deixar sense tensió una instal·lació i el seu posterior restabliment seguint el procediment establert.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les fonts d’alimentació que proveeixen la instal·lació sobre la qual s’ha d’actuar."
+              },
+              {
+                "codi": "CA12",
+                "text": "Defineix els procediments per suspendre el subministrament de tensió de diferents fonts."
+              },
+              {
+                "codi": "CA13",
+                "text": "Explica el funcionament dels mecanismes de bloqueig dels diferents dispositius de maniobra elèctrics."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica els procediments per verificar l’absència de tensió en els equips i en les instal·lacions."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza els equips emprats per verificar l’absència de tensió en els equips i les instal·lacions."
+              },
+              {
+                "codi": "CA16",
+                "text": "Justifica els mètodes i procediments per posar a terra i en curtcircuit els diferents equips i instal·lacions sobre els quals es pretén actuar."
+              },
+              {
+                "codi": "CA17",
+                "text": "Especifica les característiques de les zones de treball properes a elements en tensió."
+              },
+              {
+                "codi": "CA18",
+                "text": "Seqüencia les fases per restablir el subministrament de tensió elèctrica de diferents fonts i en diferents supòsits."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Classifica els equips de seguretat i de protecció emprats en la prevenció del risc elèctric, identificant-ne les característiques i la utilització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els equips de seguretat i de protecció emprats en la prevenció del risc elèctric."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix les característiques dels equips de seguretat específics per al control de caigudes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les característiques de les pantalles, cobertes, beines, pinces, puntes de prova, perxes aïllants, banquets, catifes, plataformes de treball, guants, ulleres, cascs i altres accessoris, eines i equips de protecció individual utilitzats en treballs en presència de tensió elèctrica."
+              },
+              {
+                "codi": "CA24",
+                "text": "Selecciona els equips de seguretat en relació amb el treball que s’ha de realitzar."
+              },
+              {
+                "codi": "CA25",
+                "text": "Identifica els requeriments i els equips emprats en la senyalització, il·luminació i preparació de les àrees de treball en els treballs en presència de tensió elèctrica."
+              },
+              {
+                "codi": "CA26",
+                "text": "Revisa els equips de seguretat i de protecció i en detecta anomalies i disconformitats."
+              },
+              {
+                "codi": "CA27",
+                "text": "Estableix actuacions d’informació i de promoció de l’ús dels equips de protecció."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Aplica el protocol de seguretat en treballs amb presència de tensió elèctrica, simulant l’actuació segura.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Enumera les mesures preventives que cal aplicar per evitar i controlar els riscos dels treballs en presència de tensió elèctrica."
+              },
+              {
+                "codi": "CA32",
+                "text": "Detalla els procediments i els mètodes d’actuació que es recomanen seguir al personal qualificat per realitzar aquests treballs."
+              },
+              {
+                "codi": "CA33",
+                "text": "Explica la influència de les condicions climatològiques adverses en els riscos professionals relacionats amb els treballs en presència de tensió elèctrica."
+              },
+              {
+                "codi": "CA34",
+                "text": "Explica els riscos i mesures de prevenció mediambientals relacionats amb els abocaments de gas a l’atmosfera (hexafluorur), amb la inducció magnètica i amb la protecció de l’avifauna entre d’altres."
+              },
+              {
+                "codi": "CA35",
+                "text": "Planteja l’organització dels sistemes de senyalització a l’obra."
+              },
+              {
+                "codi": "CA36",
+                "text": "Valora el pla d’autoprotecció i determina les situacions d’emergència, les fases, els sistemes de comunicació i el personal i entitats d’actuació."
+              },
+              {
+                "codi": "CA37",
+                "text": "Elabora la documentació i els informes que es requereixen en una determinada contingència."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Protocols de seguretat de connexió i desconnexió elèctrica",
+                "items": [
+                  "Tipus de subministrament elèctric. Fonts d’alimentació.",
+                  "Interrupció i restabliment de tensió sota protocols de seguretat.",
+                  "Maniobres segures per deixar sense tensió elèctrica una instal·lació.",
+                  "Mesures i verificacions de presència i absència de tensió.",
+                  "Posades a terra i en curtcircuit.",
+                  "Maniobres segures en el restabliment de tensió.",
+                  "Dispositius elèctrics de maniobra i de protecció.",
+                  "Normativa elèctrica, de seguretat i mediambiental. Les cinc regles d’or."
+                ]
+              },
+              {
+                "bloc": "Classificació d’equips de seguretat en treballs en què hi ha presència de tensió elèctrica",
+                "items": [
+                  "Equips de protecció individual i col·lectiva.",
+                  "Equips auxiliars de seguretat. Sistemes de detecció i extinció d’incendis.",
+                  "Sistemes de senyalització.",
+                  "Selecció, inspecció i manteniment d’equips.",
+                  "Informació, formació i promoció.",
+                  "Normativa sobre equips de prevenció."
+                ]
+              },
+              {
+                "bloc": "Protocols de seguretat i mesures de prevenció en treballs en què hi ha presència de tensió elèctrica",
+                "items": [
+                  "Prevenció, protecció i extinció d’incendis.",
+                  "Mesures preventives contra els contactes indirectes: separació de circuits, petites tensions de seguretat, aïllament de protecció, doble aïllament, inaccessibilitat simultània d’elements conductors, aïllament de protecció, connexions equipotencials i interruptor diferencial.",
+                  "Mesures preventives contra els contactes directes: allunyament o recobriment de parts actives de la instal·lació, interposició d’obstacles, barreres o envolupants, etc.",
+                  "Treballs en alta tensió. Treballs en proximitat. Procediments i mètodes de treball. Influència de les condicions climatològiques en la seguretat elèctrica.",
+                  "Maniobres, mesuraments, assaigs i verificacions. Reposició de fusibles.",
+                  "Plans de seguretat.",
+                  "Impacte ambiental. Abocaments al medi, pol·lució i efecte hivernacle."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "pla d’emergència en instal·lacions elèctriques",
+        "hores": 22,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Assaja tècniques d’actuació davant d’emergències relacionades amb l’alta tensió aplicant procediments de seguretat i de primers auxilis.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix un pla d’emergència, les parts en les quals es divideix i les funcions dels equips de primera intervenció."
+              },
+              {
+                "codi": "CA12",
+                "text": "Explica les característiques de funcionament dels dispositius d’emergència, equips i mesures de protecció propis de recintes amb instal·lacions elèctriques d’alta tensió."
+              },
+              {
+                "codi": "CA13",
+                "text": "Detalla els accidents més freqüents que es produeixen en els treballs relacionats amb les instal·lacions d’alta tensió."
+              },
+              {
+                "codi": "CA14",
+                "text": "Relaciona la tipologia d’accidents amb els dispositius d’emergència que han de ser mobilitzats."
+              },
+              {
+                "codi": "CA15",
+                "text": "Defineix les actuacions que cal seguir per a les persones davant d’accidents o contingències relacionats amb l’asfíxia, l’atrapament en rases, la deflagració, l’incendi i l’electrocució, i en descriu les mesures de protecció, valoració, ajuda i primers auxilis en cada cas."
+              },
+              {
+                "codi": "CA16",
+                "text": "Efectua simulacres d’actuació per a l’extinció d’incendis."
+              },
+              {
+                "codi": "CA17",
+                "text": "Efectua simulacres d’evacuació, a partir del plànol d’un edifici i el pla d’emergències."
+              },
+              {
+                "codi": "CA18",
+                "text": "Assaja precaucions i mesures que cal prendre en casos simulats d’electrocució, fibril·lació, hemorràgies, cremades, fractures, luxacions, lesions musculars, posicionament de malalts i immobilització."
+              },
+              {
+                "codi": "CA19",
+                "text": "Aplica mesures de reanimació, inhibició d’hemorràgies, immobilitzacions i embenatges."
+              },
+              {
+                "codi": "CA110",
+                "text": "Emplena informes descriptius de la situació d’emergència i de valoració de danys."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Emergències en treballs en presència de tensió elèctrica",
+                "items": [
+                  "Pla d’emergències.",
+                  "Simulacres d’actuació.",
+                  "Accidents. Protecció de l’accidentat. Valoració de l’accident. Primers auxilis i criteris bàsics d’actuació. Coordinació de la intervenció.",
+                  "Plans d’evacuació.",
+                  "Simulacres d’evacuació.",
+                  "Informes i valoració de danys.",
+                  "Sistemes de comunicació."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

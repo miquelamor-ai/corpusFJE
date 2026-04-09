@@ -6,471 +6,253 @@
     "codi_area": "FQ",
     "decret": "175/2022",
     "data_decret": "2022-09-27",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Fisica-i-Quimica.pdf",
-    "nota_estructura": "La Física i Química s'imparteix de 3r a 4t d'ESO. Els criteris s'organitzen per agrupament: '1r_3r' (aplicat a 3r) i '4t'. Els sabers s'organitzen per blocs temàtics: matèria, moviment i forces, energia, canvi químic i transferència d'energia.",
-    "versio_schema": "1.0",
+    "font": "PDF oficial XTEC: Fisica-i-Quimica.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
     "descripcio": "La Física i Química a l'ESO és la matèria que introdueix l'alumnat en l'estudi científic de la matèria, l'energia i les seves interaccions. Desenvolopa el pensament científic i la capacitat de modelitzar fenòmens naturals, i constitueix la base imprescindible per a la Física i la Química de Batxillerat i per als estudis universitaris de ciències i enginyeria. Connecta amb Matemàtiques (càlcul, gràfiques) i Biologia (química de la vida).\n\nEls constructes disciplinaris fonamentals inclouen el model cineticomolecular de la matèria, la taula periòdica i l'estructura atòmica (protons, electrons, capes), l'enllaç químic (iònic, covalent, metàl·lic), les reaccions químiques i l'ajust d'equacions, la cinemàtica (posició, velocitat, acceleració, MRU, MRUA), la dinàmica (forces, lleis de Newton, fregament, pressió), el treball i l'energia (cinètica, potencial, conservació) i l'electricitat (llei d'Ohm, circuits bàsics).\n\nL'enfocament pedagògic combina la indagació experimental (disseny, mesura, error, anàlisi) amb la resolució de problemes quantitatius i la construcció de models explicatius. El laboratori —físic o virtual— és l'espai privilegiat d'aprenentatge: l'alumne planteja hipòtesis, fa mesures, analitza dades i comunica conclusions. La connexió amb tecnologia quotidiana (cotxes, cuina, mòbils, energia) i amb problemes globals (canvi climàtic, energies renovables) dóna sentit contextual als conceptes."
   },
-  "competencies_clau": [
-    "STEM",
-    "CCL",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE"
-  ],
-  "blocs_sabers": [
-    "les_forces_i_la_materia",
-    "el_moviment_i_les_forces",
-    "lenergia",
-    "el_canvi_quimic",
-    "transferencia_denergia"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "bloc_competencial": "interpretacio_natura",
-      "text": "Comprendre i relacionar els motius pels quals ocorren els principals fenòmens fisicoquímics de l'entorn, explicant-los en termes de les lleis i teories científiques adequades, per resoldre problemes amb destresa i interès en la comprensió del món natural.",
-      "competencies_clau": [
-        "STEM",
-        "CCL"
-      ],
+      "text": "Interpretar fenòmens de la naturalesa, predient i argumentant-ne el comportament a partir de models, lleis i teories propis de la física i química per apropiar-se de conceptes i processos propis de la ciència.",
       "criteris_avaluacio": {
-        "nota": "Els criteris de 1r_3r s'apliquen a 3r d'ESO (primer curs en que s'imparteix FQ). Els de 4t aprofundeixen i amplien.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i descriure els principals fenòmens fisicoquímics de l'entorn quotidià, reconeixent les variables que hi intervenen i relacionant-los amb les lleis i models científics bàsics."
+            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la física i la química interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques."
           },
           {
             "codi": "CA1.2",
-            "text": "Explicar fenòmens fisicoquímics de l'entorn (estats de la matèria, canvis d'estat, mescles, dissolucions, reaccions quotidianes) aplicant models científics adequats al nivell."
+            "text": "Interpretar i predir el comportament de fenòmens quotidians rellevants, relacionant-lo amb models, lleis i teories adequades de la física i la química."
           },
           {
             "codi": "CA1.3",
-            "text": "Relacionar les propietats macroscòpiques de la matèria amb les seves propietats microscòpiques, usant el model cineticomolecular per interpretar situacions de la vida diària."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Reconèixer i valorar l'aplicació del coneixement fisicoquímic en la millora de les condicions de vida de les persones i en la preservació del medi ambient."
+            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic i proporcionar possibles solucions."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i descriure els principals fenòmens fisicoquímics de l'entorn quotidià, reconeixent les variables que hi intervenen i relacionant-los amb les lleis i models científics adequats, incloent lleis de Newton, energia cinètica i potencial, i models atòmics."
+            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la física i la química interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques i defensant amb criteri opinions pròpies fonamentades."
           },
           {
             "codi": "CA1.2",
-            "text": "Explicar i predir fenòmens fisicoquímics de l'entorn aplicant lleis quantitatives (Coulomb, Newton, lleis de la termodinàmica elemental, estequiometria) i models científics consolidats."
+            "text": "Interpretar i predir el comportament de fenòmens quotidians, argumentant-lo amb rigor d'acord amb models, lleis i teories adequades de la física i la química."
           },
           {
             "codi": "CA1.3",
-            "text": "Relacionar les propietats dels materials i substàncies amb la seva estructura atòmica i molecular, usant el model atòmic de Bohr i la taula periòdica per justificar tendències."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Reconèixer i avaluar críticament l'impacte social, tecnològic i mediambiental del coneixement fisicoquímic, valorant el paper de la ciència en la consecució dels ODS."
+            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic, proporcionar possibles solucions i argumentar-ne la validesa."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "bloc_competencial": "investigacio",
-      "text": "Expressar les observacions realitzades per l'alumnat en forma de preguntes, formulant hipòtesis per explicar-les i demostrant-les a través del treball experimental i diverses metodologies científiques, per desenvolupar els procediments propis de la ciència.",
-      "competencies_clau": [
-        "STEM",
-        "CD",
-        "CPSAA"
-      ],
+      "text": "Dissenyar, desenvolupar i comunicar el plantejament i les conclusions de recerques incloent la formulació de preguntes i d'hipòtesis i la seva contrastació experimental, dins de l'àmbit escolar, seguint els passos de les metodologies pròpies de la ciència, com l'experimentació i la cerca d'evidències, i del pensament computacional cooperant, quan calgui, per indagar en aspectes relacionats amb la física i la química.",
       "criteris_avaluacio": {
-        "nota": "La progressió entre cicles implica major autonomia i rigor metodològic a 4t.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA2.1",
-            "text": "Formular preguntes investigables a partir de l'observació de fenòmens fisicoquímics de l'entorn, identificant variables rellevants i proposant hipòtesis contrastables."
+            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l'experimentació, la presa de dades i l'anàlisi de fenòmens físics i químics."
           },
           {
             "codi": "CA2.2",
-            "text": "Planificar i executar experiments senzills seguint protocols establerts, recollint dades qualitatives i quantitatives de manera ordenada i usant instruments de mesura adequats."
+            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l'ús de la deducció, el treball experimental i el raonament logicomatemàtic."
           },
           {
             "codi": "CA2.3",
-            "text": "Analitzar els resultats experimentals representant-los gràficament (manualment o amb eines digitals) i extreure'n conclusions relacionant-les amb les hipòtesis inicials."
+            "text": "Portar a terme dissenys experimentals fent servir els instruments, les eines o les tècniques adequades amb correcció i interpretar-ne els resultats utilitzant, quan sigui necessari, eines matemàtiques i tecnològiques."
           },
           {
             "codi": "CA2.4",
-            "text": "Comunicar els resultats d'una investigació de manera ordenada i clara, usant el vocabulari científic adequat, en format oral, escrit o digital."
+            "text": "Cooperar en un projecte científic assumint responsablement una funció concreta, utilitzant espais virtuals quan sigui necessari, respectant la diversitat i afavorint la inclusió."
+          },
+          {
+            "codi": "CA2.5",
+            "text": "Presentar els resultats i les conclusions obtingudes mitjançant l'experimentació i l'observació de camp utilitzant el format adequat (taules, gràfics, informes, etc.) i, quan sigui necessari, eines digitals."
+          },
+          {
+            "codi": "CA2.6",
+            "text": "Valorar la contribució de la ciència a la societat i la tasca de les persones que s'hi han dedicat, reflexionant sobre els biaixos de gènere en les ciències i la tecnologia, i entenent la recerca com una tasca col·lectiva i interdisciplinària en constant evolució, influïda pel context polític i els recursos econòmics."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA2.1",
-            "text": "Formular preguntes investigables amb autonomia a partir de l'observació de fenòmens fisicoquímics, identificant variables independents, dependents i controlades i proposant hipòtesis fonamentades en models teòrics."
+            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l'experimentació, la presa de dades i l'anàlisi de fenòmens físics i químics, diferenciant-les d'aquelles qüestions pseudocientífiques que no admeten comprovació experimental."
           },
           {
             "codi": "CA2.2",
-            "text": "Dissenyar i executar experiments, seleccionant el procediment, els materials i els instruments de mesura adequats, i adoptant les mesures de seguretat al laboratori."
+            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l'ús de la deducció, el treball experimental i el raonament logicomatemàtic."
           },
           {
             "codi": "CA2.3",
-            "text": "Analitzar les dades experimentals aplicant tècniques estadístiques bàsiques, identificant fonts d'error i incertesa, i valorant la fiabilitat dels resultats."
+            "text": "Portar a terme l'experimentació plantejada fent servir els instruments, les eines o les tècniques adequades amb correcció i interpretar-ne els resultats, quan sigui necessari, amb eines matemàtiques i tecnològiques per obtenir conclusions raonades i fonamentades o valorar la impossibilitat de fer-ho."
           },
           {
             "codi": "CA2.4",
-            "text": "Comunicar els resultats d'una investigació usant el format d'informe científic, distingint entre dades, interpretació i conclusions, i citant fonts fiables."
+            "text": "Establir col·laboracions quan sigui necessari en les diferents fases del projecte científic per treballar amb més eficiència, valorant la importància de la cooperació en la investigació, respectant la diversitat i afavorint la inclusió."
+          },
+          {
+            "codi": "CA2.5",
+            "text": "Presentar de manera clara i rigorosa els resultats i les conclusions obtingudes mitjançant l'experimentació, argumentant la connexió entre uns i altres, i l'observació de camp utilitzant el format adequat (taules, gràfics, informes, etc.) i eines digitals."
+          },
+          {
+            "codi": "CA2.6",
+            "text": "Valorar la contribució de la ciència a la societat i la tasca de les persones que s'hi han dedicat, argumentant sobre els biaixos de gènere en les ciències i la tecnologia i entenent la recerca com una tasca col·lectiva i interdisciplinària en constant evolució, influïda pel context polític i els recursos econòmics."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "bloc_competencial": "pensament_critic",
-      "text": "Manejar les teories i models científics bàsics de la física i la química per interpretar, valorar i argumentar sobre fenòmens naturals i situacions de la vida quotidiana, i aplicar-los per resoldre problemes.",
-      "competencies_clau": [
-        "STEM",
-        "CCL",
-        "CPSAA"
-      ],
+      "text": "Generar, interpretar i validar dades i informació en diferents formats i fonts, fent servir de manera adient el llenguatge científic específic de la física i la química, i usar de manera responsable i segura el material de laboratori, per valorar el llenguatge científic com a eina universal de comunicació i intercanvi de coneixement.",
       "criteris_avaluacio": {
-        "nota": "A 4t s'introdueix major formalisme matemàtic i pensament crític sobre les limitacions dels models.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA3.1",
-            "text": "Aplicar models científics (model cineticomolecular, model atòmic bàsic, lleis de moviment simples) per interpretar situacions físiques i químiques de la vida diària."
+            "text": "Generar i usar dades de fonts i formats diversos (textos, taules, gràfiques, diagrames, etc.) per interpretar, validar i comunicar informació relativa a un procés físic o químic concret, mitjançant la selecció crítica d'allò més rellevant per a la resolució del problema."
           },
           {
             "codi": "CA3.2",
-            "text": "Argumentar de forma raonada explicacions sobre fenòmens fisicoquímics, distingint entre explicació científica i explicació no científica."
+            "text": "Utilitzar adequadament les regles bàsiques de la física i la química, incloent-hi l'ús d'unitats de mesura, les eines matemàtiques i la formulació i nomenclatura IUPAC, com a elements bàsics del llenguatge científic i d'una comunicació efectiva per a l'intercanvi de coneixement entre la comunitat científica."
           },
           {
             "codi": "CA3.3",
-            "text": "Resoldre problemes numèrics senzills aplicant les lleis físiques i químiques estudiades, identificant les magnituds rellevants i usant les unitats del SI."
+            "text": "Utilitzar de manera pràctica i responsable les normes d'ús dels espais específics de ciència, com el laboratori de física i química, com a mitjà per preservar la salut pròpia i col·lectiva, la conservació sostenible del medi ambient i el respecte per les instal·lacions."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA3.1",
-            "text": "Aplicar models científics (mecànica newtoniana, model atòmic de Bohr, lleis de la termodinàmica, estequiometria) amb rigor per interpretar i predir situacions físiques i químiques."
+            "text": "Generar i usar dades de fonts i formats diversos (textos, taules, gràfiques, diagrames, etc.) per interpretar, validar i comunicar informació relativa a un procés físic o químic concret, mitjançant la selecció crítica d'allò més rellevant per a la resolució del problema."
           },
           {
             "codi": "CA3.2",
-            "text": "Argumentar críticament sobre les limitacions dels models científics i sobre com han evolucionat al llarg de la història, valorant el caràcter provisional del coneixement científic."
+            "text": "Utilitzar adequadament les regles bàsiques de la física i la química, incloent-hi l'ús adequat de diversos sistemes d'unitats de mesura, les eines matemàtiques necessàries i la formulació i nomenclatura IUPAC, com a elements bàsics del llenguatge científic i d'una comunicació efectiva per a l'intercanvi de coneixement entre la comunitat científica."
           },
           {
             "codi": "CA3.3",
-            "text": "Resoldre problemes numèrics aplicant lleis físiques i químiques quantitatives, justificant el procés de resolució, les unitats i l'ordre de magnitud del resultat."
+            "text": "Utilitzar de manera pràctica, responsable i rigorosa les normes d'ús dels espais específics de ciència, com el laboratori de física i química, com a mitjà per assegurar la salut pròpia i col·lectiva, la conservació sostenible del medi ambient i el respecte per les instal·lacions."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "bloc_competencial": "ciencia_societat",
-      "text": "Reconèixer la importància de la ciència en la nostra vida quotidiana, adoptant actituds i conductes responsables vinculades a l'aplicació del coneixement científic i a la valoració del medi ambient per contribuir al benestar individual i social.",
-      "competencies_clau": [
-        "STEM",
-        "CC",
-        "CPSAA",
-        "CE"
-      ],
+      "text": "Utilitzar de forma crítica i eficient plataformes tecnològiques i recursos variats, tant per al treball individual com en equip, per a la cerca d'informació, la creació de materials i la comunicació fonamentada en coneixements de la física i la química, entorn de fenòmens i qüestions ecosocialment rellevants.",
       "criteris_avaluacio": {
-        "nota": "Dimensió transversal present en tots els cursos, amb aprofundiment progressiu.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA4.1",
-            "text": "Identificar aplicacions tecnològiques quotidianes basades en principis físics i químics, valorant la contribució de la ciència al benestar de la societat."
+            "text": "Utilitzar de forma crítica, creativa i eficient entorns digitals i diferents recursos en formats diversos per defensar el punt de vista propi sobre fenòmens i qüestions ecosocialment rellevants."
           },
           {
             "codi": "CA4.2",
-            "text": "Reconèixer l'impacte ambiental d'alguns processos fisicoquímics (combustió, contaminació, canvi climàtic) i proposar actituds i accions per mitigar-lo."
+            "text": "Justificar el punt de vista propi sobre qüestions ecosocialment rellevants, utilitzant tant el treball individual com en equip, respectant les aportacions de tothom i promovent la inclusió de gènere i social."
           },
           {
             "codi": "CA4.3",
-            "text": "Valorar la importància de la perspectiva de gènere en la ciència, reconeixent aportacions de científiques al llarg de la història."
+            "text": "Cercar i analitzar informació amb mitjans convencionals i digitals i crear continguts relacionats amb la física i la química, seleccionant amb criteri les fonts més fiables i organitzant informació mitjançant l'ús i la citació correctes de diferents fonts."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar i avaluar aplicacions tecnològiques basades en principis físics i químics (motors, piles, plantes químiques, energies renovables), valorant beneficis i riscos."
+            "text": "Utilitzar de forma crítica, creativa i eficient entorns digitals i diferents recursos en formats diversos per defensar el punt de vista propi sobre fenòmens i qüestions ecosocialment rellevants."
           },
           {
             "codi": "CA4.2",
-            "text": "Analitzar l'impacte ambiental de processos fisicoquímics rellevants (cicle del carboni, reaccions atmosfèriques, contaminants) i relacionar-lo amb reptes globals com el canvi climàtic."
+            "text": "Justificar el punt de vista propi sobre qüestions ecosocialment rellevants, utilitzant tant el treball individual com en equip, respectant les aportacions de tothom i promovent la inclusió de gènere i social."
           },
           {
             "codi": "CA4.3",
-            "text": "Argumentar sobre reptes científics i tecnològics actuals (energia nuclear, nanomaterials, química verda) des d'una perspectiva ètica, sostenible i de gènere."
+            "text": "Cercar i analitzar informació amb mitjans convencionals i digitals i crear continguts relacionats amb la física i la química, seleccionant amb criteri les fonts més fiables i organitzant informació mitjançant l'ús i la citació correctes de les fonts, amb respecte per la propietat intel·lectual."
           }
         ]
       }
     },
     {
       "codi": "CE5",
-      "bloc_competencial": "comunicacio_cientifica",
-      "text": "Comunicar les produccions pròpies sobre fenòmens fisicoquímics utilitzant de manera apropiada el vocabulari i els recursos propis del coneixement científic, tant de manera oral com escrita i usant les eines digitals, per compartir el coneixement en contextos diversos.",
-      "competencies_clau": [
-        "CCL",
-        "CD",
-        "STEM"
-      ],
+      "text": "Analitzar els efectes de determinades accions sobre el medi ambient i la salut, basant-se en els fonaments de les ciències físiques i químiques, per fer propostes d'acció per decidir de manera informada en problemàtiques actuals i adoptar hàbits que minimitzin els impactes mediambientals, que siguin compatibles amb un desenvolupament sostenible i que permetin mantenir i millorar la salut individual i col·lectiva.",
       "criteris_avaluacio": {
-        "nota": "Progressió en la complexitat de les produccions i l'ús autònom de recursos digitals.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA5.1",
-            "text": "Usar el vocabulari científic específic de la física i la química de manera adequada en contextos orals i escrits, evitant ambigüitats i imprecisions."
+            "text": "Justificar amb fonaments científics la importància de la preservació dels sistemes fisicoquímics de l'entorn (qualitat de l'aire, de l'aigua, del sòl)."
           },
           {
             "codi": "CA5.2",
-            "text": "Representar magnituds físiques i químiques amb taules de dades i gràfiques, llegir i interpretar-les correctament, i identificar-ne tendències i patrons."
+            "text": "Justificar la necessitat de tenir hàbits sostenibles, analitzant d'una manera crítica les activitats pròpies i alienes i basant-se en els raonaments propis, els coneixements adquirits i la informació disponible."
           },
           {
             "codi": "CA5.3",
-            "text": "Buscar, seleccionar i contrastar informació de fonts científiques fiables sobre temes fisicoquímics, usant estratègies bàsiques de cerca digital."
+            "text": "Identificar algunes situacions en què els coneixements derivats de la física i la química poden contribuir a millorar la sostenibilitat ambiental i la salut individual i col·lectiva."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Emprendre, de manera guiada i amb la metodologia adequada, projectes científics relacionats amb la millora de la societat i que afavoreixin el creixement entre iguals com a base d'una comunitat científica escolar crítica i ètica."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA5.1",
-            "text": "Usar el vocabulari científic específic de la física i la química amb rigor en diferents tipus de produccions (informe, presentació, pòster, vídeo), adaptant el registre a l'audiència."
+            "text": "Justificar amb fonaments científics la importància de la qualitat de l'aire, de l'equilibri en la seva composició en els diversos nivells atmosfèrics, dels corrents d'aigua i del sòl lliure de contaminants i el desenvolupament sostenible i identificar els possibles riscos naturals potenciats per determinades accions humanes sobre els sistemes físic-químics de l'entorn."
           },
           {
             "codi": "CA5.2",
-            "text": "Representar, analitzar i interpretar dades experimentals usant eines digitals (fulls de càlcul, software de laboratori, plataformes de visualització), valorant-ne l'adequació."
+            "text": "Argumentar sobre la necessitat de tenir hàbits sostenibles, analitzant les accions pròpies i alienes (hàbits de consum, generació de residus, transport, etc.), amb actitud crítica i basant-se en fonaments del funcionament dels sistemes naturals."
           },
           {
             "codi": "CA5.3",
-            "text": "Contrastar informació de fonts diverses sobre temes científics d'actualitat, identificant sesgos, desinformació i pseudociències, i argumentar de forma fonamentada."
+            "text": "Argumentar, justificant les raons aportades, sobre com els coneixements derivats de la física i la química poden contribuir a millorar la sostenibilitat ambiental i la salut individual i col·lectiva."
+          },
+          {
+            "codi": "CA5.4",
+            "text": "Emprendre, de forma autònoma amb la metodologia adequada, projectes científics relacionats amb la millora de la societat i que afavoreixin el creixement entre iguals com a base d'una comunitat científica escolar crítica i ètica."
           }
         ]
       }
     },
     {
       "codi": "CE6",
-      "bloc_competencial": "historia_naturalesa_ciencia",
-      "text": "Reconèixer i valorar el paper de la ciència com a activitat humana, analitzant les aportacions dels principals científics i científiques i la naturalesa col·lectiva i evolutiva del coneixement científic, per adoptar actituds fonamentades davant de reptes actuals.",
-      "competencies_clau": [
-        "STEM",
-        "CCL",
-        "CC",
-        "CPSAA"
-      ],
+      "text": "Interpretar i valorar la ciència com una construcció col·lectiva en continu canvi i evolució, que requereix la interacció amb la resta de la societat per generar millores que repercuteixin en l'avenç tecnològic, econòmic, ambiental i social.",
       "criteris_avaluacio": {
-        "nota": "Dimensió que integra la perspectiva cultural i epistemològica de la ciència.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA6.1",
-            "text": "Identificar aportacions rellevants en la història de la física i la química (Lavoisier, Dalton, Newton, Marie Curie), reconeixent el context social i cultural en que es van produir."
+            "text": "Interpretar la ciència com un procés en construcció, a través de l'anàlisi amb perspectiva històrica dels avenços científics dels homes i dones que hi van participar, i valorar les repercussions mútues de la ciència actual amb la tecnologia, la societat i el medi ambient."
           },
           {
             "codi": "CA6.2",
-            "text": "Reconèixer que el coneixement científic és provisional i que evoluciona amb noves evidències, posant exemples concrets de canvis de paradigma en física i química."
-          },
-          {
-            "codi": "CA6.3",
-            "text": "Distingir la ciència de la pseudociència, identificant les característiques del mètode científic i valorant la importància del pensament crític."
+            "text": "Raonar la capacitat de la ciència per proposar, mitjançant la implicació ciutadana, solucions sostenibles per a les necessitats tecnològiques, ambientals, econòmiques i socials, detectades en l'entorn, sense biaixos de gènere."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar aportacions fonamentals en la història de la física i la química (model atòmic, mecànica newtoniana, taula periòdica, termodinàmica), situant-les en el seu context."
+            "text": "Interpretar la ciència com un procés en construcció, tant a través de l'anàlisi amb perspectiva històrica dels avenços científics dels homes i dones que hi van participar, com de les línies de recerca actuals, i valorar les repercussions mútues i les implicacions socials, econòmiques i mediambientals de la ciència actual en la societat."
           },
           {
             "codi": "CA6.2",
-            "text": "Argumentar sobre la naturalesa col·lectiva, acumulativa i socialment influenciada del coneixement científic, valorant el paper de la diversitat de perspectives, incloent la de gènere."
-          },
-          {
-            "codi": "CA6.3",
-            "text": "Analitzar críticament notícies i informes sobre avenços científics actuals, identificant evidències, incerteses i possibles interessos, i adoptant actituds informades i responsables."
+            "text": "Argumentar la capacitat de la ciència per proposar, mitjançant la implicació ciutadana, solucions sostenibles per a les necessitats tecnològiques, ambientals, econòmiques i socials, detectades en l'entorn, sense biaixos de gènere."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r_3r": {
-      "les_forces_i_la_materia": {
-        "descripcio": "Comprensió de l'estructura de la matèria i les forces que l'organitzen, des del nivell macroscòpic fins al microscòpic, usant models científics per explicar propietats i comportaments.",
-        "subapartats": {
-          "sistemes_materials": [
-            "Substàncies pures i mescles: criteris de classificació, propietats i exemples quotidians.",
-            "Mètodes de separació de mescles: filtració, decantació, destil·lació, cristal·lització, cromatografia. Aplicació en contextos reals.",
-            "Dissolucions: solut, dissolvent, concentració (g/L, % en massa, % en volum). Preparació i expressió de concentracions.",
-            "Estats de la matèria i canvis d'estat: fusió, solidificació, evaporació, condensació, sublimació. Interpretació cineticomolecular."
-          ],
-          "model_atomic_molecular": [
-            "Àtom: parts (nucli, electrons), nombre atòmic, nombre màssic, isòtops. Model de Dalton i limitacions.",
-            "Molècula i fórmula química: elements i compostos. Escriptura i lectura de fórmules senzilles.",
-            "Taula periòdica: grups i períodes, metalls i no metalls, elements més abundants a la natura.",
-            "Enlacços químics bàsics: iònic i covalent. Relació entre estructura i propietats macroscòpiques senzilles."
-          ],
-          "forces_estatiques": [
-            "Forces: magnitud, direcció, sentit i punt d'aplicació. Representació vectorial bàsica.",
-            "Gravetat: pes i massa, diferència conceptual. Pes en diferents entorns (lluna, espai).",
-            "Pressió: definició, unitats (Pa, atm, bar) i aplicació en fluids (pressió atmosfèrica, hidrostàtica).",
-            "Força de flotació: principi d'Arquimedes i aplicació en situacions quotidianes."
-          ]
-        }
-      },
-      "el_moviment_i_les_forces": {
-        "descripcio": "Descripció i interpretació del moviment dels cossos i de les forces que el produeixen o modifiquen, aplicant les lleis de Newton en situacions senzilles.",
-        "subapartats": {
-          "cinematica": [
-            "Posició, trajectòria, desplaçament i distància recorreguda. Sistemes de referència.",
-            "Velocitat mitjana i instantània. Moviment rectilini uniforme (MRU): gràfiques posició-temps i velocitat-temps.",
-            "Acceleració: concepte i unitats. Moviment rectilini uniformement accelerat (MRUA): situacions bàsiques (caiguda lliure).",
-            "Representació i interpretació de gràfiques del moviment."
-          ],
-          "dinamica_basica": [
-            "Forces i efectes sobre el moviment: deformació i canvi de moviment.",
-            "Llei d'inèrcia (primera llei de Newton): exemples quotidians.",
-            "Relació força-acceleració (segona llei de Newton): aplicació numèrica senzilla (F=ma).",
-            "Principi d'acció i reacció (tercera llei de Newton): exemples pràctics.",
-            "Fricció i resistència de l'aire: efectes en el moviment real."
-          ]
-        }
-      },
-      "lenergia": {
-        "descripcio": "Comprensió del concepte d'energia, les seves formes, transformacions i conservació, i la relació amb el calor i el treball, per analitzar processos físics i qüestions energètiques d'actualitat.",
-        "subapartats": {
-          "formes_i_transformacions": [
-            "Energia cinètica i energia potencial gravitatòria: conceptes i exemples.",
-            "Energia tèrmica, elèctrica, química, lluminosa, sonora: identificació en situacions quotidianes.",
-            "Conservació de l'energia: el principi de conservació en sistemes simples.",
-            "Rendiment energètic: concepte i importància en màquines i processos."
-          ],
-          "calor_i_temperatura": [
-            "Calor i temperatura: distinció conceptual. Unitats (J, cal, ºC, K).",
-            "Efectes del calor: canvi de temperatura i canvi d'estat. Capacitat calorífica específica.",
-            "Propagació de la calor: conducció, convecció i radiació. Aplicacions en aïllament i disseny.",
-            "Equilibri tèrmic: intercanvi de calor fins a igualació de temperatures."
-          ],
-          "energia_i_societat": [
-            "Fonts d'energia: renovables i no renovables. Avantatges, inconvenients i impacte ambiental.",
-            "Consum energètic domèstic i global: lectura de factures, hàbits d'estalvi i eficiència energètica.",
-            "Reptes energètics actuals: canvi climàtic, transició energètica, energies del futur."
-          ]
-        }
-      },
-      "el_canvi_quimic": {
-        "descripcio": "Comprensió de les reaccions químiques com a reorganització d'àtoms, identificant-les en processos quotidians i naturals, i aplicant la llei de conservació de la massa.",
-        "subapartats": {
-          "reaccions_quimiques": [
-            "Reaccions químiques: evidències observables (canvi de color, formació de gas o precipitat, canvi de temperatura, llum).",
-            "Reactius i productes: distinció i representació amb equacions químiques ajustades.",
-            "Llei de conservació de la massa (Lavoisier): justificació i aplicació quantitativa bàsica.",
-            "Velocitat de reacció: factors que l'influencien (temperatura, concentració, superfície de contacte, catalitzadors)."
-          ],
-          "tipus_reaccions": [
-            "Reaccions de síntesi, descomposició, desplaçament i doble desplaçament: exemples quotidians.",
-            "Reaccions àcid-base: propietats d'àcids i bases, pH, indicadors. Neutralització.",
-            "Reaccions de combustió: condicions, productes i impacte ambiental.",
-            "Reaccions d'oxidació i reducció: concepte i exemples (corrosió, respiració, fotosíntesi)."
-          ]
-        }
-      }
-    },
-    "4t": {
-      "les_forces_i_la_materia": {
-        "descripcio": "Aprofundiment en l'estructura atòmica i les forces intermoleculars per explicar propietats de substàncies i materials, introduint elements de química orgànica i inorgànica.",
-        "subapartats": {
-          "estructura_atomica_avancada": [
-            "Model atòmic de Bohr: òrbites electròniques, transicions i espectre. Limitacions.",
-            "Configuració electrònica bàsica: distribució d'electrons en nivells i subnivells. Relació amb la taula periòdica.",
-            "Periodicitat química: electronegativitat, radi atòmic, energia d'ionització i tendències periòdiques.",
-            "Enlacços químics: iònic, covalent (polar i apolar) i metàl·lic. Propietats associades."
-          ],
-          "formulacio_nomenclatura": [
-            "Formulació i nomenclatura d'òxids, hidròxids, àcids i sals bàsics (IUPAC).",
-            "Compostos orgànics: hidrocarburs (alcans, alquens, alquins, aromàtics), grups funcionals principals (alcohol, àcid carboxílic, ester, amina).",
-            "Polímers: concepte, exemples quotidians i impacte ambiental dels plàstics."
-          ],
-          "forces_intermoleculars": [
-            "Forces de Van der Waals, ponts d'hidrogen: efectes sobre punts d'ebullició i propietats físiques.",
-            "Propietats de dissolucions: polaritat, regla 'lo igual dissol lo igual', concentració molar bàsica."
-          ]
-        }
-      },
-      "el_moviment_i_les_forces": {
-        "descripcio": "Formalització de la mecànica newtoniana i introducció a altres tipus de forces (elèctrica, magnètica), amb aplicació a fenòmens d'actualitat.",
-        "subapartats": {
-          "cinematica_avancada": [
-            "Moviment circular uniforme (MCU): velocitat angular, freqüència, període i força centrípeta.",
-            "Moviment de projectils: composició de moviments ortogonals. Aplicació a situacions reals.",
-            "Gràfiques de moviment: anàlisi i interpretació de situacions complexes."
-          ],
-          "dinamica_avancada": [
-            "Lleis de Newton: aplicació sistemàtica a problemes amb múltiples forces (plans inclinats, pòlies).",
-            "Pes aparent i situacions d'ingravidesa: interpretació física.",
-            "Llei de la gravitació universal de Newton: atracció entre masses, satèl·lits i òrbites.",
-            "Forces elèctrica i magnètica: Llei de Coulomb, camps elèctric i magnètic bàsics. Corrent elèctric i força magnètica (Lorentz)."
-          ]
-        }
-      },
-      "lenergia": {
-        "descripcio": "Tractament quantitatiu de l'energia mecànica, la termodinàmica i l'energia elèctrica, relacionant-los amb fenòmens i problemes d'actualitat.",
-        "subapartats": {
-          "energia_mecanica": [
-            "Treball mecànic: definició, càlcul (W=F·d·cos θ) i unitats.",
-            "Potència: definició i càlcul (P=W/t). Unitats (W, kW, CV).",
-            "Energia cinètica i potencial: càlcul i transformacions. Conservació de l'energia mecànica.",
-            "Teorema del treball i l'energia: relació entre treball net i variació d'energia cinètica."
-          ],
-          "termodinamica_basica": [
-            "Primer principi de la termodinàmica: energia interna, calor i treball. Formulació bàsica.",
-            "Màquines tèrmiques: concepte de rendiment i limitació del segon principi.",
-            "Calorimetria: càlcul de calor intercanviat (Q=m·c·ΔT), calors latents."
-          ],
-          "electricitat": [
-            "Càrrega elèctrica, corrent elèctric, voltatge i resistència. Llei d'Ohm.",
-            "Circuits elèctrics: connexions en sèrie i paral·lel. Càlcul de resistències equivalents.",
-            "Potència i energia elèctrica: càlcul (P=V·I) i cost energètic.",
-            "Producció i transport d'energia elèctrica: generadors, transformadors i xarxa elèctrica."
-          ]
-        }
-      },
-      "el_canvi_quimic": {
-        "descripcio": "Tractament quantitatiu de les reaccions químiques i introducció a la cinètica i l'equilibri, amb aplicació a processos industrials i ambientals.",
-        "subapartats": {
-          "estequiometria": [
-            "Mol com a unitat de quantitat de substància: nombre d'Avogadro, massa molar.",
-            "Càlculs estequiomètrics: relació entre mols de reactius i productes en una reacció ajustada.",
-            "Reactiu limitant i reactiu en excés: concepte i aplicació numèrica.",
-            "Rendiment d'una reacció: càlcul i factors que l'afecten."
-          ],
-          "quimica_industrial_ambiental": [
-            "Síntesi industrial: procés Haber (amoníac), procés Solvay (carbonat de sodi). Condicions i rendiment.",
-            "Química del carboni: petroquímica, plàstics, fàrmacs. Cicle de vida i impacte ambiental.",
-            "Química verda: principis, exemples i relació amb el desenvolupament sostenible.",
-            "Contaminació química de l'aire, l'aigua i el sòl: causes, efectes i solucions."
-          ]
-        }
-      },
-      "transferencia_denergia": {
-        "descripcio": "Comprensió dels mecanismes de transferència d'energia (ones i radiació) i les seves aplicacions tecnològiques, incloent l'espectre electromagnètic i la radioactivitat.",
-        "subapartats": {
-          "ones_i_so": [
-            "Moviment ondulatori: amplitud, longitud d'ona, freqüència, velocitat i relació entre elles.",
-            "So: naturalesa, propagació, qualitats (to, timbre, intensitat) i mesura (dB). Contaminació acústica.",
-            "Efectes d'ones: reflexió, refracció, difracció i interferència. Exemples quotidians."
-          ],
-          "llum_i_optica": [
-            "Llum com a ona electromagnètica: espectre visible i espectre electromagnètic complet.",
-            "Òptica geomètrica: reflexió i refracció de la llum, llei de Snell. Miralls i lents (convergents i divergents).",
-            "Aplicacions òptiques: ulleres, telescopi, microscopi, càmera fotogràfica, fibra òptica."
-          ],
-          "radioactivitat_i_nuclear": [
-            "Nucli atòmic: forces nuclears, isòtops i estabilitat nuclear.",
-            "Radioactivitat: tipus de radiació (α, β, γ), activitat, vida mitjana i sèries de desintegració.",
-            "Fissió i fusió nuclear: energia alliberada, aplicacions (reactor nuclear, bomba) i riscos.",
-            "Aplicacions de la radioactivitat: medicina nuclear, datació per C-14, esterilització."
-          ]
-        }
-      }
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers es formulen amb relació a contextos en què es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d'organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d'una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l'enfocament competencial dels aprenentatges. Això modifica la planificació habitual d'adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o de les matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l'aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Primer, segon i tercer curs Habilitats científiques bàsiques - Utilització de metodologies pròpies de la investigació científica per a la identificació i la formulació de qüestions, l'elaboració d'hipòtesis i el seu contrast experimental. - Disseny i realització de treball experimental i emprenedoria de projectes de recerca per a la resolució de problemes mitjançant l'ús de l'experimentació, la indagació, la deducció, la recerca d'evidències o el raonament logicomatemàtic per fer inferències vàlides a partir de les observacions i l'elaboració de conclusions pertinents i generals que vagin més enllà de les condicions experimentals, per aplicar-les a nous escenaris. - Ús de diversos entorns i recursos d'aprenentatge científic, com ara el laboratori o els entorns virtuals, utilitzant de forma correcta els materials, els productes i les eines tecnològiques i atenent les normes d'ús de cada espai per assegurar la conservació de la salut pròpia i comunitària, la seguretat en xarxes i el respecte al medi ambient. - Ús del llenguatge científic, incloent-hi l'ús adequat de representacions, sistemes d'unitats i eines matemàtiques, per aconseguir una comunicació argumentada en diferents entorns científics i d'aprenentatge. - Interpretació i producció d'informació científica en diferents formats i amb diferents mitjans per desenvolupar un criteri propi basat en allò que el pensament científic aporta a la millora de la societat. - Valoració de la cultura científica i del paper de les científiques i els científics en les principals fites històriques i actuals de la física i la química, posant de manifest referents femenins invisibilitzats, per a l'avenç i la millora d'una societat equitativa i plural. La matèria - Aplicació del model cinètic de la matèria i la teoria cineticomolecular a partir d'observacions sobre la matèria per explicar-ne les propietats, els estats d'agregació i els canvis d'estat, i la formació de barreges i dissolucions. - Realització d'experiments relacionats amb els sistemes materials per conèixer-ne i descriure'n les propietats, la composició i la classificació. - Diferenciació de substàncies i mescles per les seves propietats, i de substàncies elementals i compostes. - Identificació dels criteris d'ordenació dels elements en la taula periòdica i la seva utilitat. - Aplicació dels coneixements sobre l'estructura atòmica de la matèria per entendre la formació de ions, l'existència d'isòtops i les seves propietats, el desenvolupament històric del model atòmic i la seva contribució a l'ordenació dels elements a la taula periòdica. - Relació entre les propietats físiques i químiques de les substàncies elementals i la situació dels corresponents elements a la taula periòdica. - Valoració de les aplicacions dels principals compostos químics, la seva formació i les seves propietats físiques i químiques, així com l'expressió de la quantitat de matèria. - Ús adequat d'un llenguatge científic comú i universal a través de la formulació i la nomenclatura de substàncies simples, ions monoatòmics i compostos binaris més freqüents mitjançant les regles de nomenclatura de la IUPAC. L'energia - Formulació de qüestions i hipòtesis sobre l'energia, les manifestacions i les propietats per a l'elaboració d'explicacions amb relació als processos de canvi. - Raonament dels aspectes energètics associats a canvis físics i els canvis químics i la seva identificació en fenòmens quotidians. - Experimentació amb materials d'ús quotidià de fenòmens de transferència d'energia en forma de llum i so. - Representació i interpretació de gràfics de temperatura, temps en processos d'escalfament i refredament i en els canvis d'estat. - Disseny i comprovació experimental d'hipòtesis relacionades amb l'ús domèstic i industrial de l'energia en les diferents formes i les seves transferències i transformacions. - Elaboració fonamentada d'hipòtesis sobre el medi ambient i la sostenibilitat a partir de les diferències entre fonts d'energia renovables i no renovables i el seu contrast amb dades reals i la presa argumentada de decisions. - Anàlisi i aplicació dels mecanismes i efectes de la transferència i conducció de calor sobre els sistemes materials (fluids i sòlids), l'assoliment de l'equilibri tèrmic, en situacions quotidianes i de rellevància ambiental i social. - Realització d'experiments relacionats amb la naturalesa elèctrica de la matèria, i comprovació i interpretació de les propietats conductores dels materials. - Disseny, muntatge i anàlisi de circuits elèctrics elementals, tant en un entorn físic com simulat. - Anàlisi crítica dels diferents processos d'obtenció d'energia elèctrica, per desenvolupar consciència sobre la necessitat de l'estalvi energètic i la conservació sostenible del medi ambient i la societat. Interacció - Predicció de les característiques fonamentals del moviment dels objectes a partir dels conceptes de la cinemàtica, per formular hipòtesis sobre valors futurs d'aquestes magnituds, mitjançant l'ús del càlcul numèric elemental, la interpretació de gràfiques i el disseny, muntatge i anàlisi d'activitats experimentals com a eines de contrast de les hipòtesis relacionades amb el moviment dels objectes. - Diferenciació dels efectes de les forces, com a agents del canvi tant a l'estat de moviment o de repòs d'un cos, així com productores de deformacions, amb els canvis que produeixen en els sistemes sobre els quals actuen. - Descripció dels efectes de les forces a partir d'observacions de fenòmens quotidians o de situacions simulades en el laboratori. - Aplicació de les lleis de Newton per entendre com es comporten els sistemes materials davant l'acció de les forces i predir-ne els efectes en situacions quotidianes i de seguretat viària. - Identificació i comparació de les propietats elàstiques dels materials i relació amb la seva utilització. El canvi - Anàlisi dels diferents tipus de canvis que experimenten els sistemes materials per relacionar-los amb les causes que els produeixen i amb les conseqüències que tenen. - Diferenciació de canvis físics i canvis químics basant-se en evidències experimentals i en el concepte de substància. - Interpretació de les reaccions químiques a escala macroscòpica i submicroscòpica per explicar les relacions de la química amb el medi ambient, la tecnologia i la societat. - Cerca de similituds i diferències entre processos en els quals intervenen àcids i bases, oxidacions i formacions de precipitats i interpretació de les propietats de les substàncies que intervenen en contextos quotidians i d'actualitat. - Aplicació de la llei de conservació de la massa i de la llei de les proporcions definides, per utilitzar-les com a evidències experimentals, i interpretació sobre la base del model atomicomolecular de"
     }
+  ],
+  "_validacio": {
+    "fragments_ok": 89,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
   }
 }

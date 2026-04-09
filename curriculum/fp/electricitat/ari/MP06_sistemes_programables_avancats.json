@@ -1,0 +1,543 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "ARI",
+    "titol_cicle": "Automatització i Robòtica Industrial",
+    "grau": "superior",
+    "familia_professional": "Electricitat i Electrònica",
+    "font_tipus": "ordre",
+    "font_ref": "Pendent de localitzar",
+    "titol_decret": "DECRET 220/2015, de 6 d'octubre, pel qual s'estableix el currículum del cicle formatiu de grau superior d'automatització i robòtica industrial.",
+    "data_decret": "2015-10-06",
+    "eli_url": "",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP06",
+    "nom": "sistemes programables avançats",
+    "hores_totals": 99,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "sistemes avançats de control industrial",
+        "hores": 66,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els dispositius programables que intervenen en el control de sistemes dinàmics, identificant la seva funcionalitat i determinant les seves característiques tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix aplicacions automàtiques per a la lectura i el control de senyals dinàmiques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica l’estructura de sistema de control analògic programat."
+              },
+              {
+                "codi": "CA13",
+                "text": "Relaciona els components dels dispositius programables amb la seva funcionalitat."
+              },
+              {
+                "codi": "CA14",
+                "text": "Determina les característiques tècniques dels dispositius programables segons el tipus de control que cal realitzar."
+              },
+              {
+                "codi": "CA15",
+                "text": "Selecciona el dispositiu programable segons l’aplicació requerida."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta sistemes de regulació de magnituds físiques per al control en llaç tancat, seleccionant i connectant els elements que el componen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Selecciona els components adequats segons les especificacions tècniques."
+              },
+              {
+                "codi": "CA22",
+                "text": "Representa el croquis de la instal·lació automàtica."
+              },
+              {
+                "codi": "CA23",
+                "text": "Dibuixa l’esquema de connexió entre els components de la instal·lació."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza simbologia normalitzada."
+              },
+              {
+                "codi": "CA25",
+                "text": "Munta els components per a la regulació i el control de diferents variables físiques del procés, implementant estratègies de control avançat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Implementa sistemes embeguts com a solucions integrals dels sistemes de control."
+              },
+              {
+                "codi": "CA27",
+                "text": "Implementa sistemes de millora de l’eficiència energètica."
+              },
+              {
+                "codi": "CA28",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA29",
+                "text": "Té en compte els temps previstos per als processos."
+              },
+              {
+                "codi": "CA210",
+                "text": "Aplica els criteris de qualitat establerts."
+              },
+              {
+                "codi": "CA211",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA212",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA213",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Programa controladors lògics aplicats als sensors avançats, identificant la tipologia de les dades del procés i utilitzant tècniques avançades de programació i parametrització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Relaciona els tipus de dades del controlador lògic programable amb els senyals que cal tractar."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza tècniques de programació per a l’emmagatzematge dels senyals del procés en blocs de dades."
+              },
+              {
+                "codi": "CA33",
+                "text": "Configura i programa dispositius de control d’identificació i de traçabilitat."
+              },
+              {
+                "codi": "CA34",
+                "text": "Configura i programa equips de visió artificial."
+              },
+              {
+                "codi": "CA35",
+                "text": "Adreça i configura els senyals de mòduls especials de controladors lògics programables."
+              },
+              {
+                "codi": "CA36",
+                "text": "Programa controladors lògics aplicats als sensors avançats."
+              },
+              {
+                "codi": "CA37",
+                "text": "Optimitza el programa, tenint en compte la facilitat per al seu manteniment."
+              },
+              {
+                "codi": "CA38",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA39",
+                "text": "Actua amb responsabilitat en la realització de les tasques encomanades."
+              },
+              {
+                "codi": "CA310",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Verifica el funcionament, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA42",
+                "text": "Verifica la seqüència de control."
+              },
+              {
+                "codi": "CA43",
+                "text": "Monitoritza el programa i l’estat de les variables des de la unitat de programació."
+              },
+              {
+                "codi": "CA44",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA45",
+                "text": "Mesura paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA46",
+                "text": "Respecta les normes de seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Repara avaries en sistemes de control analògic programat, diagnosticant disfuncions i desenvolupant la documentació requerida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA52",
+                "text": "Identifica la causa de l’avaria a través de les mesures realitzades i de l’observació del comportament de l’automatització."
+              },
+              {
+                "codi": "CA53",
+                "text": "Selecciona els elements que cal substituir, atenent la seva compatibilitat i funcionalitat dins del sistema."
+              },
+              {
+                "codi": "CA54",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA55",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA56",
+                "text": "Configura el manual d’ús."
+              },
+              {
+                "codi": "CA57",
+                "text": "Identifica possibles contingències i planteja solucions."
+              },
+              {
+                "codi": "CA58",
+                "text": "Participa activament en l’equip de treball i contribueix a unes bones relacions interpersonals."
+              },
+              {
+                "codi": "CA59",
+                "text": "Manté l’àrea de treball, les eines, els estris i els equips amb el grau apropiat d’ordre, de conservació i de netedat."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement dels dispositius programables que intervenen en el control de sistemes dinàmics",
+                "items": [
+                  "Aplicacions automàtiques per a sistemes de control dinàmics. Estructura dels sistemes de control dinàmic. Controls dinàmics de velocitat, posició, entre d’altres.",
+                  "Criteris de selecció, dimensionament i integració dels dispositius programables per al seu ús en els sistemes de control dinàmics. Senyals de tensió, d’intensitat, de polsos, entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Muntatge de sistemes de regulació de magnituds en llaç tancat",
+                "items": [
+                  "Funcionament dels dispositius programables amb senyals analògiques.",
+                  "Disseny del croquis de la instal·lació automàtica utilitzant la simbologia normalitzada.",
+                  "Tècniques d’implementació i de muntatge d’estructures de regulació de variables de processos dinàmics i estàtics. Control de velocitat de motors de corrent altern mitjançant variadors de freqüència, control de motors pas a pas, brushless, especials, etc. Codificadors (encoders). Control de temperatura, cabal, pressió, nivell. Control de posició per servomotors. Entre d’altres.",
+                  "Tècniques de calibratge dels elements del sistema.",
+                  "Aplicació de sistemes embeguts. Control, processament de dades, memòria i comunicació.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Programació avançada de controladors lògics",
+                "items": [
+                  "Tipus de dades en els autòmats programables.",
+                  "Conversió dels diferents tipus de dades.",
+                  "Funcions de programació avançada de PLC. Funcions de desplaçament, de càlcul, de tractament i d’emmagatzematge de dades, entre d’altres.",
+                  "Tractament i condicionament de les senyals d’entrada i de sortida analògiques en autòmats programables. Tipus de senyals estàndard de tensió i corrent, escalat i desescalat, convertidors analògics/digitals i digitals/analògics.",
+                  "Blocs de programació dels autòmats programables. Blocs estàndard de llibreries i d’usuari.",
+                  "Tractament d’avisos i d’alarmes mitjançant blocs o rutines d’interrupció.",
+                  "Configuració i programació de targetes especials: temperatura, PID, posicionament, entre d’altres.",
+                  "Aplicacions de sistemes de controls estàtics. Control de temperatura, cabal, pressió, entre d’altres.",
+                  "Aplicacions de sistemes de controls dinàmics. Control de motors mitjançant un convertidor de freqüència. Control de posicionament amb comptatge ràpid, control de servomotors, control de motors pas a pas, brushless i especials, entre d’altres.",
+                  "Estructuració dels programes dels equips i documentació amb criteri de manteniment.",
+                  "Programació de les aplicacions atenent tècniques d’estalvi i d’eficiència energètica.",
+                  "Sistemes de protecció."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament",
+                "items": [
+                  "Tècniques de verificació.",
+                  "Tècniques de monitoratge de programes.",
+                  "Tècniques de diagnosi i localització d’avaries.",
+                  "Instruments de mesura.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Reparació d’avaries en sistemes de control analògic programat",
+                "items": [
+                  "Diagnosi i localització d’avaries.",
+                  "Pla d’actuació davant de disfuncions del sistema.",
+                  "Informe d’incidències.",
+                  "Tècniques d’actuació.",
+                  "Registres d’avaries.",
+                  "Memòria tècnica. Documentació dels fabricants.",
+                  "Valoració econòmica.",
+                  "Manual d’ús."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "sensors avançats",
+        "hores": 33,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Reconeix els sensors avançats que intervenen en el control de sistemes automàtics, identificant la seva funcionalitat i determinant les seves característiques tècniques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Reconeix els diferents tipus de sensors avançats utilitzats en aplicacions automàtiques."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica les característiques tècniques dels diferents sensors utilitzats en identificació i traçabilitat i en sistemes de visió artificial."
+              },
+              {
+                "codi": "CA13",
+                "text": "Selecciona el sensor més adequat segons l’aplicació requerida."
+              },
+              {
+                "codi": "CA14",
+                "text": "Identifica l’estructura del sistema de control analògic programat."
+              },
+              {
+                "codi": "CA15",
+                "text": "Relaciona els components dels dispositius programables amb la seva funcionalitat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Munta sistemes de control d’identificació, traçabilitat i de visió artificial, seleccionant i connectant els elements que el componen.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Representa el croquis de la instal·lació automàtica."
+              },
+              {
+                "codi": "CA22",
+                "text": "Dibuixa l’esquema de connexió entre els components de la instal·lació."
+              },
+              {
+                "codi": "CA23",
+                "text": "Munta dispositius per al control de qualitat de la producció i l’integra dins del sistema de control programable."
+              },
+              {
+                "codi": "CA24",
+                "text": "Munta dispositius per al control de la traçabilitat de la producció, i els integra dins del sistema de control programable."
+              },
+              {
+                "codi": "CA25",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA26",
+                "text": "Mostra autonomia en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA27",
+                "text": "Mostra iniciativa en la realització de les tasques proposades."
+              },
+              {
+                "codi": "CA28",
+                "text": "Utilitza les eines adequades per a cada operació."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA3",
+            "text": "Programa controladors lògics aplicats als sensors avançats, identificant la tipologia de les dades del procés i utilitzant tècniques avançades de programació i parametrització.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA31",
+                "text": "Relaciona els tipus de dades del controlador lògic programable amb els senyals que cal tractar."
+              },
+              {
+                "codi": "CA32",
+                "text": "Utilitza tècniques de programació per a l’emmagatzematge dels senyals del procés en blocs de dades."
+              },
+              {
+                "codi": "CA33",
+                "text": "Configura i programa dispositius de control d’identificació i de traçabilitat."
+              },
+              {
+                "codi": "CA34",
+                "text": "Configura i programa equips de visió artificial."
+              },
+              {
+                "codi": "CA35",
+                "text": "Adreça i configura els senyals de mòduls especials de controladors lògics programables."
+              },
+              {
+                "codi": "CA36",
+                "text": "Programa controladors lògics aplicats als sensors avançats."
+              },
+              {
+                "codi": "CA37",
+                "text": "Optimitza el programa, tenint en compte la facilitat per al seu manteniment."
+              },
+              {
+                "codi": "CA38",
+                "text": "Respecta les normes de seguretat."
+              },
+              {
+                "codi": "CA39",
+                "text": "Resol satisfactòriament els problemes que es presenten."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Verifica el funcionament dels sensors avançats, ajustant els dispositius i aplicant normes de seguretat.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Comprova les connexions entre dispositius."
+              },
+              {
+                "codi": "CA42",
+                "text": "Verifica la seqüència de control."
+              },
+              {
+                "codi": "CA43",
+                "text": "Monitoritza el programa i l’estat de les variables des de la unitat de programació."
+              },
+              {
+                "codi": "CA44",
+                "text": "Comprova la resposta del sistema davant de qualsevol possible anomalia."
+              },
+              {
+                "codi": "CA45",
+                "text": "Mesura paràmetres característics de la instal·lació."
+              },
+              {
+                "codi": "CA46",
+                "text": "Respecta les normes de seguretat."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA5",
+            "text": "Repara avaries en sistemes de control programat, diagnosticant disfuncions i desenvolupant la documentació requerida.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA51",
+                "text": "Reconeix punts susceptibles d’avaria."
+              },
+              {
+                "codi": "CA52",
+                "text": "Identifica la causa de l’avaria a través de les mesures realitzades i de l’observació del comportament de l’automatització."
+              },
+              {
+                "codi": "CA53",
+                "text": "Selecciona els elements que cal substituir, atenent la seva compatibilitat i funcionalitat dins del sistema."
+              },
+              {
+                "codi": "CA54",
+                "text": "Restableix el funcionament."
+              },
+              {
+                "codi": "CA55",
+                "text": "Elabora registres d’avaria."
+              },
+              {
+                "codi": "CA56",
+                "text": "Configura el manual d’ús."
+              },
+              {
+                "codi": "CA57",
+                "text": "Determina les mesures de seguretat i de protecció personal que s’han d’adoptar en cada cas."
+              },
+              {
+                "codi": "CA58",
+                "text": "Compleix les normes de prevenció de riscos laborals (incloses les de seguretat davant el risc elèctric) i de protecció ambiental."
+              },
+              {
+                "codi": "CA59",
+                "text": "Té en compte les mesures de seguretat requerides en cada fase."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Reconeixement dels sensors avançats que intervenen en el control de sistemes automàtics",
+                "items": [
+                  "Aplicacions automàtiques per a sistemes de control que incorporen sensors avançats.",
+                  "Criteris de selecció dels sensors avançats.",
+                  "Característiques dels sistemes d’identificació i de traçabilitat RFI: mòduls interfase, unitats de lectura/escriptura, portadores de dades, terminals de mà, entre d’altres.",
+                  "Característiques dels sistemes d’identificació i traçabilitat per impressió. Tipus de codis de barres en 1D, en 2D, entre d’altres.",
+                  "Característiques dels sistemes de visió artificial en 2D, en 3D, entre d’altres."
+                ]
+              },
+              {
+                "bloc": "Muntatge de sistemes de control d’identificació, traçabilitat i de visió artificial",
+                "items": [
+                  "Tècniques de disseny de croquis i d’esquemes de la instal·lació automàtica.",
+                  "Tècniques de muntatge de sistemes de visió artificial.",
+                  "Tècniques de muntatge de sistemes de control d’identificació i de traçabilitat.",
+                  "Eines de configuració i visualització dels dispositius de visió artificial.",
+                  "Sistemes d’interconnexió dels equips d’identificació, traçabilitat i de visió artificial amb el control programable.",
+                  "Reglamentació vigent."
+                ]
+              },
+              {
+                "bloc": "Programació de controladors lògics aplicats als sensors avançats",
+                "items": [
+                  "Tractament i emmagatzematge de les dades dels sensors avançats en els autòmats programables.",
+                  "Tècniques de configuració i de programació dels equips de control d’identificació i de traçabilitat.",
+                  "Tècniques de configuració i programació dels equips de visió artificial.",
+                  "Configuració i programació de targetes especials.",
+                  "Aplicació de la programació dels controladors lògics als sensors avançats. Control d’identificació, de traçabilitat, de qualitat, entre d’altres.",
+                  "Estructuració dels programes dels equips i documentació amb criteri de manteniment.",
+                  "Sistemes de protecció."
+                ]
+              },
+              {
+                "bloc": "Verificació del funcionament dels sensors avançats",
+                "items": [
+                  "Monitoratge de programes.",
+                  "Tècniques de verificació.",
+                  "Instruments de mesura."
+                ]
+              },
+              {
+                "bloc": "Reparació d’avaries en sistemes de control programat",
+                "items": [
+                  "Diagnosi i localització d’avaries.",
+                  "Pla d’actuació davant de disfuncions del sistema.",
+                  "Informe d’incidències.",
+                  "Tècniques d’actuació.",
+                  "Registres d’avaries.",
+                  "Memòria tècnica. Documentació dels fabricants.",
+                  "Valoració econòmica.",
+                  "Manual d’ús."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

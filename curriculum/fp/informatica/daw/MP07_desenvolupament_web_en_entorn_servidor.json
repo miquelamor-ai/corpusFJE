@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "familia": "fp",
+    "cicle_formatiu": "DAW",
+    "titol_cicle": "Desenvolupament d'Aplicacions Web",
+    "grau": "superior",
+    "familia_professional": "Informàtica i Comunicacions",
+    "font_tipus": "decret",
+    "font_ref": "Decret 199/2015, de 15 de setembre",
+    "titol_decret": "DECRET 199/2015, de 15 de setembre, pel qual s'estableix el currículum del cicle formatiu de grau superior de desenvolupament d'aplicacions web.",
+    "data_decret": "2015-09-15",
+    "eli_url": "https://portaljuridic.gencat.cat/eli/es-ct/d/2015/09/15/199/dof/cat/xml",
+    "rd_titol": "",
+    "font": "XML AkomaNtoso - Portal DOGC (Diari Oficial de la Generalitat de Catalunya)",
+    "versio_schema": "2.0",
+    "metode_extraccio": "genera_fp_dogc.py (mecànic) — 0 IA generativa"
+  },
+  "modul": {
+    "codi": "MP07",
+    "nom": "desenvolupament web en entorn servidor",
+    "hores_totals": 165,
+    "uf": [
+      {
+        "codi": "UF1",
+        "nom": "programació web en entorn servidor",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Selecciona les arquitectures i tecnologies de programació web en entorn servidor, analitzant les seves capacitats i les característiques pròpies.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Caracteritza i diferencia els models d’execució de codi al servidor i al client web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Reconeix els avantatges que proporciona la generació dinàmica de pàgines web i les seves diferències amb la inclusió de sentències de guions a l’interior de les pàgines web."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica els mecanismes d’execució de codi en els servidors web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Reconeix les funcionalitats que aporten els servidors d’aplicacions i la seva integració amb els servidors web."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica i caracteritza els principals llenguatges i tecnologies relacionats amb la programació web en entorn servidor."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica els mecanismes d’integració dels llenguatges de marques amb els llenguatges de programació en entorn servidor."
+              },
+              {
+                "codi": "CA17",
+                "text": "Reconeix i avalua les eines de programació en entorn servidor."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Escriu sentències executables per un servidor web reconeixent i aplicant procediments d’integració del codi en llenguatges de marques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica els mecanismes de generació de pàgines web a partir de llenguatges de marques amb codi encastat."
+              },
+              {
+                "codi": "CA22",
+                "text": "Identifica les principals tecnologies associades."
+              },
+              {
+                "codi": "CA23",
+                "text": "Utilitza etiquetes per a la inclusió de codi en el llenguatge de marques."
+              },
+              {
+                "codi": "CA24",
+                "text": "Identifica la sintaxi del llenguatge de programació que s’ha d’utilitzar."
+              },
+              {
+                "codi": "CA25",
+                "text": "Escriu sentències simples i en comprova els efectes en el document resultant."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza directives per modificar el comportament predeterminat."
+              },
+              {
+                "codi": "CA27",
+                "text": "Utilitza els diferents tipus de variables i operadors disponibles en el llenguatge."
+              },
+              {
+                "codi": "CA28",
+                "text": "Identifica els àmbits d’utilització de les variables."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Escriu blocs de sentències embeguts en llenguatges de marques, seleccionant i utilitzant les estructures de programació.",
+            "criteris_avaluacio": [],
+            "continguts": []
+          },
+          {
+            "codi": "RA4",
+            "text": "Desenvolupa aplicacions web embegudes en llenguatges de marques analitzant i incorporant funcionalitats segons especificacions.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA41",
+                "text": "Identifica els mecanismes disponibles per al manteniment de la informació que fa a un client web concret i n’assenyala els avantatges."
+              },
+              {
+                "codi": "CA42",
+                "text": "Utilitza sessions per mantenir l’estat de les aplicacions web."
+              },
+              {
+                "codi": "CA43",
+                "text": "Utilitza galetes (cookies) per emmagatzemar informació en el client web i per recuperar el seu contingut."
+              },
+              {
+                "codi": "CA44",
+                "text": "Identifica i caracteritza els mecanismes disponibles per a l’autenticació d’usuaris."
+              },
+              {
+                "codi": "CA45",
+                "text": "Escriu aplicacions que integrin mecanismes d’autenticació d’usuaris."
+              },
+              {
+                "codi": "CA46",
+                "text": "Fa adaptacions a aplicacions web existents com a gestors de continguts o altres."
+              },
+              {
+                "codi": "CA47",
+                "text": "Utilitza eines i entorns per a facilitar la programació, prova i depuració del codi."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Selecció d’arquitectures i eines de programació",
+                "items": [
+                  "Models de programació en entorns client/servidor.",
+                  "Generació dinàmica de pàgines web.",
+                  "Llenguatges de programació en entorn servidor.",
+                  "Integració amb els servidors web.",
+                  "Llenguatges de programació en entorn servidor.",
+                  "Integració amb els llenguatges de marques.",
+                  "Eines de programació."
+                ]
+              },
+              {
+                "bloc": "Inserció de codi en pàgines web",
+                "items": [
+                  "Obtenció del llenguatge de marques per mostrar al client.",
+                  "Tecnologies associades: PHP, ASP, JSP, miniaplicacions de servidors (servlets), entre altres.",
+                  "Etiquetes per inserció de codi.",
+                  "Tipus de dades. Conversions entre tipus de dades. Sintaxi del llenguatge. Sentències.",
+                  "Variables."
+                ]
+              },
+              {
+                "bloc": "Programació basada en llenguatges de marques amb codi encastat",
+                "items": [
+                  "Preses de decisió.",
+                  "Bucles.",
+                  "Tipus de dades compostes.",
+                  "Funcions.",
+                  "Recuperació i utilització d’informació provinent del client web.",
+                  "Processament de la informació introduïda en un formulari.",
+                  "Comentaris."
+                ]
+              },
+              {
+                "bloc": "Desenvolupament d’aplicacions web utilitzant codi encastat",
+                "items": [
+                  "Manteniment de l’estat.",
+                  "Galetes (cookies).",
+                  "Seguretat: usuaris, perfils, rols. Galetes.",
+                  "Autenticació d’usuaris.",
+                  "Adaptacions a webs existents.",
+                  "Proves i depuració."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF2",
+        "nom": "generació dinàmica de pàgines web",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions web identificant i aplicant mecanismes per separar el codi de presentació de la lògica de negoci.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica els avantatges de separar la lògica de negoci dels aspectes de presentació de l’aplicació."
+              },
+              {
+                "codi": "CA12",
+                "text": "Analitza tecnologies i mecanismes que permeten realitzar aquesta separació i les seves característiques principals."
+              },
+              {
+                "codi": "CA13",
+                "text": "Utilitza objectes i controls en el servidor per generar l’aspecte visual de l’aplicació web en el client."
+              },
+              {
+                "codi": "CA14",
+                "text": "Utilitza formularis generats de manera dinàmica per respondre als esdeveniments de l’aplicació web."
+              },
+              {
+                "codi": "CA15",
+                "text": "Identifica i aplica els paràmetres relatius a la configuració de l’aplicació web."
+              },
+              {
+                "codi": "CA16",
+                "text": "Escriu aplicacions web amb manteniment d’estat i separació de la lògica de negoci."
+              },
+              {
+                "codi": "CA17",
+                "text": "Aplica els principis de la programació orientada a objectes."
+              },
+              {
+                "codi": "CA18",
+                "text": "Prova i documenta el codi."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Generació dinàmica de pàgines web",
+                "items": [
+                  "Mecanismes de separació de la lògica de negoci.",
+                  "Controls de servidor.",
+                  "Mecanismes de generació dinàmica de l’interfície web.",
+                  "Configuració.",
+                  "Mecanismes de separació de la lògica de negoci.",
+                  "Proves i depuració."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "tècniques d’accés a dades",
+        "hores": 30,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa aplicacions d’accés a magatzems de dades, aplicant mesures per mantenir la seguretat i la integritat de la informació.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Analitza les tecnologies que permeten l’accés mitjançant programació a la informació disponible en magatzems de dades."
+              },
+              {
+                "codi": "CA12",
+                "text": "Crea aplicacions que estableixin connexions amb bases de dades."
+              },
+              {
+                "codi": "CA13",
+                "text": "Recupera informació emmagatzemada en bases de dades."
+              },
+              {
+                "codi": "CA14",
+                "text": "Publica en aplicacions web la informació recuperada."
+              },
+              {
+                "codi": "CA15",
+                "text": "Utilitza conjunts de dades per emmagatzemar la informació."
+              },
+              {
+                "codi": "CA16",
+                "text": "Crea aplicacions web que permetin l’actualització i l’eliminació d’informació disponible en una base de dades."
+              },
+              {
+                "codi": "CA17",
+                "text": "Utilitza transaccions per mantenir la consistència de la informació."
+              },
+              {
+                "codi": "CA18",
+                "text": "Prova i documenta les aplicacions."
+              }
+            ],
+            "continguts": [
+              {
+                "bloc": "Utilització de tècniques d’accés a dades",
+                "items": [
+                  "Tecnologies que permeten accedir a dades des d’una aplicació web.",
+                  "Establiment de connexions.",
+                  "Execució de sentències SQL. Recuperació i edició d’informació.",
+                  "Execució de sentències SQL. Utilització de conjunts de resultats.",
+                  "Creació d’aplicacions web amb accés d’escriptura a base de dades.",
+                  "Transaccions.",
+                  "Prova i documentació."
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "codi": "UF3",
+        "nom": "serveis web. Pàgines dinàmiques interactives. Webs híbrids",
+        "hores": 42,
+        "resultats_aprenentatge": [
+          {
+            "codi": "RA1",
+            "text": "Desenvolupa serveis web analitzant el seu funcionament i implantant l’estructura dels seus components.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA11",
+                "text": "Identifica les característiques pròpies i l’àmbit d’aplicació dels serveis web."
+              },
+              {
+                "codi": "CA12",
+                "text": "Identifica els avantatges d’utilitzar serveis web per a proporcionar accés a funcionalitats incorporades a la lògica de negoci d’una aplicació."
+              },
+              {
+                "codi": "CA13",
+                "text": "Identifica les tecnologies i els protocols implicats en la publicació i en la utilització de serveis web."
+              },
+              {
+                "codi": "CA14",
+                "text": "Programa un servei web."
+              },
+              {
+                "codi": "CA15",
+                "text": "Crea el document de descripció del servei web."
+              },
+              {
+                "codi": "CA16",
+                "text": "Verifica el funcionament del servei web."
+              },
+              {
+                "codi": "CA17",
+                "text": "Consumeix el servei web."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Genera pàgines web dinàmiques analitzant i utilitzant tecnologies del servidor web que afegeixin codi al llenguatge de marques.",
+            "criteris_avaluacio": [
+              {
+                "codi": "CA21",
+                "text": "Identifica les diferències entre l’execució de codi al servidor i al client web."
+              },
+              {
+                "codi": "CA22",
+                "text": "Reconeix els avantatges d’unir les dues tecnologies en el procés de desenvolupament de programes."
+              },
+              {
+                "codi": "CA23",
+                "text": "Identifica les llibreries i les tecnologies relacionades amb la generació per part del servidor de pàgines web amb guions embeguts."
+              },
+              {
+                "codi": "CA24",
+                "text": "Utilitza aquestes tecnologies per a generar pàgines web que incloguin interacció amb l’usuari en forma d’advertències i de peticions de confirmació."
+              },
+              {
+                "codi": "CA25",
+                "text": "Utilitza aquestes tecnologies, per a generar pàgines web que incloguin verificació de formularis."
+              },
+              {
+                "codi": "CA26",
+                "text": "Utilitza aquestes tecnologies per a generar pàgines web que incloguin modificació dinàmica del seu contingut i la seva estructura."
+              },
+              {
+                "codi": "CA27",
+                "text": "Aplica aquestes tecnologies en la programació d’aplicacions web."
+              }
+            ],
+            "continguts": []
+          },
+          {
+            "codi": "RA2",
+            "text": "Desenvolupa aplicacions web híbrides seleccionant i utilitzant llibreries de codi i dipòsits heterogenis d’informació.",
+            "criteris_avaluacio": [],
+            "continguts": [
+              {
+                "bloc": "Programació de serveis web",
+                "items": [
+                  "Característiques i àmbit d’aplicació.",
+                  "Avantatges.",
+                  "Mecanismes i protocols implicats.",
+                  "Generació d’un servei web.",
+                  "Descripció del servei.",
+                  "Interfície d’un servei web. Proves."
+                ]
+              },
+              {
+                "bloc": "Generació dinàmica de pàgines web interactives",
+                "items": [
+                  "Execució del codi a client i a servidor.",
+                  "Llibreries i tecnologies relacionades.",
+                  "Generació dinàmica de pàgines interactives.",
+                  "Obtenció remota d’informació. Formularis.",
+                  "Modificació dinàmica de l’estructura de la pàgina web.",
+                  "Programació d’aplicacions web."
+                ]
+              },
+              {
+                "bloc": "Desenvolupament d’aplicacions web híbrides",
+                "items": [
+                  "Reutilització de codi i d’informació.",
+                  "Utilització d’informació provinent de dipòsits.",
+                  "Creació de dipòsits.",
+                  "Incorporació de funcionalitats específiques.",
+                  "Programació de serveis i d’aplicacions web.",
+                  "Prova, depuració i documentació."
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

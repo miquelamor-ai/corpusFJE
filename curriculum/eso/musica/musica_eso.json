@@ -6,501 +6,145 @@
     "codi_area": "MUS",
     "decret": "175/2022",
     "data_decret": "2022-09-27",
-    "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Musica.pdf",
-    "nota_estructura": "Les CE i els criteris s'apliquen a tota l'etapa ESO. Els criteris s'organitzen per agrupament: '1r_3r' (1r, 2n i 3r) i '4t'. Els sabers també estan diferenciats per agrupament.",
-    "versio_schema": "1.0",
+    "font": "PDF oficial XTEC: Musica.pdf",
+    "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
+    "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
+    "versio_schema": "1.1",
+    "data_generacio": "2026-04-02",
     "descripcio": "La Música a l'ESO és la matèria que desenvolopa la sensibilitat estètica, la competència auditiva i la capacitat d'expressió i creació musical de l'alumnat. A través de l'escolta activa, la interpretació vocal i instrumental i la creació, la matèria forma persones capaces de gaudir, comprendre i participar en la vida musical i cultural. Conecta amb Educació Visual (estètica), Ciències (física del so), Matemàtiques (ritme, proporcions) i la història de les arts.\n\nEls constructes disciplinaris clau inclouen els paràmetres del so (altura, durada, intensitat, timbre), la lectura i escriptura musical (pentagrama, clau de sol, figures, compassos), l'harmonia bàsica (acords, tonalitat, escales), els gèneres i formes musicals (simfonia, suite, ària, blues, jazz, pop, música del món), els principals períodes de la història de la música occidental (Barroc, Classicisme, Romanticisme, segle XX) i les tecnologies musicals actuals (DAW, samples, síntesi).\n\nL'enfocament pedagògic combina la pràctica activa i grupal (cor, ensemble d'instruments Orff, percussió corporal, ukulele) amb l'escolta analítica de repertori divers i la creació i producció musical. El treball per projectes musicals (composició col·lectiva, concert, podcast musical, jingle) és la forma d'integrar habilitats. L'avaluació és processual i valora la participació, la progressió tècnica i la creativitat, no només el resultat final de la interpretació."
   },
-  "competencies_clau": [
-    "CCEC",
-    "CCL",
-    "CD",
-    "CPSAA",
-    "CC",
-    "CE"
-  ],
-  "blocs_sabers": [
-    "interpretacio_i_creacio",
-    "escolta_i_percepcio",
-    "context_i_cultura",
-    "musica_i_tecnologia"
-  ],
   "competencies_especifiques": [
     {
       "codi": "CE1",
-      "bloc_competencial": "interpretacio_i_creacio",
-      "text": "Interpretar peces musicals vocals i/o instrumentals, individuals i col·lectives, aplicant les tècniques i els elements musicals adequats per expressar intencions artístiques i comunicar-se musicalment.",
-      "competencies_clau": [
-        "CCEC",
-        "CCL",
-        "CPSAA"
-      ],
+      "text": "Analitzar produccions musicals a través de l’escolta activa, la identificació d’elements i la reflexió per entendre’n l’evolució i funcions dins la cultura.",
       "criteris_avaluacio": {
-        "nota": "En 4t s'incorpora major autonomia interpretativa i capacitat d'expressió personal.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA1.1",
-            "text": "Interpretar peces musicals senzilles de manera individual i col·lectiva, aplicant les tècniques vocals i/o instrumentals bàsiques apreses."
+            "text": "Identificar els factors històrics, culturals i socials que envolten determinades produccions musicals, comprenent-ne les característiques i la funció a través de l’anàlisi d’exemples, amb una actitud oberta i respectuosa."
           },
           {
             "codi": "CA1.2",
-            "text": "Llegir i aplicar elements bàsics del llenguatge musical (pulsació, ritme, melodia, dinàmica) en la interpretació de peces musicals de diferent estil i època."
+            "text": "Identificar les característiques, elements i tècniques de diferents propostes musicals de la nostra cultura i d’altres, a través de diferents suports audiovisuals, evidenciant una actitud d’obertura, interès i respecte."
           },
           {
             "codi": "CA1.3",
-            "text": "Participar activament en activitats musicals col·lectives (cor, conjunt instrumental, orquestra d'aula), contribuint a la creació d'un bon ambient de treball i respectant les indicacions del director o directora."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Mostrar una actitud de millora progressiva en la interpretació, identificant els propis errors i aplicant estratègies d'autocorrecció en l'assaig."
+            "text": "Expressar l’opinió personal i les emocions experimentades, de manera respectuosa i crítica sobre exemples de músiques estudiades a través de l’audició, visionat o l’assistència a esdeveniments musicals."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA1.1",
-            "text": "Interpretar un repertori variat de peces musicals amb progressiva autonomia tècnica, expressivitat i consciència estètica, atenent els elements musicals i les intencions del compositor."
+            "text": "Explicar els factors històrics, culturals i socials que envolten determinades produccions musicals, comprenent-ne les característiques i la funció a través de l’anàlisi d’exemples amb una actitud oberta i respectuosa."
           },
           {
             "codi": "CA1.2",
-            "text": "Aplicar de manera consistent els elements del llenguatge musical en la lectura i interpretació de partitures de dificultat progressiva."
+            "text": "Valorar tot tipus de manifestacions musicals del segle XX i de l’actualitat incloent-hi el cinema, en relació amb els seus elements característics com a reflex de la societat on van ser creades des d’una actitud d’obertura, interès i respecte."
           },
           {
             "codi": "CA1.3",
-            "text": "Assumir rols de lideratge musical (solista, seccions) en activitats interpretatives col·lectives, contribuint a la cohesió del grup i a la qualitat de la interpretació."
-          },
-          {
-            "codi": "CA1.4",
-            "text": "Autoavaluar la pròpia evolució com a intèrpret musical, identificant fortaleses i aspectes de millora i proposant estratègies per seguir progressant."
+            "text": "Relacionar l’opinió personal i les emocions experimentades amb els coneixements musicals de manera respectuosa i crítica sobre exemples de músiques estudiades a través de l’audició, visionat o l’assistència a esdeveniments musicals."
           }
         ]
       }
     },
     {
       "codi": "CE2",
-      "bloc_competencial": "interpretacio_i_creacio",
-      "text": "Crear i improvisar peces musicals i produccions sonores, explorant les possibilitats expressives dels sons, les veus i els instruments, per desenvolupar la creativitat i el pensament musical propi.",
-      "competencies_clau": [
-        "CCEC",
-        "CE",
-        "CD",
-        "CPSAA"
-      ],
+      "text": "Expressar-se musicalment a través d’improvisacions vocals o instrumentals tenint en compte les emocions que provoquen i per desenvolupar la creativitat amb una actitud col·laborativa.",
       "criteris_avaluacio": {
-        "nota": "En 4t s'incorporen la composició formal i l'ús de tecnologia musical creativa.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA2.1",
-            "text": "Improvisar melodies, ritmes i acompanyaments senzills fent ús dels elements musicals bàsics (escala pentatònica, patrons rítmics, ostinats) en contextos lúdics i creatius."
+            "text": "Improvisar lliurement o a partir de pautes guiades, individuals o grupals, utilitzant el cos, la veu o els instruments i desenvolupant la creativitat i l’autoconfiança."
           },
           {
             "codi": "CA2.2",
-            "text": "Crear composicions musicals curtes amb intencionalitat expressiva, a partir de pautes donades, que combinin elements melòdics, rítmics i tímbrics."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Explorar les possibilitats sonores de la veu, el cos i els instruments de l'aula com a fonts creatives per a la creació musical."
-          },
-          {
-            "codi": "CA2.4",
-            "text": "Col·laborar en la creació de produccions musicals grupals, aportant idees pròpies i respectant les dels companys i companyes."
+            "text": "Mostrar habilitats musicals individuals i grupals a través de la interpretació, enfortint l’autoestima i la consciència col·lectiva."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA2.1",
-            "text": "Improvisar i compondre peces musicals amb autonomia creativa, aplicant tècniques composicionals bàsiques (forma binària o ternària, variació, imitació) i elements d'harmonia elemental."
+            "text": "Aplicar tècniques d’improvisació individuals o grupals, utilitzant el cos, la veu, els instruments o les eines tecnològiques i desenvolupant la creativitat i l’autoconfiança."
           },
           {
             "codi": "CA2.2",
-            "text": "Utilitzar software de creació musical (DAW, seqüenciadors, sintetitzadors virtuals) per enregistrar, editar i produir peces musicals originals."
-          },
-          {
-            "codi": "CA2.3",
-            "text": "Crear produccions sonores i musicals per a formats multimèdia (vídeo, podcast, instal·lació sonora), integrant música, efectes i so ambient de manera coherent."
-          },
-          {
-            "codi": "CA2.4",
-            "text": "Presentar i argumentar les pròpies creacions musicals, explicant les decisions artístiques preses i els recursos musicals emprats."
+            "text": "Desenvolupar habilitats musicals individuals i grupals a través de la interpretació, enfortint l’autoestima i la consciència col·lectiva."
           }
         ]
       }
     },
     {
       "codi": "CE3",
-      "bloc_competencial": "escolta_i_percepcio",
-      "text": "Escoltar i analitzar obres musicals de diferents gèneres, estils i èpoques, identificant-ne els elements constitutius i valorant-les com a expressió del pensament, la cultura i la diversitat humana.",
-      "competencies_clau": [
-        "CCEC",
-        "CCL",
-        "CC"
-      ],
+      "text": "Interpretar a través de la veu, els instruments i la dansa per explorar les possibilitats creatives, expressives i emocionals i desenvolupar l’autoestima.",
       "criteris_avaluacio": {
-        "nota": "En 4t s'aprofundeix en l'anàlisi crítica i el judici estètic fonamentat.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA3.1",
-            "text": "Identificar i descriure els elements musicals bàsics (melodia, ritme, harmonia, timbre, textura, forma, dinàmica, tempo) en obres musicals escoltades de diferent estil i època."
+            "text": "Utilitzar tècniques d’interpretació musical i corporal per al desenvolupament de les destreses musicals, potenciant l’expressió d’emocions i la seguretat en si mateix/a."
           },
           {
             "codi": "CA3.2",
-            "text": "Reconèixer gèneres i estils musicals diversos (clàssic, jazz, pop, folk, electrònica, música del món) i relacionar-los amb el seu context cultural i històric."
+            "text": "Mostrar iniciativa en els processos creatius participant com a intèrpret en actuacions i manifestacions musicals i escèniques dins i/o fora de centre."
           },
           {
             "codi": "CA3.3",
-            "text": "Expressar les pròpies percepcions, emocions i valoracions sobre obres musicals escoltades, usant el vocabulari musical bàsic adequat."
-          },
-          {
-            "codi": "CA3.4",
-            "text": "Mostrar una actitud d'escolta activa, respectuosa i atenta davant de qualsevol tipus de música, valorant la diversitat musical com a riquesa cultural."
+            "text": "Aplicar tècniques d’interpretació musical i de moviment en audicions i concerts a l’aula i fora, desenvolupant la creativitat i el respecte cap als altres."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA3.1",
-            "text": "Analitzar obres musicals de manera estructurada, identificant-ne els elements constitutius, la forma, l'estil i les tècniques compositives emprades, i relacionant-les amb el seu context."
+            "text": "Utilitzar tècniques d’interpretació musical i corporal adequades al context per a l’aprofundiment de les destreses musicals, potenciant l’expressió d’emocions i la seguretat en si mateix/a."
           },
           {
             "codi": "CA3.2",
-            "text": "Comparar críticament obres musicals de diferents gèneres, estils i èpoques, argumentant les similituds, diferències i el valor artístic de cadascuna."
+            "text": "Mostrar autonomia i responsabilitat en els processos creatius participant com a intèrpret en actuacions i manifestacions musicals i escèniques dins i fora de centre."
           },
           {
             "codi": "CA3.3",
-            "text": "Formular judicis estètics fonamentats sobre les obres musicals escoltades, usant un vocabulari musical precís i argumentant les opinions personals de manera respectuosa."
-          },
-          {
-            "codi": "CA3.4",
-            "text": "Relacionar les obres musicals analitzades amb els corrents artístics, els contextos socials i les tendències culturals del moment en què foren creades."
+            "text": "Proposar tècniques d’interpretació musical i de moviment per a audicions i concerts a l’aula i fora, desenvolupant la creativitat i el respecte cap als altres."
           }
         ]
       }
     },
     {
       "codi": "CE4",
-      "bloc_competencial": "context_i_cultura",
-      "text": "Reconèixer i valorar el paper de la música en la societat i la cultura, identificant el seu patrimoni musical propi i el d'altres cultures i reflexionant sobre la seva funció social, cultural i identitària al llarg de la història.",
-      "competencies_clau": [
-        "CC",
-        "CCEC",
-        "CCL"
-      ],
+      "text": "Crear projectes musicals a través de la veu, els instruments i el cos amb el suport de les eines tecnològiques per desenvolupar oportunitats personals, socials i professionals de forma inclusiva.",
       "criteris_avaluacio": {
-        "nota": "Els criteris de 4t incorporen la reflexió crítica sobre la indústria musical i els drets culturals.",
-        "1r_3r": [
+        "ESO13": [
           {
             "codi": "CA4.1",
-            "text": "Identificar les principals etapes de la història de la música occidental i les seves característiques estilístiques, relacionant-les amb els contextos culturals i socials corresponents."
+            "text": "Crear composicions bàsiques vocals, instrumentals, coreogràfiques i multidisciplinàries de manera individual i/o col·laborativa, mostrant respecte a idees, emocions i sentiments del grup."
           },
           {
             "codi": "CA4.2",
-            "text": "Reconèixer i valorar el patrimoni musical de Catalunya (cobla, sardana, cançó tradicional, havaneres, nova cançó) com a expressió de la identitat cultural pròpia."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Descobrir i respectar la diversitat musical del món (flamenco, música afroamericana, músiques del Magrib, música asiàtica) com a expressió de la riquesa cultural de la humanitat."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Identificar la funció de la música en contextos socials diversos: cerimònies, rituals, protesta, publicitat, cinema, videojocs."
+            "text": "Organitzar produccions que utilitzin la veu, el cos, els instruments i/o les eines digitals per al desenvolupament de projectes musicals, amb actitud inclusiva i cohesionadora, tenint en compte les oportunitats personals, socials i professionals."
           }
         ],
-        "4t": [
+        "ESO4": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar l'evolució de les tendències musicals contemporànies (jazz, rock, música electrònica, hip-hop, música global) i la seva relació amb els moviments socials i culturals del segle XX i XXI."
+            "text": "Crear composicions complexes vocals, instrumentals, coreogràfiques i multidisciplinàries de manera individual i/o col·laborativa, mostrant respecte a idees, emocions i sentiments del grup."
           },
           {
             "codi": "CA4.2",
-            "text": "Investigar i presentar aspectes del patrimoni musical català i espanyol, valorant el seu significat cultural i la necessitat de preservació i difusió."
-          },
-          {
-            "codi": "CA4.3",
-            "text": "Reflexionar críticament sobre la indústria musical: plataformes de streaming, drets d'autor, condicions dels artistes i impacte de la digitalització en la creació i el consum musical."
-          },
-          {
-            "codi": "CA4.4",
-            "text": "Analitzar el paper de la música com a vehicle de transmissió d'identitats, valors i ideologies, identificant usos manipuladors o discriminatoris i promovent un consum musical crític i conscient."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE5",
-      "bloc_competencial": "musica_i_tecnologia",
-      "text": "Utilitzar les tecnologies digitals com a eines per a la creació, l'edició, la difusió i el consum musical responsable, explorant les noves possibilitats que ofereix la tecnologia per al fet musical.",
-      "competencies_clau": [
-        "CD",
-        "CCEC",
-        "CE",
-        "CC"
-      ],
-      "criteris_avaluacio": {
-        "nota": "En 4t s'incorpora l'ús avançat d'eines digitals de producció i la reflexió ètica sobre els drets digitals.",
-        "1r_3r": [
-          {
-            "codi": "CA5.1",
-            "text": "Fer servir aplicacions digitals bàsiques per a la creació i edició de sons i peces musicals senzilles (editors d'àudio, seqüenciadors en línia, aplicacions de creació musical)."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Cercar, seleccionar i avaluar recursos musicals digitals (partitures, enregistraments, tutorials) de manera crítica i responsable, aplicant criteris de fiabilitat i qualitat."
-          },
-          {
-            "codi": "CA5.3",
-            "text": "Conèixer i respectar les normes bàsiques dels drets d'autor i de les llicències Creative Commons en el context de la creació i difusió musical digital."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA5.1",
-            "text": "Utilitzar software de producció musical (DAW) per enregistrar, editar, mixar i masteritzar produccions sonores originals, aplicant criteris tècnics i artístics."
-          },
-          {
-            "codi": "CA5.2",
-            "text": "Crear i difondre produccions musicals pròpies en formats digitals (podcast musical, canal de vídeo, blog musical), aplicant normes de propietat intel·lectual i drets digitals."
-          },
-          {
-            "codi": "CA5.3",
-            "text": "Reflexionar sobre l'impacte de la intel·ligència artificial en la creació musical: generadors de música per IA, drets d'autor, autoria i identitat artística."
-          },
-          {
-            "codi": "CA5.4",
-            "text": "Analitzar críticament el consum musical digital: algorismes de recomanació, bombolles de filtre, homogeneïtzació musical i diversitat cultural en les plataformes de streaming."
-          }
-        ]
-      }
-    },
-    {
-      "codi": "CE6",
-      "bloc_competencial": "interpretacio_i_creacio",
-      "text": "Participar en projectes musicals col·laboratius, assumint responsabilitats individuals en el marc del grup, per desenvolupar habilitats socials i ciutadanes a través del fet musical compartit.",
-      "competencies_clau": [
-        "CC",
-        "CPSAA",
-        "CCL",
-        "CCEC"
-      ],
-      "criteris_avaluacio": {
-        "nota": "Competència amb component transversal que connecta la pràctica musical amb el desenvolupament personal i social.",
-        "1r_3r": [
-          {
-            "codi": "CA6.1",
-            "text": "Participar activament en projectes musicals col·lectius (concert, musical, enregistrament), assumint les tasques assignades i contribuint a l'assoliment dels objectius comuns."
-          },
-          {
-            "codi": "CA6.2",
-            "text": "Respectar i valorar les aportacions musicals de tots els membres del grup, mostrant empatia, tolerància i actitud constructiva davant les diferències."
-          },
-          {
-            "codi": "CA6.3",
-            "text": "Gestionar les pròpies emocions en situacions de pràctica musical (por escènica, frustració, satisfacció) per millorar l'experiència musical personal i col·lectiva."
-          }
-        ],
-        "4t": [
-          {
-            "codi": "CA6.1",
-            "text": "Liderar o coliderar projectes musicals col·laboratius, organitzant les tasques, gestionant els recursos i motivant els membres del grup per assolir els objectius del projecte."
-          },
-          {
-            "codi": "CA6.2",
-            "text": "Gestionar conflictes i divergències artístiques en el marc de projectes musicals col·lectius, aplicant estratègies de mediació i acord respectuoses."
-          },
-          {
-            "codi": "CA6.3",
-            "text": "Reflexionar sobre el valor de la pràctica musical compartida com a experiència de cohesió social, identitat comunitària i benestar personal, posant-la en relació amb contextos musicals de l'entorn."
+            "text": "Organitzar produccions que utilitzin la veu, el cos, els instruments i/o les eines digitals per al desenvolupament de projectes musicals, generant les oportunitats de desenvolupament personal, social i professional fruit de la feina col·laborativa."
           }
         ]
       }
     }
   ],
-  "sabers_basics": {
-    "1r_3r": {
-      "interpretacio_i_creacio": {
-        "descripcio": "Pràctica musical vocal, instrumental i creativa com a nucli de l'experiència musical activa a l'aula.",
-        "subapartats": {
-          "tecnica_vocal_instrumental": [
-            "La veu com a instrument: higiene vocal, postura, respiració, dicció i projecció.",
-            "Tècnica de cant: entonació, afinació, emissió i registre vocal.",
-            "Instruments de percussió indeterminada i determinada de l'aula: xilòfon, metalòfon, flauta de bec, ukulele, guitarra (iniciació).",
-            "Postura i tècnica instrumental bàsica adaptada als instruments de l'aula."
-          ],
-          "llegit_i_escriptura_musical": [
-            "Elements del ritme: pulsació, compàs, figures i silencis bàsics (redona, blanca, negra, corxera, semicorxera).",
-            "Lectura rítmica: claus, compassos simples (2/4, 3/4, 4/4) i compàs compost (6/8).",
-            "Elements de la melodia: escales (do major, la menor, pentatònica), intervals, graus de l'escala.",
-            "Notació musical convencional: pentagrama, clau de sol, figures, alteracions i signe de repetició.",
-            "Grafia analògica i no convencional com a formes alternatives de representació musical.",
-            "Dinàmica i agògica bàsiques: piano, forte, mezzo, crescendo, decrescendo, andante, allegro."
-          ],
-          "improvisacio_i_composicio": [
-            "Improvisació rítmica amb percussió corporal i instrumental a partir de patrons donats.",
-            "Improvisació melòdica amb l'escala pentatònica i escales modals.",
-            "Composició de peces curtes amb pautes: ostinats, cànons, rondo elemental (ABAB).",
-            "Creació de paisatges sonors i música concreta a partir de sons de l'entorn."
-          ],
-          "practica_col·lectiva": [
-            "Cor escolar i grups vocals: entonació conjunta, polifonia senzilla, cànons.",
-            "Conjunt instrumental de l'aula: assaig, escolta, ajustament i paper de cada veu.",
-            "Pràctica de la música popular i tradicional catalana en format col·lectiu.",
-            "Preparació i realització de petits concerts i audicions a l'escola."
-          ]
-        }
-      },
-      "escolta_i_percepcio": {
-        "descripcio": "Desenvolupament de la capacitat d'escolta activa i analítica per comprendre i gaudir de la música en tota la seva diversitat.",
-        "subapartats": {
-          "elements_musicals": [
-            "Paràmetres del so: altura, durada, intensitat i timbre.",
-            "Textura musical: monofonia, homofonía, polifonia, melodia acompanyada.",
-            "Forma musical bàsica: binària (AB), ternària (ABA), rondo, tema amb variacions.",
-            "Timbres instrumentals: famílies orquestrals (corda, vent fusta, vent metall, percussió, teclat) i veus."
-          ],
-          "escolta_activa": [
-            "Estratègies d'escolta activa: guies d'audició, esquemes auditius, representació gràfica del so.",
-            "Reconeixement auditiu d'instruments, veus, gèneres i estils en obres seleccionades.",
-            "Relació entre la música i les emocions: descripció de l'experiència estètica personal.",
-            "Ús de la partitura com a suport a l'escolta analítica."
-          ],
-          "generes_i_estils": [
-            "Música clàssica occidental: Barroc, Classicisme, Romanticisme (característiques generals i obres representatives).",
-            "Música popular urbana contemporània: pop, rock, hip-hop, música electrònica, reggaeton.",
-            "Músiques del món: música africana, llatinoamericana, asiàtica i mediterrània.",
-            "Música per a imatge: cinema, publicitat, videojocs i sèries."
-          ]
-        }
-      },
-      "context_i_cultura": {
-        "descripcio": "Contextualització de la música en la cultura, la història i la societat, amb especial atenció al patrimoni musical català.",
-        "subapartats": {
-          "historia_de_la_musica": [
-            "La música a l'Antiguitat i l'Edat Mitjana: música grecoromana, cant gregorià, trobadors.",
-            "Renaixement i Barroc: polifonia vocal, òpera, suite, concert, oratori.",
-            "Classicisme i Romanticisme: simfonia, sonata, lied, òpera romàntica, poema simfònic.",
-            "El segle XX i les avantguardes: impressionisme, expressionisme, música dodecafònica, música concreta."
-          ],
-          "patrimoni_musical_catala": [
-            "La sardana i la cobla: origen, instruments i significat cultural.",
-            "Havaneres i cançó de mar: orígens i tradició.",
-            "La cançó tradicional catalana i els cançoners populars.",
-            "La Nova Cançó: context, autors principals i compromís social.",
-            "La música catalana contemporània: jazz, rock progressiu, música clàssica i música de fusió."
-          ],
-          "musica_i_societat": [
-            "Funcions socials de la música: cerimònia, entreteniment, identitat, protesta.",
-            "La música en els mitjans de comunicació: publicitat, cinema, televisió i videojocs.",
-            "La música com a dret cultural: accés equitatiu i diversitat musical."
-          ]
-        }
-      },
-      "musica_i_tecnologia": {
-        "descripcio": "Introducció a l'ús de les tecnologies digitals per a la creació, l'edició i el consum musical.",
-        "subapartats": {
-          "eines_digitals_creacio": [
-            "Seqüenciadors i editors d'àudio en línia (GarageBand, Soundtrap, BandLab) per a la creació musical bàsica.",
-            "Editors de partitures digitals (MuseScore, Noteflight) per a la lectura i escriptura musical.",
-            "Aplicacions de creació musical per a dispositius mòbils: exploració i ús creatiu.",
-            "Enregistrament bàsic de so: micròfon, interfície d'àudio i edició senzilla."
-          ],
-          "consum_musical_digital": [
-            "Plataformes de streaming: Spotify, YouTube Music, Apple Music; funcionament i criteris de selecció.",
-            "Drets d'autor i llicències Creative Commons: conceptes bàsics i aplicació pràctica en creació musical.",
-            "Cerca responsable de recursos musicals en línia: qualitat, fiabilitat i propietat intel·lectual.",
-            "Seguretat i privacitat en l'ús d'aplicacions musicals en línia."
-          ]
-        }
-      }
-    },
-    "4t": {
-      "interpretacio_i_creacio": {
-        "descripcio": "Pràctica musical amb major autonomia tècnica, expressivitat i implicació en projectes creatius complexos.",
-        "subapartats": {
-          "perfeccionament_tecnic": [
-            "Tècnica vocal avançada: registres vocals, vibrato, coloratura, emissió i expressió.",
-            "Perfeccionament instrumental: consolidació de la tècnica en l'instrument principal de l'aula.",
-            "Instruments de tradició popular: ukulele, guitarra, teclat; estils i acompanyaments.",
-            "Lectura a primera vista: estratègies i recursos per millorar la lectura musical."
-          ],
-          "composicio_i_arranjament": [
-            "Tècniques de composició: motiu, frase, període, forma binària i ternària, variació i contrast.",
-            "Harmonia tonal bàsica: acords tríades, tonalitat, cadències bàsiques (V-I, IV-V-I).",
-            "Arranjament musical per a conjunt vocal o instrumental de l'aula.",
-            "Composició per a suports multimèdia: música per a curt, podcast o presentació audiovisual."
-          ],
-          "produccio_musical": [
-            "Enregistrament i producció de maquetes musicals amb DAW (GarageBand, LMMS, Audacity).",
-            "Mixatge bàsic: balanç de volums, panoràmica, equalització i efectes.",
-            "Producció de música electrònica: loops, samples, sintetitzadors virtuals i beats.",
-            "Masterització bàsica i exportació de produccions per a la seva difusió digital."
-          ],
-          "projectes_musicals": [
-            "Organització i realització de concerts, espectacles musicals o exposicions sonores.",
-            "Gravació d'un EP o maqueta de grup: planificació, assaig, enregistrament i edició.",
-            "Creació d'un podcast o canal musical: guió, producció i publicació responsable."
-          ]
-        }
-      },
-      "escolta_i_percepcio": {
-        "descripcio": "Anàlisi musical aprofundida i formulació de judicis estètics fonamentats sobre obres de tota mena.",
-        "subapartats": {
-          "analisi_musical": [
-            "Anàlisi formal d'obres musicals: identificació d'estructura, seccions, motius i temes.",
-            "Anàlisi harmònica bàsica: identificació d'acords, tonalitat i cadències en audicions.",
-            "Anàlisi del timbre orquestral: instruments solistes i combinació tímbrica en grans formacions.",
-            "Comparació d'interpretacions d'una mateixa obra: criteris artístics i personal."
-          ],
-          "judici_estetic": [
-            "Formulació d'opinions musicals argumentades: vocabulari tècnic i experiència personal.",
-            "Debat musical sobre gèneres, estils i artistes: argumentació i respecte per la diversitat de gustos.",
-            "Crítica musical escrita: ressenya d'un concert, disc o obra musical.",
-            "Relació entre l'obra musical i el seu context social, cultural i ideològic."
-          ],
-          "musiques_del_mon": [
-            "Músiques de tradició oral: blues, flamenco, bossa nova, tango, gnawa, gamelan.",
-            "Fusió musical i interculturalitat: world music, música mediterrània, fusió jazz-flamenc.",
-            "La diàspora cultural i la música: reggae, salsa, afrobeat i globalització musical.",
-            "Música i drets humans: cançons de protesta, música en contextos de conflicte i pau."
-          ]
-        }
-      },
-      "context_i_cultura": {
-        "descripcio": "Reflexió crítica sobre el paper de la música a la societat contemporània i en la cultura global.",
-        "subapartats": {
-          "musica_contemporania": [
-            "Tendències musicals del segle XX i XXI: minimalisme, música electrònica, pop art, indie, electrònica experimental.",
-            "El jazz com a laboratori musical: improvisació, swing, bebop, jazz modal, fusion.",
-            "El rock i les seves derivacions: rock and roll, rock progressiu, punk, metal, alternative.",
-            "La música urbana global: hip-hop, trap, reggaeton, afrobeats i gèneres emergents."
-          ],
-          "industria_musical": [
-            "La indústria discogràfica: major labels, segells independents i autoedició digital.",
-            "El streaming i el seu impacte en els artistes i el mercat musical: repartiment de royalties i sostenibilitat.",
-            "Drets d'autor en l'era digital: plagi, sampling, llicències i propietat intel·lectual.",
-            "La intel·ligència artificial i la creació musical: generació algorítmica, drets i futur de l'autoria."
-          ],
-          "musica_i_identitat": [
-            "Música i identitat nacional: himnes, cant coral i música com a símbol col·lectiu.",
-            "Música i moviments socials: feminisme, antiracisme, LGBTQ+, ecologisme i moviment obrer.",
-            "Música, publicitat i manipulació: usos de la música per influir en emocions i comportaments.",
-            "La música com a patrimoni immaterial de la humanitat: UNESCO i protecció del patrimoni musical."
-          ]
-        }
-      },
-      "musica_i_tecnologia": {
-        "descripcio": "Ús avançat de la tecnologia per a la creació, producció i difusió musical, amb reflexió ètica sobre els drets digitals i l'impacte de la IA.",
-        "subapartats": {
-          "produccio_digital_avancada": [
-            "Flux de treball en un DAW professional: pistes, plugins, efectes i automatitzacions.",
-            "Síntesi de so: tipus de síntesi (additiva, subtractiva, FM, wavetable) i aplicació creativa.",
-            "Edició de vídeo musical: sincronització de música i imatge, videoclip i motion graphics bàsic.",
-            "Masterització per a plataformes digitals: LUFS, limitació i exportació en formats estàndard."
-          ],
-          "etica_digital_musical": [
-            "Plagi musical i sampling: casos famosos, regulació legal i pràctica responsable.",
-            "Música generada per IA (Suno, Udio, AIVA): possibilitats creatives, drets d'autoria i implicacions ètiques.",
-            "Algorismes de recomanació musical: com funcionen, homogeneïtzació cultural i diversitat.",
-            "Activisme digital i música: campanyes, concerts virtuals i mobilització social a través de la xarxa."
-          ]
-        }
-      }
+  "sabers": [
+    {
+      "cicle": "general",
+      "contingut": "Els sabers, entesos com el conjunt de coneixements, destreses, valors i actituds, es formulen amb relació a contextos on es pot desenvolupar el seu aprenentatge competencial. Els i les docents poden incorporar contextos alternatius si ho consideren pertinent. Per tal de facilitar els aprenentatges i el desenvolupament de les competències específiques corresponents, el professorat pot valorar la possibilitat d’organitzar els sabers de la matèria, o de les diferents matèries coordinades en un àmbit, a partir de situacions. Les situacions permeten programar el curs de qualsevol nivell, matèria o àmbit a partir d’una col·lecció o seqüència de reptes, contextos, circumstàncies del món real, dels quals deriven preguntes que cal contestar i que entrellacen els sabers, és a dir, els coneixements, les destreses, els valors i les actituds amb les capacitats que sustenten l’enfocament competencial dels aprenentatges. Això modifica la planificació habitual d’adquisició de sabers i competències basada en la lògica acadèmica pròpia de les àrees de coneixement o matèries, plasmada en la seqüència tradicional dels temes disciplinaris. Es pretén acostar-se a la lògica de l’aprenent per donar sentit als seus aprenentatges basant-se en la seqüència de contextos rellevants plasmats en les situacions. Cursos de primer a tercer A. Escolta i percepció musical - Identificació auditiva, descripció i valoració de les característiques més rellevants i significatives de diversitat d’obres musicals. - Manifestació de les normes de comportament bàsic, com el respecte i la valoració, en audicions enregistrades o en directe. - Anàlisi auditiva dels trets estilístics de la música vocal i instrumental d’obres musicals de diferents èpoques i cultures. - Identificació i discriminació auditiva dels paràmetres del so en diverses obres i manifestacions musicals. B. Interpretació, improvisació i creació. - Ús de grafies convencionals i no convencionals en la lectura i escriptura musical. - Interpretació musical individual i col·lectiva a partir de la descodificació dels elements bàsics del llenguatge musical. - Pràctica dels intervals, escales i acords musicals en interpretacions, improvisacions i creacions individuals i col·lectives. - Aplicació elementals per a la interpretació: tècniques vocals, instrumentals i corporals, tècniques d’estudi i de gestió d’emocions en la preparació d’obres i la interpretació individual i col·lectiva. - Improvisació guiada i lliure en interpretacions individuals i col·lectives. - Ús i adaptació del llenguatge musical a través d’aplicacions tecnològiques en projectes musicals i artístics. - Composició musical a partir de la veu, el cos, els instruments i/o les eines tecnològiques. - Creació individual i/o col·lectiva a partir de processos que engloben diferents llenguatges artístics. C. Contextos i cultures musicals - Anàlisi de l’evolució de les textures musicals i les formes musicals en obres de diferents períodes històrics. - Identificació de les característiques estilístiques i socials dels principals gèneres del repertori més rellevant del patrimoni cultural i musical. - Recerca d’artistes i agrupacions locals, nacionals i d’arreu. - Desenvolupament del pensament ètic i responsable en relació amb la propietat intel·lectual i cultural. - Contextualització de les principals agrupacions musicals a partir de les famílies instrumentals i les característiques vocals. - Desenvolupament de propostes artístiques que posin en valor les músiques tradicionals, populars i urbanes. Matèria optativa de quart curs A. Escolta i percepció musical - Anàlisi descriptiva de les característiques més rellevants de diverses propostes musicals - Relació entre les danses, les agrupacions vocals i instrumentals en les diferents etapes històriques. - Recerca d’artistes i agrupacions locals, regionals, nacionals i d’arreu. - Anàlisi d’esdeveniments i manifestacions musicals, escèniques i dansístiques en viu i registrades. B. Interpretació, improvisació i creació - Pràctica de les tècniques elementals per a la interpretació: tècniques vocals, instrumentals i corporals, tècniques d’estudi i de regulació de les emocions. - Interpretació de repertori vocal, instrumental o corporal individual i/o grupal de diferents tipus de música actual. - Improvisació guiada i lliure a partir de tècniques vocals, instrumentals i/o corporals. - Creació de productes musicals i audiovisuals a partir de diferents elements i recursos. - Edició de partitures i aplicacions informàtiques en la creació, la interpretació i la improvisació. - Participació en activitats musicals mostrant les normes socials de comportament adequades. C. Context i cultures musicals, mitjans de comunicació i tecnologies - Edició, gravació i reproducció del so en diferents contextos. - Ús de sistemes d’enregistrament i reproducció de so dins i fora de l’aula. - Contextualització històrica i social de la música al cinema. - Anàlisi de les músiques populars urbanes nacionals i internacionals des dels anys 50 fins a l’actualitat. El rock. El jazz. Principals solistes i grups musicals. - Valoració de la transformació dels valors, els hàbits, el consum i el gust musical com a conseqüència dels avenços tecnològics."
     }
+  ],
+  "_validacio": {
+    "fragments_ok": 28,
+    "fragments_no_trobats": 0,
+    "pct_verificat": 100.0,
+    "errors_mostra": []
   }
 }
