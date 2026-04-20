@@ -428,3 +428,46 @@ Quan un assistent d'adaptació rep un perfil amb múltiples condicions actives, 
 5. Aplicar les implicacions combinades (no només les individuals)
 6. Verificar que l'adaptació no viola cap principi de les condicions secundàries
 7. Documentar a l'argumentació pedagògica quines dependències s'han activat i com s'han resolt
+
+---
+
+## 6. INSTRUCCIONS DE CREUAMENT PER A L'LLM
+
+Aquests blocs s'envien al prompt NOMÉS quan 2 o més perfils actius coincideixen i generen la combinació indicada.
+
+### Creuaments documentats
+
+```
+CREUAMENT Nouvingut+Dislèxia: densitat visual baixa + suport no-textual + simplificació lingüística simultània. Frases molt curtes, paraules d'alta freqüència, suport visual intens.
+```
+
+```
+CREUAMENT Nouvingut+Escolarització parcial: NO pressuposar familiaritat amb gèneres escolars (definició, resum, esquema, examen). Explicitar què s'espera en cada format.
+```
+
+```
+CREUAMENT TEA+Narració: explicitar TOTES les inferències. Zero implicitura. Fer literal el que és implícit. Mantenir estructura fixa i predictible.
+```
+
+```
+CREUAMENT DI+Contingut abstracte: concretar amb exemples quotidians. Limitar a 1 concepte nou per bloc. Reforçar amb repetició i suport visual.
+```
+
+```
+CREUAMENT TDAH+Text llarg: segmentar en micro-blocs amb objectiu explícit per bloc. Numerar passos. Retroalimentació visual del progrés.
+```
+
+```
+CREUAMENT TDL+Vocabulari curricular dens: reduir densitat lèxica, repetir termes clau, modelar ús en context, evitar subordinades.
+```
+
+```
+CREUAMENT Vulnerabilitat emocional+Trauma: evitar temes sensibles (violència, guerra, separació familiar, mort). Prioritzar estructura i predictibilitat.
+```
+
+```
+CREUAMENT Nouvingut+L2 molt baixa (pre-A1/A1): la simplificació lingüística és PRIORITÀRIA sobre tot. El rigor terminològic s'adapta: terme en negreta + definició en 3-4 paraules.
+```
+
+### Principi general
+Les necessitats educatives no són la suma de condicions individuals. Un alumne nouvingut amb dislèxia no és "nouvingut + dislèxia" sinó una interacció que genera necessitats que cap condició aïlladament no produiria. El codi ha de detectar combinacions i enviar el bloc de creuament corresponent.
