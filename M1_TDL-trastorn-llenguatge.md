@@ -283,6 +283,50 @@ La detecció precoç del TDL es basa en l'observació sistemàtica de les etapes
 
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Comprensió lèxica i sintàctica**: L'alumnat amb TDL té com a barrera principal la comprensió i producció lingüística — tant lèxica (vocabulari limitat, accés lent al lèxic) com sintàctica (dificultat amb estructures complexes, pronoms febles, subordinades). La memòria fonològica compromesa dificulta retenir frases llargues.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: TDL (Trastorn del Desenvolupament del Llenguatge)
+- Reducció màxima de densitat lèxica
+- Cada terme tècnic apareix en 2-3 contextos diferents (modelatge)
+- Zero subordinades i pronoms febles (li, els, en, hi)
+- Definicions integrades just al costat del terme (no al final)
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (lèxica)** | H-16 (reducció densitat lèxica), A-01 (vocab freqüent), A-02 (termes en negreta), A-20 (control densitat) | Barrera nuclear: comprensió lèxica |
+| **2a (sintàctica)** | H-17 (modelatge ús context), A-07 (una idea per frase), A-13 (eliminació subordinades), A-26 (evitar incisos) | Barrera nuclear: comprensió sintàctica |
+| **3a (memòria)** | C-04 (chunking 3-5 elements), C-05 (glossari previ Sweller) | Memòria fonològica compromesa |
+
+### Exemple ABANS → DESPRÉS (A2, ciències naturals)
+
+**Original:**
+> L'aigua dels rius i els mars s'evapora per l'acció del sol, forma núvols, i quan els núvols es refreden, l'aigua cau en forma de pluja.
+
+**Adaptat (TDL, A2, DUA Core):**
+
+## Text adaptat
+El sol escalfa l'aigua dels rius.
+L'aigua es converteix en vapor. L'aigua **s'evapora**.
+
+El vapor puja al cel.
+El vapor forma **núvols**. Els núvols estan fets de gotes molt petites.
+
+Els núvols es refreden.
+Les gotes cauen. L'aigua cau en forma de **pluja**.
+
+> Nota: "s'evapora" apareix com a terme, després com a definició, després en context. Modelatge en 3 contextos.
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Referència | Tipus | Any |
