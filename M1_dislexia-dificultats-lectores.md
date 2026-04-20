@@ -253,6 +253,51 @@ L'estudi de Vale De Oliveira et al. (2026) confirma que una intervenció fonosil
 
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Descodificació**: L'alumnat amb dislèxia té com a barrera principal la descodificació lectora — el processament fonològic i la conversió grafema-fonema. Les paraules llargues, poc freqüents o amb estructura morfològica complexa (prefixos+arrel+sufixos) generen fatiga lectora exponencial.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: Dislèxia (Dehaene/Wolf)
+- Evita paraules compostes llargues: divideix o reformula
+- Prefereix paraules d'alta freqüència lèxica
+- Repeteix termes clau en lloc d'usar sinònims
+- Frases 2-3 paraules més curtes que el màxim MECR
+- Evita encadenar prefixos i sufixos
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (descodificació)** | H-07 (evitar compostos llargs), H-08 (alta freqüència, no sinònims), A-21 (descomposició compostos) | Barrera nuclear: descodificació |
+| **2a (fatiga visual)** | I-01 (sans-serif 14pt), I-02 (interlineat 1.5), I-03 (columna estreta), I-04 (fons suau), I-05 (alineat esquerra) | Reduir fatiga visual (CSS/FE) |
+| **3a (compensació)** | D-06 (text per veu alta), A-03 (coherència terminològica) | Canal oral com a complement |
+
+### Exemple ABANS → DESPRÉS (B1, ciències naturals)
+
+**Original:**
+> La fotosíntesi és el procés bioquímic pel qual els organismes fotosintetis converteixen l'energia lluminosa en energia química, emmagatzemada en forma de compostos orgànics.
+
+**Adaptat (dislèxia, B1, DUA Core):**
+
+## Text adaptat
+Les plantes fan el seu propi aliment. Aquest procés es diu **fotosíntesi**.
+
+La planta usa la llum del sol.
+La planta agafa aigua i diòxid de carboni.
+Amb la llum, la planta fa **glucosa** (un sucre).
+
+La **glucosa** és l'energia de la planta.
+La planta guarda la glucosa per créixer.
+
+> Nota: en lloc de "organismes fotosintetitzadors" → "plantes". Paraula curta i d'alta freqüència.
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Referència | Tipus | Any |

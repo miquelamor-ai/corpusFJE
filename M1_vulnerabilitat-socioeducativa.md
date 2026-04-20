@@ -133,6 +133,30 @@ Per acompanyar l'alumnat en situació de vulnerabilitat socioeducativa, és fona
         *   **Exemple complet de raonament:** Un alumne nouvingut es mostra callat i poc participatiu en les activitats de grup, i el docent ha notat que sovint no sap com començar una tasca o com demanar ajuda. L'agent, aplicant "Soc un explorador de rutines", raonaria que l'alumne pot estar confós sobre les expectatives i els procediments del nou entorn escolar. L'agent suggeriria a l'alumne que observi activament com actuen els seus companys en situacions similars, com demanen la paraula o com organitzen els seus treballs. També l'animaria a preguntar directament al docent o a un company de confiança quan tingui dubtes sobre "com es fa" alguna cosa, en lloc de quedar-se amb la incertesa. L'agent podria fins i tot proposar-li que es creï una petita llista personal de "coses a fer" o "comportaments esperats" per a les activitats més comunes, com si fos un mapa per explorar les noves rutines. L'objectiu és que l'alumne se senti més segur i autònom en la seva interacció amb l'entorn escolar, transformant la incertesa en una oportunitat per aprendre les dinàmiques del nou context.
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Capital cultural i familiaritat acadèmica**: L'alumnat en situació de vulnerabilitat socioeducativa pot tenir manca de familiaritat amb gèneres acadèmics, vocabulari culte i referents culturals que l'escola pressuposa. La barrera no és cognitiva sinó d'accés al codi acadèmic.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: Vulnerabilitat Socioeducativa
+- Evitar suposits sobre capital cultural
+- Referents universals i experiències quotidianes
+- Estructura molt clara (compensar manca familiaritat amb gèneres acadèmics)
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (capital cultural)** | E-09 (evitar suposits culturals), C-06 (analogies quotidianes), A-01 (vocab freqüent) | Manca familiaritat amb codi acadèmic |
+| **2a (estructura)** | B-01 (paràgrafs curts), B-02 (blocs amb títol), B-05 (estructura deductiva) | Compensar manca familiaritat amb gèneres acadèmics |
+| **3a (motivació)** | E-10 (sensibilitat temes), A-05 (eliminar idiomàtiques) | Evitar exclusió per referents |
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Títol | URL |

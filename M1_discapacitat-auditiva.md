@@ -373,6 +373,31 @@ Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ re
 - **Raonament:** L'alumne ha d'aprendre a demanar el que necessita sense sentir-se una càrrega. Saber comunicar les pròpies necessitats és una competència clau.
 - **Resposta tipus:** "Tens dret a entendre tot el que es diu a classe. Si no sents bé, pots dir: 'Professor/a, podeu parlar-me de cara?' o 'Podeu activar els subtítols del vídeo?'. No és una molèstia; és el teu dret."
 
+---
+
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Lèxica i sintàctica (en sordesa prelocutiva)**: L'alumnat amb discapacitat auditiva prelocutiva signant té com a barrera principal la comprensió del text escrit — la llengua escrita és efectivament una L2. La simplificació lingüística és similar a la d'un nouvingut.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: Discapacitat Auditiva
+- Tractar com L2 en sordesa prelocutiva signant
+- Simplificació lingüística similar a nouvingut
+- Suport visual com a compensació
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (lèxica/sintàctica)** | H-20 (simplificació com L2), A-01 (vocab freqüent), A-07 (una idea per frase), A-12 (longitud frase), A-13 (eliminació subordinades) | Barrera lèxica i sintàctica en sordesa prelocutiva |
+| **2a (visual)** | D-01 (emojis suport), D-02 (esquema procés) | Suport visual com a compensació |
+
+**Nota**: La gravetat de la barrera depèn del tipus de sordesa. En sordesa postlocutiva amb bona competència lectora, l'adaptació textual és mínima — les necessitats són principalment de frontend (subtítols, bucle magnètic).
+
 # 5. FONTS
 
 | # | Referència | Rellevància |

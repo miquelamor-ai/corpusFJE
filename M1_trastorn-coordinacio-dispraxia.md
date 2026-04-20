@@ -318,6 +318,31 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
 
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Accés motriu**: L'alumnat amb TDC/dispraxia té com a barrera principal l'accés motriu al material (escriptura, manipulació). Les adaptacions textuals per a l'LLM són mínimes — la majoria de necessitats són CSS/frontend (navegació per teclat, mida clicable dels elements).
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: TDC / Dispraxia
+- Estructura semàntica clara per navegació per teclat/commutador
+- Evitar instruccions que requereixin motricitat fina (retallar, dibuixar, escriure a mà)
+- Adaptar activitats: resposta oral o selecció en lloc d'escriptura lliure
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (accés)** | I-07 (navegació per teclat/commutador) | Barrera nuclear: accés motriu |
+| **2a (estructura)** | H-19 (estructura semàntica H1-H3), B-02 (blocs amb títol) | Navegació accessible |
+
+**Nota**: La majoria d'adaptacions per a TDC/dispraxia són CSS/FE (àrees clicables grans, navegació per teclat). L'LLM ha de garantir estructura semàntica i evitar instruccions que pressuposin motricitat fina.
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Referència | Tipus | Any |

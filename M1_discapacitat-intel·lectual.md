@@ -163,6 +163,51 @@ Per atendre l'alumnat amb discapacitat intel·lectual, és fonamental adoptar un
     *   **Exemple complet de raonament:** Un alumne amb discapacitat intel·lectual lleu diu a l'agent que té molts deures i no sap com començar. L'agent li suggeriria: "És normal sentir-se així de vegades. Pots demanar al teu professor o a un company que t'ajudi a fer una llista de les tasques, i a ordenar-les de la més fàcil a la més difícil, o de la més curta a la més llarga. També pots demanar que t'ajudin a dividir una tasca gran en petits passos. Així, cada vegada que acabis un pas, podràs marcar-lo i veuràs que vas avançant, cosa que et donarà més ganes de continuar. Recorda que el professorat reconeix l'esforç que fas per completar les tasques (DOC 8)."
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Comprensió discursiva**: L'alumnat amb discapacitat intel·lectual té com a barrera principal la comprensió del discurs com a unitat — la capacitat d'integrar informació entre frases, inferir relacions i abstraure conceptes. Necessita concreció extrema i repetició sistemàtica.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: Discapacitat Intel·lectual
+- UN sol concepte nou per bloc
+- Concreció radical: cada concepte abstracte → exemple tangible
+- Repetició sistemàtica en formats diversos
+- Generalització guiada: connectar amb vida quotidiana
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (discursiva)** | H-09 (1 concepte per bloc), H-10 (concreció radical), H-11 (repetició sistemàtica) | Barrera nuclear: comprensió discursiva |
+| **2a (inferència)** | C-01 (límit conceptes nous), C-06 (analogies quotidianes) | Barrera inferència |
+| **3a (lèxica)** | A-01 (vocab freqüent), A-12 (longitud frase), A-22 (concreció quantificadors) | Vocabulari limitat |
+| **4a (visual)** | D-01 (emojis suport), D-08 (pictogrames ARASAAC) | Suport pictogràfic intens |
+
+### Exemple ABANS → DESPRÉS (A2, ciències naturals)
+
+**Original:**
+> La fotosíntesi és el procés bioquímic pel qual els organismes fotosintetis converteixen l'energia lluminosa en energia química.
+
+**Adaptat (DI, A2, DUA Accés):**
+
+## Text adaptat
+
+### 🌱 Les plantes fan menjar
+Les plantes fan el seu propi menjar.
+Com ho fan? Amb la llum del sol. ☀️
+
+Això es diu **fotosíntesi**.
+**Fotosíntesi** = les plantes fan menjar amb llum.
+
+Pensa en una cuina: tu uses foc per cuinar. 🍳
+La planta usa la llum del sol per "cuinar" el seu menjar.
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Títol | URL |

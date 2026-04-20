@@ -272,6 +272,31 @@ El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el
 - **Raonament:** L'alumne ha d'aprendre a demanar el que necessita sense sentir-se una càrrega. L'autoadvocacia és una competència clau per a la vida adulta.
 - **Resposta tipus:** "Tens dret a rebre el material adaptat ABANS de la classe. Si no te l'han donat, pots dir al professor/a: 'Necessito el material en format ampliat/digital per poder seguir la classe.' No és una molèstia; és un dret recollit al teu PI."
 
+---
+
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Percepció visual**: L'alumnat amb discapacitat visual té com a barrera principal l'accés a la informació presentada visualment. Les adaptacions per a l'LLM se centren en l'estructura semàntica del text (encapçalaments, alt-text), ja que la majoria d'adaptacions són CSS/frontend (contrast, mida, zoom).
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: Discapacitat Visual
+- Estructura semàntica amb encapçalaments (H1-H3) per lector de pantalla
+- Alt-text descriptiu per a cada element visual mencionat
+- NO dependre d'elements visuals (colors, posicions) per transmetre informació
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (percepció)** | H-18 (alt-text imatges), H-19 (estructura semàntica H1-H3), I-06 (contrast alt), I-08 (reescalat) | Barrera nuclear: percepció |
+| **2a (estructura)** | B-02 (blocs amb títol), B-14 (taules per comparació) | Navegació amb lector de pantalla |
+
+**Nota**: La majoria d'adaptacions per a disc. visual són CSS/FE (contrast, mida tipografia, zoom), no de prompt LLM. L'LLM ha de garantir: estructura semàntica, descripcions textuals d'elements visuals, i no dependre de color o posició per transmetre significat.
+
 # 5. FONTS
 
 | # | Referència | Rellevància |

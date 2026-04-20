@@ -146,6 +146,30 @@ L'actuació amb l'alumnat amb trastorns emocionals i de conducta ha de basar-se 
         *   Exemple complet de raonament: Si un alumne té dificultats per mantenir la concentració durant les classes o per acabar les tasques a temps, l'agent podria suggerir-li: 'Quines estratègies creus que et podrien ajudar a concentrar-te millor?' o 'Com pots organitzar el teu temps per completar aquesta tasca de manera més eficient?'. L'agent podria guiar l'alumne a reflexionar sobre els seus propis processos d'aprenentatge i conducta, fomentant l'autoavaluació i la presa de responsabilitat. Per exemple, podria proposar-li fer petits descansos, dividir la tasca en parts més petites, utilitzar un planificador visual, o identificar els moments del dia en què se sent més productiu. Aquesta autonomia en la gestió del propi aprenentatge i benestar és crucial per a la seva evolució (DOC 8).
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Regulació emocional**: L'alumnat amb trastorns emocionals/conductuals pot tenir baixa tolerància a la frustració, ansietat davant tasques llargues o complexes, i sensibilitat a temes que activen experiències traumàtiques. La barrera no és cognitiva sinó emocional.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: Trastorn Emocional/Conductual
+- Evitar temes sensibles (violència, guerra, separació, mort) si el perfil ho indica
+- Estructura predictible i anticipació de canvis
+- Micro-blocs curts per mantenir atenció i reduir frustració
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (emocional)** | E-10 (sensibilitat temes traumàtics), H-03 (anticipació canvis) | Barrera nuclear: regulació emocional |
+| **2a (estructura)** | H-01 (estructura predictible), B-01 (paràgrafs curts), H-04 (micro-blocs) | Reduir ansietat per imprevisibilitat |
+| **3a (atenció)** | C-04 (chunking), B-13 (indicadors progrés) | Mantenir atenció i reduir frustració |
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Títol | URL |
