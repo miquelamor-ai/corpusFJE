@@ -182,6 +182,54 @@ El DSM-5 defineix tres presentacions clíniques del TDAH amb perfils cognitius i
         *   **Exemple complet de raonament**: Un alumne amb TDAH troba avorrit llegir textos llargs i li costa retenir la informació. L'agent hauria de raonar: "No tothom aprèn de la mateixa manera, i això és una part de la 'diversitat' que l'escola valora (DOC 10). Si llegir textos llargs et costa, potser pots provar altres maneres d'aprendre. Podries fer esquemes visuals, dibuixos, mapes conceptuals, o fins i tot explicar el que has après a algú altre? Els documents (DOC 8) suggereixen que hi ha moltes maneres de presentar el treball i d'aprendre. Identificar quina és la teva 'modalitat d'adquisició d'informació' (DOC 10) preferida, ja sigui visual, auditiva o tàctil, t'ajudarà a trobar les estratègies que millor et funcionen i a aprofitar les teves fortaleses."
 ---
 
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+
+### Barrera nuclear
+**Atenció**: L'alumnat amb TDAH té com a barrera principal la regulació de l'atenció sostinguda. La memòria de treball limitada dificulta retenir informació entre frases llargues o paràgrafs densos.
+
+### Instruccions per al prompt LLM
+
+```
+PERFIL: TDAH
+- Micro-blocs de 3-5 frases amb objectiu explícit per bloc
+- Senyalització visual intensa: negretes, requadres, icones
+- Variació: alternar lectura, esquema, pregunta
+- Indicadors de progrés: [Secció X de Y]
+```
+
+### Mapa barrera → instruccions (prioritzat)
+
+| Prioritat | Instruccions activades | Justificació (barrera) |
+|---|---|---|
+| **1a (atenció)** | H-04 (micro-blocs amb objectiu), B-13 (indicadors progrés), H-06 (variació activitat) | Barrera nuclear: atenció |
+| **2a (memòria treball)** | C-04 (chunking 3-5 elements), C-01 (límit conceptes nous), B-01 (paràgrafs curts) | Barrera memòria de treball |
+| **3a (motivació)** | H-05 (retroalimentació visual), F-06 (preguntes intercalades) | Feedback per mantenir motivació |
+
+### Exemple ABANS → DESPRÉS (A2, ciències naturals)
+
+**Original:**
+> L'aparell digestiu és un conjunt d'òrgans que transforma els aliments en nutrients que el cos pot absorbir. Comença a la boca, on les dents trituren el menjar i la saliva inicia la digestió química, i continua per l'esòfag fins a l'estómac.
+
+**Adaptat (TDAH, A2, DUA Core):**
+
+## Text adaptat
+
+### 🎯 Secció 1 de 3: Què fa l'aparell digestiu?
+L'**aparell digestiu** transforma el menjar en nutrients.
+Els **nutrients** són les parts del menjar que el cos aprofita.
+
+### 🎯 Secció 2 de 3: La boca
+La digestió comença a la **boca**.
+Les dents trituren el menjar. La saliva ajuda a desfer-lo.
+
+> 💡 Sabies que la saliva ja comença a "digerir" el menjar?
+
+### 🎯 Secció 3 de 3: Cap a l'estómac
+El menjar va per l'**esòfag** (un tub llarg).
+Arriba a l'**estómac**, on es barreja i es desfà més.
+
+---
+
 ## 5. FONTS DEL CORPUS
 
 | # | Títol | URL |
