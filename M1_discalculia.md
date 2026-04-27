@@ -92,7 +92,7 @@ David Geary descriu tres perfils cognitius diferenciats, que sovint coexisteixen
 
 **Progressió CPA (Bruner, adaptat per matemàtiques inclusives)**
 
-La progressió Concret → Pictòric → Abstracte és el marc pedagògic amb evidència més robusta per a la discalcúlia (National Council of Teachers of Mathematics, NCTM; What Works Clearinghouse):
+La progressió Concret → Pictòric → Abstracte és el marc pedagògic amb evidència més robusta per a la discalcúlia (National Council of Teachers of Mathematics, NCTM, 2014):
 - **C (Concret)**: manipulació d'objectes físics (blocs, àbac, monedes, regletes Cuisenaire)
 - **P (Pictòric)**: representació visual (diagrames de barres, línies numèriques, dibuix d'agrupaments)
 - **A (Abstracte)**: notació simbòlica estàndard (xifres i símbols +, −, ×, ÷)
@@ -211,6 +211,7 @@ El Decret 150/2017 estableix el marc d'atenció a la diversitat per a totes les 
 *   **M2_DUA-principis-pautes**: "Múltiples mitjans de representació" és especialment rellevant — visualitzar els nombres, no només el símbol abstracte.
 *   **M2_carrega-cognitiva-adaptacio-textos**: La càrrega de càlcul consumeix recursos cognitius que haurien d'anar al raonament.
 *   **M3_lectura-facil-comunicacio-clara**: En problemes de text, la barrera lingüística amplifica la barrera numèrica (càrrega doble).
+*   **M1_neurodiversitat-NESE.md**: Marc general NESE/NEE — la discalcúlia és una Dificultat Específica d'Aprenentatge (DEA) dins la categoria 2 de la LOMLOE. Context legal i de suports addicionals.
 
 ---
 
@@ -348,5 +349,6 @@ Fes-ho pas a pas. Pots usar la calculadora.
 | 9 | National Council of Teachers of Mathematics (NCTM). *Principles to Actions: Ensuring Mathematical Success for All.* NCTM. | Pedagogia CPA, evidència | 2014 |
 | 10 | Butterworth, B. *Dyscalculia Screener.* GL Assessment. | Eina de cribatge | 2003 |
 | 11 | Fritz, A., Haase, V.G. & Räsänen, P. (eds.) *International Handbook of Mathematical Learning Difficulties.* Springer. MathPro battery. | Eines diagnòstiques | 2019 |
+| 12 | Geary, D.C. *Mathematics and learning disabilities.* Journal of Learning Disabilities, 37(1), 4–15. | Subtipus (revisió 2004) | 2004 |
 
-*11 fonts referencials · document generat 2026-04-27 · review_status: esborrany*
+*12 fonts referencials · document generat 2026-04-27 · review_status: esborrany*

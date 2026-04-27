@@ -2,10 +2,10 @@
 modul: M1
 titol: "Creuament de variables i dependències per a l'adaptació"
 tipus: marc
-descripcio: "Matriu de dependències entre variables del perfil alumne: com la combinació de condicions modifica l'adaptació necessària. 22 dependències documentades amb criteris de selecció i prioritat. Inclou meta-secció sobre doble excepcionalitat (2e) com a creuament emergent."
+descripcio: "Matriu de dependències entre variables del perfil alumne: com la combinació de condicions modifica l'adaptació necessària. 24 dependències documentades amb criteris de selecció i prioritat. Inclou meta-secció sobre doble excepcionalitat (2e) i creuaments discalcúlia."
 review_status: revisat
 generat_at: 2026-03-24T23:00:00
-actualitzat_at: 2026-03-25T18:00:00
+actualitzat_at: 2026-04-27T00:00:00
 ---
 
 # 1. CONTINGUT ESPECÍFIC
@@ -192,6 +192,32 @@ Cada dependència porta una etiqueta de **prioritat**:
 - Retroalimentació positiva freqüent dins el material ("Molt bé, ara el pas següent...")
 - Instruccions clares que eliminin ambigüitat (reduir frustració)
 - Evitar temes emocionalment carregats si el perfil ho indica
+
+#### 23. Discalcúlia × Dislèxia — ALTA
+
+**Situació**: Alumne amb discalcúlia i dislèxia simultàniament. Comorbiditat estimada ~40-60%.
+
+**Interacció**: Ambdues condicions afecten el processament simbòlic (lletres i números) i la memòria fonològica. En problemes de text matemàtic es genera una barrera doble: l'alumne ha de descodificar el text (dislèxia) i alhora processar les operacions (discalcúlia), esgotant completament la memòria de treball. L'esforç de descodificació lectora no deixa recursos cognitius disponibles per al raonament numèric.
+
+**Implicacions per a l'adaptació**:
+- Minimitzar la component lingüística dels problemes: frases curtes (5-8 paraules), lèxic d'alta freqüència
+- Representació visual de l'operació matemàtica (diagrama, línia numèrica) — no dependre del text per entendre el problema
+- Fragmentar en passos visuals enumerats, no en paràgrafs de text
+- Proporcionar taules aritmètiques (discalcúlia) en format visual clar i gran (dislèxia: sans-serif, interlineat)
+- Evitar que l'accés al contingut matemàtic depengui de la comprensió lectora autònoma
+
+#### 24. Discalcúlia × TDAH — ALTA
+
+**Situació**: Alumne amb discalcúlia i TDAH simultàniament. Comorbiditat ~30-40%.
+
+**Interacció**: La impulsivitat del TDAH en l'execució d'algoritmes fa saltar-se passos, mentre que la discalcúlia ja fa que cada pas sigui fràgil. La memòria de treball —limitada per tots dos trastorns— s'esgota molt ràpidament. L'alumne no pot mantenir la cadena de passos mentalment (discalcúlia) ni sostenir prou atenció per no saltar-ne cap (TDAH).
+
+**Implicacions per a l'adaptació**:
+- Algoritmes molt fragmentats, un pas per línia, numerat i amb casella de verificació (TDAH: no saltar-se'n; discalcúlia: externalitzar la cadena)
+- Proporcionar taules aritmètiques (discalcúlia) + indicadors de progrés visibles "Pas X de Y" (TDAH)
+- Micro-blocs de màxim 2-3 passos; cada bloc amb objectiu explícit
+- Evitar problemes multi-concepte llargs sense bastides estructurals visibles
+- Retroalimentació immediata entre blocs per mantenir la motivació (TDAH) sense sobrecarregar la memòria (discalcúlia)
 
 ### BLOC C — Creuaments amb altes capacitats (masking)
 
@@ -396,8 +422,10 @@ Errors freqüents a evitar:
 | 20 | DI × Contingut abstracte | ALTA | D |
 | 21 | Vulnerabilitat emocional × Tasques obertes | MITJANA | D |
 | 22 | Disc. visual × Adaptació visual | MITJANA | D |
+| 23 | Discalcúlia × Dislèxia | ALTA | B |
+| 24 | Discalcúlia × TDAH | ALTA | B |
 
-**Total: 22 dependències (11 ALTA, 11 MITJANA)**
+**Total: 24 dependències (13 ALTA, 11 MITJANA)**
 
 # 2. CONNEXIONS AMB ALTRES MÒDULS
 
@@ -412,6 +440,7 @@ Errors freqüents a evitar:
 - **M1_discapacitat-auditiva**: Canal oral compromès (dep 5)
 - **M1_trastorns-emocionals-conducta**: Desregulació (deps 12, 21)
 - **M1_vulnerabilitat-socioeducativa**: Context advers (dep 6)
+- **M1_discalculia**: Sentit numèric, subtipus Geary, progressió CPA (deps 23, 24)
 - **M2_DUA-principis-pautes**: Marc general de disseny universal
 - **M2_carrega-cognitiva-adaptacio-textos**: Gestió de la càrrega per perfil
 - **M7_trauma-informed-adaptacio**: Sensibilitat temàtica (deps 6, 21)
@@ -467,6 +496,14 @@ CREUAMENT Vulnerabilitat emocional+Trauma: evitar temes sensibles (violència, g
 
 ```
 CREUAMENT Nouvingut+L2 molt baixa (pre-A1/A1): la simplificació lingüística és PRIORITÀRIA sobre tot. El rigor terminològic s'adapta: terme en negreta + definició en 3-4 paraules.
+```
+
+```
+CREUAMENT Discalcúlia+Dislèxia: barrera doble simbòlica (lletres + números) i memòria de treball esgotada. Text matemàtic molt curt i d'alta freqüència lèxica. Representació visual de l'operació. Taules aritmètiques en format llegible.
+```
+
+```
+CREUAMENT Discalcúlia+TDAH: doble dèficit de memòria de treball. Algoritmes fragmentats pas a pas, un per línia, amb casella de verificació. Taules aritmètiques + indicadors de progrés "Pas X de Y". Micro-blocs de màxim 2-3 passos.
 ```
 
 ### Principi general

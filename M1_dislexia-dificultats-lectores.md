@@ -148,7 +148,7 @@ Aquestes variables afecten el renderitzat (CSS), no el contingut generat per la 
 *   **Dislèxia + TDL**: ambdós canals (oral i escrit) compromesos. Veure dependència #10
 *   **Dislèxia + Altes capacitats (2e)**: masking mutu — la intel·ligència compensa la dislèxia i viceversa. Veure dependència #13
 *   **Dislèxia + Nouvingut**: la barrera lingüística amplifica la fatiga lectora. Veure dependència #2
-*   **Dislèxia + Discalcúlia**: comparteixen dèficits en processament simbòlic
+*   **Dislèxia + Discalcúlia**: comparteixen dèficits en processament simbòlic. Veure M1_discalculia.md.
 *   **Dislèxia + Trastorn del desenvolupament de la coordinació** (Carroll et al., 2025)
 
 #### Principis d'actuació
