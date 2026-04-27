@@ -18,7 +18,7 @@ Un sistema d'adaptació ha de contemplar les **dependències entre variables** p
 
 ## Criteris de selecció de les dependències
 
-Amb 12 característiques possibles al perfil d'alumne, hi ha 66 parells teòrics. No tots generen interaccions rellevants. Les dependències documentades aquí compleixen almenys 2 d'aquests 3 criteris:
+Amb 13 característiques possibles al perfil d'alumne (incloent discalcúlia, afegida el 2026-04-27), hi ha 78 parells teòrics. No tots generen interaccions rellevants. Les dependències documentades aquí compleixen almenys 2 d'aquests 3 criteris:
 
 1. **Freqüència**: La combinació es troba habitualment a les aules (comorbiditat documentada o perfils recurrents en context d'inclusió)
 2. **Amplificació o contradicció**: La combinació genera necessitats que no són la suma de les individuals — les condicions s'amplifiquen, es contradiuen o una emmascara l'altra
