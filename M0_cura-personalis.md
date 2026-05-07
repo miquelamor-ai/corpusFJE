@@ -1,12 +1,25 @@
 ---
-títol: "0.2_Cura_Personalis"
-mòdul: 0
-etiquetes: [cura personalis, acompanyament, personalització, discreta caritat, pedagogia ignasiana]
-fonts: ["Comissió Internacional (1986). Característiques de l'educació a la Companyia de Jesús.", "Comissió Internacional (1993). Pedagogia Ignasiana. Un plantejament pràctic.", "Comissió Internacional (2019). Escoles Jesuïtes: Una Tradició Viva al Segle XXI.", "Charmot, F. (1952). La Pedagogía de los Jesuitas.", "Sacchini, F. (1625). Protrepticon ad Magistros.", "Jesuïtes Educació (2023). Per a qui sóc jo? Cap a una cultura vocacional."]
-estat: revisat
+modul: M0
+titol: 0.2_Cura_Personalis
 tipus: marc
-descripcio: "Cura de la persona com a eix vertebrador de la pedagogia ignasiana: coneixement del subjecte, integralitat i acompanyament"
-generat_at: 2026-03-17T00:00:00
+descripcio: 'Cura de la persona com a eix vertebrador de la pedagogia ignasiana: coneixement del subjecte, integralitat i acompanyament'
+paraules_clau:
+  - 'cura personalis'
+  - acompanyament
+  - personalització
+  - 'discreta caritat'
+  - 'pedagogia ignasiana'
+fonts:
+  - "Comissió Internacional (1986). Característiques de l'educació a la Companyia de Jesús."
+  - 'Comissió Internacional (1993). Pedagogia Ignasiana. Un plantejament pràctic.'
+  - 'Comissió Internacional (2019). Escoles Jesuïtes: Una Tradició Viva al Segle XXI.'
+  - 'Charmot, F. (1952). La Pedagogía de los Jesuitas.'
+  - 'Sacchini, F. (1625). Protrepticon ad Magistros.'
+  - 'Jesuïtes Educació (2023). Per a qui sóc jo? Cap a una cultura vocacional.'
+review_status: revisat
+last_editor: miquel.amor@fje.edu
+last_editor_at: '2026-05-07T21:10:04Z'
+generat_at: 1773705600
 ---
 
 # 1. FONAMENT TEÒRIC
@@ -23,7 +36,7 @@ La *cura personalis* (cura de la persona) no és una simple "atenció individual
 
 **La dialèctica entre Cura Personalis i Cura Apostolica.** Aquesta és la tensió central del marc. Mentre la *cura personalis* mira el bé de l'individu, la *cura apostolica* mira el bé de la missió i de la comunitat. Un docent ignasià no cuida l'alumne perquè es tanqui en si mateix, sinó perquè esdevingui un "home o dona per als altres". El creixement personal està finalitzat en el servei.
 
-**Discreta Caritat.** És el criteri mestre per aplicar el marc. Significa amor intel·ligent i ponderat. La *cura personalis* de vegades exigeix fermesa o "correcció fraterna" per ajudar l'alumne a vèncer els seus propis bloquejos. Sacchini descriu l'educador com un *divini caelator* (cizelador diví): algú que esculpeix amb delicadesa, no un verdugo que colpeja la norma. La diferència entre els dos és la caritat — sense ella, el mètode esdevé una mecànica buida.
+**Discreta Caritat.** És el criteri mestre per aplicar el marc. Significa amor intel·ligent i ponderat. La *cura personalis* de vegades exigeix fermesa o "correcció fraterna" per ajudar l'alumne a vèncer els seus propis bloquejos. Sacchini descriu l'educador com un *divini caelator* (cisellador diví): algú que esculpeix amb delicadesa, no un botxí que imposa la norma a cops. La diferència entre els dos és la caritat — sense ella, el mètode esdevé una mecànica buida.
 
 **L'educador com a testimoni.** Autors com Bonifacio i Sacchini subratllen la paradoxa de la vocació educativa: persones de talent que renuncien a posicions de prestigi per dedicar-se al treball humil de l'acompanyament. Aquesta "segona puresa" — el sacrifici del propi ego — és el que transforma el magisteri en paternitat/maternitat espiritual. Charmot adverteix contra el "magisteri mercenari": el docent que compleix un horari sense comprometre la seva pròpia vida en el procés.
 
@@ -108,6 +121,7 @@ L'agent ha d'activar aquest marc quan l'alumne:
 # 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
 
 ## Principi General
+
 > L'educació és una trobada entre llibertats on el subjecte és sempre més important que el programa, i on el creixement individual s'ha d'orientar cap al servei del bé comú. L'agent acompanya — no decideix per ningú.
 
 ## Heurístiques per a l'Agent DOCENT (5)
