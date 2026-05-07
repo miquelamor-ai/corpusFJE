@@ -18,7 +18,7 @@ fonts:
   - 'Jesuïtes Educació (2023). Per a qui sóc jo? Cap a una cultura vocacional.'
 review_status: revisat
 last_editor: miquel.amor@fje.edu
-last_editor_at: '2026-05-07T21:10:04Z'
+last_editor_at: '2026-05-07T21:10:51Z'
 generat_at: 1773705600
 ---
 
