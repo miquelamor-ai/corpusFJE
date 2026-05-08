@@ -163,14 +163,14 @@ El TEA coexisteix freqüentment amb altres condicions que cal considerar:
 *   **M2_programacio-multinivell**: Permet dissenyar activitats amb diferents nivells de complexitat dins el mateix grup, essencial per a l'alumnat amb TEA.
 *   **M7_benestar-emocional-seguretat**: La regulació emocional i sensorial és prioritària; aquest document aporta estratègies de benestar aplicables.
 
-**Co-activació obligatòria**: Quan l'agent activi aquest document, SEMPRE ha de consultar també: M1_neurodiversitat-NESE, M1_plans-individuals-PAD-PI.
+**Documents complementaris**: SEMPRE cal llegir conjuntament: M1_neurodiversitat-NESE, M1_plans-individuals-PAD-PI.
 
-**Co-activació condicional**: Si el context inclou conductes disruptives, consultar també M1_trastorns-emocionals-conducta. Si inclou necessitats de comunicació augmentativa, consultar M3_comunicacio-augmentativa. Si l'alumne està en transició d'etapa, consultar M1_acollida-marc-conceptual.
+**Documents complementaris condicionals**: Si el context inclou conductes disruptives, consultar també M1_trastorns-emocionals-conducta. Si inclou necessitats de comunicació augmentativa, consultar M3_comunicacio-augmentativa. Si l'alumne està en transició d'etapa, consultar M1_acollida-marc-conceptual.
 
 # 3. DETECCIÓ (Variables de Context)
 
 ## Senyals del docent
-L'agent ha d'activar aquest document quan el docent:
+Aquest document és pertinent quan el docent:
 - Descriu un alumne amb dificultats de comunicació social malgrat competència lingüística aparent.
 - Observa conductes repetitives, estereotípies o interessos molt restringits en un alumne.
 - Expressa perplexitat davant reaccions emocionals desproporcionades a canvis de rutina o estímuls sensorials.
@@ -180,7 +180,7 @@ L'agent ha d'activar aquest document quan el docent:
 - Observa un alumne amb memòria excepcional en certs àmbits però que no pot aplicar els coneixements en contextos nous.
 
 ## Senyals de l'alumne
-L'agent ha d'activar aquest document quan l'alumne:
+Aquest document és pertinent quan l'alumne:
 - Expressa dificultat per entendre les instruccions o les normes no escrites de l'aula.
 - Mostra ansietat davant canvis imprevistos en l'horari o les activitats.
 - Demana repetidament informació sobre què passarà després o quan acabarà l'activitat.
@@ -201,63 +201,63 @@ L'agent ha d'activar aquest document quan l'alumne:
 - Les estereotípies o conductes repetitives apareixen com a part d'una fase evolutiva normal en educació infantil.
 - Les dificultats d'atenció són el tret principal sense alteració de la comunicació social — avaluar primer TDAH.
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
 ## Principi general
 > Comprendre la lògica interna del trastorn per adaptar l'entorn educatiu a l'estil de processament de l'alumne, eliminant barreres i potenciant fortaleses, sempre dins del grup ordinari amb els suports necessaris.
 
-## Heurístiques per a l'Agent DOCENT
+## Heurístiques per al docent
 
 ### H1: Estructura visual i anticipació
 - **Quan aplica**: Quan es planifiquen activitats, transicions o canvis de rutina per a un grup que inclou alumnat amb TEA.
 - **Fonament**: L'alumnat amb TEA necessita entorns predictibles i estructurats per poder funcionar amb seguretat. L'anticipació redueix l'ansietat i les conductes d'evitació (DOC 16). La capacitat per al processament visual és una fortalesa que cal aprofitar com a via d'accés.
-- **Exemple complet de raonament**: Un docent de 3r de primària ha de preparar una sortida escolar al museu amb un alumne amb TEA. L'agent raonaria: "Les sortides trenquen la rutina i poden generar ansietat. Caldrà preparar l'alumne amb antelació: crear una seqüència visual amb fotografies del recorregut (autobús, entrada del museu, sales que visitaran, hora de dinar, tornada). Compartir-la dies abans i revisar-la el matí de la sortida. Assignar un company de referència que conegui l'alumne i pugui fer de mediador social. Preparar un pla B per si l'alumne necessita un moment de calma: identificar un espai tranquil al museu. Informar els monitors del museu de les necessitats específiques. D'aquesta manera, l'alumne pot anticipar cada pas i participar amb més seguretat, reduint el risc de crisis per sobrecàrrega sensorial o impredictibilitat."
+- **Exemple complet de raonament**: Davant un docent de 3r de primària que ha de preparar una sortida escolar al museu amb un alumne amb TEA: les sortides trenquen la rutina i poden generar ansietat. Cal preparar l'alumne amb antelació: crear una seqüència visual amb fotografies del recorregut (autobús, entrada del museu, sales que visitaran, hora de dinar, tornada). Compartir-la dies abans i revisar-la el matí de la sortida. Assignar un company de referència que conegui l'alumne i pugui fer de mediador social. Preparar un pla B per si l'alumne necessita un moment de calma: identificar un espai tranquil al museu. Informar els monitors del museu de les necessitats específiques. D'aquesta manera, l'alumne pot anticipar cada pas i participar amb més seguretat, reduint el risc de crisis per sobrecàrrega sensorial o impredictibilitat.
 
 ### H2: Anàlisi funcional de la conducta
 - **Quan aplica**: Quan un docent reporta conductes disruptives, autolesives o d'evitació en un alumne amb TEA.
 - **Fonament**: Les conductes problemàtiques en alumnat amb TEA tenen, en un percentatge elevat, intenció comunicativa (DOC 16). Abordar-les des de la punició sense entendre la funció és ineficaç i danyós.
-- **Exemple complet de raonament**: Un docent explica que un alumne de 5è amb TEA es tapa les orelles, crida i surt corrents de l'aula durant les sessions de música. L'agent raonaria: "En lloc de considerar-ho una conducta desafiadora, cal fer una anàlisi funcional. La música implica estímuls auditius intensos i variables — si l'alumne té hipersensibilitat auditiva, la conducta és una resposta de protecció davant la sobrecàrrega sensorial. Suggereixo al docent: (1) permetre l'ús d'auriculars reductors de soroll, (2) oferir l'opció de participar en les activitats de ritme amb instruments suaus, (3) acordar un senyal que l'alumne pugui fer quan necessiti sortir breument, (4) explorar amb la família si hi ha un patró de sensibilitat auditiva en altres contextos. Intervenir amb conductes alternatives incompatibles (DOC 16) significa donar a l'alumne una manera acceptable d'expressar el malestar, no eliminar-ne l'expressió."
+- **Exemple complet de raonament**: Davant un alumne de 5è amb TEA que es tapa les orelles, crida i surt corrents de l'aula durant les sessions de música: en lloc de considerar-ho una conducta desafiadora, cal fer una anàlisi funcional. La música implica estímuls auditius intensos i variables — si l'alumne té hipersensibilitat auditiva, la conducta és una resposta de protecció davant la sobrecàrrega sensorial. Convé: (1) permetre l'ús d'auriculars reductors de soroll, (2) oferir l'opció de participar en les activitats de ritme amb instruments suaus, (3) acordar un senyal que l'alumne pugui fer quan necessiti sortir breument, (4) explorar amb la família si hi ha un patró de sensibilitat auditiva en altres contextos. Intervenir amb conductes alternatives incompatibles (DOC 16) significa donar a l'alumne una manera acceptable d'expressar el malestar, no eliminar-ne l'expressió.
 
 ### H3: Aprofitar l'interès restringit com a porta d'entrada
 - **Quan aplica**: Quan un docent busca maneres de motivar un alumne amb TEA que mostra desinterès o rebuig cap a determinades àrees curriculars.
 - **Fonament**: Els interessos intensos i restringits de l'alumnat amb TEA, sovint vistos com un obstacle, poden ser la clau per connectar amb el currículum. La motivació intrínseca és el motor més potent de l'aprenentatge (DOC 1, DOC 4).
-- **Exemple complet de raonament**: Un alumne de 2n d'ESO amb TEA només vol parlar de trens i rebutja les activitats de llengua catalana. L'agent raonaria: "L'interès pels trens és una porta d'entrada, no un obstacle. Per a la comprensió lectora, es poden seleccionar textos sobre la història dels ferrocarrils a Catalunya. Per a l'expressió escrita, l'alumne podria redactar una guia descriptiva de línies de tren. Per a l'expressió oral, podria fer una presentació sobre el seu tema d'expertesa al grup classe, cosa que a més el posiciona com a expert davant els companys i reforça la seva autoestima. Matemàticament, els horaris de trens són perfectes per treballar temps, distància i velocitat. L'objectiu és connectar els objectius curriculars amb la motivació genuïna de l'alumne, no eliminar l'interès."
+- **Exemple complet de raonament**: Davant un alumne de 2n d'ESO amb TEA que només vol parlar de trens i rebutja les activitats de llengua catalana: l'interès pels trens és una porta d'entrada, no un obstacle. Per a la comprensió lectora, es poden seleccionar textos sobre la història dels ferrocarrils a Catalunya. Per a l'expressió escrita, l'alumne podria redactar una guia descriptiva de línies de tren. Per a l'expressió oral, podria fer una presentació sobre el seu tema d'expertesa al grup classe, cosa que a més el posiciona com a expert davant els companys i reforça la seva autoestima. Matemàticament, els horaris de trens són perfectes per treballar temps, distància i velocitat. L'objectiu és connectar els objectius curriculars amb la motivació genuïna de l'alumne, no eliminar l'interès.
 
 ### H4: Mediació social estructurada
 - **Quan aplica**: Quan es dissenyen activitats grupals o cooperatives en un grup que inclou alumnat amb TEA.
 - **Fonament**: Conviure amb companys que proporcionen models de relació i comunicació facilita la integració de l'alumnat amb TEA (DOC 5). Però la inclusió requereix mediació activa, no la simple presència física al grup.
-- **Exemple complet de raonament**: Un docent de 4t de primària vol fer un projecte cooperatiu sobre el barri. L'agent raonaria: "Per a l'alumne amb TEA, el treball en grup autònom és un repte perquè les normes implícites de negociació social li resulten incomprensibles. Caldrà: (1) assignar grups heterogenis on hi hagi un company amb bones habilitats socials que pugui fer de mediador, (2) definir rols explícits i concrets — per exemple, l'alumne amb TEA podria ser el 'documentalista' encarregat de buscar i classificar informació (aprofitant la seva atenció al detall), (3) fer explícites les regles de participació (torns de paraula, com demanar ajuda, com expressar desacord), (4) supervisar la dinàmica del grup i intervenir si l'alumne queda exclòs. L'objectiu no és que l'alumne 'sigui com els altres', sinó que pugui participar des de les seves fortaleses."
+- **Exemple complet de raonament**: Davant un docent de 4t de primària que vol fer un projecte cooperatiu sobre el barri: per a l'alumne amb TEA, el treball en grup autònom és un repte perquè les normes implícites de negociació social li resulten incomprensibles. Cal: (1) assignar grups heterogenis on hi hagi un company amb bones habilitats socials que pugui fer de mediador, (2) definir rols explícits i concrets — per exemple, l'alumne amb TEA podria ser el "documentalista" encarregat de buscar i classificar informació (aprofitant la seva atenció al detall), (3) fer explícites les regles de participació (torns de paraula, com demanar ajuda, com expressar desacord), (4) supervisar la dinàmica del grup i intervenir si l'alumne queda exclòs. L'objectiu no és que l'alumne "sigui com els altres", sinó que pugui participar des de les seves fortaleses.
 
 ### H5: Coordinació en xarxa i transicions
 - **Quan aplica**: Quan l'alumne amb TEA inicia una nova etapa, canvia de centre, o quan les necessitats superen els recursos de l'aula.
 - **Fonament**: El treball en xarxa amb EAP, CDIAP, CSMIJ i altres dispositius és essencial per assegurar coherència i continuïtat en la intervenció (DOC 8). Les transicions són moments especialment vulnerables per a l'alumnat amb TEA.
-- **Exemple complet de raonament**: Un alumne amb TEA de 6è de primària ha de passar a 1r d'ESO l'any vinent. L'agent raonaria: "La transició a secundària implica múltiples canvis simultanis: nou centre, nous professors, nous companys, nova organització horària, noves exigències. Per a un alumne amb TEA, aquesta acumulació de canvis pot ser devastadora. Caldrà coordinar amb l'EAP una reunió de traspàs que inclogui el tutor actual, el futur tutor, l'orientador del centre de secundària i la família. Preparar un 'passaport educatiu' que descrigui les estratègies que funcionen (rutines visuals, rols de l'alumne al grup, sensibilitats sensorials) i les que no. Visitar el nou centre amb l'alumne abans de l'inici de curs perquè el conegui sense les aglomeracions. Crear un horari visual adaptat per a les primeres setmanes. I mantenir un seguiment intensiu els primers mesos per ajustar els suports."
+- **Exemple complet de raonament**: Davant un alumne amb TEA de 6è de primària que ha de passar a 1r d'ESO l'any vinent: la transició a secundària implica múltiples canvis simultanis: nou centre, nous professors, nous companys, nova organització horària, noves exigències. Per a un alumne amb TEA, aquesta acumulació de canvis pot ser devastadora. Cal coordinar amb l'EAP una reunió de traspàs que inclogui el tutor actual, el futur tutor, l'orientador del centre de secundària i la família. Convé preparar un "passaport educatiu" que descrigui les estratègies que funcionen (rutines visuals, rols de l'alumne al grup, sensibilitats sensorials) i les que no. Cal visitar el nou centre amb l'alumne abans de l'inici de curs perquè el conegui sense les aglomeracions. Crear un horari visual adaptat per a les primeres setmanes. I mantenir un seguiment intensiu els primers mesos per ajustar els suports.
 
-## Heurístiques per a l'Agent ALUMNE
+## Heurístiques per a l'alumne
 
 ### H6: Expressió de necessitats i demanda d'ajuda
 - **Quan aplica**: Quan l'alumne amb TEA se sent desbordat, no entén una instrucció o necessita un canvi en l'entorn.
 - **Fonament**: La inclusió implica que l'alumne sigui agent actiu del seu propi procés. Ensenyar a demanar ajuda de forma adequada és una habilitat fonamental (DOC 16).
-- **Exemple complet de raonament**: Un alumne de 1r d'ESO amb TEA es posa nerviós a classe de tecnologia perquè el soroll de les eines li molesta però no sap com expressar-ho. L'agent raonaria: "L'alumne necessita un sistema per comunicar el seu malestar abans que arribi a la crisi. Es podria treballar amb ell un sistema de semàfor emocional (verd: estic bé, groc: necessito ajuda, vermell: necessito sortir) amb targetes visuals que pugui mostrar al docent sense haver de verbalitzar. També es podria acordar un senyal discret amb el professor per demanar una pausa sensorial. L'objectiu és empoderar l'alumne perquè pugui comunicar les seves necessitats de manera funcional, substituint la conducta de crisi per una conducta comunicativa."
+- **Exemple complet de raonament**: Davant un alumne de 1r d'ESO amb TEA que es posa nerviós a classe de tecnologia perquè el soroll de les eines li molesta però no sap com expressar-ho: l'alumne necessita un sistema per comunicar el seu malestar abans que arribi a la crisi. Es pot treballar amb ell un sistema de semàfor emocional (verd: estic bé, groc: necessito ajuda, vermell: necessito sortir) amb targetes visuals que pugui mostrar al docent sense haver de verbalitzar. També es pot acordar un senyal discret amb el professor per demanar una pausa sensorial. L'objectiu és empoderar l'alumne perquè pugui comunicar les seves necessitats de manera funcional, substituint la conducta de crisi per una conducta comunicativa.
 
 ### H7: Comprensió d'instruccions i tasques
 - **Quan aplica**: Quan l'alumne té dificultat per entendre què se li demana en una activitat o avaluació.
 - **Fonament**: Les instruccions verbals complexes o ambigües són una barrera per a l'alumnat amb TEA. Cal fer-les explícites i concretes (DOC 16).
-- **Exemple complet de raonament**: Un alumne amb TEA de 3r d'ESO no sap per on començar un treball de recerca que li han demanat. L'agent raonaria: "La instrucció 'feu un treball de recerca sobre un tema que us interessi' és massa oberta i indefinida per a aquest alumne. Necessita una descomposició en passos: (1) escull un tema de la llista, (2) busca 3 fonts d'informació, (3) escriu 5 frases sobre cada font, (4) organitza les frases en una estructura amb introducció, cos i conclusió. Cada pas amb un termini clar i un exemple concret de producte esperat. D'aquesta manera, la tasca passa de ser un mar d'ambigüitat a un camí amb fites clares, compatible amb el seu estil de processament seqüencial."
+- **Exemple complet de raonament**: Davant un alumne amb TEA de 3r d'ESO que no sap per on començar un treball de recerca: la instrucció "feu un treball de recerca sobre un tema que us interessi" és massa oberta i indefinida per a aquest alumne. Necessita una descomposició en passos: (1) escull un tema de la llista, (2) busca 3 fonts d'informació, (3) escriu 5 frases sobre cada font, (4) organitza les frases en una estructura amb introducció, cos i conclusió. Cada pas amb un termini clar i un exemple concret de producte esperat. D'aquesta manera, la tasca passa de ser un mar d'ambigüitat a un camí amb fites clares, compatible amb el seu estil de processament seqüencial.
 
 ### H8: Gestió de la interacció amb companys
 - **Quan aplica**: Quan l'alumne té dificultats per relacionar-se amb el grup o se sent exclòs.
 - **Fonament**: Les normes socials implícites són una barrera per a l'alumnat amb TEA. Fer-les explícites i practicar-les en entorns segurs facilita la inclusió (DOC 6, DOC 7).
-- **Exemple complet de raonament**: Un alumne amb Asperger de 2n d'ESO es queixa que els companys no volen estar amb ell al pati. L'agent raonaria: "L'alumne potser no és conscient que parla exclusivament del seu tema d'interès sense preguntar als altres pel seu. Es podria treballar amb ell les 'regles de la conversa' de forma explícita: (1) pregunta alguna cosa al company, (2) escolta la resposta, (3) comenta una cosa relacionada, (4) després pots parlar del teu tema durant 2 minuts. Practicar-ho primer en un entorn segur (amb l'orientador o en un grup petit) i després transferir-ho al context real. L'objectiu és donar-li eines socials explícites que la majoria de gent aprèn implícitament, sense forçar-lo a ser algú que no és."
+- **Exemple complet de raonament**: Davant un alumne amb Asperger de 2n d'ESO que es queixa que els companys no volen estar amb ell al pati: potser no és conscient que parla exclusivament del seu tema d'interès sense preguntar als altres pel seu. Es poden treballar les "regles de la conversa" de forma explícita: (1) pregunta alguna cosa al company, (2) escolta la resposta, (3) comenta una cosa relacionada, (4) després pots parlar del teu tema durant 2 minuts. Practicar-ho primer en un entorn segur (amb l'orientador o en un grup petit) i després transferir-ho al context real. L'objectiu és donar-li eines socials explícites que la majoria de gent aprèn implícitament, sense forçar-lo a ser algú que no és.
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
 **Inferència**: L'alumnat amb TEA té com a barrera principal la comprensió inferencial — tot allò que és implícit, figurat, irònic o amb doble sentit. La Teoria de la Ment compromesa dificulta interpretar intencions i emocions no explícites.
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: TEA

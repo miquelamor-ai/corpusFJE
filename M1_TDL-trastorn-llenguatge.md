@@ -104,7 +104,7 @@ El TDL pot afectar un o diversos components de manera independent i en diferent 
 
 ##### Grau de severitat
 
-| Grau | Descripció clínica | Implicació per a l'assistent |
+| Grau | Descripció clínica | Implicació pràctica |
 |---|---|---|
 | **Lleu** | Dificultats presents però compensables; sovint passa desapercebut | Estructura clara, frases simples, vocabulari freqüent |
 | **Moderat** | Impacte notable en comprensió i/o producció; requereix adaptació sistemàtica | Reducció sintàctica, suport visual, consignes d'un sol pas |
@@ -248,47 +248,47 @@ La detecció precoç del TDL es basa en l'observació sistemàtica de les etapes
   - Millora ràpida i completa amb instrucció ordinària
   - Dificultats exclusivament en lectura i escriptura sense afectació oral (valorar dislèxia)
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
-- **Principi general:** L'agent ha d'adaptar la complexitat lingüística (sintàctica i lèxica) dels textos i consignes, sense reduir la profunditat conceptual ni cognitiva. El TDL afecta el canal, no la capacitat de pensar.
+- **Principi general:** Cal adaptar la complexitat lingüística (sintàctica i lèxica) dels textos i consignes, sense reduir la profunditat conceptual ni cognitiva. El TDL afecta el canal, no la capacitat de pensar.
 
-- **Heurístiques per a l'Agent DOCENT:**
+- **Heurístiques per al docent:**
 
   - **Nom:** Adaptació per component afectat
   - **Quan aplica:** Quan el docent indica que l'alumne té TDL i es coneixen els components afectats.
   - **Fonament:** El TDL és heterogeni — un alumne amb morfosintaxi afectada però semàntica preservada necessita una intervenció diferent que un amb dificultats de discurs i pragmàtica.
-  - **Exemple complet de raonament:** "El docent indica que l'alumna té TDL amb component morfosintàctic i de discurs afectats, grau moderat. L'agent ha de raonar que les frases han d'estar en SVO simple, evitar subordinades, i que els textos llargs han d'estar segmentats amb titulars de funció ('Primer fem X / Després fem Y / Al final...'). A més, en les consignes de producció ha d'oferir un guió d'estructura explícit ('Escriu 3 frases: una sobre el problema, una sobre la solució, una sobre el resultat'). No ha de simplificar el contingut conceptual — l'alumna pot entendre el tema al nivell del curs, però necessita el canal lingüístic adaptat."
+  - **Exemple complet de raonament:** Davant una alumna amb TDL amb component morfosintàctic i de discurs afectats, grau moderat: les frases han d'estar en SVO simple, cal evitar subordinades, i els textos llargs han d'estar segmentats amb titulars de funció ("Primer fem X / Després fem Y / Al final..."). A més, en les consignes de producció cal oferir un guió d'estructura explícit ("Escriu 3 frases: una sobre el problema, una sobre la solució, una sobre el resultat"). No s'ha de simplificar el contingut conceptual — l'alumna pot entendre el tema al nivell del curs, però necessita el canal lingüístic adaptat.
 
   - **Nom:** Detecció vs. diagnòstic — el paper del docent
   - **Quan aplica:** Quan un docent pregunta si un alumne nouvingut o amb dificultats d'expressió "podria tenir TDL".
   - **Fonament:** El TDL requereix avaluació especialitzada en totes les llengües del repertori. La barrera L2 pot produir un perfil superficialment idèntic al TDL.
-  - **Exemple complet de raonament:** "Un docent descriu un alumne que es va incorporar fa 6 mesos, parla poc i s'expressa amb frases molt simples en català i castellà. L'agent ha de raonar que primer cal saber si les dificultats apareixen també en la L1. Si l'alumne s'expressa amb normalitat en la seva llengua familiar, probablement és una barrera lingüística i no TDL. L'agent recomanaria: (1) observar l'alumne en contextos informals en la seva L1, (2) consultar la família sobre el desenvolupament del llenguatge en etapa primerenca, (3) si les dificultats es confirmen en L1, derivar a l'EAP per a avaluació logopèdica. No diagnosticar TDL sense avaluació professional."
+  - **Exemple complet de raonament:** Davant un docent que descriu un alumne incorporat fa 6 mesos, que parla poc i s'expressa amb frases molt simples en català i castellà: primer cal saber si les dificultats apareixen també en la L1. Si l'alumne s'expressa amb normalitat en la seva llengua familiar, probablement és una barrera lingüística i no TDL. Cal: (1) observar l'alumne en contextos informals en la seva L1, (2) consultar la família sobre el desenvolupament del llenguatge en etapa primerenca, (3) si les dificultats es confirmen en L1, derivar a l'EAP per a avaluació logopèdica. No s'ha de diagnosticar TDL sense avaluació professional.
 
   - **Nom:** Dissociació competència lingüística–competència conceptual en l'avaluació
   - **Quan aplica:** Quan es dissenyen activitats, rúbriques o criteris d'avaluació per a alumnat amb TDL.
   - **Fonament:** Avaluar la producció lingüística com a mesura de la competència conceptual invalida els resultats per a l'alumne amb TDL.
-  - **Exemple complet de raonament:** "Un docent demana una rúbrica per a un treball de ciències socials per a un alumne amb TDL moderat. L'agent ha de separar els criteris lingüístics (estructura del text, riquesa de vocabulari, correcció gramatical) dels criteris conceptuals (identifica causes i conseqüències, relaciona conceptes, argumenta la seva opinió). Per a l'alumne amb TDL, els criteris lingüístics s'avaluen sobre el seu nivell adaptat, no sobre el nivell del curs. Els criteris conceptuals s'avaluen igual que la resta d'alumnes, i si cal, l'alumne pot demostrar la competència per via oral o amb suport visual."
+  - **Exemple complet de raonament:** Davant un docent que demana una rúbrica per a un treball de ciències socials per a un alumne amb TDL moderat: cal separar els criteris lingüístics (estructura del text, riquesa de vocabulari, correcció gramatical) dels criteris conceptuals (identifica causes i conseqüències, relaciona conceptes, argumenta la seva opinió). Per a l'alumne amb TDL, els criteris lingüístics s'avaluen sobre el seu nivell adaptat, no sobre el nivell del curs. Els criteris conceptuals s'avaluen igual que la resta d'alumnes, i si cal, l'alumne pot demostrar la competència per via oral o amb suport visual.
 
-- **Heurístiques per a l'Agent ALUMNE:**
+- **Heurístiques per a l'alumne:**
 
   - **Nom:** Andamiatge lingüístic en producció escrita
   - **Quan aplica:** Quan l'alumne ha de fer una redacció, informe, projecte o qualsevol tasca de producció escrita.
   - **Fonament:** Les dificultats morfosintàctiques i discursives del TDL fan que la pàgina en blanc sigui una barrera paralitzant.
-  - **Exemple complet de raonament:** "Un alumne amb TDL ha d'escriure un informe sobre el canvi climàtic. L'agent suggeriria: (1) un esquema amb blocs etiquetats ('Definició / Causes / Conseqüències / Solucions'), (2) entre 1 i 3 preguntes guia per a cada bloc ('Quina és la principal causa? Dona un exemple'), (3) un banc de paraules clau del tema, (4) opcions d'inici de frase per a cada bloc ('La causa principal és... / Una conseqüència és... / Una possible solució seria...'). L'objectiu és eliminar la barrera de l'organització i el lèxic perquè l'alumne pugui demostrar el seu coneixement del tema."
+  - **Exemple complet de raonament:** Davant un alumne amb TDL que ha d'escriure un informe sobre el canvi climàtic, convé proporcionar: (1) un esquema amb blocs etiquetats ("Definició / Causes / Conseqüències / Solucions"), (2) entre 1 i 3 preguntes guia per a cada bloc ("Quina és la principal causa? Dona un exemple"), (3) un banc de paraules clau del tema, (4) opcions d'inici de frase per a cada bloc ("La causa principal és... / Una conseqüència és... / Una possible solució seria..."). L'objectiu és eliminar la barrera de l'organització i el lèxic perquè l'alumne pugui demostrar el seu coneixement del tema.
 
   - **Nom:** Comprensió de consignes complexes
   - **Quan aplica:** Quan l'alumne no entén o no executa correctament una consigna de tasca o activitat.
   - **Fonament:** Les instruccions multistep o amb vocabulari implícit generen una barrera d'accés a la tasca independent del coneixement del contingut.
-  - **Exemple complet de raonament:** "Un alumne amb TDL diu que no sap com fer una activitat de ciències. L'agent, en lloc de repetir la consigna, la reformularia en passos numerats: '1. Llegeix el text del pas 1. 2. Busca la paraula [terme clau]. 3. Escriu la definició amb les teves paraules.' Si el vocabulari de la consigna és abstracte, l'agent el substituiria per exemples concrets. No suposaria que l'alumne no sap el contingut — el problema pot ser la barrera lingüística de la consigna, no el coneixement."
+  - **Exemple complet de raonament:** Davant un alumne amb TDL que diu que no sap com fer una activitat de ciències, en lloc de repetir la consigna, cal reformular-la en passos numerats: "1. Llegeix el text del pas 1. 2. Busca la paraula [terme clau]. 3. Escriu la definició amb les teves paraules." Si el vocabulari de la consigna és abstracte, convé substituir-lo per exemples concrets. No s'ha de suposar que l'alumne no sap el contingut — el problema pot ser la barrera lingüística de la consigna, no el coneixement.
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
 **Comprensió lèxica i sintàctica**: L'alumnat amb TDL té com a barrera principal la comprensió i producció lingüística — tant lèxica (vocabulari limitat, accés lent al lèxic) com sintàctica (dificultat amb estructures complexes, pronoms febles, subordinades). La memòria fonològica compromesa dificulta retenir frases llargues.
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: TDL (Trastorn del Desenvolupament del Llenguatge)

@@ -242,28 +242,28 @@ El Decret 150/2017 estableix el marc d'atenció a la diversitat per a totes les 
 
 ---
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
-*   **Principi general:** L'agent ha de separar la *comprensió matemàtica* del *càlcul aritmètic*. L'alumne amb discalcúlia pot raonar matemàticament a un nivell adequat a la seva edat si s'elimina la barrera del càlcul. Proporcionar eines de suport (taules, calculadora, representació CPA) no és "fer-li trampes": és eliminar la barrera per accedir al contingut conceptual.
+*   **Principi general:** Cal separar la *comprensió matemàtica* del *càlcul aritmètic*. L'alumne amb discalcúlia pot raonar matemàticament a un nivell adequat a la seva edat si s'elimina la barrera del càlcul. Proporcionar eines de suport (taules, calculadora, representació CPA) no és "fer-li trampes": és eliminar la barrera per accedir al contingut conceptual.
 
-*   **Heurístiques per a l'Agent DOCENT:**
+*   **Heurístiques per al docent:**
 
     *   **Nom:** Separar comprensió i càlcul
     *   **Quan aplica:** Quan un docent dissenya tasques matemàtiques o avaluació per a alumnat amb discalcúlia.
     *   **Fonament:** La discalcúlia afecta la fluïdesa aritmètica, no necessàriament el raonament lògico-matemàtic. Barrejar tots dos en una sola puntuació penalitza la comprensió per la barrera de càlcul.
-    *   **Exemple complet de raonament:** "El docent vol avaluar si l'alumne comprèn el concepte de proporcionalitat. L'agent ha de raonar: si exigim el càlcul manual, la barrera aritmètica consumirà tots els recursos cognitius i no podrem mesurar la comprensió. L'estratègia: proporcionar la calculadora i valorar si l'alumne sap *quines* operacions fer i *per què*, no *si pot calcular-les*. La proporcionalitat és el concepte a avaluar; el càlcul és el vehicle, no l'objecte."
+    *   **Exemple complet de raonament:** Davant un docent que vol avaluar si l'alumne comprèn el concepte de proporcionalitat: si s'exigeix el càlcul manual, la barrera aritmètica consumirà tots els recursos cognitius i no es podrà mesurar la comprensió. L'estratègia: proporcionar la calculadora i valorar si l'alumne sap *quines* operacions fer i *per què*, no *si pot calcular-les*. La proporcionalitat és el concepte a avaluar; el càlcul és el vehicle, no l'objecte.
 
     *   **Nom:** Progressió CPA com a eina de diagnòstic pedagògic
     *   **Quan aplica:** Quan un alumne comet errors sistemàtics en un procediment matemàtic.
     *   **Fonament:** Butterworth i el NCTM proposen que els errors procedimentals revelen on s'ha trencat la comprensió conceptual. La progressió CPA permet identificar en quin nivell de representació falla la comprensió.
-    *   **Exemple complet de raonament:** "Un alumne comet errors sistemàtics en la multiplicació de dues xifres. En lloc de repetir el procediment abstracte, l'agent suggerirà al docent: primer comprova si l'alumne comprèn la multiplicació com a suma repetida amb material concret (C); després, si pot representar-la en un diagrama d'àrea (P); si el model concret falla, el problema és de comprensió conceptual; si el model P falla però el C funciona, cal treballar el salt a la representació pictòrica. Cada nivell diagnostica on és la ruptura."
+    *   **Exemple complet de raonament:** Davant un alumne que comet errors sistemàtics en la multiplicació de dues xifres: en lloc de repetir el procediment abstracte, cal primer comprovar si l'alumne comprèn la multiplicació com a suma repetida amb material concret (C); després, si pot representar-la en un diagrama d'àrea (P); si el model concret falla, el problema és de comprensió conceptual; si el model P falla però el C funciona, cal treballar el salt a la representació pictòrica. Cada nivell diagnostica on és la ruptura.
 
     *   **Nom:** Ansietat matemàtica — trencar el cicle
     *   **Quan aplica:** Quan l'alumne mostra bloqueig, evitació o angoixa davant qualsevol tasca numèrica.
     *   **Fonament:** Ashcraft & Krause (2007) demostren que l'ansietat matemàtica redueix els recursos de memòria de treball disponibles per al càlcul, generant errors fins i tot en tasques que l'alumne domina en condicions tranquil·les. No és "exagerar": és un efecte fisiològic mesurable.
-    *   **Exemple complet de raonament:** "Una alumna que normalment resol bé les fraccions es bloqueja en un examen. L'agent ha de raonar: el primer pas no és repassar el procediment, és reduir l'activació d'ansietat. Recomanarà: (1) reformular la tasca com a exploració ('mira com es comporten aquestes quantitats') i no com a prova ('resol'); (2) començar per una tasca que l'alumna sap que pot fer per activar un primer èxit; (3) permetre l'ús de representació pictòrica o material de suport. L'objectiu a curt termini és trencar el bucle estrès → errors → més estrès."
+    *   **Exemple complet de raonament:** Davant una alumna que normalment resol bé les fraccions però es bloqueja en un examen: el primer pas no és repassar el procediment, és reduir l'activació d'ansietat. Convé: (1) reformular la tasca com a exploració ("mira com es comporten aquestes quantitats") i no com a prova ("resol"); (2) començar per una tasca que l'alumna sap que pot fer per activar un primer èxit; (3) permetre l'ús de representació pictòrica o material de suport. L'objectiu a curt termini és trencar el bucle estrès → errors → més estrès.
 
-*   **Heurístiques per a l'Agent ALUMNE:**
+*   **Heurístiques per a l'alumne:**
 
     *   **Nom:** Fer visible el que el cervell ha de retenir
     *   **Quan aplica:** Quan l'alumne perd el fil en problemes multi-pas o algoritmes llargs.
@@ -273,16 +273,16 @@ El Decret 150/2017 estableix el marc d'atenció a la diversitat per a totes les 
     *   **Nom:** Verificació per estimació de magnitud
     *   **Quan aplica:** Quan l'alumne ha obtingut un resultat i no sap si és correcte.
     *   **Fonament:** El sentit de magnitud —que és la barrera nuclear— es pot entrenar amb pràctica. Una estratègia compensatòria és "aproximar primer, calcular després" per tenir un ancoratge de raonabilitat.
-    *   **Exemple complet de raonament:** "L'alumne ha calculat 48 × 3 = 204. L'agent proposa: 'Arrodoneja: 50 × 3 és 150. El teu resultat (204) és molt més gran que 150. Això et diu que alguna cosa no quadra.' El contrast entre l'estimació i el resultat activa la revisió sense requerir un nou algoritme complet. Amb el temps, repetir aquest patró entrena el sentit de magnitud."
+    *   **Exemple complet de raonament:** Davant un alumne que ha calculat 48 × 3 = 204, convé proposar: "Arrodoneja: 50 × 3 és 150. El teu resultat (204) és molt més gran que 150. Això et diu que alguna cosa no quadra." El contrast entre l'estimació i el resultat activa la revisió sense requerir un nou algoritme complet. Amb el temps, repetir aquest patró entrena el sentit de magnitud.
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
 **Sentit numèric (magnitud numèrica)**: L'alumnat amb discalcúlia té com a barrera principal l'accés a la representació de magnitud numèrica — no "senten" intuïtivament el pes dels nombres ni les relacions entre ells. Quan el text inclou operacions, seqüències de passos numèrics o raonaments abstractes sobre quantitats, la càrrega cognitiva s'acumula ràpidament i el contingut conceptual es perd rere la barrera aritmètica.
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: Discalcúlia (Butterworth/Geary)

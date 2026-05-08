@@ -146,8 +146,6 @@ La decisió de sortida de l'AA es basa en el nivell de competència lingüístic
 
 ---
 
-## CAPA AGENT
-
 ## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
 
 Aquest protocol d'acollida s'articula amb els documents del corpus de la manera següent:
@@ -167,14 +165,14 @@ Aquest protocol d'acollida s'articula amb els documents del corpus de la manera 
 *   **Llacuna en l'etapa postobligatòria:** El protocol se centra en l'escolarització obligatòria. La transició a la secundària postobligatòria i la prevenció de l'abandonament escolar queden poc desenvolupades.
 *   **Avaluació del protocol:** La fase 5 preveu avaluar el protocol, però no s'especifiquen indicadors concrets de qualitat ni mecanismes de millora contínua sistematitzada.
 
-## 4. HEURÍSTIQUES PER A L'AGENT RAG
+## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
-*   Si l'usuari pregunta per **com acollir un alumne nouvingut**, remetre a la seqüència de fases 1-3 i als rols de l'equip directiu i del tutor/a de referència.
-*   Si la pregunta és sobre **l'Aula d'Acollida** (funcionament, durada, recursos), connectar amb els documents específics de l'AA del corpus (Bloc 2 del curs aco).
-*   Si la pregunta és sobre **avaluació inicial** d'alumnat nouvingut, remetre a la Fase 2 i a les eines d'avaluació lingüística i curricular.
-*   Si la pregunta és sobre **Plans Individualitzats (PI)** per a alumnat nouvingut, connectar la Fase 4 d'aquest protocol amb els documents específics de PI del corpus.
-*   Si la pregunta és sobre **famílies d'alumnat nouvingut** (comunicació, participació), destacar la importància de la mediació intercultural i les llacunes detectades en la secció 3.
-*   Si la pregunta és sobre **coordinació entre professionals** (tutor, AA, EAP, CAD), remetre a la taula de rols i a les fases 2, 4 i 5.
+*   Davant la pregunta de **com acollir un alumne nouvingut**, cal remetre's a la seqüència de fases 1-3 i als rols de l'equip directiu i del tutor/a de referència.
+*   Davant preguntes sobre **l'Aula d'Acollida** (funcionament, durada, recursos), cal connectar amb els documents específics de l'AA del corpus (Bloc 2 del curs aco).
+*   Davant preguntes sobre **avaluació inicial** d'alumnat nouvingut, cal remetre's a la Fase 2 i a les eines d'avaluació lingüística i curricular.
+*   Davant preguntes sobre **Plans Individualitzats (PI)** per a alumnat nouvingut, cal connectar la Fase 4 d'aquest protocol amb els documents específics de PI del corpus.
+*   Davant preguntes sobre **famílies d'alumnat nouvingut** (comunicació, participació), cal destacar la importància de la mediació intercultural i les llacunes detectades en la secció 3.
+*   Davant preguntes sobre **coordinació entre professionals** (tutor, AA, EAP, CAD), cal remetre's a la taula de rols i a les fases 2, 4 i 5.
 *   **Precaució:** Aquest document és un marc conceptual general. Per a procediments concrets i normativa vigent, cal consultar la documentació oficial del Departament d'Educació de Catalunya.
 
 ---

@@ -448,7 +448,7 @@ Errors freqüents a evitar:
 
 # 3. ÚS OPERATIU
 
-Quan un assistent d'adaptació rep un perfil amb múltiples condicions actives, ha de:
+Davant un perfil amb múltiples condicions actives, cal:
 
 1. Identificar les condicions actives
 2. Consultar les dependències rellevants (filtrar per les combinacions actives)
@@ -460,9 +460,9 @@ Quan un assistent d'adaptació rep un perfil amb múltiples condicions actives, 
 
 ---
 
-## 6. INSTRUCCIONS DE CREUAMENT PER A L'LLM
+## 6. INSTRUCCIONS DE CREUAMENT
 
-Aquests blocs s'envien al prompt NOMÉS quan 2 o més perfils actius coincideixen i generen la combinació indicada.
+Aquests blocs s'apliquen NOMÉS quan 2 o més perfils actius coincideixen i generen la combinació indicada.
 
 ### Creuaments documentats
 

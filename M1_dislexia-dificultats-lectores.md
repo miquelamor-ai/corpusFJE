@@ -86,7 +86,7 @@ La investigació de **Carreiras et al. (Basque Center on Cognition, 2025)**, din
 *   **Interlineat i espaiat**: espaiat ampli redueix errors i augmenta velocitat lectora
 *   **Amplada de columna**: màxim 44 caràcters/línia per reduir errors de seguiment
 
-Aquestes variables afecten el renderitzat (CSS), no el contingut generat per la IA, però són part integral de l'adaptació per dislèxia.
+Aquestes variables afecten el renderitzat (CSS), no el contingut textual, però són part integral de l'adaptació per dislèxia.
 
 #### Manifestació per etapa educativa
 
@@ -218,47 +218,47 @@ L'estudi de Vale De Oliveira et al. (2026) confirma que una intervenció fonosil
     *   Millora ràpida i completa amb instrucció ordinària
     *   Les dificultats es van iniciar recentment i no tenen historial
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
-*   **Principi general:** L'agent ha d'adaptar el format i la complexitat lèxica del text segons el tipus de dislèxia i el grau de severitat, sense reduir la profunditat conceptual. La dislèxia afecta el canal, no la capacitat.
+*   **Principi general:** Cal adaptar el format i la complexitat lèxica del text segons el tipus de dislèxia i el grau de severitat, sense reduir la profunditat conceptual. La dislèxia afecta el canal, no la capacitat.
 
-*   **Heurístiques per a l'Agent DOCENT:**
+*   **Heurístiques per al docent:**
 
     *   **Nom:** Adaptació per ruta afectada
     *   **Quan aplica:** Quan el docent indica que l'alumne té dislèxia i es coneix el tipus.
     *   **Fonament:** La dislèxia fonològica, superficial i mixta requereixen estratègies lèxiques diferents. Aplicar una estratègia genèrica pot ser subòptim.
-    *   **Exemple complet de raonament:** "El docent indica que l'alumna té dislèxia fonològica i necessita adaptar un text de ciències. L'agent ha de raonar que la via grafema-fonema està compromesa, per tant ha de prioritzar vocabulari freqüent i conegut, evitar paraules noves fonèticament complexes (o introduir-les amb molt suport), i usar contextos que facilitin la deducció del significat. No ha de simplificar el contingut conceptual — l'alumna pot entendre la fotosíntesi, però necessita que les paraules siguin predictibles per la via lèxica. A més, ha d'activar la tipografia adaptada si està disponible."
+    *   **Exemple complet de raonament:** Davant una alumna amb dislèxia fonològica per a qui cal adaptar un text de ciències: la via grafema-fonema està compromesa, per tant cal prioritzar vocabulari freqüent i conegut, evitar paraules noves fonèticament complexes (o introduir-les amb molt suport), i usar contextos que facilitin la deducció del significat. No s'ha de simplificar el contingut conceptual — l'alumna pot entendre la fotosíntesi, però necessita que les paraules siguin predictibles per la via lèxica. Cal activar la tipografia adaptada si està disponible.
 
     *   **Nom:** Detecció vs. diagnòstic — el paper del docent
     *   **Quan aplica:** Quan un docent pregunta si un alumne "té dislèxia" basant-se en errors lectors.
     *   **Fonament:** El docent detecta senyals, no diagnostica. El protocol RTI estableix tres nivells de resposta abans del diagnòstic clínic.
-    *   **Exemple complet de raonament:** "Un docent pregunta si un alumne nouvingut que llegeix malament 'podria tenir dislèxia'. L'agent ha de raonar que primer cal descartar que les dificultats siguin per la barrera lingüística (L2). Si l'alumne també llegeix amb dificultats en la seva L1, el senyal és més consistent. L'agent recomanaria al docent: (1) observar si hi ha dificultats en L1, (2) aplicar adaptacions de Nivell 1 (instrucció de qualitat), (3) si persisteix, derivar al logopeda o EAP per a cribatge amb PRODISCAT. No dir mai a la família que l'alumne 'té dislèxia' sense avaluació professional."
+    *   **Exemple complet de raonament:** Davant un docent que pregunta si un alumne nouvingut que llegeix malament "podria tenir dislèxia": primer cal descartar que les dificultats siguin per la barrera lingüística (L2). Si l'alumne també llegeix amb dificultats en la seva L1, el senyal és més consistent. Cal: (1) observar si hi ha dificultats en L1, (2) aplicar adaptacions de Nivell 1 (instrucció de qualitat), (3) si persisteix, derivar al logopeda o EAP per a cribatge amb PRODISCAT. No s'ha de dir mai a la família que l'alumne "té dislèxia" sense avaluació professional.
 
     *   **Nom:** Fluïdesa, no només exactitud
     *   **Quan aplica:** Quan es dissenyen activitats lectores per a alumnat amb dislèxia.
     *   **Fonament:** La definició IDA 2025 inclou la fluïdesa com a dimensió nuclear. Un alumne que llegeix exactament però molt lentament necessita suport tant com un que comet errors.
-    *   **Exemple complet de raonament:** "Un docent diu que l'alumna 'ja llegeix bé' perquè no comet gaires errors. L'agent ha de raonar que l'exactitud no és l'únic indicador — si la lectura és molt lenta, l'alumna gasta tots els seus recursos cognitius en descodificar i no en comprendre. L'agent recomanaria avaluar la fluïdesa (paraules per minut) i, si és baixa, implementar pràctica de lectura repetida amb textos al nivell instruccional per automatitzar la decodificació."
+    *   **Exemple complet de raonament:** Davant un docent que diu que l'alumna "ja llegeix bé" perquè no comet gaires errors: l'exactitud no és l'únic indicador — si la lectura és molt lenta, l'alumna gasta tots els seus recursos cognitius en descodificar i no en comprendre. Cal avaluar la fluïdesa (paraules per minut) i, si és baixa, implementar pràctica de lectura repetida amb textos al nivell instruccional per automatitzar la decodificació.
 
-*   **Heurístiques per a l'Agent ALUMNE:**
+*   **Heurístiques per a l'alumne:**
 
     *   **Nom:** Accés multimodal al contingut
     *   **Quan aplica:** Quan l'alumne ha de llegir un text per a una tasca.
     *   **Fonament:** La dislèxia afecta la lectura, no la comprensió auditiva ni el raonament. Oferir canals alternatius elimina la barrera.
-    *   **Exemple complet de raonament:** "Un alumne amb dislèxia ha de llegir un capítol de novel·la per a classe. L'agent suggeriria: (1) escoltar l'audiollibre mentre segueix el text amb el dit, (2) llegir en veu alta amb un company (paired reading), (3) usar un lector de pantalla. L'objectiu és que accedeixi al contingut i pugui participar en la discussió a classe, no que demostri que sap descodificar."
+    *   **Exemple complet de raonament:** Davant un alumne amb dislèxia que ha de llegir un capítol de novel·la per a classe, convé suggerir: (1) escoltar l'audiollibre mentre segueix el text amb el dit, (2) llegir en veu alta amb un company (paired reading), (3) usar un lector de pantalla. L'objectiu és que accedeixi al contingut i pugui participar en la discussió a classe, no que demostri que sap descodificar.
 
     *   **Nom:** Gestió de la frustració lectora
     *   **Quan aplica:** Quan l'alumne expressa frustració, vergonya o evitació davant la lectura.
     *   **Fonament:** El cicle frustració → evitació → menys pràctica → major retard és el principal risc a llarg termini.
-    *   **Exemple complet de raonament:** "L'alumne diu que 'no serveix per llegir'. L'agent ha de validar la frustració ('Entenc que llegir et costa molt esforç, i això és real — no és culpa teva'), explicar que la dislèxia afecta com el cervell processa les lletres però NO la intel·ligència, i proposar estratègies concretes per reduir la barrera (text a veu, tipografia adaptada, temps extra). L'objectiu és trencar el cicle d'evitació mantenint el contacte amb el text."
+    *   **Exemple complet de raonament:** Davant un alumne que diu que "no serveix per llegir", cal validar la frustració ("Entenc que llegir et costa molt esforç, i això és real — no és culpa teva"), explicar que la dislèxia afecta com el cervell processa les lletres però NO la intel·ligència, i proposar estratègies concretes per reduir la barrera (text a veu, tipografia adaptada, temps extra). L'objectiu és trencar el cicle d'evitació mantenint el contacte amb el text.
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
 **Descodificació**: L'alumnat amb dislèxia té com a barrera principal la descodificació lectora — el processament fonològic i la conversió grafema-fonema. Les paraules llargues, poc freqüents o amb estructura morfològica complexa (prefixos+arrel+sufixos) generen fatiga lectora exponencial.
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: Dislèxia (Dehaene/Wolf)

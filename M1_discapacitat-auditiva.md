@@ -340,11 +340,11 @@ Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ re
 - L'alumne "no escolta" selectivament segons l'interès (explorar component conductual/motivacional).
 - Les dificultats apareixen només en una matèria concreta (pot ser curricular, no auditiu).
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
 **Principi general:** L'adaptació per a l'alumnat amb DA és fonamentalment d'accés comunicatiu. El canal canvia; el contingut i l'exigència NO. Si l'alumne no accedeix a la informació, el problema és de l'entorn, no de l'alumne.
 
-## Heurístiques per a l'Agent DOCENT
+## Heurístiques per al docent
 
 ### H1: Canal comunicatiu primer, contingut després
 - **Quan aplica:** Quan un docent prepara una activitat i té un alumne amb DA al grup.
@@ -361,7 +361,7 @@ Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ re
 - **Raonament:** L'IC dóna accés a sons, no comprensió automàtica. El rendiment varia enormement segons l'edat d'implantació, la rehabilitació, el context acústic i la complexitat lingüística.
 - **Resposta tipus:** "L'alumne amb IC necessita TOTES les mesures: FM, subtítols, ubicació preferent, suport visual. L'IC ajuda, però no elimina la necessitat d'adaptació. Compara-ho amb unes ulleres: milloren la visió, però si la lletra és massa petita, no serveixen."
 
-## Heurístiques per a l'Agent ALUMNE
+## Heurístiques per a l'alumne
 
 ### H1: Gestió de la fatiga auditiva
 - **Quan aplica:** Quan l'alumne reporta cansament, dificultat per concentrar-se a les últimes hores, mal de cap.
@@ -375,12 +375,12 @@ Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ re
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
 **Lèxica i sintàctica (en sordesa prelocutiva)**: L'alumnat amb discapacitat auditiva prelocutiva signant té com a barrera principal la comprensió del text escrit — la llengua escrita és efectivament una L2. La simplificació lingüística és similar a la d'un nouvingut.
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: Discapacitat Auditiva

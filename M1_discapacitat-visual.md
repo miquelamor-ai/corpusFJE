@@ -239,11 +239,11 @@ El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el
 - Les dificultats de l'alumne són exclusivament de comprensió lectora però no de percepció visual (considerar dislèxia, TDL).
 - L'alumne manifesta "no veure" només en situacions d'avaluació (explorar component emocional).
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
 **Principi general:** L'adaptació per a l'alumnat amb DV és fonamentalment d'accés al format, NO de simplificació del contingut. L'exigència curricular és la mateixa; el que canvia és COM arriba la informació.
 
-## Heurístiques per a l'Agent DOCENT
+## Heurístiques per al docent
 
 ### H1: Adaptació de format, NO de contingut
 - **Quan aplica:** Quan un docent demana "com simplifico els materials per a l'alumne amb DV".
@@ -260,7 +260,7 @@ El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el
 - **Raonament:** La lectura en Braille és ~3x més lenta que la lectura visual. La lectura amb magnificació és ~2x més lenta. L'ONCE recomana un mínim d'1/3 de temps addicional, però pot arribar al doble segons el grau.
 - **Resposta tipus:** "Dona un mínim d'1/3 de temps addicional (si l'examen és de 60 min, dona 80 min). Per a alumnes amb ceguesa i lectura Braille, considera el doble de temps. Format: Arial 18+, interlineat 1,5, un exercici per pàgina, enumera clarament les preguntes."
 
-## Heurístiques per a l'Agent ALUMNE
+## Heurístiques per a l'alumne
 
 ### H1: Gestió de la fatiga visual
 - **Quan aplica:** Quan l'alumne amb baixa visió reporta cansament, mal de cap, visió borrosa després de llegir.
@@ -274,12 +274,12 @@ El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
-**Percepció visual**: L'alumnat amb discapacitat visual té com a barrera principal l'accés a la informació presentada visualment. Les adaptacions per a l'LLM se centren en l'estructura semàntica del text (encapçalaments, alt-text), ja que la majoria d'adaptacions són CSS/frontend (contrast, mida, zoom).
+**Percepció visual**: L'alumnat amb discapacitat visual té com a barrera principal l'accés a la informació presentada visualment. Les adaptacions textuals se centren en l'estructura semàntica del text (encapçalaments, alt-text), ja que la majoria d'adaptacions són CSS/frontend (contrast, mida, zoom).
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: Discapacitat Visual
@@ -295,7 +295,7 @@ PERFIL: Discapacitat Visual
 | **1a (percepció)** | H-18 (alt-text imatges), H-19 (estructura semàntica H1-H3), I-06 (contrast alt), I-08 (reescalat) | Barrera nuclear: percepció |
 | **2a (estructura)** | B-02 (blocs amb títol), B-14 (taules per comparació) | Navegació amb lector de pantalla |
 
-**Nota**: La majoria d'adaptacions per a disc. visual són CSS/FE (contrast, mida tipografia, zoom), no de prompt LLM. L'LLM ha de garantir: estructura semàntica, descripcions textuals d'elements visuals, i no dependre de color o posició per transmetre significat.
+**Nota**: La majoria d'adaptacions per a disc. visual són CSS/FE (contrast, mida tipografia, zoom), no de format del text. El text ha de garantir: estructura semàntica, descripcions textuals d'elements visuals, i no dependre de color o posició per transmetre significat.
 
 # 5. FONTS
 

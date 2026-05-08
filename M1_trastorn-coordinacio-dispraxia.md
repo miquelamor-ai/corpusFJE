@@ -108,7 +108,7 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
 
 ##### Grau de severitat
 
-| Grau | Descripció clínica | Implicació per a l'assistent |
+| Grau | Descripció clínica | Implicació pràctica |
 |------|------|------|
 | **Lleu** | Dificultats compensables; afecta principalment la velocitat i la fluïdesa motora; sovint passa desapercebut | Temps addicional, pauta clara, instruments adaptats opcionals |
 | **Moderat** | Impacte notable en escriptura manual i activitats manipulatives; requereix adaptació sistemàtica | Accés a teclat/tauleta per a producció escrita, adaptació d'EF, instruments ergonòmics |
@@ -283,47 +283,47 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
   - Dificultats exclusivament en lectura i escriptura sense afectació motora general (valorar dislèxia)
   - Dificultat motora explicable per condició visual no corregida
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
-- **Principi general:** L'agent ha d'adaptar el canal de sortida motor (escriptura, manipulació, moviment) sense reduir la profunditat conceptual ni cognitiva. El TDC afecta la via motora, no la capacitat de pensar ni d'aprendre.
+- **Principi general:** Cal adaptar el canal de sortida motor (escriptura, manipulació, moviment) sense reduir la profunditat conceptual ni cognitiva. El TDC afecta la via motora, no la capacitat de pensar ni d'aprendre.
 
-- **Heurístiques per a l'Agent DOCENT:**
+- **Heurístiques per al docent:**
 
   - **Nom:** Adaptació del canal de sortida per component motor afectat
   - **Quan aplica:** Quan el docent indica que l'alumne té TDC i es coneixen les àrees motores afectades (motricitat fina, grossa, o ambdues).
   - **Fonament:** El TDC és heterogeni — un alumne amb motricitat fina molt afectada però motricitat grossa acceptable necessita prioritàriament accés al teclat i instruments adaptats, mentre que un amb motricitat grossa predominant necessita adaptació d'EF i entorn físic.
-  - **Exemple complet de raonament:** "El docent indica que l'alumna té TDC amb motricitat fina molt afectada, grau moderat, i accés al teclat disponible. L'agent ha de raonar que totes les tasques de producció escrita llarga (redaccions, exàmens, treballs) han de permetre l'ús del teclat o la tauleta. Les activitats de plàstica i tecnologia necessiten alternatives o adaptacions (tisores adaptades, plantilles prèvies, treball en parella amb rols complementaris). L'avaluació escrita ha de separar els criteris de contingut dels criteris de presentació: la nota de ciències no pot dependre de la cal·ligrafia. Per a les activitats curtes (còpia breu, exercicis de completar), l'alumna pot escriure a mà amb temps addicional i llapis ergonòmic. No s'ha de reduir el contingut conceptual — l'alumna té capacitat cognitiva normativa."
+  - **Exemple complet de raonament:** Davant una alumna amb TDC amb motricitat fina molt afectada, grau moderat, i accés al teclat disponible: totes les tasques de producció escrita llarga (redaccions, exàmens, treballs) han de permetre l'ús del teclat o la tauleta. Les activitats de plàstica i tecnologia necessiten alternatives o adaptacions (tisores adaptades, plantilles prèvies, treball en parella amb rols complementaris). L'avaluació escrita ha de separar els criteris de contingut dels criteris de presentació: la nota de ciències no pot dependre de la cal·ligrafia. Per a les activitats curtes (còpia breu, exercicis de completar), l'alumna pot escriure a mà amb temps addicional i llapis ergonòmic. No s'ha de reduir el contingut conceptual — l'alumna té capacitat cognitiva normativa.
 
   - **Nom:** Adaptació d'educació física i activitats motores
   - **Quan aplica:** Quan el docent demana orientació per a l'EF o activitats amb component motor gruixut per a un alumne amb TDC.
   - **Fonament:** L'exclusió d'EF no és una adaptació acceptable. El moviment és beneficiós per a l'alumne amb TDC; el que cal és adaptar les condicions perquè la participació sigui significativa i no humiliant (Magalhães et al., 2011).
-  - **Exemple complet de raonament:** "Un docent d'EF pregunta com gestionar un alumne amb TDC que no vol participar en els esports d'equip. L'agent ha de raonar que l'evitació és una resposta d'autoprotecció davant la humiliació repetida (ser l'últim triat, no atrapar la pilota, generar errors que costen punts a l'equip). L'agent recomanaria: (1) oferir alternatives individuals dins de la sessió (caminar, exercicis de força, ioga), (2) si l'alumne vol participar en l'esport d'equip, adaptar les regles (posicions menys exposades, criteris d'èxit adaptats), (3) en l'avaluació, valorar l'esforç, la constància i la millora personal per sobre del rendiment absolut, (4) mai comparar públicament el rendiment motor amb el dels iguals. L'objectiu és que l'alumne associï el moviment amb benestar, no amb vergonya."
+  - **Exemple complet de raonament:** Davant un docent d'EF que pregunta com gestionar un alumne amb TDC que no vol participar en els esports d'equip: l'evitació és una resposta d'autoprotecció davant la humiliació repetida (ser l'últim triat, no atrapar la pilota, generar errors que costen punts a l'equip). Cal: (1) oferir alternatives individuals dins de la sessió (caminar, exercicis de força, ioga), (2) si l'alumne vol participar en l'esport d'equip, adaptar les regles (posicions menys exposades, criteris d'èxit adaptats), (3) en l'avaluació, valorar l'esforç, la constància i la millora personal per sobre del rendiment absolut, (4) mai comparar públicament el rendiment motor amb el dels iguals. L'objectiu és que l'alumne associï el moviment amb benestar, no amb vergonya.
 
   - **Nom:** Dissociació competència motora–competència conceptual en l'avaluació
   - **Quan aplica:** Quan es dissenyen activitats, rúbriques o criteris d'avaluació per a alumnat amb TDC.
   - **Fonament:** Avaluar la producció motora (cal·ligrafia, presentació, velocitat d'escriptura) com a mesura de la competència conceptual invalida els resultats per a l'alumne amb TDC.
-  - **Exemple complet de raonament:** "Un docent demana una rúbrica per a un examen de ciències naturals per a un alumne amb TDC moderat amb accés al teclat. L'agent ha de separar els criteris motors (presentació, cal·ligrafia, organització visual del paper) dels criteris conceptuals (comprensió de conceptes, relació causa-efecte, argumentació). Per a l'alumne amb TDC, l'examen ha de poder-se fer amb teclat o, si és en paper, amb temps addicional significatiu (mínim 30% més). Els criteris de presentació no poden restar nota. Si l'examen és de resposta llarga, l'opció oral o digital ha d'estar disponible. L'agent ha de recordar que la fatiga motora és acumulativa: un examen de dues hores escrit a mà és exponencialment més costós per a l'alumne amb TDC que per als iguals."
+  - **Exemple complet de raonament:** Davant un docent que demana una rúbrica per a un examen de ciències naturals per a un alumne amb TDC moderat amb accés al teclat: cal separar els criteris motors (presentació, cal·ligrafia, organització visual del paper) dels criteris conceptuals (comprensió de conceptes, relació causa-efecte, argumentació). Per a l'alumne amb TDC, l'examen ha de poder-se fer amb teclat o, si és en paper, amb temps addicional significatiu (mínim 30% més). Els criteris de presentació no poden restar nota. Si l'examen és de resposta llarga, l'opció oral o digital ha d'estar disponible. Cal recordar que la fatiga motora és acumulativa: un examen de dues hores escrit a mà és exponencialment més costós per a l'alumne amb TDC que per als iguals.
 
-- **Heurístiques per a l'Agent ALUMNE:**
+- **Heurístiques per a l'alumne:**
 
   - **Nom:** Estratègies d'organització i producció escrita
   - **Quan aplica:** Quan l'alumne ha de fer una redacció, informe, projecte o qualsevol tasca de producció escrita.
   - **Fonament:** Per a l'alumne amb TDC, la barrera no és saber què escriure sinó l'acte físic d'escriure. L'andamiatge ha de reduir la càrrega motora, no la cognitiva.
-  - **Exemple complet de raonament:** "Un alumne amb TDC ha d'escriure un treball sobre el canvi climàtic. L'agent primer verificaria si l'alumne té accés al teclat. Si sí: proporcionar un esquema amb seccions etiquetades ('Definició / Causes / Conseqüències / Solucions') i suggerir que escrigui directament al teclat, sense esborrany manuscrit previ. Si no: proporcionar el mateix esquema amb espais generosos, limitar l'extensió de cada secció (3-5 frases per bloc), i recordar que pot completar la informació oralment amb el docent. En ambdós casos, l'objectiu és que l'alumne demostri el seu coneixement sense que la barrera motora el limiti."
+  - **Exemple complet de raonament:** Davant un alumne amb TDC que ha d'escriure un treball sobre el canvi climàtic, primer cal verificar si té accés al teclat. Si sí: proporcionar un esquema amb seccions etiquetades ("Definició / Causes / Conseqüències / Solucions") i suggerir que escrigui directament al teclat, sense esborrany manuscrit previ. Si no: proporcionar el mateix esquema amb espais generosos, limitar l'extensió de cada secció (3-5 frases per bloc), i recordar que pot completar la informació oralment amb el docent. En ambdós casos, l'objectiu és que l'alumne demostri el seu coneixement sense que la barrera motora el limiti.
 
   - **Nom:** Gestió de la fatiga motora durant el dia escolar
   - **Quan aplica:** Quan l'alumne mostra signes de fatiga motora (dolor a la mà, parades freqüents, disminució de la qualitat gràfica al llarg del dia).
   - **Fonament:** La fatiga motora és acumulativa i real. L'alumne amb TDC consumeix més energia que els iguals en totes les tasques amb component motor, i al final del dia escolar té menys recursos disponibles (Zwicker et al., 2012).
-  - **Exemple complet de raonament:** "Un alumne amb TDC diu que li fa mal la mà i que no pot acabar l'exercici a última hora. L'agent no ha d'interpretar-ho com a excusa sinó com un senyal de fatiga motora acumulada. L'agent recomanaria: (1) completar l'exercici oralment amb el docent, (2) si és possible, canviar a teclat per a la resta de la sessió, (3) per a futures planificacions, distribuir les tasques amb major càrrega motora al matí i reservar les opcions digitals o orals per a la tarda. No suposar manca de voluntat — l'alumne ha estat escrivint a mà tot el dia amb un esforç tres vegades superior al dels seus iguals."
+  - **Exemple complet de raonament:** Davant un alumne amb TDC que diu que li fa mal la mà i que no pot acabar l'exercici a última hora: no s'ha d'interpretar com a excusa sinó com un senyal de fatiga motora acumulada. Cal: (1) completar l'exercici oralment amb el docent, (2) si és possible, canviar a teclat per a la resta de la sessió, (3) per a futures planificacions, distribuir les tasques amb major càrrega motora al matí i reservar les opcions digitals o orals per a la tarda. No s'ha de suposar manca de voluntat — l'alumne ha estat escrivint a mà tot el dia amb un esforç tres vegades superior al dels seus iguals.
 
 ---
 
-## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL PER A L'LLM
+## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
-**Accés motriu**: L'alumnat amb TDC/dispraxia té com a barrera principal l'accés motriu al material (escriptura, manipulació). Les adaptacions textuals per a l'LLM són mínimes — la majoria de necessitats són CSS/frontend (navegació per teclat, mida clicable dels elements).
+**Accés motriu**: L'alumnat amb TDC/dispraxia té com a barrera principal l'accés motriu al material (escriptura, manipulació). Les adaptacions textuals són mínimes — la majoria de necessitats són CSS/frontend (navegació per teclat, mida clicable dels elements).
 
-### Instruccions per al prompt LLM
+### Especificació d'adaptació
 
 ```
 PERFIL: TDC / Dispraxia
@@ -339,7 +339,7 @@ PERFIL: TDC / Dispraxia
 | **1a (accés)** | I-07 (navegació per teclat/commutador) | Barrera nuclear: accés motriu |
 | **2a (estructura)** | H-19 (estructura semàntica H1-H3), B-02 (blocs amb títol) | Navegació accessible |
 
-**Nota**: La majoria d'adaptacions per a TDC/dispraxia són CSS/FE (àrees clicables grans, navegació per teclat). L'LLM ha de garantir estructura semàntica i evitar instruccions que pressuposin motricitat fina.
+**Nota**: La majoria d'adaptacions per a TDC/dispraxia són CSS/FE (àrees clicables grans, navegació per teclat). El text ha de garantir estructura semàntica i evitar instruccions que pressuposin motricitat fina.
 
 ---
 
