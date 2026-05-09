@@ -6,7 +6,6 @@ review_status: esborrany
 version: "1.0"
 sources:
   - docs/marcs-teorics/friccio-cognitiva-extens.md
-  - docs/fonts/laia-knowledge/friccio-cognitiva.md
 connections:
   - M5_rols-IA-educacio
   - M5_arquitectura-proposit-rol-nivell
@@ -22,9 +21,6 @@ detection:
 ---
 
 # Càrrega cognitiva, fricció productiva i disseny d'activitats amb IA
-
-> Document de referència per als skills: Auditor Cognitiu, Dissenyador de Prompts, Generador d'Activitats, Dissenyador d'Assistents
-> Substitueix: `friccio-cognitiva.md` (versió LAIA)
 
 ---
 

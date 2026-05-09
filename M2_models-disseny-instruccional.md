@@ -4,8 +4,7 @@ module: M2
 id: M2_models-disseny-instruccional
 review_status: esborrany
 version: "1.0"
-sources:
-  - docs/fonts/laia-knowledge/disseny-instruccional.md
+sources: []
 connections:
   - M2_carrega-friccio-cognitiva
   - M5_disseny-instruccional-amb-IA
@@ -19,9 +18,6 @@ detection:
 ---
 
 # Models de disseny instruccional i seqüències didàctiques
-
-> Document de referència per als skills: Generador d'Activitats, Adaptador de Nivell
-> Revisa i amplia: `disseny-instruccional.md` (versió LAIA)
 
 ---
 
