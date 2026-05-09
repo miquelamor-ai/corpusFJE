@@ -289,7 +289,7 @@ Aquesta fitxa de síntesi s'articula amb els perfils d'alumnat (mòdul M1) i amb
 
 ## 3. DETECCIÓ DE SITUACIÓ
 
-Aquesta secció ajuda l'assistent IA a identificar en quins contextos i situacions és rellevant activar el coneixement d'aquesta fitxa.
+Aquesta secció ajuda a identificar en quins contextos i situacions és rellevant activar el coneixement d'aquesta fitxa.
 
 **Situacions escolars que activen aquesta fitxa**
 
@@ -505,7 +505,7 @@ L'equip decideix adoptar Comunicació Clara com a estàndard de tots els documen
 
 ---
 
-## 6. INSTRUCCIONS PER NIVELL MECR — BLOCS PER A L'LLM
+## 6. INSTRUCCIONS PER NIVELL MECR — BLOCS D'ADAPTACIÓ
 
 Cada adaptació usa UN ÚNIC nivell MECR de sortida. El codi selecciona el bloc corresponent.
 
