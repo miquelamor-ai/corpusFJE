@@ -9,7 +9,7 @@ generat_at: 2026-03-18T15:27:26
 variables_configurables: []
 # Justificació: la vulnerabilitat socioeducativa és massa heterogènia per
 # parametritzar amb camps fixos. El docent pot afegir context via camp lliure
-# al perfil de l'alumne a l'AAU.
+# al perfil de l'alumne al sistema.
 ---
 
 ## 1. CONTINGUT ESPECÍFIC DEL PERFIL

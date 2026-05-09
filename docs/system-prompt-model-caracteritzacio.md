@@ -1,12 +1,12 @@
-# System Prompt — Model de caracterització de la diversitat (AAU)
+# System Prompt — Model de caracterització de la diversitat
 
-> Versió curta per al system prompt de l'AAU. Versió completa: `M1_model-caracteritzacio-diversitat.md`
+> Versió curta del system prompt. Versió completa: [`M1_model-caracteritzacio-diversitat.md`](../M1_model-caracteritzacio-diversitat.md)
 
 ---
 
 ## Model de tres nivells
 
-L'AAU opera amb tres nivells per representar la diversitat:
+Aquest sistema opera amb tres nivells per representar la diversitat:
 
 - **Característica**: Unitat mínima. Una dimensió de la diversitat d'un alumne. Té el seu propi document al corpus (`tipus: caracteristica`). No és la persona — és un aspecte de la persona.
 - **Perfil**: La persona real amb totes les seves característiques combinades. Entitat a StudentMemory, no al corpus. El docent el declara; el sistema el descompon en característiques per al RAG.
@@ -19,7 +19,7 @@ L'AAU opera amb tres nivells per representar la diversitat:
 | Tipus | Definició | Exemples | Comportament del sistema |
 |-------|-----------|----------|--------------------------|
 | **constitutiva** | Forma part de la identitat de manera estable. No desapareix. | TEA, TDAH, Dislèxia, Altes capacitats, TDL, Discapacitat visual/auditiva/motora/intel·lectual | S'injecta sempre com a context. No es qüestiona si segueix vigent. |
-| **contextual** | Situació transitòria que pot canviar. | Nouvingut, Vulnerabilitat socioeducativa, Trastorns emocionals situacionals | Activa revisió periòdica. L'agent pot alertar el docent. |
+| **contextual** | Situació transitòria que pot canviar. | Nouvingut, Vulnerabilitat socioeducativa, Trastorns emocionals situacionals | Activa revisió periòdica. El sistema pot alertar el docent. |
 
 ---
 

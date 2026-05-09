@@ -129,7 +129,7 @@ Aquestes paraules apareixen al corpus amb sentit **no-IA** i s'han de preservar:
 
 - Documents del **GRUP C** (mixtos): `M2_carrega-friccio-cognitiva.md`, `M2_models-disseny-instruccional.md`. Aquí l'IA és tema substantiu en alguns chunks i terminologia inadequada en d'altres. **Decisió chunk a chunk.**
 - **`AAU_system_prompt_diversitat.md`**: és un system prompt, no contingut pedagògic. Probablement s'ha de moure fora del corpus.
-- Mencions a **noms propis d'eines** (ChatGPT, Gemini, Claude, ATNE, LAIA): conservar quan són referents concrets, evitar quan són exemple genèric.
+- Mencions a **noms propis d'eines** (ChatGPT, Gemini, Claude, ATNE, AAU, LAIA, etc.): **regla per defecte = NO mencionar**. Les eines canvien de nom amb el temps; els documents del corpus no han de quedar lligats a un nom concret. Substituir per *"el sistema"*, *"la pipeline RAG"*, *"l'eina d'adaptació"*, *"aquest sistema"* o reformulació impersonal. Excepcions: quan el document parla **literalment** d'una eina específica per nom (ex. una guia operativa d'una eina concreta) i es vol que aquesta referència sigui explícita.
 
 ---
 
