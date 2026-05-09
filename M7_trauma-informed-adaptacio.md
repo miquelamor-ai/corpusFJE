@@ -94,7 +94,7 @@ Quan el perfil indica sensibilitat temàtica (trauma), l'adaptació ha d'evitar 
 
 ## Senyals d'activació en el text
 
-Un assistent d'adaptació hauria de detectar paraules clau que poden ser triggers:
+El sistema d'adaptació hauria de detectar paraules clau que poden ser triggers:
 - guerra, bomba, destrucció, atac, mort
 - fugir, separar, perdre, abandonar
 - fam, fred, dolor, por
@@ -160,7 +160,7 @@ Quan un alumne mostra signes d'activació (agitació, bloqueig, plor, fugida):
 5. Reprendre quan l'alumne estigui regulat, sense represàlies
 6. Registrar per comunicar a l'equip d'orientació (no ignorar patrons)
 
-## Implicacions per a un assistent d'adaptació
+## Implicacions per al sistema d'adaptació
 
 ### Per a textos:
 1. **Consultar el perfil**: si "sensibilitat temàtica = sí", activar mode trauma-informed
