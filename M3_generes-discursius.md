@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-28T20:00:00
 ---
 
-# Gèneres discursius — Adaptació textual per a l'LLM
+# Gèneres discursius — Adaptació textual
 
 ## Context teòric
 
@@ -23,7 +23,7 @@ FJE utilitza el terme **gèneres discursius** (no "textuals") perquè inclou gè
 
 **Estructura canònica**: què és → com funciona → per què importa
 
-**Instruccions per a l'LLM**:
+**Especificació d'adaptació**:
 ```
 GÈNERE DISCURSIU: Explicació
 - Progressió del simple al complex
@@ -46,7 +46,7 @@ GÈNERE DISCURSIU: Explicació
 
 **Estructura canònica**: qui → què passa → per què → com acaba
 
-**Instruccions per a l'LLM**:
+**Especificació d'adaptació**:
 ```
 GÈNERE DISCURSIU: Narració
 - Mantén personatges principals, simplifica secundaris
@@ -67,7 +67,7 @@ GÈNERE DISCURSIU: Narració
 
 **Estructura canònica**: què necessites → passos → resultat esperat
 
-**Instruccions per a l'LLM**:
+**Especificació d'adaptació**:
 ```
 GÈNERE DISCURSIU: Instrucció
 - Numera els passos
@@ -90,7 +90,7 @@ GÈNERE DISCURSIU: Instrucció
 
 **Estructura canònica**: què defensa → arguments → conclusió
 
-**Instruccions per a l'LLM**:
+**Especificació d'adaptació**:
 ```
 GÈNERE DISCURSIU: Argumentació
 - Tesi al primer paràgraf

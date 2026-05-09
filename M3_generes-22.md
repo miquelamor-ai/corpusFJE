@@ -10,11 +10,11 @@ generat_at: 2026-04-19T22:00:00
 # Gèneres discursius — 22 sub-gèneres amb regles crítiques
 
 Aquest fitxer defineix **regles crítiques d'adaptació LF per als 22 sub-gèneres**
-que apareixen al dropdown del generador d'ATNE (Pas 2). El codi `corpus_reader.py`
+que apareixen al dropdown del generador (Pas 2). El codi `corpus_reader.py`
 llegeix blocs amb encapçalament `## <key>` i extreu-ne el contingut fins al
 següent `##` o final del fitxer.
 
-**Font primària:** `docs/fitxes_generes_v1.md` (ATNE). Aquest fitxer n'extreu
+**Font primària:** `docs/fitxes_generes_v1.md`. Aquest fitxer n'extreu
 només les seccions **Regles crítiques + Contraindicacions** per injectar al prompt.
 
 **Claus:** minúscules, sense accents, tal com arriben del frontend.
