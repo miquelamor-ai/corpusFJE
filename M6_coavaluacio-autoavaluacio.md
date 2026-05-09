@@ -213,7 +213,22 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
     *   **Nom:** **Utilitza la Carpeta d'Aprenentatge com a Evidència de Procés.**
         *   **Quan aplica:** Per a projectes llargs, unitats complexes o al final d'un trimestre/curs.
         *   **Fonament:** La carpeta d'aprenentatge permet recollir el procés d'aprenentatge, no només el producte final, i facilita la reflexió sobre l'evolució, els errors i les millores.
-        *   **Exemple complet de raonament:** Un docent està implementant
+        *   **Exemple complet de raonament:** Davant un docent que vol valorar el procés d'aprenentatge d'un projecte llarg de ciències, en lloc de basar la qualificació només en el producte final, convé proposar una carpeta d'aprenentatge que reculli, al llarg del trimestre, la pregunta inicial del projecte, les hipòtesis formulades, els esborranys d'experiments, les fonts consultades, les dades recollides, els errors detectats i com s'han corregit, i reflexions periòdiques breus de l'alumne ("Què he après aquesta setmana?", "Quina dificultat he superat?", "Què canviaria del meu plantejament inicial?"). Al tancament, cal valorar no només el producte definitiu sinó la trajectòria documentada — l'evolució del pensament i les estratègies d'autoregulació posades en pràctica. La carpeta esdevé així evidència de procés i instrument de metacognició, fent visible l'aprenentatge real més enllà del lliurament puntual.
+
+*   **Heurístiques per a l'alumne:**
+    *   **Nom:** **Els criteris són la teva brúixola.**
+        *   **Quan aplica:** Abans de començar qualsevol tasca o activitat avaluable.
+        *   **Fonament:** Conèixer què s'espera i com es valorarà la feina permet planificar millor, prendre decisions de qualitat i autoavaluar el progrés. Sense criteris clars, l'esforç es disgrega i la qualificació final pot semblar arbitrària.
+        *   **Exemple complet de raonament:** Quan rebis una rúbrica, una llista de comprovació o una explicació dels criteris d'avaluació, llegeix-los abans de començar. Si hi ha alguna cosa que no entens, pregunta. Marca o subratlla els criteris més exigents — són els que et guiaran durant la feina. Mentre treballes, mira els criteris de tant en tant per comprovar que vas pel bon camí. No deixis la rúbrica per al final, com qui revisa un llistat just abans de lliurar; fes-la servir com una brúixola que t'orienta mentre navegues.
+    *   **Nom:** **L'error és informació, no fracàs.**
+        *   **Quan aplica:** Quan detectes un error en el teu treball, propi o assenyalat per un company o pel docent.
+        *   **Fonament:** Cada error indica un punt on encara no domines alguna cosa. Identificar-lo i analitzar-ne les causes és més valuós per a l'aprenentatge que evitar-lo o amagar-lo. Penalitzar-se per equivocar-se bloqueja la millora.
+        *   **Exemple complet de raonament:** Si veus que has comès un error, no l'amaguis ni l'esborris ràpid. Pregunta't: "Per què m'ha passat? Què he confós? Què sabia abans i què sé ara que abans no sabia?" Anota la reflexió a la teva carpeta o llibreta. Compara l'error amb els criteris d'avaluació per veure quina dimensió afecta. Si el mateix tipus d'error apareix diverses vegades, parla amb el docent o un company per buscar una estratègia. Veure els errors com pistes — no com judicis sobre tu — fa que aprenguis més de pressa i amb menys ansietat.
+    *   **Nom:** **Coavaluar és ajudar, no jutjar.**
+        *   **Quan aplica:** Quan reps el treball d'un company per donar-li feedback.
+        *   **Fonament:** El feedback que es centra en la millora, basat en criteris i amb to constructiu, ajuda l'altre i et fa entendre millor els criteris a tu mateix. El feedback que jutja persones en lloc de feines crea malestar i no aporta res.
+        *   **Exemple complet de raonament:** Llegeix el treball d'un company amb la rúbrica al davant. Identifica primer el que ha fet bé — sigues específic ("M'agrada com has organitzat l'argument central"). Després, assenyala una o dues coses millorables, sempre amb una proposta concreta ("Aquesta part queda confusa; potser podries afegir un exemple"). Evita expressions com "està malament" o "no s'entén". Tracta el treball del company com t'agradaria que tractessin el teu. Recorda: tu no poses la nota; el teu paper és ajudar-lo a millorar i, alhora, aprendre tu mateix què fa que un treball sigui de qualitat.
+
 ---
 
 ## 5. FONTS DEL CORPUS
