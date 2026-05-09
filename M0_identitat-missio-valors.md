@@ -15,7 +15,7 @@ generat_at: 2026-03-17T00:00:00
 
 La identitat i missió de l'educació jesuïta no és un text promulgat un cop per sempre. És una **tradició viva**, tal com la denomina el document homònim de 2019: un exercici continu de discerniment que, en cada època, pregunta de nou *a qui servim, per a quina humanitat eduquem i com es concreta avui la missió fundacional*. Reduir la identitat jesuïta al document ICAJE de 1986 seria com creure que la Companyia va néixer el 1986. El 1986 és un moment de sistematització en un fil de cinc segles d'evolució creativa.
 
-Aquest document reconstrueix l'arc evolutiu de la missió educativa de la Companyia de Jesús, des de les Constitucions de 1540 fins a la Declaració Final del JESEDU-Jogja2024, per oferir als agents educatius FJE una comprensió dinàmica de la identitat que orienta tots els assistents del corpus RAG.
+Aquest document reconstrueix l'arc evolutiu de la missió educativa de la Companyia de Jesús, des de les Constitucions de 1540 fins a la Declaració Final del JESEDU-Jogja2024, per oferir a la comunitat educativa FJE una comprensió dinàmica de la identitat que orienta tot el corpus.
 
 ---
 

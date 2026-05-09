@@ -13,7 +13,7 @@ generat_at: 2026-03-17T21:00:00
 
 **A. Definicions Precises dels Conceptes Clau**
 
-Perquè una IA pugui raonar sobre aquest marc, cal que entengui que la pedagogia ignasiana no és un conjunt de tècniques, sinó un **"mode de procedir"** [Source: 1: Característiques de l'educació a la companyia de Jesús. 1986.pdf] [Source: 2: Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf] .
+Per raonar sobre aquest marc, cal entendre que la pedagogia ignasiana no és un conjunt de tècniques, sinó un **"mode de procedir"** [Source: 1: Característiques de l'educació a la companyia de Jesús. 1986.pdf] [Source: 2: Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf] .
 
 -   **Pedagogia Ignasiana vs. Jesuítica:** Mentre que la pedagogia *jesuítica* es refereix a la sistematització històrica i metodològica (com la *Ratio Studiorum* de 1599), la *ignasiana* és més àmplia: és la visió espiritual derivada dels *Exercicis Espirituals* (EE) aplicada a l'educació [Source: 3: Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf] .
 -   **Cura Personalis:** No és només "atenció individual", sinó la cura integral de la persona (ment, cos, cor) adaptant-se a la seva situació única de "temps, lloc i persones" [Source: 4: Característiques de l'educació a la companyia de Jesús. 1986.pdf] .
@@ -24,7 +24,7 @@ Perquè una IA pugui raonar sobre aquest marc, cal que entengui que la pedagogia
 
 **B. Principis Fonamentals i Raonament Pedagògic**
 
-**1. El Dinamisme de l'Aprenentatge: El PPI (Paradigma Pedagògic Ignasià)** L'agent d'IA ha de comprendre que l'aprenentatge ignasià és un cicle espiral, no lineal [Source: 19: Característiques de l'educació a la companyia de Jesús. 1986.pdf] [Source: 20: Nicolás A. 2013] .
+**1. El Dinamisme de l'Aprenentatge: El PPI (Paradigma Pedagògic Ignasià)** Cal comprendre que l'aprenentatge ignasià és un cicle espiral, no lineal [Source: 19: Característiques de l'educació a la companyia de Jesús. 1986.pdf] [Source: 20: Nicolás A. 2013] .
 
 -   **Context:** L'aprenentatge no ocorre en el buit. Cal conèixer el món de l'alumne (família, cultura, estat emocional, coneixements previs). *Raonament:* Si no connectem amb el context, la informació és externa i no transforma.
 -   **Experiència:** Implica "tot l'home" (sentits, imaginació, enteniment). Pot ser directa (laboratori, servei social) o indirecta (lectura, simulació). *Raonament:* Sense experiència afectiva, no hi ha motivació per al canvi.
@@ -32,7 +32,7 @@ Perquè una IA pugui raonar sobre aquest marc, cal que entengui que la pedagogia
 -   **Acció:** No és només "fer", sinó el creixement interior i la manifestació externa del que s'ha après (opcions de vida, servei). *Raonament:* L'amor es posa més en les obres que en les paraules.
 -   **Avaluació:** Més enllà de les notes, és el seguiment de la maduresa integral i la identitat de l'alumne.
 
-**2. L'Aprenentatge per Refracció** Aquesta és una evolució moderna del PPI. La IA ha de raonar que l'alumne no és un mirall (reflexió), sinó un mitjà que "doblega" la llum (contingut) a través del seu propi medi personal per apropiar-se-la [Source: 36: Learning by Refraction] . Requereix error, assaig i ajust continu.
+**2. L'Aprenentatge per Refracció** Aquesta és una evolució moderna del PPI. Cal entendre que l'alumne no és un mirall (reflexió), sinó un mitjà que "doblega" la llum (contingut) a través del seu propi medi personal per apropiar-se-la [Source: 36: Learning by Refraction] . Requereix error, assaig i ajust continu.
 
 **3. L'Humanisme Cristià i la Reconciliació** L'educació jesuïta afirma la bondat radical del món. Tot saber és camí cap a Déu (diàleg fe-cultura). Avui, la missió es defineix com una **missió de reconciliació** amb Déu, amb la humanitat i amb la creació (ecologia integral).
 
@@ -58,14 +58,14 @@ Perquè una IA pugui raonar sobre aquest marc, cal que entengui que la pedagogia
 
 **2. CONNEXIONS AMB ALTRES MARCS**
 
-L'agent d'IA ha d'integrar la pedagogia ignasiana amb els marcs contemporanis:
+La pedagogia ignasiana s'integra amb els marcs contemporanis:
 
 -   **PPI i DUA (Disseny Universal per a l'Aprenentatge):** Són totalment convergents. La flexibilitat del DUA en la representació i l'acció és la traducció moderna de l'adaptació ignasiana a la diversitat de "subjectes".
 -   **Lectura Fàcil:** Es connecta amb el criteri de la *Ratio Studiorum* d'adaptar el llenguatge a la capacitat dels "vascula angusti oris" (recipients de coll estret), on el mestre ha d'evitar la profusió de saber indigerible.
 -   **Avaluació Competencial:** El PPI ja era competencial al segle XVI, ja que mesurava el progrés pel que "sortia" de l'alumne (composicions, disputes) i no pel que "entrava".
 -   **Atenció a la Diversitat:** La *Cura Personalis* exigeix no imposar una càrrega que l'alumne no pugui portar i valorar positivament el progrés individual per sobre de rànquings.
 
-Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El_Magis_i_el_Servei`, `2.1_DUA_Principis_i_Pautes`, `6.1_Feedback_Formatiu_Hattie`.
+Documents complementaris (cal llegir conjuntament): `0.2_Cura_Personalis`, `0.3_El_Magis_i_el_Servei`, `2.1_DUA_Principis_i_Pautes`, `6.1_Feedback_Formatiu_Hattie`.
 
 ---
 
@@ -87,10 +87,10 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 ---
 
-**4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT**
+**4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC**
 
 **PRINCIPI GENERAL:**
-> Educar per formar persones per i amb els altres, que trobin el seu lloc al món des del discerniment de la veritat i el servei a la reconciliació. L'agent no dóna receptes: acompanya un procés de descoberta.
+> Educar per formar persones per i amb els altres, que trobin el seu lloc al món des del discerniment de la veritat i el servei a la reconciliació. No es tracta de donar receptes, sinó d'acompanyar un procés de descoberta.
 
 ---
 
@@ -100,9 +100,8 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Raonament:** La pedagogia ignasiana prioritza que l'alumne "senti i gusti internament" per sobre de l'acumulació d'informació. Nicolás (2010) adverteix que el gran risc de l'era digital és la "globalització de la superficialitat". Si l'alumne no processa profundament (fase de Reflexió del PPI), el coneixement no transforma — simplement passa de llarg. Millor 4 conceptes assaborits que 12 temes recitats.
 
-**Exemple de raonament de l'agent:**
-> Un docent de 2n ESO diu: "Tinc 12 temes de ciències i 8 setmanes. Com ho faig?"
-> L'agent NO ha de dir "fes-ho tot més ràpid". Ha d'ajudar-lo a identificar els 4-5 conceptes nuclears que vertebren els temes (ex: "energia i transformació" connecta 3 temes). Llavors, dissenyar 2-3 experiències profundes al voltant d'aquests eixos. La resta de contingut es pot oferir com a material d'aprofundiment voluntari. Connectar amb M6 (avaluació): si avaluem per competències, no cal "passar" tots els temes.
+**Exemple de raonament:**
+> Davant un docent de 2n ESO que diu "tinc 12 temes de ciències i 8 setmanes, com ho faig?", la resposta no és "fes-ho tot més ràpid". Cal ajudar-lo a identificar els 4-5 conceptes nuclears que vertebren els temes (ex: "energia i transformació" connecta 3 temes). Llavors, dissenyar 2-3 experiències profundes al voltant d'aquests eixos. La resta de contingut es pot oferir com a material d'aprofundiment voluntari. Connectar amb M6 (avaluació): si avaluem per competències, no cal "passar" tots els temes.
 
 ---
 
@@ -112,9 +111,8 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Raonament:** L'alumne no és un mirall que reflecteix el que rep — és un medi que "doblega" el contingut a través de la seva experiència vital (Go & Atienza, 2019). Perquè hi hagi refracció, cal que l'alumne sigui agent actiu: investigar, preguntar, errar, tornar a intentar. El docent ha de treballar "en segon pla", com el director dels Exercicis Espirituals que guia sense imposar.
 
-**Exemple de raonament de l'agent:**
-> Un docent diu: "Els explico la Revolució Francesa però s'avorreixen."
-> L'agent ha de proposar invertir el flux: en lloc d'explicar → que els alumnes investiguin un personatge (Context), visquin un dilema moral de l'època (Experiència), discuteixin per què la violència va escalar (Reflexió), i connectin amb una injustícia actual (Acció). El docent passa de narrador a facilitador. Connectar amb M2 (ABP, cooperatiu).
+**Exemple de raonament:**
+> Davant un docent que diu "els explico la Revolució Francesa però s'avorreixen", convé invertir el flux: en lloc d'explicar → que els alumnes investiguin un personatge (Context), visquin un dilema moral de l'època (Experiència), discuteixin per què la violència va escalar (Reflexió), i connectin amb una injustícia actual (Acció). El docent passa de narrador a facilitador. Connectar amb M2 (ABP, cooperatiu).
 
 ---
 
@@ -124,9 +122,8 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Raonament:** El PPI estableix que tot aprenentatge comença per conèixer la realitat de l'alumne: família, cultura, estat emocional, coneixements previs, preocupacions. Sense aquesta connexió, el contingut és aliè i no pot transformar. La *cura personalis* obliga a preguntar-se: qui tinc davant? Què li passa? Des d'on escolta?
 
-**Exemple de raonament de l'agent:**
-> Un docent diu: "Tinc un alumne pakistanès que fa 3 mesos que no participa."
-> L'agent NO ha de saltar directament a estratègies lingüístiques. Primer, ha d'orientar el docent a explorar el Context: en la cultura urdú, el respecte a l'autoritat pot fer que un alumne no pregunti mai — no per incomprensió sinó per deferència cultural. Potser cal crear espais de participació no verbal o en petit grup. Connectar amb M1 (alumnat nouvingut) i M3 (bastimentatge lingüístic).
+**Exemple de raonament:**
+> Davant un docent que diu "tinc un alumne pakistanès que fa 3 mesos que no participa", no cal saltar directament a estratègies lingüístiques. Primer, cal explorar el Context: en la cultura urdú, el respecte a l'autoritat pot fer que un alumne no pregunti mai — no per incomprensió sinó per deferència cultural. Potser cal crear espais de participació no verbal o en petit grup. Connectar amb M1 (alumnat nouvingut) i M3 (bastimentatge lingüístic).
 
 ---
 
@@ -136,9 +133,8 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Raonament:** Al PPI, l'avaluació no és el final del procés sinó una part del cicle espiral. Mesura no només què sap l'alumne sinó qui està sent: creixement en consciència, competència, compassió i compromís (4C). L'error no és un fracàs sinó informació per al següent cicle. Eines: portafolis, diaris de reflexió, autoavaluació, coavaluació.
 
-**Exemple de raonament de l'agent:**
-> Un docent diu: "Necessito una rúbrica per al projecte de servei-aprenentatge."
-> L'agent NO ha de donar només criteris acadèmics (contingut, presentació). Ha d'incloure criteris de creixement humà: "Ha canviat la meva mirada sobre el problema?", "Què he descobert sobre mi mateix?", "Com he contribuït al grup?". Connectar amb M6 (portfoli, feedback formatiu Hattie).
+**Exemple de raonament:**
+> Davant un docent que diu "necessito una rúbrica per al projecte de servei-aprenentatge", no n'hi ha prou amb criteris acadèmics (contingut, presentació). Cal incloure criteris de creixement humà: "Ha canviat la meva mirada sobre el problema?", "Què he descobert sobre mi mateix?", "Com he contribuït al grup?". Connectar amb M6 (portfoli, feedback formatiu Hattie).
 
 ---
 
@@ -148,13 +144,12 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Raonament:** Sant Ignasi demana "salvar la proposició del proïsme": abans de jutjar, buscar la interpretació més favorable del que l'altre diu o fa. Això no és ingenuïtat sinó una postura deliberada que obre l'espai per al diàleg i la reconciliació. En una aula diversa, molts conflictes neixen de marcs culturals o emocionals que no es comprenen mútuament.
 
-**Exemple de raonament de l'agent:**
-> Un docent diu: "Un alumne m'ha faltat al respecte davant de tota la classe."
-> L'agent ha de primer ajudar el docent a aplicar el Pressupòsit: "Què pot estar passant a la vida d'aquest alumne que expliqui (que no justifiqui) el seu comportament?" Llavors, proposar un espai privat de diàleg (cura personalis) abans de cap mesura disciplinària. Connectar amb M7 (enfocament restauratiu).
+**Exemple de raonament:**
+> Davant un docent que diu "un alumne m'ha faltat al respecte davant de tota la classe", convé primer aplicar el Pressupòsit: "Què pot estar passant a la vida d'aquest alumne que expliqui (que no justifiqui) el seu comportament?" Llavors, proposar un espai privat de diàleg (cura personalis) abans de cap mesura disciplinària. Connectar amb M7 (enfocament restauratiu).
 
 ---
 
-### Per a l'Agent que GUIA ALUMNES
+### Per a l'acompanyament d'alumnes
 
 ### H6: El retrovisor vital (*discerniment vocacional*)
 
@@ -162,9 +157,8 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Raonament:** La tradició ignasiana proposa la "relectura" com a eina de discerniment: mirar enrere per detectar on s'han sentit "mocions" (alegria, plenitud, sentit) i "desolacions" (buidor, angoixa). No es tracta de predir el futur sinó de llegir les pistes que la pròpia vida ja dona.
 
-**Exemple de raonament de l'agent:**
-> Un alumne de 4t ESO diu: "No sé quin batxillerat triar."
-> L'agent NO ha de donar un test vocacional. Ha de guiar una reflexió: "En quines assignatures o activitats has sentit que el temps volava? Quan t'has sentit més útil per als altres? Què et fa sentir orgullós de tu mateix?" Ajudar-lo a trobar un patró en les seves pròpies experiències.
+**Exemple de raonament:**
+> Davant un alumne de 4t ESO que diu "no sé quin batxillerat triar", no cal donar un test vocacional. Cal guiar una reflexió: "En quines assignatures o activitats has sentit que el temps volava? Quan t'has sentit més útil per als altres? Què et fa sentir orgullós de tu mateix?" Ajudar-lo a trobar un patró en les seves pròpies experiències.
 
 ---
 
@@ -180,7 +174,7 @@ Fitxers que l'agent ha de consultar conjuntament: `0.2_Cura_Personalis`, `0.3_El
 
 **Quan aplica:** Alumne paralitzat per la por a equivocar-se. Perfeccionisme que impedeix actuar.
 
-**Raonament:** L'aprenentatge per Refracció necessita assaig i error. El medi que doblega la llum no ho fa bé a la primera — cal ajustar, reprovar, tornar a intentar. L'agent ha de normalitzar l'error com a part del procés, no com a fracàs.
+**Raonament:** L'aprenentatge per Refracció necessita assaig i error. El medi que doblega la llum no ho fa bé a la primera — cal ajustar, reprovar, tornar a intentar. Cal normalitzar l'error com a part del procés, no com a fracàs.
 
 ---
 

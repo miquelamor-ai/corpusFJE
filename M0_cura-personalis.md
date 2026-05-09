@@ -30,7 +30,7 @@ La *cura personalis* (cura de la persona) no és una simple "atenció individual
 
 ### Principis fonamentals
 
-**Coneixement exhaustiu del subjecte.** Ignasi de Loiola, a les *Constitucions*, estableix que cal procedir segons "temps, llocs i persones". Per a un agent educatiu, això implica que cap intervenció és vàlida si no considera el context multidimensional de l'alumne: familiar, emocional, intel·lectual i espiritual. No hi ha receptes universals.
+**Coneixement exhaustiu del subjecte.** Ignasi de Loiola, a les *Constitucions*, estableix que cal procedir segons "temps, llocs i persones". Per a qualsevol agent educatiu, això implica que cap intervenció és vàlida si no considera el context multidimensional de l'alumne: familiar, emocional, intel·lectual i espiritual. No hi ha receptes universals.
 
 **Integritat de la persona.** La *cura personalis* rebutja el reduccionisme acadèmic. S'ocupa de la salut física, l'equilibri afectiu i la profunditat espiritual. Com afirma *Una Tradició Viva* (2019), educar el cap sense educar el cor és un fracàs pedagògic. L'educador no és un tècnic que transmet continguts sinó un acompanyant que ajuda l'alumne a descobrir-se com a projecte de futur.
 
@@ -92,14 +92,14 @@ La *cura personalis* (cura de la persona) no és una simple "atenció individual
 | **M6 - Avaluació** | L'avaluació ha de ser formadora: un moment de diàleg mestre-alumne sobre el propi procés. Es mesura el creixement integral, no només l'adquisició de dades. |
 | **M7 - Entorn/Convivència** | La cura del clima d'aula és cura de les persones. La "conversió de la mirada" cap al món ferit connecta la cura personal amb la cura del planeta (Laudato si'). |
 
-Quan l'agent activi aquest marc, també ha de consultar: `0.1_PPI`, `0.3_Magis_i_Servei`, `0.9_Educador_Samarita`, `0.10_Cultura_Vocacional`, `0.11_Acompanyament_i_Tutoria`.
+Documents complementaris (cal llegir conjuntament): `0.1_PPI`, `0.3_Magis_i_Servei`, `0.9_Educador_Samarita`, `0.10_Cultura_Vocacional`, `0.11_Acompanyament_i_Tutoria`.
 
 
 # 3. DETECCIÓ (Variables de Context)
 
 ## Senyals del Docent
 
-L'agent ha d'activar aquest marc quan el docent:
+Aquest marc és pertinent quan el docent:
 - Demana "més protocols de càstig" o "normes més rígides" davant d'un grup difícil — està substituint la cura pel control
 - Expressa cansament burocràtic o pèrdua de sentit en el magisteri — senyal de "magisteri mercenari"
 - Tracta la matèria com a simple acumulació d'informació, oblidant la reflexió humanitzadora
@@ -110,7 +110,7 @@ L'agent ha d'activar aquest marc quan el docent:
 
 ## Senyals de l'Alumne
 
-L'agent ha d'activar aquest marc quan l'alumne:
+Aquest marc és pertinent quan l'alumne:
 - Mostra una fragilitat interior o desesperança apresa davant del futur — pèrdua del candor natural
 - Té un rendiment acadèmic alt però una buidor vocacional absoluta (èxit acadèmic vs fracàs vital)
 - S'aïlla en el món virtual per evitar la trobada real amb els altres
@@ -118,63 +118,63 @@ L'agent ha d'activar aquest marc quan l'alumne:
 - Formula preguntes sobre el futur que busquen sentit vital, no només informació tècnica
 
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
 
 ## Principi General
 
-> L'educació és una trobada entre llibertats on el subjecte és sempre més important que el programa, i on el creixement individual s'ha d'orientar cap al servei del bé comú. L'agent acompanya — no decideix per ningú.
+> L'educació és una trobada entre llibertats on el subjecte és sempre més important que el programa, i on el creixement individual s'ha d'orientar cap al servei del bé comú. L'acompanyament no decideix per ningú.
 
-## Heurístiques per a l'Agent DOCENT (5)
+## Heurístiques per al docent (5)
 
 ### H1: El cisellador, no el botxí
 - **Quan aplica**: Quan el docent expressa frustració i vol càstigs purament punitius.
 - **Fonament**: Sacchini descriu l'educador com un *divini caelator* — algú que esculpeix ànimes amb delicadesa. La diferència entre cisellador i botxí és la caritat: el primer modela, el segon trenca. La sanció punitiva sense comprensió del subjecte talla la voluntat de l'alumne en lloc de donar-li forma.
 - **Exemple complet de raonament**:
-  > El docent diu: "Aquest alumne és impossible, l'expulso demà." L'agent detecta frustració moral legítima però una reacció que s'allunya de la cura. Raona: l'alumne encara és modelable — quin és el context que genera la indisciplina? Pot ser una crisi familiar, una identitat en reconstrucció, o una prova de límits. Expulsar ara sense entendre és actuar com a botxí. L'agent proposa al docent: "Abans d'expulsar, inverteix 15 minuts en una conversa privada. Pregunta-li què li passa, no què ha fet. Si després cal sanció, que sigui formativa — un encàrrec de responsabilitat que posi a prova el seu caràcter, no un càstig que el confirmi com a 'impossible'."
+  > Davant un docent que diu "aquest alumne és impossible, l'expulso demà": la frustració moral és legítima, però la reacció s'allunya de la cura. L'alumne encara és modelable — quin és el context que genera la indisciplina? Pot ser una crisi familiar, una identitat en reconstrucció, o una prova de límits. Expulsar ara sense entendre és actuar com a botxí. Cal proposar al docent: "Abans d'expulsar, inverteix 15 minuts en una conversa privada. Pregunta-li què li passa, no què ha fet. Si després cal sanció, que sigui formativa — un encàrrec de responsabilitat que posi a prova el seu caràcter, no un càstig que el confirmi com a 'impossible'."
 
 ### H2: El Magisteri com a Vocació, no com a Ofici
 - **Quan aplica**: Quan el docent mostra desinterès emocional o prioritza el compliment horari sobre l'acompanyament.
 - **Fonament**: Charmot critica el "magisteri mercenari" — el docent que estalvia fatigues i es limita a complir un deure salarial. Sense la donació personal del mestre, la relació educativa es converteix en una transacció freda que no genera creixement.
 - **Exemple complet de raonament**:
-  > El docent afirma: "La meva responsabilitat acaba quan sona el timbre." L'agent detecta el senyal de distanciament. Raona: aquest docent ha perdut la connexió amb el sentit de la seva feina. No és útil sermonitzar-lo — cal connectar amb la seva pròpia experiència. L'agent pregunta: "Recordes algun mestre que et va marcar de jove? Què feia de diferent? Segurament no era el que explicava millor, sinó el que et va mirar com a persona." Proposa petites accions recuperables: dedicar 5 minuts al final de classe a preguntar "Com esteu?", estar al pati un dia a la setmana. El tracte familiar reconstrueix la influència educativa que el contracte laboral sol no garanteix.
+  > Davant un docent que afirma "la meva responsabilitat acaba quan sona el timbre": és un senyal de distanciament. Aquest docent ha perdut la connexió amb el sentit de la seva feina. No és útil sermonitzar-lo — cal connectar amb la seva pròpia experiència. Una pregunta útil: "Recordes algun mestre que et va marcar de jove? Què feia de diferent? Segurament no era el que explicava millor, sinó el que et va mirar com a persona." Convé proposar petites accions recuperables: dedicar 5 minuts al final de classe a preguntar "Com esteu?", estar al pati un dia a la setmana. El tracte familiar reconstrueix la influència educativa que el contracte laboral sol no garanteix.
 
 ### H3: La Ratio com a Organisme Viu
 - **Quan aplica**: Quan la normativa oficial sembla contraproduent per al cas particular d'un alumne.
 - **Fonament**: La Ratio Studiorum no és una col·lecció de regles petrificades sinó, en paraules del P. General Beckx, un "organisme viu" que conté les llavors de tot desenvolupament futur. Adaptar-se a "temps, llocs i persones" no és feblesa sinó fidelitat al mètode.
 - **Exemple complet de raonament**:
-  > El docent diu: "He d'aplicar la sanció acadèmica reglamentària, però l'alumne acaba de perdre un familiar." L'agent detecta un conflicte norma-persona. Raona: l'aplicació mecànica de la lletra seria aquí lletra morta — la sanció no ajudaria al creixement de l'alumne en aquest moment de fragilitat. Però tampoc pot ignorar la norma. L'agent proposa: "Adapta el calendari d'avaluació: dóna-li dues setmanes més per a l'entrega i ofereix-li una tutoria de seguiment. Documenta-ho com a mesura d'atenció personalitzada. La norma serveix a la persona, no al revés. Això no és fer trampa — és aplicar la flexibilitat que el marc ignasià exigeix."
+  > Davant un docent que diu "he d'aplicar la sanció acadèmica reglamentària, però l'alumne acaba de perdre un familiar": és un conflicte norma-persona. L'aplicació mecànica de la lletra seria aquí lletra morta — la sanció no ajudaria al creixement de l'alumne en aquest moment de fragilitat. Però tampoc es pot ignorar la norma. Convé proposar: "Adapta el calendari d'avaluació: dóna-li dues setmanes més per a l'entrega i ofereix-li una tutoria de seguiment. Documenta-ho com a mesura d'atenció personalitzada. La norma serveix a la persona, no al revés. Això no és fer trampa — és aplicar la flexibilitat que el marc ignasià exigeix."
 
 ### H4: No Multa, Sed Multum (Moderació)
 - **Quan aplica**: Quan el centre o el docent carreguen els alumnes amb deures, exàmens o tasques excessives.
 - **Fonament**: Les Constitucions adverteixen que "no convé carregar tant que s'ofegui l'esperit". La *cura personalis* també és tenir cura del ritme vital de l'alumne. L'excés de tasques bloqueja la reflexió, que és el nucli del cicle PPI.
 - **Exemple complet de raonament**:
-  > L'agent veu una programació de 1r d'ESO amb cinc exàmens en una setmana. Raona: els alumnes estan aclaparats, no poden reflexionar sobre res perquè viuen en mode supervivència. L'agent suggereix al docent: "Coordina't amb la resta d'equip per distribuir les proves. Però a més, considera el principi *non multa, sed multum*: redueix la quantitat de temari a avaluar però augmenta la profunditat d'una de les proves. Pregunta als alumnes com se senten de cansats — escoltar-los ja és cura."
+  > Davant una programació de 1r d'ESO amb cinc exàmens en una setmana: els alumnes estan aclaparats, no poden reflexionar sobre res perquè viuen en mode supervivència. Cal suggerir al docent: "Coordina't amb la resta d'equip per distribuir les proves. Però a més, considera el principi *non multa, sed multum*: redueix la quantitat de temari a avaluar però augmenta la profunditat d'una de les proves. Pregunta als alumnes com se senten de cansats — escoltar-los ja és cura."
 
 ### H5: El Disseny Inclusiu com a Cura Estructural
 - **Quan aplica**: Quan un docent vol fer una adaptació individual per a un alumne amb necessitats específiques (TDAH, TEA, dislèxia...).
 - **Fonament**: La *cura personalis* demana no segregar. L'adaptació individual aïlla; el Disseny Universal per a l'Aprenentatge integra. El que és bo per a l'alumne amb dificultats és millor per a tots.
 - **Exemple complet de raonament**:
-  > El docent diu: "He de fer un exercici apart per a l'alumne amb TDAH." L'agent raona: fer un exercici diferent marca l'alumne davant del grup i trenca la comunitat d'aprenentatge. La cura aquí no és l'excepció individual sinó el redisseny per a tots. L'agent proposa: "No facis un exercici a part. Redissenya l'activitat amb múltiples formes de representació (visual, auditiva, manipulativa). Afegeix opcions d'entrega (escrit, oral, vídeo). Tots els alumnes se'n beneficiaran — i el que té TDAH no quedarà assenyalat. Això és cura estructural."
+  > Davant un docent que diu "he de fer un exercici apart per a l'alumne amb TDAH": fer un exercici diferent marca l'alumne davant del grup i trenca la comunitat d'aprenentatge. La cura aquí no és l'excepció individual sinó el redisseny per a tots. Convé proposar: "No facis un exercici a part. Redissenya l'activitat amb múltiples formes de representació (visual, auditiva, manipulativa). Afegeix opcions d'entrega (escrit, oral, vídeo). Tots els alumnes se'n beneficiaran — i el que té TDAH no quedarà assenyalat. Això és cura estructural."
 
-## Heurístiques per a l'Agent ALUMNE (3)
+## Heurístiques per a l'alumne (3)
 
 ### H6: El Retrovisor Vital (Discerniment Vocacional)
 - **Quan aplica**: Quan l'alumne està confús sobre la seva orientació vocacional o pren decisions per criteris purament utilitaristes.
 - **Fonament**: La cultura vocacional FJE proposa "mirar pel retrovisor" per descobrir les empremtes del sentit en la pròpia biografia. La vocació no és un destí revelat sinó un camí que es fa llegint retrospectivament les consolacions i desolacions viscudes.
 - **Exemple complet de raonament**:
-  > L'alumne diu: "No sé si fer Medicina o Belles Arts, només miro els rànquings de sous." L'agent detecta que l'alumne està atrapat en un pragmatisme que no el deixa escoltar-se. No li diu què triar — acompanya el discerniment. Li pregunta: "Mira enrere als darrers dos anys: en quines activitats has sentit que la teva vida valia la pena, més enllà del gust immediat? On has sentit que podies ser útil als altres d'una manera que et feia sentir ple?" L'objectiu és que l'alumne detecti on hi ha consolació duradora (vocació) vs alegria superficial (consum). L'agent no decideix — ajuda a llegir les pistes.
+  > Davant un alumne que diu "no sé si fer Medicina o Belles Arts, només miro els rànquings de sous": està atrapat en un pragmatisme que no el deixa escoltar-se. No cal dir-li què triar — cal acompanyar el discerniment. Una pregunta útil: "Mira enrere als darrers dos anys: en quines activitats has sentit que la teva vida valia la pena, més enllà del gust immediat? On has sentit que podies ser útil als altres d'una manera que et feia sentir ple?" L'objectiu és que l'alumne detecti on hi ha consolació duradora (vocació) vs alegria superficial (consum). L'acompanyament no decideix — ajuda a llegir les pistes.
 
 ### H7: La Petitesa com a Mestre (Acceptació del Límit)
 - **Quan aplica**: Quan l'alumne se sent enfonsat per un fracàs escolar o personal.
 - **Fonament**: La pedagogia ignasiana entén que la vocació neix també de la pròpia fragilitat, no només del mèrit. L'error és un moment de veritat on l'alumne pot descobrir que no és les seves notes ni les seves èxits, sinó algú en procés de creixement.
 - **Exemple complet de raonament**:
-  > L'alumne diu: "Sóc un fracassat, no m'ha sortit bé aquest projecte." L'agent detecta autodespreci que bloqueja el creixement. No minimitza ("no és res, tranquil") ni dramatitza. Li diu: "Aquest moment fa mal, i és normal. Però para un moment: què t'està ensenyant aquest límit? Qui eres tu abans de saber que podies fallar en això? I qui pots ser ara que ho saps?" L'agent busca que l'alumne passi del "sóc un fracassat" al "he après alguna cosa de mi". I afegeix: "Pensa en algú que coneixes que també ha fallat en alguna cosa important — com et sentiries ajudant-lo? Potser aquest error et fa més compassiu amb els altres que també fallen."
+  > Davant un alumne que diu "sóc un fracassat, no m'ha sortit bé aquest projecte": és autodespreci que bloqueja el creixement. No cal minimitzar ("no és res, tranquil") ni dramatitzar. Una resposta adequada: "Aquest moment fa mal, i és normal. Però para un moment: què t'està ensenyant aquest límit? Qui eres tu abans de saber que podies fallar en això? I qui pots ser ara que ho saps?" L'objectiu és que l'alumne passi del "sóc un fracassat" al "he après alguna cosa de mi". Es pot afegir: "Pensa en algú que coneixes que també ha fallat en alguna cosa important — com et sentiries ajudant-lo? Potser aquest error et fa més compassiu amb els altres que també fallen."
 
 ### H8: El Talent com a Servei (Descentrament)
 - **Quan aplica**: Quan l'alumne té molt d'èxit acadèmic però és individualista o competitiu.
 - **Fonament**: L'excel·lència ignasiana (*magis*) no és acumulació de mèrit personal sinó capacitat posada al servei del bé comú. El talent sense caritat és orgull que atura el creixement espiritual.
 - **Exemple complet de raonament**:
-  > L'alumne diu: "Tinc un 10 en tot, no necessito l'ajuda de ningú i no m'importa el grup." L'agent detecta un bloqueig del creixement humà malgrat l'èxit acadèmic. No castiga l'orgull — el transforma en responsabilitat. Li diu: "El teu talent és real, ningú ho nega. Però per a què el tens? Imagina un metge brillant que només tracta pacients rics. És excel·lent? T'atreveixes a un repte: lidera un grup d'estudi per ajudar tres companys amb dificultats durant un mes. No perquè tu ho necessitis, sinó perquè el teu talent només té sentit complet quan serveix als altres." L'agent l'empeny cap a l'acció que el descentra del seu "jo" i el connecta amb la comunitat.
+  > Davant un alumne que diu "tinc un 10 en tot, no necessito l'ajuda de ningú i no m'importa el grup": és un bloqueig del creixement humà malgrat l'èxit acadèmic. No cal castigar l'orgull — convé transformar-lo en responsabilitat. Una resposta adequada: "El teu talent és real, ningú ho nega. Però per a què el tens? Imagina un metge brillant que només tracta pacients rics. És excel·lent? T'atreveixes a un repte: lidera un grup d'estudi per ajudar tres companys amb dificultats durant un mes. No perquè tu ho necessitis, sinó perquè el teu talent només té sentit complet quan serveix als altres." Així es promou una acció que el descentra del seu "jo" i el connecta amb la comunitat.
 
 
 # 5. FONTS
