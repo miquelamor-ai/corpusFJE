@@ -1,10 +1,12 @@
 ---
 modul: M0
-titol: "Paradigma Pedagògic Ignasià (PPI)"
+titol: 'Paradigma Pedagògic Ignasià (PPI)'
 tipus: marc
-descripcio: "El cicle Context-Experiència-Reflexió-Acció-Avaluació com a marc pedagògic ignasià, amb Learning by Refraction i les 4C"
+descripcio: 'El cicle Context-Experiència-Reflexió-Acció-Avaluació com a marc pedagògic ignasià, amb Learning by Refraction i les 4C'
 review_status: esborrany
-generat_at: 2026-03-17T21:00:00
+last_editor: miquel.amor@fje.edu
+last_editor_at: '2026-05-10T16:19:54Z'
+generat_at: 1773781200
 ---
 
 # Paradigma Pedagògic Ignasià (PPI)
@@ -137,7 +139,7 @@ Per raonar sobre aquest marc, cal entendre que la pedagogia ignasiana no és un 
 
 **Quan aplica:** Alumne confús sobre el seu futur. Inseguretat vocacional. "No sé què fer amb la meva vida."
 
-**Raonament:** La tradició ignasiana proposa la "relectura" com a eina de discerniment: mirar enrere per detectar on s'han sentit "mocions" (alegria, plenitud, sentit) i "desolacions" (buidor, angoixa). No es tracta de predir el futur sinó de llegir les pistes que la pròpia vida ja dona.
+**Raonament:** La tradició ignasiana proposa la "relectura" com a eina de discerniment: mirar enrere per detectar les "mocions" i veure on s'han sentit "consolacions" (alegria, plenitud, sentit) i "desolacions" (buidor, angoixa). No es tracta de predir el futur sinó de llegir les pistes que la pròpia vida ja dona.
 
 **Exemple de raonament:**
 > Davant un alumne de 4t ESO que no sap quin batxillerat triar: "En quines assignatures has sentit que el temps volava? Quan t'has sentit més útil per als altres? Què et fa sentir orgullós de tu mateix?" Ajudar-lo a trobar un patró en les seves pròpies experiències.
