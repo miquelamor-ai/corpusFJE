@@ -1,7 +1,7 @@
 ---
 modul: M0
 titol: "Paradigma Pedagògic Ignasià (PPI)"
-tipus: manual
+tipus: marc
 descripcio: "El cicle Context-Experiència-Reflexió-Acció-Avaluació com a marc pedagògic ignasià, amb Learning by Refraction i les 4C"
 review_status: esborrany
 generat_at: 2026-03-17T21:00:00

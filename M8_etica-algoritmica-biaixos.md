@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-21T09:11:11
 ---
 
-### 1. DEFINICIÓ I PRINCIPIS
+## Definició i principis
 
 L'ètica algorísmica i la gestió dels biaixos són fonamentals per garantir que els sistemes d'Intel·ligència Artificial (IA) en l'educació siguin justos, fiables i respectuosos amb els drets fonamentals de les persones. Aquest marc es basa principalment en el Reglament (UE) 2024/1689, conegut com a Llei d'IA, que estableix un marc jurídic uniforme per al desenvolupament, la introducció al mercat i la utilització de sistemes d'IA a la Unió Europea. L'objectiu és promoure una IA centrada en l'ésser humà i fiable, protegint la salut, la seguretat i els drets fonamentals consagrats a la Carta dels Drets Fonamentals de la Unió Europea, inclosos la democràcia i l'Estat de Dret.
 
@@ -26,7 +26,7 @@ Els principis clau que guien l'ètica algorísmica i la gestió de biaixos, tal 
 
 Aquests principis són la base per a una implementació responsable de la IA en l'àmbit educatiu, assegurant que la tecnologia serveixi per potenciar l'aprenentatge i el desenvolupament de tots els alumnes de manera equitativa.
 
-### 2. AUTORS I EVIDÈNCIA CLAU
+## Autors i evidència clau
 
 El marc teòric i pràctic de l'ètica algorísmica i la gestió de biaixos en l'àmbit europeu i espanyol es fonamenta en una combinació de legislació, organismes reguladors i estàndards tècnics. L'actor principal és la **Unió Europea** amb el seu **Reglament (UE) 2024/1689 (Llei d'IA)**, que és la primera normativa integral sobre IA a nivell mundial. Aquest reglament estableix les bases per a una IA fiable i centrada en l'ésser humà, amb un fort èmfasi en la protecció dels drets fonamentals.
 
@@ -54,7 +54,7 @@ L'evidència clau i els marcs de referència tècnics citats en aquestes guies, 
 
 Aquests estàndards i guies proporcionen les eines i metodologies per avaluar, documentar i mitigar els biaixos, així com per garantir la fiabilitat, transparència i equitat dels sistemes d'IA en el context del compliment del Reglament Europeu d'Intel·ligència Artificial.
 
-### 3. EXEMPLES CONCRETS D'APLICACIÓ A L'AULA
+## Exemples concrets d'aplicació a l'aula
 
 L'aplicació dels principis d'ètica algorísmica i la gestió de biaixos és crucial en qualsevol sistema d'IA que interactuï amb l'alumnat i els docents. Aquí teniu tres exemples concrets per a diferents etapes educatives:
 
@@ -70,7 +70,7 @@ L'aplicació dels principis d'ètica algorísmica i la gestió de biaixos és cr
     *   Un sistema d'IA que analitza els treballs escrits dels alumnes per detectar similituds amb fonts existents i identificar possibles plagis.
     *   **Consideració ètica i gestió de biaixos**: El risc de biaix aquí és alt. Si el sistema s'entrena amb un corpus de textos que no inclou la diversitat de llengües, dialectes o estils acadèmics dels alumnes, podria generar falsos positius per a estudiants amb un català o castellà no natiu, o amb formes d'expressió menys convencionals. També podria no detectar plagis en idiomes menys representats en el seu corpus. Èticament, el sistema hauria de ser transparent sobre les seves capacitats i limitacions, i la seva funció ha de ser la de suport al docent, no la de jutge final. La decisió sobre el plagi ha de ser sempre humana, basada en una anàlisi contextual i un diàleg amb l'alumne. L'auditoria hauria de centrar-se en la precisió del sistema en diferents contextos lingüístics i culturals, i en la minimització de falsos positius i negatius.
 
-### 4. ERRORS COMUNS — QUÈ NO FER
+## Errors comuns — què NO fer
 
 L'ús de sistemes d'IA en educació, si no es gestiona amb una ètica algorísmica rigorosa, pot portar a errors amb conseqüències significatives. Aquí hi ha tres errors comuns a evitar:
 
