@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:15:42
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL MARC
-
 ## Definició i principis
 
 L'educació per a la Ciutadania Global i la Justícia, en clau ignasiana, és un pilar fonamental de la identitat i missió de Jesuïtes Educació. No és una assignatura o un projecte aïllat, sinó un eix transversal que impregna tota la proposta educativa, buscant la formació integral de persones que siguin "per als altres i amb els altres" (Pedro Arrupe). Aquesta aspiració s'arrel·la en l'experiència fundacional de Sant Ignasi de Loiola i els seus primers companys, que ja des del segle XVI van abraçar una visió universalista, aventurant-se arreu del món i trobant-se amb cultures i persones que van enriquir profundament la seva missió (DOC 94).
@@ -73,18 +71,18 @@ El marc de Ciutadania Global i Justícia, tot i ser universal en els seus princi
 *   **Evolució constant del concepte:** La Ciutadania Global és un concepte dinàmic que evoluciona amb els "signes dels temps" (DOC 63, DOC 85, DOC 92). Les noves tecnologies, la globalització i els canvis socials (DOC 33, DOC 39, DOC 72) plantegen nous desafiaments i oportunitats que requereixen un discerniment continu i una adaptació constant de les pràctiques educatives (DOC 102, DOC 111). No es tracta d'una definició tancada, sinó d'un horitzó cap al qual es camina.
 *   **Tensió entre teoria i pràctica:** La integració de la fe i la justícia en la pràctica educativa no sempre és fàcil i pot generar tensions (DOC 58). Requereix un compromís constant de la comunitat educativa i una formació contínua (DOC 73, DOC 80).
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Perfil Alumne 4 C's**: Aquest document defineix el perfil de l'alumnat que es busca formar (Competent, Conscient, Compassiu, Compromès), que és el cor de la Ciutadania Global i Justícia.
-*   **Marc Pedagogia Ignasiana (PPI)**: Explica el model pedagògic (Context, Experiència, Reflexió, Acció, Avaluació) que és fonamental per implementar l'educació per a la Ciutadania Global i Justícia de manera significativa.
-*   **Marc Espiritualitat Ignasiana**: Proporciona la base espiritual (discerniment, trobar Déu en totes les coses, Magis) que dona sentit i profunditat a la Ciutadania Global i Justícia.
-*   **Estratègia Aprenentatge Servei (ApS)**: Detalla una metodologia clau per a la implementació pràctica de la Ciutadania Global i Justícia, connectant l'aprenentatge amb el servei a la comunitat.
-*   **Normativa Preferències Apostòliques Universals (PAU)**: Estableix les orientacions globals de la Companyia de Jesús, incloent "caminar amb els exclosos", "acompanyar els joves" i "cuidar la Casa Comuna", que són pilars de la Ciutadania Global i Justícia.
-*   **Marc Ecologia Integral**: Aprofundeix en la dimensió de la cura de la Casa Comuna, que és un component essencial de la Ciutadania Global i Justícia.
-*   **Marc Projecte Vital i Vocacional**: Connecta la Ciutadania Global amb la recerca de sentit i la vocació personal de l'alumnat, entesa com a donació als altres.
-*   **Estratègia Treball Cooperatiu**: Fomenta habilitats socials i de col·laboració necessàries per a una acció col·lectiva en pro de la justícia i la ciutadania global.
+- **`M0_excellencia-humana-4C.md`** — Les 4C (competent, conscient, compassiu, compromès) és el perfil que l'educació per a la Ciutadania Global vol formar; no es pot entendre l'un sense l'altre
+- **`M0_PPI-paradigma-pedagogic-ignasia.md`** — El PPI (Context-Experiència-Reflexió-Acció-Avaluació) és el mètode pedagògic que dóna profunditat transformadora a la Ciutadania Global; sense reflexió, l'activisme social és superficial
+- **`M0_identitat-missio-valors.md`** — La missió de reconciliació i justícia (CG36) és el fonament espiritual de la Ciutadania Global; la identitat ignasiana li dóna arrel i no la deixa ser una moda pedagògica
+- **`M0_preferencies-apostoliques-universals.md`** — Les PAU B (pobres), C (joves) i D (Casa Comuna) concreten en termes apostòlics allò que la Ciutadania Global tradueix en termes educatius
+- **`M0_ecologia-integral.md`** — L'ecologia integral (PAU D, *Laudato Si'*) és la dimensió socioambiental de la Ciutadania Global; justícia social i cura de la creació són inseparables
+- **`M0_cultura-vocacional.md`** — La Ciutadania Global connecta amb el projecte vital i vocacional: la vocació ignasiana és una crida a posar el propi talent al servei dels altres
+- **`M2_ABP-aprenentatge-servei.md`** — L'APS és la metodologia privilegiada per implementar la Ciutadania Global: connecta l'aprenentatge amb el servei real a la comunitat sense reduir-ho a caritat
+- **`M2_aprenentatge-cooperatiu.md`** — El treball cooperatiu desenvolupa les habilitats de col·laboració i diàleg necessàries per a l'acció col·lectiva en pro de la justícia
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
 **Senyals del docent:**
 *   El docent expressa preocupació per la manca de sentit o motivació de l'alumnat davant els problemes del món.
@@ -114,7 +112,7 @@ El marc de Ciutadania Global i Justícia, tot i ser universal en els seus princi
 *   Es prioritza exclusivament l'èxit acadèmic individual per sobre de la formació en valors o el compromís social.
 *   Hi ha un enfocament en la caritat puntual sense una reflexió sobre les causes estructurals de la injustícia.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general:** L'educació per a la Ciutadania Global i la Justícia és la concreció de la missió ignasiana de formar persones "per als altres i amb els altres", que busquen la reconciliació amb Déu, la humanitat i la creació.
 
@@ -163,91 +161,13 @@ El marc de Ciutadania Global i Justícia, tot i ser universal en els seus princi
     *   **Exemple complet de raonament:** Davant un alumne amb bones notes en matemàtiques que dubta entre diverses carreres, una pregunta útil és: "Has pensat com les teves habilitats en matemàtiques podrien servir per a un món més just i solidari? Per exemple, un economista pot dissenyar models financers més equitatius, un enginyer pot crear tecnologies sostenibles, o un informàtic pot desenvolupar solucions per a col·lectius vulnerables. La teva vocació no és només el que et fa feliç a tu, sinó també com pots posar els teus dons al servei dels 'exclosos' i de la 'Casa Comuna', transformant la teva professió en una eina de justícia i reconciliació."
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Examen-2017-Ross-Jones-SJ | file://upload/Examen-2017-Ross-Jones-SJ.pdf |
-| 2 | 200510803sp Conversacion espiritual | file://upload/200510803sp Conversacion espiritual.pdf |
-| 5 | La-Conversación-Espiritual-ES | file://upload/La-Conversación-Espiritual-ES.pdf |
-| 6 | Pautas-para-la-conversacion-espiritual | file://upload/Pautas-para-la-conversacion-espiritual.pdf |
-| 7 | 1491-1556,_Ignatius_Loyola,_Constituciones_de_la_Compania_de_Jesus,_ES | file://upload/1491-1556,_Ignatius_Loyola,_Constituciones_de_la_Compania_de_Jesus,_ES.pdf |
-| 8 | Fórmula del Instituto, 1550 - La _Mínima Compañía_ | file://upload/Fórmula del Instituto, 1550 - La _Mínima Compañía_.pdf |
-| 9 | Normas-Complementarias-Séptima-parte-277-297-Español | file://upload/Normas-Complementarias-Séptima-parte-277-297-Español.pdf |
-| 10 | Triptic Nova  FP 2022 JE_OK2desplegat | file://upload/Triptic Nova  FP 2022 JE_OK2desplegat.pdf |
-| 11 | Triptic_LLAR_2021_JE | file://upload/Triptic_LLAR_2021_JE.pdf |
-| 12 | Triptic_TQE 2021_JE | file://upload/Triptic_TQE 2021_JE.pdf |
-| 13 | Diptic Essencials JE_ WEB_20200201_pdf | file://upload/Diptic Essencials JE_ WEB_20200201_pdf.pdf |
-| 14 | Díptic_Essencials_Horitzó2020_2018 | file://upload/Díptic_Essencials_Horitzó2020_2018.pdf |
-| 15 | Díptic_Relat_HoritzóMés_2019 | file://upload/Díptic_Relat_HoritzóMés_2019.pdf |
-| 16 | Triptic_MOPI_2021_JE | file://upload/Triptic_MOPI_2021_JE.pdf |
-| 17 | Triptic_NEI_2021_JE | file://upload/Triptic_NEI_2021_JE.pdf |
-| 18 | Triptic_PIN_2022_JE | file://upload/Triptic_PIN_2022_JE.pdf |
-| 20 | Pacte educatiu global vademecum-espanol | file://upload/Pacte educatiu global vademecum-espanol.pdf |
-| 21 | papa-francesco_20201003_enciclica-fratelli-tutti_es | file://upload/papa-francesco_20201003_enciclica-fratelli-tutti_es.pdf |
-| 23 | Fratelli tutti (3 de octubre de 2020) | file://upload/Fratelli tutti (3 de octubre de 2020).pdf |
-| 25 | Laudato si_ (24 de mayo de 2015) | file://upload/Laudato si_ (24 de mayo de 2015).pdf |
-| 26 | papa-francesco_20150524_enciclica-laudato-si_es | file://upload/papa-francesco_20150524_enciclica-laudato-si_es.pdf |
-| 27 | papa-francesco_20190912_messaggio-patto-educativo_es | file://upload/papa-francesco_20190912_messaggio-patto-educativo_es.pdf |
-| 28 | 2019-13_21abr19_ESP (5) | file://upload/2019-13_21abr19_ESP (5).pdf |
-| 29 | PAU 2019-06_19feb19_ESP (3) | file://upload/PAU 2019-06_19feb19_ESP (3).pdf |
-| 30 | The_Kairos_of_an_unexpected_hope_-_James_Hanvey_SJ (3) | file://upload/The_Kairos_of_an_unexpected_hope_-_James_Hanvey_SJ (3).pdf |
-| 33 | Nicols A. 2009 - Problemas y Desafos Ed. Jesuita - Manila | file://upload/Nicols A. 2009 - Problemas y Desafos Ed. Jesuita - Manila.pdf |
-| 34 | 2017.10.18_SOSA_Arturo_Universidad_Reconciliacion-Justicia_PUC-Rio-de-Janeiro-1704370083 | file://upload/2017.10.18_SOSA_Arturo_Universidad_Reconciliacion-Justicia_PUC-Rio-de-Janeiro-1704370083.pdf |
-| 35 | 2017.10.26_SOSA_Arturo_FEI-Sao-Paulo-Brazil-1704367113 | file://upload/2017.10.26_SOSA_Arturo_FEI-Sao-Paulo-Brazil-1704367113.pdf |
-| 36 | 2017.10.27_SOSA_Arturo_Discernimiento-Planificacion_UNISINOS-1704364241 | file://upload/2017.10.27_SOSA_Arturo_Discernimiento-Planificacion_UNISINOS-1704364241.pdf |
-| 37 | 100423_Mexico_ESP-Redes-para-la-Educ-Sup-Jes | file://upload/100423_Mexico_ESP-Redes-para-la-Educ-Sup-Jes.pdf |
-| 38 | 100426_UCA_50-aniversario_ESP | file://upload/100426_UCA_50-aniversario_ESP.pdf |
-| 39 | 110909_125-anniv.-Deusto_Lectio-repartida | file://upload/110909_125-anniv.-Deusto_Lectio-repartida.pdf |
-| 40 | 130506_Valladolid_Liderazgo_ignaciano | file://upload/130506_Valladolid_Liderazgo_ignaciano.pdf |
-| 41 | 130508_Gijon_Conferencia_sobre_educacion-2013.05.08-1704379892 | file://upload/130508_Gijon_Conferencia_sobre_educacion-2013.05.08-1704379892.pdf |
-| 43 | 202126-Homilia-JGNS-1638215806 | file://upload/202126-Homilia-JGNS-1638215806.pdf |
-| 44 | Alocución-del-P.-General-Congreso-de-la-Unión-Mundial-de-Antiguos-Alumnos-26-julio-2009 | file://upload/Alocución-del-P.-General-Congreso-de-la-Unión-Mundial-de-Antiguos-Alumnos-26-julio-2009.pdf |
-| 45 | arr_colegios_sp | file://upload/arr_colegios_sp.pdf |
-| 46 | arr_men_sp | file://upload/arr_men_sp.pdf |
-| 47 | Discurso-Padre-General-47-Congreso-Internacional-Fe-y-Alegría | file://upload/Discurso-Padre-General-47-Congreso-Internacional-Fe-y-Alegría.pdf |
-| 50 | Nicols A. 2008 - Homilia Clausura C 35 - Roma | file://upload/Nicols A. 2008 - Homilia Clausura C 35 - Roma.pdf |
-| 51 | Nicols A. 2013 Educacin en la Compaa de Jess Gijn - Espaa | file://upload/Nicols A. 2013 Educacin en la Compaa de Jess Gijn - Espaa.pdf |
-| 52 | primera_homilia_pgeneral_arturososa | file://upload/primera_homilia_pgeneral_arturososa.pdf |
-| 58 | Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907 | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf |
-| 59 | Diccionario de espiritualidad ignaciana 2 (G-Z)-1-450 | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z)-1-450.pdf |
-| 61 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-601-895 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-601-895.pdf |
-| 63 | DOCUMENTO-Cinco-claves-de-Espiritualidad-Ignaciana | file://upload/DOCUMENTO-Cinco-claves-de-Espiritualidad-Ignaciana.pdf |
-| 64 | Diccionario de espiritualidad ignaciana 2 (G-Z) | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z).pdf |
-| 66 | CG32_ESP | file://upload/CG32_ESP.pdf |
-| 68 | Compañía-de-Jesús-2017-Decreto-1-CG-36 | file://upload/Compañía-de-Jesús-2017-Decreto-1-CG-36.pdf |
-| 70 | Congregación-General-34-Educación-secundaria-primaria-y-popular-Español | file://upload/Congregación-General-34-Educación-secundaria-primaria-y-popular-Español.pdf |
-| 72 | Rasgos y Retos del joven QTC FINAL. Antropología | file://upload/Rasgos y Retos del joven QTC FINAL. Antropología.pdf |
-| 73 | caracter propio de los centros educativos de la compani ii a de jesui s | file://upload/caracter propio de los centros educativos de la compani ii a de jesui s.pdf |
-| 74 | Document Cultura Vocacional Provincia-CAT | file://upload/Document Cultura Vocacional Provincia-CAT.pdf |
-| 76 | Infografía CV_imprimir_CAT | file://upload/Infografía CV_imprimir_CAT.pdf |
-| 80 | modos de proceder en un centro educativo de la compania de jesus | file://upload/modos de proceder en un centro educativo de la compania de jesus.pdf |
-| 83 | NEW-Brochure-ESP_jesedu-rio2017 | file://upload/NEW-Brochure-ESP_jesedu-rio2017.pdf |
-| 85 | SIPEI-Declaración-Final (1) | file://upload/SIPEI-Declaración-Final (1).pdf |
-| 86 | ICJSE-Declaración-Final BOSTON 2012 | file://upload/ICJSE-Declaración-Final BOSTON 2012.pdf |
-| 87 | II COLOQUIO JESEDU-JOGJA2020 - INFORMACIÓN COMPLETA | file://upload/II COLOQUIO JESEDU-JOGJA2020 - INFORMACIÓN COMPLETA.pdf |
-| 88 | JESEDU-Global2021- Precoloquio | file://upload/JESEDU-Global2021- Precoloquio.pdf |
-| 89 | JESEDU-Global-2021-Declaración-Final-ES-211019-1634816548 (3) | file://upload/JESEDU-Global-2021-Declaración-Final-ES-211019-1634816548 (3).pdf |
-| 90 | JESEDU-Jogja2024-Declaracion-Final-ES-1721660286 (1) | file://upload/JESEDU-Jogja2024-Declaracion-Final-ES-1721660286 (1).pdf |
-| 91 | JESEDU-Rio-2017-Acuerdos-Finales (1) | file://upload/JESEDU-Rio-2017-Acuerdos-Finales (1).pdf |
-| 92 | Presenter_AlvaroLoboSJ_Script-1722606624 (1) | file://upload/Presenter_AlvaroLoboSJ_Script-1722606624 (1).pdf |
-| 93 | SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020 | file://upload/SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020.pdf |
-| 94 | 25-11-2020. Documento Marco de Ciudadanía Global versió 7 Català (1).docx | file://upload/25-11-2020. Documento Marco de Ciudadanía Global versió 7 Català (1).docx.pdf |
-| 95 | edujesuit-derecho-a-la-educacion-para-todas-las-personas | file://upload/edujesuit-derecho-a-la-educacion-para-todas-las-personas.docx |
-| 96 | Ciudadanía-Global_Un-Verdadero-Compañero-_191125 | file://upload/Ciudadanía-Global_Un-Verdadero-Compañero-_191125.pdf |
-| 97 | El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824 | file://upload/El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824.pdf |
-| 98 | LA PEDAGOGIA DE LOS JESUITAS EN EL RATIO STUDIORUM (1) | file://upload/LA PEDAGOGIA DE LOS JESUITAS EN EL RATIO STUDIORUM (1).pdf |
-| 99 | Pedagogia Ignasiana. Un Plantejament Pràctic. 1993. | file://upload/Pedagogia Ignasiana. Un Plantejament Pràctic. 1993..pdf |
-| 102 | Una_tradicio_viva_CA-Catalan-1670506742 | file://upload/Una_tradicio_viva_CA-Catalan-1670506742.pdf |
-| 103 | An_Integrated_Perspective_ES_FULL (1) | file://upload/An_Integrated_Perspective_ES_FULL (1).pdf |
-| 104 | autobiografia | file://upload/autobiografia.pdf |
-| 105 | Característiques de l_educació a la companyia de Jesús. 1986 | file://upload/Característiques de l_educació a la companyia de Jesús. 1986.pdf |
-| 106 | Carta-del-Padre-General-Kolvenbach-SJ-1 Presentació Característiques  | file://upload/Carta-del-Padre-General-Kolvenbach-SJ-1 Presentació Característiques .pdf |
-| 107 | Compañía-de-Jesús-1599-Ratio-Studiorum-Oficial | file://upload/Compañía-de-Jesús-1599-Ratio-Studiorum-Oficial.pdf |
-| 108 | El paradigma Ledesma Kolvenbach | file://upload/El paradigma Ledesma Kolvenbach.pdf |
-| 109 | EXCELENCIA_HUMANA_-ESP | file://upload/EXCELENCIA_HUMANA_-ESP.pdf |
-| 110 | Ignacio de Loyola Ejercicios Espirituales-Texto autografo | file://upload/Ignacio de Loyola Ejercicios Espirituales-Texto autografo.pdf |
-| 111 | Jesuit-Education-Contemporary-Map-ES-1733135006 | file://upload/Jesuit-Education-Contemporary-Map-ES-1733135006.pdf |
-| 112 | Learning by Refraction  A Practitioner_s Guide to 21st-Century Ignatian Pedagogy_nodrm | file://upload/Learning by Refraction  A Practitioner_s Guide to 21st-Century Ignatian Pedagogy_nodrm.pdf |
-
-*82 documents citats de 113 al corpus · secció generada automàticament*
+- Sosa, A. SJ (2017). *Missió de Reconciliació i Justícia* — Decret 1, CG36. Roma: Companyia de Jesús.
+- Papa Francesc (2015). *Laudato Si'*. Vaticà: Libreria Editrice Vaticana.
+- Papa Francesc (2020). *Fratelli Tutti*. Vaticà: Libreria Editrice Vaticana.
+- Kolvenbach, P-H. SJ (2000). *El paradigma Ledesma-Kolvenbach: Utilitas, Iustitia, Humanitas, Fides*. Discurs a la Universitat Santa Clara.
+- ICAJE (1993). *Pedagogia Ignasiana: Un plantejament pràctic (PPI)*. Roma: Cúria de la Companyia de Jesús.
+- Secretariat d'Educació SJ (2019). *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI*. Roma.
+- Jesuïtes Educació (2020). *Document Marc de Ciutadania Global* (v7). Barcelona: FJE.
+- Arrupe, P. SJ (1973). *Homes per als altres*. Roma: Companyia de Jesús.

@@ -9,8 +9,6 @@ descripcio: "Projecte educatiu de Jesuïtes Educació (FJE): Horitzó, HoritzóM
 generat_at: 2026-03-17T00:00:00
 ---
 
-# 1. FONAMENT TEÒRIC
-
 ## Què és el projecte educatiu de FJE
 
 El projecte educatiu de Jesuïtes Educació (FJE) és la concreció catalana de la tradició educativa jesuïta. No és un "model" — el model és la pedagogia ignasiana, amb cinc segles d'història. El projecte educatiu és com FJE encarna aquell model en un context concret: vuit escoles a Catalunya, 14.500 alumnes, 2.000 educadors, una societat plural, multicultural, digital i secularitzada.
@@ -108,7 +106,7 @@ La xarxa no és una federació d'escoles independents sinó un projecte únic am
 
 ---
 
-# 2. EXEMPLES CONCRETS D'APLICACIÓ A L'AULA
+## Exemples concrets d'aplicació a l'aula
 
 ### Exemple 1 (MOPI — 3-6 anys): Un node d'aprenentatge sobre l'aigua
 
@@ -146,7 +144,42 @@ La xarxa no és una federació d'escoles independents sinó un projecte únic am
 
 ---
 
-# 5. FONTS
+## 3. Connexions amb altres documents del corpus
+
+- **`M0_PPI-paradigma-pedagogic-ignasia.md`** — El PPI és el fonament pedagògic del projecte FJE; les vuit dimensions pedagògiques s'articulen a través del cicle Context-Experiència-Reflexió-Acció-Avaluació
+- **`M0_identitat-missio-valors.md`** — La missió i els valors FJE donen el sentit últim al projecte; els Essencials tradueixen operativament la identitat ignasiana en cada etapa
+- **`M0_preferencies-apostoliques-universals.md`** — Les PAU donen la direcció apostòlica; l'HoritzóMés recull explícitament la PAU C (joves esperançadors) i la PAU B (vulnerables)
+- **`M0_excellencia-humana-4C.md`** — Les 4C (conscient, competent, compassiu, compromès) és el perfil de sortida del projecte FJE; totes les etapes i dimensions pedagògiques hi apunten
+- **`M0_cura-personalis.md`** — La Cura Personalis és el fonament de l'acompanyament personal que defineix l'etapa TQE i el projecte vital i vocacional de cada alumne
+- **`M0_cultura-vocacional.md`** — La cultura vocacional concreta el projecte vital i vocacional que vertebra totes les etapes, de LLAR fins a FP
+- **`M0_ciutadania-global-justicia.md`** — Els cinc eixos transversals de ciutadania global del projecte FJE (justícia, interculturalitat, gènere, sostenibilitat, democràcia) articulen la dimensió social de la missió
+- **`M2_ABP-aprenentatge-servei.md`** — L'APS és la metodologia que concreta la dimensió de servei i ciutadania en les etapes PIN, NEI i TQE
+
+## 4. Detecció
+
+### Senyals del docent
+
+- Vol entendre el marc institucional FJE per contextualitzar la seva tasca docent.
+- Necessita comprendre per què les etapes es diuen MOPI/PIN/NEI/TQE i quina coherència les uneix.
+- Busca la connexió entre innovació pedagògica (ABP, codocència) i identitat ignasiana.
+- Se sent perdut davant la multiplicitat de sigles i programes del projecte FJE.
+
+### Senyals de context
+
+- Presentació del centre a noves famílies o procés de portes obertes.
+- Incorporació de nous docents que s'integren al projecte.
+- Procés de reflexió institucional, claustres pedagògics o avaluació del projecte de centre.
+- Alumne o família en transició d'etapa que necessita comprendre la progressió.
+
+### Anti-senyals
+
+- Reducció del projecte a un seguit de metodologies (fer ABP, tenir aules grans) sense entendre la coherència sistèmica.
+- Confondre l'Horitzó/HoritzóMés amb un projecte d'innovació tecnològica o de marketing.
+- Tractar les etapes FJE com a canvi de nomenclatura sense transformació real de l'experiència educativa.
+- Desconnectar els Essencials de la pedagogia ignasiana (veure'ls com a tècniques i no com a espiritualitat).
+
+
+## 5. Fonts
 
 - Jesuïtes Educació (2018). *Díptic Essencials Horitzó 2020*. Barcelona: FJE.
 - Jesuïtes Educació (2019). *Díptic Relat HoritzóMés*. Barcelona: FJE.

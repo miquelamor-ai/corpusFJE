@@ -9,8 +9,6 @@ descripcio: "Les quatre Preferències Apostòliques Universals 2019-2029 i la se
 generat_at: 2026-03-17T00:00:00
 ---
 
-# 1. FONAMENT TEÒRIC
-
 ## Definició i principis
 
 Les **Preferències Apostòliques Universals (PAU) 2019-2029** són les quatre orientacions que guien l'acció de tota la Companyia de Jesús durant la dècada actual. El P. General Arturo Sosa les promulgà el 19 de febrer de 2019, confirmades pel Papa Francesc, com a fruit d'un procés de discerniment de setze mesos que implicà tots els nivells de la Companyia — comunitats locals, províncies, conferències regionals i la Cúria general.
@@ -55,7 +53,7 @@ En el context de Jesuïtes Educació, les PAU no són un marc extern que cal "ad
 
 ---
 
-# 2. EXEMPLES CONCRETS D'APLICACIÓ A L'AULA
+## Exemples concrets d'aplicació a l'aula
 
 ### Exemple 1 (Primària): El racó del silenci i la pregunta interior — PAU A
 
@@ -89,16 +87,52 @@ En el context de Jesuïtes Educació, les PAU no són un marc extern que cal "ad
 
 ---
 
-# 3. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-| Document | Connexió | Tipus |
-|---|---|---|
-| M0_identitat-missio-valors.md | Les PAU com a expressió contemporània de la missió ignasiana | Obligatòria |
-| M0_PPI-paradigma-pedagogic-ignasia.md | El PPI com a vehicle pedagògic per viure les PAU a l'escola | Obligatòria |
-| M0_cura-personalis.md | La Cura Personalis és la forma concreta de la PAU C en l'acció docent | Obligatòria |
-| M0_magis-i-servei.md | El Magis com a criteri de discerniment per triar entre bones opcions (lògica de les PAU) | Obligatòria |
-| M0_ciutadania-global-justicia.md | La PAU B en clau de justícia global i compromís social | Obligatòria |
-| M0_ecologia-integral.md | La PAU D com a marc per a l'ecologia integral al centre | Obligatòria |
-| M0_acompanyament-tutoria-ignasia.md | La tutoria ignasiana com a espai de la PAU A (discerniment) i PAU C (joves) | Recomanada |
-| M2_ABP-aprenentatge-servei.md | L'APS com a metodologia que expressa la PAU B i C | Recomanada |
-| M7_espais-aprenentatge-interioritat.md | Els espais d'interioritat com a expressió de la PAU A | Recomanada |
+- **`M0_identitat-missio-valors.md`** — Les PAU com a expressió contemporània de la missió ignasiana; les quatre orientacions apostòliques concreten la vocació universal de la Companyia en el moment present
+- **`M0_PPI-paradigma-pedagogic-ignasia.md`** — El PPI és el vehicle pedagògic per viure les PAU a l'escola; el cicle Experiència-Reflexió-Acció és com les PAU es fan carn a l'aula
+- **`M0_cura-personalis.md`** — La Cura Personalis és la forma concreta de la PAU C en l'acció docent: acompanyar cada jove en la creació del seu futur esperançador
+- **`M0_magis-i-servei.md`** — El Magis és el criteri de discerniment que operen les PAU: triar sempre allò que dóna "major servei" entre múltiples opcions bones
+- **`M0_ciutadania-global-justicia.md`** — La PAU B (caminar amb els pobres) en clau d'educació: justícia global, reconciliació i compromís social com a eixos transversals
+- **`M0_ecologia-integral.md`** — La PAU D (Casa Comuna) és el marc per a l'ecologia integral; la conversió ecològica que demanen les PAU comença per les pràctiques del centre
+- **`M0_acompanyament-tutoria-ignasia.md`** — La tutoria ignasiana és l'espai privilegiat de la PAU A (discerniment) i la PAU C (acompanyament vocacional dels joves)
+- **`M2_ABP-aprenentatge-servei.md`** — L'APS és la metodologia que expressa simultàniament la PAU B (servei) i la PAU C (joves transformats per l'experiència)
+- **`M7_espais-aprenentatge-interioritat.md`** — Els espais d'interioritat al centre (retirs, silenci, examen) són la concreció física de la PAU A a l'escola
+
+## 4. Detecció
+
+### Senyals del docent
+
+- Pregunta com portar la missió ignasiana al dia a dia sense quedar-se en eslògans.
+- Vol integrar la dimensió apostòlica al projecte educatiu sense imposar.
+- Busca eines per acompanyar l'alumnat en el discerniment vocacional.
+- Expressa tensió entre l'excel·lència acadèmica i l'orientació cap als vulnerables.
+
+### Senyals de l'alumnat
+
+- Manifesta desorientació sobre el seu futur o la seva identitat.
+- Mostra sensibilitat davant les injustícies però no sap com actuar.
+- Expressa desig de "fer alguna cosa útil" però no troba per on começar.
+- Viu en un entorn d'abundància però experimenta buit de sentit.
+
+### Senyals de context
+
+- Etapes de transició vocacional (final de TQE, inici de Batxillerat/FP).
+- Projectes APS en marxa al centre.
+- Moments de reflexió institucional o personal (retirs, convivències).
+- Treball sobre ecologia integral o justícia social al centre.
+
+### Anti-senyals
+
+- Reducció de les PAU a activitats puntuals sense connexió entre elles.
+- Tractament de la PAU D com a "tema medi ambient" desconnectat de la justícia social.
+- Ús de les PAU com a indicadors de memòria anual sense conversió real.
+- Assignació de cada PAU a un departament o projecte aïllat (destrossa la unitat de les quatre).
+
+## 5. Fonts
+
+- Sosa, A. SJ (2019). *Carta de promulgació de les Preferències Apostòliques Universals 2019-2029* (CG 2019/06). Roma: Cúria de la Companyia de Jesús.
+- Sosa, A. SJ (2019). *Integració i posada en pràctica de les PAU* (CG 2019/13). Roma: Cúria de la Companyia de Jesús.
+- Congregació General 36 (2016). *Decret 1: Companys en una missió de reconciliació i justícia*. Roma: Companyia de Jesús.
+- Papa Francesc (2019). *Carta de confirmació de les PAU*, 6 de febrer de 2019. Vaticà.
+- Jesuïtes Educació (2023). *Document marc FJE*. Barcelona: Fundació Jesuïtes Educació.
