@@ -8,8 +8,6 @@ generat_at: 2026-03-18T12:59:52
 actualitzat_at: 2026-03-27T02:00:00
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL PROTOCOL
-
 ## Context i propòsit
 
 Aquest protocol estableix els passos per a l'atenció a la diversitat de l'alumnat, entenent la diversitat com una realitat inherent i una riquesa (DOC 10). En una societat globalitzada i complexa, cada alumne és un individu amb múltiples pertinences i identitats (DOC 1, DOC 2, DOC 3, DOC 4), amb necessitats cognitives, afectives, socials i lingüístiques diverses (DOC 8). L'objectiu és garantir la inclusió i l'èxit educatiu de tot l'alumnat, identificant i suprimint les barreres d'aprenentatge i participació des de l'aula ordinària (DOC 10). Aquest protocol guia l'elaboració i coordinació del Pla d'Atenció a la Diversitat (PAD) del centre i els Plans Individualitzats (PI) o Adaptacions Curriculars Individualitzades (ACI), assegurant una resposta educativa ajustada a les necessitats de cada alumne.
@@ -169,22 +167,48 @@ Condicions per al tancament del PI:
 
 > **Nota FJE:** Si cal una plantilla pròpia, elaborar-la sobre aquesta base afegint camps d'identitat ignasiana (connexió PAD de centre, cura personalis, tutor ignasianer).
 
-## Connexions amb altres fitxes del corpus
+## 3. Connexions amb altres documents del corpus
 
-- **M1_neurodiversitat-NESE.md** — La jerarquia NESE/NEE determina si el PI és obligatori o voluntari (PSI).
-- **M2_mesures-suports-inclusius.md** — Les mesures universals, addicionals i intensives que el PI coordina.
-- **M6_adaptacio-avaluacio-NEE.md** — Com s'avalua l'alumnat dins el marc del PI.
-- **M9_decrets-inclusio-ordenacio.md** — Base normativa: Decret 150/2017 i instruccions vigents.
+- **`M1_neurodiversitat-NESE.md`** — La jerarquia NESE/NEE determina si el PI és obligatori (dictamen EAP) o voluntari (PSI); el marc conceptual és el punt de partida per comprendre quins alumnes el necessiten
+- **`M2_mesures-suports-inclusius.md`** — Les mesures universals, addicionals i intensives que el PI coordina i formalitza; el PI és l'instrument que les documenta i assegura la seva coherència entre docents
+- **`M6_adaptacio-avaluacio-NEE.md`** — Com s'avalua l'alumnat dins el marc del PI; l'adaptació dels criteris i instruments d'avaluació és part del contingut mínim obligatori
+- **`M9_decrets-inclusio-ordenacio.md`** — Base normativa: Decret 150/2017, art. 12 (PI obligatori), i instruccions vigents; el PI obligatori és un dret legal i ha de formar part de l'expedient acadèmic
+- **`M0_cura-personalis.md`** — La Cura Personalis és el principi que dóna sentit ignasià al PI: no és burocràcia ni compliment normatiu sinó atenció real i personalitzada a la persona concreta
+- **`M0_educador-samarita.md`** — El tutor com a figura central del PI és l'educador samarità en acció: conèixer l'alumne, coordinar l'equip, acompanyar la família i mantenir la coherència del suport
 
-## 5. FONTS DEL CORPUS
+## 4. Detecció
 
-| # | Referència | Tipus | Any |
-|---|-----------|-------|-----|
-| 1 | Decret 150/2017, d'atenció educativa. Art. 12 (PI). DOGC 7477. | Normativa | 2017 |
-| 2 | Departament d'Educació. Orientacions per a l'elaboració del PI. XTEC. | Orientacions | 2020 |
-| 3 | Departament d'Educació. DOIGC Educació Inclusiva. Curs 2025-2026. Gencat. | Instruccions | 2025 |
-| 4 | XTEC nou currículum. Pla de suport individualitzat. | Recurs | 2025 |
-| 5 | ECOM. El Pla de Suport Individualitzat (PI). | Divulgació | 2024 |
-| 6 | CGT Ensenyament. La FP al decret d'escola inclusiva. | Anàlisi | 2020 |
+### Senyals del docent
 
-*6 fonts vigents 2017-2025 · secció actualitzada manualment*
+- Detecta que les mesures ordinàries no són suficients per a un alumne concret: malgrat les adaptacions d'aula, l'alumne no progressa.
+- Rep un informe psicopedagògic de l'EAP que reconeix NEE → PI obligatori (D150/2017, art. 12).
+- Detecta NESE (dislèxia, TDAH, nouvingut, altes capacitats) sense dictamen → considera PSI voluntari.
+- Rep l'alumne d'una altra etapa o centre amb PI ja elaborat → revisar i actualitzar.
+
+### Senyals de context
+
+- Inici de curs: revisió dels PIs de l'any anterior (continuen? cal actualitzar? cal tancar?).
+- Canvi d'etapa: el PI acompanya l'expedient acadèmic i cal informe de traspàs.
+- Reunió de la CAD: es prioritzen les demandes d'atenció i es decideix sobre nous PIs.
+- Detecció de dificultats persistents malgrat mesures ordinàries aplicades durant almenys un trimestre.
+
+### Anti-senyals
+
+- Elaborar PI sense informe psicopedagògic per a NEE (seria PSI, no PI formal).
+- Fer el PI com a tràmit burocrà sense participació de la família i de l'alumne.
+- No revisar el PI trimestralment i deixar que quedi desfasat respecte a l'evolució de l'alumne.
+- Tancar el PI sense acta de tancament ni justificació documentada.
+
+### Heurístiques
+
+- La pregunta clau: "Té dictamen EAP?" Si sí → PI obligatori. Si no → valorar PSI voluntari.
+- Si hi ha dubte sobre si cal PI o mesures ordinàries: aplicar les ordinàries primer; si no funcionen en un trimestre → PI.
+- Quan l'alumne canvia de centre o d'etapa: el PI es trasllada amb l'expedient; no s'elabora un de nou des de zero.
+- El PI és el tutor qui el lidera, però és una eina de tot l'equip: la seva eficàcia depèn de la coherència entre docents.
+
+## 5. Fonts
+
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477, art. 12.
+- Departament d'Educació (2020). *Orientacions per a l'elaboració del Pla Individualitzat*. Generalitat de Catalunya / XTEC.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Educació Inclusiva*. Generalitat de Catalunya.
+- Departament d'Educació (2022). *Pla de suport individualitzat (PSI) — Nou currículum*. Generalitat de Catalunya / XTEC.

@@ -8,8 +8,6 @@ generat_at: 2026-03-24T23:00:00
 actualitzat_at: 2026-04-27T00:00:00
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Principi fonamental
 
 Les necessitats educatives no són la suma de condicions individuals. Un alumne nouvingut amb dislèxia no és "nouvingut + dislèxia" com a compartiments separats: les dues condicions interactuen i generen necessitats que cap de les dues aïlladament no produiria.
@@ -427,26 +425,32 @@ Errors freqüents a evitar:
 
 **Total: 24 dependències (13 ALTA, 11 MITJANA)**
 
-# 2. CONNEXIONS AMB ALTRES MÒDULS
+## 3. Connexions amb altres documents del corpus
 
-- **M1_alumnat-nouvingut**: Perfil lingüístic i cultural (blocs A)
-- **M1_dislexia-dificultats-lectores**: Perfil lector (deps 2, 7, 10, 13)
-- **M1_alumnat-TEA**: Processament literal, estructura (deps 8, 11, 15, 18)
-- **M1_TDAH**: Atenció, segmentació (deps 7, 8, 12, 14, 19)
-- **M1_discapacitat-intel·lectual**: Abstracció, concreció (deps 3, 11, 20)
-- **M1_TDL-trastorn-llenguatge**: Lèxic, sintaxi (deps 9, 10)
-- **M1_altes-capacitats**: Masking, enriquiment (deps 13, 14, 15, 16)
-- **M1_discapacitat-visual**: Accessibilitat sensorial (dep 22)
-- **M1_discapacitat-auditiva**: Canal oral compromès (dep 5)
-- **M1_trastorns-emocionals-conducta**: Desregulació (deps 12, 21)
-- **M1_vulnerabilitat-socioeducativa**: Context advers (dep 6)
-- **M1_discalculia**: Sentit numèric, subtipus Geary, progressió CPA (deps 23, 24)
-- **M2_DUA-principis-pautes**: Marc general de disseny universal
-- **M2_carrega-cognitiva-adaptacio-textos**: Gestió de la càrrega per perfil
-- **M7_trauma-informed-adaptacio**: Sensibilitat temàtica (deps 6, 21)
-- **M3_lectura-facil-comunicacio-clara**: Tècniques de simplificació
+- **`M1_alumnat-nouvingut.md`** — Perfil lingüístic i cultural; activa els creuaments del Bloc A (L2 × dislèxia, nouvingut × DI, nouvingut × L2 molt baixa)
+- **`M1_dislexia-dificultats-lectores.md`** — Perfil lector; creuaments 2, 7, 10, 13 (L2×dislèxia, dislèxia×TDAH, dislèxia×TDL, altes capacitats×dislèxia)
+- **`M1_alumnat-TEA.md`** — Processament literal i estructura; creuaments 8, 11, 15, 18 (TEA×TDAH, DI×TEA, altes cap.×TEA, TEA×text figurat)
+- **`M1_TDAH.md`** — Atenció i segmentació; creuaments 7, 8, 12, 14, 19, 24 (dislèxia×TDAH, TEA×TDAH, emocional×TDAH, altes cap.×TDAH, TDAH×text llarg, discalcúlia×TDAH)
+- **`M1_discapacitat-intel·lectual.md`** — Abstracció i concreció; creuaments 3, 11, 20 (nouvingut×DI, DI×TEA, DI×contingut abstracte)
+- **`M1_TDL-trastorn-llenguatge.md`** — Lèxic i sintaxi; creuaments 9, 10 (TDL×vocabulari dens, dislèxia×TDL)
+- **`M1_altes-capacitats.md`** — Masking i enriquiment; creuaments 13-16 (AC×dislèxia, AC×TDAH, AC×TEA, AC×baixa motivació)
+- **`M1_discalculia.md`** — Sentit numèric; creuaments 23, 24 (discalcúlia×dislèxia, discalcúlia×TDAH)
+- **`M1_discapacitat-visual.md`** — Accessibilitat sensorial; creuament 22 (disc.visual×adaptació visual)
+- **`M1_discapacitat-auditiva.md`** — Canal oral compromès; creuament 5 (disc.auditiva×nouvingut)
+- **`M1_trastorns-emocionals-conducta.md`** — Desregulació emocional; creuaments 12, 21
+- **`M1_vulnerabilitat-socioeducativa.md`** — Context advers; creuament 6 (vulnerabilitat×nouvingut)
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — Marc general de disseny universal; les implicacions d'adaptació de cada creuament se concreten en opcions DUA
 
-# 3. ÚS OPERATIU
+## 4. Detecció
+
+### Senyals d'activació
+
+- El docent rep un perfil d'alumnat amb 2 o més condicions actives simultàniament.
+- Les adaptacions individuals de cada condició semblen contradir-se (ex: TEA demana estructura rígida, TDAH demana variació).
+- L'adaptació estàndard d'una condició no funciona perquè n'hi ha una altra que la interfererix.
+- Es detecta masking: l'alumne sembla "normal" però rere una condició n'emmascara una altra (ex: altes capacitats + dislèxia).
+
+### Heurístiques per a l'ús operatiu
 
 Davant un perfil amb múltiples condicions actives, cal:
 
@@ -459,6 +463,14 @@ Davant un perfil amb múltiples condicions actives, cal:
 7. Documentar a l'argumentació pedagògica quines dependències s'han activat i com s'han resolt
 
 ---
+
+## 5. Fonts
+
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5a ed., DSM-5). Washington: APA. [base de les comorbiditats]
+- Geary, D. C. (2004). Mathematics and learning disabilities. *Journal of Learning Disabilities*, 37(1), 4-15. [discalcúlia]
+- Willcutt, E. G., et al. (2010). Comorbidities between attention deficit/hyperactivity disorder and reading disability. *Journal of Learning Disabilities*, 43(6), 543-554.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+
 
 ## 6. INSTRUCCIONS DE CREUAMENT
 

@@ -9,8 +9,6 @@ generat_at: 2026-03-18T12:57:12
 actualitzat_at: 2026-03-27T03:00:00
 ---
 
-## 1. CONTINGUT ESPECÍFIC DEL DOCUMENT
-
 ### Context i propòsit
 
 En l'era de la globalització, les nostres societats i, per extensió, els nostres centres educatius, es caracteritzen per una diversitat creixent i complexa. Aquesta diversitat no es limita a l'origen cultural o la presència d'alumnat immigrat, sinó que inclou factors socioeconòmics, de gènere, d'edat i altres elements que condicionen els processos de socialització i aprenentatge. La identitat de cada alumne és la suma de múltiples pertinences, flexibles i canviants, que l'escola ha de reconèixer i valorar.
@@ -144,19 +142,19 @@ La decisió de sortida de l'AA es basa en el nivell de competència lingüístic
 | 24 mesos | Finalització normativa AA (règim general); sortida o mesures alternatives | CAD + Equip directiu | Orientacions AA XTEC 2024 |
 | 36 mesos | Finalització normativa AA (règim excepcional); transició total a ordinària | CAD + EAP | Orientacions AA XTEC 2024 |
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M1_alumnat-nouvingut.md`** — El protocol d'acollida és l'instrument que gestiona la transició inicial de l'alumnat nouvingut; els dos documents s'han de llegir junts i en paral·lel
+- **`M1_plans-individuals-PAD-PI.md`** — Quan l'alumnat exhaureix l'AA sense assolit B1, el PI és la mesura de continuació; el protocol d'acollida deriva al PI en les Fases 4 i 5
+- **`M1_diversitat-cultural-identitat.md`** — La diversitat cultural és el context en què s'inscriu l'acollida: no és una situació d'excepció sinó la norma en molts centres FJE
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA és el marc metodològic que hauria de guiar les mesures inclusives de les fases 4 i 5; l'accessibilitat universal beneficia tots els alumnes
+- **`M2_mesures-suports-inclusius.md`** — Les mesures de suport lingüístic i curricular que el protocol activa en les fases 3 i 4 (suport intensiu, mesures addicionals)
+- **`M7_participacio-families.md`** — La participació de les famílies és una de les fases del protocol; les barreres lingüístiques i culturals requereixen estratègies específiques de mediació
+- **`M0_cura-personalis.md`** — L'atenció integral és la filosofia que ha de guiar totes les fases del protocol: l'alumnat nouvingut no és un expedient sinó una persona amb una trajectòria
 
-Aquest protocol d'acollida s'articula amb els documents del corpus de la manera següent:
+## 4. Detecció
 
-*   **Aula d'Acollida (AA):** Els documents sobre l'organització i funcionament de l'AA (Bloc 2 del curs d'acollida de l'Ateneu) detallen els recursos metodològics i el rol del tutor/a d'AA, que és central en les fases 2 i 3 d'aquest protocol.
-*   **Seguiment de l'alumnat:** Les fitxes de seguiment i els documents d'avaluació del progrés (p.ex., Fitxa_alumnat_origen_estranger) proporcionen les eines concretes per implementar la fase 5.
-*   **Plans Individualitzats (PI):** Els documents sobre PI i adaptacions curriculars (cadsuports, pi_del_burgar) complementen les fases 4 i 5, especialment quan es detecten necessitats educatives específiques.
-*   **Escola inclusiva (mòduls DEIC):** Els mòduls de formació sobre escola inclusiva proporcionen el marc teòric que sustenta la filosofia d'aquest protocol (supressió de barreres, participació plena).
-*   **Coordinació amb serveis externs:** Els documents sobre EAP i serveis socials defineixen els canals d'actuació quan les necessitats de l'alumne/a superen l'àmbit escolar.
-
-## 3. DETECCIÓ DE TENSIONS O LLACUNES
+### Tensions i llacunes
 
 *   **Tensió recursos/realitat:** El protocol assumeix la disponibilitat d'Aula d'Acollida, però no tots els centres disposen d'aquest recurs. Cal preveure protocols alternatius per a centres sense AA.
 *   **Durada de l'acollida (normativa precisa):** La normativa estableix una durada màxima de 24 mesos (règim general) o 36 mesos (règim excepcional) a l'AA, amb un màxim de 12 hores setmanals. El criteri de sortida recomanat és assolir el nivell B1 del MECR, amb el B2 com a òptim. L'alumnat que no assoleix B1 en exhaurir el termini no pot prorrogar l'AA: el centre ha de preveure suports alternatius (mesures addicionals D150/2017 art. 7, PI o PSI). Aquesta és la tensió principal del sistema i requereix pla de contingència explícit.
@@ -165,7 +163,7 @@ Aquest protocol d'acollida s'articula amb els documents del corpus de la manera 
 *   **Llacuna en l'etapa postobligatòria:** El protocol se centra en l'escolarització obligatòria. La transició a la secundària postobligatòria i la prevenció de l'abandonament escolar queden poc desenvolupades.
 *   **Avaluació del protocol:** La fase 5 preveu avaluar el protocol, però no s'especifiquen indicadors concrets de qualitat ni mecanismes de millora contínua sistematitzada.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   Davant la pregunta de **com acollir un alumne nouvingut**, cal remetre's a la seqüència de fases 1-3 i als rols de l'equip directiu i del tutor/a de referència.
 *   Davant preguntes sobre **l'Aula d'Acollida** (funcionament, durada, recursos), cal connectar amb els documents específics de l'AA del corpus (Bloc 2 del curs aco).
@@ -177,24 +175,10 @@ Aquest protocol d'acollida s'articula amb els documents del corpus de la manera 
 
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:deic:modul_4:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/index |
-| 2 | cursos:escola_inclusiva:deic:modul_1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/index |
-| 3 | cursos:escola_inclusiva:deic:modul_4:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/practica_1 |
-| 4 | cursos:escola_inclusiva:deic:modul_1:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_1/practica_2 |
-| 5 | annex1_aules_nov_09_45cd56f376.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0055/7192e6a8-1bb3-4030-b7f8-562ecd7ff933/annex1_aules_nov_09.pdf |
-| 6 | pla_ind_altes_capacitats_756fd2c5a7.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_4/pla_ind_altes_capacitats.pdf |
-| 7 | asma_d9939fd703.pdf | http://www.xtec.cat/~rgrau/exemples/asma.pdf |
-| 8 | cadsuports_a8c7a072f0.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_2/cadsuports.pdf |
-| 9 | PAD V1-1 Febrer 2008_4112dbf9af.pdf | http://www.xtec.cat/iesvilamajor/Documents%20de%20centre/PAD%20V1-1%20Febrer%202008.pdf |
-| 10 | pi_del_burgar_6348841d09.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_2/pi_del_burgar.pdf |
-| 11 | Orientacions per a la gestió i organització de les Aules d'Acollida (2024). XTEC. | https://projectes.xtec.cat/acollidasuport/ |
-| 12 | Pautes d'observació A1, A2 i B1 del MECR – Aula d'Acollida XTEC | https://projectes.xtec.cat/aula-acollida/documents/pautes-dobservacio-a1-a2-i-b1-del-mecr/ |
-| 13 | DOIGC 2025-2026: Gestió de l'educació inclusiva | https://documents.espai.educacio.gencat.cat/IPCNormativa/DOIGC/GEST_Educacio_inclusiva.pdf |
-| 14 | Decret 150/2017, art. 7 i art. 18-22 | DOGC |
-| 15 | Nivells de referència MECR – Aules d'Acollida XTEC | https://sites.google.com/a/xtec.cat/aulesdacollida/programacions/nivells-de-referencia |
-
-*15 documents font · secció generada automàticament*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477, art. 7.
+- Departament d'Educació (2024). *Orientacions per a la gestió i organització de les Aules d'Acollida*. Generalitat de Catalunya / XTEC.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Gestió de l'educació inclusiva*. Generalitat de Catalunya.
+- Consell d'Europa (2001). *Marc Europeu Comú de Referència per a les Llengües (MECR): Aprenentatge, Ensenyament, Avaluació*. Estrasburg: Consell d'Europa.
+- Cummins, J. (2001). *Negotiating identities: Education for empowerment in a diverse society* (2a ed.). Los Angeles: California Association for Bilingual Education.
