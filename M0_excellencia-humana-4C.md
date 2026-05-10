@@ -9,8 +9,6 @@ descripcio: "Excel·lència humana jesuïta: el perfil de sortida de l'alumne co
 generat_at: 2026-03-17T00:00:00
 ---
 
-# 1. FONAMENT TEÒRIC
-
 ## Definició i principis
 
 L'**Excel·lència Humana** és el concepte central que articula el perfil de sortida de l'alumne en l'educació jesuïta. No és un llistat de competències acadèmiques ni un rànquing de rendiment: és una visió integral de la persona que sintetitza cinc segles d'humanisme ignasià en quatre dimensions inseparables, conegudes com les **4C**: *Conscient, Competent, Compassiu i Compromès*.
@@ -86,7 +84,7 @@ El compromís ignasià té una característica que el distingeix de l'activisme:
 
 ---
 
-# 2. EXEMPLES CONCRETS D'APLICACIÓ A L'AULA
+## Exemples concrets d'aplicació a l'aula
 
 ### Exemple 1 (Primària): L'examen ignasià adaptat — la C de Consciència
 
@@ -124,15 +122,34 @@ El compromís ignasià té una característica que el distingeix de l'activisme:
 
 ---
 
-# 3. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-| Document | Connexió | Tipus |
-|---|---|---|
-| M0_identitat-missio-valors.md | Les 4C com a expressió contemporània del "gir profètic" d'Arrupe (CG32, moment 2) | Obligatòria |
-| M0_PPI-paradigma-pedagogic-ignasia.md | El PPI com a mètode per activar les 4C: el cicle EEA culmina en el perfil 4C | Obligatòria |
-| M0_cura-personalis.md | La Cura Personalis com a condició per a una formació 4C autèntica i no massiva | Obligatòria |
-| M0_preferencies-apostoliques-universals.md | Les PAU com a horitzó apostòlic que orienta cadascuna de les 4C | Obligatòria |
-| M0_magis-i-servei.md | El Magis com a motor que impulsa de la competència cap al compromís | Recomanada |
-| M2_ABP-aprenentatge-servei.md | L'APS com a metodologia que activa les 4C de manera integrada | Recomanada |
-| M6_avaluacio-formativa-formadora.md | L'avaluació formadora com a eina per avaluar les 4C més enllà del rendiment acadèmic | Recomanada |
-| M7_benestar-emocional-seguretat.md | El benestar emocional com a condició per al desenvolupament de la consciència interior | Recomanada |
+- **`M0_identitat-missio-valors`** — les 4C com a expressió contemporània del "gir profètic" d'Arrupe (CG32, moment 2)
+- **`M0_PPI-paradigma-pedagogic-ignasia`** — el PPI com a mètode per activar les 4C: el cicle EEA culmina en el perfil 4C
+- **`M0_cura-personalis`** — la cura com a condició perquè la formació 4C sigui autèntica i no massiva ni uniforme
+- **`M0_preferencies-apostoliques-universals`** — les PAU com a horitzó apostòlic: PAU A→Consciència, PAU B→Compassió/Compromís, PAU D→Competència ecològica
+- **`M0_magis-i-servei`** — el Magis com a motor que impulsa de la competència tècnica cap al compromís amb el bé comú
+- **`M6_avaluacio-formativa-formadora`** — l'avaluació formadora com a eina per avaluar les 4C més enllà del rendiment acadèmic
+- **`M7_benestar-emocional-seguretat`** — el benestar emocional com a condició prèvia per al desenvolupament de la consciència interior
+
+## 4. Detecció
+
+Activar aquest document quan:
+
+- Un docent o equip vol definir el perfil de sortida dels alumnes més enllà de les competències acadèmiques
+- Es dissenya un projecte que vol activar les 4C de manera integrada (no separades per matèria o activitat)
+- Un alumne té excel·lent rendiment acadèmic però manifesta indiferència social o buit de compromís
+- Un alumne té dificultats acadèmiques però excel·leix en dimensions humanes (compassió, lideratge de servei)
+- El centre revisa el seu Projecte Educatiu de Centre o els criteris d'excel·lència interna
+- Es vol argumentar per què les activitats de servei o de reflexió no son "temps robat" al currículum
+- Un educador demana criteris per avaluar el "creixement integral" de l'alumne
+
+## 5. Fonts
+
+- Secretariat d'Educació SJ (2015). *La Excel·lència Humana: Homes i Dones Conscients, Competents, Compassius i Compromesos*. Roma: Companyia de Jesús.
+- Arrupe, P. SJ (1973). *Hombres para los demás*. Discurs al X Congrés Europeu d'Antics Alumnes. València.
+- Nicolás, A. SJ (2013). *Los Antiguos Alumnos de la Compañía de Jesús y su Responsabilidad Social*. Medellín.
+- SIPEI — Seminari Internacional de Pedagogia i Espiritualitat Ignasiana (2014). *Declaració Final*. Manresa.
+- Sosa, A. SJ (2021). *Homilia de la Festa de Sant Joan Berchmans*. Xarxa Global Jesuïta de Col·legis.
+- ICAJE — Comissió Internacional (1986). *Característiques de l'educació a la Companyia de Jesús*. Roma.
+- ICAJE — Comissió Internacional (1993). *Pedagogia Ignasiana. Un plantejament pràctic*. Roma.

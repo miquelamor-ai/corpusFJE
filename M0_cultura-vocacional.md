@@ -9,9 +9,7 @@ descripcio: "Cultura vocacional com a ecosistema educatiu: la pregunta 'Per a qu
 generat_at: 2026-03-17T00:00:00
 ---
 
-# 1. FONAMENT TEÒRIC
-
-## Definició i Principis
+## Definició i principis
 
 La cultura vocacional no és un programa pastoral, ni un taller, ni un ítem a introduir en programacions. És un ecosistema — un humus — on la pregunta vocacional pugui brollar i créixer. El document fundacional "Per a qui sóc jo?" (Província d'Espanya, 2023) ho defineix amb claredat: "allò vocacional no es redueix a la culminació d'un procés — la cirereta o el vernís — quan tots els objectius anteriors han estat satisfets, sinó que ha de ser part essencial i transversal de tots els nostres esforços."
 
@@ -64,7 +62,7 @@ El document proposa quatre eixos formatius i nou virtuts:
 8. **Gratuïtat i audàcia** — la clau no és en què sé fer millor sinó què em fa ser més jo mateix. "Qui no és capaç d'arriscar per allò que estima, és que no ho estima en absolut."
 9. **Mantenir-se i perseverar** — en una "societat líquida", necessitem persones sòlides. Recuperar el valor de la promesa, la fidelitat, la constància. "Tota opció vocacional o apunta per sempre o no és."
 
-## Exemples Concrets d'Aplicació a l'Aula
+## Exemples concrets d'aplicació a l'aula
 
 ### Exemple 1 (Primària — MOPI/PIN): Despertar preguntes
 
@@ -84,7 +82,7 @@ El document proposa quatre eixos formatius i nou virtuts:
 
 **Aplicació:** L'orientador no ofereix un test d'aptituds sinó un procés de discerniment: "No et preguntis què t'agrada fer — pregunta't en quins moments de la teva vida has sentit que estaves fent alguna cosa que tenia sentit. Qui et necessita? Quins problemes del món et mouen per dins?" El document fundacional ho diu amb precisió: la imatge de la cerca vocacional no és "desxifrar un mapa de pistes" sinó "mirar pel retrovisor" — buscar les empremtes del Senyor en la pròpia vida. L'alumne descobreix que les experiències de voluntariat amb nens amb discapacitat van ser els moments de més plenitud, i això orienta el seu camí.
 
-## Errors Comuns (Què NO fer)
+## Errors comuns — què NO fer
 
 1. **Reduir la vocació a orientació professional.** Tests d'aptituds que valoren únicament capacitats acadèmiques sota una mirada pragmàtica i utilitarista. La vocació no és "en què treballaré" sinó "per a qui sóc jo."
 2. **Tractar-ho com un afegit pastoral.** Si la cultura vocacional és "la cirereta del pastís", no és cultura vocacional. Ha de ser transversal a tots els àmbits.
@@ -95,7 +93,29 @@ El document proposa quatre eixos formatius i nou virtuts:
 7. **Amagar la proposta de vida consagrada per falsa prudència.** "Hi ha un perill, no menor, d'amagar la por i la covardia sota capa de prudència i respecte."
 
 
-# 5. FONTS
+## 3. Connexions amb altres documents del corpus
+
+- **`M0_cura-personalis`** — l'acompanyament vocacional és la forma més profunda de cura personalis en l'adolescent
+- **`M0_magis-i-servei`** — el discerniment vocacional culmina en "per a qui poso el meu talent?": la pregunta del Magis
+- **`M0_PPI-paradigma-pedagogic-ignasia`** — el PPI estructura les tres etapes de l'acompanyament vocacional: consciència de la crida, discerniment, resposta
+- **`M0_ledesma-kolvenbach`** — les quatre finalitats (utilitas, iustitia, humanitas, fides) son l'horitzó d'un projecte vital ignasià
+- **`M0_exit-educatiu-inclusiu`** — la cultura vocacional ha d'arribar als joves en risc d'exclusió: "Per a qui sóc jo?" és també la seva pregunta
+- **`M7_espais-aprenentatge-interioritat`** — els espais de silenci i interioritat com a condició perquè la pregunta vocacional pugui brollar
+
+## 4. Detecció
+
+Activar aquest document quan:
+
+- Un tutor vol anar més enllà de l'orientació acadèmica tradicional (tests d'aptituds, rànquings de carreres)
+- Un alumne experimenta buit de sentit, desmotivació o pressió que bloqueja el discerniment vocacional
+- Un alumne torna d'una experiència de servei (APS) i el docent vol acompanyar la reflexió sobre el que ha mogut
+- Es dissenya una activitat de final d'etapa (TQE/BAT) que connecti aprenentatge i projecte de vida
+- El centre treballa la cultura vocacional com a eix transversal (formació de tutors, disseny del PEC pastoral)
+- Un alumne expressa "no sé el que vull" o "tothom sap menys jo"
+- Es vol connectar la pregunta vocacional amb la formació espiritual i la dimensió transcendent de la persona
+
+
+## 5. Fonts
 
 - Jesuïtes — Província d'Espanya (2023). *Per a qui sóc jo? Cap a una cultura vocacional a les nostres institucions i comunitats*. Octubre 2023.
 - Papa Francesc (2019). *Crist Viu (Christus Vivit)*. Exhortació Apostòlica postsinodal.

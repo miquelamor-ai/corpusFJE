@@ -9,9 +9,7 @@ descripcio: "Èxit educatiu inclusiu des de la tradició jesuïta: equitat, cura
 generat_at: 2026-03-17T00:00:00
 ---
 
-# 1. FONAMENT TEÒRIC
-
-## Definició i Principis
+## Definició i principis
 
 L'èxit educatiu inclusiu, des de la tradició jesuïta, no és un concepte tècnic importat de la legislació educativa contemporània. Té arrels pròpies que es remunten al moment fundacional de la Companyia de Jesús. Polanco, secretari de la Companyia en temps d'Ignasi, justificava la dedicació dels jesuïtes a l'educació amb un argument que avui anomenem inclusiu: *"Els pobres, que no poden pagar mestres, i molt menys tutors privats, podran progressar en l'Aprenentatge."* Els primers jesuïtes van fundar una educació on el poder econòmic de les famílies no determinés l'ingrés: per això només obrien col·legis que estiguessin fundats econòmicament, és a dir, gratuïts (Mesa, 2013).
 
@@ -54,7 +52,7 @@ Nicolás ho sintetitza amb contundència: *"L'educació és l'única solució co
 
 ---
 
-# 2. EXEMPLES CONCRETS D'APLICACIÓ A L'AULA
+## Exemples concrets d'aplicació a l'aula
 
 ### Exemple 1 (Primària — MOPI/PIN): Cura personalis amb un alumne amb necessitats específiques
 
@@ -92,7 +90,30 @@ Nicolás ho sintetitza amb contundència: *"L'educació és l'única solució co
 
 ---
 
-# 5. FONTS
+## 3. Connexions amb altres documents del corpus
+
+- **`M0_cura-personalis`** — la cura individualitzada com a fonament de la inclusió real ("la cura personalis encarnen l'esperit de la inclusió", Mesa 2013)
+- **`M0_magis-i-servei`** — el Magis com a profunditat, no quantitat: cercar el "major servei" per a cada alumne, no acomodar en una estructura rígida
+- **`M0_excellencia-humana-4C`** — les 4C com a redefinició de l'èxit que inclou compassió i compromís, no sols resultats acadèmics
+- **`M0_preferencies-apostoliques-universals`** — la PAU B ("caminar amb els exclosos") com a fonament de l'opció ignasiana pels pobres a l'escola
+- **`M1_neurodiversitat-NESE`** — la inclusió educativa per a alumnes amb necessitats específiques de suport educatiu
+- **`M2_DUA-principis-pautes`** — el DUA com a operacionalització de la inclusió: recrear l'escola, no acomodar alumnes en estructura rígida
+- **`M2_mesures-suports-inclusius`** — les mesures de suport com a concreció legal i pedagògica de l'opció inclusiva
+
+## 4. Detecció
+
+Activar aquest document quan:
+
+- El centre debat sobre la seva política d'admissions, quotes o diversitat socioeconòmica
+- Es dissenya un projecte d'APS orientat a l'encontre amb col·lectius vulnerables (PAU B)
+- Un docent treballa amb alumnes en risc d'exclusió (social, econòmica, de capacitats o cultural)
+- Un alumne amb necessitats educatives no progressa malgrat les adaptacions; cal repensar l'entorn, no l'alumne
+- Es debat entre "inclusió" i "integració" a l'escola i cal aclarir la diferència
+- El centre vol alinear la seva missió inclusiva amb la tradició jesuïta i les PAU
+- Un docent busca arguments per justificar per què l'excel·lència del centre no es mesura per rànquings
+
+
+## 5. Fonts
 
 - Mesa, J.A. SJ (2013). *La educación inclusiva: una mirada desde la tradición de la Compañía de Jesús*. Ponència al XLIV Congrés Internacional de Fe y Alegría. São Paulo.
 - Arrupe, P. SJ (1973). *Homes per als altres*. Discurs al X Congrés Europeu d'Antics Alumnes. València.

@@ -9,8 +9,6 @@ descripcio: "Identitat, missió i valors de l'educació jesuïta: tradició viva
 generat_at: 2026-03-17T00:00:00
 ---
 
-# 1. FONAMENT TEÒRIC
-
 ## La missió com a tradició viva, no com a document fix
 
 La identitat i missió de l'educació jesuïta no és un text promulgat un cop per sempre. És una **tradició viva**, tal com la denomina el document homònim de 2019: un exercici continu de discerniment que, en cada època, pregunta de nou *a qui servim, per a quina humanitat eduquem i com es concreta avui la missió fundacional*. Reduir la identitat jesuïta al document ICAJE de 1986 seria com creure que la Companyia va néixer el 1986. El 1986 és un moment de sistematització en un fil de cinc segles d'evolució creativa.
@@ -93,7 +91,7 @@ Al llarg de cinc segles d'evolució, cinc trets es mantenen constants, si bé es
 
 ---
 
-# 2. EXEMPLES CONCRETS D'APLICACIÓ A L'AULA
+## Exemples concrets d'aplicació a l'aula
 
 ### Exemple 1 (Primària): La pregunta "per a qui?" en els projectes — Excel·lència al servei
 
@@ -127,16 +125,39 @@ Al llarg de cinc segles d'evolució, cinc trets es mantenen constants, si bé es
 
 ---
 
-# 3. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-| Document | Connexió | Tipus |
-|---|---|---|
-| M0_PPI-paradigma-pedagogic-ignasia.md | El PPI (1993) com a operacionalització pedagògica del moment 3 d'aquest document | Obligatòria |
-| M0_preferencies-apostoliques-universals.md | Les PAU (2019) com a expressió contemporània del moment 5 | Obligatòria |
-| M0_cura-personalis.md | La Cura Personalis com a tret identitari persistent al llarg dels cinc moments | Obligatòria |
-| M0_magis-i-servei.md | El Magis com a criteri de discerniment en cada moment de l'evolució | Obligatòria |
-| M0_ciutadania-global-justicia.md | La "fe i justícia" (CG32, moment 2) com a arrel de la ciutadania global | Obligatòria |
-| M0_ledesma-kolvenbach.md | El paradigma Ledesma-Kolvenbach com a marc interpretatiu del moment 3 | Recomanada |
-| M0_identificadors-globals.md | Els identificadors globals com a eines operatives dels cinc trets identitaris | Recomanada |
-| M2_ABP-aprenentatge-servei.md | L'APS com a metodologia que activa el tret "excel·lència al servei" | Recomanada |
-| M7_espais-aprenentatge-interioritat.md | Els espais d'interioritat com a expressió del discerniment (moments 1 i 5) | Recomanada |
+- **`M0_PPI-paradigma-pedagogic-ignasia`** — el PPI (1993) com a operacionalització pedagògica del moment 3 (ICAJE): el mètode que concreta la missió en acció d'aula
+- **`M0_preferencies-apostoliques-universals`** — les PAU (2019-2029) com a expressió contemporània del moment 5: l'orientació apostòlica de la dècada actual
+- **`M0_cura-personalis`** — la cura com a tret identitari persistent al llarg dels cinc moments evolutius de la missió jesuïta
+- **`M0_magis-i-servei`** — el Magis com a criteri de discerniment en cada moment: "quin és el major servei en aquestes circumstàncies?"
+- **`M0_ciutadania-global-justicia`** — la "fe i justícia" (CG32, moment 2) com a arrel teològica de la ciutadania global
+- **`M0_ledesma-kolvenbach`** — el paradigma (utilitas, iustitia, humanitas, fides) com a marc interpretatiu del moment 3
+- **`M0_identificadors-globals`** — els identificadors globals com a eines operatives dels cinc trets identitaris persistents
+- **`M7_espais-aprenentatge-interioritat`** — els espais d'interioritat com a expressió del discerniment (moments 1 i 5)
+
+## 4. Detecció
+
+Activar aquest document quan:
+
+- Un docent o equip directiu revisa el "caràcter propi" del centre o el Projecte Educatiu de Centre (PEC)
+- Un docent nou necessita comprendre la tradició educativa jesuïta de manera dinàmica, no com a llista estàtica
+- Es debat sobre "identitat jesuïta" al consell escolar o en una jornada de formació del professorat
+- Un alumne o família pregunta "en què es diferencia una escola jesuïta d'una altra?"
+- El centre afronta decisions estratègiques que tensionen la missió (admissions, quotes, reducció de servei)
+- Es vol rebatre la idea que "ser jesuïta avui és simplement seguir el document del 1986"
+- Cal fonamentar per què la promoció de la justícia social forma part essencial de la missió, no és un afegit
+
+## 5. Fonts
+
+- Companyia de Jesús (1540/1556). *Constitucions*. Roma.
+- Companyia de Jesús (1599). *Ratio Studiorum*. Roma.
+- Arrupe, P. SJ (1973). *Hombres para los demás*. Discurs al X Congrés Europeu d'Antics Alumnes. València.
+- Companyia de Jesús (1975). *Decrets de la Congregació General 32*. Roma.
+- ICAJE — Comissió Internacional (1986). *Característiques de l'educació a la Companyia de Jesús*. Roma.
+- ICAJE — Comissió Internacional (1993). *Pedagogia Ignasiana. Un plantejament pràctic*. Roma.
+- Companyia de Jesús (2016). *Decret 1 de la Congregació General 36: Companys en una missió de reconciliació i justícia*. Roma.
+- Sosa, A. SJ (2017). *La educación de la Compañía: una pedagogía al servicio de la formación de un ser humano reconciliado*. JESEDU-Rio2017.
+- Secretariat d'Educació SJ (2019). *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI*. Roma.
+- Sosa, A. SJ (2019). *Preferències Apostòliques Universals 2019-2029*. Roma.
+- Xarxa Global Jesuïta de Col·legis (2024). *JESEDU-Jogja2024: Declaració Final*. Yogyakarta.
