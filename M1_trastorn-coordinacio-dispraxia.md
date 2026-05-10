@@ -40,9 +40,7 @@ variables_configurables:
     impacte: "Si true: oferir teclat/tauleta per a producció escrita llarga. Si false: valorar tecnologia assistiva específica"
 ---
 
-### 1. CONTINGUT ESPECÍFIC
-
-#### Descripció del tret
+## Descripció del tret
 
 ##### Definició i marc conceptual
 
@@ -227,14 +225,14 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
 - **TDC + TDL**: la planificació motora de la parla pot estar afectada (**dispraxia verbal**). L'alumne pot tenir dificultats tant en el motor oral (articulació, fluïdesa) com en el motor manual (escriptura, manipulació)
 - **TDC + Altes capacitats (2e)**: la compensació intel·lectual retarda la detecció del TDC. L'alumne usa estratègies cognitives per compensar les dificultats motores, fins que les demandes motores superen la capacitat de compensació (generalment a primària mitjana o ESO)
 
-#### Principis d'actuació
+## Principis d'actuació
 
 - **Adaptar el canal de sortida:** Oferir alternatives al motor manual — teclat, oral, visual, esquemes — sense reduir mai la profunditat conceptual ni cognitiva. El TDC afecta el canal de sortida, no el contingut que l'alumne és capaç de processar.
 - **Adaptar l'educació física:** Proposar alternatives individuals, adaptar les regles dels esports d'equip, valorar l'esforç i la millora personal per sobre del rendiment absolut. L'exclusió d'EF no és acceptable; l'adaptació ho és.
 - **Adaptar l'avaluació:** Permetre respostes orals, digitals o amb suport visual. Separar els criteris de presentació dels criteris de contingut. Proporcionar temps addicional en exàmens escrits.
 - **Adaptar materials i entorn:** Instruments ergonòmics (llapis triangulars, tisores adaptades, grip per a regles), espai de treball organitzat, suport per organitzar materials (codis de colors, guia d'organització visual).
 
-#### Línies vermelles
+## Línies vermelles
 
 - **No confondre TDC amb mandra o falta de pràctica.** **Per què?** El TDC és neurològic. L'alumne s'esforça més que els iguals per a resultats inferiors. Exigir-li "més pràctica" sense adaptació és com exigir a un alumne miop que llegeixi millor sense ulleres.
 - **No avaluar la competència conceptual a través de la producció escrita manual.** **Per què?** L'escriptura manual mesura l'habilitat motora (el TDC), no el coneixement de la matèria. Si un alumne pot explicar-ho oralment i no per escrit, la nota ha de reflectir el coneixement, no la cal·ligrafia.
@@ -243,17 +241,16 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
 - **No esperar que "ja aprendrà amb pràctica".** **Per què?** El TDC és persistent i requereix **adaptació**, no repetició. La pràctica pot millorar parcialment habilitats concretes, però no elimina el trastorn de base. La resposta és adaptar el canal, no repetir el que no funciona.
 - **No subestimar el cost energètic de l'escriptura manual.** **Per què?** Per a l'alumne amb TDC, escriure a mà és un exercici d'esforç cognitiu i motor que consumeix recursos que els iguals dediquen al contingut. La fatiga motora és real i acumulativa al llarg del dia escolar.
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-- **M1_dislexia-dificultats-lectores**: Comorbiditat 40-50%. Ambdós afecten l'escriptura per vies diferents: motora (TDC) i fonològica (dislèxia). Veure dependència TDC×dislèxia
-- **M1_TDAH**: Comorbiditat 50%. Disfunció executiva compartida. Doble barrera: desatenció + dificultat motora
-- **M1_alumnat-TEA**: Solapament en planificació motora i integració sensorial
-- **M1_TDL-trastorn-llenguatge**: Dispraxia verbal — connexió entre planificació motora oral i manual
-- **M1_altes-capacitats**: Doble excepcionalitat (2e) possible. Compensació intel·lectual retarda la detecció
-- **M1_creuament-variables-dependencies**: Dependencies TDC×dislèxia, TDC×TDAH
-- **M2_carrega-cognitiva-adaptacio-textos**: L'escriptura manual augmenta la càrrega cognitiva extrínseca — l'alumne amb TDC dedica recursos a la mecànica motora que els iguals dediquen al contingut
+- **`M1_neurodiversitat-NESE.md`** — El trastorn de coordinació s'inclou en el marc de NESE del neurodesenvolupmament; sovint coexisteix amb TDAH, dislèxia o TDL (comorbiditat)
+- **`M1_plans-individuals-PAD-PI.md`** — El PAD formalitza les mesures: temps ampliat, adaptació de proves motores, ús de teclat en lloc d'escriptura manual, accés a materials digitals
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet alternatives a l'expressió motora fina: dictàfon, teclat, producció oral; no és trampa sinó equiparació real de condicions
+- **`M2_mesures-suports-inclusius.md`** — Les mesures concretes d'accés a tasques que impliquen coordinació: materials adaptats, temps, suport en educació física
+- **`M0_cura-personalis.md`** — L'atenció individual és crucial: la dispraxia és sovint invisible i mal interpretada com a «mandra» o «descuit»; cal desfer el prejudici
+- **`M7_benestar-emocional-seguretat.md`** — L'exposició pública de les dificultats motores (EF, manualitats, escriptura en pissarra) genera vergüenza; la seguretat emocional requereix discreció activa
 
-### 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
 - **Senyals del docent:**
   - "Escriu molt lent i la lletra és gairebé il·legible, però quan li pregunto oralment, ho sap tot perfectament."
@@ -283,7 +280,7 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
   - Dificultats exclusivament en lectura i escriptura sense afectació motora general (valorar dislèxia)
   - Dificultat motora explicable per condició visual no corregida
 
-### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 - **Principi general:** Cal adaptar el canal de sortida motor (escriptura, manipulació, moviment) sense reduir la profunditat conceptual ni cognitiva. El TDC afecta la via motora, no la capacitat de pensar ni d'aprendre.
 
@@ -317,6 +314,14 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
   - **Exemple complet de raonament:** Davant un alumne amb TDC que diu que li fa mal la mà i que no pot acabar l'exercici a última hora: no s'ha d'interpretar com a excusa sinó com un senyal de fatiga motora acumulada. Cal: (1) completar l'exercici oralment amb el docent, (2) si és possible, canviar a teclat per a la resta de la sessió, (3) per a futures planificacions, distribuir les tasques amb major càrrega motora al matí i reservar les opcions digitals o orals per a la tarda. No s'ha de suposar manca de voluntat — l'alumne ha estat escrivint a mà tot el dia amb un esforç tres vegades superior al dels seus iguals.
 
 ---
+
+## 5. Fonts
+
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5a ed., DSM-5). Washington: APA.
+- Blank, R., et al. (2019). International clinical practice recommendations on the definition, diagnosis, assessment, intervention, and psychosocial aspects of developmental coordination disorder. *Developmental Medicine & Child Neurology*, 61(3), 242-285.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Missiuna, C., et al. (2008). Partnering for Change: An innovative school-based occupational therapy service delivery model. *Canadian Journal of Occupational Therapy*, 75(2), 70-79.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 

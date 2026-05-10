@@ -12,8 +12,6 @@ variables_configurables: []
 # al perfil de l'alumne al sistema.
 ---
 
-## 1. CONTINGUT ESPECÍFIC DEL PERFIL
-
 ### Descripció de la situació
 L'alumnat en situació de vulnerabilitat socioeducativa, en el context d'origen estranger o nouvingut, es caracteritza per la seva diversitat de bagatge personal i escolar. Cada alumne arriba amb una història única, que inclou referents culturals, llengua familiar i cultura escolar de procedència diferents de les de la societat d'acollida. Aquesta diversitat, si bé és una riquesa, pot generar una situació de vulnerabilitat quan no es gestiona de manera inclusiva, posant en risc l'èxit acadèmic i la integració plena. La vulnerabilitat sorgeix de la necessitat d'adaptar-se a un nou sistema educatiu, una nova llengua i un nou entorn cultural i social, sovint amb llacunes en els coneixements previs o en la comprensió de les rutines i procediments didàctics locals. L'objectiu és transformar aquest repte en una oportunitat, proporcionant els suports necessaris per aprofitar el seu bagatge i garantir que l'experiència d'incorporació no esdevingui un fracàs personal que afecti el seu projecte de vida. La prevalença d'aquest perfil varia segons la composició demogràfica dels centres i territoris, sent una realitat constant i creixent en el sistema educatiu català.
 
@@ -54,45 +52,48 @@ L'alumnat en situació de vulnerabilitat socioeducativa, en el context d'origen 
 ### Perfils associats i comorbiditats
 Aquest perfil no es defineix per comorbiditats en el sentit clínic, sinó per la seva situació d'origen. No obstant això, la vulnerabilitat socioeducativa pot coexistir amb, o exacerbar, altres dificultats d'aprenentatge o necessitats educatives específiques que qualsevol alumne pot presentar. Per exemple, un alumne nouvingut pot tenir també dislèxia o TDAH, i la barrera lingüística i cultural pot fer més complexa la detecció i l'abordatge d'aquestes altres necessitats. La manca de suports adequats pot generar un risc més elevat d'abandonament escolar o de fracàs acadèmic.
 
-### Principis d'actuació
+## Principis d'actuació
 Per acompanyar l'alumnat en situació de vulnerabilitat socioeducativa, és fonamental adoptar una perspectiva inclusiva. Això implica reconèixer la diversitat com un valor i una oportunitat, no com un inconvenient. El docent ha de proporcionar suports individualitzats i continuats, no només en l'adquisició de la llengua vehicular, sinó també en l'accés al currículum i als referents culturals. Cal adaptar els continguts, les activitats i l'avaluació per tenir en compte les llacunes de coneixements previs i les diferències culturals, buscant ponts entre la cultura d'origen i la d'acollida. La interacció a l'aula ha de fomentar la participació de tots, valorant les diferents perspectives i el bagatge personal de cada alumne. Un pla d'acollida ben estructurat és clau per a una integració reeixida, així com la creació d'un clima d'aula que afavoreixi els aprenentatges i la construcció d'identitats positives.
 
-### Línies vermelles
+## Línies vermelles
 *   **No considerar la diversitat un inconvenient:** És un error veure la llengua familiar, els referents culturals o la cultura escolar de procedència com a obstacles. Són elements del bagatge personal que cal aprofitar per enriquir l'aprenentatge.
 *   **No assumir que amb el domini comunicatiu de la L2 ja no calen suports:** La llengua acadèmica és molt més complexa i requereix suports continuats en totes les àrees per accedir al currículum ordinari de ple dret.
 *   **No oblidar el context social i escolar:** Les propostes d'ajuda han de tenir en compte la situació personal, els valors culturals, la construcció d'identitats i l'adquisició de llengües, sense perdre de vista el context en què es desenvolupen els aprenentatges. Ignorar-ho pot portar a intervencions ineficaces.
 *   **No esperar que l'alumne s'adapti sense ajuda a les rutines i procediments didàctics:** Si l'alumne prové d'un sistema educatiu diferent, moltes dinàmiques d'aula li resultaran estranyes. Cal explicitar-les i acompanyar-lo en la seva comprensió i adaptació.
 *   **No reduir la persona a la seva condició de nouvingut:** Les cultures, les llengües i els orígens són importants, però més importants són les persones. L'enfocament ha de ser sempre holístic i centrat en l'individu.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Marc_Educacio_Inclusiva**: Aquest perfil d'alumnat és un dels principals focus de l'educació inclusiva, ja que busca garantir l'èxit acadèmic i la plena participació de tots, especialment els més vulnerables.
-*   **Estrategia_Aprenentatge_Cooperatiu**: L'aprenentatge cooperatiu pot ser una estratègia molt eficaç per fomentar la integració social i lingüística d'aquest alumnat, permetent la interacció i el suport mutu.
-*   **Protocol_Pla_Acollida_Centre**: La implementació d'un pla d'acollida és fonamental per a la integració d'aquest perfil, abordant les seves necessitats inicials i continuades.
-*   **Eina_Adaptacio_Curricular**: Les adaptacions curriculars són sovint necessàries per donar resposta a les llacunes de coneixements previs i les barreres lingüístiques i culturals d'aquest alumnat.
-*   **Estrategia_Ensenyament_L2**: Les metodologies específiques per a l'ensenyament de la segona llengua són crucials per al desenvolupament lingüístic d'aquest perfil, tant a nivell comunicatiu com acadèmic.
+## 3. Connexions amb altres documents del corpus
 
-## 3. DETECCIÓ (Variables de Context)
+- **`M1_acollida-marc-conceptual.md`** — L'acollida és el primer instrument per a l'alumnat en situació de vulnerabilitat; el protocol dona la pauta per detectar i activar la xarxa de suport
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional i material és el prerequisit de tot aprenentatge; la vulnerabilitat sovint comporta instabilitat en les necessitats bàsiques que l'escola ha de detectar i activar xarxes
+- **`M0_educador-samarita.md`** — L'educador samarità és especialment necessari per a l'alumnat vulnerable: la relació educativa de qualitat és el factor de protecció més poderós
+- **`M0_cura-personalis.md`** — L'atenció integral inclou la dimensió social i familiar: la vulnerabilitat no és un tret de l'alumne sinó un context que l'escola pot mitigar
+- **`M1_diversitat-cultural-identitat.md`** — La vulnerabilitat socioeducativa sovint s'intersecta amb la diversitat cultural; cal evitar la confusió entre origen cultural i risc social
+- **`M7_participacio-families.md`** — La relació amb les famílies vulnerables requereix sensibilitat especial: baixar barreres d'accés, evitar el judici i construir confiança és prerequisit de la col·laboració
+- **`M0_preferencies-apostoliques-universals.md`** — La PAU B (caminar amb els exclosos) és la crida apostòlica que dóna sentit a la resposta educativa cap a l'alumnat vulnerable: no és assistencialisme sinó justícia
 
-*   **Senyals del docent:**
+## 4. Detecció
+
+### Senyals del docent
     *   El docent observa que un alumne té dificultats per comprendre les explicacions de classe, tot i que sembla esforçar-se.
     *   El docent detecta que un alumne té llacunes significatives en coneixements previs en àrees com història o geografia, que no s'expliquen pel seu rendiment general.
     *   El docent nota que un alumne no participa activament en les dinàmiques de grup o en les discussions de l'aula.
     *   El docent s'adona que un alumne té dificultats per seguir les rutines o els procediments didàctics habituals del centre.
     *   El docent rep consultes de la família de l'alumne sobre el funcionament del sistema educatiu o la cultura local.
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   L'alumne expressa frustració o desmotivació per no entendre o no poder expressar-se adequadament.
     *   L'alumne mostra aïllament social o dificultat per relacionar-se amb els companys.
     *   L'alumne presenta un rendiment acadèmic irregular, amb bons resultats en algunes àrees i dificultats marcades en d'altres.
-*   **Senyals de context:**
+### Senyals de context
     *   L'alumne s'ha incorporat recentment al centre o al sistema educatiu català (nouvingut).
     *   L'activitat requereix un alt domini de la llengua acadèmica o coneixements culturals específics.
     *   La composició del grup classe és molt diversa culturalment i lingüísticament.
-*   **Anti-senyals:**
+### Anti-senyals
     *   L'alumne, tot i ser d'origen estranger, ha estat escolaritzat al sistema català des de petit i no presenta les llacunes o dificultats d'adaptació típiques d'un nouvingut.
     *   Les dificultats de l'alumne són generals i afecten totes les àrees per igual, suggerint altres necessitats educatives més enllà de la vulnerabilitat socioeducativa per origen.
     *   L'alumne mostra una bona integració social i comunicativa, i les seves dificultats són molt puntuals i no es relacionen amb barreres lingüístiques o culturals.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** Cal promoure un enfocament inclusiu que valori la diversitat de l'alumnat en situació de vulnerabilitat socioeducativa, transformant els reptes en oportunitats d'aprenentatge i garantint suports individualitzats i continuats.
 
@@ -132,6 +133,14 @@ Per acompanyar l'alumnat en situació de vulnerabilitat socioeducativa, és fona
         *   **Fonament:** Els documents indiquen que les rutines d'aula i els procediments didàctics poden ser molt diferents i generar confusió.
         *   **Exemple complet de raonament:** Davant un alumne nouvingut callat i poc participatiu en les activitats de grup, que sovint no sap com començar una tasca o com demanar ajuda: l'alumne pot estar confós sobre les expectatives i els procediments del nou entorn escolar. Convé animar-lo a observar activament com actuen els seus companys en situacions similars, com demanen la paraula o com organitzen els seus treballs. Cal animar-lo també a preguntar directament al docent o a un company de confiança quan tingui dubtes sobre "com es fa" alguna cosa, en lloc de quedar-se amb la incertesa. Es pot proposar que es creï una petita llista personal de "coses a fer" o "comportaments esperats" per a les activitats més comunes, com si fos un mapa per explorar les noves rutines. L'objectiu és que l'alumne se senti més segur i autònom en la seva interacció amb l'entorn escolar, transformant la incertesa en una oportunitat per aprendre les dinàmiques del nou context.
 ---
+
+## 5. Fonts
+
+- Bronfenbrenner, U. (1979). *The Ecology of Human Development*. Cambridge: Harvard University Press.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2020). *Pla d'atenció a la diversitat*. Generalitat de Catalunya.
+- OCDE (2012). *Equity and Quality in Education: Supporting Disadvantaged Students and Schools*. París: OECD Publishing.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 

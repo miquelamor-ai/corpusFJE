@@ -16,9 +16,7 @@ variables_configurables:
     impacte: "Si no: evitar exercicis interactius que requereixin input manual, prioritzar formats de resposta oral o selecció simple"
 ---
 
-### 1. CONTINGUT ESPECÍFIC
-
-#### Descripció del tret
+## Descripció del tret
 L'alumnat amb discapacitat motora es caracteritza per presentar limitacions significatives en la seva mobilitat, autonomia i/o coordinació, que poden afectar la seva interacció amb l'entorn físic i la realització de tasques quotidianes i acadèmiques. Aquesta condició no és homogènia, sinó que es manifesta en un ampli espectre de variabilitat, des de dificultats lleus en la motricitat fina o gruixuda fins a afectacions severes que requereixen suport extensiu per a la mobilitat i les activitats de la vida diària. La discapacitat motora pot ser d'origen divers (neurològic, muscular, ossi, etc.) i pot ser congènita o adquirida.
 
 És crucial entendre que la discapacitat motora no implica necessàriament una discapacitat intel·lectual o sensorial associada, tot i que poden coexistir (DOC 10). La intel·ligència i les capacitats cognitives d'aquest alumnat són tan diverses com les de qualsevol altre grup. La prevalença varia, però és un perfil present en els centres educatius, i la seva atenció s'emmarca en els principis d'una escola inclusiva que busca suprimir les barreres d'aprenentatge i participació per a tots els alumnes (DOC 10). L'objectiu és que puguin desenvolupar al màxim el seu potencial, adaptant l'entorn i les metodologies a les seves necessitats específiques de mobilitat i autonomia (DOC 8).
@@ -76,7 +74,7 @@ Els documents indiquen que la discapacitat motora pot coexistir amb altres condi
 *   **Retard mental:** "Discapacitat motriu i retard mental" (DOC 10).
 *   **Trastorns del llenguatge i la comunicació:** Si la motricitat orofacial o la capacitat d'escriure es veuen afectades (DOC 8, DOC 10).
 
-#### Principis d'actuació
+## Principis d'actuació
 L'actuació amb l'alumnat amb discapacitat motora ha de basar-se en la inclusió i l'eliminació de barreres (DOC 10):
 
 *   **Adaptar continguts:** No es tracta de reduir el currículum, sinó de fer-lo accessible. Es poden utilitzar formats alternatius (audiollibres, materials digitals interactius), i assegurar que els objectius d'aprenentatge siguin els mateixos per a tothom, però amb vies diverses per assolir-los. L'adaptació ha de tenir en compte els coneixements previs de l'alumnat (DOC 8).
@@ -85,7 +83,7 @@ L'actuació amb l'alumnat amb discapacitat motora ha de basar-se en la inclusió
 *   **Adaptar interacció:** Fomentar un clima d'aula inclusiu on es valori la diversitat. Promoure la participació activa de l'alumne en les dinàmiques de grup i projectes cooperatius. Els mestres de suport han d'intervenir dins l'aula ordinària per afavorir la implicació del tutor/a en el procés educatiu de tots els alumnes (DOC 10).
 *   **Accessibilitat de l'entorn:** Revisar i adaptar l'espai físic (mobiliari, rampes, lavabos adaptats) per garantir la màxima autonomia i seguretat.
 
-#### Línies vermelles
+## Línies vermelles
 És crucial evitar certs biaixos i pràctiques:
 
 *   **No reduir l'alumne a la seva discapacitat:** L'alumne és una persona amb múltiples pertinences i una identitat complexa (DOC 1, DOC 3). La discapacitat motora és una característica més, no la seva definició total. Reduir-lo a la seva condició limita la seva percepció i potencial.
@@ -94,39 +92,37 @@ L'actuació amb l'alumnat amb discapacitat motora ha de basar-se en la inclusió
 *   **No aïllar l'alumne:** Evitar que l'alumne treballi sempre de forma individual o separat del grup. La inclusió implica la participació en el grup de referència (DOC 10) i la interacció amb els companys.
 *   **No ignorar la veu de l'alumne i la família:** Són els principals experts en les seves necessitats i preferències. La seva participació en el disseny de les adaptacions és fonamental.
 
----
+## 3. Connexions amb altres documents del corpus
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M1_plans-individuals-PAD-PI.md`** — El PI articula les mesures d'accessibilitat física, tecnologies d'assistència i adaptació de materials i d'avaluació per a l'alumnat amb discapacitat motora
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA obliga a dissenyar múltiples formes d'expressió i de resposta que no requereixin habilitat motora fina: veu, ull, commutadors, teclats adaptats
+- **`M2_mesures-suports-inclusius.md`** — Els suports específics d'accessibilitat física (rampes, taules regulables, materials adaptats) i de tecnologia d'assistència (comunicadors, teclats alternatius)
+- **`M0_cura-personalis.md`** — L'atenció integral inclou la dimensió de la identitat: la discapacitat motora no defineix la persona; la competència intel·lectual pot estar intacta rere una mobilitat limitada
+- **`M7_benestar-emocional-seguretat.md`** — La dependència física en activitats quotidianes pot generar vulnerabilitat emocional; la dignitat i la discreció en el suport físic son clau
+- **`M7_participacio-families.md`** — Les famílies gestionen sovint coordinació sanitària-educativa complexa; l'escola és un actor d'un sistema de suport més ampli
 
-*   **Marc_Inclusio_Educativa**: Aquest document proporciona el fonament teòric sobre la inclusió, la supressió de barreres i l'atenció a la diversitat, principis essencials per entendre l'atenció a l'alumnat amb discapacitat motora.
-*   **Estrategia_Disseny_Universal_Aprenentatge (DUA)**: El DUA ofereix metodologies per diversificar els procediments, activitats i avaluacions, que són directament aplicables per adaptar l'aprenentatge a les necessitats de mobilitat i autonomia d'aquest perfil.
-*   **Protocol_CAD**: La Comissió d'Atenció a la Diversitat (CAD) és l'òrgan que gestiona les necessitats individuals i grupals de l'alumnat divers, incloent les necessitats de mobilitat i autonomia, i coordina els suports.
-*   **Eina_Pla_Individualitzat (PI)**: En casos de necessitats més complexes, l'elaboració d'un PI és una eina clau per concretar les mesures pedagògiques i socials, com les adaptacions per a alumnes amb discapacitat motora.
-*   **Perfil_Alumnat_NEE_Generals**: Aquest document s'emmarca dins de la comprensió més àmplia dels alumnes amb Necessitats Específiques de Suport Educatiu (NESE), dels quals la discapacitat motora és un subtipus.
-*   **Estrategia_Aprenentatge_Cooperatiu**: L'aprenentatge cooperatiu és una estratègia metodològica que pot facilitar la participació social i la interacció de l'alumnat amb discapacitat motora, reduint barreres de participació.
+## 4. Detecció
 
-### 3. DETECCIÓ (Variables de Context)
-
-*   **Senyals del docent:**
+### Senyals del docent
     *   "Tinc un alumne que té dificultats per moure's per l'aula o per accedir a certs espais."
     *   "Observo que un alumne tarda molt a escriure a mà o a manipular materials."
     *   "Un alumne sembla frustrat o aïllat durant les activitats que requereixen moviment o coordinació."
     *   "Em pregunto com puc adaptar les meves activitats perquè un alumne amb cadira de rodes pugui participar plenament."
     *   "Necessito idees per avaluar un alumne que no pot fer exàmens escrits de la mateixa manera que els altres."
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   L'alumne expressa dificultat per realitzar tasques manuals o d'escriptura.
     *   L'alumne es mostra reticent a participar en activitats que impliquen moviment o desplaçament.
     *   L'alumne necessita ajuda constant per accedir a materials o per canviar de lloc.
-*   **Senyals de context:**
+### Senyals de context
     *   L'activitat proposada requereix molta mobilitat, manipulació fina o escriptura manual.
     *   L'espai de l'aula o del centre presenta barreres arquitectòniques (escales, passadissos estrets, mobiliari fix).
     *   El grup classe no està acostumat a la diversitat de ritmes o formes de participació.
-*   **Anti-senyals:**
+### Anti-senyals
     *   L'alumne té dificultats de comprensió o d'expressió oral, però la seva mobilitat és adequada. (Podria ser un altre perfil, com Trastorn Específic del Llenguatge).
     *   L'alumne mostra dificultats en la coordinació motora, però no impedeixen la seva autonomia ni la seva participació en les activitats escolars amb adaptacions mínimes. (Pot ser una dificultat d'aprenentatge més lleu o una fase del desenvolupament).
     *   Les dificultats de mobilitat són temporals i degudes a una lesió puntual que no requereix adaptacions estructurals a llarg termini.
 
-### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** Cal prioritzar la creació d'un entorn educatiu accessible i flexible que permeti la participació plena i autònoma de l'alumnat amb discapacitat motora, adaptant els mitjans sense rebaixar les expectatives d'aprenentatge.
 
@@ -175,15 +171,9 @@ L'actuació amb l'alumnat amb discapacitat motora ha de basar-se en la inclusió
         *   **Exemple complet de raonament:** Davant l'establiment d'un pla d'adaptacions per a l'alumne: cal que l'alumne participi activament en la conversa amb el docent i la família per explicar quines són les seves dificultats reals i quines adaptacions creu que li serien més útils. Per exemple, pot dir que prefereix utilitzar un ordinador per prendre apunts en lloc d'un quadern, o que necessita més temps per anar al lavabo entre classes. La seva perspectiva és crucial per dissenyar un pla que sigui realment efectiu i que fomenti la seva autonomia. Aquesta participació no només empodera l'alumne, sinó que també ajuda el docent a entendre millor les seves necessitats específiques des de la seva pròpia experiència.
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:deic:modul_4:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/index |
-| 3 | cursos:escola_inclusiva:deic:modul_4:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_4/practica_1 |
-| 6 | pla_ind_altes_capacitats_756fd2c5a7.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_4/pla_ind_altes_capacitats.pdf |
-| 8 | cadsuports_a8c7a072f0.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_2/cadsuports.pdf |
-| 9 | PAD V1-1 Febrer 2008_4112dbf9af.pdf | http://www.xtec.cat/iesvilamajor/Documents%20de%20centre/PAD%20V1-1%20Febrer%202008.pdf |
-| 10 | pi_del_burgar_6348841d09.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_2/pi_del_burgar.pdf |
-
-*6 documents citats de 10 al corpus · secció generada automàticament*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb discapacitat motora*. Generalitat de Catalunya.
+- ONU (2006). *Convenció sobre els Drets de les Persones amb Discapacitat*. Nova York: Nacions Unides.
+- Palisano, R. J., et al. (2008). Content validity of the expanded and revised Gross Motor Function Classification System. *Developmental Medicine & Child Neurology*, 50(10), 744-750.

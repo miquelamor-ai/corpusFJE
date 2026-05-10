@@ -17,8 +17,6 @@ variables_configurables:
     impacte: "Lleu: LF moderada, vocabulari simplificat. Sever: LF extrema, pictogrames obligatoris, frases mínimes"
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Descripció del tret
 L'alumnat amb discapacitat intel·lectual és un perfil que presenta limitacions significatives en el funcionament intel·lectual i en la conducta adaptativa, que es manifesten en habilitats conceptuals, socials i pràctiques. Aquestes limitacions afecten la capacitat d'aprendre, de raonar, de resoldre problemes i de comprendre idees complexes a un ritme similar al dels seus iguals. Els documents fan referència a aquesta condició com a "retard mental lleuger" i "retard mental mig" (DOC 10), i també com a "necessitats cognitives greus i permanents" (DOC 8).
 
@@ -80,17 +78,19 @@ Per atendre l'alumnat amb discapacitat intel·lectual, és fonamental adoptar un
 *   **No subestimar les seves capacitats ni sobreprotegir-los:** Tots els alumnes tenen dret a la "participació i la consecució de l’èxit" (DOC 10). Subestimar pot portar a activitats poc estimulants i a la manca de desenvolupament de la seva autonomia, mentre que la sobreprotecció impedeix l'adquisició d'habilitats per a la vida independent.
 *   **Evitar tasques sense sentit o purament mecàniques:** "S’evita la còpia i les activitats mecàniques i pobres competencialment" (DOC 8), perquè no promouen un aprenentatge significatiu ni el desenvolupament de competències reals.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Marc d'Inclusió Educativa**: Aquest document s'alinea amb els principis d'inclusió que defensen l'atenció a la diversitat dins l'aula ordinària i la supressió de barreres d'aprenentatge.
-*   **Estratègia de Disseny Universal per a l'Aprenentatge (DUA)**: Les adaptacions i la diversificació de metodologies i avaluacions que es proposen són coherents amb el DUA, que busca crear entorns d'aprenentatge accessibles per a tothom.
-*   **Protocol d'Elaboració de Plans Individualitzats (PI)**: La necessitat de "adaptacions curriculars significatives" i "suports concrets" per a aquest perfil d'alumnat fa que la creació d'un PI sigui una eina essencial.
-*   **Eina: Comissió d'Atenció a la Diversitat (CAD)**: La CAD és l'òrgan clau per gestionar les "necessitats individuals" i "grupals" de l'alumnat, incloent les "necessitats cognitives greus i permanents", i per coordinar els suports (DOC 8, DOC 9).
-*   **Estratègia: Aprenentatge Cooperatiu**: La promoció de la "discussió en parelles, petits grups" i la "realització de tasques cooperatives" (DOC 8) és una estratègia metodològica clau per a la inclusió d'aquest alumnat.
-*   **Perfil: Alumnat amb Trastorn Generalitzat del Desenvolupament (TGD)**: Aquest perfil sovint coexisteix amb la discapacitat intel·lectual (DOC 10), fent rellevant la comprensió d'ambdós.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és l'instrument central per a l'alumnat amb DI: articula el nivell de suport, les adaptacions curriculars significatives i els objectius individualitzats
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet dissenyar accés al currículum real amb múltiples representacions: concret-pictòric-abstracte, suport visual i manipulatiu constant
+- **`M2_mesures-suports-inclusius.md`** — Les mesures d'inclusió educativa: nivells de suport (comunicació augmentativa, ajuda de company, suport d'EE), adaptació curricular significativa
+- **`M1_neurodiversitat-NESE.md`** — La DI s'inclou en el marc de NESE; el document conceptual proporciona el context sobre el funcionament intel·lectual i adaptatiu
+- **`M0_cura-personalis.md`** — L'atenció integral és especialment important: la persona amb DI sovint és definida per allò que no pot fer; la Cura Personalis desplaça la mirada cap al que sí pot i vol
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional i la pertinença al grup classe és un factor de qualitat de vida: la inclusió real (no nominal) és el repte
+- **`M7_participacio-families.md`** — Les famílies d'alumnat amb DI sovint porten anys de lluita pel dret a l'escola ordinària; la relació de confiança i la coresponsabilitat son fonamentals
 
-*   **Senyals del docent**
+## 4. Detecció
+
+### Senyals del docent
     *   "Observo que l'alumne/a necessita molt més temps que els seus companys per comprendre les instruccions o realitzar les tasques."
     *   "Les seves competències en lectura, escriptura o càlcul estan significativament per sota del nivell esperat per la seva edat."
     *   "L'alumne/a mostra dificultats per expressar-se o per comprendre el llenguatge complex."
@@ -98,25 +98,25 @@ Per atendre l'alumnat amb discapacitat intel·lectual, és fonamental adoptar un
     *   "Malgrat els esforços, els coneixements previs que aporta a nous temes són molt limitats."
     *   "L'alumne/a es beneficia clarament de les activitats molt estructurades i amb suport visual."
 
-*   **Senyals de l'alumne**
+### Senyals de l'alumne
     *   Respostes lentes o necessitat de repetició de les instruccions.
     *   Dificultat per seguir el fil de les converses o participar en debats complexos.
     *   Preferència per tasques concretes i manipulatives, amb rebuig a les abstractes.
     *   Dificultat per establir relacions socials amb els iguals sense una mediació.
 
-*   **Senyals de context**
+### Senyals de context
     *   En activitats que requereixen raonament abstracte o resolució de problemes complexos.
     *   En moments d'avaluació estandarditzada sense adaptacions.
     *   En grups grans o poc estructurats on la interacció espontània és clau.
     *   Quan es presenten continguts nous sense connexió amb coneixements previs o experiències concretes.
 
-*   **Anti-senyals**
+### Anti-senyals
     *   L'alumne/a té un ritme d'aprenentatge lent però amb un bon nivell de comprensió quan se li dona el temps i el suport adequat, sense que hi hagi un retard significatiu en les àrees instrumentals.
     *   Les dificultats es manifesten només en una àrea específica (ex. dislèxia) però la resta de capacitats cognitives i adaptatives estan dins la normalitat.
     *   Les dificultats són temporals i estan associades a un esdeveniment vital (dol, canvi de centre, etc.) i no a una limitació permanent.
     *   L'alumne/a presenta dificultats en el llenguatge per ser nouvingut i estar en procés d'adquisició de la llengua vehicular (DOC 5), sense altres indicadors de necessitats cognitives greus.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** Cal promoure la inclusió activa de l'alumnat amb discapacitat intel·lectual, adaptant l'entorn i la metodologia per maximitzar la seva participació i aprenentatge significatiu, reconeixent la diversitat com un valor.
 
@@ -162,6 +162,14 @@ Per atendre l'alumnat amb discapacitat intel·lectual, és fonamental adoptar un
     *   **Fonament:** La "baixa autonomia" (DOC 10) i les "necessitats cognitives greus" (DOC 8) poden dificultar la planificació i l'organització.
     *   **Exemple complet de raonament:** Davant un alumne amb discapacitat intel·lectual lleu que diu que té molts deures i no sap com començar, convé suggerir-li: "És normal sentir-se així de vegades. Pots demanar al teu professor o a un company que t'ajudi a fer una llista de les tasques, i a ordenar-les de la més fàcil a la més difícil, o de la més curta a la més llarga. També pots demanar que t'ajudin a dividir una tasca gran en petits passos. Així, cada vegada que acabis un pas, podràs marcar-lo i veuràs que vas avançant, cosa que et donarà més ganes de continuar. Recorda que el professorat reconeix l'esforç que fas per completar les tasques (DOC 8)."
 ---
+
+## 5. Fonts
+
+- American Association on Intellectual and Developmental Disabilities (2021). *Intellectual Disability: Definition, Classification, and Systems of Support* (12a ed.). Washington: AAIDD.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb discapacitat intel·lectual*. Generalitat de Catalunya.
+- ONU (2006). *Convenció sobre els Drets de les Persones amb Discapacitat*. Nova York: Nacions Unides.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 

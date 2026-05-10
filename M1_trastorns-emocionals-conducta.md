@@ -11,8 +11,6 @@ variables_configurables: []
 # El docent aporta context específic per cada cas.
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Descripció de la situació
 L'alumnat amb trastorns emocionals i de conducta es caracteritza per presentar necessitats afectives greus i permanents, desajustaments de la personalitat, i problemes d'autoestima i autoconcepte que impacten significativament la seva participació i aprenentatge a l'escola. Aquest perfil no és homogeni; inclou des de conductes inhibides i manca d'interès fins a actituds violentes, sexistes o racistes, i trastorns de conducta explícits. La diversitat de l'alumnat és complexa, i aquests trastorns sovint coexisteixen amb altres factors de vulnerabilitat i exclusió social, o amb altres necessitats educatives. És fonamental entendre que aquestes manifestacions són barreres d'aprenentatge i participació, i no només un dèficit individual, requerint una atenció inclusiva i contextualitzada. La identitat d'aquests alumnes és el resultat de múltiples pertinences, flexibles i canviants, que poden ser condicionades per factors socials i personals.
 
@@ -73,40 +71,40 @@ L'actuació amb l'alumnat amb trastorns emocionals i de conducta ha de basar-se 
 *   **No centrar-se exclusivament en el dèficit:** Aquest perfil no és un dèficit, sinó una realitat que presenta barreres. Cal enfocar-se en les fortaleses de l'alumne i en les seves capacitats, aprofitant-les per construir el seu aprenentatge i benestar, en lloc de veure només les mancances.
 *   **No assumir homogeneïtat en les causes o manifestacions:** Els factors que condicionen els comportaments i processos de socialització són múltiples i es combinen de maneres molt diverses. Assumir que tots els alumnes amb trastorns emocionals o de conducta són iguals o responen als mateixos estímuls és un error que impedeix una atenció personalitzada i efectiva.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **M1_Diversitat_Cultural:** La diversitat cultural i socioeconòmica pot ser un factor de vulnerabilitat que influeix en l'aparició o exacerbació de trastorns emocionals i de conducta.
-*   **M1_Altes_Capacitats:** Aquest perfil pot presentar dificultats en la relació amb els iguals i introversió, que són aspectes emocionals i socials a tenir en compte.
-*   **M2_Disseny_Universal_Aprenentatge:** Les mesures metodològiques i organitzatives descrites per atendre la diversitat (diversificació d'activitats, adaptació de continguts) són fonaments del DUA.
-*   **M3_Avaluacio_Formativa:** La promoció de l'autoavaluació i coavaluació com a mesura d'autoregulació de l'aprenentatge és un pilar de l'avaluació formativa.
-*   **M4_Coordinacio_EAP:** La derivació i coordinació amb els EAP és una necessitat prioritària per a l'atenció d'aquest alumnat.
-*   **M4_Aules_Acollida:** L'alumnat nouvingut, atès a les aules d'acollida, pot presentar necessitats emocionals i de conducta derivades del procés d'adaptació.
-*   **M4_Comissio_Atencio_Diversitat:** La CAD és l'òrgan clau per gestionar i coordinar les mesures d'atenció a la diversitat, incloent les necessitats d'aquest perfil.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional és el prerequisit absolut: els trastorns emocionals i de conducta sorgeixen sovint d'entorns insegurs; l'escola com a espai reparador és la hipòtesi de fons
+- **`M1_plans-individuals-PAD-PI.md`** — El PAD o PI articula les mesures de suport conductual positiu, els protocols de desescalada i les adaptacions metodològiques i d'avaluació
+- **`M0_educador-samarita.md`** — L'educador samarità és el referent clau: la relació educativa de qualitat és en si mateixa un factor de protecció i de reparació per a l'alumnat amb TEC
+- **`M0_cura-personalis.md`** — L'atenció integral és especialment urgent: darrere de la conducta disruptiva sovint hi ha una necessitat no coberta, un dolor no dit; la Cura Personalis obliga a llegir darrere de la conducta
+- **`M0_acompanyament-tutoria-ignasia.md`** — La tutoria ignasiana dona les eines de relació (conversa, discerniment, escolta activa) que permeten arribar a l'alumne que la conducta ha allunyat
+- **`M7_participacio-families.md`** — La coordinació escola-família és especialment complexa i especialment necessària: la coherència de resposta entre els dos entorns és el factor predictiu més fort
+
+## 4. Detecció
+### Senyals del docent
     *   "Observo canvis significatius en el comportament habitual d'un alumne, com retraïment o irritabilitat?"
     *   "L'alumne s'aïlla dels companys o té dificultats persistents per interactuar en grup?"
     *   "Hi ha una disminució sobtada i injustificada en el seu rendiment acadèmic o interès per les tasques?"
     *   "L'alumne expressa verbalment o amb el seu llenguatge no verbal sentiments de tristesa, ansietat o baixa autoestima?"
     *   "Es produeixen conflictes recurrents al grup classe on l'alumne està implicat, o mostra actituds agressives/violentes?"
     *   "L'alumne té dificultats per regular les seves emocions, amb explosions de ràbia o plors incontrolats?"
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   Aïllament social, evitació del contacte visual, o preferència per treballar sempre sol.
     *   Expressions de frustració, tristesa, ansietat o preocupació excessiva sobre el rendiment o les relacions.
     *   Conductes disruptives, agressivitat verbal o física, o resistència a les normes de l'aula.
-*   **Senyals de context:**
+### Senyals de context
     *   Canvis significatius en l'entorn familiar o social de l'alumne (pèrdues, separacions, canvi de domicili, assetjament).
     *   Situacions de transició educativa (canvi d'etapa, d'escola) o d'alta pressió acadèmica.
     *   Activitat que requereix una alta exposició pública o interacció social, on l'alumne mostra un malestar evident.
     *   Dinàmiques de grup classe negatives, amb conflictes interns o exclusió de certs membres.
     *   Moment del dia o de la setmana en què l'alumne mostra més dificultats (ex: dilluns al matí, després del pati).
-*   **Anti-senyals:**
+### Anti-senyals
     *   L'alumne té un rendiment acadèmic consistent i adequat al seu potencial, i bones relacions amb els companys i docents.
     *   Les dificultats observades són puntuals, es resolen ràpidament amb un suport mínim i no formen part d'un patró persistent.
     *   L'alumne expressa satisfacció i benestar general a l'escola i en les seves activitats quotidianes.
     *   El comportament que podria semblar disruptiu és en realitat una manifestació de creativitat o d'un estil d'aprenentatge diferent, i no genera malestar a l'alumne ni al grup.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 *   **Principi general:** Prioritzar el benestar emocional i la inclusió social com a base per a l'aprenentatge significatiu i la participació plena de l'alumnat.
 
 *   **Heurístiques per al docent:**
@@ -145,6 +143,14 @@ L'actuació amb l'alumnat amb trastorns emocionals i de conducta ha de basar-se 
         *   Fonament: Potenciar l'autoavaluació i la coavaluació com a mesura d'autoregulació de l'aprenentatge i del comportament (DOC 8).
         *   Exemple complet de raonament: Davant un alumne amb dificultats per mantenir la concentració durant les classes o per acabar les tasques a temps, preguntes útils són: "Quines estratègies creus que et podrien ajudar a concentrar-te millor?" o "Com pots organitzar el teu temps per completar aquesta tasca de manera més eficient?". Convé guiar l'alumne a reflexionar sobre els seus propis processos d'aprenentatge i conducta, fomentant l'autoavaluació i la presa de responsabilitat. Per exemple, fer petits descansos, dividir la tasca en parts més petites, utilitzar un planificador visual, o identificar els moments del dia en què se sent més productiu. Aquesta autonomia en la gestió del propi aprenentatge i benestar és crucial per a la seva evolució (DOC 8).
 ---
+
+## 5. Fonts
+
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb trastorns de conducta*. Generalitat de Catalunya.
+- Greene, R. W. (2014). *The Explosive Child* (5a ed.). Nova York: HarperCollins.
+- Perry, B. D., & Szalavitz, M. (2006). *The Boy Who Was Raised as a Dog*. Nova York: Basic Books.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
