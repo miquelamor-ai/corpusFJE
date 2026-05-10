@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:14:44
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL TIPUS "MARC"
-
 ## Definició i principis
 
 Els Identificadors Globals de Jesuïtes Educació (FJE) són els trets identitaris i valors fonamentals que defineixen la proposta educativa dels centres de la Companyia de Jesús a Catalunya. Aquests identificadors s'arrelen profundament en l'espiritualitat ignasiana i en una tradició educativa de gairebé 500 anys, adaptada als reptes i necessitats del segle XXI. La seva finalitat última és la formació integral de la persona, entesa com un procés de creixement humà i espiritual que busca el "major bé" (Magis) per a l'individu i la societat.
@@ -75,19 +73,18 @@ Els Identificadors Globals FJE són un marc sòlid, però la seva aplicació req
 *   **Equilibri entre l'excel·lència acadèmica i la formació humana integral:** L'excel·lència a FJE no es limita als resultats acadèmics, sinó que busca el "màxim desenvolupament dels dons i capacitats amb què cada persona ha estat dotada... per al millor servei dels altres" (DOC 109, DOC 113). El perill és que la pressió per obtenir bones notes o l'accés a estudis superiors desvirtuï la formació en les 4 Cs, el desenvolupament de la consciència crítica, la compassió i el compromís social. Cal mantenir un equilibri que valori ambdues dimensions de l'excel·lència.
 *   **La universalitat del carisma ignasià versus la diversitat dels contextos locals:** La Companyia de Jesús aspira a "actuar com un cos universal amb una missió universal", però reconeix la "radical diversitat de les nostres situacions" (DOC 86, DOC 96, DOC 102). Això significa que els Identificadors Globals no són un manual rígid, sinó un marc d'inspiració que ha de ser adaptat i encarnat creativament en cada realitat local, respectant les cultures, les necessitats socioeconòmiques i les ideologies de cada territori (DOC 9, DOC 70).
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Projecte Vital i Vocacional de l'Alumnat**: Aquest document defineix el marc general del projecte vital i vocacional com a eix central de l'educació FJE, al qual els Identificadors Globals donen sentit i direcció.
-*   **Pedagogia Ignasiana**: Aquest document estableix els principis fonamentals de la pedagogia ignasiana (context, experiència, reflexió, acció, avaluació) que sustenten la implementació dels Identificadors Globals.
-*   **Les 4 C de l'Alumnat FJE**: Aquest document detalla el perfil de l'alumnat (conscient, competent, compassiu, compromès) que els Identificadors Globals busquen formar com a expressió de l'excel·lència humana.
-*   **Educació per a la Ciutadania Global**: Aquest document aprofundeix en un dels Identificadors Globals clau, la formació de ciutadans globals, desglossant els seus àmbits d'actuació.
-*   **Ecologia Integral**: Aquest document desenvolupa un altre Identificador Global fonamental, el compromís amb la cura de la Casa Comuna, oferint un marc per a la seva aplicació.
-*   **Discerniment Ignasià**: Aquest document explica una de les pràctiques espirituals fonamentals que sustenta la identitat FJE i el procés de presa de decisions individuals i comunitàries.
-*   **Conversa Espiritual**: Aquest document descriu una pràctica clau per a la comunicació i el creixement personal i comunitari, fonamental per als valors de relació i diàleg promoguts pels Identificadors Globals.
-*   **Aprenentatge Basat en Projectes (ABP)**: Aquest document presenta una metodologia que s'alinea amb la formació de les 4 Cs i el compromís social, sent una eina per aplicar els Identificadors Globals a l'aula.
-*   **Acompanyament Personalitzat**: Aquest document detalla la pràctica de la "cura personalis" que és un pilar dels Identificadors Globals i es tradueix en un seguiment integral de l'alumnat.
+- **`M0_PPI-paradigma-pedagogic-ignasia.md`** — El PPI és el marc metodològic que operativitza els identificadors: el cicle Contexte-Experiència-Reflexió-Acció és el "mode de procedir" que dóna forma concreta a la identitat FJE
+- **`M0_cura-personalis.md`** — La *Cura Personalis* és el mode de relació que permet que els identificadors globals passin de principis a pràctica: l'atenció integral a cada alumne concret
+- **`M0_excellencia-humana-4C.md`** — Les 4C (conscient, competent, compassiu, compromès) és el perfil de sortida que tots els identificadors globals convergeixen a construir
+- **`M0_magis-i-servei.md`** — El Magis és el criteri de discerniment que impregna tots els identificadors: no qualsevol acció sino la que millor serveix la missió
+- **`M0_preferencies-apostoliques-universals.md`** — Les PAU concreten el moment apostòlic al qual els identificadors globals responen; mostren on la Companyia prioritza l'energia en aquesta dècada
+- **`M0_ciutadania-global-justicia.md`** — La ciutadania global és un dels identificadors clau i desenvolupa la dimensió de justícia i compromís social que tots els altres identificadors impliquen
+- **`M0_ecologia-integral.md`** — La cura de la Casa Comuna és un dels identificadors globals i dóna contingut concret a la dimensió de reconciliació amb la creació
+- **`M0_cultura-vocacional.md`** — El projecte vital i vocacional és l'eix que articula tots els identificadors en la vida de cada alumne: la pregunta "per a qui sóc jo?" recull tota la identitat FJE
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
 *   **Senyals del docent:**
     *   "Em pregunto quin és el propòsit últim de la meva feina més enllà del currículum acadèmic."
@@ -111,7 +108,7 @@ Els Identificadors Globals FJE són un marc sòlid, però la seva aplicació req
     *   El context escolar està completament centrat en resultats acadèmics estandarditzats i la competitivitat, sense espai per a la formació integral o el compromís social.
     *   La comunitat educativa percep la "identitat" com un element merament formal o decoratiu, sense implicació real en la pràctica diària.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** L'educació FJE busca la formació integral de persones que, des d'una profunda relació amb Déu i amb elles mateixes, siguin competents, conscients, compassives i compromeses amb la justícia i la cura de la Casa Comuna, actuant com a ciutadans globals.
 
@@ -160,95 +157,16 @@ Els Identificadors Globals FJE són un marc sòlid, però la seva aplicació req
         *   **Exemple de raonament:** Davant un alumne que participa en una campanya de recollida d'aliments, convé guiar-lo a reflexionar més enllà de l'acció puntual: "Quines són les causes estructurals de la pobresa que porten a la necessitat d'aquesta campanya? Com puc contribuir a canvis més profunds i duradors? Quina responsabilitat tinc com a individu en la construcció d'una societat més justa i equitativa?" Aquesta reflexió crítica i profunda el porta a desenvolupar una consciència social més enllà de la caritat, promovent un compromís actiu amb la transformació de les realitats injustes i amb la construcció d'un món més fratern, alineant-se
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Examen-2017-Ross-Jones-SJ | file://upload/Examen-2017-Ross-Jones-SJ.pdf |
-| 2 | 200510803sp Conversacion espiritual | file://upload/200510803sp Conversacion espiritual.pdf |
-| 3 | eica89_90 Discerniment Comunitari | file://upload/eica89_90 Discerniment Comunitari.pdf |
-| 4 | Four-Key-Practices-in-Ignatian-Spirituality-Course-1692114978 | file://upload/Four-Key-Practices-in-Ignatian-Spirituality-Course-1692114978.pdf |
-| 5 | La-Conversación-Espiritual-ES | file://upload/La-Conversación-Espiritual-ES.pdf |
-| 6 | Pautas-para-la-conversacion-espiritual | file://upload/Pautas-para-la-conversacion-espiritual.pdf |
-| 7 | 1491-1556,_Ignatius_Loyola,_Constituciones_de_la_Compania_de_Jesus,_ES | file://upload/1491-1556,_Ignatius_Loyola,_Constituciones_de_la_Compania_de_Jesus,_ES.pdf |
-| 8 | Fórmula del Instituto, 1550 - La _Mínima Compañía_ | file://upload/Fórmula del Instituto, 1550 - La _Mínima Compañía_.pdf |
-| 9 | Normas-Complementarias-Séptima-parte-277-297-Español | file://upload/Normas-Complementarias-Séptima-parte-277-297-Español.pdf |
-| 10 | Triptic Nova  FP 2022 JE_OK2desplegat | file://upload/Triptic Nova  FP 2022 JE_OK2desplegat.pdf |
-| 11 | Triptic_LLAR_2021_JE | file://upload/Triptic_LLAR_2021_JE.pdf |
-| 12 | Triptic_TQE 2021_JE | file://upload/Triptic_TQE 2021_JE.pdf |
-| 13 | Diptic Essencials JE_ WEB_20200201_pdf | file://upload/Diptic Essencials JE_ WEB_20200201_pdf.pdf |
-| 14 | Díptic_Essencials_Horitzó2020_2018 | file://upload/Díptic_Essencials_Horitzó2020_2018.pdf |
-| 15 | Díptic_Relat_HoritzóMés_2019 | file://upload/Díptic_Relat_HoritzóMés_2019.pdf |
-| 16 | Triptic_MOPI_2021_JE | file://upload/Triptic_MOPI_2021_JE.pdf |
-| 17 | Triptic_NEI_2021_JE | file://upload/Triptic_NEI_2021_JE.pdf |
-| 18 | Triptic_PIN_2022_JE | file://upload/Triptic_PIN_2022_JE.pdf |
-| 20 | Pacte educatiu global vademecum-espanol | file://upload/Pacte educatiu global vademecum-espanol.pdf |
-| 21 | papa-francesco_20201003_enciclica-fratelli-tutti_es | file://upload/papa-francesco_20201003_enciclica-fratelli-tutti_es.pdf |
-| 23 | Fratelli tutti (3 de octubre de 2020) | file://upload/Fratelli tutti (3 de octubre de 2020).pdf |
-| 25 | Laudato si_ (24 de mayo de 2015) | file://upload/Laudato si_ (24 de mayo de 2015).pdf |
-| 26 | papa-francesco_20150524_enciclica-laudato-si_es | file://upload/papa-francesco_20150524_enciclica-laudato-si_es.pdf |
-| 27 | papa-francesco_20190912_messaggio-patto-educativo_es | file://upload/papa-francesco_20190912_messaggio-patto-educativo_es.pdf |
-| 28 | 2019-13_21abr19_ESP (5) | file://upload/2019-13_21abr19_ESP (5).pdf |
-| 29 | PAU 2019-06_19feb19_ESP (3) | file://upload/PAU 2019-06_19feb19_ESP (3).pdf |
-| 30 | The_Kairos_of_an_unexpected_hope_-_James_Hanvey_SJ (3) | file://upload/The_Kairos_of_an_unexpected_hope_-_James_Hanvey_SJ (3).pdf |
-| 32 | Caracas_1998_febrero-caracteristicas | file://upload/Caracas_1998_febrero-caracteristicas.pdf |
-| 33 | Nicols A. 2009 - Problemas y Desafos Ed. Jesuita - Manila | file://upload/Nicols A. 2009 - Problemas y Desafos Ed. Jesuita - Manila.pdf |
-| 34 | 2017.10.18_SOSA_Arturo_Universidad_Reconciliacion-Justicia_PUC-Rio-de-Janeiro-1704370083 | file://upload/2017.10.18_SOSA_Arturo_Universidad_Reconciliacion-Justicia_PUC-Rio-de-Janeiro-1704370083.pdf |
-| 35 | 2017.10.26_SOSA_Arturo_FEI-Sao-Paulo-Brazil-1704367113 | file://upload/2017.10.26_SOSA_Arturo_FEI-Sao-Paulo-Brazil-1704367113.pdf |
-| 36 | 2017.10.27_SOSA_Arturo_Discernimiento-Planificacion_UNISINOS-1704364241 | file://upload/2017.10.27_SOSA_Arturo_Discernimiento-Planificacion_UNISINOS-1704364241.pdf |
-| 37 | 100423_Mexico_ESP-Redes-para-la-Educ-Sup-Jes | file://upload/100423_Mexico_ESP-Redes-para-la-Educ-Sup-Jes.pdf |
-| 39 | 110909_125-anniv.-Deusto_Lectio-repartida | file://upload/110909_125-anniv.-Deusto_Lectio-repartida.pdf |
-| 40 | 130506_Valladolid_Liderazgo_ignaciano | file://upload/130506_Valladolid_Liderazgo_ignaciano.pdf |
-| 41 | 130508_Gijon_Conferencia_sobre_educacion-2013.05.08-1704379892 | file://upload/130508_Gijon_Conferencia_sobre_educacion-2013.05.08-1704379892.pdf |
-| 43 | 202126-Homilia-JGNS-1638215806 | file://upload/202126-Homilia-JGNS-1638215806.pdf |
-| 45 | arr_colegios_sp | file://upload/arr_colegios_sp.pdf |
-| 46 | arr_men_sp | file://upload/arr_men_sp.pdf |
-| 47 | Discurso-Padre-General-47-Congreso-Internacional-Fe-y-Alegría | file://upload/Discurso-Padre-General-47-Congreso-Internacional-Fe-y-Alegría.pdf |
-| 49 | La-universidad-fuente-de-vida-reconciliada.-Arturo-Sosa | file://upload/La-universidad-fuente-de-vida-reconciliada.-Arturo-Sosa.pdf |
-| 51 | Nicols A. 2013 Educacin en la Compaa de Jess Gijn - Espaa | file://upload/Nicols A. 2013 Educacin en la Compaa de Jess Gijn - Espaa.pdf |
-| 52 | primera_homilia_pgeneral_arturososa | file://upload/primera_homilia_pgeneral_arturososa.pdf |
-| 53 | SOSA-A-Discurso-X-Congreso-WUJA-2022-FFFF-1657871739 | file://upload/SOSA-A-Discurso-X-Congreso-WUJA-2022-FFFF-1657871739.pdf |
-| 54 | SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020 | file://upload/SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020.pdf |
-| 55 | universidad_sp-carisma-ignatiano | file://upload/universidad_sp-carisma-ignatiano.pdf |
-| 58 | Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907 | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf |
-| 61 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-601-895 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-601-895.pdf |
-| 62 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-301-600 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-301-600.pdf |
-| 63 | DOCUMENTO-Cinco-claves-de-Espiritualidad-Ignaciana | file://upload/DOCUMENTO-Cinco-claves-de-Espiritualidad-Ignaciana.pdf |
-| 65 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007.pdf |
-| 67 | CG-35-ES | file://upload/CG-35-ES.pdf |
-| 68 | Compañía-de-Jesús-2017-Decreto-1-CG-36 | file://upload/Compañía-de-Jesús-2017-Decreto-1-CG-36.pdf |
-| 70 | Congregación-General-34-Educación-secundaria-primaria-y-popular-Español | file://upload/Congregación-General-34-Educación-secundaria-primaria-y-popular-Español.pdf |
-| 73 | caracter propio de los centros educativos de la compani ii a de jesui s | file://upload/caracter propio de los centros educativos de la compani ii a de jesui s.pdf |
-| 74 | Document Cultura Vocacional Provincia-CAT | file://upload/Document Cultura Vocacional Provincia-CAT.pdf |
-| 76 | Infografía CV_imprimir_CAT | file://upload/Infografía CV_imprimir_CAT.pdf |
-| 77 | INFORMECuestionario valores Jesuitas (2017) | file://upload/INFORMECuestionario valores Jesuitas (2017).pdf |
-| 79 | Mision-vision-valores EDUCSI | file://upload/Mision-vision-valores EDUCSI.pdf |
-| 82 | samaritans, mestres i testimonis [CATALÁ] | file://upload/samaritans, mestres i testimonis [CATALÁ].pdf |
-| 83 | NEW-Brochure-ESP_jesedu-rio2017 | file://upload/NEW-Brochure-ESP_jesedu-rio2017.pdf |
-| 85 | SIPEI-Declaración-Final (1) | file://upload/SIPEI-Declaración-Final (1).pdf |
-| 86 | ICJSE-Declaración-Final BOSTON 2012 | file://upload/ICJSE-Declaración-Final BOSTON 2012.pdf |
-| 87 | II COLOQUIO JESEDU-JOGJA2020 - INFORMACIÓN COMPLETA | file://upload/II COLOQUIO JESEDU-JOGJA2020 - INFORMACIÓN COMPLETA.pdf |
-| 88 | JESEDU-Global2021- Precoloquio | file://upload/JESEDU-Global2021- Precoloquio.pdf |
-| 89 | JESEDU-Global-2021-Declaración-Final-ES-211019-1634816548 (3) | file://upload/JESEDU-Global-2021-Declaración-Final-ES-211019-1634816548 (3).pdf |
-| 90 | JESEDU-Jogja2024-Declaracion-Final-ES-1721660286 (1) | file://upload/JESEDU-Jogja2024-Declaracion-Final-ES-1721660286 (1).pdf |
-| 91 | JESEDU-Rio-2017-Acuerdos-Finales (1) | file://upload/JESEDU-Rio-2017-Acuerdos-Finales (1).pdf |
-| 92 | Presenter_AlvaroLoboSJ_Script-1722606624 (1) | file://upload/Presenter_AlvaroLoboSJ_Script-1722606624 (1).pdf |
-| 93 | SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020 | file://upload/SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020.pdf |
-| 94 | 25-11-2020. Documento Marco de Ciudadanía Global versió 7 Català (1).docx | file://upload/25-11-2020. Documento Marco de Ciudadanía Global versió 7 Català (1).docx.pdf |
-| 95 | edujesuit-derecho-a-la-educacion-para-todas-las-personas | file://upload/edujesuit-derecho-a-la-educacion-para-todas-las-personas.docx |
-| 96 | Ciudadanía-Global_Un-Verdadero-Compañero-_191125 | file://upload/Ciudadanía-Global_Un-Verdadero-Compañero-_191125.pdf |
-| 97 | El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824 | file://upload/El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824.pdf |
-| 99 | Pedagogia Ignasiana. Un Plantejament Pràctic. 1993. | file://upload/Pedagogia Ignasiana. Un Plantejament Pràctic. 1993..pdf |
-| 102 | Una_tradicio_viva_CA-Catalan-1670506742 | file://upload/Una_tradicio_viva_CA-Catalan-1670506742.pdf |
-| 103 | An_Integrated_Perspective_ES_FULL (1) | file://upload/An_Integrated_Perspective_ES_FULL (1).pdf |
-| 104 | autobiografia | file://upload/autobiografia.pdf |
-| 105 | Característiques de l_educació a la companyia de Jesús. 1986 | file://upload/Característiques de l_educació a la companyia de Jesús. 1986.pdf |
-| 106 | Carta-del-Padre-General-Kolvenbach-SJ-1 Presentació Característiques  | file://upload/Carta-del-Padre-General-Kolvenbach-SJ-1 Presentació Característiques .pdf |
-| 108 | El paradigma Ledesma Kolvenbach | file://upload/El paradigma Ledesma Kolvenbach.pdf |
-| 109 | EXCELENCIA_HUMANA_-ESP | file://upload/EXCELENCIA_HUMANA_-ESP.pdf |
-| 110 | Ignacio de Loyola Ejercicios Espirituales-Texto autografo | file://upload/Ignacio de Loyola Ejercicios Espirituales-Texto autografo.pdf |
-| 111 | Jesuit-Education-Contemporary-Map-ES-1733135006 | file://upload/Jesuit-Education-Contemporary-Map-ES-1733135006.pdf |
-| 112 | Learning by Refraction  A Practitioner_s Guide to 21st-Century Ignatian Pedagogy_nodrm | file://upload/Learning by Refraction  A Practitioner_s Guide to 21st-Century Ignatian Pedagogy_nodrm.pdf |
-| 113 | TIME LINE EDUCACIÓ JESUÏTA | file://upload/TIME LINE EDUCACIÓ JESUÏTA.pdf |
-
-*86 documents citats de 113 al corpus · secció generada automàticament*
+- Loyola, I. de, SJ (1548). *Exercicis Espirituals*. Text autògraf.
+- Loyola, I. de, SJ (1539). *Constitucions de la Companyia de Jesús*.
+- Arrupe, P. SJ (1973). *Homes per als altres*. Roma: Companyia de Jesús.
+- Kolvenbach, P-H. SJ (1986). *Característiques de l'Educació de la Companyia de Jesús*. Roma: ICAJE.
+- ICAJE (1993). *Pedagogia Ignasiana: Un plantejament pràctic (PPI)*. Roma: Cúria de la Companyia de Jesús.
+- Congregació General 32 (1975). *Decret 4: La nostra missió i la justícia*. Roma: Companyia de Jesús.
+- Sosa, A. SJ (2016). *Decret 1 — CG36: Companys en una missió de reconciliació i justícia*. Roma.
+- Sosa, A. SJ (2019). *Preferències Apostòliques Universals 2019-2029* (CG 2019/06). Roma.
+- Papa Francesc (2015). *Laudato Si'*. Vaticà: Libreria Editrice Vaticana.
+- Secretariat d'Educació SJ (2019). *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI*. Roma.
+- Jesuïtes Educació (2020). *Essencials JE*. Barcelona: FJE.

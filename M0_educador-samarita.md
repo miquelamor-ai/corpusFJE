@@ -7,18 +7,14 @@ review_status: esborrany
 generat_at: 2026-03-21T07:15:58
 ---
 
-# Educador Samarità — Mestre Testimoni
-
-## 1. CONTINGUT ESPECÍFIC DEL MARC
-
-### Definició i principis
+## Definició i principis
 El marc de l'Educador Samarità, o Mestre Testimoni, se centra en la pedagogia de la proximitat i el vincle educatiu com a eixos fonamentals de la pràctica docent. Aquesta visió arrelada en l'espiritualitat ignasiana, entén el docent no només com un transmissor de coneixements, sinó com un acompanyant integral de l'alumne en el seu "projecte vital i vocacional". La figura del Samarità, inspirada en la paràbola evangèlica, encarna la compassió, la cura, la presència activa i el compromís amb la persona que té al davant, especialment amb aquells més vulnerables o "ferits" per les circumstàncies de la vida.
 
 El principi fonamental és la "cura personalis", que implica una atenció individualitzada a cada alumne, reconeixent la seva singularitat, les seves potencialitats, necessitats i ritmes. Aquesta cura va més enllà de l'àmbit acadèmic i abraça les dimensions cognitiva, emocional, social i espiritual de la persona. L'educador és un "contemplatiu en l'acció", capaç de "trobar Déu en totes les coses" (Doc 1), és a dir, de veure la dignitat i el potencial diví en cada alumne i en cada situació educativa. Aquesta perspectiva fomenta una relació de confiança i respecte mutu, on l'escolta activa i la "conversa espiritual" (Doc 2, 5, 6) esdevenen eines essencials per comprendre els "moviments interiors" de l'alumne i ajudar-lo a discernir el seu camí.
 
 La missió de l'educador samarità és formar "persones per als altres i amb els altres" (Doc 46, 53, 109), que siguin conscients, competents, compassives i compromeses (les "4C" de Kolvenbach, Doc 43, 109). Aquesta formació integral busca que els alumnes desenvolupin un pensament crític, una consciència ètica i un compromís actiu amb la justícia social, la reconciliació i la cura de la Casa Comuna (Doc 10, 14, 29, 68, 94, 96, 97). El docent, a través del seu propi testimoni de vida i la seva coherència entre el que diu i el que fa, esdevé un model inspirador (Doc 89, 92, 113). No es tracta d'imposar una visió, sinó d'oferir un acompanyament que convidi a la recerca de sentit i a la llibertat personal, preparant els joves per ser agents de canvi en un món complex i fragmentat (Doc 15, 34, 82, 96). La pedagogia de la proximitat es manifesta en la capacitat de l'educador per crear un ambient acollidor i segur, on cada alumne se senti valorat i pertanyent, i pugui créixer en plenitud (Doc 11, 103).
 
-### Autors i evidència clau
+## Autors i evidència clau
 El marc de l'Educador Samarità — Mestre Testimoni s'arrel·la profundament en la tradició pedagògica i espiritual de la Companyia de Jesús, amb contribucions clau de diversos autors i documents:
 
 *   **Ignacio de Loiola (1491-1556):** El fundador de la Companyia de Jesús és la font primària. Els seus *Exercicis Espirituals* (Doc 110) i les *Constitucions* (Doc 7) estableixen el discerniment, la "cura personalis" i la recerca de "Déu en totes les coses" (Doc 1) com a pilars. La seva pròpia *Autobiografia* (Doc 104) és un testimoni de transformació personal i acompanyament.
@@ -28,7 +24,7 @@ El marc de l'Educador Samarità — Mestre Testimoni s'arrel·la profundament en
 *   **Arturo Sosa Abascal, S.J. (1948-):** Actual General, ha continuat aprofundint en la missió de reconciliació i justícia, la cura de la Casa Comuna i l'acompanyament dels joves en la creació d'un futur esperançador, plasmats en les *Preferències Apostòliques Universals (PAU) 2019-2029* (Doc 29, 113). Els congressos JESEDU (Boston 2012, Manresa 2014, Rio 2017, Jogja 2021/2024) (Doc 83, 85, 86, 87, 89, 90, 91, 111) han servit per definir una agenda global i la "Declaració Final: Discernint un futur ple d'esperança" (Doc 89) que emfatitza educar per la profunditat i la ciutadania global basades en la fe i la reconciliació.
 *   **Documents de Jesuïtes Educació (FJE):** Els tríptics de les etapes (MOPI, PIN, NEI, TQE, FP) (Doc 10, 11, 12, 16, 17, 18) i els "Essencials" (Doc 13, 14, 15) concreten aquesta visió en el model pedagògic Horitzó+.
 
-### Exemples concrets d'aplicació a l'aula
+## Exemples concrets d'aplicació a l'aula
 
 1.  **Educació Infantil (MOPI):**
     Un educador samarità a l'etapa MOPI es manifesta en la seva capacitat d'observar amb atenció cada infant, detectant les seves expressions emocionals, els seus interessos i els seus ritmes de desenvolupament. Per exemple, en un "node" d'aprenentatge sobre la natura (Doc 16), el mestre no només presenta continguts, sinó que es posa al costat de l'infant, l'escolta mentre explora, valida les seves emocions davant un descobriment o una frustració, i el guia amb preguntes obertes que fomenten la curiositat i l'autonomia. Crea un ambient segur i acollidor on l'infant se sent lliure d'experimentar i expressar-se, establint vincles afectius que són la base del seu creixement integral (Doc 11).
@@ -39,7 +35,7 @@ El marc de l'Educador Samarità — Mestre Testimoni s'arrel·la profundament en
 3.  **Batxillerat/Formació Professional (FP):**
     Un educador samarità en Batxillerat o FP acompanya els joves en la seva orientació acadèmica i professional, no només informant sobre opcions, sinó ajudant-los a reflexionar sobre "per a qui sóc jo?" (Doc 74, 76). Per exemple, en un cicle formatiu de salut, el docent promou que els futurs professionals desenvolupin una consciència ètica profunda, compassió cap als pacients i un compromís amb la justícia en el sistema sanitari (Doc 10). A través de tutories individuals i activitats de servei comunitari, els convida a veure la seva professió com una oportunitat per transformar el món, fomentant la seva capacitat de lideratge i la seva voluntat de "treballar amb i per als altres" (Doc 9, 10).
 
-### Errors comuns — què NO fer
+## Errors comuns — què NO fer
 
 1.  **Reduir l'educació a la transmissió de continguts:** Un error freqüent és oblidar que l'educació jesuïta busca el creixement integral de la persona, no només l'adquisició de coneixements. Limitar-se a un currículum academicista sense connectar-lo amb la vida i el sentit de l'alumne desvirtua la "cura personalis" i el "projecte vital i vocacional" (Doc 41, 51, 79).
 2.  **Ignorar la dimensió emocional i espiritual:** No prestar atenció als "moviments interiors" dels alumnes, les seves emocions, dubtes o cerques de sentit, és desatendre una part fonamental de la persona. La "conversa espiritual" i el discerniment no són additius, sinó intrínsecs a l'acompanyament (Doc 5, 61, 62).
@@ -47,7 +43,7 @@ El marc de l'Educador Samarità — Mestre Testimoni s'arrel·la profundament en
 4.  **Adoptar una postura de neutralitat o distància:** L'educador testimoni no és un observador passiu, sinó una presència activa i compromesa. Mantenir una distància excessiva o una neutralitat davant els dilemes ètics o socials impedeix la construcció d'un vincle significatiu i la transmissió de valors (Doc 14, 15, 82).
 5.  **Centrar-se només en el "dèficit" de l'alumne:** Veure l'alumne des d'una perspectiva de carències o problemes, sense reconèixer i potenciar les seves fortaleses i capacitats, és contrari a la visió ignasiana que busca el "magis" i el desenvolupament màxim de cada talent (Doc 11, 59, 109).
 
-### Matisos i excepcions
+## Matissos i excepcions
 
 El marc de l'Educador Samarità — Mestre Testimoni és un ideal i un horitzó al qual aspirar, no una llista de requisits rígids. La seva aplicació requereix flexibilitat i adaptació constant.
 
@@ -59,19 +55,18 @@ El marc de l'Educador Samarità — Mestre Testimoni és un ideal i un horitzó 
 
 ---
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Projecte Vital i Vocacional**: L'Educador Samarità és clau per acompanyar els alumnes en la construcció del seu Projecte Vital i Vocacional, ajudant-los a discernir el sentit de la seva vida.
-*   **Pedagogia Ignasiana (PPI)**: Aquest marc proporciona els principis i la metodologia per a la pedagogia de la proximitat i el vincle educatiu que caracteritza l'Educador Samarità.
-*   **Les 4C (Conscients, Competents, Compassius, Compromisos)**: L'Educador Samarità té com a objectiu fonamental la formació d'alumnes amb aquestes quatre característiques, sent el seu testimoni un motor per assolir-les.
-*   **Cura Personalis**: La Cura Personalis és el cor de la pedagogia de l'Educador Samarità, posant l'atenció en el desenvolupament integral de cada persona.
-*   **Discerniment Ignasià**: L'Educador Samarità guia els alumnes en el procés de discerniment, ajudant-los a prendre decisions amb sentit en el seu camí personal i educatiu.
-*   **Preferències Apostòliques Universals (PAU)**: Les PAU, especialment l'acompanyament als joves i el caminar amb els exclosos, són la missió que l'Educador Samarità encarna en la seva pràctica diària.
-*   **Ciutadania Global**: L'Educador Samarità forma alumnes compromesos amb la Ciutadania Global, capaços de transformar el món des de la justícia i la reconciliació.
-*   **Ecologia Integral**: El Mestre Testimoni integra la cura de la Casa Comuna com una dimensió essencial de la formació de l'alumne, connectant-la amb la compassió i el compromís.
-*   **Conversa Espiritual**: La Conversa Espiritual és una eina fonamental per a l'Educador Samarità per establir vincles profunds, escoltar activament i acompanyar els alumnes en la seva interioritat.
+- **`M0_cura-personalis.md`** — La *Cura Personalis* és el cor de la pedagogia de l'educador samarità: atenció integral i individualitzada que veu cada alumne com a persona completa, no com un expedient
+- **`M0_PPI-paradigma-pedagogic-ignasia.md`** — El PPI és el marc metodològic de l'educador samarità; el cicle Experiència-Reflexió-Acció dona estructura al seu mode de procedir
+- **`M0_acompanyament-tutoria-ignasia.md`** — La tutoria ignasiana concreta les eines de l'educador samarità: conversa espiritual, discerniment, fases d'acompanyament al projecte vital
+- **`M0_excellencia-humana-4C.md`** — Les 4C (conscient, competent, compassiu, compromès) és el perfil que l'educador samarità vol ajudar a formar des del seu testimoni de vida
+- **`M0_cultura-vocacional.md`** — El projecte vital i vocacional és l'horitzó de l'acompanyament; la pregunta "per a qui sóc jo?" orienta tota la relació educativa
+- **`M0_magis-i-servei.md`** — El Magis és la mesura de l'entrega de l'educador: no la comoditat ni el mínimo exigit sinó el major servei; el testimoni personal és la seva expressió
+- **`M0_preferencies-apostoliques-universals.md`** — Les PAU (sobretot PAU C: acompanyar joves) concreten la missió apostòlica que l'educador samarità encarna en la pràctica diària
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional és el prerequisit que l'educador samarità construeix; sense un ambient segur, cap altra dimensió de l'acompanyament és possible
 
-## 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
 *   **Senyals del docent**
     *   Expressa preocupació pel benestar emocional o personal d'un alumne més enllà del rendiment acadèmic.
@@ -108,7 +103,7 @@ El marc de l'Educador Samarità — Mestre Testimoni és un ideal i un horitzó 
     *   L'escola o el docent no mostren interès per la participació de les famílies en el procés educatiu més enllà de la informació acadèmica.
     *   Es prioritza la competència individual per sobre de la col·laboració i el suport mutu.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general**
     L'educador samarità cultiva vincles profunds i significatius, acompanyant cada persona en el seu creixement integral cap a la plenitud i el servei als altres, des d'una presència testimoniant i compassiva.
@@ -158,122 +153,13 @@ El marc de l'Educador Samarità — Mestre Testimoni és un ideal i un horitzó 
         *   **Exemple complet de raonament:** Davant un alumne de Batxillerat aclaparat per la pressió dels estudis i les expectatives sobre el seu futur: per gestionar aquesta pressió, convé buscar moments de silenci i reflexió en el seu dia a dia. Pot intentar escriure en un diari personal sobre els seus sentiments, els seus temors i els seus desitjos més profunds. També pot practicar exercicis de respiració o mindfulness per connectar amb el seu interior i calmar la ment. L'objectiu és que aprengui a "discernir" els seus "moviments interiors" (Doc 36), a diferenciar el que és una pressió externa del que és un desig genuí. Aquesta pràctica de la interioritat l'ajuda a prendre decisions amb més claredat i a construir un "projecte vital" que estigui alineat amb qui és realment, i no només amb el que s'espera d'ell, sent un pas fonamental per a "mostrar el camí cap a Déu" (Doc 29) en el seu propi procés.
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Examen-2017-Ross-Jones-SJ | file://upload/Examen-2017-Ross-Jones-SJ.pdf |
-| 2 | 200510803sp Conversacion espiritual | file://upload/200510803sp Conversacion espiritual.pdf |
-| 3 | eica89_90 Discerniment Comunitari | file://upload/eica89_90 Discerniment Comunitari.pdf |
-| 4 | Four-Key-Practices-in-Ignatian-Spirituality-Course-1692114978 | file://upload/Four-Key-Practices-in-Ignatian-Spirituality-Course-1692114978.pdf |
-| 5 | La-Conversación-Espiritual-ES | file://upload/La-Conversación-Espiritual-ES.pdf |
-| 6 | Pautas-para-la-conversacion-espiritual | file://upload/Pautas-para-la-conversacion-espiritual.pdf |
-| 7 | 1491-1556,_Ignatius_Loyola,_Constituciones_de_la_Compania_de_Jesus,_ES | file://upload/1491-1556,_Ignatius_Loyola,_Constituciones_de_la_Compania_de_Jesus,_ES.pdf |
-| 8 | Fórmula del Instituto, 1550 - La _Mínima Compañía_ | file://upload/Fórmula del Instituto, 1550 - La _Mínima Compañía_.pdf |
-| 9 | Normas-Complementarias-Séptima-parte-277-297-Español | file://upload/Normas-Complementarias-Séptima-parte-277-297-Español.pdf |
-| 10 | Triptic Nova  FP 2022 JE_OK2desplegat | file://upload/Triptic Nova  FP 2022 JE_OK2desplegat.pdf |
-| 11 | Triptic_LLAR_2021_JE | file://upload/Triptic_LLAR_2021_JE.pdf |
-| 12 | Triptic_TQE 2021_JE | file://upload/Triptic_TQE 2021_JE.pdf |
-| 13 | Diptic Essencials JE_ WEB_20200201_pdf | file://upload/Diptic Essencials JE_ WEB_20200201_pdf.pdf |
-| 14 | Díptic_Essencials_Horitzó2020_2018 | file://upload/Díptic_Essencials_Horitzó2020_2018.pdf |
-| 15 | Díptic_Relat_HoritzóMés_2019 | file://upload/Díptic_Relat_HoritzóMés_2019.pdf |
-| 16 | Triptic_MOPI_2021_JE | file://upload/Triptic_MOPI_2021_JE.pdf |
-| 17 | Triptic_NEI_2021_JE | file://upload/Triptic_NEI_2021_JE.pdf |
-| 18 | Triptic_PIN_2022_JE | file://upload/Triptic_PIN_2022_JE.pdf |
-| 19 | 20251027-disegnare-nuove-mappe_es | file://upload/20251027-disegnare-nuove-mappe_es.pdf |
-| 20 | Pacte educatiu global vademecum-espanol | file://upload/Pacte educatiu global vademecum-espanol.pdf |
-| 21 | papa-francesco_20201003_enciclica-fratelli-tutti_es | file://upload/papa-francesco_20201003_enciclica-fratelli-tutti_es.pdf |
-| 22 | 20251031-giubileo-educatori_es.pdf-1762251763 | file://upload/20251031-giubileo-educatori_es.pdf-1762251763.pdf |
-| 23 | Fratelli tutti (3 de octubre de 2020) | file://upload/Fratelli tutti (3 de octubre de 2020).pdf |
-| 24 | Gravissimum education | file://upload/Gravissimum education.pdf |
-| 25 | Laudato si_ (24 de mayo de 2015) | file://upload/Laudato si_ (24 de mayo de 2015).pdf |
-| 26 | papa-francesco_20150524_enciclica-laudato-si_es | file://upload/papa-francesco_20150524_enciclica-laudato-si_es.pdf |
-| 27 | papa-francesco_20190912_messaggio-patto-educativo_es | file://upload/papa-francesco_20190912_messaggio-patto-educativo_es.pdf |
-| 28 | 2019-13_21abr19_ESP (5) | file://upload/2019-13_21abr19_ESP (5).pdf |
-| 29 | PAU 2019-06_19feb19_ESP (3) | file://upload/PAU 2019-06_19feb19_ESP (3).pdf |
-| 30 | The_Kairos_of_an_unexpected_hope_-_James_Hanvey_SJ (3) | file://upload/The_Kairos_of_an_unexpected_hope_-_James_Hanvey_SJ (3).pdf |
-| 31 | 20030122-kolkata-s-esp | file://upload/20030122-kolkata-s-esp.pdf |
-| 32 | Caracas_1998_febrero-caracteristicas | file://upload/Caracas_1998_febrero-caracteristicas.pdf |
-| 33 | Nicols A. 2009 - Problemas y Desafos Ed. Jesuita - Manila | file://upload/Nicols A. 2009 - Problemas y Desafos Ed. Jesuita - Manila.pdf |
-| 34 | 2017.10.18_SOSA_Arturo_Universidad_Reconciliacion-Justicia_PUC-Rio-de-Janeiro-1704370083 | file://upload/2017.10.18_SOSA_Arturo_Universidad_Reconciliacion-Justicia_PUC-Rio-de-Janeiro-1704370083.pdf |
-| 35 | 2017.10.26_SOSA_Arturo_FEI-Sao-Paulo-Brazil-1704367113 | file://upload/2017.10.26_SOSA_Arturo_FEI-Sao-Paulo-Brazil-1704367113.pdf |
-| 36 | 2017.10.27_SOSA_Arturo_Discernimiento-Planificacion_UNISINOS-1704364241 | file://upload/2017.10.27_SOSA_Arturo_Discernimiento-Planificacion_UNISINOS-1704364241.pdf |
-| 37 | 100423_Mexico_ESP-Redes-para-la-Educ-Sup-Jes | file://upload/100423_Mexico_ESP-Redes-para-la-Educ-Sup-Jes.pdf |
-| 38 | 100426_UCA_50-aniversario_ESP | file://upload/100426_UCA_50-aniversario_ESP.pdf |
-| 39 | 110909_125-anniv.-Deusto_Lectio-repartida | file://upload/110909_125-anniv.-Deusto_Lectio-repartida.pdf |
-| 40 | 130506_Valladolid_Liderazgo_ignaciano | file://upload/130506_Valladolid_Liderazgo_ignaciano.pdf |
-| 41 | 130508_Gijon_Conferencia_sobre_educacion-2013.05.08-1704379892 | file://upload/130508_Gijon_Conferencia_sobre_educacion-2013.05.08-1704379892.pdf |
-| 42 | 130815_Medellin_8_Congreso_Antiguos_Alumnos | file://upload/130815_Medellin_8_Congreso_Antiguos_Alumnos.pdf |
-| 43 | 202126-Homilia-JGNS-1638215806 | file://upload/202126-Homilia-JGNS-1638215806.pdf |
-| 44 | Alocución-del-P.-General-Congreso-de-la-Unión-Mundial-de-Antiguos-Alumnos-26-julio-2009 | file://upload/Alocución-del-P.-General-Congreso-de-la-Unión-Mundial-de-Antiguos-Alumnos-26-julio-2009.pdf |
-| 45 | arr_colegios_sp | file://upload/arr_colegios_sp.pdf |
-| 46 | arr_men_sp | file://upload/arr_men_sp.pdf |
-| 47 | Discurso-Padre-General-47-Congreso-Internacional-Fe-y-Alegría | file://upload/Discurso-Padre-General-47-Congreso-Internacional-Fe-y-Alegría.pdf |
-| 48 | Entrevista-Arturo-Sosa-ESP-1 | file://upload/Entrevista-Arturo-Sosa-ESP-1.pdf |
-| 49 | La-universidad-fuente-de-vida-reconciliada.-Arturo-Sosa | file://upload/La-universidad-fuente-de-vida-reconciliada.-Arturo-Sosa.pdf |
-| 50 | Nicols A. 2008 - Homilia Clausura C 35 - Roma | file://upload/Nicols A. 2008 - Homilia Clausura C 35 - Roma.pdf |
-| 51 | Nicols A. 2013 Educacin en la Compaa de Jess Gijn - Espaa | file://upload/Nicols A. 2013 Educacin en la Compaa de Jess Gijn - Espaa.pdf |
-| 52 | primera_homilia_pgeneral_arturososa | file://upload/primera_homilia_pgeneral_arturososa.pdf |
-| 53 | SOSA-A-Discurso-X-Congreso-WUJA-2022-FFFF-1657871739 | file://upload/SOSA-A-Discurso-X-Congreso-WUJA-2022-FFFF-1657871739.pdf |
-| 54 | SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020 | file://upload/SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020.pdf |
-| 55 | universidad_sp-carisma-ignatiano | file://upload/universidad_sp-carisma-ignatiano.pdf |
-| 56 | mc3a1s-en-las-obras-que-en-las-palabras-e28094-una-guia-ignaciana-para-casi-todo-james-martin-sj1 | file://upload/mc3a1s-en-las-obras-que-en-las-palabras-e28094-una-guia-ignaciana-para-casi-todo-james-martin-sj1.pdf |
-| 57 | Diccionari espiritualitat ignasiana A-Z | file://upload/Diccionari espiritualitat ignasiana A-Z.pdf |
-| 58 | Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907 | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf |
-| 59 | Diccionario de espiritualidad ignaciana 2 (G-Z)-1-450 | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z)-1-450.pdf |
-| 60 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-1-300 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-1-300.pdf |
-| 61 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-601-895 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-601-895.pdf |
-| 62 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-301-600 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007-301-600.pdf |
-| 63 | DOCUMENTO-Cinco-claves-de-Espiritualidad-Ignaciana | file://upload/DOCUMENTO-Cinco-claves-de-Espiritualidad-Ignaciana.pdf |
-| 64 | Diccionario de espiritualidad ignaciana 2 (G-Z) | file://upload/Diccionario de espiritualidad ignaciana 2 (G-Z).pdf |
-| 65 | Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007 | file://upload/Diccionario-de-Espiritualidad-Ignatiana-I-a-F-2007.pdf |
-| 66 | CG32_ESP | file://upload/CG32_ESP.pdf |
-| 67 | CG-35-ES | file://upload/CG-35-ES.pdf |
-| 68 | Compañía-de-Jesús-2017-Decreto-1-CG-36 | file://upload/Compañía-de-Jesús-2017-Decreto-1-CG-36.pdf |
-| 69 | Congregación-General-31-El-apostolado-de-la-educación-Español | file://upload/Congregación-General-31-El-apostolado-de-la-educación-Español.pdf |
-| 70 | Congregación-General-34-Educación-secundaria-primaria-y-popular-Español | file://upload/Congregación-General-34-Educación-secundaria-primaria-y-popular-Español.pdf |
-| 71 | Sosa A. 1983 Los jesuitas en el momento actual | file://upload/Sosa A. 1983 Los jesuitas en el momento actual.pdf |
-| 72 | Rasgos y Retos del joven QTC FINAL. Antropología | file://upload/Rasgos y Retos del joven QTC FINAL. Antropología.pdf |
-| 73 | caracter propio de los centros educativos de la compani ii a de jesui s | file://upload/caracter propio de los centros educativos de la compani ii a de jesui s.pdf |
-| 74 | Document Cultura Vocacional Provincia-CAT | file://upload/Document Cultura Vocacional Provincia-CAT.pdf |
-| 75 | Educación inclusiva y tradición SJ. Mesa, J.A., 2013,  | file://upload/Educación inclusiva y tradición SJ. Mesa, J.A., 2013, .pdf |
-| 76 | Infografía CV_imprimir_CAT | file://upload/Infografía CV_imprimir_CAT.pdf |
-| 77 | INFORMECuestionario valores Jesuitas (2017) | file://upload/INFORMECuestionario valores Jesuitas (2017).pdf |
-| 78 | L_art de construir catedrals_digital | file://upload/L_art de construir catedrals_digital.pdf |
-| 79 | Mision-vision-valores EDUCSI | file://upload/Mision-vision-valores EDUCSI.pdf |
-| 80 | modos de proceder en un centro educativo de la compania de jesus | file://upload/modos de proceder en un centro educativo de la compania de jesus.pdf |
-| 81 | RETOS Y HORIZONTES_ORIENTACIÓN | file://upload/RETOS Y HORIZONTES_ORIENTACIÓN.pdf |
-| 82 | samaritans, mestres i testimonis [CATALÁ] | file://upload/samaritans, mestres i testimonis [CATALÁ].pdf |
-| 83 | NEW-Brochure-ESP_jesedu-rio2017 | file://upload/NEW-Brochure-ESP_jesedu-rio2017.pdf |
-| 84 | Publicación-P.-General-en-el-JESEDU-Rio2017-ES (1) | file://upload/Publicación-P.-General-en-el-JESEDU-Rio2017-ES (1).pdf |
-| 85 | SIPEI-Declaración-Final (1) | file://upload/SIPEI-Declaración-Final (1).pdf |
-| 86 | ICJSE-Declaración-Final BOSTON 2012 | file://upload/ICJSE-Declaración-Final BOSTON 2012.pdf |
-| 87 | II COLOQUIO JESEDU-JOGJA2020 - INFORMACIÓN COMPLETA | file://upload/II COLOQUIO JESEDU-JOGJA2020 - INFORMACIÓN COMPLETA.pdf |
-| 88 | JESEDU-Global2021- Precoloquio | file://upload/JESEDU-Global2021- Precoloquio.pdf |
-| 89 | JESEDU-Global-2021-Declaración-Final-ES-211019-1634816548 (3) | file://upload/JESEDU-Global-2021-Declaración-Final-ES-211019-1634816548 (3).pdf |
-| 90 | JESEDU-Jogja2024-Declaracion-Final-ES-1721660286 (1) | file://upload/JESEDU-Jogja2024-Declaracion-Final-ES-1721660286 (1).pdf |
-| 91 | JESEDU-Rio-2017-Acuerdos-Finales (1) | file://upload/JESEDU-Rio-2017-Acuerdos-Finales (1).pdf |
-| 92 | Presenter_AlvaroLoboSJ_Script-1722606624 (1) | file://upload/Presenter_AlvaroLoboSJ_Script-1722606624 (1).pdf |
-| 93 | SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020 | file://upload/SOSA-Arturo-Educación-Jesuita-Hoy-JESEDU-Rio-171020.pdf |
-| 94 | 25-11-2020. Documento Marco de Ciudadanía Global versió 7 Català (1).docx | file://upload/25-11-2020. Documento Marco de Ciudadanía Global versió 7 Català (1).docx.pdf |
-| 95 | edujesuit-derecho-a-la-educacion-para-todas-las-personas | file://upload/edujesuit-derecho-a-la-educacion-para-todas-las-personas.docx |
-| 96 | Ciudadanía-Global_Un-Verdadero-Compañero-_191125 | file://upload/Ciudadanía-Global_Un-Verdadero-Compañero-_191125.pdf |
-| 97 | El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824 | file://upload/El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824.pdf |
-| 98 | LA PEDAGOGIA DE LOS JESUITAS EN EL RATIO STUDIORUM (1) | file://upload/LA PEDAGOGIA DE LOS JESUITAS EN EL RATIO STUDIORUM (1).pdf |
-| 99 | Pedagogia Ignasiana. Un Plantejament Pràctic. 1993. | file://upload/Pedagogia Ignasiana. Un Plantejament Pràctic. 1993..pdf |
-| 100 | Los primeros jesuitas O’Malley | file://upload/Los primeros jesuitas O’Malley.pdf |
-| 101 | Charmot_LA PEDAGOGIA DE LOS JESUITAS | file://upload/Charmot_LA PEDAGOGIA DE LOS JESUITAS.pdf |
-| 102 | Una_tradicio_viva_CA-Catalan-1670506742 | file://upload/Una_tradicio_viva_CA-Catalan-1670506742.pdf |
-| 103 | An_Integrated_Perspective_ES_FULL (1) | file://upload/An_Integrated_Perspective_ES_FULL (1).pdf |
-| 104 | autobiografia | file://upload/autobiografia.pdf |
-| 105 | Característiques de l_educació a la companyia de Jesús. 1986 | file://upload/Característiques de l_educació a la companyia de Jesús. 1986.pdf |
-| 106 | Carta-del-Padre-General-Kolvenbach-SJ-1 Presentació Característiques  | file://upload/Carta-del-Padre-General-Kolvenbach-SJ-1 Presentació Característiques .pdf |
-| 107 | Compañía-de-Jesús-1599-Ratio-Studiorum-Oficial | file://upload/Compañía-de-Jesús-1599-Ratio-Studiorum-Oficial.pdf |
-| 108 | El paradigma Ledesma Kolvenbach | file://upload/El paradigma Ledesma Kolvenbach.pdf |
-| 109 | EXCELENCIA_HUMANA_-ESP | file://upload/EXCELENCIA_HUMANA_-ESP.pdf |
-| 110 | Ignacio de Loyola Ejercicios Espirituales-Texto autografo | file://upload/Ignacio de Loyola Ejercicios Espirituales-Texto autografo.pdf |
-| 111 | Jesuit-Education-Contemporary-Map-ES-1733135006 | file://upload/Jesuit-Education-Contemporary-Map-ES-1733135006.pdf |
-| 112 | Learning by Refraction  A Practitioner_s Guide to 21st-Century Ignatian Pedagogy_nodrm | file://upload/Learning by Refraction  A Practitioner_s Guide to 21st-Century Ignatian Pedagogy_nodrm.pdf |
-| 113 | TIME LINE EDUCACIÓ JESUÏTA | file://upload/TIME LINE EDUCACIÓ JESUÏTA.pdf |
-
-*113 documents font · secció generada automàticament*
+- Loyola, I. de, SJ (1548). *Exercicis Espirituals*. Text autògraf.
+- Arrupe, P. SJ (1973). *Homes per als altres*. Roma: Companyia de Jesús.
+- Kolvenbach, P-H. SJ (1986). *Característiques de l'Educació de la Companyia de Jesús*. Roma: ICAJE.
+- ICAJE (1993). *Pedagogia Ignasiana: Un plantejament pràctic (PPI)*. Roma: Cúria de la Companyia de Jesús.
+- Sosa, A. SJ (2019). *Preferències Apostòliques Universals 2019-2029* (CG 2019/06). Roma.
+- *Samaritans, Mestres i Testimonis* (document formatiu FJE). Barcelona: Jesuïtes Educació.
+- Secretariat d'Educació SJ (2019). *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI*. Roma.
+- Jesuïtes Educació (2021-2022). *Tríptics d'etapes: MOPI, PIN, NEI, TQE, Nova FP*. Barcelona: FJE.
