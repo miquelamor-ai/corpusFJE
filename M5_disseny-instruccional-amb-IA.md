@@ -1,49 +1,38 @@
 ---
-title: "Disseny instruccional amb IA: criteris, auditoria i plantilla"
-module: M5
-id: M5_disseny-instruccional-amb-IA
+modul: M5
+titol: "Disseny instruccional amb IA: criteris, auditoria i plantilla"
+tipus: protocol
+descripcio: "Protocol per dissenyar i auditar activitats amb IA: seqüència de cinc decisions P>R>N, set criteris de disseny, vuit preguntes d'auditoria i plantilla estructurada Fase 1/2/3."
 review_status: esborrany
-version: "1.0"
-sources:
-  - docs/marcs-teorics/friccio-cognitiva-extens.md
-  - docs/decisions/arquitectura-quest-rol-nivell.md
-  - docs/fonts/laia-knowledge/disseny-instruccional.md
-connections:
-  - M5_arquitectura-proposit-rol-nivell
-  - M5_proposits-aprenentatge
-  - M5_rols-IA-educacio
-  - M5_nivells-delegacio-mihia
-  - M2_carrega-friccio-cognitiva
-  - M2_models-disseny-instruccional
-detection:
-  - "Quan un docent vol dissenyar una activitat que incorpora IA"
-  - "Quan cal auditar una activitat existent que usa IA"
-  - "Quan cal una plantilla per estructurar el disseny"
-  - "Quan cal verificar que el disseny preserva la fricció productiva"
+generat_at: 2026-05-10
+paraules_clau: [disseny instruccional, protocol, P>R>N, auditoria, GRR, plantilla, fricció productiva]
 ---
 
 # Disseny instruccional amb IA: criteris, auditoria i plantilla
 
-> Document de referència per als skills: Generador d'Activitats, Auditor Cognitiu, Dissenyador de Prompts
-> Complementa: `disseny-instruccional.md` (versió LAIA, focus en granularitat i seqüències)
+## Context i propòsit
+
+### 4. Disseny = avaluació (Chase & Galvin, 2026)
+
+No hi ha dos actes seqüencials (primer "dissenyar l'activitat", després "dissenyar l'avaluació") sinó **un sol acte de disseny amb dues cares**. En l'era de la IA, aquesta lògica pren importància renovada:
+
+- Una activitat en què la IA pot fer el treball cognitiu nuclear **no és un problema ètic, és un problema de disseny** — l'activitat ja no mesura el que pretén mesurar.
+- Les **respostes discursives** (normes "podeu/no podeu usar IA") són insuficients. Cal **redisseny estructural** de la tasca.
+- Un ús institucional madur exigeix un **llenguatge d'escala d'IA** (MIHIA) compartit per docents i alumnat.
+
+**Marc operatiu en cinc passos** (adaptat de Griffin, Francis & Robertson, 2017):
+
+1. **Alinear** els objectius d'aprenentatge amb la tasca
+2. **Desempaquetar** els constructes: quines *big ideas* ha de demostrar entendre l'alumne?
+3. **Desglossar** en capacitats: quines habilitats, coneixements i disposicions?
+4. **Traduir** en indicadors observables: quines evidències concretes?
+5. **Mapar** els indicadors sobre l'escala MIHIA: quins han de romandre íntegrament humans i quins poden ser suportats per IA?
+
+> La decisió es pren **indicador per indicador**, no activitat per activitat. Això permet fases amb IA i fases sense IA dins la mateixa activitat.
 
 ---
 
-## Contingut
-
-### 1. La seqüència de disseny del docent (v2)
-
-El disseny d'una activitat amb IA segueix cinc decisions en cascada (arquitectura P>R>N v2, que incorpora l'estructura temporal de Vendrell & Johnston, 2026):
-
-| Pas | Pregunta del docent | Decisió | Referència |
-|---|---|---|---|
-| **1** | "Què vull que passi cognitivament?" | Triar un **Propòsit d'aprenentatge** | `M5_proposits-aprenentatge` |
-| **2** | "On poso la fricció i on la IA?" | Dissenyar l'**estructura temporal**: Fase 1 (sense IA: l'alumnat genera sol) → Fase 2 (amb IA: desafia, contrasta) → Fase 3 (sense IA: sintetitza, integra) | Vendrell & Johnston (2026) |
-| **3** | "Com ha d'actuar la IA a la Fase 2?" | Triar un **Rol** compatible | `M5_rols-IA-educacio` — matriu d'afinitats |
-| **4** | "Quanta autonomia a la Fase 2?" | Triar un **Nivell** | `M5_nivells-delegacio-mihia` — rang nadiu × sostre |
-| **5** | "L'activitat preserva el pensament crític?" | **Checklist de verificació** (7 criteris cognitius + 8 principis Vendrell) | `M2_carrega-friccio-cognitiva` + ADR |
-
-No tota activitat requereix les tres fases: una exploració breu (Propòsit: Anchor, N1) pot ser tota Fase 2. Però quan l'objectiu és aprenentatge profund (Critique, Perspective, Mission), la seqüència completa protegeix l'autonomia cognitiva.
+## Prerequisits
 
 ### 2. Alliberament gradual de la responsabilitat (GRR) aplicat a la IA
 
@@ -67,6 +56,39 @@ Fisher & Frey estableixen quatre fases que s'apliquen a qualsevol activitat amb 
 | Vosaltres feu | N2-N3 (suport/cocreació en grup) |
 | Tu fas | N3-N4 (cocreació/delegació supervisada) |
 
+### 8. Granularitat didàctica
+
+| Granularitat | Durada | Integració IA |
+|---|---|---|
+| **Exercici** | 5-20 min | Un sol rol, un sol nivell MIHIA |
+| **Activitat** | 1 sessió (45-60 min) | 1-2 rols, un nivell predominant |
+| **Tasca** | 2-5 sessions | Diversos rols, progressió de nivells |
+| **Projecte** | 1-4+ setmanes | Mapa complet: rols i nivells per fase |
+
+> Una tasca o projecte pot incloure fases amb IA i fases **sense IA** (N0). La no-delegació és una decisió pedagògica vàlida.
+
+---
+
+## Fases
+
+### 1. La seqüència de disseny del docent (v2)
+
+El disseny d'una activitat amb IA segueix cinc decisions en cascada (arquitectura P>R>N v2, que incorpora l'estructura temporal de Vendrell & Johnston, 2026):
+
+| Pas | Pregunta del docent | Decisió | Referència |
+|---|---|---|---|
+| **1** | "Què vull que passi cognitivament?" | Triar un **Propòsit d'aprenentatge** | `M5_proposits-aprenentatge` |
+| **2** | "On poso la fricció i on la IA?" | Dissenyar l'**estructura temporal**: Fase 1 (sense IA: l'alumnat genera sol) → Fase 2 (amb IA: desafia, contrasta) → Fase 3 (sense IA: sintetitza, integra) | Vendrell & Johnston (2026) |
+| **3** | "Com ha d'actuar la IA a la Fase 2?" | Triar un **Rol** compatible | `M5_rols-IA-educacio` — matriu d'afinitats |
+| **4** | "Quanta autonomia a la Fase 2?" | Triar un **Nivell** | `M5_nivells-delegacio-mihia` — rang nadiu × sostre |
+| **5** | "L'activitat preserva el pensament crític?" | **Checklist de verificació** (7 criteris cognitius + 8 principis Vendrell) | `M2_carrega-friccio-cognitiva` + ADR |
+
+No tota activitat requereix les tres fases: una exploració breu (Propòsit: Anchor, N1) pot ser tota Fase 2. Però quan l'objectiu és aprenentatge profund (Critique, Perspective, Mission), la seqüència completa protegeix l'autonomia cognitiva.
+
+---
+
+## Documents i registres
+
 ### 3. Bastida progressiva de prompts
 
 La competència de formular instruccions a la IA segueix una progressió:
@@ -77,53 +99,6 @@ La competència de formular instruccions a la IA segueix una progressió:
 | **Intermedi** | Estructura donada, l'alumne redacta el contingut | Decideix què preguntar dins d'un format |
 | **Avançat** | L'alumne crea el seu propi prompt amb criteris de qualitat | Formula amb autonomia |
 | **Expert** | L'alumne avalua, compara i optimitza prompts | Aplica judici meta sobre la interacció |
-
-### 4. Disseny = avaluació (Chase & Galvin, 2026)
-
-No hi ha dos actes seqüencials (primer "dissenyar l'activitat", després "dissenyar l'avaluació") sinó **un sol acte de disseny amb dues cares**. En l'era de la IA, aquesta lògica pren importància renovada:
-
-- Una activitat en què la IA pot fer el treball cognitiu nuclear **no és un problema ètic, és un problema de disseny** — l'activitat ja no mesura el que pretén mesurar.
-- Les **respostes discursives** (normes "podeu/no podeu usar IA") són insuficients. Cal **redisseny estructural** de la tasca.
-- Un ús institucional madur exigeix un **llenguatge d'escala d'IA** (MIHIA) compartit per docents i alumnat.
-
-**Marc operatiu en cinc passos** (adaptat de Griffin, Francis & Robertson, 2017):
-
-1. **Alinear** els objectius d'aprenentatge amb la tasca
-2. **Desempaquetar** els constructes: quines *big ideas* ha de demostrar entendre l'alumne?
-3. **Desglossar** en capacitats: quines habilitats, coneixements i disposicions?
-4. **Traduir** en indicadors observables: quines evidències concretes?
-5. **Mapar** els indicadors sobre l'escala MIHIA: quins han de romandre íntegrament humans i quins poden ser suportats per IA?
-
-> La decisió es pren **indicador per indicador**, no activitat per activitat. Això permet fases amb IA i fases sense IA dins la mateixa activitat.
-
-### 5. Set criteris de disseny
-
-Derivats del marc cognitiu (`M2_carrega-friccio-cognitiva`, §7.1):
-
-| # | Criteri | Pregunta de verificació |
-|---|---|---|
-| 1 | **Objectiu cognitiu explícit** | Quin esquema ha de construir l'alumne? Quin judici ha de desenvolupar? |
-| 2 | **IA per a càrrega extrínseca, no germana** | La IA elimina esforç que construiria aprenentatge? |
-| 3 | **Moment de generació autònoma** | L'alumne fa, prova o produeix alguna cosa ABANS que la IA l'assisteixi? |
-| 4 | **CFF activa** | Quina funció de forçat cognitiu té la interacció? (pre-compromís, predicció, avaluació...) |
-| 5 | **Fricció productiva induïda** | On i com es produirà Descoberta, Recursivitat o Resistència? |
-| 6 | **Mode ICAP ≥ Constructive** | L'alumne genera o dialoga, no rep passivament? |
-| 7 | **Avaluació sense IA possible** | Almenys una dimensió es pot avaluar sense assistent? |
-
-### 6. Vuit preguntes d'auditoria
-
-Per a activitats existents que ja incorporen IA:
-
-| # | Pregunta | Si la resposta és NO... |
-|---|---|---|
-| 1 | Quina càrrega s'externalitza? | Si intrínseca → risc |
-| 2 | L'alumne ha generat alguna cosa abans? | Risc de paradoxa del rendiment |
-| 3 | Hi ha CFF identificable? | Risc de rendició cognitiva |
-| 4 | Mode ICAP? | Si Passive/Active → reformular |
-| 5 | En 10 repeticions, millorarà o perdrà l'habilitat? | Risc de *skill decay/hindrance* |
-| 6 | Ho pot fer sense IA? | No → risc de dependència |
-| 7 | L'avaluació discrimina rendiment/aprenentatge? | Cega a la paradoxa |
-| 8 | Fiabilitat de l'assistent auditada? | Si < 70% encert → *crossover point* |
 
 ### 7. Plantilla de disseny d'una activitat amb IA
 
@@ -176,16 +151,46 @@ Per a activitats existents que ja incorporen IA:
    - Reflexió metacognitiva prevista
 ```
 
-### 8. Granularitat didàctica
+---
 
-| Granularitat | Durada | Integració IA |
+## Indicadors d'èxit
+
+### 5. Set criteris de disseny
+
+Derivats del marc cognitiu (`M2_carrega-friccio-cognitiva`, §7.1):
+
+| # | Criteri | Pregunta de verificació |
 |---|---|---|
-| **Exercici** | 5-20 min | Un sol rol, un sol nivell MIHIA |
-| **Activitat** | 1 sessió (45-60 min) | 1-2 rols, un nivell predominant |
-| **Tasca** | 2-5 sessions | Diversos rols, progressió de nivells |
-| **Projecte** | 1-4+ setmanes | Mapa complet: rols i nivells per fase |
+| 1 | **Objectiu cognitiu explícit** | Quin esquema ha de construir l'alumne? Quin judici ha de desenvolupar? |
+| 2 | **IA per a càrrega extrínseca, no germana** | La IA elimina esforç que construiria aprenentatge? |
+| 3 | **Moment de generació autònoma** | L'alumne fa, prova o produeix alguna cosa ABANS que la IA l'assisteixi? |
+| 4 | **CFF activa** | Quina funció de forçat cognitiu té la interacció? (pre-compromís, predicció, avaluació...) |
+| 5 | **Fricció productiva induïda** | On i com es produirà Descoberta, Recursivitat o Resistència? |
+| 6 | **Mode ICAP ≥ Constructive** | L'alumne genera o dialoga, no rep passivament? |
+| 7 | **Avaluació sense IA possible** | Almenys una dimensió es pot avaluar sense assistent? |
 
-> Una tasca o projecte pot incloure fases amb IA i fases **sense IA** (N0). La no-delegació és una decisió pedagògica vàlida.
+---
+
+## Revisió i seguiment
+
+### 6. Vuit preguntes d'auditoria
+
+Per a activitats existents que ja incorporen IA:
+
+| # | Pregunta | Si la resposta és NO... |
+|---|---|---|
+| 1 | Quina càrrega s'externalitza? | Si intrínseca → risc |
+| 2 | L'alumne ha generat alguna cosa abans? | Risc de paradoxa del rendiment |
+| 3 | Hi ha CFF identificable? | Risc de rendició cognitiva |
+| 4 | Mode ICAP? | Si Passive/Active → reformular |
+| 5 | En 10 repeticions, millorarà o perdrà l'habilitat? | Risc de *skill decay/hindrance* |
+| 6 | Ho pot fer sense IA? | No → risc de dependència |
+| 7 | L'avaluació discrimina rendiment/aprenentatge? | Cega a la paradoxa |
+| 8 | Fiabilitat de l'assistent auditada? | Si < 70% encert → *crossover point* |
+
+---
+
+## Situacions excepcionals
 
 ### 9. Distinció aprenentatge vs. gestió
 
@@ -219,22 +224,17 @@ Quan la IA s'usa en **gestió** (administrativa, organitzativa, institucional), 
 
 ---
 
-## Connexions
+## 3. Connexions amb altres documents del corpus
 
-| Document | Relació |
-|---|---|
-| `M5_arquitectura-proposit-rol-nivell` | La seqüència de disseny (5 passos, v2) opera dins l'arquitectura P>R>N v2 |
-| `M5_proposits-aprenentatge` | Pas 1: triar propòsit d'aprenentatge |
-| `M5_rols-IA-educacio` | Pas 2: triar Rol compatible |
-| `M5_nivells-delegacio-mihia` | Pas 3: triar Nivell (rang × sostre) |
-| `M2_carrega-friccio-cognitiva` | Pas 4: verificar fricció. Criteris de disseny i auditoria |
-| `M2_models-disseny-instruccional` | Granularitat didàctica, GRR, fases de projecte FJE |
-| `exemples-rols-mihia.md` | 21 exemples que segueixen (o poden millorar-se amb) aquesta plantilla |
-| Doc futur `avaluacio-ia-disseny.md` | AIAS, marc Griffin, enforcement pyramid |
+- **`M5_arquitectura-proposit-rol-nivell`** — La seqüència de disseny (5 passos, v2) opera dins l'arquitectura P>R>N v2
+- **`M5_proposits-aprenentatge`** — Pas 1: triar propòsit d'aprenentatge
+- **`M5_rols-IA-educacio`** — Pas 3: triar Rol compatible
+- **`M5_nivells-delegacio-mihia`** — Pas 4: triar Nivell (rang × sostre)
+- **`M2_carrega-friccio-cognitiva`** — Pas 5: verificar fricció. Criteris de disseny i auditoria
+- **`M2_models-disseny-instruccional`** — Granularitat didàctica, GRR, fases de projecte FJE
+- **Doc futur `avaluacio-ia-disseny.md`** — AIAS, marc Griffin, enforcement pyramid
 
----
-
-## Detecció
+## 4. Detecció
 
 Activar aquest document quan:
 
@@ -246,6 +246,11 @@ Activar aquest document quan:
 - Cal decidir el **nivell de bastida** del prompt per a l'alumnat
 - Cal justificar per què **dissenyar l'activitat i dissenyar l'avaluació és el mateix acte**
 
----
+## 5. Fonts
 
-*Versió 1.0 · Esborrany · Jesuïtes Educació Catalunya · 2026*
+- Vendrell, M. & Johnston, S.-K. (2026) — Estructura temporal Sense-Amb-Sense IA; *checklist* P1-P8
+- Fisher, D. & Frey, N. — GRR (Gradual Release of Responsibility)
+- Chase, J. & Galvin, T. (2026) — Disseny = Avaluació
+- Griffin, P., Francis, M. & Robertson, P. (2017) — Marc operatiu de 5 passos per alinear objectius i avaluació
+- Font interna: ADR Xat 5B (abril 2026) — distinció aprenentatge vs. gestió
+- Font interna: docs/fonts/laia-knowledge/disseny-instruccional.md

@@ -1,27 +1,16 @@
 ---
-title: "Models de disseny instruccional i seqüències didàctiques"
-module: M2
-id: M2_models-disseny-instruccional
+modul: M2
+titol: "Models de disseny instruccional i seqüències didàctiques"
+tipus: marc
+descripcio: "Marc per estructurar propostes didàctiques amb IA: jerarquia de granularitat exercici/activitat/tasca/projecte, GRR de Fisher & Frey, fases de projecte FJE i tipologia de seqüències."
 review_status: esborrany
-version: "1.0"
-sources: []
-connections:
-  - M2_carrega-friccio-cognitiva
-  - M5_disseny-instruccional-amb-IA
-  - M5_arquitectura-proposit-rol-nivell
-  - M5_nivells-delegacio-mihia
-  - M5_rols-IA-educacio
-detection:
-  - "Quan cal determinar la granularitat d'una proposta didàctica (exercici/activitat/tasca/projecte)"
-  - "Quan cal aplicar el GRR a una seqüència amb IA"
-  - "Quan cal estructurar fases de projecte FJE amb integració IA"
+generat_at: 2026-05-10
+paraules_clau: [disseny instruccional, GRR, granularitat, seqüències didàctiques, scaffolding, projectes FJE, ZDP]
 ---
 
 # Models de disseny instruccional i seqüències didàctiques
 
----
-
-## Contingut
+## Definició i principis
 
 ### 1. Jerarquia de granularitat didàctica
 
@@ -47,6 +36,10 @@ PROJECTE (setmanes)
 
 > **Regla**: una tasca o projecte pot incloure fases amb IA i fases **sense IA** (N0). La no-delegació és una decisió pedagògica vàlida.
 
+---
+
+## Autors i evidència clau
+
 ### 2. Model de Responsabilitat Gradual (GRR, Fisher & Frey)
 
 | Fase | Nom | Qui lidera | Amb IA |
@@ -69,17 +62,6 @@ PROJECTE (setmanes)
 
 **Connexió amb el marc cognitiu**: el GRR gradua no només l'autonomia sinó la **fricció productiva**. A les fases inicials, el docent modela com gestionar la fricció (com no rendir-se davant la IA, com verificar, com iterar). Sense aquest modelatge, l'alumne no té un referent de com exercir les 4D.
 
-### 3. Fases de projecte (Marc FJE)
-
-| Fase | Objectiu | Activitats típiques | Rol IA suggerit | Fricció esperada |
-|---|---|---|---|---|
-| 1. **Repte / Comprensió** | Comprendre el problema, activar previs | Pregunta motriu, pluja d'idees | Simulador, Gen.Casos | Descoberta |
-| 2. **Investigació** | Cercar, analitzar, contrastar | Recerca, lectura, dades | Mentor Socràtic, Crític | Recursivitat |
-| 3. **Síntesi / Creació** | Crear producte o solució | Redacció, disseny, producció | Crític/Editor, Traductor | Resistència |
-| 4. **Acció / Comunicació** | Presentar, compartir, aplicar | Exposició, publicació | Traductor/Adaptador | Judici |
-
-**Connexió amb el marc cognitiu**: les fases de projecte FJE generen naturalment progressió en els moviments de fricció (Descoberta → Recursivitat → Resistència). El disseny ha de verificar que la IA no curtcircuiti aquesta progressió — especialment a la Fase 2 (Investigació), on la temptació de delegar la cerca i l'anàlisi a la IA és màxima.
-
 ### 4. Scaffolding (Bastida pedagògica)
 
 | Principi | Descripció | Amb IA |
@@ -90,6 +72,21 @@ PROJECTE (setmanes)
 | **Procedimental** | Guia els passos a seguir | Prompt estructurat amb passos clars |
 
 **Bastida progressiva de prompts**: documentada en detall a `M5_disseny-instruccional-amb-IA` (§3).
+
+---
+
+## Exemples concrets d'aplicació a l'aula
+
+### 3. Fases de projecte (Marc FJE)
+
+| Fase | Objectiu | Activitats típiques | Rol IA suggerit | Fricció esperada |
+|---|---|---|---|---|
+| 1. **Repte / Comprensió** | Comprendre el problema, activar previs | Pregunta motriu, pluja d'idees | Simulador, Gen.Casos | Descoberta |
+| 2. **Investigació** | Cercar, analitzar, contrastar | Recerca, lectura, dades | Mentor Socràtic, Crític | Recursivitat |
+| 3. **Síntesi / Creació** | Crear producte o solució | Redacció, disseny, producció | Crític/Editor, Traductor | Resistència |
+| 4. **Acció / Comunicació** | Presentar, compartir, aplicar | Exposició, publicació | Traductor/Adaptador | Judici |
+
+**Connexió amb el marc cognitiu**: les fases de projecte FJE generen naturalment progressió en els moviments de fricció (Descoberta → Recursivitat → Resistència). El disseny ha de verificar que la IA no curtcircuiti aquesta progressió — especialment a la Fase 2 (Investigació), on la temptació de delegar la cerca i l'anàlisi a la IA és màxima.
 
 ### 5. Tipus de seqüències didàctiques
 
@@ -104,25 +101,34 @@ PROJECTE (setmanes)
 
 **Connexió amb propòsits d'aprenentatge**: la columna "Propòsit afí" connecta cada tipus de seqüència amb els propòsits d'aprenentatge més naturals, permetent al docent triar el propòsit adequat segons el tipus de seqüència que ja utilitza.
 
+---
+
+## Errors comuns — què NO fer
+
+- **Proposar ús autònom de la IA (Fase 4 del GRR) sense modelatge previ (Fase 1).** L'alumne no té referent de com usar la IA amb criteri si el docent no ho ha modelat primer.
+- **Curtcircuitar la Fase d'Investigació (Fase 2 del projecte FJE) delegant la cerca i l'anàlisi a la IA.** És exactament la fase on la temptació és màxima i el risc de descàrrega cognitiva detrimental és més alt.
+- **Tractar la no-delegació (N0) com a fracàs o manca d'innovació.** La no-delegació és una decisió pedagògica vàlida i de vegades la més adequada.
+- **Usar la mateixa granularitat per a tots els objectius.** Un exercici de 10 minuts no es pot estructurar com un projecte, ni un projecte de 4 setmanes com un exercici.
+
+---
+
+## Matissos i excepcions
+
 ### 6. Factors d'aprenentatge a preservar
 
-Documentats en detall a `M5_disseny-instruccional-amb-IA` (§9). Resum: activació cognitiva, elaboració, recuperació, espaiat, interleaving, feedback, metacognició, motivació intrínseca, transferència. Cada factor té un risc específic amb IA i una estratègia de preservació.
+Documentats en detall a `M5_disseny-instruccional-amb-IA` (§10). Resum: activació cognitiva, elaboració, recuperació, espaiat, interleaving, feedback, metacognició, motivació intrínseca, transferència. Cada factor té un risc específic amb IA i una estratègia de preservació.
 
 ---
 
-## Connexions
+## 3. Connexions amb altres documents del corpus
 
-| Document | Relació |
-|---|---|
-| `M2_carrega-friccio-cognitiva` | El GRR gradua la fricció productiva; les fases de projecte generen progressió en els moviments de fricció |
-| `M5_disseny-instruccional-amb-IA` | Operacionalitza aquests models en criteris, auditoria i plantilla |
-| `M5_arquitectura-proposit-rol-nivell` | Els tipus de seqüència connecten amb propòsits d'aprenentatge específics |
-| `M5_nivells-delegacio-mihia` | La connexió GRR ↔ MIHIA gradua l'autonomia |
-| `M5_rols-IA-educacio` | Les fases de projecte FJE tenen rols suggerits per fase |
+- **`M2_carrega-friccio-cognitiva`** — El GRR gradua la fricció productiva; les fases de projecte generen progressió en els moviments de fricció
+- **`M5_disseny-instruccional-amb-IA`** — Operacionalitza aquests models en criteris, auditoria i plantilla
+- **`M5_arquitectura-proposit-rol-nivell`** — Els tipus de seqüència connecten amb propòsits d'aprenentatge específics
+- **`M5_nivells-delegacio-mihia`** — La connexió GRR ↔ MIHIA gradua l'autonomia
+- **`M5_rols-IA-educacio`** — Les fases de projecte FJE tenen rols suggerits per fase
 
----
-
-## Detecció
+## 4. Detecció
 
 Activar aquest document quan:
 
@@ -132,6 +138,8 @@ Activar aquest document quan:
 - Cal triar un **tipus de seqüència didàctica** i connectar-lo amb propòsits d'aprenentatge
 - Cal **graduar el scaffolding** d'una activitat (bastida temporal, contingent, metacognitiva)
 
----
+## 5. Fonts
 
-*Versió 1.0 · Esborrany · Jesuïtes Educació Catalunya · 2026*
+- Fisher, D. & Frey, N. — Model de Responsabilitat Gradual (GRR)
+- Vygotsky, L. S. — Zona de Desenvolupament Proper (ZDP)
+- Vendrell, M. & Johnston, S.-K. (2026) — Estructura temporal Sense-Amb-Sense IA

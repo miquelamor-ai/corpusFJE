@@ -1,30 +1,16 @@
 ---
-title: "Càrrega cognitiva, fricció productiva i disseny d'activitats amb IA"
-module: M2
-id: M2_carrega-friccio-cognitiva
+modul: M2
+titol: "Càrrega cognitiva, fricció productiva i disseny d'activitats amb IA"
+tipus: marc
+descripcio: "Marc cognitiu que explica la paradoxa del rendiment amb IA i ofereix principis i eines per preservar la fricció productiva i l'aprenentatge real a l'aula."
 review_status: esborrany
-version: "1.0"
-sources:
-  - docs/marcs-teorics/friccio-cognitiva-extens.md
-connections:
-  - M5_rols-IA-educacio
-  - M5_arquitectura-proposit-rol-nivell
-  - M5_disseny-instruccional-amb-IA
-  - M5_nivells-delegacio-mihia
-  - M2_models-disseny-instruccional
-detection:
-  - "Quan cal auditar si una activitat amb IA genera aprenentatge o només rendiment"
-  - "Quan l'alumne delega el pensament a la IA sense criteri"
-  - "Quan cal dissenyar una activitat que preservi la fricció productiva"
-  - "Quan cal decidir quina càrrega externalitzar i quina preservar"
-  - "Quan cal configurar un assistent institucional amb guardrails pedagògics"
+generat_at: 2026-05-10
+paraules_clau: [càrrega cognitiva, fricció productiva, paradoxa del rendiment, CLT, ICAP, CFF, disseny instruccional]
 ---
 
 # Càrrega cognitiva, fricció productiva i disseny d'activitats amb IA
 
----
-
-## Contingut
+## Definició i principis
 
 ### 1. La tensió central
 
@@ -74,6 +60,8 @@ L'aprenentatge depèn de **construir i modificar esquemes mentals**. Construir e
 L'SRL (planificar, monitorar, avaluar) té un cost cognitiu propi. La IA, oferint solucions sense exigir planificació ni reflexió, facilita el bypass de l'SRL (Fan et al., 2024: *metacognitive laziness*).
 
 ---
+
+## Autors i evidència clau
 
 ### 3. El problema: mecanismes de la paradoxa
 
@@ -130,6 +118,8 @@ Dos fenòmens diferenciats:
 Els alumnes amb menys habilitats metacognitives prèvies fan més descàrrega detrimental. La IA pot **amplificar desigualtats educatives preexistents** si no es compensa amb disseny pedagògic intencional.
 
 ---
+
+## Exemples concrets d'aplicació a l'aula
 
 ### 4. Principis de disseny
 
@@ -224,6 +214,8 @@ Adaptació de la instrucció directa a contextos d'IA:
 
 ---
 
+## Errors comuns — què NO fer
+
 ### 6. Criteri d'auditoria: aprenentatge ≠ rendiment
 
 | | Rendiment (*performance*) | Aprenentatge (*learning*) |
@@ -241,6 +233,8 @@ Adaptació de la instrucció directa a contextos d'IA:
 **Disseny = avaluació** (Chase & Galvin, 2026): una activitat en què la IA pot fer el treball cognitiu nuclear no és un problema ètic, és un problema de disseny — l'activitat ja no mesura el que pretén mesurar.
 
 ---
+
+## Matissos i excepcions
 
 ### 7. Criteris operatius
 
@@ -317,23 +311,18 @@ CRITERI D'AUDITORIA: APRENENTATGE ≠ RENDIMENT
 
 ---
 
-## Connexions
+## 3. Connexions amb altres documents del corpus
 
-| Document | Relació |
-|---|---|
-| `M5_rols-IA-educacio` | Les 3 famílies de rols (procesuals/mixtos/productius) deriven del comportament diferencial de la fricció per nivell |
-| `M5_arquitectura-proposit-rol-nivell` | La seqüència de disseny del docent inclou verificar fricció productiva com a pas 4 |
-| `M5_nivells-delegacio-mihia` | El nivell de delegació determina quina càrrega s'externalitza |
-| `M5_disseny-instruccional-amb-IA` | Els 7 criteris de disseny i les 8 preguntes d'auditoria s'operacionalitzen en la plantilla de disseny |
-| `M2_models-disseny-instruccional` | GRR, LRI i bastida progressiva de prompts |
-| `M5_proposits-aprenentatge` | Cada propòsit d'aprenentatge s'associa a moviments de fricció, càrrega externalitzada i mode ICAP |
-| `exemples-rols-mihia.md` | Cada exemple pot auditar-se segons els criteris operatius d'aquest marc |
-| Marc general d'integració de la IA | Fonament teòric de les tensions Fricció vs. Eficiència i Descàrrega vs. Externalització |
-| Doc futur `avaluacio-ia-disseny.md` | AIAS, Griffin, enforcement pyramid, validity-driven assessment |
+- **`M5_rols-IA-educacio`** — Les 3 famílies de rols (procesuals/mixtos/productius) deriven del comportament diferencial de la fricció per nivell
+- **`M5_arquitectura-proposit-rol-nivell`** — La seqüència de disseny del docent inclou verificar fricció productiva com a pas 4
+- **`M5_nivells-delegacio-mihia`** — El nivell de delegació determina quina càrrega s'externalitza
+- **`M5_disseny-instruccional-amb-IA`** — Els 7 criteris de disseny i les 8 preguntes d'auditoria s'operacionalitzen en la plantilla de disseny
+- **`M2_models-disseny-instruccional`** — GRR, LRI i bastida progressiva de prompts
+- **`M5_proposits-aprenentatge`** — Cada propòsit d'aprenentatge s'associa a moviments de fricció, càrrega externalitzada i mode ICAP
+- **`M0_marc-institucional-IA`** — Fonament teòric de les tensions Fricció vs. Eficiència i Descàrrega vs. Externalització
+- **Doc futur `avaluacio-ia-disseny.md`** — AIAS, Griffin, enforcement pyramid, validity-driven assessment
 
----
-
-## Detecció
+## 4. Detecció
 
 Activar aquest document quan:
 
@@ -346,7 +335,30 @@ Activar aquest document quan:
 - Es detecta **paradoxa del rendiment**: productes excel·lents però alumnes que no aprenen
 - Cal decidir el **nivell MIHIA** adequat per a una activitat o etapa concreta
 
----
+## 5. Fonts
 
-*Versió 1.0 · Esborrany · Jesuïtes Educació Catalunya · 2026*
-*Sintetitza i operacionalitza el marc teòric extens (friccio-cognitiva-extens.md, v1.1)*
+- Yan et al. (2025) — Paradoxa del rendiment: IA i aprenentatge durable
+- Bastani et al. (2025) — Evidència empírica de la paradoxa del rendiment
+- Sweller, J. → Kalyuga, S. & Plass, J. L. (2025) — Teoria de la càrrega cognitiva (CLT)
+- Chi, M. T. H. & Wylie, R. (2014) — Marc ICAP: modes d'implicació cognitiva
+- Zimmerman, B. — Aprenentatge autoregulat (SRL)
+- Lodge, J. M. & Loble, M. (2026) — Descàrrega cognitiva beneficiosa vs. detrimental
+- Shaw, G. & Nave, E. (2026) — Sistema 3 i rendició cognitiva (N=1.372)
+- Messeri, N. & Crockett, M. J. (2024) — Les tres il·lusions cognitives amb IA
+- Macnamara, B. N. et al. (2024) — Decadència d'habilitats induïda per IA
+- Parasuraman, R. & Manzey, D. (2010) — Crossover point (70% d'encert)
+- Fan, Y. et al. (2024) — Mandra metacognitiva (*metacognitive laziness*)
+- Lodge, J. M. (2023) — Il·lusió de competència amb IA
+- Zhang, X. & Xu, Y. (2025) — Paradoxa de l'autoeficàcia amb IA
+- Bjork, R. A. & Bjork, E. L. — Dificultats desitjables i pràctica espaiada
+- de Bruin, A. B. H. et al. (2023) — S2D2: Start and Stick to Desirable Difficulties
+- Kapur, M. (2008+); Sinha, T. & Kapur, M. (2021) — Fracàs productiu (metaanàlisi 160 estudis)
+- Slamecka, N. J. & Graf, P. (1978); Duplice, J. (2025) — Efecte generació
+- McCrea, P. (2025) — Propietat cognitiva (*cognitive ownership*)
+- Novokshanova, E. (2025) — Fricció productiva: 3 moviments i 3 modes de fallada
+- Croskerry, P. (2003); Buçinca, Z., Malaya, M. B. & Gajos, K. Z. (2021) — Funcions de forçat cognitiu (CFF)
+- Martin, F. et al. (2025) — Load Reduction Instruction (LRI)
+- Tai, J. et al. (2018) — Judici avaluatiu (*evaluative judgement*)
+- Iqbal, M. et al. (2025) — Metacognició compartida (n=465)
+- Chase, J. & Galvin, T. (2026) — Disseny = Avaluació
+- Font primària: *Friccio-cognitiva-extens.md* (v1.1) — marc teòric extens que aquest document sintetitza
