@@ -26,9 +26,7 @@ variables_configurables:
     impacte: "Si sí: cal equilibrar repte cognitiu amb suports per a la dificultat associada"
 ---
 
-### 1. CONTINGUT ESPECÍFIC
-
-#### Descripció del tret
+## Descripció del tret
 
 L'alumnat amb altes capacitats (AC) es caracteritza per un potencial cognitiu superior a la mitjana, que no és una característica fixa des del naixement, sinó que es desenvolupa i es manifesta en funció de la interacció amb l'entorn sociocultural i els estímuls rebuts. És crucial entendre que aquest grup és profundament heterogeni, i no es pot generalitzar un perfil únic. Les altes capacitats són potencials que cal "conrear, estirar i treballar" perquè arribin a la seva màxima maduració.
 
@@ -134,7 +132,7 @@ La **doble excepcionalitat (2e)** es refereix a alumnes que presenten simultàni
 *   L'alumne pot tenir coneixements avançats en L1 que no pot demostrar en L2
 *   Permetre expressions en L1, repte conceptual des del dia 1
 
-#### Principis d'actuació
+## Principis d'actuació
 
 L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el context de l'escola inclusiva, buscant garantir la presència, participació i aprenentatges valuosos de tot l'alumnat.
 *   **Adaptar continguts:** Cal oferir continguts més complexos, abstractes i desafiadors que vagin més enllà del currículum ordinari. Això pot implicar l'aprofundiment en temes d'interès de l'alumne, la introducció de conceptes de nivells superiors o la connexió interdisciplinària de coneixements. Per exemple, si un alumne mostra un interès profund per l'astronomia, es pot proposar un projecte de recerca sobre la formació de galàxies que integri física, matemàtiques i història de la ciència, en lloc de només seguir el temari estàndard de l'univers.
@@ -142,7 +140,7 @@ L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el cont
 *   **Adaptar avaluació:** L'avaluació ha de ser flexible i qualitativa, valorant no només els resultats sinó també els processos de pensament, la creativitat i la profunditat de l'anàlisi. Es poden utilitzar rúbriques personalitzades, autoavaluació i coavaluació, i permetre formats d'entrega diversos (presentacions, maquetes, articles). Per exemple, en un projecte, es pot avaluar la complexitat de les fonts consultades, l'originalitat de les idees proposades i la capacitat de l'alumne per defensar els seus arguments, més enllà de la simple correcció de dades.
 *   **Adaptar interacció:** Fomentar un clima d'aula on es valori la curiositat, la pregunta i el debat. El docent ha d'actuar com a guia i facilitador, estimulant la reflexió i el pensament divergent. És important crear espais on l'alumne pugui interactuar amb iguals amb interessos similars, ja sigui dins o fora de l'aula, per evitar el sentiment d'aïllament. Per exemple, es poden organitzar grups de treball per projectes amb alumnes amb interessos afins, o connectar-los amb mentors externs en àrees d'especial interès.
 
-#### Línies vermelles
+## Línies vermelles
 
 *   **No generalitzar ni estereotipar:** Evita assumir que tots els alumnes amb altes capacitats són aplicats, treuen bones notes o són socialment inadaptats. **Per què?** Perquè l'alumnat amb AC és molt divers i aquests estereotips poden portar a ignorar les seves necessitats reals, especialment els que tenen baix rendiment o doble excepcionalitat, o a no detectar les nenes amb AC a causa de biaixos socials.
 *   **No ignorar el baix rendiment o la desmotivació:** Mai pensis que un alumne amb AC que no treu bones notes o que sembla desconnectat no s'esforça prou. **Per què?** El baix rendiment pot ser un senyal clar d'avorriment, de manca de reptes, d'un sistema d'ensenyament inadequat o fins i tot d'una doble excepcionalitat. La desconnexió pot ser una manera de gestionar la manca d'interès en el que s'està treballant.
@@ -150,19 +148,19 @@ L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el cont
 *   **No assumir que les altes capacitats compensen altres dificultats:** No creguis que tenir AC significa que l'alumne no pot tenir dificultats d'aprenentatge o d'atenció. **Per què?** La doble excepcionalitat és una realitat. Assumir que les AC ho compensen tot pot fer que les dificultats passin desapercebudes, impedint que l'alumne rebi els suports necessaris per desenvolupar plenament el seu potencial.
 *   **No oblidar l'educació emocional:** No deixis de banda l'acompanyament emocional i social, centrant-te només en l'aspecte intel·lectual. **Per què?** L'alta sensibilitat i intensitat emocional són característiques freqüents en aquest perfil. Un bon desenvolupament emocional és clau per a la seva integració i benestar personal, i per evitar problemes com la baixa autoestima o la frustració.
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Escola Inclusiva (marc)**: L'atenció a l'alumnat amb altes capacitats s'emmarca en els principis i objectius de l'escola inclusiva, garantint la participació i aprenentatges valuosos per a tothom.
-*   **Detecció i Avaluació de NEE (protocol)**: Els processos de detecció d'altes capacitats, incloent l'ús de graelles i entrevistes, segueixen una lògica similar a la detecció d'altres necessitats educatives.
-*   **Enriquiment Curricular (estratègia)**: Una de les principals estratègies per atendre les altes capacitats, permetent aprofundir i ampliar continguts i activitats.
-*   **Compactació Curricular (estratègia)**: Estratègia complementària a l'enriquiment, que permet accelerar el ritme d'aprenentatge en àrees ja dominades per alliberar temps per a l'aprofundiment.
-*   **Doble Excepcionalitat (perfil)**: Aprofundeix en la complexitat dels alumnes amb altes capacitats que també presenten altres trastorns o dificultats d'aprenentatge.
-*   **PI (Pla Individualitzat) (eina)**: En casos d'altes capacitats amb necessitats específiques de suport educatiu, especialment en doble excepcionalitat o acceleració, pot ser necessari un Pla Individualitzat.
-*   **Intel·ligències Múltiples (marc)**: Proporciona una base teòrica per entendre la diversitat de capacitats i talents, més enllà d'una intel·ligència general única.
+- **`M1_neurodiversitat-NESE.md`** — Les altes capacitats s'inclouen en el marc de NESE per la necessitat de resposta educativa diferenciada; el marc conceptual dona el context diagnòstic
+- **`M1_plans-individuals-PAD-PI.md`** — L'enriquiment, la flexibilització curricular i l'acceleració s'articulen a través del PI; sense pla documentat, la resposta queda supeditada a la voluntat del docent concret
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet dissenyar experiències que desafien sense excloure i responen a ritmes avançats sense segregar l'alumne del grup
+- **`M2_factors-promotors-aprenentatge.md`** — Els factors de motivació intrínseca, repte cognitiu alt i autonomia creixent són especialment crítics per a l'alumnat amb altes capacitats
+- **`M0_cura-personalis.md`** — L'atenció a les necessitats emocionals i socials, sovint invisibles rere l'excel·lència acadèmica: el dualisme capacitat-maduresa emocional és la paradoxa central
+- **`M0_cultura-vocacional.md`** — Les altes capacitats necessiten orientació vocacional específica: el talent pot quedar desorientat sense un projecte vital que li doni sentit i servei
+- **`M7_benestar-emocional-seguretat.md`** — L'aïllament social, l'asincronisme de desenvolupament i el perfeccionisme son factors de risc emocional específics que cal acompanyar
 
-### 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-*   **Senyals del docent:**
+### Senyals del docent
     *   "Aquest alumne acaba les tasques molt ràpid i després s'avorreix o distreu."
     *   "Fa preguntes que van molt més enllà del que hem explicat, o que són molt abstractes."
     *   "Mostra un interès obsessiu per un tema concret i en sap moltíssim."
@@ -170,13 +168,13 @@ L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el cont
     *   "Sembla que no presta atenció, però si li pregunto, sap exactament de què estem parlant."
     *   "Té dificultats per treballar en grup amb els seus companys, o prefereix treballar sol."
     *   "El seu sentit de l'humor és molt sofisticat o irònic."
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   Expressa avorriment o frustració amb les tasques rutinàries o repetitives.
     *   Demana més informació o reptes addicionals sobre un tema.
     *   Mostra una gran curiositat i fa preguntes "per què" o "com" constants.
     *   Es sent diferent dels seus companys o té dificultats per connectar amb ells.
     *   Mostra una alta sensibilitat davant de la injustícia o les emocions dels altres.
-*   **Senyals de context:**
+### Senyals de context
     *   En activitats obertes o projectes, l'alumne destaca significativament per la profunditat o originalitat.
     *   En discussions a l'aula, l'alumne aporta perspectives inusuals o arguments molt elaborats.
     *   Els resultats de proves d'avaluació diagnòstica o de competències bàsiques són molt elevats en algunes àrees.
@@ -187,7 +185,7 @@ L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el cont
     *   Un interès intens per un tema que és passatger i superficial, sense la profunditat o la capacitat de relacionar-lo amb altres coneixements.
     *   Dificultats socials generalitzades que no estan lligades a la diferència de ritme o interessos, sinó a altres problemes de relació o habilitats socials.
 
-### 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** La resposta educativa ha de ser flexible i personalitzada, reconeixent la diversitat de les altes capacitats com un potencial a desenvolupar, no un problema a resoldre, i sempre dins del marc de l'escola inclusiva.
 
@@ -235,6 +233,15 @@ L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el cont
     *   **Fonament:** L'alta sensibilitat i intensitat emocional són trets freqüents. Desenvolupar l'autoregulació emocional és crucial per al seu benestar personal i la seva adaptació social.
     *   **Exemple complet de raonament:** Davant una alumna amb AC que reacciona amb molta ràbia davant el que considera una injustícia a l'aula, o que es tanca en si mateixa quan se sent incompresa pels seus companys: més enllà de la seva capacitat intel·lectual, l'alumna necessita suport per gestionar les seves emocions intenses. Convé guiar-la a identificar les emocions que sent (ràbia, tristesa, frustració), a comprendre per què les sent (sentit de la justícia, incomprensió) i a explorar estratègies per expressar-les de manera constructiva. Per exemple, en lloc d'esclatar, pot aprendre a respirar profundament, a escriure sobre el que sent, o a buscar un adult de confiança per parlar-ne. També es poden suggerir maneres de comunicar les seves perspectives als companys de forma més empàtica, ajudant-la a construir relacions socials més satisfactòries i a sentir-se més acceptada.
 ---
+
+## 5. Fonts
+
+- Renzulli, J. S. (1978). What makes giftedness? Re-examining a definition. *Phi Delta Kappan*, 60(3), 180-184.
+- Winner, E. (1996). *Gifted children: Myths and realities*. Nova York: Basic Books.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb altes capacitats intel·lectuals*. Generalitat de Catalunya.
+- Gagné, F. (2004). Transforming gifts into talents: The DMGT as a developmental theory. *High Ability Studies*, 15(2), 119-147.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 

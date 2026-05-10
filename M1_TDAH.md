@@ -104,17 +104,17 @@ El DSM-5 defineix tres presentacions clíniques del TDAH amb perfils cognitius i
     *   **No homogeneïtzar les respostes**: La diversitat implica que no hi ha solucions úniques. Evitar la "còpia i les activitats mecàniques" (DOC 8) és clau. Aplicar les mateixes estratègies a tots els alumnes amb TDAH sense considerar les seves especificitats individuals pot ser ineficaç i frustrant, ja que cada alumne és únic, fins i tot dins del mateix perfil.
     *   **No centrar-se només en el dèficit**: L'escola inclusiva busca suprimir barreres i potenciar l'èxit de tots (DOC 10). Enfocar-se exclusivament en les dificultats del TDAH sense reconèixer i aprofitar les fortaleses de l'alumne pot minar la seva autoestima i el seu potencial d'aprenentatge.
 
----
+## 3. Connexions amb altres documents del corpus
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
--   **Marc_Inclusió_Educativa**: Aquest perfil s'emmarca en els principis de la inclusió educativa, que busca atendre la diversitat de l'alumnat i eliminar barreres d'aprenentatge.
--   **Estrategia_Diferenciació_Pedagògica**: Les adaptacions metodològiques i la diversificació d'activitats es connecten amb la necessitat de diferenciar la pedagogia per respondre a perfils diversos com el TDAH.
--   **Protocol_Identificació_NEE**: Els senyals identificadors i la derivació a serveis psicopedagògics són part dels protocols per detectar i atendre les Necessitats Educatives Específiques.
--   **Eina_Pla_Individualitzat**: La necessitat de suports concrets i adaptacions per a l'alumne amb TDAH es materialitzaria en un Pla Individualitzat d'Atenció (PIA) o similar.
--   **Perfil_Altes_Capacitats**: Encara que diferent, el document sobre altes capacitats (DOC 6) il·lustra la necessitat d'adaptacions i plans individualitzats per a qualsevol perfil divers.
--   **Marc_Identitat_Múltiples_Pertinences**: La comprensió de l'alumne amb TDAH com un individu amb una identitat complexa i no reduïble a un diagnòstic es basa en aquest marc.
+- **`M1_neurodiversitat-NESE.md`** — El TDAH és una de les NESE neurobiològiques; el marc conceptual proporciona el context diagnòstic del qual partir per entendre la tríada d'impacte (atenció, impulsivitat, hiperactivitat)
+- **`M1_plans-individuals-PAD-PI.md`** — El PAD és l'instrument legal que formalitza les mesures d'atenció; sense pla documentat, les adaptacions queden com a bones intencions i no com a dret de l'alumne
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA és el marc metodològic preferent per respondre a la variabilitat executiva i atencional: múltiples formes de representació i expressió redueixen la sobrecàrrega de la memòria de treball
+- **`M2_mesures-suports-inclusius.md`** — Les mesures concretes d'accés, ensenyament i avaluació (estructura visual, fragmentació de tasques, temps ampliat) es troben aquí
+- **`M0_cura-personalis.md`** — L'atenció individual és crucial: el TDAH porta sovint etiquetes i prejudicis que cal desfer persona a persona; la Cura Personalis és l'antídot
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional és prerequisit de la regulació: el TDAH comporta sovint ansietat i baixa autoestima acumulada per anys de fracàs escolar
+- **`M7_participacio-families.md`** — La col·laboració escola-família és especialment crítica: les estratègies d'autoregulació guanyen en efectivitat si hi ha coherència entre els dos entorns
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 -   **Senyals del docent**:
     *   "Em costa que aquest alumne mantingui l'atenció en les tasques llargues."
     *   "Observo que aquest alumne interromp sovint o té dificultats per esperar el seu torn."
@@ -134,7 +134,7 @@ El DSM-5 defineix tres presentacions clíniques del TDAH amb perfils cognitius i
     *   Les dificultats apareixen de manera sobtada i recent, sense un patró consistent al llarg del temps.
     *   Les dificultats es deuen clarament a una manca de comprensió de la tasca o a una barrera lingüística, i no a la regulació de l'atenció o la impulsivitat.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 -   **Principi general**: L'atenció a l'alumnat amb TDAH s'integra en el marc de l'escola inclusiva, prioritzant la supressió de barreres i l'adaptació de les pràctiques educatives per garantir la participació i l'èxit de tots.
 
 -   **Heurístiques per al docent**:
@@ -179,6 +179,15 @@ El DSM-5 defineix tres presentacions clíniques del TDAH amb perfils cognitius i
         *   **Fonament**: Els documents parlen de "diversificar els procediments i activitats" i que "l'alumnat pot presentar el treball de diverses maneres" (DOC 8).
         *   **Exemple complet de raonament**: Davant un alumne amb TDAH que troba avorrit llegir textos llargs i li costa retenir la informació: no tothom aprèn de la mateixa manera, i això és una part de la "diversitat" que l'escola valora (DOC 10). Si llegir textos llargs li costa, convé provar altres maneres d'aprendre: esquemes visuals, dibuixos, mapes conceptuals, o fins i tot explicar el que ha après a algú altre. Els documents (DOC 8) suggereixen que hi ha moltes maneres de presentar el treball i d'aprendre. Identificar quina és la "modalitat d'adquisició d'informació" (DOC 10) preferida, ja sigui visual, auditiva o tàctil, l'ajudarà a trobar les estratègies que millor li funcionin i a aprofitar les seves fortaleses.
 ---
+
+## 5. Fonts
+
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5a ed., DSM-5). Washington: APA.
+- Barkley, R. A. (2015). *Attention-Deficit Hyperactivity Disorder: A Handbook for Diagnosis and Treatment* (4a ed.). Nova York: Guilford Press.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2022). *Orientacions per a l'atenció educativa a l'alumnat amb TDAH*. Generalitat de Catalunya.
+- Willcutt, E. G. (2012). The prevalence of DSM-IV attention-deficit/hyperactivity disorder: A meta-analytic review. *Neurotherapeutics*, 9(3), 490-499.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 

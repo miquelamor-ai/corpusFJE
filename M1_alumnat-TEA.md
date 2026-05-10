@@ -25,8 +25,6 @@ variables_configurables:
     impacte: "No verbal: materials altament visuals, pictogrames obligatoris"
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL PERFIL: ALUMNAT AMB TEA
-
 ## Descripció del tret
 
 El Trastorn de l'Espectre Autista (TEA) és un trastorn profund del desenvolupament neurològic caracteritzat per alteracions significatives en tres àrees fonamentals: la comunicació, la interacció social i els patrons de comportament, que es presenten de forma simultània (DOC 12). No es tracta d'una malaltia, sinó d'una síndrome del neurodesenvolupament que afecta les funcions cerebrals en les àrees de raonament, habilitats de comunicació i interacció social (DOC 12). Com a síndrome, no existeix cura, però es pot millorar substancialment la qualitat de vida i ensenyar noves habilitats per fomentar la independència.
@@ -149,27 +147,19 @@ El TEA coexisteix freqüentment amb altres condicions que cal considerar:
 
 - **No aïllar permanentment l'alumne del grup ordinari**: L'escolarització ha de seguir el criteri general d'entorns més normalitzats i ordinaris possibles (DOC 6). Conviure amb companys que proporcionen models de relació i comunicació facilita la integració (DOC 5). Perquè l'aïllament elimina els models naturals d'aprenentatge social que són essencials per al desenvolupament.
 
----
+## 3. Connexions amb altres documents del corpus
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M1_neurodiversitat-NESE.md`** — El TEA s'inclou en el marc conceptual de la neurodiversitat; el document proporciona el context clínic i les implicacions educatives generals
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és l'instrument d'atenció per a l'alumnat TEA: concreta les mesures de comunicació augmentativa, d'estructuració i d'adaptació curricular
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet dissenyar entorns predictibles i estructurats: la múltiple representació i les opcions de regulació emocional redueixen la sobrecàrrega sensorial i cognitiva
+- **`M2_mesures-suports-inclusius.md`** — Els suports específics d'accés a la comunicació, d'estructuració de l'espai i del temps, i de transicions entre activitats
+- **`M0_cura-personalis.md`** — L'atenció integral és especialment important: el TEA es manifesta de forma molt heterogènia; el perfil individual de cada alumne és la brúixola de l'acompanyament
+- **`M7_benestar-emocional-seguretat.md`** — La previsibilitat i la seguretat de l'entorn és la condició de possibilitat de tot aprenentatge per a l'alumnat TEA; sense ambient segur, qualsevol canvi desencadena resposta d'estrès
+- **`M7_participacio-families.md`** — Les famílies d'alumnat TEA necessiten acompanyament intens, coordinació estreta i eines de comunicació compartides per mantenir la coherència entre escola i llar
 
-*   **M1_neurodiversitat-NESE**: Marc general de la neurodiversitat i les NESE dins del qual s'emmarca el perfil TEA. Proporciona el concepte de barreres d'aprenentatge i participació i els principis d'escola inclusiva.
-*   **M1_TDAH**: Comorbiditat freqüent. Quan un alumne presenta TEA i TDAH simultàniament, cal activar ambdós perfils i buscar estratègies compatibles.
-*   **M1_trastorns-emocionals-conducta**: Les conductes disruptives associades al TEA poden requerir consultar aquest document per a estratègies de gestió emocional i conductual.
-*   **M1_plans-individuals-PAD-PI**: L'elaboració d'un Pla Individualitzat és una eina clau per concretar les adaptacions per a alumnat amb TEA.
-*   **M2_DUA-principis-pautes**: El Disseny Universal per a l'Aprenentatge proporciona el marc metodològic per fer el currículum accessible sense adaptacions individuals excessives.
-*   **M2_aprenentatge-cooperatiu**: Estratègia fonamental per facilitar la inclusió social de l'alumnat amb TEA, amb rols estructurats i interdependència positiva.
-*   **M3_comunicacio-augmentativa**: Quan l'alumne requereix SAAC, aquest document proporciona les estratègies de comunicació augmentativa i alternativa.
-*   **M2_programacio-multinivell**: Permet dissenyar activitats amb diferents nivells de complexitat dins el mateix grup, essencial per a l'alumnat amb TEA.
-*   **M7_benestar-emocional-seguretat**: La regulació emocional i sensorial és prioritària; aquest document aporta estratègies de benestar aplicables.
+## 4. Detecció
 
-**Documents complementaris**: SEMPRE cal llegir conjuntament: M1_neurodiversitat-NESE, M1_plans-individuals-PAD-PI.
-
-**Documents complementaris condicionals**: Si el context inclou conductes disruptives, consultar també M1_trastorns-emocionals-conducta. Si inclou necessitats de comunicació augmentativa, consultar M3_comunicacio-augmentativa. Si l'alumne està en transició d'etapa, consultar M1_acollida-marc-conceptual.
-
-# 3. DETECCIÓ (Variables de Context)
-
-## Senyals del docent
+### Senyals del docent
 Aquest document és pertinent quan el docent:
 - Descriu un alumne amb dificultats de comunicació social malgrat competència lingüística aparent.
 - Observa conductes repetitives, estereotípies o interessos molt restringits en un alumne.
@@ -179,7 +169,7 @@ Aquest document és pertinent quan el docent:
 - Descriu un alumne que "sembla que no escolta" o que "viu en el seu món".
 - Observa un alumne amb memòria excepcional en certs àmbits però que no pot aplicar els coneixements en contextos nous.
 
-## Senyals de l'alumne
+### Senyals de l'alumne
 Aquest document és pertinent quan l'alumne:
 - Expressa dificultat per entendre les instruccions o les normes no escrites de l'aula.
 - Mostra ansietat davant canvis imprevistos en l'horari o les activitats.
@@ -187,26 +177,26 @@ Aquest document és pertinent quan l'alumne:
 - Expressa sentir-se diferent o no entès pels companys.
 - Mostra interès intens per un tema específic i vol parlar-ne exclusivament.
 
-## Senyals de context
+### Senyals de context
 - L'activitat requereix competència comunicativa elevada (debats, improvisacions, treball grupal autònom sense rols assignats).
 - L'entorn és sensorialment estimulant (sorolls, aglomeracions, llums canviants).
 - Hi ha canvis de rutina imprevistos (sortides, substitucions, canvis d'horari).
 - L'alumne té un PI que menciona TEA, TGD o Asperger.
 - La família ha comunicat un diagnòstic o un procés d'avaluació en curs.
 
-## Anti-senyals (quan NO activar)
+### Anti-senyals
 - L'alumne és tímid o introvertit però comprèn bé les normes socials i el llenguatge figurat — pot ser timidesa, no TEA.
 - Les dificultats de comunicació es deuen clarament a una barrera lingüística recent (alumnat nouvingut) i no a una alteració de la intenció comunicativa.
 - L'alumne mostra conductes desafiants intencionades i amb comprensió clara de les normes socials — pot ser un trastorn de conducta, no TEA.
 - Les estereotípies o conductes repetitives apareixen com a part d'una fase evolutiva normal en educació infantil.
 - Les dificultats d'atenció són el tret principal sense alteració de la comunicació social — avaluar primer TDAH.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 ## Principi general
 > Comprendre la lògica interna del trastorn per adaptar l'entorn educatiu a l'estil de processament de l'alumne, eliminant barreres i potenciant fortaleses, sempre dins del grup ordinari amb els suports necessaris.
 
-## Heurístiques per al docent
+#### Heurístiques per al docent
 
 ### H1: Estructura visual i anticipació
 - **Quan aplica**: Quan es planifiquen activitats, transicions o canvis de rutina per a un grup que inclou alumnat amb TEA.
@@ -251,6 +241,15 @@ Aquest document és pertinent quan l'alumne:
 - **Exemple complet de raonament**: Davant un alumne amb Asperger de 2n d'ESO que es queixa que els companys no volen estar amb ell al pati: potser no és conscient que parla exclusivament del seu tema d'interès sense preguntar als altres pel seu. Es poden treballar les "regles de la conversa" de forma explícita: (1) pregunta alguna cosa al company, (2) escolta la resposta, (3) comenta una cosa relacionada, (4) després pots parlar del teu tema durant 2 minuts. Practicar-ho primer en un entorn segur (amb l'orientador o en un grup petit) i després transferir-ho al context real. L'objectiu és donar-li eines socials explícites que la majoria de gent aprèn implícitament, sense forçar-lo a ser algú que no és.
 
 ---
+
+## 5. Fonts
+
+- American Psychiatric Association (2013). *Diagnostic and Statistical Manual of Mental Disorders* (5a ed., DSM-5). Washington: APA.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb trastorn de l'espectre autista (TEA)*. Generalitat de Catalunya.
+- Mesibov, G. B., Shea, V., & Schopler, E. (2005). *The TEACCH Approach to Autism Spectrum Disorders*. Nova York: Springer.
+- OMS (2022). *International Classification of Diseases* (11a ed., ICD-11). Ginebra: OMS.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 

@@ -55,8 +55,6 @@ variables_configurables:
     impacte: "Inicial: vocabulari acadèmic amb definicions integrades. Consolidat: termes tècnics sense bastida"
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Descripció de la situació
 L'alumnat nouvingut és aquell que s'incorpora al sistema educatiu català havent estat escolaritzat prèviament en un altre sistema educatiu, sovint en un context cultural i lingüístic diferent. Aquest perfil ha experimentat un creixement continuat i significatiu en els darrers anys, passant de ser gairebé anecdòtic a principis dels anys noranta a representar un percentatge notable de l'alumnat, amb una distribució irregular al territori. Aquest perfil és extremadament heterogeni, ja que la "diversitat cultural és una de les múltiples diversitats que conformen la societat complexa" (DOC 2). No es tracta d'un grup homogeni, sinó d'individus amb "identitats de múltiples pertinences" (DOC 1, DOC 3), resultat de diverses identificacions flexibles i canviants. Generalment, la incorporació es produeix en els darrers vint-i-quatre mesos, o excepcionalment en els darrers trenta-sis mesos, especialment si procedeixen d'àmbits lingüístics i culturals molt allunyats del nostre. La seva arribada, especialment en les darreres dècades, ha estat ràpida i creixent, abastant totes les comarques catalanes (DOC 5). Aquest alumnat pot provenir de més de 150 estats diferents, amb experiències educatives prèvies molt variades, des de sistemes d'alta qualitat fins a escolaritzacions intermitents o inexistents. Aquesta diversitat s'amplifica amb factors socioeconòmics, d'edat i de gènere, que es combinen i fan difícil identificar grups culturals o socials uniformes (DOC 2). La globalització ha accelerat aquesta mobilitat, fent que les distàncies s'escurcin i la circulació d'informació i persones sigui extraordinària (DOC 4). Per tant, el perfil de l'alumnat nouvingut no es defineix per un origen comú, sinó per la seva recent incorporació i la necessitat d'adaptació a un nou entorn educatiu, social i lingüístic.
 
@@ -189,21 +187,16 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
 *   **No deixar l'acollida a la improvisació:** El procés d'acollida és crucial i requereix una planificació detallada i la implicació de tota la comunitat educativa. Improvisar pot generar sentiments d'inseguretat i dificultar la integració.
 *   **No centrar-se exclusivament en el dèficit lingüístic:** Tot i que l'adquisició de la llengua és fonamental, cal reconèixer i valorar les altres capacitats i coneixements previs de l'alumne, així com la seva llengua materna, com a recurs i no com a obstacle.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Marc_Inclusió_Educativa**: Aquest document sobre l'alumnat nouvingut s'alinea amb els principis de la inclusió educativa, que busca suprimir barreres i atendre la diversitat de tot l'alumnat.
-*   **Estratègia_Aprenentatge_Cooperatiu**: Les metodologies cooperatives són molt útils per a la integració lingüística i social de l'alumnat nouvingut, ja que fomenten la interacció i el suport mutu.
-*   **Eina_Pla_Individualitzat**: Per a l'alumnat nouvingut amb necessitats més específiques, un Pla Individualitzat pot ser necessari per adaptar el currículum i els suports.
-*   **Protocol_Aules_Acollida**: Aquest perfil fa referència explícita a les aules d'acollida com a recurs clau per a l'adquisició de la llengua, per la qual cosa un protocol detallat seria complementari.
-*   **Perfil_Alumnat_Altes_Capacitats**: Un alumne nouvingut pot tenir altes capacitats, i la combinació d'ambdós perfils requereix una atenció específica que aquest document esmenta.
-*   **Marc_Identitat_Múltiple**: El concepte d'identitat de múltiples pertinences és fonamental per entendre la complexitat de l'alumnat nouvingut i evitar estereotips.
-*   **Normativa_Atenció_Diversitat**: Les obligacions i drets que genera la normativa sobre atenció a la diversitat són la base legal per a l'actuació amb l'alumnat nouvingut.
-*   **Eina_Pauta_Observació_Integració_Social**: Instrument útil per avaluar l'adaptació social i emocional de l'alumnat nouvingut a l'aula i al centre, i per fer un seguiment sistemàtic del procés d'integració.
-*   **Eina_Recollida_Dades_Inicials_Alumnat**: Document clau per obtenir informació rellevant sobre l'escolarització prèvia i les llengües familiars de l'alumnat nouvingut en el moment d'incorporació al centre.
-*   **DUA** (Disseny Universal per a l'Aprenentatge): Els principis d'actuació per a l'alumnat nouvingut s'alineen amb el DUA en la necessitat d'adaptar continguts, activitats i avaluació per garantir l'accessibilitat i donar resposta a la diversitat de l'aula.
-*   **Tutoria_entre_iguals**: Estratègia metodològica clau per abordar les necessitats socials i emocionals de l'alumnat nouvingut, facilitant la integració al grup classe i l'adquisició de la llengua en un context de suport entre iguals.
+- **`M1_acollida-marc-conceptual.md`** — El protocol d'acollida és l'instrument que gestiona la transició inicial; l'alumnat nouvingut és el seu destinatari principal; els dos documents s'han de llegir junts
+- **`M1_diversitat-cultural-identitat.md`** — La diversitat cultural i la identitat de l'alumnat nouvingut no és obstacle sinó riquesa; el marc de diversitat cultural dona les eines per treballar l'alteritat i la pertinença
+- **`M1_plans-individuals-PAD-PI.md`** — Quan l'alumne nouvingut té necessitats lingüístiques o acadèmiques específiques, el PI és l'instrument de resposta individualitzada
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet dissenyar accés al contingut per a alumnes en procés d'adquisició de la llengua vehicular: múltiples representacions i suports visuals i multimodals
+- **`M7_participacio-families.md`** — La participació de les famílies nouvingudes és especialment complexa; requereix estratègies de mediació intercultural i recursos de traducció
+- **`M0_cura-personalis.md`** — L'atenció integral és el fonament: l'alumnat nouvingut no és un expedient d'acollida sinó una persona amb una trajectòria de vida, un dol migratori i un projecte de futur
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
 **Senyals del docent**
 *   "Observo que un alumne no participa en les converses de grup."
@@ -246,7 +239,7 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
 *   Un alumne que comet errors gramaticals però es comunica amb seguretat i comprèn el contingut: pot estar en una fase d'adquisició normal de la llengua, sense necessitat de suports intensius més enllà de la pràctica.
 *   Les dificultats observades són generals i no específiques del procés migratori o d'integració, podent correspondre a altres necessitats educatives.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general:** Cal promoure una acollida integral i personalitzada, reconeixent la diversitat de l'alumnat nouvingut com una riquesa i facilitant la seva plena participació i aprenentatge.
 
@@ -320,6 +313,15 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
     *   **Exemple complet de raonament:** Si em sento trist o sol, o si trobo a faltar la meva família o el meu país, recordaré que hi ha adults a l'escola que em poden ajudar. Puc parlar amb el meu tutor, amb el professor de l'aula d'acollida o amb algun altre adult amb qui em senti còmode. També puc buscar un espai tranquil a l'hora del pati si necessito un moment per mi. Recordaré que és normal sentir-se així al principi i que no estic sol. Intentaré apropar-me a algun company que em somrigui o que em sembli amable, encara que al principi em costi parlar. L'important és no guardar-me els sentiments i buscar suport, perquè parlar-ne ajuda a sentir-se millor.
 
 ---
+
+## 5. Fonts
+
+- Cummins, J. (2001). *Negotiating identities: Education for empowerment in a diverse society* (2a ed.). Los Angeles: California Association for Bilingual Education.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2020). *Acollida i integració de l'alumnat nouvingut*. Generalitat de Catalunya.
+- Krashen, S. D. (1982). *Principles and practice in second language acquisition*. Oxford: Pergamon.
+- OCDE (2015). *Helping immigrant students to succeed at school and beyond*. París: OECD Publishing.
+
 
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
