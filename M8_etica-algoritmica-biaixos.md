@@ -82,7 +82,6 @@ L'ús de sistemes d'IA en educació, si no es gestiona amb una ètica algorísmi
 
 *   **No proporcionar informació clara i accessible sobre el funcionament, les capacitats i les limitacions dels sistemes d'IA als docents, alumnes i famílies.**
     *   **Per què NO fer-ho**: La transparència és un requisit fonamental del Reglament d'IA (Doc 4, 23).
----
 
 ## 5. FONTS DEL CORPUS
 
