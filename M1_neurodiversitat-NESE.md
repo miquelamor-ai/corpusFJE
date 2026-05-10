@@ -8,8 +8,6 @@ generat_at: 2026-03-18T11:16:24
 actualitzat_at: 2026-03-27T01:00:00
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 
 La **neurodiversitat** és un concepte que reconeix la variabilitat natural en el funcionament del cervell humà, entenent les diferents maneres de pensar, aprendre i processar informació com a part de la riquesa humana, no com a dèficits. Les **Necessitats Específiques de Suport Educatiu (NESE)** fan referència a tots aquells alumnes que requereixen una atenció educativa diferent a l'ordinària per assolir el màxim desenvolupament possible de les seves capacitats personals i els objectius d'aprenentatge.
@@ -217,30 +215,19 @@ L'aplicació del marc NESE/NEE es concreta de manera diferent segons el nivell d
 *   **El reconeixement NESE no és una etiqueta permanent:** Ha de ser revisat periòdicament i retirat quan les mesures ja no són necessàries.
 *   **Cada tret neurodivergent té el seu marc específic** dins del corpus (TEA, TDAH, dislèxia, TDL, altes capacitats). Aquest document és el marc paraigua que els connecta.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-### Documents marc i normatius
-*   **M1_plans-individuals-PAD-PI.md**: Detall del PI, PAD i PSI — instruments de planificació individualitzada referenciats en aquest document.
-*   **M2_mesures-suports-inclusius.md**: Desenvolupament pràctic dels tres nivells de mesures (universals, addicionals, intensius).
-*   **M9_decrets-inclusio-ordenacio.md**: Marc legal complet: LOMLOE, Decret 150/2017, ordres d'avaluació.
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és l'instrument de planificació quan les mesures generals no són suficients; la decisió d'activar un PI s'assenta sobre la classificació NESE/NEE que estableix aquest marc
+- **`M2_mesures-suports-inclusius.md`** — Els tres nivells de mesures (universals, addicionals, intensives) és la resposta pràctica al marc NESE/NEE; el Decret 150/2017 els regula i seqüencia
+- **`M9_decrets-inclusio-ordenacio.md`** — El Decret 150/2017 i la LOMLOE defineixen legalment els conceptes NESE/NEE i estableixen el dret als suports; lectura conjunta obligatòria per a qualsevol decisió normativa
+- **`M1_model-caracteritzacio-diversitat.md`** — El model de 3 nivells i la distinció constitutiva/contextual és el marc que organitza tots els perfils NESE/NEE del corpus; governa la lògica de recuperació de coneixement
+- **`M1_desenvolupament-cognitiu-social.md`** — Marc transversal de desenvolupament cognitiu i social que contextualitza els perfils i justifica per què les necessitats varien amb el desenvolupament de l'alumne
+- **`M1_alumnat-nouvingut.md`** — Alumnat nouvingut: NESE per incorporació tardana; exemple paradigmàtic de característica contextual que pot coexistir amb característiques constitutives no diagnosticades
+- **`M1_alumnat-TEA.md`** — TEA: exemple paradigmàtic de NEE constitutiva; il·lustra el concepte de "necessitat educativa especial" i la gradació de mesures fins a les intensives
 
-### Documents de perfil (M1 — característiques específiques)
-*   **M1_TEA.md**: Trastorn de l'Espectre Autista — classificat com a NEE en tots els nivells.
-*   **M1_TDAH.md**: Trastorn per Dèficit d'Atenció i Hiperactivitat — NESE (dificultats específiques).
-*   **M1_dislexia.md**: Dislèxia — NESE (dificultats específiques), pot derivar en NEE si severa.
-*   **M1_TDL.md**: Trastorn del Desenvolupament del Llenguatge — freqüentment NEE en nivells moderats-severs.
-*   **M1_altes-capacitats.md**: Altes capacitats intel·lectuals — NESE (categoria pròpia).
-*   **M1_alumnat-nouvingut.md**: Alumnat nouvingut — NESE (incorporació tardana).
-*   **M1_desenvolupament-cognitiu-social.md**: Marc transversal de desenvolupament que contextualitza els perfils.
 
-### Documents operatius (anteriors)
-*   **perfil_alumnat_nouvingut.md**: Detall de les característiques i necessitats de l'alumnat nouvingut.
-*   **protocol_acollida_alumnat_nouvingut.md**: Passos concrets per a l'acollida.
-*   **estrategia_aula_acollida.md**: Implementació i funcionament de les Aules d'Acollida.
-*   **eina_enquesta_integracio_escolar.md**: Instruments per avaluar la integració escolar.
-
-# 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
+## 4. Detecció
+### Senyals del docent
     *   "Quin és el procediment per demanar una avaluació a l'EAP?"
     *   "Tinc un alumne amb dificultats: és NESE o NEE? Quina diferència hi ha?"
     *   "Què ha de contenir un PI? Qui el redacta?"
@@ -248,23 +235,23 @@ L'aplicació del marc NESE/NEE es concreta de manera diferent segons el nivell d
     *   "Com funcionen els tres nivells de suport del Decret 150?"
     *   "Tinc un alumne nouvingut que a més sembla tenir dificultats d'aprenentatge no relacionades amb la llengua."
     *   "Necessito entendre el marc legal d'atenció a la diversitat a Catalunya."
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   Dificultats d'aprenentatge persistents malgrat mesures universals.
     *   Decalatge significatiu respecte als companys en una o més àrees.
     *   Necessitat de suports que van més enllà del que l'aula ordinària pot oferir sense adaptacions.
     *   Dificultat per comunicar-se en la llengua vehicular (alumnat nouvingut).
     *   Signes de desorientació, ansietat o aïllament en l'entorn escolar.
-*   **Senyals de context:**
+### Senyals de context
     *   El centre està revisant el seu Pla d'Atenció a la Diversitat (PAD).
     *   S'ha de constituir o activar la CAEI del centre.
     *   Hi ha alumnes pendents d'avaluació EAP o de reconeixement NESE.
     *   El centre vol entendre com funciona la xarxa de recursos (EAP, CREDA, CREDV, CEEPSIR).
-*   **Anti-senyals:**
+### Anti-senyals
     *   La consulta se centra en un tret específic (TEA, TDAH, dislèxia) sense necessitat del marc general → derivar al document específic del corpus.
     *   La demanda és sobre aspectes purament administratius de matrícula o gestió econòmica.
     *   Es busca informació sobre normativa no educativa (sanitària, social) → derivar a M9 o fonts externes.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 *   **Principi general:** Davant qualsevol consulta sobre diversitat funcional, necessitats educatives o suports, cal identificar primer on es situa l'alumne dins la jerarquia NESE/NEE i quin nivell de mesures correspon. Cal aplicar sempre el principi de gradualitat (Decret 150/2017).
 
 *   **Heurístiques per al docent:**
@@ -295,21 +282,11 @@ L'aplicació del marc NESE/NEE es concreta de manera diferent segons el nivell d
         *   **Fonament:** El sentiment de pertinença és fonamental per a l'aprenentatge. La diversitat funcional o cultural no ha de ser una barrera per a la socialització.
         *   **Exemple de raonament:** Davant un alumne nouvingut o amb diversitat funcional que se sent diferent, una resposta adequada és: "La diversitat és una riquesa. A l'escola hi ha persones que pensen, aprenen i es comuniquen de maneres diferents, i totes són vàlides. Pots parlar amb el teu tutor/a sobre com et sents i demanar-li que t'ajudi a connectar amb companys. Les activitats cooperatives i els projectes en grup són bones oportunitats per fer-ho."
 
-# 5. FONTS I REFERÈNCIES
+## 5. Fonts
 
-| # | Referència | Any |
-|---|---|---|
-| 1 | Gracia Cantador, S. Pla d'acollida de matemàtiques per a l'alumnat nouvingut d'ESO. | s.d. |
-| 2 | Departament d'Educació. Pla per a la Llengua i la Cohesió Social. | 2004 |
-| 3 | Departament d'Educació. Desenvolupament personal i social de l'alumnat nouvingut. | s.d. |
-| 4 | Departament d'Educació. Les Aules d'Acollida: organització i funcionament. | 2006 |
-| 5 | García Castaño, F.J. i Carrasco Pons, S. (eds.). Población inmigrante y escuela. CIDE-MEC. | 2011 |
-| 6 | Serra, C. i Palaudàrias, J.M. Trajectòries educatives de l'alumnat d'origen immigrat. GRES-UdG. | 2010 |
-| 7 | LOMLOE (Llei Orgànica 3/2020, de 29 de desembre). BOE. | 2020 |
-| 8 | Decret 150/2017, d'atenció educativa a l'alumnat en el marc d'un sistema inclusiu. DOGC 7477. | 2017 |
-| 9 | Guia NESE. Consorci d'Educació de Barcelona. edubcn.cat | 2024 |
-| 10 | Síndic de Greuges de Catalunya. Informe sobre l'estat de l'educació inclusiva. | 2025 |
-| 11 | TERMCAT. Fitxa terminològica NESE. termcat.cat | Vigent |
-| 12 | Portal GVA Educació. ANESE segons LOMLOE. | Vigent |
-| 13 | Thompson, J.R. et al. Conceptualizing supports and the support needs of people with intellectual disability. *Intellectual and Developmental Disabilities*, 47(2), 135-146. | 2009 |
-| 14 | Alcalde Campos, R. "Igualar en la diversidad". Tesi doctoral, UAB. | 2008 |
+- Departament d'Educació (2017). *Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu*. DOGC 7477.
+- Generalitat de Catalunya (2020). *LOMLOE: Llei Orgànica 3/2020, de 29 de desembre, d'educació*. BOE 340.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb NESE*. Barcelona: Generalitat de Catalunya.
+- Síndic de Greuges de Catalunya (2025). *Informe sobre l'atenció educativa a l'alumnat NESE*. Barcelona: Síndic.
+- American Psychiatric Association (2013). *DSM-5: Manual diagnòstic i estadístic dels trastorns mentals*. Barcelona: Masson.
+- Stainback, S. & Stainback, W. (1999). *Aules Inclusives: Un Nou Sistema i Una Nova Perspectiva*. Madrid: Narcea.

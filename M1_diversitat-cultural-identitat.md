@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:29:10
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 
 La diversitat cultural a l'aula, especialment la que prové de l'alumnat d'origen estranger o nouvingut, és un element inherent a la realitat educativa actual. Aquesta diversitat no ha de ser percebuda com un inconvenient, sinó com un repte i una oportunitat per enriquir el procés d'aprenentatge de tots els estudiants (DOC 1). Cada alumne aporta un bagatge personal i escolar únic, que inclou referents culturals, la llengua familiar i la cultura escolar de procedència. Tots aquests elements influeixen directament en la seva manera d'aprendre i de relacionar-se amb el coneixement (DOC 1).
@@ -70,35 +68,39 @@ El marc teòric de la diversitat cultural i l'educació intercultural és àmpli
 *   **Equilibri entre inclusió i atenció individualitzada:** El marc promou la inclusió i la resposta individualitzada (DOC 2). El límit es troba en no caure en una atenció tan individualitzada que segregui l'alumne o el faci sentir diferent de manera negativa. L'objectiu és integrar-lo plenament en el grup classe, aprofitant la diversitat com un recurs per a tots, no aïllant-lo amb suports exclusius si no és estrictament necessari per a una fase inicial o una dificultat molt concreta.
 *   **Evitar l'assimilacionisme:** Tot i que el DOC 3 destaca la importància d'incorporar elements de la cultura d'acollida al currículum, això no implica que l'alumne hagi de renunciar a la seva cultura d'origen. La finalitat és l'educació intercultural, on les cultures coexisteixen i s'enriqueixen mútuament, no l'assimilació on una cultura substitueix l'altra. El marc busca que l'alumne pugui desenvolupar una identitat plural i competent en ambdós contextos.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Perfil d'alumnat nouvingut**: Aquest marc proporciona la base teòrica per entendre les necessitats i el bagatge d'aquest perfil d'alumnat, així com les barreres i fortaleses associades a la seva diversitat cultural.
-*   **Estratègies d'acollida**: Els principis d'aquest marc fonamenten les estratègies per a una acollida efectiva i inclusiva, que van més enllà de la simple benvinguda i integren aspectes lingüístics, culturals i psicoeducatius.
-*   **Metodologies d'aprenentatge cooperatiu**: Aquest marc subratlla la importància de la interacció social i l'aprofitament de la diversitat com a recurs, que es veuen potenciats per metodologies cooperatives que fomenten la col·laboració entre alumnes de diferents orígens.
-*   **Avaluació formativa**: Per donar una resposta individualitzada a les necessitats de l'alumnat culturalment divers, l'avaluació formativa és clau per identificar llacunes en els coneixements previs i progressos en contextos de construcció d'identitat i aprenentatge de llengües.
-*   **Tractament integrat de llengua i continguts (TILC)**: Aquest marc destaca la necessitat de suports lingüístics continuats per accedir al currículum acadèmic, un principi fonamental del TILC, que busca desenvolupar simultàniament la competència lingüística i el domini dels continguts.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M1_alumnat-nouvingut.md`** — El perfil nouvingut és l'alumnat que viu de forma intensiva la tensió entre identitat cultural d'origen i d'acollida; aquest marc és la base teòrica del perfil
+- **`M1_acollida-marc-conceptual.md`** — El marc conceptual d'acollida operacionalitza els principis d'identitat cultural en passos concrets de benvinguda i integració al centre
+- **`M3_TILC-llengua-i-continguts.md`** — El TILC és la metodologia que treballa la llengua des del contingut, respectant la identitat lingüística de l'alumne i evitant la doble càrrega
+- **`M3_translanguaging-plurilinguisme.md`** — El translanguaging reconeix i utilitza el repertori lingüístic complet de l'alumne com a recurs d'aprenentatge i d'identitat, no com a obstacle
+- **`M2_ABP-aprenentatge-servei.md`** — L'APS permet que la diversitat cultural sigui un recurs pedagògic real i un motor de compromís social, no una barrera a superar
+- **`M0_ciutadania-global-justicia.md`** — La formació per a la ciutadania global és la dimensió política de la diversitat cultural: transforma el "problema de la diferència" en un projecte compartit de justícia
+- **`M7_benestar-emocional-seguretat.md`** — La identitat cultural és un pilar del benestar emocional; les ruptures identitàries en el procés d'acollida generen inseguretat que bloqueja l'aprenentatge
 
-*   **Senyals del docent:**
+
+## 4. Detecció
+
+### Senyals del docent
     *   "Com puc fer que els meus alumnes d'origen estranger se sentin més integrats a l'aula i participin activament?"
     *   "Observo que alguns alumnes tenen dificultats amb conceptes que assumeixo que ja coneixen, especialment en àrees com Història, Geografia o Literatura, tot i tenir un bon nivell de català."
     *   "M'interessa aprofitar la diversitat cultural de la meva aula com un recurs pedagògic, no només com un repte."
     *   "Necessito entendre millor com la llengua familiar i la cultura d'origen dels meus alumnes influeixen en el seu aprenentatge i en la seva construcció d'identitat."
     *   "Vull dissenyar activitats que connectin el currículum amb les diferents realitats culturals dels meus estudiants, fent-lo més rellevant per a tots."
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   Alumne que mostra desorientació o incomprensió davant rutines d'aula, instruccions implícites o expectatives no verbalitzades.
     *   Alumne que, tot i tenir una bona competència comunicativa en la llengua d'escolarització, presenta llacunes en coneixements previs o conceptes curriculars específics de la cultura d'acollida.
     *   Alumne que expressa sentir-se "diferent", no entendre algunes referències culturals compartides pels companys, o que té dificultats per participar en activitats que assumeixen un bagatge cultural comú.
-*   **Senyals de context:**
+### Senyals de context
     *   Presència d'alumnat nouvingut o d'origen estranger amb poc temps d'escolarització en el sistema educatiu local.
     *   Activitat o unitat didàctica que requereix coneixements culturals molt específics de la cultura d'acollida (ex: projecte sobre festes tradicionals, anàlisi d'un text literari amb referents històrics locals, estudi de la geografia regional).
     *   Grup classe amb una alta diversitat cultural i lingüística, on les diferents perspectives poden enriquir el debat i l'aprenentatge.
-*   **Anti-senyals:**
+### Anti-senyals
     *   Docent que busca solucions que segreguen l'alumnat per origen cultural o lingüístic, en lloc d'integrar-los en activitats de l'aula ordinària.
     *   Docent que assumeix que les dificultats de l'alumnat d'origen estranger són exclusivament lingüístiques i que un cop superada la barrera inicial de la llengua, no calen més suports.
     *   Docent que ignora o menysté el bagatge cultural de l'alumne, considerant-lo irrellevant o fins i tot un obstacle per a l'aprenentatge.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** La diversitat cultural és un actiu pedagògic que requereix una resposta educativa inclusiva i personalitzada, reconeixent la interconnexió entre llengua, cultura i aprenentatge per afavorir l'èxit de tots els alumnes.
 
@@ -133,15 +135,12 @@ El marc teòric de la diversitat cultural i l'educació intercultural és àmpli
         *   **Quan aplica:** Quan un alumne té dificultats per comprendre un concepte curricular o una pràctica escolar que li resulta estranya, o quan no entén el llenguatge acadèmic.
         *   **Fonament:** La llengua i la cultura modulen la realitat. Entendre com es conceptualitzen les coses en diferents llengües i cultures pot ajudar a clarificar i enriquir un concepte nou. A més, la participació activa en la cerca de suports lingüístics i de continguts és clau per a l'èxit (DOC 2, DOC 3).
         *   **Exemple complet de raonament:** Davant un alumne que pregunta "no acabo d'entendre per què a Història estudiem aquests personatges si al meu país no en parlem": és una bona pregunta. Cada cultura té la seva pròpia història i els seus personatges rellevants (DOC 3). El que s'estudia aquí és important per entendre la cultura i la societat d'acollida. Però es pot aprofitar el coneixement previ. Convé animar l'alumne a preguntar al professor si hi ha personatges o esdeveniments similars en la història del seu país, o a buscar ell mateix aquestes connexions. Aquesta manera de relacionar coneixements no només l'ajuda a entendre millor el currículum, sinó que també li permet aprofundir en la seva pròpia cultura i veure com les diferents perspectives enriqueixen la comprensió global. Cal animar-lo a no tenir por de demanar aclariments sobre paraules o conceptes que no entén, ja que el llenguatge acadèmic pot ser complex i necessita suports continuats (DOC 2).
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b1:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/index |
-| 2 | cursos:escola_inclusiva:ansu:b1:b1t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t1 |
-| 3 | cursos:escola_inclusiva:ansu:b3:b3t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t3 |
-| 4 | 795m_b36112876d.pdf | http://www.xtec.cat/sgfp/llicencies/200304/memories/795m.pdf |
-
-*4 documents citats de 4 al corpus · secció generada automàticament*
+- Cummins, J. (2000). *Language, Power and Pedagogy: Bilingual Children in the Crossfire*. Clevedon: Multilingual Matters.
+- Vygotsky, L.S. (1978). *Mind in Society*. Cambridge: Harvard University Press.
+- Krashen, S. (1982). *Principles and Practice in Second Language Acquisition*. Oxford: Pergamon.
+- Bronfenbrenner, U. (1979). *The Ecology of Human Development*. Cambridge: Harvard University Press.
+- Departament d'Educació (2004). *Pla LIC: Llengua, Interculturalitat i Cohesió Social*. Barcelona: Generalitat de Catalunya.
+- Generalitat de Catalunya (2022). *Projecte lingüístic de centre: Orientacions*. Barcelona: Departament d'Educació.

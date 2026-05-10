@@ -9,7 +9,7 @@ review_status: draft
 generat_at: 2026-03-18T00:00:00
 ---
 
-# 1. Definició i principis
+## Definició i principis
 
 La diversitat a l'aula no és una excepció ni un problema a resoldre — és la norma. Qualsevol grup d'alumnes conté una varietat de maneres d'aprendre, de comunicar-se, de processar la informació i de relacionar-se amb el coneixement. El repte pedagògic no és reduir aquesta diversitat a categories fixes i estanques, sinó disposar d'un sistema de representació prou ric i prou flexible per donar-hi resposta de manera precisa, eficient i respectuosa.
 
@@ -17,7 +17,7 @@ Aquest model de tres nivells permet representar i processar la diversitat de l'a
 
 El model parteix de tres premisses. Primera: cap alumne encaixa en una sola categoria — la majoria de situacions impliquen combinacions de factors. Segona: no totes les circumstàncies que condicionen l'aprenentatge tenen el mateix caràcter: algunes formen part de la identitat de la persona de manera estable (constitutives), d'altres són transitòries (contextuals). Confondre les dues categories és un error pedagògic i ètic. Tercera: les barreres a l'aprenentatge resideixen en el context, no en la persona — principi central al DUA que orienta tota la terminologia del model.
 
-## El model de tres nivells
+### El model de tres nivells
 
 **Nivell 1 — La característica**: Unitat mínima. Una sola dimensió de la diversitat d'un alumne. No és la persona — és un aspecte de la persona. Cada característica té la seva pròpia lògica d'adaptació. Al corpus, cada característica té el seu propi document de `tipus: caracteristica`.
 
@@ -25,13 +25,13 @@ El model parteix de tres premisses. Primera: cap alumne encaixa en una sola cate
 
 **Nivell 3 — El grup**: Conjunt de perfils d'una mateixa aula. Representat com a `ClassMemory` a la BD. Útil quan el docent vol generar materials per a tota la classe alhora.
 
-## La distinció constitutiva / contextual
+### La distinció constitutiva / contextual
 
 Una característica és **constitutiva** quan forma part de la identitat de la persona de manera estable: no desapareix, i la persona pot reivindicar-la com a part del seu ser. L'autisme és constitutiu. La dislèxia és constitutiva. Les altes capacitats són constitutives. Tècnicament, una característica constitutiva s'injecta sempre com a context al sistema sense qüestionar si segueix vigent.
 
 Una característica és **contextual** quan respon a una situació transitòria que pot canviar. La condició de nouvingut és contextual. La vulnerabilitat socioeducativa és contextual. Molts trastorns emocionals associats a contextos de crisi es resolen amb el temps. Tractar una característica contextual com si fos constitutiva és un error que pot estigmatitzar. Tècnicament, les característiques contextuals activen una verificació periòdica.
 
-## Implicació per al RAG
+### Implicació per al RAG
 
 Quan el sistema rep un perfil d'alumne: (1) identifica quines característiques el componen; (2) recupera els documents `tipus: caracteristica` corresponents; (3) els injecta al prompt del sistema d'adaptació. Si la característica és constitutiva, s'injecta sempre. Si és contextual, el sistema pot verificar si segueix vigent.
 
@@ -59,22 +59,19 @@ El model és una simplificació funcional. Alguns trastorns emocionals greus pod
 
 ---
 
-# 2. Connexions amb altres documents
+## 3. Connexions amb altres documents del corpus
 
-| Codi | Títol | Relació | Quan co-activar |
-|------|-------|---------|-----------------|
-| M1_neurodiversitat-NESE | Neurodiversitat i NESE | Marc general de la neurodiversitat | Co-activació obligatòria per a totes les característiques constitutives |
-| M2_DUA-principis-pautes | DUA — Principis i Pautes | El model de característiques és una implementació de la filosofia DUA | Quan calgui fonamentació teòrica |
-| M2_mesures-suports-inclusius | Mesures i suports inclusius | Nivells d'intervenció (universal, addicional, intensiu) que corresponen als perfils | Quan el perfil té 3+ característiques simultànies |
-| M1_plans-individuals-PAD-PI | Plans individuals PAD-PI | Perfils complexos amb múltiples constitutives sovint requereixen PI | Quan el perfil és complex |
-| M4_adaptacio-curricular | Adaptació curricular | Les adaptacions han de ser coherents amb els criteris curriculars vigents | En totes les adaptacions formals |
-| Tots els `tipus: caracteristica` de M1 | — | Aquest document marc governa la lògica de tots ells | Co-activació obligatòria quan s'activa qualsevol característica |
+- **`M1_neurodiversitat-NESE.md`** — Marc general de la neurodiversitat; co-activació obligatòria per a totes les característiques, ja que defineix la jerarquia NESE/NEE que governa tots els perfils
+- **`M2_DUA-principis-pautes.md`** — El DUA és la filosofia de disseny que el model de característiques implementa: múltiples formes de representació i expressió corresponen a la distinció constitutiva/contextual
+- **`M2_mesures-suports-inclusius.md`** — Els tres nivells de mesures (universals, addicionals, intensives) corresponen als tres perfils del model; co-activar quan calgui dimensionar la resposta educativa
+- **`M1_plans-individuals-PAD-PI.md`** — Perfils complexos amb múltiples característiques constitutives sovint requereixen un PI; aquest marc governa quan i com s'activa
+- **`M4_adaptacio-curricular.md`** — Les adaptacions curriculars han de ser coherents amb els criteris curriculars vigents i amb la distinció constitutiva/contextual del model
+- **Tots els documents `tipus: caracteristica` del mòdul M1** — Aquest document marc governa la lògica de recuperació de coneixement pedagògic de tots els perfils; co-activació implícita obligatòria
 
----
 
-# 3. Detecció
+## 4. Detecció
 
-## Senyals del docent
+### Senyals del docent
 - Pregunta com categoritzar un alumne que "no encaixa en un sol perfil"
 - Menciona combinació de dues o més característiques en un alumne
 - Demana aclariments sobre la diferència entre "tenir" una condició i "ser" una persona amb aquella condició
@@ -82,23 +79,22 @@ El model és una simplificació funcional. Alguns trastorns emocionals greus pod
 - Pregunta si ha de marcar una característica com a permanent o temporal
 - Vol entendre com funciona el sistema de recuperació de coneixement
 
-## Senyals de l'alumne
+### Senyals de l'alumne
 - Es descriu amb múltiples factors que generen barreres d'aprenentatge
 - El docent expressa incertesa sobre si una situació és permanent o transitòria
 
-## Senyals de context
+### Senyals de context
 - Primera configuració del perfil d'un alumne nou
 - Revisió anual de perfils existents
 - Situació d'alumne amb diagnòstic complex o múltiple
 - Aula molt diversa on el docent necessita entendre com funciona el sistema
 
-## Anti-senyals
+### Anti-senyals
 - El docent ja té el perfil configurat i vol una adaptació: activar directament els documents de característica, no aquest marc
 - Pregunta sobre estratègies didàctiques concretes: activar `M2_DUA-principis-pautes` o documents d'estratègia
 
----
 
-# 4. Heurístiques
+### Heurístiques
 
 > La persona és sempre més que la suma de les seves característiques. El model no classifica persones — recupera coneixement pedagògic per servir-les millor.
 
@@ -134,13 +130,9 @@ El model és una simplificació funcional. Alguns trastorns emocionals greus pod
 **Fonament:** La transparència sobre com funciona el sistema incrementa la confiança i el compromís de totes les parts. L'alumne que entén per què rep determinats suports és més capaç d'activar-los autònomament. La família que comprèn la distinció constitutiva/contextual col·labora millor en la revisió periòdica dels perfils contextuals.
 **Exemple complet:** Un tutor vol explicar a la família d'un alumne amb TDAH i vulnerabilitat socioeducativa per què rep dos tipus de suport diferent. La preparació de la conversa pot ser així: el TDAH és una característica constitutiva (forma part de com el seu fill processa el món i no desapareixerà, però amb els suports adequats deixa de ser una barrera), mentre que la vulnerabilitat socioeducativa és contextual (respon a la situació actual de la família i pot canviar — per això es revisa cada trimestre). Aquesta distinció ajuda la família a entendre que no es tracta d'un etiquetatge permanent sinó d'un acompanyament adaptat a la realitat canviant.
 
----
+## 5. Fonts
 
-# 5. Fonts i referències
-
-> ⚠️ **Fonts: revisió pendent.** Afegeix i verifica les fonts adequades per a aquest document.
-
-- CAST (2018). *Universal Design for Learning Guidelines, version 2.2*. http://udlguidelines.cast.org
-- Booth, T. & Ainscow, M. (2011). *Index for Inclusion* (3a ed.). Centre for Studies on Inclusive Education.
-- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC 7477.
-- Tomlinson, C.A. (2014). *The Differentiated Classroom* (2a ed.). ASCD.
+- CAST (2018). *Universal Design for Learning Guidelines, version 2.2*. Wakefield: CAST. Disponible a: http://udlguidelines.cast.org
+- Booth, T. & Ainscow, M. (2011). *Index for Inclusion* (3a ed.). Bristol: Centre for Studies on Inclusive Education.
+- Departament d'Educació (2017). *Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu*. DOGC 7477.
+- Tomlinson, C.A. (2001). *How to Differentiate Instruction in Mixed-Ability Classrooms* (2a ed.). Alexandria: ASCD.

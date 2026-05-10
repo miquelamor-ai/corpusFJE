@@ -9,8 +9,6 @@ generat_at: 2026-03-18T15:28:49
 actualitzat_at: 2026-03-27T00:00:00
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 El marc del Desenvolupament Cognitiu i Social proporciona la base teòrica transversal per comprendre com aprenen i es desenvolupen tots els alumnes diversos de M1: alumnat nouvingut, amb dislèxia, TDAH, TEA, discapacitat intel·lectual, altes capacitats, vulnerabilitat socioeducativa i qualsevol altre perfil. No es tracta d'etapes lineals universals, sinó d'un desenvolupament dinàmic i contextualitzat que cada perfil de diversitat modula de manera diferent.
 
@@ -161,18 +159,20 @@ Aquest és un document transversal que proporciona la base teòrica comuna per a
 *   **Límits**: Cap marc teòric únic explica tota la complexitat del desenvolupament humà. Els sis marcs presentats són complementaris però no exhaustius. Per exemple, les intel·ligències múltiples (Gardner), la teoria de l'autodeterminació (Deci & Ryan) o la neurociència educativa podrien complementar aquesta base.
 *   **Tensions entre marcs**: Piaget descriu etapes universals i relativament fixes; Vygotsky emfasitza la mediació social i cultural com a motor del desenvolupament. Aquesta tensió és productiva: cal conèixer les etapes (Piaget) però no reificar-les, i cal oferir mediació (Vygotsky) dins la ZDP real de cada alumne. La pràctica inclusiva requereix integrar ambdues perspectives.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **M1_alumnat-nouvingut.md**: Aplica principalment Vygotsky (bastida lingüística), Bronfenbrenner (cronosistema migratori), Erikson (doble crisi identitària) i Sweller (doble càrrega L2+contingut).
-*   **M1_dislexia.md / M1_tdah.md**: Aplica Sweller (reducció càrrega extrínseca), Bandura (autoeficàcia amenaçada), Vygotsky (bastida individualitzada) i Erikson (laboriositat vs. inferioritat).
-*   **M1_tea.md**: Aplica Bronfenbrenner (coordinació microsistemes), Erikson (identitat), Bandura (estat fisiològic/sensorial).
-*   **M1_discapacitat-intel·lectual.md**: Aplica Piaget (desfasament etapes), Vygotsky (ZDP individual), Sweller (càrrega intrínseca i extrínseca).
-*   **M2_carrega-cognitiva-adaptacio-textos.md**: Operacionalitza la teoria de Sweller en estratègies concretes de disseny de materials.
-*   **Estratègia_Tractament_Integrat_Llengua_Continguts (TILC)**: Justificat per Vygotsky (mediació) i Sweller (reducció doble càrrega).
-*   **Protocol_Pla_Acollida**: Fonamentat en Bronfenbrenner (coordinació sistemes) i Erikson (seguretat emocional).
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M2_carrega-cognitiva-adaptacio-textos.md`** — La teoria de la càrrega cognitiva de Sweller (intrínseca, extrínseca, germana) és el pont entre la teoria d'aprenentatge i les estratègies pràctiques d'adaptació de materials
+- **`M1_neurodiversitat-NESE.md`** — La jerarquia NESE/NEE s'assenta en el perfil de desenvolupament cognitiu i social; cada perfil (TEA, TDAH, dislèxia) té un patró específic que requereix un suport diferent
+- **`M1_model-caracteritzacio-diversitat.md`** — El model de 3 nivells i la distinció constitutiva/contextual recupera el coneixement de les teories del desenvolupament (ZDP, autoeficàcia, ecosistema) per adaptar als perfils concrets
+- **`M2_DUA-principis-pautes.md`** — El DUA es fonamenta en les teories de representació múltiple (Piaget), ZDP i bastida (Vygotsky) i autoeficàcia (Bandura): justifiquen els principis de múltiples mitjans d'aprenentatge
+- **`M2_mesures-suports-inclusius.md`** — Les mesures universals-addicionals-intensives es dimensionen en funció del perfil de desenvolupament cognitiu i social de l'alumne
+- **`M3_TILC-llengua-i-continguts.md`** — El TILC opera sobre la mediació de Vygotsky: la llengua vehicular és l'eina que permet superar la ZDP en continguts acadèmics complexos
+- **`M7_benestar-emocional-seguretat.md`** — Erikson (etapes psicosocials) i Bronfenbrenner (ecosistema) remeten directament al benestar emocional com a prerequisit del desenvolupament cognitiu
 
-*   **Senyals del docent**
+
+## 4. Detecció
+
+### Senyals del docent
     *   "El meu alumne X té bones notes en algunes matèries, però en Ciències Socials o Llengua no acaba d'arrencar, tot i que s'expressa bé." (nouvingut: llacunes culturals)
     *   "Tinc un alumne que és molt intel·ligent però no acaba mai les tasques i el seu rendiment és molt irregular." (TDAH: funcions executives)
     *   "Una alumna llegeix molt lentament i evita llegir en veu alta, però oralment demostra que entén perfectament." (dislèxia: processament fonològic vs. comprensió)
@@ -180,24 +180,24 @@ Aquest és un document transversal que proporciona la base teòrica comuna per a
     *   "Em costa connectar amb les famílies d'alguns alumnes, sembla que tenim expectatives diferents sobre l'escola." (Bronfenbrenner: mesosistema)
     *   "Tinc alumnes que ja han deixat d'intentar-ho, diuen que 'tant fa' perquè no aprovaran." (Bandura: autoeficàcia col·lapsada)
 
-*   **Senyals de l'alumne**
+### Senyals de l'alumne
     *   Dificultat per comprendre conceptes abstractes o contextualitzats culturalment en una matèria específica, malgrat tenir capacitat demostrada en altres àrees.
     *   Desorientació o confusió davant rutines d'aula, normes implícites o procediments didàctics que altres companys assumeixen.
     *   Evitació sistemàtica de tasques que impliquen lectura (dislèxia), exposició oral (TEA, ansietat), escriptura llarga (TDAH) o treball cooperatiu.
     *   Verbalitzacions d'impotència: "no serveixo per a res", "sóc burro", "no ho entendré mai" (autoeficàcia baixa).
 
-*   **Senyals de context**
+### Senyals de context
     *   Incorporació recent d'alumnat d'origen estranger o amb diagnòstic nou al centre.
     *   Activitats que requereixen un alt nivell de llengua acadèmica, abstracció, o interacció social complexa.
     *   Composició del grup classe amb alta diversitat de perfils (cultural, lingüística, neuropsicològica).
     *   Materials didàctics amb alta càrrega extrínseca (textos densos, instruccions complexes, múltiples estímuls simultanis).
 
-*   **Anti-senyals**
+### Anti-senyals
     *   L'alumne mostra un rendiment acadèmic consistent i elevat en totes les àrees, sense barreres cognitives, lingüístiques o socials aparents.
     *   L'alumne participa activament en totes les dinàmiques d'aula i interaccions socials, amb bona autoeficàcia i sentiment de pertinença.
     *   El docent ja ha implementat estratègies d'adaptació que estan donant bons resultats i l'alumne progressa adequadament.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general**
     Prioritzar la comprensió holística de l'alumne, integrant el seu bagatge cultural i lingüístic en el disseny pedagògic per afavorir un desenvolupament cognitiu i social ple i inclusiu.
@@ -245,21 +245,13 @@ Aquest és un document transversal que proporciona la base teòrica comuna per a
         *   **Quan aplica**: Quan l'alumne se sent insegur o avergonyit per la seva llengua d'origen, o per estar aprenent una nova llengua i cometent errors.
         *   **Fonament**: El coneixement de diverses llengües i cultures és un avantatge cognitiu i social, ja que permet comprendre el món des de múltiples perspectives i enriqueix la pròpia identitat.
         *   **Exemple complet de raonament**: Davant un alumne de batxillerat frustrat perquè de vegades barreja paraules de la seva llengua materna amb el català, i té por de ser jutjat: lluny de ser un problema, el bilingüisme o multilingüisme és una fortalesa que enriqueix el seu pensament i la seva capacitat de comunicació. Cal reforçar la idea que el seu cervell està fent un esforç admirable per connectar diferents sistemes lingüístics i que això li permetrà tenir una visió més àmplia del món. Convé animar-lo a veure els errors com a part natural del procés d'aprenentatge i aprofitar la seva capacitat de pensar en diferents idiomes per clarificar conceptes o trobar noves maneres d'expressar-se, valorant la seva identitat plurilingüe com un actiu.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | Any |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b1:index [Formació del professorat — XTEC] | — |
-| 2 | cursos:escola_inclusiva:ansu:b1:b1t1 [Formació del professorat — XTEC] | — |
-| 3 | cursos:escola_inclusiva:ansu:b3:b3t3 [Formació del professorat — XTEC] | — |
-| 4 | Torres Blanqué, M. Pla d'acollida i atenció psicoeducativa [XTEC llicència 795m] | 2003-2004 |
-| 5 | Vygotsky, L.S. Mind in Society. Harvard UP. | 1978 |
-| 6 | Sweller, J. Cognitive load during problem solving. Cognitive Science. | 1988 |
-| 7 | Bandura, A. Self-Efficacy: The Exercise of Control. Freeman. | 1997 |
-| 8 | Bronfenbrenner, U. The Ecology of Human Development. Harvard UP. | 1979 |
-| 9 | Erikson, E. Identity and the Life Cycle. Norton. | 1959 |
-| 10 | Rosenthal, R. & Jacobson, L. Pygmalion in the Classroom. Holt. | 1968 |
-
-*10 fonts · 4 originals + 6 marcs teòrics afegits*
+- Piaget, J. (1976). *Psicologia i Pedagogia*. Barcelona: Ariel.
+- Vygotsky, L.S. (1978). *Mind in Society*. Cambridge: Harvard University Press.
+- Bronfenbrenner, U. (1979). *The Ecology of Human Development*. Cambridge: Harvard University Press.
+- Erikson, E. (1959). *Identity and the Life Cycle*. New York: Norton.
+- Bandura, A. (1997). *Self-Efficacy: The Exercise of Control*. New York: Freeman.
+- Sweller, J. (1988). Cognitive load during problem solving. *Cognitive Science*, 12, 257-285.
+- Departament d'Educació (2004). *Pla LIC: Llengua, Interculturalitat i Cohesió Social*. Barcelona: Generalitat de Catalunya.
