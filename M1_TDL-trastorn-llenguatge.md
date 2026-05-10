@@ -209,17 +209,14 @@ La detecció precoç del TDL es basa en l'observació sistemàtica de les etapes
 - **Col·legi de Logopedes de Catalunya (CLC)**: guies de bones pràctiques actualitzades el 2025
 - **XTEC / Educació Inclusiva**: recursos de formació docent sobre TDL, amb materials actualitzats 2022-2026
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-- **M1_dislexia-dificultats-lectores**: Comorbiditat 40-50%. Dificultats fonològiques del TDL contribueixen als problemes lectors. Veure dependència #10
-- **M1_TDAH**: Doble barrera atenció + processament lingüístic. Instruccions llargues especialment problemàtiques
-- **M1_TEA**: Superposició en el component pragmàtic. Diagnòstic diferencial complex
-- **M1_alumnat-nouvingut**: Barrera L2 pot emmascarar o amplificar el TDL. Veure dependència #2
-- **M1_altes-capacitats**: Doble excepcionalitat (2e) possible. Detecció tardana per compensació
-- **M1_creuament-variables-dependencies**: Dependencies #2, #10 (TDL × dislèxia), #TDL-TDAH, #TDL-TEA
-- **M3_lectura-facil-comunicacio-clara**: Tècniques de simplificació directament aplicables al component semàntic i morfosintàctic
-- **M2_carrega-cognitiva-adaptacio-textos**: La càrrega cognitiva del TDL es concentra en el processament lingüístic, no en la capacitat conceptual
-- **M2_DUA-principis-pautes**: Marc general d'accessibilitat; principi de representació múltiple especialment rellevant
+- **`M1_neurodiversitat-NESE.md`** — El TDL és una NESE primària del processament lingüístic; el marc conceptual dona el context del contínuum de dificultats de llengua i comunicació
+- **`M1_plans-individuals-PAD-PI.md`** — El PI articula les mesures d'atenció logopèdica, les adaptacions metodològiques i les de comunicació que l'alumnat TDL necessita
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet reduir la barrera expressiva i receptiva del llenguatge: múltiples formes de representació i d'expressió alliberen l'alumne del canal verbal exclusiu
+- **`M2_mesures-suports-inclusius.md`** — Els suports específics de comunicació augmentativa, de simplificació sintàctica i de suport visual al discurs oral
+- **`M0_cura-personalis.md`** — L'atenció individual és essencial: el TDL és sovint invisible i s'interpreta com a «poc vocabulari» o «timidesa»; cal llegir darrere de l'etiqueta
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional és especialment crítica: el TDL implica frustració comunicativa constant; sense ambient segur, l'alumne es tanca
 
 ### 3. DETECCIÓ (Variables de Context)
 
@@ -327,22 +324,9 @@ Les gotes cauen. L'aigua cau en forma de **pluja**.
 
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Referència | Tipus | Any |
-|---|-----------|-------|-----|
-| 1 | Bishop, D.V.M. et al. *CATALISE-2: a multinational and multidisciplinary Delphi consensus study.* PLOS ONE. | Consens internacional | 2017 |
-| 2 | Norbury, C.F. et al. *The impact of nonverbal ability on prevalence and clinical presentation of language disorder.* JCPP. | Prevalença i perfil clínic | 2016 |
-| 3 | Bishop, D.V.M. *Reconceptualizing DLD as a spectrum disorder.* JSLHR. | Marc dimensional | 2018 |
-| 4 | RADLD — Research Autism DLD. *Trastorn del Desenvolupament del Llenguatge (TDL/TEL).* radld.org | Divulgació científica | Vigent |
-| 5 | CREDA Cat Central / XTEC. *Actualització TDL: Terminologia i criteris d'identificació.* | Protocol Catalunya | 2026 |
-| 6 | XTEC / Educació Inclusiva. *Del TEL al TDL.* projectes.xtec.cat | Recursos docents | 2022 |
-| 7 | Col·legi de Logopedes de Catalunya. *Trastorns del Llenguatge Infantil.* Guia BP_05. | Guia clínica | 2025 |
-| 8 | Portal GVA Educació. *TDL: vocabulari i morfosintaxi (Julián Palazón López).* | Recurs educatiu | 2026 |
-| 9 | Frontiers in Education. *Educational practices for language development with DLD.* | Recerca educativa | 2024 |
-| 10 | De las Heras et al. *Reading Strategies for Children with DLD.* PMC / NIH. | Recerca estratègies lectores | 2022 |
-| 11 | Wiley / Cognitive Science. *What children with DLD teach us about word learning.* | Recerca aprenentatge lèxic | 2022 |
-| 12 | RedCenit. *Adaptaciones para el aula en el TEL/TDL.* redcenit.com | Pràctica educativa | 2016 |
-| 13 | Integratek Plus. *TDL en la escuela: Adaptaciones, pautas y normativa.* | Pràctica educativa | Vigent |
-
-*13 fonts referencials · document actualitzat 2026-03-26*
+- Bishop, D. V. M. (2014). Ten questions about terminology for children with unexplained language problems. *International Journal of Language & Communication Disorders*, 49(4), 381-415.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb trastorn del desenvolupament del llenguatge (TDL)*. Generalitat de Catalunya.
+- Leonard, L. B. (1998). *Children with specific language impairment*. Cambridge: MIT Press.

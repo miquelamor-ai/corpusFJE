@@ -200,16 +200,14 @@ El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el
 | **Calculadora parlant** | Resultat per veu | Tots els graus; matemàtiques |
 | **Impressora Braille** | Impressió de materials en relleu | Ceguesa; adaptació de materials |
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-- **M1_model-caracteritzacio-diversitat.md** → Marc de 3 nivells; discapacitat visual = característica constitutiva
-- **M1_neurodiversitat-NESE.md** → Ceguesa/baixa visió greu = NEE dins D150/2017
-- **M1_plans-individuals-PAD-PI.md** → PI obligatori per a NEE; el CREDV participa en l'elaboració
-- **M1_discapacitat-auditiva.md** → Perfil associat: sordceguesa (co-ocurrència)
-- **M2_mesures-suports-inclusius.md** → Escala de mesures: universals (DUA) → addicionals → intensives (PI + CREDV)
-- **M2_carrega-cognitiva-adaptacio-textos.md** → Adaptació de textos: format ampliat, estructura lineal, descripcions alternatives
-- **M5_tecnopedagogia** → Accessibilitat digital: WCAG 2.1, lectors de pantalla, disseny universal
-- **M9_normativa-inclusio.md** → D150/2017, Llei 17/2020 (accessibilitat)
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és l'instrument que articula les mesures específiques: adaptació de materials, Braille, magnificació, temps ampliat; garanteix la coherència de la resposta educativa
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA obliga a pensar en múltiples formes de representació que no depenguin exclusivament del canal visual; l'accessibilitat universal beneficia tots els alumnes
+- **`M2_mesures-suports-inclusius.md`** — Els suports específics de tiflotecnologia, de materials en Braille o en format àudio, i de mobilitat i orientació a l'espai escolar
+- **`M0_cura-personalis.md`** — L'atenció integral inclou la dimensió social i emocional: l'alumnat amb discapacitat visual sovint experimenta aïllament en les activitats no estructurades
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat en l'entorn físic és prerequisit: l'alumne necessita conèixer i confiar en l'espai per poder centrar-se en l'aprenentatge
+- **`M7_participacio-families.md`** — Les famílies sovint han après estratègies d'adaptació en entorns no escolars que l'escola pot aprofitar i incorporar
 
 # 3. DETECCIÓ (Variables de Context)
 
@@ -297,19 +295,9 @@ PERFIL: Discapacitat Visual
 
 **Nota**: La majoria d'adaptacions per a disc. visual són CSS/FE (contrast, mida tipografia, zoom), no de format del text. El text ha de garantir: estructura semàntica, descripcions textuals d'elements visuals, i no dependre de color o posició per transmetre significat.
 
-# 5. FONTS
+## 5. Fonts
 
-| # | Referència | Rellevància |
-|---|-----------|-------------|
-| 1 | OMS (2019). *ICD-11: International Classification of Diseases, 11th Revision.* Codi 9D90. | Classificació diagnòstica de referència |
-| 2 | ONCE (2023). *Criteris d'afiliació i serveis educatius.* | Criteris AV ≤ 0,1 / CV ≤ 10° |
-| 3 | CREDV-ONCE (2024). *Guia de serveis educatius per a alumnat amb discapacitat visual a Catalunya.* | Grups d'atenció, protocol d'accés |
-| 4 | Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC 7477. | NEE, PI obligatori, mesures intensives |
-| 5 | Llei 17/2020, de 22 de desembre, de modificació de la Llei 13/2014, d'accessibilitat. DOGC 8303. | Accessibilitat universal |
-| 6 | DOIGC 2025-2026. Departament d'Educació. *Educació inclusiva: protocols de derivació.* | Coordinació EAP–CREDV–centre |
-| 7 | Corn, A. L. & Erin, J. N. (2010). *Foundations of Low Vision: Clinical and Functional Perspectives.* AFB Press. | Marc teòric de la baixa visió funcional |
-| 8 | Holbrook, M. C. & Koenig, A. J. (2000). *Foundations of Education: Instructional Strategies for Teaching Children and Youths with Visual Impairments.* AFB Press. | Estratègies educatives per a DV |
-| 9 | WCAG 2.1 (2018). *Web Content Accessibility Guidelines.* W3C Recommendation. | Accessibilitat digital |
-| 10 | Barraga, N. C. & Erin, J. N. (2001). *Visual Handicaps and Learning.* Pro-Ed. | Impacte de la DV en l'aprenentatge |
-
-*10 fonts · document revisat manualment amb contingut clínic i normatiu*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb discapacitat visual*. Generalitat de Catalunya.
+- ONCE (2019). *Guia per a l'atenció educativa de l'alumnat amb discapacitat visual*. Madrid: ONCE.
+- Corn, A. L., & Erin, J. N. (Eds.) (2010). *Foundations of Low Vision: Clinical and Functional Perspectives* (2a ed.). Nova York: AFB Press.

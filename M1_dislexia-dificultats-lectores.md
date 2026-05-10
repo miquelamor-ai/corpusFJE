@@ -183,16 +183,14 @@ L'estudi de Vale De Oliveira et al. (2026) confirma que una intervenció fonosil
 *   **Projecte APPA** (Accions de Prevenció per Promoure l'Aprenentatge): pilot 2026 del Departament d'Educació amb 450 centres i 25.000 alumnes de 1r i 3r de primària per detecció precoç de dificultats lectores. Inclou derivació a Pediatria per a diagnòstic de trastorns específics com la dislèxia
 *   **CLC — Trastorns del Desenvolupament de l'Aprenentatge (2025)**: guia clínica que inclou PRODISLEX, PROLEXIA i recomanacions d'avaluació multiaxial
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **M1_TDAH**: Comorbiditat 30-40%. Veure dependència #7 (dislèxia × TDAH) al document de creuaments
-*   **M1_TDL-trastorn-llenguatge**: Ambdós canals compromesos. Veure dependència #10 (dislèxia × TDL)
-*   **M1_altes-capacitats**: Doble excepcionalitat (2e). Veure dependència #13 i secció 2e
-*   **M1_alumnat-nouvingut**: La barrera L2 amplifica la fatiga lectora. Veure dependència #2
-*   **M1_creuament-variables-dependencies**: Dependencies #2, #7, #10, #13
-*   **M3_lectura-facil-comunicacio-clara**: Tècniques de simplificació directament aplicables
-*   **M2_carrega-cognitiva-adaptacio-textos**: Gestió de la càrrega cognitiva per perfil lector
-*   **M2_DUA-principis-pautes**: Marc general d'accessibilitat
+- **`M1_neurodiversitat-NESE.md`** — La dislèxia és la NESE de l'àmbit del processament fonològic més prevalent; el marc conceptual dona el context neurobiològic i les implicacions per a la identificació precoç
+- **`M1_plans-individuals-PAD-PI.md`** — El PAD és l'instrument legal que formalitza les mesures d'atenció; per a l'alumnat amb dislèxia és especialment rellevant per a les adaptacions en producció i avaluació escrita
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet dissenyar accés multimodal al text: àudio, suport visual, tecnologies d'assistència; redueix la barrera de la descodificació sense reduir el nivell de contingut
+- **`M2_mesures-suports-inclusius.md`** — Les mesures concretes: temps ampliat, producció oral, dictofon, correctors ortogràfics; no com a «avantatges» sinó com a igualació de condicions
+- **`M0_cura-personalis.md`** — L'atenció individual és crucial: la dislèxia porta sovint una càrrega d'esforç invisible i de vergüença acumulada que cal desfer persona a persona
+- **`M7_benestar-emocional-seguretat.md`** — L'autoestima lectora és fràgil en alumnat amb dislèxia; la seguretat emocional és prerequisit perquè l'alumne arrisqui i practiqui
 
 ### 3. DETECCIÓ (Variables de Context)
 
@@ -298,19 +296,10 @@ La planta guarda la glucosa per créixer.
 
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Referència | Tipus | Any |
-|---|-----------|-------|-----|
-| 1 | Carroll, J.M. et al. *Toward a consensus on dyslexia: findings from a Delphi study.* JCPP. | Revisió Delphi consens | 2025 |
-| 2 | IDA *2025 Dyslexia Definition Project.* dyslexiaida.org | Definició oficial | 2025 |
-| 3 | Snowling, M.J. *Dyslexia and Language: Disorder or Difference?* Gresham College. | Conferència evidència | 2024 |
-| 4 | Vale De Oliveira et al. *Effects of a structured multisensory phonics-based intervention.* Frontiers in Education. | RCT intervenció | 2026 |
-| 5 | Mountford, H. et al. *Genetic study of dyslexia (1.2M participants).* Translational Psychiatry. | Genètica | 2025 |
-| 6 | Carreiras, M. et al. *Cortical Rhythmics project.* Basque Center on Cognition. | Biomarcadors | 2025 |
-| 7 | Departament d'Educació Catalunya. *Projecte APPA.* 3Cat. | Protocol Catalunya | 2026 |
-| 8 | PRODISCAT. *Protocol de Detecció i Actuació en la Dislèxia.* Col·legi Logopedes Catalunya. | Protocol Catalunya | Vigent |
-| 9 | CLC. *Trastorns del Desenvolupament de l'Aprenentatge.* Guia BP_08. | Guia clínica | 2025 |
-| 10 | Rello, L. *Change Dyslexia.* Investigació sobre llegibilitat tipogràfica. | Llegibilitat | 2020 |
-
-*10 fonts referencials · document actualitzat 2026-03-25*
+- Lyon, G. R., Shaywitz, S. E., & Shaywitz, B. A. (2003). A definition of dyslexia. *Annals of Dyslexia*, 53, 1-14.
+- Snowling, M. J. (2000). *Dyslexia* (2a ed.). Oxford: Blackwell.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb dislèxia*. Generalitat de Catalunya.
+- International Dyslexia Association (2002). *Definition of dyslexia*. Baltimore: IDA.

@@ -294,20 +294,14 @@ Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ re
 | **Línia Braille + lector pantalla** | Per a sordceguesa | Combinació DA + DV |
 | **Aplicacions de transcripció** | Google Live Transcribe, Ava, Microsoft Teams subtítols | Classes, tutories, reunions |
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-- **M1_model-caracteritzacio-diversitat.md** → Marc de 3 nivells; discapacitat auditiva = característica constitutiva
-- **M1_neurodiversitat-NESE.md** → Sordesa severa/pregona = NEE dins D150/2017
-- **M1_plans-individuals-PAD-PI.md** → PI obligatori per a NEE; el CREDA participa en l'elaboració
-- **M1_discapacitat-visual.md** → Perfil associat: sordceguesa (co-ocurrència)
-- **M1_TDL-trastorn-llenguatge.md** → Diagnòstic diferencial: cal descartar DA abans de diagnosticar TDL
-- **M1_TDAH.md** → Diagnòstic diferencial: la fatiga auditiva pot semblar inatentió
-- **M2_mesures-suports-inclusius.md** → Escala de mesures: universals → addicionals → intensives
-- **M2_carrega-cognitiva-adaptacio-textos.md** → Adaptació de textos: suport visual, estructura clara
-- **M3_comunicacio-augmentativa.md** → LSC, sistemes augmentatius i alternatius
-- **M3_llengua-diversitat.md** → LSC com a llengua pròpia; bilingüisme LSC-català
-- **M5_accessibilitat-digital.md** → Subtitulació, WCAG 2.1, accessibilitat auditiva digital
-- **M9_normativa-inclusio.md** → D150/2017, Llei 17/2010 (LSC), Llei 17/2020 (accessibilitat)
+- **`M1_plans-individuals-PAD-PI.md`** — El PI articula les mesures: bucle magnètic, suport logopèdic, intèrpret de llengua de signes, adaptació d'avaluació; és la garantia de dret a la resposta educativa
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA obliga a no dependre exclusivament del canal auditiu: suport visual constant, subtítols, representació multimodal; beneficia tothom
+- **`M2_mesures-suports-inclusius.md`** — Els suports específics d'accessibilitat auditiva (FM, bucle magnètic, subtitulació) i de comunicació (LSC, bimodal, comunicació total)
+- **`M0_cura-personalis.md`** — L'atenció individual inclou la comprensió de la identitat de l'alumne: el contínuum sord-oral/sord-signant implica decisions identitàries complexes que el docent ha de respectar
+- **`M7_benestar-emocional-seguretat.md`** — L'aïllament social en contextos sorollosos (pati, menjador, excursions) és un factor de risc real; la inclusió social no és automàtica amb la presència física
+- **`M7_participacio-families.md`** — Les famílies gestionen sovint decisions complexes (implant, llengua de signes, escola especial vs. ordinària); la relació de confiança amb l'escola és especialment important
 
 # 3. DETECCIÓ (Variables de Context)
 
@@ -398,21 +392,9 @@ PERFIL: Discapacitat Auditiva
 
 **Nota**: La gravetat de la barrera depèn del tipus de sordesa. En sordesa postlocutiva amb bona competència lectora, l'adaptació textual és mínima — les necessitats són principalment de frontend (subtítols, bucle magnètic).
 
-# 5. FONTS
+## 5. Fonts
 
-| # | Referència | Rellevància |
-|---|-----------|-------------|
-| 1 | OMS (2019). *ICD-11: International Classification of Diseases, 11th Revision.* Codis AB50–AB52. | Classificació diagnòstica de referència |
-| 2 | CREDA (2024). *Guia de serveis educatius per a alumnat amb pèrdua auditiva a Catalunya.* Departament d'Educació. | Grups, funcions, protocol d'accés |
-| 3 | Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC 7477. | NEE, PI obligatori, mesures |
-| 4 | Llei 17/2010, del 3 de juny, de la Llengua de Signes Catalana. DOGC 5647. | Reconeixement LSC; dret a l'educació en LSC |
-| 5 | Llei 17/2020, de 22 de desembre, d'accessibilitat. DOGC 8303. | Accessibilitat universal; subtitulació |
-| 6 | DOIGC 2025-2026. Departament d'Educació. *Educació inclusiva: protocols de derivació.* | Coordinació CREDA–EAP–centre |
-| 7 | XTEC (2024). *Classificació de la pèrdua auditiva: taula de referència CREDA.* | Classificació audiomètrica catalana |
-| 8 | Marschark, M. & Spencer, P. E. (2010). *The Oxford Handbook of Deaf Studies, Language, and Education.* Oxford University Press. | Marc teòric de l'educació de l'alumnat sord |
-| 9 | Humphries, T. et al. (2012). "Language acquisition for deaf children: Reducing the harms of zero tolerance to the use of alternative approaches." *Harm Reduction Journal*, 9(1), 16. | Evidència sobre accés primerenc a la llengua de signes |
-| 10 | FESOCA (2023). *La Llengua de Signes Catalana: guia per a centres educatius.* Federació de Persones Sordes de Catalunya. | Guia pràctica LSC en centres |
-| 11 | Anderson, K. L. & Goldstein, H. (2004). "Speech perception benefits of FM and infrared devices to children with hearing aids in a typical classroom." *Language, Speech, and Hearing Services in Schools*, 35(2), 169–184. | Evidència sobre eficàcia del sistema FM |
-| 12 | Moeller, M. P. (2000). "Early intervention and language development in children who are deaf and hard of hearing." *Pediatrics*, 106(3), e43. | Evidència sobre intervenció primerenca |
-
-*12 fonts · document revisat manualment amb contingut clínic i normatiu*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb discapacitat auditiva*. Generalitat de Catalunya.
+- Moores, D. F. (2001). *Educating the Deaf: Psychology, Principles and Practices* (5a ed.). Boston: Houghton Mifflin.
+- Padden, C., & Humphries, T. (2005). *Inside Deaf Culture*. Cambridge: Harvard University Press.

@@ -201,19 +201,14 @@ El Decret 150/2017 estableix el marc d'atenció a la diversitat per a totes les 
 
 ---
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **M1_dislexia-dificultats-lectores**: Comorbiditat ~40-60%. Comparteixen dèficits en processament simbòlic. Problemes de text matemàtic: barrera doble (numèrica + lectora).
-*   **M1_TDAH**: Comorbiditat ~30-40%. Impulsivitat en algoritmes + dèficit de memòria de treball s'amplifiquen mutuament.
-*   **M1_alumnat-TEA**: Perfil heterogeni — pot coexistir o ser compensat per pensament sistemàtic. Avaluació individual necessària.
-*   **M1_trastorn-coordinacio-dispraxia**: El subtipus visuoespacial de la discalcúlia freqüentment coexisteix amb TDC (dispraxia).
-*   **M1_creuament-variables-dependencies**: Consultar per als creuaments discalcúlia × TDAH i discalcúlia × dislèxia.
-*   **M2_DUA-principis-pautes**: "Múltiples mitjans de representació" és especialment rellevant — visualitzar els nombres, no només el símbol abstracte.
-*   **M2_carrega-cognitiva-adaptacio-textos**: La càrrega de càlcul consumeix recursos cognitius que haurien d'anar al raonament.
-*   **M3_lectura-facil-comunicacio-clara**: En problemes de text, la barrera lingüística amplifica la barrera numèrica (càrrega doble).
-*   **M1_neurodiversitat-NESE.md**: Marc general NESE/NEE — la discalcúlia és una Dificultat Específica d'Aprenentatge (DEA) dins la categoria 2 de la LOMLOE. Context legal i de suports addicionals.
-
----
+- **`M1_neurodiversitat-NESE.md`** — La discalculia és una NESE del processament numèric; el marc conceptual dona el context neurobiològic i diferencia la discalculia de les dificultats matemàtiques generals
+- **`M1_plans-individuals-PAD-PI.md`** — El PAD formalitza les mesures: ús de calculadora, temps ampliat, materials manipulatius; l'instrument és la garantia de coherència entre docents
+- **`M2_DUA-disseny-universal-aprenentatge.md`** — El DUA permet representar els conceptes numèrics de forma concreta i visual; la progressió concret-pictòric-abstracte és la resposta metodològica a la discalculia
+- **`M2_mesures-suports-inclusius.md`** — Les mesures concretes d'accés, ensenyament i avaluació per a les dificultats de processament numèric i de raonament matemàtic
+- **`M0_cura-personalis.md`** — L'atenció individual és crucial: la discalculia porta sovint ansietat matemàtica severa que s'autoalimenta; la relació de confiança és prerequisit de la intervenció
+- **`M7_benestar-emocional-seguretat.md`** — L'ansietat matemàtica és un factor de bloqueig real; la seguretat emocional permet baixar la guàrdia i intentar-ho
 
 ### 3. DETECCIÓ (Variables de Context)
 
@@ -334,21 +329,9 @@ Fes-ho pas a pas. Pots usar la calculadora.
 
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Referència | Tipus | Any |
-|---|-----------|-------|-----|
-| 1 | Dehaene, S. *The Number Sense: How the Mind Creates Mathematics.* Oxford University Press. | Teoria cognitiva (Triple Code) | 1997/2011 |
-| 2 | Butterworth, B. *Dyscalculia: From Science to Education.* Routledge. | Monografia clínica | 2019 |
-| 3 | Geary, D.C. *Mathematical disabilities: Cognitive, neuropsychological, and genetic components.* Psychological Bulletin, 114(2), 345–362. | Subtipus (procedimental/verbal/visuoespacial) | 1993 |
-| 4 | Ashcraft, M.H. & Krause, J.A. *Working memory, math performance, and math anxiety.* Psychonomic Bulletin & Review, 14(2), 243–248. | Ansietat matemàtica | 2007 |
-| 5 | Beilock, S.L. & Maloney, E.A. *Math Anxiety: A Factor in Math Achievement Not to Be Ignored.* Policy Insights from Behavioral and Brain Sciences, 2(1), 4–12. | Ansietat matemàtica | 2015 |
-| 6 | American Psychiatric Association. *DSM-5-TR: Diagnostic and Statistical Manual of Mental Disorders, 5a ed. revisada.* APA. | Marc diagnòstic | 2022 |
-| 7 | OMS. *ICD-11: International Classification of Diseases, 11a revisió.* (6A03.2 Developmental Learning Disorder with impairment in mathematics) | Marc diagnòstic | 2022 |
-| 8 | Generalitat de Catalunya. *Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu.* DOGC 7477. | Marc normatiu Catalunya | 2017 |
-| 9 | National Council of Teachers of Mathematics (NCTM). *Principles to Actions: Ensuring Mathematical Success for All.* NCTM. | Pedagogia CPA, evidència | 2014 |
-| 10 | Butterworth, B. *Dyscalculia Screener.* GL Assessment. | Eina de cribatge | 2003 |
-| 11 | Fritz, A., Haase, V.G. & Räsänen, P. (eds.) *International Handbook of Mathematical Learning Difficulties.* Springer. MathPro battery. | Eines diagnòstiques | 2019 |
-| 12 | Geary, D.C. *Mathematics and learning disabilities.* Journal of Learning Disabilities, 37(1), 4–15. | Subtipus (revisió 2004) | 2004 |
-
-*12 fonts referencials · document generat 2026-04-27 · review_status: esborrany*
+- Butterworth, B. (2003). *Dyscalculia Screener*. Londres: NFER Nelson.
+- Dehaene, S. (1997). *The Number Sense: How the Mind Creates Mathematics*. Nova York: Oxford University Press.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb discalculia*. Generalitat de Catalunya.
