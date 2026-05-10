@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:15:54
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL MARC
-
 ## Definició i principis
 L'Ecologia Integral és un marc pedagògic i vital que entén la crisi ambiental i la crisi social com una única "crisi socio-ambiental complexa" (Laudato Si', 139, citat a DOC 68). Aquest concepte, impulsat pel Papa Francesc a l'encíclica Laudato Si' (DOC 25, DOC 26), va més enllà de la simple conservació del medi ambient per abraçar una visió holística on tot està interconnectat: la relació amb Déu, amb els altres éssers humans i amb la creació (DOC 68, DOC 88). La Terra és la nostra "casa comuna", una germana i una mare que clama pel dany causat per l'ús irresponsable i l'abús dels seus béns (LS 1-2, DOC 25).
 
@@ -50,16 +48,15 @@ L'Ecologia Integral, en canvi, exigeix una relectura de la justícia que inclogu
 -   **No substitueix altres dimensions de la formació integral:** L'Ecologia Integral és una "perspectiva integral" (DOC 103) que enriqueix i transversalitza la formació, però no ha de diluir o substituir altres pilars de l'educació jesuïta com la formació en la fe, la justícia social, l'excel·lència acadèmica, l'acompanyament personal o la promoció de la cultura. La tensió podria sorgir si es dedica un èmfasi desproporcionat a la dimensió ecològica en detriment d'altres aspectes igualment fonamentals per al "creixement integral de la persona" (DOC 11, DOC 43, DOC 109). L'objectiu és una formació holística que integri totes les dimensions de la persona i la seva relació amb el món.
 -   **Adaptació al context cultural i socioeconòmic:** L'aplicació de l'Ecologia Integral ha de ser sensible a la "radical diversidad de nuestras situaciones" (DOC 96) i a les "necesidades socio-económicas locales" (DOC 9). No es pot aplicar el mateix model o les mateixes prioritats en un context de pobresa extrema que en un de riquesa. Per exemple, en comunitats amb accés limitat a recursos bàsics, la prioritat pot ser l'accés a l'aigua potable o l'alimentació sostenible, mentre que en societats més desenvolupades pot ser la reducció del consum o la transició energètica. El límit és no imposar solucions universals sense un discerniment local que tingui en compte les realitats i les prioritats de cada comunitat (DOC 30).
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-- **Identitat i Missió de FJE (M0):** L'Ecologia Integral és un pilar fonamental de la missió educativa de Jesuïtes Educació, tal com s'expressa en els seus documents fundacionals i la seva visió de la persona.
-- **Preferències Apostòliques Universals (M0):** La quarta PAU, "Col·laborar en la cura de la Casa Comuna", és la base de l'Ecologia Integral en el context ignasià.
-- **Ciutadania Global (M0):** L'Ecologia Integral és una dimensió intrínseca de la Ciutadania Global, ja que implica una responsabilitat compartida pel planeta i la humanitat.
-- **Aprenentatge Basat en Projectes (ABP) (M2):** L'ABP és una metodologia clau per implementar l'Ecologia Integral a l'aula, permetent als alumnes abordar reptes socio-ambientals reals.
-- **Pedagogia Ignasiana (M2):** El Paradigma Pedagògic Ignasià (Context, Experiència, Reflexió, Acció, Avaluació) és el marc que permet una aproximació profunda i transformadora a l'Ecologia Integral.
-- **Formació de Persones Conscients, Competents, Compassives i Compromeses (4C) (M0):** L'Ecologia Integral contribueix directament a la formació de les 4C, especialment en la consciència de la interconnexió, la competència per a solucions sostenibles, la compassió per la creació i els més vulnerables, i el compromís amb la justícia socio-ambiental.
-- **Projecte Vital i Vocacional (M0):** L'Ecologia Integral convida els alumnes a connectar el seu sentit de vida amb la cura del planeta i el servei al bé comú.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M0_preferencies-apostoliques-universals`** — la quarta PAU ("col·laborar en la cura de la casa comuna") és la base institucional d'aquest marc
+- **`M0_magis-i-servei`** — la cura de la creació com a expressió del servei al bé comú i del Magis ignasià
+- **`M0_ciutadania-global-justicia`** — la sostenibilitat i la justícia socio-ambiental com a dimensions de la ciutadania global
+- **`M0_PPI-paradigma-pedagogic-ignasia`** — el cicle PPI (experiència, reflexió, acció) estructura la "conversió ecològica" que el marc promou
+- **`M7_espais-aprenentatge-interioritat`** — espais de connexió amb la natura per fomentar la consciència contemplativa i el vincle afectiu amb la creació
+- **`M2_factors-promotors-aprenentatge`** — l'aprenentatge amb significat socio-ambiental real activa la motivació intrínseca i el compromís
+## 4. Detecció
 - **Senyals del docent:**
     - Expressa preocupació per la crisi climàtica o social i busca maneres d'integrar-la a l'aula.
     - Vol anar més enllà de les activitats puntuals de "dia de la Terra" i busca un enfocament més profund i transversal.
@@ -81,7 +78,7 @@ L'Ecologia Integral, en canvi, exigeix una relectura de la justícia que inclogu
     - Es percep una voluntat d'adoctrinament o d'imposició d'una ideologia concreta, en lloc de fomentar el discerniment i el pensament crític.
     - L'escola ja té un marc de sostenibilitat molt consolidat i el que es busca és una actualització o aprofundiment específic, no una introducció al concepte bàsic.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 - **Principi general:** L'Ecologia Integral és la brúixola que ens guia per entendre la interconnexió de tot i actuar amb responsabilitat envers la nostra casa comuna i tots els seus habitants.
 
 - **Heurístiques per al docent:**
@@ -122,7 +119,7 @@ L'Ecologia Integral, en canvi, exigeix una relectura de la justícia que inclogu
         **Exemple complet de raonament:** Davant un alumne de primària que es mostra desinteressat per les activitats a l'aire lliure, es pot proposar "Connectar amb la Natura" a través d'
 ---
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
 | # | Títol | URL |
 |---|-------|-----|

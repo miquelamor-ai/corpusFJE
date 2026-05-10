@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:14:41
 ---
 
-# 1. CONTINGUT ESPECÍFIC: El Magis i el Servei
-
 ## Definició i principis
 
 El "Magis" i el "Servei" són dos pilars fonamentals de la identitat i missió educativa de Jesuïtes Educació (FJE), arrelats profundament en l'espiritualitat ignasiana. El terme "Magis", que significa "més" en llatí, no es refereix a una quantitat superior o a un perfeccionisme inabastable, sinó a una cerca qualitativa constant del "major bé", del "major servei" i de la "major glòria de Déu" (Diccionario de espiritualidad ignaciana 2 (G-Z), TIME LINE EDUCACIÓ JESUÏTA). És una actitud dinàmica de recerca i discerniment, que impulsa a anar més enllà de la simple obligació, a buscar la millor manera de col·laborar en la missió de Jesús i de servir a l'Església i a la humanitat en cada moment històric (2019-13_21abr19_ESP (5)). Aquesta cerca implica una obertura contínua a la voluntat de Déu, que es manifesta en el món i en les necessitats dels altres.
@@ -53,19 +51,16 @@ A més, la implementació del "servei als altres" ha de tenir en compte les capa
 
 La tensió entre la formació personal i la transformació social també és un matís important. Si bé els Exercicis Espirituals se centren en la transformació personal, l'experiència ha demostrat que aquesta transformació ha d'implicar un compromís amb la justícia social, evitant una "tranquil·litat de consciència" que ignori les exigències del món (Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907).
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Pedagogia Ignasiana. Un Plantejament Pràctic. 1993.pdf**: Aquest document descriu el "com" de la pedagogia ignasiana (context, experiència, reflexió, acció, avaluació) que és el fonament metodològic per a la cerca del Magis i la concreció del Servei a l'aula.
-*   **Característiques de l_educació a la companyia de Jesús. 1986.pdf**: Detalla els trets distintius de l'educació jesuïta que encarnen els principis del Magis i el Servei, proporcionant un marc de referència per a la identitat dels centres.
-*   **An_Integrated_Perspective_ES_FULL (1).pdf**: Ofereix una visió global i integrada dels documents fonamentals de l'educació jesuïta, incloent les Preferències Apostòliques Universals i les "4 Cs", que són expressions directes del Magis i el Servei.
-*   **PAU 2019-06_19feb19_ESP (3).pdf**: Defineix les quatre Preferències Apostòliques Universals, que són la concreció actual de la missió de la Companyia de Jesús i, per tant, la manifestació del Magis i el Servei per a la propera dècada.
-*   **EXCELENCIA_HUMANA_-ESP.pdf**: Aprofundeix en el concepte d'excel·lència humana i les "quatre Cs" (competents, conscients, compassius, compromesos), que són el perfil de persona que l'educació jesuïta busca formar a través del Magis i el Servei.
-*   **Document Cultura Vocacional Provincia-CAT.pdf**: Explora la cultura vocacional i la pregunta "Per a qui sóc jo?", que és una dimensió personal i profunda de la cerca de sentit i del servei als altres.
-*   **Ciudadanía-Global_Un-Verdadero-Compañero-_191125.pdf**: Desenvolupa el concepte de ciutadania global des d'una perspectiva ignasiana, que és una de les expressions més rellevants del servei en el món actual.
-*   **El-Cuidado-de-Nuestra-Casa-Comun_Una-Perspectiva-Ignaciana_211018-1634571824.pdf**: Explica el compromís amb la cura de la creació, que és una de les Preferències Apostòliques Universals i una manifestació fonamental del servei.
-*   **Diccionario de espiritualidad ignaciana 2 (G-Z).pdf**: Conté definicions detallades de termes clau com "Glòria" i "Magis", essencials per a la comprensió teòrica d'aquest marc.
-*   **eica89_90 Discerniment Comunitari.pdf**: Explica el discerniment comunitari, una eina fonamental per a la presa de decisions que busquen el Magis i orienten el servei.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M0_cura-personalis`** — la cura és la base del servei: sense coneixement profund del subjecte l'acció queda en activisme buit
+- **`M0_ledesma-kolvenbach`** — el paradigma (utilitas, iustitia, humanitas, fides) concreta el Magis en finalitats educatives verificables
+- **`M0_excellencia-humana-4C`** — les 4 Cs (competents, conscients, compassius, compromesos) son el perfil de persona que el Magis vol formar
+- **`M0_preferencies-apostoliques-universals`** — les PAU (2019-2029) son la concreció actual del Magis: mostrar el camí, caminar amb exclosos, acompanyar joves, cuidar la casa comuna
+- **`M0_ciutadania-global-justicia`** — el servei als altres pren la dimensió global en la ciutadania; la justícia social com a exigència absoluta del Magis
+- **`M0_ecologia-integral`** — la cura de la casa comuna (PAU 4) com a forma de servei ignasià a la creació
+- **`M0_PPI-paradigma-pedagogic-ignasia`** — el PPI és la concreció metodològica del Magis: l'acció transformadora neix de l'experiència reflexionada
+## 4. Detecció
 
 *   **Senyals del docent:**
     *   Pregunta: "Com puc anar més enllà del currículum per formar persones amb valors?"
@@ -91,7 +86,7 @@ La tensió entre la formació personal i la transformació social també és un 
     *   Quan el context escolar prioritza l'individualisme, la pressió per l'èxit a qualsevol preu o la desconnexió amb la realitat social.
     *   Quan es confon el "Magis" amb una càrrega addicional de feina o amb una exigència de perfecció inabastable que genera estrès.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general:** La pràctica educativa ignasiana busca el "Magis" i el "Servei" com a eixos de la formació integral, orientant l'alumnat cap a una vida plena i compromesa amb el bé comú, a través d'un discerniment constant.
 
@@ -138,9 +133,8 @@ La tensió entre la formació personal i la transformació social també és un 
         *   **Quan aplica:** Quan un alumne valora els seus talents i es pregunta com pot utilitzar-los, o quan necessita ajuda per identificar les seves fortaleses i el seu potencial.
         *   **Fonament:** La pedagogia ignasiana fomenta l'autoconeixement i el desenvolupament de totes les potencialitats de la persona (les "4 Cs"). El Magis convida a posar aquests dons al servei dels altres, buscant la plenitud en la donació de si mateix.
         *   **Exemple complet de raonament:** Davant un alumne de 2n de Batxillerat que té bones notes en ciències, però no està segur de quina carrera triar ni de com les seves habilitats poden ser útils: convé proposar-li un exercici de reflexió sobre les seves "fortaleses" i "passions", no només acadèmiques, sinó també personals. A través de preguntes com "Què se'm dona bé?", "Què em motiva profundament?", o "Com podria el meu talent científic ajudar a resoldre un problema al món?", cal guiar-lo a connectar les seves capacitats amb un propòsit més gran. Es pot suggerir que investigui professions o projectes on la ciència s'apliqui a la millora de la vida de les persones o del planeta, com la recerca mèdica o l'enginyeria sostenible. Aquesta reflexió l'ajuda a discernir una vocació on el seu "Magis" personal es tradueixi en un "servei" significatiu, trobant sentit i direcció en la seva elecció de futur.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
 | # | Títol | URL |
 |---|-------|-----|
