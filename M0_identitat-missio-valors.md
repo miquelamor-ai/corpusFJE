@@ -1,9 +1,9 @@
 ---
-títol: "0.0_Identitat, Missió i Valors: Una Tradició Viva en Discerniment Permanent"
-mòdul: 0
-etiquetes: [identitat, missió, valors, ICAJE, tradició viva, CG, reconciliació, justícia, Arrupe, Kolvenbach, Sosa, JESEDU]
+titol: "0.0_Identitat, Missió i Valors: Una Tradició Viva en Discerniment Permanent"
+modul: M0
+paraules_clau: [identitat, missió, valors, ICAJE, tradició viva, CG, reconciliació, justícia, Arrupe, Kolvenbach, Sosa, JESEDU]
 fonts: ["Companyia de Jesús (1540/1556). Constitucions. Roma.", "Companyia de Jesús (1599). Ratio Studiorum. Roma.", "Companyia de Jesús (1966). Decrets CG31. Roma.", "Companyia de Jesús (1975). Decrets CG32. Roma: Razón y Fe.", "Arrupe, P. SJ (1973). Hombres para los demás. Discurs al X Congrés Europeu d'Antics Alumnes. València, 1 d'agost de 1973.", "ICAJE — Comissió Internacional (1986). Característiques de l'educació a la Companyia de Jesús. Roma: Secretariat d'Educació SJ.", "ICAJE — Comissió Internacional (1993). Pedagogia Ignasiana. Un plantejament pràctic. Roma: Secretariat d'Educació SJ.", "Companyia de Jesús (2016). Decret 1 CG36: Companys en una missió de reconciliació i justícia. Roma.", "Sosa, A. SJ (2017). La educación de la Compañía: una pedagogía al servicio de la formación de un ser humano reconciliado. JESEDU-Rio2017. Rio de Janeiro, 20 d'octubre de 2017.", "Secretariat d'Educació Secundària i Pre-secundària SJ (2019). Escoles Jesuïtes: Una Tradició Viva en el Segle XXI. Roma: Companyia de Jesús.", "Sosa, A. SJ (2019). Preferències Apostòliques Universals 2019-2029. CG 2019/06. Roma.", "Xarxa Global Jesuïta de Col·legis (2024). JESEDU-Jogja2024: Declaració Final. Educar per a la fe al segle XXI. Yogyakarta, juny 2024."]
-estat: revisat
+review_status: revisat
 tipus: marc
 descripcio: "Identitat, missió i valors de l'educació jesuïta: tradició viva en discerniment permanent, de les Constitucions al JESEDU-Jogja2024"
 generat_at: 2026-03-17T00:00:00

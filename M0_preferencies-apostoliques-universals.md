@@ -1,9 +1,9 @@
 ---
-títol: "0.12_Preferències Apostòliques Universals 2019-2029"
-mòdul: 0
-etiquetes: [PAU, preferències apostòliques, missió, pobres, joves, casa comuna, discerniment, Arturo Sosa]
+titol: "0.12_Preferències Apostòliques Universals 2019-2029"
+modul: M0
+paraules_clau: [PAU, preferències apostòliques, missió, pobres, joves, casa comuna, discerniment, Arturo Sosa]
 fonts: ["Sosa, A. SJ (2019). Carta de promulgació de les Preferències Apostòliques Universals 2019-2029. CG 2019/06. Roma: Curia de la Companyia de Jesús.", "Sosa, A. SJ (2019). Integració i posada en pràctica de les PAU. CG 2019/13. Roma: Curia de la Companyia de Jesús.", "Congregació General 36 (2016). Decret 2. Roma: Companyia de Jesús.", "Papa Francesc (2019). Carta de confirmació de les PAU, 6 de febrer de 2019.", "Jesuïtes Educació (2023). Document marc FJE. Barcelona."]
-estat: revisat
+review_status: revisat
 tipus: marc
 descripcio: "Les quatre Preferències Apostòliques Universals 2019-2029 i la seva aplicació en el context educatiu FJE"
 generat_at: 2026-03-17T00:00:00

@@ -2,7 +2,7 @@
 titol: "Lectura Fàcil i Comunicació Clara: Metodologies d'Adaptació de Textos"
 modul: M3
 tipus: estrategia
-etiquetes: [lectura-facil, comunicacio-clara, UNE-153101, adaptacio-textos, accessibilitat-cognitiva, simplificacio, inclusio]
+paraules_clau: [lectura-facil, comunicacio-clara, UNE-153101, adaptacio-textos, accessibilitat-cognitiva, simplificacio, inclusio]
 descripcio: "Pautes i recomanacions per adaptar textos a Lectura Fàcil (UNE 153101 EX:2018) i Comunicació Clara. Metodologia, criteris de redacció i procés de validació per fer documents accessibles a alumnat amb dificultats de comprensió lectora"
 review_status: esborrany
 generat_at: 2026-03-18T00:00:00

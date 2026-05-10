@@ -1,9 +1,9 @@
 ---
-títol: "0.13_Excel·lència Humana: Persones Conscients, Competents, Compassives i Compromeses (4C)"
-mòdul: 0
-etiquetes: [excel·lència humana, 4C, conscient, competent, compassiu, compromès, Nicolás, SIPEI, humanisme ignasià]
+titol: "0.13_Excel·lència Humana: Persones Conscients, Competents, Compassives i Compromeses (4C)"
+modul: M0
+paraules_clau: [excel·lència humana, 4C, conscient, competent, compassiu, compromès, Nicolás, SIPEI, humanisme ignasià]
 fonts: ["Secretariat d'Educació SJ (2015). La Excel·lència Humana: Homes i Dones Conscients, Competents, Compassius i Compromesos. Roma: Companyia de Jesús.", "Arrupe, P. SJ (1973). Hombres para los demás. Discurs al X Congrés Europeu d'Antics Alumnes. València, 1 d'agost de 1973.", "Nicolás, A. SJ (2013). Los Antiguos Alumnos de la Compañía de Jesús y su Responsabilidad Social. Discurs al Congrés d'Antics Alumnes. Medellín, 15 d'agost de 2013.", "SIPEI — Seminari Internacional de Pedagogia i Espiritualitat Ignasiana (2014). Declaració Final. Manresa.", "Sosa, A. SJ (2021). Homilia de la Festa de Sant Joan Berchmans. Xarxa Global Jesuïta de Col·legis, 26 de novembre de 2021.", "ICAJE — Comissió Internacional (1986). Característiques de l'educació a la Companyia de Jesús. Roma.", "ICAJE — Comissió Internacional (1993). Pedagogia Ignasiana. Un plantejament pràctic. Roma."]
-estat: revisat
+review_status: revisat
 tipus: marc
 descripcio: "Excel·lència humana jesuïta: el perfil de sortida de l'alumne com a persona conscient, competent, compassiva i compromesa (4C)"
 generat_at: 2026-03-17T00:00:00

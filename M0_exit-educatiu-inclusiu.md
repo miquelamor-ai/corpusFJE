@@ -1,9 +1,9 @@
 ---
-títol: "0.11_Èxit_Educatiu_Inclusiu"
-mòdul: 0
-etiquetes: [èxit educatiu, inclusió, equitat, cura personalis, pobres, justícia, Fe y Alegría, diversitat, magis, 4C, dret a l'educació]
+titol: "0.11_Èxit_Educatiu_Inclusiu"
+modul: M0
+paraules_clau: [èxit educatiu, inclusió, equitat, cura personalis, pobres, justícia, Fe y Alegría, diversitat, magis, 4C, dret a l'educació]
 fonts: ["Mesa, J.A. SJ (2013). La educación inclusiva: una mirada desde la tradición de la Compañía de Jesús. XLIV Congrés Internacional de Fe y Alegría. São Paulo.", "Arrupe, P. SJ (1973). Homes per als altres. X Congrés Europeu d'Antics Alumnes. València.", "Companyia de Jesús (1975). Decrets CG32. Decret 4: La nostra missió avui. Roma.", "Companyia de Jesús (1995). Decrets CG34. Educació secundària, primària i popular. Roma.", "Companyia de Jesús (2016). Decret 1 CG36: Companys en una missió de reconciliació i justícia. Roma.", "Kolvenbach, P.-H. SJ (2000). El servei de la fe i la promoció de la justícia en l'educació universitària de la Companyia. Santa Clara.", "Nicolás, A. SJ (2013). Congrés Mundial d'Antics Alumnes. Medellín.", "JESEDU-Rio2017 (2017). Acords Finals: Actuar com un cos universal amb una missió universal. Rio de Janeiro.", "Sosa, A. SJ (2017). La educación de la Compañía: una pedagogía al servicio de la formación de un ser humano reconciliado. JESEDU-Rio.", "Secretariat d'Educació SJ (2019). Escoles Jesuïtes: Una Tradició Viva en el Segle XXI. Roma.", "ICAJE (1986). Característiques de l'educació a la Companyia de Jesús. Roma.", "Papa Francesc (2020). Fratelli Tutti. Encíclica sobre la fraternitat i l'amistat social.", "Sosa, A. SJ (2019). Preferències Apostòliques Universals 2019-2029. Roma."]
-estat: revisat
+review_status: revisat
 tipus: marc
 descripcio: "Èxit educatiu inclusiu des de la tradició jesuïta: equitat, cura dels més vulnerables i justícia com a missió educativa"
 generat_at: 2026-03-17T00:00:00
