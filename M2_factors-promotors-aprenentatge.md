@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:30:45
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 
 L'aprenentatge no és un procés passiu de recepció d'informació, sinó una construcció activa que es veu profundament influenciada per diversos factors interrelacionats. Entendre i aplicar aquests factors és clau per dissenyar pràctiques educatives que siguin efectives, inclusives i significatives per a tot l'alumnat. Aquests principis guien el "com" ensenyem per optimitzar el "què" s'aprèn.
@@ -63,20 +61,18 @@ En un mòdul de Comunicació Audiovisual, el docent planteja un projecte de **le
 *   **La motivació és un factor complex i profundament individual:** Encara que hi ha estratègies generals que fomenten la motivació (relevància, elecció, desafiament, reconeixement), el que motiva un alumne pot no motivar un altre. Cal conèixer els interessos, les fortaleses i les necessitats emocionals de cada estudiant i oferir múltiples vies de compromís per maximitzar l'arousal òptim i el sentit de pertinença. La motivació intrínseca és l'objectiu, però la extrínseca pot ser un punt de partida.
 *   **L'evocació espaiada és una tècnica de consolidació, no de comprensió inicial:** Repassar informació de manera espaiada és extremadament útil per reforçar la memòria i la retenció a llarg termini. No obstant això, si la informació no s'ha comprès inicialment de manera significativa, amb connexions amb els coneixements previs i un processament profund, la repetició per si sola no generarà un aprenentatge profund. Cal assegurar-se que els conceptes s'entenen abans de centrar-se exclusivament en la seva evocació.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **perfil_alumnat_nouvingut**: Aquest document explica com l'activació de coneixements previs, les bastides i el DUA són essencials per a la inclusió i l'aprenentatge d'alumnes amb barreres lingüístiques o culturals.
-*   **estrategia_disseny_universal_aprenentatge**: Aquest marc es basa directament en els principis de DUA esmentats aquí, oferint una implementació pràctica de com dissenyar per a la diversitat i la motivació.
-*   **estrategia_aprenentatge_cooperatiu**: Aprofundeix en la metodologia de l'aprenentatge cooperatiu, un dels factors socials clau per a l'aprenentatge efectiu descrit en aquest document.
-*   **estrategia_bastides_pedagogiques**: Desenvolupa el concepte de bastides (scaffolding) com a suport clau per a la ZDP, detallant tipus i aplicacions pràctiques.
-*   **estrategia_aprenentatge_entre_iguals**: Explica una metodologia específica que promou la interacció social i el suport mutu, directament relacionada amb la ZDP i l'aprenentatge cooperatiu.
-*   **eina_rubrica_avaluacio**: La claredat en els criteris d'avaluació, que es fomenta amb les rúbriques, és un factor clau per a la motivació i l'autoregulació de l'alumne, tal com s'esmenta en aquest marc.
-*   **estrategia_ensenyament_multinivell**: Aquesta estratègia és una aplicació directa dels principis de DUA i ZDP per adaptar els objectius i activitats a la diversitat de l'aula.
-*   **estrategia_alliberament_gradual_responsabilitat**: Aquesta estratègia metodològica (modelatge, pràctica guiada, pràctica autònoma) és una implementació directa del concepte de bastides i ZDP.
+- **`M1_alumnat-nouvingut.md`** — La ZDP i les bastides son especialment crítiques per a alumnat amb barreres lingüístiques: el coneixement previ en L1 és actiu i transferible; cal no confondre competència lingüística en L2 amb competència cognitiva
+- **`M2_DUA-principis-pautes.md`** — El DUA integra tots els factors promotors en un marc de disseny: múltiples representacions (coneixements previs), múltiples expressions (ZDP), múltiples implicacions (motivació/arousal)
+- **`M2_aprenentatge-cooperatiu.md`** — L'aprenentatge cooperatiu és la concreció metodològica del factor d'interacció social: interdependència positiva, responsabilitat individual i reflexió grupal (Pujolàs; Johnson & Johnson)
+- **`M2_programacio-multinivell.md`** — La programació multinivell aplica directament la ZDP al disseny d'activitats: el mateix objectiu assolit per camins de complexitat diferent, amb bastides ajustades a cada nivell
+- **`M0_cura-personalis.md`** — La motivació i l'arousal optimal depenen de sentir-se vist i acollit: la Cura Personalis és el marc ignasià que assegura que la relació educativa activa els factors promotors
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional és prerequisit de tots els factors promotors: sense un arousal segur (ni massa alt ni massa baix), cap estratègia cognitiva funciona de manera sostenible
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-**Senyals del docent**
+### Senyals del docent
 *   "Els meus alumnes no connecten amb els continguts, sembla que no els interessen."
 *   "Tinc molta diversitat a l'aula i em costa arribar a tothom amb una sola explicació."
 *   "Els alumnes memoritzen, però no entenen realment el que fan ni ho saben aplicar."
@@ -86,7 +82,7 @@ En un mòdul de Comunicació Audiovisual, el docent planteja un projecte de **le
 *   "No sé com ajudar els alumnes a ser més autònoms en el seu aprenentatge."
 *   "Necessito idees per fer les meves classes més participatives i menys expositives."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   Desinterès o avorriment durant les explicacions o activitats.
 *   Dificultat per relacionar nous conceptes amb coneixements anteriors o amb la vida real.
 *   Frustració o bloqueig davant tasques que perceben com a massa difícils o inabastables.
@@ -94,24 +90,24 @@ En un mòdul de Comunicació Audiovisual, el docent planteja un projecte de **le
 *   Baixa retenció de la informació a llarg termini, oblidant conceptes clau.
 *   Manca d'habilitats per treballar en equip o per resoldre conflictes.
 
-**Senyals de context**
+### Senyals de context
 *   Moment d'introducció d'un concepte nou o complex.
 *   Activitat que requereix aplicació de coneixements en un context diferent.
 *   Composició del grup amb alta heterogeneïtat de nivells, interessos o backgrounds culturals.
 *   Avaluació que revela una comprensió superficial o una manca de transferència de l'aprenentatge.
 *   Canvi de cicle o etapa educativa, on les demandes cognitives i socials varien.
 
-**Anti-senyals (quan NO activar malgrat les aparences)**
+### Anti-senyals
 *   **L'alumne ja domina la tasca de forma autònoma i eficient:** En aquest cas, oferir bastides o suport addicional podria ser contraproduent, ja que limitaria la seva autonomia i podria generar avorriment. Cal retirar el suport quan ja no és necessari per no frenar el seu desenvolupament.
 *   **El grup de treball ja funciona amb alta interdependència i responsabilitat individual sense intervenció:** Si un grup ja demostra una cooperació efectiva i una autoregulació, una intervenció excessiva per "ensenyar" habilitats cooperatives podria interrompre la seva dinàmica natural i generar resistència. Cal observar i intervenir només quan hi ha una necessitat clara.
 *   **La tasca proposada és purament de memorització de dades concretes i a curt termini (ex: llista de vocabulari per a un dictat immediat):** En aquests casos, l'aplicació de totes les estratègies de pensament crític o interacció social podria ser excessiva i ineficient per a l'objectiu concret. L'evocació espaiada pot ser útil, però no caldria activar tots els factors de comprensió profunda.
 *   **El docent ja ha implementat recentment una estratègia complexa i necessita consolidar-la:** Introduir massa factors o canvis metodològics de cop pot sobrecarregar el docent i l'alumnat. De vegades, la millor estratègia és consolidar una pràctica abans d'introduir-ne una de nova, per evitar la fatiga o la confusió.
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general:** L'agent ha de guiar el docent i l'alumne cap a pràctiques que maximitzin l'engagement, la comprensió profunda i la retenció a llarg termini, adaptant-se a la diversitat de necessitats i contextos.
 
-### Heurístiques per a l'Agent DOCENT
+#### Heurístiques per al docent
 
 1.  **Heurística: "El pont cap al nou"**
     *   **Quan aplica:** Quan el docent vol introduir un concepte nou o una unitat didàctica i detecta que els alumnes mostren desinterès inicial o dificultat per connectar amb el tema.
@@ -138,7 +134,7 @@ En un mòdul de Comunicació Audiovisual, el docent planteja un projecte de **le
     *   **Fonament:** L'evocació espaiada és una de les estratègies més efectives per consolidar la memòria a llarg termini. Reintroduir conceptes de manera periòdica, en lloc de només una vegada, enforteix les connexions neuronals i fa que la informació sigui més accessible.
     *   **Exemple complet de raonament:** Un docent de ciències ha acabat una unitat sobre el sistema solar i detecta que els alumnes "obliden ràpidament els noms dels planetes o les seves característiques". L'agent raona que la manca de repàs espaiat és la causa. Proposa al docent incorporar petites activitats de "recordatori" en les setmanes següents, sense que siguin avaluables inicialment. Per exemple, al principi d'una classe de matemàtiques, projectar una imatge d'un planeta i demanar als alumnes que diguin el seu nom i una característica en 30 segons. O, en una classe de llengua, demanar que escriguin una frase que inclogui el nom d'un planeta i un adjectiu que el descrigui. A més, suggereix utilitzar una aplicació de "flashcards" digital on els alumnes puguin repassar els conceptes clau de la unitat de forma lúdica i auto-dirigida, amb intervals de repàs creixents. Aquesta pràctica d'evocació espaiada, integrada de forma subtil i variada en el dia a dia, ajuda a consolidar la informació a la memòria a llarg termini, fent-la més robusta i menys susceptible a l'oblit ràpid.
 
-### Heurístiques per a l'Agent ALUMNE
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: "Troba el teu ganxo"**
     *   **Quan aplica:** Quan l'alumne se sent desconnectat d'un nou tema o li costa entendre per què ha d'aprendre alguna cosa.
@@ -154,37 +150,12 @@ En un mòdul de Comunicació Audiovisual, el docent planteja un projecte de **le
     *   **Quan aplica:** Quan l'alumne ha estudiat un tema, però es preocupa per oblidar-lo o vol assegurar-se de retenir-lo a llarg termini per a futurs exàmens o projectes.
     *   **Fonament:** L'evocació espaiada és una estratègia d'estudi molt eficaç. Repassar la informació de manera activa i distribuïda en el temps, en lloc de fer-ho tot de cop, consolida la memòria i millora la retenció.
     *   **Exemple complet de raonament:** Un alumne de 6è de primària ha estudiat els rius de Catalunya per a un examen i diu a l'agent que "té por d'oblidar-ho tot d'aquí a uns dies". L'agent raona que l'alumne necessita una estratègia de repàs més eficaç que la memorització massiva. Li suggereix que no esperi a l'últim moment per repassar. "Avui, fes un petit esquema dels rius. Demà, intenta dibuixar un mapa i situar-los sense mirar els apunts. D'aquí a dos dies, explica-li a un company o a un familiar el recorregut d'un riu. La setmana que ve, fes un petit qüestionari a tu mateix". L'agent explica que aquest "repassar amb cap" (evocació activa i espaiada) és molt més potent que rellegir els apunts una vegada i una altra, ja que força el cervell a recuperar la informació, enfortint la memòria i fent que els coneixements siguin més persistents.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b7:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/index |
-| 2 | cursos:escola_inclusiva:ansu:b3:b3t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t2 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t4 |
-| 4 | cursos:escola_inclusiva:ansu:b5:b5t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t4 |
-| 5 | cursos:escola_inclusiva:ansu:b4:b4t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t5 |
-| 6 | cursos:escola_inclusiva:ansu:b4:b4t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t3 |
-| 7 | cursos:escola_inclusiva:ansu:b4:b4t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t2 |
-| 8 | cursos:escola_inclusiva:ansu:b5:b5t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t2 |
-| 9 | cursos:escola_inclusiva:ansu:b5:b5t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t3 |
-| 10 | cursos:curriculum:eso_btx:dcs1:projecte [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/projecte |
-| 11 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_5 |
-| 12 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_4 |
-| 13 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_5 |
-| 14 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_6 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_6 |
-| 15 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_3 |
-| 16 | caixadeines09_79dad89de3.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines09/caixadeines09.pdf |
-| 17 | caixadeines08_32639931f0.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines08/caixadeines08.pdf |
-| 18 | 170614_bastides_MU_81f367adb9.pdf | http://xtec.gencat.cat/web/.content/projectes/lectura/impulslectura/materialsformacio/saber-llegir/cm-cs-eso/documents/170614_bastides_MU.pdf |
-| 19 | el_treball_cooperatiu_62b5c345b4.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0058/810bc5ef-52c3-4172-9642-0fe7768622e5/el_treball_cooperatiu.pdf |
-| 20 | aprenentatge_entre_iguals_fcfb7dbdf7.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0091/df6b6ac8-6646-4ebc-ab7b-9c1a77fe311d/aprenentatge_entre_iguals.pdf |
-| 21 | b6t4_9_regles_unesco_86da447368.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b6/b6t4_9_regles_unesco.pdf |
-| 22 | guia_per_a_la_lectura_d_imatges_1a3459040a.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/eso_btx/dcs1/modul_2/guia_per_a_la_lectura_d_imatges.pdf |
-| 23 | Full-indicadors-unitats-competencials_58f56ec799.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0029/f0b48627-bdc5-48e5-9b3c-4bceed129d61/Full-indicadors-unitats-competencials.pdf |
-| 24 | Escola-Banus-Interpretar-espai_52608fb445.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0056/7642a716-6e3e-4eca-9073-696cae007634/Escola-Banus-Interpretar-espai.pdf |
-| 25 | 07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL_e5c32476bf.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3e2d7305-7dfa-4a7b-9d8b-10d7c9ada24b/07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 26 | BANUS_CM_MODIFICACIO_ACTIVITAT_COMPETENCIAL_608c72827b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0070/a1cb192d-e46b-43a0-b4eb-8db91593013d/BANUS_CM_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-
-*26 documents font · secció generada automàticament*
+- Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Cambridge: Harvard University Press.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- Pujolàs, P. (2008). *9 idees clau: L'aprenentatge cooperatiu*. Barcelona: Graó.
+- Coelho, E. (2013). *Language and Learning in Multilingual Classrooms*. Bristol: Multilingual Matters.
+- Ebbinghaus, H. (1885). *Über das Gedächtnis*. Leipzig: Duncker & Humblot. [base de la corba de l'oblit i l'evocació espaiada]
+- Ruiz, R., Padrós, N., Pedragosa, N. (2008). *Ensenyament multinivell i disseny universal de l'aprenentatge*. Barcelona: Departament d'Educació.

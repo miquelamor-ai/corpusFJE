@@ -10,8 +10,6 @@ nota_revisio: "Versió DAC (ateneu.xtec.cat_2026-03-17_5): jerarquia universal�
 generat_at: 2026-03-18T17:13:22
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 El marc de mesures i suports inclusius es fonamenta en la premissa que l'educació ha de ser accessible i significativa per a tot l'alumnat, independentment de les seves característiques individuals. No es tracta d'adaptar l'alumne al sistema, sinó d'adaptar el sistema a la diversitat de l'alumnat. El Decret 150/2017 d'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu estableix tres nivells de mesures i suports, organitzats de menor a major intensitat. Cada nivell s'activa quan l'anterior, aplicat de forma sistemàtica i documentada, no és suficient per garantir el progrés de l'alumne.
 
@@ -112,41 +110,42 @@ La jerarquia de mesures i suports és una guia, no una seqüència rígida i ina
 
 Així mateix, l'aplicació de les mesures no és lineal; un alumne pot necessitar mesures addicionals en una àrea i mesures universals en una altra, o fins i tot mesures intensives en un moment determinat i després tornar a un nivell de suport menys intensiu a mesura que progressa (des-escalada, vegeu taula de criteris). La clau és la flexibilitat i l'avaluació contínua de les necessitats de l'alumne i de l'eficàcia dels suports. L'objectiu final és sempre garantir la màxima participació de l'alumne en el currículum ordinari i en la vida del centre, fomentant la seva autonomia i el seu desenvolupament integral.
 
----
+## 3. Connexions amb altres documents del corpus
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **M1_neurodiversitat-NESE.md**: La jerarquia NESE/NEE determina directament el nivell de mesures que s'activa. Alumnat amb NEE reconeguda → mesures intensives; NESE sense dictamen → mesures addicionals.
-*   **M1_plans-individuals-PAD-PI.md**: El Pla Individualitzat (PI) és la mesura intensiva per excel·lència; el PAD s'emmarca en les mesures addicionals.
-*   **M2_DUA-principis-pautes.md**: El DUA (Rose & Meyer, 2002) és la base teòrica i pràctica de les mesures universals (art. 8 D150/2017).
-*   **M6_adaptacio-avaluacio-NEE.md**: L'avaluació dins les mesures intensives requereix adaptacions específiques coherents amb el PI.
-*   **M9_decrets-inclusio-ordenacio.md**: Conté el marc normatiu complet del D150/2017 i les instruccions DOIGC vigents.
+- **`M1_neurodiversitat-NESE.md`** — La jerarquia NESE/NEE determina directament el nivell de mesures: alumnat amb NEE reconeguda → mesures intensives; NESE sense dictamen → mesures addicionals
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és la mesura intensiva per excel·lència (art. 12 D150/2017); el PAD s'emmarca en les mesures addicionals
+- **`M2_DUA-principis-pautes.md`** — El DUA (Rose & Meyer, 2002) és la base teòrica i pràctica de les mesures universals (art. 8 D150/2017)
+- **`M6_adaptacio-avaluacio-NEE.md`** — L'avaluació dins les mesures intensives requereix adaptacions específiques coherents amb el PI
+- **`M9_decrets-inclusio-ordenacio.md`** — Marc normatiu complet del D150/2017 i les instruccions DOIGC vigents que articulen la jerarquia de mesures
+- **`M1_creuament-variables-dependencies.md`** — Els creuaments de condicions mostren com les mesures s'han d'adaptar quan coexisteixen dues o més condicions: la jerarquia és una guia, no un algoritme
+- **`M0_cura-personalis.md`** — La Cura Personalis és el principi ignasià que transforma la jerarquia normativa en atenció real: les mesures no són burocràcia sinó cura concreta de cada persona
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-*   **Senyals del docent**
+### Senyals del docent
     *   "He notat que alguns alumnes es desconnecten ràpidament de les activitats proposades."
     *   "Em costa arribar a la diversitat de ritmes i estils d'aprenentatge de la meva aula."
     *   "Els resultats d'avaluació mostren una gran disparitat entre l'alumnat, fins i tot en tasques bàsiques."
     *   "Alguns alumnes amb altes capacitats semblen avorrits o poc desafiats amb les propostes habituals."
     *   "Necessito eines per adaptar les meves classes sense haver de crear materials diferents per a cada alumne."
-*   **Senyals de l'alumne**
+### Senyals de l'alumne
     *   Frustració o desmotivació davant tasques que perceben com massa fàcils o massa difícils.
     *   Manca de participació en activitats grupals o individuals.
     *   Comportaments disruptius o d'evitació quan se senten desconnectats de l'aprenentatge.
-*   **Senyals de context**
+### Senyals de context
     *   Activitat d'aula amb un únic format de presentació o d'avaluació.
     *   Moment de canvi significatiu en la vida de l'alumne o del grup.
     *   Composició del grup amb una alta diversitat de necessitats o interessos.
-*   **Anti-senyals**
+### Anti-senyals
     *   L'alumne participa activament i mostra interès en les activitats proposades.
     *   Els resultats d'aprenentatge són satisfactoris per a la majoria de l'alumnat amb les mesures universals ja implementades.
     *   Les activitats ja incorporen de forma natural múltiples opcions de participació i expressió.
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
-*   **Principi general:** Prioritzar sempre la resposta educativa més inclusiva i menys restrictiva, adaptant el sistema a l'alumne i no a l'inrevés.
+**Principi general:** Prioritzar sempre la resposta educativa més inclusiva i menys restrictiva, adaptant el sistema a l'alumne i no a l'inrevés.
 
-*   **Heurístiques per a l'Agent DOCENT**
+#### Heurístiques per al docent
     *   **Heurística: Revisió Universal Primer**
         *   **Quan aplica:** Quan un docent expressa preocupació per les dificultats d'un o diversos alumnes, o per la manca de participació general a l'aula.
         *   **Fonament:** Abans de pensar en suports individualitzats, és fonamental assegurar que les pràctiques universals (DUA) estan ben implementades. Un disseny inclusiu des de l'inici pot prevenir moltes barreres i reduir la necessitat de mesures més intensives.
@@ -168,7 +167,7 @@ Així mateix, l'aplicació de les mesures no és lineal; un alumne pot necessita
         *   **Fonament:** Les necessitats de l'alumnat són dinàmiques. Una avaluació constant permet ajustar les mesures, escalar-les o desescalar-les segons el progrés de l'alumne, evitant la rigidesa i assegurant que els suports són sempre pertinents i eficaços.
         *   **Exemple complet de raonament:** Un docent ha implementat un programa d'enriquiment curricular (mesura addicional) per a un grup d'alumnes amb altes capacitats. Després d'un trimestre, "alguns alumnes del grup semblen haver perdut l'interès o troben el programa massa exigent, mentre que d'altres demanen més desafiament". L'agent hauria de raonar que és essencial realitzar una avaluació contínua de l'impacte del programa. Això implica recollir feedback dels alumnes, observar la seva participació i progressos, i revisar els objectius del programa. Aquesta avaluació podria portar a adaptar el programa, oferint més opcions de projectes, ajustant el nivell de complexitat per a diferents subgrups, o fins i tot revisant si les mesures addicionals són encara les més adequades per a tots els participants, potser considerant altres tipus de suport o enriquiment.
 
-*   **Heurístiques per a l'Agent ALUMNE**
+#### Heurístiques per a l'alumne
     *   **Heurística: Autoregulació i Elecció**
         *   **Quan aplica:** Quan l'alumne se sent desconnectat o no comprèn com abordar una tasca.
         *   **Fonament:** Oferir opcions (DUA) permet a l'alumne triar la millor manera d'accedir a la informació, processar-la i expressar el seu aprenentatge, fomentant la seva autonomia i sentit de control sobre el seu procés.
@@ -181,17 +180,12 @@ Així mateix, l'aplicació de les mesures no és lineal; un alumne pot necessita
         *   **Quan aplica:** Quan l'alumne rep una avaluació o retroalimentació i no entén com millorar, o quan se li ofereix un suport i no en comprèn el propòsit.
         *   **Fonament:** El feedback ha de ser clar, específic i orientat a l'acció. Ajudar l'alumne a entendre per què se li ofereix un suport i com aquest l'ajudarà a progressar, augmenta la seva implicació i la seva capacitat d'autoregulació.
         *   **Exemple complet de raonament:** Un alumne de Batxillerat ha rebut una nota baixa en un examen i se sent desmotivat, sense saber què ha de fer per millorar. L'agent hauria de raonar que l'alumne necessita un feedback constructiu i proactiu. Se li podria suggerir que "revisi l'examen amb el docent per entendre exactament quins errors ha comès i, més important, quines estratègies pot utilitzar per evitar-los en el futur". Si se li ha proposat un suport addicional, com sessions de reforç, l'agent podria ajudar-lo a "entendre que aquestes sessions no són un càstig, sinó una oportunitat per consolidar conceptes i desenvolupar noves habilitats que el faran sentir més segur i competent en la matèria". Aquesta comprensió del propòsit del suport és clau per a la seva acceptació i eficàcia.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Referència | Tipus | Any |
-|---|-----------|-------|-----|
-| 1 | Decret 150/2017, arts. 4-15. DOGC 7477. | Normativa | 2017 |
-| 2 | DOIGC Educació Inclusiva. Curs 2025-2026. Gencat. | Instruccions | 2025 |
-| 3 | XTEC Educació Inclusiva. Mesures i suports universals. | Recurs | Vigent |
-| 4 | Rose, D. & Meyer, A. (2002). Teaching Every Student in the Digital Age. ASCD. | Marc DUA | 2002 |
-| 5 | Ainscow, M. et al. (2006). Improving Schools, Developing Inclusion. Routledge. | Marc inclusió | 2006 |
-| 6 | Síndic de Greuges (2025). Informe educació inclusiva. | Avaluació | 2025 |
-
-*6 fonts · secció revisada manualment*
+- Decret 150/2017, de 17 d'octubre, arts. 4-15. DOGC núm. 7477.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Educació Inclusiva*. Generalitat de Catalunya.
+- XTEC. *Educació Inclusiva: Mesures i suports universals*. Generalitat de Catalunya (xtec.gencat.cat).
+- Rose, D. & Meyer, A. (2002). *Teaching Every Student in the Digital Age: Universal Design for Learning*. Alexandria: ASCD.
+- Ainscow, M. et al. (2006). *Improving Schools, Developing Inclusion*. Londres: Routledge.
+- Síndic de Greuges (2025). *Informe sobre l'educació inclusiva a Catalunya*. Barcelona.

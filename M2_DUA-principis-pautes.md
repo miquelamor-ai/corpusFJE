@@ -8,8 +8,6 @@ locked: true
 generat_at: 2026-03-18T15:29:37
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL DOCUMENT
-
 ## Definició i principis
 
 El Disseny Universal per a l'Aprenentatge (DUA) és un marc de referència que busca crear contextos d'aprenentatge flexibles i accessibles per a tot l'alumnat, anticipant la diversitat des de la fase de disseny del currículum i les activitats d'aula. El DUA sorgeix a finals dels anys 80, impulsat per un canvi de paradigma que va passar de centrar-se en les "mancances" dels alumnes i en mesures compensatòries a la idea que els currículums havien d'adaptar-se als alumnes, i no a la inversa (DOC 3). Aquest enfocament es va veure reforçat pels avenços en neurociència, que van demostrar que cada persona accedeix a l'aprenentatge de manera diferent, subratllant la necessitat de permetre que cada alumne accedeixi als coneixements i demostri el que ha après pel canal que li sigui més còmode (DOC 3).
@@ -76,22 +74,18 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
 *   **Tensions amb currículums rígids o avaluacions estandarditzades:** El DUA pot trobar tensions en sistemes educatius amb currículums molt prescriptius o avaluacions estandarditzades que limiten la flexibilitat en la representació, acció i expressió. Tanmateix, fins i tot en aquests contextos, es poden aplicar principis DUA en la didàctica diària (DOC 1, DOC 3).
 *   **No és només per a alumnes amb NEE:** Un error seria pensar que el DUA és exclusivament per a alumnes amb necessitats educatives especials. El seu propòsit és beneficiar a *tot* l'alumnat, incloent-hi els que tenen altes capacitats, els nouvinguts, o aquells amb diferents estils d'aprenentatge (DOC 3).
 
----
+## 3. Connexions amb altres documents del corpus
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M2_mesures-suports-inclusius.md`** — El DUA és la base teòrica de les mesures universals (art. 8 D150/2017); sense DUA, les mesures universals no tindrien marc de referència pedagògica
+- **`M2_programacio-multinivell.md`** — L'ensenyament multinivell és la concreció didàctica del DUA: parteix dels tres principis per dissenyar objectius i activitats en nivells de complexitat diferent
+- **`M2_aprenentatge-cooperatiu.md`** — El treball cooperatiu és la metodologia privilegiada per al principi d'implicació DUA: la diversitat del grup com a recurs, no com un obstacle
+- **`M1_neurodiversitat-NESE.md`** — La neurodiversitat és la realitat que el DUA anticipa i a la qual respon de forma proactiva; no és un marc per a NEE sinó per a tota l'aula
+- **`M1_creuament-variables-dependencies.md`** — El creuament de condicions mostra com el DUA concret és diferent per a un perfil TEA×TDAH que per a un dislèxia×nouvingut; la diversitat no és uniforme
+- **`M0_cura-personalis.md`** — La Cura Personalis és el principi ignasià que dona sentit al DUA en context FJE: dissenyar per a tots és tractar cada alumne com a persona única i no com a categoria
 
-*   **Ensenyament multinivell**: El DUA és el marc teòric que sustenta i es complementa amb l'ensenyament multinivell per dissenyar currículums i activitats inclusives.
-*   **Bastides pedagògiques (Scaffolding)**: Les bastides són una estratègia fonamental dins del DUA per proporcionar suports ajustats i temporals en els mitjans d'acció i expressió.
-*   **Aprenentatge cooperatiu**: Aquesta metodologia és una eina clau per fomentar la implicació i l'acció/expressió en un entorn DUA, aprofitant la diversitat com a recurs.
-*   **Aprenentatge entre iguals**: Similar a l'aprenentatge cooperatiu, aquesta estratègia contribueix a la implicació i al suport mutu, alineant-se amb els principis del DUA.
-*   **Avaluació competencial**: El DUA promou una avaluació flexible i amb múltiples opcions, que encaixa amb els principis d'una avaluació competencial que valora el "què sap fer" l'alumne.
-*   **Planificació de seqüències didàctiques**: El DUA ofereix les pautes per dissenyar seqüències didàctiques des d'una perspectiva inclusiva, anticipant la diversitat en la presentació, l'acció i la implicació.
-*   **Estratègies d'ensenyament explícit**: La claredat en objectius i estratègies d'aprenentatge, promoguda pel DUA, es beneficia de l'ensenyament explícit.
-*   **Lectura crítica**: Les estratègies de lectura crítica, incloent l'ús de diferents mitjans (imatges, audiovisuals), són exemples d'aplicació del DUA en la representació i l'acció/expressió.
+## 4. Detecció
 
-# 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent**
+### Senyals del docent
 *   "Com puc atendre la diversitat al meu grup sense haver de fer adaptacions individuals per a cada alumne?"
 *   "Necessito idees per presentar els continguts de manera que tots els meus alumnes els puguin entendre, independentment del seu nivell o estil d'aprenentatge."
 *   "Els meus alumnes tenen dificultats per expressar el que saben; vull oferir-los més opcions per demostrar el seu aprenentatge."
@@ -99,32 +93,32 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
 *   "Vull dissenyar activitats que permetin a tots els alumnes participar activament i sentir-se part del grup."
 *   "Busco un marc per planificar la meva docència que sigui inclusiu des del principi."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   "No entenc el que explica el professor, encara que ho repeteixi."
 *   "Sé la resposta, però no sé com escriure-la o com explicar-la bé."
 *   "M'avorreixo a classe perquè la feina sempre és la mateixa o no em connecta."
 *   "M'agradaria poder escollir com aprendre o com fer les tasques."
 *   "Sento que la meva manera de fer les coses no encaixa amb el que es demana a classe."
 
-**Senyals de context**
+### Senyals de context
 *   Aula amb una gran diversitat d'alumnat (lingüística, cultural, cognitiva, d'interessos, amb o sense NEE).
 *   Introducció de nous continguts complexos que requereixen múltiples vies d'accés.
 *   Disseny d'una nova unitat didàctica o seqüència d'aprenentatge.
 *   Avaluació de competències on es busca que l'alumne pugui demostrar el seu aprenentatge de diverses maneres.
 *   Moment en què es vol fomentar l'autonomia i l'autoregulació de l'aprenentatge.
 
-**Anti-senyals**
+### Anti-senyals
 *   El docent busca una "solució ràpida" o una "recepta única" per resoldre tots els problemes de diversitat sense una reflexió profunda.
 *   El docent vol que la IA faci la feina de disseny sense la seva implicació pedagògica activa.
 *   El docent busca etiquetar o classificar els alumnes per les seves "mancances" en lloc de flexibilitzar el disseny per a la variabilitat.
 *   El docent només pensa en "adaptacions" després que l'activitat ha fallat per a alguns alumnes, en lloc de dissenyar de forma proactiva.
 *   El docent vol substituir la interacció humana o el seu rol per eines digitals sense una intencionalitat DUA clara.
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general:** El DUA és la base per a un disseny educatiu inclusiu que anticipa la diversitat i ofereix múltiples camins per aprendre, no una sèrie d'adaptacions *a posteriori*.
 
-### Heurístiques per a l'Agent DOCENT
+#### Heurístiques per al docent
 
 *   **Heurística 1: Anticipa la diversitat en el disseny inicial.**
     *   **Quan aplica:** Quan un docent comença a planificar una nova unitat didàctica, una seqüència d'activitats o una tasca d'avaluació.
@@ -151,7 +145,7 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
     *   **Fonament:** La diversitat a l'aula és un recurs. Metodologies com l'aprenentatge cooperatiu i entre iguals permeten que els alumnes s'ajudin mútuament, desenvolupin habilitats socials i aprofundeixin en la comprensió (DOC 8, DOC 19, DOC 20).
     *   **Exemple complet de raonament:** "El docent té un grup amb molta diversitat de nivells i cultures. L'agent raona que el DUA s'alinea amb metodologies que aprofiten aquesta diversitat. L'agent suggereix: 'Implementa estratègies d'aprenentatge cooperatiu (DOC 8, DOC 19) o aprenentatge entre iguals (DOC 20). Assegura't que els grups siguin heterogenis i que hi hagi una interdependència positiva, on l'èxit de cada membre estigui lligat al del grup (DOC 9). Per exemple, en una lectura cooperativa (DOC 15), cada membre pot ser responsable d'una part del text o d'una tasca específica (identificar idea principal, vocabulari, etc.). Això no només millora la comprensió, sinó que també fomenta habilitats socials i d'autoreflexió, components clau de la implicació DUA (DOC 9).'"
 
-### Heurístiques per a l'Agent ALUMNE
+#### Heurístiques per a l'alumne
 
 *   **Heurística 1: Cerca múltiples formes d'entendre un concepte.**
     *   **Quan aplica:** Quan un alumne no comprèn un concepte o una explicació donada pel docent.
@@ -167,7 +161,7 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
     *   **Quan aplica:** Quan un alumne se sent bloquejat en una tasca, no sap com començar, o vol millorar el seu aprenentatge.
     *   **Fonament:** El DUA integra suports i fomenta l'autoregulació. L'alumne ha de ser conscient dels recursos i estratègies que té al seu abast (DOC 2, DOC 6, DOC 9).
     *   **Exemple complet de raonament:** "Un alumne no sap com començar un projecte de recerca. L'agent raona que el DUA proporciona suports i promou l'autoregulació. L'agent suggereix: 'Revisa si el professor ha proporcionat alguna guia, un model, o una llista de passos (bastides) per començar (DOC 6). Si treballes en grup, parla amb els teus companys per veure com ho estan enfocant i com us podeu ajudar mútuament (DOC 9). Pensa també en els objectius que t'ha donat el professor (DOC 6): què has d'aconseguir? Quins són els primers passos? Reflexionar sobre aquestes preguntes t'ajudarà a organitzar-te i a avançar en la tasca (DOC 2).'"
----
+
 
 ## 6. INSTRUCCIONS DUA PER NIVELL — BLOCS PER A L'LLM
 
@@ -201,35 +195,11 @@ NIVELL DUA: Enriquiment — Màxima complexitat dins del MECR
 - Preguntes de pensament crític (analitzar, avaluar, crear)
 ```
 
----
+## 5. Fonts
 
-## 5. FONTS DEL CORPUS
-
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b7:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/index |
-| 2 | cursos:escola_inclusiva:ansu:b3:b3t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t2 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t4 |
-| 4 | cursos:escola_inclusiva:ansu:b5:b5t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t4 |
-| 5 | cursos:escola_inclusiva:ansu:b4:b4t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t5 |
-| 6 | cursos:escola_inclusiva:ansu:b4:b4t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t3 |
-| 7 | cursos:escola_inclusiva:ansu:b4:b4t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t2 |
-| 8 | cursos:escola_inclusiva:ansu:b5:b5t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t2 |
-| 9 | cursos:escola_inclusiva:ansu:b5:b5t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t3 |
-| 10 | cursos:curriculum:eso_btx:dcs1:projecte [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/projecte |
-| 11 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_5 |
-| 12 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_4 |
-| 13 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_5 |
-| 14 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_6 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_6 |
-| 15 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_3 |
-| 16 | caixadeines09_79dad89de3.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines09/caixadeines09.pdf |
-| 17 | caixadeines08_32639931f0.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines08/caixadeines08.pdf |
-| 18 | 170614_bastides_MU_81f367adb9.pdf | http://xtec.gencat.cat/web/.content/projectes/lectura/impulslectura/materialsformacio/saber-llegir/cm-cs-eso/documents/170614_bastides_MU.pdf |
-| 19 | el_treball_cooperatiu_62b5c345b4.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0058/810bc5ef-52c3-4172-9642-0fe7768622e5/el_treball_cooperatiu.pdf |
-| 20 | aprenentatge_entre_iguals_fcfb7dbdf7.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0091/df6b6ac8-6646-4ebc-ab7b-9c1a77fe311d/aprenentatge_entre_iguals.pdf |
-| 21 | b6t4_9_regles_unesco_86da447368.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b6/b6t4_9_regles_unesco.pdf |
-| 23 | Full-indicadors-unitats-competencials_58f56ec799.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0029/f0b48627-bdc5-48e5-9b3c-4bceed129d61/Full-indicadors-unitats-competencials.pdf |
-| 24 | Escola-Banus-Interpretar-espai_52608fb445.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0056/7642a716-6e3e-4eca-9073-696cae007634/Escola-Banus-Interpretar-espai.pdf |
-| 25 | 07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL_e5c32476bf.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3e2d7305-7dfa-4a7b-9d8b-10d7c9ada24b/07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-
-*24 documents citats de 26 al corpus · secció generada automàticament*
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- Rose, D., & Meyer, A. (2002). *Teaching Every Student in the Digital Age: Universal Design for Learning*. Alexandria: ASCD.
+- Ruiz, R., Padrós, N., Pedragosa, N. (2008). *Ensenyament multinivell i disseny universal de l'aprenentatge*. Barcelona: Departament d'Educació.
+- Decret 150/2017, de 17 d'octubre, art. 8 (Mesures universals). DOGC núm. 7477.
+- UNESCO (2001). *Nou regles d'or per a aules inclusives*. XTEC: Recursos escola inclusiva (ateneu.xtec.cat).
+- Coelho, E. (2013). *Language and Learning in Multilingual Classrooms*. Bristol: Multilingual Matters.
