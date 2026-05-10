@@ -1,105 +1,157 @@
 ---
-title: "Els 7 rols de la IA en educació"
-module: M5
-id: M5_rols-IA-educacio
+modul: M5
+titol: "Catàleg: 7 rols de la IA en educació"
+tipus: cataleg
+descripcio: "Inventari dels 7 rols que pot adoptar la IA en activitats educatives (adaptació Mollick per a l'àmbit escolar), amb fitxa per rol, família d'ús (procesual/mixt/productiu), rang de delegació MIHIA nadiu i guia de selecció"
 review_status: esborrany
-version: "1.0"
-sources:
-  - docs/decisions/arquitectura-quest-rol-nivell.md
-  - public/exemples-rols-mihia.md
-  - docs/fonts/laia-knowledge/rols-interaccio-ia.md
-connections:
-  - M5_arquitectura-proposit-rol-nivell
-  - M5_proposits-aprenentatge
-  - M5_nivells-delegacio-mihia
-  - M2_carrega-friccio-cognitiva
-  - M5_disseny-instruccional-amb-IA
-detection:
-  - "Quan cal assignar un rol a la IA per a una activitat"
-  - "Quan cal triar quin rol és compatible amb un propòsit d'aprenentatge o un nivell de delegació"
-  - "Quan cal entendre per què un rol col·lapsa a certs nivells de delegació"
+generat_at: 2026-05-10T00:00:00
+paraules_clau: ["rols IA", "Mollick", "Mentor Socràtic", "Simulador", "Teachable Agent", "Contrincant", "disseny instruccional", "MIHIA"]
 ---
 
-# Els 7 rols de la IA en educació
+## Què és aquest catàleg
 
-> Document de referència per als skills: Assignador de Rols IA, Generador d'Activitats, Dissenyador d'Assistents
-> Substitueix: `rols-interaccio-ia.md` (versió LAIA)
+Inventari dels **7 rols** que pot adoptar la IA en activitats educatives, basat en l'adaptació de Mollick per a l'àmbit escolar (Jesuïtes Educació, 2026). Un **rol** defineix el comportament que la IA ha d'adoptar en una interacció concreta — no la tecnologia utilitzada, ni el nivell de delegació, sinó la **funció pedagògica** que compleix.
+
+El catàleg és consumit principalment per docents que dissenyen activitats i han de triar quin rol assignar a la IA, i per equips que dissenyen assistents institucionals i han de codificar un comportament de rol en el prompt de sistema.
+
+**Relació amb el disseny instruccional:** la tria de rol és el segon pas de l'arquitectura P>R>N, **posterior al propòsit d'aprenentatge** i previ a la tria del nivell MIHIA. El rol no es tria per la seva popularitat o comoditat, sinó perquè serveix el propòsit d'aprenentatge escollit. La instrucció operativa és: **dir "Usa la IA com a [Rol]", mai "usa ChatGPT"**. El rol defineix el comportament esperat; el prompt ha de codificar-lo.
+
+## Criteris d'inclusió
+
+Els 7 rols provenen de la classificació de Mollick, adaptada a l'àmbit escolar (Jesuïtes Educació, 2026).
+
+**Criteris de manteniment del catàleg:**
+- S'inclou un rol si defineix un comportament de la IA **diferenciable i pedagògicament justificable** que no es redueix a cap altre rol de la llista.
+- No s'inclouen rols purament tècnics (p. ex. "assistent de codi") sense funció d'aprenentatge pròpia.
+- La cardinalitat és **7**. La decisió de no fusionar ni eliminar cap rol va ser explícita (Xat 6, abril 2026): les 3 famílies estructurals (procesuals, mixtos, productius) donen prou organització sense reduir la granularitat.
+
+**Font canònica:** `M5_arquitectura-proposit-rol-nivell` + `exemples-rols-mihia.md` (21 exemples transversals: 7 rols × 3 etapes).
+
+## Inventari
+
+Els rols s'organitzen en **tres famílies** segons el rang de delegació MIHIA on funcionen de manera natural i el tipus de fricció cognitiva que indueixen.
+
+| Família | Rols | Rang nadiu | Comportament a N4 |
+|---|---|---|---|
+| **A — Procesual** | Mentor Socràtic, Teachable Agent, Contrincant | N2–N3 | ⚠️ Col·lapsen: l'alumne llegeix en comptes de pensar |
+| **B — Mixt** | Crític/Editor, Simulador | N2–N4 | Viable: canvia el tipus d'activitat cognitiva |
+| **C — Productiu** | Generador de Casos, Traductor/Adaptador | N3–N4 | Nadiu: la fricció resideix en l'activitat posterior |
 
 ---
 
-## Contingut
+### Mentor Socràtic
 
-### 1. Els 7 rols: adaptació Mollick per a l'àmbit escolar
+**Resum (1 línia):** La IA guia el pensament de l'alumne fent preguntes, sense donar mai respostes directes.
+**Quan aplica:** Pensament crític, discussió ètica, debat, aprofundiment conceptual.
+**Característiques:** Família A (procesual). Indueix Descoberta ★★ i Resistència ★★. La IA mai pren posició: sempre pregunta ("Per què creus que...?", "Quina evidència tens?").
+**Exemple:** ESO 2n cicle — debat sobre un dilema ètic de la IA; la IA desafia cada argument de l'alumne amb una nova pregunta fins que l'alumne ha de reconstruir la posició.
+**Conflictes/incompatibilitats:** Col·lapsa a N4: si la IA genera el diàleg complet, el rol perd el sentit pedagògic. No usar a N4 llevat que l'objectiu explícit sigui aprendre enginyeria de prompts, no el contingut del domini.
 
-| # | Rol | La IA actua com a... | Què fa | Quan usar-lo |
-|---|---|---|---|---|
-| 1 | **Mentor Socràtic** | Guia que pregunta | Fa preguntes per guiar el pensament, no dóna respostes directes | Pensament crític, ètica, debat, aprofundiment conceptual |
-| 2 | **Simulador / Actor** | Personatge o escenari | Representa situacions, personatges o contextos amb què l'alumne interactua | Història, llengües, ciències socials, FP (simulació professional) |
-| 3 | **Crític / Editor** | Revisor exigent | Avalua la feina de l'alumne, detecta errors i suggereix millores sense reescriure | Escriptura, projectes, codi, presentacions |
-| 4 | **Generador de Casos** | Creador de material | Genera exemples, dades, problemes, casos o escenaris per analitzar | Ciències, matemàtiques, economia, laboratori, FP |
-| 5 | **Teachable Agent** | "Alumne" que aprèn | L'alumne ensenya a la IA; la IA simula malentesos; l'alumne detecta els propis buits | Consolidació, autoavaluació, ciències, tècnica |
-| 6 | **Contrincant** | Devil's Advocate | Contradiu l'alumne sistemàticament per obligar-lo a argumentar i defensar posicions | Debat, argumentació, pensament crític, anàlisi literària |
-| 7 | **Traductor / Adaptador** | Personalitzador | Adapta contingut a nivells, llengües, formats o necessitats específiques | Inclusió, NEE, lectura fàcil, multilingüisme, vocabulari tècnic |
+---
 
-### 2. Les tres famílies de rols
+### Simulador / Actor
 
-L'anàlisi dels 21 exemples del document `exemples-rols-mihia.md` revela que els 7 rols es comporten diferentment segons el nivell de delegació. Aquesta diferència és estructural, no accidental:
+**Resum (1 línia):** La IA representa un personatge, rol professional o escenari amb què l'alumne interactua de manera realista.
+**Quan aplica:** Història, llengües, ciències socials, FP (simulació professional), jocs de rol amb finalitat d'aprenentatge.
+**Característiques:** Família B (mixt). Indueix Descoberta ★★ i Recursivitat ★★. Funciona tant en iteració (N2–N3) com en generació completa (N4) sense destruir l'essència del rol.
+**Exemple:** FP Grau Superior — la IA simula un client insatisfet en una atenció al públic; l'alumne ha de gestionar la situació professional en temps real, amb el docent observant.
+**Conflictes/incompatibilitats:** A N4 canvia el tipus d'activitat cognitiva: l'alumne avalua el producte de la simulació en comptes de viure-la. Cal explicitar al prompt el nivell de realisme i les restriccions del personatge.
 
-#### Rols procesuals (N2-N3 nadiu, col·lapsen a N4)
+---
 
-**Rols**: Mentor Socràtic, Teachable Agent, Contrincant
+### Crític / Editor
 
-**Per què col·lapsen a N4**: la seva essència és el **procés d'interacció** — l'alumne pensa, pregunta, defensa, ensenya. A N4, la IA genera el diàleg complet i el rol perd la seva raó de ser: l'alumne ja no pensa, llegeix un producte.
+**Resum (1 línia):** La IA avalua la feina de l'alumne, detecta errors i suggereix millores, sense reescriure per l'alumne.
+**Quan aplica:** Escriptura, projectes, codi, presentacions — qualsevol producció on cal retroalimentació específica i exigent.
+**Característiques:** Família B (mixt). Indueix principalment Recursivitat ★★. La restricció clau és "suggerir sense reescriure": si la IA reescriu, el rol es degrada a Generador i l'alumne perd l'autoria.
+**Exemple:** Batxillerat — l'alumne entrega un esborrany d'assaig filosòfic; la IA assenyala incoherències lògiques i preguntes sense respondre, però no escriu cap frase nova.
+**Conflictes/incompatibilitats:** Cal formular el prompt de manera que prohibeixi explícitament la reescriptura. Funciona a N2–N4 però el valor pedagògic màxim és a N2–N3.
 
-**Implicació operativa**: aquests rols no haurien d'usar-se a N4 llevat que l'objectiu explícit sigui aprendre enginyeria de prompts, no el contingut del domini.
+---
 
-**Indicador de fricció**: indueixen principalment **Resistència** (l'alumne defensa posicions) i **Descoberta** (l'alumne veu buits que no veia).
+### Generador de Casos
 
-#### Rols mixtos (N2-N4 viable)
+**Resum (1 línia):** La IA crea exemples, dades, problemes o escenaris nous per analitzar o resoldre.
+**Quan aplica:** Ciències, matemàtiques, economia, laboratori, FP — quan cal material fresc i divers per a anàlisi autònoma de l'alumne.
+**Característiques:** Família C (productiu). N3–N4 nadiu. La fricció productiva no resideix en la interacció amb la IA sinó en l'activitat posterior (anàlisi dels casos generats). A N2 queda limitat: no s'aprofita la naturalesa productiva del rol.
+**Exemple:** ESO Ciències — la IA genera 5 casos de contaminació de sòls amb dades variades i context diferent; l'alumne analitza, compara i extreu conclusions per compte seu.
+**Conflictes/incompatibilitats:** No usar quan el procés de generació de casos és en si mateix l'objectiu d'aprenentatge; en aquest cas, l'alumne hauria de generar-los.
 
-**Rols**: Crític / Editor, Simulador
+---
 
-**Per què funcionen a N4**: poden operar tant en iteració (N2-N3, l'alumne revisa i millora) com en generació completa (N4, l'alumne rep un producte per avaluar). El canvi de nivell no destrueix l'essència del rol, sinó que canvia el tipus d'activitat cognitiva.
+### Teachable Agent
 
-**Indicador de fricció**: indueixen principalment **Recursivitat** (iteració fins estabilitzar) i **Descoberta** (veure el que no es veia).
+**Resum (1 línia):** La IA simula ser un "alumne" que aprèn: l'alumne li explica conceptes, la IA simula malentesos, l'alumne detecta els seus propis buits.
+**Quan aplica:** Consolidació d'aprenentatge, autoavaluació, comprensió conceptual profunda — especialment ciències i tècnica.
+**Característiques:** Família A (procesual). Indueix Descoberta ★★ i Resistència ★★. El mecanisme *learning by teaching* és molt efectiu: ensenyar obliga a estructurar i a detectar llacunes que la simple lectura amaga.
+**Exemple:** Primària Superior (guiat, N1) — l'alumne explica el cicle de l'aigua a la IA-alumne; la IA pregunta "però llavors on va l'aigua quan s'evapora?", forçant l'alumne a aprofundir.
+**Conflictes/incompatibilitats:** Col·lapsa a N4. Requereix un disseny de prompt acurat perquè la IA mantingui el rol d'"alumne confós" sense derrapar cap a "professor que explica".
 
-#### Rols productius (N3-N4 nadiu, N2 queda limitat)
+---
 
-**Rols**: Generador de Casos, Traductor / Adaptador
+### Contrincant
 
-**Per què N4 és l'hàbitat natural**: la seva naturalesa és **produir** — material, adaptacions, traduccions. La fricció productiva es trasllada al moment en què l'alumne **treballa amb** el producte generat, no a la interacció amb la IA mateixa.
+**Resum (1 línia):** La IA contradiu sistemàticament l'alumne (*devil's advocate*) per obligar-lo a argumentar i defensar les seves posicions.
+**Quan aplica:** Debat, argumentació, pensament crític, anàlisi literària, dilemes ètics — quan l'objectiu és que l'alumne construeixi arguments sòlids sota pressió.
+**Característiques:** Família A (procesual). Indueix Resistència ★★ (principal) i Recursivitat ★★. Similar al Mentor Socràtic però actiu: no pregunta, contraataca amb arguments.
+**Exemple:** ESO 4t — l'alumne defensa una posició sobre una qüestió d'actualitat; la IA presenta contra-arguments de complexitat progressiva fins que l'alumne ha de revisar o enfortir la seva postura.
+**Conflictes/incompatibilitats:** Col·lapsa a N4. Pot ser frustrant per a alumnes amb baixa autoeficàcia; el docent ha d'assegurar-se que el nivell de resistència és desafiador però no bloquejant.
 
-**Indicador de fricció**: la fricció no resideix en la interacció amb la IA, sinó en l'activitat posterior (anàlisi dels casos generats, verificació de l'adaptació).
+---
 
-### 3. Comportament dels rols per nivell de delegació
+### Traductor / Adaptador
 
-| Rol | N0 | N1 | N2 | N3 | N4 | N5 |
-|---|---|---|---|---|---|---|
-| **Mentor Socràtic** | — | Context | **Ús nadiu** | **Ús nadiu** | ⚠️ Col·lapse | Meta-disseny |
-| **Simulador** | — | Context | **Ús nadiu** | **Ús nadiu** | Viable amb risc | Meta-disseny |
-| **Crític / Editor** | — | Context | **Ús nadiu** | **Ús nadiu** | Viable | Meta-disseny |
-| **Generador de Casos** | — | Context | Limitat | **Ús nadiu** | **Ús nadiu** | Meta-disseny |
-| **Teachable Agent** | — | Context | **Ús nadiu** | **Ús nadiu** | ⚠️ Col·lapse | Meta-disseny |
-| **Contrincant** | — | Context | **Ús nadiu** | **Ús nadiu** | ⚠️ Col·lapse | Meta-disseny |
-| **Traductor / Adaptador** | — | Context | Limitat | **Ús nadiu** | **Ús nadiu** | Meta-disseny |
+**Resum (1 línia):** La IA adapta contingut a nivells, llengües, formats o necessitats específiques de l'alumne o el context.
+**Quan aplica:** Inclusió, NEE, lectura fàcil, multilingüisme, adaptació de vocabulari tècnic, diferenciació curricular.
+**Característiques:** Família C (productiu). N3–N4 nadiu. La fricció productiva resideix en l'activitat posterior: l'alumne treballa amb el contingut adaptat, no en la interacció amb la IA. A N2 queda limitat.
+**Exemple:** M3 — la IA adapta un text científic a lectura fàcil per a alumnat amb dificultats de comprensió lectora; el docent verifica la precisió de l'adaptació i l'alumne el llegeix i respon preguntes de comprensió.
+**Conflictes/incompatibilitats:** Cal especificar clarament el perfil d'adaptació al prompt (nivell, necessitat, format); una instrucció vaga genera adaptacions genèriques ineficaces.
 
-**Llegenda**:
-- **Ús nadiu**: el rol funciona amb sentit pedagògic ple a aquest nivell
-- **Viable**: funciona però amb canvi de tipus d'activitat cognitiva
-- ⚠️ **Col·lapse**: el rol perd l'essència; l'alumne ja no pensa, llegeix
-- **Limitat**: la naturalesa productiva del rol no s'aprofita plenament
-- **Context**: la IA proporciona informació, no encarna el rol
-- **Meta-disseny**: l'alumne dissenya el sistema (N5 = alfabetització IA, no contingut)
+---
 
-### 4. Regles d'assignació de rols
+## Com triar entre les opcions
 
-1. **Dir "Usa la IA com a [Rol]"**, mai "usa ChatGPT". El rol defineix el comportament esperat.
-2. **El rol determina el prompt**: un Mentor Socràtic requereix un prompt diferent d'un Generador de Casos. El prompt ha de codificar el comportament del rol.
-3. **El rol ha de ser coherent amb el nivell MIHIA**: un Teachable Agent implica N1-N3, mai N4. Un Generador de Casos pot ser N3-N4.
-4. **Es poden seqüenciar rols** dins d'una mateixa activitat: Fase 1 (Generador → material) → Fase 2 (Mentor Socràtic → anàlisi) → Fase 3 (Crític → refinament).
-5. **Verificar la família del rol** abans d'assignar un nivell: si és un rol procesual, N4 col·lapsa el sentit pedagògic.
+**Pas 1 — Propòsit-first.** La pregunta no és "quin rol vull usar?" sinó "quin rol serveix millor el propòsit d'aprenentatge que he definit?". El propòsit determina el rol, mai a l'inrevés.
 
-### 5. Matriu Rol × Moviment de Fricció
+**Pas 2 — Verificar la família.** Un rol procesual (Mentor Socràtic, Teachable Agent, Contrincant) no funciona a N4: col·lapsa. Si el nivell de delegació que necessites és N4, tria un rol productiu o mixt.
+
+**Pas 3 — Guia ràpida per objectiu:**
+
+| Si l'objectiu és... | Rol recomanat | Família |
+|---|---|---|
+| Aprofundir en un concepte | Mentor Socràtic | Procesual |
+| Practicar una situació real | Simulador | Mixt |
+| Millorar un treball propi | Crític / Editor | Mixt |
+| Analitzar dades o casos | Generador de Casos | Productiu |
+| Consolidar aprenentatge | Teachable Agent | Procesual |
+| Argumentar i defensar | Contrincant | Procesual |
+| Adaptar a necessitats | Traductor / Adaptador | Productiu |
+
+**Pas 4 — Seqüenciar rols.** Es poden combinar rols dins una mateixa activitat: Fase 1 (Generador → material) → Fase 2 (Mentor Socràtic → anàlisi) → Fase 3 (Crític → refinament).
+
+**Per etapa educativa:**
+
+| Etapa | Nivells MIHIA predominants | Rols prioritaris |
+|---|---|---|
+| ESO 1r cicle (12–14) | N0–N2 | Mentor Socràtic, Teachable Agent, Crític |
+| ESO 2n cicle (14–16) | N1–N3 | Tots, èmfasi en Crític i Simulador |
+| Batxillerat (16–18) | N1–N4 | Contrincant, Generador de Casos, Cocreació |
+| FP Grau Mitjà | N1–N4 contextual | Simulador, Adaptador, Generador (cas tècnic) |
+| FP Grau Superior | N2–N5 | Tots, incloent disseny d'agents (N5) |
+
+## Relació amb altres catàlegs
+
+Aquest catàleg forma part del **sistema P>R>N** (Propòsit–Rol–Nivell), el marc arquitectònic de disseny d'activitats amb IA de Jesuïtes Educació:
+
+| Catàleg del sistema | Pregunta que respon | Relació amb aquest |
+|---|---|---|
+| `M5_proposits-aprenentatge` | Què ha d'aprendre l'alumne cognitivament? | El propòsit determina quin rol triar (sempre Propòsit-first) |
+| `M5_rols-IA-educacio` | **Com ha d'actuar la IA?** | **Aquest catàleg** |
+| `M5_nivells-delegacio-mihia` | Quanta autonomia cedeix l'alumne a la màquina? | El rang nadiu de cada rol condiciona quins nivells MIHIA són compatibles |
+
+La matriu Propòsit × Rol (quins rols serveixen cada propòsit d'aprenentatge) es troba a `M5_arquitectura-proposit-rol-nivell`, que és la clau de volta del sistema.
+
+**Matriu Rol × Moviment de fricció** (resum orientatiu):
 
 | Rol | Descoberta | Recursivitat | Resistència |
 |---|---|---|---|
@@ -111,57 +163,30 @@ L'anàlisi dels 21 exemples del document `exemples-rols-mihia.md` revela que els
 | Contrincant | ★ | ★★ | ★★ |
 | Traductor / Adaptador | ★ | ★ | — |
 
-★★ = moviment principal, ★ = moviment secundari, — = no induït típicament.
+★★ = moviment principal · ★ = moviment secundari · — = no induït típicament
 
-### 6. Recomanacions per etapa
+## 3. Connexions
 
-| Etapa | Nivells MIHIA predominants | Rols prioritaris |
-|---|---|---|
-| **ESO 1r cicle** (12-14) | N0-N2 | Mentor Socràtic, Teachable Agent, Crític |
-| **ESO 2n cicle** (14-16) | N1-N3 | Tots, èmfasi en Crític i Simulador |
-| **Batxillerat** (16-18) | N1-N4 segons objectiu | Contrincant, Generador de Casos, Cocreació |
-| **FP Grau Mitjà** | N1-N4 contextual | Simulador, Adaptador, Generador (cas tècnic) |
-| **FP Grau Superior** | N2-N5 segons mòdul | Tots, incloent disseny d'agents (N5) |
+- `M5_arquitectura-proposit-rol-nivell` — Els rols són la capa d'implementació de l'arquitectura P>R>N; aquí es troba la matriu Propòsit × Rol i la jerarquia completa del sistema.
+- `M5_proposits-aprenentatge` — Catàleg de propòsits d'aprenentatge; la tria de rol sempre és posterior a la tria de propòsit.
+- `M5_nivells-delegacio-mihia` — Catàleg de nivells MIHIA N0–N5; el rang nadiu de cada rol i el col·lapse a N4 dels rols procesuals.
+- `M2_carrega-friccio-cognitiva` — Marc teòric de base: les 3 famílies de rols deriven de l'anàlisi de quina càrrega cognitiva externalitzen i quina fricció generen.
+- `M5_disseny-instruccional-amb-IA` — Protocol que usa aquest catàleg en el pas 2 del disseny instruccional.
 
-### 7. Guia ràpida: quin rol per a quin objectiu?
-
-| Si l'objectiu és... | Rol recomanat | Per què |
-|---|---|---|
-| Aprofundir en un concepte | Mentor Socràtic | Guia sense donar respostes; indueix Descoberta |
-| Practicar una situació real | Simulador | Context segur per experimentar; indueix Recursivitat |
-| Millorar un treball propi | Crític / Editor | Feedback específic sense reescriure; indueix Recursivitat |
-| Analitzar dades o casos | Generador de Casos | Material fresc i divers per a anàlisi autònoma |
-| Consolidar aprenentatge | Teachable Agent | Ensenyar = aprendre millor; indueix Resistència + Descoberta |
-| Argumentar i defensar | Contrincant | Obliga a justificar posicions; indueix Resistència |
-| Adaptar a necessitats | Traductor / Adaptador | Personalització (NEE, llengües, nivells) |
-
----
-
-## Connexions
-
-| Document | Relació |
-|---|---|
-| `M5_arquitectura-proposit-rol-nivell` | Els rols són la **capa d'implementació** dins l'arquitectura P>R>N |
-| `M5_proposits-aprenentatge` | La matriu Propòsit × Rol determina quins rols serveixen cada propòsit d'aprenentatge |
-| `M5_nivells-delegacio-mihia` | El rang de nivells nadius de cada rol i el col·lapse a N4 dels procesuals |
-| `M2_carrega-friccio-cognitiva` | Les 3 famílies deriven de l'anàlisi de quina càrrega externalitzen i quina fricció generen |
-| `exemples-rols-mihia.md` | 21 exemples concrets (7 rols × 3 etapes × 6 nivells), cadascun amb propòsit d'aprenentatge assignat |
-
-> **Decisió Xat 6 (abril 2026):** es mantenen els 7 rols originals (Mollick). Les 3 famílies (procesuals, mixtos, productius) donen prou estructura. Cap fusió ni eliminació.
-
----
-
-## Detecció
+## 4. Detecció
 
 Activar aquest document quan:
 
-- Cal **triar quin rol** assignar a la IA per a una activitat
-- Cal entendre per què un **rol procesual no funciona a N4**
-- Cal **seqüenciar rols** dins d'una activitat o tasca complexa
-- Cal verificar la **coherència entre rol i nivell MIHIA**
-- Cal **dissenyar un assistent institucional** alineat amb rols explícits (Criteri E d'assistents)
-- Cal escriure un **prompt pedagògic** que codifiqui el comportament d'un rol
+- Cal **triar quin rol** assignar a la IA per a una activitat concreta.
+- Cal entendre per què un **rol procesual no funciona a N4** (col·lapse del sentit pedagògic).
+- Cal **seqüenciar rols** dins d'una activitat o tasca complexa.
+- Cal verificar la **coherència entre el rol triat i el nivell MIHIA** de delegació.
+- Cal **dissenyar un assistent institucional** amb comportament alineat a un rol explícit.
+- Cal escriure un **prompt pedagògic** que codifiqui el comportament d'un rol.
 
----
+## 5. Fonts
 
-*Versió 1.0 · Esborrany · Jesuïtes Educació Catalunya · 2026*
+- Mollick, E. (2024). *Co-intelligence: Living and Working with AI*. Portfolio/Penguin. — Font dels 7 rols originals, adaptats per FJE a l'àmbit escolar.
+- Jesuïtes Educació / MAGINIA (2026). *Arquitectura Propòsit-Rol-Nivell — Decisions de disseny* (Xat 6, abril 2026). Document intern.
+- `exemples-rols-mihia.md` (MAGINIA/public) — 21 exemples concrets (7 rols × 3 etapes) que van generar l'anàlisi de les 3 famílies estructurals.
+- `docs/decisions/arquitectura-quest-rol-nivell.md` — ADR intern: decisió de mantenir els 7 rols sense fusionar.

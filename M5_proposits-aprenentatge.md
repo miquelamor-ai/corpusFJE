@@ -1,161 +1,163 @@
 ---
-title: "10 propòsits d'aprenentatge: missions pedagògiques per a activitats amb IA"
-module: M5
-id: M5_proposits-aprenentatge
+modul: M5
+titol: "Catàleg: 10 propòsits d'aprenentatge per a activitats amb IA"
+tipus: cataleg
+descripcio: "Inventari dels 10 propòsits d'aprenentatge (missions pedagògiques) que defineixen la intenció cognitiva d'una activitat amb IA, organitzats en 3 famílies (Comprendre, Avaluar, Fer), amb fitxa per propòsit, moviment de fricció associat i rols nadius de la matriu P×R"
 review_status: esborrany
-version: "1.0"
-sources:
-  - docs/decisions/arquitectura-quest-rol-nivell.md
-connections:
-  - M5_arquitectura-proposit-rol-nivell
-  - M5_rols-IA-educacio
-  - M5_nivells-delegacio-mihia
-  - M2_carrega-friccio-cognitiva
-  - M5_disseny-instruccional-amb-IA
-detection:
-  - "Quan un docent vol dissenyar una activitat amb IA i necessita definir la intenció pedagògica"
-  - "Quan cal triar quin propòsit d'aprenentatge serveix un objectiu concret"
-  - "Quan cal connectar un propòsit d'aprenentatge amb els Rols i Nivells compatibles"
+generat_at: 2026-05-10T00:00:00
+paraules_clau: ["propòsits d'aprenentatge", "missions pedagògiques", "P>R>N", "fricció cognitiva", "ICAP", "Anchor", "Clarity", "Critique", "disseny instruccional", "Mollick"]
 ---
 
-# 10 propòsits d'aprenentatge: missions pedagògiques per a activitats amb IA
+## Què és aquest catàleg
 
-> **Nota terminològica (abril 2026):** el terme genèric "Quest" s'ha substituït per **"propòsit d'aprenentatge"**. Els noms propis dels 10 propòsits individuals (Anchor, Clarity, Compare, etc.) es mantenen en anglès, com a referència a Khan, Fisher, Frey, Marshall & Hargrave (2025). L'arquitectura passa a denominar-se **Propòsit-Rol-Nivell**.
+Un **propòsit d'aprenentatge** és una missió pedagògica que defineix la intenció d'una activitat amb IA. Respon la pregunta del docent: **"Què vull que passi cognitivament en aquesta activitat?"**
 
-> Document de referència per als skills: Generador d'Activitats, Dissenyador d'Assistents
-> Font: Khan, Fisher, Frey, Marshall & Hargrave (2025)
+Els propòsits d'aprenentatge són el **concepte de primer nivell** de l'arquitectura Propòsit–Rol–Nivell: no defineixen com actua la IA (això ho fan els Rols) ni quanta autonomia cedeix l'alumne (això ho fan els Nivells). Defineixen l'**objectiu cognitiu** de la interacció.
 
----
+El catàleg és consumit principalment per docents que han de triar un propòsit com a punt de partida del disseny instruccional, i per assistents institucionals que han de seleccionar quina intenció pedagògica activa la interacció.
 
-## Contingut
+> **Nota terminològica (abril 2026):** el terme genèric "Quest" s'ha substituït per "propòsit d'aprenentatge". Els noms individuals dels 10 propòsits (Anchor, Clarity, Compare, etc.) es mantenen en anglès com a referència a Khan, Fisher, Frey, Marshall i Hargrave (2025).
 
-### 1. Què és un propòsit d'aprenentatge
+## Criteris d'inclusió
 
-Un propòsit d'aprenentatge és una **missió pedagògica** que defineix la intenció d'una activitat amb IA. Respon la pregunta del docent: **"Què vull que passi cognitivament en aquesta activitat?"**
+Els 10 propòsits provenen de la classificació de Khan, Fisher, Frey, Marshall i Hargrave (2025), adaptada per Jesuïtes Educació (2026).
 
-Els propòsits d'aprenentatge són el **concepte de primer nivell** de l'arquitectura Propòsit-Rol-Nivell. No defineixen com actua la IA (això ho fan els Rols) ni quanta autonomia cedeix l'alumne (això ho fan els Nivells). Defineixen **l'objectiu cognitiu**.
+**Criteris de manteniment del catàleg:**
+- S'inclou un propòsit si defineix un **objectiu cognitiu diferenciable** que no es redueix a cap altre propòsit de la llista.
+- La cardinalitat és **10**. La decisió de no consolidar a 6-7 és explícita (Xat 6, abril 2026): cada propòsit ocupa un nínxol cognitiu distint i qualsevol fusió perd un matís rellevant. Les 3 famílies resolen el problema de navegació sense perdre granularitat.
+- Les 3 famílies es fonamenten en la taxonomia de Fink (2003) pel seu caràcter no jeràrquic, en diàleg amb les bandes de Bloom (Anderson & Krathwohl, 2001) per al seu reconeixement entre docents.
 
-### 2. Els 10 propòsits d'aprenentatge
+**Font canònica:** Khan, Fisher, Frey, Marshall i Hargrave (2025); `docs/decisions/arquitectura-quest-rol-nivell.md`.
 
-#### Anchor (Ancoratge)
+## Inventari
 
-**Intenció**: activar coneixements previs i connectar-los amb nous aprenentatges.
+Els 10 propòsits s'organitzen en **tres famílies** que redueixen la càrrega cognitiva de navegació:
 
-L'alumne parteix del que ja coneix i la IA ajuda a fer visible la connexió amb el que ha d'aprendre. La fricció productiva resideix en la **Descoberta**: l'alumne veu relacions que no havia vist.
+| Família | Intenció | Propòsits | Moviment de fricció dominant |
+|---|---|---|---|
+| **Comprendre** | Construir significat | Anchor, Clarity, Reverse | Descoberta |
+| **Avaluar** | Jutjar, defensar, comparar | Compare, Critique, Perspective | Resistència |
+| **Fer** | Produir, progressar, créixer | Level-Up, Repte integrador, Right-Sizing, Growth | Recursivitat |
 
-**Exemple**: "Abans de començar el tema de genètica, escriu el que saps sobre herència. Després pregunta a la IA quines connexions veu entre el que has escrit i el concepte de gen."
-
-#### Clarity (Clarificació)
-
-**Intenció**: aclarir conceptes, corregir malentesos, arribar a comprensió precisa.
-
-L'alumne intenta explicar un concepte i la IA l'ajuda a refinar la seva comprensió mitjançant preguntes o feedback. La fricció productiva resideix en la **Recursivitat**: iteració fins que el significat s'estabilitza.
-
-**Exemple**: "Explica amb les teves paraules la diferència entre mitosi i meiosi. La IA et farà preguntes per veure si realment ho has entès."
-
-#### Compare (Comparació)
-
-**Intenció**: establir semblances, diferències i relacions entre conceptes, teories o fenòmens.
-
-L'alumne analitza elements i la IA genera contraexemples, casos límit o perspectives alternatives que forcen una comparació més profunda. La fricció resideix en la **Descoberta**: buits i matisos que emergeixen de la comparació.
-
-**Exemple**: "Compara el feudalisme europeu amb el sistema daimyō japonès. La IA et generarà un tercer cas (Imperi Otomà) perquè trobis patrons comuns."
-
-#### Critique (Avaluació crítica)
-
-**Intenció**: avaluar qualitat, coherència, validesa o fiabilitat d'un contingut, argument o producte.
-
-L'alumne jutja i la IA actua com a provocadora intel·lectual o com a font de material per avaluar. La fricció resideix en la **Resistència**: l'alumne ha de justificar el seu judici.
-
-**Exemple**: "Llegeix aquest article sobre el canvi climàtic. Identifica 3 arguments febles. Després la IA t'oferirà una defensa d'aquests arguments i hauràs de respondre."
-
-#### Growth (Creixement personal)
-
-**Intenció**: desenvolupar hàbits metacognitius, autoregulació, resiliència o habilitats socioemocionals.
-
-L'alumne reflexiona sobre el seu propi procés d'aprenentatge i la IA ofereix mirall, feedback o preguntes d'autoconeixement. La fricció resideix en la **Descoberta** interna: veure's a un mateix amb més claredat.
-
-**Exemple**: "Descriu com has resolt l'últim problema difícil que has tingut. La IA et farà preguntes sobre les teves estratègies i et suggerirà alternatives."
-
-#### Level-Up (Progressió)
-
-**Intenció**: avançar progressivament en dificultat dins d'un domini, amb reptes calibrats.
-
-L'alumne practica i la IA adapta la dificultat segons el rendiment. La fricció resideix en la calibració: la dificultat és sempre lleugerament per sobre del nivell actual (zona de desenvolupament proper).
-
-**Exemple**: "Resol equacions de primer grau. La IA et genera exercicis cada cop més difícils segons els errors que comets."
-
-#### Repte integrador (*Mission*)
-
-**Intenció**: resoldre un repte complex, autèntic i contextualitzat que requereix mobilitzar múltiples competències.
-
-L'alumne s'enfronta a un escenari real o simulat i la IA proporciona context, actors o dades. La fricció resideix en la **Recursivitat**: el repte requereix múltiples iteracions i decisions.
-
-**Exemple**: "Ets l'equip de gestió d'un hospital durant una crisi sanitària. La IA simula les conseqüències de les teves decisions."
-
-#### Perspective (Perspectiva)
-
-**Intenció**: explorar múltiples punts de vista sobre un tema complex, desenvolupar empatia intel·lectual.
-
-L'alumne considera perspectives diverses i la IA encarna posicions o actors que l'alumne no consideraria per si sol. La fricció resideix en la **Resistència**: l'alumne ha de dialogar amb perspectives incòmodes.
-
-**Exemple**: "La IA actuarà com 3 personatges diferents (un empresari, un ecologista, un treballador) que opinen sobre la deslocalització industrial. Tu has de trobar punts de consens."
-
-#### Reverse (Enginyeria inversa)
-
-**Intenció**: descompondre un producte, argument o solució per entendre com funciona per dins.
-
-L'alumne analitza un resultat i intenta reconstruir el procés que l'ha generat. La IA proporciona el producte; l'alumne ha de desfer-lo. La fricció resideix en la **Descoberta**: el mecanisme intern es fa visible.
-
-**Exemple**: "La IA et dóna un poema. Tu has d'identificar-ne els recursos estilístics, l'estructura i el tema. Després escriuràs el teu propi poema usant la mateixa estructura."
-
-#### Right-Sizing (Ajustament)
-
-**Intenció**: adaptar un contingut, producte o solució a un context, audiència o necessitat específica.
-
-L'alumne pren un material i l'ajusta conscientment a un destinatari concret. La IA pot fer l'adaptació tècnica, però l'alumne pren les decisions sobre què canviar i per què. La fricció resideix en el judici: què és essencial i què és accessori.
-
-**Exemple**: "Tens un text sobre nutrició escrit per a adults. Adapta'l per a alumnes de 10 anys. La IA et pot ajudar amb el vocabulari, però tu decideixes quins conceptes simplificar i quins mantenir."
+La consonància entre famílies i moviments de fricció és una propietat emergent del sistema (no una imposició teòrica): en creuar els 10 propòsits amb la taula de fricció cognitiva, el patró apareix de manera natural.
 
 ---
 
-### 3. Les 3 famílies de propòsits
+### Anchor (Ancoratge)
 
-Per facilitar la navegació del docent, els 10 propòsits s'organitzen en tres famílies funcionals:
+**Resum (1 línia):** L'alumne activa coneixements previs i la IA l'ajuda a connectar-los visiblement amb el nou aprenentatge.
+**Quan aplica:** Inici de tema o unitat; quan l'alumne ja té intuïcions però no les ha articulat; quan cal fer emergir coneixement implícit.
+**Característiques:** Família Comprendre. Moviment de fricció: Descoberta. Càrrega externalitzada: extrínseca (organització). Mode ICAP: Constructive.
+**Exemple:** "Escriu el que saps sobre herència. Després pregunta a la IA quines connexions veu entre el que has escrit i el concepte de gen."
+**Rols nadius:** Mentor Socràtic ★★, Teachable Agent ★★, Generador de Casos ★.
 
-| Família | Intenció | Propòsits |
-|---|---|---|
-| **Comprendre** | Construir significat | Anchor, Clarity, Reverse |
-| **Avaluar** | Jutjar, defensar, comparar | Compare, Critique, Perspective |
-| **Fer** | Produir, progressar, créixer | Level-Up, Repte integrador (*Mission*), Right-Sizing, Growth |
+---
 
-El docent tria primer la família (3 opcions), després el propòsit dins la família (3-4 opcions). Això redueix la càrrega cognitiva de triar d'un llistat pla de 10 elements.
+### Clarity (Clarificació)
 
-#### Fonamentació de les 3 famílies
+**Resum (1 línia):** L'alumne explica un concepte i la IA l'ajuda a refinar la comprensió fins que el significat s'estabilitza.
+**Quan aplica:** Quan l'alumne creu que entén però la comprensió és superficial o imprecisa; quan cal fer emergir els malentesos.
+**Característiques:** Família Comprendre. Moviment de fricció: Recursivitat. Càrrega externalitzada: extrínseca (formulació de preguntes). Mode ICAP: Interactive.
+**Exemple:** "Explica amb les teves paraules la diferència entre mitosi i meiosi. La IA et farà preguntes per verificar que realment ho has entès."
+**Rols nadius:** Mentor Socràtic ★★, Teachable Agent ★★, Crític/Editor ★.
 
-Les tres famílies s'inspiren en la **taxonomia de Fink (2003)** pel seu caràcter explícitament no jeràrquic — les sis dimensions de Fink (*Foundational Knowledge, Application, Integration, Human Dimension, Caring, Learning How to Learn*) interactuen sense ordre obligat, igual que les nostres famílies són opcions paral·leles, no una escala. Alhora, dialoguen amb les **bandes de la taxonomia revisada de Bloom (Anderson & Krathwohl, 2001)** pel seu reconeixement universal entre docents:
+---
 
-| Família | Dimensions Fink | Bandes Bloom |
-|---|---|---|
-| **Comprendre** | Foundational Knowledge | Remember + Understand |
-| **Avaluar** | Integration | Analyze + Evaluate |
-| **Fer** | Application + Human Dimension + Learning How to Learn | Apply + Create |
+### Compare (Comparació)
 
-A més, les 3 famílies mostren **consonància empírica amb els moviments de fricció productiva** del propi marc (`M2_carrega-friccio-cognitiva`): el moviment de fricció *dominant* de cada família coincideix amb un dels tres moviments de Novokshanova:
+**Resum (1 línia):** L'alumne estableix semblances, diferències i relacions entre conceptes, i la IA introdueix casos nous que aprofundeixen la comparació.
+**Quan aplica:** Quan cal construir comprensió estructural d'un camp; quan l'alumne veu elements aïllats però no les relacions entre ells.
+**Característiques:** Família Avaluar. Moviment de fricció: Descoberta. Càrrega externalitzada: extrínseca (cerca i generació de casos). Mode ICAP: Constructive.
+**Exemple:** "Compara el feudalisme europeu amb el sistema daimyō japonès. La IA et generarà un tercer cas (Imperi Otomà) perquè trobis patrons comuns."
+**Rols nadius:** Generador de Casos ★★, Crític/Editor ★, Mentor Socràtic ★.
 
-| Família | Moviment de fricció dominant | Operació cognitiva |
-|---|---|---|
-| **Comprendre** | **Descoberta** | L'alumne veu connexions que no veia |
-| **Avaluar** | **Resistència** | L'alumne defensa posicions i justifica judicis |
-| **Fer** | **Recursivitat** | L'alumne itera fins a estabilitzar un producte |
+---
 
-Aquesta consonància no és una imposició teòrica sinó una propietat emergent del sistema: en creuar els 10 propòsits amb la taula de fricció (§5), el patró apareix de manera natural. No és 1:1 perfecte (Clarity té Recursivitat, Compare té Descoberta), però el moviment dominant de cada família sí que coincideix.
+### Critique (Avaluació crítica)
 
-> **Decisió Xat 6 (abril 2026):** es mantenen els 10 propòsits originals de Khan, Fisher, Frey, Marshall & Hargrave (2025). No es consoliden a 6-7 perquè cada propòsit ocupa un nínxol cognitiu distint i qualsevol fusió perd un matís rellevant. Les 3 famílies resolen el problema de navegació sense perdre granularitat. Fonamentació: Fink (2003) com a marc no jeràrquic, Bloom (2001) com a referència universal, moviments de fricció com a validació interna.
+**Resum (1 línia):** L'alumne jutja la qualitat, coherència o validesa d'un contingut o argument, i la IA el desafia a defensar i justificar el judici.
+**Quan aplica:** Pensament crític, avaluació de fonts, debat, anàlisi d'arguments; quan l'objectiu és que l'alumne no accepti passivament.
+**Característiques:** Família Avaluar. Moviment de fricció: Resistència. Càrrega externalitzada: cap o extrínseca mínima. Mode ICAP: Interactive.
+**Exemple:** "Llegeix aquest article sobre canvi climàtic. Identifica 3 arguments febles. La IA defensarà aquests arguments i hauràs de respondre."
+**Rols nadius:** Contrincant ★★, Crític/Editor ★★, Mentor Socràtic ★.
 
-### 4. Matriu d'afinitats Propòsit × Rol
+---
 
-Cada propòsit d'aprenentatge admet un subconjunt de Rols. La correspondència no és 1:1 ni N:N pur; és una **matriu dispersa d'afinitats**:
+### Growth (Creixement personal)
+
+**Resum (1 línia):** L'alumne reflexiona sobre el seu propi procés d'aprenentatge i la IA ofereix un mirall que fa visible el progrés metacognitiu.
+**Quan aplica:** Metacognició, autoregulació, resiliència, habilitats socioemocionals; quan l'objectiu és que l'alumne es vegi a si mateix amb més claredat.
+**Característiques:** Família Fer. Moviment de fricció: Descoberta interna. Mode ICAP: Constructive. La càrrega intrínseca és purament metacognitiva; la IA no substitueix la reflexió.
+**Exemple:** "Descriu com has resolt l'últim problema difícil que has tingut. La IA et farà preguntes sobre les teves estratègies i et suggerirà alternatives."
+**Rols nadius:** Crític/Editor ★★, Generador de Casos ★, Contrincant ★.
+
+---
+
+### Level-Up (Progressió)
+
+**Resum (1 línia):** L'alumne practica i la IA adapta la dificultat dels reptes segons el rendiment, mantenint sempre una dificultat calibrada.
+**Quan aplica:** Pràctica deliberada, adquisició de procediments, millora de fluïdesa; quan cal que la dificultat sigui lleugerament per sobre del nivell actual (zona de desenvolupament proper).
+**Característiques:** Família Fer. Moviment de fricció: Recursivitat. Càrrega externalitzada: extrínseca (generació i calibratge d'exercicis). Mode ICAP: Active → Constructive.
+**Exemple:** "Resol equacions de primer grau. La IA et genera exercicis cada cop més difícils segons els errors que comets."
+**Rols nadius:** Generador de Casos ★★, Simulador ★, Traductor/Adaptador ★.
+
+---
+
+### Repte integrador (*Mission*)
+
+**Resum (1 línia):** L'alumne resol un repte complex i autèntic que requereix mobilitzar múltiples competències en un context realista.
+**Quan aplica:** Aprenentatge basat en problemes o projectes, situacions d'aprenentatge competencials, simulació professional; quan l'objectiu és la transferència a contextos reals.
+**Característiques:** Família Fer. Moviment de fricció: Recursivitat (el repte requereix múltiples decisions i iteracions). Càrrega externalitzada: extrínseca (context, actors, dades). Mode ICAP: Interactive.
+**Exemple:** "Ets l'equip de gestió d'un hospital durant una crisi sanitària. La IA simula les conseqüències de les teves decisions."
+**Rols nadius:** Simulador ★★, Generador de Casos ★.
+
+---
+
+### Perspective (Perspectiva)
+
+**Resum (1 línia):** L'alumne explora múltiples punts de vista sobre un tema complex i la IA encarna posicions que l'alumne no consideraria per si sol.
+**Quan aplica:** Temes d'alta complexitat social, ètica o política; quan l'objectiu és l'empatia intel·lectual i la comprensió de la pluralitat de raons.
+**Característiques:** Família Avaluar. Moviment de fricció: Resistència (l'alumne dialoga amb perspectives incòmodes). Càrrega externalitzada: extrínseca (encarnació de personatges). Mode ICAP: Interactive.
+**Exemple:** "La IA actuarà com 3 personatges (empresari, ecologista, treballador) que opinen sobre la deslocalització industrial. Tu has de trobar punts de consens."
+**Rols nadius:** Simulador ★★, Contrincant ★★, Mentor Socràtic ★, Traductor/Adaptador ★.
+
+---
+
+### Reverse (Enginyeria inversa)
+
+**Resum (1 línia):** La IA proporciona un producte o solució acabat, i l'alumne el descompon per entendre com funciona per dins.
+**Quan aplica:** Comprensió estructural i profunda; quan l'alumne pot reconèixer però no reconstruir; quan cal fer visible el mecanisme intern d'un producte o argument.
+**Característiques:** Família Comprendre. Moviment de fricció: Descoberta (el mecanisme intern es fa visible). Càrrega externalitzada: extrínseca (el producte per analitzar). Mode ICAP: Constructive.
+**Exemple:** "La IA et dóna un poema. Tu identifies els recursos estilístics, l'estructura i el tema. Després escrius el teu propi poema usant la mateixa estructura."
+**Rols nadius:** Teachable Agent ★★, Crític/Editor ★, Generador de Casos ★, Mentor Socràtic ★.
+
+---
+
+### Right-Sizing (Ajustament)
+
+**Resum (1 línia):** L'alumne adapta un contingut o producte a un context, audiència o necessitat específica, decidint conscientment què és essencial i què és accessori.
+**Quan aplica:** Inclusió, diferenciació curricular, adaptació de format o nivell, comunicació tècnica a audiències no especialistes.
+**Característiques:** Família Fer. Moviment de fricció: Judici selectiu (l'alumne decideix què canviar i per què). Càrrega externalitzada: extrínseca (l'adaptació tècnica del vocabulari o format). Mode ICAP: Constructive.
+**Exemple:** "Tens un text sobre nutrició per a adults. Adapta'l per a alumnes de 10 anys. La IA t'ajuda amb el vocabulari, però tu decideixes quins conceptes simplificar i quins mantenir."
+**Rols nadius:** Traductor/Adaptador ★★, Generador de Casos ★.
+
+---
+
+## Com triar entre les opcions
+
+**Pas 1 — Identificar la família.** La pregunta és "Quin és l'objectiu cognitiu principal de l'activitat?":
+- **Comprendre**: l'alumne construeix significat nou connectant idees → Anchor, Clarity, Reverse.
+- **Avaluar**: l'alumne jutja, compara i defensa posicions → Compare, Critique, Perspective.
+- **Fer**: l'alumne produeix, practica i progressa → Level-Up, Repte integrador, Right-Sizing, Growth.
+
+**Pas 2 — Afinar dins la família.** Un cop triada la família:
+- Dins Comprendre: Anchor si cal activar el que ja sap; Clarity si cal precisar una comprensió existent; Reverse si l'alumne ha de descompondre un producte acabat.
+- Dins Avaluar: Compare si cal comparar elements; Critique si cal jutjar qualitat o validesa; Perspective si cal explorar punts de vista múltiples.
+- Dins Fer: Level-Up si cal pràctica calibrada; Repte integrador si cal mobilitzar múltiples competències; Right-Sizing si cal adaptar a una audiència; Growth si l'objectiu és metacognitiu.
+
+**Pas 3 — Verificar la matriu Propòsit × Rol.** Cada propòsit té rols nadius (★★) i rols possibles (★). Evitar les combinacions forçades (—). La matriu completa es troba a `M5_arquitectura-proposit-rol-nivell`.
+
+**Matriu d'afinitats Propòsit × Rol (resum):**
 
 | | Mentor S. | Simulador | Crític/Ed. | Gen.Casos | Teach.Ag. | Contrinc. | Traductor |
 |---|---|---|---|---|---|---|---|
@@ -170,59 +172,58 @@ Cada propòsit d'aprenentatge admet un subconjunt de Rols. La correspondència n
 | **Reverse** | ★ | — | ★ | ★ | ★★ | — | — |
 | **Right-Sizing** | — | — | — | ★ | — | — | ★★ |
 
-**★★** = nadiu (combinació natural), **★** = possible, **—** = forçat o incoherent.
+★★ = nadiu · ★ = possible · — = forçat o incoherent
 
-Les combinacions amb "—" no haurien de constar al catàleg d'assistents.
+## Relació amb altres catàlegs
 
-### 5. Propòsit × Moviment de fricció × Càrrega × ICAP
+Aquest catàleg és el primer eix del **sistema P>R>N** (Propòsit–Rol–Nivell):
 
-Cada propòsit d'aprenentatge s'associa al marc cognitiu (`M2_carrega-friccio-cognitiva`):
+| Catàleg del sistema | Pregunta que respon | Relació amb aquest |
+|---|---|---|
+| `M5_proposits-aprenentatge` | **Què ha d'aprendre l'alumne cognitivament?** | **Aquest catàleg** — el punt de partida obligatori |
+| `M5_rols-IA-educacio` | Com ha d'actuar la IA? | La matriu Propòsit × Rol determina quins rols serveixen cada propòsit |
+| `M5_nivells-delegacio-mihia` | Quanta autonomia cedeix l'alumne? | Cada combinació (Propòsit, Rol) té un rang de nivells MIHIA nadius |
 
-| Propòsit | Moviment de fricció principal | Càrrega que externalitza | Mode ICAP esperat |
+El docent sempre comença pel propòsit (**Propòsit-first**): triar el rol o el nivell sense haver definit la intenció cognitiva és *solution looking for a problem* i genera activitats sense coherència pedagògica.
+
+**Connexió amb el marc cognitiu** (`M2_carrega-friccio-cognitiva`):
+
+| Propòsit | Moviment de fricció | Càrrega externalitzada | Mode ICAP |
 |---|---|---|---|
-| **Anchor** | Descoberta | Extrínseca (organització) | Constructive |
-| **Clarity** | Recursivitat | Extrínseca (formulació) | Interactive |
-| **Compare** | Descoberta | Extrínseca (cerca de casos) | Constructive |
-| **Critique** | Resistència | Cap o extrínseca | Interactive |
-| **Growth** | Descoberta (interna) | — | Constructive |
-| **Level-Up** | Recursivitat | Extrínseca (generació d'exercicis) | Active → Constructive |
-| **Repte integrador** | Recursivitat | Extrínseca (context, dades) | Interactive |
-| **Perspective** | Resistència | Extrínseca (encarnació de personatges) | Interactive |
-| **Reverse** | Descoberta | Extrínseca (producte a analitzar) | Constructive |
-| **Right-Sizing** | Judici (selectiu) | Extrínseca (adaptació tècnica) | Constructive |
+| Anchor | Descoberta | Extrínseca (organització) | Constructive |
+| Clarity | Recursivitat | Extrínseca (formulació) | Interactive |
+| Compare | Descoberta | Extrínseca (cerca de casos) | Constructive |
+| Critique | Resistència | Cap o extrínseca mínima | Interactive |
+| Growth | Descoberta interna | — | Constructive |
+| Level-Up | Recursivitat | Extrínseca (generació d'exercicis) | Active → Constructive |
+| Repte integrador | Recursivitat | Extrínseca (context, dades) | Interactive |
+| Perspective | Resistència | Extrínseca (encarnació) | Interactive |
+| Reverse | Descoberta | Extrínseca (producte a analitzar) | Constructive |
+| Right-Sizing | Judici selectiu | Extrínseca (adaptació tècnica) | Constructive |
 
----
+## 3. Connexions
 
-### 6. Decisions pendents
+- `M5_arquitectura-proposit-rol-nivell` — Els propòsits són el concepte de primer nivell de l'arquitectura P>R>N; aquí es troba la jerarquia completa i la matriu Propòsit × Rol ampliada.
+- `M5_rols-IA-educacio` — La matriu d'afinitats Propòsit × Rol determina quins rols serveixen cada propòsit d'aprenentatge.
+- `M5_nivells-delegacio-mihia` — Cada combinació (Propòsit, Rol) té un rang de nivells MIHIA nadius; el nivell efectiu intersecta amb el sostre d'etapa.
+- `M2_carrega-friccio-cognitiva` — Cada propòsit s'associa a un moviment de fricció productiva, un tipus de càrrega externalitzada i un mode ICAP.
+- `M5_disseny-instruccional-amb-IA` — Els propòsits d'aprenentatge són el punt de partida del pas 1 de la seqüència de disseny instruccional.
 
-- ~~**Nombre definitiu de propòsits d'aprenentatge**~~: **Resolt (Xat 6)** — es mantenen els 10 originals, organitzats en 3 famílies (§3).
-- **Reformulació de la taula màster** de propòsits d'aprenentatge amb columnes de fricció, càrrega i ICAP (columnes de la taula §5 ja prefiguren l'estructura). Pendent.
-- ~~**Assignar propòsit d'aprenentatge als 21 exemples**~~ de `exemples-rols-mihia.md`: **Resolt (Xat 6)** — cada exemple té camp `Propòsit d'aprenentatge`.
-
----
-
-## Connexions
-
-| Document | Relació |
-|---|---|
-| `M5_arquitectura-proposit-rol-nivell` | Els propòsits d'aprenentatge són el concepte de primer nivell de l'arquitectura P>R>N |
-| `M5_rols-IA-educacio` | La matriu Propòsit × Rol determina quins rols serveixen cada propòsit |
-| `M5_nivells-delegacio-mihia` | Cada combinació (Propòsit, Rol) té un rang de Nivells nadiu |
-| `M2_carrega-friccio-cognitiva` | Cada propòsit d'aprenentatge s'associa a moviment de fricció, càrrega i mode ICAP |
-| `M5_disseny-instruccional-amb-IA` | Els propòsits d'aprenentatge són el punt de partida del pas 1 de la seqüència de disseny |
-
----
-
-## Detecció
+## 4. Detecció
 
 Activar aquest document quan:
 
-- Un docent pregunta **"què vull que passi cognitivament?"** en una activitat amb IA
-- Cal **triar un propòsit d'aprenentatge** com a punt de partida per al disseny d'una activitat
-- Cal verificar la **compatibilitat Propòsit × Rol** abans de configurar un assistent
-- Cal connectar una activitat amb el **marc cognitiu** (fricció, càrrega, ICAP)
-- Cal justificar per què una **combinació Propòsit-Rol és incoherent** (cel·les amb "—" a la matriu)
+- Un docent pregunta **"què vull que passi cognitivament?"** en una activitat amb IA i necessita triar una intenció pedagògica.
+- Cal **triar un propòsit d'aprenentatge** com a punt de partida per al disseny d'una activitat.
+- Cal verificar la **compatibilitat Propòsit × Rol** abans de configurar un assistent o escriure el prompt.
+- Cal connectar una activitat amb el **marc cognitiu** (fricció, càrrega, ICAP).
+- Cal justificar per què una **combinació Propòsit-Rol és incoherent** (cel·les "—" de la matriu).
 
----
+## 5. Fonts
 
-*Versió 1.0 · Esborrany · Jesuïtes Educació Catalunya · 2026*
+- Khan, S., Fisher, D., Frey, N., Marshall, A. i Hargrave, M. (2025). *Khanmigo for Teachers: AI for Learning Design*. — Font dels 10 propòsits d'aprenentatge originals.
+- Fink, L. D. (2003). *Creating Significant Learning Experiences*. Jossey-Bass. — Marc no jeràrquic per a les 3 famílies de propòsits.
+- Anderson, L. W. i Krathwohl, D. R. (Eds.) (2001). *A Taxonomy for Learning, Teaching, and Assessing*. Longman. — Referència universal per al diàleg amb les bandes de Bloom.
+- Chi, M. T. H. i Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. *Educational Psychologist*, 49(4), 219-243. — Modes ICAP associats a cada propòsit.
+- Jesuïtes Educació / MAGINIA (2026). *Arquitectura Propòsit-Rol-Nivell — Decisions de disseny* (Xat 6, abril 2026). Document intern.
+- `docs/decisions/arquitectura-quest-rol-nivell.md` — ADR intern: decisió de mantenir els 10 propòsits i les 3 famílies.
