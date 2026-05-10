@@ -1,130 +1,18 @@
-# 
+---
+modul: M0
+titol: "Marc General per a la Integració de la Intel·ligència Artificial"
+tipus: marc-institucional
+descripcio: "Document fundacional de Jesuïtes Educació sobre la integració de la IA: visió humanista ignasiana, cinc principis rectors, sis tensions dialèctiques, Model 4D (Delegació·Descripció·Discerniment·Diligència), graus MIHIA (N0-N5), mapa pedagògic per etapes i orientacions per col·lectiu."
+review_status: esborrany
+generat_at: 2026-05-10
+paraules_clau: ["intel·ligència artificial", "marc general", "Model 4D", "fluïdesa IA", "MIHIA", "humanisme ignasià", "subordinació tecnològica", "graus de delegació"]
+---
 
-# **MARC GENERAL SOBRE LA INTEGRACIÓ DE LA INTEL·LIGÈNCIA ARTIFICIAL** 
-
-[**INTRODUCCIÓ	3**](#introducció)
-
-[Transformació, profunditat i humanisme en l'era de la Intel·ligència Artificial	3](#heading)
-
-[Una exploració amb propòsit	3](#una-exploració-amb-propòsit)
-
-[La nostra visió de la "Millora"	4](#la-nostra-visió-de-la-"millora")
-
-[Cura, benestar i lideratge de servei	4](#cura,-benestar-i-lideratge-de-servei)
-
-[**VALORS I PRINCIPIS RECTORS	5**](#valors-i-principis-rectors)
-
-[1\. ANTROPOCENTRISME I HUMANISME	5](#1.-antropocentrisme-i-humanisme)
-
-[2\. TRANSPARÈNCIA, AUTORIA I INTEGRITAT ACADÈMICA	5](#2.-transparència,-autoria-i-integritat-acadèmica)
-
-[3\. VERIFICACIÓ I PENSAMENT CRÍTIC	6](#3.-verificació-i-pensament-crític)
-
-[4\. EQUITAT I INCLUSIÓ	7](#4.-equitat-i-inclusió)
-
-[5\. BENESTAR, SEGURETAT I SOSTENIBILITAT	7](#5.-benestar,-seguretat-i-sostenibilitat)
-
-[**MARC DE REFLEXIÓ CRÍTICA I ÈTICA	8**](#marc-de-reflexió-crítica-i-ètica)
-
-[**EL NOSTRE MODEL OPERATIU: NAVEGAR LA COMPLEXITAT (MODEL 4D)	10**](#el-nostre-model-operatiu:-navegar-la-complexitat-\(model-4d\))
-
-[Habitar les Tensions	10](#habitar-les-tensions)
-
-[1\. DELEGACIÓ (DELEGATION)	10](#1.-delegació-\(delegation\))
-
-[2\. DESCRIPCIÓ (DESCRIPTION)	11](#2.-descripció-\(description\))
-
-[3\. DISCERNIMENT (DISCERNMENT)	12](#3.-discerniment-\(discernment\))
-
-[4\. DILIGÈNCIA (DILIGENCE)	13](#4.-diligència-\(diligence\))
-
-[**CRITERIS D'ACTUACIÓ: COMPROMÍS PER AL BON ÚS DE LA IA	14**](#criteris-d'actuació:-compromís-per-al-bon-ús-de-la-ia)
-
-[Per a tothom · Quatre criteris compartits	14](#per-a-tothom-·-quatre-criteris-compartits)
-
-[Per a docents · Quatre criteris per a la pràctica docent	14](#per-a-docents-·-quatre-criteris-per-a-la-pràctica-docent)
-
-[Per a equips directius · Quatre criteris per al lideratge institucional	15](#per-a-equips-directius-·-quatre-criteris-per-al-lideratge-institucional)
-
-[Per a personal de gestió · Quatre criteris per a la gestió administrativa	15](#per-a-personal-de-gestió-·-quatre-criteris-per-a-la-gestió-administrativa)
-
-[Per a famílies · Quatre criteris per acompanyar els vostres fills	15](#per-a-famílies-·-quatre-criteris-per-acompanyar-els-vostres-fills)
-
-[Per a l'alumnat · Quatre criteris per a tu	16](#per-a-l'alumnat-·-quatre-criteris-per-a-tu)
-
-[**SÍNTESI DE LA VISIÓ	16**](#síntesi-de-la-visió)
-
-[**GRAUS DE DELEGACIÓ I COL·LABORACIÓ PERSONA-IA	17**](#graus-de-delegació-i-col·laboració-persona-ia)
-
-[Nivell 0: No delegació	18](#nivell-0:-no-delegació)
-
-[Nivell 1: Exploració	18](#nivell-1:-exploració)
-
-[Nivell 2: Suport/Revisió	18](#nivell-2:-suport/revisió)
-
-[Nivell 3: Cocreació	19](#nivell-3:-cocreació)
-
-[Nivell 4: Delegació supervisada	20](#nivell-4:-delegació-supervisada)
-
-[Nivell 5: Agència autònoma	20](#nivell-5:-agència-autònoma)
-
-[**MAPA DE DELEGACIÓ PEDAGÒGICA PER ETAPES	21**](#mapa-de-delegació-pedagògica-per-etapes)
-
-[Visió general per etapes	21](#visió-general-per-etapes)
-
-[Lectura del mapa	21](#lectura-del-mapa)
-
-[La complexitat que el mapa no recull	22](#la-complexitat-que-el-mapa-no-recull)
-
-[**CRITERIS D'APLICACIÓ DEL MAPA	22**](#criteris-d'aplicació-del-mapa)
-
-[1\. L'objectiu d'aprenentatge com a brúixola	22](#1.-l'objectiu-d'aprenentatge-com-a-brúixola)
-
-[2\. Optimitzar, no maximitzar	23](#2.-optimitzar,-no-maximitzar)
-
-[3\. Personalització: l'alumne i el moment, sempre	23](#3.-personalització:-l'alumne-i-el-moment,-sempre)
-
-[4\. Responsabilitat de modelatge	23](#4.-responsabilitat-de-modelatge)
-
-[5\. Gradualitat i revisió permanent	23](#5.-gradualitat-i-revisió-permanent)
-
-[**FONAMENT COGNITIU: PER QUÈ EL DISSENY ÉS LA CLAU	24**](#fonament-cognitiu)
-
-[**ESTRATÈGIA TECNOPEDAGÒGICA	24**](#estratègia-tecnopedagògica)
-
-[Desplegament tècnic: convivència d’assistents i agents	24](#desplegament-tècnic:-convivència-d’assistents-i-agents)
-
-[**ÀMBITS D'APLICACIÓ I D'ACTUACIÓ	25**](#àmbits-d'aplicació-i-d'actuació)
-
-[1\. ÀMBIT DOCÈNCIA: ÚS DE LA IA EN LA PRÀCTICA DOCENT	25](#1.-àmbit-docència:-ús-de-la-ia-en-la-pràctica-docent)
-
-[Principis transversals de la pràctica docent	25](#principis-transversals-de-la-pràctica-docent)
-
-[Àmbits d'actuació docent	25](#àmbits-d'actuació-docent)
-
-[2\. ÀMBIT ALUMNAT: APRENDRE SOBRE, PER A I AMB LA IA	26](#2.-àmbit-alumnat)
-
-[Tres capes, una sola competència	26](#2.-àmbit-alumnat)
-
-[La cascada: institució → docent → alumne	26](#2.-àmbit-alumnat)
-
-[2.1. Aprendre SOBRE la IA	27](#aprendre-sobre-la-ia)
-
-[2.2. Aprendre PER A la IA	27](#aprendre-per-a-la-ia)
-
-[2.3. Aprendre AMB la IA	27](#aprendre-amb-la-ia)
-
-[2.4. El grau superior de fluïdesa	28](#grau-superior-fluidesa)
-
-[3\. ÀMBIT GESTIÓ: PROCESSOS I SISTEMES INTEL·LIGENTS	28](#3.-àmbit-gestió:-processos-i-sistemes-intel·ligents)
-
-[**REFERÈNCIES	28**](#referències)
-
-## **INTRODUCCIÓ** {#introducció}
+## INTRODUCCIÓ
 
 Jesuïtes Educació assumeix el repte de la intel·ligència artificial (IA) des d'una mirada esperançada i exigent. Com ens recordava Sant Ignasi de Loiola, estem cridats a "trobar Déu en totes les coses"; avui, aquesta crida inclou també la tecnologia digital. No la veiem com una simple eina freda, sinó com una extensió de la capacitat humana que hem de saber discernir i posar al servei de la nostra missió i a favor del bé comú.
 
-### **Transformació, profunditat i humanisme en l'era de la Intel·ligència Artificial**
+### Transformació, profunditat i humanisme en l'era de la Intel·ligència Artificial
 
 L'arribada de la Intel·ligència Artificial s'emmarca en un procés de transformació global que va molt més enllà de l'àmbit tecnològic. Com afirma Arturo Sosa (2017), ens trobem davant d'un canvi cultural que afecta la mateixa essència de la persona: «No hi ha dubte que la tecnologia digital, l'internet, les xarxes socials del món virtual, han generat canvis radicals en la nostra manera de ser i de pensar-nos com a éssers humans... És un nou món en el qual viu la gent, especialment les noves generacions» (p. 8, 16). Com reconeix la UNESCO (2025), el sector educatiu ha d'adoptar un rol proactiu davant d'aquest canvi: el seu paper «no es limita a preparar els estudiants per adaptar-se a una societat en constant transformació per les tecnologies d'IA», sinó que té «una funció clau en l'empoderament dels joves perquè ajudin a co-crear futurs sostenibles al reequilibrar les nostres relacions, no només amb els demés, sinó també amb la tecnologia i amb el medi ambient» (UNESCO, 2025, p. 12). Aquest escenari ens planteja el repte de mantenir el rigor intel·lectual davant l'accés immediat a la dada, ja que, com advertia Adolfo Nicolás (2010), «quan es pot accedir a tanta informació tan ràpidament i sense esforç... llavors l'ardu i costós treball del pensament seriós i crític queda freqüentment anul·lat» (p. 4); una preocupació que el mateix marc de la UNESCO (2025) reprèn quan alerta que «amb l'avanç i l'adopció creixent de la IA, un risc clau és el seu potencial de soscavar la capacitat d'acció humana i comprometre el desenvolupament de les habilitats intel·lectuals» (p. 15).
 
@@ -132,7 +20,7 @@ En aquest context, la xarxa d'escoles de Jesuïtes Educació a Catalunya assumei
 
 Així, la integració de la IA a les nostres aules s'ha de viure no com una adaptació passiva, sinó com una oportunitat per «renovar la nostra tradició viva en l'educació, com un exercici continu de discerniment» (Sosa, 2019, p. 5). L'objectiu no és simplement preparar els estudiants per adaptar-se a la tecnologia, sinó dotar-los dels «valors, els coneixements i les habilitats necessaris per a l'ús eficaç i la cocreació activa de la IA» (UNESCO, 2025, p. 12). Ara bé, com adverteix l'OCDE, aquesta integració no pot ser espontània ni acrítica: «les eines d'IA s'han d'emprar dins de situacions d'aprenentatge dissenyades intencionalment pels docents per assolir objectius d'aprenentatge específics» (OCDE, 2026, p. 31). En última instància, com recorden Gaević i Yan (2026), el repte és «reorientar la nostra mirada: dels productes generats per la IA als processos centrats en la persona, garantint que les eines d'IA estiguin dissenyades per bastimentar el pensament humà, i no per substituir-lo \[...\] creant un futur educatiu que no sigui només més eficient, sinó autènticament humà» (p. 57). Amb la «audàcia de l'impossible» que reclama el nostre temps, volem formar ciutadans globals que sàpiguen posar la tecnologia al servei d'una missió de reconciliació i justícia amb Déu, amb la humanitat i amb la creació.
 
-### **Una exploració amb propòsit** {#una-exploració-amb-propòsit}
+### Una exploració amb propòsit
 
 Aquest marc general neix amb la voluntat d’orientar la incorporació de la IA, i com aquesta pot transformar la nostra realitat educativa en tres àmbits principalment: la gestió institucional, els processos de docència i l’aprenentatge de l’alumnat. El nostre objectiu final és aprofundir en la nostra missió educativa. 
 
@@ -145,25 +33,25 @@ Ensems, de manera transversal aquesta integració de la IA vol observar dos àmb
 4. **Benestar integral:** Vetllar per l'ètica, la privacitat, la desconnexió digital i l'equitat en l'accés.  
 5. **Referència:** Situar la institució com a model de transformació humanista, compartint aprenentatges amb la comunitat educativa global.
 
-### **La nostra visió de la "Millora"** {#la-nostra-visió-de-la-"millora"}
+### La nostra visió de la "Millora"
 
 En el marc d'aquesta exploració, el concepte de "millora" és l'eix que guia cada decisió. Per a la nostra xarxa, millorar no és només fer més, sinó fer-ho millor, amb més sentit, cercant l’excel·lència. Entenem la millora a través de dues dimensions complementàries:
 
 - **L'eficàcia i l'eficiència que transformen** (alliberar i habilitar): La IA ens permet automatitzar i simplificar tasques de gestió i càrregues de treball que no aporten valor directe a la persona. Millorem quan, mitjançant l'eficiència, reduïm la càrrega de treball per guanyar temps per a l'acompanyament personal i el diàleg, i quan l'eficàcia ens habilita per assolir fites i abordar processos de gestió que abans eren inviables o massa costosos.  
 - La qualitat: Millorar significa augmentar la profunditat i l'excel·lència de la nostra proposta, els nostres processos i els nostres resultats. Aspirem a una gestió més precisa i consistent, una docència més integral i personalitzadora, i un aprenentatge on l'alumnat assoleix nivells superiors de consciència, competència, compassió i compromís (excel·lència humana).
 
-### **Cura, benestar i lideratge de servei** {#cura,-benestar-i-lideratge-de-servei}
+### Cura, benestar i lideratge de servei
 
 Aquesta millora s’implementa amb un compromís inviolable amb la **cura de les persones**. Volem que la IA sigui un motor de benestar i equitat, mai una font d'exclusió o deshumanització.
 
 La Intel·ligència Artificial (IA) s’entén com una tecnologia amb capacitat computacional avançada dissenyada per **emular capacitats cognitives humanes**, interaccionant amb la nostra intel·ligència per ampliar-ne les possibilitats. Basada en arquitectures de sistemes i models digitals que processen dades de manera probabilística, la IA no és una entitat autònoma, sinó un **mirall de la nostra facultat de processar informació** i generar significats. Aquesta realitat ens obliga a redefinir conceptes clau com l'aprenentatge, l'autoria i la veritat en el segle XXI. El seu desplegament a les nostres institucions es guia pel principi de **subordinació tecnològica**: la IA esdevé un interlocutor en el procés educatiu que només és vàlid si contribueix a la personalització de l'aprenentatge, al benestar de la persona i al desenvolupament del judici crític de l'alumnat.  
 Finalment, la nostra xarxa d’escoles inicia aquest camí amb vocació de **referent**. Volem compartir els nostres aprenentatges amb la comunitat educativa jesuïta i amb el conjunt de la societat, entenent que la nostra acció ha de ser un servei als altres. Treballem amb la certesa que, en el bon ús de la tecnologia, també hi ha una via per contribuir al bé comú i a la millora del món*.*
 
-## **VALORS I PRINCIPIS RECTORS** {#valors-i-principis-rectors}
+## VALORS I PRINCIPIS RECTORS
 
 Tota acció, decisió i desenvolupament relatiu a la intel·ligència artificial es regeix de manera ineludible pels cinc principis fonamentals que es detallen a continuació.
 
-### **1\. ANTROPOCENTRISME I HUMANISME** {#1.-antropocentrisme-i-humanisme}
+### 1\. ANTROPOCENTRISME I HUMANISME
 
 Prioritzem la relació humana, el benestar, la dignitat i la responsabilitat de la persona en qualsevol procés que involucri la IA. Entenem la tecnologia com una eina al servei del desenvolupament humà, mai a l'inrevés. L'eficàcia pedagògica i el benestar de les persones prevaldran sempre sobre l'eficiència tecnològica.
 
@@ -171,7 +59,7 @@ Prioritzem la relació humana, el benestar, la dignitat i la responsabilitat de 
 - **Enfortiment de la relació humana:** Utilitzar l'eficiència que aporta la IA per alliberar temps i enfortir la interacció personal, l'acompanyament i el diàleg, mai per aïllar les persones.  
 - **Prevenció de la dependència cognitiva:** Fomentar un ús de la IA com a "copilot" del pensament, no com a pilot, dissenyant pràctiques que evitin l'atròfia d'habilitats fonamentals.
 
-### **2\. TRANSPARÈNCIA, AUTORIA I INTEGRITAT ACADÈMICA** {#2.-transparència,-autoria-i-integritat-acadèmica}
+### 2\. TRANSPARÈNCIA, AUTORIA I INTEGRITAT ACADÈMICA
 
 Assegurem que l'ús de la IA sigui visible i comprensible, respectant els principis d'honestedat intel·lectual. Aquest principi s'estén a la integritat acadèmica, on l'ús de la IA ha de potenciar l'aprenentatge, no substituir-lo. Treballem per redefinir el concepte de plagi, enfocant-nos a avaluar el "pensament propi" i la capacitat de l'alumne d'utilitzar l'eina com a "copilot" per a una elaboració original.
 
@@ -182,7 +70,7 @@ Assegurem que l'ús de la IA sigui visible i comprensible, respectant els princi
 - **Propietat intel·lectual:** Fomentar una reflexió crítica sobre la propietat dels continguts generats amb IA i establir directrius sobre drets d'autor i titularitat.  
 - **Comunicació amb les famílies:** Mantenir una comunicació transparent i proactiva amb les famílies sobre com i per a què s'utilitza la IA a l'aula, implicant-les en el procés i oferint-los orientació.
 
-### **3\. VERIFICACIÓ I PENSAMENT CRÍTIC** {#3.-verificació-i-pensament-crític}
+### 3\. VERIFICACIÓ I PENSAMENT CRÍTIC
 
 Fomentem una cultura de discerniment actiu on cap informació generada per una IA s'accepti de manera passiva. Aquest principi és transversal i aplica a tots els membres de la comunitat educativa. La nostra prioritat és desenvolupar el pensament crític com a competència fonamental per navegar en un entorn digital complex.
 
@@ -193,7 +81,7 @@ Fomentem una cultura de discerniment actiu on cap informació generada per una I
   * Avaluar la qualitat de les fonts originals en què es basa la IA.  
 - **Mitigació i anàlisi de biaixos:** Exercir una vigilància activa, com a institució, per identificar i contrarestar possibles biaixos (de gènere, culturals, etc.) presents en les eines que utilitzem, formant a tothom per a reconèixer-los i entendre'n les implicacions.
 
-### **4\. EQUITAT I INCLUSIÓ** {#4.-equitat-i-inclusió}
+### 4\. EQUITAT I INCLUSIÓ
 
 Garantim que la IA sigui un instrument per reduir bretxes, no per ampliar-les, assegurant l'accessibilitat universal i la igualtat d'oportunitats per a tota la nostra comunitat.
 
@@ -201,7 +89,7 @@ Garantim que la IA sigui un instrument per reduir bretxes, no per ampliar-les, a
 - **Accessibilitat per disseny:** Aprofitar el potencial de la IA per crear continguts i entorns més accessibles per a persones amb diversitat funcional.  
 - **Personalització inclusiva:** Utilitzar la IA per atendre les múltiples necessitats educatives, sempre amb la supervisió del docent per garantir un enfocament inclusiu.
 
-### **5\. BENESTAR, SEGURETAT I SOSTENIBILITAT** {#5.-benestar,-seguretat-i-sostenibilitat}
+### 5\. BENESTAR, SEGURETAT I SOSTENIBILITAT
 
 Promovem una relació sana, equilibrada, responsable i segura amb la tecnologia, garantint la protecció de la privacitat de les dades i sent conscients de  l'empremta hídrica, energètica i social que generen les nostres accions digitals. Aquest principi es fonamenta en l’ètica de la cura de la casa comuna (PAU) i es compromet amb l’ecologia integral (paradigma que connecta la crisi ambiental amb la justícia social). Entenem que la sostenibilitat no és una opció, sinó un deure ètic i una condició indispensable per garantir que el progrés tecnològic estigui realment al servei del bé comú i de les generacions futures.
 
@@ -218,9 +106,8 @@ Promovem una relació sana, equilibrada, responsable i segura amb la tecnologia,
 - **Equitat i inclusió:** Garantir l'accessibilitat universal, la diversitat i alternatives sense dependència de dispositius.  
 - **Benestar i sostenibilitat:** Promoure l'ús responsable, segur i saludable de la tecnologia.
 
-## 
 
-## **MARC DE REFLEXIÓ CRÍTICA I ÈTICA** {#marc-de-reflexió-crítica-i-ètica}
+## MARC DE REFLEXIÓ CRÍTICA I ÈTICA
 
 La irrupció i incorporació de la intel·ligència artificial no és tan sols una no és una mera implementació tecnològica ni un conjunt de respostes tancades; és una invitació a un procés d’avaluació ètica i pedagògica contínua. Entenem que la IA ens situa en un espai de **tensions dialèctiques** que no hem de resoldre de manera simplista, sinó habitar amb consciència. Per orientar la nostra acció, identifiquem cinc tensions clau que requereixen la nostra atenció:
 
@@ -236,9 +123,9 @@ La irrupció i incorporació de la intel·ligència artificial no és tan sols u
 
 - **Integritat intel·lectual: Plausibilitat vs. Realisme.** La intel·ligència artificial generativa opera en el domini de la versemblança estadística, creant respostes que són plausibles però no necessàriament veraces. Aquesta distinció crítica ens situa davant la tensió de confondre una bona aparença amb un bon fons. En un món amenaçat per la desinformació deliberada, els deepfakes i les al·lucinacions algorítmiques, el nostre repte és rebutjar la *passivitat intel·lectual*. El nostre compromís és formar persones que entenguin que la IA és un motor de probabilitats, no un oracle de la veritat. Per tant, la nostra acció educativa se centrarà a desenvolupar les competències per valorar activament, contrastar les fonts i assumir la responsabilitat de verificar tota informació, defensant la integritat del coneixement com un bé fonamental.
 
-## **EL NOSTRE MODEL OPERATIU: NAVEGAR LA COMPLEXITAT (MODEL 4D)** {#el-nostre-model-operatiu:-navegar-la-complexitat-(model-4d)}
+## EL NOSTRE MODEL OPERATIU: NAVEGAR LA COMPLEXITAT (MODEL 4D)
 
-### **Habitar les Tensions** {#habitar-les-tensions}
+### Habitar les Tensions
 
 La visió i els principis descrits anteriorment no són abstractes; requereixen una resposta operativa a l'aula i a la gestió. La integració de la IA ens situa davant de **tensions dialèctiques** que, des d'una perspectiva pedagògica integral, no volem eliminar de manera simplista, sinó gestionar i acollir. Ens trobem davant la tensió entre la rapidesa i la profunditat, entre l'automatització i l'agència humana, entre l'eficiència i l'ètica. La recerca recent, com es detalla a la secció de fonament cognitiu d'aquest marc, confirma que aquesta tensió no és teòrica: la IA pot millorar el rendiment immediat d'una tasca i, alhora, erosionar la competència de qui la fa. El Model 4D és la nostra resposta operativa a aquest risc.
 
@@ -246,7 +133,7 @@ Per habitar aquestes tensions sense perdre el rumb, adoptem el marc de la **Flui
 
 Aquest model defineix la Fluidesa en IA com la capacitat d'interactuar amb sistemes generatius de manera eficaç, eficient, ètica i segura, estructurada en quatre dimensions recursives:
 
-#### **1\. DELEGACIÓ (*DELEGATION*)** {#1.-delegació-(delegation)}
+#### 1\. DELEGACIÓ (*DELEGATION*)
 
 La delegació consisteix a prendre decisions reflexives sobre quin treball és adequat per a un mateix, quin per a la IA, o per a ambdós conjuntament, i com distribuir aquestes tasques de manera estratègica. Es basa en l'expertesa humana i el judici crític per identificar quan i com utilitzar les eines d'IA. És a dir, és la funció executiva i estratègica de distribuir la càrrega cognitiva entre l'agent humà i l'artificial. No és una simple assignació de tasques, sinó un procés de presa de decisions que comença amb una pregunta de propòsit: ***Per a què?*** Abans de decidir *què* deleguem a la IA, cal discernir *per a què* la fem servir. Aquesta pregunta ens situa en l'horitzó del **desplegament humà**: la IA no és només un instrument d'eficiència, sinó una oportunitat per al creixement personal, la presa de decisions basades en valors i el servei als altres (Kong i Hu, 2026). En la nostra tradició, delegar amb sentit és delegar des del *Magis*: buscar el major bé, la major profunditat, el major servei. La resposta al *per a què* orienta les tres dimensions operatives de la delegació:
 
@@ -266,7 +153,7 @@ Aquesta tria es regeix pel criteri de proporcionalitat i adequació, garantint q
 
 - *Gestió:* Secretaria automatitza la classificació d'incidències tècniques (*Automatització*) per alliberar temps d'atenció a les famílies.
 
-#### **2\. DESCRIPCIÓ (*DESCRIPTION*)** {#2.-descripció-(description)}
+#### 2\. DESCRIPCIÓ (*DESCRIPTION*)
 
 La *descripció* és la competència comunicativa de traduir la intenció humana en instruccions semàntiques (*prompts*) que guiïn el comportament probabilístic del model. Va més enllà de la redacció de simples ordres o indicacions; és un procés iteratiu de negociació de significat. Es descompon en tres sub-competències:
 
@@ -284,7 +171,7 @@ El mestratge en la interacció amb la IA és una competència de síntesi: uneix
 
 - *Direcció*: Descriu amb precisió el context d'una acta complexa perquè la IA en pugui extreure els acords sense al·lucinar.
 
-#### **3\. DISCERNIMENT (*DISCERNMENT*)** {#3.-discerniment-(discernment)}
+#### 3\. DISCERNIMENT (*DISCERNMENT*)
 
 El Discerniment[^1] és la capacitat d'avaluar de manera **crítica i reflexiva** tot allò que produeix, processa i comunica la intel·ligència artificial. Aquesta competència actua com el sistema de **control de qualitat ètic i epistèmic** fonamental per identificar errors, biaixos o resultats inadequats. Donat que els LLMs (Grans Models de Llenguatge) són motors probabilístics i no bases de dades de veritat, aquesta competència és el tallafocs intel·lectual necessari. Inclou:
 
@@ -300,7 +187,7 @@ El Discerniment[^1] és la capacitat d'avaluar de manera **crítica i reflexiva*
 
 - *Gestió:* El personal revisa críticament una traducció automàtica de normativa escolar per assegurar que no s'ha perdut el matís del caràcter propi del centre.
 
-#### **4\. DILIGÈNCIA (*DILIGENCE*)** {#4.-diligència-(diligence)}
+#### 4\. DILIGÈNCIA (*DILIGENCE*)
 
 La Diligència fa referència a la governança ètica i la responsabilitat en l'acció. És la dimensió que transforma l'habilitat tècnica en *ciutadania digital*. La diligència se centra en l'ús responsable i ètic de la IA, posant l'accent en la transparència i l'assumpció de responsabilitats pel treball realitzat amb assistència tecnològica. Mentre les altres "D" busquen l'eficàcia, aquesta garanteix la integritat de la col·laboració.
 
@@ -320,7 +207,7 @@ Aquesta competència es concreta en les següents dimensions:
 
 - *Docència:* No introduir mai informes mèdics o psicopedagògics d'alumnes en xats públics per "resumir-los", per respecte sagrat a la intimitat de l'alumne.
 
-## **CRITERIS D'ACTUACIÓ: COMPROMÍS PER AL BON ÚS DE LA IA** {#criteris-d'actuació:-compromís-per-al-bon-ús-de-la-ia}
+## CRITERIS D'ACTUACIÓ: COMPROMÍS PER AL BON ÚS DE LA IA
 
 Aquests criteris no són un reglament rígid, sinó la traducció del model 4D a la nostra realitat quotidiana. Representen el mode de procedir amb el qual habitem l'ecosistema digital, assegurant que cada acció —sigui de docència, gestió o aprenentatge— estigui guiada pel rigor professional i l'humanisme cristià.
 
@@ -333,49 +220,49 @@ S'articulen en dues capes: **quatre criteris compartits per tothom** i un conjun
 | **DISCERNIMENT** | Comprova sempre | *M'ho crec sense més?* |
 | **DILIGÈNCIA** | Tingues cura | *A qui afecta això?* |
 
-### **Per a tothom · Quatre criteris compartits** {#per-a-tothom-·-quatre-criteris-compartits}
+### Per a tothom · Quatre criteris compartits
 
 1. **Decideix amb criteri.** La IA és una eina, no una drecera. Abans d'usar-la, pregunta't: té sentit aquí? Aporta valor? Si l'uses, sigues honest i declara-ho. La transparència és la base de la confiança.  
 2. **Aprèn amb ella i sobre ella.** Usa la IA per pensar més i millor, no per deixar de pensar. Conèixer com funciona és el primer pas per guiar-la amb rigor i treure-li el màxim profit.  
 3. **Comprova el que et diu.** La IA genera informació versemblant, no necessàriament certa. Contrasta sempre amb altres fonts. No tot el que sembla convincent és veritat.  
 4. **Cuida les persones i cuida't.** No comparteixis dades personals amb cap eina d'IA. Protegeix la dignitat de tothom. I recorda: un ús sa de la tecnologia inclou saber quan parar.
 
-### **Per a docents · Quatre criteris per a la pràctica docent** {#per-a-docents-·-quatre-criteris-per-a-la-pràctica-docent}
+### Per a docents · Quatre criteris per a la pràctica docent
 
 1. **Al servei de la qualitat docent.** La IA ha de servir per assolir reptes cognitius superiors, major personalització i situacions que sense ella serien inviables. L'ús s'ha de justificar per la seva aportació pedagògica, mai per l'eficiència sola.  
 2. **Ets referent i guia.** La teva tasca inclou guiar l'alumnat cap a un ús crític, reflexiu i responsable de la IA. El teu exemple d'ús rigorós i transparent compta tant com la teva pròpia formació.  
 3. **Verifica i ensenya a verificar.** Practica i ensenya la verificació sistemàtica. La IA té biaixos i al·lucina. El pensament crític és la competència més valuosa que pots transmetre.  
 4. **Protegeix l'alumnat i el vincle.** No introdueixis informació identificativa d'alumnes en eines d'IA d'ús general. Incorpora la desconnexió com a valor educatiu. La relació humana és el cor de la teva feina: l'eficiència mai no l'ha de substituir.
 
-### **Per a equips directius · Quatre criteris per al lideratge institucional** {#per-a-equips-directius-·-quatre-criteris-per-al-lideratge-institucional}
+### Per a equips directius · Quatre criteris per al lideratge institucional
 
 1. **Lidereu amb criteri i equitat.** Establiu criteris clars d'ús de la IA al centre i garantiu que l'accés a les eines i la formació arribin a tothom de manera inclusiva. La direcció és referent en l'ús responsable, transparent i pedagògicament fonamentat. Declareu l'ús de la IA en documents i comunicacions institucionals.  
 2. **Formeu i acompanyeu tot l'equip.** Faciliteu la formació de tot l'equip educador —docents i personal no docent— en l'ús responsable i pedagògic de la IA. La transformació digital és una responsabilitat de lideratge que no es pot delegar.  
 3. **Assegureu la verificació institucional.** Cap informació generada per IA s'incorpora a decisions, documents o comunicacions del centre sense haver estat contrastada. Incorporeu criteris de sostenibilitat, impacte energètic i justícia social en les decisions d'adopció tecnològica.  
 4. **Vetlleu pel benestar digital de la comunitat.** Promoveu l'equilibri digital i assegureu que la tecnologia no substitueixi espais de relació i trobada presencial. El benestar de les persones és el límit inviolable de qualsevol innovació.
 
-### **Per a personal de gestió · Quatre criteris per a la gestió administrativa** {#per-a-personal-de-gestió-·-quatre-criteris-per-a-la-gestió-administrativa}
+### Per a personal de gestió · Quatre criteris per a la gestió administrativa
 
 1. **Eficiència amb sentit.** La IA pot optimitzar tasques administratives i de gestió, sempre al servei del projecte educatiu i del benestar de la comunitat. Declareu quan heu usat la IA per elaborar comunicats, informes o documents. La transparència és un valor professional.  
 2. **Coneixeu les eines i els seus límits.** Formeu-vos en les eines d'IA que el centre posa a disposició. La competència digital és part del vostre perfil professional: saber-les usar bé és saber descriure bé el que necessiteu.  
 3. **Reviseu el que genera.** Comproveu la informació i els documents generats amb IA abans de difondre'ls o arxivar-los. Cap dada sensible del centre, de famílies ni d'alumnes ha d'entrar en eines que no compleixin la normativa vigent.  
 4. **Tracte personal quan cal.** No tot s'ha d'automatitzar. Valoreu quan la relació directa amb les persones és més adequada que l'eficiència tecnològica. La cura humana és irreemplaçable.
 
-### **Per a famílies · Quatre criteris per acompanyar els vostres fills** {#per-a-famílies-·-quatre-criteris-per-acompanyar-els-vostres-fills}
+### Per a famílies · Quatre criteris per acompanyar els vostres fills
 
 1. **La IA és una eina, no un professor.** Animeu els vostres fills a pensar per ells mateixos. Si useu la IA, compartiu-ho amb naturalitat: l'honestedat sobre l'ús de la tecnologia s'ensenya amb la pràctica i l'exemple.  
 2. **Parleu-ne a casa.** Pregunteu als vostres fills com usen la IA, per a què la fan servir i si entenen com funciona. La conversa familiar és el primer espai de formació digital.  
 3. **Confiança, però amb criteri.** La IA genera informació convincent, no necessàriament certa. Animeu els vostres fills a contrastar sempre el que llegeixen o escolten, vingui d'on vingui.  
 4. **Protegiu-los i acompanyeu l'equilibri.** Orienteu-los perquè no comparteixin dades personals pròpies, de companys ni de la família amb cap eina d'IA. Acompanyeu-los a trobar l'equilibri entre el món digital i les relacions, el joc i el descans.
 
-### **Per a l'alumnat · Quatre criteris per a tu** {#per-a-l'alumnat-·-quatre-criteris-per-a-tu}
+### Per a l'alumnat · Quatre criteris per a tu
 
 1. **Decideix tu.** Usa la IA per anar més lluny: entendre un concepte difícil, explorar una idea, millorar el teu treball. Però quan l'uses perquè pensi per tu, el que perds ets tu. Si l'has usat, digues-ho: l'honestedat és un valor fonamental.  
 2. **Aprèn com funciona.** La IA forma part del teu entorn: interessa't per com la uses i com la usen els que t'envolten. Entendre l'eina és el primer pas per treure-li el màxim profit amb criteri.  
 3. **Comprova sempre.** La IA genera informació versemblant, no verificada. Contrasta sempre el que et diu, com faries amb qualsevol altra font. No t'ho creguis perquè sona bé.  
 4. **Cuida't i cuida els altres.** No introdueixis informació sobre tu, la teva família ni els teus companys en cap eina d'IA. Les teves dades et pertanyen. I recorda: la IA és una eina, no una companyia. Cuida les teves relacions més enllà de les pantalles.
 
-## **SÍNTESI DE LA VISIÓ** {#síntesi-de-la-visió}
+## SÍNTESI DE LA VISIÓ
 
 Aquest quadre recull, en una sola mirada, el fil conductor que travessa tot el Marc General: dels valors que ens guien, passant per les tensions que habitem, fins a la resposta operativa (Model 4D) i el mode de procedir que orienta els Criteris d'Actuació de cada col·lectiu.
 
@@ -386,11 +273,9 @@ Aquest quadre recull, en una sola mirada, el fil conductor que travessa tot el M
 | Veritat i Profunditat | Versemblança  vs. Veracitat | **DISCERNIMENT** (Jutjar  el resultat) | **Judici Crític** (Avaluació crítica) | *M'ho crec sense més?* |
 | Ètica i Responsabilitat | Eficiència vs. Responsabilitat | **DILIGÈNCIA** (Cuidar l'impacte) | **Ciutadà responsable** (Compromís)  | *A qui afecta això?* |
 
-## 
 
-## 
 
-## **GRAUS DE DELEGACIÓ I COL·LABORACIÓ PERSONA-IA** {#graus-de-delegació-i-col·laboració-persona-ia}
+## GRAUS DE DELEGACIÓ I COL·LABORACIÓ PERSONA-IA
 
 El principi de Delegació (D1) del Model 4D, que ens interpel·la a decidir qui fa què i amb quin propòsit (decisió amb criteri), requereix un marc operatiu per a la seva aplicació pràctica i coherent a tota la institució. Per tal d'operativitzar el model de fluïdesa en IA, establim sis graus que defineixen la relació entre la persona i la IA, els quals s'apliquen de manera transversal a la docència, l'aprenentatge de l'alumnat i els processos de gestió. Aquesta escala ens permet planificar, comunicar i avaluar tasques amb claredat, assegurant que el paper de la persona romangui central i crític en cada pas. Aquests nivells no són una escala jeràrquica de "millor a pitjor", sinó un mapa per decidir, segons el context (gestió, docència o aprenentatge), quina càrrega cognitiva i executiva volem delegar a la màquina i quina ha de romandre en la persona.
 
@@ -405,7 +290,7 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 | 4 | Delegació Supervisada | La persona defineix instruccions detallades (prompt sofisticat) i la IA genera un producte final complet. La persona valida críticament. | Arquitecte (Prompting) i Validador crític final. | Descripció (Prompts sofisticats) \+ Discerniment (Validació crítica) \+ Diligència (Responsabilitat final) |
 | 5 | Agència Autònoma | La IA opera de forma independent dins d'un marc i paràmetres definits, realitzant tasques recurrents. | Dissenyador del sistema i supervisor estratègic. | Delegació Avançada (Definir paràmetres amplis) \+ Diligència (Auditoria ètica) |
 
-#### **Nivell 0: No delegació** {#nivell-0:-no-delegació}
+#### Nivell 0: No delegació
 
 **Persona:** Execució total de la tasca. Assumeix tota la responsabilitat i pren totes les decisions, desenvolupant competències bàsiques sense suport tecnològic intel·ligent.
 
@@ -420,7 +305,7 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 - **Directiu:** Pren decisions estratègiques sensibles i lidera situacions de crisi sense IA.  
 - **Personal de gestió:** Atén persones, realitza procediments humans no automatitzables.
 
-#### **Nivell 1: Exploració** {#nivell-1:-exploració}
+#### Nivell 1: Exploració
 
 **Persona:** La persona segueix liderant l'activitat, però utilitza la IA per buscar informació, obtenir preguntes, respondre o aclarir dubtes, o per autoavaluar-se. No es transfereix l'autoria ni la responsabilitat del resultat final, sinó que s'amplia la seva capacitat de consulta i comprensió.
 
@@ -435,7 +320,7 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 - **Directiu:** Consulta normativa, pregunta sobre tendències, genera qüestions útils per a la presa de decisions.  
 - **Personal de gestió:** Investiga processos administratius o normativa, busca instruccions breus o recursos per informar a famílies.
 
-#### **Nivell 2: Suport/Revisió** {#nivell-2:-suport/revisió}
+#### Nivell 2: Suport/Revisió
 
 **Persona:** Realitza la totalitat o part principal de la tasca (redacció, planificació, creació, presa de decisions) i lliura aquest resultat a la IA per a accions de revisió, correcció, anàlisi o proposta de millores. Manté la responsabilitat sobre el producte final, valorant i filtrant el retorn obtingut.
 
@@ -450,7 +335,7 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 - **Directiu:** Sol·licita revisió d'informes, plans d'actuació, protocols o presentacions elaborats personalment.  
 - **Personal de gestió:** Envia documents, correus, impresos, procediments propis perquè la IA els revisi o millori.
 
-#### **Nivell 3: Cocreació** {#nivell-3:-cocreació}
+#### Nivell 3: Cocreació
 
 **Persona:** Participa de forma contínua i flexible en la creació d'un producte, negociant o alternant tasques amb la IA, perfeccionant resultats, definint objectius parcials i integrant valoracions i aportacions conjuntament.
 
@@ -465,7 +350,7 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 - **Directiu:** Dissenya plans, protocols o estratègies amb la IA, ajustant-los en funció de la realitat o noves necessitats.  
 - **Personal de gestió:** Millora processos interns, definició de respostes o creació de plantilles administratives de forma iterativa amb la IA.
 
-#### **Nivell 4: Delegació supervisada** {#nivell-4:-delegació-supervisada}
+#### Nivell 4: Delegació supervisada
 
 **Persona:** Defineix clarament objectius, requisits i criteris d'èxit, traspassa la generació principal del producte o resultat a la IA, però en valida la qualitat, en fa ajustaments finals i manté la supervisió ètica i de qualitat del procés.
 
@@ -480,7 +365,7 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 - **Directiu:** Demana informes, plans, presentacions, documents oficials sota paràmetres clars i valida el resultat.  
 - **Personal de gestió:** Delega en la IA la creació de formularis, comunicats i plantilles, revisant-ne la pertinència.
 
-#### **Nivell 5: Agència autònoma** {#nivell-5:-agència-autònoma}
+#### Nivell 5: Agència autònoma
 
 **Persona:** Defineix únicament el marc general d'actuació, límits ètics i indicadors de seguiment, i supervisa periòdicament els resultats.
 
@@ -495,13 +380,13 @@ La deliberació sobre quin grau utilitzar en cada moment és el que anomenem ús
 - **Directiu:** Supervisa sistemes IA que monitoritzen indicadors, generen informes i eliciten propostes de millora automàtica.  
 - **Personal de gestió:** Automatitza la gestió administrativa, comunicacions o suport informatiu recurrent.
 
-## **MAPA DE DELEGACIÓ PEDAGÒGICA PER ETAPES** {#mapa-de-delegació-pedagògica-per-etapes}
+## MAPA DE DELEGACIÓ PEDAGÒGICA PER ETAPES
 
 Els sis graus de delegació definits anteriorment són un llenguatge comú per a tota la institució. Però en l'àmbit pedagògic —docència i aprenentatge— cal concretar: **quina N apliquem a cada etapa educativa?**
 
 El mapa que es presenta a continuació respon a aquesta pregunta. S'ha construït mitjançant un procés de deliberació col·lectiva amb les direccions dels centres i constitueix una **visió de consens inicial** —no prescriptiva— que caldrà revisar periòdicament a mesura que es guanyi experiència i evidència. No es tracta de decidir *si* usar la IA, sinó de decidir *amb quina intencionalitat, en quin moment i amb quina responsabilitat* la integrem a cada etapa del recorregut formatiu.
 
-### **Visió general per etapes** {#visió-general-per-etapes}
+### Visió general per etapes
 
 | Etapa | DOCENT |  | Alumnat | Nivells delegació |  |  |  |  |  |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
@@ -518,7 +403,7 @@ El mapa que es presenta a continuació respon a aquesta pregunta. S'ha construï
 | FP-CGM | ✓ | ✓ | Autònom | ✓ | ✓ | ✓ | ✓ | ✓ |  |
 | FP-CGS | ✓ | ✓ | Autònom | ✓ | ✓ | ✓ | ✓ | ✓ |  |
 
-### **Lectura del mapa** {#lectura-del-mapa}
+### Lectura del mapa
 
 El mapa mostra una **progressió coherent i gradual** del grau de delegació a mesura que l'alumnat madura:
 
@@ -528,7 +413,7 @@ El mapa mostra una **progressió coherent i gradual** del grau de delegació a m
 - **Batxillerat i FP-CGS:** Nivell predominant N4 (delegació supervisada). L'alumnat rep accés autònom i pot generar productes complets amb IA sota supervisió crítica. En casos puntuals s'explora l'agència autònoma (N5).  
 - **FP-CGM:** Posició intermèdia entre N3 i N4, reflectint la diversitat de perfils i la naturalesa pràctica d'aquests cicles.
 
-### **La complexitat que el mapa no recull** {#la-complexitat-que-el-mapa-no-recull}
+### La complexitat que el mapa no recull
 
 El mapa és una simplificació necessària, però la realitat és més complexa. Quatre aprenentatges fonamentals per aplicar-lo bé:
 
@@ -540,11 +425,11 @@ El mapa és una simplificació necessària, però la realitat és més complexa.
 
 4. **L'edat d'accés i les eines institucionals.** Cal tenir en compte les limitacions d'edat segons el proveïdor de l'eina. No obstant això, en el cas d'assistents d'IA creats per la mateixa institució, aquesta edat pot regular-se internament —prèvia autorització de les famílies— per ser inferior a la estipulada en eines d'ús general com ChatGPT, Gemini o Copilot, garantint un entorn segur i adaptat a l'etapa educativa.
 
-## **CRITERIS D'APLICACIÓ DEL MAPA** {#criteris-d'aplicació-del-mapa}
+## CRITERIS D'APLICACIÓ DEL MAPA
 
 El mapa és un punt de partida, no una recepta. La seva aplicació requereix un exercici de **discerniment pedagògic** guiat pels criteris següents.
 
-### **1\. L'objectiu d'aprenentatge com a brúixola** {#1.-l'objectiu-d'aprenentatge-com-a-brúixola}
+### 1\. L'objectiu d'aprenentatge com a brúixola
 
 El criteri fonamental és **l'objectiu d'aprenentatge**. La pregunta no és "puc usar la IA aquí?" sinó "l'ús de la IA en aquest moment serveix l'objectiu que persegueixo?".
 
@@ -622,7 +507,7 @@ Per decidir quins moments de l'activitat admeten IA i quins no, la clau és **de
 
 *En gestió, la seqüència és la mateixa però el criteri canvia: no es tracta de preservar la fricció per aprendre, sinó de preservar el **judici professional** per decidir. La IA pot processar i proposar; l'equip directiu decideix i n'assumeix la responsabilitat.*
 
-### **2\. Optimitzar, no maximitzar** {#2.-optimitzar,-no-maximitzar}
+### 2\. Optimitzar, no maximitzar
 
 L'objectiu no és maximitzar l'ús de la IA, sinó usar-la quan suposa un **guany real en qualitat o en possibilitats d'aprenentatge augmentat**.
 
@@ -637,7 +522,7 @@ L'objectiu no és maximitzar l'ús de la IA, sinó usar-la quan suposa un **guan
 - L'ús substitueix el pensament propi de l'alumnat.  
 - No hi ha un guany clar que justifiqui la mediació tecnològica.
 
-### **3\. Personalització: l'alumne i el moment, sempre** {#3.-personalització:-l'alumne-i-el-moment,-sempre}
+### 3\. Personalització: l'alumne i el moment, sempre
 
 Una mateixa activitat no és igual d'idònia per a tots els alumnes. El nivell adequat depèn de:
 
@@ -647,15 +532,15 @@ Una mateixa activitat no és igual d'idònia per a tots els alumnes. El nivell a
 
 El mapa no es pot aplicar de manera uniforme. La decisió és del docent, que coneix l'alumnat i el context.
 
-### **4\. Responsabilitat de modelatge** {#4.-responsabilitat-de-modelatge}
+### 4\. Responsabilitat de modelatge
 
 L'alumnat ja utilitza la IA amb o sense el nostre permís. La pregunta no és si ho farà, sinó si ho farà amb criteri. Si no som nosaltres els qui oferim exemples d'ús adequat, modelatge de bones pràctiques i criteris per discernir, potser ningú més ho farà. Aquesta responsabilitat ens obliga a incorporar la IA de manera planificada i deliberada dins les nostres propostes.
 
-### **5\. Gradualitat i revisió permanent** {#5.-gradualitat-i-revisió-permanent}
+### 5\. Gradualitat i revisió permanent
 
 El mapa és un document viu. Caldrà revisar-lo a mesura que es generi evidència sobre l'impacte de la IA en l'aprenentatge, que l'alumnat maduri en el seu ús i que els equips docents acumulin experiència pràctica. La revisió ha de ser una pràctica periòdica i col·legiada, integrada en els espais de coordinació pedagògica.
 
-## **FONAMENT COGNITIU: PER QUÈ EL DISSENY ÉS LA CLAU** {#fonament-cognitiu}
+## FONAMENT COGNITIU: PER QUÈ EL DISSENY ÉS LA CLAU
 
 > *«Qui fa el pensament, s'emporta l'aprenentatge.»* — Paul McCrea (2025)
 
@@ -691,7 +576,7 @@ La paradoxa del rendiment no invalida l'ús de la IA; l'obliga a ser **intencion
 
 La institució disposa d'un marc teòric extens de fricció cognitiva i disseny d'activitats amb IA (*document intern de treball*) que desenvolupa en profunditat els fonaments acadèmics, l'evidència empírica i els criteris operatius que informen les decisions de disseny. Les seccions §Docència i §Alumnat d'aquest marc general s'hi referencien.
 
-## **ESTRATÈGIA TECNOPEDAGÒGICA** {#estratègia-tecnopedagògica}
+## ESTRATÈGIA TECNOPEDAGÒGICA
 
 Per fer operatiu el Marc General i que no quedi només en una declaració d'intencions, s'estableix una **estratègia tecnopedagògica diferencial** basada en el coneixement institucional propi i referenciat de domini públic.
 
@@ -704,30 +589,30 @@ El corpus de coneixement d'aquests sistemes es construeix a partir de fonts refe
 
 D'aquesta manera, el disseny tecnopedagògic de les solucions amb IA pròpies assegura que les respostes dels sistemes no provinguin d'un "èter" inespecífic, sinó que estiguin emmarcades en el projecte educatiu de la institució.
 
-### **Desplegament tècnic: convivència d’assistents i agents** {#desplegament-tècnic:-convivència-d’assistents-i-agents}
+### Desplegament tècnic: convivència d’assistents i agents
 
 L'aposta institucional és una **solució híbrida** que inclou IA generativa estàndard i assistents i agents propis, optant per la convivència segons on cada model aporti major qualitat i certesa:
 
 - **Docència i Gestió:** Ús global d'eines d'**assistent** (model reactiu i a demanda). Tanmateix, en la **Gestió**, a causa de la seva naturalesa més tancada, s'implementaran **agents autònoms** per automatitzar processos eficientment.  
 - **Aprenentatge (Alumnat):** L'alumnat interacciona exclusivament amb models d'**assistent** altament pautats. L'entrada d'agents autònoms connectats a l'estudiant i capaços de prendre decisions dinàmiques en la personalització directa queda pendent de desenvolupament futur, assegurant primer una maduresa institucional que avui és prematura per permetre interaccions autònomes amb menors.
 
-## **ÀMBITS D'APLICACIÓ I D'ACTUACIÓ** {#àmbits-d'aplicació-i-d'actuació}
+## ÀMBITS D'APLICACIÓ I D'ACTUACIÓ
 
 Aquesta secció concreta els àmbits en què la IA intervé de manera diferenciada, des de la pràctica docent fins als processos de gestió.
 
-### **1\. ÀMBIT DOCÈNCIA: ÚS DE LA IA EN LA PRÀCTICA DOCENT** {#1.-àmbit-docència:-ús-de-la-ia-en-la-pràctica-docent}
+### 1\. ÀMBIT DOCÈNCIA: ÚS DE LA IA EN LA PRÀCTICA DOCENT
 
 Aquesta secció concreta els àmbits en què la IA pot donar suport a la pràctica docent, des del disseny curricular fins al desenvolupament professional. No pretén ser un catàleg d'eines sinó un mapa d'àmbits d'aplicació per ajudar els docents a situar l'ús de la IA dins d'un marc pedagògic i ètic coherent.
 
 El docent és el segon nivell de la cascada 4D: exerceix les quatre dimensions (Delegació, Descripció, Discerniment, Diligència) des de la seva responsabilitat professional. No ho fa sol — la institució li proporciona el marc, les eines i la formació —, però és ell qui pren les decisions de disseny que determinen com l'alumnat experimentarà la IA.
 
-#### **Principis transversals de la pràctica docent** {#principis-transversals-de-la-pràctica-docent}
+#### Principis transversals de la pràctica docent
 
 - **Personalització i inclusió:** La IA no pot ampliar bretxes; ha de contribuir a reduir-les, oferint els ajuts necessaris i adaptant seqüències a la variabilitat de l'alumnat.  
 - **Acompanyament integral:** L'eficiència tecnològica mai no ha d'anar en detriment de la qualitat humana de la relació. El docent preserva els espais d'escolta i vincle.  
 - **La llengua com a vehicle de pensament:** La IA generativa no ha de substituir la paraula pròpia; ha de ser una ocasió per fer-la més precisa, rica i conscient, especialment en l'ús de la llengua catalana.
 
-#### **Àmbits d'actuació docent** {#àmbits-d'actuació-docent}
+#### Àmbits d'actuació docent
 
 1. **Disseny curricular i instruccional:** Assistència en la planificació estratègica de programacions, unitats formatives, situacions d'aprenentatge competencials, tasques, activitats i dinàmiques. La IA pot ajudar a esbossar objectius, explorar connexions interdisciplinàries o reformular reptes segons diferents nivells de complexitat. Tanmateix, el criteri pedagògic del docent és l'única garantia que la proposta té sentit en el context real de l'aula, respon al perfil de sortida de l'alumnat i s'emmarca en el projecte educatiu de centre. En aquest àmbit, el fonament cognitiu del marc és especialment rellevant: el docent ha de discernir quina càrrega cognitiva externalitza a la IA (la que no aporta valor al seu creixement professional) i quina preserva (l'anàlisi pedagògica, el judici sobre el context, la presa de decisions de disseny).  
 2. **Creació i adaptació de materials:** Producció, modificació o adaptació de recursos didàctics accessibles en formats diversos (textuals, visuals, auditius…). La IA permet una personalització de materials per atendre les múltiples necessitats educatives presents a l’aula. El docent n'és el validador final: ha de verificar la correcció factual, declarar l'ús de l'eina i assegurar-se que els materials respecten la propietat intel·lectual i la integritat del corpus institucional.  
@@ -737,11 +622,11 @@ El docent és el segon nivell de la cascada 4D: exerceix les quatre dimensions (
 
 **El paper irreductible del docent.** En tots cinc àmbits, el patró és el mateix: la IA pot generar, organitzar, sintetitzar o adaptar, però el judici professional — pedagògic, relacional, ètic — és exclusivament humà. El docent no és un validador passiu de productes generats per la màquina; és el dissenyador de les condicions en què l'aprenentatge es fa possible. Quan la IA s'integra bé a la pràctica docent, el resultat no és un professor que treballa menys, sinó un professor que dedica més temps al que realment importa: pensar, acompanyar i decidir amb criteri.
 
-### **2\. ÀMBIT ALUMNAT: APRENDRE SOBRE, PER A I AMB LA IA** {#2.-àmbit-alumnat}
+### 2\. ÀMBIT ALUMNAT: APRENDRE SOBRE, PER A I AMB LA IA
 
 L’alumnat no només *usa* la IA; necessita *comprendre-la*, *preparar-se per conviure-hi* i *aplicar-la amb criteri*. Aquestes tres dimensions —**SOBRE**, **PER A** i **AMB**— no són àmbits separats sinó tres capes concèntriques d’una mateixa competència, articulades a través del Model 4D.
 
-#### **Tres capes, una sola competència**
+#### Tres capes, una sola competència
 
 Cada dimensió del 4D es pot llegir des de tres profunditats progressives:
 
@@ -754,7 +639,7 @@ Cada dimensió del 4D es pot llegir des de tres profunditats progressives:
 
 Aquesta lectura en capes és **supra-curricular**: no depèn de cap currículum territorial concret. Cada centre, fundació o comunitat autònoma pot mapar el seu marc competencial local (competència digital, alfabetització mediàtica, etc.) sobre les 4D×3 capes. El Model 4D és el denominador comú; el currículum local és la concreció.
 
-#### **La cascada: institució → docent → alumne**
+#### La cascada: institució → docent → alumne
 
 Les 4D no són una responsabilitat exclusiva de l’alumnat. S’exerceixen en cascada a tres nivells d’agent:
 
@@ -766,7 +651,7 @@ En la pràctica, cada capa habilita la següent: la institució proporciona el m
 
 ---
 
-#### **2.1. Aprendre SOBRE la IA** {#aprendre-sobre-la-ia}
+#### 2.1. Aprendre SOBRE la IA
 
 Aprendre *sobre* la IA és el primer cercle: el coneixement que permet entendre **què és** la tecnologia amb què es conviu, com funciona i quines implicacions té. No és un contingut tancat sinó un horitzó de comprensió que es gradua per etapa i que es vehicula transversalment, no com una assignatura específica.
 
@@ -782,7 +667,7 @@ Organitzat per les quatre dimensions del 4D:
 
 ---
 
-#### **2.2. Aprendre PER A la IA** {#aprendre-per-a-la-ia}
+#### 2.2. Aprendre PER A la IA
 
 Aprendre *per a* la IA és el segon cercle: les **habilitats que l'alumnat necessita per conviure amb sistemes generatius sense perdre capacitat pròpia**. Si el SOBRE respon a "què és la IA?", el PER A respon a "què necessito jo per no ser-ne dependent?".
 
@@ -802,7 +687,7 @@ Cada habilitat s'articula a través d'una dimensió del 4D:
 
 ---
 
-#### **2.3. Aprendre AMB la IA** {#aprendre-amb-la-ia}
+#### 2.3. Aprendre AMB la IA
 
 Aprendre *amb* la IA és el tercer cercle: l'**aplicació pràctica** en activitats d'aprenentatge reals. Mentre que el SOBRE dóna comprensió i el PER A construeix habilitats de protecció, l'AMB és on l'alumnat interactua efectivament amb la IA com a interlocutor d'aprenentatge — un agent que acompanya l'estudiant en el procés de construir coneixement i practicar habilitats.
 
@@ -900,7 +785,7 @@ Aquesta línia no és una prohibició tècnica sinó un principi pedagògic: l'a
 
 ---
 
-#### **2.4. El grau superior de fluïdesa** {#grau-superior-fluidesa}
+#### 2.4. El grau superior de fluïdesa
 
 El recorregut SOBRE → PER A → AMB culmina en un horitzó que el marc no formula com a cinquena D sinó com a **grau superior de les mateixes quatre**: la capacitat de **dissenyar artefactes, sistemes o solucions basades en IA** per a la resolució de problemes complexos.
 
@@ -910,18 +795,18 @@ No és un objectiu per a totes les etapes ni per a tots els alumnes. És l'horit
 
 ---
 
-### **3\. ÀMBIT GESTIÓ: PROCESSOS I SISTEMES INTEL·LIGENTS** {#3.-àmbit-gestió:-processos-i-sistemes-intel·ligents}
+### 3\. ÀMBIT GESTIÓ: PROCESSOS I SISTEMES INTEL·LIGENTS
 
 La IA en la gestió institucional persegueix un objectiu diferent del de l'aprenentatge: aquí l'objectiu primari és el **rendiment** —un procés àgil, un informe precís, una comunicació clara—, no la construcció d'esquemes mentals. Per tant, l'externalització de càrrega cognitiva a la IA és legítima en la mesura que allibera temps i atenció per a allò que realment importa: l'acompanyament de les persones, la presa de decisions amb criteri i la cura de la comunitat educativa. Tanmateix, el risc no és menor que en l'àmbit pedagògic; simplement té un altre nom: l'**erosió del judici professional**. Un equip que delega sistemàticament l'anàlisi, la priorització o la redacció sense exercir-ne el criteri pot trobar-se despullat precisament quan la situació reclama discerniment humà. La fricció aquí no aporta valor a la tasca —convé reduir-la—, però la supervisió activa del resultat és irrenunciable.
 
-#### **Principis transversals de la gestió institucional** {#principis-transversals-de-la-gestió-institucional}
+#### Principis transversals de la gestió institucional
 
 - **Eficiència amb sentit:** Automatitzar per alliberar temps per a les relacions humanes, no per treure les persones del circuit. Tota automatització ha de servir al projecte educatiu i al benestar de la comunitat, mai a la reducció de plantilla o a la deshumanització dels processos. Declareu quan heu usat la IA per elaborar comunicats, informes o documents: la transparència és un valor professional.
 - **Supervisió activa:** La IA genera informació versemblant, no necessàriament correcta. El professional revisa, contrasta i valida tot allò que l'eina produeix abans de difondre-ho, arxivar-ho o basar-hi cap decisió. La responsabilitat final és sempre de la persona, no de l'eina.
 - **Tracte personal quan cal:** No tot s'ha d'automatitzar. Hi ha situacions —l'acollida de famílies noves, la gestió d'un conflicte, l'atenció a una família en situació vulnerable, una comunicació de resultat acadèmic delicat— on la presència humana directa és l'única resposta adequada. La cura humana és irreemplaçable; l'eficiència tecnològica mai no l'ha de substituir.
 - **Compliment normatiu i protecció de dades:** Cap dada sensible del centre, de famílies ni d'alumnes ha d'entrar en eines que no compleixin la normativa vigent. El marc regulador aplicable —Reglament General de Protecció de Dades (RGPD), Llei Orgànica de Protecció de Dades i Garantia dels Drets Digitals (LOPDGDD) i Reglament europeu d'Intel·ligència Artificial (UE 2024/1689)— no és un obstacle burocràtic sinó una garantia de drets fonamentals. Abans de desplegar qualsevol eina d'IA en processos de gestió, cal una avaluació d'impacte sobre la protecció de dades i la verificació que el proveïdor compleix les obligacions de transparència, seguretat i auditabilitat que exigeix la normativa. El model PIO d'autoavaluació (OEIAC, 2025) ofereix un marc pràctic per a aquesta verificació.
 
-#### **Àmbits d'actuació en gestió** {#àmbits-d'actuació-en-gestió}
+#### Àmbits d'actuació en gestió
 
 1. **Administració i processos:** Classificació d'incidències, gestió de matrícules, generació de documentació rutinària, preparació de formularis i plantilles. La IA permet absorbir un volum de tasques repetitives que, fetes manualment, consumeixen un temps que no aporta valor relacional. Per exemple, un sistema de gestió automatitzada d'incidències i peticions —avaries TIC, sol·licituds de material, peticions de famílies— pot classificar, prioritzar i enrutar cada cas al responsable adequat sense intervenció manual, alliberant el personal per atendre les situacions que requereixen criteri. Tanmateix, tot document generat ha de ser revisat pel professional responsable abans de la seva difusió o arxiu, perquè un error administratiu pot tenir conseqüències reals sobre persones concretes.
 
@@ -935,7 +820,7 @@ La IA en la gestió institucional persegueix un objectiu diferent del de l'apren
 
 6. **Qualitat del servei i desenvolupament professional:** Detecció de necessitats formatives, assignació òptima de professionals a projectes o etapes, seguiment d'indicadors de qualitat del servei educatiu. La IA pot creuar dades que manualment serien inabordables —perfils, disponibilitat, resultats de satisfacció— per proposar distribucions o identificar àrees de millora. Tanmateix, tota decisió sobre persones —avaluació del rendiment, reassignació, feedback professional— exigeix el judici d'un responsable que coneix el context humà que les dades no capturen. L'eficiència del sistema no pot desacoblar-se de la cura de les persones que el fan funcionar.
 
-#### **Nivells de delegació en gestió** {#nivells-de-delegació-en-gestió}
+#### Nivells de delegació en gestió
 
 Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la gestió, amb una diferència fonamental: l'externalització de càrrega cognitiva és legítima quan l'objectiu és rendiment, però la supervisió del resultat continua sent obligatòria en tots els nivells.
 
@@ -952,7 +837,7 @@ Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la ge
 
 ---
 
-## **REFERÈNCIES** {#referències}
+## REFERÈNCIES
 
 Departament d'Educació de la Generalitat de Catalunya. (2024). *La intel·ligència artificial en l'educació: Orientacions i recomanacions per al seu ús als centres*. Generalitat de Catalunya. [https://creativecommons.org/licenses/by/4.0](https://creativecommons.org/licenses/by/4.0)
 
