@@ -4,8 +4,8 @@ titol: 'Paradigma Pedagògic Ignasià (PPI)'
 tipus: marc
 descripcio: 'El cicle Context-Experiència-Reflexió-Acció-Avaluació com a marc pedagògic ignasià, amb Learning by Refraction i les 4C'
 review_status: esborrany
-last_editor: miquel.amor@fje.edu
-last_editor_at: '2026-05-10T16:19:54Z'
+last_editor: aprenentatge@fje.edu
+last_editor_at: '2026-05-11T12:01:52Z'
 generat_at: 1773781200
 ---
 
@@ -13,7 +13,8 @@ generat_at: 1773781200
 
 ## 1. FONAMENT TEÒRIC: LA PEDAGOGIA DE LA TRANSFORMACIÓ
 
-**A. Definicions Precises dels Conceptes Clau**
+
+**A. Definicions precises dels conceptes clau**
 
 Per raonar sobre aquest marc, cal entendre que la pedagogia ignasiana no és un conjunt de tècniques, sinó un **"mode de procedir"** [Source: 1: Característiques de l'educació a la companyia de Jesús. 1986.pdf] [Source: 2: Diccionario de espiritualidad ignaciana 2 (G-Z)-451-907.pdf] .
 
@@ -57,7 +58,6 @@ Per raonar sobre aquest marc, cal entendre que la pedagogia ignasiana no és un 
 -   **Excepció de la fe:** Tot i ser una pedagogia d'arrel cristiana, és aplicable a alumnes d'altres religions o no creients, sempre que es busqui la plenitud de l'ésser humà.
 
 ---
-
 ## 3. Connexions amb altres documents del corpus
 
 - **`M0_cura-personalis.md`** — La *Cura Personalis* és el pilar complementari del PPI: conèixer el context personal de l'alumne és el punt de partida del cicle Context-Experiència-Reflexió-Acció
