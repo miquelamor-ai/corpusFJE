@@ -27,11 +27,11 @@ Els conceptes que vertebren el sistema:
 
 **Tantum quantum.** «Tant en quant ens ajudi per al nostre fi.» Els mitjans — inclosa la tecnologia — s'han d'usar únicament en la mesura que ajuden a la formació integral. La indiferència ignasiana davant els mitjans evita tant el rebuig dogmàtic com la fascinació acrítica.
 
-### L'herència de la *Ratio Studiorum*: organisme viu, no cadàver arcaic
+### L'herència de la *Ratio Studiorum*: rigor i mètode al servei de l'esperit
 
-La *Ratio Studiorum* (1599) sistematitza l'experiència dels primers col·legis jesuïtes. El P. General Pedro Beckx advertia que la *Ratio* no s'ha de tractar com un «cadàver» rígid, sinó com un **«organisme viu»** que conté en si llavors (*semina*) de qualsevol desenvolupament futur. El mètode ignasià només conté llavors que han de ser cultivades a través de la meditació i l'experiència per donar fruit segons els temps.
+La *Ratio Studiorum* (1599) sistematitza l'experiència dels primers col·legis jesuïtes en un ordre acadèmic que ha demostrat la seva vigència al llarg dels segles. El seu valor rau en la capacitat de combinar rigor intel·lectual i formació del caràcter en una mateixa seqüència pedagògica.
 
-L'ordre que articula la *Ratio* combina tres moviments: **prelecció** (motivar i fonamentar), **repetició** (aprofundir i consolidar — no repetició mecànica sinó retorn al nucli per comprendre'l més profundament) i **aplicació** activa a través de composicions, debats i posades en escena. La *Ratio* aporta el rigor i la seqüenciació; els *Exercicis* aporten l'esperit. Confondre la lletra de la *Ratio* amb el seu esperit és l'origen de moltes rigideses pedagògiques innecessàries.
+L'ordre que articula la *Ratio* es basa en tres moviments complementaris: **prelecció** (el docent motiva i dona els fonaments per a l'estudi, despertant la curiositat), **repetició** (retorn aprofundit al nucli — no memorització mecànica sinó comprensió cada vegada més rica) i **aplicació** activa a través de composicions, debats i posades en escena on l'alumne deixa de ser receptor passiu. La *Ratio* aporta el rigor i la seqüenciació; els *Exercicis Espirituals* aporten l'esperit que els anima.
 
 ### L'horitzó de les 4C
 
