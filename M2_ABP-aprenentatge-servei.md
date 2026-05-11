@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:30:41
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 
 L'Aprenentatge Basat en Projectes (ABP) és una estratègia pedagògica que situa l'alumnat al centre del seu aprenentatge, desafiant-lo a resoldre problemes o respondre a preguntes complexes i significatives del món real. Aquesta metodologia es fonamenta en la idea que l'aprenentatge és més profund i durador quan els estudiants s'impliquen activament en la construcció del seu coneixement, aplicant conceptes de diverses àrees per crear un producte o solució tangible. L'ABP promou l'adquisició de coneixements, habilitats i actituds de manera integrada, fomentant el pensament crític, la creativitat, la resolució de problemes i la col·laboració. Les activitats competencials inherents a l'ABP es plantegen com a reptes que donen sentit a l'aprenentatge, connectant-lo amb fets reals o problemes quotidians, i requereixen l'aplicació de coneixements adquirits i la realització de nous aprenentatges (DOC 23, 25, 26).
@@ -142,21 +140,18 @@ Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memoritzaci
 *   **No preveure la diversitat de l'alumnat:** Ignorar els diferents ritmes i necessitats pot excloure alumnes. Cal dissenyar activitats multinivell i aplicar el DUA per assegurar l'accés, la participació i l'expressió de tot l'alumnat (DOC 3, 21, 23).
 *   **Centrar-se només en el producte final:** El procés d'aprenentatge és tan important com el producte. Cal dedicar temps a la reflexió, l'autoavaluació i la coavaluació del procés per consolidar els aprenentatges i millorar les habilitats (DOC 9, 23).
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M2_DUA-principis-pautes.md`** — El DUA és el marc teòric que garanteix que l'ABP és accessible a tots: múltiples formes de representació, expressió i implicació adapten el projecte a la diversitat de l'aula
+- **`M2_aprenentatge-cooperatiu.md`** — El treball cooperatiu és la metodologia complementària natural: els projectes ABP s'organitzen en equips cooperatius amb interdependència positiva i responsabilitat individual
+- **`M2_programacio-multinivell.md`** — La programació multinivell permet que un mateix projecte ABP tingui objectius i productes de complexitat diferent, sense excloure cap alumne
+- **`M2_factors-promotors-aprenentatge.md`** — L'ABP activa tots els factors promotors: repte cognitiu (ZDP), connexió amb coneixements previs i motivació intrínseca per la rellevància del projecte
+- **`M0_cura-personalis.md`** — La Cura Personalis garanteix que el projecte es dissenya per a cada alumne real: el servei (ApS) té sentit quan va adreçat a l'altre concret
+- **`M7_participacio-families.md`** — Les famílies i la comunitat sovint son part del projecte o dels destinataris del servei; la participació externa és un valor afegit de l'ApS
 
-*   **DUA i Ensenyament Multinivell**: Aquestes estratègies són fonamentals per adaptar l'ABP/ApS a la diversitat de l'aula, garantint que tots els alumnes puguin accedir als continguts i demostrar el seu aprenentatge.
-*   **Treball Cooperatiu**: És un pilar metodològic essencial per a l'èxit de l'ABP/ApS, ja que fomenta la interacció, la responsabilitat compartida i el desenvolupament d'habilitats socials.
-*   **Bastides Pedagògiques (Scaffolding)**: Són eines clau per donar suport a l'alumnat durant les fases de recerca i desenvolupament del projecte, especialment per a aquells amb més dificultats o amb L2.
-*   **Avaluació Formativa i Competencial**: L'ABP/ApS requereix un enfocament avaluatiu que valori el procés, les competències adquirides i la transferència de coneixements, més enllà de la simple memorització.
-*   **Lectura Crítica i Alfabetització Medial**: Habilitats imprescindibles per a la fase de recerca i anàlisi d'informació en qualsevol projecte, especialment en un món amb sobreabundància d'informació.
-*   **Perfils d'Alumnat (p. ex., nouvinguts, NEE)**: L'ABP/ApS, ben implementat amb DUA i bastides, és una estratègia inclusiva que pot beneficiar especialment aquests perfils, oferint-los contextos significatius i suports adaptats.
-*   **Alliberament Gradual de la Responsabilitat**: Aquesta seqüència (modelatge, pràctica guiada, pràctica autònoma) és crucial per introduir les tasques complexes dels projectes i fomentar l'autonomia de l'alumnat.
+## 4. Detecció
 
-## 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent:**
+### Senyals del docent
 *   El docent expressa la necessitat de connectar els continguts amb la realitat dels alumnes.
 *   Busca metodologies que fomentin la motivació intrínseca i l'autonomia.
 *   Vol integrar diverses àrees del currículum en una sola activitat.
@@ -165,32 +160,32 @@ Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memoritzaci
 *   Es pregunta com avaluar de manera més integral i menys memorística.
 *   Té interès en implicar la comunitat o l'entorn en l'aprenentatge.
 
-**Senyals de l'alumne:**
+### Senyals de l'alumne
 *   L'alumne mostra desinterès o falta de motivació per les classes tradicionals.
 *   Té dificultats per veure la utilitat o rellevància del que aprèn.
 *   És passiu en el procés d'aprenentatge i espera que el docent li doni totes les respostes.
 *   Mostra dificultats per treballar en equip o per resoldre problemes complexos.
 *   Expressa el desig de fer coses "reals" o de participar en projectes amb un impacte tangible.
 
-**Senyals de context:**
+### Senyals de context
 *   El centre educatiu busca implementar un enfocament més competencial del currículum.
 *   Hi ha una oportunitat per col·laborar amb entitats o problemàtiques de l'entorn proper.
 *   Es vol fomentar la interdisciplinarietat entre diferents matèries o departaments.
 *   La composició del grup-classe és molt diversa i es necessiten metodologies inclusives.
 *   Es disposa de temps per a projectes de llarga durada o per a la coordinació entre docents.
 
-**Anti-senyals (quan NO activar malgrat les aparences):**
+### Anti-senyals
 *   El docent busca una "solució ràpida" o una activitat aïllada sense una planificació profunda. L'ABP/ApS requereix un compromís metodològic i temporal.
 *   L'objectiu principal és només cobrir continguts de manera ràpida sense aprofundir en les competències. L'ABP/ApS prioritza la comprensió i l'aplicació.
 *   No hi ha voluntat d'estructurar el treball cooperatiu ni d'ensenyar les habilitats socials necessàries. Sense això, el treball en grup pot ser ineficaç.
 *   El docent no està disposat a cedir control a l'alumnat ni a actuar com a facilitador. L'ABP/ApS es basa en l'autonomia de l'alumne.
 *   El context del centre o l'horari no permet la flexibilitat necessària per a la implementació de projectes significatius.
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general:** Centrar l'aprenentatge en reptes significatius i col·laboratius per desenvolupar competències integrals, connectant l'aula amb la realitat.
 
-### Heurístiques per a l'Agent DOCENT
+#### Heurístiques per al docent
 
 1.  **Heurística: "El Repte Significatiu"**
     *   **Quan aplica:** Quan el docent vol que l'aprenentatge sigui rellevant, motivador i connectat amb la vida real dels alumnes, anant més enllà de la memorització de continguts.
@@ -217,7 +212,7 @@ Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memoritzaci
     *   **Fonament:** L'Aprenentatge Servei (ApS), com a extensió de l'ABP, integra l'aprenentatge amb un servei a la comunitat, responent a una necessitat real (implícit en la idea d'activitats competencials amb "destinatari clar" i "problemes quotidians" del DOC 25, 26).
     *   **Exemple complet de raonament:** Un docent vol que els seus alumnes de FP de jardineria no només aprenguin tècniques, sinó que també vegin la utilitat social del seu ofici. L'agent podria proposar: "En lloc de fer un projecte de disseny de jardins només per a l'escola, el docent podria contactar amb una residència d'avis o un centre cívic local que necessiti millorar els seus espais verds. Els alumnes dissenyarien i implementarien un projecte de jardineria per a aquest espai, interactuant amb els usuaris per entendre les seves necessitats. Això transformaria l'ABP en ApS, ja que l'aprenentatge de les tècniques de jardineria estaria directament vinculat a un servei real a la comunitat, donant un propòsit social i un destinatari clar al seu treball (DOC 25, 26), i fomentant valors de solidaritat i compromís."
 
-### Heurístiques per a l'Agent ALUMNE
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: "El Propòsit del Meu Aprenentatge"**
     *   **Quan aplica:** Quan l'alumne no entén per què ha d'aprendre un contingut o com es relaciona amb la seva vida o els seus interessos.
@@ -233,36 +228,11 @@ Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memoritzaci
     *   **Quan aplica:** Quan l'alumne se sent limitat per una única forma d'aprendre o de demostrar el que sap, o quan necessita suports específics per superar una dificultat.
     *   **Fonament:** El DUA i les bastides pedagògiques ofereixen múltiples opcions per accedir al coneixement i expressar-lo, adaptant-se a la diversitat de canals d'aprenentatge (DOC 3, 5, 18).
     *   **Exemple complet de raonament:** Un alumne amb dislèxia té dificultats per llegir textos llargs en un projecte de recerca. L'agent podria raonar: "L'alumne necessita un 'camí' alternatiu per accedir a la informació. En lloc d'obligar-lo a llegir el text complet, se li podrien oferir bastides com ara versions simplificades del text, resums visuals, àudios o vídeos amb la informació clau (DOC 3, 5). Per a la fase de presentació del projecte, en lloc d'una exposició oral tradicional, se li podria permetre crear una presentació visual, un mapa conceptual o un petit vídeo, utilitzant el canal que li sigui més còmode per demostrar el seu aprenentatge (DOC 3). Això respecta el seu ritme i estil d'aprenentatge, assegurant que pugui participar plenament i mostrar les seves capacitats."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b7:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/index |
-| 2 | cursos:escola_inclusiva:ansu:b3:b3t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t2 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t4 |
-| 4 | cursos:escola_inclusiva:ansu:b5:b5t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t4 |
-| 5 | cursos:escola_inclusiva:ansu:b4:b4t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t5 |
-| 6 | cursos:escola_inclusiva:ansu:b4:b4t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t3 |
-| 7 | cursos:escola_inclusiva:ansu:b4:b4t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t2 |
-| 8 | cursos:escola_inclusiva:ansu:b5:b5t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t2 |
-| 9 | cursos:escola_inclusiva:ansu:b5:b5t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t3 |
-| 10 | cursos:curriculum:eso_btx:dcs1:projecte [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/projecte |
-| 11 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_5 |
-| 12 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_4 |
-| 13 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_5 |
-| 14 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_6 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_6 |
-| 15 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_3 |
-| 16 | caixadeines09_79dad89de3.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines09/caixadeines09.pdf |
-| 17 | caixadeines08_32639931f0.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines08/caixadeines08.pdf |
-| 18 | 170614_bastides_MU_81f367adb9.pdf | http://xtec.gencat.cat/web/.content/projectes/lectura/impulslectura/materialsformacio/saber-llegir/cm-cs-eso/documents/170614_bastides_MU.pdf |
-| 19 | el_treball_cooperatiu_62b5c345b4.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0058/810bc5ef-52c3-4172-9642-0fe7768622e5/el_treball_cooperatiu.pdf |
-| 20 | aprenentatge_entre_iguals_fcfb7dbdf7.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0091/df6b6ac8-6646-4ebc-ab7b-9c1a77fe311d/aprenentatge_entre_iguals.pdf |
-| 21 | b6t4_9_regles_unesco_86da447368.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b6/b6t4_9_regles_unesco.pdf |
-| 22 | guia_per_a_la_lectura_d_imatges_1a3459040a.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/eso_btx/dcs1/modul_2/guia_per_a_la_lectura_d_imatges.pdf |
-| 23 | Full-indicadors-unitats-competencials_58f56ec799.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0029/f0b48627-bdc5-48e5-9b3c-4bceed129d61/Full-indicadors-unitats-competencials.pdf |
-| 25 | 07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL_e5c32476bf.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3e2d7305-7dfa-4a7b-9d8b-10d7c9ada24b/07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 26 | BANUS_CM_MODIFICACIO_ACTIVITAT_COMPETENCIAL_608c72827b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0070/a1cb192d-e46b-43a0-b4eb-8db91593013d/BANUS_CM_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-
-*25 documents citats de 26 al corpus · secció generada automàticament*
+- Thomas, J. W. (2000). *A Review of Research on Project-Based Learning*. San Rafael, CA: Autodesk Foundation.
+- Kilpatrick, W. H. (1918). The project method. *Teachers College Record*, 19, 319-335.
+- Puig, J. M., Batlle, R., Bosch, C., & Palos, J. (2007). *Aprenentatge Servei: Educar per a la ciutadania*. Barcelona: Octaedro.
+- Blumenfeld, P., et al. (1991). Motivating project-based learning. *Educational Psychologist*, 26(3-4), 369-398.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.

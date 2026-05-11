@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:31:09
 ---
 
-## 1. CONTINGUT ESPECÍFIC DEL TIPUS "ESTRATEGIA"
-
 ### Descripció i fonament
 
 Les rutines i destreses de pensament són estratègies pedagògiques dissenyades per fer el pensament visible, explícit i deliberat a l'aula. Aquest enfocament, sovint associat al "Visible Thinking" de Project Zero de Harvard (amb autors com Ron Ritchhart), es fonamenta en la idea que el pensament no és una activitat innata que es desenvolupa automàticament, sinó un conjunt d'habilitats que es poden ensenyar, practicar i millorar. L'objectiu principal és anar més enllà de la simple memorització de continguts i fomentar una comprensió profunda, el pensament crític, la creativitat i la capacitat de resoldre problemes.
@@ -116,20 +114,18 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pe
 4.  **No dedicar temps a la reflexió i el diàleg**: L'essència de fer el pensament visible és la reflexió sobre el propi procés i el diàleg amb els altres. Si no es preveu temps per compartir, contrastar idees i reflexionar sobre com s'ha pensat, l'aprenentatge es queda a un nivell superficial. L'autoreflexió de grup és una condició clau per a l'èxit de l'aprenentatge cooperatiu i el desenvolupament de les habilitats socials (DOC 9).
 5.  **Confondre treball en grup amb aprenentatge cooperatiu**: Simplement agrupar els alumnes no garanteix que es produeixi un aprenentatge cooperatiu efectiu. Cal estructurar la tasca amb interdependència positiva, responsabilitat individual i ensenyar explícitament les habilitats socials necessàries per treballar en equip (DOC 8, DOC 9, DOC 19). Sense aquests principis, el treball en grup pot ser improductiu o fins i tot generar conflictes.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Marc_DUA**: Les rutines i destreses de pensament s'alineen perfectament amb els principis del DUA, ja que ofereixen múltiples formes d'implicació, representació i acció/expressió per a l'alumnat.
-*   **Estrategia_Aprenentatge_Cooperatiu**: Moltes rutines de pensament es potencien i s'implementen de manera òptima a través del treball cooperatiu, que facilita la interacció i la construcció col·lectiva del pensament.
-*   **Estrategia_Bastides_Suport**: Les rutines de pensament són en si mateixes una forma de bastida, i alhora, requereixen de bastides addicionals per a la seva implementació efectiva, especialment amb alumnat divers.
-*   **Eina_Rúbriques_Avaluacio**: Les rúbriques són instruments clau per avaluar no només el producte final, sinó també el procés de pensament i l'aplicació de les destreses.
-*   **Estrategia_Ensenyament_Multinivell**: Aquesta estratègia permet diferenciar els objectius i les ajudes, facilitant que cada alumne accedeixi als coneixements i demostri el seu aprenentatge segons les seves capacitats, complementant les rutines de pensament.
-*   **Estrategia_Lectura_Critica**: La lectura crítica és una destresa de pensament fonamental que es pot desenvolupar amb rutines específiques com C.R.I.T.I.C.
-*   **Estrategia_Modelatge_Docent**: El modelatge explícit del pensament per part del docent és un pilar essencial per a l'ensenyament de les rutines i destreses de pensament.
-*   **Eina_Full_Indicadors_Unitats_Competencials**: Aquest full pot servir per revisar si les unitats didàctiques integren activitats que fomenten les destreses de pensament i la visibilitat del procés.
+- **`M2_DUA-principis-pautes.md`** — Les rutines de pensament operativitzen el principi de múltiples formes de representació DUA: fer el pensament explícit és una bastida per a tots els alumnes
+- **`M2_aprenentatge-cooperatiu.md`** — Moltes rutines (Pensa-Parella-Comparteix, Galeria de pensament) son cooperatives per naturalesa: la interacció social potencia i visibilitza el pensament
+- **`M2_factors-promotors-aprenentatge.md`** — Les rutines activen el coneixement previ i la metacognició: "Vejo-Penso-Em Pregunto" estructura la connexió entre el que es sap i el que s'aprèn
+- **`M2_gamificacio-motivacio.md`** — La gamificació i les rutines comparteixen l'activació de l'engagement: una rutina ben dissenyada és un ritual que genera pertinença i motivació
+- **`M1_neurodiversitat-NESE.md`** — Les rutines son especialment beneficioses per a alumnat TEA (previsibilitat), TDAH (estructura externa que suporta l'autoregulació) i dislèxia (andamiatge del processament)
+- **`M0_cura-personalis.md`** — Les rutines de pensament revelen la ment de cada alumne; l'atenció als productes de pensament és una forma de conèixer i acompanyar cada persona concreta
 
-## 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-**Senyals del docent:**
+### Senyals del docent
 *   "Els meus alumnes memoritzen, però no entenen profundament."
 *   "M'agradaria que els meus alumnes fossin més autònoms en el seu aprenentatge."
 *   "Necessito eines per ajudar els alumnes a estructurar el seu pensament."
@@ -137,14 +133,14 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pe
 *   "Vull fomentar el pensament crític i la creativitat a l'aula, però no sé per on començar."
 *   "Em costa identificar on es bloquegen els meus alumnes quan s'enfronten a tasques complexes."
 
-**Senyals de l'alumne:**
+### Senyals de l'alumne
 *   "No sé per on començar." (davant d'una tasca complexa)
 *   "Només he copiat el que diu el llibre/internet." (manca d'elaboració pròpia)
 *   "No entenc el que em demanen." (dificultat per processar la consigna)
 *   "M'equivoco sovint i no sé per què." (manca de metacognició)
 *   Silenci o passivitat davant preguntes que requereixen reflexió.
 
-**Senyals de context:**
+### Senyals de context
 *   Introducció d'un nou concepte complex o abstracte.
 *   Activitat que requereix anàlisi, síntesi, avaluació o creació.
 *   Treball en grup o cooperatiu on es busca una construcció col·lectiva del coneixement.
@@ -152,17 +148,17 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pe
 *   Moment d'inici d'una unitat didàctica o d'un projecte.
 *   Avaluació formativa on es vol comprendre el procés d'aprenentatge.
 
-**Anti-senyals (quan NO activar malgrat les aparences):**
+### Anti-senyals
 *   **Tasques purament reproductives**: Si l'activitat només demana memorització o repetició sense cap elaboració, l'aplicació d'una rutina de pensament seria forçada i sense sentit.
 *   **Manca de temps per a la reflexió**: Si el ritme de la classe és massa ràpid i no hi ha espai per al diàleg, la verbalització i la reflexió, la rutina esdevindrà una activitat superficial.
 *   **Docent sense formació o convicció**: Si el docent no entén el propòsit de les rutines o no hi creu, la seva implementació serà ineficaç i els alumnes ho percebran.
 *   **Avaluació centrada exclusivament en el producte final**: Si l'únic que es valora és la resposta correcta i no el procés de pensament, els alumnes no trobaran incentiu per fer visible el seu raonament.
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general**: Fomenta la comprensió profunda i l'autonomia de l'alumne fent el pensament explícit i deliberat.
 
-### Heurístiques per a l'Agent DOCENT
+#### Heurístiques per al docent
 
 1.  **Heurística: "Modela el Pensament en Veu Alta"**
     *   **Quan aplica**: Quan s'introdueix una nova rutina de pensament, una tasca complexa o un concepte abstracte.
@@ -189,7 +185,7 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pe
     *   **Fonament**: Si només s'avalua el resultat final, els alumnes tendeixen a centrar-se en la resposta correcta i no en el procés que els hi ha portat. Avaluar el procés de pensament implica donar valor a la verbalització, la reflexió, la capacitat d'argumentar i la millora de les estratègies. Això es pot fer compartint els criteris d'avaluació amb l'alumnat, utilitzant rúbriques que incloguin indicadors de procés, i creant espais per a la coavaluació i l'autoreflexió sobre els aprenentatges i les dificultats (DOC 6, DOC 9, DOC 23).
     *   **Exemple complet de raonament**: Un docent ha proposat un projecte de recerca a Batxillerat on els alumnes han d'analitzar un problema social i proposar solucions. L'agent aconsella al docent que, a més de la presentació final del projecte, inclogui en l'avaluació un "diari de pensament" o un "portfoli" (DOC 24) on els alumnes registrin el seu procés: les preguntes inicials, les hipòtesis, els canvis d'idea, les dificultats trobades, les estratègies utilitzades per superar-les i les reflexions sobre el seu propi aprenentatge. Durant el procés, el docent realitza sessions de tutoria on revisa aquests diaris, fent preguntes com "Com has arribat a aquesta conclusió?", "Quines altres opcions vas considerar?", "Què has après sobre com investigues?". Aquesta avaluació formativa del procés de pensament no només proporciona al docent informació valuosa per ajustar el suport, sinó que també ajuda els alumnes a ser més conscients de les seves pròpies estratègies i a millorar la seva metacognició.
 
-### Heurístiques per a l'Agent ALUMNE
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: "Fes el teu Pensament Visible per a tu i els altres"**
     *   **Quan aplica**: Quan t'enfrontes a una tasca nova, complexa o que requereix reflexió.
@@ -205,36 +201,11 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pe
     *   **Quan aplica**: Després de completar una tasca, un projecte o d'haver tingut una dificultat en l'aprenentatge.
     *   **Fonament**: La reflexió sobre el propi aprenentatge (metacognició) és essencial per identificar què s'ha après, com s'ha après i què es pot millorar en el futur. Et permet prendre consciència de les teves estratègies, dels teus punts forts i de les teves àrees de millora, fomentant l'autonomia i la capacitat d'aprendre a aprendre. Aquesta autoreflexió és un component clau de l'aprenentatge cooperatiu i de l'avaluació formativa (DOC 9, DOC 23).
     *   **Exemple complet de raonament**: Un alumne de 1r de Batxillerat ha fet un examen de física i no ha obtingut la nota esperada. L'agent li suggereix que revisi el seu procés d'estudi i de resolució de l'examen. L'alumne podria reflexionar: "Vaig estudiar memoritzant les fórmules, però no vaig practicar prou problemes. Durant l'examen, em vaig bloquejar en un problema i vaig perdre molt de temps, i no vaig revisar les respostes al final." L'agent llavors li pregunta: "Què podries fer diferent la pròxima vegada per evitar aquests errors? Quina estratègia de resolució de problemes et podria ajudar a no bloquejar-te? Com podries gestionar millor el temps?". Aquesta guia per a l'autoreflexió ajuda l'alumne a transformar l'error en una oportunitat d'aprenentatge, desenvolupant estratègies més efectives per a futurs exàmens i millorant la seva capacitat d'autoregulació.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b7:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/index |
-| 2 | cursos:escola_inclusiva:ansu:b3:b3t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t2 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t4 |
-| 4 | cursos:escola_inclusiva:ansu:b5:b5t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t4 |
-| 5 | cursos:escola_inclusiva:ansu:b4:b4t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t5 |
-| 6 | cursos:escola_inclusiva:ansu:b4:b4t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t3 |
-| 7 | cursos:escola_inclusiva:ansu:b4:b4t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t2 |
-| 8 | cursos:escola_inclusiva:ansu:b5:b5t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t2 |
-| 9 | cursos:escola_inclusiva:ansu:b5:b5t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t3 |
-| 10 | cursos:curriculum:eso_btx:dcs1:projecte [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/projecte |
-| 11 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_5 |
-| 12 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_4 |
-| 13 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_5 |
-| 14 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_6 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_6 |
-| 15 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_3 |
-| 17 | caixadeines08_32639931f0.pdf | http://ensenyament.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines08/caixadeines08.pdf |
-| 18 | 170614_bastides_MU_81f367adb9.pdf | http://xtec.gencat.cat/web/.content/projectes/lectura/impulslectura/materialsformacio/saber-llegir/cm-cs-eso/documents/170614_bastides_MU.pdf |
-| 19 | el_treball_cooperatiu_62b5c345b4.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0058/810bc5ef-52c3-4172-9642-0fe7768622e5/el_treball_cooperatiu.pdf |
-| 20 | aprenentatge_entre_iguals_fcfb7dbdf7.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0091/df6b6ac8-6646-4ebc-ab7b-9c1a77fe311d/aprenentatge_entre_iguals.pdf |
-| 21 | b6t4_9_regles_unesco_86da447368.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b6/b6t4_9_regles_unesco.pdf |
-| 22 | guia_per_a_la_lectura_d_imatges_1a3459040a.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/eso_btx/dcs1/modul_2/guia_per_a_la_lectura_d_imatges.pdf |
-| 23 | Full-indicadors-unitats-competencials_58f56ec799.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0029/f0b48627-bdc5-48e5-9b3c-4bceed129d61/Full-indicadors-unitats-competencials.pdf |
-| 24 | Escola-Banus-Interpretar-espai_52608fb445.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0056/7642a716-6e3e-4eca-9073-696cae007634/Escola-Banus-Interpretar-espai.pdf |
-| 25 | 07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL_e5c32476bf.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3e2d7305-7dfa-4a7b-9d8b-10d7c9ada24b/07.BANUS_CS_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 26 | BANUS_CM_MODIFICACIO_ACTIVITAT_COMPETENCIAL_608c72827b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0070/a1cb192d-e46b-43a0-b4eb-8db91593013d/BANUS_CM_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-
-*25 documents citats de 26 al corpus · secció generada automàticament*
+- Ritchhart, R., Church, M., & Morrison, K. (2011). *Making Thinking Visible: How to Promote Engagement, Understanding, and Independence for All Learners*. San Francisco: Jossey-Bass.
+- Perkins, D., & Blythe, T. (1994). Putting understanding up front. *Educational Leadership*, 51(5), 4-7.
+- Project Zero — Harvard Graduate School of Education (2007). *Thinking Routines* [recull de protocols]. pz.harvard.edu.
+- Swartz, R., Costa, A., Beyer, B., Reagan, R., & Kallick, B. (2007). *Thinking-Based Learning: Promoting Quality Student Achievement in the 21st Century*. Nova York: Teachers College Press.
+- Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Cambridge: Harvard University Press.

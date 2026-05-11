@@ -128,48 +128,45 @@ Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inc
 *   **Ometre l'autoreflexió de grup**: Sense un temps dedicat a reflexionar sobre el procés, els grups perden l'oportunitat d'aprendre de la seva pròpia experiència i millorar les seves dinàmiques de treball.
 *   **No estructurar la interdependència**: Si la tasca es pot realitzar individualment sense necessitat de col·laboració, els alumnes no sentiran la necessitat de cooperar. Cal dissenyar tasques on l'aportació de cada membre sigui essencial per a l'èxit del grup.
 
----
+## 3. Connexions amb altres documents del corpus
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M2_DUA-principis-pautes.md`** — L'aprenentatge cooperatiu és la concreció metodològica del principi d'implicació DUA: la diversitat del grup és un recurs, no un obstacle
+- **`M2_programacio-multinivell.md`** — La programació multinivell determina quins objectius assoleix cada membre del grup: el cooperatiu és el vehicle; el multinivell dona la flexibilitat d'accés
+- **`M2_ABP-aprenentatge-servei.md`** — L'ABP es beneficia de l'estructura cooperativa per organitzar equips de projecte: interdependència de rols + responsabilitat individual = equip eficaç
+- **`M2_factors-promotors-aprenentatge.md`** — La interacció social és el factor promotor que el cooperatiu maximitza: la zona de desenvolupament pròxim s'activa quan un company medeia el coneixement
+- **`M1_neurodiversitat-NESE.md`** — L'alumnat NESE necessita grups cooperatius ben dissenyats: el rol assignat, la bastida del grup i la reflexió grupal son especialment crítics
+- **`M0_cura-personalis.md`** — La Cura Personalis s'expressa en el disseny del grup: conèixer cada alumne permet assignar rols que activen les seves fortaleses i minimitzen les barreres
 
-*   **DUA (Disseny Universal de l'Aprenentatge)**: L'Aprenentatge Cooperatiu és una estratègia fonamental per implementar els principis del DUA, ja que ofereix múltiples formes de participació, expressió i implicació per atendre la diversitat de l'alumnat.
-*   **Bastides de Suport (Scaffolding)**: L'entorn cooperatiu facilita la creació de bastides entre iguals, on els companys poden proporcionar ajuts temporals per a la comprensió i la resolució de tasques.
-*   **Ensenyament Multinivell**: L'Aprenentatge Cooperatiu permet diferenciar objectius, continguts i nivells d'exigència dins dels grups, adaptant-se a les necessitats individuals de cada alumne.
-*   **Lectura Crítica**: La lectura cooperativa és una tècnica específica de l'AC que fomenta la comprensió profunda i el pensament crític a través de la interacció i el contrast de perspectives.
-*   **Aprenentatge entre iguals**: L'Aprenentatge Cooperatiu és una forma d'aprenentatge entre iguals que potencia la tutoria i l'ajuda mútua, desenvolupant l'empatia i la coresponsabilitat.
-*   **Disseny d'Unitats Competencials**: Els indicadors de qualitat per a unitats didàctiques competencials sovint inclouen el foment del treball cooperatiu i l'atenció a la diversitat, elements clau de l'AC.
-*   **Seqüència Gradual de l'Alliberament de la Responsabilitat**: L'AC s'integra perfectament en les fases de pràctica guiada i autònoma, on els alumnes apliquen els coneixements amb el suport dels seus iguals.
+## 4. Detecció
 
-### 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent**:
+### Senyals del docent
 *   "Els meus alumnes treballen en grup, però no veig que tots participin o aprenguin al mateix ritme."
 *   "Necessito estratègies per gestionar la diversitat a l'aula i fomentar la inclusió de tots els perfils d'alumnat."
 *   "Vull que els meus alumnes desenvolupin habilitats socials, de comunicació i de resolució de conflictes."
 *   "Com puc assegurar la responsabilitat individual dins del treball en grup i evitar que alguns s'aprofitin dels altres?"
 *   "Busco metodologies que promoguin la interacció significativa i l'ajuda mútua entre els alumnes."
 
-**Senyals de l'alumne**:
+### Senyals de l'alumne
 *   Alumnes que no participen activament en treballs de grup o que es mostren passius.
 *   Alumnes que dominen el treball en grup i deixen els altres de banda, o que fan tota la feina.
 *   Dificultats en la comunicació, l'escolta o la resolució de desacords dins del grup.
 
-**Senyals de context**:
+### Senyals de context
 *   Aula amb alta diversitat (lingüística, cultural, de ritmes d'aprenentatge, d'estils cognitius).
 *   Tasques complexes que requereixen múltiples perspectives, investigació col·laborativa o la integració de diferents habilitats.
 *   Necessitat de fomentar un clima d'aula positiu, de cohesió i de suport entre iguals.
 
-**Anti-senyals (quan NO activar malgrat les aparences)**:
+### Anti-senyals
 *   Tasques individuals que no requereixen interacció ni interdependència per ser completades.
 *   Objectius d'aprenentatge purament memorístics o reproductius que no es beneficien del debat o la construcció conjunta de coneixement.
 *   Temps molt limitat per a la formació de grups, l'ensenyament d'habilitats socials i la reflexió sobre el procés.
 *   Contextos on no es pot garantir una heterogeneïtat mínima en els grups o on la gestió de l'aula impedeix la interacció.
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general**: Fomenta la interdependència positiva i la responsabilitat individual per maximitzar l'aprenentatge de tots els membres del grup, promovent un entorn inclusiu i de desenvolupament integral.
 
-**Heurístiques per a l'Agent DOCENT**:
+#### Heurístiques per al docent
 
 *   **Heurística: Diferenciar entre "treball en grup" i "aprenentatge cooperatiu"**
     *   **Quan aplica**: Quan el docent expressa frustració amb la manca de resultats o la participació desigual en activitats grupals, o quan els alumnes no mostren un aprenentatge col·lectiu significatiu.
@@ -196,7 +193,7 @@ Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inc
     *   **Fonament**: L'autoreflexió de grup és crucial perquè els equips aprenguin de la seva pròpia experiència. Permet identificar què ha funcionat bé, quines dificultats han sorgit, com s'han resolt i quines habilitats socials s'han utilitzat o s'han de millorar. Sense aquest espai, els grups poden repetir errors i no optimitzar el seu funcionament.
     *   **Exemple complet de raonament**: "El docent vol que els seus grups cooperatius siguin cada cop més autònoms i eficients. L'agent li indicaria la importància de dedicar un temps explícit a l'autoreflexió de grup (DOC 9). Proposaria que, al final de cada tasca o periòdicament, els grups responguin a preguntes com: 'Què hem fet bé com a grup?', 'Quines dificultats hem trobat i com les hem superat?', 'Com hem utilitzat les nostres habilitats de comunicació i col·laboració?', 'Què podríem fer diferent la propera vegada per millorar el nostre treball?' Aquesta pràctica no només consolida l'aprenentatge metacognitiu, sinó que també enforteix la cohesió del grup i la seva capacitat d'autoregulació per a futures tasques."
 
-**Heurístiques per a l'Agent ALUMNE**:
+#### Heurístiques per a l'alumne
 
 *   **Heurística: Contribuir activament i demanar ajuda quan calgui**
     *   **Quan aplica**: Quan l'alumne forma part d'un grup cooperatiu i no sap com participar, té dificultats amb una part de la tasca o se sent insegur.
@@ -212,20 +209,11 @@ Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inc
     *   **Quand aplica**: Després de finalitzar una tasca cooperativa o en moments de revisió del funcionament del grup.
     *   **Fonament**: L'autoreflexió, tant individual com de grup, és crucial per consolidar l'aprenentatge i millorar les estratègies de treball. Permet a l'alumne identificar què ha après, com ha contribuït, quines dificultats ha trobat i com les habilitats socials han influït en el procés. Aquesta pràctica metacognitiva és fonamental per a la competència d'aprendre a aprendre.
     *   **Exemple complet de raonament**: "Després de completar un projecte en grup, l'alumne es pregunta si han treballat bé i què podria fer millor la propera vegada. L'agent li indicaria la importància de l'autoreflexió de grup (DOC 9, DOC 23). Li proposaria pensar en preguntes com: 'Què vaig aprendre de la tasca i dels meus companys?', 'Com vaig contribuir a l'èxit del grup i quina va ser la meva responsabilitat?', 'Hi va haver moments de dificultat? Com els vam resoldre com a equip?', 'Quines habilitats socials vam utilitzar i quines podríem millorar la propera vegada?' Aquesta reflexió no només consolida l'aprenentatge individual, sinó que també prepara l'alumne per a futures col·laboracions més efectives i fomenta la seva autonomia."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b7:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/index |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t4 |
-| 4 | cursos:escola_inclusiva:ansu:b5:b5t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t4 |
-| 5 | cursos:escola_inclusiva:ansu:b4:b4t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t5 |
-| 9 | cursos:escola_inclusiva:ansu:b5:b5t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t3 |
-| 19 | el_treball_cooperatiu_62b5c345b4.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0058/810bc5ef-52c3-4172-9642-0fe7768622e5/el_treball_cooperatiu.pdf |
-| 20 | aprenentatge_entre_iguals_fcfb7dbdf7.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0091/df6b6ac8-6646-4ebc-ab7b-9c1a77fe311d/aprenentatge_entre_iguals.pdf |
-| 21 | b6t4_9_regles_unesco_86da447368.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b6/b6t4_9_regles_unesco.pdf |
-| 23 | Full-indicadors-unitats-competencials_58f56ec799.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0029/f0b48627-bdc5-48e5-9b3c-4bceed129d61/Full-indicadors-unitats-competencials.pdf |
-
-*9 documents citats de 26 al corpus · secció generada automàticament*
+- Johnson, D. W., Johnson, R. T., & Holubec, E. J. (1994). *Cooperative Learning in the Classroom*. Alexandria: ASCD.
+- Pujolàs, P. (2008). *9 idees clau: L'aprenentatge cooperatiu*. Barcelona: Graó.
+- Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Cambridge: Harvard University Press.
+- Slavin, R. E. (1995). *Cooperative Learning: Theory, Research, and Practice* (2a ed.). Boston: Allyn & Bacon.
+- Kagan, S. (1994). *Cooperative Learning*. San Clemente, CA: Kagan Publishing.

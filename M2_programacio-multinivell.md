@@ -9,8 +9,6 @@ nota_revisio: "Versió DAC (ateneu.xtec.cat_2026-03-17_5): DUA + Intel·ligènci
 generat_at: 2026-03-18T17:13:21
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 La Programació Multinivell, entesa com a Mesures Universals, és la base del model de "resposta a la intervenció" i constitueix la primera línia d'actuació educativa. El seu propòsit és oferir una intervenció educativa que promogui un clima positiu i de satisfacció, assolint un aprenentatge eficient i significatiu per a *tots* els alumnes, sense necessitat d'adaptacions individuals posteriors. Aquestes mesures són preventives i proactives, dissenyades per flexibilitzar i personalitzar el treball dins l'aula, enriquir el context d'aprenentatge, minimitzar les barreres de l'entorn i garantir la convivència i el compromís amb la tasca.
 
@@ -79,17 +77,16 @@ La Programació Multinivell (Mesures Universals) *és en si mateixa* l'estratèg
 3.  **Esperar a fer adaptacions individuals *després* de la programació:** Dissenyar un currículum rígid i després intentar "adaptar-lo" per a alumnes amb dificultats és contrari a l'enfocament de la Programació Multinivell. L'objectiu és que la flexibilitat i la inclusió estiguin integrades en el disseny inicial, evitant la necessitat d'adaptacions posteriors.
 4.  **No reflexionar sobre les estratègies metodològiques i organitzatives del centre:** La manca d'una revisió crítica i contínua de les pràctiques docents i de l'organització del centre impedeix identificar i implementar les millores necessàries per a un desplegament efectiu de les mesures universals.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **DUA (Disseny Universal per a l'Aprenentatge)**: Aquesta estratègia s'alinea directament amb els principis del DUA per dissenyar un currículum flexible i accessible per a tothom.
-*   **ABP (Aprenentatge Basat en Projectes)**: L'ABP és una metodologia que, aplicada amb els principis del DUA, facilita la implementació de la programació multinivell.
-*   **Intel·ligències Múltiples**: La teoria de les Intel·ligències Múltiples ofereix un marc per diversificar les activitats i les formes d'avaluació dins de la programació multinivell.
-*   **Pla Individualitzat (PI)**: La Programació Multinivell busca reduir la necessitat de PIs, ja que un disseny universal robust pot satisfer les necessitats de la majoria d'alumnes.
-*   **EAP (Equip d'Assessorament i Orientació Psicopedagògica)**: L'EAP és un recurs de suport per als centres en la planificació i aplicació de mesures d'atenció a la diversitat, incloent les universals.
-*   **CAEI (Comissió d'Atenció Educativa Inclusiva)**: La CAEI és l'òrgan del centre encarregat de concretar criteris i organitzar recursos per a l'atenció a la diversitat, fonamental per a la implementació d'aquesta estratègia.
-*   **Altes Capacitats**: Els alumnes amb altes capacitats es beneficien especialment d'un context educatiu amb mesures universals àmplies i flexibles, que sovint els permet progressar sense necessitat de mesures intensives.
-*   **Escola Inclusiva**: Aquesta estratègia és un pilar fonamental per avançar cap a un model d'escola inclusiva, on tots els alumnes troben la resposta educativa adequada.
+## 3. Connexions amb altres documents del corpus
 
-## 3. DETECCIÓ (Variables de Context)
+- **`M2_DUA-principis-pautes.md`** — La programació multinivell és la concreció didàctica del DUA: el mateix objectiu assolit per camins de complexitat diferent, amb bastides ajustades a cada nivell
+- **`M2_aprenentatge-cooperatiu.md`** — El cooperatiu és la metodologia privilegiada del multinivell: grups heterogenis on cada membre contribueix des del seu nivell, amb rols diferenciats
+- **`M2_factors-promotors-aprenentatge.md`** — La programació multinivell aplica la ZDP: el nivell bàsic és per sota de la ZDP, l'intermedi la recorre, l'avançat va més enllà; les bastides regulen el pas
+- **`M1_neurodiversitat-NESE.md`** — El multinivell permet que alumnat NESE (dislèxia, TDAH, TDL, DI) accedeixi al currículum real sense necessitat d'un PI separat: el disseny és inclusiu des de l'origen
+- **`M1_creuament-variables-dependencies.md`** — Els creuaments de condicions mostren com el nivell "bàsic" d'un alumne pot ser l'"avançat" d'un altre; el multinivell gestiona aquesta complexitat
+- **`M0_cura-personalis.md`** — La Cura Personalis garanteix que el nivell assignat no sigui una etiqueta permanent; el docent ajusta el nivell en funció de l'evolució real de cada alumne
+
+## 4. Detecció
 
 ### Senyals del docent
 *   "Em costa molt atendre tots els alumnes amb les seves diferències sense fer adaptacions individuals per a cadascun."
@@ -114,12 +111,12 @@ La Programació Multinivell (Mesures Universals) *és en si mateixa* l'estratèg
 *   Quan la problemàtica de l'alumne és molt específica i requereix un suport molt concret que ja excedeix el marc de les mesures universals ben implementades.
 *   Quan el centre ja té una cultura inclusiva molt arrelada i les mesures universals estan plenament integrades i funcionen amb èxit.
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
-### Principi general
+#### Principi general
 Prioritzar el disseny inclusiu des de l'origen per a tots els alumnes, minimitzant la necessitat d'adaptacions posteriors.
 
-### Heurístiques per a l'Agent DOCENT
+#### Heurístiques per al docent
 
 *   **Heurística: "El disseny universal és la primera línia de defensa."**
     *   **Quan aplica:** Quan un docent expressa dificultats per atendre la diversitat a l'aula o la necessitat constant d'adaptacions individuals.
@@ -146,7 +143,7 @@ Prioritzar el disseny inclusiu des de l'origen per a tots els alumnes, minimitza
     *   **Fonament:** La Programació Multinivell i les Intel·ligències Múltiples emfatitzen que cada alumne té capacitats i estils d'aprenentatge únics que poden ser palanca per al seu èxit.
     *   **Exemple complet de raonament:** "És natural fixar-se en allò que els alumnes no aconsegueixen, però la programació multinivell ens recorda la importància de les fortaleses. Si un alumne té dificultats amb l'expressió escrita, però és excel·lent visualment o oralment, com podem dissenyar activitats que li permetin utilitzar aquestes fortaleses per demostrar el seu aprenentatge? Identificar les 'inclinacions' de cada alumne cap a certes intel·ligències o estils d'aprenentatge ens permet oferir opcions que no només els motivin, sinó que també els permetin desenvolupar-se plenament. Aprofitar aquestes fortaleses és clau per construir una experiència d'aprenentatge positiva i significativa per a tots."
 
-### Heurístiques per a l'Agent ALUMNE
+#### Heurístiques per a l'alumne
 
 *   **Heurística: "Troba la teva via per aprendre i expressar-te."**
     *   **Quan aplica:** Quan l'alumne se sent frustrat per una tasca o no entén un concepte.
@@ -162,15 +159,11 @@ Prioritzar el disseny inclusiu des de l'origen per a tots els alumnes, minimitza
     *   **Quan aplica:** Si l'alumne té un estil d'aprenentatge clar o una manera preferida de treballar.
     *   **Fonament:** La programació multinivell es basa en la diversificació per atendre les diferents "inclinacions" dels alumnes.
     *   **Exemple complet de raonament:** "Si saps que aprens millor escoltant, o fent coses amb les mans, o amb imatges, és molt útil que ho comuniquis al teu professor/a. Moltes vegades, les activitats ja estan pensades per oferir diferents opcions, però si el professor/a sap quines són les teves preferències, et podrà guiar millor cap als recursos o les tasques que s'ajustin més a tu. No és demanar un tracte especial, és ajudar el professor/a a entendre com pots aprofitar al màxim les diferents maneres d'ensenyar que ja estan preparades per a tots."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:dac:modul_3:practica_3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dac/modul_3/practica_3 |
-| 2 | cursos:escola_inclusiva:dac:modul_3:practica_4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dac/modul_3/practica_4 |
-| 3 | Les-intel·ligències-múltiples-a-laula_8820bf7b8c.pdf | http://blocs.xtec.cat/desenvolupamentprofessional/files/2014/05/Les-intel%C2%B7lig%C3%A8ncies-m%C3%BAltiples-a-laula.pdf |
-| 4 | aprendizaje-basado-proyectos-diseno-universal-apre_d698a480c9.pdf | https://www.coralelizondo.com/wp-content/uploads/2024/08/aprendizaje-basado-proyectos-diseno-universal-aprendizaje.pdf |
-
-*4 documents font · secció generada automàticament*
+- Tomlinson, C. A. (2001). *How to Differentiate Instruction in Mixed-Ability Classrooms* (2a ed.). Alexandria: ASCD.
+- Ruiz, R., Padrós, N., Pedragosa, N. (2008). *Ensenyament multinivell i disseny universal de l'aprenentatge*. Barcelona: Departament d'Educació.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Cambridge: Harvard University Press.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
