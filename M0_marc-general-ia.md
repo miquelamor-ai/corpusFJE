@@ -922,3 +922,44 @@ UNESCO. (2025). *Marco de competencias para estudiantes en materia de IA* \[*AI 
 *Versió de treball · Jesuïtes Educació Catalunya · 2026* *Document subjecte a revisió periòdica pels equips educatius i de direcció.*.
 
 [^1]:  El Marc utilitza el terme «Discerniment» del model de Dakan i Feller per referir-se a la seva dimensió crítica, intel·lectual i ètica (control de qualitat epistèmic). Es reconeix, però, que el *Discerniment Ignasià*, en sentit estricte, abasta un horitzó més ampli i transcendent (voluntat de Déu, elecció, consolació, desolació…) propi de l'experiència de fe personal.
+
+## 3. Connexions amb altres documents del corpus
+
+- **M5 — Tecnopedagogia:** Tots els protocols i estratègies d'integració de la IA a l'aula deriven d'aquest marc. Les 4D (Delegació, Descripció, Discerniment, Diligència) i els graus MIHIA (N0–N5) són el vocabulari comú per a qualsevol document de M5.
+- **M8 — Governança i Seguretat:** El principi de benestar i sostenibilitat (privacitat, seguretat, empremta digital, RGPD) connecta directament amb els marcs d'ètica algorísmica i protecció de dades.
+- **M0_PPI-paradigma-pedagogic-ignasia** — El posicionament ignasià (discerniment, *cura personalis*, *Magis*) és el fonament identitari que dóna sentit a totes les decisions del marc.
+- **M2 — Mètode:** Les tensions (fricció productiva, deute cognitiu, paradoxa del rendiment) i el mapa de delegació per etapes informen directament el disseny instruccional i les decisions metodològiques.
+- **M6 — Avaluació:** La reorientació del focus d'avaluació (del producte al procés, del resultat generat al pensament propi de l'alumne) requereix revisar instruments i criteris d'avaluació.
+- **M1 — Subjecte:** La personalització inclusiva i la cura de la diversitat (accés equitatiu, accessibilitat per disseny, atenció a múltiples necessitats) connecta amb els perfils i característiques de l'alumnat.
+- **M0_marc-institucional-IA** — Versió condensada per a RAG d'aquest document; preferible per a recuperació ràpida en context de consulta.
+
+## 4. Detecció
+
+**Senyals de bon ús:**
+- L'equip docent planifica activitats amb IA aplicant les quatre dimensions del Model 4D (Delegació, Descripció, Discerniment, Diligència).
+- Les activitats inclouen fases sense IA per preservar la fricció cognitiva productiva.
+- L'alumnat pot explicar el seu propi procés de pensament, no sols el resultat final.
+- Els equips directius contrasten la informació generada per IA abans d'incorporar-la a decisions institucionals.
+- L'ús de la IA en documents professionals es declara explícitament com a norma de transparència.
+
+**Senyals d'alerta:**
+- L'alumnat no pot defensar ni explicar el contingut dels treballs entregats.
+- Les activitats mai inclouen moments sense IA; la fricció productiva ha desaparegut del disseny.
+- Es comparteixen dades personals d'alumnes (informes, expedients) amb eines d'IA d'ús general sense protocol.
+- Es delega a la IA la presa de decisions que afecten persones (avaluació, orientació, disciplina) sense supervisió humana final.
+- L'eficiència tecnològica ha substituït espais de relació i acompanyament presencial.
+
+**Heurística del disseny:** Davant qualsevol activitat que integri IA, la pregunta prèvia és: *on és la feina cognitiva que importa i com la protegim?* Si no hi ha resposta clara, l'activitat necessita ser redissenyada.
+
+## 5. Fonts
+
+- Dakan, R., & Feller, J. (2026). *The AI Fluency Framework: A descriptive and normative model of Human-AI interaction.* National Forum for the Enhancement of Teaching and Learning in Higher Education.
+- Bastani, H. et al. (2025). Generative AI can harm learning. *Working Paper.* The Wharton School, University of Pennsylvania.
+- Shaw, S. D., & Nave, G. (2026). The third system of thinking: How AI reshapes dual-process theory. *Marketing Science.*
+- Macnamara, B. N., Hambrick, D. Z., & Moreau, D. (2024). AI-induced expertise reversal. *Psychological Bulletin, 150*(8), 891–915.
+- Sweller, J. (2011). Cognitive load theory. *The psychology of learning and motivation* (Vol. 55, pp. 37–76). Academic Press.
+- Vendrell i Johnston (2026). Estructura temporal en tres fases per preservar la fricció productiva en activitats amb IA.
+- UNESCO (2023). *Guidance for generative AI in education and research.* UNESCO Publishing.
+- Govern d'Espanya (2024). *Estrategia de Inteligencia Artificial 2024.* Ministeri per a la Transformació Digital i de la Funció Pública.
+- Arturo Sosa (2017, 2019). *Discursos sobre tecnologia digital i transformació cultural.* Companyia de Jesús.
+- Font primària: *Marc General sobre la Integració de la Intel·ligència Artificial — Esborrany* (Jesuïtes Educació / MAGINIA, abril 2025, 121K). Document intern de treball. `~/.gemini/antigravity/scratch/MAGINIA/public/MARC GENERAL SOBRE LA INTEGRACIÓ DE LA INTEL·LIGÈNCIA ARTIFICIAL - ESBORRANY.md`

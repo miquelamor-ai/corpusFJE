@@ -6,8 +6,6 @@ descripcio: "Vocabulari i conceptes clau del carisma ignasiá per contextualitza
 review_status: esborrany
 generat_at: 2026-03-21T07:14:42
 ---
-# 1. CONTINGUT ESPECÍFIC DEL MARC
-
 ## Definició i principis
 
 El carisma ignasià, fonament de la identitat de Jesuïtes Educació, es pot sintetitzar en dues expressions clau: "trobar Déu en totes les coses" i ser "contemplatius en l'acció" (DOC 1, 4, 55, 63). Això significa reconèixer la presència de Déu no només en espais sagrats, sinó en la quotidianitat, el treball, les relacions i el món mateix. És una espiritualitat eminentment pràctica que busca integrar la fe amb l'acció, anant més enllà de la comprensió intel·lectual per a una connexió profunda i experiencial. Els seus orígens es troben en la conversió personal de Sant Ignasi de Loiola, tal com es narra en la seva Autobiografia (DOC 104), on va aprendre a discernir els "moviments" interns de la seva ànima, cosa que el va portar a desenvolupar els Exercicis Espirituals (DOC 1, 110). Aquests Exercicis són un camí cap a la llibertat interior i una eina per al discerniment de la voluntat de Déu, afavorint una trobada personal profunda amb Crist.
@@ -51,9 +49,57 @@ Una tensió històrica ha estat l'equilibri entre la formació intel·lectual d'
 
 1.  **Educació Infantil (MOPI) i Primària Inicial (PIN):**
     *   **Projecte Vital i Vocacional:** A
----
 
-## 5. FONTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
+
+- **M0_PPI-paradigma-pedagogic-ignasia** — marc pedagògic que concreta en cinc passos (Context, Experiència, Reflexió, Acció, Avaluació) tots els principis del carisma descrits en aquest glossari.
+- **M0_identitat-missio-valors** — marc identitari de FJE que desplega la missió educativa a partir del carisma ignasià.
+- **M0_magis-i-servei** — aprofundeix en el Magis com a principi d'acció i de discerniment vocacional.
+- **M0_cura-personalis** — desenvolupa la dimensió d'acompanyament personal des de la tradició ignasiana.
+- **M0_preferencies-apostoliques-universals** — les PAU 2019-2029 com a concreció apostòlica actual del carisma.
+- **M0_ecologia-integral** — la dimensió ambiental del compromís ignasià inspirada per Laudato Si'.
+- **M0_ciutadania-global-justicia** — la formació per a la ciutadania global com a expressió del compromís ignasià.
+- **M0_marc-institucional-IA** — posicionament FJE sobre la IA, construït sobre els principis i el vocabulari ignasià recollits en aquest glossari.
+
+## 4. Detecció
+
+### Senyals del docent
+
+- Prepara materials que fan servir terminologia ignasiana i necessita validar el significat precís dels termes.
+- Rep preguntes de l'alumnat sobre conceptes com Magis, *cura personalis* o discerniment en context escolar.
+- Dissenya activitats de reflexió personal o vocacional i vol situar-les en el marc ignasià.
+
+### Senyals de l'alumne
+
+- No entén referències a principis ignasians en textos o activitats del corpus.
+- Demana la diferència entre conceptes propers: Magis i excel·lència, discerniment i decisió, *cura personalis* i tutoria.
+- Obre una activitat de reflexió personal (avaluació, tutoria, projecte vital) sense referent ignasià clar.
+
+### Senyals del context
+
+- Document que cita les 4C, el PPI, les PAU o la Ratio Studiorum sense definir-los.
+- Sessió formativa sobre identitat de centre que necessita vocabulari compartit.
+- Assistents IA de FJE que necessiten fonament ignasià per respondre amb coherència carismàtica.
+
+### Anti-senyals
+
+- Context exclusivament didàctic o metodològic sense dimensió identitària ignasiana.
+- Consulta sobre normativa legal, avaluació competencial o tecnologia que no invoca el carisma.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Quan en un document del corpus apareix un terme ignasià sense definir, aquest glossari és el primer recurs de referència.
+- Per a sessions de claustre o formació d'equip sobre identitat, usar les definicions d'aquí com a punt de partida compartit.
+
+#### Heurístiques per a l'alumne
+
+- Consultar aquest document quan una activitat de reflexió personal menciona valors ignasians i no se sap ben bé a quina tradició es refereix.
+- Serveix de diccionari de suport per entendre textos fundacionals de la Companyia de Jesús en el context escolar.
+
+
+## 5. Fonts
 
 | # | Títol | URL |
 |---|-------|-----|

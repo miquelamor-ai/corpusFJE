@@ -104,7 +104,7 @@ Les orientacions es concreten en dues capes: quatre criteris compartits per toth
 
 **Estratègia tecnopedagògica.** L'aposta institucional és una solució híbrida que inclou IA generativa estàndard i assistents i agents propis. En docència i gestió s'utilitzen assistents (model reactiu i a demanda), amb agents autònoms a gestió per automatitzar processos eficientment. Per a l'alumnat, la interacció és exclusivament amb models d'assistent altament pautats; l'entrada d'agents autònoms queda pendent de maduresa institucional que avui seria prematura per a menors.
 
-## 3. Connexions
+## 3. Connexions amb altres documents del corpus
 
 - **M5 — Tecnopedagogia:** Tots els protocols i estratègies d'integració de la IA a l'aula deriven d'aquest marc. Les 4D i els graus MIHIA són el vocabulari comú per a qualsevol document de M5.
 - **M8 — Governança i Seguretat:** El principi de benestar i sostenibilitat (privacitat, seguretat, empremta digital) connecta directament amb els marcs d'ètica algorísmica i protecció de dades.
