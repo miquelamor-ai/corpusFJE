@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-24T23:00:00
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis aplicats a l'adaptació de materials
 
 La teoria de la càrrega cognitiva (Sweller, 1988) distingeix tres tipus de càrrega que operen simultàniament durant l'aprenentatge:
@@ -156,7 +154,7 @@ El principi és: **més suport al principi, menys al final**. Però el ritme de 
 - **Kalyuga et al. (2003)**: Efecte de l'experiència invertida (expertise reversal effect).
 - **Mayer (2001, 2009)**: Principis d'aprenentatge multimèdia (coherència, senyalització, redundància, contigüitat espacial i temporal).
 
-# 2. CONNEXIONS AMB ALTRES MÒDULS
+## 3. Connexions amb altres documents del corpus
 
 - **M1**: El perfil de l'alumne determina la càrrega assumible (L2, DI, TDAH → menor capacitat de processament)
 - **M1_creuament-variables-dependencies**: Quan hi ha múltiples condicions, la càrrega es multiplica
@@ -167,7 +165,54 @@ El principi és: **més suport al principi, menys al final**. Però el ritme de 
 - **M6**: L'avaluació ha de considerar la càrrega del format, no només del contingut
 - **M7_trauma-informed-adaptacio**: La seguretat emocional allibera recursos cognitius
 
-# 3. EXEMPLES OPERATIUS
+## 4. Detecció
+
+### Senyals del docent
+
+- Prepara una adaptació de text o activitat i necessita decidir quants conceptes nous incloure per paràgraf.
+- L'alumnat no aconsegueix completar la tasca tot i tenir el vocabulari: problema de càrrega, no de contingut.
+- Detecta que les consignes d'una activitat contenen massa demandes simultànies per al perfil del grup.
+- Dissenya una seqüència didàctica i vol distribuir la càrrega cognitiva entre activitats.
+
+### Senyals de l'alumne
+
+- Bloqueja o deixa en blanc davant consignes amb múltiples passos simultanis.
+- Copia correctament però no pot aplicar el coneixement: la càrrega extrínseca ha impedit la construcció d'esquemes.
+- Rendiment inconsistent: encerta amb suport estructurat, falla quan la càrrega s'allibera massa ràpid.
+
+### Senyals del context
+
+- Nivell lingüístic baix (pre-A1/A1/A2) o presència de TDAH, DI o dislèxia al grup.
+- Material original amb alta densitat conceptual (3+ conceptes nous per paràgraf).
+- Activitat de producció oberta sense bastides (scaffolding) ni estructura de suport.
+
+### Anti-senyals
+
+- Alumnat amb domini consolidat del tema i sense barreres addicionals: la càrrega intrínseca és l'adequada.
+- Context de revisió i pràctica extensiva on la fluïdesa és l'objectiu.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Per a cada adaptació, tres preguntes: (1) quants conceptes nous simultanis conté? (2) la instrucció és en un sol pas? (3) hi ha redundància útil o soroll visual?
+- Si el problema és "no entén el text", descartar primer càrrega extrínseca (format, instrucció, densitat) abans d'atribuir-ho a nivell de llengua o cognició.
+- Aplicar l'efecte de la inversió de l'expertise: adaptar al nivell actual del grup, no al nivell desitjat.
+
+#### Heurístiques per a l'alumne
+
+- Si una tasca sembla impossible, pot ser que estigui mal organitzada, no que el contingut sigui difícil. Demanar que s'expliqui en passos.
+
+## 5. Fonts
+
+- Sweller, J. (1988). Cognitive load during problem solving: Effects on learning. *Cognitive Science, 12*(2), 257–285.
+- Sweller, J., van Merriënboer, J. J. G., & Paas, F. (1998). Cognitive architecture and instructional design. *Educational Psychology Review, 10*(3), 251–296.
+- Sweller, J. (2011). Cognitive load theory. A J. P. Mestre & B. H. Ross (Eds.), *The psychology of learning and motivation* (Vol. 55, pp. 37–76). Academic Press.
+- Miller, G. A. (1956). The magical number seven, plus or minus two: Some limits on our capacity for processing information. *Psychological Review, 63*(2), 81–97.
+- van Merriënboer, J. J. G., & Sweller, J. (2005). Cognitive load theory and complex learning. *Educational Psychology Review, 17*(2), 147–177.
+- Kalyuga, S., Ayres, P., Chandler, P., & Sweller, J. (2003). The expertise reversal effect. *Educational Psychologist, 38*(1), 23–31.
+
+## Exemples operatius
 
 ### Exemple 1: Text de biologia, alumne nouvingut A1
 

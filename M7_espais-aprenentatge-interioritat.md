@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T13:03:09
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### 1.1. DEFINICIÓ I PRINCIPIS
 
 El disseny d'espais educatius i la promoció de pràctiques d'interioritat són fonamentals per crear un entorn que afavoreixi l'aprenentatge profund i el desenvolupament integral de l'alumnat. Aquest marc entén els "espais d'aprenentatge" no només com a llocs físics (aules, patis, passadissos), sinó també com a entorns relacionals i emocionals que configuren la convivència i la cultura del centre. L'objectiu és que aquests espais siguin inclusius, acollidors i estimulants, permetent que cada alumne se senti reconegut, segur i pugui desenvolupar el seu potencial al màxim.
@@ -18,9 +16,103 @@ El "Principi d'Interacció Positiva" és la base d'aquesta perspectiva, posant �
 Les "pràctiques d'interioritat" es refereixen al cultiu de l'autoconeixement, l'autoestima, la regulació emocional i la capacitat reflexiva (DOC 15, DOC 20, DOC 25, DOC 26, DOC 28). Aquestes pràctiques ajuden l'alumnat a entendre la seva pròpia identitat, que és complexa i es construeix a partir de múltiples pertinences (DOC 6). Fomentar la interioritat és essencial per al benestar personal, per desenvolupar la resiliència necessària per afrontar els reptes de l'aprenentatge i la convivència, i per a la formació integral de la persona.
 
 L
----
 
-## 5. FONTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
+
+- **M7_benestar-emocional-seguretat** — el clima emocional segur és la condició prèvia per a qualsevol pràctica d'interioritat a l'aula.
+- **M7_gestio-aula-rutines** — les rutines creen la previsibilitat i l'estructura que fan possible la pausa reflexiva.
+- **M7_enfocament-restauratiu-ERG** — els espais restauratius complementen les pràctiques d'interioritat en la gestió de conflictes.
+- **M0_cura-personalis** — la cura integral de la persona és el fonament identitari dels espais d'acompanyament i interioritat.
+- **M0_PPI-paradigma-pedagogic-ignasia** — el PPI estableix la reflexió com a pas central del procés pedagògic.
+- **M1_diversitat-funcional** — els espais inclusius d'interioritat han de tenir en compte les necessitats de tot l'alumnat.
+- **M2_DUA-principis-pautes** — el disseny universal per a l'aprenentatge orienta la creació d'espais accessibles.
+
+## 4. Detecció
+
+### Senyals del docent
+
+- Necessita crear condicions d'escolta i reconeixement mutu a l'aula.
+- Vol introduir pràctiques de pausa, reflexió o mindfulness en la dinàmica del grup.
+- Detecta dificultats de convivència relacionades amb manca d'espai relacional segur.
+- Dissenya activitats d'autoconeixement o de projecte vital.
+
+### Senyals de l'alumne
+
+- Dificultat de concentració o de regulació emocional que no respon a intervencions metodològiques.
+- Necessitat de reconeixement individual en un grup on la diversitat és alta.
+- Malestar en entorns escolars poc predictibles o relacionalment freds.
+
+### Senyals del context
+
+- Inici de curs o canvi important en la composició del grup.
+- Moment de tensió convivencial que demana reconstruir el clima de confiança.
+- Implementació de projectes de tutoria, orientació personal o cultura de centre.
+
+### Anti-senyals
+
+- Context exclusivament acadèmic i instrumental sense dimensió relacional.
+- Activitats de resolució de tasques concretes sense component emocional o identitari.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Activar quan el problema no és metodològic sinó relacional: quan l'alumnat "no pot aprendre" perquè el clima no ho permet.
+- Dissenyar espais d'interioritat com a condicions prèvies, no com a activitats afegides: han d'estar cosits a la rutina del centre.
+
+#### Heurístiques per a l'alumne
+
+- Quan una activitat proposa pausa, silenci o reflexió, és un espai d'interioritat: no cal omplir-lo de paraules; cal habitar-lo.
+
+## 3. Connexions amb altres documents del corpus
+
+- **M7_benestar-emocional-seguretat** — el clima emocional segur és la condició prèvia per a qualsevol pràctica d'interioritat a l'aula.
+- **M7_gestio-aula-rutines** — les rutines creen la previsibilitat i l'estructura que fan possible la pausa reflexiva.
+- **M7_enfocament-restauratiu-ERG** — els espais restauratius complementen les pràctiques d'interioritat en la gestió de conflictes.
+- **M0_cura-personalis** — la cura integral de la persona és el fonament identitari dels espais d'acompanyament i interioritat.
+- **M0_PPI-paradigma-pedagogic-ignasia** — el PPI estableix la reflexió com a pas central del procés pedagògic.
+- **M1_diversitat-funcional** — els espais inclusius d'interioritat han de tenir en compte les necessitats de tot l'alumnat.
+- **M2_DUA-principis-pautes** — el disseny universal per a l'aprenentatge orienta la creació d'espais accessibles.
+
+## 4. Detecció
+
+### Senyals del docent
+
+- Necessita crear condicions d'escolta i reconeixement mutu a l'aula.
+- Vol introduir pràctiques de pausa, reflexió o mindfulness en la dinàmica del grup.
+- Detecta dificultats de convivència relacionades amb manca d'espai relacional segur.
+- Dissenya activitats d'autoconeixement o de projecte vital.
+
+### Senyals de l'alumne
+
+- Dificultat de concentració o de regulació emocional que no respon a intervencions metodològiques.
+- Necessitat de reconeixement individual en un grup on la diversitat és alta.
+- Malestar en entorns escolars poc predictibles o relacionalment freds.
+
+### Senyals del context
+
+- Inici de curs o canvi important en la composició del grup.
+- Moment de tensió convivencial que demana reconstruir el clima de confiança.
+- Implementació de projectes de tutoria, orientació personal o cultura de centre.
+
+### Anti-senyals
+
+- Context exclusivament acadèmic i instrumental sense dimensió relacional.
+- Activitats de resolució de tasques concretes sense component emocional o identitari.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Activar quan el problema no és metodològic sinó relacional: quan l'alumnat "no pot aprendre" perquè el clima no ho permet.
+- Dissenyar espais d'interioritat com a condicions prèvies, no com a activitats afegides: han d'estar cosits a la rutina del centre.
+
+#### Heurístiques per a l'alumne
+
+- Quan una activitat proposa pausa, silenci o reflexió, és un espai d'interioritat: no cal omplir-lo de paraules; cal habitar-lo.
+
+
+## 5. Fonts
 
 | # | Títol | URL |
 |---|-------|-----|

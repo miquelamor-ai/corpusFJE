@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-24T23:00:00
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i context
 
 L'enfocament trauma-informed (informat pel trauma) reconeix que una proporció significativa de l'alumnat ha viscut experiències adverses (ACEs: Adverse Childhood Experiences) que afecten la seva capacitat d'aprenentatge, regulació emocional i interacció social.
@@ -18,8 +16,6 @@ En context educatiu divers — especialment amb alumnat nouvingut, refugiat, o e
 ## Principis SAMHSA aplicats a l'adaptació de materials
 
 La SAMHSA (Substance Abuse and Mental Health Services Administration, 2014) estableix 6 principis per a entorns trauma-informed. Aplicats a l'adaptació de materials educatius (textos i activitats):
-
-### 1. Seguretat
 
 El text ha de transmetre seguretat:
 - To neutre i no amenaçador
@@ -190,7 +186,7 @@ Quan un alumne mostra signes d'activació (agitació, bloqueig, plor, fugida):
 - **Brunzell, Stokes & Waters (2016)**: "Trauma-Informed Positive Education". Integració de pedagogia positiva i enfocament trauma-informed.
 - **Bath (2008)**: "The Three Pillars of Trauma-Informed Care" — seguretat, connexió, gestió emocional.
 
-# 2. CONNEXIONS AMB ALTRES MÒDULS
+## 3. Connexions amb altres documents del corpus
 
 - **M1_alumnat-nouvingut**: Context migratori, possibles experiències traumàtiques
 - **M1_vulnerabilitat-socioeducativa**: Factors de risc contextual
@@ -203,7 +199,53 @@ Quan un alumne mostra signes d'activació (agitació, bloqueig, plor, fugida):
 - **M7_gestio-aula-rutines**: Rutines com a eina de seguretat i predictibilitat
 - **M3_lectura-facil**: L'estructura previsible de la lectura fàcil és inherentment trauma-informed
 
-# 3. EXEMPLES OPERATIUS
+## 4. Detecció
+
+### Senyals del docent
+
+- Prepara materials per a alumnat amb ACEs: refugiats, migrats recents, situació de maltractament o dol.
+- Detecta que un text o activitat pot contenir triggers (guerra, família, separació, violència) rellevants per al perfil del grup.
+- Necessita adaptar una activitat que requereix compartir experiències personals o exposició pública.
+
+### Senyals de l'alumne
+
+- Reacció emocional intensa (bloqueig, irritabilitat, desconnexió) davant un material aparentment neutral.
+- Dificultat per participar en activitats que involucren relats personals o familiars.
+- Perfil de vulnerabilitat documentat (refugiat, en situació de protecció, trastorn de l'estrès posttraumàtic).
+
+### Senyals del context
+
+- Grup amb presència d'alumnat nouvingut, refugiat o en situació de protecció de menors.
+- Unitat didàctica amb temes sensibles (conflictes, migracions, família, mort, cos).
+- Activitat que implica exposició oral, compartir experiències o elements de sorpresa.
+
+### Anti-senyals
+
+- Material purament factual i abstracte sense component emocional ni referència a experiències personals.
+- Grup sense alumnat en situació de vulnerabilitat identificada i context sense tensió emocional.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Davant qualsevol text sobre conflictes, migracions o família, preguntar: *hi ha alumnat que pot reviure una experiència pròpia?* Si la resposta és "potser", aplicar el filtre trauma-informed.
+- Substituir l'exposició individual per formats tancats (classificar, triar, completar) que redueixin la pressió emocional.
+- Oferir sempre opcions (A/B/C) en activitats sensibles: l'autonomia és una eina de seguretat emocional.
+
+#### Heurístiques per a l'alumne
+
+- Si un text o activitat genera malestar, es pot demanar al docent canviar d'opció: la seguretat emocional és prioritat.
+- Compartir experiències personals és sempre opcional, mai obligatori.
+
+## 5. Fonts
+
+- SAMHSA (2014). *SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach.* HHS Publication No. (SMA) 14-4884.
+- Felitti, V. J. et al. (1998). Relationship of childhood abuse and household dysfunction to many of the leading causes of death in adults. *American Journal of Preventive Medicine, 14*(4), 245–258.
+- Brunzell, T., Stokes, H., & Waters, L. (2016). Trauma-informed flexible learning: Classrooms that strengthen regulatory abilities. *International Journal of Child, Youth and Family Studies, 7*(2), 218–239.
+- Perry, B. D. (2006). The neurosequential model of therapeutics: Applying principles of neuroscience to clinical work with traumatized and maltreated children. *Working with traumatized youth in child welfare.*
+- Substance Abuse and Mental Health Services Administration (2014). *Trauma-Informed Care in Behavioral Health Services.* Treatment Improvement Protocol (TIP) Series 57.
+
+## Exemples operatius
 
 ### Exemple: Text de ciències socials, alumne refugiat amb sensibilitat temàtica
 

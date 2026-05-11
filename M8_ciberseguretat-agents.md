@@ -6,8 +6,6 @@ descripcio: "Bones pràctiques de seguretat digital per a l'ús d'agents i eines
 review_status: esborrany
 generat_at: 2026-03-17T21:59:06
 ---
-# Ciberseguretat per a Agents IA
-
 ## 1. CONTEXT I PROPÒSIT
 Aquest protocol estableix les directrius i els passos a seguir per garantir la ciberseguretat en l'ús d'agents i eines d'Intel·ligència Artificial (IA) en entorns educatius. El seu propòsit és protegir la integritat, la confidencialitat i la disponibilitat de les dades dels alumnes i del personal docent, així com assegurar un ús ètic i responsable de la IA. Es fonamenta en el Marc Ètic, Institucional i Legal de la IA Educativa, que inclou referències a la regulació europea (AESIA/RIA) i la protecció de dades (LOPDGDD/GDPR). L'objectiu final és mitigar els riscos associats a la IA, especialment en relació amb la privadesa i la seguretat de la informació, assegurant que la tecnologia sigui una eina de prosperitat i preparació, sense comprometre la protecció.
 
@@ -88,49 +86,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 *   **Incidents de seguretat greus:** Qualsevol bretxa de seguretat o ús indegut amb dades personals ha de ser comunicat immediatament a l'Equip de Coordinació TIC i a la Direcció, activant el protocol de gestió d'incidències de seguretat de la informació.
 *   **Dubtes sobre la classificació de risc:** En cas de dubte sobre el nivell de risc d'una activitat amb IA (especialment si implica avaluació o presa de decisions sobre alumnes), es consultarà amb l'Equip de Coordinació TIC per a una avaluació conjunta.
 
----
-
-# 1. CONTINGUT
-
-| Document Relacionat | Relació Concreta | Co-activació Obligatòria | Co-activació Condicional |
-|---|---|---|---|
-| Marc Ètic, Institucional i Legal de la IA Educativa | Proporciona els fonaments teòrics i normatius (3P, PIO, AESIA) per a l'avaluació de riscos i la definició de bones pràctiques de ciberseguretat. | Sí, sempre que es parli de seguretat o ètica de la IA. | N/A |
-| Estratègia "Prosperar, Preparar, Protegir" (3P) | El pilar "Protegir" és la base d'aquest protocol. | Sí, sempre que es planifiqui l'ús de la IA. | N/A |
-| Model PIO (Transparència, Seguretat, Justícia, Autonomia) | El criteri de "Seguretat" i "Transparència" són fonamentals en totes les fases d'aquest protocol. | Sí, en avaluar qualsevol eina o activitat amb IA. | N/A |
-| Normativa: LOPDGDD i GDPR | Aquest protocol busca garantir el compliment d'aquesta normativa en l'ús de la IA. | Sí, sempre que es tractin dades personals. | N/A |
-| Normativa: Artificial Intelligence Act (AESIA) | Aquest protocol implementa els requisits de l'AESIA, especialment en classificació de risc i supervisió humana. | Sí, en avaluar eines IA o activitats d'alt risc. | N/A |
-| Estratègia: Alfabetització digital i en IA | La Fase 2 inclou la promoció de l'alfabetització en IA com a mesura de seguretat. | N/A | Si l'activitat amb IA té un component formatiu sobre la IA mateixa. |
-| Eina: Plantilla d'Avaluació de Riscos de la IA | Aquesta eina seria utilitzada en la Fase 1 per documentar l'avaluació de risc. | N/A | Si es requereix una avaluació formal i documentada del risc. |
-
-# 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent:**
-*   "M'agradaria provar aquesta nova eina d'IA amb els meus alumnes, però em preocupa la privadesa de les seves dades."
-*   "Com puc assegurar-me que els alumnes utilitzen la IA de manera segura i ètica?"
-*   "Quines dades dels meus alumnes puc introduir en una IA sense posar-los en risc?"
-*   "Necessito saber si aquesta activitat amb IA compleix la normativa de protecció de dades."
-*   "Hi ha alguna guia per avaluar si una eina d'IA és segura per a ús educatiu?"
-
-**Senyals de l'alumne:**
-*   "Aquesta IA em demana el meu nom complet i la meva data de naixement, és normal?"
-*   "He vist que la IA ha generat una resposta amb informació personal d'un company, què haig de fer?"
-*   "La IA m'ha demanat permís per accedir a la meva càmera, ho permeto?"
-
-**Senyals de context:**
-*   Introducció d'una nova eina d'IA al centre educatiu.
-*   Disseny d'una activitat que implica la generació de contingut per part de la IA.
-*   Ús de la IA per a feedback personalitzat o avaluació.
-*   Alumnes menors de 14 anys utilitzant eines d'IA.
-*   Debats o notícies sobre bretxes de seguretat o ús indegut de la IA.
-
-**Anti-senyals (quan NO activar malgrat les aparences):**
-*   El docent només pregunta sobre l'efectivitat pedagògica de la IA sense esmentar la seguretat o privadesa.
-*   La IA s'utilitza exclusivament per a tasques administratives del docent (p. ex., generar idees de projectes sense implicar dades d'alumnes).
-*   La consulta es refereix a la IA com una eina de recerca general sense interacció directa amb dades personals dels alumnes.
-*   La IA s'utilitza en un entorn simulat o amb dades fictícies, sense cap connexió amb dades reals dels alumnes.
-
-
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
 - **M8_GDPR-privacitat-centre**: La ciberseguretat és el mecanisme tècnic que protegeix els drets de privacitat establerts pel GDPR.
 - **M8_etica-algoritmica-biaixos**: La seguretat dels sistemes d'IA és una dimensió de l'ètica algorítmica; sistemes insegurs poden ser explotats per amplificar biaixos.
@@ -138,10 +94,60 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 - **M9_drets-alumnat**: La protecció dels drets digitals de l'alumnat (privacitat, seguretat) requereix mesures de ciberseguretat actives.
 - **M5_AIA-TPACK-framework**: La seguretat dels sistemes d'IA usats a l'educació és part del coneixement tecnològic del TPACK.
 
+## 4. Detecció
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Senyals del docent
+- "M'agradaria provar aquesta nova eina d'IA amb els meus alumnes, però em preocupa la privadesa de les seves dades."
+- "Com puc assegurar-me que els alumnes utilitzen la IA de manera segura i ètica?"
+- "Quines dades dels meus alumnes puc introduir en una IA sense posar-los en risc?"
+- "Necessito saber si aquesta activitat amb IA compleix la normativa de protecció de dades."
+- "Hi ha alguna guia per avaluar si una eina d'IA és segura per a ús educatiu?"
 
-## H1 Heurística — DOCENT
+### Senyals de l'alumne
+- "Aquesta IA em demana el meu nom complet i la meva data de naixement, és normal?"
+- "He vist que la IA ha generat una resposta amb informació personal d'un company, què haig de fer?"
+- "La IA m'ha demanat permís per accedir a la meva càmera, ho permeto?"
+
+### Senyals del context
+- Introducció d'una nova eina d'IA al centre educatiu.
+- Disseny d'una activitat que implica la generació de contingut per part de la IA.
+- Ús de la IA per a feedback personalitzat o avaluació.
+- Alumnes menors de 14 anys utilitzant eines d'IA.
+- Debats o notícies sobre bretxes de seguretat o ús indegut de la IA.
+
+### Anti-senyals
+- El docent només pregunta sobre l'efectivitat pedagògica de la IA sense esmentar la seguretat o privadesa.
+- La IA s'utilitza exclusivament per a tasques administratives del docent (p. ex., generar idees de projectes sense implicar dades d'alumnes).
+- La consulta es refereix a la IA com una eina de recerca general sense interacció directa amb dades personals dels alumnes.
+- La IA s'utilitza en un entorn simulat o amb dades fictícies, sense cap connexió amb dades reals dels alumnes.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Avaluar qualsevol eina IA nova amb la Fase 1 (checklist de seguretat i privadesa) abans de qualsevol ús amb alumnes.
+- Minimitzar dades personals: usar pseudònims; no introduir informació identificativa en eines no homologades pel centre.
+- Mantenir supervisió humana activa (Human-in-the-loop) durant activitats d'IA de risc mitjà o alt.
+- Declarar l'ús de la IA als alumnes i a les famílies; la transparència és el primer criteri de seguretat.
+- En cas de dubte sobre el nivell de risc d'una activitat, consultar l'Equip de Coordinació TIC abans de procedir.
+
+#### Heurístiques per a l'alumne
+
+- No compartir dades personals (nom complet, adreça, foto) amb cap eina IA tret que el docent ho hagi indicat explícitament.
+- Si la IA genera informació personal d'un company, no copiar-la ni compartir-la i informar immediatament al docent.
+- Verificar sempre la informació generada per la IA; la IA pot equivocar-se o generar contingut biaixat.
+
+## 5. Fonts
+
+- Brookings Institution — *Artificial Intelligence in Education: The 3Ps Strategy.*
+- Universitat de Girona (OEIAC) — *Model PIO per a l'avaluació de la IA en educació.* Catalonia.AI.
+- Reglament (UE) 2016/679 del Parlament Europeu i del Consell, de 27 d'abril de 2016 (GDPR). Diari Oficial de la Unió Europea.
+- Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD). BOE.
+- Reglament (UE) 2024/1689, de 13 de juny de 2024 (AI Act / AESIA). Diari Oficial de la Unió Europea.
+
+## Raonament per a l'agent
+
+### H1 Heurística — DOCENT
 
 **Quan aplica:** Quan un docent vol introduir una nova eina o activitat amb IA a l'aula i necessita avaluar-ne la idoneïtat des d'una perspectiva global. *
 
@@ -151,7 +157,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H2 Heurística — DOCENT
+### H2 Heurística — DOCENT
 
 **Quan aplica:** Quan es dissenya una activitat amb IA que requereix la introducció de dades per part dels alumnes o del docent. *
 
@@ -161,7 +167,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H3 Heurística — DOCENT
+### H3 Heurística — DOCENT
 
 **Quan aplica:** Abans i durant l'ús de qualsevol eina o agent IA amb els alumnes. *
 
@@ -171,7 +177,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H4 Heurística — DOCENT
+### H4 Heurística — DOCENT
 
 **Quan aplica:** En qualsevol activitat on la IA interactua amb els alumnes o genera contingut educatiu. *
 
@@ -181,7 +187,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H5 Heurística — DOCENT
+### H5 Heurística — DOCENT
 
 **Quan aplica:** Quan l'avaluació d'una activitat amb IA la classifica com de "Risc Alt" o "Molt Alt" segons l'AESIA (p. ex., avaluació automatitzada, decisions sobre alumnes). *
 
@@ -191,7 +197,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H6 Heurística — ALUMNE
+### H6 Heurística — ALUMNE
 
 **Quan aplica:** Quan un alumne interactua amb una IA i se li demana informació personal o detecta contingut sospitós. *
 
@@ -201,7 +207,7 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H7 Heurística — ALUMNE
+### H7 Heurística — ALUMNE
 
 **Quan aplica:** Quan un alumne rep informació o contingut generat per una IA i ha de decidir si és fiable o apropiat. *
 
@@ -211,12 +217,10 @@ El protocol serà revisat anualment per l'Equip de Coordinació TIC en col·labo
 
 ---
 
-## H8 Heurística — ALUMNE
+### H8 Heurística — ALUMNE
 
 **Quan aplica:** Quan un alumne utilitza una IA que podria processar o generar informació relacionada amb els seus companys. *
 
 **Fonament:** Promou el respecte a la privadesa dels altres, un aspecte clau de la ciberseguretat i l'ètica digital, alineat amb el criteri de "Justícia" del Model PIO. *
 
-**Exemple:** Un alumne està utilitzant una eina de col·laboració amb IA i un company introdueix accidentalment informació personal sensible. L'agent raonaria: "Si veus que la IA ha processat o mostra informació personal d'un company, 'Respecta les Dades dels Altres'. No la copiïs, no la comparteixis i informa immediatament al teu docent. La privadesa és un dret de tots, i és la teva responsabilitat contribuir a un entorn digital segur i respectuós per a tots els teus companys." # 5. FONTS Brookings Institution. (n.d.). *Artificial Intelligence in Education: The 3Ps Strategy*. Universitat de Girona. (n.d.). *Model PIO per a l'avaluació de la IA en educació*. Reglament (UE) 2016/679 del Parlament Europeu i del Consell, de 27 d'abril de 2016, relatiu a la protecció de les persones físiques pel que fa al tractament de dades personals i a la lliure circulació d'aquestes dades (Reglament General de Protecció de Dades - GDPR). Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD). Proposta de Reglament del Parlament Europeu i del Consell pel qual s'estableixen normes harmonitzades en matèria d'intel·ligència artificial (Llei d'Intel·ligència Artificial - AI Act). (file://upload/marc-etic-institucional.md)
-
----
+**Exemple:** Un alumne està utilitzant una eina de col·laboració amb IA i un company introdueix accidentalment informació personal sensible. L'agent raonaria: "Si veus que la IA ha processat o mostra informació personal d'un company, 'Respecta les Dades dels Altres'. No la copiïs, no la comparteixis i informa immediatament al teu docent. La privadesa és un dret de tots, i és la teva responsabilitat contribuir a un entorn digital segur i respectuós per a tots els teus companys."
