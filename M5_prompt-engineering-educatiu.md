@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-21T07:17:30
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 Aquest document tracta sobre les estratègies de Prompt Engineering Educatiu, que es refereixen al disseny i l'estructuració de consignes (prompts) per interactuar eficaçment amb models d'intel·ligència artificial generativa en contextos educatius. L'objectiu és utilitzar aquestes eines per adaptar materials, generar activitats o donar suport a la pràctica docent i l'aprenentatge de l'alumnat.
 
@@ -21,13 +21,13 @@ Els documents font subratllen que la presència de dispositius digitals i intern
 
 La premissa és que el món digital i l'analògic són complementaris i compatibles, i que la tecnologia ha de servir com a ajuda i guia, adaptant-se a les circumstàncies i el context de cada centre.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Basant-nos en la integració general de la tecnologia, tal com descriuen els documents font, l'ús de dispositius digitals és útil per a totes les etapes educatives (Infantil/Primària, ESO, Batxillerat/FP) i per a tots els perfils d'alumnat, ja que pot facilitar l'accés individualitzat a la informació i l'aprenentatge a ritmes diversos. S'aplica a totes les àrees curriculars on la recerca, l'accés a la informació, la creació de continguts o la interacció són rellevants.
 
 Les condicions d'èxit, segons les fonts, impliquen que cada centre adopti mesures adaptades al seu context i que les estratègies tecnopedagògiques siguin revisades regularment a causa dels ràpids canvis tecnològics. No obstant això, els documents no proporcionen criteris específics sobre quan o per a qui seria útil el "Prompt Engineering Educatiu", ja que aquest tema no es tracta.
 
-### Recursos necessaris
+## Recursos necessaris
 
 Els documents font no detallen recursos específics per al "Prompt Engineering Educatiu". No obstant això, per a la integració general de la tecnologia a l'aula, es requereixen:
 *   **Temps:** Per a la formació del professorat en l'ús pedagògic de la tecnologia i per a la planificació i adaptació de les activitats.
@@ -35,7 +35,7 @@ Els documents font no detallen recursos específics per al "Prompt Engineering E
 *   **Materials:** Dispositius digitals (ordinadors, tauletes, telèfons intel·ligents) amb accés a internet.
 *   **Formació:** Per al professorat en les capacitats i el potencial pedagògic de les eines digitals, i en com integrar-les de manera efectiva i crítica.
 
-### Com implementar
+## Com implementar
 
 Els documents font proporcionen orientacions generals sobre la integració tecnològica, no una guia pas a pas per al "Prompt Engineering Educatiu". La implementació ha de ser flexible i adaptada al context de cada centre.
 
@@ -51,7 +51,7 @@ Els documents font proporcionen orientacions generals sobre la integració tecno
     *   **Descripció:** Explorar i implementar models pedagògics innovadors que aprofitin plenament el potencial de la tecnologia, com les aules invertides, els models híbrids o projectes que impliquin la creació i publicació de continguts multimèdia per part dels alumnes.
     *   **Adaptacions per diversitat:** Dissenyar activitats en models avançats que permetin una gran flexibilitat en la presentació de resultats i en el procés d'aprenentatge, facilitant que cada alumne pugui progressar al seu ritme i amb els suports necessaris.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 Aquests exemples es basen en la integració general de la tecnologia, no en el prompt engineering específicament.
 
@@ -59,7 +59,7 @@ Aquests exemples es basen en la integració general de la tecnologia, no en el p
 *   **Secundària:** Per a un projecte de recerca sobre la Revolució Industrial, els estudiants utilitzen internet per accedir a bases de dades històriques, arxius de premsa digitalitzats o museus virtuals. Això els permet recopilar informació de diverses fonts, analitzar documents primaris i secundaris, i construir una narrativa més rica i fonamentada que amb els llibres de text tradicionals.
 *   **Batxillerat/FP:** En un mòdul de programació, el professor implementa el model d'aula invertida. Els alumnes visualitzen vídeos explicatius sobre nous conceptes de codificació i realitzen exercicis bàsics a casa. A l'aula, el temps es dedica a resoldre problemes de programació més complexos en grup, a depurar codi en projectes reals o a debatre solucions, amb el professor actuant com a guia i facilitador.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 Els indicadors d'èxit, segons els documents font, per a una bona integració tecnològica inclouen:
 *   Augment de l'interès, la motivació i la passió dels estudiants pels temes d'estudi.
@@ -68,7 +68,7 @@ Els indicadors d'èxit, segons els documents font, per a una bona integració te
 *   Participació activa dels estudiants en el pensament, la presa de decisions, la manipulació i la mostra d'informació.
 *   Adopció de models pedagògics innovadors que desafien el model tradicional.
 
-### Errors comuns
+## Errors comuns
 
 Els documents font no llisten errors explícitament, però podem inferir-ne alguns basant-nos en la seva perspectiva general:
 *   **Considerar la tecnologia com una solució màgica o un substitut del docent:** Els documents emfatitzen que la tecnologia és una "ajuda, guia" i que els mons digital i analògic són "complementaris i compatibles", no que la tecnologia hagi de fer la feina per si sola. L'error seria esperar que la simple presència de dispositius millori l'aprenentatge sense una intencionalitat pedagògica clara i una integració reflexiva.

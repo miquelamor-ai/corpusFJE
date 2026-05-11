@@ -7,10 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T15:34:39
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 L'adaptació de l'avaluació per a l'alumnat divers és una estratègia fonamental que transforma la mirada avaluadora d'un procés merament qualificatiu a un de regulador i formatiu. El seu fonament rau en la premissa que l'avaluació ha de servir per millorar l'aprenentatge, no només per certificar-lo. En un currículum per competències, això implica redefinir què, com, quan i per què s'avalua, posant l'alumne al centre del procés. L'objectiu és que l'alumnat esdevingui protagonista de la seva avaluació, capaç d'autoregular-se, d'identificar les seves dificultats i de trobar camins per superar-les. L'error es percep com una part natural i necessària de l'aprenentatge, no com quelcom a penalitzar, i el feedback esdevé una eina crucial per a aquesta autoregulació. Aquesta estratègia és especialment rellevant per a alumnes amb Necessitats Educatives Específiques (NEE) o Necessitats Específiques de Suport Educatiu (NESE), incloent-hi l'alumnat nouvingut amb baixa competència lingüística, ja que permet ajustar els instruments i les condicions d'avaluació per garantir que puguin demostrar el seu aprenentatge de manera equitativa. El Pla de Suport Individualitzat (PI) es configura com una eina clau per formalitzar aquests ajustos.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educatives, des d'Educació Infantil fins al Batxillerat i la Formació Professional, ja que promou una avaluació orientada a l'aprenentatge i l'autonomia. No obstant això, esdevé indispensable per a l'alumnat amb NEE i NESE, incloent-hi:
 *   **Alumnat amb dificultats d'aprenentatge:** Perquè necessiten suports explícits i diversificació en la manera de demostrar el que saben.
 *   **Alumnat d'origen estranger amb baixa competència lingüística:** Perquè les barreres idiomàtiques no impedeixin avaluar el seu coneixement de les matèries.
@@ -18,7 +18,7 @@ Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educativ
 *   **Alumnat que requereix suports intensius:** Perquè l'avaluació s'ajusti al seu ritme i nivell d'assoliment.
 L'estratègia s'aplica de manera continuada: abans de començar les activitats (per avaluar coneixements previs i explicitar objectius), durant el procés (per monitoritzar i ajustar) i al final (per verificar l'assoliment i consolidar).
 
-### Recursos necessaris
+## Recursos necessaris
 Per implementar aquesta estratègia, calen diversos recursos:
 *   **Formació i col·laboració docent:** Temps per a la reflexió pedagògica, el debat en equip i la formació en avaluació formativa i competencial. La col·laboració entre docents, fins i tot amb observacions a l'aula, és clau per millorar les pràctiques.
 *   **Temps:** Dedicar temps a compartir objectius i criteris amb l'alumnat, a la retroalimentació, a l'autoavaluació i coavaluació, i a la revisió de les activitats.
@@ -26,7 +26,7 @@ Per implementar aquesta estratègia, calen diversos recursos:
 *   **Materials adaptats:** Suports visuals, materials amb llenguatge simplificat, eines digitals, i la possibilitat de diversificar els canals d'expressió (oral, escrita, manipulativa, gràfica).
 *   **Cultura d'aula inclusiva:** Un entorn on l'error és vist com una oportunitat d'aprenentatge, on la veu de l'alumnat és crucial i on es fomenta l'autonomia i la participació.
 
-### Com implementar
+## Com implementar
 L'adaptació de l'avaluació es pot implementar progressivament, augmentant la complexitat i la implicació de l'alumnat a mesura que es consoliden les pràctiques.
 
 **Nivell Bàsic:**
@@ -59,7 +59,7 @@ L'adaptació de l'avaluació es pot implementar progressivament, augmentant la c
 *   **Temps estès:** Concedir més temps per a la realització de proves o activitats.
 *   **No avaluació temporal:** En casos excepcionals, el PI pot contemplar que algunes matèries no s'avaluïn temporalment, registrant-ho en els documents oficials.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 *   **Educació Primària (Cicle Inicial):**
     *   **Activitat inicial (reproductiva):** Classificar aliments en categories com "aporten proteïnes", "aporten energia", "aporten vitamines".
@@ -75,7 +75,7 @@ L'adaptació de l'avaluació es pot implementar progressivament, augmentant la c
     *   **Activitat adaptada (competencial - Base d'Orientació):** Per a la creació d'un climograma, els alumnes, amb el guiatge del docent, elaboren una "base d'orientació" que detalla els passos a seguir (eixos, escales, representació de dades, etc.). Aquesta base s'utilitza com a guia per realitzar la tasca de forma autònoma i com a instrument d'autoavaluació i coavaluació, assegurant que entenen la noció de proporcionalitat per fer els climogrames comparables.
     *   **Avaluació de projectes amb auto/coavaluació:** En un mòdul d'FP sobre disseny web, els alumnes creen un lloc web per a una empresa real. Utilitzen una rúbrica detallada, co-creada amb el docent, per autoavaluar i coavaluar el disseny, la funcionalitat, l'accessibilitat i el contingut del lloc web. Aquesta rúbrica els permet identificar punts forts i àrees de millora abans de la presentació final al "client" (el docent o un representant de l'empresa).
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 *   **Augment de l'autonomia i autoregulació de l'alumnat:** Els estudiants són més capaços d'identificar els seus objectius, planificar les seves tasques, reconèixer els seus errors i trobar estratègies per millorar.
 *   **Reducció de l'ansietat davant l'avaluació:** L'alumnat percep l'avaluació com una oportunitat per aprendre i no com una amenaça.
 *   **Millora en la qualitat dels aprenentatges:** Es constata un progrés més significatiu en l'assoliment de les competències, ja que l'avaluació guia activament el procés.
@@ -84,7 +84,7 @@ L'adaptació de l'avaluació es pot implementar progressivament, augmentant la c
 *   **Assoliment dels objectius del PI:** L'alumnat amb NEE i NESE assoleix els objectius establerts en el seu Pla de Suport Individualitzat.
 *   **Coherència avaluativa:** Major alineació entre el que s'ensenya, el que s'aprèn i com s'avalua, amb criteris compartits i transparents.
 
-### Errors comuns
+## Errors comuns
 1.  **Prioritzar la qualificació sobre la regulació:** Centrar-se exclusivament en posar una nota al final del procés, sense utilitzar l'avaluació com a eina per guiar i millorar l'aprenentatge. Això desaprofita el potencial formatiu de l'avaluació i redueix la motivació de l'alumnat.
 2.  **No compartir els objectius i criteris d'avaluació:** Mantenir en secret el que s'espera de l'alumnat o com seran avaluats. Si l'alumne no coneix la meta, no pot autoregular-se ni entendre el sentit del seu esforç.
 3.  **Penalitzar l'error:** Crear un clima d'aula on els errors són castigats o ridiculitzats, cosa que genera por, ansietat i inhibeix la participació i l'experimentació, elements clau per a l'aprenentatge.

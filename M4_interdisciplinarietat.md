@@ -7,13 +7,13 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:59
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 L'estratègia d'interdisciplinarietat i transversalitat busca integrar coneixements i habilitats de diferents àrees curriculars per abordar situacions i problemes de manera holística i significativa. El seu fonament rau en la definició de competència, que implica "utilitzar els coneixements i habilitats, de manera transversal i interactiva, en contextos i situacions que requereixen la intervenció de coneixements vinculats a diferents sabers". Això significa que l'aprenentatge no ha de ser un conjunt d'informació aïllada per matèries, sinó una eina funcional que permeti a l'alumnat comprendre, reflexionar i discernir per resoldre problemes de la vida quotidiana, laboral o social.
 
 Aquesta estratègia promou la integració de coneixements, la funcionalitat dels aprenentatges i l'autonomia personal. En lloc de memoritzar dades, l'alumnat aprèn a connectar conceptes, aplicar-los en diferents escenaris i desenvolupar una comprensió més profunda i duradora. Per exemple, un projecte sobre la gestió de residus (com els descrits al document sobre la vida útil dels plàstics o piles) pot integrar coneixements de ciències naturals (composició, degradació), tecnologia (solucions de reciclatge), llengua (comunicació de resultats, debat), i ciències socials (impacte ambiental, polítiques públiques), fent que cada aprenentatge sigui més rellevant i aplicable.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educatives, des d'Infantil fins a Batxillerat i Formació Professional. És especialment beneficiosa per:
 
@@ -23,7 +23,7 @@ Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educativ
 *   **Totes les àrees curriculars**: Encara que algunes àrees es prestin més a l'inici, totes poden trobar punts de connexió i contribuir a un aprenentatge integrat.
 *   **Condicions d'èxit**: Requereix un equip docent amb voluntat de coordinació, flexibilitat curricular i un enfocament centrat en les competències més que en la simple transmissió de continguts.
 
-### Recursos necessaris
+## Recursos necessaris
 
 *   **Temps**: Hores de coordinació docent per dissenyar projectes i eixos transversals, i temps a l'aula per al desenvolupament de les activitats.
 *   **Espai**: Aules flexibles, espais comuns per al treball en grup, laboratoris, biblioteques o espais exteriors que permetin la investigació i l'aplicació pràctica.
@@ -31,7 +31,7 @@ Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educativ
 *   **Formació**: Formació del professorat en disseny de projectes, avaluació per competències, metodologies actives i coordinació interdisciplinària.
 *   **Suport directiu**: Implicació de l'equip directiu per facilitar la coordinació i els recursos necessaris.
 
-### Com implementar
+## Com implementar
 
 La implementació de l'interdisciplinarietat i la transversalitat es pot graduar en diferents nivells, adaptant-se a la maduresa del centre i del professorat:
 
@@ -50,7 +50,7 @@ La implementació de l'interdisciplinarietat i la transversalitat es pot graduar
 *   **Exemple**: Un projecte anual de centre sobre "Ciutats del futur", on cada etapa i àrea contribueix des de la seva perspectiva (disseny urbà, gestió de recursos, mobilitat, convivència, etc.), culminant en una exposició o fira de projectes.
 *   **Adaptacions per diversitat**: Dissenyar activitats amb múltiples punts d'entrada i sortida, permetent que cada alumne pugui progressar al seu ritme i amb els suports necessaris, i que el producte final pugui ser molt divers.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 *   **Educació Primària**:
     *   **Projecte "Els nostres residus"**: A partir de la informació sobre la vida útil i l'impacte dels residus (DOC 2), l'alumnat investiga quins residus genera la seva família, aprèn a classificar-los, dissenya cartells de sensibilització per a l'escola (Llengua, Art) i proposa solucions per reduir-los (Ciències, Matemàtiques per a gràfics de consum). L'objectiu és desenvolupar la competència de consciència i expressió cultural i la competència matemàtica i científica.
@@ -59,7 +59,7 @@ La implementació de l'interdisciplinarietat i la transversalitat es pot graduar
 *   **Batxillerat/Formació Professional (FP)**:
     *   **Projecte "Economia circular i impacte empresarial"**: L'alumnat investiga models d'economia circular aplicats a sectors professionals (FP) o empreses (Batxillerat), analitzant l'origen i la gestió dels residus (DOC 2), els processos de producció i consum (Economia, Tecnologia), l'impacte ambiental i social (Filosofia, Ciències Ambientals) i proposant alternatives sostenibles. El projecte culmina amb la creació d'un pla de negoci o un informe tècnic, desenvolupant la competència emprenedora i la competència comunicativa.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 *   L'alumnat connecta conceptes de diferents àrees de forma autònoma.
 *   L'alumnat aplica els coneixements adquirits en nous contextos i per resoldre problemes.
@@ -68,7 +68,7 @@ La implementació de l'interdisciplinarietat i la transversalitat es pot graduar
 *   Increment de la coordinació i el treball en equip entre el professorat.
 *   Desenvolupament de productes finals que demostren una comprensió profunda i transversal dels temes.
 
-### Errors comuns
+## Errors comuns
 
 *   **Superficialitat en les connexions**: Limitar-se a "enganxar" continguts de diferents àrees sense una integració real o un propòsit competencial clar. Això no permet la "transversalitat i interactivitat" dels coneixements (DOC 1).
 *   **Excés de contingut sense funcionalitat**: Centrar-se en la transmissió de molta informació de cada àrea sense donar oportunitats a l'alumnat per aplicar-la de manera significativa per resoldre problemes. La competència requereix "funcionalitat dels aprenentatges" (DOC 1).

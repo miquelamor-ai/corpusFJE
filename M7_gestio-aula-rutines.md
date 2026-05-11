@@ -9,7 +9,7 @@ locked: true
 nota_fusio: "Versió fusionada manual (V1+V3+V5). V1=ERG/convivència; V3=intercultural/DEIC; V5=DTCP/aferrament. Protegida contra sobreescriptura."
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 La gestió d'aula i les rutines són una estratègia fonamental per crear un entorn educatiu on l'aprenentatge sigui possible i el benestar de tota la comunitat educativa estigui assegurat. No es tracta de controlar el comportament, sinó de construir un clima que afavoreixi l'autonomia, la seguretat i la confiança de l'alumnat. Aquesta estratègia entén l'aula com un ecosistema social complex on es configuren identitats, es desenvolupen habilitats socials i es construeixen relacions de confiança.
 
@@ -19,7 +19,7 @@ Complementàriament, el **suport conductual positiu** (Horner, 2008) posa l'acce
 
 La gestió d'aula implica, doncs, un procés proactiu i col·laboratiu de tot l'equip docent: elaborar, consensuar, ensenyar i avaluar l'organització de l'aula, les agrupacions, els espais, els temps, els materials i les metodologies, amb l'objectiu de crear un clima motivador, tranquil i eficaç que prioritzi l'aprenentatge i la construcció de relacions positives.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és útil per a **tot l'alumnat** en **totes les etapes educatives** (Infantil, Primària, ESO, Batxillerat, FP), ja que un entorn estructurat i segur beneficia el desenvolupament i l'aprenentatge de tots. És especialment important per a:
 
@@ -36,7 +36,7 @@ Les **condicions d'èxit** inclouen:
 *   **Comunicació assertiva**: Evitar comunicacions culpabilitzadores o amenaçadores.
 *   **Flexibilitat**: Adaptar les estratègies a les necessitats, procedències i nivell evolutiu de l'alumnat.
 
-### Recursos necessaris
+## Recursos necessaris
 
 *   **Temps**: Dedicar temps al començament del curs per a l'elaboració, revisió i consens de normes i protocols per part de l'equip docent. Temps per ensenyar i practicar les rutines amb l'alumnat. Temps per a tutories individuals i assemblees d'aula.
 *   **Espai**: Organització física de l'aula que afavoreixi la supervisió, la participació, la concentració i les transicions. Espais tranquils per a moments de tensió o mediació. Patis escolars diversificats que fomentin el joc col·laboratiu.
@@ -48,7 +48,7 @@ Les **condicions d'èxit** inclouen:
     *   Recursos per a la comunicació amb famílies (edublocs, guions d'entrevista, notes en diverses llengües).
 *   **Formació**: Formació del professorat en gestió proactiva de conducta, teoria de l'aferrament, Enfocament Restauratiu Global, Comunicació NoViolenta (CNV), mediació escolar i gestió de la diversitat cultural.
 
-### Com implementar
+## Com implementar
 
 La implementació es pot graduar en tres nivells, adaptant-se a la realitat de cada centre i grup.
 
@@ -82,7 +82,7 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
 *   **Suport visual i lingüístic**: Utilitzar pictogrames i horaris visuals per a les rutines i normes, especialment per a alumnat nouvingut o amb barreres lingüístiques.
 *   **Llenguatge clar i positiu**: Expressar ordres clares amb poc llenguatge reiteratiu, especialment en moments de crisi. Evitar comentaris negatius i comparacions.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 *   **Educació Infantil / Primària**:
     *   **Bàsic**: A l'inici de curs, la tutora de 1r de Primària, amb la participació dels infants, defineix 4 normes de convivència. Les il·lustren amb dibuixos i les pengen a la paret. Cada matí repassen l'horari visual del dia i les rutines d'inici de jornada. La mestra elogia els infants que les segueixen.
@@ -98,7 +98,7 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
     *   **Intermedi**: En un cicle de FP, els professors estableixen expectatives clares sobre l'organització del temps de treball autònom i el respecte als espais compartits. El tutor manté entrevistes individuals regulars per detectar dificultats i oferir suport.
     *   **Avançat**: Cercles de diàleg periòdics sobre qüestions socials o ètiques rellevants, amb un "objecte de la paraula" per assegurar l'escolta activa. Projectes de servei comunitari vinculats a entitats de l'entorn, aplicant els aprenentatges en context real.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 *   **Reducció de conductes disruptives**: Disminució de la freqüència i intensitat de les conductes problemàtiques i derivacions a direcció.
 *   **Millora del clima d'aula**: Augment de la percepció de seguretat, tranquil·litat i respecte entre l'alumnat i amb el professorat.
@@ -109,7 +109,7 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
 *   **Reducció de l'absentisme escolar**: Un entorn acollidor i segur contribueix a la motivació i assistència.
 *   **Reconeixement i valoració de la diversitat**: L'aula i el centre esdevenen espais on la diversitat cultural, lingüística i identitària és vista com una riquesa.
 
-### Errors comuns
+## Errors comuns
 
 1.  **Establir massa normes o normes negatives**: Un excés de normes o la seva formulació en negatiu ("No correr") genera confusió i resistència. Les normes han de ser poques, clares, positives i fàcils de recordar.
 2.  **Incoherència en l'aplicació**: Si les normes no s'apliquen de manera consistent per tots els docents o en tots els espais, perden la seva efectivitat i generen inseguretat. La discrepància de criteris entre docents és un dels principals factors de fracàs.

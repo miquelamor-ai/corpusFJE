@@ -7,12 +7,12 @@ review_status: esborrany
 generat_at: 2026-03-18T11:45:10
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 Aquesta estratègia se centra en l'ús de suports visuals, incloent-hi pictogrames i imatges, com a eina fonamental per vehicular el coneixement i facilitar la comunicació en l'alumnat que presenta dificultats en l'adquisició i ús de la llengua vehicular (català), especialment l'alumnat d'incorporació tardana o amb poca escolarització prèvia. Cal aclarir que, tot i que el títol del document fa referència a la Comunicació Augmentativa i Alternativa (CAA) i sistemes com PECS o SAAC, els documents font proporcionats se centren en l'ús de suports visuals com a estratègia general d'aprenentatge de la llengua per a l'alumnat nouvingut, i no en sistemes clínics específics de CAA per a trastorns de la parla o del llenguatge.
 
 El fonament d'aquesta estratègia rau en la importància dels estímuls visuals en l'aprenentatge. Les imatges, làmines, cartronets o dibuixos actuen com a "bastides" que ajuden l'alumnat a captar amb més facilitat objectes, persones o situacions de la vida real, accelerant l'assimilació de nous continguts. Aquests suports visuals faciliten la comprensió oral i escrita, permeten construir vocabulari bàsic i estructures lingüístiques, i ajuden a expressar idees i vivències. A més, redueixen l'ansietat, augmenten la motivació i permeten als alumnes participar activament en situacions comunicatives, connectant el llenguatge conversacional amb el llenguatge acadèmic. Aquesta metodologia s'alinea amb el Marc Europeu Comú de Referència per a les Llengües (MECR) en la definició d'objectius i continguts per a l'adquisició de L2.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 Aquesta estratègia és especialment útil per a:
 - **Alumnat d'incorporació tardana o nouvingut:** Que desconeix la llengua catalana o té poca escolarització prèvia, des d'Educació Infantil fins a ESO i Batxillerat/FP.
 - **Etapes educatives:** Des d'Educació Infantil i Cicle Inicial de Primària, on l'ús comunicatiu de la llengua és fonamental, fins a Cicle Mitjà, Cicle Superior i Secundària, per continuar desenvolupant el llenguatge conversacional i acadèmic.
@@ -20,7 +20,7 @@ Aquesta estratègia és especialment útil per a:
 - **Desenvolupament d'habilitats:** Per a la comprensió i expressió oral i escrita, la interacció comunicativa, la narració de fets, la descripció, l'argumentació i la reflexió metalingüística.
 - **Condicions d'èxit:** Requereix una preparació acurada dels materials per part del docent, una contextualització clara de les situacions comunicatives, una adaptació constant al nivell de competència lingüística de l'alumnat i la promoció activa de la interacció. És fonamental que el docent valori el bagatge cultural i lingüístic previ de l'alumne per construir sobre ell.
 
-### Recursos necessaris
+## Recursos necessaris
 - **Materials visuals:**
     - **Cartronets i làmines:** Amb accions, objectes, llocs, animals, oficis, situacions quotidianes (ex: "112 accions", "Làmines Vivim junts", "Làmines Viure a Catalunya").
     - **Àlbums il·lustrats i còmics:** Per a la construcció de la identitat, l'adquisició de lèxic i la comprensió lectora.
@@ -30,7 +30,7 @@ Aquesta estratègia és especialment útil per a:
 - **Temporals:** Temps dedicat a la preparació, assaig i representació de les activitats.
 - **Humans:** Formació del professorat en l'ús d'aquestes metodologies i materials per a l'atenció a la diversitat lingüística.
 
-### Com implementar (3 nivells: bàsic, intermedi, avançat + adaptacions per diversitat)
+## Com implementar (3 nivells: bàsic, intermedi, avançat + adaptacions per diversitat)
 
 Aquesta estratègia es pot graduar en complexitat segons el nivell de competència lingüística de l'alumnat i els objectius d'aprenentatge.
 
@@ -69,7 +69,7 @@ Aquesta estratègia es pot graduar en complexitat segons el nivell de competènc
     - **Rols complexos:** Assignar rols que requereixin un alt domini lingüístic i capacitat d'adaptació.
     - **Creació de materials:** Proposar als alumnes que creïn els seus propis materials visuals o situacions comunicatives.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 -   **Educació Infantil / Cicle Inicial de Primària:**
     -   **"El meu àlbum":** Creació d'un àlbum personal amb imatges autobiogràfiques per introduir vocabulari sobre la família, el lloc d'origen i les vivències personals, facilitant l'expressió de sentiments i afectes (DOC 30).
@@ -86,7 +86,7 @@ Aquesta estratègia es pot graduar en complexitat segons el nivell de competènc
     -   **Activitat "Què vol dir...?":** Treball amb frases fetes i llenguatge figurat, utilitzant imatges il·lustratives per reflexionar sobre el significat i el context d'ús, millorant les habilitats metalingüístiques (DOC 40, DOC 65).
     -   **"Utilització dels textos literaris":** Ús d'àlbums il·lustrats o còmics per a la integració lingüística i cultural, fomentant l'alfabetització visual i la discussió interpretativa, especialment amb materials de Lectura Fàcil (DOC 18, DOC 19).
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 -   **Comprensió:** L'alumnat comprèn instruccions, preguntes i textos orals i escrits amb suport visual, i pot deduir significats de paraules o expressions noves.
 -   **Expressió oral:** Augmenta la fluïdesa, la precisió i la riquesa lèxica en les seves intervencions, utilitzant les funcions comunicatives adequades (informar, descriure, argumentar, expressar opinions).
 -   **Expressió escrita:** Millora la capacitat de produir textos curts i coherents, amb un vocabulari més ampli i estructures gramaticals correctes, amb suport de models visuals.
@@ -94,7 +94,7 @@ Aquesta estratègia es pot graduar en complexitat segons el nivell de competènc
 -   **Motivació i autonomia:** Mostra interès per l'aprenentatge de la llengua, s'esforça per comunicar-se i desenvolupa estratègies pròpies per comprendre i aprendre vocabulari nou.
 -   **Integració:** Utilitza la llengua catalana en situacions comunicatives diverses, tant a l'aula com en l'entorn escolar i social.
 
-### Errors comuns
+## Errors comuns
 -   **No contextualitzar els suports visuals:** Presentar imatges o pictogrames de manera aïllada, sense vincular-los a situacions comunicatives reals o significatives per a l'alumnat. Els materials visuals han de ser un pont cap a la realitat.
 -   **No adaptar el nivell de complexitat:** Utilitzar materials o activitats massa complexes per al nivell lingüístic de l'alumnat, generant frustració. És crucial graduar la dificultat del lèxic, les estructures i les funcions comunicatives.
 -   **Centrar-se només en el reconeixement:** Limitar l'ús dels suports visuals a la identificació passiva, sense fomentar la producció activa oral i escrita per part de l'alumnat. L'objectiu és que els alumnes utilitzin la llengua.

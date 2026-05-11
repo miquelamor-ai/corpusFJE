@@ -7,14 +7,14 @@ review_status: esborrany
 generat_at: 2026-03-18T12:44:00
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 El Tractament Integrat de Llengua i Continguts (TILC), conegut internacionalment com a CLIL (Content and Language Integrated Learning) o AICLE, és una estratègia pedagògica que consisteix a ensenyar continguts curriculars d'una àrea o matèria (per exemple, ciències, història, tecnologia) utilitzant una llengua addicional com a vehicle d'instrucció. L'objectiu no és només que l'alumnat aprengui la llengua, sinó que aprengui els continguts de la matèria *a través* d'aquesta llengua, desenvolupant ambdues competències de manera simultània i integrada.
 
 Aquesta estratègia es fonamenta en la comprensió de la **competència plurilingüe**, que reconeix que el coneixement de llengües no és una suma aïllada, sinó una competència complexa que permet integrar i transferir sabers entre elles. Així, s'estableixen ponts entre les llengües, es facilita la mediació i s'aprofita el coneixement previ de l'alumnat per aprendre'n de noves. El TILC posa un èmfasi especial en el desenvolupament del **llenguatge acadèmic (CALP)**, que és el registre lingüístic complex i descontextualitzat necessari per accedir als continguts curriculars i construir aprenentatges profunds, anant més enllà de la competència conversacional bàsica (BICS).
 
 El TILC s'alinea amb un **currículum competencial** que busca un aprenentatge profund i funcional, on allò que s'aprèn es pot utilitzar en contextos diversos i permet resoldre problemes reals. A més, és un vehicle excel·lent per a l'**educació intercultural**, ja que fomenta el reconeixement i la valoració de la diversitat lingüística i cultural present a l'aula i a la societat, utilitzant-la com un recurs per a l'aprenentatge. El Marc Europeu Comú de Referència (MECR) proporciona un instrument valuós per planificar els aprenentatges lingüístics des d'un enfocament comunicatiu, descrivint detalladament les habilitats lingüístiques (recepció, producció, interacció, mediació) que s'han de desenvolupar.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 El TILC és una estratègia útil per a:
 
 *   **Alumnat:**
@@ -28,14 +28,14 @@ El TILC és una estratègia útil per a:
     *   Integració de les llengües i competències lingüístiques que l'alumne ja posseeix.
     *   Disposar de mesures organitzatives i accions educatives que donin suport a la integració.
 
-### Recursos necessaris
+## Recursos necessaris
 *   **Formació del professorat:** Coneixement del MECR i de les estratègies per integrar llengua i continguts. Formació en l'activació de la competència plurilingüe i la perspectiva intercultural.
 *   **Materials didàctics:** Selecció o elaboració de materials que incorporin la perspectiva intercultural, visibilitzin la diversitat i evitin estereotips. Adaptació de materials per fer-los lingüísticament accessibles (suport visual, lèxic simplificat, etc.).
 *   **Organització del centre:** Inclusió de l'educació intercultural i el TILC en el Projecte Educatiu de Centre (PEC). Mesures de suport com l'aula d'acollida per a l'alumnat nouvingut. Espais curriculars que permetin la integració de les llengües.
 *   **Temps:** Temps per a la planificació col·laborativa entre docents de llengua i de matèries no lingüístiques. Temps per a l'adquisició del llenguatge acadèmic per part de l'alumnat, que és un procés més lent.
 *   **Espai:** Aules que permetin la interacció i el treball cooperatiu, i que puguin fer visibles les diferents llengües presents.
 
-### Com implementar
+## Com implementar
 La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al context del centre:
 
 **Nivell bàsic:**
@@ -61,7 +61,7 @@ La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al c
 *   **Suports visuals i organitzadors gràfics:** Facilitar la comprensió de continguts complexos amb ajudes no lingüístiques.
 *   **Treball cooperatiu:** Promoure activitats en grup on l'alumnat pugui recolzar-se mútuament, incloent l'ús de les seves llengües maternes com a recurs.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 *   **Educació Primària (Cicle Mitjà):**
     *   **Àrea:** Coneixement del Medi Natural, Social i Cultural.
     *   **Activitat:** Projecte "El meu poble, el teu poble". L'alumnat investiga característiques del seu poble (geografia, història, tradicions) i, si és el cas, del poble d'origen de les seves famílies. Es fomenta la recerca d'informació en català i, si és possible, en altres llengües. Per presentar els resultats (mural, presentació oral), es treballa el vocabulari específic (ex: "riu", "muntanya", "tradició", "cultiu") i estructures per descriure i comparar. Els alumnes poden fer servir les seves llengües maternes per aclarir conceptes amb els companys o per a la recerca inicial, i després expressar-se en català.
@@ -72,7 +72,7 @@ La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al c
     *   **Matèria:** Economia de l'Empresa (Batxillerat) o Gestió Administrativa (FP).
     *   **Activitat:** Anàlisi de casos d'estudi d'empreses internacionals. Els alumnes reben casos d'estudi (en català) sobre empreses amb presència global o que operen en mercats multilingües. Han d'identificar els reptes econòmics i de comunicació. Es treballa el llenguatge específic de l'economia i l'empresa (ex: "globalització", "mercat emergent", "responsabilitat social corporativa", "estratègia de màrqueting"). La tasca final pot ser la redacció d'un informe o una presentació en català amb propostes de millora, on s'hagi de fer mediació lingüística per interpretar informació de fonts en anglès o altres llengües, i s'hagi de justificar la terminologia utilitzada.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 *   **Millora del llenguatge acadèmic:** Augment de la comprensió i producció de vocabulari i estructures gramaticals pròpies de les diferents matèries en la llengua vehicular.
 *   **Assoliment de continguts:** Millora en la comprensió i l'aplicació dels conceptes curriculars de les àrees no lingüístiques.
 *   **Participació activa:** Augment de la implicació de tot l'alumnat, especialment el d'origen estranger, en les activitats d'aula i en els debats.
@@ -81,7 +81,7 @@ La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al c
 *   **Qualitat dels materials:** Utilització de materials didàctics que reflecteixen una perspectiva intercultural i són lingüísticament accessibles.
 *   **Resultats competencials:** Millora en l'assoliment de les competències clau, especialment la competència en comunicació lingüística i la competència plurilingüe.
 
-### Errors comuns
+## Errors comuns
 *   **Confondre BICS amb CALP:** Un error freqüent és assumir que si un alumne es comunica fluidament en contextos socials informals (BICS), ja domina el llenguatge acadèmic (CALP) necessari per a les matèries. Això porta a no proporcionar el suport lingüístic explícit que requereix el CALP, que és més complex, abstracte i descontextualitzat, i la seva adquisició és significativament més lenta. El docent ha de ser conscient d'aquesta diferència per dissenyar estratègies de suport adequades.
 *   **Veure la diversitat lingüística com un problema, no un recurs:** Ignorar o desincentivar l'ús de les llengües d'origen dels alumnes a l'aula és un error. La competència plurilingüe es construeix integrant els coneixements previs i permet transferir habilitats entre llengües. Negar aquesta realitat no només empobreix l'aprenentatge individual, sinó que també desaprofita una riquesa cultural i lingüística per a tot el grup, perpetuant prejudicis lingüístics i desvaloritzant la identitat de l'alumnat.
 *   **Limitar el TILC a l'assignatura de llengua addicional:** Creure que la responsabilitat del desenvolupament lingüístic recau exclusivament en els professors de llengües és un error. La competència en comunicació lingüística és la base per al pensament i la construcció del coneixement en *tots* els àmbits. Per tant, totes les àrees i matèries han de treballar explícitament la comprensió lectora, l'expressió oral i escrita, el vocabulari específic i les habilitats discursives, integrant el suport lingüístic en l'ensenyament dels continguts propis.

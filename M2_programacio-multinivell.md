@@ -9,14 +9,14 @@ nota_revisio: "Versió DAC (ateneu.xtec.cat_2026-03-17_5): DUA + Intel·ligènci
 generat_at: 2026-03-18T17:13:21
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 La Programació Multinivell, entesa com a Mesures Universals, és la base del model de "resposta a la intervenció" i constitueix la primera línia d'actuació educativa. El seu propòsit és oferir una intervenció educativa que promogui un clima positiu i de satisfacció, assolint un aprenentatge eficient i significatiu per a *tots* els alumnes, sense necessitat d'adaptacions individuals posteriors. Aquestes mesures són preventives i proactives, dissenyades per flexibilitzar i personalitzar el treball dins l'aula, enriquir el context d'aprenentatge, minimitzar les barreres de l'entorn i garantir la convivència i el compromís amb la tasca.
 
 La seva fonamentació es troba en la premissa que, si som capaços d'eixamplar i diversificar les intervencions de base (les mesures universals), menys necessitat hi haurà d'activar mesures addicionals o intensives. Això significa que un disseny educatiu robust i inclusiu des del principi pot satisfer les necessitats d'una àmplia gamma d'alumnes, inclosos aquells amb altes capacitats, sense requerir suports individualitzats.
 
 Aquesta estratègia es recolza fortament en els principis del Disseny Universal per a l'Aprenentatge (DUA), que busca crear ambients d'aprenentatge flexibles i un currículum adaptable des del moment de la programació. El DUA es basa en proporcionar múltiples formes d'implicació (per què s'aprèn), múltiples formes d'acció i expressió (com s'aprèn) i múltiples formes de representació (què s'aprèn), abordant els elements afectius, les barreres a l'expressió i les barreres d'accés a la informació. Així mateix, la teoria de les Intel·ligències Múltiples de Gardner contribueix a aquest enfocament, suggerint la utilització d'estratègies, tècniques i activitats diverses que tinguin en compte les diferents "inclinacions" i estils d'aprenentatge dels alumnes, ampliant el focus més enllà de les intel·ligències lingüística i matemàtica.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 Aquesta estratègia és útil per a **tot l'alumnat** del centre, en **tots els entorns i etapes educatives** (Infantil, Primària, ESO, Batxillerat, FP), ja que constitueix la base de l'atenció a la diversitat. És especialment beneficiosa en contextos amb una gran heterogeneïtat d'alumnes, ja que el seu objectiu és reduir la necessitat de suports individualitzats.
 
 **Condicions d'èxit:**
@@ -25,14 +25,14 @@ Aquesta estratègia és útil per a **tot l'alumnat** del centre, en **tots els 
 *   La voluntat de reflexionar i diversificar contínuament les estratègies metodològiques i organitzatives a l'aula.
 *   La implicació de tot l'equip docent en el disseny i implementació d'aquestes mesures.
 
-### Recursos necessaris
+## Recursos necessaris
 *   **Temps:** Per a la planificació col·laborativa i la reflexió sobre les pràctiques docents.
 *   **Espai:** Ambients d'aprenentatge flexibles que permetin diferents agrupaments, materials i tipus d'activitats.
 *   **Materials:** Varietat de recursos didàctics que ofereixin múltiples formes de representació, implicació i expressió (materials manipulatius, digitals, audiovisuals, etc.).
 *   **Formació:** Del professorat en metodologies actives, DUA, Intel·ligències Múltiples i estratègies d'atenció a la diversitat.
 *   **Suport:** L'acompanyament de l'EAP i la Comissió d'Atenció Educativa Inclusiva (CAEI) és crucial per a la planificació i el seguiment de les mesures d'atenció a la diversitat, ajudant a concretar criteris i organitzar recursos.
 
-### Com implementar
+## Com implementar
 La implementació de la Programació Multinivell (Mesures Universals) es pot graduar en diferents nivells:
 
 #### Nivell Bàsic
@@ -55,7 +55,7 @@ La implementació de la Programació Multinivell (Mesures Universals) es pot gra
 #### Adaptacions per diversitat
 La Programació Multinivell (Mesures Universals) *és en si mateixa* l'estratègia principal per atendre la diversitat. La seva implementació implica que les "adaptacions" ja estan integrades en el disseny inicial de les activitats, els materials i l'avaluació, minimitzant la necessitat de mesures individualitzades. L'objectiu és que la diversitat sigui la norma i no l'excepció, i que la resposta educativa sigui inherentment flexible i accessible.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 *   **Educació Primària:** En una unitat sobre "El cicle de l'aigua", el docent pot oferir materials explicatius en format de text, vídeo i infografia (múltiples representacions). Per a la tasca final, els alumnes poden escollir entre fer un dibuix amb etiquetes, construir una maqueta, crear una cançó o fer una petita presentació oral (múltiples formes d'expressió). A més, es pot permetre treballar individualment o en petits grups, i donar opcions sobre quins aspectes del cicle volen aprofundir més (múltiples formes d'implicació).
 
@@ -63,7 +63,7 @@ La Programació Multinivell (Mesures Universals) *és en si mateixa* l'estratèg
 
 *   **Batxillerat / Formació Professional (FP):** En un mòdul de "Programació de Sistemes Informàtics", el docent pot presentar els conceptes teòrics mitjançant lectures, tutorials en vídeo, demostracions en viu i exemples de codi interactius. Per a la pràctica, els alumnes poden escollir entre diferents projectes amb nivells de complexitat variats, utilitzant diferents llenguatges de programació o eines, segons les seves preferències i coneixements previs. L'avaluació es pot realitzar mitjançant la presentació del projecte final, un portafoli de codi, una exposició oral o una defensa davant d'un panell, permetent que cada alumne mostri les seves competències de la manera que li resulti més efectiva.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 *   Reducció significativa de la necessitat de mesures addicionals i intensives, inclosos els Plans Individualitzats (PI).
 *   Augment de la participació, el compromís i la motivació de la totalitat de l'alumnat a l'aula.
 *   Millora del clima d'aula i de la percepció de satisfacció tant per part de l'alumnat com del professorat.
@@ -71,7 +71,7 @@ La Programació Multinivell (Mesures Universals) *és en si mateixa* l'estratèg
 *   Desenvolupament equilibrat de les diverses intel·ligències i habilitats en l'alumnat.
 *   Disminució de les barreres d'aprenentatge i participació detectades a l'aula.
 
-### Errors comuns
+## Errors comuns
 1.  **Considerar les mesures universals com un "mínim" o "nivell base" rígid:** L'error és veure-les com una llista de requisits bàsics en lloc d'un marc flexible i ampli que ha de ser constantment diversificat i eixamplat. Això porta a una implementació superficial que no redueix la necessitat de suports addicionals.
 2.  **Centrar-se exclusivament en les intel·ligències lingüística i matemàtica:** La tendència de l'ensenyament tradicional a prioritzar aquestes dues intel·ligències ignora la multidimensionalitat de la intel·ligència humana i limita les oportunitats d'aprenentatge i expressió per a molts alumnes, anant en contra del principi de la Programació Multinivell.
 3.  **Esperar a fer adaptacions individuals *després* de la programació:** Dissenyar un currículum rígid i després intentar "adaptar-lo" per a alumnes amb dificultats és contrari a l'enfocament de la Programació Multinivell. L'objectiu és que la flexibilitat i la inclusió estiguin integrades en el disseny inicial, evitant la necessitat d'adaptacions posteriors.

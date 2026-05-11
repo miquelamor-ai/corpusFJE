@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-18T15:30:41
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 L'Aprenentatge Basat en Projectes (ABP) és una estratègia pedagògica que situa l'alumnat al centre del seu aprenentatge, desafiant-lo a resoldre problemes o respondre a preguntes complexes i significatives del món real. Aquesta metodologia es fonamenta en la idea que l'aprenentatge és més profund i durador quan els estudiants s'impliquen activament en la construcció del seu coneixement, aplicant conceptes de diverses àrees per crear un producte o solució tangible. L'ABP promou l'adquisició de coneixements, habilitats i actituds de manera integrada, fomentant el pensament crític, la creativitat, la resolució de problemes i la col·laboració. Les activitats competencials inherents a l'ABP es plantegen com a reptes que donen sentit a l'aprenentatge, connectant-lo amb fets reals o problemes quotidians, i requereixen l'aplicació de coneixements adquirits i la realització de nous aprenentatges (DOC 23, 25, 26).
 
@@ -15,7 +15,7 @@ L'ABP es recolza en principis pedagògics com l'ensenyament competencial, que bu
 
 Pel que fa a l'Aprenentatge Servei (ApS), els documents proporcionats no ofereixen una descripció específica ni un fonament teòric detallat d'aquesta metodologia. No obstant això, l'ApS pot entendre's com una evolució o una forma particular de l'ABP que afegeix una dimensió de servei a la comunitat. Les activitats competencials descrites, que es contextualitzen en situacions reals i tenen un "destinatari clar, normalment diferent a la mestra" (DOC 25, 26), apunten cap a la rellevància i la funcionalitat de l'aprenentatge, elements essencials de l'ApS. L'ApS combina l'aprenentatge de continguts, competències i valors amb la realització d'una acció de servei a la comunitat, responent a una necessitat real i millorant la qualitat de vida de les persones o l'entorn.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és útil per a tot l'alumnat, des d'Educació Infantil i Primària fins a ESO, Batxillerat i Formació Professional, ja que permet adaptar els objectius i les activitats a la diversitat de nivells i necessitats (DOC 1, 3, 21).
 
@@ -35,7 +35,7 @@ Aquesta estratègia és útil per a tot l'alumnat, des d'Educació Infantil i Pr
 
 L'ABP és especialment útil quan es vol anar més enllà de la memorització de continguts i es busca que l'alumnat apliqui el que aprèn per resoldre reptes complexos.
 
-### Recursos necessaris
+## Recursos necessaris
 
 La implementació efectiva de l'ABP i l'ApS requereix una planificació acurada i la disposició de certs recursos:
 
@@ -45,7 +45,7 @@ La implementació efectiva de l'ABP i l'ApS requereix una planificació acurada 
 *   **Formació del professorat:** Coneixement i domini de metodologies actives com el treball cooperatiu, el DUA, les bastides pedagògiques i l'avaluació formativa (implícit en la majoria de documents).
 *   **Connexió amb l'entorn (per a ApS):** Identificació de necessitats reals de la comunitat i establiment de relacions amb entitats o persones externes que puguin actuar com a destinataris o col·laboradors del projecte (implícit en la idea de "destinatari clar" i "problemes quotidians" del DOC 25, 26).
 
-### Com implementar
+## Com implementar
 
 La implementació de l'ABP (i per extensió, de l'ApS) segueix un procés cíclic que es pot graduar en diferents nivells de complexitat.
 
@@ -86,7 +86,7 @@ La implementació de l'ABP (i per extensió, de l'ApS) segueix un procés cícli
 *   **Treball cooperatiu heterogeni:** Formar grups amb diversitat de gènere, motivació, rendiment i cultura per maximitzar la interacció i l'ajuda mútua (DOC 8, 19, 21).
 *   **Objectius i avaluació diferenciats:** Per a alumnes amb necessitats específiques, es poden plantejar objectius alternatius o adaptats, o els mateixos del grup classe amb ajudes addicionals (DOC 1, 3, 21).
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 1.  **Educació Primària (Cicle Mitjà):**
     *   **Projecte:** "Salvem els cirerers de l'avi Miquel".
@@ -115,7 +115,7 @@ La implementació de l'ABP (i per extensió, de l'ApS) segueix un procés cícli
         3.  **Producte:** Text argumentatiu cooperatiu defensant una hipòtesi ucroniana, amb una presentació oral.
     *   **Competències:** Raonament històric, argumentació, pensament crític, expressió escrita i oral, treball cooperatiu, anàlisi de fonts.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memorització de continguts i es centren en el desenvolupament integral de l'alumnat:
 
@@ -128,7 +128,7 @@ Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memoritzaci
 *   **Consciència crítica:** L'alumnat desenvolupa la capacitat de llegir críticament la realitat, qüestionar informacions i formar opinions fonamentades (DOC 13, 14).
 *   **Impacte comunitari (per a ApS):** El servei realitzat respon a una necessitat real i genera un benefici tangible per a la comunitat.
 
-### Errors comuns
+## Errors comuns
 
 És important ser conscient dels errors més freqüents per evitar-los i garantir l'eficàcia d'aquestes estratègies:
 

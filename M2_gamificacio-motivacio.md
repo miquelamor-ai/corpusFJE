@@ -7,13 +7,13 @@ review_status: esborrany
 generat_at: 2026-03-18T15:31:11
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 La gamificació, entesa com l'aplicació de mecàniques i elements de joc en contextos no lúdics, i l'ús de simulacions, són estratègies pedagògiques potents per iniciar i mantenir la motivació de l'alumnat. Aquestes metodologies funcionen reproduint o modelitzant fenòmens i problemes que es troben tant en l'estudi de temes acadèmics com en la vida quotidiana, fent l'aprenentatge més rellevant i tangible. En fer-ho, estimulen la curiositat i la creativitat, i connecten amb els interessos dels alumnes, que són indicadors clau d'una unitat didàctica competencial. A més, les simulacions i els jocs propicien la conversa i el debat entre iguals, habilitats fonamentals que afavoreixen el creixement personal, la maduració intel·lectual i el desenvolupament de les destreses cognitives d'ordre superior com l'anàlisi, l'avaluació i la creació.
 
 El fonament d'aquestes estratègies rau en la seva capacitat per crear un entorn d'aprenentatge actiu i participatiu. En lloc de rebre informació de manera passiva, l'alumnat esdevé protagonista del seu procés, prenent decisions i observant les conseqüències, cosa que augmenta el seu compromís. Aquest enfocament s'alinea amb els principis del Disseny Universal de l'Aprenentatge (DUA), que busca múltiples opcions per captar l'interès, mantenir l'esforç i la persistència, i fomentar l'autoregulació. També es complementa amb l'aprenentatge cooperatiu, on la interacció social i la interdependència positiva són fonts d'aprenentatge, i el desequilibri cognitiu generat pel contacte amb diferents punts de vista impulsa la reestructuració dels esquemes de coneixement.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educatives, des d'Infantil/Primària fins a Batxillerat/FP, especialment quan es busca:
 - **Augmentar la motivació i l'engagement:** Quan l'interès per un tema és baix o es vol introduir un contingut de manera més atractiva.
@@ -24,7 +24,7 @@ Aquesta estratègia és útil per a tot l'alumnat i en totes les etapes educativ
 
 Les condicions d'èxit inclouen la claredat dels objectius d'aprenentatge, la definició de rols i regles, la integració amb el currículum i la facilitació d'espais per a la reflexió posterior.
 
-### Recursos necessaris
+## Recursos necessaris
 
 L'aplicació de la gamificació i les simulacions requereix una planificació acurada dels següents recursos:
 - **Temps:** Cal preveure sessions suficients tant per a la introducció i el desenvolupament de l'activitat (per exemple, 2 sessions per a una simulació) com per a la fase de reflexió i debat posterior, que és crucial per a la consolidació de l'aprenentatge.
@@ -32,7 +32,7 @@ L'aplicació de la gamificació i les simulacions requereix una planificació ac
 - **Materials:** Depenent de la complexitat, poden ser necessaris materials didàctics (documents, imatges, vídeos), recursos tecnològics (ordinadors, pissarres digitals, aplicacions específiques) o fins i tot atrezzo per als rols en una simulació. La documentació sobre el tema és fonamental per a la preparació dels participants.
 - **Formació:** Per al docent, és important tenir formació en disseny d'activitats competencials, aprenentatge cooperatiu i estratègies per a la gestió de la diversitat, ja que la gamificació s'integra amb aquestes metodologies.
 
-### Com implementar
+## Com implementar
 
 La implementació de la gamificació i les simulacions es pot graduar en diferents nivells de complexitat:
 
@@ -51,7 +51,7 @@ La implementació de la gamificació i les simulacions es pot graduar en diferen
     *   **Accions:** Dissenyar un "viatge de l'heroi" on els alumnes, individualment o en grups, superen diferents proves (lectura crítica, recerca, producció de continguts) per resoldre un gran problema o crear un producte final. Per exemple, un projecte sobre "Ucronia" podria ser una "missió" per reescriure un esdeveniment històric i defensar-lo amb arguments, amb diferents "nivells" de recerca i presentació.
     *   **Adaptacions per diversitat:** Aplicar el DUA en el disseny de les missions, oferint múltiples maneres d'accedir a la informació (visual, auditiva, textual), de processar-la (individual, cooperativa) i d'expressar l'aprenentatge (oral, escrit, audiovisual). Es poden establir objectius multinivell dins del mateix projecte.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 1.  **Educació Primària:**
     *   **Exemple:** "El repte dels exploradors matemàtics". Els alumnes de 3r de Primària es converteixen en exploradors que han de resoldre "enigmes" matemàtics per trobar un "tresor" (un coneixement nou o una habilitat). Cada enigma resolt els dona una "pista" i una "insígnia" de progrés. Els enigmes poden ser problemes de suma, resta, multiplicació o geometria, adaptats al nivell de cada grup. L'activitat de "jugar a esbrinar les seves alçades" per aprendre mesures s'integra com un dels enigmes.
@@ -65,7 +65,7 @@ La implementació de la gamificació i les simulacions es pot graduar en diferen
     *   **Exemple:** "Ucronia: Reescrivint la història". En la matèria d'Història del Món Contemporani o Filosofia, els alumnes es plantegen un fet històric transcendent (per exemple, la no entrada d'Espanya a la UE, com en DOC 12) i especulen sobre realitats alternatives. En grups, han de crear una narrativa "ucrònica" (una història contrafactual) i defensar-la amb arguments basats en la lògica històrica i social. El procés es gamifica amb "punts de versemblança" o "desafiaments de coherència" que han de superar davant d'un "tribunal històric" format per altres alumnes o el professor.
     *   **Objectiu:** Aprofundir en l'anàlisi de causes i conseqüències històriques, desenvolupar la capacitat d'argumentació i el pensament crític, i fomentar la creativitat en la construcció de narratives.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 Per avaluar l'èxit de l'estratègia de gamificació i simulació, es poden observar els següents indicadors:
 -   **Augment de la participació:** L'alumnat s'implica activament en les tasques, intervé en els debats i mostra iniciativa.
@@ -76,7 +76,7 @@ Per avaluar l'èxit de l'estratègia de gamificació i simulació, es poden obse
 -   **Transferència de l'aprenentatge:** Els alumnes són capaços de relacionar els aprenentatges del joc amb altres contextos acadèmics o de la vida real.
 -   **Feedback positiu:** Tant del docent com dels alumnes sobre l'experiència i els resultats.
 
-### Errors comuns
+## Errors comuns
 
 Per tal d'evitar que la gamificació i les simulacions siguin contraproduents, cal estar atents als següents errors:
 -   **Superficialitat i manca de propòsit pedagògic:** No integrar el joc amb els objectius d'aprenentatge clars. Si l'activitat és només entreteniment sense una connexió explícita amb el currículum, es perd l'oportunitat d'un aprenentatge significatiu. L'objectiu ha de ser sempre l'aprenentatge competencial, no només la diversió.

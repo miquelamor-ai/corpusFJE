@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-18T15:31:09
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 Les rutines i destreses de pensament són estratègies pedagògiques dissenyades per fer el pensament visible, explícit i deliberat a l'aula. Aquest enfocament, sovint associat al "Visible Thinking" de Project Zero de Harvard (amb autors com Ron Ritchhart), es fonamenta en la idea que el pensament no és una activitat innata que es desenvolupa automàticament, sinó un conjunt d'habilitats que es poden ensenyar, practicar i millorar. L'objectiu principal és anar més enllà de la simple memorització de continguts i fomentar una comprensió profunda, el pensament crític, la creativitat i la capacitat de resoldre problemes.
 
@@ -17,7 +17,7 @@ Aquestes rutines actuen com a "bastides pedagògiques" (scaffolding) (DOC 5, DOC
 
 En definitiva, les rutines i destreses de pensament no són un afegit al currículum, sinó una manera d'ensenyar el currículum que promou un aprenentatge més significatiu, durador i transferible, preparant l'alumnat per afrontar reptes complexos en la seva vida acadèmica i personal.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és útil per a **tot l'alumnat i en totes les etapes educatives**, des d'Infantil fins a Batxillerat/FP, ja que el desenvolupament del pensament és un objectiu transversal. És particularment beneficiosa per:
 
@@ -26,14 +26,14 @@ Aquesta estratègia és útil per a **tot l'alumnat i en totes les etapes educat
 *   **Qualsevol àrea o matèria**: Les destreses de pensament són transversals i es poden aplicar en llengua (lectura crítica, escriptura argumentativa), ciències (anàlisi de dades, formulació d'hipòtesis), socials (anàlisi de fets històrics, debat), etc.
 *   **Condicions d'èxit**: Requereix un compromís del docent amb l'ensenyament explícit de les estratègies, un clima d'aula que valori l'error com a part de l'aprenentatge, i temps per a la reflexió individual i col·lectiva. L'aprenentatge cooperatiu és un aliat excel·lent per maximitzar la interacció i el suport entre iguals (DOC 8, DOC 9, DOC 19, DOC 20).
 
-### Recursos necessaris
+## Recursos necessaris
 
 *   **Temps**: Cal preveure temps en la planificació per a la introducció explícita de les rutines, el modelatge, la pràctica guiada i la reflexió. No són activitats que s'afegeixen, sinó que s'integren en la seqüència didàctica (DOC 7).
 *   **Espai**: L'organització de l'aula ha de permetre el treball individual, en parelles i en petits grups, facilitant la interacció i el diàleg.
 *   **Materials**: Pissarres, murals, post-its, quaderns, eines digitals per visualitzar i organitzar el pensament. Suports visuals, objectes reals, fotografies o dibuixos són molt útils per a la comprensió (DOC 21).
 *   **Formació docent**: És recomanable que el professorat conegui les diferents rutines de pensament, els seus propòsits i com implementar-les de manera efectiva. La formació en DUA i aprenentatge cooperatiu complementa aquesta estratègia.
 
-### Com implementar
+## Com implementar
 
 La implementació de les rutines i destreses de pensament ha de seguir una progressió, des de la introducció bàsica fins a l'aplicació avançada i contextualitzada, sempre amb adaptacions per a la diversitat de l'alumnat.
 
@@ -60,7 +60,7 @@ La implementació de les rutines i destreses de pensament ha de seguir una progr
 *   **Suports lingüístics**: En el cas d'alumnat de L2, adaptar textos, parlar amb claredat, emprar vocabulari conegut i facilitar la participació en la conversa (DOC 5).
 *   **Agrupaments flexibles**: Canviar els agrupaments amb freqüència per evitar catalogacions i aprofitar la diversitat com a potencial educatiu (DOC 21).
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 **Educació Primària: "Veig, Penso, Em pregunto" amb una imatge**
 *   **Context**: Alumnes de Cicle Inicial o Mitjà (6-9 anys) treballant una unitat sobre el medi natural.
@@ -92,7 +92,7 @@ La implementació de les rutines i destreses de pensament ha de seguir una progr
     4.  **Avaluació i coavaluació**: Es valora tant el procés d'anàlisi crítica com la qualitat i la coherència del producte audiovisual, utilitzant rúbriques i fomentant la coavaluació entre iguals.
 *   **Destreses de pensament implicades**: Anàlisi crítica, interpretació, creativitat, argumentació visual, comunicació, autoregulació.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pensament de l'alumnat i la seva autonomia. Es poden observar si:
 
@@ -106,7 +106,7 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en la qualitat del pe
 *   Demostren una major autonomia en el seu aprenentatge, planificant, monitoritzant i avaluant el seu propi procés (DOC 2, DOC 6).
 *   Les unitats didàctiques dissenyades amb aquest enfocament són productives, complexes, contextualitzades, rellevants i socialitzadores (DOC 23, DOC 25, DOC 26).
 
-### Errors comuns
+## Errors comuns
 
 1.  **No ensenyar les rutines de manera explícita**: Un error freqüent és assumir que els alumnes ja saben pensar o que adquiriran les destreses de pensament per simple exposició. Les rutines han de ser introduïdes, modelades i practicades de forma deliberada, com qualsevol altre contingut curricular (DOC 2, DOC 6). Si no s'ensenyen explícitament, els alumnes poden usar-les superficialment o no entendre el seu propòsit, limitant el seu impacte.
 2.  **Aplicar les rutines de forma mecànica o superficial**: Les rutines de pensament no són "fitxes" a omplir sense reflexió. Si es converteixen en una tasca rutinària sense un propòsit clar de fomentar la comprensió profunda, perden la seva eficàcia. Cal assegurar que la rutina serveix per aprofundir en el contingut i no esdevé un simple tràmit. El fonament és que el pensament es faci visible per a la comprensió i l'autoregulació, no per complir un formulari.

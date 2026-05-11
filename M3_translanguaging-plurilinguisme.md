@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:09
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 
 Aquesta estratègia es basa en el reconeixement i l'aprofitament del repertori lingüístic complet de l'alumnat, incloent totes les seves llengües familiars (L1) i les llengües d'aprenentatge (L2, L3), per vehicular el coneixement i aprofundir en els aprenentatges. El **translanguaging** és la pràctica de fer servir de manera flexible i integrada totes les llengües que una persona coneix en un mateix acte comunicatiu, sense considerar-les sistemes separats. El **plurilingüisme**, per la seva banda, reconeix la capacitat d'una persona per utilitzar diverses llengües de manera apropiada i eficaç per a l'aprenentatge i la comunicació, respectant els perfils lingüístics individuals i fomentant les transferències entre elles.
 
@@ -15,7 +15,7 @@ El fonament principal és que la llengua és l'instrument imprescindible per a l
 
 Aquesta estratègia s'implementa principalment a través del **Tractament Integrat de Llengua i Continguts (TILC)**, una metodologia que no només utilitza la L2 com a vehicular, sinó que presta atenció explícita als aspectes lingüístics propis de cada àrea o matèria. El TILC es basa en quatre components clau (les "4 C"): **Continguts acadèmics**, **Llengua** (llenguatge acadèmic, gèneres discursius, lèxic especialitzat, funcions cognitivolingüístiques), **Cognició** (habilitats de pensament) i **Cultura** (reconeixement del bagatge cultural i lingüístic de l'alumnat). L'objectiu és que tot el professorat, no només el de llengua, assumeixi la responsabilitat de desenvolupar la competència comunicativa de l'alumnat en la seva àrea, ja que cada disciplina té el seu propi "patró lingüístic" que cal ensenyar paral·lelament al "patró temàtic". Això implica ensenyar explícitament com es parla i s'escriu ciència, història o matemàtiques.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és fonamental i útil per a **tot l'alumnat**, però especialment rellevant en **aules multilingües** i amb **alumnat d'origen estranger** que es troba en diferents estadis d'assoliment de la llengua vehicular de l'aprenentatge.
 
@@ -33,7 +33,7 @@ Aquesta estratègia és fonamental i útil per a **tot l'alumnat**, però especi
     *   **Clima d'aula:** Un ambient segur que fomenti la interacció, l'autonomia i la valoració de la diversitat lingüística i cultural.
     *   **Planificació explícita:** Integrar els objectius lingüístics en la planificació de les unitats didàctiques.
 
-### Recursos necessaris
+## Recursos necessaris
 
 L'aplicació efectiva d'aquesta estratègia requereix una sèrie de recursos, tant humans com materials i organitzatius:
 
@@ -56,7 +56,7 @@ L'aplicació efectiva d'aquesta estratègia requereix una sèrie de recursos, ta
     *   Equips docents coordinats i amb voluntat de treballar de manera integrada.
     *   Suport lingüístic i social (SLS) per a l'alumnat d'origen estranger, especialment en el pas de l'aula d'acollida a l'aula ordinària.
 
-### Com implementar
+## Com implementar
 
 La implementació d'aquesta estratègia és gradual i s'adapta a les necessitats de l'alumnat i la complexitat dels continguts.
 
@@ -113,7 +113,7 @@ La implementació d'aquesta estratègia és gradual i s'adapta a les necessitats
 *   **Model de Cummins:** Utilitzar el quadrant de Cummins (exigència cognitiva vs. suport contextual) per dissenyar activitats que permetin a tot l'alumnat treballar el mateix tema al seu nivell, progressant des de tasques molt contextualitzades i poc exigents cognitivament cap a tasques més abstractes i complexes, sempre amb les bastides adequades.
 *   **Ensenyament multini:** Adaptar l'ensenyament per atendre simultàniament diversos nivells de competència lingüística i cognitiva dins la mateixa aula.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 **Educació Primària:**
 
@@ -130,7 +130,7 @@ La implementació d'aquesta estratègia és gradual i s'adapta a les necessitats
 *   **Activitat:** "Redacció d'un informe de pràctiques de laboratori".
 *   **Implementació:** En una matèria científica, els alumnes realitzen un experiment. L'objectiu lingüístic és redactar un informe seguint el gènere discursiu propi de la ciència. El docent proporciona una base d'orientació detallada amb les seccions de l'informe (introducció, materials, mètodes, resultats, discussió, conclusions) i les FCL associades a cada part (descriure materials, explicar procediments, interpretar resultats, justificar conclusions). Es treballa el lèxic especialitzat i la precisió terminològica. Els alumnes poden revisar esborranys amb els companys (aprenentatge cooperatiu) i rebre feedback del docent, centrat tant en la correcció científica com en la claredat i precisió del llenguatge acadèmic. Es pot demanar una presentació oral de l'informe, avaluada amb una rúbrica que inclogui aspectes de comunicació oral.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 Els indicadors d'èxit d'aquesta estratègia es manifesten en diversos àmbits:
 
@@ -142,7 +142,7 @@ Els indicadors d'èxit d'aquesta estratègia es manifesten en diversos àmbits:
 *   **Millora de l'autoestima i la integració:** L'alumnat d'origen estranger se sent més reconegut i valorat, la qual cosa afavoreix la seva integració escolar i social.
 *   **Coordinació docent efectiva:** Els equips docents planifiquen i implementen de manera conjunta objectius lingüístics i de contingut, compartint estratègies i materials.
 
-### Errors comuns
+## Errors comuns
 
 Hi ha diversos errors que cal evitar en la implementació d'una estratègia de translanguaging i plurilingüisme:
 

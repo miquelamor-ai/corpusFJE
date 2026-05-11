@@ -9,7 +9,7 @@ generat_at: 2026-03-18T15:34:01
 
 ## Avaluació Competencial amb Tasques Autèntiques
 
-### Descripció i fonament
+## Descripció i fonament
 
 Aquesta estratègia aborda l'avaluació de competències a través de tasques autèntiques i situacions d'avaluació que fomenten la regulació de l'aprenentatge. El canvi curricular cap a un enfocament competencial exigeix una redefinició de què, com, quan i per què s'avalua. L'avaluació deixa de ser una mera qualificació per esdevenir una eina fonamental per a l'aprenentatge, amb una funció reguladora que permet identificar dificultats, comprendre'n les causes i prendre decisions per superar-les.
 
@@ -25,7 +25,7 @@ Les **tasques autèntiques** són el vehicle idoni per a aquesta avaluació comp
 
 **Nota important:** Els documents proporcionats no contenen informació específica sobre l'ús de la Intel·ligència Artificial (IA) en l'avaluació competencial. Per tant, aquesta estratègia se centrarà exclusivament en les metodologies pedagògiques descrites en les fonts.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 
 Aquesta estratègia és útil per a:
 
@@ -34,7 +34,7 @@ Aquesta estratègia és útil per a:
 *   **Alumnat amb necessitats específiques de suport educatiu (NESE):** Especialment alumnes nouvinguts o amb baixa competència acadèmica, mitjançant l'adaptació d'instruments i canals d'expressió, i l'ús de Plans de Suport Individualitzat (PI) per ajustar els criteris d'avaluació.
 *   **Docents i equips docents:** Per ajustar la planificació didàctica a les característiques i interessos del grup, decidir intervencions individualitzades, reflexionar sobre la pròpia pràctica i establir coherència en els criteris d'avaluació al centre.
 
-### Recursos necessaris
+## Recursos necessaris
 
 Per implementar aquesta estratègia, calen els següents recursos:
 
@@ -49,7 +49,7 @@ Per implementar aquesta estratègia, calen els següents recursos:
 *   **Espais de diàleg:** Fomentar la conversa a l'aula i entre docents sobre els aprenentatges i l'avaluació.
 *   **Marc normatiu:** Conèixer i aplicar les directrius de l'ordre d'avaluació vigent (p. ex., Ordre ENS/164/2016 per a primària).
 
-### Com implementar
+## Com implementar
 
 L'implementació de l'avaluació competencial amb tasques autèntiques es pot graduar en diferents nivells d'aprofundiment:
 
@@ -93,7 +93,7 @@ L'implementació de l'avaluació competencial amb tasques autèntiques es pot gr
 *   **Diversificació de canals d'expressió:** Oferir instruments alternatius o ajudes perquè l'alumnat pugui demostrar el que ha après, més enllà del llenguatge acadèmic (dibuixos, maquetes, exposicions orals, etc.).
 *   **Flexibilitat en temps i exigència:** Concedir més temps per a la realització de proves a alumnes amb dificultats i dissenyar tasques que permetin a tots resoldre almenys una part.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 *   **Educació Primària:**
     *   **Cicle Inicial (2n):** Modificar una prova de classificació d'aliments memorística per una tasca on l'alumnat ha de dissenyar un menú setmanal saludable per a un personatge amb problemes de salut, basant-se en la piràmide dels aliments i justificant les seves decisions. Això passa de reproduir a produir, contextualitzant i fent la tasca rellevant. (DOC 13, 26)
@@ -109,7 +109,7 @@ L'implementació de l'avaluació competencial amb tasques autèntiques es pot gr
     *   En aquestes etapes, l'estratègia es pot aplicar amb un major grau d'autonomia per part de l'alumnat. Per exemple, en Batxillerat, la carpeta d'aprenentatge pot incloure reflexions crítiques sobre el procés de recerca o projectes de síntesi, amb autoavaluació i coavaluació de la qualitat dels arguments i la presentació.
     *   En FP, les tasques autèntiques poden simular situacions laborals reals, on l'alumnat ha de resoldre problemes complexos, dissenyar solucions o avaluar processos, utilitzant bases d'orientació per planificar la feina i rúbriques per valorar l'assoliment de les competències professionals. La retroalimentació es pot donar per part de docents i, si és possible, professionals del sector.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 
 L'èxit d'aquesta estratègia es pot mesurar a través de:
 
@@ -120,7 +120,7 @@ L'èxit d'aquesta estratègia es pot mesurar a través de:
 *   **Coherència avaluativa:** L'equip docent comparteix i aplica criteris d'avaluació coherents, afavorint un enfocament unificat al centre.
 *   **Comunicació efectiva:** Les famílies estan informades dels criteris d'avaluació i del progrés dels seus fills/es.
 
-### Errors comuns
+## Errors comuns
 
 *   **Confondre avaluació formativa amb qualificadora:** Utilitzar instruments formatius (rúbriques, autoavaluacions) només per posar una nota, sense aprofitar-los per a la regulació de l'aprenentatge.
 *   **Mantenir proves memorístiques:** Continuar amb exàmens que només demanen reproducció de continguts, sense mobilitzar competències superiors.

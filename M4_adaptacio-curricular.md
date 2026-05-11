@@ -7,20 +7,20 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:40
 ---
 
-### Descripció i fonament
+## Descripció i fonament
 Aquesta estratègia se centra en com assegurar que tot l'alumnat pugui desenvolupar les competències bàsiques del currículum, posant èmfasi en la funcionalitat, la significativitat i la capacitat de resoldre problemes. El currículum actual, basat en competències, busca que els aprenentatges siguin útils per a la vida, permetent als nois i noies aplicar coneixements i habilitats de manera transversal i interactiva en diferents contextos. Això implica comprensió, reflexió i discerniment, considerant la dimensió social de cada situació. L'adaptació curricular, per tant, no és una reducció, sinó una manera de facilitar que cada alumne o alumna integri coneixements, faci funcionals els seus aprenentatges i guanyi autonomia personal, que són els tres aspectes bàsics de la proposta curricular competencial. La necessitat d'adaptar sorgeix per garantir que aquests principis s'apliquin a la diversitat d'alumnes, permetent-los assolir les capacitats necessàries per donar resposta satisfactòria als reptes.
 
-### Quan i per a qui és útil
+## Quan i per a qui és útil
 Aquesta estratègia és útil per a tot l'alumnat, especialment per a aquells que necessiten un suport addicional o un camí diferent per assolir les competències bàsiques. És aplicable en totes les etapes educatives (Infantil, Primària, ESO, Batxillerat, FP), ja que el desenvolupament de competències és un procés continu i transversal. És especialment rellevant quan es detecta que l'alumnat no aconsegueix fer funcionals els aprenentatges, integrar coneixements o resoldre problemes en contextos variats amb les metodologies habituals. Les condicions d'èxit inclouen una comprensió profunda del model competencial per part del docent i una flexibilitat en el disseny d'activitats i avaluació.
 
-### Recursos necessaris
+## Recursos necessaris
 Per implementar aquesta estratègia cal:
 *   **Temps:** Per al disseny d'activitats diversificades, la reflexió sobre la funcionalitat dels aprenentatges i el seguiment individualitzat.
 *   **Espai:** Entorns d'aprenentatge flexibles que permetin el treball en grups diversos i l'aplicació de coneixements en contextos simulats o reals.
 *   **Materials:** Recursos didàctics variats que facilitin l'accés al coneixement des de diferents formats i que proposin problemes contextualitzats.
 *   **Formació:** Coneixement i comprensió del currículum per competències i de les metodologies actives que promouen la funcionalitat i la transversalitat dels aprenentatges.
 
-### Com implementar
+## Com implementar
 L'adaptació curricular, entesa des de la perspectiva competencial, implica ajustar els elements del currículum per assegurar que l'alumnat pugui "utilitzar els coneixements i habilitats, de manera transversal i interactiva, en contextos i situacions que requereixen la intervenció de coneixements vinculats a diferents sabers". Tot i que els documents font no detallen les categories d'adaptacions (no significatives, significatives), la implementació se centra en variar el suport, el context i la complexitat dels reptes per garantir l'assoliment de les competències.
 
 *   **Nivell bàsic (Adaptacions de suport i context):**
@@ -38,7 +38,7 @@ L'adaptació curricular, entesa des de la perspectiva competencial, implica ajus
 *   **Adaptacions per diversitat (criteris de decisió per a programes personalitzats):**
     *   La decisió sobre el tipus d'adaptació es basa en la necessitat de l'alumne per assolir la funcionalitat, significativitat i capacitat de resolució de problemes. Si un alumne no pot progressar amb les adaptacions de suport i context, es valora la necessitat d'un programa més personalitzat que ajusti els objectius d'aprenentatge a les seves capacitats, sempre buscant el màxim desenvolupament competencial. Els criteris clau són: la integració de coneixements, la funcionalitat dels aprenentatges i l'autonomia personal. Es busca que l'alumne pugui "utilitzar els coneixements i habilitats" en la seva mesura, adaptant el "context i situacions" per fer-ho possible.
 
-### Exemples d'aplicació per etapa
+## Exemples d'aplicació per etapa
 
 *   **Primària:**
     *   **Context:** Projecte sobre la cura del medi ambient.
@@ -52,14 +52,14 @@ L'adaptació curricular, entesa des de la perspectiva competencial, implica ajus
     *   **Context:** Mòdul de projecte de recerca o de síntesi sobre problemàtiques globals.
     *   **Adaptació:** Un alumne amb altes capacitats o interès específic pot dissenyar un projecte de recerca sobre la gestió de residus electrònics (piles) a la seva localitat, analitzant la legislació vigent, els punts de recollida, l'impacte ambiental dels seus components tòxics i proposant millores en el sistema. Això implica una integració complexa de coneixements (científics, socials, legals), una alta autonomia i la resolució d'un problema real amb una dimensió social clara.
 
-### Indicadors d'èxit
+## Indicadors d'èxit
 *   L'alumnat demostra la capacitat d'utilitzar coneixements i habilitats en diferents contextos per resoldre problemes.
 *   L'alumnat mostra una comprensió funcional i significativa dels continguts, més enllà de la memorització.
 *   L'alumnat és capaç de reflexionar i discernir en situacions que requereixen la intervenció de diversos sabers.
 *   L'alumnat desenvolupa una major autonomia en el seu procés d'aprenentatge i en la presa de decisions.
 *   Reducció de les barreres d'aprenentatge per a l'alumnat divers, permetent-los participar activament.
 
-### Errors comuns
+## Errors comuns
 1.  **Confondre adaptació amb reducció de continguts sense funcionalitat:** L'error és eliminar continguts sense assegurar que els que queden siguin significatius i permetin el desenvolupament de les competències. L'objectiu és la "funcionalitat dels aprenentatges" i la "resolució de problemes", no simplement la simplificació per la simplificació.
 2.  **No contextualitzar els aprenentatges:** Presentar els coneixements de forma aïllada, sense vincular-los a "contextos i situacions" reals o simulades. Això impedeix la "transversalitat dels aprenentatges" i la capacitat de "resoldre problemes" que defineix una competència.
 3.  **No fomentar l'autonomia i la reflexió:** Limitar l'adaptació a un suport excessiu que impedeix a l'alumne "comprendre, reflexionar i discernir". L'adaptació ha de ser un pont cap a una major autonomia personal en el procés d'aprenentatge.

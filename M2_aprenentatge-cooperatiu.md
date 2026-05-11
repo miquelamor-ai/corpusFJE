@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-18T15:30:23
 ---
 
-### 1. DESCRIPCIÓ I FONAMENT
+## Descripció i fonament
 
 L'Aprenentatge Cooperatiu (AC) és una estratègia didàctica que va més enllà del simple "treball en grup". Es defineix com l'ús d'equips reduïts d'alumnes (generalment entre 3 i 5 membres) per maximitzar la interacció entre ells amb la finalitat d'optimitzar l'aprenentatge de tots. No es tracta només d'un mètode, sinó d'un contingut curricular en si mateix, ja que ensenya habilitats socials imprescindibles en una societat cada cop més interdependent.
 
@@ -20,7 +20,7 @@ Els principis fonamentals de l'Aprenentatge Cooperatiu són:
 
 L'AC es fonamenta en la teoria del conflicte sociocognitiu, on l'aprenentatge es produeix pel desequilibri cognitiu que sorgeix en contactar amb punts de vista diferents, integrar-los i reestructurar els propis esquemes de coneixement. Aquesta metodologia és especialment potent en entorns de diversitat, ja que promou la interacció social com a font d'aprenentatge, valora la diversitat sociocultural com a potencial educatiu i fomenta valors com el respecte i la responsabilitat.
 
-### 2. QUAN I PER A QUI ÉS ÚTIL
+## Quan i per a qui és útil
 
 L'Aprenentatge Cooperatiu és una estratègia extremadament útil i versàtil, aplicable a totes les etapes educatives (Infantil, Primària, ESO, Batxillerat, FP) i per a tot tipus d'alumnat.
 
@@ -33,7 +33,7 @@ L'Aprenentatge Cooperatiu és una estratègia extremadament útil i versàtil, a
 **Condicions d'èxit:**
 Perquè l'AC sigui efectiu, cal que els equips siguin heterogenis (gènere, motivació, rendiment, cultura), que el docent sigui un facilitador i orientador, i que les tasques estiguin molt ben estructurades per garantir la interdependència positiva i la responsabilitat individual.
 
-### 3. RECURSOS NECESSARIS
+## Recursos necessaris
 
 La implementació de l'Aprenentatge Cooperatiu requereix una planificació acurada i la disposició de certs recursos:
 
@@ -54,7 +54,7 @@ La implementació de l'Aprenentatge Cooperatiu requereix una planificació acura
     *   Gestionar la diversitat dins dels grups, proporcionant bastides i adaptacions quan sigui necessari.
     *   Avaluar de manera individual i grupal.
 
-### 4. COM IMPLEMENTAR
+## Com implementar
 
 La implementació de l'Aprenentatge Cooperatiu pot ser gradual, començant amb estructures simples i avançant cap a tècniques més complexes.
 
@@ -87,7 +87,7 @@ Són macroactivitats que es seqüencien al llarg de diverses sessions de classe.
 *   **Bastides de suport (Scaffolding)**: El docent o els mateixos companys poden proporcionar ajuts temporals (bastides) per a la comprensió, la resolució de la tasca o la reflexió, especialment per a alumnat de L2 (adaptant el llenguatge, usant imatges, facilitant la participació).
 *   **Aprenentatge entre iguals**: L'AC fomenta la tutoria entre iguals de manera natural, on els alumnes amb més competència poden ajudar els seus companys, consolidant el seu propi aprenentatge.
 
-### 5. EXEMPLES D'APLICACIÓ PER ETAPA
+## Exemples d'aplicació per etapa
 
 *   **Educació Primària: Lectura Cooperativa (Cicle Mitjà)**
     *   **Activitat**: Lectura i comprensió d'un text complex (p. ex., un article de diari sobre un tema científic).
@@ -104,7 +104,7 @@ Són macroactivitats que es seqüencien al llarg de diverses sessions de classe.
     *   **Implementació**: Els alumnes es formen en grups cooperatius per abordar un tema interdisciplinari com "La societat de la informació: de Gutenberg a l'era virtual". Cada grup ha d'incloure activitats de lectura (d'un text o imatge/audiovisual), escriptura o producció audiovisual, i expressió oral. Es fomenta l'ús d'eines TIC. Per exemple, un grup podria investigar l'impacte de la impremta, un altre el de la ràdio, un altre el de la televisió i un altre el d'internet. Després, cada "expert" comparteix la seva investigació amb el grup base per crear un producte final (p. ex., un podcast, un vídeo, un article multimèdia) que sintetitzi les diferents formes comunicatives.
     *   **Objectiu**: Integrar continguts de diverses àrees, fomentar la recerca, la producció multimèdia, la comunicació oral i escrita, i el treball col·laboratiu en un projecte complex.
 
-### 6. INDICADORS D'ÈXIT
+## Indicadors d'èxit
 
 Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inclouen:
 
@@ -116,7 +116,7 @@ Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inc
 *   **Autoreflexió efectiva**: Els grups són capaços de reflexionar sobre el seu procés de treball, identificar punts forts i febles, i proposar millores.
 *   **Satisfacció i motivació**: Augment de la satisfacció i l'autoestima dels alumnes en relació amb l'aprenentatge i la interacció amb els companys.
 
-### 7. ERRORS COMUNS
+## Errors comuns
 
 És crucial evitar certs errors per garantir l'efectivitat de l'Aprenentatge Cooperatiu:
 
