@@ -12,15 +12,15 @@ variables_configurables: []
 # al perfil de l'alumne al sistema.
 ---
 
-### Descripció de la situació
+## Descripció de la situació
 L'alumnat en situació de vulnerabilitat socioeducativa, en el context d'origen estranger o nouvingut, es caracteritza per la seva diversitat de bagatge personal i escolar. Cada alumne arriba amb una història única, que inclou referents culturals, llengua familiar i cultura escolar de procedència diferents de les de la societat d'acollida. Aquesta diversitat, si bé és una riquesa, pot generar una situació de vulnerabilitat quan no es gestiona de manera inclusiva, posant en risc l'èxit acadèmic i la integració plena. La vulnerabilitat sorgeix de la necessitat d'adaptar-se a un nou sistema educatiu, una nova llengua i un nou entorn cultural i social, sovint amb llacunes en els coneixements previs o en la comprensió de les rutines i procediments didàctics locals. L'objectiu és transformar aquest repte en una oportunitat, proporcionant els suports necessaris per aprofitar el seu bagatge i garantir que l'experiència d'incorporació no esdevingui un fracàs personal que afecti el seu projecte de vida. La prevalença d'aquest perfil varia segons la composició demogràfica dels centres i territoris, sent una realitat constant i creixent en el sistema educatiu català.
 
-### Manifestació per etapa educativa
+## Manifestació per etapa educativa
 *   **Infantil/Primària:** Les dificultats es manifesten principalment en l'adquisició de la llengua vehicular (L2) a nivell comunicatiu bàsic. Poden mostrar-se reticents a participar en activitats grupals per manca de comprensió o expressió, i tenir dificultats per seguir rutines d'aula que els resulten estranyes. Les llacunes en coneixements previs poden ser menys evidents en àrees bàsiques, però poden aparèixer en conceptes relacionats amb l'entorn cultural local (festes, tradicions).
 *   **ESO:** Un cop assolit un cert nivell de domini comunicatiu de la llengua, les dificultats es desplacen cap a la llengua acadèmica i els coneixements curriculars amb una forta càrrega cultural. Poden trobar-se amb llacunes significatives en assignatures com història, geografia o ciències socials, ja que els referents culturals i l'enfocament dels continguts poden ser molt diferents. Les rutines d'aula i els procediments didàctics més complexos (treballs en grup, exposicions orals, anàlisi crítica) també poden ser un repte.
 *   **Batxillerat/FP:** En aquesta etapa, la vulnerabilitat es pot accentuar per la major exigència acadèmica i la necessitat d'un domini elevat de la llengua acadèmica per a l'abstracció i el raonament complex. Les llacunes culturals i de coneixements previs poden ser un obstacle important per a la comprensió profunda de temes especialitzats. La pressió per obtenir bons resultats per a l'accés a estudis superiors o al món laboral pot generar frustració si els suports no són suficients o no s'adapten a les seves necessitats específiques.
 
-### Barreres d'aprenentatge
+## Barreres d'aprenentatge
 *   **Lingüístic:** Dificultat en l'adquisició i domini de la llengua vehicular (L2), tant a nivell comunicatiu com, especialment, acadèmic. La llengua modula la realitat, i les diferències semàntiques entre la L1 i la L2 poden dificultar la comprensió de conceptes.
 *   **Cognitiu:** Llacunes en els coneixements previs, especialment en aquelles àrees o matèries on l'enfocament cultural de la societat d'acollida és molt diferent (ex: història, geografia). La manca de referents culturals pot impedir la construcció de nous aprenentatges.
 *   **Emocional:** Risc de viure la incorporació com una experiència de fracàs personal, que pot afectar la motivació, l'autoestima i el projecte de vida. Sentiments d'aïllament o incomprensió.
@@ -28,20 +28,20 @@ L'alumnat en situació de vulnerabilitat socioeducativa, en el context d'origen 
 *   **Sensorial:** No s'identifiquen barreres sensorials específiques associades directament a aquest perfil en els documents font.
 *   **Curricular:** Dificultat per accedir al currículum ordinari a causa de les barreres lingüístiques i la manca de referents culturals. El currículum pot no incorporar elements de la cultura d'origen que facilitarien la connexió amb els nous aprenentatges.
 
-### Necessitats prioritàries
+## Necessitats prioritàries
 1.  **Suport lingüístic continuat:** No només per a l'adquisició de la llengua comunicativa, sinó també per al domini de la llengua acadèmica, crucial per a totes les àrees.
 2.  **Acompanyament cultural i curricular:** Ajuda per superar les llacunes de coneixements previs i per comprendre l'enfocament cultural del currículum d'acollida.
 3.  **Resposta individualitzada:** Atenció a la situació personal, els valors culturals, la construcció de les identitats i els processos d'adquisició de llengües, sempre en el context social i escolar.
 4.  **Pla d'acollida integral:** Un pla sistemàtic que inclogui atenció psicoeducativa per facilitar la integració i acollida al centre.
 5.  **Clima d'aula inclusiu:** Creació de condicions que afavoreixin els aprenentatges per a tot l'alumnat, incloent-hi la valoració de la diversitat.
 
-### Fortaleses a aprofitar
+## Fortaleses a aprofitar
 *   **Baggatge personal i cultural:** La història personal, els referents culturals, la llengua familiar i la cultura escolar de procedència són un recurs valuós que pot enriquir l'aula i el procés d'aprenentatge.
 *   **Perspectiva multilingüe:** El coneixement de diverses llengües permet perspectives semàntiques diferents que poden ajudar a clarificar i enriquir conceptes nous o a donar una nova perspectiva a conceptes antics.
 *   **Motivació i voluntat de progressar:** Molts alumnes i les seves famílies tenen una gran expectativa i voluntat de progressar, la qual cosa és un motor potent per a l'aprenentatge.
 *   **Resiliència:** L'experiència de migració i adaptació sovint desenvolupa una gran capacitat de resiliència i adaptació a nous entorns.
 
-### Senyals identificadors a l'aula
+## Senyals identificadors a l'aula
 *   Dificultats persistents en la comprensió de les explicacions o instruccions, fins i tot després d'haver adquirit un nivell comunicatiu bàsic de la L2.
 *   Baix rendiment en àrees amb alt contingut cultural (història, geografia, ciències socials) que no es correspon amb el seu rendiment en àrees menys dependents del context cultural (matemàtiques).
 *   Desconeixement o incomprensió de rutines d'aula, normes implícites o procediments didàctics habituals (ex: com fer un treball en grup, què s'espera en una exposició oral).
@@ -49,7 +49,7 @@ L'alumnat en situació de vulnerabilitat socioeducativa, en el context d'origen 
 *   Aïllament social o dificultat per establir relacions amb els companys.
 *   Frustració o desmotivació davant les dificultats d'aprenentatge o integració.
 
-### Perfils associats i comorbiditats
+## Perfils associats i comorbiditats
 Aquest perfil no es defineix per comorbiditats en el sentit clínic, sinó per la seva situació d'origen. No obstant això, la vulnerabilitat socioeducativa pot coexistir amb, o exacerbar, altres dificultats d'aprenentatge o necessitats educatives específiques que qualsevol alumne pot presentar. Per exemple, un alumne nouvingut pot tenir també dislèxia o TDAH, i la barrera lingüística i cultural pot fer més complexa la detecció i l'abordatge d'aquestes altres necessitats. La manca de suports adequats pot generar un risc més elevat d'abandonament escolar o de fracàs acadèmic.
 
 ## Principis d'actuació

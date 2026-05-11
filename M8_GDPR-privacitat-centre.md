@@ -9,13 +9,13 @@ generat_at: 2026-03-21T20:12:46
 
 # GDPR i Privacitat al Centre
 
-### Marc normatiu i abast
+## Marc normatiu i abast
 La protecció de dades personals al centre educatiu es regeix principalment per dues normatives clau: el **Reglament (UE) 2016/679 del Parlament Europeu i del Consell, de 27 d'abril de 2016, relatiu a la protecció de les persones físiques en el que respecta al tractament de dades personals i a la lliure circulació d'aquestes dades (Reglament General de Protecció de Dades o RGPD)** i la **Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD)**. Aquestes normes s'apliquen a qualsevol tractament de dades personals que realitzi el centre, ja siguin d'alumnes, famílies, docents o personal d'administració i serveis. L'objectiu és garantir el dret fonamental a la protecció de dades, assegurant la privacitat i la seguretat de la informació.
 
-### Vigència i actualitzacions
+## Vigència i actualitzacions
 El RGPD és d'aplicació directa a tots els estats membres de la Unió Europea des del 25 de maig de 2018. La LOPDGDD va entrar en vigor el 7 de desembre de 2018 per complementar i adaptar el RGPD a l'ordenament jurídic espanyol. L'Agencia Española de Protección de Datos (AEPD) és l'autoritat de control competent a Espanya i emet contínuament guies, criteris jurídics i resolucions que interpreten i actualitzen l'aplicació d'aquesta normativa, especialment en nous contextos com l'ús de la intel·ligència artificial o la gestió de dades de menors.
 
-### Contingut clau
+## Contingut clau
 
 A continuació, es presenten cites textuals dels articles més rellevants per a la pràctica educativa, extretes principalment del RGPD i la LOPDGDD:
 
@@ -71,7 +71,7 @@ A continuació, es presenten cites textuals dels articles més rellevants per a 
 *   **Tractament de dades de contacte i de càrrec (LOPDGDD, Art. 17):**
     *   "El tractament de les dades de contacte de persones físiques i de les dades relatives a empresaris individuals i professionals liberals, per al manteniment de relacions de qualsevol índole amb la persona jurídica en la qual presten els seus serveis o a la qual pertanyen, serà lícit en els termes establerts en l'article 6.1.f) del Reglament (UE) 2016/679."
 
-### Obligacions concretes
+## Obligacions concretes
 
 | Obligació                                  | Article normatiu clau                                     | Responsable principal                                    |
 | :----------------------------------------- | :-------------------------------------------------------- | :------------------------------------------------------- |
@@ -86,7 +86,7 @@ A continuació, es presenten cites textuals dels articles més rellevants per a 
 | Garantir la privacitat des del disseny i per defecte | RGPD, Art. 25                                             | Direcció del centre / Responsable TIC / DPD              |
 | Minimitzar la recollida i conservació de dades | RGPD, Art. 5.1.c, 5.1.e                                   | Direcció del centre / Docents                            |
 
-### Drets que genera
+## Drets que genera
 
 La normativa de protecció de dades confereix als interessats (alumnes, famílies, docents) una sèrie de drets fonamentals per controlar la seva informació personal:
 
@@ -97,7 +97,7 @@ La normativa de protecció de dades confereix als interessats (alumnes, famílie
 *   **Dret a la portabilitat de les dades (RGPD, Art. 20):** Permet rebre les dades personals en un format estructurat, d'ús comú i lectura mecànica, i transmetre-les a un altre responsable del tractament.
 *   **Dret d'oposició (RGPD, Art. 21):** Permet oposar-se al tractament de les dades personals per motius relacionats amb la seva situació particular, especialment en tractaments basats en interès públic o legítim.
 
-### Relació amb altres normes
+## Relació amb altres normes
 
 El RGPD és el marc legal principal a nivell europeu, de caràcter general i d'aplicació directa. La LOPDGDD el complementa i el desenvolupa a l'Estat espanyol, establint especificitats com l'edat de consentiment dels menors (14 anys) o l'obligatorietat de designar un DPD per als centres docents.
 
@@ -108,13 +108,13 @@ A més, l'AEPD, com a autoritat de control, emet constantment:
 
 Totes aquestes disposicions formen un corpus normatiu complex que el centre ha de conèixer i aplicar.
 
-### Implicacions per a la pràctica diària
+## Implicacions per a la pràctica diària
 
 1.  **Ús d'imatges d'alumnes en activitats escolars:** Per publicar fotografies o vídeos d'alumnes en la web del centre, xarxes socials o materials de difusió, el centre necessita el consentiment explícit dels pares o tutors legals (si són menors de 14 anys) o del propi alumne (si és major de 14 anys). Aquest consentiment ha de ser informat, específic per a cada finalitat (no és el mateix una foto per a la revista interna que per a una campanya publicitària) i s'ha de poder retirar en qualsevol moment. Si la imatge és d'un acte públic i la persona és identificable, cal ponderar el dret a la protecció de dades amb la llibertat d'informació, però sempre amb cautela i evitant la difusió massiva o amb finalitats comercials sense consentiment.
 2.  **Ús de plataformes digitals externes (Google Workspace, Microsoft 365, etc.):** Abans d'implementar qualsevol eina o plataforma digital que impliqui el tractament de dades personals d'alumnes o docents (especialment si inclou dades de salut o necessitats educatives especials), el centre ha de verificar que el proveïdor compleix amb el RGPD. Això implica signar un contracte d'encarregat del tractament, assegurar que les dades no es transfereixen fora de l'EEE sense garanties adequades, i que el proveïdor no utilitza les dades per a finalitats pròpies. En casos de "Google Workspace for Education", l'AEPD ha emès consultes jurídiques que alerten sobre la complexitat i la necessitat d'analitzar detalladament els termes i condicions per garantir la privacitat dels menors.
 3.  **Gestió de dades de salut o necessitats educatives especials (NEE):** Aquestes són categories especials de dades que requereixen una protecció reforçada. El centre només pot tractar-les si hi ha una base jurídica explícita (per exemple, consentiment explícit, interès públic important, o per a la gestió de serveis sanitaris o socials). S'ha de garantir la minimització de dades, l'accés restringit només al personal autoritzat i la conservació durant el temps estrictament necessari. La comunicació d'aquestes dades a tercers (per exemple, serveis externs) requereix consentiment explícit o una obligació legal clara, i sempre amb les màximes garanties de seguretat.
 
-### Confusions habituals
+## Confusions habituals
 
 *   **El consentiment és l'única base legal:** Molts docents creuen que sempre es necessita el consentiment per tractar dades. No obstant això, el tractament pot ser lícit per altres bases, com una obligació legal (p. ex., dades per a la matrícula), l'execució d'un contracte (p. ex., dades del personal) o l'interès públic (p. ex., dades per a la funció educativa del centre). Identificar la base legal correcta és fonamental per evitar sol·licitar consentiments innecessaris o insuficients.
 *   **El dret a l'oblit implica eliminar qualsevol informació:** El dret de supressió no és absolut. Hi ha excepcions, com quan la informació és necessària per a l'exercici de la llibertat d'expressió i informació, per al compliment d'una obligació legal, o per a fins d'arxiu en interès públic. Per exemple, una imatge d'un alumne participant en un acte públic rellevant pot no ser suprimible si preval l'interès informatiu, tot i que sempre s'ha de ponderar amb la privacitat.

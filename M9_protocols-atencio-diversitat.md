@@ -9,7 +9,7 @@ generat_at: 2026-03-18T11:56:02
 
 # Protocols d'atenció a la diversitat
 
-### Marc normatiu i abast
+## Marc normatiu i abast
 El marc normatiu que regeix els protocols d'atenció a la diversitat a Catalunya és ampli i es fonamenta en principis internacionals i legislació pròpia. Aquest conjunt de normes busca garantir un sistema educatiu inclusiu i equitatiu per a tot l'alumnat.
 
 A nivell internacional, els principis bàsics es troben en:
@@ -31,12 +31,12 @@ A nivell català, la legislació clau inclou:
 
 Aquest corpus normatiu abasta des de la definició de la relació centre-família fins a la gestió de situacions complexes amb menors, passant per la formació docent i els principis fonamentals de la inclusió.
 
-### Vigència i actualitzacions
+## Vigència i actualitzacions
 *   **Protocol d'actuació amb menors de catorze anys en situacions de conflicte o comissió d'una infracció penal:** Data d'actualització: 09.11.2023.
 *   **Orientacions per a l’elaboració de la carta de compromís:** Juny de 2015.
 *   Les lleis i decrets tenen la seva data de publicació original, i qualsevol modificació posterior s'integraria en el text consolidat.
 
-### Contingut clau
+## Contingut clau
 *   **Sobre la Carta de Compromís Educatiu (CCE):**
     *   **Llei 12/2009, del 10 de juliol, d’educació, article 20:** "la carta de compromís educatiu, en el marc del projecte educatiu del centre, com el document que expressa els objectius necessaris per assolir un entorn de convivència i respecte pel desenvolupament de les activitats educatives i els compromisos que cada família i el centre s’avenen a adquirir en relació amb els principis que la inspiren."
     *   **Decret 102/2010, de 3 d’agost, d’autonomia dels centres educatius, article 7.4:** "la carta de compromís educatiu ha de fer referència com a mínim al seguiment de l’evolució dels alumnes. En aquest sentit, i amb la finalitat que la carta de compromís pugui ser una eina més efectiva, és convenient afegir als continguts comuns de la carta altres continguts específics addicionals per al seguiment de cada alumne o alumna. Per això, els centres educatius, d’acord amb cada família, poden completar cada carta de compromís amb una addenda de continguts específics addicionals, on un cop detectades les necessitats de cada alumne o alumna, s’especifiquen les mesures que es duran a terme per millorar el seu rendiment escolar i la seva integració."
@@ -52,7 +52,7 @@ Aquest corpus normatiu abasta des de la definició de la relació centre-famíli
 *   **Sobre la coordinació interdepartamental:**
     *   **Protocol d'actuació amb menors de catorze anys en situacions de conflicte o comissió d'una infracció penal:** "Aquest protocol estableix els criteris de col·laboració i coordinació entre el Departament d’Educació i el Departament de Drets Socials, en l’exercici de la funció d’intervenció educativa i protectora dels infants i adolescents menors de 14 anys que han estat denunciats per haver comès una infracció penal."
 
-### Obligacions concretes
+## Obligacions concretes
 | Obligació | Article normatiu | Responsable(s) |
 | :-------- | :--------------- | :------------- |
 | Formalitzar la Carta de Compromís Educatiu (CCE) en la matrícula. | Art. 7 Decret 102/2010 | Centre educatiu i família |
@@ -65,7 +65,7 @@ Aquest corpus normatiu abasta des de la definició de la relació centre-famíli
 | Recollir les necessitats formatives del professorat i dels centres. | Plans de Formació de Zona | Comissions del Pla de Formació de Zona |
 | Col·laborar i coordinar-se en l'exercici de la funció d'intervenció educativa i protectora amb menors de 14 anys denunciats per infracció penal. | Protocol d'actuació amb menors de 14 anys | Departament d'Educació i Departament de Drets Socials |
 
-### Drets que genera
+## Drets que genera
 *   **Per a les famílies:**
     *   Dret a rebre informació sobre el projecte educatiu, el caràcter propi del centre, els serveis, la carta de compromís educatiu, les normes d'organització i funcionament, les activitats complementàries i extraescolars, la programació general anual i les beques i ajuts (Art. 25.1 Llei 12/2009).
     *   Dret a rebre informació sobre l'evolució educativa dels seus fills i a rebre assessorament i atenció adequada per part del centre i el professorat, especialment mitjançant la tutoria (Art. 25.2 Llei 12/2009).
@@ -77,19 +77,19 @@ Aquest corpus normatiu abasta des de la definició de la relació centre-famíli
     *   Dret a rebre una atenció educativa inclusiva que tingui en compte la seva diversitat i li ofereixi expectatives d'èxit en totes les etapes educatives (Preàmbul Decret 150/2017).
     *   Dret a la protecció en cas de mal ús de la potestat parental o de situacions de risc (Art. 37.3 Llei 14/2010).
 
-### Relació amb altres normes
+## Relació amb altres normes
 La legislació catalana en matèria educativa i de protecció de la infància (Llei 12/2009, Llei 14/2010, Llei 18/2003, Decret 150/2017) es fonamenta i desenvolupa els principis i drets establerts en les declaracions i convencions internacionals de drets humans i de la infància. Aquestes normes superiors proporcionen el marc ètic i legal que ha de guiar tota la pràctica educativa.
 
 La Carta de Compromís Educatiu és una eina concreta que emana de la Llei d'Educació i el Decret d'Autonomia de Centres, buscant operativitzar la col·laboració entre famílies i centres. El Decret 150/2017 sobre atenció inclusiva és la norma cabdal que articula com s'ha de materialitzar l'atenció a la diversitat en el sistema educatiu català, integrant els principis de no discriminació i equitat.
 
 Els Plans de Formació de Zona (PFZ) són un instrument de l'administració per assegurar que el professorat tingui les competències necessàries per implementar aquesta normativa, mentre que el Protocol d'actuació amb menors de catorze anys és un exemple de coordinació interdepartamental per abordar situacions complexes que requereixen una intervenció més enllà de l'àmbit estrictament educatiu. Totes aquestes normes formen un ecosistema legal interdependent que busca garantir el dret a una educació de qualitat per a tots els infants i adolescents.
 
-### Implicacions per a la pràctica diària
+## Implicacions per a la pràctica diària
 1.  **Disseny curricular i d'aula inclusiu:** El Decret 150/2017 exigeix que els docents planifiquin les seves programacions, activitats i avaluacions tenint en compte la diversitat de l'alumnat des del disseny inicial. Això implica oferir múltiples vies d'accés al coneixement, de processament de la informació i d'expressió de l'aprenentatge, per tal que cada alumne pugui trobar el seu camí cap a l'èxit. No es tracta de fer "adaptacions" a posteriori, sinó de crear entorns d'aprenentatge flexibles i accessibles per a tothom des del principi.
 2.  **Comunicació i col·laboració activa amb les famílies:** La Llei d'Educació i el Decret d'Autonomia de Centres fan de la Carta de Compromís Educatiu (CCE) i la tutoria eines essencials. Els docents han de mantenir una comunicació fluida i transparent amb les famílies, informant-les sobre el projecte educatiu, el progrés dels seus fills i qualsevol necessitat detectada. En cas de necessitats educatives específiques, cal co-dissenyar addendes a la CCE amb mesures de suport concretes, buscant la corresponsabilitat i el compromís mutu per al benestar i l'èxit educatiu de l'alumne.
 3.  **Formació contínua i actualització professional:** Els Plans de Formació de Zona (PFZ) són un recurs fonamental per als docents. La normativa implica una actualització constant en metodologies inclusives, atenció a la diversitat (cultural, funcional, etc.) i gestió d'aula. Els docents han de participar activament en la detecció de necessitats formatives i aprofitar les oportunitats que ofereixen els PFZ per millorar les seves competències, garantint que la seva pràctica pedagògica estigui alineada amb els principis d'equitat i inclusió que la legislació promou.
 
-### Confusions habituals
+## Confusions habituals
 1.  **La Carta de Compromís Educatiu (CCE) com a eina punitiva:** Sovint es pot malinterpretar la CCE com un document per assenyalar o sancionar les famílies que no s'impliquen prou. No obstant això, el seu propòsit, segons la Llei 12/2009, és fomentar la cooperació, la corresponsabilitat i establir objectius de convivència i respecte. És una eina de suport i seguiment, no de càstig, que busca construir ponts entre el centre i la llar per al benefici de l'alumne.
 2.  **La inclusió com a "fer el mateix per a tothom" sense adaptacions:** Una confusió comuna és pensar que la inclusió significa aplicar la mateixa metodologia o expectatives a tot l'alumnat, sense fer distincions. El Decret 150/2017, però, emfatitza la necessitat d'entorns educatius que tinguin en compte la *diversitat* de les persones i que ofereixin *expectatives d'èxit a tots els alumnes*. Això implica flexibilitat, personalització, i l'ús de suports universals i específics, reconeixent que "igualtat" no significa "uniformitat", sinó "equitat" en les oportunitats.
 3.  **La responsabilitat de l'atenció a la diversitat recau només en els especialistes:** Es pot pensar erròniament que l'atenció a l'alumnat amb necessitats educatives específiques o amb particularitats culturals és exclusivament feina del personal de suport (EAP, vetlladors, educadors socials). La normativa, especialment el Decret 150/2017, deixa clar que l'atenció educativa inclusiva és responsabilitat de *tot* el professorat i de *tot* el centre, des de la direcció fins a cada docent d'aula, que ha de dissenyar la seva pràctica des d'una perspectiva inclusiva i col·laborar amb els especialistes.

@@ -7,13 +7,13 @@ review_status: esborrany
 generat_at: 2026-03-21T07:17:51
 ---
 
-### Descripció i propòsit
+## Descripció i propòsit
 L'accessibilitat digital en l'àmbit educatiu fa referència a la creació i ús de materials i entorns digitals que puguin ser percebuts, entesos, navegats i interactuats per qualsevol alumne, independentment de les seves capacitats o de les tecnologies d'assistència que utilitzi. El propòsit principal és assegurar que la tecnologia, que ja és una eina "necessària en gairebé qualsevol treball" i que permet "accés a recursos amplis" i "instrucció individualitzada", serveixi realment per a tots. Això implica dissenyar des del principi pensant en la diversitat, per tal que cap barrera digital impedeixi l'aprenentatge o la participació. Els documents font subratllen que la tecnologia permet als estudiants "accedir a la informació sense sortir de la seva aula", "pensar activament en la informació", "prendre decisions", i "aprendre a un ritme acomodat al seu desenvolupament", la qual cosa reforça la necessitat d'una accessibilitat intrínseca per fer realitat aquests beneficis per a tothom.
 
-### Freqüència i moment d'ús
+## Freqüència i moment d'ús
 La consideració de l'accessibilitat digital ha de ser constant i transversal en tota pràctica educativa que impliqui l'ús de tecnologia. No és una tasca que es realitzi un cop i s'oblidi, sinó un procés continu de revisió i millora. S'ha d'aplicar des de la fase de disseny de qualsevol material o activitat digital (presentacions, documents, vídeos, plataformes d'aprenentatge) i en la selecció de recursos externs. Els documents font destaquen que els "canvis vertiginosos" en el món digital fan que aquest tema requereixi "avaluació i revisió amb certa regularitat", cosa que s'aplica directament a la revisió de l'accessibilitat dels recursos digitals.
 
-### Components i estructura
+## Components i estructura
 Els documents proporcionats no detallen els components específics, estàndards (com WCAG) o eines (com subtítols, lectors de pantalla) relacionats amb l'accessibilitat digital. No obstant això, en un context general d'accessibilitat digital, els components típics inclouen:
 -   **Pautes d'Accessibilitat per al Contingut Web (WCAG):** Un conjunt de recomanacions tècniques per fer el contingut web més accessible.
 -   **Subtítols i transcripcions:** Per a continguts audiovisuals, assegurant l'accés a la informació per a persones amb discapacitat auditiva o per a entorns sorollosos.
@@ -22,7 +22,7 @@ Els documents proporcionats no detallen els components específics, estàndards 
 -   **Contrast de color i mida de text:** Per assegurar la llegibilitat per a persones amb baixa visió.
 -   **Alternatives textuals per a imatges:** Descripcions de text per a imatges que no són purament decoratives.
 
-### Guia d'ús pas a pas
+## Guia d'ús pas a pas
 Els documents font no proporcionen una guia pas a pas sobre com implementar estàndards o eines d'accessibilitat digital. Tanmateix, basant-nos en la necessitat general d'integrar la tecnologia de manera efectiva i adaptada, una guia general per a la creació de materials digitals accessibles implicaria:
 1.  **Planificació:** Abans de crear qualsevol material, considerar la diversitat de l'alumnat i les seves possibles necessitats d'accés.
 2.  **Disseny:** Aplicar principis de disseny universal, com ara l'ús de contrastos adequats, textos clars, estructures lògiques i alternatives per a continguts multimèdia.
@@ -30,17 +30,17 @@ Els documents font no proporcionen una guia pas a pas sobre com implementar est�
 4.  **Revisió:** Comprovar l'accessibilitat del material abans de compartir-lo, utilitzant eines de verificació o provant amb tecnologies d'assistència si és possible.
 5.  **Formació:** Mantenir-se actualitzat sobre les millors pràctiques i les noves eines d'accessibilitat, ja que el "món digital" està en "canvis vertiginosos".
 
-### Exemples completats
+## Exemples completats
 Els documents proporcionats no inclouen exemples concrets d'aplicació d'eines o estàndards d'accessibilitat digital.
 
-### Adaptacions per context
+## Adaptacions per context
 L'enfocament de l'accessibilitat digital ha de ser flexible i adaptar-se a les "circumstàncies i context" de cada centre i alumne, tal com es menciona en els documents font respecte a l'ús general de dispositius.
 -   **NEE (Necessitats Educatives Especials):** Per a alumnes amb NEE, l'accessibilitat digital és fonamental. Això pot implicar versions simplificades de continguts, ús de pictogrames, adaptacions de la interfície o la integració de tecnologies d'assistència específiques.
 -   **Etapes educatives:** A Infantil i Primària, l'accessibilitat es pot centrar en la claredat visual, la interactivitat tàctil i la simplicitat de navegació. A ESO, Batxillerat i FP, es pot aprofundir en l'ús de lectors de pantalla, eines de dictat o programari d'ampliació.
 -   **Versió simplificada:** Crear versions amb menys elements visuals o text més senzill per a alumnes amb dificultats de processament o distraccions.
 -   **Versió digital:** Aprofitar les capacitats inherents de les eines digitals per oferir personalització (mida de text, colors, velocitat de reproducció d'àudio).
 
-### Com interpretar resultats
+## Com interpretar resultats
 Sense eines d'avaluació d'accessibilitat o dades concretes, els documents font no proporcionen informació sobre com interpretar resultats. No obstant això, en un context general, la interpretació dels resultats d'una avaluació d'accessibilitat implicaria identificar les barreres existents, prioritzar les millores necessàries i mesurar l'impacte de les adaptacions en la participació i l'aprenentatge de tot l'alumnat. L'èxit es mesuraria per la reducció de les barreres i l'augment de la inclusió.
 
 ## 3. Connexions amb altres documents del corpus

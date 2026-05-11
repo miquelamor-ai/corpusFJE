@@ -7,7 +7,7 @@ review_status: esborrany
 generat_at: 2026-03-18T15:33:50
 ---
 
-### Descripció i propòsit
+## Descripció i propòsit
 
 Els instruments d'avaluació són eines fonamentals per a la regulació de l'aprenentatge, tant per al docent com per a l'alumnat. La seva finalitat principal és anar més enllà de la simple qualificació, centrant-se en la funció formativa i formadora de l'avaluació. Permeten identificar el progrés en l'assoliment de les competències, detectar dificultats i errors, i orientar les decisions per a la millora contínua. L'objectiu és que l'alumnat esdevingui autònom en el seu procés d'aprenentatge, sent capaç d'autoregular-se.
 
@@ -20,7 +20,7 @@ Els instruments clau inclouen:
 *   **Proves d'avaluació (Autèntiques i Competencials)**: Més enllà dels exàmens memorístics, es refereixen a activitats que valoren l'aplicació integrada de coneixements en situacions complexes, contextualitzades i properes a la vida real. El seu propòsit és comprovar l'assoliment de les competències, però gestionades de manera formativa, ajuden l'alumnat a identificar dificultats i trobar camins per superar-les.
 *   **Bases d'orientació**: Són instruments que mostren una seqüència ordenada d'accions per resoldre un problema o realitzar una tasca. El seu propòsit és ajudar l'aprenent a planificar-se, a realitzar l'acció de forma autònoma i a autoavaluar-se, interioritzant el coneixement procedimental.
 
-### Freqüència i moment d'ús
+## Freqüència i moment d'ús
 
 L'avaluació ha de ser un procés continu i integrat en l'aprenentatge, no un esdeveniment puntual.
 
@@ -34,7 +34,7 @@ L'avaluació ha de ser un procés continu i integrat en l'aprenentatge, no un es
     *   **Rúbriques, llistes de comprovació, dianes, proves d'avaluació**: Per valorar l'assoliment dels objectius, qualificar i, sobretot, per a la reflexió final sobre el que s'ha après i el que cal millorar.
     *   **Carpetes d'aprenentatge**: Per a una reflexió global sobre el procés i els aprenentatges consolidats, i per a l'avaluació qualificadora final.
 
-### Components i estructura
+## Components i estructura
 
 Cada instrument té una estructura particular que facilita la seva funció:
 
@@ -71,7 +71,7 @@ Cada instrument té una estructura particular que facilita la seva funció:
     *   **Preguntes clau**: "En què he de pensar o què he de fer per realitzar amb èxit aquesta tasca?".
     *   **Coneixement a interioritzar**: Resumeix els punts essencials que l'alumne ha de retenir.
 
-### Guia d'ús pas a pas
+## Guia d'ús pas a pas
 
 Per utilitzar aquests instruments de manera efectiva, cal seguir un procés que impliqui l'alumnat i promogui la regulació:
 
@@ -93,7 +93,7 @@ Per utilitzar aquests instruments de manera efectiva, cal seguir un procés que 
 6.  **Adaptació**:
     *   Considera les necessitats específiques de l'alumnat (ex: nouvinguts, baixa competència lingüística) diversificant els canals d'expressió i adaptant els instruments (ex: PI amb criteris d'avaluació ajustats, més temps per a les proves).
 
-### Exemples completats
+## Exemples completats
 
 1.  **Modificació d'una prova d'avaluació (Cicle Inicial - Alimentació)**:
     *   **Activitat inicial (reproductiva)**: "Classifica els aliments següents: Iogurt – conill – pera – bledes – formatge – calamar arròs – pèsols – llenties – macarrons – salsitxes – pa en Aporten proteïnes, Aporten energia, Aporten vitamines."
@@ -114,7 +114,7 @@ Per utilitzar aquests instruments de manera efectiva, cal seguir un procés que 
         *   **Nivell 0**: Expressa dades nues, o obvia la qüestió, o obvia alguna o més dades rellevants.
     *   **Interpretació**: Aquesta rúbrica permet al docent avaluar el procés de resolució de problemes de l'alumne, no només el resultat. L'alumne pot utilitzar-la per entendre on ha fallat i com pot millorar en cada aspecte del procés.
 
-### Adaptacions per context
+## Adaptacions per context
 
 *   **Alumnat amb necessitats educatives específiques (NEE) o d'origen estranger amb baixa competència lingüística**:
     *   **Plans de Suport Individualitzat (PI)**: El PI és un acord d'avaluació que estableix criteris d'avaluació ajustats al nivell de l'alumne, podent ser superiors o inferiors als del seu nivell escolar. Pot incloure mesures de suport i, excepcionalment, que algunes matèries no s'avaluïn temporalment.
@@ -131,7 +131,7 @@ Per utilitzar aquests instruments de manera efectiva, cal seguir un procés que 
     *   Molts instruments (rúbriques, llistes, dianes) es poden digitalitzar per facilitar la gestió, el feedback i el seguiment. Les carpetes d'aprenentatge poden ser blogs o espais web.
     *   La simplificació implica reduir la quantitat d'informació, utilitzar un llenguatge més accessible i centrar-se en els aspectes més essencials.
 
-### Com interpretar resultats
+## Com interpretar resultats
 
 La interpretació dels resultats dels instruments d'avaluació ha d'estar orientada a la regulació de l'aprenentatge, tant per al docent com per a l'alumnat.
 
