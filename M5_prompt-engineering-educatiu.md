@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:17:30
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 
 Aquest document tracta sobre les estratègies de Prompt Engineering Educatiu, que es refereixen al disseny i l'estructuració de consignes (prompts) per interactuar eficaçment amb models d'intel·ligència artificial generativa en contextos educatius. L'objectiu és utilitzar aquestes eines per adaptar materials, generar activitats o donar suport a la pràctica docent i l'aprenentatge de l'alumnat.
@@ -78,37 +76,40 @@ Els documents font no llisten errors explícitament, però podem inferir-ne algu
 *   **Limitar l'ús de la tecnologia a funcions bàsiques i passives:** Els documents descriuen una evolució des de la simple consulta d'informació a la creació i publicació de continguts. Limitar l'ús a la recerca superficial o al consum passiu de contingut seria desaprofitar el potencial de la tecnologia per fomentar el pensament actiu i la producció.
 *   **No revisar i actualitzar les estratègies tecnològiques regularment:** Els documents adverteixen sobre els "canvis vertiginosos que s'estan produint en aquest món digital" i la necessitat de "ser avaluat i revisat amb certa regularitat". Un error seria mantenir estratègies obsoletes o no adaptar-se a les noves eines i reptes que sorgeixen.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **M5_Integracio_Tecnologica_Aula**: Aquest document estableix el marc general per a la integració de dispositius digitals a l'aula, un prerequisit per a qualsevol estratègia tecnopedagògica, incloent l'ús d'IA.
-*   **M5_Aules_Hibrides_i_Invertides**: Els documents font esmenten les aules invertides i els models híbrids com a alternatives interessants que desafien el model tradicional, connectant directament amb aquest tipus d'estratègies que poden ser potenciades per la IA.
-*   **M5_Competencia_Digital_Docent**: La implementació efectiva de qualsevol estratègia tecnopedagògica, i especialment l'ús de prompt engineering, requereix una sòlida competència digital per part del docent per dissenyar i avaluar les interaccions amb la IA.
-*   **M5_Etica_IA_Educacio**: L'ús de la IA i el prompt engineering en educació planteja qüestions ètiques importants que han de ser considerades en el disseny i la implementació de les estratègies.
+## 3. Connexions amb altres documents del corpus
 
-## 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
+- **`M5_arquitectura-proposit-rol-nivell.md`** — El prompt és la concreció tècnica de l'arquitectura P>R>N: codifica el rol IA, el propòsit d'aprenentatge i el nivell de delegació en una instrucció operativa
+- **`M5_rols-IA-educacio.md`** — Cada rol IA té un patró de prompt propi: la instrucció del Mentor Socràtic difereix estructuralment de la del Simulador o del Crític — el catàleg orienta el disseny
+- **`M5_disseny-instruccional-amb-IA.md`** — El prompt engineering és la competència operativa del disseny instruccional: el protocol de disseny del docent culmina en l'escriptura i l'auditoria del prompt
+- **`M5_nivells-delegacio-mihia.md`** — El nivell MIHIA N0–N5 determina la quantitat de guidança i restricció al prompt: N2 necessita molt andamiatge explícit; N4 necessita estructura mínima
+- **`M2_carrega-friccio-cognitiva.md`** — El disseny del prompt ha de gestionar la càrrega cognitiva: un prompt massa obert satura la memòria de treball; massa tancat elimina l'aprenentatge per descobriment
+- **`M5_AIA-TPACK-framework.md`** — El prompt engineering és la intersecció TK×PK×CK del TPACK: traduir una intenció pedagògica i de contingut en una instrucció computacional eficaç
+
+## 4. Detecció
+### Senyals del docent
     *   "Com puc aprofitar millor els dispositius digitals que ja tenim a l'aula per a tasques més enllà de la recerca bàsica?"
     *   "M'agradaria que els meus alumnes fossin més actius en la creació de continguts o en la presa de decisions amb eines digitals."
     *   "Busco maneres d'individualitzar l'aprenentatge amb l'ajuda de les eines digitals, adaptant-me als diferents ritmes."
     *   "Vull explorar models pedagògics innovadors com l'aula invertida o models híbrids, i necessito orientació sobre com la tecnologia pot ajudar."
     *   "Com puc assegurar que l'ús de la tecnologia a l'aula sigui complementari i no substitutori de l'aprenentatge tradicional, i que s'adapti al context del meu centre?"
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   Alumnes que mostren interès i habilitat natural amb dispositius digitals i busquen maneres més creatives d'aprendre o presentar treballs.
     *   Alumnes que necessiten un ritme d'aprenentatge més individualitzat o accés a la informació de manera diferent per comprendre millor els continguts.
     *   Alumnes que busquen eines per organitzar la informació, fer recerca avançada o crear continguts multimèdia.
-*   **Senyals de context:**
+### Senyals de context
     *   Disponibilitat de dispositius digitals i connexió a internet fiable a l'aula o al centre.
     *   Un centre que busca orientacions per a la "convivència" entre el món digital i analògic i vol potenciar la competència digital de la seva comunitat.
     *   Un moment on es volen explorar models pedagògics innovadors que integren la tecnologia de manera significativa.
-*   **Anti-senyals:**
+### Anti-senyals
     *   El docent busca una solució ràpida i sense esforç per delegar tasques pedagògiques complexes a la tecnologia sense una intencionalitat didàctica clara.
     *   El context del centre no permet l'accés a dispositius o internet de manera fiable, o hi ha una bretxa digital significativa entre l'alumnat.
     *   La proposta implica que la tecnologia substitueixi la interacció humana, el pensament crític o la creativitat sense un propòsit pedagògic clarament definit.
     *   El docent espera que la IA faci la feina de disseny pedagògic sense la seva supervisió o adaptació crítica.
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
-*   **Principi general:** La tecnologia digital és una eina complementària que pot potenciar l'aprenentatge actiu, individualitzat i la recerca, sempre que s'integri amb un propòsit pedagògic clar, adaptat al context i amb el docent com a guia crític.
+### Heurístiques
+**Principi general:** La tecnologia digital és una eina complementària que pot potenciar l'aprenentatge actiu, individualitzat i la recerca, sempre que s'integri amb un propòsit pedagògic clar, adaptat al context i amb el docent com a guia crític.
 
-*   **Heurístiques per a l'Agent DOCENT:**
+#### Heurístiques per al docent
     *   **Nom:** **Potenciador de Recerca Digital i Crítica**
         *   **Quan aplica:** Quan un docent expressa la necessitat d'ampliar els recursos d'informació per als seus alumnes o vol fomentar una recerca més autònoma i profunda, amb èmfasi en la validació de fonts.
         *   **Fonament:** Els documents destaquen que internet permet accedir a "recursos amplis per facilitar la recerca amb major facilitat que per mitjà de llibres i fonts escrites". Això no només augmenta la disponibilitat d'informació, sinó que també pot millorar l'interès i la passió dels estudiants, però requereix una guia per a la selecció crítica.
@@ -134,7 +135,7 @@ Els documents font no llisten errors explícitament, però podem inferir-ne algu
         *   **Fonament:** Els documents emfatitzen que les orientacions són una "ajuda, guia, i no un document normatiu, perquè cada centre, en funció de les seves circumstàncies i context, pugui adoptar les mesures necessàries que ajudin a la 'convivència' entre el món digital i analògic, ambdós complementaris i compatibles".
         *   **Exemple complet de raonament:** Una coordinadora pedagògica vol implementar una nova política d'ús de mòbils a l'aula, però vol evitar la polarització entre defensors i detractors de la tecnologia. L'agent podria raonar: "La coordinadora busca una política equilibrada d'ús de mòbils. Els documents subratllen la importància d'adaptar les mesures al context de cada centre i de promoure la 'convivència' entre el món digital i analògic. Podria recomanar a la coordinadora que, en lloc d'una prohibició o una llibertat total, es dissenyi una política que defineixi clarament els moments i propòsits pedagògics per als quals els mòbils són eines útils (per exemple, recerca ràpida, ús d'aplicacions educatives específiques) i quan no ho són (per exemple, durant explicacions magistrals o activitats que requereixen concentració sense distraccions). Això permetria aprofitar els beneficis de la tecnologia sense oblidar la importància de les interaccions presencials i el treball sense pantalles, adaptant-se a la realitat del centre."
 
-*   **Heurístiques per a l'Agent ALUMNE:**
+#### Heurístiques per a l'alumne
     *   **Nom:** **Explorador de Coneixement Digital Autònom**
         *   **Quan aplica:** Quan un alumne necessita trobar informació per a un treball, vol aprofundir en un tema que li interessa o necessita accedir a recursos complementaris.
         *   **Fonament:** Els documents indiquen que els estudiants "tenen accés a la informació sense sortir siquiera de su salón de clase" i poden "acceder a recursos amplis per facilitar la recerca amb major facilitat que per mitjà de llibres i fonts escrites".
@@ -149,13 +150,11 @@ Els documents font no llisten errors explícitament, però podem inferir-ne algu
         *   **Quan aplica:** Quan un alumne se sent desbordat pel ritme de la classe, necessita reforçar un concepte o, al contrari, vol avançar més ràpidament en un tema.
         *   **Fonament:** Els documents afirmen que els estudiants poden "aprendre a un ritme acomodado a su desarrollo" i accedir a "instrucción directa e individualizada".
         *   **Exemple complet de raonament:** Un alumne d'ESO té dificultats per entendre un concepte de física explicat a classe i se sent endarrerit, o un altre alumne vol aprofundir en un tema que li apassiona. L'agent podria raonar: "L'alumne necessita reforçar un concepte o aprofundir al seu ritme. Els documents indiquen que la tecnologia permet un aprenentatge individualitzat. Podria suggerir a l'alumne que busqui vídeos explicatius addicionals sobre el concepte de física en plataformes educatives, que faci exercicis interactius en línia que li proporcionin feedback immediat, o que revisi els materials de classe digitals tantes vegades com necessiti. Per a l'alumne que vol avançar, podria suggerir-li cursos en línia avançats o projectes de recerca personalitzats. Això li permetrà consolidar la comprensió o expandir el seu coneixement sense la pressió del ritme de la classe i adaptar l'aprenentatge a les seves necessitats i interessos específics."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Uso de las tecnologias en el aula. EDUCSI (1) | file://upload/Uso de las tecnologias en el aula. EDUCSI (1).pdf |
-| 2 | Documento pantallas ok | file://upload/Documento pantallas ok.pdf |
-
-*2 documents font · secció generada automàticament*
+- Mollick, E., & Mollick, L. (2023). *Assigning AI: Seven Approaches for Students, with Prompts*. SSRN. doi:10.2139/ssrn.4475995.
+- White, J. D., et al. (2023). A Prompt Pattern Catalog to Enhance Prompt Engineering with ChatGPT. *arXiv preprint* arXiv:2302.11382.
+- Wei, J., et al. (2022). Chain-of-Thought Prompting Elicits Reasoning in Large Language Models. *Advances in Neural Information Processing Systems, 35*.
+- Mishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. *Teachers College Record, 108*(6), 1017–1054.
+- Vendrell, M., & Johnston, S.-K. (2026). *Arquitectura Propòsit-Rol-Nivell — Decisions de disseny* (MAGINIA, document intern). Jesuïtes Educació.

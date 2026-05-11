@@ -140,7 +140,7 @@ La intersecció dels tres eixos (rang nadiu del propòsit, rang nadiu del rol, s
 | Augmentation (IA col·labora, potencia) | N2–N4 |
 | Agency (IA agent autònom dins paràmetres) | N4–N5 |
 
-## 3. Connexions
+## 3. Connexions amb altres documents del corpus
 
 - `M5_arquitectura-proposit-rol-nivell` — El nivell és el tercer eix de l'arquitectura P>R>N; aquí es troba la matriu completa i la jerarquia del sistema.
 - `M5_rols-IA-educacio` — Les 3 famílies de rols (procesual, mixt, productiu) determinen el rang nadiu de cada rol; els procesuals col·lapsen a N4.

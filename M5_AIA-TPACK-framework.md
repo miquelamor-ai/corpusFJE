@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:17:18
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Definició i principis
 Els documents proporcionats són informes interns de la Comissió Pedagògica Educsi (setembre de 2024) i no defineixen explícitament el marc TPACK (Technological Pedagogical Content Knowledge) ni la seva integració amb la Intel·ligència Artificial (AIA TPACK). Tanmateix, sí que estableixen un context fonamental i uns principis subjacents per entendre la necessitat d'una integració tecnològica reflexiva i adaptativa en l'educació, que són plenament rellevants per a qualsevol marc com el TPACK. Els principis que es desprenen dels textos giren al voltant de la presència ineludible i creixent dels dispositius digitals a l'aula, que és vista com un reflex natural de la societat actual. La institució educativa no pot ser una "illa" al marge d'aquesta realitat digital.
 
@@ -39,40 +37,42 @@ Els documents proporcionats són informes interns de la Comissió Pedagògica Ed
 ### Matissos i excepcions
 El marc d'integració tecnològica que es desprèn dels documents no és una recepta tancada, sinó una guia flexible. La seva aplicació sempre ha d'estar matisada per la realitat específica de cada centre educatiu, el seu context socioeconòmic, la maduresa digital del seu professorat i alumnat, i els recursos disponibles. No aplica de la mateixa manera en un entorn amb accés limitat a la connectivitat que en un altre amb infraestructures avançades. Els límits d'aquesta integració venen donats per la necessitat de mantenir un equilibri amb el món analògic, evitant la tecnolatria i assegurant que la tecnologia serveixi sempre a un propòsit pedagògic clar. L'èmfasi en la revisió constant implica que cap solució és permanent i que la flexibilitat és clau. La tensió amb altres marcs podria sorgir si es prioritzés la tecnologia per sobre de la pedagogia o el contingut, cosa que el TPACK precisament busca evitar en la seva conceptualització.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Estrategia_Aula_Invertida**: El marc esmenta les aules invertides com una alternativa interessant que la tecnologia facilita.
-*   **Estrategia_Aprenentatge_Híbrid**: Els documents fan referència als models educatius híbrids i en línia com a noves opcions que la tecnologia permet.
-*   **Perfil_Alumnat_Digital**: Aquest marc contextualitza la presència d'un alumnat immers en el món digital i les seves necessitats d'aprenentatge amb tecnologia.
-*   **Normativa_Ús_Dispositius_Digitals**: Els documents són el resultat d'un encàrrec per establir orientacions sobre l'ús de dispositius, la qual cosa podria derivar en normativa interna o estar influenciada per normativa externa.
-*   **Eina_Planificació_Didàctica_Digital**: El marc subratlla la necessitat d'integrar la tecnologia amb propòsit pedagògic, la qual cosa requereix eines de planificació.
+## 3. Connexions amb altres documents del corpus
 
-## 3. DETECCIÓ (Variables de Context)
--   **Senyals del docent:**
+- **`M5_disseny-instruccional-amb-IA.md`** — La seqüència de disseny del docent operacionalitza el TPACK: en cada pas el docent diagnostica el seu domini TK, PK i CK per integrar-los amb coherència
+- **`M5_arquitectura-proposit-rol-nivell.md`** — El sistema P>R>N demana un TPACK integrat: triar el propòsit i el rol IA requereix competència tecnopedagògica sobre el contingut que s'ensenya
+- **`M5_prompt-engineering-educatiu.md`** — El prompt engineering és la competència TK del TPACK aplicada: traduir una intenció pedagògica (PK) i de contingut (CK) en una instrucció computacional eficaç
+- **`M5_recursos-digitals-diversitat.md`** — Els recursos digitals activen el component TK del TPACK: conèixer les eines tecnològiques no és suficient sense les dimensions pedagògica i de contingut
+- **`M2_models-disseny-instruccional.md`** — GRR i backward design corresponen a la dimensió PK del TPACK; el TPACK és el marc superior que integra les tres dimensions en el disseny tecnopedagògic
+- **`M0_marc-institucional-IA.md`** — El marc institucional IA requereix que els docents tinguin TPACK adequat: les decisions institucionals han d'anar acompanyades de formació tecnopedagògica sistemàtica
+
+## 4. Detecció
+### Senyals del docent
     *   "Com puc integrar els dispositius digitals a la meva aula de manera efectiva sense que sigui una distracció?"
     *   "Quines metodologies noves puc explorar amb l'ús de la tecnologia?"
     *   "Em preocupa que els meus alumnes no estiguin prou motivats; la tecnologia podria ajudar?"
     *   "Necessito orientació sobre com equilibrar l'ús de recursos digitals i analògics."
     *   "El meu centre vol revisar la nostra política d'ús de pantalles; quins principis hauríem de tenir en compte?"
--   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   "Puc investigar això amb el meu telèfon/tauleta?"
     *   "Hi ha alguna aplicació o eina digital que m'ajudi a entendre millor aquest tema?"
     *   "M'agradaria fer el projecte en format vídeo o presentació interactiva."
--   **Senyals de context:**
+### Senyals de context
     *   El centre està revisant el seu Pla Digital de Centre.
     *   S'ha detectat una baixa motivació generalitzada en els alumnes cap a metodologies tradicionals.
     *   Hi ha una nova dotació de dispositius digitals per a l'aula.
     *   S'estan plantejant models d'aprenentatge híbrid o aula invertida.
     *   La societat o les famílies expressen preocupació per l'ús de pantalles.
--   **Anti-senyals:**
+### Anti-senyals
     *   El docent busca una "solució ràpida" o una eina màgica que faci la feina per ell.
     *   La proposta d'integració tecnològica no té un objectiu pedagògic clar i només busca "estar a la moda".
     *   El centre no té cap infraestructura digital bàsica ni suport tècnic.
     *   Es vol substituir completament els mètodes analògics sense una reflexió sobre el seu valor.
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
--   **Principi general:** La tecnologia ha de ser un mitjà per potenciar l'aprenentatge, no una finalitat en si mateixa, sempre en equilibri amb la pedagogia i el contingut, i adaptada al context.
+### Heurístiques
+**Principi general:** La tecnologia ha de ser un mitjà per potenciar l'aprenentatge, no una finalitat en si mateixa, sempre en equilibri amb la pedagogia i el contingut, i adaptada al context.
 
--   **Heurístiques per a l'Agent DOCENT:**
+#### Heurístiques per al docent
     1.  **Heurística: Propòsit Pedagògic Primer**
         *   **Quan aplica:** Quan el docent es planteja introduir una nova eina o recurs digital a l'aula.
         *   **Fonament:** Els documents subratllen que els dispositius són "eines necessàries" i que la seva presència ha de ser "complementària". Un error comú és veure la tecnologia com una solució màgica. Per tant, la tecnologia ha de servir a un objectiu d'aprenentatge clar.
@@ -98,7 +98,7 @@ El marc d'integració tecnològica que es desprèn dels documents no és una rec
         *   **Fonament:** Els documents adverteixen sobre els "canvis vertiginosos" i la necessitat d'"avaluar i revisar amb certa regularitat" les orientacions.
         *   **Exemple complet de raonament:** El claustre ha definit una política d'ús de dispositius per al proper curs. L'agent raonaria: "És fonamental tenir una política clara, però el món digital evoluciona a una velocitat impressionant. Els documents ens recorden que el que és vàlid avui pot no ser-ho demà. Per exemple, l'aparició de noves eines d'IA generativa pot canviar dràsticament les dinàmiques d'aprenentatge i avaluació. Una política que no prevegi la seva revisió periòdica corre el risc de quedar obsoleta ràpidament, generant frustració i ineficàcia. Per tant, suggeriria al claustre: 'A més de definir la política, establiu un calendari de revisió anual o bianual. Qui serà el responsable d'aquesta revisió? Quins indicadors utilitzareu per avaluar l'eficàcia de la política? Com incorporareu les noves tendències tecnològiques i les necessitats emergents de la comunitat educativa en futures actualitzacions?'".
 
--   **Heurístiques per a l'Agent ALUMNE:**
+#### Heurístiques per a l'alumne
     1.  **Heurística: La Tecnologia com a Eina de Recerca i Creació**
         *   **Quan aplica:** Quan l'alumne necessita trobar informació o vol expressar les seves idees en un projecte.
         *   **Fonament:** Els documents destaquen que els estudiants "poden accedir a recursos amplis per facilitar la investigació" i "crear i publicar contingut multimèdia".
@@ -113,13 +113,11 @@ El marc d'integració tecnològica que es desprèn dels documents no és una rec
         *   **Quan aplica:** Quan l'alumne utilitza dispositius digitals en un context educatiu o personal.
         *   **Fonament:** Els documents parlen de la "convivència" entre el món digital i analògic i la necessitat d'orientacions generals sobre l'ús de dispositius.
         *   **Exemple complet de raonament:** Un alumne utilitza el seu telèfon a classe per a una tasca, però es distreu amb notificacions. L'agent raonaria: "La tecnologia és una eina molt potent, però és important saber-la utilitzar de manera responsable i amb un propòsit clar, especialment a l'escola. Els documents ens recorden que els dispositius són 'eines necessàries', però la seva utilitat depèn de com els fem servir. Si et distreus amb les notificacions, el telèfon deixa de ser una eina d'aprenentatge i es converteix en un obstacle. Pensa en com pots gestionar les distraccions, com ara posar el telèfon en mode 'no molestar' durant les tasques o utilitzar-lo només per a la funció específica que requereix l'activitat. L'objectiu és que la tecnologia t'ajudi a aprendre, no que et desconnecti de l'aprenentatge. Per tant, et preguntaria: 'Com pots assegurar-te que el teu dispositiu t'ajudi a concentrar-te en la tasca i no et distregui? Quins límits et pots posar a tu mateix per fer un ús més eficient i educatiu de la tecnologia?'".
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Uso de las tecnologias en el aula. EDUCSI (1) | file://upload/Uso de las tecnologias en el aula. EDUCSI (1).pdf |
-| 2 | Documento pantallas ok | file://upload/Documento pantallas ok.pdf |
-
-*2 documents font · secció generada automàticament*
+- Mishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. *Teachers College Record, 108*(6), 1017–1054.
+- Koehler, M. J., & Mishra, P. (2009). What is Technological Pedagogical Content Knowledge (TPACK)? *Contemporary Issues in Technology and Teacher Education, 9*(1), 60–70.
+- Voogt, J., Fisser, P., Pareja Roblin, N., Tondeur, J., & van Braak, J. (2013). Technological pedagogical content knowledge: A review of the literature. *Journal of Computer Assisted Learning, 29*(2), 109–121.
+- Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. *Educational Researcher, 15*(2), 4–14.
+- Departament d'Educació (2022). *Marc de la competència digital docent*. Generalitat de Catalunya.

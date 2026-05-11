@@ -165,7 +165,7 @@ La matriu Propòsit × Rol (quins rols serveixen cada propòsit d'aprenentatge) 
 
 ★★ = moviment principal · ★ = moviment secundari · — = no induït típicament
 
-## 3. Connexions
+## 3. Connexions amb altres documents del corpus
 
 - `M5_arquitectura-proposit-rol-nivell` — Els rols són la capa d'implementació de l'arquitectura P>R>N; aquí es troba la matriu Propòsit × Rol i la jerarquia completa del sistema.
 - `M5_proposits-aprenentatge` — Catàleg de propòsits d'aprenentatge; la tria de rol sempre és posterior a la tria de propòsit.

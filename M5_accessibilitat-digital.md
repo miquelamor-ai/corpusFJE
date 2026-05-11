@@ -43,37 +43,40 @@ L'enfocament de l'accessibilitat digital ha de ser flexible i adaptar-se a les "
 ### Com interpretar resultats
 Sense eines d'avaluació d'accessibilitat o dades concretes, els documents font no proporcionen informació sobre com interpretar resultats. No obstant això, en un context general, la interpretació dels resultats d'una avaluació d'accessibilitat implicaria identificar les barreres existents, prioritzar les millores necessàries i mesurar l'impacte de les adaptacions en la participació i l'aprenentatge de tot l'alumnat. L'èxit es mesuraria per la reducció de les barreres i l'augment de la inclusió.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
--   **Marc_Tecnopedagogic_Inclusiu**: Aquest document complementa la necessitat d'un marc que guiï la integració de la tecnologia de manera que sigui accessible per a tots els perfils d'alumnat.
--   **Estrategia_Disseny_Universal_Aprenentatge**: L'accessibilitat digital és un pilar fonamental del DUA, ja que busca eliminar barreres en els materials i la presentació de la informació.
--   **Perfil_Alumnat_Diversitat_Funcional**: Proporciona eines per atendre les necessitats d'aquests perfils, assegurant que puguin interactuar amb els continguts digitals.
--   **Protocol_Adaptacio_Curricular_Individualitzada**: L'accessibilitat digital és una forma d'adaptació curricular que pot beneficiar a molts alumnes amb necessitats específiques.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
--   **Senyals del docent**:
+- **`M2_DUA-principis-pautes.md`** — El DUA és el marc preventiu que fa necessària l'accessibilitat digital: les pautes de representació múltiple exigeixen materials accessibles des del disseny inicial
+- **`M1_discapacitat-intel·lectual-motora.md`** — L'accessibilitat digital és un suport directe per a l'alumnat amb discapacitat visual, auditiva o motora: comunicadors augmentatius, lectors de pantalla, teclats alternatius
+- **`M5_recursos-digitals-diversitat.md`** — L'accessibilitat és una dimensió transversal de la selecció de recursos digitals: cap recurs digital és inclusiu si no compleix els estàndards WCAG mínims
+- **`M4_competencies-basiques-perfil-sortida.md`** — La competència digital del perfil de sortida inclou l'ús autònom de tecnologies d'assistència i l'adaptació de l'entorn digital a les pròpies necessitats
+- **`M2_mesures-suports-inclusius.md`** — Les mesures de suport intensives sovint inclouen tecnologies d'assistència: el docent ha de conèixer les eines per poder activar el suport adequat a cada alumne
+- **`M8_GDPR-privacitat-dades.md`** — Les eines d'accessibilitat digital gestionen dades sensibles d'alumnat NESE: cal verificar la conformitat RGPD de la plataforma abans d'implementar-la
+
+## 4. Detecció
+### Senyals del docent
     -   "Com puc assegurar que tots els meus alumnes puguin accedir als materials digitals que preparo?"
     -   "Estic buscant maneres de fer les meves presentacions més inclusives per a alumnes amb diferents necessitats."
     -   "Algú té dificultats per llegir el text a la pantalla o seguir els vídeos?"
     -   "Quins estàndards hauria de seguir per crear contingut digital que sigui realment útil per a tothom?"
     -   "Vull aprofitar la tecnologia per personalitzar l'aprenentatge, però no sé per on començar amb l'accessibilitat."
--   **Senyals de l'alumne**:
+### Senyals de l'alumne
     -   L'alumne expressa dificultat per percebre informació en un format digital (p. ex., "no veig bé les lletres", "no entenc l'àudio").
     -   L'alumne utilitza o necessita tecnologies d'assistència (lector de pantalla, programari d'ampliació, subtítols).
     -   L'alumne mostra frustració o desconnexió davant materials digitals que no pot manipular o entendre.
--   **Senyals de context**:
+### Senyals de context
     -   Disseny d'una nova activitat o recurs digital per a l'aula.
     -   Selecció de plataformes o eines digitals per a l'aprenentatge.
     -   Presència d'alumnes amb necessitats educatives especials o diversitat funcional al grup.
     -   Implementació d'un model d'aula invertida o aprenentatge híbrid.
--   **Anti-senyals**:
+### Anti-senyals
     -   El docent busca solucions ràpida i superficials sense voler entendre els principis de disseny inclusiu.
     -   La preocupació principal és només complir una normativa mínima sense una intenció real d'inclusió.
     -   Es considera que l'accessibilitat és una "tasca extra" només per a casos molt específics, en lloc d'un pilar del disseny universal.
 
-# 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 -   **Principi general**: Prioritza el disseny universal des de l'inici per assegurar que la tecnologia digital sigui una eina d'aprenentatge efectiva per a tots els alumnes.
 
--   **Heurístiques per a l'Agent DOCENT**:
+#### Heurístiques per al docent
     -   **Heurística: Disseny per a la Diversitat des del Primer Moment**
         -   **Quan aplica**: Quan el docent comença a planificar o crear qualsevol material o activitat digital, o quan selecciona recursos externs.
         -   **Fonament**: Els documents font destaquen que la tecnologia permet "instrucció individualitzada" i "aprendre a un ritme acomodat al seu desenvolupament". Perquè això sigui una realitat per a tothom, l'accessibilitat no pot ser un afegit posterior. Pensar en la diversitat des del principi evita la necessitat de costoses i ineficients adaptacions posteriors.
@@ -99,7 +102,7 @@ Sense eines d'avaluació d'accessibilitat o dades concretes, els documents font 
         -   **Fonament**: Els documents font esmenten que els estudiants "poden aprendre a un ritme acomodat al seu desenvolupament" i "aconseguir directa i individualitzada instrucció". Les eines accessibles són clau per a aquesta autonomia.
         -   **Exemple complet de raonament**: Un docent vol que els seus alumnes investiguin un tema en línia. L'agent li aconsellaria no només proporcionar recursos accessibles (amb subtítols, text alternatiu, bon contrast), sinó també ensenyar als alumnes a utilitzar les funcions d'accessibilitat dels seus propis dispositius o navegadors (com el lector de pantalla, l'ampliació de text, o les opcions de contrast). Això empodera l'alumne perquè pugui adaptar l'entorn digital a les seves pròpies necessitats, fomentant la seva autonomia i la seva capacitat d'aprendre de manera independent, que és un objectiu central de la integració tecnològica a l'aula.
 
--   **Heurístiques per a l'Agent ALUMNE**:
+#### Heurístiques per a l'alumne
     -   **Heurística: Explora les Opcions d'Accessibilitat del teu Dispositiu**
         -   **Quan aplica**: Quan l'alumne té dificultats per accedir a continguts digitals o vol personalitzar la seva experiència d'aprenentatge.
         -   **Fonament**: Els dispositius actuals tenen moltes "capacitats" que poden ajudar a l'alumne a "aprendre a un ritme acomodat al seu desenvolupament". Conèixer i utilitzar aquestes opcions pot millorar significativament la seva experiència.
@@ -114,13 +117,11 @@ Sense eines d'avaluació d'accessibilitat o dades concretes, els documents font 
         -   **Quan aplica**: Quan els materials o plataformes no són totalment accessibles per defecte, i l'alumne necessita suport addicional.
         -   **Fonament**: Els dispositius són "eines necessàries" i el món digital ofereix "recursos amplis". Hi ha moltes eines gratuïtes o de baix cost que poden complementar les funcions d'accessibilitat integrades.
         -   **Exemple complet de raonament**: Un alumne ha de llegir un document PDF que no permet copiar el text ni utilitzar el lector de pantalla integrat. L'agent li podria suggerir que busqui extensions de navegador o aplicacions externes que puguin llegir PDFs en veu alta, o eines que permetin convertir el PDF a un format de text editable. També podria explorar aplicacions de dictat de veu si té dificultats per escriure. Aquestes eines externes poden actuar com un pont per superar les barreres d'accessibilitat dels materials originals, permetent a l'alumne "accedir a la informació" i "pensar activament en la informació" malgrat les limitacions del recurs.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Uso de las tecnologias en el aula. EDUCSI (1) | file://upload/Uso de las tecnologias en el aula. EDUCSI (1).pdf |
-| 2 | Documento pantallas ok | file://upload/Documento pantallas ok.pdf |
-
-*2 documents font · secció generada automàticament*
+- W3C/WAI (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- Reglament (UE) 2019/882 del Parlament Europeu i del Consell, de 17 d'abril de 2019, sobre els requisits d'accessibilitat dels productes i serveis (European Accessibility Act). DOUE L 151/70.
+- Llei 13/2014, de 30 d'octubre, d'accessibilitat. DOGC núm. 6742.
+- Rose, D. H., & Meyer, A. (2002). *Teaching Every Student in the Digital Age: Universal Design for Learning*. Alexandria: ASCD/CAST.

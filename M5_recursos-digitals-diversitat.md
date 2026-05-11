@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T07:18:09
 ---
 
-### 1. CONTINGUT ESPECÍFIC
-
 #### Descripció i propòsit
 Els recursos digitals, en un sentit ampli, ofereixen un gran potencial per a la diversitat a l'aula, ja que permeten una instrucció més directa i individualitzada, adaptant-se al ritme de desenvolupament de cada alumne. El seu propòsit principal és facilitar l'accés a la informació i la interacció amb el contingut curricular de maneres diverses, superant les limitacions dels formats tradicionals. Aquests recursos fomenten que els estudiants puguin pensar activament, prendre decisions, manipular i mostrar informació de múltiples formes, augmentant el seu interès i implicació en els temes d'estudi. Encara que els documents font no detallen aplicacions o eines específiques com comunicadors, lectors o adaptadors de text per a Necessitats Educatives Específiques (NEE), sí que subratllen la capacitat de la tecnologia per oferir alternatives al model educatiu tradicional i per connectar els alumnes amb recursos amplis, cosa que inherentment beneficia la diversitat d'aprenentatge.
 
@@ -40,36 +38,39 @@ Els documents font no proporcionen criteris específics per interpretar els resu
 *   **Desenvolupament de capacitats**: La capacitat dels alumnes per pensar activament, prendre decisions, manipular o mostrar informació.
 La interpretació hauria de centrar-se en l'impacte pedagògic i en com la tecnologia facilita un aprenentatge més inclusiu i efectiu per a tots els alumnes, incloent aquells amb NEE.
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-- **Marc_Tecnopedagogia_General**: Aquest document complementa el marc general de tecnopedagogia, ja que se centra en l'aplicació de la tecnologia per a la diversitat, un aspecte clau de la integració digital.
-- **Estrategia_Aprenentatge_Individualitzat**: Les eines digitals per a la diversitat són un mitjà fonamental per implementar estratègies d'aprenentatge individualitzat, permetent adaptar el ritme i els materials.
-- **Perfil_Alumnat_NEE**: Aquest document ofereix possibles solucions tecnològiques per a les barreres d'aprenentatge i les necessitats prioritàries descrites en els perfils d'alumnat amb NEE.
-- **Protocol_Deteccio_Suport_NEE**: Les eines digitals poden ser part de les mesures de suport que es decideixen activar un cop detectades les necessitats d'un alumne.
+## 3. Connexions amb altres documents del corpus
 
-### 3. DETECCIÓ (Variables de Context)
-- **Senyals del docent**:
+- **`M5_accessibilitat-digital.md`** — L'accessibilitat és el marc transversal de tots els recursos digitals per a la diversitat: cap eina és inclusiva si no compleix els estàndards WCAG i les bones pràctiques de disseny
+- **`M2_DUA-principis-pautes.md`** — El DUA és el marc pedagògic que justifica l'ús d'eines diferenciades: les pautes d'acció i expressió múltiple exigeixen alternatives a l'escriptura i la parla estàndards
+- **`M1_discapacitat-intel·lectual-motora.md`** — Els comunicadors augmentatius i els adaptadors de text responen directament a les necessitats d'alumnes amb discapacitat motora o comunicativa severa
+- **`M4_adaptacio-curricular.md`** — Els recursos digitals especialitzats formen part de les adaptacions curriculars significatives: no substitueixen el disseny curricular però el fan accessible i operatiu
+- **`M2_mesures-suports-inclusius.md`** — Les eines digitals s'activen en la jerarquia de mesures: primer DUA universal, després mesures addicionals, finalment suports especialitzats amb tecnologia d'assistència
+- **`M1_neurodiversitat-NESE.md`** — Les característiques de la neurodiversitat determinen quina eina és pertinent: la dislèxia demana lectors TTS; el TEA demana pictogrames i estructures previsibles i consistents
+
+## 4. Detecció
+### Senyals del docent
     - "Com puc adaptar els materials per a un alumne amb dificultats de lectura?"
     - "Necessito eines que permetin als meus alumnes expressar-se de maneres no textuals."
     - "Hi ha alguna tecnologia que ajudi a un alumne amb dificultats de comunicació oral a participar més?"
     - "Vull que tots els meus alumnes puguin accedir a la informació, independentment del seu nivell."
     - "Com puc utilitzar la tecnologia per oferir un aprenentatge més personalitzat?"
-- **Senyals de l'alumne**:
+### Senyals de l'alumne
     - Dificultat per seguir el ritme de la classe amb materials estàndard.
     - Frustració en intentar comunicar-se oralment o per escrit.
     - Manca d'interès o desconnexió quan la informació es presenta en un únic format.
-- **Senyals de context**:
+### Senyals de context
     - Disseny d'activitats que requereixen múltiples formats de presentació o resposta.
     - Avaluació de la inclusió digital del centre.
     - Planificació de suports per a alumnes amb NEE.
-- **Anti-senyals**:
+### Anti-senyals
     - El docent busca una solució tecnològica per substituir la seva pròpia adaptació pedagògica sense reflexió.
     - L'objectiu és utilitzar la tecnologia per la tecnologia, sense un propòsit pedagògic clar o sense considerar les necessitats reals de l'alumne.
     - Es proposa una eina digital sense haver avaluat prèviament les competències digitals de l'alumne o la seva acceptació.
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 - **Principi general**: La tecnologia és una palanca per a la inclusió i la personalització de l'aprenentatge, no un substitut de la pedagogia.
 
-- **Heurístiques per a l'Agent DOCENT**:
+#### Heurístiques per al docent
     - **Heurística: Prioritzar l'accessibilitat universal des del disseny.**
         - **Quan aplica**: Quan el docent està dissenyant una nova activitat, material o projecte, o revisant-ne un d'existent.
         - **Fonament**: Els documents subratllen que la tecnologia permet un accés més ampli a recursos i una instrucció individualitzada. Pensar en l'accessibilitat des del principi redueix la necessitat d'adaptacions posteriors i beneficia a tot l'alumnat.
@@ -95,7 +96,7 @@ La interpretació hauria de centrar-se en l'impacte pedagògic i en com la tecno
         - **Fonament**: Els documents parlen d'augmentar l'interès, la instrucció individualitzada i l'accés a recursos. L'èxit no és la presència de la tecnologia, sinó el seu efecte en l'aprenentatge.
         - **Exemple complet de raonament**: Un docent ha introduït una nova aplicació per a la creació de mapes conceptuals. L'agent podria raonar: "Els documents indiquen que l'ús de la tecnologia ha de portar a estudiants més interessats i centrats, i a una instrucció més individualitzada. Per tant, després d'implementar l'aplicació, el docent no s'ha de limitar a observar si els alumnes l'han utilitzat, sinó que ha d'avaluar si realment ha millorat la seva capacitat d'organitzar idees, de connectar conceptes o de comprendre el tema en profunditat. Es podria preguntar: 'Han millorat els mapes conceptuals en qualitat o complexitat respecte als fets a mà? Han participat més els alumnes que abans tenien dificultats per estructurar la informació? Ha facilitat l'eina la comprensió per a algun alumne amb necessitats específiques?' L'avaluació ha de ser pedagògica, no tècnica."
 
-- **Heurístiques per a l'Agent ALUMNE**:
+#### Heurístiques per a l'alumne
     - **Heurística: Explorar eines digitals per a l'autonomia en l'aprenentatge.**
         - **Quan aplica**: Quan l'alumne expressa dificultats per accedir a la informació o per completar tasques de manera autònoma.
         - **Fonament**: Els documents destaquen que els estudiants poden "aprendre a un ritme acomodat al seu desenvolupament" i "accedir a recursos amplis". Les eines digitals poden ser un suport clau per a aquesta autonomia.
@@ -110,13 +111,11 @@ La interpretació hauria de centrar-se en l'impacte pedagògic i en com la tecno
         - **Quan aplica**: Quan l'alumne busca maneres de fer el seu aprenentatge més efectiu i adaptat a les seves preferències o necessitats.
         - **Fonament**: La tecnologia facilita la "instrucción directa e individualizada" i permet "aprender a un ritmo acomodado a su desarrollo".
         - **Exemple complet de raonament**: Un alumne es distreu fàcilment amb molta informació visual o sonora i li costa concentrar-se. L'agent podria raonar: "El document diu que la tecnologia et pot ajudar a aprendre d'una manera més individualitzada. Si et distreus amb facilitat, podries provar d'utilitzar eines digitals que et permetin personalitzar el teu entorn d'aprenentatge. Per exemple, hi ha aplicacions que bloquegen les notificacions, altres que et permeten ajustar la mida de la lletra, el contrast de colors o la velocitat de l'àudio per fer-ho més còmode per a tu. També pots utilitzar temporitzadors digitals per gestionar el teu temps d'estudi en blocs curts i concentrats. L'objectiu és que trobis la configuració que et funcioni millor per concentrar-te i aprendre de manera més efectiva."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Uso de las tecnologias en el aula. EDUCSI (1) | file://upload/Uso de las tecnologias en el aula. EDUCSI (1).pdf |
-| 2 | Documento pantallas ok | file://upload/Documento pantallas ok.pdf |
-
-*2 documents font · secció generada automàticament*
+- Beukelman, D. R., & Mirenda, P. (2013). *Augmentative and Alternative Communication: Supporting Children and Adults with Complex Communication Needs* (4a ed.). Baltimore: Paul H. Brookes.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- W3C/WAI (2018). *Web Content Accessibility Guidelines (WCAG) 2.1*. World Wide Web Consortium.
+- Departament d'Educació (2020). *Orientacions per a l'elaboració del Pla Individualitzat*. Generalitat de Catalunya / XTEC.
+- Zangari, C., & Van Tatenhove, G. (2009). Supporting More Advanced Linguistic Communicators in the Classroom. *Seminars in Speech and Language, 30*(2), 124–134.

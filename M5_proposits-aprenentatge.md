@@ -201,7 +201,7 @@ El docent sempre comença pel propòsit (**Propòsit-first**): triar el rol o el
 | Reverse | Descoberta | Extrínseca (producte a analitzar) | Constructive |
 | Right-Sizing | Judici selectiu | Extrínseca (adaptació tècnica) | Constructive |
 
-## 3. Connexions
+## 3. Connexions amb altres documents del corpus
 
 - `M5_arquitectura-proposit-rol-nivell` — Els propòsits són el concepte de primer nivell de l'arquitectura P>R>N; aquí es troba la jerarquia completa i la matriu Propòsit × Rol ampliada.
 - `M5_rols-IA-educacio` — La matriu d'afinitats Propòsit × Rol determina quins rols serveixen cada propòsit d'aprenentatge.
