@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:59
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 
 L'estratègia d'interdisciplinarietat i transversalitat busca integrar coneixements i habilitats de diferents àrees curriculars per abordar situacions i problemes de manera holística i significativa. El seu fonament rau en la definició de competència, que implica "utilitzar els coneixements i habilitats, de manera transversal i interactiva, en contextos i situacions que requereixen la intervenció de coneixements vinculats a diferents sabers". Això significa que l'aprenentatge no ha de ser un conjunt d'informació aïllada per matèries, sinó una eina funcional que permeti a l'alumnat comprendre, reflexionar i discernir per resoldre problemes de la vida quotidiana, laboral o social.
@@ -78,43 +76,42 @@ La implementació de l'interdisciplinarietat i la transversalitat es pot graduar
 *   **Avaluació desconnectada**: Avaluar cada àrea de forma aïllada, sense tenir en compte la contribució al desenvolupament de les competències transversals del projecte. Això desvirtua l'objectiu d'integració.
 *   **No partir d'un repte o problema real**: Si els projectes no sorgeixen de situacions o preguntes que requereixen la "intervenció de coneixements vinculats a diferents sabers" (DOC 1), l'aprenentatge pot no ser prou significatiu.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M4_competencies-basiques-perfil-sortida.md`** — Les competències clau son per naturalesa interdisciplinàries: cap assignatura aïllada pot desenvolupar totes les competències del perfil de sortida
+- **`M2_ABP-aprenentatge-servei.md`** — L'ABP és la metodologia que materialitza la interdisciplinarietat: els projectes son la forma natural d'integrar continguts de diverses matèries en un repte real
+- **`M2_programacio-multinivell.md`** — El disseny interdisciplinari multinivell permet que tots els alumnes participin en el projecte comú des del seu nivell competencial
+- **`M6_avaluacio-competencial-AIA.md`** — Avaluar l'aprenentatge interdisciplinari requereix rúbriques que creuin les fronteres de les matèries; l'avaluació per matèria no captura l'aprenentatge integrat
+- **`M0_PPI-paradigma-pedagogic-ignasia.md`** — El PPI proporciona el marc d'experiència integrada que la interdisciplinarietat necessita: reflexió i síntesi com a cicle compartit entre docents
+- **`M7_gestio-aula-rutines.md`** — La gestió de l'aula en projectes interdisciplinaris requereix rutines específiques: coordinació entre docents, distribució d'espais i temps, protocols de treball cooperatiu
 
-*   **Perfil_Alumnat_Diversitat**: Aquesta estratègia és fonamental per atendre la diversitat, ja que ofereix múltiples vies d'accés al coneixement i permet adaptar les tasques a les necessitats individuals, fomentant la inclusió.
-*   **Marc_Aprenentatge_Basat_en_Projectes**: L'interdisciplinarietat és un pilar de l'Aprenentatge Basat en Projectes (ABP), ja que els projectes autèntics sovint requereixen la integració de coneixements de diverses disciplines per resoldre un repte.
-*   **Eina_Rúbriques_Avaluació_Competencial**: Per avaluar l'èxit d'aquesta estratègia, les rúbriques competencials són essencials, ja que permeten valorar l'aplicació transversal dels coneixements i habilitats, no només la memorització de continguts.
-*   **Estrategia_Aprenentatge_Cooperatiu**: L'aprenentatge cooperatiu és una metodologia clau per implementar projectes interdisciplinaris, ja que facilita la interacció, el diàleg i la construcció col·lectiva del coneixement entre l'alumnat.
-*   **Normativa_Decret_Curricular_Educació_Bàsica**: Aquesta estratègia s'alinea directament amb els decrets curriculars actuals que emmarquen l'educació per competències, on la transversalitat és un element central per al desenvolupament integral de l'alumnat.
+## 4. Detecció
 
-## 3. DETECCIÓ (Variables de Context)
-
-*   **Senyals del docent**:
+### Senyals del docent
     *   "Com puc fer que els continguts de la meva matèria siguin més rellevants per als meus alumnes?"
     *   "M'agradaria col·laborar més amb els companys d'altres àrees, però no sé per on començar."
     *   "Els meus alumnes tenen dificultats per connectar el que aprenen en una matèria amb el que aprenen en una altra."
     *   "Busco maneres de fomentar la resolució de problemes i el pensament crític."
     *   "Vull que els aprenentatges siguin més funcionals i significatius per a la vida real."
-*   **Senyals de l'alumne**:
+### Senyals de l'alumne
     *   "Per què estudiem això si no serveix per a res?"
     *   "No entenc com el que fem a matemàtiques es relaciona amb el que fem a tecnologia."
     *   "M'avorreixo amb les classes magistrals, m'agradaria fer coses més pràctiques."
-*   **Senyals de context**:
+### Senyals de context
     *   El centre educatiu vol implementar un nou projecte pedagògic o innovar en metodologies.
     *   Hi ha una problemàtica social o ambiental (p. ex., gestió de residus a l'entorn escolar) que pot ser un punt de partida per a un projecte.
     *   L'equip directiu promou la coordinació docent i la formació en metodologies actives.
-*   **Anti-senyals**:
+### Anti-senyals
     *   El docent busca una solució ràpida per "tapar forats" sense una reflexió pedagògica profunda.
     *   La proposta d'interdisciplinarietat és vista com una càrrega addicional sense un benefici clar per a l'aprenentatge.
     *   Hi ha una resistència generalitzada a la coordinació entre el professorat o a la flexibilitat horària.
     *   L'objectiu principal és simplement "cobrir el temari" de cada matèria de forma aïllada, sense interès en la funcionalitat dels aprenentatges.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 *   **Principi general**: L'aprenentatge és més profund i durador quan els coneixements es connecten i s'apliquen en contextos diversos per resoldre problemes reals.
 
-*   **Heurístiques per al docent**:
+#### Heurístiques per al docent
 
     *   **Heurística: "Connecta el punt de partida amb un repte real"**
         *   **Quan aplica**: Quan un docent expressa la necessitat de fer els continguts més rellevants o de fomentar la resolució de problemes.
@@ -141,7 +138,7 @@ La implementació de l'interdisciplinarietat i la transversalitat es pot graduar
         *   **Fonament**: La definició de competència parla d'utilitzar coneixements "de manera transversal i interactiva" i la "integració de coneixements" (DOC 1), no simplement de juxtaposar-los.
         *   **Exemple complet de raonament**: Davant un docent que proposa un projecte on cada matèria fa una part del treball sense una connexió explícita entre elles, el document d'estratègia adverteix sobre l'error de la "superficialitat en les connexions". Perquè un projecte sigui realment interdisciplinari, no n'hi ha prou amb que cada matèria "faci la seva part" sobre un mateix tema. Cal que hi hagi una "integració de coneixements" (DOC 1) i que l'alumnat hagi de fer servir aquests coneixements de manera "transversal i interactiva" per resoldre un repte comú. Per exemple, en un projecte sobre els residus, no es tracta només que els de ciències estudiïn els materials i els de llengua facin un text. Es tracta que el text de llengua *utilitzi* els coneixements científics per argumentar, i que els coneixements científics es vegin enriquits per la necessitat de comunicar-los de manera efectiva. Això garanteix que l'aprenentatge sigui funcional i significatiu.
 
-*   **Heurístiques per a l'alumne**:
+#### Heurístiques per a l'alumne
 
     *   **Heurística: "Busca les connexions entre el que aprens"**
         *   **Quan aplica**: Quan l'alumne expressa confusió sobre la relació entre matèries o la utilitat d'un contingut.
@@ -157,13 +154,11 @@ La implementació de l'interdisciplinarietat i la transversalitat es pot graduar
         *   **Quan aplica**: Quan l'alumne ha completat una tasca o projecte i es prepara per presentar els seus resultats.
         *   **Fonament**: La competència comunicativa és una subcompetència clau (DOC 1) i la "reflexió" sobre el procés és essencial per al discerniment.
         *   **Exemple complet de raonament**: Davant un alumne que ha acabat un projecte sobre l'impacte dels microplàstics i ha de presentar-lo, una orientació útil és: "Has fet una gran feina investigant l'impacte dels microplàstics! Ara, per demostrar la teva 'competència comunicativa' (DOC 1), no només és important explicar què has descobert, sinó també com ho has fet. Explica quines fonts has utilitzat, com has connectat els coneixements de ciències amb els de llengua per fer la presentació, o com has resolt els problemes que han sorgit. Aquesta 'reflexió' sobre el teu procés d'aprenentatge i la teva capacitat per 'utilitzar els coneixements de manera transversal' (DOC 1) és tan important com el resultat final. Pensa en el teu públic i en com pots fer que entenguin la complexitat del problema i la teva proposta de solució."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:curriculum:eso_btx:dcs1:modul_1:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_1/practica_2 |
-| 2 | cart_1b04814ca9.pdf | http://www.xtec.cat/~jvert/eso/primer/mare/9/conta/cart.pdf |
-
-*2 documents citats de 2 al corpus · secció generada automàticament*
+- Jacobs, H. H. (1989). *Interdisciplinary Curriculum: Design and Implementation*. Alexandria: ASCD.
+- Drake, S. M., & Burns, R. C. (2004). *Meeting Standards Through Integrated Curriculum*. Alexandria: ASCD.
+- Decret 175/2022, de 27 de setembre, pel qual s'estableix l'ordenació dels ensenyaments de l'educació bàsica. DOGC núm. 8762.
+- Beane, J. A. (1997). *Curriculum Integration: Designing the Core of Democratic Education*. Nova York: Teachers College Press.
+- Klein, J. T. (1990). *Interdisciplinarity: History, Theory, and Practice*. Detroit: Wayne State University Press.

@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:34
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 
 El marc competencial actual a Catalunya sorgeix de la necessitat d'anar més enllà de l'adquisició de coneixements i tècniques aïllades, tal com es prioritzava en currículums anteriors (per exemple, els de 1992, que ja incloïen capacitats, però amb un enfocament diferent). L'evolució cap a un model basat en competències (com el del Decret 143/2007 i posteriors) respon a la premissa que l'alumnat ha de poder desenvolupar els continguts de manera **funcional i significativa**. L'objectiu principal és que els aprenentatges adquirits siguin útils i possibilitin la **resolució de problemes** al llarg de tota la vida, ja siguin quotidians, laborals o de relació.
@@ -64,41 +62,42 @@ El marc competencial és un model pedagògic ambiciós que busca una transformac
 *   **La base dels coneixements:** El marc competencial no nega la importància dels coneixements fundacionals. Al contrari, són la base sobre la qual es construeixen les competències. L'excepció no és que els coneixements no siguin importants, sinó que no han de ser un fi en si mateixos, sinó eines per a l'aplicació i la resolució de problemes. Hi ha moments en l'aprenentatge on l'adquisició de coneixements bàsics és prioritària abans de poder-los aplicar de manera competent.
 *   **Avaluació de la complexitat:** Avaluar una competència en la seva totalitat és complex, ja que implica múltiples dimensions (coneixements, habilitats, actituds, contextos). No sempre és possible avaluar totes les facetes d'una competència en cada activitat, i cal dissenyar un sistema d'avaluació continu i diversificat.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Estratègia_AprenentatgeBasatEnProjectes**: Aquesta estratègia és fonamental per desenvolupar la funcionalitat i la transversalitat dels aprenentatges, pilars del marc competencial.
-*   **Eina_RúbricaAvaluacioCompetencial**: Permet avaluar de manera autèntica l'aplicació de coneixements i habilitats en contextos reals, alineant-se amb els principis d'avaluació del marc.
-*   **Marc_DissenyUniversalAprenentatge (DUA)**: Ofereix pautes per fer el currículum competencial accessible a tot l'alumnat, assegurant que les oportunitats de desenvolupament competencial arribin a tots.
-*   **Perfil_AlumnatAmbDificultatsAprenentatge**: La comprensió d'aquest perfil és crucial per adaptar les activitats competencials i els suports necessaris, garantint la inclusió i l'èxit de tots els estudiants.
-*   **Protocol_DeteccioNecessitatsEducativesEspecials**: La identificació primerenca de necessitats educatives pot influir en com es planifiquen i es desenvolupen les competències, assegurant una resposta educativa ajustada.
-*   **Estratègia_AprenentatgeCooperatiu**: Aquesta estratègia fomenta la dimensió social de l'aprenentatge i la resolució de problemes en grup, aspectes clau del marc competencial.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent**
+- **`M4_interdisciplinarietat.md`** — Les competències clau son per naturalesa transversals: no s'adquireixen en silos disciplinaris sinó en contextos integrats que creuen fronteres de matèria
+- **`M2_programacio-multinivell.md`** — La programació multinivell és la concreció didàctica de la competència: el mateix objectiu competencial assolit per camins de complexitat diferent
+- **`M6_avaluacio-competencial-AIA.md`** — Avaluar les competències requereix instruments autèntics; la competència no es pot mesurar exclusivament amb exàmens de continguts memorístics
+- **`M2_ABP-aprenentatge-servei.md`** — L'ABP és la metodologia per excel·lència de l'aprenentatge competencial: els projectes mobilitzen múltiples competències en contextos reals i motivadors
+- **`M0_excellencia-humana-4C.md`** — El perfil de sortida de la LOMLOE i les 4C de FJE convergeixen: les competències clau son la versió curricular de l'excel·lència ignasiana
+- **`M1_model-caracteritzacio-diversitat.md`** — El perfil de sortida ha de ser assolible per a tot l'alumnat; el model de diversitat orienta com garantir l'accés universal a les competències clau
+
+## 4. Detecció
+### Senyals del docent
     *   "Com puc fer que els meus alumnes apliquin el que aprenen a situacions reals i no només memoritzin?"
     *   "Necessito dissenyar activitats que connectin diferents àrees de coneixement i tinguin un sentit pràctic."
     *   "Els meus alumnes saben la teoria, però els costa resoldre problemes complexos o expressar-se amb claredat."
     *   "Com puc avaluar de manera més significativa, anant més enllà de la simple reproducció de continguts?"
     *   "Vull entendre millor el propòsit del currículum actual i com s'espera que els alumnes es preparin per al futur."
-*   **Senyals de l'alumne**
+### Senyals de l'alumne
     *   "Per a què serveix això que estem aprenent? No li veig la utilitat."
     *   Dificultat per transferir coneixements o habilitats d'una assignatura a una altra o a la vida quotidiana.
     *   Manca d'autonomia o iniciativa per resoldre tasques complexes que requereixen reflexió i discerniment.
-*   **Senyals de context**
+### Senyals de context
     *   El docent està en procés de dissenyar o revisar la programació didàctica del curs o d'una unitat.
     *   El centre educatiu està implementant o formant el professorat en metodologies actives o projectes interdisciplinaris.
     *   Es debat sobre els objectius educatius a llarg termini de l'escola i el perfil de l'alumnat que es vol formar.
     *   S'està preparant una avaluació que busca mesurar habilitats d'aplicació i resolució de problemes.
-*   **Anti-senyals**
+### Anti-senyals
     *   La pregunta del docent es refereix exclusivament a la memorització de fets o dades aïllades sense cap intenció d'aplicació.
     *   La preocupació principal és la cobertura exhaustiva d'un temari molt extens sense considerar la seva funcionalitat o connexió amb altres àrees.
     *   Es busca una solució ràpida per a un problema de gestió de l'aula o de disciplina que no té relació directa amb el disseny curricular o l'aprenentatge competencial.
     *   El docent expressa un rebuig total a qualsevol enfocament que no sigui l'ensenyament tradicional basat en la transmissió de continguts.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
-*   **Principi general:** Fomentar l'aplicació funcional i transversal dels aprenentatges per a la resolució de problemes reals, promovent la reflexió i l'autonomia.
+**Principi general:** Fomentar l'aplicació funcional i transversal dels aprenentatges per a la resolució de problemes reals, promovent la reflexió i l'autonomia.
 
-*   **Heurístiques per al docent**
+#### Heurístiques per al docent
 
     *   **Nom:** Disseny per a la Transferència
     *   **Quan aplica:** Quan el docent expressa la voluntat que els seus alumnes utilitzin els coneixements adquirits en situacions noves i diverses, més enllà de l'aula.
@@ -125,7 +124,7 @@ El marc competencial és un model pedagògic ambiciós que busca una transformac
     *   **Fonament:** Un dels tres aspectes bàsics de la proposta curricular competencial és "l'autonomia personal en el procés d'aprenentatge". Això implica que l'alumnat ha de ser capaç de gestionar el seu propi procés, reflexionar sobre ell i prendre decisions.
     *   **Exemple complet de raonament:** Davant una docent de FP que vol que els seus alumnes siguin més proactius i independents en la resolució de tasques tècniques, per fomentar l'autonomia personal, que és un pilar fonamental del marc competencial, convé implementar metodologies on els alumnes tinguin més control sobre el seu propi aprenentatge. Per exemple, en lloc de donar instruccions pas a pas per a un projecte tècnic, es pot presentar un repte o problema complex (com ara dissenyar un prototip amb unes especificacions determinades) i guiar els alumnes perquè investiguin, planifiquin i executin les seves pròpies solucions, oferint suport quan sigui necessari però sense resoldre'ls la tasca. Això els permet desenvolupar la capacitat de discerniment, la reflexió i la resolució de problemes de manera autònoma, preparant-los per a les demandes del món laboral i la vida adulta, on la iniciativa i la capacitat d'adaptació són clau per a l'èxit professional i personal.
 
-*   **Heurístiques per a l'alumne**
+#### Heurístiques per a l'alumne
 
     *   **Nom:** Conecta i Aplica
     *   **Quan aplica:** Quan l'alumne es pregunta per la utilitat o el sentit d'un aprenentatge concret que li sembla abstracte o desconnectat.
@@ -141,13 +140,11 @@ El marc competencial és un model pedagògic ambiciós que busca una transformac
     *   **Quan aplica:** Quan l'alumne s'enfronta a un problema complex o una tasca que requereix diferents perspectives i habilitats, i necessita suport o noves idees.
     *   **Fonament:** La definició de competència inclou la "dimensió social de cada situació" i la resolució de problemes. Molts reptes de la vida real es resolen millor en equip, i la col·laboració és una competència en si mateixa.
     *   **Exemple complet de raonament:** Davant un alumne de Batxillerat que té dificultats per estructurar un projecte de recerca individual i se sent bloquejat, una orientació útil és: "Recorda que molts problemes complexos es resolen millor en equip. El marc competencial subratlla la importància de la dimensió social de l'aprenentatge i la resolució de problemes. Podries parlar amb companys per intercanviar idees sobre com han enfocat projectes similars, o demanar la seva opinió sobre les teves propostes inicials. Aquesta interacció no només t'aportarà noves perspectives i possibles solucions, sinó que també et permetrà practicar la teva competència comunicativa i social, aprenent a col·laborar, a escoltar i a construir coneixement de manera conjunta, la qual cosa és una habilitat molt valorada en qualsevol context, ja sigui acadèmic o professional, i et farà més autònom a llarg termini."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:curriculum:eso_btx:dcs1:modul_1:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_1/practica_2 |
-| 2 | cart_1b04814ca9.pdf | http://www.xtec.cat/~jvert/eso/primer/mare/9/conta/cart.pdf |
-
-*2 documents font · secció generada automàticament*
+- Llei Orgànica 3/2020, de 29 de desembre (LOMLOE). BOE núm. 340 (perfil de sortida, competències clau).
+- Decret 175/2022, de 27 de setembre, pel qual s'estableix l'ordenació dels ensenyaments de l'educació bàsica. DOGC núm. 8762.
+- Rychen, D. S., & Salganik, L. H. (2003). *Key Competencies for a Successful Life and a Well-Functioning Society*. Göttingen: Hogrefe.
+- OCDE (2018). *The Future of Education and Skills: Education 2030*. París: OECD Publishing.
+- Consell d'Europa (2019). *Competències digitals per als ciutadans (DigComp 2.1)*. Brussel·les: JRC.

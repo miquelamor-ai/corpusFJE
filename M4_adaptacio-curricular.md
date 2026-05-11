@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:40
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 Aquesta estratègia se centra en com assegurar que tot l'alumnat pugui desenvolupar les competències bàsiques del currículum, posant èmfasi en la funcionalitat, la significativitat i la capacitat de resoldre problemes. El currículum actual, basat en competències, busca que els aprenentatges siguin útils per a la vida, permetent als nois i noies aplicar coneixements i habilitats de manera transversal i interactiva en diferents contextos. Això implica comprensió, reflexió i discerniment, considerant la dimensió social de cada situació. L'adaptació curricular, per tant, no és una reducció, sinó una manera de facilitar que cada alumne o alumna integri coneixements, faci funcionals els seus aprenentatges i guanyi autonomia personal, que són els tres aspectes bàsics de la proposta curricular competencial. La necessitat d'adaptar sorgeix per garantir que aquests principis s'apliquin a la diversitat d'alumnes, permetent-los assolir les capacitats necessàries per donar resposta satisfactòria als reptes.
 
@@ -67,37 +65,39 @@ L'adaptació curricular, entesa des de la perspectiva competencial, implica ajus
 3.  **No fomentar l'autonomia i la reflexió:** Limitar l'adaptació a un suport excessiu que impedeix a l'alumne "comprendre, reflexionar i discernir". L'adaptació ha de ser un pont cap a una major autonomia personal en el procés d'aprenentatge.
 4.  **Ignorar la dimensió social:** Dissenyar activitats que no consideren la "dimensió social de cada situació", perdent una oportunitat clau per a l'aplicació real i significativa de les competències.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Perfil_Alumnat_NEE**: Aquesta estratègia és fonamental per dissenyar respostes educatives que s'ajustin a les necessitats específiques descrites en els perfils d'alumnat amb necessitats educatives especials, garantint l'accés al currículum competencial.
-*   **Marc_Aprenentatge_Basat_en_Problemes**: Aquesta estratègia es complementa directament amb el marc de l'Aprenentatge Basat en Problemes, ja que ambdós prioritzen la resolució de problemes en contextos reals per al desenvolupament de competències funcionals.
-*   **Eina_Disseny_Universal_Aprenentatge_(DUA)**: L'aplicació de l'estratègia d'adaptació curricular es veu reforçada per les directrius del DUA, que promouen múltiples formes de representació, acció i expressió, i implicació per atendre la diversitat des del disseny inicial.
-*   **Normativa_Inclusió_Educativa**: Aquesta estratègia és una eina pràctica per complir amb els principis i obligacions establertes en la normativa d'inclusió educativa, assegurant que tot l'alumnat tingui oportunitats d'aprenentatge significatiu.
-*   **Estrategia_Coaprenentatge**: El coaprenentatge pot ser una metodologia clau per implementar les adaptacions, ja que permet el suport entre iguals i la construcció col·laborativa de coneixement en contextos diversificats.
+## 3. Connexions amb altres documents del corpus
 
-## 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent**:
+- **`M1_neurodiversitat-NESE.md`** — L'adaptació curricular respon a les necessitats de l'alumnat NESE: la jerarquia de mesures del D150/2017 determina quan es fa adaptació significativa
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és el document on s'articula l'adaptació curricular significativa (ACS): sense PI formal, no hi ha ACS ni procediment regulat
+- **`M2_programacio-multinivell.md`** — El multinivell és la primera mesura d'adaptació curricular: dissenyar objectius en tres nivells sense necessitat de PI és la via preventiva i inclusiva
+- **`M2_DUA-principis-pautes.md`** — El DUA és el marc preventiu que minimitza la necessitat d'adaptació curricular reactiva: dissenyar per a la diversitat des de l'origen evita adaptacions singulars
+- **`M6_adaptacio-avaluacio-NEE.md`** — L'adaptació curricular requereix adaptació d'avaluació coherent: no es pot modificar els continguts i mantenir el mateix sistema d'avaluació per a tothom
+- **`M9_decrets-inclusio-ordenacio.md`** — Marc normatiu: Decret 150/2017 i instruccions DOIGC articulen la jerarquia de mesures i els procediments d'adaptació curricular significant
+
+## 4. Detecció
+### Senyals del docent
     *   El docent expressa frustració perquè alguns alumnes no "enganxen" amb els continguts o no veuen la seva utilitat.
     *   El docent pregunta com pot fer els aprenentatges més rellevants per a la vida dels seus alumnes.
     *   El docent busca maneres de diferenciar les activitats sense "baixar el nivell" per a tot el grup.
     *   El docent detecta que l'alumnat memoritza, però no sap aplicar el que ha après en noves situacions.
     *   El docent vol dissenyar projectes que integrin diverses àrees de coneixement.
-*   **Senyals de l'alumne**:
+### Senyals de l'alumne
     *   L'alumne mostra desinterès o manca de motivació davant tasques que considera abstractes o sense sentit pràctic.
     *   L'alumne té dificultats per connectar conceptes de diferents matèries o per aplicar coneixements a problemes reals.
     *   L'alumne se sent incapaç de resoldre problemes si no se li donen instruccions molt específiques i pas a pas.
-*   **Senyals de context**:
+### Senyals de context
     *   Una activitat d'avaluació revela que un percentatge significatiu d'alumnat no ha assolit les competències esperades.
     *   El currículum de l'etapa o matèria està fortament orientat a l'adquisició de competències.
     *   Hi ha una alta diversitat d'alumnat a l'aula, amb diferents ritmes i estils d'aprenentatge.
-*   **Anti-senyals**:
+### Anti-senyals
     *   El docent només busca "rebaixar el nivell" per a alguns alumnes sense un propòsit competencial clar.
     *   La preocupació principal és només cobrir el temari, sense interès per la funcionalitat o contextualització.
     *   L'alumne ja demostra una alta capacitat per transferir coneixements i resoldre problemes de forma autònoma en diversos contextos.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 *   **Principi general**: Prioritzar sempre la funcionalitat i significativitat de l'aprenentatge per a tots els alumnes, adaptant el camí per assolir les competències.
 
-*   **Heurístiques per al docent**:
+#### Heurístiques per al docent
     *   **Heurística: Contextualització per a la funcionalitat**
         *   **Quan aplica**: Quan un docent expressa que l'alumnat no veu la utilitat dels continguts o no aconsegueix aplicar-los fora de l'aula.
         *   **Fonament**: El DOC 1 subratlla que les competències impliquen "utilitzar els coneixements i habilitats... en contextos i situacions" reals per "resoldre problemes". Si l'aprenentatge no es contextualitza, perd la seva funcionalitat i significativitat.
@@ -123,7 +123,7 @@ L'adaptació curricular, entesa des de la perspectiva competencial, implica ajus
         *   **Fonament**: La definició de competència del DOC 1 emfatitza l'ús de coneixements en "contextos i situacions" diversos. Adaptar-los és clau per a la inclusió.
         *   **Exemple complet de raonament**: Davant una docent d'infantil/primària que té un alumne amb dificultats de comunicació oral que no participa en els debats de classe sobre el medi ambient, la competència comunicativa no es limita a l'expressió oral. Convé oferir a l'alumne la possibilitat d'expressar la seva comprensió sobre els residus a través d'altres "contextos i situacions", com ara dibuixant un còmic sobre el viatge d'una bossa de plàstic, creant un mural amb imatges i paraules clau, o utilitzant pictogrames per explicar el cicle de reciclatge. Això permet que l'alumne demostri la seva competència comunicativa d'una manera que s'ajusti a les seves fortaleses, sense reduir l'exigència de comprensió i reflexió.
 
-*   **Heurístiques per a l'alumne**:
+#### Heurístiques per a l'alumne
     *   **Heurística: Pregunta't "Per a què serveix això?"**
         *   **Quan aplica**: Quan l'alumne no entén la rellevància d'un contingut o se sent desmotivat.
         *   **Fonament**: El DOC 1 destaca la "funcionalitat dels aprenentatges" i la "resolució de problemes" com a eixos de les competències. Entendre el "per a què" dona sentit a l'aprenentatge.
@@ -138,12 +138,11 @@ L'adaptació curricular, entesa des de la perspectiva competencial, implica ajus
         *   **Quan aplica**: Quan l'alumne ha après un concepte però no sap com aplicar-lo o se sent passiu davant un problema.
         *   **Fonament**: La competència es defineix per la capacitat de "resoldre problemes" i fomentar l'"autonomia personal". Passar a l'acció, per petita que sigui, reforça aquests aspectes.
         *   **Exemple complet de raonament**: Davant un alumne que, després d'aprendre sobre l'impacte de les puntes de cigarreta en el medi ambient, se sent preocupat però no sap què fer, convé suggerir: "Quina petita acció podries proposar per reduir aquest problema a casa o a l'escola?". Potser l'alumne decideix fer un petit cartell per al lavabo de casa recordant no tirar puntes al vàter, o parlar amb els seus pares sobre l'ús de cendrers portàtils. Aquesta acció, per senzilla que sigui, permet a l'alumne "utilitzar els coneixements i habilitats" per a la "resolució de problemes" i desenvolupar la seva "autonomia personal", consolidant l'aprenentatge de manera significativa.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:curriculum:eso_btx:dcs1:modul_1:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_1/practica_2 |
-
-*1 documents citats de 2 al corpus · secció generada automàticament*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2020). *Orientacions per a l'elaboració del Pla Individualitzat*. Generalitat de Catalunya / XTEC.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Educació Inclusiva*. Generalitat de Catalunya.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- Tomlinson, C. A. (2001). *How to Differentiate Instruction in Mixed-Ability Classrooms* (2a ed.). Alexandria: ASCD.
