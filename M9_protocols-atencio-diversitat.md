@@ -9,8 +9,6 @@ generat_at: 2026-03-18T11:56:02
 
 # Protocols d'atenció a la diversitat
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Marc normatiu i abast
 El marc normatiu que regeix els protocols d'atenció a la diversitat a Catalunya és ampli i es fonamenta en principis internacionals i legislació pròpia. Aquest conjunt de normes busca garantir un sistema educatiu inclusiu i equitatiu per a tot l'alumnat.
 
@@ -96,42 +94,41 @@ Els Plans de Formació de Zona (PFZ) són un instrument de l'administració per 
 2.  **La inclusió com a "fer el mateix per a tothom" sense adaptacions:** Una confusió comuna és pensar que la inclusió significa aplicar la mateixa metodologia o expectatives a tot l'alumnat, sense fer distincions. El Decret 150/2017, però, emfatitza la necessitat d'entorns educatius que tinguin en compte la *diversitat* de les persones i que ofereixin *expectatives d'èxit a tots els alumnes*. Això implica flexibilitat, personalització, i l'ús de suports universals i específics, reconeixent que "igualtat" no significa "uniformitat", sinó "equitat" en les oportunitats.
 3.  **La responsabilitat de l'atenció a la diversitat recau només en els especialistes:** Es pot pensar erròniament que l'atenció a l'alumnat amb necessitats educatives específiques o amb particularitats culturals és exclusivament feina del personal de suport (EAP, vetlladors, educadors socials). La normativa, especialment el Decret 150/2017, deixa clar que l'atenció educativa inclusiva és responsabilitat de *tot* el professorat i de *tot* el centre, des de la direcció fins a cada docent d'aula, que ha de dissenyar la seva pràctica des d'una perspectiva inclusiva i col·laborar amb els especialistes.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Decret 150/2017 (marc):** Aquest document de normativa es basa en el Decret 150/2017 per establir els principis d'atenció a la diversitat i la inclusió.
-*   **Carta de compromís educatiu (eina):** La normativa descriu la base legal i el propòsit de la Carta de Compromís Educatiu com una eina clau de col·laboració amb les famílies.
-*   **Pla Individualitzat (PI) (protocol):** Aquest document de normativa fonamenta la necessitat de mesures de suport específiques, que es concreten en protocols com el Pla Individualitzat.
-*   **Comissions d'atenció a la diversitat (protocol):** La implementació de l'atenció a la diversitat, tal com la defineix aquesta normativa, sovint implica la creació i el funcionament d'aquestes comissions dins dels centres.
-*   **Perfil Alumnat amb NEE (perfil):** La normativa fonamenta la necessitat d'identificar i atendre les necessitats educatives específiques de l'alumnat, que es detallen en documents de perfil.
-*   **Estratègies d'aprenentatge cooperatiu (estratègia):** Aquestes estratègies són una via per implementar els principis d'inclusió i atenció a la diversitat que la normativa promou a l'aula.
+- **`M1_plans-individuals-PAD-PI.md`** — El PAD i el PI son els documents que els protocols prescriuen: el protocol activa el PAD; el PAD deriva al PI quan cal adaptació significativa
+- **`M9_decrets-inclusio-ordenacio.md`** — El marc normatiu del Decret 150/2017 és la base legal dels protocols: cap protocol pot anar més enllà ni per sota del que la normativa estableix
+- **`M1_neurodiversitat-NESE.md`** — Els protocols s'activen quan s'identifica alumnat NESE: la caracterització de la neurodiversitat orienta quin protocol és pertinent i quin suport cal
+- **`M4_adaptacio-curricular.md`** — Els protocols de derivació resulten en adaptació curricular significativa quan les mesures ordinàries son insuficients: el protocol és el camí, l'adaptació és la destinació
+- **`M2_mesures-suports-inclusius.md`** — Els protocols articulen la jerarquia de mesures i suports: universal → addicional → intensiu — i determinen els criteris de transició entre nivells
+- **`M9_drets-alumnat.md`** — Els protocols han de garantir els drets legals de l'alumnat en tot moment: qualsevol mesura de suport requereix el consentiment informat de la família
 
-## 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
+## 4. Detecció
+### Senyals del docent
     *   "La família d'en Marc no s'implica gens en el seguiment escolar del seu fill, no respon a les meves comunicacions."
     *   "Tinc un alumne nou que no parla català ni castellà i no sé quines són les meves obligacions legals per garantir la seva inclusió."
     *   "Com puc assegurar que tots els meus alumnes se sentin part de l'aula i tinguin les mateixes oportunitats d'aprendre, independentment de les seves capacitats o origen?"
     *   "Què he de fer si detecto que un alumne té dificultats d'aprenentatge que van més enllà del que puc atendre amb les meves eines habituals a l'aula?"
     *   "Necessito saber quins són els meus drets i deures com a docent respecte a l'atenció a la diversitat i la col·laboració amb les famílies."
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   "No entenc el que diuen a classe i em sento frustrat."
     *   "Em sento sol a l'escola, ningú em fa cas o em respecta per ser diferent."
     *   "Els meus pares no saben què passa a l'escola amb el meu aprenentatge."
-*   **Senyals de context:**
+### Senyals de context
     *   Inici de curs escolar (moment de signatura de la CCE).
     *   Detecció de noves necessitats educatives en un alumne o grup.
     *   Situacions de conflicte, assetjament o indisciplina que afecten la convivència i la inclusió.
     *   Reunions de tutoria o amb famílies per tractar el progrés o les dificultats d'un alumne.
     *   Procés de disseny o revisió de programacions didàctiques o del Projecte Educatiu de Centre (PEC).
-*   **Anti-senyals:**
+### Anti-senyals
     *   Un docent que busca una "solució ràpida" per "desfer-se" d'un alumne amb dificultats, sense intenció d'adaptar la pràctica o buscar suports.
     *   Una família que rebutja sistemàticament qualsevol tipus de col·laboració o suport proposat pel centre, sense argumentació vàlida.
     *   Un centre que no té un Projecte Educatiu de Centre (PEC) que inclogui explícitament la diversitat com a valor i principi d'actuació, o que no el revisa periòdicament.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
-*   **Principi general:** L'acció educativa ha de garantir la inclusió i l'equitat per a tot l'alumnat, fonamentada en la corresponsabilitat de la comunitat educativa i el respecte als drets humans.
+### Heurístiques
+**Principi general:** L'acció educativa ha de garantir la inclusió i l'equitat per a tot l'alumnat, fonamentada en la corresponsabilitat de la comunitat educativa i el respecte als drets humans.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 1.  **Heurística: "El Marc és la base, la CCE és el pont."**
     *   **Quan aplica:** Quan un docent necessita establir o reforçar la col·laboració amb les famílies, especialment en el moment de la matrícula o davant de necessitats educatives detectades en l'alumnat.
     *   **Fonament:** La Llei 12/2009 i el Decret 102/2010 estableixen la Carta de Compromís Educatiu (CCE) com una eina per potenciar la participació de les famílies i formalitzar compromisos mutus. L'addenda específica de la CCE permet concretar mesures de suport per a l'alumne, fent de la CCE un instrument dinàmic i adaptatiu.
@@ -157,7 +154,7 @@ Els Plans de Formació de Zona (PFZ) són un instrument de l'administració per 
     *   **Fonament:** El Decret 150/2017 i la Llei 14/2010 estableixen que les actuacions del centre amb alumnat amb necessitats específiques han de quedar documentades. La traçabilitat protegeix els drets de l'alumnat (permet revisions, garanteix coherència entre cursos i etapes) i protegeix també el centre davant possibles incidències.
     *   **Exemple complet de raonament:** Davant la decisió d'iniciar un Pla Individualitzat per a una alumna amb dislèxia, no n'hi ha prou amb acordar-ho oralment amb la família o amb l'EAP. Cal documentar formalment: l'avaluació inicial, els objectius i criteris adaptats, les mesures de suport concretes (qui les fa, quan, com), els indicadors de seguiment i les dates de revisió. Aquesta documentació s'incorpora a l'expedient de l'alumna i es comparteix amb la família amb còpia signada. Quan l'alumna passi a l'ESO, el seu nou tutor podrà consultar el PI i continuar amb coherència. Si en algun moment hi ha discrepància sobre les mesures aplicades, el document és la prova del compromís compartit. La normativa no és burocràcia: és el mecanisme que garanteix que els drets de l'alumna no depenguin de la memòria o la voluntat individual d'un docent concret.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: "Coneix els teus drets a l'escola."**
     *   **Quan aplica:** Quan creus que no estàs sent tractat amb justícia o quan vols entendre què pots demanar al centre.
@@ -174,17 +171,10 @@ Els Plans de Formació de Zona (PFZ) són un instrument de l'administració per 
     *   **Fonament:** La Llei 12/2009 i la Carta de Compromís Educatiu reconeixen el paper actiu de les famílies en el procés educatiu. La col·laboració família-centre és un dret reconegut, no una concessió.
     *   **Exemple complet de raonament:** Si el centre proposa una mesura que afecta la teva educació (un Pla Individualitzat, un canvi de grup, una derivació a un servei extern), la teva família té dret a ser informada, a fer preguntes i a participar en la decisió. Si a casa no entenen bé el sistema o tenen barreres lingüístiques, demana al centre que organitzi una reunió amb un mediador o un intèrpret. Tu pots ajudar a transmetre la informació a casa i, si tens edat suficient, també tens dret a participar en la conversa. Una família ben informada i implicada és un dels factors més importants per al teu progrés.
 
----
+## 5. Fonts
 
-## 5. FONTS DEL CORPUS
-
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | orientacions_carta_compromis_d1e224b497.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/47b3b709-675a-4693-bf60-5bfcde80f87b/orientacions_carta_compromis.pdf |
-| 2 | Normativa. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/comunitat/escolaifamilies/informacio-i-comunicacio/normativa/ |
-| 3 | Diversitat i inclusió. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/curriculum/diversitat-i-inclusio/ |
-| 4 | Projectes. Educació intercultural. Normativa. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/projectes/intercultural/normativa/ |
-| 5 | Formació. Formació permanent del professorat. Plans de formació de zona. XTEC - Xarxa Telemàtica Educativa de Catalunya | http://xtec.gencat.cat/ca/formacio/info-general/plans-formacio-zona/ |
-| 6 | Protocol d'actuació amb menors de catorze anys en situacions de conflicte o comissió d'una infracció penal . XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/conflicte-comissio-infraccio-penal/ |
-
-*6 documents font · secció generada automàticament des dels metadades del corpus*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Educació Inclusiva*. Generalitat de Catalunya.
+- Departament d'Educació (2020). *Orientacions per a l'elaboració del Pla d'Atenció a la Diversitat (PAD) i del Pla Individualitzat (PI)*. Generalitat de Catalunya / XTEC.
+- Llei 12/2009, del 10 de juliol, d'educació (LEC). DOGC núm. 5422.
+- Llei 14/2010, del 27 de maig, dels drets i les oportunitats en la infància i l'adolescència. DOGC núm. 5641.

@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T11:54:54
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Marc normatiu i abast
 Aquest document recull la normativa clau que fonamenta l'ordenació educativa i l'atenció inclusiva a Catalunya, abastant des de les lleis generals d'educació fins a decrets específics i protocols d'actuació. La base són les lleis catalanes, que al seu torn s'inspiren en declaracions i convenis internacionals sobre drets humans i de la infància.
 
@@ -86,15 +84,16 @@ La normativa d'inclusió i ordenació educativa a Catalunya s'integra en un marc
 *   **La inclusió com a sumatori de mesures individuals:** Es pot caure en l'error de veure la inclusió com l'aplicació de mesures aïllades per a alumnes amb necessitats específiques, en lloc d'entendre-la com una **transformació sistèmica** de tot el centre. El Decret 150/2017 subratlla que la inclusió implica oferir "expectatives d'èxit a tots els alumnes en el marc d'un sistema inclusiu" des del disseny universal, no només amb adaptacions puntuals.
 *   **La responsabilitat de la inclusió recau només en especialistes:** Es tendeix a pensar que l'atenció a la diversitat és feina exclusiva dels mestres d'educació especial o dels professionals dels serveis educatius. La normativa, especialment el Decret 150/2017, estableix que la inclusió és una **responsabilitat compartida** de tot el claustre i de la comunitat educativa, amb el docent tutor com a referent principal i el suport dels equips d'atenció a la diversitat.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **perfil_alumnat_NEE**: Aquest document normatiu estableix el marc legal per a l'atenció a la diversitat que es descriu en els perfils d'alumnat amb necessitats educatives específiques.
-*   **marc_disseny_universal_aprenentatge**: El Decret 150/2017 promou un sistema educatiu inclusiu, que es materialitza a través de marcs pedagògics com el DUA per a dissenyar entorns d'aprenentatge accessibles per a tots.
-*   **estrategia_coordinacio_docent**: La normativa d'ordenació i inclusió requereix una coordinació docent efectiva per implementar les mesures d'atenció a la diversitat i garantir la coherència educativa.
-*   **protocol_acollida_alumnat_nouvingut**: Els principis d'inclusió i no discriminació d'aquesta normativa són la base per als protocols d'acollida de l'alumnat nouvingut, assegurant la seva integració plena.
-*   **eina_pla_individualitzat**: La regulació de l'atenció educativa inclusiva implica l'ús d'eines com el Pla Individualitzat per a l'alumnat que ho requereixi, com a desenvolupament de la personalització de l'aprenentatge.
-*   **perfil_alumnat_altes_capacitats**: La inclusió, tal com la defineix el Decret 150/2017, també abasta l'atenció a l'alumnat amb altes capacitats, garantint que les seves necessitats educatives siguin cobertes.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M1_neurodiversitat-NESE.md`** — El Decret 150/2017 estableix la jerarquia de mesures per als alumnes NESE: el marc de neurodiversitat concreta en models de caracterització allò que la normativa prescriu de manera abstracta
+- **`M1_plans-individuals-PAD-PI.md`** — El PI és el document que operacionalitza l'obligació del Decret 150/2017: sense PI formal no hi ha adaptació curricular significativa legalment vàlida
+- **`M4_adaptacio-curricular.md`** — El Decret 150/2017 delimita quan cal adaptació significativa i qui l'ha d'autoritzar: la normativa fixa el límit de la discrecionalitat pedagògica del docent
+- **`M2_DUA-principis-pautes.md`** — El DUA és la metodologia que el Decret 150/2017 promou implícitament: la supressió universal de barreres és la primera mesura abans de qualsevol suport individualitzat
+- **`M9_drets-alumnat.md`** — La Llei 12/2009 i la Llei 14/2010 estableixen els drets de l'alumnat que els protocols d'inclusió han de garantir: normativa de drets i normativa d'inclusió son complementàries
+- **`M9_protocols-atencio-diversitat.md`** — Els protocols d'atenció concretitzen les obligacions del Decret 150/2017: el marc normatiu d'inclusió és la base legal dels protocols administratius
+
+## 4. Detecció
 
 ### Senyals del docent
 *   "M'agradaria saber quina és la base legal per a la inclusió a l'aula i com afecta el meu dia a dia."
@@ -121,12 +120,12 @@ La normativa d'inclusió i ordenació educativa a Catalunya s'integra en un marc
 *   Una discussió sobre inclusió que se centra exclusivament en les "deficiències" de l'alumne en lloc de les barreres de l'entorn o del sistema.
 *   La creença que la normativa només s'aplica a casos extrems o a alumnes amb diagnòstics específics, ignorant el seu abast universal per a tot l'alumnat.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
-### Principi general
+#### Principi general
 Centra la pràctica educativa en els drets de l'alumne i la corresponsabilitat de tota la comunitat educativa, utilitzant la normativa com a marc per garantir l'equitat i la inclusió.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 
 *   **Heurística: Enfocament Inclusiu Proactiu**
     *   **Quan aplica:** Quan un docent vol dissenyar o adaptar activitats, avaluacions o el currículum per assegurar que tots els alumnes, independentment de les seves característiques, puguin participar i aprendre amb èxit.
@@ -153,7 +152,7 @@ Centra la pràctica educativa en els drets de l'alumne i la corresponsabilitat d
     *   **Fonament:** Els Plans de Formació de Zona (PFZ) són un recurs d'ordenació educativa per a la millora dels centres i el professorat, responent a les necessitats de formació per assolir objectius de millora i canvi de les pràctiques docents.
     *   **Exemple complet de raonament:** Davant un docent que se sent desbordat per la complexitat de l'atenció a la diversitat a l'aula i no sap com aplicar els principis del Decret 150/2017 de manera efectiva, la normativa d'ordenació educativa preveu mecanismes de suport com els PFZ. Convé consultar els plans de formació de la zona o del centre, ja que aquests ofereixen cursos, seminaris o assessoraments en centre que poden proporcionar eines pràctiques i actualitzades sobre metodologies inclusives, gestió de l'aula diversa o ús de recursos tecnològics. Aquesta formació contínua no només beneficia el docent individualment, sinó que contribueix a la millora col·lectiva del centre i a l'alineació de les pràctiques amb el marc legal i pedagògic actual.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 *   **Heurística: Comprensió dels meus Drets**
     *   **Quan aplica:** Quan l'alumne expressa sentir-se discriminat, no comprès o creu que no se li està donant la informació o el suport que necessita.
@@ -169,17 +168,12 @@ Centra la pràctica educativa en els drets de l'alumne i la corresponsabilitat d
     *   **Quan aplica:** Quan l'alumne s'enfronta a dificultats acadèmiques, emocionals o socials i no sap a qui recórrer dins o fora de l'escola.
     *   **Fonament:** La Llei 14/2010 (Art. 104.a) estableix el dret a l'orientació, assessorament i ajut a la família, que indirectament beneficia l'alumne, i la Llei 12/2009 (Art. 25.2) preveu l'assessorament i atenció adequada a les famílies per mitjà de la tutoria.
     *   **Exemple complet de raonament:** Davant un alumne que confessa que se sent angoixat pels exàmens i que li costa concentrar-se a classe, però no vol parlar-ne amb els seus pares, l'alumne té dret a rebre suport per a les seves dificultats, i el centre disposa de professionals per a això. Convé que parli amb el seu tutor, ja que és la figura principal de referència i qui pot orientar-lo cap a altres professionals del centre (orientador, psicopedagog) o serveis externs si fos necessari. Buscar ajuda és un signe de fortalesa i la normativa d'inclusió garanteix que hi hagi mecanismes de suport per a tot l'alumnat, tant a nivell acadèmic com emocional, per assegurar el seu benestar i èxit educatiu.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | orientacions_carta_compromis_d1e224b497.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/47b3b709-675a-4693-bf60-5bfcde80f87b/orientacions_carta_compromis.pdf |
-| 2 | Normativa. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/comunitat/escolaifamilies/informacio-i-comunicacio/normativa/ |
-| 3 | Diversitat i inclusió. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/curriculum/diversitat-i-inclusio/ |
-| 4 | Projectes. Educació intercultural. Normativa. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/projectes/intercultural/normativa/ |
-| 5 | Formació. Formació permanent del professorat. Plans de formació de zona. XTEC - Xarxa Telemàtica Educativa de Catalunya | http://xtec.gencat.cat/ca/formacio/info-general/plans-formacio-zona/ |
-| 6 | Protocol d'actuació amb menors de catorze anys en situacions de conflicte o comissió d'una infracció penal . XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/conflicte-comissio-infraccio-penal/ |
-
-*6 documents font · secció generada automàticament des dels metadades del corpus*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Llei 12/2009, del 10 de juliol, d'educació (LEC). DOGC núm. 5422.
+- Decret 102/2010, de 3 d'agost, d'autonomia dels centres educatius. DOGC núm. 5686.
+- Llei 14/2010, del 27 de maig, dels drets i les oportunitats en la infància i l'adolescència. DOGC núm. 5641.
+- Llei 18/2003, del 4 de juliol, de suport a les famílies. DOGC núm. 3926.
+- Convenció de les Nacions Unides sobre els Drets de les Persones amb Discapacitat, de 13 de desembre de 2006. BOE núm. 96, 2008.
