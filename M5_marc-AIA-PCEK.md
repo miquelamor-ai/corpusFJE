@@ -1,142 +1,136 @@
 ---
 modul: M5
-titol: "Marc AIA — PCEK"
+titol: "Marc AIA-PCEK"
 tipus: marc
-descripcio: "Marc de competències per a l'ús de la IA en educació: Personal, Curricular, Epistèmic i de Coneixement"
+descripcio: "Marc de competències docents per a la integració de la IA a l'aula: extensió del TPACK que tracta la IA com a agent dinàmic i integra els coneixements d'agent IA (AIAK), ètic (EK), pedagògic (PK) i de contingut (CK)"
 review_status: esborrany
-generat_at: 2026-03-21T07:17:08
+generat_at: 2026-05-11T00:00:00
 ---
 
-### 1. CONTINGUT ESPECÍFIC DEL DOCUMENT
+## D'eina estàtica a agent dinàmic
 
-#### Definició i principis
+El marc TPACK (Technological Pedagogical Content Knowledge) de Mishra i Koehler (2006) va representar un avenç decisiu en la comprensió de les competències docents digitals: el bon ús d'una tecnologia a l'aula no és la suma del coneixement tècnic i el pedagògic, sinó una intersecció emergent dels dos amb el coneixement de contingut. Un docent que sap molt de biologia i molt de pedagogia no és automàticament competent per usar un simulador de biologia: necessita un tercer coneixement, el de la intersecció.
 
-El Marc AIA — PCEK (Personal, Curricular, Epistèmic i de Coneixement) és un marc de competències dissenyat per guiar l'ús de la Intel·ligència Artificial en l'àmbit educatiu. No obstant això, els documents font proporcionats per a la creació d'aquest document no detallen els principis ni els components específics d'aquest marc (PCEK) ni fan referència explícita a la Intel·ligència Artificial. En canvi, els documents se centren en la integració general de les tecnologies digitals i l'ús d'internet a l'aula, oferint una base contextual sobre com els dispositius digitals han transformat l'aprenentatge i l'ensenyament en les darreres dècades.
+Però el TPACK va ser dissenyat per a tecnologies estàtiques: projectors, processadors de text, simuladors, repositoris. Una calculadora no interpreta, no recomanah, no adapta. La IA sí. Un agent d'IA pot llegir la producció de l'alumne, generar retroalimentació personalitzada, suggerir recursos, modular la dificultat i registrar el progrés — tot sense instrucció explícita del docent per a cada pas. La IA no és una eina que el docent usa: és un agent que actua sobre l'entorn pedagògic.
 
-Aquests documents subratllen que la presència de dispositius amb accés a internet és una realitat ineludible a les aules, reflectint la societat actual. L'escola no pot ser una "illa" al marge d'aquesta realitat digital creixent. Es destaca que la tecnologia ha evolucionat ràpidament, passant de ser una eina limitada a la consulta d'informació o l'intercanvi de correus electrònics a ser una part integral de gairebé totes les activitats professionals i personals. Els dispositius actuals són eines necessàries en qualsevol treball, permetent fer videotelefonades, comprar, vendre, crear i publicar contingut multimèdia en qüestió de segons, i mantenir-nos connectats en temps real amb el nostre entorn.
+Aquest canvi de naturalesa — de tecnologia com a *eina* a IA com a *agent* — és el punt de partida del marc **AIA-PCEK** (Artificial Intelligence Agent – Pedagogical Content Ethical Knowledge), proposat per Mimoudi i Mokhtari (2025) en el marc del projecte Erasmus+ VOLCANIC. L'argument central: un docent que integra IA a l'aula necessita, a més dels dominis del TPACK convencional, dos dominis nous i específics: el **coneixement sobre l'agent IA (AIAK)** i el **coneixement ètic (EK)**.
 
-La integració d'aquesta tecnologia a l'aula genera canvis significatius en el procés d'aprenentatge. Permet als estudiants accedir a una vasta quantitat d'informació sense sortir de l'aula, facilitant la investigació amb major facilitat que amb els mètodes tradicionals basats en llibres. Més enllà de l'accés, la tecnologia habilita els estudiants per pensar activament sobre la informació, prendre decisions, manipular dades i mostrar-les de diverses maneres. Aquesta interacció activa amb el contingut fomenta un aprenentatge més interessat, centrat i apassionat.
+## Els quatre dominis del marc
 
-A més, la tecnologia facilita la instrucció directa i individualitzada, permetent que cada alumne aprengui a un ritme acomodat al seu propi desenvolupament. Conceptes pedagògics com les aules invertides, el ràpid accés al material curricular i l'emergència de models educatius híbrids i en línia són presentats com alternatives desafiadores i interessants al model d'educació tradicional. Els documents emfatitzen que l'ús de la tecnologia ha de ser una ajuda i una guia, no una imposició normativa, i que cada centre ha d'adaptar-se a les seves circumstàncies i context, buscant la "convivència" entre el món digital i l'analògic, considerant-los complementaris i compatibles. Donada la rapidesa dels canvis en el món digital, es recalca la necessitat d'avaluar i revisar regularment les estratègies d'integració tecnològica.
+El marc AIA-PCEK s'articula sobre la intersecció de quatre dominis:
 
-#### Autors i evidència clau
+### Coneixement de Contingut (CK)
 
-Els documents proporcionats són informes interns de la Comissió Pedagògica Educsi, encarregats d'establir orientacions generals sobre l'ús de dispositius digitals. No citen autors específics, estudis concrets ni evidències acadèmiques en suport de les seves afirmacions. Fan referència a la "inquietud social existent", la "preocupació de col·legis i famílies" i "publicacions sobre el tema" com a motivació per a la seva elaboració, però sense detallar-ne cap. Per tant, no es pot atribuir el contingut a autors o investigacions específiques dins del marc acadèmic.
+El domini establert per Shulman (1986): el docent ha de dominar la matèria que ensenya, incloent-hi els seus conceptes fonamentals, la seva estructura epistemològica i les connexions intradisciplinàries i interdisciplinàries. En el context de la IA, CK inclou saber quins aspectes de la matèria la IA pot explicar bé i quins no — per exemple, la IA genera exercicis de gramàtica amb alta fiabilitat però pot distorsionar l'anàlisi literària d'autors poc representats als corpus d'entrenament.
 
-#### Exemples concrets d'aplicació a l'aula
+### Coneixement Pedagògic (PK)
 
-Els exemples es basen en la integració general de la tecnologia, ja que el marc PCEK específic no està detallat.
+Les decisions sobre disseny instruccional, seqüenciació, gestió de l'aula, avaluació i retroalimentació. En el marc AIA-PCEK, PK inclou saber *quan* delegar una funció pedagògica a un agent IA i *quan* no fer-ho: la fricció cognitiva productiva, el vincle emocional amb el docent humà o la necessitat de context cultural local són raons per preservar la interacció humana en lloc de delegar-la.
 
-1.  **Educació Primària (Cicle Mitjà): Projecte "Exploradors del Món"**
-    Els alumnes utilitzen tauletes amb accés a internet per investigar sobre un ecosistema concret (per exemple, la selva amazònica). En lloc de només llegir llibres, accedeixen a vídeos documentals, mapes interactius i bases de dades d'animals. Després, amb eines de creació multimèdia senzilles (com aplicacions de dibuix o presentacions bàsiques), creen un "diari de viatge" digital amb la informació recopilada, imatges i petits àudios explicatius. Aquesta activitat fomenta l'accés a informació àmplia, la selecció crítica i la creació de contingut, adaptant-se al seu ritme d'aprenentatge.
+### Coneixement d'Agent IA (AIAK)
 
-2.  **Educació Secundària Obligatòria (ESO): Aula Invertida de Ciències Naturals**
-    El professorat assigna vídeos explicatius o lectures interactives sobre un tema complex (per exemple, la fotosíntesi) perquè els alumnes els revisin a casa abans de la classe. A l'aula, el temps es dedica a la resolució de dubtes, la realització d'experiments pràctics (amb simulacions digitals si cal) i la discussió en grup. Els dispositius digitals s'utilitzen per accedir al material previ, per fer recerca addicional durant els experiments o per col·laborar en la creació de presentacions que resumeixin els aprenentatges, fomentant el pensament actiu i la presa de decisions.
+El domini nou central del marc. AIAK implica comprendre:
 
-3.  **Batxillerat/Formació Professional (FP): Simulació de Gestió Empresarial**
-    En un mòdul d'economia o administració, els alumnes participen en una simulació empresarial en línia. Utilitzen plataformes digitals que repliquen un entorn de mercat, on han de prendre decisions sobre producció, màrqueting i finances. Aquesta eina els permet manipular dades, analitzar resultats en temps real i observar les conseqüències de les seves decisions. El professorat actua com a facilitador, guiant l'anàlisi i la reflexió, i els alumnes presenten els seus resultats i estratègies utilitzant eines de presentació avançades, preparant-los per a un entorn professional digitalitzat.
+- **Funcionament bàsic**: com generen text els LLM (predicció de tokens, temperatura, context window), quines dades d'entrenament els condicionen i per què al·lucinen.
+- **Capacitats i limitacions**: en quines tasques la IA és robusta (paràfrasis, síntesi, generació d'exemples, formatació) i en quines és fràgil (raonament causal complex, matemàtiques avançades, coneixement recent, representació de cultures minoritàries).
+- **Interacció efectiva**: com formular prompts que reduïxen l'ambigüitat, com verificar les sortides, com definir el rol de l'agent en una activitat concreta.
+- **Eines disponibles**: quines plataformes existeixen, quins models les alimenten, quines diferències rellevants hi ha per a contextos educatius quant a privacitat, idioma i accessibilitat.
 
-#### Errors comuns — què NO fer
+AIAK no és "saber usar ChatGPT". És la comprensió estructural que permet al docent prendre decisions pedagògiques informades sobre la IA — incloent-hi la decisió de no usar-la.
 
-1.  **Considerar la tecnologia com un fi en si mateixa o una solució màgica a tots els problemes educatius.**
-    *Fonament teòric:* Els documents emfatitzen la "convivencia entre el mundo digital y analógico, ambos complementarios y compatibles". Això implica que la tecnologia és una eina al servei de la pedagogia, no el centre de l'aprenentatge. Si es prioritza la tecnologia per sobre dels objectius pedagògics, es corre el risc de desviar l'atenció del procés d'aprenentatge real i de no aprofitar el potencial dels mètodes analògics que encara són valuosos. L'ús sense propòsit pedagògic clar pot portar a la distracció i a una superficialitat en l'adquisició de coneixements.
+### Coneixement Ètic (EK)
 
-2.  **No revisar ni adaptar l'ús de la tecnologia i les estratègies digitals de manera regular.**
-    *Fonament teòric:* Els documents assenyalen que "dados los cambios vertiginosos que se están produciendo en este mundo digital, este documento debe ser evaluado y revisado con cierta regularidad para responder mejor a cada realidad y al momento que cada centro esté viviendo". Ignorar aquesta necessitat de revisió constant significa que les pràctiques tecnològiques poden quedar obsoletes ràpidament, ser ineficients o fins i tot contraproduents. El que funciona avui pot no funcionar demà, i la manca d'adaptació pot generar frustració i desaprofitament de recursos.
+El quart domini, no un afegit sinó un eix transversal. EK implica:
 
-3.  **Limitar l'ús de la tecnologia a la consulta passiva d'informació o a tasques de baixa complexitat.**
-    *Fonament teòric:* Els documents descriuen una evolució de l'ús d'internet que va més enllà de "consultar información o intercambiar correos electrónicos". Es destaca que els estudiants "pueden pensar activamente en la información, tomar decisiones, manipular o mostrar información" i que la tecnologia facilita la "investigación con mayor facilidad". Reduir la tecnologia a una simple eina de recerca passiva desaprofita el seu potencial per fomentar el pensament crític, la creativitat, la col·laboració i la resolució de problemes, que són competències clau en l'era digital.
+- **Responsabilitat algorísmica**: entendre que els biaixos dels models reflecteixen biaixos dels corpus d'entrenament, i que el docent és responsable de les decisions pedagògiques que delega a l'agent.
+- **Privacitat i dades**: saber quines dades es transmeten a plataformes externes, quin tractament reben i com protegir les dades d'alumnes menors.
+- **Transparència i autoria**: establir normes clares sobre la declaració de l'ús de la IA en produccions acadèmiques, tant per a l'alumnat com per al professorat.
+- **Equitat d'accés**: reconèixer que l'accés diferencial a eines d'IA pot ampliar bretxes d'aprenentatge si no es gestiona de forma proactiva.
 
-#### Matissos i excepcions
+En la tradició educativa de FJE, EK ressona directament amb el *discerniment ignasià*: la pregunta no és "puc fer-ho?" sinó "és bo per a la persona i per a la comunitat que ho faci?".
 
-Atès que els documents proporcionats no detallen el Marc AIA — PCEK, els matisos i excepcions es refereixen a la integració general de la tecnologia a l'aula.
+## La intersecció que defineix el nucli
 
-*   **Quan NO aplica o quan cal ser cautelós:** La integració tecnològica no sempre és la millor opció. Hi ha moments en què les activitats analògiques (lectura de llibres físics, escriptura manual, debat oral sense suport digital, manipulació de materials concrets) poden ser més efectives per a certs objectius d'aprenentatge, especialment en el desenvolupament de la motricitat fina, la concentració sense distraccions o la interacció social directa. La tecnologia no ha de substituir la interacció humana significativa ni el pensament profund.
-*   **Límits de la integració:** Els documents suggereixen que la tecnologia ha de ser complementària i compatible amb el món analògic. Això implica que hi ha un límit a la digitalització total de l'aula. Un ús excessiu o inadequat pot generar dependència, dificultats de concentració, problemes de salut visual o postural, o una disminució de les habilitats de comunicació interpersonal. La "convivència" implica un equilibri.
-*   **Tensions amb altres marcs o enfocaments pedagògics:** Mentre que la tecnologia pot potenciar l'aprenentatge individualitzat i l'accés a la informació, pot generar tensions amb enfocaments que prioritzen la interacció social cara a cara, el treball cooperatiu sense mediació digital o el desenvolupament de la resiliència davant la frustració sense l'ajuda immediata de la tecnologia. La clau és integrar la tecnologia de manera que reforci, i no soscavi, els principis pedagògics fonamentals del centre.
+El valor del marc no resideix en els quatre dominis per separat, sinó en les seves interseccions:
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **AIAK ∩ PK**: saber *com* funciona la IA en un context concret i *quan* integrar-la en una seqüència didàctica.
+- **AIAK ∩ CK**: saber quin coneixement disciplinari la IA representa bé i quin distorsiona — per exemple, la IA és molt més fiable en matemàtiques de currículum estàndard que en literatura catalana contemporània.
+- **EK ∩ PK**: dissenyar activitats que no deleguin a la IA decisions que pertanyen a la relació educativa humana: avaluació formativa d'orientació personal, acompanyament emocional, detecció de necessitats no verbalitzades.
+- **EK ∩ CK ∩ AIAK ∩ PK**: el nucli competencial complet — la "pedagogia amb agents IA" que el marc proposa com a meta de la formació docent.
 
-*   **Estrategia_AulaInvertida**: Els documents mencionen les "aulas invertidas" com una de les alternatives educatives que la tecnologia desafia i potencia.
-*   **Estrategia_AprenentatgeHibrid**: Es fa referència als "modelos educativos híbridos y en línea" com a part de les transformacions que la tecnologia ha portat a l'educació.
-*   **Perfil_AlumnatDigitalNatiu**: Els documents descriuen com els estudiants estan immersos en un món digital i com la tecnologia és una eina necessària, la qual cosa ressona amb les característiques d'aquest perfil.
-*   **Normativa_UsDispositiusDigitals**: Els documents són una "guia, y no un documento normativo", però sorgeixen de la necessitat d'establir "orientaciones generales sobre el uso de dispositivos", la qual cosa indica la importància de la regulació o orientació en l'ús de la tecnologia.
+## Del TPACK al AIA-PCEK: les diferències clau
 
-### 3. DETECCIÓ (Variables de Context)
+| Dimensió | TPACK | AIA-PCEK |
+|---|---|---|
+| Naturalesa de la tecnologia | Eina estàtica | Agent dinàmic |
+| Interacció docent–tecnologia | El docent usa la tecnologia | La IA actua sobre l'entorn pedagògic |
+| Nous dominis | Cap (intersecció T + P + C) | AIAK + EK com a dominis propis |
+| Posició de l'ètica | Implícita en el bon ús | Domini estructural explícit |
+| Focus de la formació | Competència operativa | Comprensió estructural + discerniment |
 
-*   **Senyals del docent:**
-    *   "Com puc fer que els meus alumnes estiguin més interessats i centrats en el tema d'estudi?"
-    *   "Busco maneres d'individualitzar la instrucció i adaptar el ritme d'aprenentatge a cada alumne."
-    *   "Vull incorporar més recerca i accés a informació actualitzada a les meves classes."
-    *   "Em pregunto com puc desafiar el model tradicional d'aula i explorar alternatives com l'aula invertida o models híbrids."
-    *   "Necessito orientació sobre com gestionar la presència de dispositius personals a l'aula de manera pedagògica i efectiva."
-*   **Senyals de l'alumne:**
-    *   Mostra desinterès o desconnexió amb els mètodes d'aprenentatge tradicionals.
-    *   Busca informació de manera autònoma en línia, fins i tot quan no se li demana.
-    *   Té dificultats per seguir el ritme de la classe o necessita més temps per processar la informació.
-*   **Senyals de context:**
-    *   La majoria dels alumnes tenen accés a dispositius digitals personals amb connexió a internet.
-    *   El centre educatiu busca actualitzar les seves pràctiques pedagògiques per respondre a la realitat digital.
-    *   Hi ha una inquietud generalitzada entre famílies i professorat sobre l'ús de pantalles.
-*   **Anti-senyals:**
-    *   El docent busca una solució ràpida i universal per a tots els problemes pedagògics, sense voler adaptar-se al context.
-    *   L'objectiu principal és simplement "estar al dia" amb la tecnologia, sense un propòsit pedagògic clar.
-    *   Es vol substituir completament els mètodes analògics per la tecnologia, sense considerar la complementarietat.
+La diferència pràctica: un docent amb TPACK convencional pot aprendre a "usar" una eina d'IA sense entendre per què al·lucina, quins biaixos incorpora o quines dades envia fora del centre. Un docent amb AIA-PCEK pren decisions informades sobre *si*, *com* i *fins on* delegar a l'agent.
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+## Errors comuns en la integració
 
-*   **Principi general:** La tecnologia és una eina potent per a la transformació pedagògica quan s'integra de manera reflexiva i amb un propòsit clar, complementant i no substituint altres metodologies.
+**Confondre AIAK amb literacy digital genèrica.** Saber crear un compte a ChatGPT o fer un prompt bàsic no és AIAK. AIAK és la comprensió estructural suficient per detectar un al·lucinat, per avaluar quan una sortida és fiable i per explicar a l'alumnat per què la IA s'equivoca d'una manera determinada.
 
-*   **Heurístiques per a l'Agent DOCENT:**
+**Tractar EK com una llista de prohibicions.** L'ètica en el marc AIA-PCEK no és una normativa d'ús acceptable; és un domini de coneixement que informa el disseny pedagògic. Un docent que incorpora EK no afegeix una diapositiva sobre privacitat al principi de curs: integra la reflexió sobre responsabilitat i autoria en la pròpia activitat.
 
-    1.  **Heurística: "Potenciador de la Curiositat i la Recerca Autònoma"**
-        *   **Quan aplica:** Quan un docent expressa la necessitat d'augmentar l'interès dels alumnes, fomentar la recerca o proporcionar accés a informació diversa i actualitzada.
-        *   **Fonament:** Els documents destaquen que la tecnologia permet als estudiants accedir a "recursos amplios para facilitar la investigación con mayor facilidad" i que estan "más interesados, centrados y apasionados con los temas de su estudio" quan la utilitzen.
-        *   **Exemple complet de raonament:** Si un docent em pregunta: "Els meus alumnes de secundària semblen desmotivats amb els temes d'història i els costa fer recerca més enllà del llibre de text. Com puc canviar això?", l'agent raonaria que la tecnologia pot ser un potent catalitzador. Podria suggerir l'ús de recursos digitals com arxius històrics en línia, documentals interactius o plataformes de realitat virtual que permetin "viure" la història. La tecnologia no només proporciona accés a més informació, sinó que la presenta de maneres més atractives i interactives, permetent als alumnes "pensar activamente en la información" i "manipular o mostrar información" de manera creativa, la qual cosa pot augmentar significativament el seu interès i la profunditat de la seva recerca.
+**Aplicar AIA-PCEK com si fos una rúbrica de certificació.** El marc és un mapa de competències per orientar la formació i la reflexió professional, no un estàndard de titulació. Un docent pot tenir AIAK alt en matemàtiques i necessitar suport en literatura en llengües minoritàries.
 
-    2.  **Heurística: "Facilitador de la Individualització de l'Aprenentatge"**
-        *   **Quan aplica:** Quan un docent busca estratègies per atendre la diversitat de ritmes i estils d'aprenentatge a l'aula, o per oferir una instrucció més personalitzada.
-        *   **Fonament:** Els documents afirmen que "Los estudiantes más fácilmente son capaces de lograr directa e individualizada instrucción y de aprender a un ritmo acomodado a su desarrollo" mitjançant l'ús de la tecnologia.
-        *   **Exemple complet de raonament:** Si un docent expressa: "Tinc alumnes amb ritmes molt diferents a la meva classe de primària; alguns van molt ràpid i altres necessiten més temps. Com puc assegurar-me que tots avancen sense que ningú es quedi enrere o s'avorreixi?", l'agent consideraria la tecnologia com una eina clau per a la individualització. Podria proposar l'ús de plataformes d'aprenentatge adaptatiu que ofereixen exercicis i continguts a diferents nivells de dificultat, o la creació de "corners" digitals on els alumnes puguin accedir a materials de reforç o d'ampliació segons les seves necessitats. Això permet que cada alumne "aprenda a un ritmo acomodado a su desarrollo", alliberant el docent per oferir suport més directe als qui ho necessiten.
+## 3. Connexions amb altres documents del corpus
 
-    3.  **Heurística: "Transformador de l'Espai i el Temps d'Aprenentatge"**
-        *   **Quan aplica:** Quan un docent vol innovar en la metodologia, com ara implementant l'aula invertida o models híbrids, o quan busca estendre l'aprenentatge més enllà dels límits físics de l'aula.
-        *   **Fonament:** Els documents mencionen explícitament "Las aulas invertidas, el rápido acceso al material curricular y a los modelos educativos híbridos y en línea, ahora desafían, con interesantes alternativas, el modelo de educación de 'ladrillo y mortero'".
-        *   **Exemple complet de raonament:** Si un docent diu: "M'agradaria que els meus alumnes de batxillerat aprofitessin més el temps de classe per a debats i projectes, en lloc de només escoltar explicacions. He sentit parlar de l'aula invertida, però no sé com començar", l'agent raonaria que la tecnologia és fonamental per a aquesta transformació. Podria suggerir l'ús de plataformes de vídeo o entorns virtuals d'aprenentatge on el docent pugui penjar les explicacions teòriques o materials de lectura perquè els alumnes els consumeixin a casa. Això "desafia el modelo de educación de 'ladrillo y mortero'" permetent que el temps presencial es dediqui a activitats més interactives i de major ordre cognitiu, com la "toma de decisiones" i la "manipulación de información" en projectes col·laboratius.
+- **M5_AIA-TPACK-framework** — el TPACK original (Mishra & Koehler 2006) és el punt de partida explícit d'AIA-PCEK; els dos documents han de llegir-se en seqüència: primer el fonament, després l'extensió.
+- **M5_arquitectura-proposit-rol-nivell** — els graus MIHIA (N0–N5) i els propòsits d'aprenentatge operacionalitzen el domini AIAK en decisions de disseny instruccional concretes.
+- **M5_nivells-delegacio-mihia** — el sostre de delegació per etapa és la manifestació pràctica del domini EK ∩ PK: fins on és pedagògicament i èticament adequat delegar a un agent IA.
+- **M5_rols-IA-educacio** — la tipologia de rols (tutora, creadora, avaluadora…) de Mollick és la traducció del AIAK a funcions concretes a l'aula.
+- **M5_disseny-instruccional-amb-IA** — protocol que operacionalitza el nucli AIAK ∩ PK en una seqüència pas a pas per al disseny d'activitats.
+- **M0_marc-general-ia** — marc institucional FJE que incorpora el Model 4D i els graus N0–N5; AIA-PCEK és el fonament acadèmic internacional que avala les decisions conceptuals d'aquell marc.
+- **M8_etica-algoritmica-biaixos** — desenvolupa en profunditat el domini EK: biaixos algorísmics, responsabilitat, transparència i auditabilitat.
+- **M8_GDPR-privacitat-centre** — la dimensió legal del domini EK: protecció de dades d'alumnes en plataformes d'IA externes.
 
-    4.  **Heurística: "Eina per a la Creació i Expressió Multimodal"**
-        *   **Quan aplica:** Quan un docent vol que els alumnes desenvolupin habilitats de comunicació més enllà del text escrit, o quan busca maneres de fer l'aprenentatge més creatiu i tangible.
-        *   **Fonament:** Els documents indiquen que amb la tecnologia "creamos y publicamos contenido multimedia en segundos" i que els alumnes "pueden manipular o mostrar información" de diverses maneres.
-        *   **Exemple complet de raonament:** Si un docent comenta: "Els meus alumnes de 4t d'ESO tenen bones idees, però els costa expressar-les de manera original en els treballs escrits. M'agradaria que poguessin mostrar el que saben d'una altra manera", l'agent raonaria que la tecnologia ofereix múltiples vies d'expressió. Podria suggerir la creació de podcasts, vídeos curts, infografies interactives o presentacions multimèdia com a formats per als seus treballs. Això permet als alumnes "crear y publicar contenido multimedia", desenvolupant no només la seva comprensió del tema, sinó també competències digitals i creatives, i la capacitat de comunicar-se de manera més efectiva en un món multimodal.
+## 4. Detecció
 
-    5.  **Heurística: "Gestor de la Convivència Digital i Analògica"**
-        *   **Quan aplica:** Quan un docent o centre té preocupacions sobre l'equilibri entre l'ús de la tecnologia i els mètodes tradicionals, o sobre la gestió dels dispositius a l'aula.
-        *   **Fonament:** Els documents emfatitzen la importància de la "convivencia entre el mundo digital y analógico, ambos complementarios y compatibles en nuestros colegios" i que la tecnologia ha de ser una "ayuda, guía, y no un documento normativo".
-        *   **Exemple complet de raonament:** Si un docent pregunta: "Em preocupa que l'ús constant de pantalles faci que els meus alumnes perdin habilitats de concentració o d'interacció social directa. Com puc trobar un equilibri?", l'agent raonaria que la clau és la "convivència" i la intencionalitat pedagògica. Podria suggerir establir moments clars per a l'ús de dispositius i moments per a activitats analògiques, com ara lectures en paper, debats sense pantalles o treballs manuals. L'agent podria també proposar que, quan s'utilitzi la tecnologia, es faci amb un propòsit educatiu clar que fomenti la col·laboració o el pensament crític, en lloc de la simple distracció. L'objectiu és que la tecnologia sigui un complement que enriqueixi, no que substitueixi indiscriminadament, les experiències d'aprenentatge tradicionals i les habilitats socials.
+### Senyals del docent
 
-*   **Heurístiques per a l'Agent ALUMNE:**
+- Planifica activitats amb IA sense distingir entre tasques on la IA és fiable i tasques on pot distorsionar (senyal de AIAK insuficient).
+- No té criteri propi sobre quan preservar la fricció cognitiva i delega automàticament a la IA tota tasca que percep com a repetitiva, incloent-hi les que construeixen automaticitat o aprenentatge profund.
+- Formula la pregunta sobre l'ús de la IA exclusivament com a pregunta tècnica ("com ho uso?") sense pregunta pedagògica ("hauria d'usar-ho aquí?") ni ètica ("quines conseqüències té per a l'alumnat?").
+- Desconeix les condicions de privacitat de les eines que fa servir i transmet dades d'alumnes sense protocol de protecció.
 
-    1.  **Heurística: "Explorador de Recursos i Coneixement"**
-        *   **Quan aplica:** Quan un alumne necessita aprofundir en un tema, trobar informació addicional o explorar diferents perspectives sobre un contingut.
-        *   **Fonament:** Els documents destaquen que els estudiants "tienen acceso a la información sin salir siquiera de su salón de clase" i poden "acceder a recursos amplios para facilitar la investigación con mayor facilidad".
-        *   **Exemple complet de raonament:** Si un alumne diu: "No he entès del tot el tema de la fotosíntesi amb l'explicació del llibre. Hi ha alguna altra manera de comprendre-ho?", l'agent raonaria que la tecnologia pot obrir un món de recursos. Podria suggerir a l'alumne que busqui vídeos explicatius animats, simulacions interactives o articles divulgatius en línia que presentin el mateix concepte des d'una altra perspectiva o amb un llenguatge més accessible. Això permet a l'alumne "acceder a recursos amplios" i "pensar activamente en la información" fins a trobar la manera que millor s'adapti al seu estil d'aprenentatge, fomentant la seva autonomia en la recerca de coneixement.
+### Senyals de l'alumne
 
-    2.  **Heurística: "Creador Actiu i Comunicador Digital"**
-        *   **Quan aplica:** Quan un alumne vol expressar les seves idees de manera creativa, presentar un projecte o compartir el seu aprenentatge amb altres, anant més enllà del format tradicional.
-        *   **Fonament:** Els documents assenyalen que amb la tecnologia "pueden pensar activamente en la información, tomar decisiones, manipular o mostrar información" i "creamos y publicamos contenido multimedia en segundos".
-        *   **Exemple complet de raonament:** Si un alumne pregunta: "He de fer un treball sobre el canvi climàtic, però no vull fer només una presentació de diapositives avorrida. Puc fer alguna cosa més original?", l'agent raonaria que la tecnologia ofereix múltiples eines per a la creació. Podria suggerir a l'alumne que creï un curtmetratge, un podcast amb entrevistes simulades, una infografia interactiva o un mapa conceptual digital col·laboratiu. Això permet a l'alumne "manipular o mostrar información" de manera innovadora, desenvolupant la seva creativitat i les seves habilitats de comunicació digital, i fent el procés d'aprenentatge més "interesado, centrado y apasionado".
+- Produeix treballs que no pot defensar ni explicar oralment, senyal que la delegació a la IA ha superat el sostre pedagògic adequat per a l'etapa i l'objectiu d'aprenentatge.
+- No distingeix entre sortides fiables i al·lucinades; accepta qualsevol output sense verificació.
+- Desenvolupa dependència funcional en dominis on el currículum requereix autonomia: no pot iniciar una tasca de redacció o resolució sense suport de la IA.
 
-    3.  **Heurística: "Gestor del Ritme i Aprenentatge Personalitzat"**
-        *   **Quan aplica:** Quan un alumne sent que el ritme de la classe no s'ajusta a les seves necessitats, ja sigui perquè va massa ràpid o massa lent, o quan necessita repassar continguts.
-        *   **Fonament:** Els documents indiquen que la tecnologia permet als estudiants "aprender a un ritmo acomodado a su desarrollo" i facilita la "instrucción directa e individualizada".
-        *   **Exemple complet de raonament:** Si un alumne diu: "M'ha costat molt seguir l'explicació de matemàtiques d'avui i em sento una mica perdut. Puc fer alguna cosa per repassar-ho al meu ritme?", l'agent raonaria que la tecnologia és una aliada per a l'aprenentatge autònom. Podria suggerir a l'alumne que accedeixi a les gravacions de la classe (si n'hi ha), a tutorials de matemàtiques en línia, o a plataformes amb exercicis interactius que proporcionin feedback immediat. Això li permetrà "aprender a un ritmo acomodado a su desarrollo", repassant els conceptes tantes vegades com necessiti i reforçant la seva comprensió abans de la següent classe, sense la pressió del ritme grupal.
----
+### Senyals del context
 
-## 5. FONTS DEL CORPUS
+- Un centre planifica formació docent en IA centrada exclusivament en eines i plataformes, sense component de comprensió estructural (AIAK) ni reflexió ètica (EK).
+- Un equip directiu adopta eines d'IA per a funcions sensibles (informes, orientació, seguiment d'alumnat) sense protocol de supervisió humana explícit.
+- El currículum de competència digital del centre no inclou cap referència a la comprensió del funcionament dels models d'IA ni a la crítica de les seves sortides.
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Uso de las tecnologias en el aula. EDUCSI (1) | file://upload/Uso de las tecnologias en el aula. EDUCSI (1).pdf |
-| 2 | Documento pantallas ok | file://upload/Documento pantallas ok.pdf |
+### Anti-senyals
 
-*2 documents font · secció generada automàticament*
+- Docent que ja integra la IA de forma reflexiva, que pot explicar per què una sortida és fiable o no, i que ha integrat la pregunta ètica al disseny de les activitats: AIA-PCEK no és un diagnòstic, és un mapa de formació avançada per articular la pràctica amb vocabulari acadèmic.
+- Formació en eines d'IA específiques (Canva, NotebookLM, Copilot) on l'objectiu és la competència operativa concreta: AIA-PCEK és un marc conceptual, no un manual d'eines.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- Davant qualsevol activitat amb IA, aplicar les tres preguntes AIA-PCEK: (1) Entenc com funciona la IA en aquest context i quines limitacions té? (2) Aquesta delegació té sentit pedagògic aquí? (3) Hi ha implicacions ètiques (privacitat, autoria, equitat) que haig de gestionar?
+- Per a la formació del claustre, usar la taula TPACK↔AIA-PCEK per situar on és l'equip i quins dominis necessiten enfortir; la majoria de claustres parteixen de PK i CK alts però AIAK i EK baixos.
+- AIAK no s'aprèn llegint documentació: s'aprèn en sessió pràctica on es detecten al·lucinats, es comparen sortides i s'analitzen biaixos amb exemples de la pròpia matèria.
+
+#### Heurístiques per a l'alumne
+
+- La pregunta de referència per a qualsevol ús de la IA en una tasca d'aprenentatge és: "puc explicar per què la IA ha fet el que ha fet i si és correcte?". Si no, o la tasca no és adequada per a IA en aquell moment, o manca formació en AIAK bàsic.
+
+## 5. Fonts
+
+- Mimoudi, A., & Mokhtari, K. (2025). Artificial Intelligence Agent – Pedagogical Content Ethical Knowledge (AIA-PCEK): A new framework for teaching with artificial intelligence. *Cogent Education, 12*(1). https://doi.org/10.1080/2331186X.2025.2563171
+- Mishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. *Teachers College Record, 108*(6), 1017–1054.
+- Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. *Educational Researcher, 15*(2), 4–14.
+- Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021). Conceptualizing AI literacy: An exploratory review. *Computers and Education: Artificial Intelligence, 2*, 100041.
+- Projecte Erasmus+ VOLCANIC (2022–2025). *Vocational Learning with AI: New Innovative Competences.* Marc en el qual va ser proposat el model AIA-PCEK.
