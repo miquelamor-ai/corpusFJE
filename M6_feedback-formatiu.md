@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:33:38
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Definició i principis
 
 El feedback formatiu, o retroalimentació formativa, és el cor d'una avaluació que posa l'aprenentatge al centre. Tradicionalment, l'avaluació s'ha entès com un procés principalment qualificatiu, on l'alumne demostrava el que havia après i el docent assignava una nota. No obstant això, la mirada actual, especialment en el marc del currículum per competències, ha evolucionat cap a una avaluació que és, abans que res, una eina per aprendre i per regular el procés d'ensenyament-aprenentatge. Com diu María Acaso, "Hem d'anar d'un aprenentatge projectat a l'avaluació a una avaluació projectada a l'aprenentatge."
@@ -79,21 +77,18 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
 *   **Temps i maduresa per a l'autoregulació**: L'aprenentatge de l'autoregulació no és immediat. Comportarà temps i un acompanyament continu per part del professorat, tant des del punt de vista cognitiu com emocional. En alguns casos, els alumnes poden trigar més d'un any a interioritzar què significa autoregular-se. Això implica que el feedback formatiu ha de ser persistent, coherent entre tot el claustre i adaptat a la maduresa de l'alumne. Com més petits comencen a desenvolupar aquesta capacitat, millor, ja que després dels 14 anys, amb una autoimatge més consolidada, pot ser més difícil. Per tant, no es pot esperar una autonomia plena des del primer moment, sinó que és un procés gradual que requereix paciència i estratègies pedagògiques continuades.
 *   **Flexibilitat en els instruments i la rutina**: No hi ha una "talla única" per als instruments de feedback formatiu. La carpeta d'aprenentatge, les rúbriques o les bases d'orientació han de poder adaptar-se al contingut, a les característiques de l'alumnat i als recursos disponibles. És important variar les estructures i els formats per evitar la rutina i mantenir l'interès. Això significa que, si bé els principis del feedback formatiu són universals, la seva materialització en eines concretes ha de ser flexible i contextualitzada, evitant la rigidesa que podria buidar de sentit la pràctica.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Pla de Suport Individualitzat (PI)**: Aquest document explica com el PI és un acord d'avaluació clau per adaptar els criteris i suports a alumnes amb necessitats lingüístiques o acadèmiques, connectant amb la flexibilitat del feedback formatiu per a la inclusió.
-*   **Carpeta d'aprenentatge**: Es descriu com una eina fonamental per recollir evidències i reflexionar sobre el propi aprenentatge, sent un instrument directe per a l'avaluació formadora i l'autoregulació.
-*   **Autoavaluació i Coavaluació**: Aquests documents detallen estratègies i pautes per a la implementació d'aquestes pràctiques, que són components essencials del feedback formatiu per empoderar l'alumne en la regulació del seu aprenentatge.
-*   **Rúbrica per a l'avaluació de la resolució reflexiva i argumentada de problemes aritmètics**: Aquest document és un exemple concret d'instrument que facilita el feedback formatiu, ja que explicita els criteris d'èxit i permet a l'alumne i al docent identificar el nivell d'assoliment i els punts de millora.
-*   **Base d'orientació**: Aquesta eina es presenta com un instrument d'avaluació formativa que ajuda a l'alumne a planificar-se i autoavaluar-se, mostrant una seqüència d'accions per resoldre una tasca.
-*   **Pautes per a la gestió formativa d'una prova o activitat d'avaluació**: Aquest document ofereix directrius pràctiques sobre com dissenyar i gestionar proves per maximitzar el seu potencial formatiu, complementant els principis del feedback.
-*   **Full d'indicadors per a l'ensenyant (Compartir objectius i criteris d'avaluació)**: Aquest document proporciona una llista de comprovació per als docents sobre com comunicar eficaçment els objectius i criteris, una condició indispensable per a un feedback formatiu efectiu.
-*   **Documents de modificació de proves d'avaluació (Cicle Inicial, Mitjà, Superior)**: Aquests exemples il·lustren com transformar proves tradicionals en activitats més competencials i autèntiques, que generen més oportunitats per a un feedback formatiu significatiu.
-*   **Avaluació formativa: Què hi ha de nou? (Dra. Jane Jones)**: Aquest article aprofundeix en les tendències i la importància de l'avaluació per aprendre, reforçant la base teòrica del feedback formatiu.
+- **`M6_avaluacio-formativa-formadora.md`** — El feedback és l'eina operativa de l'avaluació formativa: sense retroalimentació específica i accionable, l'avaluació no regula l'aprenentatge
+- **`M6_coavaluacio-autoavaluacio.md`** — El feedback entre iguals és una forma de coavaluació: activar la veu de l'alumne com a font de retroalimentació enriqueix i democratitza el procés d'avaluació
+- **`M6_portfoli-evidencies.md`** — El portfoli és el destinatari natural del feedback formatiu: evidència + feedback + reflexió de l'alumne = cicle complet d'aprenentatge autoregulat
+- **`M2_factors-promotors-aprenentatge.md`** — El feedback activa la metacognició i la ZDP: la retroalimentació que situa l'alumne just per sobre del seu nivell actual és el motor del progrés
+- **`M1_neurodiversitat-NESE.md`** — El feedback per a alumnat NESE ha de ser ajustat al perfil: oral i específic (dislèxia), immediat i breu (TDAH), literal i sense ambigüitat (TEA)
+- **`M0_cura-personalis.md`** — El feedback és un acte de Cura Personalis quan parteix del coneixement real de l'alumne: dir la veritat amb amor i precisió és el criteri ignasià del bon feedback
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-**Senyals del docent**
+### Senyals del docent
 *   "Els meus alumnes no entenen per què fan les activitats o quins són els criteris per fer-les bé."
 *   "Les meves avaluacions finals no reflecteixen prou bé el procés d'aprenentatge, només el resultat."
 *   "Els alumnes no saben com millorar després de rebre una nota o una correcció."
@@ -102,14 +97,14 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
 *   "Com puc fer que l'avaluació sigui menys estressant i més motivadora per als meus alumnes?"
 *   "El feedback que dono no sembla tenir un impacte real en la millora dels aprenentatges."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   "No sé què he de fer per millorar aquesta tasca."
 *   "Només m'interessa la nota final, no entenc per què he de revisar la meva feina."
 *   "Tinc por d'equivocar-me o de preguntar perquè no vull que em penalitzin."
 *   "Em sento perdut/da durant les tasques complexes i no sé com començar o continuar."
 *   "No entenc per a què serveix aquesta activitat en concret."
 
-**Senyals de context**
+### Senyals de context
 *   A l'inici d'una nova unitat didàctica, projecte o tasca complexa.
 *   Durant el desenvolupament d'una activitat que requereix un procés de creació o resolució de problemes.
 *   Després de la realització d'una activitat o prova, abans de la qualificació final.
@@ -117,18 +112,18 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
 *   Quan es busca fomentar l'autonomia, la metacognició i el treball col·laboratiu.
 *   En moments de revisió o consolidació d'aprenentatges.
 
-**Anti-senyals**
+### Anti-senyals
 *   Si l'objectiu principal i gairebé exclusiu de l'avaluació és la certificació externa o la selecció d'alumnes per a un programa molt específic amb criteris estandarditzats i innegociables.
 *   Si el docent no està disposat a ajustar la seva planificació didàctica o les seves estratègies d'ensenyament en funció de les evidències recollides a través del feedback.
 *   Si no hi ha temps, espai o recursos per a la reflexió, el diàleg i la revisió a l'aula.
 *   Si la cultura del centre o de l'aula penalitza sistemàticament l'error sense oferir oportunitats de millora.
 *   Si el feedback es dona de manera massiva i genèrica, sense personalització ni especificitat per a cada alumne o grup.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general**: Prioritza sempre la funció reguladora de l'avaluació per potenciar l'autonomia i la millora contínua de l'aprenentatge.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 
 1.  **Heurística: Fomenta la metacognició des del principi.**
     *   **Quan aplica**: En iniciar qualsevol activitat, unitat o projecte.
@@ -155,7 +150,7 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
     *   **Fonament**: Les persones expertes planifiquen i anticipen els passos. Ensenyar als alumnes a fer-ho els ajuda a desenvolupar estratègies cognitives superiors, a gestionar millor el temps i els recursos, i a ser més autònoms en la resolució de problemes.
     *   **Exemple complet de raonament**: Davant un docent que assigna un treball de recerca als seus alumnes de batxillerat, en lloc de deixar-los començar directament, convé dedicar una sessió a la creació d'una "base d'orientació" col·lectiva. Aquesta eina, que resumeix els passos clau i les accions a seguir (com ara "definir el tema", "buscar fonts fiables", "estructurar la informació", "redactar l'esborrany", "revisar amb la rúbrica"), permet als alumnes planificar la seva feina, anticipar possibles dificultats i tenir un full de ruta clar. Utilitzar aquesta base d'orientació no només com a guia, sinó també com a instrument d'autoavaluació durant el procés, fomenta la seva autonomia i la seva capacitat per gestionar projectes complexos de manera efectiva, reduint la sensació de desbordament i augmentant la probabilitat d'èxit.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: Busca entendre el "per què" i el "com" de la teva feina.**
     *   **Quan aplica**: Abans de començar una tasca o quan no entens el seu propòsit o els criteris d'avaluació.
@@ -171,23 +166,11 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
     *   **Quan aplica**: Quan treballes en grup o quan el docent proposa autoavaluació/coavaluació.
     *   **Fonament**: Reflexionar sobre el teu propi aprenentatge (autoavaluació) i rebre perspectives dels companys (coavaluació) et proporciona una visió més completa del teu progrés. Aquesta pràctica t'ajuda a identificar punts cecs, a millorar habilitats de pensament crític i a desenvolupar la capacitat de donar i rebre feedback constructiu.
     *   **Exemple complet de raonament**: Davant un alumne que ha de fer una presentació oral en grup i el docent ha proporcionat una rúbrica, una orientació útil és que, abans de la presentació final, utilitzi la rúbrica per autoavaluar la seva part i demani a un company que coavaluï la seva actuació. Es pot preguntar al company: "Què creus que he fet bé en la meva exposició?", "Què podria millorar en la meva part?", "La meva explicació és clara i entenedora per a tu?". Aquest procés de reflexió individual i intercanvi amb els iguals no només millora la qualitat del treball final, sinó que també desenvolupa habilitats de pensament crític i comunicació, preparant l'alumne per a un aprenentatge més col·laboratiu i autònom en el futur.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 6 | cursos:curriculum:inf_pri:cape:aval:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/index |
-| 12 | carpeta-aprenentatge_2620ab3872.pdf | https://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/carpeta-aprenentatge.pdf |
-| 13 | 3._modificacio_prova_avaluacio_cicle_inicial_8594dbd6d4.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3._modificacio_prova_avaluacio_cicle_inicial.pdf |
-| 16 | La-carpeta-daprenentatge_2cdfda0ad0.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0003/0e9f449b-790e-4fd7-a9e9-1cab53252ae3/La-carpeta-daprenentatge.pdf |
-| 18 | 3a_presentacio_-autoexplicativa_5_9_88d91daaeb.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3a_presentacio_-autoexplicativa_5_9.pdf |
-| 20 | 2._es_competencial_aquesta_prova_b4b85a43ac.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/2._es_competencial_aquesta_prova.pdf |
-| 21 | Full-indicadors-compartir-objectius-i-criteris-ava_4448f3a238.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0083/c7780a61-36f9-4a59-aeca-21acafc597f3/Full-indicadors-compartir-objectius-i-criteris-avaluacio.pdf |
-| 23 | Pautes-per-compartir-objectius-i-criteris-d-avalua_32b5566812.pdf | http://xtec.gencat.cat/web/.content/documents/Pautes-per-compartir-objectius-i-criteris-d-avaluaci.pdf |
-| 26 | BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL_145f5a418f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0026/f5b4e60d-88cc-4364-bb7f-4cb2243769bf/BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 28 | autoavaluacio-coavaluacio_52971de36c.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/autoavaluacio-coavaluacio.pdf |
-| 29 | 81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d_60f99c9a2a.pdf | https://docs.wixstatic.com/ugd/81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d.pdf |
-| 30 | base-orientacio_7dc60ba889.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/base-orientacio.pdf |
-
-*12 documents citats de 30 al corpus · secció generada automàticament*
+- Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81-112.
+- Wiliam, D. (2011). *Embedded Formative Assessment*. Bloomington: Solution Tree Press.
+- Sanmartí, N. (2007). *10 idees clau: Avaluar per aprendre*. Barcelona: Graó.
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
+- Departament d'Educació (2022). *L'avaluació al llarg del procés d'aprenentatge*. Generalitat de Catalunya / XTEC.

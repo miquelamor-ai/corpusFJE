@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T16:19:58
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL MARC
-
 ## Definició i principis
 
 El Benestar Emocional i la Seguretat a l'escola es refereixen a la creació intencional d'un entorn educatiu on l'alumnat se senti protegit, comprès i capaç de desenvolupar-se plenament, tant a nivell acadèmic com personal i social. Aquest marc es fonamenta en la premissa que l'aprenentatge significatiu només pot tenir lloc en un clima de confiança i estabilitat emocional. L'objectiu és oferir a tot l'alumnat, especialment als més vulnerables, l'oportunitat d'aprendre en un entorn tranquil i coherent.
@@ -66,45 +64,45 @@ La **regulació emocional** es treballa a través d'intervencions proactives i u
 
 -   **Contextos de crisi, trauma o alta vulnerabilitat:** En situacions de crisi (catàstrofes naturals, pandèmies) o quan l'alumnat ha patit experiències de trauma o viu en contextos d'alta vulnerabilitat social, les necessitats de benestar emocional i seguretat es disparen. Les estratègies habituals poden requerir una intensificació o adaptacions més profundes, prioritzant la contenció emocional, la restauració de la sensació de seguretat i la satisfacció de necessitats bàsiques abans de qualsevol altra demanda acadèmica o conductual. En aquests casos, la flexibilitat i la capacitat de resposta ràpida són essencials.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
--   **perfil_alumnat_amb_dificultats_regulacio_conducta**: Aquest marc proporciona els fonaments teòrics per entendre les necessitats d'aquest perfil i dissenyar intervencions adequades.
--   **estrategia_gestio_aula_positiva**: Les estratègies descrites en aquest marc (entorns favorables, normes clares, reconeixement positiu) són la base d'una gestió d'aula efectiva.
--   **protocol_deteccio_suport_malestar_emocional**: Aquest marc estableix el "per què" i els principis darrere dels protocols de detecció i suport.
--   **eina_avaluacio_funcional_conducta**: L'avaluació funcional és una eina clau per aplicar els principis d'aquest marc en la comprensió de les conductes problemàtiques.
--   **normativa_convivencia_escolar**: Aquest marc proporciona la justificació pedagògica i els principis per a l'elaboració i aplicació de la normativa de convivència.
--   **marc_educacio_inclusiva**: El benestar emocional i la seguretat són pilars fonamentals per a una escola veritablement inclusiva, que acull i dona resposta a la diversitat.
+- **`M0_cura-personalis.md`** — La Cura Personalis és el principi ignasià que dóna sentit pedagògic al benestar emocional: l'atenció integral a la persona inclou necessàriament la dimensió emocional i relacional
+- **`M7_enfocament-restauratiu-ERG.md`** — L'enfocament restauratiu és la concreció pràctica del benestar emocional en els conflictes: la resposta que preserva el vincle i la dignitat és la que genera més seguretat
+- **`M7_gestio-aula-rutines.md`** — Les rutines d'aula son la infraestructura del benestar emocional: la previsibilitat, les normes compartides i els rituals creen el sentiment de seguretat per a l'aprenentatge
+- **`M1_trastorns-emocionals-conducta.md`** — Els TEC son la manifestació extrema de la vulnerabilitat emocional; el benestar és la primera mesura preventiva i l'escola com a espai reparador és l'horitzó
+- **`M2_factors-promotors-aprenentatge.md`** — La seguretat emocional és el prerequisit de tots els factors promotors: sense arousal segur (ni massa alt ni massa baix), cap estratègia cognitiva funciona de forma sostinguda
+- **`M0_educador-samarita.md`** — L'educador samarità és el garant del benestar emocional a l'aula: la presència, el vincle i la disponibilitat del docent son la base de la seguretat psicològica de tot el grup
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
--   **Senyals del docent:**
+### Senyals del docent
     -   "Els meus alumnes semblen ansiosos o estressats sovint."
     -   "Tinc dificultats per mantenir un clima d'aula tranquil i ordenat."
     -   "Observo molts conflictes entre els alumnes o conductes disruptives freqüents."
     -   "Em sento frustrat/da perquè les meves intervencions no canvien els comportaments problemàtics."
     -   "Vull millorar la relació amb alguns alumnes que considero 'difícils' o desconnectats."
     -   "Necessito eines per gestionar les emocions intenses a l'aula."
--   **Senyals de l'alumne:**
+### Senyals de l'alumne
     -   Manifesta ansietat, por, tristesa o irritabilitat de manera persistent.
     -   Presenta conductes disruptives o agressives freqüents sense causa aparent.
     -   Té dificultats per relacionar-se amb els companys o amb els adults, mostrant aïllament.
     -   Mostra poca autonomia o una dependència excessiva de l'adult.
     -   Dificultat per regular les seves emocions (rabietes, plors incontrolats, explosions de ràbia).
     -   Canvis sobtats en el seu rendiment acadèmic o en la seva motivació.
--   **Senyals de context:**
+### Senyals de context
     -   Canvis significatius en la dinàmica de l'aula o del centre (nous docents, reorganització d'espais, nous protocols).
     -   Moments de transició (inici de curs, canvis d'activitat, sortides, canvis d'aula, canvis de professorat).
     -   Activitats que generen alta demanda cognitiva o emocional (exàmens, treballs en grup amb rols poc definits).
     -   Grups amb alta heterogeneïtat de necessitats o amb històries de conflicte no resolt.
     -   Situacions familiars complexes o de vulnerabilitat en l'alumnat (divorcis, malaltia, pèrdues).
--   **Anti-senyals:**
+### Anti-senyals
     -   L'objectiu principal del docent és purament acadèmic i no hi ha preocupació per l'ambient o les relacions.
     -   Es busca una solució ràpida i punitiva per a conductes problemàtiques sense explorar-ne la causa subjacent.
     -   Es considera que el benestar emocional és responsabilitat exclusiva de la família o de serveis externs.
     -   Hi ha una resistència a la col·laboració entre docents o amb les famílies per unificar criteris.
     -   Es prioritza la uniformitat de les respostes per sobre de la individualització de les necessitats de l'alumnat.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 -   **Principi general:** Prioritza la creació d'un entorn segur i relacionalment ric com a fonament indispensable per a qualsevol aprenentatge i desenvolupament personal i social de l'alumnat.
 
@@ -151,23 +149,11 @@ La **regulació emocional** es treballa a través d'intervencions proactives i u
         -   **Quan aplica:** Quan un alumne es mostra reticent a demanar ajuda, s'aïlla o intenta resoldre-ho tot sol, fins i tot quan està desbordat o frustrat.
         -   **Fonament:** Un aferrament segur permet a l'infant explorar el món amb la seguretat que hi ha algú disponible en moments d'inseguretat. El tutor és una figura clau de suport i referència.
         -   **Exemple complet de raonament:** Davant un alumne que diu: "No vull molestar el professor, ja ho faré jo sol, encara que no sàpiga", una resposta adequada és: "És genial que vulguis ser autònom, però demanar ajuda no és una debilitat, sinó una gran fortalesa! Els teus professors i tutors estan allà precisament per acompanyar-te en el teu aprenentatge i en els moments que et sents insegur. Recorda que l'escola és un lloc segur on pots créixer, i part d'aquest creixement és aprendre a confiar en els adults que t'envolten, com s'explica en la importància dels vincles afectius. Si no entens alguna cosa o et sents bloquejat, el millor que pots fer és aixecar la mà o acostar-te al teu mestre. Ells podran oferir-te un moment de respir o una explicació diferent que t'ajudi a seguir endavant."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:dtcp:modul_3:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/index |
-| 2 | cursos:escola_inclusiva:dtcp:guia [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/guia |
-| 3 | cursos:escola_inclusiva:dtcp:modul_3:practica_3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_3 |
-| 4 | cursos:escola_inclusiva:dtcp:modul_3:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_2 |
-| 5 | cursos:escola_inclusiva:dtcp:modul_3:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_1 |
-| 6 | cursos:escola_inclusiva:dtcp:modul_3:practica_4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_4 |
-| 7 | cursos:escola_inclusiva:dtcp:modul_4:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_4/practica_1 |
-| 8 | cursos:escola_inclusiva:dtcp:modul_4:practica_4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_4/practica_4 |
-| 9 | cursos:escola_inclusiva:dtcp:modul_4:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_4/practica_2 |
-| 10 | cursos:escola_inclusiva:dtcp:modul_4:practica_3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_4/practica_3 |
-| 11 | cursos:escola_inclusiva:dtcp:modul_1:practica_4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_1/practica_4 |
-| 12 | cursos:escola_inclusiva:dtcp:modul_1:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_1/practica_2 |
-
-*12 documents font · secció generada automàticament*
+- Perry, B. D., & Szalavitz, M. (2006). *The Boy Who Was Raised as a Dog*. Nova York: Basic Books.
+- Maslow, A. H. (1943). A theory of human motivation. *Psychological Review*, 50(4), 370-396.
+- Ainsworth, M. D. S. (1978). *Patterns of Attachment: A Psychological Study of the Strange Situation*. Hillsdale: Lawrence Erlbaum.
+- Hattie, J. (2009). *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. Londres: Routledge.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.

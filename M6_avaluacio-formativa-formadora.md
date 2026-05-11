@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T13:01:55
 ---
 
-## 1. CONTINGUT ESPECÍFIC DEL MARC
-
 ### Definició i principis
 
 L'avaluació formativa i formadora és un marc pedagògic que entén l'avaluació com un element viu i integrat en el procés d'ensenyament-aprenentatge, amb la finalitat primordial de regular-lo i millorar-lo, tant per al docent com per a l'alumnat. La seva essència rau en el canvi de paradigma: deixar de centrar-se en allò que l'alumne "no sap" per posar el focus en allò que "sí que sap" i, sobretot, en com pot continuar aprenent i progressant. No es tracta només de mesurar resultats al final, sinó de recollir informació de qualitat de manera contínua per prendre decisions pedagògiques fonamentades.
@@ -76,23 +74,18 @@ L'avaluació formativa i formadora és un marc robust, però la seva aplicació 
 *   **Contextos d'avaluació externa o estandarditzada:** En situacions on l'objectiu principal és la certificació o la selecció (com proves d'accés a la universitat o oposicions), el caràcter formatiu pot quedar en un segon pla. No obstant això, fins i tot en aquests marcs, es poden incorporar elements formatius per ajudar els estudiants a preparar-se millor, com ara l'ús de proves diagnòstiques o feedback sobre el rendiment. El marc formatiu se centra en l'aula, però els seus principis poden informar la preparació per a avaluacions externes.
 *   **Tensions amb la "objectivitat" de l'avaluació:** La recerca de la "objectivitat" mitjançant la quantificació pot ser enganyosa. L'avaluació formativa accepta una certa subjectivitat inherent a la interpretació qualitativa, però busca la fiabilitat a través de la diversificació de fonts i instruments, la transparència dels criteris i la col·laboració entre docents i alumnes. Es prioritza la utilitat de la informació per a la millora per sobre d'una objectivitat numèrica que sovint és il·lusòria.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M6_feedback-formatiu.md`** — El feedback és l'eina operativa que dona forma a l'avaluació formativa: sense retroalimentació específica i accionable, l'avaluació no regula l'aprenentatge
+- **`M6_coavaluacio-autoavaluacio.md`** — La coavaluació i l'autoavaluació son les formes d'avaluació formativa que transfereixen la regulació a l'alumne: metacognició com a competència clau
+- **`M6_portfoli-evidencies.md`** — El portfoli és l'instrument que fa visible el progrés al llarg del temps i dona sentit a la dimensió formadora de l'avaluació
+- **`M4_competencies-basiques-perfil-sortida.md`** — L'avaluació formativa serveix les competències: la regulació contínua garanteix que el perfil de sortida sigui un camí construït, no un objectiu abstracte
+- **`M2_factors-promotors-aprenentatge.md`** — La metacognició és el factor promotor que l'avaluació formadora activa: l'alumne que reflexiona sobre el seu procés s'autorregula i aprèn de forma més sostinguda
+- **`M0_cura-personalis.md`** — L'avaluació formadora és un acte de Cura Personalis: prestar atenció a on és cada alumne i donar-li la retroalimentació que li permet avançar des d'on és
 
-*   **Perfils d'alumnat (Alumnat nouvingut, Alumnat amb NEE):** La personalització dels aprenentatges i la inclusió són pilars de l'avaluació formativa, especialment rellevant per adaptar-se a les necessitats lingüístiques i culturals de l'alumnat nouvingut o a les necessitats educatives especials.
-*   **Estratègia: Aprenentatge basat en projectes (ABP):** L'ABP facilita la integració de l'avaluació formativa, ja que les activitats de projecte són inherentment productives, complexes i contextualitzades, permetent la regulació contínua i l'ús de diversos instruments.
-*   **Estratègia: Aprenentatge cooperatiu:** La coavaluació i la reflexió conjunta, elements clau de l'avaluació formadora, es promouen de manera natural en entorns d'aprenentatge cooperatiu.
-*   **Eina: Rúbrica:** És un instrument fonamental per a l'avaluació formativa, ja que explicita els criteris d'avaluació i els nivells de qualitat, facilitant l'autoregulació de l'alumnat.
-*   **Eina: Carpeta d'aprenentatge (Portfolio):** Eina essencial per recollir evidències del procés d'aprenentatge, fomentar la reflexió i fer visible el progrés de l'alumne des d'una perspectiva formativa i competencial.
-*   **Eina: Base d'orientació:** Instrument que guia l'alumnat en la planificació i execució de tasques complexes, sent clau per a l'autoavaluació i l'autoregulació.
-*   **Eina: Qüestionari d'autoavaluació/coavaluació:** Instruments directes per implicar l'alumnat en la reflexió sobre el seu aprenentatge i el dels seus companys.
-*   **Marc: Currículum per competències:** L'avaluació formativa i formadora és la base per avaluar l'assoliment de les competències, ja que es centra en l'aplicació del coneixement i la capacitat d'autoregulació.
-*   **Normativa: Ordre d'avaluació (Primària/ESO):** Aquestes ordres emmarquen legalment la necessitat d'una avaluació contínua, global, formativa i formadora, centrada en competències.
+## 4. Detecció
 
-## 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent**
+### Senyals del docent
 *   "M'adono que els meus alumnes no entenen per què fan algunes activitats o quins són els objectius d'aprenentatge."
 *   "Els alumnes es desmotiven amb les notes i no saben com millorar després de rebre un examen."
 *   "Vull que els meus alumnes siguin més autònoms i responsables del seu propi procés d'aprenentatge."
@@ -100,14 +93,14 @@ L'avaluació formativa i formadora és un marc robust, però la seva aplicació 
 *   "Em preocupa que les meves avaluacions només detectin el que els alumnes no saben, en lloc de valorar el seu progrés."
 *   "Necessito eines per recollir informació més enllà de les proves escrites per entendre millor com aprenen els meus alumnes."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   "No entenc per què estic fent aquesta tasca o per a què em servirà."
 *   "Sé que he fallat, però no sé exactament què he de fer per millorar la propera vegada."
 *   "Em sento ansiós/a o amb por abans dels exàmens perquè només em valoren pel resultat final."
 *   "Només m'importa la nota, no el que realment aprenc o si ho entenc."
 *   "M'agradaria saber quins són els meus punts forts i no només els meus errors."
 
-**Senyals de context**
+### Senyals de context
 *   A l'inici d'una nova unitat didàctica, projecte o seqüència d'aprenentatge.
 *   Durant el desenvolupament d'activitats complexes o treballs de llarga durada.
 *   Després de la realització d'una tasca o producte final que permeti la reflexió.
@@ -115,17 +108,17 @@ L'avaluació formativa i formadora és un marc robust, però la seva aplicació 
 *   Quan hi ha una alta diversitat a l'aula, incloent-hi alumnat nouvingut o amb necessitats educatives específiques.
 *   En un equip docent que busca alinear els criteris d'avaluació i les pràctiques pedagògiques.
 
-**Anti-senyals**
+### Anti-senyals
 *   Quan l'objectiu principal de l'avaluació és exclusivament la certificació externa o la selecció (per exemple, proves d'accés a estudis superiors o oposicions), sense cap intenció de regulació interna de l'aprenentatge.
 *   Quan el docent té un sistema d'avaluació rígid i inamovible, basat únicament en exàmens memorístics, i no està obert a introduir canvis en la seva pràctica.
 *   Quan l'alumne mostra una total desinterès per la millora del seu aprenentatge i només busca la nota mínima sense cap esforç de comprensió o reflexió.
 *   Quan el context escolar no permet cap flexibilitat en els instruments o moments d'avaluació, o no hi ha suport per a la formació docent en aquest àmbit.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general:** L'avaluació ha de ser un motor per a l'aprenentatge, no un simple judici final.
 
-**Heurístiques per al docent**
+#### Heurístiques per al docent
 
 1.  **Heurística: Clarificar el "Per a què?" de l'aprenentatge amb l'alumnat.**
     *   **Quan aplica:** En iniciar qualsevol nova activitat, unitat didàctica o projecte, i també al final de cada sessió o tasca important.
@@ -152,7 +145,7 @@ L'avaluació formativa i formadora és un marc robust, però la seva aplicació 
     *   **Fonament:** Els errors no són fracassos, sinó indicadors valuosos del que l'alumne encara no ha comprès o dominat. Una cultura d'aula que veu l'error com un pas necessari per avançar redueix l'ansietat, fomenta l'experimentació i la perseverança. La tasca del docent és ensenyar a detectar i superar els errors, no només a assenyalar-los.
     *   **Exemple de raonament:** Davant un alumne que ha comès errors repetits en la resolució de problemes matemàtics amb fraccions, en lloc de simplement marcar els errors i restar punts, convé utilitzar aquests errors com a punt de partida per a un aprenentatge més profund. Es pot demanar a l'alumne que analitzi els seus propis errors, potser comparant la seva feina amb un exemple correcte o amb la feina d'un company que ho ha fet bé. Després, cal guiar-lo amb preguntes com "Què creus que va fallar aquí?", "Quina regla de les fraccions no vas aplicar correctament?", o "Com podries abordar aquest problema de manera diferent la propera vegada?". L'objectiu és que l'alumne comprengui la causa de l'error, identifiqui el concepte no entès i desenvolupi estratègies per evitar-lo, convertint la fallada en una valuosa lliçó per consolidar el seu aprenentatge de les fraccions.
 
-**Heurístiques per a l'alumne**
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: Entendre el "Per què" de cada tasca abans de començar.**
     *   **Quan aplica:** Abans de començar una activitat o quan se sent confós sobre el seu propòsit o rellevància.
@@ -168,45 +161,11 @@ L'avaluació formativa i formadora és un marc robust, però la seva aplicació 
     *   **Quan aplica:** Quan el docent proporciona rúbriques, qüestionaris d'autoavaluació, bases d'orientació o pautes per revisar el treball dels companys.
     *   **Fonament:** Aquests instruments són eines dissenyades per ajudar l'alumne a entendre els criteris d'èxit, a valorar la seva pròpia feina i la dels altres, i a identificar passos concrets per a la millora. Participar activament en aquests processos augmenta la responsabilitat, l'autonomia i la capacitat de judici crític, elements essencials de l'avaluació formadora.
     *   **Exemple de raonament:** Davant un alumne que rep una rúbrica detallada per a un projecte de recerca, una orientació útil és: "Aquesta rúbrica no és només per al professor, és una eina molt potent per a tu. Abans d'entregar el projecte, utilitza-la per autoavaluar la teva feina. Mira cada criteri (per exemple, 'Organització de la informació', 'Ús de fonts fiables', 'Claredat de l'exposició') i pregunta't: 'He complert amb això? En quin nivell em situaria?' Si hi ha aspectes on creus que podries millorar, encara tens temps per fer canvis. Si el professor proposa coavaluar el treball d'un company, pren-ho seriosament. Avaluar els altres t'ajuda a entendre millor els criteris i a aplicar-los després al teu propi treball, millorant la teva capacitat d'anàlisi i la qualitat del teu aprenentatge."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:adcl:b6:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b6/index |
-| 2 | cursos:escola_inclusiva:adcl:b6:b6t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b6/b6t2 |
-| 3 | cursos:escola_inclusiva:adcl:b6:b6t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b6/b6t3 |
-| 4 | cursos:escola_inclusiva:adcl:b6:b6t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b6/b6t4 |
-| 5 | cursos:escola_inclusiva:adcl:b6:b6t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b6/b6t5 |
-| 6 | cursos:escola_inclusiva:adcl:b6:b6t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b6/b6t1 |
-| 7 | cursos:curriculum:inf_pri:cape:aval1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval1 |
-| 8 | cursos:curriculum:inf_pri:cape:prg:gc [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/prg/gc |
-| 9 | cursos:escola_inclusiva:diee:modul_4:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/diee/modul_4/practica_4 |
-| 10 | Catalan_lfl_32108808d9.pdf | http://www.ealta.eu.org/documents/archive/guidelines/leaflets/Catalan_lfl.pdf |
-| 11 | avaluar_per_aprendre_dc4082466b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0024/fc53024f-626e-423b-877a-932148c56075/avaluar_per_aprendre.pdf |
-| 12 | avaluar_per_aprendre_17803f01c6.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/fc53024f-626e-423b-877a-932148c56075/avaluar_per_aprendre.pdf |
-| 13 | adcl_exemples_instruments_avaluacio_7f163ea515.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/adcl/b6/adcl_exemples_instruments_avaluacio.pdf |
-| 14 | pautes-per-compartir-objectius-i-criteris-d-avalua_f81c84870b.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/pautes-per-compartir-objectius-i-criteris-d-avaluaci.pdf |
-| 15 | escola_jungfrau_badalona_c57fdfe9df.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/escola_jungfrau_badalona.pdf |
-| 16 | full-indicadors_per_a_l_ensenyant_202f153d4e.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/full-indicadors_per_a_l_ensenyant.pdf |
-| 17 | avaluaci-formativa_-qu-hi-ha-de-nou_deb2ffb895.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 18 | practica_3_8db195af30.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/practica_3.pdf |
-| 19 | 5._modificacio_prova_avaluacio_cicle_superior_e34c732a04.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/5._modificacio_prova_avaluacio_cicle_superior.pdf |
-| 20 | 2._es_competencial_aquesta_prova_b4b85a43ac.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/2._es_competencial_aquesta_prova.pdf |
-| 21 | 3._modificacio_prova_avaluacio_cicle_inicial_8594dbd6d4.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3._modificacio_prova_avaluacio_cicle_inicial.pdf |
-| 22 | 4._modificacio_prova_avaluacio_cicle_mitja_506362b8ba.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/4._modificacio_prova_avaluacio_cicle_mitja.pdf |
-| 23 | 3a_presentacio_-autoexplicativa_5_9_88d91daaeb.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3a_presentacio_-autoexplicativa_5_9.pdf |
-| 24 | tercera_sessio_2-9_06499dd46f.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/tercera_sessio_2-9.pdf |
-| 25 | La-carpeta-daprenentatge_2cdfda0ad0.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0003/0e9f449b-790e-4fd7-a9e9-1cab53252ae3/La-carpeta-daprenentatge.pdf |
-| 26 | base-orientacio_7dc60ba889.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/base-orientacio.pdf |
-| 27 | compartir-objectius_c2bf323b5a.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/compartir-objectius.pdf |
-| 28 | formativa-proves-avaluacio_fde7363bd0.pdf | http://xtec.gencat.cat/web/.content/documents/formativa-proves-avaluacio.pdf |
-| 29 | Mini_GAPPISA_horitzontal_1c526ecc07.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0014/4d35cb97-7bb9-43d3-919b-46cb8f271671/Mini_GAPPISA_horitzontal.pdf |
-| 30 | rubrica_9488542c66.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/rubrica.pdf |
-| 31 | carpeta-aprenentatge_2483bc99c9.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/carpeta-aprenentatge.pdf |
-| 32 | Pautes-per-compartir-objectius-i-criteris-d-avalua_32b5566812.pdf | http://xtec.gencat.cat/web/.content/documents/Pautes-per-compartir-objectius-i-criteris-d-avaluaci.pdf |
-| 33 | avaluar_887a9cac82.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee/modul_4/avaluar.pdf |
-| 34 | pautacapacitatsbasiques_be4cdda52c.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/diee3/modul_4/pautacapacitatsbasiques.pdf |
-
-*34 documents font · secció generada automàticament*
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
+- Sanmartí, N. (2007). *10 idees clau: Avaluar per aprendre*. Barcelona: Graó.
+- Wiliam, D. (2011). *Embedded Formative Assessment*. Bloomington: Solution Tree Press.
+- OCDE (2005). *Formative Assessment: Improving Learning in Secondary Classrooms*. París: OECD Publishing.
+- Decret 175/2022, de 27 de setembre, pel qual s'estableix l'ordenació dels ensenyaments de l'educació bàsica. DOGC núm. 8762.

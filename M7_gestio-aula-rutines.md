@@ -9,8 +9,6 @@ locked: true
 nota_fusio: "Versió fusionada manual (V1+V3+V5). V1=ERG/convivència; V3=intercultural/DEIC; V5=DTCP/aferrament. Protegida contra sobreescriptura."
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 
 La gestió d'aula i les rutines són una estratègia fonamental per crear un entorn educatiu on l'aprenentatge sigui possible i el benestar de tota la comunitat educativa estigui assegurat. No es tracta de controlar el comportament, sinó de construir un clima que afavoreixi l'autonomia, la seguretat i la confiança de l'alumnat. Aquesta estratègia entén l'aula com un ecosistema social complex on es configuren identitats, es desenvolupen habilitats socials i es construeixen relacions de confiança.
@@ -121,20 +119,16 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
 6.  **Ignorar la diversitat cultural i emocional**: No adaptar les rutines i la comunicació a les diferents realitats de l'alumnat (idioma, cultura, necessitats emocionals) pot generar exclusió i dificultar la integració.
 7.  **No implicar les famílies**: Considerar la gestió d'aula com una tasca exclusiva del docent, sense una comunicació fluida i corresponsabilitat amb les famílies.
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Enfocament Restauratiu Global (ERG)**: Proporciona el marc per a la prevenció de conflictes, la construcció de relacions i la reparació del dany, fonamental per a la convivència positiva.
-*   **Comunicació NoViolenta (CNV)**: Les habilitats de la CNV (empatia, "jo-missatge", escolta activa) són essencials per a una gestió d'aula efectiva i la resolució de conflictes.
-*   **Mediació Escolar**: La mediació és una eina clau dins de la gestió d'aula per abordar conflictes entre iguals de manera constructiva.
-*   **Projecte de Convivència**: Aquesta estratègia contribueix directament a l'elaboració i implementació del Projecte de Convivència del centre.
-*   **Benestar Emocional i Seguretat**: El clima d'aula i la gestió de rutines impacta directament en el benestar emocional de l'alumnat.
-*   **Educació Socioemocional**: El desenvolupament de la intel·ligència emocional és un pilar per a la gestió positiva de l'aula.
-*   **Acollida d'Alumnat Nouvingut**: Les rutines clares i un bon pla d'acollida són crucials per a la integració d'aquest alumnat.
-*   **Participació de les Famílies**: La implicació de les famílies és fonamental per a la coherència educativa i el suport a les rutines i normes de l'aula.
-*   **Alumnat amb Trastorns Emocionals i de Conducta**: Aquesta estratègia és el marc preventiu i proactiu que dona suport a l'alumnat amb necessitats específiques de regulació del comportament.
-*   **Protocol d'actuació davant de qualsevol tipus de violència en l'àmbit educatiu**: Les estratègies de gestió d'aula son preventives i complementen les actuacions en cas de violència.
+- **`M2_aprenentatge-cooperatiu.md`** — Les rutines cooperatives son el marc estructural de la gestió de l'aula: grups estables, rols assignats i protocols compartits redueixen la necessitat de gestió reactiva
+- **`M7_benestar-emocional-seguretat.md`** — Les rutines son la infraestructura del benestar: la previsibilitat redueix l'ansietat, especialment per a alumnat TEA, TDAH o amb historial de trauma
+- **`M7_enfocament-restauratiu-ERG.md`** — L'enfocament restauratiu és el complement de la gestió de l'aula: les rutines prevenen el conflicte; l'ERG el resol quan les rutines no n'han estat suficients
+- **`M1_neurodiversitat-NESE.md`** — La gestió de l'aula és especialment crítica per a l'alumnat NESE: rutines previsibles (TEA), estructures clares (TDAH) i adaptació de normes (DI) son mesures preventives
+- **`M2_rutines-destreses-pensament.md`** — Les rutines de pensament son un tipus específic de rutines d'aula: estructuren el pensament alhora que estableixen rituals que reforcen la cultura d'aprenentatge
+- **`M0_cura-personalis.md`** — La gestió de l'aula des de la Cura Personalis és proactiva: conèixer cada alumne permet anticipar les dificultats i dissenyar l'entorn perquè tothom pugui aprendre
 
-## 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
 ### Senyals del docent
 *   "Em sento desbordat/da per les conductes disruptives a l'aula."
@@ -170,11 +164,11 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
 *   El docent se sent competent i segur en la gestió del grup.
 *   Hi ha una alta implicació de l'alumnat en el seu aprenentatge i en la vida de l'aula.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general**: Prioritzar la creació d'un entorn segur, previsible i positiu —basat en vincles afectius, normes co-construïdes i gestió restaurativa dels conflictes— per fomentar l'aprenentatge i el benestar de tot l'alumnat.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 
 *   **Heurística: "El fonament és la base segura"**
     *   **Quan aplica**: Quan un docent expressa dificultats per connectar amb un alumne o grup, o quan hi ha un clima d'aula tens o de desconfiança.
@@ -206,7 +200,7 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
     *   **Fonament**: L'acció conjunta de tot l'equip educatiu i la col·laboració amb les famílies són indispensables per a una gestió d'aula efectiva i per a un bon clima escolar.
     *   **Exemple complet de raonament**: Davant un docent que expressa frustració perquè les normes que estableix no són coherents amb les d'altres companys, o si les famílies no donen suport a les seves decisions, la gestió d'aula no és una tasca individual. Convé promoure espais de coordinació amb l'equip docent per consensuar normes i protocols d'actuació comuns, adaptats a cada etapa. Cal reforçar la comunicació amb les famílies, mantenint un diàleg permanent i unificant criteris educatius, ja que la coherència entre escola i llar proporciona seguretat a l'alumne i augmenta les garanties de benestar i èxit.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 *   **Heurística: "El meu mapa del dia"**
     *   **Quan aplica**: Quan un alumne mostra ansietat, desorientació o resistència als canvis d'activitat.
@@ -233,37 +227,10 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
     *   **Fonament**: L'organització personal, facilitada per les rutines d'aula, és una competència clau per a l'autonomia en l'aprenentatge.
     *   **Exemple complet de raonament**: Davant un alumne que té la taula desordenada, no troba els seus llapis i no ha acabat la tasca a temps, una orientació útil és establir una rutina senzilla d'organització: "guardar els llibres que no necessito", "posar els llapis a la capsa", "netejar l'espai de treball". També es pot ensenyar-li a usar un temporitzador per gestionar el temps de les tasques. Ajudar-lo a interioritzar aquestes rutines l'ajudarà a ser més eficient i independent, alliberant la seva energia mental per a l'aprenentatge.
 
----
+## 5. Fonts
 
-## 5. FONTS DEL CORPUS
-
-*Nota: Aquesta versió fusiona contingut de tres sessions del corpus (ERG/convivència, intercultural/DEIC, DTCP). Les fonts principals de cadascuna:*
-
-**Corpus DTCP — Escola Inclusiva (gestió conductual):**
-
-| # | Títol | URL |
-|---|-------|-----|
-| 3 | cursos:escola_inclusiva:dtcp:modul_3:practica_3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_3 |
-| 4 | cursos:escola_inclusiva:dtcp:modul_3:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_2 |
-| 5 | cursos:escola_inclusiva:dtcp:modul_3:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_1 |
-| 6 | cursos:escola_inclusiva:dtcp:modul_3:practica_4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_3/practica_4 |
-| 7 | cursos:escola_inclusiva:dtcp:modul_4:practica_1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_4/practica_1 |
-| 9 | cursos:escola_inclusiva:dtcp:modul_4:practica_2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/dtcp/modul_4/practica_2 |
-
-**Corpus ERG — Enfocament Restauratiu Global:**
-
-| # | Títol | URL |
-|---|-------|-----|
-| - | 4-dossier ERG | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/4-dossier.pdf |
-| - | Cercles Restauratius | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Cercles_Restauratius.pdf |
-| - | Petit manual ERG | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/una-comunitat-educativa-restaurativa-i-resilient/petit-manual-erg-dossiers/ |
-
-**Corpus intercultural / DEIC:**
-
-| # | Títol | URL |
-|---|-------|-----|
-| - | cursos:escola_inclusiva:deic:modul_5 | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_5/index |
-| - | decideix1 (Programa competència social) | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/bef3af0d-4a53-461d-aaf2-f6c376f879e2/decideix1.pdf |
-| - | Patis oberts | https://xtec.gencat.cat/web/.content/comunitat/entorn_pee_recursos_orientacions_activitatsestiu/Accio-9-Patis-oberts_v2.pdf |
-
-*Versió fusionada manualment a partir de V1 (ERG, 129 docs), V3 (intercultural, 29 docs) i V5 (DTCP, 9 docs) · 2026-03-18*
+- Lemov, D. (2010). *Teach Like a Champion: 49 Techniques that Put Students on the Path to College*. San Francisco: Jossey-Bass.
+- Marzano, R. J., Marzano, J. S., & Pickering, D. J. (2003). *Classroom Management That Works: Research-Based Strategies for Every Teacher*. Alexandria: ASCD.
+- Pianta, R. C., & Hamre, B. K. (2009). Conceptualization, measurement, and improvement of classroom processes. *Educational Researcher*, 38(2), 109-119.
+- Pujolàs, P. (2008). *9 idees clau: L'aprenentatge cooperatiu*. Barcelona: Graó.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.

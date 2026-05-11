@@ -160,40 +160,39 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
 *   **No ensenyar explícitament a autoavaluar-se i coavaluar-se:** No es pot assumir que els alumnes saben com fer-ho. Cal modelar, guiar i practicar aquestes habilitats de manera progressiva, proporcionant exemples i pautes clares per a la reflexió i el feedback constructiu.
 *   **No integrar l'auto/coavaluació en la qualificació global:** Si les activitats d'autoavaluació i coavaluació no tenen cap pes o reconeixement en la qualificació final, els alumnes poden percebre-les com una activitat addicional sense importància real, reduint la seva implicació i la seva percepció de valor.
 
----
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Marc_Avaluacio_Formativa**: Aquest document detalla com l'autoavaluació i coavaluació són pilars fonamentals de l'avaluació formativa, que busca la regulació de l'aprenentatge.
-*   **Eina_Rubrica**: Les rúbriques són instruments clau per facilitar l'autoavaluació i coavaluació, proporcionant criteris clars per a la reflexió de l'alumnat.
-*   **Eina_Carpeta_Aprenentatge**: La carpeta d'aprenentatge és un espai idoni per recollir les evidències del procés d'autoavaluació i coavaluació, així com les reflexions dels alumnes.
-*   **Eina_Base_Orientacio**: Les bases d'orientació ajuden els alumnes a estructurar el seu procés de treball, facilitant l'autoavaluació dels passos seguits.
-*   **Perfil_Alumne_Nouvingut**: Aquestes estratègies són crucials per adaptar l'avaluació a alumnes amb baixa competència lingüística, diversificant canals i instruments.
-*   **Protocol_PI**: El Pla Individualitzat (PI) pot incorporar criteris d'autoavaluació i coavaluació adaptats per a alumnes amb necessitats educatives específiques.
-*   **Estrategia_Feedback_Constructiu**: L'autoavaluació i coavaluació generen un feedback ric que, ben gestionat, potencia la millora contínua.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
+- **`M6_avaluacio-formativa-formadora.md`** — La coavaluació i l'autoavaluació son les formes d'avaluació formativa que transfereixen la regulació a l'alumne: metacognició i autonomia en acció
+- **`M6_feedback-formatiu.md`** — El feedback entre iguals (coavaluació) és especialment valuós: la perspectiva d'un company és sovint més accessible que la del docent i activa la revisió activa
+- **`M2_aprenentatge-cooperatiu.md`** — La coavaluació en grups cooperatius forma part del cicle de reflexió grupal: Johnson & Johnson inclouen l'avaluació del grup com un dels 5 elements essencials
+- **`M4_competencies-basiques-perfil-sortida.md`** — L'autoavaluació és una competència metacognitiva del perfil de sortida: l'alumne que sap on és i on vol anar aprèn de forma més autònoma
+- **`M1_neurodiversitat-NESE.md`** — L'alumnat NESE necessita suport específic per a la coavaluació: dislèxia (instruments adaptats), TDAH (estructura clara), TEA (pautes explícites i rols definits)
+- **`M0_cura-personalis.md`** — L'autoavaluació és un acte d'autoconeixement: ajudar l'alumne a reconèixer fortaleses i límits és Cura Personalis aplicada a la relació de l'alumne amb el seu propi aprenentatge
+
+## 4. Detecció
+### Senyals del docent
     *   Pregunta: "Com puc fer els meus alumnes més autònoms en l'avaluació del seu propi aprenentatge?"
     *   Observa que els alumnes no entenen per què han tret una determinada nota o què han de fer per millorar.
     *   Vol reduir la seva càrrega de correcció i potenciar la responsabilitat de l'alumnat.
     *   Busca maneres de fer l'avaluació menys estressant i més motivadora per als alumnes.
     *   S'adona que els alumnes no transfereixen els aprenentatges d'una tasca a una altra.
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   Pregunta: "Per què he suspès?" o "Què he de fer per treure millor nota?" sense una comprensió profunda.
     *   Mostra desmotivació o ansietat davant les proves d'avaluació.
     *   No és capaç d'identificar els seus propis errors o punts forts en una tasca.
-*   **Senyals de context:**
+### Senyals de context
     *   S'està implementant un nou currículum per competències que emfatitza l'avaluació formativa.
     *   L'activitat proposada requereix un procés complex o té múltiples solucions.
     *   Hi ha una diversitat significativa de ritmes i nivells d'aprenentatge a l'aula.
-*   **Anti-senyals:**
+### Anti-senyals
     *   Si l'objectiu principal és una avaluació sumativa ràpida i estandarditzada sense intenció de millora.
     *   Si el docent no està disposat a cedir control sobre els criteris d'avaluació o a dedicar temps a la reflexió guiada.
     *   Si l'alumnat no té les habilitats socials o metacognitives mínimes per participar en una coavaluació constructiva (requereix treball previ).
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
-*   **Principi general:** Implicar l'alumnat en l'avaluació del seu propi aprenentatge i el dels seus companys potencia la seva autonomia, la comprensió dels criteris de qualitat i la capacitat d'autoregulació.
+### Heurístiques
+**Principi general:** Implicar l'alumnat en l'avaluació del seu propi aprenentatge i el dels seus companys potencia la seva autonomia, la comprensió dels criteris de qualitat i la capacitat d'autoregulació.
 
-*   **Heurístiques per al docent:**
+#### Heurístiques per al docent
     *   **Nom:** **Clarifica i Co-crea Criteris.**
         *   **Quan aplica:** Sempre que es comença una nova unitat, projecte o tasca significativa.
         *   **Fonament:** Els alumnes aprenen millor quan entenen clarament què s'espera d'ells i com serà avaluat el seu treball. La co-creació de criteris augmenta la seva implicació i la internalització d'aquests.
@@ -215,7 +214,7 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
         *   **Fonament:** La carpeta d'aprenentatge permet recollir el procés d'aprenentatge, no només el producte final, i facilita la reflexió sobre l'evolució, els errors i les millores.
         *   **Exemple complet de raonament:** Davant un docent que vol valorar el procés d'aprenentatge d'un projecte llarg de ciències, en lloc de basar la qualificació només en el producte final, convé proposar una carpeta d'aprenentatge que reculli, al llarg del trimestre, la pregunta inicial del projecte, les hipòtesis formulades, els esborranys d'experiments, les fonts consultades, les dades recollides, els errors detectats i com s'han corregit, i reflexions periòdiques breus de l'alumne ("Què he après aquesta setmana?", "Quina dificultat he superat?", "Què canviaria del meu plantejament inicial?"). Al tancament, cal valorar no només el producte definitiu sinó la trajectòria documentada — l'evolució del pensament i les estratègies d'autoregulació posades en pràctica. La carpeta esdevé així evidència de procés i instrument de metacognició, fent visible l'aprenentatge real més enllà del lliurament puntual.
 
-*   **Heurístiques per a l'alumne:**
+#### Heurístiques per a l'alumne
     *   **Nom:** **Els criteris són la teva brúixola.**
         *   **Quan aplica:** Abans de començar qualsevol tasca o activitat avaluable.
         *   **Fonament:** Conèixer què s'espera i com es valorarà la feina permet planificar millor, prendre decisions de qualitat i autoavaluar el progrés. Sense criteris clars, l'esforç es disgrega i la qualificació final pot semblar arbitrària.
@@ -229,41 +228,10 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
         *   **Fonament:** El feedback que es centra en la millora, basat en criteris i amb to constructiu, ajuda l'altre i et fa entendre millor els criteris a tu mateix. El feedback que jutja persones en lloc de feines crea malestar i no aporta res.
         *   **Exemple complet de raonament:** Llegeix el treball d'un company amb la rúbrica al davant. Identifica primer el que ha fet bé — sigues específic ("M'agrada com has organitzat l'argument central"). Després, assenyala una o dues coses millorables, sempre amb una proposta concreta ("Aquesta part queda confusa; potser podries afegir un exemple"). Evita expressions com "està malament" o "no s'entén". Tracta el treball del company com t'agradaria que tractessin el teu. Recorda: tu no poses la nota; el teu paper és ajudar-lo a millorar i, alhora, aprendre tu mateix què fa que un treball sigui de qualitat.
 
----
+## 5. Fonts
 
-## 5. FONTS DEL CORPUS
-
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b6:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/index |
-| 2 | cursos:escola_inclusiva:ansu:b6:b6t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t5 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t2 |
-| 4 | cursos:escola_inclusiva:ansu:b6:b6t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t1 |
-| 5 | cursos:escola_inclusiva:ansu:b6:b6t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t4 |
-| 6 | cursos:curriculum:inf_pri:cape:aval:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/index |
-| 7 | cursos:escola_inclusiva:ansu:b6:b6t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t2 |
-| 8 | cursos:curriculum:inf_pri:cape:aval:taller:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/index |
-| 9 | cursos:curriculum:inf_pri:cape:aval:taller:s2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/s2 |
-| 10 | cursos:curriculum:inf_pri:cape:aval:taller:s1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/s1 |
-| 11 | avaluar_per_aprendre_dc4082466b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0024/fc53024f-626e-423b-877a-932148c56075/avaluar_per_aprendre.pdf |
-| 12 | carpeta-aprenentatge_2620ab3872.pdf | https://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/carpeta-aprenentatge.pdf |
-| 13 | 3._modificacio_prova_avaluacio_cicle_inicial_8594dbd6d4.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3._modificacio_prova_avaluacio_cicle_inicial.pdf |
-| 14 | practica_3_8db195af30.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/practica_3.pdf |
-| 15 | avaluaci-formativa_-qu-hi-ha-de-nou_deb2ffb895.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 16 | La-carpeta-daprenentatge_2cdfda0ad0.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0003/0e9f449b-790e-4fd7-a9e9-1cab53252ae3/La-carpeta-daprenentatge.pdf |
-| 17 | 5._modificacio_prova_avaluacio_cicle_superior_e34c732a04.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/5._modificacio_prova_avaluacio_cicle_superior.pdf |
-| 18 | 3a_presentacio_-autoexplicativa_5_9_88d91daaeb.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3a_presentacio_-autoexplicativa_5_9.pdf |
-| 19 | 4._modificacio_prova_avaluacio_cicle_mitja_506362b8ba.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/4._modificacio_prova_avaluacio_cicle_mitja.pdf |
-| 20 | 2._es_competencial_aquesta_prova_b4b85a43ac.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/2._es_competencial_aquesta_prova.pdf |
-| 21 | Full-indicadors-compartir-objectius-i-criteris-ava_4448f3a238.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0083/c7780a61-36f9-4a59-aeca-21acafc597f3/Full-indicadors-compartir-objectius-i-criteris-avaluacio.pdf |
-| 22 | avaluaci-formativa_-qu-hi-ha-de-nou_228021edaf.pdf | http://xtec.gencat.cat/web/.content/documents/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 23 | Pautes-per-compartir-objectius-i-criteris-d-avalua_32b5566812.pdf | http://xtec.gencat.cat/web/.content/documents/Pautes-per-compartir-objectius-i-criteris-d-avaluaci.pdf |
-| 24 | Rubrica-Bans_b879cedf7d.pdf | http://xtec.gencat.cat/web/.content/documents/Rubrica-Bans.pdf |
-| 25 | formativa-proves-avaluacio_fde7363bd0.pdf | http://xtec.gencat.cat/web/.content/documents/formativa-proves-avaluacio.pdf |
-| 26 | BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL_145f5a418f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0026/f5b4e60d-88cc-4364-bb7f-4cb2243769bf/BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 27 | Mini_GAPPISA_horitzontal_1c526ecc07.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0014/4d35cb97-7bb9-43d3-919b-46cb8f271671/Mini_GAPPISA_horitzontal.pdf |
-| 28 | autoavaluacio-coavaluacio_52971de36c.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/autoavaluacio-coavaluacio.pdf |
-| 29 | 81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d_60f99c9a2a.pdf | https://docs.wixstatic.com/ugd/81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d.pdf |
-| 30 | base-orientacio_7dc60ba889.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/base-orientacio.pdf |
-
-*30 documents font · secció generada automàticament*
+- Falchikov, N., & Goldfinch, J. (2000). Student peer assessment in higher education: A meta-analysis comparing peer and teacher marks. *Review of Educational Research*, 70(3), 287-322.
+- Andrade, H. L., & Valtcheva, A. (2009). Promoting learning and achievement through self-assessment. *Theory Into Practice*, 48(1), 12-19.
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
+- Sanmartí, N. (2007). *10 idees clau: Avaluar per aprendre*. Barcelona: Graó.
+- Johnson, D. W., Johnson, R. T., & Holubec, E. J. (1994). *Cooperative Learning in the Classroom*. Alexandria: ASCD.

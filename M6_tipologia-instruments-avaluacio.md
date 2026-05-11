@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:33:50
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i propòsit
 
 Els instruments d'avaluació són eines fonamentals per a la regulació de l'aprenentatge, tant per al docent com per a l'alumnat. La seva finalitat principal és anar més enllà de la simple qualificació, centrant-se en la funció formativa i formadora de l'avaluació. Permeten identificar el progrés en l'assoliment de les competències, detectar dificultats i errors, i orientar les decisions per a la millora contínua. L'objectiu és que l'alumnat esdevingui autònom en el seu procés d'aprenentatge, sent capaç d'autoregular-se.
@@ -149,20 +147,18 @@ La interpretació dels resultats dels instruments d'avaluació ha d'estar orient
     *   **Qualificar de manera transparent**: Els instruments com les rúbriques i portafolis proporcionen evidències clares i transparents per a la qualificació final, fent que el procés sigui més just i comprensible per a alumnes i famílies.
     *   **Reflexionar sobre la pròpia pràctica**: L'anàlisi dels resultats i del procés d'avaluació permet al docent autoavaluar la seva tasca i millorar les estratègies pedagògiques.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M6_avaluacio-formativa-formadora.md`** — La tipologia d'instruments serveix l'avaluació formativa: triar el bon instrument és triar la millor forma de recollir informació per a la regulació de l'aprenentatge
+- **`M6_avaluacio-competencial-AIA.md`** — Les tasques autèntiques son un tipus específic d'instrument d'avaluació competencial: la tipologia proporciona el marc per identificar quan i com aplicar-les
+- **`M6_coavaluacio-autoavaluacio.md`** — Les rúbriques i llistes de control son els instruments que estructuren la coavaluació i l'autoavaluació: sense instrument, la valoració entre iguals és vaga
+- **`M6_portfoli-evidencies.md`** — El portfoli és un meta-instrument que recull i organitza altres instruments: una diana d'avaluació o una rúbrica dins el portfoli és una evidència del procés de l'alumne
+- **`M4_competencies-basiques-perfil-sortida.md`** — La tria d'instruments ha d'estar alineada amb les competències a avaluar: un test de resposta múltiple no pot evidenciar una competència comunicativa o creativa
+- **`M1_neurodiversitat-NESE.md`** — La tipologia d'instruments és el repertori per personalitzar l'avaluació de l'alumnat NESE: cada perfil requereix instruments que minimitzin les barreres d'accés
 
-*   **Marc d'Avaluació Formativa i Formadora**: Aquest document descriu instruments concrets per implementar els principis de l'avaluació formativa i formadora, que busca la regulació de l'aprenentatge.
-*   **Estratègies de Feedback Efectiu**: Els instruments d'avaluació són el vehicle per recollir informació i proporcionar feedback significatiu a l'alumnat.
-*   **Perfil d'Alumnat Nouvingut**: Els Plans de Suport Individualitzat (PI) són un instrument clau per adaptar l'avaluació a les necessitats lingüístiques i acadèmiques d'aquest perfil.
-*   **Estratègia de Treball per Projectes**: Molts d'aquests instruments (rúbriques, portafolis, proves autèntiques) són ideals per avaluar processos i productes en metodologies actives.
-*   **Protocol de Detecció de Dificultats d'Aprenentatge**: Els resultats d'aquests instruments poden ser senyals per activar protocols de detecció i suport.
-*   **Normativa d'Avaluació a Primària/Secundària**: Aquests instruments ajuden a complir amb el caràcter formatiu de l'avaluació que estableix la normativa vigent.
+## 4. Detecció
 
-## 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent**
+### Senyals del docent
 *   "Necessito eines per avaluar el procés, no només el resultat final."
 *   "Els meus alumnes no entenen per què treuen les notes que treuen."
 *   "Vull que els alumnes siguin més autònoms en la revisió de les seves feines."
@@ -170,29 +166,29 @@ La interpretació dels resultats dels instruments d'avaluació ha d'estar orient
 *   "Busco maneres de diversificar com els alumnes demostren el que saben, especialment els que tenen més dificultats."
 *   "Vull que els criteris d'avaluació siguin transparents i clars per a tothom."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   "No sé què he de fer per millorar la meva nota."
 *   "M'agradaria saber què s'espera exactament de mi en aquesta tasca."
 *   "Em sento nerviós/a abans dels exàmens perquè no sé si he estudiat el que toca."
 *   "Vull veure com he progressat des del principi del projecte."
 
-**Senyals de context**
+### Senyals de context
 *   **Moment**: Inici d'una unitat didàctica o projecte (per establir criteris), durant el desenvolupament d'una tasca complexa (per a feedback i regulació), al final d'un procés (per a avaluació sumativa i reflexió).
 *   **Activitat**: Tasques complexes, projectes, treballs de recerca, exposicions orals, resolució de problemes, activitats que requereixen creativitat o aplicació de coneixements diversos.
 *   **Composició grup**: Grups amb gran diversitat d'aprenentatge, alumnat nouvingut, alumnat amb dificultats per expressar-se per escrit, grups que necessiten fomentar l'autonomia i la coavaluació.
 
-**Anti-senyals**
+### Anti-senyals
 *   Si l'objectiu principal és només assignar una qualificació numèrica sense intenció de feedback o millora.
 *   Si el temps disponible és extremadament limitat i no permet la implementació de processos de reflexió o auto/coavaluació.
 *   Si l'activitat és molt senzilla i reproductiva, on una simple correcció de resposta correcta/incorrecta és suficient.
 *   Si l'alumne ja té un alt nivell d'autoregulació i els instruments més complexos podrien ser redundants o desmotivadors sense un propòsit clar.
 *   Si no hi ha voluntat per part del docent de compartir els criteris o d'implicar l'alumnat en el procés avaluador.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general**: L'avaluació és una eina potent per a l'aprenentatge quan es dissenya i s'utilitza per guiar, regular i fer transparent el procés d'adquisició de competències.
 
-**Heurístiques per al docent**
+#### Heurístiques per al docent
 
 *   **Heurística: "El mapa del tresor"**
     *   **Quan aplica**: Quan un docent vol que els seus alumnes entenguin clarament què s'espera d'ells en una tasca complexa o projecte, i com seran avaluats, des del principi.
@@ -219,7 +215,7 @@ La interpretació dels resultats dels instruments d'avaluació ha d'estar orient
     *   **Fonament**: Les bases d'orientació proporcionen un guiatge explícit del procés, ajudant a interioritzar procediments i a desenvolupar l'autonomia en la planificació i execució de tasques.
     *   **Exemple complet de raonament**: Davant una professora de matemàtiques de 1r d'ESO que observa que els seus alumnes tenen dificultats per resoldre problemes de geometria que impliquen diversos passos, utilitzant l'heurística de "l'escalada guiada", convé crear una base d'orientació. Aquesta base llista els passos essencials per resoldre un problema d'aquest tipus: "1. Llegeix el problema i subratlla les dades clau i la pregunta. 2. Fes un dibuix o esquema per visualitzar la situació. 3. Identifica quines fórmules o teoremes necessites aplicar. 4. Realitza els càlculs pas a pas. 5. Revisa el resultat i comprova si té sentit en el context del problema. 6. Escriu la solució de forma clara i amb les unitats correctes." Cal que els alumnes participin en la creació d'aquesta base i que la utilitzin com a llista de comprovació mentre resolen problemes, marcant cada pas realitzat. Això no només els ajuda a estructurar el seu pensament, sinó que també els permet identificar exactament en quin punt del procés s'encallen, facilitant una intervenció més precisa per part de la professora.
 
-**Heurístiques per a l'alumne**
+#### Heurístiques per a l'alumne
 
 *   **Heurística: "El meu GPS d'aprenentatge"**
     *   **Quan aplica**: Quan un alumne se sent perdut en una tasca o no sap què ha de fer per obtenir un bon resultat.
@@ -235,41 +231,11 @@ La interpretació dels resultats dels instruments d'avaluació ha d'estar orient
     *   **Quan aplica**: Quan un alumne vol veure el seu progrés al llarg d'un període o projecte, o quan necessita recordar com va aprendre alguna cosa en el passat.
     *   **Fonament**: La carpeta d'aprenentatge (portafolis) permet a l'alumne recollir i reflexionar sobre les evidències del seu procés, construint una narrativa del seu aprenentatge i consolidant els coneixements.
     *   **Exemple complet de raonament**: Davant un alumne de 6è de primària que ha completat un trimestre i vol preparar-se per a la reunió amb els seus pares i el tutor, una orientació útil és revisar "la seva història d'aprenentatge" a través de la seva carpeta d'aprenentatge: "Obre la teva carpeta. Quines activitats vas incloure al principi del trimestre? Quines has afegit al final? Quina activitat et va costar més i com la vas millorar? Quina és la teva reflexió sobre el que has après en matemàtiques aquest trimestre? Pots mostrar als teus pares els teus esborranys i la versió final d'aquella redacció que et va costar tant, i explicar-los com vas aplicar el feedback del professor." Aquesta heurística ajuda l'alumne a prendre consciència del seu propi creixement, a valorar l'esforç realitzat i a comunicar els seus aprenentatges de manera significativa, reforçant la seva autoestima i la seva capacitat d'autoreflexió.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b6:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/index |
-| 2 | cursos:escola_inclusiva:ansu:b6:b6t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t5 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t2 |
-| 4 | cursos:escola_inclusiva:ansu:b6:b6t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t1 |
-| 5 | cursos:escola_inclusiva:ansu:b6:b6t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t4 |
-| 6 | cursos:curriculum:inf_pri:cape:aval:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/index |
-| 7 | cursos:escola_inclusiva:ansu:b6:b6t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t2 |
-| 8 | cursos:curriculum:inf_pri:cape:aval:taller:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/index |
-| 9 | cursos:curriculum:inf_pri:cape:aval:taller:s2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/s2 |
-| 10 | cursos:curriculum:inf_pri:cape:aval:taller:s1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/s1 |
-| 11 | avaluar_per_aprendre_dc4082466b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0024/fc53024f-626e-423b-877a-932148c56075/avaluar_per_aprendre.pdf |
-| 12 | carpeta-aprenentatge_2620ab3872.pdf | https://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/carpeta-aprenentatge.pdf |
-| 13 | 3._modificacio_prova_avaluacio_cicle_inicial_8594dbd6d4.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3._modificacio_prova_avaluacio_cicle_inicial.pdf |
-| 14 | practica_3_8db195af30.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/practica_3.pdf |
-| 15 | avaluaci-formativa_-qu-hi-ha-de-nou_deb2ffb895.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 16 | La-carpeta-daprenentatge_2cdfda0ad0.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0003/0e9f449b-790e-4fd7-a9e9-1cab53252ae3/La-carpeta-daprenentatge.pdf |
-| 17 | 5._modificacio_prova_avaluacio_cicle_superior_e34c732a04.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/5._modificacio_prova_avaluacio_cicle_superior.pdf |
-| 18 | 3a_presentacio_-autoexplicativa_5_9_88d91daaeb.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3a_presentacio_-autoexplicativa_5_9.pdf |
-| 19 | 4._modificacio_prova_avaluacio_cicle_mitja_506362b8ba.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/4._modificacio_prova_avaluacio_cicle_mitja.pdf |
-| 20 | 2._es_competencial_aquesta_prova_b4b85a43ac.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/2._es_competencial_aquesta_prova.pdf |
-| 21 | Full-indicadors-compartir-objectius-i-criteris-ava_4448f3a238.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0083/c7780a61-36f9-4a59-aeca-21acafc597f3/Full-indicadors-compartir-objectius-i-criteris-avaluacio.pdf |
-| 22 | avaluaci-formativa_-qu-hi-ha-de-nou_228021edaf.pdf | http://xtec.gencat.cat/web/.content/documents/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 23 | Pautes-per-compartir-objectius-i-criteris-d-avalua_32b5566812.pdf | http://xtec.gencat.cat/web/.content/documents/Pautes-per-compartir-objectius-i-criteris-d-avaluaci.pdf |
-| 24 | Rubrica-Bans_b879cedf7d.pdf | http://xtec.gencat.cat/web/.content/documents/Rubrica-Bans.pdf |
-| 25 | formativa-proves-avaluacio_fde7363bd0.pdf | http://xtec.gencat.cat/web/.content/documents/formativa-proves-avaluacio.pdf |
-| 26 | BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL_145f5a418f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0026/f5b4e60d-88cc-4364-bb7f-4cb2243769bf/BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 27 | Mini_GAPPISA_horitzontal_1c526ecc07.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0014/4d35cb97-7bb9-43d3-919b-46cb8f271671/Mini_GAPPISA_horitzontal.pdf |
-| 28 | autoavaluacio-coavaluacio_52971de36c.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/autoavaluacio-coavaluacio.pdf |
-| 29 | 81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d_60f99c9a2a.pdf | https://docs.wixstatic.com/ugd/81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d.pdf |
-| 30 | base-orientacio_7dc60ba889.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/base-orientacio.pdf |
-
-*30 documents font · secció generada automàticament*
+- Sanmartí, N. (2007). *10 idees clau: Avaluar per aprendre*. Barcelona: Graó.
+- Jorba, J., & Casellas, E. (1996). *La regulació i l'autoregulació dels aprenentatges*. Barcelona: Universitat Autònoma de Barcelona.
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
+- Decret 175/2022, de 27 de setembre, pel qual s'estableix l'ordenació dels ensenyaments de l'educació bàsica. DOGC núm. 8762.
+- Wiliam, D. (2011). *Embedded Formative Assessment*. Bloomington: Solution Tree Press.

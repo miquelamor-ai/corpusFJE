@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T11:54:44
 ---
 
-# 1. CONTINGUT ESPECÍFIC DEL MARC
-
 ## Definició i principis
 L'Enfocament Restauratiu Global (ERG) és una filosofia i un conjunt de pràctiques que transformen la manera com la comunitat educativa aborda les relacions, els incidents i els conflictes. Va més enllà dels models tradicionals, tant permissius com punitius, per oferir una mirada humanitzadora. Aquesta mirada implica veure els altres no com a objectes a controlar, sinó com a persones amb qui ens relacionem, reconeixent la seva dignitat i les seves necessitats.
 
@@ -76,52 +74,47 @@ L'Enfocament Restauratiu Global (ERG) és una eina potent per a la convivència,
 *   **No és només per a la resolució de conflictes entre alumnes:** L'ERG té un abast global i s'aplica a totes les relacions de la comunitat educativa: entre alumnes, entre alumnes i docents, entre docents, i entre l'escola i les famílies. Limitar-lo només als conflictes entre iguals seria desaprofitar el seu potencial per millorar el clima general del centre.
 *   **La maduresa emocional dels participants influeix en l'èxit:** En funció de l'edat i el desenvolupament emocional de l'alumnat, la capacitat per participar en processos restauratius pot variar. En educació infantil i primària, les pràctiques seran més guiades i centrades en l'expressió d'emocions i necessitats bàsiques, mentre que en secundària i batxillerat es pot esperar una major autonomia i profunditat en la reflexió i la reparació.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **Projecte de Convivència:** L'ERG és un marc fonamental per a l'elaboració i implementació del Projecte de Convivència del centre, ja que proporciona la filosofia i les eines per a una gestió positiva dels conflictes i la construcció de relacions.
-*   **Habilitats de pau:** El dossier "Habilitats de pau" aprofundeix en la Comunicació NoViolenta, l'escolta i la reflexió restaurativa, que són pilars per a l'aplicació efectiva de l'ERG.
-*   **Cercles restauratius:** El document "Cercles restauratius" detalla el protocol i les fases d'una de les pràctiques clau de l'ERG per a la construcció de comunitat i la resolució de conflictes.
-*   **Pràctiques responsives (converses i reunions restauratives):** El dossier "Pràctiques responsives" descriu com aplicar les converses i reunions restauratives, que són la part de l'ERG dedicada a la reparació del dany.
-*   **Educació socioemocional:** Les "36 cartes de les emocions" i "Les 36 cartes de les necessitats" són eines directament vinculades a l'ERG, ja que faciliten l'expressió i la comprensió de les emocions i necessitats, elements clau per a la resolució restaurativa de conflictes.
-*   **Mediació escolar:** L'ERG proporciona el marc teòric i metodològic per a la implementació de programes de mediació escolar, com es detalla en els quaderns de treball de mediació.
-*   **Protocols de violència en l'àmbit educatiu:** L'ERG s'integra en el "Circuit d’actuació davant de qualsevol tipus de violència en l’àmbit educatiu", oferint un enfocament per a la reparació del dany i la restauració de relacions un cop s'han activat els protocols de protecció.
-*   **Educar en la gestió positiva dels conflictes:** Aquest document complementa l'ERG en proporcionar recursos i estratègies per a la comunicació, la gestió emocional i la presa de decisions en situacions de conflicte.
-*   **El centre educatiu acollidor:** L'ERG contribueix a crear un entorn acollidor, ja que posa èmfasi en la construcció de relacions, la inclusió i el sentiment de pertinença de tots els membres de la comunitat.
-*   **Participació familiar:** L'ERG promou la implicació de les famílies en la convivència del centre, en línia amb les orientacions sobre l'acollida i la participació familiar.
-*   **Educació per la pau:** L'ERG és una manifestació pràctica de l'educació per la pau, ja que fomenta el diàleg, la noviolència i la resolució constructiva dels conflictes.
+- **`M7_benestar-emocional-seguretat.md`** — La seguretat emocional és el prerequisit de l'enfocament restauratiu: sense un clima d'aula segur, els cercles restauratius no poden funcionar de forma autèntica
+- **`M0_cura-personalis.md`** — L'enfocament restauratiu és Cura Personalis en l'àmbit del conflicte: la resposta que posa la persona i la relació per davant de la norma i el càstig
+- **`M1_trastorns-emocionals-conducta.md`** — L'ERG és especialment rellevant per a alumnat amb TEC: la resposta restaurativa evita l'espiral expulsió-exclusió i manté el vincle educatiu
+- **`M0_educador-samarita.md`** — L'educador samarità és el model de resposta restaurativa: qui s'atura, veu el mal i actua des de la relació, no des de la norma ni el càstig sancionador
+- **`M7_gestio-aula-rutines.md`** — La gestió de l'aula i l'ERG son complementaris: les rutines positives prevenen el conflicte; l'ERG resol els que inevitablement apareixen malgrat un bon clima
+- **`M7_participacio-families.md`** — L'ERG inclou les famílies en el procés de reparació: la coherència entre escola i família en la resposta al conflicte és el factor de protecció més poderós
 
-# 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-**Senyals del docent**
+### Senyals del docent
 *   "Estic cansat/da de posar càstigs que no serveixen per a res, els conflictes es repeteixen."
 *   "M'agradaria que els alumnes aprenguessin a resoldre els seus problemes sense la meva intervenció constant."
 *   "El clima de la meva aula no és bo, hi ha moltes tensions i petits incidents que no sé com abordar."
 *   "Busco maneres de fomentar la cohesió de grup i el sentiment de pertinença entre els meus alumnes."
 *   "Com puc fer que els alumnes entenguin l'impacte de les seves accions en els altres i assumeixin responsabilitats de manera constructiva?"
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   L'alumne expressa frustració o ràbia per un conflicte i només vol que el "culpable" sigui castigat.
 *   L'alumne se sent exclòs o maltractat i no sap com comunicar el seu malestar o les seves necessitats.
 *   L'alumne està implicat repetidament en conflictes i mostra dificultat per empatitzar amb els altres o per trobar solucions.
 
-**Senyals de context**
+### Senyals de context
 *   Augment de petits conflictes a l'aula o al pati que afecten el clima general.
 *   Un grup classe amb poca cohesió, on hi ha cliques o aïllament d'alguns membres.
 *   La implementació d'un nou Projecte de Convivència al centre que inclou la cultura de pau i la mediació.
 *   La necessitat de millorar la comunicació entre l'alumnat, el professorat i les famílies davant de situacions de tensió.
 
-**Anti-senyals**
+### Anti-senyals
 *   El docent busca exclusivament solucions ràpides i punitives per "tallar el problema de soca-rel" sense interès en la reparació o la relació.
 *   La direcció del centre no dona suport a la formació ni a la implementació de pràctiques restauratives, considerant-les una pèrdua de temps.
 *   Les famílies exigeixen mesures disciplinàries estrictes i no estan obertes a processos de diàleg o reparació.
 *   L'alumne es nega rotundament a participar en qualsevol diàleg amb la part afectada o a reconèixer el dany causat.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general**
 L'Enfocament Restauratiu Global busca transformar les relacions i reparar el dany causat, no només castigar la conducta, fomentant la responsabilitat i la construcció de comunitat.
 
-**Heurístiques per al docent**
+#### Heurístiques per al docent
 
 *   **Heurística: Del càstig a la reparació del dany.**
     *   **Quan aplica:** Quan un docent expressa la intenció d'aplicar una sanció davant d'una conducta disruptiva o un conflicte, però també mostra una preocupació per l'impacte en la convivència o en les relacions.
@@ -148,7 +141,7 @@ L'Enfocament Restauratiu Global busca transformar les relacions i reparar el dan
     *   **Fonament:** L'ERG subratlla que la comunicació efectiva, activa i empàtica és la principal eina per a la transformació noviolenta de conflictes i la construcció de relacions. Implica escoltar per entendre, no només per respondre.
     *   **Exemple complet de raonament:** Davant un docent que diu: "He explicat les normes moltes vegades, però els alumnes no les respecten", una resposta adequada és: "És frustrant quan sentim que els nostres missatges no arriben. L'ERG emfatitza que la comunicació és un procés bidireccional que requereix escolta activa. En lloc de només transmetre les normes, podríem obrir un espai de diàleg amb els alumnes, potser a través d'un cercle, per preguntar-los com els afecten aquestes normes, quines necessitats cobreixen o no, i quines propostes tenen per millorar-les. Aquesta escolta empàtica no només els fa sentir valorats, sinó que també augmenta la seva implicació i responsabilitat en el compliment dels acords, ja que han participat en la seva construcció. Això transforma la relació i la percepció de les normes, passant de ser imposades a ser compartides."
 
-**Heurístiques per a l'alumne**
+#### Heurístiques per a l'alumne
 
 *   **Heurística: De l'aïllament a la connexió i el sentiment de pertinença.**
     *   **Quan aplica:** Quan un alumne expressa sentir-se sol, exclòs, o té dificultats per fer amics o integrar-se en el grup.
@@ -164,140 +157,11 @@ L'Enfocament Restauratiu Global busca transformar les relacions i reparar el dan
     *   **Quan aplica:** Quan un alumne està implicat en un conflicte i només veu dues opcions: guanyar o perdre, o que l'altre sigui castigat, sense considerar la reparació del dany o la restauració de la relació.
     *   **Fonament:** L'ERG busca que les parts implicades assumeixin la responsabilitat del dany causat i col·laborin en la recerca de solucions que reparin aquest dany i restaurin la relació, en lloc de només buscar un culpable o un càstig.
     *   **Exemple complet de raonament:** Davant un alumne que diu: "En Pau m'ha trencat el llapis i vull que li posin un càstig ben gros", una resposta adequada és: "És normal voler que hi hagi conseqüències quan algú et fa mal o et trenca alguna cosa. Des de l'Enfocament Restauratiu Global, a més del que passi amb en Pau, ens interessa molt que tu et sentis millor i que el dany es repari. Què necessitaries per sentir-te millor? Potser que en Pau t'expliqui què ha passat, que et demani disculpes, o que t'ajudi a aconseguir un llapis nou? Podríem fer una petita conversa restaurativa on tots dos pugueu parlar del que ha passat, com us sentiu i què podríeu fer per arreglar-ho. L'objectiu no és només castigar, sinó que el dany es repari i que la vostra relació, si és possible, es pugui restaurar, aprenent de l'experiència per al futur."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | guia recursos pau_951dc5112c.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/1ea6a890-c1a4-4de7-b388-964ac6a3aadf/guia%20recursos%20pau.pdf |
-| 2 | guia_violencies_racistes_7175d0d570.pdf | https://xtec.gencat.cat/web/.content/alumnat/violencies/materials-i-recursos/recursos/guia_violencies_racistes.pdf |
-| 3 | entendiendo_participacion_bed4760b52.pdf | http://plataformadeinfancia.org/wp-content/uploads/2014/05/entendiendo_participacion.pdf |
-| 4 | 4-dossier_d584fe7b02.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/4-dossier.pdf |
-| 5 | Guio_Entrevista_c1a82c4e33.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Guio_Entrevista.pdf |
-| 6 | Relacio_Acords_78e53dccce.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Relacio_Acords.pdf |
-| 7 | Orientacions_Entrevista_07f81f3bcc.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Orientacions_Entrevista.pdf |
-| 8 | circuit-actuacio-protocol_1994844117.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/protocols/actuacio-davant-violencia-ambit-educatiu/circuit-actuacio-protocol.pdf |
-| 9 | Cercles_Restauratius_22107231b9.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Cercles_Restauratius.pdf |
-| 10 | Mesures_Acompanyament_20d3a75efa.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Mesures_Acompanyament.pdf |
-| 11 | 3-dossier_570b9f5471.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/3-dossier.pdf |
-| 12 | 1970m_ebde43f2a0.pdf | http://www.xtec.cat/sgfp/llicencies/200809/memories/1970m.pdf?_ga=2.261902797.1958281351.1652645927-24184164.1627025516 |
-| 13 | PdC_3e014b2ba4.pdf | http://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/documents/PdC.pdf |
-| 14 | guia recursos pau_951dc5112c.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/1ea6a890-c1a4-4de7-b388-964ac6a3aadf/guia%20recursos%20pau.pdf |
-| 15 | Manual for teachers Catalan FINAL_23.5.2022_24a503db6a.pdf | https://www.micreate.eu/wp-content/img/Manual%20for%20teachers%20Catalan%20FINAL_23.5.2022.pdf |
-| 16 | guia_violencies_racistes_7175d0d570.pdf | https://xtec.gencat.cat/web/.content/alumnat/violencies/materials-i-recursos/recursos/guia_violencies_racistes.pdf |
-| 17 | entendiendo_participacion_bed4760b52.pdf | http://plataformadeinfancia.org/wp-content/uploads/2014/05/entendiendo_participacion.pdf |
-| 18 | 4-dossier_d584fe7b02.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/4-dossier.pdf |
-| 19 | Guio_Entrevista_c1a82c4e33.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Guio_Entrevista.pdf |
-| 20 | Relacio_Acords_78e53dccce.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Relacio_Acords.pdf |
-| 21 | Orientacions_Entrevista_07f81f3bcc.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Orientacions_Entrevista.pdf |
-| 22 | circuit-actuacio-protocol_1994844117.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/protocols/actuacio-davant-violencia-ambit-educatiu/circuit-actuacio-protocol.pdf |
-| 23 | Cercles_Restauratius_22107231b9.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/protocols/documents-vinculats-als-protocols/Cercles_Restauratius.pdf |
-| 24 | 3-dossier_570b9f5471.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/3-dossier.pdf |
-| 25 | 1970m_ebde43f2a0.pdf | http://www.xtec.cat/sgfp/llicencies/200809/memories/1970m.pdf?_ga=2.261902797.1958281351.1652645927-24184164.1627025516 |
-| 26 | Unitat de suport a la convivència escolar (USCE). XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/resconflictes/conflictesgreus/usce/index.html |
-| 27 | Centres. Projecte educatiu. Projecte de convivència. Recursos. Resolució de conflictes. Gestió i resolució positiva dels conflictes. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/resconflictes/conflicteslleus/ |
-| 28 | Centres. Projecte educatiu. Projecte de convivència. Recursos. Resolució de conflictes. Conflictes greus. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/resconflictes/conflictesgreus/ |
-| 29 | Centres. Projecte educatiu. Projecte de convivència. Recursos. Resolució de conflictes. Absentisme. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/resconflictes/absentisme/ |
-| 30 | Educació per la pau. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/valorsiactituds/educacio-per-la-pau/ |
-| 31 | Centres. Projecte educatiu. Projecte de convivència. Recursos. Valors i actituds. Educació socioemocional. Sensibilització i reflexió. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocional/ |
-| 32 | Coeducació i perspectiva de gènere. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/alumnat/benestar/coeducacio-i-perspectiva-de-genere/ |
-| 33 | Educar en la gestió positiva dels conflictes. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/valorsiactituds/gestio-positiva/ |
-| 34 | Projectes. Educació intercultural. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/projectes/intercultural/ |
-| 35 | Educar en el respecte. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/valorsiactituds/educar-en-el-respecte/ |
-| 36 | Centres. Projecte educatiu. Projecte de convivència. Recursos. Valors i actituds. Inclusió. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/valorsiactituds/inclusio/ |
-| 37 | Projectes. Alumnat nouvingut. Acollida. Notes per a la comunicació amb les famílies. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/projectes/alumnat-origen-estranger/alumnatnou/acollida/notes/index.html |
-| 38 | Comunitat educativa. Pla Català d'Esport a l'Escola. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/comunitat/esportescola/ |
-| 39 | Comunitat educativa. Escola i famílies. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/comunitat/escolaifamilies/index.html |
-| 40 | Petit manual ERG. Dossiers. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/una-comunitat-educativa-restaurativa-i-resilient/petit-manual-erg-dossiers/ |
-| 41 | Pla LELV i protocols. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/alumnat/violencies/pla-lelv-protocols/ |
-| 42 | Projecte de convivència. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/ |
-| 43 | Recursos. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/projectes/intercultural/Recursos/ |
-| 44 | Plans educatius d'entorn. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/comunitat/entorn_pee/index.html |
-| 45 | Protocol d’àmbit comunitari de prevenció, detecció i intervenció davant situacions d’absentisme. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/absentisme/index.html |
-| 46 | Unitat de suport a la convivència escolar (USCE). XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/recursos/resconflictes/conflictesgreus/usce/ |
-| 47 | Protocol per a l’atenció i acompanyament de l’alumnat transgènere en els centres educatius. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/atencio-acompanyament-alumnat-transgenere/ |
-| 48 | Protocol d’actuació davant de qualsevol tipus de violència en l’àmbit educatiu. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/protocol-actuacio-davant-qualsevol-tipus-violencia-ambit-educatiu/ |
-| 49 | Protocol d’àmbit comunitari de prevenció, detecció i intervenció davant situacions d’absentisme. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/absentisme/ |
-| 50 | Protocol de prevenció, detecció, notificació, derivació i coordinació de les situacions de maltractament infantil i adolescent en l'àmbit educatiu. XTEC - Xarxa Telemàtica Educativa de Catalunya | https://xtec.gencat.cat/ca/centres/projeducatiu/convivencia/protocols/maltractament-infantil-adolescent/ |
-| 51 | PdC_bc1f0c2151.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/documents/PdC.pdf |
-| 52 | Acollida-amb-lespai-Families-del-web-dEducacio_0e5f140872.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acollida/eines/documents/Acollida-amb-lespai-Families-del-web-dEducacio.pdf |
-| 53 | ENTREVISTA-INICIAL_28fb87308e.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialeines/documents/ENTREVISTA-INICIAL.pdf |
-| 54 | 00-protocol-actuacions_31b2016a98.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/docs/00-protocol-actuacions.pdf |
-| 55 | Proposta-dinformacions-a-les-families_5701c3747a.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acollida/eines/documents/Proposta-dinformacions-a-les-families.pdf |
-| 56 | caixadeines03_13a938ca4e.pdf | https://educacio.gencat.cat/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines03/caixadeines03.pdf |
-| 57 | caixaeines%206A_d2e95c0bda.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/86dd293e-f826-4d2f-920a-364c89b2fb29/caixaeines%25206A.pdf |
-| 58 | caixadeines05_08d74d8bbf.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines05/caixadeines05.pdf |
-| 59 | caixaeines%207A_6bd0d784bf.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/14e9f15a-b546-4c9f-9cdc-1f3e86deb24d/caixaeines%25207A.pdf |
-| 60 | caixadeines03_fff0dd34d0.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines03/caixadeines03.pdf |
-| 61 | caixaeines-7A_623dae4cde.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0035/14e9f15a-b546-4c9f-9cdc-1f3e86deb24d/caixaeines-7A.pdf |
-| 62 | 5Kxs_bd26700d93.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0032/0112273e-ad0c-44b7-a8c7-e5eec8cebcfe/5Kxs.pdf |
-| 63 | Continguts-Escola-i-Families-Abril-2022_2620f638d9.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/Continguts-Escola-i-Families-Abril-2022.pdf |
-| 64 | GLOSSARI_67a83a000f.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/GLOSSARI.pdf |
-| 65 | Eina-sensibilitzacio_oct-2019_ec556cd522.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/Eina-sensibilitzacio_oct-2019.pdf |
-| 66 | Kxa-de-convivncia-llibret_10c016fe65.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3ec28168-0f6c-49d1-80f9-9b27653f2b57/Kxa-de-convivncia-llibret.pdf |
-| 67 | Activitats_descans_10-14_70f6918d19.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialactivitatsperaalumnes/documents/Activitats_descans_10-14.pdf |
-| 68 | refugiats-10-12_0b839d929f.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialactivitatsperaalumnes/documents/refugiats-10-12.pdf |
-| 69 | refugiats-7-10_b5e5f9146b.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialactivitatsperaalumnes/documents/refugiats-7-10.pdf |
-| 70 | Activitats_aula_carta_compromis_eceee74184.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/cartadecompromis/eines/documents/Activitats_aula_carta_compromis.pdf |
-| 71 | refugiats-12-16_77b7963d78.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialactivitatsperaalumnes/documents/refugiats-12-16.pdf |
-| 72 | Continguts-Escola-i-Familia-actualitzat-2022_Acoll_28c03fa4f9.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/documents/Continguts-Escola-i-Familia-actualitzat-2022_Acollida.pdf |
-| 73 | Continguts-Escola-i-Familia-actualitzat-2022_Parti_54f07c4f42.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/documents/Continguts-Escola-i-Familia-actualitzat-2022_Participacio.pdf |
-| 74 | Continguts-Escola-i-Familia-actualitzat-2022_Accio_3314680240.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/documents/Continguts-Escola-i-Familia-actualitzat-2022_Accio-Tutorial-Compartida.pdf |
-| 75 | Continguts-Escola-i-Familia-actualitzat-2022_Carta_7f79f2854e.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/documents/Continguts-Escola-i-Familia-actualitzat-2022_Carta-Compromis-Educatiu.pdf |
-| 76 | Continguts-Escola-i-Familia-actualitzat-2022_Forma_78590268ae.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/documents/Continguts-Escola-i-Familia-actualitzat-2022_Formacio.pdf |
-| 77 | Continguts-Escola-i-Familia-actualitzat-2022_Infor_c254d6601d.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/documents/Continguts-Escola-i-Familia-actualitzat-2022_Informacio-i-Comunicacio.pdf |
-| 78 | Kxa-de-convivncia-llibret_20342a563f.pdf | https://xtec.gencat.cat/web/.content/documents/Kxa-de-convivncia-llibret.pdf |
-| 79 | NECESSITATS_NOM_REVERS_juliol_2020_210ca5ea1a.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/NECESSITATS_NOM_REVERS_juliol_2020.pdf |
-| 80 | DEFINICIO-EMOCIONS-MODIFICAT_d6af1b9322.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/DEFINICIO-EMOCIONS-MODIFICAT.pdf |
-| 81 | PDF-2-1_163c451580.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/PDF-2-1.pdf |
-| 82 | PDF-1_20b4b06697.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/PDF-1.pdf |
-| 83 | PDF-N_3R_ee64810181.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/PDF-N_3R.pdf |
-| 84 | PDF-3-1_69c88c1687.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/PDF-3-1.pdf |
-| 85 | PDF-N_2R_e8089eb9a5.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/PDF-N_2R.pdf |
-| 86 | PDF-N_0R_fab4d70bc4.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/socioemocionaleines/documents/PDF-N_0R.pdf |
-| 87 | UD-Consell-escolar-secundaria-tutor_1801d01026.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorial/acciotutorialactivitatsperaalumnes/eleccions-al-consell-escolar/UD-Consell-escolar-secundaria-tutor.pdf |
-| 88 | UD-Consell-escolar-primaria-tutor_b2afab2147.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorial/acciotutorialactivitatsperaalumnes/eleccions-al-consell-escolar/UD-Consell-escolar-primaria-tutor.pdf |
-| 89 | UD-Consell-escolar-secundaria-alumnes_f1ac4c7938.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorial/acciotutorialactivitatsperaalumnes/eleccions-al-consell-escolar/UD-Consell-escolar-secundaria-alumnes.pdf |
-| 90 | UD-Consell-escolar-primaria-alumnes_15ced2e2ae.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorial/acciotutorialactivitatsperaalumnes/eleccions-al-consell-escolar/UD-Consell-escolar-primaria-alumnes.pdf |
-| 91 | PEC_Convivencia_clima_dde7799f04.pdf | https://documents.espai.educacio.gencat.cat/IPCNormativa/DOIGC/PEC_Convivencia_clima.pdf |
-| 92 | resum_actuacions_pla_acollida_2022_226b235307.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acollida/eines/documents/resum_actuacions_pla_acollida_2022.pdf |
-| 93 | Informacions-pel-web-dun-centre-educatiu_0f1680a8a5.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acollida/eines/documents/Informacions-pel-web-dun-centre-educatiu.pdf |
-| 94 | FORMACIO BLOCS_962558f21f.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/7be87d65-a57b-4c76-8bb6-7f237ab57e42/FORMACIO%20BLOCS.pdf |
-| 95 | PARTICIPACIO-AL-WEB-FAMILIES_53f34df085.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/participacio/eines/PARTICIPACIO-AL-WEB-FAMILIES.pdf |
-| 96 | Redissenyar-la-reunio-dinici-de-curs-_651127a1a8.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/participacio/eines/Redissenyar-la-reunio-dinici-de-curs-.pdf |
-| 97 | Pares-i-mares-delegats-de-classe-Orientacions_572904d5fa.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/participacio/eines/Pares-i-mares-delegats-de-classe-Orientacions.pdf |
-| 98 | Questionaris_satisfaccio_ATC_c7b73c5da8.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialeines/documents/Questionaris_satisfaccio_ATC.pdf |
-| 99 | FORMACIO-AL-WEB-FAMILIES_a1bd0edcd0.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/formacio/eines/FORMACIO-AL-WEB-FAMILIES.pdf |
-| 100 | Questionari-necessitats-formatives-de-les-families_ee5870ed8e.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/formacio/eines/Questionari-necessitats-formatives-de-les-families.pdf |
-| 101 | orientacions_pla_formacio_families_2022_ad26e35fea.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/formacio/eines/orientacions_pla_formacio_families_2022.pdf |
-| 102 | Guia-recursos-en-linia-families_a1e288caf6.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/inf_comunic/eines/Guia-recursos-en-linia-families.pdf |
-| 103 | caixaeines-7B_80c7aac345.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0033/073ff8f8-a2bd-499b-8659-c07493268970/caixaeines-7B.pdf |
-| 104 | Activitats_descans_7-10_4db64d63ac.pdf | https://xtec.gencat.cat/web/.content/comunitat/escolaifamilia/recursos/acciotutorialactivitatsperaalumnes/documents/Activitats_descans_7-10.pdf |
-| 105 | 1597m_b8516f4749.pdf | http://www.xtec.cat/sgfp/llicencies/200607/memories/1597m.pdf |
-| 106 | Monografic_ESPORTS-VALORS_DiariARA-23-5_8134cf1626.pdf | http://agora.xtec.cat/escola-santangel-camarles/wp-content/uploads/usu340/2016/05/Monografic_ESPORTS-VALORS_DiariARA-23-5.pdf |
-| 107 | Quadern-de-treball-PME_ade12325a7.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/documents/Quadern-de-treball-PME.pdf |
-| 108 | Guia-per-al-respecte-de-la-diversitat_6eba12c011.pdf | https://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/valorsiactituds/respecte/Guia-per-al-respecte-de-la-diversitat.pdf |
-| 109 | 2-dossier_2ff7a6aaf7.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/2-dossier.pdf |
-| 110 | 877m_8981b4a48e.pdf | http://www.xtec.cat/sgfp/llicencies/200304/memories/877m.pdf?_ga=2.18469819.32391061.1645631818-1981607364.1615879760 |
-| 111 | Quadern-de-treball-PME_2072da2913.pdf | http://xtec.gencat.cat/web/.content/centres/projeducatiu/convivencia/recursos/documents/Quadern-de-treball-PME.pdf |
-| 112 | 1-dossier_6ea0c200d2.pdf | https://educacio.gencat.cat/web/.content/home/departament/publicacions/monografies/enfocament-restauratiu/manual-enfocament-restauratiu-global/1-dossier.pdf |
-| 113 | anexo17_7516b21d76.pdf | http://escolapau.uab.cat/img/educacion/anexo17.pdf |
-| 114 | dd6737_8acec32079.pdf | https://www.sidastudi.org/resources/inmagic-img/dd6737.pdf |
-| 115 | EquitatMenstrual_85cf02c32a.pdf | https://xtec.gencat.cat/web/.content/alumnat/benestar/coeducacio-i-prespectiva-de-genere/EquitatMenstrual.pdf |
-| 116 | publicacion002c_f5f799f8a0.pdf | http://escolapau.uab.cat/img/programas/educacion/publicacion002c.pdf |
-| 117 | anexo21_296b0bf56c.pdf | http://escolapau.uab.cat/img/educacion/anexo21.pdf |
-| 118 | anexo04_34f381eac1.pdf | http://escolapau.uab.cat/img/educacion/anexo04.pdf |
-| 119 | publicacion005e_53dd82a978.pdf | http://escolapau.uab.cat/img/programas/educacion/publicacion005e.pdf |
-| 120 | PRI_enquesta_tutor_AA_red_1011_a4b5f0f9bc.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0022/7e7e51f9-785d-41ce-826e-85a0a7b19078/PRI_enquesta_tutor_AA_red_1011.pdf |
-| 121 | enq_alum_prim_aranes_db3bec94eb.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0039/24e18e28-5cf9-4e4b-86c3-893f7e248119/enq_alum_prim_aranes.pdf |
-| 122 | SEC_enquesta_integracio_tutor_AO_red_5c14c189f6.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0047/50cba0c0-a8d7-4e84-9331-f0d413c08359/SEC_enquesta_integracio_tutor_AO_red.pdf |
-| 123 | SEC_enquesta_integracio_tutor_AA_red_11d8f24a92.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0020/6ea281ca-6c28-43eb-81a0-2dc8670ac0f2/SEC_enquesta_integracio_tutor_AA_red.pdf |
-| 124 | SEC_enquesta_integracio_alumne_red_1f875bd86c.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0077/b6c414ef-82ba-403f-a130-78fc66a8412b/SEC_enquesta_integracio_alumne_red.pdf |
-| 125 | CS_7_4d56fafc75.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0030/eb152763-245f-4fce-82ca-215db7407df0/CS_7.pdf |
-| 126 | enq_alum_prim_aranes_325e340086.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0039/24e18e28-5cf9-4e4b-86c3-893f7e248119/enq_alum_prim_aranes.pdf |
-| 127 | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-educacio-intercultural.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-educacio-intercultural.pdf |
-| 128 | Suport a famílies nouvingudes - aFFaC | https://affac.cat/affac/suport-families-nouvingudes/ |
-| 129 | https://affac.cat/wp-content/uploads/2023/12/El-sistema-educatiu-catala_Guia-breu-per-a-families-nouvingudes_V6.pdf | https://affac.cat/wp-content/uploads/2023/12/El-sistema-educatiu-catala_Guia-breu-per-a-families-nouvingudes_V6.pdf |
-
-*129 documents font · secció generada automàticament des dels metadades del corpus*
+- Zehr, H. (2002). *The Little Book of Restorative Justice*. Intercourse, PA: Good Books.
+- Wachtel, T. (2012). *Dreaming of a New Reality: How Restorative Practices Reduce Crime and Violence, Improve Relationships and Strengthen Civil Society*. Bethlehem, PA: IIRP.
+- Hopkins, B. (2004). *Just Schools: A Whole School Approach to Restorative Justice*. Londres: Jessica Kingsley.
+- Decret 279/2006, de 4 de juliol, sobre drets i deures de l'alumnat i regulació de la convivència en els centres educatius no universitaris de Catalunya. DOGC núm. 4670.
+- Departament d'Educació (2021). *Convivència positiva i resolució de conflictes*. Generalitat de Catalunya / XTEC.

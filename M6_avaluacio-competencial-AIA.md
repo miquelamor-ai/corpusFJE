@@ -131,21 +131,18 @@ L'èxit d'aquesta estratègia es pot mesurar a través de:
 *   **Centrar-se en "què farem?" en lloc de "què aprendrem?":** Prioritzar la realització d'activitats per sobre de la comprensió dels objectius d'aprenentatge i el sentit de la tasca.
 *   **Sobrecàrrega d'instruments:** Introduir massa instruments d'avaluació sense un propòsit clar o sense temps per gestionar-los i extreure'n conclusions.
 
----
+## 3. Connexions amb altres documents del corpus
 
-### 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M4_competencies-basiques-perfil-sortida.md`** — El perfil de sortida defineix les competències a avaluar; les tasques autèntiques son la via per evidenciar si l'alumne les ha integrat en contextos reals
+- **`M6_avaluacio-formativa-formadora.md`** — L'avaluació formativa és el motor de l'avaluació competencial: sense regulació del procés, l'avaluació es redueix a un producte final sense informació de millora
+- **`M6_coavaluacio-autoavaluacio.md`** — La coavaluació i l'autoavaluació son formes d'evidència de la competència metacognitiva: reflexionar sobre el propi aprenentatge és en si mateixa una competència
+- **`M6_feedback-formatiu.md`** — El feedback és l'eina de regulació de l'avaluació competencial: sense retroalimentació específica i accionable, l'alumne no sap com millorar les seves competències
+- **`M2_ABP-aprenentatge-servei.md`** — L'ABP és el context natural de l'avaluació per tasques autèntiques: el producte del projecte és l'evidència de competència en un context real i significatiu
+- **`M5_disseny-instruccional-amb-IA.md`** — La IA pot diversificar les tasques d'avaluació autèntiques i personalitzar el feedback; però el criteri de qualitat de l'evidència és sempre humà
 
-*   **Marc_AvaluacioFormativa**: Aquest document aprofundeix en els principis teòrics i pedagògics de l'avaluació formativa, que és el fonament d'aquesta estratègia.
-*   **Eina_Rubrica**: Proporciona una guia detallada per a la creació i ús de rúbriques, un instrument clau per a l'avaluació competencial i el feedback.
-*   **Eina_CarpetaAprenentatge**: Descriu la carpeta d'aprenentatge, una eina essencial per a la recollida d'evidències i la reflexió metacognitiva de l'alumnat.
-*   **Eina_BaseOrientacio**: Explica com utilitzar les bases d'orientació per fomentar l'autonomia i l'autoregulació en la realització de tasques.
-*   **Protocol_PI**: Detalla el Pla de Suport Individualitzat, fonamental per adaptar l'avaluació a la diversitat de l'alumnat, especialment en el context d'aquesta estratègia.
-*   **Normativa_AvaluacioPrimaria**: Contextualitza el marc legal de l'avaluació, incloent la importància del seu caràcter formatiu.
-*   **Perfil_AlumneNouvingut**: Aporta informació sobre les necessitats d'aquest perfil d'alumnat, per al qual les adaptacions en l'avaluació competencial són crucials.
+## 4. Detecció
 
-### 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent**
+### Senyals del docent
 *   "Les meves proves només mesuren memorització, no si els alumnes saben aplicar el que aprenen."
 *   "Els meus alumnes no entenen per què fan les activitats, només pregunten per la nota."
 *   "Necessito instruments que m'ajudin a avaluar el procés d'aprenentatge, no només el resultat final."
@@ -154,31 +151,31 @@ L'èxit d'aquesta estratègia es pot mesurar a través de:
 *   "Detecto que hi ha molta ansietat a l'aula quan s'acosta un examen."
 *   "Vull que l'avaluació sigui una eina per motivar, no per desmotivar."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   "No sé què he de fer per millorar, només sé que he suspès."
 *   "Em poso molt nerviós/a amb els exàmens, encara que estudiï."
 *   "Per a què serveix això? Només vull saber la resposta correcta."
 *   "Sempre faig els mateixos errors, no sé com evitar-los."
 *   "No entenc què vol dir 'competència', només vull aprendre els temes."
 
-**Senyals de context**
+### Senyals de context
 *   El centre està implementant el nou currículum per competències i es busca una avaluació coherent.
 *   Hi ha una alta diversitat a l'aula, incloent alumnat nouvingut o amb dificultats lingüístiques.
 *   Els resultats d'una activitat o unitat didàctica són generalment baixos, suggerint un problema en el disseny o la comprensió.
 *   Hi ha una manca de coherència en els criteris d'avaluació entre els docents d'un mateix cicle o departament.
 *   Les famílies expressen preocupació per la manca de transparència en els criteris d'avaluació.
 
-**Anti-senyals**
+### Anti-senyals
 *   El docent busca una "solució ràpida" per automatitzar la qualificació sense implicar-se en el procés formatiu.
 *   L'alumne es nega sistemàticament a reflexionar sobre el seu aprenentatge o a participar en activitats d'autoavaluació/coavaluació.
 *   El context escolar no permet espais per a la reflexió docent o el diàleg amb l'alumnat sobre l'avaluació.
 *   La intenció és utilitzar instruments d'avaluació competencial per comparar i classificar rígidament l'alumnat, en lloc de per a la millora.
 
-### 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general:** L'avaluació ha de ser una palanca per a l'aprenentatge, no només un judici final.
 
-**Heurístiques per a l'Agent DOCENT**
+#### Heurístiques per al docent
 
 *   **Heurística: "El pont entre l'aprenentatge i l'avaluació"**
     *   **Quan aplica:** Quan el docent expressa que l'avaluació se sent desconnectada de l'aprenentatge real dels alumnes, o que només serveix per posar notes.
@@ -205,7 +202,7 @@ L'èxit d'aquesta estratègia es pot mesurar a través de:
     *   **Fonament:** L'error és una part intrínseca i necessària de l'aprenentatge. Un clima d'aula on l'error es pot manifestar sense penalització és essencial perquè l'alumne aprengui a identificar-lo, comprendre'n les causes i trobar solucions, desenvolupant l'autoregulació.
     *   **Exemple complet de raonament:** Un docent nota que els seus alumnes eviten fer preguntes o mostrar la seva feina si no estan segurs que és correcta. L'agent podria raonar: "Per transformar aquesta por a l'error en una oportunitat de creixement, és crucial canviar la percepció de l'error a l'aula. Proposa activitats inicials on els alumnes responguin a preguntes complexes amb les seves idees prèvies, sense por a equivocar-se, i després les comparteixin i les revisin en grup. Fomenta el debat i la discussió, on les propostes es valoren i s'integren. Utilitza la retroalimentació per guiar-los en la identificació de 'què no han fet prou bé, per què i què canviarien', en lloc de només assenyalar el que està malament. Aquesta pràctica coherent ajudarà els alumnes a entendre que l'error és un punt de partida per aprendre, no un fracàs, i els capacitarà per superar dificultats de manera autònoma en el futur."
 
-**Heurístiques per a l'Agent ALUMNE**
+#### Heurístiques per a l'alumne
 
 *   **Heurística: "El mapa del meu aprenentatge"**
     *   **Quan aplica:** Quan l'alumne no entén què s'espera d'ell en una tasca o no sap per què fa el que fa.
@@ -221,21 +218,11 @@ L'èxit d'aquesta estratègia es pot mesurar a través de:
     *   **Quan aplica:** Quan l'alumne se sent passiu en el procés d'avaluació o creu que només el docent és qui avalua.
     *   **Fonament:** L'alumne és el protagonista del seu aprenentatge i, per tant, ha de ser part activa del procés d'avaluació, a través de l'autoavaluació, la coavaluació i la reflexió.
     *   **Exemple complet de raonament:** Un alumne espera que el docent li digui sempre si la seva feina és correcta. L'agent podria raonar: "Tu ets el constructor del teu propi aprenentatge, i l'avaluació és una eina que tu també pots utilitzar. Practica l'autoavaluació: abans de lliurar una tasca, revisa-la amb els criteris que t'ha donat el docent. Pregunta't: 'He complert tots els objectius? Què podria millorar?' També participa en la coavaluació amb els teus companys, donant i rebent feedback constructiu. Utilitza eines com la carpeta d'aprenentatge per recollir la teva feina i les teves reflexions. Aquesta participació activa et farà més conscient del teu progrés, t'ajudarà a identificar les teves pròpies estratègies de millora i et farà més autònom en el teu camí d'aprenentatge."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 6 | cursos:curriculum:inf_pri:cape:aval:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/index |
-| 12 | carpeta-aprenentatge_2620ab3872.pdf | https://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/carpeta-aprenentatge.pdf |
-| 13 | 3._modificacio_prova_avaluacio_cicle_inicial_8594dbd6d4.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3._modificacio_prova_avaluacio_cicle_inicial.pdf |
-| 16 | La-carpeta-daprenentatge_2cdfda0ad0.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0003/0e9f449b-790e-4fd7-a9e9-1cab53252ae3/La-carpeta-daprenentatge.pdf |
-| 17 | 5._modificacio_prova_avaluacio_cicle_superior_e34c732a04.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/5._modificacio_prova_avaluacio_cicle_superior.pdf |
-| 19 | 4._modificacio_prova_avaluacio_cicle_mitja_506362b8ba.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/4._modificacio_prova_avaluacio_cicle_mitja.pdf |
-| 24 | Rubrica-Bans_b879cedf7d.pdf | http://xtec.gencat.cat/web/.content/documents/Rubrica-Bans.pdf |
-| 26 | BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL_145f5a418f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0026/f5b4e60d-88cc-4364-bb7f-4cb2243769bf/BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 28 | autoavaluacio-coavaluacio_52971de36c.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/autoavaluacio-coavaluacio.pdf |
-| 30 | base-orientacio_7dc60ba889.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/base-orientacio.pdf |
-
-*10 documents citats de 30 al corpus · secció generada automàticament*
+- Llei Orgànica 3/2020, de 29 de desembre (LOMLOE). BOE núm. 340 (perfil de sortida, competències clau).
+- Decret 175/2022, de 27 de setembre, pel qual s'estableix l'ordenació dels ensenyaments de l'educació bàsica. DOGC núm. 8762.
+- Wiggins, G. (1998). *Educative Assessment: Designing Assessments to Inform and Improve Student Performance*. San Francisco: Jossey-Bass.
+- Darling-Hammond, L., & Adamson, F. (2010). *Beyond Basic Skills: The Role of Performance Assessment in Achieving 21st Century Standards*. Stanford: Stanford Center for Opportunity Policy.
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.

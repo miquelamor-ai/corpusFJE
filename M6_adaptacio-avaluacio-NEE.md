@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:34:39
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 L'adaptació de l'avaluació per a l'alumnat divers és una estratègia fonamental que transforma la mirada avaluadora d'un procés merament qualificatiu a un de regulador i formatiu. El seu fonament rau en la premissa que l'avaluació ha de servir per millorar l'aprenentatge, no només per certificar-lo. En un currículum per competències, això implica redefinir què, com, quan i per què s'avalua, posant l'alumne al centre del procés. L'objectiu és que l'alumnat esdevingui protagonista de la seva avaluació, capaç d'autoregular-se, d'identificar les seves dificultats i de trobar camins per superar-les. L'error es percep com una part natural i necessària de l'aprenentatge, no com quelcom a penalitzar, i el feedback esdevé una eina crucial per a aquesta autoregulació. Aquesta estratègia és especialment rellevant per a alumnes amb Necessitats Educatives Específiques (NEE) o Necessitats Específiques de Suport Educatiu (NESE), incloent-hi l'alumnat nouvingut amb baixa competència lingüística, ja que permet ajustar els instruments i les condicions d'avaluació per garantir que puguin demostrar el seu aprenentatge de manera equitativa. El Pla de Suport Individualitzat (PI) es configura com una eina clau per formalitzar aquests ajustos.
 
@@ -96,37 +94,37 @@ L'adaptació de l'avaluació es pot implementar progressivament, augmentant la c
 7.  **Feedback genèric o tardà:** Oferir retroalimentació que no és prou específica per ser útil, o fer-ho quan ja és massa tard per a l'alumne per actuar sobre ella i millorar.
 8.  **Confondre "què farem" amb "què aprendrem":** Centrar les instruccions en la tasca en si mateixa en lloc de posar èmfasi en els aprenentatges que s'esperen, fent que l'alumne perdi el focus del propòsit educatiu.
 
----
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-- **Marc_Avaluacio_Formativa**: Aquest document detalla com l'avaluació formativa és el fonament teòric per a l'adaptació de l'avaluació, proporcionant el "per què" d'aquestes estratègies.
-- **Protocol_PI_NEE_NESE**: Descriu el procediment formal per a la creació i seguiment dels Plans de Suport Individualitzat, que són la base normativa per a moltes de les adaptacions aquí proposades.
-- **Eina_Rubrica_Coavaluacio**: Aquesta eina ofereix un instrument concret per implementar l'autoavaluació i coavaluació, pràctiques clau dins d'aquesta estratègia d'adaptació.
-- **Eina_Carpeta_Aprenentatge**: Proporciona una guia per a l'ús de la carpeta d'aprenentatge, un instrument fonamental per recollir evidències i fomentar l'autoregulació en alumnat divers.
-- **Perfil_Alumnat_Nouvingut**: Aprofundeix en les característiques i necessitats de l'alumnat nouvingut amb baixa competència lingüística, un dels perfils clau per als quals aquesta estratègia és essencial.
-- **Estrategia_Diferenciacio_Pedagogica**: Complementa aquesta estratègia en oferir metodologies per adaptar el procés d'ensenyament-aprenentatge en general, no només l'avaluació.
+## 3. Connexions amb altres documents del corpus
 
-## 3. DETECCIÓ (Variables de Context)
-- **Senyals del docent:**
+- **`M1_neurodiversitat-NESE.md`** — L'adaptació d'avaluació és necessària quan la NESE/NEE comporta barreres per als instruments estàndard; el dictamen EAP determina el nivell d'adaptació requerit
+- **`M1_plans-individuals-PAD-PI.md`** — El PI ha d'incloure les adaptacions d'avaluació: criteris, instruments i procediments adaptats son part del contingut obligatori del pla individualitzat
+- **`M4_adaptacio-curricular.md`** — L'adaptació d'avaluació és la conseqüència coherent de l'adaptació curricular: si els objectius son modificats, l'avaluació ha de ser consistent amb els nous objectius
+- **`M6_avaluacio-formativa-formadora.md`** — L'avaluació formativa és el marc general; per a l'alumnat NEE, la regulació contínua de l'aprenentatge és especialment crítica i requereix feedback frequent
+- **`M2_DUA-principis-pautes.md`** — El DUA proporciona les alternatives d'expressió que eviten que la barrera sigui instrumental en lloc de competencial; sense DUA, l'adaptació és sempre reactiva
+- **`M9_decrets-inclusio-ordenacio.md`** — Marc normatiu: Decret 150/2017 i instruccions DOIGC regulen els procediments d'adaptació d'avaluació per a alumnat amb NEE
+
+## 4. Detecció
+### Senyals del docent
     - El docent expressa preocupació per com avaluar alumnes amb dificultats sense que la nota reflecteixi només la seva barrera i no el seu aprenentatge real.
     - El docent pregunta com pot fer que les avaluacions siguin més justes o equitatives per a tot l'alumnat.
     - El docent detecta que alguns alumnes no entenen les instruccions de les proves o no saben com començar.
     - El docent vol anar més enllà de l'examen tradicional i busca maneres de fomentar l'autonomia dels alumnes en l'avaluació.
     - El docent observa que el seu feedback no sempre resulta en una millora visible en els aprenentatges dels alumnes.
-- **Senyals de l'alumne:**
+### Senyals de l'alumne
     - L'alumne mostra ansietat o frustració davant les proves, o es bloqueja.
     - L'alumne no sap explicar què ha après o per què ha comès un error.
     - L'alumne amb baixa competència lingüística té dificultats per expressar-se per escrit, tot i que oralment o de forma pràctica pot demostrar coneixement.
-- **Senyals de context:**
+### Senyals de context
     - S'està implementant un nou currículum per competències al centre.
     - Hi ha una alta diversitat a l'aula, amb presència d'alumnat amb NEE, NESE o nouvingut.
     - Els resultats de les avaluacions no mostren una correlació clara amb el procés d'aprenentatge observat a l'aula.
-- **Anti-senyals:**
+### Anti-senyals
     - El docent busca una "solució ràpida" per canviar notes sense adaptar el procés d'aprenentatge.
     - El docent només vol una llista d'adaptacions sense entendre el fonament pedagògic.
     - L'objectiu principal és reduir la càrrega de feina del docent en l'avaluació, no millorar l'aprenentatge de l'alumnat.
     - Es proposa que un sistema automàtic generi directament les qualificacions o les adaptacions sense la intervenció i el criteri del docent.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 - **Principi general:** L'avaluació ha de ser una palanca per a l'aprenentatge i la inclusió, no un obstacle.
 
 - **Heurística per al docent: "El Llistó Ajustable"**
@@ -138,41 +136,11 @@ L'adaptació de l'avaluació es pot implementar progressivament, augmentant la c
     - **Quan aplica:** Quan un docent s'adona que les seves avaluacions actuals no reflecteixen tot el que els seus alumnes saben o poden fer, especialment amb alumnat divers, o quan busca maneres de fer l'avaluació més dinàmica i menys estressant.
     - **Fonament:** La diversificació dels instruments i canals d'expressió és clau per a una avaluació inclusiva. Cada alumne té fortaleses diferents, i oferir múltiples vies per demostrar l'aprenentatge (oral, escrit, visual, manipulatiu, digital) permet que cadascú pugui expressar el seu coneixement de la manera que li sigui més accessible i efectiva. A més, utilitzar instruments com rúbriques, carpetes d'aprenentatge o bases d'orientació fomenta l'autoregulació i la metacognició, convertint l'avaluació en una eina d'aprenentatge continu. Aquesta pràctica redueix l'ansietat i augmenta la motivació en veure reconegudes les seves capacitats.
     - **Exemple complet de raonament:** Una mestra de 5
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b6:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/index |
-| 2 | cursos:escola_inclusiva:ansu:b6:b6t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t5 |
-| 3 | cursos:escola_inclusiva:ansu:b7:b7t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t2 |
-| 4 | cursos:escola_inclusiva:ansu:b6:b6t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t1 |
-| 5 | cursos:escola_inclusiva:ansu:b6:b6t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t4 |
-| 6 | cursos:curriculum:inf_pri:cape:aval:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/index |
-| 7 | cursos:escola_inclusiva:ansu:b6:b6t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t2 |
-| 8 | cursos:curriculum:inf_pri:cape:aval:taller:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/index |
-| 9 | cursos:curriculum:inf_pri:cape:aval:taller:s2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/s2 |
-| 10 | cursos:curriculum:inf_pri:cape:aval:taller:s1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/inf_pri/cape/aval/taller/s1 |
-| 11 | avaluar_per_aprendre_dc4082466b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0024/fc53024f-626e-423b-877a-932148c56075/avaluar_per_aprendre.pdf |
-| 12 | carpeta-aprenentatge_2620ab3872.pdf | https://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/carpeta-aprenentatge.pdf |
-| 13 | 3._modificacio_prova_avaluacio_cicle_inicial_8594dbd6d4.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3._modificacio_prova_avaluacio_cicle_inicial.pdf |
-| 14 | practica_3_8db195af30.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/practica_3.pdf |
-| 15 | avaluaci-formativa_-qu-hi-ha-de-nou_deb2ffb895.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 16 | La-carpeta-daprenentatge_2cdfda0ad0.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0003/0e9f449b-790e-4fd7-a9e9-1cab53252ae3/La-carpeta-daprenentatge.pdf |
-| 17 | 5._modificacio_prova_avaluacio_cicle_superior_e34c732a04.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/5._modificacio_prova_avaluacio_cicle_superior.pdf |
-| 18 | 3a_presentacio_-autoexplicativa_5_9_88d91daaeb.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/3a_presentacio_-autoexplicativa_5_9.pdf |
-| 19 | 4._modificacio_prova_avaluacio_cicle_mitja_506362b8ba.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/4._modificacio_prova_avaluacio_cicle_mitja.pdf |
-| 20 | 2._es_competencial_aquesta_prova_b4b85a43ac.pdf | http://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/curriculum/inf_pri/cape/2._es_competencial_aquesta_prova.pdf |
-| 21 | Full-indicadors-compartir-objectius-i-criteris-ava_4448f3a238.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0083/c7780a61-36f9-4a59-aeca-21acafc597f3/Full-indicadors-compartir-objectius-i-criteris-avaluacio.pdf |
-| 22 | avaluaci-formativa_-qu-hi-ha-de-nou_228021edaf.pdf | http://xtec.gencat.cat/web/.content/documents/avaluaci-formativa_-qu-hi-ha-de-nou.pdf |
-| 23 | Pautes-per-compartir-objectius-i-criteris-d-avalua_32b5566812.pdf | http://xtec.gencat.cat/web/.content/documents/Pautes-per-compartir-objectius-i-criteris-d-avaluaci.pdf |
-| 24 | Rubrica-Bans_b879cedf7d.pdf | http://xtec.gencat.cat/web/.content/documents/Rubrica-Bans.pdf |
-| 25 | formativa-proves-avaluacio_fde7363bd0.pdf | http://xtec.gencat.cat/web/.content/documents/formativa-proves-avaluacio.pdf |
-| 26 | BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL_145f5a418f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0026/f5b4e60d-88cc-4364-bb7f-4cb2243769bf/BANUS_CI_MODIFICACIO_ACTIVITAT_COMPETENCIAL.pdf |
-| 27 | Mini_GAPPISA_horitzontal_1c526ecc07.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0014/4d35cb97-7bb9-43d3-919b-46cb8f271671/Mini_GAPPISA_horitzontal.pdf |
-| 28 | autoavaluacio-coavaluacio_52971de36c.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/autoavaluacio-coavaluacio.pdf |
-| 29 | 81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d_60f99c9a2a.pdf | https://docs.wixstatic.com/ugd/81d0d8_50ad5ebf0be14ae5ac31074d3ec3302d.pdf |
-| 30 | base-orientacio_7dc60ba889.pdf | http://xtec.gencat.cat/web/.content/curriculum/xarxacb/documents/instruments-avaluacio-formativa/base-orientacio.pdf |
-
-*30 documents font · secció generada automàticament*
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Educació Inclusiva*. Generalitat de Catalunya.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield, MA: CAST Publishing.
+- Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
+- Tomlinson, C. A. (2001). *How to Differentiate Instruction in Mixed-Ability Classrooms* (2a ed.). Alexandria: ASCD.
