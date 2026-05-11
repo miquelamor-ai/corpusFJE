@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T12:44:00
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 El Tractament Integrat de Llengua i Continguts (TILC), conegut internacionalment com a CLIL (Content and Language Integrated Learning) o AICLE, és una estratègia pedagògica que consisteix a ensenyar continguts curriculars d'una àrea o matèria (per exemple, ciències, història, tecnologia) utilitzant una llengua addicional com a vehicle d'instrucció. L'objectiu no és només que l'alumnat aprengui la llengua, sinó que aprengui els continguts de la matèria *a través* d'aquesta llengua, desenvolupant ambdues competències de manera simultània i integrada.
 
@@ -89,43 +87,41 @@ La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al c
 *   **Limitar el TILC a l'assignatura de llengua addicional:** Creure que la responsabilitat del desenvolupament lingüístic recau exclusivament en els professors de llengües és un error. La competència en comunicació lingüística és la base per al pensament i la construcció del coneixement en *tots* els àmbits. Per tant, totes les àrees i matèries han de treballar explícitament la comprensió lectora, l'expressió oral i escrita, el vocabulari específic i les habilitats discursives, integrant el suport lingüístic en l'ensenyament dels continguts propis.
 *   **Enfocament additiu de la interculturalitat:** Tractar la interculturalitat com un "afegit" al currículum, amb activitats puntuals o celebracions, sense integrar-la com una "mirada" o un "enfocament" transversal en totes les àrees. L'educació intercultural ha d'impregnar la selecció de continguts, els materials didàctics i les metodologies, transformant la manera d'abordar el currículum per fer-lo més inclusiu, just i representatiu de la diversitat global i local.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **perfil_alumnat_nouvingut**: Aquesta estratègia és fonamental per atendre les necessitats lingüístiques i d'aprenentatge curricular d'aquest perfil d'alumnat, facilitant el seu accés als continguts mentre adquireixen la llengua vehicular.
-*   **marc_competencia_plurilingue**: El TILC es fonamenta directament en la comprensió i el desenvolupament d'aquesta competència, promovent la integració de llengües i la transferència de coneixements.
-*   **marc_currículum_competencial**: Aquesta estratègia és una via essencial per implementar un currículum competencial, ja que promou un aprenentatge profund i funcional a través de la llengua en tots els àmbits.
-*   **estrategia_aula_acollida**: L'aula d'acollida és un suport clau per a l'aplicació del TILC amb alumnat nouvingut, facilitant l'adquisició inicial del català com a llengua vehicular i la seva posterior integració.
-*   **marc_MECR**: El Marc Europeu Comú de Referència proporciona les bases i els descriptors per planificar els objectius lingüístics de manera sistemàtica dins d'una estratègia TILC.
-*   **estrategia_educacio_intercultural**: El TILC és un vehicle potent per implementar l'educació intercultural, utilitzant la diversitat lingüística i cultural com a recurs per a l'aprenentatge i la construcció d'una mirada més inclusiva.
-*   **eina_diagnosi_necessitats_linguistiques**: Aquesta eina pot ajudar a identificar el nivell de BICS i CALP de l'alumnat, informació crucial per dissenyar activitats TILC adaptades a les seves necessitats lingüístiques.
+- **`M3_TIL-tractament-integrat-llengues.md`** — El TIL és el marc estratègic; el TILC és la seva concreció a les classes de matèria: el docent de ciències, socials o matemàtiques és també docent de llengua
+- **`M3_MECR-descriptors-llengua.md`** — El MECR orienta l'ajust lingüístic del TILC: saber el nivell de l'alumne permet calibrar la densitat lèxica i la complexitat sintàctica de l'explicació
+- **`M3_translanguaging-plurilinguisme.md`** — El translanguaging és una pràctica TILC: activar la L1 de l'alumne com a pont cognitiu per accedir als conceptes de la matèria
+- **`M2_DUA-principis-pautes.md`** — El TILC és una forma de disseny universal aplicat a la llengua de la matèria: els suports lingüístics integrats (glossaris, bastides visuals) beneficien tots els alumnes
+- **`M1_alumnat-nouvingut.md`** — El TILC és especialment crític per a l'alumnat nouvingut: la matèria no es pot aprendre sense comprendre la llengua en la qual s'explica
+- **`M2_factors-promotors-aprenentatge.md`** — Les bastides lingüístiques del TILC son la concreció del factor de suport i andamiatge: input comprensible (i+1) ajustat al nivell de cada alumne
 
-## 3. DETECCIÓ (Variables de Context)
-*   **Senyals del docent:**
+## 4. Detecció
+### Senyals del docent
     *   "Com puc ajudar els meus alumnes a entendre els continguts de la meva matèria si encara estan aprenent català?"
     *   "M'agradaria aprofitar les diferents llengües que es parlen a l'aula per enriquir l'aprenentatge de tots."
     *   "Els meus alumnes tenen dificultats amb el vocabulari específic de la meva assignatura, tot i que es comuniquen bé en català en el dia a dia."
     *   "Busco maneres d'integrar la llengua i els continguts per a un aprenentatge més profund i significatiu."
     *   "Com puc dissenyar activitats que fomentin la competència plurilingüe i la interculturalitat en la meva àrea sense afegir més temari?"
-*   **Senyals de l'alumne:**
+### Senyals de l'alumne
     *   L'alumne té dificultats per comprendre textos acadèmics o instruccions complexes en la llengua vehicular, tot i poder mantenir converses fluides.
     *   L'alumne utilitza la seva llengua materna per preguntar o aclarir dubtes sobre el contingut amb companys o el docent (si és possible).
     *   L'alumne mostra interès per comparar conceptes o expressions entre la llengua vehicular i la seva llengua d'origen.
-*   **Senyals de context:**
+### Senyals de context
     *   Presència d'alumnat nouvingut o amb diferents llengües maternes a l'aula o al centre.
     *   Implementació d'un currículum competencial o projectes interdisciplinaris que requereixen la integració de sabers.
     *   Objectiu del centre de fomentar la competència plurilingüe, la interculturalitat i la cohesió social.
     *   Disponibilitat de recursos o formació per al professorat en metodologies actives i inclusives.
-*   **Anti-senyals:**
+### Anti-senyals
     *   El docent busca una solució que substitueixi l'aprenentatge de la llengua vehicular per part de l'alumne, en lloc de complementar-lo.
     *   L'objectiu principal és només la traducció literal de continguts sense un treball lingüístic integrat ni una reflexió sobre el llenguatge.
     *   El docent no vol treballar la llengua en la seva matèria, considerant-ho responsabilitat exclusiva de l'àrea de llengua.
     *   El centre no valora la diversitat lingüística i cultural, sinó que busca l'homogeneïtzació.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
-*   **Principi general:** El TILC optimitza l'aprenentatge de continguts i el desenvolupament lingüístic simultàniament, aprofitant la interconnexió inherent entre llengua i coneixement per a un aprenentatge més profund i inclusiu.
+### Heurístiques
+**Principi general:** El TILC optimitza l'aprenentatge de continguts i el desenvolupament lingüístic simultàniament, aprofitant la interconnexió inherent entre llengua i coneixement per a un aprenentatge més profund i inclusiu.
 
-*   **Heurístiques per al docent:**
+#### Heurístiques per al docent
     1.  **Heurística: Diferencia BICS i CALP per a un suport lingüístic precís.**
         *   **Quan aplica:** Quan un docent observa que un alumne es comunica bé en català en contextos informals, però té dificultats per comprendre o expressar-se en la seva matèria.
         *   **Fonament:** La competència conversacional (BICS) s'adquireix ràpidament, però el llenguatge acadèmic (CALP) és complex i essencial per accedir als continguts curriculars. No reconèixer aquesta distinció pot portar a subestimar les necessitats lingüístiques de l'alumne i a no proporcionar el suport adequat per a l'èxit acadèmic (Doc 6).
@@ -151,7 +147,7 @@ La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al c
         *   **Fonament:** El desenvolupament de la competència en comunicació lingüística està vinculat a la reflexió explícita sobre el funcionament de la llengua en els gèneres discursius específics de cada àrea. Aquesta consciència metalingüística, potenciada per la competència plurilingüe, ajuda a l'alumne a aprendre de manera més efectiva (Doc 3, Doc 7).
         *   **Exemple complet de raonament:** Davant un professor de llengua catalana que observa que els seus alumnes tenen dificultats per identificar la veu passiva en textos científics o per entendre per què s'utilitza, tot i haver-la estudiat en gramàtica, una reflexió metalingüística explícita, contextualitzada en els gèneres discursius de les ciències, pot ser molt efectiva. Convé que, en col·laboració amb un docent de ciències, s'analitzin fragments de textos científics reals, identificant per què s'utilitza la veu passiva en aquest context (per donar objectivitat, per focalitzar-se en el procés i no en qui actua). Es pot comparar amb textos d'altres àrees (ex: un article d'opinió) on la veu activa sigui més habitual i discutir les diferències de propòsit. Aquesta anàlisi no només reforça el coneixement gramatical, sinó que també ajuda els alumnes a comprendre la funció de les estructures lingüístiques en la construcció del coneixement disciplinar, millorant la seva competència discursiva i la seva capacitat d'aprendre a través de la llengua.
 
-*   **Heurístiques per a l'alumne:**
+#### Heurístiques per a l'alumne
     1.  **Heurística: Busca i comprèn el vocabulari clau de la matèria.**
         *   **Quan aplica:** Quan l'alumne s'enfronta a un text, una explicació o una tasca amb molts termes nous o complexos en una àrea específica.
         *   **Fonament:** El llenguatge acadèmic (CALP) inclou vocabulari específic de la matèria, essencial per a la comprensió dels continguts. Identificar i comprendre aquests termes és un pas fonamental per a l'èxit escolar i per construir el coneixement (Doc 6).
@@ -166,21 +162,11 @@ La implementació del TILC pot ser gradual, adaptant-se a les necessitats i al c
         *   **Quan aplica:** Quan l'alumne ha après un nou concepte o ha estudiat un tema i vol assegurar-se que l'ha comprès realment i pot comunicar-lo.
         *   **Fonament:** L'expressió oral i escrita és una part fonamental de la competència comunicativa i del desenvolupament del pensament propi. Reformular un concepte amb les pròpies paraules demostra una comprensió profunda i funcional, més enllà de la memorització (Doc 3, Doc 2).
         *   **Exemple complet de raonament:** Davant un alumne que ha estudiat un tema de geografia sobre els climes i creu que l'ha entès, però no sap com comprovar-ho de manera efectiva, convé que intenti explicar el concepte principal (per exemple, "què és el clima mediterrani i quines són les seves característiques?") a un company, a un familiar o fins i tot a si mateix en veu alta, utilitzant les seves pròpies paraules i evitant copiar literalment del llibre. Es pot proposar que intenti donar exemples concrets, que faci un petit esquema o mapa conceptual mentre ho explica, o que respongui a possibles preguntes que li podrien fer. Aquest exercici de reformulació activa no només consolida el coneixement del contingut, sinó que també desenvolupa la seva expressió oral i la seva capacitat de comunicar idees complexes de manera coherent i amb el vocabulari adequat, un component clau del llenguatge acadèmic.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:adcl:b3:b3t1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b3/b3t1 |
-| 2 | cursos:escola_inclusiva:adcl:b3:b3t2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b3/b3t2 |
-| 3 | cursos:escola_inclusiva:adcl:b3:b3t3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b3/b3t3 |
-| 4 | cursos:escola_inclusiva:adcl:b3:b3t4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b3/b3t4 |
-| 5 | cursos:escola_inclusiva:adcl:b1:b1t1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b1/b1t1 |
-| 6 | cursos:escola_inclusiva:adcl:b1:b1t2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b1/b1t2 |
-| 7 | cursos:escola_inclusiva:adcl:b1:b1t3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/adcl/b1/b1t3 |
-| 8 | cursos:escola_inclusiva:deic:modul_3:practica_3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_3/practica_3 |
-| 9 | cursos:escola_inclusiva:deic:modul_3:practica_4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_3/practica_4 |
-| 10 | cursos:escola_inclusiva:deic:modul_3:practica_5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/deic/modul_3/practica_5 |
-
-*10 documents font · secció generada automàticament*
+- Coelho, E. (2013). *Language and Learning in Multilingual Classrooms*. Bristol: Multilingual Matters.
+- Gibbons, P. (2002). *Scaffolding Language, Scaffolding Learning: Teaching Second Language Learners in the Mainstream Classroom*. Portsmouth: Heinemann.
+- Cummins, J. (1979). Cognitive/academic language proficiency, linguistic interdependence, the optimal age question. *Working Papers on Bilingualism*, 19, 121-129.
+- XTEC (2023). *El TILC: Suport lingüístic a les matèries*. Generalitat de Catalunya.
+- Consell d'Europa (2001). *Marc Europeu Comú de Referència per a les Llengües*. Estrasburg: Consell d'Europa.

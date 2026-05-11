@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:31:50
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Descripció i fonament
 
 Les estratègies per al català com a L2 en contextos d'immersió es basen en la premissa que la llengua és el vehicle fonamental per a la construcció del coneixement i per a l'aprenentatge en totes les àrees curriculars. No es tracta només d'aprendre català, sinó d'aprendre *a través* del català. Aquest enfocament és crucial per a l'alumnat d'origen estranger que s'incorpora al sistema educatiu català, ja que han d'adquirir no només la llengua de comunicació quotidiana (BICS - *Basic Interpersonal Communicative Skills*), sinó també el llenguatge acadèmic (CALP - *Cognitive Academic Language Proficiency*), que és molt més complex i descontextualitzat i requereix molt més temps per assolir-se (entre 4 i 10 anys).
@@ -153,52 +151,50 @@ Hi ha diversos errors que es poden cometre en l'aplicació d'estratègies per al
 *   **Manca de coordinació entre docents:** Si cada professor treballa de manera aïllada, el suport lingüístic serà inconsistent i menys efectiu.
 *   **Utilitzar el llibre de text com a única eina:** Limitar-se a un sol format de material pot dificultar la comprensió per a l'alumnat amb diverses necessitats.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **Perfil_Alumnat_Orígen_Estranger**: Aquest document descriu les característiques i necessitats de l'alumnat a qui van dirigides aquestes estratègies, incloent la distinció entre BICS i CALP.
-*   **Marc_TILC**: Proporciona la base teòrica i els principis fonamentals del Tractament Integrat de Llengua i Continguts, metodologia central d'aquestes estratègies.
-*   **Marc_BICS_CALP**: Aprofundeix en els conceptes de competència comunicativa bàsica i acadèmica, essencials per entendre el procés d'adquisició de la L2.
-*   **Protocol_Suport_Lingüístic_Social_SLS**: Detalla els passos i rols per implementar el suport lingüístic i social a l'alumnat que ja ha superat l'aula d'acollida.
-*   **Eina_Organitzadors_Gràfics**: Presenta instruments visuals que són fonamentals per facilitar la comprensió i la producció de coneixement en L2.
-*   **Eina_Bases_Orientació_Textual**: Ofereix plantilles i guies per estructurar la producció de textos orals i escrits, com descripcions o argumentacions.
-*   **Normativa_Decret_175_2022_Educació_Bàsica**: Cita la importància de la competència plurilingüe i la responsabilitat de totes les àrees en el desenvolupament de la competència comunicativa.
-*   **Eina_Guia_Lectura_Imatges**: Proporciona un model per treballar la lectura crítica de continguts visuals, un suport clau per a l'input comprensible.
-*   **Estratègia_Aprenentatge_Cooperatiu**: Aquesta estratègia és un mitjà efectiu per fomentar la interacció i la negociació de significats en L2.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M1_alumnat-nouvingut.md`** — Les estratègies de català L2 son la resposta metodològica directa a la situació de l'alumnat nouvingut: BICS → CALP en el contínuum d'adquisició de la L2
+- **`M3_MECR-descriptors-llengua.md`** — El MECR és el mapa de ruta: les estratègies seleccionades depenen del nivell actual de l'alumne i del nivell objectiu per al trimestre o el curs
+- **`M3_TILC-llengua-i-continguts.md`** — El TILC és la dimensió transversal de les estratègies L2: no és responsabilitat exclusiva del professorat de llengua sinó de tot l'equip docent
+- **`M3_TIL-tractament-integrat-llengues.md`** — El TIL és el marc institucional que dona coherència a les estratègies individuals: cal coordinació entre departaments per evitar la fragmentació lingüística
+- **`M2_DUA-principis-pautes.md`** — El DUA i les estratègies L2 convergeixen: el disseny multimodal (visual, gestual, oral) és alhora una estratègia DUA i una estratègia d'adquisició de L2
+- **`M2_factors-promotors-aprenentatge.md`** — La ZDP (Vygotsky) i l'input comprensible (i+1, Krashen) son els dos grans fonaments teòrics de les estratègies de català L2: bastides, interacció i nivell just
 
-**Senyals del docent**
+## 4. Detecció
+
+### Senyals del docent
 *   "Els meus alumnes nouvinguts entenen el que explico a classe, però no saben expressar-ho per escrit o en exàmens."
 *   "Tinc dificultats per fer que l'alumnat de L2 participi en els debats o discussions de l'àrea no lingüística."
 *   "Com puc adaptar els meus materials de ciències/socials/matemàtiques perquè els alumnes amb menys català els puguin seguir sense baixar el nivell?"
 *   "Em preocupa que els meus alumnes no adquireixin el vocabulari tècnic de la meva matèria."
 *   "Busco maneres d'integrar el suport lingüístic a la meva pràctica diària sense sentir que estic fent dues classes alhora."
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   Silenci o poca participació oral en activitats de gran grup.
 *   Dificultat per comprendre textos acadèmics o instruccions complexes sense suport visual o reformulació.
 *   Ús de la L1 amb companys per negociar significats o demanar aclariments.
 *   Produccions escrites amb errors gramaticals bàsics, manca de lèxic especialitzat o estructures poc coherents.
 *   Frustració o desmotivació davant tasques que requereixen un alt nivell de llenguatge acadèmic.
 
-**Senyals de context**
+### Senyals de context
 *   Presència d'alumnat nouvingut o amb diferents nivells de domini del català en una mateixa aula.
 *   Introducció de temes nous o conceptes abstractes en àrees no lingüístiques.
 *   Activitat que requereix la producció d'un text acadèmic (informe, argumentació, explicació).
 *   Ús predominant de materials textuals sense gaires suports visuals o multimodals.
 *   Manca de coordinació o consens entre el professorat sobre el tractament de la llengua.
 
-**Anti-senyals**
+### Anti-senyals
 *   El docent assumeix que l'alumne de L2 només necessita "més temps" o "més immersió" sense un suport lingüístic explícit.
 *   El docent simplifica excessivament els continguts curriculars per a l'alumnat de L2, reduint l'exigència cognitiva.
 *   El docent es limita a corregir errors gramaticals sense abordar el desenvolupament del llenguatge acadèmic o les funcions cognitivolingüístiques.
 *   L'aula d'acollida es percep com l'únic espai responsable de l'aprenentatge del català, desvinculant-la de les àrees ordinàries.
 *   L'alumne de L2 es retira o es desconnecta de les activitats, però el docent ho atribueix a "manca d'interès" en lloc de barreres lingüístiques.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general:** Integrar l'ensenyament de la llengua i els continguts de manera explícita i sistemàtica per garantir l'accés al currículum i el desenvolupament de la competència plurilingüe de tot l'alumnat, especialment el de L2.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 
 *   **Heurística: "Bastides Lingüístiques per a l'Input Comprensible"**
     *   **Quan aplica:** Quan un docent expressa preocupació per la dificultat dels seus alumnes de L2 per comprendre les explicacions orals o els textos escrits de la seva matèria, o quan detecta que l'alumnat no capta els conceptes clau.
@@ -225,7 +221,7 @@ Hi ha diversos errors que es poden cometre en l'aplicació d'estratègies per al
     *   **Fonament:** L'avaluació ha de ser una eina per a l'aprenentatge. En el cas de la L2, cal avaluar el procés d'adquisició del llenguatge acadèmic de manera formativa, identificant els "punts lingüístics calents" del currículum i donant visibilitat als objectius lingüístics.
     *   **Exemple complet de raonament:** Davant un professor de Física i Química de Batxillerat que té dificultats per avaluar les explicacions escrites dels seus alumnes de L2, perquè els errors lingüístics sovint emmascaren la comprensió del concepte, en lloc de penalitzar tots els errors lingüístics de la mateixa manera, convé establir criteris d'avaluació clars que diferenciïn els errors de contingut dels errors lingüístics. Es pot utilitzar una rúbrica que inclogui descriptors específics per a l'ús de lèxic especialitzat, la coherència textual i l'ús de connectors causals/consecutius, a més dels criteris de contingut. A més, és recomanable reservar un espai a la llibreta de notes per registrar el progrés lingüístic de cada alumne, oferint feedback específic sobre com millorar la claredat i precisió del seu llenguatge acadèmic. Això permet a l'alumne entendre on ha de millorar i al docent fer un seguiment més just i efectiu del seu aprenentatge integral.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 *   **Heurística: "Ús Actiu de Suports Visuals i Organitzadors Gràfics"**
     *   **Quan aplica:** Quan un alumne de L2 se sent perdut davant una explicació oral complexa o un text llarg en català, o quan té dificultats per organitzar la informació per a una tasca.
@@ -241,19 +237,11 @@ Hi ha diversos errors que es poden cometre en l'aplicació d'estratègies per al
     *   **Quan aplica:** Quan un alumne de L2 ha de llegir o escriure un text acadèmic (un informe, una explicació, una argumentació) i no sap com abordar-lo o estructurar-lo.
     *   **Fonament:** Cada gènere textual té una estructura i unes característiques lingüístiques pròpies. Conèixer-les de manera explícita facilita la comprensió lectora (perquè l'alumne sap què esperar) i la producció escrita (perquè té un marc per organitzar les seves idees).
     *   **Exemple complet de raonament:** Davant un alumne de Batxillerat que té dificultats per redactar un assaig argumentatiu en català per a la matèria de Filosofia, amb textos desorganitzats i sense una tesi clara, convé guiar-lo a identificar l'estructura típica d'un text argumentatiu: introducció (presentació de la tesi), desenvolupament (arguments amb evidències, contraarguments), i conclusió (reafirmació de la tesi o síntesi). Es poden proporcionar exemples de textos argumentatius ben escrits i demanar-li que subratlli els connectors que introdueixen arguments, exemples o conclusions. Després, es pot suggerir que utilitzi una base d'orientació per planificar el seu propi assaig, omplint cada secció amb les seves idees abans de començar a redactar. Aquesta estratègia l'ajuda a comprendre que argumentar no és només tenir una opinió, sinó saber-la estructurar i fonamentar lingüísticament, millorant així la qualitat acadèmica de la seva producció en català.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 23 | cursos:curriculum:eso_btx:dcs1:modul_3:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/index |
-| 26 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_2 |
-| 27 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_3 |
-| 29 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_2 |
-| 31 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_5 |
-| 32 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_4 |
-| 35 | cursos:curriculum:eso_btx:dcs1:modul_1:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_1/practica_3 |
-| 38 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_4 |
-
-*8 documents citats de 47 al corpus · secció generada automàticament*
+- Krashen, S. D. (1982). *Principles and Practice in Second Language Acquisition*. Oxford: Pergamon.
+- Cummins, J. (1979). Cognitive/academic language proficiency, linguistic interdependence, the optimal age question. *Working Papers on Bilingualism*, 19, 121-129.
+- Coelho, E. (2013). *Language and Learning in Multilingual Classrooms*. Bristol: Multilingual Matters.
+- Departament d'Educació (2024). *Orientacions per a la gestió i organització de les Aules d'Acollida*. Generalitat de Catalunya / XTEC.
+- Consell d'Europa (2001). *Marc Europeu Comú de Referència per a les Llengües*. Estrasburg: Consell d'Europa.

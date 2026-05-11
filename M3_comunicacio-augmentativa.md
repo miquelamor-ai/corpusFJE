@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T11:45:10
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### Descripció i fonament
 Aquesta estratègia se centra en l'ús de suports visuals, incloent-hi pictogrames i imatges, com a eina fonamental per vehicular el coneixement i facilitar la comunicació en l'alumnat que presenta dificultats en l'adquisició i ús de la llengua vehicular (català), especialment l'alumnat d'incorporació tardana o amb poca escolarització prèvia. Cal aclarir que, tot i que el títol del document fa referència a la Comunicació Augmentativa i Alternativa (CAA) i sistemes com PECS o SAAC, els documents font proporcionats se centren en l'ús de suports visuals com a estratègia general d'aprenentatge de la llengua per a l'alumnat nouvingut, i no en sistemes clínics específics de CAA per a trastorns de la parla o del llenguatge.
 
@@ -104,44 +102,37 @@ Aquesta estratègia es pot graduar en complexitat segons el nivell de competènc
 -   **No connectar el llenguatge conversacional amb l'acadèmic:** Descuidar el desenvolupament del llenguatge d'ús habitual i conversacional, assumint que l'alumnat l'adquirirà de manera natural. Aquest és un pas fonamental per accedir al llenguatge acadèmic de les matèries.
 -   **Ignorar el bagatge lingüístic i cultural previ:** No valorar les llengües maternes i les experiències culturals de l'alumnat, perdent una oportunitat d'enriquiment i de connexió amb els seus aprenentatges.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-- **quaderns-SLS-aprendre-llengua-materies_3afd7edb65.pdf**: Aprofundeix en com la llengua vehicular s'aprèn en les diferents matèries, complementant l'ús de suports visuals per vehicular coneixement.
-- **quaderns-SLS-orientacions-EI-CI_e7fce57f30.pdf**: Ofereix orientacions específiques per a Educació Infantil i Cicle Inicial, etapes clau per a la introducció de suports visuals.
-- **quaderns-SLS-adequar-curriculum_366b5bcb5a.pdf**: Relacionat amb l'adaptació curricular a les necessitats de l'alumnat nouvingut, on l'ús de suports visuals és una eina clau.
-- **quaderns-SLS-aprendre-vocabulari-materies_0939b573dc.pdf**: Complementa aquesta estratègia amb tècniques específiques per a l'adquisició de vocabulari, sovint amb suport visual.
-- **Alumnat_origen_estranger_descriptors_llengua_c6438107b5.pdf**: Proporciona els descriptors dels nivells de competència lingüística (MECR) per avaluar el progrés de l'alumnat en l'ús de la llengua amb o sense suports.
-- **guia_didactica_projecte_mon_5843384272.pdf**: Presenta enfocaments pedagògics per a l'ensenyament de llengua i lectoescriptura a alumnes nouvinguts, on els suports visuals són un component.
-- **comunicacio_enrolat_16e6254639.pdf**: Detalla l'ús dels jocs de rol per a la millora de la llengua oral, una metodologia que sovint s'integra amb suports visuals.
-- **guia_didactica_2d378b6d4c.pdf**: Guia didàctica sobre el treball de la llengua oral al cicle mitjà i superior de primària, amb jocs de rol que utilitzen suports visuals.
-- **guia_el_meu_album_be568aed7c.pdf**: Explica l'ús d'un material visual (àlbum) per a l'aprenentatge del català L2 i l'expressió de vivències personals.
-- **guia_didactica_vivim_junts_29bdb108a5.pdf**: Guia per a l'ús de làmines amb diàlegs i personatges per acostar la llengua catalana a la població immigrada.
-- **guia_Viure_634b7c13ed.pdf**: Guia didàctica per a la utilització de làmines com a estímuls visuals per a l'aprenentatge del català L2 i vocabulari bàsic.
-- **xarranca_150416_9b8268a4f1.pdf**: Recull de jocs per a l'aprenentatge del català oral per a nouvinguts, molts dels quals es poden adaptar o utilitzar amb suports visuals.
+- **`M1_discapacitat-intel·lectual.md`** — La CAA és l'eina central per a l'alumnat amb DI: garanteix l'accés a la comunicació i a l'aprenentatge quan el canal oral o escrit convencional és insuficient
+- **`M1_alumnat-TEA.md`** — La CAA és especialment rellevant per a alumnat TEA: els sistemes augmentatius visuals reforcen la comprensió i l'expressió, i compensen les dificultats de processament oral
+- **`M2_DUA-principis-pautes.md`** — La CAA és la màxima expressió del principi de múltiples formes d'expressió i comunicació DUA: sense accés comunicatiu, cap altra adaptació té efecte
+- **`M2_mesures-suports-inclusius.md`** — La CAA és una mesura de suport intensiva: requereix informe psicopedagògic, coordinació EAP-escola-família i inclusió al PI de l'alumne
+- **`M1_plans-individuals-PAD-PI.md`** — El sistema CAA es recull al PI: l'especificació del sistema, el vocabulari i els suports és part del contingut obligatori del pla individualitzat
+- **`M7_participacio-families.md`** — La CAA requereix coherència entre escola i llar: les famílies han d'aprendre i usar el sistema activament; la formació familiar és indispensable per a la generalització
 
-## 3. DETECCIÓ (Variables de Context)
-- **Senyals del docent**
+## 4. Detecció
+### Senyals del docent
     - Observo que l'alumnat té dificultats per comprendre instruccions orals complexes.
     - Els estudiants tenen un vocabulari limitat en català per expressar les seves idees.
     - L'alumnat es mostra reticent a participar oralment per por a equivocar-se.
     - Necessito eines per contextualitzar conceptes abstractes o nous per a l'alumnat.
     - Busco maneres de fer les activitats més engrescadores i inclusives per a la diversitat lingüística.
-- **Senyals de l'alumne**
+### Senyals de l'alumne
     - L'alumne utilitza gestos o la seva L1 per comunicar-se, mostrant dificultat amb el català.
     - L'alumne no respon a preguntes senzilles o mostra confusió davant d'explicacions orals.
     - L'alumne es mostra aïllat o poc participatiu en activitats de grup que requereixen expressió oral.
-- **Senyals de context**
+### Senyals de context
     - Moment d'incorporació d'alumnat nouvingut a l'aula.
     - Activitat que requereix l'adquisició de vocabulari nou o conceptes complexos.
     - Composició del grup amb una alta diversitat lingüística i diferents nivells de català L2.
     - Necessitat de fomentar la interacció oral i la comprensió en un entorn multilingüe.
-- **Anti-senyals**
+### Anti-senyals
     - L'alumnat ja té un domini funcional de la llengua catalana (nivell B1 o superior del MECR) i pot expressar-se amb fluïdesa en la majoria de situacions.
     - L'objectiu principal de l'activitat és la producció escrita formal sense necessitat de suports orals o visuals addicionals.
     - El context de l'activitat ja proporciona una contextualització natural i suficient sense requerir ajudes visuals explícites.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 -   **Principi general:** Prioritzar la comprensió i l'expressió significativa a través de múltiples canals, especialment el visual, per construir ponts cap a la llengua vehicular.
 
@@ -169,25 +160,11 @@ Aquesta estratègia es pot graduar en complexitat segons el nivell de competènc
     -   **Quan aplica:** Quan un alumne ha de parlar en català en una situació nova o complexa i se sent insegur sobre què dir o com dir-ho.
     -   **Fonament:** La pràctica guiada amb suports visuals i lingüístics (com les targetes d'ajuda dels jocs de rol) permet a l'alumne assajar les seves intervencions en un entorn de baix risc. Aquesta estratègia li proporciona les "eines" lingüístiques necessàries (frases fetes, vocabulari, estructures) per construir el seu discurs, augmentant la seva confiança i fluïdesa. L'assaig repetit, sovint amb un company, consolida els aprenentatges i prepara l'alumne per a la producció oral espontània.
     -   **Exemple complet de raonament:** Davant un alumne de secundària que ha de participar en un joc de rol on ha de fer una reclamació en un restaurant i se sent nerviós perquè no sap quines frases utilitzar, convé recordar-li que té una "targeta d'ajuda" amb expressions com "Sisplau!", "No estic content amb...", "M'agradaria que...", "Podria fer...". Cal guiar-lo a assajar la conversa amb un company, utilitzant aquestes frases com a punt de partida. L'alumne pot assajar diverses vegades, primer llegint les frases, després intentant dir-les de memòria i, finalment, improvisant lleugerament. Aquest procés d'assaig amb suport li permet construir el seu discurs de manera progressiva, interioritzar les expressions i sentir-se més segur a l'hora de parlar davant del grup, millorant la seva competència comunicativa en un context real.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Titol | URL |
-|---|-------|-----|
-| 8 | quaderns-SLS-aprendre-vocabulari-materies_0939b573dc.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-vocabulari-materies.pdf |
-| 16 | Nivells_materies_CELM_2bbf3c6e75.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/seguiment/Nivells_materies_CELM.pdf |
-| 18 | 1753m_a2910c9730.pdf | http://www.xtec.cat/sgfp/llicencies/200708/memories/1753m.pdf |
-| 19 | 911m_757ca1b3cd.pdf | http://www.xtec.cat/sgfp/llicencies/200405/memories/911m.pdf |
-| 22 | Tema1_lligada_4d09ff368b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0052/632add3e-ec36-41c5-942e-518dade27a16/Tema1_lligada.pdf |
-| 30 | guia_el_meu_album_be568aed7c.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0069/9ee3a2c8-7e81-490d-9127-7fea655f33f9/guia_el_meu_album.pdf |
-| 32 | guia_Viure_634b7c13ed.pdf | https://llengua.gencat.cat/web/.content/documents/publicacions/viure_a_catalunya/guia_Viure.pdf |
-| 34 | 1_fitxa_practica_album_festes_hivern_b6f4af899a.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0062/8e961a7e-5de3-4337-aefe-17dccd4e71e1/1_fitxa_practica_album_festes_hivern.pdf |
-| 40 | CM_13_49e7652b72.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0068/9ce4ddc3-d644-4fd2-8f10-6366ce1dab2c/CM_13.pdf |
-| 41 | CM_9_e40012bad3.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0081/c2e13bd2-1178-4238-bde4-78bb750e8aaa/CM_9.pdf |
-| 50 | CM_2_9694f8d6ee.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0090/dfb2bb7e-e15b-4666-bd8c-6b7e992ccead/CM_2.pdf |
-| 62 | CS_11_3d3bd3cfc3.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0090/df5b428c-4a5a-43a7-a2ef-3413c51f9b2e/CS_11.pdf |
-| 65 | CS_15_84cd7e8c2f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0069/9f7d24a9-1f42-48e2-9438-52ce7d2924cd/CS_15.pdf |
-| 67 | CS_12_3418358339.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0038/236482e7-2993-419e-9d00-c6108a7dd991/CS_12.pdf |
-
-*14 documents citats de 84 al corpus . seccio generada automaticament*
+- von Tetzchner, S., & Martinsen, H. (1996). *Introducción a la enseñanza de signos y al uso de ayudas técnicas para la comunicación*. Madrid: Visor.
+- Beukelman, D. R., & Mirenda, P. (2013). *Augmentative and Alternative Communication: Supporting Children and Adults with Complex Communication Needs* (4a ed.). Baltimore: Brookes.
+- ISAAC (International Society for Augmentative and Alternative Communication) (2023). *Principles of AAC Practice*. isaac-online.org.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Departament d'Educació (2021). *Orientacions per a l'atenció educativa a l'alumnat amb necessitats de comunicació*. Generalitat de Catalunya.

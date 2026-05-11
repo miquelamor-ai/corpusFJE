@@ -12,8 +12,6 @@ generat_at: 2026-03-18T00:00:00
 
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### 1.1 Descripció del marc
 
 El **Marc Europeu Comú de Referència per a les Llengues** (MECR, també anomenat MCERL en la sigla castellana) és el document de referència elaborat pel **Consell d'Europa** l'any **2001** per descriure les competències lingüístiques de les persones en qualsevol llengua. El seu objectiu original era establir un sistema coherent, transparent i comparable per avaluar i certificar l'aprenentatge de llengues a tot Europa, facilitant el reconeixement mutu de nivells i qualificacions entre països i institucions.
@@ -267,23 +265,16 @@ El **Portafolis Europeu de les Llengues** (PEL) és un instrument d'autoavaluaci
 
 El PEL té tres parts: el **Passaport de les Llengues** (resum del nivell en cada llengua), la **Biografia Lingüística** (historial de l'aprenentatge) i el **Dossier** (mostres de produccions pròpies). En el context de l'aula d'acollida, el PEL pot ser una eina potent per fomentar la metacognició lingüística, la motivació i la implicació de l'alumne en el seu propi procés d'aprenentatge.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES NODES
+- **`M1_alumnat-nouvingut.md`** — Els descriptors MECR son l'eina de diagnosi del nivell lingüístic a l'acollida; el pre-A1 situa l'alumnat nouvingut en el punt de partida per planificar el suport
+- **`M3_estrategies-catala-L2.md`** — Les estratègies de català L2 estan graduades per nivell MECR; saber el nivell és el prerequisit per triar l'input i l'estratègia adequats
+- **`M3_TILC-llengua-i-continguts.md`** — El TILC pressuposa el MECR com a marc comú: el docent de matèria ha d'ajustar la densitat lèxica en funció del nivell real de l'alumne
+- **`M3_lectura-facil-comunicacio-clara.md`** — L'adaptació LF/CC es decideix en funció del nivell MECR: pre-A1 → Lectura Fàcil; A1-A2 → Comunicació Clara; B1+ → suport lingüístic integrat
+- **`M3_llengua-diversitat.md`** — La diversitat lingüística s'avalua amb el MECR; la competència en L2 no és un tret de la persona sinó un nivell en un contínuum que l'escola pot accelerar
+- **`M3_TIL-tractament-integrat-llengues.md`** — El TIL pressuposa el MECR com a marc de referència comú entre departaments: la coherència interlingüística exigeix un diagnòstic compartit
 
-- **M1_alumnat-nouvingut.md:** El MECR és l'instrument de diagnosi del nivell de l'alumne nouvingut en arribar al centre. Les pautes d'observació i la fitxa pre-A1 s'usen en el procés d'acollida inicial per situar l'alumne en el seu punt de partida i planificar el suport necessari.
-
-- **M3_estrategies-catala-L2.md:** Els descriptors MECR orienten les estratègies d'ensenyament de la llengua catalana com a L2. El nivell de l'alumne determina quines estratègies d'input comprensible, de producció i d'interacció són adequades en cada moment del procés.
-
-- **M3_llengua-diversitat.md:** El MECR proporciona el marc per calibrar el nivell d'andamiatge (scaffolding) necessari per a l'alumne nouvingut en les activitats de l'aula ordinària. La distància entre el nivell real de l'alumne i les exigències de les tasques determina el volum i el tipus de suport que cal proporcionar.
-
-- **M3_TILC-llengua-i-continguts.md:** Els descriptors CELM especifiquen les exigències lingüístiques de cada matèria escolar. La integració de llengua i continguts (TILC/CLIL) requereix conèixer tant el nivell lingüístic de l'alumne com les exigències lingüístiques de la matèria per dissenyar tasques accessibles i enriquidores.
-
-- **M3_lectura-facil-comunicacio-clara.md:** El nivell MECR de l'alumne orienta quin grau d'adaptació de textos cal aplicar. Per a alumnat pre-A1 i A1, les estratègies de lectura fàcil i comunicació clara proporcionen eines per fer accessibles els textos escolars. Els descriptors del MECR indiquen quin nivell de complexitat lingüística és assumible en cada fase del procés.
-
----
-
-## 3. DETECCIÓ DE SITUACIÓ
+## 4. Detecció
 
 Aquest document és rellevant en les situacions següents:
 
@@ -301,9 +292,9 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-## 4. HEURÍSTIQUES D'APLICACIÓ
+### Heurístiques
 
-### H1 — Diagnostica el nivell MECR ABANS d'adaptar
+#### H1 — Diagnostica el nivell MECR ABANS d'adaptar
 
 **Quan aplica:** Quan arriba un alumne nouvingut al centre i el docent o el tutor s'han de planificar com atendre les seves necessitats lingüístiques. Especialment a la primera o segona setmana d'incorporació, abans de prendre decisions sobre la intensitat del suport, el tipus d'adaptació de materials o la necessitat de derivació al SLS.
 
@@ -313,7 +304,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H2 — Suport contextual primer, text simplificat després
+#### H2 — Suport contextual primer, text simplificat després
 
 **Quan aplica:** Quan es treballa amb alumnat en nivell pre-A1 i A1, en qualsevol matèria i en qualsevol moment de la jornada escolar. Especialment quan el docent es planteja com fer comprensible una instrucció, una activitat o un contingut nou per a un alumne que gairebé no comprèn la llengua d'escolarització.
 
@@ -323,7 +314,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H3 — Usa descriptors "can-do" per fixar objectius assolibles
+#### H3 — Usa descriptors "can-do" per fixar objectius assolibles
 
 **Quan aplica:** En qualsevol moment de la planificació del suport a l'alumnat nouvingut: en la reunió de coordinació entre el tutor i el SLS, en la redacció del pla individualitzat, en la comunicació del progrés a la família i en l'establiment d'objectius per als pròxims mesos.
 
@@ -333,7 +324,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H4 — Avalua cada habilitat per separat
+#### H4 — Avalua cada habilitat per separat
 
 **Quan aplica:** Sempre que es vulgui diagnosticar el nivell lingüístic d'un alumne nouvingut, fer el seguiment del seu progrés o adaptar materials i activitats a les seves necessitats. Especialment quan hi ha una discrepància evident entre el que l'alumne sembla comprendre i el que produeix, o entre les habilitats orals i les escrites.
 
@@ -343,7 +334,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H5 — Identifica les exigències lingüístiques de la teva matèria amb CELM
+#### H5 — Identifica les exigències lingüístiques de la teva matèria amb CELM
 
 **Quan aplica:** Quan un docent de matèria no lingüística (ciències, matemàtiques, història, educació física, música) té alumnat nouvingut a l'aula i vol entendre per quin motiu algunes activitats les poden fer i d'altres no, o vol dissenyar adaptacions fonamentades a les capacitats reals dels alumnes.
 
@@ -353,7 +344,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H6 — Reconeix i activa el repertori plurilingüe
+#### H6 — Reconeix i activa el repertori plurilingüe
 
 **Quan aplica:** En qualsevol activitat d'aula en la qual un alumne nouvingut hagi d'aprendre vocabulari o conceptes nous, especialment en les matèries curriculars on el vocabulari acadèmic és dens i especialitzat. També quan hi ha alumnes que comparteixen la mateixa L1 i poden interactuar en aquella llengua per processar continguts nous.
 
@@ -363,7 +354,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H7 — Usa el PEL per a l'autoavaluació i la implicació de l'alumne
+#### H7 — Usa el PEL per a l'autoavaluació i la implicació de l'alumne
 
 **Quan aplica:** A partir del nivell A2, quan l'alumne nouvingut ja té prou competència en la llengua d'escolarització per poder reflexionar sobre el seu propi aprenentatge i entendre els descriptors del MECR. També com a eina de seguiment en les sessions individuals de SLS o en les tutories amb el tutor del grup.
 
@@ -373,7 +364,7 @@ Aquest document és rellevant en les situacions següents:
 
 ---
 
-### H8 — Aprofita la mediació com a competència activa
+#### H8 — Aprofita la mediació com a competència activa
 
 **Quan aplica:** Quan hi ha a l'aula alumnat nouvingut amb un nivell intermedi (A2-B1) que comparteix la L1 amb un company nouvingut de nivell inferior (pre-A1 o A1), o quan el docent planteja activitats que impliquen explicar, resumir o reformular informació per a un altre company.
 
@@ -381,18 +372,10 @@ Aquest document és rellevant en les situacions següents:
 
 **Exemple complet:** A la classe de matemàtiques, el docent ha d'introduir el concepte de "fracció" a un grup que inclou un alumne nouvingut de nivell A2 (Yassine, que porta sis mesos i s'ha anat incorporant progressivament al currículum) i un altre de recent arribada de nivell pre-A1 (Nadia, que porta dos setmanes i encara no comprèn quasi res en català). Tots dos parlen l'àrab com a L1. El docent, que ha parlat prèviament amb Yassine, li proposa un rol de mediador: quan el docent explica el concepte de fracció a la classe en català (usant el material visual preparat), Yassine, amb el permís del docent, pot susurrar a Nadia una explicació breu en àrab de "el que estem fent ara" si veu que ella no segueix. El docent no interromp el ritme de la classe, però Nadia pot seguir el fil bàsic de l'activitat. Yassine no és un "traductor oficial" (el docent no li delega la responsabilitat d'ensenyar), sinó un company que actua com a pont en moments concrets. Al final de la sessió, el docent agraeix públicament a Yassine la seva col·laboració i subratlla que "saber explicar alguna cosa en dues llengues és una habilitat molt important". Això reforça l'autoestima de Yassine i estableix una dinàmica de col·laboració positiva entre els dos alumnes nouvinguts.
 
----
+## 5. Fonts
 
-## 5. FONTS
-
-> ⚠️ Fonts pendents de verificació manual. Les fonts indicades provenen directament dels PDFs ingestats al corpus. No s'han generat automàticament. Cal verificar URLs i dades de publicació exactes.
-
-**Fonts verificades del corpus:**
-
-- Consell d'Europa. (2001, actualitzat 2020). *Marc Europeu Comú de Referència per a les Llengues: Aprenentatge, Ensenyament, Avaluació. Companion Volume.* Consell d'Europa.
-
-- Departament d'Ensenyament. Generalitat de Catalunya. (2017). *Pautes d'observació. Suport Lingüístic i Social. Nivells A1, A2 i B1 del MECR.* Servei d'Immersió i Acolliment Lingüístics.
-
-- Departament d'Educació. Generalitat de Catalunya. (2020). *Marc Europeu Comú de Referència: Nivell pre-A1 (provisional).* Servei de Suports i Recursos Lingüístics.
-
-- Centre Europeu de Llengues Modernes (CELM); Consell d'Europa. (2017). *Competències lingüístiques per a l'aprenentatge de les matèries. Descriptors per a la història, les matemàtiques i l'educació cívica. Nivells A2, B1 i B2.* Traducció: Servei d'Immersió i Acolliment Lingüístics.
+- Consell d'Europa (2001). *Marc Europeu Comú de Referència per a les Llengües (MECR): Aprenentatge, ensenyament, avaluació*. Estrasburg: Consell d'Europa.
+- Consell d'Europa (2020). *MECR — Volum complementari amb nous descriptors*. Estrasburg: Consell d'Europa.
+- Departament d'Educació (2024). *Orientacions per a la gestió i organització de les Aules d'Acollida*. Generalitat de Catalunya / XTEC.
+- Cummins, J. (2001). *Negotiating Identities: Education for Empowerment in a Diverse Society* (2a ed.). Los Angeles: CABE.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Atenció lingüística*. Generalitat de Catalunya.

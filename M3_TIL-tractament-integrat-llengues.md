@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T11:44:09
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Descripció i fonament
 El Tractament Integrat de Llengües (TIL) és una estratègia pedagògica que reconeix que l'aprenentatge de la llengua no és una tasca exclusiva de les àrees lingüístiques, sinó que es produeix de manera transversal en totes les matèries del currículum. El seu fonament principal és l'enfocament plurilingüe, que valora i aprofita el repertori lingüístic complet de l'alumnat, incloent la llengua familiar, les llengües d'aprenentatge i les llengües estrangeres. Aquesta estratègia es basa en la premissa que la llengua és l'eina fonamental per a l'adquisició de coneixements i per a l'expressió d'idees, i que el llenguatge acadèmic de cada matèria té les seves pròpies especificitats que cal ensenyar explícitament.
 
@@ -122,46 +120,45 @@ Per assegurar una implementació efectiva del TIL, cal evitar certs errors:
 5.  **No ensenyar explícitament el llenguatge acadèmic**: Assumir que l'alumnat adquirirà el llenguatge específic de cada matèria de forma natural. Cada disciplina té el seu propi registre, vocabulari i estructures discursives que han de ser objecte d'ensenyament explícit.
 6.  **Centrar-se només en la correcció gramatical**: Prioritzar la forma per sobre de la comunicació i la comprensió. Si bé la correcció és important, l'objectiu principal és que l'alumnat pugui comunicar-se i accedir al coneixement. Cal tolerar l'error com a part del procés d'aprenentatge.
 
-# 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
-*   **perfil_alumnat_nouvingut**: Aquesta estratègia és fonamental per atendre les necessitats lingüístiques i d'integració d'aquest perfil d'alumnat.
-*   **marc_MECR**: El TIL s'emmarca i utilitza els nivells i descriptors del MECR per a l'avaluació i planificació de l'aprenentatge de llengües.
-*   **eina_avaluacio_inicial_L2**: L'avaluació inicial de la L2 és un prerequisit per a la implementació del TIL, ja que permet conèixer el punt de partida de l'alumnat.
-*   **eina_jocs_de_rol_oral**: Els jocs de rol són una de les metodologies clau dins del TIL per desenvolupar la competència comunicativa oral.
-*   **estrategia_lectura_guiada**: La lectura guiada és una estratègia essencial del TIL per treballar la comprensió lectora en totes les matèries.
-*   **estrategia_adquisicio_vocabulari_academic**: L'adquisició de vocabulari acadèmic és un component explícit i prioritari del TIL.
-*   **protocol_coordinacio_docent**: La coordinació docent és un pilar fonamental per a l'èxit del TIL, assegurant una visió compartida i una pràctica coherent.
-*   **eina_materials_visuals_suport_linguistic**: L'ús de suports visuals és una tàctica bàsica del TIL per facilitar la comprensió i l'expressió lingüística.
+## 3. Connexions amb altres documents del corpus
 
-# 3. DETECCIÓ (Variables de Context)
+- **`M3_TILC-llengua-i-continguts.md`** — El TILC és la concreció del TIL a les classes de matèria no lingüística; el TIL estableix el marc estratègic i el TILC l'operativitza en cada assignatura
+- **`M3_MECR-descriptors-llengua.md`** — El MECR és el sistema de referència comú que el TIL pressuposa: la coherència entre departaments requereix un marc compartit d'avaluació lingüística
+- **`M3_translanguaging-plurilinguisme.md`** — El translanguaging és la pràctica metodològica que el TIL promou: activar el repertori plurilingüe de l'alumne com a recurs, no com a interferència
+- **`M3_estrategies-catala-L2.md`** — Les estratègies de català L2 son una de les branques pràctiques del TIL: el marc plurilingüe integra L1, L2 i la llengua escolar en un projecte coherent
+- **`M1_alumnat-nouvingut.md`** — El TIL és especialment crític per a l'alumnat nouvingut: la coordinació entre l'aula d'acollida i les classes de matèria és la clau de la integració lingüística real
+- **`M2_DUA-principis-pautes.md`** — El DUA i el TIL convergeixen en el principi de múltiples formes de representació: la llengua és una via d'accés al coneixement, no una barrera
 
-*   **Senyals del docent**
+## 4. Detecció
+
+### Senyals del docent
     *   "Els meus alumnes entenen el contingut quan l'explico, però els costa molt expressar-lo amb les seves paraules."
     *   "Tinc alumnes nouvinguts a l'aula i no sé com fer-los seguir la matèria mentre aprenen català."
     *   "M'agradaria que els meus alumnes fessin servir un llenguatge més precís i acadèmic en la meva assignatura."
     *   "Noto que els professors de llengua i jo treballem aspectes lingüístics de forma aïllada, sense connexió."
     *   "Com puc fer que tots els meus alumnes, independentment del seu nivell de català, puguin participar activament en els debats de classe?"
     *   "Em preocupa que alguns alumnes no comprenguin les instruccions complexes dels exercicis o problemes."
-*   **Senyals de l'alumne**
+### Senyals de l'alumne
     *   L'alumne utilitza la seva L1 per comunicar-se amb companys o per entendre tasques.
     *   L'alumne mostra dificultats per seguir explicacions orals llargues o textos escrits complexos en la llengua vehicular.
     *   L'alumne té un vocabulari limitat en la llengua vehicular per expressar conceptes de les matèries.
     *   L'alumne es mostra reticent a participar oralment o a escriure en la llengua vehicular.
-*   **Senyals de context**
+### Senyals de context
     *   Presència d'alumnat d'origen estranger o amb diverses llengües familiars a l'aula.
     *   Resultats baixos en proves de comprensió lectora o expressió escrita en matèries no lingüístiques.
     *   Projecte lingüístic de centre que inclou objectius de plurilingüisme o acollida.
     *   Activitat que requereix l'ús de llenguatge acadèmic específic o habilitats comunicatives complexes (debats, presentacions, anàlisi de textos).
-*   **Anti-senyals**
+### Anti-senyals
     *   El docent considera que la llengua és exclusivament responsabilitat del professor de català o castellà, i no veu la seva matèria com a vehicle d'aprenentatge lingüístic.
     *   El centre ja té un programa d'immersió lingüística molt consolidat i amb resultats excel·lents per a tot l'alumnat, sense necessitat d'intervencions addicionals.
     *   L'alumne demostra un domini excel·lent de totes les llengües del currículum i del llenguatge acadèmic de totes les matèries.
     *   La tasca proposada és purament mecànica o de memorització sense implicació de comprensió o producció lingüística complexa.
 
-# 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general**: Per vehicular el coneixement de manera efectiva i inclusiva, cal integrar l'ensenyament de la llengua en totes les matèries i aprofitar el repertori plurilingüe de l'alumnat.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 
 1.  **Heurística**: **"El docent de matèria és també un docent de llengua."**
     *   **Quan aplica**: Quan un docent d'una matèria no lingüística (per exemple, ciències, matemàtiques, història) expressa preocupació per la dificultat dels seus alumnes per comprendre conceptes o expressar-se en la seva assignatura, o quan hi ha alumnat nouvingut a l'aula.
@@ -188,7 +185,7 @@ Per assegurar una implementació efectiva del TIL, cal evitar certs errors:
     *   **Fonament**: Un enfocament fragmentat de la llengua genera incoherències i pot confondre l'alumnat. La coordinació permet compartir bones pràctiques, alinear objectius lingüístics i crear un projecte lingüístic de centre coherent i potent.
     *   **Exemple complet de raonament**: Davant un/a coordinador/a pedagògic/a que pregunta: "Volem millorar la competència lingüística general dels nostres alumnes, però cada professor va per lliure. Com ho podem organitzar?", la clau és la coordinació. Convé establir espais regulars de trobada entre els professors de llengua i els de matèries no lingüístiques per identificar els objectius lingüístics transversals del currículum (per exemple, la descripció, l'argumentació, l'explicació de processos). A partir d'aquí, es poden dissenyar activitats conjuntes o compartir estratègies per treballar aquestes habilitats en les seves respectives matèries, assegurant que l'alumnat rebi un missatge coherent i reforçat sobre la importància de la llengua en tots els aprenentatges.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 1.  **Heurística**: **"La teva llengua materna és un superpoder per aprendre coses noves."**
     *   **Quan aplica**: Quan un alumne expressa dificultat per entendre un concepte en la llengua vehicular, o se sent frustrat per no poder expressar-se.
@@ -204,95 +201,11 @@ Per assegurar una implementació efectiva del TIL, cal evitar certs errors:
     *   **Quan aplica**: Quan un alumne es troba amb vocabulari desconegut en un text o una explicació, o vol ampliar el seu lèxic en una matèria.
     *   **Fonament**: El vocabulari és fonamental per a la comprensió i l'expressió. Desenvolupar estratègies per adquirir i retenir noves paraules millora l'autonomia de l'aprenent.
     *   **Exemple complet de raonament**: Davant un alumne que diu: "Quan llegeixo el llibre de socials, hi ha moltes paraules que no entenc i em perdo", el vocabulari és una barrera important. Convé que no intenti entendre totes les paraules, sinó que se centri en les més importants. És recomanable subratllar les paraules desconegudes, intentar deduir el seu significat pel context, i si no és possible, buscar-les en un diccionari. Després, es pot crear un petit glossari personal per a cada tema, amb la paraula, la seva definició senzilla i un exemple. Cal emfatitzar que cada paraula apresa li facilitarà la comprensió dels futurs textos i li donarà més eines per expressar-se.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Accions_e-n-lligada_190367285b.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/alumnatnou/materials/catala/lexic/Accions_e-n-lligada.pdf |
-| 2 | guia_didactica_projecte_mon_5843384272.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/alumnatnou/materials/catala/global/guia_didactica_projecte_mon.pdf |
-| 3 | quaderns-SLS-aprendre-llengua-materies_3afd7edb65.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-llengua-materies.pdf |
-| 4 | quaderns-SLS-orientacions-EI-CI_e7fce57f30.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-orientacions-EI-CI.pdf |
-| 5 | quaderns-SLS-adequar-curriculum_366b5bcb5a.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-adequar-curriculum.pdf |
-| 6 | quaderns-SLS-adequar-curriculum_14e08d6baf.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-adequar-curriculum.pdf |
-| 7 | quaderns-SLS-orientacions-EI-CI_e0844f0826.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-orientacions-EI-CI.pdf |
-| 8 | quaderns-SLS-aprendre-vocabulari-materies_0939b573dc.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-vocabulari-materies.pdf |
-| 9 | quaderns-SLS-aprendre-llengua-materies_b77479aece.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-llengua-materies.pdf |
-| 10 | Ful_lleng_alu_116a84d712.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnatnou/avaluacio/inicial2/documents/Ful_lleng_alu.pdf |
-| 11 | Bra_mat_alu_0c54423892.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0009/2ee95d7f-c560-4888-9427-eec2c0019f2f/Bra_mat_alu.pdf |
-| 12 | caixadeines02_b77d235916.pdf | https://educacio.gencat.cat/.content/home/departament/publicacions/publicacions-periodiques/caixadeines/caixadeines02/caixadeines02.pdf |
-| 13 | nivell_inicial_ec0ebc0fd9.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/359c6661-6f0b-4571-ae38-ecf627ac0cfa/nivell_inicial.pdf |
-| 14 | 130117_Objectius_generals_L2_d09b4a07e8.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/6d7f1544-43b4-4baa-a6ca-5f16deb88fd3/130117_Objectius_generals_L2.pdf |
-| 15 | Alumnat_origen_estranger_descriptors_llengua_c6438107b5.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/seguiment/Alumnat_origen_estranger_descriptors_llengua.pdf |
-| 16 | Nivells_materies_CELM_2bbf3c6e75.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/seguiment/Nivells_materies_CELM.pdf |
-| 17 | prog_lcatalana_e621c3bb1f.pdf | http://www.xtec.cat/alfresco/d/d/workspace/SpacesStore/823d1d60-559d-412a-a9be-28b5faa581ae/prog_lcatalana.pdf |
-| 18 | 1753m_a2910c9730.pdf | http://www.xtec.cat/sgfp/llicencies/200708/memories/1753m.pdf |
-| 19 | 911m_757ca1b3cd.pdf | http://www.xtec.cat/sgfp/llicencies/200405/memories/911m.pdf |
-| 20 | Prf2-Escola_institut_05a6a4b663.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0008/2b4e3332-560d-46c8-9571-fcb2ca1e3230/Prf2-Escola_institut.pdf |
-| 21 | V1_guia_967b928fe2.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0070/a3b352de-9313-41c9-bc20-c33a1171d6db/V1_guia.pdf |
-| 22 | Tema1_lligada_4d09ff368b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0052/632add3e-ec36-41c5-942e-518dade27a16/Tema1_lligada.pdf |
-| 23 | V3_guia_195ae8ab2c.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0077/b5dc013b-bfd0-4828-b74c-29bbd2e726da/V3_guia.pdf |
-| 24 | Prf5-La_familia_9565b58e87.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0094/e85ca1b9-d5a8-4417-bbc1-055827eb6ea7/Prf5-La_familia.pdf |
-| 25 | V2_guia_7b8941c840.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0055/72292d11-345f-4056-947d-0a9877c14b5c/V2_guia.pdf |
-| 26 | Prf9_Els_animals_92e8c5dbca.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0007/1fceb626-a426-4cbc-b12b-e19e847be761/Prf9_Els_animals.pdf |
-| 27 | Prf12-Els_oficis_cd34030d7c.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0013/3f36e43a-110f-4b43-a514-1c8106482257/Prf12-Els_oficis.pdf |
-| 28 | oralpha_metode_alfabetitzacio_catala_guia_ced5b69b9e.pdf | https://dixit.gencat.cat/web/.content/home/04recursos/02publicacions/02publicacions_de_bsf/05_immigracio/oralpha_metode_alfabetitzacio_catala/oralpha_metode_alfabetitzacio_catala_guia.pdf |
-| 29 | Prf1-La_classe_243a08a501.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3d4788f9-d474-4068-b978-9a539780b8d7/Prf1-La_classe.pdf |
-| 30 | guia_el_meu_album_be568aed7c.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0069/9ee3a2c8-7e81-490d-9127-7fea655f33f9/guia_el_meu_album.pdf |
-| 31 | guia_didactica_vivim_junts_29bdb108a5.pdf | https://llengua.gencat.cat/web/.content/documents/publicacions/vivim_junts/arxius/guia_didactica_vivim_junts.pdf |
-| 32 | guia_Viure_634b7c13ed.pdf | https://llengua.gencat.cat/web/.content/documents/publicacions/viure_a_catalunya/guia_Viure.pdf |
-| 33 | xarranca_150416_9b8268a4f1.pdf | https://fundaciobofill.cat/uploads/docs/l/4/j/o/o/3/j/x/o/xarranca_150416.pdf |
-| 34 | 1_fitxa_practica_album_festes_hivern_b6f4af899a.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0062/8e961a7e-5de3-4337-aefe-17dccd4e71e1/1_fitxa_practica_album_festes_hivern.pdf |
-| 35 | instruccions_CL_abeae8fb6c.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0043/3968ff89-8455-4ba1-b7ee-97e59326ed44/instruccions_CL.pdf |
-| 36 | instruccions_EO_5dfaf458cc.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0049/57240bc3-aac3-4ca0-96ec-7160ebd36991/instruccions_EO.pdf |
-| 37 | instruccions_aplicacio-CL_sec_red_ebab0c71e2.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0067/9a5aad6b-dcf4-4542-93fb-ae004dd279a7/instruccions_aplicacio-CL_sec_red.pdf |
-| 38 | CM_7_716f02dab2.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0076/b4d0fcfc-f18e-485d-8b60-36a461724d40/CM_7.pdf |
-| 39 | CS_3_ab4c815f59.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0046/48087db8-3981-4780-abc0-ffa4bea25745/CS_3.pdf |
-| 40 | CM_13_49e7652b72.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0068/9ce4ddc3-d644-4fd2-8f10-6366ce1dab2c/CM_13.pdf |
-| 41 | CM_9_e40012bad3.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0081/c2e13bd2-1178-4238-bde4-78bb750e8aaa/CM_9.pdf |
-| 42 | CM_3_8530284913.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0066/968e13af-2c1e-4461-bfd2-0f93d21db115/CM_3.pdf |
-| 43 | CS_5_7a2c0ee3f1.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0033/07926d76-b3f6-430b-99f0-c1065adfcfee/CS_5.pdf |
-| 44 | CM_15_cd7b1ff345.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0040/275cd5c6-51b7-42b4-9504-1f6ae041b0d6/CM_15.pdf |
-| 45 | CM_4_591b3a5feb.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0024/fc942d9f-e32d-4698-838c-44a18537454b/CM_4.pdf |
-| 46 | comunicacio_enrolat_16e6254639.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0056/75efd036-9962-4032-b26a-d6eb2ceee3f3/comunicacio_enrolat.pdf |
-| 47 | CS_2_968cf7f93d.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0053/66cd004b-2273-437a-8536-fe28dc54fc5d/CS_2.pdf |
-| 48 | guia_didactica_2d378b6d4c.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0011/3c60b30e-abd6-424c-a241-fb12797377b3/guia_didactica.pdf |
-| 49 | CM_11_2f450f430e.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0019/6d69d147-72b2-407a-97a6-819495b8652d/CM_11.pdf |
-| 50 | CM_2_9694f8d6ee.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0090/dfb2bb7e-e15b-4666-bd8c-6b7e992ccead/CM_2.pdf |
-| 51 | CM_1_d9503c5069.pdf | https://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0045/45c10f02-dd85-4a7a-adba-82cdb97b3468/CM_1.pdf |
-| 52 | CS_6_aa98afe9b2.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0015/05aa0a9f-350b-4dfa-9022-242d2b62ceb7/CS_6.pdf |
-| 53 | CM_14_72bdbed42d.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0089/da022fc4-d24e-479b-8d08-a881bb20eaa9/CM_14.pdf |
-| 54 | CS_14_31058e2b0e.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0077/b5fb0e39-9a36-48d3-b19e-2d5e0f8ab160/CS_14.pdf |
-| 55 | CM_5_47feeeb760.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0092/e428a152-dd0c-4c7b-a77e-e8b30f33c711/CM_5.pdf |
-| 56 | CS_4_8a4b323ba6.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0060/8863334c-e95b-4ea8-8709-a4ca6f5b81f6/CS_4.pdf |
-| 57 | CM_10_ddf938c1ca.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0035/1467011b-4522-489b-b3f3-6189e593cc7a/CM_10.pdf |
-| 58 | CS_10_9d6a313190.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0092/e444c5dc-c114-4fe6-a7ac-87a9995861ad/CS_10.pdf |
-| 59 | CM_6_3a5e4fdd4b.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0035/158db48e-6f05-4d4a-ac3f-4c95636e86c5/CM_6.pdf |
-| 60 | CS_8_ecab8e0e65.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0056/745143be-cf86-464b-a1c3-ee343f078c61/CS_8.pdf |
-| 61 | CM_8_a3a355dd3a.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0012/3e862ae0-629a-4826-b79a-ce80934bfd4a/CM_8.pdf |
-| 62 | CS_11_3d3bd3cfc3.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0090/df5b428c-4a5a-43a7-a2ef-3413c51f9b2e/CS_11.pdf |
-| 63 | CM_12_50d6fca930.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0060/8755336e-a197-494e-b6a5-f00efcce8157/CM_12.pdf |
-| 64 | CS_1_cc54cc7446.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0083/c9140f67-fef1-447c-a286-46b6c394edce/CS_1.pdf |
-| 65 | CS_15_84cd7e8c2f.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0069/9f7d24a9-1f42-48e2-9438-52ce7d2924cd/CS_15.pdf |
-| 66 | CS_13_f50b59a9c1.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0023/fe66436c-0ce4-4ee1-bd7c-5caea42d1413/CS_13.pdf |
-| 67 | CS_12_3418358339.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0038/236482e7-2993-419e-9d00-c6108a7dd991/CS_12.pdf |
-| 68 | CS_9_6e9c18463c.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0027/f2f5db4b-9fbe-490a-9778-acf38e47f784/CS_9.pdf |
-| 69 | instruccions_CO_82651e16ad.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0075/b19a4098-b85a-460c-b1e7-c875c9f84e92/instruccions_CO.pdf |
-| 70 | insruccions_aplicacio_EE_sec_red_9b3ea8f8fa.pdf | http://xtec.gencat.cat/web/.content/alfresco/d/d/workspace/SpacesStore/0026/f9df3b4f-24ad-40ad-8020-a992aab567ba/insruccions_aplicacio_EE_sec_red.pdf |
-| 71 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2827/proces_lector_2020.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2827/proces_lector_2020.pdf?sequence=1&isAllowed=y |
-| 72 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2838/estrategies_lectura_fer_connexions_2016.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2838/estrategies_lectura_fer_connexions_2016.pdf?sequence=1&isAllowed=y |
-| 73 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2839/tallers_lectura_material_didactic_2015.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2839/tallers_lectura_material_didactic_2015.pdf?sequence=1&isAllowed=y |
-| 74 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2825/lectura_guiada_proposta_didactica_treballar_proces_lector_secundaria_material_didactic_2017.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2825/lectura_guiada_proposta_didactica_treballar_proces_lector_secundaria_material_didactic_2017.pdf?sequence=1&isAllowed=y |
-| 75 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2649/dossier_escolta_estructurada_3_edicio_2024.pdf?sequence=6&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2649/dossier_escolta_estructurada_3_edicio_2024.pdf?sequence=6&isAllowed=y |
-| 76 | El gust per llegir a educació infantil i a educació primària [material didàctic] (2a edició, 2016) - RDE - Repositori del Departament d'Educació i Formació Professional | https://repositori.educacio.gencat.cat/handle/20.500.12694/2854#page=1 |
-| 77 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2852/parlem_llibres_tertulia_literaria_2_edicio_2016.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2852/parlem_llibres_tertulia_literaria_2_edicio_2016.pdf?sequence=1&isAllowed=y |
-| 78 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2824/temps_lectura_primaria_material_didactic_2014.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2824/temps_lectura_primaria_material_didactic_2014.pdf?sequence=1&isAllowed=y |
-| 79 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2854/gust_llegir_educacio_infantil_educacio_primaria_2_edicio_2016.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2854/gust_llegir_educacio_infantil_educacio_primaria_2_edicio_2016.pdf?sequence=1&isAllowed=y |
-| 80 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2864/habit_lector_temps_lectura_educacio_secundaria_2_edicio_2016.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2864/habit_lector_temps_lectura_educacio_secundaria_2_edicio_2016.pdf?sequence=1&isAllowed=y |
-| 81 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/3549/piramide_lectura_educacio_secundaria_material_didactic_2014.pdf?sequence=3&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/3549/piramide_lectura_educacio_secundaria_material_didactic_2014.pdf?sequence=3&isAllowed=y |
-| 82 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2826/lectura_guiada_proposta_didactica_treballar_proces_lector_cm_cs_material_didactic_2015.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2826/lectura_guiada_proposta_didactica_treballar_proces_lector_cm_cs_material_didactic_2015.pdf?sequence=1&isAllowed=y |
-| 83 | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2840/adquisicio_vocabulari_estrategies_organitzadors_2015.pdf?sequence=1&isAllowed=y | https://repositori.educacio.gencat.cat/bitstream/handle/20.500.12694/2840/adquisicio_vocabulari_estrategies_organitzadors_2015.pdf?sequence=1&isAllowed=y |
-| 84 | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-vocabulari-materies.pdf | https://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-vocabulari-materies.pdf |
-
-*84 documents font · secció generada automàticament des dels metadades del corpus*
+- Cummins, J. (2001). *Negotiating Identities: Education for Empowerment in a Diverse Society* (2a ed.). Los Angeles: CABE.
+- Coelho, E. (2013). *Language and Learning in Multilingual Classrooms*. Bristol: Multilingual Matters.
+- Departament d'Educació (2018). *El tractament integrat de les llengües*. Generalitat de Catalunya / XTEC.
+- García, O., & Wei, L. (2014). *Translanguaging: Language, Bilingualism and Education*. Nova York: Palgrave Macmillan.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.

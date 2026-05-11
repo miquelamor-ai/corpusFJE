@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:09
 ---
 
-## 1. CONTINGUT ESPECÍFIC: ESTRATÈGIA
-
 ### Descripció i fonament
 
 Aquesta estratègia es basa en el reconeixement i l'aprofitament del repertori lingüístic complet de l'alumnat, incloent totes les seves llengües familiars (L1) i les llengües d'aprenentatge (L2, L3), per vehicular el coneixement i aprofundir en els aprenentatges. El **translanguaging** és la pràctica de fer servir de manera flexible i integrada totes les llengües que una persona coneix en un mateix acte comunicatiu, sense considerar-les sistemes separats. El **plurilingüisme**, per la seva banda, reconeix la capacitat d'una persona per utilitzar diverses llengües de manera apropiada i eficaç per a l'aprenentatge i la comunicació, respectant els perfils lingüístics individuals i fomentant les transferències entre elles.
@@ -156,28 +154,25 @@ Hi ha diversos errors que cal evitar en la implementació d'una estratègia de t
 *   **Manca d'oportunitats per a la producció oral i escrita:** Limitar la participació de l'alumnat a respostes curtes o a la repetició. És crucial crear moltes situacions comunicatives que permetin l'ús actiu de la L2 per part de l'alumnat, tant oralment com per escrit, i amb diferents gèneres.
 *   **No verificar la comprensió de manera continuada:** Assumir que l'alumnat ha comprès la informació o les instruccions sense fer comprovacions actives (preguntes, resums, exemples).
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-*   **TILC (Tractament Integrat de Llengua i Continguts)**: Aquesta estratègia és la base metodològica per implementar el translanguaging i el plurilingüisme a l'aula.
-*   **Llenguatge Acadèmic (CALP) vs. Conversacional (BICS)**: La comprensió d'aquesta distinció és clau per dissenyar activitats que promoguin el desenvolupament de la CALP en totes les matèries.
-*   **Funcions Cognitivolingüístiques (FCL)**: L'ensenyament explícit de les FCL és un component essencial per vehicular el coneixement a través de la llengua.
-*   **Bastides de Suport (Scaffolding)**: Les bastides són les eines i estratègies concretes que fan possible l'aplicació del translanguaging i el TILC, especialment per a l'alumnat amb menys domini de la L2.
-*   **Aprenentatge Cooperatiu**: Aquesta metodologia és un vehicle excel·lent per fomentar la interacció, la negociació de significats i l'ús del repertori lingüístic divers de l'alumnat.
-*   **Avaluació Formativa i Reguladora**: Permet fer un seguiment dels progressos en l'adquisició del llenguatge acadèmic i ajustar les bastides i les estratègies.
-*   **Perfil Alumnat Nouvingut**: Aquesta estratègia és fonamental per garantir l'èxit educatiu i la inclusió d'aquest perfil d'alumnat.
-*   **Suport Lingüístic i Social (SLS)**: El SLS és el marc d'actuació per a l'alumnat d'origen estranger a l'aula ordinària, i aquesta estratègia proporciona les eines metodològiques per aplicar-lo.
-*   **Multimodalitat a l'aula**: L'ús de diferents llenguatges (visual, audiovisual, textual) és una bastida clau per fer l'input comprensible i diversificar la producció de coneixement.
+- **`M3_TIL-tractament-integrat-llengues.md`** — El TIL és el marc institucional del translanguaging: el projecte lingüístic de centre és el lloc on es legitima i es planifica l'ús multilingüe a l'aula
+- **`M3_llengua-diversitat.md`** — La diversitat lingüística és el context que fa necessari el translanguaging: no suprimir les llengües de l'alumne sinó activar-les com a recurs cognitiu i identitari
+- **`M3_estrategies-catala-L2.md`** — El translanguaging és una estratègia potent per a l'adquisició de L2: usar la L1 com a pont cognitiu per accedir als conceptes en la L2 accelera la comprensió
+- **`M1_alumnat-nouvingut.md`** — L'alumnat nouvingut és el beneficiari principal del translanguaging: la L1 és el seu recurs cognitiu principal i l'escola ha d'aprendre a activar-lo en lloc de suprimir-lo
+- **`M2_factors-promotors-aprenentatge.md`** — El translanguaging activa els coneixements previs en L1: la connexió entre el que ja sap (en qualsevol llengua) i el que aprèn accelera la consolidació
+- **`M1_diversitat-cultural-identitat.md`** — El reconeixement de les llengües de l'alumne és reconèixer la seva identitat: el translanguaging és un acte de cura lingüística i cultural
 
-## 3. DETECCIÓ (Variables de Context)
+## 4. Detecció
 
-**Senyals del docent:**
+### Senyals del docent
 *   El docent expressa preocupació per la baixa participació oral o escrita de l'alumnat en L2.
 *   El docent observa que l'alumnat comprèn les instruccions bàsiques, però té dificultats amb el llenguatge acadèmic de la matèria.
 *   El docent es pregunta com integrar les llengües familiars de l'alumnat a l'aula de manera productiva.
 *   El docent busca estratègies per ensenyar el vocabulari o els gèneres textuals propis de la seva àrea.
 *   El docent vol que l'alumnat no només memoritzi continguts, sinó que els expliqui, justifiqui o argumenti de manera coherent.
 
-**Senyals de l'alumne:**
+### Senyals de l'alumne
 *   L'alumne utilitza la seva L1 per comunicar-se amb els companys en tasques acadèmiques, però té dificultats per expressar-se en L2.
 *   L'alumne mostra dificultats per comprendre textos complexos o explicacions orals sense suports visuals.
 *   L'alumne té un vocabulari limitat en la L2 per expressar conceptes acadèmics.
@@ -191,17 +186,17 @@ Hi ha diversos errors que cal evitar en la implementació d'una estratègia de t
 *   Es planteja un treball en grup on la interacció i la negociació de significats són clau.
 *   L'avaluació mostra que l'alumnat domina els conceptes però no sap expressar-los adequadament en el llenguatge de la matèria.
 
-**Anti-senyals (quan NO activar malgrat les aparences):**
+### Anti-senyals
 *   L'alumne ja demostra un alt nivell de competència acadèmica en la L2 i no necessita bastides addicionals per a la tasca.
 *   La tasca és purament mecànica (ex: copiar un text sense objectiu de comprensió o producció de significat).
 *   L'ús de la L1 esdevé un substitut permanent de l'aprenentatge de la L2, sense cap intenció de transferència o progressió cap a la llengua vehicular.
 *   El docent ja aplica de manera sistemàtica i efectiva les estratègies del TILC i el translanguaging.
 
-## 4. HEURÍSTIQUES I RAONAMENT PEDAGÒGIC
+### Heurístiques
 
 **Principi general:** Integrar la llengua i els continguts de manera explícita, aprofitant tot el repertori lingüístic de l'alumnat, per fomentar un aprenentatge profund i inclusiu.
 
-### Heurístiques per al docent
+#### Heurístiques per al docent
 
 1.  **Heurística: "El docent com a modelador lingüístic"**
     *   **Quan aplica:** Quan s'introdueixen nous conceptes, vocabulari especialitzat o gèneres discursius propis de la matèria, o quan l'alumnat mostra dificultats en la producció oral o escrita.
@@ -228,7 +223,7 @@ Hi ha diversos errors que cal evitar en la implementació d'una estratègia de t
     *   **Fonament:** Si el llenguatge és el vehicle del coneixement, l'avaluació ha de reflectir la capacitat de l'alumnat per vehicular aquest coneixement de manera efectiva. Fer visibles els objectius lingüístics en l'avaluació incentiva el seu treball.
     *   **Exemple complet de raonament:** Davant un docent de filosofia que avalua la comprensió d'un concepte abstracte, en lloc de només puntuar la correcció del concepte, convé incloure criteris d'avaluació explícits sobre la claredat de l'explicació, l'ús de vocabulari filosòfic adequat, la coherència argumentativa i la capacitat de connectar el concepte amb exemples. Per exemple, una rúbrica pot incloure ítems com "Utilitza el lèxic filosòfic amb precisió", "Estructura l'argumentació de manera lògica" o "Justifica les seves afirmacions amb exemples pertinents". Això no només proporciona un feedback més complet a l'alumne, sinó que també comunica la importància del domini lingüístic per a l'èxit en la matèria, motivant l'alumnat a millorar la seva expressió acadèmica.
 
-### Heurístiques per a l'alumne
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: "Activa el teu superpoder lingüístic"**
     *   **Quan aplica:** Quan l'alumne es troba amb una tasca o un text que li resulta difícil de comprendre en la llengua vehicular.
@@ -244,58 +239,11 @@ Hi ha diversos errors que cal evitar en la implementació d'una estratègia de t
     *   **Quan aplica:** Quan l'alumne treballa en grup o té dubtes sobre un concepte o una tasca.
     *   **Fonament:** La interacció amb els companys és una font rica d'aprenentatge. Permet negociar significats, rebre models de llengua i obtenir ajuda, facilitant la construcció compartida del coneixement.
     *   **Exemple complet de raonament:** Davant un alumne que no entén una part de l'explicació del professor i es troba en un grup de treball, una orientació útil és: "No et quedis amb el dubte! Els teus companys són una gran ajuda. Pots preguntar-los: 'M'ho pots explicar amb altres paraules?' o 'Què vol dir exactament aquesta part?'. Si un company explica bé un concepte, escolta atentament com ho fa, perquè t'està donant un 'model' de com parlar d'aquest tema. A més, quan tu expliques alguna cosa als altres, encara que sigui en la teva L1 al principi, estàs reforçant el teu propi aprenentatge i millorant la teva capacitat de comunicar-te. La interacció és una eina poderosa per construir coneixement junts."
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | cursos:escola_inclusiva:ansu:b2:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b2/index |
-| 2 | cursos:escola_inclusiva:ansu:guia [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/guia |
-| 3 | cursos:escola_inclusiva:ansu:b3:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/index |
-| 4 | cursos:escola_inclusiva:ansu:b4:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/index |
-| 5 | cursos:escola_inclusiva:ansu:b5:index [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/index |
-| 6 | cursos:escola_inclusiva:ansu:b2:b2t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b2/b2t3 |
-| 7 | cursos:escola_inclusiva:ansu:b2:b2t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b2/b2t1 |
-| 8 | cursos:escola_inclusiva:ansu:b2:b2t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b2/b2t4 |
-| 9 | cursos:escola_inclusiva:ansu:b2:b2t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b2/b2t2 |
-| 10 | cursos:escola_inclusiva:ansu:b1:b1t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t4 |
-| 11 | cursos:escola_inclusiva:ansu:b2:b2t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b2/b2t5 |
-| 12 | cursos:escola_inclusiva:ansu:b1:b1t2 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t2 |
-| 13 | cursos:escola_inclusiva:ansu:b1:b1t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b1/b1t3 |
-| 14 | cursos:escola_inclusiva:ansu:b3:b3t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t4 |
-| 15 | cursos:escola_inclusiva:ansu:b3:b3t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b3/b3t1 |
-| 16 | cursos:escola_inclusiva:ansu:b7:b7t5 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t5 |
-| 17 | cursos:escola_inclusiva:ansu:b7:b7t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b7/b7t3 |
-| 18 | cursos:escola_inclusiva:ansu:b6:b6t3 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b6/b6t3 |
-| 19 | cursos:escola_inclusiva:ansu:b4:b4t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t1 |
-| 20 | cursos:escola_inclusiva:ansu:b4:b4t4 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b4/b4t4 |
-| 21 | cursos:escola_inclusiva:ansu:b5:b5t1 [Formació del professorat] | https://ateneu.xtec.cat/wikiform/wikiexport/cursos/escola_inclusiva/ansu/b5/b5t1 |
-| 22 | cursos:curriculum:eso_btx:dcs1:modul_4:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/index |
-| 23 | cursos:curriculum:eso_btx:dcs1:modul_3:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/index |
-| 24 | cursos:curriculum:eso_btx:dcs1:modul_2:index [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/index |
-| 25 | cursos:curriculum:eso_btx:dcs1:guia [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/guia |
-| 26 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_2 |
-| 27 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_3 |
-| 28 | cursos:curriculum:eso_btx:dcs1:modul_4:practica_1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_4/practica_1 |
-| 29 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_2 |
-| 30 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_3 |
-| 31 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_5 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_5 |
-| 32 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_4 |
-| 33 | cursos:curriculum:eso_btx:dcs1:modul_3:practica_1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_3/practica_1 |
-| 34 | cursos:curriculum:eso_btx:dcs1:modul_1:practica_1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_1/practica_1 |
-| 35 | cursos:curriculum:eso_btx:dcs1:modul_1:practica_3 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_1/practica_3 |
-| 36 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_1 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_1 |
-| 37 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_2 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_2 |
-| 38 | cursos:curriculum:eso_btx:dcs1:modul_2:practica_4 [Formació del professorat] | http://ateneu.xtec.cat/wikiform/wikiexport/cursos/curriculum/eso_btx/dcs1/modul_2/practica_4 |
-| 39 | quaderns-SLS-adequar-curriculum_14e08d6baf.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-adequar-curriculum.pdf |
-| 40 | Nivells_materies_CELM_42330e1010.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/seguiment/Nivells_materies_CELM.pdf |
-| 41 | continguts_de_llengua_relacionats_amb_les_arees_no_8421d97948.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b2/continguts_de_llengua_relacionats_amb_les_arees_no_lingueistiques.b2.pdf |
-| 42 | quaderns-SLS-aprendre-llengua-materies_b77479aece.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-llengua-materies.pdf |
-| 43 | quaderns-SLS-aprendre-vocabulari-materies_0939b573dc.pdf | http://xtec.gencat.cat/web/.content/projectes/alumnat-origen-estranger/suport-linguistic-social/publicacions/quaderns/documents/quaderns-SLS-aprendre-vocabulari-materies.pdf |
-| 44 | propostes_del_clil_b3_eab48abfe7.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b3/propostes_del_clil_b3.pdf |
-| 45 | input_comprensible_b3_d7bb1fd400.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b3/input_comprensible_b3.pdf |
-| 46 | punts_calents_lingueistics._actualitzat_oct25_b9f0738b54.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b6/punts_calents_lingueistics._actualitzat_oct25.pdf |
-| 47 | estrategies_b4_5de4162109.pdf | https://ateneu.xtec.cat/wikiform/wikiexport/_media/cursos/escola_inclusiva/ansu/b4/estrategies_b4.pdf |
-
-*47 documents font · secció generada automàticament*
+- García, O., & Wei, L. (2014). *Translanguaging: Language, Bilingualism and Education*. Nova York: Palgrave Macmillan.
+- Canagarajah, S. (2011). Codemeshing in academic writing: Identifying teachable strategies of translanguaging. *The Modern Language Journal*, 95(3), 401-417.
+- Cummins, J. (2007). Rethinking monolingual instructional strategies in multilingual classrooms. *Canadian Journal of Applied Linguistics*, 10(2), 221-240.
+- Cenoz, J., & Gorter, D. (2011). A holistic approach to multilingual education: Introduction. *The Modern Language Journal*, 95(3), 339-343.
+- Coelho, E. (2013). *Language and Learning in Multilingual Classrooms*. Bristol: Multilingual Matters.

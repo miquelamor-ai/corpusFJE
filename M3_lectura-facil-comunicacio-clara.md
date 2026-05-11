@@ -12,8 +12,6 @@ generat_at: 2026-03-18T00:00:00
 
 ---
 
-## 1. CONTINGUT ESPECÍFIC
-
 ### 1.1 Descripció i marc conceptual
 
 #### Lectura Fàcil (LF)
@@ -266,28 +264,16 @@ Un error freqüent en la pràctica docent és plantejar l'adaptació de textos c
 - En alguns casos, un alumne pot necessitar nivells d'adaptació diferents per a continguts distints: un alumne nouvingut en A1 pot necessitar Comunicació Clara per a les instruccions de les activitats, però necessitar un suport de CAA per a les normes de convivència de l'aula si les paraules clau encara no formen part del seu vocabulari bàsic.
 - L'adaptació ha de ser un procés dinàmic: a mesura que l'alumne progressa, el nivell d'adaptació necessari disminueix. Cal revisar periòdicament si els materials adaptats segueixen sent adequats o si ja es pot avançar cap a formats menys adaptats.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES NODES
+- **`M1_alumnat-nouvingut.md`** — La LF és l'eina d'adaptació principal per a l'alumnat nouvingut pre-A1; sense text accessible, l'aprenentatge queda bloquejat independentment de la competència cognitiva
+- **`M1_dislexia-dificultats-lectores.md`** — La LF és una mesura d'adaptació textual per a l'alumnat amb dislèxia: tipografia, interlineat i estructura faciliten el descodament i la comprensió
+- **`M1_discapacitat-intel·lectual.md`** — La LF és la via d'accés al text per a l'alumnat amb DI: reduir la càrrega sintàctica i lèxica és el prerequisit per a qualsevol aprenentatge autònom
+- **`M1_alumnat-TEA.md`** — La Comunicació Clara és especialment útil per a alumnat TEA: frases curtes, sentit literal, seqüència clara i absència de metàfores eliminen les barreres de l'ambigüitat
+- **`M3_comunicacio-augmentativa.md`** — LF i CAA son complementàries: el text en LF acompanya els pictogrames CAA per garantir l'accés tant als alumnes lectors com als pre-lectors
+- **`M3_MECR-descriptors-llengua.md`** — El nivell MECR orienta el grau d'adaptació: pre-A1 → LF màxima; A1 → LF estàndard; A2 → CC; B1+ → suport lingüístic integrat sense simplificació radical
 
-Aquesta fitxa de síntesi s'articula amb els perfils d'alumnat (mòdul M1) i amb altres estratègies metodològiques (mòdul M3) del corpus RAG de FJE. Les connexions principals són les següents:
-
-**Connexions amb perfils d'alumnat (M1)**
-
-- **M1_alumnat-nouvingut.md:** La Lectura Fàcil és l'eina d'adaptació textual principal per a l'alumnat nouvingut en fase pre-A1 o A1 de la llengua vehicular. Per als alumnes en A1-A2, la Comunicació Clara sol ser suficient per a documents generals; la Lectura Fàcil s'usa per a continguts conceptualment densos o amb alta càrrega de vocabulari especialitzat.
-- **M1_alumnat-TEA.md:** La Lectura Fàcil és una eina molt ben adaptada per a l'alumnat amb TEA, especialment pels seus criteris d'explicitació màxima (eliminar el·lipsis, evitar expressions figures o ambigüitats), d'organització visual clara i de previsibilitat de l'estructura. La Comunicació Clara per si sola pot no ser suficient per a alumnat amb TEA de suport 2 o 3.
-- **M1_discapacitat-intel·lectual.md:** La Lectura Fàcil és la metodologia principal per a l'adaptació de materials per a alumnat amb discapacitat intel·lectual. En casos de DI severa o profunda, es passa de LF a CAA amb pictogrames.
-- **M1_TDAH.md:** Tant la Comunicació Clara com la Lectura Fàcil redueixen la sobrecàrrega cognitiva per a l'alumnat amb TDAH, que sovint es beneficia de textos curts, ben estructurats, amb llistes i amb una jerarquia visual clara. La Lectura Fàcil no sol ser necessària en tots els casos de TDAH, però els seus principis de disseny (interlineat, espai en blanc, tipografia) són molt beneficiosos.
-- **M1_dislexia-dificultats-lectores.md:** Les pautes de disseny tipogràfic de la Lectura Fàcil (tipografia sense serifs, cos gran, interlineat ampli, alineació a l'esquerra, espai entre línies) beneficien de manera directa l'alumnat amb dislèxia o altres dificultats lectores. En alguns casos, el contingut no necessita ser adaptat a LF, però el format sí.
-
-**Connexions amb altres estratègies (M3)**
-
-- **M3_comunicacio-augmentativa.md:** La Lectura Fàcil és el pas previ a la CAA dins el contínuum d'accessibilitat. Juntes, LF i CAA formen el conjunt d'eines d'accessibilitat cognitiva i comunicativa per a les necessitats més específiques. No s'han de confondre, però sí conèixer com s'articulen.
-- **M3_MECR-descriptors-llengua.md:** El nivell del Marc Europeu Comú de Referència (MECR) de l'alumne nouvingut és un indicador clau per determinar quin grau d'adaptació textual cal: pre-A1/A1 → Lectura Fàcil; A1-A2 → Comunicació Clara; B1 i superior → text ordinari simplificat o sense adaptació.
-
----
-
-## 3. DETECCIÓ DE SITUACIÓ
+## 4. Detecció
 
 Aquesta secció ajuda a identificar en quins contextos i situacions és rellevant activar el coneixement d'aquesta fitxa.
 
@@ -304,9 +290,9 @@ Aquesta secció ajuda a identificar en quins contextos i situacions és rellevan
 
 ---
 
-## 4. HEURÍSTIQUES D'APLICACIÓ
+### Heurístiques
 
-### H1 — Determina el nivell d'adaptació necessari ABANS de simplificar
+#### H1 — Determina el nivell d'adaptació necessari ABANS de simplificar
 
 **Quan aplica:**
 
@@ -326,7 +312,7 @@ Abans d'adaptar, analitza els dos perfils per separat. Per a Ibrahim, la barrera
 
 ---
 
-### H2 — Comença pel vocabulari: substitueix, no elimines contingut
+#### H2 — Comença pel vocabulari: substitueix, no elimines contingut
 
 **Quan aplica:**
 
@@ -348,7 +334,7 @@ La professora comença identificant els conceptes clau que Marc ha d'aprendre: R
 
 ---
 
-### H3 — Una idea per frase, punt i apart, veu activa, present d'indicatiu
+#### H3 — Una idea per frase, punt i apart, veu activa, present d'indicatiu
 
 **Quan aplica:**
 
@@ -374,7 +360,7 @@ Clara pot llegir cada frase, entendre-la i passar a la següent sense haver de m
 
 ---
 
-### H4 — El disseny gràfic és part de l'accessibilitat, no decoració
+#### H4 — El disseny gràfic és part de l'accessibilitat, no decoració
 
 **Quan aplica:**
 
@@ -396,7 +382,7 @@ Aplica H4 i revisa el disseny: canvia la font a Arial 14pt, estableix alineació
 
 ---
 
-### H5 — Valida amb almenys 3 usuaris del col·lectiu diana (versió escolar simplificada)
+#### H5 — Valida amb almenys 3 usuaris del col·lectiu diana (versió escolar simplificada)
 
 **Quan aplica:**
 
@@ -418,7 +404,7 @@ Organitza una sessió de 30 minuts amb tres alumnes de l'aula d'educació especi
 
 ---
 
-### H6 — Usa llistes per a seqüències i enumeracions de tres o més elements
+#### H6 — Usa llistes per a seqüències i enumeracions de tres o més elements
 
 **Quan aplica:**
 
@@ -449,7 +435,7 @@ Albert pot llegir la llista abans de la sortida i saber exactament quines accion
 
 ---
 
-### H7 — Per a alumnat nouvingut pre-A1/A1: imatge + paraula, evita frases fins que no hi hagi vocabulari bàsic assentat
+#### H7 — Per a alumnat nouvingut pre-A1/A1: imatge + paraula, evita frases fins que no hi hagi vocabulari bàsic assentat
 
 **Quan aplica:**
 
@@ -471,7 +457,7 @@ Durant les primeres dues setmanes, la docent treballa amb Amara el vocabulari d'
 
 ---
 
-### H8 — Progressivitat: no forces LF si CC és suficient; reserva LF per als col·lectius que realment la necessiten
+#### H8 — Progressivitat: no forces LF si CC és suficient; reserva LF per als col·lectius que realment la necessiten
 
 **Quan aplica:**
 
@@ -491,19 +477,14 @@ L'equip de cicle mitjà de primària d'una escola rep l'orientació de l'orienta
 
 L'equip decideix adoptar Comunicació Clara com a estàndard de tots els documents generals i materials de l'aula (un únic esforç que beneficia a tothom), i reservar el temps i l'esforç d'adaptació a Lectura Fàcil per als dos alumnes que la necessiten, fent la validació amb ells mateixos. El nouvingut en pre-A1 rep el dossier visual descrit a H7. El resultat és que l'equip gestiona tres nivells d'adaptació de manera diferenciada i sostenible, sense invertir en Lectura Fàcil formal allà on Comunicació Clara és suficient.
 
----
+## 5. Fonts
 
-## 5. FONTS
+- AENOR (2018). *UNE 153101:2018. Lectura Fàcil: Pautes i recomanacions per a l'elaboració de documents*. Madrid: AENOR.
+- Plena Inclusió (2021). *Guia Lectura Fàcil*. Madrid: Plena Inclusió España.
+- Departament de Drets Socials (2024). *Guia de comunicació clara*. Barcelona: Generalitat de Catalunya.
+- Inclusion Europe (2009). *Information for All: European Standards for Making Information Easy to Read and Understand*. Brussel·les: Inclusion Europe.
+- ONU (2006). *Convenció sobre els Drets de les Persones amb Discapacitat*, art. 9. Nova York: Nacions Unides.
 
-> ⚠️ Fonts pendents de verificació manual. Les fonts indicades provenen directament dels PDFs ingestats al corpus.
-
-**Fonts verificades del corpus:**
-
-- AENOR. (2018). *UNE 153101 EX. Lectura Fácil. Pautas y recomendaciones para la elaboración de documentos.* Asociación Española de Normalización.
-
-- Ajuntament de Barcelona. Gerència Municipal. (2022). *Siguem clars. Guia de comunicació clara per a administracions.* Ajuntament de Barcelona. http://hdl.handle.net/11703/128460
-
----
 
 ## 6. INSTRUCCIONS PER NIVELL MECR — BLOCS D'ADAPTACIÓ
 
