@@ -7,8 +7,6 @@ review_status: esborrany
 generat_at: 2026-03-21T09:11:07
 ---
 
-# 1. CONTINGUT ESPECÍFIC
-
 ## Marc normatiu i abast
 El Reglament (UE) 2024/1689 del Parlament Europeu i del Consell, de 13 de juny de 2024, conegut com a Llei d'IA (AI Act), estableix normes harmonitzades per al desenvolupament, la introducció al mercat, la posada en servei i la utilització de sistemes d'intel·ligència artificial a la Unió Europea (DOC 25). El seu objectiu principal és promoure una IA centrada en l'ésser humà i fiable, garantint un alt nivell de protecció de la salut, la seguretat i els drets fonamentals, alhora que impulsa la innovació. Aquest reglament s'aplica a proveïdors i responsables del desplegament de sistemes d'IA dins de la UE, així com a aquells que operen fora de la UE però els seus sistemes afecten persones dins del territori comunitari.
 
@@ -64,29 +62,62 @@ Les obligacions varien segons el rol (proveïdor o responsable del desplegament)
 | Vigilància postcomercialització | Art. 73 | Proveïdor |
 | Gestió d'incidents greus | Art. 73.4 | Proveïdor (notificar en 15 dies) |
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 5. FONTS DEL CORPUS
+- **`M8_etica-algoritmica-biaixos.md`** — El RIA és l'expressió legal dels principis d'ètica algorísmica: els requisits de transparència, gestió de riscos i vigilància humana tradueixen principis ètics en obligacions jurídiques
+- **`M8_GDPR-privacitat-centre.md`** — GDPR i RIA son complementaris: els sistemes IA d'alt risc en educació requereixen avaluació d'impacte EIPD (GDPR Art. 35) coordinada amb els requisits del RIA
+- **`M8_ciberseguretat-agents.md`** — El RIA exigeix ciberseguretat com a requisit dels sistemes d'alt risc (Art. 15): un agent IA sense mesures robustes de seguretat incompleix el Reglament
+- **`M5_disseny-instruccional-amb-IA.md`** — El disseny instruccional ha de classificar el risc del sistema IA usat: plataformes d'avaluació adaptativa o detecció de necessitats poden ser d'alt risc sota l'Annex III RIA
+- **`M0_marc-institucional-IA.md`** — El marc institucional IA de FJE incorpora els graus N0-N5 de delegació; el RIA imposa límits als graus N4-N5 per a tasques d'alt risc sense vigilància humana activa
+- **`M9_decrets-inclusio-ordenacio.md`** — La normativa educativa d'inclusió interactua amb el RIA: sistemes de detecció de NEE o predicció d'abandonament son d'alt risc (Annex III, punt 5.d) i requereixen conformitat
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Guies | https://aesia.digital.gob.es/ca/guies |
-| 2 | 02-guia-practica-y-ejemplos-para-entender-el-regla_b8b2002d1e.pdf | https://aesia.digital.gob.es/storage/media/02-guia-practica-y-ejemplos-para-entender-el-reglamento-de-ia.pdf |
-| 3 | 05-guia-de-gestion-de-riesgos_b38fc3d568.pdf | https://aesia.digital.gob.es/storage/media/05-guia-de-gestion-de-riesgos.pdf |
-| 4 | 08-guia-transparencia_7d24b0a27a.pdf | https://aesia.digital.gob.es/storage/media/08-guia-transparencia.pdf |
-| 5 | 06-guia-vigilancia-humana_e0b9c9ce99.pdf | https://aesia.digital.gob.es/storage/media/06-guia-vigilancia-humana.pdf |
-| 6 | 07-guia-de-datos-y-gobernanza-de-datos_4f545c3b5c.pdf | https://aesia.digital.gob.es/storage/media/07-guia-de-datos-y-gobernanza-de-datos.pdf |
-| 7 | 01-guia-introductoria-al-reglamento-de-ia-17708029_894c9a5126.pdf | https://aesia.digital.gob.es/storage/media/01-guia-introductoria-al-reglamento-de-ia-1770802981.pdf |
-| 8 | 09-guia-de-precision_37e49ca368.pdf | https://aesia.digital.gob.es/storage/media/09-guia-de-precision.pdf |
-| 9 | 10-guia-solidez_12ba26b2bf.pdf | https://aesia.digital.gob.es/storage/media/10-guia-solidez.pdf |
-| 10 | 11-guia-ciberseguridad_5bef0f4208.pdf | https://aesia.digital.gob.es/storage/media/11-guia-ciberseguridad.pdf |
-| 11 | 13-guia-vigilancia-poscomercializacion_b8d4d86c12.pdf | https://aesia.digital.gob.es/storage/media/13-guia-vigilancia-poscomercializacion.pdf |
-| 12 | 15-guia-documentacion-tecnica_db941d796a.pdf | https://aesia.digital.gob.es/storage/media/15-guia-documentacion-tecnica.pdf |
-| 13 | 14-guia-gestion-de-incidentes_27a5897691.pdf | https://aesia.digital.gob.es/storage/media/14-guia-gestion-de-incidentes.pdf |
-| 14 | 12-guia-de-registros_449eaa3be7.pdf | https://aesia.digital.gob.es/storage/media/12-guia-de-registros.pdf |
-| 15 | 03-guia-evaluacion-de-conformidad_ec89704013.pdf | https://aesia.digital.gob.es/storage/media/03-guia-evaluacion-de-conformidad.pdf |
-| 16 | 16-manual-de-checklist-de-guias-de-requisitos_1b2c6da0b4.pdf | https://aesia.digital.gob.es/storage/media/16-manual-de-checklist-de-guias-de-requisitos.pdf |
-| 17 | 04-guia-del-sistema-de-gestion-de-la-calidad_c0544de457.pdf | https://aesia.digital.gob.es/storage/media/04-guia-del-sistema-de-gestion-de-la-calidad.pdf |
-| 25 | OJ_L_202401689_ES_TXT | file://upload/OJ_L_202401689_ES_TXT.pdf |
+## 4. Detecció
 
-*18 documents citats de 25 al corpus · secció generada automàticament*
+### Senyals del docent
+
+- El centre vol implementar o ja utilitza una eina IA que avalua, puntua o classifica alumnes (potencial alt risc sota el RIA, Annex III punt 5).
+- El proveïdor d'una plataforma IA no facilita les instruccions d'ús amb informació sobre capacitats i limitacions (incompliment potencial RIA Art. 13).
+- El centre vol saber si una plataforma IA necessita registre a la base de dades europea de la UE (Art. 49).
+- S'ha detectat o notificat un incident greu d'un sistema IA en ús (obligació de notificació Art. 73.4 en 15 dies).
+- El claustre vol elaborar o revisar la Política d'Ús de la IA amb base en el marc legal europeu vigent.
+
+### Senyals de l'alumne
+
+- L'alumne pregunta per quin motiu ha estat classificat, derivat o avaluat per un sistema automatitzat del centre.
+- Un alumne o família vol saber si el centre utilitza sistemes IA que prenen decisions sobre l'itinerari educatiu.
+- Es demana accés a la informació tractada per un sistema IA del centre (dret GDPR complementari).
+
+### Senyals de context
+
+- Procés de licitació o contractació de plataformes IA per al centre educatiu.
+- Auditoria de conformitat del Pla Digital de Centre amb el marc legal europeu.
+- Comunicació del Delegat de Protecció de Dades (DPD) sobre sistemes d'alt risc identificats.
+- Formació del claustre sobre IA i marc legal: GDPR, RIA, AI Literacy.
+
+### Anti-senyals
+
+- Ús d'eines IA de risc mínim (assistents de redacció, traductors automàtics) sense component de decisió sobre alumnes.
+- Consulta sobre normativa educativa catalana general sense relació amb sistemes IA.
+- Debat sobre eines analògiques o processos de gestió sense component tecnològic.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- **Classifica el risc primer.** Abans d'implementar qualsevol sistema IA, identifica si és d'alt risc (Annex III RIA punt 5: avaluació d'aprenentatge, detecció de necessitats, predicció d'abandonament, supervisió de conducta). Si ho és, requereix conformitat prèvia, no a posteriori.
+- **Exigeix transparència al proveïdor.** El RIA obliga el proveïdor a facilitar instruccions d'ús clares (Art. 13). Si no les facilita, el centre com a responsable del desplegament pot incórrer en responsabilitat legal. Documenta les sol·licituds.
+- **Vigilància humana és obligatòria.** Per a sistemes d'alt risc, el centre ha de garantir que un humà pugui intervenir, corregir o aturar el sistema (Art. 14). No es pot delegar completament la decisió a la IA en cap cas d'alt risc.
+- **Consulta el DPD davant el dubte.** Davant qualsevol incertesa sobre el nivell de risc, l'obligació de notificació d'incidents o la necessitat de registre a la UE, el Delegat de Protecció de Dades és el primer punt de contacte.
+
+#### Heurístiques per a l'alumne
+
+- **Tens dret a supervisió humana.** Si una decisió sobre el teu itinerari educatiu ha estat presa o influenciada per un sistema IA d'alt risc, tens dret a demanar que un humà la revisi. Cap IA pot ser l'única instància de decisió sobre la teva educació.
+- **Pots preguntar i obtenir resposta.** El centre ha de poder explicar per quin sistema IA i amb quins criteris s'ha pres qualsevol decisió que t'afecti significativament. Si no rep resposta, l'alumne pot dirigir-se al DPD.
+
+## 5. Fonts
+
+- Reglament (UE) 2024/1689 del Parlament Europeu i del Consell, de 13 de juny de 2024, sobre la intel·ligència artificial (Llei IA / AI Act). DOUE L 2024/1689.
+- AESIA (2024). *Guia introductòria al Reglament d'Intel·ligència Artificial*. Agencia Española de Supervisión de la Inteligencia Artificial. https://aesia.digital.gob.es/storage/media/01-guia-introductoria-al-reglamento-de-ia-1770802981.pdf
+- AESIA (2024). *Guia d'avaluació de conformitat (sistemes d'alt risc)*. Agencia Española de Supervisión de la Inteligencia Artificial.
+- Autoritat Catalana de Protecció de Dades (APDCAT) (2024). *Nota informativa sobre el Reglament IA: implicacions per a entitats del sector públic*. Barcelona.
+- Reglament (UE) 2016/679 (RGPD), Article 35: Avaluació d'Impacte relativa a la Protecció de Dades. DOUE L 119/1.

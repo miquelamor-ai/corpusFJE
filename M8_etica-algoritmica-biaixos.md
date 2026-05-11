@@ -83,34 +83,62 @@ L'ús de sistemes d'IA en educació, si no es gestiona amb una ètica algorísmi
 *   **No proporcionar informació clara i accessible sobre el funcionament, les capacitats i les limitacions dels sistemes d'IA als docents, alumnes i famílies.**
     *   **Per què NO fer-ho**: La transparència és un requisit fonamental del Reglament d'IA (Doc 4, 23).
 
-## 5. FONTS DEL CORPUS
+## 3. Connexions amb altres documents del corpus
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Guies | https://aesia.digital.gob.es/ca/guies |
-| 2 | 02-guia-practica-y-ejemplos-para-entender-el-regla_b8b2002d1e.pdf | https://aesia.digital.gob.es/storage/media/02-guia-practica-y-ejemplos-para-entender-el-reglamento-de-ia.pdf |
-| 3 | 05-guia-de-gestion-de-riesgos_b38fc3d568.pdf | https://aesia.digital.gob.es/storage/media/05-guia-de-gestion-de-riesgos.pdf |
-| 4 | 08-guia-transparencia_7d24b0a27a.pdf | https://aesia.digital.gob.es/storage/media/08-guia-transparencia.pdf |
-| 5 | 06-guia-vigilancia-humana_e0b9c9ce99.pdf | https://aesia.digital.gob.es/storage/media/06-guia-vigilancia-humana.pdf |
-| 6 | 07-guia-de-datos-y-gobernanza-de-datos_4f545c3b5c.pdf | https://aesia.digital.gob.es/storage/media/07-guia-de-datos-y-gobernanza-de-datos.pdf |
-| 7 | 01-guia-introductoria-al-reglamento-de-ia-17708029_894c9a5126.pdf | https://aesia.digital.gob.es/storage/media/01-guia-introductoria-al-reglamento-de-ia-1770802981.pdf |
-| 8 | 09-guia-de-precision_37e49ca368.pdf | https://aesia.digital.gob.es/storage/media/09-guia-de-precision.pdf |
-| 9 | 10-guia-solidez_12ba26b2bf.pdf | https://aesia.digital.gob.es/storage/media/10-guia-solidez.pdf |
-| 10 | 11-guia-ciberseguridad_5bef0f4208.pdf | https://aesia.digital.gob.es/storage/media/11-guia-ciberseguridad.pdf |
-| 11 | 13-guia-vigilancia-poscomercializacion_b8d4d86c12.pdf | https://aesia.digital.gob.es/storage/media/13-guia-vigilancia-poscomercializacion.pdf |
-| 12 | 15-guia-documentacion-tecnica_db941d796a.pdf | https://aesia.digital.gob.es/storage/media/15-guia-documentacion-tecnica.pdf |
-| 13 | 14-guia-gestion-de-incidentes_27a5897691.pdf | https://aesia.digital.gob.es/storage/media/14-guia-gestion-de-incidentes.pdf |
-| 14 | 12-guia-de-registros_449eaa3be7.pdf | https://aesia.digital.gob.es/storage/media/12-guia-de-registros.pdf |
-| 15 | 03-guia-evaluacion-de-conformidad_ec89704013.pdf | https://aesia.digital.gob.es/storage/media/03-guia-evaluacion-de-conformidad.pdf |
-| 16 | 16-manual-de-checklist-de-guias-de-requisitos_1b2c6da0b4.pdf | https://aesia.digital.gob.es/storage/media/16-manual-de-checklist-de-guias-de-requisitos.pdf |
-| 17 | 04-guia-del-sistema-de-gestion-de-la-calidad_c0544de457.pdf | https://aesia.digital.gob.es/storage/media/04-guia-del-sistema-de-gestion-de-la-calidad.pdf |
-| 18 | 05.01 Ejemplo ilustrativo del desarrollo de un sistema de gestión de riesgos | file://upload/05.01 Ejemplo ilustrativo del desarrollo de un sistema de gestión de riesgos.xlsx |
-| 19 | Ciberseguridad_Checklist | file://upload/Ciberseguridad_Checklist.xlsx |
-| 20 | Precision_Checklist | file://upload/Precision_Checklist.xlsx |
-| 21 | Registros_Checklist | file://upload/Registros_Checklist.xlsx |
-| 22 | Solidez_Checklist | file://upload/Solidez_Checklist.xlsx |
-| 23 | Transparencia_Checklist | file://upload/Transparencia_Checklist.xlsx |
-| 24 | Vigilancia Poscomercializacion_Checklist | file://upload/Vigilancia Poscomercializacion_Checklist.xlsx |
-| 25 | OJ_L_202401689_ES_TXT | file://upload/OJ_L_202401689_ES_TXT.pdf |
+- **`M8_reglament-europeu-IA-RIA.md`** — El RIA és l'expressió legal dels principis d'ètica algorísmica: els requisits de transparència, gestió de riscos i vigilància humana es deriven directament dels principis ètics
+- **`M8_GDPR-privacitat-centre.md`** — La protecció de dades és un dels fonaments de l'ètica algorísmica: qualitat de dades, traçabilitat i dret a no-discriminació son principis comuns als dos marcs
+- **`M0_marc-institucional-IA.md`** — El marc institucional IA de FJE s'alinea amb els principis d'ètica algorísmica: l'enfocament 4D incorpora vigilància humana com a requisit no negociable
+- **`M5_disseny-instruccional-amb-IA.md`** — El disseny instruccional amb IA ha d'incorporar auditoria de biaixos: els criteris del protocol inclouen verificació d'equitat i transparència algorísmica
+- **`M1_model-caracteritzacio-diversitat.md`** — L'equitat algorísmica és especialment crítica per a l'alumnat divers: sistemes entrenats amb dades no representatives amplifiquen les desigualtats existents
+- **`M8_ciberseguretat-agents.md`** — La ciberseguretat és un dels sis principis d'ètica algorísmica del RIA: un sistema IA insegur no pot ser fiable, transparent ni equitatiu
 
-*25 documents font · secció generada automàticament*
+## 4. Detecció
+
+### Senyals del docent
+
+- El centre vol implementar un sistema IA per a personalització, avaluació adaptativa o detecció de necessitats, i es pregunta si és equitatiu o pot discriminar.
+- El docent ha rebut recomanacions d'una eina IA que considera injustes o esbiaixades per a determinats alumnes (per origen, gènere, NEE).
+- El claustre debat si un sistema de detecció d'abandonament o de plagi pot ser discriminatori o no equitatiu.
+- Es vol fer una auditoria de l'impacte d'un sistema IA ja implementat al centre.
+- El centre ha rebut notificació que una plataforma en ús és d'alt risc sota el Reglament Europeu d'IA.
+
+### Senyals de l'alumne
+
+- L'alumne percep que les recomanacions d'una eina IA no s'ajusten a les seves necessitats reals o reflecteixen estereotips.
+- L'alumne pregunta per quin motiu el sistema l'ha classificat, agrupat o avaluat d'una determinada manera.
+- L'alumne vol saber quines dades personals alimenten les recomanacions que rep de les plataformes del centre.
+
+### Senyals de context
+
+- Procés de selecció o renovació de plataformes IA al centre (avaluació de proveïdors).
+- Formació del claustre sobre competència digital o IA responsable i legal.
+- Elaboració o revisió del Pla Digital de Centre o de la Política d'Ús de la IA.
+- Incident o queixa relacionada amb un resultat considerat injust o discriminatori d'un sistema automatitzat.
+
+### Anti-senyals
+
+- Debat filosòfic general sobre ètica de la IA sense cap sistema concret en joc al centre.
+- Consulta sobre eines digitals que no impliquen decisions automatitzades sobre alumnes.
+- Questions sobre eines d'accessibilitat o productivitat sense component de presa de decisions.
+
+### Heurístiques
+
+#### Heurístiques per al docent
+
+- **La transparència és un prerequisit.** Abans d'implementar qualsevol sistema IA, el docent ha de poder explicar als alumnes i famílies com funciona, quines dades utilitza i com es prenen les decisions. Si el proveïdor no facilita aquesta informació, és una bandera vermella.
+- **Auditoria primer, implementació després.** Per a sistemes d'alt risc (avaluació, detecció de necessitats, predicció d'abandonament), cal avaluar els biaixos potencials ABANS del desplegament, no a posteriori. Demanar al proveïdor la documentació tècnica sobre les dades d'entrenament i l'equitat dels resultats.
+- **La decisió final és sempre humana.** Cap sistema IA pot ser l'última instància en decisions que afecten l'alumnat (qualificació, derivació a suport, identificació de NEE). El docent assumeix la responsabilitat de la decisió, la IA és suport informatiu.
+- **Diversitat de dades com a criteri de selecció.** En avaluar sistemes IA, verificar que les dades d'entrenament inclouen diversitat de gènere, origen, llengua i context socioeconòmic. Sistemes entrenats en contextos homogenis fallen en contextos diversos.
+
+#### Heurístiques per a l'alumne
+
+- **Tens dret a saber per qué.** Si un sistema IA t'ha avaluat, classificat o recomanat alguna cosa, tens dret a demanar una explicació al docent o al centre. El GDPR Art. 22 protegeix el dret a no ser sotmès a decisions exclusivament automatitzades amb efectes significatius.
+- **El teu feedback detecta biaixos.** Si consideres que la recomanació d'un sistema IA no t'encaixa o és injusta, fes-ho saber. El teu feedback és essencial per detectar biaixos que el sistema no pot identificar per si sol.
+
+## 5. Fonts
+
+- Reglament (UE) 2024/1689 del Parlament Europeu i del Consell, de 13 de juny de 2024, sobre la intel·ligència artificial (Llei IA / AI Act). DOUE L 2024/1689.
+- AESIA (2024). *Guia pràctica i exemples per entendre el Reglament d'Intel·ligència Artificial*. Agencia Española de Supervisión de la Inteligencia Artificial. https://aesia.digital.gob.es/storage/media/02-guia-practica-y-ejemplos-para-entender-el-reglamento-de-ia.pdf
+- AESIA (2024). *Guia de gestió de riscos (prEN 18228)*. Agencia Española de Supervisión de la Inteligencia Artificial.
+- ISO/IEC 24027:2021. *Information Technology — Artificial Intelligence (AI) — Bias in AI systems and AI-aided decision making*. Ginebra: ISO.
+- Mitchell, M., et al. (2019). Model Cards for Model Reporting. *Proceedings of the ACM Conference on Fairness, Accountability, and Transparency*, 220–229.

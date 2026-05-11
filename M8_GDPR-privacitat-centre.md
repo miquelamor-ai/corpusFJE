@@ -9,8 +9,6 @@ generat_at: 2026-03-21T20:12:46
 
 # GDPR i Privacitat al Centre
 
-## 1. CONTINGUT ESPECÍFIC DEL TIPUS "NORMATIVA"
-
 ### Marc normatiu i abast
 La protecció de dades personals al centre educatiu es regeix principalment per dues normatives clau: el **Reglament (UE) 2016/679 del Parlament Europeu i del Consell, de 27 d'abril de 2016, relatiu a la protecció de les persones físiques en el que respecta al tractament de dades personals i a la lliure circulació d'aquestes dades (Reglament General de Protecció de Dades o RGPD)** i la **Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i garantia dels drets digitals (LOPDGDD)**. Aquestes normes s'apliquen a qualsevol tractament de dades personals que realitzi el centre, ja siguin d'alumnes, famílies, docents o personal d'administració i serveis. L'objectiu és garantir el dret fonamental a la protecció de dades, assegurant la privacitat i la seguretat de la informació.
 
@@ -123,51 +121,47 @@ Totes aquestes disposicions formen un corpus normatiu complex que el centre ha d
 *   **Les eines de l'AEPD garanteixen el compliment automàtic:** Eines com "Facilita RGPD" o "Gestiona RGPD" són ajudes per a la comprensió i l'abordatge inicial de les obligacions. La seva utilització no suposa el compliment automàtic ni la realització d'una gestió de risc o EIPD completa. El responsable del tractament ha de fer les adaptacions necessàries de forma particularitzada per a cada tractament.
 *   **La IA fa la feina, la privacitat és cosa del proveïdor:** L'ús de sistemes d'Intel·ligència Artificial (IA) en el centre implica que el centre és responsable del tractament de les dades que es processen. Cal revisar les condicions del servei, assegurar que no es pugen dades personals sensibles sense control i que la IA respecta la privacitat de tercers. L'AEPD adverteix sobre els riscos de pèrdua de control, retenció de dades i finalitats pròpies dels proveïdors d'IA.
 
----
+## 3. Connexions amb altres documents del corpus
 
-## 2. CONNEXIONS AMB ALTRES DOCUMENTS DEL CORPUS
+- **`M8_reglament-europeu-IA-RIA.md`** — El RIA complementa el GDPR: els sistemes IA d'alt risc en educació requereixen avaluació d'impacte (GDPR Art. 35) i vigilància humana coordinada amb el RIA
+- **`M8_etica-algoritmica-biaixos.md`** — Els biaixos algorísmics son un risc per als drets del GDPR: equitat algorísmica, traçabilitat i qualitat de dades son principis comuns a ambdós marcs
+- **`M8_ciberseguretat-agents.md`** — GDPR i ciberseguretat son inseparables: una bretxa de seguretat activa el protocol de notificació obligatòria del GDPR (72 hores a l'AEPD, Art. 33-34)
+- **`M9_drets-alumnat.md`** — Els drets GDPR (accés, rectificació, supressió) complementen els drets educatius del menor: l'alumnat i les famílies son titulars de drets exercibles davant el centre
+- **`M5_accessibilitat-digital.md`** — Les eines d'accessibilitat digital gestionen dades sensibles d'alumnat NESE: cal verificar la conformitat RGPD de cada plataforma antes d'implementar-la
+- **`M9_decrets-inclusio-ordenacio.md`** — La normativa d'inclusió genera tractament de dades sensibles de salut i NEE: el GDPR exigeix base legal específica i mesures reforçades per a aquestes categories
 
-*   **Eina: Registre d'Activitats de Tractament (RAT)**: Explica com documentar els tractaments de dades personals del centre, una obligació clau del RGPD.
-*   **Eina: Avaluació d'Impacte en la Protecció de Dades (EIPD)**: Detalla el procés per analitzar els riscos dels tractaments de dades, especialment els d'alt risc, com exigeix el RGPD.
-*   **Eina: Gestió de Bretxes de Seguretat**: Guia sobre com actuar davant un incident de seguretat que afecti dades personals, complint amb els articles 33 i 34 del RGPD.
-*   **Eina: Delegat de Protecció de Dades (DPD)**: Descriu el rol i les funcions del DPD, figura obligatòria per als centres educatius segons la LOPDGDD.
-*   **Estratègia: Ús Ètic de la IA a l'Aula**: Aprofundeix en les consideracions ètiques i de privacitat en la implementació de la IA, directament relacionat amb el tractament de dades personals i la protecció de menors.
-*   **Perfil: Alumnat amb Necessitats Educatives Especials (NEE)**: Aborda la gestió de dades sensibles (salut, diagnòstics) d'aquest alumnat, que requereix una protecció reforçada segons el RGPD.
-*   **Marc: Ciberseguretat al Centre**: Complementa la protecció de dades amb mesures tècniques per garantir la integritat i confidencialitat de la informació.
-*   **Estratègia: Comunicació amb Famílies**: Inclou aspectes sobre com informar les famílies sobre el tractament de dades dels seus fills i obtenir els consentiments necessaris.
+## 4. Detecció
 
-## 3. DETECCIÓ (Variables de Context)
-
-**Senyals del docent**
+### Senyals del docent
 *   "Necessito recollir dades de salut dels meus alumnes per a una excursió, com ho faig?"
 *   "Vull publicar fotos de la festa de final de curs a la web del centre, puc fer-ho sense més?"
 *   "Estem pensant en utilitzar una nova aplicació educativa, hem de fer alguna cosa a nivell de privacitat?"
 *   "Un pare m'ha demanat que esborri totes les fotos del seu fill de l'arxiu del centre, és possible?"
 *   "He rebut un correu electrònic massiu amb les adreces de tots els pares visibles, què ha passat?"
 
-**Senyals de l'alumne**
+### Senyals de l'alumne
 *   "No vull que la meva foto surti a la revista de l'escola."
 *   "La meva informació personal està en un grup de WhatsApp de la classe sense el meu permís."
 *   "M'han demanat moltes dades per a un projecte i no sé per a què les utilitzaran."
 
-**Senyals de context**
+### Senyals de context
 *   Implementació d'una nova plataforma digital o eina tecnològica.
 *   Realització d'activitats que impliquen la recollida de dades personals sensibles (salut, NEE).
 *   Preparació de materials de difusió o comunicació amb imatges d'alumnes.
 *   Incident de seguretat informàtica o accés no autoritzat a dades.
 *   Reclamació o consulta d'un membre de la comunitat educativa sobre les seves dades.
 
-**Anti-senyals**
+### Anti-senyals
 *   Consulta sobre dades estadístiques o agregades que no permeten la identificació de persones.
 *   Ús de materials o recursos didàctics que no impliquen la recollida ni el tractament de dades personals.
 *   Preguntes sobre informació ja anonimitzada o pseudonimitzada de manera irreversible.
 *   Situacions on la informació personal es comparteix en un context estrictament privat i sense implicació del centre.
 
-## 4. HEURÍSTIQUES I RAONAMENT PER A L'AGENT
+### Heurístiques
 
 **Principi general:** Prioritzar la privacitat i seguretat de les dades personals, especialment les dels menors, garantint la transparència i el compliment normatiu en totes les accions del centre.
 
-### Heurístiques per a l'Agent DOCENT
+#### Heurístiques per al docent
 
 1.  **Heurística: "Base legal clara, abans de recollir qualsevol dada."**
     *   **Quan aplica:** Sempre que un docent necessiti recollir, utilitzar o compartir dades personals d'alumnes, famílies o companys.
@@ -194,7 +188,7 @@ Totes aquestes disposicions formen un corpus normatiu complex que el centre ha d
     *   **Fonament:** El Delegat de Protecció de Dades (DPD) és el punt de contacte i assessor intern en matèria de protecció de dades (RGPD, Art. 39).
     *   **Exemple complet de raonament:** Un docent s'adona que ha enviat per error un correu electrònic amb una llista de correus de pares a tots els destinataris en "CC" en lloc de "CCO", revelant les adreces de correu electrònic de tots. L'agent, en ser alertat, raonaria que això constitueix una possible bretxa de seguretat de dades personals. La primera acció seria notificar immediatament el Delegat de Protecció de Dades (DPD) del centre, ja que ell és el responsable d'avaluar el risc i decidir si cal notificar l'incident a l'AEPD i/o als interessats en un termini de 72 hores (RGPD, Art. 33 i 34). L'agent subratllaria la importància de no intentar gestionar la situació pel seu compte i de seguir el protocol establert pel centre per a aquests casos.
 
-### Heurístiques per a l'Agent ALUMNE
+#### Heurístiques per a l'alumne
 
 1.  **Heurística: "Pensa abans de compartir: la teva privacitat és important."**
     *   **Quan aplica:** Quan un alumne interactua en línia, comparteix informació personal o imatges, o utilitza noves aplicacions.
@@ -210,40 +204,11 @@ Totes aquestes disposicions formen un corpus normatiu complex que el centre ha d
     *   **Quan aplica:** Quan un alumne utilitza eines d'Intel·ligència Artificial (IA) per a tasques acadèmiques o personals.
     *   **Fonament:** L'AEPD adverteix sobre els riscos de la IA, incloent la possible manipulació, biaixos i la necessitat de mantenir una postura crítica (DOC 38, 49, 50).
     *   **Exemple complet de raonament:** Un alumne utilitza una IA generativa per fer un treball escolar i introdueix informació personal sensible sobre ell mateix o els seus amics per obtenir respostes més "personalitzades". L'agent, en una discussió sobre l'ús de la IA, raonaria que aquesta pràctica és arriscada. Aconsellaria a l'alumne que no introdueixi informació personal o sensible a la IA, ja que aquesta informació pot ser utilitzada per l'eina per a les seves pròpies finalitats (entrenament, perfilatge) o podria ser exposada en una bretxa de seguretat. L'agent emfatitzaria que la IA pot generar contingut que sembla real però que és fals ("fake news") o esbiaixat, i que l'alumne ha de mantenir sempre un esperit crític i verificar la informació, utilitzant la IA com a suport i no com a font única de veritat o com a confident personal.
----
 
-## 5. FONTS DEL CORPUS
+## 5. Fonts
 
-| # | Títol | URL |
-|---|-------|-----|
-| 1 | Criterios jurídicos — AEPD | https://www.aepd.es/informes-y-resoluciones/criterios-juridicos-aepd |
-| 2 | ¿Debe la inteligencia artificial entender el ejercicio de un derecho de protección de datos? — AEPD | https://www.aepd.es/informes-y-resoluciones/criterios-juridicos-aepd/debe-la-ia-entender-el-ejercicio-de-un-derecho-proteccion-de-datos |
-| 3 | Herramientas de data scraping para la evaluación de tendencias — AEPD | https://www.aepd.es/informes-y-resoluciones/criterios-juridicos-aepd/herramientas-data-scraping-para-evaluacion-de-tendencias |
-| 4 | Derecho de supresión para actividades públicas — AEPD | https://www.aepd.es/informes-y-resoluciones/criterios-juridicos-aepd/derecho-de-supresion-para-actividades-publicas |
-| 5 | ¿Cómo elaborar el RAT? — AEPD | https://www.aepd.es/preguntas-frecuentes/2-tus-obligaciones-como-responsable-del-tratamiento/7-registro-de-actividades-de-tratamiento/FAQ-0250-como-elaborar-el-rat |
-| 6 | Gestiona RGPD — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/gestiona2 |
-| 7 | ValidaCripto RGPD — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/validacripto-rgpd |
-| 8 | Facilita RGPD — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/facilita-rgpd |
-| 9 | Facilita EMPRENDE — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/facilita-emprende |
-| 10 | Asesora Brecha — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/asesora-brecha |
-| 11 | Canal del DPD — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/canalDPD |
-| 12 | Comunica-Brecha RGPD — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/comunica-brecha-rgpd |
-| 13 | Evalúa-Riesgo RGPD v2 — AEPD | https://www.aepd.es/guias-y-herramientas/herramientas/evalua-riesgo-rgpd |
-| 19 | resolucion-aprobacion-cc.0004.2018-autocontrol_7fe2335c06.pdf | https://www.aepd.es/documento/resolucion-aprobacion-cc.0004.2018-autocontrol.pdf |
-| 20 | resolucion-modificacion-cc.0004.2018-autocontrol_51ff084bee.pdf | https://www.aepd.es/documento/resolucion-modificacion-cc.0004.2018-autocontrol.pdf |
-| 36 | ayuda-rgpd-pymes-autonomos_21ee716c33.pdf | https://www.aepd.es/infografias/ayuda-rgpd-pymes-autonomos.pdf |
-| 38 | recomendaciones-ia-info_72c4d5a99f.pdf | https://www.aepd.es/infografias/recomendaciones-ia-info.pdf |
-| 41 | ai-00385-2024_2611f186fd.pdf | https://www.aepd.es/documento/ai-00385-2024.pdf |
-| 42 | pd-00040-2026_bb7eaa6e20.pdf | https://www.aepd.es/documento/pd-00040-2026.pdf |
-| 43 | ps-00524-2025_2a6a9ce358.pdf | https://www.aepd.es/documento/ps-00524-2025.pdf |
-| 44 | pd-00044-2026_83f7b94a98.pdf | https://www.aepd.es/documento/pd-00044-2026.pdf |
-| 45 | ps-00200-2024_1b6428366d.pdf | https://www.aepd.es/documento/ps-00200-2024.pdf |
-| 46 | reposicion-ps-00164-2025_e5c825bb75.pdf | https://www.aepd.es/documento/reposicion-ps-00164-2025.pdf |
-| 47 | pd-00043-2026_d9b8c24881.pdf | https://www.aepd.es/documento/pd-00043-2026.pdf |
-| 48 | pd-00312-2025_8428da413a.pdf | https://www.aepd.es/documento/pd-00312-2025.pdf |
-| 49 | proyecto-circular-opiniones-politicas-tramite-de-a_f64440f99b.pdf | https://www.aepd.es/documento/proyecto-circular-opiniones-politicas-tramite-de-audiencia.pdf |
-| 50 | recomendaciones-ia-aepd_a8bcee43c2.pdf | https://www.aepd.es/guias/recomendaciones-ia-aepd.pdf |
-| 52 | guia-cifrado-autonomos-pymes_e6904aa4a9.pdf | https://www.aepd.es/guias/guia-cifrado-autonomos-pymes.pdf |
-| 55 | gestion-riesgo-y-evaluacion-impacto-en-tratamiento_9b611c1bcb.pdf | https://www.aepd.es/documento/gestion-riesgo-y-evaluacion-impacto-en-tratamientos-datos-personales.pdf |
-
-*29 documents citats de 55 al corpus · secció generada automàticament*
+- Reglament (UE) 2016/679 del Parlament Europeu i del Consell, de 27 d'abril de 2016, relatiu a la protecció de les persones físiques pel que fa al tractament de dades personals (RGPD). DOUE L 119/1.
+- Llei Orgànica 3/2018, de 5 de desembre, de Protecció de Dades Personals i Garantia dels Drets Digitals (LOPDGDD). BOE núm. 294.
+- Agencia Española de Protección de Datos (AEPD). *Guies i eines per al compliment del RGPD*. www.aepd.es
+- Autoritat Catalana de Protecció de Dades (APDCAT). *Guia per a entitats del sector públic català*. Barcelona.
+- Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): protecció de dades*. Generalitat de Catalunya.
