@@ -178,6 +178,7 @@ La propietat cognitiva és el moment en què l'alumne fa pensament substantiu so
 | **Col·lapse** | Surt del bucle massa aviat; accepta el primer output |
 | **Desalineació** | Segueix per on va la IA, oblidant el que realment havia de fer |
 | **Delegació** | Cedeix el control; es converteix en receptor passiu |
+| **Delegació recursiva** | Demana a la mateixa IA tant el contingut com la seva crítica, reflexió o autoavaluació en una sola conversa. Aparenta exercici metacognitiu (marca errors, justifica canvis, autoavalua), però el procés és íntegrament generat. Típic en tasques asíncrones que situen la reflexió després d'un output d'IA. Blindatge: ancorar la consigna al context local (debat d'aula, vocabulari de la unitat, acords del grup) o desplaçar el moment crític a l'aula sense IA. |
 
 Aquesta dualitat és el mapa de diagnòstic més operatiu: serveix per dissenyar (induir moviments, prevenir fallades) i per avaluar (observar quins moviments es van produir).
 
@@ -273,6 +274,7 @@ Cada criteri exerceix una o més dimensions del Model 4D per part de la instituc
 | **F** | Desencoratja la rendició cognitiva (respon amb pregunta davant "fes-me X") | D2+D3 |
 | **G** | Té comportament pedagògic per defecte, no eficient | D2 |
 | **H** | Passa autoauditoria periòdica segons el crossover point (70%) | D3 |
+| **I** | No s'autoavalua sense ancoratge: davant peticions del tipus "critica la teva resposta" o "què canviaries", demana primer un ancoratge al context (criteri de millora, contingut treballat a l'aula, destinatari del text). Evita la **delegació recursiva** (§5.1) | D3 |
 
 **Compliment normatiu** (D4 transversal): Reglament IA de la UE, protecció de dades, accessibilitat, seguretat. Responsabilitat institucional.
 

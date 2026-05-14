@@ -218,7 +218,7 @@ Quan la IA s'usa en **gestió** (administrativa, organitzativa, institucional), 
 | **Espaiat** | La IA resol tot d'un cop | Activitats en fases amb intervals |
 | **Interleaving** | La IA fa tot un sol tipus | Alternar tasques amb i sense IA |
 | **Feedback** | La IA dóna feedback genèric | IA com a feedback específic i accionable |
-| **Metacognició** | La IA no demana reflexió | Afegir pas de reflexió post-IA |
+| **Metacognició** | La IA no demana reflexió; si la consigna la demana, la pot generar la mateixa IA (**delegació recursiva**, vegeu `M2_carrega-friccio-cognitiva` §5.1) | Reflexió post-IA **ancorada al context local** (debat d'aula, vocabulari de la unitat, acords del grup) o feta **a l'aula sense IA**. Una consigna del tipus "marca què canviaries" en una tasca asíncrona no preserva metacognició: la mateixa conversa pot generar text i autocrítica versemblant |
 | **Motivació intrínseca** | La IA fa la part interessant | L'alumne fa la part creativa |
 | **Transferència** | L'alumne depèn de la IA | Tasques d'aplicació SENSE IA |
 
