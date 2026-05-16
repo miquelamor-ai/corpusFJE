@@ -15,10 +15,6 @@ tools_required: []
 triggers:
   - path: params.complements.bastides
     equals: true
-  - condition: any_of
-    paths:
-      - params.complements.preguntes_comprensio
-      - params.complements.activitats_aprofundiment
 ---
 
 # Generar bastides de producció
