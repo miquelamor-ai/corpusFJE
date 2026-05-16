@@ -2,11 +2,11 @@
 modul: M2
 titol: "Instruments de Mediació Pedagògica"
 tipus: marc
-descripcio: "Taxonomia operativa i catàleg complet dels instruments de mediació pedagògica segons el MALL (FJE): bastides (lingüístiques, cognitives, metacognitives), suports DUA, autoregulació, extensió curricular, ajuts i crossa. Inclou definicions, dimensions comparatives, catàleg 45 ítems, gradacions MALL per nivell, HCL, modalitat lectora dual i instruccions per a l'LLM."
+descripcio: "Taxonomia operativa i catàleg complet dels instruments de mediació pedagògica segons el MALL (FJE): bastides (lingüístiques, cognitives, metacognitives), suports DUA, autoregulació, extensió curricular, ajuts i crossa. Inclou definicions, dimensions comparatives, catàleg d'instruments, gradacions MALL per nivell, HCL i modalitat lectora dual."
 review_status: revisat
 actualitzat_at: 2026-05-16T00:00:00
 generat_at: 2026-05-16T00:00:00
-nota_revisio: "Fusió de M2_bastides-scaffolding.md (ATNE local 2026-05-15) + taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat."
+nota_revisio: "Taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat."
 ---
 
 ## Definició i principis
@@ -117,7 +117,7 @@ Pesos relatius per nivell MALL:
 - **Monolingüe**: terme + explicació senzilla en la llengua de l'aula (màx. 8 paraules)
 - **Bilingüe** (nouvinguts amb L1 coneguda): terme + traducció en alfabet original + explicació
 - Gradació de quantitat per MECR: 3-5 termes (pre-A1) → 12-15 termes (B2/C1)
-- **Format Emergent** (pre-A1): emoji + terme (sense taula). Destinataris: alumne I família.
+- **Format Emergent** (pre-A1): emoji + terme (sense taula). Destinataris: alumne i família.
 - Patró Emergent + L1 no-llatí: `[Imatge del concepte] + [paraula L1 en alfabet origen] + [PARAULA en català]`
 
 ### Pictogrames (suport visual)
@@ -175,7 +175,7 @@ Modulació per etapa: pre-A1 → activitats físiques/manipulatives sense escrip
 
 ---
 
-## Instruments interaccionals (ATNE no invoca)
+## Instruments interaccionals
 
 ### Ajuts
 Mediació docent reactiva i situada en el moment de la interacció. No planificada prèviament: respon a la necessitat concreta de l'alumne. Exemples: pista verbal, pregunta de guia, reformulació (recast), modelatge en veu alta.
@@ -194,7 +194,7 @@ En les bastides TILC, el contingut (te) i la llengua (aigua) són **indestriable
 
 > "El te (la matèria) no es pot distingir de l'aigua (la llengua) amb la qual es mescla." (MALL, FJE)
 
-**Implicació per ATNE**: cada base d'orientació ha de portar el raonament disciplinar específic, no una plantilla genèrica d'escriptura.
+**Implicació pedagògica**: cada base d'orientació ha de portar el raonament disciplinar específic, no una plantilla genèrica d'escriptura.
 
 ### Semàntica abans que gramàtica
 El treball sobre la forma (connectors, temps verbals, morfologia) **sempre** ha de venir després d'haver entès el significat i la funció comunicativa del text. No es corregeix la gramàtica d'un text que l'alumne no ha comprès.
@@ -223,7 +223,7 @@ Distinció crítica per entendre per què molts alumnes nouvinguts (i NESE) frac
 
 > "El fracàs acadèmic d'alumnes nouvinguts sovint no és cognitiu: és un problema de CALP no construït." (Cummins, MALL)
 
-**Implicació per ATNE**: les bastides lingüístiques (base d'orientació, catàleg de recursos) serveixen precisament per **construir el CALP** que l'alumne no pot adquirir espontàniament. Simplificar el text (BICS) no substitueix ensenyar el CALP.
+**Implicació pedagògica**: les bastides lingüístiques (base d'orientació, catàleg de recursos) serveixen precisament per **construir el CALP** que l'alumne no pot adquirir espontàniament. Simplificar el text (BICS) no substitueix ensenyar el CALP.
 
 ---
 
@@ -358,9 +358,9 @@ Referent: Jorba, Gómez i Prat — *Parlar i escriure per aprendre*. El MALL/TIL
 
 ---
 
-## Modalitat lectora dual (dimensió ATNE)
+## Modalitat lectora dual
 
-ATNE té el MECR com a dimensió de nivell. El MALL demostra que **la lectura emergent és una modalitat de relació amb el text, NO un nivell lingüístic**. Hi ha dues modalitats que pre-A1 actual barreja:
+El MALL demostra que **la lectura emergent és una modalitat de relació amb el text, NO un nivell lingüístic**. Hi ha dues modalitats que convé distingir:
 
 ### Tipus 1 — Lectura emergent per edat (MOPI/PIN inferior)
 - L'infant **construeix el concepte mateix** de lectura
@@ -393,137 +393,114 @@ Defaults: Infantil → `logografica` · 1r-2n Primària → `alfabetica_emergent
 | Resta | **autònoma** |
 
 ### Nota sobre majúscules a Infantil (rectificació MALL 2026-05-15)
-**NO** conversió automàtica a CAPS per a I3-I5. Materials reals a l'aula tenen majúscula + minúscula des d'I3. Les majúscules són per **escriure** (motriu), no per **llegir**. ATNE: opció manual puntual, no conversió massiva.
+**NO** conversió automàtica a CAPS per a I3-I5. Materials reals a l'aula tenen majúscula + minúscula des d'I3. Les majúscules són per **escriure** (motriu), no per **llegir**. Qualsevol adaptació a majúscules ha de ser manual i puntual, no massiva.
 
 ---
 
-## Catàleg complet d'instruments a ATNE
+## Catàleg d'instruments de mediació
 
-Estat de cada instrument al sistema ATNE:
-- ✅ **Implementat** — disponible com a complement actiu
-- 🔶 **Parcial** — integrat dins d'un altre complement
-- 🔲 **Pendent** — al marc MALL, ATNE no l'ofereix encara
-- ⛔ **Fora d'abast** — correspon a la interacció a l'aula física
+**Qui implementa**: Docent | Assistent IA | Ambdós | Interaccional (aula)
+**Estat digital**: ✅ Present | 🔲 Pendent | ⛔ Fora d'abast digital
 
 ### Bastides lingüístiques — lèxiques
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Glossari (terme + definició simple) | ✅ | Complement separat. Bilingüe si nouvingut |
-| Negretes amb explicació | ✅ | Termes destacats al text amb explicació integrada |
-| Definicions integrades | ✅ | Definicions al flux del text |
-| Traducció L1 | ✅ | Part del glossari bilingüe |
-| Banc de paraules clau | 🔶 | Integrat al complement bastides (Bloc B) |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Glossari (terme + definició simple) | Ambdós | ✅ Present | Bilingüe si nouvingut |
+| Negretes amb explicació | Assistent IA | ✅ Present | Termes destacats al text amb explicació integrada |
+| Definicions integrades | Assistent IA | ✅ Present | Definicions al flux del text |
+| Traducció L1 | Assistent IA | ✅ Present | Part del glossari bilingüe |
+| Banc de paraules clau | Assistent IA | ✅ Present | Integrat com a catàleg de recursos (bastides) |
 
 ### Bastides lingüístiques — sintàctiques
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Connectors lògics (taula) | 🔶 | Integrat al complement bastides (Bloc C) |
-| Reformulació sintàctica (simplificació) | 🔶 | Aplicada com a regla al catàleg d'instruccions |
-| Frases curtes / una idea per frase | 🔶 | Aplicada com a regla al catàleg d'instruccions |
-| Concordança visible (subjecte-verb explícit) | 🔲 | No implementat |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Connectors lògics (taula) | Assistent IA | ✅ Present | Integrat com a catàleg de connectors (bastides) |
+| Reformulació sintàctica (simplificació) | Assistent IA | ✅ Present | Aplicada com a regla d'adaptació |
+| Frases curtes / una idea per frase | Assistent IA | ✅ Present | Aplicada com a regla d'adaptació |
+| Concordança visible (subjecte-verb explícit) | Assistent IA | 🔲 Pendent | No implementat de forma explícita |
 
 ### Bastides lingüístiques — discursives
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Base d'orientació per gènere | 🔶 | Integrat al complement bastides (Bloc A) |
-| Marcadors discursius | 🔶 | Dins de connectors |
-| Plantilles per gènere literari | 🔲 | No implementat com a complement separat |
-| Textos model | ⛔ | Instrument MALL clau ("del text al text") però fora d'abast ATNE — vinculat al mòdul de generació de textos futur |
-| Transllenguatge / TOLC | 🔲 | Pendent (parcialment cobert pel glossari bilingüe) |
-| PBCS (alternança de codis pedagògica) | 🔲 | Pendent — complement del TOLC, afavoreix consciència metalingüística |
-| Modelatge / Think Aloud | ⛔ | El docent verbalitza el seu procés lector/escriptor — interaccional, fora d'abast ATNE |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Base d'orientació per gènere | Assistent IA | ✅ Present | GPS disciplinar per gènere i matèria |
+| Marcadors discursius | Assistent IA | ✅ Present | Inclòs al catàleg de connectors |
+| Plantilles per gènere literari | Assistent IA | 🔲 Pendent | No implementat com a complement separat |
+| Textos model | Docent | ⛔ Fora d'abast digital | Instrument MALL "del text al text" — requereix selecció i contextualització docent |
+| Transllenguatge / TOLC | Assistent IA | 🔲 Pendent | Parcialment cobert pel glossari bilingüe |
+| PBCS (alternança de codis pedagògica) | Assistent IA | 🔲 Pendent | Complement del TOLC; afavoreix consciència metalingüística |
+| Modelatge / Think Aloud | Docent | ⛔ Fora d'abast digital | El docent verbalitza el seu procés lector/escriptor — interaccional |
 
 ### Bastides visuals i multimodals
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Pictogrames | ✅ | Complement separat |
-| Il·lustracions | ✅ | Complement beta (Pexels, Wikimedia, FLUX) |
-| Esquema visual | ✅ | Diagrama/mapa de l'estructura del text |
-| Línies de temps | 🔶 | Pot generar-se dins de l'esquema visual |
-| Codis de color sistemàtics | 🔲 | No implementat |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Pictogrames | Assistent IA | ✅ Present | Complement separat, graduat per MECR |
+| Il·lustracions | Assistent IA | ✅ Present | Complement beta (Wikimedia, generació IA) |
+| Esquema visual | Assistent IA | ✅ Present | Diagrama/mapa de l'estructura del text |
+| Línies de temps | Assistent IA | ✅ Present | Pot generar-se dins l'esquema visual |
+| Codis de color sistemàtics | Docent | 🔲 Pendent | Requereix suport d'edició visual |
 
 ### Bastides cognitives
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Mapa conceptual | ✅ | Complement separat |
-| Mapa mental (radial) | ✅ | Complement separat |
-| Esquema visual | ✅ | (vegeu visuals) |
-| Resum graduat | 🔲 | No implementat |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Mapa conceptual | Assistent IA | ✅ Present | Complement separat, funció epistèmica |
+| Mapa mental (radial) | Assistent IA | ✅ Present | Complement separat, funció d'organització |
+| Esquema visual | Assistent IA | ✅ Present | Funció instrumental i seqüencial |
+| Resum graduat | Assistent IA | 🔲 Pendent | No implementat com a complement separat |
 
 ### Bastides metacognitives i de lectura
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Preguntes de comprensió (3 plànols × 3 moments) | ✅ | Complement separat |
-| Bastides pre-lectura (activació previs) | 🔶 | Dins de bastides → Abans de llegir |
-| Bastides durant lectura (subratllat, notes) | 🔶 | Dins de bastides → Durant la lectura |
-| Bastides post-lectura (resum, valoració) | 🔶 | Dins de bastides → Després de llegir |
-| Pauta d'interrogació (checklist autoregulació) | 🔶 | Dins de bastides (Bloc D, si producció) |
-| Avaluació reguladora (Sanmartí) | 🔲 | No implementada |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Preguntes de comprensió (3 plànols × 3 moments) | Assistent IA | ✅ Present | Complement separat |
+| Bastides pre-lectura (activació previs) | Assistent IA | ✅ Present | Integrat: Abans de llegir |
+| Bastides durant lectura (subratllat, notes) | Assistent IA | ✅ Present | Integrat: Durant la lectura |
+| Bastides post-lectura (resum, valoració) | Assistent IA | ✅ Present | Integrat: Després de llegir |
+| Pauta d'interrogació (checklist autoregulació) | Ambdós | ✅ Present | Integrat com a checklist de producció |
+| Avaluació reguladora (Sanmartí) | Docent | 🔲 Pendent | No implementada digitalment |
 
 ### Bastides de producció
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Iniciadors de frase per HCL | 🔶 | Dins de bastides (Bloc B, si producció) |
-| Cartes conversacionals (per al debat) | 🔲 | MALL ho recomana, no implementat |
-| Modelatge del docent (modeling) | ⛔ | Correspon a l'aula |
-| Rúbriques d'assoliment per a l'alumne | 🔲 | No implementada |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Iniciadors de frase per HCL | Assistent IA | ✅ Present | Integrat com a catàleg d'iniciadors (bastides) |
+| Cartes conversacionals (per al debat) | Assistent IA | 🔲 Pendent | El MALL ho recomana; no implementat |
+| Modelatge del docent (modeling) | Docent | ⛔ Fora d'abast digital | Correspon a l'aula física |
+| Rúbriques d'assoliment per a l'alumne | Assistent IA | 🔲 Pendent | No implementada |
 
 ### Bastides procedimentals (per al docent)
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Argumentació pedagògica (decisions) | ✅ | Sempre present a la sortida |
-| Notes d'auditoria (canvis amb motiu) | ✅ | Sempre present a la sortida |
-| Indicadors d'avaluació per a l'alumne | 🔲 | No generat per ATNE |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Argumentació pedagògica (decisions) | Assistent IA | ✅ Present | Sempre present a la sortida |
+| Notes d'auditoria (canvis amb motiu) | Assistent IA | ✅ Present | Sempre present a la sortida |
+| Indicadors d'avaluació per a l'alumne | Assistent IA | 🔲 Pendent | No generat de forma independent |
 
 ### Instruments interaccionals i personals
 
-| Instrument | Estat | Detall |
-|---|---|---|
-| Ajuts (mediació docent en temps real) | ⛔ | Fora d'abast — interacció a l'aula |
-| Crossa (notes personals de l'alumne) | ⛔ | Fora d'abast — instrument personal |
-| Tutor entre iguals | ⛔ | Fora d'abast |
-| TTS / audiodescripció | ⛔ | Fora d'abast actual d'ATNE |
+| Instrument | Qui implementa | Estat digital | Nota |
+|---|---|---|---|
+| Ajuts (mediació docent en temps real) | Interaccional | ⛔ Fora d'abast digital | Interacció a l'aula física |
+| Crossa (notes personals de l'alumne) | Interaccional | ⛔ Fora d'abast digital | Instrument personal de l'alumne |
+| Tutor entre iguals | Interaccional | ⛔ Fora d'abast digital | Correspon a l'organització de l'aula |
+| TTS / audiodescripció | Assistent IA | 🔲 Pendent | Tècnicament possible; requereix integració |
 
 ### Resum quantitatiu
 
-| Categoria | ✅ | 🔶 | 🔲 | ⛔ |
-|---|---|---|---|---|
-| Lingüístiques | 4 | 5 | 4 | 0 |
-| Visuals i multimodals | 3 | 2 | 1 | 0 |
-| Cognitives | 3 | 1 | 1 | 0 |
-| Metacognitives i lectura | 1 | 4 | 1 | 0 |
-| De producció | 0 | 2 | 3 | 1 |
-| Procedimentals (docent) | 2 | 1 | 1 | 0 |
-| Interaccionals i personals | 0 | 0 | 0 | 4 |
-| **Total** | **13** | **15** | **11** | **5** |
-
----
-
-## Mapa d'implementació ATNE (2026-05-16)
-
-| Instrument | Complement ATNE | Estat |
-|---|---|---|
-| Base d'orientació | `bastides` | ✅ |
-| Catàleg de recursos | `bastides` | ✅ |
-| Mapa conceptual | `mapa_conceptual` | ✅ |
-| Esquema visual | `mapa_conceptual` (mode infantil) | ✅ |
-| Preguntes de comprensió | `preguntes_comprensio` | ✅ |
-| Glossari | `glossari` | ✅ |
-| Pictogrames | `pictogrames` | ✅ |
-| Il·lustracions | `illustracions` | ✅ |
-| Pauta d'interrogació | `bastides` (Bloc D) | 🔶 |
-| Transllenguatge / TOLC | — | 🔲 pendent |
-| Activitats d'aprofundiment | `activitats_aprofundiment` | ✅ |
-| Ajuts | — | ⛔ interaccional |
-| Crossa | — | ⛔ interaccional |
+| Categoria | ✅ Present | 🔲 Pendent | ⛔ Fora d'abast |
+|---|---|---|---|
+| Lingüístiques (lèx. + sint. + disc.) | 10 | 4 | 2 |
+| Visuals i multimodals | 4 | 1 | 0 |
+| Cognitives | 3 | 1 | 0 |
+| Metacognitives i lectura | 5 | 1 | 0 |
+| De producció | 1 | 2 | 1 |
+| Procedimentals (docent) | 2 | 1 | 0 |
+| Interaccionals i personals | 0 | 1 | 3 |
+| **Total** | **25** | **11** | **6** |
 
 ---
 
@@ -660,7 +637,7 @@ Text sobre volcans:
 
 ### Heurístiques
 
-**Principi general**: Offerirel suport just per treballar a la ZDP. Ni massa (dependència) ni massa poc (frustració).
+**Principi general**: Oferir el suport just per treballar a la ZDP. Ni massa (dependència) ni massa poc (frustració).
 
 **Heurística 1 — Bastida o simplificació?**
 Quan un docent demana "simplificar el text": primer preguntar si l'objectiu és accessibilitat (→ simplificació + suports DUA) o producció de qualitat (→ bastida lingüística sense simplificació excessiva). No es pot substituir el CALP per l'oralitat quotidiana.
@@ -673,45 +650,6 @@ Quan l'alumne usa l'instrument sense llegir-lo (ha interioritzat l'estructura), 
 
 **Heurística 4 — Bastida vs. suport DUA**
 Pregunta clau: "Desapareixerà la necessitat quan l'alumne aprengui?" Si sí → bastida temporal. Si no (per discapacitat, condició permanent) → suport DUA potencialment permanent.
-
----
-
-## 6. Instruccions per a l'LLM
-
-Quan generis instruments de mediació pedagògica per a un text adaptat, segueix aquest ordre de decisions:
-
-### Decisió 1 — Quins instruments activar
-Activa cada instrument **únicament** si el complement corresponent ha estat triat pel docent. No generis instruments no sol·licitats.
-
-### Decisió 2 — Gradació per MECR/MALL
-Per a **cada instrument**, consulta les taules de gradació d'aquest document i aplica el nivell corresponent:
-- `pre-A1 / Emergent`: zero escriptura autònoma. Activitats físiques, visuals, manipulatives.
-- `A1 / Inicial`: suports molt concrets, visuals, sense abstracció.
-- `A2-B1 / Funcional-Estratègic`: bastides lingüístiques operatives, connectors graduals.
-- `B2-C1 / Acadèmic-Crític`: CALP, contrast de fonts, retòrica.
-
-### Decisió 3 — Base d'orientació: SEMPRE disciplinar
-La base d'orientació ha de contenir els passos específics del **gènere** i la **matèria**. Mai una seqüència genèrica. Si no coneixes el gènere, inferiex-lo del text original.
-
-### Decisió 4 — Pictogrames
-- `pre-A1/A1`: inline al text (damunt o al costat de cada paraula clau) + paratext d'anticipació.
-- `A2+`: glossari visual al peu ÚNICAMENT. MAI inline al text corrent.
-
-### Decisió 5 — Glossari bilingüe
-Activa la variant bilingüe ÚNICAMENT si `nouvingut.actiu == true` i `nouvingut.L1` és coneguda. Usa l'alfabet original de la L1 (àrab, xinès, ciríl·lic, etc.).
-
-### Decisió 6 — Preguntes de comprensió
-- Distribució per plànols: segueix la taula de pesos (literal/inferencial/crític per nivell).
-- Formats: segueix la taula de formats apropiats (V/F, buits, inferencial, argumentació...).
-- Quantitat: 2-3 pre-lectura, 1-2 durant, 3-5 post-lectura. Mai més de 10 en total.
-
-### Decisió 7 — Pauta d'interrogació
-Genera-la ÚNICAMENT si hi ha complement de producció actiu (`preguntes_comprensio` o `activitats_aprofundiment`). Ha de ser específica del gènere i la tasca.
-
-### Regles absolutes
-- `pre-A1`: ZERO escriptura autònoma en cap instrument (bastides, preguntes, activitats).
-- No generis instruments sense nom canònic. Usa sempre: Base d'orientació / Catàleg de recursos / Mapa conceptual / Esquema visual / Preguntes de comprensió / Glossari / Pictogrames / Il·lustracions / Pauta d'interrogació / Activitats d'aprofundiment.
-- No barregis el catàleg de recursos amb la base d'orientació: són instruments separats.
 
 ---
 
