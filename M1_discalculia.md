@@ -272,6 +272,14 @@ El Decret 150/2017 estableix el marc d'atenció a la diversitat per a totes les 
 
 ---
 
+## Connexions MALL
+
+**HCL accessible directament**: Totes les HCL (Narrar → Argumentar) — la barrera és numèrica/aritmètica, NO cognitivo-lingüística. El raonament verbal i la comprensió oral sovint estan preservats o superiors.
+**HCL que necessiten bastida en contingut matemàtic**: Explicar, Justificar, Argumentar — quan el text exigeix raonament sobre magnituds o procediments numèrics, la barrera aritmètica pot bloquejar l'accés a la HCL. La bastida dissocia el raonament de la càrrega de càlcul.
+**Principi MALL paral·lel a dislèxia**: Dissociar el raonament matemàtic del càlcul aritmètic, igual que MALL dissocia comprensió lectora de descodificació. La bastida adequa el "Com" (calculadora, taules, CPA) sense rebaixar el "Què" (la HCL a activar).
+**Bastida clau MALL**: Framing verbal del problema ABANS del càlcul. "Explica'm amb paraules com ho faries" (oral exploratiu) activa el raonament sense la barrera aritmètica. La progressió CPA (Concret → Pictòric → Abstracte) com a base d'orientació visual per anclar la magnitud.
+**Eix oral/escrit**: El canal verbal és fort. L'oralitat exploratòria precedeix el càlcul escrit: l'alumne raona oralment, verbalitza el procediment, i el càlcul escrit és l'última fase — no la primera.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
