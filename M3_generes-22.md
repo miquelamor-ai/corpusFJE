@@ -1,13 +1,26 @@
 ---
 modul: M3
-titol: "Gèneres discursius — 22 sub-gèneres amb regles crítiques per adaptació"
+titol: "Gèneres discursius — 22 sub-gèneres (regles productives legacy)"
 tipus: estrategia
-descripcio: "Regles d'adaptació específiques per gènere discursiu (22 sub-gèneres organitzats per tipologia SFL). Complementa M3_generes-discursius.md (4 macro-gèneres)."
+deprecated: true
+superseded_by: "corpusFJE/skills/genres/write-<key>/SKILL.md"
+canonical_concept_in: "M3_generes-discursius.md"
+descripcio: "DEPRECATED des de 2026-05-16. Aquest fitxer conté regles productives per gènere (Markdown amb format ## <key>) llegides pel `corpus_reader.py` d'ATNE com a font productiva legacy. El marc conceptual canònic és `M3_generes-discursius.md` (tipus: marc). Les regles productives migraran a `corpusFJE/skills/genres/write-<key>/` quan les SKILLs s'activin com a font canònica. NO afegir contingut nou aquí — afegir-lo a la skill corresponent."
 review_status: esborrany
 generat_at: 2026-04-19T22:00:00
+deprecat_at: 2026-05-16T00:00:00
+nota_deprecat: "Mantingut només mentre `corpus_reader.py:load_corpus()` (línia ~200) en depèn. Quan ATNE activi `ATNE_USE_SKILLS=true` i les skills/genres siguin la font productiva, aquest fitxer s'eliminarà."
 ---
 
-# Gèneres discursius — 22 sub-gèneres amb regles crítiques
+# ⚠️ DEPRECATED — Gèneres discursius (regles productives legacy)
+
+> **Aquest fitxer està obsolet.**
+> - **Marc conceptual canònic** (tipologies, HCL, inventari): `M3_generes-discursius.md`
+> - **Regles productives futures**: `corpusFJE/skills/genres/write-<key>/SKILL.md`
+>
+> Es manté **només** mentre el codi d'ATNE (`corpus_reader.py`) en depèn com a font productiva. No afegir contingut nou aquí.
+
+---
 
 Aquest fitxer defineix **regles crítiques d'adaptació LF per als 22 sub-gèneres**
 que apareixen al dropdown del generador (Pas 2). El codi `corpus_reader.py`
