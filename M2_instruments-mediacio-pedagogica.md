@@ -1,0 +1,681 @@
+---
+modul: M2
+titol: "Instruments de Mediació Pedagògica"
+tipus: marc
+descripcio: "Taxonomia operativa i catàleg complet dels instruments de mediació pedagògica segons el MALL (FJE): bastides (lingüístiques, cognitives, metacognitives), suports DUA, autoregulació, extensió curricular, ajuts i crossa. Inclou definicions, dimensions comparatives, catàleg 45 ítems, gradacions MALL per nivell, HCL, modalitat lectora dual i instruccions per a l'LLM."
+review_status: revisat
+actualitzat_at: 2026-05-16T00:00:00
+generat_at: 2026-05-16T00:00:00
+nota_revisio: "Fusió de M2_bastides-scaffolding.md (ATNE local 2026-05-15) + taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat."
+---
+
+## Definició i principis
+
+Els **instruments de mediació pedagògica** són les eines que un docent, un sistema o l'alumne mateix posa en joc per ajustar el repte al nivell real de l'aprenent, tot mantenint-lo dins de la **Zona de Desenvolupament Proper (ZDP)** de Vygotsky. No substitueixen la tasca: n'acompanyen l'assoliment.
+
+El MALL (Model d'Aprenentatge de les Llengües, Fundació Jesuïtes Educació) distingeix sis categories d'instruments, diferenciats per cinc dimensions:
+
+| Dimensió | Bastides | Suports DUA | Autoregulació | Extensió curricular | Ajuts | Crossa |
+|---|---|---|---|---|---|---|
+| **Temporalitat** | Temporal (es retiren) | Potencialment permanent | Temporal fins a interiorització | Puntual (tasca) | Situacional | Fins a consolidació |
+| **Origen** | Dissenyat pel docent/sistema | Dissenyat des del disseny (DUA) | Guiat inicialment, assumit per l'alumne | Proposat pel docent | Reactiu (docent en temps real) | Construït per l'alumne |
+| **Funció** | Aproximar a ZDP | Eliminar barreres d'accés | Apoderament i metacognició | Ampliar i transferir | Desbloqueig puntual | Ancoratge personal |
+| **Focus** | Producció de qualitat | Accessibilitat i representació | Autoavaluació i regulació | Pensament d'ordre superior | Interacció docent-alumne | Estratègia pròpia |
+| **Agentivitat** | Docent / sistema | Sistema / entorn | Alumne (amb guia inicial) | Docent | Docent | Alumne |
+
+**Principis essencials de les bastides:**
+1. **Mediació planificada** — La bastida és una intervenció dissenyada, no improvisada.
+2. **Temporalitat** — Han de ser temporals. L'objectiu és la transferència progressiva de control cap a l'alumne.
+3. **Estructuració del raonament** — Serveixen per jerarquitzar idees mitjançant recursos lingüístics concrets.
+4. **Adaptació al subjecte** — S'ajusten al nivell real i a la tasca concreta (ZDP individual).
+
+---
+
+## Taxonomia completa
+
+```
+INSTRUMENTS DE MEDIACIÓ PEDAGÒGICA
+│
+├── BASTIDES  (temporals, ZDP, producció de qualitat)
+│   ├── Bastides lingüístiques
+│   │   ├── Base d'orientació        — GPS del gènere: passos disciplinars específics
+│   │   └── Catàleg de recursos      — connectors + iniciadors per HCL
+│   ├── Bastides cognitives
+│   │   ├── Mapa conceptual          — organitzar per pensar (funció epistèmica)
+│   │   └── Esquema visual           — seqüenciar processos (funció instrumental)
+│   └── Bastides metacognitives
+│       └── Preguntes de comprensió  — guia de lectura (abans / durant / després)
+│
+├── SUPORTS DUA  (accessibilitat, potencialment permanents)
+│   ├── Glossari                     — suport lèxic (monolingüe o bilingüe L1)
+│   ├── Pictogrames                  — suport visual inline o glossari visual
+│   ├── Il·lustracions               — suport visual contextual
+│   └── Transllenguatge / TOLC       — pont cognitiu L1→L2 (nous. i NESE)
+│
+├── AUTOREGULACIÓ  (apoderament de l'aprenent)
+│   └── Pauta d'interrogació         — llista de comprovació per revisió i autoavaluació
+│
+├── EXTENSIÓ CURRICULAR  (tasca alternativa / aprofundiment)
+│   └── Activitats d'aprofundiment   — connexions interdisciplinars, recerca, debat, pensament crític
+│
+├── AJUTS  *(interaccional — rol docent en temps real)*
+│   └── [mediació reactiva i situada: pistes, preguntes, recast, modelatge verbal]
+│
+└── CROSSA  *(instrument personal de l'alumne)*
+    └── [notes, imatges, mnemotècnies personals — fins a consolidació]
+```
+
+---
+
+## Les bastides en detall
+
+### Base d'orientació (bastida lingüística)
+Seqüència de passos **específics del gènere i la matèria** que actua com a GPS per a la producció. No és una instrucció genèrica ("escriu introducció, cos i conclusió") sinó una seqüència disciplinar real:
+
+- **Informe científic**: "Formula la pregunta investigable → Escriu la hipòtesi → Presenta les dades → Conclou tornant a la pregunta"
+- **Crònica histórica**: "Situa el temps i el lloc → Explica qui → Descriu l'acció → Valora les conseqüències"
+- **Ressenya literària**: "Dades tècniques → Resum sense espòilers → Valoració personal → Recomanació"
+
+La base d'orientació ha de ser **reescrita per a cada gènere i matèria**, mai copiada d'una plantilla genèrica.
+
+### Catàleg de recursos (bastida lingüística)
+Repertori lingüístic graduat per activar les **Habilitats CognitivoLingüístiques (HCL)**:
+- **Connectors** per nivell MECR (A1: *i, però, perquè* → C1: *tot i que, atès que, en conseqüència*)
+- **Iniciadors de frase** per HCL: definir, descriure, justificar, argumentar, sintetitzar, contrastar
+
+### Mapa conceptual (bastida cognitiva — funció epistèmica)
+Organitza i transforma el pensament: nodes conceptuals + relacions etiquetades. Útil per entendre estructura jeràrquica o relacional. Exigeix inferència: l'alumne ha de construir les relacions, no copiar-les.
+
+### Esquema visual (bastida cognitiva — funció instrumental)
+Representa processos seqüencials o estructures temporals (línies del temps, diagrames de flux, taules). La funció és instrumental: seqüenciar, no conceptualitzar.
+
+### Preguntes de comprensió (bastida metacognitiva)
+Guia de lectura en tres moments i tres plànols:
+
+| Moment | Plànol literal | Plànol inferencial | Plànol crític |
+|---|---|---|---|
+| **Abans** | Activar coneixements previs | Predicció | Propòsit de lectura |
+| **Durant** | Identificar idees clau | Inferir significat | Qüestionar posicions |
+| **Després** | Resum | Interpretació | Valoració i transferència |
+
+Pesos relatius per nivell MALL:
+
+| Nivell | Literal | Inferencial | Crític |
+|---|---|---|---|
+| Emergent | Tot via adult (propedèutic) | Propedèutic | Propedèutic |
+| Inicial | Predominant | Inici | Mínim |
+| Funcional | Domina | Apareix | Inicial |
+| Estratègic | Base | **Motor** | Creixent |
+| Acadèmic | Base | Base | Sòlid |
+| Crític | Base | Base | **Motor** |
+
+---
+
+## Suports DUA en detall
+
+### Glossari (suport lèxic)
+- **Monolingüe**: terme + explicació senzilla en la llengua de l'aula (màx. 8 paraules)
+- **Bilingüe** (nouvinguts amb L1 coneguda): terme + traducció en alfabet original + explicació
+- Gradació de quantitat per MECR: 3-5 termes (pre-A1) → 12-15 termes (B2/C1)
+- **Format Emergent** (pre-A1): emoji + terme (sense taula). Destinataris: alumne I família.
+- Patró Emergent + L1 no-llatí: `[Imatge del concepte] + [paraula L1 en alfabet origen] + [PARAULA en català]`
+
+### Pictogrames (suport visual)
+- **pre-A1**: inline damunt/al costat de cada paraula clau + paratext d'anticipació lateral
+- **A1**: 1 pictograma per frase o tecnicisme
+- **A2+**: glossari visual al peu (NO inline al text corrent)
+
+### Il·lustracions (suport visual contextual)
+Imatges que contextualitzen el tema, no decoratives. Prioritzar: Wikimedia CC, generació IA amb caption "IA".
+
+### Transllenguatge / TOLC (pont cognitiu L1→L2)
+**Distinció fonamental respecte al glossari:**
+- Glossari = recepció (tradueix paraules per comprendre l'input)
+- Transllenguatge = acció i reflexió (usa la L1 per *pensar*, comparar, transferir)
+
+**Perfils on aplica:**
+- **Nouvingut L2** (perfil principal): reconèixer el repertori lingüístic com a recurs
+- **NESE (TDAH, dislèxia, TEA)**: ancorar el concepte en L1 allibera càrrega cognitiva
+- **AACC**: tasques de mediació complexa, contrast metalingüístic entre llengües
+
+**Gradació per etapa:**
+- **Infantil (pre-A1)**: exclusivament oral — recasting del docent
+- **Primària (A1/A2)**: dimensió escrita — dictats bilingües, collages lingüístics, textos d'identitat (LIT)
+- **Secundària (B1/B2)**: mediació epistèmica — resumir en una llengua un text d'una altra, contrastar gèneres
+
+---
+
+## Autoregulació en detall
+
+### Pauta d'interrogació
+L'instrument d'autoregulació per excel·lència al MALL. Llista de comprovació co-construïda amb l'alumnat que permet saber on és i cap on ha d'anar *abans de lliurar*:
+
+- "He usat el lèxic de la matèria?"
+- "He connectat les idees amb connectors del nivell adequat?"
+- "He justificat amb evidències del text?"
+- "La meva hipòtesi respon la pregunta investigable?"
+
+La pauta és específica de la tasca i el gènere (no genèrica). Pot evolucionar cap a un instrument de la pròpia crossa de l'alumne.
+
+---
+
+## Extensió curricular
+
+### Activitats d'aprofundiment
+**No és un instrument de mediació** en sentit estricte: és una **tasca alternativa** per a alumnat que ja domina el contingut i necessita un repte cognitiu superior. Cinc tipus: connexions interdisciplinars, pensament crític (i si…?), recerca guiada, debat argumentat, dimensió plurilingüe.
+
+Modulació per etapa: pre-A1 → activitats físiques/manipulatives sense escriptura autònoma; C1 → reflexió crítica amb fonts contradictòries.
+
+---
+
+## Instruments interaccionals (ATNE no invoca)
+
+### Ajuts
+Mediació docent reactiva i situada en el moment de la interacció. No planificada prèviament: respon a la necessitat concreta de l'alumne. Exemples: pista verbal, pregunta de guia, reformulació (recast), modelatge en veu alta.
+
+### Crossa
+Instrument personal que l'alumne construeix i personalitza fins que el coneixement es consolida. Exemples: imatge associada a un so difícil, paraula en L1 que activa el record, mnemotècnia pròpia. No es pot generar des de fora: ha de ser l'alumne qui la triï.
+
+> "Quan un infant no identifica la lletra fonèticament, cal ajudar-lo a buscar una 'crossa'... millor si pot ser personalitzada per a cada infant." (MALL, FJE)
+
+---
+
+## Gradacions MALL operatives per nivell
+
+### Connectors per nivell
+
+| Nivell | Inventari operatiu |
+|---|---|
+| Emergent (pre-A1) | Cap abstracte. Suport visual/oral. Si textuals: `i`, `després` |
+| Inicial (A1) | + `però`, `perquè` |
+| Funcional (A2) | + `primer`, `llavors`, `per tant` |
+| Estratègic (B1) | + `ja que`, `en canvi`, `a més a més`, `tot i que` |
+| Acadèmic (B2) | + `així mateix`, `no obstant això`, `atès que`, `en conseqüència` |
+| Crític (C1) | + `per contra`, `malgrat que`, dialectics i retòrics |
+
+Principi MALL: els connectors no són llistes per memoritzar, sinó **eines per jerarquitzar el raonament**. La semàntica abans que la gramàtica.
+
+### Iniciadors de resposta — mida del forat
+
+| Nivell | Iniciador exemple |
+|---|---|
+| Emergent | *"A la imatge veig un ___."* (forat petit, suport visual) |
+| Inicial | *"El personatge es diu ___ i vol ___."* (designació) |
+| Funcional | *"Segons el text, ___ va passar perquè ___."* (literal) |
+| Estratègic | *"Jo crec que ___ perquè el text diu ___."* (raonament propi) |
+| Acadèmic | *"Aquest fenomen s'explica mitjançant ___, ja que ___."* (model teòric) |
+| Crític | *"L'autor intenta convèncer el lector de ___ fent servir ___."* (intencionalitat) |
+
+### Paraules clau / rescat lèxic (glossari)
+
+| Nivell | Quantitat i tipus |
+|---|---|
+| Emergent | 3-5 paraules + **pictograma**. Objectes reals del tema. NO tecnicismes |
+| Inicial (A1) | 5-8 paraules. Noms + verbs d'acció bàsics |
+| Funcional (A2) | 8-10. Noms + verbs + adjectius clau |
+| Estratègic (B1) | ~10-12. Inclou habilitats: `hipòtesi`, `causa`, `conseqüència` |
+| Acadèmic-Crític (B2/C1) | 12-15. Lèxic d'especialitat pur (CALP) |
+
+### Pictogrames i suport visual per nivell
+
+| Nivell | Densitat | Col·locació |
+|---|---|---|
+| Emergent | **1-2 per frase** (noms + verbs clau) | **Inline o sobre la paraula**. Paratext lateral per anticipar |
+| Inicial (A1) | **1 per frase** o només tecnicismes | Inline, discret |
+| Funcional (A2)+ | Mínims o cap | **Glossari visual** al peu (no inline) |
+
+### Esquemes visuals — nombre de nodes
+
+| Nivell | N nodes | Apropiat per a |
+|---|---|---|
+| Emergent | 2-3 | Seqüències temporals bàsiques, relació imatge→paraula |
+| Inicial | 3-4 | Enumerar qualitats o parts d'un objecte |
+| Funcional | 4-6 | Seqüenciar passos d'instrucció / esdeveniments cronològics |
+| Estratègic | 6-8 | Causa-efecte, formulació d'hipòtesis |
+
+### Mapa conceptual jeràrquic
+
+No apropiat per a Emergent ni Inicial (l'alumne està en descodificació). S'introdueix al final de Funcional.
+
+| Nivell | Profunditat |
+|---|---|
+| Funcional (A2) | **2 nivells**: concepte → idees literals principals |
+| Estratègic (B1) | **3 nivells**: concepte → categories → exemples/detalls inferits |
+| Acadèmic (B2) | **4+ nivells**. Jerarquització abstracta (CALP) |
+| Crític (C1) | **Mapa de contrast** entre fonts/ideologies (multi-perspectiva) |
+
+### Preguntes — Formats apropiats per nivell
+
+| Nivell | Formats apropiats |
+|---|---|
+| Emergent | **NO escriptura autònoma**. Assenyalar, dibuixar, dramatitzar, dictat a l'adult |
+| Inicial | V/F textual (sobre paraules clau), omplir buits amb opcions visuals |
+| Funcional | Relacionar amb fletxes, elecció múltiple de títols, ordenació de seqüències |
+| Estratègic | + inferencials (per què? i si…?) |
+| Acadèmic | Argumentació oberta, transferència al jo, contrast de fonts |
+| Crític | Argumentació + valoració d'intencionalitat + judicis fonamentats |
+
+**PROHIBIT a Emergent**: V/F textual, omplir buits textuals, relaciona-amb-línies, *"per què..."*, comparacions abstractes, metacognició explícita.
+
+### Preguntes — Quantitat per moment
+- **Abans de llegir** (Predicció): 2-3 preguntes. Activar previs + objectiu de lectura
+- **Durant la lectura** (Monitorització): 1-2 aturades. Dubtes lèxics + hipòtesi + resum parcial
+- **Després de llegir** (Avaluació + Resum): 3-5 preguntes cobrint els 3 plànols
+
+Regla MALL: *"menys és més"*. No fatigar; mantenir compromís lector.
+
+### Bastides lingüístiques — gradació per nivell
+
+| Nivell MALL | Base d'orientació | Catàleg de recursos |
+|---|---|---|
+| **Emergent (pre-A1)** | Visualització física/gestual (assenyalar, dramatitzar, dibuixar). Zero escriptura autònoma | Paraules acció + noms concrets |
+| **Inicial (A1)** | 2-3 passos del gènere, molt concrets | 1 iniciador per HCL, connectors: *i, però, perquè* |
+| **Funcional (A2)** | 3-4 passos + terminologia disciplinar | 2-3 iniciadors, + *primer, llavors, per tant* |
+| **Estratègic (B1)** | Raonament disciplinar (hipòtesi, evidència, causa) | Inferencials + *ja que, en canvi, tot i que* |
+| **Acadèmic (B2)** | Superestructura del gènere + CALP | CALP argumental + *no obstant, atès que* |
+| **Crític (C1)** | Contrast de fonts, biaix, intertextualitat | Dialectics, retòrica |
+
+---
+
+## Habilitats CognitivoLingüístiques (HCL)
+
+Referent: Jorba, Gómez i Prat — *Parlar i escriure per aprendre*. Cada HCL té els seus iniciadors i pautes d'autoregulació:
+
+| Habilitat | Iniciadors de frase | Pauta d'interrogació |
+|---|---|---|
+| **Definir** | "X és un/a...", "S'anomena X a...", "Es caracteritza per..." | Has utilitzat un predicat nominal per identificar el concepte? |
+| **Descriure** | "Està format per...", "Té una aparença...", "Se situa a..." | Has utilitzat prou adjectius qualificatius per detallar les característiques? |
+| **Explicar** | "Això passa perquè...", "Com que..., llavors...", "El mecanisme és..." | Has utilitzat connectors temporals i causals per encadenar els fets? |
+| **Justificar** | "Es relaciona amb...", "Té sentit perquè...", "Això es deu a..." | Has validat l'argument amb un model científic o teòric de referència? |
+| **Argumentar** | "La meva idea és...", "Les meves raons són...", "En conclusió..." | Has inclòs algun contraargument per valorar diferents punts de vista? |
+
+### Progressió HCL per nivell MECR (exemple: justificar)
+
+| MECR | Exemple |
+|---|---|
+| A1 | "He triat el llibre vermell **perquè** m'agraden els dibuixos." |
+| A2 | "Per anar al museu anirem en bus **perquè** és més ràpid que caminar." |
+| B1 | "Aquest element flota **perquè** té menys densitat que l'aigua, **tal com hem vist** a l'experiment." |
+| B2 | "L'augment de la temperatura es deu a l'efecte hivernacle, **ja que** els gasos acumulats impedeixen la sortida de la radiació, **seguint el model** climàtic estudiat." |
+
+### Correspondència HCL — format de bastida recomanat
+
+| Habilitat | Format | Nivell típic |
+|---|---|---|
+| Descriure | Esquema radial (objecte al centre + adjectius) | Inicial |
+| Explicar | Diagrama de flux amb connectors "perquè"/"per tant" | Funcional/Estratègic |
+| Justificar | Mapa conceptual jeràrquic (tesi + evidències + models) | Acadèmic |
+
+---
+
+## Modalitat lectora dual (dimensió ATNE)
+
+ATNE té el MECR com a dimensió de nivell. El MALL demostra que **la lectura emergent és una modalitat de relació amb el text, NO un nivell lingüístic**. Hi ha dues modalitats que pre-A1 actual barreja:
+
+### Tipus 1 — Lectura emergent per edat (MOPI/PIN inferior)
+- L'infant **construeix el concepte mateix** de lectura
+- **L'adult descodifica sempre**. L'infant construeix significat.
+- Bastides: pistes paratextuals, lectura logogràfica del propi nom
+- Exemple: *"Mirant el dibuix i el títol, qui creus que serà el protagonista?"*
+
+### Tipus 2 — Lectura emergent per llengua (TILC/L2)
+- Alumne **ja és lector en L1**. Té CUP (Competència Subjacent Comuna)
+- L'alumne descodifica, però el català és L2 inicial (pas de BICS a CALP)
+- Bastides: intercomprensió (semblances L1↔català), TOLC, glossari bilingüe, iniciadors comparats
+- Exemple: *"Com es diu 'cèl·lula' en la teva llengua? Fixa't que l'estructura és igual en català que en la teva L1"*
+
+### Variable de perfil: `fase_lectora`
+Trànsit **Fase Logogràfica → Fase Alfabètica**. Forquilla evolutiva: 4-7 anys (no curs fix).
+
+```
+fase_lectora: "logografica" | "alfabetica_emergent" | "alfabetica_fluida"
+```
+
+Defaults: Infantil → `logografica` · 1r-2n Primària → `alfabetica_emergent` · 3r+ → `alfabetica_fluida`
+
+### Càlcul de modalitat lectora
+
+| Condició | Modalitat |
+|---|---|
+| `fase_lectora == "logografica"` | **compartida** (adult descodifica, infant construeix) |
+| `fase_lectora == "alfabetica_emergent"` | **progressiva** ("ara tu, ara jo") |
+| `nouvingut + MECR baix + fase_lectora != "logografica"` | **transferència** (Tipus 2, usa CUP de L1) |
+| Resta | **autònoma** |
+
+### Nota sobre majúscules a Infantil (rectificació MALL 2026-05-15)
+**NO** conversió automàtica a CAPS per a I3-I5. Materials reals a l'aula tenen majúscula + minúscula des d'I3. Les majúscules són per **escriure** (motriu), no per **llegir**. ATNE: opció manual puntual, no conversió massiva.
+
+---
+
+## Catàleg complet d'instruments a ATNE
+
+Estat de cada instrument al sistema ATNE:
+- ✅ **Implementat** — disponible com a complement actiu
+- 🔶 **Parcial** — integrat dins d'un altre complement
+- 🔲 **Pendent** — al marc MALL, ATNE no l'ofereix encara
+- ⛔ **Fora d'abast** — correspon a la interacció a l'aula física
+
+### Bastides lingüístiques — lèxiques
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Glossari (terme + definició simple) | ✅ | Complement separat. Bilingüe si nouvingut |
+| Negretes amb explicació | ✅ | Termes destacats al text amb explicació integrada |
+| Definicions integrades | ✅ | Definicions al flux del text |
+| Traducció L1 | ✅ | Part del glossari bilingüe |
+| Banc de paraules clau | 🔶 | Integrat al complement bastides (Bloc B) |
+
+### Bastides lingüístiques — sintàctiques
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Connectors lògics (taula) | 🔶 | Integrat al complement bastides (Bloc C) |
+| Reformulació sintàctica (simplificació) | 🔶 | Aplicada com a regla al catàleg d'instruccions |
+| Frases curtes / una idea per frase | 🔶 | Aplicada com a regla al catàleg d'instruccions |
+| Concordança visible (subjecte-verb explícit) | 🔲 | No implementat |
+
+### Bastides lingüístiques — discursives
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Base d'orientació per gènere | 🔶 | Integrat al complement bastides (Bloc A) |
+| Marcadors discursius | 🔶 | Dins de connectors |
+| Plantilles per gènere literari | 🔲 | No implementat com a complement separat |
+| Transllenguatge / TOLC | 🔲 | Pendent (parcialment cobert pel glossari bilingüe) |
+
+### Bastides visuals i multimodals
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Pictogrames | ✅ | Complement separat |
+| Il·lustracions | ✅ | Complement beta (Pexels, Wikimedia, FLUX) |
+| Esquema visual | ✅ | Diagrama/mapa de l'estructura del text |
+| Línies de temps | 🔶 | Pot generar-se dins de l'esquema visual |
+| Codis de color sistemàtics | 🔲 | No implementat |
+
+### Bastides cognitives
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Mapa conceptual | ✅ | Complement separat |
+| Mapa mental (radial) | ✅ | Complement separat |
+| Esquema visual | ✅ | (vegeu visuals) |
+| Resum graduat | 🔲 | No implementat |
+
+### Bastides metacognitives i de lectura
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Preguntes de comprensió (3 plànols × 3 moments) | ✅ | Complement separat |
+| Bastides pre-lectura (activació previs) | 🔶 | Dins de bastides → Abans de llegir |
+| Bastides durant lectura (subratllat, notes) | 🔶 | Dins de bastides → Durant la lectura |
+| Bastides post-lectura (resum, valoració) | 🔶 | Dins de bastides → Després de llegir |
+| Pauta d'interrogació (checklist autoregulació) | 🔶 | Dins de bastides (Bloc D, si producció) |
+| Avaluació reguladora (Sanmartí) | 🔲 | No implementada |
+
+### Bastides de producció
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Iniciadors de frase per HCL | 🔶 | Dins de bastides (Bloc B, si producció) |
+| Cartes conversacionals (per al debat) | 🔲 | MALL ho recomana, no implementat |
+| Modelatge del docent (modeling) | ⛔ | Correspon a l'aula |
+| Rúbriques d'assoliment per a l'alumne | 🔲 | No implementada |
+
+### Bastides procedimentals (per al docent)
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Argumentació pedagògica (decisions) | ✅ | Sempre present a la sortida |
+| Notes d'auditoria (canvis amb motiu) | ✅ | Sempre present a la sortida |
+| Indicadors d'avaluació per a l'alumne | 🔲 | No generat per ATNE |
+
+### Instruments interaccionals i personals
+
+| Instrument | Estat | Detall |
+|---|---|---|
+| Ajuts (mediació docent en temps real) | ⛔ | Fora d'abast — interacció a l'aula |
+| Crossa (notes personals de l'alumne) | ⛔ | Fora d'abast — instrument personal |
+| Tutor entre iguals | ⛔ | Fora d'abast |
+| TTS / audiodescripció | ⛔ | Fora d'abast actual d'ATNE |
+
+### Resum quantitatiu
+
+| Categoria | ✅ | 🔶 | 🔲 | ⛔ |
+|---|---|---|---|---|
+| Lingüístiques | 4 | 5 | 4 | 0 |
+| Visuals i multimodals | 3 | 2 | 1 | 0 |
+| Cognitives | 3 | 1 | 1 | 0 |
+| Metacognitives i lectura | 1 | 4 | 1 | 0 |
+| De producció | 0 | 2 | 3 | 1 |
+| Procedimentals (docent) | 2 | 1 | 1 | 0 |
+| Interaccionals i personals | 0 | 0 | 0 | 4 |
+| **Total** | **13** | **15** | **11** | **5** |
+
+---
+
+## Mapa d'implementació ATNE (2026-05-16)
+
+| Instrument | Complement ATNE | Estat |
+|---|---|---|
+| Base d'orientació | `bastides` | ✅ |
+| Catàleg de recursos | `bastides` | ✅ |
+| Mapa conceptual | `mapa_conceptual` | ✅ |
+| Esquema visual | `mapa_conceptual` (mode infantil) | ✅ |
+| Preguntes de comprensió | `preguntes_comprensio` | ✅ |
+| Glossari | `glossari` | ✅ |
+| Pictogrames | `pictogrames` | ✅ |
+| Il·lustracions | `illustracions` | ✅ |
+| Pauta d'interrogació | `bastides` (Bloc D) | 🔶 |
+| Transllenguatge / TOLC | — | 🔲 pendent |
+| Activitats d'aprofundiment | `activitats_aprofundiment` | ✅ |
+| Ajuts | — | ⛔ interaccional |
+| Crossa | — | ⛔ interaccional |
+
+---
+
+## Autors i evidència clau
+
+| Autor / Marc | Aportació |
+|---|---|
+| **Vygotsky** (1978) | ZDP i scaffolding — base teòrica de les bastides |
+| **Wood, Bruner & Ross** (1976) | *The role of tutoring in problem solving.* Concepte operatiu de *scaffolding* com a suport temporal |
+| **Jorba, Gómez i Prat** | *Parlar i escriure per aprendre.* HCL, bases d'orientació, iniciadors de frase |
+| **Neus Sanmartí** | Avaluació reguladora i pautes d'interrogació per aprendre ciències |
+| **Zinka Carandell** | Estructura ESETE (Experiència → Sistematització → Enfocament → Teoria → Experiència enriquida) |
+| **Cummins, J.** (2000) | *Language, Power and Pedagogy.* Distinció BICS/CALP: les bastides per accedir al CALP són imprescindibles |
+| **Jordi Domènech** | Recerques empíriques: l'ús de bastides millora significativament la qualitat del raonament científic |
+| **CAST / Rose & Meyer** (2002) | DUA — base dels Suports DUA |
+| **Gibbons, P.** (2002, 2015) | *Scaffolding Language, Scaffolding Learning.* Bastides lingüístiques en TILC/CLIL |
+| **González-Davies** (2014) | TOLC — Translation for Other Learning Contexts |
+| **FJE — MALL** | Taxonomia operativa integrada bastides/suports/autoregulació (corpus NotebookLM, 34 fonts) |
+| **Decret 150/2017** | Marc normatiu: 3 nivells de mesures i suports (universals/addicionals/intensius) |
+
+---
+
+## Exemples concrets d'aplicació a l'aula
+
+### Bases d'orientació per matèria (1r-2n ESO)
+
+**Ciències — Informe de laboratori**
+1. *Resum*: objectiu i conclusió principal.
+2. *Introducció*: què volem saber i hipòtesi ("Si…, llavors…").
+3. *Material i mètodes*: procediment per fases.
+4. *Resultats*: gràfics o taules.
+5. *Conclusions*: interpretació ("Això significa que… perquè…") i validació de la hipòtesi.
+
+**Història — Crònica histórica**
+1. *Situació inicial*: qui, on i quan.
+2. *Desenvolupament cronològic*: connectors temporals (primer, després, finalment).
+3. *Causes i conseqüències*: per què va passar i quin impacte va tenir.
+4. *Conclusió*: valoració de la importància histórica.
+
+**Llengua — Ressenya d'un llibre**
+1. *Dades tècniques*: títol, autor, gènere.
+2. *Resum sense espòilers*: de què tracta.
+3. *Valoració personal*: què m'ha agradat i per què (adjectius valoratius).
+4. *Tancament*: a quin lector el recomanaria.
+
+### Estructura ESETE (Carandell)
+Seqüència didàctica que incorpora bastides progressivament:
+1. **Experiència** — Situació real o problema que provoca interès.
+2. **Sistematització** — Organitzar les idees emergents.
+3. **Enfocament** — Reorientar cap als continguts curriculars.
+4. **Teoria** — Sistematitzar amb el llenguatge acadèmic.
+5. **Experiència enriquida** — Tornar a aplicar el coneixement construït.
+
+### Exemple de Modelatge ("Think Aloud")
+*"Com a lector, quan veig aquest títol en negreta em pregunto si és la idea més important. I tu, què en penses?"*
+Funciona com a ZDP de Vygotsky: verbalitzar el procés d'un lector expert.
+
+### Exemple TOLC a l'aula (Primària, nous.)
+Text sobre volcans:
+- **Activació**: "Com es diu *magma* en la teva llengua? S'assembla?"
+- **Acarament**: requadre "Contrast" al text adaptat: "En català: *el cràter*; en àrab: *فوهة البركان*. Fixa't que les dues llengües usen article davant el nom."
+- **Transferència**: "Escriu una frase sobre els volcans en la teva L1 i intenta traduir-la al català amb els connectors que hem vist."
+
+---
+
+## Errors comuns — què NO fer
+
+1. **Bastida genèrica**: "escriu introducció, cos i conclusió" no és una base d'orientació — és una plantilla buida. Una base d'orientació real nomena els passos en el llenguatge de la matèria.
+2. **Sobreintervenció**: intervenir en excés genera dependència i impedeix l'autonomia. La bastida es converteix en pròtesi.
+3. **No retirar la bastida**: quan l'alumne ja pot fer la tasca sol, mantenir el suport frena el seu desenvolupament.
+4. **Pictogrames inline a A2+**: a partir de A2, els pictogrames van al glossari visual, mai al cos del text.
+5. **Glossari bilingüe = transllenguatge**: el glossari tradueix paraules; el TOLC usa la L1 per pensar i transferir. Són instruments complementaris, no sinònims.
+6. **Confondre bastida amb suport DUA**: una bastida és temporal i es retira; un suport DUA pot ser permanent.
+7. **Simplificació excessiva**: usar llenguatge col·loquial per "facilitar" en lloc d'oferir bastides per accedir al CALP. El CALP és imprescindible per al currículum (Cummins).
+8. **Bastida sense ZDP**: donar suports per sota o per sobre del nivell real de l'alumne.
+9. **Ocultar els criteris**: no compartir els indicadors d'avaluació des del principi. L'alumne ha de saber què s'espera per autoregular-se.
+
+---
+
+## Matissos i excepcions
+
+- **Bastides emergents**: el docent pot generar bastides ad hoc en la interacció oral, no tota bastida és planificable (aquí s'apropen als Ajuts).
+- **Modalitat "Porta Oberta" (textos literaris)**: la bastida ha de fomentar creativitat i resposta afectiva, no precisió. "Porta Tancada" (textos informatius/científics): bastida centrada en precisió i rigor.
+- **ZDP individualitzada**: una bastida adequada per a un alumne pot ser excessiva o insuficient per a un altre amb la mateixa condició.
+- **Crossa vs. bastida**: alguns alumnes (NEE) poden necessitar crosses de forma prolongada o permanent. No és una bastida en sentit estricte (no es retira), però és legítima com a suport d'accés.
+- **TOLC no és exclusiu de nouvinguts**: aplica a NESE (allibera càrrega cognitiva) i AACC (enriquiment metalingüístic).
+
+---
+
+## Connexions amb altres documents del corpus
+
+- **`M2_mesures-suports-inclusius.md`** — Els instruments de mediació s'encabeixen dins els 3 nivells del D150: bastides → mesures addicionals; suports DUA → mesures universals; ajuts → mesures addicionals/intensives
+- **`M2_DUA-principis-pautes.md`** — Els Suports DUA apliquen els principis DUA (representació múltiple, expressió múltiple, compromís)
+- **`M2_factors-promotors-aprenentatge.md`** — ZDP i bastides com a factors promotors: fonamentació teòrica bàsica
+- **`M2_programacio-multinivell.md`** — La programació multinivell aplica la ZDP al disseny d'activitats: bastides ajustades a cada nivell dins d'una mateixa aula
+- **`M3_MECR-descriptors-llengua.md`** — Els nivells MECR determinen la gradació de bastides lingüístiques i la densitat del catàleg de recursos
+- **`M3_TILC-llengua-i-continguts.md`** — El TILC és el marc metodològic que dona sentit a les bastides lingüístiques: base d'orientació i catàleg de recursos per matèria
+- **`M3_translanguaging-plurilinguisme.md`** — Transllenguatge/TOLC: base teòrica i exemples d'aplicació per etapa
+- **`M3_estrategies-catala-L2.md`** — Estratègies de suport lèxic i lingüístic per a alumnat nouvingut
+- **`M1_alumnat-nouvingut.md`** — Perfil principal per a glossari bilingüe i TOLC; MECR clau per gradació de bastides
+- **`M6_coavaluacio-autoavaluacio.md`** — Pauta d'interrogació com a instrument d'autoavaluació formativa
+- **`M6_avaluacio-formativa-formadora.md`** — Marc de l'avaluació reguladora (Sanmartí) on s'inscriu la pauta d'interrogació
+
+---
+
+## Detecció
+
+### Senyals del docent
+- "No sé com ajudar aquest alumne a estructurar la resposta escrita."
+- "L'alumne entén el contingut però no sap com expressar-ho."
+- "Tota la classe necessita el mateix text però a nivells molt diferentes."
+- "L'alumne nouvingut té coneixements però no pot accedir al text en català."
+- "No sé quines paraules del text necessiten suport i quines no."
+- "L'alumne sembla bloquejat davant d'una tasca que hauria de poder fer."
+
+### Senyals de l'alumne
+- Frustració o bloqueig davant la tasca escrita ("no sé com començar").
+- Producció escrita sense estructura o coherència, tot i conèixer el contingut.
+- Comprensió oral bona però comprensió lectora molt baixa.
+- Usa la L1 espontàniament quan no troba la paraula en la llengua de l'aula.
+- Deixa la tasca en blanc o copia sense comprendre.
+
+### Senyals de context
+- Text curricular amb vocabulari CALP sense adaptació lèxica.
+- Activitat de producció escrita sense model ni guia.
+- Aula amb diversitat alta de MECR (nouvinguts + natiu + NESE).
+- Gènere textual nou que l'alumne no ha treballat mai.
+- Moment de canvi d'etapa (CI→CM, Primària→ESO).
+
+### Anti-senyals
+- L'alumne ja produeix de forma autònoma i estructurada: retirar la bastida.
+- El text adaptat ja és comprensible sense suport addicional.
+- L'alumne usa connectors i iniciadors sense bastida: la interiorització és completa.
+
+### Heurístiques
+
+**Principi general**: Offerirel suport just per treballar a la ZDP. Ni massa (dependència) ni massa poc (frustració).
+
+**Heurística 1 — Bastida o simplificació?**
+Quan un docent demana "simplificar el text": primer preguntar si l'objectiu és accessibilitat (→ simplificació + suports DUA) o producció de qualitat (→ bastida lingüística sense simplificació excessiva). No es pot substituir el CALP per l'oralitat quotidiana.
+
+**Heurística 2 — Quin instrument primer?**
+Per a nouvinguts pre-A1: glossari bilingüe + pictogrames primer. Si l'alumne segueix bloquejat: afegir TOLC (pont cognitiu L1). Si el bloqueig és de producció: afegir base d'orientació.
+
+**Heurística 3 — Quan retirar?**
+Quan l'alumne usa l'instrument sense llegir-lo (ha interioritzat l'estructura), és el moment de retirar-lo progressivament. La bastida ha d'anar desapareixent per seccions, no de cop.
+
+**Heurística 4 — Bastida vs. suport DUA**
+Pregunta clau: "Desapareixerà la necessitat quan l'alumne aprengui?" Si sí → bastida temporal. Si no (per discapacitat, condició permanent) → suport DUA potencialment permanent.
+
+---
+
+## 6. Instruccions per a l'LLM
+
+Quan generis instruments de mediació pedagògica per a un text adaptat, segueix aquest ordre de decisions:
+
+### Decisió 1 — Quins instruments activar
+Activa cada instrument **únicament** si el complement corresponent ha estat triat pel docent. No generis instruments no sol·licitats.
+
+### Decisió 2 — Gradació per MECR/MALL
+Per a **cada instrument**, consulta les taules de gradació d'aquest document i aplica el nivell corresponent:
+- `pre-A1 / Emergent`: zero escriptura autònoma. Activitats físiques, visuals, manipulatives.
+- `A1 / Inicial`: suports molt concrets, visuals, sense abstracció.
+- `A2-B1 / Funcional-Estratègic`: bastides lingüístiques operatives, connectors graduals.
+- `B2-C1 / Acadèmic-Crític`: CALP, contrast de fonts, retòrica.
+
+### Decisió 3 — Base d'orientació: SEMPRE disciplinar
+La base d'orientació ha de contenir els passos específics del **gènere** i la **matèria**. Mai una seqüència genèrica. Si no coneixes el gènere, inferiex-lo del text original.
+
+### Decisió 4 — Pictogrames
+- `pre-A1/A1`: inline al text (damunt o al costat de cada paraula clau) + paratext d'anticipació.
+- `A2+`: glossari visual al peu ÚNICAMENT. MAI inline al text corrent.
+
+### Decisió 5 — Glossari bilingüe
+Activa la variant bilingüe ÚNICAMENT si `nouvingut.actiu == true` i `nouvingut.L1` és coneguda. Usa l'alfabet original de la L1 (àrab, xinès, ciríl·lic, etc.).
+
+### Decisió 6 — Preguntes de comprensió
+- Distribució per plànols: segueix la taula de pesos (literal/inferencial/crític per nivell).
+- Formats: segueix la taula de formats apropiats (V/F, buits, inferencial, argumentació...).
+- Quantitat: 2-3 pre-lectura, 1-2 durant, 3-5 post-lectura. Mai més de 10 en total.
+
+### Decisió 7 — Pauta d'interrogació
+Genera-la ÚNICAMENT si hi ha complement de producció actiu (`preguntes_comprensio` o `activitats_aprofundiment`). Ha de ser específica del gènere i la tasca.
+
+### Regles absolutes
+- `pre-A1`: ZERO escriptura autònoma en cap instrument (bastides, preguntes, activitats).
+- No generis instruments sense nom canònic. Usa sempre: Base d'orientació / Catàleg de recursos / Mapa conceptual / Esquema visual / Preguntes de comprensió / Glossari / Pictogrames / Il·lustracions / Pauta d'interrogació / Activitats d'aprofundiment.
+- No barregis el catàleg de recursos amb la base d'orientació: són instruments separats.
+
+---
+
+## Fonts
+
+### Marcs interns FJE
+- **MALL — Model d'Aprenentatge de les Llengües** (ESO, MOPI, PIN). Corpus NotebookLM FJE, 34 fonts.
+- Presentacions de formació en **TIL** i **TILC** de Jesuïtes Educació.
+
+### Acadèmiques
+- Vygotsky, L. S. (1978). *Mind in Society*. Cambridge: Harvard University Press.
+- Wood, D., Bruner, J. & Ross, G. (1976). The role of tutoring in problem solving. *JCPP*, 17(2), 89–100.
+- Jorba, J., Gómez, I., Prat, À. *Parlar i escriure per aprendre. Ús de la llengua en situació d'ensenyament-aprenentatge des de les àrees curriculars*. (Referent del MALL.)
+- Cummins, J. (2000). *Language, Power and Pedagogy*. Clevedon: Multilingual Matters.
+- Rose, D. & Meyer, A. (2002). *Teaching Every Student in the Digital Age: UDL*. Alexandria: ASCD.
+- Gibbons, P. (2002/2015). *Scaffolding Language, Scaffolding Learning* (1a i 2a ed.). Portsmouth: Heinemann.
+- González-Davies, M. (2014). TOLC — Translation for Other Learning Contexts. In *A Companion to Translation Studies* (ed. Bermann & Porter). Blackwell.
+- Esteve i González-Davies (2016). Estratègies de transferència interlingüística en l'aprenentatge de llengües addicionals. Article FJE/MALL.
+- CAST (2018). *Universal Design for Learning Guidelines v2.2*. Wakefield: CAST Publishing.
+- Decret 150/2017, de 17 d'octubre, d'atenció educativa en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
