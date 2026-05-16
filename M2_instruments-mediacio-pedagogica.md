@@ -128,7 +128,14 @@ Pesos relatius per nivell MALL:
 ### Il·lustracions (suport visual contextual)
 Imatges que contextualitzen el tema, no decoratives. Prioritzar: Wikimedia CC, generació IA amb caption "IA".
 
-### Transllenguatge / TOLC (pont cognitiu L1→L2)
+### Transllenguatge / TOLC i PBCS (pont cognitiu L1→L2)
+Dos instruments plurilingües complementaris del MALL:
+
+- **TOLC** (*Translation for Other Learning Contexts*, González-Davies): usa la **traducció** com a eina pedagògica per ancorar conceptes i transferir.
+- **PBCS** (*Pedagogically-Based Code Switching*, Corcoll): **alternança estratègica de llengües** a l'aula per promoure consciència metalingüística. El docent dissenya quan i com canviar de llengua; no és espontani.
+
+La diferència: TOLC tradueix i compara; PBCS alterna per fer visible la diferència entre sistemes lingüístics.
+
 **Distinció fonamental respecte al glossari:**
 - Glossari = recepció (tradueix paraules per comprendre l'input)
 - Transllenguatge = acció i reflexió (usa la L1 per *pensar*, comparar, transferir)
@@ -177,6 +184,46 @@ Mediació docent reactiva i situada en el moment de la interacció. No planifica
 Instrument personal que l'alumne construeix i personalitza fins que el coneixement es consolida. Exemples: imatge associada a un so difícil, paraula en L1 que activa el record, mnemotècnia pròpia. No es pot generar des de fora: ha de ser l'alumne qui la triï.
 
 > "Quan un infant no identifica la lletra fonèticament, cal ajudar-lo a buscar una 'crossa'... millor si pot ser personalitzada per a cada infant." (MALL, FJE)
+
+---
+
+## Principis pedagògics MALL fonamentals
+
+### La infusió (te i aigua) — TILC
+En les bastides TILC, el contingut (te) i la llengua (aigua) són **indestriables**. Aprendre ciències és aprendre a pensar com un científic i a parlar/escriure com un científic. Una base d'orientació no és "com escriure", sinó "com pensar la matèria a través de l'escriptura".
+
+> "El te (la matèria) no es pot distingir de l'aigua (la llengua) amb la qual es mescla." (MALL, FJE)
+
+**Implicació per ATNE**: cada base d'orientació ha de portar el raonament disciplinar específic, no una plantilla genèrica d'escriptura.
+
+### Semàntica abans que gramàtica
+El treball sobre la forma (connectors, temps verbals, morfologia) **sempre** ha de venir després d'haver entès el significat i la funció comunicativa del text. No es corregeix la gramàtica d'un text que l'alumne no ha comprès.
+
+### Cessió progressiva de responsabilitat
+El MALL estableix una seqüència clara de control de la tasca:
+
+| Fase | Qui té el control | Exemple |
+|---|---|---|
+| **1. Docent per a tots** | Total docent | Modelatge en veu alta, Think Aloud |
+| **2. Compartida** | Docent + alumnat junts | Escriptura compartida, pissarra col·lectiva |
+| **3. Col·laboració** | Parelles o petit grup heterogeni | Escriptura per parelles, revisió mútua |
+| **4. Autònoma** | Alumne sol | Usa crosses i bastides interioritzades |
+
+Les bastides acompanyen aquest trànsit. La retirada progressiva de bastides **és** la cessió de responsabilitat.
+
+### BICS vs CALP (Cummins)
+Distinció crítica per entendre per què molts alumnes nouvinguts (i NESE) fracassen acadèmicament tot i "parlar bé":
+
+| | BICS | CALP |
+|---|---|---|
+| **Nom** | Basic Interpersonal Communicative Skills | Cognitive Academic Language Proficiency |
+| **Tipus** | Llengua conversacional i informal | Llengua acadèmica descontextualitzada |
+| **Temps d'adquisició** | **2-3 anys** | **5-7 anys** |
+| **Senyals** | Conversa fluida a l'esbarjo, comprensió oral bàsica | Textos acadèmics, gèneres disciplinars, CALP |
+
+> "El fracàs acadèmic d'alumnes nouvinguts sovint no és cognitiu: és un problema de CALP no construït." (Cummins, MALL)
+
+**Implicació per ATNE**: les bastides lingüístiques (base d'orientació, catàleg de recursos) serveixen precisament per **construir el CALP** que l'alumne no pot adquirir espontàniament. Simplificar el text (BICS) no substitueix ensenyar el CALP.
 
 ---
 
@@ -279,15 +326,18 @@ Regla MALL: *"menys és més"*. No fatigar; mantenir compromís lector.
 
 ## Habilitats CognitivoLingüístiques (HCL)
 
-Referent: Jorba, Gómez i Prat — *Parlar i escriure per aprendre*. Cada HCL té els seus iniciadors i pautes d'autoregulació:
+Referent: Jorba, Gómez i Prat — *Parlar i escriure per aprendre*. El MALL/TILC treballa **8 HCL** principals. Cada habilitat té els seus iniciadors i pauta d'autoregulació:
 
 | Habilitat | Iniciadors de frase | Pauta d'interrogació |
 |---|---|---|
 | **Definir** | "X és un/a...", "S'anomena X a...", "Es caracteritza per..." | Has utilitzat un predicat nominal per identificar el concepte? |
 | **Descriure** | "Està format per...", "Té una aparença...", "Se situa a..." | Has utilitzat prou adjectius qualificatius per detallar les característiques? |
+| **Resumir** | "Les idees principals són...", "En resum...", "El text tracta de..." | Has seleccionat les idees essencials sense copiar literalment? |
 | **Explicar** | "Això passa perquè...", "Com que..., llavors...", "El mecanisme és..." | Has utilitzat connectors temporals i causals per encadenar els fets? |
 | **Justificar** | "Es relaciona amb...", "Té sentit perquè...", "Això es deu a..." | Has validat l'argument amb un model científic o teòric de referència? |
 | **Argumentar** | "La meva idea és...", "Les meves raons són...", "En conclusió..." | Has inclòs algun contraargument per valorar diferents punts de vista? |
+| **Demostrar** | "La prova és que...", "Com es pot comprovar a...", "L'experiment mostra que..." | Has aportat evidències que provin la tesi, no només l'afirmen? |
+| **Interpretar** | "Això significa que...", "L'autor vol dir que...", "Des del meu punt de vista..." | T'has posicionat críticament davant dels fets, no només els has descrit? |
 
 ### Progressió HCL per nivell MECR (exemple: justificar)
 
@@ -381,7 +431,10 @@ Estat de cada instrument al sistema ATNE:
 | Base d'orientació per gènere | 🔶 | Integrat al complement bastides (Bloc A) |
 | Marcadors discursius | 🔶 | Dins de connectors |
 | Plantilles per gènere literari | 🔲 | No implementat com a complement separat |
+| Textos model | ⛔ | Instrument MALL clau ("del text al text") però fora d'abast ATNE — vinculat al mòdul de generació de textos futur |
 | Transllenguatge / TOLC | 🔲 | Pendent (parcialment cobert pel glossari bilingüe) |
+| PBCS (alternança de codis pedagògica) | 🔲 | Pendent — complement del TOLC, afavoreix consciència metalingüística |
+| Modelatge / Think Aloud | ⛔ | El docent verbalitza el seu procés lector/escriptor — interaccional, fora d'abast ATNE |
 
 ### Bastides visuals i multimodals
 
