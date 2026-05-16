@@ -272,6 +272,13 @@ El **Centre de Recursos Educatius per a Deficients Visuals (CREDV-ONCE)** és el
 
 ---
 
+## Connexions MALL
+
+**HCL accessible directament**: Totes les HCL (barrera de canal/percepció, NO cognitiva).
+**Cap modulació HCL**: La discapacitat visual no afecta les habilitats cognitivo-lingüístiques. Totes les HCL (Narrar → Argumentar) estan preservades.
+**Bastida clau MALL**: Estructura semàntica (H1-H3) per text-to-speech. Descripció verbal explícita de tot element visual. Alt-text narratiu (no descriptiu) per a gràfics i taules.
+**Eix oral/escrit**: Text-to-speech és el canal primari per a ceguesa. L'oralitat exploratòria (podcast, audiodescripció) com a SD d'entrada.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

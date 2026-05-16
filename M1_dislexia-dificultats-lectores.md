@@ -251,6 +251,13 @@ L'estudi de Vale De Oliveira et al. (2026) confirma que una intervenció fonosil
 
 ---
 
+## Connexions MALL
+
+**HCL accessible directament**: Totes les HCL (Narrar → Argumentar) — la barrera és fonològica/descodificació, NO cognitiva
+**Cap HCL exclosa**: La bastida no canvia la complexitat cognitiva sinó el canal d'accés.
+**Bastida clau MALL**: Dissociar descodificació de comprensió — lectures en veu alta del docent, text-to-speech. Catàleg de recursos amb lèxic controlat (no sinònims, paraules d'alta freqüència).
+**Eix oral/escrit**: L'oralitat és el canal fort. Dictat a l'adult i resposta oral per a la producció.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

@@ -323,6 +323,13 @@ La **ICD-11 (6A04)** classifica el TDC com a *Developmental motor coordination d
 - Missiuna, C., et al. (2008). Partnering for Change: An innovative school-based occupational therapy service delivery model. *Canadian Journal of Occupational Therapy*, 75(2), 70-79.
 
 
+## Connexions MALL
+
+**HCL accessible directament**: Totes les HCL (barrera motriu, NO cognitiva ni lingüística).
+**Principi MALL**: Dissociar el canal de producció de la HCL. La dificultat motriu no implica dificultat cognitiva — mai rebaixar l'exigència conceptual per la barrera motriu.
+**Bastida clau MALL**: Plantilles digitals, cartes de conversa/taulells de debat per evitar escriptura manual. Resposta oral o per selecció com a alternativa sistemàtica.
+**Eix oral/escrit**: L'oral és el canal fort. Dictat a l'adult o al dispositiu; selecció entre opcions com a resposta escrita alternativa.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

@@ -323,6 +323,15 @@ La **coordinació amb la família i la comunitat** és un eix transversal d'actu
 - OCDE (2015). *Helping immigrant students to succeed at school and beyond*. París: OECD Publishing.
 
 
+## Connexions MALL
+
+**HCL i progressió L2** (BICS/CALP): L'alumne nouvingut JA DOMINA les HCL en la seva L1. La bastida és per a la L2, no per a la cognició.
+- A1-A2 → Narrar, Descriure (BICS en formació: 2-3 anys)
+- B1 → Explicar
+- B2-C1 → Justificar, Argumentar (CALP: 5-7 anys per consolidar)
+**Bastida clau MALL**: TOLC — Language Identity Texts (LIT), dictats bilingües, collages lingüístics. Recasting i rephrasing com a feedback no interruptiu.
+**Eix oral/escrit**: L'oralitat en L1 és el pont per a l'escriptura en L2.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

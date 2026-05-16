@@ -243,6 +243,15 @@ L'actuació amb l'alumnat amb altes capacitats s'ha d'emmarcar sempre en el cont
 - Gagné, F. (2004). Transforming gifts into talents: The DMGT as a developmental theory. *High Ability Studies*, 15(2), 119-147.
 
 
+## Connexions MALL
+
+**HCL a activar sempre**: Justificar, Argumentar — fins i tot quan el nivell de codi lingüístic és A2/B1.
+**Escriptura epistèmica**: escriure per transformar el pensament, no per transcriure.
+**Principi MALL — doble eix**: El "Què" (exigència cognitiva) i el "Com" (bastida lingüística) son independents. Mai rebaixar el "Què".
+**Eix oral/escrit**: Debat i argumentació oral com a SD prèvia a la producció escrita.
+
+**Doble excepcionalitat (2e)**: Quan coexisteix amb una altra condició (TDAH, dislèxia, TEA, TDL, TDC...), el principi del doble eix és inviolable: el "Què" (exigència cognitiva = HCL superiors AC) **no es toca mai**; el "Com" (bastida operativa) s'adapta per compensar la condició associada. L'error d'infraexpectativa és el risc principal. Veure `M1_creuament-variables-dependencies.md` Bloc C.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

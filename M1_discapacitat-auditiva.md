@@ -369,6 +369,13 @@ Família, CDIAP o pediatra → accés directe al CREDA (diagnòstic ORL previ re
 
 ---
 
+## Connexions MALL
+
+**Perfil LSC** (sordesa prelocutiva signant): progressió idèntica a nouvingut — el català escrit és L2. HCL disponibles en LSC (L1); bastida MALL per transferir-les al català.
+**Perfil oral** (hipoacúsia o implant): Accés a totes les HCL; la bastida és compensació de la comprensió auditiva parcial.
+**Bastida clau MALL**: Glossari bilingüe català–LSC per a perfil signant. Suport visual (esquemes, vídeos signats) per a cada HCL nova.
+**Eix oral/escrit**: LSC = l'oral (L1 del signant); català = l'escrit (L2). La producció oral exploratòria en LSC precedeix l'escriptura en català.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

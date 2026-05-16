@@ -189,6 +189,13 @@ El DSM-5 defineix tres presentacions clíniques del TDAH amb perfils cognitius i
 - Willcutt, E. G. (2012). The prevalence of DSM-IV attention-deficit/hyperactivity disorder: A meta-analytic review. *Neurotherapeutics*, 9(3), 490-499.
 
 
+## Connexions MALL
+
+**HCL accessible directament**: Narrar, Descriure (A1-A2); Explicar (B1)
+**HCL que necessiten bastida**: Justificar, Argumentar (B2-C1) — exigeixen planificació sostinguda que sobrecarrega la memòria de treball
+**Bastida clau MALL**: Bases d'orientació (GPS del gènere) per compensar el dèficit de planificació executiva. Micro-blocs + indicadors de progrés [Secció X de Y] per mantenir l'atenció activa en cada fase de la SD.
+**Eix oral/escrit**: Prioritzar oralitat exploratòria ABANS de la producció escrita. El dictat a l'adult allibera la memòria de treball i permet centrar-se en el significat, no en la grafomotricitat.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

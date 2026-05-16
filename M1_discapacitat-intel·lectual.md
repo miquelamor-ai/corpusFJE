@@ -171,6 +171,13 @@ Per atendre l'alumnat amb discapacitat intel·lectual, és fonamental adoptar un
 - ONU (2006). *Convenció sobre els Drets de les Persones amb Discapacitat*. Nova York: Nacions Unides.
 
 
+## Connexions MALL
+
+**HCL accessible directament**: Narrar, Descriure (A1-A2).
+**HCL que necessiten bastida intensa**: Explicar (B1) — amb suport visual i modelatge pas a pas. Justificar/Argumentar fora d'abast per a grau moderat/sever; accessible en grau lleu amb bastida molt estructurada.
+**Bastida clau MALL**: Un sol concepte nou per bloc (evitar sobrecàrrega cognitiva). Seqüència rígida: exemple concret → abstracció mínima. Pictogrames per anclar cada concepte.
+**Eix oral/escrit**: Dictat a l'adult per a grau moderat/sever. L'oralitat exploratòria en petit grup (no exposada) facilita l'accés a HCL sense la pressió escrita.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

@@ -251,6 +251,14 @@ Aquest document és pertinent quan l'alumne:
 - OMS (2022). *International Classification of Diseases* (11a ed., ICD-11). Ginebra: OMS.
 
 
+## Connexions MALL
+
+**HCL accessible directament**: Narrar, Descriure; Explicar (causalitat lògica-natural); Justificar (si és científic/factual, sense component social)
+**HCL que necessiten bastida explícita**: Interpretar/Valorar (implica ToM: "què sent el personatge?"); Argumentar (implica anticipar el pensament de l'altre — màxima dependència de Teoria de la Ment)
+**Nota**: No es tracta de "no activar" les HCL superiors, sinó de fer explícita la intenció comunicativa. Les cartes de conversa exploratòria (etiquetes lingüístiques) i el taulell de debat permeten activar Argumentar amb bastida de la ToM.
+**Bastida clau MALL**: Think Aloud del docent per modelar inferències ("l'autor no ho diu, però jo crec que..."). Pauta d'Interrogació en 1a persona per autoregulació. Base d'orientació molt visual, pas a pas.
+**Eix oral/escrit**: Estructura predictible oral PRÈVIA a l'escrita. La conversa exploratòria amb cartes de rol facilita HCL Argumentar amb bastida explícita de la intenció.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear

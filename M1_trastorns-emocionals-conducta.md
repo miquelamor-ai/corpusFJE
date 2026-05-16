@@ -152,6 +152,13 @@ L'actuació amb l'alumnat amb trastorns emocionals i de conducta ha de basar-se 
 - Perry, B. D., & Szalavitz, M. (2006). *The Boy Who Was Raised as a Dog*. Nova York: Basic Books.
 
 
+## Connexions MALL
+
+**HCL porta d'entrada**: Narrar, Descriure — produccions de resultat ràpid que reconstrueixen l'autoimatge acadèmica. La narrativa personal (conte, diari) és un pont legítim d'entrada a les HCL.
+**HCL que necessiten condicions prèvies**: Argumentar, Justificar — requereixen autoregulació i tolerança a la frustració; no disponibles en estat de desbordament emocional.
+**Principi MALL**: L'"acompanyament amorós i intel·ligent" (Farró) crea la seguretat prèvia per activar HCL exigents. L'estructura predictible redueix l'ansietat i permet l'entrada cognitiva.
+**Eix oral/escrit**: L'oralitat dialògica és el primer accés. La conversa exploratòria en petit grup (no exposada) facilita les HCL sense la pressió de la producció escrita individual.
+
 ## 6. INSTRUCCIONS D'ADAPTACIÓ TEXTUAL
 
 ### Barrera nuclear
