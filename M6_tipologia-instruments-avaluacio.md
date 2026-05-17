@@ -1,7 +1,7 @@
 ---
 modul: M6
 titol: "Tipologia d'Instruments d'Avaluació"
-tipus: eina
+tipus: cataleg
 descripcio: "Rúbriques, portafolis, llistes de cotejo, dianes, proves: quan i com usar cada instrument"
 review_status: esborrany
 generat_at: 2026-03-18T15:33:50

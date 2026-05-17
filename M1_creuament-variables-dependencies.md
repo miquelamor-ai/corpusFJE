@@ -1,7 +1,7 @@
 ---
 modul: M1
 titol: "Creuament de variables i dependències per a l'adaptació"
-tipus: eina
+tipus: cataleg
 descripcio: "Matriu de dependències entre variables del perfil alumne: com la combinació de condicions modifica l'adaptació necessària. 24 dependències documentades amb criteris de selecció i prioritat. Inclou meta-secció sobre doble excepcionalitat (2e) i creuaments discalcúlia."
 review_status: revisat
 generat_at: 2026-03-24T23:00:00

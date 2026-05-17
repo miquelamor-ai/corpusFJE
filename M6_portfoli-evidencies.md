@@ -1,7 +1,18 @@
 ---
 modul: M6
 titol: "Portfoli i Evidències d'Aprenentatge"
-tipus: eina
+tipus: instrument
+categoria_principal: avaluacio
+categories_secundaries:
+  - mediacio
+skill_meta:
+  name: generate-portfolio
+  agent_role: complements
+  tools_required: []
+  version: 1.0.0-proto
+  triggers:
+    - path: params.complements.portfolio
+      equals: true
 descripcio: "Portafoli digital i analògic: recollida d'evidències, reflexió i demostració de l'aprenentatge"
 review_status: esborrany
 generat_at: 2026-03-18T15:34:16

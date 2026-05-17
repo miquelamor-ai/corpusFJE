@@ -1,7 +1,7 @@
 ---
 modul: M5
 titol: "Accessibilitat digital"
-tipus: eina
+tipus: estrategia
 descripcio: "Estàndards i recursos per a materials digitals accessibles: WCAG, subtítols, lectors de pantalla"
 review_status: esborrany
 generat_at: 2026-03-21T07:17:51

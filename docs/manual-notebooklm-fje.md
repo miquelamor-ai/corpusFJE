@@ -517,7 +517,7 @@ com a eina d'autoavaluació diària a l'aula".
 ```yaml
 modul: M0
 titol: "L'examen de consciència ignasià com a eina d'autoavaluació diària"
-tipus: eina
+tipus: estrategia
 descripcio: "Adaptació pedagògica de l'examen ignasià per a la reflexió
   metacognitiva diària de l'alumnat a l'aula."
 review_status: esborrany

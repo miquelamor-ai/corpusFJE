@@ -1,7 +1,7 @@
 ---
 modul: M5
 titol: "Recursos digitals per a la diversitat"
-tipus: eina
+tipus: cataleg
 descripcio: "Apps i eines tecnològiques específiques per a NEE: comunicadors, lectors, adaptadors de text"
 review_status: esborrany
 generat_at: 2026-03-21T07:18:09
