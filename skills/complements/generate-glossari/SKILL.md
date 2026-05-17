@@ -7,7 +7,7 @@ description: >
   newcomer. Quantity and format modulated by MECR level: Emergent uses a
   visual icon+word list (no table); from A1 upwards uses a markdown table.
 author: FJE — Fundació Jesuïtes Educació
-version: 2.0.0-proto
+version: 2.1.0-proto
 complement_key: glossari
 agent_role: complements
 tools_required: []
@@ -68,14 +68,24 @@ A Emergent, la taula és massa complexa. Format: emoji + **terme** (+ L1 si nouv
 
 | Terme | Explicació simple |
 |---|---|
-| **[terme]** | [explicació en català molt senzill, màx. 8 paraules] |
+| **[terme]** | [explicació gradada per CALP segons MECR — vegeu taula sota] |
 ```
 
-Regles:
-- Explicació en **català molt senzill (nivell A1)**, sigui quin sigui el MECR de l'alumne.
-- Màxim 8 paraules per explicació.
-- No usar altres termes tècnics dins de l'explicació.
-- No repetir el terme dins de la seva explicació.
+Regles (validades MALL 2026-05-17):
+- Longitud i complexitat de l'explicació **gradada per BICS/CALP** segons MECR de l'alumne (no fixa a A1):
+
+| Nivell | Marc | Llindar paraules | Lèxic admès |
+|---|---|---|---|
+| **Emergent (pre-A1)** | BICS pur | ≤ 6 | quotidià, contextualitzat |
+| **Inicial (A1)** | BICS | ≤ 8 | quotidià |
+| **Funcional (A2)** | BICS | ≤ 8 | quotidià amb una mica d'obertura |
+| **Estratègic (B1)** | BICS amb obertura | ≤ 10 | més precís, sintaxi una mica més complexa |
+| **Acadèmic (B2)** | CALP entrant | ≤ 15 | terminologia acadèmica admesa |
+| **Crític (C1)** | CALP plenament | ≤ 18 | lèxic d'especialitat |
+
+- No usar altres termes tècnics que també haurien de ser al glossari (regla general).
+- No repetir el terme dins de la seva explicació (regla general).
+- **Justificació MALL**: la regla anterior "sempre A1" infrautilitzava CALP a B2-C1. Validat per NotebookLM amb cites a corpus canònic (Cummins, M3_MECR-descriptors-llengua, M3_TILC).
 
 ## Variant bilingüe A1+ (nouvinguts amb L1 coneguda)
 
@@ -84,7 +94,7 @@ Regles:
 
 | Terme | Traducció ({L1}) | Explicació simple |
 |---|---|---|
-| **[terme]** | [traducció en alfabet original de la L1] | [català A1] |
+| **[terme]** | [traducció en alfabet original de la L1] | [català gradat per CALP — vegeu taula monolingüe] |
 ```
 
 Regles addicionals:
