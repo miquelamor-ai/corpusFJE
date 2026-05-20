@@ -120,6 +120,20 @@ Per assegurar una implementació efectiva del TIL, cal evitar certs errors:
 5.  **No ensenyar explícitament el llenguatge acadèmic**: Assumir que l'alumnat adquirirà el llenguatge específic de cada matèria de forma natural. Cada disciplina té el seu propi registre, vocabulari i estructures discursives que han de ser objecte d'ensenyament explícit.
 6.  **Centrar-se només en la correcció gramatical**: Prioritzar la forma per sobre de la comunicació i la comprensió. Si bé la correcció és important, l'objectiu principal és que l'alumnat pugui comunicar-se i accedir al coneixement. Cal tolerar l'error com a part del procés d'aprenentatge.
 
+## Instruments concrets del TIL
+
+El TIL és un **marc** (filosofia pedagògica). Per fer-lo realitat a l'aula calen **instruments concrets** que operacionalitzin els seus principis. El corpusFJE documenta els tres instruments canònics:
+
+| Instrument | Funció | Iniciativa | Modalitat | On es documenta |
+|---|---|---|---|---|
+| **TOLC** (Translation for Other Learning Contexts) | Traducció activa L1↔català com a comparació pedagògica | Docent o material (proposa) | Escrita (taula bilingüe) i oral | `skills/mediacio/generate-tolc/SKILL.md` |
+| **PBCS** (Pedagogically-Based Code Switching) | Alternança planificada de codis per fer visible el sistema lingüístic | Docent (intervé en moments concrets) | Oral (Infantil) i escrita (a partir Primària) | `M2_PBCS-alternanca-codis-pedagogica.md` |
+| **LIT** (Language Identity Texts) | Textos creats per l'alumne que integren la seva identitat lingüística | Alumne (produeix) | Escrita (poema, autobiografia, conte bilingüe) | `M2_LIT-textos-identitat-linguistica.md` |
+
+Aquests tres instruments **es complementen**: el TOLC pot servir d'entrada (input), el PBCS planifica els moments d'alternança a classe (intervenció), i el LIT culmina amb la producció autònoma de l'alumne (output). Un projecte plurilingüe ben dissenyat sovint els integra tots tres.
+
+A ATNE, el TOLC i una versió light del LIT (G-08, pre-A1) estan implementats com a part de la generació automàtica quan el perfil té català com a L2 + L1 coneguda. El PBCS no és terreny d'ATNE — és majoritàriament oral i correspon a assistents de disseny instruccional.
+
 ## 3. Connexions amb altres documents del corpus
 
 - **`M3_TILC-llengua-i-continguts.md`** — El TILC és la concreció del TIL a les classes de matèria no lingüística; el TIL estableix el marc estratègic i el TILC l'operativitza en cada assignatura
@@ -128,6 +142,9 @@ Per assegurar una implementació efectiva del TIL, cal evitar certs errors:
 - **`M3_estrategies-catala-L2.md`** — Les estratègies de català L2 son una de les branques pràctiques del TIL: el marc plurilingüe integra L1, L2 i la llengua escolar en un projecte coherent
 - **`M1_alumnat-nouvingut.md`** — El TIL és especialment crític per a l'alumnat nouvingut: la coordinació entre l'aula d'acollida i les classes de matèria és la clau de la integració lingüística real
 - **`M2_DUA-principis-pautes.md`** — El DUA i el TIL convergeixen en el principi de múltiples formes de representació: la llengua és una via d'accés al coneixement, no una barrera
+- **`M2_PBCS-alternanca-codis-pedagogica.md`** — Instrument operacional del TIL: alternança planificada de codis com a intervenció docent per fer visible el sistema lingüístic
+- **`M2_LIT-textos-identitat-linguistica.md`** — Instrument operacional del TIL: textos identitaris on l'alumne integra el seu repertori plurilingüe com a producció autònoma
+- **`skills/mediacio/generate-tolc/SKILL.md`** — Instrument operacional del TIL implementat com a skill: traducció comparativa L1↔català en glossaris i bastides
 
 ## 4. Detecció
 

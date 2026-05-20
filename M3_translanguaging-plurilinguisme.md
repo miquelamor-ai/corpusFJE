@@ -162,6 +162,9 @@ Hi ha diversos errors que cal evitar en la implementació d'una estratègia de t
 - **`M1_alumnat-nouvingut.md`** — L'alumnat nouvingut és el beneficiari principal del translanguaging: la L1 és el seu recurs cognitiu principal i l'escola ha d'aprendre a activar-lo en lloc de suprimir-lo
 - **`M2_factors-promotors-aprenentatge.md`** — El translanguaging activa els coneixements previs en L1: la connexió entre el que ja sap (en qualsevol llengua) i el que aprèn accelera la consolidació
 - **`M1_diversitat-cultural-identitat.md`** — El reconeixement de les llengües de l'alumne és reconèixer la seva identitat: el translanguaging és un acte de cura lingüística i cultural
+- **`M2_PBCS-alternanca-codis-pedagogica.md`** — El PBCS és la pràctica de translanguaging amb major component reflexiu: alternança planificada del docent per fer visible el sistema lingüístic
+- **`M2_LIT-textos-identitat-linguistica.md`** — Els LIT son la pràctica de translanguaging amb major component identitari i creatiu: l'alumne crea textos que integren tot el seu repertori plurilingüe
+- **`skills/mediacio/generate-tolc/SKILL.md`** — El TOLC implementa el translanguaging a ATNE: traducció activa L1↔català en glossaris i bastides per a alumnat amb català com a L2
 
 ## 4. Detecció
 
