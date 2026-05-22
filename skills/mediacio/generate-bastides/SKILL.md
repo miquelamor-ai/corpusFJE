@@ -1,6 +1,7 @@
 ---
 name: generate-bastides
 deprecated: true
+active: false
 superseded_by: [generate-bastides-lectura, generate-bastides-produccio]
 description: >
   DEPRECATED — substituïda per generate-bastides-lectura i generate-bastides-produccio.
