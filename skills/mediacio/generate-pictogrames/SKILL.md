@@ -1,14 +1,16 @@
 ---
 name: generate-pictogrames
 description: >
-  Use when the teacher has activated the "pictogrames" complement. Adds
-  emoji/icon visual supports to the adapted text. At Emergent/pre-A1: inline
-  above/beside each key noun and verb (1-2 per sentence) + lateral paratext
-  for anticipation. At A1: 1 pictogram per sentence or technical term. At
-  A2+: visual glossary only (icons beside terms in a side list, NOT inline
-  in running text). Modulated strictly by MECR level.
+  Use when the teacher has activated the "pictogrames" complement. Inserts
+  ARASAAC pictogram markers [PICTO: terme] in the adapted text (NOT Unicode
+  emojis). The backend resolves each marker to a real ARASAAC pictogram image
+  (CC BY-NC-SA 4.0, Sergio Palao / CATEDU). At Emergent/pre-A1: inline
+  beside each key noun and verb (1-2 per sentence) + lateral paratext for
+  anticipation. At A1: 1 marker per sentence or technical term. At A2+:
+  visual glossary only (markers in a side list, NOT inline in running text).
+  Modulated strictly by MECR level.
 author: FJE — Fundació Jesuïtes Educació
-version: 2.0.0-proto
+version: 2.1.0
 complement_key: pictogrames
 agent_role: complements
 tools_required: []
@@ -16,6 +18,13 @@ triggers:
   - path: params.complements.pictogrames
     equals: true
 moduls_relacionats: [M2, M3]
+changelog:
+  - version: 2.1.0
+    date: 2026-05-21
+    note: >
+      Migrat d'emojis Unicode a marcadors [PICTO: terme] resolts per
+      adaptation/pictograms_arasaac.py via API ARASAAC. Decisió pedagògica:
+      docent pilot va denunciar que emojis no son pictogrames AAC reals.
 ---
 
 # Afegir pictogrames al text adaptat
@@ -50,58 +59,74 @@ Cap pictograma inline al text corrent. En canvi, si el text té termes complexos
 es pot afegir un **glossari visual** al peu (2 columnes: emoji + terme), a l'estil
 del complement Glossari.
 
+## Format del marcador (CRÍTIC)
+
+El LLM **NO** ha d'inserir emojis Unicode. Ha d'inserir **marcadors de text**:
+
+```
+[PICTO: terme_en_catala]
+```
+
+El backend (`adaptation/pictograms_arasaac.py`) substituirà cada marcador per
+una imatge ARASAAC real (`<img class="arasaac-picto">`).
+
+Regles del terme:
+- 1-3 paraules, en català, en minúscules.
+- Concepte concret i visualitzable.
+- Exemples vàlids: `[PICTO: sol]` `[PICTO: aigua]` `[PICTO: planta]`
+  `[PICTO: menjar]` `[PICTO: correr]` `[PICTO: casa]` `[PICTO: escola]`
+- Si ARASAAC no troba el terme, el backend insereix un emoji de fallback 📝
+  (el flux no es trenca).
+
 ## Format de sortida — Emergent (pre-A1)
 
 ```markdown
 ### Vocabulari del text (mira primer!)
-☀️ sol · 💧 aigua · 🌳 arbre · 🦋 papallona
+[PICTO: sol] sol · [PICTO: aigua] aigua · [PICTO: arbre] arbre
 
 ---
 
-El sol ☀️ dona llum i escalfor. Les plantes 🌱 necessiten
-l'aigua 💧 i el sol ☀️ per créixer.
+El sol [PICTO: sol] dona llum i escalfor. Les plantes [PICTO: planta] necessiten
+l'aigua [PICTO: aigua] i el sol per créixer.
 ```
 
 ## Format de sortida — Inicial (A1)
 
 ```markdown
-El sol ☀️ dona llum i escalfor a la Terra. Les plantes necessiten
-l'aigua 💧 per viure. El cicle de l'aigua és molt important.
+El sol [PICTO: sol] dona llum i escalfor a la Terra. Les plantes necessiten
+l'aigua [PICTO: aigua] per viure. El cicle de l'aigua és molt important.
 ```
 
 ## Format de sortida — Funcional (A2+)
 
-El text corrent NO porta emojis. Si hi ha termes complexos, s'afegeix:
+El text corrent NO porta marcadors inline. Si hi ha termes complexos:
 
 ```markdown
-[text adaptat sense emojis inline]
+[text adaptat sense marcadors inline]
 
 ---
 **Vocabulari visual**
-☀️ radiació solar · 🌡️ temperatura · 🌊 evaporació
+[PICTO: radiacio solar] radiació solar · [PICTO: temperatura] temperatura · [PICTO: evaporacio] evaporació
 ```
 
-## Criteris de selecció d'emojis
+## Criteris de selecció del terme
 
-Prioritzar, per ordre:
-1. **Emojis universals i reconeguts** (Unicode estàndard): ☀️ 💧 🌱 🔬 📚 🏛️ 🌍 ⚡ 🔥 ❄️ 🌡️ 🦋 ⏰ 📅 🧮 ✏️ 📖 🗺️
-2. **Emojis concrets** abans que abstractes.
-3. **Coherència**: el mateix concepte sempre amb el mateix emoji.
-
-Evitar:
-- Emojis amb càrrega cultural ambigua (banderes, gestos de mans).
-- Emojis decoratius que no aporten significat.
-- Si un concepte no té emoji clar, millor no posar-ne cap.
+1. **Concepte concret** (objecte, acció observable, ésser viu) — els abstractes
+   no tindran pictograma útil a ARASAAC.
+2. **Coherència**: el mateix concepte sempre amb el mateix terme al marcador.
+3. **Economia**: menys és millor — millor 3 pictogrames bons que 10 de dubtosos.
 
 ## Regles estrictes de sortida
 
-- A2+: **MAI** emojis inline al text corrent. Glossari visual al peu si cal.
-- Si el pictograma apareix 5 vegades, mostrar-lo com a molt les primeres 1-2.
+- A2+: **MAI** marcadors inline al text corrent. Glossari visual al peu si cal.
+- Si un concepte es repeteix 5 vegades, marcador com a molt les primeres 1-2.
 - **NO** generis una secció `### Pictogrames usats`. No cal llistat separat.
-- **NO** posis emojis a les bastides, glossari, preguntes o altres seccions.
+- **NO** posis marcadors a les bastides, glossari, preguntes o altres seccions.
+- **MAI** emojis Unicode al text — sempre marcadors `[PICTO: ...]`.
 - **Preserva** íntegrament el contingut del text adaptat; l'única addició és visual.
 
-## Exemple
-Veure `assets/exemple-emergent-infantil.md` (pre-A1, Infantil, paràgraf amb
-paratext d'anticipació + inline) i `assets/exemple-a2-ciencies.md` (A2,
-glossari visual al peu, sense inline).
+## Atribució llicència
+
+Pictogrames d'ARASAAC (http://arasaac.org), autor Sergio Palao.
+Propietat: Govern d'Aragó (CATEDU). Llicència: CC BY-NC-SA 4.0.
+L'atribució apareix automàticament als `title` de les imatges generades.
