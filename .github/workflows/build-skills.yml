@@ -1,0 +1,45 @@
+name: Build skills derivats
+
+# Regenera els derivats (_derivats_v2/SKILL.md, _derivats_v2/prompt_adapter.md)
+# a cada canvi d'un M3_instrument-*.md a skills/.
+# Genera sortides deterministes, no crida cap LLM.
+# Veure .tooling/build_skills.py i corpus-spec v2.6 §4.X.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'skills/**/M3_instrument-*.md'
+      - '.tooling/build_skills.py'
+      - '.github/workflows/build-skills.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate derivats per a tots els instruments
+        run: |
+          for md in $(find skills -type f -name 'M3_instrument-*.md'); do
+            echo "→ $md"
+            python .tooling/build_skills.py "$md"
+          done
+
+      - name: Commit derivats actualitzats
+        run: |
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@fje.edu"
+          git add skills/**/_derivats_v2/
+          git diff --staged --quiet || git commit -m "chore(skills): regenera _derivats_v2/ [skip ci]"
+          git push
