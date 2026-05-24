@@ -38,8 +38,14 @@ jobs:
 
       - name: Commit derivats actualitzats
         run: |
+          set -e
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@fje.edu"
-          git add skills/**/_derivats_v2/
-          git diff --staged --quiet || git commit -m "chore(skills): regenera _derivats_v2/ [skip ci]"
-          git push
+          # Globstar pot no estar actiu per defecte; afegim explicitament.
+          git add 'skills/' || true
+          if git diff --staged --quiet; then
+            echo "Cap canvi als derivats: res a commitejar."
+          else
+            git commit -m "chore(skills): regenera _derivats_v2/ [skip ci]"
+            git push
+          fi
