@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: A.skill-md-llm
 generat_at: '2026-05-24'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: dae64725cf4b5d95
+checksum_font: 02dd5bad6c31b045
 ---
 
 # Escriure/adaptar una notícia — skill operativa per a LLM
