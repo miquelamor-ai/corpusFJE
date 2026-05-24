@@ -1,5 +1,5 @@
 ---
-modul: M0
+modul: M10
 titol: "Marc General per a la Integració de la IA"
 tipus: marc-institucional
 descripcio: "Posicionament institucional de Jesuïtes Educació davant la intel·ligència artificial: visió humanista ignasiana, cinc principis rectors, sis tensions reconegudes, Model 4D operatiu (Delegació·Descripció·Discerniment·Diligència), graus MIHIA (N0–N5) i orientacions per col·lectiu"

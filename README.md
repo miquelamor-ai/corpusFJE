@@ -24,22 +24,31 @@ L'assistent pilot (en desenvolupament) és el d'**adaptació de materials**, que
 
 ## Què conté
 
-**82 fitxers Markdown** organitzats en 10 mòduls temàtics:
+**Fitxers Markdown** organitzats en mòduls temàtics:
 
-| Mòdul | Nom | Fitxers | Exemples |
-|-------|-----|---------|----------|
-| **M0** | Identitat i Missió | 16 | PPI, *cura personalis*, educador samarità, ecologia integral |
-| **M1** | Subjecte — A qui ensenyem? | 18 | Perfils: TEA, TDAH, nouvingut, altes capacitats, discapacitats |
-| **M2** | Mètode — Com ensenyem? | 10 | DUA, aprenentatge cooperatiu, ABP, gamificació, multinivell |
-| **M3** | Llengua — Com vehiculem? | 8 | TIL, TILC, MECR, lectura fàcil, translanguaging, català L2 |
-| **M4** | Contingut Curricular | 3 | Adaptació curricular, competències bàsiques |
-| **M5** | Tecnopedagogia | 6 | IA educativa, TPACK, accessibilitat digital, prompt engineering |
-| **M6** | Avaluació | 7 | Avaluació formativa, feedback, portafoli, coavaluació |
-| **M7** | Entorn i Família | 5 | Benestar emocional, enfocament restauratiu, famílies |
-| **M8** | Governança i Seguretat | 4 | GDPR, ètica algorítmica, Reglament europeu IA |
-| **M9** | Normativa | 4 | Decrets d'inclusió, drets alumnat, normativa lingüística |
+| Mòdul | Nom | Exemples |
+|-------|-----|----------|
+| **M0** | Identitat i Missió | PPI, *cura personalis*, educador samarità, ecologia integral |
+| **M1** | Subjecte — A qui ensenyem? | Perfils: TEA, TDAH, nouvingut, altes capacitats, discapacitats |
+| **M2** | Mètode — Com ensenyem? | DUA, aprenentatge cooperatiu, ABP, gamificació, multinivell |
+| **M3** | Llengua — Com vehiculem? | TIL, TILC, MECR, lectura fàcil, translanguaging, català L2 |
+| **M4** | Contingut Curricular | Adaptació curricular, competències bàsiques |
+| **M5** | Tecnopedagogia | IA educativa, TPACK, accessibilitat digital, prompt engineering |
+| **M6** | Avaluació | Avaluació formativa, feedback, portafoli, coavaluació |
+| **M7** | Entorn i Família | Benestar emocional, enfocament restauratiu, famílies |
+| **M8** | Governança i Seguretat | GDPR, ètica algorítmica, Reglament europeu IA |
+| **M9** | Normativa | Decrets d'inclusió, drets alumnat, normativa lingüística |
+| **M10** | Marc d'Integració de la IA (projecte FJE) | Marc general, full de ruta, polítiques, protocols, llistes, guies, casuística per col·lectiu, FAQs |
 
 Cada fitxer segueix el patró de nom `M{N}_{nom-descriptiu}.md`.
+
+### Distinció entre M0–M9 i M10
+
+**M0–M9** són el **corpus pedagògic** (coneixement de domini per a docents, RAG, formació). Documents tipus perfil, marc conceptual, protocol pedagògic, estratègia, instrument o normativa externa.
+
+**M10** és el **corpus institucional del projecte d'integració de la IA a FJE**: documents operatius i de governança que tradueixen el marc en pràctica institucional. Tipus pla-desplegament, marc-institucional, política, protocol-operatiu, guia-audiència, casuística, FAQ.
+
+Tots dos servei per a (a) alimentar assistents IA via RAG i (b) consulta directa de docents, directius i personal de gestió.
 
 ---
 

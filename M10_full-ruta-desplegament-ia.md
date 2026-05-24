@@ -1,5 +1,5 @@
 ---
-modul: M0
+modul: M10
 titol: "Full de ruta acrònic del desplegament del Marc General d'IA"
 tipus: pla-desplegament
 descripcio: "Mapa del camí complet per al desplegament del Marc General d'IA a la xarxa FJE: 8 línies de treball, 53 milestones codificats, 16 decisions catalogades per òrgan, dependències i camí crític. Sense calendari — fixa l'ordre lògic i els punts on cal decisió."
