@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.rubriques
     equals: true
+moduls_relacionats: [M2, M6]
 ---
 
 # Generar rúbrica d'assoliment

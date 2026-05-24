@@ -16,6 +16,7 @@ tools_required: []
 triggers:
   - path: params.genere_discursiu
     equals: biografia
+moduls_relacionats: [M3]
 ---
 
 # Escriure/adaptar una biografia

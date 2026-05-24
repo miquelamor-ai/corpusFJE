@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.document_mode
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Adaptar document estructurat per segments

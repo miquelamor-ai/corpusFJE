@@ -17,6 +17,7 @@ tools_required: []
 triggers:
   - path: params.complements.bastides
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar bastides (suports de lectura i producció)

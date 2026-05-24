@@ -16,6 +16,7 @@ tools_required: []
 triggers:
   - path: params.genere_discursiu
     equals: opinio
+moduls_relacionats: [M3]
 ---
 
 # Escriure/adaptar un article d'opinió

@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.mapa_conceptual
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar mapa conceptual / esquema visual

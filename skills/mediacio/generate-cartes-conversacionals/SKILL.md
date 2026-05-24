@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.cartes_conversacionals
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar cartes conversacionals

@@ -17,6 +17,7 @@ triggers:
     equals: true
   - path: params.nouvingut.actiu
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar Transllenguatge / TOLC

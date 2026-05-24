@@ -16,6 +16,7 @@ tools_required: []
 triggers:
   - path: params.genere_discursiu
     equals: entrevista
+moduls_relacionats: [M3]
 ---
 
 # Escriure/adaptar una entrevista

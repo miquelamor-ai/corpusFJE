@@ -113,6 +113,7 @@ tools_required:
 triggers:
   - path: params.complements.illustracions
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Afegir il·lustracions generades amb IA al text adaptat (BETA)

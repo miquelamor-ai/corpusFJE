@@ -17,6 +17,7 @@ triggers:
 variants:
   - monolingue   # quan l'alumne NO és nouvingut o L1 desconegut
   - bilingue     # quan l'alumne és nouvingut i L1 coneguda
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar glossari

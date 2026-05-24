@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.genere_discursiu
     equals: noticia
+moduls_relacionats: [M3]
 ---
 
 # Escriure/adaptar una notícia

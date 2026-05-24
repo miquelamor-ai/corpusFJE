@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.preguntes_comprensio
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar preguntes de comprensió lectora

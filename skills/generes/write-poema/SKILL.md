@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.genere_discursiu
     equals: poema
+moduls_relacionats: [M3]
 ---
 
 # Escriure/adaptar un poema

@@ -13,6 +13,7 @@ tools_required: []
 triggers:
   - path: params.complements.activitats_aprofundiment
     equals: true
+moduls_relacionats: [M2, M4]
 ---
 
 # Generar activitats d'aprofundiment

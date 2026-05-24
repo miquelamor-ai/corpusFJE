@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.plantilles_genere
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar plantilla de gènere

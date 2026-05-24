@@ -16,6 +16,7 @@ tools_required: []
 triggers:
   - path: params.genere_discursiu
     equals: instructiu
+moduls_relacionats: [M3]
 ---
 
 # Escriure/adaptar un text instructiu

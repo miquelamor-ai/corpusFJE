@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.pictogrames
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Afegir pictogrames al text adaptat

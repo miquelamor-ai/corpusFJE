@@ -15,6 +15,7 @@ tools_required: []
 triggers:
   - path: params.complements.resum_graduat
     equals: true
+moduls_relacionats: [M2, M3]
 ---
 
 # Generar resum graduat
