@@ -44,32 +44,30 @@ Activar quan el docent ha marcat el complement **"Mapa mental"** al Pas 2.
 ## Format de sortida (markdown)
 
 A diferència del mapa conceptual (sagnia jeràrquica), el mapa mental és
-una estructura **radial** que es representa com a llista amb el concepte
-central destacat i branques amb associacions:
+una estructura **radial** amb el concepte central destacat i branques amb associacions.
+
+**Format OBLIGATORI**: llista jeràrquica amb guions `-` i sagnia de 2 espais.
+El concepte central SEMPRE com a primer ítem de llista (`- **TERME**`).
+**NO** usar fletxes Unicode (`→ ↔ 🌿`), ni text lliure sense guió.
+El frontend ATNE renderitza aquest format com a diagrama SVG (Mermaid mindmap).
 
 ```markdown
 ## Mapa mental
 
-**[CONCEPTE CENTRAL]**
-
-🌿 Branca 1: [associació primària]
-   → [idea associada]
-   → [pregunta generadora?]
-   → [connexió amb altra matèria]
-
-🌿 Branca 2: [associació primària]
-   → [idea associada]
-   → [exemple concret de la vida quotidiana]
-   → [pregunta provocadora?]
-
-🌿 Branca 3: [associació primària]
-   → [...]
-
-🔗 Connexions transversals:
-- [Branca X] ↔ [Branca Y]: [com es relacionen]
+- **[CONCEPTE CENTRAL]**
+  - [Branca 1: associació primària]
+    - [idea associada]
+    - [pregunta generadora?]
+    - [connexió amb altra matèria]
+  - [Branca 2: associació primària]
+    - [idea associada]
+    - [exemple concret de la vida quotidiana]
+    - [pregunta provocadora?]
+  - [Branca 3: associació primària]
+    - [connexió interdisciplinar]
 ```
 
-**No** usar caràcters ASCII-art (`│ ├ └ ─`). El docent ho copia a Canva o
+**No** usar caràcters ASCII-art (`│ ├ └ ─`) ni emojis estructurals. El docent ho copia a Canva o
 MindMeister i la sintaxi ASCII no es renderitza bé.
 
 ## Graduació per nivell MECR
@@ -97,30 +95,21 @@ MindMeister i la sintaxi ASCII no es renderitza bé.
 ```markdown
 ## Mapa mental
 
-**FOTOSÍNTESI**
-
-🌿 Què és?
-   → Transformació de llum en aliment
-   → Només les plantes ho fan?
-   → 🔗 Connexió amb la cuina: per què cuinem els aliments?
-
-🌿 Quins ingredients?
-   → Aigua + diòxid de carboni + llum solar
-   → Què aporta cadascun?
-   → 🔗 Connexió amb Química 1r ESO (matèria/energia)
-
-🌿 On passa?
-   → A les fulles (cloroplasts)
-   → Per què les fulles són verdes?
-
-🌿 Quin resultat dona?
-   → Sucres (glucosa) + oxigen
-   → Per què respirem millor on hi ha boscos?
-   → 🔗 Connexió amb Geografia (canvi climàtic, pulmó verd)
-
-🔗 Connexions transversals:
-- "Què passa?" ↔ "Quin resultat?" : la transformació explica el resultat
-- "Quins ingredients?" ↔ "Per què respirem millor?" : entrada CO₂ ↔ sortida O₂
+- **FOTOSÍNTESI**
+  - Què és?
+    - Transformació de llum en aliment
+    - Només les plantes ho fan?
+    - Connexió amb la cuina: per què cuinem els aliments?
+  - Quins ingredients?
+    - Aigua + diòxid de carboni + llum solar
+    - Connexió amb Química 1r ESO (matèria/energia)
+  - On passa?
+    - A les fulles (cloroplasts)
+    - Per què les fulles són verdes?
+  - Quin resultat dona?
+    - Sucres (glucosa) + oxigen
+    - Per què respirem millor on hi ha boscos?
+    - Connexió amb Geografia (canvi climàtic, pulmó verd)
 ```
 
 ## Notes pedagògiques (MALL)

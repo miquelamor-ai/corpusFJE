@@ -77,17 +77,16 @@ Aquesta skill genera l'eina adequada per al MECR de l'alumne.
 ```markdown
 ## Mapa conceptual
 
-**Concepte central**: [terme nuclear del text]
-
-- **[Branca 1 — relació/categoria]**
-  - [Sub-element 1.1]
-  - [Sub-element 1.2]
-- **[Branca 2 — relació/categoria]**
-  - [Sub-element 2.1]
-  - [Sub-element 2.2]
-- **[Branca 3 — relació/categoria]**
-  - [Sub-element 3.1]
-  - [Sub-element 3.2]
+- **[CONCEPTE CENTRAL]**
+  - [Branca 1 — relació/categoria]
+    - [Sub-element 1.1]
+    - [Sub-element 1.2]
+  - [Branca 2 — relació/categoria]
+    - [Sub-element 2.1]
+    - [Sub-element 2.2]
+  - [Branca 3 — relació/categoria]
+    - [Sub-element 3.1]
+    - [Sub-element 3.2]
 ```
 
 **Opcional** al final (A2+):
@@ -99,9 +98,10 @@ Aquesta skill genera l'eina adequada per al MECR de l'alumne.
 
 - Pre-A1/A1: comença amb `## Esquema visual`.
 - A2+: comença amb `## Mapa conceptual`.
-- **Sempre** etiquetar les branques en negreta.
-- **NO** fletxes ASCII (→ és acceptable com a connector, no com a estructura).
-- **NO** caixes ASCII (│├└), no emojis decoratius.
+- **Primera línia SEMPRE com a ítem de llista**: `- **[CONCEPTE CENTRAL]**` (mai text lliure sense guió `-`). Branques i sub-elements, sempre indentats amb guió `-` i 2 espais per nivell.
+- **NO** posar el concepte central com a línia lliure `**terme**: ...` — destrueix la jerarquia del renderer.
+- **Sempre** etiquetar les branques en negreta dins del guió (`- **Branca**`).
+- **NO** fletxes ASCII (→ com a connector, no com a estructura), **NO** caixes ASCII (│├└), no emojis decoratius.
 - **NO** sub-elements com a frases llargues.
 - **NO** conceptes no presents al text adaptat.
 - **NO** superar 3 nivells de sagnia (profunditat limitada).
