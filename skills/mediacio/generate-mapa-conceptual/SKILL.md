@@ -53,9 +53,15 @@ Aquesta skill genera l'eina adequada per al MECR de l'alumne.
 ## Regles per construir el mapa
 
 - **Concepte central**: 1 terme nuclear del text, en negreta.
-- **Branques principals**: 3-5 categories (causes, conseqüències, tipus, processos...).
-- **Sub-elements**: conceptes o entitats curtes, no frases explicatives.
-- **Branques = relacions clares** («Causes», no «Informació»).
+- **Branques principals**: 3-5 **frases de connexió verbals** que, llegides amb el
+  concepte central i el sub-element, formin una oració: «Els transports *es classifiquen
+  en* terrestres». Exemples vàlids: *es classifica en*, *forma part de*, *provoca*,
+  *s'utilitza per a*, *depèn de*, *es troba a*, *produeix*, *es caracteritza per*,
+  *s'organitza en*, *permet*. **MAI categories nominals** («Tipus», «Causes»,
+  «Conseqüències», «Característiques») — la branca ha de ser sempre un **verb o
+  sintagma verbal**. Aquesta és la proposició de Novak: la frase de connexió que
+  dóna significat a la relació entre dos conceptes.
+- **Sub-elements**: conceptes o entitats curtes (1-4 paraules), no frases explicatives.
 - Termes del **text adaptat**, no inventats.
 - **No repetir** el mateix concepte a múltiples branques.
 
@@ -78,13 +84,13 @@ Aquesta skill genera l'eina adequada per al MECR de l'alumne.
 ## Mapa conceptual
 
 - **[CONCEPTE CENTRAL]**
-  - [Branca 1 — relació/categoria]
+  - **[frase verbal — ex: es classifica en]**
     - [Sub-element 1.1]
     - [Sub-element 1.2]
-  - [Branca 2 — relació/categoria]
+  - **[frase verbal — ex: produeix]**
     - [Sub-element 2.1]
     - [Sub-element 2.2]
-  - [Branca 3 — relació/categoria]
+  - **[frase verbal — ex: s'utilitza per a]**
     - [Sub-element 3.1]
     - [Sub-element 3.2]
 ```
@@ -100,7 +106,7 @@ Aquesta skill genera l'eina adequada per al MECR de l'alumne.
 - A2+: comença amb `## Mapa conceptual`.
 - **Primera línia SEMPRE com a ítem de llista**: `- **[CONCEPTE CENTRAL]**` (mai text lliure sense guió `-`). Branques i sub-elements, sempre indentats amb guió `-` i 2 espais per nivell.
 - **NO** posar el concepte central com a línia lliure `**terme**: ...` — destrueix la jerarquia del renderer.
-- **Sempre** etiquetar les branques en negreta dins del guió (`- **Branca**`).
+- **Sempre** etiquetar les branques en negreta dins del guió (`- **es classifica en**`). La branca en negreta és la **proposició** (frase verbal), no una categoria nominal.
 - **NO** fletxes ASCII (→ com a connector, no com a estructura), **NO** caixes ASCII (│├└), no emojis decoratius.
 - **NO** sub-elements com a frases llargues.
 - **NO** conceptes no presents al text adaptat.
