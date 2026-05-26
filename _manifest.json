@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-25T20:49:59Z",
+  "generated_at": "2026-05-26T05:27:43Z",
   "modules": {
     "M0": [
       {
@@ -1146,6 +1146,26 @@
         "subtipus": null,
         "review_status": "pilot-fusio-2",
         "descripcio": "Instrument de mediació lèxica que acompanya el text adaptat amb definicions dels termes clau. CALP graduat per Cummins + variant bilingüe per a nouvinguts. Rúbrica gradada 6 passos × 6 nivells MECR amb dimensions internes.",
+        "last_editor": null
+      },
+      {
+        "path": "skills/mediacio/generate-illustracions/M3_instrument-generar-illustracions.md",
+        "size": 13526,
+        "titol": "Generar il·lustracions",
+        "tipus": "instrument",
+        "subtipus": null,
+        "review_status": "pilot-fusio-8",
+        "descripcio": "Instrument per inserir marcadors d'il·lustracions IA al text adaptat. Format: [IMATGE: concepte curt en catala]. Backend: Wikimedia (llicencia lliure) → FLUX (generativa) → skip. 7 presets d'estil. Pre-A1/A1 davant del concepte com a anticipacio; A2+ al costat o dins del paragraf. Principi 'menys és mes': maxim 3-4 per document. Rubrica gradada 5 passos × 6 nivells MECR (pre-A1→C1).",
+        "last_editor": null
+      },
+      {
+        "path": "skills/mediacio/generate-pictogrames/M3_instrument-generar-pictogrames.md",
+        "size": 15083,
+        "titol": "Generar pictogrames",
+        "tipus": "instrument",
+        "subtipus": null,
+        "review_status": "pilot-fusio-8",
+        "descripcio": "Instrument per afegir suport pictografic al text adaptat. Dos modes: emoji Unicode (BICS general) i ARASAAC [PICTO: terme_cat|terme_cast] (TEA, CAA, nouvingut+disciplinar). Pre-A1/A1 inline com a anticipacio; A2+ glossari visual al peu. Rubrica gradada 7 passos × 6 nivells MECR (pre-A1→C1). Multimodal obligatori. Modulacio per perfil (TEA, nouvingut, general).",
         "last_editor": null
       }
     ],
