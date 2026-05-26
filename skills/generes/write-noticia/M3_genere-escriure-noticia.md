@@ -17,7 +17,7 @@ skill_meta: write-noticia@corpusFJE/skills/genres/write-noticia
 review_status: pilot-fusio
 version: 4.0.0-canonic
 generat_at: 2026-05-21
-actualitzat_at: 2026-05-26
+actualitzat_at: 2026-05-26T10:00:00
 notebooklm_review:
   data: 2026-05-21
   veredicte: si-amb-correccions
