@@ -1,145 +1,175 @@
 ---
 name: generate-resum-graduat
-description: >
-  Use when the teacher has activated the "resum_graduat" complement. Generates
+description: 'Use when the teacher has activated the "resum_graduat" complement. Generates
   a graduated summary scaffold: a partially completed frame that guides the student
   to identify and express the main idea at the right level of abstraction for their
-  MECR. NOT a comprehension question ("resumeix el text") — a structural frame
-  with blanks calibrated to the level. At Emergent/pre-A1: visual/oral summary
-  only. Modulated by MECR and text type.
+  MECR. NOT a comprehension question ("resumeix el text") — a structural frame with
+  blanks calibrated to the level. At Emergent/pre-A1: visual/oral summary only. Modulated
+  by MECR and text type.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 1.0.0-proto
+version: 4.0.0-canonic
 complement_key: resum_graduat
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.resum_graduat
-    equals: true
-moduls_relacionats: [M2, M3]
+- path: params.complements.resum_graduat
+  equals: true
+moduls_relacionats:
+- M2
+- M3
+font_canonic: M3_instrument-generar-resum-graduat.md
+font_version: 4.0.0-canonic
+generat_at: '2026-05-26'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: eaee09150d9b991f
 ---
 
-# Generar resum graduat
+# Generar resum graduat — skill operativa per a LLM
 
-## Distinció fonamental
+El resum graduat és una **bastida cognitiva per produir un resum** pas a pas: un marc parcial amb forats calibrats al MECR. La gradació no és de complexitat del text sinó de **la mida del forat**: A1 = forats petits amb opcions tancades; A2 = forats d'una frase sense opcions; B2 = criteri obert; C1 = reflexió metacognitiva. L'alumne no copia el resum: el construeix dins de l'estructura que la bastida proporciona.
 
-El **resum graduat** és una **bastida cognitiva**, NO una tasca oberta.
-No li demanem a l'alumne "fes un resum" — li donem una estructura parcialmente
-completa que li permet construir el resum pas a pas.
+**Tipologia MALL**: Mediació (bastida cognitiva de producció de resum).
+**HCL principals**: Recapitular (pre-A1/A1, oral/visual) · Resumir (A2+, textual) · Seleccionar idees principals.
+**Principi rector — Forat calibrat a la ZDP**: un forat massa gran (per sobre del MECR) genera còpia del text o frustració; un forat massa petit (per sota del MECR) no desenvolupa habilitat. El forat ben calibrat manté l'alumne a la seva ZDP i avança cap a la producció autònoma progressivament.
 
-La gradació no és de complexitat del text sinó de **mida del forat**:
-- A nivells baixos, la majoria del marc ja és donat; l'alumne omple 1-2 buits.
-- A nivells alts, el marc és mínim (criteris) i l'alumne construeix lliurement.
+**Distinció MALL fonamental — Recapitular vs. Resumir:**
+- **Recapitular** (pre-A1/A1): reordenar informació oral o visual sense producció textual autònoma. El docent pot escriure el que l'alumne dicta. Cognitiu però no escrit.
+- **Resumir** (A2+): primera forma de producció de resum escrit. Requereix seleccionar, generalitzar i connectar idees.
+Saltar el recapitular i demanar un resum escrit a pre-A1/A1 és un error pedagògic que genera còpia sense comprensió real.
 
-## Recapitular com a pas previ
+**Principi "No donar el resum fet"**: el complement genera un marc amb forats, no el resum complet. Si el docent dona el resum complet com a "model", l'alumne el copia. El marc indica COM estructurar, no QUÈ escriure.
 
-El MALL distingeix dos processos que sovint es confonen:
+**Marc adaptat al tipus de text (cross_source)**:
+- Narratiu: tema / personatge / acció principal / desenllaç.
+- Expositiu (informatiu, científic): tema / punts clau / conclusió.
+- Argumentatiu: tesi / arguments principals / conclusió.
+Un marc narratiu per a un text expositiu genera un resum incoherent per al tipus de text.
 
-- **Recapitular** (pas previ, oral o visual): ordenar i seleccionar la informació sense produir
-  text autònom — ordenar imatges, dictat a l'adult, respondre "qui / on / quan".
-- **Resumir** (producció): generar un text coherent que condensa el principal.
+**Diferència crítica amb complements propers:**
+- `plantilles_genere`: plantilla amb forats per produir un text del gènere (no és un resum del text llegit).
+- `bastides_produccio`: GPS disciplinar + catàleg de recursos per produir text de gènere nou.
+- `write-resum` (gènere): producció autònoma d'un resum sense bastida (A2+ autònom).
+- `preguntes_comprensio`: comprensió del text (no producció de resum).
 
-A pre-A1 i A1, el resum graduat treballa el **recapitular**. El resumir escrit és la
-fita final d'un procés progressiu.
+**Connexions MALL transversals:**
+- *Forat calibrat com a ZDP operativa*: la bastida funciona si i només si el forat és assolible però exigent. La ZDP del resum és l'espai on l'alumne pot construir la resposta amb esforç sense frustrar-se. Calibrar el forat és l'acte pedagògic central d'aquest complement.
+- *Selecció com a competència clau (macroregles)*: el MALL descriu tres macroregles del resum (Kintsch & van Dijk): supressió (treure el secundari), generalització (nombrar la categoria), construcció (inferir el que no s'explicita). El resum graduat entrena explícitament aquestes tres operacions progressivament.
+- *Marc = GPS discursiu*: igual que la base d'orientació de les bastides de producció, el marc del resum indica el recorregut. La diferència és que el marc és el text parcial del resum, no el recorregut del procés d'escriptura.
+- *Bastida retirable (ZDP)*: el marc es retira progressivament: A2 (marc complet), B1 (marc minimal), B2 (criteris), C1 (reflexió). La bastida té vocació d'extingir-se quan l'alumne internalitza l'estructura del resum.
 
-### Eines de bastida per a A1-A2 (validat MALL)
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Aquesta rúbrica descriu el **marc de resum graduat que es genera per guiar la producció del resum** (PRODUCCIÓ MEDIADA). **No descriu el resum autònom de l'alumne ni l'avaluació del docent**: el docent observa si l'alumne omple els forats amb les seves pròpies paraules (no copiant) i si el resultat és coherent amb el text font.
+**Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → recapitulació oral total (el docent escriu el que l'alumne diu). `fase_lectora: alfabetica_emergent` → recapitulació oral + 1-2 paraules escrites per l'alumne.
 
-- **Textos amb llacunes (cloze)**: frase marc amb 1-3 buits — l'alumne tria d'una llista o omple.
-- **Ordenació de seqüències**: frases o imatges desordenades que l'alumne ordena lògicament.
-- **Columna de selecció**: llista d'idees on l'alumne marca les que pertanyen al tema principal.
+## Modulació per nivell (format vertical jerarquitzat)
 
-## Diferència amb altres instruments
+### pre-A1 — Emergent
 
-| Instrument | Funció |
-|---|---|
-| **Resum graduat** | Bastida per *produir* un resum propi pas a pas |
-| **Preguntes de comprensió** | Avaluació de comprensió literal/inferencial |
-| **Base d'orientació** | GPS per a gèneres de producció complexa (informe, argumentació) |
 
-## Gradació per nivell MALL
+**1. Tipus de marc**
+- Estructura del suport: Activitat oral: "De qui parla? Qué fa? Com acaba?" El docent escriu el dictat de l'alumne. Sense marc escrit.
 
-| Nivell | Format | Forat | Producció |
-|---|---|---|---|
-| **Emergent (pre-A1)** | Seqüència d'imatges a ordenar + dictat oral | Cap escriptura | Adult escriu el que l'alumne diu |
-| **Inicial (A1)** | Frase marc amb 1-2 buits i opcions | Mínim | Triar la paraula correcta d'una llista |
-| **Funcional (A2)** | Marc de 2-3 frases amb 3-4 buits clau | Moderat | Completar els buits sense opcions |
-| **Estratègic (B1)** | Marc de 3 frases (tema / punts clau / conclusió) | Mig obert | Completar amb paraules pròpies |
-| **Acadèmic (B2)** | Criteris de qualitat del resum (3-4 ítems) | Obert | Produir el resum complert |
-| **Crític (C1)** | Rúbrica de metacognició | Autoregulat | Resum + reflexió sobre les tria |
+**2. Mida del forat**
+- Calibrat ZDP: Cap forat: activitat oral.
 
-## Format de sortida
+**3. Estructura adaptada al tipus de text**
+- Coherència discursiva: Preguntes orals adaptades: narratiu → "Qui? Qué fa? Com acaba?" / expositiu → "De qué parla? Qué és important?"
 
-### Format Emergent (pre-A1)
+**4. Recapitular vs. resumir**
+- Modalitat de producció: Recapitular oral: reordenar informació oral o visual. El docent escriu el dictat; l'alumne dicta.
 
-```markdown
-## Resum del text (amb el teu mestre/a)
+**5. Autoavaluació mediada**
+- Metacognició: "He dit el que passava al text en veu alta." (oral, mediat per adult)
 
-🗣️ Activitat oral: Explica amb paraules teves (o assenyalant les imatges)...
-- De qui parla el text?
-- Què fa o li passa?
-- Com acaba?
+### A1 — Inicial
 
-*(El docent o un company escriu el que l'alumne diu.)*
-```
 
-### Format A1
+**1. Tipus de marc**
+- Estructura del suport: Frase marc amb 1-2 forats + opcions tancades a triar. "El text parla de [tria: opció A / opció B / opció C]."
 
-```markdown
-## Resum
+**2. Mida del forat**
+- Calibrat ZDP: Forat de 1-3 paraules. Opcions totes plausibles: una sola correcta.
 
-Completa la frase:
+**3. Estructura adaptada al tipus de text**
+- Coherència discursiva: Marc adaptat: narratiu → personatge / acció / desenllaç. Expositiu → tema / punt clau / final.
 
-El text parla de **___** [tria: *[opció 1]* / *[opció 2]* / *[opció 3]*].
+**4. Recapitular vs. resumir**
+- Modalitat de producció: Recapitular assistit: triar la resposta correcta és una forma de recapitular. Cap escriptura de frases pròpies.
 
-El [personatge/tema] **___** [tria: *[opció 1]* / *[opció 2]*] perquè **___**.
-```
+**5. Autoavaluació mediada**
+- Metacognició: "He triat la resposta correcta. He omplert els buits amb la paraula que encaixava."
 
-### Format A2
+### A2 — Funcional
 
-```markdown
-## Resum
 
-Completa el resum del text:
+**1. Tipus de marc**
+- Estructura del suport: Marc de 2-3 frases amb 3-4 forats oberts (sense opcions). L'alumne omple amb paraules pròpies.
 
-El text explica [tema principal] _____________________________.
+**2. Mida del forat**
+- Calibrat ZDP: Forat d'1 frase (5-10 paraules) sense opcions: l'alumne reformula (no copia). Connectors donats entre frases.
 
-Els punts més importants són: _____________________________ i _____________________________.
+**3. Estructura adaptada al tipus de text**
+- Coherència discursiva: Marc de 2-3 frases adaptat amb connectors donats (Primer... Llavors... Al final...).
 
-Al final, _____________________________.
-```
+**4. Recapitular vs. resumir**
+- Modalitat de producció: Resumir amb bastida completa: primera producció escrita del resum. Marc molt explícit amb connectors donats.
 
-### Format B1
+**5. Autoavaluació mediada**
+- Metacognició: "He escrit el resum amb el marc. He usat les meves paraules (no he copiat frases del text)."
 
-```markdown
-## Resum
+### B1 — Estratègic
 
-Escriu el resum en 3 parts:
 
-**Tema**: De què tracta el text? (1 frase) → ___________________________
+**1. Tipus de marc**
+- Estructura del suport: Marc de 3 parts (tema / punts clau / conclusió) amb 1-2 frases lliures per part. Connectors no donats.
 
-**Punts clau**: Quines idees principals desenvolupa? (2-3 frases) → ___________________________
+**2. Mida del forat**
+- Calibrat ZDP: Forat de 2-3 frases amb paraules pròpies i reorganització de la informació.
 
-**Conclusió o valoració**: Amb quina idea es tanca? (1 frase) → ___________________________
-```
+**3. Estructura adaptada al tipus de text**
+- Coherència discursiva: Marc de 3 seccions etiquetades: Tema / Punts clau / Conclusió. Connectors no donats.
 
-### Format B2+
+**4. Recapitular vs. resumir**
+- Modalitat de producció: Resumir amb marc parcialment retirat: l'alumne construeix les idees; el marc proposa l'estructura.
 
-```markdown
-## Resum
+**5. Autoavaluació mediada**
+- Metacognició: "He resumit les idees principals en 3 parts. He usat connectors per lligar les idees."
 
-Escriu el teu resum (5-8 línies). Assegura't que:
-- [ ] Has identificat el tema central (no els exemples)
-- [ ] Has seleccionat les idees principals, no les secundàries
-- [ ] Has usat les teves paraules (no has copiat frases literals)
-- [ ] Has fet servir connectors per cohesionar ([connectors MECR])
-- [ ] El resum es pot entendre sense llegir el text original
-```
+### B2 — Acadèmic
 
-## Regles estrictes de sortida
 
-- Comença **sempre** amb `## Resum`.
-- **Pre-A1**: ZERO escriptura autònoma. Proposta oral amb imatges; el docent o company escriu.
-- Els buits han de ser **completables en 1-3 paraules** (A1-A2). No demanes frases senceres on no toca.
-- Les opcions a triar (A1) han de tenir **una resposta clarament correcta** i opcions plausibles però incorrectes.
-- El marc ha de reflectir l'estructura del **text concret** (si és narratiu, usa *personatge/acció/desenllaç*; si és informatiu, usa *tema/punts clau/conclusió*).
-- **NO** generies un resum model: l'alumne ha de construir el seu.
-- A B2+, els criteris han de ser específics del text, no genèrics.
+**1. Tipus de marc**
+- Estructura del suport: Criteris de qualitat del resum (4-5 ítems basats en les macroregles). L'alumne escriu el resum complet.
+
+**2. Mida del forat**
+- Calibrat ZDP: Criteri obert: "Has seleccionat les idees principals (no els exemples)? Has generalitzat?"
+
+**3. Estructura adaptada al tipus de text**
+- Coherència discursiva: Criteris que cobreixen les macroregles: selecció (excloure exemples), generalització (categoria), construcció (inferit).
+
+**4. Recapitular vs. resumir**
+- Modalitat de producció: Resumir amb criteris: l'alumne usa les macroregles per produir i autoavaluar el resum.
+
+**5. Autoavaluació mediada**
+- Metacognició: "He seleccionat les idees principals (no els exemples). He comprovat que el resum s'entén sense llegir el text."
+
+### C1+ — Crític
+
+
+**1. Tipus de marc**
+- Estructura del suport: Rúbrica metacognitiva: l'alumne justifica les tries. Resum lliure + reflexió sobre el que ha inclòs i deixat fora.
+
+**2. Mida del forat**
+- Calibrat ZDP: Criteri metacognitiu: "Explica per qué has triat incloure aquesta idea i no aquella altra."
+
+**3. Estructura adaptada al tipus de text**
+- Coherència discursiva: Reflexió discursiva: "Qué has decidit NO incloure i per qué? Quin criteri de selecció has usat?"
+
+**4. Recapitular vs. resumir**
+- Modalitat de producció: Resumir i reflexionar: el resum és el punt de partida d'una reflexió metacognitiva sobre les decisions de selecció.
+
+**5. Autoavaluació mediada**
+- Metacognició: "He justificat per qué he triat cada idea i per qué n'he deixat d'altres fora. He revisat que el meu resum és precís i honest."
+

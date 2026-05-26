@@ -1,92 +1,134 @@
 ---
 name: generate-bastides-produccio
-description: >
-  Use when the teacher has activated the "bastides" complement AND at least one
-  production complement is active (preguntes_comprensio or activitats_aprofundiment).
-  Generates production scaffolds: (A) base d'orientació — genre-specific GPS with
+description: 'Use when the teacher has activated the "bastides" complement AND at
+  least one production complement is active (preguntes_comprensio or activitats_aprofundiment).
+  Generates production scaffolds: (A) base d''orientació — genre-specific GPS with
   disciplinary reasoning steps; (B) catàleg de recursos — MECR-graduated connectors
-  and HCL initiators; (C) pauta d'interrogació — self-assessment checklist.
-  At Emergent/pre-A1: nothing generated — zero written production.
+  and HCL initiators; (C) pauta d''interrogació — self-assessment checklist. At Emergent/pre-A1:
+  nothing generated — zero written production.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 1.0.0-proto
+version: 4.0.0-canonic
 complement_key: bastides
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.bastides
-    equals: true
-moduls_relacionats: [M2, M3]
+- path: params.complements.bastides
+  equals: true
+moduls_relacionats:
+- M2
+- M3
+font_canonic: M3_instrument-generar-bastides-produccio.md
+font_version: 4.0.0-canonic
+generat_at: '2026-05-26'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: 1ffde18d482418fe
 ---
 
-# Generar bastides de producció
+# Generar bastides de producció — skill operativa per a LLM
 
-## Funció d'aquest instrument
+Les bastides de producció guien el procés d'escriptura de l'alumne en tres blocs complementaris: **(A) base d'orientació**, **(B) catàleg de recursos** i **(C) pauta d'interrogació**. Constitueixen el GPS de la producció textual: mostren a l'alumne el camí per construir el text del gènere treballat, pas a pas i amb els recursos lingüístics del seu nivell MECR.
 
-Les bastides de producció s'activen **únicament si hi ha producció** (preguntes
-obertes o activitats d'aprofundiment). Contenen tres blocs:
+**Tipologia MALL**: Mediació cognitiva (bastida de producció).
+**HCL associada**: cap HCL pròpia — el complement suporta la HCL productiva del gènere actiu (Narrar, Argumentar, Descriure, Explicar, etc.). El Bloc B adapta els iniciadors a la HCL del gènere.
+**Activació condicional**: ÚNICAMENT si hi ha producció activa al Pas 2. Si el docent activa "bastides" sense activar `preguntes_comprensio` o `activitats_aprofundiment`, aquest complement NO genera res. La senyera: "Sense producció no hi ha bastida de producció."
+**Principi rector**: el Bloc A SEMPRE és disciplinar i específic del gènere i la matèria. Mai "introduccio / cos / conclusio". Una base d'orientació genèrica és pitjor que cap: desorientació disfressada d'estructura.
 
-- **Bloc A — Base d'orientació**: GPS del gènere, específic de matèria i disciplina.
-- **Bloc B — Catàleg de recursos**: connectors MECR + iniciadors per HCL.
-- **Bloc C — Pauta d'interrogació**: checklist d'autoavaluació específic de la tasca.
+**No s'adapta a pre-A1 (D6)**: zero escriptura autònoma a fase logografica i alfabetica emergent primerenca. La producció requereix tenir la mecànica de la frase interioritzada com a mínim en la seva forma rudimentaria. A pre-A1 no hi ha cap bloc generat; si el docent activa el complement, es salta silenciosament.
 
-**PRE-A1: NO generar cap d'aquests blocs.** Zero escriptura autònoma.
+**Diferència crítica amb bastides-lectura:**
+- `bastides-lectura`: sempre actiu quan el docent activa "bastides"; guia el PROCÉS LECTOR.
+- `bastides-produccio`: condicional (requereix producció activa); guia el PROCÉS D'ESCRIPTURA.
+- Els dos complements son ortogonals i complementaris: mai duplicar contingut entre ells.
 
-## Context dins la Seqüència Didàctica (SD)
+**Connexions MALL transversals:**
+- *Base d'orientació com a GPS disciplinar*: el Bloc A no és un índex de seccions sinó el procediment mental expert per a aquell gènere i aquella matèria. Per a una crònica de ciències: "1. Quan, on i qui. 2. Quin fenomen. 3. Quines causes. 4. Quines conseqüències." Per a un assaig de filosofia: "1. Tesi pròpia. 2. Evidència 1 i refutació. 3. Evidència 2. 4. Conclusió-implicació." El gènere i la matèria determinen els passos.
+- *Catàleg de recursos com a vocabulari actiu*: els iniciadors del Bloc B no son per llegir — son per usar mentre s'escriu. Menys iniciadors (2-3 per HCL) és millor que una llista inabastable. L'alumne ha de triar, no copiar mecànicament.
+- *Pauta d'interrogació com a metaregulació*: el Bloc C desplaça la regulació externa del docent cap a la regulació interna de l'alumne. La pregunta "He justificat amb exemples del text?" activa el monitoratge metacognitiu que és el preludi de l'escriptura autònoma.
+- *Bastida retirable (ZDP)*: el Bloc A es retira quan l'alumne ha internalitzat l'estructura del gènere. El Bloc B es retira quan l'alumne usa els connectors sense necessitat de consulta. El Bloc C es retira quan l'alumne s'autoavaluà espontàniament. La bastida té vocació d'extingir-se.
 
-Els tres blocs es generen per a moments **distints** de la SD:
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Aquesta rúbrica descriu les **bastides que es generen per orientar la producció escrita de l'alumne** (PRODUCCIÓ). **No descriu la producció autònoma de l'alumne ni l'avaluació del docent**: el docent observa si l'alumne usa la bastida com a suport i si la seva producció millorat amb ella.
+**Sub-granularitat dins de A1**: es treballa amb `fase_lectora: alfabetica_emergent` (frases simples, bastida mínima) i `alfabetica_fluida` (frases completes, bastida plena).
 
-| Bloc | Fase SD | Funció |
-|---|---|---|
-| **Bloc A** — Base d'orientació | Fase 0-1 (Activació / Presentació del gènere) | GPS del gènere: el docent el presenta ABANS de la producció |
-| **Bloc B** — Catàleg de recursos | Fase 2-3 (Comprensió / Teorització) | Es construeix DURANT l'anàlisi del text model |
-| **Blocs A+B combinats** | Fase 4 (Transferència / Producció) | L'alumne els consulta com a referència mentre escriu |
+## Modulació per nivell (format vertical jerarquitzat)
 
-## Principi crític: base d'orientació SEMPRE disciplinar
+### pre-A1 — Emergent
 
-❌ **Genèric** (prohibit): *"Escriu la introducció, el desenvolupament i la conclusió."*
 
-✅ **Disciplinar** (obligatori): *"1. Formula la pregunta investigable. 2. Escriu la hipòtesi (Si… llavors…). 3. Descriu els resultats en taula. 4. Conclou: la hipòtesi era correcta perquè…"*
+**1. Bloc A — Base d'orientació**
+- GPS disciplinar: 2-3 passos molt concrets amb terminologia disciplinar de la matèria. Cada pas = 1 frase imperativa breu.
 
-La base d'orientació **s'infereix del gènere i la matèria del text original**. Si el gènere no és explícit, dedueix-lo del registre i el contingut.
+**2. Bloc B — Catàleg de recursos**
+- Connectors + iniciadors HCL: 1 iniciador per HCL principal del gènere. Connectors: *i, però, perquè*. Llista curta (max 5 ítems).
 
-## Gradació per nivell MALL
+**3. Bloc C — Pauta d'interrogació**
+- Checklist d'autoavaluació: Cap pauta a A1: la bastida és el Bloc A i B.
 
-| Nivell | Bloc A | Bloc B | Bloc C |
-|---|---|---|---|
-| **Emergent (pre-A1)** | ❌ | ❌ | ❌ |
-| **Inicial (A1)** | 2-3 passos molt concrets | 1 iniciador per HCL · connectors: *i, però, perquè* | ❌ |
-| **Funcional (A2)** | 3-4 passos + terminologia disciplinar | 2-3 iniciadors · + *primer, llavors, per tant* | 2-3 ítems simples |
-| **Estratègic (B1)** | Raonament disciplinar (hipòtesi, evidència, causa) | Inferencials · + *ja que, en canvi, tot i que* | 4-5 ítems |
-| **Acadèmic (B2)** | Superestructura del gènere + CALP | CALP argumental · + *no obstant, atès que, en conseqüència* | Amb criteris d'avaluació |
-| **Crític (C1)** | Contrast de fonts, biaix, intertextualitat | Dialectics, retòrica | Reflexió sobre fiabilitat i biaix |
+**4. Autoavaluació mediada**
+- Metacognició: "He seguit els passos de la bastida per escriure el meu text."
 
-## Format de sortida
+### A1 — Inicial
 
-```markdown
-### Per escriure [nom del gènere], segueix aquest ordre:
-1. [Pas 1 — terminologia disciplinar específica]
-2. [Pas 2]
-3. [Pas 3]
-(4. [Pas 4 — si B1+])
 
-### Paraules per connectar les idees
-[Llista EXACTA dels connectors del nivell MECR — NO la llista completa]
+**1. Bloc A — Base d'orientació**
+- GPS disciplinar: 3-4 passos + terminologia disciplinar específica. Cada pas indica QUÈ fer i AMB QUÈ.
 
-### Frases per començar
-- [HCL 1]: «[iniciador 1]» / «[iniciador 2]»
-- [HCL 2]: «[iniciador 1]» / «[iniciador 2]»
+**2. Bloc B — Catàleg de recursos**
+- Connectors + iniciadors HCL: 2-3 iniciadors per HCL. Connectors: + *primer, llavors, per tant*. Connectors de causa-efecte.
 
-### Comprova la teva resposta  *(si A2+)*
-- Has fet servir el lèxic de la matèria ([2-3 termes clau del text])?
-- Has connectat les idees amb connectors?
-- [Criteri específic del gènere i la tasca]
-```
+**3. Bloc C — Pauta d'interrogació**
+- Checklist d'autoavaluació: 2-3 ítems simples vinculats al gènere i la tasca concreta. Com a mínim un ítem sobre el destinatari o el propòsit (ex.: "A qui escric? He posat el nom del personatge?").
 
-## Regles estrictes de sortida
+**4. Autoavaluació mediada**
+- Metacognició: "He usat la bastida per estructurar el meu text. He completat el checklist."
 
-- **Pre-A1**: NO generar. Si el MECR és pre-A1, retornar silenci (cap secció).
-- Bloc A: **SEMPRE** infós de contingut disciplinar. Els passos han de tenir noms propis de la matèria (no "introducció", "cos", "conclusió").
-- Bloc B: usar **EXACTAMENT** els connectors del nivell MECR de les gradacions MALL. No afegir tots els nivells.
-- Bloc C: vincular els criteris al gènere i la tasca concreta. Mai genèric.
-- **NO** donar les respostes: l'alumne ha d'omplir els buits.
-- Els iniciadors del Bloc B corresponen a les HCL rellevants per a la tasca (inferir quines HCL exigeix la producció a partir del gènere).
+### A2 — Funcional
+
+
+**1. Bloc A — Base d'orientació**
+- GPS disciplinar: Raonament disciplinar explícit: hipòtesi, evidència, causa, efecte. Vocabulari CALP del camp.
+
+**2. Bloc B — Catàleg de recursos**
+- Connectors + iniciadors HCL: Iniciadors inferencials i causals. Connectors: + *ja que, en canvi, tot i que*. Iniciadors de contrast.
+
+**3. Bloc C — Pauta d'interrogació**
+- Checklist d'autoavaluació: 4-5 ítems específics del gènere. Vinculats als criteris d'avaluació si estan disponibles.
+
+**4. Autoavaluació mediada**
+- Metacognició: "He seguit la base d'orientació i he usat els iniciadors per construir el meu argument."
+
+### B1 — Estratègic
+
+
+**1. Bloc A — Base d'orientació**
+- GPS disciplinar: Superestructura completa del gènere amb lèxic CALP i indicadors de qualitat per secció.
+
+**2. Bloc B — Catàleg de recursos**
+- Connectors + iniciadors HCL: Iniciadors CALP argumentals. Connectors: + *no obstant, atès que, en conseqüència* (NOMES a B2+).
+
+**3. Bloc C — Pauta d'interrogació**
+- Checklist d'autoavaluació: Criteris d'avaluació específics amb indicadors observables. Inclou criteris de rigor disciplinar.
+
+**4. Autoavaluació mediada**
+- Metacognició: "He usat la pauta d'interrogació per revisar que el meu text compleix els criteris del gènere."
+
+### B2 — Acadèmic
+
+
+**1. Bloc A — Base d'orientació**
+- GPS disciplinar: Contrast de fonts, biaix autorial, intertextualitat. El GPS inclou indicadors de rigor crític.
+
+**2. Bloc B — Catàleg de recursos**
+- Connectors + iniciadors HCL: Iniciadors dialèctics i retòrics. Connectors de concessió i contrast complexos.
+
+**3. Bloc C — Pauta d'interrogació**
+- Checklist d'autoavaluació: Reflexió metacognitiva sobre fiabilitat de les fonts, biaix i coherència interna de l'argument.
+
+**4. Autoavaluació mediada**
+- Metacognició: "He comprovat que les meves fonts son fiables i que el meu argument és coherent i honest."
+
+### C1+ — Crític
+
+

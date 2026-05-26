@@ -217,6 +217,109 @@ def derivat_frontmatter(
     return "---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False) + "---\n\n"
 
 
+# Camps Agent Skills (consumits per ATNE skills_loader.py):
+# - name, description, author, version, agent_role, tools_required, triggers
+# - genre_key (gèneres) o complement_key (mediació)
+# - opcionals: tipologia, mecr_range, translanguaging, multimodal, moduls_relacionats
+AGENT_SKILLS_FIELDS = {
+    "name", "description", "author", "version", "agent_role",
+    "tools_required", "triggers", "genre_key", "complement_key",
+    "tipologia", "mecr_range", "translanguaging", "multimodal",
+    "moduls_relacionats", "skill_meta",
+}
+
+
+def _read_existing_skill_frontmatter(skill_path: Path) -> dict | None:
+    """Llegeix el SKILL.md de producció (paral·lel al M*.md font) i extreu
+    el seu frontmatter Agent Skills. Retorna None si no existeix."""
+    if not skill_path.is_file():
+        return None
+    text = skill_path.read_text(encoding="utf-8")
+    m = FRONTMATTER_RE.match(text)
+    if not m:
+        return None
+    try:
+        return yaml.safe_load(m.group(1)) or {}
+    except yaml.YAMLError:
+        return None
+
+
+def _derive_agent_skills_frontmatter(instrument: Instrument, font_path: Path) -> dict:
+    """Construeix el frontmatter Agent Skills des del M*.md font quan no hi ha
+    SKILL.md previ. Usat per als instruments NOUS sense SKILL.md de producció."""
+    skill_folder = font_path.parent
+    skill_name = skill_folder.name  # p.ex. "write-noticia" o "generate-glossari"
+    src_fm = instrument.frontmatter
+
+    fm = {
+        "name": skill_name,
+        "description": src_fm.get("descripcio", "").strip(),
+        "author": "FJE — Fundació Jesuïtes Educació",
+        "version": src_fm.get("version", "4.0.0-canonic"),
+        "tools_required": [],
+    }
+
+    # agent_role: agafa primer d'agent_roles[] o defalleix a heurística pel nom
+    roles = src_fm.get("agent_roles", [])
+    if roles:
+        fm["agent_role"] = roles[0]
+    else:
+        fm["agent_role"] = "complements" if skill_name.startswith("generate-") else "adapter"
+
+    # triggers + key segons categoria
+    if "genre_key" in src_fm:
+        fm["genre_key"] = src_fm["genre_key"]
+        fm["triggers"] = [{"path": "params.genere_discursiu", "equals": src_fm["genre_key"]}]
+    elif "complement_key" in src_fm:
+        fm["complement_key"] = src_fm["complement_key"]
+        fm["triggers"] = [{"path": f"params.complements.{src_fm['complement_key']}", "equals": True}]
+
+    # Opcionals propagats si existeixen
+    for k in ("tipologia", "mecr_range", "translanguaging", "multimodal", "moduls_relacionats"):
+        if k in src_fm:
+            fm[k] = src_fm[k]
+
+    return fm
+
+
+def skill_md_frontmatter(instrument: Instrument, font_path: Path) -> str:
+    """Genera frontmatter del SKILL.md derivat amb compatibilitat Agent Skills.
+
+    Estratègia híbrida:
+    - Si existeix SKILL.md de producció paral·lel: preserva el seu frontmatter
+      Agent Skills (name, description, agent_role, triggers...) i hi afegeix
+      camps de traçabilitat. Manté la 'description' en anglès curat.
+    - Si no existeix (instruments nous): construeix el frontmatter Agent Skills
+      des del M*.md font.
+    - Sempre afegeix camps de traçabilitat: font_canonic, font_version,
+      generat_at, checksum_font.
+    """
+    skill_path = font_path.parent / "SKILL.md"
+    existing = _read_existing_skill_frontmatter(skill_path)
+
+    if existing and existing.get("name"):
+        # Preserva Agent Skills existent i actualitza només camps de traçabilitat.
+        fm = {k: v for k, v in existing.items() if k in AGENT_SKILLS_FIELDS}
+        # Actualitza version i moduls_relacionats des del M*.md (fonts de veritat)
+        src_fm = instrument.frontmatter
+        if "version" in src_fm:
+            fm["version"] = src_fm["version"]
+        if "moduls_relacionats" in src_fm:
+            fm["moduls_relacionats"] = src_fm["moduls_relacionats"]
+    else:
+        # No hi ha SKILL.md previ: construeix tot des del M*.md font.
+        fm = _derive_agent_skills_frontmatter(instrument, font_path)
+
+    # Camps de traçabilitat (sempre afegits)
+    fm["font_canonic"] = font_path.name
+    fm["font_version"] = instrument.frontmatter.get("version", "unknown")
+    fm["generat_at"] = date.today().isoformat()
+    fm["generat_per"] = "build_skills.py@v2-2026-05-26"
+    fm["checksum_font"] = sha256_of_file(font_path)
+
+    return "---\n" + yaml.safe_dump(fm, allow_unicode=True, sort_keys=False) + "---\n\n"
+
+
 def is_no_aplicable(descriptor: str) -> bool:
     t = descriptor.strip().lower()
     return t in {"—", "-", "n/a", "no aplicable.", "no aplica."} or t.startswith(
@@ -225,7 +328,8 @@ def is_no_aplicable(descriptor: str) -> bool:
 
 
 def generar_skill_md(instrument: Instrument, font_path: Path) -> str:
-    fm_block = derivat_frontmatter(instrument, font_path, vista="A.skill-md-llm")
+    # Frontmatter Agent Skills compatible (preservat o derivat) + traçabilitat
+    fm_block = skill_md_frontmatter(instrument, font_path)
     titol = instrument.frontmatter.get("titol", font_path.stem)
     parts = [fm_block, f"# {titol} — skill operativa per a LLM\n\n"]
     parts.append(instrument.descripcio + "\n\n")

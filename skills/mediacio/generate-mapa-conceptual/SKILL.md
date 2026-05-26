@@ -1,130 +1,169 @@
 ---
 name: generate-mapa-conceptual
-description: >
-  Use when the teacher has activated the "mapa_conceptual" complement.
-  Generates a visual organiser adapted to MECR level: at pre-A1/A1 a simple
-  visual schema (2-4 nodes, image→word or parts of a whole); from A2 a
-  hierarchical concept map in structured markdown (central concept + branches
-  + sub-elements). Output is NOT ASCII-art. Can be copy-pasted into Canva,
-  MindMeister, XMind, Word SmartArt.
+description: 'Use when the teacher has activated the "mapa_conceptual" complement.
+  Generates a visual organiser adapted to MECR level: at pre-A1/A1 a simple visual
+  schema (2-4 nodes, image→word or parts of a whole); from A2 a hierarchical concept
+  map in structured markdown (central concept + branches + sub-elements). Output is
+  NOT ASCII-art. Can be copy-pasted into Canva, MindMeister, XMind, Word SmartArt.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 2.0.0-proto
+version: 4.0.0-canonic
 complement_key: mapa_conceptual
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.mapa_conceptual
-    equals: true
-moduls_relacionats: [M2, M3]
+- path: params.complements.mapa_conceptual
+  equals: true
+moduls_relacionats:
+- M2
+- M3
+font_canonic: M3_instrument-generar-mapa-conceptual.md
+font_version: 4.0.0-canonic
+generat_at: '2026-05-26'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: 6204ebad4b393564
 ---
 
-# Generar mapa conceptual / esquema visual
+# Generar mapa conceptual — skill operativa per a LLM
 
-## Distinció fonamental (MALL)
+El mapa conceptual és un **organitzador visual** que externalitza les relacions entre conceptes del text adaptat. El MALL distingeix tres eines progressives dins d'aquest instrument: l'**esquema visual** (funció executiva, pre-A1/A1: ordena seqüències o parts d'un tot), el **mapa conceptual jeràrquic** (funció epistèmica, A2+: reconstrueix el coneixement en categories i relacions lògiques) i el **mapa de contrast** (funció crítica, C1: compara fonts o ideologies). La tria de l'eina depèn del MECR i de l'objectiu pedagògic.
 
-El MALL distingeix dues eines amb funcions diferents:
+**Tipologia MALL**: Mediació (organitzador visual cognitiu).
+**HCL principals**: Recapitular/Organitzar (pre-A1/A1) · Categoritzar/Relacionar (A2-B1) · Contrastar/Analitzar (B2-C1).
+**Principi rector**: La branca ha de dir la **relació** ("Causes", "Conseqüències", "Tipus de", "Processos"), no el contingut. Si la branca s'anomena "Informació" o "Coses", no és un mapa conceptual — és una llista disfressada.
+**Format obligatori**: Markdown jeràrquic (exportable a MindMeister/Canva/XMind). **Cap ASCII-art** (caixes │ ├ └ → fletxes).
 
-- **Esquema visual** (funció instrumental/executiva): seqüències temporals,
-  parts d'un tot, ordenació. Adequat des de pre-A1.
-- **Mapa conceptual jeràrquic** (funció epistèmica — «llegir per aprendre»):
-  reorganitza el coneixement en categories i relacions lògiques. Comença a **A2**.
+**Distinció fonamental — 3 eines dins un instrument:**
+- **Esquema visual** (pre-A1/A1): "Llegir per orientar-se". Seqüències temporals (antes/durant/après) o parts d'un tot (cap, cos, cua). El pas d'un node és immediat: imatge → paraula. No hi ha jerarquia lògica: és una cadena o un diagrama d'elements.
+- **Mapa conceptual** (A2-B2, Novak): "Llegir per comprendre". Jerarquia etiquetada: concepte central → categories → detalls. Les branques reflecteixen relacions lògiques (causes, efectes, tipus, processos). El contingut prové del text adaptat.
+- **Mapa de contrast** (C1): "Llegir per avaluar". Dues columnes o dues branques en contraposició. El contingut compara dues fonts, dues ideologies o dos marcs interpretatius.
 
-Aquesta skill genera l'eina adequada per al MECR de l'alumne.
+**Distinció crítica amb `generate-mapa-mental` (instrument separat):**
+- `mapa_conceptual` (Novak): "Llegir per comprendre" — contingut **dintre del text** adaptat; estructura jeràrquica; relacions etiquetades; A2-C1.
+- `mapa_mental` (Buzan, B1+): "Llegir per connectar" — contingut **més lluny del text**; radial i divergent; lliure; preguntes generadores; per a alumnat amb AACC o exploració creativa.
+Quan l'objectiu és comprendre el text → `mapa_conceptual`. Quan l'objectiu és expandir i connectar → `mapa_mental`.
 
-## Gradació per nivell MALL
+**Mapa com a bastida de composició**: l'alumne que fa el mapa conceptual ABANS d'escriure té ja l'estructura del text. El mapa és la planificació cognitiva que precedeix la producció textual. Per a TILC, el mapa conceptual és alhora instrument de comprensió i esquelet del text expositiu.
 
-| Nivell | Eina | Nodes / Nivells | Característiques |
-|---|---|---|---|
-| **Emergent (pre-A1)** | Esquema visual | 2-3 nodes | Imatge → paraula, o seqüència antes/després. Màxim concreció visual |
-| **Inicial (A1)** | Esquema visual | 3-4 nodes | Parts d'un tot o qualitats simples d'un objecte. Molt guiat |
-| **Funcional (A2)** | Mapa conceptual | **2 nivells** | Concepte central → idees principals literals. Primera introducció guiada |
-| **Estratègic (B1)** | Mapa conceptual | **3 nivells** | Concepte → categories → detalls inferits. Connectors lògics a les fletxes |
-| **Acadèmic (B2)** | Mapa conceptual | **4+ nivells** | Superestructura del gènere. Lèxic CALP. Relacions abstractes |
-| **Crític (C1)** | Mapa de contrast | 2 columnes | Comparació de fonts o ideologies. «Rere les línies» |
+**Pre-A1 SÍ (D6)**: l'esquema visual a pre-A1 no demana abstracció ni relacions lògiques. "Ordena les parts" o "Quins moments té?" son operacions cognitives assolibles des de la fase logogràfica, amb imatges com a suport.
 
-## Principi: text jeràrquic útil, no ASCII-art
+**Connexions MALL transversals:**
+- *Esquema vs. mapa com a distinció cognitiva*: el pas d'esquema (ordena) a mapa (categoritza i relaciona) no és cosmètic — és cognitiu. Introduir el mapa conceptual a A2 és introduir el pensament categorial: la capacitat de nomenar categories i les relacions entre elles.
+- *Noms de branca com a comprensió*: si l'alumne no pot nomenar la branca ("Causes", "Efectes"), no ha comprès la relació. El nom de branca és la prova de comprensió, no el contingut de la branca.
+- *Mapa com a metacognició*: construir el mapa DESPRÉS de llegir és diferent que llegir el mapa construït per un altre. La construcció activa (l'alumne organitza) desenvolupa comprensió profunda; la lectura passiva d'un mapa donat desenvolupa reconeixement.
 
-**L'objectiu NO és dibuixar** un diagrama amb fletxes ASCII, caixes o emojis.
-**L'objectiu SÍ és** una **jerarquia estructurada en markdown** que:
-- Es llegeix directament com a guia d'estudi.
-- Es copia a Canva, MindMeister, XMind, Word SmartArt amb mínima edició.
-- S'exporta a PDF sense renderitzadors especials.
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com a organitzador del text adaptat** (COMPRENSIÓ ESTRUCTURADA). **No descriu la producció creativa de l'alumne**: el mapa es genera a partir del text adaptat; l'alumne el llegeix, l'usa com a bastida de comprensió i en pot fer un de propi com a activitat posterior.
+**Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → esquema de 2 imatges (imatge → paraula); `fase_lectora: alfabetica_emergent` → esquema de 2-3 nodes amb paraula curta.
 
-## Regles per construir el mapa
+## Modulació per nivell (format vertical jerarquitzat)
 
-- **Concepte central**: 1 terme nuclear del text, en negreta.
-- **Branques principals**: 3-5 **frases de connexió verbals** que, llegides amb el
-  concepte central i el sub-element, formin una oració: «Els transports *es classifiquen
-  en* terrestres». Exemples vàlids: *es classifica en*, *forma part de*, *provoca*,
-  *s'utilitza per a*, *depèn de*, *es troba a*, *produeix*, *es caracteritza per*,
-  *s'organitza en*, *permet*. **MAI categories nominals** («Tipus», «Causes»,
-  «Conseqüències», «Característiques») — la branca ha de ser sempre un **verb o
-  sintagma verbal**. Aquesta és la proposició de Novak: la frase de connexió que
-  dóna significat a la relació entre dos conceptes.
-- **Sub-elements**: conceptes o entitats curtes (1-4 paraules), no frases explicatives.
-- Termes del **text adaptat**, no inventats.
-- **No repetir** el mateix concepte a múltiples branques.
+### pre-A1 — Emergent
 
-## Format de sortida — OBLIGATORI
 
-**Esquema visual (pre-A1/A1):**
-```markdown
-## Esquema visual
+**1. Tipus d'eina**
+- Funció cognitiva: Esquema visual: 2-3 nodes. Imatge → paraula o seqüència temporal (antes/durant/après).
 
-**[concepte o personatge central]**
+**2. Concepte central**
+- Nucli del mapa: Nom d'un personatge o objecte familiar del text. 1-2 paraules.
 
-- [element 1] → [element 2]
-- [part/qualitat 1]
-- [part/qualitat 2]
-- [part/qualitat 3]
-```
+**3. Branques principals**
+- Noms de categoria: 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua).
 
-**Mapa conceptual (A2+):**
-```markdown
-## Mapa conceptual
+**4. Sub-elements**
+- Detalls de les branques: Cap sub-element: l'esquema és pla (massa nivells per a pre-A1).
 
-- **[CONCEPTE CENTRAL]**
-  - **[frase verbal — ex: es classifica en]**
-    - [Sub-element 1.1]
-    - [Sub-element 1.2]
-  - **[frase verbal — ex: produeix]**
-    - [Sub-element 2.1]
-    - [Sub-element 2.2]
-  - **[frase verbal — ex: s'utilitza per a]**
-    - [Sub-element 3.1]
-    - [Sub-element 3.2]
-```
+**5. Format de sortida**
+- Estructura markdown: `## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim.
 
-**Opcional** al final (A2+):
-```markdown
-> Aquest mapa es pot enganxar a MindMeister, Canva o XMind per convertir-lo en diagrama visual.
-```
+### A1 — Inicial
 
-## Regles estrictes de sortida
 
-- Pre-A1/A1: comença amb `## Esquema visual`.
-- A2+: comença amb `## Mapa conceptual`.
-- **Primera línia SEMPRE com a ítem de llista**: `- **[CONCEPTE CENTRAL]**` (mai text lliure sense guió `-`). Branques i sub-elements, sempre indentats amb guió `-` i 2 espais per nivell.
-- **NO** posar el concepte central com a línia lliure `**terme**: ...` — destrueix la jerarquia del renderer.
-- **Sempre** etiquetar les branques en negreta dins del guió (`- **es classifica en**`). La branca en negreta és la **proposició** (frase verbal), no una categoria nominal.
-- **NO** fletxes ASCII (→ com a connector, no com a estructura), **NO** caixes ASCII (│├└), no emojis decoratius.
-- **NO** sub-elements com a frases llargues.
-- **NO** conceptes no presents al text adaptat.
-- **NO** superar 3 nivells de sagnia (profunditat limitada).
+**1. Tipus d'eina**
+- Funció cognitiva: Esquema visual: 3-4 nodes. Parts d'un tot o qualitats simples d'un element concret.
 
-## Casos especials
+**2. Concepte central**
+- Nucli del mapa: 1 terme nuclear concret del text adaptat. En negreta.
 
-### Text narratiu (conte, relat)
-- Concepte central: tema o idea nuclear (no «El conte»).
-- Branques: personatges, espai-temps, conflicte, resolució, missatge.
+**3. Branques principals**
+- Noms de categoria: 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r).
 
-### Text poètic
-- Concepte central: tema nuclear.
-- Branques: camps semàntics, imatges, emocions, recursos recurrents.
+**4. Sub-elements**
+- Detalls de les branques: Cap sub-element: l'esquema és pla (màxim 1 nivell).
 
-### Si el docent ha activat «esquema visual» i «mapa conceptual» alhora
-Genera una sola secció (`## Mapa conceptual` a A2+, `## Esquema visual` a A1).
+**5. Format de sortida**
+- Estructura markdown: `## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art.
 
-## Exemple
-Veure `assets/exemple-historia-B1.md` (Revolució Industrial, ESO 3r) i
-`assets/exemple-ciencies-A2.md` (fotosíntesi, Primària Superior).
+### A2 — Funcional
+
+
+**1. Tipus d'eina**
+- Funció cognitiva: Mapa conceptual: 2 nivells jeràrquics. Primera introducció guiada de branques etiquetades.
+
+**2. Concepte central**
+- Nucli del mapa: 1 terme nuclear precís del text adaptat. En negreta. Correspon a la idea central del text.
+
+**3. Branques principals**
+- Noms de categoria: 3-4 branques amb noms de categoria clars (Causes / Tipus / Efectes / Processos). Mai genèrics.
+
+**4. Sub-elements**
+- Detalls de les branques: 2-3 sub-elements per branca. Termes curts, no frases llargues. Del text adaptat.
+
+**5. Format de sortida**
+- Estructura markdown: `## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art.
+
+### B1 — Estratègic
+
+
+**1. Tipus d'eina**
+- Funció cognitiva: Mapa conceptual: 3 nivells. Concepte → categories disciplinars → detalls inferts del text.
+
+**2. Concepte central**
+- Nucli del mapa: 1 terme que organitza tot el coneixement del text. Terme disciplinar.
+
+**3. Branques principals**
+- Noms de categoria: 3-5 branques amb noms de categoria disciplinars. Relació lògica explícita (no "Informació").
+
+**4. Sub-elements**
+- Detalls de les branques: 3-4 sub-elements per branca. Inferts del text, no copiats literalment.
+
+**5. Format de sortida**
+- Estructura markdown: `## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art.
+
+### B2 — Acadèmic
+
+
+**1. Tipus d'eina**
+- Funció cognitiva: Mapa conceptual: 4 nivells màxim. Superestructura del gènere amb lèxic CALP.
+
+**2. Concepte central**
+- Nucli del mapa: 1 terme nuclear CALP. Pot ser un procés, un fenomen o un concepte abstracte.
+
+**3. Branques principals**
+- Noms de categoria: 4-6 branques CALP. Les categories reflecteixen l'estructura del gènere treballat.
+
+**4. Sub-elements**
+- Detalls de les branques: Sub-elements amb matisos. Pot incloure relacions transversals entre branques.
+
+**5. Format de sortida**
+- Estructura markdown: `## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art.
+
+### C1+ — Crític
+
+
+**1. Tipus d'eina**
+- Funció cognitiva: Mapa de contrast: 2 columnes o branques en contraposició. Comparació de fonts o ideologies.
+
+**2. Concepte central**
+- Nucli del mapa: 2 termes en contrast o 1 concepte complex amb múltiples dimensions o perspectives.
+
+**3. Branques principals**
+- Noms de categoria: 2 columnes de contrast o 4-6 branques amb relació de tensió, contrast o complementarietat.
+
+**4. Sub-elements**
+- Detalls de les branques: Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques.
+
+**5. Format de sortida**
+- Estructura markdown: `## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast.
+

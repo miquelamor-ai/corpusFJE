@@ -1,154 +1,172 @@
 ---
 name: generate-rubriques
-description: >
-  Use when the teacher has activated the "rubriques" complement. Generates a
-  student-facing achievement rubric (rúbrica d'assoliment) for the production
-  task derived from the adapted text. The rubric uses the FJE 4-level scale
-  (NA/AS/AN/AE) written in first person so the student can self-assess. Modulated
-  by MECR level and genre/subject. At Emergent/pre-A1: checklist with icons
-  instead of rubric table.
+description: 'Use when the teacher has activated the "rubriques" complement. Generates
+  a student-facing achievement rubric (rúbrica d''assoliment) for the production task
+  derived from the adapted text. The rubric uses the FJE 4-level scale (NA/AS/AN/AE)
+  written in first person so the student can self-assess. Modulated by MECR level
+  and genre/subject. At Emergent/pre-A1: checklist with icons instead of rubric table.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 1.0.0-proto
+version: 4.0.0-canonic
 complement_key: rubriques
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.rubriques
-    equals: true
-moduls_relacionats: [M2, M6]
+- path: params.complements.rubriques
+  equals: true
+moduls_relacionats:
+- M2
+- M6
+font_canonic: M3_instrument-generar-rubriques.md
+font_version: 4.0.0-canonic
+generat_at: '2026-05-26'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: 7b00838373787856
 ---
 
-# Generar rúbrica d'assoliment
+# Generar rúbriques d'autoavaluació — skill operativa per a LLM
 
-## Quan activar aquesta skill
+La rúbrica generada és **alumne-facing**: escrita en **primera persona**, per a l'alumne, amb l'escala FJE: **NA** (No Assolit) · **AS** (Assolit Suficient) · **AN** (Assolit Notable) · **AE** (Assolit Excel·lent). Quan l'alumne llegeix "He argumentat la meva postura amb 2 evidències del text", aprèn QUÈ s'espera d'ell ABANS d'escriure. La rúbrica és una **bastida d'anticipació** i una eina d'autoregulació, no un formulari d'avaluació del docent.
 
-Activar quan el docent ha marcat el complement **"Rúbrica d'assoliment"** al Pas 2.
-Aquesta rúbrica és per a l'**alumne**, no per al docent. Permet l'autoavaluació i la
-coavaluació. S'orienta a la producció derivada del text (activitat d'aprofundiment,
-pregunta oberta, tasca escrita).
+**Tipologia MALL**: Mediació (autoavaluació i metacognició).
+**HCL principals**: Avaluar · Autoregular · Reflexionar metacognitivament.
+**Principi rector — AE com a salt qualitatiu**: si el descriptor AE és "he fet molt bé el que es demanava", la rúbrica no discrimina el creixement real. AE ha de capturar alguna cosa que **sorprèn, va més lluny, demostra apropiació autèntica** del gènere o la tasca. AE no és "AN + esforç" — és un salt de naturalesa diferent.
 
-## Principi MALL: doble esmicolament
+**Escala FJE:**
+- **NA** (No Assolit): no compleix el descriptor mínim de la tasca.
+- **AS** (Assolit Suficient): compleix el descriptor bàsic. Producte correcte però sense matisos.
+- **AN** (Assolit Notable): compleix el descriptor i afegeix qualitat. Producte coherent i elaborat.
+- **AE** (Assolit Excel·lent): salt qualitatiu. Sorprèn, va més lluny, demostra apropiació autèntica. NO és "AN + molt d'esforç".
 
-Dissenyar una rúbrica requereix dos passos seqüencials:
+**Pre-A1 — Checklist binari d'icones (no escala FJE)**: a pre-A1 l'escala de 4 nivells és massa abstracta. El format és un **checklist ✅ / ❌**: "He dibuixat els 3 moments" → ✅ o ❌. No hi ha gradació: l'alumne o ho ha fet o no ho ha fet. L'adult media la revisió oral.
 
-1. **Primer esmicolament** — Identificar els **criteris** (dimensions de la qualitat):
-   contingut, llengua, estructura, rigor, reflexió.
-2. **Segon esmicolament** — Definir els **indicadors** per a cada nivell (NA/AS/AN/AE):
-   comportaments observables i concrets, en primera persona.
+**Diferència crítica amb `bastides_produccio` (Bloc C — Pauta d'interrogació):**
+- `bastides_produccio` Bloc C: pauta d'interrogació DURANT el procés d'escriptura (checklist intern que guia la producció en curs).
+- `rubriques`: autoavaluació del PRODUCTE acabat (avaluació post-producció, escala FJE).
+Les dues eines son complementàries: bastida durant → rúbrica després.
 
-Sense el segon esmicolament, els descriptors queden abstractes ("fa bé", "és adequat")
-i l'alumne no sap on se situa ni com millorar.
+**Perspectiva alumne-facing:**
+- Primera persona en TOT el document: "He escrit...", "He usat...", "He argumentat...".
+- Mai tercera persona ("L'alumne ha escrit...") ni segona ("Has escrit...").
+- Descriptors observables (l'alumne pot comprovar si ho ha fet): "He escrit la idea principal a la 1a frase" és observable. "He escrit bé" no és observable.
 
-## Distinció: Rúbrica vs Pauta d'interrogació
+**Connexions MALL transversals:**
+- *Rúbrica com a bastida d'anticipació*: quan l'alumne llegeix la rúbrica ABANS d'escriure, té un mapa de qualitat. La rúbrica no és per al docent — és una eina de l'alumne per autoregular la seva producció.
+- *AE com a aspiració, no com a recompensa*: el descriptor AE mostra a l'alumne quin és el salt qualitatiu que podria fer si s'hi esforça. No és una recompensa al treball dur; és una descripció del pensament expert.
+- *Metacognició com a aprenentatge*: el procés de marcar la rúbrica (decidir en quin nivell estàs) és en si mateix un acte de comprensió. L'alumne que se situa a AS i sap per qué (li falta evidència) aprèn més que l'alumne que se situa a AN sense saber-ne el motiu.
 
-| Instrument | Quan s'usa | Funció |
-|---|---|---|
-| **Rúbrica d'assoliment** | Al FINAL de la producció | Avaluar el resultat (inici i final del procés) |
-| **Pauta d'interrogació** | DURANT la producció | Checklist d'autoregulació pas a pas (Bloc C de bastides de producció) |
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Aquesta rúbrica descriu les **rúbriques d'autoavaluació que es generen per a l'alumne** (AUTOAVALUACIÓ MEDIADA). **No descriu la rúbrica del docent per a l'avaluació sumativa**: la rúbrica d'autoavaluació és per a l'alumne, no per al docent. Si el docent vol rúbriques per avaluar (perspectiva externa), ha d'usar les eines d'avaluació de centre.
+**Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → checklist d'imatges (dibuix sí/no); `fase_lectora: alfabetica_emergent` → checklist de paraules curtes (sí/no).
 
-La pauta d'interrogació acompanya el procés d'escriptura. La rúbrica avalua el producte final.
+## Modulació per nivell (format vertical jerarquitzat)
 
-## Escala FJE
+### pre-A1 — Emergent
 
-| Codi | Nom | Significat |
-|---|---|---|
-| **NA** | No Assolit | La producció no mostra l'habilitat requerida |
-| **AS** | Assolit Satisfactòriament | Mostra l'habilitat amb suport o de forma bàsica |
-| **AN** | Assolit Notablement | Mostra l'habilitat de forma clara i autònoma |
-| **AE** | Assolit Excel·lentment | Supera les expectatives; creativitat o profunditat |
 
-La rúbrica s'escriu en **primera persona** (l'alumne s'avalua: "He fet...", "He usat...").
+**1. Format**
+- Estructura de l'instrument: Checklist d'icones: ✅ / ❌ per a cada ítem. Sense escala. Molt visual. Adult media la revisió oral.
 
-## Gradació per nivell MALL
+**2. Nombre de criteris**
+- Amplitud d'avaluació: 2-3 criteris molt concrets i visuals. Accionables a pre-A1 (He dibuixat / He assenyalat).
 
-| Nivell | Format | Criteris | Escala |
-|---|---|---|---|
-| **Emergent (pre-A1)** | Checklist d'icones (✅/⬜) | 2-3 ítems molt concrets i visuals. Zero lèxic abstracte | Sense etiquetes NA/AS/AN/AE — icona ✅/⬜ |
-| **Inicial (A1)** | Checklist de 3 ítems | Ítems molt curts (5-8 paraules). Lèxic quotidià | ✅ / ⬜ o Sí/No |
-| **Funcional (A2)** | Taula 3 criteris × 3 nivells | Criteris de contingut + llengua | AS / AN / AE (sense NA) |
-| **Estratègic (B1)** | Taula 3-4 criteris × 4 nivells | Criteris de contingut + llengua + estructura | NA / AS / AN / AE |
-| **Acadèmic (B2)** | Taula 4 criteris × 4 nivells | + criteri de rigor acadèmic i evidències | NA / AS / AN / AE |
-| **Crític (C1)** | Taula 4-5 criteris × 4 nivells | + criteri d'intencionalitat i contrast de fonts | NA / AS / AN / AE |
+**3. Descriptors observables**
+- Concretesa del descriptor: Acció visible: "He dibuixat els 3 moments." / "He assenyalat el personatge." Mai "He fet bé".
 
-## Criteris a incloure (selecciona els que corresponen)
+**4. Primera persona**
+- Perspectiva alumne-facing: "He fet ___ / He posat ___." Molt concret i físic.
 
-**Contingut** (sempre):
-- He dit el que se'm demanava (contingut central)
-- He usat el lèxic de la matèria
-- He justificat amb exemples o evidències
+**5. Descriptor AE (salt qualitatiu)**
+- Naturalesa de l'excel·lència: Cap descriptor AE: checklist binari.
 
-**Llengua** (A2+):
-- He connectat les idees amb connectors
-- He escrit frases clares amb subjecte i verb explícit
-- He usat el vocabulari del text
+### A1 — Inicial
 
-**Estructura** (B1+):
-- He seguit els passos del gènere (base d'orientació)
-- He organitzat les idees de forma coherent
 
-**Rigor** (B2+):
-- He aportat evidències, no només opinions
-- He detectat si les fonts que cito són fiables
+**1. Format**
+- Estructura de l'instrument: Taula simplificada: 2-3 criteris × 3 nivells (Encara no / Sí / Sí, i alguna cosa més). Sense vocabulari FJE.
 
-**Reflexió** (C1):
-- He identificat la meva posició i l'he justificada
-- He tingut en compte punts de vista alternatius
+**2. Nombre de criteris**
+- Amplitud d'avaluació: 2-3 criteris accionables. Corresponen a les tasques concretes demandades.
 
-## Format de sortida
+**3. Descriptors observables**
+- Concretesa del descriptor: Observable: "He escrit 3 passos numerats." Sense adjectius valoratius.
 
-### Format Emergent (pre-A1) — Checklist icones
+**4. Primera persona**
+- Perspectiva alumne-facing: "He escrit ___ / He usat ___." Primera persona consistent en tota la rúbrica.
 
-```markdown
-## Comprovo el meu treball
+**5. Descriptor AE (salt qualitatiu)**
+- Naturalesa de l'excel·lència: Descriptor AE = precisió o originalitat dins del límit: "He triat una paraula que no estava a la bastida però que explica exactament el que volia dir." No "he afegit coses" ni "ho he fet molt bé".
 
-- ⬜ He assenyalat la imatge correcta
-- ⬜ He dit el nom en veu alta
-- ⬜ He dibuixat el que he après
-```
+### A2 — Funcional
 
-### Format A1-A2 — Checklist text
 
-```markdown
-## Comprovo el meu treball
+**1. Format**
+- Estructura de l'instrument: Taula: 3-4 criteris × escala FJE completa (NA/AS/AN/AE). Primera escala gradada.
 
-- ⬜ He dit de què tracta el text
-- ⬜ He usat paraules del text
-- ⬜ He connectat les idees amb *i*, *però*, *perquè*
-```
+**2. Nombre de criteris**
+- Amplitud d'avaluació: 3-4 criteris del gènere o la tasca concreta.
 
-### Format B1+ — Taula d'assoliment
+**3. Descriptors observables**
+- Concretesa del descriptor: Observable amb indicadors: "He escrit la idea principal a la 1a frase, sense 'Aquest text parla de…'."
 
-```markdown
-## Rúbrica d'assoliment
+**4. Primera persona**
+- Perspectiva alumne-facing: "He escrit / He usat / He inclòs ___." Primera persona en tot el document.
 
-| Criteri | NA | AS | AN | AE |
-|---|---|---|---|---|
-| **Contingut**: He explicat [el que demana la tasca] | No ho he fet | Ho he fet de forma bàsica | Ho he fet de forma clara | Ho he fet amb detalls i exemples propis |
-| **Lèxic**: He usat el vocabulari de la matèria | No n'he usat | N'he usat poc | N'he usat els principals | N'he usat tots i els he explicat |
-| **Estructura**: He seguit els passos del gènere [nom gènere] | No l'he seguit | N'he seguit alguns passos | L'he seguit gairebé tot | L'he seguit completament i l'he adaptat |
-| **Llengua**: He connectat les idees amb connectors | No n'he usat | N'he usat 1-2 | N'he usat 3-4 | N'he usat molts i variats |
-```
+**5. Descriptor AE (salt qualitatiu)**
+- Naturalesa de l'excel·lència: Descriptor AE = qualitat que transforma: una imatge pròpia, un connector inesperat, un exemple original no donat a la bastida.
 
-## Regles estrictes de sortida
+### B1 — Estratègic
 
-- Comença **sempre** amb `## Rúbrica d'assoliment` (o `## Comprovo el meu treball` per a Emergent/A1).
-- Els descriptors han de ser en **primera persona** i **accionables** (l'alumne sap exactament on se situa).
-- **NO** usar termes abstractes ("qualitat", "adequat", "correcte") — substituir per comportaments observables.
-- **NO** generar rúbriques si no hi ha cap tasca de producció al context (si no hi ha `preguntes_comprensio` obertes ni `activitats_aprofundiment` actius, avisar al docent).
-- El nombre de criteris ha de ser **proporcional al MECR**: 2-3 criteris per a A1-A2, màxim 5 per a C1.
-- La columna **AE** ha d'implicar un salt qualitatiu real (no "fer més"), sinó creativitat, autonomia o profunditat.
-- Pre-A1: **ZERO taula**, ZERO escriptura autònoma. Usa exclusivament icones i ítems de assenyalar o dictar.
-- Infereix el **gènere** del text i la tasca per personalitzar els descriptors (informe, crònica, argument, etc.).
 
-## Exemple (B1, Història, crònica)
+**1. Format**
+- Estructura de l'instrument: Taula: 4-5 criteris × escala FJE. Descriptor breu per a cada criteri i nivell.
 
-```markdown
-## Rúbrica d'assoliment
+**2. Nombre de criteris**
+- Amplitud d'avaluació: 4-5 criteris que cobreixen les HCL clau de la tasca (Argumentar, Descriure, Narrar...).
 
-| Criteri | NA | AS | AN | AE |
-|---|---|---|---|---|
-| **Contingut**: He explicat els fets principals de la crònica | No ho he fet | He explicat 1-2 fets | He explicat els fets principals amb ordre cronològic | He explicat els fets i he afegit causes i conseqüències |
-| **Lèxic**: He usat vocabulari d'història | No n'he usat | He usat alguna paraula | He usat les paraules clau del text | He usat el vocabulari i l'he explicat amb les meves paraules |
-| **Estructura**: He seguit els passos de la crònica (qui/on/quan → fets → conseqüències) | No l'he seguida | He seguit algun pas | He seguit la majoria dels passos | He seguit tots els passos i he afegit una valoració personal |
-| **Llengua**: He usat connectors temporals (*primer*, *després*, *finalment*) | No n'he usat | N'he usat 1 | N'he usat 2-3 | N'he usat molts i de manera variada |
-```
+**3. Descriptors observables**
+- Concretesa del descriptor: Apunta a la qualitat: "Cada argument inclou una evidència del text o una raó concreta."
+
+**4. Primera persona**
+- Perspectiva alumne-facing: "He argumentat / He justificat / He demostrat ___." HCL en primera persona.
+
+**5. Descriptor AE (salt qualitatiu)**
+- Naturalesa de l'excel·lència: Descriptor AE = habilitat que anticipa el nivell següent: un argument no donat per la bastida, una connexió pròpia entre dues idees del text.
+
+### B2 — Acadèmic
+
+
+**1. Format**
+- Estructura de l'instrument: Taula: 5-6 criteris × escala FJE + descriptor observatble per a cada criteri i nivell.
+
+**2. Nombre de criteris**
+- Amplitud d'avaluació: 5-6 criteris que inclouen dimensió formal (llengua) i dimensió de contingut (idees).
+
+**3. Descriptors observables**
+- Concretesa del descriptor: Apunta a la relació: "He connectat les idees de seccions diferents usant connectors precisos."
+
+**4. Primera persona**
+- Perspectiva alumne-facing: "He analitzat / He contrastat / He elaborat ___." HCL acadèmiques en 1a persona.
+
+**5. Descriptor AE (salt qualitatiu)**
+- Naturalesa de l'excel·lència: Descriptor AE = evidència de pensament crític: detectar un biaix, contrastar fonts, plantejar una objecció fonamentada.
+
+### C1+ — Crític
+
+
+**1. Format**
+- Estructura de l'instrument: Taula: 5-6 criteris × escala FJE + reflexió metacognitiva final (1-2 frases lliures).
+
+**2. Nombre de criteris**
+- Amplitud d'avaluació: 5-6 criteris amb criteri de reflexió metacognitiva ("He revisat el text i he millorat ___").
+
+**3. Descriptors observables**
+- Concretesa del descriptor: Metacognitiu: "He detectat i corregit al menys un error de coherència o un terme imprecís."
+
+**4. Primera persona**
+- Perspectiva alumne-facing: "He reflexionat / He avaluat / He detectat ___." Metacognició en 1a persona.
+
+**5. Descriptor AE (salt qualitatiu)**
+- Naturalesa de l'excel·lència: Descriptor AE = reflexió que demostra metacognició genuïna i transferència a altres contexts o tasques.
+

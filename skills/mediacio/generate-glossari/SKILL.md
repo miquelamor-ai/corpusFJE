@@ -1,120 +1,220 @@
 ---
 name: generate-glossari
-description: >
-  Use when the teacher has activated the "glossari" complement. Generates a
-  markdown glossary of key terms from the adapted text. Monolingüe or bilingüe
-  (with L1 column in native script) depending on whether the student is a
-  newcomer. Quantity and format modulated by MECR level: Emergent uses a
-  visual icon+word list (no table); from A1 upwards uses a markdown table.
+description: 'Use when the teacher has activated the "glossari" complement. Generates
+  a markdown glossary of key terms from the adapted text. Monolingüe or bilingüe (with
+  L1 column in native script) depending on whether the student is a newcomer. Quantity
+  and format modulated by MECR level: Emergent uses a visual icon+word list (no table);
+  from A1 upwards uses a markdown table.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 2.1.0-proto
+version: 4.0.0-canonic
 complement_key: glossari
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.glossari
-    equals: true
-variants:
-  - monolingue   # quan l'alumne NO és nouvingut o L1 desconegut
-  - bilingue     # quan l'alumne és nouvingut i L1 coneguda
-moduls_relacionats: [M2, M3]
+- path: params.complements.glossari
+  equals: true
+moduls_relacionats:
+- M2
+- M3
+font_canonic: M3_instrument-generar-glossari.md
+font_version: 4.0.0-canonic
+generat_at: '2026-05-26'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: 82c426b1af07ab15
 ---
 
-# Generar glossari
+# Generar glossari — skill operativa per a LLM
 
-## Quan activar aquesta skill
+El glossari és un instrument de **mediació lèxica** que acompanya el text adaptat i ofereix definicions dels termes clau. La seva funció és reduir la càrrega cognitiva lèxica perquè l'alumne pugui centrar-se en la comprensió del contingut. Inclou una **variant bilingüe** per a alumnat nouvingut amb L1 coneguda.
 
-Activar quan el docent ha marcat el complement **"Glossari"** al Pas 2.
-La variant (monolingüe o bilingüe) es decideix automàticament:
+**Tipologia MALL**: Mediació lèxica (suport).
+**HCL principal**: Descriure — definir amb precisió creixent (CALP).
+**Principi rector CALP de Cummins** (llargada de la definició per nivell): pre-A1=6 paraules · A1-A2=8-10 paraules · B1=12 paraules · B2=15 paraules · C1=20 paraules.
 
-- `nouvingut.actiu=true` i `nouvingut.L1` definit → **variant bilingüe**.
-- Qualsevol altre cas → **variant monolingüe**.
+**Connexions MALL transversals:**
+- *Translanguaging / TOLC*: la variant bilingüe és una estratègia de translanguaging explícita. El terme en L1 activa el coneixement previ i redueix l'ansietat lingüística.
+- *Multimodalitat*: a pre-A1 i A1, els emojis/pictogrames fan el glossari accessible sense lectura plena.
+- *CALP de Cummins*: la gradació de la complexitat de la definició és la implementació directa del concepte de llengua acadèmica.
 
-## Graduació MALL per nivell
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (què el docent presenta perquè l'alumne consulti). **No descriu la producció autònoma de l'alumne** — això es treballa amb un derivat propi (rúbrica d'avaluació formativa), pertinent per al cas de **glossari col·laboratiu** (B1+ ; vegeu H4) on l'alumnat construeix el glossari sota la guia del docent.
+**Sub-granularitat dins de pre-A1 i A1**: es treballa amb la variable independent `fase_lectora` del frontmatter (logografica · alfabetica_emergent · alfabetica_fluida), no amb columnes addicionals.
 
-| Nivell | Nombre de termes | Tipus de lèxic | Format |
-|---|---|---|---|
-| **Emergent (pre-A1)** | 3-5 | Objectes reals, noms concrets. **NO** tecnicismes | Icona + paraula (no taula) |
-| **Inicial (A1)** | 5-8 | Noms + verbs d'acció | Taula |
-| **Funcional (A2)** | 8-10 | Noms + verbs + adjectius clau | Taula |
-| **Estratègic (B1)** | 10-12 | + habilitats (hipòtesi, causa, conseqüència) | Taula |
-| **Acadèmic (B2) / Crític (C1)** | 12-15 | Lèxic d'especialitat (CALP) | Taula |
+## Modulació per nivell (format vertical jerarquitzat)
 
-## Format Emergent (pre-A1) — visual, sense taula
+### pre-A1 — Emergent
 
-A Emergent, la taula és massa complexa. Format: emoji + **terme** (+ L1 si nouvingut).
 
-**Monolingüe Emergent:**
-```markdown
-## Glossari
+**1. Selecció de termes**
+- Nombre: 3-5 termes.
+- Tipologia lèxica: Objectes reals i noms concrets. Sense tecnicismes.
 
-☀️ **sol**
-💧 **aigua**
-🌳 **arbre**
-```
+**2. Format de presentació**
+- Estructura: Emoji o pictograma + terme en negreta. Sense taula (massa complexa).
+- Suport visual: Pictograma obligatori a cada terme. L'adult pot complementar amb imatge real.
 
-**Bilingüe Emergent (nouvingut + L1):**
-```markdown
-## Per llegir junts: pictograma + L1 + català
+**3. Explicació / definició (CALP)**
+- Llargada: Fins a 6 paraules. Paraules molt freqüents.
+- Recursos pedagògics: Paraules immediates de l'experiència de l'alumne.
 
-☀️ **sol** — شمس
-💧 **aigua** — ماء
-🌳 **arbre** — شجرة
-```
+**4. Variant bilingüe (nouvingut L1)**
+- Inclusió L1: Afegeix el terme en L1 amb alfabet original (àrab, xinès, urdú, ciríl·lic, armeni…).
+- Notes contrastives: Sense notes. La imatge és el pont.
 
-## Variant monolingüe (A1+)
+**5. Criteris transversals**
+- No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
+- No-recursivitat: La definició no usa cap paraula més tècnica que el terme mateix.
+- Llengua de definició: Català (mai L1 dins la definició; la L1 va a la columna pròpia).
+- Selecció pertinent: Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren).
+- Fidelitat al text font: Tots els termes del glossari apareixen literalment al text adaptat (fidelitat al lèxic nuclear del text).
 
-```markdown
-## Glossari
+**6. Autoavaluació metacognitiva**
+- Reflexió sobre el procés: "He mirat les imatges del glossari quan al text he trobat una paraula que no he reconegut."
 
-| Terme | Explicació simple |
-|---|---|
-| **[terme]** | [explicació gradada per CALP segons MECR — vegeu taula sota] |
-```
+### A1 — Inicial
 
-Regles (validades MALL 2026-05-17):
-- Longitud i complexitat de l'explicació **gradada per BICS/CALP** segons MECR de l'alumne (no fixa a A1):
 
-| Nivell | Marc | Llindar paraules | Lèxic admès |
-|---|---|---|---|
-| **Emergent (pre-A1)** | BICS pur | ≤ 6 | quotidià, contextualitzat |
-| **Inicial (A1)** | BICS | ≤ 8 | quotidià |
-| **Funcional (A2)** | BICS | ≤ 8 | quotidià amb una mica d'obertura |
-| **Estratègic (B1)** | BICS amb obertura | ≤ 10 | més precís, sintaxi una mica més complexa |
-| **Acadèmic (B2)** | CALP entrant | ≤ 15 | terminologia acadèmica admesa |
-| **Crític (C1)** | CALP plenament | ≤ 18 | lèxic d'especialitat |
+**1. Selecció de termes**
+- Nombre: 5-8 termes.
+- Tipologia lèxica: Noms i verbs d'acció principals del text.
 
-- No usar altres termes tècnics que també haurien de ser al glossari (regla general).
-- No repetir el terme dins de la seva explicació (regla general).
-- **Justificació MALL**: la regla anterior "sempre A1" infrautilitzava CALP a B2-C1. Validat per NotebookLM amb cites a corpus canònic (Cummins, M3_MECR-descriptors-llengua, M3_TILC).
+**2. Format de presentació**
+- Estructura: Taula de 2 columnes: Terme \
+- Suport visual: Emoji recomanat si el terme té representació visual clara.
 
-## Variant bilingüe A1+ (nouvinguts amb L1 coneguda)
+**3. Explicació / definició (CALP)**
+- Llargada: Fins a 8 paraules en català molt senzill (A1).
+- Recursos pedagògics: Català A1 sense tecnicismes dins la definició. No repetir el terme.
 
-```markdown
-## Glossari
+**4. Variant bilingüe (nouvingut L1)**
+- Inclusió L1: Columna addicional "Traducció (L1)" en alfabet original. Taula de 3 columnes.
+- Notes contrastives: Sense notes. La traducció directa és el pont.
 
-| Terme | Traducció ({L1}) | Explicació simple |
-|---|---|---|
-| **[terme]** | [traducció en alfabet original de la L1] | [català gradat per CALP — vegeu taula monolingüe] |
-```
+**5. Criteris transversals**
+- No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
+- No-recursivitat: La definició usa només vocabulari A1 (mai termes més complexos sense explicar-los).
+- Llengua de definició: Català.
+- Selecció pertinent: Idem.
+- Fidelitat al text font: Tots els termes apareixen literalment al text adaptat.
 
-Regles addicionals:
-- Usar l'**alfabet original** de la L1: àrab الكتاب, xinès 书, urdú کتاب, ciríl·lic книга, armeni գիրք.
-- Si no existeix paraula exacta en L1, usar la més propera + aclariment breu entre parèntesis.
+**6. Autoavaluació metacognitiva**
+- Reflexió sobre el procés: "Quan llegint el text he trobat una paraula difícil, he anat al glossari a buscar-la abans de demanar ajuda."
 
-## Criteris de selecció de termes
+### A2 — Funcional
 
-Prioritzar, per ordre:
-1. **Termes curriculars del text** (Matemàtiques: equació; Ciències: fotosíntesi; Història: monarquia).
-2. **Paraules d'alta freqüència ambigues** per MECR baix o L1 diferent (ex: "mitjà" té múltiples sentits).
-3. **Col·locacions** importants: "prendre una decisió", "tenir en compte".
 
-NO prioritzar:
-- Paraules quotidianes òbvies (casa, menjar, aigua) — excepte a Emergent on sí poden ser noves.
-- Noms propis excepte si són clau per la matèria.
-- Connectors (perquè, però, així).
+**1. Selecció de termes**
+- Nombre: 8-10 termes.
+- Tipologia lèxica: Noms + verbs + adjectius clau.
 
-## Exemples
-- `assets/exemple-monolingue-ciencies.md` (MECR B1, ciències)
-- `assets/exemple-bilingue-arab-historia.md` (nouvingut A2, L1 àrab, història)
-- `assets/exemple-emergent-infantil.md` (pre-A1, infantil, bilingüe)
+**2. Format de presentació**
+- Estructura: Explicació.
+- Suport visual: Emoji opcional per a termes concrets; no per a abstractes.
+
+**3. Explicació / definició (CALP)**
+- Llargada: Fins a 10 paraules.
+- Recursos pedagògics: Pot incloure una analogia simple ("és com…") o un exemple concret del text.
+
+**4. Variant bilingüe (nouvingut L1)**
+- Inclusió L1: Columna addicional. Si no existeix paraula exacta en L1, usar la més propera amb aclariment breu.
+- Notes contrastives: Aclariment breu quan no hi ha equivalent exacte.
+
+**5. Criteris transversals**
+- No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
+- No-recursivitat: Pot usar termes d'A2 màx.; tecnicismes només si s'expliquen integrats.
+- Llengua de definició: Català.
+- Selecció pertinent: Idem.
+- Fidelitat al text font: Tots els termes apareixen literalment al text adaptat.
+
+**6. Autoavaluació metacognitiva**
+- Reflexió sobre el procés: "He fet servir el glossari per entendre el text. He intentat dir el significat amb les meves paraules a algú."
+
+### B1 — Estratègic
+
+
+**1. Selecció de termes**
+- Nombre: 10-12 termes.
+- Tipologia lèxica: Inclou habilitats cognitives lèxicament marcades (hipòtesi, causa, conseqüència).
+
+**2. Format de presentació**
+- Estructura: Taula de 2 columnes; pot afegir una analogia o exemple integrat.
+- Suport visual: Referència opcional a la il·lustració del text si n'hi ha.
+
+**3. Explicació / definició (CALP)**
+- Llargada: Fins a 12 paraules.
+- Recursos pedagògics: Pot usar vocabulari lleugerament tècnic acompanyat d'un exemple.
+
+**4. Variant bilingüe (nouvingut L1)**
+- Inclusió L1: Columna addicional. Pot afegir nota sobre diferències conceptuals entre L1 i català.
+- Notes contrastives: Notes conceptuals quan la categoria L1 difereix de la del català.
+
+**5. Criteris transversals**
+- No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
+- No-recursivitat: Pot usar termes B1 màx.; tecnicismes acompanyats d'exemple.
+- Llengua de definició: Català.
+- Selecció pertinent: Idem.
+- Fidelitat al text font: Tots els termes apareixen al text o són col·locacions necessàries per a la comprensió.
+
+**6. Autoavaluació metacognitiva**
+- Reflexió sobre el procés: "He reflexionat sobre si sabia usar els termes del glossari en una frase pròpia, i així he sabut quins encara no domino."
+
+### B2 — Acadèmic
+
+
+**1. Selecció de termes**
+- Nombre: 12-15 termes.
+- Tipologia lèxica: Lèxic d'especialitat (CALP). Inclou col·locacions ("realitzar una hipòtesi").
+
+**2. Format de presentació**
+- Estructura: Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna "Exemple en frase".
+- Suport visual: No necessari; el lector processa el terme sense suport visual.
+
+**3. Explicació / definició (CALP)**
+- Llargada: Fins a 15 paraules.
+- Recursos pedagògics: Vocabulari acadèmic (CALP) propi del camp; pot referenciar un altre terme del glossari.
+
+**4. Variant bilingüe (nouvingut L1)**
+- Inclusió L1: Columna addicional. Pot afegir nota sobre diferències morfosintàctiques rellevants.
+- Notes contrastives: Notes morfosintàctiques o de col·locació quan són rellevants per a la comprensió.
+
+**5. Criteris transversals**
+- No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
+- No-recursivitat: Pot usar lèxic d'especialitat propi del camp si el lector ja el coneix.
+- Llengua de definició: Català.
+- Selecció pertinent: Idem.
+- Fidelitat al text font: Termes literals + col·locacions + derivacions conceptualment necessàries.
+
+**6. Autoavaluació metacognitiva**
+- Reflexió sobre el procés: "He pensat quina diferència hi ha entre els termes del glossari que es poden confondre i com triaria un o l'altre."
+
+### C1+ — Crític
+
+
+**1. Selecció de termes**
+- Nombre: 15-18 termes.
+- Tipologia lèxica: CALP d'especialitat. Pot incloure termes meta-discursius i lèxic conceptual abstracte.
+
+**2. Format de presentació**
+- Estructura: Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna.
+- Suport visual: No necessari.
+
+**3. Explicació / definició (CALP)**
+- Llargada: Fins a 20 paraules.
+- Recursos pedagògics: Definició precisa amb matís conceptual; pot incloure distinció entre termes similars o etimologia breu.
+
+**4. Variant bilingüe (nouvingut L1)**
+- Inclusió L1: Columna opcional. L'alumne ja pot gestionar el text sense suport explícit en L1.
+- Notes contrastives: Notes autonomes; pot incloure registre o variació diatòpica si és rellevant.
+
+**5. Criteris transversals**
+- No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
+- No-recursivitat: Lèxic d'especialitat lliure dins del camp; referència creuada quan calgui.
+- Llengua de definició: Català.
+- Selecció pertinent: Idem (els meta-discursius sí entren).
+- Fidelitat al text font: Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp.
+
+**6. Autoavaluació metacognitiva**
+- Reflexió sobre el procés: "He reflexionat sobre com s'usaria el terme en un altre context i si la definició encara seria vàlida."
+

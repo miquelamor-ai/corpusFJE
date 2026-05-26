@@ -1,145 +1,153 @@
 ---
 name: generate-cartes-conversacionals
-description: >
-  Use when the teacher has activated the "cartes_conversacionals" complement.
-  Generates role-based conversation cards for structured class discussion or
-  debate: sentence starters per role (proposer, objector, mediator, summarizer)
-  calibrated to MECR level. Designed for B1+ (secondary school). At A2: simplified
-  pair-talk cards. At pre-A1/A1: not generated — oral interaction requires
-  in-person scaffolding only.
+description: 'Use when the teacher has activated the "cartes_conversacionals" complement.
+  Generates role-based conversation cards for structured class discussion or debate:
+  sentence starters per role (proposer, objector, mediator, summarizer) calibrated
+  to MECR level. Designed for B1+ (secondary school). At A2: simplified pair-talk
+  cards. At pre-A1/A1: not generated — oral interaction requires in-person scaffolding
+  only.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 1.0.0-proto
+version: 4.0.0-canonic
 complement_key: cartes_conversacionals
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.cartes_conversacionals
-    equals: true
-moduls_relacionats: [M2, M3]
+- path: params.complements.cartes_conversacionals
+  equals: true
+moduls_relacionats:
+- M2
+- M3
+font_canonic: M3_instrument-generar-cartes-conversacionals.md
+font_version: 4.0.0-canonic
+generat_at: '2026-05-26'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: 5ac93b01394c9adc
 ---
 
-# Generar cartes conversacionals
+# Generar cartes conversacionals — skill operativa per a LLM
 
-## Funció d'aquest instrument
+Les cartes conversacionals bastiden la **participació oral** (o escrita en format debat) donant a cada alumne un **repertori d'iniciadors** associats al seu rol dins la conversa. Cada carta = 1 rol + descripció de la funció comunicativa + màxim 3 iniciadors. El rol allibera l'alumne de la por a "dir el que penso" — és el personatge qui argumenta, no ell. Especialment rellevant per a alumnat nouvingut o NESE amb baixa seguretat oral.
 
-Les **cartes conversacionals** bastiden la participació oral (o escrita en format
-debat) donant a cada alumne un repertori d'iniciadors associats al seu **rol** dins
-la conversa. No és una llista de connectors: cada carta = un rol + iniciadors
-concrets per a aquella funció comunicativa.
+**Tipologia MALL**: Mediació (bastida de producció oral/dialogada).
+**HCL principals**: Argumentar · Contrargumentar · Sintetitzar · Mediar.
+**Principi rector**: Els iniciadors han de ser **específics de la pregunta de debat** del text. Si els iniciadors serveixen per a qualsevol debat de qualsevol tema, cal tornar a escriure'ls. La connexió amb el text font és la garantia de pertinença.
 
-El MALL les anomena **cartes amb etiquetes lingüístiques** i distingeix dos tipus de
-conversa que condicionen el registre i els rols:
+**2 tipus de conversa:**
+- **Exploratòria** (A2-B1): posicions obertes, errors tolerats, raonament visible. L'objectiu és explorar conjuntament, no guanyar. Estil: "Jo penso que... però potser..." "I si...?".
+- **Disputativa** (B2+): posicions definides, argumentació formal, citació d'evidències. L'objectiu és defensar una postura amb evidències. Estil: "Segons el text...", "D'acord amb...", "Però si observem que...".
 
-| Tipus | Característica | Quan usar |
-|---|---|---|
-| **Conversa exploratòria** | Raonament visible, posicions obertes, errors tolerats | A2-B1: pensar en veu alta junts |
-| **Conversa disputativa** | Posicions definides, argumentació formal, citació d'evidències | B2+: debat acadèmic, contrast de fonts |
+**4 rols estàndard (B1+):**
+- **Proposador/a**: formula la tesi i els arguments principals. Inicia la conversa.
+- **Objector/a**: qüestiona la tesi. Planteja contraarguments i punts febles.
+- **Mediador/a**: equilibra les posicions. Busca acord parcial i formula preguntes.
+- **Sintetitzador/a**: tanca la ronda. Resumeix el que s'ha dit i formula l'element obert.
 
-El MALL les recomana per:
-- Debats argumentats (activitats d'aprofundiment)
-- Posades en comú estructurades (post-lectura)
-- Discussions filosòfiques o científiques (B1+)
+**Pre-A1/A1: NO generar.** La interacció oral a aquests nivells requereix suport docent directe en temps real (mediació de torn, reformulació, andamiatge). Les cartes conversacionals presuposen l'autonomia d'inici comunicatiu que s'assoleix a A2.
 
-## Rols estàndard (ajusta al context)
+**Taulell de debat companion** (B1+): el MALL recomana combinar les cartes amb un taulell compartit (Arguments a favor / Arguments en contra / Punts d'acord / Preguntes obertes). Externalitza el raonament col·lectiu del grup.
 
-| Rol | Funció |
-|---|---|
-| **Proposador/a** | Presenta una idea o posició |
-| **Objector/a** | Qüestiona o contraposa |
-| **Mediador/a** | Resumeix, cedeix la paraula, busca consens |
-| **Sintetitzador/a** | Resumeix el que s'ha dit i treu conclusions |
+**Connexions MALL transversals:**
+- *Rol com a identitat comunicativa provisional*: el rol és una màscara pedagògica que permet a l'alumne experimentar posicions comunicatives que no necessàriament comparteix. L'Objector/a aprèn a contrargumentar; el Mediador/a aprèn a equilibrar. Aquesta experimentació de rols és la base del pensament dialèctic.
+- *Iniciador com a frase de posada en marxa*: la por al silenci o al "no sé com dir-ho" és la barrera principal de la participació oral. Un iniciador concret ("Jo crec que... perquè...") desbloqueja el primer torn. Un cop l'alumne ha dit la primera frase, la conversa flueix.
+- *Sintetitzador com a metacognició col·lectiva*: el rol del Sintetitzador és l'única funció metacognitiva del grup. "El que no hem resolt és ___" externalitza la consciència dels límits del coneixement col·lectiu. A C1, inclou la dimensió de fiabilitat de les fonts.
 
-Pots usar 2 rols (Proposador/Objector) o els 4. Adapta al nombre de membres del grup.
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Aquesta rúbrica descriu les **cartes conversacionals que es generen per bastir el debat** (MEDIACIÓ DE LA PRODUCCIÓ ORAL). **No descriu l'avaluació del debat ni la qualitat de la participació de l'alumne**: el docent observa si l'alumne usa les cartes i si la conversa avança amb estructura.
 
-## Instrument companion: Taulell de debat
+## Modulació per nivell (format vertical jerarquitzat)
 
-El MALL documenta un instrument complementari que acompanya les cartes a B1+: el
-**taulell de debat** — una superfície compartida (cartolina o pantalla) on el grup
-anota en temps real:
+### pre-A1 — Emergent
 
-- Arguments a favor / Arguments en contra
-- Punts d'acord trobats
-- Preguntes obertes sense resoldre
 
-Funció: externalitza el raonament col·lectiu i fa visible l'evolució del debat.
-Quan generes les cartes per a B1+, afegeix una nota breu al docent indicant que
-el taulell de debat és l'instrument companion recomanat.
+**1. Rols actius**
+- Nombre i complexitat: NO generar.
 
-## Gradació per nivell MALL
+**2. Nombre d'iniciadors per rol**
+- Repertori lingüístic: NO generar.
 
-| Nivell | Format | Iniciadors |
-|---|---|---|
-| **pre-A1 / A1** | ❌ No generar — la interacció oral requereix suport docent directe | — |
-| **Funcional (A2)** | 2 rols (Proposador / Objector). Frases molt curtes | *"Jo crec que..."* / *"Però potser..."* |
-| **Estratègic (B1)** | 3-4 rols. Frases completes per a cada HCL | Argumentar, justificar, reformular |
-| **Acadèmic (B2)** | 4 rols. Registre formal. Iniciadors de debat acadèmic | Contrastiu, causal, hipotètic |
-| **Crític (C1)** | 4 rols + metacognició del debat | Retòrica, detecció de biaix, citació de fonts |
+**3. Tipus de conversa**
+- Registre i objectiu: NO generar.
 
-## Format de sortida (B1)
+**4. Especificitat dels iniciadors**
+- Connexió amb el text: NO generar.
 
-```markdown
-## Cartes per al debat
+**5. Element obert al Sintetitzador**
+- Metareflexió del grup: NO generar.
 
-Cada membre del grup té un rol. Usa les frases de la teva carta per participar.
+### A1 — Inicial
 
----
 
-### 🟢 Proposador/a
-*El teu rol: Presentes la teva idea principal i la justifiques.*
+**1. Rols actius**
+- Nombre i complexitat: 2 rols: Proposador/a + Objector/a. Format simplificat per parelles.
 
-- «Jo crec que ___ perquè ___»
-- «Des del meu punt de vista, ___ ja que ___»
-- «La meva posició és ___ i la razó és ___»
+**2. Nombre d'iniciadors per rol**
+- Repertori lingüístic: 2 iniciadors per rol. Frases curtes i segures (Jo penso que ___ / Jo crec que no ___).
 
----
+**3. Tipus de conversa**
+- Registre i objectiu: Exploratòria: posicions obertes, errors tolerats, raonament visible. "I si...?" "Potser...".
 
-### 🔴 Objector/a
-*El teu rol: Qüestiones o afegeixes un punt de vista diferent.*
+**4. Especificitat dels iniciadors**
+- Connexió amb el text: Iniciadors genèrics ("Jo penso que ___"). Curts i segurs. Fàcils de dir.
 
-- «Tot i que entenc que ___, crec que ___»
-- «Discrepo perquè ___»
-- «I si en canvi ___?»
+**5. Element obert al Sintetitzador**
+- Metareflexió del grup: "Hem dit ___. Algú vol afegir alguna cosa?" (Element obert simple).
 
----
+### A2 — Funcional
 
-### 🟡 Mediador/a
-*El teu rol: Dones la paraula, resums i busques acords.*
 
-- «[Nom], quin és el teu punt de vista?»
-- «Fins ara hem dit que ___. Algú vol afegir alguna cosa?»
-- «Sembla que estem d'acord en ___ però no en ___»
+**1. Rols actius**
+- Nombre i complexitat: 3-4 rols: Proposador + Objector + Mediador + Sintetitzador.
 
----
+**2. Nombre d'iniciadors per rol**
+- Repertori lingüístic: 3 iniciadors per rol. Frases completes adaptades a la HCL del rol (Argumentar, Contrargumentar, Mediar).
 
-### 🔵 Sintetitzador/a
-*El teu rol: Al final, resums les idees principals i treus una conclusió.*
+**3. Tipus de conversa**
+- Registre i objectiu: Exploratòria o disputativa: comença explorant, pot formalitzar-se si el grup avança.
 
-- «En resum, hem parlat de ___ i ___»
-- «La conclusió del grup és ___»
-- «El que no hem resolt és ___»
-```
+**4. Especificitat dels iniciadors**
+- Connexió amb el text: Iniciadors específics de la pregunta de debat del text. Causals i justificatius ("El text diu que... i per això crec que...").
 
-## Format simplificat (A2 — parelles)
+**5. Element obert al Sintetitzador**
+- Metareflexió del grup: "La conclusió del grup és ___. El que no hem resolt és ___." (Tancament + obertura).
 
-```markdown
-## Cartes per parlar en parella
+### B1 — Estratègic
 
-### 🟢 Qui proposa
-- «Jo penso que ___»
-- «Crec que ___ perquè ___»
 
-### 🔴 Qui respon
-- «Estic d'acord perquè ___»
-- «No estic d'acord perquè ___»
-- «Potser, però ___»
-```
+**1. Rols actius**
+- Nombre i complexitat: 4 rols complets amb registre formal i terminologia de debat.
 
-## Regles estrictes de sortida
+**2. Nombre d'iniciadors per rol**
+- Repertori lingüístic: 3 iniciadors amb vocabulari CALP i connectors argumentals (Malgrat que..., Tenint en compte que...).
 
-- Comença **sempre** amb `## Cartes per al debat`.
-- **pre-A1 / A1**: NO generar. Retornar silenci o una nota per al docent: *(«A aquest nivell, la interacció oral requereix bastides en temps real del docent.»)*
-- Els iniciadors han de ser **específics de la pregunta de debat** del text, no genèrics. Infereix la pregunta del text o dels complements actius (activitats d'aprofundiment).
-- Usa **emojis de color** per distingir els rols (millora el reconeixement visual, especialment a A2-B1).
-- Cada rol: màxim **3 iniciadors**. Millor pocs i clars que molts i confusos.
-- Els iniciadors del rol **Sintetitzador** sempre inclouen un element obert ("El que no hem resolt és...") per fomentar pensament crític.
-- A B2+, els iniciadors del rol Objector han d'incloure un iniciador de **citació** o **evidència**: *«Segons el text...», «D'acord amb [autor]...»*
+**3. Tipus de conversa**
+- Registre i objectiu: Disputativa: posicions definides, argumentació formal, citació d'evidències del text.
+
+**4. Especificitat dels iniciadors**
+- Connexió amb el text: Iniciadors que inclouen citació del text ("Segons el text...", "D'acord amb..."). Registre formal.
+
+**5. Element obert al Sintetitzador**
+- Metareflexió del grup: "El que no hem resolt és ___. Per resoldre-ho caldria saber ___." (Apertura epistemica).
+
+### B2 — Acadèmic
+
+
+**1. Rols actius**
+- Nombre i complexitat: 4 rols + capa metacognitiva al Sintetitzador (detecció de biaixos i punts cecs).
+
+**2. Nombre d'iniciadors per rol**
+- Repertori lingüístic: 3 iniciadors dialèctics o retòrics que qüestionen la postura contrària (Si fos cert que X, llavors...).
+
+**3. Tipus de conversa**
+- Registre i objectiu: Disputativa amb metacognició: detecció de biaixos, qüestionament de la fiabilitat de les fonts.
+
+**4. Especificitat dels iniciadors**
+- Connexió amb el text: Iniciadors que qüestionen, matisen i detecten biaixos ("Però si pensem que X, el text podria estar ignorant...").
+
+**5. Element obert al Sintetitzador**
+- Metareflexió del grup: "El que queda obert és ___. Per respondre-ho, caldria contrastar amb ___ i revisar si els nostres arguments son fiables."
+
+### C1+ — Crític
+
+
