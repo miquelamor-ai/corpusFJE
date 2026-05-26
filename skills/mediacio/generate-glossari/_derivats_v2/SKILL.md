@@ -3,7 +3,7 @@ tipus: derivat
 font_canonic: M3_instrument-generar-glossari.md
 font_version: 4.0.0-canonic
 vista: A.skill-md-llm
-generat_at: '2026-05-24'
+generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
 checksum_font: 3e1547bb4df19627
 ---
