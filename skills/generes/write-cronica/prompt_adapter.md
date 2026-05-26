@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: d3a9cae186b68724
+checksum_font: cc176a12e2f069ef
 ---
 
 # Escriure/adaptar una crònica — prompt d'adaptació parametritzat per nivell

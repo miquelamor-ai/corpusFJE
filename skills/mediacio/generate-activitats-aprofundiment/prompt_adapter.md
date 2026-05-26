@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 1caa331af9ac5963
+checksum_font: 5f4dbc4c8c0747d8
 ---
 
 # Generar activitats d'aprofundiment — prompt d'adaptació parametritzat per nivell

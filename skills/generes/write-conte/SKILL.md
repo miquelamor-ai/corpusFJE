@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-conte.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 16b0486af875bde0
+checksum_font: 07daf08075549d72
 ---
 
 # Escriure/adaptar un conte — skill operativa per a LLM

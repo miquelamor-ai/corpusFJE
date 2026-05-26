@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-informe.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 52cf2279c662179f
+checksum_font: a98d4b849da93041
 ---
 
 # Escriure/adaptar un informe — skill operativa per a LLM

@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-ressenya.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: a5c123b97efbc0e6
+checksum_font: f59b53f911f435f6
 ---
 
 # Escriure/adaptar una ressenya — skill operativa per a LLM

@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-entrevista.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 43d10deb5774a1a7
+checksum_font: 238a6c7a4f9007f6
 ---
 
 # Escriure/adaptar una entrevista — skill operativa per a LLM

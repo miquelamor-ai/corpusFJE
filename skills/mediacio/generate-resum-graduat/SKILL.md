@@ -23,7 +23,7 @@ font_canonic: M3_instrument-generar-resum-graduat.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: eaee09150d9b991f
+checksum_font: 84118c29a936765d
 ---
 
 # Generar resum graduat — skill operativa per a LLM

@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-resum.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 7a72171cbf7c41c3
+checksum_font: 339d885684cdfd49
 ---
 
 # Escriure/adaptar un resum — skill operativa per a LLM

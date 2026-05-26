@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-descripcio.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: fe08485919152e61
+checksum_font: b4726f1e98e291cf
 ---
 
 # Escriure/adaptar una descripció — skill operativa per a LLM

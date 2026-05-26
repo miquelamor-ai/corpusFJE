@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 79e2f83effc54d68
+checksum_font: c801776dff1ac28c
 ---
 
 # Generar preguntes de comprensió — prompt d'adaptació parametritzat per nivell

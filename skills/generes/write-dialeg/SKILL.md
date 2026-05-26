@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-dialeg.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 49ea0a5eb4036447
+checksum_font: e660bf58d6eb1d0b
 ---
 
 # Escriure/adaptar un diàleg — skill operativa per a LLM

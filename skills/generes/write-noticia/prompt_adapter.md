@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: b65502182323c16f
+checksum_font: 751f9725feb01fab
 ---
 
 # Escriure/adaptar una notícia — prompt d'adaptació parametritzat per nivell

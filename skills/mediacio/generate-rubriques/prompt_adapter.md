@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 7b00838373787856
+checksum_font: faec4289258d51aa
 ---
 
 # Generar rúbriques d'autoavaluació — prompt d'adaptació parametritzat per nivell

@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-cronica.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: d3a9cae186b68724
+checksum_font: cc176a12e2f069ef
 ---
 
 # Escriure/adaptar una crònica — skill operativa per a LLM

@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: f50b9f3363bbf101
+checksum_font: 0ba5f2d3bf9a705e
 ---
 
 # Escriure/adaptar una recepta — prompt d'adaptació parametritzat per nivell

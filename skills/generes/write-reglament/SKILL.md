@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-reglament.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 56430c39fc629e6a
+checksum_font: 33c5c5fde43c6d7b
 ---
 
 # Escriure/adaptar un reglament — skill operativa per a LLM

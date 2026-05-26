@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-noticia.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: b65502182323c16f
+checksum_font: 751f9725feb01fab
 ---
 
 # Escriure/adaptar una notícia — skill operativa per a LLM

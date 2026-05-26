@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: e2fc0e1b938ac6b7
+checksum_font: 328a4c7483576722
 ---
 
 # Generar bastides de lectura — prompt d'adaptació parametritzat per nivell

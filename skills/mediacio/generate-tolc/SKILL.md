@@ -25,7 +25,7 @@ font_canonic: M3_instrument-generar-tolc.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: bd932d70ec7e76f5
+checksum_font: 1e2ab2d7d41e003b
 ---
 
 # Generar TOLC / transllenguatge — skill operativa per a LLM

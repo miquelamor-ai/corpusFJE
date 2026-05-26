@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 43a6f276b6329d57
+checksum_font: e81358a85364e27a
 ---
 
 # Escriure/adaptar un contrarelat de l'odi — prompt d'adaptació parametritzat per nivell

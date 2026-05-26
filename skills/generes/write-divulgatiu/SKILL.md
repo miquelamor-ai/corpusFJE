@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-divulgatiu.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: bab76317e1a6ee55
+checksum_font: 063c47ea08c08cbd
 ---
 
 # Escriure/adaptar un text divulgatiu — skill operativa per a LLM

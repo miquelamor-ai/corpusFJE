@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-fabula.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 73ccb627464a57f2
+checksum_font: 733df0509a3e23c1
 ---
 
 # Escriure/adaptar una fàbula — skill operativa per a LLM

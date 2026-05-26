@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 470b5cd2f17dca49
+checksum_font: 7f6a3c598055a62b
 ---
 
 # Generar pictogrames — prompt d'adaptació parametritzat per nivell

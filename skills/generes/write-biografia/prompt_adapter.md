@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: f701291ff5456bfe
+checksum_font: 5ed281aab19b9f51
 ---
 
 # Escriure/adaptar una biografia — prompt d'adaptació parametritzat per nivell

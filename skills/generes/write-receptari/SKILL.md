@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-receptari.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: f50b9f3363bbf101
+checksum_font: 0ba5f2d3bf9a705e
 ---
 
 # Escriure/adaptar una recepta — skill operativa per a LLM

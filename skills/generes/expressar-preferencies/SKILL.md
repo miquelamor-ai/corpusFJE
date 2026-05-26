@@ -24,7 +24,7 @@ font_canonic: M3_genere-expressar-preferencies.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 45865d1f8fdfe3b1
+checksum_font: 5438f0562d0ab43f
 ---
 
 # Expressar preferències — skill operativa per a LLM

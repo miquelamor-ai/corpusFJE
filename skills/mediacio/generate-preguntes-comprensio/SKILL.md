@@ -22,7 +22,7 @@ font_canonic: M3_instrument-generar-preguntes-comprensio.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 79e2f83effc54d68
+checksum_font: c801776dff1ac28c
 ---
 
 # Generar preguntes de comprensió — skill operativa per a LLM

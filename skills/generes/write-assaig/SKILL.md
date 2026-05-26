@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-assaig.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 83fb68215dec90ed
+checksum_font: 598638b4a09eb888
 ---
 
 # Escriure/adaptar un assaig — skill operativa per a LLM

@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-instructiu.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: e899ae96d88d463a
+checksum_font: d55ae29d31939801
 ---
 
 # Escriure/adaptar un text instructiu — skill operativa per a LLM

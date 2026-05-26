@@ -29,7 +29,7 @@ font_canonic: M3_genere-escriure-contrarelat-odi.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 43a6f276b6329d57
+checksum_font: e81358a85364e27a
 ---
 
 # Escriure/adaptar un contrarelat de l'odi — skill operativa per a LLM

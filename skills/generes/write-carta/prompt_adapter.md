@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 635a31c2923c5767
+checksum_font: 0687e00d5401e12e
 ---
 
 # Escriure/adaptar una carta — prompt d'adaptació parametritzat per nivell

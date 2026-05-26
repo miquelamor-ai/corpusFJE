@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 73ccb627464a57f2
+checksum_font: 733df0509a3e23c1
 ---
 
 # Escriure/adaptar una fàbula — prompt d'adaptació parametritzat per nivell

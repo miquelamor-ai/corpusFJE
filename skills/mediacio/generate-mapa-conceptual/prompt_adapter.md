@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 6204ebad4b393564
+checksum_font: f2a012b8c614ad4d
 ---
 
 # Generar mapa conceptual — prompt d'adaptació parametritzat per nivell

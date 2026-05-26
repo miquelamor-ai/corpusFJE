@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: bd932d70ec7e76f5
+checksum_font: 1e2ab2d7d41e003b
 ---
 
 # Generar TOLC / transllenguatge — prompt d'adaptació parametritzat per nivell

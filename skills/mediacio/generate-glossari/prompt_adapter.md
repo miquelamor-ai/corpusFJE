@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-05-26'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 82c426b1af07ab15
+checksum_font: f0e769f131a8d5e9
 ---
 
 # Generar glossari — prompt d'adaptació parametritzat per nivell

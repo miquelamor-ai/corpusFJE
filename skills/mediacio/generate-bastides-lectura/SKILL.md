@@ -22,7 +22,7 @@ font_canonic: M3_instrument-generar-bastides-lectura.md
 font_version: 4.0.0-canonic
 generat_at: '2026-05-26'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: e2fc0e1b938ac6b7
+checksum_font: 328a4c7483576722
 ---
 
 # Generar bastides de lectura — skill operativa per a LLM
