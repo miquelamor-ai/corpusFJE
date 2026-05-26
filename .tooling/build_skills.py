@@ -14,14 +14,19 @@ mòdul d'avaluació o ATNE en mode avaluador. La seva generació
 requereix LLM-jutge per a les bandes Encara no/En procés/Aconseguit;
 no aporta valor sense interfície per consumir-lo.
 
-Sortida per defecte: `<directori del M*.md>/_derivats_v2/` perquè
-**no es sobreescrigui** el SKILL.md productiu que ATNE consumeix avui.
-Al moment del switch coordinat, els fitxers de `_derivats_v2/` reemplacen
-els de producció en un únic commit.
+Sortida per defecte (des de v2-2026-05-26 post-switch): `<directori del M*.md>/`
+directament (SKILL.md i prompt_adapter.md a producció). Abans del switch
+escrivia a `_derivats_v2/` per a no trencar ATNE; ara que el switch està
+validat (commit 11590bc del corpusFJE), genera a producció amb safety
+check de frontmatter Agent Skills.
+
+Safety check (línia AGENT_SKILLS_REQUIRED): si el SKILL.md generat no té
+els camps `name` i `description`, no s'escriu i es retorna codi d'error.
+Així evitem trencar el skills_loader d'ATNE.
 
 Ús:
     python build_skills.py <M*.md> [--out <dir>]
-    # Per defecte: --out = <dir-del-M*.md>/_derivats_v2/
+    # Per defecte: --out = <dir-del-M*.md>/ (SKILL.md sobreescrit a producció)
 """
 
 from __future__ import annotations
@@ -228,6 +233,10 @@ AGENT_SKILLS_FIELDS = {
     "moduls_relacionats", "skill_meta",
 }
 
+# Camps OBLIGATORIS perquè skills_loader.py d'ATNE pugui carregar la skill.
+# Si en falta algun, build_skills.py NO escriu el SKILL.md (safety check).
+AGENT_SKILLS_REQUIRED = {"name", "description"}
+
 
 def _read_existing_skill_frontmatter(skill_path: Path) -> dict | None:
     """Llegeix el SKILL.md de producció (paral·lel al M*.md font) i extreu
@@ -419,11 +428,29 @@ def main() -> int:
     print(f"  Cel.les amb metadades tipus: {sum(1 for c in instrument.celles if c.tipus)}")
     print(f"  Cel.les sense metadades: {sum(1 for c in instrument.celles if not c.tipus)}")
 
-    out = args.out if args.out else args.font.parent / "_derivats_v2"
+    # Default: genera directament a producció (mateix dir que el M*.md).
+    # Abans del switch: --out _derivats_v2/ per a aïllament.
+    out = args.out if args.out else args.font.parent
     out.mkdir(parents=True, exist_ok=True)
 
+    # Genera SKILL.md i valida el frontmatter abans d'escriure (safety check).
+    skill_md_text = generar_skill_md(instrument, args.font)
+    try:
+        m = FRONTMATTER_RE.match(skill_md_text)
+        gen_fm = yaml.safe_load(m.group(1)) if m else {}
+    except (yaml.YAMLError, AttributeError):
+        gen_fm = {}
+    missing = AGENT_SKILLS_REQUIRED - set(gen_fm.keys() if gen_fm else [])
+    if missing:
+        print(
+            f"ERROR: SKILL.md generat no té camps obligatoris {missing}. "
+            f"NO escric per no trencar ATNE skills_loader. Font: {args.font.name}",
+            file=sys.stderr,
+        )
+        return 3
+
     skill_path = out / "SKILL.md"
-    skill_path.write_text(generar_skill_md(instrument, args.font), encoding="utf-8")
+    skill_path.write_text(skill_md_text, encoding="utf-8")
     print(f"  [OK] {skill_path}")
 
     adapter_path = out / "prompt_adapter.md"

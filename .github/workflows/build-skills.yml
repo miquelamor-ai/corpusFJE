@@ -1,9 +1,12 @@
 name: Build skills derivats
 
-# Regenera els derivats (_derivats_v2/SKILL.md, _derivats_v2/prompt_adapter.md)
+# Regenera els derivats (SKILL.md i prompt_adapter.md, **directament a producció**)
 # a cada canvi d'un M3_instrument-*.md (mediacio) o M3_genere-*.md (generes) a skills/.
 # Genera sortides deterministes, no crida cap LLM.
+# Safety check: build_skills.py NO escriu si manquen camps Agent Skills obligatoris.
 # Veure .tooling/build_skills.py i corpus-spec v2.6 §4.X.
+# Des de 2026-05-26 (post-switch coordinat 11590bc): generació directa a producció,
+# sense pas intermedi per _derivats_v2/.
 
 on:
   push:
@@ -42,11 +45,10 @@ jobs:
           set -e
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@fje.edu"
-          # Globstar pot no estar actiu per defecte; afegim explicitament.
           git add 'skills/' || true
           if git diff --staged --quiet; then
             echo "Cap canvi als derivats: res a commitejar."
           else
-            git commit -m "chore(skills): regenera _derivats_v2/ [skip ci]"
+            git commit -m "chore(skills): regenera SKILL.md + prompt_adapter.md [skip ci]"
             git push
           fi
