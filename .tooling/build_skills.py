@@ -1,6 +1,6 @@
-"""build_skills.py — generador determinista de derivats per a `tipus: instrument`.
+"""build_skills.py — generador determinista de derivats per a instruments i gèneres discursius.
 
-Parsa un M*.md canònic d'instrument (corpus-spec v2.6 §4.X) i en deriva
+Parsa un M*.md canònic (`tipus: instrument` o `tipus: genere-discursiu`) i en deriva
 dos artefactes per a ATNE:
   - SKILL.md          (LLM operador, format vertical jerarquitzat per nivell)
   - prompt_adapter.md (LLM adapter, parametritzat per nivell)

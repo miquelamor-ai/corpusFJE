@@ -1,7 +1,7 @@
 name: Build skills derivats
 
 # Regenera els derivats (_derivats_v2/SKILL.md, _derivats_v2/prompt_adapter.md)
-# a cada canvi d'un M3_instrument-*.md a skills/.
+# a cada canvi d'un M3_instrument-*.md (mediacio) o M3_genere-*.md (generes) a skills/.
 # Genera sortides deterministes, no crida cap LLM.
 # Veure .tooling/build_skills.py i corpus-spec v2.6 §4.X.
 
@@ -10,6 +10,7 @@ on:
     branches: [master]
     paths:
       - 'skills/**/M3_instrument-*.md'
+      - 'skills/**/M3_genere-*.md'
       - '.tooling/build_skills.py'
       - '.github/workflows/build-skills.yml'
 
@@ -29,9 +30,9 @@ jobs:
       - name: Install dependencies
         run: pip install pyyaml
 
-      - name: Regenerate derivats per a tots els instruments
+      - name: Regenerate derivats per a tots els instruments i generes
         run: |
-          for md in $(find skills -type f -name 'M3_instrument-*.md'); do
+          for md in $(find skills -type f \( -name 'M3_instrument-*.md' -o -name 'M3_genere-*.md' \)); do
             echo "→ $md"
             python .tooling/build_skills.py "$md"
           done
