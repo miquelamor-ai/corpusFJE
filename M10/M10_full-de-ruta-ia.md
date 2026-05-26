@@ -2,12 +2,12 @@
 modul: M10
 titol: 'Full de ruta IA'
 tipus: estrategia
-descripcio: ''
+descripcio: 'Document test de prova'
 review_status: esborrany
 creator: miquel.amor@fje.edu
 created_at: '2026-05-26T17:53:07Z'
 last_editor: miquel.amor@fje.edu
-last_editor_at: '2026-05-26T17:54:18Z'
+last_editor_at: '2026-05-26T17:54:37Z'
 ---
 
 ## Definició
