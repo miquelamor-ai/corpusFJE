@@ -48,7 +48,18 @@ jobs:
           git add 'skills/' || true
           if git diff --staged --quiet; then
             echo "Cap canvi als derivats: res a commitejar."
-          else
-            git commit -m "chore(skills): regenera SKILL.md + prompt_adapter.md [skip ci]"
-            git push
+            exit 0
           fi
+          git commit -m "chore(skills): regenera SKILL.md + prompt_adapter.md [skip ci]"
+          # Race protection: pot haver-hi un push concorrent (p.ex. build-manifest).
+          # Rebase amb fins a 3 reintents abans de rendir-se.
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push correcte (intent $i)."
+              exit 0
+            fi
+            echo "Push rebutjat, rebase i reintento (intent $i)..."
+            git pull --rebase origin master
+          done
+          echo "ERROR: 3 intents fallits."
+          exit 1
