@@ -14,8 +14,14 @@ complement_key: bastides
 agent_role: complements
 tools_required: []
 triggers:
-- path: params.complements.bastides
-  equals: true
+- all_of:
+  - path: params.complements.bastides
+    equals: true
+  - any_of:
+    - path: params.complements.preguntes_comprensio
+      equals: true
+    - path: params.complements.activitats_aprofundiment
+      equals: true
 moduls_relacionats:
 - M2
 - M3
