@@ -136,6 +136,7 @@ Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inc
 - **`M2_factors-promotors-aprenentatge.md`** — La interacció social és el factor promotor que el cooperatiu maximitza: la zona de desenvolupament pròxim s'activa quan un company medeia el coneixement
 - **`M1_neurodiversitat-NESE.md`** — L'alumnat NESE necessita grups cooperatius ben dissenyats: el rol assignat, la bastida del grup i la reflexió grupal son especialment crítics
 - **`M0_cura-personalis.md`** — La Cura Personalis s'expressa en el disseny del grup: conèixer cada alumne permet assignar rols que activen les seves fortaleses i minimitzen les barreres
+- **`M2_sequencia-aprenentatge-FJE.md`** — El **QTC (Quadern de Treball Cooperatiu)** és la materialització institucional FJE de l'aprenentatge cooperatiu estructurat dins el marc Horitzó+: s'inicia a la Fase 02 (Planificació) amb compromisos i rols, es revisa als espais STOP de la Fase 03 i es valora a la Fase 05
 
 ## 4. Detecció
 

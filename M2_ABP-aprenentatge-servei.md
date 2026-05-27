@@ -148,6 +148,7 @@ Els indicadors d'èxit en l'ABP i l'ApS van més enllà de la simple memoritzaci
 - **`M2_factors-promotors-aprenentatge.md`** — L'ABP activa tots els factors promotors: repte cognitiu (ZDP), connexió amb coneixements previs i motivació intrínseca per la rellevància del projecte
 - **`M0_cura-personalis.md`** — La Cura Personalis garanteix que el projecte es dissenya per a cada alumne real: el servei (ApS) té sentit quan va adreçat a l'altre concret
 - **`M7_participacio-families.md`** — Les famílies i la comunitat sovint son part del projecte o dels destinataris del servei; la participació externa és un valor afegit de l'ApS
+- **`M2_sequencia-aprenentatge-FJE.md`** — El marc Horitzó+ amb les cinc fases és el desplegament institucional FJE de l'ABP. La dimensió de servei pren cos especialment a la **Fase 04 (Síntesi i difusió)** amb audiència real i a la **Fase 05 (Valoració i transferència)** amb dimensió de compromís amb el bé comú (4C ignasianes)
 
 ## 4. Detecció
 

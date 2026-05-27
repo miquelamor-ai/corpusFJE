@@ -82,6 +82,7 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
 - **`M1_neurodiversitat-NESE.md`** — La neurodiversitat és la realitat que el DUA anticipa i a la qual respon de forma proactiva; no és un marc per a NEE sinó per a tota l'aula
 - **`M1_creuament-variables-dependencies.md`** — El creuament de condicions mostra com el DUA concret és diferent per a un perfil TEA×TDAH que per a un dislèxia×nouvingut; la diversitat no és uniforme
 - **`M0_cura-personalis.md`** — La Cura Personalis és el principi ignasià que dona sentit al DUA en context FJE: dissenyar per a tots és tractar cada alumne com a persona única i no com a categoria
+- **`M2_sequencia-aprenentatge-FJE.md`** — La diversificació d'activitats dins la Fase 03 (complexitat cognitiva / metodologia / agrupació / espais) operativitza els tres principis DUA. El DAP de la Fase 02 és l'instrument de personalització per excel·lència del marc FJE
 
 ## 4. Detecció
 

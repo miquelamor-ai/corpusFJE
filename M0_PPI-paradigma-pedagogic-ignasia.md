@@ -58,6 +58,18 @@ El PPI (ICAJE, 1993) es realitza a través d'un cicle dinàmic i continu — no 
 
 **Avaluació.** Transcendeix l'examen acadèmic convencional. Mesura el creixement integral de l'alumne: la qualitat de la reflexió, la profunditat de l'acció, la maduració del caràcter cap a les 4C. L'error no és un fracàs sinó informació per al proper cicle, que recomença amb més profunditat i sota l'esperit del *Magis*.
 
+### Tres dimensions de la Reflexió ignasiana
+
+La Reflexió, com a element vertebrador del dinamisme del PPI, no s'esgota en un moviment ni en una pregunta única. Go i Atienza (2019) en distingeixen tres dimensions complementàries que poden activar-se interrelacionadament en qualsevol moment del procés:
+
+- **Reflexió conceptual** (*Què he après?*). Connectar els conceptes i fets estudiats: descobrir relacions, organitzar el coneixement en un marc comprensible, integrar-lo amb el que ja se sap.
+
+- **Reflexió metacognitiva** (*Com he après?*). Mirar el propi procés d'aprenentatge i la manera de pensar pròpia de la disciplina: què m'ha ajudat, en què he canviat com a pensador, quines preguntes em queden. És l'*examen* ignasià aplicat a la cognició.
+
+- **Reflexió personal** (*Per què he après? Per a qui?*). Descobrir el valor, la significació i les implicacions del que s'ha après per a la pròpia vida i per al món. És el moviment que orienta a l'*agere* — l'acció ignasiana com a compromís amb el bé comú.
+
+Les tres dimensions no són una seqüència rígida sinó moviments complementaris d'un mateix procés de discerniment. Una Reflexió que es queda només en el primer nivell construeix coneixement sense profunditat; una que va directament al tercer sense els altres pot caure en moralisme desconnectat del contingut.
+
 ### El triangle pedagògic: Docent–Alumne–Món
 
 La *Tradició Viva* (ICAJE 2019) i *Learning by Refraction* (Go & Atienza 2019) proposen una nova arquitectura relacional del PPI: el **triangle pedagògic** entre tres nodes interdependents:
@@ -65,6 +77,16 @@ La *Tradició Viva* (ICAJE 2019) i *Learning by Refraction* (Go & Atienza 2019) 
 - **Docent (expert i entusiasta):** Aporta el saber i la passió per la missió. No és un mer instructor sinó un acompanyant que «deixa obrar el Creador amb la criatura».
 - **Alumne (empoderat i actiu):** No és un receptor passiu sinó el subjecte del procés — qui fa el viatge de l'experiència a la reflexió i de la reflexió a l'acció.
 - **Món (excel·lència i compromís):** La matèria d'estudi no és abstracta: és sempre una realitat situada, un món ferit que crida a persones capaces de transformar-lo.
+
+Cada vector del triangle té qualitats que el caracteritzen — les "6 Es" que Go i Atienza (2019) proposen com a *checklist de qualitat relacional* de l'aula ignasiana:
+
+- **Docent–Alumne**: *Empathy* (entrar en el context i la realitat de l'alumne, fer-se proïsme) + *Empowerment* (capacitar-lo perquè esdevingui agent del propi aprenentatge).
+
+- **Docent–Món**: *Expertise* (domini rigorós de la disciplina) + *Enthusiasm* (passió per l'aprenentatge i pel coneixement, per allò que la matèria aporta a la comprensió del món i al compromís amb ell).
+
+- **Alumne–Món**: *Engagement* (compromís i implicació amb el món, amb la veritat, amb el coneixement i amb el bé comú) + *Excellence* (profunditat i qualitat —acadèmica i humana— d'allò que s'arriba a fer i a ser).
+
+Aquestes sis qualitats funcionen com a indicadors operatius per discernir la salut pedagògica d'una unitat, una sessió o un projecte: si en falta alguna, és probable que el dinamisme del PPI es pugui activar però no fructifiqui amb profunditat.
 
 La novetat del segle XXI és que el triangle desplaça l'atenció del binomi clàssic docent–alumne cap a una **tríada on el Món no és un decorat sinó un tercer pol actiu**. Un docent i un alumne que aprenen en un circuit tancat sense obertura al món produeixen excel·lència acadèmica però no compromís; un alumne llançat al món sense la mediació del docent no té prou profunditat reflexiva. És la tensió productiva dels tres nodes la que activa el *Magis* ignasià en cada acte educatiu.
 
@@ -146,6 +168,8 @@ La *Tradició Viva* (ICAJE 2019) i *Learning by Refraction* (Go & Atienza 2019) 
 - **`M2_ABP-aprenentatge-servei`** — L'APS concreta la fase Acció del PPI en el servei a la comunitat; el cicle PPI dóna profunditat reflexiva a l'APS.
 - **`M6_feedback-formatiu`** — El feedback de Hattie opera a la fase Avaluació del PPI: donar informació accionable per activar el proper cicle d'aprenentatge.
 - **`M7_enfocament-restauratiu-ERG`** — El Pressupòsit Ignasià (H5) és el fonament espiritual de l'enfocament restauratiu: buscar la interpretació més favorable per obrir l'espai de diàleg.
+- **`M2_sequencia-aprenentatge-FJE`** — Aterratge institucional FJE del dinamisme del PPI dins el marc Horitzó+: les cinc fases (Repte / Planificació / Investigació / Síntesi / Valoració) operativitzen el cicle Experiència-Reflexió-Acció, i la Fase 05 desplega les tres dimensions de la Reflexió ignasiana (personal/conceptual/de procés).
+- **`M2_models-disseny-instruccional`** — Conté la taula desplegada de les cinc fases FJE amb el rol IA suggerit, la fricció esperada i les connexions amb Backward Design / Learning by Refraction.
 
 ## 4. Detecció
 

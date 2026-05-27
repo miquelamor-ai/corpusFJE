@@ -224,14 +224,57 @@ Quan la IA s'usa en **gestió** (administrativa, organitzativa, institucional), 
 
 ---
 
+## Articulació amb el marc Horitzó+ FJE
+
+Aquest protocol opera **dins** del marc institucional FJE, no al marge. La relació entre les fases del disseny instruccional amb IA (M5) i les fases del marc Horitzó+ (M2) és:
+
+| Fase del marc FJE (Horitzó+) | Decisió de disseny IA aplicable |
+|---|---|
+| **Fase 01 — Repte i comprensió** | Definir si la IA participa de la contextualització del repte (recerca docent prèvia) |
+| **Fase 02 — Planificació** | Per a cada objectiu del projecte: aplicar el marc Griffin (alinear-desempaquetar-desglossar-traduir-mapar) → quins indicadors són IA-permissius? Quins són IA-prohibits? |
+| **Fase 03 — Investigació** | Aplicar P>R>N a cada activitat amb IA. Aplicar GRR (Jo faig→Tu fas) al llarg de la fase. Els espais STOP poden ser **checkpoints d'auditoria d'ús d'IA** |
+| **Fase 04 — Síntesi i difusió** | Decidir si el producte final accepta intervenció d'IA, on, i a quin nivell MIHIA. Pregunta Macnamara aplicada al producte |
+| **Fase 05 — Valoració i transferència** | Reflexió metacognitiva (clau personal) inclou: *"com he usat la IA? Com ha modificat el meu aprenentatge?"* — ancorada al context local per evitar delegació recursiva |
+
+### Quan usar cada document
+
+| Si la pregunta del docent és... | Document principal | Document complementari |
+|---|---|---|
+| "Com es desplega un projecte FJE de cap a peus?" | [[M2_sequencia-aprenentatge-FJE]] | (aquest) si hi ha IA |
+| "Com integro la IA dins el projecte?" | **(aquest M5)** | [[M2_sequencia-aprenentatge-FJE]] per al marc global |
+| "Quina fricció cognitiva preservo?" | [[M2_carrega-friccio-cognitiva]] | (aquest) per al disseny |
+| "Quin rol IA escolliré per a aquesta activitat?" | [[M5_rols-IA-educacio]] | (aquest) per al P>R>N |
+| "El producte final pot incloure IA?" | (aquest) §6 Evidència | [[M6_tipologia-instruments-avaluacio]] per a 4 Cs |
+| "Com auditem un projecte ja fet?" | (aquest) §6 Vuit preguntes | [[M2_sequencia-aprenentatge-FJE]] §Indicadors qualitat |
+
+### Mapatge de solapaments conceptuals
+
+Diversos elements del marc Horitzó+ FJE i del disseny instruccional amb IA són **isomòrfics**: parlen d'allò mateix amb llenguatges diferents. Aquesta taula explicita les correspondències perquè un docent que conegui un dels dos marcs reconegui ràpidament l'equivalent:
+
+| Concepte M5 (disseny amb IA) | Concepte FJE (Horitzó+) | Notes |
+|---|---|---|
+| Estructura temporal Fase 1 sense IA / Fase 2 amb IA / Fase 3 sense IA (Vendrell-Johnston) | Rutina per sessió: Obertura / Desenvolupament / Tancament | Ambdues estructures protegeixen un moment de generació autònoma i un moment de síntesi metacognitiva |
+| GRR Jo faig → Nosaltres fem → Vosaltres feu → Tu fas (Fisher-Frey) | Codocència + STOP + autonomia progressiva | GRR és el principi; la codocència és el dispositiu institucional FJE |
+| Bastida progressiva de prompts (Principiant→Expert) | Bastida lingüística del gènere textual (modelatge → producció guiada → autònoma) | Mateix patró: andamiatge cada cop més fi |
+| Plantilla 6-blocs (Context/PRN/Fase1/Fase2/Fase3/Evidència) | Guia del projecte + DAP + QTC | Una és per a disseny d'activitat, l'altra per a disseny de projecte sencer |
+| Set criteris de disseny (§5) | Indicadors de qualitat del projecte FJE (§ corresponent) | Els criteris de M5 són un subconjunt centrat en IA |
+| Vuit preguntes d'auditoria (§6) | Heurístiques per al docent (M2) | Les heurístiques M2 són més globals; les preguntes M5 són específiques per a IA |
+| Granularitat: exercici/activitat/tasca/projecte | Calendari tipus (10%/10%/60%/15%/5%) | Compatibles: un projecte FJE conté tasques i activitats |
+| Distinció aprenentatge vs gestió | (no contemplada explícitament al marc FJE) | M5 cobreix un buit del marc FJE |
+
+> **Conclusió operativa**: aquest document i el [[M2_sequencia-aprenentatge-FJE]] són **dos documents mestres complementaris**, no redundants. El primer és el marc institucional sencer; el segon és l'arquitectura crítica de disseny quan la IA hi participa.
+
 ## 3. Connexions amb altres documents del corpus
 
+- **`M2_sequencia-aprenentatge-FJE`** — **Marc institucional FJE complet** (Horitzó+, NEI/TQE) on aquest protocol s'aplica. Aquest document és el marc operatiu de la seqüència d'aprenentatge a NEI i TQE. Vegeu §Articulació amb el marc Horitzó+ FJE més amunt
 - **`M5_arquitectura-proposit-rol-nivell`** — La seqüència de disseny (5 passos, v2) opera dins l'arquitectura P>R>N v2
 - **`M5_proposits-aprenentatge`** — Pas 1: triar propòsit d'aprenentatge
 - **`M5_rols-IA-educacio`** — Pas 3: triar Rol compatible
 - **`M5_nivells-delegacio-mihia`** — Pas 4: triar Nivell (rang × sostre)
 - **`M2_carrega-friccio-cognitiva`** — Pas 5: verificar fricció. Criteris de disseny i auditoria
 - **`M2_models-disseny-instruccional`** — Granularitat didàctica, GRR, fases de projecte FJE
+- **`M6_feedback-formatiu`** — Distinció Assessment FOR vs OF Learning aplicada quan la IA dóna feedback
+- **`M6_tipologia-instruments-avaluacio`** — Avaluació autèntica amb les 4 Cs aplicable al producte final
 - **Doc futur `avaluacio-ia-disseny.md`** — AIAS, marc Griffin, enforcement pyramid
 
 ## 4. Detecció

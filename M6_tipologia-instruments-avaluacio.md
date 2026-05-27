@@ -66,6 +66,11 @@ Cada instrument té una estructura particular que facilita la seva funció:
     *   **Diferents formes de representar la informació**: Text, gràfics, símbols, etc.
     *   **Destinatari clar**: Que no sigui només el mestre.
     *   **Criteris de qualificació explícits**: Coneguts pels alumnes des del principi.
+    *   **Les 4 Cs de l'avaluació autèntica** (Wiggins 1998 GRASPS → Go & Atienza 2019): un marc operatiu per dissenyar i auditar proves autèntiques. Sistematitza els elements anteriors en quatre categories d'anàlisi:
+        - **Challenge** (Repte): el problema o qüestió a resoldre, el propòsit de la tasca i el producte o execució que se'n derivarà.
+        - **Community** (Comunitat): l'audiència o beneficiari real de la feina (que no sigui només el docent) i el rol que assumeix l'alumne en relació amb aquesta comunitat.
+        - **Context** (Context): les restriccions del món real (dades incompletes, temps limitat, recursos escassos…) i els estàndards reals del camp o disciplina que orienten el judici de qualitat.
+        - **Content** (Contingut): la *insight* o comprensió profunda subjacent a l'aplicació. Sense Content, una tasca pot ser autèntica en forma —real-world, complexa, amb públic real— però buida de comprensió de fons. És la insistència ignasiana que l'aplicació real ha de venir d'una intel·lecció profunda, no només de fer alguna cosa "real" (vegeu [[M0_PPI-paradigma-pedagogic-ignasia]] sobre *non multa sed multum*).
 *   **Bases d'orientació**:
     *   **Seqüència ordenada d'accions**: Passos clars a seguir per realitzar la tasca o resoldre el problema.
     *   **Preguntes clau**: "En què he de pensar o què he de fer per realitzar amb èxit aquesta tasca?".
@@ -155,6 +160,7 @@ La interpretació dels resultats dels instruments d'avaluació ha d'estar orient
 - **`M6_portfoli-evidencies.md`** — El portfoli és un meta-instrument que recull i organitza altres instruments: una diana d'avaluació o una rúbrica dins el portfoli és una evidència del procés de l'alumne
 - **`M4_competencies-basiques-perfil-sortida.md`** — La tria d'instruments ha d'estar alineada amb les competències a avaluar: un test de resposta múltiple no pot evidenciar una competència comunicativa o creativa
 - **`M1_neurodiversitat-NESE.md`** — La tipologia d'instruments és el repertori per personalitzar l'avaluació de l'alumnat NESE: cada perfil requereix instruments que minimitzin les barreres d'accés
+- **`M2_sequencia-aprenentatge-FJE.md`** — La **Fase 04 (Síntesi i difusió)** del marc Horitzó+ és el lloc privilegiat de l'**avaluació autèntica amb les 4 Cs** (Challenge / Community / Context / Content): el producte amb audiència real verifica empíricament les quatre dimensions. Els instruments propis FJE (Guia, DAP, QTC) són meta-instruments d'aquest marc
 
 ## 4. Detecció
 
@@ -239,3 +245,6 @@ La interpretació dels resultats dels instruments d'avaluació ha d'estar orient
 - Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
 - Decret 175/2022, de 27 de setembre, pel qual s'estableix l'ordenació dels ensenyaments de l'educació bàsica. DOGC núm. 8762.
 - Wiliam, D. (2011). *Embedded Formative Assessment*. Bloomington: Solution Tree Press.
+- Wiggins, G. (1998). *Educative Assessment: Designing Assessments to Inform and Improve Student Performance*. San Francisco: Jossey-Bass.
+- Wiggins, G. & McTighe, J. (2005). *Understanding by Design* (2a ed.). Alexandria, VA: ASCD.
+- Go, J. & Atienza, R. (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Quezon City: Loyola Schools Press.

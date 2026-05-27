@@ -77,6 +77,14 @@ La implementació de l'autoavaluació i la coavaluació es pot graduar en difere
 3.  **Coavaluació entre iguals amb feedback estructurat:** Els alumnes intercanvien treballs amb un company i utilitzen una rúbrica o llista de comprovació per oferir feedback constructiu, centrat en la millora i no en la qualificació. Es poden utilitzar frases guia com "M'agrada com has fet...", "Crec que podries millorar...", "Tinc un dubte sobre...".
 4.  **Introducció de la carpeta d'aprenentatge:** Els alumnes comencen a recopilar alguns dels seus treballs (esborranys i versions finals) i a escriure breus reflexions sobre el seu procés.
 
+**Format alternatiu: rúbrica de punt únic (Single-Point Rubric).** Quan les rúbriques tradicionals amb múltiples nivells resulten excessivament complexes o desincentiven el feedback narratiu, es pot utilitzar el format de **rúbrica de punt únic** (Fluckiger 2010, recollit per Go & Atienza 2019). En lloc de descriure quatre o més nivells de qualitat per a cada criteri, descriu només l'estàndard "competent" i obre dues columnes laterals per al feedback concret:
+
+| Aspectes a millorar | Criteri (què s'espera) | Evidències d'excel·lència |
+|---|---|---|
+| Què encara no compleix l'estàndard, amb pistes concretes de millora | Descripció clara i operativa del que es considera assoliment del criteri | Quan l'alumne ha superat l'estàndard, com ho ha fet |
+
+Aquesta estructura té dos avantatges per a l'auto- i coavaluació: (a) és més fàcil de crear i d'usar per als alumnes, sobretot a les fases inicials d'aprenentatge de l'autoregulació, i (b) demana feedback **específic i narratiu** en lloc de marcar una casella predefinida, evitant el risc que la rúbrica esdevingui un mer tràmit.
+
 ### Nivell Avançat
 1.  **Autoregulació metacognitiva:** Els alumnes no només identifiquen errors, sinó que analitzen les causes profundes, dissenyen les seves pròpies estratègies de millora i les apliquen de forma autònoma, convertint la reflexió en un hàbit.
 2.  **Carpeta d'aprenentatge autònoma:** L'alumnat és responsable de seleccionar els elements de la seva carpeta (incloent-hi materials externs o produccions inicials i millorades), organitzar-los i justificar les seves decisions, demostrant la seva evolució i els seus aprenentatges significatius.
@@ -168,6 +176,7 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
 - **`M4_competencies-basiques-perfil-sortida.md`** — L'autoavaluació és una competència metacognitiva del perfil de sortida: l'alumne que sap on és i on vol anar aprèn de forma més autònoma
 - **`M1_neurodiversitat-NESE.md`** — L'alumnat NESE necessita suport específic per a la coavaluació: dislèxia (instruments adaptats), TDAH (estructura clara), TEA (pautes explícites i rols definits)
 - **`M0_cura-personalis.md`** — L'autoavaluació és un acte d'autoconeixement: ajudar l'alumne a reconèixer fortaleses i límits és Cura Personalis aplicada a la relació de l'alumne amb el seu propi aprenentatge
+- **`M2_sequencia-aprenentatge-FJE.md`** — El **DAP (Objectius d'Aprenentatge Personal)** és l'instrument d'autoavaluació longitudinal per excel·lència del marc Horitzó+: s'inicia a la Fase 02, es revisa als STOP de la Fase 03 i es tanca a la Fase 05 (clau personal / conceptual / de procés). El **QTC** opera com a coavaluació estructurada del treball d'equip. Single-Point Rubrics i rúbriques tradicionals són instruments al servei de l'autoregulació del DAP/QTC
 
 ## 4. Detecció
 ### Senyals del docent
@@ -235,3 +244,6 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
 - Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
 - Sanmartí, N. (2007). *10 idees clau: Avaluar per aprendre*. Barcelona: Graó.
 - Johnson, D. W., Johnson, R. T., & Holubec, E. J. (1994). *Cooperative Learning in the Classroom*. Alexandria: ASCD.
+- Fluckiger, J. (2010). Single point rubric: A tool for responsible student self-assessment. *The Delta Kappa Gamma Bulletin*, 76(4), 18-25.
+- Gonzalez, J. (2014). Know your terms: Holistic, analytic, and single-point rubrics. *Cult of Pedagogy*.
+- Go, J. & Atienza, R. (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Quezon City: Loyola Schools Press.

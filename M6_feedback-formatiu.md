@@ -35,6 +35,8 @@ Diversos autors i investigadors han contribuït significativament al marc del fe
 *   **Carles Monereo (UAB)**: Ha treballat en la importància de repensar l'avaluació per canviar l'ensenyament, amb una perspectiva que inclou la Guia per a l'anàlisi de preguntes d'avaluació des de la perspectiva PISA (GAPPISA), que orienta cap a proves més autèntiques i competencials.
 *   **Elizabeth Coelho, J. Oller i J. M. Serra**: En el seu llibre "Lenguaje y aprendizaje en el aula multilingüe. Un enfoque práctico", proposen una gradació dels objectius d'aprenentatge que es pot tenir en compte per elaborar Plans de Suport Individualitzat (PI), especialment per a alumnes amb baixa competència lingüística, assegurant que l'avaluació sigui equitativa i adaptada.
 *   **Jean-Pierre Astolfi**: En "El error, un medio para enseñar", defensa la idea que l'error és una font d'aprenentatge i que cal canviar la percepció que se'n té a l'aula.
+*   **Paul Black i Dylan Wiliam (King's College London)**: La seva distinció entre **Assessment FOR Learning** (AfL, avaluació *per a* l'aprenentatge) i **Assessment OF Learning** (AoL, avaluació *de* l'aprenentatge) ha estructurat el debat internacional sobre avaluació formativa. AfL designa qualsevol avaluació la finalitat primària de la qual és **millorar l'aprenentatge en curs** (equival a la funció reguladora de Sanmartí-Jorba); AoL designa l'avaluació que té com a finalitat **certificar o seleccionar** (funció qualificadora). Black i col·laboradors (2003) afegeixen un matís pràctic important: qualsevol prova sumativa pot tenir un **ús formatiu** si els seus resultats s'utilitzen per ajustar la instrucció o per donar retroalimentació accionable. La distinció no és, doncs, entre instruments diferents, sinó entre **finalitats i usos** de la informació recollida.
+*   **Johnny Go SJ i Rita Atienza (Ateneo SALT Institute)**: En *Learning by Refraction* (2019), recullen la distinció Black-Wiliam com a pilar del disseny d'aprenentatge ignasià contemporani. La connecten amb la lògica del *Backward Design* (Wiggins-McTighe, vegeu [[M2_models-disseny-instruccional]]): si l'avaluació es dissenya abans que les activitats i s'inscriu **dins** del procés —no al final—, els moments d'aprenentatge i d'avaluació coincideixen estructuralment, en línia amb la fórmula de Sanmartí-Jorba ("ensenyar, aprendre i avaluar són processos coincidents").
 
 Aquests autors, tot i tenir enfocaments lleugerament diferents, convergeixen en la idea central que l'avaluació ha de ser una eina al servei de l'aprenentatge, fomentant l'autonomia de l'alumne i la reflexió sobre la pròpia pràctica docent. La tensió principal no és entre ells, sinó entre la tradició avaluadora centrada en la qualificació i la nova perspectiva formativa i reguladora.
 
@@ -85,6 +87,7 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
 - **`M2_factors-promotors-aprenentatge.md`** — El feedback activa la metacognició i la ZDP: la retroalimentació que situa l'alumne just per sobre del seu nivell actual és el motor del progrés
 - **`M1_neurodiversitat-NESE.md`** — El feedback per a alumnat NESE ha de ser ajustat al perfil: oral i específic (dislèxia), immediat i breu (TDAH), literal i sense ambigüitat (TEA)
 - **`M0_cura-personalis.md`** — El feedback és un acte de Cura Personalis quan parteix del coneixement real de l'alumne: dir la veritat amb amor i precisió és el criteri ignasià del bon feedback
+- **`M2_sequencia-aprenentatge-FJE.md`** — La distinció **formativa-formadora vs sumativa-qualificadora** articulada per les Orientacions FJE 2024 vertebra la Fase 03 (Investigació) del marc Horitzó+: activitats sense nota a l'inici per donar feedback i orientar millora, evidències qualificades al final. Els espais STOP són dispositius de feedback formatiu estructurat
 
 ## 4. Detecció
 
@@ -174,3 +177,5 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
 - Sanmartí, N. (2007). *10 idees clau: Avaluar per aprendre*. Barcelona: Graó.
 - Black, P., & Wiliam, D. (1998). Assessment and classroom learning. *Assessment in Education*, 5(1), 7-74.
 - Departament d'Educació (2022). *L'avaluació al llarg del procés d'aprenentatge*. Generalitat de Catalunya / XTEC.
+- Black, P., Harrison, C., Lee, C., Marshall, B. & Wiliam, D. (2003). *Assessment for Learning: Putting it into Practice*. Maidenhead: Open University Press.
+- Go, J. & Atienza, R. (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Quezon City: Loyola Schools Press.

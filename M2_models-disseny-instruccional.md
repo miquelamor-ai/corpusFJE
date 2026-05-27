@@ -36,6 +36,23 @@ PROJECTE (setmanes)
 
 > **Regla**: una tasca o projecte pot incloure fases amb IA i fases **sense IA** (N0). La no-delegació és una decisió pedagògica vàlida.
 
+### Backward Design (Wiggins & McTighe): dissenyar a la inversa
+
+El **Backward Design** o *disseny a la inversa* (Wiggins & McTighe, *Understanding by Design*, 2005) inverteix la lògica habitual de planificació. En lloc de partir dels continguts o activitats disponibles, parteix dels **resultats d'aprenentatge desitjats** i, només després, dissenya l'avaluació i les activitats:
+
+| Estadi | Pregunta orientadora |
+|---|---|
+| 1. **Resultats desitjats** | Què han d'arribar a entendre, saber fer i ser els alumnes? |
+| 2. **Evidència acceptable** | Com sabré que ho han assolit? Quina forma té l'avaluació autèntica? |
+| 3. **Pla d'aprenentatge** | Quines experiències portaran fins a aquests resultats? |
+
+L'ordre Resultats → Avaluació → Activitats té dues conseqüències:
+
+- **L'avaluació es dissenya abans que les activitats**, no després; opera com a brúixola del disseny.
+- **Les activitats** són els mitjans per assolir els resultats, no l'objectiu en si. Si una activitat no contribueix al resultat desitjat, per atractiva que sigui, és prescindible.
+
+Aquesta lògica és complementària a la jerarquia de granularitat i al GRR: un projecte ben dissenyat parteix d'un resultat clar i gradua l'autonomia per assolir-lo.
+
 ---
 
 ## Autors i evidència clau
@@ -73,20 +90,73 @@ PROJECTE (setmanes)
 
 **Bastida progressiva de prompts**: documentada en detall a `M5_disseny-instruccional-amb-IA` (§3).
 
+### Quatre espais d'aprenentatge (Go & Atienza, inspirats en Thornburg)
+
+Go i Atienza (2019), reprenent la metàfora de Thornburg, proposen quatre configuracions d'espai d'aprenentatge —físic o virtual— que activen modes diferents de relació amb el contingut. Una bona unitat alterna deliberadament entre les quatre:
+
+| Espai | Què hi passa | Pregunta orientadora | Quan és adequat |
+|---|---|---|---|
+| **Foguera** (*Campfire*) | Aprendre d'experts | "Què hem de saber?" | Modelatge, explicació, lectures |
+| **Cafè** (*Café*) | Aprendre entre iguals | "Què en pensem?" | Discussió, contrast, construcció col·lectiva |
+| **Cova** (*Cave*) | Aprendre de si mateix | "Què penso jo?" | Reflexió individual, escriptura, estudi |
+| **Comunitat** (*Community*) | Aprendre del món | "Què en fem?" | Aplicació real, servei, impacte |
+
+Una classe limitada a un sol espai —típicament la *Foguera*— empobreix les oportunitats d'aprenentatge. La integració d'IA modifica els quatre: pot expandir la *Foguera*, enriquir el *Cafè*, aprofundir la *Cova* o ampliar la *Comunitat*. El risc és que l'IA col·lapsi els quatre espais en una sola interacció, eliminant la riquesa relacional que cadascun aporta.
+
+### Taxonomia SOLO (Biggs & Collis) com a verificador de profunditat
+
+A l'hora de **dissenyar objectius d'aprenentatge**, la taxonomia SOLO (Prestructural / Unistructural / Multistructural / Relacional / Abstract estès) és una bona eina de verificació de profunditat:
+
+| Nivell SOLO | Verb operatiu típic | Tipus d'evidència |
+|---|---|---|
+| Unistructural | identificar, anomenar | reconèixer un element |
+| Multistructural | enumerar, descriure | llistar diversos elements |
+| Relacional | explicar, comparar, contrastar | mostrar connexions entre elements |
+| Abstract estès | generalitzar, hipotetitzar, transferir | aplicar a un context nou |
+
+Backward Design (Wiggins-McTighe) i SOLO són complementaris: l'un fixa el "punt d'arribada" desitjat (objectiu); l'altre permet qualificar quan s'ha arribat amb prou profunditat. Una pràctica eficient és **etiquetar els objectius del projecte amb el nivell SOLO objectiu** i, en avaluar, mesurar quin nivell SOLO ha aconseguit cada alumne.
+
+Vegeu [[M2_sequencia-aprenentatge-FJE]] § Mapatge amb taxonomies de profunditat per a la correspondència entre SOLO i els Cercles de la comprensió FJE.
+
+### Cinc verbs operatius de l'alumne (Five ATEs, Go & Atienza)
+
+Sintetitzen el que l'alumne ha de fer activament — cinc verbs que acaben en *-ate*:
+
+| Verb | Significat | Connexió amb el procés |
+|---|---|---|
+| **Investigate** | Indagar, cercar fonts, preguntar | Inici i alimentació del cicle |
+| **Contemplate** | Reflexionar, mirar amb profunditat | Reflexió en les tres dimensions (vegeu [[M0_PPI-paradigma-pedagogic-ignasia]] § Tres dimensions de la Reflexió) |
+| **Create** | Produir, fer una obra pròpia | Materialització del que s'ha entès |
+| **Communicate** | Compartir, fer-se entendre | Sortir de si mateix cap als altres |
+| **Collaborate** | Construir amb altres | Aprenentatge dialògic i social |
+
+El disseny d'una unitat es pot auditar preguntant-se quants d'aquests verbs activa realment l'alumne. Una unitat on l'alumne només "rep" —escolta, llegeix, copia— sense investigar, contemplar, crear, comunicar ni col·laborar és estructuralment passiva, encara que el docent posi entusiasme a explicar.
+
 ---
 
 ## Exemples concrets d'aplicació a l'aula
 
-### 3. Fases de projecte (Marc FJE)
+### 3. Fases de projecte FJE (Marc Horitzó+, Orientacions FJE 2024)
+
+A partir del document *Orientacions psicopedagògiques per la implementació dels nous projectes FJE-LOMLOE* (Jesuïtes Educació, febrer 2024), la seqüència d'aprenentatge dels projectes FJE s'estructura en **cinc fases**:
 
 | Fase | Objectiu | Activitats típiques | Rol IA suggerit | Fricció esperada |
 |---|---|---|---|---|
-| 1. **Repte / Comprensió** | Comprendre el problema, activar previs | Pregunta motriu, pluja d'idees | Simulador, Gen.Casos | Descoberta |
-| 2. **Investigació** | Cercar, analitzar, contrastar | Recerca, lectura, dades | Mentor Socràtic, Crític | Recursivitat |
-| 3. **Síntesi / Creació** | Crear producte o solució | Redacció, disseny, producció | Crític/Editor, Traductor | Resistència |
-| 4. **Acció / Comunicació** | Presentar, compartir, aplicar | Exposició, publicació | Traductor/Adaptador | Judici |
+| **01. Repte i comprensió** | Emmarcar els nous aprenentatges en una situació rellevant; connectar amb coneixements previs | Repte amb rellevància social, producte final versemblant, activitats de coneixements previs | Simulador, Generador de casos | Descoberta |
+| **02. Planificació** | Compartir objectius generals; marcar objectius d'aprenentatge personals (DAP); formar equips amb compromisos i rols (QTC) | Lectura de la Guia, elaboració del DAP, distribució de rols al QTC | Suport a la planificació | Compromís |
+| **03. Investigació** | Desenvolupar habilitats des de fonamentació fins a aplicació; espais regulars de regulació (STOP) i diàleg (Espai diàleg / Afrontem el dilema) | Activitats graduades en complexitat cognitiva, metodologia i agrupació; rutina per sessió (Obertura → Desenvolupament → Tancament) | Mentor Socràtic, Crític | Recursivitat |
+| **04. Síntesi i difusió** | Aplicar aprenentatges al repte; mostrar el producte final a audiències reals dins i/o fora de la comunitat educativa | Aplicació en context, presentació pública, lliurament a destinataris reals | Crític/Editor, Traductor/Adaptador | Resistència |
+| **05. Valoració i transferència** | Reflexionar sobre els aprenentatges en clau personal, conceptual i de procés (metacognició) | Recuperar preguntes inicials, valorar objectius (DAP), valorar treball d'equip (QTC) | Acompanyant metacognitiu | Judici |
 
-**Connexió amb el marc cognitiu**: les fases de projecte FJE generen naturalment progressió en els moviments de fricció (Descoberta → Recursivitat → Resistència). El disseny ha de verificar que la IA no curtcircuiti aquesta progressió — especialment a la Fase 2 (Investigació), on la temptació de delegar la cerca i l'anàlisi a la IA és màxima.
+**Notes operatives de les Orientacions FJE 2024:**
+
+- **Espai 01–02 al servei del 03**: les fases inicials no són tràmits sinó cura pedagògica del context i del compromís. Sense la qualitat del repte i del DAP, les fases posteriors perden força.
+- **Dins la Fase 03**, cada sessió segueix una **rutina d'aprenentatge** (Obertura amb element motivador + activació prèvia + objectius → Desenvolupament d'habilitats → Tancament amb síntesi i revisió d'objectius).
+- **Espais STOP**: aturades regulars dins la Investigació perquè l'alumnat identifiqui què sap, resolgui dubtes, faci seguiment d'objectius i prengui decisions de millora.
+- **Espai diàleg** (1r–2n NEI) / **Afrontem el dilema** (3r–4t TQE): espais de diàleg sobre situacions controvertides reals per desenvolupar pensament crític i valors de justícia/sostenibilitat.
+- **Distinció avaluativa al cor de la Fase 03**: activitats d'avaluació formativa-formadora (feedback, sense qualificació) a l'inici i avaluació sumativa-qualificadora (evidències amb nota) cap al final. Vegeu [[M6_feedback-formatiu]].
+
+**Connexió amb el marc cognitiu**: les cinc fases FJE generen una progressió natural en els moviments de fricció (Descoberta → Compromís → Recursivitat → Resistència → Judici). El disseny ha de verificar que la IA no curtcircuiti aquesta progressió — especialment a la Fase 03 (Investigació), on la temptació de delegar la cerca i l'anàlisi a la IA és màxima.
 
 ### 5. Tipus de seqüències didàctiques
 
@@ -123,6 +193,8 @@ Documentats en detall a `M5_disseny-instruccional-amb-IA` (§10). Resum: activac
 ## 3. Connexions amb altres documents del corpus
 
 - **`M2_carrega-friccio-cognitiva`** — El GRR gradua la fricció productiva; les fases de projecte generen progressió en els moviments de fricció
+- **`M2_sequencia-aprenentatge-FJE`** — **Document marc autoritatiu** de la seqüència d'aprenentatge FJE (Orientacions FJE-LOMLOE 2024): cinc fases completes amb DAP, QTC, STOP, Espai diàleg, Cercles de la comprensió, pauta de planificació docent i orientacions per a direccions. Aquest document és la **referència institucional** que vehicula tot el desplegament Horitzó+ a NEI i TQE.
+- **`M0_PPI-paradigma-pedagogic-ignasia`** — Fonament ignasià de la seqüència: dinamisme Experiència-Reflexió-Acció, triangle Docent-Alumne-Món, 6 Es i 3 dimensions de Reflexió (que la Fase 05 FJE operativitza com a personal/conceptual/de procés).
 - **`M5_disseny-instruccional-amb-IA`** — Operacionalitza aquests models en criteris, auditoria i plantilla
 - **`M5_arquitectura-proposit-rol-nivell`** — Els tipus de seqüència connecten amb propòsits d'aprenentatge específics
 - **`M5_nivells-delegacio-mihia`** — La connexió GRR ↔ MIHIA gradua l'autonomia
@@ -143,3 +215,8 @@ Activar aquest document quan:
 - Fisher, D. & Frey, N. — Model de Responsabilitat Gradual (GRR)
 - Vygotsky, L. S. — Zona de Desenvolupament Proper (ZDP)
 - Vendrell, M. & Johnston, S.-K. (2026) — Estructura temporal Sense-Amb-Sense IA
+- Wiggins, G. & McTighe, J. (2005). *Understanding by Design* (2a ed.). Alexandria, VA: ASCD.
+- Go, J. & Atienza, R. (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Quezon City: Loyola Schools Press.
+- Thornburg, D. (2013). *From the Campfire to the Holodeck: Creating Engaging and Powerful 21st Century Learning Environments*. San Francisco: Jossey-Bass.
+- Jesuïtes Educació (2024). *Orientacions psicopedagògiques per la implementació dels nous projectes FJE-LOMLOE*. Barcelona: Jesuïtes Educació, febrer 2024.
+- Biggs, J. & Collis, K. (1982). *Evaluating the Quality of Learning: The SOLO Taxonomy*. New York: Academic Press.
