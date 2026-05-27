@@ -27,13 +27,33 @@ checksum_font: c801776dff1ac28c
 
 # Generar preguntes de comprensió — skill operativa per a LLM
 
-## ⚠️ FORMAT DE SORTIDA (clarificació pedagògica 2026-05-27)
-- Títol exacte de la secció: `## Preguntes de comprensió — Sobre aquest text`
-- Subtítol immediat: *"Guió actiu de lectura sobre el contingut concret del text adaptat."*
-- **CRITERI CRÍTIC — què SÍ i què NO**:
-  - SÍ: preguntes sobre el **contingut específic d'aquest text** ("Què és la fotosíntesi segons el text?", "On es produeix?", "Quina funció té la clorofil·la?"). Treballa els 3 plànols (literal → inferencial → crític).
-  - NO: tècniques generals de lectura ("Activa els teus coneixements previs", "Marca paraules clau"). Aquestes són tasca del complement `bastides`.
-- **PLÀNOL CRÍTIC al "Després"**: SÍ inclou valoració crítica sobre el contingut del text (és el lloc canònic per a aquesta dimensió). Aquí es treballa "Estàs d'acord amb la idea que...?", "Què opines sobre...?", "Quina és la teva posició sobre...?".
+## ⚠️ FORMAT DE SORTIDA v2 — clarificació pedagògica (validada per NotebookLM, 2026-05-27)
+
+### Nou format de sortida (substitueix l'anterior 3 moments × 3 plànols)
+- **Títol exacte de la secció**: `## Preguntes de comprensió — Sobre aquest text`
+- **Subtítol immediat**: *"Preguntes sobre el contingut concret del text adaptat. Els 3 plànols cognitius (literal → inferencial → crític) estructuren les preguntes; els 3 moments (abans/durant/després) NO apareixen aquí — són tasca del complement `bastides`."*
+- **Estructura del bloc** (ÚNICA — no fer 3 moments):
+  ```
+  ### Plànol literal (què diu el text)
+  - 2-3 preguntes sobre fets, conceptes, dades del text concret
+  - Ex: "Quina funció té la clorofil·la segons el text?"
+
+  ### Plànol inferencial (què s'entén entre línies)
+  - 2-3 preguntes que requereixin inferència sobre el text concret
+  - Ex: "Per què el text diu que els boscos són 'els grans productors d'oxigen'?"
+
+  ### Plànol crític (valoració)  [B1+ només]
+  - 1-2 preguntes de valoració crítica sobre el text/contingut
+  - Ex: "Estàs d'acord amb la idea del text que cal conservar els boscos pel seu paper en la fotosíntesi? Per què?"
+  ```
+
+### Què SÍ i què NO
+- **SÍ**: preguntes sobre el **contingut específic d'aquest text** (referits a fets, conceptes, idees del text adaptat).
+- **NO**: tècniques generals de lectura ("Activa els teus coneixements previs", "Fes una hipòtesi pel títol", "Marca paraules clau", "Resumeix el text", "Estàs d'acord amb el que diu l'autor?" en abstracte). **Tot això és tasca exclusiva de `bastides`**.
+- **NO mai més 3 moments (Abans/Durant/Després)**: si veus aquests títols a les preguntes, és senyal que has barrejat instrument amb contingut.
+
+### Per què aquest canvi (decisió validada NotebookLM/FJE)
+Mantenir els 3 moments al complement preguntes generava **redundància literal** amb `bastides` (mateixes preguntes a "Després" de tots dos). L'Opció D adoptada per FJE: identitats teòriques separades + mútua exclusivitat als defaults.
 
 Les preguntes de comprensió lectora segueixen el **model MALL de 3 moments × 3 plànols cognitius**: les preguntes acompanyen l'alumne **Abans / Durant / Després** de la lectura, i treballen progressivament els plànols **literal → inferencial → crític**. El complement no és un examen final: és un **guió actiu de lectura** que estructura el procés de construcció de sentit.
 
