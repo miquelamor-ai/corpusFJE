@@ -27,6 +27,14 @@ checksum_font: c801776dff1ac28c
 
 # Generar preguntes de comprensió — skill operativa per a LLM
 
+## ⚠️ FORMAT DE SORTIDA (clarificació pedagògica 2026-05-27)
+- Títol exacte de la secció: `## Preguntes de comprensió — Sobre aquest text`
+- Subtítol immediat: *"Guió actiu de lectura sobre el contingut concret del text adaptat."*
+- **CRITERI CRÍTIC — què SÍ i què NO**:
+  - SÍ: preguntes sobre el **contingut específic d'aquest text** ("Què és la fotosíntesi segons el text?", "On es produeix?", "Quina funció té la clorofil·la?"). Treballa els 3 plànols (literal → inferencial → crític).
+  - NO: tècniques generals de lectura ("Activa els teus coneixements previs", "Marca paraules clau"). Aquestes són tasca del complement `bastides`.
+- **PLÀNOL CRÍTIC al "Després"**: SÍ inclou valoració crítica sobre el contingut del text (és el lloc canònic per a aquesta dimensió). Aquí es treballa "Estàs d'acord amb la idea que...?", "Què opines sobre...?", "Quina és la teva posició sobre...?".
+
 Les preguntes de comprensió lectora segueixen el **model MALL de 3 moments × 3 plànols cognitius**: les preguntes acompanyen l'alumne **Abans / Durant / Després** de la lectura, i treballen progressivament els plànols **literal → inferencial → crític**. El complement no és un examen final: és un **guió actiu de lectura** que estructura el procés de construcció de sentit.
 
 **Tipologia MALL**: Mediació cognitiva (guia del procés lector).

@@ -27,6 +27,14 @@ checksum_font: 328a4c7483576722
 
 # Generar bastides de lectura — skill operativa per a LLM
 
+## ⚠️ FORMAT DE SORTIDA (clarificació pedagògica 2026-05-27)
+- Títol exacte de la secció: `## Bastides — Estratègia lectora`
+- Subtítol immediat: *"Procediment universal per llegir aquest tipus de text. Es retira quan l'alumne ja l'aplica autònomament."*
+- **CRITERI CRÍTIC — què SÍ i què NO**:
+  - SÍ: tècniques de lectura **transferibles a qualsevol text** del mateix gènere/nivell (activar coneixements previs, fer hipòtesis, marcar paraules clau, escriure resum graduat...)
+  - NO: preguntes sobre el contingut concret del text ("Què és la fotosíntesi?", "On es produeix?"). Aquestes són tasca del complement `preguntes_comprensio`.
+- **PLÀNOL CRÍTIC al "Després"**: NO incloguis valoració crítica sobre el contingut del text (això ho aporta `preguntes_comprensio`). Sí pots incloure **autoavaluació del procés lector** ("He aconseguit fer una hipòtesi inicial?", "He marcat les paraules clau?").
+
 Les bastides de lectura són **suports temporals i retirables** que guien l'alumne als tres moments del procés lector (**Abans / Durant / Després**) i als tres plànols de comprensió (**literal / inferencial / crític**). El complement `bastides` les activa sempre que el docent vol estructurar el procés lector de l'alumne. La seva funció no és substituir el treball de comprensió detallat (això és tasca del complement `preguntes_comprensio`), sinó aportar el **procediment** (com llegir).
 
 **Tipologia MALL**: Mediació cognitiva (bastida de lectura).
