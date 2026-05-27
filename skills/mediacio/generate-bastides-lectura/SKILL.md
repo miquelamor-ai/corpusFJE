@@ -39,6 +39,16 @@ checksum_font: 328a4c7483576722
 - NO: preguntes sobre el contingut concret (tasca de `preguntes_comprensio`)
 - NO: plànol crític si `preguntes_comprensio` està actiu
 
+### 🚫 PROHIBICIÓ EXPLÍCITA DE SECCIÓ (Bug 2026-05-27)
+NO generis MAI cap secció anomenada `## Preguntes de comprensió` ni cap variant
+(`## Preguntes`, `## Preguntes de repàs`, `## Preguntes de comprovació`). Aquesta secció
+és **tasca exclusiva** del complement `preguntes_comprensio` i només apareix si està
+activat al checklist. Si veus que el teu output inclouria una secció amb aquest títol,
+ATURA'T i reformula-la com a part de la secció `## Bastides` (o `## Suports per llegir`
+en DUA Accés / MECR ≤ A2), amb subseccions `### Abans de llegir`, `### Durant la lectura`,
+`### Després de llegir`. Les bastides donen el **procediment** (com llegir), no les
+preguntes detallades sobre el contingut.
+
 ### Modulació per MECR × DUA (CRÍTIC, sobreescriu la taula del body)
 
 **🔴 DUA Accés + (pre-A1 / A1 / A2)**:
