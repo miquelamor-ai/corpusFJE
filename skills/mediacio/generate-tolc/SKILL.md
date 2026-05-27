@@ -16,8 +16,8 @@ tools_required: []
 triggers:
 - path: params.complements.tolc
   equals: true
-- path: params.nouvingut.actiu
-  equals: true
+- path: profile.caracteristiques.nouvingut.l1
+  exists: true
 moduls_relacionats:
 - M2
 - M3
