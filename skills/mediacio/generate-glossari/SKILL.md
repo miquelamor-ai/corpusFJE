@@ -27,6 +27,24 @@ checksum_font: f0e769f131a8d5e9
 
 # Generar glossari — skill operativa per a LLM
 
+## ⚠️ FORMAT BILINGÜE — CONDICIONAL (fix 2026-05-27)
+
+La columna de traducció L1 (bilingüe) **NOMÉS** s'inclou si:
+- El perfil té `nouvingut.actiu = true` AMB `nouvingut.l1` declarada (ex: "Àrab", "Xinès cantonès", "Urdú")
+- En aquest cas, la columna usa **la L1 real declarada** del perfil (no anglès, no castellà per defecte)
+
+**NO incloguis** la columna L1 si:
+- El perfil NO és nouvingut (TDAH, dislèxia, TEA, AC, DI sense nouvingut...) → glossari **monolingüe**
+- El perfil és nouvingut SENSE L1 declarada → glossari monolingüe + nota al docent
+
+**Format columna**:
+- Si L1 té alfabet propi (àrab, xinès, urdú, ciríl·lic): paraula en alfabet original (no transliteració)
+- Si L1 és romàniques (castellà, francès, italià): traducció directa
+
+**MAI** usis anglès com a L1 per defecte. L'anglès **només** apareix si l'alumne té anglès com L1 declarada explícitament.
+
+---
+
 El glossari és un instrument de **mediació lèxica** que acompanya el text adaptat i ofereix definicions dels termes clau. La seva funció és reduir la càrrega cognitiva lèxica perquè l'alumne pugui centrar-se en la comprensió del contingut. Inclou una **variant bilingüe** per a alumnat nouvingut amb L1 coneguda.
 
 **Tipologia MALL**: Mediació lèxica (suport).
