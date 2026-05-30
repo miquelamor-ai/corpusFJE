@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T11:54:44
 ---
 
+## Abstract
+
+L'Enfocament Restauratiu Global (ERG) és una filosofia i conjunt de pràctiques que transformen com la comunitat educativa aborda relacions, incidents i conflictes —més enllà dels models punitius i permissius—, no només una "tècnica de càstig alternatiu". Pretén una **autèntica cultura de pau** on cada membre se senti acollit, escoltat i amb sentiment de pertinença, capacitant les persones per abordar els conflictes de manera autònoma centrant-se en la responsabilitat i la reparació del dany. Aporta una arquitectura de tres figures (el cercle com a metodologia de base; la piràmide amb tres nivells —proactives, manteniment, responsives—; el quadrat com a finestra relacional) i un repertori d'eines (CNV, escolta restaurativa, cercles de paraula, reunions restauratives). Idees-força: reparació del dany sobre càstig; identificació de necessitats com a base dels sentiments; les habilitats de pau s'aprenen i es treballen. NO és impunitat ni una alternativa de baixa exigència.
+
 ## Definició i principis
 L'Enfocament Restauratiu Global (ERG) és una filosofia i un conjunt de pràctiques que transformen la manera com la comunitat educativa aborda les relacions, els incidents i els conflictes. Va més enllà dels models tradicionals, tant permissius com punitius, per oferir una mirada humanitzadora. Aquesta mirada implica veure els altres no com a objectes a controlar, sinó com a persones amb qui ens relacionem, reconeixent la seva dignitat i les seves necessitats.
 

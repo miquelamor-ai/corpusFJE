@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T15:33:38
 ---
 
+## Abstract
+
+El marc del Feedback Formatiu és el cor d'una avaluació que posa l'aprenentatge al centre: una avaluació **projectada a l'aprenentatge** (Acaso), no un procés només qualificatiu al final del trajecte. Pretén que el docent utilitzi l'avaluació com a eina per **regular i impulsar l'aprenentatge**, ajudant l'alumne a ser conscient del que ha après, del que li queda i de què pot fer per continuar aprenent. Aporta la distinció entre avaluació formativa, formadora i sumativa (Black & Wiliam: AfL vs AoL) amb estratègies per als tres moments (abans, durant, després). Idees-força: l'error com a part normal i necessària de l'aprenentatge; "ensenyar, aprendre i avaluar són processos coincidents" (Sanmartí-Jorba); l'avaluació es dissenya abans que les activitats (Wiggins-McTighe). NO és una alternativa a la qualificació ni una activitat només final.
+
 ## Definició i principis
 
 El feedback formatiu, o retroalimentació formativa, és el cor d'una avaluació que posa l'aprenentatge al centre. Tradicionalment, l'avaluació s'ha entès com un procés principalment qualificatiu, on l'alumne demostrava el que havia après i el docent assignava una nota. No obstant això, la mirada actual, especialment en el marc del currículum per competències, ha evolucionat cap a una avaluació que és, abans que res, una eina per aprendre i per regular el procés d'ensenyament-aprenentatge. Com diu María Acaso, "Hem d'anar d'un aprenentatge projectat a l'avaluació a una avaluació projectada a l'aprenentatge."

@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T15:30:45
 ---
 
+## Abstract
+
+El marc dels Factors Promotors de l'Aprenentatge sintetitza l'evidència científica sobre com s'aprèn millor —activació de coneixements previs, ZDP i bastides, evocació espaiada, aprenentatge actiu, interacció social, DUA—, no com una llista d'estratègies aïllades sinó com un sistema de principis que es reforcen mútuament. Pretén que el docent **dissenyi pràctiques educatives més efectives, inclusives i significatives** alineades amb la manera com aprèn realment el cervell. Aporta un vocabulari compartit i fonamentat per justificar decisions metodològiques (per què aquesta activitat, per què aquesta seqüenciació) i un marc de referència per integrar autors clau (Vygotsky, CAST, Pujolàs, Coelho) en un únic enfocament coherent. Idees-força: l'aprenentatge es construeix sobre els coneixements previs; les bastides es retiren progressivament; els principis es reforcen mútuament. NO és una recepta universal ni una llista de comprovació per a cada activitat.
+
 ## Definició i principis
 
 L'aprenentatge no és un procés passiu de recepció d'informació, sinó una construcció activa que es veu profundament influenciada per diversos factors interrelacionats. Entendre i aplicar aquests factors és clau per dissenyar pràctiques educatives que siguin efectives, inclusives i significatives per a tot l'alumnat. Aquests principis guien el "com" ensenyem per optimitzar el "què" s'aprèn.

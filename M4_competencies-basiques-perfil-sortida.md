@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T15:32:34
 ---
 
+## Abstract
+
+El marc de Competències Bàsiques i Perfil de Sortida articula l'enfocament competencial del currículum vigent a Catalunya, entenent la competència com la capacitat d'utilitzar coneixements i habilitats de manera transversal i interactiva en contextos reals, no com una col·lecció de continguts a memoritzar. Pretén que els aprenentatges siguin **funcionals, significatius i transferibles** —útils per a la resolució de problemes al llarg de tota la vida—, formant alumnat capaç d'exercir una ciutadania de ple dret. Aporta a la planificació docent els tres pilars del marc competencial (integració de coneixements, funcionalitat, autonomia personal) i la lectura del perfil de sortida com a horitzó de l'escolaritat obligatòria. Idees-força: la competència integra sabers de diferents àrees; l'avaluació ha de reflectir l'aplicació real; la dimensió social com a part constitutiva (Canale). NO és un nou temari a memoritzar ni una visió individualista.
+
 ## Definició i principis
 
 El marc competencial actual a Catalunya sorgeix de la necessitat d'anar més enllà de l'adquisició de coneixements i tècniques aïllades, tal com es prioritzava en currículums anteriors (per exemple, els de 1992, que ja incloïen capacitats, però amb un enfocament diferent). L'evolució cap a un model basat en competències (com el del Decret 143/2007 i posteriors) respon a la premissa que l'alumnat ha de poder desenvolupar els continguts de manera **funcional i significativa**. L'objectiu principal és que els aprenentatges adquirits siguin útils i possibilitin la **resolució de problemes** al llarg de tota la vida, ja siguin quotidians, laborals o de relació.

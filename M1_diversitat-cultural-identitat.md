@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T15:29:10
 ---
 
+## Abstract
+
+El marc de la Diversitat Cultural, Identitat i Interculturalitat aborda la pluralitat cultural a l'aula —especialment la de l'alumnat d'origen estranger o nouvingut— com un repte i una oportunitat d'enriquiment del procés d'aprenentatge, no com un inconvenient a gestionar. Pretén garantir l'**èxit acadèmic de tot l'alumnat, especialment dels més vulnerables**, integrant la cultura familiar i escolar de procedència com a recurs valuós i evitant que la incorporació a la nova societat sigui una experiència de fracàs personal. Aporta criteris per a un tractament inclusiu del currículum que combini suport lingüístic continuat, incorporació explícita de referents culturals diversos i atenció a la construcció de la identitat. Idees-força: persones abans que cultures; integració de llengua i contingut (TILC); diferenciació entre llengua comunicativa (BICS) i llengua acadèmica (CALP). NO és una adaptació superficial ni una reducció de l'alumne a la seva procedència cultural.
+
 ## Definició i principis
 
 La diversitat cultural a l'aula, especialment la que prové de l'alumnat d'origen estranger o nouvingut, és un element inherent a la realitat educativa actual. Aquesta diversitat no ha de ser percebuda com un inconvenient, sinó com un repte i una oportunitat per enriquir el procés d'aprenentatge de tots els estudiants (DOC 1). Cada alumne aporta un bagatge personal i escolar únic, que inclou referents culturals, la llengua familiar i la cultura escolar de procedència. Tots aquests elements influeixen directament en la seva manera d'aprendre i de relacionar-se amb el coneixement (DOC 1).

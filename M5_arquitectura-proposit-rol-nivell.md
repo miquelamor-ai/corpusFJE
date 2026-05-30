@@ -10,6 +10,10 @@ paraules_clau: [arquitectura P>R>N, propòsit d'aprenentatge, rols IA, MIHIA, 4D
 
 # Arquitectura Propòsit-Rol-Nivell: sistema integrat
 
+## Abstract
+
+El marc de l'Arquitectura Propòsit-Rol-Nivell estructura el disseny d'activitats amb IA en tres eixos jeràrquics —**Propòsit d'aprenentatge primer**, després Rol de la IA, després Nivell de delegació (MIHIA)— per garantir intencionalitat pedagògica i evitar el *solution looking for a problem*. Pretén que el docent **comenci per la pregunta pedagògica correcta** ("què ha d'aprendre l'alumne?") en lloc de la tecnològica, conservant l'antropocentrisme i la lògica del Backward Design. Aporta una doble entrada per a l'ús pràctic (entrar per Propòsit o per Rol, triant Nivell al final) i el model 4D × 3 capes que vehicula la fluïdesa SOBRE-PER A-AMB la IA. Idees-força: jerarquia conceptual Propòsit→Rol→Nivell; doble entrada per a interfície real; les 4 D com a competència docent transversal. NO és una recepta tancada ni una jerarquia rígida sense flexibilitat operativa.
+
 ## Definició i principis
 
 ### 1. La jerarquia conceptual

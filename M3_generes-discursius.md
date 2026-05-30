@@ -11,6 +11,10 @@ nota_revisio: "Refet 2026-05-16 com a marc conceptual. Validat amb NotebookLM MA
 
 # Gèneres discursius — Marc conceptual i inventari MALL
 
+## Abstract
+
+El marc dels Gèneres Discursius MALL distingeix els gèneres (realitat sociocultural, criteri extern) de les tipologies o seqüències textuals (abstracció lingüística, criteri intern), seguint la tradició Bakhtin/Adam/Halliday, i estableix l'inventari operatiu de FJE: 7 macro-tipologies + 22 subgèneres treballats a l'aula. Pretén que el treball amb el text **operi com a treball amb el pensament**, ja que cada tipologia activa una Habilitat Cognitivolingüística nuclear (narrar, descriure, explicar, justificar, argumentar). Aporta el marc conceptual compartit que dóna coherència transversal al treball de llengua a totes les etapes; les regles productives per gènere viuen a `skills/genres/`. Idees-força: el text com a unitat semàntica de sentit (Halliday); heterogeneïtat com a norma (classificació per seqüència dominant); llengua-pensament-aprenentatge com a sistema integrat. NO és una tipologia tancada ni una classificació formal sense funció didàctica.
+
 ## Definició i principis
 
 ### Una distinció fonamental: tipologia vs gènere

@@ -9,6 +9,10 @@ generat_at: 2026-03-18T15:28:49
 actualitzat_at: 2026-03-27T00:00:00
 ---
 
+## Abstract
+
+El marc del Desenvolupament Cognitiu i Social és la base teòrica transversal del mòdul M1 que explica com aprenen i es desenvolupen tots els alumnes diversos, no com una etapa lineal universal igual per a tothom. Pretén oferir **una lectura comprensiva de la diversitat** que reconegui que cada perfil (nouvingut, dislèxia, TDAH, TEA, altes capacitats, vulnerabilitat socioeducativa) modula de manera diferent els processos cognitius i socials. Aporta el fonament teòric compartit que articula sis grans teories complementàries (Piaget, Vygotsky, Bronfenbrenner, Erikson, Bandura, Sweller) amb les seves implicacions per a la pràctica inclusiva. Idees-força: la diversitat com a configuració única (cognitiva, lingüística, neuropsicològica i sociofamiliar), no com a dèficit; el bagatge previ com a punt de partida a conèixer i aprofitar; complementarietat entre teories del desenvolupament. NO és una seqüència d'etapes a aplicar mecànicament ni una llista de dèficits a compensar.
+
 ## Definició i principis
 El marc del Desenvolupament Cognitiu i Social proporciona la base teòrica transversal per comprendre com aprenen i es desenvolupen tots els alumnes diversos de M1: alumnat nouvingut, amb dislèxia, TDAH, TEA, discapacitat intel·lectual, altes capacitats, vulnerabilitat socioeducativa i qualsevol altre perfil. No es tracta d'etapes lineals universals, sinó d'un desenvolupament dinàmic i contextualitzat que cada perfil de diversitat modula de manera diferent.
 

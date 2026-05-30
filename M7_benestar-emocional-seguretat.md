@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T16:19:58
 ---
 
+## Abstract
+
+El marc del Benestar Emocional i la Seguretat és la creació intencional d'un entorn educatiu on l'alumnat se senti protegit, comprès i capaç de desenvolupar-se plenament, no com una qüestió secundària a l'aprenentatge sinó com a condició necessària per a aquest. Pretén garantir que **l'aprenentatge significatiu sigui possible** a través d'un clima de confiança i estabilitat emocional, oferint —especialment als més vulnerables— una resposta educativa serena, equilibrada i justa. Aporta la fonamentació de la Teoria de l'Aferrament (Bowlby, Ainsworth) i el model d'Entorns Educatius Favorables (Horner) com a marc operatiu per al treball docent i institucional. Idees-força: l'escola com a "base segura" que replica vincles afectius segurs; entorns previsibles, coherents i positius; entendre el "per què" de la conducta abans del "què" (avaluació funcional). NO és un tractament terapèutic ni una resposta exclusivament reactiva.
+
 ## Definició i principis
 
 El Benestar Emocional i la Seguretat a l'escola es refereixen a la creació intencional d'un entorn educatiu on l'alumnat se senti protegit, comprès i capaç de desenvolupar-se plenament, tant a nivell acadèmic com personal i social. Aquest marc es fonamenta en la premissa que l'aprenentatge significatiu només pot tenir lloc en un clima de confiança i estabilitat emocional. L'objectiu és oferir a tot l'alumnat, especialment als més vulnerables, l'oportunitat d'aprendre en un entorn tranquil i coherent.

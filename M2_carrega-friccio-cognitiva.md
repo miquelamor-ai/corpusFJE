@@ -10,6 +10,10 @@ paraules_clau: [càrrega cognitiva, fricció productiva, paradoxa del rendiment,
 
 # Càrrega cognitiva, fricció productiva i disseny d'activitats amb IA
 
+## Abstract
+
+El marc de la càrrega cognitiva i la fricció productiva és un model cognitiu que explica la **paradoxa del rendiment amb IA** —pot millorar el resultat immediat i alhora soscavar l'aprenentatge durable— i ofereix principis de disseny per preservar la fricció que genera aprenentatge real. Pretén que el docent **decideixi pedagògicament qui fa la feina cognitiva en cada activitat**, externalitzant a la IA només la càrrega que no aporta valor i preservant la que sí. Aporta una arquitectura conceptual integrada de CLT (càrrega intrínseca/extrínseca/germana), ICAP (Passive→Interactive) i SRL per traduir decisions tecnològiques en decisions pedagògiques. Idees-força: *qui fa el pensament s'emporta l'aprenentatge*; la motivació modula la distribució de l'esforç cognitiu; preservar la fricció productiva, no eliminar-la. NO és una crida a prohibir la IA ni una fórmula tècnica.
+
 ## Definició i principis
 
 ### 1. La tensió central

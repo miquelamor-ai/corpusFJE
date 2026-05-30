@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-18T11:44:47
 ---
 
+## Abstract
+
+El marc de Llengua i Diversitat a l'aula presenta les estratègies d'andamiatge lingüístic, simplificació i adaptació de textos per a l'alumnat amb dificultats en la llengua vehicular, especialment l'alumnat d'incorporació tardana, no com a tècniques per "fer la feina més fàcil" sinó com a ponts perquè tothom accedeixi al currículum. Pretén garantir l'**accés al mateix contingut curricular per a tot l'alumnat**, adaptant la llengua però mai la complexitat cognitiva ni les expectatives d'aprenentatge. Aporta un marc fonamentat en Vygotsky (andamiatge i ZDP), Krashen (input comprensible *i+1*) i Cummins (BICS vs CALP) amb traducció pràctica en estratègies multimodals i multinivell. Idees-força: simplificar la llengua, no el contingut; el suport és temporal i es retira progressivament; la L1 és recurs, no obstacle; els objectius lingüístics han de ser explícits. NO és reducció d'expectatives ni adaptació permanent que generi dependència.
+
 ## Definició i principis
 
 L'andamiatge lingüístic, la simplificació i l'adaptació de textos són estratègies pedagògiques fonamentals per abordar la diversitat lingüística a l'aula, especialment amb l'alumnat amb dificultats en la llengua vehicular o d'incorporació tardana. Aquestes pràctiques no es limiten a "fer la feina més fàcil", sinó que busquen crear ponts perquè tot l'alumnat pugui accedir al currículum i desenvolupar les competències lingüístiques necessàries per a la seva integració escolar i social.

@@ -10,6 +10,10 @@ paraules_clau: [disseny instruccional, GRR, granularitat, seqüències didàctiq
 
 # Models de disseny instruccional i seqüències didàctiques
 
+## Abstract
+
+El marc de Models de Disseny Instruccional articula una jerarquia de granularitat didàctica (exercici → activitat → tasca → projecte) amb els models clàssics de disseny instruccional aplicats a propostes amb IA, no com una col·lecció d'opcions metodològiques deslligades. Pretén que el docent **dissenyi propostes amb intencionalitat pedagògica clara** des dels resultats d'aprenentatge desitjats fins a les activitats concretes, gradant l'autonomia i la integració d'IA per fase. Aporta una arquitectura de planificació que integra Backward Design (Wiggins & McTighe), Gradual Release of Responsibility (Fisher & Frey), fases del projecte FJE i tipologia de seqüències. Idees-força: l'avaluació es dissenya abans que les activitats; cada granularitat suporta integracions IA diferents; la no-delegació a la IA (N0) és una decisió pedagògica vàlida. NO és una recepta única ni una jerarquia rígida sense flexibilitat contextual.
+
 ## Definició i principis
 
 ### 1. Jerarquia de granularitat didàctica

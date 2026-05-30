@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T09:11:11
 ---
 
+## Abstract
+
+El marc de l'Ètica Algorísmica i Biaixos articula els fonaments normatius i tècnics per garantir que els sistemes d'IA utilitzats en educació siguin justos, fiables i respectuosos amb els drets fonamentals, ancorat principalment en el Reglament (UE) 2024/1689 (Llei d'IA). Pretén que la institució i els equips docents **prenguin decisions informades sobre IA centrada en l'ésser humà**, evitant que els biaixos algorísmics perpetuïn desigualtats socioeconòmiques, de gènere o culturals presents a les dades d'entrenament. Aporta els principis canònics (gestió de riscos, transparència, vigilància humana, qualitat de dades, precisió, ciberseguretat, traçabilitat) i els estàndards tècnics de referència (ISO/IEC, prEN europeus) per a auditoria i mitigació. Idees-força: els biaixos no són inherents a la tecnologia, vénen de dades i disseny; equitat algorísmica com a horitzó; vigilància humana significativa com a salvaguarda no negociable. NO és una restricció a la innovació ni un marc d'inhibició de l'ús educatiu de la IA.
+
 ## Definició i principis
 
 L'ètica algorísmica i la gestió dels biaixos són fonamentals per garantir que els sistemes d'Intel·ligència Artificial (IA) en l'educació siguin justos, fiables i respectuosos amb els drets fonamentals de les persones. Aquest marc es basa principalment en el Reglament (UE) 2024/1689, conegut com a Llei d'IA, que estableix un marc jurídic uniforme per al desenvolupament, la introducció al mercat i la utilització de sistemes d'IA a la Unió Europea. L'objectiu és promoure una IA centrada en l'ésser humà i fiable, protegint la salut, la seguretat i els drets fonamentals consagrats a la Carta dels Drets Fonamentals de la Unió Europea, inclosos la democràcia i l'Estat de Dret.
