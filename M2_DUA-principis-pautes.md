@@ -139,7 +139,7 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
 
 - **Quan aplica:** Quan es busca augmentar la motivació, la persistència i l'autonomia de l'alumnat, o quan apareixen senyals de desmotivació en un projecte en curs.
 - **Fonament:** La implicació activa de l'alumne és crucial per a l'aprenentatge significatiu. Oferir opcions de tria i fer explícits els objectius i criteris d'avaluació empodera l'alumne i facilita l'autoregulació del seu propi procés (DOC 3, DOC 6, DOC 23).
-- **Exemple descriptiu:** Davant un grup que mostra desmotivació amb un projecte, convé oferir opcions de tria dins del projecte mateix —tema específic a investigar, format final del lliurament. Alhora, fer explícits els objectius d'aprenentatge i els criteris d'avaluació ajuda l'alumnat a entendre el "per què" de la tasca i a autoregular el seu procés (DOC 3, DOC 6, DOC 23). L'autoregulació es manifesta quan l'alumnat selecciona suports disponibles, reflexiona sobre el seu progrés i pren decisions sobre la pròpia estratègia d'aprenentatge.
+- **Exemple descriptiu:** Davant un grup que mostra desmotivació amb un projecte, convé oferir opcions de tria dins del projecte mateix —tema específic a investigar, format final del lliurament. Alhora, fer explícits els objectius d'aprenentatge i els criteris d'avaluació ajuda l'alumnat a entendre el "per què" de la tasca i a autoregular el seu procés (DOC 3, DOC 6, DOC 23).
 
 #### Heurística 4: Integrar suports (bastides) de manera proactiva i gradual
 
@@ -152,6 +152,22 @@ El DUA és un marc de referència potent per a la inclusió, però no és una pa
 - **Quan aplica:** Quan es busca maximitzar la interacció, el suport mutu i l'aprenentatge entre iguals en un grup heterogeni.
 - **Fonament:** La diversitat a l'aula és un recurs. Metodologies com l'aprenentatge cooperatiu i entre iguals permeten que els alumnes s'ajudin mútuament, desenvolupin habilitats socials i aprofundeixin en la comprensió (DOC 8, DOC 19, DOC 20).
 - **Exemple descriptiu:** En un grup amb molta diversitat de nivells i cultures, implementar estratègies d'aprenentatge cooperatiu (DOC 8, DOC 19) o aprenentatge entre iguals (DOC 20) capitalitza la diversitat com a recurs. Els grups heterogenis amb interdependència positiva, on l'èxit de cada membre està lligat al del grup (DOC 9), generen aprenentatge real. Per exemple, en una lectura cooperativa (DOC 15) cada membre pot assumir responsabilitat sobre una part del text o una tasca específica (identificar la idea principal, vocabulari), millorant la comprensió i fomentant habilitats socials i d'autoreflexió (DOC 9).
+
+### Indicadors d'apropiació del DUA en l'alumnat
+
+Aquesta subsecció descriu manifestacions observables de l'apropiació del DUA per part de l'alumnat — què fa un alumne que ha interioritzat el marc en la seva pràctica. Útil per a l'acompanyament i la coavaluació entre iguals.
+
+#### Indicador 1: Cerca múltiples vies per accedir a un concepte no comprès
+
+- **Manifestació observable:** Davant una explicació no compresa, l'alumnat que ha interioritzat el DUA cerca materials alternatius —vídeo, esquema visual, text amb imatges, mapa conceptual— en lloc de quedar-se bloquejat. Pot demanar al docent una representació diferent o buscar autònomament una via d'accés al concepte que s'adapti millor a la seva manera de processar la informació (DOC 3, DOC 21).
+
+#### Indicador 2: Tria conscient del format d'expressió segons les pròpies fortaleses
+
+- **Manifestació observable:** Davant una tasca amb opcions d'expressió, l'alumnat que ha interioritzat el DUA tria el format que millor s'adapta a les seves fortaleses —presentació oral, vídeo, còmic, maqueta, debat— en lloc de forçar-se a una modalitat que li resulta més difícil (DOC 3). Aquesta tria conscient forma part del desenvolupament de l'autoconeixement com a aprenent.
+
+#### Indicador 3: Ús de bastides disponibles i reflexió sobre el propi procés
+
+- **Manifestació observable:** Davant un bloqueig en una tasca, l'alumnat que ha interioritzat el DUA reconeix les bastides disponibles —guies, models, llistes de passos, organitzadors gràfics (DOC 6)— i les utilitza per avançar. Si treballa en grup, parla amb companys per veure enfocaments diferents i ajudar-se mútuament (DOC 9). Reflexiona sobre els objectius de la tasca i els passos necessaris, mostrant capacitat d'autoregulació del propi procés d'aprenentatge (DOC 2).
 
 
 ## 6. INSTRUCCIONS DUA PER NIVELL — BLOCS PER A L'LLM
