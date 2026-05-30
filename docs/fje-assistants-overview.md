@@ -2,7 +2,7 @@
 
 **Document transversal**: aquest document viu al corpusFJE (la font de veritat comuna) però el seu abast supera qualsevol projecte individual (mineriaRAG, ATNE, futurs assistents). Funciona com a **parking lot superior** per no oblidar decisions estratègiques que afecten l'ecosistema FJE.
 
-**Última actualització**: 2026-04-20
+**Última actualització**: 2026-05-30
 **Responsable**: Miquel Amor
 **Estat**: viu, s'actualitza a mesura que es prenen decisions
 
@@ -16,15 +16,18 @@ Principi: **una font de veritat pedagògica, múltiples eines que la consumeixen
 
 ---
 
-## 2. Els 5 assistents previstos (orientats a docents/centre)
+## 2. Els assistents previstos
 
 | # | Nom | Àmbit | Estat | Repo |
 |---|---|---|---|---|
+| 0\* | **Itinerarium** *(provisionalment mirar-coms)* | Planificació, disseny i seguiment de la **formació docent** a nivell de centre (Pla d'Aprenentatge A-D-D + Guskey) | En desenvolupament | `github.com/miquelamor-ai/mirar-coms` |
 | 1 | **ATNE** (Adaptador de Textos a Necessitats Educatives) | Materials didàctics — adaptació de textos | En desenvolupament | `github.com/FundacioJesuitesEducacio/ATNE` |
 | 2 | Disseny curricular | Escenaris, programacions, seqüències didàctiques | Planificat | — |
 | 3 | Avaluació | Feedback, instruments, proves, informes | Planificat | — |
 | 4 | Convivència, tutoria i acompanyament | Dinàmiques, tutoria, facilitació | Planificat | — |
 | 5 | Gestió i organització | Planificació de centre i aula | Planificat | — |
+
+\* **Itinerarium** és una categoria diferent dels 5 assistents cara-docent: no actua a l'aula sinó al **meta-nivell** (equips directius i responsables de formació) per dissenyar i sostenir l'itinerari formatiu del centre — el "viatge" de la transformació pedagògica. La numeració "0" indica que conceptualment **precedeix** els cara-docent: sense un itinerari clar, els assistents IA d'aula no responen a cap pla. El nom evoca la tradició ignasiana de l'*Itinerarium* (Sant Ignasi narra la seva *Autobiografia* en clau d'itinerari del pelegrí) i s'aplica a una eina que ajuda el centre a recórrer el seu propi camí formatiu. És **consumidor natiu del corpus**: les fitxes del Banc de Formacions porten un camp `materials` amb referències curades a documents del corpus (M9 normativa, M1 casos NEE, M3 llengua, casuístiques M10, etc.) que arriben directament a la pantalla de qui dissenya el pla formatiu.
 
 ---
 
@@ -71,6 +74,15 @@ Proposta de fer que el contingut operatiu del corpusFJE compleixi l'estàndard o
 ---
 
 ## 5. Decisions estratègiques preses (registre)
+
+### 2026-05-30 — Incorporació d'Itinerarium al catàleg
+
+- **Itinerarium** s'incorpora al catàleg oficial com a assistent **meta-nivell** (governança i planificació de la formació docent a nivell de centre).
+- Nom canònic: **Itinerarium** (provisionalment opera com a `mirar-coms` al repo i a l'URL `mirar-coms.vercel.app`).
+- Repo: `github.com/miquelamor-ai/mirar-coms`. Estat: en desenvolupament (pilot per a equips directius i responsables de formació de la xarxa FJE).
+- **Categoria pròpia**: no és cara-docent (no actua a l'aula) ni cara-alumne. És **eina d'equips directius/responsables de formació** per dissenyar Plans d'Aprenentatge amb estructura A-D-D (Abans–Durant–Després) + nivells de Guskey, materialitzats amb dinàmiques (catàleg propi) i materials del corpus per fase.
+- **Consumidor natiu del corpus**: les fitxes del Banc de Formacions porten camp `materials` amb referències curades a docs del corpus que el director consulta en context, complint la guia d'estil del corpus (veu genèrica).
+- El nom evoca la tradició ignasiana de l'*Itinerarium* (Sant Ignasi).
 
 ### 2026-04-20 — Font de veritat única
 - corpusFJE és l'únic repo autoritzat per al contingut pedagògic.
