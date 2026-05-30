@@ -11,6 +11,10 @@ generat_at: 2026-05-11T00:00:00
 
 # Paradigma Pedagògic Ignasià (PPI)
 
+## Abstract
+
+El Paradigma Pedagògic Ignasià (PPI) és un marc educatiu que articula l'aprenentatge com un cicle espiral de Context–Experiència–Reflexió–Acció–Avaluació, no com una transmissió lineal de continguts. Pretén **formar persones per i amb els altres** —Conscients, Competents, Compassives i Compromeses (4C)— mitjançant un mode de procedir que prioritza la transformació interior sobre l'acumulació de continguts. Aporta a la pràctica educativa una arquitectura compartida que dóna coherència ignasiana a qualsevol metodologia i una mirada sostinguda sobre la profunditat (*non multa sed multum*). Idees-força: la Reflexió com a clau de volta del cicle; el triangle Docent–Alumne–Món com a indicador de qualitat relacional; la *Cura personalis* com a punt de partida; el *Magis* com a horitzó. NO és un protocol burocràtic de cinc passos ni una metodologia opcional.
+
 ## Definició i principis
 
 ### L'arrel espiritual: «Sentir i gustar les coses internament»

@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:15:54
 ---
 
+## Abstract
+
+L'Ecologia Integral és un marc pedagògic i vital que entén la crisi ambiental i la social com una única crisi socio-ambiental complexa, no com a dos problemes paral·lels. Pretén una **conversió ecològica** —canvi de mentalitat i hàbits, no només d'accions— que travessi el currículum, el projecte de centre i la formació del caràcter. Aporta una perspectiva integral que vincula sostenibilitat, justícia social i espiritualitat ignasiana, alineada amb la quarta Preferència Apostòlica Universal jesuïta. Idees-força: una sola crisi socio-ambiental; la cura de la casa comuna com a transversalitat (no com a "dia de la Terra"); la conversió ecològica com a transformació del *ser*, no només del *fer*. NO és una ideologia política ni un activisme partidista: el seu fonament és ètic i teològic.
+
 ## Definició i principis
 L'Ecologia Integral és un marc pedagògic i vital que entén la crisi ambiental i la crisi social com una única "crisi socio-ambiental complexa" (Laudato Si', 139, citat a DOC 68). Aquest concepte, impulsat pel Papa Francesc a l'encíclica Laudato Si' (DOC 25, DOC 26), va més enllà de la simple conservació del medi ambient per abraçar una visió holística on tot està interconnectat: la relació amb Déu, amb els altres éssers humans i amb la creació (DOC 68, DOC 88). La Terra és la nostra "casa comuna", una germana i una mare que clama pel dany causat per l'ús irresponsable i l'abús dels seus béns (LS 1-2, DOC 25).
 

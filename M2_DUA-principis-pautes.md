@@ -8,6 +8,10 @@ locked: true
 generat_at: 2026-03-18T15:29:37
 ---
 
+## Abstract
+
+El Disseny Universal per a l'Aprenentatge (DUA) és un marc de planificació que anticipa la diversitat de l'alumnat des del disseny inicial de les seqüències d'aprenentatge, no com a adaptació posterior. Pretén que **el currículum s'adapti a l'alumnat, no a la inversa**, fent la inclusió estructural i reduint la dependència d'adaptacions individuals. Aporta una lent de disseny aplicable a qualsevol moment del cicle de planificació (programació, unitat, activitat, avaluació) i una arquitectura de tres principis que travessen totes les decisions didàctiques. Idees-força: tres principis (representació, acció/expressió, implicació); flexibilitat des del disseny; reducció de l'esforç d'adaptació individual *a posteriori*. NO és una metodologia específica per a alumnat amb NEE: és un marc per a tothom.
+
 ## Definició i principis
 
 El Disseny Universal per a l'Aprenentatge (DUA) és un marc de referència que busca crear contextos d'aprenentatge flexibles i accessibles per a tot l'alumnat, anticipant la diversitat des de la fase de disseny del currículum i les activitats d'aula. El DUA sorgeix a finals dels anys 80, impulsat per un canvi de paradigma que va passar de centrar-se en les "mancances" dels alumnes i en mesures compensatòries a la idea que els currículums havien d'adaptar-se als alumnes, i no a la inversa (DOC 3). Aquest enfocament es va veure reforçat pels avenços en neurociència, que van demostrar que cada persona accedeix a l'aprenentatge de manera diferent, subratllant la necessitat de permetre que cada alumne accedeixi als coneixements i demostri el que ha après pel canal que li sigui més còmode (DOC 3).
