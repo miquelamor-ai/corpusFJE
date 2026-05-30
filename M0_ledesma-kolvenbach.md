@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:14:43
 ---
 
+## Abstract
+
+El Paradigma Ledesma-Kolvenbach articula les quatre finalitats de l'educació jesuïta —Competència, Consciència, Compassió i Compromís (4 Cs)—, reformulació al segle XXI dels quatre objectius originals de Diego de Ledesma (*utilitas, iustitia, humanitas, fides*). Pretén definir **què entén l'educació jesuïta per excel·lència humana**: no el rendiment acadèmic competitiu, sinó el màxim desenvolupament dels dons i capacitats de cada persona al servei dels altres. Aporta un perfil de sortida exigent i sintètic que dóna coherència a tota la proposta educativa FJE i la connecta amb la missió contemporània de reconciliació i justícia. Idees-força: continuïtat històrica Ledesma→Arrupe→Kolvenbach→Sosa; les 4 Cs com a humanisme jesuïta del segle XXI; excel·lència com a servei, no com a competició; la "coherència" com a cinquena C implícita. NO és una llista de tasques mecàniques ni una col·lecció de virtuts cíviques desconnectades de la fe.
+
 ## Definició i principis
 
 El Paradigma Ledesma-Kolvenbach és un marc pedagògic fonamental que articula la identitat i la missió de l'educació jesuïta, especialment en el context actual. Té les seves arrels en el pensament del teòleg i pedagog jesuïta del segle XVI, Diego de Ledesma, qui va identificar quatre raons clau per les quals la Companyia de Jesús havia d'assumir la responsabilitat d'institucions educatives. Aquestes raons van ser reinterpretades i actualitzades al segle XXI pel Pare General Peter-Hans Kolvenbach, qui les va condensar en quatre finalitats últimes de l'educació jesuïta, conegudes com les "quatre C": **Competència, Consciència, Compassió i Compromís**. Aquestes quatre C són una expressió moderna de l'humanisme que l'educació jesuïta ha defensat des dels seus inicis i sintetitzen el veritable sentit de l'excel·lència humana.

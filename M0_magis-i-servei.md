@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:14:41
 ---
 
+## Abstract
+
+El Magis i el Servei són dos pilars complementaris de la identitat educativa FJE, no una crida al rendiment o al perfeccionisme. El Magis (literalment "més") és la cerca qualitativa constant del **major bé, major servei i major glòria de Déu** en cada decisió; el Servei és la seva concreció pràctica en la formació de "persones per als altres i amb els altres" (Arrupe). Pretenen orientar la proposta educativa cap a una qualitat de mirada que va més enllà de la simple obligació o de l'acumulació. Aporten una brúixola dinàmica per al discerniment institucional i personal: davant qualsevol decisió pedagògica, preguntar-se on és el major bé. Idees-força: AMDG (*Ad Majorem Dei Gloriam*) com a divisa fundacional; "contemplatiu en l'acció" com a mode de procedir; discerniment ignasià com a procés clau. NO és perfeccionisme ni quantitat, ni caritat assistencial sense justícia estructural.
+
 ## Definició i principis
 
 El "Magis" i el "Servei" són dos pilars fonamentals de la identitat i missió educativa de Jesuïtes Educació (FJE), arrelats profundament en l'espiritualitat ignasiana. El terme "Magis", que significa "més" en llatí, no es refereix a una quantitat superior o a un perfeccionisme inabastable, sinó a una cerca qualitativa constant del "major bé", del "major servei" i de la "major glòria de Déu" (Diccionario de espiritualidad ignaciana 2 (G-Z), TIME LINE EDUCACIÓ JESUÏTA). És una actitud dinàmica de recerca i discerniment, que impulsa a anar més enllà de la simple obligació, a buscar la millor manera de col·laborar en la missió de Jesús i de servir a l'Església i a la humanitat en cada moment històric (2019-13_21abr19_ESP (5)). Aquesta cerca implica una obertura contínua a la voluntat de Déu, que es manifesta en el món i en les necessitats dels altres.

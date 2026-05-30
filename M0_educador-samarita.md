@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:15:58
 ---
 
+## Abstract
+
+L'Educador Samarità és la figura del docent com a testimoni i acompanyant, no merament com a transmissor de continguts, arrelada en la paràbola evangèlica i la pedagogia de la proximitat. Pretén que el docent sigui **acompanyant integral del projecte vital i vocacional de cada alumne**, encarnant compassió, presència activa i coherència entre el que diu i el que fa. Aporta a la institució un model de relació educativa que fa operatiu el carisma ignasià: una *cura personalis* que abraça les dimensions cognitiva, emocional, social i espiritual de la persona. Idees-força: el docent com a "contemplatiu en l'acció" que veu el potencial diví en cada alumne; la conversa espiritual com a eina per als moviments interiors; el testimoni de vida com a coherència transformadora. NO és neutralitat distant, ni una mirada centrada en el dèficit, ni una funció reduïda a la transmissió de coneixements.
+
 ## Definició i principis
 El marc de l'Educador Samarità, o Mestre Testimoni, se centra en la pedagogia de la proximitat i el vincle educatiu com a eixos fonamentals de la pràctica docent. Aquesta visió arrelada en l'espiritualitat ignasiana, entén el docent no només com un transmissor de coneixements, sinó com un acompanyant integral de l'alumne en el seu "projecte vital i vocacional". La figura del Samarità, inspirada en la paràbola evangèlica, encarna la compassió, la cura, la presència activa i el compromís amb la persona que té al davant, especialment amb aquells més vulnerables o "ferits" per les circumstàncies de la vida.
 

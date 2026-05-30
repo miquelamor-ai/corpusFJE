@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:14:44
 ---
 
+## Abstract
+
+Els Identificadors Globals FJE són els trets identitaris i valors que defineixen la proposta educativa dels centres jesuïtes a Catalunya, no un decàleg de valors a complir. Pretenen **donar coherència institucional als centres FJE** com a "cos universal amb missió universal", arrelant la pràctica educativa quotidiana en l'espiritualitat ignasiana adaptada als reptes del segle XXI. Aporten un marc d'identitat compartit que travessa totes les etapes educatives i totes les decisions pedagògiques. Idees-força: "trobar Déu en totes les coses" com a actitud contemplativa en l'acció; *cura personalis* com a atenció integral; les 4 Cs (Conscient, Competent, Compassiu, Compromès) com a perfil de sortida; servei de la fe + promoció de la justícia + cura de la Casa Comuna + discerniment + treball en xarxa com a modes de procedir. NO és una identitat tancada o impositiva.
+
 ## Definició i principis
 
 Els Identificadors Globals de Jesuïtes Educació (FJE) són els trets identitaris i valors fonamentals que defineixen la proposta educativa dels centres de la Companyia de Jesús a Catalunya. Aquests identificadors s'arrelen profundament en l'espiritualitat ignasiana i en una tradició educativa de gairebé 500 anys, adaptada als reptes i necessitats del segle XXI. La seva finalitat última és la formació integral de la persona, entesa com un procés de creixement humà i espiritual que busca el "major bé" (Magis) per a l'individu i la societat.

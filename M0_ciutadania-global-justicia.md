@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:15:42
 ---
 
+## Abstract
+
+L'educació per a la Ciutadania Global i la Justícia és l'expressió contemporània de la missió jesuïta de "fe que promou la justícia", no una assignatura ni un projecte aïllat. Pretén formar persones que **viuen amb plenitud i transformen el món a favor del bé comú** —"per als altres i amb els altres" (Arrupe)— integrant justícia social, reconciliació i cura de la Casa Comuna com una sola exigència. Aporta un eix transversal que travessa tota la proposta educativa i dóna sentit institucional a les 4 Cs (Conscient, Competent, Compassiu, Compromès). Idees-força: reconciliació a tres nivells (amb Déu, amb la humanitat, amb la creació); la fe com a fonament que evita la moda pedagògica; visió universalista jesuïta. NO és activisme sense reflexió, ni un afegit curricular, ni una mirada eurocèntrica.
+
 ## Definició i principis
 
 L'educació per a la Ciutadania Global i la Justícia, en clau ignasiana, és un pilar fonamental de la identitat i missió de Jesuïtes Educació. No és una assignatura o un projecte aïllat, sinó un eix transversal que impregna tota la proposta educativa, buscant la formació integral de persones que siguin "per als altres i amb els altres" (Pedro Arrupe). Aquesta aspiració s'arrel·la en l'experiència fundacional de Sant Ignasi de Loiola i els seus primers companys, que ja des del segle XVI van abraçar una visió universalista, aventurant-se arreu del món i trobant-se amb cultures i persones que van enriquir profundament la seva missió (DOC 94).
