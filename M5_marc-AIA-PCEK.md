@@ -168,3 +168,4 @@ Aquesta subsecció descriu manifestacions observables de l'apropiació d'AIA-PCE
 - Shulman, L. S. (1986). Those who understand: Knowledge growth in teaching. *Educational Researcher, 15*(2), 4–14.
 - Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., & Qiao, M. S. (2021). Conceptualizing AI literacy: An exploratory review. *Computers and Education: Artificial Intelligence, 2*, 100041.
 - Projecte Erasmus+ VOLCANIC (2022–2025). *Vocational Learning with AI: New Innovative Competences.* Marc en el qual va ser proposat el model AIA-PCEK.
+- Sosa, A. (2019). *Preferències Apostòliques Universals 2019-2029*. Roma: Companyia de Jesús. Discerniment, cura de la persona i justícia com a horitzó ètic ignasià que orienta la integració tecnològica.

@@ -218,3 +218,4 @@ Els indicadors que ens permeten valorar l'èxit de l'Aprenentatge Cooperatiu inc
 - Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Cambridge: Harvard University Press.
 - Slavin, R. E. (1995). *Cooperative Learning: Theory, Research, and Practice* (2a ed.). Boston: Allyn & Bacon.
 - Kagan, S. (1994). *Cooperative Learning*. San Clemente, CA: Kagan Publishing.
+- Hattie, J. (2009). *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. New York: Routledge. Atribueix a la cohesió de grup un efecte d=0.53 (per damunt del llindar de 0.40 que es considera un canvi significatiu).

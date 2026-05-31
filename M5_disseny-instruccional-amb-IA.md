@@ -295,5 +295,6 @@ Activar aquest document quan:
 - Fisher, D. & Frey, N. — GRR (Gradual Release of Responsibility)
 - Chase, J. & Galvin, T. (2026) — Disseny = Avaluació
 - Griffin, P., Francis, M. & Robertson, P. (2017) — Marc operatiu de 5 passos per alinear objectius i avaluació
+- Kosmyna, N. et al. (2025) — *Your Brain on ChatGPT* (MIT Media Lab); menor connectivitat neural (EEG) i menor record del propi text en escriure amb assistència LLM respecte a escriure sense ajuda
 - Font interna: ADR Xat 5B (abril 2026) — distinció aprenentatge vs. gestió
 - Font interna: docs/fonts/laia-knowledge/disseny-instruccional.md
