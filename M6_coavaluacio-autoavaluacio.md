@@ -247,3 +247,4 @@ Per evitar que l'autoavaluació i la coavaluació esdevinguin meres formalitats 
 - Fluckiger, J. (2010). Single point rubric: A tool for responsible student self-assessment. *The Delta Kappa Gamma Bulletin*, 76(4), 18-25.
 - Gonzalez, J. (2014). Know your terms: Holistic, analytic, and single-point rubrics. *Cult of Pedagogy*.
 - Go, J. & Atienza, R. (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Quezon City: Loyola Schools Press.
+- Tai, J., Ajjawi, R., Boud, D., Dawson, P., & Panadero, E. (2018). Developing evaluative judgement: Enabling students to make decisions about the quality of work. *Higher Education*, 76, 467-481. El judici avaluatiu —jutjar la qualitat del propi treball— és el cor de l'autoavaluació i la coavaluació.

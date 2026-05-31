@@ -234,3 +234,4 @@ La implementació es pot graduar en tres nivells, adaptant-se a la realitat de c
 - Pianta, R. C., & Hamre, B. K. (2009). Conceptualization, measurement, and improvement of classroom processes. *Educational Researcher*, 38(2), 109-119.
 - Pujolàs, P. (2008). *9 idees clau: L'aprenentatge cooperatiu*. Barcelona: Graó.
 - Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Tripp, D. (1993). *Critical Incidents in Teaching: Developing Professional Judgement*. Londres: Routledge. L'incident crític com a interpretació de la significació d'un esdeveniment; l'anàlisi sistemàtica construeix el judici professional docent.

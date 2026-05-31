@@ -171,3 +171,4 @@ Aquesta subsecció descriu manifestacions observables de l'apropiació de l'enfo
 - Hopkins, B. (2004). *Just Schools: A Whole School Approach to Restorative Justice*. Londres: Jessica Kingsley.
 - Decret 279/2006, de 4 de juliol, sobre drets i deures de l'alumnat i regulació de la convivència en els centres educatius no universitaris de Catalunya. DOGC núm. 4670.
 - Departament d'Educació (2021). *Convivència positiva i resolució de conflictes*. Generalitat de Catalunya / XTEC.
+- Gregory, A., Clawson, K., Davis, A., & Gerewitz, J. (2016). The promise of restorative practices to transform teacher-student relationships and achieve equity in school discipline. *Journal of Educational and Psychological Consultation*, 26(4), 325-353. Meta-anàlisi sobre 412 estudiants / 29 aules: els docents amb alta implementació restaurativa tenen relacions més respectuoses i emeten significativament menys derivacions disciplinàries, sobretot per a alumnat de minories.
