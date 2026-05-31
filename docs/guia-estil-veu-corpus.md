@@ -150,3 +150,58 @@ Llegint un chunk genericitzat, fes-te aquestes preguntes:
 - **Lots de revisió**: per mòduls, validats per Miquel abans de commit.
 - **Versionat**: cada lot, un commit amb missatge clar (`refactor(M1): veu genèrica — ...`).
 - **Reversible**: el git permet desfer qualsevol lot que no convingui.
+
+---
+
+## Addenda 2026-05-31 — Anti-apropiació del carisma ignasià
+
+Aquesta addenda formalitza dues regles editorials sobre l'ús del vocabulari ignasià al corpus. Emergeix de la sessió de treball amb Itinerarium (briefing 03 d'Itinerarium, decisions C.1 i C.2). Aplica a tot el corpus i complementa la regla general de veu genèrica.
+
+### Regla 1 — Els conceptes ignasians són actituds, no tècniques
+
+Conceptes com **cura personalis**, **magis**, **discerniment**, **examen**, **contemplatiu en l'acció** són **principis i actituds del *modus operandi*** que han d'inspirar la pràctica, **NO etiquetes intercanviables per a tècniques concretes**.
+
+**Prohibit**:
+- Anomenar una dinàmica concreta com a "Cura Personalis", "Magis" o "Discerniment".
+- Dir que una graella d'observació és "El meu examen ignasià".
+- Etiquetar una metodologia operativa amb nom espiritual ("La sessió Cura Personalis").
+
+**Per què**: instrumentalitzar el carisma el **buida**. Si "Cura Personalis" passa a ser el nom d'una tècnica concreta, perd la seva capacitat d'orientar tota la pràctica i es converteix en una eina substituïble. La pràctica perd l'horitzó i el concepte perd substància.
+
+**Permès i recomanat**:
+- "La sessió cultiva la cura personalis com a actitud, que es manifesta en escoltar de debò i fer-se present a cada alumne."
+- "El docent es pregunta des del seu examen quotidià com millorar la pràctica."
+- "Aquesta proposta s'arrela en el principi del *magis*: no aspirem al mínim, sinó al servei més complet possible."
+
+### Regla 2 — No "ignasià" allò que és universal
+
+Pràctiques pedagògiques d'origen no ignasià (Lesson Study, observació entre iguals, comunitats professionals d'aprenentatge, anàlisi col·laborativa de casos, mapa d'empatia, DAFO, etc.) són **universals**. Es poden inscriure dins una sensibilitat ignasiana, però no es transformen en pràctiques ignasianes pel fet d'usar-les en un centre FJE.
+
+**Prohibit**:
+- Anomenar "Lesson Study ignasià" o "DAFO ignasià" una dinàmica concreta.
+- Atribuir origen ignasià a marcs que en tenen d'altres (Hattie, Wiliam, DuFour, Cummins...).
+- Suggerir que el sentit de la dinàmica només existeix dins el marc ignasià.
+
+**Per què**: confondre origen i adopció genera confusió epistèmica i fa el discurs **no creïble**. Una observació entre iguals és bona pràctica perquè és bona pràctica, no perquè sigui ignasiana. La inspiració ignasiana s'expressa en **com s'adopta** —amb quina actitud, des de quin horitzó, amb quina cura— no en **canviar-ne el nom**.
+
+**Permès i recomanat**:
+- "Un docent ignasià hi reflexiona des de l'horitzó del *magis* i la cura personalis."
+- "Aquesta pràctica universal s'inscriu de manera natural al *modus operandi* ignasià pel valor que dóna al discerniment comunitari."
+- "L'equip FJE adopta el Lesson Study amb l'actitud reflexiva pròpia de la tradició ignasiana, sense renomenar la pràctica."
+
+### Casos d'aplicació al corpus
+
+- **[M0_PPI-paradigma-pedagogic-ignasia.md](../M0_PPI-paradigma-pedagogic-ignasia.md)**, **[M0_cura-personalis.md](../M0_cura-personalis.md)**, **[M0_magis-i-servei.md](../M0_magis-i-servei.md)** — Aquests són els docs **font del concepte** ignasià. La seva veu és normativa: descriuen què és cada concepte i la seva tradició.
+- **[M7_desenvolupament-professional-docent.md](../M7_desenvolupament-professional-docent.md)** — Aquest doc cita la inspiració ignasiana sense apropiar-se de tècniques (CPA = universal, Lesson Study = universal, A-D-D = inspirat).
+- **Marcs operatius (M2, M3, M5, M6, M7 que no són M0)** — Mencionen el carisma com a horitzó actitudinal, no com a etiqueta de tècniques.
+- **`tipus: instrument`, `tipus: protocol`, skills (`*.md`)** — En cap cas porten nom de concepte ignasià. Les eines i protocols són operatius; la inspiració ignasiana està a l'actitud de qui les usa.
+
+### Test ràpid d'anti-apropiació
+
+Davant la temptació d'usar vocabulari ignasià al títol d'una dinàmica, un protocol o un instrument, pregunta't:
+
+1. **Substituible?** ¿Aquesta dinàmica/protocol/eina podria ser substituïda per una altra de funció equivalent i el sentit es mantindria? Si sí, no és el concepte ignasià: és una tècnica. **No la nominis amb el concepte.**
+2. **Funcional?** ¿La pràctica és funcional pel concepte que la nomena o per la seva pròpia evidència empírica? Si funciona per evidència empírica (Hattie, Wiliam, DuFour...), el seu origen és aquest. **El nom ha de fer honor a l'origen.**
+3. **Reversible?** ¿Si traguéssim el nom ignasià, la pràctica continuaria sent vàlida? Si sí, el nom era ornamental. **Treu-lo i fes explícita l'actitud que volies senyalar.**
+
+Aquestes regles són complementàries a la veu genèrica del corpus i a la regla de no citar noms propis d'eines: el carisma ignasià també es preserva amb un ús precís del seu vocabulari.
