@@ -1,10 +1,19 @@
 ---
 modul: M7
 titol: "Enfocament trauma-informed en l'adaptació de materials educatius"
-tipus: marc
-descripcio: "Principis SAMHSA aplicats a l'adaptació de textos, activitats i disseny instruccional: seguretat, predictibilitat, evitació de triggers, alumnat refugiat i migrant"
+tipus: estrategia
+descripcio: "Principis SAMHSA aplicats a l'adaptació de textos, activitats i disseny instruccional: seguretat, predictibilitat, evitació de triggers, alumnat refugiat i migrant. Estratègia operativa invocada pel marc paraigua M2_materials-educatius-fje quan el diagnòstic indica problema de sensibilitat al trauma."
+paraules_clau:
+  - trauma-informed
+  - SAMHSA
+  - adaptació de materials
+  - estratègia operativa
+  - alumnat refugiat
+  - seguretat emocional
 review_status: esborrany
 generat_at: 2026-03-24T23:00:00
+actualitzat_at: 2026-05-31T00:00:00
+nota_revisio: "2026-05-31: migració tipus marc → estrategia. Era classificada com a 'marc aplicat' (categoria informal); ara s'integra a l'arquitectura A+B+protocols del marc institucional M2_materials-educatius-fje (commit fbe5c81) com a estratègia operativa invocada pel doc B (commit 50fffa5)."
 ---
 
 ## Definició i context
@@ -187,6 +196,13 @@ Quan un alumne mostra signes d'activació (agitació, bloqueig, plor, fugida):
 - **Bath (2008)**: "The Three Pillars of Trauma-Informed Care" — seguretat, connexió, gestió emocional.
 
 ## 3. Connexions amb altres documents del corpus
+
+**Arquitectura paraigua sobre materials educatius (afegit 2026-05-31):**
+
+- **[[M2_materials-educatius-fje]]**: Marc institucional FJE (doc A) que dóna els 7 principis i 18 criteris de qualitat dels materials. Aquesta estratègia opera específicament sobre el Principi 4 (Seguretat emocional i sensibilitat al trauma) i contribueix al Criteri 13 (inclusivitat representativa + absència de triggers innecessaris).
+- **[[M2_materials-educatius-disseny-adaptacio-seleccio]]**: Estratègia general (doc B) que **invoca** aquesta estratègia específica al Mètode B (Adaptació) quan el diagnòstic detecta triggers o temes sensibles, o al Mètode A (Disseny) quan el material tracta temes potencialment traumàtics per al perfil destinatari.
+
+**Marcs conceptuals i estratègies relacionades:**
 
 - **M1_alumnat-nouvingut**: Context migratori, possibles experiències traumàtiques
 - **M1_vulnerabilitat-socioeducativa**: Factors de risc contextual

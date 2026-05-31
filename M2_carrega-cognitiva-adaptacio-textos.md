@@ -1,10 +1,18 @@
 ---
 modul: M2
 titol: "Càrrega cognitiva aplicada a l'adaptació de materials educatius"
-tipus: marc
-descripcio: "Aplicació de la teoria de Sweller a l'adaptació de textos, activitats i disseny instruccional: densitat conceptual, elements interactius, redundància funcional vs decorativa"
+tipus: estrategia
+descripcio: "Aplicació de la teoria de Sweller a l'adaptació de textos, activitats i disseny instruccional: densitat conceptual, elements interactius, redundància funcional vs decorativa. Estratègia operativa invocada pel marc paraigua M2_materials-educatius-fje quan el diagnòstic indica problema de càrrega cognitiva."
+paraules_clau:
+  - càrrega cognitiva
+  - Sweller
+  - adaptació de textos
+  - estratègia operativa
+  - densitat conceptual
 review_status: esborrany
 generat_at: 2026-03-24T23:00:00
+actualitzat_at: 2026-05-31T00:00:00
+nota_revisio: "2026-05-31: migració tipus marc → estrategia. Era classificada com a 'marc aplicat' (categoria informal); ara s'integra a l'arquitectura A+B+protocols del marc institucional M2_materials-educatius-fje (commit fbe5c81) com a estratègia operativa invocada pel doc B (commit 50fffa5)."
 ---
 
 ## Definició i principis aplicats a l'adaptació de materials
@@ -155,6 +163,13 @@ El principi és: **més suport al principi, menys al final**. Però el ritme de 
 - **Mayer (2001, 2009)**: Principis d'aprenentatge multimèdia (coherència, senyalització, redundància, contigüitat espacial i temporal).
 
 ## 3. Connexions amb altres documents del corpus
+
+**Arquitectura paraigua sobre materials educatius (afegit 2026-05-31):**
+
+- **[[M2_materials-educatius-fje]]**: Marc institucional FJE (doc A) que dóna els 7 principis i 18 criteris de qualitat dels materials. Aquesta estratègia opera específicament sobre el Principi 2 (Gestió pedagògica de la càrrega cognitiva) i contribueix als Criteris 3 (densitat conceptual), 4 (instruccions segmentades) i 5 (estructura clara).
+- **[[M2_materials-educatius-disseny-adaptacio-seleccio]]**: Estratègia general (doc B) que **invoca** aquesta estratègia específica al Mètode B (Adaptació) quan el diagnòstic detecta problema de càrrega cognitiva (densitat conceptual alta, sobrecàrrega d'elements interactius).
+
+**Marcs conceptuals i estratègies relacionades:**
 
 - **M1**: El perfil de l'alumne determina la càrrega assumible (L2, DI, TDAH → menor capacitat de processament)
 - **M1_creuament-variables-dependencies**: Quan hi ha múltiples condicions, la càrrega es multiplica
