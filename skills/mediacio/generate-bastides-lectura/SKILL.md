@@ -20,62 +20,12 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-bastides-lectura.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-26'
+generat_at: '2026-05-31'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 328a4c7483576722
 ---
 
 # Generar bastides de lectura — skill operativa per a LLM
-
-## ⚠️ FORMAT DE SORTIDA v3 (modulació DUA + nouvingut 2026-05-27)
-
-### Títol i subtítol
-- Si DUA=Accés o MECR ≤ A2: títol = `## Suports per llegir` (registre per a l'alumne)
-- Si DUA=Core/Enriquiment i MECR ≥ B1: títol = `## Bastides — Estratègia lectora` (registre tècnic)
-- Subtítol: una frase senzilla adaptada al perfil
-
-### CRITERI CRÍTIC — què SÍ i què NO
-- SÍ: tècniques de lectura **transferibles a qualsevol text** del mateix gènere/nivell
-- NO: preguntes sobre el contingut concret (tasca de `preguntes_comprensio`)
-- NO: plànol crític si `preguntes_comprensio` està actiu
-
-### 🚫 PROHIBICIÓ EXPLÍCITA DE SECCIÓ (Bug 2026-05-27)
-NO generis MAI cap secció anomenada `## Preguntes de comprensió` ni cap variant
-(`## Preguntes`, `## Preguntes de repàs`, `## Preguntes de comprovació`). Aquesta secció
-és **tasca exclusiva** del complement `preguntes_comprensio` i només apareix si està
-activat al checklist. Si veus que el teu output inclouria una secció amb aquest títol,
-ATURA'T i reformula-la com a part de la secció `## Bastides` (o `## Suports per llegir`
-en DUA Accés / MECR ≤ A2), amb subseccions `### Abans de llegir`, `### Durant la lectura`,
-`### Després de llegir`. Les bastides donen el **procediment** (com llegir), no les
-preguntes detallades sobre el contingut.
-
-### Modulació per MECR × DUA (CRÍTIC, sobreescriu la taula del body)
-
-**🔴 DUA Accés + (pre-A1 / A1 / A2)**:
-- **CAP escriptura autònoma**. Substitueix tot "Escriu X" per accions físiques: "Assenyala", "Mira", "Tria entre 2 dibuixos", "Diu en veu alta a l'adult".
-- Si demanes producció, només iniciadors amb forats SVO: "El text parla de ___. Té ___."
-- **Plànol crític: PROHIBIT** a A1/A2-Accés. Massa abstracte.
-- Format en LF estricte UNE 153101: una idea per frase, frases ≤12 paraules, sense parèntesi.
-
-**🟡 DUA Accés + B1**:
-- Producció guiada amb iniciadors HCL forats: "Crec que ___ perquè ___."
-- Inferencial sí, crític només si activa autoavaluació del propi procés.
-
-**🟢 DUA Core + B1/B2**:
-- Format actual (pot incloure resum lliure 2-3 frases, hipòtesi escrita).
-- Inferencial sí, crític sí.
-
-**🟢🟢 DUA Enriquiment + B2/C1+**:
-- Bastides metacognitives complexes (autoavaluació del raonament, contrast de fonts).
-- Plànol crític ric amb argumentació pròpia.
-
-### Modificador NOUVINGUT (eix addicional)
-
-Si el perfil té `nouvingut.actiu = true` AMB L1 declarada i MECR ≤ A2:
-- **Bloc TILC/TOLC obligatori**: incloure 1 iniciador comparat L1↔català per cada moment
-  - Ex: "En la teva llengua, com diries 'planta'? Mira al glossari."
-- **Cap escriptura autònoma**: només iniciadors amb forats o assenyalar.
-- **Glossari L1 com a ancoratge primer** (la bastida ha de fer referència explícita al glossari).
 
 Les bastides de lectura són **suports temporals i retirables** que guien l'alumne als tres moments del procés lector (**Abans / Durant / Després**) i als tres plànols de comprensió (**literal / inferencial / crític**). El complement `bastides` les activa sempre que el docent vol estructurar el procés lector de l'alumne. La seva funció no és substituir el treball de comprensió detallat (això és tasca del complement `preguntes_comprensio`), sinó aportar el **procediment** (com llegir).
 

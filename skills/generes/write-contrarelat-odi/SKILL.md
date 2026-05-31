@@ -27,7 +27,7 @@ moduls_relacionats:
 - M8
 font_canonic: M3_genere-escriure-contrarelat-odi.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-26'
+generat_at: '2026-05-31'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: e81358a85364e27a
 ---
