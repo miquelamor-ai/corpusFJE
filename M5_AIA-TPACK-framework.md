@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-03-21T07:17:18
 ---
 
+## Abstract
+
+El marc **AIA-TPACK** és l'ampliació del model TPACK (Technological Pedagogical Content Knowledge de Mishra i Koehler) que integra la **dimensió d'intel·ligència artificial** com a component pedagògic, **no com a substitut del coneixement docent** sinó com a nova capa que el docent ha d'articular amb el seu coneixement de contingut i el pedagògic. Pretén que el centre i el docent integrin la IA a l'aula amb intenció pedagògica clara, sense tecnolatria ni rebuig acrític, mantenint l'equilibri amb el món analògic. Aporta una arquitectura de tres dimensions de coneixement —tecnològic, pedagògic, de contingut— que ara incorpora l'IA com a tecnologia transformadora, i un marc per avaluar la pròpia competència i adaptar la integració a la realitat del centre. Idees-força: la tecnologia no és solució màgica per si mateixa; cap model d'integració és universal; calen revisions periòdiques pels canvis vertiginosos del món digital; la tecnologia ha de servir un propòsit pedagògic. NO és una recepta tancada ni una imposició tecnològica uniforme.
+
 ### Definició i principis
 Els documents proporcionats són informes interns de la Comissió Pedagògica Educsi (setembre de 2024) i no defineixen explícitament el marc TPACK (Technological Pedagogical Content Knowledge) ni la seva integració amb la Intel·ligència Artificial (AIA TPACK). Tanmateix, sí que estableixen un context fonamental i uns principis subjacents per entendre la necessitat d'una integració tecnològica reflexiva i adaptativa en l'educació, que són plenament rellevants per a qualsevol marc com el TPACK. Els principis que es desprenen dels textos giren al voltant de la presència ineludible i creixent dels dispositius digitals a l'aula, que és vista com un reflex natural de la societat actual. La institució educativa no pot ser una "illa" al marge d'aquesta realitat digital.
 
