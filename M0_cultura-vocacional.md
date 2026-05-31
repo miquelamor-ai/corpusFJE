@@ -100,7 +100,7 @@ El document proposa quatre eixos formatius i nou virtuts:
 - **`M0_PPI-paradigma-pedagogic-ignasia`** — el PPI estructura les tres etapes de l'acompanyament vocacional: consciència de la crida, discerniment, resposta
 - **`M0_ledesma-kolvenbach`** — les quatre finalitats (utilitas, iustitia, humanitas, fides) son l'horitzó d'un projecte vital ignasià
 - **`M0_exit-educatiu-inclusiu`** — la cultura vocacional ha d'arribar als joves en risc d'exclusió: "Per a qui sóc jo?" és també la seva pregunta
-- **`M7_espais-aprenentatge-interioritat`** — els espais de silenci i interioritat com a condició perquè la pregunta vocacional pugui brollar
+- **`M7_pedagogia-dimensio-interior-fje`** — la pedagogia de la dimensió interior (interioritat + espiritualitat com a una única dimensió integrada) com a condició perquè la pregunta vocacional pugui brollar
 
 ## 4. Detecció
 

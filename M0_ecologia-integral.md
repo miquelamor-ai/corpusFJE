@@ -58,7 +58,7 @@ L'Ecologia Integral, en canvi, exigeix una relectura de la justícia que inclogu
 - **`M0_magis-i-servei`** — la cura de la creació com a expressió del servei al bé comú i del Magis ignasià
 - **`M0_ciutadania-global-justicia`** — la sostenibilitat i la justícia socio-ambiental com a dimensions de la ciutadania global
 - **`M0_PPI-paradigma-pedagogic-ignasia`** — el cicle PPI (experiència, reflexió, acció) estructura la "conversió ecològica" que el marc promou
-- **`M7_espais-aprenentatge-interioritat`** — espais de connexió amb la natura per fomentar la consciència contemplativa i el vincle afectiu amb la creació
+- **`M7_pedagogia-dimensio-interior-fje`** — la consciència contemplativa de la creació com a porta d'entrada a la dimensió interior; els espais de connexió amb la natura com a pràctica integrada
 - **`M2_factors-promotors-aprenentatge`** — l'aprenentatge amb significat socio-ambiental real activa la motivació intrínseca i el compromís
 ## 4. Detecció
 - **Senyals del docent:**

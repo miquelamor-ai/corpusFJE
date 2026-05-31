@@ -134,7 +134,7 @@ Al llarg de cinc segles d'evolució, cinc trets es mantenen constants, si bé es
 - **`M0_ciutadania-global-justicia`** — la "fe i justícia" (CG32, moment 2) com a arrel teològica de la ciutadania global
 - **`M0_ledesma-kolvenbach`** — el paradigma (utilitas, iustitia, humanitas, fides) com a marc interpretatiu del moment 3
 - **`M0_identificadors-globals`** — els identificadors globals com a eines operatives dels cinc trets identitaris persistents
-- **`M7_espais-aprenentatge-interioritat`** — els espais d'interioritat com a expressió del discerniment (moments 1 i 5)
+- **`M7_pedagogia-dimensio-interior-fje`** — la pedagogia de la dimensió interior FJE com a expressió pedagògica del discerniment ignasià (moments 1 i 5)
 
 ## 4. Detecció
 

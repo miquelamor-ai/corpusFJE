@@ -97,7 +97,7 @@ En el context de Jesuïtes Educació, les PAU no són un marc extern que cal "ad
 - **`M0_ecologia-integral.md`** — La PAU D (Casa Comuna) és el marc per a l'ecologia integral; la conversió ecològica que demanen les PAU comença per les pràctiques del centre
 - **`M0_acompanyament-tutoria-ignasia.md`** — La tutoria ignasiana és l'espai privilegiat de la PAU A (discerniment) i la PAU C (acompanyament vocacional dels joves)
 - **`M2_ABP-aprenentatge-servei.md`** — L'APS és la metodologia que expressa simultàniament la PAU B (servei) i la PAU C (joves transformats per l'experiència)
-- **`M7_espais-aprenentatge-interioritat.md`** — Els espais d'interioritat al centre (retirs, silenci, examen) són la concreció física de la PAU A a l'escola
+- **`M7_pedagogia-dimensio-interior-fje.md`** — La pedagogia de la dimensió interior FJE (retirs, silenci, examen, Exercicis Espirituals adaptats) és la concreció pedagògica de la PAU A a l'escola
 
 ## 4. Detecció
 
