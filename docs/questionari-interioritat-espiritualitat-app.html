@@ -1,0 +1,1566 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Qüestionari interioritat-espiritualitat FJE</title>
+<style>
+  :root {
+    --azul: #1f3a5f;
+    --azul-clar: #4a6fa5;
+    --groc: #f0a838;
+    --gris: #f5f5f7;
+    --gris-mig: #d8d8dc;
+    --gris-fosc: #4a4a4f;
+    --vermell: #b53b3b;
+    --verd: #2f7d4a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.55;
+    color: var(--gris-fosc);
+    background: var(--gris);
+    padding: 0;
+    min-height: 100vh;
+  }
+  .wrap {
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 24px 18px 60px;
+  }
+  header.brand {
+    background: var(--azul);
+    color: white;
+    padding: 18px 24px;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 28px;
+  }
+  header.brand h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+  }
+  header.brand p { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+  .card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+  h2 { color: var(--azul); font-size: 1.35rem; margin-bottom: 14px; font-weight: 600; }
+  h3 { color: var(--azul); font-size: 1.05rem; margin: 18px 0 8px; font-weight: 600; }
+  p { margin-bottom: 12px; }
+  .lead { font-size: 1.05rem; color: var(--gris-fosc); margin-bottom: 18px; }
+  .btn {
+    display: inline-block;
+    padding: 12px 22px;
+    background: var(--azul);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .btn:hover { background: var(--azul-clar); }
+  .btn:disabled { background: var(--gris-mig); cursor: not-allowed; }
+  .btn-secondary { background: white; color: var(--azul); border: 1.5px solid var(--azul); }
+  .btn-secondary:hover { background: var(--azul); color: white; }
+  .btn-warn { background: var(--groc); color: var(--gris-fosc); }
+  .btn-warn:hover { background: #d99220; }
+  .btn-row { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 18px; }
+  .btn-group { display: flex; flex-direction: column; gap: 10px; margin-top: 24px; }
+
+  /* Splash */
+  .splash-opts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+    margin-top: 24px;
+  }
+  .splash-opt {
+    padding: 22px 24px;
+    background: white;
+    border: 2px solid var(--gris-mig);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s;
+    text-align: left;
+    font-family: inherit;
+    color: inherit;
+    width: 100%;
+  }
+  .splash-opt:hover { border-color: var(--azul); transform: translateY(-2px); }
+  .splash-opt-title { font-size: 1.1rem; font-weight: 600; color: var(--azul); margin-bottom: 6px; }
+  .splash-opt-desc { font-size: 0.92rem; color: var(--gris-fosc); }
+
+  /* Form */
+  label { display: block; font-weight: 500; margin: 12px 0 6px; font-size: 0.95rem; }
+  select, input[type="text"], textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid var(--gris-mig);
+    border-radius: 6px;
+    font-size: 1rem;
+    font-family: inherit;
+    background: white;
+  }
+  select:focus, input:focus, textarea:focus {
+    outline: none;
+    border-color: var(--azul);
+  }
+  textarea { resize: vertical; min-height: 70px; }
+  small.help { display: block; color: #7a7a7f; font-size: 0.82rem; margin-top: 4px; }
+
+  /* Progress */
+  .progress-wrap {
+    background: var(--gris-mig);
+    border-radius: 4px;
+    height: 8px;
+    overflow: hidden;
+    margin-bottom: 18px;
+  }
+  .progress-bar {
+    background: var(--azul);
+    height: 100%;
+    transition: width 0.3s;
+  }
+  .progress-label {
+    font-size: 0.85rem;
+    color: #7a7a7f;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Escenari */
+  .scenari-bloc {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--azul-clar);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+  .scenari-titol { color: var(--azul); font-size: 1.2rem; margin-bottom: 10px; font-weight: 600; }
+  .scenari-text { font-size: 1rem; margin-bottom: 22px; line-height: 1.6; }
+
+  .opt-list { list-style: none; padding: 0; }
+  .opt-item {
+    background: white;
+    border: 2px solid var(--gris-mig);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 0.96rem;
+    line-height: 1.55;
+  }
+  .opt-item:hover { border-color: var(--azul-clar); background: #fafbfd; }
+  .opt-item.selected { border-color: var(--azul); background: #eef3fa; }
+  .opt-item.dubte { background: #fffbef; }
+  .opt-item.dubte:hover { background: #fff7e0; }
+  .opt-item.dubte.selected { border-color: var(--groc); background: #fff5d8; }
+  .opt-letter { font-weight: 700; color: var(--azul); margin-right: 8px; }
+  .opt-item.dubte .opt-letter { color: var(--groc); }
+
+  .dubte-detall {
+    background: #fffbef;
+    border: 1.5px solid var(--groc);
+    border-radius: 8px;
+    padding: 16px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+  }
+  .dubte-detall.hidden { display: none; }
+  .dubte-radios { display: flex; flex-direction: column; gap: 8px; margin-top: 8px; }
+  .dubte-radio { display: flex; gap: 8px; align-items: flex-start; cursor: pointer; }
+  .dubte-radio input { margin-top: 4px; }
+  .e1-opcions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 6px; padding-left: 24px; }
+  .e1-opcions label { display: flex; align-items: center; gap: 4px; font-weight: normal; margin: 0; }
+
+  /* Resultats */
+  .perfil-card {
+    background: linear-gradient(135deg, var(--azul) 0%, var(--azul-clar) 100%);
+    color: white;
+    padding: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .perfil-card h3 { color: white; margin-top: 0; font-size: 0.85rem; text-transform: uppercase; opacity: 0.85; letter-spacing: 0.05em; }
+  .perfil-card .perfil-nom { font-size: 1.8rem; font-weight: 700; margin: 6px 0 8px; }
+  .perfil-card .perfil-desc { font-size: 0.95rem; opacity: 0.95; }
+  .perfil-card .perfil-risc { font-size: 0.88rem; opacity: 0.85; margin-top: 10px; padding-top: 10px; border-top: 1px solid rgba(255,255,255,0.25); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 18px;
+    font-size: 0.92rem;
+  }
+  th, td {
+    padding: 8px 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--gris-mig);
+  }
+  th { background: var(--gris); font-weight: 600; color: var(--azul); }
+  td.num, th.num { text-align: center; font-variant-numeric: tabular-nums; }
+  tr.total td { font-weight: 600; background: #fafbfd; }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    gap: 10px;
+    margin: 14px 0 22px;
+  }
+  .stat-box {
+    background: white;
+    border: 1.5px solid var(--gris-mig);
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+  }
+  .stat-box.A { border-color: #5a9fd4; }
+  .stat-box.B { border-color: #6cba8b; }
+  .stat-box.C { border-color: #d4a85a; }
+  .stat-box.D { border-color: #a87bba; }
+  .stat-box.E { border-color: var(--groc); }
+  .stat-num { font-size: 1.6rem; font-weight: 700; color: var(--azul); display: block; }
+  .stat-lbl { font-size: 0.75rem; color: #7a7a7f; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .alert {
+    background: #fff8e0;
+    border-left: 4px solid var(--groc);
+    padding: 14px 18px;
+    border-radius: 4px;
+    margin: 16px 0;
+    font-size: 0.92rem;
+  }
+  .alert.info {
+    background: #e8f1fc;
+    border-color: var(--azul-clar);
+  }
+  .alert.success {
+    background: #e6f4eb;
+    border-color: var(--verd);
+  }
+
+  /* File upload */
+  .upload-area {
+    border: 2px dashed var(--gris-mig);
+    border-radius: 10px;
+    padding: 34px 22px;
+    text-align: center;
+    background: white;
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .upload-area:hover, .upload-area.dragover {
+    border-color: var(--azul);
+    background: #f4f8fd;
+  }
+  .upload-area p { margin: 0; color: #7a7a7f; }
+  .upload-area .icon { font-size: 2.2rem; opacity: 0.5; margin-bottom: 6px; }
+  #file-input { display: none; }
+
+  .file-list { margin-top: 14px; }
+  .file-list-item {
+    background: #f4f8fd;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-bottom: 6px;
+    font-size: 0.88rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Agregador */
+  .agg-section { margin-bottom: 28px; }
+  .agg-section h3 { border-bottom: 1.5px solid var(--gris-mig); padding-bottom: 6px; }
+  .barcell {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .barcell-bar {
+    height: 14px;
+    background: var(--azul-clar);
+    border-radius: 2px;
+    min-width: 2px;
+  }
+  .barcell.A .barcell-bar { background: #5a9fd4; }
+  .barcell.B .barcell-bar { background: #6cba8b; }
+  .barcell.C .barcell-bar { background: #d4a85a; }
+  .barcell.D .barcell-bar { background: #a87bba; }
+  .barcell.E .barcell-bar { background: var(--groc); }
+  .barcell-val { font-size: 0.82rem; color: #7a7a7f; min-width: 36px; }
+
+  .hidden { display: none !important; }
+
+  footer.peu {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #7a7a7f;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid var(--gris-mig);
+  }
+  footer.peu a { color: var(--azul); }
+</style>
+</head>
+<body>
+
+<header class="brand">
+  <div class="wrap" style="padding: 0;">
+    <h1>Qüestionari interioritat – espiritualitat</h1>
+    <p>Pedagogia de la dimensió interior · Jesuïtes Educació</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- PANTALLA 1: SPLASH -->
+  <section id="screen-splash" class="card">
+    <h2>Què vols fer?</h2>
+    <p class="lead">Aquesta eina serveix per detectar la <strong>posició conceptual</strong> subjacent a les decisions pedagògiques quotidianes sobre interioritat i espiritualitat. No té respostes correctes; revela quina opció implícita guia la teva pràctica.</p>
+
+    <div class="splash-opts">
+      <button class="splash-opt" data-mode="participant">
+        <div class="splash-opt-title">📝 Fer el qüestionari</div>
+        <div class="splash-opt-desc">20 escenaris reals · 15–20 min · Al final obtens el teu perfil i un fitxer per enviar de manera anònima.</div>
+      </button>
+      <button class="splash-opt" data-mode="agregador">
+        <div class="splash-opt-title">📊 Agregar respostes (admin)</div>
+        <div class="splash-opt-desc">Carrega múltiples fitxers de resposta i obté la radiografia institucional: distribució, dominants, dubtes.</div>
+      </button>
+      <button class="splash-opt" data-mode="info">
+        <div class="splash-opt-title">ℹ️ Sobre el qüestionari</div>
+        <div class="splash-opt-desc">Què mesura, les 4 opcions teòriques i com fer-lo servir.</div>
+      </button>
+    </div>
+  </section>
+
+  <!-- PANTALLA INFO -->
+  <section id="screen-info" class="card hidden">
+    <h2>Sobre el qüestionari</h2>
+    <p>Aquest qüestionari <strong>inverteix l'ordre</strong> del debat habitual: en lloc de partir del debat teòric (què és interioritat / espiritualitat), parteix de <strong>situacions reals</strong> d'aula, centre i comunicació, i pregunta com les abordaríem. Les respostes mostren la posició conceptual subjacent.</p>
+
+    <h3>Les 4 opcions de fons</h3>
+    <table>
+      <thead><tr><th>Opció</th><th>Posició</th></tr></thead>
+      <tbody>
+        <tr><td><strong>A</strong></td><td>Interioritat ⊂ espiritualitat (la interioritat és pràctica que apunta a l'espiritualitat com a horitzó indispensable).</td></tr>
+        <tr><td><strong>B</strong></td><td>Espiritualitat ⊂ interioritat (la interioritat com a paradigma global amb múltiples dimensions, una de les quals és l'espiritual).</td></tr>
+        <tr><td><strong>C</strong></td><td>Mitjà–fi: interioritat = camí/procés; espiritualitat = horitzó/sentit (formulació canònica FJE més recurrent).</td></tr>
+        <tr><td><strong>D</strong></td><td>Solapament parcial: dues dimensions amb zona comuna i àmbit propi.</td></tr>
+        <tr><td><strong>E</strong></td><td><em>Dubte</em>: tan informatiu com una resposta clara. Es classifica en 4 subtipus (E1–E4).</td></tr>
+      </tbody>
+    </table>
+
+    <h3>Com es respon</h3>
+    <ul style="padding-left: 22px; margin-bottom: 18px;">
+      <li>L'<strong>ordre de les respostes A/B/C/D s'aleatoritza</strong> a cada escenari per evitar biaix d'ordre.</li>
+      <li>L'opció <strong>E (dubte)</strong> sempre és l'última, amb 4 subtipus.</li>
+      <li>Si dubtes entre 2 o més opcions concretes (E1), pots indicar quines.</li>
+      <li>Si tens una alternativa pròpia (E2), pots escriure-la.</li>
+    </ul>
+
+    <h3>Anonimat</h3>
+    <p>Aquesta aplicació <strong>no envia res a cap servidor</strong>. Al final, el participant pot <strong>descarregar un fitxer JSON</strong> amb les seves respostes (sense nom ni email) i enviar-lo a la persona responsable. L'administrador agrega tots els JSON localment amb el mode «Agregar respostes».</p>
+
+    <div class="btn-row">
+      <button class="btn" onclick="show('splash')">← Tornar</button>
+    </div>
+  </section>
+
+  <!-- PANTALLA METADADES -->
+  <section id="screen-meta" class="card hidden">
+    <h2>Abans de començar</h2>
+    <p class="lead">Aquestes dades són <strong>opcionals i anònimes</strong>. Serveixen per desagregar resultats (per rol, etapa) durant l'agregació institucional. No es demana nom ni email.</p>
+
+    <label for="meta-rol">Rol al centre <small class="help">(opcional)</small></label>
+    <select id="meta-rol">
+      <option value="">— No especifico —</option>
+      <option value="docent">Docent</option>
+      <option value="tutor">Tutor/a</option>
+      <option value="cap_pastoral">Equip pastoral</option>
+      <option value="direccio">Equip directiu</option>
+      <option value="orientacio">Orientació psicopedagògica</option>
+      <option value="pas">PAS / administració</option>
+      <option value="familia">Família</option>
+      <option value="alumne">Alumnat</option>
+      <option value="extern">Consultor extern</option>
+      <option value="altres">Altres</option>
+    </select>
+
+    <label for="meta-etapa">Etapa principal <small class="help">(opcional)</small></label>
+    <select id="meta-etapa">
+      <option value="">— No especifico —</option>
+      <option value="infantil">Infantil</option>
+      <option value="primaria">Primària</option>
+      <option value="eso">ESO</option>
+      <option value="batxillerat">Batxillerat</option>
+      <option value="fp">FP</option>
+      <option value="transversal">Transversal / tots els nivells</option>
+    </select>
+
+    <label for="meta-centre">Centre o àmbit <small class="help">(opcional, text lliure — anonimitza si vols)</small></label>
+    <input type="text" id="meta-centre" maxlength="80" placeholder="Ex.: Sant Ignasi Sarrià, FJE serveis centrals, anònim...">
+
+    <label for="meta-anys">Anys d'experiència a FJE <small class="help">(opcional)</small></label>
+    <select id="meta-anys">
+      <option value="">— No especifico —</option>
+      <option value="0">Menys d'1 any</option>
+      <option value="1-3">1–3 anys</option>
+      <option value="4-10">4–10 anys</option>
+      <option value="11-20">11–20 anys</option>
+      <option value="20+">Més de 20 anys</option>
+    </select>
+
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="show('splash')">← Tornar</button>
+      <button class="btn" onclick="startQuestionari()">Començar →</button>
+    </div>
+  </section>
+
+  <!-- PANTALLA ESCENARI -->
+  <section id="screen-escenari" class="card hidden">
+    <div class="progress-label">
+      <span id="progress-text">Escenari 1 de 20</span>
+      <span id="progress-bloc"></span>
+    </div>
+    <div class="progress-wrap"><div class="progress-bar" id="progress-bar" style="width: 5%;"></div></div>
+
+    <div class="scenari-bloc" id="escenari-bloc"></div>
+    <h2 class="scenari-titol" id="escenari-titol"></h2>
+    <p class="scenari-text" id="escenari-text"></p>
+
+    <ul class="opt-list" id="opt-list"></ul>
+
+    <button class="opt-item dubte" id="opt-dubte" onclick="toggleDubte()">
+      <span class="opt-letter">E.</span> <strong>No estic segur / dubto</strong> — el dubte és tan informatiu com una resposta clara.
+    </button>
+
+    <div class="dubte-detall hidden" id="dubte-detall">
+      <strong>Quin tipus de dubte?</strong>
+      <div class="dubte-radios">
+        <label class="dubte-radio">
+          <input type="radio" name="dubte-tipus" value="E1">
+          <span><strong>E1</strong> — Dubto entre 2 o més opcions concretes.</span>
+        </label>
+        <div class="e1-opcions" id="e1-opcions">
+          <label><input type="checkbox" data-e1="A"> Opció 1</label>
+          <label><input type="checkbox" data-e1="B"> Opció 2</label>
+          <label><input type="checkbox" data-e1="C"> Opció 3</label>
+          <label><input type="checkbox" data-e1="D"> Opció 4</label>
+        </div>
+        <label class="dubte-radio">
+          <input type="radio" name="dubte-tipus" value="E2">
+          <span><strong>E2</strong> — No m'identifico amb cap. Tinc una alternativa pròpia.</span>
+        </label>
+        <textarea id="e2-text" placeholder="Descriu breument la teva alternativa (opcional)" style="margin-left: 24px; width: calc(100% - 24px);"></textarea>
+        <label class="dubte-radio">
+          <input type="radio" name="dubte-tipus" value="E3">
+          <span><strong>E3</strong> — No entenc bé la diferència entre les opcions. Em cal més context.</span>
+        </label>
+        <label class="dubte-radio">
+          <input type="radio" name="dubte-tipus" value="E4">
+          <span><strong>E4</strong> — No tinc opinió formada. No sé què faria.</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <button class="btn btn-secondary" id="btn-prev" onclick="prevEscenari()">← Anterior</button>
+      <button class="btn" id="btn-next" onclick="nextEscenari()" disabled>Següent →</button>
+    </div>
+  </section>
+
+  <!-- PANTALLA RESULTATS -->
+  <section id="screen-resultats" class="card hidden">
+    <h2>El teu perfil</h2>
+
+    <div class="perfil-card">
+      <h3>Perfil dominant</h3>
+      <div class="perfil-nom" id="perfil-nom">—</div>
+      <div class="perfil-desc" id="perfil-desc"></div>
+      <div class="perfil-risc" id="perfil-risc"></div>
+    </div>
+
+    <h3>Distribució de les teves respostes</h3>
+    <div class="stats-grid" id="stats-grid"></div>
+
+    <h3>Per blocs</h3>
+    <table>
+      <thead>
+        <tr><th>Bloc</th><th class="num">A</th><th class="num">B</th><th class="num">C</th><th class="num">D</th><th class="num">E</th><th class="num">Total</th></tr>
+      </thead>
+      <tbody id="taula-blocs"></tbody>
+    </table>
+
+    <div id="dubte-resum" class="hidden">
+      <h3>Tipus de dubte</h3>
+      <table>
+        <thead><tr><th>Tipus</th><th class="num">Quantitat</th></tr></thead>
+        <tbody id="taula-dubte"></tbody>
+      </table>
+    </div>
+
+    <div class="alert info">
+      <strong>Vols contribuir a la radiografia institucional?</strong><br>
+      Descarrega aquest fitxer JSON (totalment anònim — no conté nom, email ni IP) i envia'l per correu a la persona que coordina la consulta. L'administrador agregarà tots els fitxers per veure el patró del claustre.
+    </div>
+
+    <div class="btn-row">
+      <button class="btn" onclick="exportarResposta()">⬇ Descarregar les meves respostes (JSON)</button>
+      <button class="btn btn-secondary" onclick="show('splash')">Tornar a l'inici</button>
+    </div>
+
+    <details style="margin-top: 18px;">
+      <summary style="cursor: pointer; color: var(--azul-clar); font-weight: 500;">Veure el detall de les meves respostes</summary>
+      <div id="detall-respostes" style="margin-top: 12px;"></div>
+    </details>
+  </section>
+
+  <!-- PANTALLA AGREGADOR -->
+  <section id="screen-agregador" class="card hidden">
+    <h2>Agregar respostes</h2>
+    <p class="lead">Carrega els fitxers JSON dels participants per obtenir la radiografia agregada del claustre o equip. Tot es processa localment al navegador — res s'envia a cap servidor.</p>
+
+    <div class="upload-area" id="upload-area" onclick="document.getElementById('file-input').click()">
+      <div class="icon">📁</div>
+      <p><strong>Clica aquí o arrossega els fitxers JSON</strong></p>
+      <p style="font-size: 0.85rem; margin-top: 4px;">Pots seleccionar-ne diversos alhora</p>
+    </div>
+    <input type="file" id="file-input" multiple accept=".json,application/json">
+
+    <div class="file-list" id="file-list"></div>
+
+    <div class="btn-row">
+      <button class="btn btn-secondary" onclick="show('splash')">← Tornar</button>
+      <button class="btn" id="btn-procesar" onclick="procesarAgregat()" disabled>Processar →</button>
+    </div>
+
+    <div id="agregat-resultats" class="hidden" style="margin-top: 28px;"></div>
+  </section>
+
+</main>
+
+<footer class="peu">
+  <p>Eina FJE · corpusFJE/docs/ · Versió 1.0 (2026-05-31)<br>
+  Document complementari: <code>questionari-interioritat-espiritualitat-2026-05-31.md</code></p>
+</footer>
+
+<script>
+// ============================================================
+// DADES — 20 ESCENARIS
+// L'ordre dins "opcions" és A, B, C, D (clau). L'app barreja
+// l'ordre de visualització però manté la clau internament.
+// ============================================================
+
+const ESCENARIS = [
+  // BLOC A — Alumnat
+  {
+    id: "A1", bloc: "A", blocNom: "Alumnat",
+    titol: "Alumna agnòstica davant l'examen del dia",
+    text: "La Júlia, 3r ESO, t'arriba al final de la sessió de tutoria i et diu: «Mira, ja sé que demaneu l'examen del dia. Jo no crec en Déu i em sembla forçat. Puc passar?» Què li dius?",
+    opcions: {
+      A: "«Entenc, però l'examen no t'imposa creure en Déu — és una mirada a la teva pròpia vida que pot obrir-te a preguntes que ara potser no et fas. Et convido a provar-ho amb obertura.»",
+      B: "«L'examen no exigeix cap creença. És un moment per parar i mirar el teu dia. Si no et serveix com a pràctica espiritual, et pot servir com a pràctica de consciència. Tria com el fas tu.»",
+      C: "«L'examen és un moment de pausa i autoconeixement. No has de creure en res. Mira què has viscut, què t'ha mogut, què vols. La resta no és necessari.»",
+      D: "«Tens dues opcions: pots fer la pràctica de silenci i autoreflexió amb la resta sense necessitat de cap referent religiós, o pots no participar dels moments més confessionals (com les celebracions). El que sí et demanem és respecte als companys.»"
+    }
+  },
+  {
+    id: "A2", bloc: "A", blocNom: "Alumnat",
+    titol: "Alumne musulmà i la pràctica religiosa pròpia",
+    text: "El Yusuf, 2n ESO, és musulmà practicant. Demà comença el Ramadà i durant un mes farà dejuni de sol a sol. Té una professora de religió que el cita per parlar-ne. Què li dius?",
+    opcions: {
+      A: "«El Ramadà és una pràctica religiosa que respectem. Aprofita la dimensió espiritual del dejuni per discernir com l'islam ens parla del mateix Déu que nosaltres trobem en l'Evangeli.»",
+      B: "«El Ramadà és una de les teves vies d'interioritat — una pràctica corporal, espiritual i comunitària. Estem aquí per acompanyar el procés des de la nostra tradició, sense forçar-la a la teva.»",
+      C: "«El que importa és que el Ramadà et fa parar i reflexionar — això és el que treballem aquí, encara que arribem per camins diferents. Comparteix amb nosaltres com el vius si vols.»",
+      D: "«Hi ha dimensions del Ramadà que coincideixen amb el que treballem (autoconeixement, comunitat). N'hi ha que són específiques de l'islam i que respectem com a part de la teva identitat. Tens el meu suport en el dejuni i en els ajustos pràctics.»"
+    }
+  },
+  {
+    id: "A3", bloc: "A", blocNom: "Alumnat",
+    titol: "Alumna que vol «només meditació, sense Déu»",
+    text: "L'Anna, 1r BAT, ha vist un vídeo de mindfulness i et diu: «M'agradaria que féssim meditació a la classe. Però sense la part religiosa, només la part de calmar la ment.» Què li respons?",
+    opcions: {
+      A: "«La meditació que fem a FJE no és tècnica per calmar-se. És obertura al silenci interior que ens condueix a Déu. Si vols només la tècnica, hi ha aplicacions seculars per a això.»",
+      B: "«La calma de la ment és una de les portes de la interioritat. Comencem-hi. A FJE acompanyem moltes vies de la dimensió interior, no només l'espiritual. Pots fer aquesta pràctica plenament.»",
+      C: "«La pràctica del silenci té valor per ella mateixa. T'ofereixo aprendre-la. Cada un en treu el que pot — alguns hi troben pau, altres preguntes, altres una obertura espiritual. No es força res.»",
+      D: "«La meditació té dimensions diferents. La part de tècnica de respiració i atenció la podem fer en grup sense referent religiós. La part més contemplativa (vinculada a Déu) la deixem per als qui hi vulguin entrar. Vols treballar la primera?»"
+    }
+  },
+  {
+    id: "A4", bloc: "A", blocNom: "Alumnat",
+    titol: "Família atea preocupada per la dimensió religiosa",
+    text: "Els pares de la Laia, 5è Primària, demanen tutoria amb tu. Et diuen: «Som ateus i ens preocupa que la nostra filla rebi formació religiosa a l'escola. La vam matricular per la qualitat acadèmica, no per la pastoral.» Què els respons?",
+    opcions: {
+      A: "«Som una escola jesuïta. L'educació en la fe és part del nostre projecte — no la podem desactivar només per a la vostra filla. La invitem a participar amb respecte, sense imposar res, però la dimensió religiosa hi és.»",
+      B: "«L'educació FJE té múltiples dimensions: cognitiva, emocional, ètica, social, estètica i també espiritual. La vostra filla rebrà acompanyament en totes — la dimensió espiritual es proposa com a oferta, no com a imposició. La pluralitat de creences és benvinguda.»",
+      C: "«L'educació jesuïta acompanya el creixement integral de la persona. Treballem el silenci, l'autoconeixement, el sentit. La vostra filla farà aquestes pràctiques. Si en algun moment vol parlar de la dimensió espiritual, hi serà — si no, l'acompanyament és el mateix.»",
+      D: "«Tenim activitats que són clarament pedagògiques (que la vostra filla farà) i activitats que són clarament pastorals/religioses (en les quals la vostra filla pot triar el grau de participació). Us expliquem la distinció amb claredat al pla del curs.»"
+    }
+  },
+  {
+    id: "A5", bloc: "A", blocNom: "Alumnat",
+    titol: "Alumne que pregunta «què és el sentit de la vida?»",
+    text: "El Marc, 4t ESO, pregunta a classe d'ètica: «Què és el sentit de la vida?». La professora pot respondre de diverses maneres. Quina prefereixes?",
+    opcions: {
+      A: "«Bona pregunta. El sentit de la vida des de la nostra tradició cristiana és viure en plenitud al servei dels altres i en relació amb Déu. Hi ha altres tradicions amb les seves respostes, però aquesta és la nostra.»",
+      B: "«Hi ha diverses dimensions per buscar-ne resposta: la filosofia, la psicologia, l'art, la religió. Cap n'esgota la pregunta. Què t'està movent a preguntar-ho? Per on t'agradaria començar?»",
+      C: "«Aquesta pregunta és part del camí. No te la puc respondre jo — la teva. Però et puc acompanyar a fer-te-la amb profunditat. Comencem pel que ja saps de tu: què t'omple? què et buida?»",
+      D: "«Aquesta és una pregunta que té dues parts. Una part és la pregunta personal teva — què dóna sentit a la teva vida concreta. L'altra és la pregunta gran — si hi ha un sentit últim. La primera la podem explorar junts; la segona té respostes diverses segons cada tradició.»"
+    }
+  },
+  {
+    id: "A6", bloc: "A", blocNom: "Alumnat",
+    titol: "Alumnat que es burla d'una activitat de silenci",
+    text: "A 1r ESO la professora proposa 3 minuts de silenci abans d'una avaluació. Un grupet d'alumnes fa riures i comentaris («això és cosa de monges»). Què faries?",
+    opcions: {
+      A: "«Atureu-vos un moment. El silenci no és cosa de monges — és el moment d'entrar en contacte amb vosaltres mateixos abans d'una tasca. A FJE creiem que això té molt valor perquè ens prepara per a una vida amb sentit. Provem-ho amb respecte.»",
+      B: "«Entenc que pot semblar estrany al principi. El silenci és una habilitat humana com qualsevol altra. Treballeu-la sense pressuposicions; veureu què us aporta. No cal creure res per fer-ho.»",
+      C: "«El silenci té valor pràctic — millora la concentració, redueix l'estrès, ajuda a posar atenció. No cal cap creença. Proveu i avalueu si us serveix.»",
+      D: "«El silenci té diferents usos. Aquí l'usem com a tècnica de concentració i autoregulació abans d'una avaluació — sense connotacions religioses. En altres moments l'usem amb sentit més espiritual; ho expliquem clarament a l'horari.»"
+    }
+  },
+  {
+    id: "A7", bloc: "A", blocNom: "Alumnat",
+    titol: "Alumna en crisi personal busca acompanyament",
+    text: "La Núria, 3r ESO, perd un familiar pròxim. Plora a la tutoria i et demana: «Pots ajudar-me?» No ha mostrat mai inclinació religiosa. Què fas?",
+    opcions: {
+      A: "«Et puc acompanyar plenament. El dolor és un moment on les preguntes profundes es fan presents — preguntes de sentit, de transcendència. T'ofereixo un espai per parlar-ne, i si vols, podem incloure-hi també la dimensió espiritual.»",
+      B: "«T'acompanyo. Anem a parlar del que sents, sense pressa. Aquest dolor té moltes dimensions — emocional, relacional, potser de sentit. Et seguim el ritme. Si en algun moment vols obrir alguna dimensió més, hi sóc.»",
+      C: "«Sí. Anem a un espai tranquil. T'escolto i et faig companyia. No cal que pensis res ni que treguis conclusions. La presència ja és acompanyament.»",
+      D: "«Tens diverses opcions de suport: et puc acompanyar jo a parlar i a posar paraules al que sents. Et puc derivar a l'orientadora psicològica del centre. I si en algun moment vols parlar de la dimensió espiritual del dol, hi ha la mossèn/pastoral del centre. Tu tries el que necessitis.»"
+    }
+  },
+  {
+    id: "A8", bloc: "A", blocNom: "Alumnat",
+    titol: "Examen ignasià a un grup molt plural",
+    text: "Et plantegen donar classe de «Religió i Vida» a un grup de 4t ESO amb 8 catòlics, 6 agnòstics, 5 musulmans, 3 ateus, 2 budistes i 1 jueu. Vols introduir l'examen del dia com a pràctica regular. Com el planteges?",
+    opcions: {
+      A: "«L'examen ignasià és una pràctica de la nostra tradició cristiana. La proposo amb tots els seus components, explicant què és Déu i la presència que es busca. Cadascú la fa des d'on és — convido a tothom a participar-hi amb respecte.»",
+      B: "«L'examen es pot adaptar a moltes tradicions. Cadascú pot fer-lo des del seu marc: el cristià pensa en Déu, el musulmà en Allah, l'ateu pot pensar simplement en agraïment i propòsit. La pràctica de la pausa és comuna; l'horitzó el posa cadascú.»",
+      C: "«L'examen el faig com a pràctica universal — agraïment, identificació d'emocions, propòsit. No menciono Déu. Cadascú hi posa el seu marc personal, si vol. La meva feina és garantir l'espai i la pràctica.»",
+      D: "«Tenim una sessió on faig la versió laica de l'examen (per a tothom). En una altra sessió faig la versió ignasiana clàssica (per als qui s'hi vulguin engatjar). En tutories individuals adapto a la tradició de cadascú. Així respecto la pluralitat sense diluir la nostra identitat.»"
+    }
+  },
+  // BLOC B — Docents
+  {
+    id: "B1", bloc: "B", blocNom: "Docents",
+    titol: "Docent no creient que vol fer tutoria FJE",
+    text: "Un nou docent et diu: «Vull treballar a FJE, m'agrada el projecte educatiu i la metodologia. Però no sóc creient. Puc ser tutor i acompanyar la dimensió interior dels meus alumnes amb integritat?»",
+    opcions: {
+      A: "«L'acompanyament FJE té una dimensió espiritual que demana una sensibilitat compatible amb la nostra tradició — encara que no calgui ser practicant catòlic. Hauràs de treballar la teva pròpia obertura per poder acompanyar bé.»",
+      B: "«Sí, plenament. La dimensió interior té múltiples vies (cognitiva, emocional, ètica, estètica) i tu pots acompanyar totes les que travessin la teva pròpia experiència. La dimensió espiritual la pots presentar com a oferta — sense forçar-la — i derivar a l'equip pastoral si calgués.»",
+      C: "«L'acompanyament que demanem és principalment d'autoconeixement, presència i discerniment vital. Això pots fer-ho perfectament. La part més espiritual l'integrarà l'equip pastoral del centre.»",
+      D: "«Sí, en el que té de pedagògic i d'acompanyament personal. Per a la part més religiosa-confessional (celebracions, oració, preparació de sagraments) treballa coordinat amb el responsable pastoral del centre. Tens un rol clar i complet.»"
+    }
+  },
+  {
+    id: "B2", bloc: "B", blocNom: "Docents",
+    titol: "Docent que vol introduir mindfulness sense referent ignasià",
+    text: "Un docent et proposa: «He après mindfulness MBSR i m'agradaria fer un curs setmanal als alumnes. Sense cap referent religiós — pura tècnica.»",
+    opcions: {
+      A: "«L'oferta de mindfulness sense referent ignasià pot competir amb la nostra pedagogia identitària. Proposo que t'integris a l'equip pastoral per oferir mindfulness arrelat a la tradició dels Exercicis, no com a tècnica aïllada.»",
+      B: "«El mindfulness és una via vàlida d'interioritat. La pots oferir, especificant que és una pràctica de cultiu de la consciència. La nostra pedagogia inclou aquesta i altres vies — no hi ha conflicte.»",
+      C: "«Tota pràctica de silenci i atenció té valor a FJE. Endavant. L'horitzó (ignasià o no) el posa la persona; tu ofereixes la pràctica.»",
+      D: "«El mindfulness com a tècnica de regulació té un lloc clar (per a concentració, gestió de l'estrès). Diferent és la pràctica de la interioritat profunda que sí té un referent ignasià a FJE. Si ho ofereixes, distingeix-les clarament — el mindfulness no substitueix l'examen ignasià.»"
+    }
+  },
+  {
+    id: "B3", bloc: "B", blocNom: "Docents",
+    titol: "Docent que pregunta sobre evangelitzar amb tacte",
+    text: "Una docent et confia: «Sóc catòlica practicant. Veig alumnes amb molta superficialitat i em pregunto: fins on puc oferir-los la fe? No vull manipular, però sento que el que coneixo els podria ajudar.»",
+    opcions: {
+      A: "«La nostra missió és precisament oferir la fe — sense imposar, però amb claredat. La fe és el que la nostra educació té de més valuós; no podem amagar-la per por de semblar invasius. La forma més neta de fer-ho és pel testimoni de la teva pròpia vida.»",
+      B: "«La fe és una de les dimensions que pots oferir, com a una de les portes que tens com a persona. Però hi ha moltes altres dimensions que pots treballar amb tots: l'autoconeixement, el sentit ètic, la connexió amb l'art, la natura. La fe és per als qui hi tenen sensibilitat.»",
+      C: "«La teva tasca pedagògica és acompanyar el procés interior, no proposar una resposta concreta. Si la fe sorgeix com a pregunta de l'alumnat, hi acompanyes amb la teva experiència. No la proposes proactivament — la respectes quan apareix.»",
+      D: "«Hi ha contextos on pots presentar la fe (catequesi, sessions de pastoral, conversacions personals si l'alumne ho demana). En el context aula curricular t'has de mantenir en el rol pedagògic. Cal saber distingir bé els contextos i no barrejar-los.»"
+    }
+  },
+  {
+    id: "B4", bloc: "B", blocNom: "Docents",
+    titol: "Docent que dubta de proposar examen ignasià a no creients",
+    text: "Una docent et diu: «He llegit sobre l'examen ignasià i m'agradaria proposar-lo. Però tinc alumnes ateus i no sé si forçaria la situació.»",
+    opcions: {
+      A: "«L'examen ignasià té una estructura religiosa (presència de Déu, gratitud a Ell, discerniment de la seva voluntat). Si l'apliques a no creients, l'estaràs desfigurant. Proposa alguna cosa més suau (un moment de reflexió) als no creients.»",
+      B: "«L'examen ignasià té una part universalitzable (consciència del dia, agraïment, identificació de moments) i una part específicament cristiana (la presència de Déu). Pots oferir la part universal per a tothom, i la part més plena per als qui s'hi vulguin engatjar.»",
+      C: "«L'estructura de l'examen (parar, agrair, repassar, projectar) té valor universal. La pots proposar a tothom sense menció a Déu — els qui hi vulguin posar Déu, ja ho faran ells.»",
+      D: "«Hi ha dues versions: l'examen ignasià complet (per a sessions de pastoral o per a qui s'hi engatja) i una versió laica adaptada (per a aula curricular general). Cadascuna té el seu lloc — no les barregis.»"
+    }
+  },
+  // BLOC C — Centre
+  {
+    id: "C1", bloc: "C", blocNom: "Centre",
+    titol: "Política d'acceptació de noves famílies",
+    text: "El centre revisa la política d'acceptació. Una direcció diu: «Hauríem d'admetre amb claredat famílies de qualsevol tradició religiosa o sense, mentre acceptin el caràcter propi de l'escola. Però què vol dir exactament 'acceptar el caràcter propi'?» La teva proposta de formulació:",
+    opcions: {
+      A: "«Acceptar que som una escola catòlica de tradició ignasiana, que oferim educació en la fe, i que la dimensió religiosa és part del nostre projecte — no opcional. La família pot no compartir la fe però ha d'acceptar que els seus fills hi tinguin contacte.»",
+      B: "«Acceptar que la nostra pedagogia inclou una dimensió interior amb arrelament ignasià-cristià que es proposa com a possibilitat, no com a imposició. La família pot no compartir res però ha de respectar el marc.»",
+      C: "«Acceptar que treballem la dimensió interior de la persona (silenci, autoconeixement, sentit, ètica) amb una metodologia ignasiana. La família pot no compartir el rerefons religiós però sí ha de valorar el procés pedagògic.»",
+      D: "«Acceptar el calendari del centre (incloent celebracions religioses optatives), la presència de símbols catòlics i el caràcter pastoral d'alguns moments específics. Per a la resta, l'educació és comuna i acadèmicament rigorosa, independent de la creença.»"
+    }
+  },
+  {
+    id: "C2", bloc: "C", blocNom: "Centre",
+    titol: "Adopció d'un programa secular d'educació socioemocional",
+    text: "L'equip pedagògic considera adoptar el programa CASEL o SEE Learning per a l'educació socioemocional. Què en penses?",
+    opcions: {
+      A: "«CASEL i SEE Learning són programes seculars que podrien substituir la nostra pràctica espiritual amb una versió descafeïnada. No els adoptaria — la nostra tradició ja inclou aquestes competències amb més profunditat (les 4 Cs).»",
+      B: "«Podem adoptar-los com a complementaris. La interioritat FJE inclou les competències socioemocionals i molt més. CASEL/SEE Learning poden enriquir la nostra pràctica en algunes dimensions sense substituir el conjunt.»",
+      C: "«Aquests programes són tècniques de treball que podem incorporar. Les treballem amb la nostra perspectiva pedagògica de fons (PPI, autoconeixement, discerniment), però ens estalvien reinventar la roda en dimensions tècniques.»",
+      D: "«Cada programa té el seu àmbit. CASEL/SEE Learning per a l'educació socioemocional pràctica (regulació, relacions); la nostra pràctica ignasiana per a la dimensió més profunda de sentit i compromís. Coexisteixen amb fronteres clares.»"
+    }
+  },
+  {
+    id: "C3", bloc: "C", blocNom: "Centre",
+    titol: "Política d'oració matinal o examen del dia",
+    text: "El centre planteja institucionalitzar 5 minuts de pràctica interior a l'inici de cada dia per a tots els alumnes. Quina formulació proposa?",
+    opcions: {
+      A: "«Cinc minuts d'oració matinal — un moment de pregar pel dia que comencem, conscients de la presència de Déu. Per als no creients pot ser un moment de silenci respectuós.»",
+      B: "«Cinc minuts de moment d'interioritat — silenci, intenció del dia, agraïment. La forma concreta (espiritual o no) la decideix cada alumne segons la seva tradició.»",
+      C: "«Cinc minuts de pausa atenta — silenci i posar atenció. Comencem el dia amb consciència. Sense formulació religiosa específica.»",
+      D: "«Dues opcions paral·leles: 5 minuts a la capella amb pregària (per als qui ho vulguin); 5 minuts a l'aula amb pràctica de silenci/atenció (per a tothom). Cada alumne tria al matí on va.»"
+    }
+  },
+  {
+    id: "C4", bloc: "C", blocNom: "Centre",
+    titol: "Celebracions cristianes al centre",
+    text: "S'apropa Nadal. L'equip directiu pregunta: com les celebrem amb una escola plural?",
+    opcions: {
+      A: "«Celebrem el Nadal cristià amb tots els seus elements — pessebre, missa, cants — perquè això és el que som. Les famílies que es matriculen accepten el caràcter propi. La participació no creient es viu amb respecte.»",
+      B: "«El Nadal a FJE té dues dimensions: la cultural-comunitària (espai compartit per a tothom) i la religiosa-litúrgica (per als qui s'hi vulguin engatjar). Oferim ambdues, distingint-les clarament. La pluralitat és benvinguda.»",
+      C: "«Celebrem els valors del Nadal (esperança, comunitat, llum, donació) com a valors humans universals que la tradició cristiana ha articulat de manera bella. La dimensió religiosa explícita es viu als espais pastorals.»",
+      D: "«Tenim una celebració comunitària oberta a tothom (no confessional explícita: cants, encesa de l'arbre, lectura de textos universals). I una celebració litúrgica voluntària a la capella per a qui s'hi vulgui. Calendari clarament publicat.»"
+    }
+  },
+  {
+    id: "C5", bloc: "C", blocNom: "Centre",
+    titol: "Capella i imatges religioses",
+    text: "L'equip arquitectònic planeja una reforma. Es planteja: hem de mantenir/eliminar/destacar la capella i les imatges religioses a les aules?",
+    opcions: {
+      A: "«Mantenir i destacar. La capella ha de ser un lloc central — espacialment i simbòlicament. Les imatges religioses són testimoni de qui som. Sense això, hauríem deixat de ser una escola jesuïta.»",
+      B: "«Mantenir però amb mesura. La capella com a espai disponible — no central. Les imatges religioses presents però no omnipresents. L'arquitectura ha de comunicar pluralitat i identitat alhora.»",
+      C: "«Crear espais de silenci i contemplació accessibles a tothom — la capella en sigui un, però no l'únic. Les imatges religioses tinguin un lloc digne però no monopolitzin l'espai. Convidar a la interioritat, no imposar la confessió.»",
+      D: "«Distingir espais clarament: capella per a la pastoral i celebracions; sales de silenci/meditació per a la pràctica interior comuna. Les imatges religioses als espais pastorals i d'identitat; espais més neutres a les aules. Cadascú sap on és.»"
+    }
+  },
+  // BLOC D — Comunicació
+  {
+    id: "D1", bloc: "D", blocNom: "Comunicació",
+    titol: "Web del centre — pàgina «Qui som»",
+    text: "Reescriviu la pàgina «Qui som» del web del centre. Quina formulació tries com a frase principal?",
+    opcions: {
+      A: "«Som una escola catòlica de tradició ignasiana. Oferim educació en la fe que forma persones competents, conscients, compassives i compromeses amb el Magis ignasià.»",
+      B: "«Som una escola que cultiva la dimensió interior de cada persona. Des de l'arrelament ignasià-cristià, acompanyem el creixement integral de l'alumnat en pluralitat de creences i sensibilitats.»",
+      C: "«Som una escola que acompanya el creixement de cada persona en profunditat. La nostra pedagogia ignasiana cultiva l'autoconeixement, el discerniment i el compromís amb el bé comú.»",
+      D: "«Som una escola amb projecte educatiu propi i caràcter pastoral. Oferim educació acadèmica d'excel·lència amb una dimensió de creixement personal i espiritual coordinada amb les famílies.»"
+    }
+  },
+  {
+    id: "D2", bloc: "D", blocNom: "Comunicació",
+    titol: "Resposta pública a una crítica «vosaltres adoctrineu»",
+    text: "Un mitjà publica un article crític sobre les escoles concertades religioses: «Adoctrinen els alumnes des de petits». El centre vol respondre. Quina és la frase clau?",
+    opcions: {
+      A: "«Oferim formació en la fe amb claredat i respecte, sense imposar res. Les famílies trien lliurement el nostre projecte coneixent el seu caràcter propi. No és adoctrinament — és educació en la fe consentida.»",
+      B: "«La nostra pedagogia cultiva la dimensió interior i el pensament crític en igual mesura. Acompanyem alumnat de qualsevol creença o sense. L'adoctrinament és precisament el que la nostra metodologia evita.»",
+      C: "«Cultivem l'autoconeixement i el discerniment dels nostres alumnes. La fe és una opció que es respecta; mai s'imposa. Acusar-nos d'adoctrinament és no conèixer la nostra metodologia.»",
+      D: "«Distingim clarament entre la formació acadèmica (rigorosa i científica), la formació personal (oberta) i la pastoral (voluntària). El nostre projecte és transparent i les famílies el coneixen abans de matricular-se.»"
+    }
+  },
+  {
+    id: "D3", bloc: "D", blocNom: "Comunicació",
+    titol: "Conversa amb família musulmana matriculant",
+    text: "Una família musulmana vol matricular el seu fill al centre. La mare et pregunta directament: «Mai farem que el nostre fill participi en pràctiques cristianes. És possible matricular-lo aquí?»",
+    opcions: {
+      A: "«Som una escola jesuïta amb una dimensió cristiana que travessa tot el projecte. Si vostès volen evitar tota dimensió cristiana, no és la millor opció. Hi ha altres escoles amb un caràcter menys explícit que potser els encaixarien millor.»",
+      B: "«Pot matricular el seu fill amb tranquil·litat. Acompanyarem la seva dimensió interior amb respecte total a la seva tradició islàmica. Hi ha activitats cristianes explícites que són opcionals (com la missa); no farem que hi participi en contra de la seva voluntat.»",
+      C: "«El nostre projecte educatiu pedagògic és comú per a tothom — autoconeixement, silenci, ètica, ciutadania. La dimensió religiosa cristiana es viu en espais específics (capella, hora de religió) on poden decidir si el seu fill hi participa o no.»",
+      D: "«Pot matricular el seu fill. Té dret a no participar en les activitats explícitament confessionals (missa, sagraments, classe de religió catòlica). Hi ha alternatives. La resta de l'activitat educativa, comuna a tothom, té un caràcter ignasià de fons que respecten.»"
+    }
+  }
+];
+
+// ============================================================
+// PERFILS — interpretació segons opció predominant
+// ============================================================
+
+const PERFILS = {
+  A: {
+    nom: "Ignasià explícit",
+    desc: "Prioritzes la identitat cristiana i la transmissió de la fe com a missió institucional. L'espiritualitat com a horitzó indispensable.",
+    risc: "Risc: pots semblar excloent o invasiu en contextos plurals."
+  },
+  B: {
+    nom: "Interioritat plural",
+    desc: "Prioritzes el cultiu de la dimensió interior com a paradigma global que inclou l'espiritualitat com a una de les seves dimensions. L'arrelament ignasià és substrat, no obligació.",
+    risc: "Risc: pots diluir la identitat institucional FJE si l'horitzó espiritual mai no s'explicita."
+  },
+  C: {
+    nom: "Ignasià implícit",
+    desc: "Prioritzes el camí (la pràctica de la interioritat) confiant que l'horitzó es viu sense haver d'explicitar-lo. Coherent amb la formulació canònica FJE més recurrent.",
+    risc: "Risc: ambigüitat institucional — la fe pot quedar privada del seu nom."
+  },
+  D: {
+    nom: "Separació funcional",
+    desc: "Distingeixes clarament la pedagogia comuna (per a tothom) de la pastoral confessional (per als qui s'hi vulguin engatjar). Permet pluralitat sense conflicte aparent.",
+    risc: "Risc: pot semblar que es desactiva la dimensió religiosa al pla curricular general."
+  },
+  E: {
+    nom: "Investigador",
+    desc: "Tens consciència de la complexitat i no t'has fixat encara una posició estable. No és una limitació — és una virtut metodològica. El dubte és informació institucional valuosa.",
+    risc: "El que cal: formació explícita, sessions de reflexió institucional o articulació d'una alternativa pròpia."
+  },
+  mixt: {
+    nom: "Pluralista pragmàtic",
+    desc: "Ajustes el criteri a cada situació segons context. És una posició honesta — la realitat és complexa — però pot generar incoherència institucional.",
+    risc: "Risc: el mateix centre projecta missatges diferents segons quin docent o quin moment. Cal aclarir el criteri institucional."
+  }
+};
+
+// ============================================================
+// ESTAT
+// ============================================================
+
+let estat = {
+  metadata: { rol: "", etapa: "", centre: "", anys: "" },
+  respostes: {},      // { "A1": {tipus:"A"}, "A2": {tipus:"E1", e1_opcions:["B","C"]}, ... }
+  ordreVisible: {},   // { "A1": ["C","A","D","B"], ... } — l'ordre en què s'han mostrat les opcions
+  escenariActual: 0
+};
+
+let agregatFiles = [];
+
+// ============================================================
+// NAVEGACIÓ ENTRE PANTALLES
+// ============================================================
+
+const screens = ["splash", "info", "meta", "escenari", "resultats", "agregador"];
+
+function show(s) {
+  screens.forEach(x => {
+    document.getElementById("screen-" + x).classList.toggle("hidden", x !== s);
+  });
+  window.scrollTo(0, 0);
+}
+
+document.querySelectorAll(".splash-opt").forEach(btn => {
+  btn.addEventListener("click", () => {
+    const mode = btn.dataset.mode;
+    if (mode === "participant") show("meta");
+    else if (mode === "agregador") show("agregador");
+    else show("info");
+  });
+});
+
+// ============================================================
+// QÜESTIONARI — INICI
+// ============================================================
+
+function startQuestionari() {
+  estat.metadata.rol = document.getElementById("meta-rol").value;
+  estat.metadata.etapa = document.getElementById("meta-etapa").value;
+  estat.metadata.centre = document.getElementById("meta-centre").value.trim();
+  estat.metadata.anys = document.getElementById("meta-anys").value;
+  estat.escenariActual = 0;
+  estat.respostes = {};
+  estat.ordreVisible = {};
+  show("escenari");
+  renderEscenari();
+}
+
+// ============================================================
+// QÜESTIONARI — RENDER ESCENARI
+// ============================================================
+
+function shuffleArray(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function renderEscenari() {
+  const idx = estat.escenariActual;
+  const esc = ESCENARIS[idx];
+
+  // Progress
+  const pct = ((idx + 1) / ESCENARIS.length) * 100;
+  document.getElementById("progress-bar").style.width = pct + "%";
+  document.getElementById("progress-text").textContent = `Escenari ${idx + 1} de ${ESCENARIS.length}`;
+  document.getElementById("progress-bloc").textContent = `Bloc ${esc.bloc} · ${esc.blocNom}`;
+
+  // Contingut
+  document.getElementById("escenari-bloc").textContent = `Escenari ${esc.id} — ${esc.blocNom}`;
+  document.getElementById("escenari-titol").textContent = esc.titol;
+  document.getElementById("escenari-text").textContent = esc.text;
+
+  // Aleatoritzar ordre — només si encara no s'havia generat per a aquest escenari
+  if (!estat.ordreVisible[esc.id]) {
+    estat.ordreVisible[esc.id] = shuffleArray(["A", "B", "C", "D"]);
+  }
+  const ordre = estat.ordreVisible[esc.id];
+
+  // Render opcions
+  const ul = document.getElementById("opt-list");
+  ul.innerHTML = "";
+  ordre.forEach((claveOriginal, posicio) => {
+    const li = document.createElement("li");
+    li.className = "opt-item";
+    li.dataset.clave = claveOriginal;
+    li.innerHTML = `<span class="opt-letter">${posicio + 1}.</span> ${esc.opcions[claveOriginal]}`;
+    li.addEventListener("click", () => seleccionarOpcio(claveOriginal));
+    ul.appendChild(li);
+  });
+
+  // Reset dubte
+  const dubteDetall = document.getElementById("dubte-detall");
+  dubteDetall.classList.add("hidden");
+  document.getElementById("opt-dubte").classList.remove("selected");
+  document.querySelectorAll('input[name="dubte-tipus"]').forEach(r => r.checked = false);
+  document.querySelectorAll('#e1-opcions input').forEach(c => c.checked = false);
+  document.getElementById("e2-text").value = "";
+
+  // Etiquetar opcions E1 amb les opcions visibles (1, 2, 3, 4 → corresponen a A/B/C/D segons l'ordre aleatori)
+  const e1Labels = document.querySelectorAll('#e1-opcions label');
+  ordre.forEach((claveOriginal, posicio) => {
+    const lbl = e1Labels[posicio];
+    if (lbl) {
+      lbl.innerHTML = `<input type="checkbox" data-e1="${claveOriginal}"> Opció ${posicio + 1}`;
+    }
+  });
+
+  // Si ja hi havia resposta prèvia, marcar-la
+  const respPrev = estat.respostes[esc.id];
+  if (respPrev) {
+    if (["A", "B", "C", "D"].includes(respPrev.tipus)) {
+      const item = ul.querySelector(`[data-clave="${respPrev.tipus}"]`);
+      if (item) item.classList.add("selected");
+    } else if (respPrev.tipus && respPrev.tipus.startsWith("E")) {
+      document.getElementById("opt-dubte").classList.add("selected");
+      dubteDetall.classList.remove("hidden");
+      const radio = document.querySelector(`input[name="dubte-tipus"][value="${respPrev.tipus}"]`);
+      if (radio) radio.checked = true;
+      if (respPrev.tipus === "E1" && respPrev.e1_opcions) {
+        respPrev.e1_opcions.forEach(c => {
+          const cb = document.querySelector(`#e1-opcions input[data-e1="${c}"]`);
+          if (cb) cb.checked = true;
+        });
+      }
+      if (respPrev.tipus === "E2" && respPrev.e2_text) {
+        document.getElementById("e2-text").value = respPrev.e2_text;
+      }
+    }
+  }
+
+  // Botons navegació
+  document.getElementById("btn-prev").disabled = (idx === 0);
+  document.getElementById("btn-next").disabled = !estat.respostes[esc.id];
+  document.getElementById("btn-next").textContent = (idx === ESCENARIS.length - 1) ? "Veure resultats →" : "Següent →";
+}
+
+function seleccionarOpcio(clave) {
+  const esc = ESCENARIS[estat.escenariActual];
+  estat.respostes[esc.id] = { tipus: clave };
+  document.querySelectorAll("#opt-list .opt-item").forEach(li => {
+    li.classList.toggle("selected", li.dataset.clave === clave);
+  });
+  document.getElementById("opt-dubte").classList.remove("selected");
+  document.getElementById("dubte-detall").classList.add("hidden");
+  document.getElementById("btn-next").disabled = false;
+}
+
+function toggleDubte() {
+  const esc = ESCENARIS[estat.escenariActual];
+  const dubteDetall = document.getElementById("dubte-detall");
+  const dubteBtn = document.getElementById("opt-dubte");
+  // Desselecciona opcions normals
+  document.querySelectorAll("#opt-list .opt-item").forEach(li => li.classList.remove("selected"));
+  dubteBtn.classList.add("selected");
+  dubteDetall.classList.remove("hidden");
+  // No marcar resposta encara — esperem que triin tipus E
+}
+
+// Listeners dubte
+document.querySelectorAll('input[name="dubte-tipus"]').forEach(radio => {
+  radio.addEventListener("change", () => {
+    if (radio.checked) {
+      const esc = ESCENARIS[estat.escenariActual];
+      const tipus = radio.value;
+      estat.respostes[esc.id] = { tipus };
+      if (tipus === "E1") {
+        const seleccionats = Array.from(document.querySelectorAll('#e1-opcions input:checked')).map(c => c.dataset.e1);
+        estat.respostes[esc.id].e1_opcions = seleccionats;
+      }
+      if (tipus === "E2") {
+        estat.respostes[esc.id].e2_text = document.getElementById("e2-text").value.trim();
+      }
+      document.getElementById("btn-next").disabled = false;
+    }
+  });
+});
+
+// Delegació: els checkboxes E1 es regeneren a cada escenari, per això un listener al contenidor
+document.getElementById("e1-opcions").addEventListener("change", (e) => {
+  if (e.target.matches('input[type="checkbox"]')) {
+    const esc = ESCENARIS[estat.escenariActual];
+    if (estat.respostes[esc.id] && estat.respostes[esc.id].tipus === "E1") {
+      const seleccionats = Array.from(document.querySelectorAll('#e1-opcions input:checked')).map(c => c.dataset.e1);
+      estat.respostes[esc.id].e1_opcions = seleccionats;
+    }
+  }
+});
+
+document.getElementById("e2-text").addEventListener("input", () => {
+  const esc = ESCENARIS[estat.escenariActual];
+  if (estat.respostes[esc.id] && estat.respostes[esc.id].tipus === "E2") {
+    estat.respostes[esc.id].e2_text = document.getElementById("e2-text").value.trim();
+  }
+});
+
+function nextEscenari() {
+  if (estat.escenariActual < ESCENARIS.length - 1) {
+    estat.escenariActual++;
+    renderEscenari();
+  } else {
+    mostrarResultats();
+  }
+}
+
+function prevEscenari() {
+  if (estat.escenariActual > 0) {
+    estat.escenariActual--;
+    renderEscenari();
+  }
+}
+
+// ============================================================
+// RESULTATS
+// ============================================================
+
+function calcularPerfil(respostes) {
+  const recompte = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+  const dubteTipus = { E1: 0, E2: 0, E3: 0, E4: 0 };
+  Object.values(respostes).forEach(r => {
+    if (["A", "B", "C", "D"].includes(r.tipus)) {
+      recompte[r.tipus]++;
+    } else if (r.tipus && r.tipus.startsWith("E")) {
+      recompte.E++;
+      dubteTipus[r.tipus] = (dubteTipus[r.tipus] || 0) + 1;
+    }
+  });
+  // Dominant
+  const max = Math.max(recompte.A, recompte.B, recompte.C, recompte.D);
+  let dominant = "mixt";
+  const total = ESCENARIS.length;
+  if (recompte.E >= 6) dominant = "E";
+  else if (max >= 10) {
+    if (recompte.A === max) dominant = "A";
+    else if (recompte.B === max) dominant = "B";
+    else if (recompte.C === max) dominant = "C";
+    else if (recompte.D === max) dominant = "D";
+  }
+  return { recompte, dubteTipus, dominant };
+}
+
+function recomptePerBloc(respostes) {
+  const blocs = { A: {A:0,B:0,C:0,D:0,E:0}, B: {A:0,B:0,C:0,D:0,E:0}, C: {A:0,B:0,C:0,D:0,E:0}, D: {A:0,B:0,C:0,D:0,E:0} };
+  ESCENARIS.forEach(esc => {
+    const r = respostes[esc.id];
+    if (!r) return;
+    if (["A","B","C","D"].includes(r.tipus)) {
+      blocs[esc.bloc][r.tipus]++;
+    } else if (r.tipus && r.tipus.startsWith("E")) {
+      blocs[esc.bloc].E++;
+    }
+  });
+  return blocs;
+}
+
+function mostrarResultats() {
+  const { recompte, dubteTipus, dominant } = calcularPerfil(estat.respostes);
+  const perfil = PERFILS[dominant];
+
+  document.getElementById("perfil-nom").textContent = perfil.nom;
+  document.getElementById("perfil-desc").textContent = perfil.desc;
+  document.getElementById("perfil-risc").textContent = perfil.risc;
+
+  // Stats grid
+  const grid = document.getElementById("stats-grid");
+  grid.innerHTML = "";
+  ["A","B","C","D","E"].forEach(k => {
+    const box = document.createElement("div");
+    box.className = `stat-box ${k}`;
+    box.innerHTML = `<span class="stat-num">${recompte[k]}</span><span class="stat-lbl">${k === "E" ? "Dubte" : "Opció " + k}</span>`;
+    grid.appendChild(box);
+  });
+
+  // Per bloc
+  const blocs = recomptePerBloc(estat.respostes);
+  const tBlocs = document.getElementById("taula-blocs");
+  tBlocs.innerHTML = "";
+  const blocNoms = { A: "Alumnat", B: "Docents", C: "Centre", D: "Comunicació" };
+  const totalsPerBloc = { A: 8, B: 4, C: 5, D: 3 };
+  ["A","B","C","D"].forEach(b => {
+    const r = blocs[b];
+    const total = r.A + r.B + r.C + r.D + r.E;
+    tBlocs.innerHTML += `<tr><td>${b} (${blocNoms[b]})</td><td class="num">${r.A}</td><td class="num">${r.B}</td><td class="num">${r.C}</td><td class="num">${r.D}</td><td class="num">${r.E}</td><td class="num">${total}/${totalsPerBloc[b]}</td></tr>`;
+  });
+  tBlocs.innerHTML += `<tr class="total"><td>TOTAL</td><td class="num">${recompte.A}</td><td class="num">${recompte.B}</td><td class="num">${recompte.C}</td><td class="num">${recompte.D}</td><td class="num">${recompte.E}</td><td class="num">20</td></tr>`;
+
+  // Dubte resum
+  if (recompte.E > 0) {
+    document.getElementById("dubte-resum").classList.remove("hidden");
+    const tDubte = document.getElementById("taula-dubte");
+    tDubte.innerHTML = "";
+    const labels = {
+      E1: "E1 — Dubto entre 2 o més opcions",
+      E2: "E2 — No m'identifico amb cap (alternativa pròpia)",
+      E3: "E3 — No entenc bé la diferència",
+      E4: "E4 — No tinc opinió formada"
+    };
+    ["E1","E2","E3","E4"].forEach(k => {
+      if (dubteTipus[k] > 0) {
+        tDubte.innerHTML += `<tr><td>${labels[k]}</td><td class="num">${dubteTipus[k]}</td></tr>`;
+      }
+    });
+  } else {
+    document.getElementById("dubte-resum").classList.add("hidden");
+  }
+
+  // Detall respostes
+  const detall = document.getElementById("detall-respostes");
+  detall.innerHTML = '<table><thead><tr><th>Escenari</th><th>Resposta</th><th>Detall</th></tr></thead><tbody>' +
+    ESCENARIS.map(esc => {
+      const r = estat.respostes[esc.id];
+      if (!r) return `<tr><td>${esc.id}</td><td>—</td><td></td></tr>`;
+      let detall = "";
+      if (r.tipus === "E1" && r.e1_opcions) detall = "entre " + r.e1_opcions.join(", ");
+      if (r.tipus === "E2" && r.e2_text) detall = "alternativa: " + r.e2_text.substring(0, 60);
+      return `<tr><td>${esc.id}</td><td><strong>${r.tipus}</strong></td><td style="font-size: 0.85rem; color: #7a7a7f;">${detall}</td></tr>`;
+    }).join("") + '</tbody></table>';
+
+  show("resultats");
+}
+
+// ============================================================
+// EXPORTAR JSON DE RESPOSTES
+// ============================================================
+
+function exportarResposta() {
+  const { recompte, dubteTipus, dominant } = calcularPerfil(estat.respostes);
+  const blocs = recomptePerBloc(estat.respostes);
+  const sessionId = "p_" + Math.random().toString(36).substring(2, 10) + "_" + Math.floor(performance.now()).toString(36);
+
+  const payload = {
+    version: "1.0",
+    tipus: "resposta_qüestionari_interioritat_espiritualitat",
+    sessionId: sessionId,
+    metadata: estat.metadata,
+    respostes: estat.respostes,
+    perfil: {
+      recompte: recompte,
+      dubteTipus: dubteTipus,
+      dominant: dominant,
+      perBloc: blocs
+    }
+  };
+
+  const json = JSON.stringify(payload, null, 2);
+  const blob = new Blob([json], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = `respostes_${sessionId}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+// ============================================================
+// AGREGADOR
+// ============================================================
+
+const fileInput = document.getElementById("file-input");
+const uploadArea = document.getElementById("upload-area");
+
+fileInput.addEventListener("change", (e) => {
+  handleFiles(e.target.files);
+});
+
+uploadArea.addEventListener("dragover", (e) => {
+  e.preventDefault();
+  uploadArea.classList.add("dragover");
+});
+uploadArea.addEventListener("dragleave", () => uploadArea.classList.remove("dragover"));
+uploadArea.addEventListener("drop", (e) => {
+  e.preventDefault();
+  uploadArea.classList.remove("dragover");
+  handleFiles(e.dataTransfer.files);
+});
+
+function handleFiles(files) {
+  Array.from(files).forEach(f => {
+    if (!f.name.endsWith(".json")) return;
+    const reader = new FileReader();
+    reader.onload = (e) => {
+      try {
+        const data = JSON.parse(e.target.result);
+        if (data.tipus !== "resposta_qüestionari_interioritat_espiritualitat") {
+          alert(`Fitxer "${f.name}" no sembla ser una resposta vàlida d'aquest qüestionari.`);
+          return;
+        }
+        agregatFiles.push({ name: f.name, data });
+        updateFileList();
+      } catch (err) {
+        alert(`Error llegint "${f.name}": ${err.message}`);
+      }
+    };
+    reader.readAsText(f);
+  });
+}
+
+function updateFileList() {
+  const list = document.getElementById("file-list");
+  list.innerHTML = "";
+  agregatFiles.forEach((f, i) => {
+    const item = document.createElement("div");
+    item.className = "file-list-item";
+    const meta = f.data.metadata || {};
+    const metaStr = [meta.rol, meta.etapa, meta.centre].filter(Boolean).join(" · ") || "(sense metadades)";
+    item.innerHTML = `<span>✓ ${f.name} <small style="opacity: 0.7;">${metaStr}</small></span> <button onclick="removeFile(${i})" style="background:none;border:none;color:var(--vermell);cursor:pointer;">✕</button>`;
+    list.appendChild(item);
+  });
+  document.getElementById("btn-procesar").disabled = agregatFiles.length === 0;
+}
+
+function removeFile(i) {
+  agregatFiles.splice(i, 1);
+  updateFileList();
+}
+
+function procesarAgregat() {
+  const n = agregatFiles.length;
+  if (n === 0) return;
+
+  // Agregació
+  const totals = { A: 0, B: 0, C: 0, D: 0, E: 0 };
+  const dubteTotals = { E1: 0, E2: 0, E3: 0, E4: 0 };
+  const perEscenari = {}; // { "A1": {A:0, B:0, ...}, ... }
+  const perBloc = { A: {A:0,B:0,C:0,D:0,E:0}, B: {A:0,B:0,C:0,D:0,E:0}, C: {A:0,B:0,C:0,D:0,E:0}, D: {A:0,B:0,C:0,D:0,E:0} };
+  const dominants = { A: 0, B: 0, C: 0, D: 0, E: 0, mixt: 0 };
+  const perRol = {};
+  const perEtapa = {};
+  const e2Alternatives = []; // recollir alternatives lliures
+
+  ESCENARIS.forEach(esc => {
+    perEscenari[esc.id] = { A: 0, B: 0, C: 0, D: 0, E: 0, total: 0, titol: esc.titol, bloc: esc.bloc };
+  });
+
+  agregatFiles.forEach(f => {
+    const d = f.data;
+    // Recompte global
+    if (d.perfil && d.perfil.recompte) {
+      ["A","B","C","D","E"].forEach(k => totals[k] += (d.perfil.recompte[k] || 0));
+    }
+    if (d.perfil && d.perfil.dubteTipus) {
+      ["E1","E2","E3","E4"].forEach(k => dubteTotals[k] += (d.perfil.dubteTipus[k] || 0));
+    }
+    // Per escenari
+    if (d.respostes) {
+      Object.entries(d.respostes).forEach(([escId, r]) => {
+        if (!perEscenari[escId]) return;
+        if (["A","B","C","D"].includes(r.tipus)) {
+          perEscenari[escId][r.tipus]++;
+        } else if (r.tipus && r.tipus.startsWith("E")) {
+          perEscenari[escId].E++;
+        }
+        perEscenari[escId].total++;
+        // Per bloc
+        const esc = ESCENARIS.find(e => e.id === escId);
+        if (esc) {
+          if (["A","B","C","D"].includes(r.tipus)) perBloc[esc.bloc][r.tipus]++;
+          else if (r.tipus && r.tipus.startsWith("E")) perBloc[esc.bloc].E++;
+        }
+        // E2 alternatives
+        if (r.tipus === "E2" && r.e2_text) {
+          e2Alternatives.push({ escenari: escId, text: r.e2_text, rol: (d.metadata && d.metadata.rol) || "—" });
+        }
+      });
+    }
+    // Dominant
+    const dom = d.perfil && d.perfil.dominant;
+    if (dom && dominants[dom] !== undefined) dominants[dom]++;
+    // Desagregació per rol/etapa
+    const rol = d.metadata && d.metadata.rol;
+    const etapa = d.metadata && d.metadata.etapa;
+    if (rol) {
+      if (!perRol[rol]) perRol[rol] = { A:0,B:0,C:0,D:0,E:0, n: 0 };
+      perRol[rol].n++;
+      if (d.perfil && d.perfil.recompte) ["A","B","C","D","E"].forEach(k => perRol[rol][k] += (d.perfil.recompte[k] || 0));
+    }
+    if (etapa) {
+      if (!perEtapa[etapa]) perEtapa[etapa] = { A:0,B:0,C:0,D:0,E:0, n: 0 };
+      perEtapa[etapa].n++;
+      if (d.perfil && d.perfil.recompte) ["A","B","C","D","E"].forEach(k => perEtapa[etapa][k] += (d.perfil.recompte[k] || 0));
+    }
+  });
+
+  renderAgregat(n, totals, dubteTotals, perEscenari, perBloc, dominants, perRol, perEtapa, e2Alternatives);
+}
+
+function barCell(v, max, cls) {
+  const pct = max > 0 ? (v / max) * 100 : 0;
+  return `<div class="barcell ${cls}"><div class="barcell-bar" style="width: ${pct}%;"></div><span class="barcell-val">${v}</span></div>`;
+}
+
+function renderAgregat(n, totals, dubteTotals, perEscenari, perBloc, dominants, perRol, perEtapa, e2Alternatives) {
+  const container = document.getElementById("agregat-resultats");
+  container.classList.remove("hidden");
+
+  const totalRespostes = totals.A + totals.B + totals.C + totals.D + totals.E;
+  const pct = k => totalRespostes > 0 ? Math.round((totals[k] / totalRespostes) * 100) : 0;
+
+  // Dominant del claustre
+  const maxDom = Math.max(...Object.values(dominants));
+  let domClaustre = "mixt";
+  Object.entries(dominants).forEach(([k, v]) => { if (v === maxDom && maxDom > 0) domClaustre = k; });
+  const perfilClaustre = PERFILS[domClaustre];
+
+  let html = `
+    <div class="alert success">
+      <strong>${n} ${n === 1 ? "resposta carregada" : "respostes carregades"}</strong>
+      · ${totalRespostes} respostes individuals processades
+    </div>
+
+    <div class="agg-section">
+      <h3>1. Perfil dominant del claustre</h3>
+      <div class="perfil-card">
+        <h3>Perfil col·lectiu majoritari</h3>
+        <div class="perfil-nom">${perfilClaustre.nom}</div>
+        <div class="perfil-desc">${perfilClaustre.desc}</div>
+        <div class="perfil-risc">${perfilClaustre.risc}</div>
+      </div>
+      <table>
+        <thead><tr><th>Perfil dominant individual</th><th class="num">Persones</th><th class="num">%</th></tr></thead>
+        <tbody>
+  `;
+  ["A","B","C","D","E","mixt"].forEach(k => {
+    if (dominants[k] > 0) {
+      const p = Math.round((dominants[k] / n) * 100);
+      html += `<tr><td>${PERFILS[k].nom}</td><td class="num">${dominants[k]}</td><td class="num">${p}%</td></tr>`;
+    }
+  });
+  html += `</tbody></table></div>`;
+
+  // 2. Distribució global
+  html += `
+    <div class="agg-section">
+      <h3>2. Distribució global de respostes</h3>
+      <div class="stats-grid">
+        <div class="stat-box A"><span class="stat-num">${pct("A")}%</span><span class="stat-lbl">Opció A</span></div>
+        <div class="stat-box B"><span class="stat-num">${pct("B")}%</span><span class="stat-lbl">Opció B</span></div>
+        <div class="stat-box C"><span class="stat-num">${pct("C")}%</span><span class="stat-lbl">Opció C</span></div>
+        <div class="stat-box D"><span class="stat-num">${pct("D")}%</span><span class="stat-lbl">Opció D</span></div>
+        <div class="stat-box E"><span class="stat-num">${pct("E")}%</span><span class="stat-lbl">Dubte</span></div>
+      </div>
+  `;
+
+  // Alerta dubte alt
+  if (pct("E") >= 40) {
+    html += `<div class="alert"><strong>⚠️ Dubte alt (${pct("E")}%)</strong> — segons la interpretació institucional (§7.5 del qüestionari), <strong>no s'hauria de prendre cap decisió sobre la formulació canònica encara</strong>. Cal programar sessions formatives i refer el qüestionari en 3–6 mesos.</div>`;
+  } else if (pct("E") >= 20) {
+    html += `<div class="alert info">Dubte significatiu (${pct("E")}%) — vegeu la interpretació per tipus a §3 per identificar on cal aprofundir.</div>`;
+  }
+  html += `</div>`;
+
+  // 3. Tipus de dubte
+  const totalDubte = dubteTotals.E1 + dubteTotals.E2 + dubteTotals.E3 + dubteTotals.E4;
+  if (totalDubte > 0) {
+    html += `
+      <div class="agg-section">
+        <h3>3. Tipus de dubte (E)</h3>
+        <table>
+          <thead><tr><th>Tipus</th><th>Què revela</th><th class="num">N</th></tr></thead>
+          <tbody>
+            <tr><td><strong>E1</strong></td><td>Dubte madur — entre 2+ opcions properes. Discussió cas a cas.</td><td class="num">${dubteTotals.E1}</td></tr>
+            <tr><td><strong>E2</strong></td><td>Alternativa pròpia — pot enriquir la formulació institucional.</td><td class="num">${dubteTotals.E2}</td></tr>
+            <tr><td><strong>E3</strong></td><td>Falta context teòric — cal formació explícita.</td><td class="num">${dubteTotals.E3}</td></tr>
+            <tr><td><strong>E4</strong></td><td>No tinc opinió formada — tema poc treballat al projecte.</td><td class="num">${dubteTotals.E4}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    `;
+  }
+
+  // 4. Per bloc
+  html += `
+    <div class="agg-section">
+      <h3>4. Distribució per bloc</h3>
+      <table>
+        <thead><tr><th>Bloc</th><th class="num">A</th><th class="num">B</th><th class="num">C</th><th class="num">D</th><th class="num">E</th></tr></thead>
+        <tbody>
+  `;
+  const blocNoms = { A: "Alumnat", B: "Docents", C: "Centre", D: "Comunicació" };
+  ["A","B","C","D"].forEach(b => {
+    const r = perBloc[b];
+    const tot = r.A + r.B + r.C + r.D + r.E;
+    const fmt = k => tot > 0 ? `${r[k]} <small style="color: #7a7a7f;">(${Math.round(r[k]/tot*100)}%)</small>` : "0";
+    html += `<tr><td>${b} — ${blocNoms[b]}</td><td class="num">${fmt("A")}</td><td class="num">${fmt("B")}</td><td class="num">${fmt("C")}</td><td class="num">${fmt("D")}</td><td class="num">${fmt("E")}</td></tr>`;
+  });
+  html += `</tbody></table></div>`;
+
+  // 5. Per escenari (taula amb barres)
+  html += `
+    <div class="agg-section">
+      <h3>5. Distribució per escenari</h3>
+      <p style="font-size: 0.88rem; color: #7a7a7f;">Les opcions amb més % indiquen consens; les distribucions repartides indiquen tensió real.</p>
+      <table>
+        <thead><tr><th>Esc.</th><th>Títol</th><th class="num">A</th><th class="num">B</th><th class="num">C</th><th class="num">D</th><th class="num">E</th></tr></thead>
+        <tbody>
+  `;
+  ESCENARIS.forEach(esc => {
+    const r = perEscenari[esc.id];
+    const max = Math.max(r.A, r.B, r.C, r.D, r.E);
+    html += `<tr>
+      <td><strong>${esc.id}</strong></td>
+      <td style="font-size: 0.88rem;">${esc.titol}</td>
+      <td>${barCell(r.A, max, "A")}</td>
+      <td>${barCell(r.B, max, "B")}</td>
+      <td>${barCell(r.C, max, "C")}</td>
+      <td>${barCell(r.D, max, "D")}</td>
+      <td>${barCell(r.E, max, "E")}</td>
+    </tr>`;
+  });
+  html += `</tbody></table></div>`;
+
+  // 6. Desagregació per rol
+  if (Object.keys(perRol).length > 0) {
+    html += `
+      <div class="agg-section">
+        <h3>6. Distribució per rol</h3>
+        <table>
+          <thead><tr><th>Rol</th><th class="num">N</th><th class="num">A%</th><th class="num">B%</th><th class="num">C%</th><th class="num">D%</th><th class="num">E%</th></tr></thead>
+          <tbody>
+    `;
+    Object.entries(perRol).forEach(([rol, r]) => {
+      const tot = r.A + r.B + r.C + r.D + r.E;
+      const pct = k => tot > 0 ? Math.round(r[k]/tot*100) : 0;
+      html += `<tr><td>${rol}</td><td class="num">${r.n}</td><td class="num">${pct("A")}</td><td class="num">${pct("B")}</td><td class="num">${pct("C")}</td><td class="num">${pct("D")}</td><td class="num">${pct("E")}</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // 7. Desagregació per etapa
+  if (Object.keys(perEtapa).length > 0) {
+    html += `
+      <div class="agg-section">
+        <h3>7. Distribució per etapa</h3>
+        <table>
+          <thead><tr><th>Etapa</th><th class="num">N</th><th class="num">A%</th><th class="num">B%</th><th class="num">C%</th><th class="num">D%</th><th class="num">E%</th></tr></thead>
+          <tbody>
+    `;
+    Object.entries(perEtapa).forEach(([et, r]) => {
+      const tot = r.A + r.B + r.C + r.D + r.E;
+      const pct = k => tot > 0 ? Math.round(r[k]/tot*100) : 0;
+      html += `<tr><td>${et}</td><td class="num">${r.n}</td><td class="num">${pct("A")}</td><td class="num">${pct("B")}</td><td class="num">${pct("C")}</td><td class="num">${pct("D")}</td><td class="num">${pct("E")}</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // 8. Alternatives E2
+  if (e2Alternatives.length > 0) {
+    html += `
+      <div class="agg-section">
+        <h3>8. Alternatives pròpies (E2) — textos lliures</h3>
+        <p style="font-size: 0.88rem; color: #7a7a7f;">Aquestes alternatives poden enriquir la formulació institucional. Reviseu-les amb l'equip directiu i pastoral.</p>
+        <table>
+          <thead><tr><th>Escenari</th><th>Rol</th><th>Alternativa</th></tr></thead>
+          <tbody>
+    `;
+    e2Alternatives.forEach(alt => {
+      html += `<tr><td><strong>${alt.escenari}</strong></td><td>${alt.rol}</td><td style="font-size: 0.9rem;">${escapeHtml(alt.text)}</td></tr>`;
+    });
+    html += `</tbody></table></div>`;
+  }
+
+  // Botó exportar
+  html += `
+    <div class="btn-row">
+      <button class="btn" onclick="exportarAgregatCSV()">⬇ Exportar agregat (CSV)</button>
+      <button class="btn btn-secondary" onclick="exportarAgregatJSON()">⬇ Exportar agregat (JSON)</button>
+    </div>
+  `;
+
+  container.innerHTML = html;
+
+  // Guardar agregat global per a exportació
+  window._agregat = { n, totals, dubteTotals, perEscenari, perBloc, dominants, perRol, perEtapa, e2Alternatives };
+}
+
+function escapeHtml(s) {
+  return s.replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function exportarAgregatCSV() {
+  const a = window._agregat;
+  if (!a) return;
+  const lines = [];
+  lines.push("escenari,titol,bloc,A,B,C,D,E,total");
+  ESCENARIS.forEach(esc => {
+    const r = a.perEscenari[esc.id];
+    lines.push(`${esc.id},"${esc.titol.replace(/"/g, '""')}",${esc.bloc},${r.A},${r.B},${r.C},${r.D},${r.E},${r.total}`);
+  });
+  const blob = new Blob(["﻿" + lines.join("\n")], { type: "text/csv;charset=utf-8" });
+  downloadBlob(blob, "agregat_questionari_interioritat.csv");
+}
+
+function exportarAgregatJSON() {
+  const a = window._agregat;
+  if (!a) return;
+  const blob = new Blob([JSON.stringify(a, null, 2)], { type: "application/json" });
+  downloadBlob(blob, "agregat_questionari_interioritat.json");
+}
+
+function downloadBlob(blob, name) {
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = name;
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(url);
+}
+
+// ============================================================
+// EXPOSE — funcions globals (per als onclick="" inline)
+// ============================================================
+window.show = show;
+window.startQuestionari = startQuestionari;
+window.toggleDubte = toggleDubte;
+window.nextEscenari = nextEscenari;
+window.prevEscenari = prevEscenari;
+window.exportarResposta = exportarResposta;
+window.removeFile = removeFile;
+window.procesarAgregat = procesarAgregat;
+window.exportarAgregatCSV = exportarAgregatCSV;
+window.exportarAgregatJSON = exportarAgregatJSON;
+
+// Inici
+show("splash");
+</script>
+</body>
+</html>
