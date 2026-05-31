@@ -171,9 +171,9 @@ Centra la pràctica educativa en els drets de l'alumne i la corresponsabilitat d
 
 ## 5. Fonts
 
-- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
-- Llei 12/2009, del 10 de juliol, d'educació (LEC). DOGC núm. 5422.
-- Decret 102/2010, de 3 d'agost, d'autonomia dels centres educatius. DOGC núm. 5686.
-- Llei 14/2010, del 27 de maig, dels drets i les oportunitats en la infància i l'adolescència. DOGC núm. 5641.
-- Llei 18/2003, del 4 de juliol, de suport a les famílies. DOGC núm. 3926.
+- Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477. Portal canònic: https://portaldogc.gencat.cat (cercador per número DOGC).
+- Llei 12/2009, del 10 de juliol, d'educació (LEC). DOGC núm. 5422. Portal canònic: https://portaldogc.gencat.cat
+- Decret 102/2010, de 3 d'agost, d'autonomia dels centres educatius. DOGC núm. 5686. Portal canònic: https://portaldogc.gencat.cat
+- Llei 14/2010, del 27 de maig, dels drets i les oportunitats en la infància i l'adolescència. DOGC núm. 5641. Portal canònic: https://portaldogc.gencat.cat
+- Llei 18/2003, del 4 de juliol, de suport a les famílies. DOGC núm. 3926. Portal canònic: https://portaldogc.gencat.cat
 - Convenció de les Nacions Unides sobre els Drets de les Persones amb Discapacitat, de 13 de desembre de 2006. BOE núm. 96, 2008.
