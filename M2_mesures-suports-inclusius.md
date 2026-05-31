@@ -10,6 +10,10 @@ nota_revisio: "Versió DAC (ateneu.xtec.cat_2026-03-17_5): jerarquia universal�
 generat_at: 2026-03-18T17:13:22
 ---
 
+## Abstract
+
+Les Mesures i Suports Inclusius són l'**arquitectura de tres nivells progressius** —universals (per a tothom, base DUA), addicionals (per a circumstàncies singulars sense dictamen) i intensives (per a alumnat amb NESE reconeguda)— establerta pel Decret 150/2017, **no com a circuit administratiu d'etiquetatge** sinó com a sistema d'escalada que activa cada nivell quan l'anterior, aplicat sistemàticament, no garanteix el progrés. Pretén que el centre adapti **el sistema a la diversitat de l'alumnat**, no a la inversa, prevenint barreres des del disseny inicial i intensificant suports només quan és pedagògicament i legalment necessari. Aporta una taula amb destinataris, decisors, articles legals i exemples concrets per cada nivell, articulada amb el DUA com a base de les mesures universals i amb el PI per a les intensives. Idees-força: el DUA és el pilar de les universals; cada nivell només s'activa si l'anterior s'ha aplicat sistemàticament; la documentació de l'escalada és part del rigor inclusiu; l'objectiu és progrés, no etiqueta. NO és un circuit administratiu d'etiquetatge ni una jerarquia rígida.
+
 ## Definició i principis
 El marc de mesures i suports inclusius es fonamenta en la premissa que l'educació ha de ser accessible i significativa per a tot l'alumnat, independentment de les seves característiques individuals. No es tracta d'adaptar l'alumne al sistema, sinó d'adaptar el sistema a la diversitat de l'alumnat. El Decret 150/2017 d'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu estableix tres nivells de mesures i suports, organitzats de menor a major intensitat. Cada nivell s'activa quan l'anterior, aplicat de forma sistemàtica i documentada, no és suficient per garantir el progrés de l'alumne.
 

@@ -12,6 +12,10 @@ generat_at: 2026-05-27
 
 # Seqüència d'aprenentatge FJE (Marc Horitzó+, Orientacions 2024)
 
+## Abstract
+
+La Seqüència d'aprenentatge FJE és el **marc operatiu institucional Horitzó+** (Orientacions 2024) que articula la pràctica didàctica dels projectes FJE-LOMLOE en cinc fases —Repte i comprensió, Planificació, Investigació, Síntesi i difusió, Valoració i transferència—, **no com a esquema metodològic intercanviable** sinó com a desplegament FJE del currículum oficial coherent amb el carisma ignasià. Pretén que el centre operi els projectes amb un ritme compartit que cuidi la connexió personal de l'alumne amb el repte, la planificació explícita, la investigació regulada per espais STOP i de diàleg, la síntesi compartida i la valoració metacognitiva amb transferència. Aporta una rutina per sessió en tres moments (Obertura → Desenvolupament → Tancament), instruments propis (DAP, QTC, Cercles de la comprensió) i una pauta de planificació docent Abans/Durant/Després. Idees-força: cinc fases que cuiden context, compromís i metacognició; planificació com a fase pròpia, no implícita; valoració final com a dispositiu, no tràmit; rutina per sessió amb tres moments sagrats; *non multa sed multum*. NO és una alternativa al currículum LOMLOE ni un protocol opcional.
+
 ## Definició i principis
 
 ### Context: LOMLOE i Horitzó+

@@ -9,6 +9,10 @@ generat_at: 2026-05-16T00:00:00
 nota_revisio: "Taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat."
 ---
 
+## Abstract
+
+Els Instruments de Mediació Pedagògica són les **eines que ajusten el repte al nivell real de l'aprenent** mantenint-lo dins la Zona de Desenvolupament Proper (Vygotsky), **no substituts de la tasca** sinó acompanyants del seu assoliment. Pretén que el docent disposi d'una taxonomia operativa per triar, dissenyar i combinar instruments segons funció pedagògica i no per inèrcia ni per moda, en coherència amb el marc MALL FJE i amb el principi de mediació planificada amb retirada progressiva. Aporta una arquitectura de **sis categories** —bastides (lingüístiques, cognitives, metacognitives), suports DUA, autoregulació, extensió curricular, ajuts i crossa— diferenciades per cinc dimensions (temporalitat, origen, funció, focus, agentivitat), un catàleg complet d'instruments i gradacions per nivell MECR. Idees-força: la mediació és planificada, no improvisada; les bastides són temporals i es retiren; els suports DUA poden ser permanents; *menys és més* (sobre-mediar genera càrrega cognitiva extrínseca). NO és un magatzem de recursos intercanviables ni una recepta de combinacions.
+
 ## Definició i principis
 
 Els **instruments de mediació pedagògica** són les eines que un docent, un sistema o l'alumne mateix posa en joc per ajustar el repte al nivell real de l'aprenent, tot mantenint-lo dins de la **Zona de Desenvolupament Proper (ZDP)** de Vygotsky. No substitueixen la tasca: n'acompanyen l'assoliment.
