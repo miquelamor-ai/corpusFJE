@@ -9,6 +9,10 @@ descripcio: "Cultura vocacional com a ecosistema educatiu: la pregunta 'Per a qu
 generat_at: 2026-03-17T00:00:00
 ---
 
+## Abstract
+
+La cultura vocacional és un **ecosistema educatiu transversal** que fa possible que la pregunta *"Per a qui sóc jo?"* brolli i orienti el projecte vital de cada alumne, **no com a programa pastoral afegit ni com a "cirereta" final** d'un itinerari acadèmic. Pretén transformar l'orientació educativa de *"què faré"* a *"qui estic cridat a ser"* i, finalment, *"per a qui donaria la meva vida"*, entenent la vida com a do rebut que es fa do per als altres. Aporta una arquitectura amb tres nivells de la vocació (antropològic, teològic, ignasià) i quatre eixos formatius que repensen llenguatge i pràctiques de totes les dimensions del centre. Idees-força: la vocació és do rebut i tasca a fer, no autorealització; les virtuts vocacionals es transmeten per contagi i testimoniatge, no per ensenyament directe; la pregunta vocacional s'escriu en passat, present i futur (*"mirar pel retrovisor mentre es recorre el camí"*). NO és orientació professional ni catequesi imposada.
+
 ## Definició i principis
 
 La cultura vocacional no és un programa pastoral, ni un taller, ni un ítem a introduir en programacions. És un ecosistema — un humus — on la pregunta vocacional pugui brollar i créixer. El document fundacional "Per a qui sóc jo?" (Província d'Espanya, 2023) ho defineix amb claredat: "allò vocacional no es redueix a la culminació d'un procés — la cirereta o el vernís — quan tots els objectius anteriors han estat satisfets, sinó que ha de ser part essencial i transversal de tots els nostres esforços."

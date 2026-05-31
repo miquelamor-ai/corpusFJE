@@ -9,6 +9,10 @@ descripcio: "Identitat, missió i valors de l'educació jesuïta: tradició viva
 generat_at: 2026-03-17T00:00:00
 ---
 
+## Abstract
+
+La Identitat i Missió de l'educació jesuïta és una **tradició viva en discerniment permanent**, **no un document fix promulgat un cop per sempre** ni una sistematització tancada al 1986. Pretén que el centre comprengui la pròpia identitat com a exercici continu que pregunta en cada època *"a qui servim, per a quina humanitat eduquem i com es concreta avui la missió fundacional"*, des de la fidelitat creativa a cinc segles de tradició. Aporta una reconstrucció de l'arc evolutiu en cinc moments (arrels humanistes, gir profètic fe-justícia, sistematització ICAJE-PPI, xarxa global JESEDU-Rio, tradició viva fins a Jogja2024) que orienta tot el corpus FJE. Idees-força: la missió és discerniment, no codi; cada moment històric reformula sense substituir; la *"mínima Companyia"* actua en xarxa, no sola; la reconciliació amb Déu, amb els humans i amb la creació és l'horitzó actual. NO és un text intocable ni un programa promulgat des d'una sola època.
+
 ## La missió com a tradició viva, no com a document fix
 
 La identitat i missió de l'educació jesuïta no és un text promulgat un cop per sempre. És una **tradició viva**, tal com la denomina el document homònim de 2019: un exercici continu de discerniment que, en cada època, pregunta de nou *a qui servim, per a quina humanitat eduquem i com es concreta avui la missió fundacional*. Reduir la identitat jesuïta al document ICAJE de 1986 seria com creure que la Companyia va néixer el 1986. El 1986 és un moment de sistematització en un fil de cinc segles d'evolució creativa.

@@ -9,6 +9,10 @@ descripcio: "Projecte educatiu de Jesuïtes Educació (FJE): Horitzó, HoritzóM
 generat_at: 2026-03-17T00:00:00
 ---
 
+## Abstract
+
+El Projecte Educatiu de Jesuïtes Educació és la **concreció catalana** del model pedagògic ignasià a 8 escoles, 14.500 alumnes i 2.000 educadors, **no un model substitutori** sinó l'encarnació d'una tradició de cinc segles en un context plural, multicultural, digital i secularitzat. Pretén formar persones perquè *"visquin plenament, treballin pel bé comú i desenvolupin el desig de transformar-se per transformar el món"*, articulant l'Horitzó 2020 i l'HoritzóMés com a cultura permanent de transformació amb les 4C com a horitzó d'excel·lència humana. Aporta una arquitectura amb 8 dimensions interconnectades (Essencials) i etapes pròpies redefinides pel desenvolupament evolutiu real (LLAR, MOPI, PIN, NEI, TQE, FP), no per divisió administrativa. Idees-força: la transformació és cultura permanent, no punt d'arribada; les 8 dimensions es transformen juntes o no es transformen; les etapes responen al desenvolupament real, no a l'administratiu; fidelitat creativa com a mètode. NO és un model promulgat de cop ni un projecte aïllat de cada centre.
+
 ## Què és el projecte educatiu de FJE
 
 El projecte educatiu de Jesuïtes Educació (FJE) és la concreció catalana de la tradició educativa jesuïta. No és un "model" — el model és la pedagogia ignasiana, amb cinc segles d'història. El projecte educatiu és com FJE encarna aquell model en un context concret: vuit escoles a Catalunya, 14.500 alumnes, 2.000 educadors, una societat plural, multicultural, digital i secularitzada.

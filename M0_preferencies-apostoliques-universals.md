@@ -9,6 +9,10 @@ descripcio: "Les quatre Preferències Apostòliques Universals 2019-2029 i la se
 generat_at: 2026-03-17T00:00:00
 ---
 
+## Abstract
+
+Les **Preferències Apostòliques Universals (PAU) 2019-2029** són les quatre orientacions que guien tota la Companyia de Jesús durant aquesta dècada —Exercicis Espirituals i discerniment (A), caminar amb els descartats (B), acompanyar els joves (C), cura de la Casa Comuna (D)—, **no com a objectius estratègics ni pla apostòlic** sinó com a elecció discernida del que sembla *"de major servei diví i bé universal"*. Pretén que el centre FJE no afegeixi les PAU com a nous projectes sinó que les rebi com a brúixola per revisar el sentit últim del seu projecte educatiu i convertir-ne pràctiques, estructures i actituds. Aporta l'articulació de la PAU A com a *eix vertebrador* —sense vida interior profunda, les altres tres es buiden— i una guia per traduir cada PAU al llenguatge quotidià del centre. Idees-força: les PAU són elecció apostòlica, no pla estratègic; la PAU A vertebra les altres tres; pobres i joves són llocs teològics complementaris; demanen conversió personal, comunitària i institucional. NO són llista d'activitats afegides ni programa per externalitzar.
+
 ## Definició i principis
 
 Les **Preferències Apostòliques Universals (PAU) 2019-2029** són les quatre orientacions que guien l'acció de tota la Companyia de Jesús durant la dècada actual. El P. General Arturo Sosa les promulgà el 19 de febrer de 2019, confirmades pel Papa Francesc, com a fruit d'un procés de discerniment de setze mesos que implicà tots els nivells de la Companyia — comunitats locals, províncies, conferències regionals i la Cúria general.

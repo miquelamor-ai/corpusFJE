@@ -9,6 +9,10 @@ descripcio: "Excel·lència humana jesuïta: el perfil de sortida de l'alumne co
 generat_at: 2026-03-17T00:00:00
 ---
 
+## Abstract
+
+L'Excel·lència Humana és el **perfil de sortida de l'alumne jesuïta** articulat en quatre dimensions inseparables —Conscient, Competent, Compassiu, Compromès (4C)—, formalitzades per Adolfo Nicolás (2013) com a operacionalització contemporània de l'ideal arrupià de formar *"homes i dones per als altres i amb els altres"*, **no com a llistat de competències acadèmiques**. Pretén integrar excel·lència acadèmica i excel·lència humana com a una sola cosa, no dues, educant per al servei dels més vulnerables i la transformació de les estructures injustes. Aporta una arquitectura amb quatre dimensions que es retroalimenten en cicle dinàmic i un horitzó d'avaluació del sentit últim del projecte educatiu del centre. Idees-força: les 4C formen cicle indissoluble, no objectius independents; la consciència interior i social és condició de la competència autèntica; el compromís és la síntesi que clausura i reobre el cicle; *la incompetència no és virtut cristiana*. NO és un rànquing de rendiment ni una avaluació per puntuacions.
+
 ## Definició i principis
 
 L'**Excel·lència Humana** és el concepte central que articula el perfil de sortida de l'alumne en l'educació jesuïta. No és un llistat de competències acadèmiques ni un rànquing de rendiment: és una visió integral de la persona que sintetitza cinc segles d'humanisme ignasià en quatre dimensions inseparables, conegudes com les **4C**: *Conscient, Competent, Compassiu i Compromès*.
