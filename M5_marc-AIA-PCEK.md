@@ -7,6 +7,10 @@ review_status: esborrany
 generat_at: 2026-05-11T00:00:00
 ---
 
+## Abstract
+
+El marc AIA-PCEK (*Artificial Intelligence Agent – Pedagogical Content Ethical Knowledge*), proposat per Mimoudi i Mokhtari (2025), és una extensió contemporània del TPACK clàssic que tracta la IA no com a eina estàtica sinó com a **agent dinàmic** que actua sobre l'entorn pedagògic. Pretén definir **les competències docents necessàries per integrar la IA a l'aula de manera reflexiva i responsable**, anant més enllà de la mera competència operativa. Aporta dos dominis nous específics —Coneixement d'Agent IA (AIAK) i Coneixement Ètic (EK)— que se sumen als ja coneguts de contingut (CK) i pedagogia (PK), articulats per les seves interseccions. Idees-força: la IA com a agent (no eina) canvia la naturalesa del problema docent; AIAK no és literacy digital genèrica sinó comprensió estructural; l'ètica és domini estructural, no afegit; la decisió de no usar IA és tan vàlida com la d'usar-la. NO és un manual d'eines, ni una rúbrica de certificació, ni una llista de prohibicions.
+
 ## D'eina estàtica a agent dinàmic
 
 El marc TPACK (Technological Pedagogical Content Knowledge) de Mishra i Koehler (2006) va representar un avenç decisiu en la comprensió de les competències docents digitals: el bon ús d'una tecnologia a l'aula no és la suma del coneixement tècnic i el pedagògic, sinó una intersecció emergent dels dos amb el coneixement de contingut. Un docent que sap molt de biologia i molt de pedagogia no és automàticament competent per usar un simulador de biologia: necessita un tercer coneixement, el de la intersecció.
@@ -70,7 +74,19 @@ El valor del marc no resideix en els quatre dominis per separat, sinó en les se
 
 La diferència pràctica: un docent amb TPACK convencional pot aprendre a "usar" una eina d'IA sense entendre per què al·lucina, quins biaixos incorpora o quines dades envia fora del centre. Un docent amb AIA-PCEK pren decisions informades sobre *si*, *com* i *fins on* delegar a l'agent.
 
-## Errors comuns en la integració
+## Autors i evidència clau
+
+El marc AIA-PCEK s'arrela en una genealogia acadèmica internacional clarament identificable:
+
+*   **Lee S. Shulman (1986).** A "Those who understand: Knowledge growth in teaching" estableix la base de tota la tradició: el Coneixement de Contingut Pedagògic (PCK) com a competència docent específica, més enllà del coneixement disciplinari pur.
+*   **Punya Mishra i Matthew J. Koehler (2006).** A "Technological Pedagogical Content Knowledge: A framework for teacher knowledge" estenen el PCK al domini tecnològic, articulant el TPACK clàssic. Aquest és el punt de partida explícit d'AIA-PCEK.
+*   **Davy T. K. Ng et al. (2021).** A "Conceptualizing AI literacy: An exploratory review" donen la base conceptual sobre alfabetització en IA que el marc AIAK desenvolupa amb especificitat pedagògica.
+*   **Aymane Mimoudi i Khalid Mokhtari (2025).** A "Artificial Intelligence Agent – Pedagogical Content Ethical Knowledge (AIA-PCEK): A new framework for teaching with artificial intelligence" (*Cogent Education* 12/1) proposen el marc, justifiquen els dos dominis nous (AIAK i EK) i articulen la transició de la IA com a eina a IA com a agent.
+*   **Projecte Erasmus+ VOLCANIC (2022-2025).** *Vocational Learning with AI: New Innovative Competences.* Marc institucional europeu en què el model AIA-PCEK va ser desenvolupat, vinculat a formació professional i innovació en competències docents.
+
+**Tensió clau a l'evidència:** la diferència entre TPACK i AIA-PCEK no és gradual sinó qualitativa — el TPACK tracta tecnologies estàtiques (calculadora, simulador) que el docent usa; AIA-PCEK tracta agents que actuen amb autonomia parcial sobre l'entorn pedagògic. Aquesta distinció és el que justifica els dos dominis nous, no un afegit cosmètic.
+
+## Errors comuns — què NO fer
 
 **Confondre AIAK amb literacy digital genèrica.** Saber crear un compte a ChatGPT o fer un prompt bàsic no és AIAK. AIAK és la comprensió estructural suficient per detectar un al·lucinat, per avaluar quan una sortida és fiable i per explicar a l'alumnat per què la IA s'equivoca d'una manera determinada.
 
@@ -117,15 +133,33 @@ La diferència pràctica: un docent amb TPACK convencional pot aprendre a "usar"
 
 ### Heurístiques
 
-#### Heurístiques per al docent
+**Principi general:** L'ús pedagògic de la IA exigeix combinar comprensió estructural (AIAK) i discerniment ètic (EK) amb el coneixement pedagògic i de contingut habituals. Cada activitat amb IA és una decisió pedagògica i ètica, no merament tècnica.
 
-- Davant qualsevol activitat amb IA, aplicar les tres preguntes AIA-PCEK: (1) Entenc com funciona la IA en aquest context i quines limitacions té? (2) Aquesta delegació té sentit pedagògic aquí? (3) Hi ha implicacions ètiques (privacitat, autoria, equitat) que haig de gestionar?
-- Per a la formació del claustre, usar la taula TPACK↔AIA-PCEK per situar on és l'equip i quins dominis necessiten enfortir; la majoria de claustres parteixen de PK i CK alts però AIAK i EK baixos.
-- AIAK no s'aprèn llegint documentació: s'aprèn en sessió pràctica on es detecten al·lucinats, es comparen sortides i s'analitzen biaixos amb exemples de la pròpia matèria.
+#### Heurística 1: Les tres preguntes AIA-PCEK abans de qualsevol activitat amb IA
 
-#### Heurístiques per a l'alumne
+- **Quan aplica:** En la planificació de qualsevol activitat docent que incorpori IA.
+- **Fonament:** La integració de la IA no és una decisió purament tècnica sinó l'encreuament de tres dominis: AIAK (entenc l'agent?), PK (té sentit pedagògic aquí?) i EK (quines implicacions ètiques té?). Saltar-se una d'aquestes preguntes deixa la integració incompleta.
+- **Exemple descriptiu:** Davant la voluntat d'usar una eina d'IA per generar exemples de problemes matemàtics, convé respondre les tres preguntes seqüencialment. (1) **AIAK**: l'eina és fiable en matemàtiques de currículum estàndard? Pot al·lucinar? Quina temperatura té? (2) **PK**: tinc clar quina fricció cognitiva vull preservar i quina puc delegar? L'alumnat podrà aprendre a verificar les sortides o només a consumir-les? (3) **EK**: quines dades transmeto a la plataforma? Quina norma d'autoria estableixo per als treballs? Si una resposta no és clara, cal aturar la planificació i resoldre-la abans d'integrar.
 
-- La pregunta de referència per a qualsevol ús de la IA en una tasca d'aprenentatge és: "puc explicar per què la IA ha fet el que ha fet i si és correcte?". Si no, o la tasca no és adequada per a IA en aquell moment, o manca formació en AIAK bàsic.
+#### Heurística 2: Mapa TPACK→AIA-PCEK per a la formació del claustre
+
+- **Quan aplica:** En la planificació de formació docent en IA al centre.
+- **Fonament:** La majoria de claustres tenen PK i CK alts però AIAK i EK baixos. Sense aquest mapa diagnòstic, la formació tendeix a centrar-se en eines (la part més visible però menys decisiva), reforçant el que ja se sap i deixant els buits estructurals.
+- **Exemple descriptiu:** Davant la planificació de la formació docent per al curs vinent, convé començar per un autodiagnòstic d'equip basat en la taula TPACK↔AIA-PCEK. Pot revelar, per exemple, que el claustre té PK alt en metodologies actives i CK alt en cada matèria, però desconeix per què al·lucina un LLM (AIAK baix) i no té criteri sobre quines dades es poden enviar a plataformes externes (EK baix). El pla formatiu se centra llavors a desenvolupar AIAK i EK, no a "ensenyar a usar ChatGPT".
+
+#### Heurística 3: AIAK s'aprèn en pràctica, no en documentació
+
+- **Quan aplica:** Davant la temptació de formar AIAK amb tutorials, manuals o sessions teòriques exclusivament.
+- **Fonament:** La comprensió estructural de la IA es construeix detectant al·lucinats, comparant sortides, analitzant biaixos amb exemples de la pròpia matèria — no llegint sobre LLMs. El coneixement declaratiu sense pràctica genera falsa sensació de competència.
+- **Exemple descriptiu:** Davant la formació en AIAK per al claustre, convé organitzar sessions on cada docent treballi amb la IA en la seva pròpia matèria: demanar una explicació, intentar detectar errors, comparar dues plataformes per la mateixa pregunta, analitzar com canvia la sortida amb diferents prompts. Documentar les troballes en una graella compartida construeix coneixement col·lectiu sobre les capacitats i límits reals de la IA per al currículum FJE.
+
+### Indicadors d'apropiació del marc AIA-PCEK en l'alumnat
+
+Aquesta subsecció descriu manifestacions observables de l'apropiació d'AIA-PCEK per part de l'alumnat — què fa un alumne que ha desenvolupat criteri estructural i ètic sobre la IA. Útil per a l'acompanyament i la coavaluació.
+
+#### Indicador 1: Capacitat d'explicar i verificar les sortides de la IA
+
+- **Manifestació observable:** Davant qualsevol ús de la IA en una tasca d'aprenentatge, l'alumnat que ha interioritzat AIAK pot respondre la pregunta de referència: "Puc explicar per què la IA ha fet el que ha fet i si és correcte?". Si la resposta és no, reconeix que (a) la tasca no era adequada per a IA en aquell moment, o (b) li manca formació en AIAK bàsic. Aquesta consciència és la primera competència del marc.
 
 ## 5. Fonts
 
