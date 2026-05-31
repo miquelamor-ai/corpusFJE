@@ -1,34 +1,101 @@
 ---
 modul: M0
-titol: "Glossari Ignasiá per a IA"
-tipus: marc
-descripcio: "Vocabulari i conceptes clau del carisma ignasiá per contextualitzar les respostes de l'assistent"
+titol: "Glossari Ignasià per a IA"
+tipus: cataleg
+descripcio: "Vocabulari i conceptes clau del carisma ignasià per contextualitzar les respostes dels assistents IA i les referències presents als documents del corpus FJE"
+paraules_clau:
+  - 'carisma ignasià'
+  - glossari
+  - vocabulari
+  - 'pedagogia ignasiana'
+  - 'identitat FJE'
 review_status: esborrany
 generat_at: 2026-03-21T07:14:42
 ---
-## Definició i principis
+## Què és aquest catàleg
 
-El carisma ignasià, fonament de la identitat de Jesuïtes Educació, es pot sintetitzar en dues expressions clau: "trobar Déu en totes les coses" i ser "contemplatius en l'acció" (DOC 1, 4, 55, 63). Això significa reconèixer la presència de Déu no només en espais sagrats, sinó en la quotidianitat, el treball, les relacions i el món mateix. És una espiritualitat eminentment pràctica que busca integrar la fe amb l'acció, anant més enllà de la comprensió intel·lectual per a una connexió profunda i experiencial. Els seus orígens es troben en la conversió personal de Sant Ignasi de Loiola, tal com es narra en la seva Autobiografia (DOC 104), on va aprendre a discernir els "moviments" interns de la seva ànima, cosa que el va portar a desenvolupar els Exercicis Espirituals (DOC 1, 110). Aquests Exercicis són un camí cap a la llibertat interior i una eina per al discerniment de la voluntat de Déu, afavorint una trobada personal profunda amb Crist.
+El **Glossari Ignasià per a IA** és un inventari estandarditzat dels conceptes clau del carisma ignasià que apareixen recurrentment als documents del corpus FJE i a les converses amb els assistents IA institucionals.
 
-D'aquesta experiència fundacional sorgeixen diversos principis clau que configuren la missió educativa de Jesuïtes Educació:
+Serveix per:
+- **Documents del corpus**: oferir definicions canòniques compartides quan un altre document cita un terme ignasià sense definir-lo (evita duplicar definicions disperses).
+- **Assistents IA (ATNE, Itinerarium, futurs)**: ancorar respostes amb vocabulari ignasià rigorós, evitant aproximacions vagues o paral·lels seculars que aigualeixen el carisma.
+- **Docents i directius**: disposar d'un punt de referència únic per a sessions formatives, materials d'identitat o conversa amb famílies, sense haver de recórrer cada vegada a fonts dispersades.
 
-1.  **Magis:** Aquest terme llatí significa "més" o "major" (DOC 59, 64, 113). En la perspectiva ignasiana, no es tracta d'un augment quantitatiu, sinó de la recerca constant del bé més gran, del major servei a Déu i a la humanitat. Implica una aspiració permanent a l'excel·lència, no per a la glòria personal, sinó per al benefici dels altres i per a la "Ad Majorem Dei Gloriam" (AMDG – Per a la Major Glòria de Déu) (DOC 113). És una crida a buscar sempre allò que sigui més eficaç i transformador en el compliment de la missió.
+Marc espiritual comú: el carisma ignasià es pot sintetitzar en dues expressions clau — "trobar Déu en totes les coses" i ser "contemplatius en l'acció" (DOC 1, 4, 55, 63). És una espiritualitat eminentment pràctica que busca integrar la fe amb l'acció. Els seus orígens es troben en la conversió personal de Sant Ignasi de Loiola (DOC 104), que el va portar a desenvolupar els *Exercicis Espirituals* (DOC 1, 110). Tots els termes d'aquest catàleg deriven d'aquesta experiència fundacional i del seu desplegament històric.
 
-2.  **Cura Personalis:** Significa "cura de la persona en la seva totalitat" (DOC 54, 93). Aquest principi subratlla un enfocament holístic de l'educació, reconeixent el potencial, les necessitats, els ritmes i els interessos únics de cada individu (DOC 11). Implica acompanyar els estudiants en el seu creixement intel·lectual, emocional, social i espiritual, fomentant una comprensió profunda de si mateixos i del seu lloc al món. Es tracta d'un acompanyament personalitzat que respecta i desenvolupa la singularitat de cada persona.
+## Criteris d'inclusió
 
-3.  **Discerniment:** És un procés de reflexió orant i presa de decisions, que busca comprendre la voluntat de Déu en situacions concretes (DOC 3, 4, 29, 36, 61). Implica parar atenció als moviments interns (consolacions i desolacions), ponderar opcions i triar allò que condueix a un major amor i servei. En l'educació, fomenta el pensament crític, l'autoconeixement i la capacitat de prendre decisions significatives per a la pròpia vida i per al bé comú.
+**Què entra al catàleg:**
+- Termes específics del carisma ignasià que apareixen com a referència explícita en documents del corpus FJE (M0, M2, M6, M7, M10) o que els assistents IA citen amb regularitat.
+- Conceptes amb genealogia clarament documentada a fonts canòniques de la Companyia de Jesús (Constitucions, *Exercicis Espirituals*, Congregacions Generals, magisteri pontifici, FJE).
+- Termes que requereixen definició precisa per evitar confusions amb conceptes propers de l'educació general (excel·lència, tutoria, ètica…).
 
-4.  **Homes i Dones per als altres / Persones conscients, competents, compassives i compromeses (les 4Cs):** Aquesta expressió, encunyada pel P. Pedro Arrupe (DOC 46, 109, 113) i desenvolupada posteriorment pel P. Peter-Hans Kolvenbach (DOC 43, 109, 113), representa l'objectiu últim de l'educació jesuïta. Descriu individus intel·lectualment capaços (competents), autoconscients i reflexius (conscients), empàtics i sol·lícits (compassius), i activament implicats en la lluita per la justícia i el canvi positiu (compromesos). Aquesta visió és central en la missió de FJE (DOC 11, 13, 14, 15).
+**Què NO entra:**
+- Termes pedagògics generals sense arrel ignasiana específica (DUA, ABP, avaluació formativa…) — viuen als seus marcs propis.
+- Termes purament històrics o anecdòtics sense funció operativa al corpus.
+- Termes d'altres tradicions espirituals encara que s'usin a FJE.
 
-5.  **Reconciliació i Justícia:** La missió de la Companyia de Jesús avui és ser "companys en una missió de reconciliació i justícia amb Déu, amb la humanitat i amb la creació" (CG36, DOC 68, 111). Això implica treballar per sanar divisions, promoure l'equitat i solidaritzar-se amb els marginats i vulnerables (DOC 29, 46, 58, 94, 95). És una crida a transformar estructures injustes i a fomentar relacions harmonioses.
+**Cardinalitat actual:** 8 entrades canòniques. Ampliable amb criteri de selecció (no inclusió per inflació).
 
-6.  **Cura de la Casa Comuna / Ecologia Integral:** Inspirat per l'encíclica Laudato Si' del Papa Francesc (DOC 25, 26), aquest principi estén la missió de reconciliació al medi ambient. Demana un profund respecte per la creació, reconeixent la interconnexió de les crisis socials i ambientals, i promovent pràctiques sostenibles (DOC 20, 29, 97, 103).
+## Inventari
 
-7.  **Ciutadania Global:** Educar per a la ciutadania global significa formar individus que entenguin el seu paper en un món globalitzat, capaços de construir ponts, promoure la solidaritat i treballar pel bé comú a través de cultures i fronteres (DOC 11, 13, 14, 20, 86, 94, 96, 102).
+### Magis
 
-8.  **Projecte Vital i Vocacional:** Aquest concepte posa l'accent en guiar els estudiants en el descobriment del seu propòsit i crida únics en la vida ("Per a qui sóc jo?") (DOC 10, 12, 74, 76). Es tracta d'ajudar-los a integrar els seus talents, passions i valors personals amb les necessitats del món, conduint a una vida plena de sentit.
+- **Resum (1 línia):** Recerca constant del "més gran bé" i del major servei, qualitativa i no quantitativa.
+- **Quan aplica:** En decisions docents o institucionals on cal triar entre el suficient i el millor possible per a la persona i la missió; en discerniment vocacional; en orientació de l'excel·lència del centre.
+- **Característiques:** Significa "més" o "major" (DOC 59, 64, 113). Recerca de l'excel·lència no per a la glòria personal sinó per al benefici dels altres (*Ad Majorem Dei Gloriam* — AMDG, DOC 113). Aspiració permanent a allò més eficaç i transformador.
+- **Confusions habituals:** No és perfeccionisme ni acumulació quantitativa (més tasques, més hores). No és competitivitat ni excel·lència acadèmica aïllada. No és sobrecàrrega laboral. Vegeu desplegament a [[M0_magis-i-servei]].
 
-Aquests principis s'integren en el **Paradigma Pedagògic Ignasià (PPI)** (DOC 12, 17, 18, 99, 112, 113), que estructura el procés d'aprenentatge a través de cinc passos interconnectats: Context, Experiència, Reflexió, Acció i Avaluació. Aquest marc pedagògic assegura que l'aprenentatge sigui significatiu, transformador i orientat a l'acció per a la justícia.
+### Cura Personalis
+
+- **Resum (1 línia):** Cura de la persona en la seva totalitat, eix vertebrador de la pedagogia ignasiana.
+- **Quan aplica:** En l'acompanyament tutorial, en decisions sobre adaptacions i suports, en el disseny d'experiències educatives que reconeixen la singularitat de cada alumne.
+- **Característiques:** Enfocament holístic (intel·lectual, emocional, social, espiritual) (DOC 54, 93). Acompanyament personalitzat que respecta el potencial, ritmes i interessos únics de cada individu (DOC 11). El subjecte és sempre més important que el programa.
+- **Confusions habituals:** No és atenció individualitzada genèrica ni servei de tutoria tècnica. No és proteccionisme (la cura ignasiana inclou exigència formativa). No és psicoterapia. Vegeu desplegament a [[M0_cura-personalis]].
+
+### Discerniment
+
+- **Resum (1 línia):** Procés de reflexió orant per comprendre la voluntat de Déu en situacions concretes.
+- **Quan aplica:** En la presa de decisions personals o institucionals significatives; en orientació vocacional; en l'avaluació de propostes pedagògiques noves.
+- **Característiques:** Atenció als moviments interns (consolacions i desolacions) (DOC 3, 4, 29, 36, 61). Ponderació d'opcions per triar allò que condueix a un major amor i servei. En l'educació fomenta el pensament crític, l'autoconeixement i la capacitat de prendre decisions significatives.
+- **Confusions habituals:** No és una decisió racional analítica pura. No és intuïció ni "el que sembla bé". Requereix temps, oració i acompanyament. No és una eina exclusiva del context religiós: la metodologia és aplicable a decisions seculars.
+
+### Homes i Dones per als altres / 4Cs
+
+- **Resum (1 línia):** Objectiu últim de l'educació jesuïta: persones Conscients, Competents, Compassives i Compromeses.
+- **Quan aplica:** En la definició del perfil de sortida, en l'avaluació de l'impacte educatiu del centre, en l'orientació del projecte educatiu institucional.
+- **Característiques:** Expressió encunyada per Pedro Arrupe (DOC 46, 109, 113) i desenvolupada per Peter-Hans Kolvenbach a través de les 4Cs (DOC 43, 109, 113). **Conscients** (autoconeixement i reflexió), **Competents** (formació rigorosa), **Compassius** (empatia i sol·licitud), **Compromesos** (acció per la justícia). Central a la missió FJE (DOC 11, 13, 14, 15).
+- **Confusions habituals:** No és un eslògan motivacional. No és un currículum de valors per memoritzar. Les 4Cs són dimensions interdependents — desenvolupar només una (típicament Competent) sense les altres desvirtua el perfil. Vegeu desplegament a [[M0_ledesma-kolvenbach]].
+
+### Reconciliació i Justícia
+
+- **Resum (1 línia):** Missió actual de la Companyia de Jesús: companys en reconciliació amb Déu, amb la humanitat i amb la creació.
+- **Quan aplica:** En el disseny d'experiències d'aprenentatge-servei, en l'orientació del projecte de centre cap a la transformació social, en l'educació per a la ciutadania global.
+- **Característiques:** Missió definida a la CG36 (DOC 68, 111). Treball per sanar divisions, promoure equitat i solidaritzar-se amb els marginats i vulnerables (DOC 29, 46, 58, 94, 95). Crida a transformar estructures injustes.
+- **Confusions habituals:** No és activisme polític partidista. No és caritat assistencial puntual. Requereix anàlisi estructural de les causes de la injustícia. Vegeu desplegament a [[M0_ciutadania-global-justicia]].
+
+### Cura de la Casa Comuna / Ecologia Integral
+
+- **Resum (1 línia):** Quarta PAU jesuïta: respecte profund per la creació com a dimensió constitutiva de la missió.
+- **Quan aplica:** En el projecte ambiental del centre, en l'educació per a la sostenibilitat, en la integració curricular dels Objectius de Desenvolupament Sostenible (ODS).
+- **Característiques:** Inspirat per *Laudato Si'* del Papa Francesc (DOC 25, 26). Una "única crisi socio-ambiental complexa" (no dues crisis separades). Demanda una "conversió ecològica" que travessa el currículum, el projecte de centre i la formació del caràcter (DOC 20, 29, 97, 103).
+- **Confusions habituals:** No és el "dia de la Terra" ni una activitat puntual de reciclatge. No és una ideologia política. No és tècnica ambiental aïllada — té fonament ètic i espiritual. Vegeu desplegament a [[M0_ecologia-integral]].
+
+### Ciutadania Global
+
+- **Resum (1 línia):** Formació de persones que entenen el seu paper en un món globalitzat i hi actuen amb solidaritat i sentit de bé comú.
+- **Quan aplica:** En el disseny de projectes interdisciplinaris amb dimensió global, en l'educació en drets humans, en les iniciatives de servei internacional o intercanvi.
+- **Característiques:** Capacitat de construir ponts, promoure la solidaritat i treballar pel bé comú a través de cultures i fronteres (DOC 11, 13, 14, 20, 86, 94, 96, 102). Visió universalista jesuïta des dels inicis de la Companyia.
+- **Confusions habituals:** No és cosmopolitisme abstracte ni neoliberalisme globalitzador. Requereix arrelament local profund alhora que mirada global. No és educació en idiomes ni intercanvis acadèmics aïllats.
+
+### Projecte Vital i Vocacional
+
+- **Resum (1 línia):** Acompanyament de l'alumnat en el descobriment del seu propòsit i crida únics ("Per a qui sóc jo?").
+- **Quan aplica:** En orientació vocacional (especialment ESO-Batxillerat-FP), en tutories personals, en projectes de vida que integren talents, passions i valors amb les necessitats del món.
+- **Característiques:** La pregunta "Per a qui sóc jo?" com a eix biogràfic (DOC 10, 12, 74, 76). Integració de talents personals + valors + necessitats del món. Vida plena de sentit més enllà del benefici individual.
+- **Confusions habituals:** No és orientació professional purament utilitarista (sou, prestigi). No és vocació religiosa exclusivament — és vocació humana en sentit ampli. No és un test de personalitat. Vegeu desplegament a [[M0_cultura-vocacional]].
+
+Aquests vuit conceptes s'integren operativament en el **Paradigma Pedagògic Ignasià (PPI)** (DOC 12, 17, 18, 99, 112, 113), que estructura el procés d'aprenentatge en cinc passos: Context, Experiència, Reflexió, Acció i Avaluació. Aquest no és una entrada d'aquest catàleg sinó un marc complet — vegeu [[M0_PPI-paradigma-pedagogic-ignasia]].
 
 ## Autors i evidència clau
 
@@ -45,10 +112,21 @@ L'evidència es troba en els documents fundacionals i els discursos dels Pares G
 
 Una tensió històrica ha estat l'equilibri entre la formació intel·lectual d'excel·lència i el compromís social. Mentre que els primers col·legis jesuïtes eren gratuïts i, en certa manera, inclusius per a l'època (DOC 75), la seva accessibilitat estava limitada per requisits acadèmics i culturals. Les Congregacions Generals posteriors, especialment la CG34 (DOC 70), han insistit en l'obertura a estudiants de grups econòmicament més febles i en l'educació popular, com el moviment Fe y Alegría (DOC 47). La tensió es resol en la cerca d'una "excel·lència humana" que no només sigui acadèmica, sinó també ètica i socialment compromesa (DOC 109).
 
-## Exemples concrets d'aplicació a l'aula
+## Com usar aquest catàleg
 
-1.  **Educació Infantil (MOPI) i Primària Inicial (PIN):**
-    *   **Projecte Vital i Vocacional:** A
+Aquest catàleg admet tres usos principals, complementaris:
+
+- **Consulta puntual.** Davant un document del corpus o una resposta d'assistent IA que esmenta un terme ignasià sense definir, consultar la fitxa corresponent per situar el concepte amb precisió i evitar interpretacions vagues o seculars.
+- **Suport a la formació i comunicació institucional.** En sessions de claustre, formació d'equips o materials per a famílies, les fitxes proporcionen definicions consensuades — punt de partida compartit sense haver de recórrer a documents fundacionals dispersats.
+- **Ancoratge dels assistents IA.** Els assistents institucionals (ATNE, Itinerarium, futurs) usen aquest catàleg com a font de definicions canòniques per respondre amb coherència carismàtica, evitant aproximacions inventades.
+
+A diferència d'altres catàlegs del corpus, les entrades **no són excloents**: totes són complementàries i sovint apareixen interrelacionades a la pràctica. La selecció és, per tant, **per pertinència al context** (quin terme conté la pregunta o el document), no per tria entre alternatives.
+
+## Relació amb altres catàlegs
+
+- **`M3_generes-22`** — catàleg de gèneres discursius operatius a FJE. Comparteix amb aquest la naturalesa de "inventari de referència per a documents i assistents", però el seu domini és lingüístic (no espiritual).
+- **Catàlegs del sistema P>R>N** (`M5_proposits-aprenentatge`, `M5_rols-IA-educacio`, `M5_nivells-delegacio-mihia`) — catàlegs operatius per al disseny d'activitats amb IA. Aquest glossari ignasià actua com a **substrat identitari** que dóna sentit a les decisions preses amb aquells catàlegs (per què aquest propòsit, per què aquest rol per a la IA, fins on delegar).
+- **`M6_tipologia-instruments-avaluacio`** — catàleg d'instruments d'avaluació. Comparteix la lògica de "fitxes paral·leles", aplicada al domini avaluatiu.
 
 ## 3. Connexions amb altres documents del corpus
 
@@ -88,15 +166,23 @@ Una tensió històrica ha estat l'equilibri entre la formació intel·lectual d'
 
 ### Heurístiques
 
-#### Heurístiques per al docent
+**Principi general:** Aquest catàleg és un recurs de consulta, no un curs sobre carisma ignasià. La seva utilitat depèn d'invocar-lo en el moment adequat (quan apareix un terme sense definir o quan es necessita ancoratge institucional), no de llegir-lo de cap a cap.
 
-- Quan en un document del corpus apareix un terme ignasià sense definir, aquest glossari és el primer recurs de referència.
-- Per a sessions de claustre o formació d'equip sobre identitat, usar les definicions d'aquí com a punt de partida compartit.
+#### Heurística 1: Recurs de consulta davant termes ignasians sense definir
 
-#### Heurístiques per a l'alumne
+- **Quan aplica:** Davant un document del corpus, una activitat o una resposta d'assistent IA que esmenta un terme ignasià (Magis, *cura personalis*, discerniment, 4Cs, reconciliació, Casa Comuna, ciutadania global, projecte vital) sense definir-lo o amb una definició aproximada.
+- **Fonament:** El carisma ignasià té un vocabulari precís amb genealogia documentada. Les aproximacions vagues o paral·lels seculars (excel·lència en lloc de *Magis*, tutoria en lloc de *cura personalis*) aigualeixen el carisma i generen confusions interpretatives a llarg termini.
+- **Exemple descriptiu:** Davant un material formatiu que parla d'"excel·lència ignasiana" sense definir, convé consultar la fitxa **Magis** d'aquest catàleg per ancorar la definició: no és perfeccionisme acadèmic sinó recerca del "més gran bé i del major servei". Aquesta precisió evita que en una sessió de claustre el terme s'interpreti com a competitivitat o exigència sense criteri.
 
-- Consultar aquest document quan una activitat de reflexió personal menciona valors ignasians i no se sap ben bé a quina tradició es refereix.
-- Serveix de diccionari de suport per entendre textos fundacionals de la Companyia de Jesús en el context escolar.
+#### Heurística 2: Punt de partida compartit per a formació d'equip sobre identitat
+
+- **Quan aplica:** Davant la planificació d'una sessió de claustre, formació d'equip docent o material per a famílies sobre identitat institucional FJE.
+- **Fonament:** Els equips docents i les comunitats educatives sovint usen els termes ignasians amb significats lleugerament diferents (depenent de la formació prèvia o les fonts consultades). Sense un punt de partida compartit, les discussions es queden en debats terminològics.
+- **Exemple descriptiu:** Davant una sessió de claustre sobre el projecte educatiu FJE, convé començar amb un repàs ràpid de les fitxes Magis, *cura personalis* i 4Cs d'aquest catàleg. Així tothom parteix de la mateixa definició abans de discutir l'aplicació pràctica al centre. Estalvia temps i evita malentesos que es generarien si cadascú treballés des de la seva interpretació personal del terme.
+
+### Indicador d'apropiació del vocabulari ignasià en l'alumnat
+
+- **Manifestació observable:** Davant un text del corpus o una activitat que invoca un terme ignasià (4Cs, Magis, discerniment), l'alumnat que ha interioritzat el vocabulari no es queda en una comprensió genèrica ("compromès = treballador") sinó que pot situar el terme amb precisió institucional: distingeix entre Magis i excel·lència acadèmica competitiva, entre *cura personalis* i tutoria tècnica, entre discerniment i decisió racional pura. Aquesta precisió li permet llegir críticament les pràctiques del centre i defensar amb arguments propis l'autenticitat carismàtica d'una proposta educativa.
 
 
 ## 5. Fonts
