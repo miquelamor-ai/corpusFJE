@@ -300,6 +300,89 @@
   .barcell.E .barcell-bar { background: var(--groc); }
   .barcell-val { font-size: 0.82rem; color: #7a7a7f; min-width: 36px; }
 
+  /* Filtres */
+  .filtres-card {
+    background: #f4f8fd;
+    border: 1.5px solid var(--azul-clar);
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 24px;
+  }
+  .filtres-card h3 {
+    margin-top: 0;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .filtres-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+    margin-top: 12px;
+  }
+  .filtre-group { font-size: 0.88rem; }
+  .filtre-group h4 {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--azul);
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  .filtre-opcions {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 6px;
+  }
+  .filtre-opcio {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: background 0.1s;
+  }
+  .filtre-opcio:hover { background: rgba(31, 58, 95, 0.06); }
+  .filtre-opcio input { margin: 0; flex-shrink: 0; }
+  .filtre-opcio .filtre-count {
+    margin-left: auto;
+    font-size: 0.78rem;
+    color: #7a7a7f;
+    font-variant-numeric: tabular-nums;
+  }
+  .filtre-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    padding-top: 12px;
+    border-top: 1px solid rgba(31, 58, 95, 0.15);
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .filtre-actions button {
+    background: white;
+    border: 1px solid var(--azul-clar);
+    color: var(--azul);
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-family: inherit;
+  }
+  .filtre-actions button:hover { background: var(--azul); color: white; }
+  .filtre-status {
+    margin-left: auto;
+    font-size: 0.88rem;
+    color: var(--gris-fosc);
+    font-weight: 500;
+  }
+  .filtre-status strong { color: var(--azul); }
+
   .hidden { display: none !important; }
 
   footer.peu {
@@ -1252,10 +1335,163 @@ function removeFile(i) {
 }
 
 function procesarAgregat() {
-  const n = agregatFiles.length;
-  if (n === 0) return;
+  if (agregatFiles.length === 0) return;
+  // Construir i mostrar el panel de filtres + renderitzar inicialment amb tots els fitxers
+  construirFiltres();
+  aplicarFiltresIRenderitzar();
+}
 
-  // Agregació
+// ----------------------- FILTRES -----------------------
+const FILTRE_LABELS = {
+  rol: {
+    docent: "Docent", tutor: "Tutor/a", cap_pastoral: "Equip pastoral",
+    direccio: "Equip directiu", orientacio: "Orientació", pas: "PAS",
+    familia: "Família", alumne: "Alumnat", extern: "Consultor extern",
+    altres: "Altres", "": "(sense especificar)"
+  },
+  etapa: {
+    infantil: "Infantil", primaria: "Primària", eso: "ESO",
+    batxillerat: "Batxillerat", fp: "FP", transversal: "Transversal",
+    "": "(sense especificar)"
+  },
+  anys: {
+    "0": "Menys d'1 any", "1-3": "1–3 anys", "4-10": "4–10 anys",
+    "11-20": "11–20 anys", "20+": "Més de 20 anys", "": "(sense especificar)"
+  }
+};
+
+let filtresActius = { rol: new Set(), etapa: new Set(), centre: new Set(), anys: new Set(), dubte: "tots" };
+
+function valorsDisponibles(camp) {
+  const counter = {};
+  agregatFiles.forEach(f => {
+    const v = (f.data.metadata && f.data.metadata[camp]) || "";
+    const key = camp === "centre" ? (v.trim() || "(sense especificar)") : v;
+    counter[key] = (counter[key] || 0) + 1;
+  });
+  return counter;
+}
+
+function construirFiltres() {
+  // Reset filtres
+  filtresActius = { rol: new Set(), etapa: new Set(), centre: new Set(), anys: new Set(), dubte: "tots" };
+
+  const container = document.getElementById("agregat-resultats");
+  container.classList.remove("hidden");
+
+  const camps = ["rol", "etapa", "centre", "anys"];
+  let html = `
+    <div class="filtres-card">
+      <h3>🔍 Filtres — sectoritzar la mostra
+        <span class="filtre-status" id="filtre-status"></span>
+      </h3>
+      <p style="font-size: 0.85rem; color: #555; margin-bottom: 0;">
+        Marca casetes per veure només un sector (rol, etapa, centre…). Pots combinar-les per veure "docents d'ESO" o "només Sant Ignasi Sarrià". Si no marques res, es mostra tota la mostra.
+      </p>
+      <div class="filtres-grid">
+  `;
+
+  camps.forEach(camp => {
+    const valors = valorsDisponibles(camp);
+    const nomCamp = { rol: "Rol", etapa: "Etapa", centre: "Centre", anys: "Anys d'experiència" }[camp];
+    html += `<div class="filtre-group"><h4>${nomCamp}</h4><div class="filtre-opcions">`;
+    Object.entries(valors).sort((a, b) => b[1] - a[1]).forEach(([val, count]) => {
+      const labelMap = FILTRE_LABELS[camp];
+      const label = (labelMap && labelMap[val]) ? labelMap[val] : (val || "(sense especificar)");
+      html += `<label class="filtre-opcio">
+        <input type="checkbox" data-camp="${camp}" data-val="${escapeAttr(val)}">
+        <span>${escapeHtml(label)}</span>
+        <span class="filtre-count">${count}</span>
+      </label>`;
+    });
+    html += `</div></div>`;
+  });
+
+  // Filtre dubte
+  html += `<div class="filtre-group"><h4>Patró de resposta</h4><div class="filtre-opcions">
+    <label class="filtre-opcio"><input type="radio" name="filtre-dubte" value="tots" checked> <span>Tots</span></label>
+    <label class="filtre-opcio"><input type="radio" name="filtre-dubte" value="sense_dubte"> <span>Només sense cap dubte E</span></label>
+    <label class="filtre-opcio"><input type="radio" name="filtre-dubte" value="amb_dubte"> <span>Només amb algun dubte E</span></label>
+    <label class="filtre-opcio"><input type="radio" name="filtre-dubte" value="dubte_alt"> <span>Només dubte alt (≥6 E)</span></label>
+  </div></div>`;
+
+  html += `</div>
+      <div class="filtre-actions">
+        <button onclick="resetFiltres()">Esborrar tots els filtres</button>
+        <button onclick="exportarSubgrupCSV()">⬇ Exportar subgrup actual (CSV)</button>
+        <span class="filtre-status" id="filtre-status-2"></span>
+      </div>
+    </div>
+    <div id="agregat-render"></div>
+  `;
+
+  container.innerHTML = html;
+
+  // Listeners delegats
+  container.querySelectorAll('input[type="checkbox"][data-camp]').forEach(cb => {
+    cb.addEventListener("change", () => {
+      const camp = cb.dataset.camp;
+      const val = cb.dataset.val;
+      if (cb.checked) filtresActius[camp].add(val);
+      else filtresActius[camp].delete(val);
+      aplicarFiltresIRenderitzar();
+    });
+  });
+  container.querySelectorAll('input[name="filtre-dubte"]').forEach(r => {
+    r.addEventListener("change", () => {
+      if (r.checked) {
+        filtresActius.dubte = r.value;
+        aplicarFiltresIRenderitzar();
+      }
+    });
+  });
+}
+
+function escapeAttr(s) {
+  return String(s || "").replace(/"/g, '&quot;');
+}
+
+function resetFiltres() {
+  document.querySelectorAll('#agregat-resultats input[type="checkbox"][data-camp]').forEach(cb => cb.checked = false);
+  document.querySelector('#agregat-resultats input[name="filtre-dubte"][value="tots"]').checked = true;
+  filtresActius = { rol: new Set(), etapa: new Set(), centre: new Set(), anys: new Set(), dubte: "tots" };
+  aplicarFiltresIRenderitzar();
+}
+
+function filtrarFiles() {
+  return agregatFiles.filter(f => {
+    const meta = f.data.metadata || {};
+    // Filtres multi-select: si no hi ha cap marcat, accepta tots
+    for (const camp of ["rol", "etapa", "centre", "anys"]) {
+      const set = filtresActius[camp];
+      if (set.size === 0) continue;
+      let v = meta[camp] || "";
+      if (camp === "centre") v = v.trim() || "(sense especificar)";
+      if (!set.has(v)) return false;
+    }
+    // Filtre dubte
+    const eCount = (f.data.perfil && f.data.perfil.recompte && f.data.perfil.recompte.E) || 0;
+    if (filtresActius.dubte === "sense_dubte" && eCount > 0) return false;
+    if (filtresActius.dubte === "amb_dubte" && eCount === 0) return false;
+    if (filtresActius.dubte === "dubte_alt" && eCount < 6) return false;
+    return true;
+  });
+}
+
+function aplicarFiltresIRenderitzar() {
+  const subset = filtrarFiles();
+  const status = `<strong>${subset.length}</strong> de ${agregatFiles.length} respostes`;
+  const s1 = document.getElementById("filtre-status");
+  const s2 = document.getElementById("filtre-status-2");
+  if (s1) s1.innerHTML = status;
+  if (s2) s2.innerHTML = status;
+
+  if (subset.length === 0) {
+    document.getElementById("agregat-render").innerHTML = '<div class="alert">Cap resposta coincideix amb els filtres aplicats. Esborra alguns filtres per veure resultats.</div>';
+    return;
+  }
+
+  // Agregació amb subset
   const totals = { A: 0, B: 0, C: 0, D: 0, E: 0 };
   const dubteTotals = { E1: 0, E2: 0, E3: 0, E4: 0 };
   const perEscenari = {}; // { "A1": {A:0, B:0, ...}, ... }
@@ -1269,7 +1505,7 @@ function procesarAgregat() {
     perEscenari[esc.id] = { A: 0, B: 0, C: 0, D: 0, E: 0, total: 0, titol: esc.titol, bloc: esc.bloc };
   });
 
-  agregatFiles.forEach(f => {
+  subset.forEach(f => {
     const d = f.data;
     // Recompte global
     if (d.perfil && d.perfil.recompte) {
@@ -1318,7 +1554,7 @@ function procesarAgregat() {
     }
   });
 
-  renderAgregat(n, totals, dubteTotals, perEscenari, perBloc, dominants, perRol, perEtapa, e2Alternatives);
+  renderAgregat(subset.length, totals, dubteTotals, perEscenari, perBloc, dominants, perRol, perEtapa, e2Alternatives);
 }
 
 function barCell(v, max, cls) {
@@ -1327,8 +1563,7 @@ function barCell(v, max, cls) {
 }
 
 function renderAgregat(n, totals, dubteTotals, perEscenari, perBloc, dominants, perRol, perEtapa, e2Alternatives) {
-  const container = document.getElementById("agregat-resultats");
-  container.classList.remove("hidden");
+  const container = document.getElementById("agregat-render");
 
   const totalRespostes = totals.A + totals.B + totals.C + totals.D + totals.E;
   const pct = k => totalRespostes > 0 ? Math.round((totals[k] / totalRespostes) * 100) : 0;
@@ -1339,14 +1574,15 @@ function renderAgregat(n, totals, dubteTotals, perEscenari, perBloc, dominants, 
   Object.entries(dominants).forEach(([k, v]) => { if (v === maxDom && maxDom > 0) domClaustre = k; });
   const perfilClaustre = PERFILS[domClaustre];
 
+  const subgrup = (n < agregatFiles.length) ? ` <small style="opacity:0.85;">(subgrup filtrat — ${agregatFiles.length - n} respostes excloses)</small>` : "";
   let html = `
     <div class="alert success">
-      <strong>${n} ${n === 1 ? "resposta carregada" : "respostes carregades"}</strong>
+      <strong>${n} ${n === 1 ? "resposta" : "respostes"} a la mostra actual</strong>${subgrup}
       · ${totalRespostes} respostes individuals processades
     </div>
 
     <div class="agg-section">
-      <h3>1. Perfil dominant del claustre</h3>
+      <h3>1. Perfil dominant del grup</h3>
       <div class="perfil-card">
         <h3>Perfil col·lectiu majoritari</h3>
         <div class="perfil-nom">${perfilClaustre.nom}</div>
@@ -1534,6 +1770,34 @@ function exportarAgregatJSON() {
   downloadBlob(blob, "agregat_questionari_interioritat.json");
 }
 
+function exportarSubgrupCSV() {
+  const subset = filtrarFiles();
+  if (subset.length === 0) { alert("No hi ha respostes al subgrup actual."); return; }
+  // Una fila per participant amb metadades + recompte + dominant
+  const headers = ["sessionId","rol","etapa","centre","anys","A","B","C","D","E","E1","E2","E3","E4","dominant"];
+  const lines = [headers.join(",")];
+  subset.forEach(f => {
+    const d = f.data;
+    const m = d.metadata || {};
+    const r = (d.perfil && d.perfil.recompte) || {};
+    const dt = (d.perfil && d.perfil.dubteTipus) || {};
+    const dom = (d.perfil && d.perfil.dominant) || "";
+    const row = [
+      d.sessionId || "",
+      m.rol || "",
+      m.etapa || "",
+      `"${(m.centre || "").replace(/"/g, '""')}"`,
+      m.anys || "",
+      r.A || 0, r.B || 0, r.C || 0, r.D || 0, r.E || 0,
+      dt.E1 || 0, dt.E2 || 0, dt.E3 || 0, dt.E4 || 0,
+      dom
+    ];
+    lines.push(row.join(","));
+  });
+  const blob = new Blob(["﻿" + lines.join("\n")], { type: "text/csv;charset=utf-8" });
+  downloadBlob(blob, `subgrup_${subset.length}respostes.csv`);
+}
+
 function downloadBlob(blob, name) {
   const url = URL.createObjectURL(blob);
   const link = document.createElement("a");
@@ -1556,6 +1820,8 @@ window.prevEscenari = prevEscenari;
 window.exportarResposta = exportarResposta;
 window.removeFile = removeFile;
 window.procesarAgregat = procesarAgregat;
+window.resetFiltres = resetFiltres;
+window.exportarSubgrupCSV = exportarSubgrupCSV;
 window.exportarAgregatCSV = exportarAgregatCSV;
 window.exportarAgregatJSON = exportarAgregatJSON;
 
