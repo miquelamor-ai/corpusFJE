@@ -20,30 +20,12 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-glossari.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-26'
+generat_at: '2026-05-31'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: f0e769f131a8d5e9
+checksum_font: e9a864169706d670
 ---
 
 # Generar glossari — skill operativa per a LLM
-
-## ⚠️ FORMAT BILINGÜE — CONDICIONAL (fix 2026-05-27)
-
-La columna de traducció L1 (bilingüe) **NOMÉS** s'inclou si:
-- El perfil té `nouvingut.actiu = true` AMB `nouvingut.l1` declarada (ex: "Àrab", "Xinès cantonès", "Urdú")
-- En aquest cas, la columna usa **la L1 real declarada** del perfil (no anglès, no castellà per defecte)
-
-**NO incloguis** la columna L1 si:
-- El perfil NO és nouvingut (TDAH, dislèxia, TEA, AC, DI sense nouvingut...) → glossari **monolingüe**
-- El perfil és nouvingut SENSE L1 declarada → glossari monolingüe + nota al docent
-
-**Format columna**:
-- Si L1 té alfabet propi (àrab, xinès, urdú, ciríl·lic): paraula en alfabet original (no transliteració)
-- Si L1 és romàniques (castellà, francès, italià): traducció directa
-
-**MAI** usis anglès com a L1 per defecte. L'anglès **només** apareix si l'alumne té anglès com L1 declarada explícitament.
-
----
 
 El glossari és un instrument de **mediació lèxica** que acompanya el text adaptat i ofereix definicions dels termes clau. La seva funció és reduir la càrrega cognitiva lèxica perquè l'alumne pugui centrar-se en la comprensió del contingut. Inclou una **variant bilingüe** per a alumnat nouvingut amb L1 coneguda.
 
@@ -84,7 +66,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 **5. Criteris transversals**
 - No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
 - No-recursivitat: La definició no usa cap paraula més tècnica que el terme mateix.
-- Llengua de definició: Català (mai L1 dins la definició; la L1 va a la columna pròpia).
+- Llengua de definició: Llengua de SORTIDA del text adaptat (català, castellà, anglès…). **MAI** usis termes d'una altra llengua com a fallback ni dins la definició. La L1 (si existeix) va a la columna pròpia, NO dins la cel·la d'explicació.
 - Selecció pertinent: Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren).
 - Fidelitat al text font: Tots els termes del glossari apareixen literalment al text adaptat (fidelitat al lèxic nuclear del text).
 
@@ -113,8 +95,8 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 **5. Criteris transversals**
 - No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
 - No-recursivitat: La definició usa només vocabulari A1 (mai termes més complexos sense explicar-los).
-- Llengua de definició: Català.
-- Selecció pertinent: Idem.
+- Llengua de definició: Idem (llengua de sortida).
+- Selecció pertinent: Idem. **Exclou explícitament a A1 + etapa primària inicial**: objectes domèstics (mitja, botó, agulla, fil, retolador, llapis, paper, plat, got, casa, taula, porta), parts del cos (cap, mà, ulls, boca, peu), verbs d'acció bàsics (posar, lligar, dibuixar, jugar, mirar, fer). Aquests són **coneixement previ**, no termes a explicar. Si el text no en conté CAP de realment nou per al nivell, escriu només la nota «Aquest text no necessita glossari nou per al teu nivell» sense taula.
 - Fidelitat al text font: Tots els termes apareixen literalment al text adaptat.
 
 **6. Autoavaluació metacognitiva**
@@ -142,7 +124,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 **5. Criteris transversals**
 - No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
 - No-recursivitat: Pot usar termes d'A2 màx.; tecnicismes només si s'expliquen integrats.
-- Llengua de definició: Català.
+- Llengua de definició: Idem.
 - Selecció pertinent: Idem.
 - Fidelitat al text font: Tots els termes apareixen literalment al text adaptat.
 
@@ -171,7 +153,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 **5. Criteris transversals**
 - No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
 - No-recursivitat: Pot usar termes B1 màx.; tecnicismes acompanyats d'exemple.
-- Llengua de definició: Català.
+- Llengua de definició: Idem.
 - Selecció pertinent: Idem.
 - Fidelitat al text font: Tots els termes apareixen al text o són col·locacions necessàries per a la comprensió.
 
@@ -200,7 +182,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 **5. Criteris transversals**
 - No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
 - No-recursivitat: Pot usar lèxic d'especialitat propi del camp si el lector ja el coneix.
-- Llengua de definició: Català.
+- Llengua de definició: Idem.
 - Selecció pertinent: Idem.
 - Fidelitat al text font: Termes literals + col·locacions + derivacions conceptualment necessàries.
 
@@ -229,7 +211,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 **5. Criteris transversals**
 - No-circularitat: El terme no apareix dins de la pròpia definició a cap nivell.
 - No-recursivitat: Lèxic d'especialitat lliure dins del camp; referència creuada quan calgui.
-- Llengua de definició: Català.
+- Llengua de definició: Idem.
 - Selecció pertinent: Idem (els meta-discursius sí entren).
 - Fidelitat al text font: Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp.
 

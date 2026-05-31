@@ -12,7 +12,7 @@ description: 'Use when the teacher has activated the "pictogrames" complement. I
 author: FJE — Fundació Jesuïtes Educació
 version: 4.0.0-canonic
 complement_key: pictogrames
-agent_role: complements
+agent_role: adapter
 tools_required: []
 triggers:
 - path: params.complements.pictogrames
@@ -22,9 +22,9 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-pictogrames.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-26'
+generat_at: '2026-05-31'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 7f6a3c598055a62b
+checksum_font: ed34a2094f8ee068
 ---
 
 # Generar pictogrames — skill operativa per a LLM

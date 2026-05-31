@@ -71,6 +71,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 - Text de menys de 100 paraules on els termes desconeguts es poden explicar oralment en 2 minuts.
 - L'alumnat coneix bé el vocabulari del tema (text familiar o repàs).
 - El temps és limitat i és millor una explicació oral directa.
+- **A1 + etapa primària inicial (1r-2n primària) + text amb vocabulari només quotidià** (ex.: receptari domèstic com "Com fer un titella de mitja", on els termes són mitja/botons/agulla/fil): el glossari textual afegeix càrrega lectora innecessària i no aporta significat nou. Considera **pictogrames com a alternativa** (mediació visual directa). Si tot i així s'activa, aplica el sostre del §Criteris transversals (max 2 termes realment nous).
 
 ## Modulació per nivell
 
@@ -86,8 +87,8 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 |  | Notes contrastives | Sense notes. La imatge és el pont. | Sense notes. La traducció directa és el pont. | Aclariment breu quan no hi ha equivalent exacte. | Notes conceptuals quan la categoria L1 difereix de la del català. | Notes morfosintàctiques o de col·locació quan són rellevants per a la comprensió. | Notes autonomes; pot incloure registre o variació diatòpica si és rellevant. |
 | **5. Criteris transversals** | No-circularitat | El terme no apareix dins de la pròpia definició a cap nivell. | El terme no apareix dins de la pròpia definició a cap nivell. | El terme no apareix dins de la pròpia definició a cap nivell. | El terme no apareix dins de la pròpia definició a cap nivell. | El terme no apareix dins de la pròpia definició a cap nivell. | El terme no apareix dins de la pròpia definició a cap nivell. |
 |  | No-recursivitat | La definició no usa cap paraula més tècnica que el terme mateix. | La definició usa només vocabulari A1 (mai termes més complexos sense explicar-los). | Pot usar termes d'A2 màx.; tecnicismes només si s'expliquen integrats. | Pot usar termes B1 màx.; tecnicismes acompanyats d'exemple. | Pot usar lèxic d'especialitat propi del camp si el lector ja el coneix. | Lèxic d'especialitat lliure dins del camp; referència creuada quan calgui. |
-|  | Llengua de definició | Català (mai L1 dins la definició; la L1 va a la columna pròpia). | Català. | Català. | Català. | Català. | Català. |
-|  | Selecció pertinent | Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren). | Idem. | Idem. | Idem. | Idem. | Idem (els meta-discursius sí entren). |
+|  | Llengua de definició | Llengua de SORTIDA del text adaptat (català, castellà, anglès…). **MAI** usis termes d'una altra llengua com a fallback ni dins la definició. La L1 (si existeix) va a la columna pròpia, NO dins la cel·la d'explicació. | Idem (llengua de sortida). | Idem. | Idem. | Idem. | Idem. |
+|  | Selecció pertinent | Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren). | Idem. **Exclou explícitament a A1 + etapa primària inicial**: objectes domèstics (mitja, botó, agulla, fil, retolador, llapis, paper, plat, got, casa, taula, porta), parts del cos (cap, mà, ulls, boca, peu), verbs d'acció bàsics (posar, lligar, dibuixar, jugar, mirar, fer). Aquests són **coneixement previ**, no termes a explicar. Si el text no en conté CAP de realment nou per al nivell, escriu només la nota «Aquest text no necessita glossari nou per al teu nivell» sense taula. | Idem. | Idem. | Idem. | Idem (els meta-discursius sí entren). |
 |  | Fidelitat al text font | Tots els termes del glossari apareixen literalment al text adaptat (fidelitat al lèxic nuclear del text). | Tots els termes apareixen literalment al text adaptat. | Tots els termes apareixen literalment al text adaptat. | Tots els termes apareixen al text o són col·locacions necessàries per a la comprensió. | Termes literals + col·locacions + derivacions conceptualment necessàries. | Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp. |
 | **6. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He mirat les imatges del glossari quan al text he trobat una paraula que no he reconegut." | "Quan llegint el text he trobat una paraula difícil, he anat al glossari a buscar-la abans de demanar ajuda." | "He fet servir el glossari per entendre el text. He intentat dir el significat amb les meves paraules a algú." | "He reflexionat sobre si sabia usar els termes del glossari en una frase pròpia, i així he sabut quins encara no domino." | "He pensat quina diferència hi ha entre els termes del glossari que es poden confondre i com triaria un o l'altre." | "He reflexionat sobre com s'usaria el terme en un altre context i si la definició encara seria vàlida." |
 
@@ -116,7 +117,7 @@ Cada dimensió té un **tipus de descriptor** que condiciona com s'ha de transfo
 | 4.2 Variant bilingüe — Notes contrastives | `qualitative` | no | LLM-jutge sobre presència i pertinença de notes |
 | 5.1 No-circularitat | `binary` | no | regex: el terme NO apareix dins de la pròpia definició |
 | 5.2 No-recursivitat | `qualitative` | no | LLM-jutge: les paraules de la definició són d'un nivell ≤ al terme |
-| 5.3 Llengua de definició | `binary` | no | detector de llengua sobre cada definició; ha de ser català |
+| 5.3 Llengua de definició | `binary` | no | detector de llengua sobre cada definició; ha de coincidir amb la llengua de SORTIDA del text adaptat (català per defecte, però adaptable a castellà/anglès/etc. segons el `lang` del cas). Sense fallbacks a altres llengües |
 | 5.4 Selecció pertinent | `qualitative` | no | LLM-jutge contra llista de tipus prohibits (connectors, noms propis, quotidians) |
 | 5.5 Fidelitat al text font | `cross_source` | **sí** (text adaptat) | comprovar que cada terme del glossari apareix al text adaptat; a B1+ permet col·locacions i derivacions. LLM-jutge amb tres prompts diferenciats segons nivell objectiu |
 | 6 Autoavaluació metacognitiva | `metacognitive` | no | derivat doble: autoavaluació alumne + registre docent de la qualitat |
@@ -125,7 +126,7 @@ Cada dimensió té un **tipus de descriptor** que condiciona com s'ha de transfo
 - A diferència de notícia, glossari té **molts descriptors `qualitative`** (tipologia lèxica, recursos pedagògics, no-recursivitat, selecció pertinent). LLM-jutge serà més carregat aquí.
 - `cross_source` a 5.5 requereix el **text adaptat** com a font (no el text original del docent). Cal accedir a `atne_adaptations.adapted_html` o `history.adapted_text` al pipeline.
 - 5.1 No-circularitat és `binary` mecànic — es pot validar amb regex sense LLM (gran avantatge per cost).
-- 5.3 Llengua de definició és `binary` amb detector lingüístic (langdetect o equivalent) — sense LLM.
+- 5.3 Llengua de definició és `binary` amb detector lingüístic (langdetect o equivalent) — sense LLM. La llengua esperada és la de **sortida** del text adaptat, no necessàriament català: si el cas demana sortida en castellà/anglès/etc., aquest test verifica que les definicions estiguin en aquella llengua. Sense fallbacks a paraules d'altres llengües (cas observat 2026-05-30: "titella → Muñeco" en sortida catalana, INCORRECTE).
 
 ## Heurístiques docent
 

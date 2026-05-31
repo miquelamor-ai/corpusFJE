@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-glossari.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-26'
+generat_at: '2026-05-31'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: f0e769f131a8d5e9
+checksum_font: e9a864169706d670
 ---
 
 # Generar glossari — prompt d'adaptació parametritzat per nivell
@@ -42,7 +42,7 @@ Text font:
 - **Notes contrastives**: Sense notes. La imatge és el pont.
 - **No-circularitat**: El terme no apareix dins de la pròpia definició a cap nivell.
 - **No-recursivitat**: La definició no usa cap paraula més tècnica que el terme mateix.
-- **Llengua de definició**: Català (mai L1 dins la definició; la L1 va a la columna pròpia).
+- **Llengua de definició**: Llengua de SORTIDA del text adaptat (català, castellà, anglès…). **MAI** usis termes d'una altra llengua com a fallback ni dins la definició. La L1 (si existeix) va a la columna pròpia, NO dins la cel·la d'explicació.
 - **Selecció pertinent**: Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren).
 - **Fidelitat al text font**: Tots els termes del glossari apareixen literalment al text adaptat (fidelitat al lèxic nuclear del text).
 - **Reflexió sobre el procés**: "He mirat les imatges del glossari quan al text he trobat una paraula que no he reconegut."
@@ -59,8 +59,8 @@ Text font:
 - **Notes contrastives**: Sense notes. La traducció directa és el pont.
 - **No-circularitat**: El terme no apareix dins de la pròpia definició a cap nivell.
 - **No-recursivitat**: La definició usa només vocabulari A1 (mai termes més complexos sense explicar-los).
-- **Llengua de definició**: Català.
-- **Selecció pertinent**: Idem.
+- **Llengua de definició**: Idem (llengua de sortida).
+- **Selecció pertinent**: Idem. **Exclou explícitament a A1 + etapa primària inicial**: objectes domèstics (mitja, botó, agulla, fil, retolador, llapis, paper, plat, got, casa, taula, porta), parts del cos (cap, mà, ulls, boca, peu), verbs d'acció bàsics (posar, lligar, dibuixar, jugar, mirar, fer). Aquests són **coneixement previ**, no termes a explicar. Si el text no en conté CAP de realment nou per al nivell, escriu només la nota «Aquest text no necessita glossari nou per al teu nivell» sense taula.
 - **Fidelitat al text font**: Tots els termes apareixen literalment al text adaptat.
 - **Reflexió sobre el procés**: "Quan llegint el text he trobat una paraula difícil, he anat al glossari a buscar-la abans de demanar ajuda."
 
@@ -76,7 +76,7 @@ Text font:
 - **Notes contrastives**: Aclariment breu quan no hi ha equivalent exacte.
 - **No-circularitat**: El terme no apareix dins de la pròpia definició a cap nivell.
 - **No-recursivitat**: Pot usar termes d'A2 màx.; tecnicismes només si s'expliquen integrats.
-- **Llengua de definició**: Català.
+- **Llengua de definició**: Idem.
 - **Selecció pertinent**: Idem.
 - **Fidelitat al text font**: Tots els termes apareixen literalment al text adaptat.
 - **Reflexió sobre el procés**: "He fet servir el glossari per entendre el text. He intentat dir el significat amb les meves paraules a algú."
@@ -93,7 +93,7 @@ Text font:
 - **Notes contrastives**: Notes conceptuals quan la categoria L1 difereix de la del català.
 - **No-circularitat**: El terme no apareix dins de la pròpia definició a cap nivell.
 - **No-recursivitat**: Pot usar termes B1 màx.; tecnicismes acompanyats d'exemple.
-- **Llengua de definició**: Català.
+- **Llengua de definició**: Idem.
 - **Selecció pertinent**: Idem.
 - **Fidelitat al text font**: Tots els termes apareixen al text o són col·locacions necessàries per a la comprensió.
 - **Reflexió sobre el procés**: "He reflexionat sobre si sabia usar els termes del glossari en una frase pròpia, i així he sabut quins encara no domino."
@@ -110,7 +110,7 @@ Text font:
 - **Notes contrastives**: Notes morfosintàctiques o de col·locació quan són rellevants per a la comprensió.
 - **No-circularitat**: El terme no apareix dins de la pròpia definició a cap nivell.
 - **No-recursivitat**: Pot usar lèxic d'especialitat propi del camp si el lector ja el coneix.
-- **Llengua de definició**: Català.
+- **Llengua de definició**: Idem.
 - **Selecció pertinent**: Idem.
 - **Fidelitat al text font**: Termes literals + col·locacions + derivacions conceptualment necessàries.
 - **Reflexió sobre el procés**: "He pensat quina diferència hi ha entre els termes del glossari que es poden confondre i com triaria un o l'altre."
@@ -127,7 +127,7 @@ Text font:
 - **Notes contrastives**: Notes autonomes; pot incloure registre o variació diatòpica si és rellevant.
 - **No-circularitat**: El terme no apareix dins de la pròpia definició a cap nivell.
 - **No-recursivitat**: Lèxic d'especialitat lliure dins del camp; referència creuada quan calgui.
-- **Llengua de definició**: Català.
+- **Llengua de definició**: Idem.
 - **Selecció pertinent**: Idem (els meta-discursius sí entren).
 - **Fidelitat al text font**: Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp.
 - **Reflexió sobre el procés**: "He reflexionat sobre com s'usaria el terme en un altre context i si la definició encara seria vàlida."

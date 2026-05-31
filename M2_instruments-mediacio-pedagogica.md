@@ -225,6 +225,20 @@ Distinció crítica per entendre per què molts alumnes nouvinguts (i NESE) frac
 
 **Implicació pedagògica**: les bastides lingüístiques (base d'orientació, catàleg de recursos) serveixen precisament per **construir el CALP** que l'alumne no pot adquirir espontàniament. Simplificar el text (BICS) no substitueix ensenyar el CALP.
 
+### Principi de proporcionalitat — "Menys és més" transversal (MALL)
+
+El principi rector *"Menys és més"* del MALL no s'aplica únicament dins d'instruments específics (preguntes max 10, bastides max 3 ítems/moment), sinó **també a la combinació d'instruments**. Davant un text adaptat, **NO maximitzem el nombre de complements per a un alumne**: sobre-mediar genera càrrega cognitiva extrínseca, fragmenta l'atenció i sovint redueix la comprensió en lloc d'augmentar-la.
+
+**Operacionalització**:
+- Un perfil amb una sola condició diagnòstica activa **2-3 complements** per defecte, no 5-7. Cada complement addicional ha de tenir justificació pedagògica explícita.
+- Si un complement no afegeix valor significatiu sobre el perfil×MECR×gènere actual, es desactiva.
+- Per a alumnat de **MECR baix + etapa inicial** (pre-A1, A1, 1r-2n primària), prioritzem **un (1) complement visual fort** (pictogrames inline) per sobre de diversos complements textuals (glossari, bastides escrita, esquema complex). La saturació textual és contraproduent.
+- L'auto-suggestió del sistema implementa aquest principi: la matriu condició→complements del Pas 2 d'ATNE proposa una mitjana de 2-3 complements per perfil (no els 12 possibles). El docent pot ampliar manualment, però el default és proporcional.
+
+**Justificació**: alineat amb el principi de càrrega cognitiva (Sweller) i amb la regla pràctica de Vygotsky que la bastida ha d'estar a la **ZDP**, no per damunt ni per sota. Massa bastides juntes desplacen l'alumne fora de la ZDP cap a la zona de saturació; massa poques, cap a la zona de frustració. *"Menys és més"* tradueix aquesta calibració en una regla operativa.
+
+**Implicació per a sistemes d'adaptació (ATNE i derivats)**: el sistema NO ha de proposar al docent un menú maximalista de complements. Ha de proposar el set mínim suficient per al perfil×nivell, i deixar que el docent ampliï conscientment. La maxima no és "tots els ajuts disponibles" sinó "els ajuts necessaris i suficients per a aquest cas".
+
 ---
 
 ## Gradacions MALL operatives per nivell

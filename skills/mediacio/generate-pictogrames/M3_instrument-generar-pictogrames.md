@@ -6,7 +6,7 @@ categoria_principal: mediacio
 categories_secundaries: []
 descripcio: "Instrument per afegir suport pictografic al text adaptat. Dos modes: emoji Unicode (BICS general) i ARASAAC [PICTO: terme_cat|terme_cast] (TEA, CAA, nouvingut+disciplinar). Pre-A1/A1 inline com a anticipacio; A2+ glossari visual al peu. Rubrica gradada 7 passos × 6 nivells MECR (pre-A1→C1). Multimodal obligatori. Modulacio per perfil (TEA, nouvingut, general)."
 mecr_range: [pre_A1, A1, A2, B1, B2, C1] # C1: nomes per termes tecnics altament especialitzats sense representacio quotidiana
-agent_roles: [generator]
+agent_roles: [adapter]  # Canvi 2026-05-31: pictogrames són inline al text adaptat (call 1), no complements separats (call 2). Veure ATNE doc proposta_post_fase0_2026_05_31.md §4A
 complement_key: pictogrames
 translanguaging: false
 multimodal: true
