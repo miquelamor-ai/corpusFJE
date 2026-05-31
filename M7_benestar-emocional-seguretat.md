@@ -2,14 +2,14 @@
 modul: M7
 titol: "Benestar Emocional i Seguretat"
 tipus: marc
-descripcio: "Clima emocional segur, regulació emocional, detecció de malestar i protocols de suport"
+descripcio: "Clima emocional segur per a l'alumnat, regulació emocional, detecció de malestar i protocols de suport; benestar del docent com a condició institucional del benestar de l'alumnat"
 review_status: esborrany
 generat_at: 2026-03-18T16:19:58
 ---
 
 ## Abstract
 
-El marc del Benestar Emocional i la Seguretat és la creació intencional d'un entorn educatiu on l'alumnat se senti protegit, comprès i capaç de desenvolupar-se plenament, no com una qüestió secundària a l'aprenentatge sinó com a condició necessària per a aquest. Pretén garantir que **l'aprenentatge significatiu sigui possible** a través d'un clima de confiança i estabilitat emocional, oferint —especialment als més vulnerables— una resposta educativa serena, equilibrada i justa. Aporta la fonamentació de la Teoria de l'Aferrament (Bowlby, Ainsworth) i el model d'Entorns Educatius Favorables (Horner) com a marc operatiu per al treball docent i institucional. Idees-força: l'escola com a "base segura" que replica vincles afectius segurs; entorns previsibles, coherents i positius; entendre el "per què" de la conducta abans del "què" (avaluació funcional). NO és un tractament terapèutic ni una resposta exclusivament reactiva.
+El marc del Benestar Emocional i la Seguretat és la creació intencional d'un entorn educatiu on l'alumnat se senti protegit, comprès i capaç de desenvolupar-se plenament, no com una qüestió secundària a l'aprenentatge sinó com a condició necessària per a aquest. Pretén garantir que **l'aprenentatge significatiu sigui possible** a través d'un clima de confiança i estabilitat emocional, oferint —especialment als més vulnerables— una resposta educativa serena, equilibrada i justa. Aporta la fonamentació de la Teoria de l'Aferrament (Bowlby, Ainsworth) i el model d'Entorns Educatius Favorables (Horner) com a marc operatiu per al treball docent i institucional. Idees-força: l'escola com a "base segura" que replica vincles afectius segurs; entorns previsibles, coherents i positius; entendre el "per què" de la conducta abans del "què" (avaluació funcional); el benestar del docent com a condició institucional —no només com a resiliència individual— del benestar de l'alumnat. NO és un tractament terapèutic ni una resposta exclusivament reactiva.
 
 ## Definició i principis
 
@@ -67,6 +67,40 @@ La **regulació emocional** es treballa a través d'intervencions proactives i u
 -   **Tensions amb enfocaments purament academicistes o disciplinaris:** Aquest marc posa un èmfasi significatiu en l'entorn, la relació i el benestar emocional com a condicions prèvies per a l'aprenentatge. Pot haver-hi tensions amb enfocaments educatius que prioritzen exclusivament el rendiment acadèmic o la disciplina rígida sense considerar les necessitats emocionals subjacents de l'alumnat. L'equilibri és clau: un entorn segur i emocionalment ric no és un substitut de l'aprenentatge, sinó el seu fonament indispensable. La seguretat facilita l'exploració i la presa de riscos necessàries per a l'adquisició de nous coneixements.
 
 -   **Contextos de crisi, trauma o alta vulnerabilitat:** En situacions de crisi (catàstrofes naturals, pandèmies) o quan l'alumnat ha patit experiències de trauma o viu en contextos d'alta vulnerabilitat social, les necessitats de benestar emocional i seguretat es disparen. Les estratègies habituals poden requerir una intensificació o adaptacions més profundes, prioritzant la contenció emocional, la restauració de la sensació de seguretat i la satisfacció de necessitats bàsiques abans de qualsevol altra demanda acadèmica o conductual. En aquests casos, la flexibilitat i la capacitat de resposta ràpida són essencials.
+
+## Benestar del docent com a condició institucional
+
+El benestar emocional de l'alumnat no es pot sostenir sense la salut mental del professorat. Una "base segura" requereix adults amb capacitat de mentalització, de regulació emocional i de presència sostinguda. Aquesta secció obre el marc cap a la cura del docent com a part integrant del benestar institucional, no com a tema apart.
+
+### El malestar docent com a fet organitzatiu
+
+El burnout docent es manifesta en **tres dimensions** (Maslach & Jackson, 1981): esgotament emocional, despersonalització i baixa realització personal. No és una falla de caràcter ni manca de "vocació": és una resposta a una asimetria sostinguda entre demandes i recursos en el lloc de treball. El **model demandes-recursos (JD-R)** de Schaufeli i Bakker descriu precisament aquesta dinàmica i identifica el *work engagement* (vigor, dedicació, absorció) com a contrapunt positiu del burnout, sostingut per recursos com l'autonomia, el reconeixement i el suport entre iguals.
+
+Les dades de l'OCDE (TALIS 2018) situen aquest malestar com a fenomen estès: al voltant del **18% de docents** se senten sovint estressats; **~49%** identifiquen l'excés de feina administrativa com a font principal d'estrès; només **~26%** creuen que la societat valora la professió. El malestar, doncs, és en bona part organitzatiu i social abans que individual.
+
+### Mentalització i suport entre iguals
+
+La **mentalització** —prendre consciència de l'impacte emocional de l'aula i de les pròpies reaccions— és una pràctica central per a la cura del docent. El "pensar junts" en equip, compartint vivències i casos amb un protocol relator-facilitador, trenca l'aïllament que sovint acompanya el malestar docent i transforma l'experiència individual en aprenentatge col·lectiu.
+
+L'**eficàcia col·lectiva docent** (Eells, 2011) és la creença compartida d'un equip que pot influir en els resultats del seu alumnat. Hattie la situa entre les influències més fortes en l'aprenentatge (d≈1.57). No emergeix espontàniament: es construeix amb estructures de suport entre iguals, comunitats professionals d'aprenentatge i moments compartits de mentalització de casos.
+
+### Intervencions amb evidència i els seus límits
+
+Les intervencions individuals (mindfulness, reducció d'estrès basada en l'atenció plena seguint el model MBSR de Kabat-Zinn, 1979) tenen efectes positius documentats sobre el benestar docent, però amb heterogeneïtat entre estudis: són un **complement, no un substitut** de la cura organitzativa.
+
+Les **Directrius sobre Salut Mental al Treball** de l'OMS (2022) ho explicita: cal intervenir sobre l'organització del treball i formar els comandaments, no només la persona. La cura de qui cuida és, en primer lloc, una responsabilitat institucional.
+
+### La cura de qui cuida com a actitud institucional
+
+El benestar docent no s'aconsegueix amb xerrades motivacionals puntuals ni amb la mera invitació a "ser més resilient". Es construeix amb:
+
+- Reconeixement de l'impacte emocional de la feina docent com a fet, no com a queixa.
+- Estructures d'equip estables on és possible compartir vivències i pensar junts.
+- Càrregues realistes i autonomia professional preservada.
+- Comandaments formats per detectar senyals d'esgotament i acompanyar-los.
+- Cultura on demanar suport és reconegut com a fortalesa professional, no com a debilitat.
+
+L'escola que cura els seus educadors és l'escola que pot sostenir la "base segura" per a l'alumnat. Aquesta correspondència no és metafòrica: és estructural.
 
 ## 3. Connexions amb altres documents del corpus
 
@@ -161,3 +195,9 @@ La **regulació emocional** es treballa a través d'intervencions proactives i u
 - Ainsworth, M. D. S. (1978). *Patterns of Attachment: A Psychological Study of the Strange Situation*. Hillsdale: Lawrence Erlbaum.
 - Hattie, J. (2009). *Visible Learning: A Synthesis of Over 800 Meta-Analyses Relating to Achievement*. Londres: Routledge.
 - Decret 150/2017, de 17 d'octubre, de l'atenció educativa a l'alumnat en el marc d'un sistema educatiu inclusiu. DOGC núm. 7477.
+- Maslach, C., & Jackson, S. E. (1981). The measurement of experienced burnout. *Journal of Occupational Behavior*, 2(2), 99-113. Burnout en tres dimensions: esgotament emocional, despersonalització i baixa realització personal.
+- Schaufeli, W. B., & Bakker, A. B. (2004). Job demands, job resources, and their relationship with burnout and engagement: A multi-sample study. *Journal of Organizational Behavior*, 25(3), 293-315. Model demandes-recursos (JD-R) i *work engagement* com a contrapunt positiu del burnout.
+- OCDE (2020). *TALIS 2018 Results (Volume II): Teachers and School Leaders as Valued Professionals*. París: OECD Publishing. ~18% docents sovint estressats; ~49% citen excés de feina administrativa com a font d'estrès; ~26% creuen que la societat valora la professió.
+- Eells, R. J. (2011). *Meta-analysis of the relationship between collective teacher efficacy and student achievement* (tesi doctoral). Loyola University Chicago. L'eficàcia col·lectiva docent es relaciona fortament amb l'aprenentatge de l'alumnat (d≈1.57; Hattie la situa com a influència de primer ordre).
+- Kabat-Zinn, J. (1979/1990). *Full Catastrophe Living: Using the Wisdom of Your Body and Mind to Face Stress, Pain, and Illness*. Nova York: Delacorte. Programa fundacional de reducció de l'estrès basat en l'atenció plena (MBSR), base de moltes intervencions de benestar.
+- World Health Organization (2022). *Guidelines on Mental Health at Work*. Ginebra: WHO. Recomana intervenir sobre l'organització del treball i formar els comandaments, no només la persona: les intervencions individuals soles són insuficients.
