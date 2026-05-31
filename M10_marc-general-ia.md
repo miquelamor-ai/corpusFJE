@@ -8,6 +8,10 @@ generat_at: 2026-05-10
 paraules_clau: ["intel·ligència artificial", "marc general", "Model 4D", "fluïdesa IA", "MIHIA", "humanisme ignasià", "subordinació tecnològica", "graus de delegació"]
 ---
 
+## Abstract
+
+El Marc General per a la Integració de la Intel·ligència Artificial és el **document fundacional FJE** que articula com la xarxa d'escoles assumeix el repte de la IA des d'una mirada humanista ignasiana, **no com a adaptació passiva ni com a tecnolatria** sinó com a exercici continu de discerniment basat en el principi de **subordinació tecnològica**: la IA esdevé interlocutor educatiu vàlid només si contribueix a la personalització de l'aprenentatge, al benestar de la persona i al desenvolupament del judici crític de l'alumnat. Pretén que el centre FJE integri la IA a la gestió institucional, la pràctica docent i l'aprenentatge de l'alumnat amb una mateixa coherència humanitzadora, vetllant per benestar integral, ètica, privacitat, desconnexió digital i equitat d'accés. Aporta una arquitectura amb 5 principis rectors, 6 tensions dialèctiques, el **Model 4D** (Delegació, Descripció, Discerniment, Diligència), els **graus MIHIA** (N0-N5) i un mapa pedagògic per etapa i col·lectiu. Idees-força: subordinació tecnològica com a principi rector; el sentit és la clau, no la tecnologia; missió de reconciliació amb Déu, humanitat i creació; "audàcia de l'impossible". NO és una guia tècnica d'eines ni un protocol uniforme.
+
 ## INTRODUCCIÓ
 
 Jesuïtes Educació assumeix el repte de la intel·ligència artificial (IA) des d'una mirada esperançada i exigent. Com ens recordava Sant Ignasi de Loiola, estem cridats a "trobar Déu en totes les coses"; avui, aquesta crida inclou també la tecnologia digital. No la veiem com una simple eina freda, sinó com una extensió de la capacitat humana que hem de saber discernir i posar al servei de la nostra missió i a favor del bé comú.

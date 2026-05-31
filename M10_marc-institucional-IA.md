@@ -8,6 +8,10 @@ generat_at: 2026-05-10T00:00:00
 paraules_clau: ["intel·ligència artificial", "marc general", "Model 4D", "fluïdesa IA", "MIHIA", "humanisme ignasià", "subordinació tecnològica", "graus de delegació"]
 ---
 
+## Abstract
+
+El Marc Institucional de la IA és el **posicionament fundacional de Jesuïtes Educació** davant la intel·ligència artificial, **no com a adaptació passiva ni com a guia tècnica** sinó com a exercici continu de discerniment basat en el principi de **subordinació tecnològica**: la IA és interlocutor educatiu vàlid només si contribueix a la personalització de l'aprenentatge, al benestar de la persona i al judici crític. Pretén que el centre integri la IA en gestió, docència i aprenentatge amb una mateixa coherència humanitzadora, identificant tensions dialèctiques que no es resolen sinó que es viuen amb consciència. Aporta una arquitectura amb 5 principis rectors (antropocentrisme, transparència, verificació, equitat, benestar), 6 tensions dialèctiques, el **Model 4D** (Delegació, Descripció, Discerniment, Diligència), els **graus MIHIA** (N0-N5) i orientacions per col·lectiu. Idees-força: subordinació tecnològica com a principi rector; la decisió en qüestions humanes és sempre humana; cap output de IA s'accepta passivament; les tensions s'habiten, no es resolen. NO és una guia tècnica d'eines ni un protocol uniforme.
+
 ## Posicionament
 
 Jesuïtes Educació assumeix el repte de la intel·ligència artificial (IA) des d'una mirada esperançada i exigent. Fidels a la crida ignasiana de "trobar Déu en totes les coses", la tecnologia digital no es percep com una eina freda sinó com una extensió de la capacitat humana que hem de saber discernir i posar al servei de la missió i del bé comú.
