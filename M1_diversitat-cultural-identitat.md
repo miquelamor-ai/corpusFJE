@@ -148,3 +148,5 @@ El marc teòric de la diversitat cultural i l'educació intercultural és àmpli
 - Bronfenbrenner, U. (1979). *The Ecology of Human Development*. Cambridge: Harvard University Press.
 - Departament d'Educació (2004). *Pla LIC: Llengua, Interculturalitat i Cohesió Social*. Barcelona: Generalitat de Catalunya.
 - Generalitat de Catalunya (2022). *Projecte lingüístic de centre: Orientacions*. Barcelona: Departament d'Educació.
+- Banks, J. A. (2015). *Cultural Diversity and Education: Foundations, Curriculum, and Teaching* (6a ed.). New York: Routledge. L'educació multicultural/intercultural com a transformació del currículum i de l'estructura escolar, no com a activitat afegida; integració de continguts i equitat pedagògica.
+- Allport, G. W. (1954). *The Nature of Prejudice*. Reading, MA: Addison-Wesley. Hipòtesi del contacte: el contacte intergrupal en condicions d'igualtat, objectiu comú i suport institucional redueix prejudicis i estereotips. Fonament del treball d'actituds i del clima d'aula.

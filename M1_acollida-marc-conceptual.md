@@ -182,3 +182,4 @@ La decisió de sortida de l'AA es basa en el nivell de competència lingüístic
 - Departament d'Educació (2025-2026). *Document d'Organització i Instruccions de Gestió de Centre (DOIGC): Gestió de l'educació inclusiva*. Generalitat de Catalunya.
 - Consell d'Europa (2001). *Marc Europeu Comú de Referència per a les Llengües (MECR): Aprenentatge, Ensenyament, Avaluació*. Estrasburg: Consell d'Europa.
 - Cummins, J. (2001). *Negotiating identities: Education for empowerment in a diverse society* (2a ed.). Los Angeles: California Association for Bilingual Education.
+- Booth, T., & Ainscow, M. (2011). *Index for Inclusion: Developing learning and participation in schools* (3a ed.). Bristol: CSIE. Marc per desenvolupar la presència, la participació i l'aprenentatge de tot l'alumnat; distinció clau entre ser-hi (presència) i participar de debò.
