@@ -9,6 +9,10 @@ review_status: draft
 generat_at: 2026-03-18T00:00:00
 ---
 
+## Abstract
+
+El Model de Caracterització de la Diversitat és l'**arquitectura conceptual de tres nivells** —característica, perfil, grup— que permet representar i processar la diversitat de l'alumnat de manera precisa, eficient i respectuosa, **no com a classificació diagnòstica ni com a eina d'etiquetatge** sinó com a sistema funcional per recuperar el coneixement pedagògic adequat a cada situació real. Pretén que el centre disposi d'una representació prou rica per donar resposta a la combinació de factors que cada alumne presenta, sense reduir la persona a una etiqueta i sense ignorar la seva complexitat. Aporta la distinció **constitutiva/contextual** (característiques estables vs. transitòries) com a discriminador ètic i tècnic, i un model de combinació de característiques que orienta l'adaptació pedagògica per situació concreta, no en abstracte. Idees-força: la diversitat és la norma, no l'excepció; cap alumne és **una sola** característica; constitutiu i contextual demanen tractaments diferents; les barreres a l'aprenentatge resideixen al context, no a la persona (DUA). NO és una classificació diagnòstica ni una etiqueta identitària.
+
 ## Definició i principis
 
 La diversitat a l'aula no és una excepció ni un problema a resoldre — és la norma. Qualsevol grup d'alumnes conté una varietat de maneres d'aprendre, de comunicar-se, de processar la informació i de relacionar-se amb el coneixement. El repte pedagògic no és reduir aquesta diversitat a categories fixes i estanques, sinó disposar d'un sistema de representació prou ric i prou flexible per donar-hi resposta de manera precisa, eficient i respectuosa.

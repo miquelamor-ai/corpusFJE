@@ -8,6 +8,10 @@ generat_at: 2026-03-18T11:16:24
 actualitzat_at: 2026-03-27T01:00:00
 ---
 
+## Abstract
+
+La neurodiversitat i les NESE constitueixen el **marc conceptual i normatiu** que reconeix la variabilitat natural en el funcionament cerebral i articula la resposta educativa a tot l'alumnat que requereix una atenció diferent a l'ordinària, **no com a dèficits a corregir** sinó com a part de la riquesa humana i com a barreres del context, no de la persona. Pretén que el centre disposi d'una arquitectura clara per donar resposta gradual i proporcional (mesures universals → addicionals → intensives), distingint amb precisió NESE (terme paraigua) de NEE (subcategoria d'alta intensitat) i integrant les categories LOMLOE i el Decret 150/2017 en una pràctica coherent. Aporta la jerarquia conceptual NESE/NEE, les cinc categories legals, els tres nivells de mesures de suport, el procediment de reconeixement i la base del Pla Individualitzat (PI). Idees-força: NESE i NEE no són sinònims; el focus són les barreres del context, no el dèficit de l'alumne; resposta gradual i proporcional; la diversitat funcional, cultural i lingüística és riquesa, no problema. NO és un sistema d'etiquetatge ni un procediment estrictament administratiu.
+
 ## Definició i principis
 
 La **neurodiversitat** és un concepte que reconeix la variabilitat natural en el funcionament del cervell humà, entenent les diferents maneres de pensar, aprendre i processar informació com a part de la riquesa humana, no com a dèficits. Les **Necessitats Específiques de Suport Educatiu (NESE)** fan referència a tots aquells alumnes que requereixen una atenció educativa diferent a l'ordinària per assolir el màxim desenvolupament possible de les seves capacitats personals i els objectius d'aprenentatge.
