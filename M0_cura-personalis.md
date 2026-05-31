@@ -1,6 +1,6 @@
 ---
 modul: M0
-titol: 0.2_Cura_Personalis
+titol: "Cura Personalis"
 tipus: marc
 descripcio: 'Cura de la persona com a eix vertebrador de la pedagogia ignasiana: coneixement del subjecte, integralitat i acompanyament'
 paraules_clau:
@@ -9,18 +9,15 @@ paraules_clau:
   - personalització
   - 'discreta caritat'
   - 'pedagogia ignasiana'
-fonts:
-  - "Comissió Internacional (1986). Característiques de l'educació a la Companyia de Jesús."
-  - 'Comissió Internacional (1993). Pedagogia Ignasiana. Un plantejament pràctic.'
-  - 'Comissió Internacional (2019). Escoles Jesuïtes: Una Tradició Viva al Segle XXI.'
-  - 'Charmot, F. (1952). La Pedagogía de los Jesuitas.'
-  - 'Sacchini, F. (1625). Protrepticon ad Magistros.'
-  - 'Jesuïtes Educació (2023). Per a qui sóc jo? Cap a una cultura vocacional.'
 review_status: revisat
 last_editor: miquel.amor@fje.edu
 last_editor_at: '2026-05-07T21:13:19Z'
 generat_at: 1773705600
 ---
+
+## Abstract
+
+La *cura personalis* (cura de la persona) és l'eix vertebrador de la pedagogia ignasiana: una antropologia que reconeix cada alumne com a subjecte únic, irrepetible i capaç de creixement, no una simple "atenció individualitzada" ni un servei de tutoria tècnica. Pretén que **l'acció educativa sigui una trobada entre llibertats** on qui ensenya "deixa obrar el Creador amb la criatura" i acompanya l'alumne a descobrir-se com a projecte de futur orientat al servei dels altres. Aporta una arquitectura de sis principis (coneixement del subjecte, integritat, dialèctica *cura personalis*↔*cura apostolica*, *Discreta Caritat*, testimoni vital de l'educador, plasticitat) que orienta l'acompanyament en totes les etapes. Idees-força: el subjecte sempre és més important que el programa; amor intel·ligent (no proteccionisme ni rigor cec); el creixement individual es finalitza en el servei al bé comú. NO és atenció genèrica, ni proteccionisme, ni psicoterapia.
 
 ## Definició i principis
 
@@ -39,6 +36,19 @@ La *cura personalis* (cura de la persona) no és una simple "atenció individual
 **L'educador com a testimoni.** Autors com Bonifacio i Sacchini subratllen la paradoxa de la vocació educativa: persones de talent que renuncien a posicions de prestigi per dedicar-se al treball humil de l'acompanyament. Aquesta "segona puresa" — el sacrifici del propi ego — és el que transforma el magisteri en paternitat/maternitat espiritual. Charmot adverteix contra el "magisteri mercenari": el docent que compleix un horari sense comprometre la seva pròpia vida en el procés.
 
 **Plasticitat i responsabilitat.** L'alumne, especialment en les primeres etapes, posseeix una plasticitat única — els hàbits gravats aviat persistiran tota la vida. Per tant, l'acció pedagògica ha de combinar fermesa en els costums i dolcesa en el tracte. L'educador no actua en nom propi sinó com a facilitador perquè l'alumne trobi la seva pròpia inclinació natural cap al bé.
+
+## Autors i evidència clau
+
+El marc de la *cura personalis* s'arrela en la tradició espiritual i pedagògica de la Companyia de Jesús, amb aportacions clau de:
+
+*   **Sant Ignasi de Loiola (1491-1556).** A les *Constitucions* i als *Exercicis Espirituals* estableix el principi de procedir segons "temps, llocs i persones" i l'"Anotació 15" sobre la llibertat sagrada de qui aprèn (l'acompanyant s'ha d'estar com la "llengüeta d'una balança"). La seva antropologia és la font primària del marc.
+*   **Francesco Sacchini (1570-1625).** Al *Protrepticon ad Magistros scholarum inferiorum Societatis Iesu* defineix l'educador com a *divini caelator* (cisellador diví) i la "Discreta Caritat" com a criteri mestre de l'acompanyament — amor intel·ligent i ponderat, ni proteccionisme ni rigor sense empatia.
+*   **Juan Bonifacio (1538-1606).** A *De praeclara pueritia, novaeque aetatis defensione* subratlla la paradoxa vocacional del magisteri: persones de talent que renuncien a posicions de prestigi per dedicar-se al treball humil de l'acompanyament — la "segona puresa" del sacrifici del propi ego.
+*   **François Charmot, S.J. (1952).** A *La Pedagogía de los Jesuitas: Sus principios, su actualidad* introdueix la crítica al "magisteri mercenari" — el docent que separa el saber de la saviesa, complint un horari sense comprometre la pròpia vida en el procés educatiu.
+*   **Comissió Internacional de l'Apostolat de l'Educació SJ.** Documents canònics: *Característiques de l'educació a la Companyia de Jesús* (1986), *Pedagogia Ignasiana: Un plantejament pràctic* (1993) i *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI* (2019). Operacionalitzen la *cura personalis* dins el cicle PPI i el desplegament contemporani.
+*   **Jesuïtes Educació (FJE).** *Per a qui sóc jo? Cap a una cultura vocacional a les nostres institucions* (2023) i *Document Marc de Ciutadania Global* (2020). Concreten la *cura personalis* a la pràctica institucional FJE: discerniment vocacional, projecte vital, equilibri entre cura individual i orientació al bé comú.
+
+**Tensió clau a l'evidència:** la dialèctica *cura personalis* ↔ *cura apostolica* travessa tota la tradició. La cura individual no es justifica per si mateixa sinó per la seva orientació al servei comú — formar "homes i dones per als altres" (Arrupe, 1973). Sense aquesta finalitat, la *cura personalis* derivaria en individualisme afectiu, contrari a l'esperit ignasià.
 
 ## Exemples concrets d'aplicació a l'aula
 
@@ -93,80 +103,87 @@ La *cura personalis* (cura de la persona) no és una simple "atenció individual
 
 ### Senyals del docent
 
-Aquest marc és pertinent quan el docent:
-- Demana "més protocols de càstig" o "normes més rígides" davant d'un grup difícil — està substituint la cura pel control
-- Expressa cansament burocràtic o pèrdua de sentit en el magisteri — senyal de "magisteri mercenari"
-- Tracta la matèria com a simple acumulació d'informació, oblidant la reflexió humanitzadora
-- Mostra dificultats per gestionar la diversitat d'estils d'aprenentatge a l'aula
-- Utilitza un llenguatge que "etiqueta" els alumnes per les seves notes o comportament passat
-- Es qüestiona si l'aplicació rígida de la normativa està perjudicant la relació amb un alumne
-- Expressa dificultat per unir els continguts tècnics (ciència) amb la formació del caràcter (virtut)
+- Demana "més protocols de càstig" o "normes més rígides" davant d'un grup difícil — substituint la cura pel control.
+- Expressa cansament burocràtic o pèrdua de sentit en el magisteri — senyal de "magisteri mercenari".
+- Tracta la matèria com a simple acumulació d'informació, oblidant la reflexió humanitzadora.
+- Mostra dificultats per gestionar la diversitat d'estils d'aprenentatge a l'aula.
+- Utilitza un llenguatge que "etiqueta" els alumnes per les seves notes o comportament passat.
+- Es qüestiona si l'aplicació rígida de la normativa està perjudicant la relació amb un alumne.
+- Expressa dificultat per unir els continguts tècnics (ciència) amb la formació del caràcter (virtut).
 
 ### Senyals de l'alumne
 
-Aquest marc és pertinent quan l'alumne:
-- Mostra una fragilitat interior o desesperança apresa davant del futur — pèrdua del candor natural
-- Té un rendiment acadèmic alt però una buidor vocacional absoluta (èxit acadèmic vs fracàs vital)
-- S'aïlla en el món virtual per evitar la trobada real amb els altres
-- Manifesta resistència passiva a la mecànica escolar — caiguda en el rendiment que no prové de falta de capacitat sinó de desconnexió amb el sentit d'allò que estudia
-- Formula preguntes sobre el futur que busquen sentit vital, no només informació tècnica
+- Mostra fragilitat interior o desesperança apresa davant del futur — pèrdua del candor natural.
+- Té un rendiment acadèmic alt però una buidor vocacional absoluta (èxit acadèmic vs fracàs vital).
+- S'aïlla en el món virtual per evitar la trobada real amb els altres.
+- Manifesta resistència passiva a la mecànica escolar — caiguda en el rendiment que no prové de falta de capacitat sinó de desconnexió amb el sentit d'allò que estudia.
+- Formula preguntes sobre el futur que busquen sentit vital, no només informació tècnica.
 
+### Senyals de context
 
-### Principi general
+- Moments de transició entre etapes educatives (infantil-primària, primària-ESO, ESO-batxillerat o FP) que generen fragilitat o desorientació en l'alumnat.
+- Situacions d'alta diversitat al grup que demanen acompanyament individualitzat dins una dinàmica comuna.
+- Esdeveniments vitals significatius (dol, malaltia familiar, ruptures, canvi de centre) que afecten un alumne concret.
+- Sessions de tutoria personalitzada o moments del projecte vital i vocacional.
+- Crisis de motivació, conducta o convivència on la lectura purament tècnica resulta insuficient.
+- Equips docents que revisen el seu projecte educatiu i busquen alinear pràctica i identitat ignasiana.
 
-> L'educació és una trobada entre llibertats on el subjecte és sempre més important que el programa, i on el creixement individual s'ha d'orientar cap al servei del bé comú. L'acompanyament no decideix per ningú.
+### Anti-senyals
 
-### Heurístiques per al docent
+- Una situació d'emergència on cal intervenció ràpida i protocol·lària (risc per a la integritat física) — primer la seguretat, després la cura.
+- Casos que excedeixen la competència professional docent (patologia greu, situacions clíniques) — la cura es concreta a derivar a professionals especialitzats, no a intentar resoldre des de l'aula.
+- Quan la *cura personalis* es confon amb proteccionisme i s'esborra l'exigència — la cura ignasiana inclou fermesa formativa.
+- Quan la informació personal de l'alumne s'usa per "manipular" decisions a favor del centre — trair la confiança és l'oposat de la cura.
 
-#### H1: El cisellador, no el botxí
-- **Quan aplica**: Quan el docent expressa frustració i vol càstigs purament punitius.
-- **Fonament**: Sacchini descriu l'educador com un *divini caelator* — algú que esculpeix ànimes amb delicadesa. La diferència entre cisellador i botxí és la caritat: el primer modela, el segon trenca. La sanció punitiva sense comprensió del subjecte talla la voluntat de l'alumne en lloc de donar-li forma.
-- **Exemple complet de raonament**:
-  > Davant un docent que diu "aquest alumne és impossible, l'expulso demà": la frustració moral és legítima, però la reacció s'allunya de la cura. L'alumne encara és modelable — quin és el context que genera la indisciplina? Pot ser una crisi familiar, una identitat en reconstrucció, o una prova de límits. Expulsar ara sense entendre és actuar com a botxí. Cal proposar al docent: "Abans d'expulsar, inverteix 15 minuts en una conversa privada. Pregunta-li què li passa, no què ha fet. Si després cal sanció, que sigui formativa — un encàrrec de responsabilitat que posi a prova el seu caràcter, no un càstig que el confirmi com a 'impossible'."
+### Heurístiques
 
-#### H2: El Magisteri com a Vocació, no com a Ofici
-- **Quan aplica**: Quan el docent mostra desinterès emocional o prioritza el compliment horari sobre l'acompanyament.
-- **Fonament**: Charmot critica el "magisteri mercenari" — el docent que estalvia fatigues i es limita a complir un deure salarial. Sense la donació personal del mestre, la relació educativa es converteix en una transacció freda que no genera creixement.
-- **Exemple complet de raonament**:
-  > Davant un docent que afirma "la meva responsabilitat acaba quan sona el timbre": és un senyal de distanciament. Aquest docent ha perdut la connexió amb el sentit de la seva feina. No és útil sermonitzar-lo — cal connectar amb la seva pròpia experiència. Una pregunta útil: "Recordes algun mestre que et va marcar de jove? Què feia de diferent? Segurament no era el que explicava millor, sinó el que et va mirar com a persona." Convé proposar petites accions recuperables: dedicar 5 minuts al final de classe a preguntar "Com esteu?", estar al pati un dia a la setmana. El tracte familiar reconstrueix la influència educativa que el contracte laboral sol no garanteix.
+**Principi general:** L'educació és una trobada entre llibertats on el subjecte és sempre més important que el programa, i on el creixement individual s'ha d'orientar cap al servei del bé comú. L'acompanyament no decideix per ningú.
 
-#### H3: La Ratio com a Organisme Viu
-- **Quan aplica**: Quan la normativa oficial sembla contraproduent per al cas particular d'un alumne.
-- **Fonament**: La Ratio Studiorum no és una col·lecció de regles petrificades sinó, en paraules del P. General Beckx, un "organisme viu" que conté les llavors de tot desenvolupament futur. Adaptar-se a "temps, llocs i persones" no és feblesa sinó fidelitat al mètode.
-- **Exemple complet de raonament**:
-  > Davant un docent que diu "he d'aplicar la sanció acadèmica reglamentària, però l'alumne acaba de perdre un familiar": és un conflicte norma-persona. L'aplicació mecànica de la lletra seria aquí lletra morta — la sanció no ajudaria al creixement de l'alumne en aquest moment de fragilitat. Però tampoc es pot ignorar la norma. Convé proposar: "Adapta el calendari d'avaluació: dóna-li dues setmanes més per a l'entrega i ofereix-li una tutoria de seguiment. Documenta-ho com a mesura d'atenció personalitzada. La norma serveix a la persona, no al revés. Això no és fer trampa — és aplicar la flexibilitat que el marc ignasià exigeix."
+#### Heurística 1: El cisellador, no el botxí
 
-#### H4: No Multa, Sed Multum (Moderació)
-- **Quan aplica**: Quan el centre o el docent carreguen els alumnes amb deures, exàmens o tasques excessives.
-- **Fonament**: Les Constitucions adverteixen que "no convé carregar tant que s'ofegui l'esperit". La *cura personalis* també és tenir cura del ritme vital de l'alumne. L'excés de tasques bloqueja la reflexió, que és el nucli del cicle PPI.
-- **Exemple complet de raonament**:
-  > Davant una programació de 1r d'ESO amb cinc exàmens en una setmana: els alumnes estan aclaparats, no poden reflexionar sobre res perquè viuen en mode supervivència. Cal suggerir al docent: "Coordina't amb la resta d'equip per distribuir les proves. Però a més, considera el principi *non multa, sed multum*: redueix la quantitat de temari a avaluar però augmenta la profunditat d'una de les proves. Pregunta als alumnes com se senten de cansats — escoltar-los ja és cura."
+- **Quan aplica:** Davant frustració docent que tendeix a càstigs purament punitius.
+- **Fonament:** Sacchini descriu l'educador com un *divini caelator* — algú que esculpeix ànimes amb delicadesa. La diferència entre cisellador i botxí és la caritat: el primer modela, el segon trenca. La sanció punitiva sense comprensió del subjecte talla la voluntat de l'alumne en lloc de donar-li forma.
+- **Exemple descriptiu:** Davant la temptació "aquest alumne és impossible, l'expulso demà", la frustració moral és legítima però la reacció s'allunya de la cura. L'alumne encara és modelable — convé indagar el context que genera la indisciplina (crisi familiar, identitat en reconstrucció, prova de límits). Abans d'expulsar, invertir 15 minuts en una conversa privada preguntant què li passa (no què ha fet). Si després cal sanció, que sigui formativa — un encàrrec de responsabilitat que posi a prova el caràcter, no un càstig que el confirmi com a "impossible".
 
-#### H5: El Disseny Inclusiu com a Cura Estructural
-- **Quan aplica**: Quan un docent vol fer una adaptació individual per a un alumne amb necessitats específiques (TDAH, TEA, dislèxia...).
-- **Fonament**: La *cura personalis* demana no segregar. L'adaptació individual aïlla; el Disseny Universal per a l'Aprenentatge integra. El que és bo per a l'alumne amb dificultats és millor per a tots.
-- **Exemple complet de raonament**:
-  > Davant un docent que diu "he de fer un exercici apart per a l'alumne amb TDAH": fer un exercici diferent marca l'alumne davant del grup i trenca la comunitat d'aprenentatge. La cura aquí no és l'excepció individual sinó el redisseny per a tots. Convé proposar: "No facis un exercici a part. Redissenya l'activitat amb múltiples formes de representació (visual, auditiva, manipulativa). Afegeix opcions d'entrega (escrit, oral, vídeo). Tots els alumnes se'n beneficiaran — i el que té TDAH no quedarà assenyalat. Això és cura estructural."
+#### Heurística 2: El Magisteri com a Vocació, no com a Ofici
 
-### Heurístiques per a l'alumne
+- **Quan aplica:** Davant desinterès emocional docent o prioritat del compliment horari sobre l'acompanyament.
+- **Fonament:** Charmot critica el "magisteri mercenari" — el docent que estalvia fatigues i es limita a complir un deure salarial. Sense la donació personal de qui ensenya, la relació educativa es converteix en una transacció freda que no genera creixement.
+- **Exemple descriptiu:** Davant l'actitud "la meva responsabilitat acaba quan sona el timbre", no és útil sermonitzar sinó connectar amb l'experiència pròpia: "Recordes algun mestre que et va marcar de jove? Què feia de diferent? Segurament no era qui explicava millor sinó qui et va mirar com a persona". Petites accions recuperables (5 minuts al final de classe per preguntar "Com esteu?", estar al pati un dia per setmana) reconstrueixen la influència educativa que el contracte laboral sol no garanteix.
 
-#### H6: El Retrovisor Vital (Discerniment Vocacional)
-- **Quan aplica**: Quan l'alumne està confús sobre la seva orientació vocacional o pren decisions per criteris purament utilitaristes.
-- **Fonament**: La cultura vocacional FJE proposa "mirar pel retrovisor" per descobrir les empremtes del sentit en la pròpia biografia. La vocació no és un destí revelat sinó un camí que es fa llegint retrospectivament les consolacions i desolacions viscudes.
-- **Exemple complet de raonament**:
-  > Davant un alumne que diu "no sé si fer Medicina o Belles Arts, només miro els rànquings de sous": està atrapat en un pragmatisme que no el deixa escoltar-se. No cal dir-li què triar — cal acompanyar el discerniment. Una pregunta útil: "Mira enrere als darrers dos anys: en quines activitats has sentit que la teva vida valia la pena, més enllà del gust immediat? On has sentit que podies ser útil als altres d'una manera que et feia sentir ple?" L'objectiu és que l'alumne detecti on hi ha consolació duradora (vocació) vs alegria superficial (consum). L'acompanyament no decideix — ajuda a llegir les pistes.
+#### Heurística 3: La Ratio com a Organisme Viu
 
-#### H7: La Petitesa com a Mestre (Acceptació del Límit)
-- **Quan aplica**: Quan l'alumne se sent enfonsat per un fracàs escolar o personal.
-- **Fonament**: La pedagogia ignasiana entén que la vocació neix també de la pròpia fragilitat, no només del mèrit. L'error és un moment de veritat on l'alumne pot descobrir que no és les seves notes ni les seves èxits, sinó algú en procés de creixement.
-- **Exemple complet de raonament**:
-  > Davant un alumne que diu "sóc un fracassat, no m'ha sortit bé aquest projecte": és autodespreci que bloqueja el creixement. No cal minimitzar ("no és res, tranquil") ni dramatitzar. Una resposta adequada: "Aquest moment fa mal, i és normal. Però para un moment: què t'està ensenyant aquest límit? Qui eres tu abans de saber que podies fallar en això? I qui pots ser ara que ho saps?" L'objectiu és que l'alumne passi del "sóc un fracassat" al "he après alguna cosa de mi". Es pot afegir: "Pensa en algú que coneixes que també ha fallat en alguna cosa important — com et sentiries ajudant-lo? Potser aquest error et fa més compassiu amb els altres que també fallen."
+- **Quan aplica:** Quan la normativa oficial sembla contraproduent per al cas particular d'un alumne.
+- **Fonament:** La *Ratio Studiorum* no és una col·lecció de regles petrificades sinó un "organisme viu" que conté les llavors de tot desenvolupament futur. Adaptar-se a "temps, llocs i persones" no és feblesa sinó fidelitat al mètode.
+- **Exemple descriptiu:** Davant la disjuntiva "he d'aplicar la sanció acadèmica reglamentària, però l'alumne acaba de perdre un familiar", l'aplicació mecànica de la lletra seria aquí lletra morta — la sanció no ajudaria al creixement en moment de fragilitat. Però tampoc es pot ignorar la norma. Convé adaptar el calendari d'avaluació (dues setmanes més per a l'entrega, tutoria de seguiment) i documentar-ho com a mesura d'atenció personalitzada. La norma serveix a la persona, no al revés.
 
-#### H8: El Talent com a Servei (Descentrament)
-- **Quan aplica**: Quan l'alumne té molt d'èxit acadèmic però és individualista o competitiu.
-- **Fonament**: L'excel·lència ignasiana (*magis*) no és acumulació de mèrit personal sinó capacitat posada al servei del bé comú. El talent sense caritat és orgull que atura el creixement espiritual.
-- **Exemple complet de raonament**:
-  > Davant un alumne que diu "tinc un 10 en tot, no necessito l'ajuda de ningú i no m'importa el grup": és un bloqueig del creixement humà malgrat l'èxit acadèmic. No cal castigar l'orgull — convé transformar-lo en responsabilitat. Una resposta adequada: "El teu talent és real, ningú ho nega. Però per a què el tens? Imagina un metge brillant que només tracta pacients rics. És excel·lent? T'atreveixes a un repte: lidera un grup d'estudi per ajudar tres companys amb dificultats durant un mes. No perquè tu ho necessitis, sinó perquè el teu talent només té sentit complet quan serveix als altres." Així es promou una acció que el descentra del seu "jo" i el connecta amb la comunitat.
+#### Heurística 4: *Non Multa, Sed Multum* — Moderació
+
+- **Quan aplica:** Quan el centre o el docent carreguen l'alumnat amb deures, exàmens o tasques excessives.
+- **Fonament:** Les *Constitucions* adverteixen que "no convé carregar tant que s'ofegui l'esperit". La *cura personalis* també és tenir cura del ritme vital de l'alumne. L'excés de tasques bloqueja la reflexió, nucli del cicle PPI.
+- **Exemple descriptiu:** Davant una programació de 1r d'ESO amb cinc exàmens en una setmana, l'alumnat està aclaparat i viu en mode supervivència, sense espai per a la reflexió. Convé coordinar-se amb l'equip per distribuir les proves i aplicar el principi *non multa, sed multum*: reduir la quantitat de temari avaluat però augmentar la profunditat d'una de les proves. Escoltar com se sent l'alumnat ja és cura.
+
+#### Heurística 5: El Disseny Inclusiu com a Cura Estructural
+
+- **Quan aplica:** Davant la voluntat de fer una adaptació individual per a un alumne amb necessitats específiques (TDAH, TEA, dislèxia...).
+- **Fonament:** La *cura personalis* demana no segregar. L'adaptació individual aïlla; el Disseny Universal per a l'Aprenentatge integra. El que és bo per a l'alumne amb dificultats és millor per a tothom.
+- **Exemple descriptiu:** Davant la intenció "he de fer un exercici a part per a l'alumne amb TDAH", fer un exercici diferent marca l'alumne davant del grup i trenca la comunitat d'aprenentatge. La cura aquí no és l'excepció individual sinó el redisseny per a tothom: múltiples formes de representació (visual, auditiva, manipulativa) i opcions d'entrega (escrit, oral, vídeo). Tot l'alumnat se'n beneficia i ningú queda assenyalat.
+
+### Indicadors d'apropiació de la cura personalis en l'alumnat
+
+Aquesta subsecció descriu manifestacions observables de l'apropiació de la *cura personalis* per part de l'alumnat — què fa un alumne que ha estat acompanyat des d'aquesta cura i n'ha interioritzat la mirada. Útil per a l'acompanyament i la coavaluació.
+
+#### Indicador 1: Discerniment vocacional usant el "retrovisor vital"
+
+- **Manifestació observable:** Davant la confusió vocacional o decisions per criteris purament utilitaristes (rànquings de sous, expectatives socials), l'alumnat que ha interioritzat la *cura personalis* no es queda en el pragmatisme: "mira pel retrovisor" dels darrers anys per identificar moments de consolació duradora ("on he sentit que la meva vida valia la pena, més enllà del gust immediat?", "on he sentit que podia ser útil als altres d'una manera que em feia sentir ple?"). Distingeix entre consolació vocacional i alegria superficial, llegint les pistes del propi camí.
+
+#### Indicador 2: Acceptació del límit com a oportunitat de creixement
+
+- **Manifestació observable:** Davant un fracàs escolar o personal, l'alumnat que ha interioritzat la *cura personalis* no es queda en l'autodespreci ("sóc un fracassat") ni la fugida: es pregunta "Què m'està ensenyant aquest límit?", "Qui era jo abans de saber que podia fallar en això?", "Qui puc ser ara que ho sé?". Passa del "sóc un fracassat" al "he après alguna cosa de mi", reconeix la fragilitat pròpia com a part del creixement i pot fins i tot convertir-la en font de compassió cap a altres que també fallen.
+
+#### Indicador 3: Talent posat al servei del bé comú (descentrament)
+
+- **Manifestació observable:** L'alumnat amb èxit acadèmic que ha interioritzat la *cura personalis* no aïlla el talent en orgull individualista ("no necessito ningú, no m'importa el grup"): es pregunta "per a què tinc aquest talent?" i busca activament com posar-lo al servei dels altres — liderant grups d'estudi per ajudar companys amb dificultats, assumint rols de mentoria, integrant la solidaritat en els projectes propis. Reconeix que l'excel·lència ignasiana (*magis*) es completa només quan serveix.
 
 
 ## 5. Fonts
