@@ -7,7 +7,11 @@ review_status: esborrany
 generat_at: 2026-03-18T13:01:55
 ---
 
-### Definició i principis
+## Abstract
+
+El marc de l'Avaluació Formativa i Formadora entén l'avaluació com un element viu i integrat en el procés d'ensenyament-aprenentatge, amb la finalitat primordial de regular-lo i millorar-lo, no com un judici final sobre el que s'ha après. Pretén convertir l'avaluació en un **motor de l'aprenentatge i de l'autoregulació de l'alumnat**, traslladant el focus d'"allò que l'alumne no sap" a "com pot continuar aprenent i progressant". Aporta una distinció operativa entre avaluació formativa (la fa el docent per regular el procés), formadora (la fa l'alumne sobre el propi procés) i sumativa (certifica resultats). Idees-força: l'error com a part natural i necessària de l'aprenentatge; avaluació contínua i diversificada en instruments; metacognició com a competència clau; coherència entre canvi curricular competencial i canvi d'avaluació. NO és una alternativa a la qualificació ni una col·lecció d'instruments tècnics sense canvi de cultura d'aula.
+
+## Definició i principis
 
 L'avaluació formativa i formadora és un marc pedagògic que entén l'avaluació com un element viu i integrat en el procés d'ensenyament-aprenentatge, amb la finalitat primordial de regular-lo i millorar-lo, tant per al docent com per a l'alumnat. La seva essència rau en el canvi de paradigma: deixar de centrar-se en allò que l'alumne "no sap" per posar el focus en allò que "sí que sap" i, sobretot, en com pot continuar aprenent i progressant. No es tracta només de mesurar resultats al final, sinó de recollir informació de qualitat de manera contínua per prendre decisions pedagògiques fonamentades.
 
@@ -23,7 +27,7 @@ Els principis clau que regeixen aquest marc són:
 
 En definitiva, l'avaluació formativa i formadora busca crear una cultura d'aula on l'aprenentatge sigui el centre, on la por i l'ansietat s'esvaeixin, i on docents i alumnes comparteixin la responsabilitat de construir coneixement i millorar contínuament.
 
-### Autors i evidència clau
+## Autors i evidència clau
 
 Aquest marc pedagògic s'ha consolidat gràcies a les aportacions de diversos experts i a la seva integració en les polítiques educatives.
 
@@ -39,7 +43,7 @@ El document **GAPPISA** (Guia per a l’anàlisi de preguntes d’avaluació des
 
 La normativa educativa catalana, com l'**Ordre 164/2016** per a Primària i l'**Ordre EDU/295/2008** per a ESO, recull explícitament aquesta visió d'avaluació contínua, global, formativa i formadora, centrada en l'assoliment de les competències, proporcionant el marc legal per a la seva implementació.
 
-### Exemples concrets d'aplicació a l'aula
+## Exemples concrets d'aplicació a l'aula
 
 1.  **Educació Primària (Cicle Inicial): Anàlisi de dietes i creació de menús saludables.**
     En lloc de demanar als alumnes que classifiquin aliments en categories (proteïnes, energia, vitamines), es pot presentar un cas pràctic: "En Josep és un noi grassonet que es posa malalt sovint. Dina a casa de la seva tieta, que només li fa el que li agrada (espaguetis, pizza, hamburguesa...). Per què creus que en Josep està grassonet i es posa malalt? Quins aliments hauria de menjar sovint i no apareixen?" Després d'analitzar la dieta d'en Josep, la tasca es transforma en un repte: "Hem de dir a la tieta que en Josep no pot continuar menjant així. Prepara un menú setmanal de dinars que sigui sa i equilibrat, utilitzant la piràmide dels aliments com a guia." Aquesta activitat és productiva, complexa, contextualitzada i rellevant, i permet avaluar la comprensió i aplicació de coneixements sobre nutrició de manera significativa.
@@ -50,7 +54,7 @@ La normativa educativa catalana, com l'**Ordre 164/2016** per a Primària i l'**
 3.  **Batxillerat/Formació Professional: Carpeta d'aprenentatge per a un projecte de recerca.**
     En un projecte de recerca, els alumnes poden crear una carpeta d'aprenentatge (o portfolio). Aquesta carpeta no és un simple recull de treballs finals, sinó un "recull raonat d'evidències". L'alumne ha de seleccionar quins materials inclou (esborranys, versions millorades, notes de recerca, reflexions, instruments de planificació com esquemes o bases d'orientació, feedback rebut, autoavaluacions) i justificar per què els ha escollit i com l'han ajudat a aprendre. Per exemple, pot incloure una producció inicial i la seva versió final, explicant els canvis realitzats i per què. Aquesta eina permet al docent veure el procés d'aprenentatge i al mateix alumne fer evident què ha après, com ho ha après i quins són els aprenentatges significatius realitzats.
 
-### Errors comuns — què NO fer
+## Errors comuns — què NO fer
 
 1.  **Centrar-se exclusivament en la qualificació i els resultats finals negatius:** Molts docents, per inèrcia, prioritzen la funció sumativa de l'avaluació, buscant "esbrinar allò que els alumnes no saben" o posar una nota per classificar. Això desaprofita el potencial regulador de l'avaluació.
     *   **Fonament teòric:** L'avaluació formativa busca comprendre les raons de les dificultats i errors per adaptar l'ensenyament i ajudar a progressar. Si només es valoren els resultats finals, es perd l'oportunitat d'intervenir durant el procés i de fomentar l'autoregulació. Els errors són necessaris per aprendre; si no hi ha errors, potser la tasca era massa fàcil o l'aprenentatge no ha estat significatiu.
@@ -64,7 +68,7 @@ La normativa educativa catalana, com l'**Ordre 164/2016** per a Primària i l'**
 4.  **No utilitzar el feedback per a la millora, sinó com a justificació de la nota:** Donar feedback que només assenyala errors sense oferir pautes clares per a la millora o sense donar oportunitats per refer la tasca.
     *   **Fonament teòric:** El feedback és una eina potent per a la regulació de l'aprenentatge. Per ser efectiu, ha de ser constructiu, específic i orientat a l'acció. Si el feedback no va acompanyat d'una oportunitat per aplicar les millores, perd la seva funció formadora i pot generar frustració en l'alumnat.
 
-### Matisos i excepcions
+## Matissos i excepcions
 
 L'avaluació formativa i formadora és un marc robust, però la seva aplicació requereix matisos i adaptacions:
 
@@ -118,49 +122,51 @@ L'avaluació formativa i formadora és un marc robust, però la seva aplicació 
 
 **Principi general:** L'avaluació ha de ser un motor per a l'aprenentatge, no un simple judici final.
 
-#### Heurístiques per al docent
+#### Heurística 1: Clarificar el "per a què" de l'aprenentatge amb l'alumnat
 
-1.  **Heurística: Clarificar el "Per a què?" de l'aprenentatge amb l'alumnat.**
-    *   **Quan aplica:** En iniciar qualsevol nova activitat, unitat didàctica o projecte, i també al final de cada sessió o tasca important.
-    *   **Fonament:** Els alumnes aprenen de manera més significativa i s'autoregulen millor quan entenen el propòsit i la rellevància del que fan. Si no saben per què fan una activitat, es perden en el "què farem" i no connecten amb el "què aprendrem", dificultant la transferència d'aprenentatges i la seva motivació intrínseca. Aquesta comunicació ha de ser un diàleg, no una imposició.
-    *   **Exemple de raonament:** Davant un docent a punt de començar una unitat sobre la Revolució Industrial, en lloc de dir "Avui farem la Revolució Industrial", convé començar la unitat amb una pregunta oberta que desperti la curiositat i connecti amb el present. Es pot preguntar: "Com ha canviat la manera de viure i treballar de les persones des de fa 200 anys fins avui? Quines invencions van ser clau per a aquests canvis i quines conseqüències van tenir?" Després, cal demanar als alumnes que facin suposicions o que comparteixin el que ja saben. Això fa que percebin la utilitat d'aprendre sobre el tema, els ajuda a construir un sentit per a les activitats que vindran i els permet apropiar-se dels objectius d'aprenentatge des del principi, facilitant la seva implicació i autoregulació.
+- **Quan aplica:** En iniciar qualsevol nova activitat, unitat didàctica o projecte, i també al final de cada sessió o tasca important.
+- **Fonament:** L'alumnat aprèn de manera més significativa i s'autoregula millor quan entén el propòsit i la rellevància del que fa. Sense saber per què fa una activitat, es perd en el "què farem" i no connecta amb el "què aprendrem", dificultant la transferència d'aprenentatges i la motivació intrínseca. Aquesta comunicació ha de ser un diàleg, no una imposició.
+- **Exemple descriptiu:** Davant l'inici d'una unitat sobre la Revolució Industrial, en lloc de dir "Avui farem la Revolució Industrial" convé començar amb una pregunta oberta que desperti la curiositat i connecti amb el present: "Com ha canviat la manera de viure i treballar de les persones des de fa 200 anys fins avui? Quines invencions van ser clau i quines conseqüències van tenir?". Demanar suposicions o el que ja se sap fa que l'alumnat percebi la utilitat d'aprendre sobre el tema, construeixi sentit per a les activitats que vindran i s'apropïi dels objectius d'aprenentatge des del principi.
 
-2.  **Heurística: Diversificar les fonts i instruments d'informació per a una avaluació completa.**
-    *   **Quan aplica:** Quan es necessita una visió completa del progrés de l'alumne, més enllà d'una simple qualificació numèrica, per a la regulació de l'aprenentatge.
-    *   **Fonament:** La informació quantitativa (notes) és limitada i només permet classificar. Per contra, la informació qualitativa (observacions, diaris, auto/coavaluacions, rúbriques, bases d'orientació) proporciona dades riques sobre punts forts i aspectes a millorar, crucials per a la regulació de l'aprenentatge. Diversificar instruments i fonts (docent, alumne, companys, famílies) permet una avaluació més inclusiva, personalitzada i ajustada a les competències.
-    *   **Exemple de raonament:** Davant un docent que es troba que les notes dels exàmens no reflecteixen el que observa dels seus alumnes en el dia a dia, especialment en projectes o treballs en grup, les notes dels exàmens són només una part de la història. Per obtenir una imatge més rica i útil del progrés dels alumnes, especialment per a la regulació de l'aprenentatge de competències complexes, és vital complementar les proves amb instruments qualitatius. Convé implementar rúbriques per a les tasques de projecte, on els alumnes sàpiguen exactament què s'espera d'ells en termes de procés i producte, i puguin autoavaluar-se i coavaluar-se. A més, fomentar l'ús de diaris d'aprenentatge o carpetes d'evidències permet als alumnes reflexionar sobre el seu procés i aporta al docent informació valuosa sobre les seves estratègies i dificultats, anant més enllà del simple "saben" o "no saben" i permetent una avaluació més justa i formativa.
+#### Heurística 2: Diversificar fonts i instruments d'informació
 
-3.  **Heurística: Fomentar l'autoregulació mitjançant el feedback orientat a la millora i la reflexió guiada.**
-    *   **Quan aplica:** Després de qualsevol activitat d'aprenentatge o avaluació, i de manera contínua, per ajudar l'alumne a prendre el control del seu procés.
-    *   **Fonament:** L'avaluació formadora implica que l'alumne sigui protagonista del seu aprenentatge. El feedback efectiu no només assenyala errors, sinó que guia l'alumne sobre com millorar, oferint pautes i recursos. La reflexió (autoavaluació, coavaluació) permet als alumnes identificar les seves dificultats, entendre les causes i planificar accions correctores, reduint l'ansietat i augmentant la motivació.
-    *   **Exemple de raonament:** Davant un docent que ha corregit una sèrie de redaccions i ha posat notes, en lloc de simplement retornar les redaccions amb la nota, convé transformar aquest moment en una oportunitat d'aprenentatge profund. Es pot dissenyar una pauta de coavaluació basada en els criteris de redacció ja compartits (coherència, cohesió, ús del vocabulari, ortografia), i fer que els alumnes revisin les redaccions dels seus companys. Després, cada alumne pot fer una autoavaluació del seu propi treball, comparant-lo amb el feedback dels companys i la rúbrica. Finalment, cal dedicar un temps a la classe per debatre les dificultats comunes i les estratègies de millora, com ara "Quines expressions podem utilitzar per connectar idees?" o "Com podem revisar l'ortografia de manera efectiva?". Això no només els ajuda a entendre els seus errors, sinó que els dóna eines concretes per autoregular-se en futures tasques de redacció.
+- **Quan aplica:** Davant la necessitat d'una visió completa del progrés de l'alumne, més enllà d'una qualificació numèrica, per a la regulació de l'aprenentatge.
+- **Fonament:** La informació quantitativa (notes) és limitada i només permet classificar. La informació qualitativa (observacions, diaris, auto/coavaluacions, rúbriques, bases d'orientació) proporciona dades riques sobre punts forts i aspectes a millorar, crucials per a la regulació. Diversificar instruments i fonts (docent, alumne, companys, famílies) permet una avaluació més inclusiva i ajustada a les competències.
+- **Exemple descriptiu:** Davant la sensació que les notes dels exàmens no reflecteixen el que es veu en el dia a dia, especialment en projectes o treballs en grup, convé complementar les proves amb instruments qualitatius: rúbriques per a tasques de projecte (on l'alumnat sap què s'espera en termes de procés i producte i pot autoavaluar-se i coavaluar-se), diaris d'aprenentatge o carpetes d'evidències que permeten reflexionar sobre el procés i aporten al docent informació sobre estratègies i dificultats. Així s'obté una imatge més rica del progrés.
 
-4.  **Heurística: Integrar l'avaluació en el procés d'ensenyament-aprenentatge, no com una fase separada.**
-    *   **Quan aplica:** En la planificació i execució de qualsevol seqüència didàctica o projecte, des de l'inici fins al final.
-    *   **Fonament:** L'avaluació formativa no és una activitat aïllada al final d'una unitat, sinó un element viu i continu que informa tant el docent com l'alumne sobre el progrés. Totes les activitats poden ser moments d'avaluació si es dissenyen amb aquesta finalitat reguladora, permetent detectar dificultats a temps i ajustar el camí.
-    *   **Exemple de raonament:** Davant un docent que dissenya un projecte de ciències que culminarà amb la presentació d'un experiment, perquè l'avaluació sigui realment formativa, ha d'estar teixida en el procés mateix del projecte, no només al final. Convé incorporar activitats d'avaluació inicial per activar coneixements previs sobre el tema de l'experiment i ajustar el projecte a les necessitats dels alumnes. Durant el desenvolupament, cal plantejar moments regulars per a l'autoavaluació i la coavaluació de tasques parcials, com ara la revisió dels dissenys de l'experiment, la recollida de dades o la interpretació de resultats preliminars. Això permet detectar dificultats en la metodologia científica a temps, oferir suport personalitzat i que els alumnes puguin reorientar el seu treball abans d'arribar a la presentació final, fent de cada pas una oportunitat per aprendre i millorar la seva competència científica.
+#### Heurística 3: Fomentar l'autoregulació amb feedback orientat a la millora
 
-5.  **Heurística: Reinterpretar els errors com a oportunitats d'aprenentatge i no com a fracassos.**
-    *   **Quan aplica:** Davant de qualsevol error o dificultat que l'alumne manifesti en una tasca o activitat.
-    *   **Fonament:** Els errors no són fracassos, sinó indicadors valuosos del que l'alumne encara no ha comprès o dominat. Una cultura d'aula que veu l'error com un pas necessari per avançar redueix l'ansietat, fomenta l'experimentació i la perseverança. La tasca del docent és ensenyar a detectar i superar els errors, no només a assenyalar-los.
-    *   **Exemple de raonament:** Davant un alumne que ha comès errors repetits en la resolució de problemes matemàtics amb fraccions, en lloc de simplement marcar els errors i restar punts, convé utilitzar aquests errors com a punt de partida per a un aprenentatge més profund. Es pot demanar a l'alumne que analitzi els seus propis errors, potser comparant la seva feina amb un exemple correcte o amb la feina d'un company que ho ha fet bé. Després, cal guiar-lo amb preguntes com "Què creus que va fallar aquí?", "Quina regla de les fraccions no vas aplicar correctament?", o "Com podries abordar aquest problema de manera diferent la propera vegada?". L'objectiu és que l'alumne comprengui la causa de l'error, identifiqui el concepte no entès i desenvolupi estratègies per evitar-lo, convertint la fallada en una valuosa lliçó per consolidar el seu aprenentatge de les fraccions.
+- **Quan aplica:** Després de qualsevol activitat d'aprenentatge o avaluació, i de manera contínua, per ajudar l'alumnat a prendre el control del seu procés.
+- **Fonament:** L'avaluació formadora implica que l'alumne sigui protagonista del seu aprenentatge. El feedback efectiu no només assenyala errors sinó que guia sobre com millorar, oferint pautes i recursos. La reflexió (auto i coavaluació) permet identificar dificultats, entendre causes i planificar accions correctores, reduint l'ansietat i augmentant la motivació.
+- **Exemple descriptiu:** Davant una sèrie de redaccions corregides amb notes, en lloc de simplement retornar-les convé transformar aquest moment en oportunitat d'aprenentatge: dissenyar una pauta de coavaluació basada en els criteris compartits (coherència, cohesió, vocabulari, ortografia) perquè l'alumnat revisi les redaccions dels companys, seguida d'autoavaluació individual i d'un debat de classe sobre dificultats comunes i estratègies de millora ("Quines expressions podem usar per connectar idees?", "Com revisar l'ortografia eficaçment?"). Això dóna eines concretes per autoregular-se en futures tasques.
 
-#### Heurístiques per a l'alumne
+#### Heurística 4: Integrar l'avaluació en el procés, no com a fase separada
 
-1.  **Heurística: Entendre el "Per què" de cada tasca abans de començar.**
-    *   **Quan aplica:** Abans de començar una activitat o quan se sent confós sobre el seu propòsit o rellevància.
-    *   **Fonament:** Saber per què s'està fent una tasca i quin objectiu d'aprenentatge persegueix ajuda a l'alumne a connectar amb el contingut, a mantenir la motivació i a autoregular el seu procés. Si no entén el "per què", pot perdre's en el "què fer" i no aprofitar al màxim l'oportunitat d'aprenentatge.
-    *   **Exemple de raonament:** Davant un alumne a punt de començar una activitat que li sembla avorrida o sense sentit, una pregunta útil és: "Has pensat per què el professor t'ha demanat que facis aquesta activitat? Quin creus que és l'objectiu principal que vol que aprenguis amb ella? Si no ho tens clar, podries preguntar al professor o a un company. Entendre el 'per què' t'ajudarà a veure la utilitat del que fas i a concentrar-te en allò que és realment important per al teu aprenentatge, en lloc de només seguir instruccions. Això et farà sentir més implicat i t'ajudarà a recordar millor el que aprenguis."
+- **Quan aplica:** En la planificació i execució de qualsevol seqüència didàctica o projecte, des de l'inici fins al final.
+- **Fonament:** L'avaluació formativa no és una activitat aïllada al final d'una unitat, sinó un element viu i continu que informa tant el docent com l'alumnat sobre el progrés. Totes les activitats poden ser moments d'avaluació si es dissenyen amb aquesta finalitat reguladora, permetent detectar dificultats a temps i ajustar el camí.
+- **Exemple descriptiu:** Davant un projecte de ciències que culminarà amb la presentació d'un experiment, perquè l'avaluació sigui formativa cal teixir-la al procés mateix: avaluació inicial per activar coneixements previs i ajustar el projecte, moments regulars d'auto i coavaluació de tasques parcials (revisió dels dissenys, recollida de dades, interpretació de resultats preliminars). Així es detecten dificultats a temps en la metodologia científica, s'ofereix suport personalitzat i l'alumnat pot reorientar el treball abans de la presentació final.
 
-2.  **Heurística: Reflexionar sobre el propi procés i els errors com a part de l'aprenentatge.**
-    *   **Quan aplica:** Després de completar una tasca, rebre feedback o quan s'identifica una dificultat en el propi treball.
-    *   **Fonament:** L'autoregulació és clau per a l'aprenentatge autònom. Reflexionar sobre el que s'ha fet bé, el que no i per què, permet a l'alumne identificar els seus punts forts i les àrees de millora, i desenvolupar estratègies per superar obstacles. Els errors són part natural i necessària del procés d'aprenentatge, no un senyal de fracàs.
-    *   **Exemple de raonament:** Davant un alumne que ha rebut una tasca corregida amb errors, una orientació útil és: "En lloc de només mirar la nota, dedica un moment a revisar els errors. Pots preguntar-te: 'Què vaig fer malament aquí?', 'Per què crec que vaig cometre aquest error?', 'Hi ha alguna part del tema que no vaig entendre bé?' Un cop hagis identificat la causa, pensa en com podries fer-ho diferent la propera vegada o quina informació addicional necessites. Pots utilitzar una rúbrica o una base d'orientació si el professor n'ha proporcionat per guiar la teva anàlisi. Aquesta reflexió t'ajudarà a aprendre dels teus errors, a ser més conscient de com millorar en el futur i a sentir-te més preparat per a nous reptes."
+#### Heurística 5: Reinterpretar els errors com a oportunitats d'aprenentatge
 
-3.  **Heurística: Utilitzar activament els instruments d'autoavaluació i coavaluació proporcionats pel docent.**
-    *   **Quan aplica:** Quan el docent proporciona rúbriques, qüestionaris d'autoavaluació, bases d'orientació o pautes per revisar el treball dels companys.
-    *   **Fonament:** Aquests instruments són eines dissenyades per ajudar l'alumne a entendre els criteris d'èxit, a valorar la seva pròpia feina i la dels altres, i a identificar passos concrets per a la millora. Participar activament en aquests processos augmenta la responsabilitat, l'autonomia i la capacitat de judici crític, elements essencials de l'avaluació formadora.
-    *   **Exemple de raonament:** Davant un alumne que rep una rúbrica detallada per a un projecte de recerca, una orientació útil és: "Aquesta rúbrica no és només per al professor, és una eina molt potent per a tu. Abans d'entregar el projecte, utilitza-la per autoavaluar la teva feina. Mira cada criteri (per exemple, 'Organització de la informació', 'Ús de fonts fiables', 'Claredat de l'exposició') i pregunta't: 'He complert amb això? En quin nivell em situaria?' Si hi ha aspectes on creus que podries millorar, encara tens temps per fer canvis. Si el professor proposa coavaluar el treball d'un company, pren-ho seriosament. Avaluar els altres t'ajuda a entendre millor els criteris i a aplicar-los després al teu propi treball, millorant la teva capacitat d'anàlisi i la qualitat del teu aprenentatge."
+- **Quan aplica:** Davant qualsevol error o dificultat manifestada per l'alumnat en una tasca o activitat.
+- **Fonament:** Els errors no són fracassos sinó indicadors valuosos del que l'alumne encara no ha comprès o dominat. Una cultura d'aula que veu l'error com a pas necessari per avançar redueix l'ansietat i fomenta l'experimentació i la perseverança.
+- **Exemple descriptiu:** Davant errors repetits en problemes matemàtics amb fraccions, en lloc de marcar-los i restar punts convé fer-los punt de partida d'un aprenentatge més profund: demanar a l'alumne que analitzi els propis errors comparant la seva feina amb un exemple correcte o amb la feina d'un company. Guiar-lo amb preguntes com "Què creus que ha fallat aquí?", "Quina regla de les fraccions no s'ha aplicat correctament?", "Com es podria abordar aquest problema diferent la propera vegada?" l'ajuda a comprendre la causa de l'error, identificar el concepte no entès i desenvolupar estratègies per evitar-lo.
+
+### Indicadors d'apropiació de l'avaluació formadora en l'alumnat
+
+Aquesta subsecció descriu manifestacions observables de l'apropiació de l'avaluació formadora per part de l'alumnat — què fa un alumne que ha interioritzat que l'avaluació serveix per aprendre, no només per a una nota. Útil per a l'acompanyament i la coavaluació.
+
+#### Indicador 1: Cerca el "per què" de cada tasca abans de començar
+
+- **Manifestació observable:** Davant una activitat que pot semblar avorrida o sense sentit, l'alumnat que ha interioritzat l'avaluació formadora no es queda en la queixa: es pregunta "Per què el professor m'ha demanat aquesta activitat?", "Quin és l'objectiu principal que vol que aprengui amb ella?". Si no ho té clar, pregunta al docent o a un company. Entendre el "per què" l'ajuda a veure la utilitat del que fa i a concentrar-se en allò realment important per al seu aprenentatge.
+
+#### Indicador 2: Reflexiona sobre el propi procés i els errors com a part de l'aprenentatge
+
+- **Manifestació observable:** Davant una tasca corregida amb errors, l'alumnat que ha interioritzat l'avaluació formadora no es queda en la nota: revisa els errors preguntant-se "Què he fet malament aquí?", "Per què he comès aquest error?", "Hi ha alguna part del tema que no he entès bé?". Un cop identificada la causa, pensa com fer-ho diferent la propera vegada o quina informació addicional necessita, sovint utilitzant una rúbrica o base d'orientació quan està disponible.
+
+#### Indicador 3: Utilitza activament els instruments d'autoavaluació i coavaluació
+
+- **Manifestació observable:** Davant una rúbrica detallada per a un projecte, l'alumnat que ha interioritzat l'avaluació formadora la utilitza com a eina pròpia: abans d'entregar el projecte, autoavalua la pròpia feina criteri per criteri ("He complert amb 'Organització de la informació'? En quin nivell em situaria amb 'Ús de fonts fiables'?") i ajusta el treball mentre encara hi ha temps. Quan se li proposa coavaluar el treball d'un company, ho fa amb seriositat, conscient que avaluar els altres l'ajuda a interioritzar els criteris i aplicar-los millor al seu propi treball.
 
 ## 5. Fonts
 
