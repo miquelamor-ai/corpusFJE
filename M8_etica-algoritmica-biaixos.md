@@ -127,17 +127,19 @@ L'ús de sistemes d'IA en educació, si no es gestiona amb una ètica algorísmi
 
 ### Heurístiques
 
-#### Heurístiques per al docent
+**Principi general:** Els sistemes d'IA en educació han de ser transparents, auditables i sempre subordinats a la decisió humana, especialment quan afecten drets fonamentals de l'alumnat.
 
-- **La transparència és un prerequisit.** Abans d'implementar qualsevol sistema IA, el docent ha de poder explicar als alumnes i famílies com funciona, quines dades utilitza i com es prenen les decisions. Si el proveïdor no facilita aquesta informació, és una bandera vermella.
-- **Auditoria primer, implementació després.** Per a sistemes d'alt risc (avaluació, detecció de necessitats, predicció d'abandonament), cal avaluar els biaixos potencials ABANS del desplegament, no a posteriori. Demanar al proveïdor la documentació tècnica sobre les dades d'entrenament i l'equitat dels resultats.
-- **La decisió final és sempre humana.** Cap sistema IA pot ser l'última instància en decisions que afecten l'alumnat (qualificació, derivació a suport, identificació de NEE). El docent assumeix la responsabilitat de la decisió, la IA és suport informatiu.
-- **Diversitat de dades com a criteri de selecció.** En avaluar sistemes IA, verificar que les dades d'entrenament inclouen diversitat de gènere, origen, llengua i context socioeconòmic. Sistemes entrenats en contextos homogenis fallen en contextos diversos.
+- **Heurística 1 — La transparència com a prerequisit.** Abans d'implementar qualsevol sistema d'IA, ha de poder-se explicar a l'alumnat i a les famílies com funciona, quines dades utilitza i com es prenen les decisions. Si el proveïdor no facilita aquesta informació, és una bandera vermella.
+- **Heurística 2 — Auditoria primer, implementació després.** Per a sistemes d'alt risc (avaluació, detecció de necessitats, predicció d'abandonament), cal avaluar els biaixos potencials ABANS del desplegament, no a posteriori. Convé demanar al proveïdor la documentació tècnica sobre les dades d'entrenament i l'equitat dels resultats.
+- **Heurística 3 — La decisió final és sempre humana.** Cap sistema d'IA pot ser l'última instància en decisions que afecten l'alumnat (qualificació, derivació a suport, identificació de NEE). La responsabilitat de la decisió correspon al docent o equip; la IA és suport informatiu, no jutge.
+- **Heurística 4 — Diversitat de dades com a criteri de selecció.** En avaluar sistemes d'IA, convé verificar que les dades d'entrenament inclouen diversitat de gènere, origen, llengua i context socioeconòmic. Sistemes entrenats en contextos homogenis fallen en contextos diversos.
 
-#### Heurístiques per a l'alumne
+### Indicadors d'apropiació de l'ètica algorísmica en l'alumnat
 
-- **Tens dret a saber per qué.** Si un sistema IA t'ha avaluat, classificat o recomanat alguna cosa, tens dret a demanar una explicació al docent o al centre. El GDPR Art. 22 protegeix el dret a no ser sotmès a decisions exclusivament automatitzades amb efectes significatius.
-- **El teu feedback detecta biaixos.** Si consideres que la recomanació d'un sistema IA no t'encaixa o és injusta, fes-ho saber. El teu feedback és essencial per detectar biaixos que el sistema no pot identificar per si sol.
+Aquesta subsecció descriu manifestacions observables de l'apropiació de l'ètica algorísmica per part de l'alumnat — què fa un alumne que ha interioritzat els seus drets i la seva capacitat d'agència davant els sistemes d'IA. Útil per a l'acompanyament i la coavaluació.
+
+- **Indicador 1 — Exercici del dret a una explicació.** Davant una avaluació, classificació o recomanació feta per un sistema d'IA, l'alumnat que ha interioritzat el marc reconeix el seu dret a demanar una explicació al docent o al centre sobre com s'ha pres aquesta decisió. Sap que el GDPR Art. 22 protegeix el dret a no ser sotmès a decisions exclusivament automatitzades amb efectes significatius.
+- **Indicador 2 — Detecció i comunicació de biaixos.** Davant una recomanació o resultat d'un sistema d'IA que percep com a injust o que no encaixa amb la seva realitat, l'alumnat que ha interioritzat el marc no calla: ho fa saber al docent o al centre, conscient que el seu feedback és essencial per detectar biaixos que el sistema no pot identificar per si sol.
 
 ## 5. Fonts
 

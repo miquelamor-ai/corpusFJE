@@ -130,49 +130,51 @@ El feedback formatiu és un pilar fonamental, però la seva aplicació requereix
 
 **Principi general**: Prioritza sempre la funció reguladora de l'avaluació per potenciar l'autonomia i la millora contínua de l'aprenentatge.
 
-#### Heurístiques per al docent
+#### Heurística 1: Fomentar la metacognició des del principi
 
-1.  **Heurística: Fomenta la metacognició des del principi.**
-    *   **Quan aplica**: En iniciar qualsevol activitat, unitat o projecte.
-    *   **Fonament**: L'avaluació formativa requereix que l'alumne entengui els objectius i criteris d'èxit per poder autoregular-se. Si no sap per què fa una tasca, és impossible reconèixer els seus errors ni com millorar. La comunicació no ha de ser unidireccional, sinó que cal assegurar que els alumnes se l'han "representat" adequadament.
-    *   **Exemple complet de raonament**: Davant un docent que vol introduir un nou projecte sobre el canvi climàtic, en lloc de simplement explicar "què farem" i llistar les tasques, convé iniciar la sessió amb preguntes obertes com "Què esperem aprendre amb aquest projecte?", "Què considerarem un bon resultat al final?", o "Quins coneixements previs tenim sobre el canvi climàtic i què ens agradaria descobrir?". Aquesta aproximació, basada en la comunicació bidireccional d'objectius i criteris, activa la reflexió dels alumnes des del primer moment. En fer-los partícips de la definició de les fites i els criteris d'èxit, s'augmenta la seva motivació i la seva capacitat d'autoregulació al llarg del projecte, ja que tenen un marc clar per avaluar el seu propi progrés.
+- **Quan aplica:** En iniciar qualsevol activitat, unitat o projecte.
+- **Fonament:** L'avaluació formativa requereix que l'alumnat entengui els objectius i criteris d'èxit per poder autoregular-se. Sense saber per què fa una tasca, és impossible reconèixer els errors ni com millorar. La comunicació no ha de ser unidireccional: cal assegurar que l'alumnat se l'ha "representat" adequadament.
+- **Exemple descriptiu:** Davant un nou projecte sobre el canvi climàtic, en lloc d'explicar "què farem" i llistar les tasques, convé iniciar la sessió amb preguntes obertes: "Què esperem aprendre amb aquest projecte?", "Què considerarem un bon resultat al final?", "Quins coneixements previs tenim sobre el canvi climàtic i què ens agradaria descobrir?". Aquesta comunicació bidireccional d'objectius i criteris activa la reflexió de l'alumnat des del primer moment i augmenta tant la motivació com la capacitat d'autoregulació al llarg del projecte.
 
-2.  **Heurística: Converteix l'error en una oportunitat d'aprenentatge.**
-    *   **Quan aplica**: Quan l'alumne comet errors en una tasca o activitat.
-    *   **Fonament**: L'error és una part natural i necessària de l'aprenentatge. Penalitzar-lo genera ansietat, por i inhibeix la voluntat de l'alumne de prendre riscos i explorar. Un clima d'aula segur on l'error és analitzat i regulat és fonamental per al progrés i per desenvolupar l'autonomia.
-    *   **Exemple complet de raonament**: Davant un alumne que ha fet un exercici de matemàtiques amb diversos errors, en lloc de corregir-lo amb una "X" i una nota baixa, convé que el docent marqui els errors sense donar la solució i plantegi preguntes obertes: "Quina part d'aquest problema et va resultar més difícil?", "Quin pas creus que podries revisar?", o "Quina estratègia vas utilitzar i per què?". Aquest enfocament convida l'alumne a reflexionar sobre el seu procés de pensament, a identificar la causa de l'error i a buscar solucions per si mateix. D'aquesta manera, es transforma la frustració potencial en una experiència d'aprenentatge activa i constructiva, fomentant la resiliència i la capacitat d'autoregulació davant les dificultats.
+#### Heurística 2: Convertir l'error en oportunitat d'aprenentatge
 
-3.  **Heurística: Diversifica les fonts i formats del feedback.**
-    *   **Quan aplica**: En qualsevol moment del procés d'avaluació formativa.
-    *   **Fonament**: El feedback no ha de ser només del docent ni sempre escrit. La coavaluació i l'autoavaluació són instruments poderosos per a l'autoregulació. Diversificar formats (oral, visual, escrit) i instruments (rúbriques, carpetes d'aprenentatge, bases d'orientació) atén la diversitat d'aprenentatge i millora la comprensió i la implicació.
-    *   **Exemple complet de raonament**: Davant un docent que avalua un projecte de recerca, en lloc de només donar una nota i comentaris escrits, convé proposar l'ús d'una rúbrica compartida prèviament per a una coavaluació entre parelles d'alumnes, seguida d'una autoavaluació individual basada en la mateixa rúbrica. A més, es pot proposar una breu conversa individual amb el docent per a un feedback oral més personalitzat, centrat en el procés de recerca. Aquesta combinació de fonts i formats no només alleugereix la càrrega del docent, sinó que també empodera els alumnes, millora la seva capacitat crítica i els ajuda a interioritzar els criteris d'èxit de manera més profunda i significativa, ja que reben perspectives diverses i han de reflexionar activament.
+- **Quan aplica:** Quan l'alumnat comet errors en una tasca o activitat.
+- **Fonament:** L'error és part natural i necessària de l'aprenentatge. Penalitzar-lo genera ansietat, por i inhibeix la voluntat de prendre riscos i explorar. Un clima d'aula segur on l'error és analitzat i regulat és fonamental per al progrés.
+- **Exemple descriptiu:** Davant un exercici de matemàtiques amb diversos errors, en lloc de corregir-lo amb una "X" i una nota baixa, convé marcar els errors sense donar la solució i plantejar preguntes obertes: "Quina part d'aquest problema t'ha resultat més difícil?", "Quin pas creus que podries revisar?", "Quina estratègia has utilitzat i per què?". Aquest enfocament convida l'alumne a reflexionar sobre el procés de pensament, identificar la causa de l'error i buscar solucions per si mateix, transformant la frustració potencial en experiència d'aprenentatge activa.
 
-4.  **Heurística: Adapta l'avaluació a la diversitat lingüística i de ritmes.**
-    *   **Quan aplica**: Amb alumnes nouvinguts, amb NEE, o amb baixa competència lingüística.
-    *   **Fonament**: La dificultat per expressar-se en la llengua vehicular no ha d'impedir demostrar el que s'ha après. L'avaluació ha de ser inclusiva i permetre que tots els alumnes puguin mostrar el seu progrés, diversificant els canals d'expressió i adaptant els instruments.
-    *   **Exemple complet de raonament**: Davant un docent que té un alumne nouvingut amb un nivell baix de català en la seva classe de secundària, en lloc d'esperar que l'alumne respongui les proves escrites de la mateixa manera que els seus companys, convé adaptar els instruments d'avaluació. Això pot implicar permetre respostes orals, l'ús de dibuixos o esquemes per expressar idees, proves amb suport visual, o la possibilitat de fer servir un traductor per a instruccions clau. A més, es pot suggerir la creació d'un Pla de Suport Individualitzat (PI) que estableixi criteris d'avaluació ajustats temporalment. Aquesta flexibilitat assegura que l'alumne pugui participar i progressar sense que la barrera lingüística sigui un obstacle insalvable per a la seva avaluació formativa, garantint una avaluació justa i inclusiva del seu aprenentatge real.
+#### Heurística 3: Diversificar fonts i formats del feedback
 
-5.  **Heurística: Promou la planificació i l'anticipació de l'acció.**
-    *   **Quan aplica**: En tasques complexes o projectes de llarga durada.
-    *   **Fonament**: Les persones expertes planifiquen i anticipen els passos. Ensenyar als alumnes a fer-ho els ajuda a desenvolupar estratègies cognitives superiors, a gestionar millor el temps i els recursos, i a ser més autònoms en la resolució de problemes.
-    *   **Exemple complet de raonament**: Davant un docent que assigna un treball de recerca als seus alumnes de batxillerat, en lloc de deixar-los començar directament, convé dedicar una sessió a la creació d'una "base d'orientació" col·lectiva. Aquesta eina, que resumeix els passos clau i les accions a seguir (com ara "definir el tema", "buscar fonts fiables", "estructurar la informació", "redactar l'esborrany", "revisar amb la rúbrica"), permet als alumnes planificar la seva feina, anticipar possibles dificultats i tenir un full de ruta clar. Utilitzar aquesta base d'orientació no només com a guia, sinó també com a instrument d'autoavaluació durant el procés, fomenta la seva autonomia i la seva capacitat per gestionar projectes complexos de manera efectiva, reduint la sensació de desbordament i augmentant la probabilitat d'èxit.
+- **Quan aplica:** En qualsevol moment del procés d'avaluació formativa.
+- **Fonament:** El feedback no ha de ser només del docent ni sempre escrit. La coavaluació i l'autoavaluació són instruments poderosos per a l'autoregulació. Diversificar formats (oral, visual, escrit) i instruments (rúbriques, carpetes d'aprenentatge, bases d'orientació) atén la diversitat d'aprenentatge.
+- **Exemple descriptiu:** Davant l'avaluació d'un projecte de recerca, en lloc de només donar una nota i comentaris escrits convé proposar l'ús d'una rúbrica compartida prèviament per a una coavaluació entre parelles, seguida d'una autoavaluació individual basada en la mateixa rúbrica, més una breu conversa individual amb el docent per a feedback oral personalitzat centrat en el procés. Aquesta combinació empodera l'alumnat, millora la capacitat crítica i ajuda a interioritzar els criteris d'èxit de manera significativa.
 
-#### Heurístiques per a l'alumne
+#### Heurística 4: Adaptar l'avaluació a la diversitat lingüística i de ritmes
 
-1.  **Heurística: Busca entendre el "per què" i el "com" de la teva feina.**
-    *   **Quan aplica**: Abans de començar una tasca o quan no entens el seu propòsit o els criteris d'avaluació.
-    *   **Fonament**: Saber els objectius de l'activitat i els criteris d'avaluació t'ajuda a enfocar el teu esforç i a saber què s'espera de tu. Això et permetrà autoregular-te i millorar de manera efectiva.
-    *   **Exemple complet de raonament**: Davant un alumne que rep una nova activitat i no té clar per a què serveix o què ha de fer exactament per obtenir un bon resultat, una orientació útil és que, abans de començar, es faci preguntes com "Quin és l'objectiu principal d'aquesta activitat?", "Què se m'avalua exactament?", o "Com sabré si ho he fet bé?". Si les respostes no són clares, convé preguntar al docent o a un company. Entendre el propòsit i els criteris des del principi no només redueix la frustració i la incertesa, sinó que també orienta el seu aprenentatge, permetent-li planificar millor la seva feina i identificar els seus propis punts de millora de manera més efectiva i autònoma.
+- **Quan aplica:** Amb alumnes nouvinguts, amb NEE, o amb baixa competència lingüística.
+- **Fonament:** La dificultat per expressar-se en la llengua vehicular no ha d'impedir demostrar el que s'ha après. L'avaluació ha de ser inclusiva i permetre que tot l'alumnat pugui mostrar el seu progrés, diversificant canals d'expressió i adaptant instruments.
+- **Exemple descriptiu:** Davant un alumne nouvingut amb un nivell baix de català en una classe de secundària, en lloc d'esperar que respongui les proves escrites com els companys convé adaptar els instruments d'avaluació: permetre respostes orals, l'ús de dibuixos o esquemes, proves amb suport visual, o l'ús de traductor per a instruccions clau. Un Pla de Suport Individualitzat (PI) pot establir criteris d'avaluació ajustats temporalment, assegurant que la barrera lingüística no sigui un obstacle insalvable per a una avaluació formativa justa i inclusiva.
 
-2.  **Heurística: Considera l'error com una oportunitat per aprendre.**
-    *   **Quan aplica**: Quan detectes un error en la teva feina o quan reps una correcció.
-    *   **Fonament**: Els errors són part natural i necessària del procés d'aprenentatge. Analitzar-los t'ajuda a comprendre millor la matèria, a identificar les causes de la dificultat i a desenvolupar estratègies per no repetir-los, fomentant la resiliència i un aprenentatge més profund.
-    *   **Exemple complet de raonament**: Davant un alumne que ha rebut una tasca corregida amb indicacions sobre els errors, en lloc de desanimar-se o simplement mirar la nota, convé revisar cada error i preguntar-se: "Per què m'he equivocat aquí?", "Què no vaig entendre?", "Com ho podria haver fet millor?". Es pot intentar corregir l'error per si mateix abans de demanar ajuda, o buscar exemples similars o consultar apunts. Aquesta actitud proactiva davant l'error transforma una possible font de frustració en una eina potent per a la millora contínua, permetent-li aprendre de les seves pròpies dificultats i reforçant la seva capacitat d'autoregulació.
+#### Heurística 5: Promoure la planificació i l'anticipació de l'acció
 
-3.  **Heurística: Utilitza les eines de reflexió i el feedback dels companys.**
-    *   **Quan aplica**: Quan treballes en grup o quan el docent proposa autoavaluació/coavaluació.
-    *   **Fonament**: Reflexionar sobre el teu propi aprenentatge (autoavaluació) i rebre perspectives dels companys (coavaluació) et proporciona una visió més completa del teu progrés. Aquesta pràctica t'ajuda a identificar punts cecs, a millorar habilitats de pensament crític i a desenvolupar la capacitat de donar i rebre feedback constructiu.
-    *   **Exemple complet de raonament**: Davant un alumne que ha de fer una presentació oral en grup i el docent ha proporcionat una rúbrica, una orientació útil és que, abans de la presentació final, utilitzi la rúbrica per autoavaluar la seva part i demani a un company que coavaluï la seva actuació. Es pot preguntar al company: "Què creus que he fet bé en la meva exposició?", "Què podria millorar en la meva part?", "La meva explicació és clara i entenedora per a tu?". Aquest procés de reflexió individual i intercanvi amb els iguals no només millora la qualitat del treball final, sinó que també desenvolupa habilitats de pensament crític i comunicació, preparant l'alumne per a un aprenentatge més col·laboratiu i autònom en el futur.
+- **Quan aplica:** En tasques complexes o projectes de llarga durada.
+- **Fonament:** Les persones expertes planifiquen i anticipen els passos. Ensenyar a fer-ho ajuda a desenvolupar estratègies cognitives superiors, gestionar millor el temps i els recursos, i ser més autònoms en la resolució de problemes.
+- **Exemple descriptiu:** Davant un treball de recerca de batxillerat, en lloc de deixar començar directament convé dedicar una sessió a la creació col·lectiva d'una "base d'orientació" amb els passos clau ("definir el tema", "buscar fonts fiables", "estructurar la informació", "redactar l'esborrany", "revisar amb la rúbrica"). Utilitzar aquesta base no només com a guia sinó també com a instrument d'autoavaluació durant el procés fomenta l'autonomia i la capacitat per gestionar projectes complexos, reduint la sensació de desbordament.
+
+### Indicadors d'apropiació del feedback formatiu en l'alumnat
+
+Aquesta subsecció descriu manifestacions observables de l'apropiació del feedback formatiu per part de l'alumnat — què fa un alumne que ha interioritzat l'avaluació com a eina d'aprenentatge. Útil per a l'acompanyament i la coavaluació.
+
+#### Indicador 1: Cerca el "per què" i el "com" de la tasca abans de començar
+
+- **Manifestació observable:** Davant una nova activitat sense propòsit clar, l'alumnat que ha interioritzat el feedback formatiu no comença a cegues: es pregunta "Quin és l'objectiu principal d'aquesta activitat?", "Què se m'avalua exactament?", "Com sabré si ho he fet bé?". Si les respostes no són clares, pregunta al docent o a un company. Entendre el propòsit i els criteris des del principi redueix la frustració i orienta l'esforç, permetent planificar millor la feina i identificar punts de millora de manera autònoma.
+
+#### Indicador 2: Aborda l'error com a oportunitat per aprendre
+
+- **Manifestació observable:** Davant una tasca corregida amb indicacions sobre errors, l'alumnat que ha interioritzat el feedback formatiu no es desanima ni mira només la nota: revisa cada error preguntant-se "Per què m'he equivocat aquí?", "Què no vaig entendre?", "Com ho podria haver fet millor?". Intenta corregir l'error per si mateix abans de demanar ajuda o consultar exemples similars i apunts. Aquesta actitud transforma una font de frustració en eina de millora contínua.
+
+#### Indicador 3: Aprofita les eines de reflexió i el feedback dels companys
+
+- **Manifestació observable:** Davant una presentació en grup amb rúbrica compartida, l'alumnat que ha interioritzat el feedback formatiu utilitza la rúbrica per autoavaluar la pròpia part abans de la presentació final i demana al company que coavaluï l'actuació: "Què creus que he fet bé en la meva exposició?", "Què podria millorar en la meva part?", "La meva explicació és clara i entenedora per a tu?". Aquest procés de reflexió individual i intercanvi amb els iguals desenvolupa habilitats de pensament crític i comunicació.
 
 ## 5. Fonts
 
