@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-preguntes-comprensio.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: c801776dff1ac28c
+checksum_font: 3c6d476df71dbc7a
 ---
 
 # Generar preguntes de comprensió — prompt d'adaptació parametritzat per nivell

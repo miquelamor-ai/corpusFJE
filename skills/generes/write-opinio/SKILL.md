@@ -25,9 +25,9 @@ moduls_relacionats:
 - M3
 font_canonic: M3_genere-escriure-opinio.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: f588830a07752004
+checksum_font: 39c4371b047a7c96
 ---
 
 # Escriure/adaptar un article d'opinió — skill operativa per a LLM

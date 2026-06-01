@@ -25,9 +25,9 @@ moduls_relacionats:
 - M3
 font_canonic: M3_genere-escriure-carta.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 0687e00d5401e12e
+checksum_font: d665eb4e9c28a9c3
 ---
 
 # Escriure/adaptar una carta — skill operativa per a LLM

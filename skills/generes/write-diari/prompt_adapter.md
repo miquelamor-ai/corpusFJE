@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-diari.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: b7f41f198b40e740
+checksum_font: 6da2ae5763cb4771
 ---
 
 # Escriure/adaptar una entrada de diari — prompt d'adaptació parametritzat per nivell

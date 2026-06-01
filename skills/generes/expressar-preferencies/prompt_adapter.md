@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-expressar-preferencies.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 5438f0562d0ab43f
+checksum_font: ff727a7c217cb3f4
 ---
 
 # Expressar preferències — prompt d'adaptació parametritzat per nivell

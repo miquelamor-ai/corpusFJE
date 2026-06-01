@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-esquema-visual.md
 font_version: 1.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: e62b5e1f6866d949
+checksum_font: 153f17d80ff1c914
 ---
 
 # Generar esquema visual — prompt d'adaptació parametritzat per nivell

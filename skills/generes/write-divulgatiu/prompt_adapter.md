@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-divulgatiu.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 063c47ea08c08cbd
+checksum_font: 5616f5933412ef43
 ---
 
 # Escriure/adaptar un text divulgatiu — prompt d'adaptació parametritzat per nivell

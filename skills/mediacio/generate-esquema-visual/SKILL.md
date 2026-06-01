@@ -26,9 +26,9 @@ moduls_relacionats:
 - M5
 font_canonic: M3_instrument-generar-esquema-visual.md
 font_version: 1.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: e62b5e1f6866d949
+checksum_font: 153f17d80ff1c914
 ---
 
 # Generar esquema visual — skill operativa per a LLM

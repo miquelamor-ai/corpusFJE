@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-resum.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 339d885684cdfd49
+checksum_font: d6ba1ea0a1bdf465
 ---
 
 # Escriure/adaptar un resum — prompt d'adaptació parametritzat per nivell

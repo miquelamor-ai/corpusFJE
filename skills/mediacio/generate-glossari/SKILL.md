@@ -20,9 +20,9 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-glossari.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: e9a864169706d670
+checksum_font: 856ef17b08476884
 ---
 
 # Generar glossari — skill operativa per a LLM

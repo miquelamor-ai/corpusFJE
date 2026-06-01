@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-contrarelat-odi.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: e81358a85364e27a
+checksum_font: 24eb354c1f5180f0
 ---
 
 # Escriure/adaptar un contrarelat de l'odi — prompt d'adaptació parametritzat per nivell

@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-descripcio.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: b4726f1e98e291cf
+checksum_font: 33a53b460b934945
 ---
 
 # Escriure/adaptar una descripció — prompt d'adaptació parametritzat per nivell

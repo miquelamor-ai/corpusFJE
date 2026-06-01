@@ -27,9 +27,9 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-bastides-produccio.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: a02fd39f2a5d7efc
+checksum_font: d13f7b2efbec5e22
 ---
 
 # Generar bastides de producció — skill operativa per a LLM

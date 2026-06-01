@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-illustracions.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 71cc77fc49dd1667
+checksum_font: 85ecf87c5bfb6c03
 ---
 
 # Generar il·lustracions — prompt d'adaptació parametritzat per nivell

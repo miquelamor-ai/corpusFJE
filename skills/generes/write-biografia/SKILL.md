@@ -25,9 +25,9 @@ moduls_relacionats:
 - M3
 font_canonic: M3_genere-escriure-biografia.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 5ed281aab19b9f51
+checksum_font: 15d0dad0b6e1da5e
 ---
 
 # Escriure/adaptar una biografia — skill operativa per a LLM

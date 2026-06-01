@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-carta.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 0687e00d5401e12e
+checksum_font: d665eb4e9c28a9c3
 ---
 
 # Escriure/adaptar una carta — prompt d'adaptació parametritzat per nivell

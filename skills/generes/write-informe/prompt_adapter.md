@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-informe.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: a98d4b849da93041
+checksum_font: 0851c157758f038e
 ---
 
 # Escriure/adaptar un informe — prompt d'adaptació parametritzat per nivell

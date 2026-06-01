@@ -19,9 +19,9 @@ moduls_relacionats:
 - M4
 font_canonic: M3_instrument-generar-activitats-aprofundiment.md
 font_version: 4.0.0-canonic
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 5f4dbc4c8c0747d8
+checksum_font: ef0bfd256305893c
 ---
 
 # Generar activitats d'aprofundiment — skill operativa per a LLM

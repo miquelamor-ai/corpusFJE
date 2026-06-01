@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-mapa-conceptual.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: f2a012b8c614ad4d
+checksum_font: 701a3b92c7fe4e5b
 ---
 
 # Generar mapa conceptual — prompt d'adaptació parametritzat per nivell

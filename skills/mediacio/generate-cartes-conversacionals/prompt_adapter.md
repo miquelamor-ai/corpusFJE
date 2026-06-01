@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-cartes-conversacionals.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: c4142bd6b793fd87
+checksum_font: de9f447faf0ce158
 ---
 
 # Generar cartes conversacionals — prompt d'adaptació parametritzat per nivell

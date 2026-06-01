@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_instrument-generar-glossari.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-05-31'
+generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: e9a864169706d670
+checksum_font: 856ef17b08476884
 ---
 
 # Generar glossari — prompt d'adaptació parametritzat per nivell
