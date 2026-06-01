@@ -149,7 +149,7 @@ _Excepcions: no n'hi ha._
 | **4. Criteris transversals** | Volum màxim per moment | 1-2 accions gestuals/orals per moment. | Màxim 3 ítems per moment. | Màxim 3 ítems per moment. | Màxim 3 ítems per moment. | Màxim 3 ítems per moment. | Màxim 3 ítems per moment. |
 |  | No duplicar `preguntes_comprensio` | Les bastides donen el procediment; les preguntes detallades són del complement `preguntes_comprensio`. | Idem. | Idem. | Idem. | Idem. | Idem. |
 |  | Especificitat del propòsit | Propòsit referit a una imatge o paraula concreta del text. | Propòsit específic del text actual, no genèric. | Idem. | Idem. | Idem. | Idem. |
-|  | Format obligatori | Secció `## Suports de lectura` + 3 subseccions (Abans/Durant/Després). | Idem. | Idem. | Idem. | Idem. | Idem. |
+|  | Format obligatori | Secció `## Bastides` amb sub-H3 `### Bastides de lectura` i bullets per moment (`- **Abans:**`, `- **Durant:**`, `- **Després:**`). | Idem. | Idem. | Idem. | Idem. | Idem. |
 | **5. Autoavaluació (per l'alumne)** | Reflexió en primera persona | *(via adult)* "He assenyalat el que m'ha demanat el mestre." | "He marcat una paraula important. He completat la frase-buit del resum." | "He marcat ✓/? /! mentre llegia. He escrit de què tracta el text." | "He fet una hipòtesi abans de llegir. He comprovat si era correcta." | "He identificat la postura de l'autor. He avaluat si les dades eren fiables." | "He formulat les meves pròpies preguntes abans de llegir i he comprovat si el text les responia." |
 
 ## Casos especials
@@ -228,7 +228,7 @@ Cada dimensió té un **tipus de descriptor** que condiciona com s'ha de transfo
 | 4.1 Volum màxim per moment | `countable` | no | comptar ítems per cada subsecció (Abans/Durant/Després); llindar ≤3 |
 | 4.2 No duplicar `preguntes_comprensio` | `cross_source` | **sí (output de preguntes_comprensio si actiu)** | comparar semànticament: cap pregunta de bastides ha de coincidir amb cap pregunta del complement |
 | 4.3 Especificitat del propòsit | `qualitative` + `cross_source` | sí (text adaptat) | LLM-jutge: el propòsit referencia contingut concret del text actual |
-| 4.4 Format obligatori | `structural` + `binary` | no | parser markdown: `## Suports de lectura` + 3 subseccions Abans/Durant/Després |
+| 4.4 Format obligatori | `structural` + `binary` | no | parser markdown: `## Bastides` amb sub-H3 `### Bastides de lectura` + bullets `- **Abans:**`, `- **Durant:**`, `- **Després:**` |
 | 5 Autoavaluació metacognitiva | `metacognitive` | no | derivat doble: autoavaluació alumne + registre docent de la qualitat |
 
 **Notes:**
@@ -258,14 +258,20 @@ Si l'alumne no pot completar la frase marc del Moment Després, no ha entès el 
 
 **Header H2 obligatori (literal exacte):**
 ```
-## Suports de lectura
+## Bastides
 ```
 
-**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+**Sub-headers H3 obligatoris** (literals exactes; `### Bastides de resposta` només quan composa amb `generate-bastides-produccio`):
 ```
-### Abans
-### Durant
-### Després
+### Bastides de lectura
+### Bastides de resposta
+```
+
+**Moments interns dins de `### Bastides de lectura`** (NO són sub-H3, són bullets amb negreta):
+```
+- **Abans:** [contingut]
+- **Durant:** [contingut]
+- **Després:** [contingut]
 ```
 
 **Marcadors inline obligatoris:**
@@ -276,7 +282,7 @@ Si l'alumne no pot completar la frase marc del Moment Després, no ha entès el 
 !
 ```
 
-**Regla d'integritat estructural.** Sense el header literal `## Suports de lectura` i les 3 subseccions `### Abans`, `### Durant`, `### Després` en aquest ordre, el parser d'ATNE no detecta l'estructura i les bastides queden orfes al frontend, impossibilitant la verificació estructural (4.4) i el comptatge d'ítems per moment (4.1 ≤3).
+**Regla d'integritat estructural.** Sense el header literal `## Bastides` amb sub-H3 `### Bastides de lectura` i els 3 moments com a bullets (`- **Abans:**`, `- **Durant:**`, `- **Després:**`) en aquest ordre, el parser d'ATNE no detecta l'estructura i les bastides queden orfes al frontend, impossibilitant la verificació estructural (4.4) i el comptatge d'ítems per moment (4.1 ≤3).
 
 ## Fonts principals
 

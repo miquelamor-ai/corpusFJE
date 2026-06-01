@@ -80,7 +80,7 @@
         },
         {
           "pas_id": "pas_4_format_obligatori",
-          "descriptor": "Secció `## Suports de lectura` + 3 subseccions (Abans/Durant/Després)."
+          "descriptor": "Secció `## Bastides` amb sub-H3 `### Bastides de lectura` i bullets per moment (`- **Abans:**`, `- **Durant:**`, `- **Després:**`)."
         },
         {
           "pas_id": "pas_5_reflexio_en_primera",
@@ -492,7 +492,7 @@
       "dimensio": "Format obligatori",
       "tipus": "binary",
       "requires_source_text": false,
-      "validation_hint": "parser markdown: `## Suports de lectura` + 3 subseccions Abans/Durant/Després"
+      "validation_hint": "parser markdown: `## Bastides` amb sub-H3 `### Bastides de lectura` + bullets `- **Abans:**`, `- **Durant:**`, `- **Després:**`"
     },
     {
       "id": "pas_5_reflexio_en_primera",
