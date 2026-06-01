@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 6db3a1ddb2aa00cf
+checksum_font: 5951b3be11b80fa3
 ---
 
 # Escriure/adaptar un poema — prompt d'adaptació parametritzat per nivell

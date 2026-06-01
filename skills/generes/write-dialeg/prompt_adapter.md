@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: bd868114a6a62a1b
+checksum_font: 9f1447474d8f3ca8
 ---
 
 # Escriure/adaptar un diàleg — prompt d'adaptació parametritzat per nivell
