@@ -81,7 +81,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 - Tipologia lèxica: Noms i verbs d'acció principals del text.
 
 **2. Format de presentació**
-- Estructura: Taula de 2 columnes: Terme \
+- Estructura: Taula de 2 columnes: Terme | Explicació.
 - Suport visual: Emoji recomanat si el terme té representació visual clara.
 
 **3. Explicació / definició (CALP)**
@@ -110,7 +110,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 - Tipologia lèxica: Noms + verbs + adjectius clau.
 
 **2. Format de presentació**
-- Estructura: Explicació.
+- Estructura: Taula de 2 columnes; pot afegir una analogia o exemple integrat.
 - Suport visual: Emoji opcional per a termes concrets; no per a abstractes.
 
 **3. Explicació / definició (CALP)**
@@ -139,7 +139,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 - Tipologia lèxica: Inclou habilitats cognitives lèxicament marcades (hipòtesi, causa, conseqüència).
 
 **2. Format de presentació**
-- Estructura: Taula de 2 columnes; pot afegir una analogia o exemple integrat.
+- Estructura: Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna "Exemple en frase".
 - Suport visual: Referència opcional a la il·lustració del text si n'hi ha.
 
 **3. Explicació / definició (CALP)**
@@ -168,7 +168,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 - Tipologia lèxica: Lèxic d'especialitat (CALP). Inclou col·locacions ("realitzar una hipòtesi").
 
 **2. Format de presentació**
-- Estructura: Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna "Exemple en frase".
+- Estructura: Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna.
 - Suport visual: No necessari; el lector processa el terme sense suport visual.
 
 **3. Explicació / definició (CALP)**
@@ -197,7 +197,7 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 - Tipologia lèxica: CALP d'especialitat. Pot incloure termes meta-discursius i lèxic conceptual abstracte.
 
 **2. Format de presentació**
-- Estructura: Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna.
+- Estructura: Taula completa; **ordre alfabètic** obligatori; pot incloure etimologia breu o distinció entre termes similars.
 - Suport visual: No necessari.
 
 **3. Explicació / definició (CALP)**

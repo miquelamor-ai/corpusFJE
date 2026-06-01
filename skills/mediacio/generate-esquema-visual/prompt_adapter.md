@@ -37,7 +37,7 @@ Text font:
 - **Total nodes**: 2-3 nodes. Seqüències temporals bàsiques (abans→després) o relacions imatge→paraula.
 - **Profunditat de l'arbre**: 1 nivell (arrel + fills directes).
 - **Marcat textual**: Llista markdown amb guions `-` i sagnia de 2 espais per nivell. PICTOGRAMES inline obligatoris a l'arrel i a les fulles principals.
-- **Format prohibit**: NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (\
+- **Format prohibit**: NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (|, ├, └, ─). NO emojis decoratius.
 - **Predominant**: Seqüència temporal simple o relació part-tot.
 - **Etiquetes a les connexions**: No (només estructura).
 - **Una sola arrel**: Una sola arrel per esquema. Sense múltiples nodes a profunditat 0.
@@ -53,7 +53,7 @@ Text font:
 - **Total nodes**: 3-4 nodes. Enumeració de qualitats o parts d'un objecte (descripció simple).
 - **Profunditat de l'arbre**: 1-2 nivells.
 - **Marcat textual**: Llista markdown amb guions `-` i sagnia 2 espais. Pictogrames recomanats per a fulles concretes.
-- **Format prohibit**: , ├, └, ─). NO emojis decoratius.
+- **Format prohibit**: Idem.
 - **Predominant**: Enumeració paral·lela (germans).
 - **Etiquetes a les connexions**: No.
 - **Una sola arrel**: Idem.

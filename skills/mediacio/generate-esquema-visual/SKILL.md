@@ -63,7 +63,7 @@ Descriu l'esquema visual **per a la LECTURA** de l'alumne (mediació presentada 
 
 **3. Format de presentació**
 - Marcat textual: Llista markdown amb guions `-` i sagnia de 2 espais per nivell. PICTOGRAMES inline obligatoris a l'arrel i a les fulles principals.
-- Format prohibit: NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (\
+- Format prohibit: NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (|, ├, └, ─). NO emojis decoratius.
 
 **4. Tipus de relacions**
 - Predominant: Seqüència temporal simple o relació part-tot.
@@ -91,7 +91,7 @@ Descriu l'esquema visual **per a la LECTURA** de l'alumne (mediació presentada 
 
 **3. Format de presentació**
 - Marcat textual: Llista markdown amb guions `-` i sagnia 2 espais. Pictogrames recomanats per a fulles concretes.
-- Format prohibit: , ├, └, ─). NO emojis decoratius.
+- Format prohibit: Idem.
 
 **4. Tipus de relacions**
 - Predominant: Enumeració paral·lela (germans).

@@ -51,7 +51,7 @@ Text font:
 
 - **Nombre**: 5-8 termes.
 - **Tipologia lèxica**: Noms i verbs d'acció principals del text.
-- **Estructura**: Taula de 2 columnes: Terme \
+- **Estructura**: Taula de 2 columnes: Terme | Explicació.
 - **Suport visual**: Emoji recomanat si el terme té representació visual clara.
 - **Llargada**: Fins a 8 paraules en català molt senzill (A1).
 - **Recursos pedagògics**: Català A1 sense tecnicismes dins la definició. No repetir el terme.
@@ -68,7 +68,7 @@ Text font:
 
 - **Nombre**: 8-10 termes.
 - **Tipologia lèxica**: Noms + verbs + adjectius clau.
-- **Estructura**: Explicació.
+- **Estructura**: Taula de 2 columnes; pot afegir una analogia o exemple integrat.
 - **Suport visual**: Emoji opcional per a termes concrets; no per a abstractes.
 - **Llargada**: Fins a 10 paraules.
 - **Recursos pedagògics**: Pot incloure una analogia simple ("és com…") o un exemple concret del text.
@@ -85,7 +85,7 @@ Text font:
 
 - **Nombre**: 10-12 termes.
 - **Tipologia lèxica**: Inclou habilitats cognitives lèxicament marcades (hipòtesi, causa, conseqüència).
-- **Estructura**: Taula de 2 columnes; pot afegir una analogia o exemple integrat.
+- **Estructura**: Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna "Exemple en frase".
 - **Suport visual**: Referència opcional a la il·lustració del text si n'hi ha.
 - **Llargada**: Fins a 12 paraules.
 - **Recursos pedagògics**: Pot usar vocabulari lleugerament tècnic acompanyat d'un exemple.
@@ -102,7 +102,7 @@ Text font:
 
 - **Nombre**: 12-15 termes.
 - **Tipologia lèxica**: Lèxic d'especialitat (CALP). Inclou col·locacions ("realitzar una hipòtesi").
-- **Estructura**: Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna "Exemple en frase".
+- **Estructura**: Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna.
 - **Suport visual**: No necessari; el lector processa el terme sense suport visual.
 - **Llargada**: Fins a 15 paraules.
 - **Recursos pedagògics**: Vocabulari acadèmic (CALP) propi del camp; pot referenciar un altre terme del glossari.
@@ -119,7 +119,7 @@ Text font:
 
 - **Nombre**: 15-18 termes.
 - **Tipologia lèxica**: CALP d'especialitat. Pot incloure termes meta-discursius i lèxic conceptual abstracte.
-- **Estructura**: Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna.
+- **Estructura**: Taula completa; **ordre alfabètic** obligatori; pot incloure etimologia breu o distinció entre termes similars.
 - **Suport visual**: No necessari.
 - **Llargada**: Fins a 20 paraules.
 - **Recursos pedagògics**: Definició precisa amb matís conceptual; pot incloure distinció entre termes similars o etimologia breu.
