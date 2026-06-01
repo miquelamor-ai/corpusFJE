@@ -4,9 +4,9 @@ titol: "Instruments de Mediació Pedagògica"
 tipus: marc
 descripcio: "Taxonomia operativa i catàleg complet dels instruments de mediació pedagògica segons el MALL (FJE): bastides (lingüístiques, cognitives, metacognitives), suports DUA, autoregulació, extensió curricular, ajuts i crossa. Inclou definicions, dimensions comparatives, catàleg d'instruments, gradacions MALL per nivell, HCL i modalitat lectora dual."
 review_status: revisat
-actualitzat_at: 2026-05-16T00:00:00
+actualitzat_at: 2026-06-01T00:00:00
 generat_at: 2026-05-16T00:00:00
-nota_revisio: "Taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat."
+nota_revisio: "Taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat. 2026-06-01: afegida §Matriu de cobertura perfil × complement (R0 + lleis R1-R4/A5), font canon de matriu_cobertura.json."
 ---
 
 ## Abstract
@@ -607,6 +607,164 @@ Text sobre volcans:
 - **TOLC no és exclusiu de nouvinguts**: aplica a NESE (allibera càrrega cognitiva) i AACC (enriquiment metalingüístic).
 
 ---
+
+## Matriu de cobertura perfil × complement
+
+Aquesta secció **canonitza** la matriu d'auto-suggestió de complements: davant un
+perfil d'alumne (condicions diagnòstiques + nivell MECR + curs), quins instruments de
+mediació es **pre-marquen per defecte** al moment de configurar una adaptació. És
+l'operacionalització directa del principi *"Menys és més"* (vegeu §Principis pedagògics
+MALL): proposa el set mínim suficient, no un menú maximalista, i el docent sempre pot
+ampliar manualment.
+
+És la **font de veritat única** d'aquesta matriu. El derivat mecànic
+`matriu_cobertura.json` (a `.tooling/`) es genera des d'aquí amb
+`build_matriu_cobertura.py` i el consumeixen els sistemes d'adaptació (ATNE). Cap
+sistema ha de codificar aquesta matriu pel seu compte: si canvia, canvia **aquí**.
+
+> Validació pedagògica: NotebookLM MALL FJE (sessió 2026-05-27, "Opció D" — bastides i
+> preguntes_comprensio mai activades alhora als defaults). Principis aplicats: bastides
+> als perfils d'aprenentatge inicial; preguntes als perfils amb autonomia lectora;
+> visual exclusiu per MECR (esquema a A1/A2, mapa mental a B1, mapa conceptual a B2+);
+> altes capacitats sense esquema ni pictogrames (expertise reversal — infantilitza).
+
+### Ordre canònic de les 12 columnes de complement
+
+L'ordre és **contracte** (els consumidors hi depenen). `complement_keys`:
+
+```
+glossari, esquema_visual, bastides, mapa_conceptual, preguntes_comprensio,
+activitats_aprofundiment, pictogrames, mapa_mental, plantilles_genere,
+resum_graduat, cartes_conversacionals, rubriques
+```
+
+### Llegenda de codis de condició
+
+| Codi | Condició | M1 de referència |
+|---|---|---|
+| `tea` | TEA (espectre autista) | M1_alumnat-TEA.md |
+| `tdah` | TDAH | M1_TDAH.md |
+| `disl` | Dislèxia / dificultats lectores | M1_dislexia-dificultats-lectores.md |
+| `di` | Discapacitat intel·lectual | M1_discapacitat-intel·lectual.md |
+| `tdl` | Trastorn del llenguatge (TDL) | M1_TDL-trastorn-llenguatge.md |
+| `ac` | Altes capacitats | M1_altes-capacitats.md |
+| `aud` | Discapacitat auditiva | M1_discapacitat-auditiva.md |
+| `vis` | Discapacitat visual | M1_discapacitat-visual.md |
+| `tdc` | Trastorn de la coordinació (dispràxia) | M1_trastorn-coordinacio-dispraxia.md |
+| `cat` | Nouvingut (català L2) | M1_alumnat-nouvingut.md |
+| `vuln` | Vulnerabilitat socioeducativa | M1_vulnerabilitat-socioeducativa.md |
+| `emo` | Trastorns emocionals / conducta | M1_trastorns-emocionals-conducta.md |
+| `discalculia` | Discalcúlia | M1_discalculia.md |
+
+### Matriu base (R0) — condició → complements pre-marcats
+
+Cada condició activa un conjunt base de complements (capa estàtica). Un perfil amb
+diverses condicions rep la **unió** dels seus conjunts. Mitjana ~3 complements per
+condició (no els 12 possibles), per principi de proporcionalitat.
+
+| Condició | Complements base pre-marcats |
+|---|---|
+| `tea` | esquema_visual · bastides · pictogrames |
+| `tdah` | glossari · esquema_visual · preguntes_comprensio |
+| `disl` | glossari · esquema_visual · bastides |
+| `di` | esquema_visual · bastides · pictogrames |
+| `tdl` | glossari · esquema_visual · bastides |
+| `ac` | activitats_aprofundiment · mapa_mental · rubriques |
+| `aud` | glossari · preguntes_comprensio · pictogrames |
+| `vis` | glossari · preguntes_comprensio |
+| `tdc` | glossari · preguntes_comprensio |
+| `cat` | glossari · bastides · pictogrames |
+| `vuln` | glossari · esquema_visual · preguntes_comprensio |
+| `emo` | glossari · preguntes_comprensio |
+| `discalculia` | glossari · esquema_visual · bastides |
+
+### Bandes de nivell MECR
+
+La modulació de la matriu base depèn de la **banda** del MECR de sortida. La banda
+`high` és també el **fallback** per a MECR buit o desconegut (no apliquem regles de
+nivell baix si no sabem el nivell).
+
+| Banda | MECR inclosos |
+|---|---|
+| `low` | pre-A1 · A1 |
+| `mid` | A2 · B1 |
+| `high` | B2 · C1 · C2 |
+
+### Condicions amb necessitat visual prioritària
+
+`visual_need_conditions` — condicions per a les quals, a nivell baix, el suport visual
+lèxic (pictogrames) és prioritari. **No** inclou TDAH/AC/vuln/emo (la seva necessitat
+no és lèxico-visual):
+
+```
+disl · di · tdl · cat · tea · vis · discalculia
+```
+
+### Cursos de primària inicial
+
+`primaria_inicial_cursos` — cursos on el text sol ser BICS quotidià (vegeu §BICS vs
+CALP) i el glossari per defecte afegiria càrrega lectora innecessària sense una
+condició que el justifiqui:
+
+```
+1r Primària · 2n Primària
+```
+
+### Lleis operatives — modulació de la matriu base
+
+Per sobre de la unió base s'apliquen aquestes lleis. **Ordre i exclusivitat** (és
+contracte): primer es calcula la unió OR de la base; després, **si la banda és `low`**,
+s'apliquen R1, R2 i R3 (només quan hi ha alguna condició reconeguda); **si no hi ha cap
+condició reconeguda**, s'aplica el fallback amb R4 i A5. Els dos blocs (R1–R3 i R4/A5)
+són mútuament exclusius dins una mateixa avaluació.
+
+**R1 — Afegir pictogrames a nivell baix per a necessitat visual.**
+- *Condició*: banda `low` **i** el perfil té alguna condició de
+  `visual_need_conditions`.
+- *Efecte*: AFEGEIX `pictogrames`.
+- *Fonament*: a nivell baix el suport visual lèxic és prioritari per a aquestes
+  condicions; un sol complement visual fort val més que diversos textuals (§"Menys és
+  més", proporcionalitat).
+
+**R2 — Treure mapes fora de rang a nivell baix.**
+- *Condició*: banda `low`.
+- *Efecte*: ELIMINA `mapa_conceptual` **i** `mapa_mental`.
+- *Fonament*: les gradacions MALL situen el mapa conceptual a A2+ i el mapa mental a
+  B1+. A banda `low` queden fora de rang encara que la base els marqués (vegeu §Mapa
+  conceptual jeràrquic, no apropiat per a Emergent ni Inicial).
+
+**R3 — Treure glossari textual per a dislèxia pura a nivell baix.**
+- *Condició*: banda `low` **i** `disl` present **i** NO `cat` **i** NO `tdl`.
+- *Efecte*: ELIMINA `glossari`.
+- *Fonament*: el glossari textual afegeix càrrega lectora a la dislèxia; R1 ja hi posa
+  pictogrames com a substitut visual. **Excepcions explícites**: els nouvinguts (`cat`)
+  mantenen glossari (el bilingüe és central per a la L2); el TDL manté glossari (el gap
+  lèxic és el seu nucli).
+
+**Fallback — Perfil sense cap condició reconeguda.**
+- *Efecte*: `glossari` · `preguntes_comprensio`.
+
+**R4 — Primària inicial a nivell baix sense condició.**
+- *Condició*: cap condició reconeguda **i** banda `low` **i** curs ∈
+  `primaria_inicial_cursos`.
+- *Efecte*: `preguntes_comprensio`.
+- *Fonament* (decisió 2026-05-31, post-pilot): a primària inicial el text sol ser BICS
+  quotidià; un glossari per defecte afegiria càrrega innecessària si no hi ha condició
+  que el justifiqui (per això l'efecte és només la pregunta de comprensió, sense suport
+  lèxic). El docent el pot activar manualment.
+
+**A5 — Excepció a R4 per a nouvingut amb L1 declarada.**
+- *Condició*: es compliria R4 **però** el perfil és nouvingut amb L1 declarada.
+- *Efecte*: `glossari · preguntes_comprensio` (R4 NO aplica).
+- *Fonament*: per a aquest perfil el glossari (BICS quotidians + L1 + pictograma) és
+  precisament el que toca per a l'adquisició de la L2 (vegeu §Modalitat lectora dual,
+  Tipus 2).
+
+> **Excepció pactada de detecció (runtime).** *Com* es detecta "nouvingut amb L1
+> declarada" depèn de l'estructura de dades del perfil al sistema consumidor (chip
+> `cat`, camp `conditions`, `subvariables`, o `l1` explícita). Aquesta detecció **no és
+> pedagogia** sinó implementació de frontend, i per tant resta al codi del consumidor
+> (ATNE), documentada com a excepció pactada. El que SÍ és canon és l'**efecte** d'A5.
 
 ## Connexions amb altres documents del corpus
 
