@@ -172,6 +172,10 @@ _Excepcions: no n'hi ha._
 - Numeració dels passos (Pas 2): verificable per regex sobre números arabs seguits de punt. L'absència de numeració és el segon error més freqüent dels alumnes.
 - Autonomia (Pas 3): parcialmente automatitzable per detecció de pronoms anafòrics ("el que has preparat", "com hem vist") i connectors retrospectius.
 
+## Regles transversals
+
+- **Forma sobre MECR**: la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere.
+
 ## Heurístiques docent
 
 **H1 — La bastida del verb + objecte.**

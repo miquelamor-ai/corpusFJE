@@ -264,6 +264,9 @@ def _normalize_transversal_name(label: str) -> str | None:
         "fidelitat text font": "fidelitat_text_font",
         "selecció pertinent": "seleccio_pertinent",
         "separació de blocs": "separacio_blocs",
+        "forma sobre mecr": "forma_sobre_mecr",
+        "forma sobre el mecr": "forma_sobre_mecr",
+        "la forma guanya": "forma_sobre_mecr",
     }
     for key, val in mapping.items():
         if key in label_low:
@@ -277,6 +280,8 @@ def _infer_transversal_type(name: str) -> str:
         return "cross_source"
     if name in ("no_circularitat", "llengua_definicio", "no_recursivitat"):
         return "binary"
+    # forma_sobre_mecr: regla de conflicte estructural (preserva l'estructura
+    # del gènere per sobre de la simplificació per nivell) → structural.
     return "structural"
 
 

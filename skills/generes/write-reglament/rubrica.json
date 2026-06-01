@@ -2,7 +2,7 @@
   "_meta": {
     "name": "rubrica_write_reglament",
     "version": "1.0.1",
-    "font_canonic": "skills/generes/write-reglament/M3_genere-escriure-reglament.md",
+    "font_canonic": "skills\\generes\\write-reglament\\M3_genere-escriure-reglament.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-reglament",
@@ -29,6 +29,10 @@
     }
   },
   "transversals": {
+    "forma_sobre_mecr": {
+      "type": "structural",
+      "rule": "la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere."
+    },
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Fidelitat a les normes, als grups temàtics, a les conseqüències i al to institucional del text font."

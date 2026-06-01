@@ -182,6 +182,10 @@ _Excepcions: vegeu Casos especials._
 - Positiu primer (Pas 5): detectable per posició. Si un ítem comença per "No", "Prohibit" o "Mai" i no hi ha un ítem positiu equivalent previ dins del grup, és inversió del principi.
 - Justificació dins la norma (Pas 7.1): altament automatitzable per detecció de connectors causals dins dels ítems. La norma pura no conté causalitat interna.
 
+## Regles transversals
+
+- **Forma sobre MECR**: la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere.
+
 ## Heurístiques docent
 
 **H1 — El reglament en primera persona del plural.**

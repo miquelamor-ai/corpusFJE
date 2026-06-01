@@ -5,7 +5,7 @@ font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-01'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 7974b8dee7f96129
+checksum_font: 0e2c5c622d6f3632
 ---
 
 # Escriure/adaptar un reglament — prompt d'adaptació parametritzat per nivell

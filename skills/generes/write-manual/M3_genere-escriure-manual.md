@@ -197,6 +197,10 @@ _Excepcions: no n'hi ha._
 - Exemple primer (Pas 4): altament automatitzable per posició. Si un terme tècnic apareix a la primera frase d'un apartat sense exemple previ en la mateixa frase o en la frase anterior, és inversió ZDP.
 - Desnominalitzar (Pas 6.1): detectable per llista de sufixos nominalitzadors (-ció, -ment, -isme, -itat) que identifiquen abstraccions susceptibles de desnominalització. Un LLM-jutge verifica si la forma desnominalitzada és present adjacent.
 
+## Regles transversals
+
+- **Forma sobre MECR**: la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere.
+
 ## Heurístiques docent
 
 **H1 — La seqüència d'apartats com a mapa conceptual previ.**

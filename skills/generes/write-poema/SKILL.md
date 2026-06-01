@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-poema.md
 font_version: 4.0.0-canonic
 generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: b0c1e64607605350
+checksum_font: 6db3a1ddb2aa00cf
 ---
 
 # Escriure/adaptar un poema — skill operativa per a LLM

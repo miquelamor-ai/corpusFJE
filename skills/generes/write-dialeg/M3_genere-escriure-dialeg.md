@@ -144,6 +144,10 @@ _Excepcions: no n'hi ha._
 - Subtext (Pas 3): parcialment automatitzable. Detectar presencia d'acotacions. Qualitat del subtext requereix LLM-jutge.
 - Conflicte (Pas 4): no automatitzable. Requereix comprensio de la tensi?o narrativa — LLM-jutge.
 
+## Regles transversals
+
+- **Forma sobre MECR**: la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere.
+
 ## Heurístiques docent
 
 **H1 — Llegir en veu alta com a primer pas.**

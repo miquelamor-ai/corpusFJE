@@ -243,6 +243,10 @@ _Excepcions: no n'hi ha._
 - Vers com a unitat (Pas 2): el salt de linia és el marcador formal mes important i el mes facil de verificar automaticament. Un poema sense salts de linia no és un poema.
 - Pre-A1: el descriptor de Pas 7 (autoavaluacio) no aplica perque la produccio és oral. El registre es fa pel docent.
 
+## Regles transversals
+
+- **Forma sobre MECR**: la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere.
+
 ## Heurístiques docent
 
 **H1 — La imatge concreta com a entrada.**

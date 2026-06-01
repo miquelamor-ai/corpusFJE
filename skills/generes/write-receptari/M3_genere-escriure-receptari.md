@@ -195,6 +195,10 @@ _Excepcions: no n'hi ha._
 - Passiva als passos (Pas 7.1): igual que l'instructiu, detectable per regex sobre construccions passives a l'interior dels passos numerats.
 - Ingredients a mig text (Pas 7.2): verificable comparant el lèxic de la llista prèvia amb els substantius de la llista de passos. Ingredients que apareixen als passos i no a la llista prèvia son errors detectables per diferència de sets.
 
+## Regles transversals
+
+- **Forma sobre MECR**: la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere.
+
 ## Heurístiques docent
 
 **H1 — Primer la llista, després els passos.**

@@ -2,7 +2,7 @@
   "_meta": {
     "name": "rubrica_write_dialeg",
     "version": "1.0.1",
-    "font_canonic": "skills/generes/write-dialeg/M3_genere-escriure-dialeg.md",
+    "font_canonic": "skills\\generes\\write-dialeg\\M3_genere-escriure-dialeg.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-dialeg",
@@ -29,6 +29,10 @@
     }
   },
   "transversals": {
+    "forma_sobre_mecr": {
+      "type": "structural",
+      "rule": "la forma del gènere guanya sobre el nivell MECR. Si hi ha conflicte entre simplificar al MECR i preservar l'estructura formal del gènere (versos, torns, passos numerats, camps), guanya la forma. Es pot simplificar el VOCABULARI, però cal seguir l'estructura canònica que defineix la skill del gènere. Millor un text mínimament adaptat però formalment íntegre que un text aplanat que destrueixi el gènere."
+    },
     "format_output": {
       "type": "structural",
       "h2_exact": [

@@ -27,7 +27,7 @@ font_canonic: M3_genere-escriure-manual.md
 font_version: 4.0.0-canonic
 generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 5bcffaff8b1bbb43
+checksum_font: 186ab4d2592520d2
 ---
 
 # Escriure/adaptar un manual — skill operativa per a LLM
