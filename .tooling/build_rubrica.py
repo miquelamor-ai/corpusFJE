@@ -189,12 +189,17 @@ def _build_meta(instrument: Instrument, font_path: Path) -> dict:
 
 
 def _relative_to_corpusfje(path: Path) -> str:
-    """Retorna path relatiu a corpusFJE/ (per a font_canonic)."""
+    """Retorna path relatiu a corpusFJE/ (per a font_canonic).
+
+    Sempre amb separadors POSIX (/), independent del SO on es corri el build:
+    a Windows str(path) usaria backslashes i provocaria diff espuri vs la
+    GitHub Action (Linux). Veure incident 2026-06-01 (T1).
+    """
     parts = path.parts
     if "corpusFJE" in parts:
         idx = parts.index("corpusFJE")
         return "/".join(parts[idx + 1:])
-    return str(path)
+    return path.as_posix()
 
 
 def _build_transversals(instrument: Instrument, skill_name: str = "") -> dict:
