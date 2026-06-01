@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_rubriques",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-rubriques/M3_instrument-generar-rubriques.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-rubriques\\M3_instrument-generar-rubriques.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-rubriques",
@@ -29,7 +29,16 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Rúbriques d'autoavaluació"
+      ],
+      "must_contain_table": true,
+      "rule": "Taula amb 3 o 4 nivells segons el rang MECR del skill."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

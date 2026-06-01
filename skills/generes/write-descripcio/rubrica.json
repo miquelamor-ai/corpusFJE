@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_write_descripcio",
-    "version": "1.0.0",
-    "font_canonic": "skills/generes/write-descripcio/M3_genere-escriure-descripcio.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\generes\\write-descripcio\\M3_genere-escriure-descripcio.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-descripcio",
@@ -34,6 +34,12 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Fidelitat a la complexitat descriptiva del text original, incloent matisos i terminologia."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Text adaptat"
+      ]
     }
   },
   "levels": {

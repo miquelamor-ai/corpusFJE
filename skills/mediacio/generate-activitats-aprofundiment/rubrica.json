@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_activitats_aprofundiment",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-activitats-aprofundiment/M3_instrument-generar-activitats-aprofundiment.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-activitats-aprofundiment\\M3_instrument-generar-activitats-aprofundiment.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-activitats-aprofundiment",
@@ -29,7 +29,15 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Activitats d'aprofundiment"
+      ],
+      "rule": "Llista d'activitats opcionals per a alumnat AACC o capacitat alta."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

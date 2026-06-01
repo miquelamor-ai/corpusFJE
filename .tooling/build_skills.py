@@ -112,8 +112,12 @@ def parse_modulacio_table(modulacio_md: str) -> list[Cella]:
     # primera fila = capçaleres; segona = separador; resta = files
     rows = []
     pas_actual = ""
+    # Sentinella per a pipes escapats dins de cel·les (\| → __PIPE_ESC__)
+    # Així el split per | no els confon amb separadors de cel·la.
+    PIPE_ESC = "\x00PIPE_ESC\x00"
     for line in lines[2:]:
-        cells = [c.strip() for c in line.split("|")[1:-1]]  # split deixa buits a borda
+        protected = line.replace(r"\|", PIPE_ESC)
+        cells = [c.strip().replace(PIPE_ESC, "|") for c in protected.split("|")[1:-1]]
         if len(cells) < 3:
             continue
         pas_cell = cells[0]

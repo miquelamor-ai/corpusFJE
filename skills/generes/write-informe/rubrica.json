@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_write_informe",
-    "version": "1.0.0",
-    "font_canonic": "skills/generes/write-informe/M3_genere-escriure-informe.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\generes\\write-informe\\M3_genere-escriure-informe.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-informe",
@@ -32,6 +32,12 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Fidelitat a la complexitat analítica del text original, incloent limitacions i debats."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Text adaptat"
+      ]
     }
   },
   "levels": {

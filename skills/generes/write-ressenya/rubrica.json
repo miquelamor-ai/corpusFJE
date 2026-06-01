@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_write_ressenya",
-    "version": "1.0.0",
-    "font_canonic": "skills/generes/write-ressenya/M3_genere-escriure-ressenya.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\generes\\write-ressenya\\M3_genere-escriure-ressenya.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-ressenya",
@@ -32,6 +32,12 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Fidelitat a la complexitat, als matisos i a les referències de la ressenya original."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Text adaptat"
+      ]
     }
   },
   "levels": {

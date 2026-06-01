@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_write_divulgatiu",
-    "version": "1.0.0",
-    "font_canonic": "skills/generes/write-divulgatiu/M3_genere-escriure-divulgatiu.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\generes\\write-divulgatiu\\M3_genere-escriure-divulgatiu.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-divulgatiu",
@@ -32,6 +32,12 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Fidelitat a la complexitat causal del text original, incloent matisos i controvèrsies."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Text adaptat"
+      ]
     }
   },
   "levels": {

@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_cartes_conversacionals",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-cartes-conversacionals/M3_instrument-generar-cartes-conversacionals.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-cartes-conversacionals\\M3_instrument-generar-cartes-conversacionals.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-cartes-conversacionals",
@@ -21,7 +21,15 @@
     "multimodal": false,
     "variables_configurables": {}
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Cartes conversacionals"
+      ],
+      "rule": "Cartes amb prompts i respostes."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

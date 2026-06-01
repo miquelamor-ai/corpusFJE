@@ -1,0 +1,139 @@
+# format_outputs.yaml — font canon dels headers H2/H3 literals per skill
+#
+# Aquest fitxer és la font única canon dels headers que cada skill ha de produir
+# al text adaptat. El parser build_rubrica.py l'injecta automàticament a
+# transversals.format_output de cada rubrica.json.
+#
+# Mantingut a un sol fitxer en lloc d'als 38 M*.md perquè és una decisió
+# arquitectònica única (no 38 decisions individuals).
+#
+# Headers validats contra TITLE_MAP del frontend ATNE (ui/atne/js/llm.js).
+# Decisió Issue #3 (cross-check 01/06): bastides = ## Bastides (Opció B).
+#
+# Generat 2026-06-01 post-cross-check ATNE.
+
+# ============================================================
+# GÈNERES DISCURSIUS (write-* + expressar-preferencies)
+# Tots usen ## Text adaptat (el contingut va a la clau _main del frontend ATNE)
+# ============================================================
+
+expressar-preferencies:
+  h2_exact: ["## Text adaptat"]
+
+write-assaig: { h2_exact: ["## Text adaptat"] }
+write-biografia: { h2_exact: ["## Text adaptat"] }
+write-carta: { h2_exact: ["## Text adaptat"] }
+write-conte: { h2_exact: ["## Text adaptat"] }
+write-contrarelat-odi: { h2_exact: ["## Text adaptat"] }
+write-cronica: { h2_exact: ["## Text adaptat"] }
+write-descripcio: { h2_exact: ["## Text adaptat"] }
+write-dialeg: { h2_exact: ["## Text adaptat"] }
+write-diari: { h2_exact: ["## Text adaptat"] }
+write-divulgatiu: { h2_exact: ["## Text adaptat"] }
+write-enciclopedic: { h2_exact: ["## Text adaptat"] }
+write-entrevista: { h2_exact: ["## Text adaptat"] }
+write-fabula: { h2_exact: ["## Text adaptat"] }
+write-informe: { h2_exact: ["## Text adaptat"] }
+write-instructiu: { h2_exact: ["## Text adaptat"] }
+write-manual: { h2_exact: ["## Text adaptat"] }
+write-noticia: { h2_exact: ["## Text adaptat"] }
+write-opinio: { h2_exact: ["## Text adaptat"] }
+write-poema: { h2_exact: ["## Text adaptat"] }
+write-receptari: { h2_exact: ["## Text adaptat"] }
+write-reglament: { h2_exact: ["## Text adaptat"] }
+write-ressenya: { h2_exact: ["## Text adaptat"] }
+write-resum: { h2_exact: ["## Text adaptat"] }
+
+# ============================================================
+# MEDIACIÓ (complements amb header propi)
+# ============================================================
+
+generate-glossari:
+  h2_exact: ["## Glossari"]
+  must_contain_table: true                       # taula MD amb pipes obligatòria
+  rule: "Taula markdown amb headers Terme i Explicació (+ L1, Translit opcionals)."
+
+generate-esquema-visual:
+  h2_exact: ["## Esquema visual"]
+  rule: "Diagrama amb nodes i relacions. Min/max nodes per MECR."
+
+generate-preguntes-comprensio:
+  h2_exact: ["## Preguntes de comprensió"]
+  h3_exact:
+    - "### Abans de llegir"
+    - "### Durant la lectura"
+    - "### Després de llegir"
+  rule: "3 subseccions H3 obligatòries amb el seu literal exacte."
+
+generate-bastides-lectura:
+  h2_exact: ["## Bastides"]                      # Decisió Issue #3: Opció B
+  h3_exact:
+    - "### Bastides de lectura"
+    - "### Bastides de resposta"
+  rule: "Header únic ## Bastides amb 2 sub-H3. Els moments (Abans/Durant/Després) van com a bullets amb negreta a inici dins de ### Bastides de lectura."
+
+generate-bastides-produccio:
+  h2_exact: ["## Bastides"]                      # Compartit amb bastides-lectura
+  h3_exact:
+    - "### Bastides de lectura"
+    - "### Bastides de resposta"
+  rule: "Mateix header que bastides-lectura. Els 2 skills col·laboren dins el mateix bloc ## Bastides."
+
+generate-mapa-conceptual:
+  h2_exact: ["## Mapa conceptual"]
+  rule: "Mapa jeràrquic amb nodes i relacions etiquetades."
+
+generate-plantilles-genere:
+  h2_exact: ["## Plantilla de gènere"]
+  rule: "Estructura del gènere amb seccions etiquetades."
+
+generate-resum-graduat:
+  h2_exact: ["## Resum graduat"]
+  rule: "Resum amb llargada modulada per MECR."
+
+generate-cartes-conversacionals:
+  h2_exact: ["## Cartes conversacionals"]
+  rule: "Cartes amb prompts i respostes."
+
+generate-rubriques:
+  h2_exact: ["## Rúbriques d'autoavaluació"]
+  must_contain_table: true                       # taula MD obligatòria
+  rule: "Taula amb 3 o 4 nivells segons el rang MECR del skill."
+
+generate-activitats-aprofundiment:
+  h2_exact: ["## Activitats d'aprofundiment"]
+  rule: "Llista d'activitats opcionals per a alumnat AACC o capacitat alta."
+
+# ============================================================
+# MEDIACIÓ — INLINE (sense header H2 propi; marcadors dins del text adaptat)
+# ============================================================
+
+generate-pictogrames:
+  inline_markers: ["[PICTO: terme_arasaac|terme_visible]"]
+  forbidden_h2: ["## Pictogrames"]               # explícitament prohibit
+  rule: "Inserir pictogrames inline al text. NO crear secció separada."
+
+generate-illustracions:
+  inline_markers: ["[IMATGE: <concepte>]"]
+  forbidden_h2: ["## Il·lustracions"]
+  rule: "Inserir marcadors d'imatge inline al text. NO crear secció separada."
+
+# ============================================================
+# MEDIACIÓ — TOLC (alias Transllenguatge)
+# ============================================================
+
+generate-tolc:
+  h2_exact: ["## TOLC"]
+  h2_alias: ["## Transllenguatge"]               # accepta ambdues variants
+  rule: "Parser preserva el contingut. Sense vista al frontend ATNE actual (futur pendent post-pilot)."
+
+# ============================================================
+# NOTES
+# ============================================================
+#
+# - generate-mapa-mental NO entra: skill sense M3 canònic (només SKILL.md proto).
+# - traduccio_l1 ELIMINAT del parser (decisió Q3 cross-check 01/06): la traducció
+#   va a la columna L1 del glossari, no com a complement separat.
+# - Els skills `adapter` aparcats (D4) no usen aquesta llista — pictogrames i
+#   resum-graduat tenen agent_role=adapter (insertion inline al text) i no
+#   produeixen artefactes annexos.

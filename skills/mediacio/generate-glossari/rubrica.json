@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_glossari",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-glossari/M3_instrument-generar-glossari.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-glossari\\M3_instrument-generar-glossari.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-glossari",
@@ -50,6 +50,14 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Glossari"
+      ],
+      "must_contain_table": true,
+      "rule": "Taula markdown amb headers Terme i Explicació (+ L1, Translit opcionals)."
     }
   },
   "levels": {
@@ -141,7 +149,7 @@
         },
         {
           "pas_id": "pas_2_estructura",
-          "descriptor": "Taula de 2 columnes: Terme \\"
+          "descriptor": "Taula de 2 columnes: Terme | Explicació."
         },
         {
           "pas_id": "pas_2_suport_visual",
@@ -211,7 +219,7 @@
         },
         {
           "pas_id": "pas_2_estructura",
-          "descriptor": "Explicació."
+          "descriptor": "Taula de 2 columnes; pot afegir una analogia o exemple integrat."
         },
         {
           "pas_id": "pas_2_suport_visual",
@@ -281,7 +289,7 @@
         },
         {
           "pas_id": "pas_2_estructura",
-          "descriptor": "Taula de 2 columnes; pot afegir una analogia o exemple integrat."
+          "descriptor": "Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna \"Exemple en frase\"."
         },
         {
           "pas_id": "pas_2_suport_visual",
@@ -351,7 +359,7 @@
         },
         {
           "pas_id": "pas_2_estructura",
-          "descriptor": "Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna \"Exemple en frase\"."
+          "descriptor": "Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna."
         },
         {
           "pas_id": "pas_2_suport_visual",
@@ -421,7 +429,7 @@
         },
         {
           "pas_id": "pas_2_estructura",
-          "descriptor": "Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna."
+          "descriptor": "Taula completa; **ordre alfabètic** obligatori; pot incloure etimologia breu o distinció entre termes similars."
         },
         {
           "pas_id": "pas_2_suport_visual",

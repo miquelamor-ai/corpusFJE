@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_write_poema",
-    "version": "1.0.0",
-    "font_canonic": "skills/generes/write-poema/M3_genere-escriure-poema.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\generes\\write-poema\\M3_genere-escriure-poema.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-poema",
@@ -30,7 +30,14 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Text adaptat"
+      ]
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

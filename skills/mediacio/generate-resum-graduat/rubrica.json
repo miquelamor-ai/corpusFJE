@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_resum_graduat",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-resum-graduat/M3_instrument-generar-resum-graduat.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-resum-graduat\\M3_instrument-generar-resum-graduat.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-resum-graduat",
@@ -29,7 +29,15 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Resum graduat"
+      ],
+      "rule": "Resum amb llargada modulada per MECR."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_preguntes_comprensio",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-preguntes-comprensio/M3_instrument-generar-preguntes-comprensio.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-preguntes-comprensio\\M3_instrument-generar-preguntes-comprensio.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-preguntes-comprensio",
@@ -29,7 +29,20 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Preguntes de comprensió"
+      ],
+      "h3_exact": [
+        "### Abans de llegir",
+        "### Durant la lectura",
+        "### Després de llegir"
+      ],
+      "rule": "3 subseccions H3 obligatòries amb el seu literal exacte."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

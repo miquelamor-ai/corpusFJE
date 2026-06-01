@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_illustracions",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-illustracions/M3_instrument-generar-illustracions.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-illustracions\\M3_instrument-generar-illustracions.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-illustracions",
@@ -29,7 +29,18 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "inline_markers": [
+        "[IMATGE: <concepte>]"
+      ],
+      "forbidden_h2": [
+        "## Il·lustracions"
+      ],
+      "rule": "Inserir marcadors d'imatge inline al text. NO crear secció separada."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_pictogrames",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-pictogrames/M3_instrument-generar-pictogrames.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-pictogrames\\M3_instrument-generar-pictogrames.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-pictogrames",
@@ -33,7 +33,18 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "inline_markers": [
+        "[PICTO: terme_arasaac|terme_visible]"
+      ],
+      "forbidden_h2": [
+        "## Pictogrames"
+      ],
+      "rule": "Inserir pictogrames inline al text. NO crear secció separada."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

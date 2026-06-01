@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_esquema_visual",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-esquema-visual/M3_instrument-generar-esquema-visual.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-esquema-visual\\M3_instrument-generar-esquema-visual.md",
     "font_version": "1.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-esquema-visual",
@@ -35,6 +35,13 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Cada node ha de poder traçar-se a una frase o concepte del text adaptat."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Esquema visual"
+      ],
+      "rule": "Diagrama amb nodes i relacions. Min/max nodes per MECR."
     }
   },
   "levels": {
@@ -68,7 +75,7 @@
         },
         {
           "pas_id": "pas_3_format_prohibit",
-          "descriptor": "NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (\\"
+          "descriptor": "NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (|, ├, └, ─). NO emojis decoratius."
         },
         {
           "pas_id": "pas_4_predominant",
@@ -130,7 +137,7 @@
         },
         {
           "pas_id": "pas_3_format_prohibit",
-          "descriptor": ", ├, └, ─). NO emojis decoratius."
+          "descriptor": "Idem."
         },
         {
           "pas_id": "pas_4_predominant",

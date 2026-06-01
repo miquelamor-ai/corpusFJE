@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_plantilles_genere",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-plantilles-genere/M3_instrument-generar-plantilles-genere.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-plantilles-genere\\M3_instrument-generar-plantilles-genere.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-plantilles-genere",
@@ -29,7 +29,15 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Plantilla de gènere"
+      ],
+      "rule": "Estructura del gènere amb seccions etiquetades."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",

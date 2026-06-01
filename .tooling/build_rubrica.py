@@ -74,8 +74,39 @@ from build_skills import (
 )
 
 # Esquema versió: actualitzar quan canviï el contracte amb ATNE
-RUBRICA_SCHEMA_VERSION = "1.0.0"
-BUILD_TAG = "build_rubrica.py@v1.0-2026-06-01"
+RUBRICA_SCHEMA_VERSION = "1.0.1"
+BUILD_TAG = "build_rubrica.py@v1.0.1-2026-06-01"
+
+# Fitxer canon amb headers H2/H3 literals per skill
+FORMAT_OUTPUTS_YAML = Path(__file__).parent / "format_outputs.yaml"
+
+_FORMAT_OUTPUTS_CACHE: dict | None = None
+
+
+def _load_format_outputs() -> dict:
+    """Carrega format_outputs.yaml (cache global)."""
+    global _FORMAT_OUTPUTS_CACHE
+    if _FORMAT_OUTPUTS_CACHE is None:
+        if FORMAT_OUTPUTS_YAML.is_file():
+            _FORMAT_OUTPUTS_CACHE = yaml.safe_load(FORMAT_OUTPUTS_YAML.read_text(encoding="utf-8")) or {}
+        else:
+            _FORMAT_OUTPUTS_CACHE = {}
+    return _FORMAT_OUTPUTS_CACHE
+
+
+def _build_format_output_from_yaml(skill_name: str) -> dict | None:
+    """Retorna l'entrada format_output canon des de format_outputs.yaml.
+    Resol Issue #1 + #4 del cross-check 01/06: garanteix format_output 38/38."""
+    fmt = _load_format_outputs()
+    entry = fmt.get(skill_name)
+    if not entry:
+        return None
+    result = {"type": "structural"}
+    for key in ("h2_exact", "h3_exact", "h2_alias", "inline_markers",
+                "forbidden_h2", "must_contain_table", "rule"):
+        if key in entry:
+            result[key] = entry[key]
+    return result
 
 # Constants compartides amb ATNE
 FAMILIES_CANONIQUES = {"mediacio", "generes", "adaptacio", "bastida", "avaluacio"}
@@ -166,8 +197,12 @@ def _relative_to_corpusfje(path: Path) -> str:
     return str(path)
 
 
-def _build_transversals(instrument: Instrument) -> dict:
-    """Extreu transversals des de la secció corresponent + Format de sortida."""
+def _build_transversals(instrument: Instrument, skill_name: str = "") -> dict:
+    """Extreu transversals des de la secció corresponent + Format de sortida.
+
+    format_output ve del YAML canon (font única) per a garantir 38/38 cobertura
+    sense regenerar M*.md. Veure Issue #1 + #4 del cross-check ATNE 01/06.
+    """
     transversals = {}
 
     # Secció "Criteris transversals" o "Regles transversals"
@@ -178,13 +213,15 @@ def _build_transversals(instrument: Instrument) -> dict:
             break
 
     # Cel·les del pas 5 "Criteris transversals" de la taula Modulació
-    # (alguns skills ho tenen com a pas dins la taula, no com a secció separada)
     transversals_from_celles = _extract_transversals_from_celles(instrument)
     for k, v in transversals_from_celles.items():
         transversals.setdefault(k, v)
 
-    # Format de sortida
-    if fmt := _build_format_output(instrument):
+    # Format de sortida: PRIORITAT al YAML canon; si no, fallback al M*.md
+    fmt_from_yaml = _build_format_output_from_yaml(skill_name) if skill_name else None
+    if fmt_from_yaml:
+        transversals["format_output"] = fmt_from_yaml
+    elif fmt := _build_format_output(instrument):
         transversals["format_output"] = fmt
 
     return transversals
@@ -597,9 +634,10 @@ def _get_alfabets_no_llatins(instrument: Instrument) -> list | None:
 
 def generar_rubrica_json(instrument: Instrument, font_path: Path) -> dict:
     """Genera rubrica.json canonic v1.0 des d'un Instrument parsejat."""
+    skill_name = font_path.parent.name
     rubrica = {
         "_meta": _build_meta(instrument, font_path),
-        "transversals": _build_transversals(instrument),
+        "transversals": _build_transversals(instrument, skill_name=skill_name),
         "levels": _build_levels(instrument),
         "passos_meta": _build_passos_meta(instrument),
     }

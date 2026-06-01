@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_write_reglament",
-    "version": "1.0.0",
-    "font_canonic": "skills/generes/write-reglament/M3_genere-escriure-reglament.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\generes\\write-reglament\\M3_genere-escriure-reglament.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "write-reglament",
@@ -32,6 +32,12 @@
     "fidelitat_text_font": {
       "type": "cross_source",
       "rule": "Fidelitat a les normes, als grups temàtics, a les conseqüències i al to institucional del text font."
+    },
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Text adaptat"
+      ]
     }
   },
   "levels": {

@@ -1,8 +1,8 @@
 {
   "_meta": {
     "name": "rubrica_generate_bastides_lectura",
-    "version": "1.0.0",
-    "font_canonic": "skills/mediacio/generate-bastides-lectura/M3_instrument-generar-bastides-lectura.md",
+    "version": "1.0.1",
+    "font_canonic": "skills\\mediacio\\generate-bastides-lectura\\M3_instrument-generar-bastides-lectura.md",
     "font_version": "4.0.0-canonic",
     "generat_at": "2026-06-01",
     "skill_name": "generate-bastides-lectura",
@@ -29,7 +29,19 @@
       ]
     }
   },
-  "transversals": {},
+  "transversals": {
+    "format_output": {
+      "type": "structural",
+      "h2_exact": [
+        "## Bastides"
+      ],
+      "h3_exact": [
+        "### Bastides de lectura",
+        "### Bastides de resposta"
+      ],
+      "rule": "Header únic ## Bastides amb 2 sub-H3. Els moments (Abans/Durant/Després) van com a bullets amb negreta a inici dins de ### Bastides de lectura."
+    }
+  },
   "levels": {
     "pre-A1": {
       "etiqueta": "Emergent",
