@@ -22,7 +22,7 @@ font_canonic: M3_instrument-generar-bastides-lectura.md
 font_version: 4.0.0-canonic
 generat_at: '2026-06-01'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: c7eaf50803179e8c
+checksum_font: 7d25631d63b18a68
 ---
 
 # Generar bastides de lectura — skill operativa per a LLM
@@ -63,7 +63,7 @@ Aquesta rúbrica descriu les **bastides que ATNE o el docent presenten a l'alumn
 - Volum màxim per moment: 1-2 accions gestuals/orals per moment.
 - No duplicar `preguntes_comprensio`: Les bastides donen el procediment; les preguntes detallades són del complement `preguntes_comprensio`.
 - Especificitat del propòsit: Propòsit referit a una imatge o paraula concreta del text.
-- Format obligatori: Secció `## Suports de lectura` + 3 subseccions (Abans/Durant/Després).
+- Format obligatori: Secció `## Bastides` amb sub-H3 `### Bastides de lectura` i bullets per moment (`- **Abans:**`, `- **Durant:**`, `- **Després:**`).
 
 **5. Autoavaluació (per l'alumne)**
 - Reflexió en primera persona: *(via adult)* "He assenyalat el que m'ha demanat el mestre."
