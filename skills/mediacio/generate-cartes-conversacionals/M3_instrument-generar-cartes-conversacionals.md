@@ -57,6 +57,80 @@ Les cartes conversacionals bastiden la **participació oral** (o escrita en form
 **Aclariment d'ús — què descriu aquesta rúbrica.**
 Aquesta rúbrica descriu les **cartes conversacionals que es generen per bastir el debat** (MEDIACIÓ DE LA PRODUCCIÓ ORAL). **No descriu l'avaluació del debat ni la qualitat de la participació de l'alumne**: el docent observa si l'alumne usa les cartes i si la conversa avança amb estructura.
 
+## Principi general
+
+**Regla de selecció simple.** Genera cartes conversacionals (1 carta = 1 rol + funció comunicativa + màxim 3 iniciadors) específiques de la pregunta de debat que emergeix del text font. El nombre de rols i la complexitat dels iniciadors es modulen segons MECR (vegeu taula Modulació). NO generis per a pre-A1/A1: la interacció oral a aquests nivells requereix mediació docent directa en temps real i les cartes presuposen autonomia d'inici comunicatiu.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de jutjar si l'alumne està preparat per a debatre, ni decidir quin rol assignar a cada alumne concret, ni avaluar la qualitat de la participació real. Tampoc no ha d'inventar la pregunta de debat: ha d'extreure-la del text font o del prompt del docent. La rotació de rols entre sessions i la composició dels grups la decideix qui ensenya.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+La selecció es modula principalment per MECR (taula Modulació). El tipus de conversa i el nombre de rols/iniciadors són funció directa del nivell MECR declarat al perfil.
+
+### A2
+
+**Inclou si:**
+- 2 rols: Proposador/a + Objector/a
+- 2 iniciadors per rol
+- conversa exploratòria
+- iniciadors genèrics curts admesos ("Jo penso que ___")
+
+**Exclou explícitament:**
+- rol Sintetitzador/a (la funció s'integra informalment al tancament del Proposador/a)
+- iniciadors disputatius o de citació formal
+
+**Raonament pedagògic.** A A2 la prioritat és desbloquejar el primer torn comunicatiu. Iniciadors curts i segurs redueixen la càrrega cognitiva; reduir a 2 rols evita sobrecarregar amb múltiples funcions simultànies (H2 del M3).
+
+### B1
+
+**Inclou si:**
+- 3-4 rols: Proposador + Objector + Mediador + Sintetitzador
+- 3 iniciadors per rol
+- conversa exploratòria o disputativa
+- iniciadors específics del text (causals i justificatius)
+
+**Exclou explícitament:**
+- iniciadors genèrics que serveixin per a qualsevol debat
+
+**Raonament pedagògic.** A B1 l'alumne ja pot sostenir una conversa amb funció comunicativa diferenciada per rol. L'especificitat dels iniciadors al text font garanteix la pertinença pedagògica (principi rector del M3).
+
+### B2
+
+**Inclou si:**
+- 4 rols complets
+- 3 iniciadors per rol amb CALP i connectors argumentals
+- conversa disputativa amb citació del text ("Segons el text...", "D'acord amb...")
+
+**Exclou explícitament:**
+- registre col·loquial
+- iniciadors sense ancoratge textual
+
+**Raonament pedagògic.** A B2 l'argumentació formal requereix vocabulari CALP i citació explícita del text font (MALL — HCL Argumentar amb evidència).
+
+### C1
+
+**Inclou si:**
+- 4 rols + capa metacognitiva al Sintetitzador/a (detecció de biaixos)
+- iniciadors dialèctics i retòrics que qüestionen postures contràries
+- citació crítica de fonts i revisió de fiabilitat
+
+**Exclou explícitament:**
+- iniciadors que no qüestionin la postura contrària
+
+**Raonament pedagògic.** A C1 el Sintetitzador esdevé funció metacognitiva del grup (detecció de biaixos, fiabilitat de fonts). El pensament dialèctic requereix iniciadors que articulin la contradicció productiva.
+
+### pre_A1_A1
+
+**Inclou si:**
+- res (vegeu cas especial `pre_A1_A1_no_generar`)
+
+**Exclou explícitament:**
+- qualsevol generació de cartes
+
+**Raonament pedagògic.** La interacció oral a aquests nivells requereix mediació docent directa en temps real (suport de torn, reformulació, andamiatge). Les cartes presuposen autonomia d'inici comunicatiu que s'assoleix a A2.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -90,6 +164,41 @@ Aquesta rúbrica descriu les **cartes conversacionals que es generen per bastir 
 | **3. Tipus de conversa** | Registre i objectiu | NO generar. | Exploratòria: posicions obertes, errors tolerats, raonament visible. "I si...?" "Potser...". | Exploratòria o disputativa: comença explorant, pot formalitzar-se si el grup avança. | Disputativa: posicions definides, argumentació formal, citació d'evidències del text. | Disputativa amb metacognició: detecció de biaixos, qüestionament de la fiabilitat de les fonts. |
 | **4. Especificitat dels iniciadors** | Connexió amb el text | NO generar. | Iniciadors genèrics ("Jo penso que ___"). Curts i segurs. Fàcils de dir. | Iniciadors específics de la pregunta de debat del text. Causals i justificatius ("El text diu que... i per això crec que..."). | Iniciadors que inclouen citació del text ("Segons el text...", "D'acord amb..."). Registre formal. | Iniciadors que qüestionen, matisen i detecten biaixos ("Però si pensem que X, el text podria estar ignorant..."). |
 | **5. Element obert al Sintetitzador** | Metareflexió del grup | NO generar. | "Hem dit ___. Algú vol afegir alguna cosa?" (Element obert simple). | "La conclusió del grup és ___. El que no hem resolt és ___." (Tancament + obertura). | "El que no hem resolt és ___. Per resoldre-ho caldria saber ___." (Apertura epistemica). | "El que queda obert és ___. Per respondre-ho, caldria contrastar amb ___ i revisar si els nostres arguments son fiables." |
+
+## Casos especials
+
+### pre_A1_A1_no_generar
+
+**Trigger:** mecr_in: [pre-A1, A1]
+
+**Modulació:**
+- no_generar: true
+- output: missatge explícit que indica que aquest instrument no aplica a pre-A1/A1 i suggereix alternatives (mediació docent directa, suport oral en temps real)
+- abstenció_total: no produeixis cartes buides ni cartes simplificades
+
+**Raonament pedagògic.** A pre-A1/A1, la interacció oral requereix suport docent en temps real (andamiatge de torn, reformulació, mediació). Les cartes presuposen autonomia d'inici comunicatiu que l'alumne encara no té; generar-les seria oferir una bastida que no pot sostenir el seu pes.
+
+### sintetitzador_obligatori_amb_element_obert
+
+**Trigger:** mecr_in: [B1, B2, C1] AND rol: Sintetitzador/a
+
+**Modulació:**
+- element_obert_obligatori: true
+- formulació: l'iniciador final ha de contenir apertura epistèmica explícita ("El que no hem resolt és ___", "El que queda obert és ___")
+- A2_excepció: no hi ha rol Sintetitzador/a; la funció s'integra informalment al tancament del Proposador/a ("Hem dit ___. Algú vol afegir alguna cosa?")
+
+**Raonament pedagògic.** El Sintetitzador és l'única funció metacognitiva del grup (H3 del M3). Un Sintetitzador que tanca sense obrir talla la metacognició col·lectiva i converteix el debat en monòleg. "El que no hem resolt és..." externalitza la consciència dels límits del coneixement col·lectiu.
+
+### iniciadors_especifics_del_text
+
+**Trigger:** sempre (cross_source check)
+
+**Modulació:**
+- especificitat_text_obligatòria: a B1+, els iniciadors han de referir-se explícitament a la pregunta de debat o al contingut del text font
+- prova_de_validació: si l'iniciador funciona idènticament en un debat sobre un tema completament diferent, cal reescriure'l
+- A2_excepció: s'admeten iniciadors genèrics curts ("Jo penso que ___") perquè la prioritat és desbloquejar el primer torn
+
+**Raonament pedagògic.** La connexió amb el text font és la garantia de pertinença (principi rector del M3, H1 heurística docent). Un iniciador genèric desactiva el bastiment lingüístic específic i converteix les cartes en formulisme buit.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -130,6 +239,40 @@ Quan un alumne tímid o nouvingut agafa la carta de Proposador/a, no és "ell" q
 
 **H5 — Taulell de debat companion (B1+).**
 Per a B1+, combina les cartes amb un taulell compartit de paper (Arguments a favor / Arguments en contra / Punts d'acord / Preguntes obertes). A mesura que el debat avança, un alumne designat anota les idees al taulell. Aquesta externalització del raonament col·lectiu fa visible el procés d'argumentació i permet al Sintetitzador fer la seva feina amb millor informació.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Cartes conversacionals
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (en negreta a inici de línia, una targeta per rol):
+```
+**Rol:** {nom_rol}
+**Funció:** {descripcio_funcio_comunicativa}
+**Iniciadors:**
+```
+
+**Headers explícitament PROHIBITS:**
+```
+### Proposador/a
+### Objector/a
+### Mediador/a
+### Sintetitzador/a
+```
+
+**Regla d'integritat estructural.** Una targeta per rol amb marcadors literals Rol/Funció/Iniciadors en negreta a inici de línia. Sense H3 propis per carta. Sense el header `## Cartes conversacionals` i els marcadors en negreta, el frontend no detecta les cartes ni les renderitza com a targetes.
 
 ## Fonts principals
 

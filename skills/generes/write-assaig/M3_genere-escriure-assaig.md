@@ -46,6 +46,26 @@ L'assaig és un text reflexiu i argumentatiu que defensa una **tesi explícita**
 Aquesta rúbrica descriu el **text adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera un assaig adaptat per a la LECTURA de l'alumne amb tesi explícita al primer paràgraf, arguments ordenats (1 a A1, 2 a A2, 3 a B1, 3-4 a B2, 3-5 a C1), exemples o evidències per argument, refutació a partir d'A2, conclusió tancada que reprengui la tesi i connectors argumentatius graduats segons MECR. NO generis assaig si el MECR és pre-A1.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si el tema del text font és pedagògicament adequat per a l'alumne, ni si la postura defensada és èticament acceptable, ni si l'alumne ja domina la HCL Argumentar. El LLM no produeix l'escriptura autònoma de l'alumne — només el text model de lectura. La valoració de l'adequació temàtica i la posterior tasca de producció autònoma queden al docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+**Per MECR (variable principal):** la modulació per nivell (1 argument a A1 → 3-5 a C1) ja queda recollida a la taula Modulació per nivell i és la regla principal de selecció.
+
+**Per DUA_accés:** no s'aplica modulació DUA_accés específica: l'assaig no inclou pictogrames ni adaptació visual (`multimodal: false`). Si el perfil té necessitat DUA accés severa, el docent pot derivar a un altre instrument.
+
+**Per AACC:** no s'aplica modulació AACC explícita: el LLM no augmenta automàticament la complexitat. Si AACC: true, el docent puja el MECR objectiu (demana B2/C1 en lloc del nivell teòric de l'etapa) i l'skill respon a la modulació per MECR normal.
+
+**Per fase lectora (dins A1):** la variable `fase_lectora` modula longitud de frase i densitat lèxica. `alfabetica_emergent` → màx. 8-10 paraules/frase, lèxic bàsic; `alfabetica_fluida` → fins a 15 paraules/frase, lèxic A1 ple.
+
+**Raonament pedagògic.** L'assaig és un gènere de CALP pur (Cummins): la modulació per MECR ja captura el gruix de la diferenciació. Les categories perfilars (DUA accés, AACC) no demanen masques diferencials de contingut; ho fan, en canvi, l'absència de base lecto-escriptora (pre-A1, no aplica) i la fase lectora dins A1 (longitud de frase). La regla preserva el judici docent sobre el sostre real de l'alumne.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a assaig):
@@ -89,6 +109,58 @@ Aquesta rúbrica descriu el **text adaptat per a la LECTURA** de l'alumne. **No 
 |  | Conclusió tancada | Cap argument nou a la conclusió que no hagi aparegut al cos del text. | Idem. | Idem. | Idem. | Idem. |
 |  | Fidelitat al text font | Fidelitat a la postura principal i als arguments centrals del text font. | Fidelitat a la postura, als arguments i a les evidències essencials. | Fidelitat als arguments, a les evidències i als connectors argumentatius del text font. | Fidelitat a la complexitat argumentativa i al context disciplinar del text original. | Fidelitat a la complexitat, als matisos i als debats del text original. |
 | **9. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit la meva opinió en una frase al principi. He donat 1 argument amb un exemple." | "He escrit la tesi al principi. He donat 2 arguments amb un exemple cadascun." | "He escrit 3 arguments, 1 per paràgraf. He reconegut un punt de vista diferent." | "He jerarquitzat els arguments i he refutat una objecció amb evidències." | "L'assaig té tesi, arguments jerarquitzats, refutació i conclusió amb veu acadèmica pròpia." |
+
+## Casos especials
+
+### no_pre_A1
+
+**Trigger:** mecr_in: [pre-A1]
+
+**Modulació:**
+- no_generar: true
+- missatge_retornat: "L'assaig no s'adapta a pre-A1: requereix base lecto-escriptora i pensament formal mínim."
+
+**Raonament pedagògic.** La combinació tesi explícita + arguments ordenats + evidència és una operació cognitiva abstracta que necessita base lecto-escriptora i pensament formal mínim (decisió 6 canònica Fase B). Generar text a pre-A1 falsejaria el principi del text model accessible (Cummins: el CALP no es construeix sense BICS prou consolidat).
+
+### A1_sense_refutacio
+
+**Trigger:** mecr_in: [A1]
+
+**Modulació:**
+- omet_h3_literal: "### Refutacio"
+- estructura_final: "## Assaig + ### Tesi + ### Arguments + ### Conclusio"
+- tesi_format: "1 frase amb 'Crec que...'"
+- arguments: "1 argument únic amb 1 exemple personal"
+- conclusio: "1 frase que reprengui la tesi"
+- cites: prohibides
+
+**Raonament pedagògic.** A A1 el pes recau sobre la HCL Interpretar/Valorar (no encara Argumentar formal). Forçar refutació seria demanar una operació cognitiva (reconèixer i respondre l'objecció) que el nivell encara no sosté. L'omissió literal del H3 manté la coherència estructural sense buidar la rúbrica.
+
+### nouvingut_L1_alfabetica_emergent
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- densitat_CALP: mínima (més BICS d'ancoratge)
+- permet_marcador_L1: true (només termes argumentatius clau: tesi, perquè, però)
+- longitud_frase: màx. 8-10 paraules
+- arguments: 1 sol
+- conclusio: reprenent la tesi paraula a paraula
+
+**Raonament pedagògic.** Translanguaging com a bastida (Cummins & Early 2011): a A1 nouvingut amb fase lectora emergent, el marcador [L1: terme] sobre els pivots argumentatius (tesi, perquè, però) activa coneixement previ i sosté el fil lògic mentre el català es consolida. NO és decoració: és pont cognitiu en els nodes que estructuren l'argumentació.
+
+### cites_a_partir_B1
+
+**Trigger:** mecr_in: [B1, B2, C1]
+
+**Modulació:**
+- activar_marcador_CITA: true (dins `### Arguments`)
+- B1: 1 cita breu integrada
+- B2: 2-3 cites comentades
+- C1: múltiples cites de fonts diverses
+- ús_marcador_per_sota_B1: prohibit
+
+**Raonament pedagògic.** La integració de cites com a evidència vinculada és HCL Justificar (B1+). Per sota de B1 la cita és prematura: l'alumne encara no pot distingir entre cita decorativa i cita argumentativa, i el marcador esdevindria soroll. La gradació quantitativa (1 → 2-3 → múltiples) acompanya la consolidació del CALP acadèmic.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -135,6 +207,42 @@ L'estructura mínima de cada paràgraf: idea → "per exemple" / "com demostra" 
 
 **H5 — La conclusió no és un argument nou.**
 Quan l'alumne escriu a la conclusió un argument nou ("i a més, caldria tenir en compte que..."), llegim la conclusió en veu alta i preguntem: "Aquesta idea ha aparegut abans?" Si no, o es retira o es puja al cos. La conclusió és síntesi, no ampliació.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Assaig
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Tesi
+### Arguments
+### Refutacio
+### Conclusio
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[L1: terme_traduccio]                 <!-- només A1 nouvingut sobre pivots argumentatius -->
+[CITA: autor, any | text citat]       <!-- només B1+ dins ### Arguments -->
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Introducció
+## Desenvolupament
+## Conclusions
+## Bibliografia
+```
+
+**Regla d'integritat estructural.** El parser ancora les seccions per literals H2/H3. Sense `## Assaig` i els H3 estructurals en ordre, el frontend no detecta els blocs i la rúbrica de 9 passos no es mapeja. A A1 s'omet literalment el H3 `### Refutacio` (no es deixa buit). El marcador `[CITA: ...]` no s'usa per sota de B1; el marcador `[L1: ...]` només a A1 nouvingut sobre termes argumentatius pivot.
 
 ## Fonts principals
 

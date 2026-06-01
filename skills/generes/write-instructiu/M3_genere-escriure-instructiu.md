@@ -46,6 +46,62 @@ El text instructiu guia el lector pas a pas per realitzar una acció amb **ordre
 Aquesta rúbrica descriu el **text instructiu adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un text instructiu amb dues estructures invariants i obligatòries: una llista prèvia de materials i una seqüència de passos numerats (verb imperatiu + objecte) en ordre cronològic estricte, més un resultat esperat verificable al final. La quantitat i precisió de materials, la longitud màxima de cada pas i el grau d'especificitat tècnica es modulen segons el nivell MECR (A1→C1) seguint la taula del M3.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix la pertinença pedagògica del text font ni si l'instructiu és apropiat per a la unitat didàctica; tampoc no jutja la complexitat tècnica del procés ni inventa passos absents al text font. La decisió pedagògica i la validació de la fidelitat tècnica corresponen a qui ensenya. El LLM tampoc no adapta a pre-A1: si el perfil ho demana, retorna excepció canònica (Decisió 6 Fase B).
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### pre_A1
+
+**No aplicable.** L'skill retorna excepció canònica (Decisió 6 Fase B): la interpretació del verb imperatiu com a acte de parla directiu requereix base lecto-escriptora mínima i la comprensió del "tu" implícit com a executor.
+
+**Raonament pedagògic.** A pre-A1 la base lecto-escriptora i la pragmàtica de l'acte directiu encara no estan disponibles; cal derivar a un altre gènere amb mediació adulta o ancoratge visual concret.
+
+### A1_alfabetica_emergent
+
+**Inclou si:**
+- llista de 3-5 materials sense quantitats, 1 per línia
+- passos numerats amb estructura estricta verb + objecte
+- ≤5 paraules per pas
+- resultat en 1 frase verificable
+
+**Exclou explícitament:**
+- quantitats als materials
+- condicionals dins dels passos
+- referències a passos anteriors o posteriors
+
+**Raonament pedagògic.** A fase alfabètica emergent l'alumne descodifica amb esforç; la cardinalitat i la longitud reduïdes alliberen recursos per a la comprensió de l'acte directiu. El patró verb + objecte és la bastida lèxica mínima del gènere.
+
+### A1_alfabetica_fluida
+
+**Inclou si:**
+- mateix patró A1 amb una breu expansió de l'objecte (article + nom)
+- cardinalitat 3-5 passos
+- resultat en 1 frase verificable
+
+**Exclou explícitament:**
+- superar el llindar de paraules per pas declarat a la taula
+- quantitats no presents al text font
+
+**Raonament pedagògic.** La fluïdesa alfabètica permet absorbir un determinant o un article sense saturar; la cardinalitat es manté per consolidar l'estructura processal abans d'augmentar la càrrega.
+
+### A2_C1
+
+**Inclou si:**
+- modulació gradada segons la taula del M3 §Modulació per nivell
+- alineament amb la columna MECR declarada al perfil
+
+**Exclou explícitament:**
+- modulacions intermèdies improvisades pel LLM
+- desviacions de la cardinalitat i la precisió de la cel·la corresponent
+
+**Raonament pedagògic.** A partir d'A2 la rúbrica gradada captura mecànicament la progressió; el LLM no ha d'inventar nivells intermedis ja que això trencaria la traçabilitat del descriptor avaluable.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a instructiu):
@@ -129,6 +185,39 @@ Proposo que escriure la llista de materials es faci ABANS de redactar els passos
 
 **H4 — El subjecte "tu" com a eliminació de la passiva.**
 Quan un pas és en passiva ("s'afegirà l'agua"), proposo substituir-la afegint "tu" o "vosaltres": "Afegeix tu l'agua" en lloc de "S'afegirà l'agua". El subjecte explícit elimina la passiva i posa la responsabilitat de l'acció en l'executor. Funciona especialment per a alumnat nou en català.
+
+## Format de sortida
+
+**Headers H2 obligatoris (literals exactes, en aquest ordre):**
+```
+## Materials
+## Passos
+## Resultat
+```
+
+**Sub-headers H3 obligatoris:**
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Instructiu
+## Recepta
+## Procediment
+```
+
+**Regla d'integritat estructural.** Sense els tres headers H2 literals (`## Materials`, `## Passos`, `## Resultat`) i la numeració aràbiga dels passos, el parser de pas3.html no detecta les seccions invariants i la rúbrica gradada del M3 no es pot aplicar mecànicament al text generat.
 
 ## Fonts principals
 

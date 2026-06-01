@@ -54,6 +54,86 @@ L'alumne que usa la base d'orientació sap QUÈ fer en cada pas. L'alumne que us
 Aquesta rúbrica descriu la **plantilla que es genera perquè l'alumne produeixi el seu text** (PRODUCCIÓ MEDIADA). **No descriu la producció autònoma de l'alumne**: la plantilla és el suport, la producció de l'alumne és el resultat. El docent observa si l'alumne completa els forats amb contingut rellevant del text treballat.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → plantilla visual pura (dibuixar/enganxar). `fase_lectora: alfabetica_emergent` → plantilla amb 1-2 paraules per forat, mediat per adult.
 
+## Principi general
+
+**Regla de selecció simple.** Genera una plantilla de gènere com a text model parcial amb forats que disminueixen del nivell pre-A1 (visual amb requadres i icones) fins a C1 (només criteris de gènere), on els forats han de ser **específics del contingut real del text treballat** (noms, llocs i fets concrets que apareixen al text), no genèrics.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir QUIN gènere treballar ni si l'alumne necessita una plantilla en comptes d'una base d'orientació: aquesta decisió la pren el docent al Pas 2. Tampoc ha de jutjar si l'alumne ja domina l'estructura del gènere; només produeix la plantilla del gènere demanat, ancorada al text font, seguint la modulació del nivell MECR objectiu.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### pre_A1_logografica
+
+**Inclou si:**
+- Plantilla 100% visual: 3-4 requadres amb icones, marcadors [Dibuixa aquí]/[Enganxa aquí], cap text autònom. L'adult llegeix instruccions en veu alta.
+
+**Exclou explícitament:**
+- Text autònom escrit per l'alumne.
+
+**Raonament pedagògic.** A la fase logogràfica l'alumne encara no descodifica grafies; demanar text autònom és exigir CALP sense base lecto-escriptora. El requadre visual amb icona és el bastiment efectiu (Cummins, MALL).
+
+### pre_A1_alfabetica_emergent
+
+**Inclou si:**
+- Plantilla mixta: requadres visuals + 1-2 paraules per forat. Mediació de l'adult obligatòria.
+
+**Exclou explícitament:**
+- Frases completes a omplir autònomament.
+
+**Raonament pedagògic.** L'alumne comença a descodificar, però la càrrega d'escriure satura el processament del gènere. Les paraules clau amb suport visual mantenen la ZDP operativa.
+
+### A1
+
+**Inclou si:**
+- Text quasi complet (70-80% donat). Forats d'1-2 paraules extrets directament del text adaptat.
+
+**Exclou explícitament:**
+- Forats que requereixin inferència o producció pròpia.
+
+**Raonament pedagògic.** A A1 el contingut s'extreu del text adaptat; el forat és una operació de recuperació, no de generació, per protegir la càrrega cognitiva.
+
+### A2
+
+**Inclou si:**
+- Text parcialment donat (50-60% donat). Forats d'1 frase completables amb reformulació del text.
+
+**Exclou explícitament:**
+- Forats de paràgraf llarg o producció lliure.
+
+**Raonament pedagògic.** A A2 l'alumne ja pot reformular: el forat passa de recuperació a reformulació, mantenint el text font com a ancoratge.
+
+### B1
+
+**Inclou si:**
+- Text marc (30-40% donat: connectors, estructura, termes clau). Forats de 2-3 frases que requereixen inferència.
+
+**Exclou explícitament:**
+- Text donat majoritari (>40%) que limiti la producció.
+
+**Raonament pedagògic.** B1 és el llindar de la producció estratègica: l'estructura i els connectors es donen com a bastida, el contingut elaborat el produeix l'alumne (Gibbons).
+
+### B2
+
+**Inclou si:**
+- Plantilla minimalista: encapçalaments + 1 frase d'exemple per secció. Forats d'1 paràgraf argumentat.
+
+**Exclou explícitament:**
+- Text donat extens que freni la veu pròpia.
+
+**Raonament pedagògic.** B2 demana producció argumentada autònoma; la plantilla només marca l'organització del gènere.
+
+### C1
+
+**Inclou si:**
+- Pràcticament sense text donat: primer mot de cada secció o només criteris de gènere. Producció lliure coherent amb el gènere.
+
+**Exclou explícitament:**
+- Plantilla densa que limiti la creativitat o la veu d'autor.
+
+**Raonament pedagògic.** A C1 la plantilla esdevé rúbrica de gènere: criteris, no model. La densitat mínima NO és error; la retirada progressiva de la bastida és l'objectiu (Vygotsky).
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -87,6 +167,55 @@ Aquesta rúbrica descriu la **plantilla que es genera perquè l'alumne produeixi
 | **3. Vinculació al text adaptat** | Ancoratge al contingut llegit | Forats completables amb imatges o paraules que apareixen al text. L'adult mostra on és la resposta. | Forats completables amb paraules o noms extrets directament del text adaptat. | Forats que requereixen selecció i reformulació d'informació del text. | Forats que requereixen inferència o selecció crítica d'informació del text. | Forats que requereixen elaboració que va més enllà del text (connexió amb altres fonts). | Forats de producció pròpia de l'alumne, inspirada però autònoma. |
 | **4. Densitat dels forats** | Proporció text donat / forats | Maxima densitat visual: tota la plantilla és un esquema. Cap text en prosa. | Alta densitat forats: 1 forat cada 2-3 paraules. El text donat guia i contextualitza. | Densitat moderada: 1 forat per frase o cada 2 frases. Text donat aporta estructura. | Densitat baixa: 1 forat per paràgraf. L'alumne aporta la major part del contingut. | Densitat mínima: 1 forat per secció. Quasi tot és producció pròpia. | Forat de producció completa per secció. La plantilla és una rúbrica de gènere. |
 | **5. Autoavaluació mediada** | Metacognició | "He dibuixat (o enganxat) el que passa al text." (oral, mediat per adult) | "He completat les paraules que faltaven amb informació del text." | "He completat les seccions amb informació del text que he llegit." | "He completat la plantilla amb informació pròpia sobre el contingut. He verificat que els forats son coherents amb el gènere." | "He usat la plantilla com a model de referència i he escrit el text amb les meves pròpies paraules." | "He usat els criteris de gènere per autoregular la meva producció sense suport directe." |
+
+## Casos especials
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica
+
+**Modulació:**
+- format: visual_pur
+- cap_text_autonom: true
+- elements_obligatoris: 3-4 requadres, icones, marcadors [Dibuixa aquí] / [Enganxa aquí]
+- instruccions: mediades_per_adult
+- densitat_text_prosa: 0%
+
+**Raonament pedagògic.** A la fase logogràfica l'alumne reconeix imatges com a text però encara no descodifica grafies. La plantilla esdevé esquema visual; el text autònom seria una demanda CALP sense base lecto-escriptora (Kuhn 1991; MALL).
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- format: plantilla_mixta_visual_text
+- max_paraules_per_forat: 1-2
+- requadres_amb_text_breu: true
+- mediacio_adult: obligatoria
+
+**Raonament pedagògic.** L'alumne comença a escriure però la càrrega grafomotora competeix amb el processament del gènere. La mediació adulta i els forats curts protegeixen la ZDP (Vygotsky, MALL bastida de textualització).
+
+### antisenyal_bastides_produccio
+
+**Trigger:** tasca_requereix_planificacio_previa: true AND alumne_no_te_GPS_passos: true
+
+**Modulació:**
+- no_generar_plantilla: true
+- derivar_a: bastides-produccio (Bloc A, base d'orientació)
+- sequencia_recomanada: bastides-produccio primer, plantilles-genere després
+
+**Raonament pedagògic.** Si l'alumne necessita el GPS de passos per planificar abans de textualitzar, la plantilla no és el bastiment adequat: salta a la textualització sense planificació. Plantilla i base d'orientació són complementàries, no substitutives.
+
+### C1_plantilla_minimalista
+
+**Trigger:** mecr_in: [C1]
+
+**Modulació:**
+- densitat_text_donat: minima (només primer mot de cada secció o criteris de gènere)
+- forat: produccio_completa_per_seccio
+- validador_NO_penalitza_densitat_minima_a_C1: true
+
+**Raonament pedagògic.** A C1 la plantilla esdevé rúbrica de gènere; la retirada progressiva de la bastida (Vygotsky) demana mínim text donat. Penalitzar la densitat mínima invertiria la gradació pedagògica.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -127,6 +256,38 @@ Quan dubto si generar una plantilla o una base d'orientació, em pregunto: "L'al
 
 **H5 — Retirar la bastida progressivament.**
 La plantilla és una bastida temporal. A mesura que l'alumne interioritza el gènere, redueixo el nombre de forats (del 70% de text donat al 30%). El docent decideix quan la plantilla ja no és necessaria i l'alumne escriu a partir del model interioritzat. Un indicador fiable: si l'alumne omple els forats en menys de 5 minuts sense consultar el text, la bastida és massa fàcil i cal reduir-la.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Plantilla de gènere
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[Dibuixa aquí]
+[Enganxa aquí]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Plantilla
+## Plantilla buida
+## Model de gènere
+```
+
+**Regla d'integritat estructural.** Header H2 literal `## Plantilla de gènere`; a dins, primer element `## Plantilla: [nom del gènere]`. Forats amb `___` o requadres visuals per a pre-A1. Sense el header literal el parser de Pas 3 no detecta la secció.
 
 ## Fonts principals
 

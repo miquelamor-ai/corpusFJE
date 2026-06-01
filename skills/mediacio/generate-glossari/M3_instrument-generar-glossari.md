@@ -45,6 +45,71 @@ El glossari és un instrument de **mediació lèxica** que acompanya el text ada
 Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (què el docent presenta perquè l'alumne consulti). **No descriu la producció autònoma de l'alumne** — això es treballa amb un derivat propi (rúbrica d'avaluació formativa), pertinent per al cas de **glossari col·laboratiu** (B1+ ; vegeu H4) on l'alumnat construeix el glossari sota la guia del docent.
 **Sub-granularitat dins de pre-A1 i A1**: es treballa amb la variable independent `fase_lectora` del frontmatter (logografica · alfabetica_emergent · alfabetica_fluida), no amb columnes addicionals.
 
+## Principi general
+
+**Regla de selecció simple.** Inclou només termes CALP, d'especialitat curricular o de baixa freqüència per al nivell MECR objectiu que apareguin literalment al text adaptat. NO incloguis termes BICS (vocabulari quotidià, objectes domèstics, parts del cos, verbs d'acció bàsics), EXCEPTE si l'alumne és nouvingut amb L1 declarada i el terme funciona com a ancoratge translingüístic.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix què és 'quotidià per a aquest alumne concret' ni jutja la pertinença pedagògica final dels termes. Genera la taula amb els termes que compleixen els criteris formals (fidelitat al text, tipologia lèxica per nivell, no-circularitat); la decisió de retirar entries o afegir-ne via menú flotant la pren l'acompanyant al Pas 3.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### default_monolingue
+
+**Inclou si:**
+- Taula 2 columnes (Terme | Explicació CA)
+- Nombre termes i llargada definició segons MECR (3-5 pre-A1 a 15-18 C1)
+
+**Exclou explícitament:**
+- columna L1
+
+**Raonament pedagògic.** Per defecte, sense L1 declarada, la funció del glossari és reduir càrrega lèxica acadèmica en monolingüe; no cal columna L1.
+
+### bilingue_L1_alfabet_llati
+
+**Inclou si:**
+- Taula 3 columnes (Terme | Explicació CA | L1)
+- Traducció directa
+
+**Exclou explícitament:**
+- transliteració
+- notes contrastives (excepte si no hi ha equivalent exacte)
+
+**Raonament pedagògic.** Per a nouvinguts amb L1 d'alfabet llatí, la traducció directa ja és pont cognitiu suficient (Cummins & Early, TOLC); la transliteració no aporta.
+
+### bilingue_L1_alfabet_no_llati
+
+**Inclou si:**
+- Taula 4 columnes (Terme | Explicació CA | L1 alfabet original | Transliteració)
+
+**Exclou explícitament:**
+- format monolingüe
+
+**Raonament pedagògic.** Vegeu cas especial 'nouvingut_L1_alfabet_no_llati': l'alfabet original ancora coneixement previ; la transliteració activa la veu interna per a l'acompanyant que no llegeix l'alfabet original.
+
+### DUA_acces_o_fase_lectora_logografica
+
+**Inclou si:**
+- Pictograma obligatori a cada terme (pre-A1) o recomanat (A1)
+
+**Exclou explícitament:**
+- taula complexa sense suport visual
+
+**Raonament pedagògic.** Vegeu cas 'fase_lectora_logografica': la imatge és l'únic pont de significat quan l'alumne encara no descodifica alfabèticament (multimodalitat MALL).
+
+### AACC
+
+**Inclou si:**
+- glossari estàndard del MECR de l'alumne (sense modulació estructural específica)
+
+**Exclou explícitament:**
+- modulació pròpia a la baixa o a l'alça
+
+**Raonament pedagògic.** L'alumne AACC consumeix glossari estàndard del seu MECR; l'ampliació conceptual queda capturada pujant nivell MECR (C1+), no afegint estructura.
+
+_Nota crítica: la selecció de variant (mono/bilingüe/translit) NO la decideix el LLM: ve donada pels camps del perfil (nouvingut_L1, L1_script, fase_lectora). El LLM només aplica la plantilla que correspon._
+
 ## Detecció
 
 **Senyals docent** (quan activar glossari):
@@ -91,6 +156,53 @@ Aquesta rúbrica descriu el **glossari adaptat per a la LECTURA** de l'alumne (q
 |  | Selecció pertinent | Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren). | Idem. **Exclou explícitament a A1 + etapa primària inicial**: objectes domèstics (mitja, botó, agulla, fil, retolador, llapis, paper, plat, got, casa, taula, porta), parts del cos (cap, mà, ulls, boca, peu), verbs d'acció bàsics (posar, lligar, dibuixar, jugar, mirar, fer). Aquests són **coneixement previ**, no termes a explicar. Si el text no en conté CAP de realment nou per al nivell, escriu només la nota «Aquest text no necessita glossari nou per al teu nivell» sense taula. | Idem. | Idem. | Idem. | Idem (els meta-discursius sí entren). |
 |  | Fidelitat al text font | Tots els termes del glossari apareixen literalment al text adaptat (fidelitat al lèxic nuclear del text). | Tots els termes apareixen literalment al text adaptat. | Tots els termes apareixen literalment al text adaptat. | Tots els termes apareixen al text o són col·locacions necessàries per a la comprensió. | Termes literals + col·locacions + derivacions conceptualment necessàries. | Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp. |
 | **6. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He mirat les imatges del glossari quan al text he trobat una paraula que no he reconegut." | "Quan llegint el text he trobat una paraula difícil, he anat al glossari a buscar-la abans de demanar ajuda." | "He fet servir el glossari per entendre el text. He intentat dir el significat amb les meves paraules a algú." | "He reflexionat sobre si sabia usar els termes del glossari en una frase pròpia, i així he sabut quins encara no domino." | "He pensat quina diferència hi ha entre els termes del glossari que es poden confondre i com triaria un o l'altre." | "He reflexionat sobre com s'usaria el terme en un altre context i si la definició encara seria vàlida." |
+
+## Casos especials
+
+### nouvingut_L1_alfabet_no_llati
+
+**Trigger:** nouvingut_L1: true AND L1_script_in: [arab, han, urdu, ciril-lic, armeni, devanagari, hebreu]
+
+**Modulació:**
+- afegeix_columna_L1: true (alfabet original)
+- afegeix_columna_transliteracio: true
+- format: bilingue_translit_4col (Terme | Explicació CA | L1 | Transliteració)
+- notes_contrastives: permeses quan no hi ha equivalent exacte
+
+**Raonament pedagògic.** El terme en L1 actua d'ancoratge cognitiu (Cummins & Early, TOLC); la transliteració facilita la pronúncia per a l'acompanyant que no llegeix l'alfabet original. Sense aquest pont, l'alumne ha d'aprendre simultàniament concepte i forma, cosa que dobla la càrrega cognitiva.
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre-A1, A1] AND fase_lectora: logografica
+
+**Modulació:**
+- pictograma_obligatori_per_terme: true
+- format: preA1_nouvingut_alt (Terme | Pictograma | L1 | Transliteració si aplica)
+- max_paraules_definicio: 6
+- sense_taula_complexa: a pre-A1 s'admet llista emoji+terme en lloc de taula
+
+**Raonament pedagògic.** L'alumne encara no descodifica alfabèticament; la imatge és l'únic pont de significat (multimodalitat MALL). Forçar text dens en aquest punt sobrecarrega sense aportar accés.
+
+### A1_primaria_inicial_vocabulari_quotidia
+
+**Trigger:** mecr_equals: A1 AND etapa_in: [infantil, primaria-inicial] AND text_lexic_quotidia: true
+
+**Modulació:**
+- sostre_max_terms: 2
+- si_no_hi_ha_termes_nous: substitueix la taula per la nota literal «Aquest text no necessita glossari nou per al teu nivell»
+- exclou_explicitament: objectes domèstics, parts del cos, verbs d'acció bàsics
+
+**Raonament pedagògic.** El glossari afegeix càrrega lectora innecessària quan tots els termes són coneixement previ; considera pictogrames com a mediació visual alternativa. Sobrecarregar amb BICS és contraproduent (Cummins).
+
+### glossari_collaboratiu_produccio
+
+**Trigger:** mecr_in: [B1, B2, C1] AND mode: produccio_alumnat
+
+**Modulació:**
+- aquesta_rubrica_no_aplica: el cas de producció autònoma (H4) requereix un derivat propi (rúbrica d'avaluació formativa)
+- el M3 actual només descriu el glossari adaptat per a la LECTURA
+
+**Raonament pedagògic.** Descriure consum lector i producció autònoma són actes d'ensenyament diferents (vegeu Aclariment d'ús). Aplicar la mateixa rúbrica als dos casos confondria avaluació de producte i avaluació de procés.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -144,6 +256,36 @@ A partir de B1, proposo que sigui l'alumnat qui construeixi el glossari col·lec
 
 **H5 — El glossari com a avaluació diagnòstica.**
 Abans d'adaptar un text complex, demano a l'alumnat que subratlli les paraules que no entenen. El resultat és un diagnòstic lèxic ràpid: si la majoria del grup subratlla els mateixos termes, el problema és col·lectiu i cal glossari comú. Si cada alumne subratlla paraules diferents, el problema és individual i cal suport personalitzat (o glossari diferenciat per nivell).
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Glossari
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap (no s'usen H3; el glossari és una taula markdown única)
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[PICTO: terme_arasaac|terme_visible]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Glossari bilingüe
+## Pictogrames
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Glossari` i una taula markdown amb pipes i fila separadora (`|---|---|`), el parser de pas3.html no detecta la secció i els toggles UX (amagar L1, transliteració, columna pictograma) queden inhàbils.
 
 ## Fonts principals
 

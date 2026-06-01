@@ -47,6 +47,50 @@ La carta és un text comunicatiu adreçat a un **destinatari específic** amb es
 Aquesta rúbrica descriu la **carta adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Adapta o genera una carta amb estructura de 7 parts (encapçalament, salutació, motiu, cos, petició, comiat, signatura), posant el motiu al primer paràgraf, formulant una sola petició i mantenint un registre (formal o informal) consistent i ajustat al destinatari. Inclou la rúbrica gradada A1→C1 per als 7 passos.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix la relació social entre remitent i destinatari ni si la petició és pedagògicament adequada: aplica el registre i el motiu que el text font o el docent indiquen. Tampoc valora autònomament la pertinença d'expressions en L1 (translanguaging A1-A2 carta informal): les preserva entre claudàtors si apareixen. La decisió final sobre adequació sociolingüística la pren el docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### nouvingut_L1_carta_informal
+
+**Inclou si:**
+- Activar translanguaging amb marcador [L1: ...] per al cos i la petició
+- Mantenir salutació i comiat sempre en llengua de destinació com a ancoratge formal
+
+**Exclou explícitament:**
+- L1 a salutació o comiat (han de mantenir-se en llengua de destinació)
+
+**Raonament pedagògic.** Per al nouvingut amb L1 declarada en carta informal A1-A2, el translanguaging admet expressions en L1 quan l'alumne no troba el mot en llengua de destinació: el contingut comunicatiu es valora separat de la forma (MALL, Cummins translanguaging). Salutació i comiat es mantenen en llengua meta com a ancoratge formal del gènere.
+
+### registre_formal_B1_plus
+
+**Inclou si:**
+- Tractament 'vostè' consistent
+- Comiat protocol·lari ('Atentament', 'Salutacions cordials')
+
+**Exclou explícitament:**
+- Expressions col·loquials
+- Translanguaging (marcadors [L1: ...])
+
+**Raonament pedagògic.** A B1+ la carta formal exigeix competència sociolingüística plena: el registre formal és inequívoc i no admet barreja amb col·loquialismes ni amb L1, perquè el destinatari institucional avalua adequació al protocol (Hymes, competència comunicativa).
+
+### registre_informal
+
+**Inclou si:**
+- Tractament 'tu' consistent
+- Salutació i comiat afectius adequats a la relació
+
+**Exclou explícitament:**
+- Fórmules arcaiques encara que el text font les contingui (s'actualitzen)
+
+**Raonament pedagògic.** El registre informal exigeix coherència de tractament i fórmules contemporànies; les fórmules arcaiques del text font s'actualitzen perquè la carta serveix la comunicació real, no la reproducció històrica.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a carta):
@@ -88,6 +132,45 @@ Aquesta rúbrica descriu la **carta adaptada per a la LECTURA** de l'alumne. **N
 |  | Fórmules arcaiques | Cap fórmula arcaica. Si apareix al text font, s'actualitza. | Idem. Cap fórmula arcaica ni expressió obsoleta. | Idem. Fórmules de cortesia contemporànies. | Idem. Pot usar fórmules formals però no antiquades. | Idem. Registre professional actual, sense arcaismes. |
 |  | Fidelitat al text font | Fidelitat al motiu principal i al registre bàsic. | Fidelitat al motiu, al registre i a la petició essencial. | Fidelitat al motiu, al registre, a la petició i a l'estructura de 7 parts. | Fidelitat a la complexitat argumentativa i al to del remitent. | Fidelitat a la complexitat, al to i als recursos retòrics del text original. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit a qui va la carta i per qué. He fet una sola petició. He signat." | "He posat salutació i comiat adequats al destinatari. He dit el motiu al principi." | "He usat el registre correcte (formal/informal). He fet una sola petició amb justificació." | "La meva carta té context, petició argumentada i registre consistent de principi a fi." | "La meva carta és professional, ben estructurada i usa recursos de persuasió adequats al destinatari." |
+
+## Casos especials
+
+### translanguaging_A1_A2_informal
+
+**Trigger:** mecr_in: [A1, A2] AND registre: informal AND nouvingut_L1: true
+
+**Modulació:**
+- admet_expressions_L1_entre_claudators: true
+- marcador_inline: [L1: ...]
+- valoracio_LLM_jutge: contingut_comunicatiu_separat_de_forma
+- aplicar_a_carta_formal: false
+- aplicar_a_B1_plus: false
+
+**Raonament pedagògic.** Per al nouvingut amb L1 a carta informal A1-A2, el principi MALL de translanguaging permet expressar el contingut comunicatiu mentre s'aprèn la forma; les expressions L1 entre claudàtors no penalitzen la valoració. A carta formal o B1+, el registre esdevé competència sociolingüística plena i el translanguaging deixa de ser admissible.
+
+### no_aplicable_preA1
+
+**Trigger:** mecr_equals: pre-A1
+
+**Modulació:**
+- no_generar: true
+- output_reemplacat_per: missatge_explicatiu
+- missatge: "la carta requereix la comprensió del destinatari com a constructor de registre, una abstracció sociolingüística no accessible a pre-A1"
+- derivar_a: generes_mes_basics (rètol, missatge curt)
+
+**Raonament pedagògic.** Saber que "Hola" vs "Benvolgut" depèn de la relació social és una variació conscient del context comunicatiu (Hymes, competència comunicativa) que requereix una base lingüística mínima absent a pre-A1. Forçar la carta en aquest nivell genera reproducció mecànica sense competència real (Decisió 6 canònica Fase B).
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_equals: A1 AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- max_paraules_per_frase: 8-10
+- estructura_7_parts_marcada_visualment: true (amb separadors)
+- salutacio_comiat_tancats: escollir_entre_3_opcions_memoritzables_per_registre
+- formula_peticio_fixa: "T'escric per..." + "Et demano que..."
+
+**Raonament pedagògic.** A A1 amb fase lectora alfabètica emergent, l'alumne disposa de recursos descodificadors limitats: frases curtes, opcions tancades memoritzables i fórmules fixes redueixen la càrrega cognitiva i permeten focalitzar en l'estructura del gènere (H5 Heurística docent — tres comiats memoritzats resolen el 90% dels errors de tancament).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -134,6 +217,43 @@ La salutació em diu tot. "Hola Pau" → informal. "Benvolgut senyor García" �
 
 **H5 — El comiat coherent.**
 A A1-A2, els alumnes saben com acabar una conversa oral però no una carta. Proposo aprendre 3 comiats per registre: formal ("Atentament" / "Salutacions cordials"), semiformal ("Gràcies per la vostra atenció"), informal ("Fins aviat!" / "Una abraçada"). Tres comiats memoritzats resolen el 90% dels errors de tancament.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Carta adaptada
+## Rúbrica de la carta
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### 1. Encapçalament
+### 2. Salutació
+### 3. Motiu al primer paràgraf
+### 4. Una sola petició
+### 5. Registre
+### 6. Criteris transversals (comiat, signatura, fórmules, fidelitat)
+### 7. Autoavaluació metacognitiva
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[L1: expressió_original]   <!-- només a A1-A2 carta informal amb nouvingut L1 -->
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Carta
+## Rúbrica
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Carta adaptada` i la rúbrica gradada amb els 7 passos com a H3, el parser de pas3.html no pot ancorar els descriptors i la vista d'autoavaluació queda òrfena. El marcador [L1: ...] només s'usa a A1-A2 carta informal.
 
 ## Fonts principals
 

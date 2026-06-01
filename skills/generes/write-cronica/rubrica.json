@@ -1,0 +1,405 @@
+{
+  "_meta": {
+    "name": "rubrica_write_cronica",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-cronica\\M3_genere-escriure-cronica.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-cronica",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "cronica",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat experiencial del text original, incloent matisos i contradiccions."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_precisio",
+          "descriptor": "\"Primer\", \"després\", \"al final\". 3-4 moments."
+        },
+        {
+          "pas_id": "pas_2_visibilitat_i_consistencia",
+          "descriptor": "Primera persona plural (\"vam veure\", \"vam anar\"). Consistent."
+        },
+        {
+          "pas_id": "pas_3_organitzacio_i_progressio",
+          "descriptor": "3-4 moments en ordre cronològic estricte. 1-2 frases per moment.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_concrecio_i_atmosfera",
+          "descriptor": "1 descripció sensorial per moment: qué es veu o s'escolta."
+        },
+        {
+          "pas_id": "pas_5_rigor_i_reflexio",
+          "descriptor": "Sense valoració final (no requerida a A1)."
+        },
+        {
+          "pas_id": "pas_6_connectors",
+          "descriptor": "Almenys 2 connectors temporals diferents al llarg del text. Cap repetició sistemàtica del mateix connector."
+        },
+        {
+          "pas_id": "pas_6_especulacio_sobre_tercers",
+          "descriptor": "Cap especulació sobre el que altres persones pensaven o sentien. Només el que el cronista ha observat directament."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets principals i a la perspectiva testimonial bàsica."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He explicat 3-4 moments en ordre. He dit qué vaig veure.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_precisio",
+          "descriptor": "\"A les X\", \"de sobte\", \"llavors\". 4-5 moments."
+        },
+        {
+          "pas_id": "pas_2_visibilitat_i_consistencia",
+          "descriptor": "Primera persona (singular o plural) visible i consistent en tot el text."
+        },
+        {
+          "pas_id": "pas_3_organitzacio_i_progressio",
+          "descriptor": "4-5 moments ordenats. 2-3 frases per moment. Connexió simple entre moments.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_concrecio_i_atmosfera",
+          "descriptor": "Descripció sensorial i emocional breu per moment."
+        },
+        {
+          "pas_id": "pas_5_rigor_i_reflexio",
+          "descriptor": "Valoració d'una frase al final, clarament separada dels fets."
+        },
+        {
+          "pas_id": "pas_6_connectors",
+          "descriptor": "Varietat mínima de 3 connectors temporals de tipus diferent. Cap connector repetit en moments consecutius."
+        },
+        {
+          "pas_id": "pas_6_especulacio_sobre_tercers",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, a la perspectiva i a la valoració essencial."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He usat marcadors de temps. He dit com em vaig sentir.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_precisio",
+          "descriptor": "Marcadors temporals precisos (hores concretes o expressions precises: \"just quan\", \"a mesura que\")."
+        },
+        {
+          "pas_id": "pas_2_visibilitat_i_consistencia",
+          "descriptor": "Perspectiva del cronista consistent. Selecció d'allò que el cronista ha viscut directament."
+        },
+        {
+          "pas_id": "pas_3_organitzacio_i_progressio",
+          "descriptor": "4-5 moments amb connexió causal. La seqüència mostra progressió i evolució de l'event."
+        },
+        {
+          "pas_id": "pas_4_concrecio_i_atmosfera",
+          "descriptor": "Descripcions sensorials integrades a la narració (no en llista separada)."
+        },
+        {
+          "pas_id": "pas_5_rigor_i_reflexio",
+          "descriptor": "Valoració de 2-3 frases al final, en paràgraf separat. No barrejada amb els fets.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_connectors",
+          "descriptor": "Combinació de connectors temporals i 1-2 causals. La varietat reflecteix la progressió i causalitat de l'event."
+        },
+        {
+          "pas_id": "pas_6_especulacio_sobre_tercers",
+          "descriptor": "Idem. Les emocions d'altri s'infereixen de comportaments observats, no s'afirmen."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, a la perspectiva, a la valoració i al to testimonial."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He separat els fets de la meva opinió. He descrit cada moment de forma sensorial.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_precisio",
+          "descriptor": "Temporalitat precisa integrada naturalment a la narració."
+        },
+        {
+          "pas_id": "pas_2_visibilitat_i_consistencia",
+          "descriptor": "Perspectiva del cronista amb veu pròpia clarament diferenciada dels fets."
+        },
+        {
+          "pas_id": "pas_3_organitzacio_i_progressio",
+          "descriptor": "5-6 moments amb detall creixent i tensió narrativa."
+        },
+        {
+          "pas_id": "pas_4_concrecio_i_atmosfera",
+          "descriptor": "Descripcions riques: visuals, auditives, olfactives o tàctils. Integrades al text."
+        },
+        {
+          "pas_id": "pas_5_rigor_i_reflexio",
+          "descriptor": "Valoració argumentada que connecta l'experiència amb un context més ampli."
+        },
+        {
+          "pas_id": "pas_6_connectors",
+          "descriptor": "Connectors temporals i causals variats i integrats naturalment al text. Cap patró de repetició visible."
+        },
+        {
+          "pas_id": "pas_6_especulacio_sobre_tercers",
+          "descriptor": "Idem. Pot incloure cites textuals d'altres participants."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, a la perspectiva, a la valoració i al context."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He escrit una valoració argumentada al final que connecta l'experiència amb el context.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_precisio",
+          "descriptor": "Temporalitat elaborada que reflecteix el ritme de l'experiència viscuda."
+        },
+        {
+          "pas_id": "pas_2_visibilitat_i_consistencia",
+          "descriptor": "Perspectiva crítica: el cronista interpreta l'event, no només el narra."
+        },
+        {
+          "pas_id": "pas_3_organitzacio_i_progressio",
+          "descriptor": "5-6 moments amb variació de ritme narratiu (acceleració i aturada)."
+        },
+        {
+          "pas_id": "pas_4_concrecio_i_atmosfera",
+          "descriptor": "Descripcions elaborades que creen atmosfera i situen el lector en l'experiència."
+        },
+        {
+          "pas_id": "pas_5_rigor_i_reflexio",
+          "descriptor": "Valoració crítica que analitza l'impacte o el significat de l'event."
+        },
+        {
+          "pas_id": "pas_6_connectors",
+          "descriptor": "Connectors sofisticats que reflecteixen el ritme i la intensitat de l'experiència. Pot incloure adversatius o concessius."
+        },
+        {
+          "pas_id": "pas_6_especulacio_sobre_tercers",
+          "descriptor": "Idem. La perspectiva dels altres s'atribueix amb marcadors (\"semblava que\", \"ens va dir que\")."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat experiencial del text original, incloent matisos i contradiccions."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He analitzat l'impacte de l'event des de la meva perspectiva crítica.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_sequencia_i_precisio",
+      "titol": "Marcadors temporals",
+      "dimensio": "Seqüència i precisió",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar marcadors temporals; verificar que cada moment en té un; detectar absència de marcadors"
+    },
+    {
+      "id": "pas_2_visibilitat_i_consistencia",
+      "titol": "Perspectiva del cronista",
+      "dimensio": "Visibilitat i consistència",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de primera persona (singular o plural) consistent; detectar canvis a tercera persona impersonal"
+    },
+    {
+      "id": "pas_3_organitzacio_i_progressio",
+      "titol": "Moments ordenats",
+      "dimensio": "Organització i progressió",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar moments diferenciats; verificar ordre cronològic; detectar flashbacks (connectors retrospectius)"
+    },
+    {
+      "id": "pas_4_concrecio_i_atmosfera",
+      "titol": "Descripcions sensorials",
+      "dimensio": "Concreció i atmosfera",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar descripcions sensorials (1 per moment mínim A1-B1); LLM-jutge sobre integració a la narració (B1+)"
+    },
+    {
+      "id": "pas_5_rigor_i_reflexio",
+      "titol": "Separació fets / valoració",
+      "dimensio": "Rigor i reflexió",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: valoració present a A2+; detectar valoració barrejada amb els fets (opinió dins del bloc de fets)"
+    },
+    {
+      "id": "pas_6_connectors",
+      "titol": "Criteris transversals",
+      "dimensio": "Connectors",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar i classificar connectors temporals per tipus; verificar coherència amb el nivell"
+    },
+    {
+      "id": "pas_6_especulacio_sobre_tercers",
+      "titol": "Criteris transversals",
+      "dimensio": "Especulació sobre tercers",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar afirmacions sobre el que altres pensaven o sentien sense atribució; LLM-jutge per a casos ambigus"
+    },
+    {
+      "id": "pas_6_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar fets principals, perspectiva i valoració original vs adaptats"
+    },
+    {
+      "id": "pas_7_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Adapta o genera una crònica fidel al text font (si n'hi ha) que respecti els 7 descriptors de la rúbrica per al nivell MECR objectiu: marcadors temporals explícits, perspectiva del cronista en primera persona consistent, moments ordenats cronològicament, descripcions sensorials, separació neta entre fets i valoració final, connectors variats sense especulació sobre tercers, i fidelitat al text font.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix la rellevància pedagògica del text font ni si l'event mereix ser cronicat ni el grau de profunditat crítica que ha d'assolir l'alumne; només aplica els descriptors literals del nivell MECR. La idoneïtat de l'event, la selecció del text font i l'avaluació de la producció real de l'alumne es deleguen al docent."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una crònica (viatge, excursió, visita, event escolar, fet històric narrat en primera persona, crònica esportiva, crònica cultural)."
+    },
+    {
+      "name": "la_unitat_vol_apropar",
+      "description": "La unitat vol apropar l'alumne a un event viscut des de la perspectiva de qui l'ha viscut."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir per comprendre com algú ha viscut i interpretat un event."
+    },
+    {
+      "name": "l_activitat_preveu_que",
+      "description": "L'activitat preveu que l'alumne produeixi una crònica (diari de viatge, relat d'excursió, crònica d'un event de classe)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_informatiu",
+      "description": "El text és informatiu i objectiu, sense perspectiva personal → notícia."
+    },
+    {
+      "name": "el_text_es_intim",
+      "description": "El text és íntim i no vol comunicar a un lector extern → diari."
+    },
+    {
+      "name": "el_text_no_te",
+      "description": "El text no té perspectiva testimonial (ningú l'ha viscut directament) → informe o divulgatiu."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El marcador temporal com a guió.",
+      "descripcio": "Proposo que l'alumne escrigui primer una columna amb només els marcadors temporals: \"A les 9 / Quan vam arribar / De sobte / Al final\". Amb el guió temporal fet, omple cada moment amb 2-3 frases. La crònica s'escriu sola perquè el guió temporal substitueix el pla de redacció. Funciona des de A1."
+    },
+    {
+      "id": "H2",
+      "titol": "Tres columnes: \"vam veure / vam sentir / vam pensar\".",
+      "descripcio": "Per a alumnat que no distingeix fets d'opinions, proposo tres columnes per a cada moment: (1) qué vam veure (sensorial objectivable); (2) qué vam sentir (emoció pròpia del cronista); (3) qué vam pensar (valoració). Les columnes 1 i 2 van al cos de la crònica; la columna 3 va a la valoració final. La separació visual prèvia evita la barreja."
+    },
+    {
+      "id": "H3",
+      "titol": "La valoració final com a punt d'inflexió.",
+      "descripcio": "La valoració final diferencia la crònica del simple relat. La pregunta generadora: \"Qué vas aprendre? Qué et va sorprendre? Qué canviaries?\" A A2 és una frase; a B2+ és un paràgraf que connecta l'experiència amb el context. La valoració és la part que dona sentit a tot el que s'ha narrat."
+    },
+    {
+      "id": "H4",
+      "titol": "No especular sobre els altres.",
+      "descripcio": "Quan l'alumne escriu \"la meva amiga estava trista\" o \"el professor pensava que...\", pregunto: \"Ho vas veure tu directament?\" Si la resposta és \"no, ho imagino\", cal canviar a descripció observable: \"la meva amiga callava\" o \"el professor va dir que...\". La regla: només el que el cronista ha vist, sentit o escoltat directament."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1] AND fase_lectora: alfabetica_emergent\n\n**Modulacio:**\n- max_paraules_per_frase: 8-10\n- marcadors_temporals_per_moment: 1 (sempre en negreta a inici de paràgraf)\n- persona_narrativa: primera persona plural exclusiva (\"vam veure\", \"vam anar\")\n- max_moments: 3-4\n- valoracio_final: OFF (no requerida en aquesta fase)\n- connectors_basics_obligatoris: [\"primer\", \"després\", \"al final\"]\n- reforc_visual_marcador_temporal: negreta obligatòria\n\n**Raonament pedagogic.** En fase alf"
+      }
+    }
+  }
+}

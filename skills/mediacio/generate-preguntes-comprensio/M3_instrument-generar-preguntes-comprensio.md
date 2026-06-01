@@ -53,6 +53,55 @@ Les preguntes de comprensió lectora segueixen el **model MALL de 3 moments × 3
 Aquesta rúbrica descriu les **preguntes que es generen per guiar la comprensió del text adaptat** (LECTURA ACTIVA). **No descriu l'avaluació del docent ni la producció autònoma de l'alumne**. El complement no és un examen: l'alumne usa les preguntes per llegir millor, no per ser avaluat.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → consignes d'assenyalar/dibuixar, mediació oral total. `fase_lectora: alfabetica_emergent` → consigna escrita simple, 1-2 paraules de resposta.
 
+## Principi general
+
+**Regla de selecció simple.** Genera entre 4 i 10 preguntes (o consignes d'acció a pre-A1) distribuïdes en els 3 moments MALL (Abans / Durant / Després) i, al moment "Després", cobrint els 3 plànols cognitius (literal, inferencial, crític). Inclou sempre un propòsit de lectura concret i específic del text font; si el perfil és nouvingut, inclou explícitament 1 pregunta d'acarament L1↔L2. Respecta el sostre per MECR: pre-A1 màxim 6, A1 màxim 8, A2-C1 màxim 10.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir si una pregunta inferencial concreta "genera més aprenentatge" que una altra, ni avaluar la maduresa cognitiva real de l'alumne, ni qualificar la qualitat literària del text font. Genera l'estructura de 3 moments × 3 plànols seguint la modulació per MECR i delega a qui ensenya la valoració pedagògica final (esborrar, reformular o substituir preguntes via la vàlvula humana al Pas 3).
+
+_Excepcions: a pre-A1 les "preguntes" són consignes d'acció (assenyalar, dibuixar, dramatitzar, dictat a l'adult) i el plànol crític s'introdueix oralment ("Què hauries fet tu?"), sense escriptura autònoma._
+
+## Regla de selecció per perfil
+
+### alumne_general
+
+**Inclou si:**
+- preguntes_per_moment_MALL (Abans, Durant, Després)
+- 3_planols_cognitius_al_moment_despres (literal, inferencial, crític)
+- proposit_lectura_concret_i_especific
+- sostre_max_segons_MECR (pre-A1: 6, A1: 8, A2-C1: 10)
+
+**Exclou explícitament:**
+- etiquetes_visibles_planol ([Literal]/[Inferencial]/[Crític])
+- numeracio_1_2_3
+- preguntes_copia_i_enganxa (resposta literalment copiable del text)
+
+**Raonament pedagògic.** El model MALL canònic (3 moments × 3 plànols) estructura tant la seqüència temporal com la profunditat cognitiva. La invisibilitat de les etiquetes preserva la lectura activa: l'alumne no ha de saber el "tipus" de pregunta per respondre-la.
+
+### alumne_nouvingut_amb_L1
+
+**Inclou si:**
+- preguntes_per_moment_MALL
+- 3_planols_cognitius_al_moment_despres
+- proposit_lectura_concret
+- pregunta_acarament_L1_L2_obligatoria (com a mínim 1)
+
+**Exclou explícitament:**
+- formulacio_exposadora_de_la_L1 ("digues-ho en la teva llengua" sense alternativa)
+
+**Raonament pedagògic.** TOLC (Cummins): la xarxa semàntica en L1 és la bastida conceptual més efectiva per a la comprensió en L2. Sense acarament, l'alumnat nouvingut llegeix sense ancoratge cognitiu. La formulació canònica és no-exposadora: "Si coneixes la paraula en una altra llengua, comparteix-ho si vols."
+
+### alumne_AACC_o_capacitat_alta
+
+**Inclou si:**
+- planol_critic_i_inferencial_prioritzat
+- preguntes_d_intencionalitat_autorial_i_intertextualitat (a B2-C1)
+
+**Exclou explícitament:**
+- saturacio_de_planol_literal (no superar 30% del total)
+
+**Raonament pedagògic.** Per a AACC, mantenir sostre alt: el sostre de 10 preguntes es manté, però la composició es desplaça cap a inferencial i crític (sostre alt sense techo artificial). La decisió fina la pren qui ensenya via la vàlvula humana al Pas 3.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -88,6 +137,57 @@ Aquesta rúbrica descriu les **preguntes que es generen per guiar la comprensió
 | **3. Moment "Després de llegir"** | 3 plànols cognitius | Literal: "Assenyala la imatge de [element del text]" o "Dibuixa [element]." Inferencial: "Per qué creus que...?" (oral, mediat). Crític: "Qué hauries fet tu?" (oral). | Literal: V/F senzill o omple buit amb llista tancada. Inferencial: inferència mínima connectada a evidència visual o mot clau del text ("Per qué creus que [element]? Mira [part del text]"). Crític: oral o dibuix ("T'ha agradat? Dibuixa com t'has sentit"). | Literal: ordenar seqüències, relacionar amb fletxes. Inferencial: causa literal al text ("Per qué...? Busca-ho al text"). Crític: "Qué hauria passat si [canvi]?" Resposta breu. | Literal: 1-2 frases, resposta explícita al text. Inferencial: deducció relacional ("Quin efecte té [causa]? Argumenta-ho"). Crític: postura justificada (literari: sentiments; informatiu: fiabilitat de les dades). | Literal: resum de 3-5 frases amb jerarquització. Inferencial: justificació + referència al text. Crític: argumentació oberta + avaluació de la fiabilitat. | Literal: síntesi estructurada jerarquitzada. Inferencial: relacions implícites complexes, ironia, subtext. Crític: judici sobre intencionalitat, contrast amb fonts alternatives. |
 | **4. Criteris transversals** | Format + modalitat + acarament | Consignes d'acció (mai V/F). Cap numeració: usar `-`. Cap etiqueta visible [Literal]. Màxim 6 consignes. | Mai V/F de frase complexa. Mai "copia i enganxa" (resposta copiable sense processament). Frases pregunta: màxim 10 paraules. Màxim 8 preguntes totals. LITERARI: "Qui és el personatge? Com se sent?" INFORMATIU: "Quina és la informació més important?" | Frases pregunta: màxim 12 paraules. Màxim 10 preguntes. LITERARI: pregunta afectiva. INFORMATIU: pregunta de precisió. Acarament L1 (si nouvingut): "Com es diu [terme clau] en la teva llengua?" | Frases pregunta: màxim 15 paraules. Màxim 10 preguntes. LITERARI: símbols i metàfores simples. INFORMATIU: jerarquitzar amb connectors. Acarament L1 (si nouvingut): "El text s'escriuria igual en la teva llengua?" | Màxim 10 preguntes. LITERARI: veu narrativa i intenció estètica. INFORMATIU: fiabilitat de les dades. Acarament L1 (si nouvingut): contrast d'argumentació entre català i L1. | Màxim 10 preguntes (prioritzar qualitat). LITERARI: intertextualitat i intencionalitat. INFORMATIU: contrast de fonts i biaix. Acarament L1 (si nouvingut): contrast metalingüístic i discursiu. |
 | **5. Autoavaluació mediada** | Metacognició | "He assenyalat les imatges que m'ha demanat el mestre." (oral, mediat per adult) | "He respost si és vertader o fals. He omplert els buits." | "He ordenat les idees. He trobat la idea principal." | "He deduït informació que no estava explícita al text. He fet una hipòtesi durant la lectura." | "He argumentat les meves respostes amb referències al text. He avaluat si les dades eren fiables." | "He analitzat la intencionalitat de l'autor i he qüestionat les seves afirmacions. He contrastat amb el que ja sabia." |
+
+## Casos especials
+
+### pre_A1_fase_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora_in: [logografica]
+
+**Modulació:**
+- sostre_max_preguntes: 6
+- format: consignes_accio_oral (assenyalar, dibuixar, dramatitzar, dictat a l'adult)
+- escriptura_autonoma: false
+- planol_critic: oral_mediat ("Què hauries fet tu?")
+- prohibit: V/F, omplir buits, numeració
+
+**Raonament pedagògic.** A la fase logogràfica l'alumne encara no descodifica autònomament; les "preguntes" han de ser accions observables mediades per l'adult. Els 3 plànols cognitius són accessibles oralment des d'infantil (MALL); el repte cognitiu no requereix producció escrita.
+
+### pre_A1_fase_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora_in: [alfabetica_emergent]
+
+**Modulació:**
+- sostre_max_preguntes: 6
+- format: consigna_escrita_simple_resposta_1_2_paraules
+- escriptura_autonoma: minima
+- prohibit: V/F de frase complexa, copia-i-enganxa
+
+**Raonament pedagògic.** L'alumne comença a descodificar però la càrrega cognitiva de l'escriptura encara saturaria el processament del text; mantenim la resposta breu per protegir la comprensió.
+
+### nouvingut_L1_acarament_obligatori
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [A1, A2, B1, B2, C1]
+
+**Modulació:**
+- acarament_L1_obligatori: true
+- marcador_inline: [ACARAMENT_L1]
+- formulacio_no_exposadora: "Si coneixes la paraula en una altra llengua, comparteix-ho si vols"
+- progressio: A1-A2 traducció de terme clau; B1 contrast d'escriptura/estructura; B2 contrast d'argumentació; C1 contrast metalingüístic i discursiu
+
+**Raonament pedagògic.** TOLC (Cummins): la xarxa semàntica en L1 és la bastida conceptual més efectiva per a la comprensió en L2; sense acarament, l'alumnat nouvingut llegeix sense ancoratge cognitiu. La formulació no-exposadora respecta l'agència de l'alumne.
+
+### coexistencia_amb_bastides_lectura
+
+**Trigger:** complement_actiu: bastides-lectura == true
+
+**Modulació:**
+- dedup_cross_source: true
+- prioritat: preguntes_comprensio guanya
+- accio_si_solapament: replanteja o elimina la pregunta duplicada
+- separacio_funcional: bastida = procediment (com llegir), pregunta = contingut (què entendre)
+
+**Raonament pedagògic.** Si els dos complements repeteixen el mateix ítem, l'alumne percep redundància i baixa l'engagement; la bastida ja resol el "com", les preguntes han de centrar-se en el "què" i el "per què". Patró cross_source intra-pipeline confirmat al corpus-spec v2.7.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -129,6 +229,42 @@ La primera pregunta après d'un text literari és sempre afectiva: "Com t'has se
 
 **H5 — L'acarament L1↔L2 no és opcional per a nouvinguts.**
 Quan treballo amb alumnat nouvingut, la pregunta d'acarament de llengues no és un extra: és la bastida conceptual més efectiva. "Com es diu [terme clau] en la teva llengua?" activa la xarxa semàntica en L1 i transfereix la comprensió cap al català. La consigna no exposa: "Si coneixes la paraula en una altra llengua, comparteix-ho si vols."
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Preguntes de comprensió
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Abans de llegir
+### Durant la lectura
+### Després de llegir
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+Dins de "### Després de llegir" els 3 plànols cognitius (literal, inferencial, crític) s'integren com a preguntes successives SENSE etiquetes visibles ni numeració.
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[ACARAMENT_L1]   <!-- només si nouvingut_L1: true, marca la pregunta d'acarament L1↔L2 -->
+```
+
+**Headers explícitament PROHIBITS:**
+```
+### Literal
+### Inferencial
+### Crític
+### 1. Abans
+### 2. Durant
+### 3. Després
+```
+
+**Regla d'integritat estructural.** Sense els 3 H3 literals dins de `## Preguntes de comprensió`, el parser de pas3.html no segmenta els moments MALL. Etiquetes visibles `[Literal]`/`[Inferencial]`/`[Crític]` i numeració `1.`/`2.`/`3.` estan prohibides: trenquen la lectura activa (l'alumne no ha de saber el "tipus" de pregunta per respondre-la).
 
 ## Fonts principals
 

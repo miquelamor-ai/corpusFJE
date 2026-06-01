@@ -46,6 +46,14 @@ El text divulgatiu explica continguts científics o tècnics de manera **narrati
 Aquesta rúbrica descriu el **text divulgatiu adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera un text divulgatiu complet (títol + entradeta + 2-7 paràgrafs narrativitzats segons MECR) que expliqui un fenomen científic o tècnic via la cadena causa-efecte-implicació, amb xifres arrodonides i, a partir de B1, cites atribuïdes.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si el contingut està efectivament narrativitzat (vs llista de fets encoberta) ni jutja l'adequació de l'entradeta a l'alumne concret; aplica els llindars estructurals del MECR objectiu i delega el judici pedagògic al docent.
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a text divulgatiu):
@@ -88,6 +96,48 @@ Aquesta rúbrica descriu el **text divulgatiu adaptat per a la LECTURA** de l'al
 |  | Fidelitat al text font | Fidelitat al fenomen principal i a la relació causal bàsica. | Fidelitat al fenomen, a la relació causal i a l'entradeta captadora. | Fidelitat al fenomen, a la relació causal i al to divulgatiu del text original. | Fidelitat al fenomen, a les dades, al context i al to. | Fidelitat a la complexitat causal del text original, incloent matisos i controvèrsies. |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit un títol clar i una frase d'introducció. He explicat el tema en 2-3 paràgrafs curts." | "He escrit una entradeta que capta l'atenció. He explicat el tema amb exemples quotidians." | "He narrativitzat el contingut (no he fet una llista de fets). He posat una cita amb nom de l'expert." | "He relacionat causes i efectes del fenomen. He usat dades estadístiques amb la font." | "He presentat el tema des de diverses perspectives i he inclòs el context científic ampli." |
 
+## Casos especials
+
+### fase_lectora_alfabetica_emergent_A1
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- max_paragrafs: 2
+- max_frases_per_paragraf: 2
+- entradeta_obligatoria: 1 frase
+- cites: prohibides
+- tecnicismes: sense, o amb explicació immediata entre parèntesis
+- xifres: arrodonides molt simples
+
+**Raonament pedagògic.** A A1 amb fase lectora encara emergent, la descodificació consumeix recursos i no es pot demanar la càrrega causal d'un text llarg. Reduir paràgrafs i frases manté la narrativització mínima (causa→efecte) sense saturar el lector (Cummins BICS→CALP, MALL).
+
+### fase_lectora_alfabetica_fluida_A1
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_fluida
+
+**Modulació:**
+- max_paragrafs: 3
+- frases_per_paragraf: 2-3
+- entradeta_obligatoria: 1 frase
+- cites: prohibides
+- tecnicismes: amb explicació immediata
+- xifres: arrodonides simples
+
+**Raonament pedagògic.** Amb fase lectora fluïda dins d'A1, l'alumne pot sostenir un paràgraf més i una mica més de densitat per frase, però encara no està preparat per a cites atribuïdes (Pas 5 prohibit). La narrativització causal es manté com a tret definitori del gènere.
+
+### B2_plus_HCL_justificar
+
+**Trigger:** mecr_in: [B2, C1]
+
+**Modulació:**
+- afegeix_HCL_secundari: Justificar
+- cites_minimes: 2
+- atribucio_completa_obligatoria: nom + càrrec/institució
+- contrast_perspectives_si_aplica: true
+
+**Raonament pedagògic.** A B2+ l'HCL Justificar s'activa com a HCL secundària: el text divulgatiu deixa de ser només explicació per esdevenir també argumentació amb evidència atribuïda. Les cites múltiples i el contrast de perspectives ensenyen a diferenciar informació de font, principi bàsic del pensament crític científic.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -128,6 +178,38 @@ Per a cada paràgraf del cos, proposo l'esquema: "PER QUÈ passa X? COM passa X?
 
 **H4 — Arrodonir sempre, contextualitzar sempre.**
 Cada xifra necessita dues operacions: (1) arrodonir fins a un número significatiu ("gairebé dos milions" en lloc de "1.983.421"); (2) contextualitzar amb una comparació familiar ("el doble de la població de Catalunya"). Sense contextualització, la xifra no construeix comprensió.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Text divulgatiu
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap (el text divulgatiu és prosa contígua: títol + entradeta + paràgrafs narrativitzats, sense H3 propis; els 8 passos de la rúbrica són dimensions d'avaluació, no headers de sortida)
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Títol
+## Entradeta
+## Cos
+## Paràgrafs
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Text divulgatiu` i el cos com a prosa contígua (títol + entradeta + paràgrafs ordenats per la cadena causa→efecte→implicació), el parser de pas3.html no detecta el bloc de lectura i la rúbrica 8×5 no es pot ancorar al text per a l'autoavaluació metacognitiva del Pas 8.
 
 ## Fonts principals
 

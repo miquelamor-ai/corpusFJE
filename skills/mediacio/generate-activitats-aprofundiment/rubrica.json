@@ -1,0 +1,415 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_activitats_aprofundiment",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-activitats-aprofundiment\\M3_instrument-generar-activitats-aprofundiment.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-activitats-aprofundiment",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "activitats_aprofundiment",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_quantitat_i_varietat",
+          "descriptor": "1-2 activitats físiques o manipulatives. Una sola consigna visual."
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_pensament",
+          "descriptor": "Manipulatiu: ordenar, tocar, moure, dramatitzar, dibuixar. No requereix abstracció lingüística."
+        },
+        {
+          "pas_id": "pas_3_producte_esperat_explicit",
+          "descriptor": "Indicació física i visual: \"Ordena les imatges de [X] a [Y].\" Producte: dibuix, ordenació, dramatització. Cap escriptura autònoma."
+        },
+        {
+          "pas_id": "pas_4_us_de_l1",
+          "descriptor": "No generar."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He ordenat les imatges / he dibuixat.\" (oral, mediat per adult)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_quantitat_i_varietat",
+          "descriptor": "2 activitats concretes i visuals. Evitar debats abstractes."
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_pensament",
+          "descriptor": "Concret i visual. Màxim ancoratge en objectes o experiències familiars. Comparació simple."
+        },
+        {
+          "pas_id": "pas_3_producte_esperat_explicit",
+          "descriptor": "Consigna molt concreta. Producte clar i assolible: 1 dibuix, 1 frase, 1 llista de 3 ítems."
+        },
+        {
+          "pas_id": "pas_4_us_de_l1",
+          "descriptor": "No generar."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He fet l'activitat. He escrit [producte].\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_quantitat_i_varietat",
+          "descriptor": "2-3 activitats. Combinació de connexió i \"i si...?\"."
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_pensament",
+          "descriptor": "Comparable i imaginatiu. \"Com és X aquí vs. allà?\" · \"Qué passaria si...?\"."
+        },
+        {
+          "pas_id": "pas_3_producte_esperat_explicit",
+          "descriptor": "Consigna accionable. Producte concret i delimitat: 1 fitxa, 1 mapa, 1 comparació de 3 elements."
+        },
+        {
+          "pas_id": "pas_4_us_de_l1",
+          "descriptor": "Opcional: \"Com es diu [terme clau] en altres llengues de l'aula? Comparteix-ho si vols.\" Cap exposició."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He pensat més enllà del text. He fet la connexió o el 'i si...?'.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_quantitat_i_varietat",
+          "descriptor": "2-3 activitats. Combinació de debat, connexió interdisciplinar i recerca guiada."
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_pensament",
+          "descriptor": "Argumentatiu. Pren posicions i les justifica. Discrimina evidència de creença o opinió."
+        },
+        {
+          "pas_id": "pas_3_producte_esperat_explicit",
+          "descriptor": "Consigna accionable amb producte i temps estimat (15-30 min): 1 argument escrit, 1 recerca a 2 fonts."
+        },
+        {
+          "pas_id": "pas_4_us_de_l1",
+          "descriptor": "Opcional: comparació d'expressions o conceptes entre L1s dels alumnes si el text ho permet."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He argumentat la meva postura i he usat evidència del text o d'una altra font.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_quantitat_i_varietat",
+          "descriptor": "2-3 activitats. Connexió entre matèries, contrast de fonts, intertextualitat."
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_pensament",
+          "descriptor": "Analític. Contrastiu. Cerca relacions no evidents entre idees o camps disciplinars."
+        },
+        {
+          "pas_id": "pas_3_producte_esperat_explicit",
+          "descriptor": "Consigna amb producte complex: argumentació de 2-3 paràgrafs, recerca comparada, informe breu.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_4_us_de_l1",
+          "descriptor": "Opcional: contrast d'equivalents culturals o termes tècnics entre les llengues que coneixes."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He analitzat les relacions entre matèries i he contrastat informació de fonts diverses.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_quantitat_i_varietat",
+          "descriptor": "2-3 activitats. Reflexió crítica, hipòtesis contrafactuals, fonts contradictòries."
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_pensament",
+          "descriptor": "Crític. Metacognitiu. Detecta biaixos, dilemes ètics, limitacions del coneixement i de les fonts."
+        },
+        {
+          "pas_id": "pas_3_producte_esperat_explicit",
+          "descriptor": "Consigna oberta amb criteris de qualitat del producte. L'alumne decideix el format i justifica la tria."
+        },
+        {
+          "pas_id": "pas_4_us_de_l1",
+          "descriptor": "Opcional: contrast metalingüístic i discursiu entre sistemes lingüístics i culturals."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He detectat biaixos i limitacions del text. He qüestionat les afirmacions de l'autor amb arguments propis. He justificat la tria del format del meu producte segons l'objectiu de l'activitat.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_quantitat_i_varietat",
+      "titol": "Nombre i tipologia",
+      "dimensio": "Quantitat i varietat",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "countable: 1-2 activitats pre-A1/A1; 2-3 activitats A2+; qualitative: LLM-jutge sobre si les activitats son extensió cognitiva post-lectura (positiu) o preguntes de comprensió literal disfressades (negatiu — error crític)"
+    },
+    {
+      "id": "pas_2_profunditat_de_pensament",
+      "titol": "Nivell cognitiu (Bloom)",
+      "dimensio": "Profunditat de pensament",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si el nivell cognitiu demanat correspon al MECR declarat (ordenar/manipular pre-A1; argumentar B1+; detectar biaix C1); cross_source: verificar que el repte és sobre el contingut del text font (no sobre coneixements aliens)"
+    },
+    {
+      "id": "pas_3_producte_esperat_explicit",
+      "titol": "Format de consigna",
+      "dimensio": "Producte esperat explícit",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de producte esperat explícit a la consigna (QUÈ cal fer + QUIN és el producte); qualitative: LLM-jutge sobre si la consigna és accionable o vaga (\"investiga sobre X\" sense producte = negatiu)"
+    },
+    {
+      "id": "pas_4_us_de_l1",
+      "titol": "Dimensió plurilingüe",
+      "dimensio": "Ús de L1 com a recurs",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: si present, verificar que la consigna inclou clàusula de voluntarietat (\"si vols\", \"si en coneixes\") detectada per regex; qualitative: LLM-jutge sobre la profunditat del contrast metalingüístic a B2-C1 (contrast d'equivalents culturals vs. simple traducció); si perfil nouvingut actiu i MECR A2+, marcar com a gap si absent (no error crític)"
+    },
+    {
+      "id": "pas_5_metacognicio",
+      "titol": "Autoavaluació mediada",
+      "dimensio": "Metacognició",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: registre docent d'observació oral; A1+: derivar a vista d'autoavaluació de l'alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera 2-3 activitats d'aprofundiment cognitiu post-lectura (1-2 a pre-A1/A1) que vagin MÉS ENLLÀ del text: connectar, qüestionar, investigar, argumentar o crear. Cada activitat ha de tenir consigna accionable amb producte explícit (QUÈ cal fer + QUIN és el producte). NO incloguis preguntes de comprensió literal (pertany a `preguntes_comprensio`) ni bastides de producció textual del gènere (pertany a `bastides_produccio`/`plantilles_genere`).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de jutjar la rellevància pedagògica final de cada activitat per a l'alumne concret ni decidir si l'alumne està a punt per al repte. Tampoc decideix si el text font realment connecta amb una matèria interdisciplinar concreta. Aquestes decisions són del docent (esborra o regenera via menú flotant); el LLM només garanteix forma operativa: extensió cognitiva real, consigna amb producte, modulació per MECR."
+  },
+  "regla_seleccio_per_perfil": {
+    "default": {
+      "inclou_si": [
+        "2"
+      ],
+      "exclou_explicitament": [
+        "p"
+      ],
+      "raonament": "El principi MALL de repte igualitari demana extensió cognitiva real, no més preguntes de comprensió ni consignes vagues que no es puguin tancar amb un producte observable."
+    },
+    "pre_A1_A1": {
+      "inclou_si": [
+        "1"
+      ],
+      "exclou_explicitament": [
+        "d"
+      ],
+      "raonament": "A pre-A1/A1 el repte cognitiu es manté equivalent però accedit per via física o manipulativa (MALL — adaptar l'accés, no el repte). L'escriptura autònoma encara no és canal disponible."
+    },
+    "A2": {
+      "inclou_si": [
+        "2"
+      ],
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "A A2 l'alumne ja pot comparar i imaginar a partir de referents concrets; la dimensió plurilingüe entra com a recurs cognitiu opcional (translanguaging MALL)."
+    },
+    "B1_B2_C1": {
+      "inclou_si": [
+        "2"
+      ],
+      "exclou_explicitament": [
+        "a"
+      ],
+      "raonament": "A partir de B1 l'alumne sosté argumentació i recerca; a B2-C1 cal afegir contrast crític i metacognició perquè el repte continuï essent significatiu."
+    },
+    "nouvingut_L1_A2_plus": {
+      "inclou_si": [
+        "u"
+      ],
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "Cummins (TOLC) i el principi MALL de translanguaging: l'L1 és recurs cognitiu, no concessió. Si l'alumne és nouvingut i el MECR ho permet, l'absència de dimensió plurilingüe es marca com a gap (no error crític)."
+    },
+    "AACC": {
+      "inclou_si": [
+        "a"
+      ],
+      "exclou_explicitament": [
+        "a"
+      ],
+      "raonament": "L'alumnat AACC necessita repte cognitiu superior per evitar desconnexió; el format obert amb criteris de qualitat permet a qui ensenya observar la profunditat real del pensament."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_activitats_d",
+      "description": "Ha activat \"Activitats d'aprofundiment\" al Pas 2."
+    },
+    {
+      "name": "vol_que_l_alumne",
+      "description": "Vol que l'alumne vagi més enllà del text: connectar, crear, qüestionar, investigar."
+    },
+    {
+      "name": "la_unitat_treballa_pensament",
+      "description": "La unitat treballa pensament crític o dimensió interdisciplinar."
+    },
+    {
+      "name": "hi_ha_alumnat_amb",
+      "description": "Hi ha alumnat amb AACC o perfil alta capacitat no diagnosticat que acaba molt aviat."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "l_alumne_no_ha",
+      "description": "L'alumne no ha comprès el text → `preguntes_comprensio` primer."
+    },
+    {
+      "name": "l_objectiu_es_produir",
+      "description": "L'objectiu és produir un text del gènere → `bastides_produccio` o `plantilles_genere`."
+    },
+    {
+      "name": "l_objectiu_es_un",
+      "description": "L'objectiu és un debat estructurat amb rols → `cartes_conversacionals`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La prova del \"mes del mateix\".",
+      "descripcio": "Llegeixo les activitats i em pregunto: \"Son preguntes de comprensió formulades diferent?\" Si la resposta pot trobar-se copiada del text, no son activitats d'aprofundiment. Les activitats d'aprofundiment requereixen que l'alumne generi nova informació, connexions o arguments que no estan al text."
+    },
+    {
+      "id": "H2",
+      "titol": "La consigna amb producte (l'antídot a la vaguetat).",
+      "descripcio": "Una consigna bona té dos components: QUÈ cal fer (\"compara\", \"argumenta\", \"busca\", \"ordena\") i QUIN és el producte (\"escriu 1 frase\", \"dibuixa un mapa\", \"prepara 2 arguments\"). \"Investiga sobre X\" falla perquè no diu el producte. \"Busca 2 exemples de X al teu entorn i explica en 1 frase per qué encaixen\" és accionable."
+    },
+    {
+      "id": "H3",
+      "titol": "El repte cognitiu per a pre-A1 (Repte igualitari).",
+      "descripcio": "La pregunta \"Qué li passarà a [personatge] si fa X?\" és pensament crític. L'alumne pre-A1 pot respondre assenyalant la imatge correcta, dramatitzant o dibuixant el resultat. El repte cognitiu no depèn de la producció escrita. Davant de pre-A1, em pregunto: \"Quin producte físic o visual demostra que ha pensat?\""
+    },
+    {
+      "id": "H4",
+      "titol": "La dimensió plurilingüe com a pont, no com a expositor.",
+      "descripcio": "Quan proposo la dimensió plurilingüe, uso sempre la clàusula de voluntarietat: \"Si coneixes la paraula en una altra llengua, comparteix-ho si vols.\" Mai \"Com es diu en X?\" (assumpció de llengua) ni \"Qui sap com es diu en X?\" (exposició pública). La voluntarietat no és opcional: és la condició per a un espai segur."
+    },
+    {
+      "id": "H5",
+      "titol": "2-3 activitats, no 5-6.",
+      "descripcio": "El principi MALL de \"menys és mes\" s'aplica també a les activitats d'aprofundiment. Prefereixo 2 activitats de qualitat cognitiva alta (que l'alumne ha de pensar de debò) que 5 activitats mecàniques. Si l'activitat pot completar-se en menys d'1 minut sense pensar, cal replantejar-la."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_fase_logografica": {
+      "trigger": {
+        "raw": "pre_A1_fase_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica\n\n**Modulació:**\n- nombre_activitats: 1-2\n- tipus_obligatori: fisic_manipulatiu (ordenar, tocar, moure, dramatitzar)\n- escriptura_autonoma: prohibida\n- producte_acceptat: [dibuix, ordenacio, dramatitzacio, assenyalament_imatge]\n- dimensio_plurilingue: no_generar\n- autoavaluacio: oral_mediada_per_adult\n\n**Raonament pedagògic.** El repte cognitiu no depèn de la producció escrita (principi MALL de repte igualitari): a fase logogràfica l'al"
+      }
+    },
+    "pre_a1_alfabetica_emergent": {
+      "trigger": {
+        "raw": "pre_A1_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- nombre_activitats: 1-2\n- tipus_obligatori: fisic_manipulatiu + dibuix\n- escriptura_autonoma: màxim 1-2 paraules\n- producte_acceptat: [dibuix, ordenacio, 1-2 paraules etiqueta]\n- dimensio_plurilingue: no_generar\n\n**Raonament pedagògic.** Ampliació gradual del canal escrit sense perdre la mediació visual; l'alumne incorpora la grafia com a etiqueta del producte físic, no com a canal principal."
+      }
+    },
+    "nouvingut_l1_mecr_a2_plus": {
+      "trigger": {
+        "raw": "nouvingut_L1_MECR_A2_plus"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND mecr_in: [A2, B1, B2, C1]\n\n**Modulació:**\n- dimensio_plurilingue: marcar_com_a_gap_si_absent (no error crític)\n- clausula_voluntarietat: obligatòria literal (\"si vols\" o \"si en coneixes\")\n- mai_prescriptiva: prohibit \"com es diu en X?\"\n\n**Raonament pedagògic.** Cummins (TOLC) i translanguaging MALL: l'L1 és recurs cognitiu i la consigna no ha d'exposar mai cap alumne. La voluntarietat és la condició d'espai segur."
+      }
+    },
+    "aacc": {
+      "trigger": {
+        "raw": "AACC"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc: true\n\n**Modulació:**\n- tipus_prioritari: [pensament_critic_hipotesis_contrafactuals, recerca_guiada_fonts_contradictories, debat_argumentat]\n- nivell_bloom: pujar 1 esglaó respecte MECR base\n- producte: obert amb criteris de qualitat\n\n**Raonament pedagògic.** L'alumnat AACC necessita repte cognitiu superior per evitar desconnexió; el format obert permet que la profunditat es manifesti sense sostre artificial."
+      }
+    },
+    "dua_acces": {
+      "trigger": {
+        "raw": "DUA_acces"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces\n\n**Modulació:**\n- format_producte: multimodal obligatori (dibuix, gravació oral, esquema visual com a alternatives a escriure)\n- densitat_consigna: 1 sola consigna per activitat (no encadenar passos)\n- ancoratge_visual: explícit\n\n**Raonament pedagògic.** El principi DUA d'accés prioritza vies múltiples d'expressió i representació; el repte cognitiu es manté, el canal es diversifica."
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

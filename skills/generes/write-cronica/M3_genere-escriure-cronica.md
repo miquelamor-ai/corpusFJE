@@ -46,6 +46,14 @@ La crònica és una narració testimonial d'un esdeveniment real des de la persp
 Aquesta rúbrica descriu la **crònica adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de seleccio simple.** Adapta o genera una crònica fidel al text font (si n'hi ha) que respecti els 7 descriptors de la rúbrica per al nivell MECR objectiu: marcadors temporals explícits, perspectiva del cronista en primera persona consistent, moments ordenats cronològicament, descripcions sensorials, separació neta entre fets i valoració final, connectors variats sense especulació sobre tercers, i fidelitat al text font.
+
+**Limits del LLM (no judici qualitatiu complex).** El LLM no decideix la rellevància pedagògica del text font ni si l'event mereix ser cronicat ni el grau de profunditat crítica que ha d'assolir l'alumne; només aplica els descriptors literals del nivell MECR. La idoneïtat de l'event, la selecció del text font i l'avaluació de la producció real de l'alumne es deleguen al docent.
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a crònica):
@@ -87,6 +95,23 @@ Aquesta rúbrica descriu la **crònica adaptada per a la LECTURA** de l'alumne. 
 |  | Fidelitat al text font | Fidelitat als fets principals i a la perspectiva testimonial bàsica. | Fidelitat als fets, a la perspectiva i a la valoració essencial. | Fidelitat als fets, a la perspectiva, a la valoració i al to testimonial. | Fidelitat als fets, a la perspectiva, a la valoració i al context. | Fidelitat a la complexitat experiencial del text original, incloent matisos i contradiccions. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He explicat 3-4 moments en ordre. He dit qué vaig veure." | "He usat marcadors de temps. He dit com em vaig sentir." | "He separat els fets de la meva opinió. He descrit cada moment de forma sensorial." | "He escrit una valoració argumentada al final que connecta l'experiència amb el context." | "He analitzat l'impacte de l'event des de la meva perspectiva crítica." |
 
+## Casos especials
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [A1] AND fase_lectora: alfabetica_emergent
+
+**Modulacio:**
+- max_paraules_per_frase: 8-10
+- marcadors_temporals_per_moment: 1 (sempre en negreta a inici de paràgraf)
+- persona_narrativa: primera persona plural exclusiva ("vam veure", "vam anar")
+- max_moments: 3-4
+- valoracio_final: OFF (no requerida en aquesta fase)
+- connectors_basics_obligatoris: ["primer", "després", "al final"]
+- reforc_visual_marcador_temporal: negreta obligatòria
+
+**Raonament pedagogic.** En fase alfabètica emergent, l'alumne està consolidant la descodificació; la càrrega cognitiva no permet processar frases llargues ni varietat de connectors. La primera persona plural ("vam") protegeix l'alumne de l'exposició individual i alinea la veu del cronista amb l'experiència compartida del grup (sortida, excursió). Limitar a 3-4 moments amb un únic marcador temporal en negreta per moment fa visible l'estructura cronològica com a bastida lectora. La valoració final s'aparca: a aquest nivell, distingir fets/valoració per escrit excedeix la zona de desenvolupament pròxim, encara que oralment ja sigui treballable (Cummins; MALL).
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -126,6 +151,40 @@ La valoració final diferencia la crònica del simple relat. La pregunta generad
 
 **H4 — No especular sobre els altres.**
 Quan l'alumne escriu "la meva amiga estava trista" o "el professor pensava que...", pregunto: "Ho vas veure tu directament?" Si la resposta és "no, ho imagino", cal canviar a descripció observable: "la meva amiga callava" o "el professor va dir que...". La regla: només el que el cronista ha vist, sentit o escoltat directament.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+no aplica (la sortida és el cos de la crònica sense header H2 propi: comença amb H1 del títol)
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap (la crònica no s'estructura amb H3; es vertebra per paràgrafs amb marcador temporal en negreta a l'inici)
+```
+
+**Bullets / moments interns** (si aplica — NO son H3 propis):
+```
+no aplica (els moments són paràgrafs encapçalats per marcador temporal en negreta, no bullets)
+```
+
+**Marcadors inline obligatoris** (a inici de cada paràgraf de moment):
+```
+**{{marcador_temporal}}**   <!-- p.e. **A les 11**, **De sobte**, **Al final** -->
+```
+
+**Headers explicitament PROHIBITS:**
+```
+## Fets
+## Valoració
+## Moments
+### Introducció
+### Desenvolupament
+### Conclusió
+```
+
+**Regla d'integritat estructural.** La sortida és H1 amb el títol de la crònica, paràgrafs amb marcador temporal en negreta a l'inici de cada moment, i un paràgraf final de valoració separat sense header propi (a partir d'A2). No s'introdueixen H2 ni H3 dins del text: la cohesió la donen els marcadors temporals en negreta i el salt de paràgraf abans de la valoració. Si el LLM afegeix headers, el frontend perd la lectura lineal del relat testimonial i la separació fets/valoració queda desdibuixada.
 
 ## Fonts principals
 

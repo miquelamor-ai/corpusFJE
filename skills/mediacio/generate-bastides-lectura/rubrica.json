@@ -1,0 +1,646 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_bastides_lectura",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-bastides-lectura\\M3_instrument-generar-bastides-lectura.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-bastides-lectura",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "bastides",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_de_previs",
+          "descriptor": "L'adult activa amb una imatge: \"Què veus aquí?\". L'alumne assenyala o anomena."
+        },
+        {
+          "pas_id": "pas_1_proposit_de_lectura",
+          "descriptor": "Propòsit oral de l'adult: \"Anem a saber què passa amb [X]\"."
+        },
+        {
+          "pas_id": "pas_2_modalitat_lectora",
+          "descriptor": "L'adult llegeix en veu alta. L'alumne assenyala, dramatitza o dibuixa el que entén. **Zero lectura autònoma.**"
+        },
+        {
+          "pas_id": "pas_3_planol_literal_resum",
+          "descriptor": "Dibuixar el que ha après. Dictat oral a l'adult. Ordenació d'imatges."
+        },
+        {
+          "pas_id": "pas_3_autoregulacio_metacognicio",
+          "descriptor": "\"He fet el que m'ha dit el mestre.\" (registre oral/gestual de l'adult)."
+        },
+        {
+          "pas_id": "pas_4_volum_maxim_per",
+          "descriptor": "1-2 accions gestuals/orals per moment."
+        },
+        {
+          "pas_id": "pas_4_no_duplicar_preguntes",
+          "descriptor": "Les bastides donen el procediment; les preguntes detallades són del complement `preguntes_comprensio`."
+        },
+        {
+          "pas_id": "pas_4_especificitat_del_proposit",
+          "descriptor": "Propòsit referit a una imatge o paraula concreta del text."
+        },
+        {
+          "pas_id": "pas_4_format_obligatori",
+          "descriptor": "Secció `## Suports de lectura` + 3 subseccions (Abans/Durant/Després)."
+        },
+        {
+          "pas_id": "pas_5_reflexio_en_primera",
+          "descriptor": "*(via adult)* \"He assenyalat el que m'ha demanat el mestre.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_de_previs",
+          "descriptor": "1 pregunta d'activació de previs en frase simple (\"Què saps de [tema]?\")."
+        },
+        {
+          "pas_id": "pas_1_proposit_de_lectura",
+          "descriptor": "Propòsit explícit i concret: \"Llegeix per saber [una cosa concreta]\"."
+        },
+        {
+          "pas_id": "pas_1_hipotesi_previa",
+          "descriptor": "Predicció pel títol: \"De què creus que parlarà?\". 1 paraula o frase mínima."
+        },
+        {
+          "pas_id": "pas_2_modalitat_lectora",
+          "descriptor": "Lectura mediada per l'adult; l'alumne segueix amb el dit. Subratlla 1 mot clau per paràgraf."
+        },
+        {
+          "pas_id": "pas_3_planol_literal_resum",
+          "descriptor": "**Frase-buit** literal d'un sol buit: \"El text parla de ___\"."
+        },
+        {
+          "pas_id": "pas_3_autoregulacio_metacognicio",
+          "descriptor": "\"He llegit el text amb el mestre i he marcat la paraula difícil.\""
+        },
+        {
+          "pas_id": "pas_4_volum_maxim_per",
+          "descriptor": "Màxim 3 ítems per moment."
+        },
+        {
+          "pas_id": "pas_4_no_duplicar_preguntes",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_especificitat_del_proposit",
+          "descriptor": "Propòsit específic del text actual, no genèric."
+        },
+        {
+          "pas_id": "pas_4_format_obligatori",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_reflexio_en_primera",
+          "descriptor": "\"He marcat una paraula important. He completat la frase-buit del resum.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_de_previs",
+          "descriptor": "2 preguntes d'activació + ancoratge a una experiència concreta."
+        },
+        {
+          "pas_id": "pas_1_proposit_de_lectura",
+          "descriptor": "+ propòsit operatiu amb verb d'acció: \"Llegeix per identificar [X]\"."
+        },
+        {
+          "pas_id": "pas_1_hipotesi_previa",
+          "descriptor": "Predicció breu escrita: \"Crec que el text dirà…\"."
+        },
+        {
+          "pas_id": "pas_2_modalitat_lectora",
+          "descriptor": "Lectura autònoma possible. Marca ✓ (entès) / ? (dubte) / ! (important) al marge."
+        },
+        {
+          "pas_id": "pas_3_planol_literal_resum",
+          "descriptor": "Resum breu de 2-3 frases sobre què tracta el text.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_planol_inferencial",
+          "descriptor": "1 pregunta inferencial guiada: \"Per què creus que…?\"."
+        },
+        {
+          "pas_id": "pas_3_autoregulacio_metacognicio",
+          "descriptor": "\"He llegit i he marcat ✓/? / !. He fet el resum.\""
+        },
+        {
+          "pas_id": "pas_4_volum_maxim_per",
+          "descriptor": "Màxim 3 ítems per moment."
+        },
+        {
+          "pas_id": "pas_4_no_duplicar_preguntes",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_especificitat_del_proposit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_format_obligatori",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_reflexio_en_primera",
+          "descriptor": "\"He marcat ✓/? /! mentre llegia. He escrit de què tracta el text.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_de_previs",
+          "descriptor": "Activació + predicció pel títol o imatge inicial."
+        },
+        {
+          "pas_id": "pas_1_proposit_de_lectura",
+          "descriptor": "+ propòsit jeràrquic: \"Llegeix per distingir el fet principal del context\"."
+        },
+        {
+          "pas_id": "pas_1_hipotesi_previa",
+          "descriptor": "Hipòtesi pròpia formulada per escrit: \"Hipòtesi: ___. Per què: ___\"."
+        },
+        {
+          "pas_id": "pas_2_modalitat_lectora",
+          "descriptor": "Lectura autònoma. Notes marginals breus (1-3 paraules per marca).",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_hipotesi_en_curs",
+          "descriptor": "**Pausa obligatòria** marcada al text (símbol ⏸ o instrucció \"Atura't aquí\") on l'alumne escriu hipòtesi en curs: \"Fins aquí, crec que el text dirà que…\"."
+        },
+        {
+          "pas_id": "pas_3_planol_literal_resum",
+          "descriptor": "Resum estructurat de 3-4 frases (idea principal + 2 secundàries).",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_planol_inferencial",
+          "descriptor": "Inferència explícita: \"Quin era l'objectiu de l'autor?\" + \"Què queda implícit?\"."
+        },
+        {
+          "pas_id": "pas_3_planol_critic_valoracio",
+          "descriptor": "Valoració simple: \"Estàs d'acord amb el que diu el text? Per què?\"."
+        },
+        {
+          "pas_id": "pas_3_autoregulacio_metacognicio",
+          "descriptor": "\"He revisat si la meva hipòtesi inicial era correcta o no.\""
+        },
+        {
+          "pas_id": "pas_4_volum_maxim_per",
+          "descriptor": "Màxim 3 ítems per moment."
+        },
+        {
+          "pas_id": "pas_4_no_duplicar_preguntes",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_especificitat_del_proposit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_format_obligatori",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_reflexio_en_primera",
+          "descriptor": "\"He fet una hipòtesi abans de llegir. He comprovat si era correcta.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_de_previs",
+          "descriptor": "+ identificació del gènere i de l'autor/font."
+        },
+        {
+          "pas_id": "pas_1_proposit_de_lectura",
+          "descriptor": "+ propòsit avaluatiu: \"Llegeix per avaluar la fiabilitat de les dades\"."
+        },
+        {
+          "pas_id": "pas_1_hipotesi_previa",
+          "descriptor": "+ identificació del posicionament inicial probable de l'autor."
+        },
+        {
+          "pas_id": "pas_2_modalitat_lectora",
+          "descriptor": "+ identificació explícita del posicionament de l'autor al marge."
+        },
+        {
+          "pas_id": "pas_2_hipotesi_en_curs",
+          "descriptor": "+ a la mateixa pausa, **revisió explícita** de la hipòtesi inicial: \"La meva hipòtesi era X, ara crec Y, per què…\"."
+        },
+        {
+          "pas_id": "pas_3_planol_literal_resum",
+          "descriptor": "Resum amb jerarquització explícita (titular + cos)."
+        },
+        {
+          "pas_id": "pas_3_planol_inferencial",
+          "descriptor": "+ detecció de pressuposicions i seleccions narratives no explícites."
+        },
+        {
+          "pas_id": "pas_3_planol_critic_valoracio",
+          "descriptor": "Avaluació de fiabilitat: \"Fins a quin punt és objectiu l'autor? Quines proves dóna?\"."
+        },
+        {
+          "pas_id": "pas_3_autoregulacio_metacognicio",
+          "descriptor": "\"He pensat si l'autor és imparcial. He comprovat si dóna proves de les seves afirmacions.\""
+        },
+        {
+          "pas_id": "pas_4_volum_maxim_per",
+          "descriptor": "Màxim 3 ítems per moment."
+        },
+        {
+          "pas_id": "pas_4_no_duplicar_preguntes",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_especificitat_del_proposit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_format_obligatori",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_reflexio_en_primera",
+          "descriptor": "\"He identificat la postura de l'autor. He avaluat si les dades eren fiables.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_de_previs",
+          "descriptor": "+ l'alumne formula les seves pròpies preguntes de lectura abans de llegir."
+        },
+        {
+          "pas_id": "pas_1_proposit_de_lectura",
+          "descriptor": "+ propòsit metacognitiu: l'alumne formula el seu propi propòsit i justifica per què."
+        },
+        {
+          "pas_id": "pas_1_hipotesi_previa",
+          "descriptor": "+ plantejament d'hipòtesis contrastades."
+        },
+        {
+          "pas_id": "pas_2_modalitat_lectora",
+          "descriptor": "+ contrast actiu amb coneixements previs anotat: \"Aquí diu X però jo sabia Y\"."
+        },
+        {
+          "pas_id": "pas_2_hipotesi_en_curs",
+          "descriptor": "+ a la mateixa pausa, **reformulació metacognitiva**: \"Si la meva hipòtesi falla, què revela el text que jo no sabia?\"."
+        },
+        {
+          "pas_id": "pas_3_planol_literal_resum",
+          "descriptor": "Resum sintètic + comparació amb hipòtesi inicial."
+        },
+        {
+          "pas_id": "pas_3_planol_inferencial",
+          "descriptor": "+ anàlisi de l'enquadrament: \"Què queda fora del marc del text? Per què?\"."
+        },
+        {
+          "pas_id": "pas_3_planol_critic_valoracio",
+          "descriptor": "Contrast crític: \"Quines altres fonts caldrien per validar aquesta informació?\"."
+        },
+        {
+          "pas_id": "pas_3_autoregulacio_metacognicio",
+          "descriptor": "\"He entès tot el que calia? Quines preguntes m'han quedat obertes? Quin pas faria a continuació?\""
+        },
+        {
+          "pas_id": "pas_4_volum_maxim_per",
+          "descriptor": "Màxim 3 ítems per moment."
+        },
+        {
+          "pas_id": "pas_4_no_duplicar_preguntes",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_especificitat_del_proposit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_format_obligatori",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_reflexio_en_primera",
+          "descriptor": "\"He formulat les meves pròpies preguntes abans de llegir i he comprovat si el text les responia.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_activacio_de_previs",
+      "titol": "Moment Abans",
+      "dimensio": "Activació de previs",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: la pregunta connecta amb experiència o coneixement plausible per al nivell?"
+    },
+    {
+      "id": "pas_1_proposit_de_lectura",
+      "titol": "Moment Abans",
+      "dimensio": "Propòsit de lectura",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: propòsit específic del text actual vs propòsit genèric (\"llegeix el text\")"
+    },
+    {
+      "id": "pas_1_hipotesi_previa",
+      "titol": "Moment Abans",
+      "dimensio": "Hipòtesi prèvia",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar presència de bastida d'hipòtesi a A1+ amb forma adequada al nivell"
+    },
+    {
+      "id": "pas_2_modalitat_lectora",
+      "titol": "Moment Durant",
+      "dimensio": "Modalitat lectora",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar instrucció de marcatge (✓/?/!, subratllat, notes) i la seva adequació al nivell"
+    },
+    {
+      "id": "pas_2_hipotesi_en_curs",
+      "titol": "Moment Durant",
+      "dimensio": "Hipòtesi en curs",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "a B1+: detectar **marca de pausa explícita** al text (símbol ⏸ o instrucció \"Atura't aquí\") + bastida metacognitiva de revisió d'hipòtesi en curs"
+    },
+    {
+      "id": "pas_3_planol_literal_resum",
+      "titol": "Moment Després",
+      "dimensio": "Plànol literal — Resum",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar buits/frases del resum; verificar adequació al nivell (1 buit a A1, 3-4 frases a B1)"
+    },
+    {
+      "id": "pas_3_planol_inferencial",
+      "titol": "Moment Després",
+      "dimensio": "Plànol inferencial",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: la pregunta demana inferència no literal i és respondible amb el text"
+    },
+    {
+      "id": "pas_3_planol_critic_valoracio",
+      "titol": "Moment Després",
+      "dimensio": "Plànol crític / Valoració",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: la bastida obre un espai de judici argumentat (B1+) o d'avaluació de fonts (B2+)"
+    },
+    {
+      "id": "pas_3_autoregulacio_metacognicio",
+      "titol": "Moment Després",
+      "dimensio": "Autoregulació (metacognició)",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivat doble: autoavaluació alumne + registre docent"
+    },
+    {
+      "id": "pas_4_volum_maxim_per",
+      "titol": "Criteris transversals",
+      "dimensio": "Volum màxim per moment",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar ítems per cada subsecció (Abans/Durant/Després); llindar ≤3"
+    },
+    {
+      "id": "pas_4_no_duplicar_preguntes",
+      "titol": "Criteris transversals",
+      "dimensio": "No duplicar `preguntes_comprensio`",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar semànticament: cap pregunta de bastides ha de coincidir amb cap pregunta del complement"
+    },
+    {
+      "id": "pas_4_especificitat_del_proposit",
+      "titol": "Criteris transversals",
+      "dimensio": "Especificitat del propòsit",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el propòsit referencia contingut concret del text actual"
+    },
+    {
+      "id": "pas_4_format_obligatori",
+      "titol": "Criteris transversals",
+      "dimensio": "Format obligatori",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "parser markdown: `## Suports de lectura` + 3 subseccions Abans/Durant/Després"
+    },
+    {
+      "id": "pas_5_reflexio_en_primera",
+      "titol": "Autoavaluació (per l'alumne)",
+      "dimensio": "Reflexió en primera persona",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivat doble: autoavaluació alumne + registre docent de la qualitat"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera bastides organitzades en 3 moments del procés lector (Abans / Durant / Després), amb un màxim de 3 ítems per moment, modulades pel nivell MECR de l'alumne i, dins de pre-A1 / A1, per la variable `fase_lectora`. A pre-A1 totes les bastides són sempre gestuals/orals (zero lectura autònoma).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si l'alumne ha internalitzat o no el procediment lector (això pertoca al docent: H1 'bastida que es retira'), ni ha de generar preguntes detallades de comprensió del text (això és tasca del complement `preguntes_comprensio`). El LLM produeix el procediment (com llegir), no la comprensió punt a punt; la valoració de l'oportunitat i la retirada progressiva la decideix qui ensenya."
+  },
+  "regla_seleccio_per_perfil": {
+    "pre-A1": {
+      "inclou_si": [
+        "B"
+      ],
+      "raonament": "A fase logogràfica/emergent, la lectura autònoma encara no és viable; la bastida es realitza per via gestual-oral-visual perquè la imatge ancora el significat abans del codi escrit (MALL multimodal)."
+    },
+    "A1": {
+      "inclou_si": [
+        "B"
+      ],
+      "raonament": "A A1 l'alumne comença a llegir amb mediació; la bastida ha de ser mínima per no saturar el processament i preservar la construcció inicial de sentit."
+    },
+    "A2": {
+      "inclou_si": [
+        "L"
+      ],
+      "raonament": "A A2 emergeix la lectura autònoma funcional; la bastida desplaça el focus cap a la metacognició lectora bàsica (marcatge) i obre el plànol inferencial guiat."
+    },
+    "B1": {
+      "inclou_si": [
+        "B"
+      ],
+      "raonament": "A B1 l'alumne pot anticipar i revisar hipòtesis; la pausa obligatòria activa la monitorització lectora i obre el plànol crític inicial (Vygotsky, ZDP)."
+    },
+    "B2": {
+      "inclou_si": [
+        "B"
+      ],
+      "raonament": "A B2 la lectura esdevé acadèmica; la bastida ha d'orientar la identificació del posicionament autoral i l'avaluació de fonts (literacitat crítica)."
+    },
+    "C1": {
+      "inclou_si": [
+        "B"
+      ],
+      "raonament": "A C1 l'alumne és lector autònom expert; la bastida s'orienta a la metacognició plena i al contrast intertextual, preparant la retirada total."
+    },
+    "transversal_fase_lectora_pre-A1_A1": {
+      "inclou_si": [
+        "D"
+      ],
+      "raonament": "El frontmatter modula sub-granularment dins els nivells inicials per evitar inflar la rúbrica amb columnes redundants; la fase lectora és variable independent."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "l_alumnat_llegeix_passivament",
+      "description": "L'alumnat llegeix passivament sense estratègia: descodifica les paraules però no construeix sentit."
+    },
+    {
+      "name": "la_unitat_es_tilc",
+      "description": "La unitat és TILC i el contingut disciplinar és nou per a l'alumnat (text dens >200 paraules)."
+    },
+    {
+      "name": "grup_amb_diversitat_de",
+      "description": "Grup amb diversitat de nivells on cal una bastida universal que cada alumne usa al seu ritme."
+    },
+    {
+      "name": "primer_cicle_de_treball",
+      "description": "Primer cicle de treball d'un gènere nou (la bastida es retira progressivament al llarg de la SD)."
+    },
+    {
+      "name": "l_alumnat_nouvingut_a1",
+      "description": "L'alumnat nouvingut A1-B1 no té el procediment lector internalitzat en català."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "text_molt_curt_amb",
+      "description": "Text molt curt amb comprensió immediata → discussió oral directa."
+    },
+    {
+      "name": "l_alumne_ja_ha",
+      "description": "L'alumne ja ha internalitzat el procediment lector → retirar les bastides."
+    },
+    {
+      "name": "temps_molt_limitat_millor",
+      "description": "Temps molt limitat → millor una o dues preguntes potents (`preguntes_comprensio`)."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La bastida que es retira",
+      "descripcio": "Les bastides no són permanents. Introdueixo les bastides de lectura les primeres 2-3 sessions i progressivament elimino els ítems que l'alumne ja fa sol. Una bastida que no es retira deixa de ser bastida i es converteix en dependència. Quan veig que l'alumne fa la predicció del títol sense que jo l'hi demani, és el senyal: aquesta bastida ja no cal."
+    },
+    {
+      "id": "H2",
+      "titol": "El propòsit de lectura és la clau",
+      "descripcio": "\"Llegeix per saber X\" ha de ser específic i concret. Si el propòsit és genèric (\"llegeix el text\"), la bastida perd la seva funció orientadora. Quan formulo el propòsit, em pregunto: \"Si l'alumne només llegís per respondre aquesta pregunta, hauria llegit el text amb sentit?\". Si la resposta és sí, el propòsit és bo."
+    },
+    {
+      "id": "H3",
+      "titol": "\"Subratlla el que no entens\" abans de marcar el que entens",
+      "descripcio": "A A2-B1, dono primer la instrucció inversa: \"Marca amb ? les paraules o frases que no entens.\" Quan l'alumne ho ha fet, li dic: \"El que queda sense marcar, ho has entès. Ara subratllem les idees importants d'allò que has entès.\" Evita la paràlisi davant un text parcialment opac i transforma la lectura passiva en una activitat metacognitiva des de l'inici."
+    },
+    {
+      "id": "H4",
+      "titol": "La bastida mínima viable",
+      "descripcio": "Quan tinc poc temps, trio la bastida mínima: propòsit de lectura (\"Llegeix per saber [X concret]\") + un buit al final per al resum. Dos ítems ben triats activen la comprensió activa millor que 10 ítems mal triats. La temptació de posar \"una mica de tot\" sempre acaba en saturació cognitiva."
+    },
+    {
+      "id": "H5",
+      "titol": "El Moment Després revela la comprensió",
+      "descripcio": "Si l'alumne no pot completar la frase marc del Moment Després, no ha entès el text. La bastida revela el problema **abans** de la pregunta de comprensió: el frase-buit \"El text parla de ___\" és un test diagnòstic ràpid. Quan veig que el buit es queda en blanc o amb una resposta tangencial, sé que cal tornar a llegir mediant."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica\n\n**Modulació:**\n- modalitat_lectora: 'adult llegeix en veu alta'\n- lectura_autonoma_alumne: false\n- format_bastides: gestual_oral_visual (assenyalar, dramatitzar, dibuixar, ordenar imatges)\n- items_per_moment: 1-2 accions\n- hipotesi_en_curs: no_aplicable\n- planols_inferencial_i_critic: no_aplicables\n\n**Raonament pedagògic.** A fase logogràfica l'alumne reconeix la imatge com a text però encara no descodifica grafies; forçar lectura aut"
+      }
+    },
+    "hipotesi_en_curs_b1plus": {
+      "trigger": {
+        "raw": "hipotesi_en_curs_B1plus"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1]\n\n**Modulació:**\n- pausa_obligatoria: true (marca explícita ⏸ o instrucció 'Atura't aquí' inserida al text adaptat)\n- bastida_hipotesi_en_curs: obligatòria al Moment Durant\n- a B2/C1: revisió/reformulació metacognitiva de la hipòtesi inicial a la mateixa pausa\n\n**Raonament pedagògic.** A B1+ l'alumne ja pot monitoritzar la pròpia comprensió; la pausa obligatòria amb hipòtesi en curs activa la metacognició lectora (Palincsar & Brown 1984, lectura recíproca) i pre"
+      }
+    },
+    "no_duplicar_preguntes_comprensio": {
+      "trigger": {
+        "raw": "no_duplicar_preguntes_comprensio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** pipeline_actius_inclou: preguntes_comprensio\n\n**Modulació:**\n- cross_source: llegir l'output de `preguntes_comprensio` abans de generar\n- bastides_ortogonals: true (procediment, no preguntes de contingut)\n- si_duplicitat: ATNE dedupea (preguntes_comprensio guanya, bastides es replanteja) i registra traça a metadades\n- sense_warning_runtime: true\n\n**Raonament pedagògic.** Bastides i preguntes_comprensio són ortogonals: la bastida dona el procediment (com llegir), les preguntes trebal"
+      }
+    },
+    "frase_buit_a1": {
+      "trigger": {
+        "raw": "frase_buit_A1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1]\n\n**Modulació:**\n- resum_literal: una sola frase-buit amb un únic forat ('El text parla de ___')\n- cap inferència ni valoració crítica al Moment Després\n\n**Raonament pedagògic.** A A1, el resum amb un sol buit funciona com a test diagnòstic ràpid (H5) i evita la sobrecàrrega cognitiva pròpia d'una construcció lliure; la inferència i la valoració crítica s'introdueixen a A2/B1."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "volum_maxim_per_moment",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_4_volum_maxim_per].countable"
+    }
+  ]
+}

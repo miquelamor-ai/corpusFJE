@@ -46,6 +46,57 @@ La recepta és un text instructiu especialitzat en processos culinaris. El seu t
 Aquesta rúbrica descriu la **recepta adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta una recepta amb tres blocs canònics i sempre presents en aquest ordre: (1) llista d'ingredients prèvia als passos, (2) passos numerats amb verb imperatiu, (3) resultat esperat al final; modula la completitud i la precisió segons el nivell MECR de la taula de modulació (A1–C1, pre-A1 exclòs).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix la fidelitat culinària a la cuina d'origen ni la idoneïtat cultural del plat per a l'aula: aplica la regla estructural (llista prèvia, imperatiu, indicadors sensorials, sense passiva, sense ingredients nous als passos) i delega a qui ensenya la valoració cultural, identitària i de seguretat alimentària.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### alumne_general
+
+**Inclou si:**
+- nivell MECR dins el rang [A1, A2, B1, B2, C1] segons taula Modulació
+
+**Exclou explícitament:**
+- pre-A1 (no es genera recepta; derivar a un altre instrument)
+
+**Raonament pedagògic.** Per defecte la modulació del gènere queda determinada per la columna MECR de la taula. La recepta requereix base lecto-escriptora mínima (doble planificació llista+passos), per això pre-A1 queda fora.
+
+### alumne_DUA_acces
+
+**Inclou si:**
+- només si DUA: Accés es pot cobrir amb la modulació MECR base
+
+**Exclou explícitament:**
+- necessitat visual forta sense base lecto-escriptora (derivar a instrument multimodal)
+
+**Raonament pedagògic.** No aplica regla diferenciada: el gènere requereix base lecto-escriptora mínima. Si DUA: Accés dispara necessitat visual forta, qui ensenya deriva a un instrument multimodal específic, no aquest skill.
+
+### alumne_AACC_o_capacitat_alta
+
+**Inclou si:**
+- nivell C1 amb variants, substitucions i errors comuns segons la columna C1 de la taula Modulació
+
+**Exclou explícitament:**
+- creativitat culinària inventada pel LLM fora del text font
+
+**Raonament pedagògic.** Per a AACC mantenir sostre alt: la columna C1 ja preveu variants, substitucions i errors comuns. El LLM mai inventa contingut culinari propi: la fidelitat al text font es manté com a límit qualitatiu.
+
+### alumne_nouvingut_amb_L1
+
+**Inclou si:**
+- context_in: [receptari_familiar, projecte_intercultural] → activar cas especial `nouvingut_L1_TOLC_receptari_familiar`
+- fora d'aquests contextos: aplicar nivell MECR de la taula sense modulació addicional
+
+**Exclou explícitament:**
+- forçar columna L1 quan el context no és identitari (translanguaging: false al frontmatter)
+
+**Raonament pedagògic.** Cummins (2001) i MALL: el plat familiar és portador d'identitat. Quan el context és identitari (receptari familiar, projecte intercultural), la recepta esdevé acte natural de TOLC (preservar nom del plat en L1, versió paral·lela L1, referent cultural al resultat esperat). Fora d'aquest context, no s'afegeix L1 perquè el gènere no la preveu estructuralment.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a recepta):
@@ -89,6 +140,33 @@ Aquesta rúbrica descriu la **recepta adaptada per a la LECTURA** de l'alumne. *
 |  | Fidelitat al text font | Fidelitat als ingredients principals i a l'ordre dels passos. | Fidelitat als ingredients, a l'ordre, als temps bàsics i al resultat. | Fidelitat als ingredients, als passos, als indicadors sensorials i al resultat. | Fidelitat a la complexitat culinària i als indicadors de qualitat del text original. | Fidelitat a la complexitat, a les variants i als errors comuns del text original. |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit la llista d'ingredients i els passos numerats." | "Cada pas té un verb i un objecte. He posat indicadors ('fins que...') a alguns passos." | "Els ingredients estan en l'ordre d'ús. Puc executar cada pas sense llegir el següent." | "La recepta té totes les quantitats i especificitats. El resultat indica les racions." | "La recepta és completa i professional. Qualsevol persona podria cuinar el plat seguint els meus passos." |
 
+## Casos especials
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [A1] AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- max_paraules_per_pas: 6
+- quantitats_explicites: false (només 1 ingredient per línia)
+- indicadors_sensorials_min: 1 al pas crític
+- passos_max: 5
+- verb_imperatiu_unic_per_pas: true
+
+**Raonament pedagògic.** A fase alfabètica emergent dins A1, la càrrega de descodificació és alta i la doble planificació llista+passos arriba al límit del que és accessible. Reduir cardinalitat (≤5 passos, 1 ingredient per línia, ≤6 paraules per pas) i blindar la consigna gramatical (1 verb imperatiu únic per pas) garanteix que la lectura del receptari sigui assolible sense bloquejar el sentit del text instructiu (MALL, Cummins).
+
+### nouvingut_L1_TOLC_receptari_familiar
+
+**Trigger:** nouvingut_L1: true AND context_in: [receptari_familiar, projecte_intercultural]
+
+**Modulació:**
+- permetre_versio_paralela_L1: true
+- columna_L1_a_ingredients: opcional
+- preservar_nom_plat_en_L1: true
+- resultat_esperat_pot_incloure_referent_cultural: true
+
+**Raonament pedagògic.** Cummins (2001) "Negotiating identities": els plats són portadors d'identitat cultural. Per a alumnat nouvingut, treballar la recepta familiar en L1 i acompanyar-la d'una versió en català és un acte natural de TOLC (translanguaging d'orientació crítica): la L1 NO és obstacle sinó bastiment, i el reconeixement identitari activa motivació i ancoratge cognitiu. Excepció acotada a contextos identitaris explícits perquè el gènere té `translanguaging: false` per defecte.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -130,6 +208,39 @@ Proposo que cada alumne porti la recepta d'un plat típic de la seva família o 
 
 **H4 — Cuinar per verificar.**
 La millor prova d'una recepta és executar-la. Si la unitat ho permet, proposo cuinar el plat seguint exactament la recepta escrita per un company. Els errors de claredat (ingredient no llistat, pas fusionat, indicador temporal en lloc de sensorial) es fan visibles i corregibles immediatament.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Recepta
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Ingredients
+### Preparació
+### Resultat esperat
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica (multimodal: false, translanguaging: false)
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Passos
+## Procediment
+## Com es fa
+```
+
+**Regla d'integritat estructural.** Sense els tres H3 literals dins de `## Recepta` i sense la llista d'ingredients seguida d'una llista numerada de passos, pas3.html no separa els blocs i les bastides UX (toggle quantitats, validació d'ordre d'ús, detecció de passiva) queden inhàbils.
 
 ## Fonts principals
 

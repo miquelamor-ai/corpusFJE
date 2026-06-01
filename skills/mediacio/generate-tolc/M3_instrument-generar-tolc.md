@@ -56,6 +56,71 @@ Si la L1 no és declarada → es retorna advertència i no es genera el compleme
 Aquesta rúbrica descriu el **bloc TOLC que es genera per a l'alumne nouvingut** (MEDIACIÓ PLURILINGÜE). **No descriu l'avaluació del docent ni la competència en L1**: el docent observa si l'alumne usa la taula durant la lectura i si la consigna de transferència li permet avançar.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → activació oral + assenyalar; `fase_lectora: alfabetica_emergent` → 1-2 paraules escrites en català.
 
+## Principi general
+
+**Regla de selecció simple.** Genera SEMPRE i NOMÉS els 5 blocs canònics del TOLC en aquest ordre (1. Activació, 2. Acarament L1↔català, 3. Observació estructural, 4. Consigna de transferència, 5. Clàusula de voluntarietat), modulats segons MECR i fase lectora. ACTIVACIÓ CONDICIONAL: el complement es genera ÚNICAMENT si el perfil té `nouvingut: true` i la L1 és declarada; si la L1 és desconeguda → retorna advertència i no generis res; si nouvingut no actiu → salta silenciosament.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si l'alumne 'sap prou L1' per fer transferència, ni si la L1 declarada està prou desenvolupada, ni si l'alumne 'estarà còmode' exposant la seva L1 públicament. Tampoc inventa contingut en L1 si no està segur de la grafia o l'alfabet correcte: si dubta de la forma escrita en àrab/hanzi/devanagari/ciríl·lic, ho marca explícitament al log i no fabrica. La decisió sobre acceptar/modificar la taula bilingüe i el grau d'integració de la L1 a l'aula la pren el docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### nouvingut_L1_coneguda
+
+**Inclou si:**
+- nouvingut: true
+- L1_declarada: true
+
+**Exclou explicitament:**
+- cap exclusió (genera els 5 blocs complets segons MECR i fase lectora)
+
+**Raonament pedagògic.** Amb L1 coneguda es pot construir el pont cognitiu real (Hipòtesi d'Interdependència, Cummins 2008). Alfabet original obligatori a la columna L1 com a acte de reconeixement lingüístic; voluntarietat explícita a tots els blocs.
+
+### nouvingut_L1_desconeguda
+
+**Inclou si:**
+- cap criteri (no genera output)
+
+**Exclou explicitament:**
+- generació_complement
+
+**Raonament pedagògic.** Sense L1 declarada no es pot construir cap pont; fabricar L1 o assumir-la és un risc ètic que invisibilitza la llengua real de l'alumne. Es retorna advertència al docent: «L1 no declarada — pregunta a alumne/família abans d'activar TOLC.» Log motiu: L1_unknown.
+
+### nouvingut_no_actiu
+
+**Inclou si:**
+- cap criteri (no genera output)
+
+**Exclou explicitament:**
+- generació_complement
+
+**Raonament pedagògic.** TOLC està dissenyat per a perfils nouvinguts amb L1 viva; aplicar-lo a alumnat plenament catalanoparlant no té sentit pedagògic. Es salta silenciosament (sense advertència visible) perquè el docent pot estar provant l'eina.
+
+### AACC_nouvingut
+
+**Inclou si:**
+- nouvingut: true
+- AACC: true
+- densitat_metalingüística_augmentada (a partir d'A2)
+
+**Exclou explicitament:**
+- trencament_voluntarietat
+
+**Raonament pedagògic.** Manté els 5 blocs però augmenta la densitat metalingüística: l'observació estructural (pas 3) pot incloure 2 contrastos en comptes d'1, i la consigna de transferència pot proposar mediació més complexa al sostre del MECR. Sostre alt sense techo artificial, però mai trencar la voluntarietat (H3 ATNE).
+
+### DUA_acces_nouvingut
+
+**Inclou si:**
+- nouvingut: true
+- DUA_dimensio: acces
+- suport_visual_reforçat (a pre-A1/A1)
+
+**Exclou explicitament:**
+- exposició_pública_obligada
+
+**Raonament pedagògic.** Manté els 5 blocs amb reforç visual (pictogrames a la taula bilingüe, gest). La voluntarietat es verbalitza explícitament; si el perfil té vergonya/inhibició documentada, la consigna de transferència s'orienta a producció privada (no comparteix públicament). Principi DUA d'Accés: cap barrera a l'expressió.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -88,6 +153,64 @@ Aquesta rúbrica descriu el **bloc TOLC que es genera per a l'alumne nouvingut**
 | **3. Observació estructural** | Semblances primer | Cap observació: activitat oral i manipulativa. | Cap observació a A1: massa càrrega metalingüística. | 1 frase positiva: semblances primer, diferències com a curiositat. Mai observació negativa. | Observació sobre construcció causal o estructural (ordre SVO, posició adjectiu, connectors). | Observació sobre l'organització del gènere entre les dues llengues. Gèneres similars i divergents. | Observació crítica sobre com les dues llengues codifiquen el coneixement de forma diferent. Convencions retòriques. |
 | **4. Consigna de transferència** | Pont de producció | Oral mediat: "Dibuixa o assenyala mentre ho dius." Dictat a l'adult si l'alumne vol escriure. | Dictat a l'adult o assenyalar. "Pots dir-ho en veu alta si vols." | Frase curta: escriu en català una idea del text usant un connector de la taula (si vols, primer en L1). | Paràgraf breu: resumir en L1 una part del text, o traduir una conclusió al català usant els connectors apressos. | Mediació complexa: mediar un text complet entre L1 i català. Comparar l'organització de les idees. | Contrast escrit: analitza com el gènere treballat es construiria diferent en L1 i en català. |
 | **5. Caràcter voluntari** | Protecció de l'alumne | Sempre voluntari. "Si vols, si pots." Cap exposició pública. | Sempre voluntari. La consigna no exposa l'alumne. La taula és personal. | Voluntari. Mai exigir L1 públicament. "Comparteix-ho si vols" sempre present. | Voluntari. Mediació accessible sense revelar la L1 si l'alumne no vol. | Voluntari. L'alumne pot triar fer la mediació en L1 o directament en català. | Voluntari. L'alumne decideix el grau d'integració de la seva L1 en l'anàlisi crítica. |
+
+## Casos especials
+
+### nouvingut_L1_alfabet_no_llati
+
+**Trigger:** nouvingut: true AND L1_script_in: [arab, han, ciril-lic, devanagari, hebreu, armeni, grec, georgia, thai]
+
+**Modulació:**
+- alfabet_original_obligatori: true
+- transliteracio: opcional_addicional (mai substitueix l'original)
+- columna_taula_ordre: [L1_alfabet_original, catala, transliteracio?]
+- observacio_estructural_inclou: direccionalitat_escriptura (àrab/hebreu dreta-esquerra)
+
+**Raonament pedagògic.** L'alfabet original és un acte de reconeixement de la llengua de l'alumne (H2 de l'skill). La transliteració sense l'original invisibilitza la L1: un alumne arabòfon que veu només "biologia" no veu la seva llengua a l'aula; en canvi, "بيولوجيا" al costat de "biologia" materialitza el principi del MALL (L1 com a recurs, no obstacle).
+
+### L1_desconeguda
+
+**Trigger:** nouvingut: true AND (L1: null OR L1: 'desconeguda')
+
+**Modulació:**
+- generar_complement: false
+- retornar_advertencia: "TOLC requereix L1 declarada. Pregunta a l'alumne o família abans d'activar."
+- log_motiu: L1_unknown
+
+**Raonament pedagògic.** Sense L1 declarada no es pot construir cap pont cognitiu; fabricar L1 o assumir-la és un risc ètic que invisibilitza la llengua real de l'alumne. La decisió correcta és preguntar a l'alumne o família, no inventar.
+
+### nouvingut_no_actiu
+
+**Trigger:** nouvingut: false (independentment de si el docent ha activat TOLC al Pas 2)
+
+**Modulació:**
+- generar_complement: false
+- saltar_silenciosament: true (sense advertència visible)
+
+**Raonament pedagògic.** TOLC està dissenyat per a perfils nouvinguts amb L1 viva; aplicar-lo a alumnat plenament catalanoparlant no té sentit pedagògic. La salta silenciosa permet que el docent provi l'eina sense generar soroll.
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre_A1] AND fase_lectora: logografica
+
+**Modulació:**
+- acarament_taula: cap_taula_escrita
+- substituir_per: assenyalar_o_dibuixar
+- consigna_transferencia: oral_mediada (no_escriptura_autonoma)
+- pas_2_descriptor: binary_no_aplica
+
+**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies; demanar la lectura d'una taula bilingüe és incoherent amb la fase lectora real. La mediació es fa oral i manipulativa, preservant el principi TOLC sense forçar CALP en context BICS (Kuhn 1991, Cummins).
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre_A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- acarament_taula: 1-2_parells_maxim (no 3-5)
+- escriptura_autonoma_catala: 1-2_paraules_clau
+- consigna_transferencia: dictat_a_l_adult (amb opció minoritària d'escriptura voluntària)
+
+**Raonament pedagògic.** L'alumne comença a descodificar però la càrrega cognitiva d'una taula 3-5 + alfabet original + català és excessiva. Reduir el nombre de parells permet activar el pont L1↔català sense saturar la memòria de treball; el dictat a l'adult preserva la mediació quan l'escriptura autònoma encara és costosa.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -128,6 +251,42 @@ El TOLC no avalua la L1 de l'alumne. L'alumne que no sap escriure en L1 (o que h
 
 **H5 — La taula bilingüe durant la lectura, no al final.**
 La taula bilingüe té màxim valor si l'alumne la consulta DURANT la lectura, quan troba un terme difícil. No és una activitat que es fa al final. El flux correcte: lectura del text → trobar terme difícil → consultar taula → activar xarxa semàntica en L1 → continuar la lectura. Assegurar que la taula és accessible (no plegada, no al fons de la carpeta) durant la sessió de lectura.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## TOLC / Transllenguatge
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### 1. Activació
+### 2. Acarament L1 ↔ català
+### 3. Observació estructural
+### 4. Consigna de transferència
+### 5. Caràcter voluntari
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[L1: <codi_iso>]
+[ALFABET_ORIGINAL: <script>]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## TOLC
+## Transllenguatge
+## Taula bilingüe
+```
+
+**Regla d'integritat estructural.** Sense `## TOLC / Transllenguatge` i els 5 H3 numerats en ordre estricte, el parser de pas3.html no detecta el bloc i la rúbrica 5×6 no s'ancora al text. Si falta el H3 `### 5. Caràcter voluntari` o la clàusula «si vols, si pots» equivalent, el guardrail ètic salta i el bloc es rebutja: la voluntarietat absoluta és condició no negociable de l'skill.
 
 ## Fonts principals
 

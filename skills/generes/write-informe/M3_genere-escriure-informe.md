@@ -47,6 +47,52 @@ L'informe presenta fets, dades i conclusions sobre un tema de manera organitzada
 Aquesta rúbrica descriu l'**informe adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un informe que separi sempre les dades de les conclusions en blocs diferenciats, amb veu impersonal consistent i objectivitat estilística, modulat segons el nivell MECR de l'alumne (A1-C1). No s'adapta a pre-A1 perquè la distinció fets/conclusions requereix base lecto-escriptora mínima.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir quines dades són rellevants ni si una conclusió és "correcta"; només ha de garantir l'estructura (dades primer, connector explícit, conclusions després), la veu impersonal i la fidelitat a les dades del text font. La validesa científica del contingut i l'adequació al disseny didàctic són responsabilitat del docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### alumne_general
+
+**Aplica per defecte:**
+- Modulació estricta segons la columna MECR de la taula §Modulació per nivell.
+- Tots els passos 1-8 actius segons les especificacions del nivell declarat.
+
+**Raonament pedagògic.** La rúbrica gradada A1→C1 ja capta el gruix de la diferenciació per a l'alumnat sense factors addicionals; el nivell MECR és la variable principal de selecció del contingut.
+
+### alumne_nouvingut_L1
+
+**Aplica:**
+- Mateixa modulació MECR que el general (translanguaging: false al frontmatter).
+- Si MECR baix, s'activa el cas especial `fase_alfabetica_emergent_A1` amb taula 2col com a bastida visual.
+
+**Exclou explícitament:**
+- columna_L1_al_text_generat (l'informe no admet translanguaging textual: l'L1 queda com a mediació oral del docent).
+
+**Raonament pedagògic.** L'informe és el gènere CALP per excel·lència; la veu impersonal i l'objectivitat no admeten mescla L1 dins del text generat. Si cal ancoratge L1, va a glossari complementari, no a l'informe.
+
+### alumne_DUA_acces
+
+**Aplica:**
+- Reforç de la dimensió multimodal: dades en taula o gràfic etiquetat.
+- Marcador [TAULA: ...] obligatori a partir d'A2.
+- Reducció de la longitud de frases del resum executiu.
+
+**Raonament pedagògic.** El principi DUA d'accés demana minimitzar la càrrega de descodificació textual quan la dada és quantitativa: la taula i el gràfic etiquetat són l'accés alternatiu nadiu de l'informe.
+
+### alumne_AACC_o_capacitat_alta
+
+**Inclou:**
+- Aprofundiment al Pas 5 (Hipòtesi/metodologia) i Pas 6 (Conclusions).
+- Admet variables i discussió de limitacions a B1 si la complexitat lingüística es manté al nivell.
+
+**Raonament pedagògic.** Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la complexitat metodològica i la profunditat conclusiva són la via natural d'extensió en un gènere acadèmic.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a informe):
@@ -89,6 +135,56 @@ Aquesta rúbrica descriu l'**informe adaptat per a la LECTURA** de l'alumne. **N
 |  | Fidelitat al text font | Fidelitat a les dades principals i a la conclusió bàsica. | Fidelitat a les dades, a la conclusió i a la separació dades/conclusions. | Fidelitat a les dades, a la metodologia, a la conclusió i al to objectiu. | Fidelitat a les dades, a la metodologia, al context i al to acadèmic. | Fidelitat a la complexitat analítica del text original, incloent limitacions i debats. |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He presentat les dades i les conclusions per separat." | "He organitzat les dades. He escrit qué hem après al final." | "He escrit la hipòtesi i la metodologia. Les conclusions deriven de les dades." | "Les meves conclusions estan argumentades amb dades. He separat dades d'opinions." | "L'informe és rigorós, objectiu i les conclusions estan justificades. He reconegut les limitacions." |
 
+## Casos especials
+
+### A1_sense_hipotesi
+
+**Trigger:** mecr_equals: A1
+
+**Modulació:**
+- no_incloure_h3: `### Hipòtesi i metodologia`
+- introduccio_max_frases: 2
+- format_dades: llista_simple_o_taula_2col
+- conclusions_max: 1
+- sense_connector_per_tant_obligatori: false (admet "Hem après que...")
+
+**Raonament pedagògic.** A A1, la hipòtesi "Si..., llavors..." és una operació epistèmica encara no accessible sense base lectora consolidada. La rúbrica ja preveu la metodologia mínima al Pas 5; forçar la hipòtesi explícita afegiria càrrega CALP sense valor pedagògic real.
+
+### C1_limitacions_explicites
+
+**Trigger:** mecr_equals: C1
+
+**Modulació:**
+- afegir_h3: `### Limitacions i incerteses`
+- fidelitat_obligatoria: text_font_amb_biaixos_limitacions
+- resum_executiu: professional_autonom
+- referenciar_fonts: rigor_bibliografic_complet
+
+**Raonament pedagògic.** A C1 l'informe esdevé acadèmic en sentit ple: el reconeixement explícit de limitacions i incerteses és part del rigor epistèmic. Sense H3 propi de limitacions, el lector C1 perd la senyalització metadiscursiva que distingeix l'informe professional del divulgatiu.
+
+### fase_alfabetica_emergent_A1
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- format_dades: taula_2col_bastida_visual_obligatoria
+- multimodal: true
+- longitud_frase_max: 8 paraules
+- vocabulari: nuclear_quotidia
+
+**Raonament pedagògic.** A A1 amb fase lectora emergent, la taula 2 columnes és l'única bastida visual que permet llegir dades sense desbordar el processament fonològic encara en construcció. La densitat lèxica i la longitud de frase es topen per garantir l'accés autònom.
+
+### B1_resum_executiu_minimal
+
+**Trigger:** mecr_equals: B1
+
+**Modulació:**
+- resum_executiu: nomes_objectiu_i_conclusio_principal
+- no_duplicar_dades_al_resum
+- veu: impersonal_es_verb_prioritari_sobre_passiva
+
+**Raonament pedagògic.** A B1 el resum executiu és una habilitat sintètica nova: cal evitar que es converteixi en un índex de dades. La regla "objectiu + conclusió principal" força la síntesi real. Prioritzar l'impersonal amb "es + verb" sobre la passiva afavoreix la lectura fluida al nivell estratègic.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -130,6 +226,41 @@ Explico als alumnes que "per tant" és la frontissa entre les dades i les conclu
 
 **H4 — El resum executiu al revés.**
 A B1+, proposo escriure el resum executiu DESPRÉS d'haver escrit el cos de l'informe. Quan l'alumne ha escrit tot l'informe, li pregunto: "Si hagués de llegir-lo en 30 segons, qué no es podria perdre?" La resposta és el resum executiu. Escriure'l al revés garanteix que sigui una síntesi real, no un índex de temes.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Informe
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Resum executiu
+### Hipòtesi i metodologia
+### Dades
+### Conclusions
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[TAULA: capçalera1 | capçalera2 | ...]
+[GRAFIC: tipus|descripcio_breu]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Resultats
+## Introducció
+## Metodologia
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Informe` i sense els H3 en aquest ordre, el parser no detecta la separació dades/conclusions i la rúbrica del Pas 3 (rigor epistèmic) no es pot aplicar. La modulació per nivell (A1 sense `### Hipòtesi i metodologia`; C1 amb `### Limitacions i incerteses` afegit) determina quins H3 són obligatoris i quins opcionals.
 
 ## Fonts principals
 

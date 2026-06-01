@@ -15,6 +15,7 @@ on:
       - 'skills/**/M3_instrument-*.md'
       - 'skills/**/M3_genere-*.md'
       - '.tooling/build_skills.py'
+      - '.tooling/build_rubrica.py'
       - '.github/workflows/build-skills.yml'
 
 jobs:
@@ -40,6 +41,13 @@ jobs:
             python .tooling/build_skills.py "$md"
           done
 
+      - name: Regenerate rubrica.json per a tots els skills (v1.0 FROZEN 2026-06-01)
+        run: |
+          for md in $(find skills -type f \( -name 'M3_instrument-*.md' -o -name 'M3_genere-*.md' \)); do
+            echo "→ rubrica: $md"
+            python .tooling/build_rubrica.py "$md"
+          done
+
       - name: Commit derivats actualitzats
         run: |
           set -e
@@ -50,7 +58,7 @@ jobs:
             echo "Cap canvi als derivats: res a commitejar."
             exit 0
           fi
-          git commit -m "chore(skills): regenera SKILL.md + prompt_adapter.md [skip ci]"
+          git commit -m "chore(skills): regenera SKILL.md + prompt_adapter.md + rubrica.json [skip ci]"
           # Race protection: pot haver-hi un push concorrent (p.ex. build-manifest).
           # Rebase amb fins a 3 reintents abans de rendir-se.
           for i in 1 2 3; do

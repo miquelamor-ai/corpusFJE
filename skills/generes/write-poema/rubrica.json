@@ -1,0 +1,438 @@
+{
+  "_meta": {
+    "name": "rubrica_write_poema",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-poema\\M3_genere-escriure-poema.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-poema",
+    "family": "generes",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "poema",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_forma_i_regularitat",
+          "descriptor": "Recitacio oral; adult escriu si cal. L'alumne reconeix la repeticio de sons i versos."
+        },
+        {
+          "pas_id": "pas_2_significat_i_ritme",
+          "descriptor": "No s'aplica (oral; el ritme és el de la canço o el rodoli)."
+        },
+        {
+          "pas_id": "pas_3_accessibilitat_estetica",
+          "descriptor": "Reconeixement oral: \"el sol és com una taronja\". L'adult proposa la imatge."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_lexica",
+          "descriptor": "Vocabulari molt quotidia. Paraules que l'alumne ja usa (objectes, animals, colors)."
+        },
+        {
+          "pas_id": "pas_5_musicalitat",
+          "descriptor": "Rima final simple i molt repetitiva. L'adult guia la rima (aaaa o aabb)."
+        },
+        {
+          "pas_id": "pas_6_perspectiva_i_autoria",
+          "descriptor": "L'alumne expressa oralment com se sent davant d'una cosa. L'adult escriu."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_forma_i_regularitat",
+          "descriptor": "1-2 estrofes de 2-3 versos. Estructura visible i regular. Separacio visual clara."
+        },
+        {
+          "pas_id": "pas_2_significat_i_ritme",
+          "descriptor": "Cada vers = 1 idea o imatge. Sense partir una idea a la meitat del vers."
+        },
+        {
+          "pas_id": "pas_3_accessibilitat_estetica",
+          "descriptor": "1 comparacio concreta per estrofa: \"com un...\", \"sembla un...\". Imatge visual."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_lexica",
+          "descriptor": "Vocabulari quotidia. Cap sinonim rebuscat. 1 paraula nova com a maxim per estrofa."
+        },
+        {
+          "pas_id": "pas_5_musicalitat",
+          "descriptor": "Rima consonant senzilla al final del vers (parells o alternada)."
+        },
+        {
+          "pas_id": "pas_6_perspectiva_i_autoria",
+          "descriptor": "\"Jo\" visible i consistent. El poema parla des d'una perspectiva clara."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He escrit 2 estrofes. He posat una comparacio (com un...).\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_forma_i_regularitat",
+          "descriptor": "2-3 estrofes de 3-4 versos. Separacio visual entre estrofes. Cada estrofa = 1 idea."
+        },
+        {
+          "pas_id": "pas_2_significat_i_ritme",
+          "descriptor": "Cada vers és independent pero contribueix a la imatge global."
+        },
+        {
+          "pas_id": "pas_3_accessibilitat_estetica",
+          "descriptor": "1 metafora o comparacio per estrofa. Concreta i visual. Ancoratge sensorial."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_lexica",
+          "descriptor": "Vocabulari accessible. 1-2 paraules noves amb context que ajudi a entendre-les.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_5_musicalitat",
+          "descriptor": "Rima consonant o assonant. Pot ser alternada. Ritme regular perceptible."
+        },
+        {
+          "pas_id": "pas_6_perspectiva_i_autoria",
+          "descriptor": "Veu del jo liric consistent durant tot el poema. No canviar de perspectiva."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"Cada estrofa te la seva idea. He mantingut la rima fins al final.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_forma_i_regularitat",
+          "descriptor": "3-4 estrofes. Estructura conscient. Pot variar el nombre de versos per efecte intencional."
+        },
+        {
+          "pas_id": "pas_2_significat_i_ritme",
+          "descriptor": "Encavalcament conscient si s'usa: la idea continua al vers seguent amb intencio."
+        },
+        {
+          "pas_id": "pas_3_accessibilitat_estetica",
+          "descriptor": "Metafora que connecta un concepte nou amb l'experiencia de l'alumne (ZDP)."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_lexica",
+          "descriptor": "Vocabulari adequat al tema. Les paraules noves hi son perque aporten precisio poetica."
+        },
+        {
+          "pas_id": "pas_5_musicalitat",
+          "descriptor": "Ritme conscient. Pot renunciar a la rima si la cadencia es manté."
+        },
+        {
+          "pas_id": "pas_6_perspectiva_i_autoria",
+          "descriptor": "Distincio entre jo liric i autor. Pot explorar una veu diferent de la propia."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"La meva metafora connecta el tema amb alguna cosa que conec. El ritme es manté.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_forma_i_regularitat",
+          "descriptor": "Estructura variada amb intencionalitat. Pot incloure estrofes de mida diferent."
+        },
+        {
+          "pas_id": "pas_2_significat_i_ritme",
+          "descriptor": "Control del vers com a unitat de sentit i de ritme simultaneament."
+        },
+        {
+          "pas_id": "pas_3_accessibilitat_estetica",
+          "descriptor": "2-3 imatges elaborades. Coherencia tematica entre elles."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_lexica",
+          "descriptor": "Vocabulari ric i variat. Tria conscient de paraules per la seva musicalitat i densitat semantica."
+        },
+        {
+          "pas_id": "pas_5_musicalitat",
+          "descriptor": "Varietat ritmica. Pot combinar versos amb rima i versos blancs."
+        },
+        {
+          "pas_id": "pas_6_perspectiva_i_autoria",
+          "descriptor": "Veu poetica personal i reconeixible. El lector nota qui parla."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He triat les paraules per la seva sonoritat. La veu del poema és consistent.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_forma_i_regularitat",
+          "descriptor": "Estructura lliure o formal amb plena consciencia del model triat i el seu efecte."
+        },
+        {
+          "pas_id": "pas_2_significat_i_ritme",
+          "descriptor": "Vers com a instrument precis de significat, pausa i musicalitat."
+        },
+        {
+          "pas_id": "pas_3_accessibilitat_estetica",
+          "descriptor": "Imatges originals. Pot explorar metafora mixta o sinestesia."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_lexica",
+          "descriptor": "Vocabulari precis, ric i personal. Pot incloure neologismes justificats."
+        },
+        {
+          "pas_id": "pas_5_musicalitat",
+          "descriptor": "Ritme com a eina expressiva. Alteracio conscient del ritme per crear efecte."
+        },
+        {
+          "pas_id": "pas_6_perspectiva_i_autoria",
+          "descriptor": "Veu poetica plenament elaborada amb distancia critica o ironia si escau."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"El meu poema te una veu propia. Les imatges son originals i el ritme és intencional.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_forma_i_regularitat",
+      "titol": "Estructura estrofica",
+      "dimensio": "Forma i regularitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: hi ha mes d'una estrofa separada visualment; qualitative: LLM-jutge sobre si el nombre d'estrofes i versos és adequat al nivell"
+    },
+    {
+      "id": "pas_2_significat_i_ritme",
+      "titol": "Vers com a unitat",
+      "dimensio": "Significat i ritme",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: detectar si hi ha salts de linia per vers (regex: absència de salts de linia dins d'una estrofa = error); qualitative: LLM-jutge sobre si cada vers respecta la unitat de sentit o parteix una idea de manera injustificada"
+    },
+    {
+      "id": "pas_3_accessibilitat_estetica",
+      "titol": "Metafores i imatges",
+      "dimensio": "Accessibilitat estetica",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si la metafora és concreta i accessible; si s'hi pot anclar visualment; cross_source B1+: verificar si la metafora adaptada manté l'equivalent semantic de l'original"
+    },
+    {
+      "id": "pas_4_accessibilitat_lexica",
+      "titol": "Vocabulari",
+      "dimensio": "Accessibilitat lexica",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar paraules fora del vocabulari de frequencia MECR corresponent; qualitative: LLM-jutge sobre si les paraules noves aporten valor o son obstacles"
+    },
+    {
+      "id": "pas_5_musicalitat",
+      "titol": "Ritme (rima/cadencia)",
+      "dimensio": "Musicalitat",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar si hi ha rima (consonant/assonant); analisi sil·labica si cal; qualitative: LLM-jutge sobre si el ritme és perceptible o forçat"
+    },
+    {
+      "id": "pas_6_perspectiva_i_autoria",
+      "titol": "Veu poetica (jo liric)",
+      "dimensio": "Perspectiva i autoria",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: us consistent de la primera persona; qualitative: LLM-jutge sobre si la veu del jo liric és consistent i reconeixible"
+    },
+    {
+      "id": "pas_7_metacognicao",
+      "titol": "Autoavaluacio",
+      "dimensio": "Metacognicao",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluacio alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un text en forma de poema: una unitat lírica organitzada en estrofes i versos (un vers per línia), amb almenys una imatge o metàfora concreta i un ritme perceptible (rima o cadència) adequat al nivell MECR objectiu. Modula vocabulari, metàfores i ritme segons la taula de modulació, però MAI eliminis l'estructura estròfica ni els salts de línia: si la forma es trenca, el text deixa de ser un poema.",
+    "no_judici_qualitatiu_complex": "El LLM no ha d'avaluar el valor estètic ni l'originalitat literària del poema, ni decidir quina metàfora del text font és 'massa abstracta' per a un alumne concret, ni jutjar la qualitat de la veu poètica resultant. La decisió final sobre acceptabilitat poètica i adequació al grup la pren qui ensenya; el LLM només garanteix la forma (estrofes, versos per línia, imatge concreta, ritme perceptible) i l'adequació lèxica al MECR."
+  },
+  "regla_seleccio_per_perfil": {
+    "default": {
+      "inclou_si": [
+        "e"
+      ],
+      "exclou_explicitament": [
+        "t"
+      ],
+      "raonament": "El default aplica la cel·la MECR de la taula Modulació mantenint la forma poètica com a contingut: si es trenca l'estructura, el text deixa de pertànyer al gènere."
+    },
+    "preA1": {
+      "inclou_si": [
+        "f"
+      ],
+      "exclou_explicitament": [
+        "e"
+      ],
+      "raonament": "A pre-A1 la poesia és oral i lúdica (decisió D6); rodolins i cançons són bastida fonètica i prosòdica de la llengua nova (MALL, eix oral-escrit)."
+    },
+    "A1_A2": {
+      "inclou_si": [
+        "1"
+      ],
+      "exclou_explicitament": [
+        "m"
+      ],
+      "raonament": "A A1-A2 la rima funciona com a bastida de memòria i de risc lingüístic; la metàfora concreta connecta el text font amb l'experiència sensorial de l'alumne (ZDP)."
+    },
+    "B1": {
+      "inclou_si": [
+        "3"
+      ],
+      "exclou_explicitament": [
+        "r"
+      ],
+      "raonament": "A B1 l'alumne ja pot sostenir intenció estructural; la metàfora opera com a pont cognitiu dins la ZDP de Vygotsky."
+    },
+    "B2_C1": {
+      "inclou_si": [
+        "e"
+      ],
+      "exclou_explicitament": [
+        "e"
+      ],
+      "raonament": "A B2-C1 es manté sostre alt: l'alumne treballa la forma com a eina expressiva conscient (funció poètica de Jakobson)."
+    },
+    "nouvingut_L1": {
+      "inclou_si": [
+        "e"
+      ],
+      "exclou_explicitament": [
+        "L"
+      ],
+      "raonament": "Vegeu cas especial 'nouvingut_L1_canço_pont': la musicalitat de la L1 transfereix (TOLC, Cummins); cantar el poema en la nova llengua activa connexió identitària i memòria afectiva. El poema escrit final queda monolingüe en català."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un poema (tradicio lirica catalana, castellana, llatinoamericana, universal)."
+    },
+    {
+      "name": "la_unitat_de_llengua",
+      "description": "La unitat de llengua i literatura treballa la dimensio lirica o la competencia emocional."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de produir un poema com a tasca d'expressio creativa."
+    },
+    {
+      "name": "el_docent_vol_introduir",
+      "description": "El docent vol introduir un text poetc a un grup amb nivells mixtos (multinivell)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és narratiu en prosa → conte o cronica."
+    },
+    {
+      "name": "el_text_expressa_una",
+      "description": "El text expressa una postura raonada → assaig o opinio."
+    },
+    {
+      "name": "el_text_vol_emocionar",
+      "description": "El text vol emocionar pero en prosa → diari personal."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La imatge concreta com a entrada.",
+      "descripcio": "Proposo que l'alumne pensi en una cosa que pot tocar o veure. Despres li demano: \"Com és, sense dir-ne el nom?\" La resposta és la metafora del poema. Funciona des de pre-A1 (oral) fins a C1."
+    },
+    {
+      "id": "H2",
+      "titol": "El poema com a columna.",
+      "descripcio": "Escriure el poema verticalment, un vers per linia. Si una idea no cap en una linia, té massa contingut per a un sol vers. Funciona com a test visual de la forma: si el text s'assembla a un paragraf, no és un poema."
+    },
+    {
+      "id": "H3",
+      "titol": "Llegir en veu alta com a primer pas.",
+      "descripcio": "Proposo que l'alumne llegeixi el poema en veu alta abans de fer res mes. La lectura en veu alta activa el ritme i la musicalitat. Moltes metafores \"difícils\" resulten comprensibles quan se senten. Especialment util per a alumnat amb TDAH o mes força auditiva que visual."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Que veus?\" per a les metafores.",
+      "descripcio": "Quan una metafora resulta abstracta, demano: \"Que veus quan llegeixes 'l'astre flamiger'?\" L'alumne descriu el que imagina, i d'alla surt la versio concreta. La pregunta \"que veus?\" transforma la metafora abstracta en imatge visual sense que el docent hagi de donar la resposta."
+    },
+    {
+      "id": "H5",
+      "titol": "Cançó equivalent a pre-A1/A1.",
+      "descripcio": "A pre-A1 i A1, proposo partir d'una canço que l'alumne coneix en la seva L1 i trobar-ne una equivalent en catala. La musicalitat de la L1 transfereix (TOLC). Cantar el poema en la nova llengua és una bastida fonetica i emocional que facilita la memoritzacio i la connexio afectiva amb la llengua."
+    }
+  ],
+  "case_overrides": {
+    "prea1_oral_mediat": {
+      "trigger": {
+        "raw": "preA1_oral_mediat"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora_in: [logografica, alfabetica_emergent]\n\n**Modulació:**\n- format_sortida: rodolí o cançó curta de 2-4 versos amb rima molt repetitiva (aaaa o aabb)\n- densitat_imatges: 1 imatge concreta i visible (sol, lluna, gat)\n- vocabulari: només paraules quotidianes que l'alumne ja usa\n- no_escriptura_autonoma: true (l'adult escriu; l'alumne recita, repeteix o completa)\n- pas_7_autoavaluacio: omès (no aplica)\n\n**Raonament pedagògic.** A pre-A1 la poesia és oral"
+      }
+    },
+    "nouvingut_l1_canco_pont": {
+      "trigger": {
+        "raw": "nouvingut_L1_canço_pont"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND mecr_in: [pre-A1, A1, A2]\n\n**Modulació:**\n- estrategia_recomanada: partir d'una cançó o rodolí que l'alumne coneix en L1 i buscar-ne un equivalent o adaptació en català\n- translanguaging_oral: sí (ús de la L1 oral com a bastida fonètica i emocional, sense afegir L1 al text del poema final)\n- densitat_rima: alta (rima final regular per ancorar memòria)\n- imatges: sensorials i universals (foc, aigua, mare, casa)\n\n**Raonament pedagògic.** La musicalitat de la L1 "
+      }
+    },
+    "dua_acces_perfil_visual_auditiu": {
+      "trigger": {
+        "raw": "DUA_acces_perfil_visual_auditiu"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces AND (perfil_in: [TDAH, dislexia] OR força_auditiva: true)\n\n**Modulació:**\n- lectura_veu_alta_obligatoria: true (presentar el poema sonor abans del visual)\n- rima: consonant i regular (no rima blanca ni encavalcament)\n- longitud_max_vers: 6-8 síl·labes\n- metafores: només concretes i sensorials (evitar simbolisme de segon nivell)\n- suport_visual_opcional: il·lustració o pictograma per estrofa que ancori la imatge clau\n\n**Raonament pedagògic.** El ritme regular i la r"
+      }
+    }
+  }
+}

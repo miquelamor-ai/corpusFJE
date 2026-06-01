@@ -1,0 +1,413 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_pictogrames",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-pictogrames\\M3_instrument-generar-pictogrames.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-pictogrames",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter"
+    ],
+    "complement_key": "pictogrames",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ],
+      "modalitat": [
+        "emoji",
+        "arasaac"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_emoji_vs_arasaac",
+          "descriptor": "ARASAAC si TEA/CAA; emoji si nouvingut BICS. Sempre inline com a anticipacio."
+        },
+        {
+          "pas_id": "pas_2_inline_vs_glossari",
+          "descriptor": "Inline DAVANT de la paraula: l'alumne veu el pictograma PRIMER, llavors llegeix la paraula."
+        },
+        {
+          "pas_id": "pas_3_nombre_per_text",
+          "descriptor": "8-10 pictogrames maxim per text (maxim 1-2 per frase inline). Alta densitat justificada."
+        },
+        {
+          "pas_id": "pas_4_concret_vs_disciplinar",
+          "descriptor": "Conceptes molt concrets i universals (mode emoji) o conceptes escolars basics (mode ARASAAC)."
+        },
+        {
+          "pas_id": "pas_5_pre_lectura_visual",
+          "descriptor": "Obligatori: vocabulari visual ABANS del text. Docent presenta els pictogrames oralment. Format: `### Vocabulari del text (mira primer!)` + llista pictograma·paraula."
+        },
+        {
+          "pas_id": "pas_6_coherencia_i_qualitat",
+          "descriptor": "Mateix pictograma per al mateix concepte en tot el document. Cap pictograma decoratiu. Cap emoji de flags o gestos ambigus."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "Docent observa: \"L'alumne ha vist els pictogrames i ha dit el nom de cada concepte.\" (oral, mediat)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_emoji_vs_arasaac",
+          "descriptor": "ARASAAC si TEA o text disciplinar; emoji si vocabulari quotidia. Inline discret."
+        },
+        {
+          "pas_id": "pas_2_inline_vs_glossari",
+          "descriptor": "Inline discret davant o al costat del terme clau. 1 pictograma per paraula nova."
+        },
+        {
+          "pas_id": "pas_3_nombre_per_text",
+          "descriptor": "4-6 pictogrames. 1 per paraula nova o concepte clau."
+        },
+        {
+          "pas_id": "pas_4_concret_vs_disciplinar",
+          "descriptor": "Conceptes concrets: objectes, essers vius, accions fisiques observables."
+        },
+        {
+          "pas_id": "pas_5_pre_lectura_visual",
+          "descriptor": "Recomanat: presentar el vocabulari visual abans de llegir."
+        },
+        {
+          "pas_id": "pas_6_coherencia_i_qualitat",
+          "descriptor": "Idem. Coherencia entre seccions."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He usat els pictogrames per entendre les paraules difícils.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_emoji_vs_arasaac",
+          "descriptor": "ARASAAC per termes disciplinars (TEA o nouvingut+CALP); emoji si BICS. Al glossari visual, mai inline."
+        },
+        {
+          "pas_id": "pas_2_inline_vs_glossari",
+          "descriptor": "Glossari visual al peu (mai inline). Llista de termes + pictograma + definicio breu."
+        },
+        {
+          "pas_id": "pas_3_nombre_per_text",
+          "descriptor": "3-5 al glossari visual. 1 per terme disciplinar."
+        },
+        {
+          "pas_id": "pas_4_concret_vs_disciplinar",
+          "descriptor": "Termes disciplinars: \"volca\", \"cel·lula\", \"parlament\" (si te representacio visual)."
+        },
+        {
+          "pas_id": "pas_5_pre_lectura_visual",
+          "descriptor": "No cal. El glossari visual al peu és consultat durant la lectura."
+        },
+        {
+          "pas_id": "pas_6_coherencia_i_qualitat",
+          "descriptor": "Idem. El glossari visual no substitueix el glossari textual."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He usat el glossari visual al peu per recordar el significat dels termes.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_emoji_vs_arasaac",
+          "descriptor": "ARASAAC per termes disciplinars especifics de la materia. Al glossari visual."
+        },
+        {
+          "pas_id": "pas_2_inline_vs_glossari",
+          "descriptor": "Glossari visual al peu. Reservat per a termes disciplinars no familiars."
+        },
+        {
+          "pas_id": "pas_3_nombre_per_text",
+          "descriptor": "2-4 al glossari visual. Termes disciplinars de la materia."
+        },
+        {
+          "pas_id": "pas_4_concret_vs_disciplinar",
+          "descriptor": "Termes disciplinars especifics de la materia sense equivalent quotidia."
+        },
+        {
+          "pas_id": "pas_5_pre_lectura_visual",
+          "descriptor": "No cal."
+        },
+        {
+          "pas_id": "pas_6_coherencia_i_qualitat",
+          "descriptor": "Idem. Si un terme no te representacio visual clara, millor no posar-ne."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He identificat quins termes necessitaven un pictograma de referencia.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_emoji_vs_arasaac",
+          "descriptor": "ARASAAC o emoji per termes molt tecnics sense equivalent quotidià. Glossari visual."
+        },
+        {
+          "pas_id": "pas_2_inline_vs_glossari",
+          "descriptor": "Glossari visual al peu. Maxim 3-4 termes realment necessaris.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_3_nombre_per_text",
+          "descriptor": "1-3 al glossari visual. Termes molt especialitzats."
+        },
+        {
+          "pas_id": "pas_4_concret_vs_disciplinar",
+          "descriptor": "Termes tecnics que beneficien d'ancoratge visual."
+        },
+        {
+          "pas_id": "pas_5_pre_lectura_visual",
+          "descriptor": "No cal."
+        },
+        {
+          "pas_id": "pas_6_coherencia_i_qualitat",
+          "descriptor": "Idem. Densitat minima: nomes els termes que realment aporten."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "Idem."
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_emoji_vs_arasaac",
+          "descriptor": "Rarament. Nomes si hi ha termes molt especialitzats sense representacio coneguda."
+        },
+        {
+          "pas_id": "pas_2_inline_vs_glossari",
+          "descriptor": "Glossari visual minimal o absent."
+        },
+        {
+          "pas_id": "pas_3_nombre_per_text",
+          "descriptor": "0-2. Rarament necessari."
+        },
+        {
+          "pas_id": "pas_4_concret_vs_disciplinar",
+          "descriptor": "Termes molt especialitzats sense representacio quotidiana accessible."
+        },
+        {
+          "pas_id": "pas_5_pre_lectura_visual",
+          "descriptor": "No cal."
+        },
+        {
+          "pas_id": "pas_6_coherencia_i_qualitat",
+          "descriptor": "Idem."
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_emoji_vs_arasaac",
+      "titol": "Mode pictograma",
+      "dimensio": "Emoji vs ARASAAC",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: format emoji (unicode) o ARASAAC (`[PICTO: ...\\"
+    },
+    {
+      "id": "pas_2_inline_vs_glossari",
+      "titol": "Posicio al text",
+      "dimensio": "Inline vs glossari",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary pre-A1/A1: pictogrames inline presents (regex: detectar emojis o `[PICTO:]` dins del text); binary A2+: absencia d'inline + presencia de glossari visual al peu"
+    },
+    {
+      "id": "pas_3_nombre_per_text",
+      "titol": "Densitat",
+      "dimensio": "Nombre per text",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar pictogrames totals (emojis o marcadors `[PICTO:]`); verificar que esta dins del rang per nivell"
+    },
+    {
+      "id": "pas_4_concret_vs_disciplinar",
+      "titol": "Especificitat del concepte",
+      "dimensio": "Concret vs disciplinar",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si el concepte és visualitzable i concret (positiu) o abstracte sense representacio (negatiu); cross_source: verificar que el terme triat és pertinent al vocabulari del text font"
+    },
+    {
+      "id": "pas_5_pre_lectura_visual",
+      "titol": "Paratext d'anticipacio",
+      "dimensio": "Pre-lectura visual",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary pre-A1: presencia de seccio de vocabulari visual abans del text (`### Vocabulari del text` o equivalent); A2+: absent (correcte)"
+    },
+    {
+      "id": "pas_6_coherencia_i_qualitat",
+      "titol": "Criteris transversals",
+      "dimensio": "Coherencia i qualitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: coherencia del pictograma (mateix emoji per al mateix concepte); absencia d'emojis decoratius; qualitative: LLM-jutge sobre si els pictogrames triats son clars, universals i semanticament pertinents al text font (cross_source)"
+    },
+    {
+      "id": "pas_7_metacognicao",
+      "titol": "Autoavaluacio mediada",
+      "dimensio": "Metacognicao",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: registre docent d'observacio; A1+: derivar a vista d'autoavaluacio alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Inclou pictogrames (emoji Unicode o ARASAAC `[PICTO: cat|cast]`) nomes per a termes amb representacio visual clara que ajudin la descodificacio o l'ancoratge conceptual; mode i posicio venen determinats pel perfil i el MECR (pre-A1/A1 inline + paratext d'anticipacio; A2+ glossari visual al peu).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si un concepte concret es 'prou visualitzable' per a aquest alumne ni triar entre dos pictogrames similars al cataleg ARASAAC. La pertinenca semantica al text font i l'idoneitat per al perfil les valida el docent al Pas 3; el LLM aplica la regla de mode/posicio/densitat segons la taula de Modulacio."
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_pictogrames_al",
+      "description": "Ha activat \"Pictogrames\" al Pas 2."
+    },
+    {
+      "name": "l_alumnat_destinatari_es",
+      "description": "L'alumnat destinatari és pre-A1, A1, TEA, CAA o nouvingut amb vocabulari disciplinar."
+    },
+    {
+      "name": "el_text_te_termes",
+      "description": "El text te termes que l'alumne no pot visualitzar mentalment."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_molt",
+      "description": "El text és molt abstracte (matematiques de calcul, filosofia pura) → cap pictograma o minimal."
+    },
+    {
+      "name": "l_alumne_es_aacc",
+      "description": "L'alumne és AACC amb alta fluencia lectora → el suport visual pot distreure."
+    },
+    {
+      "name": "el_concepte_no_te",
+      "description": "El concepte no te representacio visual clara → millor no posar-ne cap."
+    },
+    {
+      "name": "il_lustracions_tematiques_contextuals",
+      "description": "Il·lustracions tematiques contextuals → complement `illustracions`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El test \"pots visualitzar-ho?\" (seleccio del mode).",
+      "descripcio": "Per a cada terme del text, pregunto: \"Pots imaginar una imatge d'aquest concepte?\" Si és un concepte escolar que no te emoji clar → ARASAAC. Si és un objecte quotidià amb emoji recognoscible → emoji. Si no hi ha cap representacio visual clara (la justicia, l'infinit) → millor no posar-ne cap."
+    },
+    {
+      "id": "H2",
+      "titol": "Pre-A1: pictograma DAVANT, sempre.",
+      "descripcio": "La sequencia es presenta el pictograma oral i visualment ABANS que l'alumne llegeixi la paraula: veure la imatge → escoltar la paraula → llegir la paraula. No al reves. El paratext d'anticipacio és la implementacio escrita d'aquesta sequencia."
+    },
+    {
+      "id": "H3",
+      "titol": "ARASAAC per a TEA: coherencia de sistema.",
+      "descripcio": "Si l'alumne amb TEA ja treballa amb un sistema de pictogrames ARASAAC amb el logoped o el/la vetllador/a, cal usar els mateixos pictogrames al text adaptat. La coherencia del sistema AAC és critica per a l'alumne amb TEA: pictogrames nous o d'un sistema diferent requereixen aprenentatge nou i poden generar confusio."
+    },
+    {
+      "id": "H4",
+      "titol": "A2+: el glossari visual és discret.",
+      "descripcio": "Posar el glossari visual al peu és respectar la fluencia lectora de l'alumne A2+. L'alumne que interromp la lectura per un emoji inline perd el fil. El glossari al peu manté el flux: llegeix, para si necessita, consulta el glossari, reprèn."
+    },
+    {
+      "id": "H5",
+      "titol": "Coherencia de l'emoji com a norma de classe.",
+      "descripcio": "Per a textos llargs o projectes multi-sessio, estableixo un \"diccionari d'emojis\" de classe: els mateixos emojis per als mateixos conceptes en tots els textos del trimestre. La coherencia entre textos reforça la memoria semantica i evita la confusio."
+    }
+  ],
+  "case_overrides": {
+    "tea_caa": {
+      "trigger": {
+        "raw": "TEA_CAA"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** perfil_in: [TEA, CAA] (independentment del MECR)\n\n**Modulacio:**\n- mode: ARASAAC obligatori (mai emoji)\n- densitat alta a pre-A1/A1 (8-10 per text)\n- paratext_anticipacio obligatori\n- coherencia_sistema_AAC: usar els mateixos pictogrames que el logoped/vetllador si existeixen.\n\n**Raonament pedagogic.** ARASAAC es l'estandard CAA internacional i la coherencia del sistema AAC es critica per a TEA."
+      }
+    },
+    "nouvingut_disciplinar_calp": {
+      "trigger": {
+        "raw": "nouvingut_disciplinar_CALP"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut: true AND text_disciplinar: true (Ciencies, Historia, Geografia, etc., fins a B1)\n\n**Modulacio:**\n- mode: ARASAAC\n- format_marcador: `[PICTO: terme_catala|terme_castella]` amb castella obligatori com a pont TOLC\n- posicio: glossari visual al peu (A2+) o inline (pre-A1/A1).\n\n**Raonament pedagogic.** els emojis no cobreixen termes CALP ('ecosistema', 'parlament'); el castella activa transferencia interlinguistica (Cummins) per a nouvinguts hispanofons."
+      }
+    },
+    "aacc": {
+      "trigger": {
+        "raw": "AACC"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc: true AND fluencia_lectora_alta: true\n\n**Modulacio:**\n- densitat: 0 o minima\n- glossari_visual: absent o nomes per a termes molt especialitzats sense representacio quotidiana\n- cap pictograma inline.\n\n**Raonament pedagogic.** el suport visual pot distreure quan l'alumne ja te fluencia lectora alta; el pictograma deixa de ser bastida i passa a ser soroll."
+      }
+    },
+    "pre_a1_a1_paratext_obligatori": {
+      "trigger": {
+        "raw": "pre_A1_A1_paratext_obligatori"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1, A1]\n\n**Modulacio:**\n- posicio: inline DAVANT de la paraula (no al costat)\n- seccio_paratext: `### Vocabulari del text (mira primer!)` obligatoria amb llista pictograma+paraula\n- densitat: 8-10 maxim per text (maxim 1-2 per frase)\n- cap glossari al peu (la funcio es bastida, no consulta).\n\n**Raonament pedagogic.** la sequencia pedagogica optima es veure imatge → escoltar paraula (docent) → llegir paraula."
+      }
+    },
+    "concepte_abstracte_sense_representacio": {
+      "trigger": {
+        "raw": "concepte_abstracte_sense_representacio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** termes_abstractes: true (justicia, infinit, calcul matematic pur, filosofia)\n\n**Modulacio:**\n- densitat: 0 o minima per al text concret\n- no forcar pictograma si no hi ha representacio visual clara\n- preferir altres complements (glossari textual, il·lustracions tematiques).\n\n**Raonament pedagogic.** un pictograma ambigu o forcat genera confusio i contradiu el principi 'context before text'."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "inline_vs_glossari",
+      "type": "qualitative",
+      "rule": "binary pre-A1/A1: pictogrames inline presents (regex: detectar emojis o `[PICTO:]` dins del text); binary A2+: absencia d'inline + presencia de glossari visual al peu"
+    },
+    {
+      "name": "nombre_per_text",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_3_nombre_per_text].countable"
+    }
+  ]
+}

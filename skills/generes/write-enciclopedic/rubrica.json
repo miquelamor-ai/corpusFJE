@@ -1,0 +1,476 @@
+{
+  "_meta": {
+    "name": "rubrica_write_enciclopedic",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-enciclopedic\\M3_genere-escriure-enciclopedic.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-enciclopedic",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "enciclopedic",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la categoria, al tret diferencial, a l'exemple i al to factual."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_precisio_i_estructura",
+          "descriptor": "1 frase ≤10 paraules. Estructura: \"X és un Y que Z.\""
+        },
+        {
+          "pas_id": "pas_2_coherencia_logica",
+          "descriptor": "Test: la definició no usa el terme per definir-se. Criteri bàsic."
+        },
+        {
+          "pas_id": "pas_3_estructura_logica",
+          "descriptor": "Categoria explícita a la primera paraula de la definició: \"és un animal / un lloc / un procés...\"."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_ancoratge",
+          "descriptor": "1 exemple molt visual i quotidià. 1 frase."
+        },
+        {
+          "pas_id": "pas_5_profunditat_i_coherencia",
+          "descriptor": "2-3 frases simples amb detalls addicionals del terme. Una característica per frase.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "Definició (1 frase) + 2-3 frases d'explicació + 1 exemple.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_sense_remissions",
+          "descriptor": "Cap remissió a altres entrades (\"vegeu també...\")."
+        },
+        {
+          "pas_id": "pas_6_sense_etimologia_inicial",
+          "descriptor": "L'etimologia no substitueix la definició. Si apareix, va darrere de la definició."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la categoria i al tret diferencial principals del terme."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He escrit una frase que diu qué és el terme. He posat un exemple.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_precisio_i_estructura",
+          "descriptor": "1 frase clara. Categoria + especificitat. Sense circularitat."
+        },
+        {
+          "pas_id": "pas_2_coherencia_logica",
+          "descriptor": "Definició que no usa el terme ni paraules de la mateixa arrel."
+        },
+        {
+          "pas_id": "pas_3_estructura_logica",
+          "descriptor": "Categoria clara: [Terme] és un [categoria] que [especificitat]."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_ancoratge",
+          "descriptor": "1 exemple concret pres del context immediat de l'alumne. Immediat a la definició."
+        },
+        {
+          "pas_id": "pas_5_profunditat_i_coherencia",
+          "descriptor": "3 frases amb detalls rellevants. Vocabulari accessible.",
+          "countable": {
+            "min": 3,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "Definició (1 frase) + 3 frases + 1 exemple."
+        },
+        {
+          "pas_id": "pas_6_sense_remissions",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_sense_etimologia_inicial",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la categoria, al tret diferencial i a l'exemple."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He dit a quina categoria pertany el terme i qué el fa diferent. He posat un exemple.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_precisio_i_estructura",
+          "descriptor": "1 frase precisa amb terminologia adequada. Sense circularitat ni sinònim com a definició."
+        },
+        {
+          "pas_id": "pas_2_coherencia_logica",
+          "descriptor": "Definició sense circularitat i sense sinònim com a definició (\"la democràcia és un govern popular\" és circular si no s'explica \"popular\")."
+        },
+        {
+          "pas_id": "pas_3_estructura_logica",
+          "descriptor": "Categoria i especificitat ben diferenciades. La categoria situa el terme dins d'una classe superordinal."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_ancoratge",
+          "descriptor": "Exemple concret + contraexemple si és útil per delimitar el concepte."
+        },
+        {
+          "pas_id": "pas_5_profunditat_i_coherencia",
+          "descriptor": "3-4 frases amb relació entre característiques. 1 terme tècnic nou introduït.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "Definició + 3-4 frases + exemple + contraexemple si escau.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_sense_remissions",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_sense_etimologia_inicial",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la categoria, al tret diferencial, a l'exemple i al to factual."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"La meva definició no usa el terme per definir-se. He explicat 2-3 característiques.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_precisio_i_estructura",
+          "descriptor": "1 frase completa amb terminologia específica de la matèria. Pot delimitar el terme respecte a termes propers."
+        },
+        {
+          "pas_id": "pas_2_coherencia_logica",
+          "descriptor": "Idem. La delimitació respecte a termes propers s'explicita a l'Explicació ampliada (Pas 5), no a la definició nuclear."
+        },
+        {
+          "pas_id": "pas_3_estructura_logica",
+          "descriptor": "Categoria dins del camp lèxic de la matèria amb precisió disciplinar."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_ancoratge",
+          "descriptor": "1-2 exemples elaborats amb connexió explícita amb la definició."
+        },
+        {
+          "pas_id": "pas_5_profunditat_i_coherencia",
+          "descriptor": "Explicació amb múltiples característiques. Comparació amb termes propers."
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "Definició + explicació (4-5 frases) + 1-2 exemples.",
+          "countable": {
+            "min": 4,
+            "max": 5,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_sense_remissions",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_sense_etimologia_inicial",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat conceptual i al context disciplinar."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He delimitat el terme respecte a termes propers. He usat vocabulari específic de la matèria.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_precisio_i_estructura",
+          "descriptor": "Definició nuclear rigorosa amb matisos terminològics i referència al debat si és rellevant."
+        },
+        {
+          "pas_id": "pas_2_coherencia_logica",
+          "descriptor": "Idem. Si hi ha debat terminològic, es recull a l'Explicació ampliada (Pas 5). La definició nuclear segueix sent binary: no usa el terme ni arrels."
+        },
+        {
+          "pas_id": "pas_3_estructura_logica",
+          "descriptor": "Categoria amb precisió i referència a la taxonomia disciplinar si escau."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_ancoratge",
+          "descriptor": "Exemples variats. Pot incloure un exemple límit o de frontera que posi a prova la definició."
+        },
+        {
+          "pas_id": "pas_5_profunditat_i_coherencia",
+          "descriptor": "Explicació completa amb matisos, variants i possibles debats sobre la delimitació del terme."
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "Text complet amb tots els matisos necessaris."
+        },
+        {
+          "pas_id": "pas_6_sense_remissions",
+          "descriptor": "Idem. La referència a termes relacionats, si escau, s'integra al cos de l'explicació sense remissió formal."
+        },
+        {
+          "pas_id": "pas_6_sense_etimologia_inicial",
+          "descriptor": "L'etimologia pot aparèixer si aporta matisos al significat, però mai com a única definició."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, als matisos i als debats si els hi ha."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He presentat el terme amb matisos, variants i possibles debats sobre la seva definició.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_precisio_i_estructura",
+      "titol": "Definició nuclear",
+      "dimensio": "Precisió i estructura",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "verificar estructura [Terme] és un [categoria] que [especificitat]; LLM-jutge sobre precisió i adequació al nivell"
+    },
+    {
+      "id": "pas_2_coherencia_logica",
+      "titol": "Absència de circularitat",
+      "dimensio": "Coherència lògica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar el terme o arrel del terme dins de la definició; regex sobre la primera frase"
+    },
+    {
+      "id": "pas_3_estructura_logica",
+      "titol": "Categoria primer",
+      "dimensio": "Estructura lògica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: categoria present a la primera frase (articles o determinants admissibles: \"és un animal\", \"és una substància\"); qualitative: categoria correcta i precisa per al nivell"
+    },
+    {
+      "id": "pas_4_accessibilitat_i_ancoratge",
+      "titol": "Exemple concret",
+      "dimensio": "Accessibilitat i ancoratge",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència d'exemple; qualitative: LLM-jutge sobre concreció i accessibilitat"
+    },
+    {
+      "id": "pas_5_profunditat_i_coherencia",
+      "titol": "Explicació ampliada",
+      "dimensio": "Profunditat i coherència",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar frases d'explicació; LLM-jutge sobre relació entre característiques (B1+)"
+    },
+    {
+      "id": "pas_6_llargada",
+      "titol": "Criteris transversals",
+      "dimensio": "Llargada",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar frases totals per bloc (definició + explicació + exemple); verificar llindar per nivell"
+    },
+    {
+      "id": "pas_6_sense_remissions",
+      "titol": "Criteris transversals",
+      "dimensio": "Sense remissions",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar \"vegeu\", \"vegeu també\", \"veure\" com a remissions a altres entrades"
+    },
+    {
+      "id": "pas_6_sense_etimologia_inicial",
+      "titol": "Criteris transversals",
+      "dimensio": "Sense etimologia inicial",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar si la primera frase és etimologia en lloc de definició; patrons: \"prové del llatí\", \"del grec\""
+    },
+    {
+      "id": "pas_6_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar categoria, tret diferencial i exemple original vs adaptat; LLM-jutge sobre fidelitat del to factual (B1+)"
+    },
+    {
+      "id": "pas_7_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta SEMPRE una entrada enciclopèdica amb tres components obligatoris en aquest ordre: (1) Definició nuclear d'una frase amb la fórmula \"[Terme] és un/una [categoria] que [especificitat]\", (2) Explicació ampliada de 2-5 frases segons MECR, i (3) Exemple concret. NO incloguis remissions a altres entrades (\"vegeu també...\") ni etimologia com a substituta de la definició.",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir el grau de precisió disciplinar de la categoria ni jutjar si l'exemple triat és el més rellevant pedagògicament per a l'alumne concret. La selecció de la categoria correcta dins de la taxonomia de la matèria, l'adequació de l'exemple al coneixement previ de l'aula i la decisió sobre quins matisos terminològics introduir (C1) són del docent."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una entrada d'enciclopèdia, un diccionari especialitzat, un glossari curricular o una fitxa terminològica."
+    },
+    {
+      "name": "la_unitat_de_qualsevol",
+      "description": "La unitat de qualsevol matèria treballa terminologia nova que l'alumne ha d'interioritzar i usar amb precisió."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir per aprendre a definir un terme, no per aprendre un procés o un argument."
+    },
+    {
+      "name": "la_materia_demana_que",
+      "description": "La matèria demana que l'alumne pugui diferenciar un terme d'altri terme proper (contraexemple)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_presenta_les",
+      "description": "El text presenta les característiques generals d'un objecte en ordre espacial → descripció."
+    },
+    {
+      "name": "el_text_explica_com",
+      "description": "El text explica com funciona un fenomen → divulgatiu."
+    },
+    {
+      "name": "el_text_narra_la",
+      "description": "El text narra la vida d'una persona → biografia."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La fórmula màgica.",
+      "descripcio": "\"El/La ___ és un/una [categoria] que [característica diferencial].\" Dos passos: (1) identificar la categoria (quin tipus de cosa és?); (2) dir qué el fa diferent d'altres coses de la mateixa categoria. A A1 proposo que l'alumne triï la categoria d'una llista de 4-5 opcions que jo preparo per a la matèria."
+    },
+    {
+      "id": "H2",
+      "titol": "El test de la circularitat.",
+      "descripcio": "\"Si no coneixies aquesta paraula i llegeixes la teva definició, l'entendries?\" Si la resposta és \"no\" o \"potser\", cal tornar a escriure. Una variant més explícita per a A1-A2: \"Tapa el terme amb el dit. Llegeix la definició. Podries endevinar el terme? Si sí, la definició és bona.\""
+    },
+    {
+      "id": "H3",
+      "titol": "El contraexemple com a eina de precisió.",
+      "descripcio": "A B1+, proposo: \"Posa un exemple de [terme] i un exemple de [terme proper que NO és el terme].\" El contraexemple força la precisió de la definició: si l'alumne no pot posar un contraexemple, la definició és massa àmplia. Exemple: \"la balena és un mamífer (exemple) / el tauró no és un mamífer (contraexemple), per tant la definició de mamífer ha d'excloure el tauró\"."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr: A1 AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- max_paraules_definicio: 10\n- estructura_fixada: \"X és un Y que Z\"\n- categoria_triada_d_una_llista_docent: true\n- max_frases_explicacio: 2\n- exemple_obligatoriament_visual_quotidia: true"
+      }
+    },
+    "cross_source_adaptacio": {
+      "trigger": {
+        "raw": "cross_source_adaptacio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** agent_role: adapter AND text_font_disponible: true\n\n**Modulació:**\n- fidelitat_categoria_original: obligatoria\n- fidelitat_tret_diferencial: obligatoria (A1+)\n- fidelitat_exemple: obligatoria (A2+)\n- fidelitat_to_factual: obligatoria (B1+)\n- fidelitat_matisos_i_debats: obligatoria (C1)"
+      }
+    },
+    "c1_debat_terminologic": {
+      "trigger": {
+        "raw": "C1_debat_terminologic"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr: C1 AND terme_te_debat_disciplinar_documentat: true\n\n**Modulació:**\n- definicio_nuclear_segueix_binary: no_usa_terme_ni_arrels\n- debat_integrat_a_explicacio_ampliada: true\n- debat_mai_a_definicio_nuclear: true"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "coherencia_logica",
+      "type": "qualitative",
+      "rule": "detectar el terme o arrel del terme dins de la definició; regex sobre la primera frase"
+    },
+    {
+      "name": "llargada",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_6_llargada].countable"
+    },
+    {
+      "name": "sense_remissions",
+      "type": "qualitative",
+      "rule": "regex: detectar \"vegeu\", \"vegeu també\", \"veure\" com a remissions a altres entrades"
+    }
+  ]
+}

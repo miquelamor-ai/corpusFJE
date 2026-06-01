@@ -46,6 +46,14 @@ El reglament és un text normatiu que regula conductes en un context social o in
 Aquesta rúbrica descriu el **reglament adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un reglament organitzat per grups tematics, amb cada norma redactada en imperatiu directe, una sola conducta per item, formulacio positiva primer i conseqüencies en un bloc final separat; els parametres quantitatius i estructurals (nombre de grups, paraules per norma, granularitat) segueixen la columna MECR corresponent de la taula de Modulacio.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si una norma del reglament font es pedagogicament adequada, justa o pertinent per al context concret, ni inventa normes que no apareguin al text font; aquest judici el manté qui ensenya, que podra esborrar, afegir o reformular normes al Pas 3 (esborrar, regenerar per grup, editar manualment). Tampoc no jutja la rao de ser del reglament: nomes en modula la forma segons MECR.
+
+_Excepcions: vegeu Casos especials._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a reglament):
@@ -90,6 +98,61 @@ Aquesta rúbrica descriu el **reglament adaptat per a la LECTURA** de l'alumne. 
 |  | Fidelitat al text font | Fidelitat a les normes principals i als grups temàtics del text font. | Fidelitat a les normes, als grups temàtics i a les conseqüències essencials. | Fidelitat a les normes, als grups temàtics, a les conseqüències i al to institucional del text font. | Fidelitat a la complexitat normativa i al marc institucional del text original. | Fidelitat a la complexitat, al marc institucional i als procediments de resolució del text original. |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit normes en imperatiu. He posat 1 conducta per norma. He posat primer el que s'ha de fer." | "He agrupat les normes per temes. He posat primer el que s'ha de fer. He separat les conseqüències." | "Cada norma és positiva i autònoma. El bloc de conseqüències está separat i lligat a les normes." | "El reglament té preàmbul, normes per temes i conseqüències graduades. Totes les normes son en imperatiu." | "El reglament és complet, consistent i aplicable. Qualsevol persona podria complir-lo i aplicar-lo sense explicació addicional." |
 
+## Casos especials
+
+
+### DUA_acces
+
+**Trigger:** dua_equals: Acces (TEA, TDL, dislexia, DI lleu) AND mecr_in: [A1, A2]
+
+**Modulació:**
+- max_paraules_per_norma: 6 estricte fins i tot a A2
+- rati_positiu_negatiu: minim 80% normes positives
+- un sol grup tematic per pagina visual si es renderitza
+- titols de grup literals i concrets sense metafores ('A classe', 'Al pati')
+- conseqüencies redactades com a oracio condicional curta ('Si ___, ___.')
+
+**Raonament pedagògic.** la previsibilitat estructural i la concrecio lexica son condicio d'acces, coherent amb DUA Principi II i comunicacio clara per a perfils amb dificultat de processament textual.
+
+### nouvingut_L1
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [A1, A2]
+
+**Modulació:**
+- imperatiu_2a_singular consistent a tot el document (no alternar singular/plural fins a B1)
+- evitar modals i circumloquis ('hauries de', 'seria bo que')
+- titols de grup en lexic d'alta frequencia escolar
+- norma positiva sempre abans de la negativa equivalent dins del grup
+- aprofitar el reglament per ancorar lexic de convivencia transversal (respectar, escoltar, esperar el torn)
+
+**Raonament pedagògic.** el genere reglament es institucional alt i pot resultar opac per a alumnat nouvingut; la consistencia gramatical i la formulacio positiva faciliten la comprensio del 'tothom' implicit i activen translanguaging conceptual (MALL, Cummins) tot i que el genere no preveu columna L1.
+
+### AACC
+
+**Trigger:** aacc: true AND mecr_in: [B1, B2, C1]
+
+**Modulació:**
+- incloure_preambul argumentatiu obligatori amb la rao de ser del reglament i els valors que protegeix
+- afegir bloc opcional 'Procediment de revisio' al final (com s'esmena el reglament, qui hi participa)
+- conseqüencies graduades amb procediment de mediacio explicit
+- obrir HCL Argumentar (B1+) al preambul i HCL Justificar als titols de grup
+
+**Raonament pedagògic.** l'alumnat AACC necessita densitat conceptual i obertura a la negociacio normativa; el reglament esdeve objecte d'analisi critica i de proposta de millora (Puig Rovira, democracia escolar), no nomes text a complir.
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- max_2_grups_tematics
+- max_3_normes_per_grup
+- max_paraules_per_norma: 5
+- titols de grup d'1-2 paraules
+- sense preambul
+- bloc de conseqüencies redactat com a una sola frase global ('Si no respectes una norma, en parlem amb el tutor.')
+
+**Raonament pedagògic.** a fase alfabetica emergent dins A1, la carrega de descodificacio es alta; reduir cardinalitat i extensio garanteix que la lectura del reglament sigui assolible i no es converteixi en barrera d'acces a la convivencia.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -132,6 +195,38 @@ A B1+, proposo que l'alumne construeixi parells norma-conseqüència com a oraci
 
 **H4 — Un ítem, una post-it.**
 Per a A1-A2, proposo escriure cada norma en un post-it separat. Llavors, agrupar els post-its per temes i ordenar-los (positiu abans de negatiu). La manipulació física fa visible l'estructura del reglament i evita el problema de les normes compostes: si una norma no cap en un post-it amb ≤6 paraules, n'hi ha dues.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Reglament
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Preàmbul
+### {Grup temàtic}
+### Conseqüències
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+cap
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Normes
+## Sancions
+```
+
+**Regla d'integritat estructural.** H2 unic '## Reglament'. '### Preàmbul' opcional B1+. Un H3 per grup tematic amb titol literal. '### Conseqüències' obligatori al final. Sense H3 '## Normes/Sancions'. Una norma per item, imperatiu directe, sense passiva als items.
 
 ## Fonts principals
 

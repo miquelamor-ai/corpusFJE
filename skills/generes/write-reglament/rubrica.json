@@ -1,0 +1,468 @@
+{
+  "_meta": {
+    "name": "rubrica_write_reglament",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-reglament\\M3_genere-escriure-reglament.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-reglament",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "reglament",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a les normes, als grups temàtics, a les conseqüències i al to institucional del text font."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_organitzacio_i_coherencia",
+          "descriptor": "2 grups temàtics. Títol de grup molt curt (1-2 paraules: \"A classe\", \"Al passadís\"). 2-3 normes per grup.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_claredat_i_precisio",
+          "descriptor": "Verb imperatiu + objecte. ≤6 paraules per norma. 1 conducta per norma."
+        },
+        {
+          "pas_id": "pas_3_registre_normatiu",
+          "descriptor": "Imperatiu de 2a singular consistent: \"Respecta\", \"Escolta\", \"Guarda\". Cap passiva ni impersonal."
+        },
+        {
+          "pas_id": "pas_4_granularitat_i_claredat",
+          "descriptor": "Estrictament 1 conducta per ítem. Cap conjunció coordinada dins d'una norma (\"i\", \"ni\")."
+        },
+        {
+          "pas_id": "pas_5_orientacio_pedagogica",
+          "descriptor": "La norma formula el que s'ha de fer (\"Demana la paraula\"), no el que no s'ha de fer."
+        },
+        {
+          "pas_id": "pas_6_estructura_i_claredat",
+          "descriptor": "Si hi ha conseqüències, estan en un bloc final separat de les normes. 1 frase per conseqüència."
+        },
+        {
+          "pas_id": "pas_7_no_justificacio_dins",
+          "descriptor": "Cap \"perquè\" ni raonament dins de l'ítem de norma. La norma és una prescripció, no una argumentació."
+        },
+        {
+          "pas_id": "pas_7_no_passiva_ni",
+          "descriptor": "Cap \"s'ha de\", \"cal\", \"es prohibeix\" als ítems de norma. Imperatiu directe consistent."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les normes principals i als grups temàtics del text font."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He escrit normes en imperatiu. He posat 1 conducta per norma. He posat primer el que s'ha de fer.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_organitzacio_i_coherencia",
+          "descriptor": "2-3 grups temàtics amb títol curt. 3-4 normes per grup."
+        },
+        {
+          "pas_id": "pas_2_claredat_i_precisio",
+          "descriptor": "Verb imperatiu + objecte + context breu. ≤10 paraules per norma."
+        },
+        {
+          "pas_id": "pas_3_registre_normatiu",
+          "descriptor": "Idem. Imperatiu de 2a singular o de 2a plural (\"Respecteu\") si el context és col·lectiu."
+        },
+        {
+          "pas_id": "pas_4_granularitat_i_claredat",
+          "descriptor": "Idem. Cap norma composta. Si es detecten dues conductes, es divideix en dos ítems."
+        },
+        {
+          "pas_id": "pas_5_orientacio_pedagogica",
+          "descriptor": "Idem. Si cal una norma negativa, va darrere de la positiva equivalent."
+        },
+        {
+          "pas_id": "pas_6_estructura_i_claredat",
+          "descriptor": "Bloc de conseqüències separat. Cada conseqüència lligada a un grup temàtic o a una norma concreta."
+        },
+        {
+          "pas_id": "pas_7_no_justificacio_dins",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_no_passiva_ni",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les normes, als grups temàtics i a les conseqüències essencials."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He agrupat les normes per temes. He posat primer el que s'ha de fer. He separat les conseqüències.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_organitzacio_i_coherencia",
+          "descriptor": "3-4 grups temàtics. Títols de grup que expliciten l'àmbit (\"A l'espai comú\", \"Amb els materials\")."
+        },
+        {
+          "pas_id": "pas_2_claredat_i_precisio",
+          "descriptor": "Norma completa i autònoma. Pot incloure el context si determina l'aplicació (\"Als passadissos, camina\")."
+        },
+        {
+          "pas_id": "pas_3_registre_normatiu",
+          "descriptor": "Idem. Pot alternar imperatiu singular/plural segons el destinatari de cada grup temàtic."
+        },
+        {
+          "pas_id": "pas_4_granularitat_i_claredat",
+          "descriptor": "Idem. Cada ítem és atòmic: no pot descompondre's en subnormes sense perdre sentit."
+        },
+        {
+          "pas_id": "pas_5_orientacio_pedagogica",
+          "descriptor": "Idem. Revisió sistemàtica: cada \"No X\" té una formulació positiva equivalent."
+        },
+        {
+          "pas_id": "pas_6_estructura_i_claredat",
+          "descriptor": "Bloc de conseqüències amb estructura \"Si [norma incomplerta] → [conseqüència]\". Conseqüència educativa."
+        },
+        {
+          "pas_id": "pas_7_no_justificacio_dins",
+          "descriptor": "Idem. Si s'inclou un preàmbul amb la raó de ser del reglament, és un bloc separat i inicial."
+        },
+        {
+          "pas_id": "pas_7_no_passiva_ni",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les normes, als grups temàtics, a les conseqüències i al to institucional del text font."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"Cada norma és positiva i autònoma. El bloc de conseqüències está separat i lligat a les normes.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_organitzacio_i_coherencia",
+          "descriptor": "4-6 grups temàtics. Progressió lògica dels àmbits (de l'individual al col·lectiu o d'intern a extern)."
+        },
+        {
+          "pas_id": "pas_2_claredat_i_precisio",
+          "descriptor": "Norma completa amb subjecte implícit clar. Pot incloure condicions d'aplicació simples."
+        },
+        {
+          "pas_id": "pas_3_registre_normatiu",
+          "descriptor": "Idem. Pot usar l'infinitiu normatiu com a variant registral (\"Respectar els torns de paraula\")."
+        },
+        {
+          "pas_id": "pas_4_granularitat_i_claredat",
+          "descriptor": "Idem. La granularitat és coherent dins de cada grup temàtic."
+        },
+        {
+          "pas_id": "pas_5_orientacio_pedagogica",
+          "descriptor": "Idem. El reglament reflecteix una orientació positiva global. Les normes negatives son excepcions justificades."
+        },
+        {
+          "pas_id": "pas_6_estructura_i_claredat",
+          "descriptor": "Bloc de conseqüències graduat (amonestació / mediació / sanció). Lligat explícitament a les normes."
+        },
+        {
+          "pas_id": "pas_7_no_justificacio_dins",
+          "descriptor": "Idem. El preàmbul (si n'hi ha) argumenta el context i els valors; les normes prescriuen sense justificar."
+        },
+        {
+          "pas_id": "pas_7_no_passiva_ni",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat normativa i al marc institucional del text original."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El reglament té preàmbul, normes per temes i conseqüències graduades. Totes les normes son en imperatiu.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_organitzacio_i_coherencia",
+          "descriptor": "Estructura temàtica completa i coherent. Progressió que reflecteix la jerarquia de valors del reglament."
+        },
+        {
+          "pas_id": "pas_2_claredat_i_precisio",
+          "descriptor": "Norma tècnicament precisa. Pot incloure l'abast (\"tothom\", \"en tot moment\") quan és rellevant."
+        },
+        {
+          "pas_id": "pas_3_registre_normatiu",
+          "descriptor": "Idem. Imperatiu o infinitiu normatiu, consistents dins de cada grup temàtic. Registre institucional precís."
+        },
+        {
+          "pas_id": "pas_4_granularitat_i_claredat",
+          "descriptor": "Idem. La granularitat és consistent a tot el reglament. Cap norma és redundant amb una altra."
+        },
+        {
+          "pas_id": "pas_5_orientacio_pedagogica",
+          "descriptor": "Idem. El reglament equilibra normes de conducta esperada i normes de conducta prohibida. La ràtio positiu/negatiu reflecteix els valors del context."
+        },
+        {
+          "pas_id": "pas_6_estructura_i_claredat",
+          "descriptor": "Bloc de conseqüències complet i proporcional. Pot incloure el procediment de resolució de conflictes."
+        },
+        {
+          "pas_id": "pas_7_no_justificacio_dins",
+          "descriptor": "Idem. La distinció prescripció/argumentació és nítida a tot el document."
+        },
+        {
+          "pas_id": "pas_7_no_passiva_ni",
+          "descriptor": "Idem. La passiva i l'impersonal son admissibles al preàmbul o al bloc de conseqüències, no als ítems."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, al marc institucional i als procediments de resolució del text original."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El reglament és complet, consistent i aplicable. Qualsevol persona podria complir-lo i aplicar-lo sense explicació addicional.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_organitzacio_i_coherencia",
+      "titol": "Agrupació temàtica",
+      "dimensio": "Organització i coherència",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar grups temàtics i normes per grup; qualitative: LLM-jutge sobre si els títols de grup son coherents amb l'àmbit que cobreixen"
+    },
+    {
+      "id": "pas_2_claredat_i_precisio",
+      "titol": "Format de la norma",
+      "dimensio": "Claredat i precisió",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "binary: verb imperatiu present a cada ítem; countable: comptar paraules per norma (≤6 A1, ≤10 A2); detectar normes sense verb principal"
+    },
+    {
+      "id": "pas_3_registre_normatiu",
+      "titol": "Veu imperativa directa",
+      "dimensio": "Registre normatiu",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar \"s'ha de\", \"cal\", \"es prohibeix\", \"es permet\", passiva reflexa als ítems de norma; binary: absent compleix"
+    },
+    {
+      "id": "pas_4_granularitat_i_claredat",
+      "titol": "Una norma per ítem",
+      "dimensio": "Granularitat i claredat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar conjuncions coordinades dins d'una norma (\"i\", \"ni\", \"o\") que introdueixin una segona conducta; structural: detectar normes compostes amb dues clàusules verbals"
+    },
+    {
+      "id": "pas_5_orientacio_pedagogica",
+      "titol": "Positiu primer",
+      "dimensio": "Orientació pedagògica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar ítems que comencen per \"No\" o \"Prohibit\" o \"Mai\" sense ítem positiu equivalent anterior dins del grup; qualitative: LLM-jutge sobre la ràtio positiu/negatiu global"
+    },
+    {
+      "id": "pas_6_estructura_i_claredat",
+      "titol": "Conseqüències separades",
+      "dimensio": "Estructura i claredat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar mencions de conseqüències dins dels ítems de norma (no en bloc final); structural: verificar si les conseqüències estan en un bloc separat i lligat a les normes"
+    },
+    {
+      "id": "pas_7_no_justificacio_dins",
+      "titol": "Criteris transversals",
+      "dimensio": "No justificació dins la norma",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar \"perquè\", \"ja que\", \"donat que\", \"per tal que\" dins dels ítems de norma; binary: absent compleix"
+    },
+    {
+      "id": "pas_7_no_passiva_ni",
+      "titol": "Criteris transversals",
+      "dimensio": "No passiva ni impersonal",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar \"s'ha de + infinitiu\", \"cal + infinitiu\", \"es + verb reflexiu normatiu\" als ítems; binary: absent compleix; passiva admesa al preàmbul i al bloc de conseqüències"
+    },
+    {
+      "id": "pas_7_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar grups temàtics, normes principals i conseqüències original vs adaptat; LLM-jutge sobre si la simplificació preserva el marc normatiu"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un reglament organitzat per grups tematics, amb cada norma redactada en imperatiu directe, una sola conducta per item, formulacio positiva primer i conseqüencies en un bloc final separat; els parametres quantitatius i estructurals (nombre de grups, paraules per norma, granularitat) segueixen la columna MECR corresponent de la taula de Modulacio.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si una norma del reglament font es pedagogicament adequada, justa o pertinent per al context concret, ni inventa normes que no apareguin al text font; aquest judici el manté qui ensenya, que podra esborrar, afegir o reformular normes al Pas 3 (esborrar, regenerar per grup, editar manualment). Tampoc no jutja la rao de ser del reglament: nomes en modula la forma segons MECR."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un reglament de centre, un codi de convivència, unes normes d'aula o un reglament esportiu."
+    },
+    {
+      "name": "la_unitat_treballa_la",
+      "description": "La unitat treballa la convivència, la ciutadania, els drets i deures o la regulació de conductes socials."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir per comprendre les normes que l'afecten i per poder-les aplicar o elaborar."
+    },
+    {
+      "name": "l_activitat_preveu_que",
+      "description": "L'activitat preveu que l'alumne elabori les normes d'aula, del grup o d'un projecte col·lectiu."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dóna instruccions pas a pas per fer una tasca concreta → instructiu."
+    },
+    {
+      "name": "el_text_explica_per",
+      "description": "El text explica per qué existeix una norma o argumenta la seva necessitat → assaig o divulgatiu."
+    },
+    {
+      "name": "el_text_descriu_conductes",
+      "description": "El text descriu conductes socials o pràctiques culturals → descripció o informe."
+    },
+    {
+      "name": "el_text_narra_una",
+      "description": "El text narra una situació de conflicte o una experiència → crònica o diari."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El reglament en primera persona del plural.",
+      "descripcio": "Proposo que l'aula elabori el reglament en primera persona del plural: \"Ens comprometem a respectar els torns de paraula\" en lloc de \"Respecteu els torns de paraula\". La primera persona del plural transforma la norma imposada en un compromís col·lectiu. L'alumnat nouvingut entén que la norma és de tothom i per a tothom, no una instrucció dirigida a ell."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Digue-ho en positiu\".",
+      "descripcio": "Per a cada norma negativa (\"No córrer\"), demano: \"Com es diu el que s'ha de fer?\" (\"Camina pels passadissos\"). Transformar el negatiu en positiu és un exercici de reformulació lingüística i de comprensió dels valors que la norma protegeix. Funciona a tots els nivells MECR."
+    },
+    {
+      "id": "H3",
+      "titol": "La norma i la conseqüència com a estructura causal.",
+      "descripcio": "A B1+, proposo que l'alumne construeixi parells norma-conseqüència com a oracions condicionals: \"Si no respectes el torn de paraula, el docent et demanarà que esperis.\" Explicitant la causalitat, l'alumne comprèn la funció educativa (no punitiva) del reglament. És una bastida per a la HCL Argumentar."
+    },
+    {
+      "id": "H4",
+      "titol": "Un ítem, una post-it.",
+      "descripcio": "Per a A1-A2, proposo escriure cada norma en un post-it separat. Llavors, agrupar els post-its per temes i ordenar-los (positiu abans de negatiu). La manipulació física fa visible l'estructura del reglament i evita el problema de les normes compostes: si una norma no cap en un post-it amb ≤6 paraules, n'hi ha dues."
+    }
+  ],
+  "case_overrides": {
+    "dua_acces": {
+      "trigger": {
+        "raw": "DUA_acces"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces (TEA, TDL, dislexia, DI lleu) AND mecr_in: [A1, A2]\n\n**Modulació:**\n- max_paraules_per_norma: 6 estricte fins i tot a A2\n- rati_positiu_negatiu: minim 80% normes positives\n- un sol grup tematic per pagina visual si es renderitza\n- titols de grup literals i concrets sense metafores ('A classe', 'Al pati')\n- conseqüencies redactades com a oracio condicional curta ('Si ___, ___.')\n\n**Raonament pedagògic.** la previsibilitat estructural i la concrecio lexica son condic"
+      }
+    },
+    "nouvingut_l1": {
+      "trigger": {
+        "raw": "nouvingut_L1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND mecr_in: [A1, A2]\n\n**Modulació:**\n- imperatiu_2a_singular consistent a tot el document (no alternar singular/plural fins a B1)\n- evitar modals i circumloquis ('hauries de', 'seria bo que')\n- titols de grup en lexic d'alta frequencia escolar\n- norma positiva sempre abans de la negativa equivalent dins del grup\n- aprofitar el reglament per ancorar lexic de convivencia transversal (respectar, escoltar, esperar el torn)\n\n**Raonament pedagògic.** el genere reglamen"
+      }
+    },
+    "aacc": {
+      "trigger": {
+        "raw": "AACC"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc: true AND mecr_in: [B1, B2, C1]\n\n**Modulació:**\n- incloure_preambul argumentatiu obligatori amb la rao de ser del reglament i els valors que protegeix\n- afegir bloc opcional 'Procediment de revisio' al final (com s'esmena el reglament, qui hi participa)\n- conseqüencies graduades amb procediment de mediacio explicit\n- obrir HCL Argumentar (B1+) al preambul i HCL Justificar als titols de grup\n\n**Raonament pedagògic.** l'alumnat AACC necessita densitat conceptual i obertura a la n"
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- max_2_grups_tematics\n- max_3_normes_per_grup\n- max_paraules_per_norma: 5\n- titols de grup d'1-2 paraules\n- sense preambul\n- bloc de conseqüencies redactat com a una sola frase global ('Si no respectes una norma, en parlem amb el tutor.')\n\n**Raonament pedagògic.** a fase alfabetica emergent dins A1, la carrega de descodificacio es alta; reduir cardinalitat i extensio garanteix que la lectura del reglament "
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "registre_normatiu",
+      "type": "qualitative",
+      "rule": "regex: detectar \"s'ha de\", \"cal\", \"es prohibeix\", \"es permet\", passiva reflexa als ítems de norma; binary: absent compleix"
+    },
+    {
+      "name": "no_justificacio_dins_la_norma",
+      "type": "qualitative",
+      "rule": "regex: detectar \"perquè\", \"ja que\", \"donat que\", \"per tal que\" dins dels ítems de norma; binary: absent compleix"
+    },
+    {
+      "name": "no_passiva_ni_impersonal",
+      "type": "qualitative",
+      "rule": "regex: detectar \"s'ha de + infinitiu\", \"cal + infinitiu\", \"es + verb reflexiu normatiu\" als ítems; binary: absent compleix; passiva admesa al preàmbul i al bloc de conseqüències"
+    }
+  ]
+}

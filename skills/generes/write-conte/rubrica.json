@@ -1,0 +1,611 @@
+{
+  "_meta": {
+    "name": "rubrica_write_conte",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-conte\\M3_genere-escriure-conte.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-conte",
+    "family": "generes",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "conte",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la veu narrativa, el to, els recursos literaris i la intenció estètica."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_personatges_i_context",
+          "descriptor": "Adult narra. L'alumne assenyala el personatge principal a la imatge."
+        },
+        {
+          "pas_id": "pas_2_obstacle_i_causa",
+          "descriptor": "Adult explica el problema. L'alumne escolta i assenyala la imatge del conflicte."
+        },
+        {
+          "pas_id": "pas_3_ordre_i_causalitat",
+          "descriptor": "2-3 imatges amb una frase oral per imatge. L'adult transcriu si l'alumne dicta."
+        },
+        {
+          "pas_id": "pas_4_punt_de_maxima",
+          "descriptor": "L'adult assenyala el moment de tensió. L'alumne el reconeix (\"aquí és on tot va malament\")."
+        },
+        {
+          "pas_id": "pas_5_coherencia_i_tancament",
+          "descriptor": "L'adult llegeix la resolució. L'alumne identifica si ha anat bé o malament."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_situacio",
+          "descriptor": "Cap escriptura d'emocions. L'adult pot preguntar oralment \"Com es sent?\""
+        },
+        {
+          "pas_id": "pas_7_atribucio_i_funcio",
+          "descriptor": "Sense diàleg escrit. L'adult pot dramatitzar les veus oralment."
+        },
+        {
+          "pas_id": "pas_8_cronologia",
+          "descriptor": "Imatges en ordre. L'adult sostè la seqüència."
+        },
+        {
+          "pas_id": "pas_8_temps_verbals",
+          "descriptor": "L'adult usa el passat simple. L'alumne imita."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat al personatge i l'acció nuclear (qui, on, què passa)."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He vist les imatges i he dit el que passa a cada una.\" (oral, mediat per l'adult)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_personatges_i_context",
+          "descriptor": "1 personatge + 1 lloc en 1-2 frases. Sense descripció de trets.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_obstacle_i_causa",
+          "descriptor": "1 problema en 1 frase. \"El lleó té gana però no hi ha menjar.\""
+        },
+        {
+          "pas_id": "pas_3_ordre_i_causalitat",
+          "descriptor": "2-3 frases de fets en ordre cronològic. Sense connectors causals obligatoris.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_punt_de_maxima",
+          "descriptor": "1 frase sobre el moment decisiu. Visual i inequívoc."
+        },
+        {
+          "pas_id": "pas_5_coherencia_i_tancament",
+          "descriptor": "1 frase de resolució. Positiva o negativa, clara i inequívoca."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_situacio",
+          "descriptor": "1 emoció nomenada en un moment clau. Vocabulari bàsic (\"content\", \"trist\", \"tenia por\")."
+        },
+        {
+          "pas_id": "pas_7_atribucio_i_funcio",
+          "descriptor": "Sense diàleg o 1 frase molt simple, clarament atribuïda."
+        },
+        {
+          "pas_id": "pas_8_cronologia",
+          "descriptor": "Ordre temporal clar. No flashbacks."
+        },
+        {
+          "pas_id": "pas_8_temps_verbals",
+          "descriptor": "Passat simple consistent. Cap barreja amb present."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat al personatge, l'acció i el final."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He escrit qui és el personatge, on és i què li passa. He escrit el final.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_personatges_i_context",
+          "descriptor": "1-2 personatges amb un tret cadascun. Lloc en 1 frase de context."
+        },
+        {
+          "pas_id": "pas_2_obstacle_i_causa",
+          "descriptor": "Conflicte clar: el personatge vol X però hi ha un obstacle. Causa no obligatòria."
+        },
+        {
+          "pas_id": "pas_3_ordre_i_causalitat",
+          "descriptor": "3-4 frases ordenades amb connectors temporals simples (\"primer\", \"després\", \"llavors\").",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_punt_de_maxima",
+          "descriptor": "El moment de màxima tensió es pot identificar clarament al text."
+        },
+        {
+          "pas_id": "pas_5_coherencia_i_tancament",
+          "descriptor": "Resolució en 1-2 frases. Coherent amb el conflicte plantejat.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_varietat_i_situacio",
+          "descriptor": "1-2 emocions nomenades situades en moments clau del conte."
+        },
+        {
+          "pas_id": "pas_7_atribucio_i_funcio",
+          "descriptor": "1-2 torns de diàleg atribuïts per nom (\"En Marc va dir: '...'\"). Diàleg informatiu.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_8_cronologia",
+          "descriptor": "Connectors temporals garanteixen l'ordre. No flashbacks."
+        },
+        {
+          "pas_id": "pas_8_temps_verbals",
+          "descriptor": "Passat simple consistent. Imperfet per a descripcions (\"era\", \"tenia\")."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat al personatge, l'acció, el conflicte i el final."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"El meu conte té un problema i un final. He nomenat com se sent el personatge.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_personatges_i_context",
+          "descriptor": "1-2 personatges amb tret i desig inicial clars. Lloc amb ambient breu."
+        },
+        {
+          "pas_id": "pas_2_obstacle_i_causa",
+          "descriptor": "Conflicte amb causa explícita. L'obstacle és comprensible per al lector."
+        },
+        {
+          "pas_id": "pas_3_ordre_i_causalitat",
+          "descriptor": "3-4 esdeveniments amb connectors variats (temporals + causals). Causa i efecte explícits."
+        },
+        {
+          "pas_id": "pas_4_punt_de_maxima",
+          "descriptor": "Clímax marcat amb connector de contrast (\"però\", \"de sobte\"). Tensió nomenada."
+        },
+        {
+          "pas_id": "pas_5_coherencia_i_tancament",
+          "descriptor": "Resolució que connecta causalment amb el conflicte (com s'ha resolt)."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_situacio",
+          "descriptor": "2-3 emocions variades situades en el moment de l'acció. Connexió causa-emoció explícita."
+        },
+        {
+          "pas_id": "pas_7_atribucio_i_funcio",
+          "descriptor": "2-3 torns de diàleg atribuïts que fan avançar la trama. Veus diferenciades per nom.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_8_cronologia",
+          "descriptor": "Cronologia lineal estricta. Connectors causals i temporals variats. No flashbacks."
+        },
+        {
+          "pas_id": "pas_8_temps_verbals",
+          "descriptor": "Passat simple + imperfet correctes. Pluscuamperfet bàsic admissible."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat al conflicte, la seqüència principal i el to general."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He escrit els 5 moments del conte en ordre. He explicat per què el personatge fa el que fa.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_personatges_i_context",
+          "descriptor": "Personatges amb motivació explícita. Context temporal i espacial integrat al relat."
+        },
+        {
+          "pas_id": "pas_2_obstacle_i_causa",
+          "descriptor": "Conflicte amb dimensió emocional. La causa s'explicita i impacta el personatge."
+        },
+        {
+          "pas_id": "pas_3_ordre_i_causalitat",
+          "descriptor": "Seqüència de 4-5 actes amb causa-efecte i tensió creixent cap al clímax."
+        },
+        {
+          "pas_id": "pas_4_punt_de_maxima",
+          "descriptor": "Clímax amb emoció nomenada del personatge + acció decisiva. Tensió crescuda gradualment."
+        },
+        {
+          "pas_id": "pas_5_coherencia_i_tancament",
+          "descriptor": "Resolució amb reflex emocional del personatge. Final tancat amb matís moderat."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_situacio",
+          "descriptor": "Emocions integrades al text sense aparèixer llistades. Matisades i variades."
+        },
+        {
+          "pas_id": "pas_7_atribucio_i_funcio",
+          "descriptor": "Diàleg que revela caràcter o conflicte. Format narratiu o teatral ben marcat."
+        },
+        {
+          "pas_id": "pas_8_cronologia",
+          "descriptor": "Cronologia lineal. Pot incloure una pausa narrativa breu (aturada reflexiva)."
+        },
+        {
+          "pas_id": "pas_8_temps_verbals",
+          "descriptor": "Temps narratius consistents. Usos elaborats del pluscuamperfet."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat al matís emocional, el to i les relacions entre personatges."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"El meu conte té tensió creixent i resolució coherent. Les emocions estan integrades al text, no llistades.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_personatges_i_context",
+          "descriptor": "Personatges complexos amb motivació i tensió interna. Context ric i funcional per a la trama."
+        },
+        {
+          "pas_id": "pas_2_obstacle_i_causa",
+          "descriptor": "Conflicte complex: pot incloure tensions morals, dilemes o contradicció interna del personatge."
+        },
+        {
+          "pas_id": "pas_3_ordre_i_causalitat",
+          "descriptor": "Seqüència causal elaborada. Cada acte prepara el clímax. Pot incloure paral·lelisme o recursivitat."
+        },
+        {
+          "pas_id": "pas_4_punt_de_maxima",
+          "descriptor": "Clímax amb decisió moral, reversió o canvi de perspectiva. Pot incloure ironia si el context ho justifica."
+        },
+        {
+          "pas_id": "pas_5_coherencia_i_tancament",
+          "descriptor": "Resolució oberta, irònica o ambigua si el context literari ho requereix. Ha de ser significativa."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_situacio",
+          "descriptor": "Emocions complexes o contradictòries. Descripció interior del personatge possible."
+        },
+        {
+          "pas_id": "pas_7_atribucio_i_funcio",
+          "descriptor": "Diàleg amb subtext: el que es diu i el que es vol dir. Pot incloure ironia o doble sentit."
+        },
+        {
+          "pas_id": "pas_8_cronologia",
+          "descriptor": "Cronologia lineal o anacronia marcada intencionadament i clara per al lector."
+        },
+        {
+          "pas_id": "pas_8_temps_verbals",
+          "descriptor": "Domini complet dels temps narratius. Pot usar present narratiu com a recurs estilístic."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat a la veu narrativa, el to, els recursos literaris i la intenció estètica."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"El meu conte té personatges complexos, clímax ben construït i resolució significativa. He revisat que la veu narrativa sigui consistent.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_personatges_i_context",
+      "titol": "Situació inicial",
+      "dimensio": "Personatges i context",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: comptar personatges presents; verificar presència de tret/motivació per nivell"
+    },
+    {
+      "id": "pas_2_obstacle_i_causa",
+      "titol": "Conflicte",
+      "dimensio": "Obstacle i causa",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: detectar obstacle explícit; verificar causa explícita (B1+)"
+    },
+    {
+      "id": "pas_3_ordre_i_causalitat",
+      "titol": "Seqüència d'esdeveniments",
+      "dimensio": "Ordre i causalitat",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar connectors temporals i causals; verificar ordre cronològic del relat"
+    },
+    {
+      "id": "pas_4_punt_de_maxima",
+      "titol": "Clímax",
+      "dimensio": "Punt de màxima tensió",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: identificar moment de màxima tensió; verificar marcadors de contrast (B1+)"
+    },
+    {
+      "id": "pas_5_coherencia_i_tancament",
+      "titol": "Resolució",
+      "dimensio": "Coherència i tancament",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: resolució present/absent; qualitative: coherència resolució-conflicte per nivell"
+    },
+    {
+      "id": "pas_6_varietat_i_situacio",
+      "titol": "Emocions nomenades",
+      "dimensio": "Varietat i situació",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar emocions nomenades; LLM-jutge: verificar si estan situades en moment del text (B1+) o llistades"
+    },
+    {
+      "id": "pas_7_atribucio_i_funcio",
+      "titol": "Diàleg",
+      "dimensio": "Atribució i funció",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar marques de diàleg (\"va dir\", \"va preguntar\"); verificar atribució per nom (A2+). A A1, diàleg és opcional: no penalitzar l'absència ni incloure'l a l'autoavaluació del derivat. A C1+, el subtext requereix la intenció autoral com a entrada: si no es declara, el derivat marca la cel·la com `revisio-humana` en lloc de LLM-jutge"
+    },
+    {
+      "id": "pas_8_cronologia",
+      "titol": "Criteris transversals",
+      "dimensio": "Cronologia",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar anacronia no marcada; verificar que connectors temporals sostenen l'ordre"
+    },
+    {
+      "id": "pas_8_temps_verbals",
+      "titol": "Criteris transversals",
+      "dimensio": "Temps verbals",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: consistència de temps narratius; detectar barreja no intencionada passat/present. Excepció C1+: el present narratiu és recurs estilístic vàlid si és consistent — no marcar com a error"
+    },
+    {
+      "id": "pas_8_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparació semàntica gradada per nivell: pre-A1→A2 personatge+acció nuclear; B1 conflicte+to; B2-C1 matís emocional+veu narrativa. Només aplica quan s'adapta un text, no quan es genera de zero"
+    },
+    {
+      "id": "pas_9_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent de la qualitat de la reflexió"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un conte narratiu breu amb estructura canònica de cinc parts (situació inicial, conflicte, seqüència d'esdeveniments, clímax, resolució) modulada per al nivell MECR objectiu, incloent personatge amb motivació, emoció nomenada i, a partir d'A2, diàleg atribuït. Treballa sempre la HCL Narrar com a competència nuclear.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix la \"intenció estètica\" ni el grau de \"literarietat\" del conte adaptat, ni jutja si la complexitat psicològica del personatge és l'adequada per a l'alumne concret. Aplica la modulació per MECR i la fase_lectora declarada al frontmatter; el judici sobre la idoneïtat pedagògica final el pren el docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "DUA_acces": {
+      "inclou_si": [
+        "m"
+      ],
+      "exclou_explicitament": [
+        "m"
+      ],
+      "raonament": "No aplica modulació específica diferenciada: la rúbrica gradada per MECR ja captura les necessitats d'accés. Si DUA_acces=true i fase_lectora=logogràfica, s'aplica el cas `preA1_fase_logografica`."
+    },
+    "AACC": {
+      "inclou_si": [
+        "t"
+      ],
+      "exclou_explicitament": [
+        "m"
+      ],
+      "raonament": "No aplica modulació específica. L'alumnat AACC pot treballar al MECR superior del seu rang; la rúbrica ja preveu nivells C1+ amb personatges complexos i resolució amb ironia o ambigüitat."
+    },
+    "nouvingut_L1": {
+      "inclou_si": [
+        "t"
+      ],
+      "exclou_explicitament": [
+        "a"
+      ],
+      "raonament": "Aplica el cas `A1_nouvingut_L1` si MECR=A1; per a MECR superiors, s'activa translanguaging puntual (marcador [L1: ...]) només per a termes nuclears opacs, sense alterar la rúbrica."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és narratiu de ficció: té personatge, conflicte i resolució."
+    },
+    {
+      "name": "la_unitat_treballa_la",
+      "description": "La unitat treballa la HCL Narrar o la competència lectoliterària."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir un text narratiu adaptat al seu MECR com a model de lectura."
+    },
+    {
+      "name": "l_objectiu_inclou_la",
+      "description": "L'objectiu inclou la producció de narració com a activitat posterior (relat, conte propi)."
+    },
+    {
+      "name": "el_text_original_es",
+      "description": "El text original és un conte complex per al nivell de l'alumne i cal adaptar-lo."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és informatiu o argumentatiu → adaptar al gènere original."
+    },
+    {
+      "name": "el_text_inclou_una",
+      "description": "El text inclou una moral explícita i personatges animals o simbòlics → fàbula."
+    },
+    {
+      "name": "el_text_tracta_d",
+      "description": "El text tracta d'una persona real amb fets verídics → biografia."
+    },
+    {
+      "name": "l_objectiu_es_la",
+      "description": "L'objectiu és la comprensió, no la narració → preguntes de comprensió."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El diagnòstic narratiu ràpid.",
+      "descripcio": "Demano a l'alumne que m'expliqui el conte en tres frases: \"Qui és? Què li passa? Com acaba?\" Si no pot respondre les tres, identifico el buit: personatge sense conflicte, conflicte sense resolució, o resolució sense connexió al conflicte. El conte ben adaptat ha de respondre les tres preguntes de manera clara i encadenada."
+    },
+    {
+      "id": "H2",
+      "titol": "\"I llavors, i llavors, i llavors...\" com a senyal de causalitat absent.",
+      "descripcio": "Quan l'alumne usa \"i llavors\" repetidament per connectar accions, no ha adquirit els connectors causals. El problema no és estilístic sinó conceptual: no distingeix seqüència temporal de causa i efecte. Introdueixo 3 connectors específics per sessió (\"però\", \"de sobte\", \"perquè\") escrits a la pissarra i demano que almenys 2 apareguin al text. La pregunta \"Per què fa això el personatge?\" activa la causalitat on falta."
+    },
+    {
+      "id": "H3",
+      "titol": "L'emoció al marge.",
+      "descripcio": "Per a alumnat A1-A2, proposo un cartell a l'aula amb 10-15 emocions en paraules i pictograma. Quan l'alumne escriu \"estava bé\" o \"es va posar content\", li demano que triï una emoció més precisa del cartell. El cartell substitueix el diccionari i entrena la vocabulari emocional de forma autònoma sense interrompre la redacció."
+    },
+    {
+      "id": "H4",
+      "titol": "Pre-A1: el conte de 3 imatges.",
+      "descripcio": "Per a alumnat emergent, proposo tres imatges en ordre (inici/conflicte/resolució) i demano que expliqui oralment el que passa a cada una. Transcric el que diu i li llegeixo el \"seu conte\". L'efecte és doble: l'alumne veu que és capaç de narrar i connecta per primera vegada l'oral amb l'escrit. La seqüència d'imatges bastida la cronologia que encara no pot construir per escrit."
+    },
+    {
+      "id": "H5",
+      "titol": "Diàleg atribuït vs. diàleg flotant.",
+      "descripcio": "El diàleg flotant (\"—Hola! —Hola!\") és molt freqüent als contes d'alumnat A1-A2 i dificulta la comprensió. Mostro la diferència en viu: escric el diàleg flotant a la pissarra, pregunto \"Qui parla?\" i quan no ho saben, afegim \"va dir en Marc\" i \"va respondre la Laia\". La regla és simple i visual: cada vegada que hi ha parèntesi o guió de diàleg, cal dir qui parla."
+    }
+  ],
+  "case_overrides": {
+    "prea1_fase_logografica": {
+      "trigger": {
+        "raw": "preA1_fase_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica\n\n**Modulació:**\n- narracio_oral_mediada: true\n- text_escrit: minim_o_absent\n- sequencia_imatges_obligatoria: 3 imatges mínim (inici/conflicte/resolució)\n- dialeg: prohibit_per_escrit\n- emocio_nomenada_escrita: false (oral amb adult)\n- marcador_IMG_obligatori: true\n\n**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies; la narració s'ha de sostenir oralment amb el suport de la seqüència d'imatges com a basti"
+      }
+    },
+    "a1_nouvingut_l1": {
+      "trigger": {
+        "raw": "A1_nouvingut_L1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1] AND nouvingut_L1: true\n\n**Modulació:**\n- translanguaging_actiu: true\n- permet_L1_entre_claudators: [L1: terme|traduccio_ca] per a terme nuclear opac\n- dialeg: opcional_no_penalitzar (segons metadades cel·la 7)\n- fidelitat: personatge+accio+final només (no conflicte detallat)\n\n**Raonament pedagògic.** Per a nouvinguts amb L1 declarada a A1, el translanguaging activa coneixement previ i sosté el fil narratiu quan el terme català és opac (Cummins & Early 2011, TOLC). El d"
+      }
+    },
+    "mode_generator_sense_font": {
+      "trigger": {
+        "raw": "mode_generator_sense_font"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** agent_role: generator AND text_font: absent\n\n**Modulació:**\n- validacio_fidelitat_8.3: desactivada\n- cel·la 8.3 cross_source: no_aplica al derivat avaluatiu\n- la resta de passos s'avaluen normalment\n\n**Raonament pedagògic.** La fidelitat al text font (cel·la 8.3) és per definició `cross_source`: requereix un text original per comparar. En mode generador (conte de nova creació), no existeix font de referència, per tant la cel·la queda fora del derivat avaluatiu sense que això afecti "
+      }
+    },
+    "c1_subtext_dialeg": {
+      "trigger": {
+        "raw": "C1_subtext_dialeg"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [C1] AND pas_7_dialeg: present AND intencio_autoral_declarada: false\n\n**Modulació:**\n- cel·la_7_validacio: revisio-humana (en lloc de LLM-jutge)\n- el subtext requereix conèixer la intenció autoral, que no es pot inferir mecànicament\n\n**Raonament pedagògic.** El subtext (el que es diu vs. el que es vol dir) requereix coneixement de la intenció autoral, un judici que cap LLM-jutge pot inferir mecànicament a partir del text aïllat. La validació es delega a revisió humana per e"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

@@ -42,6 +42,14 @@ L'esquema visual és un instrument de **mediació estructural**. Extreu del text
 **Aclariment d'ús — què descriu aquesta rúbrica.**
 Descriu l'esquema visual **per a la LECTURA** de l'alumne (mediació presentada per l'eina/docent). NO descriu la producció autònoma de l'alumne (això és tasca dels SKILLs `generate-bastides-lectura` i `generate-rubriques`).
 
+## Principi general
+
+**Regla de selecció simple.** Genera un esquema com a llista markdown amb una sola arrel (concepte central) i ramificacions amb sagnia de 2 espais per nivell, ajustant nombre de nodes (2-3 a pre-A1 fins 10-15 a C1) i profunditat (1 nivell a pre-A1 fins 3-4 a C1) segons el MECR. Per a gèneres procedimentals (instructiu/receptari/manual) l'arrel SEMPRE és el PRODUCTE/OBJECTIU final, mai un apartat seqüencial (Materials, Passos, Ingredients).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si l'esquema substitueix la lectura ni si l'alumne concret en treu profit cognitiu; aquest judici el fa l'acompanyant a partir dels senyals d'aula (apartat Detecció) i les heurístiques H1-H4. El LLM tampoc no decideix si activar mapa conceptual en comptes d'esquema visual (decisió docent prèvia).
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan activar esquema visual):
@@ -97,6 +105,50 @@ Justificació pedagògica: el concepte central és el QUÈ ES CONSTRUEIX, no el 
 |  | Fidelitat al text font | Cada node ha de poder traçar-se a una frase o concepte del text adaptat. | Idem. | Idem. | Idem (i a derivacions justificades a B1+). | Idem. | Idem (els meta-discursius sí entren). |
 | **6. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He mirat l'esquema quan no entenia com es connectaven les coses." | "He buscat l'arrel quan no entenia de què parlava el text." | "He fet servir l'esquema per recordar l'ordre dels passos." | "He revisat l'esquema per veure quina idea és central i quines són secundàries." | "He construït el meu propi esquema d'un text similar per veure si entenia l'estructura." | "He reflexionat sobre si l'esquema captura l'estructura argumental real del text o és una simplificació." |
 
+## Casos especials
+
+### genere_procedimental_arrel_producte
+
+**Trigger:** genere_discursiu_in: [instructiu, receptari, manual]
+
+**Modulació:**
+- node_arrel: PRODUCTE_O_OBJECTIU_FINAL del text (no un apartat com Materials, Ingredients, Necessites, Passos)
+- branques_primer_nivell: agrupen Materials, Passos i Resultat com a fills de l'arrel-producte
+
+**Raonament pedagògic.** El concepte central és el QUÈ ES CONSTRUEIX, no el COM. Evidència empírica: cas titella 2026-05-30, on el LLM tendia a posar "Materials" com a arrel en lloc de "Titella".
+
+### genere_narratiu_no_aplica
+
+**Trigger:** genere_discursiu_equals: narratiu
+
+**Modulació:**
+- no_generar_esquema: true
+- avis_retornat: "l'esquema visual no aplica a text narratiu sense estructura jeràrquica"
+
+**Raonament pedagògic.** Contes, poemes i diaris personals no tenen estructura part-tot ni causa-efecte explotables com a diagrama; forçar-ho infantilitza o distorsiona el text.
+
+### pre_A1_pictogrames_obligatoris
+
+**Trigger:** mecr_in: [pre-A1]
+
+**Modulació:**
+- densitat_pictogrames: obligatori a arrel + fulles principals
+- format_cella_arrel: 1-2 paraules + [PICTO:]
+- nombre_nodes_max: 3
+- profunditat_max: 1 nivell
+
+**Raonament pedagògic.** A la fase logogràfica/emergent la càrrega cognitiva visual ha de ser mínima i la imatge ancora el concepte abans que el codi escrit (DUA Representació + MALL multimodal).
+
+### AACC_risc_infantilitzacio
+
+**Trigger:** aacc: true AND mecr_in: [B1, B2, C1]
+
+**Modulació:**
+- valorar_no_generar: true (revisar si el text ja és estructuralment transparent per a l'alumne)
+- si_es_genera: anar a sostre del rang (profunditat 3-4, etiquetes amb metallenguatge)
+
+**Raonament pedagògic.** Expertise reversal — un esquema simplificat sobre un text que l'alumne ja domina estructuralment esdevé soroll cognitiu.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 | Dimensió | Tipus | Requires source text? | Validation hint |
@@ -133,6 +185,35 @@ El frontend renderitza llistes markdown amb sagnia com a SVG (Mermaid). Si el LL
 
 **H4 — Esquema VS mapa conceptual.**
 Si el text té relacions etiquetades importants (causes contrastives, sinonímies, oposicions conceptuals), prefereixo activar **mapa conceptual** en lloc d'esquema visual. L'esquema és per a estructures jeràrquiques o seqüencials simples; el mapa conceptual és per a xarxes amb etiquetes.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Esquema visual
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO son H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[PICTO: clau_arasaac|text_visible]
+```
+
+**Headers explicitament PROHIBITS:**
+```
+cap
+```
+
+**Regla d'integritat estructural.** Llista markdown amb guions `-` i sagnia múltiple de 2 espais; una sola línia a indentació 0 (arrel). Sense H3 interns, sense fletxes Unicode (→↓↔) ni ASCII-art (├└─). Pictogrames inline obligatoris a pre-A1, recomanats a A1. Sense aquesta estructura, ATNE no pot renderitzar el bloc Mermaid a partir de la llista markdown.
 
 ## Fonts
 

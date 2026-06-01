@@ -1,0 +1,485 @@
+{
+  "_meta": {
+    "name": "rubrica_write_informe",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-informe\\M3_genere-escriure-informe.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-informe",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "informe",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat analítica del text original, incloent limitacions i debats."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_sintesi",
+          "descriptor": "1-2 frases que diuen de qué tracta l'informe.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_format_i_objectivitat",
+          "descriptor": "3-5 dades en frases simples o llista simple (dada / valor). Nombre + unitat. Taula de 2 columnes admissible com a bastida visual."
+        },
+        {
+          "pas_id": "pas_3_rigor_epistemic",
+          "descriptor": "Dades primer (\"hem vist que X\"). Conclusions separades (\"per tant, Y\")."
+        },
+        {
+          "pas_id": "pas_4_coherencia_estilistica",
+          "descriptor": "Sense frases personals (\"jo crec que...\"). Impersonal simple."
+        },
+        {
+          "pas_id": "pas_5_rigor_metodologic",
+          "descriptor": "Sense hipòtesi (massa complex per a A1). Una descripció mínima del procediment."
+        },
+        {
+          "pas_id": "pas_6_profunditat_argumentativa",
+          "descriptor": "1 conclusió simple derivada de les dades: \"Hem après que...\""
+        },
+        {
+          "pas_id": "pas_7_opinio_personal",
+          "descriptor": "Cap frase en primera persona singular valorativa (\"jo crec\", \"m'agrada\", \"penso que\")."
+        },
+        {
+          "pas_id": "pas_7_dades_sense_font",
+          "descriptor": "A A1: no cal font."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les dades principals i a la conclusió bàsica."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He presentat les dades i les conclusions per separat.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_sintesi",
+          "descriptor": "Introducció de 2-3 frases: qué s'ha estudiat i per qué.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_format_i_objectivitat",
+          "descriptor": "Dades organitzades en llista o taula simple. Unitats explícites."
+        },
+        {
+          "pas_id": "pas_3_rigor_epistemic",
+          "descriptor": "Dades i conclusions en blocs separats. Connector explícit: \"per tant\", \"com a conclusió\"."
+        },
+        {
+          "pas_id": "pas_4_coherencia_estilistica",
+          "descriptor": "Veu impersonal consistent: \"s'observa que\", \"els resultats indiquen que\"."
+        },
+        {
+          "pas_id": "pas_5_rigor_metodologic",
+          "descriptor": "Pot incloure una pregunta inicial que l'informe respon."
+        },
+        {
+          "pas_id": "pas_6_profunditat_argumentativa",
+          "descriptor": "1-2 conclusions derivades de les dades. Connector \"per tant\"."
+        },
+        {
+          "pas_id": "pas_7_opinio_personal",
+          "descriptor": "Idem. Passiva o impersonal en tot el text."
+        },
+        {
+          "pas_id": "pas_7_dades_sense_font",
+          "descriptor": "A A2: la font de les dades s'indica si és externa."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les dades, a la conclusió i a la separació dades/conclusions."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He organitzat les dades. He escrit qué hem après al final.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_sintesi",
+          "descriptor": "Resum executiu: 1 paràgraf que indica l'objectiu i la conclusió principal. No detalla les dades (per evitar duplicació amb el cos)."
+        },
+        {
+          "pas_id": "pas_2_format_i_objectivitat",
+          "descriptor": "Dades organitzades per categories. Pot incloure comparació entre valors."
+        },
+        {
+          "pas_id": "pas_3_rigor_epistemic",
+          "descriptor": "Separació neta entre resultats i conclusions en seccions diferenciades. Sense barreja."
+        },
+        {
+          "pas_id": "pas_4_coherencia_estilistica",
+          "descriptor": "Vocabulari objectiu i tècnic. Sense adjectius subjectius. Impersonal (es + verb) prioritari; passiva opcional."
+        },
+        {
+          "pas_id": "pas_5_rigor_metodologic",
+          "descriptor": "Hipòtesi \"Si..., llavors...\" explícita. Metodologia en 2-3 frases.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_profunditat_argumentativa",
+          "descriptor": "2-3 conclusions argumentades. Pot incloure 1 recomanació derivada de les conclusions."
+        },
+        {
+          "pas_id": "pas_7_opinio_personal",
+          "descriptor": "Idem. Les opinions es reformulen en impersonal o s'eliminen."
+        },
+        {
+          "pas_id": "pas_7_dades_sense_font",
+          "descriptor": "A B1+: totes les dades externes porten font atribuïda."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les dades, a la metodologia, a la conclusió i al to objectiu."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He escrit la hipòtesi i la metodologia. Les conclusions deriven de les dades.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_sintesi",
+          "descriptor": "Resum executiu amb les conclusions principals davant dels resultats."
+        },
+        {
+          "pas_id": "pas_2_format_i_objectivitat",
+          "descriptor": "Dades en taules o gràfics simples. Descripció objectiva de les dades (sense conclusió)."
+        },
+        {
+          "pas_id": "pas_3_rigor_epistemic",
+          "descriptor": "Dades comentades objectivament i conclusions argumentades per separat amb connector explícit."
+        },
+        {
+          "pas_id": "pas_4_coherencia_estilistica",
+          "descriptor": "Objectivitat rigurosa. Pot incloure citació de fonts per a afirmacions."
+        },
+        {
+          "pas_id": "pas_5_rigor_metodologic",
+          "descriptor": "Hipòtesi i metodologia ben descrites. Variables identificades (independent/dependent)."
+        },
+        {
+          "pas_id": "pas_6_profunditat_argumentativa",
+          "descriptor": "Conclusions argumentades + recomanacions basades en les dades. Connexió explícita dades→conclusions."
+        },
+        {
+          "pas_id": "pas_7_opinio_personal",
+          "descriptor": "Idem. Pot incloure valoració de la metodologia en impersonal (\"la mostra podria ser més gran\")."
+        },
+        {
+          "pas_id": "pas_7_dades_sense_font",
+          "descriptor": "Idem. Les dades sense font son observacions pròpies (s'indica explícitament)."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a les dades, a la metodologia, al context i al to acadèmic."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"Les meves conclusions estan argumentades amb dades. He separat dades d'opinions.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_sintesi",
+          "descriptor": "Resum executiu professional que permet comprendre l'informe sense llegir el cos complet."
+        },
+        {
+          "pas_id": "pas_2_format_i_objectivitat",
+          "descriptor": "Dades en formats variats (taules, gràfics, diagrames). Anàlisi estadística si escau."
+        },
+        {
+          "pas_id": "pas_3_rigor_epistemic",
+          "descriptor": "Separació rigorosa. Les conclusions deriven explícitament i raonada de les dades."
+        },
+        {
+          "pas_id": "pas_4_coherencia_estilistica",
+          "descriptor": "Objectivitat acadèmica amb reconeixement de limitacions i incerteses del procés."
+        },
+        {
+          "pas_id": "pas_5_rigor_metodologic",
+          "descriptor": "Hipòtesi, variables, limitacions metodològiques i fonts en la metodologia."
+        },
+        {
+          "pas_id": "pas_6_profunditat_argumentativa",
+          "descriptor": "Conclusions amb discussió de les limitacions, propostes de recerca futures i reconeixement d'incerteses."
+        },
+        {
+          "pas_id": "pas_7_opinio_personal",
+          "descriptor": "Les limitacions i els dubtes s'expliciten com a observació científica, no com a opinió."
+        },
+        {
+          "pas_id": "pas_7_dades_sense_font",
+          "descriptor": "Rigor bibliogràfic complet. Diferència entre dades pròpies, dades secundàries i estimacions."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat analítica del text original, incloent limitacions i debats."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"L'informe és rigorós, objectiu i les conclusions estan justificades. He reconegut les limitacions.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_orientacio_i_sintesi",
+      "titol": "Introducció / Resum executiu",
+      "dimensio": "Orientació i síntesi",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència d'introducció; qualitative: LLM-jutge sobre síntesi i orientació per nivell"
+    },
+    {
+      "id": "pas_2_format_i_objectivitat",
+      "titol": "Presentació de dades",
+      "dimensio": "Format i objectivitat",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar format de les dades (llista, taula, text); LLM-jutge sobre presència d'unitats i objectivitat"
+    },
+    {
+      "id": "pas_3_rigor_epistemic",
+      "titol": "Separació dades / conclusions",
+      "dimensio": "Rigor epistèmic",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar barreja (conclusió dins del bloc de dades o viceversa); binary: connectors causals davant de conclusions"
+    },
+    {
+      "id": "pas_4_coherencia_estilistica",
+      "titol": "Objectivitat (veu impersonal)",
+      "dimensio": "Coherència estilística",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar frases en primera persona singular valorativa (jo crec, penso que, m'agrada); qualitative: LLM-jutge sobre consistència de la veu impersonal"
+    },
+    {
+      "id": "pas_5_rigor_metodologic",
+      "titol": "Hipòtesi i metodologia",
+      "dimensio": "Rigor metodològic",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "binary (B1+): presència de hipòtesi en format \"Si..., llavors...\"; qualitative: LLM-jutge sobre adequació metodològica"
+    },
+    {
+      "id": "pas_6_profunditat_argumentativa",
+      "titol": "Conclusions i recomanacions",
+      "dimensio": "Profunditat argumentativa",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar conclusions; LLM-jutge: les conclusions deriven explícitament de les dades"
+    },
+    {
+      "id": "pas_7_opinio_personal",
+      "titol": "Criteris transversals",
+      "dimensio": "Opinió personal",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar \"jo crec\", \"penso que\", \"m'agrada\", \"trobo que\" al text de l'informe"
+    },
+    {
+      "id": "pas_7_dades_sense_font",
+      "titol": "Criteris transversals",
+      "dimensio": "Dades sense font",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (B1+): dades externes sense font; qualitative: adequació de l'atribució"
+    },
+    {
+      "id": "pas_7_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar dades principals, metodologia i conclusió original vs adaptats; a C1, verificar presència de \"limitacions\", \"biaixos\" o \"incerteses\" si el text font els conté"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un informe que separi sempre les dades de les conclusions en blocs diferenciats, amb veu impersonal consistent i objectivitat estilística, modulat segons el nivell MECR de l'alumne (A1-C1). No s'adapta a pre-A1 perquè la distinció fets/conclusions requereix base lecto-escriptora mínima.",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir quines dades són rellevants ni si una conclusió és \"correcta\"; només ha de garantir l'estructura (dades primer, connector explícit, conclusions després), la veu impersonal i la fidelitat a les dades del text font. La validesa científica del contingut i l'adequació al disseny didàctic són responsabilitat del docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada A1→C1 ja capta el gruix de la diferenciació per a l'alumnat sense factors addicionals; el nivell MECR és la variable principal de selecció del contingut."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "L'informe és el gènere CALP per excel·lència; la veu impersonal i l'objectivitat no admeten mescla L1 dins del text generat. Si cal ancoratge L1, va a glossari complementari, no a l'informe."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de descodificació textual quan la dada és quantitativa: la taula i el gràfic etiquetat són l'accés alternatiu nadiu de l'informe."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la complexitat metodològica i la profunditat conclusiva són la via natural d'extensió en un gènere acadèmic."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_vol_que",
+      "description": "La unitat vol que l'alumne llegeixi els resultats d'una recerca, un experiment o una observació."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un informe científic, un article de recerca, un informe institucional o un dossier tècnic."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de distingir el que s'ha observat del que es conclou."
+    },
+    {
+      "name": "la_materia_demana_objectivitat",
+      "description": "La matèria demana objectivitat i veu impersonal (Ciències Naturals, Ciències Socials, Tecnologia)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_narra_una",
+      "description": "El text narra una experiència en primera persona amb implicació emocional → diari o crònica."
+    },
+    {
+      "name": "el_text_defensa_una",
+      "description": "El text defensa una postura → assaig o opinió."
+    },
+    {
+      "name": "el_text_explica_un",
+      "description": "El text explica un fenomen de manera narrativitzada → divulgatiu."
+    },
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dona instruccions per fer un experiment → instructiu."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Dues columnes: \"el que he observat\" / \"el que concloc\".",
+      "descripcio": "Proposo que l'alumne empleni dues columnes ABANS d'escriure. La primera columna és les dades; la segona, les conclusions. La separació visual prèvia evita la barreja al text. Especialment eficaç a A2-B1, quan la distinció dades/conclusions és el bloqueig principal."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Qui ho diu?\" com a test d'objectivitat.",
+      "descripcio": "Quan una frase té una valoració (\"això és molt important\", \"és sorprenent que...\"), pregunto: \"Qui ho diu?\" Si és l'alumne, cal reformular en impersonal (\"els resultats mostren que...\") o eliminar. Si és una font externa, cal atribuir-ho. El test funciona des de A2."
+    },
+    {
+      "id": "H3",
+      "titol": "El connector \"per tant\" com a marca epistèmica.",
+      "descripcio": "Explico als alumnes que \"per tant\" és la frontissa entre les dades i les conclusions. Proposo: \"Escriu totes les dades sense cap 'per tant'. Quan hagis acabat les dades, escriu 'Per tant...' i posa les conclusions.\" El connector explicita la relació epistèmica i en garanteix la separació."
+    },
+    {
+      "id": "H4",
+      "titol": "El resum executiu al revés.",
+      "descripcio": "A B1+, proposo escriure el resum executiu DESPRÉS d'haver escrit el cos de l'informe. Quan l'alumne ha escrit tot l'informe, li pregunto: \"Si hagués de llegir-lo en 30 segons, qué no es podria perdre?\" La resposta és el resum executiu. Escriure'l al revés garanteix que sigui una síntesi real, no un índex de temes."
+    }
+  ],
+  "case_overrides": {
+    "a1_sense_hipotesi": {
+      "trigger": {
+        "raw": "A1_sense_hipotesi"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1\n\n**Modulació:**\n- no_incloure_h3: `### Hipòtesi i metodologia`\n- introduccio_max_frases: 2\n- format_dades: llista_simple_o_taula_2col\n- conclusions_max: 1\n- sense_connector_per_tant_obligatori: false (admet \"Hem après que...\")\n\n**Raonament pedagògic.** A A1, la hipòtesi \"Si..., llavors...\" és una operació epistèmica encara no accessible sense base lectora consolidada. La rúbrica ja preveu la metodologia mínima al Pas 5; forçar la hipòtesi explícita afegiria càrrega C"
+      }
+    },
+    "c1_limitacions_explicites": {
+      "trigger": {
+        "raw": "C1_limitacions_explicites"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- afegir_h3: `### Limitacions i incerteses`\n- fidelitat_obligatoria: text_font_amb_biaixos_limitacions\n- resum_executiu: professional_autonom\n- referenciar_fonts: rigor_bibliografic_complet\n\n**Raonament pedagògic.** A C1 l'informe esdevé acadèmic en sentit ple: el reconeixement explícit de limitacions i incerteses és part del rigor epistèmic. Sense H3 propi de limitacions, el lector C1 perd la senyalització metadiscursiva que distingeix l'informe prof"
+      }
+    },
+    "fase_alfabetica_emergent_a1": {
+      "trigger": {
+        "raw": "fase_alfabetica_emergent_A1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- format_dades: taula_2col_bastida_visual_obligatoria\n- multimodal: true\n- longitud_frase_max: 8 paraules\n- vocabulari: nuclear_quotidia\n\n**Raonament pedagògic.** A A1 amb fase lectora emergent, la taula 2 columnes és l'única bastida visual que permet llegir dades sense desbordar el processament fonològic encara en construcció. La densitat lèxica i la longitud de frase es topen per garantir l'accés autònom."
+      }
+    },
+    "b1_resum_executiu_minimal": {
+      "trigger": {
+        "raw": "B1_resum_executiu_minimal"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B1\n\n**Modulació:**\n- resum_executiu: nomes_objectiu_i_conclusio_principal\n- no_duplicar_dades_al_resum\n- veu: impersonal_es_verb_prioritari_sobre_passiva\n\n**Raonament pedagògic.** A B1 el resum executiu és una habilitat sintètica nova: cal evitar que es converteixi en un índex de dades. La regla \"objectiu + conclusió principal\" força la síntesi real. Prioritzar l'impersonal amb \"es + verb\" sobre la passiva afavoreix la lectura fluida al nivell estratègic."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "opinio_personal",
+      "type": "qualitative",
+      "rule": "regex: detectar \"jo crec\", \"penso que\", \"m'agrada\", \"trobo que\" al text de l'informe"
+    }
+  ]
+}

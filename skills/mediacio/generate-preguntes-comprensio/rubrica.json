@@ -1,0 +1,389 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_preguntes_comprensio",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-preguntes-comprensio\\M3_instrument-generar-preguntes-comprensio.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-preguntes-comprensio",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "preguntes_comprensio",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_proposit",
+          "descriptor": "Adult estableix el propòsit en veu alta. Consigna de predicció visual: \"Assenyala la imatge que creus que explica de qué va el text.\""
+        },
+        {
+          "pas_id": "pas_2_aturada_estrategica",
+          "descriptor": "Adult atura i pregunta: \"Mostra'm on és [element del text].\" Assenyalar o apuntar."
+        },
+        {
+          "pas_id": "pas_3_3_planols_cognitius",
+          "descriptor": "Literal: \"Assenyala la imatge de [element del text]\" o \"Dibuixa [element].\" Inferencial: \"Per qué creus que...?\" (oral, mediat). Crític: \"Qué hauries fet tu?\" (oral)."
+        },
+        {
+          "pas_id": "pas_4_format_modalitat_acarament",
+          "descriptor": "Consignes d'acció (mai V/F). Cap numeració: usar `-`. Cap etiqueta visible [Literal]. Màxim 6 consignes."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He assenyalat les imatges que m'ha demanat el mestre.\" (oral, mediat per adult)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_proposit",
+          "descriptor": "Activació: \"Escriu 1 paraula sobre el que saps de [tema].\" Propòsit: \"Llegeix per saber [X concret].\""
+        },
+        {
+          "pas_id": "pas_2_aturada_estrategica",
+          "descriptor": "\"Para a [punt]. Hi ha alguna paraula que no entens? Marca-la amb ?.\""
+        },
+        {
+          "pas_id": "pas_3_3_planols_cognitius",
+          "descriptor": "Literal: V/F senzill o omple buit amb llista tancada. Inferencial: inferència mínima connectada a evidència visual o mot clau del text (\"Per qué creus que [element]? Mira [part del text]\"). Crític: oral o dibuix (\"T'ha agradat? Dibuixa com t'has sentit\")."
+        },
+        {
+          "pas_id": "pas_4_format_modalitat_acarament",
+          "descriptor": "Mai V/F de frase complexa. Mai \"copia i enganxa\" (resposta copiable sense processament). Frases pregunta: màxim 10 paraules. Màxim 8 preguntes totals. LITERARI: \"Qui és el personatge? Com se sent?\" INFORMATIU: \"Quina és la informació més important?\""
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He respost si és vertader o fals. He omplert els buits.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_proposit",
+          "descriptor": "Activació: \"Escriu 2-3 coses que saps sobre [tema].\" Propòsit: \"Llegeix per trobar [2 informacions concretes].\""
+        },
+        {
+          "pas_id": "pas_2_aturada_estrategica",
+          "descriptor": "\"Para a [punt]. Escriu en 1 frase el que ha passat fins ara.\""
+        },
+        {
+          "pas_id": "pas_3_3_planols_cognitius",
+          "descriptor": "Literal: ordenar seqüències, relacionar amb fletxes. Inferencial: causa literal al text (\"Per qué...? Busca-ho al text\"). Crític: \"Qué hauria passat si [canvi]?\" Resposta breu."
+        },
+        {
+          "pas_id": "pas_4_format_modalitat_acarament",
+          "descriptor": "Frases pregunta: màxim 12 paraules. Màxim 10 preguntes. LITERARI: pregunta afectiva. INFORMATIU: pregunta de precisió. Acarament L1 (si nouvingut): \"Com es diu [terme clau] en la teva llengua?\""
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He ordenat les idees. He trobat la idea principal.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_proposit",
+          "descriptor": "Activació + 2 preguntes pròpies: \"Qué saps? Qué et preguntes?\" Propòsit: \"Llegeix per entendre com [causa-efecte o seqüència].\""
+        },
+        {
+          "pas_id": "pas_2_aturada_estrategica",
+          "descriptor": "\"Para a [punt]. Quina hipòtesi tens sobre el que passarà o dirà a continuació?\""
+        },
+        {
+          "pas_id": "pas_3_3_planols_cognitius",
+          "descriptor": "Literal: 1-2 frases, resposta explícita al text. Inferencial: deducció relacional (\"Quin efecte té [causa]? Argumenta-ho\"). Crític: postura justificada (literari: sentiments; informatiu: fiabilitat de les dades).",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_format_modalitat_acarament",
+          "descriptor": "Frases pregunta: màxim 15 paraules. Màxim 10 preguntes. LITERARI: símbols i metàfores simples. INFORMATIU: jerarquitzar amb connectors. Acarament L1 (si nouvingut): \"El text s'escriuria igual en la teva llengua?\""
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He deduït informació que no estava explícita al text. He fet una hipòtesi durant la lectura.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_proposit",
+          "descriptor": "Activació del marc teòric o experiència prèvia. Propòsit d'avaluació: \"Llegeix per avaluar si [afirmació] és vàlida.\""
+        },
+        {
+          "pas_id": "pas_2_aturada_estrategica",
+          "descriptor": "\"Para a [punt]. Quina idea principal s'ha presentat fins ara? Com s'estructura argumentalment?\""
+        },
+        {
+          "pas_id": "pas_3_3_planols_cognitius",
+          "descriptor": "Literal: resum de 3-5 frases amb jerarquització. Inferencial: justificació + referència al text. Crític: argumentació oberta + avaluació de la fiabilitat.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_format_modalitat_acarament",
+          "descriptor": "Màxim 10 preguntes. LITERARI: veu narrativa i intenció estètica. INFORMATIU: fiabilitat de les dades. Acarament L1 (si nouvingut): contrast d'argumentació entre català i L1."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He argumentat les meves respostes amb referències al text. He avaluat si les dades eren fiables.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_activacio_proposit",
+          "descriptor": "Propòsit d'anàlisi autorial: \"Llegeix per analitzar com l'autor construeix la seva postura i quines proves aporta.\""
+        },
+        {
+          "pas_id": "pas_2_aturada_estrategica",
+          "descriptor": "\"Para a [punt]. Quina és la postura de l'autor fins aquí? Quines proves ha aportat? N'hi ha d'absents?\""
+        },
+        {
+          "pas_id": "pas_3_3_planols_cognitius",
+          "descriptor": "Literal: síntesi estructurada jerarquitzada. Inferencial: relacions implícites complexes, ironia, subtext. Crític: judici sobre intencionalitat, contrast amb fonts alternatives."
+        },
+        {
+          "pas_id": "pas_4_format_modalitat_acarament",
+          "descriptor": "Màxim 10 preguntes (prioritzar qualitat). LITERARI: intertextualitat i intencionalitat. INFORMATIU: contrast de fonts i biaix. Acarament L1 (si nouvingut): contrast metalingüístic i discursiu."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He analitzat la intencionalitat de l'autor i he qüestionat les seves afirmacions. He contrastat amb el que ja sabia.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_activacio_proposit",
+      "titol": "Moment \"Abans de llegir\"",
+      "dimensio": "Activació + propòsit",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de pregunta d'activació + propòsit de lectura explícit; qualitative: LLM-jutge sobre si el propòsit és concret i específic del text font (positiu) o genèric \"llegeix el text\" (negatiu); cross_source"
+    },
+    {
+      "id": "pas_2_aturada_estrategica",
+      "titol": "Moment \"Durant la lectura\"",
+      "dimensio": "Aturada estratègica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia d'almenys una aturada estratègica; detectar si la pregunta Durant és una repetició del Literals final (error)"
+    },
+    {
+      "id": "pas_3_3_planols_cognitius",
+      "titol": "Moment \"Després de llegir\"",
+      "dimensio": "3 plànols cognitius",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: presencia dels 3 plànols (literal+inferencial+crític) detectables per tipus de pregunta; qualitative: LLM-jutge sobre si les preguntes inferencials i crítiques son realment no-copiables del text (cross_source)"
+    },
+    {
+      "id": "pas_4_format_modalitat_acarament",
+      "titol": "Criteris transversals",
+      "dimensio": "Format + modalitat + acarament",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "countable: total de preguntes — pre-A1: ≤6 (consignes d'acció); A1: ≤8; A2-C1: ≤10; binary: absencia de etiquetes [Literal]/[Inferencial]; absencia de numeració; presencia d'acarament L1 si perfil nouvingut actiu"
+    },
+    {
+      "id": "pas_5_metacognicio",
+      "titol": "Autoavaluació mediada",
+      "dimensio": "Metacognició",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: registre docent d'observació oral; A1+: derivar a vista d'autoavaluació de l'alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera entre 4 i 10 preguntes (o consignes d'acció a pre-A1) distribuïdes en els 3 moments MALL (Abans / Durant / Després) i, al moment \"Després\", cobrint els 3 plànols cognitius (literal, inferencial, crític). Inclou sempre un propòsit de lectura concret i específic del text font; si el perfil és nouvingut, inclou explícitament 1 pregunta d'acarament L1↔L2. Respecta el sostre per MECR: pre-A1 màxim 6, A1 màxim 8, A2-C1 màxim 10.",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una pregunta inferencial concreta \"genera més aprenentatge\" que una altra, ni avaluar la maduresa cognitiva real de l'alumne, ni qualificar la qualitat literària del text font. Genera l'estructura de 3 moments × 3 plànols seguint la modulació per MECR i delega a qui ensenya la valoració pedagògica final (esborrar, reformular o substituir preguntes via la vàlvula humana al Pas 3)."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "inclou_si": [
+        "p"
+      ],
+      "exclou_explicitament": [
+        "e"
+      ],
+      "raonament": "El model MALL canònic (3 moments × 3 plànols) estructura tant la seqüència temporal com la profunditat cognitiva. La invisibilitat de les etiquetes preserva la lectura activa: l'alumne no ha de saber el \"tipus\" de pregunta per respondre-la."
+    },
+    "alumne_nouvingut_amb_L1": {
+      "inclou_si": [
+        "p"
+      ],
+      "exclou_explicitament": [
+        "f"
+      ],
+      "raonament": "TOLC (Cummins): la xarxa semàntica en L1 és la bastida conceptual més efectiva per a la comprensió en L2. Sense acarament, l'alumnat nouvingut llegeix sense ancoratge cognitiu. La formulació canònica és no-exposadora: \"Si coneixes la paraula en una altra llengua, comparteix-ho si vols.\""
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "inclou_si": [
+        "p"
+      ],
+      "exclou_explicitament": [
+        "s"
+      ],
+      "raonament": "Per a AACC, mantenir sostre alt: el sostre de 10 preguntes es manté, però la composició es desplaça cap a inferencial i crític (sostre alt sense techo artificial). La decisió fina la pren qui ensenya via la vàlvula humana al Pas 3."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_preguntes_de",
+      "description": "Ha activat \"Preguntes de comprensió\" al Pas 2."
+    },
+    {
+      "name": "el_text_adaptat_es",
+      "description": "El text adaptat és complex per al nivell de l'alumnat i cal guiar el processament actiu."
+    },
+    {
+      "name": "l_alumnat_llegeix_passivament",
+      "description": "L'alumnat llegeix passivament: llegeix les paraules però no construeix sentit."
+    },
+    {
+      "name": "cal_demostrar_comprensio_per",
+      "description": "Cal demostrar comprensió per a una activitat posterior (debat, producció escrita, avaluació)."
+    },
+    {
+      "name": "la_unitat_es_tilc",
+      "description": "La unitat és TILC on la comprensió del text és prerequisit per a l'aprenentatge del contingut."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "text_molt_curt_80",
+      "description": "Text molt curt (< 80 paraules) i comprensió immediata → discussió oral col·lectiva."
+    },
+    {
+      "name": "el_docent_ja_ha",
+      "description": "El docent ja ha preparat les seves pròpies preguntes específiques."
+    },
+    {
+      "name": "temps_de_sessio_molt",
+      "description": "Temps de sessió molt limitat → 2-3 preguntes orals del docent basten."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La resposta \"no sé\" com a senyal d'alarma.",
+      "descripcio": "Quan pregunto \"De qué tracta el text?\" i l'alumne respon \"No sé\", ha llegit sense propòsit. El Moment \"Abans de llegir\" és el més important: li dono un propòsit explícit (\"Llegeix per saber [X concret]\") i li pregunto el que ja sap del tema. Amb un propòsit, la comprensió millora notablement fins i tot sense canviar el text."
+    },
+    {
+      "id": "H2",
+      "titol": "Detectar el mirall literal.",
+      "descripcio": "L'alumne respon correctament totes les preguntes literals però es queda en blanc davant \"Per qué creus que...?\" Introdueixo gradualment l'inferencial: primer amb inferències mínimes (\"La resposta no és al text però sí al context\"), progressivament amb major distància inferencial. El mirall literal s'identifica quan totes les respostes son frases del text lleugerament reformulades."
+    },
+    {
+      "id": "H3",
+      "titol": "El coneixement previ com a palanca.",
+      "descripcio": "Per a textos sobre temes allunyats de l'experiència de l'alumne (ecosistemes de l'Àrtic, Revolució Industrial), el Moment \"Abans de llegir\" és crític. Sense ancoratge previ, les preguntes posteriors seran molt difícils. Dedico 5 minuts a activar coneixement previ (imatge, vídeo curt, 2 frases del docent) abans de distribuir el text."
+    },
+    {
+      "id": "H4",
+      "titol": "Text literari vs. informatiu: canvi de to.",
+      "descripcio": "La primera pregunta après d'un text literari és sempre afectiva: \"Com t'has sentit llegint-lo?\" Per a un text informatiu, la primera és de precisió: \"Quin és el fet o dada més important?\" Aquesta distinció inicial marca el to de tota la sessió i evita que l'alumnat apliqui la mateixa estratègia a gèneres molt diferents."
+    },
+    {
+      "id": "H5",
+      "titol": "L'acarament L1↔L2 no és opcional per a nouvinguts.",
+      "descripcio": "Quan treballo amb alumnat nouvingut, la pregunta d'acarament de llengues no és un extra: és la bastida conceptual més efectiva. \"Com es diu [terme clau] en la teva llengua?\" activa la xarxa semàntica en L1 i transfereix la comprensió cap al català. La consigna no exposa: \"Si coneixes la paraula en una altra llengua, comparteix-ho si vols.\""
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_fase_logografica": {
+      "trigger": {
+        "raw": "pre_A1_fase_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora_in: [logografica]\n\n**Modulació:**\n- sostre_max_preguntes: 6\n- format: consignes_accio_oral (assenyalar, dibuixar, dramatitzar, dictat a l'adult)\n- escriptura_autonoma: false\n- planol_critic: oral_mediat (\"Què hauries fet tu?\")\n- prohibit: V/F, omplir buits, numeració\n\n**Raonament pedagògic.** A la fase logogràfica l'alumne encara no descodifica autònomament; les \"preguntes\" han de ser accions observables mediades per l'adult. Els 3 plànols cognitiu"
+      }
+    },
+    "pre_a1_fase_alfabetica_emergent": {
+      "trigger": {
+        "raw": "pre_A1_fase_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora_in: [alfabetica_emergent]\n\n**Modulació:**\n- sostre_max_preguntes: 6\n- format: consigna_escrita_simple_resposta_1_2_paraules\n- escriptura_autonoma: minima\n- prohibit: V/F de frase complexa, copia-i-enganxa\n\n**Raonament pedagògic.** L'alumne comença a descodificar però la càrrega cognitiva de l'escriptura encara saturaria el processament del text; mantenim la resposta breu per protegir la comprensió."
+      }
+    },
+    "nouvingut_l1_acarament_obligatori": {
+      "trigger": {
+        "raw": "nouvingut_L1_acarament_obligatori"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND mecr_in: [A1, A2, B1, B2, C1]\n\n**Modulació:**\n- acarament_L1_obligatori: true\n- marcador_inline: [ACARAMENT_L1]\n- formulacio_no_exposadora: \"Si coneixes la paraula en una altra llengua, comparteix-ho si vols\"\n- progressio: A1-A2 traducció de terme clau; B1 contrast d'escriptura/estructura; B2 contrast d'argumentació; C1 contrast metalingüístic i discursiu\n\n**Raonament pedagògic.** TOLC (Cummins): la xarxa semàntica en L1 és la bastida conceptual més efectiva p"
+      }
+    },
+    "coexistencia_amb_bastides_lectura": {
+      "trigger": {
+        "raw": "coexistencia_amb_bastides_lectura"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** complement_actiu: bastides-lectura == true\n\n**Modulació:**\n- dedup_cross_source: true\n- prioritat: preguntes_comprensio guanya\n- accio_si_solapament: replanteja o elimina la pregunta duplicada\n- separacio_funcional: bastida = procediment (com llegir), pregunta = contingut (què entendre)\n\n**Raonament pedagògic.** Si els dos complements repeteixen el mateix ítem, l'alumne percep redundància i baixa l'engagement; la bastida ja resol el \"com\", les preguntes han de centrar-se en el \"què\""
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

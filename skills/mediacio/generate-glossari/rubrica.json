@@ -1,0 +1,801 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_glossari",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-glossari\\M3_instrument-generar-glossari.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-glossari",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "complement_key": "glossari",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "no_circularitat": {
+      "type": "binary",
+      "rule": "El terme no apareix dins de la pròpia definició a cap nivell."
+    },
+    "no_recursivitat": {
+      "type": "binary",
+      "rule": "La definició usa només vocabulari A1 (mai termes més complexos sense explicar-los)."
+    },
+    "llengua_definicio": {
+      "type": "binary",
+      "rule": "Llengua de SORTIDA del text adaptat (català, castellà, anglès…). **MAI** usis termes d'una altra llengua com a fallback ni dins la definició. La L1 (si existeix) va a la columna pròpia, NO dins la cel·la d'explicació."
+    },
+    "seleccio_pertinent": {
+      "type": "cross_source",
+      "rule": "Idem. **Exclou explícitament a A1 + etapa primària inicial**: objectes domèstics (mitja, botó, agulla, fil, retolador, llapis, paper, plat, got, casa, taula, porta), parts del cos (cap, mà, ulls, boca, peu), verbs d'acció bàsics (posar, lligar, dibuixar, jugar, mirar, fer). Aquests són **coneixement previ**, no termes a explicar. Si el text no en conté CAP de realment nou per al nivell, escriu només la nota «Aquest text no necessita glossari nou per al teu nivell» sense taula."
+    },
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre",
+          "descriptor": "3-5 termes.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_1_tipologia_lexica",
+          "descriptor": "Objectes reals i noms concrets. Sense tecnicismes."
+        },
+        {
+          "pas_id": "pas_2_estructura",
+          "descriptor": "Emoji o pictograma + terme en negreta. Sense taula (massa complexa)."
+        },
+        {
+          "pas_id": "pas_2_suport_visual",
+          "descriptor": "Pictograma obligatori a cada terme. L'adult pot complementar amb imatge real."
+        },
+        {
+          "pas_id": "pas_3_llargada",
+          "descriptor": "Fins a 6 paraules. Paraules molt freqüents.",
+          "countable": {
+            "max": 6,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_recursos_pedagogics",
+          "descriptor": "Paraules immediates de l'experiència de l'alumne."
+        },
+        {
+          "pas_id": "pas_4_inclusio_l1",
+          "descriptor": "Afegeix el terme en L1 amb alfabet original (àrab, xinès, urdú, ciríl·lic, armeni…)."
+        },
+        {
+          "pas_id": "pas_4_notes_contrastives",
+          "descriptor": "Sense notes. La imatge és el pont."
+        },
+        {
+          "pas_id": "pas_5_no_circularitat",
+          "descriptor": "El terme no apareix dins de la pròpia definició a cap nivell."
+        },
+        {
+          "pas_id": "pas_5_no_recursivitat",
+          "descriptor": "La definició no usa cap paraula més tècnica que el terme mateix."
+        },
+        {
+          "pas_id": "pas_5_llengua_de_definicio",
+          "descriptor": "Llengua de SORTIDA del text adaptat (català, castellà, anglès…). **MAI** usis termes d'una altra llengua com a fallback ni dins la definició. La L1 (si existeix) va a la columna pròpia, NO dins la cel·la d'explicació."
+        },
+        {
+          "pas_id": "pas_5_seleccio_pertinent",
+          "descriptor": "Cap connector, cap nom propi excepte si és clau per a la matèria, cap paraula quotidiana òbvia (excepte a Emergent on els objectes concrets sí entren)."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Tots els termes del glossari apareixen literalment al text adaptat (fidelitat al lèxic nuclear del text)."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He mirat les imatges del glossari quan al text he trobat una paraula que no he reconegut.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre",
+          "descriptor": "5-8 termes.",
+          "countable": {
+            "min": 5,
+            "max": 8,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_1_tipologia_lexica",
+          "descriptor": "Noms i verbs d'acció principals del text."
+        },
+        {
+          "pas_id": "pas_2_estructura",
+          "descriptor": "Taula de 2 columnes: Terme \\"
+        },
+        {
+          "pas_id": "pas_2_suport_visual",
+          "descriptor": "Emoji recomanat si el terme té representació visual clara."
+        },
+        {
+          "pas_id": "pas_3_llargada",
+          "descriptor": "Fins a 8 paraules en català molt senzill (A1).",
+          "countable": {
+            "max": 8,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_recursos_pedagogics",
+          "descriptor": "Català A1 sense tecnicismes dins la definició. No repetir el terme."
+        },
+        {
+          "pas_id": "pas_4_inclusio_l1",
+          "descriptor": "Columna addicional \"Traducció (L1)\" en alfabet original. Taula de 3 columnes."
+        },
+        {
+          "pas_id": "pas_4_notes_contrastives",
+          "descriptor": "Sense notes. La traducció directa és el pont."
+        },
+        {
+          "pas_id": "pas_5_no_circularitat",
+          "descriptor": "El terme no apareix dins de la pròpia definició a cap nivell."
+        },
+        {
+          "pas_id": "pas_5_no_recursivitat",
+          "descriptor": "La definició usa només vocabulari A1 (mai termes més complexos sense explicar-los)."
+        },
+        {
+          "pas_id": "pas_5_llengua_de_definicio",
+          "descriptor": "Idem (llengua de sortida)."
+        },
+        {
+          "pas_id": "pas_5_seleccio_pertinent",
+          "descriptor": "Idem. **Exclou explícitament a A1 + etapa primària inicial**: objectes domèstics (mitja, botó, agulla, fil, retolador, llapis, paper, plat, got, casa, taula, porta), parts del cos (cap, mà, ulls, boca, peu), verbs d'acció bàsics (posar, lligar, dibuixar, jugar, mirar, fer). Aquests són **coneixement previ**, no termes a explicar. Si el text no en conté CAP de realment nou per al nivell, escriu només la nota «Aquest text no necessita glossari nou per al teu nivell» sense taula."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Tots els termes apareixen literalment al text adaptat."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"Quan llegint el text he trobat una paraula difícil, he anat al glossari a buscar-la abans de demanar ajuda.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre",
+          "descriptor": "8-10 termes.",
+          "countable": {
+            "min": 8,
+            "max": 10,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_1_tipologia_lexica",
+          "descriptor": "Noms + verbs + adjectius clau."
+        },
+        {
+          "pas_id": "pas_2_estructura",
+          "descriptor": "Explicació."
+        },
+        {
+          "pas_id": "pas_2_suport_visual",
+          "descriptor": "Emoji opcional per a termes concrets; no per a abstractes."
+        },
+        {
+          "pas_id": "pas_3_llargada",
+          "descriptor": "Fins a 10 paraules.",
+          "countable": {
+            "max": 10,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_recursos_pedagogics",
+          "descriptor": "Pot incloure una analogia simple (\"és com…\") o un exemple concret del text."
+        },
+        {
+          "pas_id": "pas_4_inclusio_l1",
+          "descriptor": "Columna addicional. Si no existeix paraula exacta en L1, usar la més propera amb aclariment breu."
+        },
+        {
+          "pas_id": "pas_4_notes_contrastives",
+          "descriptor": "Aclariment breu quan no hi ha equivalent exacte."
+        },
+        {
+          "pas_id": "pas_5_no_circularitat",
+          "descriptor": "El terme no apareix dins de la pròpia definició a cap nivell."
+        },
+        {
+          "pas_id": "pas_5_no_recursivitat",
+          "descriptor": "Pot usar termes d'A2 màx.; tecnicismes només si s'expliquen integrats."
+        },
+        {
+          "pas_id": "pas_5_llengua_de_definicio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_seleccio_pertinent",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Tots els termes apareixen literalment al text adaptat."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He fet servir el glossari per entendre el text. He intentat dir el significat amb les meves paraules a algú.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre",
+          "descriptor": "10-12 termes.",
+          "countable": {
+            "min": 10,
+            "max": 12,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_1_tipologia_lexica",
+          "descriptor": "Inclou habilitats cognitives lèxicament marcades (hipòtesi, causa, conseqüència)."
+        },
+        {
+          "pas_id": "pas_2_estructura",
+          "descriptor": "Taula de 2 columnes; pot afegir una analogia o exemple integrat."
+        },
+        {
+          "pas_id": "pas_2_suport_visual",
+          "descriptor": "Referència opcional a la il·lustració del text si n'hi ha."
+        },
+        {
+          "pas_id": "pas_3_llargada",
+          "descriptor": "Fins a 12 paraules.",
+          "countable": {
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_recursos_pedagogics",
+          "descriptor": "Pot usar vocabulari lleugerament tècnic acompanyat d'un exemple."
+        },
+        {
+          "pas_id": "pas_4_inclusio_l1",
+          "descriptor": "Columna addicional. Pot afegir nota sobre diferències conceptuals entre L1 i català."
+        },
+        {
+          "pas_id": "pas_4_notes_contrastives",
+          "descriptor": "Notes conceptuals quan la categoria L1 difereix de la del català."
+        },
+        {
+          "pas_id": "pas_5_no_circularitat",
+          "descriptor": "El terme no apareix dins de la pròpia definició a cap nivell."
+        },
+        {
+          "pas_id": "pas_5_no_recursivitat",
+          "descriptor": "Pot usar termes B1 màx.; tecnicismes acompanyats d'exemple."
+        },
+        {
+          "pas_id": "pas_5_llengua_de_definicio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_seleccio_pertinent",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Tots els termes apareixen al text o són col·locacions necessàries per a la comprensió."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He reflexionat sobre si sabia usar els termes del glossari en una frase pròpia, i així he sabut quins encara no domino.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre",
+          "descriptor": "12-15 termes.",
+          "countable": {
+            "min": 12,
+            "max": 15,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_1_tipologia_lexica",
+          "descriptor": "Lèxic d'especialitat (CALP). Inclou col·locacions (\"realitzar una hipòtesi\")."
+        },
+        {
+          "pas_id": "pas_2_estructura",
+          "descriptor": "Taula de 2 columnes; **ordre alfabètic** dels termes; pot afegir una tercera columna \"Exemple en frase\"."
+        },
+        {
+          "pas_id": "pas_2_suport_visual",
+          "descriptor": "No necessari; el lector processa el terme sense suport visual."
+        },
+        {
+          "pas_id": "pas_3_llargada",
+          "descriptor": "Fins a 15 paraules.",
+          "countable": {
+            "max": 15,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_recursos_pedagogics",
+          "descriptor": "Vocabulari acadèmic (CALP) propi del camp; pot referenciar un altre terme del glossari."
+        },
+        {
+          "pas_id": "pas_4_inclusio_l1",
+          "descriptor": "Columna addicional. Pot afegir nota sobre diferències morfosintàctiques rellevants."
+        },
+        {
+          "pas_id": "pas_4_notes_contrastives",
+          "descriptor": "Notes morfosintàctiques o de col·locació quan són rellevants per a la comprensió."
+        },
+        {
+          "pas_id": "pas_5_no_circularitat",
+          "descriptor": "El terme no apareix dins de la pròpia definició a cap nivell."
+        },
+        {
+          "pas_id": "pas_5_no_recursivitat",
+          "descriptor": "Pot usar lèxic d'especialitat propi del camp si el lector ja el coneix."
+        },
+        {
+          "pas_id": "pas_5_llengua_de_definicio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_seleccio_pertinent",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Termes literals + col·locacions + derivacions conceptualment necessàries."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He pensat quina diferència hi ha entre els termes del glossari que es poden confondre i com triaria un o l'altre.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre",
+          "descriptor": "15-18 termes.",
+          "countable": {
+            "min": 15,
+            "max": 18,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_1_tipologia_lexica",
+          "descriptor": "CALP d'especialitat. Pot incloure termes meta-discursius i lèxic conceptual abstracte."
+        },
+        {
+          "pas_id": "pas_2_estructura",
+          "descriptor": "Taula de 2-3 columnes; **ordre alfabètic** obligatori; pot incloure referència creuada interna."
+        },
+        {
+          "pas_id": "pas_2_suport_visual",
+          "descriptor": "No necessari."
+        },
+        {
+          "pas_id": "pas_3_llargada",
+          "descriptor": "Fins a 20 paraules.",
+          "countable": {
+            "max": 20,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_recursos_pedagogics",
+          "descriptor": "Definició precisa amb matís conceptual; pot incloure distinció entre termes similars o etimologia breu."
+        },
+        {
+          "pas_id": "pas_4_inclusio_l1",
+          "descriptor": "Columna opcional. L'alumne ja pot gestionar el text sense suport explícit en L1."
+        },
+        {
+          "pas_id": "pas_4_notes_contrastives",
+          "descriptor": "Notes autonomes; pot incloure registre o variació diatòpica si és rellevant."
+        },
+        {
+          "pas_id": "pas_5_no_circularitat",
+          "descriptor": "El terme no apareix dins de la pròpia definició a cap nivell."
+        },
+        {
+          "pas_id": "pas_5_no_recursivitat",
+          "descriptor": "Lèxic d'especialitat lliure dins del camp; referència creuada quan calgui."
+        },
+        {
+          "pas_id": "pas_5_llengua_de_definicio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_seleccio_pertinent",
+          "descriptor": "Idem (els meta-discursius sí entren)."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Termes literals + col·locacions + derivacions + termes conceptualment connectats que amplien la xarxa lèxica del camp."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He reflexionat sobre com s'usaria el terme en un altre context i si la definició encara seria vàlida.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_nombre",
+      "titol": "Selecció de termes",
+      "dimensio": "Nombre",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar entrades del glossari"
+    },
+    {
+      "id": "pas_1_tipologia_lexica",
+      "titol": "Selecció de termes",
+      "dimensio": "Tipologia lèxica",
+      "tipus": "enumerable",
+      "requires_source_text": true,
+      "validation_hint": "LLM-jutge classifica els termes per tipologia (concret/abstracte/CALP/col·locació) i contrasta amb el nivell"
+    },
+    {
+      "id": "pas_2_estructura",
+      "titol": "Format de presentació",
+      "dimensio": "Estructura",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "parsejar el format (HTML/Markdown) i verificar columnes esperades per nivell"
+    },
+    {
+      "id": "pas_2_suport_visual",
+      "titol": "Format de presentació",
+      "dimensio": "Suport visual",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "comptar emojis/pictogrames per terme; verificar presència obligatòria a pre-A1"
+    },
+    {
+      "id": "pas_3_llargada",
+      "titol": "Explicació / definició (CALP)",
+      "dimensio": "Llargada",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar paraules de cada definició; verificar llindar per nivell"
+    },
+    {
+      "id": "pas_3_recursos_pedagogics",
+      "titol": "Explicació / definició (CALP)",
+      "dimensio": "Recursos pedagògics",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge detecta analogies, exemples, vocabulari acadèmic segons nivell"
+    },
+    {
+      "id": "pas_4_inclusio_l1",
+      "titol": "Variant bilingüe (nouvingut L1)",
+      "dimensio": "Inclusió L1",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar presència de columna L1 i validar alfabet original"
+    },
+    {
+      "id": "pas_4_notes_contrastives",
+      "titol": "Variant bilingüe (nouvingut L1)",
+      "dimensio": "Notes contrastives",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre presència i pertinença de notes"
+    },
+    {
+      "id": "pas_5_no_circularitat",
+      "titol": "Criteris transversals",
+      "dimensio": "No-circularitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: el terme NO apareix dins de la pròpia definició"
+    },
+    {
+      "id": "pas_5_no_recursivitat",
+      "titol": "Criteris transversals",
+      "dimensio": "No-recursivitat",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: les paraules de la definició són d'un nivell ≤ al terme"
+    },
+    {
+      "id": "pas_5_llengua_de_definicio",
+      "titol": "Criteris transversals",
+      "dimensio": "Llengua de definició",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detector de llengua sobre cada definició; ha de coincidir amb la llengua de SORTIDA del text adaptat (català per defecte, però adaptable a castellà/anglès/etc. segons el `lang` del cas). Sense fallbacks a altres llengües"
+    },
+    {
+      "id": "pas_5_seleccio_pertinent",
+      "titol": "Criteris transversals",
+      "dimensio": "Selecció pertinent",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge contra llista de tipus prohibits (connectors, noms propis, quotidians)"
+    },
+    {
+      "id": "pas_5_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comprovar que cada terme del glossari apareix al text adaptat; a B1+ permet col·locacions i derivacions. LLM-jutge amb tres prompts diferenciats segons nivell objectiu"
+    },
+    {
+      "id": "pas_6_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivat doble: autoavaluació alumne + registre docent de la qualitat"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Inclou només termes CALP, d'especialitat curricular o de baixa freqüència per al nivell MECR objectiu que apareguin literalment al text adaptat. NO incloguis termes BICS (vocabulari quotidià, objectes domèstics, parts del cos, verbs d'acció bàsics), EXCEPTE si l'alumne és nouvingut amb L1 declarada i el terme funciona com a ancoratge translingüístic.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix què és 'quotidià per a aquest alumne concret' ni jutja la pertinença pedagògica final dels termes. Genera la taula amb els termes que compleixen els criteris formals (fidelitat al text, tipologia lèxica per nivell, no-circularitat); la decisió de retirar entries o afegir-ne via menú flotant la pren l'acompanyant al Pas 3."
+  },
+  "regla_seleccio_per_perfil": {
+    "default_monolingue": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "Per defecte, sense L1 declarada, la funció del glossari és reduir càrrega lèxica acadèmica en monolingüe; no cal columna L1."
+    },
+    "bilingue_L1_alfabet_llati": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "t"
+      ],
+      "raonament": "Per a nouvinguts amb L1 d'alfabet llatí, la traducció directa ja és pont cognitiu suficient (Cummins & Early, TOLC); la transliteració no aporta."
+    },
+    "bilingue_L1_alfabet_no_llati": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "f"
+      ],
+      "raonament": "Vegeu cas especial 'nouvingut_L1_alfabet_no_llati': l'alfabet original ancora coneixement previ; la transliteració activa la veu interna per a l'acompanyant que no llegeix l'alfabet original."
+    },
+    "DUA_acces_o_fase_lectora_logografica": {
+      "inclou_si": [
+        "P"
+      ],
+      "exclou_explicitament": [
+        "t"
+      ],
+      "raonament": "Vegeu cas 'fase_lectora_logografica': la imatge és l'únic pont de significat quan l'alumne encara no descodifica alfabèticament (multimodalitat MALL)."
+    },
+    "AACC": {
+      "inclou_si": [
+        "g"
+      ],
+      "exclou_explicitament": [
+        "m"
+      ],
+      "raonament": "L'alumne AACC consumeix glossari estàndard del seu MECR; l'ampliació conceptual queda capturada pujant nivell MECR (C1+), no afegint estructura.  _Nota crítica: la selecció de variant (mono/bilingüe/translit) NO la decideix el LLM: ve donada pels camps del perfil (nouvingut_L1, L1_script, fase_lectora). El LLM només aplica la plantilla que correspon._"
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_conte_termes",
+      "description": "El text conté termes curriculars d'especialitat que l'alumnat probablement desconeix (fotosíntesi, democràcia, equació, monarquia...)."
+    },
+    {
+      "name": "l_alumnat_es_nouvingut",
+      "description": "L'alumnat és nouvingut o té MECR baix en relació al text adaptat."
+    },
+    {
+      "name": "la_materia_es_de",
+      "description": "La matèria és de ciències, tecnologia o ciències socials (densitat lèxica acadèmica alta)."
+    },
+    {
+      "name": "el_text_conte_nominalitzacions",
+      "description": "El text conté nominalitzacions o passives que dificulten la comprensió (\"la realització del procés\" en lloc de \"quan es fa el procés\")."
+    },
+    {
+      "name": "el_docent_ha_notat",
+      "description": "El docent ha notat que l'alumne usa BICS (llengua quotidiana) on caldria CALP: diu \"cosa\" en lloc de \"recurs\", \"fer\" en lloc de \"implementar\"."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_ja_inclou",
+      "description": "El text ja inclou definicions integrades (\"la fotosíntesi, és a dir, el procés pel qual…\")."
+    },
+    {
+      "name": "text_de_menys_de",
+      "description": "Text de menys de 100 paraules on els termes desconeguts es poden explicar oralment en 2 minuts."
+    },
+    {
+      "name": "l_alumnat_coneix_be",
+      "description": "L'alumnat coneix bé el vocabulari del tema (text familiar o repàs)."
+    },
+    {
+      "name": "el_temps_es_limitat",
+      "description": "El temps és limitat i és millor una explicació oral directa."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La marca mental de preguntes anteriors.",
+      "descripcio": "Selecciono els termes del glossari llegint el text i marcant els que l'alumnat m'ha preguntat en unitats anteriors sobre el mateix tema. Tinc una llista mental (o física) de \"paraules conflictives\" per matèria i nivell: a ciències 3r ESO, \"osmosi\", \"membrana\" i \"ions\" sempre necessiten glossari. Si els trobo al text nou, el glossari és automàtic."
+    },
+    {
+      "id": "H2",
+      "titol": "La prova de la substitució.",
+      "descripcio": "Per decidir si un terme va al glossari, faig la prova de la substitució: \"Podria l'alumne entendre la frase si tragués aquesta paraula i la substituís per 'cosa'?\". Si la resposta és \"sí, quasi bé\", el terme no és crític per a la comprensió. Si és \"no, perdria tot el sentit\", el terme va al glossari. Aquesta prova em permet ser selectiu i no sobrecarregar l'alumne amb 20 termes."
+    },
+    {
+      "id": "H3",
+      "titol": "Variant bilingüe amb L1 d'alfabet no llatí.",
+      "descripcio": "Per a alumnat nouvingut d'àrab, xinès, urdú o armeni, el glossari bilingüe amb l'alfabet original de la L1 és gairebé sempre necessari els primers 3 mesos. El terme en L1 actua com a \"ancoratge cognitiu\": l'alumne ja sap el concepte en la seva llengua i el glossari bilingüe simplement li dóna la paraula en català. Sense aquest pont, l'alumne ha d'aprendre simultàniament el concepte i la paraula, cosa que dobla la càrrega cognitiva."
+    },
+    {
+      "id": "H4",
+      "titol": "Glossari col·laboratiu (B1+).",
+      "descripcio": "A partir de B1, proposo que sigui l'alumnat qui construeixi el glossari col·lectivament: primer identifiquen els termes que no entenen, després busquen la definició en parelles. El docent valida i corregeix. Aquesta estratègia té un efecte doble: l'alumne pren consciència del seu propi desconeixement lèxic (metacognició) i el glossari resultant és més ajustat a les necessitats reals del grup. **És el cas de PRODUCCIÓ d'alumnat** — per a avaluar-ho cal el derivat propi (rúbrica d'avaluació formativa de producció), no aquesta rúbrica de producte."
+    },
+    {
+      "id": "H5",
+      "titol": "El glossari com a avaluació diagnòstica.",
+      "descripcio": "Abans d'adaptar un text complex, demano a l'alumnat que subratlli les paraules que no entenen. El resultat és un diagnòstic lèxic ràpid: si la majoria del grup subratlla els mateixos termes, el problema és col·lectiu i cal glossari comú. Si cada alumne subratlla paraules diferents, el problema és individual i cal suport personalitzat (o glossari diferenciat per nivell)."
+    }
+  ],
+  "case_overrides": {
+    "nouvingut_l1_alfabet_no_llati": {
+      "trigger": {
+        "raw": "nouvingut_L1_alfabet_no_llati"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND L1_script_in: [arab, han, urdu, ciril-lic, armeni, devanagari, hebreu]\n\n**Modulació:**\n- afegeix_columna_L1: true (alfabet original)\n- afegeix_columna_transliteracio: true\n- format: bilingue_translit_4col (Terme | Explicació CA | L1 | Transliteració)\n- notes_contrastives: permeses quan no hi ha equivalent exacte\n\n**Raonament pedagògic.** El terme en L1 actua d'ancoratge cognitiu (Cummins & Early, TOLC); la transliteració facilita la pronúncia per a l'acompanya"
+      }
+    },
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1, A1] AND fase_lectora: logografica\n\n**Modulació:**\n- pictograma_obligatori_per_terme: true\n- format: preA1_nouvingut_alt (Terme | Pictograma | L1 | Transliteració si aplica)\n- max_paraules_definicio: 6\n- sense_taula_complexa: a pre-A1 s'admet llista emoji+terme en lloc de taula\n\n**Raonament pedagògic.** L'alumne encara no descodifica alfabèticament; la imatge és l'únic pont de significat (multimodalitat MALL). Forçar text dens en aquest punt sobrecarrega sense aport"
+      }
+    },
+    "a1_primaria_inicial_vocabulari_quotidia": {
+      "trigger": {
+        "raw": "A1_primaria_inicial_vocabulari_quotidia"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND etapa_in: [infantil, primaria-inicial] AND text_lexic_quotidia: true\n\n**Modulació:**\n- sostre_max_terms: 2\n- si_no_hi_ha_termes_nous: substitueix la taula per la nota literal «Aquest text no necessita glossari nou per al teu nivell»\n- exclou_explicitament: objectes domèstics, parts del cos, verbs d'acció bàsics\n\n**Raonament pedagògic.** El glossari afegeix càrrega lectora innecessària quan tots els termes són coneixement previ; considera pictogrames com a mediaci"
+      }
+    },
+    "glossari_collaboratiu_produccio": {
+      "trigger": {
+        "raw": "glossari_collaboratiu_produccio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1] AND mode: produccio_alumnat\n\n**Modulació:**\n- aquesta_rubrica_no_aplica: el cas de producció autònoma (H4) requereix un derivat propi (rúbrica d'avaluació formativa)\n- el M3 actual només descriu el glossari adaptat per a la LECTURA\n\n**Raonament pedagògic.** Descriure consum lector i producció autònoma són actes d'ensenyament diferents (vegeu Aclariment d'ús). Aplicar la mateixa rúbrica als dos casos confondria avaluació de producte i avaluació de procés."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "nombre",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_1_nombre].countable"
+    },
+    {
+      "name": "estructura",
+      "type": "qualitative",
+      "rule": "parsejar el format (HTML/Markdown) i verificar columnes esperades per nivell"
+    },
+    {
+      "name": "llargada",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_3_llargada].countable"
+    },
+    {
+      "name": "no_circularitat",
+      "type": "qualitative",
+      "rule": "regex: el terme NO apareix dins de la pròpia definició"
+    }
+  ],
+  "post_edicio_pas3": {
+    "valvula_humana": true,
+    "accions_disponibles_per_docent": [
+      "toggle_columna_CA",
+      "toggle_columna_pictograma",
+      "toggle_columna_L1",
+      "toggle_columna_transliteracio",
+      "eliminar_entry",
+      "afegir_entry",
+      "editar_definicio"
+    ],
+    "comportament_toggles": "Toggles operen client-side amb columnes ja generades pel LLM. Si el docent desactiva una columna, s'amaga al render i s'exclou de l'export PDF.",
+    "filosofia": "ATNE proposa, docent decideix. La lògica de defaults condicionals per perfil (quan cada toggle està ON o OFF) viu al codi UI ATNE com a excepció pactada (no canonitzable al JSON)."
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

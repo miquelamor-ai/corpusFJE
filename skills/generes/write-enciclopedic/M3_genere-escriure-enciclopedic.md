@@ -46,6 +46,14 @@ L'entrada enciclopèdica defineix un terme amb la màxima precisió possible, us
 Aquesta rúbrica descriu l'**entrada enciclopèdica adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta SEMPRE una entrada enciclopèdica amb tres components obligatoris en aquest ordre: (1) Definició nuclear d'una frase amb la fórmula "[Terme] és un/una [categoria] que [especificitat]", (2) Explicació ampliada de 2-5 frases segons MECR, i (3) Exemple concret. NO incloguis remissions a altres entrades ("vegeu també...") ni etimologia com a substituta de la definició.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir el grau de precisió disciplinar de la categoria ni jutjar si l'exemple triat és el més rellevant pedagògicament per a l'alumne concret. La selecció de la categoria correcta dins de la taxonomia de la matèria, l'adequació de l'exemple al coneixement previ de l'aula i la decisió sobre quins matisos terminològics introduir (C1) són del docent.
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a entrada enciclopèdica):
@@ -87,6 +95,40 @@ Aquesta rúbrica descriu l'**entrada enciclopèdica adaptada per a la LECTURA** 
 |  | Fidelitat al text font | Fidelitat a la categoria i al tret diferencial principals del terme. | Fidelitat a la categoria, al tret diferencial i a l'exemple. | Fidelitat a la categoria, al tret diferencial, a l'exemple i al to factual. | Fidelitat a la complexitat conceptual i al context disciplinar. | Fidelitat a la complexitat, als matisos i als debats si els hi ha. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit una frase que diu qué és el terme. He posat un exemple." | "He dit a quina categoria pertany el terme i qué el fa diferent. He posat un exemple." | "La meva definició no usa el terme per definir-se. He explicat 2-3 característiques." | "He delimitat el terme respecte a termes propers. He usat vocabulari específic de la matèria." | "He presentat el terme amb matisos, variants i possibles debats sobre la seva definició." |
 
+## Casos especials
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr: A1 AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- max_paraules_definicio: 10
+- estructura_fixada: "X és un Y que Z"
+- categoria_triada_d_una_llista_docent: true
+- max_frases_explicacio: 2
+- exemple_obligatoriament_visual_quotidia: true
+
+### cross_source_adaptacio
+
+**Trigger:** agent_role: adapter AND text_font_disponible: true
+
+**Modulació:**
+- fidelitat_categoria_original: obligatoria
+- fidelitat_tret_diferencial: obligatoria (A1+)
+- fidelitat_exemple: obligatoria (A2+)
+- fidelitat_to_factual: obligatoria (B1+)
+- fidelitat_matisos_i_debats: obligatoria (C1)
+
+### C1_debat_terminologic
+
+**Trigger:** mecr: C1 AND terme_te_debat_disciplinar_documentat: true
+
+**Modulació:**
+- definicio_nuclear_segueix_binary: no_usa_terme_ni_arrels
+- debat_integrat_a_explicacio_ampliada: true
+- debat_mai_a_definicio_nuclear: true
+
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -125,6 +167,27 @@ Aquesta rúbrica descriu l'**entrada enciclopèdica adaptada per a la LECTURA** 
 
 **H3 — El contraexemple com a eina de precisió.**
 A B1+, proposo: "Posa un exemple de [terme] i un exemple de [terme proper que NO és el terme]." El contraexemple força la precisió de la definició: si l'alumne no pot posar un contraexemple, la definició és massa àmplia. Exemple: "la balena és un mamífer (exemple) / el tauró no és un mamífer (contraexemple), per tant la definició de mamífer ha d'excloure el tauró".
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Entrada
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Definició
+### Explicació
+### Exemple
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica
+```
+
+**Regla d'integritat estructural.** Sense els tres H3 literals (### Definició, ### Explicació, ### Exemple) sota ## Entrada, el parser no pot separar els components per al test de circularitat (Pas 2). La definició ha d'anar en una sola frase al primer paràgraf de ### Definició.
 
 ## Fonts principals
 

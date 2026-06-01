@@ -1,0 +1,453 @@
+{
+  "_meta": {
+    "name": "rubrica_write_resum",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-resum\\M3_genere-escriure-resum.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-resum",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "resum",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la idea principal, a les idees secundàries, als connectors i a la relació lògica del font."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_directesa",
+          "descriptor": "1 frase que diu de qué tracta el text. Directa. Al principi."
+        },
+        {
+          "pas_id": "pas_2_fidelitat_i_imparcialitat",
+          "descriptor": "No afegir opinions pròpies: sense \"crec que\", \"m'agrada\", \"és interessant\"."
+        },
+        {
+          "pas_id": "pas_3_coherencia_i_estructura",
+          "descriptor": "\"I\", \"però\", \"perquè\". Pocs però presents."
+        },
+        {
+          "pas_id": "pas_4_sintesi_i_seleccio",
+          "descriptor": "3-4 frases. Màxim 1/3 del text font.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_sintesi_sense_preambul",
+          "descriptor": "Cap \"En aquest text…\", \"L'autor diu que…\" com a primera frase. La primera paraula del resum és ja contingut."
+        },
+        {
+          "pas_id": "pas_5_no_copia_literal",
+          "descriptor": "Cap frase copiada del text font. Reformulació sempre."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Fidelitat a la idea principal i a les 2-3 idees secundàries del text font."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He escrit la idea principal en la primera frase. No he escrit la meva opinió.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_directesa",
+          "descriptor": "Idea principal en 1-2 frases. Primer paràgraf. Directa i sense preàmbul.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_fidelitat_i_imparcialitat",
+          "descriptor": "Sense afegir informació nova ni opinions. Veu neutra i impersonal."
+        },
+        {
+          "pas_id": "pas_3_coherencia_i_estructura",
+          "descriptor": "\"Per tant\", \"d'altra banda\", \"però\". Variats i usats per connectar les idees."
+        },
+        {
+          "pas_id": "pas_4_sintesi_i_seleccio",
+          "descriptor": "4-6 frases (o ~1/4 del text font). Proporcional a la complexitat del font.",
+          "countable": {
+            "min": 4,
+            "max": 6,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_sintesi_sense_preambul",
+          "descriptor": "Idem. Sense meta-comentaris sobre el text o l'autor."
+        },
+        {
+          "pas_id": "pas_5_no_copia_literal",
+          "descriptor": "Idem. Cap fragment de més de 4 paraules consecutives idèntiques al font."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Fidelitat a la idea principal, a les idees secundàries i a l'ordre del font."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He connectat les idees amb connectors. No he afegit informació nova.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_directesa",
+          "descriptor": "Idea principal condensada amb precisió. Primera frase densa i informativa."
+        },
+        {
+          "pas_id": "pas_2_fidelitat_i_imparcialitat",
+          "descriptor": "Reformulació que manté el punt de vista de l'autor original sense adoptar-lo."
+        },
+        {
+          "pas_id": "pas_3_coherencia_i_estructura",
+          "descriptor": "Connectors que reflecteixen la relació real entre idees del text font (causa, contrast, conseqüència)."
+        },
+        {
+          "pas_id": "pas_4_sintesi_i_seleccio",
+          "descriptor": "~1/4 o 1/5 del text font. Preservar estructura lògica per davant de la llargada mecànica."
+        },
+        {
+          "pas_id": "pas_5_sintesi_sense_preambul",
+          "descriptor": "Idem. Cap frase buida de contingut al resum."
+        },
+        {
+          "pas_id": "pas_5_no_copia_literal",
+          "descriptor": "Idem. La reformulació captura el sentit, no el text superficial."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Fidelitat a la idea principal, a les idees secundàries, als connectors i a la relació lògica del font."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"El meu resum té les idees en el mateix ordre que el text original. He eliminat exemples però no idees.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_directesa",
+          "descriptor": "Idea principal amb el matís necessari. Primera frase que capta el nucli del text font."
+        },
+        {
+          "pas_id": "pas_2_fidelitat_i_imparcialitat",
+          "descriptor": "Veu de l'autor preservada. Distinció clara entre el que diu l'autor i qui resumeix."
+        },
+        {
+          "pas_id": "pas_3_coherencia_i_estructura",
+          "descriptor": "Connectors precisos que reprodueixen l'estructura lògica del text font."
+        },
+        {
+          "pas_id": "pas_4_sintesi_i_seleccio",
+          "descriptor": "Proporció conscient: la llargada reflecteix la importància relativa de cada idea del font."
+        },
+        {
+          "pas_id": "pas_5_sintesi_sense_preambul",
+          "descriptor": "Idem. Densitat informativa alta."
+        },
+        {
+          "pas_id": "pas_5_no_copia_literal",
+          "descriptor": "Idem. La reformulació preserva els matisos semàntics rellevants del font."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat informativa i al registre del text font."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He mantingut la veu de l'autor. La llargada és proporcional al text font.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_directesa",
+          "descriptor": "Idea principal amb tots els matisos que el text font implica, sense sobrecarregar."
+        },
+        {
+          "pas_id": "pas_2_fidelitat_i_imparcialitat",
+          "descriptor": "Veu de l'autor preservada amb precisió. Atribució explícita si cal (\"Segons l'autor...\")."
+        },
+        {
+          "pas_id": "pas_3_coherencia_i_estructura",
+          "descriptor": "Connectors sofisticats que capturen la lògica argumentativa o expositiva de l'autor."
+        },
+        {
+          "pas_id": "pas_4_sintesi_i_seleccio",
+          "descriptor": "Condensació rigorosa: cada frase del resum aporta informació nova i necessària del font."
+        },
+        {
+          "pas_id": "pas_5_sintesi_sense_preambul",
+          "descriptor": "Idem. Màxima densitat: cada frase és contingut del font, no comentari sobre el font."
+        },
+        {
+          "pas_id": "pas_5_no_copia_literal",
+          "descriptor": "Idem. La reformulació pot conservar termes tècnics si no existeix paràfrasi adequada."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Fidelitat total: idea principal, idees secundàries, relació lògica i matisos del font."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"El meu resum és dens, fidel i complet. Qualsevol persona pot entendre el text font llegint el meu resum.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_claredat_i_directesa",
+      "titol": "Idea principal al 1r paràgraf",
+      "dimensio": "Claredat i directesa",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: idea principal present a la primera frase; qualitative: LLM-jutge sobre si la primera frase captura la idea central del text font (cross_source)"
+    },
+    {
+      "id": "pas_2_fidelitat_i_imparcialitat",
+      "titol": "Conservació de la veu original",
+      "dimensio": "Fidelitat i imparcialitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar opinions pròpies (\"crec que\", \"m'agrada\", \"és interessant\", \"estic d'acord\"); qualitative: LLM-jutge sobre si el resum adopta el punt de vista de l'autor o del resumidor"
+    },
+    {
+      "id": "pas_3_coherencia_i_estructura",
+      "titol": "Connectors lògics",
+      "dimensio": "Coherència i estructura",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar i comptar connectors; qualitative: LLM-jutge sobre si el connector reflecteix la relació real entre les idees (causa, contrast, conseqüència) o si és merament additiu (\"i\"); cross_source (B1+): verificar si la relació lògica del connector coincideix amb la del text font"
+    },
+    {
+      "id": "pas_4_sintesi_i_seleccio",
+      "titol": "Proporció i llargada",
+      "dimensio": "Síntesi i selecció",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar paraules/frases del resum vs. text font; qualitative: LLM-jutge sobre si la proporció respecta la importància relativa de les idees o fa retallada mecànica"
+    },
+    {
+      "id": "pas_5_sintesi_sense_preambul",
+      "titol": "Criteris transversals",
+      "dimensio": "Síntesi sense preàmbul",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar \"En aquest text\", \"L'autor diu que\", \"Aquest article\", \"En aquest resum\" com a primera frase; binary: absent compleix"
+    },
+    {
+      "id": "pas_5_no_copia_literal",
+      "titol": "Criteris transversals",
+      "dimensio": "No còpia literal",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: A1 detectar frases senceres copiades; A2+: detectar fragments de 4+ paraules consecutives idèntiques al text font; qualitative: LLM-jutge sobre si la reformulació captura el sentit o és paràfrasi superficial"
+    },
+    {
+      "id": "pas_5_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar idea principal, idees secundàries i relació lògica del font vs. resum; LLM-jutge sobre si les omissions son justificades (exemples) o problemàtiques (idees principals)"
+    },
+    {
+      "id": "pas_6_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un resum com a text condensat acabat: idea principal a la primera frase sense preàmbul, conservació de la veu de l'autor del text font, connectors que reprodueixin la relació lògica del font i proporció màxima d'1/3 (A1) a 1/5 (B2-C1) respecte al text font. Calibra cadascun dels 6 passos al nivell MECR indicat al frontmatter, sense barrejar descriptors de nivells diferents.",
+    "no_judici_qualitatiu_complex": "No decideix quina és la idea principal real del text font ni avalua qualitativament si la reformulació és prou rica: aquest judici cross_source el fa el docent (o un LLM-jutge separat en validació). Tampoc no introdueix opinió pròpia, exemples nous, valoracions ni meta-comentaris (\"En aquest text...\", \"L'autor explica que...\")."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada A1→C1 captura la progressió de fidelitat, densitat informativa i sofisticació dels connectors. Mantenir el nivell íntegre evita inconsistències que desorientarien l'alumne lector del model."
+    },
+    "alumne_fase_lectora": {
+      "inclou_si": [
+        "a"
+      ],
+      "raonament": "Dins de A1, la fase lectora marca la diferència entre l'alumne que tot just descodifica (cal estricte A1) i el que llegeix amb fluïdesa (pot ampliar la xarxa de connectors al pas 3). Principi MALL: el model de lectura ha d'estar al màxim de l'abast real de l'alumne."
+    },
+    "alumne_DUA_acces": {
+      "inclou_si": [
+        "M"
+      ],
+      "raonament": "El principi DUA d'Accés demana reduir barreres de processament sense rebaixar el repte cognitiu. Mantenir el MECR nominal i aplicar les modulacions formals garanteix accés sense empobrir la tasca."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "inclou_si": [
+        "l"
+      ],
+      "raonament": "L'alumnat AACC necessita repte cognitiu superior per evitar desconnexió. Pujar un esglao MECR al model de lectura preserva el sostre alt sense techo artificial."
+    },
+    "alumne_nouvingut_amb_L1": {
+      "inclou_si": [
+        "M"
+      ],
+      "exclou_explicitament": [
+        "m"
+      ],
+      "raonament": "La diferenciació per al nouvingut es resol amb bastida prèvia oral (Cummins TOLC; MALL recapitulació com a bastida ZDP), no modificant el text del resum-model. Així es preserva la fidelitat del gènere i s'ofereix el suport on cal: a la fase d'entrada."
+    },
+    "pre_A1": {
+      "inclou_si": [
+        "n"
+      ],
+      "exclou_explicitament": [
+        "g"
+      ],
+      "raonament": "El gènere no s'adapta a pre-A1 (Decisió 6 canònica Fase B). Si arriba perfil pre-A1, retorna error d'aplicabilitat i deriva a recapitulació oral amb suport visual."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de demostrar que ha comprès un text llegit a classe produint un resum escrit."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un article, un capítol, un text divulgatiu o acadèmic."
+    },
+    {
+      "name": "la_unitat_avalua_la",
+      "description": "La unitat avalua la comprensió lectora a través de la producció escrita condensada."
+    },
+    {
+      "name": "l_activitat_preveu_que",
+      "description": "L'activitat preveu que l'alumne produeixi un resum com a tasca de síntesi transversal (totes les matèries)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_vol_afegir",
+      "description": "El text vol afegir una valoració personal → ressenya."
+    },
+    {
+      "name": "el_text_vol_argumentar",
+      "description": "El text vol argumentar una tesi → assaig."
+    },
+    {
+      "name": "el_text_condensa_amb",
+      "description": "El text condensa amb forats per omplir → resum graduat (complement de mediació)."
+    },
+    {
+      "name": "el_text_analitza_i",
+      "description": "El text analitza i interpreta → comentari crític."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La pregunta de la idea principal.",
+      "descripcio": "Proposo que l'alumne llegeixi el text sencer i llavors, sense mirar-lo, respongui en una frase: \"De qué tracta aquest text?\" La resposta és la idea principal. Amb la idea principal escrita, la resta del resum s'organitza com a desenvolupament d'aquesta frase inicial."
+    },
+    {
+      "id": "H2",
+      "titol": "El marcador de paràgrafs (B1+).",
+      "descripcio": "Per a textos llargs, proposo que l'alumne marqui la idea central de cada paràgraf al marge. Amb les idees centrals llistades, el resum és una síntesi de les marques. La tècnica entrena la identificació de la jerarquia informativa del text."
+    },
+    {
+      "id": "H3",
+      "titol": "El test del parafraseo.",
+      "descripcio": "Llegeixo una frase del resum de l'alumne i demano: \"Pots dir el mateix sense usar cap paraula de la frase original?\" Si pot, ha parafraseat correctament. Si no pot, ha copiat. El test es fa en parelles: A llegeix la frase del resum de B, B la reformula sense mirar l'original."
+    },
+    {
+      "id": "H4",
+      "titol": "Recapitulació oral primer (A1-A2).",
+      "descripcio": "Abans d'escriure, proposo 2 minuts de recapitulació oral en parelles: \"Explica a ton company de qué tractava el text.\" Qui explica oralment construeix la comprensió col·lectiva necessària per escriure el resum individual. La recapitulació oral és la bastida ZDP del resum escrit."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- max_frases_resum: 3\n- max_proporcio_vs_font: 1/3\n- connectors_admesos: [\"i\", \"però\", \"perquè\"]\n- preambul_meta_comentari: prohibit_estricte\n- copia_literal_llindar: cap_frase_sencera\n- lectura_no_produccio: true (el resum és model de LECTURA, no exigència de producció autònoma)\n\n**Raonament pedagògic.** A fase lectora emergent l'alumne tot just descodifica: el model ha de ser mínim en extensió i connector"
+      }
+    },
+    "dua_acces": {
+      "trigger": {
+        "raw": "DUA_acces"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces\n\n**Modulació:**\n- frases_curtes_una_idea: true\n- connectors_explicits_visibles: true\n- idea_principal_destacada_tipograficament: opcional (negreta a la primera frase)\n- densitat_informativa: reduida_un_nivell_mecr respecte al nominal\n\n**Raonament pedagògic.** El principi DUA d'Accés requereix reduir la barrera de processament textual sense rebaixar el repte cognitiu. La condensació es manté com a tret definitori del gènere; el que es modula és la càrrega processual"
+      }
+    },
+    "aacc": {
+      "trigger": {
+        "raw": "AACC"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc_equals: true\n\n**Modulació:**\n- densitat_informativa: incrementada_un_nivell_mecr (si MECR ≤ B1, llegeix model del nivell immediatament superior)\n- fidelitat_matissos_font: reforçada\n- permet_terminologia_tecnica_del_font sense paràfrasi quan no n'existeix d'adequada\n\n**Raonament pedagògic.** L'alumnat AACC necessita sostre cognitiu superior per evitar desconnexió. Pujar un esglao MECR al model i reforçar la fidelitat als matisos del font activa la zona de desenvolupament proper"
+      }
+    },
+    "nouvingut_l1_recapitulacio_oral": {
+      "trigger": {
+        "raw": "nouvingut_L1_recapitulacio_oral"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1_equals: true AND mecr_in: [A1, A2]\n\n**Modulació:**\n- bastida_previa_obligatoria: recapitulacio_oral_en_parella (HCL Explicar oral abans del resum escrit, segons MALL)\n- connector_minim_per_idea: 1\n- admet_copia_estructural_de_connectors_del_font (no de contingut lèxic)\n\n**Raonament pedagògic.** Per al nouvingut amb L1 a A1-A2, la bastida prèvia oral (Cummins TOLC; recapitulació MALL) és el que fa possible el salt al resum escrit. La còpia estructural dels connectors del"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "sintesi_sense_preambul",
+      "type": "qualitative",
+      "rule": "regex: detectar \"En aquest text\", \"L'autor diu que\", \"Aquest article\", \"En aquest resum\" com a primera frase; binary: absent compleix"
+    }
+  ]
+}

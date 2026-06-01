@@ -47,6 +47,14 @@ La ressenya descriu i valora una obra (llibre, pel·lícula, disc, exposició, v
 Aquesta rúbrica descriu la **ressenya adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Adapta o genera una ressenya respectant SEMPRE la seqüència invariant descripció → valoració: primer presenta l'obra en termes objectius (identificació + de què tracta sense jutjar) i només després introdueix la valoració argumentada amb evidències concretes de l'obra i una recomanació amb destinatari específic, sense revelar el final ni girs clau. Modula longitud, nombre d'arguments i sofisticació metacognitiva seguint el nivell MECR objectiu (A1→C1).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si la valoració és pedagògicament correcta, ni si el to admet ironia per a aquest alumne, ni si la separació fets/judicis és coherent. La decisió final sobre arguments, destinatari recomanat i to la pren qui ensenya al Pas 3. El LLM només garanteix seqüència estructural, control de spoilers i modulació MECR; mai inventa fets ni judicis fora de la font.
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a ressenya):
@@ -89,6 +97,36 @@ Aquesta rúbrica descriu la **ressenya adaptada per a la LECTURA** de l'alumne. 
 |  | Fidelitat al text font | Fidelitat a l'obra identificada i al contingut descriptiu bàsic. | Fidelitat a l'obra, als arguments principals i al to de la valoració. | Fidelitat a l'obra, als arguments, als fets citats i a la recomanació essencial. | Fidelitat a la complexitat valorativa i al context de la ressenya original. | Fidelitat a la complexitat, als matisos i a les referències de la ressenya original. |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He dit el títol i l'autor. He explicat de qué va. He dit si m'ha agradat i per qué." | "He separat el que és l'obra del que en penso. He donat 1 argument per a la valoració." | "He donat 3 arguments per defensar la meva valoració. He evitat revelar el final." | "Els meus judicis van acompanyats de fets concrets de l'obra. La recomanació és per a un públic concret." | "He distingit descripció, interpretació i valoració. La recomanació és matisada i argumentada." |
 
+## Casos especials
+
+### nouvingut_o_TEA_sense_ironia
+
+**Trigger:** perfil_in: [TEA] OR nouvingut_L1: true AND mecr_in: [A1, A2, B1]
+
+**Modulació:**
+- valoració sense sarcasme ni ironia (Pas 7.1)
+- to literal i transparent
+- sense exclamatives iròniques ("Quin geni!")
+- sense adjectivació hiperbòlica negativa
+- sense incongruència to/sentit
+
+**Raonament pedagògic.** Les marques textuals d'ironia no són accessibles sense competència pragmàtica avançada i poden generar interpretació literal errònia (inversió del judici). En alumnat amb TEA o en procés d'adquisició lingüística (nouvingut), la transparència del to és condició d'accés al significat valoratiu.
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- longitud màxima molt curta (5-7 frases totals)
+- identificació reduïda a títol + autor/director en 1 frase
+- descripció en 2-3 frases sense connectors complexos
+- 1 sol argument valoratiu amb 1 fet de l'obra
+- recomanació en 1 frase
+- sense subordinades encadenades
+- lèxic CALP minimitzat
+
+**Raonament pedagògic.** A fase alfabètica emergent dins A1, la càrrega lecto-descodificadora és encara dominant. Mantenir frases curtes i estructura paratàctica allibera recursos cognitius per a la nova operació metacognitiva (separar fets de judicis), que és el tret definitori del gènere.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -130,6 +168,40 @@ Per ajudar l'alumne a concretar la recomanació: "Per a qui NO seria una bona el
 
 **H4 — El test del company: sense spoiler.**
 El company llegeix la descripció i diu si pot anar a veure o llegir l'obra sense saber com acaba. Si sap el final o un gir clau, hi ha spoiler. El test es fa en parelles.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Ressenya
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Identificació de l'obra
+### Descripció
+### Valoració
+### Recomanació
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Ressenya literària
+## Crítica
+## Opinió
+```
+
+**Regla d'integritat estructural.** Sense els 4 H3 literals en l'ordre Identificació → Descripció → Valoració → Recomanació sota `## Ressenya`, el parser no pot verificar la seqüència descripció → valoració (tret definitori del gènere) ni activar el control de spoilers; la rúbrica de 8 passos no es pot mapejar contra el text adaptat.
 
 ## Fonts principals
 

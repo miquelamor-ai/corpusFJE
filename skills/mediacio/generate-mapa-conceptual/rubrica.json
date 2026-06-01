@@ -1,0 +1,452 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_mapa_conceptual",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-mapa-conceptual\\M3_instrument-generar-mapa-conceptual.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-mapa-conceptual",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "mapa_conceptual",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_funcio_cognitiva",
+          "descriptor": "Esquema visual: 2-3 nodes. Imatge → paraula o seqüència temporal (antes/durant/après).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_nucli_del_mapa",
+          "descriptor": "Nom d'un personatge o objecte familiar del text. 1-2 paraules.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_noms_de_categoria",
+          "descriptor": "1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua)."
+        },
+        {
+          "pas_id": "pas_4_detalls_de_les",
+          "descriptor": "Cap sub-element: l'esquema és pla (massa nivells per a pre-A1)."
+        },
+        {
+          "pas_id": "pas_5_estructura_markdown",
+          "descriptor": "`## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_funcio_cognitiva",
+          "descriptor": "Esquema visual: 3-4 nodes. Parts d'un tot o qualitats simples d'un element concret.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_nucli_del_mapa",
+          "descriptor": "1 terme nuclear concret del text adaptat. En negreta.",
+          "countable": {
+            "min": 1,
+            "max": 1,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_3_noms_de_categoria",
+          "descriptor": "2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "branques"
+          }
+        },
+        {
+          "pas_id": "pas_4_detalls_de_les",
+          "descriptor": "Cap sub-element: l'esquema és pla (màxim 1 nivell)."
+        },
+        {
+          "pas_id": "pas_5_estructura_markdown",
+          "descriptor": "`## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art."
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_funcio_cognitiva",
+          "descriptor": "Mapa conceptual: 2 nivells jeràrquics. Primera introducció guiada de branques etiquetades."
+        },
+        {
+          "pas_id": "pas_2_nucli_del_mapa",
+          "descriptor": "1 terme nuclear precís del text adaptat. En negreta. Correspon a la idea central del text.",
+          "countable": {
+            "min": 1,
+            "max": 1,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_3_noms_de_categoria",
+          "descriptor": "3-4 branques amb noms de categoria clars (Causes / Tipus / Efectes / Processos). Mai genèrics.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "branques"
+          }
+        },
+        {
+          "pas_id": "pas_4_detalls_de_les",
+          "descriptor": "2-3 sub-elements per branca. Termes curts, no frases llargues. Del text adaptat."
+        },
+        {
+          "pas_id": "pas_5_estructura_markdown",
+          "descriptor": "`## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art."
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_funcio_cognitiva",
+          "descriptor": "Mapa conceptual: 3 nivells. Concepte → categories disciplinars → detalls inferts del text."
+        },
+        {
+          "pas_id": "pas_2_nucli_del_mapa",
+          "descriptor": "1 terme que organitza tot el coneixement del text. Terme disciplinar.",
+          "countable": {
+            "min": 1,
+            "max": 1,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_3_noms_de_categoria",
+          "descriptor": "3-5 branques amb noms de categoria disciplinars. Relació lògica explícita (no \"Informació\").",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "branques"
+          }
+        },
+        {
+          "pas_id": "pas_4_detalls_de_les",
+          "descriptor": "3-4 sub-elements per branca. Inferts del text, no copiats literalment."
+        },
+        {
+          "pas_id": "pas_5_estructura_markdown",
+          "descriptor": "`## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art."
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_funcio_cognitiva",
+          "descriptor": "Mapa conceptual: 4 nivells màxim. Superestructura del gènere amb lèxic CALP."
+        },
+        {
+          "pas_id": "pas_2_nucli_del_mapa",
+          "descriptor": "1 terme nuclear CALP. Pot ser un procés, un fenomen o un concepte abstracte.",
+          "countable": {
+            "min": 1,
+            "max": 1,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_3_noms_de_categoria",
+          "descriptor": "4-6 branques CALP. Les categories reflecteixen l'estructura del gènere treballat.",
+          "countable": {
+            "min": 4,
+            "max": 6,
+            "unitat": "branques"
+          }
+        },
+        {
+          "pas_id": "pas_4_detalls_de_les",
+          "descriptor": "Sub-elements amb matisos. Pot incloure relacions transversals entre branques."
+        },
+        {
+          "pas_id": "pas_5_estructura_markdown",
+          "descriptor": "`## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art."
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_funcio_cognitiva",
+          "descriptor": "Mapa de contrast: 2 columnes o branques en contraposició. Comparació de fonts o ideologies."
+        },
+        {
+          "pas_id": "pas_2_nucli_del_mapa",
+          "descriptor": "2 termes en contrast o 1 concepte complex amb múltiples dimensions o perspectives.",
+          "countable": {
+            "min": 2,
+            "max": 2,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_3_noms_de_categoria",
+          "descriptor": "2 columnes de contrast o 4-6 branques amb relació de tensió, contrast o complementarietat.",
+          "countable": {
+            "min": 4,
+            "max": 6,
+            "unitat": "branques"
+          }
+        },
+        {
+          "pas_id": "pas_4_detalls_de_les",
+          "descriptor": "Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques."
+        },
+        {
+          "pas_id": "pas_5_estructura_markdown",
+          "descriptor": "`## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast."
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_funcio_cognitiva",
+      "titol": "Tipus d'eina",
+      "dimensio": "Funció cognitiva",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: pre-A1/A1 = esquema visual (titol `## Esquema visual`); A2-B2 = mapa conceptual (`## Mapa conceptual`); C1 = mapa de contrast (`## Mapa de contrast`); qualitative: LLM-jutge sobre si l'eina correspon al MECR declarat"
+    },
+    {
+      "id": "pas_2_nucli_del_mapa",
+      "titol": "Concepte central",
+      "dimensio": "Nucli del mapa",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el concepte central és un terme nuclear del text adaptat (positiu) o un terme genèric no present al text (negatiu); cross_source: verificar que el concepte central apareix i és central al text font"
+    },
+    {
+      "id": "pas_3_noms_de_categoria",
+      "titol": "Branques principals",
+      "dimensio": "Noms de categoria",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "qualitative: LLM-jutge sobre si els noms de branca son noms de categoria relacional (Causes, Efectes, Tipus de) — positiu — o genèrics (\"Informació\", \"Coses\") — negatiu — error crític; binary: nombre de branques dins del rang per MECR (pre-A1: 1-2; A1: 2-3; A2: 3-4; B1: 3-5; B2: 4-6; C1: 2 o 4-6); cross_source: branques corresponents al contingut del text font"
+    },
+    {
+      "id": "pas_4_detalls_de_les",
+      "titol": "Sub-elements",
+      "dimensio": "Detalls de les branques",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: pre-A1/A1 = absencia de sub-elements (esquema pla); A2+ = presencia de sub-elements; structural: detectar ASCII-art (caràcters │ ├ └ → o caixes de text) = error crític en qualsevol nivell"
+    },
+    {
+      "id": "pas_5_estructura_markdown",
+      "titol": "Format de sortida",
+      "dimensio": "Estructura markdown",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: el titol de secció correspon al tipus d'eina (`## Esquema visual` vs `## Mapa conceptual` vs `## Mapa de contrast`); nivells de sangria dins del rang per MECR; absencia d'ASCII-art"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera UN organitzador visual en markdown jeràrquic adaptat al MECR: esquema visual (pre-A1/A1, seqüències o parts d'un tot), mapa conceptual jeràrquic (A2-B2, Novak, concepte central → categories etiquetades → sub-elements) o mapa de contrast (C1, 2 columnes o branques en tensió). Els noms de branca han d'expressar SEMPRE la relació (Causes, Conseqüències, Tipus de, Processos), mai etiquetes genèriques (Informació, Coses, Dades).",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si l'alumne està preparat per al pas d'esquema a mapa (decisió docent segons perfil) ni infereix relacions que no apareguin explícitament al text adaptat. Tampoc no genera ASCII-art ni inventa contingut que no provingui del text font: el contingut prové sempre del text adaptat, i la valoració de la rellevància categorial la fa el docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "pre-A1_A1_emergent": {
+      "inclou_si": [
+        "E"
+      ],
+      "exclou_explicitament": [
+        "S"
+      ],
+      "raonament": "A pre-A1 i A1 la pregunta cognitiva és \"en quin ordre va?\" o \"quines parts té?\", no \"com es relacionen?\". Introduir jerarquia lògica seria una sobrecàrrega innecessària (H2 heurística)."
+    },
+    "A2_B1_B2_jerarquic": {
+      "inclou_si": [
+        "M"
+      ],
+      "exclou_explicitament": [
+        "N"
+      ],
+      "raonament": "El pas d'esquema a mapa introdueix el pensament categorial (Novak, Ausubel): nomenar categories i les relacions entre elles és la prova de comprensió. La profunditat es gradua amb el MECR per protegir la càrrega cognitiva."
+    },
+    "C1_contrast": {
+      "inclou_si": [
+        "M"
+      ],
+      "exclou_explicitament": [
+        "M"
+      ],
+      "raonament": "A C1 la funció cognitiva és crítica: \"llegir per avaluar\". El contrast explícit entre fonts o marcs activa la dimensió crítica del MECR avançat."
+    },
+    "DUA_acces_o_TDAH": {
+      "inclou_si": [
+        "L"
+      ],
+      "exclou_explicitament": [
+        "S"
+      ],
+      "raonament": "En perfils amb necessitat de reducció de càrrega cognitiva visual (TDAH, DUA Accés), la densitat moderada protegeix l'atenció executiva sense empobrir l'estructura."
+    },
+    "nouvingut_L1": {
+      "inclou_si": [
+        "M"
+      ],
+      "exclou_explicitament": [
+        "C"
+      ],
+      "raonament": "Si cal suport L1 sobre el vocabulari del mapa, s'activa el complement `glossari` per separat. El mapa conceptual treballa l'arquitectura del coneixement, no el lèxic."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_mapa_conceptual",
+      "description": "Ha activat \"Mapa conceptual\" al Pas 2."
+    },
+    {
+      "name": "el_text_te_una",
+      "description": "El text té una estructura jeràrquica clara (categories, causes, efectes, seqüències)."
+    },
+    {
+      "name": "l_alumne_no_identifica",
+      "description": "L'alumne no identifica la idea principal o confon categories amb exemples."
+    },
+    {
+      "name": "cal_una_bastida_de",
+      "description": "Cal una bastida de comprensió visual per al text expositiu o informatiu."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "text_narratiu_sense_estructura",
+      "description": "Text narratiu sense estructura categorial clara → el mapa és força."
+    },
+    {
+      "name": "l_objectiu_es_suport",
+      "description": "L'objectiu és suport lexical → `glossari`."
+    },
+    {
+      "name": "l_objectiu_es_guia",
+      "description": "L'objectiu és guia de passos de producció → `bastides_produccio`."
+    },
+    {
+      "name": "l_objectiu_es_expandir",
+      "description": "L'objectiu és expandir i connectar más del text → `mapa_mental` (instrument separat)."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El nom de la branca és la prova de comprensió.",
+      "descripcio": "Llegeixo les branques principals del mapa i em pregunto: \"Diuen la relació o diuen el contingut?\" \"Causes de la contaminació\" i \"Efectes sobre els ecosistemes\" diuen la relació. \"Informació sobre la contaminació\" no diu res. Si no puc nomenar la branca amb un nom de categoria, l'alumne (ni el mapa) ha entès l'estructura del text."
+    },
+    {
+      "id": "H2",
+      "titol": "Pre-A1/A1 = seqüència, no jerarquia.",
+      "descripcio": "Per als alumnes emergents, la pregunta no és \"com es relacionen?\" sinó \"en quin ordre va?\" o \"quines parts té?\". L'esquema visual treballa la seqüència temporal o les parts d'un tot: 1r passa X, 2n passa Y, 3r passa Z. Introduir jerarquia lògica (causes → efectes) a pre-A1 és una sobrecàrrega cognitiva innecessària."
+    },
+    {
+      "id": "H3",
+      "titol": "Cap ASCII-art, mai.",
+      "descripcio": "L'ASCII-art (caixes amb │ ├ └ i fletxes) és visualment impactant però no és accessible (no es pot exportar, no té semàntica, trenca la cadena de producció). El markdown jeràrquic (# → - → espais d'indentació) és senzill, exportable a qualsevol eina de mapes mentals i coherent amb el flux de l'eina."
+    },
+    {
+      "id": "H4",
+      "titol": "Mapa conceptual vs. mapa mental: la pregunta del contingut.",
+      "descripcio": "Em pregunto: \"L'alumne ha de comprendre el text o ha d'expandir-se més lluny del text?\" Si la resposta és \"comprendre el text\" → mapa conceptual (contingut del text). Si la resposta és \"connectar amb el que sap i generar preguntes noves\" → mapa mental (instrument separat, B1+)."
+    },
+    {
+      "id": "H5",
+      "titol": "Mapa com a GPS de composició (TILC).",
+      "descripcio": "Quan l'objectiu és que l'alumne escrigui un text expositiu, el mapa conceptual és la planificació cognitiva: Pas 1 fer el mapa → Pas 2 escriure les branques com a paràgrafs. L'alumne que fa el mapa primer escriu un text més coherent i més complet que l'alumne que escriu directament."
+    },
+    {
+      "id": "H6",
+      "titol": "Densitat de nodes: menys és més.",
+      "descripcio": "Un mapa amb 15 nodes no és millor que un amb 8. La càrrega cognitiva òptima per nivell: pre-A1 ≤ 3 nodes totals; A1 ≤ 5; A2 ≤ 8; B1 ≤ 12; B2-C1 ≤ 15. Si el mapa supera el llindar, cal eliminar sub-elements o fusionar branques redundants. La densitat excessiva és l'error de qualitat més freqüent dels LLMs amb textos rics en informació."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica\n\n**Modulació:**\n- max_nodes_total: 2\n- format_node: imatge_mes_paraula\n- jerarquia: cap (cadena de 2 elements)\n- sub_elements: cap\n\n**Raonament pedagògic.** A la fase logogràfica l'alumne reconeix la imatge com a text però encara no descodifica grafies. L'esquema de 2 nodes (imatge → paraula) treballa el pas semàntic mínim sense forçar abstracció jeràrquica (Kuhn 1991; MALL pre-A1)."
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- max_nodes_total: 3\n- format_node: paraula_curta\n- jerarquia: cap (esquema pla)\n- sub_elements: cap\n\n**Raonament pedagògic.** A la fase alfabètica emergent l'alumne pot llegir paraules curtes però la jerarquia lògica és prematura. L'esquema pla de 2-3 nodes treballa la seqüència o les parts d'un tot sense sobrecàrrega categorial."
+      }
+    },
+    "tdah_carrega_cognitiva": {
+      "trigger": {
+        "raw": "TDAH_carrega_cognitiva"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** perfil_in: [TDAH] OR dua_equals: Acces\n\n**Modulació:**\n- reduir_densitat_nodes: aplicar llindar inferior de H6 (pre-A1 ≤ 2; A1 ≤ 4; A2 ≤ 6; B1 ≤ 10; B2-C1 ≤ 12)\n- prioritzar: branques sobre sub-elements\n- eliminar: sub-elements redundants\n\n**Raonament pedagògic.** En perfils amb dificultats de regulació atencional o necessitat DUA d'Accés, la càrrega cognitiva visual és el factor limitant. Reduir densitat (H6) preserva l'estructura essencial sense empobrir el contingut conceptual."
+      }
+    },
+    "aacc_exploracio_creativa": {
+      "trigger": {
+        "raw": "AACC_exploracio_creativa"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc: true AND objectiu: expandir_o_connectar\n\n**Modulació:**\n- redirigir_instrument: generate-mapa-mental (Buzan, B1+)\n- mantenir_mapa_conceptual_si: objectiu segueix sent comprendre l'estructura del text adaptat\n\n**Raonament pedagògic.** Per a alumnat AACC amb objectiu d'exploració creativa o connexió més enllà del text, el mapa mental (radial, divergent, Buzan) és l'instrument adequat. El mapa conceptual es manté quan l'objectiu cognitiu és comprensió estructurada del text (Novak"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "estructura_markdown",
+      "type": "qualitative",
+      "rule": "structural: el titol de secció correspon al tipus d'eina (`## Esquema visual` vs `## Mapa conceptual` vs `## Mapa de contrast`); nivells de sangria dins del rang per MECR; absencia d'ASCII-art"
+    }
+  ]
+}

@@ -47,6 +47,14 @@ El dialeg és un genere teatral que representa una conversa entre personatges am
 Aquesta rubrica descriu el **dialeg adaptat per a la LECTURA** de l'alumne. **No descriu la produccio autonoma** — la produccio és tasca d'un derivat propi. Principi pedagogic MALL: l'alumne llegeix models al maxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logografic perque el genere requereix llegir i atribuir torns.
 
+## Principi general
+
+**Regla de selecció simple.** Adapta o genera un diàleg teatral amb llista de personatges al principi, torns atribuïts per nom en negreta (Marc:, Sofia:), acotacions al present en 3a persona amb 1 acció per acotació, i un conflicte mínim entre 2-4 personatges, modulat per nivell MECR (A1-C1) segons la taula de Modulació (6-15+ torns). Manté personatges i conflicte principals del text font quan adapta.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si el conflicte és "prou dramàtic" ni si el subtext és "literàriament ric": només verifica presència formal (atribució per nom, acotacions estructurades, rang de torns segons nivell). La valoració qualitativa del subtext, la tensió dramàtica i la fidelitat al text font la fa el docent o un LLM-jutge separat (rúbrica de 7 passos).
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a dialeg):
@@ -84,6 +92,33 @@ Aquesta rubrica descriu el **dialeg adaptat per a la LECTURA** de l'alumne. **No
 | **5. Nombre de torns** | Extensio | 6-8 torns totals. 1-2 frases per torn. | 8-10 torns. Frases fins a 10 paraules per torn. | 10-12 torns. Frases de fins a 15 paraules per torn. | 12-15 torns. Frases elaborades. | 12-15+ torns. Llargada variable segons el ritme dramatic. |
 | **6. Criteris transversals** | Format i fidelitat | Llista de personatges present al principi. Cap torn amb inicials. Cap acotacio amb ironia. Manté personatges i conflicte principals del text font. | Idem. Subtext explícit a les acotacions. La resolucio del conflicte és clara. Manté l'ordre i la resolucio del text font. | Idem. Les acotacions no confonen accio amb judici. Manté els punts de vista dels personatges del text font. | Idem. Manté matisos i complexitat del conflicte original. L'acotacio pot contradir o matisar el torn si escau. | Idem. Manté intencio retorica i matisos del text font. Sense monolegs interns llargs. |
 | **7. Autoavaluacio** | Metacognicao | "He escrit qui parla a cada torn. He posat 6-8 torns entre 2 personatges." | "He posat acotacions que expliquen el que fa el personatge." | "He escrit un conflicte i una resolucio. He explicat el subtext a les acotacions." | "He escrit torns que mostren les postures dels personatges sense explicar-les totes." | "He creat un conflicte complex amb subtext ric i intencio retorica visible." |
+
+## Casos especials
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- max_torns: 6
+- max_paraules_per_torn: 5
+- nombre_personatges: 2 (fixos)
+- acotacions: mínimes (1 acció simple, 3-4 paraules)
+- conflicte: tensió binària "vull X / no pots"
+- sense subtext explícit
+- tipografia clara amb separació visual entre torns
+
+**Raonament pedagògic.** A la fase alfabètica emergent l'alumne consolida la descodificació; la càrrega cognitiva ha d'anar a llegir i atribuir torns, no a interpretar subtext. La dramatització oral per parelles esdevé la mediació principal (MALL eix oral-escrit, TILC).
+
+### no_aplica_preA1
+
+**Trigger:** mecr_in: [pre-A1] OR fase_lectora: logografica
+
+**Modulació:**
+- skill_no_aplicable: true
+- redirigir_a: dramatització oral espontània sense format escrit
+
+**Raonament pedagògic.** El format teatral requereix llegir torns atribuïts per nom i comprendre la doble cognició text+situació dramàtica. No accessible sense base lectora alfabètica (D6 a Descripció).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -125,6 +160,37 @@ Les acotacions amb subordinades confonen. Proposo la regla d'1 accio per acotaci
 
 **H5 — Llistar els personatges abans d'escriure.**
 Proposo que l'alumne escrigui primer la llista de personatges amb una linia de descripcio cadascun. Aquesta llista es converteix en el mapa del dialeg: qui és cada personatge, que vol, i per que esta en conflicte amb l'altre.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Diàleg
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Personatges
+### Diàleg
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+**NomPersonatge:**
+[acotacio en present 3a persona]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+cap
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Diàleg`, la subsecció `### Personatges` amb la llista, i els torns atribuïts per nom en negreta (`**Nom:**`), el parser de pas3.html no detecta l'estructura teatral i el regex del Pas 2 falla. Acotacions sempre entre claudàtors.
 
 ## Fonts principals
 

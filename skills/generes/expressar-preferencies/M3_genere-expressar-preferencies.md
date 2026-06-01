@@ -55,6 +55,48 @@ Expressar preferencies és un genere expressiu de la comunicacio interpersonal b
 Aquesta rubrica descriu el **text/instrument d'expressio de preferencies adaptat per a la LECTURA i USE** de l'alumne. **No descriu un genere autònom de produccio escrita complexa**: a pre-A1 és oral i multimodal; a A1 és escrit breu amb suport visual. Principi pedagogic MALL: l'alumne produeix al maxim del seu abast, mediat per l'adult si cal.
 **Sub-granularitat dins de pre-A1**: es treballa amb `fase_lectora: logografica` (oral + pictograma, mediat per adult) i `fase_lectora: alfabetica_emergent` (oral + primera paraula escrita).
 
+## Principi general
+
+**Regla de selecció simple.** Genera sempre els 6 passos de la rúbrica (Preferència principal, Referent específic, Intensitat o grau, Suport multimodal, Autenticitat, Autoavaluació mediada) modulats al nivell MECR objectiu (pre-A1 o A1). Inclou obligatòriament un pictograma de cara emocional + paraula clau + referent concret i quotidià en primera persona. NO produeixis justificacions, comparacions ni argumentacions: si l'enunciat demana 'per què', deriva a write-opinio.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de jutjar si la preferència de l'alumne és 'autèntica' o 'copiada del company', ni decidir si el referent triat és prou significatiu per a aquell alumne concret. Aquest judici (Pas 5 autenticitat) el fa el docent en mediació directa amb la pregunta 'És el que tu penses?'. El LLM només genera l'estructura i els marcadors visuals; la valvula humana valida la veu personal.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### pre_A1_logografica
+
+**Inclou si:**
+- Genera 6 passos amb modalitat ORAL + PICTOGRAMA. L'adult escriu la paraula clau; l'alumne assenyala o dicta. Autoavaluació (Pas 6) oral i mediada per l'adult amb pregunta literal: "Has dit el que a TU t'agrada?"
+
+**Exclou explicitament:**
+- Escriptura autònoma per part de l'alumne.
+
+**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies; forçar escriptura autònoma és demanar CALP en context BICS. La mediació adulta i el pictograma són els ponts reals (MALL, multimodalitat com a primera llengua).
+
+### pre_A1_alfabetica_emergent
+
+**Inclou si:**
+- Genera 6 passos amb modalitat ORAL + PICTOGRAMA + PRIMERA PARAULA ESCRITA. L'alumne escriu la paraula clau del referent (1 mot). Pictograma de cara emocional obligatori al Pas 1 i al Pas 4. Autoavaluació oral mediada.
+
+**Exclou explicitament:**
+- Escriptura de frase completa autònoma.
+
+**Raonament pedagògic.** L'alumne pot escriure la primera paraula clau del referent però encara necessita el pictograma com a suport semàntic codeterminal (MALL: multimodalitat com a primera llengua).
+
+### A1_inicial
+
+**Inclou si:**
+- Genera 6 passos amb modalitat ESCRITA BREU + PICTOGRAMA. Frase única en 1a persona ("M'agrada [X]" / "No m'agrada [X]"). Gradació en 3 nivells ("molt" / "una mica" / "gens") amb suport pictogràfic. Autoavaluació en 1a persona escrita ("He dit el que a mi m'agrada").
+
+**Exclou explicitament:**
+- Justificacions, comparacions o argumentacions (caben a write-opinio a partir d'A2).
+
+**Raonament pedagògic.** A A1 inicial la veu personal ja s'expressa escrita en 1a persona breu, mantenint pictograma com a ancoratge BICS. Forçar warrant (Toulmin) o justificació seria demanar CALP encara no consolidat.
+
+_Nota translanguaging: `translanguaging: false` al frontmatter — NO generar columna L1 ni transliteració. Si l'alumne és nouvingut, l'L1 és suport docent oral (mediació amb adult/company-pont), no apareix al text generat._
+
 ## Detecció
 
 **Senyals docent** (quan usar expressar-preferencies):
@@ -91,6 +133,43 @@ Aquesta rubrica descriu el **text/instrument d'expressio de preferencies adaptat
 | **4. Suport multimodal** | Imatge + paraula | Pictograma de cara emocional + paraula clau del referent + dibuix o foto si cal. L'adult escriu la paraula, l'alumne assenyala o dicta. | Pictograma de cara emocional + paraula clau del referent escrita per l'alumne. La imatge i la paraula son codeterminals. |
 | **5. Autenticitat** | Veu personal | La preferència és propia (no copiada del company o del docent). L'adult verifica amb pregunta: "És el que tu penses, o el que pensa el company?" | La preferència és en primera persona i autentica. No és una descripcio neutra ni una generalitzacio ("tothom agrada X"). |
 | **6. Autoavaluacio mediada** | Metacognicao | Autoavaluacio oral mediada: l'adult pregunta "Has dit el que a TU t'agrada?" i registra la resposta. | "He dit el que a mi m'agrada. He posat el dibuix o la foto del que m'agrada." |
+
+## Casos especials
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre_A1] AND fase_lectora: logografica
+
+**Modulació:**
+- no_escriptura_autonoma: true
+- reemplaca_escriure_per: "l'adult escriu la paraula, l'alumne assenyala o dicta"
+- densitat_pictogrames: alta (pictograma obligatori a tots 6 passos)
+- autoavaluacio_modalitat: oral_mediada_per_adult
+
+**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies, només reconeix la imatge com a text; forçar escriptura autònoma és demanar CALP en context BICS (Cummins; Kuhn 1991). La mediació adulta i el pictograma compensen la barrera grafomotora.
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre_A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- escriptura_autonoma: paraula_clau_unica
+- pictograma_obligatori: true
+- copia_model_adult: permesa
+
+**Raonament pedagògic.** L'alumne pot escriure la primera paraula clau del referent però encara necessita el pictograma com a suport semàntic codeterminal (multimodalitat com a primera llengua, MALL).
+
+### DUA_acces
+
+**Trigger:** dua_equals: Acces
+
+**Modulació:**
+- densitat_pictogrames: maxima
+- escala_de_cares_obligatoria: true (Pas 3)
+- galeria_de_referents_obligatoria: true (Pas 2)
+- modalitat_resposta_alternativa: assenyalar
+
+**Raonament pedagògic.** El principi DUA d'Accés requereix que l'alumne pugui expressar la preferència sense barrera grafomotora; l'escala de cares i la galeria de referents (heurístiques H1, H3) esdevenen part del format, no només opció docent.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -130,6 +209,44 @@ Quan l'alumne expressa una preferència a A1, proposo fer la pregunta bridge: "I
 
 **H5 — Continuum visible a l'aula.**
 Proposo un poster permanent a l'aula amb el continuum: "M'agrada X → M'agrada X perquè → Crec que X és millor que Y perquè → Argumento que X és important perquè". L'alumne veu on esta i cap on anira. Fa visible la progressio academica del genere.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Expressar preferències
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### 1. Preferència principal
+### 2. Referent específic
+### 3. Intensitat o grau
+### 4. Suport multimodal
+### 5. Autenticitat
+### 6. Autoavaluació mediada
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[PICTO: cara_somrient|m'agrada]
+[PICTO: cara_trista|no m'agrada]
+[PICTO: cara_neutra|una mica]
+[PICTO: referent_arasaac|paraula_clau]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Rúbrica
+## Preferències
+```
+
+**Regla d'integritat estructural.** Cal els 6 H3 literals + marcadors [PICTO: clau|text]; sense això el parser de pas3.html no detecta els passos i el toggle multimodal queda inhabilitat. Cara emocional al Pas 1, referent al Pas 2; no fusionar passos.
 
 ## Fonts principals
 

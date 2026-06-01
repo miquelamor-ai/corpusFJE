@@ -46,6 +46,34 @@ La notícia periodística és un gènere informatiu que relata fets reals seguin
 Aquesta rúbrica descriu el **text adaptat per a la LECTURA** de l'alumne (què el docent presenta perquè l'alumne llegeixi). **No descriu la producció autònoma de l'alumne** — això és tasca d'un derivat propi (rúbrica d'avaluació formativa), que pot tenir descriptors diferents als nivells baixos. Principi pedagògic MALL: l'alumne llegeix models bons al màxim del seu abast i en produeix els seus textos; és el docent qui adapta els textos.
 **Sub-granularitat dins de pre-A1 i A1**: es treballa amb la variable independent `fase_lectora` del frontmatter (logografica · alfabetica_emergent · alfabetica_fluida), no amb columnes addicionals.
 
+## Principi general
+
+**Regla de selecció simple.** Genera (o adapta) una notícia periodística completa que respecti la piràmide invertida — titular + lead amb les 5W cobertes segons el nivell MECR + cos amb informació jerarquitzada de més a menys important — modulant llargada de frase, cobertura de W, presència de cites, fidelitat al text font i complexitat sintàctica segons la cel·la MECR × dimensió de la rúbrica.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix quina notícia és pedagògicament adequada per a aquest alumne ni si el fet font és apropiat per a l'edat o el context d'aula; tampoc avalua la fiabilitat real de les fonts del text original. Aquestes decisions (selecció del fet, idoneïtat ètica, validació de fonts) les pren qui ensenya abans i després de la generació. El LLM aplica mecànicament els llindars countable/enumerable de la rúbrica i delega el judici qualitatiu (registre, estil, enquadrament) a la valoració docent.
+
+_Excepcions: vegeu ## Casos especials i ## Regla de selecció per perfil per als ajustaments per cel·la × perfil._
+
+## Regla de selecció per perfil
+
+### adapter_vs_generator
+
+**Criteri operatiu.** Si agent_roles inclou adapter i hi ha text font, aplicar fidelitat gradada (nuclear pre-A1→A2 · fet+context B1 · matís B2-C1+) i conservar el text font al pipeline per validar 7.4 cross_source. Si és generator (sense text font), saltar 7.4 i prioritzar coherència interna del fet generat.
+
+**Raonament pedagògic.** Mantenir el text font al pipeline és l'única manera de validar la dimensió `cross_source` (7.4 Fidelitat) gradada per nivell. Sense text font no hi ha referent objectiu de fidelitat; el LLM passa de comparar a generar coherència interna, i això s'ha de fer explícit per no falsejar el resultat de la rúbrica.
+
+### lectura_no_produccio
+
+**Criteri operatiu.** El text generat descriu el text per a LECTURA de l'alumne (model bo al màxim del seu abast), no la producció autònoma. Si es demana rúbrica de producció, redirigir a derivat propi i no usar aquesta cel·la com a llindar mínim de producció.
+
+**Raonament pedagògic.** Principi MALL: l'alumne llegeix models bons al màxim del seu abast i produeix textos al seu nivell real. Confondre el sostre de lectura amb el sostre de producció genera frustració i bloqueig (Cummins: BICS/CALP no s'adquireixen alhora).
+
+### fase_lectora_dins_preA1_A1
+
+**Criteri operatiu.** Dins de pre-A1 i A1, modular per la variable fase_lectora del frontmatter (logografica · alfabetica_emergent · alfabetica_fluida) sense crear columnes noves a la sortida: ajustar paraules, densitat de pictogrames i grau de mediació adulta.
+
+**Raonament pedagògic.** A pre-A1 i A1 la variància entre lectors logogràfics i alfabètics fluids és més gran que entre A1 i A2. Capturar-la dins la mateixa cel·la (modulant paraules, pictogrames i mediació adulta) és més robust que multiplicar columnes a la rúbrica.
+
 ## Detecció
 
 **Senyals docent** (quan triar notícia):
@@ -93,6 +121,49 @@ Aquesta rúbrica descriu el **text adaptat per a la LECTURA** de l'alumne (què 
 |  | Fidelitat al text font | Fidelitat al fet nuclear (qui, què, on). | Fidelitat al fet nuclear (qui, què, on). | Fidelitat al fet nuclear (qui, què, on). | Fidelitat al fet i al context principal. | Fidelitat al matís i als punts de vista originals. | Fidelitat al matís, als punts de vista i a la complexitat informativa originals. |
 |  | Registre | Bàsic amb pictograma. Vocabulari concret immediat. | Neutre i frequent ("va morir", no "va perdre la vida"). | Neutre amb termes freqüents de la matèria. | Neutre amb termes específics integrats. | Neutre amb lèxic acadèmic propi del camp (CALP inicial). | Formal acadèmic amb lèxic d'especialitat (CALP plena). |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He mirat la imatge i he escoltat la notícia; quan no entenia, he assenyalat què no entenia." | "He llegit el text un cop i, quan no entenia una paraula, l'he buscat o he demanat ajuda." | "He revisat el meu text per veure si un lector que no conegui el fet l'entendria." | "He decidit quina era la dada més important del fet i l'he posada al principi pensant en el meu lector." | "He pensat com un lector crític: hi ha alguna afirmació sense font? he donat un punt de vista sense voler?" | "He reflexionat sobre el meu enquadrament: quines fonts he triat, quines he deixat fora, i a qui beneficia aquesta tria." |
+
+## Casos especials
+
+### nouvingut_L1_alfabet_no_llati
+
+**Trigger:** nouvingut_L1: true AND L1_script_in: [arab, han, ciril-lic, devanagari, hangul, hebreu] AND mecr_in: [pre-A1, A1]
+
+**Modulació:**
+- glossari bilingüe annex obligatori amb columna de transliteració; al titular i al lead, paraules clau acompanyades de [L1: paraula_L1] entre claudàtors; densitat de pictogrames al titular i al cos del lead obligatòria (1 picto per fet nuclear); fet triat ha de ser concret i universal (esport, temps, escola) per maximitzar coneixement previ activable des de la L1.
+
+**Raonament pedagògic.** Cummins & Early (2011): per a nouvinguts amb L1 d'alfabet no llatí, la transliteració és el pont fonètic real i el pictograma compensa la càrrega de descodificació. Triar fets universals (esport, temps, escola) maximitza el coneixement previ activable des de la L1 (TOLC, translanguaging).
+
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre-A1, A1] AND fase_lectora: logografica
+
+**Modulació:**
+- titular de 1-3 paraules amb pictograma obligatori (no opcional); lead reduït a 1 frase de fins a 6 paraules amb pictograma de suport per a Qui i Què; cos limitat a 1 frase amb pictograma; lectura sempre mediada per adult (marcar a la sortida que el text és per lectura compartida, no autònoma); no usar cap acrònim, ni tan sols desplegat.
+
+**Raonament pedagògic.** A la fase logogràfica l'alumne reconeix paraules com a imatges globals, no descodifica grafemes. Sense pictograma obligatori i sense mediació adulta declarada, el text no és accessible. Marcar la sortida com a 'lectura compartida, no autònoma' protegeix la valoració docent i evita expectatives errònies sobre lectura silenciosa.
+
+
+### DUA_acces
+
+**Trigger:** dua_equals: Acces
+
+**Modulació:**
+- afegir pictogrames de suport a totes les paraules clau del titular i del lead independentment del MECR; mantenir frases dins del llindar del nivell immediatament inferior al MECR de l'alumne (p.e. si MECR A2, aplicar llindar A1); evitar tota subordinació tot i que el nivell la permeti; cap metàfora ni matís encara que el nivell ho admeti.
+
+**Raonament pedagògic.** DUA Acces (nivell 1 de tres) prioritza la via d'entrada al significat per damunt de la complexitat lingüística. Aplicar el llindar del nivell immediatament inferior és coherent amb el principi 'representació múltiple del contingut'; evitar metàfora i subordinació redueix la càrrega cognitiva extrínseca.
+
+
+### AACC
+
+**Trigger:** aacc: true AND mecr_in: [B2, C1]
+
+**Modulació:**
+- afegir una segona cita amb punt de vista contrastat al cos encara que la rúbrica de la cel·la només en demani una; incloure una pregunta oberta d'avaluació crítica al final del cos (per exemple, sobre l'enquadrament o les fonts no citades); permetre context historicogeogràfic més extens del que marca la cel·la.
+
+**Raonament pedagògic.** Per a AACC (alta capacitat cognitiva) a B2-C1, mantenir el sostre alt és pedagògicament obligatori: la cita contrastada i la pregunta d'avaluació crítica activen el pensament d'ordre superior (anàlisi d'enquadrament, detecció de fonts omeses) sense alterar la naturalesa del gènere.
+
+
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -149,6 +220,37 @@ Per a alumnat nouvingut de 0-3 mesos, el primer instrument que funciona és la n
 
 **H5 — La piràmide invertida com a prova de comprensió**
 Quan un alumne ha llegit la notícia i me la resumeix del revés (comença pels detalls i acaba pel fet principal), sé que la piràmide invertida no és interioritzada. Li demano que subralli la frase més important de cada paràgraf i que les ordeni. Si no sap quina és la més important, el problema és inferencial: cal un text adaptat al seu MECR amb la piràmide molt explícita.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte, en aquest ordre):**
+```
+## Titular
+## Lead
+## Cos
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Marcadors inline obligatoris** (literals dins del text):
+```
+[PICTO: clau_arasaac|text_visible]
+[L1: paraula_L1]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Notícia
+## Article
+## Resum
+## Introducció
+## Conclusió
+```
+
+**Regla d'integritat estructural.** Sempre, en ordre: ## Titular, ## Lead, ## Cos. A pre-A1 i A1, marcador [PICTO: clau|text] al titular i, si cal, al cos. Glossari translanguaging inline amb [L1: paraula]. Headers prohibits explicitats. Sense els tres headers literals `## Titular`, `## Lead` i `## Cos` en aquest ordre, el parser de pas3.html no detecta les seccions del gènere i el toggle de pictogrames (a pre-A1 i A1) queda inhàbil; els marcadors `[PICTO: …]` i `[L1: …]` són literals i no poden ser substituïts per descripcions en prosa.
 
 ## Fonts principals
 

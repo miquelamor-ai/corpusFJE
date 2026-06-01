@@ -46,6 +46,50 @@ El manual és un text expositiu organitzat en **apartats progressius** que prese
 Aquesta rúbrica descriu el **manual adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera un manual estructurat en apartats progressius (simple→complex) amb una entradeta inicial que anuncia el contingut, termes tècnics definits a la primera aparició, exemple concret SEMPRE abans de l'abstracció, i connectors causals explícits entre afirmacions. El nombre d'apartats i la sofisticació del vocabulari es modulen segons MECR (A1: 3 apartats / 1 terme per apartat → C1: estructura completa amb subapartats i debat terminològic).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir quins són els conceptes nuclears de la matèria ni la jerarquia disciplinària profunda (què va abans de què en termes epistèmics): aquesta decisió la pren el docent o es deriva del text font. El LLM tampoc ha de jutjar la fidelitat conceptual al text original quan adapta — només preservar mecànicament els termes, exemples i progressió que ja són presents al font.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### default
+
+**Aplica:**
+- Columna MECR de la taula Modulació
+- Respecta sempre l'ordre exemple→abstracció (Pas 4)
+- Connector causal explícit (Pas 5)
+
+**Raonament pedagògic.** Per defecte, la rúbrica 7×5 ja captura la modulació necessària: el LLM aplica mecànicament la cel·la corresponent al MECR declarat sense decisions addicionals.
+
+### fase_lectora_alfabetica_emergent
+
+**Aplica:**
+- Força modulació A1 encara que el MECR sigui A2
+- 3 apartats fixos
+- 1 frase d'entradeta
+- 1 terme per apartat amb definició entre parèntesis adjacent
+- Connector causal simple per apartat
+
+**Raonament pedagògic.** A fase lectora alfabètica emergent, la càrrega de descodificació és encara alta. Mantenir la modulació A1 (encara que el MECR sigui superior) preserva la memòria de treball per a la dependència conceptual entre apartats, que és el cor del gènere manual.
+
+### fase_lectora_alfabetica_fluida
+
+**Aplica:**
+- Modulació segons MECR declarat (taula completa A1→C1)
+
+**Raonament pedagògic.** Amb fluïdesa lectora, la modulació MECR estàndard és suficient: l'alumne pot dedicar recursos a la progressió epistèmica sense que la descodificació consumeixi memòria de treball.
+
+### pre_A1
+
+**Exclou explícitament:**
+- L'skill NO genera manual
+
+**Raonament pedagògic.** Decisió 6 canònica Fase B: el gènere manual requereix la comprensió de la progressió simple→complex com a estructura epistèmica, abstracció no accessible sense base lecto-escriptora mínima. Cal derivar a un gènere més accessible.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a manual):
@@ -88,6 +132,44 @@ Aquesta rúbrica descriu el **manual adaptat per a la LECTURA** de l'alumne. **N
 |  | Fidelitat al text font | Fidelitat als conceptes principals i a la progressió bàsica. | Fidelitat als conceptes, a la progressió i a les definicions essencials. | Fidelitat als conceptes, a la progressió, a les definicions i als connectors causals del text font. | Fidelitat a la complexitat conceptual i al context disciplinar del text original. | Fidelitat a la complexitat, als matisos i als debats terminològics si n'hi ha. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit 3 apartats. He explicat un terme difícil de cada apartat." | "He posat un exemple per a cada concepte. He usat 'perquè' o 'per això' per explicar les causes." | "Els meus apartats van de més simple a més complex. Cada terme tècnic té la seva definició." | "He relacionat els apartats entre si. He usat vocabulari específic de la matèria correctament." | "El meu manual explica el tema de manera completa, sistemàtica i progressiva, amb vocabulari precís." |
 
+## Casos especials
+
+### nouvingut_L1_CALP_disciplinar
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [B1, B2] AND context_matèria: STEAM_o_socials
+
+**Modulació:**
+- afegir_glossari_final_amb_L1: true (columna L1 si alfabet llatí; columna L1 + transliteració si no llatí)
+- densitat_termes_tècnics_per_apartat: 1 (vs 2-3 default a B1+)
+- desnominalitzar_obligatori: true (no admetre nom abstracte sense forma processal adjacent encara que B1+ ho permeti)
+
+**Raonament pedagògic.** Per a nouvinguts B1-B2 el manual és el gènere CALP per excel·lència (Cummins) però la combinació de terminologia disciplinària nova + L2 acadèmica satura. El glossari amb L1 activa coneixement previ (translanguaging/TOLC) sense renunciar a la lectura del manual en català.
+
+### DUA_acces
+
+**Trigger:** dua_equals: Acces AND mecr_in: [A1, A2, B1]
+
+**Modulació:**
+- max_apartats: 3 (encara que el MECR permetés més)
+- un_concepte_per_apartat: true (estricte)
+- exemple_quotidià_obligatori_no_disciplinar: true (l'exemple ancorat al món viscut, no a un altre concepte acadèmic)
+- connector_causal_per_apartat: 1 (simple: 'perquè', 'per això')
+- prohibit: subapartats_d'un_nivell
+
+**Raonament pedagògic.** El principi DUA d'accés demana minimitzar la càrrega cognitiva extrínseca per alliberar memòria de treball per al contingut. La progressió epistèmica del manual ja és cognitivament exigent; cal pelar tota la complexitat estructural perquè l'alumne pugui dedicar recursos a la dependència conceptual entre apartats.
+
+### AACC
+
+**Trigger:** aacc: true AND mecr_in: [B2, C1]
+
+**Modulació:**
+- afegir_apartat_debat_terminologic: true (a C1: exposar tensions o evolució del terme dins la disciplina)
+- admetre_exemples_limit_o_frontera: true (casos on el principi general no aplica netament)
+- densitat_connectors_sofisticats: alta (concessius 'tot i que', adversatius 'malgrat', condicionals 'sempre que')
+- glossari_final_amb_etimologia: opcional
+
+**Raonament pedagògic.** El manual per a AACC ha de mantenir la progressió simple→complex (no saltar-se-la) però oferir matís disciplinari real al final de cada apartat o al manual sencer. Saltar-se la progressió és infantilitzar; mantenir-la i afegir matís és respectar el ritme cognitiu i la set conceptual.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -128,6 +210,40 @@ Per a textos amb molts termes tècnics, proposo construir un glossari previ amb 
 
 **H4 — El connector causal com a test de comprensió.**
 Proposo el "test del perquè": l'alumne llegeix cada afirmació del manual i intenta completar "X... perquè...". Si no pot completar la frase, no ha comprès la relació. La impossibilitat d'usar un connector causal és un indicador fiable de comprensió superficial.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Manual
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Entradeta
+### Apartats
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+**terme tècnic** (definició)
+Per exemple, ...
+perquè / per tant / com a resultat / d'aquesta manera
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Introducció
+## Conclusió
+## Resum
+```
+
+**Regla d'integritat estructural.** Sense `## Manual` + `### Entradeta` + `### Apartats` literals (amb cada apartat com a H4), el parser de pas3.html no detecta els apartats progressius com a unitats i els descriptors de Pas 1 (Entradeta) i Pas 2 (Progressió) queden sense àncora estructural.
 
 ## Fonts principals
 

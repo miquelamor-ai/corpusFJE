@@ -1,0 +1,357 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_cartes_conversacionals",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-cartes-conversacionals\\M3_instrument-generar-cartes-conversacionals.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-cartes-conversacionals",
+    "family": "mediacio",
+    "mecr_range": [
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "cartes_conversacionals",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {}
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_complexitat",
+          "descriptor": "NO generar."
+        },
+        {
+          "pas_id": "pas_2_repertori_linguistic",
+          "descriptor": "NO generar."
+        },
+        {
+          "pas_id": "pas_3_registre_i_objectiu",
+          "descriptor": "NO generar."
+        },
+        {
+          "pas_id": "pas_4_connexio_amb_el",
+          "descriptor": "NO generar."
+        },
+        {
+          "pas_id": "pas_5_metareflexio_del_grup",
+          "descriptor": "NO generar."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_complexitat",
+          "descriptor": "2 rols: Proposador/a + Objector/a. Format simplificat per parelles."
+        },
+        {
+          "pas_id": "pas_2_repertori_linguistic",
+          "descriptor": "2 iniciadors per rol. Frases curtes i segures (Jo penso que ___ / Jo crec que no ___).",
+          "countable": {
+            "min": 2,
+            "max": 2,
+            "unitat": "iniciadors"
+          }
+        },
+        {
+          "pas_id": "pas_3_registre_i_objectiu",
+          "descriptor": "Exploratòria: posicions obertes, errors tolerats, raonament visible. \"I si...?\" \"Potser...\"."
+        },
+        {
+          "pas_id": "pas_4_connexio_amb_el",
+          "descriptor": "Iniciadors genèrics (\"Jo penso que ___\"). Curts i segurs. Fàcils de dir."
+        },
+        {
+          "pas_id": "pas_5_metareflexio_del_grup",
+          "descriptor": "\"Hem dit ___. Algú vol afegir alguna cosa?\" (Element obert simple)."
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_complexitat",
+          "descriptor": "3-4 rols: Proposador + Objector + Mediador + Sintetitzador."
+        },
+        {
+          "pas_id": "pas_2_repertori_linguistic",
+          "descriptor": "3 iniciadors per rol. Frases completes adaptades a la HCL del rol (Argumentar, Contrargumentar, Mediar).",
+          "countable": {
+            "min": 3,
+            "max": 3,
+            "unitat": "iniciadors"
+          }
+        },
+        {
+          "pas_id": "pas_3_registre_i_objectiu",
+          "descriptor": "Exploratòria o disputativa: comença explorant, pot formalitzar-se si el grup avança."
+        },
+        {
+          "pas_id": "pas_4_connexio_amb_el",
+          "descriptor": "Iniciadors específics de la pregunta de debat del text. Causals i justificatius (\"El text diu que... i per això crec que...\")."
+        },
+        {
+          "pas_id": "pas_5_metareflexio_del_grup",
+          "descriptor": "\"La conclusió del grup és ___. El que no hem resolt és ___.\" (Tancament + obertura)."
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_complexitat",
+          "descriptor": "4 rols complets amb registre formal i terminologia de debat."
+        },
+        {
+          "pas_id": "pas_2_repertori_linguistic",
+          "descriptor": "3 iniciadors amb vocabulari CALP i connectors argumentals (Malgrat que..., Tenint en compte que...).",
+          "countable": {
+            "min": 3,
+            "max": 3,
+            "unitat": "iniciadors"
+          }
+        },
+        {
+          "pas_id": "pas_3_registre_i_objectiu",
+          "descriptor": "Disputativa: posicions definides, argumentació formal, citació d'evidències del text."
+        },
+        {
+          "pas_id": "pas_4_connexio_amb_el",
+          "descriptor": "Iniciadors que inclouen citació del text (\"Segons el text...\", \"D'acord amb...\"). Registre formal."
+        },
+        {
+          "pas_id": "pas_5_metareflexio_del_grup",
+          "descriptor": "\"El que no hem resolt és ___. Per resoldre-ho caldria saber ___.\" (Apertura epistemica)."
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_complexitat",
+          "descriptor": "4 rols + capa metacognitiva al Sintetitzador (detecció de biaixos i punts cecs)."
+        },
+        {
+          "pas_id": "pas_2_repertori_linguistic",
+          "descriptor": "3 iniciadors dialèctics o retòrics que qüestionen la postura contrària (Si fos cert que X, llavors...).",
+          "countable": {
+            "min": 3,
+            "max": 3,
+            "unitat": "iniciadors"
+          }
+        },
+        {
+          "pas_id": "pas_3_registre_i_objectiu",
+          "descriptor": "Disputativa amb metacognició: detecció de biaixos, qüestionament de la fiabilitat de les fonts."
+        },
+        {
+          "pas_id": "pas_4_connexio_amb_el",
+          "descriptor": "Iniciadors que qüestionen, matisen i detecten biaixos (\"Però si pensem que X, el text podria estar ignorant...\")."
+        },
+        {
+          "pas_id": "pas_5_metareflexio_del_grup",
+          "descriptor": "\"El que queda obert és ___. Per respondre-ho, caldria contrastar amb ___ i revisar si els nostres arguments son fiables.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_nombre_i_complexitat",
+      "titol": "Rols actius",
+      "dimensio": "Nombre i complexitat",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia del Sintetitzador des de B1+; countable: A2 = 2 rols; B1 = 3-4 rols; B2-C1 = 4 rols; error crític: generar cartes per a pre-A1/A1"
+    },
+    {
+      "id": "pas_2_repertori_linguistic",
+      "titol": "Nombre d'iniciadors per rol",
+      "dimensio": "Repertori lingüístic",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "countable: ≤3 iniciadors per rol en tots els nivells; error: 4 o mes iniciadors per rol (sobrecàrrega)"
+    },
+    {
+      "id": "pas_3_registre_i_objectiu",
+      "titol": "Tipus de conversa",
+      "dimensio": "Registre i objectiu",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: A2-B1 = exploratòria (detectar indicadors: \"potser\", \"i si\", \"penso que\"); B2-C1 = disputativa (detectar: \"Segons el text\", \"D'acord amb\", \"citació\", \"evidència\")"
+    },
+    {
+      "id": "pas_4_connexio_amb_el",
+      "titol": "Especificitat dels iniciadors",
+      "dimensio": "Connexió amb el text",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: iniciadors específics de la pregunta de debat del text (positiu) o genèrics que serveixen per a qualsevol debat (negatiu — error crític); cross_source: verificar que els iniciadors fan referència al contingut o pregunta del text font"
+    },
+    {
+      "id": "pas_5_metareflexio_del_grup",
+      "titol": "Element obert al Sintetitzador",
+      "dimensio": "Metareflexió del grup",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: B1+: presencia d'element obert al rol Sintetitzador; A2: presencia d'invitació a afegir integrada al tancament del Proposador/a (no hi ha rol Sintetitzador a A2 — la funció és informal); qualitative: LLM-jutge sobre si l'element obert obre genuïnament la reflexió o és una frase de tancament disfressada"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera cartes conversacionals (1 carta = 1 rol + funció comunicativa + màxim 3 iniciadors) específiques de la pregunta de debat que emergeix del text font. El nombre de rols i la complexitat dels iniciadors es modulen segons MECR (vegeu taula Modulació). NO generis per a pre-A1/A1: la interacció oral a aquests nivells requereix mediació docent directa en temps real i les cartes presuposen autonomia d'inici comunicatiu.",
+    "no_judici_qualitatiu_complex": "El LLM no ha de jutjar si l'alumne està preparat per a debatre, ni decidir quin rol assignar a cada alumne concret, ni avaluar la qualitat de la participació real. Tampoc no ha d'inventar la pregunta de debat: ha d'extreure-la del text font o del prompt del docent. La rotació de rols entre sessions i la composició dels grups la decideix qui ensenya."
+  },
+  "regla_seleccio_per_perfil": {
+    "A2": {
+      "inclou_si": [
+        "2"
+      ],
+      "exclou_explicitament": [
+        "r"
+      ],
+      "raonament": "A A2 la prioritat és desbloquejar el primer torn comunicatiu. Iniciadors curts i segurs redueixen la càrrega cognitiva; reduir a 2 rols evita sobrecarregar amb múltiples funcions simultànies (H2 del M3)."
+    },
+    "B1": {
+      "inclou_si": [
+        "3"
+      ],
+      "exclou_explicitament": [
+        "i"
+      ],
+      "raonament": "A B1 l'alumne ja pot sostenir una conversa amb funció comunicativa diferenciada per rol. L'especificitat dels iniciadors al text font garanteix la pertinença pedagògica (principi rector del M3)."
+    },
+    "B2": {
+      "inclou_si": [
+        "4"
+      ],
+      "exclou_explicitament": [
+        "r"
+      ],
+      "raonament": "A B2 l'argumentació formal requereix vocabulari CALP i citació explícita del text font (MALL — HCL Argumentar amb evidència)."
+    },
+    "C1": {
+      "inclou_si": [
+        "4"
+      ],
+      "exclou_explicitament": [
+        "i"
+      ],
+      "raonament": "A C1 el Sintetitzador esdevé funció metacognitiva del grup (detecció de biaixos, fiabilitat de fonts). El pensament dialèctic requereix iniciadors que articulin la contradicció productiva."
+    },
+    "pre_A1_A1": {
+      "inclou_si": [
+        "r"
+      ],
+      "exclou_explicitament": [
+        "q"
+      ],
+      "raonament": "La interacció oral a aquests nivells requereix mediació docent directa en temps real (suport de torn, reformulació, andamiatge). Les cartes presuposen autonomia d'inici comunicatiu que s'assoleix a A2."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_cartes_conversacionals",
+      "description": "Ha activat \"Cartes conversacionals\" al Pas 2."
+    },
+    {
+      "name": "vol_estructurar_un_debat",
+      "description": "Vol estructurar un debat, una discussió o una activitat de producció oral argumentada."
+    },
+    {
+      "name": "treballa_la_hcl_argumentar",
+      "description": "Treballa la HCL Argumentar amb suport estructural per a alumnes que no saben \"com dir que no estan d'acord\"."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "pre_a1_a1_no",
+      "description": "Pre-A1/A1: NO generar (interacció oral requereix suport docent en temps real)."
+    },
+    {
+      "name": "objectiu_es_preguntes_de",
+      "description": "Objectiu és preguntes de comprensió → `preguntes_comprensio`."
+    },
+    {
+      "name": "objectiu_es_aprofundiment_cognitiu",
+      "description": "Objectiu és aprofundiment cognitiu post-lectura → `activitats_aprofundiment`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La pregunta de debat és el centre.",
+      "descripcio": "Els iniciadors han de ser específics de la pregunta de debat que surt del text. Si els iniciadors serveixen per a qualsevol debat de qualsevol tema (\"Jo crec que sí\" / \"Jo crec que no\"), cal tornar a escriure'ls. La prova: \"Podria un alumne usar aquest iniciador en un debat sobre un tema completament diferent?\" Si la resposta és sí, l'iniciador és massa genèric."
+    },
+    {
+      "id": "H2",
+      "titol": "Proposador + Objector és suficient per a A2.",
+      "descripcio": "No cal els 4 rols des del principi. Dues parelles (Proposa / Respon) ja estructuren la conversa exploratòria sense sobrecarregar l'alumne amb múltiples funcions simultànies. La complexitat de rols creix amb el MECR i amb la pràctica prèvia del format."
+    },
+    {
+      "id": "H3",
+      "titol": "El Sintetitzador no tanca: obre.",
+      "descripcio": "Quan formo el grup, explico explícitament que la funció del Sintetitzador no és \"acabar\" el debat sinó \"veure fins on hem arribat i on no\". \"El que no hem resolt és...\" és la frase més valuosa del debat: demostra que el grup ha pensat prou com per saber que no ho sap tot."
+    },
+    {
+      "id": "H4",
+      "titol": "Rol com a màscara pedagògica.",
+      "descripcio": "Quan un alumne tímid o nouvingut agafa la carta de Proposador/a, no és \"ell\" qui argumenta — és el Proposador/a. Aquesta distància permet prendre riscos comunicatius que d'altra manera serien inhibits per la por al judici social. Assegura't que els rols rotin entre sessions perquè tots els alumnes practiquin totes les funcions comunicatives."
+    },
+    {
+      "id": "H5",
+      "titol": "Taulell de debat companion (B1+).",
+      "descripcio": "Per a B1+, combina les cartes amb un taulell compartit de paper (Arguments a favor / Arguments en contra / Punts d'acord / Preguntes obertes). A mesura que el debat avança, un alumne designat anota les idees al taulell. Aquesta externalització del raonament col·lectiu fa visible el procés d'argumentació i permet al Sintetitzador fer la seva feina amb millor informació."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_a1_no_generar": {
+      "trigger": {
+        "raw": "pre_A1_A1_no_generar"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1, A1]\n\n**Modulació:**\n- no_generar: true\n- output: missatge explícit que indica que aquest instrument no aplica a pre-A1/A1 i suggereix alternatives (mediació docent directa, suport oral en temps real)\n- abstenció_total: no produeixis cartes buides ni cartes simplificades\n\n**Raonament pedagògic.** A pre-A1/A1, la interacció oral requereix suport docent en temps real (andamiatge de torn, reformulació, mediació). Les cartes presuposen autonomia d'inici comunicatiu que "
+      }
+    },
+    "sintetitzador_obligatori_amb_element_obert": {
+      "trigger": {
+        "raw": "sintetitzador_obligatori_amb_element_obert"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1] AND rol: Sintetitzador/a\n\n**Modulació:**\n- element_obert_obligatori: true\n- formulació: l'iniciador final ha de contenir apertura epistèmica explícita (\"El que no hem resolt és ___\", \"El que queda obert és ___\")\n- A2_excepció: no hi ha rol Sintetitzador/a; la funció s'integra informalment al tancament del Proposador/a (\"Hem dit ___. Algú vol afegir alguna cosa?\")\n\n**Raonament pedagògic.** El Sintetitzador és l'única funció metacognitiva del grup (H3 del M3). Un"
+      }
+    },
+    "iniciadors_especifics_del_text": {
+      "trigger": {
+        "raw": "iniciadors_especifics_del_text"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** sempre (cross_source check)\n\n**Modulació:**\n- especificitat_text_obligatòria: a B1+, els iniciadors han de referir-se explícitament a la pregunta de debat o al contingut del text font\n- prova_de_validació: si l'iniciador funciona idènticament en un debat sobre un tema completament diferent, cal reescriure'l\n- A2_excepció: s'admeten iniciadors genèrics curts (\"Jo penso que ___\") perquè la prioritat és desbloquejar el primer torn\n\n**Raonament pedagògic.** La connexió amb el text font "
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "repertori_linguistic",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_2_repertori_linguistic].countable"
+    }
+  ]
+}

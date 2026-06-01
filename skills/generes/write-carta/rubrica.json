@@ -1,0 +1,469 @@
+{
+  "_meta": {
+    "name": "rubrica_write_carta",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-carta\\M3_genere-escriure-carta.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-carta",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "carta",
+    "translanguaging": true,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat, al to i als recursos retòrics del text original."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_completitud",
+          "descriptor": "Lloc i data en format simple: \"Barcelona, 12 de maig\"."
+        },
+        {
+          "pas_id": "pas_2_registre_i_adequacio",
+          "descriptor": "\"Hola [nom],\" (informal) / \"Estimat/da [nom]:\" (formal molt simple)."
+        },
+        {
+          "pas_id": "pas_3_claredat_i_posicio",
+          "descriptor": "1 frase que diu per qué s'escriu: \"T'escric per...\" Sense preàmbuls."
+        },
+        {
+          "pas_id": "pas_4_focus_i_concrecio",
+          "descriptor": "1 petició molt simple: \"Et demano que...\" Sense acumulació de demandes."
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_adequacio",
+          "descriptor": "Informal (amic/família) o formal molt simple (desconegut). Consistent en tot el text."
+        },
+        {
+          "pas_id": "pas_6_comiat_i_signatura",
+          "descriptor": "\"Fins aviat, [nom].\" (informal) / \"Salutacions, [nom].\" (formal). Consistent amb la salutació."
+        },
+        {
+          "pas_id": "pas_6_formules_arcaiques",
+          "descriptor": "Cap fórmula arcaica. Si apareix al text font, s'actualitza."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat al motiu principal i al registre bàsic."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He escrit a qui va la carta i per qué. He fet una sola petició. He signat.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_completitud",
+          "descriptor": "Lloc, data i nom del destinatari complets."
+        },
+        {
+          "pas_id": "pas_2_registre_i_adequacio",
+          "descriptor": "Salutació ajustada al registre: informal (amic/família) / formal (autoritat/desconegut)."
+        },
+        {
+          "pas_id": "pas_3_claredat_i_posicio",
+          "descriptor": "Motiu explícit al primer paràgraf. Directe i clar. Cap introducció sobre el benestar del destinatari."
+        },
+        {
+          "pas_id": "pas_4_focus_i_concrecio",
+          "descriptor": "1 petició clara i directa. Sense preguntes múltiples ni demandes encadenades."
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_adequacio",
+          "descriptor": "Distinció clara entre formal i informal. Registre consistent. Cap barreja."
+        },
+        {
+          "pas_id": "pas_6_comiat_i_signatura",
+          "descriptor": "Comiat ajustat al registre. Nom complet a la carta formal."
+        },
+        {
+          "pas_id": "pas_6_formules_arcaiques",
+          "descriptor": "Idem. Cap fórmula arcaica ni expressió obsoleta."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat al motiu, al registre i a la petició essencial."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He posat salutació i comiat adequats al destinatari. He dit el motiu al principi.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_completitud",
+          "descriptor": "Encapçalament complet: lloc, data, nom i adreça del destinatari (carta formal)."
+        },
+        {
+          "pas_id": "pas_2_registre_i_adequacio",
+          "descriptor": "Salutació formal precisa: \"Benvolgut/da senyor/a [cognom]:\" sense errors de tractament."
+        },
+        {
+          "pas_id": "pas_3_claredat_i_posicio",
+          "descriptor": "Motiu presentat amb connector introductori: \"Em dirigeixo a vostè per informar-lo/la que...\""
+        },
+        {
+          "pas_id": "pas_4_focus_i_concrecio",
+          "descriptor": "Petició formulada amb justificació breu: \"Li demano que... ja que...\""
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_adequacio",
+          "descriptor": "Registre formal o informal consistent. Vostè vs. tu ajustat al destinatari en tot el text."
+        },
+        {
+          "pas_id": "pas_6_comiat_i_signatura",
+          "descriptor": "Comiat formal: \"Atentament,\" / informal: \"Una salutació,\". Signatura completa (nom i cognoms)."
+        },
+        {
+          "pas_id": "pas_6_formules_arcaiques",
+          "descriptor": "Idem. Fórmules de cortesia contemporànies."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat al motiu, al registre, a la petició i a l'estructura de 7 parts."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He usat el registre correcte (formal/informal). He fet una sola petició amb justificació.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_completitud",
+          "descriptor": "Encapçalament complet i ben formatat. Referència o assumpte si escau."
+        },
+        {
+          "pas_id": "pas_2_registre_i_adequacio",
+          "descriptor": "Salutació formal amb tractament correcte i consistent amb el to de la carta."
+        },
+        {
+          "pas_id": "pas_3_claredat_i_posicio",
+          "descriptor": "Motiu presentat amb context breu i connector formal. El lector sap per qué s'escriu a la primera frase."
+        },
+        {
+          "pas_id": "pas_4_focus_i_concrecio",
+          "descriptor": "Petició argumentada: context + raó + demanda concreta. Anticipació possible: \"Sóc conscient que...\""
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_adequacio",
+          "descriptor": "Registre formal sofisticat. Cap expressió col·loquial a la carta formal."
+        },
+        {
+          "pas_id": "pas_6_comiat_i_signatura",
+          "descriptor": "Comiat protocol·lari adequat al registre i al to de la carta."
+        },
+        {
+          "pas_id": "pas_6_formules_arcaiques",
+          "descriptor": "Idem. Pot usar fórmules formals però no antiquades."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat argumentativa i al to del remitent."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"La meva carta té context, petició argumentada i registre consistent de principi a fi.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_completitud",
+          "descriptor": "Encapçalament professional complet. Pot incloure referència, assumpte i número d'expedient."
+        },
+        {
+          "pas_id": "pas_2_registre_i_adequacio",
+          "descriptor": "Salutació formal o protocol·lària si el context ho exigeix. Tractament perfectament ajustat."
+        },
+        {
+          "pas_id": "pas_3_claredat_i_posicio",
+          "descriptor": "Motiu presentat amb precisió i context necessari per al destinatari. Pot incloure referència a una comunicació prèvia."
+        },
+        {
+          "pas_id": "pas_4_focus_i_concrecio",
+          "descriptor": "Petició amb argumentació elaborada i recursos de persuasió (empatia, reciprocitat)."
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_adequacio",
+          "descriptor": "Registre adaptat amb matisos de cortesia i protocol. El to és inequívocament professional o personal."
+        },
+        {
+          "pas_id": "pas_6_comiat_i_signatura",
+          "descriptor": "Comiat i signatura professionals. Pot incloure càrrec, institució o funció del remitent."
+        },
+        {
+          "pas_id": "pas_6_formules_arcaiques",
+          "descriptor": "Idem. Registre professional actual, sense arcaismes."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, al to i als recursos retòrics del text original."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"La meva carta és professional, ben estructurada i usa recursos de persuasió adequats al destinatari.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_format_i_completitud",
+      "titol": "Encapçalament",
+      "dimensio": "Format i completitud",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: encapçalament present; verificar completitud per nivell (lloc+data A1, + destinatari A2+, + adreça B1+); detectar absència d'encapçalament"
+    },
+    {
+      "id": "pas_2_registre_i_adequacio",
+      "titol": "Salutació",
+      "dimensio": "Registre i adequació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: salutació present; qualitative: LLM-jutge sobre adequació del registre al destinatari (formal/informal)"
+    },
+    {
+      "id": "pas_3_claredat_i_posicio",
+      "titol": "Motiu al primer paràgraf",
+      "dimensio": "Claredat i posició",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "structural: detectar si el motiu apareix al primer paràgraf o al final; binary: motiu explícit present; qualitative: LLM-jutge sobre si la primera frase expressa realment el motiu o és una cortesia introductòria (\"Espero que et trobis bé...\")"
+    },
+    {
+      "id": "pas_4_focus_i_concrecio",
+      "titol": "Una sola petició",
+      "dimensio": "Focus i concreció",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar peticions (frases amb verbs de demanda: \"demano\", \"sol·licito\", \"voldria que\", \"t'agradaria que\"); binary: 1 sola petició compleix, 2+ no compleix"
+    },
+    {
+      "id": "pas_5_consistencia_i_adequacio",
+      "titol": "Registre",
+      "dimensio": "Consistència i adequació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: registre consistent (detectar barreja tu/vostè, formal/col·loquial); qualitative: LLM-jutge sobre adequació del registre al destinatari"
+    },
+    {
+      "id": "pas_6_comiat_i_signatura",
+      "titol": "Criteris transversals",
+      "dimensio": "Comiat i signatura",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: comiat present; qualitative: adequació del comiat al registre de la salutació"
+    },
+    {
+      "id": "pas_6_formules_arcaiques",
+      "titol": "Criteris transversals",
+      "dimensio": "Fórmules arcaiques",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: signatura present; verificar nom complet a B1+ carta formal"
+    },
+    {
+      "id": "pas_6_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar fórmules arcaiques (\"en prego acceptació\", \"distingides salutacions\", \"en espera de les vostres notícies\", \"molt atentament li saluda\"); binary: absent compleix, present no compleix"
+    },
+    {
+      "id": "pas_7_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Adapta o genera una carta amb estructura de 7 parts (encapçalament, salutació, motiu, cos, petició, comiat, signatura), posant el motiu al primer paràgraf, formulant una sola petició i mantenint un registre (formal o informal) consistent i ajustat al destinatari. Inclou la rúbrica gradada A1→C1 per als 7 passos.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix la relació social entre remitent i destinatari ni si la petició és pedagògicament adequada: aplica el registre i el motiu que el text font o el docent indiquen. Tampoc valora autònomament la pertinença d'expressions en L1 (translanguaging A1-A2 carta informal): les preserva entre claudàtors si apareixen. La decisió final sobre adequació sociolingüística la pren el docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "nouvingut_L1_carta_informal": {
+      "inclou_si": [
+        "A"
+      ],
+      "exclou_explicitament": [
+        "L"
+      ],
+      "raonament": "Per al nouvingut amb L1 declarada en carta informal A1-A2, el translanguaging admet expressions en L1 quan l'alumne no troba el mot en llengua de destinació: el contingut comunicatiu es valora separat de la forma (MALL, Cummins translanguaging). Salutació i comiat es mantenen en llengua meta com a ancoratge formal del gènere."
+    },
+    "registre_formal_B1_plus": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "E"
+      ],
+      "raonament": "A B1+ la carta formal exigeix competència sociolingüística plena: el registre formal és inequívoc i no admet barreja amb col·loquialismes ni amb L1, perquè el destinatari institucional avalua adequació al protocol (Hymes, competència comunicativa)."
+    },
+    "registre_informal": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "F"
+      ],
+      "raonament": "El registre informal exigeix coherència de tractament i fórmules contemporànies; les fórmules arcaiques del text font s'actualitzen perquè la carta serveix la comunicació real, no la reproducció històrica."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una carta (formal o informal) que cal simplificar o adaptar al nivell."
+    },
+    {
+      "name": "la_unitat_treballa_la",
+      "description": "La unitat treballa la comunicació escrita amb propòsit real: demanar, queixar-se, agrair, presentar-se, informar."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir per comprendre com s'adapta la forma al destinatari i al registre."
+    },
+    {
+      "name": "el_context_tilc_requereix",
+      "description": "El context TILC requereix que l'alumne aprengui a comunicar-se formalment (sol·licitud, reclamació, carta de presentació)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_adrecat",
+      "description": "El text és adreçat a un lector general, no a un destinatari específic → article d'opinió o assaig."
+    },
+    {
+      "name": "el_text_es_intim",
+      "description": "El text és íntim i no vol comunicar a un destinatari extern → diari."
+    },
+    {
+      "name": "el_text_debat_posicions",
+      "description": "El text debat posicions oposades sense destinatari concret → assaig argumentatiu."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El destinatari primer.",
+      "descripcio": "Antes d'escriure, proposo dues preguntes: \"A qui escrius? Com el coneixes? Li dius 'tu' o 'vostè'?\" Trenta segons. Si l'alumne no pot respondre, el registre de tota la carta serà incoherent. El destinatari és la clau de tot: determina salutació, comiat i to del cos."
+    },
+    {
+      "id": "H2",
+      "titol": "El motiu en una frase.",
+      "descripcio": "Demano que l'alumne em digui en veu alta, en una frase, per qué escriu la carta. Si no pot, la carta no té motiu clar. La prova inversa: llegeixo el primer paràgraf i em pregunto \"Sé per qué escriu?\" Si no, el motiu no és prou explícit. A A1-A2, proposo completar la frase: \"T'escric per...\""
+    },
+    {
+      "id": "H3",
+      "titol": "La prova d'una sola petició.",
+      "descripcio": "Llegeixo la carta de l'alumne i subratllo cada vegada que demana alguna cosa. Si n'hi ha més d'una, treballem quin és el \"desig principal\" i com integrar els altres de forma secundària o en una altra carta. La carta és un gènere de focus: una demanda, una acció esperada del destinatari."
+    },
+    {
+      "id": "H4",
+      "titol": "Registre: la salutació com a termòmetre.",
+      "descripcio": "La salutació em diu tot. \"Hola Pau\" → informal. \"Benvolgut senyor García\" → formal. \"Estimada Marta\" → afectiu/familiar. Si la salutació no coincideix amb el to del cos, hi ha problema de registre. Corrijo sempre per la salutació primer: quan la salutació és coherent, la resta del text tendeix a alinear-s'hi."
+    },
+    {
+      "id": "H5",
+      "titol": "El comiat coherent.",
+      "descripcio": "A A1-A2, els alumnes saben com acabar una conversa oral però no una carta. Proposo aprendre 3 comiats per registre: formal (\"Atentament\" / \"Salutacions cordials\"), semiformal (\"Gràcies per la vostra atenció\"), informal (\"Fins aviat!\" / \"Una abraçada\"). Tres comiats memoritzats resolen el 90% dels errors de tancament."
+    }
+  ],
+  "case_overrides": {
+    "translanguaging_a1_a2_informal": {
+      "trigger": {
+        "raw": "translanguaging_A1_A2_informal"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1, A2] AND registre: informal AND nouvingut_L1: true\n\n**Modulació:**\n- admet_expressions_L1_entre_claudators: true\n- marcador_inline: [L1: ...]\n- valoracio_LLM_jutge: contingut_comunicatiu_separat_de_forma\n- aplicar_a_carta_formal: false\n- aplicar_a_B1_plus: false\n\n**Raonament pedagògic.** Per al nouvingut amb L1 a carta informal A1-A2, el principi MALL de translanguaging permet expressar el contingut comunicatiu mentre s'aprèn la forma; les expressions L1 entre claudàtor"
+      }
+    },
+    "no_aplicable_prea1": {
+      "trigger": {
+        "raw": "no_aplicable_preA1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1\n\n**Modulació:**\n- no_generar: true\n- output_reemplacat_per: missatge_explicatiu\n- missatge: \"la carta requereix la comprensió del destinatari com a constructor de registre, una abstracció sociolingüística no accessible a pre-A1\"\n- derivar_a: generes_mes_basics (rètol, missatge curt)\n\n**Raonament pedagògic.** Saber que \"Hola\" vs \"Benvolgut\" depèn de la relació social és una variació conscient del context comunicatiu (Hymes, competència comunicativa) que requereix "
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- max_paraules_per_frase: 8-10\n- estructura_7_parts_marcada_visualment: true (amb separadors)\n- salutacio_comiat_tancats: escollir_entre_3_opcions_memoritzables_per_registre\n- formula_peticio_fixa: \"T'escric per...\" + \"Et demano que...\"\n\n**Raonament pedagògic.** A A1 amb fase lectora alfabètica emergent, l'alumne disposa de recursos descodificadors limitats: frases curtes, opcions tancades memoritzables i fórmules"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "fidelitat_al_text_font",
+      "type": "qualitative",
+      "rule": "regex: detectar fórmules arcaiques (\"en prego acceptació\", \"distingides salutacions\", \"en espera de les vostres notícies\", \"molt atentament li saluda\"); binary: absent compleix, present no compleix"
+    }
+  ],
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

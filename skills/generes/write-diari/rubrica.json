@@ -1,0 +1,421 @@
+{
+  "_meta": {
+    "name": "rubrica_write_diari",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-diari\\M3_genere-escriure-diari.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-diari",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "diari",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat, als matisos i a les contradiccions si les hi ha."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_precisio",
+          "descriptor": "Data en format simple: \"Dilluns\" / \"12/05\"."
+        },
+        {
+          "pas_id": "pas_2_sequencia_i_rellevancia",
+          "descriptor": "1-2 frases de fets en passat simple. Ordre cronològic estricte.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_precisio_i_ancoratge",
+          "descriptor": "1 emoció nomenada: \"Estava content.\" / \"Tenia por.\""
+        },
+        {
+          "pas_id": "pas_4_profunditat_i_orientacio",
+          "descriptor": "1 frase de reflexió orientada a l'aprenentatge: \"He après que...\""
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_naturalitat",
+          "descriptor": "Primera persona consistent: \"he\", \"em\", \"vaig\"."
+        },
+        {
+          "pas_id": "pas_6_separacio_dels_blocs",
+          "descriptor": "Tres seccions clarament separades, 1 frase per bloc. Cap barreja fets/emocions."
+        },
+        {
+          "pas_id": "pas_6_variant_academica_b1",
+          "descriptor": "No s'aplica."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets principals i a la veu en primera persona."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He dit qué ha passat, com m'he sentit i qué he après.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_precisio",
+          "descriptor": "Data completa: \"Dilluns, 12 de maig de 2026\"."
+        },
+        {
+          "pas_id": "pas_2_sequencia_i_rellevancia",
+          "descriptor": "3-4 frases de fets ordenats cronològicament. Connectors simples.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_precisio_i_ancoratge",
+          "descriptor": "2 emocions amb matís lleu: \"Estava una mica nerviós però content.\""
+        },
+        {
+          "pas_id": "pas_4_profunditat_i_orientacio",
+          "descriptor": "Reflexió de 2 frases amb connector causal: \"Per això crec que...\""
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_naturalitat",
+          "descriptor": "Primera persona en tots els verbs principals. Cap canvi a tercera persona."
+        },
+        {
+          "pas_id": "pas_6_separacio_dels_blocs",
+          "descriptor": "Tres blocs diferenciats per paràgraf o línia en blanc."
+        },
+        {
+          "pas_id": "pas_6_variant_academica_b1",
+          "descriptor": "No s'aplica."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, a les emocions i a la reflexió essencial."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He separat els fets de les emocions. He nomenat com em vaig sentir.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_precisio",
+          "descriptor": "Data completa + context breu si escau (\"Primer dia de campaments\")."
+        },
+        {
+          "pas_id": "pas_2_sequencia_i_rellevancia",
+          "descriptor": "Fets narrats amb causa explícita. Connectors temporals variats. Selecció dels moments clau."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_ancoratge",
+          "descriptor": "2-3 emocions variades i situades en el moment: \"Quan vaig veure X, em vaig sentir Y.\""
+        },
+        {
+          "pas_id": "pas_4_profunditat_i_orientacio",
+          "descriptor": "Conclusió clara de 2-3 frases. Diari acadèmic (B1+): \"Els resultats mostren que...\"",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_naturalitat",
+          "descriptor": "Primera persona consistent i variada. Veu pròpia recognoscible."
+        },
+        {
+          "pas_id": "pas_6_separacio_dels_blocs",
+          "descriptor": "Tres paràgrafs clarament diferenciats amb transicions naturals entre blocs."
+        },
+        {
+          "pas_id": "pas_6_variant_academica_b1",
+          "descriptor": "Quan el context és acadèmic (diari de laboratori, projecte): bloc fets → \"Observació\"; bloc reflexió → \"Conclusions\" (\"Els resultats mostren que...\"). El to és acadèmic, no memorialístic."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, a les emocions, a la reflexió i al to personal."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He escrit una conclusió que explica qué he après i per qué.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_precisio",
+          "descriptor": "Data completa integrada naturalment a l'entrada."
+        },
+        {
+          "pas_id": "pas_2_sequencia_i_rellevancia",
+          "descriptor": "Fets en relació amb el context. Selecció conscient dels fets més rellevants per a la reflexió."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_ancoratge",
+          "descriptor": "Emocions analitzades: no només nomenades, sinó explicades en relació als fets."
+        },
+        {
+          "pas_id": "pas_4_profunditat_i_orientacio",
+          "descriptor": "Reflexió que connecta l'experiència amb coneixements previs o futurs."
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_naturalitat",
+          "descriptor": "Primera persona natural, no forçada. Veu personal diferenciada."
+        },
+        {
+          "pas_id": "pas_6_separacio_dels_blocs",
+          "descriptor": "Blocs integrats amb transicions elaborades que mantenen la distinció fets/emocions/reflexió."
+        },
+        {
+          "pas_id": "pas_6_variant_academica_b1",
+          "descriptor": "Tots tres blocs amb vocabulari acadèmic. Fets → Observació o resultats. Emocions → Valoració del procés. Reflexió → Conclusions."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat emocional i reflexiva del text original."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He analitzat les meves emocions i les he relacionat amb el context.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_precisio",
+          "descriptor": "Data completa. Pot incloure el context situacional si és rellevant per a la comprensió."
+        },
+        {
+          "pas_id": "pas_2_sequencia_i_rellevancia",
+          "descriptor": "Fets narrats amb perspectiva sobre la seva significació. Pot incloure contrast entre expectativa i realitat."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_ancoratge",
+          "descriptor": "Emocions complexes o contradictòries amb reflexió sobre el seu origen i significat."
+        },
+        {
+          "pas_id": "pas_4_profunditat_i_orientacio",
+          "descriptor": "Reflexió metacognitiva: \"com he après\" i \"qué m'ha sorprès\", no només \"qué he après\"."
+        },
+        {
+          "pas_id": "pas_5_consistencia_i_naturalitat",
+          "descriptor": "Primera persona reflexiva: \"m'he adonat que\", \"he reconsiderat\", \"em pregunto si\"."
+        },
+        {
+          "pas_id": "pas_6_separacio_dels_blocs",
+          "descriptor": "Blocs fluïts però clarament discernibles per al lector. La integració no amaga la distinció."
+        },
+        {
+          "pas_id": "pas_6_variant_academica_b1",
+          "descriptor": "Reflexió crítica sobre el procés d'aprenentatge, incloent limitacions i reptes."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, als matisos i a les contradiccions si les hi ha."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He reflexionat sobre com he après, no només sobre qué he après.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_format_i_precisio",
+      "titol": "Data i encapçalament",
+      "dimensio": "Format i precisió",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: data present; verificar format per nivell (simple A1 vs completa A2+); detectar absència de data"
+    },
+    {
+      "id": "pas_2_sequencia_i_rellevancia",
+      "titol": "Bloc fets",
+      "dimensio": "Seqüència i rellevància",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar frases de fets; verificar ordre cronològic; detectar fets barrejats amb emocions al mateix paràgraf"
+    },
+    {
+      "id": "pas_3_precisio_i_ancoratge",
+      "titol": "Bloc emocions",
+      "dimensio": "Precisió i ancoratge",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: emoció present i nomenada explícitament (no \"estava bé\" com a única emoció a A2+); qualitative: LLM-jutge sobre ancoratge al moment concret (B1+)"
+    },
+    {
+      "id": "pas_4_profunditat_i_orientacio",
+      "titol": "Bloc reflexió",
+      "dimensio": "Profunditat i orientació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: reflexió present a A1+ (mínima 1 frase orientada a l'aprenentatge); qualitative: LLM-jutge sobre orientació a l'aprenentatge vs. opinió genèrica"
+    },
+    {
+      "id": "pas_5_consistencia_i_naturalitat",
+      "titol": "Primera persona",
+      "dimensio": "Consistència i naturalitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: primera persona consistent; detectar canvis a tercera persona o veu impersonal; el \"nosaltres\" acadèmic (primera plural en treball col·lectiu) no es penalitza (vegeu Notes)"
+    },
+    {
+      "id": "pas_6_separacio_dels_blocs",
+      "titol": "Criteris transversals",
+      "dimensio": "Separació dels blocs",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: tres blocs discernibles; detectar barreja fets+emocions al mateix paràgraf; verificar separació gràfica (paràgraf o línia en blanc)"
+    },
+    {
+      "id": "pas_6_variant_academica_b1",
+      "titol": "Criteris transversals",
+      "dimensio": "Variant acadèmica (B1+)",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: present a B1+ si el context és acadèmic; qualitative: LLM-jutge sobre vocabulari acadèmic (observació/resultats/conclusions) vs. memorialístic"
+    },
+    {
+      "id": "pas_6_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar fets principals, to emocional i reflexió original vs adaptats; LLM-jutge sobre preservació de la veu personal"
+    },
+    {
+      "id": "pas_7_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta una entrada de diari amb tres blocs explícitament separats (fets / emocions / reflexió) en primera persona, modulant l'extensió i el lèxic segons el nivell MECR i activant la variant acadèmica només si el context ho indica i el MECR és B1+. No s'adapta a pre-A1.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix la profunditat metacognitiva real de la reflexió ni si l'emoció escollida 'descriu autènticament' l'experiència de l'alumne ni si el text font és prou ric per justificar variant acadèmica: només produeix l'estructura de tres blocs amb el lèxic i la sintaxi propis del nivell, i delega al docent la valoració de l'autenticitat i de l'encaix acadèmic."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una entrada de diari (personal, acadèmic, de viatge, de projecte)."
+    },
+    {
+      "name": "la_unitat_inclou_una",
+      "description": "La unitat inclou una experiència (visita, experiment, projecte, debat) que cal processar per escrit des de la perspectiva personal de l'alumne."
+    },
+    {
+      "name": "l_activitat_vol_desenvolupar",
+      "description": "L'activitat vol desenvolupar la competència metacognitiva o emocional de l'alumne."
+    },
+    {
+      "name": "l_activitat_preveu_un",
+      "description": "L'activitat preveu un diari de lectura, de laboratori, de recerca o de projecte (diari acadèmic, B1+)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_purament",
+      "description": "El text és purament informatiu i objectiu, sense perspectiva personal → informe."
+    },
+    {
+      "name": "el_text_narra_una",
+      "description": "El text narra una experiència per comunicar-la a un lector extern → crònica."
+    },
+    {
+      "name": "el_text_es_intim",
+      "description": "El text és íntim però no processa fets concrets (reflexió lliure sense ancoratge) → journal/dietari lliure."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Les tres preguntes com a guió.",
+      "descripcio": "Proposo que les tres preguntes vagin a la pissarra SEMPRE: (1) \"Qué ha passat avui?\", (2) \"Com t'has sentit?\", (3) \"Qué has après?\" A A1, l'alumne les copia i escriu una frase per pregunta. Amb les tres preguntes resoltes, l'entrada de diari està feta. Evita el bloqueig de \"no sé qué escriure\" i garanteix l'estructura de blocs."
+    },
+    {
+      "id": "H2",
+      "titol": "El vocabulari d'emocions al marge.",
+      "descripcio": "Cartell a l'aula amb 10-15 emocions graduades (de la més bàsica a la més matisada). Quan l'alumne escriu \"estava bé\", li demano que triï una emoció del cartell. Funciona com a bastida lèxica per a A1-A2 i com a model per a B1+. El vocabulari d'emocions no és un complement: és la competència central del gènere."
+    },
+    {
+      "id": "H3",
+      "titol": "El temps verbal com a ancoratge.",
+      "descripcio": "El pretèrit perfet o indefinit per als fets (\"hem anat\", \"vam veure\"), l'imperfet per a les emocions de fons (\"estava nerviós\", \"sentia una mica de por\"), i el present per a la reflexió (\"crec que\", \"ara entenc que\"). Distingir els temps verbals és una bastida gramatical que reforça la distinció entre blocs. Funciona des de A2."
+    },
+    {
+      "id": "H4",
+      "titol": "El diari acadèmic com a transformació del diari personal.",
+      "descripcio": "A B1+, proposo que el docent i l'alumne renomegin els blocs: fets → \"Observació o resultats\", emocions → \"Valoració del procés\", reflexió → \"Conclusions\". La mateixa estructura física es reutilitza amb vocabulari acadèmic. L'alumne no aprèn un gènere nou: aprèn a fer servir el gènere que ja coneix en un context acadèmic. La transició BICS→CALP és visible i gradual."
+    }
+  ],
+  "case_overrides": {
+    "variant_academica_b1plus": {
+      "trigger": {
+        "raw": "variant_academica_B1plus"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1] AND context_academic: true (diari de laboratori, de projecte, de recerca, de lectura disciplinar)\n\n**Modulació:**\n- h3_renombrats: Fets→'Observació o resultats', Emocions→'Valoració del procés', Reflexió→'Conclusions'\n- lexic_obligatori: [observació, resultats, mostra, indica, suggereix, conclusions]\n- lexic_prohibit_memorialistic: [ahir, em vaig sentir com a única emoció]\n- permet 'nosaltres' acadèmic si treball col·lectiu\n\n**Raonament pedagògic.** La variant "
+      }
+    },
+    "prea1_no_aplica": {
+      "trigger": {
+        "raw": "preA1_no_aplica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1 OR fase_lectora_in: [logografica]\n\n**Modulació:**\n- skill_no_executa: true\n- retorna_missatge: \"L'entrada de diari requereix base lecto-escriptora mínima i el concepte del jo com a subjecte narratiu explícit. No s'adapta a pre-A1 (Decisió 6 canònica Fase B).\"\n\n**Raonament pedagògic.** La separació conscient entre \"el que ha passat\", \"el que he sentit\" i \"el que he après\" és una operació metacognitiva simultània de tres blocs que no és accessible sense base lecto-"
+      }
+    },
+    "a1_alfabetica_emergent": {
+      "trigger": {
+        "raw": "A1_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- max_frases_per_bloc: 1\n- emocions_nominals: 1 emoció nomenada explícitament (no 'estava bé')\n- temps_verbal: passat simple als fets, present a la reflexió\n- separacio_blocs: línia en blanc obligatòria entre H3\n\n**Raonament pedagògic.** A fase alfabètica emergent, l'alumne encara consolida la descodificació; reduir cada bloc a una frase i forçar emoció nomenada explícitament impedeix la barreja fets+emocio"
+      }
+    }
+  }
+}

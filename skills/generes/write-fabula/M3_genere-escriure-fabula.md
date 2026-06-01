@@ -46,6 +46,40 @@ La fàbula és una narració breu amb personatges arquetípics (animals o ésser
 Aquesta rúbrica descriu la **fàbula adaptada per a la LECTURA** de l'alumne (el que el docent presenta perquè l'alumne llegeixi). **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast i en produeix els seus textos; l'adaptació és tasca del docent.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logografic perquè la fàbula requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta una narració breu amb 2-4 personatges arquetípics (un tret únic i consistent cadascun), situació amb fet desencadenant, acció amb desenllaç causalment derivat del caràcter i moral explícita al final precedida de 'Moral:'. Aplica la gradació A1→C1 de la taula Modulació. NO generis fàbula per a pre-A1 ni fase logogràfica. La sortida és sempre un model de LECTURA, no producció autònoma de l'alumne.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si la moral concreta és pedagògicament adequada per a la unitat, ni si el dilema encaixa amb la maduresa de l'alumne, ni si l'arquetip és culturalment sensible al grup; aquests judicis queden al docent. El LLM tampoc avalua si la fàbula compleix la rúbrica (Pas 2 consistència, Pas 4 causalitat, Pas 6.3 fidelitat): la valoració dels descriptors `qualitative` i `cross_source` la fa el docent o un LLM-jutge separat amb el text font davant.
+
+_Excepcions: vegeu §Casos especials i §Regla de selecció per perfil._
+
+## Regla de selecció per perfil
+
+### alumne_pre_A1_o_logografica_BLOQUEIG
+
+**Modulació:** No generar fàbula si mecr_in: [pre-A1] o fase_lectora_equals: logografica. Motiu: la doble estructura narració/moral exigeix abstracció simbòlica de segon nivell inaccessible sense base lecto-escriptora mínima. Retorna missatge al docent: 'La fàbula no és accessible a pre-A1; considera write-conte amb personatge arquetípic simple'.
+
+**Raonament pedagògic.** Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals.
+
+### alumne_DUA_acces
+
+**Modulació:** Si dua_equals: Acces, mantingues llargada de mínim MECR (6-8 frases) independentment del MECR formal; afegeix [PICTO_PERSONATGE:] a cada personatge; evita subordinades; moral en 1 frase curta precedida de 'Moral:' destacada (bullet o negreta a frontend).
+
+**Raonament pedagògic.** Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals.
+
+### alumne_AACC
+
+**Modulació:** Si aacc: true, admet matisos d'arquetip i complexitat moral fins a 1 nivell MECR per sobre del nominal, sempre que la moral romangui explícita; pots oferir 2 morals possibles al final com a invitació a la discussió, marcades 'Moral 1:' i 'Moral 2:'.
+
+**Raonament pedagògic.** Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals.
+
+### alumne_nouvingut_L1
+
+**Modulació:** translanguaging desactivat al frontmatter, però els arquetips funcionen com a bastida transcultural per defecte. No cal modulació addicional. Si L1_script_no_llatí, NO afegir transliteració al cos de la fàbula (trencaria la fluïdesa narrativa); reserva-la al glossari separat si el docent l'activa.
+
+**Raonament pedagògic.** Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a gènere fàbula):
@@ -85,6 +119,29 @@ Aquesta rúbrica descriu la **fàbula adaptada per a la LECTURA** de l'alumne (e
 |  | Llengua i registre | Sense fórmules arcaiques ("En un llunyà temps..."). Llengua actual. Passat simple. | Idem. Sense temps verbals arcaics. | Idem. Registre literari simple admissible sense arcaisme. | Idem. Recursos expressius admissibles si no son arcaics. | Sense arcaismes que dificultin la comprensió. Usos estilístics conscients (pastitx literari) admissibles si no comprometen la claredat. |
 |  | Fidelitat al text font | Fidelitat a la moral original i als arquetips. L'acció pot simplificar-se. | Fidelitat a la moral i als personatges arquetípics. | Fidelitat a la moral, als arquetips i a la tensió moral del text original. | Fidelitat a la moral, als arquetips i al to del text original. | Fidelitat a la moral, als arquetips, al to i a la intenció del text original. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit 2 personatges amb un tret diferent cadascun. He escrit la moral al final i comença amb 'Moral:'." | "La historia dels meus personatges mostra per qué la moral és certa. He revisat que la moral sigui una lliçó aplicable fora de la historia." | "El caràcter del personatge no canvia durant la historia. La moral explica una lliçó aplicable a la vida." | "La historia té tensió i el desenllaç és una conseqüència lògica del caràcter dels personatges. He revisat que la moral no sigui massa específica." | "La meva fàbula planteja una complexitat moral i la moral no és simplista, però és explícita. He revisat que l'arquetip sigui consistent tot i tenir matisos." |
+
+## Casos especials
+
+### suport_visual_arquetips_A1_A2
+
+**Trigger:** mecr_in: [A1, A2] AND multimodal: true
+
+**Modulació:**
+- afegeix [PICTO_PERSONATGE: clau_arasaac|nom_personatge] a la primera aparició de cada personatge; reforça el tret únic amb adjectiu repetit ('la llebre ràpida') cada cop que apareix; maxím 2 personatges totals. Raonament pedagògic: a A1-A2 l'arquetip s'ancora visualment i lèxicament; la repetició explícita del tret sosté la memòria del caràcter i dóna accés al pla moral sense inferir-lo (Cummins: bastida CALP via redundància; MALL: oralitat i visualitat com a porta d'entrada a la narrativa).
+
+### registre_estilistic_C1
+
+**Trigger:** mecr_equals: C1
+
+**Modulació:**
+- arcaisme estilístic admissible només si conscient i no compromet la claredat (pastitx La Fontaine); ironia lleugera admissible al desenllaç si la moral l'explicita; matisos d'arquetip admissibles sense trencar la consistència del caràcter. Raonament pedagògic: a C1 l'alumne llegeix el gènere com a tradició literària viva i en reconèix el joc estilístic; la fidelitat al to del text font (Pas 6.3) prima sobre la simplificació, però la moral mai pot esdevenir implícita perquè trencaria el tret definitori del gènere.
+
+### mode_adapter_amb_text_font
+
+**Trigger:** agent_role_equals: adapter AND requires_source_text: true
+
+**Modulació:**
+- preserva la moral original i els arquetips originals (Pas 6.3); admet simplificació de l'acció segons MECR objectiu; no inventis personatges nous. Raonament pedagògic: en mode adaptador la fàbula font (Esop, La Fontaine, Samaniego) és patrimoni cultural i la fidelitat a la moral i als arquetips és el criteri de qualitat. La llibertat creativa es limita a ajustar llargada, lèxic i sintaxi al MECR de l'alumne (Decisió canònica Fase B: adaptació ≠ reescriptura).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -126,6 +183,41 @@ Quan l'alumne ha acabat la fàbula, li demano que rellegeixi i marqui tots els m
 
 **H4 — El test de la moral universal.**
 La moral d'una fàbula ha de funcionar fora de la historia. Proposo el test: "Podries usar aquesta moral per explicar una situació real de la teva vida, de la classe o del món?" Si sí, la moral és prou universal. Si la resposta és "només si tens una tortuga i una llebre", és massa específica de la historia i cal reformular-la com a principi general.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Fàbula
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Situació
+### Fet desencadenant
+### Acció
+### Desenllaç
+### Moral
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris:**
+```
+Moral:
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Faula
+## Història
+## Lliçó
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Fàbula` i el marcador inline `Moral:` precedint la lliçó final, el descriptor binari del Pas 5 (regex de 'Moral:') falla i el parser de pas3.html no detecta la frontera narració/moral.
 
 ## Fonts principals
 

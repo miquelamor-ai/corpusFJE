@@ -63,6 +63,14 @@ Les dues eines son complementàries: bastida durant → rúbrica després.
 Aquesta rúbrica descriu les **rúbriques d'autoavaluació que es generen per a l'alumne** (AUTOAVALUACIÓ MEDIADA). **No descriu la rúbrica del docent per a l'avaluació sumativa**: la rúbrica d'autoavaluació és per a l'alumne, no per al docent. Si el docent vol rúbriques per avaluar (perspectiva externa), ha d'usar les eines d'avaluació de centre.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → checklist d'imatges (dibuix sí/no); `fase_lectora: alfabetica_emergent` → checklist de paraules curtes (sí/no).
 
+## Principi general
+
+**Regla de selecció simple.** Genera una rúbrica d'autoavaluació alumne-facing en primera persona del singular, amb escala FJE (NA/AS/AN/AE) i descriptors observables. A pre-A1, substitueix l'escala FJE per un checklist binari d'icones (✅/❌) sense gradació. El nombre de criteris i la naturalesa del descriptor AE es modulen segons el nivell MECR.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix quins criteris pedagògics són rellevants per a la tasca concreta de l'aula ni jutja si l'alumne real té capacitat metacognitiva per autoavaluar-se. Genera l'estructura i descriptors observables segons el nivell MECR i el gènere; la validació de la pertinença pedagògica i l'ajust al context d'aula és del docent.
+
+_Excepcions: no n'hi ha._
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -95,6 +103,46 @@ Aquesta rúbrica descriu les **rúbriques d'autoavaluació que es generen per a 
 | **3. Descriptors observables** | Concretesa del descriptor | Acció visible: "He dibuixat els 3 moments." / "He assenyalat el personatge." Mai "He fet bé". | Observable: "He escrit 3 passos numerats." Sense adjectius valoratius. | Observable amb indicadors: "He escrit la idea principal a la 1a frase, sense 'Aquest text parla de…'." | Apunta a la qualitat: "Cada argument inclou una evidència del text o una raó concreta." | Apunta a la relació: "He connectat les idees de seccions diferents usant connectors precisos." | Metacognitiu: "He detectat i corregit al menys un error de coherència o un terme imprecís." |
 | **4. Primera persona** | Perspectiva alumne-facing | "He fet ___ / He posat ___." Molt concret i físic. | "He escrit ___ / He usat ___." Primera persona consistent en tota la rúbrica. | "He escrit / He usat / He inclòs ___." Primera persona en tot el document. | "He argumentat / He justificat / He demostrat ___." HCL en primera persona. | "He analitzat / He contrastat / He elaborat ___." HCL acadèmiques en 1a persona. | "He reflexionat / He avaluat / He detectat ___." Metacognició en 1a persona. |
 | **5. Descriptor AE (salt qualitatiu)** | Naturalesa de l'excel·lència | Cap descriptor AE: checklist binari. | Descriptor AE = precisió o originalitat dins del límit: "He triat una paraula que no estava a la bastida però que explica exactament el que volia dir." No "he afegit coses" ni "ho he fet molt bé". | Descriptor AE = qualitat que transforma: una imatge pròpia, un connector inesperat, un exemple original no donat a la bastida. | Descriptor AE = habilitat que anticipa el nivell següent: un argument no donat per la bastida, una connexió pròpia entre dues idees del text. | Descriptor AE = evidència de pensament crític: detectar un biaix, contrastar fonts, plantejar una objecció fonamentada. | Descriptor AE = reflexió que demostra metacognició genuïna i transferència a altres contexts o tasques. |
+
+## Casos especials
+
+### pre_A1_checklist_binari
+
+**Trigger:** mecr_in: [pre-A1]
+
+**Modulació:**
+- format: checklist_icones (✅/❌)
+- escala_FJE: absent
+- nombre_criteris: 2-3
+- descriptor_AE: absent
+- mediacio_adult: revisio_oral_obligatoria
+- sub_modulacio_fase_lectora: logografica=imatges_dibuix, alfabetica_emergent=paraules_curtes
+
+**Raonament pedagògic.** A pre-A1 l'escala FJE de 4 nivells és massa abstracta i la gradació qualitativa no és accessible. El checklist binari ✅/❌ amb mediació oral de l'adult externalitza la metacognició que l'alumne emergent encara no pot fer internament. La sub-modulació per fase lectora (imatges vs paraules curtes) ajusta el suport al grau de descodificació disponible.
+
+### A1_escala_simplificada
+
+**Trigger:** mecr_in: [A1]
+
+**Modulació:**
+- format: taula_3_nivells
+- etiquetes_literals_obligatories: ['Encara no', 'Sí', 'Sí, i alguna cosa més']
+- etiquetes_prohibides: ['NA', 'AS', 'AN', 'AE', 'Molt bé']
+- nombre_criteris: 2-3
+- descriptor_AE_equivalent: precisio_o_originalitat_no_addicio
+
+**Raonament pedagògic.** A A1 cal una primera escala gradada accessible sense vocabulari institucional FJE. Les etiquetes literals "Encara no" / "Sí" / "Sí, i alguna cosa més" són transparents per a l'alumne i preserven la lògica del salt qualitatiu (la tercera categoria equival al descriptor AE) sense exigir el lèxic acadèmic NA/AS/AN/AE. Evitar "Molt bé" preserva el principi que l'excel·lència és salt qualitatiu, no gradació d'esforç.
+
+### B2_C1_verbs_academics
+
+**Trigger:** mecr_in: [B2, C1]
+
+**Modulació:**
+- verbs_academics_permesos: [analitzar, contrastar, detectar, reflexionar, avaluar]
+- requeriment: cada verb academic ha d'anar acompanyat d'evidencia textual especifica que el faci observable
+- C1: incorporar criteri de reflexio metacognitiva final (1-2 frases lliures)
+
+**Raonament pedagògic.** A B2-C1 els descriptors han d'incorporar HCL acadèmiques (analitzar, contrastar, detectar), però aquests verbs són opacs si no s'ancoren a una evidència textual concreta. "He analitzat el text" no és observable; "He analitzat com el títol i la conclusió es relacionen" sí ho és. A C1, el salt qualitatiu inclou la reflexió metacognitiva lliure com a evidència de transferència.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -136,6 +184,42 @@ Distribueixo la rúbrica al PRINCIPI de l'activitat de producció, no al final. 
 
 **H5 — Pre-A1: revisió oral amb l'adult.**
 A pre-A1, el checklist ✅/❌ és mediat per l'adult. "Mira el que has dibuixat. Has dibuixat els 3 moments? Sí → ✅. No → ❌. Pots completar-ho?" La revisió oral externalitza la metacognició que l'alumne emergent no pot fer internament encara. L'adult no corregeix — acompanya el procés de revisió.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Rúbrica d'autoavaluació
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+NA
+AS
+AN
+AE
+✅
+❌
+```
+
+**Headers explicitament PROHIBITS:**
+```
+## Rúbrica
+## Autoavaluació
+## Rúbrica del docent
+```
+
+**Regla d'integritat estructural.** Header literal `## Rúbrica d'autoavaluació` + taula markdown amb pipes (criteris × escala FJE) per a A2+; checklist ✅/❌ per a pre-A1; taula 3 nivells amb etiquetes literals 'Encara no' / 'Sí' / 'Sí, i alguna cosa més' per a A1. Sense aquesta estructura el parser de pas3.html no detecta la secció ni pot ancorar els descriptors per a la vista d'autoavaluació.
 
 ## Fonts principals
 

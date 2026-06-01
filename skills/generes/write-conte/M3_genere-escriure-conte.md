@@ -46,6 +46,47 @@ El conte és un gènere narratiu breu amb estructura de cinc parts (situació in
 Aquesta rúbrica descriu el **conte adaptat per a la LECTURA** de l'alumne (el que el docent presenta perquè l'alumne llegeixi). **No descriu la producció autònoma de l'alumne** — la producció narrativa de l'alumne s'avalua amb un derivat propi (rúbrica d'avaluació formativa). Principi pedagògic MALL: l'alumne llegeix models bons al màxim del seu abast i en produeix els seus textos; l'adaptació és tasca del docent.
 **Sub-granularitat dins de pre-A1 i A1**: es treballa amb la variable independent `fase_lectora` del frontmatter (logografica · alfabetica_emergent · alfabetica_fluida), no amb columnes addicionals.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un conte narratiu breu amb estructura canònica de cinc parts (situació inicial, conflicte, seqüència d'esdeveniments, clímax, resolució) modulada per al nivell MECR objectiu, incloent personatge amb motivació, emoció nomenada i, a partir d'A2, diàleg atribuït. Treballa sempre la HCL Narrar com a competència nuclear.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix la "intenció estètica" ni el grau de "literarietat" del conte adaptat, ni jutja si la complexitat psicològica del personatge és l'adequada per a l'alumne concret. Aplica la modulació per MECR i la fase_lectora declarada al frontmatter; el judici sobre la idoneïtat pedagògica final el pren el docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### DUA_acces
+
+**Inclou si:**
+- modulació_MECR_estàndard
+
+**Exclou explícitament:**
+- modulacio_diferenciada_DUA
+
+**Raonament pedagògic.** No aplica modulació específica diferenciada: la rúbrica gradada per MECR ja captura les necessitats d'accés. Si DUA_acces=true i fase_lectora=logogràfica, s'aplica el cas `preA1_fase_logografica`.
+
+### AACC
+
+**Inclou si:**
+- treball_al_MECR_superior_del_rang
+
+**Exclou explícitament:**
+- modulacio_diferenciada_AACC
+
+**Raonament pedagògic.** No aplica modulació específica. L'alumnat AACC pot treballar al MECR superior del seu rang; la rúbrica ja preveu nivells C1+ amb personatges complexos i resolució amb ironia o ambigüitat.
+
+### nouvingut_L1
+
+**Inclou si:**
+- translanguaging_actiu_si_MECR_A1
+- marcador_L1_per_terme_nuclear_opac_a_MECR_superiors
+
+**Exclou explícitament:**
+- alteracio_rubrica
+
+**Raonament pedagògic.** Aplica el cas `A1_nouvingut_L1` si MECR=A1; per a MECR superiors, s'activa translanguaging puntual (marcador [L1: ...]) només per a termes nuclears opacs, sense alterar la rúbrica.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a gènere conte):
@@ -90,6 +131,55 @@ Aquesta rúbrica descriu el **conte adaptat per a la LECTURA** de l'alumne (el q
 |  | Temps verbals | L'adult usa el passat simple. L'alumne imita. | Passat simple consistent. Cap barreja amb present. | Passat simple consistent. Imperfet per a descripcions ("era", "tenia"). | Passat simple + imperfet correctes. Pluscuamperfet bàsic admissible. | Temps narratius consistents. Usos elaborats del pluscuamperfet. | Domini complet dels temps narratius. Pot usar present narratiu com a recurs estilístic. |
 |  | Fidelitat al text font | Fidelitat al personatge i l'acció nuclear (qui, on, què passa). | Fidelitat al personatge, l'acció i el final. | Fidelitat al personatge, l'acció, el conflicte i el final. | Fidelitat al conflicte, la seqüència principal i el to general. | Fidelitat al matís emocional, el to i les relacions entre personatges. | Fidelitat a la veu narrativa, el to, els recursos literaris i la intenció estètica. |
 | **9. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He vist les imatges i he dit el que passa a cada una." (oral, mediat per l'adult) | "He escrit qui és el personatge, on és i què li passa. He escrit el final." | "El meu conte té un problema i un final. He nomenat com se sent el personatge." | "He escrit els 5 moments del conte en ordre. He explicat per què el personatge fa el que fa." | "El meu conte té tensió creixent i resolució coherent. Les emocions estan integrades al text, no llistades." | "El meu conte té personatges complexos, clímax ben construït i resolució significativa. He revisat que la veu narrativa sigui consistent." |
+
+## Casos especials
+
+### preA1_fase_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica
+
+**Modulació:**
+- narracio_oral_mediada: true
+- text_escrit: minim_o_absent
+- sequencia_imatges_obligatoria: 3 imatges mínim (inici/conflicte/resolució)
+- dialeg: prohibit_per_escrit
+- emocio_nomenada_escrita: false (oral amb adult)
+- marcador_IMG_obligatori: true
+
+**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies; la narració s'ha de sostenir oralment amb el suport de la seqüència d'imatges com a bastida cronològica. Forçar text escrit equival a demanar CALP en context BICS (Cummins). La multimodalitat actua aquí com a primera llengua de l'alumne (MALL).
+
+### A1_nouvingut_L1
+
+**Trigger:** mecr_in: [A1] AND nouvingut_L1: true
+
+**Modulació:**
+- translanguaging_actiu: true
+- permet_L1_entre_claudators: [L1: terme|traduccio_ca] per a terme nuclear opac
+- dialeg: opcional_no_penalitzar (segons metadades cel·la 7)
+- fidelitat: personatge+accio+final només (no conflicte detallat)
+
+**Raonament pedagògic.** Per a nouvinguts amb L1 declarada a A1, el translanguaging activa coneixement previ i sosté el fil narratiu quan el terme català és opac (Cummins & Early 2011, TOLC). El diàleg no penalitza l'absència perquè a A1 és un recurs opcional, no nuclear de la HCL Narrar.
+
+### mode_generator_sense_font
+
+**Trigger:** agent_role: generator AND text_font: absent
+
+**Modulació:**
+- validacio_fidelitat_8.3: desactivada
+- cel·la 8.3 cross_source: no_aplica al derivat avaluatiu
+- la resta de passos s'avaluen normalment
+
+**Raonament pedagògic.** La fidelitat al text font (cel·la 8.3) és per definició `cross_source`: requereix un text original per comparar. En mode generador (conte de nova creació), no existeix font de referència, per tant la cel·la queda fora del derivat avaluatiu sense que això afecti la resta de la rúbrica.
+
+### C1_subtext_dialeg
+
+**Trigger:** mecr_in: [C1] AND pas_7_dialeg: present AND intencio_autoral_declarada: false
+
+**Modulació:**
+- cel·la_7_validacio: revisio-humana (en lloc de LLM-jutge)
+- el subtext requereix conèixer la intenció autoral, que no es pot inferir mecànicament
+
+**Raonament pedagògic.** El subtext (el que es diu vs. el que es vol dir) requereix coneixement de la intenció autoral, un judici que cap LLM-jutge pot inferir mecànicament a partir del text aïllat. La validació es delega a revisió humana per evitar falsos positius/negatius en l'avaluació formativa.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -139,6 +229,42 @@ Per a alumnat emergent, proposo tres imatges en ordre (inici/conflicte/resoluci�
 
 **H5 — Diàleg atribuït vs. diàleg flotant.**
 El diàleg flotant ("—Hola! —Hola!") és molt freqüent als contes d'alumnat A1-A2 i dificulta la comprensió. Mostro la diferència en viu: escric el diàleg flotant a la pissarra, pregunto "Qui parla?" i quan no ho saben, afegim "va dir en Marc" i "va respondre la Laia". La regla és simple i visual: cada vegada que hi ha parèntesi o guió de diàleg, cal dir qui parla.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Conte
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Situació inicial
+### Conflicte
+### Seqüència d'esdeveniments
+### Clímax
+### Resolució
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[L1: terme_original|traduccio_ca]
+[IMG: descripcio_sequencia]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Personatges
+## Moralitat
+## Final
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Conte` i els 5 H3 canònics en l'ordre canònic, el parser de pas3.html no detecta l'estructura narrativa i la rúbrica de 9 passos no pot ancorar-se al text.
 
 ## Fonts principals
 

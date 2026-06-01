@@ -1,0 +1,290 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_bastides_produccio",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-bastides-produccio\\M3_instrument-generar-bastides-produccio.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-bastides-produccio",
+    "family": "mediacio",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "bastides",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_gps_disciplinar",
+          "descriptor": "2-3 passos molt concrets amb terminologia disciplinar de la matèria. Cada pas = 1 frase imperativa breu."
+        },
+        {
+          "pas_id": "pas_2_connectors_iniciadors_hcl",
+          "descriptor": "1 iniciador per HCL principal del gènere. Connectors: *i, però, perquè*. Llista curta (max 5 ítems)."
+        },
+        {
+          "pas_id": "pas_3_checklist_d_autoavaluacio",
+          "descriptor": "Cap pauta a A1: la bastida és el Bloc A i B."
+        },
+        {
+          "pas_id": "pas_4_metacognicio",
+          "descriptor": "\"He seguit els passos de la bastida per escriure el meu text.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_gps_disciplinar",
+          "descriptor": "3-4 passos + terminologia disciplinar específica. Cada pas indica QUÈ fer i AMB QUÈ."
+        },
+        {
+          "pas_id": "pas_2_connectors_iniciadors_hcl",
+          "descriptor": "2-3 iniciadors per HCL. Connectors: + *primer, llavors, per tant*. Connectors de causa-efecte.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "iniciadors"
+          }
+        },
+        {
+          "pas_id": "pas_3_checklist_d_autoavaluacio",
+          "descriptor": "2-3 ítems simples vinculats al gènere i la tasca concreta. Com a mínim un ítem sobre el destinatari o el propòsit (ex.: \"A qui escric? He posat el nom del personatge?\")."
+        },
+        {
+          "pas_id": "pas_4_metacognicio",
+          "descriptor": "\"He usat la bastida per estructurar el meu text. He completat el checklist.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_gps_disciplinar",
+          "descriptor": "Raonament disciplinar explícit: hipòtesi, evidència, causa, efecte. Vocabulari CALP del camp."
+        },
+        {
+          "pas_id": "pas_2_connectors_iniciadors_hcl",
+          "descriptor": "Iniciadors inferencials i causals. Connectors: + *ja que, en canvi, tot i que*. Iniciadors de contrast."
+        },
+        {
+          "pas_id": "pas_3_checklist_d_autoavaluacio",
+          "descriptor": "4-5 ítems específics del gènere. Vinculats als criteris d'avaluació si estan disponibles."
+        },
+        {
+          "pas_id": "pas_4_metacognicio",
+          "descriptor": "\"He seguit la base d'orientació i he usat els iniciadors per construir el meu argument.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_gps_disciplinar",
+          "descriptor": "Superestructura completa del gènere amb lèxic CALP i indicadors de qualitat per secció."
+        },
+        {
+          "pas_id": "pas_2_connectors_iniciadors_hcl",
+          "descriptor": "Iniciadors CALP argumentals. Connectors: + *no obstant, atès que, en conseqüència* (NOMES a B2+)."
+        },
+        {
+          "pas_id": "pas_3_checklist_d_autoavaluacio",
+          "descriptor": "Criteris d'avaluació específics amb indicadors observables. Inclou criteris de rigor disciplinar."
+        },
+        {
+          "pas_id": "pas_4_metacognicio",
+          "descriptor": "\"He usat la pauta d'interrogació per revisar que el meu text compleix els criteris del gènere.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_gps_disciplinar",
+          "descriptor": "Contrast de fonts, biaix autorial, intertextualitat. El GPS inclou indicadors de rigor crític."
+        },
+        {
+          "pas_id": "pas_2_connectors_iniciadors_hcl",
+          "descriptor": "Iniciadors dialèctics i retòrics. Connectors de concessió i contrast complexos."
+        },
+        {
+          "pas_id": "pas_3_checklist_d_autoavaluacio",
+          "descriptor": "Reflexió metacognitiva sobre fiabilitat de les fonts, biaix i coherència interna de l'argument."
+        },
+        {
+          "pas_id": "pas_4_metacognicio",
+          "descriptor": "\"He comprovat que les meves fonts son fiables i que el meu argument és coherent i honest.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_gps_disciplinar",
+      "titol": "Bloc A — Base d'orientació",
+      "dimensio": "GPS disciplinar",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: la base d'orientació és específica del gènere i la matèria (positiu) o genèrica \"introduccio/cos/conclusio\" (negatiu); cross_source: verificar que els passos son coherents amb el gènere declarat al text font"
+    },
+    {
+      "id": "pas_2_connectors_iniciadors_hcl",
+      "titol": "Bloc B — Catàleg de recursos",
+      "dimensio": "Connectors + iniciadors HCL",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: connectors del nivell MECR exacte presents (detectar per regex connectors d'un nivell superior contra la llista tancada per nivell: A1={i,però,perquè}, A2+={primer,llavors,per tant}, B1+={ja que,en canvi,tot i que}, B2+={no obstant,atès que,tanmateix}); qualitative: LLM-jutge sobre pertinença dels iniciadors HCL al gènere actiu"
+    },
+    {
+      "id": "pas_3_checklist_d_autoavaluacio",
+      "titol": "Bloc C — Pauta d'interrogació",
+      "dimensio": "Checklist d'autoavaluació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de checklist a A2+ i absencia a A1; qualitative: LLM-jutge sobre especificitat de la pauta (vinculada al gènere i la tasca concreta vs genèrica); cross_source: ítems de la pauta coherents amb el gènere del text"
+    },
+    {
+      "id": "pas_4_metacognicio",
+      "titol": "Autoavaluació mediada",
+      "dimensio": "Metacognició",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "A1: registre docent d'observació; A2+: derivar a vista d'autoavaluació de l'alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera els tres blocs (A) base d'orientació disciplinar, (B) catàleg de connectors i iniciadors HCL i (C) pauta d'interrogació, modulats pel nivell MECR i específics del gènere i la matèria del text font. NO generis cap bloc si no hi ha producció activa (preguntes_comprensio o activitats_aprofundiment) o si el perfil és pre-A1: salta silenciosament.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si la bastida és pedagògicament útil per a aquest alumne concret ni quan retirar-la: aquesta valoració correspon al docent (heurístiques H1-H5). Tampoc inventa estructures genèriques tipus 'introduccio/cos/conclusio': si no pot derivar passos específics del gènere i la matèria del text font, ho assenyala al docent en comptes de fabricar contingut buit."
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_bastides_al",
+      "description": "Ha activat \"Bastides\" al Pas 2 i ha activat almenys un complement de producció."
+    },
+    {
+      "name": "l_alumnat_escriu_sense",
+      "description": "L'alumnat escriu sense saber per on començar (full en blanc)."
+    },
+    {
+      "name": "la_produccio_es_correcta",
+      "description": "La producció és correcta en contingut però desorganitzada estructuralment."
+    },
+    {
+      "name": "primera_exposicio_a_un",
+      "description": "Primera exposició a un gènere nou en el context TILC."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "no_hi_ha_produccio",
+      "description": "No hi ha producció activa al Pas 2 → el complement salta silenciosament."
+    },
+    {
+      "name": "l_alumne_ja_domina",
+      "description": "L'alumne ja domina l'estructura del gènere → la bastida pot limitar la creativitat i la fluència."
+    },
+    {
+      "name": "tasca_de_produccio_lliure",
+      "description": "Tasca de producció lliure o creativa sense restriccions de gènere → `plantilles-genere` amb forats mínims."
+    },
+    {
+      "name": "rubrica_avaluativa_per_al",
+      "description": "Rúbrica avaluativa per al docent → `rubriques`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El test de la matèria (Bloc A).",
+      "descripcio": "Llegeixo la base d'orientació i em pregunto: \"Podria servir per a qualsevol text de qualsevol matèria?\" Si la resposta és sí, cal tornar a escriure-la. Ha de ser específica del gènere i la matèria: \"Per a una crònica de biologia: 1. Quan i on va passar el fenomen. 2. Quin organisme/procés. 3. Quines causes concretes. 4. Quines conseqüències observades.\" Això no val per a una crònica de historia."
+    },
+    {
+      "id": "H2",
+      "titol": "El Bloc B com a termòmetre del nivell.",
+      "descripcio": "Reviso ràpidament els connectors que usa l'alumne: si tots els arguments comencen amb \"perquè\" o \"però\" → A1-A2. Si varia entre \"en primer lloc\", \"per tant\" → B1. Si usa \"tanmateix\", \"no obstant\" → B2. Si el Bloc B dona connectors del nivell correcte, l'alumne té un termòmetre lingüístic de la seva ZDP."
+    },
+    {
+      "id": "H3",
+      "titol": "El Bloc C com a conversa interior.",
+      "descripcio": "Proposo que l'alumne completi el Bloc C EN VEU ALTA en parella ABANS de lliurar el text. El company és el \"lector intern\": \"Has posat quins personatges? Sí. Has posat per que passa el conflicte? No, torna-hi.\" L'externalitzar la pauta converteix un exercici solitari en una conversa metacognitiva."
+    },
+    {
+      "id": "H4",
+      "titol": "Bastida que es retira progressivament.",
+      "descripcio": "Introdueixo les bastides les primeres 2-3 sessions del gènere i progressivament elimino ítems que l'alumne ja fa sol. Semana 1: Bloc A complet + Bloc B. Semana 3: Bloc B + Bloc C (l'alumne ja recorda l'estructura). Semana 5: Bloc C sol (l'alumne ja usa connectors autònomament). Una bastida que no es retira es converteix en dependència."
+    },
+    {
+      "id": "H5",
+      "titol": "\"Sense producció, sense bastida\".",
+      "descripcio": "Quan el docent activa \"bastides\" però oblida activar preguntes o activitats, el complement salta. Li explico explícitament: la bastida de producció nomes existeix si hi ha alguna cosa a produir. Si el text no té tasca de producció associada, la bastida es limita a les bastides de lectura."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_sense_escriptura_autonoma": {
+      "trigger": {
+        "raw": "pre_A1_sense_escriptura_autonoma"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1 OR fase_lectora_in: [logografica]\n\n**Modulació:**\n- no_generar: true (cap bloc, salt silenciós)\n\n**Raonament pedagògic.** A pre-A1 i fase logogràfica no hi ha mecànica de frase interioritzada; la producció escrita no s'activa fins a A1 alfabètica emergent."
+      }
+    },
+    "sense_produccio_activa": {
+      "trigger": {
+        "raw": "sense_produccio_activa"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** complement_preguntes_comprensio: false AND complement_activitats_aprofundiment: false\n\n**Modulació:**\n- no_generar: true\n\n**Raonament pedagògic.** Principi rector \"Sense producció no hi ha bastida de producció\". El complement és ortogonal a bastides-lectura i només té sentit si hi ha tasca productiva al Pas 2."
+      }
+    },
+    "a1_alfabetica_emergent": {
+      "trigger": {
+        "raw": "A1_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- bloc_A: 2 passos imperatius breus\n- bloc_B: 1 iniciador per HCL principal, connectors limitats a {i, però, perquè} (max 5 ítems)\n- bloc_C: omès\n\n**Raonament pedagògic.** Bastida mínima per no saturar el processament; el Bloc C s'introdueix a A2."
+      }
+    },
+    "a1_alfabetica_fluida": {
+      "trigger": {
+        "raw": "A1_alfabetica_fluida"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_fluida\n\n**Modulació:**\n- bloc_A: 3 passos amb frase completa\n- bloc_B: 1-2 iniciadors per HCL, mateixa llista tancada de connectors A1\n- bloc_C: omès\n\n**Raonament pedagògic.** La fluïdesa permet bastida plena dins A1, però el Bloc C continua reservat a A2+."
+      }
+    },
+    "produccio_lliure_o_creativa": {
+      "trigger": {
+        "raw": "produccio_lliure_o_creativa"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** tasca_tipus_in: [produccio_lliure, produccio_creativa] AND genere_restrictiu: false\n\n**Modulació:**\n- derivar_a: plantilles-genere (forats mínims)\n\n**Raonament pedagògic.** Anti-senyal documentat: la bastida limita la creativitat sense restriccions de gènere. El LLM no genera Bloc A en aquest cas."
+      }
+    }
+  }
+}

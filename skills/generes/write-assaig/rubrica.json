@@ -1,0 +1,513 @@
+{
+  "_meta": {
+    "name": "rubrica_write_assaig",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-assaig\\M3_genere-escriure-assaig.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-assaig",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "assaig",
+    "translanguaging": true,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat als arguments, a les evidències i als connectors argumentatius del text font."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_explicitacio",
+          "descriptor": "1 frase que diu el que es defensa: \"Crec que [tesi].\" Al primer paràgraf."
+        },
+        {
+          "pas_id": "pas_2_coherencia_i_progressio",
+          "descriptor": "1 argument simple. \"Crec que... perquè...\"."
+        },
+        {
+          "pas_id": "pas_3_suport_i_credibilitat",
+          "descriptor": "1 exemple personal o molt proper per argument."
+        },
+        {
+          "pas_id": "pas_4_pensament_critic",
+          "descriptor": "Sense refutació a A1 (massa complex). Acceptable que la postura sigui unilateral."
+        },
+        {
+          "pas_id": "pas_5_tancament_i_coherencia",
+          "descriptor": "1 frase: \"Per tot això, crec que [tesi].\" No introdueix arguments nous."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_precisio",
+          "descriptor": "\"Crec que... perquè...\" (1 connector causal)."
+        },
+        {
+          "pas_id": "pas_7_integracio_i_atribucio",
+          "descriptor": "Sense cites a A1."
+        },
+        {
+          "pas_id": "pas_8_no_tesi_implicita",
+          "descriptor": "Cap obertura vaga (\"Hi ha moltes opinions sobre...\") sense posicionar-se."
+        },
+        {
+          "pas_id": "pas_8_conclusio_tancada",
+          "descriptor": "Cap argument nou a la conclusió que no hagi aparegut al cos del text."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat a la postura principal i als arguments centrals del text font."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He escrit la meva opinió en una frase al principi. He donat 1 argument amb un exemple.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_explicitacio",
+          "descriptor": "Tesi clara de 1-2 frases amb connector d'opinió. Al primer paràgraf.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_coherencia_i_progressio",
+          "descriptor": "2 arguments en paràgrafs separats. 1 connector causal per argument."
+        },
+        {
+          "pas_id": "pas_3_suport_i_credibilitat",
+          "descriptor": "1 exemple concret per argument. Pot ser un fet quotidià o una observació directa."
+        },
+        {
+          "pas_id": "pas_4_pensament_critic",
+          "descriptor": "Reconeixement d'un punt de vista diferent en 1 frase: \"Alguns pensen que... però jo crec que...\""
+        },
+        {
+          "pas_id": "pas_5_tancament_i_coherencia",
+          "descriptor": "Conclusió de 2 frases que reprèn la tesi. No obre noves preguntes."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_precisio",
+          "descriptor": "\"A més\", \"però\", \"per exemple\", \"per tot això\". Variats mínimament."
+        },
+        {
+          "pas_id": "pas_7_integracio_i_atribucio",
+          "descriptor": "Opcional: paràfrasi d'una idea d'algú altre sense cita formal."
+        },
+        {
+          "pas_id": "pas_8_no_tesi_implicita",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_conclusio_tancada",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat a la postura, als arguments i a les evidències essencials."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He escrit la tesi al principi. He donat 2 arguments amb un exemple cadascun.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_explicitacio",
+          "descriptor": "Tesi explícita que anuncia el tema i la postura. La tesi delimita l'abast de l'assaig."
+        },
+        {
+          "pas_id": "pas_2_coherencia_i_progressio",
+          "descriptor": "3 arguments ben diferenciats. 1 per paràgraf. Connector explícit per a cada un."
+        },
+        {
+          "pas_id": "pas_3_suport_i_credibilitat",
+          "descriptor": "1 exemple o evidència per argument. Pot ser un fet, una dada o una cita breu."
+        },
+        {
+          "pas_id": "pas_4_pensament_critic",
+          "descriptor": "Refutació d'un argument contrari. Connector de contrast: \"tot i que\", \"però\", \"tanmateix\"."
+        },
+        {
+          "pas_id": "pas_5_tancament_i_coherencia",
+          "descriptor": "Conclusió de 3 frases: resum de la postura + una implicació breu (opcional)."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_precisio",
+          "descriptor": "\"Tanmateix\", \"per contra\", \"en conseqüència\", \"d'una banda... de l'altra\"."
+        },
+        {
+          "pas_id": "pas_7_integracio_i_atribucio",
+          "descriptor": "1 cita breu integrada al text amb atribució clara. Explicació de per qué importa."
+        },
+        {
+          "pas_id": "pas_8_no_tesi_implicita",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_conclusio_tancada",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat als arguments, a les evidències i als connectors argumentatius del text font."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He escrit 3 arguments, 1 per paràgraf. He reconegut un punt de vista diferent.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_explicitacio",
+          "descriptor": "Tesi matisada que reconeix la complexitat del tema sense diluir la postura."
+        },
+        {
+          "pas_id": "pas_2_coherencia_i_progressio",
+          "descriptor": "3-4 arguments jerarquitzats (del menys al més fort o a la inversa)."
+        },
+        {
+          "pas_id": "pas_3_suport_i_credibilitat",
+          "descriptor": "1-2 evidències per argument. Cites breus amb atribució clara."
+        },
+        {
+          "pas_id": "pas_4_pensament_critic",
+          "descriptor": "Refutació elaborada d'1-2 arguments contraris amb evidències de suport."
+        },
+        {
+          "pas_id": "pas_5_tancament_i_coherencia",
+          "descriptor": "Conclusió argumentada que connecta la tesi amb el context més ampli."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_precisio",
+          "descriptor": "Connectors argumentatius variats i precisos. Distinció entre contrast, causa i conclusió."
+        },
+        {
+          "pas_id": "pas_7_integracio_i_atribucio",
+          "descriptor": "2-3 cites integrades i comentades. Cada cita suporta l'argument del paràgraf."
+        },
+        {
+          "pas_id": "pas_8_no_tesi_implicita",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_conclusio_tancada",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat argumentativa i al context disciplinar del text original."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"He jerarquitzat els arguments i he refutat una objecció amb evidències.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_explicitacio",
+          "descriptor": "Tesi sofisticada amb matisos conceptuals i posicionament acadèmic precís."
+        },
+        {
+          "pas_id": "pas_2_coherencia_i_progressio",
+          "descriptor": "3-5 arguments amb relació entre si. Pot incloure argumentació per analogia."
+        },
+        {
+          "pas_id": "pas_3_suport_i_credibilitat",
+          "descriptor": "Evidències variades (dades, cites, analogies). Jerarquitzades per credibilitat."
+        },
+        {
+          "pas_id": "pas_4_pensament_critic",
+          "descriptor": "Refutació sistemàtica de les objeccions principals i integració dels matisos."
+        },
+        {
+          "pas_id": "pas_5_tancament_i_coherencia",
+          "descriptor": "Conclusió que sintetitza, pot obrir noves preguntes i té veu acadèmica pròpia."
+        },
+        {
+          "pas_id": "pas_6_varietat_i_precisio",
+          "descriptor": "Connectors sofisticats. Pot usar modalitzadors i connectors concessius."
+        },
+        {
+          "pas_id": "pas_7_integracio_i_atribucio",
+          "descriptor": "Múltiples cites ben atribuïdes i comentades críticament. Fonts diverses."
+        },
+        {
+          "pas_id": "pas_8_no_tesi_implicita",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_conclusio_tancada",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_8_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, als matisos i als debats del text original."
+        },
+        {
+          "pas_id": "pas_9_reflexio_sobre_el",
+          "descriptor": "\"L'assaig té tesi, arguments jerarquitzats, refutació i conclusió amb veu acadèmica pròpia.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_claredat_i_explicitacio",
+      "titol": "Tesi o postura inicial",
+      "dimensio": "Claredat i explicitació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: tesi present al 1r paràgraf (no implícita ni al final); qualitative: LLM-jutge sobre si la postura és clara i delimita l'abast"
+    },
+    {
+      "id": "pas_2_coherencia_i_progressio",
+      "titol": "Arguments",
+      "dimensio": "Coherència i progressió",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar arguments; qualitative: LLM-jutge sobre si cada argument desenvolupa la tesi (no és una digressió) i té connector causal explícit"
+    },
+    {
+      "id": "pas_3_suport_i_credibilitat",
+      "titol": "Exemples i evidències",
+      "dimensio": "Suport i credibilitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: exemple o evidència present per a cada argument; qualitative: LLM-jutge sobre si l'evidència és rellevant i integrada (no merament decorativa)"
+    },
+    {
+      "id": "pas_4_pensament_critic",
+      "titol": "Refutació o matís",
+      "dimensio": "Pensament crític",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: absent a A1 (correcte); qualitative: LLM-jutge sobre si la refutació respon efectivament l'objecció (A2+)"
+    },
+    {
+      "id": "pas_5_tancament_i_coherencia",
+      "titol": "Conclusió",
+      "dimensio": "Tancament i coherència",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: conclusió present; qualitative: LLM-jutge sobre si reprèn la tesi sense introduir arguments nous"
+    },
+    {
+      "id": "pas_6_varietat_i_precisio",
+      "titol": "Connectors argumentatius",
+      "dimensio": "Varietat i precisió",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "detectar i comptar connectors argumentatius; verificar varietat per nivell; detectar absència de connectors en paràgrafs d'argument (B1+)"
+    },
+    {
+      "id": "pas_7_integracio_i_atribucio",
+      "titol": "Cites (B1+)",
+      "dimensio": "Integració i atribució",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: cites presents i atribuïdes a B1+; absència a A1-A2 correcta; qualitative: LLM-jutge sobre si la cita és integrada i comentada (no inserida sola)"
+    },
+    {
+      "id": "pas_8_no_tesi_implicita",
+      "titol": "Criteris transversals",
+      "dimensio": "No tesi implícita",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar obertures vagues (\"Hi ha moltes opinions\", \"Tothom sap que\", \"Des de sempre\"); qualitative: LLM-jutge sobre si la postura de l'autor és identificable a la primera lectura"
+    },
+    {
+      "id": "pas_8_conclusio_tancada",
+      "titol": "Criteris transversals",
+      "dimensio": "Conclusió tancada",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar arguments nous a la conclusió que no apareixien al cos del text; qualitative: LLM-jutge sobre si la conclusió és síntesi o obertura"
+    },
+    {
+      "id": "pas_8_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar postura, arguments principals i evidències original vs adaptat; LLM-jutge sobre si la simplificació preserva la coherència argumentativa"
+    },
+    {
+      "id": "pas_9_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera un assaig adaptat per a la LECTURA de l'alumne amb tesi explícita al primer paràgraf, arguments ordenats (1 a A1, 2 a A2, 3 a B1, 3-4 a B2, 3-5 a C1), exemples o evidències per argument, refutació a partir d'A2, conclusió tancada que reprengui la tesi i connectors argumentatius graduats segons MECR. NO generis assaig si el MECR és pre-A1.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si el tema del text font és pedagògicament adequat per a l'alumne, ni si la postura defensada és èticament acceptable, ni si l'alumne ja domina la HCL Argumentar. El LLM no produeix l'escriptura autònoma de l'alumne — només el text model de lectura. La valoració de l'adequació temàtica i la posterior tasca de producció autònoma queden al docent."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és reflexiu o argumentatiu amb veu autorial clara (assaig acadèmic, article d'opinió d'expert, columna d'anàlisi)."
+    },
+    {
+      "name": "la_unitat_demana_a",
+      "description": "La unitat demana a l'alumne la producció d'un text argumentatiu formal sobre un tema curricular o de convivència."
+    },
+    {
+      "name": "el_context_es_filosofia",
+      "description": "El context és Filosofia, Ciències Socials, Llengua, Batxillerat o FP."
+    },
+    {
+      "name": "l_alumne_te_mecr",
+      "description": "L'alumne té MECR A1+ i l'objectiu és treballar la HCL Argumentar en registre acadèmic."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_valora_una",
+      "description": "El text valora una obra concreta → ressenya."
+    },
+    {
+      "name": "el_text_narra_una",
+      "description": "El text narra una experiència o fets → crònica o diari."
+    },
+    {
+      "name": "el_text_informa_neutralment",
+      "description": "El text informa neutralment → notícia, manual o divulgatiu."
+    },
+    {
+      "name": "el_text_te_preambul",
+      "description": "El text té preàmbul anecdòtic com a ganxo → divulgatiu."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La tesi en una frase.",
+      "descripcio": "Demano a l'alumne: \"Digues en una frase el que defenses.\" Si no pot fer-ho en menys de 30 segons, la tesi no és clara. El primer pas de qualsevol assaig, fins i tot a B2, és formular la tesi oralment en una frase sola. Si no pot fer-ho oralment, no podrà fer-ho per escrit."
+    },
+    {
+      "id": "H2",
+      "titol": "El títol com a brúixola (B1+).",
+      "descripcio": "Proposo que l'alumne escrigui el títol ABANS de l'assaig. Un bon títol d'assaig anticipa la tesi o el conflicte central: \"Per qué la intel·ligència artificial no pot substituir la creativitat humana.\" Si el títol no diu res específic (\"Reflexió sobre la IA\"), la tesi és feble."
+    },
+    {
+      "id": "H3",
+      "titol": "La cita com a font, no com a decoració (B1+).",
+      "descripcio": "Per a alumnat que insereix cites però no les comenta, el model d'integració en 3 temps: (1) presento l'autor i el context, (2) cito, (3) explico per qué la cita és rellevant per a la tesi. La cita sola no parla: l'autor de l'assaig ha de parlar per ella."
+    },
+    {
+      "id": "H4",
+      "titol": "L'apartat com a argument + evidència.",
+      "descripcio": "L'estructura mínima de cada paràgraf: idea → \"per exemple\" / \"com demostra\" → evidència. Si un paràgraf té idea però no evidència, queda feble. Si té evidència però no idea, és un exemple flotant. La bastida ajuda a veure si cada paràgraf té els dos elements."
+    },
+    {
+      "id": "H5",
+      "titol": "La conclusió no és un argument nou.",
+      "descripcio": "Quan l'alumne escriu a la conclusió un argument nou (\"i a més, caldria tenir en compte que...\"), llegim la conclusió en veu alta i preguntem: \"Aquesta idea ha aparegut abans?\" Si no, o es retira o es puja al cos. La conclusió és síntesi, no ampliació."
+    }
+  ],
+  "case_overrides": {
+    "no_pre_a1": {
+      "trigger": {
+        "raw": "no_pre_A1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1]\n\n**Modulació:**\n- no_generar: true\n- missatge_retornat: \"L'assaig no s'adapta a pre-A1: requereix base lecto-escriptora i pensament formal mínim.\"\n\n**Raonament pedagògic.** La combinació tesi explícita + arguments ordenats + evidència és una operació cognitiva abstracta que necessita base lecto-escriptora i pensament formal mínim (decisió 6 canònica Fase B). Generar text a pre-A1 falsejaria el principi del text model accessible (Cummins: el CALP no es construeix se"
+      }
+    },
+    "a1_sense_refutacio": {
+      "trigger": {
+        "raw": "A1_sense_refutacio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1]\n\n**Modulació:**\n- omet_h3_literal: \"### Refutacio\"\n- estructura_final: \"## Assaig + ### Tesi + ### Arguments + ### Conclusio\"\n- tesi_format: \"1 frase amb 'Crec que...'\"\n- arguments: \"1 argument únic amb 1 exemple personal\"\n- conclusio: \"1 frase que reprengui la tesi\"\n- cites: prohibides\n\n**Raonament pedagògic.** A A1 el pes recau sobre la HCL Interpretar/Valorar (no encara Argumentar formal). Forçar refutació seria demanar una operació cognitiva (reconèixer i respondre"
+      }
+    },
+    "nouvingut_l1_alfabetica_emergent": {
+      "trigger": {
+        "raw": "nouvingut_L1_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND mecr_in: [A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- densitat_CALP: mínima (més BICS d'ancoratge)\n- permet_marcador_L1: true (només termes argumentatius clau: tesi, perquè, però)\n- longitud_frase: màx. 8-10 paraules\n- arguments: 1 sol\n- conclusio: reprenent la tesi paraula a paraula\n\n**Raonament pedagògic.** Translanguaging com a bastida (Cummins & Early 2011): a A1 nouvingut amb fase lectora emergent, el marcador [L1: terme] sobre els pivots "
+      }
+    },
+    "cites_a_partir_b1": {
+      "trigger": {
+        "raw": "cites_a_partir_B1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1]\n\n**Modulació:**\n- activar_marcador_CITA: true (dins `### Arguments`)\n- B1: 1 cita breu integrada\n- B2: 2-3 cites comentades\n- C1: múltiples cites de fonts diverses\n- ús_marcador_per_sota_B1: prohibit\n\n**Raonament pedagògic.** La integració de cites com a evidència vinculada és HCL Justificar (B1+). Per sota de B1 la cita és prematura: l'alumne encara no pot distingir entre cita decorativa i cita argumentativa, i el marcador esdevindria soroll. La gradació quant"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "conclusio_tancada",
+      "type": "qualitative",
+      "rule": "binary: detectar arguments nous a la conclusió que no apareixien al cos del text; qualitative: LLM-jutge sobre si la conclusió és síntesi o obertura"
+    }
+  ],
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

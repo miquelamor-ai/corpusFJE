@@ -46,6 +46,18 @@ L'entrada de diari és una narració en primera persona on l'escriptor processa 
 Aquesta rúbrica descriu l'**entrada de diari adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta una entrada de diari amb tres blocs explícitament separats (fets / emocions / reflexió) en primera persona, modulant l'extensió i el lèxic segons el nivell MECR i activant la variant acadèmica només si el context ho indica i el MECR és B1+. No s'adapta a pre-A1.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix la profunditat metacognitiva real de la reflexió ni si l'emoció escollida 'descriu autènticament' l'experiència de l'alumne ni si el text font és prou ric per justificar variant acadèmica: només produeix l'estructura de tres blocs amb el lèxic i la sintaxi propis del nivell, i delega al docent la valoració de l'autenticitat i de l'encaix acadèmic.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+_Aquest skill no diferencia per perfils transversals (DUA_acces, AACC, nouvingut_L1) més enllà del que ja captura el MECR i la fase_lectora. La modulació rellevant és per MECR (taula A1→C1) i per activació de variant acadèmica (B1+ amb context acadèmic). Nouvingut amb L1 es serveix amb la cel·la MECR corresponent._
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a diari):
@@ -87,6 +99,42 @@ Aquesta rúbrica descriu l'**entrada de diari adaptada per a la LECTURA** de l'a
 |  | Fidelitat al text font | Fidelitat als fets principals i a la veu en primera persona. | Fidelitat als fets, a les emocions i a la reflexió essencial. | Fidelitat als fets, a les emocions, a la reflexió i al to personal. | Fidelitat a la complexitat emocional i reflexiva del text original. | Fidelitat a la complexitat, als matisos i a les contradiccions si les hi ha. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He dit qué ha passat, com m'he sentit i qué he après." | "He separat els fets de les emocions. He nomenat com em vaig sentir." | "He escrit una conclusió que explica qué he après i per qué." | "He analitzat les meves emocions i les he relacionat amb el context." | "He reflexionat sobre com he après, no només sobre qué he après." |
 
+## Casos especials
+
+### variant_academica_B1plus
+
+**Trigger:** mecr_in: [B1, B2, C1] AND context_academic: true (diari de laboratori, de projecte, de recerca, de lectura disciplinar)
+
+**Modulació:**
+- h3_renombrats: Fets→'Observació o resultats', Emocions→'Valoració del procés', Reflexió→'Conclusions'
+- lexic_obligatori: [observació, resultats, mostra, indica, suggereix, conclusions]
+- lexic_prohibit_memorialistic: [ahir, em vaig sentir com a única emoció]
+- permet 'nosaltres' acadèmic si treball col·lectiu
+
+**Raonament pedagògic.** La variant acadèmica és el pont BICS→CALP del gènere: la mateixa estructura de tres blocs es reomple amb HCL progressivament més acadèmiques (Narrar → Explicar → Justificar), fent visible i gradual la transició cap al discurs disciplinar (MALL, diari acadèmic).
+
+### preA1_no_aplica
+
+**Trigger:** mecr_equals: pre-A1 OR fase_lectora_in: [logografica]
+
+**Modulació:**
+- skill_no_executa: true
+- retorna_missatge: "L'entrada de diari requereix base lecto-escriptora mínima i el concepte del jo com a subjecte narratiu explícit. No s'adapta a pre-A1 (Decisió 6 canònica Fase B)."
+
+**Raonament pedagògic.** La separació conscient entre "el que ha passat", "el que he sentit" i "el que he après" és una operació metacognitiva simultània de tres blocs que no és accessible sense base lecto-escriptora mínima ni sense el concepte del "jo" com a subjecte narratiu explícit.
+
+### A1_alfabetica_emergent
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- max_frases_per_bloc: 1
+- emocions_nominals: 1 emoció nomenada explícitament (no 'estava bé')
+- temps_verbal: passat simple als fets, present a la reflexió
+- separacio_blocs: línia en blanc obligatòria entre H3
+
+**Raonament pedagògic.** A fase alfabètica emergent, l'alumne encara consolida la descodificació; reduir cada bloc a una frase i forçar emoció nomenada explícitament impedeix la barreja fets+emocions (error principal del gènere) i fa visible la separació estructural com a bastida gràfica (Vygotsky, ZDP).
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -127,6 +175,39 @@ El pretèrit perfet o indefinit per als fets ("hem anat", "vam veure"), l'imperf
 
 **H4 — El diari acadèmic com a transformació del diari personal.**
 A B1+, proposo que el docent i l'alumne renomegin els blocs: fets → "Observació o resultats", emocions → "Valoració del procés", reflexió → "Conclusions". La mateixa estructura física es reutilitza amb vocabulari acadèmic. L'alumne no aprèn un gènere nou: aprèn a fer servir el gènere que ja coneix en un context acadèmic. La transició BICS→CALP és visible i gradual.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Entrada de diari
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Fets
+### Emocions
+### Reflexió
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[DATA: format_segons_nivell]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Diari
+## Journal
+## Dietari
+```
+
+**Regla d'integritat estructural.** Sense `## Entrada de diari` i els tres H3 `### Fets`, `### Emocions`, `### Reflexió` en aquest ordre, el parser no detecta la separació de blocs i la rúbrica de Pas 6.1 queda inavaluable. Headers memorialístics alternatius no admesos.
 
 ## Fonts principals
 

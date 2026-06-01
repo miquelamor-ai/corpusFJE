@@ -1,0 +1,471 @@
+{
+  "_meta": {
+    "name": "rubrica_write_fabula",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-fabula\\M3_genere-escriure-fabula.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-fabula",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "fabula",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la moral, als arquetips, al to i a la intenció del text original."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_definicio",
+          "descriptor": "2 personatges amb un tret únic cadascun (ràpid/lent, llest/ingenu). Noms genèrics (\"La llebre\", \"La tortuga\")."
+        },
+        {
+          "pas_id": "pas_2_consistencia",
+          "descriptor": "El personatge ràpid és ràpid de principi a fi. Cap canvi de caràcter."
+        },
+        {
+          "pas_id": "pas_3_context_i_tensio",
+          "descriptor": "Situació en 1-2 frases. Incident simple que posa la narració en moviment.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_causalitat_i_coherencia",
+          "descriptor": "Acció en 1-2 frases. Desenllaç clar i directe. Conseqüència evident del tret del personatge.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_format_i_universalitat",
+          "descriptor": "1 frase curta. Sempre precedida de \"Moral:\". Universal: aplicable fora de la historia."
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "6-8 frases totals. Moral d'1 frase.",
+          "countable": {
+            "min": 6,
+            "max": 8,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llengua_i_registre",
+          "descriptor": "Sense fórmules arcaiques (\"En un llunyà temps...\"). Llengua actual. Passat simple."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la moral original i als arquetips. L'acció pot simplificar-se."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He escrit 2 personatges amb un tret diferent cadascun. He escrit la moral al final i comença amb 'Moral:'.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_definicio",
+          "descriptor": "2 personatges arquetípics ben definits des del primer paràgraf. Tret únic explícit al text."
+        },
+        {
+          "pas_id": "pas_2_consistencia",
+          "descriptor": "Caràcter consistent en tots els actes del personatge."
+        },
+        {
+          "pas_id": "pas_3_context_i_tensio",
+          "descriptor": "Situació + fet desencadenant diferenciats en paràgrafs o frases separades. El fet crea una tensió senzilla."
+        },
+        {
+          "pas_id": "pas_4_causalitat_i_coherencia",
+          "descriptor": "Acció narrada amb connectors temporals simples. Desenllaç coherent amb el caràcter."
+        },
+        {
+          "pas_id": "pas_5_format_i_universalitat",
+          "descriptor": "1-2 frases. Precedida de \"Moral:\". Aplicable a situacions reals que l'alumne pot reconèixer.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "8-12 frases. Moral d'1-2 frases.",
+          "countable": {
+            "min": 8,
+            "max": 12,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llengua_i_registre",
+          "descriptor": "Idem. Sense temps verbals arcaics."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la moral i als personatges arquetípics."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"La historia dels meus personatges mostra per qué la moral és certa. He revisat que la moral sigui una lliçó aplicable fora de la historia.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_definicio",
+          "descriptor": "2-3 personatges amb tret únic consistent durant tota la fàbula. El tret s'anuncia al principi."
+        },
+        {
+          "pas_id": "pas_2_consistencia",
+          "descriptor": "Caràcter mantingut fins al desenllaç. El desenllaç deriva directament del caràcter."
+        },
+        {
+          "pas_id": "pas_3_context_i_tensio",
+          "descriptor": "Situació amb context del tret dels personatges + fet que posa el tret a prova."
+        },
+        {
+          "pas_id": "pas_4_causalitat_i_coherencia",
+          "descriptor": "Acció amb causa-efecte explícit. Desenllaç que deriva directament i de forma inequívoca del caràcter."
+        },
+        {
+          "pas_id": "pas_5_format_i_universalitat",
+          "descriptor": "2 frases. Explícita, universal i ben argumentada. El lector no ha d'inferir-la.",
+          "countable": {
+            "min": 2,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "3-4 paràgrafs + moral.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_6_llengua_i_registre",
+          "descriptor": "Idem. Registre literari simple admissible sense arcaisme."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la moral, als arquetips i a la tensió moral del text original."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"El caràcter del personatge no canvia durant la historia. La moral explica una lliçó aplicable a la vida.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_definicio",
+          "descriptor": "3-4 personatges amb trets complementaris o oposats. Les relacions entre trets generen el conflicte."
+        },
+        {
+          "pas_id": "pas_2_consistencia",
+          "descriptor": "Caràcter consistent. Pot incloure un moment d'auto-engany del personatge (mantenir el tret fins a les últimes conseqüències)."
+        },
+        {
+          "pas_id": "pas_3_context_i_tensio",
+          "descriptor": "Situació ben construïda que prepara el conflicte moral. Context suficient per comprendre els trets."
+        },
+        {
+          "pas_id": "pas_4_causalitat_i_coherencia",
+          "descriptor": "Acció amb tensió creixent. Desenllaç que justifica plenament la moral, no pot ser d'una altra manera."
+        },
+        {
+          "pas_id": "pas_5_format_i_universalitat",
+          "descriptor": "Explícita. Connecta la historia amb un principi general aplicable fora del context concret."
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "3-4 paràgrafs ben diferenciats + moral (2 frases).",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_6_llengua_i_registre",
+          "descriptor": "Idem. Recursos expressius admissibles si no son arcaics."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la moral, als arquetips i al to del text original."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"La historia té tensió i el desenllaç és una conseqüència lògica del caràcter dels personatges. He revisat que la moral no sigui massa específica.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_nombre_i_definicio",
+          "descriptor": "Personatges amb complexitat arquetípica. El tret pot tenir matisos sense trencar l'arquetip ni la moral."
+        },
+        {
+          "pas_id": "pas_2_consistencia",
+          "descriptor": "Arquetip consistent però amb matisos que enriqueixen la moral sense contradir-la."
+        },
+        {
+          "pas_id": "pas_3_context_i_tensio",
+          "descriptor": "Situació elaborada que posa en tensió valors o concepcions del món. El conflicte moral és evident des del principi."
+        },
+        {
+          "pas_id": "pas_4_causalitat_i_coherencia",
+          "descriptor": "Acció elaborada. Desenllaç que pot tenir ironia lleugera si la moral ho suporta i s'explicita."
+        },
+        {
+          "pas_id": "pas_5_format_i_universalitat",
+          "descriptor": "Explícita però no simplista. Pot plantejar una tensió entre valors o un dilema, però mai implícita."
+        },
+        {
+          "pas_id": "pas_6_llargada",
+          "descriptor": "Fàbula completa amb riquesa descriptiva + moral elaborada (fins a 3 frases).",
+          "countable": {
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_llengua_i_registre",
+          "descriptor": "Sense arcaismes que dificultin la comprensió. Usos estilístics conscients (pastitx literari) admissibles si no comprometen la claredat."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la moral, als arquetips, al to i a la intenció del text original."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"La meva fàbula planteja una complexitat moral i la moral no és simplista, però és explícita. He revisat que l'arquetip sigui consistent tot i tenir matisos.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_nombre_i_definicio",
+      "titol": "Personatges arquetípics",
+      "dimensio": "Nombre i definició",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar personatges; LLM-jutge: verificar que cada personatge té un tret únic identificable explícitament al text"
+    },
+    {
+      "id": "pas_2_consistencia",
+      "titol": "Caràcter mantingut",
+      "dimensio": "Consistència",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: traçar el comportament de cada personatge en cada acte; detectar canvi injustificat de caràcter"
+    },
+    {
+      "id": "pas_3_context_i_tensio",
+      "titol": "Situació i fet desencadenant",
+      "dimensio": "Context i tensió",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "verificar diferenciació situació/fet; LLM-jutge: el fet posa a prova el tret del personatge"
+    },
+    {
+      "id": "pas_4_causalitat_i_coherencia",
+      "titol": "Acció i desenllaç",
+      "dimensio": "Causalitat i coherència",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: coherència desenllaç-caràcter; detectar desenllaç arbitrari o no derivat del tret"
+    },
+    {
+      "id": "pas_5_format_i_universalitat",
+      "titol": "Moral explícita",
+      "dimensio": "Format i universalitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de \"Moral:\" al text (regex); qualitative: LLM-jutge — la moral és universal i no específica de la historia"
+    },
+    {
+      "id": "pas_6_llargada",
+      "titol": "Criteris transversals",
+      "dimensio": "Llargada",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar frases o paràgrafs totals; verificar llindar per nivell"
+    },
+    {
+      "id": "pas_6_llengua_i_registre",
+      "titol": "Criteris transversals",
+      "dimensio": "Llengua i registre",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: detectar fórmules arcaiques (\"En un llunyà temps\", subjuntiu arcaic, vocabulari obsolet)"
+    },
+    {
+      "id": "pas_6_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar moral original vs moral adaptada i arquetips conservats; no aplica en mode generator"
+    },
+    {
+      "id": "pas_7_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta una narració breu amb 2-4 personatges arquetípics (un tret únic i consistent cadascun), situació amb fet desencadenant, acció amb desenllaç causalment derivat del caràcter i moral explícita al final precedida de 'Moral:'. Aplica la gradació A1→C1 de la taula Modulació. NO generis fàbula per a pre-A1 ni fase logogràfica. La sortida és sempre un model de LECTURA, no producció autònoma de l'alumne.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si la moral concreta és pedagògicament adequada per a la unitat, ni si el dilema encaixa amb la maduresa de l'alumne, ni si l'arquetip és culturalment sensible al grup; aquests judicis queden al docent. El LLM tampoc avalua si la fàbula compleix la rúbrica (Pas 2 consistència, Pas 4 causalitat, Pas 6.3 fidelitat): la valoració dels descriptors `qualitative` i `cross_source` la fa el docent o un LLM-jutge separat amb el text font davant."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_pre_A1_o_logografica_BLOQUEIG": {
+      "raonament": "Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals."
+    },
+    "alumne_AACC": {
+      "raonament": "Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals."
+    },
+    "alumne_nouvingut_L1": {
+      "raonament": "Mascara específica derivada del principi general; vegeu fonaments MALL (HCL Narrar→Valorar), Cummins (CALP/BICS/translanguaging) i DUA (accés multimodal) al §Fonts principals."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una fàbula (Esop, La Fontaine, Samaniego, fàbules africanes o asiàtiques)."
+    },
+    {
+      "name": "la_unitat_treballa_la",
+      "description": "La unitat treballa la dimensió ètica, la convivència o els valors."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir un text que il·lustra un principi moral."
+    },
+    {
+      "name": "l_objectiu_inclou_la",
+      "description": "L'objectiu inclou la producció d'una fàbula com a tasca d'expressió escrita."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_de_ficcio",
+      "description": "El text de ficció no té una dimensió moral clara → conte."
+    },
+    {
+      "name": "el_text_defensa_una",
+      "description": "El text defensa una postura amb arguments → assaig o opinió."
+    },
+    {
+      "name": "el_text_informa_sobre",
+      "description": "El text informa sobre animals sense personificar-los → divulgatiu."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Primer la moral, després la historia.",
+      "descripcio": "Proposo que l'alumne comenci per escriure la moral (\"Moral: qui treballa i estalvia, no passa necessitat\") i llavors inventi la historia que la il·lustra. Construir de cap al revés evita el problema de les morals que no encaixen amb la historia. Funciona especialment bé a A2-B1, on la connexió historia-moral és el bloqueig principal."
+    },
+    {
+      "id": "H2",
+      "titol": "Els arquetips com a plantilla.",
+      "descripcio": "Offer una llista d'arquetips oposats: ràpid/lent · llest/ingenu · golafre/generós · orgullós/humil · impacient/constant. L'alumne tria un parell d'oposats i inventa la situació que els enfronta. Amb dos trets oposats, el conflicte s'escriu sol perquè els personatges actuen de manera previsible i consistent."
+    },
+    {
+      "id": "H3",
+      "titol": "El test del caràcter consistent.",
+      "descripcio": "Quan l'alumne ha acabat la fàbula, li demano que rellegeixi i marqui tots els moments on cada personatge pren una decisió o fa una acció. Per a cada marca li pregunto: \"El personatge A actua d'acord amb el seu tret únic?\" Si en algun moment actua de manera diferent sense justificació, cal revisar aquell punt. El caràcter arquetípic no permet excepcions."
+    },
+    {
+      "id": "H4",
+      "titol": "El test de la moral universal.",
+      "descripcio": "La moral d'una fàbula ha de funcionar fora de la historia. Proposo el test: \"Podries usar aquesta moral per explicar una situació real de la teva vida, de la classe o del món?\" Si sí, la moral és prou universal. Si la resposta és \"només si tens una tortuga i una llebre\", és massa específica de la historia i cal reformular-la com a principi general."
+    }
+  ],
+  "case_overrides": {
+    "suport_visual_arquetips_a1_a2": {
+      "trigger": {
+        "raw": "suport_visual_arquetips_A1_A2"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1, A2] AND multimodal: true\n\n**Modulació:**\n- afegeix [PICTO_PERSONATGE: clau_arasaac|nom_personatge] a la primera aparició de cada personatge; reforça el tret únic amb adjectiu repetit ('la llebre ràpida') cada cop que apareix; maxím 2 personatges totals. Raonament pedagògic: a A1-A2 l'arquetip s'ancora visualment i lèxicament; la repetició explícita del tret sosté la memòria del caràcter i dóna accés al pla moral sense inferir-lo (Cummins: bastida CALP via redundància; "
+      }
+    },
+    "registre_estilistic_c1": {
+      "trigger": {
+        "raw": "registre_estilistic_C1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- arcaisme estilístic admissible només si conscient i no compromet la claredat (pastitx La Fontaine); ironia lleugera admissible al desenllaç si la moral l'explicita; matisos d'arquetip admissibles sense trencar la consistència del caràcter. Raonament pedagògic: a C1 l'alumne llegeix el gènere com a tradició literària viva i en reconèix el joc estilístic; la fidelitat al to del text font (Pas 6.3) prima sobre la simplificació, però la moral mai pot es"
+      }
+    },
+    "mode_adapter_amb_text_font": {
+      "trigger": {
+        "raw": "mode_adapter_amb_text_font"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** agent_role_equals: adapter AND requires_source_text: true\n\n**Modulació:**\n- preserva la moral original i els arquetips originals (Pas 6.3); admet simplificació de l'acció segons MECR objectiu; no inventis personatges nous. Raonament pedagògic: en mode adaptador la fàbula font (Esop, La Fontaine, Samaniego) és patrimoni cultural i la fidelitat a la moral i als arquetips és el criteri de qualitat. La llibertat creativa es limita a ajustar llargada, lèxic i sintaxi al MECR de l'alumne "
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "llargada",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_6_llargada].countable"
+    }
+  ]
+}

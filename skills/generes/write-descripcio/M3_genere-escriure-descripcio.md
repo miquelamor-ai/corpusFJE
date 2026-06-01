@@ -46,6 +46,75 @@ La descripció presenta les característiques d'un objecte, persona, lloc o feno
 Aquesta rúbrica descriu la **descripció adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast i en produeix els seus textos.
 **Sub-granularitat dins de pre-A1 i A1**: es treballa amb `fase_lectora: [logografica, alfabetica_emergent, alfabetica_fluida]`. A pre-A1 logogràfic, la descripció és oral i mediada; no hi ha text llegit per l'alumne, només el suport visual.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un text descriptiu per a la LECTURA de l'alumne aplicant la cel·la de la rúbrica que correspon al seu nivell MECR (pre-A1→C1) i als 7 passos: identificació de l'objecte, ordre espacial, adjectius, comparacions concretes, separació físic/funcional, criteris transversals (llargada, adjectius subjectius, fidelitat al text font) i autoavaluació metacognitiva. NO genera la producció autònoma de l'alumne: només models de lectura.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix el nivell MECR de l'alumne, ni la fase lectora, ni si el text font és pedagògicament adequat, ni si el contingut descrit és rellevant per a la unitat didàctica. Aquestes decisions són del docent (variables del perfil). El LLM tampoc decideix si un adjectiu marginal és subjectiu o concret en context ambigu: aplica la llista negra explícita i, en cas de dubte, manté l'adjectiu del text font.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### alumne_general
+
+**Inclou si:**
+- mecr_level com a variable principal de selecció (columna de la taula Modulació)
+- aplicació literal dels 7 passos per a la columna MECR triada
+
+**Exclou explicitament:**
+- interpolació entre columnes de la taula Modulació
+- modulació MECR a la baixa per AACC
+
+**Raonament pedagògic.** La taula Modulació és la mascara principal: cada columna MECR conté els descriptors literals dels 7 passos. No s'interpola perquè cada nivell té integritat pròpia (principi de gradació discreta MALL).
+
+### alumne_fase_lectora_variable
+
+**Inclou si:**
+- dins de pre-A1 i A1, la variable fase_lectora modula el format de sortida
+- logogràfica → enumeració oral mediada sense text escrit
+- alfabètica emergent → frases simples amb suport pictogràfic
+- alfabètica fluida → frases simples sense pictograma obligatori
+
+**Exclou explicitament:**
+- text escrit autònom a pre-A1 logogràfic
+- pictograma obligatori a alfabètica fluida
+
+**Raonament pedagògic.** La fase lectora determina si l'alumne pot accedir al codi escrit. A logogràfica, forçar text és demanar descodificació no disponible (Kuhn, Cummins); la mediació oral i el suport visual són la porta d'entrada real al gènere.
+
+### alumne_DUA_acces
+
+**Inclou si:**
+- augment de densitat de [IMG:...] i [PICTO:...] sobre la sortida del nivell MECR triat
+
+**Exclou explicitament:**
+- canvi de columna de la rúbrica (la modulació DUA acces no baixa el MECR)
+
+**Raonament pedagògic.** El principi DUA d'Accés requereix vies alternatives d'entrada al significat sense reduir el sostre cognitiu. Els suports visuals s'apilen sobre la modulació MECR, no la substitueixen.
+
+### alumne_AACC
+
+**Inclou si:**
+- manteniment del nivell MECR del perfil (no modula a la baixa)
+- extensió opcional del Pas 4 (comparacions amb arquetips disciplinars) si el docent ho indica
+
+**Exclou explicitament:**
+- reducció automàtica del nivell de complexitat
+
+**Raonament pedagògic.** L'alumnat AACC necessita sostre alt sense topall artificial. La rúbrica ja preveu nivells C1 amb arquetips disciplinars; el LLM no augmenta automàticament la complexitat — el docent puja el MECR objectiu si cal.
+
+### alumne_nouvingut_L1
+
+**Inclou si:**
+- activació de la columna L1 a les comparacions concretes (Pas 4) si el cas especial nouvingut_L1_alfabet_no_llati s'activa
+- priorització de comparacions amb camp lèxic comú (objectes domèstics, parts del cos, colors bàsics)
+
+**Exclou explicitament:**
+- modulació MECR per defecte (no baixa el nivell)
+- referents culturals locals no universals
+
+**Raonament pedagògic.** El nouvingut amb L1 no té el coneixement previ cultural local però sí el conceptual universal. La translanguaging al Pas 4 activa coneixement previ via comparacions concretes accessibles (Cummins & Early 2011).
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a descripció):
@@ -85,6 +154,43 @@ Aquesta rúbrica descriu la **descripció adaptada per a la LECTURA** de l'alumn
 |  | Adjectius subjectius | Cap adjectiu subjectiu (ni oral ni escrit). Tots referits a la imatge real. | Cap adjectiu valoratiu genèric ("bonic", "especial"). Tots concrets i verificables. | Idem. | Idem. | Idem. Superlatius d'ordre espacial o quantitatiu admissibles si son terminologia ("el punt més alt", "la zona més densa"). | Idem. Terminologia valorativa disciplinar admissible si s'usa en el camp lèxic corresponent. |
 |  | Fidelitat al text font | Fidelitat a les parts visibles de l'objecte o imatge presentat. | Fidelitat a les característiques principals de l'objecte o persona descrits. | Fidelitat a les característiques i a la funció essencial. | Fidelitat a les característiques, la funció i el to factual del text original. | Fidelitat a les característiques, la funció, el context i el to. | Fidelitat a la complexitat descriptiva del text original, incloent matisos i terminologia. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He assenyalat les parts i he dit el nom." (oral) | "He descrit 3-4 parts del [objecte/lloc/persona] en ordre." | "He descrit les característiques seguint un ordre de l'exterior a l'interior (o de dalt a baix)." | "He relacionat algunes característiques entre si i amb la funció. He revisat que l'ordre sigui espacial." | "He fet una descripció detallada i precisa amb vocabulari específic. He separat descripció física i funcional." | "He descrit amb matisos conceptuals i he relacionat les característiques amb processos. He revisat que no hi hagi adjectius subjectius no disciplinars." |
+
+## Casos especials
+
+### pre_A1_fase_logografica
+
+**Trigger:** mecr_equals: pre-A1 AND fase_lectora_equals: logografica
+
+**Modulació:**
+- no_escriptura_autonoma: true
+- format_sortida: enumeracio_oral_mediada
+- suport_obligatori: imatge_o_objecte_real
+- reemplaca_text_per: pictograma_o_imatge_amb_etiqueta_oral
+- max_items: 5_parts_assenyalables
+
+**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies, només reconeix la imatge com a text; forçar escriptura autònoma és demanar CALP en context BICS (Cummins, Kuhn 1991). La mediació oral i el suport visual obligatori són la porta d'entrada al gènere.
+
+### nouvingut_L1_alfabet_no_llati
+
+**Trigger:** nouvingut_L1: true AND L1_script_in: [arab, han, cirillic, devanagari, hebreu]
+
+**Modulació:**
+- comparacions_camp_lexic_comu: prioritzar (objectes domestics, parts del cos, colors basics)
+- evitar_referents_culturals_locals_no_universals: true
+- oferir_pictograma_a_tota_part_nominada_fins_A2: true
+
+**Raonament pedagògic.** Per al nouvingut amb L1 d'alfabet no llatí, el coneixement previ cultural local no és compartit; les comparacions han d'ancorar-se en camps lèxics universals (Cummins, MALL translanguaging). El pictograma supleix la falta de pont fonètic immediat fins a A2.
+
+### MECR_low_DUA_acces
+
+**Trigger:** mecr_in: [pre-A1, A1, A2] AND DUA_dimensio: acces
+
+**Modulació:**
+- densitat_imatges: alta (1 imatge per cada 2-3 parts descrites)
+- ordre_espacial_visual_explicit: fletxes_o_numeracio_sobre_imatge
+- reemplaca_adjectius_per: pictograma_quan_existeix
+
+**Raonament pedagògic.** En perfils amb necessitat DUA d'Accés a MECR baix, el pictograma i les fletxes externalitzen el recorregut espacial i compensen la càrrega de descodificació. No són decoració sinó accés alternatiu al significat (DUA principi 1, MALL multimodalitat com a primera llengua).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -126,6 +232,39 @@ Abans d'escriure, l'alumne emplena dues columnes. La primera és la descripció 
 
 **H4 — La llista negra d'adjectius.**
 Proposo als alumnes una llista d'adjectius a evitar: "bonic", "interessant", "especial", "increïble". Per a cada adjectiu de la llista, la pregunta és: "Pots posar una foto d'aquest adjectiu?" Si no, cal substituir-lo per un adjectiu que sí que s'hi pugui representar. Funciona des de A2.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Descripció
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO son H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[IMG: clau_imatge|text_alternatiu]
+[PICTO: terme_arasaac|terme_visible]
+```
+
+**Headers explicitament PROHIBITS:**
+```
+## Descripció física
+## Descripció funcional
+## Parts
+## Característiques
+```
+
+**Regla d'integritat estructural.** El text adaptat es publica sota el H2 literal `## Descripció` seguit del cos descriptiu en prosa o llista (segons MECR). No s'usen H3 dins de la descripció. A pre-A1 logogràfic, la sortida és una llista oral mediada (no prosa). Sense aquest H2 literal, el frontend no detecta el bloc de lectura.
 
 ## Fonts principals
 

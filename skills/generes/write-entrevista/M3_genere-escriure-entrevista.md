@@ -46,6 +46,65 @@ L'entrevista és un gènere dialogat d'informació: una persona (entrevistador) 
 Aquesta rúbrica descriu l'**entrevista adaptada per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — la producció és tasca d'un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logogràfic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta el text com a entrevista en format pregunta/resposta invariant, amb les etiquetes literals **P:** i **R:** en negreta, presentació inicial de l'entrevistat i respostes sempre en primera persona; nombre de parells P/R segons llindar de nivell MECR (3-4 a A1, fins a 7-10 a C1).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si l'entrevistat triat és pedagògicament rellevant, si la postura defensada és adequada a l'aula, ni si la fidelitat a la veu original és prou autèntica; aquestes valoracions les fa el docent. El LLM tampoc no avalua nivell MECR de l'alumne ni assigna fase lectora: rep el nivell i la fase com a paràmetres d'entrada.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### fase_lectora_alfabetica_emergent
+
+**Inclou si:**
+- A1 amb llindar inferior: 3 parells P/R
+- presentació d'1 frase
+- preguntes de 1-2 paraules clau o frase simple
+- respostes de 1-2 frases en 1a persona
+
+**Exclou explícitament:**
+- termes tècnics sense explicació immediata
+
+**Raonament pedagògic.** A fase emergent, la lectura encara consumeix recursos cognitius elevats; reduir el nombre de parells i la càrrega lèxica preserva l'accés al gènere sense saturar la descodificació (MALL: lectura assequible com a porta d'entrada al format dialogat).
+
+### fase_lectora_alfabetica_fluida
+
+**Inclou si:**
+- A1 amb llindar superior: 4 parells P/R
+- presentació fins a 2 frases
+- possible 1 terme tècnic amb explicació entre parèntesi
+
+**Exclou explícitament:**
+- termes tècnics sense explicació immediata a A1
+
+**Raonament pedagògic.** Amb descodificació fluida, l'alumne pot sostenir un parell P/R addicional i una presentació més rica; la resta de la taula Modulació s'aplica directament per nivell MECR.
+
+### agent_role_adapter
+
+**Inclou si:**
+- treball sobre text font
+- preservació de les idees principals
+- preservació del format P/R i veu original de l'entrevistat
+- activació del descriptor cross_source (Pas 6.3 Fidelitat)
+
+**Exclou explícitament:**
+- invenció d'idees no presents al text font
+
+**Raonament pedagògic.** En mode adaptador la veu de l'entrevistat és patrimoni del text font; la fidelitat és el criteri de qualitat (decisió canònica Fase B: adaptació no és reescriptura).
+
+### agent_role_generator
+
+**Inclou si:**
+- creació d'entrevista ex novo a partir d'un perfil d'entrevistat proposat pel docent
+- coherència interna del personatge com a substitut de la fidelitat
+
+**Exclou explícitament:**
+- activació de cross_source (no hi ha text font)
+
+**Raonament pedagògic.** En mode generador la fidelitat externa no aplica; la qualitat es valida per consistència interna del personatge i adequació al perfil declarat pel docent.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a entrevista):
@@ -87,6 +146,43 @@ Aquesta rúbrica descriu l'**entrevista adaptada per a la LECTURA** de l'alumne.
 |  | Fidelitat al text font | Fidelitat a les idees principals de l'entrevistat i al format P/R. | Fidelitat a les idees, al registre bàsic i al format. | Fidelitat a les idees, al registre, a la veu de l'entrevistat i al format. | Fidelitat a la complexitat de les idees i al to de l'entrevistat. | Fidelitat a la complexitat, al to, als matisos i als moments de tensió del text original. |
 | **7. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit qui és l'entrevistat. He escrit 3-4 preguntes i respostes marcades amb P i R." | "Cada pregunta té una sola idea. Les respostes son en primera persona." | "Les meves preguntes exploren aspectes interessants. He explicat els termes difícils." | "L'entrevistat defensa una postura clara. He fet preguntes de seguiment." | "L'entrevista mostra la complexitat de les idees de l'entrevistat. He revisat que no hi hagi linearització." |
 
+## Casos especials
+
+### no_aplica_preA1
+
+**Trigger:** mecr_in: [pre-A1] OR fase_lectora_in: [logografica]
+
+**Modulació:**
+- skill_no_executat: true
+- missatge_docent: "L'entrevista requereix base lecto-escriptora mínima (comprensió de torns atribuïts P:/R: i etiquetes semàntiques). Per a pre-A1 / fase logogràfica, usar un altre gènere (p.e. descripció amb pictogrames). Decisió canònica Fase B."
+
+**Raonament pedagògic.** La comprensió de torns atribuïts i etiquetes semàntiques requereix base lecto-escriptora; sense ella, el format P/R es perd com a marcador del gènere i l'instrument deixa de ser pedagògicament viable. Decisió canònica Fase B documentada al frontmatter.
+
+### argumentar_activat_B1_plus
+
+**Trigger:** mecr_in: [B1, B2, C1] AND entrevistat_defensa_postura: true
+
+**Modulació:**
+- hcl_secundaria_argumentar: activa a les respostes
+- B1: l'entrevistat justifica la postura amb 1-2 raons
+- B2: arguments i evidències
+- C1: matisos i contradiccions assumides
+- B2-C1: incloure 1 pregunta de seguiment que aprofundeixi la postura
+
+**Raonament pedagògic.** Quan l'entrevistat defensa una postura, l'entrevista esdevé pont entre Descriure i Argumentar (MALL). Activar Argumentar a partir de B1 permet treballar la HCL secundària en un format dialogat accessible, sense exigir l'estructura formal de l'assaig.
+
+### DUA_acces
+
+**Trigger:** dua_equals: Acces
+
+**Modulació:**
+- nombre_parells_PR: llindar inferior del nivell (p.e. 3 a A1 en lloc de 4)
+- presentacio_max_frases: 1
+- termes_tecnics: zero o explicació immediata entre parèntesi
+- respostes_max_frases: 1-2
+
+**Raonament pedagògic.** El principi DUA d'Accés demana reduir la càrrega cognitiva no essencial al gènere. Mantenir el format P/R com a marcador identificatiu i alleugerir la resta (nombre de parells, presentació, lèxic) preserva l'essència de l'entrevista sense crear barrera d'entrada.
+
 ## Metadades de cel·la (per a `build_skills.py`)
 
 **Tipus de descriptor:**
@@ -127,6 +223,40 @@ Quan l'alumne converteix les respostes en tercera persona ("Va dir que estava co
 
 **H4 — L'entrevista oral com a bastida (A1-A2).**
 Per a les primeres entrevistes, proposo una entrevista real en parelles a l'aula: un fa de periodista, l'altre d'entrevistat. Primer oral, després escriure els torns. El format P/R neix de manera natural de l'experiència viscuda i es trasllada a l'escriptura amb menys resistència.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Entrevista
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap (no s'usen H3; el cos és una presentació en prosa seguida de parells P/R consecutius)
+```
+
+**Bullets / moments interns** (si aplica — NO son H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+**P:**
+**R:**
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Preguntes
+## Respostes
+## Presentació
+### Pregunta 1
+### Resposta 1
+```
+
+**Regla d'integritat estructural.** Tot el cos sota un únic H2 `## Entrevista`. Presentació en prosa inicial sense subheader. Parells P/R consecutius amb `**P:**`/`**R:**` literals a inici de línia. Sense H3 ni transicions narratives. Sense aquests marcadors, el parser de pas3.html no detecta el gènere i el descriptor binari del Pas 2 (regex sobre `**P:**`/`**R:**`) falla.
 
 ## Fonts principals
 

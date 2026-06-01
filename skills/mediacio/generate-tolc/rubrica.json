@@ -1,0 +1,397 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_tolc",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-tolc\\M3_instrument-generar-tolc.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-tolc",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "tolc",
+    "translanguaging": true,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_tipus_de_pregunta",
+          "descriptor": "Oral: \"Com es diu X en la teva llengua?\" — cap escriptura. El docent recull la resposta."
+        },
+        {
+          "pas_id": "pas_2_forma_de_l",
+          "descriptor": "Cap escriptura. Assenyalar o dibuixar el concepte."
+        },
+        {
+          "pas_id": "pas_3_semblances_primer",
+          "descriptor": "Cap observació: activitat oral i manipulativa."
+        },
+        {
+          "pas_id": "pas_4_pont_de_produccio",
+          "descriptor": "Oral mediat: \"Dibuixa o assenyala mentre ho dius.\" Dictat a l'adult si l'alumne vol escriure."
+        },
+        {
+          "pas_id": "pas_5_proteccio_de_l",
+          "descriptor": "Sempre voluntari. \"Si vols, si pots.\" Cap exposició pública."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_tipus_de_pregunta",
+          "descriptor": "Pregunta oral + pictograma: \"Com es diu [paraula clau] en la teva llengua?\" Resposta optional escrita."
+        },
+        {
+          "pas_id": "pas_2_forma_de_l",
+          "descriptor": "Taula 2 columnes: 3-5 parells paraula L1 (alfabet original) / paraula català."
+        },
+        {
+          "pas_id": "pas_3_semblances_primer",
+          "descriptor": "Cap observació a A1: massa càrrega metalingüística."
+        },
+        {
+          "pas_id": "pas_4_pont_de_produccio",
+          "descriptor": "Dictat a l'adult o assenyalar. \"Pots dir-ho en veu alta si vols.\""
+        },
+        {
+          "pas_id": "pas_5_proteccio_de_l",
+          "descriptor": "Sempre voluntari. La consigna no exposa l'alumne. La taula és personal."
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_tipus_de_pregunta",
+          "descriptor": "Activació escrita: \"Com es diu «[concepte clau]» en la teva llengua?\""
+        },
+        {
+          "pas_id": "pas_2_forma_de_l",
+          "descriptor": "Taula 2 columnes: 3-5 parells + 1 observació de semblança/diferència estructural senzilla."
+        },
+        {
+          "pas_id": "pas_3_semblances_primer",
+          "descriptor": "1 frase positiva: semblances primer, diferències com a curiositat. Mai observació negativa."
+        },
+        {
+          "pas_id": "pas_4_pont_de_produccio",
+          "descriptor": "Frase curta: escriu en català una idea del text usant un connector de la taula (si vols, primer en L1)."
+        },
+        {
+          "pas_id": "pas_5_proteccio_de_l",
+          "descriptor": "Voluntari. Mai exigir L1 públicament. \"Comparteix-ho si vols\" sempre present."
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_tipus_de_pregunta",
+          "descriptor": "Activació comparativa: \"«[concepte]» en [L1] s'expressa com ___. En català usem ___. Qué observes?\""
+        },
+        {
+          "pas_id": "pas_2_forma_de_l",
+          "descriptor": "Contrast de connectors i construccions causals L1↔català. Taula o paràgraf breu."
+        },
+        {
+          "pas_id": "pas_3_semblances_primer",
+          "descriptor": "Observació sobre construcció causal o estructural (ordre SVO, posició adjectiu, connectors)."
+        },
+        {
+          "pas_id": "pas_4_pont_de_produccio",
+          "descriptor": "Paràgraf breu: resumir en L1 una part del text, o traduir una conclusió al català usant els connectors apressos."
+        },
+        {
+          "pas_id": "pas_5_proteccio_de_l",
+          "descriptor": "Voluntari. Mediació accessible sense revelar la L1 si l'alumne no vol."
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_tipus_de_pregunta",
+          "descriptor": "Activació metalingüística: contrast de construccions gramaticals entre L1 i català."
+        },
+        {
+          "pas_id": "pas_2_forma_de_l",
+          "descriptor": "Contrast de l'organització del gènere entre L1 i català. Com s'estructura el text en cada llengua."
+        },
+        {
+          "pas_id": "pas_3_semblances_primer",
+          "descriptor": "Observació sobre l'organització del gènere entre les dues llengues. Gèneres similars i divergents."
+        },
+        {
+          "pas_id": "pas_4_pont_de_produccio",
+          "descriptor": "Mediació complexa: mediar un text complet entre L1 i català. Comparar l'organització de les idees."
+        },
+        {
+          "pas_id": "pas_5_proteccio_de_l",
+          "descriptor": "Voluntari. L'alumne pot triar fer la mediació en L1 o directament en català."
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_tipus_de_pregunta",
+          "descriptor": "Activació crítica: contrast entre sistemes lingüístics i convencions culturals del gènere discursiu."
+        },
+        {
+          "pas_id": "pas_2_forma_de_l",
+          "descriptor": "Contrast d'intenció comunicativa i convencions retòriques entre L1 i català. Biaix cultural del gènere."
+        },
+        {
+          "pas_id": "pas_3_semblances_primer",
+          "descriptor": "Observació crítica sobre com les dues llengues codifiquen el coneixement de forma diferent. Convencions retòriques."
+        },
+        {
+          "pas_id": "pas_4_pont_de_produccio",
+          "descriptor": "Contrast escrit: analitza com el gènere treballat es construiria diferent en L1 i en català."
+        },
+        {
+          "pas_id": "pas_5_proteccio_de_l",
+          "descriptor": "Voluntari. L'alumne decideix el grau d'integració de la seva L1 en l'anàlisi crítica."
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_tipus_de_pregunta",
+      "titol": "Activació",
+      "dimensio": "Tipus de pregunta comparativa",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de pregunta comparativa L1↔català; qualitative: LLM-jutge sobre si la pregunta és específica del concepte del text font (positiu) o genèrica (negatiu); cross_source: verificar que el concepte de l'activació és del text font"
+    },
+    {
+      "id": "pas_2_forma_de_l",
+      "titol": "Acarament (taula bilingüe)",
+      "dimensio": "Forma de l'acarament",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de taula bilingüe a A1+ (cap taula a pre-A1); qualitative: LLM-jutge alfabet original de la L1 usat (no transliterat) — verificar coherència alfabètica amb la L1 declarada (àrab → arabic script; xinès → hanzi; ciríl·lic → ciríl·lic); countable: 3-5 parells a la taula (ni massa ni poc)"
+    },
+    {
+      "id": "pas_3_semblances_primer",
+      "titol": "Observació estructural",
+      "dimensio": "Semblances primer",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: absencia d'observació negativa (\"en la teva llengua no hi ha X\") — error pedagògic; qualitative: LLM-jutge sobre si l'observació comença per semblances (positiu) o per diferències (negatiu)"
+    },
+    {
+      "id": "pas_4_pont_de_produccio",
+      "titol": "Consigna de transferència",
+      "dimensio": "Pont de producció",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "qualitative: LLM-jutge sobre si la consigna de transferència és assolible al MECR declarat (dictat pre-A1/A1; frase A2; mediació B2+); binary: pre-A1 = cap escriptura autònoma; cross_source: verificar que la consigna de transferència referencia contingut o connector del text font (no una tasca genèrica)"
+    },
+    {
+      "id": "pas_5_proteccio_de_l",
+      "titol": "Caràcter voluntari",
+      "dimensio": "Protecció de l'alumne",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de clàusula de voluntarietat (\"si vols\", \"si pots\", \"comparteix-ho si vols\" o equivalent) en totes les consignes; detecció inicial per regex + LLM-jutge de seguiment (to realment no impositiu); absencia = error crític; qualitative: LLM-jutge sobre si el to de la consigna és genuïnament voluntari (positiu) o voluntari de paraula però impositiu de forma (\"Ara escriu en la teva llengua\" sense \"si vols\" = negatiu)"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera SEMPRE i NOMÉS els 5 blocs canònics del TOLC en aquest ordre (1. Activació, 2. Acarament L1↔català, 3. Observació estructural, 4. Consigna de transferència, 5. Clàusula de voluntarietat), modulats segons MECR i fase lectora. ACTIVACIÓ CONDICIONAL: el complement es genera ÚNICAMENT si el perfil té `nouvingut: true` i la L1 és declarada; si la L1 és desconeguda → retorna advertència i no generis res; si nouvingut no actiu → salta silenciosament.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si l'alumne 'sap prou L1' per fer transferència, ni si la L1 declarada està prou desenvolupada, ni si l'alumne 'estarà còmode' exposant la seva L1 públicament. Tampoc inventa contingut en L1 si no està segur de la grafia o l'alfabet correcte: si dubta de la forma escrita en àrab/hanzi/devanagari/ciríl·lic, ho marca explícitament al log i no fabrica. La decisió sobre acceptar/modificar la taula bilingüe i el grau d'integració de la L1 a l'aula la pren el docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "nouvingut_L1_coneguda": {
+      "inclou_si": [
+        "n"
+      ],
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "Amb L1 coneguda es pot construir el pont cognitiu real (Hipòtesi d'Interdependència, Cummins 2008). Alfabet original obligatori a la columna L1 com a acte de reconeixement lingüístic; voluntarietat explícita a tots els blocs."
+    },
+    "nouvingut_L1_desconeguda": {
+      "inclou_si": [
+        "c"
+      ],
+      "exclou_explicitament": [
+        "g"
+      ],
+      "raonament": "Sense L1 declarada no es pot construir cap pont; fabricar L1 o assumir-la és un risc ètic que invisibilitza la llengua real de l'alumne. Es retorna advertència al docent: «L1 no declarada — pregunta a alumne/família abans d'activar TOLC.» Log motiu: L1_unknown."
+    },
+    "nouvingut_no_actiu": {
+      "inclou_si": [
+        "c"
+      ],
+      "exclou_explicitament": [
+        "g"
+      ],
+      "raonament": "TOLC està dissenyat per a perfils nouvinguts amb L1 viva; aplicar-lo a alumnat plenament catalanoparlant no té sentit pedagògic. Es salta silenciosament (sense advertència visible) perquè el docent pot estar provant l'eina."
+    },
+    "AACC_nouvingut": {
+      "inclou_si": [
+        "n"
+      ],
+      "exclou_explicitament": [
+        "t"
+      ],
+      "raonament": "Manté els 5 blocs però augmenta la densitat metalingüística: l'observació estructural (pas 3) pot incloure 2 contrastos en comptes d'1, i la consigna de transferència pot proposar mediació més complexa al sostre del MECR. Sostre alt sense techo artificial, però mai trencar la voluntarietat (H3 ATNE)."
+    },
+    "DUA_acces_nouvingut": {
+      "inclou_si": [
+        "n"
+      ],
+      "exclou_explicitament": [
+        "e"
+      ],
+      "raonament": "Manté els 5 blocs amb reforç visual (pictogrames a la taula bilingüe, gest). La voluntarietat es verbalitza explícitament; si el perfil té vergonya/inhibició documentada, la consigna de transferència s'orienta a producció privada (no comparteix públicament). Principi DUA d'Accés: cap barrera a l'expressió."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_tolc_al",
+      "description": "Ha activat \"TOLC\" al Pas 2 i el perfil té `nouvingut: true` amb L1 coneguda."
+    },
+    {
+      "name": "vol_usar_la_l1",
+      "description": "Vol usar la L1 com a recurs d'aprenentatge explícit."
+    },
+    {
+      "name": "treballa_en_un_context",
+      "description": "Treballa en un context plurilingüe on la diversitat lingüística és visible i valorada."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "perfil_nouvingut_no_actiu",
+      "description": "Perfil nouvingut no actiu → el complement no es genera."
+    },
+    {
+      "name": "l1_desconeguda_es_retorna",
+      "description": "L1 desconeguda → es retorna advertència, no es genera."
+    },
+    {
+      "name": "objectiu_es_glossari_de",
+      "description": "Objectiu és glossari de català monolingüe → `glossari`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La semblança com a entrada.",
+      "descripcio": "Sempre comenzar per allò que les dues llengues comparteixen. Les diferències son interessants, no problemàtiques. \"En la teva llengua i en català les dues funcionen igual en aquest punt\" és el millor punt de partida. Si les diferències arriben primer, l'alumne pot sentir la seva L1 com a \"defectuosa\" — l'efecte contrari del que busquem."
+    },
+    {
+      "id": "H2",
+      "titol": "Alfabet original com a dignitat lingüística.",
+      "descripcio": "Escriure la paraula en àrab, xinès o ciríl·lic en l'alfabet original (no transliterat) és un acte de reconeixement de la llengua de l'alumne. Un alumne arabòfon que veu \"بيولوجيا\" al costat de \"biologia\" veu que la seva llengua té presència real a l'aula. La transliteració \"biologia\" sense l'original és invisible."
+    },
+    {
+      "id": "H3",
+      "titol": "La clàusula de voluntarietat és sempre present.",
+      "descripcio": "Quan proposo l'activitat de TOLC, diuen sempre la clàusula de voluntarietat EXPLÍCITAMENT en veu alta, no només al full: \"Si vols i si pots, comparteix com es diu en la teva llengua. Si prefereixes no dir-ho, perfectament.\" Aquesta verbalització normalitza la voluntarietat i garanteix un espai segur."
+    },
+    {
+      "id": "H4",
+      "titol": "TOLC com a eina, no com a examen de L1.",
+      "descripcio": "El TOLC no avalua la L1 de l'alumne. L'alumne que no sap escriure en L1 (o que ha perdut la L1 per pressió d'assimilació) no és el subjecte d'aquesta activitat. Si l'alumne no pot o no vol participar, l'activitat és transparent per a ell. Mai imputar un rendiment a la L1."
+    },
+    {
+      "id": "H5",
+      "titol": "La taula bilingüe durant la lectura, no al final.",
+      "descripcio": "La taula bilingüe té màxim valor si l'alumne la consulta DURANT la lectura, quan troba un terme difícil. No és una activitat que es fa al final. El flux correcte: lectura del text → trobar terme difícil → consultar taula → activar xarxa semàntica en L1 → continuar la lectura. Assegurar que la taula és accessible (no plegada, no al fons de la carpeta) durant la sessió de lectura."
+    }
+  ],
+  "case_overrides": {
+    "nouvingut_l1_alfabet_no_llati": {
+      "trigger": {
+        "raw": "nouvingut_L1_alfabet_no_llati"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut: true AND L1_script_in: [arab, han, ciril-lic, devanagari, hebreu, armeni, grec, georgia, thai]\n\n**Modulació:**\n- alfabet_original_obligatori: true\n- transliteracio: opcional_addicional (mai substitueix l'original)\n- columna_taula_ordre: [L1_alfabet_original, catala, transliteracio?]\n- observacio_estructural_inclou: direccionalitat_escriptura (àrab/hebreu dreta-esquerra)\n\n**Raonament pedagògic.** L'alfabet original és un acte de reconeixement de la llengua de l'alumne (H2 "
+      }
+    },
+    "l1_desconeguda": {
+      "trigger": {
+        "raw": "L1_desconeguda"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut: true AND (L1: null OR L1: 'desconeguda')\n\n**Modulació:**\n- generar_complement: false\n- retornar_advertencia: \"TOLC requereix L1 declarada. Pregunta a l'alumne o família abans d'activar.\"\n- log_motiu: L1_unknown\n\n**Raonament pedagògic.** Sense L1 declarada no es pot construir cap pont cognitiu; fabricar L1 o assumir-la és un risc ètic que invisibilitza la llengua real de l'alumne. La decisió correcta és preguntar a l'alumne o família, no inventar."
+      }
+    },
+    "nouvingut_no_actiu": {
+      "trigger": {
+        "raw": "nouvingut_no_actiu"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut: false (independentment de si el docent ha activat TOLC al Pas 2)\n\n**Modulació:**\n- generar_complement: false\n- saltar_silenciosament: true (sense advertència visible)\n\n**Raonament pedagògic.** TOLC està dissenyat per a perfils nouvinguts amb L1 viva; aplicar-lo a alumnat plenament catalanoparlant no té sentit pedagògic. La salta silenciosa permet que el docent provi l'eina sense generar soroll."
+      }
+    },
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre_A1] AND fase_lectora: logografica\n\n**Modulació:**\n- acarament_taula: cap_taula_escrita\n- substituir_per: assenyalar_o_dibuixar\n- consigna_transferencia: oral_mediada (no_escriptura_autonoma)\n- pas_2_descriptor: binary_no_aplica\n\n**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies; demanar la lectura d'una taula bilingüe és incoherent amb la fase lectora real. La mediació es fa oral i manipulativa, preservant el principi TOLC sense forçar "
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre_A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- acarament_taula: 1-2_parells_maxim (no 3-5)\n- escriptura_autonoma_catala: 1-2_paraules_clau\n- consigna_transferencia: dictat_a_l_adult (amb opció minoritària d'escriptura voluntària)\n\n**Raonament pedagògic.** L'alumne comença a descodificar però la càrrega cognitiva d'una taula 3-5 + alfabet original + català és excessiva. Reduir el nombre de parells permet activar el pont L1↔català sense saturar la memòria de"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

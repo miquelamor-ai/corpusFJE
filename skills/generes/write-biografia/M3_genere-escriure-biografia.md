@@ -46,6 +46,53 @@ La biografia és una narració cronològica de la vida d'una persona real, centr
 Aquesta rúbrica descriu la **biografia adaptada per a la LECTURA** de l'alumne (el que el docent presenta perquè l'alumne llegeixi). **No descriu la producció autònoma de l'alumne** — la producció biogràfica de l'alumne s'avalua amb un derivat propi. Principi pedagògic MALL: l'alumne llegeix models al màxim del seu abast i en produeix els seus textos.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: [alfabetica_emergent, alfabetica_fluida]`; no hi ha nivell logografic perquè el gènere requereix base lecto-escriptora mínima.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta una biografia com a narració cronològica estricta (del més antic al més recent, sense flashbacks) que inclou 2-5 fets verificables i un llegat separat, modulada segons el nivell MECR de l'alumne (A1→C1) i la fase lectora. No s'adapta a pre-A1.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix quins fets són 'pedagògicament rellevants' ni avalua la qualitat historiogràfica del llegat: aplica la modulació per nivell (nombre de fets, format de dates, extensió del context i del llegat) i preserva la fidelitat factual. La selecció final de fets i la incorporació de matisos historiogràfics queden a càrrec del docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### alumne_nouvingut_L1
+
+**Inclou si:**
+- aplicacio_cas_especial_nouvingut_L1_context_cultural_llunya
+- ancoratge_geografic_explicit_1_frase
+- preferencia_dates_relatives_encara_que_MECR_ho_permeti
+- llegat_ancorat_primer_a_element_universal
+
+**Exclou explicitament:**
+- referencies_culturals_implicites_no_glossades
+
+**Raonament pedagògic.** La modulació MECR base segueix sent la de la taula; per a alumnat nouvingut amb L1, el context cultural llunyà requereix ancoratge explícit per evitar que el text quedi opac (translanguaging com a bastiment, Cummins & Early 2011).
+
+### alumne_fase_lectora_alfabetica_emergent
+
+**Inclou si:**
+- aplicacio_cas_especial_fase_lectora_alfabetica_emergent
+- frases_curtes
+- 1_fet_per_frase_a_A1
+- dates_relatives_obligatories
+- sense_numeros_romans
+
+**Exclou explicitament:**
+- frases_llargues_amb_subordinacio_complexa
+
+**Raonament pedagògic.** Aquesta modulació prima sobre la MECR quan hi ha conflicte: la fase lectora condiciona la càrrega cognitiva descodificadora i, sense aquesta màscara, la modulació MECR per si sola sobrecarregaria l'alumne (sostre real determinat per la fase, no només pel nivell MECR).
+
+### alumne_pre_A1
+
+**Inclou si:**
+- no_aplica_la_biografia
+
+**Exclou explicitament:**
+- generacio_de_biografia_per_a_aquest_perfil
+
+**Raonament pedagògic.** Decisió 6 canònica Fase B: la biografia no s'adapta a pre-A1 perquè requereix el temps com a categoria abstracta (cronologia, context historicogeogràfic, llegat diferit). Cal redirigir a un altre gènere amb mediació adulta o ancoratge visual concret.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a biografia):
@@ -83,6 +130,47 @@ Aquesta rúbrica descriu la **biografia adaptada per a la LECTURA** de l'alumne 
 |  | Numeració | Sense números romans per a segles. Usar "al segle XX" o "fa cent anys". | Idem. Dates en xifres aràbigues. | Idem. | Idem. | Números romans admissibles si el text font els conté i el context historiogràfic ho requereix. |
 |  | Fidelitat al text font | Fidelitat als fets nuclears: qui és la persona, quins fets principals, quin llegat. | Fidelitat als fets i al llegat essencial. | Fidelitat als fets, al llegat i al to factual del text original. | Fidelitat als fets, al llegat, al context historiogràfic i al to. | Fidelitat a la complexitat crítica del text original, incloent matisos i controvèrsies. |
 | **8. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He escrit qui és la persona, 2 coses que va fer i per qué és important." | "He explicat la seva vida en ordre cronològic i he inclòs dates." | "He inclòs 3-4 fets principals amb context. He separat els fets del llegat." | "He argumentat el llegat amb referència al context actual. He revisat que tots els fets estiguin ordenats cronològicament." | "He presentat la figura amb perspectiva crítica i he contextualitzat el llegat en el debat historiogràfic. He revisat que no hi hagi especulació sense evidència." |
+
+## Casos especials
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [A1, A2] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- max_paraules_per_frase: ~10
+- fets_per_frase_a_A1: 1
+- dates_relatives_obligatories: true
+- format_dates_a_A1: 'fa molts anys' / 'quan era jove' (no any exacte)
+- context_extensio: 1_frase
+- llegat_extensio: 1_frase
+- numeros_romans_per_a_segles: false (usar 'fa cent anys' o 'al segle vint' en lletres)
+
+**Raonament pedagògic.** A fase alfabètica emergent dins MECR A1-A2, la càrrega descodificadora encara consumeix recursos importants; les frases curtes i les dates relatives mantenen l'accés al significat sense saturar la memòria de treball. La supressió de números romans evita una segona codificació gràfica innecessària en aquesta fase.
+
+### nouvingut_L1_context_cultural_llunya
+
+**Trigger:** nouvingut_L1: true AND figura_no_compartida_amb_L1_cultura: true
+
+**Modulació:**
+- ancoratge_geografic_explicit: 1_frase ('a Alemanya, un país d'Europa')
+- preferencia_dates_relatives: true (encara que el MECR ho permeti)
+- llegat_connecta_primer_amb_element_universal: true (abans del context específic)
+- referencies_culturals_implicites_no_glossades: prohibides
+
+**Raonament pedagògic.** Per a alumnat nouvingut amb L1 d'una cultura llunyana de la figura tractada, l'ancoratge geogràfic explícit i la connexió universal del llegat eviten que el text esdevingui opac per manca de referents compartits (principi MALL: context com a bastiment, no com a presupòsit).
+
+### C1_historiografia_critica
+
+**Trigger:** mecr: C1 AND text_font_conte_controversies_o_revisions: true
+
+**Modulació:**
+- inferencia_historiografica_admissible: true (si s'explicita amb marcadors: 'Segons els historiadors...', 'Els indicis suggereixen que...')
+- numeros_romans_per_a_segles: true (si el text font els conté)
+- llegat_pot_incloure_controversia_o_revisio_documentada: true
+- especulacio_intima_sense_evidencia: prohibida (en TOTS els nivells)
+
+**Raonament pedagògic.** A C1, l'alumne pot accedir a la complexitat historiogràfica del text font (controvèrsies, revisions); admetre inferència explícita i números romans permet preservar la complexitat crítica de l'original. La prohibició d'especulació íntima es manté com a línia roja transversal a tots els nivells per protegir la fidelitat factual del gènere biogràfic.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -128,6 +216,37 @@ L'error més freqüent és posar massa context i pocs fets. La regla és: 1 fras
 
 **H5 — Dates completes vs. dates relatives.**
 A A1-A2, les dates completes poden intimidar o bloquejar l'alumne nouvingut. L'alternativa: dates relatives ("fa 150 anys", "quan l'avi dels vostres avis era nen"). A B1+, les dates completes són necessàries per a la precisió historiogràfica. La gradació és clara: de relatiu a absolut amb el nivell.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Biografia
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+cap
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Fets
+## Llegat
+## Cronologia
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Biografia` i el cos amb cronologia ordenada + paràgraf final de llegat clarament diferenciat, el parser no detecta la secció i la rúbrica gradada (8 passos × 5 nivells) no pot enganxar-se al text per a l'autoavaluació metacognitiva del Pas 8.
 
 ## Fonts principals
 

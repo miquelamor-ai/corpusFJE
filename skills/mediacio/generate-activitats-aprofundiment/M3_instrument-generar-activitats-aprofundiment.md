@@ -58,6 +58,83 @@ Les activitats d'aprofundiment porten l'alumne **una passa més enllà del text*
 Aquesta rúbrica descriu les **activitats d'aprofundiment que es generen per a l'alumne** (contingut post-lectura). **No descriu la producció autònoma de l'alumne ni l'avaluació del docent**: el docent observa si l'alumne completa l'activitat i si la seva resposta demostra aprofundiment real.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → activitats totalment físiques i manipulatives (ordenar, tocar, dramatitzar). `fase_lectora: alfabetica_emergent` → activitats físiques + dibuix + 1-2 paraules escrites.
 
+## Principi general
+
+**Regla de selecció simple.** Genera 2-3 activitats d'aprofundiment cognitiu post-lectura (1-2 a pre-A1/A1) que vagin MÉS ENLLÀ del text: connectar, qüestionar, investigar, argumentar o crear. Cada activitat ha de tenir consigna accionable amb producte explícit (QUÈ cal fer + QUIN és el producte). NO incloguis preguntes de comprensió literal (pertany a `preguntes_comprensio`) ni bastides de producció textual del gènere (pertany a `bastides_produccio`/`plantilles_genere`).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de jutjar la rellevància pedagògica final de cada activitat per a l'alumne concret ni decidir si l'alumne està a punt per al repte. Tampoc decideix si el text font realment connecta amb una matèria interdisciplinar concreta. Aquestes decisions són del docent (esborra o regenera via menú flotant); el LLM només garanteix forma operativa: extensió cognitiva real, consigna amb producte, modulació per MECR.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### default
+
+**Inclou si:**
+- 2-3 activitats d'extensió cognitiva post-lectura amb consigna accionable (QUÈ + producte)
+- Combinació de 2-3 dels 5 tipus segons el text font
+
+**Exclou explícitament:**
+- preguntes de comprensió literal disfressades d'aprofundiment
+- consignes vagues sense producte explícit
+
+**Raonament pedagògic.** El principi MALL de repte igualitari demana extensió cognitiva real, no més preguntes de comprensió ni consignes vagues que no es puguin tancar amb un producte observable.
+
+### pre_A1_A1
+
+**Inclou si:**
+- 1-2 activitats físiques o manipulatives (ordenar, dramatitzar, dibuixar)
+
+**Exclou explícitament:**
+- debats abstractes
+- recerca guiada amb fonts escrites
+- generació de dimensió plurilingüe
+
+**Raonament pedagògic.** A pre-A1/A1 el repte cognitiu es manté equivalent però accedit per via física o manipulativa (MALL — adaptar l'accés, no el repte). L'escriptura autònoma encara no és canal disponible.
+
+### A2
+
+**Inclou si:**
+- 2-3 activitats combinant connexió simple i pensament crític ("i si...?")
+- Dimensió plurilingüe opcional amb clàusula de voluntarietat
+
+**Exclou explícitament:**
+- consignes que exposin l'L1 de manera prescriptiva ("com es diu en X?")
+
+**Raonament pedagògic.** A A2 l'alumne ja pot comparar i imaginar a partir de referents concrets; la dimensió plurilingüe entra com a recurs cognitiu opcional (translanguaging MALL).
+
+### B1_B2_C1
+
+**Inclou si:**
+- 2-3 activitats combinant debat argumentat, connexió interdisciplinar, recerca guiada
+- A B2-C1: contrast de fonts, intertextualitat, hipòtesis contrafactuals, detecció de biaixos
+
+**Exclou explícitament:**
+- activitats merament reproductives o de comprensió literal
+
+**Raonament pedagògic.** A partir de B1 l'alumne sosté argumentació i recerca; a B2-C1 cal afegir contrast crític i metacognició perquè el repte continuï essent significatiu.
+
+### nouvingut_L1_A2_plus
+
+**Inclou si:**
+- una activitat obligatòria de dimensió plurilingüe amb clàusula de voluntarietat ("si vols", "si en coneixes")
+
+**Exclou explícitament:**
+- consignes que prescriguin l'ús d'una llengua concreta o exposin l'alumne
+
+**Raonament pedagògic.** Cummins (TOLC) i el principi MALL de translanguaging: l'L1 és recurs cognitiu, no concessió. Si l'alumne és nouvingut i el MECR ho permet, l'absència de dimensió plurilingüe es marca com a gap (no error crític).
+
+### AACC
+
+**Inclou si:**
+- activitats que pugin 1 esglaó Bloom respecte el MECR base
+- hipòtesis contrafactuals, fonts contradictòries, producte de format obert
+
+**Exclou explícitament:**
+- activitats al sostre cognitiu del MECR base sense estirament
+
+**Raonament pedagògic.** L'alumnat AACC necessita repte cognitiu superior per evitar desconnexió; el format obert amb criteris de qualitat permet a qui ensenya observar la profunditat real del pensament.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -93,6 +170,68 @@ Aquesta rúbrica descriu les **activitats d'aprofundiment que es generen per a l
 | **3. Format de consigna** | Producte esperat explícit | Indicació física i visual: "Ordena les imatges de [X] a [Y]." Producte: dibuix, ordenació, dramatització. Cap escriptura autònoma. | Consigna molt concreta. Producte clar i assolible: 1 dibuix, 1 frase, 1 llista de 3 ítems. | Consigna accionable. Producte concret i delimitat: 1 fitxa, 1 mapa, 1 comparació de 3 elements. | Consigna accionable amb producte i temps estimat (15-30 min): 1 argument escrit, 1 recerca a 2 fonts. | Consigna amb producte complex: argumentació de 2-3 paràgrafs, recerca comparada, informe breu. | Consigna oberta amb criteris de qualitat del producte. L'alumne decideix el format i justifica la tria. |
 | **4. Dimensió plurilingüe** | Ús de L1 com a recurs | No generar. | No generar. | Opcional: "Com es diu [terme clau] en altres llengues de l'aula? Comparteix-ho si vols." Cap exposició. | Opcional: comparació d'expressions o conceptes entre L1s dels alumnes si el text ho permet. | Opcional: contrast d'equivalents culturals o termes tècnics entre les llengues que coneixes. | Opcional: contrast metalingüístic i discursiu entre sistemes lingüístics i culturals. |
 | **5. Autoavaluació mediada** | Metacognició | "He ordenat les imatges / he dibuixat." (oral, mediat per adult) | "He fet l'activitat. He escrit [producte]." | "He pensat més enllà del text. He fet la connexió o el 'i si...?'." | "He argumentat la meva postura i he usat evidència del text o d'una altra font." | "He analitzat les relacions entre matèries i he contrastat informació de fonts diverses." | "He detectat biaixos i limitacions del text. He qüestionat les afirmacions de l'autor amb arguments propis. He justificat la tria del format del meu producte segons l'objectiu de l'activitat." |
+
+## Casos especials
+
+### pre_A1_fase_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica
+
+**Modulació:**
+- nombre_activitats: 1-2
+- tipus_obligatori: fisic_manipulatiu (ordenar, tocar, moure, dramatitzar)
+- escriptura_autonoma: prohibida
+- producte_acceptat: [dibuix, ordenacio, dramatitzacio, assenyalament_imatge]
+- dimensio_plurilingue: no_generar
+- autoavaluacio: oral_mediada_per_adult
+
+**Raonament pedagògic.** El repte cognitiu no depèn de la producció escrita (principi MALL de repte igualitari): a fase logogràfica l'alumne accedeix al pensament d'alt nivell per via física o visual, sense haver de descodificar grafia.
+
+### pre_A1_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- nombre_activitats: 1-2
+- tipus_obligatori: fisic_manipulatiu + dibuix
+- escriptura_autonoma: màxim 1-2 paraules
+- producte_acceptat: [dibuix, ordenacio, 1-2 paraules etiqueta]
+- dimensio_plurilingue: no_generar
+
+**Raonament pedagògic.** Ampliació gradual del canal escrit sense perdre la mediació visual; l'alumne incorpora la grafia com a etiqueta del producte físic, no com a canal principal.
+
+### nouvingut_L1_MECR_A2_plus
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [A2, B1, B2, C1]
+
+**Modulació:**
+- dimensio_plurilingue: marcar_com_a_gap_si_absent (no error crític)
+- clausula_voluntarietat: obligatòria literal ("si vols" o "si en coneixes")
+- mai_prescriptiva: prohibit "com es diu en X?"
+
+**Raonament pedagògic.** Cummins (TOLC) i translanguaging MALL: l'L1 és recurs cognitiu i la consigna no ha d'exposar mai cap alumne. La voluntarietat és la condició d'espai segur.
+
+### AACC
+
+**Trigger:** aacc: true
+
+**Modulació:**
+- tipus_prioritari: [pensament_critic_hipotesis_contrafactuals, recerca_guiada_fonts_contradictories, debat_argumentat]
+- nivell_bloom: pujar 1 esglaó respecte MECR base
+- producte: obert amb criteris de qualitat
+
+**Raonament pedagògic.** L'alumnat AACC necessita repte cognitiu superior per evitar desconnexió; el format obert permet que la profunditat es manifesti sense sostre artificial.
+
+### DUA_acces
+
+**Trigger:** dua_equals: Acces
+
+**Modulació:**
+- format_producte: multimodal obligatori (dibuix, gravació oral, esquema visual com a alternatives a escriure)
+- densitat_consigna: 1 sola consigna per activitat (no encadenar passos)
+- ancoratge_visual: explícit
+
+**Raonament pedagògic.** El principi DUA d'accés prioritza vies múltiples d'expressió i representació; el repte cognitiu es manté, el canal es diversifica.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -133,6 +272,44 @@ Quan proposo la dimensió plurilingüe, uso sempre la clàusula de voluntarietat
 
 **H5 — 2-3 activitats, no 5-6.**
 El principi MALL de "menys és mes" s'aplica també a les activitats d'aprofundiment. Prefereixo 2 activitats de qualitat cognitiva alta (que l'alumne ha de pensar de debò) que 5 activitats mecàniques. Si l'activitat pot completar-se en menys d'1 minut sense pensar, cal replantejar-la.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Activitats d'aprofundiment
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap (no s'usen H3; el bloc s'organitza per marcadors inline en negreta a l'inici de cada activitat)
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+**Activitat 1 — [tipus]:**
+**Activitat 2 — [tipus]:**
+**Activitat 3 — [tipus]:** (opcional, A2+)
+**Producte:**
+**Autoavaluació:**
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+**Activitat N — [tipus]:**
+**Producte:**
+**Autoavaluació:**
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Aprofundiment
+## Activitats
+### Activitat 1
+### Activitat 2
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Activitats d'aprofundiment` i el patró `**Activitat N — [tipus]:**` per a cada bloc, el parser de pas3.html no detecta el complement i no pot mostrar el toggle d'edició/regeneració per activitat ni la clàusula de voluntarietat plurilingüe.
 
 ## Fonts principals
 

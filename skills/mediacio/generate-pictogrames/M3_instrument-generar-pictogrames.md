@@ -74,6 +74,92 @@ Aquesta rubrica descriu el **complement de pictogrames generat per al text adapt
 - **General (sense condicio especifica)**: emoji si cal, glossari visual al peu (A2+).
 - **AACC**: cap pictograma o glossari minimal — el suport visual pot distreure si l'alumne ja te fluencia lectora alta.
 
+## Principi general
+
+**Regla de seleccio simple.** Inclou pictogrames (emoji Unicode o ARASAAC `[PICTO: cat|cast]`) nomes per a termes amb representacio visual clara que ajudin la descodificacio o l'ancoratge conceptual; mode i posicio venen determinats pel perfil i el MECR (pre-A1/A1 inline + paratext d'anticipacio; A2+ glossari visual al peu).
+
+**Limits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir si un concepte concret es 'prou visualitzable' per a aquest alumne ni triar entre dos pictogrames similars al cataleg ARASAAC. La pertinenca semantica al text font i l'idoneitat per al perfil les valida el docent al Pas 3; el LLM aplica la regla de mode/posicio/densitat segons la taula de Modulacio.
+
+_Excepcions: vegeu seccio Casos especials per a modulacions per perfil (TEA/CAA, nouvingut CALP, AACC, pre-A1/A1, concepte abstracte sense representacio)._
+
+
+## Regla de seleccio per perfil
+
+### alumne_TEA
+
+**Inclou si:**
+- lexic_amb_representacio_visual_clara
+- vocabulari_escolar_basic
+- vocabulari_disciplinar_visualitzable
+
+**Exclou explicitament:**
+- pictogrames_decoratius
+- emojis_ambigus_o_gestos
+- pictogrames_d_un_sistema_AAC_diferent_al_de_l_alumne
+
+**Raonament pedagogic.** Mode ARASAAC sempre. Coherencia amb sistema AAC existent (logoped/vetllador). Densitat alta a pre-A1/A1. Paratext d'anticipacio obligatori a pre-A1/A1.
+
+### alumne_nouvingut_BICS_pre_A1_A1
+
+**Inclou si:**
+- vocabulari_quotidia_visualitzable
+- essers_vius_objectes_accions_concretes
+
+**Exclou explicitament:**
+- termes_disciplinars_CALP
+- conceptes_abstractes_sense_representacio
+
+**Raonament pedagogic.** Mode emoji per a vocabulari quotidia. Inline + paratext. Si el text es disciplinar, canviar a ARASAAC amb castella al marcador.
+
+### alumne_nouvingut_CALP_disciplinar
+
+**Inclou si:**
+- termes_disciplinars_amb_representacio_ARASAAC
+- lexic_d_especialitat_visualitzable
+- BICS_rellevant_si_activable_amb_castella_TOLC
+
+**Exclou explicitament:**
+- BICS_quotidia_general
+- termes_sense_pictograma_ARASAAC_disponible
+
+**Raonament pedagogic.** Mode ARASAAC amb format `[PICTO: cat|cast]` obligatori (castella com a pont TOLC). Glossari visual al peu (A2+) o inline (pre-A1/A1).
+
+### alumne_general_sense_condicio
+
+**Inclou si:**
+- conceptes_amb_representacio_universal_clara
+- termes_que_realment_aportin_ancoratge_visual_a_A2_plus
+
+**Exclou explicitament:**
+- BICS_quotidia_basica
+- termes_amb_representacio_ambigua
+
+**Raonament pedagogic.** Emoji si el concepte te representacio universal clara; glossari visual al peu nomes a A2+ i nomes per a termes que realment aportin.
+
+### alumne_AACC
+
+**Inclou si:**
+- termes_molt_especialitzats_sense_representacio_quotidiana_si_aporten
+
+**Exclou explicitament:**
+- pictogrames_per_a_BICS
+- pictogrames_per_a_lexic_dominat
+- glossari_visual_extens
+
+**Raonament pedagogic.** Cap pictograma o glossari minimal. El suport visual pot distreure si la fluencia lectora ja es alta.
+
+### alumne_DUA_acces
+
+**Inclou si:**
+- termes_que_compensin_dificultats_de_descodificacio
+- vocabulari_clau_per_a_la_comprensio_global
+
+**Exclou explicitament:**
+- pictogrames_redundants_amb_il_lustracions_tematiques_ja_presents
+
+**Raonament pedagogic.** Densitat alta i coherencia visual reforcada; mode ARASAAC preferent si el perfil te dificultats de descodificacio significatives.
+
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -109,6 +195,66 @@ Aquesta rubrica descriu el **complement de pictogrames generat per al text adapt
 | **5. Paratext d'anticipacio** | Pre-lectura visual | Obligatori: vocabulari visual ABANS del text. Docent presenta els pictogrames oralment. Format: `### Vocabulari del text (mira primer!)` + llista pictograma·paraula. | Recomanat: presentar el vocabulari visual abans de llegir. | No cal. El glossari visual al peu és consultat durant la lectura. | No cal. | No cal. | No cal. |
 | **6. Criteris transversals** | Coherencia i qualitat | Mateix pictograma per al mateix concepte en tot el document. Cap pictograma decoratiu. Cap emoji de flags o gestos ambigus. | Idem. Coherencia entre seccions. | Idem. El glossari visual no substitueix el glossari textual. | Idem. Si un terme no te representacio visual clara, millor no posar-ne. | Idem. Densitat minima: nomes els termes que realment aporten. | Idem. |
 | **7. Autoavaluacio mediada** | Metacognicao | Docent observa: "L'alumne ha vist els pictogrames i ha dit el nom de cada concepte." (oral, mediat) | "He usat els pictogrames per entendre les paraules difícils." | "He usat el glossari visual al peu per recordar el significat dels termes." | "He identificat quins termes necessitaven un pictograma de referencia." | Idem. | — |
+
+## Casos especials
+
+### TEA_CAA
+
+**Trigger:** perfil_in: [TEA, CAA] (independentment del MECR)
+
+**Modulacio:**
+- mode: ARASAAC obligatori (mai emoji)
+- densitat alta a pre-A1/A1 (8-10 per text)
+- paratext_anticipacio obligatori
+- coherencia_sistema_AAC: usar els mateixos pictogrames que el logoped/vetllador si existeixen.
+
+**Raonament pedagogic.** ARASAAC es l'estandard CAA internacional i la coherencia del sistema AAC es critica per a TEA.
+
+### nouvingut_disciplinar_CALP
+
+**Trigger:** nouvingut: true AND text_disciplinar: true (Ciencies, Historia, Geografia, etc., fins a B1)
+
+**Modulacio:**
+- mode: ARASAAC
+- format_marcador: `[PICTO: terme_catala|terme_castella]` amb castella obligatori com a pont TOLC
+- posicio: glossari visual al peu (A2+) o inline (pre-A1/A1).
+
+**Raonament pedagogic.** els emojis no cobreixen termes CALP ('ecosistema', 'parlament'); el castella activa transferencia interlinguistica (Cummins) per a nouvinguts hispanofons.
+
+### AACC
+
+**Trigger:** aacc: true AND fluencia_lectora_alta: true
+
+**Modulacio:**
+- densitat: 0 o minima
+- glossari_visual: absent o nomes per a termes molt especialitzats sense representacio quotidiana
+- cap pictograma inline.
+
+**Raonament pedagogic.** el suport visual pot distreure quan l'alumne ja te fluencia lectora alta; el pictograma deixa de ser bastida i passa a ser soroll.
+
+### pre_A1_A1_paratext_obligatori
+
+**Trigger:** mecr_in: [pre-A1, A1]
+
+**Modulacio:**
+- posicio: inline DAVANT de la paraula (no al costat)
+- seccio_paratext: `### Vocabulari del text (mira primer!)` obligatoria amb llista pictograma+paraula
+- densitat: 8-10 maxim per text (maxim 1-2 per frase)
+- cap glossari al peu (la funcio es bastida, no consulta).
+
+**Raonament pedagogic.** la sequencia pedagogica optima es veure imatge → escoltar paraula (docent) → llegir paraula.
+
+### concepte_abstracte_sense_representacio
+
+**Trigger:** termes_abstractes: true (justicia, infinit, calcul matematic pur, filosofia)
+
+**Modulacio:**
+- densitat: 0 o minima per al text concret
+- no forcar pictograma si no hi ha representacio visual clara
+- preferir altres complements (glossari textual, il·lustracions tematiques).
+
+**Raonament pedagogic.** un pictograma ambigu o forcat genera confusio i contradiu el principi 'context before text'.
+
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -151,6 +297,40 @@ Posar el glossari visual al peu és respectar la fluencia lectora de l'alumne A2
 
 **H5 — Coherencia de l'emoji com a norma de classe.**
 Per a textos llargs o projectes multi-sessio, estableixo un "diccionari d'emojis" de classe: els mateixos emojis per als mateixos conceptes en tots els textos del trimestre. La coherencia entre textos reforça la memoria semantica i evita la confusio.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Pictogrames
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, condicionats al MECR):
+```
+### Vocabulari del text (mira primer!)
+### Glossari visual
+```
+
+**Bullets / moments interns:**
+```
+no aplica (els pictogrames apareixen com a marcadors inline o entrades de glossari, no com a bullets)
+```
+
+**Marcadors inline obligatoris:**
+```
+[PICTO: terme_catala|terme_castella]
+emoji Unicode directe inline (p.e. ☀️, 💧, 🌱)
+```
+
+**Headers explicitament PROHIBITS:**
+```
+## Glossari visual
+## Pictogrames inline
+## Vocabulari
+```
+
+**Regla d'integritat estructural.** Pre-A1/A1: inline + `### Vocabulari del text (mira primer!)` com a paratext. A2+: nomes `### Glossari visual` al peu, mai inline. Sense headers literals i marcadors `[PICTO: ...|...]` o emojis, el parser de pas3.html no detecta el complement.
+
 
 ## Fonts principals
 

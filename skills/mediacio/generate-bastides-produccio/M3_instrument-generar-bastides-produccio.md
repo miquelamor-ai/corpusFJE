@@ -54,6 +54,32 @@ Les bastides de producció guien el procés d'escriptura de l'alumne en tres blo
 Aquesta rúbrica descriu les **bastides que es generen per orientar la producció escrita de l'alumne** (PRODUCCIÓ). **No descriu la producció autònoma de l'alumne ni l'avaluació del docent**: el docent observa si l'alumne usa la bastida com a suport i si la seva producció millorat amb ella.
 **Sub-granularitat dins de A1**: es treballa amb `fase_lectora: alfabetica_emergent` (frases simples, bastida mínima) i `alfabetica_fluida` (frases completes, bastida plena).
 
+## Principi general
+
+**Regla de selecció simple.** Genera els tres blocs (A) base d'orientació disciplinar, (B) catàleg de connectors i iniciadors HCL i (C) pauta d'interrogació, modulats pel nivell MECR i específics del gènere i la matèria del text font. NO generis cap bloc si no hi ha producció activa (preguntes_comprensio o activitats_aprofundiment) o si el perfil és pre-A1: salta silenciosament.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si la bastida és pedagògicament útil per a aquest alumne concret ni quan retirar-la: aquesta valoració correspon al docent (heurístiques H1-H5). Tampoc inventa estructures genèriques tipus 'introduccio/cos/conclusio': si no pot derivar passos específics del gènere i la matèria del text font, ho assenyala al docent en comptes de fabricar contingut buit.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### DUA_acces
+
+**Aplicació.** Sense modulació pròpia: la bastida ja és en si mateixa un element DUA d'accés (representació explícita del procés expert). El perfil DUA s'aprofita del format estàndard de la taula Modulació sense canvis.
+
+### AACC
+
+**Aplicació.** Sense modulació pròpia de contingut: el LLM genera el mateix output que la cel·la MECR. L'AACC sovint internalitza la bastida més ràpid i el docent l'ha de retirar abans (heurística H4, decisió docent).
+
+### nouvingut_L1
+
+**Aplicació.** Sense modulació de contingut: la bastida es genera en català (llengua vehicular del text font). El suport L1 correspon a altres complements (glossari bilingüe). El nouvingut TILC s'aprofita especialment del Bloc A com a GPS disciplinar quan coneix el contingut però no l'estructura.
+
+### TDAH_funcions_executives
+
+**Aplicació.** Sense canvi de contingut: el LLM genera la cel·la MECR estàndard. La bastida no s'ha de retirar tan ràpid com en altres perfils (documentat a 'Context favorable'); aquesta decisió és docent, no del LLM.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -88,6 +114,57 @@ Aquesta rúbrica descriu les **bastides que es generen per orientar la producci�
 | **2. Bloc B — Catàleg de recursos** | Connectors + iniciadors HCL | 1 iniciador per HCL principal del gènere. Connectors: *i, però, perquè*. Llista curta (max 5 ítems). | 2-3 iniciadors per HCL. Connectors: + *primer, llavors, per tant*. Connectors de causa-efecte. | Iniciadors inferencials i causals. Connectors: + *ja que, en canvi, tot i que*. Iniciadors de contrast. | Iniciadors CALP argumentals. Connectors: + *no obstant, atès que, en conseqüència* (NOMES a B2+). | Iniciadors dialèctics i retòrics. Connectors de concessió i contrast complexos. |
 | **3. Bloc C — Pauta d'interrogació** | Checklist d'autoavaluació | Cap pauta a A1: la bastida és el Bloc A i B. | 2-3 ítems simples vinculats al gènere i la tasca concreta. Com a mínim un ítem sobre el destinatari o el propòsit (ex.: "A qui escric? He posat el nom del personatge?"). | 4-5 ítems específics del gènere. Vinculats als criteris d'avaluació si estan disponibles. | Criteris d'avaluació específics amb indicadors observables. Inclou criteris de rigor disciplinar. | Reflexió metacognitiva sobre fiabilitat de les fonts, biaix i coherència interna de l'argument. |
 | **4. Autoavaluació mediada** | Metacognició | "He seguit els passos de la bastida per escriure el meu text." | "He usat la bastida per estructurar el meu text. He completat el checklist." | "He seguit la base d'orientació i he usat els iniciadors per construir el meu argument." | "He usat la pauta d'interrogació per revisar que el meu text compleix els criteris del gènere." | "He comprovat que les meves fonts son fiables i que el meu argument és coherent i honest." |
+
+## Casos especials
+
+### pre_A1_sense_escriptura_autonoma
+
+**Trigger:** mecr_equals: pre-A1 OR fase_lectora_in: [logografica]
+
+**Modulació:**
+- no_generar: true (cap bloc, salt silenciós)
+
+**Raonament pedagògic.** A pre-A1 i fase logogràfica no hi ha mecànica de frase interioritzada; la producció escrita no s'activa fins a A1 alfabètica emergent.
+
+### sense_produccio_activa
+
+**Trigger:** complement_preguntes_comprensio: false AND complement_activitats_aprofundiment: false
+
+**Modulació:**
+- no_generar: true
+
+**Raonament pedagògic.** Principi rector "Sense producció no hi ha bastida de producció". El complement és ortogonal a bastides-lectura i només té sentit si hi ha tasca productiva al Pas 2.
+
+### A1_alfabetica_emergent
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- bloc_A: 2 passos imperatius breus
+- bloc_B: 1 iniciador per HCL principal, connectors limitats a {i, però, perquè} (max 5 ítems)
+- bloc_C: omès
+
+**Raonament pedagògic.** Bastida mínima per no saturar el processament; el Bloc C s'introdueix a A2.
+
+### A1_alfabetica_fluida
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_fluida
+
+**Modulació:**
+- bloc_A: 3 passos amb frase completa
+- bloc_B: 1-2 iniciadors per HCL, mateixa llista tancada de connectors A1
+- bloc_C: omès
+
+**Raonament pedagògic.** La fluïdesa permet bastida plena dins A1, però el Bloc C continua reservat a A2+.
+
+### produccio_lliure_o_creativa
+
+**Trigger:** tasca_tipus_in: [produccio_lliure, produccio_creativa] AND genere_restrictiu: false
+
+**Modulació:**
+- derivar_a: plantilles-genere (forats mínims)
+
+**Raonament pedagògic.** Anti-senyal documentat: la bastida limita la creativitat sense restriccions de gènere. El LLM no genera Bloc A en aquest cas.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -127,6 +204,39 @@ Introdueixo les bastides les primeres 2-3 sessions del gènere i progressivament
 
 **H5 — "Sense producció, sense bastida".**
 Quan el docent activa "bastides" però oblida activar preguntes o activitats, el complement salta. Li explico explícitament: la bastida de producció nomes existeix si hi ha alguna cosa a produir. Si el text no té tasca de producció associada, la bastida es limita a les bastides de lectura.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Bastides de producció
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Bloc A — Base d'orientació
+### Bloc B — Catàleg de recursos
+### Bloc C — Pauta d'interrogació
+```
+
+**Bullets / moments interns** (si aplica — NO son H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Bastides
+## Bastides escriptura
+## Producció escrita
+```
+
+**Regla d'integritat estructural.** Sense els tres H3 literals dins del H2 `## Bastides de producció`, el parser de pas3.html no pot separar els blocs per al toggle independent i el frontend mostra contingut concatenat opac. A A1 el Bloc C s'omet; a pre-A1 no es genera cap bloc.
 
 ## Fonts principals
 

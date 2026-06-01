@@ -74,6 +74,82 @@ Les **4 dimensions civils** (Miquel, 2026) que estructura el contrarelat ignasi�
 Aquesta rubrica descriu el **contrarelat que es genera per a la LECTURA i model de l'alumne** (ADAPTACIÓ ARGUMENTATIVA CRITICA). **No descriu la producció autonoma de l'alumne**: la rubrica avalua el text generat com a model; l'alumne el llegeix, analitza l'estrategia i en pot fer un de propi com a activitat derivada. La producció autónoma de l'alumne s'avalua amb l'instrument `generate-rubriques`.
 **Sub-granularitat dins d'A1**: variable `fase_lectora: alfabetica_emergent` → suport visual i oral maxim; `fase_lectora: alfabetica_fluida` → lectura autonoma del text model.
 
+## Principi general
+
+**Regla de selecció simple.** Genera sempre un contrarelat estructurat en 8 passos fixos (Identificació, Discerniment, Empatia, Fact-checking, Narrativa alternativa, Crida a l'acció, Criteris transversals, Examen ignasià), modulant la profunditat segons MECR (A1–C1) i la modalitat (counterspeech_directe o counter_narrative_indirecte). A pre-A1 no es genera; a A1 el Pas 2 queda predeterminat (counterspeech simplificat).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si el text font conté discurs d'odi (això ho determina el docent en activar l'skill) ni jutja la idoneïtat del context d'aula (presència d'alumnat afectat). Tampoc genera empatia que validi el discurs; si no pot empatitzar sense validar, ho indica com a límit. La decisió final i la cura emocional són del docent.
+
+_Excepcions: a pre-A1 no es genera output (es treballa en assemblea oral mediada pel docent); a A1 la modalitat queda predeterminada (counterspeech simplificat), sense selecció estratègica._
+
+## Regla de selecció per perfil
+
+### alumne_general
+
+**Inclou si:**
+- 8_passos_complets
+- modulacio_per_MECR_segons_taula
+- modalitat_segons_variable_configurable_o_decisio_docent
+
+**Exclou explícitament:**
+- generacio_a_pre-A1
+- empatia_que_valida_el_discurs_d_odi
+
+**Raonament pedagògic.** Per defecte, la rúbrica de 8 passos × 5 nivells MECR cobreix l'estructura completa del contrarelat (Izquierdo Grau 2019). La modulació de profunditat per MECR ja és captada per la taula i és suficient per a l'alumnat sense perfil específic addicional.
+
+### alumne_A1_fase_lectora_emergent
+
+**Inclou si:**
+- 8_passos_amb_suport_visual_maxim
+- imatge_acompanyant_frase_model
+- pas_2_predeterminat_counterspeech_simplificat
+- lectura_mediada_per_adult
+
+**Exclou explícitament:**
+- lectura_autonoma
+- seleccio_de_modalitat_per_part_de_l_alumne
+
+**Raonament pedagògic.** A A1 amb fase lectora alfabètica emergent, el text model no és llegible autònomament. El suport visual (imatge + frase) és l'accés primari al significat (DUA accés). El Pas 2 queda predeterminat perquè la metacognició de selecció estratègica de modalitat encara no és accessible.
+
+### alumne_A1_fase_lectora_fluida
+
+**Inclou si:**
+- 8_passos_amb_frases_model_curtes
+- lectura_autonoma_del_text_model
+- pas_2_predeterminat_counterspeech_simplificat
+
+**Exclou explícitament:**
+- seleccio_de_modalitat_per_part_de_l_alumne
+- argumentacio_estrategica_complexa
+
+**Raonament pedagògic.** A A1 amb fase lectora fluida, l'alumne pot llegir el model autònomament però encara no té base lingüística per justificar selecció estratègica de modalitat. La modalitat queda predeterminada (counterspeech directe) i les frases es mantenen curtes i amb model.
+
+### alumne_nouvingut_L1_A1_A2
+
+**Inclou si:**
+- 8_passos_amb_translanguaging_al_Pas_3
+- empatia_expressada_primer_en_L1
+- pas_3_estructura_L1_primer_despres_CA
+
+**Exclou explícitament:**
+- exigencia_d_empatia_en_catala_com_a_unica_via
+
+**Raonament pedagògic.** Per al nouvingut amb L1 declarada (A1-A2), l'empatia activa (Pas 3) té valor testimonial alt si s'expressa primer en L1 (Cummins & Early 2011, MALL translanguaging). Forçar el catala com a única via empobreix l'autenticitat emocional i invisibilitza l'experiència de la pròpia comunitat.
+
+### alumne_modalitat_counter_narrative_indirecte
+
+**Inclou si:**
+- 8_passos_amb_reformulacio_passos_1_i_5
+- audiencia_diana_terciaria_no_autor
+- marc_alternatiu_de_sentit_sense_referencia_directa
+
+**Exclou explícitament:**
+- referencia_explicita_al_discurs_font_al_Pas_1
+- refutacio_directa_al_Pas_5
+
+**Raonament pedagògic.** A la modalitat counter-narrative indirecte (Consell d'Europa, We CAN! 2017), l'objectiu és l'audiència terciària, no l'autor. Si es manté la referència directa al discurs font, la counter-narrative es transforma en counterspeech encobert i perd l'eficàcia estratègica de canvi de marc.
+
+
 ## Detecció
 
 **Senyals docent** (quan triar contrarelat):
@@ -112,6 +188,66 @@ Aquesta rubrica descriu el **contrarelat que es genera per a la LECTURA i model 
 | **6. Crida a l'acció reconciliadora** | Compromís comu | "Podem fer ___." (1 acció concreta i immediata, guiada per model). | 1 acció deliberativa concreta i assolible per a l'alumne o el grup. Formulació positiva (cap a, no contra). | Crida especifica a l'audiencia: acció deliberativa + participació democratica. Formulació que inclou el grup diana. | Crida a l'acció comunitaria fonamentada: connecta l'acció amb valors compartits i institucions democratiques. Llista de recursos o vies concretes. | Crida transformadora (CG36): proposa condicions estructurals per a la reconciliació. No acció individual sino canvi de cultura. Fonamentada en *Fratelli tutti* cap. VI (dialeg i amistat social). |
 | **7. Criteris transversals** | Qualitat etica i retorica | 3 criteris simples: "No dic cap nom malament. Dic una cosa certa. Parlo amb respecte." | 3 criteris explícits: sense atacs personals, 1 fet verificat, to respectuós. Autochecklist. | 4 criteris: sense atacs personals, fets verificables, to respectuós, perspectiva de la victima visible. Autorevisió conscient. | 5 criteris: tots els anteriors + fonts citades + modalitat justificada. | 6 criteris: tots els anteriors + coherencia entre empatia i crida + coherencia entre diagnòstic ideologic i narrativa alternativa. |
 | **8. Autoavaluació / Examen ignasià** | Metacognició ètica | "He dit ___. M'agrada? Canviaria alguna cosa?" (oral, mediat per l'adult). | 2 preguntes senzilles: "He dit la veritat? He estat respectuós amb tothom?" | 3 preguntes PPI (Paradigma Pedagogic Ignasià): "Que he apres? Com m'he sentit responent? Faré alguna cosa diferent? | Examen ignasià simplificat: "He respost amb justicia? He dignificat la victima? He buscat reconciliació o m'he quedat al combat retòric?" | Examen ignasià complet: "He servit el bé de la persona concreta i el bé comu? El meu contrarelat és mes just que el discurs original? He estat fidel a la veritat verificable? He obert la porta a la reconciliació?" |
+
+## Casos especials
+
+### pre_A1_no_generar
+
+**Trigger:** mecr_equals: pre-A1
+
+**Modulació:**
+- no_generar: true
+- reemplaça_output_per: "instrument no generat — treball en assemblea oral mediada pel docent"
+- log: pre-A1_skipped
+
+**Raonament pedagògic.** A pre-A1, identificar un discurs d'odi i produir-ne una resposta argumentativa requereix base lingüística i accés al context comunicatiu que encara no estan disponibles. El treball es fa oralment, mediat per l'adult, sense instrument generat (coherent amb la regla d'absència a pre-A1 dels gèneres argumentatius).
+
+### A1_modalitat_predeterminada
+
+**Trigger:** mecr_equals: A1
+
+**Modulació:**
+- pas_2_discerniment.contingut: "modalitat predeterminada — counterspeech simplificat, resposta directa"
+- pas_2_discerniment.no_seleccio_modalitat: true
+- modalitat_default: counterspeech_directe
+
+**Raonament pedagògic.** A A1, la metacognició necessària per triar entre counterspeech directe i counter-narrative indirecte encara no és accessible. Predeterminar la modalitat allibera càrrega cognitiva i permet centrar l'aprenentatge en els passos 1, 3, 4, 5 i 6, més operatius en aquesta etapa.
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent
+
+**Modulació:**
+- suport_visual_maxim: true
+- suport_oral_maxim: true
+- lectura_autonoma: false
+- mediacio_adult_requerida: true
+
+**Raonament pedagògic.** En fase lectora alfabètica emergent, la descodificació encara consumeix la major part dels recursos cognitius. El suport visual i oral màxim (DUA accés) garanteix l'accés al significat sense dependre exclusivament de la lectura autònoma del text model.
+
+### translanguaging_empatia_L1
+
+**Trigger:** translanguaging: true AND mecr_in: [A1, A2] AND nouvingut_L1: true
+
+**Modulació:**
+- pas_3_empatia.permet_L1_primer: true
+- pas_3_empatia.estructura: "L1 → CA"
+- valor_testimonial: alt
+
+**Raonament pedagògic.** Per al nouvingut amb L1 declarada, expressar l'empatia activa primer en L1 i després en català (Cummins & Early 2011) preserva l'autenticitat emocional i activa el coneixement previ. El translanguaging al Pas 3 té valor testimonial alt perquè l'alumne pot referenciar la pròpia experiència comunitària.
+
+### counter_narrative_indirecte
+
+**Trigger:** modalitat_equals: counter_narrative_indirecte
+
+**Modulació:**
+- pas_1_identificacio.referencia_explicita_discurs: false
+- pas_5_narrativa.canvi_de_marc: true
+- audiencia_diana: terciaria_no_autor
+- verificar_no_referencia_directa_discurs_original: true
+
+**Raonament pedagògic.** El Consell d'Europa (We CAN! 2017) defineix la counter-narrative com a estratègia que "no challenge hate speech directly". Si es manté la referència directa al discurs font, la counter-narrative perd la seva especificitat estratègica i es converteix en counterspeech encobert. La verificació explícita de no-referència és necessària per preservar la integritat de la modalitat.
+
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -159,6 +295,46 @@ Treballar el discurs d'odi a l'aula requereix crear un espai segur previ. Si hi 
 
 **H6 — L'examen ignasià com a tancament, no com a formulari.**
 L'Examen ignasià del Pas 8 no es una llista de preguntes que cal respondre per escrit mecanicament. Pot ser una conversa oral guiada, una pausa de 2 minuts de reflexió silenciosa, o una entrada al diari de l'alumne. El que importa es la genuinitat de la reflexió, no la forma. A A1-A2, l'adult pot mediar la pregunta oralment: "I ara, com et sents? Creus que has ajudat?"
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Contrarelat de l'odi
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### 1. Identificació del discurs d'odi
+### 2. Discerniment
+### 3. Empatia activa
+### 4. Fact-checking / Veritat verificable
+### 5. Narrativa alternativa
+### 6. Crida a l'acció reconciliadora
+### 7. Criteris transversals
+### 8. Autoavaluació / Examen ignasià
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[MODALITAT: counterspeech_directe|counter_narrative_indirecte]
+[FONT: descripcio_breu_font_verificada]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Contranarrativa
+## Resposta al discurs d'odi
+## Counterspeech
+```
+
+**Regla d'integritat estructural.** H2 únic literal `## Contrarelat de l'odi` i 8 H3 en ordre numerat 1–8. A A1, el H3 `### 2. Discerniment` declara literalment "modalitat predeterminada: counterspeech simplificat". Sense aquesta estructura, el parser de la rúbrica 8×5 no mapeja les cel·les als descriptors i el frontend ATNE no pot mostrar el contrarelat per passos.
+
 
 ## Fonts principals
 

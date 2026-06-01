@@ -72,6 +72,53 @@ El complement d'il·lustracions insereix marcadors `[IMATGE: concepte curt en ca
 **Aclariment d'us — que descriu aquesta rubrica.**
 Aquesta rubrica descriu el **complement d'il·lustracions generat per al text adaptat**. **No descriu la produccio autonoma de l'alumne**: els marcadors s'insereixen al text adaptat i les imatges es generen automàticament. El registre d'us és del docent (observacio de si l'alumne usa el suport visual durant la lectura).
 
+## Principi general
+
+**Regla de selecció simple.** Insereix marcadors `[IMATGE: concepte curt en català]` només davant o al costat de conceptes visualitzables que ancoren idees clau del text (processos, sistemes, llocs, escenes, objectes concrets). Aplica el principi 'menys és més': respecta el sostre per nivell MECR (pre-A1: ≤5; A1: ≤4; A2: ≤3; B1-B2: ≤2; C1: ≤1) i no marquis conceptes abstractes purs, microscòpics sense escala macro, ni polisèmics sense desambiguació al marcador.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si una il·lustració concreta ajudarà aquest alumne real ni jutja la qualitat estètica del resultat visual; tampoc tria el preset d'estil definitiu. Identifica candidats segons visualitzabilitat i centralitat al text font, i delega al docent al Pas 3 la decisió final (esborrar, regenerar, substituir, canviar preset).
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### alumne_DUA_acces
+
+**Inclou si:**
+- conceptes_visualitzables_centrals_al_text
+- conceptes_que_requereixen_ancoratge_visual_per_descodificacio
+- marcador_en_linia_propia_DAVANT_del_concepte (fins i tot a A2+)
+
+**Exclou explicitament:**
+- conceptes_abstractes_sense_referent_visual
+- conceptes_polisemics_sense_desambiguacio
+
+**Raonament pedagògic.** Activa preset 'Icona minimalista' o 'Aquarel·la storybook' segons fase lectora i manté densitat al sostre màxim del nivell. Per a baixa visió, preset 'Escala de grisos (carbonet)' amb contrast alt. La imatge davant del concepte garanteix accés alternatiu al significat (Mayer, principi de contigüitat).
+
+### alumne_AACC_o_capacitat_alta
+
+**Inclou si:**
+- conceptes_que_aporten_complexitat_addicional
+- diagrames_densos_en_informacio
+- infografies_que_condensin_dades
+
+**Exclou explicitament:**
+- il·lustracions_decoratives
+- conceptes_obvis_o_ja_dominats
+
+**Raonament pedagògic.** Densitat al límit inferior del rang del nivell (B1: 1; B2-C1: 0-1) i preset 'Isomètric infogràfic' o 'Vectorial editorial' per privilegiar diagrames densos sobre il·lustracions decoratives. El sostre alt es manté: la il·lustració aporta valor informatiu addicional, no simplifica.
+
+### alumne_nouvingut_amb_L1
+
+**Inclou si:**
+- conceptes_universals_i_concrets_traduibles_culturalment
+- marcador_SEMPRE_en_linia_propia_DAVANT_del_paragraf
+
+**Exclou explicitament:**
+- referents_culturalment_marcats_sense_context_addicional
+
+**Raonament pedagògic.** Densitat al límit superior del rang (pre-A1: 5; A1: 4; A2: 3) i preset 'Aquarel·la storybook' o 'Fotografia documental' per a màxima recognoscibilitat. La seqüència imatge → paraula és la lògica de l'aprenentatge inicial (MALL, Lectura Fàcil); el nouvingut accedeix al concepte abans de descodificar el mot.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -106,6 +153,62 @@ Aquesta rubrica descriu el **complement d'il·lustracions generat per al text ad
 | **3. Especificitat del marcador** | Concretesa del concepte | Concepte molt concret i universal: "gat", "arbre", "pluja". 1-2 paraules. | Concepte concret: "cel·lula animal", "volca en erupcio". 1-3 paraules. | Concepte concret + context: "fotosintesi a fulla verda". 2-4 paraules. | Concepte especific del contingut: "cadena trofica marina", "cambra del parlament". | Concepte disciplinar: "diagrama de l'aparell respiratori", "mapa de la Revolucio Francesa". | Concepte complex: "infografia comparativa de sistemes politics", "grafic evolucio PIB". |
 | **4. Preset d'estil** | Registre visual | Pictograma o il·lustració clara i simple. Sense elements distractors. | Il·lustracò o foto realista. Molt clara, sense text a la imatge. | Foto realista o il·lustracó educativa. Pot tenir etiquetes simples. | Diagrama o foto cientifica/geografica. Etiquetes disciplinars. | Diagrama, mapa, grafic. Llegenda si cal. | Infografia, grafic estadistic, mapa tematic. |
 | **5. Autoavaluacio mediada** | Metacognicao | "He vist la imatge i he dit el que era." (oral, mediat per adult) | "He mirat la imatge i m'ha ajudat a entendre la paraula difícil." | "La imatge m'ha ajudat a entendre el proces o el concepte." | "He identificat quins conceptes necessitaven imatge i quins no." | "He usat les il·lustracions com a suport visual per a conceptes que no s'expliquen facilment amb paraules." | — (N/A: a C1 rarament es genera il·lustracó; si es genera, l'autoavaluacio és igual que B2) |
+
+## Casos especials
+
+### pre_A1_A1_anticipacio_visual
+
+**Trigger:** mecr_in: [pre-A1, A1] OR fase_lectora_in: [logografica, alfabetica_emergent]
+
+**Modulació:**
+- posicio: marcador en línia pròpia DAVANT del paràgraf (no al costat ni darrere)
+- densitat: fins a 4-5 marcadors a pre-A1 i 3-4 a A1
+- especificitat: concepte molt concret i universal (1-3 paraules: 'gat', 'volcà en erupció')
+- preset: aquarel·la storybook o claymation per defecte
+
+**Raonament pedagògic.** La seqüència imatge → paraula és la lògica de l'aprenentatge inicial (MALL, Lectura Fàcil); l'alumne nouvingut o emergent ha de poder accedir al concepte abans de descodificar el mot.
+
+### concepte_polisemic
+
+**Trigger:** el concepte té múltiples referents visuals sense context suficient (p.e. 'banc', 'pla', 'cua', 'arc')
+
+**Modulació:**
+- marcador: SEMPRE desambiguar al propi marcador (`[IMATGE: banc de peixos]` o `[IMATGE: banc de fusta al parc]`, mai `[IMATGE: banc]`)
+- si_no_desambiguable_en_3_8_paraules: ometre el marcador
+
+**Raonament pedagògic.** El resolver Wikimedia/FLUX no té context del paràgraf; un marcador ambigu retorna una imatge irrellevant que distorsiona el significat (Mayer, principi de coherència).
+
+### concepte_microscopic_o_abstracte
+
+**Trigger:** concepte sense referent visual macro clar (cèl·lula, àtom, enzim, justícia, infinit, democràcia abstracta)
+
+**Modulació:**
+- default: ometre el marcador
+- alternativa: reformular a escala macro o visualitzable ('cèl·lula' → `[IMATGE: cèl·lula animal vista al microscopi]`; 'democràcia' → `[IMATGE: cambra del parlament]`)
+
+**Raonament pedagògic.** Una il·lustració genèrica d'un concepte abstracte no ancora — distreu (Mayer, principi de redundància); millor cap imatge que una imatge buida de significat.
+
+### B2_C1_menys_es_mes
+
+**Trigger:** mecr_in: [B2, C1]
+
+**Modulació:**
+- densitat: 1-2 marcadors a B2, 0-1 a C1
+- especificitat: només per a diagrames, infografies, mapes temàtics o gràfics que condensin dades difícils de verbalitzar
+- preset: vectorial editorial, isomètric infogràfic o fotografia documental
+- posicio: dins del paràgraf com a suport a l'argument, mai en línia pròpia aïllada
+
+**Raonament pedagògic.** Als nivells alts la il·lustració no simplifica — ha d'aportar valor informatiu que el text no dóna en un cop d'ull (Mayer, principi de contigüitat); si el concepte es pot explicar en dues frases sense pèrdua, no marquis.
+
+### materia_no_visual
+
+**Trigger:** materia_in: [matematiques_calcul, filosofia_abstracta, llengua_gramatica] AND text purament verbal sense conceptes referencials
+
+**Modulació:**
+- default: 0 marcadors
+- si_complement_activat_pel_docent: màxim 1 marcador i només si hi ha un concepte concret puntual
+
+**Raonament pedagògic.** La càrrega visual gratuïta competeix amb el processament verbal que és precisament el focus d'aquestes matèries (principi de coherència de Mayer).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -146,6 +249,35 @@ Cada il·lustró afegeix carrega cognitiva. A B2-C1, una il·lustració sense va
 
 **H5 — Il·lustracio vs pictograma: la pregunta de la funcio.**
 Quan dubto entre usar pictograma o il·lustració, em pregunto: "Necessite suport lexic (aprendre la paraula) o suport conceptual (entendre el concepte)?" Suport lexic → pictograma. Suport conceptual (proces, sistema, lloc, escena) → il·lustracó.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Il·lustracions
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO son H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[IMATGE: concepte curt en català]
+```
+
+**Headers explicitament PROHIBITS:**
+```
+cap header addicional dins del bloc d'il·lustracions
+```
+
+**Regla d'integritat estructural.** Marcadors en línia pròpia DAVANT del paràgraf (pre-A1/A1) o al costat / dins del paràgraf (A2+); mai dins de llistes, taules, bastides ni altres complements. Sense els delimitadors literals `[IMATGE:` i `]` el resolver no detecta el marcador i el complement queda inert (no es generen imatges).
 
 ## Fonts principals
 

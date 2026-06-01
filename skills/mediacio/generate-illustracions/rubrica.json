@@ -1,0 +1,392 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_illustracions",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-illustracions\\M3_instrument-generar-illustracions.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-illustracions",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "illustracions",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_densitat",
+          "descriptor": "Maxim 4-5. Una per idea principal. Alta densitat justificada (text ≈ imatge)."
+        },
+        {
+          "pas_id": "pas_2_anticipacio_vs_ancoratge",
+          "descriptor": "Imatge DAVANT de la paraula/frase que il·lustra. L'alumne veu la imatge PRIMER. Anticipacio visual."
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_concepte",
+          "descriptor": "Concepte molt concret i universal: \"gat\", \"arbre\", \"pluja\". 1-2 paraules.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_registre_visual",
+          "descriptor": "Pictograma o il·lustració clara i simple. Sense elements distractors."
+        },
+        {
+          "pas_id": "pas_5_metacognicao",
+          "descriptor": "\"He vist la imatge i he dit el que era.\" (oral, mediat per adult)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_densitat",
+          "descriptor": "3-4 il·lustracions. Una per paragraf o per concepte clau."
+        },
+        {
+          "pas_id": "pas_2_anticipacio_vs_ancoratge",
+          "descriptor": "Imatge immediatament DAVANT o AL COSTAT del concepte clau."
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_concepte",
+          "descriptor": "Concepte concret: \"cel·lula animal\", \"volca en erupcio\". 1-3 paraules.",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_registre_visual",
+          "descriptor": "Il·lustracò o foto realista. Molt clara, sense text a la imatge."
+        },
+        {
+          "pas_id": "pas_5_metacognicao",
+          "descriptor": "\"He mirat la imatge i m'ha ajudat a entendre la paraula difícil.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_densitat",
+          "descriptor": "2-3 il·lustracions. Als punts de maxim ancoratge conceptual."
+        },
+        {
+          "pas_id": "pas_2_anticipacio_vs_ancoratge",
+          "descriptor": "Imatge al costat del concepte que ancora, dins del paragraf."
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_concepte",
+          "descriptor": "Concepte concret + context: \"fotosintesi a fulla verda\". 2-4 paraules.",
+          "countable": {
+            "min": 2,
+            "max": 4,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_registre_visual",
+          "descriptor": "Foto realista o il·lustracó educativa. Pot tenir etiquetes simples."
+        },
+        {
+          "pas_id": "pas_5_metacognicao",
+          "descriptor": "\"La imatge m'ha ajudat a entendre el proces o el concepte.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_densitat",
+          "descriptor": "1-2 il·lustracions als conceptes abstractes o processos clau."
+        },
+        {
+          "pas_id": "pas_2_anticipacio_vs_ancoratge",
+          "descriptor": "Imatge al concepte abstracte o al proces que beneficia d'ancoratge visual."
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_concepte",
+          "descriptor": "Concepte especific del contingut: \"cadena trofica marina\", \"cambra del parlament\"."
+        },
+        {
+          "pas_id": "pas_4_registre_visual",
+          "descriptor": "Diagrama o foto cientifica/geografica. Etiquetes disciplinars."
+        },
+        {
+          "pas_id": "pas_5_metacognicao",
+          "descriptor": "\"He identificat quins conceptes necessitaven imatge i quins no.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_densitat",
+          "descriptor": "1-2 il·lustracions molt selectives (diagrama, proces, dada visual clau)."
+        },
+        {
+          "pas_id": "pas_2_anticipacio_vs_ancoratge",
+          "descriptor": "Imatge estrategica: diagrama d'un proces, taula de dades, mapa conceptual visual."
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_concepte",
+          "descriptor": "Concepte disciplinar: \"diagrama de l'aparell respiratori\", \"mapa de la Revolucio Francesa\"."
+        },
+        {
+          "pas_id": "pas_4_registre_visual",
+          "descriptor": "Diagrama, mapa, grafic. Llegenda si cal."
+        },
+        {
+          "pas_id": "pas_5_metacognicao",
+          "descriptor": "\"He usat les il·lustracions com a suport visual per a conceptes que no s'expliquen facilment amb paraules.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_densitat",
+          "descriptor": "0-1 il·lustració. Reservada per a diagrames o infografies que condensin dades."
+        },
+        {
+          "pas_id": "pas_2_anticipacio_vs_ancoratge",
+          "descriptor": "Imatge de suport a l'argument: infografia, grafic, mapa."
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_concepte",
+          "descriptor": "Concepte complex: \"infografia comparativa de sistemes politics\", \"grafic evolucio PIB\"."
+        },
+        {
+          "pas_id": "pas_4_registre_visual",
+          "descriptor": "Infografia, grafic estadistic, mapa tematic."
+        },
+        {
+          "pas_id": "pas_5_metacognicao",
+          "descriptor": "— (N/A: a C1 rarament es genera il·lustracó; si es genera, l'autoavaluacio és igual que B2)"
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_densitat",
+      "titol": "Nombre d'il·lustracions",
+      "dimensio": "Densitat",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar marcadors `[IMATGE:]` al text; verificar que esta dins del rang per nivell (pre-A1: ≤5; A1: ≤4; A2: ≤3; B1: ≤2; B2: ≤2; C1: ≤1)"
+    },
+    {
+      "id": "pas_2_anticipacio_vs_ancoratge",
+      "titol": "Posicio al text",
+      "dimensio": "Anticipacio vs ancoratge",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1/A1: verificar que el marcador precedeix el paragraf (linia propia DAVANT); A2+: verificar que no hi ha marcadors en linia propia aillats (han d'anar dins del context del paragraf)"
+    },
+    {
+      "id": "pas_3_concretesa_del_concepte",
+      "titol": "Especificitat del marcador",
+      "dimensio": "Concretesa del concepte",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si el concepte del marcador és concret i visualitzable (positiu) o vague i abstracte (negatiu); detectar marcadors massa genèrics (\"[IMATGE: ciencies]\"); cross_source: verificar que el concepte del marcador esta present i és central al text font"
+    },
+    {
+      "id": "pas_4_registre_visual",
+      "titol": "Preset d'estil",
+      "dimensio": "Registre visual",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: el preset seleccionat és coherent amb el MECR i la materia (aquarel·la per primaria, vectorial per ESO+); si no s'especifica, s'aplica el default adequat"
+    },
+    {
+      "id": "pas_5_metacognicao",
+      "titol": "Autoavaluacio mediada",
+      "dimensio": "Metacognicao",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: registre docent d'observacio; A1+: derivar a vista d'autoavaluacio alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Insereix marcadors `[IMATGE: concepte curt en català]` només davant o al costat de conceptes visualitzables que ancoren idees clau del text (processos, sistemes, llocs, escenes, objectes concrets). Aplica el principi 'menys és més': respecta el sostre per nivell MECR (pre-A1: ≤5; A1: ≤4; A2: ≤3; B1-B2: ≤2; C1: ≤1) i no marquis conceptes abstractes purs, microscòpics sense escala macro, ni polisèmics sense desambiguació al marcador.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si una il·lustració concreta ajudarà aquest alumne real ni jutja la qualitat estètica del resultat visual; tampoc tria el preset d'estil definitiu. Identifica candidats segons visualitzabilitat i centralitat al text font, i delega al docent al Pas 3 la decisió final (esborrar, regenerar, substituir, canviar preset)."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_DUA_acces": {
+      "inclou_si": [
+        "c"
+      ],
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "Activa preset 'Icona minimalista' o 'Aquarel·la storybook' segons fase lectora i manté densitat al sostre màxim del nivell. Per a baixa visió, preset 'Escala de grisos (carbonet)' amb contrast alt. La imatge davant del concepte garanteix accés alternatiu al significat (Mayer, principi de contigüitat)."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "inclou_si": [
+        "c"
+      ],
+      "exclou_explicitament": [
+        "i"
+      ],
+      "raonament": "Densitat al límit inferior del rang del nivell (B1: 1; B2-C1: 0-1) i preset 'Isomètric infogràfic' o 'Vectorial editorial' per privilegiar diagrames densos sobre il·lustracions decoratives. El sostre alt es manté: la il·lustració aporta valor informatiu addicional, no simplifica."
+    },
+    "alumne_nouvingut_amb_L1": {
+      "inclou_si": [
+        "c"
+      ],
+      "exclou_explicitament": [
+        "r"
+      ],
+      "raonament": "Densitat al límit superior del rang (pre-A1: 5; A1: 4; A2: 3) i preset 'Aquarel·la storybook' o 'Fotografia documental' per a màxima recognoscibilitat. La seqüència imatge → paraula és la lògica de l'aprenentatge inicial (MALL, Lectura Fàcil); el nouvingut accedeix al concepte abans de descodificar el mot."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_il_lustracions",
+      "description": "Ha activat \"Il·lustracions\" al Pas 2."
+    },
+    {
+      "name": "el_text_adaptat_conte",
+      "description": "El text adaptat conte conceptes visuals que l'alumne pot no conèixer o que son difícils de representar verbalment."
+    },
+    {
+      "name": "la_materia_es_visual",
+      "description": "La materia és visual per naturalesa (ciencies naturals, historia, geografia, educacio artistica)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_abstracte",
+      "description": "El text és abstracte i purament verbal (matematiques de calcul, filosofia) → cap il·lustració."
+    },
+    {
+      "name": "el_concepte_es_tecnic",
+      "description": "El concepte és tècnic-microscopic (cel·lula, atom, enzim) → formular a escala macro o ometre."
+    },
+    {
+      "name": "el_concepte_no_te",
+      "description": "El concepte no te representacio visual clara → no posar el marcador."
+    },
+    {
+      "name": "el_concepte_es_polisemic",
+      "description": "El concepte és polisemic sense context suficient al marcador → especificar el context al marcador (ex.: \"banc\" → `[IMATGE: banc de peixos]` o `[IMATGE: banc de fusta al parc]`; mai `[IMATGE: banc]`)."
+    },
+    {
+      "name": "suport_lexic_sistematic_complement",
+      "description": "Suport lexic sistematic → complement `pictogrames`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"Pots imaginar-ho?\" (seleccio del concepte).",
+      "descripcio": "Per a cada concepte del text, pregunto: \"Pots imaginar una imatge clara d'aquest concepte?\" Si la resposta és si facilment (gat, arbre, volca), potser no cal il·lustrar — l'alumne ja te la imatge mental. Si la resposta és no (fotosintesi, revolucio industrial, democracia), la il·lustració pot ajudar. Si no hi ha cap imatge possible clara, no posar el marcador."
+    },
+    {
+      "id": "H2",
+      "titol": "Pre-A1: imatge DAVANT, sempre.",
+      "descripcio": "L'ordre natural del text posa la imatge al costat o darrere del concepte. Per a pre-A1, cal invertir-ho: la imatge anticipa la paraula. L'alumne veu la imatge → el docent diu la paraula → l'alumne llegeix la paraula al text. Aquesta inversio és pedagogica, no estetica."
+    },
+    {
+      "id": "H3",
+      "titol": "El preset com a decisio pedagogica explicita.",
+      "descripcio": "Quan el docent tria el preset, ho fa com a decisio conscious. Explicar a la classe per que s'ha triat aquarel·la per a un conte i vectorial per a un article de ciencies és una llico de multimodalitat i de registre visual: cada context te el seu codi visual."
+    },
+    {
+      "id": "H4",
+      "titol": "Menys és mes (A2+).",
+      "descripcio": "Cada il·lustró afegeix carrega cognitiva. A B2-C1, una il·lustració sense valor informatiu addicional distreu en lloc d'ancorar. Proposo la regla: si puc explicar el concepte en dues frases sense la imatge i l'alumne ho entendra igualment, no posar el marcador."
+    },
+    {
+      "id": "H5",
+      "titol": "Il·lustracio vs pictograma: la pregunta de la funcio.",
+      "descripcio": "Quan dubto entre usar pictograma o il·lustració, em pregunto: \"Necessite suport lexic (aprendre la paraula) o suport conceptual (entendre el concepte)?\" Suport lexic → pictograma. Suport conceptual (proces, sistema, lloc, escena) → il·lustracó."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_a1_anticipacio_visual": {
+      "trigger": {
+        "raw": "pre_A1_A1_anticipacio_visual"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1, A1] OR fase_lectora_in: [logografica, alfabetica_emergent]\n\n**Modulació:**\n- posicio: marcador en línia pròpia DAVANT del paràgraf (no al costat ni darrere)\n- densitat: fins a 4-5 marcadors a pre-A1 i 3-4 a A1\n- especificitat: concepte molt concret i universal (1-3 paraules: 'gat', 'volcà en erupció')\n- preset: aquarel·la storybook o claymation per defecte\n\n**Raonament pedagògic.** La seqüència imatge → paraula és la lògica de l'aprenentatge inicial (MALL, Lectura "
+      }
+    },
+    "concepte_polisemic": {
+      "trigger": {
+        "raw": "concepte_polisemic"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** el concepte té múltiples referents visuals sense context suficient (p.e. 'banc', 'pla', 'cua', 'arc')\n\n**Modulació:**\n- marcador: SEMPRE desambiguar al propi marcador (`[IMATGE: banc de peixos]` o `[IMATGE: banc de fusta al parc]`, mai `[IMATGE: banc]`)\n- si_no_desambiguable_en_3_8_paraules: ometre el marcador\n\n**Raonament pedagògic.** El resolver Wikimedia/FLUX no té context del paràgraf; un marcador ambigu retorna una imatge irrellevant que distorsiona el significat (Mayer, princi"
+      }
+    },
+    "concepte_microscopic_o_abstracte": {
+      "trigger": {
+        "raw": "concepte_microscopic_o_abstracte"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** concepte sense referent visual macro clar (cèl·lula, àtom, enzim, justícia, infinit, democràcia abstracta)\n\n**Modulació:**\n- default: ometre el marcador\n- alternativa: reformular a escala macro o visualitzable ('cèl·lula' → `[IMATGE: cèl·lula animal vista al microscopi]`; 'democràcia' → `[IMATGE: cambra del parlament]`)\n\n**Raonament pedagògic.** Una il·lustració genèrica d'un concepte abstracte no ancora — distreu (Mayer, principi de redundància); millor cap imatge que una imatge bu"
+      }
+    },
+    "b2_c1_menys_es_mes": {
+      "trigger": {
+        "raw": "B2_C1_menys_es_mes"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B2, C1]\n\n**Modulació:**\n- densitat: 1-2 marcadors a B2, 0-1 a C1\n- especificitat: només per a diagrames, infografies, mapes temàtics o gràfics que condensin dades difícils de verbalitzar\n- preset: vectorial editorial, isomètric infogràfic o fotografia documental\n- posicio: dins del paràgraf com a suport a l'argument, mai en línia pròpia aïllada\n\n**Raonament pedagògic.** Als nivells alts la il·lustració no simplifica — ha d'aportar valor informatiu que el text no dóna en un"
+      }
+    },
+    "materia_no_visual": {
+      "trigger": {
+        "raw": "materia_no_visual"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** materia_in: [matematiques_calcul, filosofia_abstracta, llengua_gramatica] AND text purament verbal sense conceptes referencials\n\n**Modulació:**\n- default: 0 marcadors\n- si_complement_activat_pel_docent: màxim 1 marcador i només si hi ha un concepte concret puntual\n\n**Raonament pedagògic.** La càrrega visual gratuïta competeix amb el processament verbal que és precisament el focus d'aquestes matèries (principi de coherència de Mayer)."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "densitat",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_1_densitat].countable"
+    },
+    {
+      "name": "anticipacio_vs_ancoratge",
+      "type": "qualitative",
+      "rule": "pre-A1/A1: verificar que el marcador precedeix el paragraf (linia propia DAVANT); A2+: verificar que no hi ha marcadors en linia propia aillats (han d'anar dins del context del paragraf)"
+    }
+  ]
+}

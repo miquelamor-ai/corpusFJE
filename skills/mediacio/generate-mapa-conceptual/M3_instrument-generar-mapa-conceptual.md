@@ -60,6 +60,78 @@ Quan l'objectiu és comprendre el text → `mapa_conceptual`. Quan l'objectiu é
 Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com a organitzador del text adaptat** (COMPRENSIÓ ESTRUCTURADA). **No descriu la producció creativa de l'alumne**: el mapa es genera a partir del text adaptat; l'alumne el llegeix, l'usa com a bastida de comprensió i en pot fer un de propi com a activitat posterior.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → esquema de 2 imatges (imatge → paraula); `fase_lectora: alfabetica_emergent` → esquema de 2-3 nodes amb paraula curta.
 
+## Principi general
+
+**Regla de selecció simple.** Genera UN organitzador visual en markdown jeràrquic adaptat al MECR: esquema visual (pre-A1/A1, seqüències o parts d'un tot), mapa conceptual jeràrquic (A2-B2, Novak, concepte central → categories etiquetades → sub-elements) o mapa de contrast (C1, 2 columnes o branques en tensió). Els noms de branca han d'expressar SEMPRE la relació (Causes, Conseqüències, Tipus de, Processos), mai etiquetes genèriques (Informació, Coses, Dades).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si l'alumne està preparat per al pas d'esquema a mapa (decisió docent segons perfil) ni infereix relacions que no apareguin explícitament al text adaptat. Tampoc no genera ASCII-art ni inventa contingut que no provingui del text font: el contingut prové sempre del text adaptat, i la valoració de la rellevància categorial la fa el docent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### pre-A1_A1_emergent
+
+**Inclou si:**
+- Esquema visual pla (1 sol nivell).
+- Branques = parts d'un tot o moments d'una seqüència (1r, 2n, 3r; cap, cos, cua).
+- Concepte central = nom familiar i concret del text.
+- Fase logogràfica: parella imatge → paraula.
+
+**Exclou explícitament:**
+- Sub-elements.
+- Jerarquia lògica de categories.
+
+**Raonament pedagògic.** A pre-A1 i A1 la pregunta cognitiva és "en quin ordre va?" o "quines parts té?", no "com es relacionen?". Introduir jerarquia lògica seria una sobrecàrrega innecessària (H2 heurística).
+
+### A2_B1_B2_jerarquic
+
+**Inclou si:**
+- Mapa conceptual jeràrquic Novak.
+- Concepte central en negreta → 3-6 branques amb noms de categoria relacional.
+- 2-4 sub-elements per branca extrets o inferts del text.
+- Profunditat creixent (A2: 2 nivells; B1: 3; B2: 4 màxim).
+
+**Exclou explícitament:**
+- Noms de branca genèrics (Informació, Coses, Dades).
+- Contingut que no provingui del text adaptat.
+
+**Raonament pedagògic.** El pas d'esquema a mapa introdueix el pensament categorial (Novak, Ausubel): nomenar categories i les relacions entre elles és la prova de comprensió. La profunditat es gradua amb el MECR per protegir la càrrega cognitiva.
+
+### C1_contrast
+
+**Inclou si:**
+- Mapa de contrast en 2 columnes (taula markdown) o branques en tensió.
+- Comparació de fonts, ideologies o marcs interpretatius.
+- Sub-elements amb evidències o cites breus.
+
+**Exclou explícitament:**
+- Mapes jeràrquics simples sense tensió comparativa.
+
+**Raonament pedagògic.** A C1 la funció cognitiva és crítica: "llegir per avaluar". El contrast explícit entre fonts o marcs activa la dimensió crítica del MECR avançat.
+
+### DUA_acces_o_TDAH
+
+**Inclou si:**
+- Llindar inferior de densitat (vegeu H6).
+- Branques prioritzades sobre sub-elements.
+
+**Exclou explícitament:**
+- Sub-elements redundants.
+- Densitats altes (>H6 màxim).
+
+**Raonament pedagògic.** En perfils amb necessitat de reducció de càrrega cognitiva visual (TDAH, DUA Accés), la densitat moderada protegeix l'atenció executiva sense empobrir l'estructura.
+
+### nouvingut_L1
+
+**Inclou si:**
+- Mateixa estructura que el perfil base segons MECR.
+
+**Exclou explícitament:**
+- Columna L1 al mapa (l'organitzador és estructural, no lexical).
+
+**Raonament pedagògic.** Si cal suport L1 sobre el vocabulari del mapa, s'activa el complement `glossari` per separat. El mapa conceptual treballa l'arquitectura del coneixement, no el lèxic.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -96,6 +168,53 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 | **3. Branques principals** | Noms de categoria | 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua). | 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r). | 3-4 branques amb noms de categoria clars (Causes / Tipus / Efectes / Processos). Mai genèrics. | 3-5 branques amb noms de categoria disciplinars. Relació lògica explícita (no "Informació"). | 4-6 branques CALP. Les categories reflecteixen l'estructura del gènere treballat. | 2 columnes de contrast o 4-6 branques amb relació de tensió, contrast o complementarietat. |
 | **4. Sub-elements** | Detalls de les branques | Cap sub-element: l'esquema és pla (massa nivells per a pre-A1). | Cap sub-element: l'esquema és pla (màxim 1 nivell). | 2-3 sub-elements per branca. Termes curts, no frases llargues. Del text adaptat. | 3-4 sub-elements per branca. Inferts del text, no copiats literalment. | Sub-elements amb matisos. Pot incloure relacions transversals entre branques. | Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques. |
 | **5. Format de sortida** | Estructura markdown | `## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim. | `## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art. | `## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art. | `## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art. | `## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art. | `## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast. |
+
+## Casos especials
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica
+
+**Modulació:**
+- max_nodes_total: 2
+- format_node: imatge_mes_paraula
+- jerarquia: cap (cadena de 2 elements)
+- sub_elements: cap
+
+**Raonament pedagògic.** A la fase logogràfica l'alumne reconeix la imatge com a text però encara no descodifica grafies. L'esquema de 2 nodes (imatge → paraula) treballa el pas semàntic mínim sense forçar abstracció jeràrquica (Kuhn 1991; MALL pre-A1).
+
+### fase_lectora_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- max_nodes_total: 3
+- format_node: paraula_curta
+- jerarquia: cap (esquema pla)
+- sub_elements: cap
+
+**Raonament pedagògic.** A la fase alfabètica emergent l'alumne pot llegir paraules curtes però la jerarquia lògica és prematura. L'esquema pla de 2-3 nodes treballa la seqüència o les parts d'un tot sense sobrecàrrega categorial.
+
+### TDAH_carrega_cognitiva
+
+**Trigger:** perfil_in: [TDAH] OR dua_equals: Acces
+
+**Modulació:**
+- reduir_densitat_nodes: aplicar llindar inferior de H6 (pre-A1 ≤ 2; A1 ≤ 4; A2 ≤ 6; B1 ≤ 10; B2-C1 ≤ 12)
+- prioritzar: branques sobre sub-elements
+- eliminar: sub-elements redundants
+
+**Raonament pedagògic.** En perfils amb dificultats de regulació atencional o necessitat DUA d'Accés, la càrrega cognitiva visual és el factor limitant. Reduir densitat (H6) preserva l'estructura essencial sense empobrir el contingut conceptual.
+
+### AACC_exploracio_creativa
+
+**Trigger:** aacc: true AND objectiu: expandir_o_connectar
+
+**Modulació:**
+- redirigir_instrument: generate-mapa-mental (Buzan, B1+)
+- mantenir_mapa_conceptual_si: objectiu segueix sent comprendre l'estructura del text adaptat
+
+**Raonament pedagògic.** Per a alumnat AACC amb objectiu d'exploració creativa o connexió més enllà del text, el mapa mental (radial, divergent, Buzan) és l'instrument adequat. El mapa conceptual es manté quan l'objectiu cognitiu és comprensió estructurada del text (Novak vs Buzan, anti-senyal H4).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -139,6 +258,39 @@ Quan l'objectiu és que l'alumne escrigui un text expositiu, el mapa conceptual 
 
 **H6 — Densitat de nodes: menys és més.**
 Un mapa amb 15 nodes no és millor que un amb 8. La càrrega cognitiva òptima per nivell: pre-A1 ≤ 3 nodes totals; A1 ≤ 5; A2 ≤ 8; B1 ≤ 12; B2-C1 ≤ 15. Si el mapa supera el llindar, cal eliminar sub-elements o fusionar branques redundants. La densitat excessiva és l'error de qualitat més freqüent dels LLMs amb textos rics en informació.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte, alternatius segons MECR):**
+```
+## Esquema visual
+## Mapa conceptual
+## Mapa de contrast
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+no aplica
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Mapa
+## Organitzador
+## Mapa mental
+```
+
+**Regla d'integritat estructural.** Un únic H2 segons MECR: pre-A1/A1 → `## Esquema visual`; A2-B2 → `## Mapa conceptual`; C1 → `## Mapa de contrast`. Cap H3. Llista markdown amb sangria (concepte central → branques en negreta → sub-elements). PROHIBIT ASCII-art (│ ├ └ →). C1 admet taula 2 columnes. Sense aquests literals H2 exactes, el parser del frontend no detecta el complement i la rúbrica gradada no s'ancora al text.
 
 ## Fonts principals
 

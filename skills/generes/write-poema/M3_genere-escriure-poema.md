@@ -47,6 +47,100 @@ El poema és un text literari que usa el vers com a unitat ritmica i la imatge c
 Aquesta rubrica descriu el **poema adaptat per a la LECTURA** de l'alumne. **No descriu la produccio autonoma** — la produccio és tasca d'un derivat propi. Principi pedagogic MALL: l'alumne llegeix models al maxim del seu abast.
 **Sub-granularitat dins de pre-A1**: es treballa amb `fase_lectora: logografica` (oral i pictografic, mediat per adult) i `fase_lectora: alfabetica_emergent` (oral + primer text escrit); no s'exclou el nivell logografic perque el poema oral no requereix llegir.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un text en forma de poema: una unitat lírica organitzada en estrofes i versos (un vers per línia), amb almenys una imatge o metàfora concreta i un ritme perceptible (rima o cadència) adequat al nivell MECR objectiu. Modula vocabulari, metàfores i ritme segons la taula de modulació, però MAI eliminis l'estructura estròfica ni els salts de línia: si la forma es trenca, el text deixa de ser un poema.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha d'avaluar el valor estètic ni l'originalitat literària del poema, ni decidir quina metàfora del text font és 'massa abstracta' per a un alumne concret, ni jutjar la qualitat de la veu poètica resultant. La decisió final sobre acceptabilitat poètica i adequació al grup la pren qui ensenya; el LLM només garanteix la forma (estrofes, versos per línia, imatge concreta, ritme perceptible) i l'adequació lèxica al MECR.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### default
+
+**Inclou si:**
+- estructura_estrofica_visible
+- un_vers_per_linia
+- almenys_una_imatge_concreta_per_estrofa
+- ritme_perceptible_segons_MECR
+
+**Exclou explicitament:**
+- text_renderitzat_com_a_prosa
+- versos_partits_o_units_sense_intencio
+
+**Raonament pedagògic.** El default aplica la cel·la MECR de la taula Modulació mantenint la forma poètica com a contingut: si es trenca l'estructura, el text deixa de pertànyer al gènere.
+
+### preA1
+
+**Inclou si:**
+- format_oral_rodoli_o_canço
+- 2_a_4_versos
+- rima_aaaa_o_aabb
+- 1_imatge_concreta
+- vocabulari_quotidia
+- mediacio_adulta_per_l_escriptura
+
+**Exclou explicitament:**
+- escriptura_autonoma_alumne
+- metafores_de_segon_nivell
+
+**Raonament pedagògic.** A pre-A1 la poesia és oral i lúdica (decisió D6); rodolins i cançons són bastida fonètica i prosòdica de la llengua nova (MALL, eix oral-escrit).
+
+### A1_A2
+
+**Inclou si:**
+- 1_a_3_estrofes_de_2_a_4_versos
+- rima_consonant_senzilla
+- una_comparacio_o_metafora_concreta_per_estrofa
+- vocabulari_quotidia_amb_max_1_o_2_paraules_noves_contextualitzades
+
+**Exclou explicitament:**
+- metafores_abstractes_o_simbolisme_de_segon_nivell
+- vocabulari_rebuscat
+
+**Raonament pedagògic.** A A1-A2 la rima funciona com a bastida de memòria i de risc lingüístic; la metàfora concreta connecta el text font amb l'experiència sensorial de l'alumne (ZDP).
+
+### B1
+
+**Inclou si:**
+- 3_a_4_estrofes
+- estructura_conscient
+- metafora_que_connecta_concepte_nou_amb_experiencia_de_l_alumne
+- ritme_que_pot_prescindir_de_rima_si_la_cadencia_es_mante
+
+**Exclou explicitament:**
+- rima_forçada_que_distorsiona_significat
+
+**Raonament pedagògic.** A B1 l'alumne ja pot sostenir intenció estructural; la metàfora opera com a pont cognitiu dins la ZDP de Vygotsky.
+
+### B2_C1
+
+**Inclou si:**
+- estructura_variada_amb_intencionalitat
+- 2_a_3_imatges_elaborades_coherents
+- vocabulari_ric_i_precis
+- veu_poetica_personal_i_reconeixible
+- a_C1_estructura_lliure_i_recursos_com_sinestesia_o_metafora_mixta
+
+**Exclou explicitament:**
+- empobriment_lexic_artificial
+
+**Raonament pedagògic.** A B2-C1 es manté sostre alt: l'alumne treballa la forma com a eina expressiva conscient (funció poètica de Jakobson).
+
+### nouvingut_L1
+
+**Inclou si:**
+- estrategia_canço_pont_L1
+- bastida_oral_en_L1
+- rima_final_regular_per_ancorar_memoria
+- imatges_sensorials_i_universals
+
+**Exclou explicitament:**
+- L1_al_text_final_del_poema (translanguaging: false al frontmatter)
+
+**Raonament pedagògic.** Vegeu cas especial 'nouvingut_L1_canço_pont': la musicalitat de la L1 transfereix (TOLC, Cummins); cantar el poema en la nova llengua activa connexió identitària i memòria afectiva. El poema escrit final queda monolingüe en català.
+
 ## Detecció
 
 **Senyals docent** (quan adaptar a poema):
@@ -84,6 +178,46 @@ Aquesta rubrica descriu el **poema adaptat per a la LECTURA** de l'alumne. **No 
 | **5. Ritme (rima/cadencia)** | Musicalitat | Rima final simple i molt repetitiva. L'adult guia la rima (aaaa o aabb). | Rima consonant senzilla al final del vers (parells o alternada). | Rima consonant o assonant. Pot ser alternada. Ritme regular perceptible. | Ritme conscient. Pot renunciar a la rima si la cadencia es manté. | Varietat ritmica. Pot combinar versos amb rima i versos blancs. | Ritme com a eina expressiva. Alteracio conscient del ritme per crear efecte. |
 | **6. Veu poetica (jo liric)** | Perspectiva i autoria | L'alumne expressa oralment com se sent davant d'una cosa. L'adult escriu. | "Jo" visible i consistent. El poema parla des d'una perspectiva clara. | Veu del jo liric consistent durant tot el poema. No canviar de perspectiva. | Distincio entre jo liric i autor. Pot explorar una veu diferent de la propia. | Veu poetica personal i reconeixible. El lector nota qui parla. | Veu poetica plenament elaborada amb distancia critica o ironia si escau. |
 | **7. Autoavaluacio** | Metacognicao | — | "He escrit 2 estrofes. He posat una comparacio (com un...)." | "Cada estrofa te la seva idea. He mantingut la rima fins al final." | "La meva metafora connecta el tema amb alguna cosa que conec. El ritme es manté." | "He triat les paraules per la seva sonoritat. La veu del poema és consistent." | "El meu poema te una veu propia. Les imatges son originals i el ritme és intencional." |
+
+## Casos especials
+
+### preA1_oral_mediat
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora_in: [logografica, alfabetica_emergent]
+
+**Modulació:**
+- format_sortida: rodolí o cançó curta de 2-4 versos amb rima molt repetitiva (aaaa o aabb)
+- densitat_imatges: 1 imatge concreta i visible (sol, lluna, gat)
+- vocabulari: només paraules quotidianes que l'alumne ja usa
+- no_escriptura_autonoma: true (l'adult escriu; l'alumne recita, repeteix o completa)
+- pas_7_autoavaluacio: omès (no aplica)
+
+**Raonament pedagògic.** A pre-A1 la poesia és oral i lúdica; rodolins i cançons són bastida fonètica i prosòdica de la llengua nova (MALL, eix oral-escrit). La producció escrita autònoma està fora de la ZDP; la mediació adulta i la repetició cantada són el motor d'aprenentatge.
+
+### nouvingut_L1_canço_pont
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [pre-A1, A1, A2]
+
+**Modulació:**
+- estrategia_recomanada: partir d'una cançó o rodolí que l'alumne coneix en L1 i buscar-ne un equivalent o adaptació en català
+- translanguaging_oral: sí (ús de la L1 oral com a bastida fonètica i emocional, sense afegir L1 al text del poema final)
+- densitat_rima: alta (rima final regular per ancorar memòria)
+- imatges: sensorials i universals (foc, aigua, mare, casa)
+
+**Raonament pedagògic.** La musicalitat de la L1 transfereix (TOLC, Cummins); cantar el poema en la nova llengua activa connexió identitària i memòria afectiva. El poema escrit no porta L1 (translanguaging: false al frontmatter) però el procés oral sí l'aprofita.
+
+### DUA_acces_perfil_visual_auditiu
+
+**Trigger:** dua_equals: Acces AND (perfil_in: [TDAH, dislexia] OR força_auditiva: true)
+
+**Modulació:**
+- lectura_veu_alta_obligatoria: true (presentar el poema sonor abans del visual)
+- rima: consonant i regular (no rima blanca ni encavalcament)
+- longitud_max_vers: 6-8 síl·labes
+- metafores: només concretes i sensorials (evitar simbolisme de segon nivell)
+- suport_visual_opcional: il·lustració o pictograma per estrofa que ancori la imatge clau
+
+**Raonament pedagògic.** El ritme regular i la rima funcionen com a bastida atencional i mnemotècnica; la lectura en veu alta activa el canal auditiu i fa accessibles metàfores que semblen difícils en lectura silenciosa (H3 del propi instrument).
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -125,6 +259,37 @@ Quan una metafora resulta abstracta, demano: "Que veus quan llegeixes 'l'astre f
 
 **H5 — Cançó equivalent a pre-A1/A1.**
 A pre-A1 i A1, proposo partir d'una canço que l'alumne coneix en la seva L1 i trobar-ne una equivalent en catala. La musicalitat de la L1 transfereix (TOLC). Cantar el poema en la nova llengua és una bastida fonetica i emocional que facilita la memoritzacio i la connexio afectiva amb la llengua.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Poema
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+cap (el poema és una unitat lírica única; no es divideix en H3 dins de ## Poema)
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[ESTROFA]   <!-- opcional: separador explícit d'estrofa quan la línia en blanc no es renderitza prou clarament -->
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Estrofes
+## Versos
+## Rima
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Poema` i sense salts de línia explícits entre versos (un vers per línia) i entre estrofes (línia en blanc), el parser del frontend no detecta la unitat poètica i renderitza el text com a prosa, perdent la forma que és el contingut del gènere.
 
 ## Fonts principals
 

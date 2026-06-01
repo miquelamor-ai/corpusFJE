@@ -1,0 +1,490 @@
+{
+  "_meta": {
+    "name": "rubrica_write_divulgatiu",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-divulgatiu\\M3_genere-escriure-divulgatiu.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-divulgatiu",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "divulgatiu",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat causal del text original, incloent matisos i controvèrsies."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_captacio",
+          "descriptor": "Títol clar i directe. Diu el tema sense metàfores."
+        },
+        {
+          "pas_id": "pas_2_motivacio_i_context",
+          "descriptor": "1 frase que anuncia el tema."
+        },
+        {
+          "pas_id": "pas_3_causa_efecte_i",
+          "descriptor": "2-3 paràgrafs molt curts. Un fet explicat com a procés (no llista de fets).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_context",
+          "descriptor": "Xifres molt simples i arrodonides: \"uns quants milers\"."
+        },
+        {
+          "pas_id": "pas_5_credibilitat_i_font",
+          "descriptor": "Sense cites (massa complex per a A1)."
+        },
+        {
+          "pas_id": "pas_6_accessibilitat_i_connexio",
+          "descriptor": "1 exemple per paràgraf, pres del context immediat de l'alumne."
+        },
+        {
+          "pas_id": "pas_7_tecnicismes",
+          "descriptor": "Sense tecnicismes o amb explicació immediata entre parèntesis."
+        },
+        {
+          "pas_id": "pas_7_llargada",
+          "descriptor": "2-3 paràgrafs molt curts (2-3 frases cadascun) + entradeta (1 frase).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fenomen principal i a la relació causal bàsica."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He escrit un títol clar i una frase d'introducció. He explicat el tema en 2-3 paràgrafs curts.\"",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "parraps"
+          }
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_captacio",
+          "descriptor": "Títol informatiu i lleugerament captador. Sense metàfores obscures."
+        },
+        {
+          "pas_id": "pas_2_motivacio_i_context",
+          "descriptor": "2 frases: ganxo inicial (pregunta o dada) + anunci del tema.",
+          "countable": {
+            "min": 2,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_causa_efecte_i",
+          "descriptor": "3-4 paràgrafs narrativitzats. No llista de fets. Exemple per paràgraf.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_context",
+          "descriptor": "Xifres arrodonides i contextualitzades: \"gairebé dos milions\"."
+        },
+        {
+          "pas_id": "pas_5_credibilitat_i_font",
+          "descriptor": "1 cita màxim, atribució simple: \"diu la científica X\"."
+        },
+        {
+          "pas_id": "pas_6_accessibilitat_i_connexio",
+          "descriptor": "1 exemple concret i quotidià per paràgraf. Accessible per a l'alumne."
+        },
+        {
+          "pas_id": "pas_7_tecnicismes",
+          "descriptor": "Tecnicismes en negreta + explicació breu integrada al text."
+        },
+        {
+          "pas_id": "pas_7_llargada",
+          "descriptor": "4-5 paràgrafs curts + entradeta.",
+          "countable": {
+            "min": 4,
+            "max": 5,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fenomen, a la relació causal i a l'entradeta captadora."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He escrit una entradeta que capta l'atenció. He explicat el tema amb exemples quotidians.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_captacio",
+          "descriptor": "Títol captador (pregunta o xifra sorprenent). Clar i directe."
+        },
+        {
+          "pas_id": "pas_2_motivacio_i_context",
+          "descriptor": "Entradeta clara que crea expectativa sense revelar tot el contingut."
+        },
+        {
+          "pas_id": "pas_3_causa_efecte_i",
+          "descriptor": "4-5 paràgrafs. El contingut s'explica com una historia (causa → efecte → implicació).",
+          "countable": {
+            "min": 4,
+            "max": 5,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_context",
+          "descriptor": "Xifres arrodonides amb comparació: \"més de dos milions, una xifra equivalent a...\"."
+        },
+        {
+          "pas_id": "pas_5_credibilitat_i_font",
+          "descriptor": "1-2 cites breus. Atribució clara: \"com explica la doctora X, investigadora de...\"."
+        },
+        {
+          "pas_id": "pas_6_accessibilitat_i_connexio",
+          "descriptor": "Exemples concrets i variats. Connectats al text, no digressius."
+        },
+        {
+          "pas_id": "pas_7_tecnicismes",
+          "descriptor": "Tecnicismes amb explicació contextualitzada (no glossari extern)."
+        },
+        {
+          "pas_id": "pas_7_llargada",
+          "descriptor": "5-6 paràgrafs + entradeta + tancament.",
+          "countable": {
+            "min": 5,
+            "max": 6,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fenomen, a la relació causal i al to divulgatiu del text original."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He narrativitzat el contingut (no he fet una llista de fets). He posat una cita amb nom de l'expert.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_captacio",
+          "descriptor": "Títol captador i precís. Pot tenir un subratllat temàtic."
+        },
+        {
+          "pas_id": "pas_2_motivacio_i_context",
+          "descriptor": "Entradeta elaborada que contextualitza el fenomen i capta l'atenció."
+        },
+        {
+          "pas_id": "pas_3_causa_efecte_i",
+          "descriptor": "Narrativització elaborada. Cada paràgraf avança la comprensió del fenomen."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_context",
+          "descriptor": "Xifres precises amb font i comparació contextualitzada."
+        },
+        {
+          "pas_id": "pas_5_credibilitat_i_font",
+          "descriptor": "2-3 cites ben atribuïdes. Contrast de perspectives si escau."
+        },
+        {
+          "pas_id": "pas_6_accessibilitat_i_connexio",
+          "descriptor": "Exemples concrets amb connexió explícita amb el concepte que il·lustren."
+        },
+        {
+          "pas_id": "pas_7_tecnicismes",
+          "descriptor": "Tecnicismes amb precisió disciplinar. Explicació en primera menció."
+        },
+        {
+          "pas_id": "pas_7_llargada",
+          "descriptor": "6-7 paràgrafs ben estructurats.",
+          "countable": {
+            "min": 6,
+            "max": 7,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fenomen, a les dades, al context i al to."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He relacionat causes i efectes del fenomen. He usat dades estadístiques amb la font.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_claredat_i_captacio",
+          "descriptor": "Títol complex i suggeridor. Pot ser provocatiu però no obscur."
+        },
+        {
+          "pas_id": "pas_2_motivacio_i_context",
+          "descriptor": "Entradeta sofisticada que situa el tema en un context ampli i crea intriga."
+        },
+        {
+          "pas_id": "pas_3_causa_efecte_i",
+          "descriptor": "Text narrativitzat complet. Pot incloure controvèrsies científiques presentades de forma accessible."
+        },
+        {
+          "pas_id": "pas_4_accessibilitat_i_context",
+          "descriptor": "Xifres amb anàlisi crítica de la seva significació estadística."
+        },
+        {
+          "pas_id": "pas_5_credibilitat_i_font",
+          "descriptor": "Múltiples fonts ben atribuïdes. Pot incloure controvèrsia científica sobre el fenomen."
+        },
+        {
+          "pas_id": "pas_6_accessibilitat_i_connexio",
+          "descriptor": "Exemples variats, alguns trets de contexts no quotidians."
+        },
+        {
+          "pas_id": "pas_7_tecnicismes",
+          "descriptor": "Terminologia completa. Pot assumir coneixements previs en la primera menció."
+        },
+        {
+          "pas_id": "pas_7_llargada",
+          "descriptor": "Text complet amb tots els elements del gènere."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat causal del text original, incloent matisos i controvèrsies."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He presentat el tema des de diverses perspectives i he inclòs el context científic ampli.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_claredat_i_captacio",
+      "titol": "Títol captador",
+      "dimensio": "Claredat i captació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de títol; qualitative: LLM-jutge sobre captació per nivell"
+    },
+    {
+      "id": "pas_2_motivacio_i_context",
+      "titol": "Entradeta (ganxo)",
+      "dimensio": "Motivació i context",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar presència d'entradeta diferenciada del cos; LLM-jutge sobre la creació d'expectativa"
+    },
+    {
+      "id": "pas_3_causa_efecte_i",
+      "titol": "Narrativització del contingut",
+      "dimensio": "Causa-efecte i coherència",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el contingut s'explica com a procés o historia? Detectar llista de fets sense narrativitzar (senyals: \"Primer... Després... Finalment...\" sense connectius causals)"
+    },
+    {
+      "id": "pas_4_accessibilitat_i_context",
+      "titol": "Xifres arrodonides",
+      "dimensio": "Accessibilitat i context",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: xifres no arrodonides amb decimals o precisió excessiva; qualitative: LLM-jutge sobre adequació al nivell"
+    },
+    {
+      "id": "pas_5_credibilitat_i_font",
+      "titol": "Cites i atribució",
+      "dimensio": "Credibilitat i font",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de cites a B1+; qualitative: LLM-jutge sobre claredat d'atribució"
+    },
+    {
+      "id": "pas_6_accessibilitat_i_connexio",
+      "titol": "Exemples concrets",
+      "dimensio": "Accessibilitat i connexió",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: exemple concret per paràgraf; accessible per al nivell"
+    },
+    {
+      "id": "pas_7_tecnicismes",
+      "titol": "Criteris transversals",
+      "dimensio": "Tecnicismes",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de tecnicismes sense explicació a A1-A2; qualitative: adequació de l'explicació"
+    },
+    {
+      "id": "pas_7_llargada",
+      "titol": "Criteris transversals",
+      "dimensio": "Llargada",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar paràgrafs; verificar llindar per nivell"
+    },
+    {
+      "id": "pas_7_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar fenomen principal, relació causal i entradeta original vs adaptats"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera un text divulgatiu complet (títol + entradeta + 2-7 paràgrafs narrativitzats segons MECR) que expliqui un fenomen científic o tècnic via la cadena causa-efecte-implicació, amb xifres arrodonides i, a partir de B1, cites atribuïdes.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si el contingut està efectivament narrativitzat (vs llista de fets encoberta) ni jutja l'adequació de l'entradeta a l'alumne concret; aplica els llindars estructurals del MECR objectiu i delega el judici pedagògic al docent."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un article de revista científica, de divulgació (National Geographic, SuperSaber, Muy Interesante) o un reportatge temàtic."
+    },
+    {
+      "name": "la_unitat_de_ciencies",
+      "description": "La unitat de Ciències Naturals, Ciències Socials, Tecnologia o Salut treballa un fenomen que cal explicar de manera accessible."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir per comprendre com funciona un fenomen (no per memoritzar una llista de fets)."
+    },
+    {
+      "name": "la_materia_demana_que",
+      "description": "La matèria demana que l'alumne pugui explicar el fenomen a un altre alumne amb les seves pròpies paraules."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_narra_una",
+      "description": "El text narra una historia de ficció o real → conte o biografia."
+    },
+    {
+      "name": "el_text_defensa_una",
+      "description": "El text defensa una postura amb arguments → assaig o opinió."
+    },
+    {
+      "name": "el_text_enumera_caracteristiques",
+      "description": "El text enumera característiques d'un objecte o persona → descripció."
+    },
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dona instruccions per fer alguna cosa → instructiu o receptari."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "L'entradeta com a pregunta o xifra.",
+      "descripcio": "Dues fórmules que sempre funcionen: (1) Pregunta directa: \"Saps per qué el cel és blau?\" (2) Xifra sorprenent: \"Cada any es llencen 1.300 milions de tones de menjar al món.\" A A1-A2, proposo una de les dues plantilles i l'alumne omple el buit amb el tema de la unitat."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Explica-m'ho com si tingués 10 anys\".",
+      "descripcio": "Quan l'alumne perd el to narratiu i cau en la llista de fets, la pregunta és: \"Com ho explicaries a un nen de 10 anys que no sap res del tema?\" La resposta és gairebé sempre un paràgraf divulgatiu ben narrativitzat. Funciona des de A2."
+    },
+    {
+      "id": "H3",
+      "titol": "La cadena causal com a estructura.",
+      "descripcio": "Per a cada paràgraf del cos, proposo l'esquema: \"PER QUÈ passa X? COM passa X? QUÈ implica X?\" Cada pregunta és una frase o dues. Tres preguntes = un paràgraf narrativitzat. L'alumne no ha de saber escriure divulgatiu; ha de saber respondre tres preguntes."
+    },
+    {
+      "id": "H4",
+      "titol": "Arrodonir sempre, contextualitzar sempre.",
+      "descripcio": "Cada xifra necessita dues operacions: (1) arrodonir fins a un número significatiu (\"gairebé dos milions\" en lloc de \"1.983.421\"); (2) contextualitzar amb una comparació familiar (\"el doble de la població de Catalunya\"). Sense contextualització, la xifra no construeix comprensió."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_alfabetica_emergent_a1": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent_A1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- max_paragrafs: 2\n- max_frases_per_paragraf: 2\n- entradeta_obligatoria: 1 frase\n- cites: prohibides\n- tecnicismes: sense, o amb explicació immediata entre parèntesis\n- xifres: arrodonides molt simples\n\n**Raonament pedagògic.** A A1 amb fase lectora encara emergent, la descodificació consumeix recursos i no es pot demanar la càrrega causal d'un text llarg. Reduir paràgrafs i frases manté la narrativització "
+      }
+    },
+    "fase_lectora_alfabetica_fluida_a1": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_fluida_A1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_fluida\n\n**Modulació:**\n- max_paragrafs: 3\n- frases_per_paragraf: 2-3\n- entradeta_obligatoria: 1 frase\n- cites: prohibides\n- tecnicismes: amb explicació immediata\n- xifres: arrodonides simples\n\n**Raonament pedagògic.** Amb fase lectora fluïda dins d'A1, l'alumne pot sostenir un paràgraf més i una mica més de densitat per frase, però encara no està preparat per a cites atribuïdes (Pas 5 prohibit). La narrativització causal es manté c"
+      }
+    },
+    "b2_plus_hcl_justificar": {
+      "trigger": {
+        "raw": "B2_plus_HCL_justificar"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B2, C1]\n\n**Modulació:**\n- afegeix_HCL_secundari: Justificar\n- cites_minimes: 2\n- atribucio_completa_obligatoria: nom + càrrec/institució\n- contrast_perspectives_si_aplica: true\n\n**Raonament pedagògic.** A B2+ l'HCL Justificar s'activa com a HCL secundària: el text divulgatiu deixa de ser només explicació per esdevenir també argumentació amb evidència atribuïda. Les cites múltiples i el contrast de perspectives ensenyen a diferenciar informació de font, principi bàsic del p"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "llargada",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_7_llargada].countable"
+    }
+  ]
+}

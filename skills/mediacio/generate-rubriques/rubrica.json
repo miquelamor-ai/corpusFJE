@@ -1,0 +1,379 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_rubriques",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-rubriques\\M3_instrument-generar-rubriques.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-rubriques",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "rubriques",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_de_l",
+          "descriptor": "Checklist d'icones: ✅ / ❌ per a cada ítem. Sense escala. Molt visual. Adult media la revisió oral."
+        },
+        {
+          "pas_id": "pas_2_amplitud_d_avaluacio",
+          "descriptor": "2-3 criteris molt concrets i visuals. Accionables a pre-A1 (He dibuixat / He assenyalat).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_descriptor",
+          "descriptor": "Acció visible: \"He dibuixat els 3 moments.\" / \"He assenyalat el personatge.\" Mai \"He fet bé\"."
+        },
+        {
+          "pas_id": "pas_4_perspectiva_alumne_facing",
+          "descriptor": "\"He fet ___ / He posat ___.\" Molt concret i físic."
+        },
+        {
+          "pas_id": "pas_5_naturalesa_de_l",
+          "descriptor": "Cap descriptor AE: checklist binari."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_de_l",
+          "descriptor": "Taula simplificada: 2-3 criteris × 3 nivells (Encara no / Sí / Sí, i alguna cosa més). Sense vocabulari FJE.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_2_amplitud_d_avaluacio",
+          "descriptor": "2-3 criteris accionables. Corresponen a les tasques concretes demandades.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_descriptor",
+          "descriptor": "Observable: \"He escrit 3 passos numerats.\" Sense adjectius valoratius."
+        },
+        {
+          "pas_id": "pas_4_perspectiva_alumne_facing",
+          "descriptor": "\"He escrit ___ / He usat ___.\" Primera persona consistent en tota la rúbrica."
+        },
+        {
+          "pas_id": "pas_5_naturalesa_de_l",
+          "descriptor": "Descriptor AE = precisió o originalitat dins del límit: \"He triat una paraula que no estava a la bastida però que explica exactament el que volia dir.\" No \"he afegit coses\" ni \"ho he fet molt bé\"."
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_de_l",
+          "descriptor": "Taula: 3-4 criteris × escala FJE completa (NA/AS/AN/AE). Primera escala gradada.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_2_amplitud_d_avaluacio",
+          "descriptor": "3-4 criteris del gènere o la tasca concreta.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_descriptor",
+          "descriptor": "Observable amb indicadors: \"He escrit la idea principal a la 1a frase, sense 'Aquest text parla de…'.\""
+        },
+        {
+          "pas_id": "pas_4_perspectiva_alumne_facing",
+          "descriptor": "\"He escrit / He usat / He inclòs ___.\" Primera persona en tot el document."
+        },
+        {
+          "pas_id": "pas_5_naturalesa_de_l",
+          "descriptor": "Descriptor AE = qualitat que transforma: una imatge pròpia, un connector inesperat, un exemple original no donat a la bastida."
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_de_l",
+          "descriptor": "Taula: 4-5 criteris × escala FJE. Descriptor breu per a cada criteri i nivell.",
+          "countable": {
+            "min": 4,
+            "max": 5,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_2_amplitud_d_avaluacio",
+          "descriptor": "4-5 criteris que cobreixen les HCL clau de la tasca (Argumentar, Descriure, Narrar...).",
+          "countable": {
+            "min": 4,
+            "max": 5,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_descriptor",
+          "descriptor": "Apunta a la qualitat: \"Cada argument inclou una evidència del text o una raó concreta.\""
+        },
+        {
+          "pas_id": "pas_4_perspectiva_alumne_facing",
+          "descriptor": "\"He argumentat / He justificat / He demostrat ___.\" HCL en primera persona."
+        },
+        {
+          "pas_id": "pas_5_naturalesa_de_l",
+          "descriptor": "Descriptor AE = habilitat que anticipa el nivell següent: un argument no donat per la bastida, una connexió pròpia entre dues idees del text."
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_de_l",
+          "descriptor": "Taula: 5-6 criteris × escala FJE + descriptor observatble per a cada criteri i nivell.",
+          "countable": {
+            "min": 5,
+            "max": 6,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_2_amplitud_d_avaluacio",
+          "descriptor": "5-6 criteris que inclouen dimensió formal (llengua) i dimensió de contingut (idees).",
+          "countable": {
+            "min": 5,
+            "max": 6,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_descriptor",
+          "descriptor": "Apunta a la relació: \"He connectat les idees de seccions diferents usant connectors precisos.\""
+        },
+        {
+          "pas_id": "pas_4_perspectiva_alumne_facing",
+          "descriptor": "\"He analitzat / He contrastat / He elaborat ___.\" HCL acadèmiques en 1a persona."
+        },
+        {
+          "pas_id": "pas_5_naturalesa_de_l",
+          "descriptor": "Descriptor AE = evidència de pensament crític: detectar un biaix, contrastar fonts, plantejar una objecció fonamentada."
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_de_l",
+          "descriptor": "Taula: 5-6 criteris × escala FJE + reflexió metacognitiva final (1-2 frases lliures).",
+          "countable": {
+            "min": 5,
+            "max": 6,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_2_amplitud_d_avaluacio",
+          "descriptor": "5-6 criteris amb criteri de reflexió metacognitiva (\"He revisat el text i he millorat ___\").",
+          "countable": {
+            "min": 5,
+            "max": 6,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_3_concretesa_del_descriptor",
+          "descriptor": "Metacognitiu: \"He detectat i corregit al menys un error de coherència o un terme imprecís.\""
+        },
+        {
+          "pas_id": "pas_4_perspectiva_alumne_facing",
+          "descriptor": "\"He reflexionat / He avaluat / He detectat ___.\" Metacognició en 1a persona."
+        },
+        {
+          "pas_id": "pas_5_naturalesa_de_l",
+          "descriptor": "Descriptor AE = reflexió que demostra metacognició genuïna i transferència a altres contexts o tasques."
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_estructura_de_l",
+      "titol": "Format",
+      "dimensio": "Estructura de l'instrument",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "structural: pre-A1 = checklist ✅/❌ sense taula; A1 = taula 3 nivells etiquetes exactes (\"Encara no\" / \"Sí\" / \"Sí, i alguna cosa més\") — error si usa \"Molt bé\" o nomenclatures FJE; A2+ = taula escala FJE (NA/AS/AN/AE) etiquetes exactes; binary: escala FJE present des d'A2+ (no des d'A1); pre-A1 = cap escala FJE"
+    },
+    {
+      "id": "pas_2_amplitud_d_avaluacio",
+      "titol": "Nombre de criteris",
+      "dimensio": "Amplitud d'avaluació",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "countable: pre-A1/A1: 2-3 criteris; A2-B1: 3-5; B2-C1: 5-6; detectar si hi ha massa criteris (>6) = sobrecàrrega cognitiva"
+    },
+    {
+      "id": "pas_3_concretesa_del_descriptor",
+      "titol": "Descriptors observables",
+      "dimensio": "Concretesa del descriptor",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el descriptor és observable (l'alumne pot comprovar si ho ha fet — positiu) o valoratiu genèric (\"He fet bé\", \"He treballat molt\" — negatiu); cross_source: verificar que els descriptors son coherents amb la tasca i el gènere del text font"
+    },
+    {
+      "id": "pas_4_perspectiva_alumne_facing",
+      "titol": "Primera persona",
+      "dimensio": "Perspectiva alumne-facing",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: detectar descriptors en 3a persona (\"L'alumne ha escrit...\") o 2a persona (\"Has escrit...\") — error crític; tots els descriptors han d'estar en 1a persona singular"
+    },
+    {
+      "id": "pas_5_naturalesa_de_l",
+      "titol": "Descriptor AE (salt qualitatiu)",
+      "dimensio": "Naturalesa de l'excel·lència",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "qualitative: LLM-jutge sobre si el descriptor AE és un salt qualitatiu real (positiu: \"He detectat un biaix que els altres no han detectat\") o una gradació quantitativa (\"He fet molt bé tot el que es demanava\" — negatiu = error crític); pre-A1: verificar absencia de descriptor AE"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera una rúbrica d'autoavaluació alumne-facing en primera persona del singular, amb escala FJE (NA/AS/AN/AE) i descriptors observables. A pre-A1, substitueix l'escala FJE per un checklist binari d'icones (✅/❌) sense gradació. El nombre de criteris i la naturalesa del descriptor AE es modulen segons el nivell MECR.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix quins criteris pedagògics són rellevants per a la tasca concreta de l'aula ni jutja si l'alumne real té capacitat metacognitiva per autoavaluar-se. Genera l'estructura i descriptors observables segons el nivell MECR i el gènere; la validació de la pertinença pedagògica i l'ajust al context d'aula és del docent."
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_rubriques_al",
+      "description": "Ha activat \"Rúbriques\" al Pas 2."
+    },
+    {
+      "name": "vol_que_l_alumne",
+      "description": "Vol que l'alumne s'autoavalui amb criteris explícits i compartits."
+    },
+    {
+      "name": "prepara_una_activitat_de",
+      "description": "Prepara una activitat de producció i vol que l'alumne conegui els criteris ABANS d'escriure."
+    },
+    {
+      "name": "treballa_la_metacognicio_i",
+      "description": "Treballa la metacognició i la regulació de l'aprenentatge."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "pauta_d_interrogacio_durant",
+      "description": "Pauta d'interrogació durant el procés d'escriptura → `bastides_produccio` Bloc C."
+    },
+    {
+      "name": "rubrica_del_docent_per",
+      "description": "Rúbrica del docent per a avaluació sumativa → eina docent externa, fora d'aquest instrument."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El test de la primera persona.",
+      "descripcio": "Llegeixo cada descriptor i em pregunto: \"Pot l'alumne dir això de si mateix en referència a la seva feina acabada?\" Si no, cal reescriure'l en 1a persona del singular, referit al producte final: \"He escrit...\" / \"He usat...\" / \"He argumentat...\". Un descriptor que comença per \"L'alumne\" o \"Has\" és un descriptor de docent disfressat."
+    },
+    {
+      "id": "H2",
+      "titol": "El test del descriptor AE.",
+      "descripcio": "Llegeixo el descriptor AE i em pregunto: \"Podria un alumne que simplement ha treballat dur (i ha fet exactament el que es demanava) marcar AE?\" Si la resposta és sí, no és un salt qualitatiu — és una gradació quantitativa d'esforç. Cal reescriure l'AE amb alguna cosa que sorprèn: una connexió inesperada, una crítica argumentada, una extensió creativa."
+    },
+    {
+      "id": "H3",
+      "titol": "El test de l'observabilitat.",
+      "descripcio": "Llegeixo cada descriptor i em pregunto: \"Pot l'alumne verificar si ho ha fet simplement mirant el seu text?\" \"He escrit la idea principal a la 1a frase\" és verificable (l'alumne mira la 1a frase). \"He escrit bé\" no és verificable (qué és \"bé\"?). Els descriptors observables permeten a l'alumne fer l'autoavaluació sense preguntar al docent."
+    },
+    {
+      "id": "H4",
+      "titol": "Rúbrica ABANS de produir, no sols DESPRÉS.",
+      "descripcio": "Distribueixo la rúbrica al PRINCIPI de l'activitat de producció, no al final. L'alumne llegeix la rúbrica → sap qué s'espera → produeix amb criteris interns → marca la rúbrica al final com a autoavaluació. Si la rúbrica arriba al final, és un examen; si arriba al principi, és una bastida."
+    },
+    {
+      "id": "H5",
+      "titol": "Pre-A1: revisió oral amb l'adult.",
+      "descripcio": "A pre-A1, el checklist ✅/❌ és mediat per l'adult. \"Mira el que has dibuixat. Has dibuixat els 3 moments? Sí → ✅. No → ❌. Pots completar-ho?\" La revisió oral externalitza la metacognició que l'alumne emergent no pot fer internament encara. L'adult no corregeix — acompanya el procés de revisió."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_checklist_binari": {
+      "trigger": {
+        "raw": "pre_A1_checklist_binari"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1]\n\n**Modulació:**\n- format: checklist_icones (✅/❌)\n- escala_FJE: absent\n- nombre_criteris: 2-3\n- descriptor_AE: absent\n- mediacio_adult: revisio_oral_obligatoria\n- sub_modulacio_fase_lectora: logografica=imatges_dibuix, alfabetica_emergent=paraules_curtes\n\n**Raonament pedagògic.** A pre-A1 l'escala FJE de 4 nivells és massa abstracta i la gradació qualitativa no és accessible. El checklist binari ✅/❌ amb mediació oral de l'adult externalitza la metacognició que l'alu"
+      }
+    },
+    "a1_escala_simplificada": {
+      "trigger": {
+        "raw": "A1_escala_simplificada"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1]\n\n**Modulació:**\n- format: taula_3_nivells\n- etiquetes_literals_obligatories: ['Encara no', 'Sí', 'Sí, i alguna cosa més']\n- etiquetes_prohibides: ['NA', 'AS', 'AN', 'AE', 'Molt bé']\n- nombre_criteris: 2-3\n- descriptor_AE_equivalent: precisio_o_originalitat_no_addicio\n\n**Raonament pedagògic.** A A1 cal una primera escala gradada accessible sense vocabulari institucional FJE. Les etiquetes literals \"Encara no\" / \"Sí\" / \"Sí, i alguna cosa més\" són transparents per a l'alu"
+      }
+    },
+    "b2_c1_verbs_academics": {
+      "trigger": {
+        "raw": "B2_C1_verbs_academics"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B2, C1]\n\n**Modulació:**\n- verbs_academics_permesos: [analitzar, contrastar, detectar, reflexionar, avaluar]\n- requeriment: cada verb academic ha d'anar acompanyat d'evidencia textual especifica que el faci observable\n- C1: incorporar criteri de reflexio metacognitiva final (1-2 frases lliures)\n\n**Raonament pedagògic.** A B2-C1 els descriptors han d'incorporar HCL acadèmiques (analitzar, contrastar, detectar), però aquests verbs són opacs si no s'ancoren a una evidència tex"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "amplitud_d_avaluacio",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_2_amplitud_d_avaluacio].countable"
+    },
+    {
+      "name": "perspectiva_alumne_facing",
+      "type": "qualitative",
+      "rule": "structural: detectar descriptors en 3a persona (\"L'alumne ha escrit...\") o 2a persona (\"Has escrit...\") — error crític; tots els descriptors han d'estar en 1a persona singular"
+    }
+  ]
+}

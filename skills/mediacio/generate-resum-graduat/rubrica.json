@@ -1,0 +1,407 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_resum_graduat",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-resum-graduat\\M3_instrument-generar-resum-graduat.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-resum-graduat",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "resum_graduat",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_del_suport",
+          "descriptor": "Activitat oral: \"De qui parla? Qué fa? Com acaba?\" El docent escriu el dictat de l'alumne. Sense marc escrit."
+        },
+        {
+          "pas_id": "pas_2_calibrat_zdp",
+          "descriptor": "Cap forat: activitat oral."
+        },
+        {
+          "pas_id": "pas_3_coherencia_discursiva",
+          "descriptor": "Preguntes orals adaptades: narratiu → \"Qui? Qué fa? Com acaba?\" / expositiu → \"De qué parla? Qué és important?\""
+        },
+        {
+          "pas_id": "pas_4_modalitat_de_produccio",
+          "descriptor": "Recapitular oral: reordenar informació oral o visual. El docent escriu el dictat; l'alumne dicta."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He dit el que passava al text en veu alta.\" (oral, mediat per adult)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_del_suport",
+          "descriptor": "Frase marc amb 1-2 forats + opcions tancades a triar. \"El text parla de [tria: opció A / opció B / opció C].\""
+        },
+        {
+          "pas_id": "pas_2_calibrat_zdp",
+          "descriptor": "Forat de 1-3 paraules. Opcions totes plausibles: una sola correcta.",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_coherencia_discursiva",
+          "descriptor": "Marc adaptat: narratiu → personatge / acció / desenllaç. Expositiu → tema / punt clau / final."
+        },
+        {
+          "pas_id": "pas_4_modalitat_de_produccio",
+          "descriptor": "Recapitular assistit: triar la resposta correcta és una forma de recapitular. Cap escriptura de frases pròpies."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He triat la resposta correcta. He omplert els buits amb la paraula que encaixava.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_del_suport",
+          "descriptor": "Marc de 2-3 frases amb 3-4 forats oberts (sense opcions). L'alumne omple amb paraules pròpies.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_calibrat_zdp",
+          "descriptor": "Forat d'1 frase (5-10 paraules) sense opcions: l'alumne reformula (no copia). Connectors donats entre frases.",
+          "countable": {
+            "min": 5,
+            "max": 10,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_coherencia_discursiva",
+          "descriptor": "Marc de 2-3 frases adaptat amb connectors donats (Primer... Llavors... Al final...).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_modalitat_de_produccio",
+          "descriptor": "Resumir amb bastida completa: primera producció escrita del resum. Marc molt explícit amb connectors donats."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He escrit el resum amb el marc. He usat les meves paraules (no he copiat frases del text).\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_del_suport",
+          "descriptor": "Marc de 3 parts (tema / punts clau / conclusió) amb 1-2 frases lliures per part. Connectors no donats.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_calibrat_zdp",
+          "descriptor": "Forat de 2-3 frases amb paraules pròpies i reorganització de la informació.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_coherencia_discursiva",
+          "descriptor": "Marc de 3 seccions etiquetades: Tema / Punts clau / Conclusió. Connectors no donats."
+        },
+        {
+          "pas_id": "pas_4_modalitat_de_produccio",
+          "descriptor": "Resumir amb marc parcialment retirat: l'alumne construeix les idees; el marc proposa l'estructura."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He resumit les idees principals en 3 parts. He usat connectors per lligar les idees.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_del_suport",
+          "descriptor": "Criteris de qualitat del resum (4-5 ítems basats en les macroregles). L'alumne escriu el resum complet."
+        },
+        {
+          "pas_id": "pas_2_calibrat_zdp",
+          "descriptor": "Criteri obert: \"Has seleccionat les idees principals (no els exemples)? Has generalitzat?\""
+        },
+        {
+          "pas_id": "pas_3_coherencia_discursiva",
+          "descriptor": "Criteris que cobreixen les macroregles: selecció (excloure exemples), generalització (categoria), construcció (inferit)."
+        },
+        {
+          "pas_id": "pas_4_modalitat_de_produccio",
+          "descriptor": "Resumir amb criteris: l'alumne usa les macroregles per produir i autoavaluar el resum."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He seleccionat les idees principals (no els exemples). He comprovat que el resum s'entén sense llegir el text.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_estructura_del_suport",
+          "descriptor": "Rúbrica metacognitiva: l'alumne justifica les tries. Resum lliure + reflexió sobre el que ha inclòs i deixat fora."
+        },
+        {
+          "pas_id": "pas_2_calibrat_zdp",
+          "descriptor": "Criteri metacognitiu: \"Explica per qué has triat incloure aquesta idea i no aquella altra.\""
+        },
+        {
+          "pas_id": "pas_3_coherencia_discursiva",
+          "descriptor": "Reflexió discursiva: \"Qué has decidit NO incloure i per qué? Quin criteri de selecció has usat?\""
+        },
+        {
+          "pas_id": "pas_4_modalitat_de_produccio",
+          "descriptor": "Resumir i reflexionar: el resum és el punt de partida d'una reflexió metacognitiva sobre les decisions de selecció."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He justificat per qué he triat cada idea i per qué n'he deixat d'altres fora. He revisat que el meu resum és precís i honest.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_estructura_del_suport",
+      "titol": "Tipus de marc",
+      "dimensio": "Estructura del suport",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el marc és un text parcial amb forats (positiu) o el resum complet donat (negatiu — error crític: viola principi \"No donar el resum fet\"); verificar que pre-A1 no té marc escrit (oral) i A2+ té marc amb forats; C1: l'output és un paratext de reflexió que ACOMPANYA el resum lliure de l'alumne (no el substitueix) — no confondre amb el gènere `write-resum`"
+    },
+    {
+      "id": "pas_2_calibrat_zdp",
+      "titol": "Mida del forat",
+      "dimensio": "Calibrat ZDP",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "qualitative: LLM-jutge sobre calibrat del forat al MECR (A1: 1-3 paraules; A2: 1 frase; B1+: 2-3 frases); binary: A1 = presencia d'opcions tancades (exactament 3 opcions: 1 correcta + 2 distractors plausibles — cap d'obviament falsa); A2+ = absencia d'opcions (reformulació pròpia exigida); cross_source: verificar que el forat és completable amb contingut del text font"
+    },
+    {
+      "id": "pas_3_coherencia_discursiva",
+      "titol": "Estructura adaptada al tipus de text",
+      "dimensio": "Coherència discursiva",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: el marc usa l'estructura correcta per al tipus de text declarat (narratiu: personatge/acció/desenllaç; expositiu: tema/punts clau/conclusió; argumentatiu: tesi/arguments/conclusió); cross_source: verificar coherència entre estructura del marc i tipus de text font"
+    },
+    {
+      "id": "pas_4_modalitat_de_produccio",
+      "titol": "Recapitular vs. resumir",
+      "dimensio": "Modalitat de producció",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: pre-A1/A1 = no demana escriptura de frases pròpies (recapitular); A2+ = demana reformulació en paraules pròpies (resumir); error: marc A1 amb forat d'una frase sencera sense opcions"
+    },
+    {
+      "id": "pas_5_metacognicio",
+      "titol": "Autoavaluació mediada",
+      "dimensio": "Metacognició",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: registre docent d'observació oral; A1+: derivar a vista d'autoavaluació de l'alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera un marc parcial de resum amb forats calibrats al MECR de l'alumne: pre-A1/A1 amb recapitulació oral o forats de 1-3 paraules amb opcions tancades; A2 amb forats d'una frase sense opcions; B1 amb 2-3 frases per part; B2 amb criteris oberts; C1 amb reflexió metacognitiva. Adapta l'estructura del marc al tipus de text (narratiu / expositiu / argumentatiu). NO donis mai el resum complet ni una versió 'model': dona només el marc amb els forats.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si l'alumne ha comprès el text, no avalua la qualitat del resum produït ni jutja si la reformulació és prou bona. Tampoc decideix unilateralment quin tipus de text té el font si és ambigu. Aquestes decisions les pren qui ensenya en observar com l'alumne omple el marc (ús de paraules pròpies, coherència, selecció d'idees principals)."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "inclou_si": [
+        "m"
+      ],
+      "exclou_explicitament": [
+        "r"
+      ],
+      "raonament": "La regla MECR de la taula Modulació és la principal mascara de selecció: calibra la mida del forat a la ZDP. El judici sobre comprensió i qualitat de reformulació queda al docent (principi MALL — bastida retirable)."
+    },
+    "alumne_DUA_acces": {
+      "inclou_si": [
+        "m"
+      ],
+      "exclou_explicitament": [
+        "m"
+      ],
+      "raonament": "Per a perfils amb necessitat d'accés (TEA, TDL, dislèxia) el marc densament estructurat afegeix càrrega de descodificació sense aportar bastida. La simplificació visual preserva la funció pedagògica (forat calibrat) reduint la barrera d'accés (DUA — dimensió Accés)."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "inclou_si": [
+        "m"
+      ],
+      "exclou_explicitament": [
+        "a"
+      ],
+      "raonament": "AACC no implica saltar la bastida del resum: la bastida segueix sent útil per estructurar la producció. El sostre s'aixeca via criteris addicionals (metacognició sobre la jerarquia d'idees), no eliminant l'estructura."
+    },
+    "alumne_nouvingut_amb_L1": {
+      "inclou_si": [
+        "m"
+      ],
+      "exclou_explicitament": [
+        "c"
+      ],
+      "raonament": "L'instrument té `translanguaging: false` (decisió ratificada per NotebookLM). El marc del resum es genera sempre en català com a llengua vehicular; la mediació amb L1, si cal, la fa l'adult oralment com a suport pont, no com a columna escrita del marc."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_resum_graduat",
+      "description": "Ha activat \"Resum graduat\" al Pas 2."
+    },
+    {
+      "name": "vol_que_l_alumne",
+      "description": "Vol que l'alumne produeixi un resum però necessita bastida estructural."
+    },
+    {
+      "name": "la_comprensio_del_text",
+      "description": "La comprensió del text és bona però la producció del resum és caòtica o inexistent."
+    },
+    {
+      "name": "activitat_de_comprensio_lectora",
+      "description": "Activitat de comprensió lectora amb producció textual de síntesi."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "l_alumne_pot_fer",
+      "description": "L'alumne pot fer el resum autònom sense bastida → `write-resum` (gènere)."
+    },
+    {
+      "name": "l_objectiu_es_una",
+      "description": "L'objectiu és una plantilla per al gènere, no un resum → `plantilles_genere`."
+    },
+    {
+      "name": "l_objectiu_es_aprofundir",
+      "description": "L'objectiu és aprofundir cognitiu → `activitats_aprofundiment`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Les opcions de A1 son totes plausibles.",
+      "descripcio": "Si una opció és obviament falsa (\"El text parla de: a) volcans b) moda c) maquinaria petroliera\" per a un text de volcans), l'alumne endevina sense comprendre. Les tres opcions han de ser possibles per al contingut del text: dues d'inadequades però plausibles, una de correcta. Prova: \"Podria algun altre text de la matèria tenir aquesta resposta?\" Si la resposta és no per a dues opcions, cal reformular-les."
+    },
+    {
+      "id": "H2",
+      "titol": "Marc narratiu vs. expositiu: no barrejar.",
+      "descripcio": "Per a contes i biografies: tema / personatge / acció principal / desenllaç. Per a textos expositius (manuals, articles de ciències, notícies): tema / punts clau / conclusió. Per a textos argumentatius: tesi / arguments / conclusió. Usar el marc narratiu per a un text expositiu genera un resum que no té sentit per al tipus de text."
+    },
+    {
+      "id": "H3",
+      "titol": "El forat copiable és un forat inútil.",
+      "descripcio": "Si l'alumne pot omplir el forat copiant una frase literal del text, la bastida no desenvolupa res. El forat ha de requerir reformulació: l'alumne tria i reescriu amb les seves paraules. La prova: \"Pot l'alumne omplir el forat sense entendre el text, simplement cercant la frase?\" Si la resposta és sí, cal redissenyar el forat."
+    },
+    {
+      "id": "H4",
+      "titol": "No donar el resum model.",
+      "descripcio": "Sovint el docent vol donar un \"exemple\" de com hauria de quedar el resum. Resistir-se a la temptació: l'alumne el copia. En lloc d'exemple, mostrar el marc complet sense omplir i dir: \"Tu has d'omplir els forats amb les teves paraules, no les del text.\" La bastida és el model; el resum omplert per l'alumne és el producte."
+    },
+    {
+      "id": "H5",
+      "titol": "Recapitular com a pas previ imprescindible (pre-A1/A1).",
+      "descripcio": "Quan treballo amb pre-A1 o A1, dedico 5 minuts a la recapitulació oral ABANS de donar el marc escrit. \"Qui és el personatge? Qué fa? Com acaba?\" — jo escric el que l'alumne diu. Aquest pas consolida la comprensió i dona a l'alumne el material per omplir el marc. Sense recapitulació oral, el marc escrit es converteix en una tasca de còpia."
+    }
+  ],
+  "case_overrides": {
+    "prea1_fase_logografica": {
+      "trigger": {
+        "raw": "preA1_fase_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica\n\n**Modulació:**\n- no_marc_escrit: true\n- modalitat: recapitulacio_oral_total\n- output_format: llistat de 3-4 preguntes orals adaptades al tipus de text (narratiu: \"Qui? Què fa? Com acaba?\" / expositiu: \"De què parla? Què és important?\")\n- rol_docent: escriu el dictat de l'alumne\n- no_escriptura_autonoma: true\n\n**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies de manera autònoma; forçar marc escrit conve"
+      }
+    },
+    "prea1_fase_alfabetica_emergent": {
+      "trigger": {
+        "raw": "preA1_fase_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- no_marc_escrit: true\n- modalitat: recapitulacio_oral_mes_1_2_paraules\n- output_format: preguntes orals + 1-2 forats de paraula única molt curta per omplir a mà\n- rol_docent: escriu el gruix del dictat\n\n**Raonament pedagògic.** A fase alfabètica emergent l'alumne pot escriure paraules clau curtes però encara no produir frases autònomament. La modulació preserva la recapitulació oral com a eix i afegeix 1-2 para"
+      }
+    },
+    "a1_inicial": {
+      "trigger": {
+        "raw": "A1_inicial"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1]\n\n**Modulació:**\n- forat_format: opcions_tancades\n- nombre_opcions: exactament 3 (1 correcta + 2 distractors plausibles, cap d'òbviament falsa)\n- mida_forat: 1-3 paraules\n- opcions_validacio: totes plausibles per al contingut del text (qualsevol podria aparèixer en un altre text de la matèria)\n\n**Raonament pedagògic.** A A1 inicial, el forat amb 3 opcions plausibles obliga a discriminar comprensivament (no endevinar). Una opció òbviament falsa permet endevinar sense com"
+      }
+    },
+    "c1_critic": {
+      "trigger": {
+        "raw": "C1_critic"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [C1]\n\n**Modulació:**\n- output_format: paratext de reflexió metacognitiva (criteris + preguntes de justificació) que ACOMPANYA un resum lliure de l'alumne\n- no_substitueix_resum: true\n- no_confondre_amb: write-resum (gènere autònom sense bastida)\n- contingut: rúbrica de tries (què he inclòs / què he deixat fora / per què)\n\n**Raonament pedagògic.** A C1 la bastida té vocació d'extingir-se: l'alumne produeix el resum autònomament. El paratext metacognitiu acompanya el resum ll"
+      }
+    },
+    "tipus_text_ambigu_o_no_declarat": {
+      "trigger": {
+        "raw": "tipus_text_ambigu_o_no_declarat"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** tipus_text_font: null OR tipus_text_font: ambigu\n\n**Modulació:**\n- comportament_default: assumir expositiu (tema / punts clau / conclusió) per ser el patró més neutre\n- afegir nota al docent: \"Si el text és narratiu o argumentatiu, ajusta l'estructura del marc abans de donar-lo a l'alumne\"\n- no_inferir_silenciosament: true\n\n**Raonament pedagògic.** Un marc narratiu sobre un text expositiu genera un resum incoherent per al tipus de text (heurística H2). Davant l'ambigüitat, el patró "
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "coherencia_discursiva",
+      "type": "qualitative",
+      "rule": "structural: el marc usa l'estructura correcta per al tipus de text declarat (narratiu: personatge/acció/desenllaç; expositiu: tema/punts clau/conclusió; argumentatiu: tesi/arguments/conclusió); cross_source: verificar coherència entre estructura del marc i tipus de text font"
+    }
+  ]
+}

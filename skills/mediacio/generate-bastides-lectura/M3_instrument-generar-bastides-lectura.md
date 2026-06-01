@@ -47,6 +47,65 @@ Les bastides de lectura són **suports temporals i retirables** que guien l'alum
 Aquesta rúbrica descriu les **bastides que ATNE o el docent presenten a l'alumne perquè llegeixi un text adaptat** (LECTURA). **No descriu la producció autònoma de l'alumne** — això és tasca del derivat propi (rúbrica d'avaluació formativa) i, si la tasca implica escriure, del pilot complementari `bastides-produccio`.
 **Sub-granularitat dins de pre-A1 i A1**: es treballa amb la variable independent `fase_lectora` del frontmatter (logografica · alfabetica_emergent · alfabetica_fluida), no amb columnes addicionals.
 
+## Principi general
+
+**Regla de selecció simple.** Genera bastides organitzades en 3 moments del procés lector (Abans / Durant / Després), amb un màxim de 3 ítems per moment, modulades pel nivell MECR de l'alumne i, dins de pre-A1 / A1, per la variable `fase_lectora`. A pre-A1 totes les bastides són sempre gestuals/orals (zero lectura autònoma).
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no ha de decidir si l'alumne ha internalitzat o no el procediment lector (això pertoca al docent: H1 'bastida que es retira'), ni ha de generar preguntes detallades de comprensió del text (això és tasca del complement `preguntes_comprensio`). El LLM produeix el procediment (com llegir), no la comprensió punt a punt; la valoració de l'oportunitat i la retirada progressiva la decideix qui ensenya.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### pre-A1
+
+**Inclou si:**
+- Bastides 100% gestuals/orals/visuals; l'adult llegeix en veu alta i l'alumne assenyala, dramatitza, dibuixa o ordena imatges. 1-2 accions per moment. No s'activen els plànols inferencial ni crític ni la hipòtesi en curs.
+
+**Raonament pedagògic.** A fase logogràfica/emergent, la lectura autònoma encara no és viable; la bastida es realitza per via gestual-oral-visual perquè la imatge ancora el significat abans del codi escrit (MALL multimodal).
+
+### A1
+
+**Inclou si:**
+- Bastides mínimes amb suport visual recomanat; 1 pregunta d'activació, predicció pel títol, frase-buit d'un sol forat al Moment Després. No inferència ni valoració crítica encara.
+
+**Raonament pedagògic.** A A1 l'alumne comença a llegir amb mediació; la bastida ha de ser mínima per no saturar el processament i preservar la construcció inicial de sentit.
+
+### A2
+
+**Inclou si:**
+- Lectura autònoma possible amb marcatge ✓/?/! al marge; 2 preguntes d'activació + ancoratge experiencial; s'obre el plànol inferencial guiat (1 pregunta).
+
+**Raonament pedagògic.** A A2 emergeix la lectura autònoma funcional; la bastida desplaça el focus cap a la metacognició lectora bàsica (marcatge) i obre el plànol inferencial guiat.
+
+### B1
+
+**Inclou si:**
+- Bastides estratègiques amb hipòtesi escrita pròpia (Abans), pausa obligatòria ⏸ amb hipòtesi en curs (Durant) i obertura del plànol crític (Després).
+
+**Raonament pedagògic.** A B1 l'alumne pot anticipar i revisar hipòtesis; la pausa obligatòria activa la monitorització lectora i obre el plànol crític inicial (Vygotsky, ZDP).
+
+### B2
+
+**Inclou si:**
+- Bastides acadèmiques amb identificació de gènere/autor, posicionament al marge, revisió explícita de la hipòtesi inicial i avaluació de fiabilitat de fonts.
+
+**Raonament pedagògic.** A B2 la lectura esdevé acadèmica; la bastida ha d'orientar la identificació del posicionament autoral i l'avaluació de fonts (literacitat crítica).
+
+### C1
+
+**Inclou si:**
+- Bastides crítiques amb propòsit metacognitiu autogenerat per l'alumne, reformulació metacognitiva de la hipòtesi i contrast amb altres fonts.
+
+**Raonament pedagògic.** A C1 l'alumne és lector autònom expert; la bastida s'orienta a la metacognició plena i al contrast intertextual, preparant la retirada total.
+
+### transversal_fase_lectora_pre-A1_A1
+
+**Inclou si:**
+- Dins de pre-A1 i A1, la sub-granularitat es resol amb la variable `fase_lectora` del frontmatter (logografica / alfabetica_emergent / alfabetica_fluida), NO amb columnes addicionals.
+
+**Raonament pedagògic.** El frontmatter modula sub-granularment dins els nivells inicials per evitar inflar la rúbrica amb columnes redundants; la fase lectora és variable independent.
+
 ## Detecció
 
 **Senyals docent** (quan activar bastides de lectura):
@@ -92,6 +151,55 @@ Aquesta rúbrica descriu les **bastides que ATNE o el docent presenten a l'alumn
 |  | Especificitat del propòsit | Propòsit referit a una imatge o paraula concreta del text. | Propòsit específic del text actual, no genèric. | Idem. | Idem. | Idem. | Idem. |
 |  | Format obligatori | Secció `## Suports de lectura` + 3 subseccions (Abans/Durant/Després). | Idem. | Idem. | Idem. | Idem. | Idem. |
 | **5. Autoavaluació (per l'alumne)** | Reflexió en primera persona | *(via adult)* "He assenyalat el que m'ha demanat el mestre." | "He marcat una paraula important. He completat la frase-buit del resum." | "He marcat ✓/? /! mentre llegia. He escrit de què tracta el text." | "He fet una hipòtesi abans de llegir. He comprovat si era correcta." | "He identificat la postura de l'autor. He avaluat si les dades eren fiables." | "He formulat les meves pròpies preguntes abans de llegir i he comprovat si el text les responia." |
+
+## Casos especials
+
+### fase_lectora_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica
+
+**Modulació:**
+- modalitat_lectora: 'adult llegeix en veu alta'
+- lectura_autonoma_alumne: false
+- format_bastides: gestual_oral_visual (assenyalar, dramatitzar, dibuixar, ordenar imatges)
+- items_per_moment: 1-2 accions
+- hipotesi_en_curs: no_aplicable
+- planols_inferencial_i_critic: no_aplicables
+
+**Raonament pedagògic.** A fase logogràfica l'alumne reconeix la imatge com a text però encara no descodifica grafies; forçar lectura autònoma o plànols inferencial/crític sobrepassa la ZDP (Vygotsky). La bastida es realitza per via gestual i oral, ancorada a la imatge (MALL multimodal).
+
+### hipotesi_en_curs_B1plus
+
+**Trigger:** mecr_in: [B1, B2, C1]
+
+**Modulació:**
+- pausa_obligatoria: true (marca explícita ⏸ o instrucció 'Atura't aquí' inserida al text adaptat)
+- bastida_hipotesi_en_curs: obligatòria al Moment Durant
+- a B2/C1: revisió/reformulació metacognitiva de la hipòtesi inicial a la mateixa pausa
+
+**Raonament pedagògic.** A B1+ l'alumne ja pot monitoritzar la pròpia comprensió; la pausa obligatòria amb hipòtesi en curs activa la metacognició lectora (Palincsar & Brown 1984, lectura recíproca) i prevé la lectura passiva.
+
+### no_duplicar_preguntes_comprensio
+
+**Trigger:** pipeline_actius_inclou: preguntes_comprensio
+
+**Modulació:**
+- cross_source: llegir l'output de `preguntes_comprensio` abans de generar
+- bastides_ortogonals: true (procediment, no preguntes de contingut)
+- si_duplicitat: ATNE dedupea (preguntes_comprensio guanya, bastides es replanteja) i registra traça a metadades
+- sense_warning_runtime: true
+
+**Raonament pedagògic.** Bastides i preguntes_comprensio són ortogonals: la bastida dona el procediment (com llegir), les preguntes treballen la comprensió punt a punt. Duplicar saturaria l'alumne i diluiria la funció orientadora de la bastida.
+
+### frase_buit_A1
+
+**Trigger:** mecr_in: [A1]
+
+**Modulació:**
+- resum_literal: una sola frase-buit amb un únic forat ('El text parla de ___')
+- cap inferència ni valoració crítica al Moment Després
+
+**Raonament pedagògic.** A A1, el resum amb un sol buit funciona com a test diagnòstic ràpid (H5) i evita la sobrecàrrega cognitiva pròpia d'una construcció lliure; la inferència i la valoració crítica s'introdueixen a A2/B1.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -145,6 +253,30 @@ Quan tinc poc temps, trio la bastida mínima: propòsit de lectura ("Llegeix per
 
 **H5 — El Moment Després revela la comprensió**
 Si l'alumne no pot completar la frase marc del Moment Després, no ha entès el text. La bastida revela el problema **abans** de la pregunta de comprensió: el frase-buit "El text parla de ___" és un test diagnòstic ràpid. Quan veig que el buit es queda en blanc o amb una resposta tangencial, sé que cal tornar a llegir mediant.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Suports de lectura
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Abans
+### Durant
+### Després
+```
+
+**Marcadors inline obligatoris:**
+```
+⏸
+✓
+?
+!
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Suports de lectura` i les 3 subseccions `### Abans`, `### Durant`, `### Després` en aquest ordre, el parser d'ATNE no detecta l'estructura i les bastides queden orfes al frontend, impossibilitant la verificació estructural (4.4) i el comptatge d'ítems per moment (4.1 ≤3).
 
 ## Fonts principals
 

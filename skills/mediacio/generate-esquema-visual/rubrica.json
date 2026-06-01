@@ -1,0 +1,657 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_esquema_visual",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-esquema-visual\\M3_instrument-generar-esquema-visual.md",
+    "font_version": "1.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-esquema-visual",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "complements"
+    ],
+    "complement_key": "esquema_visual",
+    "multimodal": true,
+    "variables_configurables": {
+      "genere_discursiu": [
+        "instructiu",
+        "receptari",
+        "manual",
+        "divulgatiu",
+        "narratiu",
+        "expositiu"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Cada node ha de poder traçar-se a una frase o concepte del text adaptat."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_seleccio",
+          "descriptor": "El concepte més imatge-amigable del text. Sovint un objecte concret amb pictograma."
+        },
+        {
+          "pas_id": "pas_1_format_de_la",
+          "descriptor": "Una sola paraula o frase de 2 paraules amb pictograma al costat."
+        },
+        {
+          "pas_id": "pas_2_total_nodes",
+          "descriptor": "2-3 nodes. Seqüències temporals bàsiques (abans→després) o relacions imatge→paraula.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_l",
+          "descriptor": "1 nivell (arrel + fills directes)."
+        },
+        {
+          "pas_id": "pas_3_marcat_textual",
+          "descriptor": "Llista markdown amb guions `-` i sagnia de 2 espais per nivell. PICTOGRAMES inline obligatoris a l'arrel i a les fulles principals."
+        },
+        {
+          "pas_id": "pas_3_format_prohibit",
+          "descriptor": "NO fletxes Unicode (→, ↓, ↔). NO ASCII-art (\\"
+        },
+        {
+          "pas_id": "pas_4_predominant",
+          "descriptor": "Seqüència temporal simple o relació part-tot."
+        },
+        {
+          "pas_id": "pas_4_etiquetes_a_les",
+          "descriptor": "No (només estructura)."
+        },
+        {
+          "pas_id": "pas_5_una_sola_arrel",
+          "descriptor": "Una sola arrel per esquema. Sense múltiples nodes a profunditat 0."
+        },
+        {
+          "pas_id": "pas_5_node_central_canonic",
+          "descriptor": "A gèneres procedimentals (instructiu/receptari/manual): el node central és el PRODUCTE/OBJECTIU final, NO un apartat seqüencial. A gèneres expositius: el TEMA principal. A gèneres narratius: NO s'aplica esquema visual."
+        },
+        {
+          "pas_id": "pas_5_no_soroll_visual",
+          "descriptor": "Cap node decoratiu sense informació."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Cada node ha de poder traçar-se a una frase o concepte del text adaptat."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He mirat l'esquema quan no entenia com es connectaven les coses.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_seleccio",
+          "descriptor": "El subjecte/tema principal explícit del títol."
+        },
+        {
+          "pas_id": "pas_1_format_de_la",
+          "descriptor": "Una sola paraula clau."
+        },
+        {
+          "pas_id": "pas_2_total_nodes",
+          "descriptor": "3-4 nodes. Enumeració de qualitats o parts d'un objecte (descripció simple).",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_l",
+          "descriptor": "1-2 nivells."
+        },
+        {
+          "pas_id": "pas_3_marcat_textual",
+          "descriptor": "Llista markdown amb guions `-` i sagnia 2 espais. Pictogrames recomanats per a fulles concretes."
+        },
+        {
+          "pas_id": "pas_3_format_prohibit",
+          "descriptor": ", ├, └, ─). NO emojis decoratius."
+        },
+        {
+          "pas_id": "pas_4_predominant",
+          "descriptor": "Enumeració paral·lela (germans)."
+        },
+        {
+          "pas_id": "pas_4_etiquetes_a_les",
+          "descriptor": "No."
+        },
+        {
+          "pas_id": "pas_5_una_sola_arrel",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_node_central_canonic",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_no_soroll_visual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He buscat l'arrel quan no entenia de què parlava el text.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_seleccio",
+          "descriptor": "El tema principal o producte final del text."
+        },
+        {
+          "pas_id": "pas_1_format_de_la",
+          "descriptor": "Una frase nominal curta (1-4 paraules).",
+          "countable": {
+            "min": 1,
+            "max": 4,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_total_nodes",
+          "descriptor": "4-6 nodes. Seqüència de passos d'instrucció o esdeveniments cronològics.",
+          "countable": {
+            "min": 4,
+            "max": 6,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_l",
+          "descriptor": "2 nivells (arrel → branca → fulla)."
+        },
+        {
+          "pas_id": "pas_3_marcat_textual",
+          "descriptor": "Llista markdown amb guions `-` i sagnia 2 espais."
+        },
+        {
+          "pas_id": "pas_3_format_prohibit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_predominant",
+          "descriptor": "Seqüència cronològica o passos numerats."
+        },
+        {
+          "pas_id": "pas_4_etiquetes_a_les",
+          "descriptor": "Opcional (\"primer\", \"després\")."
+        },
+        {
+          "pas_id": "pas_5_una_sola_arrel",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_node_central_canonic",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_no_soroll_visual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He fet servir l'esquema per recordar l'ordre dels passos.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_seleccio",
+          "descriptor": "El concepte abstracte o procés que organitza el text."
+        },
+        {
+          "pas_id": "pas_1_format_de_la",
+          "descriptor": "Frase nominal (3-6 paraules).",
+          "countable": {
+            "min": 3,
+            "max": 6,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_total_nodes",
+          "descriptor": "6-8 nodes. Relacions causa-efecte o hipòtesi-evidència.",
+          "countable": {
+            "min": 6,
+            "max": 8,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_l",
+          "descriptor": "2-3 nivells."
+        },
+        {
+          "pas_id": "pas_3_marcat_textual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_3_format_prohibit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_predominant",
+          "descriptor": "Causa-efecte explícita o hipòtesi-evidència."
+        },
+        {
+          "pas_id": "pas_4_etiquetes_a_les",
+          "descriptor": "Etiquetes amb connectors lògics (perquè, llavors)."
+        },
+        {
+          "pas_id": "pas_5_una_sola_arrel",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_node_central_canonic",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_no_soroll_visual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Idem (i a derivacions justificades a B1+)."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He revisat l'esquema per veure quina idea és central i quines són secundàries.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_seleccio",
+          "descriptor": "El concepte clau analític del text."
+        },
+        {
+          "pas_id": "pas_1_format_de_la",
+          "descriptor": "Concepte abstracte expressat amb 1-2 paraules tècniques.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_total_nodes",
+          "descriptor": "8-12 nodes amb subnivells. Estructures complexes amb arrel + branques + sub-branques.",
+          "countable": {
+            "min": 8,
+            "max": 12,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_l",
+          "descriptor": "3 nivells."
+        },
+        {
+          "pas_id": "pas_3_marcat_textual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_3_format_prohibit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_predominant",
+          "descriptor": "Categorització jeràrquica abstracta."
+        },
+        {
+          "pas_id": "pas_4_etiquetes_a_les",
+          "descriptor": "Etiquetes amb connectors causals/contrastius."
+        },
+        {
+          "pas_id": "pas_5_una_sola_arrel",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_node_central_canonic",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_no_soroll_visual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He construït el meu propi esquema d'un text similar per veure si entenia l'estructura.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_seleccio",
+          "descriptor": "El concepte estructurant del discurs (no necessàriament explícit)."
+        },
+        {
+          "pas_id": "pas_1_format_de_la",
+          "descriptor": "Concepte abstracte amb possible distinció disciplinar."
+        },
+        {
+          "pas_id": "pas_2_total_nodes",
+          "descriptor": "10-15 nodes amb 3-4 nivells de profunditat. Estructures conceptuals amb categories i sub-categories.",
+          "countable": {
+            "min": 10,
+            "max": 15,
+            "unitat": "nodes"
+          }
+        },
+        {
+          "pas_id": "pas_2_profunditat_de_l",
+          "descriptor": "3-4 nivells."
+        },
+        {
+          "pas_id": "pas_3_marcat_textual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_3_format_prohibit",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_4_predominant",
+          "descriptor": "Estructures discursives complexes (tesi-arguments-refutació)."
+        },
+        {
+          "pas_id": "pas_4_etiquetes_a_les",
+          "descriptor": "Etiquetes amb metallenguatge (\"contraargument\", \"pressupòsit\")."
+        },
+        {
+          "pas_id": "pas_5_una_sola_arrel",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_node_central_canonic",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_no_soroll_visual",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_al_text",
+          "descriptor": "Idem (els meta-discursius sí entren)."
+        },
+        {
+          "pas_id": "pas_6_reflexio_sobre_el",
+          "descriptor": "\"He reflexionat sobre si l'esquema captura l'estructura argumental real del text o és una simplificació.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_seleccio",
+      "titol": "Concepte central (arrel)",
+      "dimensio": "Selecció",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el node arrel ha de coincidir amb el producte/tema central del text. Per a procedimentals: NO ha de ser un apartat (Materials, Passos)"
+    },
+    {
+      "id": "pas_1_format_de_la",
+      "titol": "Concepte central (arrel)",
+      "dimensio": "Format de la cel·la arrel",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: cel·la arrel ≤ N paraules segons nivell"
+    },
+    {
+      "id": "pas_2_total_nodes",
+      "titol": "Nombre de nodes",
+      "dimensio": "Total nodes",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar nodes; ha de ser dins el rang del nivell"
+    },
+    {
+      "id": "pas_2_profunditat_de_l",
+      "titol": "Nombre de nodes",
+      "dimensio": "Profunditat de l'arbre",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "mesurar nivells d'indentació; ha de ser dins el rang del nivell"
+    },
+    {
+      "id": "pas_3_marcat_textual",
+      "titol": "Format de presentació",
+      "dimensio": "Marcat textual",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: cada línia comença amb `-` i indentació en múltiples de 2 espais"
+    },
+    {
+      "id": "pas_3_format_prohibit",
+      "titol": "Format de presentació",
+      "dimensio": "Format prohibit",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: cap caràcter de fletxa Unicode (→, ↓, ↔) ni caràcters de dibuix d'arbre (\\"
+    },
+    {
+      "id": "pas_4_predominant",
+      "titol": "Tipus de relacions",
+      "dimensio": "Predominant",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: el tipus de relació entre nodes ha de coincidir amb la tipologia del text"
+    },
+    {
+      "id": "pas_4_etiquetes_a_les",
+      "titol": "Tipus de relacions",
+      "dimensio": "Etiquetes a les connexions",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "presència o absència d'etiquetes segons nivell"
+    },
+    {
+      "id": "pas_5_una_sola_arrel",
+      "titol": "Criteris transversals",
+      "dimensio": "Una sola arrel",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "comptar nodes a indentació 0; ha de ser exactament 1"
+    },
+    {
+      "id": "pas_5_node_central_canonic",
+      "titol": "Criteris transversals",
+      "dimensio": "Node central canònic",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: per a gèneres procedimentals, validar que el node arrel és el producte/objectiu"
+    },
+    {
+      "id": "pas_5_no_soroll_visual",
+      "titol": "Criteris transversals",
+      "dimensio": "No-soroll visual",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: cada node ha d'aportar informació pedagògica"
+    },
+    {
+      "id": "pas_5_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: traçabilitat de cada node a una frase o concepte del text"
+    },
+    {
+      "id": "pas_6_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivat doble: autoavaluació alumne + registre docent de la qualitat"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera un esquema com a llista markdown amb una sola arrel (concepte central) i ramificacions amb sagnia de 2 espais per nivell, ajustant nombre de nodes (2-3 a pre-A1 fins 10-15 a C1) i profunditat (1 nivell a pre-A1 fins 3-4 a C1) segons el MECR. Per a gèneres procedimentals (instructiu/receptari/manual) l'arrel SEMPRE és el PRODUCTE/OBJECTIU final, mai un apartat seqüencial (Materials, Passos, Ingredients).",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si l'esquema substitueix la lectura ni si l'alumne concret en treu profit cognitiu; aquest judici el fa l'acompanyant a partir dels senyals d'aula (apartat Detecció) i les heurístiques H1-H4. El LLM tampoc no decideix si activar mapa conceptual en comptes d'esquema visual (decisió docent prèvia)."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_te_estructura",
+      "description": "El text té estructura clarament jeràrquica (parts, categories, taxonomies)."
+    },
+    {
+      "name": "el_text_te_una",
+      "description": "El text té una seqüència de passos numerats (instructiu, receptari, protocol)."
+    },
+    {
+      "name": "el_text_te_relacions",
+      "description": "El text té relacions causa-efecte explícites o implícites (text expositiu de ciències)."
+    },
+    {
+      "name": "el_text_adaptat_te",
+      "description": "El text adaptat té més de 100 paraules i l'alumne perd el fil al meitat."
+    },
+    {
+      "name": "l_alumnat_te_dificultats",
+      "description": "L'alumnat té dificultats de comprensió globalitzada (TEA, TDAH, dislèxia, DI)."
+    },
+    {
+      "name": "la_materia_es_stem",
+      "description": "La matèria és STEM o ciències socials (estructures sovint jeràrquiques o seqüencials)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "text_narratiu_sense_estructura",
+      "description": "Text narratiu sense estructura jeràrquica (conte, poema, diari personal)."
+    },
+    {
+      "name": "text_molt_curt_80",
+      "description": "Text molt curt (< 80 paraules) on l'estructura ja és transparent."
+    },
+    {
+      "name": "perfil_ac_altes_capacitats",
+      "description": "Perfil AC (altes capacitats) que no necessita simplificació estructural — pot ser **expertise reversal** i infantilitzar."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La regla del titella.",
+      "descripcio": "Quan adapto un receptari, una recepta o un manual, l'esquema sempre té com a arrel el QUÈ ES CONSTRUEIX. Si l'esquema generat per ATNE té com a arrel \"Materials\" o \"Ingredients\", el rectifico manualment — l'arrel ha de ser el producte final (\"titella\", \"pa de pessic\", \"tornavís muntat\")."
+    },
+    {
+      "id": "H2",
+      "titol": "Profunditat per nivell.",
+      "descripcio": "A pre-A1/A1 limito l'esquema a un sol nivell (arrel + fills directes), per evitar sobrecàrrega visual. A B2+ permeto 3 nivells de profunditat per representar matissos disciplinars."
+    },
+    {
+      "id": "H3",
+      "titol": "No fletxes ni caràcters d'arbre.",
+      "descripcio": "El frontend renderitza llistes markdown amb sagnia com a SVG (Mermaid). Si el LLM insereix fletxes Unicode (→) o ASCII-art (├, └), el render falla o es trunca. Sempre llista markdown amb guions i sagnia de 2 espais."
+    },
+    {
+      "id": "H4",
+      "titol": "Esquema VS mapa conceptual.",
+      "descripcio": "Si el text té relacions etiquetades importants (causes contrastives, sinonímies, oposicions conceptuals), prefereixo activar **mapa conceptual** en lloc d'esquema visual. L'esquema és per a estructures jeràrquiques o seqüencials simples; el mapa conceptual és per a xarxes amb etiquetes."
+    }
+  ],
+  "case_overrides": {
+    "genere_procedimental_arrel_producte": {
+      "trigger": {
+        "raw": "genere_procedimental_arrel_producte"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** genere_discursiu_in: [instructiu, receptari, manual]\n\n**Modulació:**\n- node_arrel: PRODUCTE_O_OBJECTIU_FINAL del text (no un apartat com Materials, Ingredients, Necessites, Passos)\n- branques_primer_nivell: agrupen Materials, Passos i Resultat com a fills de l'arrel-producte\n\n**Raonament pedagògic.** El concepte central és el QUÈ ES CONSTRUEIX, no el COM. Evidència empírica: cas titella 2026-05-30, on el LLM tendia a posar \"Materials\" com a arrel en lloc de \"Titella\"."
+      }
+    },
+    "genere_narratiu_no_aplica": {
+      "trigger": {
+        "raw": "genere_narratiu_no_aplica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** genere_discursiu_equals: narratiu\n\n**Modulació:**\n- no_generar_esquema: true\n- avis_retornat: \"l'esquema visual no aplica a text narratiu sense estructura jeràrquica\"\n\n**Raonament pedagògic.** Contes, poemes i diaris personals no tenen estructura part-tot ni causa-efecte explotables com a diagrama; forçar-ho infantilitza o distorsiona el text."
+      }
+    },
+    "pre_a1_pictogrames_obligatoris": {
+      "trigger": {
+        "raw": "pre_A1_pictogrames_obligatoris"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1]\n\n**Modulació:**\n- densitat_pictogrames: obligatori a arrel + fulles principals\n- format_cella_arrel: 1-2 paraules + [PICTO:]\n- nombre_nodes_max: 3\n- profunditat_max: 1 nivell\n\n**Raonament pedagògic.** A la fase logogràfica/emergent la càrrega cognitiva visual ha de ser mínima i la imatge ancora el concepte abans que el codi escrit (DUA Representació + MALL multimodal)."
+      }
+    },
+    "aacc_risc_infantilitzacio": {
+      "trigger": {
+        "raw": "AACC_risc_infantilitzacio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc: true AND mecr_in: [B1, B2, C1]\n\n**Modulació:**\n- valorar_no_generar: true (revisar si el text ja és estructuralment transparent per a l'alumne)\n- si_es_genera: anar a sostre del rang (profunditat 3-4, etiquetes amb metallenguatge)\n\n**Raonament pedagògic.** Expertise reversal — un esquema simplificat sobre un text que l'alumne ja domina estructuralment esdevé soroll cognitiu."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "total_nodes",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_2_total_nodes].countable"
+    },
+    {
+      "name": "profunditat_de_l_arbre",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_2_profunditat_de_l].countable"
+    },
+    {
+      "name": "marcat_textual",
+      "type": "qualitative",
+      "rule": "regex: cada línia comença amb `-` i indentació en múltiples de 2 espais"
+    },
+    {
+      "name": "format_prohibit",
+      "type": "qualitative",
+      "rule": "regex: cap caràcter de fletxa Unicode (→, ↓, ↔) ni caràcters de dibuix d'arbre (\\"
+    }
+  ]
+}

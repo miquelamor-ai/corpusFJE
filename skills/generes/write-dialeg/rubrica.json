@@ -1,0 +1,384 @@
+{
+  "_meta": {
+    "name": "rubrica_write_dialeg",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-dialeg\\M3_genere-escriure-dialeg.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-dialeg",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "dialeg",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_presentacio",
+          "descriptor": "2 personatges llistats amb nom. Sense descripcio."
+        },
+        {
+          "pas_id": "pas_2_claredat_formal",
+          "descriptor": "Torns atribuïts per nom en negreta: **Marc:** / **Sofia:**. Mai amb inicials o lletres (A:, B:)."
+        },
+        {
+          "pas_id": "pas_3_subtext_i_accio",
+          "descriptor": "Acotacio molt simple: \"En Marc entra.\" / \"La Sofia somriu.\" Present, 3a persona. 1 accio."
+        },
+        {
+          "pas_id": "pas_4_tensio_dramatica",
+          "descriptor": "Tensio simple en 1 torn: \"Vull X. — No pots.\""
+        },
+        {
+          "pas_id": "pas_5_extensio",
+          "descriptor": "6-8 torns totals. 1-2 frases per torn.",
+          "countable": {
+            "min": 6,
+            "max": 8,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_6_format_i_fidelitat",
+          "descriptor": "Llista de personatges present al principi. Cap torn amb inicials. Cap acotacio amb ironia. Manté personatges i conflicte principals del text font."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He escrit qui parla a cada torn. He posat 6-8 torns entre 2 personatges.\"",
+          "countable": {
+            "min": 6,
+            "max": 8,
+            "unitat": "torns"
+          }
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_presentacio",
+          "descriptor": "2 personatges amb 1 linia de descripcio cadascun."
+        },
+        {
+          "pas_id": "pas_2_claredat_formal",
+          "descriptor": "Torns atribuïts per nom en negreta. Format consistent al llarg del dialeg."
+        },
+        {
+          "pas_id": "pas_3_subtext_i_accio",
+          "descriptor": "1 accio per acotacio, sense subordinades. Present, 3a persona. Subtext explícit senzill."
+        },
+        {
+          "pas_id": "pas_4_tensio_dramatica",
+          "descriptor": "Conflicte simple i resolucio clara en 6-8 torns.",
+          "countable": {
+            "min": 6,
+            "max": 8,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_5_extensio",
+          "descriptor": "8-10 torns. Frases fins a 10 paraules per torn.",
+          "countable": {
+            "min": 8,
+            "max": 10,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_6_format_i_fidelitat",
+          "descriptor": "Idem. Subtext explícit a les acotacions. La resolucio del conflicte és clara. Manté l'ordre i la resolucio del text font."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He posat acotacions que expliquen el que fa el personatge.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_presentacio",
+          "descriptor": "2-3 personatges amb descripcio i relacio entre ells."
+        },
+        {
+          "pas_id": "pas_2_claredat_formal",
+          "descriptor": "Torns atribuïts per nom. L'atribucio mai és ambigua (cap torn \"flotant\")."
+        },
+        {
+          "pas_id": "pas_3_subtext_i_accio",
+          "descriptor": "Acotacio amb subtext emocional explícit: \"[La Sofia fa un pas enrere, preocupada.]\""
+        },
+        {
+          "pas_id": "pas_4_tensio_dramatica",
+          "descriptor": "Conflicte amb 2 punts de vista diferenciats. Inclou 1 moment d'argumentacio."
+        },
+        {
+          "pas_id": "pas_5_extensio",
+          "descriptor": "10-12 torns. Frases de fins a 15 paraules per torn.",
+          "countable": {
+            "min": 10,
+            "max": 12,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_6_format_i_fidelitat",
+          "descriptor": "Idem. Les acotacions no confonen accio amb judici. Manté els punts de vista dels personatges del text font."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He escrit un conflicte i una resolucio. He explicat el subtext a les acotacions.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_presentacio",
+          "descriptor": "3-4 personatges amb tret diferenciador i funcio en el conflicte."
+        },
+        {
+          "pas_id": "pas_2_claredat_formal",
+          "descriptor": "Torns atribuïts amb nom + acotacio breu si la veu pot confondre's."
+        },
+        {
+          "pas_id": "pas_3_subtext_i_accio",
+          "descriptor": "Acotacions que revelen intencions no dites. 1 accio per acotacio."
+        },
+        {
+          "pas_id": "pas_4_tensio_dramatica",
+          "descriptor": "Conflicte complex amb postures elaborades per cada personatge."
+        },
+        {
+          "pas_id": "pas_5_extensio",
+          "descriptor": "12-15 torns. Frases elaborades.",
+          "countable": {
+            "min": 12,
+            "max": 15,
+            "unitat": "torns"
+          }
+        },
+        {
+          "pas_id": "pas_6_format_i_fidelitat",
+          "descriptor": "Idem. Manté matisos i complexitat del conflicte original. L'acotacio pot contradir o matisar el torn si escau."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He escrit torns que mostren les postures dels personatges sense explicar-les totes.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_presentacio",
+          "descriptor": "3-4 personatges amb motivacio i postura explícites."
+        },
+        {
+          "pas_id": "pas_2_claredat_formal",
+          "descriptor": "Torns atribuïts per nom. La veu de cada personatge és diferenciada lingüísticament."
+        },
+        {
+          "pas_id": "pas_3_subtext_i_accio",
+          "descriptor": "Acotacions detallades amb subtext complex. Sense ironia ni judicis sobre el personatge."
+        },
+        {
+          "pas_id": "pas_4_tensio_dramatica",
+          "descriptor": "Conflicte de valors o de visions del mon. Resolucio no necessariament clara."
+        },
+        {
+          "pas_id": "pas_5_extensio",
+          "descriptor": "12-15+ torns. Llargada variable segons el ritme dramatic."
+        },
+        {
+          "pas_id": "pas_6_format_i_fidelitat",
+          "descriptor": "Idem. Manté intencio retorica i matisos del text font. Sense monolegs interns llargs."
+        },
+        {
+          "pas_id": "pas_7_metacognicao",
+          "descriptor": "\"He creat un conflicte complex amb subtext ric i intencio retorica visible.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_presentacio",
+      "titol": "Llista de personatges",
+      "dimensio": "Presentació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: llista de personatges present al principi del text; qualitative: LLM-jutge sobre si els personatges son els mateixos que al text font (cross_source) i si la descripcio és adequada al nivell"
+    },
+    {
+      "id": "pas_2_claredat_formal",
+      "titol": "Atribucio de torns",
+      "dimensio": "Claredat formal",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: tots els torns atribuïts per nom en negreta (regex detecta inicials A:, B: i torns sense atribucio); la negreta és obligatoria per a la detecci?o estructural automatitzada"
+    },
+    {
+      "id": "pas_3_subtext_i_accio",
+      "titol": "Acotacions",
+      "dimensio": "Subtext i accio",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: acotacions al present 3a persona; 1 accio per acotacio; qualitative: LLM-jutge sobre si el subtext és explícit i adequat al nivell (A1 sense subtext; A2+ amb subtext)"
+    },
+    {
+      "id": "pas_4_tensio_dramatica",
+      "titol": "Conflicte",
+      "dimensio": "Tensio dramatica",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si hi ha tensio dramatica i si la resolucio és adequada al nivell (A1 simple i clara; B2+ complexa i oberta); cross_source: verificar que el conflicte del text adaptat no inventa situacions alienes al text font"
+    },
+    {
+      "id": "pas_5_extensio",
+      "titol": "Nombre de torns",
+      "dimensio": "Extensio",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar torns totals i paraules per torn; verificar que esta dins del rang del nivell"
+    },
+    {
+      "id": "pas_6_format_i_fidelitat",
+      "titol": "Criteris transversals",
+      "dimensio": "Format i fidelitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: llista de personatges present; cap inicial; cap monolog llarg; qualitative: LLM-jutge sobre coherencia del format"
+    },
+    {
+      "id": "pas_7_metacognicao",
+      "titol": "Autoavaluacio",
+      "dimensio": "Metacognicao",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluacio alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Adapta o genera un diàleg teatral amb llista de personatges al principi, torns atribuïts per nom en negreta (Marc:, Sofia:), acotacions al present en 3a persona amb 1 acció per acotació, i un conflicte mínim entre 2-4 personatges, modulat per nivell MECR (A1-C1) segons la taula de Modulació (6-15+ torns). Manté personatges i conflicte principals del text font quan adapta.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si el conflicte és \"prou dramàtic\" ni si el subtext és \"literàriament ric\": només verifica presència formal (atribució per nom, acotacions estructurades, rang de torns segons nivell). La valoració qualitativa del subtext, la tensió dramàtica i la fidelitat al text font la fa el docent o un LLM-jutge separat (rúbrica de 7 passos)."
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un dialeg o una escena teatral."
+    },
+    {
+      "name": "la_unitat_vol_treballar",
+      "description": "La unitat vol treballar la interaccio oral o la dramatitzacio escrita."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de produir un dialeg com a tasca d'expressio dramatica o creativa."
+    },
+    {
+      "name": "el_docent_vol_treballar",
+      "description": "El docent vol treballar la distincio entre el que es diu i el que es pensa (subtext, pensament critic)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és narratiu sense intercanvi dialogat → conte o cronica."
+    },
+    {
+      "name": "el_text_vol_transmetre",
+      "description": "El text vol transmetre informacio de manera sistematica → informe o divulgatiu."
+    },
+    {
+      "name": "el_text_es_un",
+      "description": "El text és un monolog interior llarg → diari personal."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Llegir en veu alta com a primer pas.",
+      "descripcio": "Proposo que llegim el dialeg adaptat en veu alta per parelles: un fa el personatge A, l'altre el B. La lectura dramatitzada revela immediatament si els torns son clars, si les acotacions aporten o estorben, i si el conflicte és real o nomes un intercanvi de frases."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Que vols dir realment?\" per treballar el subtext.",
+      "descripcio": "Quan l'alumne escriu un torn, li pregunto: \"El personatge diu X, pero que vol dir realment?\" La resposta va a l'acotacio. Aquest exercici de desdoblament és la bastida del pensament critic literari: distingir el que es diu del que es pensa."
+    },
+    {
+      "id": "H3",
+      "titol": "Conflicte minim obligatori.",
+      "descripcio": "Un dialeg sense conflicte és una conversa, no un drama. Insisteixo que hi hagi com a minim un punt de desacord o de tensio. A A1: \"Vull X. — No pots.\" és la bastida minima. Sense tensio, el dialeg no té dinamica narrativa."
+    },
+    {
+      "id": "H4",
+      "titol": "1 accio per acotacio.",
+      "descripcio": "Les acotacions amb subordinades confonen. Proposo la regla d'1 accio per acotacio: \"En Marc entra.\" (no \"En Marc entra i, tot i que sembla content, en realitat esta enfadat\"). Si hi ha dues accions, dues acotacions."
+    },
+    {
+      "id": "H5",
+      "titol": "Llistar els personatges abans d'escriure.",
+      "descripcio": "Proposo que l'alumne escrigui primer la llista de personatges amb una linia de descripcio cadascun. Aquesta llista es converteix en el mapa del dialeg: qui és cada personatge, que vol, i per que esta en conflicte amb l'altre."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- max_torns: 6\n- max_paraules_per_torn: 5\n- nombre_personatges: 2 (fixos)\n- acotacions: mínimes (1 acció simple, 3-4 paraules)\n- conflicte: tensió binària \"vull X / no pots\"\n- sense subtext explícit\n- tipografia clara amb separació visual entre torns\n\n**Raonament pedagògic.** A la fase alfabètica emergent l'alumne consolida la descodificació; la càrrega cognitiva ha d'anar a llegir i atribuir torns, no a interpretar"
+      }
+    },
+    "no_aplica_prea1": {
+      "trigger": {
+        "raw": "no_aplica_preA1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] OR fase_lectora: logografica\n\n**Modulació:**\n- skill_no_aplicable: true\n- redirigir_a: dramatització oral espontània sense format escrit\n\n**Raonament pedagògic.** El format teatral requereix llegir torns atribuïts per nom i comprendre la doble cognició text+situació dramàtica. No accessible sense base lectora alfabètica (D6 a Descripció)."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "claredat_formal",
+      "type": "qualitative",
+      "rule": "binary: tots els torns atribuïts per nom en negreta (regex detecta inicials A:, B: i torns sense atribucio); la negreta és obligatoria per a la detecci?o estructural automatitzada"
+    },
+    {
+      "name": "extensio",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_5_extensio].countable"
+    }
+  ]
+}

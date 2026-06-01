@@ -1,0 +1,441 @@
+{
+  "_meta": {
+    "name": "rubrica_write_ressenya",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-ressenya\\M3_genere-escriure-ressenya.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-ressenya",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "ressenya",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat, als matisos i a les referències de la ressenya original."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_completitud_i_context",
+          "descriptor": "Títol + autor/director. 1 frase."
+        },
+        {
+          "pas_id": "pas_2_objectivitat_i_sequencia",
+          "descriptor": "2-3 frases: de qué va l'obra. SENSE valorar. SEMPRE PRIMER.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_metacognicio_i_precisio",
+          "descriptor": "Senyals lingüístics visibles: \"crec que\", \"m'ha agradat\". Separació mínima visible."
+        },
+        {
+          "pas_id": "pas_4_suport_i_credibilitat",
+          "descriptor": "1 argument senzill: \"m'ha agradat perquè…\" + 1 fet de l'obra."
+        },
+        {
+          "pas_id": "pas_5_perspectivisme",
+          "descriptor": "\"La recomano / No la recomano.\" 1 frase."
+        },
+        {
+          "pas_id": "pas_6_control_de_la",
+          "descriptor": "No revelar el final."
+        },
+        {
+          "pas_id": "pas_7_no_sarcasme_ni",
+          "descriptor": "Sense sarcasme ni ironia. Pot confondre alumnat nouvingut o amb TEA."
+        },
+        {
+          "pas_id": "pas_7_no_comparacio_sense",
+          "descriptor": "Cap comparació amb obres que el lector probablement no coneix."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a l'obra identificada i al contingut descriptiu bàsic."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He dit el títol i l'autor. He explicat de qué va. He dit si m'ha agradat i per qué.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_completitud_i_context",
+          "descriptor": "Títol + autor/director + gènere + any. 1-2 frases.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_objectivitat_i_sequencia",
+          "descriptor": "3-4 frases descriptives del contingut. Sense cap judici. SEMPRE PRIMER.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_metacognicio_i_precisio",
+          "descriptor": "Separació clara: bloc descriptiu → bloc valoratiu. Sense barrejar dins d'una frase."
+        },
+        {
+          "pas_id": "pas_4_suport_i_credibilitat",
+          "descriptor": "2 arguments concrets amb 1 fet de l'obra cadascun."
+        },
+        {
+          "pas_id": "pas_5_perspectivisme",
+          "descriptor": "\"La recomano a qui li agradi…\" + 1 condició concreta."
+        },
+        {
+          "pas_id": "pas_6_control_de_la",
+          "descriptor": "No revelar girs principals de la trama si l'obra és narrativa."
+        },
+        {
+          "pas_id": "pas_7_no_sarcasme_ni",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_no_comparacio_sense",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a l'obra, als arguments principals i al to de la valoració."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He separat el que és l'obra del que en penso. He donat 1 argument per a la valoració.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_completitud_i_context",
+          "descriptor": "Identificació completa + context breu (de qué va, per a qui és)."
+        },
+        {
+          "pas_id": "pas_2_objectivitat_i_sequencia",
+          "descriptor": "Descripció del contingut, estructura i elements principals. Sense valoració."
+        },
+        {
+          "pas_id": "pas_3_metacognicio_i_precisio",
+          "descriptor": "Separació neta amb connectors de transició: \"Pel que fa a la meva valoració…\", \"En la meva opinió…\"."
+        },
+        {
+          "pas_id": "pas_4_suport_i_credibilitat",
+          "descriptor": "3 arguments ben diferenciats (contingut, forma, impacte). Cada un amb evidència de l'obra."
+        },
+        {
+          "pas_id": "pas_5_perspectivisme",
+          "descriptor": "Recomanació per a un públic específic amb justificació."
+        },
+        {
+          "pas_id": "pas_6_control_de_la",
+          "descriptor": "No revelar elements sorpresa. Indicar \"sense revelar el final\" si cal."
+        },
+        {
+          "pas_id": "pas_7_no_sarcasme_ni",
+          "descriptor": "Idem. La ironia és admissible en ressenyes C1 quan el to de l'obra ho permet explícitament."
+        },
+        {
+          "pas_id": "pas_7_no_comparacio_sense",
+          "descriptor": "Idem. La comparació és admissible si s'explica breument l'obra de referència."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a l'obra, als arguments, als fets citats i a la recomanació essencial."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He donat 3 arguments per defensar la meva valoració. He evitat revelar el final.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_completitud_i_context",
+          "descriptor": "Identificació amb context cultural o biogràfic rellevant de l'autor."
+        },
+        {
+          "pas_id": "pas_2_objectivitat_i_sequencia",
+          "descriptor": "Descripció completa amb elements formals (estructura, personatges, estil) si és rellevant."
+        },
+        {
+          "pas_id": "pas_3_metacognicio_i_precisio",
+          "descriptor": "Distinció precisa entre el que és objectiu (fet de l'obra) i el que és subjectiu (judici argumentat)."
+        },
+        {
+          "pas_id": "pas_4_suport_i_credibilitat",
+          "descriptor": "Arguments elaborats amb exemples concrets i específics de l'obra."
+        },
+        {
+          "pas_id": "pas_5_perspectivisme",
+          "descriptor": "Recomanació matisada: per a qui sí, per a qui potser no."
+        },
+        {
+          "pas_id": "pas_6_control_de_la",
+          "descriptor": "Control conscient de la informació revelada. El lector pot decidir si vol llegir-la."
+        },
+        {
+          "pas_id": "pas_7_no_sarcasme_ni",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_no_comparacio_sense",
+          "descriptor": "Comparació amb obres del mateix autor o gènere admesa amb context."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat valorativa i al context de la ressenya original."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"Els meus judicis van acompanyats de fets concrets de l'obra. La recomanació és per a un públic concret.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_completitud_i_context",
+          "descriptor": "Identificació amb context ampli: tradició, gènere, recepció crítica inicial."
+        },
+        {
+          "pas_id": "pas_2_objectivitat_i_sequencia",
+          "descriptor": "Descripció precisa que permet al lector entendre l'obra sense haver-la llegit o vista."
+        },
+        {
+          "pas_id": "pas_3_metacognicio_i_precisio",
+          "descriptor": "Distinció sofisticada entre descripció, interpretació i valoració com a tres capes explícites."
+        },
+        {
+          "pas_id": "pas_4_suport_i_credibilitat",
+          "descriptor": "Arguments rigorosos amb cites o referències específiques a l'obra."
+        },
+        {
+          "pas_id": "pas_5_perspectivisme",
+          "descriptor": "Recomanació crítica que pot contenir reserves o condicions."
+        },
+        {
+          "pas_id": "pas_6_control_de_la",
+          "descriptor": "Gestió precisa: descriure sense revelar, incitar sense enganyar."
+        },
+        {
+          "pas_id": "pas_7_no_sarcasme_ni",
+          "descriptor": "Ironia admesa si el context cultural de l'obra i el del lector la fan accessible."
+        },
+        {
+          "pas_id": "pas_7_no_comparacio_sense",
+          "descriptor": "Comparació intertextual admesa com a recurs analític."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, als matisos i a les referències de la ressenya original."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He distingit descripció, interpretació i valoració. La recomanació és matisada i argumentada.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_completitud_i_context",
+      "titol": "Identificació de l'obra",
+      "dimensio": "Completitud i context",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "binary: títol i autor/director presents; countable: elements d'identificació presents per nivell (gènere+any a A2+, context a B1+)"
+    },
+    {
+      "id": "pas_2_objectivitat_i_sequencia",
+      "titol": "Descripció (SEMPRE primer)",
+      "dimensio": "Objectivitat i seqüència",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "structural: detectar si la valoració (\"m'ha agradat\", \"és bo\", \"recomanable\") apareix ABANS del bloc descriptiu; binary: descripció present i anterior a la valoració"
+    },
+    {
+      "id": "pas_3_metacognicio_i_precisio",
+      "titol": "Separació fets/judicis",
+      "dimensio": "Metacognició i precisió",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar fets i judicis barrejats dins d'una mateixa frase sense separació lingüística; qualitative: LLM-jutge sobre si la separació és visible i coherent"
+    },
+    {
+      "id": "pas_4_suport_i_credibilitat",
+      "titol": "Arguments valoratius",
+      "dimensio": "Suport i credibilitat",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar arguments; qualitative: LLM-jutge sobre si cada argument va acompanyat d'un fet concret de l'obra (no una opinió buida)"
+    },
+    {
+      "id": "pas_5_perspectivisme",
+      "titol": "Recomanació concreta",
+      "dimensio": "Perspectivisme",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: recomanació present; qualitative: LLM-jutge sobre si és concreta (per a qui específicament) o genèrica (\"per a tothom\")"
+    },
+    {
+      "id": "pas_6_control_de_la",
+      "titol": "Sense spoilers",
+      "dimensio": "Control de la informació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar revelació del final o d'un gir clau; qualitative: LLM-jutge sobre si la descripció permet al lector decidir si vol llegir/veure l'obra"
+    },
+    {
+      "id": "pas_7_no_sarcasme_ni",
+      "titol": "Criteris transversals",
+      "dimensio": "No sarcasme ni ironia a la valoració",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "qualitative: LLM-jutge sobre si el to de la valoració conté sarcasme o ironia; marques: exclamatives iròniques (\"Quin geni!\"), adjectivació hiperbòlica negativa, incongruència to/sentit; alerta especial per a alumnat nouvingut i TEA (A1-B1)"
+    },
+    {
+      "id": "pas_7_no_comparacio_sense",
+      "titol": "Criteris transversals",
+      "dimensio": "No comparació sense context",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar noms d'obres o autors citats sense context explicatiu; qualitative: LLM-jutge sobre si el lector objectiu pot entendre la comparació"
+    },
+    {
+      "id": "pas_7_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar obra identificada, arguments principals, recomanació i to valoratiu original vs adaptat; LLM-jutge sobre si la simplificació preserva la valoració"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Adapta o genera una ressenya respectant SEMPRE la seqüència invariant descripció → valoració: primer presenta l'obra en termes objectius (identificació + de què tracta sense jutjar) i només després introdueix la valoració argumentada amb evidències concretes de l'obra i una recomanació amb destinatari específic, sense revelar el final ni girs clau. Modula longitud, nombre d'arguments i sofisticació metacognitiva seguint el nivell MECR objectiu (A1→C1).",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si la valoració és pedagògicament correcta, ni si el to admet ironia per a aquest alumne, ni si la separació fets/judicis és coherent. La decisió final sobre arguments, destinatari recomanat i to la pren qui ensenya al Pas 3. El LLM només garanteix seqüència estructural, control de spoilers i modulació MECR; mai inventa fets ni judicis fora de la font."
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_treballa_un",
+      "description": "La unitat treballa un llibre, una pel·lícula, una obra de teatre, un disc, una exposició o un videojoc."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de produir una ressenya com a tasca d'expressió escrita amb posicionament personal argumentat."
+    },
+    {
+      "name": "el_context_es_llengua",
+      "description": "El context és Llengua i Literatura, Ciències Socials, Música, Arts o qualsevol matèria amb dimensió cultural."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_vol_convencer",
+      "description": "El text vol convèncer el lector d'adoptar una postura abstracta → assaig."
+    },
+    {
+      "name": "el_text_informa_sobre",
+      "description": "El text informa sobre l'obra sense valorar → entrada enciclopèdica o sinopsi."
+    },
+    {
+      "name": "el_text_narra_la",
+      "description": "El text narra la historia de l'obra → resum narratiu o crònica."
+    },
+    {
+      "name": "el_text_descriu_la",
+      "description": "El text descriu la vida de l'autor → biografia."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Dues columnes: \"el que és\" i \"el que en penso\".",
+      "descripcio": "Proposo que l'alumne faci dues columnes. A la primera (\"el que és\"): fets de l'obra. A la segona (\"el que en penso\"): judicis amb arguments. Primer emplena les dues columnes, després les integra en el text en ordre correcte (descripció → valoració). La separació visual inicial evita la barreja."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Per qué?\" com a test de l'argument.",
+      "descripcio": "Quan l'alumne escriu \"m'ha agradat\", pregunto \"per qué?\". La resposta és l'argument que mancava. Practicar el \"per qué?\" sistemàticament transforma valoracions buides en valoracions argumentades. Funciona des de A2."
+    },
+    {
+      "id": "H3",
+      "titol": "La recomanació per exclusió.",
+      "descripcio": "Per ajudar l'alumne a concretar la recomanació: \"Per a qui NO seria una bona elecció?\" La resposta delimita el públic, i de la delimitació surt la recomanació positiva concreta (\"bona per a qui...\")."
+    },
+    {
+      "id": "H4",
+      "titol": "El test del company: sense spoiler.",
+      "descripcio": "El company llegeix la descripció i diu si pot anar a veure o llegir l'obra sense saber com acaba. Si sap el final o un gir clau, hi ha spoiler. El test es fa en parelles."
+    }
+  ],
+  "case_overrides": {
+    "nouvingut_o_tea_sense_ironia": {
+      "trigger": {
+        "raw": "nouvingut_o_TEA_sense_ironia"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** perfil_in: [TEA] OR nouvingut_L1: true AND mecr_in: [A1, A2, B1]\n\n**Modulació:**\n- valoració sense sarcasme ni ironia (Pas 7.1)\n- to literal i transparent\n- sense exclamatives iròniques (\"Quin geni!\")\n- sense adjectivació hiperbòlica negativa\n- sense incongruència to/sentit\n\n**Raonament pedagògic.** Les marques textuals d'ironia no són accessibles sense competència pragmàtica avançada i poden generar interpretació literal errònia (inversió del judici). En alumnat amb TEA o en procés"
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1 AND fase_lectora_equals: alfabetica_emergent\n\n**Modulació:**\n- longitud màxima molt curta (5-7 frases totals)\n- identificació reduïda a títol + autor/director en 1 frase\n- descripció en 2-3 frases sense connectors complexos\n- 1 sol argument valoratiu amb 1 fet de l'obra\n- recomanació en 1 frase\n- sense subordinades encadenades\n- lèxic CALP minimitzat\n\n**Raonament pedagògic.** A fase alfabètica emergent dins A1, la càrrega lecto-descodificadora és encara dominant. Man"
+      }
+    }
+  }
+}

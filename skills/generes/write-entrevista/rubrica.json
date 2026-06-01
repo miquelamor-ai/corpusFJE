@@ -1,0 +1,492 @@
+{
+  "_meta": {
+    "name": "rubrica_write_entrevista",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-entrevista\\M3_genere-escriure-entrevista.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-entrevista",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "entrevista",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat, al to, als matisos i als moments de tensió del text original."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_context_i_rellevancia",
+          "descriptor": "1 frase: qui és i per qué."
+        },
+        {
+          "pas_id": "pas_2_consistencia_grafica",
+          "descriptor": "**P:** i **R:** en negreta. Consistent en tot el text."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_focus",
+          "descriptor": "Preguntes de 1-2 paraules clau o 1 frase simple (\"Qué fas?\", \"On vius?\").",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_veu_i_autenticitat",
+          "descriptor": "Respostes de 1-2 frases en primera persona.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_extensio_i_cobertura",
+          "descriptor": "3-4 parells P/R."
+        },
+        {
+          "pas_id": "pas_6_termes_tecnics_de",
+          "descriptor": "Sense termes tècnics (o amb explicació immediata entre parèntesi)."
+        },
+        {
+          "pas_id": "pas_6_no_linearitzar",
+          "descriptor": "Cap frase de transició narrativa entre P/R (\"l'entrevistat va contestar que...\"). Format P/R pur."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a les idees principals de l'entrevistat i al format P/R."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"He escrit qui és l'entrevistat. He escrit 3-4 preguntes i respostes marcades amb P i R.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_context_i_rellevancia",
+          "descriptor": "2 frases: qui és i per qué és rellevant entrevistar-lo.",
+          "countable": {
+            "min": 2,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_consistencia_grafica",
+          "descriptor": "**P:** i **R:** en negreta. Format perfectament consistent."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_focus",
+          "descriptor": "Preguntes directes d'una sola idea. Sense preguntes dobles ni retòriques."
+        },
+        {
+          "pas_id": "pas_4_veu_i_autenticitat",
+          "descriptor": "Respostes de 2-3 frases. Primera persona consistent. Cap transformació a 3a persona.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_extensio_i_cobertura",
+          "descriptor": "4-5 parells P/R."
+        },
+        {
+          "pas_id": "pas_6_termes_tecnics_de",
+          "descriptor": "1 terme tècnic màxim, explicat entre parèntesi o al costat.",
+          "countable": {
+            "min": 1,
+            "max": 1,
+            "unitat": "terms"
+          }
+        },
+        {
+          "pas_id": "pas_6_no_linearitzar",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a les idees, al registre bàsic i al format."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"Cada pregunta té una sola idea. Les respostes son en primera persona.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_context_i_rellevancia",
+          "descriptor": "3-4 frases de context professional o personal que justifiquen l'entrevista.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_2_consistencia_grafica",
+          "descriptor": "**P:** i **R:** en negreta. Cap ambigüitat sobre qui parla en cap moment."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_focus",
+          "descriptor": "Preguntes d'una idea que exploren un aspecte concret. Sense preguntes retòriques."
+        },
+        {
+          "pas_id": "pas_4_veu_i_autenticitat",
+          "descriptor": "Respostes de 3-4 frases amb matís. Veu de l'entrevistat preservada i recognoscible.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_extensio_i_cobertura",
+          "descriptor": "5-6 parells P/R."
+        },
+        {
+          "pas_id": "pas_6_termes_tecnics_de",
+          "descriptor": "Termes tècnics explicats entre claudàtors [terme: significat] o en nota al final."
+        },
+        {
+          "pas_id": "pas_6_no_linearitzar",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a les idees, al registre, a la veu de l'entrevistat i al format."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"Les meves preguntes exploren aspectes interessants. He explicat els termes difícils.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_context_i_rellevancia",
+          "descriptor": "Presentació completa amb context social o professional."
+        },
+        {
+          "pas_id": "pas_2_consistencia_grafica",
+          "descriptor": "**P:** i **R:** en negreta. La veu de l'entrevistat és lingüísticament diferenciable de la del periodista."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_focus",
+          "descriptor": "Preguntes que conviden a defensar posicions o explicar processos complexos."
+        },
+        {
+          "pas_id": "pas_4_veu_i_autenticitat",
+          "descriptor": "Respostes que mostren el punt de vista de l'entrevistat amb arguments i evidències."
+        },
+        {
+          "pas_id": "pas_5_extensio_i_cobertura",
+          "descriptor": "6-7 parells P/R. Pot incloure 1 pregunta de seguiment."
+        },
+        {
+          "pas_id": "pas_6_termes_tecnics_de",
+          "descriptor": "Termes tècnics explicats naturalment dins del text."
+        },
+        {
+          "pas_id": "pas_6_no_linearitzar",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat de les idees i al to de l'entrevistat."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"L'entrevistat defensa una postura clara. He fet preguntes de seguiment.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_context_i_rellevancia",
+          "descriptor": "Presentació que situa l'entrevistat en el seu camp i dona el marc de l'entrevista."
+        },
+        {
+          "pas_id": "pas_2_consistencia_grafica",
+          "descriptor": "**P:** i **R:** en negreta. La diferència de registre i veu entre entrevistador i entrevistat és evident."
+        },
+        {
+          "pas_id": "pas_3_precisio_i_focus",
+          "descriptor": "Preguntes que qüestionen, matisen o aprofundeixen. Pot incloure preguntes de seguiment."
+        },
+        {
+          "pas_id": "pas_4_veu_i_autenticitat",
+          "descriptor": "Respostes que mostren la complexitat de la postura. Pot incloure matisos i contradiccions."
+        },
+        {
+          "pas_id": "pas_5_extensio_i_cobertura",
+          "descriptor": "7-10 parells P/R. Moments de tensió dialèctica quan el tema ho permet. La profunditat de cada rèplica és més rellevant que el nombre total."
+        },
+        {
+          "pas_id": "pas_6_termes_tecnics_de",
+          "descriptor": "Termes tècnics integrats; glossari al final si hi ha molts."
+        },
+        {
+          "pas_id": "pas_6_no_linearitzar",
+          "descriptor": "Idem. Pot incloure una nota editorial breu entre claudàtors [nota de la redacció] si és rellevant."
+        },
+        {
+          "pas_id": "pas_6_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat, al to, als matisos i als moments de tensió del text original."
+        },
+        {
+          "pas_id": "pas_7_reflexio_sobre_el",
+          "descriptor": "\"L'entrevista mostra la complexitat de les idees de l'entrevistat. He revisat que no hi hagi linearització.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_context_i_rellevancia",
+      "titol": "Presentació de l'entrevistat",
+      "dimensio": "Context i rellevància",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar frases de presentació; LLM-jutge sobre suficiència del context per al nivell"
+    },
+    {
+      "id": "pas_2_consistencia_grafica",
+      "titol": "Format P/R (etiquetes)",
+      "dimensio": "Consistència gràfica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: presència de \"**P:**\" i \"**R:**\" (o \"P:\" / \"R:\") de manera consistent; detectar parells sense etiqueta"
+    },
+    {
+      "id": "pas_3_precisio_i_focus",
+      "titol": "Preguntes directes (1 sola idea)",
+      "dimensio": "Precisió i focus",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar preguntes dobles (connector \"i\" entre dos verbs o clàusules interrogatives, no en enumeracions nominals — \"Qué fas i on treballes?\" sí és doble; \"Qué en penses del grup i del seu estil?\" no ho és); qualitative: LLM-jutge sobre focus i no-retòriques"
+    },
+    {
+      "id": "pas_4_veu_i_autenticitat",
+      "titol": "Respostes en 1a persona",
+      "dimensio": "Veu i autenticitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: detectar transformació a 3a persona (\"va dir que...\"); qualitative: LLM-jutge sobre autenticitat de veu"
+    },
+    {
+      "id": "pas_5_extensio_i_cobertura",
+      "titol": "Nombre de parells P/R",
+      "dimensio": "Extensió i cobertura",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar parells P/R; verificar llindar per nivell"
+    },
+    {
+      "id": "pas_6_termes_tecnics_de",
+      "titol": "Criteris transversals",
+      "dimensio": "Termes tècnics de l'entrevistat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de termes sense explicació a A1-A2; qualitative: adequació de l'explicació per a cada terme"
+    },
+    {
+      "id": "pas_6_no_linearitzar",
+      "titol": "Criteris transversals",
+      "dimensio": "No linearitzar",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar frases narratives de transició entre P/R (\"va respondre que\", \"l'entrevistat va explicar que\"); regex sobre patrons de discurs indirecte"
+    },
+    {
+      "id": "pas_6_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparar idees principals de l'entrevistat, format P/R i veu original vs adaptats"
+    },
+    {
+      "id": "pas_7_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta el text com a entrevista en format pregunta/resposta invariant, amb les etiquetes literals **P:** i **R:** en negreta, presentació inicial de l'entrevistat i respostes sempre en primera persona; nombre de parells P/R segons llindar de nivell MECR (3-4 a A1, fins a 7-10 a C1).",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si l'entrevistat triat és pedagògicament rellevant, si la postura defensada és adequada a l'aula, ni si la fidelitat a la veu original és prou autèntica; aquestes valoracions les fa el docent. El LLM tampoc no avalua nivell MECR de l'alumne ni assigna fase lectora: rep el nivell i la fase com a paràmetres d'entrada."
+  },
+  "regla_seleccio_per_perfil": {
+    "fase_lectora_alfabetica_emergent": {
+      "inclou_si": [
+        "A"
+      ],
+      "exclou_explicitament": [
+        "t"
+      ],
+      "raonament": "A fase emergent, la lectura encara consumeix recursos cognitius elevats; reduir el nombre de parells i la càrrega lèxica preserva l'accés al gènere sense saturar la descodificació (MALL: lectura assequible com a porta d'entrada al format dialogat)."
+    },
+    "fase_lectora_alfabetica_fluida": {
+      "inclou_si": [
+        "A"
+      ],
+      "exclou_explicitament": [
+        "t"
+      ],
+      "raonament": "Amb descodificació fluida, l'alumne pot sostenir un parell P/R addicional i una presentació més rica; la resta de la taula Modulació s'aplica directament per nivell MECR."
+    },
+    "agent_role_adapter": {
+      "inclou_si": [
+        "t"
+      ],
+      "exclou_explicitament": [
+        "i"
+      ],
+      "raonament": "En mode adaptador la veu de l'entrevistat és patrimoni del text font; la fidelitat és el criteri de qualitat (decisió canònica Fase B: adaptació no és reescriptura)."
+    },
+    "agent_role_generator": {
+      "inclou_si": [
+        "c"
+      ],
+      "exclou_explicitament": [
+        "a"
+      ],
+      "raonament": "En mode generador la fidelitat externa no aplica; la qualitat es valida per consistència interna del personatge i adequació al perfil declarat pel docent."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una entrevista publicada a una revista, diari o plataforma digital."
+    },
+    {
+      "name": "la_unitat_vol_apropar",
+      "description": "La unitat vol apropar una figura (científica, artística, esportiva, històrica) a l'alumnat a través de les seves paraules."
+    },
+    {
+      "name": "l_activitat_preveu_que",
+      "description": "L'activitat preveu que l'alumne produeixi una entrevista com a tasca (entrevistar un company, un familiar, un expert local)."
+    },
+    {
+      "name": "l_objectiu_inclou_treballar",
+      "description": "L'objectiu inclou treballar la formulació de preguntes com a competència cognitiva."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_informatiu_sobre",
+      "description": "El text informatiu sobre una persona no té format dialogat → biografia o entrada enciclopèdica."
+    },
+    {
+      "name": "el_text_es_un",
+      "description": "El text és un debat entre dues persones amb postures oposades → cartes conversacionals o assaig."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "Preparar les preguntes primer.",
+      "descripcio": "Proposo que l'alumne prepari les preguntes en un full separat ABANS de fer (o escriure) l'entrevista. Les preguntes han de cobrir: qui és, qué fa, per qué ho fa, qué ha après, qué recomanaria. Amb 5 preguntes cobertes, l'entrevista té estructura. Evita el bloqueig de \"no sé qué preguntar\"."
+    },
+    {
+      "id": "H2",
+      "titol": "El test de la pregunta única.",
+      "descripcio": "Quan l'alumne escriu una pregunta doble, la llegeixo en veu alta i li pregunto: \"Quantes preguntes has fet?\" Si n'hi ha més d'una, cal dividir. Funciona com a autocorrecció immediata des de A2. La versió escrita: cada pregunta ha de tenir un sol signe d'interrogació i no ha de contenir la conjunció \"i\" en posició interrogativa."
+    },
+    {
+      "id": "H3",
+      "titol": "\"Parla en nom teu, no en nom d'altri\".",
+      "descripcio": "Quan l'alumne converteix les respostes en tercera persona (\"Va dir que estava content\"), li demano: \"Ara fes que l'entrevistat parli directament a mi.\" La transformació de 3a a 1a persona és un exercici de perspectiva i de preservació de la veu. Funciona com a bastida per a la comprensió del discurs directe."
+    },
+    {
+      "id": "H4",
+      "titol": "L'entrevista oral com a bastida (A1-A2).",
+      "descripcio": "Per a les primeres entrevistes, proposo una entrevista real en parelles a l'aula: un fa de periodista, l'altre d'entrevistat. Primer oral, després escriure els torns. El format P/R neix de manera natural de l'experiència viscuda i es trasllada a l'escriptura amb menys resistència."
+    }
+  ],
+  "case_overrides": {
+    "no_aplica_prea1": {
+      "trigger": {
+        "raw": "no_aplica_preA1"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] OR fase_lectora_in: [logografica]\n\n**Modulació:**\n- skill_no_executat: true\n- missatge_docent: \"L'entrevista requereix base lecto-escriptora mínima (comprensió de torns atribuïts P:/R: i etiquetes semàntiques). Per a pre-A1 / fase logogràfica, usar un altre gènere (p.e. descripció amb pictogrames). Decisió canònica Fase B.\"\n\n**Raonament pedagògic.** La comprensió de torns atribuïts i etiquetes semàntiques requereix base lecto-escriptora; sense ella, el format P/R e"
+      }
+    },
+    "argumentar_activat_b1_plus": {
+      "trigger": {
+        "raw": "argumentar_activat_B1_plus"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1] AND entrevistat_defensa_postura: true\n\n**Modulació:**\n- hcl_secundaria_argumentar: activa a les respostes\n- B1: l'entrevistat justifica la postura amb 1-2 raons\n- B2: arguments i evidències\n- C1: matisos i contradiccions assumides\n- B2-C1: incloure 1 pregunta de seguiment que aprofundeixi la postura\n\n**Raonament pedagògic.** Quan l'entrevistat defensa una postura, l'entrevista esdevé pont entre Descriure i Argumentar (MALL). Activar Argumentar a partir de B1 pe"
+      }
+    },
+    "dua_acces": {
+      "trigger": {
+        "raw": "DUA_acces"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces\n\n**Modulació:**\n- nombre_parells_PR: llindar inferior del nivell (p.e. 3 a A1 en lloc de 4)\n- presentacio_max_frases: 1\n- termes_tecnics: zero o explicació immediata entre parèntesi\n- respostes_max_frases: 1-2\n\n**Raonament pedagògic.** El principi DUA d'Accés demana reduir la càrrega cognitiva no essencial al gènere. Mantenir el format P/R com a marcador identificatiu i alleugerir la resta (nombre de parells, presentació, lèxic) preserva l'essència de l'entrevista "
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "consistencia_grafica",
+      "type": "qualitative",
+      "rule": "regex: presència de \"**P:**\" i \"**R:**\" (o \"P:\" / \"R:\") de manera consistent; detectar parells sense etiqueta"
+    },
+    {
+      "name": "extensio_i_cobertura",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_5_extensio_i_cobertura].countable"
+    },
+    {
+      "name": "no_linearitzar",
+      "type": "qualitative",
+      "rule": "detectar frases narratives de transició entre P/R (\"va respondre que\", \"l'entrevistat va explicar que\"); regex sobre patrons de discurs indirecte"
+    }
+  ]
+}

@@ -1,0 +1,839 @@
+{
+  "_meta": {
+    "name": "rubrica_write_noticia",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-noticia\\M3_genere-escriure-noticia.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-noticia",
+    "family": "generes",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "noticia",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat al matís, als punts de vista i a la complexitat informativa originals."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_fets_clau",
+          "descriptor": "L'adult explica el fet amb una imatge. L'alumne assenyala el personatge principal."
+        },
+        {
+          "pas_id": "pas_2_llargada_i_forma",
+          "descriptor": "1-5 paraules acompanyades d'un pictograma a l'esquerra. Sense verb obligatori.",
+          "countable": {
+            "min": 1,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_estil_literal",
+          "descriptor": "Concepte únic, suport visual obligatori."
+        },
+        {
+          "pas_id": "pas_3_cobertura_5w",
+          "descriptor": "Cobreix 2W: Qui i Què. Lectura mediada per adult."
+        },
+        {
+          "pas_id": "pas_3_llargada_de_frase",
+          "descriptor": "Frases de fins a 8 paraules.",
+          "countable": {
+            "max": 8,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_estructura_sintactica",
+          "descriptor": "Frase única amb suport visual; sintaxi mínima."
+        },
+        {
+          "pas_id": "pas_4_ordre_informatiu",
+          "descriptor": "1-2 frases amb pictograma de suport; el fet principal apareix primer.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_volum_del_cos",
+          "descriptor": "1-2 frases.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_cita_directa",
+          "descriptor": "Sense cites. L'adult és la font."
+        },
+        {
+          "pas_id": "pas_7_adjectius_valoratius",
+          "descriptor": "Cap."
+        },
+        {
+          "pas_id": "pas_7_acronims",
+          "descriptor": "No s'usen; suport oral de l'adult."
+        },
+        {
+          "pas_id": "pas_7_context_aclarit",
+          "descriptor": "L'adult explica el context oralment."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fet nuclear (qui, què, on)."
+        },
+        {
+          "pas_id": "pas_7_registre",
+          "descriptor": "Bàsic amb pictograma. Vocabulari concret immediat."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He mirat la imatge i he escoltat la notícia; quan no entenia, he assenyalat què no entenia.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_fets_clau",
+          "descriptor": "Respon \"Qui?\" i \"Què?\" en 1-2 paraules.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_llargada_i_forma",
+          "descriptor": "Fins a 10 paraules. Verb concret en present o passat.",
+          "countable": {
+            "max": 10,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_estil_literal",
+          "descriptor": "Sense metàfores ni jocs de paraules."
+        },
+        {
+          "pas_id": "pas_3_cobertura_5w",
+          "descriptor": "Cobreix 3W: Qui, Què i On."
+        },
+        {
+          "pas_id": "pas_3_llargada_de_frase",
+          "descriptor": "Frases de fins a 12 paraules.",
+          "countable": {
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_estructura_sintactica",
+          "descriptor": "Frase simple Subjecte + Verb + Complement."
+        },
+        {
+          "pas_id": "pas_4_ordre_informatiu",
+          "descriptor": "2-3 frases ordenades del fet més important al menys important.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_volum_del_cos",
+          "descriptor": "2-3 frases.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_cita_directa",
+          "descriptor": "Sense cites."
+        },
+        {
+          "pas_id": "pas_7_adjectius_valoratius",
+          "descriptor": "Cap."
+        },
+        {
+          "pas_id": "pas_7_acronims",
+          "descriptor": "Desplegats sempre: \"ONU (Organització de les Nacions Unides)\"."
+        },
+        {
+          "pas_id": "pas_7_context_aclarit",
+          "descriptor": "Sense \"ahir\" / \"el president\": noms i temps complets."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fet nuclear (qui, què, on)."
+        },
+        {
+          "pas_id": "pas_7_registre",
+          "descriptor": "Neutre i frequent (\"va morir\", no \"va perdre la vida\")."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He llegit el text un cop i, quan no entenia una paraula, l'he buscat o he demanat ajuda.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_fets_clau",
+          "descriptor": "Identifica 2-3 fets principals del text font."
+        },
+        {
+          "pas_id": "pas_2_llargada_i_forma",
+          "descriptor": "Fins a 12 paraules. Verb + complement informatiu.",
+          "countable": {
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_estil_literal",
+          "descriptor": "Sense metàfores. Llenguatge directe."
+        },
+        {
+          "pas_id": "pas_3_cobertura_5w",
+          "descriptor": "Cobreix 4-5W (afegeix Quan i, si escau, Per què)."
+        },
+        {
+          "pas_id": "pas_3_llargada_de_frase",
+          "descriptor": "Frases de fins a 15 paraules.",
+          "countable": {
+            "max": 15,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_estructura_sintactica",
+          "descriptor": "Pot incloure una subordinada simple."
+        },
+        {
+          "pas_id": "pas_4_ordre_informatiu",
+          "descriptor": "2-3 paràgrafs amb piràmide invertida clara.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_4_volum_del_cos",
+          "descriptor": "2-3 paràgrafs breus.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_5_cita_directa",
+          "descriptor": "Una cita directa breu integrada al text."
+        },
+        {
+          "pas_id": "pas_5_atribucio",
+          "descriptor": "Atribució clara: \"Segons [persona], '…'\"."
+        },
+        {
+          "pas_id": "pas_6_avaluacio_de_fonts",
+          "descriptor": "Opcional: \"Qui ho ha dit? On ho diu el text?\"."
+        },
+        {
+          "pas_id": "pas_7_adjectius_valoratius",
+          "descriptor": "Cap."
+        },
+        {
+          "pas_id": "pas_7_acronims",
+          "descriptor": "Desplegats la primera vegada al text."
+        },
+        {
+          "pas_id": "pas_7_context_aclarit",
+          "descriptor": "Dates completes i noms complets sempre."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fet nuclear (qui, què, on)."
+        },
+        {
+          "pas_id": "pas_7_registre",
+          "descriptor": "Neutre amb termes freqüents de la matèria."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He revisat el meu text per veure si un lector que no conegui el fet l'entendria.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_fets_clau",
+          "descriptor": "Jerarquitza 3-4 fets per rellevància informativa."
+        },
+        {
+          "pas_id": "pas_2_llargada_i_forma",
+          "descriptor": "Fins a 15 paraules. Clar i informatiu, sense adjectius valoratius.",
+          "countable": {
+            "max": 15,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_estil_literal",
+          "descriptor": "Sense metàfora. Pot tenir matís però sentit literal."
+        },
+        {
+          "pas_id": "pas_3_cobertura_5w",
+          "descriptor": "Cobreix les 5W completes."
+        },
+        {
+          "pas_id": "pas_3_llargada_de_frase",
+          "descriptor": "Frases de fins a 18 paraules.",
+          "countable": {
+            "max": 18,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_estructura_sintactica",
+          "descriptor": "Subordinació causal admissible (perquè, ja que)."
+        },
+        {
+          "pas_id": "pas_4_ordre_informatiu",
+          "descriptor": "3 paràgrafs amb piràmide invertida explícita i transició lògica."
+        },
+        {
+          "pas_id": "pas_4_volum_del_cos",
+          "descriptor": "3 paràgrafs estructurats."
+        },
+        {
+          "pas_id": "pas_5_cita_directa",
+          "descriptor": "Una cita directa més una atribució indirecta."
+        },
+        {
+          "pas_id": "pas_5_atribucio",
+          "descriptor": "Font identificada per a cada dada principal."
+        },
+        {
+          "pas_id": "pas_6_avaluacio_de_fonts",
+          "descriptor": "El lector identifica la font de cada dada principal."
+        },
+        {
+          "pas_id": "pas_7_adjectius_valoratius",
+          "descriptor": "Cap."
+        },
+        {
+          "pas_id": "pas_7_acronims",
+          "descriptor": "Desplegats la primera vegada; integrats al context."
+        },
+        {
+          "pas_id": "pas_7_context_aclarit",
+          "descriptor": "Context historicogeogràfic breu integrat al text."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al fet i al context principal."
+        },
+        {
+          "pas_id": "pas_7_registre",
+          "descriptor": "Neutre amb termes específics integrats."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He decidit quina era la dada més important del fet i l'he posada al principi pensant en el meu lector.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_fets_clau",
+          "descriptor": "Identifica l'angle informatiu i la selecció editorial."
+        },
+        {
+          "pas_id": "pas_2_llargada_i_forma",
+          "descriptor": "Fins a 18 paraules. Pot incloure un matís causal.",
+          "countable": {
+            "max": 18,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_estil_literal",
+          "descriptor": "Sense metàfora. Pot tenir matís complex però unívoc."
+        },
+        {
+          "pas_id": "pas_3_cobertura_5w",
+          "descriptor": "Cobreix les 5W més un context breu."
+        },
+        {
+          "pas_id": "pas_3_llargada_de_frase",
+          "descriptor": "Frases de fins a 22 paraules.",
+          "countable": {
+            "max": 22,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_estructura_sintactica",
+          "descriptor": "Subordinació complexa amb connectors elaborats."
+        },
+        {
+          "pas_id": "pas_4_ordre_informatiu",
+          "descriptor": "3-4 paràgrafs amb detall creixent en zones secundàries.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_4_volum_del_cos",
+          "descriptor": "3-4 paràgrafs estructurats.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "parraps"
+          }
+        },
+        {
+          "pas_id": "pas_5_cita_directa",
+          "descriptor": "Dues a tres cites amb contrast de punts de vista."
+        },
+        {
+          "pas_id": "pas_5_atribucio",
+          "descriptor": "Atribució explícita i avaluada per a cada font."
+        },
+        {
+          "pas_id": "pas_6_avaluacio_de_fonts",
+          "descriptor": "El lector avalua la credibilitat de cada font i ho explicita al text."
+        },
+        {
+          "pas_id": "pas_7_adjectius_valoratius",
+          "descriptor": "Cap."
+        },
+        {
+          "pas_id": "pas_7_acronims",
+          "descriptor": "Desplegats la primera vegada; lèxic acadèmic neutre."
+        },
+        {
+          "pas_id": "pas_7_context_aclarit",
+          "descriptor": "Context historicogeogràfic integrat amb precisió."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al matís i als punts de vista originals."
+        },
+        {
+          "pas_id": "pas_7_registre",
+          "descriptor": "Neutre amb lèxic acadèmic propi del camp (CALP inicial)."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He pensat com un lector crític: hi ha alguna afirmació sense font? he donat un punt de vista sense voler?\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_fets_clau",
+          "descriptor": "Analitza la intencionalitat i l'enquadrament ideològic de la peça."
+        },
+        {
+          "pas_id": "pas_2_llargada_i_forma",
+          "descriptor": "Sense límit estricte de paraules; precisió i claredat com a criteri únic."
+        },
+        {
+          "pas_id": "pas_2_estil_literal",
+          "descriptor": "Llenguatge precís; els jocs de paraules només són admissibles si no comprometen la claredat informativa."
+        },
+        {
+          "pas_id": "pas_3_cobertura_5w",
+          "descriptor": "Cobreix 5W més context i implicació informativa."
+        },
+        {
+          "pas_id": "pas_3_llargada_de_frase",
+          "descriptor": "Sense límit estricte; claredat com a criteri únic."
+        },
+        {
+          "pas_id": "pas_3_estructura_sintactica",
+          "descriptor": "Sintaxi lliure amb claredat obligatòria."
+        },
+        {
+          "pas_id": "pas_4_ordre_informatiu",
+          "descriptor": "Estructura de crònica completa amb piràmide flexibilitzada però jerarquitzada."
+        },
+        {
+          "pas_id": "pas_4_volum_del_cos",
+          "descriptor": "Múltiples paràgrafs sense límit estricte."
+        },
+        {
+          "pas_id": "pas_5_cita_directa",
+          "descriptor": "Múltiples cites amb contrast i jerarquització de credibilitat."
+        },
+        {
+          "pas_id": "pas_5_atribucio",
+          "descriptor": "Atribució i triangulació explícites; detecció de biaix de selecció."
+        },
+        {
+          "pas_id": "pas_6_avaluacio_de_fonts",
+          "descriptor": "El lector contrasta fonts, detecta biaix i analitza l'enquadrament."
+        },
+        {
+          "pas_id": "pas_7_adjectius_valoratius",
+          "descriptor": "Cap (excepte si la font els porta i s'atribueixen explícitament)."
+        },
+        {
+          "pas_id": "pas_7_acronims",
+          "descriptor": "Acrònims comuns acceptats; els especialitzats es despleguen."
+        },
+        {
+          "pas_id": "pas_7_context_aclarit",
+          "descriptor": "Context complex jerarquitzat i comparat."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat al matís, als punts de vista i a la complexitat informativa originals."
+        },
+        {
+          "pas_id": "pas_7_registre",
+          "descriptor": "Formal acadèmic amb lèxic d'especialitat (CALP plena)."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He reflexionat sobre el meu enquadrament: quines fonts he triat, quines he deixat fora, i a qui beneficia aquesta tria.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_fets_clau",
+      "titol": "Identificació del fet",
+      "dimensio": "Fets clau",
+      "tipus": "enumerable",
+      "requires_source_text": false,
+      "validation_hint": "comptar identificació de Qui, Què, On, Quan, Per què al text"
+    },
+    {
+      "id": "pas_2_llargada_i_forma",
+      "titol": "Titular",
+      "dimensio": "Llargada i forma",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar paraules; detectar presència de verb i temps verbal"
+    },
+    {
+      "id": "pas_2_estil_literal",
+      "titol": "Titular",
+      "dimensio": "Estil literal",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge o llista de patrons metafòrics típics"
+    },
+    {
+      "id": "pas_3_cobertura_5w",
+      "titol": "Lead — 5W",
+      "dimensio": "Cobertura 5W",
+      "tipus": "enumerable",
+      "requires_source_text": false,
+      "validation_hint": "comptar quines W apareixen explícitament al lead"
+    },
+    {
+      "id": "pas_3_llargada_de_frase",
+      "titol": "Lead — 5W",
+      "dimensio": "Llargada de frase",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar paraules per frase entre punts"
+    },
+    {
+      "id": "pas_3_estructura_sintactica",
+      "titol": "Lead — 5W",
+      "dimensio": "Estructura sintàctica",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "parser sintàctic o LLM amb regla S+V+C"
+    },
+    {
+      "id": "pas_4_ordre_informatiu",
+      "titol": "Cos — piràmide invertida",
+      "dimensio": "Ordre informatiu",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "verificar si primera frase conté el fet principal del lead"
+    },
+    {
+      "id": "pas_4_volum_del_cos",
+      "titol": "Cos — piràmide invertida",
+      "dimensio": "Volum del cos",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar frases o paràgrafs del cos"
+    },
+    {
+      "id": "pas_5_cita_directa",
+      "titol": "Fonts i cites",
+      "dimensio": "Cita directa",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "detectar marques de cita directa (\" \" o '') i comptar"
+    },
+    {
+      "id": "pas_5_atribucio",
+      "titol": "Fonts i cites",
+      "dimensio": "Atribució",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge amb regla \"Segons [persona], '…'\""
+    },
+    {
+      "id": "pas_6_avaluacio_de_fonts",
+      "titol": "Fiabilitat de fonts",
+      "dimensio": "Avaluació de fonts",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre identificació de font per dada"
+    },
+    {
+      "id": "pas_7_adjectius_valoratius",
+      "titol": "Criteris transversals",
+      "dimensio": "Adjectius valoratius",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "llista de patrons + LLM-jutge"
+    },
+    {
+      "id": "pas_7_acronims",
+      "titol": "Criteris transversals",
+      "dimensio": "Acrònims",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar sigles i comprovar desplegament"
+    },
+    {
+      "id": "pas_7_context_aclarit",
+      "titol": "Criteris transversals",
+      "dimensio": "Context aclarit",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar referències vagues (\"ahir\", \"el president\")"
+    },
+    {
+      "id": "pas_7_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparació semàntica amb el text font, **gradada per nivell**: a pre-A1→A2 comprova preservació del fet nuclear (qui, què, on); a B1 fet + context principal; a B2-C1+ matís i punts de vista. LLM-jutge amb tres prompts diferenciats per nivell."
+    },
+    {
+      "id": "pas_7_registre",
+      "titol": "Criteris transversals",
+      "dimensio": "Registre",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge + llista d'eufemismes i floritura"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera (o adapta) una notícia periodística completa que respecti la piràmide invertida — titular + lead amb les 5W cobertes segons el nivell MECR + cos amb informació jerarquitzada de més a menys important — modulant llargada de frase, cobertura de W, presència de cites, fidelitat al text font i complexitat sintàctica segons la cel·la MECR × dimensió de la rúbrica.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix quina notícia és pedagògicament adequada per a aquest alumne ni si el fet font és apropiat per a l'edat o el context d'aula; tampoc avalua la fiabilitat real de les fonts del text original. Aquestes decisions (selecció del fet, idoneïtat ètica, validació de fonts) les pren qui ensenya abans i després de la generació. El LLM aplica mecànicament els llindars countable/enumerable de la rúbrica i delega el judici qualitatiu (registre, estil, enquadrament) a la valoració docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "adapter_vs_generator": {
+      "raonament": "Mantenir el text font al pipeline és l'única manera de validar la dimensió `cross_source` (7.4 Fidelitat) gradada per nivell. Sense text font no hi ha referent objectiu de fidelitat; el LLM passa de comparar a generar coherència interna, i això s'ha de fer explícit per no falsejar el resultat de la rúbrica."
+    },
+    "lectura_no_produccio": {
+      "raonament": "Principi MALL: l'alumne llegeix models bons al màxim del seu abast i produeix textos al seu nivell real. Confondre el sostre de lectura amb el sostre de producció genera frustració i bloqueig (Cummins: BICS/CALP no s'adquireixen alhora)."
+    },
+    "fase_lectora_dins_preA1_A1": {
+      "raonament": "A pre-A1 i A1 la variància entre lectors logogràfics i alfabètics fluids és més gran que entre A1 i A2. Capturar-la dins la mateixa cel·la (modulant paraules, pictogrames i mediació adulta) és més robust que multiplicar columnes a la rúbrica."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un article de premsa, una notícia digital o un document informatiu sobre un fet real."
+    },
+    {
+      "name": "vol_treballar_la_distincio",
+      "description": "Vol treballar la distinció fet / opinió (competència crítica, Decret 175/2022)."
+    },
+    {
+      "name": "l_alumnat_ha_de",
+      "description": "L'alumnat ha de llegir un text de CCSS, CN o Llengua amb dimensió social o d'actualitat."
+    },
+    {
+      "name": "el_grup_te_alumnat",
+      "description": "El grup té alumnat nouvingut que necessita comprendre textos informatius en català per integrar-se a les matèries."
+    },
+    {
+      "name": "la_materia_treballa_la",
+      "description": "La matèria treballa la comprensió de text informatiu (avaluació competencial)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un conte, poema o narrativa de ficció → adaptar al gènere original."
+    },
+    {
+      "name": "l_alumnat_vol_expressar",
+      "description": "L'alumnat vol expressar la seva opinió o vivència personal → opinió, diari o carta."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La prova de les 5W",
+      "descripcio": "Quan un alumne em mostra el resum de la notícia i és una narració lliure sense estructura (\"hi ha un home que va fer una cosa important\"), li faig la prova de les 5W: \"Qui? Quan? On? Per què?\". Si no pot respondre 3 de les 5 preguntes, la superestructura del gènere no és interioritzada. En aquests casos, l'instrument notícia amb les 5W explícites és la bastida correcta. No cal que sigui el text complet: de vegades el lead sol ja és suficient per treballar."
+    },
+    {
+      "id": "H2",
+      "titol": "El bloqueig davant densitat lèxica",
+      "descripcio": "Quan l'alumne nouvingut s'atura a cada paràgraf i em mira sense dir res, o pregunta \"Mestre, no entenc res\", no és un problema de voluntat sinó de càrrega cognitiva: el vocabulari és opac i no pot construir sentit. Sé que cal adaptar la notícia al seu MECR i afegir glossari. El senyal d'alarma és quan la freqüència de preguntes \"Què vol dir...?\" supera 3 per paràgraf."
+    },
+    {
+      "id": "H3",
+      "titol": "La confusió fet / opinió",
+      "descripcio": "A ESO, quan demano que identifiquin el fet principal i em diuen l'opinió de l'entrevistat com si fos un fet (\"diu que és molt important\"), sé que no distingeixen la veu narrativa de la veu de la font. L'instrument notícia amb la regla \"cita directa + atribució clara\" és la resposta pedagògica. Abans de passar a un text nou, fem la distinció en el text actual: \"Qui diu això? L'autor o la persona entrevistada?\"."
+    },
+    {
+      "id": "H4",
+      "titol": "Nouvingut recent (aula d'acollida)",
+      "descripcio": "Per a alumnat nouvingut de 0-3 mesos, el primer instrument que funciona és la notícia amb pictogrames. Trio un fet que l'alumne ja conegui d'alguna manera (esport, temps, escola) per activar el coneixement previ en L1. Si la L1 és àrab o xinès, la variant bilingüe del glossari acompanyant és gairebé obligatòria: el vincle L1→L2 redueix l'ansietat i accelera la comprensió."
+    },
+    {
+      "id": "H5",
+      "titol": "La piràmide invertida com a prova de comprensió",
+      "descripcio": "Quan un alumne ha llegit la notícia i me la resumeix del revés (comença pels detalls i acaba pel fet principal), sé que la piràmide invertida no és interioritzada. Li demano que subralli la frase més important de cada paràgraf i que les ordeni. Si no sap quina és la més important, el problema és inferencial: cal un text adaptat al seu MECR amb la piràmide molt explícita."
+    }
+  ],
+  "case_overrides": {
+    "nouvingut_l1_alfabet_no_llati": {
+      "trigger": {
+        "raw": "nouvingut_L1_alfabet_no_llati"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND L1_script_in: [arab, han, ciril-lic, devanagari, hangul, hebreu] AND mecr_in: [pre-A1, A1]\n\n**Modulació:**\n- glossari bilingüe annex obligatori amb columna de transliteració; al titular i al lead, paraules clau acompanyades de [L1: paraula_L1] entre claudàtors; densitat de pictogrames al titular i al cos del lead obligatòria (1 picto per fet nuclear); fet triat ha de ser concret i universal (esport, temps, escola) per maximitzar coneixement previ activable des"
+      }
+    },
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1, A1] AND fase_lectora: logografica\n\n**Modulació:**\n- titular de 1-3 paraules amb pictograma obligatori (no opcional); lead reduït a 1 frase de fins a 6 paraules amb pictograma de suport per a Qui i Què; cos limitat a 1 frase amb pictograma; lectura sempre mediada per adult (marcar a la sortida que el text és per lectura compartida, no autònoma); no usar cap acrònim, ni tan sols desplegat.\n\n**Raonament pedagògic.** A la fase logogràfica l'alumne reconeix paraules com"
+      }
+    },
+    "dua_acces": {
+      "trigger": {
+        "raw": "DUA_acces"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces\n\n**Modulació:**\n- afegir pictogrames de suport a totes les paraules clau del titular i del lead independentment del MECR; mantenir frases dins del llindar del nivell immediatament inferior al MECR de l'alumne (p.e. si MECR A2, aplicar llindar A1); evitar tota subordinació tot i que el nivell la permeti; cap metàfora ni matís encara que el nivell ho admeti.\n\n**Raonament pedagògic.** DUA Acces (nivell 1 de tres) prioritza la via d'entrada al significat per damunt de "
+      }
+    },
+    "aacc": {
+      "trigger": {
+        "raw": "AACC"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** aacc: true AND mecr_in: [B2, C1]\n\n**Modulació:**\n- afegir una segona cita amb punt de vista contrastat al cos encara que la rúbrica de la cel·la només en demani una; incloure una pregunta oberta d'avaluació crítica al final del cos (per exemple, sobre l'enquadrament o les fonts no citades); permetre context historicogeogràfic més extens del que marca la cel·la.\n\n**Raonament pedagògic.** Per a AACC (alta capacitat cognitiva) a B2-C1, mantenir el sostre alt és pedagògicament obligator"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "llargada_de_frase",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_3_llargada_de_frase].countable"
+    },
+    {
+      "name": "estructura_sintactica",
+      "type": "qualitative",
+      "rule": "parser sintàctic o LLM amb regla S+V+C"
+    },
+    {
+      "name": "ordre_informatiu",
+      "type": "qualitative",
+      "rule": "verificar si primera frase conté el fet principal del lead"
+    },
+    {
+      "name": "volum_del_cos",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_4_volum_del_cos].countable"
+    }
+  ],
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

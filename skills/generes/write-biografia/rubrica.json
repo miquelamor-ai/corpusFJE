@@ -1,0 +1,491 @@
+{
+  "_meta": {
+    "name": "rubrica_write_biografia",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\write-biografia\\M3_genere-escriure-biografia.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "write-biografia",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "biografia",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {
+    "fidelitat_text_font": {
+      "type": "cross_source",
+      "rule": "Fidelitat a la complexitat crítica del text original, incloent matisos i controvèrsies."
+    }
+  },
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_coherencia",
+          "descriptor": "Fets ordenats en el temps, del més antic al més recent. Sense flashbacks."
+        },
+        {
+          "pas_id": "pas_2_format_i_precisio",
+          "descriptor": "Dates relatives: \"fa molts anys\", \"quan era jove\", \"l'any passat dels seus besavis\"."
+        },
+        {
+          "pas_id": "pas_3_situacio_espai_temps",
+          "descriptor": "Context d'1 frase: \"a Alemanya, fa molt de temps\"."
+        },
+        {
+          "pas_id": "pas_4_nombre_i_rellevancia",
+          "descriptor": "2-3 fets simples, un per frase. Ordenats cronològicament."
+        },
+        {
+          "pas_id": "pas_5_varietat_i_precisio",
+          "descriptor": "\"Primer\", \"després\", \"al final\"."
+        },
+        {
+          "pas_id": "pas_6_extensio_i_profunditat",
+          "descriptor": "1 frase: \"Per això, aquesta persona és important.\""
+        },
+        {
+          "pas_id": "pas_7_especulacio",
+          "descriptor": "Cap especulació sobre motivacions íntimes (\"potser pensava que...\", \"probablement sentia...\"). Només fets verificables."
+        },
+        {
+          "pas_id": "pas_7_numeracio",
+          "descriptor": "Sense números romans per a segles. Usar \"al segle XX\" o \"fa cent anys\"."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets nuclears: qui és la persona, quins fets principals, quin llegat."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He escrit qui és la persona, 2 coses que va fer i per qué és important.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_coherencia",
+          "descriptor": "Fets ordenats cronològicament amb connectors temporals simples."
+        },
+        {
+          "pas_id": "pas_2_format_i_precisio",
+          "descriptor": "Dates completes o any exacte: \"el 1879\", \"el 15 de març de 1879\"."
+        },
+        {
+          "pas_id": "pas_3_situacio_espai_temps",
+          "descriptor": "Context de 2 frases: país, època, context familiar breu."
+        },
+        {
+          "pas_id": "pas_4_nombre_i_rellevancia",
+          "descriptor": "3 fets principals, un per paràgraf o dues frases cadascun."
+        },
+        {
+          "pas_id": "pas_5_varietat_i_precisio",
+          "descriptor": "\"L'any...\", \"quan tenia... anys\", \"més tard\"."
+        },
+        {
+          "pas_id": "pas_6_extensio_i_profunditat",
+          "descriptor": "1-2 frases amb connector: \"per això, avui... és recordada per...\"",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_especulacio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_numeracio",
+          "descriptor": "Idem. Dates en xifres aràbigues."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets i al llegat essencial."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He explicat la seva vida en ordre cronològic i he inclòs dates.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_coherencia",
+          "descriptor": "Cronologia estricta respectada al llarg de tot el text."
+        },
+        {
+          "pas_id": "pas_2_format_i_precisio",
+          "descriptor": "Dates completes: \"el 15 de març de 1879\". Context temporal breu integrat."
+        },
+        {
+          "pas_id": "pas_3_situacio_espai_temps",
+          "descriptor": "Context breu però present: lloc + any + 1 frase sobre el context social."
+        },
+        {
+          "pas_id": "pas_4_nombre_i_rellevancia",
+          "descriptor": "3-4 fets seleccionats per rellevància per al llegat. Jerarquització implícita."
+        },
+        {
+          "pas_id": "pas_5_varietat_i_precisio",
+          "descriptor": "\"En aquell moment\", \"com a conseqüència\", \"a partir d'aleshores\"."
+        },
+        {
+          "pas_id": "pas_6_extensio_i_profunditat",
+          "descriptor": "2-3 frases. Distinció clara entre fets i llegat. Connector explicatiu (\"la seva contribució és important perquè...\").",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_especulacio",
+          "descriptor": "Idem. Les motivacions s'expliciten per fonts (cites documentades), no per inferència."
+        },
+        {
+          "pas_id": "pas_7_numeracio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, al llegat i al to factual del text original."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He inclòs 3-4 fets principals amb context. He separat els fets del llegat.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_coherencia",
+          "descriptor": "Cronologia precisa amb relació causa-efecte entre fets."
+        },
+        {
+          "pas_id": "pas_2_format_i_precisio",
+          "descriptor": "Dates completes amb context historicogeogràfic integrat als paràgrafs."
+        },
+        {
+          "pas_id": "pas_3_situacio_espai_temps",
+          "descriptor": "Context historicogeogràfic integrat als paràgrafs de fets."
+        },
+        {
+          "pas_id": "pas_4_nombre_i_rellevancia",
+          "descriptor": "4-5 fets amb context causal. Selecció justificada implícitament per la seva relació amb el llegat."
+        },
+        {
+          "pas_id": "pas_5_varietat_i_precisio",
+          "descriptor": "Connectors causals i temporals variats i precisos."
+        },
+        {
+          "pas_id": "pas_6_extensio_i_profunditat",
+          "descriptor": "Llegat argumentat (3-4 frases). Connexió explícita entre el context de la figura i el context actual.",
+          "countable": {
+            "min": 3,
+            "max": 4,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_especulacio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_numeracio",
+          "descriptor": "Idem."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat als fets, al llegat, al context historiogràfic i al to."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He argumentat el llegat amb referència al context actual. He revisat que tots els fets estiguin ordenats cronològicament.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_sequencia_i_coherencia",
+          "descriptor": "Cronologia completa. Pot incloure una retrospectiva crítica del llegat al final."
+        },
+        {
+          "pas_id": "pas_2_format_i_precisio",
+          "descriptor": "Dates amb referència al context historiogràfic quan és rellevant per al llegat."
+        },
+        {
+          "pas_id": "pas_3_situacio_espai_temps",
+          "descriptor": "Context historiogràfic crític: la figura en relació amb el seu temps i amb el nostre."
+        },
+        {
+          "pas_id": "pas_4_nombre_i_rellevancia",
+          "descriptor": "5 fets amb perspectiva historiogràfica. Pot incloure reflexió sobre la selecció mateixa (quins fets es recorden i per qué)."
+        },
+        {
+          "pas_id": "pas_5_varietat_i_precisio",
+          "descriptor": "Connectors elaborats amb matís cronològic o causal complex."
+        },
+        {
+          "pas_id": "pas_6_extensio_i_profunditat",
+          "descriptor": "Llegat crític (4-5 frases): pot incloure controvèrsies, revisions historiogràfiques o perspectives múltiples.",
+          "countable": {
+            "min": 4,
+            "max": 5,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_especulacio",
+          "descriptor": "La inferència historiogràfica és admissible si s'explicita (\"Segons els historiadors...\", \"Els indicis suggereixen que...\"). L'especulació íntima sense evidència segueix prohibida."
+        },
+        {
+          "pas_id": "pas_7_numeracio",
+          "descriptor": "Números romans admissibles si el text font els conté i el context historiogràfic ho requereix."
+        },
+        {
+          "pas_id": "pas_7_fidelitat_al_text",
+          "descriptor": "Fidelitat a la complexitat crítica del text original, incloent matisos i controvèrsies."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He presentat la figura amb perspectiva crítica i he contextualitzat el llegat en el debat historiogràfic. He revisat que no hi hagi especulació sense evidència.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_sequencia_i_coherencia",
+      "titol": "Ordre cronològic",
+      "dimensio": "Seqüència i coherència",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar flashbacks (connectos retrospectius: \"però tornem a...\"); verificar que la seqüència és cronològica"
+    },
+    {
+      "id": "pas_2_format_i_precisio",
+      "titol": "Dates",
+      "dimensio": "Format i precisió",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de dates (any o data completa A2+); qualitative: format correcte per nivell (relatiu A1, absolut A2+)"
+    },
+    {
+      "id": "pas_3_situacio_espai_temps",
+      "titol": "Context (lloc i època)",
+      "dimensio": "Situació espai-temps",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: presència i suficiència del context (lloc + època); comptar frases de context per paràgraf"
+    },
+    {
+      "id": "pas_4_nombre_i_rellevancia",
+      "titol": "Selecció de fets principals",
+      "dimensio": "Nombre i rellevància",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar fets principals (verificar entre 2 i 5); LLM-jutge: rellevància dels fets per al llegat"
+    },
+    {
+      "id": "pas_5_varietat_i_precisio",
+      "titol": "Connectors temporals",
+      "dimensio": "Varietat i precisió",
+      "tipus": "enumerable",
+      "requires_source_text": false,
+      "validation_hint": "detectar i classificar connectors temporals per tipus (simple/causal/elaborat); verificar coherència amb el nivell"
+    },
+    {
+      "id": "pas_6_extensio_i_profunditat",
+      "titol": "Llegat",
+      "dimensio": "Extensió i profunditat",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "binary: llegat present/absent; qualitative: LLM-jutge sobre la distinció fets/llegat i la profunditat argumentativa per nivell"
+    },
+    {
+      "id": "pas_7_especulacio",
+      "titol": "Criteris transversals",
+      "dimensio": "Especulació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar patrons especulatius (\"potser pensava\", \"probablement sentia\", \"devia creure\"); LLM-jutge per a casos ambigus"
+    },
+    {
+      "id": "pas_7_numeracio",
+      "titol": "Criteris transversals",
+      "dimensio": "Numeració",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "regex: detectar números romans en context de segle (I, II, III, IV... precedits de \"segle\")"
+    },
+    {
+      "id": "pas_7_fidelitat_al_text",
+      "titol": "Criteris transversals",
+      "dimensio": "Fidelitat al text font",
+      "tipus": "cross_source",
+      "requires_source_text": false,
+      "validation_hint": "comparació fets nuclears originals vs adaptats; verificació que el llegat es conserva; gradació per nivell: A1 fets+llegat basic; B1+ context+to; C1 complexitat crítica"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta una biografia com a narració cronològica estricta (del més antic al més recent, sense flashbacks) que inclou 2-5 fets verificables i un llegat separat, modulada segons el nivell MECR de l'alumne (A1→C1) i la fase lectora. No s'adapta a pre-A1.",
+    "no_judici_qualitatiu_complex": "El LLM no decideix quins fets són 'pedagògicament rellevants' ni avalua la qualitat historiogràfica del llegat: aplica la modulació per nivell (nombre de fets, format de dates, extensió del context i del llegat) i preserva la fidelitat factual. La selecció final de fets i la incorporació de matisos historiogràfics queden a càrrec del docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_nouvingut_L1": {
+      "inclou_si": [
+        "a"
+      ],
+      "exclou_explicitament": [
+        "r"
+      ],
+      "raonament": "La modulació MECR base segueix sent la de la taula; per a alumnat nouvingut amb L1, el context cultural llunyà requereix ancoratge explícit per evitar que el text quedi opac (translanguaging com a bastiment, Cummins & Early 2011)."
+    },
+    "alumne_fase_lectora_alfabetica_emergent": {
+      "inclou_si": [
+        "a"
+      ],
+      "exclou_explicitament": [
+        "f"
+      ],
+      "raonament": "Aquesta modulació prima sobre la MECR quan hi ha conflicte: la fase lectora condiciona la càrrega cognitiva descodificadora i, sense aquesta màscara, la modulació MECR per si sola sobrecarregaria l'alumne (sostre real determinat per la fase, no només pel nivell MECR)."
+    },
+    "alumne_pre_A1": {
+      "inclou_si": [
+        "n"
+      ],
+      "exclou_explicitament": [
+        "g"
+      ],
+      "raonament": "Decisió 6 canònica Fase B: la biografia no s'adapta a pre-A1 perquè requereix el temps com a categoria abstracta (cronologia, context historicogeogràfic, llegat diferit). Cal redirigir a un altre gènere amb mediació adulta o ancoratge visual concret."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una biografia que cal simplificar per al nivell de l'alumne."
+    },
+    {
+      "name": "la_unitat_de_historia",
+      "description": "La unitat de història, ciències, art, música o llengua treballa una figura rellevant."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de llegir la vida d'una persona per entendre el seu obra o impacte."
+    },
+    {
+      "name": "la_materia_demana_comprensio",
+      "description": "La matèria demana comprensió del context vital d'una persona per situar el seu llegat."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és narratiu de ficció → conte."
+    },
+    {
+      "name": "el_text_no_tracta",
+      "description": "El text no tracta d'una persona real sinó d'un personatge arquetípic o simbòlic → fàbula."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "La línia de temps com a bastida.",
+      "descripcio": "Abans d'escriure, proposo a l'alumne que faci una línia de temps amb 3-5 dates clau en un full en blanc. Un cop la línia és feta, la biografia gairebé s'escriu sola: cada punt de la línia és un paràgraf. Funciona especialment bé a A2-B1: externalitza la cronologia perquè l'alumne pugui centrar-se en la redacció sense perdre l'ordre."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Per qué importa avui?\" com a brúixola del llegat.",
+      "descripcio": "El llegat és la part que més costa als alumnes, que tendeixen a sumar fets sense reflexionar sobre la seva importància. La pregunta clau és: \"Si aquesta persona no hagués existit, qué seria diferent avui?\" La resposta és el llegat. A A1 és una frase. A B2+ és un paràgraf argumentat amb referència al context actual."
+    },
+    {
+      "id": "H3",
+      "titol": "Selecció de fets: la regla dels 5.",
+      "descripcio": "Per a textos biogràfics complexos, demano a l'alumne que subratlli els 5 fets que li semblen més importants. Llavors en triem 3 junts, discutint quins es queden fora i per qué. El procés de selecció és un exercici de jerarquització que prepara la comprensió del llegat: si un fet no aporta res al llegat, no hi va."
+    },
+    {
+      "id": "H4",
+      "titol": "Context mínim, no màxim.",
+      "descripcio": "L'error més freqüent és posar massa context i pocs fets. La regla és: 1 frase de context per paràgraf, la resta de fets. El context és el marc; els fets són el quadre. Si el context ocupa més que els fets, cal podar."
+    },
+    {
+      "id": "H5",
+      "titol": "Dates completes vs. dates relatives.",
+      "descripcio": "A A1-A2, les dates completes poden intimidar o bloquejar l'alumne nouvingut. L'alternativa: dates relatives (\"fa 150 anys\", \"quan l'avi dels vostres avis era nen\"). A B1+, les dates completes són necessàries per a la precisió historiogràfica. La gradació és clara: de relatiu a absolut amb el nivell."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [A1, A2] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- max_paraules_per_frase: ~10\n- fets_per_frase_a_A1: 1\n- dates_relatives_obligatories: true\n- format_dates_a_A1: 'fa molts anys' / 'quan era jove' (no any exacte)\n- context_extensio: 1_frase\n- llegat_extensio: 1_frase\n- numeros_romans_per_a_segles: false (usar 'fa cent anys' o 'al segle vint' en lletres)\n\n**Raonament pedagògic.** A fase alfabètica emergent dins MECR A1-A2, la càrrega descodificadora encara consu"
+      }
+    },
+    "nouvingut_l1_context_cultural_llunya": {
+      "trigger": {
+        "raw": "nouvingut_L1_context_cultural_llunya"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** nouvingut_L1: true AND figura_no_compartida_amb_L1_cultura: true\n\n**Modulació:**\n- ancoratge_geografic_explicit: 1_frase ('a Alemanya, un país d'Europa')\n- preferencia_dates_relatives: true (encara que el MECR ho permeti)\n- llegat_connecta_primer_amb_element_universal: true (abans del context específic)\n- referencies_culturals_implicites_no_glossades: prohibides\n\n**Raonament pedagògic.** Per a alumnat nouvingut amb L1 d'una cultura llunyana de la figura tractada, l'ancoratge geogràf"
+      }
+    },
+    "c1_historiografia_critica": {
+      "trigger": {
+        "raw": "C1_historiografia_critica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr: C1 AND text_font_conte_controversies_o_revisions: true\n\n**Modulació:**\n- inferencia_historiografica_admissible: true (si s'explicita amb marcadors: 'Segons els historiadors...', 'Els indicis suggereixen que...')\n- numeros_romans_per_a_segles: true (si el text font els conté)\n- llegat_pot_incloure_controversia_o_revisio_documentada: true\n- especulacio_intima_sense_evidencia: prohibida (en TOTS els nivells)\n\n**Raonament pedagògic.** A C1, l'alumne pot accedir a la complexitat hi"
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "numeracio",
+      "type": "qualitative",
+      "rule": "regex: detectar números romans en context de segle (I, II, III, IV... precedits de \"segle\")"
+    }
+  ]
+}

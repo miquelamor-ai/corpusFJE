@@ -1,0 +1,274 @@
+{
+  "_meta": {
+    "name": "rubrica_expressar_preferencies",
+    "version": "1.0.0",
+    "font_canonic": "skills\\generes\\expressar-preferencies\\M3_genere-expressar-preferencies.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "expressar-preferencies",
+    "family": "generes",
+    "mecr_range": [
+      "pre_A1",
+      "A1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "expressar-preferencies",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_1a_persona_i",
+          "descriptor": "Oral: \"M'agrada [X]\" / \"No m'agrada [X]\". Mediat per adult si cal. Pictograma de cara somrient/trista + paraula clau."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_referent",
+          "descriptor": "El referent és un objecte, un animal, un aliment o una activitat quotidiana. Visual i tocable. L'adult el pot mostrar amb imatge o objecte real."
+        },
+        {
+          "pas_id": "pas_3_gradacio_de_la",
+          "descriptor": "\"Molt\" / \"una mica\" / \"gens\". L'adult pot mostrar una escala de cares (somrient/neutra/trista) i l'alumne assenyala."
+        },
+        {
+          "pas_id": "pas_4_imatge_paraula",
+          "descriptor": "Pictograma de cara emocional + paraula clau del referent + dibuix o foto si cal. L'adult escriu la paraula, l'alumne assenyala o dicta."
+        },
+        {
+          "pas_id": "pas_5_veu_personal",
+          "descriptor": "La preferència és propia (no copiada del company o del docent). L'adult verifica amb pregunta: \"És el que tu penses, o el que pensa el company?\""
+        },
+        {
+          "pas_id": "pas_6_metacognicao",
+          "descriptor": "Autoavaluacio oral mediada: l'adult pregunta \"Has dit el que a TU t'agrada?\" i registra la resposta."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_1a_persona_i",
+          "descriptor": "Escrit: \"M'agrada [X]\" / \"No m'agrada [X]\". 1 frase en primera persona. Sense \"trobo que\" ni \"em sembla\"."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_referent",
+          "descriptor": "El referent és concret i conegut. L'alumne el nomena amb paraules que ja sap. Cap referent abstracte (la pau, la justicia)."
+        },
+        {
+          "pas_id": "pas_3_gradacio_de_la",
+          "descriptor": "\"M'agrada molt X\" / \"M'agrada una mica X\" / \"No m'agrada gens X\". Gradacio en 3 nivells amb suport pictografic."
+        },
+        {
+          "pas_id": "pas_4_imatge_paraula",
+          "descriptor": "Pictograma de cara emocional + paraula clau del referent escrita per l'alumne. La imatge i la paraula son codeterminals."
+        },
+        {
+          "pas_id": "pas_5_veu_personal",
+          "descriptor": "La preferència és en primera persona i autentica. No és una descripcio neutra ni una generalitzacio (\"tothom agrada X\")."
+        },
+        {
+          "pas_id": "pas_6_metacognicao",
+          "descriptor": "\"He dit el que a mi m'agrada. He posat el dibuix o la foto del que m'agrada.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": []
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": []
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": []
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_1a_persona_i",
+      "titol": "Preferència principal",
+      "dimensio": "1a persona i directesa",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (pre-A1): expressio oral verificada pel docent; binary (A1): presencia de text escrit amb \"M'agrada\" / \"No m'agrada\" en 1a persona — el text escrit a A1 és requeriment binary diferenciador respecte al pre-A1 oral; absència de \"trobo que\", \"em sembla\", \"crec que\""
+    },
+    {
+      "id": "pas_2_concretesa_del_referent",
+      "titol": "Referent específic",
+      "dimensio": "Concretesa del referent",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si el referent és concret i quotidià (positiu) o abstracte (negatiu); detectar referents sense ancoratge sensorial"
+    },
+    {
+      "id": "pas_3_gradacio_de_la",
+      "titol": "Intensitat o grau",
+      "dimensio": "Gradacio de la preferència",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia d'un qualificador de grau (\"molt\", \"una mica\", \"gens\"); absència de gradacio = descriptor absent"
+    },
+    {
+      "id": "pas_4_imatge_paraula",
+      "titol": "Suport multimodal",
+      "dimensio": "Imatge + paraula",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presencia de pictograma o imatge associada al referent; a pre-A1: l'adult escriu la paraula; a A1: l'alumne escriu la paraula"
+    },
+    {
+      "id": "pas_5_veu_personal",
+      "titol": "Autenticitat",
+      "dimensio": "Veu personal",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si la preferència és en 1a persona autentica o és una generalitzacio/copia; detectar \"tothom agrada\", \"és bo per a tothom\""
+    },
+    {
+      "id": "pas_6_metacognicao",
+      "titol": "Autoavaluacio mediada",
+      "dimensio": "Metacognicao",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: autoavaluacio oral mediada per l'adult (l'adult pregunta + registra); A1: derivar a vista d'autoavaluacio de l'alumne + registre docent complementari"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera sempre els 6 passos de la rúbrica (Preferència principal, Referent específic, Intensitat o grau, Suport multimodal, Autenticitat, Autoavaluació mediada) modulats al nivell MECR objectiu (pre-A1 o A1). Inclou obligatòriament un pictograma de cara emocional + paraula clau + referent concret i quotidià en primera persona. NO produeixis justificacions, comparacions ni argumentacions: si l'enunciat demana 'per què', deriva a write-opinio.",
+    "no_judici_qualitatiu_complex": "El LLM no ha de jutjar si la preferència de l'alumne és 'autèntica' o 'copiada del company', ni decidir si el referent triat és prou significatiu per a aquell alumne concret. Aquest judici (Pas 5 autenticitat) el fa el docent en mediació directa amb la pregunta 'És el que tu penses?'. El LLM només genera l'estructura i els marcadors visuals; la valvula humana valida la veu personal."
+  },
+  "regla_seleccio_per_perfil": {
+    "pre_A1_logografica": {
+      "inclou_si": [
+        "G"
+      ],
+      "exclou_explicitament": [
+        "E"
+      ],
+      "raonament": "A fase logogràfica l'alumne encara no descodifica grafies; forçar escriptura autònoma és demanar CALP en context BICS. La mediació adulta i el pictograma són els ponts reals (MALL, multimodalitat com a primera llengua)."
+    },
+    "pre_A1_alfabetica_emergent": {
+      "inclou_si": [
+        "G"
+      ],
+      "exclou_explicitament": [
+        "E"
+      ],
+      "raonament": "L'alumne pot escriure la primera paraula clau del referent però encara necessita el pictograma com a suport semàntic codeterminal (MALL: multimodalitat com a primera llengua)."
+    },
+    "A1_inicial": {
+      "inclou_si": [
+        "G"
+      ],
+      "exclou_explicitament": [
+        "J"
+      ],
+      "raonament": "A A1 inicial la veu personal ja s'expressa escrita en 1a persona breu, mantenint pictograma com a ancoratge BICS. Forçar warrant (Toulmin) o justificació seria demanar CALP encara no consolidat.  _Nota translanguaging: `translanguaging: false` al frontmatter — NO generar columna L1 ni transliteració. Si l'alumne és nouvingut, l'L1 és suport docent oral (mediació amb adult/company-pont), no apareix al text generat._"
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de dir que li agrada o que no li agrada sobre un tema, un text, un objecte o una activitat."
+    },
+    {
+      "name": "la_tasca_demana_una",
+      "description": "La tasca demana una resposta personal i autentica, sense argumentacio estructurada."
+    },
+    {
+      "name": "el_grup_treballa_amb",
+      "description": "El grup treballa amb BICS (activitats d'acollida, tutoria, educacio emocional, coneixement personal)."
+    },
+    {
+      "name": "el_docent_vol_introduir",
+      "description": "El docent vol introduir el continuum expressar-preferencies → opinio → assaig com a progressio anual."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "l_alumne_pot_justificar",
+      "description": "L'alumne pot justificar la preferència amb arguments → `write-opinio` (A2+)."
+    },
+    {
+      "name": "la_tasca_demana_comparar",
+      "description": "La tasca demana comparar sistemàticament dues opcions → `write-ressenya`."
+    },
+    {
+      "name": "la_tasca_demana_defensar",
+      "description": "La tasca demana defensar una tesi → `write-assaig`."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "L'escala de cares (pre-A1/A1).",
+      "descripcio": "Proposo una escala de 3 cares (somrient/neutra/trista) plastificada a taula. L'alumne assenyala la cara mentre diu o escriu la preferència. L'escala redueix la barrera expressiva i permet la gradacio sense vocabulari de grau. Funciona per a alumnat a fase logografica i alfabetica emergent."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Que t'agrada a tu?\" (autenticitat).",
+      "descripcio": "Quan l'alumne copia la preferència del company, li pregunto: \"Que t'agrada a tu? No al company, a tu.\" La pregunta simple amb l'emfasi en \"tu\" activa la veu personal. Si l'alumne no sap, proposo: \"Pensa en el que menges a casa. Hi ha alguna cosa que t'agrada molt?\""
+    },
+    {
+      "id": "H3",
+      "titol": "La galeria de referents (pre-A1).",
+      "descripcio": "Proposo una galeria d'imatges a taula (animals, aliments, activitats, colors, jocs). L'alumne assenyala els que li agraden i els que no. El docent escriu la paraula. Funciona com a primer inventari de preferencies personals sense pressio de produccio escrita."
+    },
+    {
+      "id": "H4",
+      "titol": "Del BICS al CALP: \"i per que?\"",
+      "descripcio": "Quan l'alumne expressa una preferència a A1, proposo fer la pregunta bridge: \"I per que t'agrada?\" Si pot respondre, estem al llindar de `write-opinio`. Si no pot (o dona una resposta circulara: \"perquè m'agrada\"), seguim a expressar-preferencies. La pregunta \"per que\" és el test de pas de BICS a CALP."
+    },
+    {
+      "id": "H5",
+      "titol": "Continuum visible a l'aula.",
+      "descripcio": "Proposo un poster permanent a l'aula amb el continuum: \"M'agrada X → M'agrada X perquè → Crec que X és millor que Y perquè → Argumento que X és important perquè\". L'alumne veu on esta i cap on anira. Fa visible la progressio academica del genere."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre_A1] AND fase_lectora: logografica\n\n**Modulació:**\n- no_escriptura_autonoma: true\n- reemplaca_escriure_per: \"l'adult escriu la paraula, l'alumne assenyala o dicta\"\n- densitat_pictogrames: alta (pictograma obligatori a tots 6 passos)\n- autoavaluacio_modalitat: oral_mediada_per_adult\n\n**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies, només reconeix la imatge com a text; forçar escriptura autònoma és demanar CALP en context BICS (Cummins; "
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre_A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- escriptura_autonoma: paraula_clau_unica\n- pictograma_obligatori: true\n- copia_model_adult: permesa\n\n**Raonament pedagògic.** L'alumne pot escriure la primera paraula clau del referent però encara necessita el pictograma com a suport semàntic codeterminal (multimodalitat com a primera llengua, MALL)."
+      }
+    },
+    "dua_acces": {
+      "trigger": {
+        "raw": "DUA_acces"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** dua_equals: Acces\n\n**Modulació:**\n- densitat_pictogrames: maxima\n- escala_de_cares_obligatoria: true (Pas 3)\n- galeria_de_referents_obligatoria: true (Pas 2)\n- modalitat_resposta_alternativa: assenyalar\n\n**Raonament pedagògic.** El principi DUA d'Accés requereix que l'alumne pugui expressar la preferència sense barrera grafomotora; l'escala de cares i la galeria de referents (heurístiques H1, H3) esdevenen part del format, no només opció docent."
+      }
+    }
+  }
+}

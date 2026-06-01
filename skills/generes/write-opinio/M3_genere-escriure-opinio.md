@@ -45,6 +45,80 @@ L'article d'opinió és un gènere **argumentatiu** que defensa una tesi amb arg
 Aquesta rúbrica descriu el **text d'opinió adaptat per a la LECTURA** de l'alumne. **No descriu la producció autònoma de l'alumne** — això es treballa amb un derivat propi (rúbrica d'avaluació formativa). El gènere argumentatiu és especialment pertinent per al **debat d'aula** com a producció col·laborativa (vegeu H1 i H3), però aquesta vista no és l'instrument adequat per avaluar aquesta producció.
 **Sub-granularitat dins d'A1 i A2**: es treballa amb la variable independent `fase_lectora` del frontmatter, no amb columnes addicionals.
 
+## Principi general
+
+**Regla de selecció simple.** Genera o adapta un article d'opinió argumentatiu amb una sola tesi explícita al primer paràgraf, N arguments justificats amb evidència (segons MECR), connectors argumentatius del repertori canònic del nivell i conclusió que reprèn la tesi sense introduir arguments nous. No s'adapta a pre-A1.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix la validesa pedagògica de la tesi escollida, no avalua si el debat és apropiat per a l'aula concreta i no determina si l'alumne està preparat per al gènere argumentatiu. Aquestes decisions les pren el docent. El LLM aplica mecànicament la modulació del nivell MECR declarat i el repertori de connectors corresponent.
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### pre_A1
+
+**Inclou si:**
+- no_aplica
+
+**Exclou explicitament:**
+- generacio_completa (l'skill no s'adapta a pre-A1)
+
+**Raonament pedagògic.** L'skill no s'adapta a pre-A1 (declarat al frontmatter `mecr_range` i a la Descripció). Si el perfil entrant és pre-A1, l'skill ha de refusar la generació i orientar a un gènere narratiu/descriptiu. L'argumentació requereix una base lingüística A1 mínima i domini bàsic del raonament causa-conseqüència.
+
+### A1_A2
+
+**Inclou si:**
+- tesi_formula_arrencada ("Crec que...")
+- 1_o_2_arguments_evidencia_quotidiana
+- connectors_A1_A2_estrictes
+- fase_oral_admesa_abans_escrita
+- translanguaging_L1_entre_claudators
+
+**Exclou explicitament:**
+- contraargument_obligatori
+- connectors_B2 (tanmateix, no obstant això)
+- registre_academic
+
+**Raonament pedagògic.** Aplica translanguaging/TOLC (Cummins): s'admeten paraules de la L1 entre claudàtors `[L1: ...|...]` per mantenir el fil argumentatiu. La fase oral admesa abans de l'escrita facilita la transferència oral→escrit (MALL). Tesi com a fórmula `Crec que...` per ancorar la presa de postura mínima.
+
+### B1_plus
+
+**Inclou si:**
+- argumentacio_integra_en_catala
+- contraargument_obligatori_B2plus
+- fiabilitat_fonts_B2plus
+- connectors_funcionals_variats
+- evidencies_dades_cites
+
+**Exclou explicitament:**
+- L1_al_text_final
+- formula_fixa_Crec_que (a B2+ preferir impersonal)
+
+**Raonament pedagògic.** Modulació segons taula (nombre d'arguments, tipus d'evidència, connectors funcionals, contraargument obligatori a B2+, fiabilitat de fonts a B2+). El registre acadèmic i el domini del CALP argumentatiu són sostre del gènere a partir de B1.
+
+### DUA_acces
+
+**Inclou si:**
+- versio_oral_de_tesi_i_arguments
+- esquema_visual_mapa_argumentatiu
+- transferencia_oral_a_esquema_a_escrit
+
+**Exclou explicitament:**
+- exigencia_directa_escrita_sense_bastida
+
+**Raonament pedagògic.** Vegeu cas especial `DUA_acces_eix_oral`: eix oral i multimodal com a alternativa o bastida prèvia a l'escrit, sense reduir l'exigència cognitiva del gènere. Principi DUA: múltiples mitjans de representació i d'expressió.
+
+### AACC
+
+**Inclou si:**
+- sostre_del_nivell_MECR_actual
+- matisos_i_jerarquitzacio_arguments_si_aporta_espontaniament
+
+**Exclou explicitament:**
+- modulacio_a_la_baixa
+
+**Raonament pedagògic.** No requereix modulació específica — l'skill ja escala fins a C1+. Per a AACC dins un MECR baix, mantenir el sostre del nivell però admetre matisos i jerarquització d'arguments si l'alumne ho aporta espontàniament (sostre alt sense sostre artificial).
+
 ## Detecció
 
 **Senyals docent** (quan triar opinió):
@@ -93,6 +167,42 @@ Aquesta rúbrica descriu el **text d'opinió adaptat per a la LECTURA** de l'alu
 |  | Fidelitat al text font | Fidelitat a la tesi i als arguments principals. | Fidelitat a la tesi i als arguments principals. | Fidelitat a la tesi, arguments i evidències principals. | Fidelitat a la tesi, arguments, evidències i, si hi és, contraargument. | Fidelitat al matís, als punts de vista i a la complexitat argumental originals. |
 |  | No-atacs personals | Cap atac personal ni llenguatge valoratiu extrem. | Cap atac personal ni llenguatge valoratiu extrem. | Cap atac personal ni llenguatge valoratiu extrem. | Cap atac personal ni llenguatge valoratiu extrem. | Cap atac personal ni llenguatge valoratiu extrem. |
 | **9. Autoavaluació metacognitiva** | Reflexió sobre el procés | "He pensat què crec abans d'escriure, i he buscat 2 raons que m'ajudin a explicar-ho." | "He comprovat que la meva tesi s'entén de seguida i que tinc un exemple per a cada raó." | "He revisat si els meus arguments es relacionen entre ells i si la conclusió tanca el que vaig anunciar a la tesi." | "He pensat què diria algú que no opina com jo, i he intentat respondre-li al text. Així he vist on era forta o feble la meva postura." | "He reflexionat sobre els límits de la meva pròpia postura: quines suposicions estic fent? Quines evidències em manquen?" |
+
+## Casos especials
+
+### nouvingut_L1_BICS_consolidat_CALP_emergent
+
+**Trigger:** nouvingut_L1: true AND mecr_in: [B1, B2] AND CALP_argumentatiu: emergent
+
+**Modulació:**
+- evidencies_admeses: +cultura_origen
+- connectors: mantenir bastida explícita del nivell tot i el BICS consolidat
+- registre: tolerar lleugera desviació estilística mentre la macroestructura sigui correcta
+
+**Raonament pedagògic.** Cummins (BICS≠CALP) — un alumne nouvingut pot conversar amb fluïdesa però no dominar el registre argumentatiu acadèmic. Admetre sabers d'origen com a evidència vàlida activa contingut i diversifica la classe (vegeu H3).
+
+### encavalcament_HCL_descriu_en_lloc_d_argumentar
+
+**Trigger:** alumne_resposta_tipus_in: [descripcio_emfatica, repeticio_intensificada] AND HCL_demanada: argumentar
+
+**Modulació:**
+- estructura_minima_A1: forçar seqüència 3 passos (postura binària → raó → exemple quotidià)
+- arrencada_obligatoria: "Crec que..."
+- bastida_previa: modelatge Think Aloud abans de l'escriptura
+- nombre_arguments: màxim 1 al primer intent
+
+**Raonament pedagògic.** MALL (encavalcament d'HCL) — l'habilitat demanada supera la competència actual. Cal baixar la complexitat estructural i oferir modelatge explícit (vegeu H1 i H2).
+
+### DUA_acces_eix_oral
+
+**Trigger:** dua_equals: Acces AND mecr_in: [A1, A2]
+
+**Modulació:**
+- modalitat_admesa: versió oral de tesi+arguments abans (o en lloc) de la versió escrita
+- multimodalitat: esquema visual del mapa argumentatiu (tesi central + arguments radials) com a bastida
+- transferencia: oral → esquema → escrit
+
+**Raonament pedagògic.** DUA (múltiples mitjans de representació i d'expressió) — la càrrega cognitiva de l'argumentació escrita en L2 emergent es pot descarregar transferint-la a l'oral i al visual, sense baixar l'exigència cognitiva del gènere.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -150,6 +260,40 @@ Quan un alumne escriu 3 paràgrafs d'arguments i acaba amb "Per tot això, crec 
 
 **H5 — Connectors com a termòmetre del nivell.**
 Reviso ràpidament els connectors que usa l'alumne: si tots els arguments comencen amb "perquè" o "però", és A1-A2 funcional. Si varia entre "en primer lloc", "a més", "per tant", és B1. Si usa "tanmateix", "no obstant", "en conseqüència", és B2. Aquesta lectura de 30 segons dels connectors em dóna el MECR real de l'alumne millor que cap test formal, i m'indica quin nivell de bastida de connectors necessita l'adaptació.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Article d'opinió
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Tesi
+### Arguments
+### Contraargument i refutació
+### Conclusió
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[L1: paraula_L1|traduccio_CA]   <!-- només a A1-A2 amb nouvingut_L1; vegeu cas especial -->
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Opinió
+## Article
+## Argumentació
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Article d'opinió` i els H3 canònics en aquest ordre, el parser de pas3.html no detecta les seccions argumentatives i la rúbrica de 9 passos no es pot mapejar al text generat.
 
 ## Fonts principals
 

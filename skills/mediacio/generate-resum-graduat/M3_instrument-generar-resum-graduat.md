@@ -65,6 +65,64 @@ Un marc narratiu per a un text expositiu genera un resum incoherent per al tipus
 Aquesta rúbrica descriu el **marc de resum graduat que es genera per guiar la producció del resum** (PRODUCCIÓ MEDIADA). **No descriu el resum autònom de l'alumne ni l'avaluació del docent**: el docent observa si l'alumne omple els forats amb les seves pròpies paraules (no copiant) i si el resultat és coherent amb el text font.
 **Sub-granularitat dins de pre-A1**: `fase_lectora: logografica` → recapitulació oral total (el docent escriu el que l'alumne diu). `fase_lectora: alfabetica_emergent` → recapitulació oral + 1-2 paraules escrites per l'alumne.
 
+## Principi general
+
+**Regla de selecció simple.** Genera un marc parcial de resum amb forats calibrats al MECR de l'alumne: pre-A1/A1 amb recapitulació oral o forats de 1-3 paraules amb opcions tancades; A2 amb forats d'una frase sense opcions; B1 amb 2-3 frases per part; B2 amb criteris oberts; C1 amb reflexió metacognitiva. Adapta l'estructura del marc al tipus de text (narratiu / expositiu / argumentatiu). NO donis mai el resum complet ni una versió 'model': dona només el marc amb els forats.
+
+**Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si l'alumne ha comprès el text, no avalua la qualitat del resum produït ni jutja si la reformulació és prou bona. Tampoc decideix unilateralment quin tipus de text té el font si és ambigu. Aquestes decisions les pren qui ensenya en observar com l'alumne omple el marc (ús de paraules pròpies, coherència, selecció d'idees principals).
+
+_Excepcions: no n'hi ha._
+
+## Regla de selecció per perfil
+
+### alumne_general
+
+**Inclou si:**
+- modulació segons taula MECR (pre-A1 → C1)
+- estructura del marc adaptada al tipus de text font (narratiu / expositiu / argumentatiu)
+
+**Exclou explícitament:**
+- resum complet o versió "model"
+- forat copiable literalment del text font
+
+**Raonament pedagògic.** La regla MECR de la taula Modulació és la principal mascara de selecció: calibra la mida del forat a la ZDP. El judici sobre comprensió i qualitat de reformulació queda al docent (principi MALL — bastida retirable).
+
+### alumne_DUA_acces
+
+**Inclou si:**
+- modulació MECR base
+- simplificació visual del marc (una sola idea per línia, longitud del forat visualment indicada)
+
+**Exclou explícitament:**
+- marcs densos amb múltiples idees per línia
+- forats sense indicació visual de longitud esperada
+
+**Raonament pedagògic.** Per a perfils amb necessitat d'accés (TEA, TDL, dislèxia) el marc densament estructurat afegeix càrrega de descodificació sense aportar bastida. La simplificació visual preserva la funció pedagògica (forat calibrat) reduint la barrera d'accés (DUA — dimensió Accés).
+
+### alumne_AACC_o_capacitat_alta
+
+**Inclou si:**
+- modulació MECR mantinguda (no reduir l'exigència)
+- variant amb criteris addicionals a B1+ (justificar la jerarquia d'idees)
+
+**Exclou explícitament:**
+- avanç automàtic de nivell MECR
+- supressió de la bastida (segueix sent útil per estructurar la producció)
+
+**Raonament pedagògic.** AACC no implica saltar la bastida del resum: la bastida segueix sent útil per estructurar la producció. El sostre s'aixeca via criteris addicionals (metacognició sobre la jerarquia d'idees), no eliminant l'estructura.
+
+### alumne_nouvingut_amb_L1
+
+**Inclou si:**
+- marc generat en català
+- mediació amb L1 oral mediada per l'adult (fora del marc)
+
+**Exclou explícitament:**
+- columna L1 al marc
+- traducció dels forats a L1
+
+**Raonament pedagògic.** L'instrument té `translanguaging: false` (decisió ratificada per NotebookLM). El marc del resum es genera sempre en català com a llengua vehicular; la mediació amb L1, si cal, la fa l'adult oralment com a suport pont, no com a columna escrita del marc.
+
 ## Detecció
 
 **Senyals docent** (quan activar el complement):
@@ -99,6 +157,68 @@ Aquesta rúbrica descriu el **marc de resum graduat que es genera per guiar la p
 | **3. Estructura adaptada al tipus de text** | Coherència discursiva | Preguntes orals adaptades: narratiu → "Qui? Qué fa? Com acaba?" / expositiu → "De qué parla? Qué és important?" | Marc adaptat: narratiu → personatge / acció / desenllaç. Expositiu → tema / punt clau / final. | Marc de 2-3 frases adaptat amb connectors donats (Primer... Llavors... Al final...). | Marc de 3 seccions etiquetades: Tema / Punts clau / Conclusió. Connectors no donats. | Criteris que cobreixen les macroregles: selecció (excloure exemples), generalització (categoria), construcció (inferit). | Reflexió discursiva: "Qué has decidit NO incloure i per qué? Quin criteri de selecció has usat?" |
 | **4. Recapitular vs. resumir** | Modalitat de producció | Recapitular oral: reordenar informació oral o visual. El docent escriu el dictat; l'alumne dicta. | Recapitular assistit: triar la resposta correcta és una forma de recapitular. Cap escriptura de frases pròpies. | Resumir amb bastida completa: primera producció escrita del resum. Marc molt explícit amb connectors donats. | Resumir amb marc parcialment retirat: l'alumne construeix les idees; el marc proposa l'estructura. | Resumir amb criteris: l'alumne usa les macroregles per produir i autoavaluar el resum. | Resumir i reflexionar: el resum és el punt de partida d'una reflexió metacognitiva sobre les decisions de selecció. |
 | **5. Autoavaluació mediada** | Metacognició | "He dit el que passava al text en veu alta." (oral, mediat per adult) | "He triat la resposta correcta. He omplert els buits amb la paraula que encaixava." | "He escrit el resum amb el marc. He usat les meves paraules (no he copiat frases del text)." | "He resumit les idees principals en 3 parts. He usat connectors per lligar les idees." | "He seleccionat les idees principals (no els exemples). He comprovat que el resum s'entén sense llegir el text." | "He justificat per qué he triat cada idea i per qué n'he deixat d'altres fora. He revisat que el meu resum és precís i honest." |
+
+## Casos especials
+
+### preA1_fase_logografica
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica
+
+**Modulació:**
+- no_marc_escrit: true
+- modalitat: recapitulacio_oral_total
+- output_format: llistat de 3-4 preguntes orals adaptades al tipus de text (narratiu: "Qui? Què fa? Com acaba?" / expositiu: "De què parla? Què és important?")
+- rol_docent: escriu el dictat de l'alumne
+- no_escriptura_autonoma: true
+
+**Raonament pedagògic.** A fase logogràfica l'alumne encara no descodifica grafies de manera autònoma; forçar marc escrit converteix la bastida en còpia sense comprensió. La recapitulació oral total (l'adult escriu el dictat) consolida la comprensió i preserva el principi MALL de recapitular abans de resumir.
+
+### preA1_fase_alfabetica_emergent
+
+**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent
+
+**Modulació:**
+- no_marc_escrit: true
+- modalitat: recapitulacio_oral_mes_1_2_paraules
+- output_format: preguntes orals + 1-2 forats de paraula única molt curta per omplir a mà
+- rol_docent: escriu el gruix del dictat
+
+**Raonament pedagògic.** A fase alfabètica emergent l'alumne pot escriure paraules clau curtes però encara no produir frases autònomament. La modulació preserva la recapitulació oral com a eix i afegeix 1-2 paraules escrites com a pont a la producció textual progressiva.
+
+### A1_inicial
+
+**Trigger:** mecr_in: [A1]
+
+**Modulació:**
+- forat_format: opcions_tancades
+- nombre_opcions: exactament 3 (1 correcta + 2 distractors plausibles, cap d'òbviament falsa)
+- mida_forat: 1-3 paraules
+- opcions_validacio: totes plausibles per al contingut del text (qualsevol podria aparèixer en un altre text de la matèria)
+
+**Raonament pedagògic.** A A1 inicial, el forat amb 3 opcions plausibles obliga a discriminar comprensivament (no endevinar). Una opció òbviament falsa permet endevinar sense comprendre i invalida la bastida (heurística H1 del docent).
+
+### C1_critic
+
+**Trigger:** mecr_in: [C1]
+
+**Modulació:**
+- output_format: paratext de reflexió metacognitiva (criteris + preguntes de justificació) que ACOMPANYA un resum lliure de l'alumne
+- no_substitueix_resum: true
+- no_confondre_amb: write-resum (gènere autònom sense bastida)
+- contingut: rúbrica de tries (què he inclòs / què he deixat fora / per què)
+
+**Raonament pedagògic.** A C1 la bastida té vocació d'extingir-se: l'alumne produeix el resum autònomament. El paratext metacognitiu acompanya el resum lliure per fer visible el procés de selecció (macroregles de Kintsch & van Dijk), sense substituir la producció autònoma.
+
+### tipus_text_ambigu_o_no_declarat
+
+**Trigger:** tipus_text_font: null OR tipus_text_font: ambigu
+
+**Modulació:**
+- comportament_default: assumir expositiu (tema / punts clau / conclusió) per ser el patró més neutre
+- afegir nota al docent: "Si el text és narratiu o argumentatiu, ajusta l'estructura del marc abans de donar-lo a l'alumne"
+- no_inferir_silenciosament: true
+
+**Raonament pedagògic.** Un marc narratiu sobre un text expositiu genera un resum incoherent per al tipus de text (heurística H2). Davant l'ambigüitat, el patró expositiu és el més neutre i la nota explícita al docent preserva la valvula humana de decisió final.
 
 ## Metadades de cel·la (per a `build_skills.py`)
 
@@ -139,6 +259,42 @@ Sovint el docent vol donar un "exemple" de com hauria de quedar el resum. Resist
 
 **H5 — Recapitular com a pas previ imprescindible (pre-A1/A1).**
 Quan treballo amb pre-A1 o A1, dedico 5 minuts a la recapitulació oral ABANS de donar el marc escrit. "Qui és el personatge? Qué fa? Com acaba?" — jo escric el que l'alumne diu. Aquest pas consolida la comprensió i dona a l'alumne el material per omplir el marc. Sense recapitulació oral, el marc escrit es converteix en una tasca de còpia.
+
+## Format de sortida
+
+**Header H2 obligatori (literal exacte):**
+```
+## Resum graduat
+```
+
+**Sub-headers H3 obligatoris** (literals exactes, en aquest ordre):
+```
+### Marc del resum
+### Instruccions per a l'alumne
+### Pauta d'autoavaluació
+```
+
+**Bullets / moments interns** (si aplica — NO són H3 propis):
+```
+no aplica
+```
+
+**Marcadors inline obligatoris** (si aplica):
+```
+[FORAT: ___]
+[FORAT_OPCIONS: opció A | opció B | opció C]
+[CONNECTOR: paraula_donada]
+[TIPUS_TEXT: narratiu|expositiu|argumentatiu]
+```
+
+**Headers explícitament PROHIBITS:**
+```
+## Resum
+## Resum model
+## Resum complet
+```
+
+**Regla d'integritat estructural.** Sense el header literal `## Resum graduat` i la presència de marcadors `[FORAT: ...]` o `[FORAT_OPCIONS: ...]` dins del marc, el parser de scriptorium no detecta els espais a omplir i l'alumne rep el text com a bloc continu (efecte "resum donat fet"), violant el principi central de l'instrument.
 
 ## Fonts principals
 

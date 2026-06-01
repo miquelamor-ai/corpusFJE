@@ -1,0 +1,416 @@
+{
+  "_meta": {
+    "name": "rubrica_generate_plantilles_genere",
+    "version": "1.0.0",
+    "font_canonic": "skills\\mediacio\\generate-plantilles-genere\\M3_instrument-generar-plantilles-genere.md",
+    "font_version": "4.0.0-canonic",
+    "generat_at": "2026-06-01",
+    "skill_name": "generate-plantilles-genere",
+    "family": "mediacio",
+    "mecr_range": [
+      "pre_A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "generator"
+    ],
+    "complement_key": "plantilles_genere",
+    "translanguaging": false,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_densitat",
+          "descriptor": "Visual: 3-4 requadres amb icones. Cap text autònom. L'adult llegeix les instruccions."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_contingut",
+          "descriptor": "Requadre de dibuix o icona per completar. Cap text a omplir autònomament."
+        },
+        {
+          "pas_id": "pas_3_ancoratge_al_contingut",
+          "descriptor": "Forats completables amb imatges o paraules que apareixen al text. L'adult mostra on és la resposta."
+        },
+        {
+          "pas_id": "pas_4_proporcio_text_donat",
+          "descriptor": "Maxima densitat visual: tota la plantilla és un esquema. Cap text en prosa."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He dibuixat (o enganxat) el que passa al text.\" (oral, mediat per adult)"
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_densitat",
+          "descriptor": "Text quasi complet: 70-80% donat, 20-30% forats. 1-2 paraules per forat.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_contingut",
+          "descriptor": "Forats de 1-2 paraules: nom concret, verb d'acció, un adjectiu. Completables amb paraules del text adaptat.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_3_ancoratge_al_contingut",
+          "descriptor": "Forats completables amb paraules o noms extrets directament del text adaptat."
+        },
+        {
+          "pas_id": "pas_4_proporcio_text_donat",
+          "descriptor": "Alta densitat forats: 1 forat cada 2-3 paraules. El text donat guia i contextualitza.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He completat les paraules que faltaven amb informació del text.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_densitat",
+          "descriptor": "Text parcialment donat: 50-60% donat, 40-50% forats. Frases curtes per completar."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_contingut",
+          "descriptor": "Forats d'1 frase: \"Els protagonistes son ___\" · \"El conflicte és ___\". Completables amb reformulació del text."
+        },
+        {
+          "pas_id": "pas_3_ancoratge_al_contingut",
+          "descriptor": "Forats que requereixen selecció i reformulació d'informació del text."
+        },
+        {
+          "pas_id": "pas_4_proporcio_text_donat",
+          "descriptor": "Densitat moderada: 1 forat per frase o cada 2 frases. Text donat aporta estructura."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He completat les seccions amb informació del text que he llegit.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_densitat",
+          "descriptor": "Text marc: 30-40% donat (connectors, estructura, termes disciplinars clau)."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_contingut",
+          "descriptor": "Forats de 2-3 frases construïdes per l'alumne amb les seves paraules a partir del text.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_ancoratge_al_contingut",
+          "descriptor": "Forats que requereixen inferència o selecció crítica d'informació del text."
+        },
+        {
+          "pas_id": "pas_4_proporcio_text_donat",
+          "descriptor": "Densitat baixa: 1 forat per paràgraf. L'alumne aporta la major part del contingut."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He completat la plantilla amb informació pròpia sobre el contingut. He verificat que els forats son coherents amb el gènere.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_densitat",
+          "descriptor": "Plantilla minimalista: encapçalaments + 1 frase d'exemple per secció com a model de referència."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_contingut",
+          "descriptor": "Forats que demanen elaboració argumentada (1 paràgraf) que va més enllà del text (connexió, anàlisi)."
+        },
+        {
+          "pas_id": "pas_3_ancoratge_al_contingut",
+          "descriptor": "Forats que requereixen elaboració que va més enllà del text (connexió amb altres fonts)."
+        },
+        {
+          "pas_id": "pas_4_proporcio_text_donat",
+          "descriptor": "Densitat mínima: 1 forat per secció. Quasi tot és producció pròpia."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He usat la plantilla com a model de referència i he escrit el text amb les meves pròpies paraules.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_format_i_densitat",
+          "descriptor": "Criteris de gènere i estil. Pràcticament sense text donat: el primer mot de cada secció com a únic ancoratge."
+        },
+        {
+          "pas_id": "pas_2_concretesa_del_contingut",
+          "descriptor": "Forats de producció lliure coherent amb el gènere, inspirada però no limitada pel text."
+        },
+        {
+          "pas_id": "pas_3_ancoratge_al_contingut",
+          "descriptor": "Forats de producció pròpia de l'alumne, inspirada però autònoma."
+        },
+        {
+          "pas_id": "pas_4_proporcio_text_donat",
+          "descriptor": "Forat de producció completa per secció. La plantilla és una rúbrica de gènere."
+        },
+        {
+          "pas_id": "pas_5_metacognicio",
+          "descriptor": "\"He usat els criteris de gènere per autoregular la meva producció sense suport directe.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_format_i_densitat",
+      "titol": "Tipus de plantilla",
+      "dimensio": "Format i densitat del text donat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: format correcte per nivell (visual pre-A1: requadres presents; A1: ≥70% text donat; B2+: ≤30% text donat); NOTA: plantilla quasi-buida a C1 és CORRECTA (forat = producció completa per secció) — el validador no ha de penalitzar la densitat mínima a C1"
+    },
+    {
+      "id": "pas_2_concretesa_del_contingut",
+      "titol": "Especificitat dels forats",
+      "dimensio": "Concretesa del contingut del forat",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: forats específics del text treballat (positiu) vs forats genèrics \"un personatge\" (negatiu); cross_source: verificar que els noms, llocs i fets dels forats apareixen al text font"
+    },
+    {
+      "id": "pas_3_ancoratge_al_contingut",
+      "titol": "Vinculació al text adaptat",
+      "dimensio": "Ancoratge al contingut llegit",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge sobre si els forats requereixen recuperació d'informació del text (A1-B1, positiu) o inventar informació nova sense ancoratge (negatiu); cross_source: coherencia entre forats i contingut del text font"
+    },
+    {
+      "id": "pas_4_proporcio_text_donat",
+      "titol": "Densitat dels forats",
+      "dimensio": "Proporció text donat / forats",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "calcular proporció aproximada text donat / forats; verificar rang per nivell (A1: ≥70% donat; A2: 50-60%; B1: 30-40%; B2: ≤30%; C1: quasi tot forats)"
+    },
+    {
+      "id": "pas_5_metacognicio",
+      "titol": "Autoavaluació mediada",
+      "dimensio": "Metacognició",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "pre-A1: autoavaluació oral mediada per l'adult (l'adult pregunta + registra); A1+: derivar a vista d'autoavaluació de l'alumne"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera una plantilla de gènere com a text model parcial amb forats que disminueixen del nivell pre-A1 (visual amb requadres i icones) fins a C1 (només criteris de gènere), on els forats han de ser **específics del contingut real del text treballat** (noms, llocs i fets concrets que apareixen al text), no genèrics.",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir QUIN gènere treballar ni si l'alumne necessita una plantilla en comptes d'una base d'orientació: aquesta decisió la pren el docent al Pas 2. Tampoc ha de jutjar si l'alumne ja domina l'estructura del gènere; només produeix la plantilla del gènere demanat, ancorada al text font, seguint la modulació del nivell MECR objectiu."
+  },
+  "regla_seleccio_per_perfil": {
+    "pre_A1_logografica": {
+      "inclou_si": [
+        "P"
+      ],
+      "exclou_explicitament": [
+        "T"
+      ],
+      "raonament": "A la fase logogràfica l'alumne encara no descodifica grafies; demanar text autònom és exigir CALP sense base lecto-escriptora. El requadre visual amb icona és el bastiment efectiu (Cummins, MALL)."
+    },
+    "pre_A1_alfabetica_emergent": {
+      "inclou_si": [
+        "P"
+      ],
+      "exclou_explicitament": [
+        "F"
+      ],
+      "raonament": "L'alumne comença a descodificar, però la càrrega d'escriure satura el processament del gènere. Les paraules clau amb suport visual mantenen la ZDP operativa."
+    },
+    "A1": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "F"
+      ],
+      "raonament": "A A1 el contingut s'extreu del text adaptat; el forat és una operació de recuperació, no de generació, per protegir la càrrega cognitiva."
+    },
+    "A2": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "F"
+      ],
+      "raonament": "A A2 l'alumne ja pot reformular: el forat passa de recuperació a reformulació, mantenint el text font com a ancoratge."
+    },
+    "B1": {
+      "inclou_si": [
+        "T"
+      ],
+      "exclou_explicitament": [
+        "T"
+      ],
+      "raonament": "B1 és el llindar de la producció estratègica: l'estructura i els connectors es donen com a bastida, el contingut elaborat el produeix l'alumne (Gibbons)."
+    },
+    "B2": {
+      "inclou_si": [
+        "P"
+      ],
+      "exclou_explicitament": [
+        "T"
+      ],
+      "raonament": "B2 demana producció argumentada autònoma; la plantilla només marca l'organització del gènere."
+    },
+    "C1": {
+      "inclou_si": [
+        "P"
+      ],
+      "exclou_explicitament": [
+        "P"
+      ],
+      "raonament": "A C1 la plantilla esdevé rúbrica de gènere: criteris, no model. La densitat mínima NO és error; la retirada progressiva de la bastida és l'objectiu (Vygotsky)."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "ha_activat_plantilles_de",
+      "description": "Ha activat \"Plantilles de gènere\" al Pas 2."
+    },
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de produir un text del gènere treballat i necessita veure com queda el text acabat."
+    },
+    {
+      "name": "primera_exposicio_a_un",
+      "description": "Primera exposició a un gènere nou: l'alumne sap el contingut però no sap com estructurar-lo."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "l_alumne_ja_domina",
+      "description": "L'alumne ja domina l'estructura del gènere → la plantilla pot restar autonomia i fluència creativa."
+    },
+    {
+      "name": "el_text_adaptat_no",
+      "description": "El text adaptat no té tasca de producció associada → sense contingut que emplenar, la plantilla no té sentit."
+    },
+    {
+      "name": "la_tasca_de_produccio",
+      "description": "La tasca de producció demana originalitat estructural (assaig creatiu, escriptura experimental) → plantilla mínima o cap."
+    },
+    {
+      "name": "l_alumne_necessita_el",
+      "description": "L'alumne necessita el GPS de passos per planificar ABANS de textualitzar → `bastides-produccio` (Bloc A, base d'orientació). Seqüència recomanada: bastides-produccio primer (planifica), plantilles-genere després (textualitza)."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "El test del forat genèric.",
+      "descripcio": "Llegeixo cada forat de la plantilla i em pregunto: \"Podria omplir-lo un alumne sense haver llegit el text treballat?\" Si la resposta és sí, el forat és massa genèric. Cal anclar-lo al contingut real: \"El científic [nom del text] va descobrir que ___\" en comptes de \"Un científic va descobrir que ___\". El forat específic verifica la comprensió lectora a la vegada que orienta la producció."
+    },
+    {
+      "id": "H2",
+      "titol": "La plantilla com a pòster de classe.",
+      "descripcio": "Proposo penjar la plantilla a la paret com a referència visual mentre els alumnes escriuen. Poden consultar-la sense haver d'obrir el document. La visibilitat contínua redueix la sensació d'estar \"en blanc\" i normalitza la consulta del model."
+    },
+    {
+      "id": "H3",
+      "titol": "Completar oralment primer (A1-A2).",
+      "descripcio": "Proposo que l'alumne completi els forats verbalment en parella ABANS d'escriure. \"Jo diria... i tu?\" El company valida o proposa alternatives. La versió oral no necessita ser perfecta; és la prova de foc de la comprensió. Llavors escriuen. La seqüència oral→escrit és la lògica natural de l'aprenentatge de la L2."
+    },
+    {
+      "id": "H4",
+      "titol": "Plantilla vs base d'orientació: la pregunta de la funció.",
+      "descripcio": "Quan dubto si generar una plantilla o una base d'orientació, em pregunto: \"L'alumne necessita veure com QUEDA el text acabat, o necessita saber els PASSOS per construir-lo?\" Si vol veure el text acabat → plantilla. Si vol els passos → base d'orientació (Bloc A de bastides-produccio). Els dos son compatibles i complementaris: base d'orientació per planificar, plantilla per textualitzar."
+    },
+    {
+      "id": "H5",
+      "titol": "Retirar la bastida progressivament.",
+      "descripcio": "La plantilla és una bastida temporal. A mesura que l'alumne interioritza el gènere, redueixo el nombre de forats (del 70% de text donat al 30%). El docent decideix quan la plantilla ja no és necessaria i l'alumne escriu a partir del model interioritzat. Un indicador fiable: si l'alumne omple els forats en menys de 5 minuts sense consultar el text, la bastida és massa fàcil i cal reduir-la."
+    }
+  ],
+  "case_overrides": {
+    "fase_lectora_logografica": {
+      "trigger": {
+        "raw": "fase_lectora_logografica"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: logografica\n\n**Modulació:**\n- format: visual_pur\n- cap_text_autonom: true\n- elements_obligatoris: 3-4 requadres, icones, marcadors [Dibuixa aquí] / [Enganxa aquí]\n- instruccions: mediades_per_adult\n- densitat_text_prosa: 0%\n\n**Raonament pedagògic.** A la fase logogràfica l'alumne reconeix imatges com a text però encara no descodifica grafies. La plantilla esdevé esquema visual; el text autònom seria una demanda CALP sense base lecto-escriptora (Ku"
+      }
+    },
+    "fase_lectora_alfabetica_emergent": {
+      "trigger": {
+        "raw": "fase_lectora_alfabetica_emergent"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [pre-A1] AND fase_lectora: alfabetica_emergent\n\n**Modulació:**\n- format: plantilla_mixta_visual_text\n- max_paraules_per_forat: 1-2\n- requadres_amb_text_breu: true\n- mediacio_adult: obligatoria\n\n**Raonament pedagògic.** L'alumne comença a escriure però la càrrega grafomotora competeix amb el processament del gènere. La mediació adulta i els forats curts protegeixen la ZDP (Vygotsky, MALL bastida de textualització)."
+      }
+    },
+    "antisenyal_bastides_produccio": {
+      "trigger": {
+        "raw": "antisenyal_bastides_produccio"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** tasca_requereix_planificacio_previa: true AND alumne_no_te_GPS_passos: true\n\n**Modulació:**\n- no_generar_plantilla: true\n- derivar_a: bastides-produccio (Bloc A, base d'orientació)\n- sequencia_recomanada: bastides-produccio primer, plantilles-genere després\n\n**Raonament pedagògic.** Si l'alumne necessita el GPS de passos per planificar abans de textualitzar, la plantilla no és el bastiment adequat: salta a la textualització sense planificació. Plantilla i base d'orientació són compl"
+      }
+    },
+    "c1_plantilla_minimalista": {
+      "trigger": {
+        "raw": "C1_plantilla_minimalista"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [C1]\n\n**Modulació:**\n- densitat_text_donat: minima (només primer mot de cada secció o criteris de gènere)\n- forat: produccio_completa_per_seccio\n- validador_NO_penalitza_densitat_minima_a_C1: true\n\n**Raonament pedagògic.** A C1 la plantilla esdevé rúbrica de gènere; la retirada progressiva de la bastida (Vygotsky) demana mínim text donat. Penalitzar la densitat mínima invertiria la gradació pedagògica."
+      }
+    }
+  },
+  "checks_automatics_post_generacio": [
+    {
+      "name": "proporcio_text_donat_forats",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_4_proporcio_text_donat].countable"
+    }
+  ]
+}
