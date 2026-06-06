@@ -69,6 +69,16 @@ INSTRUMENTS DE MEDIACIÓ PEDAGÒGICA
     └── [notes, imatges, mnemotècnies personals — fins a consolidació]
 ```
 
+> **Dos nivells de lectura de les bastides (resolució de l'aparent doble taxonomia).** Les bastides es presenten a dos nivells que NO es contradiuen, sinó que s'aniden:
+>
+> - **Nivell estructural — 3 famílies-mare** (per funció pedagògica, *què* es media): **lingüístiques** (el codi), **cognitives** (el pensament) i **metacognitives** (el procés autoregulador). És la classificació autoritativa del MALL.
+> - **Nivell operatiu — desplegament del catàleg** (per naturalesa del recurs, *com* es materialitza): les subfamílies del catàleg d'instruments (lèxiques, sintàctiques, discursives, visuals/multimodals, de lectura, de producció, procedimentals) **s'encabeixen dins les 3 mares**:
+>   - **Lingüístiques** ⊃ lèxiques · sintàctiques · discursives
+>   - **Cognitives** ⊃ visuals/multimodals · de lectura (3 moments) · de producció
+>   - **Metacognitives** ⊃ procedimentals/checklists · d'autoavaluació
+>
+> Així, el catàleg operatiu de més avall no és una taxonomia paral·lela: és el desplegament d'aquestes 3 famílies. El fonament teòric d'aquesta arquitectura es desenvolupa a `M2_marc-teoric-mediacio.md`.
+
 ---
 
 ## Les bastides en detall
@@ -417,6 +427,8 @@ Defaults: Infantil → `logografica` · 1r-2n Primària → `alfabetica_emergent
 
 ## Catàleg d'instruments de mediació
 
+> **Lectura del catàleg.** Les subfamílies següents són el **desplegament operatiu** de les 3 famílies-mare de bastides (vegeu la nota a §Taxonomia completa): les lèxiques, sintàctiques i discursives s'anide dins **lingüístiques**; les visuals/multimodals, de lectura i de producció dins **cognitives**; les procedimentals dins **metacognitives**. No és una taxonomia paral·lela.
+
 **Qui implementa**: Docent | Assistent IA | Ambdós | Interaccional (aula)
 **Estat digital**: ✅ Present | 🔲 Pendent | ⛔ Fora d'abast digital
 
@@ -534,10 +546,18 @@ Defaults: Infantil → `logografica` · 1r-2n Primària → `alfabetica_emergent
 | **Cummins, J.** (2000) | *Language, Power and Pedagogy.* Distinció BICS/CALP: les bastides per accedir al CALP són imprescindibles |
 | **Jordi Domènech** | Recerques empíriques: l'ús de bastides millora significativament la qualitat del raonament científic |
 | **CAST / Rose & Meyer** (2002) | DUA — base dels Suports DUA |
-| **Gibbons, P.** (2002, 2015) | *Scaffolding Language, Scaffolding Learning.* Bastides lingüístiques en TILC/CLIL |
-| **González-Davies** (2014) | TOLC — Translation for Other Learning Contexts |
-| **FJE — MALL** | Taxonomia operativa integrada bastides/suports/autoregulació (corpus NotebookLM, 34 fonts) |
+| **Halliday** (1978) | Lingüística Sistèmica Funcional: el text com a unitat semàntica de sentit |
+| **Bajtín** + **J.M. Adam** | Origen dels gèneres discursius (esferes d'activitat) i de les seqüències textuals |
+| **Camps / Zayas** | Seqüència Didàctica i activitat metalingüística |
+| **Isabel Solé** (2012) | Comprensió lectora en 3 moments — base de les preguntes de comprensió |
+| **Neil Mercer** (1997) | Aprenentatge dialògic i conversa exploratòria — fonament de l'aula discursiva |
+| **González-Davies** (2014) + **Corcoll** (2011) | TOLC i PBCS — translanguaging pedagògic |
+| **MELVIVES** (2015) | Marc d'Ensenyament de Llengües Vives (Soc. Catalana de Pedagogia) — marc-mare |
+| **Gibbons, P.** (2002, 2015) | *Scaffolding Language, Scaffolding Learning.* Scaffolding lingüístic en TILC/CLIL. ⚠️ Referent extern (no citat al MALL); **NO és l'origen dels gèneres** (això és Bajtín/Adam) |
+| **FJE — MALL** | Taxonomia operativa integrada bastides/suports/autoregulació (notebook MALL FJE, NotebookLM) |
 | **Decret 150/2017** | Marc normatiu: 3 nivells de mesures i suports (universals/addicionals/intensius) |
+
+> **Genealogia teòrica completa** (fonament intern vs convergència externa, transformacions→marcs i complements→teòrics): vegeu `M2_marc-teoric-mediacio.md`. El principi **"menys és més"** és principi propi del MALL; convergeix amb la teoria de càrrega cognitiva (Sweller) però el MALL no el cita com a fonament.
 
 ---
 
