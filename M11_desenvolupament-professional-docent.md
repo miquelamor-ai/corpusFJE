@@ -1,5 +1,5 @@
 ---
-modul: M7
+modul: M11
 titol: "Desenvolupament professional docent"
 tipus: marc
 descripcio: "Marc pedagògic del desenvolupament professional docent articulat al voltant de les Comunitats Professionals d'Aprenentatge (CPA) com a estructura sostenible, amb el cicle reflexiu Abans-Durant-Després com a mecanisme operatiu i els 5 nivells de Guskey com a horitzó d'impacte, en coherència amb la tradició ignasiana del modus operandi."
@@ -45,7 +45,7 @@ Tota formació docent significativa s'estructura en **tres fases articulades**:
 
 El cicle A-D-D no és una seqüència formal: és **el ritme natural d'una pràctica reflexiva sostinguda**. Sense Abans, la formació es viu com a imposició sense sentit. Sense Durant, queda en intencions. Sense Després, queda en la sessió i no toca l'aula real.
 
-Aquest cicle s'arrela tant en la literatura general sobre formació docent com en la tradició ignasiana del discerniment: contemplar la situació, decidir amb llibertat interior, actuar, examinar el que ha passat, ajustar. El paradigma pedagògic ignasià (PPI: experiència-reflexió-acció-avaluació) i el cicle A-D-D són cognats.
+Aquest cicle s'arrela tant en la literatura general sobre formació docent com en la tradició ignasiana del discerniment: situar-se en el context, contemplar la situació, decidir amb llibertat interior, actuar, examinar el que ha passat, ajustar. Ara bé, sense aplanar els conceptes: el paradigma pedagògic ignasià (PPI — CERAA: Context–Experiència–Reflexió–Acció–Avaluació) és un **dinamisme relacional continu, no un cicle ni una seqüència de fases**; el cicle A-D-D, en canvi, és un **mecanisme temporal** (abans, durant i després d'una formació concreta). El que la tradició ignasiana hi aporta és la **disposició reflexiva i de discerniment** que anima l'A-D-D, i la **CPA** n'és la cultura permanent que el sosté.
 
 ### Els 5 nivells de Guskey com a horitzó d'impacte
 
@@ -77,6 +77,7 @@ El marc no s'imposa sobre una tradició buida: troba arrelament natural al *modu
 - **Robert Eells**. Meta-anàlisi sobre l'**eficàcia col·lectiva docent**: creença compartida d'un equip que pot influir en l'aprenentatge dels seus alumnes, amb l'efecte més alt documentat per Hattie a Visible Learning.
 - **Tradició catalana FECC-EAPC**. *Pujant l'esglaó. Model d'avaluació de la formació docent*: concreció del marc Guskey al context català amb cobertures recomanades per nivell.
 - **Amor, M.** (2023). *Comunitats Professionals d'Aprenentatge d'inspiració ignasiana. Una proposta per a Fundació Jesuïtes Educació*. TFM: articulació explícita de les CPA amb el carisma ignasià i del cicle A-D-D com a mecanisme operatiu propi.
+- **Go, J. C., & Atienza, R. J.** (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Ateneo de Manila University Press: la pedagogia ignasiana com a marc-paraigua compatible amb les teories d'aprenentatge actuals; el docent com a dissenyador d'experiències de creixement.
 
 ## Exemples concrets d'aplicació al centre
 
@@ -123,7 +124,7 @@ El marc no s'imposa sobre una tradició buida: troba arrelament natural al *modu
 
 ## 3. Connexions amb altres documents del corpus
 
-- **[M0_PPI-paradigma-pedagogic-ignasia.md](M0_PPI-paradigma-pedagogic-ignasia.md)** — El cicle PPI (experiència-reflexió-acció-avaluació) és el cognat ignasià del cicle A-D-D. Tots dos articulen la mateixa estructura reflexiva des de tradicions diferents.
+- **[M0_PPI-paradigma-pedagogic-ignasia.md](M0_PPI-paradigma-pedagogic-ignasia.md)** — El PPI (CERAA: Context–Experiència–Reflexió–Acció–Avaluació) és un **dinamisme relacional continu, no un cicle ni unes fases**. No és, doncs, un *cognat* de l'A-D-D (que és un mecanisme temporal), sinó l'**esperit reflexiu** que pot animar-lo. La CPA n'és la cultura permanent.
 - **[M0_educador-samarita.md](M0_educador-samarita.md)** — Perfil del docent com a testimoni i acompanyant; horitzó actitudinal que el desenvolupament professional vol cultivar.
 - **[M0_acompanyament-tutoria-ignasia.md](M0_acompanyament-tutoria-ignasia.md)** — L'acompanyament tutorial requereix docents formats en CPA. Sense desenvolupament professional, l'acompanyament queda en intencions.
 - **[M0_cura-personalis.md](M0_cura-personalis.md)** — La cura personalis és l'actitud que el desenvolupament professional vol fer creïble en la pràctica quotidiana.

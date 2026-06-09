@@ -192,7 +192,7 @@ Pràctiques pedagògiques d'origen no ignasià (Lesson Study, observació entre 
 ### Casos d'aplicació al corpus
 
 - **[M0_PPI-paradigma-pedagogic-ignasia.md](../M0_PPI-paradigma-pedagogic-ignasia.md)**, **[M0_cura-personalis.md](../M0_cura-personalis.md)**, **[M0_magis-i-servei.md](../M0_magis-i-servei.md)** — Aquests són els docs **font del concepte** ignasià. La seva veu és normativa: descriuen què és cada concepte i la seva tradició.
-- **[M7_desenvolupament-professional-docent.md](../M7_desenvolupament-professional-docent.md)** — Aquest doc cita la inspiració ignasiana sense apropiar-se de tècniques (CPA = universal, Lesson Study = universal, A-D-D = inspirat).
+- **[M11_desenvolupament-professional-docent.md](../M11_desenvolupament-professional-docent.md)** — Aquest doc cita la inspiració ignasiana sense apropiar-se de tècniques (CPA = universal, Lesson Study = universal, A-D-D = inspirat).
 - **Marcs operatius (M2, M3, M5, M6, M7 que no són M0)** — Mencionen el carisma com a horitzó actitudinal, no com a etiqueta de tècniques.
 - **`tipus: instrument`, `tipus: protocol`, skills (`*.md`)** — En cap cas porten nom de concepte ignasià. Les eines i protocols són operatius; la inspiració ignasiana està a l'actitud de qui les usa.
 
