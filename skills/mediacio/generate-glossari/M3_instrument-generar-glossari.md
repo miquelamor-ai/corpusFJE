@@ -1,28 +1,49 @@
 ---
 modul: M3
-titol: "Generar glossari"
+titol: 'Generar glossari'
 tipus: instrument
+descripcio: 'Instrument de mediació lèxica que acompanya el text adaptat amb definicions dels termes clau. CALP graduat per Cummins + variant bilingüe per a nouvinguts. Rúbrica gradada 6 passos × 6 nivells MECR amb dimensions internes.'
+review_status: revisat
+variables_configurables:
+  fase_lectora:
+    - logografica
+    - alfabetica_emergent
+    - alfabetica_fluida
+last_editor: miquel.amor@fje.edu
+last_editor_at: '2026-06-11T05:38:28Z'
+actualitzat_at: '2026-06-11T05:38:28Z'
+generat_at: 1779580800
 categoria_principal: mediacio
-categories_secundaries: [generes]
-descripcio: "Instrument de mediació lèxica que acompanya el text adaptat amb definicions dels termes clau. CALP graduat per Cummins + variant bilingüe per a nouvinguts. Rúbrica gradada 6 passos × 6 nivells MECR amb dimensions internes."
-mecr_range: [pre-A1, A1, A2, B1, B2, C1]
-agent_roles: [adapter, generator]
+categories_secundaries:
+  - generes
+mecr_range:
+  - pre-A1
+  - A1
+  - A2
+  - B1
+  - B2
+  - C1
+agent_roles:
+  - adapter
+  - generator
 complement_key: glossari
 translanguaging: true
 multimodal: true
-moduls_relacionats: [M2, M3]
-variables_configurables:
-  fase_lectora: [logografica, alfabetica_emergent, alfabetica_fluida]
+moduls_relacionats:
+  - M2
+  - M3
 skill_meta: generate-glossari@corpusFJE/skills/complements/generate-glossari
-review_status: pilot-fusio-2
 version: 4.0.0-canonic
-generat_at: 2026-05-24
-actualitzat_at: 2026-05-24
 notebooklm_review:
-  data: 2026-05-24
+  data: 1779580800
   veredicte: si-amb-correccions-menors
-  aplicades_des_d_inici: [patro-canonic-pilot-noticia, fidelitat-gradada-C2, aclariment-us-lectura-vs-produccio-C1]
-  aplicades_post_review: [ordre-alfabetic-B2-C1, polir-autoavaluacio-B1-procés]
+  aplicades_des_d_inici:
+    - patro-canonic-pilot-noticia
+    - fidelitat-gradada-C2
+    - aclariment-us-lectura-vs-produccio-C1
+  aplicades_post_review:
+    - ordre-alfabetic-B2-C1
+    - polir-autoavaluacio-B1-procés
   comentari_key: "El patró escala correctament de gènere informatiu (notícia) a instrument de mediació (glossari). Confirma viabilitat de l'extrapolació als 35 instruments."
 ---
 
