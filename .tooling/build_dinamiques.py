@@ -165,7 +165,7 @@ def record_to_md(rec: dict, ordre: int) -> str:
             f"(fase _{PHASE_LABEL[rec['phase']]}_) i, segons el model d'avaluació de la "
             f"formació de Guskey, treballa cap al nivell **{rec['guskey']}** d'impacte. "
             f"La fonamentació (CPA, A-D-D, Guskey) viu al marc "
-            f"[Desenvolupament professional docent](../../M11_desenvolupament-professional-docent.md); "
+            f"[Desenvolupament professional docent](../M11_desenvolupament-professional-docent.md); "
             f"aquesta fitxa només n'és la concreció operativa."
         ),
         "",

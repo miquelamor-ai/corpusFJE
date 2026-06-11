@@ -10,6 +10,7 @@ on:
   push:
     branches: [master]
     paths:
+      - 'dinamiques/M11_dinamica-*.md'
       - 'dinamiques/**/M11_dinamica-*.md'
       - '.tooling/build_dinamiques.py'
       - '.github/workflows/build-dinamiques.yml'

@@ -6,17 +6,17 @@ Aquest document deixa constància d'una incorporació al corpus i serveix de **h
 
 El mòdul **M11 (Desenvolupament Professional)** passa a contenir **43 dinàmiques de formació docent**, organitzades pel cicle **Abans–Durant–Després (A-D-D)** i orientades als nivells d'impacte de Guskey.
 
-- **On viuen (màster):** `dinamiques/{abans,durant,despres}/M11_dinamica-<id>.md` — un fitxer per dinàmica, **editable a Scriptorium**.
+- **On viuen (màster):** `dinamiques/M11_dinamica-<id>.md` — carpeta **plana**, un fitxer per dinàmica, **editable a Scriptorium**. La fase és metadada del frontmatter (`phase`), **no** una subcarpeta: algunes dinàmiques serveixen per a més d'una fase (p. ex. l'observació a l'aula, `durant` i `despres`), i així reclassificar-les és editar un camp, no moure un fitxer.
 - **Tipus de document nou:** `tipus: dinamica` (vegeu l'especificació del corpus, §4.10). És a M11 el que `genere-discursiu`/`instrument` són a M3: una família derivada governada amb el mateix patró que les skills.
 - **Fonamentació:** no es duplica a cada fitxa. CPA, A-D-D i Guskey viuen al marc [`M11_desenvolupament-professional-docent.md`](../M11_desenvolupament-professional-docent.md), enllaçat des de cada dinàmica.
 
 ## Com es consumeixen (regla màster → derivat)
 
 ```
-dinamiques/<fase>/M11_dinamica-<id>.md   (MÀSTER, s'edita aquí)
+dinamiques/M11_dinamica-<id>.md   (MÀSTER pla, s'edita aquí; phase = frontmatter)
         │  [GitHub Action: build-dinamiques.yml, determinista, sense IA]
         ▼
-dinamiques/_dinamiques.json              (DERIVAT, el llegeixen les apps)
+dinamiques/_dinamiques.json       (DERIVAT, el llegeixen les apps)
 ```
 
 - La direcció és **única**: s'edita el `.md`, i el JSON es regenera sol. **Mai s'edita el JSON a mà.**
