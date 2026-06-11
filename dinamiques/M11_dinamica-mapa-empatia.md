@@ -11,7 +11,7 @@ paraules_clau:
   - diagnostic-honest-de-la-realitat
 review_status: esborrany
 last_editor: miquel.amor@fje.edu
-last_editor_at: '2026-06-11T12:02:31Z'
+last_editor_at: '2026-06-11T12:48:08Z'
 generat_at: '2026-06-11'
 id: mapa-empatia
 ordre: 3
@@ -63,9 +63,9 @@ Mirar l'escola des dels ulls de l'alumnat. Posar la veu de qui aprèn al centre 
 
 ## Indicadors d'observació
 
-- Es descobreixen 2-3 insights no evidents
-- Les decisions formatives es reorienten a partir del mapa
-- Els docents reconeixen la utilitat de mirar des de l'alumnat
+- Es descobreixen 2-3 insights no evidents.
+- Les decisions formatives es reorienten a partir del mapa.
+- Els docents reconeixen la utilitat de mirar des de l'alumnat.
 
 ## Connexió amb el marc
 
