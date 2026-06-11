@@ -3,9 +3,19 @@ modul: M11
 titol: "Competències de l'educador de Jesuïtes Educació"
 tipus: marc-institucional
 descripcio: "Marc competencial de l'educador FJE: divuit competències —nou de les quals irrenunciables— que vertebren tot el cicle professional (selecció, formació, acompanyament i avaluació), amb arrel ignasiana en les 4C i operacionalització en el procés de selecció i en l'avaluació 360."
-review_status: esborrany
-generat_at: 2026-06-08
-paraules_clau: [competencies-docents, marc-competencial, educador-FJE, perfil-professional, area-de-persones, avaluacio-360, competencies-irrenunciables, marc-institucional]
+paraules_clau:
+  - competencies-docents
+  - marc-competencial
+  - educador-FJE
+  - perfil-professional
+  - area-de-persones
+  - avaluacio-360
+  - competencies-irrenunciables
+  - marc-institucional
+review_status: revisat
+last_editor: miquel.amor@fje.edu
+last_editor_at: '2026-06-11T05:30:54Z'
+generat_at: 1780876800
 ---
 
 ## Abstract
