@@ -25,8 +25,9 @@ def module_of(path: str) -> str | None:
     m = re.match(r'^curriculum/([^/]+)/', path)
     if m:
         return 'curriculum-' + m.group(1)
-    # Fitxers pedagògics: M[0-9]_xxx.md
-    m = re.match(r'^M([0-9])', os.path.basename(path))
+    # Fitxers pedagògics: M<n>_xxx.md amb n d'1 o 2 dígits (M0..M11).
+    # Important: \d{1,2} — si fos un sol dígit, M10_* i M11_* caurien a M1.
+    m = re.match(r'^M(\d{1,2})_', os.path.basename(path))
     if m:
         return 'M' + m.group(1)
     return None

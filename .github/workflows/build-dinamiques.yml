@@ -1,0 +1,57 @@
+name: Build dinamiques derivat
+
+# Regenera el derivat dinamiques/_dinamiques.json a cada canvi d'un
+# M11_dinamica-*.md. Els .md són el MÀSTER (editables a Scriptorium); el JSON
+# és el DERIVAT que consumeix l'app d'Itinerarium. Generació 100% determinista,
+# sense LLM. Mateix patró que build-skills.yml.
+# Veure .tooling/build_dinamiques.py i corpus-spec §4.Y.
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - 'dinamiques/**/M11_dinamica-*.md'
+      - '.tooling/build_dinamiques.py'
+      - '.github/workflows/build-dinamiques.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenera dinamiques/_dinamiques.json
+        run: python .tooling/build_dinamiques.py
+
+      - name: Commit derivat actualitzat
+        run: |
+          set -e
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@fje.edu"
+          git add dinamiques/_dinamiques.json || true
+          if git diff --staged --quiet; then
+            echo "Cap canvi al derivat: res a commitejar."
+            exit 0
+          fi
+          git commit -m "chore(dinamiques): regenera _dinamiques.json [skip ci]"
+          # Race protection: pot haver-hi un push concorrent (p.ex. build-manifest).
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push correcte (intent $i)."
+              exit 0
+            fi
+            echo "Push rebutjat, rebase i reintento (intent $i)..."
+            git pull --rebase origin master
+          done
+          echo "ERROR: 3 intents fallits."
+          exit 1
