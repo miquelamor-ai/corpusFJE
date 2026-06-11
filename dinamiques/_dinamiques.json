@@ -1293,6 +1293,343 @@
     ]
   },
   {
+    "id": "protocol-criteris-practica",
+    "phase": "durant",
+    "phases_aplicables": [
+      "abans",
+      "durant"
+    ],
+    "block": "Protocols per examinar la pràctica",
+    "title": "Protocol de Criteris en Pràctica (Standards in Practice)",
+    "stars": 3,
+    "role": "facilitador",
+    "duration": "60 min",
+    "guskey": "N3-N4",
+    "purpose": "Analitzar en equip una tasca o encàrrec que es proposa als alumnes per millorar-ne la qualitat i el rigor. Permet examinar la planificació instructiva i, si es porta treball d'alumnat, contrastar-lo amb els criteris generats.",
+    "objectives": [
+      "Examinar la qualitat i el rigor d'una tasca proposada a l'alumnat",
+      "Explicitar què demana la tasca (coneixement, actitud, competències, aspiració, comportament)",
+      "Situar la tasca en els nivells cognitius (taxonomia de Bloom)",
+      "Elaborar criteris compartits per valorar el treball resultant"
+    ],
+    "schedule": [
+      {
+        "temps": "Abans",
+        "text": "Elecció de la tasca: qui presenta tria una tasca «viable», amb prou contingut per treballar-hi"
+      },
+      {
+        "temps": "5'",
+        "text": "Presentació de la tasca: context suficient perquè es pugui revisar"
+      },
+      {
+        "temps": "5'",
+        "text": "Prova de la tasca: els participants la proven o «assagen» els passos de l'alumnat"
+      },
+      {
+        "temps": "10'",
+        "text": "Anàlisi de la tasca: pluja d'idees amb el marc KASAB (coneixement, actitud, competències, aspiració, comportament)"
+      },
+      {
+        "temps": "5'",
+        "text": "Nivell cognitiu: nivells de la taxonomia de Bloom que s'hi apliquen"
+      },
+      {
+        "temps": "10'",
+        "text": "Rigor de la tasca: valoració amb indicadors (concreta/abstracta, simple/complexa, estructurada/oberta...)"
+      },
+      {
+        "temps": "5'",
+        "text": "Criteris de puntuació: llista de criteris per a una possible rúbrica"
+      },
+      {
+        "temps": "5'",
+        "text": "Puntuació del treball d'alumnat segons els criteris (només si se n'aporta)"
+      },
+      {
+        "temps": "5'",
+        "text": "Discussió de revisió: com millorar la tasca"
+      },
+      {
+        "temps": "5'",
+        "text": "Reflexió de qui presenta i anàlisi del procés"
+      }
+    ],
+    "materials": "La tasca o encàrrec a analitzar (i, si n'hi ha, treball d'alumnat) · Marc KASAB i taxonomia de Bloom a mà · Llista d'indicadors de rigor · Full per recollir els criteris de puntuació",
+    "simple": "Centrar-se en tres passos: presentar la tasca (5'), analitzar què demana amb KASAB (10') i acordar 3-4 criteris de qualitat (10').",
+    "indicators": [
+      "La tasca triada té prou contingut per analitzar-la",
+      "L'equip explicita què demana realment la tasca a l'alumnat",
+      "Qui presenta surt amb idees concretes per millorar-la"
+    ]
+  },
+  {
+    "id": "protocol-triada",
+    "phase": "durant",
+    "phases_aplicables": [
+      "abans",
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per examinar la pràctica",
+    "title": "Protocol Tríada (Triad)",
+    "stars": 1,
+    "role": "facilitador",
+    "duration": "45 min",
+    "guskey": "N2",
+    "purpose": "Tres companys roten tres rols —presentador, interlocutor i observador— per parlar amb profunditat d'un aspecte de la pràctica professional i rebre retorn sobre treball en curs.",
+    "objectives": [
+      "Donar i rebre retorn sobre treball en curs (currículum, avaluacions, polítiques...)",
+      "Practicar tres mirades sobre un mateix tema: presentar, dialogar i observar",
+      "Garantir que tothom presenta i tothom observa",
+      "Sintetitzar aprenentatges des de la posició d'observador"
+    ],
+    "schedule": [
+      {
+        "temps": "5'",
+        "text": "Formació de grups de tres i assignació de rols: A (presentador), B (interlocutor), C (observador)"
+      },
+      {
+        "temps": "10-15'",
+        "text": "Ronda 1: A presenta un aspecte de la pràctica; B hi dialoga (comentari, pregunta, exemple, detall); C escolta en silenci, pren notes i al final resumeix i conclou"
+      },
+      {
+        "temps": "10-15'",
+        "text": "Ronda 2: es repeteix intercanviant els rols"
+      },
+      {
+        "temps": "10-15'",
+        "text": "Ronda 3: es repeteix fins que cadascú ha exercit els tres rols"
+      },
+      {
+        "temps": "Final",
+        "text": "(opcional) Posada en comú de les tríades amb el grup gran"
+      }
+    ],
+    "materials": "Tema o aspecte de pràctica professional a tractar · Full de notes per a l'observador · Temporitzador per marcar les rondes",
+    "simple": "Una sola ronda de 15 min amb els tres rols, si no hi ha temps per rotar-los tots.",
+    "indicators": [
+      "Tots tres participants exerceixen els tres rols",
+      "L'observador aporta una síntesi útil",
+      "La conversa se centra seriosament en la pràctica"
+    ]
+  },
+  {
+    "id": "protocol-tres-nivells-text",
+    "phase": "durant",
+    "phases_aplicables": [
+      "abans",
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per a discussions efectives",
+    "title": "Protocol de Tres Nivells de Text (Three Levels of Text)",
+    "stars": 1,
+    "role": "facilitador",
+    "duration": "20-45 min",
+    "guskey": "N2",
+    "purpose": "Reflexionar col·lectivament sobre un text (o àudio, vídeo, obra) triant una oració, una frase i una paraula significatives, per aclarir-ne i construir-ne el significat de manera compartida.",
+    "objectives": [
+      "Aclarir i construir significat compartit a partir d'un text",
+      "Ampliar el pensament sobre les idees del text",
+      "Donar veu a tots els participants abans de la discussió",
+      "Connectar el text amb la pròpia pràctica"
+    ],
+    "schedule": [
+      {
+        "temps": "Abans",
+        "text": "Presentació del text: els participants el llegeixen, veuen o escolten i prenen notes"
+      },
+      {
+        "temps": "10'",
+        "text": "Oració: cadascú tria una oració significativa; els altres escolten i prenen notes (sense discussió)"
+      },
+      {
+        "temps": "10'",
+        "text": "Frase: cadascú tria una frase significativa (sense discussió)"
+      },
+      {
+        "temps": "10'",
+        "text": "Paraula: cadascú tria una paraula significativa (sense discussió)"
+      },
+      {
+        "temps": "10'",
+        "text": "Discussió: posada en comú del que s'ha sentit i après"
+      },
+      {
+        "temps": "5'",
+        "text": "Anàlisi del procés"
+      }
+    ],
+    "materials": "El text (imprès, àudio, vídeo o obra) a treballar · Full de notes · Temporitzador",
+    "simple": "Per rondes: cada participant llegeix en veu alta el passatge triat i n'explica la reflexió i les implicacions per a la seva feina (màx. 3 min); la resta respon en 2 min.",
+    "indicators": [
+      "Tothom aporta abans d'obrir la discussió",
+      "Es respecten les fases sense discutir abans d'hora",
+      "La comprensió compartida del text millora"
+    ]
+  },
+  {
+    "id": "protocol-quatre-as",
+    "phase": "durant",
+    "phases_aplicables": [
+      "abans",
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per a discussions efectives",
+    "title": "Protocol de les Quatre As (The Four A's)",
+    "stars": 1,
+    "role": "facilitador",
+    "duration": "30-60 min",
+    "guskey": "N2",
+    "purpose": "Discutir un text a partir de quatre paraules que comencen per la mateixa lletra —en la versió clàssica, Assumptions, Agree, Argue, Aspirations— per estructurar una conversa rica sobre qualsevol tipus de text.",
+    "objectives": [
+      "Estructurar una discussió rica i provocadora sobre un text",
+      "Explicitar supòsits, acords, desacords i aspiracions",
+      "Donar veu ordenada a cada participant abans del debat",
+      "Connectar el text amb les pròpies aspiracions professionals"
+    ],
+    "schedule": [
+      {
+        "temps": "Abans",
+        "text": "Presentació del text: lectura centrada en les quatre preguntes «A» (supòsits, acords, desacords, aspiracions)"
+      },
+      {
+        "temps": "10'",
+        "text": "Supòsits (Assumptions): cadascú n'identifica un (sense discussió)"
+      },
+      {
+        "temps": "10'",
+        "text": "Acords (Agree): cadascú identifica una part amb què està d'acord"
+      },
+      {
+        "temps": "10'",
+        "text": "Confrontacions (Argue): cadascú identifica una part amb què discreparia"
+      },
+      {
+        "temps": "10'",
+        "text": "Aspiracions (Aspirations): cadascú n'identifica una relacionada amb el text"
+      },
+      {
+        "temps": "15'",
+        "text": "Discussió oberta sobre les troballes, passant d'una «A» a una altra"
+      },
+      {
+        "temps": "5'",
+        "text": "Anàlisi del procés"
+      }
+    ],
+    "materials": "El text a treballar · Les quatre preguntes «A» visibles · Full de notes (amb números de pàgina si escau)",
+    "simple": "Es pot obrir la discussió després de cada «A» en comptes de reservar-la al final, si el grup ho prefereix.",
+    "indicators": [
+      "Cada participant aporta a les quatre dimensions",
+      "Les quatre paraules generen una discussió provocadora",
+      "Es respecta el torn sense discutir fins al pas de debat"
+    ]
+  },
+  {
+    "id": "protocol-ultima-paraula",
+    "phase": "durant",
+    "phases_aplicables": [
+      "abans",
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per a discussions efectives",
+    "title": "Protocol de l'Última Paraula (The Last Word)",
+    "stars": 1,
+    "role": "facilitador",
+    "duration": "30 min",
+    "guskey": "N2",
+    "purpose": "Algú comparteix una idea significativa, els companys hi reaccionen i qui ha començat té «l'última paraula». Pensat per processar idees i tancar discussions construint sobre el pensament dels altres.",
+    "objectives": [
+      "Construir sobre el pensament dels altres abans de debatre",
+      "Donar a qui presenta el tancament reflexiu («l'última paraula»)",
+      "Processar idees, treball d'alumnat o problemes de manera ordenada",
+      "Practicar l'escolta fins al final"
+    ],
+    "schedule": [
+      {
+        "temps": "3'",
+        "text": "Cadascú identifica en silenci la idea més significativa d'allò que s'examina"
+      },
+      {
+        "temps": "4'",
+        "text": "Ronda 1: un membre comparteix la seva idea (sense elaborar); els altres hi responen 1'; qui ha començat tanca 2-3' («última paraula»)"
+      },
+      {
+        "temps": "4'",
+        "text": "Ronda 2: es repeteix amb un altre participant iniciant i tancant"
+      },
+      {
+        "temps": "4'",
+        "text": "Ronda 3: es repeteix amb un altre participant"
+      },
+      {
+        "temps": "Opcional",
+        "text": "Discussió oberta sobre el que ha sorgit"
+      },
+      {
+        "temps": "5'",
+        "text": "Anàlisi del procés"
+      }
+    ],
+    "materials": "Allò que s'examina (text, treball d'alumnat, problema, tema) · Full per anotar la idea significativa · Encarregat de controlar el temps",
+    "simple": "Una sola ronda amb un voluntari: comparteix la idea, el grup respon i ell tanca. Útil per tancar una sessió en 10 min.",
+    "indicators": [
+      "Es construeix sobre el pensament de l'altre, no es debat de seguida",
+      "S'escolta fins al final abans de respondre",
+      "Qui presenta tanca amb una reflexió pròpia"
+    ]
+  },
+  {
+    "id": "protocol-parlar-guixos",
+    "phase": "durant",
+    "phases_aplicables": [
+      "abans",
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per a discussions efectives",
+    "title": "Protocol Parlar amb Guixos (Chalk Talk)",
+    "stars": 1,
+    "role": "facilitador",
+    "duration": "variable",
+    "guskey": "N2",
+    "purpose": "Una reflexió col·lectiva completament silenciosa i escrita. Sobre un tema central en un full gran, els participants s'expressen per escrit i es responen els uns als altres sense parlar, per generar idees, comprovar aprenentatges o resoldre problemes.",
+    "objectives": [
+      "Generar idees i fer reflexió de manera silenciosa i escrita",
+      "Donar veu a tothom, també a qui costa parlar en veu alta",
+      "Fer visible el que el grup sap col·lectivament sobre un tema",
+      "Connectar i ampliar les aportacions dels altres"
+    ],
+    "schedule": [
+      {
+        "temps": "5'",
+        "text": "Preparació: el facilitador escriu un tema al centre d'un full gran i hi posa retoladors a prop"
+      },
+      {
+        "temps": "5'",
+        "text": "Explicació: és una activitat totalment silenciosa; s'escriu sobre el tema i es responen els altres per escrit"
+      },
+      {
+        "temps": "El que calgui",
+        "text": "Succeeix: els participants escriuen; els silencis llargs són naturals; el facilitador pot encerclar, connectar o interrogar idees per convidar a ampliar"
+      },
+      {
+        "temps": "Final",
+        "text": "S'acaba: s'analitza el protocol o es discuteixen les idees importants i els passos següents"
+      }
+    ],
+    "materials": "Tres o quatre fulls grans (chart paper) · Retoladors de colors · Un tema o pregunta central (per exemple: «Què hem après avui?», «I ara què?»)",
+    "simple": "Amb un sol full i un tema, 10 min d'escriptura silenciosa i 5 de posada en comú.",
+    "indicators": [
+      "Tothom participa per escrit, també qui calla en veu alta",
+      "Es respecta el silenci complet",
+      "Apareixen connexions inesperades entre idees"
+    ]
+  },
+  {
     "id": "implementacio-real",
     "phase": "despres",
     "phases_aplicables": [
@@ -1930,6 +2267,135 @@
       "Es documenta formalment el tancament",
       "El proper pla recull les lliçons apreses",
       "L'equip se sent reconegut i renovat"
+    ]
+  },
+  {
+    "id": "protocol-assessorament",
+    "phase": "despres",
+    "phases_aplicables": [
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per examinar la pràctica",
+    "title": "Protocol d'Assessorament (Consultancy)",
+    "stars": 2,
+    "role": "facilitador",
+    "duration": "50-60 min",
+    "guskey": "N2-N3",
+    "purpose": "Algú presenta un dilema real de la seva pràctica i el grup l'ajuda a obrir noves maneres de pensar-hi. L'objectiu no és resoldre'l, sinó eixamplar la mirada sobre problemes d'ensenyament i aprenentatge.",
+    "objectives": [
+      "Obrir la ment de qui presenta a noves maneres de pensar un dilema",
+      "Aprofundir en un problema autèntic i encara no resolt de la pràctica",
+      "Aprendre col·lectivament de com altres entenen el dilema",
+      "Distingir indagar (eixamplar el pensament) de donar consells"
+    ],
+    "schedule": [
+      {
+        "temps": "Abans",
+        "text": "Qui presenta escriu el seu dilema (autèntic, important, no resolt) i el formula com a pregunta clau"
+      },
+      {
+        "temps": "10'",
+        "text": "Visió general: qui presenta exposa el dilema i la pregunta clau"
+      },
+      {
+        "temps": "5'",
+        "text": "Preguntes aclaridores: es responen amb fets"
+      },
+      {
+        "temps": "5'",
+        "text": "Preguntes d'indagació: eixamplen el pensament; qui presenta no respon"
+      },
+      {
+        "temps": "15'",
+        "text": "Discussió dels participants: qui presenta es retira i pren notes; el grup afina el tema sense decidir cap solució"
+      },
+      {
+        "temps": "10'",
+        "text": "Reflexió de qui presenta: comparteix com han afectat els comentaris el seu pensament"
+      },
+      {
+        "temps": "5'",
+        "text": "Anàlisi: el facilitador revisa el funcionament del protocol"
+      }
+    ],
+    "materials": "Descripció escrita del dilema (menys d'una pàgina) · Guió de preguntes d'indagació · Full de notes per a qui presenta · Temporitzador visible",
+    "simple": "Format breu (25-30 min): qui presenta exposa el dilema (5'), el grup fa preguntes d'indagació (5'), discussió curta (10') i reflexió final de qui presenta (5').",
+    "indicators": [
+      "El dilema és autèntic i important per a qui presenta",
+      "Els participants indaguen, no jutgen ni imposen solucions",
+      "Qui presenta escolta sense posar-se a la defensiva",
+      "Qui presenta surt amb noves maneres de pensar el dilema"
+    ]
+  },
+  {
+    "id": "protocol-analisi-exit",
+    "phase": "despres",
+    "phases_aplicables": [
+      "durant",
+      "despres"
+    ],
+    "block": "Protocols per examinar la pràctica",
+    "title": "Protocol d'Anàlisi d'Èxit (Success Analysis)",
+    "stars": 2,
+    "role": "facilitador",
+    "duration": "60 min",
+    "guskey": "N2-N3",
+    "purpose": "Analitzar en grup per què una cosa ha funcionat. En comptes de «mostrar i explicar», l'equip aprofundeix en els factors que han fet possible un èxit i en construeix casos de bona pràctica.",
+    "objectives": [
+      "Celebrar i entendre els èxits de la pràctica més enllà del «mostrar i explicar»",
+      "Identificar els factors concrets que expliquen un èxit",
+      "Reconèixer patrons d'èxit transferibles a altres contextos",
+      "Construir casos de bona pràctica professional"
+    ],
+    "schedule": [
+      {
+        "temps": "Abans",
+        "text": "Cada participant prepara un «cas»: una cosa que ha anat bé i què hi pot haver contribuït"
+      },
+      {
+        "temps": "5'",
+        "text": "Agrupacions: grups de 3-4"
+      },
+      {
+        "temps": "5'",
+        "text": "Compartir: un participant exposa el seu cas; la resta escolta i pren notes"
+      },
+      {
+        "temps": "5'",
+        "text": "Aclariment: preguntes que es responen amb fets"
+      },
+      {
+        "temps": "10'",
+        "text": "Anàlisi: el grup discuteix per què el cas va ser exitós (qui presenta escolta)"
+      },
+      {
+        "temps": "10'",
+        "text": "Reflexió: qui presenta enumera els factors d'èxit (Per què...? Què era diferent...?)"
+      },
+      {
+        "temps": "—",
+        "text": "Es repeteixen els passos de compartir-reflexió fins que tothom hagi presentat"
+      },
+      {
+        "temps": "5'",
+        "text": "Recopilació: cada grup escriu els factors en un full; «gallery tour»"
+      },
+      {
+        "temps": "10'",
+        "text": "Discussió en gran grup: factors comuns i inusuals; què sorprèn"
+      },
+      {
+        "temps": "5'",
+        "text": "Anàlisi del procés"
+      }
+    ],
+    "materials": "Cas preparat per cada participant (èxit = efectivitat per assolir el resultat pretès) · Chart paper i retoladors per recollir els factors · Espai per al «gallery tour»",
+    "simple": "En grup petit: cada persona explica en 5 min un èxit recent i el grup n'identifica junts 2-3 factors clau.",
+    "indicators": [
+      "El grup va més enllà del «mostrar i explicar» i analitza factors",
+      "S'identifiquen factors d'èxit transferibles",
+      "Es reconeixen els èxits dels companys"
     ]
   }
 ]
