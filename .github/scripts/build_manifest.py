@@ -58,7 +58,7 @@ for md_path in sorted(Path('.').glob('**/*.md')):
     content = md_path.read_text(encoding='utf-8')
     fm = parse_frontmatter(content)
 
-    modules.setdefault(mod, []).append({
+    entry = {
         'path': rel,
         'size': len(content.encode('utf-8')),
         'titol': fm.get('titol'),
@@ -67,7 +67,14 @@ for md_path in sorted(Path('.').glob('**/*.md')):
         'review_status': fm.get('review_status'),
         'descripcio': fm.get('descripcio'),
         'last_editor': fm.get('last_editor'),
-    })
+    }
+    # Camps específics de dinàmiques (tipus: dinamica) per a l'agrupació A-D-D i
+    # l'ordenació pedagògica a Scriptorium. S'afegeixen NOMÉS si el fitxer els té,
+    # per no embrutar els ~500 docs no-dinàmica amb camps buits.
+    for k in ('phase', 'phases_aplicables', 'ordre', 'guskey', 'stars', 'duration'):
+        if k in fm:
+            entry[k] = fm[k]
+    modules.setdefault(mod, []).append(entry)
 
 # Fitxers curriculars (.json dins curriculum/)
 for json_path in sorted(Path('curriculum').glob('**/*.json')):
