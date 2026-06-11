@@ -28,7 +28,7 @@ La reflexió madura no es queda en l'eficàcia dels mitjans. Recorre tres nivell
 
 ### Reflexió i identitat
 
-"Aprendre a ensenyar és un procés de construcció d'identitat" (Monereo, 2022). Reflexionar sobre **incidents crítics** i dilemes no només resol problemes: reconfigura qui s'és com a docent. La reflexió és la via per la qual la formació deixa de ser informació externa i toca la **identitat i la vocació**.
+"Aprendre a ensenyar és un procés de construcció d'identitat" (Monereo, 2022). Reflexionar sobre **incidents crítics** i dilemes no només resol problemes: reconfigura qui s'és com a docent. La reflexió és la via per la qual la formació deixa de ser informació externa i toca la **identitat i la vocació**. Aquesta identitat es configura en tres elements (Monereo, Weise & Álvarez, 2013): el **rol professional** (les funcions que el docent considera que ha d'exercir, amb un fort component institucional), la **pràctica d'ensenyament i aprenentatge** (les creences sobre què significa ensenyar i aprendre) i els **sentiments associats a la docència** (de la motivació a la inseguretat i la vulnerabilitat). Per això els programes d'acompanyament amb més impacte a llarg termini són els que incideixen en aquesta identitat, no només en tècniques (Amor & Torrents, 2020).
 
 ### La reflexió com a competència
 
@@ -46,6 +46,8 @@ La reflexió és la **clau de volta** del dinamisme pedagògic ignasià: el disc
 - **Domingo (2014)** — reflexió natural vs sistemàtica; mètode i instruments per a una pràctica reflexiva guiada (individual, grupal i institucional).
 - **Monereo (2022)** — reflexió i construcció d'identitat docent.
 - **Martínez (2020)** — dimensió ètica i compromís de la professió: la reflexió sense mètode ni ètica no transforma.
+- **Monereo, Weise & Álvarez (2013)** — els tres elements que configuren la identitat docent (rol professional, creences sobre ensenyar/aprendre, sentiments associats a la docència).
+- **Amor & Torrents (2020)** — els programes d'acompanyament amb més impacte incideixen en la identitat professional del docent, no només en tècniques.
 
 ## Dispositius de pràctica reflexiva
 
@@ -113,3 +115,5 @@ Un **instrument transversal** que travessa aquests moments és la **documentaci�
 - Domingo Roget, À., & Gómez Serés, M. V. (2014). *La práctica reflexiva: Bases, modelos e instrumentos*. Madrid: Narcea.
 - Monereo, C. (Ed.) (2022). *The Identity of Education Professionals*. Charlotte, NC: IAP.
 - Martínez, M., & Carreño, P. (2020). El compromiso ético del profesorado universitario en la formación de docentes. *Profesorado. Revista de Currículum y Formación del Profesorado*, 24(2), 8-26.
+- Monereo, C., Weise, C., & Álvarez, I. (2013). Cambiar la identidad docente en la universidad. Formación basada en incidentes dramatizados. *Infancia y Aprendizaje*, 36(3), 323-340.
+- Amor Aguilera, M., & Torrents Suárez, M. (2020). Orientaciones y retos en la formación docente para la transformación educativa. *Padres y Maestros*, 381, 77-82. https://doi.org/10.14422/pym.i381.y2020.012

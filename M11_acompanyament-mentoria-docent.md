@@ -34,6 +34,10 @@ Cap de les dues és supervisió ni avaluació: són relacions de creixement, no 
 
 Durant la inducció, cada centre **assigna un referent** al nou educador (vegeu el marc d'inducció, M11). Aquest referent és la primera concreció de la mentoria: la persona que fa que la formació institucional es trobi amb la pràctica diària i amb la cultura del centre.
 
+### El lideratge com a acompanyament
+
+L'acompanyament no és només entre iguals: demana també que els equips de **direcció acompanyin** els docents en l'observació, l'anàlisi i la incidència sobre la pràctica d'aula (Amor & Torrents, 2020). Reforçar les competències d'acompanyament del lideratge escolar i comptar amb estructures organitzatives que afavoreixin les trobades entre docents són condicions perquè la reflexió pedagògica sistemàtica arreli i no depengui del voluntarisme.
+
 ### Antídot a l'aïllament
 
 La unitat del desenvolupament professional no és el docent aïllat sinó l'**equip estable**. L'acompanyament i la mentoria **despriva­titzen** la pràctica: el que un fa a l'aula es pot mirar, comentar i millorar entre iguals. És el teixit relacional sobre el qual s'aixequen les comunitats professionals d'aprenentatge.
@@ -47,6 +51,7 @@ Acompanyar és *cura personalis*: atendre la persona concreta, el seu context i 
 - La recerca sobre **mentoria i inducció del professorat** mostra que l'acompanyament estructurat redueix l'abandonament primerenc i accelera la integració i la qualitat de la pràctica.
 - La literatura de **comunitats professionals d'aprenentatge** (DuFour, Hord, Bolam, Stoll) identifica el suport entre iguals i el lideratge distribuït com a factors crítics: sense relació, la millora col·lectiva no es produeix.
 - **Marc competencial docent de JE (2024)** — situa el creixement de l'educador "amb l'acompanyament de referents sòlids".
+- **Amor, M., & Torrents, M.** (2020) — defineixen la mentoria com una "relació de desenvolupament personal i professional en la qual un docent novell rep l'acompanyament d'un professional amb major coneixement i experiència", i situen el lideratge escolar com a acompanyant de la pràctica.
 
 ## Exemples concrets d'aplicació al centre
 
@@ -99,3 +104,4 @@ Acompanyar és *cura personalis*: atendre la persona concreta, el seu context i 
 - **Marc competencial docent de JE (2024)** — Àrea de Persones: el creixement de l'educador "amb l'acompanyament de referents sòlids".
 - Literatura de **comunitats professionals d'aprenentatge** (DuFour; Hord; Bolam et al.; Stoll et al.) sobre suport entre iguals i lideratge distribuït.
 - **Programa de Nous Educadors (NNEE)** — la figura del referent i l'acompanyament des del centre.
+- Amor Aguilera, M., & Torrents Suárez, M. (2020). Orientaciones y retos en la formación docente para la transformación educativa. *Padres y Maestros*, 381, 77-82. https://doi.org/10.14422/pym.i381.y2020.012

@@ -31,7 +31,7 @@ Una **Comunitat Professional d'Aprenentatge (CPA)** és un equip docent estable 
 5. **Aprenentatge professional col·lectiu** — el creixement és de l'equip, no només individual.
 6. **Lideratge distribuït i suport estructural** — la CPA té temps, espai i suport institucional.
 
-Aquests trets són reconeguts internacionalment a la literatura de CPA (DuFour, Hord, Bolam, Stoll) i s'arrelen al MODE de procedir ignasià: el discerniment apostòlic és per definició comunitari, no individual.
+Aquests trets són reconeguts internacionalment a la literatura de CPA (DuFour, Hord, Bolam, Stoll) i s'arrelen al MODE de procedir ignasià: el discerniment apostòlic és per definició comunitari, no individual. Aquesta **ànima ignasiana de la CPA** —la comunitat com a subjecte que discerneix junta— es desplega al marc [M11_cpa-inspiracio-ignasiana.md](M11_cpa-inspiracio-ignasiana.md); aquest doc en tracta l'**estructura operativa**.
 
 ### El cicle Abans-Durant-Després (A-D-D) com a mecanisme operatiu
 
@@ -61,6 +61,10 @@ Thomas Guskey va proposar un model d'avaluació de la formació docent en **5 ni
 
 L'ambició institucional de FJE no és quedar-se a N1 ("quina sessió tan agradable") sinó **pujar progressivament cap a N4-N5**: que la formació es tradueixi en pràctica sostinguda i en aprenentatge real de l'alumnat. La FECC i la EAPC han concretat aquest marc al context català ("Pujant l'esglaó") amb cobertures realistes per nivell.
 
+### Característiques de la formació que transforma
+
+Perquè una formació incideixi de debò en la pràctica, no n'hi ha prou amb el contingut: ha de complir unes condicions que la recerca i l'experiència de transformació educativa de FJE confirmen (Amor & Torrents, 2020). Convé que **vinculi** l'experiència formativa al propòsit de l'educació i a la millora dels aprenentatges de l'alumnat; que es **personalitzi** segons els interessos, necessitats i objectius dels docents; que **parteixi de l'escenari professional i l'experiència** dels participants, en interacció entre iguals; que contrasti la pràctica amb **evidències** internes i externes; que promogui la **reflexió sobre l'acció** en un entorn col·laboratiu i un **paper actiu** del docent; que **documenti els processos** seguits per analitzar-los i compartir-los en xarxa; i que tingui **continuïtat i seguiment** mitjançant un pla d'acció i avaluació. Ho sintetitza Elmore (2010): "la formació docent només resultarà transformadora de pràctiques pedagògiques si es fa el més a prop possible de l'aula". Els formats poden ser diversos i combinables —la mateixa CPA, l'autoformació, la formació presencial conduïda per experts i la mentoria—, però només transformen si s'inscriuen en aquest procés: les experiències formatives **aïllades i desconnectades** tenen una incidència i un impacte baixos.
+
 ### La inspiració ignasiana com a substrat
 
 El marc no s'imposa sobre una tradició buida: troba arrelament natural al *modus operandi* ignasià. La cura personalis, el discerniment comunitari, l'examen, el *magis* — totes són actituds que han d'inspirar el desenvolupament professional sense ser instrumentalitzades. Els marcs M0 ([M0_PPI-paradigma-pedagogic-ignasia.md](M0_PPI-paradigma-pedagogic-ignasia.md), [M0_educador-samarita.md](M0_educador-samarita.md), [M0_acompanyament-tutoria-ignasia.md](M0_acompanyament-tutoria-ignasia.md), [M0_cura-personalis.md](M0_cura-personalis.md)) són les fonts d'aquesta arrel; aquest doc no els reescriu.
@@ -78,6 +82,7 @@ El marc no s'imposa sobre una tradició buida: troba arrelament natural al *modu
 - **Tradició catalana FECC-EAPC**. *Pujant l'esglaó. Model d'avaluació de la formació docent*: concreció del marc Guskey al context català amb cobertures recomanades per nivell.
 - **Amor, M.** (2023). *Comunitats Professionals d'Aprenentatge d'inspiració ignasiana. Una proposta per a Fundació Jesuïtes Educació*. TFM: articulació explícita de les CPA amb el carisma ignasià i del cicle A-D-D com a mecanisme operatiu propi.
 - **Go, J. C., & Atienza, R. J.** (2019). *Learning by Refraction: A Practitioner's Guide to 21st-Century Ignatian Pedagogy*. Ateneo de Manila University Press: la pedagogia ignasiana com a marc-paraigua compatible amb les teories d'aprenentatge actuals; el docent com a dissenyador d'experiències de creixement.
+- **Amor, M., & Torrents, M.** (2020). *Orientaciones y retos en la formación docente para la transformación educativa* (Padres y Maestros, 381). Des de l'experiència de transformació educativa de FJE (Horitzó+): les condicions de la formació que transforma, els escenaris formatius (CPA, autoformació, formació experta, mentoria) i el pes de la identitat docent en l'impacte.
 
 ## Exemples concrets d'aplicació al centre
 
@@ -218,3 +223,5 @@ El marc no s'imposa sobre una tradició buida: troba arrelament natural al *modu
 - Hattie, J., & Timperley, H. (2007). The power of feedback. *Review of Educational Research*, 77(1), 81-112. Fonament del feedback formatiu, aplicable tant a alumnat com a aprenentatge professional entre adults.
 - FECC – EAPC. *Pujant l'esglaó. Model d'avaluació de la formació docent*. Concreció del model Guskey al context català amb cobertures recomanades per nivell.
 - Amor, M. (2023). *Comunitats Professionals d'Aprenentatge d'inspiració ignasiana. Una proposta per a Fundació Jesuïtes Educació*. Treball Final de Màster. Articulació explícita de les CPA amb el carisma ignasià i del cicle A-D-D com a mecanisme operatiu propi.
+- Amor Aguilera, M., & Torrents Suárez, M. (2020). Orientaciones y retos en la formación docente para la transformación educativa. *Padres y Maestros*, 381, 77-82. https://doi.org/10.14422/pym.i381.y2020.012
+- Elmore, R. (2010). *Mejorando la escuela desde la sala de clases*. Santiago de Chile: Salesianos Impresores. La formació transforma la pràctica només si es fa el més a prop possible de l'aula.
