@@ -35,6 +35,7 @@ jobs:
         run: python .tooling/build_dinamiques.py
 
       - name: Commit derivat actualitzat
+        id: commit
         run: |
           set -e
           git config user.name "corpus-bot"
@@ -42,6 +43,7 @@ jobs:
           git add dinamiques/_dinamiques.json || true
           if git diff --staged --quiet; then
             echo "Cap canvi al derivat: res a commitejar."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git commit -m "chore(dinamiques): regenera _dinamiques.json [skip ci]"
@@ -49,6 +51,7 @@ jobs:
           for i in 1 2 3; do
             if git push; then
               echo "Push correcte (intent $i)."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
               exit 0
             fi
             echo "Push rebutjat, rebase i reintento (intent $i)..."
@@ -56,3 +59,21 @@ jobs:
           done
           echo "ERROR: 3 intents fallits."
           exit 1
+
+      # Avisa mirar-coms només si el JSON ha canviat de debò (sync instantani).
+      # Si falta el token, no fem fallar tot el build: el cron horari de
+      # mirar-coms continua sent el pla B.
+      - name: Avisa mirar-coms perquè se sincronitzi
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          if [ -z "${{ secrets.MIRAR_COMS_TOKEN }}" ]; then
+            echo "::warning::MIRAR_COMS_TOKEN no configurat; salto l'avis. mirar-coms se sincronitzara pel cron horari."
+            exit 0
+          fi
+          curl -X POST --fail-with-body -sS \
+            -H "Authorization: Bearer ${{ secrets.MIRAR_COMS_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/miquelamor-ai/mirar-coms/dispatches \
+            -d '{"event_type":"corpus-dinamiques-updated"}'
+          echo "Avis enviat a mirar-coms (repository_dispatch: corpus-dinamiques-updated)."
