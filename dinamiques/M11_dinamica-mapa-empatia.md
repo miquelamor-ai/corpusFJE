@@ -1,21 +1,31 @@
 ---
 modul: M11
-titol: Mapa d'empatia i User Journey
+titol: "Mapa d'empatia i User Journey"
 tipus: dinamica
-descripcio: Mirar l'escola des dels ulls de l'alumnat. Posar la veu de qui aprèn al centre del disseny formatiu.
+descripcio: "Mirar l'escola des dels ulls de l'alumnat. Posar la veu de qui aprèn al centre del disseny formatiu."
+paraules_clau:
+  - dinamica-formacio
+  - A-D-D
+  - abans
+  - CPA
+  - diagnostic-honest-de-la-realitat
+review_status: esborrany
+last_editor: miquel.amor@fje.edu
+last_editor_at: '2026-06-11T12:02:31Z'
+generat_at: '2026-06-11'
 id: mapa-empatia
 ordre: 3
-block: Diagnòstic honest de la realitat
+block: 'Diagnòstic honest de la realitat'
 phase: abans
-phases_aplicables: [abans, despres]
+phases_aplicables:
+  - abans
+  - despres
 guskey: N2
 stars: 2
-role: formador puntual
-duration: 90 min
-paraules_clau: [dinamica-formacio, A-D-D, abans, CPA, diagnostic-honest-de-la-realitat]
-moduls_relacionats: [M11]
-review_status: esborrany
-generat_at: '2026-06-11'
+role: 'formador puntual'
+duration: '90 min'
+moduls_relacionats:
+  - M11
 ---
 
 ## Propòsit
@@ -24,10 +34,10 @@ Mirar l'escola des dels ulls de l'alumnat. Posar la veu de qui aprèn al centre 
 
 ## Objectius
 
-- Entendre què sent, veu, escolta i fa l'alumnat
-- Identificar moments crítics del recorregut (User Journey)
-- Trobar necessitats reals no explícites
-- Orientar la formació a la realitat de l'alumnat
+- Entendre què sent, veu, escolta i fa l'alumnat.
+- Identificar moments crítics del recorregut (User Journey).
+- Trobar necessitats reals no explícites.
+- Orientar la formació a la realitat de l'alumnat.
 
 ## Desenvolupament
 
@@ -60,4 +70,3 @@ Mirar l'escola des dels ulls de l'alumnat. Posar la veu de qui aprèn al centre 
 ## Connexió amb el marc
 
 Aquesta dinàmica s'inscriu en el cicle de formació **Abans–Durant–Després** (fase _abans de la formació_) i, segons el model d'avaluació de la formació de Guskey, treballa cap al nivell **N2** d'impacte. La fonamentació (CPA, A-D-D, Guskey) viu al marc [Desenvolupament professional docent](../M11_desenvolupament-professional-docent.md); aquesta fitxa només n'és la concreció operativa.
-
