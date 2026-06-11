@@ -4,9 +4,9 @@ titol: "Instruments de Mediació Pedagògica"
 tipus: marc
 descripcio: "Taxonomia operativa i catàleg complet dels instruments de mediació pedagògica segons el MALL (FJE): bastides (lingüístiques, cognitives, metacognitives), suports DUA, autoregulació, extensió curricular, ajuts i crossa. Inclou definicions, dimensions comparatives, catàleg d'instruments, gradacions MALL per nivell, HCL i modalitat lectora dual."
 review_status: revisat
-actualitzat_at: 2026-06-01T00:00:00
+actualitzat_at: 2026-06-11T00:00:00
 generat_at: 2026-05-16T00:00:00
-nota_revisio: "Taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat. 2026-06-01: afegida §Matriu de cobertura perfil × complement (R0 + lleis R1-R4/A5), font canon de matriu_cobertura.json."
+nota_revisio: "Taxonomia validada amb NotebookLM MALL FJE (sessió 2026-05-16). Basat en MALL, Decret 150/2017, CEFR, literatura TOLC i Jorba/Gómez/Prat. 2026-06-01: afegida §Matriu de cobertura perfil × complement (R0 + lleis R1-R4/A5), font canon de matriu_cobertura.json. 2026-06-11: afegida §Taxonomia «Per al docent» — categories d'argumentació (9 cat A-I + mapeig complement→categoria + lleis), font canon de per_al_docent.json."
 ---
 
 ## Abstract
@@ -785,6 +785,117 @@ són mútuament exclusius dins una mateixa avaluació.
 > `cat`, camp `conditions`, `subvariables`, o `l1` explícita). Aquesta detecció **no és
 > pedagogia** sinó implementació de frontend, i per tant resta al codi del consumidor
 > (ATNE), documentada com a excepció pactada. El que SÍ és canon és l'**efecte** d'A5.
+
+## Taxonomia «Per al docent» — categories d'argumentació
+
+Quan es lliura una adaptació, s'acompanya d'una **justificació pedagògica per al docent**
+que explica el *per què* de cada decisió (no el *què* s'ha fet). Aquesta secció
+**canonitza** la taxonomia amb què es classifica aquesta argumentació: les **nou categories
+(A-I)**, el **mapeig dels complements actius a la categoria** que la seva presència fa
+obligatòria, i les **lleis d'obligatorietat** (quines categories no poden faltar mai). És
+l'operacionalització del doble eix MALL —adaptar el *Com* sense rebaixar el *Què*— i de la
+cessió progressiva de responsabilitat: la justificació es fa amb terminologia pedagògica
+real (MALL/DUA, Cummins, Vygotsky/Solé) i amb la xifra de control concreta quan n'hi ha, no
+amb adjectius vagues ("frases curtes").
+
+És la **font de veritat única** d'aquesta taxonomia. El derivat mecànic
+`per_al_docent.json` (a `.tooling/`) es genera des d'aquí amb `build_per_al_docent.py` i el
+consumeixen els sistemes d'adaptació (ATNE). Cap sistema no l'ha de codificar pel seu
+compte: si canvia, canvia **aquí**.
+
+> Validació pedagògica: NotebookLM MALL FJE (sessió 2026-06-11, secció «Per al docent» apta
+> per a producció). Matisos validats: l'HCL curricular es preserva a E; la identitat
+> lingüística (LIT · Cummins) es treballa a G; a A2+ l'alumne ja inicia la lectura autònoma
+> (les bastides de C la suporten, no la substitueixen).
+
+### Taxonomia de 9 categories A-I
+
+Cada categoria és una **dimensió** de la intervenció. La *naturalesa* (mapa de taxonomies
+MALL) indica si transforma el text original, l'acompanya amb un complement, o és transversal.
+
+| Codi | Categoria | Sub-àrees | Naturalesa |
+|---|---|---|---|
+| `A` | Adaptació Lingüística | A1 Lèxic · A2 Sintaxi · A3 Cohesió · A4 Registre | Transformació |
+| `B` | Estructura i Organització | B1 Segmentació · B2 Jerarquia · B3 Ordre · B4 Senyalització | Transformació |
+| `C` | Suport Cognitiu | C1 Càrrega cognitiva · C2 Scaffolding · C3 Coneixements previs · C4 Metacognició | Complement |
+| `D` | Multimodalitat | D1 Suport visual · D2 Organitzadors gràfics · D3 Redundància de canals | Complement |
+| `E` | Contingut Curricular | E1 Terminologia · E2 Rigor conceptual · E3 Exemples · E4 Contextualització | Transformació |
+| `F` | Avaluació i Comprensió | F1 Preguntes · F2 Activitats · F3 Autoavaluació | Complement |
+| `G` | Personalització Lingüística | G1 Suport L1 · G2 Adaptació cultural | Transformació i complement |
+| `H` | Adaptacions per Perfil | per condició (TEA, TDAH, dislèxia, DI, TDL, AACC, 2e, disc. auditiva, disc. visual, discalcúlia, vulnerabilitat, dispràxia) | Transformació i complement |
+| `I` | Meta-regles Transversals | I1 Qualitat global · I2 Integració de perfils | Transversal |
+
+**Què cobreix cada categoria** (guia per a la justificació):
+
+- **A. Adaptació Lingüística** — triar el vocabulari, construir les frases, organitzar els connectors i ajustar el to. La xifra de control és el màxim de paraules per frase del nivell (vegeu *Lleis*).
+- **B. Estructura i Organització** — dividir el text, usar títols i llistes, ordenar de general a particular i senyalitzar les parts.
+- **C. Suport Cognitiu** — reduir la sobrecàrrega, posar bastides, activar coneixements previs i obrir l'autoregulació. A A2+ les bastides suporten la descodificació, no la substitueixen.
+- **D. Multimodalitat** — pictogrames, esquemes, taules i diagrames que faciliten la comprensió per múltiples vies.
+- **E. Contingut Curricular** — què es manté del rigor i què s'adapta sense perdre matèria. Nomena sempre la Habilitat Cognitivolingüística (HCL) que es preserva o es treballa (descriure · explicar · justificar · argumentar): garanteix que no es rebaixa el *Què* curricular (doble eix MALL).
+- **F. Avaluació i Comprensió** — preguntes graduades i activitats d'aprofundiment. El contingut detallat ve dels instruments activats; només aplica si hi ha complements d'aquesta família actius.
+- **G. Personalització Lingüística** — glossaris bilingües, referents culturals propers i exemples de l'experiència de l'alumne. L'alfabet original de la L1 enforteix la identitat i la confiança (text d'identitat lingüística, LIT · Cummins), no només tradueix.
+- **H. Adaptacions per Perfil** — instruccions específiques per a cada condició realment activa al perfil rebut, no per a totes les possibles.
+- **I. Meta-regles Transversals** — com es combinen instruccions de múltiples condicions sense contradiccions i les regles de qualitat global. Només si el perfil és multi-condició o hi ha conflicte declarat entre regles.
+
+### Mapeig complement → categoria/es obligatòria/es
+
+La presència d'un complement actiu en una adaptació fa **obligatòria** la justificació de la
+categoria (o categories) corresponent. Claus = complements canònics (vegeu §Matriu de
+cobertura perfil × complement); valors = codis de categoria separats per `·`.
+
+| Complement | Categoria/es |
+|---|---|
+| `glossari` | A |
+| `pictogrames` | D |
+| `illustracions` | D |
+| `esquema_visual` | C · D |
+| `mapa_conceptual` | C |
+| `mapa_mental` | C |
+| `bastides` | C |
+| `preguntes_comprensio` | F |
+| `activitats_aprofundiment` | F · E |
+| `rubriques` | F |
+| `resum_graduat` | C |
+| `cartes_conversacionals` | F |
+| `plantilles_genere` | B |
+
+> El `glossari` afegeix també la categoria **G** quan el perfil té L1 declarada (glossari
+> bilingüe). Això NO forma part del mapeig estàtic sinó de la **llei G** (vegeu més avall):
+> per això a la taula `glossari` només mapeja a `A`.
+
+### Lleis d'obligatorietat de categoria
+
+Per sobre del mapeig, sempre s'apliquen aquestes lleis (quines categories no poden faltar
+en cap justificació):
+
+- **Sempre A, B, E** — són les tres transformacions del text: tota adaptació intervé en la llengua (A), l'estructura (B) i la gestió del contingut curricular (E), encara que no hi hagi cap complement actiu.
+- **H si perfil actiu** — si hi ha ≥1 condició/perfil actiu, cal una sub-justificació per a cada condició real del perfil.
+- **I si multi-condició** — si hi ha ≥2 condicions actives, cal justificar com es combinen les regles sense contradiccions.
+- **G si L1 declarada** — si el perfil nouvingut té L1 declarada, cal justificar el suport L1 (glossari bilingüe / Translanguaging-TOLC, Cummins).
+- **Mètrica de la categoria A** — la xifra de control de A és el màxim de paraules per frase segons el MECR de sortida:
+
+| MECR | Paraules per frase (màx.) |
+|---|---|
+| `pre-A1` | 5 |
+| `A1` | 8 |
+| `A2` | 12 |
+| `B1` | 18 |
+| `B2` | 25 |
+
+> **Procedència de la mètrica.** Aquests valors són el **sostre** de cada banda de frase
+> definida a `M3_lectura-facil-comunicacio-clara.md` (§gradació per nivell: A1 *5-8* · A2
+> *8-12* · B1 *12-18* · B2 *fins a 25*; `pre-A1` = mínim absolut). Es repeteixen aquí com a
+> sostre operatiu únic per a la categoria A. **Follow-up pendent (no bloquejant):** unificar
+> aquesta taula amb els límits per gènere/nivell de `rubrica.json` perquè totes dues derivin
+> d'una sola font (avui el M3 és la font del rang i aquesta taula n'és el sostre). Vegeu la
+> nota de mètode al final de la secció.
+
+> **Nota de mètode.** Mentre aquesta taxonomia visqui també hardcoded al sistema consumidor
+> (ATNE), qualsevol canvi s'ha de fer **aquí** i propagar pel derivat; el consumidor valida
+> contra el seu snapshot golden que el comportament no ha derivat. La detecció runtime de
+> "nouvingut amb L1 declarada" (per a la llei G) és la mateixa excepció pactada que a la
+> §Matriu de cobertura: *com* es detecta és implementació de frontend i resta al consumidor;
+> l'*efecte* (categoria G obligatòria) és canon.
 
 ## Connexions amb altres documents del corpus
 

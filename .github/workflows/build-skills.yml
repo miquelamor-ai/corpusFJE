@@ -18,6 +18,7 @@ on:
       - '.tooling/build_skills.py'
       - '.tooling/build_rubrica.py'
       - '.tooling/build_matriu_cobertura.py'
+      - '.tooling/build_per_al_docent.py'
       - '.github/workflows/build-skills.yml'
 
 jobs:
@@ -55,12 +56,17 @@ jobs:
           echo "→ matriu_cobertura: M2_instruments-mediacio-pedagogica.md"
           python .tooling/build_matriu_cobertura.py M2_instruments-mediacio-pedagogica.md --out .tooling
 
+      - name: Regenerate per_al_docent.json (taxonomia «Per al docent» — derivat del M2, consumit per ATNE)
+        run: |
+          echo "→ per_al_docent: M2_instruments-mediacio-pedagogica.md"
+          python .tooling/build_per_al_docent.py M2_instruments-mediacio-pedagogica.md --out .tooling
+
       - name: Commit derivats actualitzats
         run: |
           set -e
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@fje.edu"
-          git add 'skills/' '.tooling/matriu_cobertura.json' || true
+          git add 'skills/' '.tooling/matriu_cobertura.json' '.tooling/per_al_docent.json' || true
           if git diff --staged --quiet; then
             echo "Cap canvi als derivats: res a commitejar."
             exit 0
