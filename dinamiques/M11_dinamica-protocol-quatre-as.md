@@ -6,13 +6,12 @@ descripcio: Discutir un text a partir de quatre paraules que comencen per la mat
 id: protocol-quatre-as
 ordre: 55
 block: Protocols per a discussions efectives
-phase: durant
-phases_aplicables: [abans, durant, despres]
+phase: transversal
 guskey: N2
 stars: 1
 role: facilitador
 duration: 30-60 min
-paraules_clau: [dinamica-formacio, A-D-D, durant, CPA, protocols-per-a-discussions-efectives]
+paraules_clau: [dinamica-formacio, CPA, protocols-per-a-discussions-efectives]
 moduls_relacionats: [M11]
 review_status: esborrany
 generat_at: '2026-06-11'

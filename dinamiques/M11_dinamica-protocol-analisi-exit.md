@@ -6,13 +6,12 @@ descripcio: Analitzar en grup per què una cosa ha funcionat. En comptes de «mo
 id: protocol-analisi-exit
 ordre: 52
 block: Protocols per examinar la pràctica
-phase: despres
-phases_aplicables: [durant, despres]
+phase: transversal
 guskey: N2-N3
 stars: 2
 role: facilitador
 duration: 60 min
-paraules_clau: [dinamica-formacio, A-D-D, despres, CPA, protocols-per-examinar-la-practica]
+paraules_clau: [dinamica-formacio, CPA, protocols-per-examinar-la-practica]
 moduls_relacionats: [M11]
 review_status: esborrany
 generat_at: '2026-06-11'

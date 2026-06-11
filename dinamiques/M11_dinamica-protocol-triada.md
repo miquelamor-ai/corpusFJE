@@ -6,13 +6,12 @@ descripcio: Tres companys roten tres rols —presentador, interlocutor i observa
 id: protocol-triada
 ordre: 53
 block: Protocols per examinar la pràctica
-phase: durant
-phases_aplicables: [abans, durant, despres]
+phase: transversal
 guskey: N2
 stars: 1
 role: facilitador
 duration: 45 min
-paraules_clau: [dinamica-formacio, A-D-D, durant, CPA, protocols-per-examinar-la-practica]
+paraules_clau: [dinamica-formacio, CPA, protocols-per-examinar-la-practica]
 moduls_relacionats: [M11]
 review_status: esborrany
 generat_at: '2026-06-11'

@@ -6,13 +6,12 @@ descripcio: Algú presenta un dilema real de la seva pràctica i el grup l'ajuda
 id: protocol-assessorament
 ordre: 50
 block: Protocols per examinar la pràctica
-phase: despres
-phases_aplicables: [durant, despres]
+phase: transversal
 guskey: N2-N3
 stars: 2
 role: facilitador
 duration: 50-60 min
-paraules_clau: [dinamica-formacio, A-D-D, despres, CPA, protocols-per-examinar-la-practica]
+paraules_clau: [dinamica-formacio, CPA, protocols-per-examinar-la-practica]
 moduls_relacionats: [M11]
 review_status: esborrany
 generat_at: '2026-06-11'

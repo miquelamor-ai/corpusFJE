@@ -6,13 +6,12 @@ descripcio: Analitzar en equip una tasca o encàrrec que es proposa als alumnes 
 id: protocol-criteris-practica
 ordre: 51
 block: Protocols per examinar la pràctica
-phase: durant
-phases_aplicables: [abans, durant]
+phase: transversal
 guskey: N3-N4
 stars: 3
 role: facilitador
 duration: 60 min
-paraules_clau: [dinamica-formacio, A-D-D, durant, CPA, protocols-per-examinar-la-practica]
+paraules_clau: [dinamica-formacio, CPA, protocols-per-examinar-la-practica]
 moduls_relacionats: [M11]
 review_status: esborrany
 generat_at: '2026-06-11'
