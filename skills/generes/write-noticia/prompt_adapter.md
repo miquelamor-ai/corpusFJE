@@ -3,7 +3,7 @@ tipus: derivat
 font_canonic: M3_genere-escriure-noticia.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-06'
+generat_at: '2026-06-11'
 generat_per: build_skills.py@prototip-2026-05-24
 checksum_font: 46bc1184369e743f
 ---
