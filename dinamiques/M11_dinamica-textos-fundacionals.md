@@ -1,25 +1,33 @@
 ---
 modul: M11
-titol: Lectures dialògiques de textos fundacionals
+titol: 'Lectures dialògiques de textos fundacionals'
 tipus: dinamica
-descripcio: Connectar la missió ignasiana amb la pràctica quotidiana de l'aula. Donar profunditat institucional al canvi formatiu.
+descripcio: "Connectar la missió ignasiana amb la pràctica quotidiana de l'aula. Donar profunditat institucional al canvi formatiu."
+paraules_clau:
+  - dinamica-formacio
+  - A-D-D
+  - abans
+  - CPA
+  - visio-i-compromis-amb-la-missio
+review_status: esborrany
+last_editor: miquel.amor@fje.edu
+last_editor_at: '2026-06-11T11:50:42Z'
+generat_at: '2026-06-11'
 id: textos-fundacionals
 ordre: 0
-block: Visió i compromís amb la missió
+block: 'Visió i compromís amb la missió'
 phase: abans
 guskey: N1
 stars: 2
-role: formador puntual
-duration: 90 min
-paraules_clau: [dinamica-formacio, A-D-D, abans, CPA, visio-i-compromis-amb-la-missio]
-moduls_relacionats: [M11]
-review_status: esborrany
-generat_at: '2026-06-11'
+role: 'formador puntual'
+duration: '90 min'
+moduls_relacionats:
+  - M11
 ---
 
 ## Propòsit
 
-Connectar la missió ignasiana amb la pràctica quotidiana de l'aula. Donar profunditat institucional al canvi formatiu.
+Connectar la missió i el mode de procedir ignasià amb la pràctica quotidiana de l'aula. Donar profunditat institucional al canvi formatiu.
 
 ## Objectius
 
@@ -59,4 +67,3 @@ Un fragment curt del text de missió + una sola pregunta: *què em diu a mi, avu
 ## Connexió amb el marc
 
 Aquesta dinàmica s'inscriu en el cicle de formació **Abans–Durant–Després** (fase _abans de la formació_) i, segons el model d'avaluació de la formació de Guskey, treballa cap al nivell **N1** d'impacte. La fonamentació (CPA, A-D-D, Guskey) viu al marc [Desenvolupament professional docent](../M11_desenvolupament-professional-docent.md); aquesta fitxa només n'és la concreció operativa.
-
