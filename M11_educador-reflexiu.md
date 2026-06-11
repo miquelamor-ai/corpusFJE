@@ -55,6 +55,8 @@ La reflexió es fa concreta amb dispositius distribuïts en el temps —i tots g
 - **Durant:** observació d'aula, observació entre iguals, *Lesson Study*.
 - **Sobre l'acció (posterior):** estudi de casos, anàlisi d'**incidents crítics**, resolució de dubtes.
 
+Un **instrument transversal** que travessa aquests moments és la **documentació pedagògica**: seleccionar, fer visible i interpretar què passa per poder reflexionar-hi i decidir-hi, com a alternativa a la mesura estandarditzada (vegeu [M6_documentacio-pedagogica.md](M6_documentacio-pedagogica.md)).
+
 ## Exemples concrets d'aplicació al centre
 
 - **Un equip de cicle analitza un incident crític real** (un conflicte, una sessió que no va funcionar) amb mètode, no com a queixa, i n'extreu un canvi de pràctica.
@@ -81,6 +83,7 @@ La reflexió es fa concreta amb dispositius distribuïts en el temps —i tots g
 - **[M0_PPI-paradigma-pedagogic-ignasia.md](M0_PPI-paradigma-pedagogic-ignasia.md)** — La Reflexió és la clau de volta del dinamisme ignasià; aquest doc n'aporta el fonament professional.
 - **[M11_competencies-educador-FJE.md](M11_competencies-educador-FJE.md)** — La reflexió és l'expressió d'Autoconeixement, Aprenentatge continu i Pensament crític.
 - **[M11_acompanyament-mentoria-docent.md](M11_acompanyament-mentoria-docent.md)** — El feedback i l'observació entre iguals són combustible de la reflexió-sobre-l'acció.
+- **[M6_documentacio-pedagogica.md](M6_documentacio-pedagogica.md)** — Fer visible i interpretar la pràctica és l'instrument operatiu de la reflexió-sobre-l'acció.
 
 ## 4. Detecció
 
