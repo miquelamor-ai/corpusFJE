@@ -7,6 +7,7 @@ id: mapa-empatia
 ordre: 3
 block: Diagnòstic honest de la realitat
 phase: abans
+phases_aplicables: [abans, despres]
 guskey: N2
 stars: 2
 role: formador puntual

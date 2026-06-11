@@ -7,6 +7,7 @@ id: cercle-arribada
 ordre: 12
 block: Vincles, cura mútua i llenguatge compartit
 phase: abans
+phases_aplicables: [abans, durant]
 guskey: N2-N3
 stars: 0
 role: l'equip sol

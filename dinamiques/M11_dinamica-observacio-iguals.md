@@ -7,6 +7,7 @@ id: observacio-iguals
 ordre: 19
 block: Reflexió durant la pràctica
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N4
 stars: 2
 role: formador puntual

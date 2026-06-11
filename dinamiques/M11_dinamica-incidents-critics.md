@@ -7,6 +7,7 @@ id: incidents-critics
 ordre: 31
 block: Transferència real a l'aula
 phase: despres
+phases_aplicables: [durant, despres]
 guskey: N3
 stars: 2
 role: formador puntual

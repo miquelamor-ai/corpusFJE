@@ -105,26 +105,32 @@ def slugify(s: str) -> str:
 
 def build_frontmatter(rec: dict, ordre: int) -> dict:
     """Frontmatter canònic d'una dinàmica (ordre d'inserció = ordre de sortida)."""
-    return {
-        "modul": "M11",
-        "titol": rec["title"],
-        "tipus": "dinamica",
-        "descripcio": html_to_text(rec["purpose"]).strip(),
-        "id": rec["id"],
-        "ordre": ordre,
-        "block": rec["block"],
-        "phase": rec["phase"],
-        "guskey": rec["guskey"],
-        "stars": rec["stars"],
-        "role": rec["role"],
-        "duration": rec["duration"],
-        "paraules_clau": [
-            "dinamica-formacio", "A-D-D", rec["phase"], "CPA", slugify(rec["block"]),
-        ],
-        "moduls_relacionats": ["M11"],
-        "review_status": "esborrany",
-        "generat_at": GENERAT_AT,
-    }
+    items = [
+        ("modul", "M11"),
+        ("titol", rec["title"]),
+        ("tipus", "dinamica"),
+        ("descripcio", html_to_text(rec["purpose"]).strip()),
+        ("id", rec["id"]),
+        ("ordre", ordre),
+        ("block", rec["block"]),
+        ("phase", rec["phase"]),
+    ]
+    # phases_aplicables: només si la dinàmica serveix per a més d'una fase
+    # (cross-fase). Si no hi és, s'entén = [phase]. Es col·loca just després de phase.
+    pa = rec.get("phases_aplicables")
+    if pa and list(pa) != [rec["phase"]]:
+        items.append(("phases_aplicables", list(pa)))
+    items += [
+        ("guskey", rec["guskey"]),
+        ("stars", rec["stars"]),
+        ("role", rec["role"]),
+        ("duration", rec["duration"]),
+        ("paraules_clau", ["dinamica-formacio", "A-D-D", rec["phase"], "CPA", slugify(rec["block"])]),
+        ("moduls_relacionats", ["M11"]),
+        ("review_status", "esborrany"),
+        ("generat_at", GENERAT_AT),
+    ]
+    return dict(items)
 
 
 def record_to_md(rec: dict, ordre: int) -> str:
@@ -240,6 +246,8 @@ def md_to_record(text: str) -> dict:
         "simple": md_to_html(sec.get(H_SIMPLE, "").strip()),
         "indicators": _bullets(sec.get(H_INDICADORS, "")),
     }
+    if fm.get("phases_aplicables"):
+        rec["phases_aplicables"] = list(fm["phases_aplicables"])
     rec["_ordre"] = fm.get("ordre", 10_000)
     return rec
 
@@ -250,7 +258,17 @@ def build_json(dinamiques_dir: Path = DINAMIQUES_DIR) -> list[dict]:
     for md in dinamiques_dir.glob("**/M11_dinamica-*.md"):
         records.append(md_to_record(md.read_text(encoding="utf-8")))
     records.sort(key=lambda r: (PHASE_RANK.get(r["phase"], 99), r["_ordre"]))
-    return [{k: r[k] for k in JSON_FIELDS} for r in records]
+    out = []
+    for r in records:
+        obj = {}
+        for k in JSON_FIELDS:
+            obj[k] = r[k]
+            # phases_aplicables (opcional) just després de phase, si la dinàmica
+            # és cross-fase. Si no hi és, el consumidor entén = [phase].
+            if k == "phase" and r.get("phases_aplicables"):
+                obj["phases_aplicables"] = r["phases_aplicables"]
+        out.append(obj)
+    return out
 
 
 def main() -> int:

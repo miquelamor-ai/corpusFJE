@@ -7,6 +7,7 @@ id: mostres-alumnat
 ordre: 34
 block: Seguiment i evidències documentades
 phase: despres
+phases_aplicables: [abans, despres]
 guskey: N4-N5
 stars: 2
 role: formador puntual

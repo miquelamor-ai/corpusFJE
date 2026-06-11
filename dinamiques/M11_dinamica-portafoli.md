@@ -7,6 +7,7 @@ id: portafoli
 ordre: 32
 block: Seguiment i evidències documentades
 phase: despres
+phases_aplicables: [durant, despres]
 guskey: N4
 stars: 1
 role: formador assessora

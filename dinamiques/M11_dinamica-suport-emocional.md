@@ -7,6 +7,7 @@ id: suport-emocional
 ordre: 25
 block: Cura emocional del canvi
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N2-N3
 stars: 1
 role: formador assessora

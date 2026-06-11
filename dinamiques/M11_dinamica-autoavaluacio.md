@@ -7,6 +7,7 @@ id: autoavaluacio
 ordre: 33
 block: Seguiment i evidències documentades
 phase: despres
+phases_aplicables: [durant, despres]
 guskey: N3
 stars: 2
 role: formador puntual

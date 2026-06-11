@@ -7,6 +7,7 @@ id: indicadors-alumnat
 ordre: 40
 block: Impacte mesurable en l'alumnat
 phase: despres
+phases_aplicables: [abans, despres]
 guskey: N4-N5
 stars: 3
 role: formador dirigeix

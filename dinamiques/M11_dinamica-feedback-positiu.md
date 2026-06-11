@@ -7,6 +7,7 @@ id: feedback-positiu
 ordre: 26
 block: Cura emocional del canvi
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N2-N3
 stars: 2
 role: formador puntual

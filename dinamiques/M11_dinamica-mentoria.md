@@ -7,6 +7,7 @@ id: mentoria
 ordre: 23
 block: Implementació acompanyada
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N3-N4
 stars: 3
 role: formador dirigeix

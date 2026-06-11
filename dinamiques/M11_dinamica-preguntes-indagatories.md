@@ -7,6 +7,7 @@ id: preguntes-indagatories
 ordre: 9
 block: Objectius i teoria del canvi
 phase: abans
+phases_aplicables: [abans, durant, despres]
 guskey: N2-N3
 stars: 2
 role: formador puntual

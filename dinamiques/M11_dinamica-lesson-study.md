@@ -7,6 +7,7 @@ id: lesson-study
 ordre: 20
 block: Reflexió durant la pràctica
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N4-N5
 stars: 3
 role: formador dirigeix

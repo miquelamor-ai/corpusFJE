@@ -7,6 +7,7 @@ id: dafo
 ordre: 5
 block: Diagnòstic honest de la realitat
 phase: abans
+phases_aplicables: [abans, despres]
 guskey: N2-N3
 stars: 2
 role: formador puntual

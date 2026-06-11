@@ -7,6 +7,7 @@ id: implementacio-real
 ordre: 29
 block: Transferència real a l'aula
 phase: despres
+phases_aplicables: [durant, despres]
 guskey: N3-N4
 stars: 0
 role: el docent sol

@@ -7,6 +7,7 @@ id: examen-consciencia
 ordre: 27
 block: Cura emocional del canvi
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N3
 stars: 0
 role: l'equip sol

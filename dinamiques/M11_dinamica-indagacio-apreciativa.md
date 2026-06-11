@@ -7,6 +7,7 @@ id: indagacio-apreciativa
 ordre: 1
 block: Visió i compromís amb la missió
 phase: abans
+phases_aplicables: [abans, despres]
 guskey: N2-N3
 stars: 3
 role: formador dirigeix

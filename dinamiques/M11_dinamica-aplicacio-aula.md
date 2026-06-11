@@ -7,6 +7,7 @@ id: aplicacio-aula
 ordre: 22
 block: Implementació acompanyada
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N3-N4
 stars: 1
 role: formador assessora

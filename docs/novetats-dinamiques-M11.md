@@ -21,6 +21,7 @@ dinamiques/_dinamiques.json       (DERIVAT, el llegeixen les apps)
 
 - La direcció és **única**: s'edita el `.md`, i el JSON es regenera sol. **Mai s'edita el JSON a mà.**
 - El JSON derivat conserva l'esquema històric (`id, phase, block, title, stars, role, duration, guskey, purpose, objectives, schedule, materials, simple, indicators`), de manera que és un substitut directe per a qui ja el consumia.
+- **Camp opcional nou:** `phases_aplicables` (llista) hi apareix **només** a les dinàmiques que serveixen per a més d'una fase A-D-D (23 de 43). Si no hi és, s'entén `= [phase]`. La fase **primària** segueix sent `phase`. És additiu: qui no el necessiti, l'ignora.
 - Cada `id` és una **clau estable**: no canvia un cop publicada (encara que se'n reformuli el títol).
 
 ## Què implica per a cada consumidor

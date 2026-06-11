@@ -7,6 +7,7 @@ id: escriptura-reflexiva
 ordre: 2
 block: Visió i compromís amb la missió
 phase: abans
+phases_aplicables: [abans, durant, despres]
 guskey: N1-N2
 stars: 1
 role: formador assessora

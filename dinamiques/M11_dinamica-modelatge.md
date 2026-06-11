@@ -7,6 +7,7 @@ id: modelatge
 ordre: 21
 block: Reflexió durant la pràctica
 phase: durant
+phases_aplicables: [durant, despres]
 guskey: N3-N4
 stars: 3
 role: formador dirigeix

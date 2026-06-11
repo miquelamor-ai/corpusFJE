@@ -7,6 +7,7 @@ id: investigacio-aula
 ordre: 38
 block: Reflexió post-pràctica
 phase: despres
+phases_aplicables: [durant, despres]
 guskey: N4-N5
 stars: 3
 role: formador dirigeix
