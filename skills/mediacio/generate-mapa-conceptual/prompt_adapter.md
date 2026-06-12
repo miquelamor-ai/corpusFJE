@@ -1,11 +1,11 @@
 ---
 tipus: derivat
 font_canonic: M3_instrument-generar-mapa-conceptual.md
-font_version: 4.1.0-canonic
+font_version: 4.1.1-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-12'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: ac31b757c25019fc
+checksum_font: f6418e24d5cf5372
 ---
 
 # Generar mapa conceptual — prompt d'adaptació parametritzat per nivell
@@ -58,7 +58,7 @@ Text font:
 
 - **Funció cognitiva**: Mapa conceptual: 3 nivells. Concepte → categories disciplinars → detalls inferts del text.
 - **Nucli del mapa**: 1 terme que organitza tot el coneixement del text. Terme disciplinar.
-- **Relació de branca (graduada MECR)**: 3-5 branques amb **verb o frase d'enllaç** (provoca, necessita, es divideix en). Proposició Novak llegible. Mai genèrics.
+- **Relació de branca (graduada MECR)**: 3-5 branques amb **verb d'enllaç de relació bàsica**: causa/conseqüència (provoca, és provocat per) o part/tot (es divideix en, forma part de). Proposició Novak llegible. **Sense connectors de matís/concessió/contrast.** Mai genèrics.
 - **Detalls de les branques**: 3-4 sub-elements per branca. Inferts del text, no copiats literalment.
 - **Estructura markdown**: `## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art.
 
@@ -66,7 +66,7 @@ Text font:
 
 - **Funció cognitiva**: Mapa conceptual: 4 nivells màxim. Superestructura del gènere amb lèxic CALP.
 - **Nucli del mapa**: 1 terme nuclear CALP. Pot ser un procés, un fenomen o un concepte abstracte.
-- **Relació de branca (graduada MECR)**: 4-6 branques amb **verb d'enllaç CALP** (determina, condiciona, es deriva de). Reflecteixen l'estructura del gènere.
+- **Relació de branca (graduada MECR)**: 4-6 branques amb **verb d'enllaç CALP**; s'hi afegeixen matís/concessió/condició (en canvi, a diferència de, depèn de, determina, condiciona). Reflecteixen l'estructura del gènere.
 - **Detalls de les branques**: Sub-elements amb matisos. Pot incloure relacions transversals entre branques.
 - **Estructura markdown**: `## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art.
 
@@ -74,7 +74,7 @@ Text font:
 
 - **Funció cognitiva**: Mapa de contrast: 2 columnes o branques en contraposició. Comparació de fonts o ideologies.
 - **Nucli del mapa**: 2 termes en contrast o 1 concepte complex amb múltiples dimensions o perspectives.
-- **Relació de branca (graduada MECR)**: 2 columnes de contrast o 4-6 branques amb verb/connector de tensió (en canvi, contrasta amb, mentre que).
+- **Relació de branca (graduada MECR)**: 2 columnes de contrast o 4-6 branques amb verb/connector de tensió explícita (contrasta amb, s'oposa a, tanmateix, mentre que).
 - **Detalls de les branques**: Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques.
 - **Estructura markdown**: `## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast.
 
