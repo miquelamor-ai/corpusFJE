@@ -75,7 +75,7 @@ jobs:
       # Avisa mirar-coms perquè estiri data/corpus/ (sync instantani). Si falta el
       # token, no fem fallar el build: el cron de mirar-coms és el pla B.
       - name: Avisa mirar-coms perquè se sincronitzi
-        if: steps.commit.outputs.changed == 'true'
+        if: steps.commit.outputs.changed == 'true' || github.event_name == 'workflow_dispatch'
         run: |
           if [ -z "${{ secrets.MIRAR_COMS_TOKEN }}" ]; then
             echo "::warning::MIRAR_COMS_TOKEN no configurat; salto l'avis."

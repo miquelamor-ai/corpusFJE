@@ -49,7 +49,7 @@ MANIFEST = CORPUS / "_manifest.json"
 OUT = CORPUS / "_relacions-corpus.json"
 
 VERSION = "1.0"
-GENERAT = "2026-06-11"  # segell fix: els scripts deterministes no fan Date.now()
+GENERAT = "2026-06-12"  # segell fix: els scripts deterministes no fan Date.now()
 FONT_DESC = (
     "Derivat del front-matter i les seccions ## Fonts dels docs de corpusFJE. "
     "Índex de relacions (no graph). Graph-upgradable. Join amb l'app per slug de "
