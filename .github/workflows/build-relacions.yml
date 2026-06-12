@@ -1,0 +1,90 @@
+name: Build relacions del corpus (offline + runtime)
+
+# Regenera, de forma 100% determinista (sense LLM):
+#   _relacions-corpus.json   — índex de relacions OFFLINE (consumidor 1: autoria amb gate)
+#   data/corpus/<slug>.json  — talls per tema RUNTIME (consumidor 2: Itinerarium, tema lliure)
+#   data/corpus/_index.json  — índex lleuger per al fuzzy-match del tema escrit
+# a cada canvi de contingut (M*.md / skills / dinàmiques / manifest). Mateix patró
+# que build-dinamiques.yml. Veure .tooling/build_index_relacions.py + build_runtime_corpus.py.
+#
+# Nota: l'universe surt de _manifest.json. Si s'AFEGEIX/treu un doc, el manifest el
+# regenera build-manifest.yml [skip ci]; aquesta Action recull el canvi al següent
+# push de contingut o via workflow_dispatch manual. Edicions de cos (## Fonts,
+# ## Objectius) es recullen a l'instant (es llegeix el .md directament).
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - '*.md'
+      - 'skills/**/*.md'
+      - 'dinamiques/**/*.md'
+      - '_manifest.json'
+      - '.tooling/build_index_relacions.py'
+      - '.tooling/build_runtime_corpus.py'
+      - '.github/workflows/build-relacions.yml'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenera l'índex offline i la carpeta runtime
+        run: |
+          python .tooling/build_index_relacions.py
+          python .tooling/build_runtime_corpus.py --write
+
+      - name: Commit derivats actualitzats
+        id: commit
+        run: |
+          set -e
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@fje.edu"
+          git add -A _relacions-corpus.json data/corpus || true
+          if git diff --staged --quiet; then
+            echo "Cap canvi als derivats: res a commitejar."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "chore(relacions): regenera _relacions-corpus.json + data/corpus/ [skip ci]"
+          # Race protection: pot haver-hi un push concorrent (p.ex. build-manifest).
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push correcte (intent $i)."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push rebutjat, rebase i reintento (intent $i)..."
+            git pull --rebase origin master
+          done
+          echo "ERROR: 3 intents fallits."
+          exit 1
+
+      # Avisa mirar-coms perquè estiri data/corpus/ (sync instantani). Si falta el
+      # token, no fem fallar el build: el cron de mirar-coms és el pla B.
+      - name: Avisa mirar-coms perquè se sincronitzi
+        if: steps.commit.outputs.changed == 'true'
+        run: |
+          if [ -z "${{ secrets.MIRAR_COMS_TOKEN }}" ]; then
+            echo "::warning::MIRAR_COMS_TOKEN no configurat; salto l'avis."
+            exit 0
+          fi
+          curl -X POST --fail-with-body -sS \
+            -H "Authorization: Bearer ${{ secrets.MIRAR_COMS_TOKEN }}" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            https://api.github.com/repos/miquelamor-ai/mirar-coms/dispatches \
+            -d '{"event_type":"corpus-relacions-updated"}'
+          echo "Avis enviat a mirar-coms (repository_dispatch: corpus-relacions-updated)."
