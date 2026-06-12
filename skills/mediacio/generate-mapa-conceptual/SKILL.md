@@ -8,7 +8,7 @@ description: 'Use when the teacher has activated the "mapa_conceptual" complemen
 
   '
 author: FJE — Fundació Jesuïtes Educació
-version: 4.0.0-canonic
+version: 4.1.0-canonic
 complement_key: mapa_conceptual
 agent_role: complements
 tools_required: []
@@ -19,10 +19,10 @@ moduls_relacionats:
 - M2
 - M3
 font_canonic: M3_instrument-generar-mapa-conceptual.md
-font_version: 4.0.0-canonic
-generat_at: '2026-06-11'
+font_version: 4.1.0-canonic
+generat_at: '2026-06-12'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 701a3b92c7fe4e5b
+checksum_font: ac31b757c25019fc
 ---
 
 # Generar mapa conceptual — skill operativa per a LLM
@@ -31,12 +31,12 @@ El mapa conceptual és un **organitzador visual** que externalitza les relacions
 
 **Tipologia MALL**: Mediació (organitzador visual cognitiu).
 **HCL principals**: Recapitular/Organitzar (pre-A1/A1) · Categoritzar/Relacionar (A2-B1) · Contrastar/Analitzar (B2-C1).
-**Principi rector**: La branca ha de dir la **relació** ("Causes", "Conseqüències", "Tipus de", "Processos"), no el contingut. Si la branca s'anomena "Informació" o "Coses", no és un mapa conceptual — és una llista disfressada.
+**Principi rector**: La branca ha de dir la **relació**, no el contingut. La forma d'expressar la relació es **gradua pel MECR**: a **A2** és un **nom de categoria** ("Causes", "Conseqüències", "Tipus de", "Processos") com a bastida classificatòria; a **B1+** és un **verb o frase d'enllaç** ("provoca", "necessita", "es divideix en") que fa la proposició Novak llegible (concepte → enllaç → concepte). Si la branca s'anomena "Informació" o "Coses", no és un mapa conceptual — és una llista disfressada, a qualsevol nivell.
 **Format obligatori**: Markdown jeràrquic (exportable a MindMeister/Canva/XMind). **Cap ASCII-art** (caixes │ ├ └ → fletxes).
 
 **Distinció fonamental — 3 eines dins un instrument:**
 - **Esquema visual** (pre-A1/A1): "Llegir per orientar-se". Seqüències temporals (antes/durant/après) o parts d'un tot (cap, cos, cua). El pas d'un node és immediat: imatge → paraula. No hi ha jerarquia lògica: és una cadena o un diagrama d'elements.
-- **Mapa conceptual** (A2-B2, Novak): "Llegir per comprendre". Jerarquia etiquetada: concepte central → categories → detalls. Les branques reflecteixen relacions lògiques (causes, efectes, tipus, processos). El contingut prové del text adaptat.
+- **Mapa conceptual** (A2-B2, Novak): "Llegir per comprendre". Jerarquia etiquetada: concepte central → branques → detalls. Les branques expressen relacions lògiques, **graduades pel MECR**: a A2 com a **noms de categoria** (causes, efectes, tipus, processos); a B1+ com a **verbs d'enllaç** (provoca, necessita), que reconstrueixen la proposició Novak. El contingut prové del text adaptat.
 - **Mapa de contrast** (C1): "Llegir per avaluar". Dues columnes o dues branques en contraposició. El contingut compara dues fonts, dues ideologies o dos marcs interpretatius.
 
 **Distinció crítica amb `generate-mapa-mental` (instrument separat):**
@@ -50,7 +50,7 @@ Quan l'objectiu és comprendre el text → `mapa_conceptual`. Quan l'objectiu é
 
 **Connexions MALL transversals:**
 - *Esquema vs. mapa com a distinció cognitiva*: el pas d'esquema (ordena) a mapa (categoritza i relaciona) no és cosmètic — és cognitiu. Introduir el mapa conceptual a A2 és introduir el pensament categorial: la capacitat de nomenar categories i les relacions entre elles.
-- *Noms de branca com a comprensió*: si l'alumne no pot nomenar la branca ("Causes", "Efectes"), no ha comprès la relació. El nom de branca és la prova de comprensió, no el contingut de la branca.
+- *Noms de branca com a comprensió*: si l'alumne no pot nomenar la relació de la branca (la categoria a A2, "Causes"/"Efectes"; el verb d'enllaç a B1+, "provoca"/"necessita"), no ha comprès l'estructura. El nom de branca és la prova de comprensió, no el contingut de la branca.
 - *Mapa com a metacognició*: construir el mapa DESPRÉS de llegir és diferent que llegir el mapa construït per un altre. La construcció activa (l'alumne organitza) desenvolupa comprensió profunda; la lectura passiva d'un mapa donat desenvolupa reconeixement.
 
 **Aclariment d'ús — què descriu aquesta rúbrica.**
@@ -69,7 +69,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 - Nucli del mapa: Nom d'un personatge o objecte familiar del text. 1-2 paraules.
 
 **3. Branques principals**
-- Noms de categoria: 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua).
+- Relació de branca (graduada MECR): 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua).
 
 **4. Sub-elements**
 - Detalls de les branques: Cap sub-element: l'esquema és pla (massa nivells per a pre-A1).
@@ -87,7 +87,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 - Nucli del mapa: 1 terme nuclear concret del text adaptat. En negreta.
 
 **3. Branques principals**
-- Noms de categoria: 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r).
+- Relació de branca (graduada MECR): 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r).
 
 **4. Sub-elements**
 - Detalls de les branques: Cap sub-element: l'esquema és pla (màxim 1 nivell).
@@ -105,7 +105,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 - Nucli del mapa: 1 terme nuclear precís del text adaptat. En negreta. Correspon a la idea central del text.
 
 **3. Branques principals**
-- Noms de categoria: 3-4 branques amb noms de categoria clars (Causes / Tipus / Efectes / Processos). Mai genèrics.
+- Relació de branca (graduada MECR): 3-4 branques amb **nom de categoria** (Causes / Tipus / Efectes / Processos). Bastida classificatòria. Mai genèrics.
 
 **4. Sub-elements**
 - Detalls de les branques: 2-3 sub-elements per branca. Termes curts, no frases llargues. Del text adaptat.
@@ -123,7 +123,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 - Nucli del mapa: 1 terme que organitza tot el coneixement del text. Terme disciplinar.
 
 **3. Branques principals**
-- Noms de categoria: 3-5 branques amb noms de categoria disciplinars. Relació lògica explícita (no "Informació").
+- Relació de branca (graduada MECR): 3-5 branques amb **verb o frase d'enllaç** (provoca, necessita, es divideix en). Proposició Novak llegible. Mai genèrics.
 
 **4. Sub-elements**
 - Detalls de les branques: 3-4 sub-elements per branca. Inferts del text, no copiats literalment.
@@ -141,7 +141,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 - Nucli del mapa: 1 terme nuclear CALP. Pot ser un procés, un fenomen o un concepte abstracte.
 
 **3. Branques principals**
-- Noms de categoria: 4-6 branques CALP. Les categories reflecteixen l'estructura del gènere treballat.
+- Relació de branca (graduada MECR): 4-6 branques amb **verb d'enllaç CALP** (determina, condiciona, es deriva de). Reflecteixen l'estructura del gènere.
 
 **4. Sub-elements**
 - Detalls de les branques: Sub-elements amb matisos. Pot incloure relacions transversals entre branques.
@@ -159,7 +159,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 - Nucli del mapa: 2 termes en contrast o 1 concepte complex amb múltiples dimensions o perspectives.
 
 **3. Branques principals**
-- Noms de categoria: 2 columnes de contrast o 4-6 branques amb relació de tensió, contrast o complementarietat.
+- Relació de branca (graduada MECR): 2 columnes de contrast o 4-6 branques amb verb/connector de tensió (en canvi, contrasta amb, mentre que).
 
 **4. Sub-elements**
 - Detalls de les branques: Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques.

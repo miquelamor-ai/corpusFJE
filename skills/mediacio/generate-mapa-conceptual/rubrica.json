@@ -3,8 +3,8 @@
     "name": "rubrica_generate_mapa_conceptual",
     "version": "1.0.1",
     "font_canonic": "skills/mediacio/generate-mapa-conceptual/M3_instrument-generar-mapa-conceptual.md",
-    "font_version": "4.0.0-canonic",
-    "generat_at": "2026-06-11",
+    "font_version": "4.1.0-canonic",
+    "generat_at": "2026-06-12",
     "skill_name": "generate-mapa-conceptual",
     "family": "mediacio",
     "mecr_range": [
@@ -61,7 +61,7 @@
           }
         },
         {
-          "pas_id": "pas_3_noms_de_categoria",
+          "pas_id": "pas_3_relacio_de_branca",
           "descriptor": "1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua)."
         },
         {
@@ -96,7 +96,7 @@
           }
         },
         {
-          "pas_id": "pas_3_noms_de_categoria",
+          "pas_id": "pas_3_relacio_de_branca",
           "descriptor": "2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r).",
           "countable": {
             "min": 2,
@@ -131,8 +131,8 @@
           }
         },
         {
-          "pas_id": "pas_3_noms_de_categoria",
-          "descriptor": "3-4 branques amb noms de categoria clars (Causes / Tipus / Efectes / Processos). Mai genèrics.",
+          "pas_id": "pas_3_relacio_de_branca",
+          "descriptor": "3-4 branques amb **nom de categoria** (Causes / Tipus / Efectes / Processos). Bastida classificatòria. Mai genèrics.",
           "countable": {
             "min": 3,
             "max": 4,
@@ -166,8 +166,8 @@
           }
         },
         {
-          "pas_id": "pas_3_noms_de_categoria",
-          "descriptor": "3-5 branques amb noms de categoria disciplinars. Relació lògica explícita (no \"Informació\").",
+          "pas_id": "pas_3_relacio_de_branca",
+          "descriptor": "3-5 branques amb **verb o frase d'enllaç** (provoca, necessita, es divideix en). Proposició Novak llegible. Mai genèrics.",
           "countable": {
             "min": 3,
             "max": 5,
@@ -201,8 +201,8 @@
           }
         },
         {
-          "pas_id": "pas_3_noms_de_categoria",
-          "descriptor": "4-6 branques CALP. Les categories reflecteixen l'estructura del gènere treballat.",
+          "pas_id": "pas_3_relacio_de_branca",
+          "descriptor": "4-6 branques amb **verb d'enllaç CALP** (determina, condiciona, es deriva de). Reflecteixen l'estructura del gènere.",
           "countable": {
             "min": 4,
             "max": 6,
@@ -236,8 +236,8 @@
           }
         },
         {
-          "pas_id": "pas_3_noms_de_categoria",
-          "descriptor": "2 columnes de contrast o 4-6 branques amb relació de tensió, contrast o complementarietat.",
+          "pas_id": "pas_3_relacio_de_branca",
+          "descriptor": "2 columnes de contrast o 4-6 branques amb verb/connector de tensió (en canvi, contrasta amb, mentre que).",
           "countable": {
             "min": 4,
             "max": 6,
@@ -273,12 +273,12 @@
       "validation_hint": "LLM-jutge: el concepte central és un terme nuclear del text adaptat (positiu) o un terme genèric no present al text (negatiu); cross_source: verificar que el concepte central apareix i és central al text font"
     },
     {
-      "id": "pas_3_noms_de_categoria",
+      "id": "pas_3_relacio_de_branca",
       "titol": "Branques principals",
-      "dimensio": "Noms de categoria",
+      "dimensio": "Relació de branca (graduada MECR)",
       "tipus": "binary",
       "requires_source_text": false,
-      "validation_hint": "qualitative: LLM-jutge sobre si els noms de branca son noms de categoria relacional (Causes, Efectes, Tipus de) — positiu — o genèrics (\"Informació\", \"Coses\") — negatiu — error crític; binary: nombre de branques dins del rang per MECR (pre-A1: 1-2; A1: 2-3; A2: 3-4; B1: 3-5; B2: 4-6; C1: 2 o 4-6); cross_source: branques corresponents al contingut del text font"
+      "validation_hint": "qualitative: LLM-jutge sobre si la relació de branca correspon al format del MECR — A2 = nom de categoria relacional (Causes, Efectes, Tipus de); B1+ = verb o frase d'enllaç (provoca, necessita) que forma proposició llegible — positiu; genèrics (\"Informació\", \"Coses\") a qualsevol nivell — negatiu, error crític; binary: nombre de branques dins del rang per MECR (pre-A1: 1-2; A1: 2-3; A2: 3-4; B1: 3-5; B2: 4-6; C1: 2 o 4-6); cross_source: branques corresponents al contingut del text font"
     },
     {
       "id": "pas_4_detalls_de_les",
@@ -298,7 +298,7 @@
     }
   ],
   "principi_general": {
-    "regla_seleccio_simple": "Genera UN organitzador visual en markdown jeràrquic adaptat al MECR: esquema visual (pre-A1/A1, seqüències o parts d'un tot), mapa conceptual jeràrquic (A2-B2, Novak, concepte central → categories etiquetades → sub-elements) o mapa de contrast (C1, 2 columnes o branques en tensió). Els noms de branca han d'expressar SEMPRE la relació (Causes, Conseqüències, Tipus de, Processos), mai etiquetes genèriques (Informació, Coses, Dades).",
+    "regla_seleccio_simple": "Genera UN organitzador visual en markdown jeràrquic adaptat al MECR: esquema visual (pre-A1/A1, seqüències o parts d'un tot), mapa conceptual jeràrquic (A2-B2, Novak, concepte central → branques etiquetades → sub-elements) o mapa de contrast (C1, 2 columnes o branques en tensió). Els noms de branca han d'expressar SEMPRE la relació, **graduada pel MECR** — **A2: nom de categoria** (Causes, Conseqüències, Tipus de); **B1+: verb o frase d'enllaç** (provoca, necessita, es divideix en) — mai etiquetes genèriques (Informació, Coses, Dades).",
     "no_judici_qualitatiu_complex": "El LLM no decideix si l'alumne està preparat per al pas d'esquema a mapa (decisió docent segons perfil) ni infereix relacions que no apareguin explícitament al text adaptat. Tampoc no genera ASCII-art ni inventa contingut que no provingui del text font: el contingut prové sempre del text adaptat, i la valoració de la rellevància categorial la fa el docent."
   },
   "regla_seleccio_per_perfil": {
@@ -318,7 +318,7 @@
       "exclou_explicitament": [
         "N"
       ],
-      "raonament": "El pas d'esquema a mapa introdueix el pensament categorial (Novak, Ausubel): nomenar categories i les relacions entre elles és la prova de comprensió. La profunditat es gradua amb el MECR per protegir la càrrega cognitiva."
+      "raonament": "El pas d'esquema a mapa introdueix el pensament categorial (Novak, Ausubel): a A2 nomenar la categoria és la prova de comprensió (bastida classificatòria). A B1+, quan l'alumne ja sap categoritzar, la branca avança al **verb d'enllaç** i el mapa esdevé proposició llegible (Novak pur: concepte → enllaç → concepte). La profunditat i el format de branca es graduen amb el MECR per protegir la càrrega cognitiva."
     },
     "C1_contrast": {
       "inclou_si": [
@@ -388,7 +388,7 @@
     {
       "id": "H1",
       "titol": "El nom de la branca és la prova de comprensió.",
-      "descripcio": "Llegeixo les branques principals del mapa i em pregunto: \"Diuen la relació o diuen el contingut?\" \"Causes de la contaminació\" i \"Efectes sobre els ecosistemes\" diuen la relació. \"Informació sobre la contaminació\" no diu res. Si no puc nomenar la branca amb un nom de categoria, l'alumne (ni el mapa) ha entès l'estructura del text."
+      "descripcio": "Llegeixo les branques principals del mapa i em pregunto: \"Diuen la relació o diuen el contingut?\" A A2 la relació és un **nom de categoria** (\"Causes de la contaminació\", \"Efectes sobre els ecosistemes\"); a B1+ és un **verb d'enllaç** (\"la contaminació provoca...\", \"necessita...\"), que fa la proposició llegible. \"Informació sobre la contaminació\" no diu res a cap nivell. Si no puc nomenar la relació de la branca (categoria a A2, verb a B1+), l'alumne (ni el mapa) ha entès l'estructura del text."
     },
     {
       "id": "H2",
