@@ -4,7 +4,7 @@ titol: "Generar mapa conceptual"
 tipus: instrument
 categoria_principal: mediacio
 categories_secundaries: []
-descripcio: "Instrument per generar un organitzador visual adaptat al MECR. Distinció fonamental: Esquema visual (pre-A1/A1, seqüència/parts, Llegir per orientar-se) vs. Mapa conceptual (A2+, Novak, Llegir per comprendre, jerarquia etiquetada) vs. Mapa de contrast (C1, 2 columnes). Format markdown jerarquic, mai ASCII-art. Concepte central = unica arrel de llista en negreta (mai ###); branques sagnades en negreta; sub-elements sense negreta. Format de branca graduat pel MECR: A2 noms de categoria (Causes, Consequencies, bastida classificatoria); B1+ verbs d'enllac (provoca, necessita, proposicio Novak llegible). Mai generics (Informacio, Coses). Instrument separat del generate-mapa-mental (Buzan, B1+, radial divergent). Rubrica gradada 5 passos x 6 nivells MECR (pre-A1->C1)."
+descripcio: "Instrument per generar un organitzador visual adaptat al MECR. Distinció fonamental: Esquema visual (pre-A1/A1, seqüència/parts, Llegir per orientar-se) vs. Mapa conceptual (A2+, Novak, Llegir per comprendre, jerarquia etiquetada) vs. Mapa de contrast (C1, 2 columnes). Format markdown jerarquic, mai ASCII-art. Concepte central = unica arrel de llista en negreta (mai ###); branques sagnades en negreta; sub-elements sense negreta. Format de branca graduat pel MECR: A2 noms de categoria (Causes, Consequencies, bastida classificatoria); B1+ verbs d'enllac de relacio basica (provoca, es divideix en); matis/concessio/contrast reservats a B2/C1. Mai generics (Informacio, Coses). Instrument separat del generate-mapa-mental (Buzan, B1+, radial divergent). Rubrica gradada 5 passos x 6 nivells MECR (pre-A1->C1)."
 mecr_range: [pre_A1, A1, A2, B1, B2, C1]
 agent_roles: [generator]
 complement_key: mapa_conceptual
@@ -15,7 +15,7 @@ variables_configurables:
   fase_lectora: [logografica, alfabetica_emergent, alfabetica_fluida]
 skill_meta: generate-mapa-conceptual@corpusFJE/skills/mediacio/generate-mapa-conceptual
 review_status: pilot-fusio-8
-version: 4.1.0-canonic
+version: 4.1.1-canonic
 generat_at: 2026-05-26
 actualitzat_at: 2026-06-12
 notebooklm_review:
@@ -34,12 +34,12 @@ El mapa conceptual és un **organitzador visual** que externalitza les relacions
 
 **Tipologia MALL**: Mediació (organitzador visual cognitiu).
 **HCL principals**: Recapitular/Organitzar (pre-A1/A1) · Categoritzar/Relacionar (A2-B1) · Contrastar/Analitzar (B2-C1).
-**Principi rector**: La branca ha de dir la **relació**, no el contingut. La forma d'expressar la relació es **gradua pel MECR**: a **A2** és un **nom de categoria** ("Causes", "Conseqüències", "Tipus de", "Processos") com a bastida classificatòria; a **B1+** és un **verb o frase d'enllaç** ("provoca", "necessita", "es divideix en") que fa la proposició Novak llegible (concepte → enllaç → concepte). Si la branca s'anomena "Informació" o "Coses", no és un mapa conceptual — és una llista disfressada, a qualsevol nivell.
+**Principi rector**: La branca ha de dir la **relació**, no el contingut. La forma d'expressar la relació es **gradua pel MECR**: a **A2** és un **nom de categoria** ("Causes", "Conseqüències", "Tipus de", "Processos") com a bastida classificatòria; a **B1+** és un **verb o frase d'enllaç** de relació bàsica ("provoca", "es divideix en", "forma part de") que fa la proposició Novak llegible (concepte → enllaç → concepte); els connectors de matís/concessió/contrast ("en canvi", "tanmateix", "contrasta amb") es reserven a B2/C1. Si la branca s'anomena "Informació" o "Coses", no és un mapa conceptual — és una llista disfressada, a qualsevol nivell.
 **Format obligatori**: Markdown jeràrquic (exportable a MindMeister/Canva/XMind). **Cap ASCII-art** (caixes │ ├ └ → fletxes).
 
 **Distinció fonamental — 3 eines dins un instrument:**
 - **Esquema visual** (pre-A1/A1): "Llegir per orientar-se". Seqüències temporals (antes/durant/après) o parts d'un tot (cap, cos, cua). El pas d'un node és immediat: imatge → paraula. No hi ha jerarquia lògica: és una cadena o un diagrama d'elements.
-- **Mapa conceptual** (A2-B2, Novak): "Llegir per comprendre". Jerarquia etiquetada: concepte central → branques → detalls. Les branques expressen relacions lògiques, **graduades pel MECR**: a A2 com a **noms de categoria** (causes, efectes, tipus, processos); a B1+ com a **verbs d'enllaç** (provoca, necessita), que reconstrueixen la proposició Novak. El contingut prové del text adaptat.
+- **Mapa conceptual** (A2-B2, Novak): "Llegir per comprendre". Jerarquia etiquetada: concepte central → branques → detalls. Les branques expressen relacions lògiques, **graduades pel MECR**: a A2 com a **noms de categoria** (causes, efectes, tipus, processos); a B1+ com a **verbs d'enllaç** de relació bàsica (provoca, es divideix en), que reconstrueixen la proposició Novak. El contingut prové del text adaptat.
 - **Mapa de contrast** (C1): "Llegir per avaluar". Dues columnes o dues branques en contraposició. El contingut compara dues fonts, dues ideologies o dos marcs interpretatius.
 
 **Distinció crítica amb `generate-mapa-mental` (instrument separat):**
@@ -53,7 +53,7 @@ Quan l'objectiu és comprendre el text → `mapa_conceptual`. Quan l'objectiu é
 
 **Connexions MALL transversals:**
 - *Esquema vs. mapa com a distinció cognitiva*: el pas d'esquema (ordena) a mapa (categoritza i relaciona) no és cosmètic — és cognitiu. Introduir el mapa conceptual a A2 és introduir el pensament categorial: la capacitat de nomenar categories i les relacions entre elles.
-- *Noms de branca com a comprensió*: si l'alumne no pot nomenar la relació de la branca (la categoria a A2, "Causes"/"Efectes"; el verb d'enllaç a B1+, "provoca"/"necessita"), no ha comprès l'estructura. El nom de branca és la prova de comprensió, no el contingut de la branca.
+- *Noms de branca com a comprensió*: si l'alumne no pot nomenar la relació de la branca (la categoria a A2, "Causes"/"Efectes"; el verb d'enllaç a B1+, "provoca"/"es divideix en"), no ha comprès l'estructura. El nom de branca és la prova de comprensió, no el contingut de la branca.
 - *Mapa com a metacognició*: construir el mapa DESPRÉS de llegir és diferent que llegir el mapa construït per un altre. La construcció activa (l'alumne organitza) desenvolupa comprensió profunda; la lectura passiva d'un mapa donat desenvolupa reconeixement.
 
 **Aclariment d'ús — què descriu aquesta rúbrica.**
@@ -62,7 +62,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 
 ## Principi general
 
-**Regla de selecció simple.** Genera UN organitzador visual en markdown jeràrquic adaptat al MECR: esquema visual (pre-A1/A1, seqüències o parts d'un tot), mapa conceptual jeràrquic (A2-B2, Novak, concepte central → branques etiquetades → sub-elements) o mapa de contrast (C1, 2 columnes o branques en tensió). Els noms de branca han d'expressar SEMPRE la relació, **graduada pel MECR** — **A2: nom de categoria** (Causes, Conseqüències, Tipus de); **B1+: verb o frase d'enllaç** (provoca, necessita, es divideix en) — mai etiquetes genèriques (Informació, Coses, Dades).
+**Regla de selecció simple.** Genera UN organitzador visual en markdown jeràrquic adaptat al MECR: esquema visual (pre-A1/A1, seqüències o parts d'un tot), mapa conceptual jeràrquic (A2-B2, Novak, concepte central → branques etiquetades → sub-elements) o mapa de contrast (C1, 2 columnes o branques en tensió). Els noms de branca han d'expressar SEMPRE la relació, **graduada pel MECR** — **A2: nom de categoria** (Causes, Conseqüències, Tipus de); **B1+: verb d'enllaç de relació bàsica** (provoca, es divideix en, forma part de; matís/concessió/contrast reservats a B2/C1) — mai etiquetes genèriques (Informació, Coses, Dades).
 
 **Límits del LLM (no judici qualitatiu complex).** El LLM no decideix si l'alumne està preparat per al pas d'esquema a mapa (decisió docent segons perfil) ni infereix relacions que no apareguin explícitament al text adaptat. Tampoc no genera ASCII-art ni inventa contingut que no provingui del text font: el contingut prové sempre del text adaptat, i la valoració de la rellevància categorial la fa el docent.
 
@@ -89,7 +89,7 @@ _Excepcions: no n'hi ha._
 **Inclou si:**
 - Mapa conceptual jeràrquic Novak.
 - Concepte central com a **única arrel de llista en negreta** (mai `###`) → 3-6 branques sagnades en negreta.
-- Format de branca graduat: **A2** = nom de categoria relacional (Causes, Tipus de); **B1+** = verb o frase d'enllaç (provoca, necessita) → proposició Novak llegible.
+- Format de branca graduat: **A2** = nom de categoria relacional (Causes, Tipus de); **B1** = verb d'enllaç de relació bàsica (causa/conseqüència, part/tot: provoca, es divideix en) → proposició Novak llegible; matís/concessió/contrast (en canvi, tanmateix) reservats a **B2/C1**.
 - 2-4 sub-elements per branca (sense negreta), extrets o inferts del text.
 - Profunditat creixent (A2: 2 nivells; B1: 3; B2: 4 màxim).
 
@@ -166,7 +166,7 @@ _Excepcions: no n'hi ha._
 |---|---|---|---|---|---|---|---|
 | **1. Tipus d'eina** | Funció cognitiva | Esquema visual: 2-3 nodes. Imatge → paraula o seqüència temporal (antes/durant/après). | Esquema visual: 3-4 nodes. Parts d'un tot o qualitats simples d'un element concret. | Mapa conceptual: 2 nivells jeràrquics. Primera introducció guiada de branques etiquetades. | Mapa conceptual: 3 nivells. Concepte → categories disciplinars → detalls inferts del text. | Mapa conceptual: 4 nivells màxim. Superestructura del gènere amb lèxic CALP. | Mapa de contrast: 2 columnes o branques en contraposició. Comparació de fonts o ideologies. |
 | **2. Concepte central** | Nucli del mapa | Nom d'un personatge o objecte familiar del text. 1-2 paraules. | 1 terme nuclear concret del text adaptat. En negreta. | 1 terme nuclear precís del text adaptat. En negreta. Correspon a la idea central del text. | 1 terme que organitza tot el coneixement del text. Terme disciplinar. | 1 terme nuclear CALP. Pot ser un procés, un fenomen o un concepte abstracte. | 2 termes en contrast o 1 concepte complex amb múltiples dimensions o perspectives. |
-| **3. Branques principals** | Relació de branca (graduada MECR) | 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua). | 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r). | 3-4 branques amb **nom de categoria** (Causes / Tipus / Efectes / Processos). Bastida classificatòria. Mai genèrics. | 3-5 branques amb **verb o frase d'enllaç** (provoca, necessita, es divideix en). Proposició Novak llegible. Mai genèrics. | 4-6 branques amb **verb d'enllaç CALP** (determina, condiciona, es deriva de). Reflecteixen l'estructura del gènere. | 2 columnes de contrast o 4-6 branques amb verb/connector de tensió (en canvi, contrasta amb, mentre que). |
+| **3. Branques principals** | Relació de branca (graduada MECR) | 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua). | 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r). | 3-4 branques amb **nom de categoria** (Causes / Tipus / Efectes / Processos). Bastida classificatòria. Mai genèrics. | 3-5 branques amb **verb d'enllaç de relació bàsica**: causa/conseqüència (provoca, és provocat per) o part/tot (es divideix en, forma part de). Proposició Novak llegible. **Sense connectors de matís/concessió/contrast.** Mai genèrics. | 4-6 branques amb **verb d'enllaç CALP**; s'hi afegeixen matís/concessió/condició (en canvi, a diferència de, depèn de, determina, condiciona). Reflecteixen l'estructura del gènere. | 2 columnes de contrast o 4-6 branques amb verb/connector de tensió explícita (contrasta amb, s'oposa a, tanmateix, mentre que). |
 | **4. Sub-elements** | Detalls de les branques | Cap sub-element: l'esquema és pla (massa nivells per a pre-A1). | Cap sub-element: l'esquema és pla (màxim 1 nivell). | 2-3 sub-elements per branca. Termes curts, no frases llargues. Del text adaptat. | 3-4 sub-elements per branca. Inferts del text, no copiats literalment. | Sub-elements amb matisos. Pot incloure relacions transversals entre branques. | Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques. |
 | **5. Format de sortida** | Estructura markdown | `## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim. | `## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art. | `## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art. | `## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art. | `## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art. | `## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast. |
 
@@ -230,13 +230,14 @@ _Excepcions: no n'hi ha._
 |---|---|---|---|
 | 1 Tipus d'eina | `binary` + `qualitative` | no | binary: pre-A1/A1 = esquema visual (titol `## Esquema visual`); A2-B2 = mapa conceptual (`## Mapa conceptual`); C1 = mapa de contrast (`## Mapa de contrast`); qualitative: LLM-jutge sobre si l'eina correspon al MECR declarat |
 | 2 Concepte central | `qualitative` | **si** | LLM-jutge: el concepte central és un terme nuclear del text adaptat (positiu) o un terme genèric no present al text (negatiu); cross_source: verificar que el concepte central apareix i és central al text font |
-| 3 Branques principals | `qualitative` + `binary` | **si** | qualitative: LLM-jutge sobre si la relació de branca correspon al format del MECR — A2 = nom de categoria relacional (Causes, Efectes, Tipus de); B1+ = verb o frase d'enllaç (provoca, necessita) que forma proposició llegible — positiu; genèrics ("Informació", "Coses") a qualsevol nivell — negatiu, error crític; binary: nombre de branques dins del rang per MECR (pre-A1: 1-2; A1: 2-3; A2: 3-4; B1: 3-5; B2: 4-6; C1: 2 o 4-6); cross_source: branques corresponents al contingut del text font |
+| 3 Branques principals | `qualitative` + `binary` + `enumerable` | **si** | qualitative: LLM-jutge sobre si la relació de branca correspon al format del MECR — A2 = nom de categoria relacional (Causes, Efectes, Tipus de); B1 = verb d'enllaç de relació bàsica (causa/conseqüència, part/tot) que forma proposició llegible; B2/C1 = s'hi admeten verbs/connectors de matís, concessió, condició i contrast — positiu; genèrics ("Informació", "Coses") a qualsevol nivell — negatiu, error crític; enumerable: regex contra repertori de connectors per nivell — alerta si troba connectors de contrast/concessió ("en canvi", "tanmateix", "no obstant", "contrasta amb", "a diferència de") en branques de B1 o inferior (reservats a B2/C1, com a `write-opinio`); binary: nombre de branques dins del rang per MECR (pre-A1: 1-2; A1: 2-3; A2: 3-4; B1: 3-5; B2: 4-6; C1: 2 o 4-6); cross_source: branques corresponents al contingut del text font |
 | 4 Sub-elements | `binary` + `structural` | no | binary: pre-A1/A1 = absencia de sub-elements (esquema pla); A2+ = presencia de sub-elements; structural: detectar ASCII-art (caràcters │ ├ └ → o caixes de text) = error crític en qualsevol nivell |
 | 5 Format de sortida | `structural` | no | structural: el titol de secció correspon al tipus d'eina (`## Esquema visual` vs `## Mapa conceptual` vs `## Mapa de contrast`); nivells de sangria dins del rang per MECR; absencia d'ASCII-art |
 
 **Notes:**
 - Error crític principal: noms de branca genèrics ("Informació", "Coses", "Dades"). Detectar per LLM-jutge + regex (lista negra de noms genèrics).
 - Format de branca graduat pel MECR: A2 = nom de categoria (substantiu relacional); B1+ = verb o frase d'enllaç (proposició Novak). El LLM-jutge valora l'alineació amb el nivell; un nom de categoria a B1+ no és error, però el verb d'enllaç és la diana.
+- Repertori de connectors graduat (paral·lel a `write-opinio`, regla "tanmateix només B2+"): **B1** = verbs de relació bàsica (causa/conseqüència: provoca, és provocat per; part/tot: es divideix en, forma part de). **B2/C1** = s'hi afegeixen connectors de matís/concessió/condició/contrast (en canvi, a diferència de, tanmateix, depèn de, contrasta amb). Mecànicament verificable amb regex per nivell.
 - Error estructural que trenca el mapa: concepte central com a `###` (l'encapçalament es filtra al renderitzador i es perd el central) o branques a columna 0 (no sagnades sota l'arrel). Detectar per estructura de llista. El central ha de ser l'única arrel de llista en negreta.
 - Error secundari: ASCII-art (│ ├ └ → [ ]). Detectar per regex. Error en tots els nivells.
 - Diferència `mapa_conceptual` vs `mapa_mental`: verificar que l'instrument generat NO té estructura radial lliure (seria mapa mental, instrument diferent). El mapa conceptual té jerarquia clara: un concepte central → branques → sub-elements.
@@ -245,7 +246,7 @@ _Excepcions: no n'hi ha._
 ## Heurístiques docent
 
 **H1 — El nom de la branca és la prova de comprensió.**
-Llegeixo les branques principals del mapa i em pregunto: "Diuen la relació o diuen el contingut?" A A2 la relació és un **nom de categoria** ("Causes de la contaminació", "Efectes sobre els ecosistemes"); a B1+ és un **verb d'enllaç** ("la contaminació provoca...", "necessita..."), que fa la proposició llegible. "Informació sobre la contaminació" no diu res a cap nivell. Si no puc nomenar la relació de la branca (categoria a A2, verb a B1+), l'alumne (ni el mapa) ha entès l'estructura del text.
+Llegeixo les branques principals del mapa i em pregunto: "Diuen la relació o diuen el contingut?" A A2 la relació és un **nom de categoria** ("Causes de la contaminació", "Efectes sobre els ecosistemes"); a B1+ és un **verb d'enllaç** de relació bàsica ("la contaminació provoca...", "es compon de..."), que fa la proposició llegible (els connectors de contrast com "en canvi"/"tanmateix" són de B2/C1). "Informació sobre la contaminació" no diu res a cap nivell. Si no puc nomenar la relació de la branca (categoria a A2, verb a B1+), l'alumne (ni el mapa) ha entès l'estructura del text.
 
 **H2 — Pre-A1/A1 = seqüència, no jerarquia.**
 Per als alumnes emergents, la pregunta no és "com es relacionen?" sinó "en quin ordre va?" o "quines parts té?". L'esquema visual treballa la seqüència temporal o les parts d'un tot: 1r passa X, 2n passa Y, 3r passa Z. Introduir jerarquia lògica (causes → efectes) a pre-A1 és una sobrecàrrega cognitiva innecessària.
