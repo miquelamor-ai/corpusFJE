@@ -13,13 +13,13 @@ multimodal: false
 moduls_relacionats: [M2, M3]
 skill_meta: generate-mapa-mental@corpusFJE/skills/mediacio/generate-mapa-mental
 review_status: nou-2026-06-14
-version: 1.0.0-canonic
+version: 1.1.0-canonic
 generat_at: 2026-06-14
 actualitzat_at: 2026-06-14
 notebooklm_review:
   data: pendent
   veredicte: pendent-revisio
-  comentari_key: "M3 canonitzat 2026-06-14 a partir del SKILL.md proto 1.0.0 (handoff ATNE editor de diagrames bloc B). Preserva la pedagogia Buzan del proto i la gradua a 6 nivells MECR. Pendent validació pedagògica NotebookLM MALL."
+  comentari_key: "M3 canonitzat 2026-06-14 a partir del SKILL.md proto 1.0.0 (handoff ATNE editor de diagrames). Preserva la pedagogia Buzan del proto i la gradua a 6 nivells MECR per branques, profunditat i densitat de nodes (els 3 controls que demanava ATNE). Pendent validació pedagògica NotebookLM MALL."
 ---
 
 # Generar mapa mental
@@ -195,8 +195,8 @@ El millor d'un mapa mental és quan connecta el tema amb una altra matèria o am
 **H4 — Cap fletxa ni caràcter d'arbre, mai.**
 El frontend renderitza la llista markdown amb sagnia com a SVG (Mermaid mindmap). Si hi ha fletxes Unicode (→ ↔ 🌿) o ASCII-art (│ ├ └), el render falla o es trunca. Sempre llista markdown amb guions i sagnia de 2 espais, central com a arrel en negreta.
 
-**H5 — Densitat segons nivell.**
-Un mapa mental no és millor com més branques té. A pre-A1/A1 limito a 2-3 branques i 1 nivell per no saturar; a B2-C1 permeto 5-8 branques i fins a 3 nivells per representar la riquesa associativa. Si superat el sostre, fusiono branques redundants.
+**H5 — Densitat de nodes: menys és més.**
+Un mapa mental no és millor com més nodes té. El sostre de nodes totals per nivell (càrrega cognitiva òptima): pre-A1 ≤ 4 nodes totals; A1 ≤ 6; A2 ≤ 10; B1 ≤ 15; B2 ≤ 20; C1+ ≤ 24. A pre-A1/A1 limito a 2-3 branques i 1 nivell per no saturar; a B2-C1 permeto 5-8 branques i fins a 3 nivells per representar la riquesa associativa. Si el mapa supera el sostre, fusiono branques o sub-idees redundants.
 
 ## Format de sortida
 
