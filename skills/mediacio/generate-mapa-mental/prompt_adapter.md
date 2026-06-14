@@ -1,11 +1,11 @@
 ---
 tipus: derivat
 font_canonic: M3_instrument-generar-mapa-mental.md
-font_version: 1.0.0-canonic
+font_version: 1.1.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-14'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 4e8c49f887a51d15
+checksum_font: 326a7b69817dc91d
 ---
 
 # Generar mapa mental — prompt d'adaptació parametritzat per nivell

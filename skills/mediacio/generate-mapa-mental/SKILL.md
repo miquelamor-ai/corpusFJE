@@ -10,7 +10,7 @@ description: 'Use when the teacher has activated the "mapa_mental" complement. G
 
   '
 author: FJE — Fundació Jesuïtes Educació
-version: 1.0.0-canonic
+version: 1.1.0-canonic
 complement_key: mapa_mental
 agent_role: complements
 tools_required: []
@@ -21,10 +21,10 @@ moduls_relacionats:
 - M2
 - M3
 font_canonic: M3_instrument-generar-mapa-mental.md
-font_version: 1.0.0-canonic
+font_version: 1.1.0-canonic
 generat_at: '2026-06-14'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 4e8c49f887a51d15
+checksum_font: 326a7b69817dc91d
 ---
 
 # Generar mapa mental — skill operativa per a LLM
