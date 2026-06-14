@@ -4,7 +4,7 @@ titol: "Generar mapa conceptual"
 tipus: instrument
 categoria_principal: mediacio
 categories_secundaries: []
-descripcio: "Instrument per generar un organitzador visual adaptat al MECR. Distinció fonamental: Esquema visual (pre-A1/A1, seqüència/parts, Llegir per orientar-se) vs. Mapa conceptual (A2+, Novak, Llegir per comprendre, jerarquia etiquetada) vs. Mapa de contrast (C1, 2 columnes). Format markdown jerarquic, mai ASCII-art. Concepte central = unica arrel de llista en negreta (mai ###); branques sagnades en negreta; sub-elements sense negreta. Format de branca graduat pel MECR: A2 noms de categoria (Causes, Consequencies, bastida classificatoria); B1+ verbs d'enllac de relacio basica (provoca, es divideix en); matis/concessio/contrast reservats a B2/C1. Mai generics (Informacio, Coses). Instrument separat del generate-mapa-mental (Buzan, B1+, radial divergent). Rubrica gradada 5 passos x 6 nivells MECR (pre-A1->C1)."
+descripcio: "Instrument per generar un organitzador visual adaptat al MECR. Distinció fonamental: Esquema visual (pre-A1/A1, seqüència/parts, Llegir per orientar-se) vs. Mapa conceptual (A2+, Novak, Llegir per comprendre, jerarquia etiquetada) vs. Mapa de contrast (C1, 2 columnes). Format markdown jerarquic, mai ASCII-art. Concepte central = unica arrel de llista en negreta (mai ###); branques sagnades en negreta; sub-elements sense negreta. Format de branca graduat pel MECR: A2 noms de categoria (Causes, Consequencies, bastida classificatoria); B1+ verbs d'enllac de relacio basica (provoca, es divideix en); matis/concessio/contrast reservats a B2/C1. Mai generics (Informacio, Coses). Instrument separat del generate-mapa-mental (Buzan, B1+, radial divergent). Enllaços creuats (cross-links Novak) graduats pel MECR (pocs i tardans: 0 fins A2, 0-1 a B1, 1-2 a B2, 2-3 a C1). Rubrica gradada 6 passos x 6 nivells MECR (pre-A1->C1)."
 mecr_range: [pre_A1, A1, A2, B1, B2, C1]
 agent_roles: [generator]
 complement_key: mapa_conceptual
@@ -15,9 +15,9 @@ variables_configurables:
   fase_lectora: [logografica, alfabetica_emergent, alfabetica_fluida]
 skill_meta: generate-mapa-conceptual@corpusFJE/skills/mediacio/generate-mapa-conceptual
 review_status: pilot-fusio-8
-version: 4.1.1-canonic
+version: 4.2.0-canonic
 generat_at: 2026-05-26
-actualitzat_at: 2026-06-12
+actualitzat_at: 2026-06-14
 notebooklm_review:
   data: 2026-05-26
   veredicte: si-amb-correccions-menors
@@ -169,6 +169,7 @@ _Excepcions: no n'hi ha._
 | **3. Branques principals** | Relació de branca (graduada MECR) | 1-2 elements: parts o qualitats d'un tot. Noms simples i concrets (cap, pit, cua). | 2-3 branques concretes. Noms simples. Pot ser seqüència temporal (1r, 2n, 3r). | 3-4 branques amb **nom de categoria** (Causes / Tipus / Efectes / Processos). Bastida classificatòria. Mai genèrics. | 3-5 branques amb **verb d'enllaç de relació bàsica**: causa/conseqüència (provoca, és provocat per) o part/tot (es divideix en, forma part de). Proposició Novak llegible. **Sense connectors de matís/concessió/contrast.** Mai genèrics. | 4-6 branques amb **verb d'enllaç CALP**; s'hi afegeixen matís/concessió/condició (en canvi, a diferència de, depèn de, determina, condiciona). Reflecteixen l'estructura del gènere. | 2 columnes de contrast o 4-6 branques amb verb/connector de tensió explícita (contrasta amb, s'oposa a, tanmateix, mentre que). |
 | **4. Sub-elements** | Detalls de les branques | Cap sub-element: l'esquema és pla (massa nivells per a pre-A1). | Cap sub-element: l'esquema és pla (màxim 1 nivell). | 2-3 sub-elements per branca. Termes curts, no frases llargues. Del text adaptat. | 3-4 sub-elements per branca. Inferts del text, no copiats literalment. | Sub-elements amb matisos. Pot incloure relacions transversals entre branques. | Sub-elements de contrast, evidències o cites de fonts. Pot incloure tensions entre branques. |
 | **5. Format de sortida** | Estructura markdown | `## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim. | `## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art. | `## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art. | `## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art. | `## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art. | `## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast. |
+| **6. Enllaços creuats (Novak)** | Nombre recomanat | 0 enllaços creuats. L'esquema visual és pla, sense relacions transversals. | 0 enllaços creuats. L'esquema visual és pla. | 0 enllaços creuats. Primer mapa jeràrquic: el focus és nomenar categories, encara no creuar branques. | 0-1 enllaços creuats. Opcional, només si hi ha una relació transversal evident entre dues branques. | 1-2 enllaços creuats. S'introdueixen explícitament per mostrar relacions entre branques diferents. | 2-3 enllaços creuats. Pocs però d'alt valor: mostren integració i tensions entre branques (Novak: el tret de pensament creatiu). |
 
 ## Casos especials
 
@@ -233,6 +234,7 @@ _Excepcions: no n'hi ha._
 | 3 Branques principals | `qualitative` + `binary` + `enumerable` | **si** | qualitative: LLM-jutge sobre si la relació de branca correspon al format del MECR — A2 = nom de categoria relacional (Causes, Efectes, Tipus de); B1 = verb d'enllaç de relació bàsica (causa/conseqüència, part/tot) que forma proposició llegible; B2/C1 = s'hi admeten verbs/connectors de matís, concessió, condició i contrast — positiu; genèrics ("Informació", "Coses") a qualsevol nivell — negatiu, error crític; enumerable: regex contra repertori de connectors per nivell — alerta si troba connectors de contrast/concessió ("en canvi", "tanmateix", "no obstant", "contrasta amb", "a diferència de") en branques de B1 o inferior (reservats a B2/C1, com a `write-opinio`); binary: nombre de branques dins del rang per MECR (pre-A1: 1-2; A1: 2-3; A2: 3-4; B1: 3-5; B2: 4-6; C1: 2 o 4-6); cross_source: branques corresponents al contingut del text font |
 | 4 Sub-elements | `binary` + `structural` | no | binary: pre-A1/A1 = absencia de sub-elements (esquema pla); A2+ = presencia de sub-elements; structural: detectar ASCII-art (caràcters │ ├ └ → o caixes de text) = error crític en qualsevol nivell |
 | 5 Format de sortida | `structural` | no | structural: el titol de secció correspon al tipus d'eina (`## Esquema visual` vs `## Mapa conceptual` vs `## Mapa de contrast`); nivells de sangria dins del rang per MECR; absencia d'ASCII-art |
+| 6 Enllaços creuats | `countable` | no | countable: nombre recomanat d'enllaços creuats (cross-links Novak) dins del rang per MECR (pre-A1/A1/A2: 0; B1: 0-1; B2: 1-2; C1: 2-3); qualitative: LLM-jutge — un enllaç creuat connecta dues branques DIFERENTS amb una etiqueta de relació, no és un sub-element ni una branca nova. Comportament al frontend: AVÍS (no bloqueig) si se supera el màxim del nivell |
 
 **Notes:**
 - Error crític principal: noms de branca genèrics ("Informació", "Coses", "Dades"). Detectar per LLM-jutge + regex (lista negra de noms genèrics).
@@ -242,6 +244,7 @@ _Excepcions: no n'hi ha._
 - Error secundari: ASCII-art (│ ├ └ → [ ]). Detectar per regex. Error en tots els nivells.
 - Diferència `mapa_conceptual` vs `mapa_mental`: verificar que l'instrument generat NO té estructura radial lliure (seria mapa mental, instrument diferent). El mapa conceptual té jerarquia clara: un concepte central → branques → sub-elements.
 - C1 mapa de contrast: verificar presencia de 2 columnes o branques en tensió explícita. No és simplement 2 branques qualsevol.
+- Enllaços creuats (cross-links Novak): són relacions transversals entre branques DIFERENTS, no sub-elements ni branques noves. Novak els considera el tret distintiu del pensament integrador i creatiu; per això són **pocs però d'alt valor** i **cognitivament tardans** (apareixen a B1+, s'estabilitzen a B2-C1). El nombre recomanat es gradua pel MECR (pas 6); el frontend els compta i AVISA (no bloqueja) si se supera el màxim del nivell. Aquest valor substitueix el `CROSS_REC` temporal hardcoded al codi UI d'ATNE.
 
 ## Heurístiques docent
 

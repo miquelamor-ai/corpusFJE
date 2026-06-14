@@ -380,7 +380,7 @@ def _extract_countable(descriptor: str) -> dict | None:
         "5 preguntes" → {min:5, max:5, unitat:'items'}
     """
     # "X-Y unitat" o "X a Y unitat"
-    m = re.search(r"(\d+)\s*[-a]\s*(\d+)\s*(termes?|paraules|frases|items?|nodes|connectors|iniciadors|branques|torns|paràgrafs|criteris)", descriptor, re.IGNORECASE)
+    m = re.search(r"(\d+)\s*[-a]\s*(\d+)\s*(termes?|paraules|frases|items?|nodes|connectors|iniciadors|branques|enllaços|enllaç|torns|paràgrafs|criteris)", descriptor, re.IGNORECASE)
     if m:
         return {
             "min": int(m.group(1)),
@@ -388,14 +388,14 @@ def _extract_countable(descriptor: str) -> dict | None:
             "unitat": _normalize_unitat(m.group(3)),
         }
     # "Fins a X unitat"
-    m = re.search(r"[Ff]ins a (\d+)\s*(termes?|paraules|frases|items?|nodes|connectors|iniciadors|branques)", descriptor)
+    m = re.search(r"[Ff]ins a (\d+)\s*(termes?|paraules|frases|items?|nodes|connectors|iniciadors|branques|enllaços|enllaç)", descriptor)
     if m:
         return {
             "max": int(m.group(1)),
             "unitat": _normalize_unitat(m.group(2)),
         }
     # "X unitat" (valor únic)
-    m = re.search(r"^(\d+)\s+(termes?|paraules|frases|items?|nodes|connectors|iniciadors|branques)", descriptor)
+    m = re.search(r"^(\d+)\s+(termes?|paraules|frases|items?|nodes|connectors|iniciadors|branques|enllaços|enllaç)", descriptor)
     if m:
         n = int(m.group(1))
         return {"min": n, "max": n, "unitat": _normalize_unitat(m.group(2))}
@@ -414,6 +414,8 @@ def _normalize_unitat(raw: str) -> str:
         "connector": "connectors",
         "iniciador": "iniciadors",
         "branque": "branques",
+        "enllaço": "enllacos_creuats",
+        "enllaç": "enllacos_creuats",
         "torn": "torns",
         "paràgraf": "parraps",
         "criteri": "criteris",
