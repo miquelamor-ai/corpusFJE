@@ -8,7 +8,7 @@ description: 'Use when the teacher has activated the "mapa_conceptual" complemen
 
   '
 author: FJE — Fundació Jesuïtes Educació
-version: 4.1.1-canonic
+version: 4.2.0-canonic
 complement_key: mapa_conceptual
 agent_role: complements
 tools_required: []
@@ -19,10 +19,10 @@ moduls_relacionats:
 - M2
 - M3
 font_canonic: M3_instrument-generar-mapa-conceptual.md
-font_version: 4.1.1-canonic
-generat_at: '2026-06-12'
+font_version: 4.2.0-canonic
+generat_at: '2026-06-14'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: f6418e24d5cf5372
+checksum_font: d6eaedbfe6bfbf82
 ---
 
 # Generar mapa conceptual — skill operativa per a LLM
@@ -77,6 +77,9 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 **5. Format de sortida**
 - Estructura markdown: `## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim.
 
+**6. Enllaços creuats (Novak)**
+- Nombre recomanat: 0 enllaços creuats. L'esquema visual és pla, sense relacions transversals.
+
 ### A1 — Inicial
 
 
@@ -94,6 +97,9 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 
 **5. Format de sortida**
 - Estructura markdown: `## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art.
+
+**6. Enllaços creuats (Novak)**
+- Nombre recomanat: 0 enllaços creuats. L'esquema visual és pla.
 
 ### A2 — Funcional
 
@@ -113,6 +119,9 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 **5. Format de sortida**
 - Estructura markdown: `## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art.
 
+**6. Enllaços creuats (Novak)**
+- Nombre recomanat: 0 enllaços creuats. Primer mapa jeràrquic: el focus és nomenar categories, encara no creuar branques.
+
 ### B1 — Estratègic
 
 
@@ -130,6 +139,9 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 
 **5. Format de sortida**
 - Estructura markdown: `## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art.
+
+**6. Enllaços creuats (Novak)**
+- Nombre recomanat: 0-1 enllaços creuats. Opcional, només si hi ha una relació transversal evident entre dues branques.
 
 ### B2 — Acadèmic
 
@@ -149,6 +161,9 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 **5. Format de sortida**
 - Estructura markdown: `## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art.
 
+**6. Enllaços creuats (Novak)**
+- Nombre recomanat: 1-2 enllaços creuats. S'introdueixen explícitament per mostrar relacions entre branques diferents.
+
 ### C1+ — Crític
 
 
@@ -166,4 +181,7 @@ Aquesta rúbrica descriu el **mapa conceptual / esquema visual que es genera com
 
 **5. Format de sortida**
 - Estructura markdown: `## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast.
+
+**6. Enllaços creuats (Novak)**
+- Nombre recomanat: 2-3 enllaços creuats. Pocs però d'alt valor: mostren integració i tensions entre branques (Novak: el tret de pensament creatiu).
 

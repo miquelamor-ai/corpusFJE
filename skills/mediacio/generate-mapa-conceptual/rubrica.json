@@ -3,8 +3,8 @@
     "name": "rubrica_generate_mapa_conceptual",
     "version": "1.0.1",
     "font_canonic": "skills/mediacio/generate-mapa-conceptual/M3_instrument-generar-mapa-conceptual.md",
-    "font_version": "4.1.1-canonic",
-    "generat_at": "2026-06-12",
+    "font_version": "4.2.0-canonic",
+    "generat_at": "2026-06-14",
     "skill_name": "generate-mapa-conceptual",
     "family": "mediacio",
     "mecr_range": [
@@ -71,6 +71,15 @@
         {
           "pas_id": "pas_5_estructura_markdown",
           "descriptor": "`## Esquema visual` + llista plana sense sangria. 2-3 ítems màxim."
+        },
+        {
+          "pas_id": "pas_6_nombre_recomanat",
+          "descriptor": "0 enllaços creuats. L'esquema visual és pla, sense relacions transversals.",
+          "countable": {
+            "min": 0,
+            "max": 0,
+            "unitat": "enllacos_creuats"
+          }
         }
       ]
     },
@@ -111,6 +120,15 @@
         {
           "pas_id": "pas_5_estructura_markdown",
           "descriptor": "`## Esquema visual` + llista amb sangria màxima 1 nivell. Cap ASCII-art."
+        },
+        {
+          "pas_id": "pas_6_nombre_recomanat",
+          "descriptor": "0 enllaços creuats. L'esquema visual és pla.",
+          "countable": {
+            "min": 0,
+            "max": 0,
+            "unitat": "enllacos_creuats"
+          }
         }
       ]
     },
@@ -146,6 +164,15 @@
         {
           "pas_id": "pas_5_estructura_markdown",
           "descriptor": "`## Mapa conceptual` + 2 nivells de sangria. Branques en negreta. Cap ASCII-art."
+        },
+        {
+          "pas_id": "pas_6_nombre_recomanat",
+          "descriptor": "0 enllaços creuats. Primer mapa jeràrquic: el focus és nomenar categories, encara no creuar branques.",
+          "countable": {
+            "min": 0,
+            "max": 0,
+            "unitat": "enllacos_creuats"
+          }
         }
       ]
     },
@@ -181,6 +208,15 @@
         {
           "pas_id": "pas_5_estructura_markdown",
           "descriptor": "`## Mapa conceptual` + 3 nivells de sangria. Branques en negreta. Cap ASCII-art."
+        },
+        {
+          "pas_id": "pas_6_nombre_recomanat",
+          "descriptor": "0-1 enllaços creuats. Opcional, només si hi ha una relació transversal evident entre dues branques.",
+          "countable": {
+            "min": 0,
+            "max": 1,
+            "unitat": "enllacos_creuats"
+          }
         }
       ]
     },
@@ -216,6 +252,15 @@
         {
           "pas_id": "pas_5_estructura_markdown",
           "descriptor": "`## Mapa conceptual` + 4 nivells màxim. Branques CALP en negreta. Cap ASCII-art."
+        },
+        {
+          "pas_id": "pas_6_nombre_recomanat",
+          "descriptor": "1-2 enllaços creuats. S'introdueixen explícitament per mostrar relacions entre branques diferents.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "enllacos_creuats"
+          }
         }
       ]
     },
@@ -251,6 +296,15 @@
         {
           "pas_id": "pas_5_estructura_markdown",
           "descriptor": "`## Mapa de contrast` + 2 columnes (taula markdown) o mapa amb branques de contrast."
+        },
+        {
+          "pas_id": "pas_6_nombre_recomanat",
+          "descriptor": "2-3 enllaços creuats. Pocs però d'alt valor: mostren integració i tensions entre branques (Novak: el tret de pensament creatiu).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "enllacos_creuats"
+          }
         }
       ]
     }
@@ -295,6 +349,14 @@
       "tipus": "structural",
       "requires_source_text": false,
       "validation_hint": "structural: el titol de secció correspon al tipus d'eina (`## Esquema visual` vs `## Mapa conceptual` vs `## Mapa de contrast`); nivells de sangria dins del rang per MECR; absencia d'ASCII-art"
+    },
+    {
+      "id": "pas_6_nombre_recomanat",
+      "titol": "Enllaços creuats (Novak)",
+      "dimensio": "Nombre recomanat",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "countable: nombre recomanat d'enllaços creuats (cross-links Novak) dins del rang per MECR (pre-A1/A1/A2: 0; B1: 0-1; B2: 1-2; C1: 2-3); qualitative: LLM-jutge — un enllaç creuat connecta dues branques DIFERENTS amb una etiqueta de relació, no és un sub-element ni una branca nova. Comportament al frontend: AVÍS (no bloqueig) si se supera el màxim del nivell"
     }
   ],
   "principi_general": {
@@ -455,6 +517,11 @@
       "name": "estructura_markdown",
       "type": "qualitative",
       "rule": "structural: el titol de secció correspon al tipus d'eina (`## Esquema visual` vs `## Mapa conceptual` vs `## Mapa de contrast`); nivells de sangria dins del rang per MECR; absencia d'ASCII-art"
+    },
+    {
+      "name": "nombre_recomanat",
+      "type": "countable",
+      "uses_field": "levels.<mecr>.passos[pas_6_nombre_recomanat].countable"
     }
   ]
 }

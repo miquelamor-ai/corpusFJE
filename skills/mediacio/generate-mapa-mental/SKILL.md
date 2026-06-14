@@ -1,132 +1,180 @@
 ---
 name: generate-mapa-mental
-description: >
-  Use when the teacher has activated the "mapa_mental" complement. Generates
-  a radial mind map (Buzan-style): central concept surrounded by primary
-  branches with associative ideas, generating questions, and
-  interdisciplinary connections. DIFFERENT from `generate-mapa-conceptual`:
-  mind map prioritises divergent thinking and free association; concept map
-  prioritises hierarchical structure and labelled relationships.
-  Output is markdown that can be copy-pasted into Canva, MindMeister, XMind.
+description: 'Use when the teacher has activated the "mapa_mental" complement. Generates
+  a radial mind map (Buzan-style): central concept surrounded by primary branches
+  with associative ideas, generating questions, and interdisciplinary connections.
+  DIFFERENT from `generate-mapa-conceptual`: mind map prioritises divergent thinking
+  and free association; concept map prioritises hierarchical structure and labelled
+  relationships. Output is markdown that can be copy-pasted into Canva, MindMeister,
+  XMind.
+
+  '
 author: FJE — Fundació Jesuïtes Educació
-version: 1.0.0-proto
+version: 1.0.0-canonic
 complement_key: mapa_mental
 agent_role: complements
 tools_required: []
 triggers:
-  - path: params.complements.mapa_mental
-    equals: true
+- path: params.complements.mapa_mental
+  equals: true
+moduls_relacionats:
+- M2
+- M3
+font_canonic: M3_instrument-generar-mapa-mental.md
+font_version: 1.0.0-canonic
+generat_at: '2026-06-14'
+generat_per: build_skills.py@v2-2026-05-26
+checksum_font: 4e8c49f887a51d15
 ---
 
-# Generar mapa mental
+# Generar mapa mental — skill operativa per a LLM
 
-## Quan activar aquesta skill
+El mapa mental és un **organitzador visual radial** (Buzan): un concepte central del qual irradien branques d'associació lliure, preguntes generadores i connexions interdisciplinàries. A diferència del mapa conceptual (Novak, jeràrquic), el mapa mental no busca reconstruir l'estructura del text sinó **obrir-lo**: generar idees, connectar amb el que l'alumne ja sap i provocar preguntes noves. El frontend ATNE renderitza el diagrama com a SVG (Mermaid mindmap) a partir d'una llista Markdown amb sagnia.
 
-Activar quan el docent ha marcat el complement **"Mapa mental"** al Pas 2.
-És especialment útil per a:
-- **Altes capacitats** (AC): brainstorming, generació d'idees, connexions
-  interdisciplinars.
-- **Recapitulació o introducció** d'un tema (no per a estructurar contingut
-  jeràrquic — això és la feina del mapa conceptual).
-- **Estimular pensament divergent**: associacions lliures, preguntes
-  generadores.
+**Tipologia MALL**: Mediació (organitzador visual divergent).
+**HCL principal**: Connectar — associar idees i generar relacions noves més enllà del text.
+**HCL secundàries**: Recapitular (obrir un tema), Preguntar (generar preguntes), Transferir (connexions interdisciplinàries).
+**Principi rector**: *"El mapa mental no organitza el que el text diu, sinó el que l'alumne pot pensar a partir del text."* Una branca sense pregunta generadora ni connexió és una llista, no un mapa mental.
 
-## Distinció fonamental amb el mapa conceptual
+**Distinció fonamental amb `generate-mapa-conceptual` (instrument separat):**
+- `mapa_conceptual` (Novak, A2-C1): "Llegir per comprendre" — contingut **dintre del text** adaptat; estructura jeràrquica; relacions **etiquetades** (provoca, es divideix en); el nom de la branca és la prova de comprensió.
+- `mapa_mental` (Buzan, B1+): "Llegir per connectar" — contingut **més enllà del text**; estructura **radial** i divergent; associacions **no etiquetades**; preguntes generadores; per a alumnat amb AACC o exploració creativa.
+Quan l'objectiu és comprendre l'estructura del text → `mapa_conceptual`. Quan l'objectiu és expandir, connectar i generar preguntes → `mapa_mental`.
 
-| Dimensió | Mapa conceptual | Mapa mental |
-|---|---|---|
-| **Estructura** | Jeràrquica (general → específic) | Radial (centre → expansió 360°) |
-| **Relacions** | Etiquetades (proposicions: "X causa Y") | No etiquetades (associació lliure) |
-| **Funció cognitiva** | Organitzar i comprendre estructura | Generar idees i connexions creatives |
-| **Output** | Llista jeràrquica amb sagnies progressives | Branques radials + preguntes generadores |
-| **Quan triar** | Comprensió d'un tema acabat | Exploració d'un tema obert |
+**Connexions MALL transversals:**
+- *Divergència vs. organització*: el mapa mental treballa el pensament divergent (obrir possibilitats); el mapa conceptual i l'esquema visual treballen el convergent (organitzar el que ja hi és). Són complementaris, no intercanviables.
+- *Preguntes generadores com a motor*: la pregunta ("i si...?", "per què...?") és el que distingeix un mapa mental d'una llista de paraules. A B1+ cada branca hauria de poder generar almenys una pregunta.
+- *Connexions interdisciplinàries com a valor afegit*: el rendiment cognitiu màxim del mapa mental és transferir un concepte a una altra matèria o a la vida quotidiana. Si el mapa no en conté cap, s'ha quedat curt.
+- *El docent acaba la peça visual*: ATNE proveeix l'estructura semàntica (branques, preguntes, connexions); el color, les imatges i la disposició final els fa el docent a Canva o MindMeister.
 
-## Format de sortida (markdown)
+**Aclariment d'ús — què descriu aquesta rúbrica.**
+Descriu el mapa mental **com a estímul de divergència** que es genera a partir d'un tema (sovint ancorat al text adaptat, però amb branques que van més enllà). NO descriu la producció autònoma avaluable de l'alumne (això és tasca de `generate-bastides-produccio` i `generate-rubriques`).
 
-A diferència del mapa conceptual (sagnia jeràrquica), el mapa mental és
-una estructura **radial** amb el concepte central destacat i branques amb associacions.
+## Modulació per nivell (format vertical jerarquitzat)
 
-**Format OBLIGATORI**: llista jeràrquica amb guions `-` i sagnia de 2 espais.
-El concepte central SEMPRE com a primer ítem de llista (`- **TERME**`).
-**NO** usar fletxes Unicode (`→ ↔ 🌿`), ni text lliure sense guió.
-El frontend ATNE renderitza aquest format com a diagrama SVG (Mermaid mindmap).
+### pre-A1 — Emergent
 
-```markdown
-## Mapa mental
 
-- **[CONCEPTE CENTRAL]**
-  - [Branca 1: associació primària]
-    - [idea associada]
-    - [pregunta generadora?]
-    - [connexió amb altra matèria]
-  - [Branca 2: associació primària]
-    - [idea associada]
-    - [exemple concret de la vida quotidiana]
-    - [pregunta provocadora?]
-  - [Branca 3: associació primària]
-    - [connexió interdisciplinar]
-```
+**1. Concepte central**
+- Nucli radial: Tema o objecte familiar, 1 paraula + pictograma/emoji.
 
-**No** usar caràcters ASCII-art (`│ ├ └ ─`) ni emojis estructurals. El docent ho copia a Canva o
-MindMeister i la sintaxi ASCII no es renderitza bé.
+**2. Branques primàries**
+- Nombre de branques: 2 branques associatives.
 
-## Graduació per nivell MECR
+**3. Profunditat**
+- Nivells d'expansió: 1 nivell: arrel i branques directes, sense sub-idees.
 
-| Nivell | Nombre branques | Profunditat | Llenguatge | Característica clau |
-|---|---|---|---|---|
-| **Pre-A1 / A1** | 2-3 branques | 1 nivell | Paraules clau soles | Imatges/emojis + paraula. Cap pregunta abstracta. |
-| **A2** | 3-4 branques | 1-2 nivells | Frases molt curtes | Una idea per branca + 1 connexió concreta |
-| **B1** | 4-5 branques | 2 nivells | Frases gradades B1 | Afegir 1-2 preguntes generadores |
-| **B2** | 5-7 branques | 2-3 nivells | Lèxic d'especialitat permès | Preguntes obertes + 1-2 connexions interdisciplinàries |
-| **C1+** | 5-8 branques | 3 nivells | Llenguatge metacognitiu | Preguntes provocadores + tensions/contradiccions + connexió amb fonts externes |
+**4. Preguntes generadores**
+- Densitat i obertura: Cap pregunta abstracta: només paraula clau + imatge.
 
-## Quan NO és apropiat
+**5. Connexions transversals**
+- Associacions interdisciplinàries: Cap connexió interdisciplinària (massa abstracta a aquest nivell).
 
-- **Mapa conceptual ja seleccionat**: redundància. El docent ha de triar un
-  dels dos, no els dos junts. Si ambdós actius: prioritzar mapa conceptual
-  per a tasques d'estudi tradicional.
-- **Pre-A1 amb alumne sense alfabetització L1**: el patró radial pot
-  confondre. Substituir per dibuix amb pictogrames lineals.
-- **Textos molt curts (< 50 paraules)**: no hi ha prou matèria per
-  generar branques significatives.
+**6. Format de sortida**
+- Estructura markdown radial: `## Mapa mental` + llista amb central com a única arrel en negreta (`- **CENTRAL**`) i branques sagnades 2 espais. Pictogrames/emoji inline a arrel i branques. Cap fletxa Unicode ni ASCII-art.
 
-## Exemple per a B1 — Tema: la fotosíntesi
+### A1 — Inicial
 
-```markdown
-## Mapa mental
 
-- **FOTOSÍNTESI**
-  - Què és?
-    - Transformació de llum en aliment
-    - Només les plantes ho fan?
-    - Connexió amb la cuina: per què cuinem els aliments?
-  - Quins ingredients?
-    - Aigua + diòxid de carboni + llum solar
-    - Connexió amb Química 1r ESO (matèria/energia)
-  - On passa?
-    - A les fulles (cloroplasts)
-    - Per què les fulles són verdes?
-  - Quin resultat dona?
-    - Sucres (glucosa) + oxigen
-    - Per què respirem millor on hi ha boscos?
-    - Connexió amb Geografia (canvi climàtic, pulmó verd)
-```
+**1. Concepte central**
+- Nucli radial: 1 paraula clau del tema. En negreta.
 
-## Notes pedagògiques (MALL)
+**2. Branques primàries**
+- Nombre de branques: 2-3 branques associatives.
 
-- **No és un esquema d'estudi**: és una eina de **divergència**, d'obertura
-  cognitiva. Si el docent vol que l'alumne estructuri un tema per estudiar-lo,
-  usar mapa conceptual.
-- **Les preguntes generadores** són clau: una branca sense pregunta és una
-  llista, no un mapa mental.
-- **Les connexions transversals** són el valor afegit més gran. Si el
-  resultat no inclou cap, el mapa s'ha quedat curt.
-- **Color/imatges al Canva**: el docent acaba la peça visual. ATNE proveeix
-  l'estructura semàntica.
+**3. Profunditat**
+- Nivells d'expansió: 1 nivell: arrel i branques directes.
 
-## Referències
+**4. Preguntes generadores**
+- Densitat i obertura: Cap pregunta abstracta: paraules clau soles.
 
-- Buzan, T. (1974). *Use Your Head*. BBC Books. (mapa mental original)
-- Novak, J. & Gowin, B. (1984). *Learning How to Learn*. (mapa conceptual,
-  contrast amb mapa mental)
-- MALL FJE — divergència vs. organització estructural (M2 instruments-mediacio)
+**5. Connexions transversals**
+- Associacions interdisciplinàries: Cap connexió interdisciplinària.
+
+**6. Format de sortida**
+- Estructura markdown radial: `## Mapa mental` + central arrel en negreta, branques sagnades 2 espais. Pictogrames recomanats. Cap ASCII-art.
+
+### A2 — Funcional
+
+
+**1. Concepte central**
+- Nucli radial: Frase nominal curta (1-3 paraules) del tema. En negreta.
+
+**2. Branques primàries**
+- Nombre de branques: 3-4 branques associatives.
+
+**3. Profunditat**
+- Nivells d'expansió: 1-2 nivells: branca i, opcionalment, una sub-idea.
+
+**4. Preguntes generadores**
+- Densitat i obertura: Una idea curta per branca; encara sense preguntes generadores explícites.
+
+**5. Connexions transversals**
+- Associacions interdisciplinàries: 1 connexió concreta amb la vida quotidiana.
+
+**6. Format de sortida**
+- Estructura markdown radial: `## Mapa mental` + central arrel en negreta, branques sagnades, fins a 2 nivells. Cap ASCII-art.
+
+### B1 — Estratègic
+
+
+**1. Concepte central**
+- Nucli radial: Tema o concepte que es vol explorar. En negreta.
+
+**2. Branques primàries**
+- Nombre de branques: 4-5 branques associatives.
+
+**3. Profunditat**
+- Nivells d'expansió: 2 nivells: branca i sub-idees.
+
+**4. Preguntes generadores**
+- Densitat i obertura: 1-2 preguntes generadores ("per què...?", "què passaria si...?").
+
+**5. Connexions transversals**
+- Associacions interdisciplinàries: 1 connexió explícita amb una altra matèria.
+
+**6. Format de sortida**
+- Estructura markdown radial: `## Mapa mental` + central arrel en negreta, branques i sub-idees sagnades (2 nivells). Cap ASCII-art.
+
+### B2 — Acadèmic
+
+
+**1. Concepte central**
+- Nucli radial: Concepte nuclear, pot ser abstracte. En negreta.
+
+**2. Branques primàries**
+- Nombre de branques: 5-7 branques associatives.
+
+**3. Profunditat**
+- Nivells d'expansió: 2-3 nivells: branca, sub-idees i matís.
+
+**4. Preguntes generadores**
+- Densitat i obertura: Preguntes obertes a diverses branques que conviden a explorar.
+
+**5. Connexions transversals**
+- Associacions interdisciplinàries: 1-2 connexions interdisciplinàries.
+
+**6. Format de sortida**
+- Estructura markdown radial: `## Mapa mental` + central arrel en negreta, fins a 3 nivells de sagnia. Cap ASCII-art.
+
+### C1+ — Crític
+
+
+**1. Concepte central**
+- Nucli radial: Concepte complex o tensió que es vol obrir. En negreta.
+
+**2. Branques primàries**
+- Nombre de branques: 5-8 branques associatives.
+
+**3. Profunditat**
+- Nivells d'expansió: 3 nivells: expansió completa amb tensions.
+
+**4. Preguntes generadores**
+- Densitat i obertura: Preguntes provocadores que obren tensions o contradiccions.
+
+**5. Connexions transversals**
+- Associacions interdisciplinàries: Connexions interdisciplinàries + connexió amb fonts o debats externs.
+
+**6. Format de sortida**
+- Estructura markdown radial: `## Mapa mental` + central arrel en negreta, fins a 3 nivells de sagnia amb tensions. Cap ASCII-art.
+
