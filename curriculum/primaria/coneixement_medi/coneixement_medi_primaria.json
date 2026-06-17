@@ -9,59 +9,70 @@
     "font": "PDF oficial XTEC: Coneixement-del-Medi-Natural-Social-i-Cultural.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
-    "descripcio": "El Coneixement del Medi Natural, Social i Cultural és l'àrea integradora de Primària que connecta l'alumnat amb el món que l'envolta: els éssers vius, el medi físic, les societats humanes, la història i el patrimoni cultural de Catalunya i del món. La matèria és pont entre les Ciències Naturals i les Ciències Socials que s'estudiaran per separat a l'ESO, i estableix connexions directes amb les Matemàtiques (mesura, dades, representació), la Llengua (lectura de textos informatius) i l'Educació en Valors Cívics (justícia, sostenibilitat, convivència). El pensament científic i el pensament social es desenvolupen de manera integrada.\n\nEls grans constructes disciplinaris abasten el medi natural (éssers vius, ecosistemes, matèria i energia, canvi climàtic i sostenibilitat), el medi social i cultural (organització social, institucions democràtiques, diversitat cultural, patrimoni, economia bàsica) i la dimensió temporal i espacial (cronologia, fonts històriques, mapes, orientació, representació cartogràfica). El raonament científic —observació, formulació de preguntes, hipòtesi, experimentació i conclusions— i la indagació en fonts diverses, incloses les digitals, constitueixen les pràctiques epistèmiques centrals de l'àrea.\n\nL'enfocament pedagògic es basa en l'aprenentatge per indagació i la resolució cooperativa de reptes vinculats a situacions reals i rellevants per a l'alumnat. Les sortides al medi, els experiments d'aula, l'anàlisi de notícies d'actualitat i la creació col·laborativa de productes (maquetes, informes, exposicions) donen sentit als aprenentatges. La competència digital s'integra com a eina de cerca, processament i comunicació d'informació. L'avaluació valora la capacitat d'observar críticament, de formular preguntes pertinents, de cooperar en la resolució de problemes i de comunicar conclusions de manera fonamentada."
+    "descripcio": "El Coneixement del Medi Natural, Social i Cultural és l'àrea integradora de Primària que connecta l'alumnat amb el món que l'envolta: els éssers vius, el medi físic, les societats humanes, la història i el patrimoni cultural de Catalunya i del món. La matèria és pont entre les Ciències Naturals i les Ciències Socials que s'estudiaran per separat a l'ESO, i estableix connexions directes amb les Matemàtiques (mesura, dades, representació), la Llengua (lectura de textos informatius) i l'Educació en Valors Cívics (justícia, sostenibilitat, convivència). El pensament científic i el pensament social es desenvolupen de manera integrada.\n\nEls grans constructes disciplinaris abasten el medi natural (éssers vius, ecosistemes, matèria i energia, canvi climàtic i sostenibilitat), el medi social i cultural (organització social, institucions democràtiques, diversitat cultural, patrimoni, economia bàsica) i la dimensió temporal i espacial (cronologia, fonts històriques, mapes, orientació, representació cartogràfica). El raonament científic —observació, formulació de preguntes, hipòtesi, experimentació i conclusions— i la indagació en fonts diverses, incloses les digitals, constitueixen les pràctiques epistèmiques centrals de l'àrea.\n\nL'enfocament pedagògic es basa en l'aprenentatge per indagació i la resolució cooperativa de reptes vinculats a situacions reals i rellevants per a l'alumnat. Les sortides al medi, els experiments d'aula, l'anàlisi de notícies d'actualitat i la creació col·laborativa de productes (maquetes, informes, exposicions) donen sentit als aprenentatges. La competència digital s'integra com a eina de cerca, processament i comunicació d'informació. L'avaluació valora la capacitat d'observar críticament, de formular preguntes pertinents, de cooperar en la resolució de problemes i de comunicar conclusions de manera fonamentada.",
+    "origen_dato": "re-extret-coordenades"
   },
   "competencies_especifiques": [
     {
       "codi": "CE1",
       "text": "Seleccionar i utilitzar dispositius i recursos digitals de forma responsable i eficient per tal de buscar informació, comunicar-se i treballar col·laborativament i en xarxa i per crear continguts segons les necessitats digitals del context.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Demostrar curiositat, formulant-se preguntes i realitzant prediccions possibles per conèixer objectes, fets i fenòmens."
+            "text": "Demostrar curiositat, formulant-se preguntes i realitzant prediccions possibles per conèixer objectes, fets i fenòmens.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Buscar informació de fonts digitals i analògiques, segures i fiables, seleccionades de manera pautada per utilitzar-la en"
+            "text": "Buscar informació de fonts digitals i analògiques, segures i fiables, seleccionades de manera pautada per utilitzar-la en",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.1",
-            "text": "Fer ús, de forma"
+            "text": "Fer ús, de forma",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Utilitzar dispositius i"
+            "text": "Utilitzar dispositius i",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.3",
-            "text": "Crear continguts digitals contrastar, organitzar i"
+            "text": "Crear continguts digitals contrastar, organitzar i",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.4",
-            "text": "Participar en la realització de tasques col·laboratives fent ús de recursos digitals en entorns de treball col·laboratiu dins i fora del centre."
+            "text": "Participar en la realització de tasques col·laboratives fent ús de recursos digitals en entorns de treball col·laboratiu dins i fora del centre.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Demostrar curiositat, formulant-se preguntes investigables i fer prediccions raonades per conèixer objectes, fets i fenòmens."
+            "text": "Demostrar curiositat, formulant-se preguntes investigables i fer prediccions raonades per conèixer objectes, fets i fenòmens.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.2",
-            "text": "Buscar i seleccionar de forma autònoma informació de diferents fonts digitals i analògiques segures i"
+            "text": "Buscar i seleccionar de forma autònoma informació de diferents fonts digitals i analògiques segures i",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Demostrar i mantenir la curiositat, formulant-se preguntes investigables i fer prediccions raonades sobre temes d’actualitat relacionats amb el medi."
+            "text": "Demostrar i mantenir la curiositat, formulant-se preguntes investigables i fer prediccions raonades sobre temes d’actualitat relacionats amb el medi.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.2",
-            "text": "Buscar, seleccionar i contrastar informació, de fonts digitals i analògiques segures i fiables per usar-la"
+            "text": "Buscar, seleccionar i contrastar informació, de fonts digitals i analògiques segures i fiables per usar-la",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -70,74 +81,90 @@
       "codi": "CE2",
       "text": "Plantejar-se preguntes sobre el món, aplicant les diferents formes de raonament i mètodes del pensament científic, per interpretar, respondre i predir els fets i fenòmens del medi natural, social i cultural i per prendre decisions creatives i decidir actuacions ètiques i socialment sostenibles.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Reconèixer necessitats o identificar reptes concrets de l’entorn proper i participar en projectes interdisciplinaris cooperatius, de manera guiada, per a la creació de prototips que els resolguin."
+            "text": "Reconèixer necessitats o identificar reptes concrets de l’entorn proper i participar en projectes interdisciplinaris cooperatius, de manera guiada, per a la creació de prototips que els resolguin.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Aportar idees que puguin donar resposta a un problema o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, compartint- les a través de descripcions orals, representacions i models i establir cooperativament criteris per avaluar el projecte i la gestió del treball conjunt."
+            "text": "Aportar idees que puguin donar resposta a un problema o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, compartint- les a través de descripcions orals, representacions i models i establir cooperativament criteris per avaluar el projecte i la gestió del treball conjunt.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Construir un producte final senzill que solucioni un repte o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional i provant, en equip, els diferents prototips fent ús de forma segura de les eines i els materials adequats."
+            "text": "Construir un producte final senzill que solucioni un repte o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional i provant, en equip, els diferents prototips fent ús de forma segura de les eines i els materials adequats.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.4",
-            "text": "Mostrar, de forma oral o gràfica, el producte final"
+            "text": "Mostrar, de forma oral o gràfica, el producte final",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.1",
-            "text": "Demostrar curiositat,"
+            "text": "Demostrar curiositat,",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Buscar informació de fonts digitals i analògiques,"
+            "text": "Buscar informació de fonts digitals i analògiques,",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.3",
-            "text": "Planificar experiments"
+            "text": "Planificar experiments",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.4",
-            "text": "Comparar i relacionar mesuraments precisos i per respondre la pregunta les informacions i els registres per respondre la plantejada."
+            "text": "Comparar i relacionar mesuraments precisos i per respondre la pregunta les informacions i els registres per respondre la plantejada.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.5",
-            "text": "Comunicar el resultat de investigació i les prediccions realitzades per valorar la les investigacions realitzades per proposar coherència de possibles realitzades de manera oral, respostes possibles a les solucions a les qüestions corporal i gràfica explicant el qüestions plantejades."
+            "text": "Comunicar el resultat de investigació i les prediccions realitzades per valorar la les investigacions realitzades per proposar coherència de possibles realitzades de manera oral, respostes possibles a les solucions a les qüestions corporal i gràfica explicant el qüestions plantejades.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Identificar i analitzar necessitats o reptes de l’entorn proper i establir objectius senzills per a la creació de prototips o solucions digitals que els resolguin."
+            "text": "Identificar i analitzar necessitats o reptes de l’entorn proper i establir objectius senzills per a la creació de prototips o solucions digitals que els resolguin.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Proposar possibles solucions que puguin donar resposta a un problema o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, compartint-les a través de descripcions orals, representacions i models i establir cooperativament criteris per avaluar el projecte i la gestió del treball conjunt."
+            "text": "Proposar possibles solucions que puguin donar resposta a un problema o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, compartint-les a través de descripcions orals, representacions i models i establir cooperativament criteris per avaluar el projecte i la gestió del treball conjunt.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.3",
-            "text": "Elaborar un producte final senzill que solucioni un repte o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, i provant, en equip, els diferents prototips o solucions digitals fent ús de forma segura dels dispositius, les eines i els materials adequats."
+            "text": "Elaborar un producte final senzill que solucioni un repte o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, i provant, en equip, els diferents prototips o solucions digitals fent ús de forma segura dels dispositius, les eines i els materials adequats.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.4",
-            "text": "Presentar els resultats obtinguts explicant el procés"
+            "text": "Presentar els resultats obtinguts explicant el procés",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Avaluar les necessitats de l’entorn i establir objectius concrets per a la creació de prototips o solucions digitals que les resolguin."
+            "text": "Avaluar les necessitats de l’entorn i establir objectius concrets per a la creació de prototips o solucions digitals que les resolguin.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Dissenyar possibles solucions a problemes plantejats d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, mitjançant estratègies bàsiques de gestió de projectes cooperatius, tenint en compte els recursos necessaris, les fases d’execució i establint criteris concrets per avaluar la seva viabilitat."
+            "text": "Dissenyar possibles solucions a problemes plantejats d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, mitjançant estratègies bàsiques de gestió de projectes cooperatius, tenint en compte els recursos necessaris, les fases d’execució i establint criteris concrets per avaluar la seva viabilitat.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.3",
-            "text": "Elaborar i desenvolupar un producte final que solucioni un repte o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, i provant, en equip, els diferents prototips o solucions digitals fent ús de forma segura i responsable dels dispositius, eines, tècniques i materials adequats."
+            "text": "Elaborar i desenvolupar un producte final que solucioni un repte o necessitat d’acord amb diferents formes de raonament, com el pensament de disseny o el pensament computacional, i provant, en equip, els diferents prototips o solucions digitals fent ús de forma segura i responsable dels dispositius, eines, tècniques i materials adequats.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -146,38 +173,45 @@
       "codi": "CE3",
       "text": "Resoldre problemes i reptes generant cooperativament un producte creatiu i innovador a partir de projectes interdisciplinaris, utilitzant diferents formes de raonament, com el pensament de disseny i el pensament computacional, per respondre a necessitats concretes.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Reconèixer i adoptar hàbits de vida saludable seguint pautes donades sobre higiene, alimentació"
+            "text": "Reconèixer i adoptar hàbits de vida saludable seguint pautes donades sobre higiene, alimentació",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.1",
-            "text": "Reconèixer necessitats"
+            "text": "Reconèixer necessitats",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Dissenyar possibles prototips que els resolguin."
+            "text": "Dissenyar possibles prototips que els resolguin.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Elaborar i desenvolupar"
+            "text": "Elaborar i desenvolupar",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.4",
-            "text": "Mostrar, de forma oral o materials adequats."
+            "text": "Mostrar, de forma oral o materials adequats.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Adoptar de forma autònoma hàbits de vida saludable valorant la importància de la higiene,"
+            "text": "Adoptar de forma autònoma hàbits de vida saludable valorant la importància de la higiene,",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar i fer propostes de millora justificades dels hàbits personals i col·lectius de vida saludables valorant"
+            "text": "Analitzar i fer propostes de millora justificades dels hàbits personals i col·lectius de vida saludables valorant",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -186,58 +220,70 @@
       "codi": "CE4",
       "text": "Conèixer i prendre consciència del propi cos, de les emocions i sentiments propis i aliens, a partir de l’adquisició d’hàbits fonamentats en coneixements científics, per aconseguir el benestar físic i emocional i afavorir la convivència.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA5.1",
-            "text": "Reconèixer les característiques, propietats i l’organització dels elements del medi natural, social i cultural a través de metodologies d’indagació i utilitzant les eines i processos adequats de manera pautada."
+            "text": "Reconèixer les característiques, propietats i l’organització dels elements del medi natural, social i cultural a través de metodologies d’indagació i utilitzant les eines i processos adequats de manera pautada.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer connexions directes entre diferents elements del medi natural, social i cultural."
+            "text": "Reconèixer connexions directes entre diferents elements del medi natural, social i cultural.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.3",
-            "text": "Mostrar actituds de respecte cap al patrimoni natural i cultural reconeixent-lo com un bé comú."
+            "text": "Mostrar actituds de respecte cap al patrimoni natural i cultural reconeixent-lo com un bé comú.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.1",
-            "text": "Reconèixer i adoptar"
+            "text": "Reconèixer i adoptar",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.2",
-            "text": "Prendre decisions el descans i la higiene."
+            "text": "Prendre decisions el descans i la higiene.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.3",
-            "text": "Diferenciar accions que l’àmbit global."
+            "text": "Diferenciar accions que l’àmbit global.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA5.1",
-            "text": "Identificar les característiques, propietats i l’organització dels elements del medi natural, social i cultural a través de metodologies d’indagació i utilitzant les eines i processos adequats."
+            "text": "Identificar les característiques, propietats i l’organització dels elements del medi natural, social i cultural a través de metodologies d’indagació i utilitzant les eines i processos adequats.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer connexions entre diferents elements del medi natural social i cultural, comprenent les relacions que s’estableixen i fent prediccions dels possibles efectes."
+            "text": "Reconèixer connexions entre diferents elements del medi natural social i cultural, comprenent les relacions que s’estableixen i fent prediccions dels possibles efectes.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.3",
-            "text": "Valorar i protegir el patrimoni natural i cultural considerant-lo com un bé comú, adoptant conductes respectuoses per al seu gaudiment i proposant accions per a la seva conservació i millora."
+            "text": "Valorar i protegir el patrimoni natural i cultural considerant-lo com un bé comú, adoptant conductes respectuoses per al seu gaudiment i proposant accions per a la seva conservació i millora.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA5.1",
-            "text": "Identificar i analitzar les característiques, propietats i l’organització dels elements del medi natural, social i cultural a través de metodologies d’indagació i utilitzant les eines i processos adequats."
+            "text": "Identificar i analitzar les característiques, propietats i l’organització dels elements del medi natural, social i cultural a través de metodologies d’indagació i utilitzant les eines i processos adequats.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.2",
-            "text": "Establir connexions entre diferents elements del medi natural social i cultural, analitzant les relacions que s’hi estableixen i fer prediccions dels possibles efectes."
+            "text": "Establir connexions entre diferents elements del medi natural social i cultural, analitzant les relacions que s’hi estableixen i fer prediccions dels possibles efectes.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.3",
-            "text": "Valorar i proposar accions de conservació, protecció i millora del patrimoni natural i cultural, a través de compromisos i conductes a favor de la sostenibilitat."
+            "text": "Valorar i proposar accions de conservació, protecció i millora del patrimoni natural i cultural, a través de compromisos i conductes a favor de la sostenibilitat.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -246,58 +292,70 @@
       "codi": "CE5",
       "text": "Analitzar les característiques de diferents elements o sistemes del medi natural, social i cultural, identificant la seva organització i propietats, establint relacions entre aquests, per tal de reconèixer el valor del patrimoni cultural i natural i emprendre accions per a un ús responsable, la seva conservació i la millora.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA6.1",
-            "text": "Identificar la relació de l’ésser humà amb el món que l’envolta en l’ús i aprofitament dels elements i recursos de l’entorn."
+            "text": "Identificar la relació de l’ésser humà amb el món que l’envolta en l’ús i aprofitament dels elements i recursos de l’entorn.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.2",
-            "text": "Participar en activitats que permeten avançar cap als objectius de desenvolupament sostenible de manera conscient i contextualitzada."
+            "text": "Participar en activitats que permeten avançar cap als objectius de desenvolupament sostenible de manera conscient i contextualitzada.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.3",
-            "text": "Mostrar comportaments i actituds de vida sostenible, conseqüents amb el respecte, la cura i la protecció del planeta."
+            "text": "Mostrar comportaments i actituds de vida sostenible, conseqüents amb el respecte, la cura i la protecció del planeta.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.1",
-            "text": "Reconèixer les"
+            "text": "Reconèixer les",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer connexions"
+            "text": "Reconèixer connexions",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.3",
-            "text": "Mostrar actituds de efectes."
+            "text": "Mostrar actituds de efectes.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA6.1",
-            "text": "Identificar i analitzar la intervenció humana en el món, en problemes ecosocials, proposant solucions possibles a escala local."
+            "text": "Identificar i analitzar la intervenció humana en el món, en problemes ecosocials, proposant solucions possibles a escala local.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA6.2",
-            "text": "Escollir i realitzar accions cooperatives que facilitin afrontar els reptes i desafiaments proposats en els objectius de desenvolupament sostenible de manera crítica i contextualitzada."
+            "text": "Escollir i realitzar accions cooperatives que facilitin afrontar els reptes i desafiaments proposats en els objectius de desenvolupament sostenible de manera crítica i contextualitzada.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA6.3",
-            "text": "Adquirir hàbits de vida sostenible i conseqüents amb el respecte, la cura i la protecció de les persones i del planeta."
+            "text": "Adquirir hàbits de vida sostenible i conseqüents amb el respecte, la cura i la protecció de les persones i del planeta.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar la intervenció humana en el món i aportar opinions fonamentades per fer front a problemes ecosocials i involucrar-se en la seva resolució."
+            "text": "Analitzar la intervenció humana en el món i aportar opinions fonamentades per fer front a problemes ecosocials i involucrar-se en la seva resolució.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.2",
-            "text": "Dissenyar propostes o activitats, cooperativament, per avançar cap a la consecució dels objectius de desenvolupament sostenible de manera crítica i contextualitzada."
+            "text": "Dissenyar propostes o activitats, cooperativament, per avançar cap a la consecució dels objectius de desenvolupament sostenible de manera crítica i contextualitzada.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.3",
-            "text": "Participar en la construcció de models de convivència sostenibles en el temps basats en la cooperació, la cura i protecció de l’entorn i el respecte a les persones i al planeta."
+            "text": "Participar en la construcció de models de convivència sostenibles en el temps basats en la cooperació, la cura i protecció de l’entorn i el respecte a les persones i al planeta.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -306,58 +364,70 @@
       "codi": "CE6",
       "text": "Analitzar críticament les causes i conseqüències de la intervenció humana en l’entorn integrant els vessants social, econòmic, cultural, tecnològic i ambiental definits en els objectius de desenvolupament sostenible, per tal de promoure la capacitat d’afrontar els problemes, aportar solucions i actuar de manera individual i col·laborativa en la seva resolució, posant en pràctica hàbits de vida i de consum responsable i sostenible.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA7.1",
-            "text": "Detectar i contextualitzar temporalment esdeveniments propis i propers emprant nocions de mesura i successió bàsiques."
+            "text": "Detectar i contextualitzar temporalment esdeveniments propis i propers emprant nocions de mesura i successió bàsiques.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.2",
-            "text": "Observar i detectar canvis i continuïtats del medi en l’entorn proper en el pas del temps."
+            "text": "Observar i detectar canvis i continuïtats del medi en l’entorn proper en el pas del temps.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.3",
-            "text": "Mostrar curiositat per la vida quotidiana de les persones al llarg del temps."
+            "text": "Mostrar curiositat per la vida quotidiana de les persones al llarg del temps.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.1",
-            "text": "Identificar la relació de"
+            "text": "Identificar la relació de",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.2",
-            "text": "Participar en activitats que permeten avançar cap"
+            "text": "Participar en activitats que permeten avançar cap",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.3",
-            "text": "Mostrar comportaments i de manera crítica i contextualitzada."
+            "text": "Mostrar comportaments i de manera crítica i contextualitzada.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA7.1",
-            "text": "Identificar i contextualitzar temporalment, esdeveniments de l’entorn proper per poder interpretar el present com a producte del passat i comprendre la incidència de les decisions actuals en el futur."
+            "text": "Identificar i contextualitzar temporalment, esdeveniments de l’entorn proper per poder interpretar el present com a producte del passat i comprendre la incidència de les decisions actuals en el futur.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA7.2",
-            "text": "Interpretar canvis i continuïtats del medi establint relacions de causalitat en diferents moments històrics."
+            "text": "Interpretar canvis i continuïtats del medi establint relacions de causalitat en diferents moments històrics.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA7.3",
-            "text": "Conèixer els trets de les diferents societats al llarg del temps i el paper que les persones han desenvolupat en la història."
+            "text": "Conèixer els trets de les diferents societats al llarg del temps i el paper que les persones han desenvolupat en la història.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA7.1",
-            "text": "Relacionar i contextualitzar temporalment, esdeveniments rellevants per poder interpretar els canvis el present com a producte del passat i comprendre la incidència de les decisions actuals en el futur."
+            "text": "Relacionar i contextualitzar temporalment, esdeveniments rellevants per poder interpretar els canvis el present com a producte del passat i comprendre la incidència de les decisions actuals en el futur.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA7.2",
-            "text": "Analitzar els canvis i les continuïtats a partir de les relacions de causalitat, simultaneïtat i successió de diferents moments històrics, culturals, socials i en el medi natural on les societats es desenvolupen."
+            "text": "Analitzar els canvis i les continuïtats a partir de les relacions de causalitat, simultaneïtat i successió de diferents moments històrics, culturals, socials i en el medi natural on les societats es desenvolupen.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA7.3",
-            "text": "Relacionar les diferents èpoques de la història i identificar les accions i fets humans més destacats valorant els canvis que han provocat."
+            "text": "Relacionar les diferents èpoques de la història i identificar les accions i fets humans més destacats valorant els canvis que han provocat.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -366,58 +436,70 @@
       "codi": "CE7",
       "text": "Observar, detectar, comprendre i interpretar canvis i continuïtats del medi natural, social i cultural, analitzant relacions de causalitat, simultaneïtat i successió, per explicar i valorar les relacions entre diferents elements i esdeveniments que permeten entendre el present i imaginar futurs possibles.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA8.1",
-            "text": "Mostrar actituds que fomenten l’equitat, la igualtat de gènere i les conductes no sexistes reconeixent models positius en l’entorn pròxim."
+            "text": "Mostrar actituds que fomenten l’equitat, la igualtat de gènere i les conductes no sexistes reconeixent models positius en l’entorn pròxim.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA8.2",
-            "text": "Promoure actituds d’equitat, igualtat de gènere i conductes no sexistes, detectant i contrastant diferents models en l’entorn pròxim."
+            "text": "Promoure actituds d’equitat, igualtat de gènere i conductes no sexistes, detectant i contrastant diferents models en l’entorn pròxim.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA8.3",
-            "text": "Reconèixer les manifestacions i la diversitat cultural des d’una perspectiva de gènere."
+            "text": "Reconèixer les manifestacions i la diversitat cultural des d’una perspectiva de gènere.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.1",
-            "text": "Detectar i contextualitzar"
+            "text": "Detectar i contextualitzar",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.2",
-            "text": "Observar i detectar incidència de les decisions comprendre la incidència de canvis i continuïtats del actuals en el futur."
+            "text": "Observar i detectar incidència de les decisions comprendre la incidència de canvis i continuïtats del actuals en el futur.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.3",
-            "text": "Mostrar curiositat per la establint relacions de continuïtats a partir de les vida quotidiana de les causalitat en diferents relacions de causalitat, persones al llarg del temps."
+            "text": "Mostrar curiositat per la establint relacions de continuïtats a partir de les vida quotidiana de les causalitat en diferents relacions de causalitat, persones al llarg del temps.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA8.1",
-            "text": "Promoure actituds d’equitat, igualtat de gènere i conductes no sexistes, analitzant i contrastant diferents models en la nostra societat."
+            "text": "Promoure actituds d’equitat, igualtat de gènere i conductes no sexistes, analitzant i contrastant diferents models en la nostra societat.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA8.2",
-            "text": "Contribuir al benestar individual i col·lectiu de la societat, amb accions que fomenten l’equitat, la igualtat de gènere i les conductes no sexistes, reconeixent models positius al llarg de la història."
+            "text": "Contribuir al benestar individual i col·lectiu de la societat, amb accions que fomenten l’equitat, la igualtat de gènere i les conductes no sexistes, reconeixent models positius al llarg de la història.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA8.3",
-            "text": "Valorar les manifestacions i la diversitat cultural i relacionar-les amb qui les ha creat des d’una perspectiva de gènere."
+            "text": "Valorar les manifestacions i la diversitat cultural i relacionar-les amb qui les ha creat des d’una perspectiva de gènere.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA8.1",
-            "text": "Posicionar-se críticament a favor actituds d’equitat, igualtat de gènere i conductes no sexistes, analitzant i contrastant diferents models en la nostra societat."
+            "text": "Posicionar-se críticament a favor actituds d’equitat, igualtat de gènere i conductes no sexistes, analitzant i contrastant diferents models en la nostra societat.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA8.2",
-            "text": "Actuar per la igualtat efectiva de les persones i desmuntar estereotips i rols en tots els àmbits."
+            "text": "Actuar per la igualtat efectiva de les persones i desmuntar estereotips i rols en tots els àmbits.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA8.3",
-            "text": "Valorar les manifestacions culturals i relacionar-les amb qui les ha creat i la seva època, per interpretar les diverses cosmovisions i la seva finalitat."
+            "text": "Valorar les manifestacions culturals i relacionar-les amb qui les ha creat i la seva època, per interpretar les diverses cosmovisions i la seva finalitat.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -426,58 +508,70 @@
       "codi": "CE8",
       "text": "Reconèixer, valorar i defensar la diversitat i la igualtat de gènere reflexionant sobre qüestions ètiques i mostrant empatia i respecte, per tal de construir una societat diversa i equitativa i contribuir al benestar individual i col·lectiu i a la consecució dels valors dels drets humans.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA9.1",
-            "text": "Participar en l’entorn social i en la comunitat escolar, de manera assertiva i constructiva, amb responsabilitat i utilitzant un llenguatge inclusiu i no violent."
+            "text": "Participar en l’entorn social i en la comunitat escolar, de manera assertiva i constructiva, amb responsabilitat i utilitzant un llenguatge inclusiu i no violent.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.2",
-            "text": "Respectar les persones, valorant la seva diversitat i riquesa, i apreciant-la com a font d’aprenentatge."
+            "text": "Respectar les persones, valorant la seva diversitat i riquesa, i apreciant-la com a font d’aprenentatge.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.3",
-            "text": "Conèixer i interioritzar normes bàsiques de circulació, com a vianants i usuaris dels mitjans de locomoció implicats en el desenvolupament sostenible de la mobilitat de les persones."
+            "text": "Conèixer i interioritzar normes bàsiques de circulació, com a vianants i usuaris dels mitjans de locomoció implicats en el desenvolupament sostenible de la mobilitat de les persones.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA8.1",
-            "text": "Mostrar actituds que"
+            "text": "Mostrar actituds que",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA8.2",
-            "text": "Promoure actituds"
+            "text": "Promoure actituds",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA8.3",
-            "text": "Valorar les models positius al llarg de la"
+            "text": "Valorar les models positius al llarg de la",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA9.1",
-            "text": "Participar en la comunitat escolar i la vida social realitzant activitats, assumint responsabilitats i establint acords de forma dialogada i democràtica, emprant un llenguatge inclusiu i no violent."
+            "text": "Participar en la comunitat escolar i la vida social realitzant activitats, assumint responsabilitats i establint acords de forma dialogada i democràtica, emprant un llenguatge inclusiu i no violent.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA9.2",
-            "text": "Contribuir al benestar individual i col·lectiu de la societat, analitzant la importància demogràfica, cultural i econòmica de les migracions en l’actualitat, valorant la diversitat i mostrant empatia i respecte per les cultures."
+            "text": "Contribuir al benestar individual i col·lectiu de la societat, analitzant la importància demogràfica, cultural i econòmica de les migracions en l’actualitat, valorant la diversitat i mostrant empatia i respecte per les cultures.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA9.3",
-            "text": "Prendre decisions responsables com a vianants i usuaris dels mitjans de locomoció, de la importància de la mobilitat sostenible de les persones, coneixent les normes i els senyals de trànsit fent-ne un bon ús."
+            "text": "Prendre decisions responsables com a vianants i usuaris dels mitjans de locomoció, de la importància de la mobilitat sostenible de les persones, coneixent les normes i els senyals de trànsit fent-ne un bon ús.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA9.1",
-            "text": "Participar activament en la comunitat escolar, la vida social i l’entorn assumint responsabilitats, establint acords i presentant propostes de millora de la vida al centre, des de l’exercici dels principis democràtics, que emanen dels drets humans i dels infants i de les minories."
+            "text": "Participar activament en la comunitat escolar, la vida social i l’entorn assumint responsabilitats, establint acords i presentant propostes de millora de la vida al centre, des de l’exercici dels principis democràtics, que emanen dels drets humans i dels infants i de les minories.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA9.2",
-            "text": "Contribuir al benestar individual i col·lectiu i a l’assoliment dels valors de la integració europea a través del coneixement dels processos geogràfics, històrics i culturals que han conformat la societat actual, valorant la diversitat cultural i mostrant empatia i respecte per les minories."
+            "text": "Contribuir al benestar individual i col·lectiu i a l’assoliment dels valors de la integració europea a través del coneixement dels processos geogràfics, històrics i culturals que han conformat la societat actual, valorant la diversitat cultural i mostrant empatia i respecte per les minories.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA9.3",
-            "text": "Contribuir activament a la mobilitat segura pròpia i de les altres persones durant els desplaçaments i valorant-ne els riscos."
+            "text": "Contribuir activament a la mobilitat segura pròpia i de les altres persones durant els desplaçaments i valorant-ne els riscos.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -486,46 +580,55 @@
       "codi": "CE9",
       "text": "Participar en la vida social de manera eficaç i constructiva respectant i aprofundint en el desenvolupament dels drets humans i dels infants i de les minories, per tal d’aconseguir una ciutadania activa, responsable i implicada.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA10.1",
-            "text": "Identificar institucions properes, assenyalant i valorant les funcions desenvolupades que promouen una bona convivència."
+            "text": "Identificar institucions properes, assenyalant i valorant les funcions desenvolupades que promouen una bona convivència.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA10.2",
-            "text": "Conèixer els propis drets i deures per promoure la cohesió social i els valors de la cultura de la pau."
+            "text": "Conèixer els propis drets i deures per promoure la cohesió social i els valors de la cultura de la pau.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.1",
-            "text": "Participar en l’entorn"
+            "text": "Participar en l’entorn",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.2",
-            "text": "Respectar les persones, democràtics, que emanen valorant la seva diversitat i"
+            "text": "Respectar les persones, democràtics, que emanen valorant la seva diversitat i",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.3",
-            "text": "Conèixer i interioritzar cultural i econòmica de les individual i col·lectiu i a normes bàsiques de migracions en l’actualitat, l’assoliment dels valors de la circulació, com a vianants i valorant la diversitat i integració europea a través usuaris dels mitjans de mostrant empatia i respecte del coneixement dels locomoció implicats en el per les cultures."
+            "text": "Conèixer i interioritzar cultural i econòmica de les individual i col·lectiu i a normes bàsiques de migracions en l’actualitat, l’assoliment dels valors de la circulació, com a vianants i valorant la diversitat i integració europea a través usuaris dels mitjans de mostrant empatia i respecte del coneixement dels locomoció implicats en el per les cultures.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA10.1",
-            "text": "Conèixer els òrgans de govern de diferents institucions municipals i valorar els seus mecanismes de funcionament per a la participació ciutadana i democràtica."
+            "text": "Conèixer els òrgans de govern de diferents institucions municipals i valorar els seus mecanismes de funcionament per a la participació ciutadana i democràtica.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA10.2",
-            "text": "Actuar en defensa dels drets i deures propis i dels altres per promoure la cohesió social i els valors de la cultura de la pau."
+            "text": "Actuar en defensa dels drets i deures propis i dels altres per promoure la cohesió social i els valors de la cultura de la pau.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA10.1",
-            "text": "Identificar i analitzar el funcionament dels òrgans de govern de les comunitats autònomes, de l’Estat espanyol i de la Unió Europea, valorant les seves accions en la gestió dels serveis públics per a la ciutadania."
+            "text": "Identificar i analitzar el funcionament dels òrgans de govern de les comunitats autònomes, de l’Estat espanyol i de la Unió Europea, valorant les seves accions en la gestió dels serveis públics per a la ciutadania.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA10.2",
-            "text": "Actuar per protegir els drets i deures propis i dels altres, reconèixer conductes no favorables i reaccionar en conseqüència per promoure la cohesió social i els valors de cultura de la pau."
+            "text": "Actuar per protegir els drets i deures propis i dels altres, reconèixer conductes no favorables i reaccionar en conseqüència per promoure la cohesió social i els valors de cultura de la pau.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -534,14 +637,16 @@
       "codi": "CE10",
       "text": "Valorar el funcionament de les administracions públiques, a partir dels principis i els valors que es desprenen de l’ordenament jurídic que regula la nostra convivència, per protegir els drets civils i polítics i generar interaccions respectuoses i equitatives promovent la resolució pacífica i dialogada dels conflictes.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA10.1",
-            "text": "Identificar institucions"
+            "text": "Identificar institucions",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA10.2",
-            "text": "Conèixer els propis democràtica."
+            "text": "Conèixer els propis democràtica.",
+            "clau_origen": "CI"
           }
         ]
       }
@@ -554,587 +659,1066 @@
     }
   ],
   "_validacio": {
-    "fragments_ok": 684,
-    "fragments_no_trobats": 0,
-    "pct_verificat": 100.0,
-    "errors_mostra": []
+    "validacio_pendent": false,
+    "metode": "re-extracció per coordenades/layout (negreta=bloc, guió=saber, normal=wrap); cicle per secció",
+    "total_sabers": 132
   },
   "sabers_items": [
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció de tècniques d’indagació (observacions, identificació i classificació, formulació de preguntes i prediccions, planificació i realització d’experiments i recerques, cerca de patrons, creació de models, cerca d’informació i de dades, experiments amb control de variables, comunicació dels resultats…) adequades a les necessitats de la investigació"
+      "text": "Selecció de tècniques d’indagació adequades (observació, formulació de preguntes i prediccions, planificació i realització d’experiments, cerca d’informació, mesura, cerca de patrons, comunicació…) a les necessitats de la investigació.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització d’instruments i dispositius (analògics i digitals) apropiats per a l’observació i la mesura precises d’acord amb les necessitats de les diferents preguntes, problemes i investigacions"
+      "text": "Utilització d’instruments i dispositius apropiats per a l’observació i la mesura d’acord amb les necessitats de les diferents preguntes, problemes i investigacions plantejades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Construcció i ús del vocabulari científic relacionat amb les diferents investigacions i temàtiques estudiades"
+      "text": "Construcció i ús del vocabulari científic relacionat amb les diferents investigacions i temàtiques plantejades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement dels avenços en el passat i en el present relacionats amb la ciència i la tecnologia que contribueixen a transformar la nostra societat i tot mostrant models des d’una perspectiva de gènere"
+      "text": "Valoració dels coneixements científics com a mitjà per entendre els fets i fenòmens de l’entorn natural i de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració de l’ús de la ciència i la tecnologia per ajudar a comprendre les causes de les pròpies accions, prendre decisions raonades i executar tasques de forma més eficient. ● La vida al nostre planeta"
+      "text": "Reconeixement de la ciència i la tecnologia com a activitats humanes, similituds i diferències en les professions relacionades amb la ciència i la tecnologia des d’una perspectiva de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Estudi i anàlisi de les característiques dels diferents ecosistemes com espais, on els factors abiòtics i biòtics es mantenen en equilibri per tal d’entendre i prendre bones decisions respecte a l’ús dels recursos naturals del planeta"
+      "text": "Comprensió dels aspectes bàsics de les funcions vitals dels éssers vius des d’una perspectiva integrada: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie, per distingir-los dels objectes inerts.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de les característiques pròpies de les plantes i els animals que permeten la classificació i diferenciació en subgrups relacionats amb la capacitat adaptativa al medi: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie, i varietats autòctones"
+      "text": "Producció i identificació dels nutrients, l’aigua i l’aire com les substàncies imprescindibles per a la vida.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comprensió dels aspectes bàsics de les funcions vitals de l’ésser humà des d’una perspectiva integrada: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie"
+      "text": "Anàlisi de les adaptacions dels éssers vius a l’hàbitat per tal de classificar-los segons les característiques observables.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de pautes per a una alimentació saludable: menús saludables i equilibrats amb productes de proximitat, importància del cistell de la compra i de l’etiquetatge dels productes alimentaris per conèixer els nutrients i el suport energètic i així prendre decisions raonades"
+      "text": "Valoració de les relacions entre els éssers humans, els animals i les plantes per aplicar normes de cura i respecte als éssers vius i a l’entorn en què viuen.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i ús d’hàbits saludables relacionats amb el benestar emocional i social: estratègies d’identificació i gestió de les pròpies emocions per respectar i acceptar la diversitat present a l’aula i a la societat. ● Matèria, forces i energia"
+      "text": "Identificació i ús d’hàbits saludables relacionats amb el benestar físic de l’ésser humà: higiene, alimentació variada i equilibrada, consum de productes de proximitat, exercici físic, descans i cura del propi cos per prevenir possibles malalties.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement de les diferents fonts i formes de producció de calor, les interaccions amb diferents materials (conductors i aïllants) i la utilització d’instruments de mesura per aplicar aquests coneixements en la prevenció de riscos a la vida quotidiana"
+      "text": "Identificació i ús d’hàbits saludables relacionats amb el benestar emocional i social: estratègies d’identificació de les pròpies emocions per respectar i acceptar la diversitat present a l’aula i a l’entorn proper.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i anàlisi de les propietats de l’aigua a partir de l’experimentació per entendre el seu paper vital en el medi i la necessitat de fer-ne un ús responsable"
+      "text": "Reconeixement de la llum i el so com a formes d’energia que es poden percebre i de les seves propietats descobrint i experimentant el seu funcionament i ús en situacions de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Separació, mitjançant diferents mètodes, de mescles heterogènies distingint aquestes de les mescles homogènies i de substàncies pures identificant-les en el medi ambient"
+      "text": "Distinció dels materials, les seves característiques, propietats i procedència en objectes de la vida quotidiana per justificar-ne l’ús.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi de les forces de contacte i distància per entendre el seu efecte sobre els objectes, en funció de la seva mida, massa i forma i la interacció entre si"
+      "text": "Interpretació dels canvis d’estat de la matèria en interaccionar amb la calor per explicar fenòmens naturals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comprensió de les propietats de les màquines simples i els seus efectes sobre les forces per establir relacions amb la natura i usos en la vida quotidiana. Tecnologia i digitalització ● Digitalització de l’entorn personal d’aprenentatge"
+      "text": "Comprensió de l’efecte de les forces de càrrega sobre estructures construïdes amb materials d’ús comú amb diferents seccions i geometria, per construir estructures resistents, estables i útils.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció i utilització de dispositius i recursos de digitals d’acord amb les necessitats del context educatiu"
+      "text": "Ús de les funcionalitats dels dispositius i recursos digitals d’aprenentatge d’acord amb les necessitats del context educatiu (cerca d’informació, representació del coneixement, creació de continguts digitals…).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de les funcionalitats dels dispositius i recursos digitals d’aprenentatge (cerca d’informació, representació del coneixement, creació de continguts digitals…)"
+      "text": "Utilització de recursos digitals de forma segura per compartir contextos d’aprenentatge a través de la comunicació amb persones o entitats.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació guiada d’estratègies de cerca, fent valoració, discriminació, selecció i organització de les informacions més segures i eficients"
+      "text": "Identificació de les fases del pensament computacional en reptes simples: aplicació d’ordres i seqüències bàsiques per a la resolució d’un problema senzill.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de les normes bàsiques de seguretat, protecció i privacitat en navegar per Internet i per protegir l’entorn personal d’aprenentatge (contrasenyes segures, identitat digital...)"
+      "text": "Aplicació de manera guiada i col·laborativa de les fases del projecte de disseny: empatitza, defineix, idea, prototipa i avalua.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de les regles bàsiques d’etiqueta digital, cortesia i respecte en establir comunicació digital amb altres persones. ● Projectes de disseny i pensament computacional"
+      "text": "Utilització de materials, objectes, eines i recursos analògics i digitals (plataformes digitals d’iniciació a la programació, robòtica educativa…) adequats per a la consecució del projecte.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i aplicació de les fases del pensament computacional en reptes simples: descomposició d’un repte en parts més senzilles, reconeixement de patrons i elaboració de seqüències per a la resolució del problema o la creació d’un producte"
+      "text": "Aplicació d’estratègies bàsiques pel treball en equip.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i aplicació de les fases del projecte de disseny: empatitza, defineix, idea, prototipa i avalua per donar resposta a una necessitat concreta"
+      "text": "Percepció dels elements, moviments i dinàmiques de la Terra a l’univers, recollint dades per interpretar les seqüències temporals i els canvis estacionals en la vida diària i en l’entorn.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de materials, d’eines i recursos adequats per a la consecució del projecte"
+      "text": "Apreciació de les diferències i semblances en els elements geològics que constitueixen l’entorn proper per entendre les dinàmiques que es produeixen i els seus efectes en la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció i utilització de materials, objectes, eines i recursos analògics i digitals (plataformes digitals de programació per blocs, robòtica educativa, sensors…) adequats en la consecució del projecte"
+      "text": "Creació guiada d’itineraris, trajectes, desplaçaments i viatges utilitzant el pensament espacial i temporal i les interaccions amb el medi.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de tècniques cooperatives per al treball en equip i estratègies per a la gestió de conflictes i promoció de conductes empàtiques i inclusives també en entorns digitals"
+      "text": "Observació dels fenòmens atmosfèrics fent un registre de dades per determinar alguna regularitat i valorar la repercussió en els cicles biològics i en la vida diària.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Relacions entre els diferents elements que componen l’Univers i les seves dinàmiques per interpretar fenòmens físics que afecten la Terra i repercuteixen en la vida diària i l’entorn"
+      "text": "Introducció als objectius de desenvolupament sostenible a partir de l’anàlisi de problemes i de les accions quotidianes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Representació de l’espai i de la terra en mapes i plànols a diferents escales emprant, entre altres, els recursos digitals. Utilització de diferents tècniques analògiques i digitals i estratègies d’orientació, a partir de l’observació dels elements del medi en la localització espacial"
+      "text": "Identificació i anàlisi dels rols de gènere en l’entorn proper per fomentar conductes no sexistes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Interacció entre la superfície terrestre i els agents externs (aigua, vent, éssers vius…) per entendre com canvien els paisatges en els diferents territoris al llarg del temps i anàlisi de la influència de l’activitat humana"
+      "text": "Reflexió sobre el pas del temps i la mesura del temps en el cicle vital i les relacions intergeneracionals des del present cap al passat per entendre els canvis en els fets i esdeveniments quotidians.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi i registre de les dades meteorològiques a partir de la representació gràfica i visual i la utilització de les tecnologies de la informació geogràfica per entendre fenòmens i fer prediccions"
+      "text": "Ús de recursos i mitjans analògics i digitals, de les fonts orals i de la memòria col·lectiva per conèixer la història local i la biografia familiar.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "L’organització territorial de Catalunya, Espanya i Europa, estudi de les variables que influeixen en l’ocupació i distribució de la població en l’espai fent representacions gràfiques i cartogràfiques que posin de manifest els principals problemes i reptes demogràfics"
+      "text": "Iniciació a la investigació i als mètodes de treball per a la realització projectes que analitzin fets, esdeveniments i temes de rellevància personal per explicar la seva història.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comprensió del pas de la supervivència, economia de subsistència, a la sobreproducció, economia de consum global, analitzant les activitats productives, el valor, el control dels diners i mitjans de pagament per tendir a la igualtat social i garantir l’accés universal als recursos com a resposta a les problemàtiques subjacents als objectius de desenvolupament sostenible"
+      "text": "Coneixement del patrimoni material i immaterial de la seva localitat per valorar-lo i preservar-lo.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació dels rols i els estereotips relacionats amb el gènere en diferents contextos com la publicitat, pel·lícules, etc., i fer actuacions per eliminar conductes sexistes i tendir a la igualtat de gènere. ● Lliçons del passat"
+      "text": "Valoració de la diversitat familiar com a element on aprofundir en els drets de les persones i els valors dels drets humans.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ubicació i relació de fets i esdeveniments de l’entorn proper en eixos cronològics, digitals i analògics, per entendre el temps històric"
+      "text": "Adquisició de compromisos de participació i acceptació de normes en l’entorn familiar, veïnal i escolar, per a la prevenció, gestió i resolució dialogada de conflictes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Classificació i ús de les fonts històriques: orals, escrites i patrimonials, com a via per a l’anàlisi dels canvis i les continuïtats a la localitat al llarg de la història"
+      "text": "Reconeixement d’identitat i diversitat cultural: l’existència de realitats diferents i aproximació a les diferents ètnies i cultures presents en l’entorn, per afavorir la integració, rebutjar les actituds discriminatòries tot afavorint la cultura de la pau i no- violència.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús de la investigació i els mètodes de treball científic per a la realització projectes que analitzin fets, esdeveniments de la localitat amb perspectiva històrica, contextualitzant-los a l’època corresponent (prehistòria i edat antiga), de la vida quotidiana de l’entorn"
+      "text": "Identificació de les principals activitats professionals i laborals d’homes i dones del seu entorn, valorant l’ocupació i el treball per entendre els agents econòmics i els drets laborals des d’una perspectiva de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Interpretació de les accions de les persones com a subjectes en la història, dels diferents grups socials, relacions, conflictes, creences i condicionants per entendre que el present és el resultat de les accions del passat"
+      "text": "Identificació de les normes bàsiques en els desplaçaments com a vianants i usuaris dels mitjans de transport, per afavorir una mobilitat sostenible i segura.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement de les expressions culturals i artístiques de l’entorn per comprendre l’època en què va ser creat com a resultat d’una manera d’entendre el món en el seu context temporal"
+      "text": "Coneixement de l’entorn, dels paisatges naturals, dels humanitzats i dels seus elements, i estudi de les accions per a la conservació, millora i sostenibilitat dels béns comuns.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement del patrimoni natural i cultural per valorar-lo i preservar-lo. ● Alfabetització cívica"
+      "text": "Comprensió de la relació del cicle natural i humà de l’aigua, per aconseguir un ús sostenible del recurs.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de compromisos i normes per a la vida en societat per promoure una ciutadania que busqui una sortida als conflictes de forma pacífica i dialogada"
+      "text": "Reconeixement d’actuacions responsables orientades a la reducció, reutilització i reciclatge de residus en l’entorn proper.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i valoració dels costums, tradicions i manifestacions etnicoculturals de l’entorn, mostrant respecte per la diversitat cultural que conviu entorn de la cohesió social per afavorir la cultura de pau i no-violència"
+      "text": "Selecció de tècniques d’indagació (observacions, identificació i classificació, formulació de preguntes i prediccions, planificació i realització d’experiments i recerques, cerca de patrons, creació de models, cerca d’informació i de dades, experiments amb control de variables, comunicació dels resultats…) adequades a les necessitats de la investigació.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de l’estructura administrativa de l’Estat a partir de l’anàlisi de les principals institucions i entitats de l’entorn local, regional i nacional i els serveis que presten per entendre l’organització social"
+      "text": "Utilització d’instruments i dispositius (analògics i digitals) apropiats per a l’observació i la mesura precises d’acord amb les necessitats de les diferents preguntes, problemes i investigacions.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de les normes de circulació, senyals i marques viàries, per afavorir una mobilitat segura com a vianants i usuaris dels mitjans de transport col·lectius o personals. ● Consciència ecosocial"
+      "text": "Construcció i ús del vocabulari científic relacionat amb les diferents investigacions i temàtiques estudiades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Introducció a les causes i conseqüències del canvi climàtic, el seu impacte en els paisatges de la Terra identificant alhora mesures de mitigació relacionades amb l’activitat de les persones"
+      "text": "Reconeixement dels avenços en el passat i en el present relacionats amb la ciència i la tecnologia que contribueixen a transformar la nostra societat i tot mostrant models des d’una perspectiva de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement de com l’activitat humana actua en la transformació i la degradació dels ecosistemes naturals per aportar mesures de conservació i protecció presents i futures"
+      "text": "Valoració de l’ús de la ciència i la tecnologia per ajudar a comprendre les causes de les pròpies accions, prendre decisions raonades i executar tasques de forma més eficient.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Desenvolupament d’actituds de consum responsable dels recursos naturals i de les fonts d’energia, en diverses facetes de la vida"
+      "text": "Estudi i anàlisi de les característiques dels diferents ecosistemes com espais, on els factors abiòtics i biòtics es mantenen en equilibri per tal d’entendre i prendre bones decisions respecte a l’ús dels recursos naturals del planeta.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Esment i ús dels hàbits de consum responsable, els avantatges dels productes de proximitats i la defensa dels drets com a consumidor"
+      "text": "Identificació de les característiques pròpies de les plantes i els animals que permeten la classificació i diferenciació en subgrups relacionats amb la capacitat adaptativa al medi: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie, i varietats autòctones.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció de tècniques d’indagació (observacions, identificació i classificació, formulació de preguntes i prediccions, planificació i realització d’experiments i recerques, cerca de patrons, creació de models, cerca d’informació i de dades, experiments amb control de variables, comunicació dels resultats…) adequades a les necessitats de la investigació"
+      "text": "Comprensió dels aspectes bàsics de les funcions vitals de l’ésser humà des d’una perspectiva integrada: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització d’instruments i dispositius (analògics i digitals) apropiats per a l’observació i la mesura precises d’acord amb les necessitats de les diferents preguntes, problemes i investigacions"
+      "text": "Aplicació de pautes per a una alimentació saludable: menús saludables i equilibrats amb productes de proximitat, importància del cistell de la compra i de l’etiquetatge dels productes alimentaris per conèixer els nutrients i el suport energètic i així prendre decisions raonades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Construcció i ús del vocabulari científic relacionat amb les diferents investigacions i temàtiques estudiades"
+      "text": "Identificació i ús d’hàbits saludables relacionats amb el benestar emocional i social: estratègies d’identificació i gestió de les pròpies emocions per respectar i acceptar la diversitat present a l’aula i a la societat.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement de la ciència, la tecnologia, l’enginyeria i les matemàtiques com a activitats humanes, les professions relacionades amb aquests camps de coneixement en l’actualitat des d’una perspectiva de gènere"
+      "text": "Reconeixement de les diferents fonts i formes de producció de calor, les interaccions amb diferents materials (conductors i aïllants) i la utilització d’instruments de mesura per aplicar aquests coneixements en la prevenció de riscos a la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració de l’ús de la ciència, la tecnologia, les matemàtiques i l’enginyeria per comprendre les causes de les accions pròpies i col·lectives i prendre decisions raonades. ● La vida al nostre planeta"
+      "text": "Identificació i anàlisi de les propietats de l’aigua a partir de l’experimentació per entendre el seu paper vital en el medi i la necessitat de fer-ne un ús responsable.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Estudi del cicle de la matèria i del flux d’energia en els ecosistemes, reconeixement de les xarxes de relacions entre productors, herbívors, carnívors i descomponedors, per comprendre les dinàmiques de les poblacions"
+      "text": "Separació, mitjançant diferents mètodes, de mescles heterogènies distingint aquestes de les mescles homogènies i de substàncies pures identificant-les en el medi ambient.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Entesa dels aspectes bàsics de les funcions vitals de l’ésser humà des d’una perspectiva integrada: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie"
+      "text": "Anàlisi de les forces de contacte i distància per entendre el seu efecte sobre els objectes, en funció de la seva mida, massa i forma i la interacció entre si.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixença dels canvis físics, emocionals i socials que comporta la pubertat i l’adolescència per acceptar-los de forma positiva tant en un mateix com en altri"
+      "text": "Comprensió de les propietats de les màquines simples i els seus efectes sobre les forces per establir relacions amb la natura i usos en la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de pautes que fomenten una salut emocional i social adequada: higiene del son, gestió de l’oci del lleure, ús adequat de dispositius digitals i estratègies per al foment de relacions socials saludables. ● Matèria, forces i energia"
+      "text": "Selecció i utilització de dispositius i recursos de digitals d’acord amb les necessitats del context educatiu.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Experimentació amb la flotabilitat dels objectes, investigant la relació entre massa i volum utilitzant instruments de mesura per construir el concepte de densitat i aplicar- lo a situacions quotidianes"
+      "text": "Utilització de les funcionalitats dels dispositius i recursos digitals d’aprenentatge (cerca d’informació, representació del coneixement, creació de continguts digitals…).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Experimentació amb els canvis reversibles i irreversibles que afecten la matèria des d’un estat inicial a un de final, per reconèixer els processos i transformació que passen en la matèria en situacions properes a l’alumnat"
+      "text": "Aplicació guiada d’estratègies de cerca, fent valoració, discriminació, selecció i organització de les informacions més segures i eficients.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comprensió del funcionament de l’energia elèctrica amb relació a les fonts, les transformacions i la transferència, a través de l’experimentació de circuits elèctrics i estructures robotitzades, presents en l’entorn quotidià"
+      "text": "Utilització de les normes bàsiques de seguretat, protecció i privacitat en navegar per Internet i per protegir l’entorn personal d’aprenentatge (contrasenyes segures, identitat digital...).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi de les diferents fonts d’energia i la seva influència en la contribució al desenvolupament sostenible de la societat"
+      "text": "Aplicació de les regles bàsiques d’etiqueta digital, cortesia i respecte en establir comunicació digital amb altres persones.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació dels principis bàsics de l’aerodinàmica, indagant sobre les propietats de l’aire i la interacció amb objectes de diferents formes mides i materials per entendre les forces implicades en el vol. Tecnologia i digitalització ● Digitalització de l’entorn personal d’aprenentatge"
+      "text": "Identificació i aplicació de les fases del pensament computacional en reptes simples: descomposició d’un repte en parts més senzilles, reconeixement de patrons i elaboració de seqüències per a la resolució del problema o la creació d’un producte.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció i utilització de dispositius i de recursos digitals d’acord amb les necessitats del context educatiu"
+      "text": "Identificació i aplicació de les fases del projecte de disseny: empatitza, defineix, idea, prototipa i avalua per donar resposta a una necessitat concreta.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies avançades per a la planificació i la cerca d’informació (processos de millora de cerca, operadors lògics...) fent valoració, discriminació, selecció i organització de les informacions més segures, eficients i respectuoses amb la propietat intel·lectual"
+      "text": "Utilització de materials, d’eines i recursos adequats per a la consecució del projecte.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Domini de les regles bàsiques de recollida, emmagatzematge, organització i representació de dades per facilitar la comprensió i anàlisi"
+      "text": "Selecció i utilització de materials, objectes, eines i recursos analògics i digitals (plataformes digitals de programació per blocs, robòtica educativa, sensors…) adequats en la consecució del projecte.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de les normes bàsiques de seguretat, protecció i privacitat en navegar per Internet i per protegir l’entorn personal d’aprenentatge (contrasenyes segures, identitat digital...)"
+      "text": "Aplicació de tècniques cooperatives per al treball en equip i estratègies per a la gestió de conflictes i promoció de conductes empàtiques i inclusives també en entorns digitals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Compliment de les regles bàsiques de seguretat, protecció de privadesa per navegar per Internet i per protegir l’entorn personal d’aprenentatge (contrasenyes segures, identitat digital...) i integració de les eines bàsiques d’etiqueta digital, cortesia i respecte en establir comunicació digital amb altres persones. ● Projectes de disseny i pensament computacional"
+      "text": "Relacions entre els diferents elements que componen l’Univers i les seves dinàmiques per interpretar fenòmens físics que afecten la Terra i repercuteixen en la vida diària i l’entorn.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de les fases del pensament computacional en reptes complexos: descomposició del repte en parts més senzilles, reconeixement de patrons i elaboració de seqüències per a la resolució del problema o la creació d’un producte"
+      "text": "Representació de l’espai i de la terra en mapes i plànols a diferents escales emprant, entre altres, els recursos digitals. Utilització de diferents tècniques analògiques i digitals i estratègies d’orientació, a partir de l’observació dels elements del medi en la localització espacial.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Planificació i aplicació de les fases del projecte de disseny: empatitza, defineix, idea, prototipa i avalua per donar resposta a una necessitat concreta"
+      "text": "Interacció entre la superfície terrestre i els agents externs (aigua, vent, éssers vius…) per entendre com canvien els paisatges en els diferents territoris al llarg del temps i anàlisi de la influència de l’activitat humana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció i utilització de materials, objectes, eines (simuladors, editors de programació per blocs) i recursos analògics i digitals (sensors i actuadors, programes de disseny 2D i 3D…) adequats per a la consecució del projecte"
+      "text": "Anàlisi i registre de les dades meteorològiques a partir de la representació gràfica i visual i la utilització de les tecnologies de la informació geogràfica per entendre fenòmens i fer prediccions.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Cultura científica ● Iniciació a l’activitat científica",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització d’estratègies de resolució de problemes en situacions d’incertesa: adaptació i canvi d’estratègia quan calgui, valoració de l’error propi i dels altres com a oportunitat d’aprenentatge en el desenvolupament cooperatiu del projecte"
+      "text": "L’organització territorial de Catalunya, Espanya i Europa, estudi de les variables que influeixen en l’ocupació i distribució de la població en l’espai fent representacions gràfiques i cartogràfiques que posin de manifest els principals problemes i reptes demogràfics.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi crítica d’accions humanes a la Terra i l’univers com l’exploració, la contaminació espacial i lumínica per poder desenvolupar un criteri per actuar en conseqüència"
+      "text": "Comprensió del pas de la supervivència, economia de subsistència, a la sobreproducció, economia de consum global, analitzant les activitats productives, el valor, el control dels diners i mitjans de pagament per tendir a la igualtat social i garantir l’accés universal als recursos com a resposta a les problemàtiques subjacents als objectius de desenvolupament sostenible.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi de la Terra com a sistema, relacionant els elements que la conformen, les interaccions entre aquests i els canvis que provoquen en la vida quotidiana i en l’entorn"
+      "text": "Identificació dels rols i els estereotips relacionats amb el gènere en diferents contextos com la publicitat, pel·lícules, etc., i fer actuacions per eliminar conductes sexistes i tendir a la igualtat de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Introducció a la dinàmica atmosfèrica i les grans àrees climàtiques per relacionar la distribució dels ecosistemes i paisatges"
+      "text": "Ubicació i relació de fets i esdeveniments de l’entorn proper en eixos cronològics, digitals i analògics, per entendre el temps històric.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement de la diversitat geogràfica de Catalunya, d’Espanya i d’Europa. Representació gràfica, visual i cartogràfica a través de mitjans i recursos analògics i digitals usant les tecnologies de la informació geogràfica"
+      "text": "Classificació i ús de les fonts històriques: orals, escrites i patrimonials, com a via per a l’anàlisi dels canvis i les continuïtats a la localitat al llarg de la història.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de les principals variables demogràfiques i la seva representació gràfica que permeten analitzar els comportaments de la població i la seva evolució, els moviments migratoris, l’apreciació de la diversitat cultural i el contrast entre zones urbanes i despoblació rural"
+      "text": "Ús de la investigació i els mètodes de treball científic per a la realització projectes que analitzin fets, esdeveniments de la localitat amb perspectiva històrica, contextualitzant-los a l’època corresponent (prehistòria i edat antiga), de la vida quotidiana de l’entorn.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació dels fonaments i principis per a l’organització política i gestió del territori de l’Estat espanyol adequats, per afavorir la participació social i ciutadana i la possibilitat de l’exercici d’una ciutadania activa"
+      "text": "Interpretació de les accions de les persones com a subjectes en la història, dels diferents grups socials, relacions, conflictes, creences i condicionants per entendre que el present és el resultat de les accions del passat.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració dels efectes de l’economia global en la consecució dels objectius de desenvolupament sostenible"
+      "text": "Coneixement de les expressions culturals i artístiques de l’entorn per comprendre l’època en què va ser creat com a resultat d’una manera d’entendre el món en el seu context temporal.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi crítica dels estereotips i rols en els àmbits acadèmic, professional, social i cultural actuant per la igualtat efectiva de gènere i l’eliminació de conductes sexistes. ● Lliçons del passat"
+      "text": "Coneixement del patrimoni natural i cultural per valorar-lo i preservar-lo.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ubicació i relació de fets i esdeveniments de les grans etapes històriques en eixos cronològics, digitals i analògics, per entendre el temps històric"
+      "text": "Aplicació de compromisos i normes per a la vida en societat per promoure una ciutadania que busqui una sortida als conflictes de forma pacífica i dialogada.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi de diferents fonts històriques: orals, escrites i patrimonials per interpretar les accions individuals i col·lectives, de fets i esdeveniments rellevants de la història"
+      "text": "Identificació i valoració dels costums, tradicions i manifestacions etnicoculturals de l’entorn, mostrant respecte per la diversitat cultural que conviu entorn de la cohesió social per afavorir la cultura de pau i no-violència.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús de la investigació per a la realització de projectes que analitzin fets, esdeveniments i temes de rellevància actual amb perspectiva històrica, contextualitzant-los a l’època medieval, moderna i contemporània"
+      "text": "Identificació de l’estructura administrativa de l’Estat a partir de l’anàlisi de les principals institucions i entitats de l’entorn local, regional i nacional i els serveis que presten per entendre l’organització social.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reflexió sobre el paper dels invisibles (dones, infants, pobres...) en la història per entendre els principals moviments en defensa dels seus drets, la situació actual i els reptes de futur"
+      "text": "Identificació de les normes de circulació, senyals i marques viàries, per afavorir una mobilitat segura com a vianants i usuaris dels mitjans de transport col·lectius o personals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi multicausal del procés d’instauració de la democràcia de l’Estat espanyol, amb l’aprovació de la Constitució de 1978, per entendre les fórmules per a la participació de la ciutadania en la vida pública"
+      "text": "Introducció a les causes i conseqüències del canvi climàtic, el seu impacte en els paisatges de la Terra identificant alhora mesures de mitigació relacionades amb l’activitat de les persones.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Interpretació i anàlisi de les expressions artístiques i culturals contemporànies i de la seva evolució per valorar la funció de l’art i la cultura al món actual"
+      "text": "Coneixement de com l’activitat humana actua en la transformació i la degradació dels ecosistemes naturals per aportar mesures de conservació i protecció presents i futures.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració del patrimoni natural i cultural com un bé i un recurs per fer-ne ús des de la cura i la seva conservació. ● Alfabetització cívica"
+      "text": "Desenvolupament d’actituds de consum responsable dels recursos naturals i de les fonts d’energia, en diverses facetes de la vida.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració de la diversitat d’identitats, etnicocultural i de llengües de l’Estat espanyol, per afavorir una ciutadania més implicada en la defensa de les minories"
+      "text": "Esment i ús dels hàbits de consum responsable, els avantatges dels productes de proximitats i la defensa dels drets com a consumidor.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació dels principis i valors dels drets humans i de l’infant i l’ordenament jurídic establert, els drets i deures de la ciutadania, per valorar la contribució de l’Estat i les seves institucions a la pau, la seguretat i la cooperació internacional per al desenvolupament"
+      "text": "Selecció de tècniques d’indagació (observacions, identificació i classificació, formulació de preguntes i prediccions, planificació i realització d’experiments i recerques, cerca de patrons, creació de models, cerca d’informació i de dades, experiments amb control de variables, comunicació dels resultats…) adequades a les necessitats de la investigació.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de la cultura de pau i no-violència i ús del pensament crític com a eina per a l’anàlisi dels conflictes d’interessos"
+      "text": "Reconeixement de la ciència, la tecnologia, l’enginyeria i les matemàtiques com a activitats humanes, les professions relacionades amb aquests camps de coneixement en l’actualitat des d’una perspectiva de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement de l’organització política, les principals entitats polítiques i administratives de l’entorn local, autonòmic i nacional a l’Estat espanyol i els sistemes de representació i de participació política, per promoure i protegir els drets civils i polítics"
+      "text": "Valoració de l’ús de la ciència, la tecnologia, les matemàtiques i l’enginyeria per comprendre les causes de les accions pròpies i col·lectives i prendre decisions raonades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Distinció de les principals institucions de l’Estat espanyol i de la Unió Europea, dels seus valors i de les seves funcions, els seus àmbits d’acció i la seva repercussió en l’entorn, en la cohesió social i en els valors de cultura de la pau. ● Consciència ecosocial"
+      "text": "Estudi del cicle de la matèria i del flux d’energia en els ecosistemes, reconeixement de les xarxes de relacions entre productors, herbívors, carnívors i descomponedors, per comprendre les dinàmiques de les poblacions.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i anàlisi de les causes i conseqüències del canvi climàtic, a escala local i global proposant mesures de mitigació i adaptació"
+      "text": "Entesa dels aspectes bàsics de les funcions vitals de l’ésser humà des d’una perspectiva integrada: obtenció d’energia, relació amb l’entorn i perpetuació de l’espècie.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Anàlisi de la petjada ecològica en diferents parts el món i interpretació de les interrelacions entre les persones, l’economia i la natura amb criteri d’ecodependència"
+      "text": "Coneixença dels canvis físics, emocionals i socials que comporta la pubertat i l’adolescència per acceptar-los de forma positiva tant en un mateix com en altri.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement dels recursos limitats que ofereix el planeta, l’explotació que se’n fa i l’esgotament d’aquests"
+      "text": "Aplicació de pautes que fomenten una salut emocional i social adequada: higiene del son, gestió de l’oci del lleure, ús adequat de dispositius digitals i estratègies per al foment de relacions socials saludables.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement de l’activitat econòmica i la distribució de la riquesa com a font de les desigualtats socials i regionals en el món"
+      "text": "Experimentació amb la flotabilitat dels objectes, investigant la relació entre massa i volum utilitzant instruments de mesura per construir el concepte de densitat i aplicar- lo a situacions quotidianes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració d’actuacions que contribueixen a la consecució dels objectius de desenvolupament sostenible en l’orientació que donem al nostre estil de vida"
+      "text": "Experimentació amb els canvis reversibles i irreversibles que afecten la matèria des d’un estat inicial a un de final, per reconèixer els processos i transformació que passen en la matèria en situacions properes a l’alumnat.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement del valor social dels impostos en relació amb els drets i deures de la ciutadania"
+      "text": "Comprensió del funcionament de l’energia elèctrica amb relació a les fonts, les transformacions i la transferència, a través de l’experimentació de circuits elèctrics i estructures robotitzades, presents en l’entorn quotidià.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Societats i territoris ● Reptes del món actual",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Estudi del funcionament dels mercats (de béns i serveis, financer i laboral) analitzant la responsabilitat ambiental i social de les empreses, de les cooperatives, l’economia verda i del consum responsable i de productes de proximitat"
+      "text": "Anàlisi de les diferents fonts d’energia i la seva influència en la contribució al desenvolupament sostenible de la societat.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació dels principis bàsics de l’aerodinàmica, indagant sobre les propietats de l’aire i la interacció amb objectes de diferents formes mides i materials per entendre les forces implicades en el vol.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Selecció i utilització de dispositius i de recursos digitals d’acord amb les necessitats del context educatiu.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació d’estratègies avançades per a la planificació i la cerca d’informació (processos de millora de cerca, operadors lògics...) fent valoració, discriminació, selecció i organització de les informacions més segures, eficients i respectuoses amb la propietat intel·lectual.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Domini de les regles bàsiques de recollida, emmagatzematge, organització i representació de dades per facilitar la comprensió i anàlisi.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Compliment de les regles bàsiques de seguretat, protecció de privadesa per navegar per Internet i per protegir l’entorn personal d’aprenentatge (contrasenyes segures, identitat digital...) i integració de les eines bàsiques d’etiqueta digital, cortesia i respecte en establir comunicació digital amb altres persones.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació de les fases del pensament computacional en reptes complexos: descomposició del repte en parts més senzilles, reconeixement de patrons i elaboració de seqüències per a la resolució del problema o la creació d’un producte.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Planificació i aplicació de les fases del projecte de disseny: empatitza, defineix, idea, prototipa i avalua per donar resposta a una necessitat concreta.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Selecció i utilització de materials, objectes, eines (simuladors, editors de programació per blocs) i recursos analògics i digitals (sensors i actuadors, programes de disseny 2D i 3D…) adequats per a la consecució del projecte.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Utilització d’estratègies de resolució de problemes en situacions d’incertesa: adaptació i canvi d’estratègia quan calgui, valoració de l’error propi i dels altres com a oportunitat d’aprenentatge en el desenvolupament cooperatiu del projecte.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi crítica d’accions humanes a la Terra i l’univers com l’exploració, la contaminació espacial i lumínica per poder desenvolupar un criteri per actuar en conseqüència.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi de la Terra com a sistema, relacionant els elements que la conformen, les interaccions entre aquests i els canvis que provoquen en la vida quotidiana i en l’entorn.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Introducció a la dinàmica atmosfèrica i les grans àrees climàtiques per relacionar la distribució dels ecosistemes i paisatges.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Coneixement de la diversitat geogràfica de Catalunya, d’Espanya i d’Europa. Representació gràfica, visual i cartogràfica a través de mitjans i recursos analògics i digitals usant les tecnologies de la informació geogràfica.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Utilització de les principals variables demogràfiques i la seva representació gràfica que permeten analitzar els comportaments de la població i la seva evolució, els moviments migratoris, l’apreciació de la diversitat cultural i el contrast entre zones urbanes i despoblació rural.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació dels fonaments i principis per a l’organització política i gestió del territori de l’Estat espanyol adequats, per afavorir la participació social i ciutadana i la possibilitat de l’exercici d’una ciutadania activa.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Valoració dels efectes de l’economia global en la consecució dels objectius de desenvolupament sostenible.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi crítica dels estereotips i rols en els àmbits acadèmic, professional, social i cultural actuant per la igualtat efectiva de gènere i l’eliminació de conductes sexistes.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Ubicació i relació de fets i esdeveniments de les grans etapes històriques en eixos cronològics, digitals i analògics, per entendre el temps històric.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi de diferents fonts històriques: orals, escrites i patrimonials per interpretar les accions individuals i col·lectives, de fets i esdeveniments rellevants de la història.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Ús de la investigació per a la realització de projectes que analitzin fets, esdeveniments i temes de rellevància actual amb perspectiva històrica, contextualitzant-los a l’època medieval, moderna i contemporània.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Reflexió sobre el paper dels invisibles (dones, infants, pobres...) en la història per entendre els principals moviments en defensa dels seus drets, la situació actual i els reptes de futur.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi multicausal del procés d’instauració de la democràcia de l’Estat espanyol, amb l’aprovació de la Constitució de 1978, per entendre les fórmules per a la participació de la ciutadania en la vida pública.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Interpretació i anàlisi de les expressions artístiques i culturals contemporànies i de la seva evolució per valorar la funció de l’art i la cultura al món actual.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Valoració del patrimoni natural i cultural com un bé i un recurs per fer-ne ús des de la cura i la seva conservació.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Valoració de la diversitat d’identitats, etnicocultural i de llengües de l’Estat espanyol, per afavorir una ciutadania més implicada en la defensa de les minories.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació dels principis i valors dels drets humans i de l’infant i l’ordenament jurídic establert, els drets i deures de la ciutadania, per valorar la contribució de l’Estat i les seves institucions a la pau, la seguretat i la cooperació internacional per al desenvolupament.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació de la cultura de pau i no-violència i ús del pensament crític com a eina per a l’anàlisi dels conflictes d’interessos.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Reconeixement de l’organització política, les principals entitats polítiques i administratives de l’entorn local, autonòmic i nacional a l’Estat espanyol i els sistemes de representació i de participació política, per promoure i protegir els drets civils i polítics.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Distinció de les principals institucions de l’Estat espanyol i de la Unió Europea, dels seus valors i de les seves funcions, els seus àmbits d’acció i la seva repercussió en l’entorn, en la cohesió social i en els valors de cultura de la pau.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació i anàlisi de les causes i conseqüències del canvi climàtic, a escala local i global proposant mesures de mitigació i adaptació.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi de la petjada ecològica en diferents parts el món i interpretació de les interrelacions entre les persones, l’economia i la natura amb criteri d’ecodependència.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Coneixement dels recursos limitats que ofereix el planeta, l’explotació que se’n fa i l’esgotament d’aquests.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Reconeixement de l’activitat econòmica i la distribució de la riquesa com a font de les desigualtats socials i regionals en el món.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Valoració d’actuacions que contribueixen a la consecució dels objectius de desenvolupament sostenible en l’orientació que donem al nostre estil de vida.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Coneixement del valor social dels impostos en relació amb els drets i deures de la ciutadania.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Estudi del funcionament dels mercats (de béns i serveis, financer i laboral) analitzant la responsabilitat ambiental i social de les empreses, de les cooperatives, l’economia verda i del consum responsable i de productes de proximitat.",
+      "academic_avancat": false
     }
   ]
 }

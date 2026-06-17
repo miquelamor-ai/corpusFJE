@@ -8,7 +8,7 @@
     "data_decret": "2022-09-27",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Llengua-catalana-i-literatura.pdf",
     "nota_estructura": "Les CE i els criteris s'apliquen a tota l'etapa ESO. Els criteris s'organitzen per agrupament: '1r_3r' (1r, 2n i 3r) i '4t'. Els sabers també estan diferenciats per agrupament. AVÍS: aquest fitxer ha estat generat a partir del coneixement del Decret 175/2022 disponible fins a la data de tall del model. Es recomana verificar i completar el contingut contrastant-lo amb el PDF oficial.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "La Llengua i Literatura Catalana a l'ESO és la matèria que desenvolupa la competència comunicativa plena de l'alumnat en la llengua pròpia de Catalunya i llengua vehicular del sistema educatiu. Contribueix a la construcció de la identitat lingüística i cultural, forma lectors competents i escriptors capaços de produir textos en contextos variats i exigents. Connecta amb totes les matèries per la seva dimensió transversal i prepara per a la Llengua Catalana i Literatura de Batxillerat i les PAU.\n\nEls constructes disciplinaris clau inclouen els gèneres discursius (narratiu, argumentatiu, expositiu, líric, dramàtic), les propietats textuals (coherència, cohesió, adequació, registre), la gramàtica funcional (morfosintaxi, lèxic, ortografia normativa), les figures retòriques i els recursos estilístics, i la historiografia literària catalana (medieval, Renaixença, Noucentisme, avantguardes, literatura de postguerra i contemporània). La sociolingüística (variació dialectal, normalització, diglòssia) és un eix específic de la matèria.\n\nL'enfocament pedagògic és comunicatiu i literari: l'alumne llegeix obres completes i fragments del cànon català, escriu gèneres variats (comentaris de text, articles, narracions, poemes) i participa en exposicions orals i debats. La reflexió sobre la situació sociolingüística del català i el foment de l'ús en contextos informals formen part de l'educació lingüística. L'avaluació combina proves de comprensió lectora i expressió escrita amb l'observació de la comunicació oral i la participació activa."
   },
   "competencies_clau": [
@@ -40,32 +40,38 @@
         "CC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global i la informació rellevant de textos orals i multimodals de temàtica diversa, identificant el tema i els subtemes, i distingint la informació principal de la secundària."
+            "text": "Comprendre el sentit global i la informació rellevant de textos orals i multimodals de temàtica diversa, identificant el tema i els subtemes, i distingint la informació principal de la secundària.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA1.2",
-            "text": "Interpretar textos orals i multimodals de diferent gènere discursiu identificant-ne la intenció comunicativa, el context en què es produeixen i els recursos verbals i no verbals que s'hi utilitzen."
+            "text": "Interpretar textos orals i multimodals de diferent gènere discursiu identificant-ne la intenció comunicativa, el context en què es produeixen i els recursos verbals i no verbals que s'hi utilitzen.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA1.3",
-            "text": "Valorar textos orals i multimodals detectant els prejudicis i els estereotips, i adoptant una actitud crítica i ètica davant dels missatges rebuts."
+            "text": "Valorar textos orals i multimodals detectant els prejudicis i els estereotips, i adoptant una actitud crítica i ètica davant dels missatges rebuts.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global i la informació rellevant de textos orals i multimodals de temàtica i complexitat variades, reconeixent les idees implícites i explícites, i distingint la informació principal de la secundària."
+            "text": "Comprendre el sentit global i la informació rellevant de textos orals i multimodals de temàtica i complexitat variades, reconeixent les idees implícites i explícites, i distingint la informació principal de la secundària.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA1.2",
-            "text": "Interpretar textos orals i multimodals de diferent gènere discursiu i de caràcter formal, identificant-ne la intenció comunicativa, el context en què es produeixen i els recursos verbals i no verbals que s'hi utilitzen, tot valorant-ne l'adequació."
+            "text": "Interpretar textos orals i multimodals de diferent gènere discursiu i de caràcter formal, identificant-ne la intenció comunicativa, el context en què es produeixen i els recursos verbals i no verbals que s'hi utilitzen, tot valorant-ne l'adequació.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA1.3",
-            "text": "Valorar críticament textos orals i multimodals detectant els prejudicis i estereotips, analitzant la persuasió i la manipulació, i adoptant una actitud crítica i ètica davant dels missatges rebuts."
+            "text": "Valorar críticament textos orals i multimodals detectant els prejudicis i estereotips, analitzant la persuasió i la manipulació, i adoptant una actitud crítica i ètica davant dels missatges rebuts.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -82,32 +88,38 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Planificar la producció oral tenint en compte el gènere discursiu, el propòsit comunicatiu i la situació de comunicació."
+            "text": "Planificar la producció oral tenint en compte el gènere discursiu, el propòsit comunicatiu i la situació de comunicació.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA2.2",
-            "text": "Produir textos orals coherents, cohesionats i adequats a la situació comunicativa, usant els recursos verbals i no verbals adequats (to, pronunciació, entonació, gestualitat, recursos visuals...)."
+            "text": "Produir textos orals coherents, cohesionats i adequats a la situació comunicativa, usant els recursos verbals i no verbals adequats (to, pronunciació, entonació, gestualitat, recursos visuals...).",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA2.3",
-            "text": "Participar en interaccions orals respectant les normes de cortesia i els torns de paraula, i incorporant estratègies d'escolta activa."
+            "text": "Participar en interaccions orals respectant les normes de cortesia i els torns de paraula, i incorporant estratègies d'escolta activa.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA2.1",
-            "text": "Planificar la producció oral tenint en compte el gènere discursiu, el propòsit comunicatiu, la situació de comunicació i el possible feedback de l'audiència."
+            "text": "Planificar la producció oral tenint en compte el gènere discursiu, el propòsit comunicatiu, la situació de comunicació i el possible feedback de l'audiència.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA2.2",
-            "text": "Produir textos orals coherents, cohesionats, adequats i ben construïts formalment, usant recursos verbals i no verbals variats i adequats (to, pronunciació, entonació, gestualitat, recursos visuals, suports tecnològics...)."
+            "text": "Produir textos orals coherents, cohesionats, adequats i ben construïts formalment, usant recursos verbals i no verbals variats i adequats (to, pronunciació, entonació, gestualitat, recursos visuals, suports tecnològics...).",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA2.3",
-            "text": "Participar en interaccions orals formals i col·laboratives respectant les normes de cortesia, incorporant estratègies d'escolta activa i gestionant el desacord de manera constructiva."
+            "text": "Participar en interaccions orals formals i col·laboratives respectant les normes de cortesia, incorporant estratègies d'escolta activa i gestionant el desacord de manera constructiva.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -124,40 +136,48 @@
         "CCEC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Llegir amb fluïdesa i comprendre el sentit global i la informació rellevant de textos escrits de gèneres i àmbits diversos, identificant el tema i els subtemes, i distingint la informació principal de la secundària."
+            "text": "Llegir amb fluïdesa i comprendre el sentit global i la informació rellevant de textos escrits de gèneres i àmbits diversos, identificant el tema i els subtemes, i distingint la informació principal de la secundària.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA3.2",
-            "text": "Interpretar textos escrits de diferent gènere discursiu identificant-ne la intenció comunicativa, el context, l'estructura i els recursos lingüístics i textuals que s'hi utilitzen."
+            "text": "Interpretar textos escrits de diferent gènere discursiu identificant-ne la intenció comunicativa, el context, l'estructura i els recursos lingüístics i textuals que s'hi utilitzen.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA3.3",
-            "text": "Valorar textos escrits detectant prejudicis i estereotips, i adoptant una actitud crítica davant dels missatges rebuts."
+            "text": "Valorar textos escrits detectant prejudicis i estereotips, i adoptant una actitud crítica davant dels missatges rebuts.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA3.4",
-            "text": "Aplicar estratègies de comprensió lectora (anticipació, inferència, verificació...) per construir el significat del text."
+            "text": "Aplicar estratègies de comprensió lectora (anticipació, inferència, verificació...) per construir el significat del text.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA3.1",
-            "text": "Llegir amb fluïdesa i comprendre el sentit global i la informació rellevant de textos escrits de gèneres i complexitat variats, reconeixent idees implícites i explícites, i distingint la informació principal de la secundària."
+            "text": "Llegir amb fluïdesa i comprendre el sentit global i la informació rellevant de textos escrits de gèneres i complexitat variats, reconeixent idees implícites i explícites, i distingint la informació principal de la secundària.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.2",
-            "text": "Interpretar textos escrits de diferent gènere discursiu i de caràcter formal, identificant-ne la intenció comunicativa, el context, l'estructura i els recursos lingüístics i textuals que s'hi utilitzen, tot valorant-ne l'adequació i eficàcia."
+            "text": "Interpretar textos escrits de diferent gènere discursiu i de caràcter formal, identificant-ne la intenció comunicativa, el context, l'estructura i els recursos lingüístics i textuals que s'hi utilitzen, tot valorant-ne l'adequació i eficàcia.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.3",
-            "text": "Valorar críticament textos escrits detectant prejudicis i estereotips, analitzant estratègies de persuasió i manipulació, i adoptant una actitud crítica i ètica davant dels missatges rebuts."
+            "text": "Valorar críticament textos escrits detectant prejudicis i estereotips, analitzant estratègies de persuasió i manipulació, i adoptant una actitud crítica i ètica davant dels missatges rebuts.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.4",
-            "text": "Aplicar de forma autònoma estratègies de comprensió lectora (anticipació, inferència, verificació, síntesi...) per construir el significat del text i reflexionar sobre el procés de comprensió."
+            "text": "Aplicar de forma autònoma estratègies de comprensió lectora (anticipació, inferència, verificació, síntesi...) per construir el significat del text i reflexionar sobre el procés de comprensió.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -174,32 +194,38 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Planificar la producció escrita tenint en compte el gènere discursiu, el propòsit comunicatiu, la situació de comunicació i el destinatari."
+            "text": "Planificar la producció escrita tenint en compte el gènere discursiu, el propòsit comunicatiu, la situació de comunicació i el destinatari.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA4.2",
-            "text": "Escriure textos coherents, cohesionats i adequats a la situació comunicativa, aplicant els coneixements ortogràfics, gramaticals i lèxics necessaris."
+            "text": "Escriure textos coherents, cohesionats i adequats a la situació comunicativa, aplicant els coneixements ortogràfics, gramaticals i lèxics necessaris.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA4.3",
-            "text": "Revisar i millorar els textos escrits amb ajuda de pautes i recursos (diccionaris, correctors...) per garantir la correcció lingüística i l'adequació al propòsit comunicatiu."
+            "text": "Revisar i millorar els textos escrits amb ajuda de pautes i recursos (diccionaris, correctors...) per garantir la correcció lingüística i l'adequació al propòsit comunicatiu.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA4.1",
-            "text": "Planificar la producció escrita tenint en compte el gènere discursiu, el propòsit comunicatiu, la situació de comunicació, el destinatari i els recursos disponibles."
+            "text": "Planificar la producció escrita tenint en compte el gènere discursiu, el propòsit comunicatiu, la situació de comunicació, el destinatari i els recursos disponibles.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA4.2",
-            "text": "Escriure textos coherents, cohesionats, adequats i ben construïts formalment, aplicant els coneixements ortogràfics, gramaticals i lèxics necessaris, i incorporant recursos retòrics apropiats."
+            "text": "Escriure textos coherents, cohesionats, adequats i ben construïts formalment, aplicant els coneixements ortogràfics, gramaticals i lèxics necessaris, i incorporant recursos retòrics apropiats.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA4.3",
-            "text": "Revisar i millorar autònomament els textos escrits usant pautes, diccionaris i recursos digitals, per garantir la correcció lingüística, l'adequació al propòsit comunicatiu i la qualitat del text."
+            "text": "Revisar i millorar autònomament els textos escrits usant pautes, diccionaris i recursos digitals, per garantir la correcció lingüística, l'adequació al propòsit comunicatiu i la qualitat del text.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -215,32 +241,38 @@
         "CC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA5.1",
-            "text": "Comprendre i interpretar el sentit global i la informació rellevant de textos audiovisuals i digitals de temàtica diversa, identificant la intenció comunicativa i els recursos expressius que s'hi utilitzen."
+            "text": "Comprendre i interpretar el sentit global i la informació rellevant de textos audiovisuals i digitals de temàtica diversa, identificant la intenció comunicativa i els recursos expressius que s'hi utilitzen.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA5.2",
-            "text": "Analitzar textos audiovisuals i digitals identificant els mecanismes de la desinformació i la manipulació, i avaluant la fiabilitat de les fonts."
+            "text": "Analitzar textos audiovisuals i digitals identificant els mecanismes de la desinformació i la manipulació, i avaluant la fiabilitat de les fonts.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA5.3",
-            "text": "Valorar críticament els missatges dels mitjans de comunicació i les xarxes socials, adoptant una actitud responsable davant el consum de continguts digitals."
+            "text": "Valorar críticament els missatges dels mitjans de comunicació i les xarxes socials, adoptant una actitud responsable davant el consum de continguts digitals.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA5.1",
-            "text": "Comprendre i interpretar amb precisió el sentit global i la informació rellevant de textos audiovisuals i digitals de temàtica i complexitat variades, identificant la intenció comunicativa, el context i els recursos expressius."
+            "text": "Comprendre i interpretar amb precisió el sentit global i la informació rellevant de textos audiovisuals i digitals de temàtica i complexitat variades, identificant la intenció comunicativa, el context i els recursos expressius.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA5.2",
-            "text": "Analitzar i contrastar textos audiovisuals i digitals identificant els mecanismes de la desinformació, la manipulació i la propaganda, i avaluant amb criteri la fiabilitat, la pertinència i la qualitat de les fonts."
+            "text": "Analitzar i contrastar textos audiovisuals i digitals identificant els mecanismes de la desinformació, la manipulació i la propaganda, i avaluant amb criteri la fiabilitat, la pertinència i la qualitat de les fonts.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA5.3",
-            "text": "Valorar críticament els missatges dels mitjans de comunicació i les xarxes socials, adoptant una actitud ètica i responsable davant el consum i la producció de continguts digitals."
+            "text": "Valorar críticament els missatges dels mitjans de comunicació i les xarxes socials, adoptant una actitud ètica i responsable davant el consum i la producció de continguts digitals.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -256,24 +288,28 @@
         "CC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA6.1",
-            "text": "Planificar i produir textos audiovisuals i digitals senzills de gèneres variats, tenint en compte el propòsit comunicatiu, el destinatari i les característiques del gènere."
+            "text": "Planificar i produir textos audiovisuals i digitals senzills de gèneres variats, tenint en compte el propòsit comunicatiu, el destinatari i les característiques del gènere.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA6.2",
-            "text": "Usar les eines digitals de manera responsable i ètica, respectant la propietat intel·lectual i la privadesa de les persones."
+            "text": "Usar les eines digitals de manera responsable i ètica, respectant la propietat intel·lectual i la privadesa de les persones.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA6.1",
-            "text": "Planificar i produir textos audiovisuals i digitals de gèneres variats i amb una certa complexitat, tenint en compte el propòsit comunicatiu, el destinatari, les característiques del gènere i les possibilitats expressives dels recursos digitals."
+            "text": "Planificar i produir textos audiovisuals i digitals de gèneres variats i amb una certa complexitat, tenint en compte el propòsit comunicatiu, el destinatari, les característiques del gènere i les possibilitats expressives dels recursos digitals.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA6.2",
-            "text": "Usar les eines digitals de manera responsable, crítica i ètica, respectant la propietat intel·lectual i els drets digitals, i prenent decisions informades sobre la gestió de la pròpia identitat digital."
+            "text": "Usar les eines digitals de manera responsable, crítica i ètica, respectant la propietat intel·lectual i els drets digitals, i prenent decisions informades sobre la gestió de la pròpia identitat digital.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -290,32 +326,38 @@
         "CCEC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA7.1",
-            "text": "Llegir textos literaris de gèneres i formats variats, mostrant interès per la lectura i incorporant-la com a pràctica habitual d'aprenentatge i gaudi."
+            "text": "Llegir textos literaris de gèneres i formats variats, mostrant interès per la lectura i incorporant-la com a pràctica habitual d'aprenentatge i gaudi.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA7.2",
-            "text": "Interpretar textos literaris identificant-ne el tema, els personatges, l'estructura i els recursos literaris bàsics, i relacionant-los amb el context de producció."
+            "text": "Interpretar textos literaris identificant-ne el tema, els personatges, l'estructura i els recursos literaris bàsics, i relacionant-los amb el context de producció.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA7.3",
-            "text": "Valorar les obres literàries com a font de gaudi i coneixement, expressant les pròpies emocions i opinions de manera raonada."
+            "text": "Valorar les obres literàries com a font de gaudi i coneixement, expressant les pròpies emocions i opinions de manera raonada.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA7.1",
-            "text": "Llegir textos literaris de gèneres, èpoques i tradicions diverses de manera autònoma, mostrant un hàbit lector consolidat i una identitat lectora pròpia."
+            "text": "Llegir textos literaris de gèneres, èpoques i tradicions diverses de manera autònoma, mostrant un hàbit lector consolidat i una identitat lectora pròpia.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA7.2",
-            "text": "Interpretar textos literaris identificant-ne el tema, els personatges, l'estructura, el punt de vista narratiu i els recursos literaris, i relacionant-los amb el context sociohistòric i cultural de producció i recepció."
+            "text": "Interpretar textos literaris identificant-ne el tema, els personatges, l'estructura, el punt de vista narratiu i els recursos literaris, i relacionant-los amb el context sociohistòric i cultural de producció i recepció.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA7.3",
-            "text": "Valorar les obres literàries com a font de gaudi, coneixement i reflexió crítica sobre la realitat, expressant opinions fonamentades i relacionant els textos amb la pròpia experiència vital."
+            "text": "Valorar les obres literàries com a font de gaudi, coneixement i reflexió crítica sobre la realitat, expressant opinions fonamentades i relacionant els textos amb la pròpia experiència vital.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -331,24 +373,28 @@
         "CCEC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA8.1",
-            "text": "Escriure textos amb intenció literària o expressiva de gèneres diversos (poema, conte, diàleg...) inspirant-se en models llegits i aplicant recursos literaris bàsics."
+            "text": "Escriure textos amb intenció literària o expressiva de gèneres diversos (poema, conte, diàleg...) inspirant-se en models llegits i aplicant recursos literaris bàsics.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA8.2",
-            "text": "Revisar i millorar les pròpies produccions literàries amb ajuda de pautes, incorporant les indicacions rebudes per millorar l'expressivitat i la correcció."
+            "text": "Revisar i millorar les pròpies produccions literàries amb ajuda de pautes, incorporant les indicacions rebudes per millorar l'expressivitat i la correcció.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA8.1",
-            "text": "Escriure textos amb intenció literària o expressiva de gèneres diversos, explorant recursos formals i estètics i incorporant la veu pròpia, amb una intenció comunicativa clara i una elaboració cuidada."
+            "text": "Escriure textos amb intenció literària o expressiva de gèneres diversos, explorant recursos formals i estètics i incorporant la veu pròpia, amb una intenció comunicativa clara i una elaboració cuidada.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA8.2",
-            "text": "Revisar i millorar autònomament les pròpies produccions literàries, reflexionant sobre les opcions expressives i estètiques, incorporant les indicacions rebudes i fent servir recursos digitals per a la difusió."
+            "text": "Revisar i millorar autònomament les pròpies produccions literàries, reflexionant sobre les opcions expressives i estètiques, incorporant les indicacions rebudes i fent servir recursos digitals per a la difusió.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -363,32 +409,38 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA9.1",
-            "text": "Identificar i aplicar els coneixements fonètics, ortogràfics, morfosintàctics i lèxics per a la comprensió i producció de textos orals i escrits."
+            "text": "Identificar i aplicar els coneixements fonètics, ortogràfics, morfosintàctics i lèxics per a la comprensió i producció de textos orals i escrits.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA9.2",
-            "text": "Usar la terminologia lingüística bàsica per reflexionar sobre el funcionament de la llengua i millorar les produccions pròpies."
+            "text": "Usar la terminologia lingüística bàsica per reflexionar sobre el funcionament de la llengua i millorar les produccions pròpies.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA9.3",
-            "text": "Reconèixer les relacions semàntiques entre les paraules (sinonímia, antonímia, polisèmia, camp semàntic...) per ampliar el vocabulari i interpretar textos."
+            "text": "Reconèixer les relacions semàntiques entre les paraules (sinonímia, antonímia, polisèmia, camp semàntic...) per ampliar el vocabulari i interpretar textos.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA9.1",
-            "text": "Identificar i aplicar amb precisió els coneixements fonètics, ortogràfics, morfosintàctics i lèxics per a la comprensió i producció de textos orals i escrits, valorant la norma com a instrument de comunicació."
+            "text": "Identificar i aplicar amb precisió els coneixements fonètics, ortogràfics, morfosintàctics i lèxics per a la comprensió i producció de textos orals i escrits, valorant la norma com a instrument de comunicació.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA9.2",
-            "text": "Usar la terminologia lingüística adequada per reflexionar de manera sistemàtica sobre el funcionament de la llengua i per millorar les produccions pròpies i les dels companys."
+            "text": "Usar la terminologia lingüística adequada per reflexionar de manera sistemàtica sobre el funcionament de la llengua i per millorar les produccions pròpies i les dels companys.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA9.3",
-            "text": "Analitzar les relacions semàntiques entre les paraules i els mecanismes de formació lèxica per ampliar el vocabulari, interpretar textos i enriquir les produccions pròpies."
+            "text": "Analitzar les relacions semàntiques entre les paraules i els mecanismes de formació lèxica per ampliar el vocabulari, interpretar textos i enriquir les produccions pròpies.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -404,32 +456,38 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           {
             "codi": "CA10.1",
-            "text": "Reconèixer la diversitat lingüística del món i de Catalunya, identificant les famílies de llengües i les principals varietats del català."
+            "text": "Reconèixer la diversitat lingüística del món i de Catalunya, identificant les famílies de llengües i les principals varietats del català.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA10.2",
-            "text": "Valorar la llengua catalana com a llengua pròpia de Catalunya i instrument de cohesió social, i mostrar interès per contribuir-ne a la normalització."
+            "text": "Valorar la llengua catalana com a llengua pròpia de Catalunya i instrument de cohesió social, i mostrar interès per contribuir-ne a la normalització.",
+            "clau_origen": "1r_3r"
           },
           {
             "codi": "CA10.3",
-            "text": "Identificar situacions de prejudici o discriminació lingüística i adoptar actituds de respecte envers totes les llengües i els seus parlants."
+            "text": "Identificar situacions de prejudici o discriminació lingüística i adoptar actituds de respecte envers totes les llengües i els seus parlants.",
+            "clau_origen": "1r_3r"
           }
         ],
-        "4t": [
+        "ESO_C2": [
           {
             "codi": "CA10.1",
-            "text": "Analitzar la diversitat lingüística del món i de Catalunya, identificant les famílies de llengües, les varietats dialectals del català i la situació sociolingüística actual."
+            "text": "Analitzar la diversitat lingüística del món i de Catalunya, identificant les famílies de llengües, les varietats dialectals del català i la situació sociolingüística actual.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA10.2",
-            "text": "Valorar la llengua catalana com a llengua pròpia de Catalunya i instrument de cohesió social, i mostrar actituds actives en favor de la seva normalització i preservació."
+            "text": "Valorar la llengua catalana com a llengua pròpia de Catalunya i instrument de cohesió social, i mostrar actituds actives en favor de la seva normalització i preservació.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA10.3",
-            "text": "Identificar i analitzar situacions de prejudici, discriminació lingüística o conflicte de llengües, adoptant actituds crítiques i de respecte envers totes les llengües i cultures."
+            "text": "Identificar i analitzar situacions de prejudici, discriminació lingüística o conflicte de llengües, adoptant actituds crítiques i de respecte envers totes les llengües i cultures.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -670,781 +728,1042 @@
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Estratègies de comprensió oral: activació de coneixements previs, anticipació, inferència i verificació"
+      "text": "Estratègies de comprensió oral: activació de coneixements previs, anticipació, inferència i verificació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Identificació del tema, les idees principals i secundàries en textos orals de gèneres diversos"
+      "text": "Identificació del tema, les idees principals i secundàries en textos orals de gèneres diversos",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Identificació de la intenció comunicativa i el to del discurs: informatiu, persuasiu, expressiu"
+      "text": "Identificació de la intenció comunicativa i el to del discurs: informatiu, persuasiu, expressiu",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Identificació de recursos verbals i no verbals: to, entonació, gestualitat, recursos visuals"
+      "text": "Identificació de recursos verbals i no verbals: to, entonació, gestualitat, recursos visuals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Comprensió de textos multimodals de temàtica propera a l'alumnat"
+      "text": "Comprensió de textos multimodals de temàtica propera a l'alumnat",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Escolta activa i respecte en les interaccions orals"
+      "text": "Escolta activa i respecte en les interaccions orals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Planificació de la producció oral: selecció d'informació, estructura i adequació a la situació comunicativa"
+      "text": "Planificació de la producció oral: selecció d'informació, estructura i adequació a la situació comunicativa",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Producció de textos orals de gèneres diversos: exposicions, debats, entrevistes, presentacions"
+      "text": "Producció de textos orals de gèneres diversos: exposicions, debats, entrevistes, presentacions",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Recursos de la comunicació oral: dicció, to, entonació, ritme i gestualitat"
+      "text": "Recursos de la comunicació oral: dicció, to, entonació, ritme i gestualitat",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Normes de cortesia i convencions de la comunicació oral formal i informal"
+      "text": "Normes de cortesia i convencions de la comunicació oral formal i informal",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Participació en interaccions orals: diàlegs, debats i discussions"
+      "text": "Participació en interaccions orals: diàlegs, debats i discussions",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Ús de suports visuals i digitals en les presentacions orals"
+      "text": "Ús de suports visuals i digitals en les presentacions orals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Avaluació i millora de les produccions orals a partir de pautes i rúbriques"
+      "text": "Avaluació i millora de les produccions orals a partir de pautes i rúbriques",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Estratègies de comprensió lectora: activació de coneixements previs, anticipació, inferència i verificació"
+      "text": "Estratègies de comprensió lectora: activació de coneixements previs, anticipació, inferència i verificació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Lectura fluïda i comprensió de textos escrits de gèneres i àmbits diversos"
+      "text": "Lectura fluïda i comprensió de textos escrits de gèneres i àmbits diversos",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Identificació del tema, la informació principal i les idees secundàries"
+      "text": "Identificació del tema, la informació principal i les idees secundàries",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Identificació de la intenció comunicativa, l'estructura i els recursos lingüístics dels textos"
+      "text": "Identificació de la intenció comunicativa, l'estructura i els recursos lingüístics dels textos",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Valoració crítica dels textos: detecció de prejudicis i estereotips"
+      "text": "Valoració crítica dels textos: detecció de prejudicis i estereotips",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Ús de la biblioteca i de fonts documentals diverses per a la cerca d'informació"
+      "text": "Ús de la biblioteca i de fonts documentals diverses per a la cerca d'informació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Lectura extensiva i autònoma: foment del plaer per la lectura"
+      "text": "Lectura extensiva i autònoma: foment del plaer per la lectura",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Procés d'escriptura: planificació, textualització, revisió i edició"
+      "text": "Procés d'escriptura: planificació, textualització, revisió i edició",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Producció de textos escrits de gèneres i àmbits diversos: narratius, descriptius, expositius, argumentatius, instruccionals"
+      "text": "Producció de textos escrits de gèneres i àmbits diversos: narratius, descriptius, expositius, argumentatius, instruccionals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Coherència i cohesió textual: estructura, connectors, referències anafòriques"
+      "text": "Coherència i cohesió textual: estructura, connectors, referències anafòriques",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Adequació al registre i al propòsit comunicatiu"
+      "text": "Adequació al registre i al propòsit comunicatiu",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Ortografia: normes ortogràfiques bàsiques del català (accentuació, dièresi, puntuació, majúscules)"
+      "text": "Ortografia: normes ortogràfiques bàsiques del català (accentuació, dièresi, puntuació, majúscules)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Lèxic: enriquiment del vocabulari i ús de recursos per a la cerca de paraules"
+      "text": "Lèxic: enriquiment del vocabulari i ús de recursos per a la cerca de paraules",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Revisió i millora dels textos escrits: ús del diccionari i del corrector"
+      "text": "Revisió i millora dels textos escrits: ús del diccionari i del corrector",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Identificació dels elements formals i expressius dels textos audiovisuals i digitals"
+      "text": "Identificació dels elements formals i expressius dels textos audiovisuals i digitals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Estratègies per a la comprensió i interpretació de textos audiovisuals i digitals"
+      "text": "Estratègies per a la comprensió i interpretació de textos audiovisuals i digitals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Anàlisi de la intenció comunicativa dels missatges dels mitjans de comunicació"
+      "text": "Anàlisi de la intenció comunicativa dels missatges dels mitjans de comunicació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Identificació de la desinformació, les notícies falses i les estratègies de manipulació"
+      "text": "Identificació de la desinformació, les notícies falses i les estratègies de manipulació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Avaluació de la fiabilitat de les fonts i verificació de la informació"
+      "text": "Avaluació de la fiabilitat de les fonts i verificació de la informació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Actitud crítica davant el consum de continguts digitals i en xarxes socials"
+      "text": "Actitud crítica davant el consum de continguts digitals i en xarxes socials",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Planificació i producció de textos audiovisuals i digitals senzills: vídeos, pòdcasts, blogs, presentacions"
+      "text": "Planificació i producció de textos audiovisuals i digitals senzills: vídeos, pòdcasts, blogs, presentacions",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Ús responsable i ètic de les eines digitals i les xarxes socials"
+      "text": "Ús responsable i ètic de les eines digitals i les xarxes socials",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Nocions bàsiques sobre propietat intel·lectual i llicències Creative Commons"
+      "text": "Nocions bàsiques sobre propietat intel·lectual i llicències Creative Commons",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Gestió bàsica de la identitat digital i la privadesa en línia"
+      "text": "Gestió bàsica de la identitat digital i la privadesa en línia",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Ús de recursos digitals per a la cerca, selecció i organització de la informació"
+      "text": "Ús de recursos digitals per a la cerca, selecció i organització de la informació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Lectura de textos literaris de gèneres i formats diversos: narrativa, poesia, teatre"
+      "text": "Lectura de textos literaris de gèneres i formats diversos: narrativa, poesia, teatre",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Identificació del tema, els personatges, l'estructura i el punt de vista en textos narratius"
+      "text": "Identificació del tema, els personatges, l'estructura i el punt de vista en textos narratius",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Identificació dels recursos literaris bàsics: metàfora, comparació, personificació, al·literació, anàfora"
+      "text": "Identificació dels recursos literaris bàsics: metàfora, comparació, personificació, al·literació, anàfora",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Relació entre el text literari i el context cultural i social en què s'ha produït"
+      "text": "Relació entre el text literari i el context cultural i social en què s'ha produït",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Introducció a la literatura catalana: autors i obres representatives de la tradició literària"
+      "text": "Introducció a la literatura catalana: autors i obres representatives de la tradició literària",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Valoració de la literatura com a font de gaudi i coneixement"
+      "text": "Valoració de la literatura com a font de gaudi i coneixement",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Escriptura creativa inspirada en models literaris llegits"
+      "text": "Escriptura creativa inspirada en models literaris llegits",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Producció de textos literaris de gèneres diversos: contes, poemes, diàlegs"
+      "text": "Producció de textos literaris de gèneres diversos: contes, poemes, diàlegs",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Ús de recursos estilístics bàsics en la producció literària"
+      "text": "Ús de recursos estilístics bàsics en la producció literària",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Revisió i millora de les produccions literàries a partir de pautes"
+      "text": "Revisió i millora de les produccions literàries a partir de pautes",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Fonètica i fonologia: sons i grafies del català, fenòmens de contacte entre sons"
+      "text": "Fonètica i fonologia: sons i grafies del català, fenòmens de contacte entre sons",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Morfologia: categories gramaticals (nom, determinant, adjectiu, verb, adverbi, preposició, conjunció, pronom)"
+      "text": "Morfologia: categories gramaticals (nom, determinant, adjectiu, verb, adverbi, preposició, conjunció, pronom)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Sintaxi: elements de l'oració simple (subjecte, predicat, complements)"
+      "text": "Sintaxi: elements de l'oració simple (subjecte, predicat, complements)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Lèxic: mecanismes de formació de paraules (derivació, composició), relacions semàntiques"
+      "text": "Lèxic: mecanismes de formació de paraules (derivació, composició), relacions semàntiques",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Ortografia normativa del català: accentuació, dièresi, apòstrof, guionet, majúscules, puntuació"
+      "text": "Ortografia normativa del català: accentuació, dièresi, apòstrof, guionet, majúscules, puntuació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Terminologia lingüística bàsica per a la reflexió sobre la llengua"
+      "text": "Terminologia lingüística bàsica per a la reflexió sobre la llengua",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Consulta de diccionaris, gramàtiques i recursos lingüístics en línia"
+      "text": "Consulta de diccionaris, gramàtiques i recursos lingüístics en línia",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Varietats de la llengua catalana: dialectes geogràfics principals"
+      "text": "Varietats de la llengua catalana: dialectes geogràfics principals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "La situació sociolingüística de Catalunya: la llengua catalana com a llengua pròpia i oficial"
+      "text": "La situació sociolingüística de Catalunya: la llengua catalana com a llengua pròpia i oficial",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Diversitat lingüística a Catalunya i al món"
+      "text": "Diversitat lingüística a Catalunya i al món",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Actituds lingüístiques: respecte envers totes les llengües i varietats"
+      "text": "Actituds lingüístiques: respecte envers totes les llengües i varietats",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Nocions bàsiques sobre normalització lingüística"
+      "text": "Nocions bàsiques sobre normalització lingüística",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Estratègies per millorar la pròpia competència comunicativa"
+      "text": "Estratègies per millorar la pròpia competència comunicativa",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Ús de recursos per a l'aprenentatge de la llengua: diccionaris, gramàtiques, correctors"
+      "text": "Ús de recursos per a l'aprenentatge de la llengua: diccionaris, gramàtiques, correctors",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Autoavaluació i coavaluació de les produccions orals i escrites"
+      "text": "Autoavaluació i coavaluació de les produccions orals i escrites",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Transferències entre les llengües del repertori lingüístic de l'alumnat"
+      "text": "Transferències entre les llengües del repertori lingüístic de l'alumnat",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Estratègies avançades de comprensió oral: interpretació d'idees implícites, identificació d'arguments i contraarguments"
+      "text": "Estratègies avançades de comprensió oral: interpretació d'idees implícites, identificació d'arguments i contraarguments",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Identificació del tema, les idees principals i secundàries, i les idees implícites en textos orals de gèneres i àmbits formals"
+      "text": "Identificació del tema, les idees principals i secundàries, i les idees implícites en textos orals de gèneres i àmbits formals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Anàlisi de la intenció comunicativa i del to del discurs: informatiu, persuasiu, expressiu, irònic"
+      "text": "Anàlisi de la intenció comunicativa i del to del discurs: informatiu, persuasiu, expressiu, irònic",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Anàlisi dels recursos verbals i no verbals en contextos formals: debats, conferències, discursos"
+      "text": "Anàlisi dels recursos verbals i no verbals en contextos formals: debats, conferències, discursos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Comprensió de textos multimodals de temàtica diversa i complexa"
+      "text": "Comprensió de textos multimodals de temàtica diversa i complexa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "comprensio_oral",
-      "text": "Escolta activa, empatia i gestió del desacord en les interaccions orals"
+      "text": "Escolta activa, empatia i gestió del desacord en les interaccions orals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Planificació rigorosa de la producció oral: selecció i organització de la informació, argumentació i adequació a la situació comunicativa"
+      "text": "Planificació rigorosa de la producció oral: selecció i organització de la informació, argumentació i adequació a la situació comunicativa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Producció de textos orals formals de gèneres complexos: exposicions acadèmiques, debats, taules rodones, discursos"
+      "text": "Producció de textos orals formals de gèneres complexos: exposicions acadèmiques, debats, taules rodones, discursos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Ús variat i estratègic de recursos de la comunicació oral: dicció, to, entonació, ritme, gestualitat i recursos digitals"
+      "text": "Ús variat i estratègic de recursos de la comunicació oral: dicció, to, entonació, ritme, gestualitat i recursos digitals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Normes de cortesia en contextos formals i convencions de la comunicació oral acadèmica"
+      "text": "Normes de cortesia en contextos formals i convencions de la comunicació oral acadèmica",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Gestió de la interacció en debats i discussions: moderació, argumentació i contraargumentació"
+      "text": "Gestió de la interacció en debats i discussions: moderació, argumentació i contraargumentació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Ús avançat de suports visuals i digitals en les presentacions orals"
+      "text": "Ús avançat de suports visuals i digitals en les presentacions orals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "A_comunicacio_oral",
       "subapartat": "produccio_oral",
-      "text": "Avaluació crítica i millora de les pròpies produccions orals i les dels companys"
+      "text": "Avaluació crítica i millora de les pròpies produccions orals i les dels companys",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Estratègies avançades de comprensió lectora: interpretació d'idees implícites, identificació d'arguments i valoració de la coherència interna"
+      "text": "Estratègies avançades de comprensió lectora: interpretació d'idees implícites, identificació d'arguments i valoració de la coherència interna",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Lectura fluïda i comprensió de textos escrits de gèneres i àmbits variats i complexos"
+      "text": "Lectura fluïda i comprensió de textos escrits de gèneres i àmbits variats i complexos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Identificació del tema, la informació principal, les idees secundàries i les idees implícites"
+      "text": "Identificació del tema, la informació principal, les idees secundàries i les idees implícites",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Anàlisi de la intenció comunicativa, l'estructura, els recursos lingüístics i retòrics dels textos"
+      "text": "Anàlisi de la intenció comunicativa, l'estructura, els recursos lingüístics i retòrics dels textos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Valoració crítica dels textos: detecció de prejudicis, estereotips i estratègies de manipulació"
+      "text": "Valoració crítica dels textos: detecció de prejudicis, estereotips i estratègies de manipulació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Ús autònom de fonts documentals diverses per a la cerca, selecció i avaluació crítica de la informació"
+      "text": "Ús autònom de fonts documentals diverses per a la cerca, selecció i avaluació crítica de la informació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "comprensio_lectora",
-      "text": "Lectura extensiva i autònoma: consolidació de l'hàbit lector i de la identitat lectora"
+      "text": "Lectura extensiva i autònoma: consolidació de l'hàbit lector i de la identitat lectora",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Procés d'escriptura complex: planificació, textualització, revisió i edició de textos elaborats"
+      "text": "Procés d'escriptura complex: planificació, textualització, revisió i edició de textos elaborats",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Producció de textos escrits de gèneres i àmbits diversos: argumentatius, acadèmics, periodístics, literaris"
+      "text": "Producció de textos escrits de gèneres i àmbits diversos: argumentatius, acadèmics, periodístics, literaris",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Coherència i cohesió textual: estructura argumentativa, connectors discursius, progressió temàtica"
+      "text": "Coherència i cohesió textual: estructura argumentativa, connectors discursius, progressió temàtica",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Adequació al registre formal i al propòsit comunicatiu en contextos acadèmics i socials"
+      "text": "Adequació al registre formal i al propòsit comunicatiu en contextos acadèmics i socials",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Ortografia: domini de les normes ortogràfiques del català"
+      "text": "Ortografia: domini de les normes ortogràfiques del català",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Lèxic: ampliació del vocabulari i ús de recursos retòrics"
+      "text": "Lèxic: ampliació del vocabulari i ús de recursos retòrics",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "B_comunicacio_escrita",
       "subapartat": "produccio_escrita",
-      "text": "Revisió autònoma i crítica dels textos escrits: ús del diccionari, la gramàtica i el corrector"
+      "text": "Revisió autònoma i crítica dels textos escrits: ús del diccionari, la gramàtica i el corrector",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Anàlisi aprofundida dels elements formals i expressius dels textos audiovisuals i digitals"
+      "text": "Anàlisi aprofundida dels elements formals i expressius dels textos audiovisuals i digitals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Estratègies avançades per a la comprensió, interpretació i valoració crítica de textos audiovisuals i digitals"
+      "text": "Estratègies avançades per a la comprensió, interpretació i valoració crítica de textos audiovisuals i digitals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Anàlisi de la intenció comunicativa i de les estratègies de persuasió en els missatges dels mitjans"
+      "text": "Anàlisi de la intenció comunicativa i de les estratègies de persuasió en els missatges dels mitjans",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Identificació i anàlisi de la desinformació, la propaganda i les estratègies de manipulació mediàtica"
+      "text": "Identificació i anàlisi de la desinformació, la propaganda i les estratègies de manipulació mediàtica",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Avaluació rigorosa de la fiabilitat, pertinència i qualitat de les fonts"
+      "text": "Avaluació rigorosa de la fiabilitat, pertinència i qualitat de les fonts",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "comprensio_audiovisual_digital",
-      "text": "Actitud crítica, ètica i responsable davant el consum de continguts digitals i en xarxes socials"
+      "text": "Actitud crítica, ètica i responsable davant el consum de continguts digitals i en xarxes socials",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Planificació i producció de textos audiovisuals i digitals complexos: vídeos, pòdcasts, blogs, webs, presentacions multimèdia"
+      "text": "Planificació i producció de textos audiovisuals i digitals complexos: vídeos, pòdcasts, blogs, webs, presentacions multimèdia",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Ús crític, responsable i ètic de les eines digitals i les xarxes socials"
+      "text": "Ús crític, responsable i ètic de les eines digitals i les xarxes socials",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Coneixements sobre propietat intel·lectual, llicències i drets d'autor"
+      "text": "Coneixements sobre propietat intel·lectual, llicències i drets d'autor",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Gestió avançada de la identitat digital i la privadesa en línia"
+      "text": "Gestió avançada de la identitat digital i la privadesa en línia",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "C_comunicacio_audiovisual_digital",
       "subapartat": "produccio_audiovisual_digital",
-      "text": "Ús avançat de recursos digitals per a la cerca, selecció, organització i citació de la informació"
+      "text": "Ús avançat de recursos digitals per a la cerca, selecció, organització i citació de la informació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Lectura autònoma de textos literaris de gèneres, èpoques i tradicions diverses"
+      "text": "Lectura autònoma de textos literaris de gèneres, èpoques i tradicions diverses",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Anàlisi del tema, els personatges, l'estructura, el punt de vista narratiu i el temps en textos narratius"
+      "text": "Anàlisi del tema, els personatges, l'estructura, el punt de vista narratiu i el temps en textos narratius",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Identificació i anàlisi dels recursos literaris: figures retòriques, recursos fònics, mètrica bàsica"
+      "text": "Identificació i anàlisi dels recursos literaris: figures retòriques, recursos fònics, mètrica bàsica",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Relació entre el text literari i el context sociohistòric i cultural en què s'ha produït i rebut"
+      "text": "Relació entre el text literari i el context sociohistòric i cultural en què s'ha produït i rebut",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Introducció a la història de la literatura catalana: grans períodes, autors i obres representatives"
+      "text": "Introducció a la història de la literatura catalana: grans períodes, autors i obres representatives",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Valoració de la literatura com a font de gaudi, coneixement i reflexió crítica sobre la realitat"
+      "text": "Valoració de la literatura com a font de gaudi, coneixement i reflexió crítica sobre la realitat",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "lectura_interpretacio_literaria",
-      "text": "Relació intertextual entre textos literaris i obres d'altres arts (cinema, música, pintura)"
+      "text": "Relació intertextual entre textos literaris i obres d'altres arts (cinema, música, pintura)",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Escriptura creativa amb voluntat estètica, inspirada en models literaris llegits"
+      "text": "Escriptura creativa amb voluntat estètica, inspirada en models literaris llegits",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Producció de textos literaris de gèneres diversos amb elaboració formal i expressivitat"
+      "text": "Producció de textos literaris de gèneres diversos amb elaboració formal i expressivitat",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Ús conscient i variat de recursos estilístics en la producció literària"
+      "text": "Ús conscient i variat de recursos estilístics en la producció literària",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Revisió i millora autònoma de les produccions literàries"
+      "text": "Revisió i millora autònoma de les produccions literàries",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "D_educacio_literaria",
       "subapartat": "creacio_literaria",
-      "text": "Difusió de les produccions literàries pròpies en formats digitals o impresos"
+      "text": "Difusió de les produccions literàries pròpies en formats digitals o impresos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Fonètica i fonologia: aprofundiment en els sons del català i els fenòmens de sandhi"
+      "text": "Fonètica i fonologia: aprofundiment en els sons del català i els fenòmens de sandhi",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Morfologia avançada: variació morfològica, paradigmes verbals complexos, pronoms febles"
+      "text": "Morfologia avançada: variació morfològica, paradigmes verbals complexos, pronoms febles",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Sintaxi: l'oració composta (coordinació i subordinació), l'oració passiva i els complements del verb"
+      "text": "Sintaxi: l'oració composta (coordinació i subordinació), l'oració passiva i els complements del verb",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Lèxic: mecanismes de formació de paraules, etimologia, préstecs i neologismes"
+      "text": "Lèxic: mecanismes de formació de paraules, etimologia, préstecs i neologismes",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Ortografia normativa avançada del català: domini de casos complexos d'accentuació, puntuació i altres"
+      "text": "Ortografia normativa avançada del català: domini de casos complexos d'accentuació, puntuació i altres",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Terminologia lingüística per a l'anàlisi gramatical"
+      "text": "Terminologia lingüística per a l'anàlisi gramatical",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "coneixements_linguistics",
-      "text": "Ús avançat de diccionaris, gramàtiques i recursos lingüístics en línia"
+      "text": "Ús avançat de diccionaris, gramàtiques i recursos lingüístics en línia",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Varietats de la llengua catalana: dialectes geogràfics i registres"
+      "text": "Varietats de la llengua catalana: dialectes geogràfics i registres",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "La situació sociolingüística de Catalunya i dels territoris de llengua catalana"
+      "text": "La situació sociolingüística de Catalunya i dels territoris de llengua catalana",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Diversitat lingüística a Catalunya, a Europa i al món: famílies de llengües"
+      "text": "Diversitat lingüística a Catalunya, a Europa i al món: famílies de llengües",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "Anàlisi de les actituds i els prejudicis lingüístics"
+      "text": "Anàlisi de les actituds i els prejudicis lingüístics",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "sociolinguistica_i_diversitat",
-      "text": "La política lingüística i la normalització del català: marc legal bàsic"
+      "text": "La política lingüística i la normalització del català: marc legal bàsic",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Estratègies avançades per millorar la pròpia competència comunicativa"
+      "text": "Estratègies avançades per millorar la pròpia competència comunicativa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Ús crític de recursos per a l'aprenentatge de la llengua"
+      "text": "Ús crític de recursos per a l'aprenentatge de la llengua",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Autoavaluació i coavaluació de les produccions orals i escrites"
+      "text": "Autoavaluació i coavaluació de les produccions orals i escrites",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "E_reflexio_sobre_llengua",
       "subapartat": "aprenentatge_linguistic",
-      "text": "Reflexió sobre les transferències entre les llengües del repertori lingüístic de l'alumnat"
+      "text": "Reflexió sobre les transferències entre les llengües del repertori lingüístic de l'alumnat",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

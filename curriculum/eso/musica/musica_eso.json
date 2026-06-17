@@ -9,41 +9,48 @@
     "font": "PDF oficial XTEC: Musica.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
-    "descripcio": "La Música a l'ESO és la matèria que desenvolopa la sensibilitat estètica, la competència auditiva i la capacitat d'expressió i creació musical de l'alumnat. A través de l'escolta activa, la interpretació vocal i instrumental i la creació, la matèria forma persones capaces de gaudir, comprendre i participar en la vida musical i cultural. Conecta amb Educació Visual (estètica), Ciències (física del so), Matemàtiques (ritme, proporcions) i la història de les arts.\n\nEls constructes disciplinaris clau inclouen els paràmetres del so (altura, durada, intensitat, timbre), la lectura i escriptura musical (pentagrama, clau de sol, figures, compassos), l'harmonia bàsica (acords, tonalitat, escales), els gèneres i formes musicals (simfonia, suite, ària, blues, jazz, pop, música del món), els principals períodes de la història de la música occidental (Barroc, Classicisme, Romanticisme, segle XX) i les tecnologies musicals actuals (DAW, samples, síntesi).\n\nL'enfocament pedagògic combina la pràctica activa i grupal (cor, ensemble d'instruments Orff, percussió corporal, ukulele) amb l'escolta analítica de repertori divers i la creació i producció musical. El treball per projectes musicals (composició col·lectiva, concert, podcast musical, jingle) és la forma d'integrar habilitats. L'avaluació és processual i valora la participació, la progressió tècnica i la creativitat, no només el resultat final de la interpretació."
+    "descripcio": "La Música a l'ESO és la matèria que desenvolopa la sensibilitat estètica, la competència auditiva i la capacitat d'expressió i creació musical de l'alumnat. A través de l'escolta activa, la interpretació vocal i instrumental i la creació, la matèria forma persones capaces de gaudir, comprendre i participar en la vida musical i cultural. Conecta amb Educació Visual (estètica), Ciències (física del so), Matemàtiques (ritme, proporcions) i la història de les arts.\n\nEls constructes disciplinaris clau inclouen els paràmetres del so (altura, durada, intensitat, timbre), la lectura i escriptura musical (pentagrama, clau de sol, figures, compassos), l'harmonia bàsica (acords, tonalitat, escales), els gèneres i formes musicals (simfonia, suite, ària, blues, jazz, pop, música del món), els principals períodes de la història de la música occidental (Barroc, Classicisme, Romanticisme, segle XX) i les tecnologies musicals actuals (DAW, samples, síntesi).\n\nL'enfocament pedagògic combina la pràctica activa i grupal (cor, ensemble d'instruments Orff, percussió corporal, ukulele) amb l'escolta analítica de repertori divers i la creació i producció musical. El treball per projectes musicals (composició col·lectiva, concert, podcast musical, jingle) és la forma d'integrar habilitats. L'avaluació és processual i valora la participació, la progressió tècnica i la creativitat, no només el resultat final de la interpretació.",
+    "origen_dato": "completat-additiu-splitnet"
   },
   "competencies_especifiques": [
     {
       "codi": "CE1",
       "text": "Analitzar produccions musicals a través de l’escolta activa, la identificació d’elements i la reflexió per entendre’n l’evolució i funcions dins la cultura.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Identificar els factors històrics, culturals i socials que envolten determinades produccions musicals, comprenent-ne les característiques i la funció a través de l’anàlisi d’exemples, amb una actitud oberta i respectuosa."
+            "text": "Identificar els factors històrics, culturals i socials que envolten determinades produccions musicals, comprenent-ne les característiques i la funció a través de l’anàlisi d’exemples, amb una actitud oberta i respectuosa.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar les característiques, elements i tècniques de diferents propostes musicals de la nostra cultura i d’altres, a través de diferents suports audiovisuals, evidenciant una actitud d’obertura, interès i respecte."
+            "text": "Identificar les característiques, elements i tècniques de diferents propostes musicals de la nostra cultura i d’altres, a través de diferents suports audiovisuals, evidenciant una actitud d’obertura, interès i respecte.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.3",
-            "text": "Expressar l’opinió personal i les emocions experimentades, de manera respectuosa i crítica sobre exemples de músiques estudiades a través de l’audició, visionat o l’assistència a esdeveniments musicals."
+            "text": "Expressar l’opinió personal i les emocions experimentades, de manera respectuosa i crítica sobre exemples de músiques estudiades a través de l’audició, visionat o l’assistència a esdeveniments musicals.",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA1.1",
-            "text": "Explicar els factors històrics, culturals i socials que envolten determinades produccions musicals, comprenent-ne les característiques i la funció a través de l’anàlisi d’exemples amb una actitud oberta i respectuosa."
+            "text": "Explicar els factors històrics, culturals i socials que envolten determinades produccions musicals, comprenent-ne les característiques i la funció a través de l’anàlisi d’exemples amb una actitud oberta i respectuosa.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA1.2",
-            "text": "Valorar tot tipus de manifestacions musicals del segle XX i de l’actualitat incloent-hi el cinema, en relació amb els seus elements característics com a reflex de la societat on van ser creades des d’una actitud d’obertura, interès i respecte."
+            "text": "Valorar tot tipus de manifestacions musicals del segle XX i de l’actualitat incloent-hi el cinema, en relació amb els seus elements característics com a reflex de la societat on van ser creades des d’una actitud d’obertura, interès i respecte.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA1.3",
-            "text": "Relacionar l’opinió personal i les emocions experimentades amb els coneixements musicals de manera respectuosa i crítica sobre exemples de músiques estudiades a través de l’audició, visionat o l’assistència a esdeveniments musicals."
+            "text": "Relacionar l’opinió personal i les emocions experimentades amb els coneixements musicals de manera respectuosa i crítica sobre exemples de músiques estudiades a través de l’audició, visionat o l’assistència a esdeveniments musicals.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -52,24 +59,28 @@
       "codi": "CE2",
       "text": "Expressar-se musicalment a través d’improvisacions vocals o instrumentals tenint en compte les emocions que provoquen i per desenvolupar la creativitat amb una actitud col·laborativa.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Improvisar lliurement o a partir de pautes guiades, individuals o grupals, utilitzant el cos, la veu o els instruments i desenvolupant la creativitat i l’autoconfiança."
+            "text": "Improvisar lliurement o a partir de pautes guiades, individuals o grupals, utilitzant el cos, la veu o els instruments i desenvolupant la creativitat i l’autoconfiança.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.2",
-            "text": "Mostrar habilitats musicals individuals i grupals a través de la interpretació, enfortint l’autoestima i la consciència col·lectiva."
+            "text": "Mostrar habilitats musicals individuals i grupals a través de la interpretació, enfortint l’autoestima i la consciència col·lectiva.",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA2.1",
-            "text": "Aplicar tècniques d’improvisació individuals o grupals, utilitzant el cos, la veu, els instruments o les eines tecnològiques i desenvolupant la creativitat i l’autoconfiança."
+            "text": "Aplicar tècniques d’improvisació individuals o grupals, utilitzant el cos, la veu, els instruments o les eines tecnològiques i desenvolupant la creativitat i l’autoconfiança.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA2.2",
-            "text": "Desenvolupar habilitats musicals individuals i grupals a través de la interpretació, enfortint l’autoestima i la consciència col·lectiva."
+            "text": "Desenvolupar habilitats musicals individuals i grupals a través de la interpretació, enfortint l’autoestima i la consciència col·lectiva.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -78,32 +89,38 @@
       "codi": "CE3",
       "text": "Interpretar a través de la veu, els instruments i la dansa per explorar les possibilitats creatives, expressives i emocionals i desenvolupar l’autoestima.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Utilitzar tècniques d’interpretació musical i corporal per al desenvolupament de les destreses musicals, potenciant l’expressió d’emocions i la seguretat en si mateix/a."
+            "text": "Utilitzar tècniques d’interpretació musical i corporal per al desenvolupament de les destreses musicals, potenciant l’expressió d’emocions i la seguretat en si mateix/a.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.2",
-            "text": "Mostrar iniciativa en els processos creatius participant com a intèrpret en actuacions i manifestacions musicals i escèniques dins i/o fora de centre."
+            "text": "Mostrar iniciativa en els processos creatius participant com a intèrpret en actuacions i manifestacions musicals i escèniques dins i/o fora de centre.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.3",
-            "text": "Aplicar tècniques d’interpretació musical i de moviment en audicions i concerts a l’aula i fora, desenvolupant la creativitat i el respecte cap als altres."
+            "text": "Aplicar tècniques d’interpretació musical i de moviment en audicions i concerts a l’aula i fora, desenvolupant la creativitat i el respecte cap als altres.",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA3.1",
-            "text": "Utilitzar tècniques d’interpretació musical i corporal adequades al context per a l’aprofundiment de les destreses musicals, potenciant l’expressió d’emocions i la seguretat en si mateix/a."
+            "text": "Utilitzar tècniques d’interpretació musical i corporal adequades al context per a l’aprofundiment de les destreses musicals, potenciant l’expressió d’emocions i la seguretat en si mateix/a.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA3.2",
-            "text": "Mostrar autonomia i responsabilitat en els processos creatius participant com a intèrpret en actuacions i manifestacions musicals i escèniques dins i fora de centre."
+            "text": "Mostrar autonomia i responsabilitat en els processos creatius participant com a intèrpret en actuacions i manifestacions musicals i escèniques dins i fora de centre.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA3.3",
-            "text": "Proposar tècniques d’interpretació musical i de moviment per a audicions i concerts a l’aula i fora, desenvolupant la creativitat i el respecte cap als altres."
+            "text": "Proposar tècniques d’interpretació musical i de moviment per a audicions i concerts a l’aula i fora, desenvolupant la creativitat i el respecte cap als altres.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -112,24 +129,28 @@
       "codi": "CE4",
       "text": "Crear projectes musicals a través de la veu, els instruments i el cos amb el suport de les eines tecnològiques per desenvolupar oportunitats personals, socials i professionals de forma inclusiva.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Crear composicions bàsiques vocals, instrumentals, coreogràfiques i multidisciplinàries de manera individual i/o col·laborativa, mostrant respecte a idees, emocions i sentiments del grup."
+            "text": "Crear composicions bàsiques vocals, instrumentals, coreogràfiques i multidisciplinàries de manera individual i/o col·laborativa, mostrant respecte a idees, emocions i sentiments del grup.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.2",
-            "text": "Organitzar produccions que utilitzin la veu, el cos, els instruments i/o les eines digitals per al desenvolupament de projectes musicals, amb actitud inclusiva i cohesionadora, tenint en compte les oportunitats personals, socials i professionals."
+            "text": "Organitzar produccions que utilitzin la veu, el cos, els instruments i/o les eines digitals per al desenvolupament de projectes musicals, amb actitud inclusiva i cohesionadora, tenint en compte les oportunitats personals, socials i professionals.",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA4.1",
-            "text": "Crear composicions complexes vocals, instrumentals, coreogràfiques i multidisciplinàries de manera individual i/o col·laborativa, mostrant respecte a idees, emocions i sentiments del grup."
+            "text": "Crear composicions complexes vocals, instrumentals, coreogràfiques i multidisciplinàries de manera individual i/o col·laborativa, mostrant respecte a idees, emocions i sentiments del grup.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA4.2",
-            "text": "Organitzar produccions que utilitzin la veu, el cos, els instruments i/o les eines digitals per al desenvolupament de projectes musicals, generant les oportunitats de desenvolupament personal, social i professional fruit de la feina col·laborativa."
+            "text": "Organitzar produccions que utilitzin la veu, el cos, els instruments i/o les eines digitals per al desenvolupament de projectes musicals, generant les oportunitats de desenvolupament personal, social i professional fruit de la feina col·laborativa.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -142,101 +163,290 @@
     }
   ],
   "_validacio": {
-    "fragments_ok": 28,
-    "fragments_no_trobats": 0,
-    "pct_verificat": 100.0,
-    "errors_mostra": []
+    "validacio_pendent": false,
+    "metode": "completador additiu + split net per \\n (preserva v1.1 + forats)",
+    "total_sabers": 35
   },
   "sabers_items": [
     {
       "nivell": "4t",
       "bloc": "Escolta i percepció musical",
       "subapartat": null,
-      "text": "Anàlisi descriptiva de les característiques més rellevants de diverses propostes musicals"
+      "text": "Anàlisi descriptiva de les característiques més rellevants de diverses propostes musicals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Escolta i percepció musical",
       "subapartat": null,
-      "text": "Relació entre les danses, les agrupacions vocals i instrumentals en les diferents etapes històriques"
+      "text": "Relació entre les danses, les agrupacions vocals i instrumentals en les diferents etapes històriques",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Escolta i percepció musical",
       "subapartat": null,
-      "text": "Recerca d’artistes i agrupacions locals, regionals, nacionals i d’arreu"
+      "text": "Recerca d’artistes i agrupacions locals, regionals, nacionals i d’arreu",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Escolta i percepció musical",
       "subapartat": null,
-      "text": "Anàlisi d’esdeveniments i manifestacions musicals, escèniques i dansístiques en viu i registrades. B"
+      "text": "Anàlisi d’esdeveniments i manifestacions musicals, escèniques i dansístiques en viu i registrades. B",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Interpretació, improvisació i creació",
       "subapartat": null,
-      "text": "Pràctica de les tècniques elementals per a la interpretació: tècniques vocals, instrumentals i corporals, tècniques d’estudi i de regulació de les emocions"
+      "text": "Pràctica de les tècniques elementals per a la interpretació: tècniques vocals, instrumentals i corporals, tècniques d’estudi i de regulació de les emocions",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Interpretació, improvisació i creació",
       "subapartat": null,
-      "text": "Interpretació de repertori vocal, instrumental o corporal individual i/o grupal de diferents tipus de música actual"
+      "text": "Interpretació de repertori vocal, instrumental o corporal individual i/o grupal de diferents tipus de música actual",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Interpretació, improvisació i creació",
       "subapartat": null,
-      "text": "Improvisació guiada i lliure a partir de tècniques vocals, instrumentals i/o corporals"
+      "text": "Improvisació guiada i lliure a partir de tècniques vocals, instrumentals i/o corporals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Interpretació, improvisació i creació",
       "subapartat": null,
-      "text": "Creació de productes musicals i audiovisuals a partir de diferents elements i recursos"
+      "text": "Creació de productes musicals i audiovisuals a partir de diferents elements i recursos",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Interpretació, improvisació i creació",
       "subapartat": null,
-      "text": "Edició de partitures i aplicacions informàtiques en la creació, la interpretació i la improvisació"
+      "text": "Edició de partitures i aplicacions informàtiques en la creació, la interpretació i la improvisació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Interpretació, improvisació i creació",
       "subapartat": null,
-      "text": "Participació en activitats musicals mostrant les normes socials de comportament adequades. C"
+      "text": "Participació en activitats musicals mostrant les normes socials de comportament adequades. C",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Context i cultures musicals, mitjans de comunicació i tecnologies",
       "subapartat": null,
-      "text": "Edició, gravació i reproducció del so en diferents contextos"
+      "text": "Edició, gravació i reproducció del so en diferents contextos",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Context i cultures musicals, mitjans de comunicació i tecnologies",
       "subapartat": null,
-      "text": "Ús de sistemes d’enregistrament i reproducció de so dins i fora de l’aula"
+      "text": "Ús de sistemes d’enregistrament i reproducció de so dins i fora de l’aula",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Context i cultures musicals, mitjans de comunicació i tecnologies",
       "subapartat": null,
-      "text": "Contextualització històrica i social de la música al cinema"
+      "text": "Contextualització històrica i social de la música al cinema",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Context i cultures musicals, mitjans de comunicació i tecnologies",
       "subapartat": null,
-      "text": "Anàlisi de les músiques populars urbanes nacionals i internacionals des dels anys 50 fins a l’actualitat. El rock. El jazz. Principals solistes i grups musicals"
+      "text": "Anàlisi de les músiques populars urbanes nacionals i internacionals des dels anys 50 fins a l’actualitat. El rock. El jazz. Principals solistes i grups musicals",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Context i cultures musicals, mitjans de comunicació i tecnologies",
       "subapartat": null,
-      "text": "Valoració de la transformació dels valors, els hàbits, el consum i el gust musical com a conseqüència dels avenços tecnològics"
+      "text": "Valoració de la transformació dels valors, els hàbits, el consum i el gust musical com a conseqüència dels avenços tecnològics",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació auditiva, descripció i valoració de les característiques més rellevants i significatives de diversitat d’obres musicals.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Manifestació de les normes de comportament bàsic, com el respecte i la valoració, en audicions enregistrades o en directe.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi auditiva dels trets estilístics de la música vocal i instrumental d’obres musicals de diferents èpoques i cultures.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació i discriminació auditiva dels paràmetres del so en diverses obres i manifestacions musicals.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Ús de grafies convencionals i no convencionals en la lectura i escriptura musical.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Interpretació musical individual i col·lectiva a partir de la descodificació dels elements bàsics del llenguatge musical.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Pràctica dels intervals, escales i acords musicals en interpretacions, improvisacions i creacions individuals i col·lectives.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació elementals per a la interpretació: tècniques vocals, instrumentals i corporals, tècniques d’estudi i de gestió d’emocions en la preparació d’obres i la interpretació individual i col·lectiva.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Improvisació guiada i lliure en interpretacions individuals i col·lectives.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Ús i adaptació del llenguatge musical a través d’aplicacions tecnològiques en projectes musicals i artístics.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Composició musical a partir de la veu, el cos, els instruments i/o les eines tecnològiques.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Creació individual i/o col·lectiva a partir de processos que engloben diferents llenguatges artístics.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi de l’evolució de les textures musicals i les formes musicals en obres de diferents períodes històrics.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació de les característiques estilístiques i socials dels principals gèneres del repertori més rellevant del patrimoni cultural i musical.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Recerca d’artistes i agrupacions locals, nacionals i d’arreu.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Desenvolupament del pensament ètic i responsable en relació amb la propietat intel·lectual i cultural.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Contextualització de les principals agrupacions musicals a partir de les famílies instrumentals i les característiques vocals.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Desenvolupament de propostes artístiques que posin en valor les músiques tradicionals, populars i urbanes.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Anàlisi d’esdeveniments i manifestacions musicals, escèniques i dansístiques en viu i registrades.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "1r_3r",
+      "nivell_norm": "ESO_C1",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Participació en activitats musicals mostrant les normes socials de comportament adequades.",
+      "academic_avancat": false
     }
   ]
 }

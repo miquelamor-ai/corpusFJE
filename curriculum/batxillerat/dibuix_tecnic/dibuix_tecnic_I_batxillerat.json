@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Dibuix-Tecnic-I.pdf",
     "nota_estructura": "Matèria de 1r BAT, modalitat Ciències i Arts.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "El Dibuix Tècnic I és una matèria de la modalitat de Ciències i de la modalitat d'Arts de primer de Batxillerat que introdueix els fonaments del llenguatge gràfic normalitzat com a eina universal de comunicació tècnica. Connecta directament amb els estudis d'arquitectura, enginyeria, disseny industrial i formació professional tecnològica, i desenvolupa la capacitat de pensar i comunicar en l'espai.\n\nLa matèria treballa la normalització UNE/ISO —formats, escales, línies i acotació—, les construccions de geometria plana —bisectrius, tangències, corbes còniques i espirals—, i la representació ortogonal en el sistema dièdric europeu amb les seves vistes canòniques: alçat, planta i perfil. S'hi introdueixen els sistemes axonomètrics —isometria, dimètria i perspectiva cavalera— com a recursos per a la visualització tridimensional. El CAD 2D i les eines de representació digital complementen la formació analògica, afegint criteris de productivitat i precisió a la documentació tècnica.\n\nL'enfocament pedagògic és pràctic i progressiu: els exercicis avancen des de la manipulació d'instruments de dibuix fins a la resolució de problemes de representació cada vegada més complexos. El treball combina la construcció geomètrica precisa a mà alçada i amb instruments amb l'ús de programari CAD, fomentant la transferència entre la representació analògica i la digital."
   },
   "competencies_clau": [
@@ -31,129 +31,150 @@
       "codi": "CE1",
       "text": "Interpretar i aplicar les normes de representació tècnica (UNE/ISO) per produir i llegir documentació gràfica normalitzada, valorant la normalització com a llenguatge universal de la tècnica.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Aplica les normes bàsiques de representació (formats, escales, tipus de línies, retolació) en làmines tècniques manuals i digitals."
+            "text": "Aplica les normes bàsiques de representació (formats, escales, tipus de línies, retolació) en làmines tècniques manuals i digitals.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.2",
-            "text": "Identifica i usa les escales gràfiques i numèriques adequades, calculant les dimensions reals a partir de les representades."
+            "text": "Identifica i usa les escales gràfiques i numèriques adequades, calculant les dimensions reals a partir de les representades.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.3",
-            "text": "Interpreta i elabora la llegenda, el quadre de retolació i les indicacions de plec seguint els estàndards UNE/ISO."
+            "text": "Interpreta i elabora la llegenda, el quadre de retolació i les indicacions de plec seguint els estàndards UNE/ISO.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.4",
-            "text": "Diferencia els tipus de línies (contorn, aresta oculta, eix, trencament) i els aplica correctament en la documentació gràfica."
+            "text": "Diferencia els tipus de línies (contorn, aresta oculta, eix, trencament) i els aplica correctament en la documentació gràfica.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE2",
       "text": "Resoldre problemes de geometria plana aplicant construccions geomètriques fonamentals i relacions entre figures per donar resposta a necessitats de disseny i representació tècnica.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Resol construccions de rectes i angles (bisectrius, mediatrius, paral·leles, perpendiculars) amb precisió instrumental i justificant el procediment."
+            "text": "Resol construccions de rectes i angles (bisectrius, mediatrius, paral·leles, perpendiculars) amb precisió instrumental i justificant el procediment.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.2",
-            "text": "Construeix polígons regulars i irregulars inscrits i circumscrits, identificant les propietats que en determinen la forma."
+            "text": "Construeix polígons regulars i irregulars inscrits i circumscrits, identificant les propietats que en determinen la forma.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.3",
-            "text": "Aplica els teoremes de semblança i homotècia per a problemes de proporcionalitat gràfica en contextos de disseny."
+            "text": "Aplica els teoremes de semblança i homotècia per a problemes de proporcionalitat gràfica en contextos de disseny.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.4",
-            "text": "Resol tangències i enllaços entre rectes i circumferències, aplicant-los en el disseny de perfils tècnics."
+            "text": "Resol tangències i enllaços entre rectes i circumferències, aplicant-los en el disseny de perfils tècnics.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.5",
-            "text": "Traça còniques (el·lipse, paràbola, hipèrbola) a partir de les seves propietats geomètriques i en identifica les aplicacions."
+            "text": "Traça còniques (el·lipse, paràbola, hipèrbola) a partir de les seves propietats geomètriques i en identifica les aplicacions.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE3",
       "text": "Representar objectes tridimensionals en el sistema dièdric europeu, llegint i elaborant vistes ortogonals per comunicar informació tècnica amb exactitud.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Obté les vistes (planta, alçat, perfil) d'objectes senzills i complexos aplicant les regles de projecció ortogonal."
+            "text": "Obté les vistes (planta, alçat, perfil) d'objectes senzills i complexos aplicant les regles de projecció ortogonal.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.2",
-            "text": "Reconstrueix la forma tridimensional d'un objecte a partir de les seves vistes dièdriques, detectant possibles inconsistències."
+            "text": "Reconstrueix la forma tridimensional d'un objecte a partir de les seves vistes dièdriques, detectant possibles inconsistències.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.3",
-            "text": "Representa arestes i superfícies visibles i ocultes de forma correcta, distingint aresta de contorn, real i virtual."
+            "text": "Representa arestes i superfícies visibles i ocultes de forma correcta, distingint aresta de contorn, real i virtual.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.4",
-            "text": "Acota plànols de peces mecàniques senzilles seguint les normes d'acotació, garantint la llegibilitat de la documentació."
+            "text": "Acota plànols de peces mecàniques senzilles seguint les normes d'acotació, garantint la llegibilitat de la documentació.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE4",
       "text": "Representar objectes en sistemes axonomètrics (isometria, dimètria, perspectiva cavalera) per facilitar la comprensió espacial i la comunicació de formes tridimensionals.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Representa objectes prismàtics i cilíndrics en perspectiva isomètrica, respectant els angles i coeficients de reducció."
+            "text": "Representa objectes prismàtics i cilíndrics en perspectiva isomètrica, respectant els angles i coeficients de reducció.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.2",
-            "text": "Dibuixa representacions en perspectiva cavalera d'elements arquitectònics senzills, aplicant l'angle i la reducció axial."
+            "text": "Dibuixa representacions en perspectiva cavalera d'elements arquitectònics senzills, aplicant l'angle i la reducció axial.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.3",
-            "text": "Compara les distorsions de cada sistema axonomètric i tria el més adequat segons l'objectiu comunicatiu."
+            "text": "Compara les distorsions de cada sistema axonomètric i tria el més adequat segons l'objectiu comunicatiu.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.4",
-            "text": "Representa circumferències i corbes en perspectiva axonomètrica, integrant-les en conjunts volumètrics."
+            "text": "Representa circumferències i corbes en perspectiva axonomètrica, integrant-les en conjunts volumètrics.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE5",
       "text": "Utilitzar aplicacions CAD 2D i eines digitals de representació per incrementar la precisió, la productivitat i la qualitat de la documentació tècnica.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Utilitza un programa CAD 2D per crear, modificar i dimensionar geometries, aplicant capes i tipus de línia normalitzats."
+            "text": "Utilitza un programa CAD 2D per crear, modificar i dimensionar geometries, aplicant capes i tipus de línia normalitzats.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.2",
-            "text": "Gestiona l'entorn de treball digital (plantilles, blocs, capes, escales d'impressió) per produir documentació tècnica normalitzada."
+            "text": "Gestiona l'entorn de treball digital (plantilles, blocs, capes, escales d'impressió) per produir documentació tècnica normalitzada.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.3",
-            "text": "Exporta i comparteix fitxers en formats estàndard (DWG, PDF, SVG), valorant la interoperabilitat."
+            "text": "Exporta i comparteix fitxers en formats estàndard (DWG, PDF, SVG), valorant la interoperabilitat.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.4",
-            "text": "Compara el dibuix manual i el digital, identificant els avantatges i limitacions de cada mètode."
+            "text": "Compara el dibuix manual i el digital, identificant els avantatges i limitacions de cada mètode.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     }
   ],
@@ -242,391 +263,522 @@
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Sistemes de normalització: UNE, ISO, DIN. Àmbit d'aplicació i camp de validància"
+      "text": "Sistemes de normalització: UNE, ISO, DIN. Àmbit d'aplicació i camp de validància",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Formats de paper: sèrie A. Doble, triple i quàdruple format"
+      "text": "Formats de paper: sèrie A. Doble, triple i quàdruple format",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Tipus de línies: contorn, aresta oculta, eix de simetria, trencament, auxiliar"
+      "text": "Tipus de línies: contorn, aresta oculta, eix de simetria, trencament, auxiliar",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Escales numèriques i gràfiques: escales de reducció i ampliació normalitzades"
+      "text": "Escales numèriques i gràfiques: escales de reducció i ampliació normalitzades",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Retolació normalitzada: tipus de lletra, alçada mínima, inclinació"
+      "text": "Retolació normalitzada: tipus de lletra, alçada mínima, inclinació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Quadre de retolació: elements obligatoris en plànols tècnics"
+      "text": "Quadre de retolació: elements obligatoris en plànols tècnics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Acotació: elements bàsics i regles generals d'acotació de peces"
+      "text": "Acotació: elements bàsics i regles generals d'acotació de peces",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Toleràncies dimensionals i geomètriques: conceptes bàsics"
+      "text": "Toleràncies dimensionals i geomètriques: conceptes bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Simbologia de vistes en plànols (angle europeu i americà)"
+      "text": "Simbologia de vistes en plànols (angle europeu i americà)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Plec de plànols: procediment estàndard i instruccions de plegat"
+      "text": "Plec de plànols: procediment estàndard i instruccions de plegat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Llegibilitat i claredat: principis de qualitat de la documentació tècnica"
+      "text": "Llegibilitat i claredat: principis de qualitat de la documentació tècnica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "normalitzacio",
       "subapartat": null,
-      "text": "Aplicació de normes en projectes reals d'enginyeria i arquitectura"
+      "text": "Aplicació de normes en projectes reals d'enginyeria i arquitectura",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Rectes: posicions relatives, angles, bisectriu, mediatriu"
+      "text": "Rectes: posicions relatives, angles, bisectriu, mediatriu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Paral·leles i perpendiculars: construcció amb regle i compàs"
+      "text": "Paral·leles i perpendiculars: construcció amb regle i compàs",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Divisió de segments en parts iguals i proporcionals (Tales)"
+      "text": "Divisió de segments en parts iguals i proporcionals (Tales)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Polígons regulars: triangle, quadrat, pentàgon, hexàgon, octàgon"
+      "text": "Polígons regulars: triangle, quadrat, pentàgon, hexàgon, octàgon",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Polígons irregulars: mètodes de construcció a partir de condicions"
+      "text": "Polígons irregulars: mètodes de construcció a partir de condicions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Circumferència: elements, posicions relatives amb rectes i circumferències"
+      "text": "Circumferència: elements, posicions relatives amb rectes i circumferències",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Tangències: recta-circumferència i circumferència-circumferència"
+      "text": "Tangències: recta-circumferència i circumferència-circumferència",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Enllaços: arc d'enllaç interior i exterior entre dues circumferències"
+      "text": "Enllaços: arc d'enllaç interior i exterior entre dues circumferències",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Homotècia i semblança: centre homotetic, raó, construcció"
+      "text": "Homotècia i semblança: centre homotetic, raó, construcció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Proporcions: sèries modulars, nombre auri i secció àuria en disseny"
+      "text": "Proporcions: sèries modulars, nombre auri i secció àuria en disseny",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "El·lipse: mètode de l'eix major i menor (trammel) i mètode focal"
+      "text": "El·lipse: mètode de l'eix major i menor (trammel) i mètode focal",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Paràbola: mètode de la directriu i el focus"
+      "text": "Paràbola: mètode de la directriu i el focus",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Hipèrbola: construcció a partir de focus i vèrtexs"
+      "text": "Hipèrbola: construcció a partir de focus i vèrtexs",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Espirals i evolvents: aplicacions en perfils de dentats i cargols"
+      "text": "Espirals i evolvents: aplicacions en perfils de dentats i cargols",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "geometria_plana",
       "subapartat": null,
-      "text": "Aplicacions de la geometria plana en el disseny industrial i arquitectònic"
+      "text": "Aplicacions de la geometria plana en el disseny industrial i arquitectònic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Sistema dièdric: plans de projecció, primer i tercer angle"
+      "text": "Sistema dièdric: plans de projecció, primer i tercer angle",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Projecció ortogonal: vistes fonamentals (planta, alçat, perfil dret, perfil esquerre)"
+      "text": "Projecció ortogonal: vistes fonamentals (planta, alçat, perfil dret, perfil esquerre)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Obtenció metòdica de vistes a partir de l'objecte tridimensional"
+      "text": "Obtenció metòdica de vistes a partir de l'objecte tridimensional",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Correspondència entre vistes: línies de referència i ordre d'obtenció"
+      "text": "Correspondència entre vistes: línies de referència i ordre d'obtenció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Arestes visibles (línia contínua) i ocultes (línia discontinua)"
+      "text": "Arestes visibles (línia contínua) i ocultes (línia discontinua)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Vistes auxiliars: obtenció per canvi de pla de projecció"
+      "text": "Vistes auxiliars: obtenció per canvi de pla de projecció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Seccions: secció recta, secció oblíqua i traç del pla secant"
+      "text": "Seccions: secció recta, secció oblíqua i traç del pla secant",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Mig tall i tall parcial: convencions en plànols de peces"
+      "text": "Mig tall i tall parcial: convencions en plànols de peces",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Ruptures i trencaments convencionals en peces llargues"
+      "text": "Ruptures i trencaments convencionals en peces llargues",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Acotació de vistes: regles d'ordre, prioritat i no-redundància"
+      "text": "Acotació de vistes: regles d'ordre, prioritat i no-redundància",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Reconstrucció d'objectes a partir de dues o tres vistes"
+      "text": "Reconstrucció d'objectes a partir de dues o tres vistes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Representació de roscats, xavetes i unions mecàniques"
+      "text": "Representació de roscats, xavetes i unions mecàniques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Lectura de plànols de conjunts mecànics senzills"
+      "text": "Lectura de plànols de conjunts mecànics senzills",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "representacio_dihedrica",
       "subapartat": null,
-      "text": "Aplicació del sistema dièdric en projectes arquitectònics bàsics"
+      "text": "Aplicació del sistema dièdric en projectes arquitectònics bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Fonaments de la projecció axonomètrica: tipus principals"
+      "text": "Fonaments de la projecció axonomètrica: tipus principals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Isometria: angles dels eixos (30 graus) i coeficients de reducció"
+      "text": "Isometria: angles dels eixos (30 graus) i coeficients de reducció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Representació isomètrica de prismes, cilindres i objectes compostos"
+      "text": "Representació isomètrica de prismes, cilindres i objectes compostos",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "El·lipse isomètrica: construcció per al cercle en cada pla de l'isometria"
+      "text": "El·lipse isomètrica: construcció per al cercle en cada pla de l'isometria",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Dimètria: angles i coeficients, diferències respecte a la isometria"
+      "text": "Dimètria: angles i coeficients, diferències respecte a la isometria",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Perspectiva cavalera: angle frontal, coeficient de reducció (0,5)"
+      "text": "Perspectiva cavalera: angle frontal, coeficient de reducció (0,5)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Representació cavalera d'objectes amb superfícies corbes i forats"
+      "text": "Representació cavalera d'objectes amb superfícies corbes i forats",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Criteris per a la tria del sistema axonomètric"
+      "text": "Criteris per a la tria del sistema axonomètric",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Axonometria en arquitectura: representació d'espais i volumetries interiors"
+      "text": "Axonometria en arquitectura: representació d'espais i volumetries interiors",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Obtenció d'axonometria a partir de les vistes ortogonals d'un objecte"
+      "text": "Obtenció d'axonometria a partir de les vistes ortogonals d'un objecte",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Ombres en perspectiva axonomètrica: principis bàsics"
+      "text": "Ombres en perspectiva axonomètrica: principis bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "axonometria",
       "subapartat": null,
-      "text": "Color i textura en representacions axonomètriques digitals"
+      "text": "Color i textura en representacions axonomètriques digitals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Introducció al CAD 2D: entorn de treball, menús i barres d'eines"
+      "text": "Introducció al CAD 2D: entorn de treball, menús i barres d'eines",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Sistemes de coordenades: cartesianes absolutes, polars i relatives"
+      "text": "Sistemes de coordenades: cartesianes absolutes, polars i relatives",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Entitats bàsiques: punt, línia, arc, cercle, polilínia, spline, rectangle"
+      "text": "Entitats bàsiques: punt, línia, arc, cercle, polilínia, spline, rectangle",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Modificació d'entitats: moure, copiar, rotar, escalar, simetria, matriu"
+      "text": "Modificació d'entitats: moure, copiar, rotar, escalar, simetria, matriu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Capes (layers): creació, propietats i ús per a documentació tècnica"
+      "text": "Capes (layers): creació, propietats i ús per a documentació tècnica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Blocs i atributs: creació, inserció i gestió de símbol normalitzats"
+      "text": "Blocs i atributs: creació, inserció i gestió de símbol normalitzats",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Acotació automàtica: tipus d'acotes (lineal, radial, angular), estils"
+      "text": "Acotació automàtica: tipus d'acotes (lineal, radial, angular), estils",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Plantilles de dibuix: configuració d'unitats, límits i escales"
+      "text": "Plantilles de dibuix: configuració d'unitats, límits i escales",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Impressió i traçat: espai model i paper, escala de plot, estils de traçat"
+      "text": "Impressió i traçat: espai model i paper, escala de plot, estils de traçat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Formats d'exportació: DWG, DXF, PDF, SVG i formats d'imatge"
+      "text": "Formats d'exportació: DWG, DXF, PDF, SVG i formats d'imatge",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Programari CAD lliure vs. propietari (FreeCAD, LibreCAD, AutoCAD)"
+      "text": "Programari CAD lliure vs. propietari (FreeCAD, LibreCAD, AutoCAD)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "informatica_grafica",
       "subapartat": null,
-      "text": "Us de la IA en la generació i verificació de dibuixos tècnics"
+      "text": "Us de la IA en la generació i verificació de dibuixos tècnics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

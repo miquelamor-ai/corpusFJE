@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/Matematiques-II.pdf",
     "nota_estructura": "Matemàtiques II és matèria de 2n de Batxillerat de la modalitat Ciències i Tecnologia, continuació de Matemàtiques I. Aprofundeix en àlgebra matricial, geometria vectorial en l'espai, anàlisi avançada i estadística inferencial.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "Les Matemàtiques II de Batxillerat aprofundeixen els continguts de primer curs i preparen l'alumne per a la selectivitat i per als estudis universitaris de les branques científiques, tecnològiques i d'enginyeria. Consoliden la capacitat de modelitzar situacions complexes amb eines matemàtiques avançades, de raonar amb rigor formal i d'afrontar problemes oberts amb autonomia i precisió.\n\nLa matèria avança en àlgebra matricial —matrius, determinants, rang, sistemes d'equacions lineals i teorema de Rouché-Frobenius— i en geometria vectorial a l'espai tridimensional, incloent-hi equacions de rectes i plans, producte vectorial i mixt, i distàncies i angles. L'anàlisi matemàtica aprofundeix en el càlcul diferencial de funcions de variable real —regla de la cadena, optimització, estudi complet de funcions— i desenvolupa el càlcul integral, amb les tècniques d'integració —substitució, per parts, descomposició en fraccions simples— i les aplicacions al càlcul d'àrees i volums. L'estadística inferencial incorpora intervals de confiança, contrastació d'hipòtesis i distribucions de mostreig, connectant la probabilitat amb la presa de decisions basada en dades.\n\nL'ensenyament de Matemàtiques II es caracteritza per un alt grau d'exigència en la formalització i la demostració. Les activitats combinen exercicis de càlcul sistemàtic amb problemes d'aplicació en física, economia i enginyeria. El treball amb programari matemàtic —CAS, fulls de càlcul, programari estadístic— és habitual i afavoreix la comprensió visual i la verificació de resultats analítics."
   },
   "competencies_clau": [
@@ -36,7 +36,7 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "1.1 Analitzar i formalitzar problemes matemàtics complexos, seleccionant les eines i tècniques més adequades per a la seva resolució.",
           "1.2 Construir demostracions i justificacions matemàtiques rigoroses, fent ús del raonament deductiu.",
           "1.3 Comunicar processos i solucions matemàtiques de manera precisa i estructurada, tant per escrit com oralment."
@@ -53,7 +53,7 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "2.1 Formular models matemàtics que incorporin àlgebra lineal, càlcul integral o estadística per descriure fenòmens científics.",
           "2.2 Avaluar la validesa i les limitacions dels models matemàtics aplicats, proposant millores quan escaigui.",
           "2.3 Emprar programari matemàtic per a la construcció, simulació i visualització de models."
@@ -70,7 +70,7 @@
         "CP"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "3.1 Reconèixer les connexions entre l'àlgebra matricial, la geometria vectorial i l'anàlisi en la resolució de problemes integrals.",
           "3.2 Aplicar conceptes matemàtics en contextos de física, química, economia i enginyeria.",
           "3.3 Valorar la transversalitat de les matemàtiques com a eina de modelització en diverses disciplines."
@@ -87,7 +87,7 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "4.1 Comprendre i aplicar les propietats de la distribució normal i calcular probabilitats associades.",
           "4.2 Construir i interpretar intervals de confiança per a una proporció i per a una mitjana.",
           "4.3 Plantejar i resoldre contrastos d'hipòtesis senzills, interpretant els resultats en context."
@@ -165,169 +165,226 @@
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Matrius i determinants",
-      "text": "Matrius: definició, tipus i operacions (suma, producte, transposada)"
+      "text": "Matrius: definició, tipus i operacions (suma, producte, transposada)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Matrius i determinants",
-      "text": "Determinants d'ordre 2 i 3: propietats i regla de Sarrus"
+      "text": "Determinants d'ordre 2 i 3: propietats i regla de Sarrus",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Matrius i determinants",
-      "text": "Matriu inversa: càlcul i condicions d'existència"
+      "text": "Matriu inversa: càlcul i condicions d'existència",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Matrius i determinants",
-      "text": "Rang d'una matriu: mètode de Gauss"
+      "text": "Rang d'una matriu: mètode de Gauss",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Sistemes d'equacions lineals",
-      "text": "Sistemes d'equacions lineals i expressió matricial"
+      "text": "Sistemes d'equacions lineals i expressió matricial",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Sistemes d'equacions lineals",
-      "text": "Teorema de Rouché-Fröbenius: compatibilitat de sistemes"
+      "text": "Teorema de Rouché-Fröbenius: compatibilitat de sistemes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Sistemes d'equacions lineals",
-      "text": "Resolució de sistemes compatibles determinats per la regla de Cramer i el mètode de Gauss"
+      "text": "Resolució de sistemes compatibles determinats per la regla de Cramer i el mètode de Gauss",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Àlgebra matricial",
       "subapartat": "Sistemes d'equacions lineals",
-      "text": "Discussió i resolució de sistemes amb paràmetres"
+      "text": "Discussió i resolució de sistemes amb paràmetres",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Vectors en l'espai",
-      "text": "Vectors a R³: operacions, producte escalar, producte vectorial i producte mixt"
+      "text": "Vectors a R³: operacions, producte escalar, producte vectorial i producte mixt",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Vectors en l'espai",
-      "text": "Aplicacions del producte vectorial: àrea i volum"
+      "text": "Aplicacions del producte vectorial: àrea i volum",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Vectors en l'espai",
-      "text": "Interpretació geomètrica dels productes de vectors"
+      "text": "Interpretació geomètrica dels productes de vectors",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Geometria analítica en l'espai",
-      "text": "Rectes en l'espai: equacions paramètriques, contínua i implícita"
+      "text": "Rectes en l'espai: equacions paramètriques, contínua i implícita",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Geometria analítica en l'espai",
-      "text": "Plans en l'espai: equació general i equació normal"
+      "text": "Plans en l'espai: equació general i equació normal",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Geometria analítica en l'espai",
-      "text": "Posicions relatives de rectes i plans. Interseccions"
+      "text": "Posicions relatives de rectes i plans. Interseccions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Geometria vectorial",
       "subapartat": "Geometria analítica en l'espai",
-      "text": "Distàncies i angles entre elements geomètrics en l'espai"
+      "text": "Distàncies i angles entre elements geomètrics en l'espai",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Derivades i aplicacions avançades",
-      "text": "Derivació de funcions implícites i paramètriques"
+      "text": "Derivació de funcions implícites i paramètriques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Derivades i aplicacions avançades",
-      "text": "Regla de L'Hôpital per a la resolució d'indeterminacions"
+      "text": "Regla de L'Hôpital per a la resolució d'indeterminacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Derivades i aplicacions avançades",
-      "text": "Estudi complet de funcions: monotonia, extrems, concavitat, inflexió i asímptotes"
+      "text": "Estudi complet de funcions: monotonia, extrems, concavitat, inflexió i asímptotes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Derivades i aplicacions avançades",
-      "text": "Optimització: problemes de màxims i mínims"
+      "text": "Optimització: problemes de màxims i mínims",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Càlcul integral",
-      "text": "Integral indefinida: primitives i tècniques bàsiques d'integració (per parts, canvi de variable, fraccions parcials)"
+      "text": "Integral indefinida: primitives i tècniques bàsiques d'integració (per parts, canvi de variable, fraccions parcials)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Càlcul integral",
-      "text": "Integral definida: Regla de Barrow i interpretació geomètrica"
+      "text": "Integral definida: Regla de Barrow i interpretació geomètrica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Anàlisi matemàtica avançada",
       "subapartat": "Càlcul integral",
-      "text": "Aplicacions de la integral: àrea de recintes plans, volums de sòlids de revolució"
+      "text": "Aplicacions de la integral: àrea de recintes plans, volums de sòlids de revolució",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Estadística inferencial",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Distribució binomial: càlcul de probabilitats i aplicacions"
+      "text": "Distribució binomial: càlcul de probabilitats i aplicacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Estadística inferencial",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Distribució normal: propietats, tipificació i taules"
+      "text": "Distribució normal: propietats, tipificació i taules",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Estadística inferencial",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Aproximació de la distribució binomial per la normal (condicions i càlcul)"
+      "text": "Aproximació de la distribució binomial per la normal (condicions i càlcul)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Estadística inferencial",
       "subapartat": "Inferència estadística",
-      "text": "Distribució mostral de la mitjana i de la proporció"
+      "text": "Distribució mostral de la mitjana i de la proporció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Estadística inferencial",
       "subapartat": "Inferència estadística",
-      "text": "Intervals de confiança per a la proporció i per a la mitjana (variança coneguda)"
+      "text": "Intervals de confiança per a la proporció i per a la mitjana (variança coneguda)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Estadística inferencial",
       "subapartat": "Inferència estadística",
-      "text": "Contrastos d'hipòtesis: conceptes bàsics, errors de tipus I i II, i significació estadística"
+      "text": "Contrastos d'hipòtesis: conceptes bàsics, errors de tipus I i II, i significació estadística",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

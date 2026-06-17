@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/humanitats-cs/Geografia.pdf",
     "nota_estructura": "Matèria de 2n BAT, modalitat Humanitats i Ciències Socials. Geografia d'Espanya i Catalunya.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "La Geografia de 2n de Batxillerat, en la modalitat d'Humanitats i Ciències Socials, estudia el territori espanyol i català en totes les seves dimensions —física, humana, econòmica i política— per comprendre els processos que configuren el paisatge i les desigualtats territorials. Connecta amb estudis superiors de geografia, ciències ambientals, urbanisme, dret, economia regional i ciències polítiques, i forma part de les proves d'accés a la universitat.\n\nEl corpus conceptual de la matèria inclou l'anàlisi del relleu peninsular i insular, les grans conques hidrogràfiques, les zones climàtiques i els biomes; l'estudi dels problemes mediambientals —desertització, incendis forestals, pèrdua de biodiversitat, canvi climàtic— i de les polítiques de protecció (xarxa Natura 2000, PNEC, plans hidrològics); la demografia i els moviments migratoris a través d'indicadors com la taxa de natalitat, la mortalitat, el creixement vegetatiu i les piràmides de població; les activitats econòmiques sectorials (sector primari, PAC, turisme i sobreturisme, desindustrialització, terciació); el model d'estat autonòmic, les polítiques de cohesió territorial i els fons estructurals europeus (FEDER, FSE); i la dinàmica dels paisatges rural, industrial i urbà, incloent-hi la morfologia de les ciutats, la gentrificació i l'urbanisme sostenible. La cartografia, els sistemes d'informació geogràfica (SIG) i els mapes temàtics constitueixen eines instrumentals fonamentals.\n\nLa metodologia geogràfica combina l'anàlisi de mapes i cartografia temàtica, la interpretació d'estadístiques territorials, el comentari de fotografies de paisatge i l'ús de Google Earth. El treball de camp, l'elaboració de propostes de gestió territorial i la connexió permanent amb problemàtiques actuals com el canvi climàtic, la despoblació rural o el sobreturisme doten la matèria d'un fort ancoratge en la realitat geogràfica immediata."
   },
   "competencies_clau": [
@@ -32,23 +32,27 @@
       "codi": "CE1",
       "text": "Comprendre i analitzar l'organització territorial d'Espanya i de Catalunya, identificant els trets físics, administratius i geogràfics que en caracteritzen el territori.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Analitza i descriu els grans conjunts de relleu, la xarxa hidrogràfica i el litoral espanyol, relacionant-los amb la diversitat física del territori."
+            "text": "Analitza i descriu els grans conjunts de relleu, la xarxa hidrogràfica i el litoral espanyol, relacionant-los amb la diversitat física del territori.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.2",
-            "text": "Compara les diverses tipologies de climes espanyols (oceànic, mediterrani, àrid, continental, de muntanya) i en valora la influència en la vegetació i el paisatge."
+            "text": "Compara les diverses tipologies de climes espanyols (oceànic, mediterrani, àrid, continental, de muntanya) i en valora la influència en la vegetació i el paisatge.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.3",
-            "text": "Identifica les divisions administratives d'Espanya (municipis, províncies, comunitats autònomes) i descriu el model d'estat de les autonomies."
+            "text": "Identifica les divisions administratives d'Espanya (municipis, províncies, comunitats autònomes) i descriu el model d'estat de les autonomies.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.4",
-            "text": "Aplica cartografia específica, mapes temàtics i eines SIG bàsiques per representar, analitzar i interpretar informació geogràfica del territori espanyol."
+            "text": "Aplica cartografia específica, mapes temàtics i eines SIG bàsiques per representar, analitzar i interpretar informació geogràfica del territori espanyol.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -57,23 +61,27 @@
       "codi": "CE2",
       "text": "Analitzar els principals problemes mediambientals d'Espanya i de Catalunya, valorant-ne les causes, les conseqüències i les mesures de gestió sostenible del territori.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Identifica els principals problemes mediambientals espanyols (desertització, incendis forestals, contaminació, pèrdua de biodiversitat) i n'explica les causes i les conseqüències."
+            "text": "Identifica els principals problemes mediambientals espanyols (desertització, incendis forestals, contaminació, pèrdua de biodiversitat) i n'explica les causes i les conseqüències.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.2",
-            "text": "Analitza les polítiques espanyoles i europees de protecció del medi ambient (xarxa Natura 2000, PNEC, plans hidrològics) i en valora l'eficàcia."
+            "text": "Analitza les polítiques espanyoles i europees de protecció del medi ambient (xarxa Natura 2000, PNEC, plans hidrològics) i en valora l'eficàcia.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.3",
-            "text": "Reflexiona sobre el canvi climàtic i les seves implicacions per al territori espanyol, vinculant-les amb els objectius de l'Agenda 2030 i el Pacte Verd Europeu."
+            "text": "Reflexiona sobre el canvi climàtic i les seves implicacions per al territori espanyol, vinculant-les amb els objectius de l'Agenda 2030 i el Pacte Verd Europeu.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.4",
-            "text": "Elabora propostes de gestió sostenible del territori a escala local i regional, argumentant-les amb dades i criteris geogràfics."
+            "text": "Elabora propostes de gestió sostenible del territori a escala local i regional, argumentant-les amb dades i criteris geogràfics.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -82,23 +90,27 @@
       "codi": "CE3",
       "text": "Analitzar la dinàmica de la població espanyola i catalana, relacionant els fenòmens migratòris amb els desequilibris territorials i els reptes socials actuals.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Interpreta indicadors demogràfics (natalitat, mortalitat, esperança de vida, creixement vegetatiu) i n'analitza la dinàmica i les tendències."
+            "text": "Interpreta indicadors demogràfics (natalitat, mortalitat, esperança de vida, creixement vegetatiu) i n'analitza la dinàmica i les tendències.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.2",
-            "text": "Analitza els moviments migratoris a Espanya i Catalunya (emigració històrica, immigració actual, migració interior) i n'avalua les implicacions socials i territorials."
+            "text": "Analitza els moviments migratoris a Espanya i Catalunya (emigració històrica, immigració actual, migració interior) i n'avalua les implicacions socials i territorials.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.3",
-            "text": "Identifica els desequilibris territorials de la distribució de la població a Espanya i proposa estratègies de correcció."
+            "text": "Identifica els desequilibris territorials de la distribució de la població a Espanya i proposa estratègies de correcció.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.4",
-            "text": "Relaciona els reptes demogràfics actuals (envelliment, despoblació rural, creçement de les metropòlis) amb les polítiques públiques."
+            "text": "Relaciona els reptes demogràfics actuals (envelliment, despoblació rural, creçement de les metropòlis) amb les polítiques públiques.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -107,23 +119,27 @@
       "codi": "CE4",
       "text": "Analitzar les activitats econòmiques d'Espanya i Catalunya, identificant la seva distribució territorial, els sectors productius i la inserció en el context europeu i global.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Descriu les característiques principals del sector agrícola espanyol (modernització, regadiu, PAC) i en valora la dinàmica territorial i la competitivitat."
+            "text": "Descriu les característiques principals del sector agrícola espanyol (modernització, regadiu, PAC) i en valora la dinàmica territorial i la competitivitat.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.2",
-            "text": "Analitza la distribució i la dinàmica del sector industrial a Espanya, identificant els grans espais industrials i el procés de desindustrialització."
+            "text": "Analitza la distribució i la dinàmica del sector industrial a Espanya, identificant els grans espais industrials i el procés de desindustrialització.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.3",
-            "text": "Valora l'importància del turisme en l'economia espanyola, analitzant-ne la distribució territorial, els impactes i les tendències actuals (sobreturisme, turisme sostenible)."
+            "text": "Valora l'importància del turisme en l'economia espanyola, analitzant-ne la distribució territorial, els impactes i les tendències actuals (sobreturisme, turisme sostenible).",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.4",
-            "text": "Analitza la posició d'Espanya en el comerc internacional, la UE i la globalització, valorant els efectes sobre l'estructura econòmica i el mercat laboral."
+            "text": "Analitza la posició d'Espanya en el comerc internacional, la UE i la globalització, valorant els efectes sobre l'estructura econòmica i el mercat laboral.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -132,23 +148,27 @@
       "codi": "CE5",
       "text": "Comprendre l'organització político-administrativa del territori espanyol, analitzant els desequilibris regionals i les polítiques de cohesió territorial.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Explica el model d'estat autonòmic espanyol, descrivint la distribució de competències entre l'Estat central, les comunitats autònomes i les entitats locals."
+            "text": "Explica el model d'estat autonòmic espanyol, descrivint la distribució de competències entre l'Estat central, les comunitats autònomes i les entitats locals.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.2",
-            "text": "Analitza els desequilibris econòmics i socials entre les regions espanyoles, emprant indicadors com el PIB per càpita, la taxa d'atur i l'IDH."
+            "text": "Analitza els desequilibris econòmics i socials entre les regions espanyoles, emprant indicadors com el PIB per càpita, la taxa d'atur i l'IDH.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.3",
-            "text": "Valora les polítiques de cohesió territorial de la UE (fons estructurals, FEDER, FSE) i el seu impacte en les regions espanyoles menys desenvolupades."
+            "text": "Valora les polítiques de cohesió territorial de la UE (fons estructurals, FEDER, FSE) i el seu impacte en les regions espanyoles menys desenvolupades.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.4",
-            "text": "Reflexiona sobre el futur del model territorial espanyol, la qestió del finançament autonòmic i els reptes de la cohesió social i territorial."
+            "text": "Reflexiona sobre el futur del model territorial espanyol, la qestió del finançament autonòmic i els reptes de la cohesió social i territorial.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -157,23 +177,27 @@
       "codi": "CE6",
       "text": "Analitzar les transformacions dels paisatges rural, industrial i urbà a Espanya, relacionant-les amb els processos econòmics, socials i territorials contemporanis.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA6.1",
-            "text": "Identifica i caracteritza els principals paisatges rurals espanyols, analitzant l'evolució dels sistemes agràris i el problema de l'abandonament rural."
+            "text": "Identifica i caracteritza els principals paisatges rurals espanyols, analitzant l'evolució dels sistemes agràris i el problema de l'abandonament rural.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA6.2",
-            "text": "Descriu les característiques del paisatge industrial espanyol, la seva evolució històrica i les transformacions derivades de la terciarització i la digitalització."
+            "text": "Descriu les característiques del paisatge industrial espanyol, la seva evolució històrica i les transformacions derivades de la terciarització i la digitalització.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA6.3",
-            "text": "Analitza el creixement urbà a Espanya, identificant la morfologia de les ciutats espanyoles, les zones de conflicte i les estratègies d'urbanisme sostenible."
+            "text": "Analitza el creixement urbà a Espanya, identificant la morfologia de les ciutats espanyoles, les zones de conflicte i les estratègies d'urbanisme sostenible.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA6.4",
-            "text": "Valora els reptes de la sostenibilitat urbana (mobilitat, habitatge, desigualtats, espais verds) a partir de casos concrets de ciutats espanyoles i catalanes."
+            "text": "Valora els reptes de la sostenibilitat urbana (mobilitat, habitatge, desigualtats, espais verds) a partir de casos concrets de ciutats espanyoles i catalanes.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -273,433 +297,578 @@
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Relleu peninsular: grans unitats morfoestructurals (meseta, sistemes perifèrics, valls fluvials)"
+      "text": "Relleu peninsular: grans unitats morfoestructurals (meseta, sistemes perifèrics, valls fluvials)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Relleu insular: Illes Balears i Canàries. Origen i característiques"
+      "text": "Relleu insular: Illes Balears i Canàries. Origen i característiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Litoral espanyol: costes atlàntiques i mediterrànies, tipologia i problemes"
+      "text": "Litoral espanyol: costes atlàntiques i mediterrànies, tipologia i problemes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Factors del clima espanyol: latitud, orografia, continèntalitat, influència marina"
+      "text": "Factors del clima espanyol: latitud, orografia, continèntalitat, influència marina",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Zones climàtiques: oceànica, mediterrània (litoral i interior), àrida, subtropical canària, de muntanya"
+      "text": "Zones climàtiques: oceànica, mediterrània (litoral i interior), àrida, subtropical canària, de muntanya",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Xarxa hidrogràfica: grans conques fluvials (Ebre, Tajo, Guadiana, Guadalquivir, Duero)"
+      "text": "Xarxa hidrogràfica: grans conques fluvials (Ebre, Tajo, Guadiana, Guadalquivir, Duero)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Règim fluvial: factors, tipus i variabilitat estacional"
+      "text": "Règim fluvial: factors, tipus i variabilitat estacional",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Vegetació natural: principals biomes i factors que la determinen"
+      "text": "Vegetació natural: principals biomes i factors que la determinen",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Mapes climàtics i climàtogrames: lectura i interpretació"
+      "text": "Mapes climàtics i climàtogrames: lectura i interpretació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Cartografia geogràfica: topografia, mapes temàtics i SIG bàsics"
+      "text": "Cartografia geogràfica: topografia, mapes temàtics i SIG bàsics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Riscos naturals a Espanya: seisme, inundació, sequera, temporal"
+      "text": "Riscos naturals a Espanya: seisme, inundació, sequera, temporal",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "relleu_clima_i_hidrografia",
       "subapartat": null,
-      "text": "Ordenació territorial: Llei d'Ordenació del Territori, planejament urbà"
+      "text": "Ordenació territorial: Llei d'Ordenació del Territori, planejament urbà",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Ecosistemes espanyols: boscos mediterranis, boscos atlàntics, aiguamolls, ecosistemes canàris"
+      "text": "Ecosistemes espanyols: boscos mediterranis, boscos atlàntics, aiguamolls, ecosistemes canàris",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Biodiversitat: espècies endèmiques, amenaçades i en perill d'extinció"
+      "text": "Biodiversitat: espècies endèmiques, amenaçades i en perill d'extinció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Problemes mediambientals: contaminació, desertització, pèrdua de biodiversitat"
+      "text": "Problemes mediambientals: contaminació, desertització, pèrdua de biodiversitat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Incendis forestals: causes, impacte i polítiques de prevenció"
+      "text": "Incendis forestals: causes, impacte i polítiques de prevenció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Gestió de l'aigua: transvasaments, dessalació, sequera, Directiva Marc de l'Aigua"
+      "text": "Gestió de l'aigua: transvasaments, dessalació, sequera, Directiva Marc de l'Aigua",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Espais naturals protegits: parcs nacionals, xarxa Natura 2000, reserves"
+      "text": "Espais naturals protegits: parcs nacionals, xarxa Natura 2000, reserves",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Canvi climàtic a Espanya: evidències, projeccions i vulnerabilitat del territori"
+      "text": "Canvi climàtic a Espanya: evidències, projeccions i vulnerabilitat del territori",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Polítiques mediambientals: Llei de Residus, plans de qualitat de l'aire, PNEC"
+      "text": "Polítiques mediambientals: Llei de Residus, plans de qualitat de l'aire, PNEC",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Agenda 2030 i ODS aplicats al territori espanyol"
+      "text": "Agenda 2030 i ODS aplicats al territori espanyol",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Transició energètica: energies renovables, mix energètic i objectius climàtics"
+      "text": "Transició energètica: energies renovables, mix energètic i objectius climàtics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Turisme i medi ambient: impactes del sobreturisme i turisme sostenible"
+      "text": "Turisme i medi ambient: impactes del sobreturisme i turisme sostenible",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "medi_ambient",
       "subapartat": null,
-      "text": "Educació ambiental i responsabilitat ciutadana"
+      "text": "Educació ambiental i responsabilitat ciutadana",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Model demogràfic espanyol: transició demogràfica i tendències actuals"
+      "text": "Model demogràfic espanyol: transició demogràfica i tendències actuals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Indicadors demogràfics: natalitat, mortalitat, fecunditat, esperança de vida"
+      "text": "Indicadors demogràfics: natalitat, mortalitat, fecunditat, esperança de vida",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Creixement vegetatiu i saldo migratori a Espanya i Catalunya"
+      "text": "Creixement vegetatiu i saldo migratori a Espanya i Catalunya",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Estructura per edat i sexe: piràmides de població i la seva interpretació"
+      "text": "Estructura per edat i sexe: piràmides de població i la seva interpretació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Distribució de la població: densitat, desequilibris territorials, Spain is different"
+      "text": "Distribució de la població: densitat, desequilibris territorials, Spain is different",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Moviments migratoris històrics: emigració espanyola al s. XX"
+      "text": "Moviments migratoris històrics: emigració espanyola al s. XX",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Immigració a Espanya: origen, distribució i impacte econòmic i social"
+      "text": "Immigració a Espanya: origen, distribució i impacte econòmic i social",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Emigració espanyola recent: joves qualificats i brain drain"
+      "text": "Emigració espanyola recent: joves qualificats i brain drain",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Despoblació rural: causes, conseqüències i polítiques"
+      "text": "Despoblació rural: causes, conseqüències i polítiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Urbanització: grans metropòlis, àrees metropolitanes i desequilibris"
+      "text": "Urbanització: grans metropòlis, àrees metropolitanes i desequilibris",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Politiques de població: conciliació, natalitat, integració d'immigrants"
+      "text": "Politiques de població: conciliació, natalitat, integració d'immigrants",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "poblacio_i_migracions",
       "subapartat": null,
-      "text": "Projeccions de població a Espanya fins al 2050"
+      "text": "Projeccions de població a Espanya fins al 2050",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Sector primar: agricultura, ramaderia, pesca i silvicultura. Estructura i tendències"
+      "text": "Sector primar: agricultura, ramaderia, pesca i silvicultura. Estructura i tendències",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Modernització de l'agricultura espanyola: regadiu, PAC, agronegòci"
+      "text": "Modernització de l'agricultura espanyola: regadiu, PAC, agronegòci",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Sector industrial: localització, tendències, desindustrialització"
+      "text": "Sector industrial: localització, tendències, desindustrialització",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Indústria a Catalunya i Espanya: grans sectors (automòbil, química, agroalimentària)"
+      "text": "Indústria a Catalunya i Espanya: grans sectors (automòbil, química, agroalimentària)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Sector terciari: importància creixent, terciarització de l'economia"
+      "text": "Sector terciari: importància creixent, terciarització de l'economia",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Turisme: tipologia, distribució, impacte econòmic i social, sobreturisme"
+      "text": "Turisme: tipologia, distribució, impacte econòmic i social, sobreturisme",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Infraestructures de transport: xarxa viària, ferrocarril, ports, aeroports"
+      "text": "Infraestructures de transport: xarxa viària, ferrocarril, ports, aeroports",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Comerc exterior espanyol: balana comercial, principals socis i sectors exportadors"
+      "text": "Comerc exterior espanyol: balana comercial, principals socis i sectors exportadors",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Espanya en la UE: mercat único, fons estructurals, politiques comunes"
+      "text": "Espanya en la UE: mercat único, fons estructurals, politiques comunes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Globalització i multinacionals espanyoles"
+      "text": "Globalització i multinacionals espanyoles",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Mercat laboral: atur estructural, precariat, bretxa de gènere"
+      "text": "Mercat laboral: atur estructural, precariat, bretxa de gènere",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "activitats_economiques",
       "subapartat": null,
-      "text": "Transició digital i noves activitats econòmiques: economia de plataformes"
+      "text": "Transició digital i noves activitats econòmiques: economia de plataformes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "L'Estat espanyol: Constitució de 1978 i organització territorial"
+      "text": "L'Estat espanyol: Constitució de 1978 i organització territorial",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Comunitats autònomes: competencies, financement i desequilibris"
+      "text": "Comunitats autònomes: competencies, financement i desequilibris",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Catalunya: estatut d'autonomia, polítiques públiques i reptes territorials"
+      "text": "Catalunya: estatut d'autonomia, polítiques públiques i reptes territorials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Administració local: municipis, diputacions, organització i financement"
+      "text": "Administració local: municipis, diputacions, organització i financement",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Desequilibris territorials: PIB per càpita, taxa d'atur, IDH per regions"
+      "text": "Desequilibris territorials: PIB per càpita, taxa d'atur, IDH per regions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Polítiques de cohesió territorial: fons de compensació interterritorial"
+      "text": "Polítiques de cohesió territorial: fons de compensació interterritorial",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Polítiques de cohesió de la UE: FEDER, FSE, Fons de Cohesió"
+      "text": "Polítiques de cohesió de la UE: FEDER, FSE, Fons de Cohesió",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Planificació territorial: plans d'ordenació urbana, lleis del sòl"
+      "text": "Planificació territorial: plans d'ordenació urbana, lleis del sòl",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "La qestió territorial espanyola: model de financement autonòmic"
+      "text": "La qestió territorial espanyola: model de financement autonòmic",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Xarxes de ciutats: sistemes urbans espanyol i català, funcions"
+      "text": "Xarxes de ciutats: sistemes urbans espanyol i català, funcions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Cooperació transfronterera: Pirineus, euroregio"
+      "text": "Cooperació transfronterera: Pirineus, euroregio",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "organitzacio_territorial",
       "subapartat": null,
-      "text": "Espanya a la UE: relació amb les institucions i participació en polítiques comunes"
+      "text": "Espanya a la UE: relació amb les institucions i participació en polítiques comunes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "El paisatge com a concepte geogràfic: components, factors i dinàmica"
+      "text": "El paisatge com a concepte geogràfic: components, factors i dinàmica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Paisatge rural: tradicional, intensiu, en crisi, espais periurbans"
+      "text": "Paisatge rural: tradicional, intensiu, en crisi, espais periurbans",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Paisatge industrial: zones industrials, polígons, àrees de reindustrialització"
+      "text": "Paisatge industrial: zones industrials, polígons, àrees de reindustrialització",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Paisatge urbà: morfologia de la ciutat espanyola, creixement, gentrificació"
+      "text": "Paisatge urbà: morfologia de la ciutat espanyola, creixement, gentrificació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Regions espanyoles: Espanya húmida, Espanya mediterrània, Espanya interior"
+      "text": "Regions espanyoles: Espanya húmida, Espanya mediterrània, Espanya interior",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Catalunya: regió geogràfica diferenciada, unitats de paisatge"
+      "text": "Catalunya: regió geogràfica diferenciada, unitats de paisatge",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Àrees metropolitanes: funcions, problemes i planificació"
+      "text": "Àrees metropolitanes: funcions, problemes i planificació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Espais rurals en crisi: despoblació i estrategies de revitalització"
+      "text": "Espais rurals en crisi: despoblació i estrategies de revitalització",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Litoral i espais turístics: transformacions, conflictes d'ús"
+      "text": "Litoral i espais turístics: transformacions, conflictes d'ús",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Paisatge i identitat: patrimoni natural i cultural del territori"
+      "text": "Paisatge i identitat: patrimoni natural i cultural del territori",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Canvi global i transformació dels paisatges espanyols"
+      "text": "Canvi global i transformació dels paisatges espanyols",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "paisatges_i_regions",
       "subapartat": null,
-      "text": "Anàlisi de paisatges a partir de fotografies, plats de Google Earth i cartografia"
+      "text": "Anàlisi de paisatges a partir de fotografies, plats de Google Earth i cartografia",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

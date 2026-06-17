@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Cultura-Classica.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Cultura Clàssica a l'ESO és una matèria optativa que aproxima l'alumnat als fonaments grecoromans de la civilització occidental. A través de la llengua, la literatura, la mitologia, el dret i les arts de Grècia i Roma, l'alumne comprèn l'origen de moltes institucions, valors i expressions culturals del present. La matèria connecta amb la Història, la Literatura, la Filosofia i l'estudi de qualsevol llengua d'arrel llatina.\n\nEls constructes clau inclouen el llatí i el grec com a sistemes lingüístics (morfologia, sintaxi, traducció), l'etimologia com a eina per comprendre el lèxic científic i culte del català, el castellà i l'anglès, la mitologia grecoromana (déus, herois, mites fundacionals), i les grans aportacions de Roma: dret, república, arquitectura, urbanisme, literatura èpica i lírica. El llegat hel·lènic en filosofia, democràcia, teatre i ciència completa el quadre.\n\nL'enfocament pedagògic és cultural i interdisciplinari: es llegeixen textos en traducció, s'analitzen obres d'art i monuments, i es traça la pervivència del món clàssic en la cultura contemporània (cinema, literatura, toponímia, vocabulari científic). La traducció de textos llatins o grecs senzills activa el pensament analític i la precisió lingüística. El debat sobre els valors clàssics i el seu contrast amb la societat actual dóna sentit contemporani a la matèria."
   },
@@ -18,18 +18,21 @@
       "codi": "CE1",
       "text": "Analitzar i diferenciar els diferents models d’organització política, social, econòmica i territorial del període grecoromà amb el moment històric present per ser conscient de les arrels clàssiques del món actual.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i establir els espais geogràfics on es va desenvolupar la civilització grega i romana, i quins van ser els seus sistemes polítics i econòmics més representatius, així com les institucions que van vertebrar la seva societat, per mitjà de mapes, plànols i diverses fonts històriques, tot identificant, a més, els elements de canvi i continuïtat entre ambdues civilitzacions."
+            "text": "Identificar i establir els espais geogràfics on es va desenvolupar la civilització grega i romana, i quins van ser els seus sistemes polítics i econòmics més representatius, així com les institucions que van vertebrar la seva societat, per mitjà de mapes, plànols i diverses fonts històriques, tot identificant, a més, els elements de canvi i continuïtat entre ambdues civilitzacions.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.2",
-            "text": "Justificar i valorar la importància la influència dels fets històrics del període grecoromà respecte al moment històric present, per mitjà de l’anàlisi comparativa de textos antics i moderns en els seus més variats formats."
+            "text": "Justificar i valorar la importància la influència dels fets històrics del període grecoromà respecte al moment històric present, per mitjà de l’anàlisi comparativa de textos antics i moderns en els seus més variats formats.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.3",
-            "text": "Valorar críticament les formes de vida, costums i actituds de la societat romana en comparació amb els de les nostres societats a partir del contingut de fonts gregues i llatines en diferents suports, aplicant la perspectiva de gènere."
+            "text": "Valorar críticament les formes de vida, costums i actituds de la societat romana en comparació amb els de les nostres societats a partir del contingut de fonts gregues i llatines en diferents suports, aplicant la perspectiva de gènere.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -38,18 +41,21 @@
       "codi": "CE2",
       "text": "Analitzar i avaluar críticament les cosmovisions que contenen les manifestacions culturals grecoromanes amb l’objectiu d’establir vincles amb les manifestacions cultural actuals, fent ús d’eines digitals per a la cerca i el tractament de la informació.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Llegir i interpretar manifestacions culturals grecoromanes a partir del seu context històric, així com la intencionalitat dels seus autors o autores."
+            "text": "Llegir i interpretar manifestacions culturals grecoromanes a partir del seu context històric, així com la intencionalitat dels seus autors o autores.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.2",
-            "text": "Relacionar les manifestacions culturals grecoromanes amb manifestacions culturals d’èpoques posteriors, a partir d’imatges, fotografies i reproduccions de pintures, escultures, edificacions, ceràmiques, joies, fragments d’obres literàries, documents, etc."
+            "text": "Relacionar les manifestacions culturals grecoromanes amb manifestacions culturals d’èpoques posteriors, a partir d’imatges, fotografies i reproduccions de pintures, escultures, edificacions, ceràmiques, joies, fragments d’obres literàries, documents, etc.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.3",
-            "text": "Analitzar els canvis i continuïtats que es donen en les manifestacions culturals actuals d’arrel grecoromana, tenint en compte la seva evolució històrica, plantejant la seva perspectiva de futur i desenvolupant estratègies de cerca d’informació en diferents suports (amb especial referència als digitals) i"
+            "text": "Analitzar els canvis i continuïtats que es donen en les manifestacions culturals actuals d’arrel grecoromana, tenint en compte la seva evolució històrica, plantejant la seva perspectiva de futur i desenvolupant estratègies de cerca d’informació en diferents suports (amb especial referència als digitals) i",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -58,22 +64,26 @@
       "codi": "CE3",
       "text": "Valorar i argumentar el patrimoni cultural grecoromà com a herència rebuda del passat, per defensar-ne la conservació.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Identificar, reconèixer i valorar les principals manifestacions artístiques grecoromanes en el seu context històric a partir de la lectura de textos grecs i llatins traduïts i d’imatges contingudes en ceràmiques i en estàtues d’època grega i romana, sense renunciar a denunciar aquelles expressions que atempten contra la igualtat de gènere i d’oportunitats i que, segons els criteris actuals,"
+            "text": "Identificar, reconèixer i valorar les principals manifestacions artístiques grecoromanes en el seu context històric a partir de la lectura de textos grecs i llatins traduïts i d’imatges contingudes en ceràmiques i en estàtues d’època grega i romana, sense renunciar a denunciar aquelles expressions que atempten contra la igualtat de gènere i d’oportunitats i que, segons els criteris actuals,",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.2",
-            "text": "Entendre i valorar el concepte de patrimoni cultural (material i immaterial) com a herència pròpia del passat, amb la qual el poble viu el present i el transmet a generacions futures, tot analitzant exemples concrets que permetin rastrejar la seva continuïtat des de l’antiguitat fins als nostres dies."
+            "text": "Entendre i valorar el concepte de patrimoni cultural (material i immaterial) com a herència pròpia del passat, amb la qual el poble viu el present i el transmet a generacions futures, tot analitzant exemples concrets que permetin rastrejar la seva continuïtat des de l’antiguitat fins als nostres dies.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.3",
-            "text": "Investigar, de manera guiada, el patrimoni històric, arqueològic, artístic i cultural heretat de les civilitzacions grega i romana, amb l’objectiu d’actuar de forma adequada, empàtica i respectuosa vers aquest patrimoni, interessant-se pels processos de construcció, preservació, conservació i restauració i per aquelles actituds cíviques que n’asseguren la sostenibilitat."
+            "text": "Investigar, de manera guiada, el patrimoni històric, arqueològic, artístic i cultural heretat de les civilitzacions grega i romana, amb l’objectiu d’actuar de forma adequada, empàtica i respectuosa vers aquest patrimoni, interessant-se pels processos de construcció, preservació, conservació i restauració i per aquelles actituds cíviques que n’asseguren la sostenibilitat.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.4",
-            "text": "Valorar les implicacions culturals, econòmiques i identitàries, de memòria històrica i de convivència, que hi ha al darrere de la conservació i la difusió del patrimoni cultural grecoromà, a través de la comprensió i assimilació dels conceptes de colonització i romanització."
+            "text": "Valorar les implicacions culturals, econòmiques i identitàries, de memòria històrica i de convivència, que hi ha al darrere de la conservació i la difusió del patrimoni cultural grecoromà, a través de la comprensió i assimilació dels conceptes de colonització i romanització.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -82,18 +92,21 @@
       "codi": "CE4",
       "text": "Percebre i valorar com a llengües originàries la llengua grega i la llengua llatina i conèixer els principals autors i autores de la seva literatura, per ser conscient de l’estreta dependència de les llengües i literatures actuals respecte dels seus referents grecoromans.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Valorar críticament la diversitat lingüística i cultural a la qual donen origen el grec i el llatí i adequar-s’hi, identificant i explicant semblances i diferències entre els elements lingüístics de l’entorn de l’alumnat, relacionant-los amb els de la cultura pròpia i desenvolupant una cultura compartida i una ciutadania compromesa amb els valors democràtics."
+            "text": "Valorar críticament la diversitat lingüística i cultural a la qual donen origen el grec i el llatí i adequar-s’hi, identificant i explicant semblances i diferències entre els elements lingüístics de l’entorn de l’alumnat, relacionant-los amb els de la cultura pròpia i desenvolupant una cultura compartida i una ciutadania compromesa amb els valors democràtics.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.2",
-            "text": "Inferir significats de termes grecs i llatins aplicant els coneixements lèxics i fonètics d’altres llengües del repertori individual de l’alumnat, sobre la base de l’anàlisi comparativa de les llengües grega i llatina i la llengua o llengües d’ús habitual per part de l’alumnat."
+            "text": "Inferir significats de termes grecs i llatins aplicant els coneixements lèxics i fonètics d’altres llengües del repertori individual de l’alumnat, sobre la base de l’anàlisi comparativa de les llengües grega i llatina i la llengua o llengües d’ús habitual per part de l’alumnat.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.3",
-            "text": "Analitzar i explicar de manera oral, escrita o multimodal el caràcter clàssic i humanista de les diverses manifestacions literàries i artístiques de la civilització grega i llatina, utilitzant un vocabulari correcte i una expressió adequada."
+            "text": "Analitzar i explicar de manera oral, escrita o multimodal el caràcter clàssic i humanista de les diverses manifestacions literàries i artístiques de la civilització grega i llatina, utilitzant un vocabulari correcte i una expressió adequada.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -116,133 +129,178 @@
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Localització en el temps i en l’espai de Grècia i Roma en el context geogràfic de la Mediterrània al llarg de la història"
+      "text": "Localització en el temps i en l’espai de Grècia i Roma en el context geogràfic de la Mediterrània al llarg de la història",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Identificació de les primeres formes de pensament racional sorgides en la Grècia antiga i la seva influència en la tradició filosòfica posterior, a partir de la lectura comparada de textos d’un nivell assequible per a l’alumnat"
+      "text": "Identificació de les primeres formes de pensament racional sorgides en la Grècia antiga i la seva influència en la tradició filosòfica posterior, a partir de la lectura comparada de textos d’un nivell assequible per a l’alumnat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Valoració de la importància de les primeres aportacions científiques dels grecs i la seva continuïtat i desenvolupament en el món científic i tècnic de l’època romana"
+      "text": "Valoració de la importància de les primeres aportacions científiques dels grecs i la seva continuïtat i desenvolupament en el món científic i tècnic de l’època romana",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Caracterització de l’origen mític del món segons els grecs i els romans i comparació amb altres cosmogonies antigues i modernes"
+      "text": "Caracterització de l’origen mític del món segons els grecs i els romans i comparació amb altres cosmogonies antigues i modernes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Identificació de les divinitats gregues i romanes, així com dels principals relats mítics i d’altres formes de religiositat popular, especialment al món romà, establint paral·lelismes amb el present"
+      "text": "Identificació de les divinitats gregues i romanes, així com dels principals relats mítics i d’altres formes de religiositat popular, especialment al món romà, establint paral·lelismes amb el present",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Reconeixement dels principis de l’urbanisme grec i, sobretot, romà, i valoració de la importància del món urbà en la civilització clàssica, tot localitzant les ciutats principals, els edificis urbans més representatius i algunes de les grans obres públiques, per observació directa o indirecta"
+      "text": "Reconeixement dels principis de l’urbanisme grec i, sobretot, romà, i valoració de la importància del món urbà en la civilització clàssica, tot localitzant les ciutats principals, els edificis urbans més representatius i algunes de les grans obres públiques, per observació directa o indirecta",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Identificació dels elements que configuren l’art clàssic i dels canvis i continuïtats entre Grècia i Roma, localitzant, analitzant i valorant els elements patrimonials d’època clàssica a Catalunya"
+      "text": "Identificació dels elements que configuren l’art clàssic i dels canvis i continuïtats entre Grècia i Roma, localitzant, analitzant i valorant els elements patrimonials d’època clàssica a Catalunya",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Grècia i Roma com a civilitzacions històriques",
       "subapartat": null,
-      "text": "Anàlisi d’aspectes de la vida quotidiana (lleure, costums, relacions familiars i socials) entre els grecs i els romans, a partir de reconstruccions històriques en suports diversos, inclosos els mitjans audiovisuals i eines digitals"
+      "text": "Anàlisi d’aspectes de la vida quotidiana (lleure, costums, relacions familiars i socials) entre els grecs i els romans, a partir de reconstruccions històriques en suports diversos, inclosos els mitjans audiovisuals i eines digitals",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Localització en el temps i en l’espai de les llengües grega i llatina i la seva difusió en el món antic i actual"
+      "text": "Localització en el temps i en l’espai de les llengües grega i llatina i la seva difusió en el món antic i actual",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Identificació de les arrels comunes de les llengües grega i llatina i de les seves relacions amb altres famílies lingüístiques a partir d’exemples de contextos històrics i lingüístics diferents"
+      "text": "Identificació de les arrels comunes de les llengües grega i llatina i de les seves relacions amb altres famílies lingüístiques a partir d’exemples de contextos històrics i lingüístics diferents",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Identificació dels trets bàsics dels alfabets grec i llatí i comparació amb alfabets d’altres llengües a partir d’exemples pràctics"
+      "text": "Identificació dels trets bàsics dels alfabets grec i llatí i comparació amb alfabets d’altres llengües a partir d’exemples pràctics",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Comparació d’alguns elements estructurals de la llengua pròpia amb les llengües grega i llatina com a iniciació al concepte de llengua flexiva"
+      "text": "Comparació d’alguns elements estructurals de la llengua pròpia amb les llengües grega i llatina com a iniciació al concepte de llengua flexiva",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Reconeixement de diversos tipus de fonts històriques escrites, identificant els sistemes d’escriptura, els diferents suports materials i les informacions que aporten al coneixement del passat"
+      "text": "Reconeixement de diversos tipus de fonts històriques escrites, identificant els sistemes d’escriptura, els diferents suports materials i les informacions que aporten al coneixement del passat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Identificació i presa de consciència de la diversitat lingüística de les llengües romàniques, valorant-ne l’origen comú"
+      "text": "Identificació i presa de consciència de la diversitat lingüística de les llengües romàniques, valorant-ne l’origen comú",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Identificació de llatinismes i d’ètims etimològics grecs en la llengua pròpia, així com d’elements del vocabulari culte i terminologia cientificotècnica, a partir tant d’exemples concrets com de textos de dificultat progressiva"
+      "text": "Identificació de llatinismes i d’ètims etimològics grecs en la llengua pròpia, així com d’elements del vocabulari culte i terminologia cientificotècnica, a partir tant d’exemples concrets com de textos de dificultat progressiva",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Iniciació als elements bàsics de les llengües i literatures grega i llatina",
       "subapartat": null,
-      "text": "Caracterització dels principals gèneres literaris d’època clàssica i valoració de la literatura grecoromana com a expressió de la dimensió cultural i estètica de la llengua, a partir de fragments traduïts a les llengües d’aprenentatge, i identificació de la pervivència posterior d’aquests gèneres literaris per mitjà de fonts i suports diversos"
+      "text": "Caracterització dels principals gèneres literaris d’època clàssica i valoració de la literatura grecoromana com a expressió de la dimensió cultural i estètica de la llengua, a partir de fragments traduïts a les llengües d’aprenentatge, i identificació de la pervivència posterior d’aquests gèneres literaris per mitjà de fonts i suports diversos",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "L’herència de la cultura clàssica",
       "subapartat": null,
-      "text": "Reconeixement de la pertinença a una cultura d’origen grecoromà, valorant críticament la incidència de les aportacions de la cultura clàssica"
+      "text": "Reconeixement de la pertinença a una cultura d’origen grecoromà, valorant críticament la incidència de les aportacions de la cultura clàssica",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "L’herència de la cultura clàssica",
       "subapartat": null,
-      "text": "Identificació de les relacions d’intercanvi cultural entre grecs i romans i altres cultures coetànies en el camp de la literatura, l’art i el pensament, fonamentalment"
+      "text": "Identificació de les relacions d’intercanvi cultural entre grecs i romans i altres cultures coetànies en el camp de la literatura, l’art i el pensament, fonamentalment",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "L’herència de la cultura clàssica",
       "subapartat": null,
-      "text": "Reconeixement i valoració de les diferents visions de la cultura clàssica al llarg de la història de la cultura occidental, especialment en els períodes de reivindicació del passat clàssic, tot interpretant l’ús que s’ha fet del llegat que li és propi"
+      "text": "Reconeixement i valoració de les diferents visions de la cultura clàssica al llarg de la història de la cultura occidental, especialment en els períodes de reivindicació del passat clàssic, tot interpretant l’ús que s’ha fet del llegat que li és propi",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "L’herència de la cultura clàssica",
       "subapartat": null,
-      "text": "Anàlisi i valoració de les aportacions artístiques de l’antiguitat clàssica a partir d’exemples provinents del passat i del present"
+      "text": "Anàlisi i valoració de les aportacions artístiques de l’antiguitat clàssica a partir d’exemples provinents del passat i del present",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "L’herència de la cultura clàssica",
       "subapartat": null,
-      "text": "Reconeixement d’elements de la mitologia clàssica en manifestacions artístiques i culturals del món actual (arts plàstiques, arts escèniques, música, dansa, cinema)"
+      "text": "Reconeixement d’elements de la mitologia clàssica en manifestacions artístiques i culturals del món actual (arts plàstiques, arts escèniques, música, dansa, cinema)",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "L’herència de la cultura clàssica",
       "subapartat": null,
-      "text": "Caracterització dels valors, disposicions i costums fruit de l’herència clàssica en diversos camps (educació, pensament, dret i política, fonamentalment)"
+      "text": "Caracterització dels valors, disposicions i costums fruit de l’herència clàssica en diversos camps (educació, pensament, dret i política, fonamentalment)",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

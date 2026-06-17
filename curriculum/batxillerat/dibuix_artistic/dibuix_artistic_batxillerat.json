@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Dibuix-Artistic.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "El Dibuix Artístic al Batxillerat desenvolupa la capacitat d'expressió, representació i comunicació visual a través del dibuix com a eina de pensament, exploració i creació. Es configura com a matèria fonamental de l'itinerari artístic, connectant amb el Disseny, la Història de l'Art, el Volum i les Tècniques d'Expressió Graficoplàstica, i preparant per als estudis superiors de Belles Arts, Disseny i Arquitectura.\n\nEls constructes disciplinaris centrals inclouen la percepció i representació de la forma (proporció, perspectiva, llum i ombra, composició), els procediments tècnics (dibuix a llapis, carbó, sanguina, tinta, tècniques mixtes), l'anàlisi i interpretació d'obres plàstiques (estils, períodes, intencions expressives) i el dibuix del natural i de la figura humana. La memòria visual, l'observació analítica i l'expressió de la subjectivitat s'integren com a capacitats transversals.\n\nL'enfocament pedagògic combina la pràctica sistemàtica d'exercicis tècnics progressius amb projectes creatius d'expressió personal. El diari de dibuix, el quadern de camp i el portafolis d'obres documenten el procés i l'evolució de l'alumnat. L'avaluació pren en consideració la qualitat tècnica, la coherència expressiva, la capacitat d'anàlisi crítica d'obres pròpies i alienes, i la progressió individual al llarg del curs."
   },
@@ -18,32 +18,38 @@
       "codi": "CE1",
       "text": "Interpretar el dibuix com a eina de coneixement, comunicació i expressió, valorant la diversitat de significats que origina com a font de riquesa cultural i artística, per tal d’inferir la pluralitat de representacions que possibilita en diferents propostes plàstiques del patrimoni global.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Identificar el dibuix com un mitjà de coneixement i comprensió del món, reflexionant sobre la presència en múltiples manifestacions culturals i artístiques."
+            "text": "Identificar el dibuix com un mitjà de coneixement i comprensió del món, reflexionant sobre la presència en múltiples manifestacions culturals i artístiques.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.2",
-            "text": "Comparar i comprendre l’ús que es fa del dibuix en diferents àmbits disciplinaris, fent una anàlisi i un debat constructiu a partir de les formes que adopta en processos creatius."
+            "text": "Comparar i comprendre l’ús que es fa del dibuix en diferents àmbits disciplinaris, fent una anàlisi i un debat constructiu a partir de les formes que adopta en processos creatius.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.3",
-            "text": "Jutjar la promoció i la conservació del patrimoni cultural i artístic com bé essencial per a l’ésser humà, defensant i argumentant criteris personals sobre la seva importància com a llegat universal."
+            "text": "Jutjar la promoció i la conservació del patrimoni cultural i artístic com bé essencial per a l’ésser humà, defensant i argumentant criteris personals sobre la seva importància com a llegat universal.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Analitzar críticament la presència del dibuix en diferents manifestacions culturals i artístiques, establint relacions entre si i amb la pròpia identitat cultural, incorporant a més la perspectiva de gènere."
+            "text": "Analitzar críticament la presència del dibuix en diferents manifestacions culturals i artístiques, establint relacions entre si i amb la pròpia identitat cultural, incorporant a més la perspectiva de gènere.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA1.2",
-            "text": "Comparar i comprendre el paper intel·lectual del dibuix en la història de les idees, realitzant una anàlisi i un debat constructiu a partir de les formes que adopta en processos creatius."
+            "text": "Comparar i comprendre el paper intel·lectual del dibuix en la història de les idees, realitzant una anàlisi i un debat constructiu a partir de les formes que adopta en processos creatius.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA1.3",
-            "text": "Impulsar la pluralitat cultural i artística i la llibertat d’expressió, a través d’un discurs raonat i argumentat de manera activa, compromesa i respectuosa."
+            "text": "Impulsar la pluralitat cultural i artística i la llibertat d’expressió, a través d’un discurs raonat i argumentat de manera activa, compromesa i respectuosa.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -52,24 +58,28 @@
       "codi": "CE2",
       "text": "Analitzar, amb actitud crítica i reflexiva, produccions plàstiques incloent-hi les contemporànies, reconeixent el llenguatge, els recursos i l’expressivitat de la creació gràfica presents, per adquirir una capacitat i formació artística que permeti aconseguir una veritable consciència visual i un gaudi estètic.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Analitzar els llenguatges i els elements plàstics de diferents propostes artístiques, incloent-hi les contemporànies, tot entenent els canvis de tendències que s’han produït al llarg de la història i utilitzant correctament el vocabulari i la terminologia específica."
+            "text": "Analitzar els llenguatges i els elements plàstics de diferents propostes artístiques, incloent-hi les contemporànies, tot entenent els canvis de tendències que s’han produït al llarg de la història i utilitzant correctament el vocabulari i la terminologia específica.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.2",
-            "text": "Gaudir de l’obra d’art i del dibuix com part inherent d’aquesta, valorant els reptes creatius i estètics que comporta tota producció cultural i artística."
+            "text": "Gaudir de l’obra d’art i del dibuix com part inherent d’aquesta, valorant els reptes creatius i estètics que comporta tota producció cultural i artística.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Analitzar els llenguatges i els elements plàstics de diferents propostes artístiques, incloent-hi les contemporànies, tot valorant sense prejudicis la intencionalitat del missatge creat en llibertat i utilitzant correctament el vocabulari i la terminologia específics."
+            "text": "Analitzar els llenguatges i els elements plàstics de diferents propostes artístiques, incloent-hi les contemporànies, tot valorant sense prejudicis la intencionalitat del missatge creat en llibertat i utilitzant correctament el vocabulari i la terminologia específics.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA2.2",
-            "text": "Gaudir de l’obra d’art i del dibuix com part inherent d’aquesta, identificant-la adequadament per visualitzar i materialitzar idees."
+            "text": "Gaudir de l’obra d’art i del dibuix com part inherent d’aquesta, identificant-la adequadament per visualitzar i materialitzar idees.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -78,24 +88,28 @@
       "codi": "CE3",
       "text": "Aplicar les diferents eines i llenguatges del dibuix, analitzant, interpretant i comprenent la realitat, per propiciar la representació gràfica objectiva i expressiva tot potenciant la sensibilitat i afavorint el creixement personal.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Interpretar i representar gràficament la realitat objectiva i subjectiva de l’alumnat, utilitzant la pròpia expressió de manera espontània i creativa."
+            "text": "Interpretar i representar gràficament la realitat objectiva i subjectiva de l’alumnat, utilitzant la pròpia expressió de manera espontània i creativa.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.2",
-            "text": "Experimentar amb sensibilitat les possibilitats expressives dels recursos bàsics (punt, línia i forma) i de la seva sintaxi, desenvolupant el seu procés creatiu gràfic."
+            "text": "Experimentar amb sensibilitat les possibilitats expressives dels recursos bàsics (punt, línia i forma) i de la seva sintaxi, desenvolupant el seu procés creatiu gràfic.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Interpretar i recrear gràficament la realitat objectiva i subjectiva de l’alumnat, utilitzant la pròpia expressió de manera espontània i creativa."
+            "text": "Interpretar i recrear gràficament la realitat objectiva i subjectiva de l’alumnat, utilitzant la pròpia expressió de manera espontània i creativa.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA3.2",
-            "text": "Experimentar amb sensibilitat les possibilitats expressives de les formes i les textures aportant personalitat al procés creatiu."
+            "text": "Experimentar amb sensibilitat les possibilitats expressives de les formes i les textures aportant personalitat al procés creatiu.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -104,24 +118,28 @@
       "codi": "CE4",
       "text": "Experimentar l’ús de diferents materials, tècniques i suports, incloent-hi el propi cos, reconeixent la importància d’aquests en les propostes artístiques contemporànies, per descobrir el gest del dibuix i l’apropiació de l’espai com a mitjans d’autoexpressió i acceptació personal.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Desenvolupar una empremta i un gest propis en la realització de dibuixos, combinant l’ús tradicional de materials, tècniques i suports amb una manipulació personal i innovadora."
+            "text": "Desenvolupar una empremta i un gest propis en la realització de dibuixos, combinant l’ús tradicional de materials, tècniques i suports amb una manipulació personal i innovadora.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA4.2",
-            "text": "Generar composicions bidimensionals, figuratives o abstractes, explorant en la percepció i l’ordenació de l’espai, tot indagant sobre les tècniques, els materials i els suports més convenients al seu propòsit representatiu."
+            "text": "Generar composicions bidimensionals, figuratives o abstractes, explorant en la percepció i l’ordenació de l’espai, tot indagant sobre les tècniques, els materials i els suports més convenients al seu propòsit representatiu.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Integrar les tècniques tradicionals i l’experimentació amb el propi cos en produccions gràfiques tot reconeixent-ne globalment el valor artístic."
+            "text": "Integrar les tècniques tradicionals i l’experimentació amb el propi cos en produccions gràfiques tot reconeixent-ne globalment el valor artístic.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA4.2",
-            "text": "Percebre gràficament l’espai tridimensional utilitzant diversos mitjans i tècniques, tot experimentant de forma oberta els efectes perceptius de la profunditat."
+            "text": "Percebre gràficament l’espai tridimensional utilitzant diversos mitjans i tècniques, tot experimentant de forma oberta els efectes perceptius de la profunditat.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -130,24 +148,28 @@
       "codi": "CE5",
       "text": "Interpretar la pràctica artística, reconeixent els referents culturals anteriors com a part inherent a les noves creacions, per valorar aquesta pràctica com a mitjà d’expressió d’idees, opinions i emocions en un context de referències interconnectades en el temps.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Integrar en els propis dibuixos i creacions gràfiques els procediments o les tècniques utilitzats en referents artístics del seu interès, utilitzant la pràctica creativa per comunicar i expressar de manera oberta les seves idees, sentiments i emocions."
+            "text": "Integrar en els propis dibuixos i creacions gràfiques els procediments o les tècniques utilitzats en referents artístics del seu interès, utilitzant la pràctica creativa per comunicar i expressar de manera oberta les seves idees, sentiments i emocions.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.2",
-            "text": "Descobrir l’acció de dibuixar com un enfrontament personal amb la realitat i amb un mateix, reconeixent el dibuix artístic com un mitjà autònom d’expressió i comunicació."
+            "text": "Descobrir l’acció de dibuixar com un enfrontament personal amb la realitat i amb un mateix, reconeixent el dibuix artístic com un mitjà autònom d’expressió i comunicació.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Investigar de manera activa la presència de tecnologies digitals en referents artístics contemporanis i integrar aquesta recerca en el procés creatiu i expressiu."
+            "text": "Investigar de manera activa la presència de tecnologies digitals en referents artístics contemporanis i integrar aquesta recerca en el procés creatiu i expressiu.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA5.2",
-            "text": "Descobrir l’acció de dibuixar com una exploració de l’espai exterior i interior de l’ésser humà, materialitzant en dibuixos els sentiments i les emocions i prenent com a punt de partida la pròpia voluntat i necessitat de crear."
+            "text": "Descobrir l’acció de dibuixar com una exploració de l’espai exterior i interior de l’ésser humà, materialitzant en dibuixos els sentiments i les emocions i prenent com a punt de partida la pròpia voluntat i necessitat de crear.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -156,20 +178,23 @@
       "codi": "CE6",
       "text": "Construir i desconstruir produccions gràfiques expressives i creatives, descobrint la importància dels elements del llenguatge gràfic i la seva organització per desenvolupar un estil personal que millori l’execució tècnica i les qualitats comunicatives i expressives de les pròpies produccions en un clima d’intercanvi d’idees.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA6.1",
-            "text": "Controlar els mecanismes de la percepció visual, les seves lleis i principis, així com la composició i l’ordenació dels elements en l’espai, mostrant interès en"
+            "text": "Controlar els mecanismes de la percepció visual, les seves lleis i principis, així com la composició i l’ordenació dels elements en l’espai, mostrant interès en",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.2",
-            "text": "Desenvolupar un traç propi en les intencions comunicatives i/o expressives."
+            "text": "Desenvolupar un traç propi en les intencions comunicatives i/o expressives.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA6.1",
-            "text": "Estudiar la transformació de les formes en entorns urbans o naturals per evidenciar múltiples possibilitats expressives."
+            "text": "Estudiar la transformació de les formes en entorns urbans o naturals per evidenciar múltiples possibilitats expressives.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -178,20 +203,23 @@
       "codi": "CE7",
       "text": "Descobrir i seleccionar les tècniques pròpies del dibuix, tant tradicionals com digitals, identificant les eines, els mitjans, els suports, cercant noves possibilitats experimentals, per integrar-les de forma innovadora en la realització de produccions gràfiques en contextos contemporanis.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA7.1",
-            "text": "Elaborar diverses solucions de representacions visuals, a diferents nivells d’iconicitat, tot identificant les eines, els mitjans i els suports necessaris, justificant- ne raonadament i respectuosament l’elecció i buscant la innovació en el seu ús."
+            "text": "Elaborar diverses solucions de representacions visuals, a diferents nivells d’iconicitat, tot identificant les eines, els mitjans i els suports necessaris, justificant- ne raonadament i respectuosament l’elecció i buscant la innovació en el seu ús.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.2",
-            "text": "Aplicar de manera oberta les eines,"
+            "text": "Aplicar de manera oberta les eines,",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA7.1",
-            "text": "Plantejar solucions alternatives a la representació de la realitat, en diferents nivells d’iconicitat, mostrant un pensament divergent, utilitzant amb correcció les eines, els mitjans i els suports seleccionats i buscant activament un resultat final ajustat a unes intencions expressives prèvies."
+            "text": "Plantejar solucions alternatives a la representació de la realitat, en diferents nivells d’iconicitat, mostrant un pensament divergent, utilitzant amb correcció les eines, els mitjans i els suports seleccionats i buscant activament un resultat final ajustat a unes intencions expressives prèvies.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -200,24 +228,28 @@
       "codi": "CE8",
       "text": "Adaptar els coneixements i les destreses adquirits, desenvolupant la retentiva i la memòria visual, per experimentar i reaccionar amb creativitat i eficàcia davant de nous desafiaments en la representació gràfica.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA8.1",
-            "text": "Observar l’entorn de manera conscient i activa, seleccionant i abstraient el més representatiu del model escollit per representar-lo gràficament."
+            "text": "Observar l’entorn de manera conscient i activa, seleccionant i abstraient el més representatiu del model escollit per representar-lo gràficament.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.2",
-            "text": "Aplicar el mètode d’encaix en la resolució de problemes de representació gràfica, analitzant amb interès tant els diferents volums com l’espai que completa el conjunt."
+            "text": "Aplicar el mètode d’encaix en la resolució de problemes de representació gràfica, analitzant amb interès tant els diferents volums com l’espai que completa el conjunt.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA8.1",
-            "text": "Interpretar gràficament la realitat observada emprant la retentiva i la memòria visual per expressar idees i emocions."
+            "text": "Interpretar gràficament la realitat observada emprant la retentiva i la memòria visual per expressar idees i emocions.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA8.2",
-            "text": "Valorar i aplicar la perspectiva com a mètode per recrear la tridimensionalitat a través del contrast lumínic, dels efectes de profunditat i dels canvis de proporció per augmentar les capacitats expressives."
+            "text": "Valorar i aplicar la perspectiva com a mètode per recrear la tridimensionalitat a través del contrast lumínic, dels efectes de profunditat i dels canvis de proporció per augmentar les capacitats expressives.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -226,28 +258,33 @@
       "codi": "CE9",
       "text": "Dissenyar i crear projectes gràfics col·laboratius, adaptant el disseny i el procés a les necessitats pròpies de l’àmbit disciplinari i contribuint de forma creativa en la seva planificació i realització, per entomar amb més seguretat possibles reptes professionals i valorar l’enriquiment que suposa compartir.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA9.1",
-            "text": "Participar activament en el procés de disseny d’un projecte gràfic, dins un àmbit disciplinari, assumint diferents rols de manera col·laborativa i utilitzant amb interès els valors expressius del dibuix artístic i els seus recursos."
+            "text": "Participar activament en el procés de disseny d’un projecte gràfic, dins un àmbit disciplinari, assumint diferents rols de manera col·laborativa i utilitzant amb interès els valors expressius del dibuix artístic i els seus recursos.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA9.2",
-            "text": "Reflexionar de manera respectuosa sobre les dificultats en planificar un projecte gràfic compartit, entenent-lo com un instrument de millora del resultat final, destacant professions relacionades amb el dibuix artístic i expressant la pròpia opinió de manera raonada."
+            "text": "Reflexionar de manera respectuosa sobre les dificultats en planificar un projecte gràfic compartit, entenent-lo com un instrument de millora del resultat final, destacant professions relacionades amb el dibuix artístic i expressant la pròpia opinió de manera raonada.",
+            "clau_origen": "BAT1"
           }
         ],
-        "BAT2": [
+        "BAT_2N": [
           {
             "codi": "CA9.1",
-            "text": "Participar activament en el procés de disseny d’un projecte gràfic, dins un àmbit disciplinari, assumint diferents rols de manera col·laborativa i utilitzant amb interès els valors expressius del dibuix artístic i els seus recursos."
+            "text": "Participar activament en el procés de disseny d’un projecte gràfic, dins un àmbit disciplinari, assumint diferents rols de manera col·laborativa i utilitzant amb interès els valors expressius del dibuix artístic i els seus recursos.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA9.2",
-            "text": "Reflexionar de manera respectuosa sobre les dificultats en planificar un projecte gràfic compartit, entenent-lo com un instrument de millora del resultat final, destacant professions relacionades amb el dibuix artístic i expressant la pròpia opinió de manera raonada."
+            "text": "Reflexionar de manera respectuosa sobre les dificultats en planificar un projecte gràfic compartit, entenent-lo com un instrument de millora del resultat final, destacant professions relacionades amb el dibuix artístic i expressant la pròpia opinió de manera raonada.",
+            "clau_origen": "BAT2"
           },
           {
             "codi": "CA9.3",
-            "text": "Exposar de manera inclusiva el resultat d’un projecte gràfic, individual o grupal, i explicar com s’han aplicat els valors expressius ii els recursos mobilitzats per tal de millorar la capacitat discursiva i saber difondre tots els valors d’un projecte."
+            "text": "Exposar de manera inclusiva el resultat d’un projecte gràfic, individual o grupal, i explicar com s’han aplicat els valors expressius ii els recursos mobilitzats per tal de millorar la capacitat discursiva i saber difondre tots els valors d’un projecte.",
+            "clau_origen": "BAT2"
           }
         ]
       }
@@ -270,217 +307,290 @@
       "nivell": "1r",
       "bloc": "El concepte i la història del dibuix",
       "subapartat": null,
-      "text": "Analitzar, interpretar i valorar el dibuix com un procés interactiu de múltiples accions (observació, reflexió, imaginació, representació i comunicació), establint lligams amb el coneixement ja estudiat per l’alumnat en altres disciplines"
+      "text": "Analitzar, interpretar i valorar el dibuix com un procés interactiu de múltiples accions (observació, reflexió, imaginació, representació i comunicació), establint lligams amb el coneixement ja estudiat per l’alumnat en altres disciplines",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "El concepte i la història del dibuix",
       "subapartat": null,
-      "text": "Identificar i diferenciar les principals manifestacions artístiques del dibuix que han estat clau des de l’antiguitat fins al romanticisme a partir d’estratègies per a la cerca d’informació tot incorporant la perspectiva de gènere i el patrimoni local"
+      "text": "Identificar i diferenciar les principals manifestacions artístiques del dibuix que han estat clau des de l’antiguitat fins al romanticisme a partir d’estratègies per a la cerca d’informació tot incorporant la perspectiva de gènere i el patrimoni local",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "El concepte i la història del dibuix",
       "subapartat": null,
-      "text": "Descobriment del dibuix com a part de múltiples processos artístics relacionats amb el disseny, l’arquitectura, la ciència, la literatura i la filosofia per aproximar l’alumnat en l’entorn del centre i les seves relacions"
+      "text": "Descobriment del dibuix com a part de múltiples processos artístics relacionats amb el disseny, l’arquitectura, la ciència, la literatura i la filosofia per aproximar l’alumnat en l’entorn del centre i les seves relacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Comparació i anàlisi de la terminologia, dels materials i de les tècniques graficoplàstiques tant seques com humides a través d’una tria d’exemples en l’entorn proper"
+      "text": "Comparació i anàlisi de la terminologia, dels materials i de les tècniques graficoplàstiques tant seques com humides a través d’una tria d’exemples en l’entorn proper",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Experimentació i reconeixement plàstic i expressiu dels elements bàsics del dibuix (punt, línia i forma) en relació amb conceptes estudiats en altres matèries artístiques"
+      "text": "Experimentació i reconeixement plàstic i expressiu dels elements bàsics del dibuix (punt, línia i forma) en relació amb conceptes estudiats en altres matèries artístiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Identificació dels diferents nivells d’iconicitat d’una imatge com a eina poderosa per representar el món"
+      "text": "Identificació dels diferents nivells d’iconicitat d’una imatge com a eina poderosa per representar el món",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Aplicació de l’esbós i l’encaix en la composició a partir d’assajos elementals en l’entorn natural i d’exemples elaborats de l’estudi de la història de l’art"
+      "text": "Aplicació de l’esbós i l’encaix en la composició a partir d’assajos elementals en l’entorn natural i d’exemples elaborats de l’estudi de la història de l’art",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Experimentació del procés creatiu a partir de l’aplicació de metodologies i tècniques variades aplicades a projectes de millora de l’entorn de l’alumnat dins i fora del centre"
+      "text": "Experimentació del procés creatiu a partir de l’aplicació de metodologies i tècniques variades aplicades a projectes de millora de l’entorn de l’alumnat dins i fora del centre",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Percepció i ordenació de l’espai",
       "subapartat": null,
-      "text": "Identificació i aplicació dels principis de la percepció visual i la psicologia de la gestalt per mitjà de la comparació de diferents imatges tant de la història de l’art com de la neurologia i d’altres disciplines"
+      "text": "Identificació i aplicació dels principis de la percepció visual i la psicologia de la gestalt per mitjà de la comparació de diferents imatges tant de la història de l’art com de la neurologia i d’altres disciplines",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Percepció i ordenació de l’espai",
       "subapartat": null,
-      "text": "Reconeixement i aplicació de la sintaxi visual i les il·lusions òptiques en creacions pròpies i d’altres"
+      "text": "Reconeixement i aplicació de la sintaxi visual i les il·lusions òptiques en creacions pròpies i d’altres",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Percepció i ordenació de l’espai",
       "subapartat": null,
-      "text": "Experimentació, ús i expressió en l’equilibri compositiu i de les direccions visuals en diferents suports, contextos i situacions, mitjançant diverses estratègies"
+      "text": "Experimentació, ús i expressió en l’equilibri compositiu i de les direccions visuals en diferents suports, contextos i situacions, mitjançant diverses estratègies",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Percepció i ordenació de l’espai",
       "subapartat": null,
-      "text": "Comparació i anàlisi del llenguatge visual, la sintaxi de la imatge i els seus elements bàsics: punt, línia, pla, color, forma i textura en relació amb els conceptes ja estudiats en les diferents matèries artístiques"
+      "text": "Comparació i anàlisi del llenguatge visual, la sintaxi de la imatge i els seus elements bàsics: punt, línia, pla, color, forma i textura en relació amb els conceptes ja estudiats en les diferents matèries artístiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Percepció i ordenació de l’espai",
       "subapartat": null,
-      "text": "Descoberta i experimentació de la perspectiva axonomètrica i cònica per capacitar l’alumnat a expressar situacions més complexes i ser conscient de la importància dels diferents sistemes de representació a l’hora d’organitzar l’espai gràfic de treball"
+      "text": "Descoberta i experimentació de la perspectiva axonomètrica i cònica per capacitar l’alumnat a expressar situacions més complexes i ser conscient de la importància dels diferents sistemes de representació a l’hora d’organitzar l’espai gràfic de treball",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Identificació i aplicació dels principis de la percepció visual i la psicologia de la Gestalt per mitjà de la comparació de diferents imatges i contrastant diverses fonts d’informació"
+      "text": "Identificació i aplicació dels principis de la percepció visual i la psicologia de la Gestalt per mitjà de la comparació de diferents imatges i contrastant diverses fonts d’informació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Comparació, anàlisi i experimentació dels tipus de llum, valoració tonal, clarobscur i volum en creacions pròpies i d’altres"
+      "text": "Comparació, anàlisi i experimentació dels tipus de llum, valoració tonal, clarobscur i volum en creacions pròpies i d’altres",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Anàlisi de la naturalesa, percepció, psicologia i simbologia del color per saber integrar de manera creativa aquests elements en l’espai gràfic"
+      "text": "Anàlisi de la naturalesa, percepció, psicologia i simbologia del color per saber integrar de manera creativa aquests elements en l’espai gràfic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Descobriment de la monocromia, bicromia i tricromia aplicada al dibuix vinculades tant a funcions esteticoestilístiques com funcionals en contextos reals"
+      "text": "Descobriment de la monocromia, bicromia i tricromia aplicada al dibuix vinculades tant a funcions esteticoestilístiques com funcionals en contextos reals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Tecnologies i eines digitals",
       "subapartat": null,
-      "text": "Identificar i seleccionar el programari de dibuix i pintura digital per crear produccions pròpies, individuals i/o col·lectives i alienes"
+      "text": "Identificar i seleccionar el programari de dibuix i pintura digital per crear produccions pròpies, individuals i/o col·lectives i alienes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Tecnologies i eines digitals",
       "subapartat": null,
-      "text": "Experimentació i exploració d’eines de dibuix vectorial i edició d’imatges en un context proper a l’alumnat i en relació amb possibles sortides professionals"
+      "text": "Experimentació i exploració d’eines de dibuix vectorial i edició d’imatges en un context proper a l’alumnat i en relació amb possibles sortides professionals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Tecnologies i eines digitals",
       "subapartat": null,
-      "text": "Desenvolupar el dibuix en moviment en la creació de peces visuals i audiovisuals partint de llenguatges que suposin un repte interpretatiu, com ara la dansa o la música"
+      "text": "Desenvolupar el dibuix en moviment en la creació de peces visuals i audiovisuals partint de llenguatges que suposin un repte interpretatiu, com ara la dansa o la música",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "El concepte i la història del dibuix",
       "subapartat": null,
-      "text": "Identificar i diferenciar les manifestacions artístiques del dibuix en l’art dels segles XIX i XX, analitzant amb atenció els fenòmens de la representació subjectiva i l’abstracció tot incorporant la perspectiva de gènere i el patrimoni local"
+      "text": "Identificar i diferenciar les manifestacions artístiques del dibuix en l’art dels segles XIX i XX, analitzant amb atenció els fenòmens de la representació subjectiva i l’abstracció tot incorporant la perspectiva de gènere i el patrimoni local",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "El concepte i la història del dibuix",
       "subapartat": null,
-      "text": "Descobriment del dibuix com expressió artística totalment contemporània (l’obra com a projecte, l’obra múltiple de fàcil distribució, el dibuix com a eina d’intervenció en l’espai, etc.) per aproximar l’alumnat a totes les seves possibilitats expressives"
+      "text": "Descobriment del dibuix com expressió artística totalment contemporània (l’obra com a projecte, l’obra múltiple de fàcil distribució, el dibuix com a eina d’intervenció en l’espai, etc.) per aproximar l’alumnat a totes les seves possibilitats expressives",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Desenvolupar la retentiva i la memòria visual a partir d’assajos elementals i d’exemples elaborats"
+      "text": "Desenvolupar la retentiva i la memòria visual a partir d’assajos elementals i d’exemples elaborats",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "L’expressió gràfica i els seus recursos elementals",
       "subapartat": null,
-      "text": "Identificació, experimentació i transformació de formes positives i negatives i de textures visuals i tàctils per saber integrar-los de manera creativa en produccions artístiques globals"
+      "text": "Identificació, experimentació i transformació de formes positives i negatives i de textures visuals i tàctils per saber integrar-los de manera creativa en produccions artístiques globals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Dibuix i espai",
       "subapartat": null,
-      "text": "Reconeixement i aplicació de la línia, el dibuix i la tridimensionalitat amb relació als conceptes ja estudiats en les diferents matèries artístiques"
+      "text": "Reconeixement i aplicació de la línia, el dibuix i la tridimensionalitat amb relació als conceptes ja estudiats en les diferents matèries artístiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Dibuix i espai",
       "subapartat": null,
-      "text": "Ús de l’enquadrament en el dibuix del natural fent servir diferents suports, situacions i estratègies que obliguin l’alumnat a mobilitzar recursos ja apresos en altres disciplines com ara el còmic, la fotografia o el cinema"
+      "text": "Ús de l’enquadrament en el dibuix del natural fent servir diferents suports, situacions i estratègies que obliguin l’alumnat a mobilitzar recursos ja apresos en altres disciplines com ara el còmic, la fotografia o el cinema",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Dibuix i espai",
       "subapartat": null,
-      "text": "Anàlisi i experimentació del dibuix en espais interiors, exteriors, urbans i naturals a partir de l’aplicació de metodologies i tècniques variades"
+      "text": "Anàlisi i experimentació del dibuix en espais interiors, exteriors, urbans i naturals a partir de l’aplicació de metodologies i tècniques variades",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Dibuix i espai",
       "subapartat": null,
-      "text": "Discernir i experimentar la relació entre geometria i naturalesa vinculada tant a funcions esteticoestilístiques com funcionals en contextos reals d’entorns naturals"
+      "text": "Discernir i experimentar la relació entre geometria i naturalesa vinculada tant a funcions esteticoestilístiques com funcionals en contextos reals d’entorns naturals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Aplicació dels principis de l’ombrejat, la taca, les escales i les claus tonals per saber integrar de manera realista aquests elements"
+      "text": "Aplicació dels principis de l’ombrejat, la taca, les escales i les claus tonals per saber integrar de manera realista aquests elements",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Comparació i anàlisi dels diferents usos, qualitats i relacions del color tant local i tonal com ambiental com a eina poderosa per representar el món"
+      "text": "Comparació i anàlisi dels diferents usos, qualitats i relacions del color tant local i tonal com ambiental com a eina poderosa per representar el món",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Ús i experimentació de les dimensions del color i de la perspectiva atmosfèrica en produccions pròpies, individuals i/o col·lectives i alienes"
+      "text": "Ús i experimentació de les dimensions del color i de la perspectiva atmosfèrica en produccions pròpies, individuals i/o col·lectives i alienes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La llum, el clarobscur i el color",
       "subapartat": null,
-      "text": "Identificar i generar creacions d’art òptic i geomètric, amb un especial interès pel color en la línia, per atraure visualment a partir de l’aplicació de tècniques contemporànies concretes"
+      "text": "Identificar i generar creacions d’art òptic i geomètric, amb un especial interès pel color en la línia, per atraure visualment a partir de l’aplicació de tècniques contemporànies concretes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La figura humana",
       "subapartat": null,
-      "text": "Identificar, reflexionar i representar la figura humana al llarg de la història a través dels diferents cànons i proporcions esdevinguts en estereotips de bellesa per fomentar la riquesa cultural i representativa del món"
+      "text": "Identificar, reflexionar i representar la figura humana al llarg de la història a través dels diferents cànons i proporcions esdevinguts en estereotips de bellesa per fomentar la riquesa cultural i representativa del món",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La figura humana",
       "subapartat": null,
-      "text": "Desenvolupar nocions bàsiques d’anatomia artística en creacions pròpies i d’altres"
+      "text": "Desenvolupar nocions bàsiques d’anatomia artística en creacions pròpies i d’altres",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La figura humana",
       "subapartat": null,
-      "text": "Elaborar apunts del natural, l’escorç i el retrat amb faccions i expressions expressives per saber integrar de manera creativa aquests elements en projectes personals i col·lectius amb la participació de la comunitat educativa"
+      "text": "Elaborar apunts del natural, l’escorç i el retrat amb faccions i expressions expressives per saber integrar de manera creativa aquests elements en projectes personals i col·lectius amb la participació de la comunitat educativa",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "La figura humana",
       "subapartat": null,
-      "text": "Generar creacions amb el cos humà com a suport i instrument d’expressió artística vinculades tant a funcions estètiques com reivindicatives en contextos de l’entorn proper"
+      "text": "Generar creacions amb el cos humà com a suport i instrument d’expressió artística vinculades tant a funcions estètiques com reivindicatives en contextos de l’entorn proper",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

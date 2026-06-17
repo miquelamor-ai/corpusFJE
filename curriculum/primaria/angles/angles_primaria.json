@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Llengua-Estrangera.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Llengua Estrangera (anglès) a Primària desenvolupa la competència comunicativa de l'alumnat en una llengua addicional, obrint finestres a altres cultures i formes de veure el món. La matèria és pont transversal amb totes les àrees del currículum: els continguts del Coneixement del Medi, les Matemàtiques i l'Educació Artística es poden vehicular parcialment en anglès mitjançant enfocaments AICLE (Aprenentatge Integrat de Continguts i Llengua Estrangera). Prepara per a un món plurilingüe i connecta directament amb la Segona Llengua Estrangera i amb les àrees de Llengua Catalana i Castellana.\n\nEls grans constructes disciplinaris inclouen la competència oral receptiva (comprensió de textos breus i senzills en llengua estàndard, amb suport gestual i iconogràfic), la competència oral productiva (frases curtes, ritme, accentuació, entonació), la competència escrita inicial (lectura i escriptura de mots i textos breus a partir de models), la consciència lingüística (comparació de sistemes entre llengües, estratègies de transferència) i la dimensió intercultural (reconeixement de costums i realitats dels països de parla anglesa, rebuig d'estereotips). El repertori lingüístic personal i la mediació interlingüística són eixos vertebradors.\n\nL'enfocament pedagògic prioritza la comunicació autèntica i significativa per sobre de la gramàtica descontextualitzada. Les rutines d'aula en anglès, les cançons, les dramatitzacions, els projectes col·laboratius i l'ús de plataformes d'intercanvi amb alumnat anglòfon creen contextos reals d'ús. L'error és concebut com a oportunitat d'aprenentatge i s'evita la correcció sistemàtica que inhibeix la producció. L'avaluació observa el grau d'autonomia progressiva en la comprensió i producció oral i escrita, l'ús estratègic de recursos i la capacitat de mediació en situacions comunicatives quotidianes."
   },
@@ -18,42 +18,50 @@
       "codi": "CE1",
       "text": "Comprendre la diversitat lingüística i cultural a partir del reconeixement de les llengües de l’alumnat i la realitat plurilingüe, pluricultural i intercultural, per afavorir la transferència lingüística, identificar i rebutjar estereotips i prejudicis lingüístics, i valorar aquesta diversitat com a font de riquesa cultural.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Participar amb respecte en la comunicació intercultural, identificant i analitzant, de forma guiada, les discriminacions, els prejudicis i els estereotips més comuns, en situacions quotidianes i habituals."
+            "text": "Participar amb respecte en la comunicació intercultural, identificant i analitzant, de forma guiada, les discriminacions, els prejudicis i els estereotips més comuns, en situacions quotidianes i habituals.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Reconèixer i valorar la diversitat lingüística i cultural relacionada amb la llengua estrangera, identificant els seus elements culturals i lingüístics elementals."
+            "text": "Reconèixer i valorar la diversitat lingüística i cultural relacionada amb la llengua estrangera, identificant els seus elements culturals i lingüístics elementals.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA1.1",
-            "text": "Participar amb respecte en situacions interculturals, identificant i comparant semblances i diferències elementals entre llengües i cultures, i mostrant rebuig davant discriminacions, prejudicis i estereotips de qualsevol tipus en contextos comunicatius quotidians i habituals."
+            "text": "Participar amb respecte en situacions interculturals, identificant i comparant semblances i diferències elementals entre llengües i cultures, i mostrant rebuig davant discriminacions, prejudicis i estereotips de qualsevol tipus en contextos comunicatius quotidians i habituals.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.2",
-            "text": "Reconèixer, comprendre i valorar la diversitat lingüística i cultural pròpia de països on es parla la llengua estrangera com a font d’enriquiment personal, identificant elements culturals i lingüístics elementals que fomentin la cultura de la pau."
+            "text": "Reconèixer, comprendre i valorar la diversitat lingüística i cultural pròpia de països on es parla la llengua estrangera com a font d’enriquiment personal, identificant elements culturals i lingüístics elementals que fomentin la cultura de la pau.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.3",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques per a la comprensió dels aspectes més rellevants de la diversitat lingüística i cultural."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques per a la comprensió dels aspectes més rellevants de la diversitat lingüística i cultural.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA1.1",
-            "text": "Participar amb estima i respecte en situacions interculturals, construint vincles entre les diferents llengües i cultures, i mostrant rebuig davant discriminacions, prejudicis i estereotips de qualsevol tipus en contextos comunicatius quotidians i habituals."
+            "text": "Participar amb estima i respecte en situacions interculturals, construint vincles entre les diferents llengües i cultures, i mostrant rebuig davant discriminacions, prejudicis i estereotips de qualsevol tipus en contextos comunicatius quotidians i habituals.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.2",
-            "text": "Reconèixer, comprendre i valorar la diversitat lingüística i cultural pròpia de països on es parla la llengua estrangera com a font d’enriquiment personal, identificant elements culturals i lingüístics bàsics que fomentin la sostenibilitat i la cultura de la pau."
+            "text": "Reconèixer, comprendre i valorar la diversitat lingüística i cultural pròpia de països on es parla la llengua estrangera com a font d’enriquiment personal, identificant elements culturals i lingüístics bàsics que fomentin la sostenibilitat i la cultura de la pau.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.3",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques per a la comprensió de la diversitat lingüística i cultural."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques per a la comprensió de la diversitat lingüística i cultural.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -62,26 +70,30 @@
       "codi": "CE2",
       "text": "Comprendre i interpretar textos orals i multimodals breus i senzills, en la llengua estàndard, i identificar el sentit general i la informació més rellevant, valorant, de manera progressivament autònoma, aspectes formals i de contingut bàsics, per construir coneixement, formar-se una opinió i eixamplar les possibilitats de gaudi i lleure.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer i comprendre paraules i expressions habituals en textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia"
+            "text": "Reconèixer i comprendre paraules i expressions habituals en textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Seleccionar i aplicar de de diferents suports."
+            "text": "Seleccionar i aplicar de de diferents suports.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer i comprendre paraules, frases i el sentit global de textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia"
+            "text": "Reconèixer i comprendre paraules, frases i el sentit global de textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer i interpretar el sentit global, així com paraules i frases específiques de textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i àmbits pròxims a"
+            "text": "Reconèixer i interpretar el sentit global, així com paraules i frases específiques de textos orals i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i àmbits pròxims a",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -90,58 +102,70 @@
       "codi": "CE3",
       "text": "Produir textos orals i multimodals amb coherència, claredat i registre adequats, atenent les convencions pròpies dels diferents gèneres discursius, i participar en interaccions orals variades, amb autonomia, per expressar idees, sentiments i conceptes, construir coneixement i establir vincles personals.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Expressar oralment frases curtes amb informació bàsica sobre assumptes quotidians i de rellevància per a l’alumnat, utilitzant de forma guiada recursos verbals i no verbals, a partir de models i estructures prèviament presentats i parant atenció al ritme, l’accentuació i l’entonació."
+            "text": "Expressar oralment frases curtes amb informació bàsica sobre assumptes quotidians i de rellevància per a l’alumnat, utilitzant de forma guiada recursos verbals i no verbals, a partir de models i estructures prèviament presentats i parant atenció al ritme, l’accentuació i l’entonació.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Seleccionar i aplicar de forma guiada estratègies bàsiques per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+            "text": "Seleccionar i aplicar de forma guiada estratègies bàsiques per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Participar, de forma guiada, en situacions interactives elementals sobre temes quotidians, preparats prèviament, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia."
+            "text": "Participar, de forma guiada, en situacions interactives elementals sobre temes quotidians, preparats prèviament, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.4",
-            "text": "Seleccionar i utilitzar, de forma guiada i en entorns propers, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges senzills i breus, i formular i contestar preguntes bàsiques per a la comunicació."
+            "text": "Seleccionar i utilitzar, de forma guiada i en entorns propers, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges senzills i breus, i formular i contestar preguntes bàsiques per a la comunicació.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Expressar oralment frases curtes amb informació bàsica sobre assumptes quotidians i de rellevància per a l’alumnat, utilitzant de forma guiada recursos verbals i no verbals, parant atenció al ritme, l’accentuació i l’entonació."
+            "text": "Expressar oralment frases curtes amb informació bàsica sobre assumptes quotidians i de rellevància per a l’alumnat, utilitzant de forma guiada recursos verbals i no verbals, parant atenció al ritme, l’accentuació i l’entonació.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Seleccionar i aplicar de forma guiada estratègies per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+            "text": "Seleccionar i aplicar de forma guiada estratègies per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.3",
-            "text": "Participar en situacions interactives d’intercanvis d’informació breus i senzills sobre temes quotidians, de rellevància personal i pròxims a la seva experiència, preparats prèviament, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia i respecte per la cortesia lingüística i l’etiqueta digital."
+            "text": "Participar en situacions interactives d’intercanvis d’informació breus i senzills sobre temes quotidians, de rellevància personal i pròxims a la seva experiència, preparats prèviament, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia i respecte per la cortesia lingüística i l’etiqueta digital.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.4",
-            "text": "Seleccionar i utilitzar, de forma guiada i en situacions quotidianes, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges breus i formular i contestar preguntes senzilles."
+            "text": "Seleccionar i utilitzar, de forma guiada i en situacions quotidianes, estratègies elementals per saludar, acomiadar-se i presentar-se, expressar missatges breus i formular i contestar preguntes senzilles.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Expressar oralment textos breus i senzills, prèviament preparats, sobre assumptes quotidians i de rellevància per a l’alumnat, utilitzant de forma guiada recursos verbals i no verbals, i usant formes i estructures bàsiques i d’ús freqüent."
+            "text": "Expressar oralment textos breus i senzills, prèviament preparats, sobre assumptes quotidians i de rellevància per a l’alumnat, utilitzant de forma guiada recursos verbals i no verbals, i usant formes i estructures bàsiques i d’ús freqüent.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Seleccionar i aplicar de forma guiada coneixements i estratègies per preparar i produir textos adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, usant, amb ajuda, recursos físics o digitals en funció de la tasca i les necessitats de cada moment."
+            "text": "Seleccionar i aplicar de forma guiada coneixements i estratègies per preparar i produir textos adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, usant, amb ajuda, recursos físics o digitals en funció de la tasca i les necessitats de cada moment.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.3",
-            "text": "Participar en situacions interactives d’intercanvis d’informació breus i senzills sobre temes quotidians, de rellevància personal i pròxims a la pròpia experiència, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia i respecte per la cortesia lingüística i l’etiqueta digital, així com per les diferents necessitats, idees i motivacions dels interlocutors."
+            "text": "Participar en situacions interactives d’intercanvis d’informació breus i senzills sobre temes quotidians, de rellevància personal i pròxims a la pròpia experiència, a través de diversos suports, com ara la repetició, el ritme pausat o el llenguatge no verbal, i mostrant empatia i respecte per la cortesia lingüística i l’etiqueta digital, així com per les diferents necessitats, idees i motivacions dels interlocutors.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.4",
-            "text": "Seleccionar i utilitzar, de forma guiada i en situacions quotidianes, estratègies elementals per saludar, acomiadar-se i presentar-se,"
+            "text": "Seleccionar i utilitzar, de forma guiada i en situacions quotidianes, estratègies elementals per saludar, acomiadar-se i presentar-se,",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -150,34 +174,40 @@
       "codi": "CE4",
       "text": "Comprendre i interpretar textos escrits i multimodals, reconeixent el sentit global, les idees principals i la informació implícita i explícita, i realitzant, de manera progressivament autònoma, reflexions elementals sobre aspectes formals i de contingut, per adquirir i construir coneixement, i respondre a necessitats i interessos comunicatius diversos.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Reconèixer i comprendre paraules i expressions habituals en textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia experiència, expressats de forma entenedora, clara, senzilla i directa, i en llengua estàndard."
+            "text": "Reconèixer i comprendre paraules i expressions habituals en textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la pròpia experiència, expressats de forma entenedora, clara, senzilla i directa, i en llengua estàndard.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.2",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies elementals en situacions comunicatives quotidianes i de rellevància per a l’alumnat que permetin captar la idea global i identificar elements específics amb ajuda d’elements lingüístics i no lingüístics."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies elementals en situacions comunicatives quotidianes i de rellevància per a l’alumnat que permetin captar la idea global i identificar elements específics amb ajuda d’elements lingüístics i no lingüístics.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Reconèixer i comprendre el sentit global, així com paraules i frases prèviament indicades en textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la seva experiència, així com de textos de ficció adequats al nivell de desenvolupament de l’alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports."
+            "text": "Reconèixer i comprendre el sentit global, així com paraules i frases prèviament indicades en textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i pròxims a la seva experiència, així com de textos de ficció adequats al nivell de desenvolupament de l’alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA4.2",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies adequades en situacions comunicatives quotidianes i de rellevància per a l’alumnat que permetin captar el sentit global i processar informacions explícites en textos breus i senzills sobre temes familiars."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies adequades en situacions comunicatives quotidianes i de rellevància per a l’alumnat que permetin captar el sentit global i processar informacions explícites en textos breus i senzills sobre temes familiars.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Reconèixer i comprendre el sentit global, així com paraules i frases específiques de textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i àmbits pròxims a la seva experiència, així com de textos literaris adequats al nivell de desenvolupament de l’alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports."
+            "text": "Reconèixer i comprendre el sentit global, així com paraules i frases específiques de textos escrits i multimodals breus i senzills sobre temes freqüents i quotidians de rellevància personal i àmbits pròxims a la seva experiència, així com de textos literaris adequats al nivell de desenvolupament de l’alumnat, expressats de forma entenedora, clara i en llengua estàndard a través de diferents suports.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA4.2",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies i coneixements adequats en situacions comunicatives quotidianes i de rellevància per a l’alumnat que permetin captar el sentit global i processar informacions explícites en textos diversos."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies i coneixements adequats en situacions comunicatives quotidianes i de rellevància per a l’alumnat que permetin captar el sentit global i processar informacions explícites en textos diversos.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -186,34 +216,40 @@
       "codi": "CE5",
       "text": "Produir textos escrits i multimodals amb adequació, coherència i cohesió, aplicant estratègies elementals de planificació, redacció, revisió, correcció i edició, amb regulació dels iguals i autoregulació progressivament autònoma i atenent les convencions pròpies del gènere discursiu triat, per construir coneixement i donar resposta de manera informada, eficaç i creativa a demandes comunicatives concretes.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA5.1",
-            "text": "Escriure paraules, expressions conegudes i frases, sobre assumptes quotidians i de rellevància personal per a l’alumnat, a partir de models, i amb una finalitat específica, a través d’eines analògiques i digitals, utilitzant estructures i lèxic elemental."
+            "text": "Escriure paraules, expressions conegudes i frases, sobre assumptes quotidians i de rellevància personal per a l’alumnat, a partir de models, i amb una finalitat específica, a través d’eines analògiques i digitals, utilitzant estructures i lèxic elemental.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Seleccionar i aplicar de forma guiada estratègies bàsiques per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+            "text": "Seleccionar i aplicar de forma guiada estratègies bàsiques per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA5.1",
-            "text": "Redactar textos breus i senzills, sobre assumptes quotidians i de rellevància personal per a l’alumnat, amb adequació a la situació comunicativa proposada, a partir de models, i a través d’eines analògiques i digitals, utilitzant estructures i lèxic elemental."
+            "text": "Redactar textos breus i senzills, sobre assumptes quotidians i de rellevància personal per a l’alumnat, amb adequació a la situació comunicativa proposada, a partir de models, i a través d’eines analògiques i digitals, utilitzant estructures i lèxic elemental.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.2",
-            "text": "Seleccionar i aplicar de forma guiada estratègies per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+            "text": "Seleccionar i aplicar de forma guiada estratègies per produir missatges breus i senzills adequats a les intencions comunicatives utilitzant, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA5.1",
-            "text": "Organitzar i redactar textos breus i senzills, sobre assumptes quotidians i freqüents, de rellevància personal per a l’alumnat i pròxims a la seva experiència, prèviament preparats, amb adequació a la situació comunicativa proposada, a través d’eines analògiques i digitals, i usant estructures i lèxic bàsic d’ús comú."
+            "text": "Organitzar i redactar textos breus i senzills, sobre assumptes quotidians i freqüents, de rellevància personal per a l’alumnat i pròxims a la seva experiència, prèviament preparats, amb adequació a la situació comunicativa proposada, a través d’eines analògiques i digitals, i usant estructures i lèxic bàsic d’ús comú.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.2",
-            "text": "Seleccionar i aplicar de forma guiada coneixements i estratègies per preparar i produir textos adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, usant amb ajuda recursos físics o digitals en funció de la tasca i les necessitats de cada moment."
+            "text": "Seleccionar i aplicar de forma guiada coneixements i estratègies per preparar i produir textos adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, usant amb ajuda recursos físics o digitals en funció de la tasca i les necessitats de cada moment.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -222,38 +258,45 @@
       "codi": "CE6",
       "text": "Cercar, seleccionar i contrastar informació procedent de diverses fonts, de forma planificada i de manera progressivament autònoma, avaluant la seva fiabilitat, reconeixent alguns riscos de manipulació i desinformació i adoptant un punt de vista personal i respectuós amb la propietat intel·lectual, per transformar-la en coneixement i comunicar-la de manera creativa.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA6.1",
-            "text": "Aplicar estratègies de cerca d’informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes propers i d’interès personal, de forma guiada, a la xarxa i a les biblioteques."
+            "text": "Aplicar estratègies de cerca d’informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes propers i d’interès personal, de forma guiada, a la xarxa i a les biblioteques.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.2",
-            "text": "Comunicar els resultats d’un procés d’investigació, individual o grupal, realitzat de forma acompanyada,"
+            "text": "Comunicar els resultats d’un procés d’investigació, individual o grupal, realitzat de forma acompanyada,",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.3",
-            "text": "Adoptar hàbits d’ús de forma acompanyada, senzill, individual o grupal, segur i saludable de les sobre temes d’interès sobre temes d’interès tecnologies digitals de forma personal, ecològic i social, personal, ecològic i social guiada en relació amb que incloguin els objectius que incloguin els objectius l’accés a la informació i a la de desenvolupament de desenvolupament comunicació en"
+            "text": "Adoptar hàbits d’ús de forma acompanyada, senzill, individual o grupal, segur i saludable de les sobre temes d’interès sobre temes d’interès tecnologies digitals de forma personal, ecològic i social, personal, ecològic i social guiada en relació amb que incloguin els objectius que incloguin els objectius l’accés a la informació i a la de desenvolupament de desenvolupament comunicació en",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA6.1",
-            "text": "Aplicar estratègies de cerca d’informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes d’interès personal, ecològic i social, de forma progressivament autònoma, a la xarxa i a les biblioteques."
+            "text": "Aplicar estratègies de cerca d’informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes d’interès personal, ecològic i social, de forma progressivament autònoma, a la xarxa i a les biblioteques.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA6.2",
-            "text": "Comunicar de forma creativa i respectant els drets de la propietat"
+            "text": "Comunicar de forma creativa i respectant els drets de la propietat",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA6.1",
-            "text": "Aplicar estratègies de cerca d’informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes d’interès personal, ecològic i social, de forma progressivament autònoma, a la xarxa i a les biblioteques, valorant-ne críticament el resultat."
+            "text": "Aplicar estratègies de cerca d’informació (localització, selecció i contrast) en diferents fonts, incloses les digitals, sobre temes d’interès personal, ecològic i social, de forma progressivament autònoma, a la xarxa i a les biblioteques, valorant-ne críticament el resultat.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.2",
-            "text": "Comunicar de forma creativa i respectant els"
+            "text": "Comunicar de forma creativa i respectant els",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -262,34 +305,40 @@
       "codi": "CE7",
       "text": "Seleccionar i llegir de manera autònoma obres diverses atenent els propis gustos i interessos, compartint les experiències de lectura, per iniciar la construcció de la identitat lectora, fomentar el gust per la lectura com a font de plaer i gaudir de la seva dimensió social.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA7.1",
-            "text": "Llegir de manera autònoma textos de diferents autors i autores que s’adeqüin als propis gustos i interessos, seleccionats de manera acompanyada, des de les diferents etapes del procés evolutiu de la lectura."
+            "text": "Llegir de manera autònoma textos de diferents autors i autores que s’adeqüin als propis gustos i interessos, seleccionats de manera acompanyada, des de les diferents etapes del procés evolutiu de la lectura.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.2",
-            "text": "Compartir lectures, per mitjà de recomanacions, presentacions i a partir d’interaccions orals, en el marc de la biblioteca d’aula i de centre, per expressar gustos i interessos i iniciar- se en una comunitat lectora."
+            "text": "Compartir lectures, per mitjà de recomanacions, presentacions i a partir d’interaccions orals, en el marc de la biblioteca d’aula i de centre, per expressar gustos i interessos i iniciar- se en una comunitat lectora.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA7.1",
-            "text": "Llegir de manera autònoma o acompanyada textos de diversos autors i autores que s’adeqüin als propis gustos i interessos i seleccionats amb autonomia creixent, avançant en la construcció de la identitat lectora."
+            "text": "Llegir de manera autònoma o acompanyada textos de diversos autors i autores que s’adeqüin als propis gustos i interessos i seleccionats amb autonomia creixent, avançant en la construcció de la identitat lectora.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA7.2",
-            "text": "Compartir lectures per mitjà de recomanacions, presentacions i a partir d’interaccions orals, en el marc de la biblioteca d’aula i de centre, per expressar gustos i interessos, valorar les obres de forma argumentada i que permetin sentir-se membre d’una comunitat lectora."
+            "text": "Compartir lectures per mitjà de recomanacions, presentacions i a partir d’interaccions orals, en el marc de la biblioteca d’aula i de centre, per expressar gustos i interessos, valorar les obres de forma argumentada i que permetin sentir-se membre d’una comunitat lectora.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA7.1",
-            "text": "Llegir de manera autònoma textos de diversos autors i autores que s’adeqüin als propis gustos i interessos, seleccionats amb criteri propi, progressant en la construcció de la identitat lectora."
+            "text": "Llegir de manera autònoma textos de diversos autors i autores que s’adeqüin als propis gustos i interessos, seleccionats amb criteri propi, progressant en la construcció de la identitat lectora.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA7.2",
-            "text": "Compartir lectures per mitjà de recomanacions, presentacions i a partir d’interaccions orals, per mitjans analògics i digitals, en el marc de la biblioteca d’aula i de centre, per expressar gustos i interessos, valorar les obres de forma crítica i que permetin sentir-se membre d’una comunitat lectora."
+            "text": "Compartir lectures per mitjà de recomanacions, presentacions i a partir d’interaccions orals, per mitjans analògics i digitals, en el marc de la biblioteca d’aula i de centre, per expressar gustos i interessos, valorar les obres de forma crítica i que permetin sentir-se membre d’una comunitat lectora.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -298,30 +347,35 @@
       "codi": "CE8",
       "text": "Mediar entre diferents llengües en situacions predictibles, utilitzant estratègies i coneixements per processar i transmetre informació bàsica i senzilla, per tal de facilitar la comunicació.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA8.1",
-            "text": "Interpretar i explicar informació bàsica de conceptes, comunicacions i textos breus i senzills, de manera guiada, en situacions de comunicació de diversitat lingüística, social i cultural, mostrant empatia i interès per entendre’s en un entorn immediat."
+            "text": "Interpretar i explicar informació bàsica de conceptes, comunicacions i textos breus i senzills, de manera guiada, en situacions de comunicació de diversitat lingüística, social i cultural, mostrant empatia i interès per entendre’s en un entorn immediat.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA8.1",
-            "text": "Interpretar i explicar textos, conceptes i comunicacions breus i senzills, de manera guiada, en situacions de comunicació de diversitat lingüística, social i cultural, mostrant empatia i interès per entendre’s en el seu entorn més proper."
+            "text": "Interpretar i explicar textos, conceptes i comunicacions breus i senzills, de manera guiada, en situacions de comunicació de diversitat lingüística, social i cultural, mostrant empatia i interès per entendre’s en el seu entorn més proper.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA8.2",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies elementals que ajudin a crear ponts i que facilitin la comprensió i producció d’informació, així com la comunicació fluida, fent servir, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies elementals que ajudin a crear ponts i que facilitin la comprensió i producció d’informació, així com la comunicació fluida, fent servir, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA8.1",
-            "text": "Inferir i comunicar textos, conceptes i comunicacions breus i senzills, de manera guiada, en situacions de comunicació amb diversitat lingüística i cultural, mostrant respecte i empatia per les persones interlocutores, per les llengües emprades i interès per participar en la solució de malentesos en l’entorn proper."
+            "text": "Inferir i comunicar textos, conceptes i comunicacions breus i senzills, de manera guiada, en situacions de comunicació amb diversitat lingüística i cultural, mostrant respecte i empatia per les persones interlocutores, per les llengües emprades i interès per participar en la solució de malentesos en l’entorn proper.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA8.2",
-            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques que ajudin a crear ponts i facilitin la comprensió i producció d’informació i la comunicació fluida, adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, fent servir, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment."
+            "text": "Seleccionar i aplicar, de forma guiada, estratègies bàsiques que ajudin a crear ponts i facilitin la comprensió i producció d’informació i la comunicació fluida, adequats a les intencions comunicatives, les característiques contextuals i la tipologia textual, fent servir, amb ajuda, recursos i suports físics o digitals en funció de les necessitats de cada moment.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -330,46 +384,55 @@
       "codi": "CE9",
       "text": "Reflexionar de forma guiada sobre el llenguatge i reconèixer i usar els repertoris lingüístics personals i a partir de processos de comprensió i producció de textos orals, escrits i multimodals, utilitzant la terminologia elemental adequada, per iniciar-se en el desenvolupament de la consciència lingüística i millorar les destreses en la posada en pràctica d’aquests processos.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA9.1",
-            "text": "Comparar i contrastar similituds i diferències evidents entre llengües, reflexionant, de manera guiada, sobre aspectes elementals del seu funcionament."
+            "text": "Comparar i contrastar similituds i diferències evidents entre llengües, reflexionant, de manera guiada, sobre aspectes elementals del seu funcionament.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.2",
-            "text": "Identificar i aplicar, de forma guiada, els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d’aprendre la llengua estrangera, amb suport d’altres participants i de suports analògics i digitals."
+            "text": "Identificar i aplicar, de forma guiada, els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d’aprendre la llengua estrangera, amb suport d’altres participants i de suports analògics i digitals.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA9.3",
-            "text": "Identificar i explicar, de manera guiada, progressos i dificultats elementals d’aprenentatge de la llengua estrangera."
+            "text": "Identificar i explicar, de manera guiada, progressos i dificultats elementals d’aprenentatge de la llengua estrangera.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA9.1",
-            "text": "Comparar i contrastar les similituds i diferències entre llengües, reflexionant, de manera guiada, sobre aspectes bàsics del seu funcionament."
+            "text": "Comparar i contrastar les similituds i diferències entre llengües, reflexionant, de manera guiada, sobre aspectes bàsics del seu funcionament.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA9.2",
-            "text": "Utilitzar i diferenciar, de forma guiada, els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d’aprendre la llengua estrangera, amb suport d’altres participants i de suports analògics i digitals."
+            "text": "Utilitzar i diferenciar, de forma guiada, els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d’aprendre la llengua estrangera, amb suport d’altres participants i de suports analògics i digitals.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA9.3",
-            "text": "Identificar, registrar i aplicar, de manera guiada, els progressos i dificultats elementals d’aprenentatge de la llengua estrangera, reconeixent els aspectes que ajuden a millorar i"
+            "text": "Identificar, registrar i aplicar, de manera guiada, els progressos i dificultats elementals d’aprenentatge de la llengua estrangera, reconeixent els aspectes que ajuden a millorar i",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA9.1",
-            "text": "Comparar i contrastar les similituds i diferències entre llengües, reflexionant, de manera progressivament autònoma, sobre aspectes bàsics del seu funcionament."
+            "text": "Comparar i contrastar les similituds i diferències entre llengües, reflexionant, de manera progressivament autònoma, sobre aspectes bàsics del seu funcionament.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA9.2",
-            "text": "Utilitzar i diferenciar de forma progressivament autònoma els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d’aprendre la llengua estrangera, amb suport d’altres participants i de suports analògics i digitals."
+            "text": "Utilitzar i diferenciar de forma progressivament autònoma els coneixements i estratègies que formen el propi repertori lingüístic, per millorar la capacitat de comunicar i d’aprendre la llengua estrangera, amb suport d’altres participants i de suports analògics i digitals.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA9.3",
-            "text": "Identificar, registrar i utilitzar, de manera guiada, els progressos i dificultats d’aprenentatge de la llengua estrangera, reconeixent els"
+            "text": "Identificar, registrar i utilitzar, de manera guiada, els progressos i dificultats d’aprenentatge de la llengua estrangera, reconeixent els",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -378,26 +441,30 @@
       "codi": "CE10",
       "text": "Posar al servei de la convivència democràtica, la resolució dialogada dels conflictes i la igualtat de drets de totes les persones les pròpies pràctiques comunicatives, utilitzant un llenguatge no discriminatori i desterrant els abusos de poder a través de la paraula, per afavorir un ús eficaç, ètic i democràtic del llenguatge.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA10.1",
-            "text": "Rebutjar els usos lingüístics discriminatoris identificats a partir de la reflexió grupal acompanyada sobre els"
+            "text": "Rebutjar els usos lingüístics discriminatoris identificats a partir de la reflexió grupal acompanyada sobre els",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA10.2",
-            "text": "Utilitzar, amb gènere."
+            "text": "Utilitzar, amb gènere.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA10.1",
-            "text": "Rebutjar els usos lingüístics discriminatoris i identificar els abusos de poder a través de la paraula, mitjançant la reflexió grupal"
+            "text": "Rebutjar els usos lingüístics discriminatoris i identificar els abusos de poder a través de la paraula, mitjançant la reflexió grupal",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA10.1",
-            "text": "Rebutjar els usos lingüístics discriminatoris i els abusos de poder a través de la paraula identificats mitjançant la"
+            "text": "Rebutjar els usos lingüístics discriminatoris i els abusos de poder a través de la paraula identificats mitjançant la",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -420,889 +487,1186 @@
       "nivell": "CI",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Presa de consciència de la diversitat lingüística per mitjà de la biografia lingüística personal i el mapa lingüístic de l’aula, treballats amb acompanyament"
+      "text": "Presa de consciència de la diversitat lingüística per mitjà de la biografia lingüística personal i el mapa lingüístic de l’aula, treballats amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Ús d’un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana"
+      "text": "Ús d’un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic per superar mancances comunicatives amb acompanyament"
+      "text": "Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic per superar mancances comunicatives amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Reconeixement d’aspectes socioculturals i sociolingüístics elementals i més significatius relatius als costums, la vida quotidiana i les manifestacions culturals i artístiques en països on es parla la llengua estrangera"
+      "text": "Reconeixement d’aspectes socioculturals i sociolingüístics elementals i més significatius relatius als costums, la vida quotidiana i les manifestacions culturals i artístiques en països on es parla la llengua estrangera",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de la llengua estrangera a l’aula amb autoconfiança progressiva"
+      "text": "Ús de la llengua estrangera a l’aula amb autoconfiança progressiva",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Comprensió de textos orals de tipologia diversa en diferents formats i mitjans"
+      "text": "Comprensió de textos orals de tipologia diversa en diferents formats i mitjans",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Identificació de la incidència dels components (situació, participants o intenció) en l’acte comunicatiu en diferents situacions comunicatives de l’aula"
+      "text": "Identificació de la incidència dels components (situació, participants o intenció) en l’acte comunicatiu en diferents situacions comunicatives de l’aula",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies lingüístiques elementals amb acompanyament, en contextos propers, per dotar textos breus i senzills d’adequació, coherència, cohesió i correcció"
+      "text": "Aplicació d’estratègies lingüístiques elementals amb acompanyament, en contextos propers, per dotar textos breus i senzills d’adequació, coherència, cohesió i correcció",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Identificació d’elements bàsics de contingut (tema, fórmules fixes, lèxic) i forma (estructura, format, imatges) en les produccions orals"
+      "text": "Identificació d’elements bàsics de contingut (tema, fórmules fixes, lèxic) i forma (estructura, format, imatges) en les produccions orals",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d’aula"
+      "text": "Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d’aula",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals, de forma progressivament autònoma"
+      "text": "Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Interacció oral adequada en situacions d’aula. Reconeixement i utilització d’estratègies bàsiques de cortesia lingüística"
+      "text": "Interacció oral adequada en situacions d’aula. Reconeixement i utilització d’estratègies bàsiques de cortesia lingüística",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’escolta activa en la resolució dialogada dels conflictes, tenint en compte la perspectiva de gènere"
+      "text": "Aplicació d’estratègies d’escolta activa en la resolució dialogada dels conflictes, tenint en compte la perspectiva de gènere",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús d’eines analògiques i digitals elementals per a la producció oral i multimodal, en el marc de les situacions d’aprenentatge i amb acompanyament"
+      "text": "Ús d’eines analògiques i digitals elementals per a la producció oral i multimodal, en el marc de les situacions d’aprenentatge i amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Lectura individual i silenciosa, amb fluïdesa adequada al nivell cognitiu, de textos de l’aula i del seu entorn"
+      "text": "Lectura individual i silenciosa, amb fluïdesa adequada al nivell cognitiu, de textos de l’aula i del seu entorn",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Lectura en veu alta amb entonació i ritme progressivament adequats al nivell cognitiu, amb preparació prèvia"
+      "text": "Lectura en veu alta amb entonació i ritme progressivament adequats al nivell cognitiu, amb preparació prèvia",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Ús d’elements gràfics i paratextuals bàsics que afavoreixen la comprensió abans, durant i després de l’experiència lectora, en textos propers, de la vida quotidiana, de mitjans de comunicació i escolars"
+      "text": "Ús d’elements gràfics i paratextuals bàsics que afavoreixen la comprensió abans, durant i després de l’experiència lectora, en textos propers, de la vida quotidiana, de mitjans de comunicació i escolars",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Aplicació d’estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en textos diversos i amb acompanyament"
+      "text": "Aplicació d’estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en textos diversos i amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Detecció d’usos clarament discriminatoris del llenguatge verbal i icònic, de forma guiada, en contextos quotidians i mitjans de comunicació"
+      "text": "Detecció d’usos clarament discriminatoris del llenguatge verbal i icònic, de forma guiada, en contextos quotidians i mitjans de comunicació",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Comprensió i ús de convencions del codi escrit en el marc de les propostes de comprensió o producció de textos d’ús escolar i social"
+      "text": "Comprensió i ús de convencions del codi escrit en el marc de les propostes de comprensió o producció de textos d’ús escolar i social",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Producció de textos propers o viscuts, de tipologia diversa, dirigits a diferents destinataris, amb acompanyament i una intenció concreta"
+      "text": "Producció de textos propers o viscuts, de tipologia diversa, dirigits a diferents destinataris, amb acompanyament i una intenció concreta",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Aplicació d’estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals propers a la seva experiència personal, en diferents suports, amb diferents propòsits i de forma acompanyada"
+      "text": "Aplicació d’estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals propers a la seva experiència personal, en diferents suports, amb diferents propòsits i de forma acompanyada",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Utilització d’elements gràfics i paratextuals adequats al suport, de forma acompanyada, que facilitin l’organització i la comprensió del text produït a l’aula"
+      "text": "Utilització d’elements gràfics i paratextuals adequats al suport, de forma acompanyada, que facilitin l’organització i la comprensió del text produït a l’aula",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Cura en la presentació de les produccions escrites en qualsevol suport"
+      "text": "Cura en la presentació de les produccions escrites en qualsevol suport",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Aplicació d’estratègies bàsiques per a la recerca guiada d’informació senzilla en fonts documentals variades i amb diferents suports i formats, reconeixent l’autoria"
+      "text": "Aplicació d’estratègies bàsiques per a la recerca guiada d’informació senzilla en fonts documentals variades i amb diferents suports i formats, reconeixent l’autoria",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Aplicació d’estratègies bàsiques que permetin comparar informació de diferents fonts, reelaborar-la i comunicar-la en situacions properes, amb acompanyament"
+      "text": "Aplicació d’estratègies bàsiques que permetin comparar informació de diferents fonts, reelaborar-la i comunicar-la en situacions properes, amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Comunicació creativa del coneixement, de forma acompanyada, amb respecte a la propietat intel·lectual"
+      "text": "Comunicació creativa del coneixement, de forma acompanyada, amb respecte a la propietat intel·lectual",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Utilització de la biblioteca i dels recursos digitals de l’aula i del centre, amb guiatge, per dur a terme treballs d’investigació"
+      "text": "Utilització de la biblioteca i dels recursos digitals de l’aula i del centre, amb guiatge, per dur a terme treballs d’investigació",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Lectura d’obres o fragments variats i diversos de la literatura infantil adequats als propis interessos i organitzats en itineraris lectors"
+      "text": "Lectura d’obres o fragments variats i diversos de la literatura infantil adequats als propis interessos i organitzats en itineraris lectors",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Comprensió dels elements constitutius essencials de l’obra literària (tema, personatges, trama, escenari) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d’obres de qualitat"
+      "text": "Comprensió dels elements constitutius essencials de l’obra literària (tema, personatges, trama, escenari) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d’obres de qualitat",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals amb acompanyament"
+      "text": "Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Inici de la construcció de la identitat lectora, afavorint l’expressió de gustos i interessos, per mitjà de la lectura autònoma i la lectura compartida i guiada"
+      "text": "Inici de la construcció de la identitat lectora, afavorint l’expressió de gustos i interessos, per mitjà de la lectura autònoma i la lectura compartida i guiada",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Ús de la biblioteca de l’aula, del centre i de l’entorn proper com a espai de trobada d’activitats literàries compartides i com a element impulsor de comunitats lectores"
+      "text": "Ús de la biblioteca de l’aula, del centre i de l’entorn proper com a espai de trobada d’activitats literàries compartides i com a element impulsor de comunitats lectores",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Reconeixement de les dades bàsiques d’un llibre (persones autores, il·lustradores, editorial, col·lecció) en el context de les lectures d’aula i de la biblioteca, amb acompanyament"
+      "text": "Reconeixement de les dades bàsiques d’un llibre (persones autores, il·lustradores, editorial, col·lecció) en el context de les lectures d’aula i de la biblioteca, amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Escriptura de textos literaris senzills (rodolins, endevinalles, contes…) a partir de models coneguts i analitzats, amb acompanyament"
+      "text": "Escriptura de textos literaris senzills (rodolins, endevinalles, contes…) a partir de models coneguts i analitzats, amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Exploració de les il·lustracions i de la relació que s’estableix amb el text en els àlbums il·lustrats, amb acompanyament"
+      "text": "Exploració de les il·lustracions i de la relació que s’estableix amb el text en els àlbums il·lustrats, amb acompanyament",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Utilització de metallenguatge específic bàsic en el marc de propostes de producció i comprensió de textos orals, escrits o multimodals"
+      "text": "Utilització de metallenguatge específic bàsic en el marc de propostes de producció i comprensió de textos orals, escrits o multimodals",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Diferències elementals entre llengua oral i llengua escrita en l’ús quotidià"
+      "text": "Diferències elementals entre llengua oral i llengua escrita en l’ús quotidià",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Discriminació fonètica de sons, síl·labes i accents i correspondència entre els sons i les grafies en la lectura i en les diferents produccions escrites, tenint en compte les diferents etapes del procés evolutiu de la lectura i l’escriptura"
+      "text": "Discriminació fonètica de sons, síl·labes i accents i correspondència entre els sons i les grafies en la lectura i en les diferents produccions escrites, tenint en compte les diferents etapes del procés evolutiu de la lectura i l’escriptura",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Formulació i comprovació d’hipòtesis (substitució, canvi d’ordre, manipulació) i establiment de generalitzacions sobre aspectes lingüístics elementals, aplicació de l’ortografia de base i de les normes ortogràfiques més senzilles i d’ús més freqüent, prestant especial atenció a la concordança en l’escriptura de paraules d’ús habitual a la classe, en els aprenentatges i en els textos propis"
+      "text": "Formulació i comprovació d’hipòtesis (substitució, canvi d’ordre, manipulació) i establiment de generalitzacions sobre aspectes lingüístics elementals, aplicació de l’ortografia de base i de les normes ortogràfiques més senzilles i d’ús més freqüent, prestant especial atenció a la concordança en l’escriptura de paraules d’ús habitual a la classe, en els aprenentatges i en els textos propis",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Ús de signes bàsics de puntuació com a mecanisme organitzador del text escrit"
+      "text": "Ús de signes bàsics de puntuació com a mecanisme organitzador del text escrit",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Comprensió i ús de les modalitats oracionals en relació amb la intenció comunicativa"
+      "text": "Comprensió i ús de les modalitats oracionals en relació amb la intenció comunicativa",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Comprensió i ús de mecanismes bàsics de cohesió textual, amb especial atenció als connectors temporals i explicatius a partir de la reflexió compartida sobre les produccions escrites"
+      "text": "Comprensió i ús de mecanismes bàsics de cohesió textual, amb especial atenció als connectors temporals i explicatius a partir de la reflexió compartida sobre les produccions escrites",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Presa de consciència de la biografia lingüística personal i del mapa lingüístic de l’aula, i de l’escola de forma autònoma"
+      "text": "Presa de consciència de la biografia lingüística personal i del mapa lingüístic de l’aula, i de l’escola de forma autònoma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Explicació de la diversitat lingüística i cultural de l’entorn, com a valor i eina d’aprenentatge"
+      "text": "Explicació de la diversitat lingüística i cultural de l’entorn, com a valor i eina d’aprenentatge",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Identificació de prejudicis i estereotips lingüístics i cerca de solucions en l’àmbit personal i escolar"
+      "text": "Identificació de prejudicis i estereotips lingüístics i cerca de solucions en l’àmbit personal i escolar",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Ús d’un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana"
+      "text": "Ús d’un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic que permeten superar mancances comunicatives, amb acompanyament"
+      "text": "Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic que permeten superar mancances comunicatives, amb acompanyament",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Reconeixement d’aspectes socioculturals i sociolingüístics elementals relatius als costums, la vida quotidiana i les relacions interpersonals bàsiques en països on es parla la llengua estrangera"
+      "text": "Reconeixement d’aspectes socioculturals i sociolingüístics elementals relatius als costums, la vida quotidiana i les relacions interpersonals bàsiques en països on es parla la llengua estrangera",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Aplicació d’estratègies bàsiques d’ús comú per apreciar la diversitat lingüística, cultural i artística, atenent a valors ecosocials i democràtics"
+      "text": "Aplicació d’estratègies bàsiques d’ús comú per apreciar la diversitat lingüística, cultural i artística, atenent a valors ecosocials i democràtics",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Construcció i desenvolupament de coneixements, destreses i actituds elementals que permeten iniciar-se en activitats de mediació en situacions quotidianes bàsiques"
+      "text": "Construcció i desenvolupament de coneixements, destreses i actituds elementals que permeten iniciar-se en activitats de mediació en situacions quotidianes bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de la llengua estrangera a l’aula amb autoconfiança progressiva"
+      "text": "Ús de la llengua estrangera a l’aula amb autoconfiança progressiva",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Acceptació de l’error com a part integrant del procés d’aprenentatge"
+      "text": "Acceptació de l’error com a part integrant del procés d’aprenentatge",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Comprensió de textos orals en diferents contextos: activitats d’aula, situacions d’aprenentatge en qualsevol àrea i en la vida quotidiana i en mitjans de comunicació"
+      "text": "Comprensió de textos orals en diferents contextos: activitats d’aula, situacions d’aprenentatge en qualsevol àrea i en la vida quotidiana i en mitjans de comunicació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Descripció de la incidència dels components (situació, participants, propòsit comunicatiu, canal) en l’acte comunicatiu en diferents situacions comunicatives de l’aula i de l’entorn"
+      "text": "Descripció de la incidència dels components (situació, participants, propòsit comunicatiu, canal) en l’acte comunicatiu en diferents situacions comunicatives de l’aula i de l’entorn",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies lingüístiques elementals, amb acompanyament, en contextos d’aprenentatge per dotar textos senzills d’adequació, coherència, cohesió i correcció"
+      "text": "Aplicació d’estratègies lingüístiques elementals, amb acompanyament, en contextos d’aprenentatge per dotar textos senzills d’adequació, coherència, cohesió i correcció",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Descripció d’elements bàsics de contingut (tema, fórmules fixes, lèxic) i forma (estructura, format, títol, imatges) en les produccions orals"
+      "text": "Descripció d’elements bàsics de contingut (tema, fórmules fixes, lèxic) i forma (estructura, format, títol, imatges) en les produccions orals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d’aula"
+      "text": "Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d’aula",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals, de forma progressivament autònoma"
+      "text": "Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Interacció oral adequada en situacions d’aula i en contextos formals elementals, amb respecte a les normes bàsiques de cortesia lingüística"
+      "text": "Interacció oral adequada en situacions d’aula i en contextos formals elementals, amb respecte a les normes bàsiques de cortesia lingüística",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’escolta activa i assertivitat en la resolució dialogada dels conflictes, tenint en compte la perspectiva de gènere"
+      "text": "Aplicació d’estratègies d’escolta activa i assertivitat en la resolució dialogada dels conflictes, tenint en compte la perspectiva de gènere",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Detecció de possibles usos discriminatoris del llenguatge verbal i no verbal en diferents contextos comunicatius"
+      "text": "Detecció de possibles usos discriminatoris del llenguatge verbal i no verbal en diferents contextos comunicatius",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’identificació i interpretació del sentit global del text i d’integració de la informació explícita de textos socials orals i multimodals senzills"
+      "text": "Aplicació d’estratègies d’identificació i interpretació del sentit global del text i d’integració de la informació explícita de textos socials orals i multimodals senzills",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’interpretació d’elements bàsics de la comunicació no verbal en les situacions comunicatives"
+      "text": "Aplicació d’estratègies d’interpretació d’elements bàsics de la comunicació no verbal en les situacions comunicatives",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús d’eines analògiques i digitals bàsiques d’ús comú per a la producció i coproducció oral i multimodal i participació en intercanvis comunicatius planificats amb estudiants de la llengua estrangera; ús de plataformes virtuals d’interacció i col·laboració educativa"
+      "text": "Ús d’eines analògiques i digitals bàsiques d’ús comú per a la producció i coproducció oral i multimodal i participació en intercanvis comunicatius planificats amb estudiants de la llengua estrangera; ús de plataformes virtuals d’interacció i col·laboració educativa",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Lectura en veu alta, amb entonació i ritme adequats al nivell cognitiu, amb preparació prèvia"
+      "text": "Lectura en veu alta, amb entonació i ritme adequats al nivell cognitiu, amb preparació prèvia",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Ús d’elements gràfics, textuals i paratextuals progressivament complexos que afavoreixen la comprensió abans, durant i després de l’experiència lectora, en textos de la vida quotidiana, mitjans de comunicació, escolars, de fets i esdeveniments d’interès general"
+      "text": "Ús d’elements gràfics, textuals i paratextuals progressivament complexos que afavoreixen la comprensió abans, durant i després de l’experiència lectora, en textos de la vida quotidiana, mitjans de comunicació, escolars, de fets i esdeveniments d’interès general",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Aplicació d’estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en textos diversos i de forma progressivament autònoma"
+      "text": "Aplicació d’estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en textos diversos i de forma progressivament autònoma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Aplicació d’estratègies per detectar usos discriminatoris del llenguatge verbal i icònic, de forma progressivament autònoma, en tots els contextos"
+      "text": "Aplicació d’estratègies per detectar usos discriminatoris del llenguatge verbal i icònic, de forma progressivament autònoma, en tots els contextos",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Producció de textos escolars i socials, de tipologia diversa, dirigits a diferents destinataris, de forma progressivament autònoma i amb una intenció concreta"
+      "text": "Producció de textos escolars i socials, de tipologia diversa, dirigits a diferents destinataris, de forma progressivament autònoma i amb una intenció concreta",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Aplicació d’estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals d’ús escolar i social, en diferents suports, amb diferents propòsits comunicatius i de forma progressivament autònoma"
+      "text": "Aplicació d’estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals d’ús escolar i social, en diferents suports, amb diferents propòsits comunicatius i de forma progressivament autònoma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Utilització d’elements gràfics i paratextuals adequats al suport, de forma progressivament autònoma, que facilitin l’organització i la comprensió del text produït a l’aula"
+      "text": "Utilització d’elements gràfics i paratextuals adequats al suport, de forma progressivament autònoma, que facilitin l’organització i la comprensió del text produït a l’aula",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Ús de bastides i altres suports, amb acompanyament, tant en paper com digitals, per millorar la producció de textos propis"
+      "text": "Ús de bastides i altres suports, amb acompanyament, tant en paper com digitals, per millorar la producció de textos propis",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Presentació acurada i aplicació de les normes ortogràfiques bàsiques de les produccions escrites en qualsevol suport"
+      "text": "Presentació acurada i aplicació de les normes ortogràfiques bàsiques de les produccions escrites en qualsevol suport",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Aplicació d’estratègies bàsiques per a la recerca guiada d’informació en fonts documentals variades i amb diferents suports i formats, reconeixent l’autoria i aplicant criteris de fiabilitat"
+      "text": "Aplicació d’estratègies bàsiques per a la recerca guiada d’informació en fonts documentals variades i amb diferents suports i formats, reconeixent l’autoria i aplicant criteris de fiabilitat",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Distinció entre fets i opinions en informacions de l’entorn proper i dels mitjans de comunicació"
+      "text": "Distinció entre fets i opinions en informacions de l’entorn proper i dels mitjans de comunicació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Aplicació d’estratègies que permetin comparar i classificar la informació, reelaborar-la i comunicar-la en contextos escolars i amb progressiva autonomia"
+      "text": "Aplicació d’estratègies que permetin comparar i classificar la informació, reelaborar-la i comunicar-la en contextos escolars i amb progressiva autonomia",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Comunicació creativa del coneixement, amb respecte a la propietat intel·lectual, de forma progressivament autònoma"
+      "text": "Comunicació creativa del coneixement, amb respecte a la propietat intel·lectual, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Utilització de la biblioteca i els recursos digitals de l’aula i del centre, de forma progressivament autònoma, per dur a terme treballs d’investigació"
+      "text": "Utilització de la biblioteca i els recursos digitals de l’aula i del centre, de forma progressivament autònoma, per dur a terme treballs d’investigació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Lectura d’obres o fragments variats i diversos de la literatura infantil, adequats als seus interessos i organitzats en itineraris lectors"
+      "text": "Lectura d’obres o fragments variats i diversos de la literatura infantil, adequats als seus interessos i organitzats en itineraris lectors",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Anàlisi dels elements constitutius essencials de l’obra literària (tema, protagonista, personatges secundaris, trama, escenari, llenguatge) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d’obres de qualitat"
+      "text": "Anàlisi dels elements constitutius essencials de l’obra literària (tema, protagonista, personatges secundaris, trama, escenari, llenguatge) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d’obres de qualitat",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals, de forma guiada"
+      "text": "Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals, de forma guiada",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Construcció de la identitat lectora, afavorint l’expressió de gustos i interessos i la valoració argumentada de les obres, per mitjà de la lectura autònoma i la lectura compartida i guiada"
+      "text": "Construcció de la identitat lectora, afavorint l’expressió de gustos i interessos i la valoració argumentada de les obres, per mitjà de la lectura autònoma i la lectura compartida i guiada",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Ús de la biblioteca de l’aula, del centre i de l’entorn proper com a espai de trobada d’activitats literàries compartides i com a element impulsor de comunitats lectores"
+      "text": "Ús de la biblioteca de l’aula, del centre i de l’entorn proper com a espai de trobada d’activitats literàries compartides i com a element impulsor de comunitats lectores",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Reconeixement de les dades bàsiques d’un llibre (persones autores, traductores, adaptadores, il·lustradores, editorial, col·lecció) en el context de les lectures d’aula i de la biblioteca, de forma progressivament autònoma"
+      "text": "Reconeixement de les dades bàsiques d’un llibre (persones autores, traductores, adaptadores, il·lustradores, editorial, col·lecció) en el context de les lectures d’aula i de la biblioteca, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Escriptura de textos narratius i poètics a partir de models coneguts i analitzats, utilitzant recursos literaris, amb progressiva autonomia"
+      "text": "Escriptura de textos narratius i poètics a partir de models coneguts i analitzats, utilitzant recursos literaris, amb progressiva autonomia",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Exploració i interpretació de les il·lustracions i de la relació que s’estableix amb el text en els àlbums il·lustrats, amb acompanyament"
+      "text": "Exploració i interpretació de les il·lustracions i de la relació que s’estableix amb el text en els àlbums il·lustrats, amb acompanyament",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Utilització de metallenguatge específic bàsic en el marc de propostes de producció i comprensió de textos orals, escrits o multimodals"
+      "text": "Utilització de metallenguatge específic bàsic en el marc de propostes de producció i comprensió de textos orals, escrits o multimodals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Diferències elementals entre llengua oral i llengua escrita en l’ús quotidià"
+      "text": "Diferències elementals entre llengua oral i llengua escrita en l’ús quotidià",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Formulació i comprovació d’hipòtesis (substitució, canvi d’ordre, manipulació) i establiment de generalitzacions sobre aspectes ortogràfics i gramaticals bàsics, amb especial atenció a la concordança entre els elements de l’oració en les diferents produccions"
+      "text": "Formulació i comprovació d’hipòtesis (substitució, canvi d’ordre, manipulació) i establiment de generalitzacions sobre aspectes ortogràfics i gramaticals bàsics, amb especial atenció a la concordança entre els elements de l’oració en les diferents produccions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Ús dels signes de puntuació com a mecanisme organitzador del text escrit i en relació amb el significat en les diferents produccions"
+      "text": "Ús dels signes de puntuació com a mecanisme organitzador del text escrit i en relació amb el significat en les diferents produccions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Identificació de diferents relacions formals, semàntiques i sintàctiques entre les paraules en la lectura i en les diferents produccions escrites"
+      "text": "Identificació de diferents relacions formals, semàntiques i sintàctiques entre les paraules en la lectura i en les diferents produccions escrites",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Anàlisi i ús de les modalitats oracionals en relació amb la intenció comunicativa"
+      "text": "Anàlisi i ús de les modalitats oracionals en relació amb la intenció comunicativa",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Anàlisi i ús de mecanismes de cohesió, amb especial atenció a les formes verbals, als connectors textuals explicatius i a les substitucions pronominals com a mecanisme gramatical elemental de referència interna, a partir de la reflexió compartida sobre les produccions escrites"
+      "text": "Anàlisi i ús de mecanismes de cohesió, amb especial atenció a les formes verbals, als connectors textuals explicatius i a les substitucions pronominals com a mecanisme gramatical elemental de referència interna, a partir de la reflexió compartida sobre les produccions escrites",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Ús del lèxic elemental i d’interès per a l’alumnat relatiu a relacions interpersonals properes, habitatge, llocs i entorns propers"
+      "text": "Ús del lèxic elemental i d’interès per a l’alumnat relatiu a relacions interpersonals properes, habitatge, llocs i entorns propers",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Presa de consciència de la biografia lingüística personal i del mapa lingüístic de l’entorn geogràfic, de forma autònoma"
+      "text": "Presa de consciència de la biografia lingüística personal i del mapa lingüístic de l’entorn geogràfic, de forma autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Explicació de la diversitat lingüística i cultural del món com a valor i eina d’aprenentatge"
+      "text": "Explicació de la diversitat lingüística i cultural del món com a valor i eina d’aprenentatge",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Posada en pràctica d’estratègies d’identificació de prejudicis i estereotips lingüístics i cerca de solucions en comunicacions orals, escrites i multimodals"
+      "text": "Posada en pràctica d’estratègies d’identificació de prejudicis i estereotips lingüístics i cerca de solucions en comunicacions orals, escrites i multimodals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Ús d’un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana"
+      "text": "Ús d’un llenguatge no discriminatori i respectuós amb les diferències en la vida quotidiana",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic per superar mancances comunicatives amb acompanyament"
+      "text": "Identificació i ús estratègic dels coneixements que es tenen de les diverses llengües que conformen el repertori lingüístic per superar mancances comunicatives amb acompanyament",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Descripció d’aspectes socioculturals i sociolingüístics bàsics i habituals relatius als costums, la vida quotidiana i les relacions interpersonals, convencions socials bàsiques d’ús comú, llenguatge no verbal, cortesia lingüística i etiqueta digital pròpies de països on es parla la llengua estrangera"
+      "text": "Descripció d’aspectes socioculturals i sociolingüístics bàsics i habituals relatius als costums, la vida quotidiana i les relacions interpersonals, convencions socials bàsiques d’ús comú, llenguatge no verbal, cortesia lingüística i etiqueta digital pròpies de països on es parla la llengua estrangera",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Aplicació d’estratègies bàsiques d’ús comú per apreciar la diversitat lingüística, cultural i artística atenent a valors ecosocials i democràtics"
+      "text": "Aplicació d’estratègies bàsiques d’ús comú per apreciar la diversitat lingüística, cultural i artística atenent a valors ecosocials i democràtics",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Les llengües i els seus parlants",
       "subapartat": null,
-      "text": "Construcció i desenvolupament de coneixements, destreses i actituds que permeten iniciar-se en activitats de mediació en situacions quotidianes bàsiques"
+      "text": "Construcció i desenvolupament de coneixements, destreses i actituds que permeten iniciar-se en activitats de mediació en situacions quotidianes bàsiques",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de la llengua estrangera a l’aula amb autoconfiança progressiva"
+      "text": "Ús de la llengua estrangera a l’aula amb autoconfiança progressiva",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Acceptació de l’error com a part integrant del procés de millora"
+      "text": "Acceptació de l’error com a part integrant del procés de millora",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Comprensió de textos orals en diferents contextos: activitats d’aula, situacions d’aprenentatge en qualsevol àrea, en la vida quotidiana i en mitjans de comunicació"
+      "text": "Comprensió de textos orals en diferents contextos: activitats d’aula, situacions d’aprenentatge en qualsevol àrea, en la vida quotidiana i en mitjans de comunicació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Anàlisi dels components del fet comunicatiu (situació, participants, propòsit comunicatiu, canal, registre) en qualsevol situació comunicativa"
+      "text": "Anàlisi dels components del fet comunicatiu (situació, participants, propòsit comunicatiu, canal, registre) en qualsevol situació comunicativa",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies lingüístiques elementals de forma autònoma, en contextos formals, per dotar textos progressivament complexos d’adequació, coherència, cohesió i correcció"
+      "text": "Aplicació d’estratègies lingüístiques elementals de forma autònoma, en contextos formals, per dotar textos progressivament complexos d’adequació, coherència, cohesió i correcció",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Anàlisi d’elements bàsics de contingut (tema, fórmules fixes, lèxic, inferències d’informació) i forma (estructura, format, títol, imatges, tipografia) en les produccions orals"
+      "text": "Anàlisi d’elements bàsics de contingut (tema, fórmules fixes, lèxic, inferències d’informació) i forma (estructura, format, títol, imatges, tipografia) en les produccions orals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d’aula"
+      "text": "Reproducció de textos orals memoritzats (cançons, poemes, dramatitzacions) en el marc de les propostes didàctiques d’aula",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals i de forma autònoma"
+      "text": "Ús de models textuals elementals (narració, descripció, diàleg i exposició) en les produccions orals i de forma autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Interacció oral adequada en situacions d’aula i en contextos formals pautats, amb respecte a les normes de cortesia lingüística"
+      "text": "Interacció oral adequada en situacions d’aula i en contextos formals pautats, amb respecte a les normes de cortesia lingüística",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’escolta activa, assertivitat i proposta de solució creativa en la resolució dialogada de conflictes, tenint en compte la perspectiva de gènere"
+      "text": "Aplicació d’estratègies d’escolta activa, assertivitat i proposta de solució creativa en la resolució dialogada de conflictes, tenint en compte la perspectiva de gènere",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies per a l’ús d’un llenguatge no discriminatori en diferents contextos comunicatius"
+      "text": "Aplicació d’estratègies per a l’ús d’un llenguatge no discriminatori en diferents contextos comunicatius",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’identificació i interpretació del sentit global, la informació rellevant, la integració de la informació explícita i la realització d’inferències per superar el sentit literal de textos socials orals i multimodals"
+      "text": "Aplicació d’estratègies d’identificació i interpretació del sentit global, la informació rellevant, la integració de la informació explícita i la realització d’inferències per superar el sentit literal de textos socials orals i multimodals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’interpretació i ús d’elements bàsics de la comunicació no verbal en les situacions comunicatives"
+      "text": "Aplicació d’estratègies d’interpretació i ús d’elements bàsics de la comunicació no verbal en les situacions comunicatives",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús d’eines analògiques i digitals bàsiques d’ús comú per a la producció i coproducció oral i multimodal, ús de plataformes virtuals d’interacció i col·laboració educativa (aules virtuals, videoconferències, eines digitals col·laboratives...) per a l’aprenentatge, la comunicació i el desenvolupament de projectes amb parlants o estudiants de la llengua estrangera"
+      "text": "Ús d’eines analògiques i digitals bàsiques d’ús comú per a la producció i coproducció oral i multimodal, ús de plataformes virtuals d’interacció i col·laboració educativa (aules virtuals, videoconferències, eines digitals col·laboratives...) per a l’aprenentatge, la comunicació i el desenvolupament de projectes amb parlants o estudiants de la llengua estrangera",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comunicació oral",
       "subapartat": null,
-      "text": "Ús de la llengua estrangera com a mitjà de comunicació i relació amb persones d’altres països, com a forma d’accedir a nova informació i com a mitjà per conèixer cultures i formes de vida diferents"
+      "text": "Ús de la llengua estrangera com a mitjà de comunicació i relació amb persones d’altres països, com a forma d’accedir a nova informació i com a mitjà per conèixer cultures i formes de vida diferents",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Lectura en veu alta amb entonació i ritme fluid, amb preparació prèvia"
+      "text": "Lectura en veu alta amb entonació i ritme fluid, amb preparació prèvia",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Ús d’elements gràfics, textuals i paratextuals progressivament complexos que afavoreixen la comprensió abans, durant i després de l’experiència lectora en tot tipus de textos"
+      "text": "Ús d’elements gràfics, textuals i paratextuals progressivament complexos que afavoreixen la comprensió abans, durant i després de l’experiència lectora en tot tipus de textos",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Aplicació d’estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en fonts documentals diverses de forma progressivament autònoma"
+      "text": "Aplicació d’estratègies de comprensió lectora abans, durant i després de la lectura (planificació, anticipació, inferències…), en fonts documentals diverses de forma progressivament autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Comprensió lectora",
       "subapartat": null,
-      "text": "Aplicació d’estratègies per detectar usos discriminatoris del llenguatge verbal i icònic en tots els contextos"
+      "text": "Aplicació d’estratègies per detectar usos discriminatoris del llenguatge verbal i icònic en tots els contextos",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Producció de textos de tipologia diversa, dirigits a diferents destinataris, de forma autònoma i amb una intenció concreta"
+      "text": "Producció de textos de tipologia diversa, dirigits a diferents destinataris, de forma autònoma i amb una intenció concreta",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Aplicació d’estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals de tipus divers, amb diferents propòsits comunicatius de forma autònoma"
+      "text": "Aplicació d’estratègies elementals, individuals o grupals, de planificació, redacció, revisió i edició de textos escrits i multimodals de tipus divers, amb diferents propòsits comunicatius de forma autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Utilització d’elements gràfics i paratextuals adequats al suport, de forma autònoma, que facilitin l’organització i la comprensió del text produït a l’aula"
+      "text": "Utilització d’elements gràfics i paratextuals adequats al suport, de forma autònoma, que facilitin l’organització i la comprensió del text produït a l’aula",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Ús de bastides i altres suports, de forma progressivament autònoma, tant en paper com digitals, per millorar la producció dels seus textos"
+      "text": "Ús de bastides i altres suports, de forma progressivament autònoma, tant en paper com digitals, per millorar la producció dels seus textos",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Expressió escrita",
       "subapartat": null,
-      "text": "Presentació acurada i aplicació de les normes ortogràfiques bàsiques de les produccions escrites en qualsevol suport"
+      "text": "Presentació acurada i aplicació de les normes ortogràfiques bàsiques de les produccions escrites en qualsevol suport",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Aplicació d’estratègies de recerca d’informació en fonts documentals variades i amb diferents suports i formats, reconeixent l’autoria i aplicant criteris de fiabilitat, de forma progressivament autònoma"
+      "text": "Aplicació d’estratègies de recerca d’informació en fonts documentals variades i amb diferents suports i formats, reconeixent l’autoria i aplicant criteris de fiabilitat, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Distinció entre fets i opinions i detecció de la manipulació informativa en informacions de l’entorn social i dels mitjans de comunicació"
+      "text": "Distinció entre fets i opinions i detecció de la manipulació informativa en informacions de l’entorn social i dels mitjans de comunicació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Aplicació d’estratègies de comparació, classificació, valoració de la informació, reelaboració i comunicació en tots els contextos i amb progressiva autonomia"
+      "text": "Aplicació d’estratègies de comparació, classificació, valoració de la informació, reelaboració i comunicació en tots els contextos i amb progressiva autonomia",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Comunicació creativa del coneixement, amb respecte per la propietat intel·lectual, de forma progressivament autònoma"
+      "text": "Comunicació creativa del coneixement, amb respecte per la propietat intel·lectual, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Alfabetització informacional",
       "subapartat": null,
-      "text": "Utilització de la biblioteca i els recursos digitals de l’aula o del centre, de forma autònoma, per dur a terme treballs d’investigació"
+      "text": "Utilització de la biblioteca i els recursos digitals de l’aula o del centre, de forma autònoma, per dur a terme treballs d’investigació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Lectura d’obres o fragments variats i diversos de la literatura adequats a l’edat i organitzats en itineraris lectors"
+      "text": "Lectura d’obres o fragments variats i diversos de la literatura adequats a l’edat i organitzats en itineraris lectors",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Valoració dels elements constitutius de l’obra literària (tema, protagonista, personatges secundaris, trama, escenari) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d’obres de qualitat i de forma progressivament autònoma"
+      "text": "Valoració dels elements constitutius de l’obra literària (tema, protagonista, personatges secundaris, trama, escenari) i dels diferents gèneres literaris, a partir de la lectura compartida i guiada d’obres de qualitat i de forma progressivament autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals, de forma guiada, si cal"
+      "text": "Establiment de vincles de la literatura amb altres manifestacions artístiques i culturals, de forma guiada, si cal",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Progrés en la construcció de la identitat lectora, afavorint l’expressió de gustos i interessos i la valoració crítica elemental de les obres, per mitjà de la lectura autònoma i la lectura compartida i guiada"
+      "text": "Progrés en la construcció de la identitat lectora, afavorint l’expressió de gustos i interessos i la valoració crítica elemental de les obres, per mitjà de la lectura autònoma i la lectura compartida i guiada",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Ús de la biblioteca de l’aula, del centre i de l’entorn proper com a espai de trobada d’activitats literàries compartides i com a element impulsor de comunitats lectores"
+      "text": "Ús de la biblioteca de l’aula, del centre i de l’entorn proper com a espai de trobada d’activitats literàries compartides i com a element impulsor de comunitats lectores",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Reconeixement de les dades bàsiques d’un llibre (persones autores, traductores, adaptadores, il·lustradores, editorial, col·lecció, localitat i any d’edició), en contextos variats i de forma autònoma"
+      "text": "Reconeixement de les dades bàsiques d’un llibre (persones autores, traductores, adaptadores, il·lustradores, editorial, col·lecció, localitat i any d’edició), en contextos variats i de forma autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Escriptura de textos narratius i poètics a partir de models coneguts i analitzats, utilitzant recursos literaris de manera original i amb riquesa lèxica, de forma autònoma"
+      "text": "Escriptura de textos narratius i poètics a partir de models coneguts i analitzats, utilitzant recursos literaris de manera original i amb riquesa lèxica, de forma autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Educació literària",
       "subapartat": null,
-      "text": "Exploració interpretació de les il·lustracions i de la relació que s’estableix amb el text en els àlbums il·lustrats, de forma progressivament autònoma"
+      "text": "Exploració interpretació de les il·lustracions i de la relació que s’estableix amb el text en els àlbums il·lustrats, de forma progressivament autònoma",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Utilització de metallenguatge específic bàsic en el marc de propostes de producció i la comprensió de textos orals, escrits o multimodals"
+      "text": "Utilització de metallenguatge específic bàsic en el marc de propostes de producció i la comprensió de textos orals, escrits o multimodals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Diferències elementals entre llengua oral i llengua escrita en l’ús quotidià"
+      "text": "Diferències elementals entre llengua oral i llengua escrita en l’ús quotidià",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Formulació i comprovació d’hipòtesis (substitució, inserció, supressió, canvi d’ordre, manipulació) i establiment de generalitzacions sobre normes ortogràfiques i gramaticals bàsiques, amb especial atenció a les diverses unitats comunicatives en les diferents produccions"
+      "text": "Formulació i comprovació d’hipòtesis (substitució, inserció, supressió, canvi d’ordre, manipulació) i establiment de generalitzacions sobre normes ortogràfiques i gramaticals bàsiques, amb especial atenció a les diverses unitats comunicatives en les diferents produccions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Ús dels signes de puntuació com a mecanisme organitzador del text escrit i en relació amb el significat en les diferents produccions"
+      "text": "Ús dels signes de puntuació com a mecanisme organitzador del text escrit i en relació amb el significat en les diferents produccions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Identificació de diferents relacions formals, semàntiques i sintàctiques de les paraules en la lectura i en les diferents produccions escrites"
+      "text": "Identificació de diferents relacions formals, semàntiques i sintàctiques de les paraules en la lectura i en les diferents produccions escrites",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Anàlisi i ús de les modalitats oracionals en relació amb la intenció comunicativa"
+      "text": "Anàlisi i ús de les modalitats oracionals en relació amb la intenció comunicativa",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Anàlisi i ús de mecanismes de cohesió, amb especial atenció a les formes verbals, als connectors textuals explicatius i a les substitucions pronominals com a mecanisme gramatical elemental de referència interna (repeticions, sinònims), a partir de la reflexió compartida sobre les produccions escrites"
+      "text": "Anàlisi i ús de mecanismes de cohesió, amb especial atenció a les formes verbals, als connectors textuals explicatius i a les substitucions pronominals com a mecanisme gramatical elemental de referència interna (repeticions, sinònims), a partir de la reflexió compartida sobre les produccions escrites",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "Reflexió sobre la llengua",
       "subapartat": null,
-      "text": "Ús del lèxic bàsic i d’interès per a l’alumnat, relatiu a identificació personal, relacions interpersonals properes, llocs i entorns propers, oci i temps lliure, vida quotidiana"
+      "text": "Ús del lèxic bàsic i d’interès per a l’alumnat, relatiu a identificació personal, relacions interpersonals properes, llocs i entorns propers, oci i temps lliure, vida quotidiana",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

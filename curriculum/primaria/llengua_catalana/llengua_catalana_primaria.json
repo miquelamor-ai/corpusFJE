@@ -8,7 +8,7 @@
     "data_decret": "2022-08-22",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Llengua-Catalana-i-Literatura.pdf",
     "descripcio": "La Llengua Catalana i Literatura és la matèria vertebradora de la Primària a Catalunya per al conjunt de l'alumnat de 6 a 12 anys. Exerceix un paper fonamental en la formació de la competència comunicativa, la construcció de la identitat cultural i l'accés al coneixement en tots els àmbits escolars, socials i personals.\n\nEl currículum organitza els sabers lingüístics al voltant de cinc dimensions comunicatives: comprensió oral, expressió oral, comprensió lectora, expressió escrita i educació literària. Els constructes disciplinaris inclouen els gèneres textuals i les seves característiques (narració, descripció, argumentació, exposició, instrucció), el sistema ortogràfic i gramatical del català (fonètica, morfologia, sintaxi, lèxic), les estratègies de comprensió lectora (predicció, inferència, síntesi), la producció de textos coherents i cohesionats, i la reflexió metalingüística sobre el propi ús de la llengua. L'educació literària articula l'acostament al patrimoni de la literatura catalana i universal mitjançant la lectura, la recitació, el comentari i la creació literària.\n\nLa metodologia és comunicativa i funcional: s'aprèn llengua usant-la en situacions reals i significatives. Els enfocaments per tasques i projectes lingüístics, la conversa dialògica, els tallers d'escriptura i els clubs de lectura afavoreixen un aprenentatge autònom i reflexiu. La diversitat lingüística de l'alumnat és entesa com un recurs, i el treball interlingüístic enriqueix la consciència sobre totes les llengües de l'escola.",
-    "versio_schema": "1.0"
+    "versio_schema": "1.2"
   },
   "competencies_clau": [
     "CCL",
@@ -25,46 +25,55 @@
       "codi": "CE1",
       "text": "Comprendre i interpretar textos orals de tipologia diversa, identificant el tema principal, les idees rellevants i la intenció comunicativa, per construir coneixement i participar en situacions de comunicació oral de forma activa i reflexiva.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global de textos orals breus i senzills de l'entorn quotidià, identificant el tema i la intenció comunicativa."
+            "text": "Comprendre el sentit global de textos orals breus i senzills de l'entorn quotidià, identificant el tema i la intenció comunicativa.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Participar en converses i diàlegs de l'aula respectant el torn de paraula i les convencions de la comunicació oral."
+            "text": "Participar en converses i diàlegs de l'aula respectant el torn de paraula i les convencions de la comunicació oral.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.3",
-            "text": "Escoltar atentament textos orals breus (contes, explicacions, instruccions) i respondre preguntes literals sobre el contingut."
+            "text": "Escoltar atentament textos orals breus (contes, explicacions, instruccions) i respondre preguntes literals sobre el contingut.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre textos orals de tipologia diversa (explicatius, narratius, argumentatius senzills), identificant el tema, les idees principals i la intenció comunicativa."
+            "text": "Comprendre textos orals de tipologia diversa (explicatius, narratius, argumentatius senzills), identificant el tema, les idees principals i la intenció comunicativa.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.2",
-            "text": "Participar activament en interaccions orals (debats, presentacions, discussions), aportant idees de forma ordenada i respectuosa."
+            "text": "Participar activament en interaccions orals (debats, presentacions, discussions), aportant idees de forma ordenada i respectuosa.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.3",
-            "text": "Utilitzar estratègies de comprensió oral (anticipació, inferència, verificació) per interpretar missatges en contextos formals i informals."
+            "text": "Utilitzar estratègies de comprensió oral (anticipació, inferència, verificació) per interpretar missatges en contextos formals i informals.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre i interpretar textos orals de tipologia complexa, identificant el punt de vista de l'emissor, les estratègies argumentatives i els elements paralingüístics."
+            "text": "Comprendre i interpretar textos orals de tipologia complexa, identificant el punt de vista de l'emissor, les estratègies argumentatives i els elements paralingüístics.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.2",
-            "text": "Produir discursos orals planificats (exposicions, debats, entrevistes) amb adequació, coherència, cohesió i correcció lingüística."
+            "text": "Produir discursos orals planificats (exposicions, debats, entrevistes) amb adequació, coherència, cohesió i correcció lingüística.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.3",
-            "text": "Avaluar de forma crítica els missatges orals de l'entorn (publicitat, notícies, discursos) identificant-ne la intenció i els mecanismes de manipulació."
+            "text": "Avaluar de forma crítica els missatges orals de l'entorn (publicitat, notícies, discursos) identificant-ne la intenció i els mecanismes de manipulació.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -73,46 +82,55 @@
       "codi": "CE2",
       "text": "Llegir textos de gèneres i suports diversos amb fluïdesa, comprensió i esperit crític, identificant el tema, les idees principals i secundàries, la intenció de l'autor i els recursos expressius, per aprendre, gaudir i participar en la societat.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Llegir en veu alta textos breus i adequats al nivell amb entonació i ritme apropiats, descodificant correctament les grafies."
+            "text": "Llegir en veu alta textos breus i adequats al nivell amb entonació i ritme apropiats, descodificant correctament les grafies.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Comprendre textos escrits senzills, identificant el tema principal i les idees més importants amb ajuda visual o contextual."
+            "text": "Comprendre textos escrits senzills, identificant el tema principal i les idees més importants amb ajuda visual o contextual.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.3",
-            "text": "Identificar la intenció comunicativa de textos senzills (informar, entretenir, persuadir) amb suport de l'educador."
+            "text": "Identificar la intenció comunicativa de textos senzills (informar, entretenir, persuadir) amb suport de l'educador.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Llegir textos de gèneres diversos amb fluïdesa, comprensió i velocitat lectora adequada al nivell."
+            "text": "Llegir textos de gèneres diversos amb fluïdesa, comprensió i velocitat lectora adequada al nivell.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.2",
-            "text": "Identificar les idees principals i secundàries d'un text, distingir el fet de l'opinió i inferir informació implícita."
+            "text": "Identificar les idees principals i secundàries d'un text, distingir el fet de l'opinió i inferir informació implícita.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.3",
-            "text": "Aplicar estratègies de comprensió lectora (predicció, inferència, resum) de forma autònoma."
+            "text": "Aplicar estratègies de comprensió lectora (predicció, inferència, resum) de forma autònoma.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Llegir textos de gèneres i suports variats (digitals i analògics) amb estratègies d'interpretació crítica, identificant la ideologia i el punt de vista de l'autor."
+            "text": "Llegir textos de gèneres i suports variats (digitals i analògics) amb estratègies d'interpretació crítica, identificant la ideologia i el punt de vista de l'autor.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.2",
-            "text": "Sintetitzar i relacionar informació de fonts diverses per construir coneixement propi i elaborar produccions personals documentades."
+            "text": "Sintetitzar i relacionar informació de fonts diverses per construir coneixement propi i elaborar produccions personals documentades.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.3",
-            "text": "Valorar el poder de la lectura com a eina d'aprenentatge, plaer i transformació personal i social."
+            "text": "Valorar el poder de la lectura com a eina d'aprenentatge, plaer i transformació personal i social.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -121,46 +139,55 @@
       "codi": "CE3",
       "text": "Produir textos escrits de tipologia diversa, adequats a la situació comunicativa, amb correcció gramatical i ortogràfica i coherència, planificant, redactant, revisant i millorant el text per comunicar idees, sentiments i coneixements de forma efectiva.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Escriure textos breus i senzills (frases, descripcions, petites narracions) seguint un model i amb ajuda de la planificació."
+            "text": "Escriure textos breus i senzills (frases, descripcions, petites narracions) seguint un model i amb ajuda de la planificació.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar les normes ortogràfiques bàsiques treballades (majúscules, puntuació bàsica, separació de paraules) en les produccions pròpies."
+            "text": "Aplicar les normes ortogràfiques bàsiques treballades (majúscules, puntuació bàsica, separació de paraules) en les produccions pròpies.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Revisar els textos escrits amb l'ajuda del docent per millorar l'adequació i la correcció bàsica."
+            "text": "Revisar els textos escrits amb l'ajuda del docent per millorar l'adequació i la correcció bàsica.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Planificar i redactar textos de tipologia diversa (narratius, descriptius, instructius) adequats a la situació i al destinatari."
+            "text": "Planificar i redactar textos de tipologia diversa (narratius, descriptius, instructius) adequats a la situació i al destinatari.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar les normes ortogràfiques i gramaticals pròpies del nivell en les produccions escrites amb creixent autonomia."
+            "text": "Aplicar les normes ortogràfiques i gramaticals pròpies del nivell en les produccions escrites amb creixent autonomia.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.3",
-            "text": "Revisar i millorar les produccions pròpies atenent aspectes de coherència, cohesió i adequació, sol i amb els iguals."
+            "text": "Revisar i millorar les produccions pròpies atenent aspectes de coherència, cohesió i adequació, sol i amb els iguals.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Planificar, redactar, revisar i editar textos complexos de tipologia diversa (argumentatius, expositius, creatius) amb adequació, coherència, cohesió i correcció."
+            "text": "Planificar, redactar, revisar i editar textos complexos de tipologia diversa (argumentatius, expositius, creatius) amb adequació, coherència, cohesió i correcció.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar estratègies de millora de la producció escrita (revisió entre iguals, ús de diccionaris i recursos digitals) de forma autònoma."
+            "text": "Aplicar estratègies de millora de la producció escrita (revisió entre iguals, ús de diccionaris i recursos digitals) de forma autònoma.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.3",
-            "text": "Produir textos en entorns digitals, adaptant el format, el registre i el canal a la situació comunicativa."
+            "text": "Produir textos en entorns digitals, adaptant el format, el registre i el canal a la situació comunicativa.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -169,22 +196,25 @@
       "codi": "CE4",
       "text": "Reconèixer i valorar la diversitat lingüística de l'entorn i del món, reflexionant sobre el funcionament de les llengües i les relacions entre elles, per desenvolupar la consciència plurilingüe i la competència interlingüística.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Identificar les llengües presents a l'entorn proper i mostrar actituds de respecte i curiositat envers la diversitat lingüística."
+            "text": "Identificar les llengües presents a l'entorn proper i mostrar actituds de respecte i curiositat envers la diversitat lingüística.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Reflexionar sobre les similituds i diferències entre les llengües del repertori propi i valorar el plurilingüisme com a riquesa."
+            "text": "Reflexionar sobre les similituds i diferències entre les llengües del repertori propi i valorar el plurilingüisme com a riquesa.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar la situació sociolingüística de Catalunya i del món, valorant el multilingüisme com a oportunitat i reflexionant sobre les dinàmiques de poder entre llengües."
+            "text": "Analitzar la situació sociolingüística de Catalunya i del món, valorant el multilingüisme com a oportunitat i reflexionant sobre les dinàmiques de poder entre llengües.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -193,34 +223,40 @@
       "codi": "CE5",
       "text": "Llegir, escoltar i interpretar textos literaris de la tradició catalana i universal, identificant els elements formals i temàtics i la intenció estètica de l'autor, per gaudir de la literatura com a font de plaer, coneixement i identitat cultural.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA5.1",
-            "text": "Escoltar i llegir textos literaris breus (contes, poemes, endevinalles, cançons) de la tradició oral catalana i gaudir-ne."
+            "text": "Escoltar i llegir textos literaris breus (contes, poemes, endevinalles, cançons) de la tradició oral catalana i gaudir-ne.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer elements bàsics dels textos literaris (personatges, espai, temps) en narracions senzilles."
+            "text": "Reconèixer elements bàsics dels textos literaris (personatges, espai, temps) en narracions senzilles.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA5.1",
-            "text": "Llegir i comentar textos literaris de gèneres diversos (narrativa, poesia, teatre) identificant elements formals i temàtics."
+            "text": "Llegir i comentar textos literaris de gèneres diversos (narrativa, poesia, teatre) identificant elements formals i temàtics.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer les característiques dels gèneres literaris treballats i relacionar els textos amb el context cultural català."
+            "text": "Reconèixer les característiques dels gèneres literaris treballats i relacionar els textos amb el context cultural català.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA5.1",
-            "text": "Llegir i interpretar textos literaris de la tradició catalana i universal, analitzant els recursos expressius, la intenció estètica i el context de producció."
+            "text": "Llegir i interpretar textos literaris de la tradició catalana i universal, analitzant els recursos expressius, la intenció estètica i el context de producció.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.2",
-            "text": "Crear textos literaris propis (narracions, poemes, textos dramàtics) utilitzant recursos expressius treballats i mostrant creativitat."
+            "text": "Crear textos literaris propis (narracions, poemes, textos dramàtics) utilitzant recursos expressius treballats i mostrant creativitat.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -229,34 +265,40 @@
       "codi": "CE6",
       "text": "Reflexionar sobre el funcionament de la llengua catalana en els seus aspectes gramaticals, ortogràfics i lèxics, identificant regularitats i normatives per millorar la pròpia producció lingüística i l'autonomia com a aprenents de la llengua.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA6.1",
-            "text": "Identificar les categories gramaticals bàsiques (nom, verb, adjectiu) en contextos significatius."
+            "text": "Identificar les categories gramaticals bàsiques (nom, verb, adjectiu) en contextos significatius.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.2",
-            "text": "Aplicar les normes d'ús de majúscules i la separació sil·làbica bàsica en la producció escrita."
+            "text": "Aplicar les normes d'ús de majúscules i la separació sil·làbica bàsica en la producció escrita.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA6.1",
-            "text": "Identificar i usar correctament les categories gramaticals (nom, verb, adjectiu, determinant, preposició) en contextos comunicatius."
+            "text": "Identificar i usar correctament les categories gramaticals (nom, verb, adjectiu, determinant, preposició) en contextos comunicatius.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA6.2",
-            "text": "Aplicar les normes ortogràfiques i d'accentuació pròpies del nivell en les produccions escrites."
+            "text": "Aplicar les normes ortogràfiques i d'accentuació pròpies del nivell en les produccions escrites.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar les estructures morfosintàctiques de la llengua catalana per millorar la producció i comprensió de textos complexos."
+            "text": "Analitzar les estructures morfosintàctiques de la llengua catalana per millorar la producció i comprensió de textos complexos.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.2",
-            "text": "Aplicar autònomament les normes ortogràfiques i gramaticals de la llengua catalana en produccions de diferent tipus i suport."
+            "text": "Aplicar autònomament les normes ortogràfiques i gramaticals de la llengua catalana en produccions de diferent tipus i suport.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -265,22 +307,25 @@
       "codi": "CE7",
       "text": "Participar de manera activa i responsable en situacions comunicatives de l'entorn, reconeixent la dimensió social de la llengua catalana com a vehicle d'inclusió, cohesió social i expressió de la identitat cultural col·lectiva.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA7.1",
-            "text": "Valorar la llengua catalana com a vehicle de comunicació i expressió cultural en el context escolar."
+            "text": "Valorar la llengua catalana com a vehicle de comunicació i expressió cultural en el context escolar.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA7.1",
-            "text": "Identificar situacions de desigualtat lingüística i argumentar el paper de la llengua catalana com a eina de cohesió social."
+            "text": "Identificar situacions de desigualtat lingüística i argumentar el paper de la llengua catalana com a eina de cohesió social.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA7.1",
-            "text": "Argumentar sobre la importància de la llengua catalana per a la cohesió social i la identitat col·lectiva, i adoptar compromisos de responsabilitat lingüística."
+            "text": "Argumentar sobre la importància de la llengua catalana per a la cohesió social i la identitat col·lectiva, i adoptar compromisos de responsabilitat lingüística.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -467,787 +512,1050 @@
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Escolta activa: atenció, postura i mirada en situacions de comunicació oral"
+      "text": "Escolta activa: atenció, postura i mirada en situacions de comunicació oral",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Torn de paraula i normes bàsiques de la conversa"
+      "text": "Torn de paraula i normes bàsiques de la conversa",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Comprensió de missatges orals senzills de l'entorn: instruccions, explicacions, contes"
+      "text": "Comprensió de missatges orals senzills de l'entorn: instruccions, explicacions, contes",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Vocabulari bàsic per a la comunicació oral quotidiana"
+      "text": "Vocabulari bàsic per a la comunicació oral quotidiana",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Expressió oral: narració de fets viscuts o imaginats de forma ordenada"
+      "text": "Expressió oral: narració de fets viscuts o imaginats de forma ordenada",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Entonació i to de veu adequats a la situació comunicativa"
+      "text": "Entonació i to de veu adequats a la situació comunicativa",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Fórmules de cortesia i salutació en la comunicació oral"
+      "text": "Fórmules de cortesia i salutació en la comunicació oral",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Jocs orals: endevinalles, rodolins, trabalengues, cançons"
+      "text": "Jocs orals: endevinalles, rodolins, trabalengues, cançons",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Descodificació: correspondència grafema-fonema i combinacions consonàntiques bàsiques"
+      "text": "Descodificació: correspondència grafema-fonema i combinacions consonàntiques bàsiques",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura en veu alta: fluïdesa i entonació bàsica"
+      "text": "Lectura en veu alta: fluïdesa i entonació bàsica",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Comprensió literal de textos breus: identificació del tema i les idees principals"
+      "text": "Comprensió literal de textos breus: identificació del tema i les idees principals",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Inferències senzilles a partir de la il·lustració i el context"
+      "text": "Inferències senzilles a partir de la il·lustració i el context",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Tipologia textual bàsica: contes, instruccions, poemes"
+      "text": "Tipologia textual bàsica: contes, instruccions, poemes",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Identificació de la intenció comunicativa bàsica (entretenir, informar)"
+      "text": "Identificació de la intenció comunicativa bàsica (entretenir, informar)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Estratègies bàsiques de comprensió: rellegir, preguntar-se, visualitzar"
+      "text": "Estratègies bàsiques de comprensió: rellegir, preguntar-se, visualitzar",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Ús de la biblioteca d'aula i de centre"
+      "text": "Ús de la biblioteca d'aula i de centre",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Traç i presentació de la lletra: lletra de pal i cursiva"
+      "text": "Traç i presentació de la lletra: lletra de pal i cursiva",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia natural: majúscules al principi de frase i en noms propis"
+      "text": "Ortografia natural: majúscules al principi de frase i en noms propis",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ús del punt i la coma en contextos bàsics"
+      "text": "Ús del punt i la coma en contextos bàsics",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Escriptura de frases simples i compostes coordinades"
+      "text": "Escriptura de frases simples i compostes coordinades",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Planificació bàsica: sobre què escriuré, per a qui"
+      "text": "Planificació bàsica: sobre què escriuré, per a qui",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Producció de textos breus: descripció, narració senzilla, felicitació"
+      "text": "Producció de textos breus: descripció, narració senzilla, felicitació",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Revisió amb el docent: llegir el que s'ha escrit per veure si s'entén"
+      "text": "Revisió amb el docent: llegir el que s'ha escrit per veure si s'entén",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Recursos per escriure: diccionari d'imatges, mur de paraules"
+      "text": "Recursos per escriure: diccionari d'imatges, mur de paraules",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Escolta i lectura de contes tradicionals catalans (rondalles, llegends)"
+      "text": "Escolta i lectura de contes tradicionals catalans (rondalles, llegends)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Poesia: rodolins, cançons, jocs de ritme i rima"
+      "text": "Poesia: rodolins, cançons, jocs de ritme i rima",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Personatges, espai i temps en les narracions senzilles"
+      "text": "Personatges, espai i temps en les narracions senzilles",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Il·lustracions i relació imatge-text en àlbums il·lustrats"
+      "text": "Il·lustracions i relació imatge-text en àlbums il·lustrats",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Biblioteca de l'aula: hàbit lector i selecció de lectures per plaer"
+      "text": "Biblioteca de l'aula: hàbit lector i selecció de lectures per plaer",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Recitació i dramatització de poemes i textos breus"
+      "text": "Recitació i dramatització de poemes i textos breus",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Nom comú i propi: distinció bàsica i ús de majúscula"
+      "text": "Nom comú i propi: distinció bàsica i ús de majúscula",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Masculí i femení dels noms i adjectius"
+      "text": "Masculí i femení dels noms i adjectius",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Singular i plural: formació regular"
+      "text": "Singular i plural: formació regular",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El verb: accions i estat; present d'indicatiu dels verbs més freqüents"
+      "text": "El verb: accions i estat; present d'indicatiu dels verbs més freqüents",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'adjectiu: concordança bàsica amb el nom"
+      "text": "L'adjectiu: concordança bàsica amb el nom",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Síl·labes: separació sil·làbica bàsica"
+      "text": "Síl·labes: separació sil·làbica bàsica",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'alfabet català: ordre i reconeixement de totes les lletres"
+      "text": "L'alfabet català: ordre i reconeixement de totes les lletres",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Dièresi en els grups -güi, -güe i -qüi, -qüe (reconeixement)"
+      "text": "Dièresi en els grups -güi, -güe i -qüi, -qüe (reconeixement)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Estratègies de comprensió oral: anticipació, inferència i verificació"
+      "text": "Estratègies de comprensió oral: anticipació, inferència i verificació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Tipologia de textos orals: exposicions, diàlegs, notícies, entrevistes"
+      "text": "Tipologia de textos orals: exposicions, diàlegs, notícies, entrevistes",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Debat i discussió: argumentació senzilla i respecte per les opinions divergents"
+      "text": "Debat i discussió: argumentació senzilla i respecte per les opinions divergents",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Presentació oral: estructura (introducció, desenvolupament, conclusió) i suports visuals"
+      "text": "Presentació oral: estructura (introducció, desenvolupament, conclusió) i suports visuals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Registres formals i informals: adequació a la situació"
+      "text": "Registres formals i informals: adequació a la situació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Recursos no verbals: gest, mirada, postura"
+      "text": "Recursos no verbals: gest, mirada, postura",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Vocabulari per a la comunicació acadèmica: connectors, marcadors del discurs"
+      "text": "Vocabulari per a la comunicació acadèmica: connectors, marcadors del discurs",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Valoració crítica de missatges orals de l'entorn (publicitat, notícies)"
+      "text": "Valoració crítica de missatges orals de l'entorn (publicitat, notícies)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Narració d'experiències i esdeveniments amb detall i ordre cronològic"
+      "text": "Narració d'experiències i esdeveniments amb detall i ordre cronològic",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Lectura en veu alta expressiva de textos literaris i no literaris"
+      "text": "Lectura en veu alta expressiva de textos literaris i no literaris",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Fluïdesa lectora: velocitat i entonació adequades al tipus de text"
+      "text": "Fluïdesa lectora: velocitat i entonació adequades al tipus de text",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Estratègies de comprensió: predicció, inferència, connexió i visualització"
+      "text": "Estratègies de comprensió: predicció, inferència, connexió i visualització",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Identificació d'idees principals i secundàries en textos expositius i narratius"
+      "text": "Identificació d'idees principals i secundàries en textos expositius i narratius",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Distinció entre fet i opinió en textos periodístics i informatius"
+      "text": "Distinció entre fet i opinió en textos periodístics i informatius",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Inferències sobre la intenció de l'autor i el punt de vista"
+      "text": "Inferències sobre la intenció de l'autor i el punt de vista",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos multimodals: relació entre text, imatge i gràfic"
+      "text": "Textos multimodals: relació entre text, imatge i gràfic",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Tipologia textual: notícia, ressenya, text instructiu, text expositiu"
+      "text": "Tipologia textual: notícia, ressenya, text instructiu, text expositiu",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Cerca d'informació en fonts diverses (enciclopèdia, web, diccionari)"
+      "text": "Cerca d'informació en fonts diverses (enciclopèdia, web, diccionari)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura extensiva: selecció personal de lectures i creació d'hàbit lector"
+      "text": "Lectura extensiva: selecció personal de lectures i creació d'hàbit lector",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Resum i esquema com a estratègies de síntesi"
+      "text": "Resum i esquema com a estratègies de síntesi",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "El procés d'escriptura: planificació, redacció, revisió i edició"
+      "text": "El procés d'escriptura: planificació, redacció, revisió i edició",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Tipologia textual: narració, descripció, text instructiu, carta formal"
+      "text": "Tipologia textual: narració, descripció, text instructiu, carta formal",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Cohesió textual: connectors temporals, causals i adversatius"
+      "text": "Cohesió textual: connectors temporals, causals i adversatius",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Coherència: estructura del paràgraf i progressió temàtica"
+      "text": "Coherència: estructura del paràgraf i progressió temàtica",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia: accentuació (paraules agudes, planes, esdrúixoles), dièresi"
+      "text": "Ortografia: accentuació (paraules agudes, planes, esdrúixoles), dièresi",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia: ús de b/v, s/ss/c/ç, g/j, l·l/l, ny"
+      "text": "Ortografia: ús de b/v, s/ss/c/ç, g/j, l·l/l, ny",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "El diccionari: ús autònom per resoldre dubtes ortogràfics i lèxics"
+      "text": "El diccionari: ús autònom per resoldre dubtes ortogràfics i lèxics",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Escriptura en entorns digitals: processadors de text, presentacions"
+      "text": "Escriptura en entorns digitals: processadors de text, presentacions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Revisió entre iguals amb rúbriques bàsiques"
+      "text": "Revisió entre iguals amb rúbriques bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Adequació al registre i al destinatari"
+      "text": "Adequació al registre i al destinatari",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Gèneres literaris: narració, poesia i teatre — característiques bàsiques"
+      "text": "Gèneres literaris: narració, poesia i teatre — característiques bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Elements de la narració: narrador, personatges, espai, temps, trama"
+      "text": "Elements de la narració: narrador, personatges, espai, temps, trama",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Recursos literaris: comparació, personificació, repetició, rima"
+      "text": "Recursos literaris: comparació, personificació, repetició, rima",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Literatura catalana: autors i obres representatives per a infants"
+      "text": "Literatura catalana: autors i obres representatives per a infants",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Lectura guiada de novel·les i àlbums d'autor"
+      "text": "Lectura guiada de novel·les i àlbums d'autor",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Creació literària: continuació de textos, canvi de final, creació de personatges"
+      "text": "Creació literària: continuació de textos, canvi de final, creació de personatges",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El teatre: lectura dramatitzada i representació senzilla"
+      "text": "El teatre: lectura dramatitzada i representació senzilla",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Context cultural de les obres literàries: tradicions i festes catalanes"
+      "text": "Context cultural de les obres literàries: tradicions i festes catalanes",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Categories gramaticals: nom, verb, adjectiu, determinant (article, possessiu, demostratiu)"
+      "text": "Categories gramaticals: nom, verb, adjectiu, determinant (article, possessiu, demostratiu)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El sintagma nominal: estructura bàsica"
+      "text": "El sintagma nominal: estructura bàsica",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El verb: temps verbals (present, passat i futur d'indicatiu), conjugació regular"
+      "text": "El verb: temps verbals (present, passat i futur d'indicatiu), conjugació regular",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Concordança nominal i verbal"
+      "text": "Concordança nominal i verbal",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Tipus d'oració: enunciativa, interrogativa, exclamativa, imperativa"
+      "text": "Tipus d'oració: enunciativa, interrogativa, exclamativa, imperativa",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Oració simple: subjecte i predicat"
+      "text": "Oració simple: subjecte i predicat",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Accentuació: regles d'agudes, planes i esdrúixoles"
+      "text": "Accentuació: regles d'agudes, planes i esdrúixoles",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Ortografia: normes d'ús de b/v, c/ç/s/ss, g/j, h"
+      "text": "Ortografia: normes d'ús de b/v, c/ç/s/ss, g/j, h",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Lèxic: sinònims, antònims, mots polisèmics i camp semàntic"
+      "text": "Lèxic: sinònims, antònims, mots polisèmics i camp semàntic",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Formació de paraules: prefixos i sufixos comuns"
+      "text": "Formació de paraules: prefixos i sufixos comuns",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Producció de discursos orals planificats: exposicions, debats, entrevistes, presentacions"
+      "text": "Producció de discursos orals planificats: exposicions, debats, entrevistes, presentacions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Argumentació: tesis, arguments i contraarguments"
+      "text": "Argumentació: tesis, arguments i contraarguments",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Avaluació crítica de missatges orals: identificació de la intenció, l'audiència i les estratègies persuasives"
+      "text": "Avaluació crítica de missatges orals: identificació de la intenció, l'audiència i les estratègies persuasives",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Recursos retòrics bàsics: anàfora, hipèrbole, ironies en textos orals"
+      "text": "Recursos retòrics bàsics: anàfora, hipèrbole, ironies en textos orals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Gestió de la interacció: moderació, síntesi i reformulació"
+      "text": "Gestió de la interacció: moderació, síntesi i reformulació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Adaptació del registre oral a contextos formals i informals"
+      "text": "Adaptació del registre oral a contextos formals i informals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Comunicació digital: videoconferència, podcast, vídeo explicatiu"
+      "text": "Comunicació digital: videoconferència, podcast, vídeo explicatiu",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Escolta activa i comprensió de textos orals complexos (conferències, reportatges)"
+      "text": "Escolta activa i comprensió de textos orals complexos (conferències, reportatges)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Valoració de la diversitat d'accents i varietats dialectals del català"
+      "text": "Valoració de la diversitat d'accents i varietats dialectals del català",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura crítica: identificació del punt de vista, la ideologia i els buits informatius"
+      "text": "Lectura crítica: identificació del punt de vista, la ideologia i els buits informatius",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Estratègies avançades: síntesi, comparació de fonts, avaluació de la fiabilitat"
+      "text": "Estratègies avançades: síntesi, comparació de fonts, avaluació de la fiabilitat",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos argumentatius: identificació de la tesi, els arguments i les fal·làcies"
+      "text": "Textos argumentatius: identificació de la tesi, els arguments i les fal·làcies",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos digitals: lectura hipertextual, multimodal i navegació en xarxa"
+      "text": "Textos digitals: lectura hipertextual, multimodal i navegació en xarxa",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Intertextualitat: relació entre textos d'una mateixa temàtica o gènere"
+      "text": "Intertextualitat: relació entre textos d'una mateixa temàtica o gènere",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura de textos periodístics: notícia, reportatge, crònica, editorial, article d'opinió"
+      "text": "Lectura de textos periodístics: notícia, reportatge, crònica, editorial, article d'opinió",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura de textos científics i divulgatius adaptats: estructura i recursos"
+      "text": "Lectura de textos científics i divulgatius adaptats: estructura i recursos",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Reflexió sobre el propi procés lector i les estratègies utilitzades"
+      "text": "Reflexió sobre el propi procés lector i les estratègies utilitzades",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Selecció autònoma de lectures i creació d'un pla lector personal"
+      "text": "Selecció autònoma de lectures i creació d'un pla lector personal",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos argumentatius: article d'opinió, carta al director, debat escrit"
+      "text": "Textos argumentatius: article d'opinió, carta al director, debat escrit",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos expositius: treball de recerca, informe, resum elaborat"
+      "text": "Textos expositius: treball de recerca, informe, resum elaborat",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos creatius: relat, poema, text dramàtic amb elements expressius personals"
+      "text": "Textos creatius: relat, poema, text dramàtic amb elements expressius personals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos digitals: blog, wiki, correu electrònic formal, presentació digital"
+      "text": "Textos digitals: blog, wiki, correu electrònic formal, presentació digital",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "El procés d'escriptura: planificació amb mapa conceptual, esborrany, revisió i edició final"
+      "text": "El procés d'escriptura: planificació amb mapa conceptual, esborrany, revisió i edició final",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Revisió autònoma i entre iguals amb criteris d'adequació, coherència, cohesió i correcció"
+      "text": "Revisió autònoma i entre iguals amb criteris d'adequació, coherència, cohesió i correcció",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia: normes avançades, accent diacrític, l'apòstrof i el guionet"
+      "text": "Ortografia: normes avançades, accent diacrític, l'apòstrof i el guionet",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Sintaxi: oracions compostes coordinades i subordinades bàsiques"
+      "text": "Sintaxi: oracions compostes coordinades i subordinades bàsiques",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ús d'eines digitals de suport: corrector ortogràfic, diccionari en línia, processador de text"
+      "text": "Ús d'eines digitals de suport: corrector ortogràfic, diccionari en línia, processador de text",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Historia de la literatura catalana: períodes i autors principals (literatura popular, segle XIX, segle XX, literatura contemporània)"
+      "text": "Historia de la literatura catalana: períodes i autors principals (literatura popular, segle XIX, segle XX, literatura contemporània)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Anàlisi literària: tema, estructura, veu narrativa, recursos expressius i context"
+      "text": "Anàlisi literària: tema, estructura, veu narrativa, recursos expressius i context",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La poesia: mètrica, rima, figures retòriques (metàfora, símil, al·literació)"
+      "text": "La poesia: mètrica, rima, figures retòriques (metàfora, símil, al·literació)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El teatre: estructura dramàtica, actes i escenes, didascàlies"
+      "text": "El teatre: estructura dramàtica, actes i escenes, didascàlies",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Lectura extensiva de novel·les de diversos gèneres (aventura, fantasia, realista, misteri)"
+      "text": "Lectura extensiva de novel·les de diversos gèneres (aventura, fantasia, realista, misteri)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Creació literària: relat breu, poema amb forma fixa, text dramàtic"
+      "text": "Creació literària: relat breu, poema amb forma fixa, text dramàtic",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Literatura i societat: relació entre obres literàries i el context social i cultural"
+      "text": "Literatura i societat: relació entre obres literàries i el context social i cultural",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El canon literari català: obres i autors de referència per a l'etapa"
+      "text": "El canon literari català: obres i autors de referència per a l'etapa",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Morfologia: flexió verbal completa (indicatiu, subjuntiu, imperatius; perífrasis verbals)"
+      "text": "Morfologia: flexió verbal completa (indicatiu, subjuntiu, imperatius; perífrasis verbals)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Sintaxi: l'oració composta — coordinació i subordinació (substantiva, adjectiva, adverbial)"
+      "text": "Sintaxi: l'oració composta — coordinació i subordinació (substantiva, adjectiva, adverbial)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El sintagma: nominal, verbal, adjectival i adverbial"
+      "text": "El sintagma: nominal, verbal, adjectival i adverbial",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Categories gramaticals: pronom personal fort i feble, preposicions, conjuncions"
+      "text": "Categories gramaticals: pronom personal fort i feble, preposicions, conjuncions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El pronom feble: formes i combinatòria bàsica"
+      "text": "El pronom feble: formes i combinatòria bàsica",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Lèxic: polisèmia, homonímia, paronímia, eufemisme, tecnicismes"
+      "text": "Lèxic: polisèmia, homonímia, paronímia, eufemisme, tecnicismes",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Formació de paraules: derivació (prefixació i sufixació) i composició"
+      "text": "Formació de paraules: derivació (prefixació i sufixació) i composició",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Varietats de la llengua: dialectes del català, estàndard i registres"
+      "text": "Varietats de la llengua: dialectes del català, estàndard i registres",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Normativa ortogràfica avançada: accentuació, dièresi, l'apòstrof, el guionet, la l·l"
+      "text": "Normativa ortogràfica avançada: accentuació, dièresi, l'apòstrof, el guionet, la l·l",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Llengua i poder: usos de la llengua i situació sociolingüística del català"
+      "text": "Llengua i poder: usos de la llengua i situació sociolingüística del català",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

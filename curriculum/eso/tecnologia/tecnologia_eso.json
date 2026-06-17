@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Tecnologia.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Tecnologia a l'ESO és la matèria que desenvolupa en l'alumnat la competència per comprendre, analitzar i crear solucions tècniques als problemes de la vida quotidiana i de la societat. Combina el pensament tecnològic amb la pràctica de taller i el disseny, i prepara per a la Tecnologia i la Digitalització de Batxillerat, els cicles formatius de FP de la família industrial i per a qualsevol àmbit professional que requereixi competència tècnica.\n\nEls constructes disciplinaris fonamentals inclouen el procés tecnològic (identificació del problema, disseny, construcció, avaluació), els materials i les seves propietats (fusta, metall, plàstic, compostos), les estructures i els esforços (tracció, compressió, flexió, torsió), els mecanismes (engranatges, politges, biela-manovella), l'electricitat bàsica (circuits, llei d'Ohm, components) i la programació com a eina de control (blocs, Python bàsic, Arduino). El disseny assistit per ordinador (CAD) i la fabricació digital (impressió 3D, tall làser) completen el currículum.\n\nL'enfocament pedagògic és eminentment pràctic i basat en el projecte tecnològic: l'alumne dissenya, construeix i avalua artefactes reals al taller. La metodologia combina el treball manual amb eines, el disseny en CAD i la programació de microcontroladors. El treball en equip, la distribució de tasques i la memòria tècnica del projecte formen part de l'aprenentatge. L'avaluació integra el producte final, el procés de treball i la documentació tècnica elaborada."
   },
@@ -18,18 +18,21 @@
       "codi": "CE1",
       "text": "Identificar i proposar problemes tecnològics amb iniciativa i creativitat, tot estudiant les necessitats de l’entorn proper, aplicant estratègies i processos col·laboratius i iteratius relatius a projectes, per idear i planificar solucions de manera eficient i innovadora.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Idear i planificar solucions tecnològiques emprenedores que generin un valor a la comunitat, a partir de l’observació i l’anàlisi de l’entorn més proper, tot estudiant les necessitats, els requisits i les possibilitats de millora."
+            "text": "Idear i planificar solucions tecnològiques emprenedores que generin un valor a la comunitat, a partir de l’observació i l’anàlisi de l’entorn més proper, tot estudiant les necessitats, els requisits i les possibilitats de millora.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.2",
-            "text": "Aplicar, amb iniciativa, estratègies col·laboratives de gestió de projectes amb perspectiva interdisciplinària, seguint un procés iteratiu de validació, des de la fase d’ideació fins a la resolució de problemes."
+            "text": "Aplicar, amb iniciativa, estratègies col·laboratives de gestió de projectes amb perspectiva interdisciplinària, seguint un procés iteratiu de validació, des de la fase d’ideació fins a la resolució de problemes.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.3",
-            "text": "Desenvolupar la gestió del projecte de manera creativa, aplicant estratègies i tècniques col·laboratives, així com mètodes de recerca per a la ideació de solucions eficients, innovadores i respectuoses amb el medi ambient."
+            "text": "Desenvolupar la gestió del projecte de manera creativa, aplicant estratègies i tècniques col·laboratives, així com mètodes de recerca per a la ideació de solucions eficients, innovadores i respectuoses amb el medi ambient.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -38,18 +41,21 @@
       "codi": "CE2",
       "text": "Aplicar diferents tècniques i coneixements interdisciplinaris utilitzant procediments i recursos tecnològics tot preveient el cicle de vida dels productes per construir solucions tecnològiques sostenibles que donin resposta a necessitats plantejades.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Analitzar el disseny d’un producte que doni resposta a una necessitat plantejada, avaluant-ne la demanda, l’evolució i la previsió de fi del cicle de vida amb criteri ètic, sostenible i responsable."
+            "text": "Analitzar el disseny d’un producte que doni resposta a una necessitat plantejada, avaluant-ne la demanda, l’evolució i la previsió de fi del cicle de vida amb criteri ètic, sostenible i responsable.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.2",
-            "text": "Fabricar productes i solucions tecnològiques, fent ús del disseny assistit, utilitzant les diferents tècniques d’elaboració manual, mecànica i digital, emprant de manera adequada els diferents materials i recursos mecànics, elèctrics, electrònics i digitals."
+            "text": "Fabricar productes i solucions tecnològiques, fent ús del disseny assistit, utilitzant les diferents tècniques d’elaboració manual, mecànica i digital, emprant de manera adequada els diferents materials i recursos mecànics, elèctrics, electrònics i digitals.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.3",
-            "text": "Argumentar les solucions tecnològiques aportades a les necessitats plantejades, valorant-ne laviabilitat econòmica, l’ús funcional, sostenible i eficient."
+            "text": "Argumentar les solucions tecnològiques aportades a les necessitats plantejades, valorant-ne laviabilitat econòmica, l’ús funcional, sostenible i eficient.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -58,14 +64,16 @@
       "codi": "CE3",
       "text": "Comunicar, argumentar i difondre idees i solucions tecnològiques en diferents espais virtuals, emprant diversos recursos tot aplicant els elements i les tècniques necessàries per intercanviar la informació i fomentar el treball en equip.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Intercanviar informació i fomentar el treball en equip de manera assertiva, emprant les eines digitals, el vocabulari tècnic, símbols i esquemes de sistemes tecnològics apropiats."
+            "text": "Intercanviar informació i fomentar el treball en equip de manera assertiva, emprant les eines digitals, el vocabulari tècnic, símbols i esquemes de sistemes tecnològics apropiats.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.2",
-            "text": "Presentar i difondre les propostes o solucions tecnològiques de manera concreta, emprant l’entonació, l’expressió, l’adaptació del discurs i del temps, usant un llenguatge inclusiu i lliure d’estereotips sexistes."
+            "text": "Presentar i difondre les propostes o solucions tecnològiques de manera concreta, emprant l’entonació, l’expressió, l’adaptació del discurs i del temps, usant un llenguatge inclusiu i lliure d’estereotips sexistes.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -74,14 +82,16 @@
       "codi": "CE4",
       "text": "Desenvolupar solucions sostenibles a problemes plantejats que incorporin l’automatització i les tecnologies emergents, per dissenyar i construir sistemes de control programables i robòtics.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Dissenyar, construir, controlar i/o simular sistemes automàtics programables i robots que siguin capaços de fer tasques de forma autònoma, aplicant coneixements de mecànica, electrònica, pneumàtica i components dels sistemes de control, així com altres coneixements interdisciplinaris."
+            "text": "Dissenyar, construir, controlar i/o simular sistemes automàtics programables i robots que siguin capaços de fer tasques de forma autònoma, aplicant coneixements de mecànica, electrònica, pneumàtica i components dels sistemes de control, així com altres coneixements interdisciplinaris.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.2",
-            "text": "Integrar a les màquines i sistemes tecnològics aplicacions digitals emergents de control i simulació com Internet de les coses, tractament massiu de dades (big data) i intel·ligència artificial amb sentit crític, ètic i sostenible."
+            "text": "Integrar a les màquines i sistemes tecnològics aplicacions digitals emergents de control i simulació com Internet de les coses, tractament massiu de dades (big data) i intel·ligència artificial amb sentit crític, ètic i sostenible.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -90,22 +100,26 @@
       "codi": "CE5",
       "text": "Emprar les eines digitals de disseny i fabricació, adaptant-les i configurant-les a les necessitats tot aplicant els coneixements interdisciplinaris, per a una producció més eficient i sostenible.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA5.1",
-            "text": "Resoldre tasques proposades de manera eficient mitjançant l’ús i la configuració de diferents aplicacions i eines digitals, tot aplicant coneixements interdisciplinaris amb autonomia."
+            "text": "Resoldre tasques proposades de manera eficient mitjançant l’ús i la configuració de diferents aplicacions i eines digitals, tot aplicant coneixements interdisciplinaris amb autonomia.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.2",
-            "text": "Utilitzar en el disseny de solucions, eines de representació en tres dimensions i d’experimentació virtual mitjançant simuladors, per a la construcció del coneixement tecnològic."
+            "text": "Utilitzar en el disseny de solucions, eines de representació en tres dimensions i d’experimentació virtual mitjançant simuladors, per a la construcció del coneixement tecnològic.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.3",
-            "text": "Emprar diferents gestors de presentació, eines de difusió o publicació de la informació per a la realització de tasques col·laboratives."
+            "text": "Emprar diferents gestors de presentació, eines de difusió o publicació de la informació per a la realització de tasques col·laboratives.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.4",
-            "text": "Configurar programes o aplicacions informàtiques per al control de diferents automatismes."
+            "text": "Configurar programes o aplicacions informàtiques per al control de diferents automatismes.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -114,18 +128,21 @@
       "codi": "CE6",
       "text": "Analitzar processos tecnològics, valorant l’impacte en la societat i l’entorn, tot aplicant criteris de sostenibilitat, per fer un ús ètic i ecosocialment responsable de la tecnologia.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA6.1",
-            "text": "Fer un ús responsable de la tecnologia, mitjançant l’anàlisi i l’aplicació de criteris de sostenibilitat en la selecció de materials, el disseny i els processos de fabricació dels productes tecnològics, tot minimitzant l’impacte en la societat i el planeta."
+            "text": "Fer un ús responsable de la tecnologia, mitjançant l’anàlisi i l’aplicació de criteris de sostenibilitat en la selecció de materials, el disseny i els processos de fabricació dels productes tecnològics, tot minimitzant l’impacte en la societat i el planeta.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA6.2",
-            "text": "Analitzar els beneficis i valorar la contribució de les tecnologies al desenvolupament sostenible i la cura de l’entorn, que aporten l’arquitectura bioclimàtica, les energies renovables i la mobilitat eficient."
+            "text": "Analitzar els beneficis i valorar la contribució de les tecnologies al desenvolupament sostenible i la cura de l’entorn, que aporten l’arquitectura bioclimàtica, les energies renovables i la mobilitat eficient.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA6.3",
-            "text": "Identificar i valorar la repercussió i els beneficis del desenvolupament de projectes tecnològics de caràcter social per mitjà de comunitats obertes, accions de voluntariat o projectes de servei a la comunitat."
+            "text": "Identificar i valorar la repercussió i els beneficis del desenvolupament de projectes tecnològics de caràcter social per mitjà de comunitats obertes, accions de voluntariat o projectes de servei a la comunitat.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -148,151 +165,202 @@
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Aplicació d’estratègies de gestió de projectes col·laboratius i de tècniques de resolució de problemes iteratives"
+      "text": "Aplicació d’estratègies de gestió de projectes col·laboratius i de tècniques de resolució de problemes iteratives",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Cerca, comparació i estudi de les necessitats del centre educatiu, dels àmbits local i regional, etc. per al plantejament de projectes col·laboratius o cooperatius"
+      "text": "Cerca, comparació i estudi de les necessitats del centre educatiu, dels àmbits local i regional, etc. per al plantejament de projectes col·laboratius o cooperatius",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Implementació de diferents tècniques d’ideació per a la resolució de problemes"
+      "text": "Implementació de diferents tècniques d’ideació per a la resolució de problemes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Resolució de problemes amb actitud emprenedora, creativa i perseverant, des d’una perspectiva interdisciplinària de l’activitat tecnològica, tot fomentant la satisfacció i l’interès pel treball i la qualitat del mateix. ● Productes i materials"
+      "text": "Resolució de problemes amb actitud emprenedora, creativa i perseverant, des d’una perspectiva interdisciplinària de l’activitat tecnològica, tot fomentant la satisfacció i l’interès pel treball i la qualitat del mateix. ● Productes i materials",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Selecció i utilització de diferents productes i materials per a la resolució de problemes"
+      "text": "Selecció i utilització de diferents productes i materials per a la resolució de problemes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Anàlisi del cicle de vida d’un producte i identificació de les diferents fases"
+      "text": "Anàlisi del cicle de vida d’un producte i identificació de les diferents fases",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Selecció de materials tot utilitzant diverses estratègies, d’acord amb les seves propietats o requisits, per a la resolució de problemes i projectes. ● Fabricació"
+      "text": "Selecció de materials tot utilitzant diverses estratègies, d’acord amb les seves propietats o requisits, per a la resolució de problemes i projectes. ● Fabricació",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Valoració, selecció i utilització de diferents tècniques de fabricació en la resolució de problemes i projectes"
+      "text": "Valoració, selecció i utilització de diferents tècniques de fabricació en la resolució de problemes i projectes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Utilització de diferents eines de disseny i de fabricació assistit per ordinador en 2D i 3D, per a la representació i/o fabricació de peces aplicades a projectes"
+      "text": "Utilització de diferents eines de disseny i de fabricació assistit per ordinador en 2D i 3D, per a la representació i/o fabricació de peces aplicades a projectes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Valoració, selecció i utilització de diferents tècniques de fabricació manual i mecànica, en les aplicacions pràctiques"
+      "text": "Valoració, selecció i utilització de diferents tècniques de fabricació manual i mecànica, en les aplicacions pràctiques",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Implementació, en aplicacions pràctiques, de tècniques de fabricació digital, com la impressió 3D i el tall. ● Difusió"
+      "text": "Implementació, en aplicacions pràctiques, de tècniques de fabricació digital, com la impressió 3D i el tall. ● Difusió",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Procés de resolució de problemes i projectes ● Estratègies i tècniques",
       "subapartat": null,
-      "text": "Documentació, presentació i difusió de projectes, integrant diferents elements, tècniques i eines. Utilització d’una comunicació efectiva basada en una entonació, expressió, gestió del temps i adaptació del discurs i amb un ús de llenguatge inclusiu i lliure d’estereotips de gènere"
+      "text": "Documentació, presentació i difusió de projectes, integrant diferents elements, tècniques i eines. Utilització d’una comunicació efectiva basada en una entonació, expressió, gestió del temps i adaptació del discurs i amb un ús de llenguatge inclusiu i lliure d’estereotips de gènere",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Operadors tecnològics",
       "subapartat": null,
-      "text": "Identificació dels components electrònics analògics bàsics i la seva simbologia, amb l’anàlisi i el muntatge físic i simulats de circuits elementals"
+      "text": "Identificació dels components electrònics analògics bàsics i la seva simbologia, amb l’anàlisi i el muntatge físic i simulats de circuits elementals",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Operadors tecnològics",
       "subapartat": null,
-      "text": "Representació, anàlisi, disseny, simulació i muntatge de circuits electrònics digitals senzills i la seva aplicació"
+      "text": "Representació, anàlisi, disseny, simulació i muntatge de circuits electrònics digitals senzills i la seva aplicació",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Operadors tecnològics",
       "subapartat": null,
-      "text": "Representació, anàlisi, disseny, simulació i muntatge de circuits pneumàtics bàsics amb components que compleixin una determinada funció en un mecanisme o màquina"
+      "text": "Representació, anàlisi, disseny, simulació i muntatge de circuits pneumàtics bàsics amb components que compleixin una determinada funció en un mecanisme o màquina",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Operadors tecnològics",
       "subapartat": null,
-      "text": "Anàlisi, descripció i relació dels diferents elements mecànics, electrònics i pneumàtics aplicats a la robòtica, fent ús del muntatge físic o simulat"
+      "text": "Anàlisi, descripció i relació dels diferents elements mecànics, electrònics i pneumàtics aplicats a la robòtica, fent ús del muntatge físic o simulat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Pensament computacional, automatització i robòtica",
       "subapartat": null,
-      "text": "Utilització de diferents components de sistemes de control programat: controladors, sensors i actuadors, que permetin l’optimització dels recursos i apliquin l’automatització i la robotització"
+      "text": "Utilització de diferents components de sistemes de control programat: controladors, sensors i actuadors, que permetin l’optimització dels recursos i apliquin l’automatització i la robotització",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Pensament computacional, automatització i robòtica",
       "subapartat": null,
-      "text": "Disseny i implementació d’aplicacions informàtiques per a ordinador i dispositius mòbils. Utilització de simuladors informàtics en la verificació i comprovació del funcionament dels sistemes dissenyats. Introducció de les aplicacions de la intel·ligència artificial i al tractament massiu de dades (Big Data). Ús d’espais digitals compartits i discos virtuals per l’emmagatzematge i compartició d’informació"
+      "text": "Disseny i implementació d’aplicacions informàtiques per a ordinador i dispositius mòbils. Utilització de simuladors informàtics en la verificació i comprovació del funcionament dels sistemes dissenyats. Introducció de les aplicacions de la intel·ligència artificial i al tractament massiu de dades (Big Data). Ús d’espais digitals compartits i discos virtuals per l’emmagatzematge i compartició d’informació",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Pensament computacional, automatització i robòtica",
       "subapartat": null,
-      "text": "Integració de les telecomunicacions en els sistemes de control digital; Internet de les coses amb els diferents elements, comunicacions i control, mitjançant l’aplicació pràctica per donar resposta a les necessitats personals o col·lectives"
+      "text": "Integració de les telecomunicacions en els sistemes de control digital; Internet de les coses amb els diferents elements, comunicacions i control, mitjançant l’aplicació pràctica per donar resposta a les necessitats personals o col·lectives",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Pensament computacional, automatització i robòtica",
       "subapartat": null,
-      "text": "Disseny, construcció i control de robots senzills de manera física o simulada per al desenvolupament de tasques reals o fictícies"
+      "text": "Disseny, construcció i control de robots senzills de manera física o simulada per al desenvolupament de tasques reals o fictícies",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tecnologia sostenible",
       "subapartat": null,
-      "text": "Selecció de materials i disseny de processos, productes i sistemes tecnològics per a una sostenibilitat mediambiental, econòmica i social"
+      "text": "Selecció de materials i disseny de processos, productes i sistemes tecnològics per a una sostenibilitat mediambiental, econòmica i social",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tecnologia sostenible",
       "subapartat": null,
-      "text": "Justificació de l’energia com a factor tecnològic clau del desenvolupament sostenible. Eficiència energètica, consum responsable i energies renovables"
+      "text": "Justificació de l’energia com a factor tecnològic clau del desenvolupament sostenible. Eficiència energètica, consum responsable i energies renovables",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tecnologia sostenible",
       "subapartat": null,
-      "text": "Cerca, aplicació i disseny d’estratègies d’estalvi energètic en edificis. Anàlisi de l’arquitectura bioclimàtica i sostenible en la reducció de l’impacte ambiental tant en l’àmbit local com en el global"
+      "text": "Cerca, aplicació i disseny d’estratègies d’estalvi energètic en edificis. Anàlisi de l’arquitectura bioclimàtica i sostenible en la reducció de l’impacte ambiental tant en l’àmbit local com en el global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tecnologia sostenible",
       "subapartat": null,
-      "text": "Anàlisi i valoració de la mobilitat sostenible dels diferents mitjans de transport públic o privat"
+      "text": "Anàlisi i valoració de la mobilitat sostenible dels diferents mitjans de transport públic o privat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tecnologia sostenible",
       "subapartat": null,
-      "text": "Creació de comunitats obertes d’aprenentatge, foment del voluntariat tecnològic i la implementació de projectes de servei a la comunitat amb un compromís actiu tant en l’àmbit local com en el global"
+      "text": "Creació de comunitats obertes d’aprenentatge, foment del voluntariat tecnològic i la implementació de projectes de servei a la comunitat amb un compromís actiu tant en l’àmbit local com en el global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

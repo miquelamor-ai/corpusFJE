@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Educacio-Artistica.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "L'Educació Artística a Primària integra quatre disciplines —música, arts plàstiques i visuals, educació audiovisual i arts escèniques i performatives— en una àrea que desenvolupa la sensibilitat estètica, el pensament creatiu i la capacitat d'expressió i comunicació de l'alumnat. La matèria connecta amb la Llengua (narració, comunicació multimodal), les Ciències Socials (patrimoni cultural, diversitat de cultures) i l'Educació Física (expressió corporal i moviment). Prepara per a la participació cultural activa i desenvolupa competències transversals com el pensament creatiu, la col·laboració i la gestió emocional.\n\nEls grans constructes disciplinaris inclouen la percepció i l'anàlisi (audició activa, observació d'obres, lectura d'imatges i textos audiovisuals amb perspectiva de gènere), la creació i la interpretació (experimentació amb materials sonors, plàstics, digitals i corporals; tècniques bidimensionals, tridimensionals i audiovisuals) i la cultura artística (reconeixement de manifestacions de diverses èpoques, cultures i estils, identificació de professions artístiques). El procés creatiu —planificació, experimentació, avaluació i difusió— és tan important com el producte final.\n\nL'enfocament pedagògic fomenta l'exploració lliure i guiada, la presa de riscos creatius i el respecte per les diverses lectures i interpretacions. Les situacions d'aprenentatge integren la percepció i la producció: s'analitzen obres per aprendre a crear, i es crea per aprendre a mirar i escoltar. El treball col·laboratiu en projectes artístics de grup —concerts, exposicions, curtmetratges, representacions escèniques— afavoreix el sentit de pertinença i la responsabilitat compartida. L'avaluació posa l'accent en el procés, l'autoregulació i la reflexió sobre el propi aprenentatge artístic, i no exclusivament en la qualitat del resultat final."
   },
@@ -18,34 +18,40 @@
       "codi": "CE1",
       "text": "Descobrir propostes artístiques de diferents cultures, èpoques i estils, mitjançant la percepció i la vivència, per desenvolupar la curiositat, el respecte i el gaudi.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Descobrir obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència."
+            "text": "Descobrir obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Descriure manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les característiques amb actitud oberta i interès."
+            "text": "Descriure manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les característiques amb actitud oberta i interès.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA1.1",
-            "text": "Reconèixer obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència."
+            "text": "Reconèixer obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.2",
-            "text": "Descriure manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les característiques amb actitud oberta i interès, establint relacions entre elles."
+            "text": "Descriure manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les característiques amb actitud oberta i interès, establint relacions entre elles.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA1.1",
-            "text": "Distingir i valorar obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència."
+            "text": "Distingir i valorar obres de manifestacions culturals i artístiques de diferents gèneres i estils, èpoques i cultures amb visió de perspectiva de gènere, evidenciant interès, curiositat i gaudi cap a aquestes, a través de la percepció i la vivència.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.2",
-            "text": "Analitzar manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les seves característiques establint relacions entre elles i valorant la diversitat que les genera."
+            "text": "Analitzar manifestacions culturals i artístiques en diferents contextos a partir de l’exploració de les seves característiques establint relacions entre elles i valorant la diversitat que les genera.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -54,46 +60,55 @@
       "codi": "CE2",
       "text": "Investigar i analitzar diferents manifestacions culturals i artístiques i els seus contextos emprant diversos canals i mitjans d’accés a la informació, per desenvolupar el pensament propi, la identitat cultural i l’esperit crític.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Utilitzar de forma col·laborativa les estratègies treballades per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació."
+            "text": "Utilitzar de forma col·laborativa les estratègies treballades per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Identificar múltiples lectures, tècniques i/o elements de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, i trobar diferències i similituds entre elles amb respecte i interès."
+            "text": "Identificar múltiples lectures, tècniques i/o elements de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, i trobar diferències i similituds entre elles amb respecte i interès.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.3",
-            "text": "Identificar i expressar les sensacions i emocions produïdes per diferents manifestacions culturals i artístiques de manera respectuosa i dialogant."
+            "text": "Identificar i expressar les sensacions i emocions produïdes per diferents manifestacions culturals i artístiques de manera respectuosa i dialogant.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Usar estratègies de forma personal i/o col·laborativa per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació."
+            "text": "Usar estratègies de forma personal i/o col·laborativa per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.2",
-            "text": "Interpretar i compartir múltiples lectures de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, i analitzant-ne els elements i les tècniques que les caracteritzen, amb actitud d’interès, diàleg i respecte."
+            "text": "Interpretar i compartir múltiples lectures de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, i analitzant-ne els elements i les tècniques que les caracteritzen, amb actitud d’interès, diàleg i respecte.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.3",
-            "text": "Identificar i compartir les sensacions, emocions i evocacions produïdes per diferents manifestacions culturals i artístiques de manera respectuosa i dialogant."
+            "text": "Identificar i compartir les sensacions, emocions i evocacions produïdes per diferents manifestacions culturals i artístiques de manera respectuosa i dialogant.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Desenvolupar estratègies de forma personal i/o col·laborativa per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació."
+            "text": "Desenvolupar estratègies de forma personal i/o col·laborativa per a la cerca de manifestacions culturals i artístiques, a través de canals i mitjans d’accés a la informació.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.2",
-            "text": "Comparar i compartir múltiples lectures de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, analitzant els elements i les tècniques utilitzades que les caracteritzen i desenvolupant criteris de valoració propis, amb actitud oberta, de diàleg i de respecte."
+            "text": "Comparar i compartir múltiples lectures de diferents manifestacions culturals i artístiques que formen part del patrimoni de diversos entorns, analitzant els elements i les tècniques utilitzades que les caracteritzen i desenvolupant criteris de valoració propis, amb actitud oberta, de diàleg i de respecte.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.3",
-            "text": "Valorar i compartir les sensacions i emocions i evocacions produïdes per diferents manifestacions culturals i artístiques, atenent el seu context i relacionant-les de manera inclusiva amb la pròpia identitat cultural de manera respectuosa i dialogant."
+            "text": "Valorar i compartir les sensacions i emocions i evocacions produïdes per diferents manifestacions culturals i artístiques, atenent el seu context i relacionant-les de manera inclusiva amb la pròpia identitat cultural de manera respectuosa i dialogant.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -102,38 +117,45 @@
       "codi": "CE3",
       "text": "Experimentar i crear amb les possibilitats del so, la imatge, el cos i els mitjans digitals i multimodals, mitjançant activitats i experiències que incorporin l’aprenentatge autoregulat per expressar i comunicar coneixements, idees, sentiments i emocions.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, mostrant confiança en les pròpies capacitats."
+            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, mostrant confiança en les pròpies capacitats.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Expressar idees, coneixements, sentiments i emocions amb creacions pròpies fent servir aprenentatges dels referents artístics treballats."
+            "text": "Expressar idees, coneixements, sentiments i emocions amb creacions pròpies fent servir aprenentatges dels referents artístics treballats.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Compartir creacions"
+            "text": "Compartir creacions",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, amb curiositat, interès i afany de superació."
+            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, amb curiositat, interès i afany de superació.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Expressar idees, coneixements, sentiments i emocions amb creacions pròpies fent servir aprenentatges dels referents artístics treballats."
+            "text": "Expressar idees, coneixements, sentiments i emocions amb creacions pròpies fent servir aprenentatges dels referents artístics treballats.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, amb curiositat, interès i afany de superació."
+            "text": "Experimentar algunes possibilitats expressives i comunicatives del cos i de diferents eines d’expressió dels llenguatges artístics, a través de l’aplicació pràctica, amb curiositat, interès i afany de superació.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Produir creacions personals adaptades a una finalitat específica mitjançant l’expressió d’idees, sentiments i emocions"
+            "text": "Produir creacions personals adaptades a una finalitat específica mitjançant l’expressió d’idees, sentiments i emocions",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -142,30 +164,35 @@
       "codi": "CE4",
       "text": "Dissenyar, elaborar i difondre creacions culturals i artístiques col·laboratives, assumint diferents rols, posant en valor el procés, per desenvolupar la creativitat, el sentit de pertinença i arribar a un resultat final.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Participar en el procés de disseny de produccions culturals i creacions artístiques col·laboratives treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu, basat en la igualtat i la"
+            "text": "Participar en el procés de disseny de produccions culturals i creacions artístiques col·laboratives treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu, basat en la igualtat i la",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.2",
-            "text": "Participar activament,"
+            "text": "Participar activament,",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.3",
-            "text": "Documentar i compartir mostrant respecte."
+            "text": "Documentar i compartir mostrant respecte.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Col·laborar en el procés de disseny de produccions culturals i creacions artístiques treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu basat en la igualtat i la perspectiva de"
+            "text": "Col·laborar en el procés de disseny de produccions culturals i creacions artístiques treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu basat en la igualtat i la perspectiva de",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Planificar els processos de disseny de produccions culturals i creacions artístiques col·laboratives treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu basat en la igualtat i la"
+            "text": "Planificar els processos de disseny de produccions culturals i creacions artístiques col·laboratives treballant en la consecució d’un resultat final que compleixi uns objectius acordats mitjançant un enfocament coeducatiu basat en la igualtat i la",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -188,805 +215,1074 @@
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu"
+      "text": "Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades"
+      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a la creació i interpretació musical, amb perspectiva de gènere, en les audicions i obres treballades"
+      "text": "Reconeixement de professions vinculades a la creació i interpretació musical, amb perspectiva de gènere, en les audicions i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies durant l’audició i la pràctica musical"
+      "text": "Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies durant l’audició i la pràctica musical",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades"
+      "text": "Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement i capacitat de relació del caràcter i el tempo en audicions en viu o gravades i en les interpretacions pròpies"
+      "text": "Reconeixement i capacitat de relació del caràcter i el tempo en audicions en viu o gravades i en les interpretacions pròpies",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula"
+      "text": "Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn"
+      "text": "Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals, practicades a l’aula, les representacions i/o els concerts, reconeixent el silenci musical com a element fonamental"
+      "text": "Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals, practicades a l’aula, les representacions i/o els concerts, reconeixent el silenci musical com a element fonamental",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’aplicacions digitals d’enregistrament en creacions musicals tant personals com de grup per expressar idees o emocions"
+      "text": "Ús d’aplicacions digitals d’enregistrament en creacions musicals tant personals com de grup per expressar idees o emocions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Primer i segon Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Realització i interpretació d’una creació col·laborativa d’una pràctica musical, respectant i valorant els diferents rols exercits, el procés i el producte final"
+      "text": "Realització i interpretació d’una creació col·laborativa d’una pràctica musical, respectant i valorant els diferents rols exercits, el procés i el producte final",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i cerca d’imatges de l’entorn associant-les al valor comunicatiu compartint múltiples lectures i interpretacions en pràctiques observacionals"
+      "text": "Identificació i cerca d’imatges de l’entorn associant-les al valor comunicatiu compartint múltiples lectures i interpretacions en pràctiques observacionals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a la creació, en els àmbits de creació plasticoartística, amb perspectiva de gènere de les obres treballades"
+      "text": "Reconeixement de professions vinculades a la creació, en els àmbits de creació plasticoartística, amb perspectiva de gènere de les obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudi, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere"
+      "text": "Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudi, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i gaudi d’espais culturals i artístics participant amb respecte i valoració d’aquests espais en activitats i visites culturals"
+      "text": "Identificació i gaudi d’espais culturals i artístics participant amb respecte i valoració d’aquests espais en activitats i visites culturals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació activa de les manifestacions artístiques treballades"
+      "text": "Identificació dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació activa de les manifestacions artístiques treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i els sentiments que ens evoca l’observació activa de les manifestacions artístiques treballades amb respecte"
+      "text": "Percepció i expressió de les sensacions i els sentiments que ens evoca l’observació activa de les manifestacions artístiques treballades amb respecte",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades"
+      "text": "Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació amb diferents mitjans, suports i materials d’expressió plàstica, utilitzant tècniques bidimensionals i tridimensionals i digitals en imatges, dibuixos, pintures, modelats i construccions pròpies en les produccions artístiques treballades en diversitat de contextos"
+      "text": "Experimentació amb diferents mitjans, suports i materials d’expressió plàstica, utilitzant tècniques bidimensionals i tridimensionals i digitals en imatges, dibuixos, pintures, modelats i construccions pròpies en les produccions artístiques treballades en diversitat de contextos",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació i experimentació de processos creatius, personals o col·laboratius en les produccions artístiques treballades a l’aula, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació i experimentació de processos creatius, personals o col·laboratius en les produccions artístiques treballades a l’aula, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Utilització d’aplicacions digitals per a la captura, creació, manipulació i creació de produccions plàstiques i visuals de grup en els processos creatius per expressar idees o emocions"
+      "text": "Utilització d’aplicacions digitals per a la captura, creació, manipulació i creació de produccions plàstiques i visuals de grup en els processos creatius per expressar idees o emocions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual"
+      "text": "Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades"
+      "text": "Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement d’elements propis del llenguatge audiovisual mitjançant el visionament de propostes icòniques, cinematogràfiques i audiovisuals"
+      "text": "Reconeixement d’elements propis del llenguatge audiovisual mitjançant el visionament de propostes icòniques, cinematogràfiques i audiovisuals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual en el context escolar i/o a l’entorn més proper"
+      "text": "Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual en el context escolar i/o a l’entorn més proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació i maneig d’eines adequades per al registre d’imatge i so d’ús a l’entorn escolar, per narrar, documentar i expressar idees, sentiments o emocions"
+      "text": "Experimentació i maneig d’eines adequades per al registre d’imatge i so d’ús a l’entorn escolar, per narrar, documentar i expressar idees, sentiments o emocions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’estratègies elementals de cerca i filtratge en els processos de cerca d’informació"
+      "text": "Ús d’estratègies elementals de cerca i filtratge en els processos de cerca d’informació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació i experimentació de processos creatius audiovisuals col·laboratius, per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació i experimentació de processos creatius audiovisuals col·laboratius, per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Iniciació a la creació de produccions audiovisuals multimodals en grup a partir de presentacions, seqüenciant so i imatges estàtiques o en moviment per narrar o documentar processos viscuts o petites històries creades"
+      "text": "Iniciació a la creació de produccions audiovisuals multimodals en grup a partir de presentacions, seqüenciant so i imatges estàtiques o en moviment per narrar o documentar processos viscuts o petites històries creades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació en la creació i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes vinculades a projectes del grup que es proposen a l’entorn escolar"
+      "text": "Experimentació en la creació i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes vinculades a projectes del grup que es proposen a l’entorn escolar",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques i performatives de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, a partir d’espectacles enregistrats o en viu"
+      "text": "Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques i performatives de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, a partir d’espectacles enregistrats o en viu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades, compartint-les amb respecte"
+      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades, compartint-les amb respecte",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement, amb perspectiva de gènere, de professions vinculades a les arts escèniques, a partir de les obres i espais treballats"
+      "text": "Reconeixement, amb perspectiva de gènere, de professions vinculades a les arts escèniques, a partir de les obres i espais treballats",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes escèniques en diferents espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes escèniques en diferents espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Interès en l’experimentació i exploració del cos i les seves possibilitats motrius com a mitjà de comunicació, diversió i expressió de sentiments a través d’accions individuals i de grup vinculades amb els diversos gèneres escènics"
+      "text": "Interès en l’experimentació i exploració del cos i les seves possibilitats motrius com a mitjà de comunicació, diversió i expressió de sentiments a través d’accions individuals i de grup vinculades amb els diversos gèneres escènics",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Iniciació en el coneixement de les nocions essencials del llenguatge expressiu i experimentació de les tècniques de les arts escèniques i performatives a través de l’expressió i la improvisació"
+      "text": "Iniciació en el coneixement de les nocions essencials del llenguatge expressiu i experimentació de les tècniques de les arts escèniques i performatives a través de l’expressió i la improvisació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació i experimentació de processos creatius escènics i performatius, personals o col·laboratius, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació i experimentació de processos creatius escènics i performatius, personals o col·laboratius, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Manifestació de les capacitats expressives i creatives, i del plaer de l’expressió corporal i dramàtica a través de les arts escèniques i performatives"
+      "text": "Manifestació de les capacitats expressives i creatives, i del plaer de l’expressió corporal i dramàtica a través de les arts escèniques i performatives",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu"
+      "text": "Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades"
+      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a la creació i interpretació musical amb perspectiva de gènere a les audicions i obres treballades"
+      "text": "Reconeixement de professions vinculades a la creació i interpretació musical amb perspectiva de gènere a les audicions i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies durant l’audició i la pràctica musical"
+      "text": "Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies durant l’audició i la pràctica musical",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades"
+      "text": "Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i descripció del caràcter, el compàs i el tempo en audicions en viu o gravades i en les pròpies interpretacions"
+      "text": "Identificació i descripció del caràcter, el compàs i el tempo en audicions en viu o gravades i en les pròpies interpretacions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula"
+      "text": "Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn"
+      "text": "Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals practicades a l’aula, a les representacions i/o concerts reconeixent el silenci musical com a element fonamental"
+      "text": "Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals practicades a l’aula, a les representacions i/o concerts reconeixent el silenci musical com a element fonamental",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’aplicacions digitals d’enregistrament i edició d’àudio i vídeo registrant creacions musicals personals o de grup per expressar idees o emocions o fent-les servir per al descobriment i l’anàlisi d’obres"
+      "text": "Ús d’aplicacions digitals d’enregistrament i edició d’àudio i vídeo registrant creacions musicals personals o de grup per expressar idees o emocions o fent-les servir per al descobriment i l’anàlisi d’obres",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Tercer i quart Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Realització i interpretació d’una creació col·laborativa d’una pràctica musical, identificant i documentant les diferents fases del procés respectant i valorant els diferents rols exercits, el procés i el producte final"
+      "text": "Realització i interpretació d’una creació col·laborativa d’una pràctica musical, identificant i documentant les diferents fases del procés respectant i valorant els diferents rols exercits, el procés i el producte final",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i cerca, a través de diferents canals, d’imatges de diferents entorns associant-les al valor comunicatiu compartint lectures i interpretacions en pràctiques observacionals"
+      "text": "Identificació i cerca, a través de diferents canals, d’imatges de diferents entorns associant-les al valor comunicatiu compartint lectures i interpretacions en pràctiques observacionals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a la creació als àmbits de creació plasticoartística amb perspectiva de gènere de les obres treballades"
+      "text": "Reconeixement de professions vinculades a la creació als àmbits de creació plasticoartística amb perspectiva de gènere de les obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudiment, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere"
+      "text": "Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudiment, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i gaudi d’espais culturals i artístics participant amb respecte i valoració d’aquests espais en activitats i visites culturals"
+      "text": "Identificació i gaudi d’espais culturals i artístics participant amb respecte i valoració d’aquests espais en activitats i visites culturals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i exploració de les possibilitats expressives i comunicatives dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació i anàlisi de les manifestacions artístiques treballades"
+      "text": "Identificació i exploració de les possibilitats expressives i comunicatives dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació i anàlisi de les manifestacions artístiques treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades"
+      "text": "Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació amb diferents mitjans, suports i materials d’expressió plàstica utilitzant tècniques bidimensionals i tridimensionals i digitals en imatges, dibuixos, pintures, modelatges i construccions i accions performatives pròpies o col·laboratives en les produccions artístiques treballades en diversitat de contextos"
+      "text": "Experimentació amb diferents mitjans, suports i materials d’expressió plàstica utilitzant tècniques bidimensionals i tridimensionals i digitals en imatges, dibuixos, pintures, modelatges i construccions i accions performatives pròpies o col·laboratives en les produccions artístiques treballades en diversitat de contextos",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació, experimentació i documentació de processos creatius, personals o col·laboratius en les produccions artístiques treballades a l’aula, assumint diferents rols per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació, experimentació i documentació de processos creatius, personals o col·laboratius en les produccions artístiques treballades a l’aula, assumint diferents rols per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Utilització de tècniques, materials i recursos informàtics i tecnològics per a la captura, creació, edició, documentació i difusió de produccions plàstiques i visuals personals o de grup en els processos creatius per expressar idees o emocions"
+      "text": "Utilització de tècniques, materials i recursos informàtics i tecnològics per a la captura, creació, edició, documentació i difusió de produccions plàstiques i visuals personals o de grup en els processos creatius per expressar idees o emocions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús responsable de bancs d’imatges i sons respectant les llicències d’ús i distribució de continguts generats per altres per a l’estudi o com a material de creacions personals o de grup"
+      "text": "Ús responsable de bancs d’imatges i sons respectant les llicències d’ús i distribució de continguts generats per altres per a l’estudi o com a material de creacions personals o de grup",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual"
+      "text": "Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades (ràdio, televisió i videojocs multimodals)"
+      "text": "Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades (ràdio, televisió i videojocs multimodals)",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició de les nocions pròpies de llenguatge audiovisual a través del visionament de propostes icòniques, cinematogràfiques i audiovisuals"
+      "text": "Adquisició de les nocions pròpies de llenguatge audiovisual a través del visionament de propostes icòniques, cinematogràfiques i audiovisuals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició de les nocions sobre estils, gèneres i formats audiovisuals a través del visionament i valoració de creacions audiovisuals de referència"
+      "text": "Adquisició de les nocions sobre estils, gèneres i formats audiovisuals a través del visionament i valoració de creacions audiovisuals de referència",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les opinions, sensacions i sentiments que ens evoca l’observació activa de les manifestacions audiovisuals treballades compartint-les amb respecte"
+      "text": "Percepció i expressió de les opinions, sensacions i sentiments que ens evoca l’observació activa de les manifestacions audiovisuals treballades compartint-les amb respecte",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual, en el context escolar i/o a l’entorn proper"
+      "text": "Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual, en el context escolar i/o a l’entorn proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació i maneig d’eines adequades per al registre d’imatge i so, a l’entorn escolar, per narrar, documentar i expressar idees, sentiments o emocions"
+      "text": "Experimentació i maneig d’eines adequades per al registre d’imatge i so, a l’entorn escolar, per narrar, documentar i expressar idees, sentiments o emocions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’estratègies elementals de cerca i filtratge d’imatges i sons"
+      "text": "Ús d’estratègies elementals de cerca i filtratge d’imatges i sons",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació, execució i documentació de processos creatius audiovisuals col·laboratius experimentant diferents gèneres i formats assumint diferents rols per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació, execució i documentació de processos creatius audiovisuals col·laboratius experimentant diferents gèneres i formats assumint diferents rols per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Iniciació a la creació de produccions audiovisuals multimodals en grup o individual amb eines diverses facilitant el reconeixement de les característiques del llenguatge audiovisual multimodal i l’aproximació a les tècniques d’animació"
+      "text": "Iniciació a la creació de produccions audiovisuals multimodals en grup o individual amb eines diverses facilitant el reconeixement de les característiques del llenguatge audiovisual multimodal i l’aproximació a les tècniques d’animació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació en la creació, edició i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes en què participa el grup"
+      "text": "Experimentació en la creació, edició i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes en què participa el grup",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, gaudint d’espectacles enregistrats o en viu"
+      "text": "Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, gaudint d’espectacles enregistrats o en viu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades compartint-les amb interès i respecte"
+      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades compartint-les amb interès i respecte",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement, amb perspectiva de gènere, de les professions vinculades a les arts escèniques, en les obres i espais treballats"
+      "text": "Reconeixement, amb perspectiva de gènere, de les professions vinculades a les arts escèniques, en les obres i espais treballats",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Aproximació a diferents gèneres escènics com el teatre, el circ, la dansa, teatre d’objectes, teatre d’ombres, teatre musical, el mim i accions performatives, entre d’altres, assistint a actuacions i visites a diferents espais culturals i artístics del seu context o entorn"
+      "text": "Aproximació a diferents gèneres escènics com el teatre, el circ, la dansa, teatre d’objectes, teatre d’ombres, teatre musical, el mim i accions performatives, entre d’altres, assistint a actuacions i visites a diferents espais culturals i artístics del seu context o entorn",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació d’elements de la representació escènica, de l’estructura dramàtica i de l’escenografia a les obres i espectacles treballats"
+      "text": "Identificació d’elements de la representació escènica, de l’estructura dramàtica i de l’escenografia a les obres i espectacles treballats",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes escèniques en diferents espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes escèniques en diferents espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació i exploració del cos i les seves possibilitats motrius com a mitjà de comunicació, diversió i expressió d’idees, sentiments i emocions mitjançant improvisacions i actuacions individuals i de grup vinculades als diversos gèneres escènics"
+      "text": "Experimentació i exploració del cos i les seves possibilitats motrius com a mitjà de comunicació, diversió i expressió d’idees, sentiments i emocions mitjançant improvisacions i actuacions individuals i de grup vinculades als diversos gèneres escènics",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Iniciació en el coneixement de les nocions essencials del llenguatge expressiu i experimentació de les tècniques de les arts escèniques"
+      "text": "Iniciació en el coneixement de les nocions essencials del llenguatge expressiu i experimentació de les tècniques de les arts escèniques",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació i experimentació de processos creatius escènics i performatius, personals o col·laboratius, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació i experimentació de processos creatius escènics i performatius, personals o col·laboratius, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Participació activa en processos creatius escènics col·laboratius de diferents gèneres escènics com el teatre, el circ, la dansa, teatre d’objectes, teatre d’ombres, teatre musical, el mim i accions performatives, entre d’altres, assumint amb responsabilitat diferents rols per abordar l’estructura dramàtica, la representació escènica i l’escenografia"
+      "text": "Participació activa en processos creatius escènics col·laboratius de diferents gèneres escènics com el teatre, el circ, la dansa, teatre d’objectes, teatre d’ombres, teatre musical, el mim i accions performatives, entre d’altres, assumint amb responsabilitat diferents rols per abordar l’estructura dramàtica, la representació escènica i l’escenografia",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i valoració de les capacitats expressives i creatives dels projectes escènics i performatius realitzats, descobrint-los com a forma d’interacció social, recurs expressiu i emotiu i de delit estètic"
+      "text": "Identificació i valoració de les capacitats expressives i creatives dels projectes escènics i performatius realitzats, descobrint-los com a forma d’interacció social, recurs expressiu i emotiu i de delit estètic",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu"
+      "text": "Descobriment i descripció de propostes musicals vocals i instrumentals de diferents corrents estètics, procedències i èpoques produïdes per creadores i creadors locals, regionals, nacionals i d’altres llocs a través del gaudi en audicions actives de concerts registrats o en viu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades"
+      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen les audicions i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a la creació i interpretació musical amb perspectiva de gènere a les audicions i obres treballades"
+      "text": "Reconeixement de professions vinculades a la creació i interpretació musical amb perspectiva de gènere a les audicions i obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies convencionals i no convencionals durant l’audició i la pràctica musical"
+      "text": "Discriminació auditiva, classificació i representació del so i les seves qualitats a través de diferents grafies convencionals i no convencionals durant l’audició i la pràctica musical",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals digitals o analògics de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades"
+      "text": "Discriminació visual i auditiva dels diferents materials sonors, de la veu i dels instruments musicals digitals o analògics de les principals famílies i agrupacions per les seves característiques visuals i sonores de la pràctica musical i les audicions treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement i capacitat de relació del caràcter i el tempo en audicions en viu o gravades i en les interpretacions pròpies…"
+      "text": "Reconeixement i capacitat de relació del caràcter i el tempo en audicions en viu o gravades i en les interpretacions pròpies…",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes musicals. El silenci com a element i condició indispensable per mantenir l’atenció durant l’audició i la pràctica musical. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula"
+      "text": "Experimentació, exploració creativa de les possibilitats sonores i expressives a través de la interpretació i improvisació vocal i corporal en contextos informals i d’aula",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn"
+      "text": "Experimentació de les qualitats sonores construint diferents tipus d’instruments amb materials de l’entorn",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals practicades a l’aula, a les representacions i/o concerts reconeixent el silenci musical com a element fonamental"
+      "text": "Coneixement i aplicació dels diferents conceptes dels llenguatges musicals a la interpretació de propostes sonores, vocals i instrumentals practicades a l’aula, a les representacions i/o concerts reconeixent el silenci musical com a element fonamental",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’aplicacions digitals d’enregistrament i edició d’àudio i vídeo registrant creacions personals o de grup per expressar idees o emocions o fent-les servir per al descobriment i l’anàlisi d’obres"
+      "text": "Ús d’aplicacions digitals d’enregistrament i edició d’àudio i vídeo registrant creacions personals o de grup per expressar idees o emocions o fent-les servir per al descobriment i l’anàlisi d’obres",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè i sisè Educació musical ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Realització i interpretació d’una creació col·laborativa d’una pràctica musical, identificant i documentant les diferents fases del procés respectant i valorant els diferents rols exercits, el procés i el producte final"
+      "text": "Realització i interpretació d’una creació col·laborativa d’una pràctica musical, identificant i documentant les diferents fases del procés respectant i valorant els diferents rols exercits, el procés i el producte final",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i cerca, a través de diferents canals, d’imatges de diferents entorns associant-les al valor comunicatiu compartint lectures i interpretacions amb visió crítica en les pràctiques observacionals"
+      "text": "Identificació i cerca, a través de diferents canals, d’imatges de diferents entorns associant-les al valor comunicatiu compartint lectures i interpretacions amb visió crítica en les pràctiques observacionals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a la creació als àmbits de creació plasticoartística amb perspectiva de gènere de les obres treballades"
+      "text": "Reconeixement de professions vinculades a la creació als àmbits de creació plasticoartística amb perspectiva de gènere de les obres treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudiment, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere"
+      "text": "Descobriment i descripció de propostes plàstiques i visuals contemporànies i de diferents èpoques, llocs i cultures, a través del gaudiment, en observacions actives en visites o en imatges en diferents suports incorporant la perspectiva de gènere",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i gaudi d’espais culturals i artístics participant amb respecte i valorant-los en activitats i visites culturals"
+      "text": "Identificació i gaudi d’espais culturals i artístics participant amb respecte i valorant-los en activitats i visites culturals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i exploració de les possibilitats expressives i comunicatives dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació i anàlisi de les manifestacions artístiques treballades"
+      "text": "Identificació i exploració de les possibilitats expressives i comunicatives dels elements configuratius del llenguatge plàstic (punt, línia, color, textura, pla) a partir de l’observació i anàlisi de les manifestacions artístiques treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades"
+      "text": "Descobriment de materials, instruments, suports i tècniques utilitzats en l’expressió plàstica i visual a partir de l’observació activa de les manifestacions artístiques treballades",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes artístiques en diferents contextos i espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació amb diferents mitjans, suports i materials d’expressió plàstica, utilitzant tècniques bidimensionals, tridimensionals i digitals en imatges, dibuixos, pintures, modelatges i construccions i accions performatives pròpies o col·laboratives treballades en diferents contextos"
+      "text": "Experimentació amb diferents mitjans, suports i materials d’expressió plàstica, utilitzant tècniques bidimensionals, tridimensionals i digitals en imatges, dibuixos, pintures, modelatges i construccions i accions performatives pròpies o col·laboratives treballades en diferents contextos",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació, experimentació i documentació de processos creatius, personals o col·laboratius, en les produccions artístiques treballades a l’aula, assumint diferents rols per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació, experimentació i documentació de processos creatius, personals o col·laboratius, en les produccions artístiques treballades a l’aula, assumint diferents rols per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Utilització de tècniques, materials i recursos informàtics i tecnològics per a la captura, creació, edició, documentació i difusió de produccions plàstiques i visuals personals o de grup per expressar idees o emocions"
+      "text": "Utilització de tècniques, materials i recursos informàtics i tecnològics per a la captura, creació, edició, documentació i difusió de produccions plàstiques i visuals personals o de grup per expressar idees o emocions",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació plàstica i visual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús responsable de bancs d’imatges i sons respectant les llicències d’ús i distribució de continguts creats per altres per a l’estudi o com a material de creacions personals o de grup"
+      "text": "Ús responsable de bancs d’imatges i sons respectant les llicències d’ús i distribució de continguts creats per altres per a l’estudi o com a material de creacions personals o de grup",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual"
+      "text": "Identificació de propostes audiovisuals de l’entorn descobrint-ne el valor comunicatiu accedint a espais culturals i artístics de l’àmbit audiovisual",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades. (ràdio, televisió, multimodal, videojocs)"
+      "text": "Reconeixement de professions vinculades a diferents tipus de produccions audiovisuals, amb perspectiva de gènere, de projectes i obres treballades. (ràdio, televisió, multimodal, videojocs)",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició de les nocions pròpies de llenguatge audiovisual a través del visionament de propostes icòniques, cinematogràfiques i audiovisuals"
+      "text": "Adquisició de les nocions pròpies de llenguatge audiovisual a través del visionament de propostes icòniques, cinematogràfiques i audiovisuals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició de les nocions sobre estils, gèneres i formats audiovisuals a través del visionament, anàlisi i valoració de creacions audiovisuals de referència"
+      "text": "Adquisició de les nocions sobre estils, gèneres i formats audiovisuals a través del visionament, anàlisi i valoració de creacions audiovisuals de referència",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les opinions, sensacions i sentiments que ens evoca l’observació activa de les manifestacions audiovisuals treballades compartint-les amb respecte"
+      "text": "Percepció i expressió de les opinions, sensacions i sentiments que ens evoca l’observació activa de les manifestacions audiovisuals treballades compartint-les amb respecte",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes audiovisuals en diferents contextos i espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual en el context escolar i/o l’entorn més proper"
+      "text": "Creació d’històries senzilles amb intenció comunicativa per ser recreades, narrades i enregistrades de forma col·laborativa en format radiofònic o audiovisual en el context escolar i/o l’entorn més proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’eines adequades per al registre d’imatge i so per narrar, documentar i expressar idees, sentiments o emocions en el context d’aula i d’entorn"
+      "text": "Ús d’eines adequades per al registre d’imatge i so per narrar, documentar i expressar idees, sentiments o emocions en el context d’aula i d’entorn",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús d’estratègies elementals de cerca i filtratge d’imatges i sons"
+      "text": "Ús d’estratègies elementals de cerca i filtratge d’imatges i sons",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació, execució i documentació de processos creatius audiovisuals col·laboratius experimentant diferents gèneres i formats assumint diferents rols per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació, execució i documentació de processos creatius audiovisuals col·laboratius experimentant diferents gèneres i formats assumint diferents rols per narrar, documentar i expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Creació de produccions audiovisuals multimodals en grup o individual amb eines diverses facilitant el reconeixement de les característiques del llenguatge audiovisual multimodal i l’aproximació a les tècniques d’animació"
+      "text": "Creació de produccions audiovisuals multimodals en grup o individual amb eines diverses facilitant el reconeixement de les característiques del llenguatge audiovisual multimodal i l’aproximació a les tècniques d’animació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació en la creació, edició i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes en què participa el centre"
+      "text": "Experimentació en la creació, edició i difusió de missatges a través de produccions audiovisuals usant diferents processos i recursos tècnics per comunicar actes o campanyes en què participa el centre",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació audiovisual ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Ús responsable de bancs d’imatges i sons respectant les llicències d’ús i distribució de continguts creats per altres per a l’estudi o com a material de creacions personals o de grup"
+      "text": "Ús responsable de bancs d’imatges i sons respectant les llicències d’ús i distribució de continguts creats per altres per a l’estudi o com a material de creacions personals o de grup",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, gaudint d’espectacles enregistrats o en viu"
+      "text": "Descobriment i descripció de manifestacions vinculades a l’expressió corporal i a les arts escèniques de diferents llocs, èpoques i estils, incloses les contemporànies, des d’una perspectiva de gènere, gaudint d’espectacles enregistrats o en viu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades compartint-les amb interès i respecte"
+      "text": "Percepció i expressió de les sensacions i sentiments que ens evoquen els espectacles i les obres treballades compartint-les amb interès i respecte",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Reconeixement, amb perspectiva de gènere, de les professions vinculades a les arts escèniques en les obres i espais treballats"
+      "text": "Reconeixement, amb perspectiva de gènere, de les professions vinculades a les arts escèniques en les obres i espais treballats",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Aproximació als gèneres escènics i valoració de la importància de la interpretació dramàtica en el procés artístic i del patrimoni vinculat a aquestes arts, assistint a actuacions i visites a diferents espais culturals i artístics del seu context o entorn"
+      "text": "Aproximació als gèneres escènics i valoració de la importància de la interpretació dramàtica en el procés artístic i del patrimoni vinculat a aquestes arts, assistint a actuacions i visites a diferents espais culturals i artístics del seu context o entorn",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació d’elements de la representació escènica, de l’estructura dramàtica i de l’escenografia per a la valoració d’un espectacle"
+      "text": "Identificació d’elements de la representació escènica, de l’estructura dramàtica i de l’escenografia per a la valoració d’un espectacle",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes escèniques en diferents espais culturals i artístics. ● Creació i interpretació"
+      "text": "Adquisició d’hàbits de comportament i actitud positiva en la percepció de propostes escèniques en diferents espais culturals i artístics. ● Creació i interpretació",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Experimentació i exploració del cos i les seves possibilitats motrius com a mitjà de comunicació, diversió i expressió d’idees, sentiments i emocions mitjançant improvisacions i actuacions individuals i de grup vinculades als diversos gèneres escènics"
+      "text": "Experimentació i exploració del cos i les seves possibilitats motrius com a mitjà de comunicació, diversió i expressió d’idees, sentiments i emocions mitjançant improvisacions i actuacions individuals i de grup vinculades als diversos gèneres escènics",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Coneixement de les nocions essencials del llenguatge expressiu i experimentació de les tècniques de les arts escèniques a través de l’expressió i la improvisació corporal en actes performatius"
+      "text": "Coneixement de les nocions essencials del llenguatge expressiu i experimentació de les tècniques de les arts escèniques a través de l’expressió i la improvisació corporal en actes performatius",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Planificació i experimentació de processos creatius escènics i performatius, personals o col·laboratius, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals"
+      "text": "Planificació i experimentació de processos creatius escènics i performatius, personals o col·laboratius, per expressar idees, sentiments o emocions identificant i valorant-ne les fases i els resultats finals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Participació activa en processos creatius escènics col·laboratius de diferents gèneres escènics com el teatre, el circ, la dansa, teatre d’objectes, teatre d’ombres, teatre musical, el mim i accions performatives, entre d’altres, assumint amb responsabilitat diferents rols per abordar l’estructura dramàtica, la representació escènica i l’escenografia"
+      "text": "Participació activa en processos creatius escènics col·laboratius de diferents gèneres escènics com el teatre, el circ, la dansa, teatre d’objectes, teatre d’ombres, teatre musical, el mim i accions performatives, entre d’altres, assumint amb responsabilitat diferents rols per abordar l’estructura dramàtica, la representació escènica i l’escenografia",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació en arts escèniques i performatives ● Percepció i anàlisi",
       "subapartat": null,
-      "text": "Identificació i valoració de les capacitats expressives i creatives dels projectes escènics i performatius realitzats descobrint-los com a forma d’interacció social, recurs expressiu i emotiu i de delit estètic"
+      "text": "Identificació i valoració de les capacitats expressives i creatives dels projectes escènics i performatius realitzats descobrint-los com a forma d’interacció social, recurs expressiu i emotiu i de delit estètic",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

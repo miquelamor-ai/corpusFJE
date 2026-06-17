@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/TIC-I.pdf",
     "nota_estructura": "Matèria de 1r BAT, modalitat Ciències.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "Les Tecnologies de la Informació i la Comunicació I és una matèria de primer de Batxillerat de la modalitat de Ciències que desenvolupa la competència digital avançada i el pensament computacional. Prepara l'alumnat per als estudis universitaris d'informàtica, telecomunicacions, enginyeria de dades i ciberseguretat, i per a la comprensió crítica de la societat digital.\n\nLa matèria treballa el disseny i la implementació d'algorismes i programes —estructures de control, funcions, llistes i bones pràctiques de programació—, l'arquitectura dels sistemes informàtics i les xarxes de comunicació —protocols, topologies, dispositius i configuració bàsica—, les bases de dades relacionals i el disseny de pàgines web estàtiques amb HTML i CSS, i les mesures de ciberseguretat davant amenaces habituals —malware, phishing, enginyeria social i protecció de dades. La creació de continguts digitals de qualitat —web, presentacions i documents multimèdia— incorpora criteris d'usabilitat, accessibilitat i gestió dels drets d'autoria. La reflexió sobre les implicacions ètiques, socials i legals de la tecnologia digital forma part del currículum.\n\nL'enfocament pedagògic és pràctic i orientat a la resolució de problemes reals: els projectes de programació, la configuració de xarxes simulades i la creació de productes digitals alternen amb el debat sobre les responsabilitats ciutadanes en l'entorn digital."
   },
   "competencies_clau": [
@@ -31,154 +31,179 @@
       "codi": "CE1",
       "text": "Dissenyar i implementar algorismes i programes per resoldre problemes de manera eficient, aplicant estructures de control, dades i bones pràctiques de programació.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Dissenya algorismes per resoldre problemes concrets, emprant diagrames de flux o pseudocodi per representar la lògica de la solució."
+            "text": "Dissenya algorismes per resoldre problemes concrets, emprant diagrames de flux o pseudocodi per representar la lògica de la solució.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.2",
-            "text": "Implementa programes en Python aplicant estructures de selecció, repetició i modularització amb funcions."
+            "text": "Implementa programes en Python aplicant estructures de selecció, repetició i modularització amb funcions.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.3",
-            "text": "Utilitza estructures de dades (llistes, diccionaris, tuples) per gestionar conjunts d'informació de forma eficient."
+            "text": "Utilitza estructures de dades (llistes, diccionaris, tuples) per gestionar conjunts d'informació de forma eficient.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.4",
-            "text": "Detecta, interpreta i corregeix errors de sintaxi, lògica i execució, aplicant tècniques de depuració i proves."
+            "text": "Detecta, interpreta i corregeix errors de sintaxi, lògica i execució, aplicant tècniques de depuració i proves.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.5",
-            "text": "Documenta el codi amb comentaris i README, seguint les convencions de llegibilitat i mantenibilitat del programari."
+            "text": "Documenta el codi amb comentaris i README, seguint les convencions de llegibilitat i mantenibilitat del programari.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE2",
       "text": "Comprendre l'arquitectura dels sistemes informàtics i de les xarxes de comunicació per configurar-los, diagnosticar-ne problemes i optimitzar-ne el rendiment.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Descriu els components d'un sistema informàtique (CPU, memòria, emmagatzematge, periferies) i n'explica el funcionament conjunt."
+            "text": "Descriu els components d'un sistema informàtique (CPU, memòria, emmagatzematge, periferies) i n'explica el funcionament conjunt.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.2",
-            "text": "Identifica els nivells del model OSI/TCP-IP i descriu la funció de cada capa en la transmissió de dades."
+            "text": "Identifica els nivells del model OSI/TCP-IP i descriu la funció de cada capa en la transmissió de dades.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.3",
-            "text": "Configura una xarxa d'àrea local (LAN) bàsica, assignant adreces IP, màscares i passarel·les per garantir la connectivitat."
+            "text": "Configura una xarxa d'àrea local (LAN) bàsica, assignant adreces IP, màscares i passarel·les per garantir la connectivitat.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.4",
-            "text": "Diagnostica problemes de connectivitat senzills emprant eines de xarxa (ping, traceroute, ipconfig) i en proposa solucions."
+            "text": "Diagnostica problemes de connectivitat senzills emprant eines de xarxa (ping, traceroute, ipconfig) i en proposa solucions.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE3",
       "text": "Dissenyar i consultar bases de dades relacionals i desenvolupar pàgines web estàtiques, comprenent l'estructura de la informació en l'entorn digital.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Dissenya un esquema relacional (entitat-relació) per a un problema de gestió de dades, identificant entitats, atributs i relacions."
+            "text": "Dissenya un esquema relacional (entitat-relació) per a un problema de gestió de dades, identificant entitats, atributs i relacions.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.2",
-            "text": "Crea i consulta una base de dades relacional amb SQL (SELECT, INSERT, UPDATE, DELETE, JOIN)."
+            "text": "Crea i consulta una base de dades relacional amb SQL (SELECT, INSERT, UPDATE, DELETE, JOIN).",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.3",
-            "text": "Desenvolupa pàgines web estàtiques amb HTML5 i CSS3, aplicant semàntica, accessibilitat i disseny responsive bàsic."
+            "text": "Desenvolupa pàgines web estàtiques amb HTML5 i CSS3, aplicant semàntica, accessibilitat i disseny responsive bàsic.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.4",
-            "text": "Integra JavaScript bàsic en una pàgina web per afegir interactivitat (validació de formularis, manipulació del DOM)."
+            "text": "Integra JavaScript bàsic en una pàgina web per afegir interactivitat (validació de formularis, manipulació del DOM).",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE4",
       "text": "Aplicar mesures de seguretat informàtica per protegir sistemes, dades i comunicacions, identificant les amenaces i vulnerabilitats més habituals.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Identifica les principals amenaces de seguretat (malware, phishing, ransomware) i descriu els mecanismes de protecció adequats."
+            "text": "Identifica les principals amenaces de seguretat (malware, phishing, ransomware) i descriu els mecanismes de protecció adequats.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.2",
-            "text": "Aplica polítiques bàsiques de seguretat: contrasenyes robustes, autenticació en dos factors, actualitzacions i còpies de seguretat."
+            "text": "Aplica polítiques bàsiques de seguretat: contrasenyes robustes, autenticació en dos factors, actualitzacions i còpies de seguretat.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.3",
-            "text": "Comprend els fonaments de la criptografia simètrica i asimètrica, i explica el funcionament dels certificats digitals i HTTPS."
+            "text": "Comprend els fonaments de la criptografia simètrica i asimètrica, i explica el funcionament dels certificats digitals i HTTPS.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.4",
-            "text": "Analitza la seguretat d'una xarxa Wi-Fi i proposa mesures de millora concretes i justificades."
+            "text": "Analitza la seguretat d'una xarxa Wi-Fi i proposa mesures de millora concretes i justificades.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE5",
       "text": "Reflexionar sobre les implicacions ètiques, socials i legals de la tecnologia digital, adoptant un comportament responsable i crític en l'entorn en línia.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Analitza casos reals d'ús indegut de la tecnologia (fake news, ciberassetjament, biaix algorísmic) i proposa respostes individuals i col·lectives."
+            "text": "Analitza casos reals d'ús indegut de la tecnologia (fake news, ciberassetjament, biaix algorísmic) i proposa respostes individuals i col·lectives.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.2",
-            "text": "Descriu els drets digitals bàsics (privacitat, accés a la informació, no-discriminació) i els relaciona amb la legislació vigent (RGPD, LOPDGDD)."
+            "text": "Descriu els drets digitals bàsics (privacitat, accés a la informació, no-discriminació) i els relaciona amb la legislació vigent (RGPD, LOPDGDD).",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.3",
-            "text": "Avalua crítica la seva pròpia petjada digital i proposa estratègies per a una gestió responsable de la identitat en línia."
+            "text": "Avalua crítica la seva pròpia petjada digital i proposa estratègies per a una gestió responsable de la identitat en línia.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.4",
-            "text": "Reflexiona sobre l'impacte mediambiental de la tecnologia (consum energètic, residus electrònics) i promou pràctiques sostenibles."
+            "text": "Reflexiona sobre l'impacte mediambiental de la tecnologia (consum energètic, residus electrònics) i promou pràctiques sostenibles.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     },
     {
       "codi": "CE6",
       "text": "Crear continguts digitals de qualitat (web, presentacions, documents multimèdia) aplicant criteris d'usabilitat, accessibilitat i drets d'autoria.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA6.1",
-            "text": "Produeix continguts digitals multimèdia (vídeo, podcast, infografia) amb eines digitals, aplicant criteris de qualitat i accessibilitat."
+            "text": "Produeix continguts digitals multimèdia (vídeo, podcast, infografia) amb eines digitals, aplicant criteris de qualitat i accessibilitat.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA6.2",
-            "text": "Gestiona la publicació de continguts en plataformes digitals, aplicant les llicències Creative Commons adequades."
+            "text": "Gestiona la publicació de continguts en plataformes digitals, aplicant les llicències Creative Commons adequades.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA6.3",
-            "text": "Avalua crítica continguts digitals existents en relació a la seva accessibilitat, usabilitat i compliment dels drets d'autoria."
+            "text": "Avalua crítica continguts digitals existents en relació a la seva accessibilitat, usabilitat i compliment dels drets d'autoria.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA6.4",
-            "text": "Col·labora en projectes digitals compartits (wikis, repositoris, espais de treball en el núvol), aplicant normes de treball cooperatiu."
+            "text": "Col·labora en projectes digitals compartits (wikis, repositoris, espais de treball en el núvol), aplicant normes de treball cooperatiu.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": []
+        "BAT_2N": []
       }
     }
   ],
@@ -268,397 +293,530 @@
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Pensament computacional: descomposició, abstracció, reconeixement de patrons, algorismia"
+      "text": "Pensament computacional: descomposició, abstracció, reconeixement de patrons, algorismia",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Algorismes: definició, característiques i representació (pseudocodi, diagrama de flux)"
+      "text": "Algorismes: definició, característiques i representació (pseudocodi, diagrama de flux)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Estructures de control: sequèncial, condicional (if/elif/else) i iterativa (for, while)"
+      "text": "Estructures de control: sequèncial, condicional (if/elif/else) i iterativa (for, while)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Funcions i modularització: definició, paràmetres, valors de retorn i àmbits de variables"
+      "text": "Funcions i modularització: definició, paràmetres, valors de retorn i àmbits de variables",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Llistes i tuples: creació, accés, modificació i recorregut"
+      "text": "Llistes i tuples: creació, accés, modificació i recorregut",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Diccionaris i conjunts: operacions i aplicacions en la gestió de dades"
+      "text": "Diccionaris i conjunts: operacions i aplicacions en la gestió de dades",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Cadenes de caràcters: mètodes d'ús més frequent i format de sortida"
+      "text": "Cadenes de caràcters: mètodes d'ús més frequent i format de sortida",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Entrada i sortida de dades: teclat, pantalla i fitxers de text"
+      "text": "Entrada i sortida de dades: teclat, pantalla i fitxers de text",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Depuració i proves: errors de sintaxi vs. errors de lògica, tècniques de debugging"
+      "text": "Depuració i proves: errors de sintaxi vs. errors de lògica, tècniques de debugging",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Documentació del codi: comentaris, docstrings i README bàsics"
+      "text": "Documentació del codi: comentaris, docstrings i README bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Entorns de desenvolupament: IDE (VSCode, PyCharm, Thonny) i notebooks Jupyter"
+      "text": "Entorns de desenvolupament: IDE (VSCode, PyCharm, Thonny) i notebooks Jupyter",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Control de versions bàsic: git init, commit, push, pull amb GitHub"
+      "text": "Control de versions bàsic: git init, commit, push, pull amb GitHub",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Resolució de problemes reals amb Python: exemples de ciències i dades"
+      "text": "Resolució de problemes reals amb Python: exemples de ciències i dades",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "programacio_algorismes",
       "subapartat": null,
-      "text": "Introducció a les llibreries Python: math, random, datetime i os"
+      "text": "Introducció a les llibreries Python: math, random, datetime i os",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Arquitectura d'un sistema informàtique: CPU, memòria RAM, ROM, caché i emmagatzematge"
+      "text": "Arquitectura d'un sistema informàtique: CPU, memòria RAM, ROM, caché i emmagatzematge",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Representació de la informació: binari, hexadecimal i codificació de caràcters (ASCII, Unicode)"
+      "text": "Representació de la informació: binari, hexadecimal i codificació de caràcters (ASCII, Unicode)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Sistemes operatius: funcions, tipus (Windows, GNU/Linux, macOS) i gestió de recursos"
+      "text": "Sistemes operatius: funcions, tipus (Windows, GNU/Linux, macOS) i gestió de recursos",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Virtualització: concepte, hipervisors i cas d'ús en entorns professionals"
+      "text": "Virtualització: concepte, hipervisors i cas d'ús en entorns professionals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Xarxes de comunicació: tipologies (LAN, WAN, MAN), topologies i medis de transmissió"
+      "text": "Xarxes de comunicació: tipologies (LAN, WAN, MAN), topologies i medis de transmissió",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Model OSI: set capes, funcions i protocols associats a cada capa"
+      "text": "Model OSI: set capes, funcions i protocols associats a cada capa",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Protocol TCP/IP: capes, adreces IPv4/IPv6, màscares de subxarxa i encaminament"
+      "text": "Protocol TCP/IP: capes, adreces IPv4/IPv6, màscares de subxarxa i encaminament",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Serveis de xarxa bàsics: DNS, DHCP, HTTP/HTTPS, FTP, SSH"
+      "text": "Serveis de xarxa bàsics: DNS, DHCP, HTTP/HTTPS, FTP, SSH",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Xarxes sense fil (Wi-Fi): estàndards 802.11, bandes de freqüència i configuració bàsica"
+      "text": "Xarxes sense fil (Wi-Fi): estàndards 802.11, bandes de freqüència i configuració bàsica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Diagnòsi de xarxa: ping, traceroute, nslookup, netstat i Wireshark (introducció)"
+      "text": "Diagnòsi de xarxa: ping, traceroute, nslookup, netstat i Wireshark (introducció)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "El núvol (cloud computing): models IaaS, PaaS, SaaS i principals proveïdors"
+      "text": "El núvol (cloud computing): models IaaS, PaaS, SaaS i principals proveïdors",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Internet of Things (IoT): concepte, arquitectura i exemples d'aplicació"
+      "text": "Internet of Things (IoT): concepte, arquitectura i exemples d'aplicació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Sistemes encastats i microcontroladors: Arduino i Raspberry Pi com a plataformes d'aprenentatge"
+      "text": "Sistemes encastats i microcontroladors: Arduino i Raspberry Pi com a plataformes d'aprenentatge",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sistemes_i_xarxes",
       "subapartat": null,
-      "text": "Tendències en arquitectura de sistemes: edge computing, computació quàntica i 5G"
+      "text": "Tendències en arquitectura de sistemes: edge computing, computació quàntica i 5G",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Dades vs. informació vs. coneixement: la piràmide DICS i el valor de les dades"
+      "text": "Dades vs. informació vs. coneixement: la piràmide DICS i el valor de les dades",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Model relacional: entitats, atributs, relacions, claus primàries i forànies"
+      "text": "Model relacional: entitats, atributs, relacions, claus primàries i forànies",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Diagrama entitat-relació (ER): notació de Chen i notació de Crow's Foot"
+      "text": "Diagrama entitat-relació (ER): notació de Chen i notació de Crow's Foot",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "SQL bàsica: CREATE, DROP, INSERT, UPDATE, DELETE i SELECT amb clàusules WHERE"
+      "text": "SQL bàsica: CREATE, DROP, INSERT, UPDATE, DELETE i SELECT amb clàusules WHERE",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Consultes avançades SQL: JOIN (INNER, LEFT, RIGHT), GROUP BY, ORDER BY i funcions d'agregat"
+      "text": "Consultes avançades SQL: JOIN (INNER, LEFT, RIGHT), GROUP BY, ORDER BY i funcions d'agregat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Sistemes gestors de bases de dades (SGBD): SQLite, MySQL, PostgreSQL. Comparativa"
+      "text": "Sistemes gestors de bases de dades (SGBD): SQLite, MySQL, PostgreSQL. Comparativa",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Introducció a les bases de dades NoSQL: MongoDB i casos d'ús"
+      "text": "Introducció a les bases de dades NoSQL: MongoDB i casos d'ús",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Fonaments d'HTML5: estructura, semàntica, etiquetes principals i accessibilitat (ARIA)"
+      "text": "Fonaments d'HTML5: estructura, semàntica, etiquetes principals i accessibilitat (ARIA)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "CSS3: selectors, model de caixa, Flexbox, Grid i disseny responsive (media queries)"
+      "text": "CSS3: selectors, model de caixa, Flexbox, Grid i disseny responsive (media queries)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "JavaScript bàsic: variables, funcions, events i manipulació del DOM"
+      "text": "JavaScript bàsic: variables, funcions, events i manipulació del DOM",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Xarxa World Wide Web: funcionament d'HTTP/HTTPS, URL, cookies i sessions"
+      "text": "Xarxa World Wide Web: funcionament d'HTTP/HTTPS, URL, cookies i sessions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Eines de desenvolupament web: editors, navegadors, DevTools i validadors W3C"
+      "text": "Eines de desenvolupament web: editors, navegadors, DevTools i validadors W3C",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "APIs RESTful: concepte, peticions GET/POST, format JSON i consum bàsic des de Python"
+      "text": "APIs RESTful: concepte, peticions GET/POST, format JSON i consum bàsic des de Python",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "bases_dades_i_web",
       "subapartat": null,
-      "text": "Seguretat web bàsica: injecció SQL, XSS i mesures preventives"
+      "text": "Seguretat web bàsica: injecció SQL, XSS i mesures preventives",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Conceptes bàsics de seguretat: confidencialitat, integritat, disponibilitat (CIA)"
+      "text": "Conceptes bàsics de seguretat: confidencialitat, integritat, disponibilitat (CIA)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Principals amenaces: virus, troians, ransomware, spyware, adware i rootkits"
+      "text": "Principals amenaces: virus, troians, ransomware, spyware, adware i rootkits",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Atacs de xarxa: phishing, spoofing, man-in-the-middle, DDoS i enginyeria social"
+      "text": "Atacs de xarxa: phishing, spoofing, man-in-the-middle, DDoS i enginyeria social",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Mecanismes de protecció: antivirus, tallafoc (firewall), IDS/IPS i DMZ"
+      "text": "Mecanismes de protecció: antivirus, tallafoc (firewall), IDS/IPS i DMZ",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Política de contrasenyes: longitud, complexitat, gestors de contrasenyes i 2FA"
+      "text": "Política de contrasenyes: longitud, complexitat, gestors de contrasenyes i 2FA",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Criptografia simètrica: AES, DES. Principi de funcionament i aplicacions"
+      "text": "Criptografia simètrica: AES, DES. Principi de funcionament i aplicacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Criptografia asimètrica: RSA, claus pública/privada i infraestructura de clau pública (PKI)"
+      "text": "Criptografia asimètrica: RSA, claus pública/privada i infraestructura de clau pública (PKI)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Certificats digitals i HTTPS: SSL/TLS, autoritats de certificació i cadena de confiança"
+      "text": "Certificats digitals i HTTPS: SSL/TLS, autoritats de certificació i cadena de confiança",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Signatura digital i no-repudi: concepte i aplicacions legals"
+      "text": "Signatura digital i no-repudi: concepte i aplicacions legals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Còpies de seguretat: tipus (completa, incremental, diferencial) i estratègia 3-2-1"
+      "text": "Còpies de seguretat: tipus (completa, incremental, diferencial) i estratègia 3-2-1",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Normativa de seguretat: ISO 27001, NIST i Esquema Nacional de Seguretat"
+      "text": "Normativa de seguretat: ISO 27001, NIST i Esquema Nacional de Seguretat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "seguretat_informatica",
       "subapartat": null,
-      "text": "Hacking ètic i pentesting: concepte, fases i eines bàsics (Kali Linux, introducció)"
+      "text": "Hacking ètic i pentesting: concepte, fases i eines bàsics (Kali Linux, introducció)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Identitat digital: petjada digital, reputació en línia i gestió de la privacitat"
+      "text": "Identitat digital: petjada digital, reputació en línia i gestió de la privacitat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Drets digitals: accés a la informació, privacitat, protecció de dades i no-discriminació"
+      "text": "Drets digitals: accés a la informació, privacitat, protecció de dades i no-discriminació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Legislació vigent: RGPD (Reglament General de Protecció de Dades) i LOPDGDD a Espanya"
+      "text": "Legislació vigent: RGPD (Reglament General de Protecció de Dades) i LOPDGDD a Espanya",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Ciberassetjament (cyberbullying): identificació, prevenció i protocols d'actuació"
+      "text": "Ciberassetjament (cyberbullying): identificació, prevenció i protocols d'actuació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Desinformació i fake news: mecanismes de difusió, verificació de fonts i fact-checking"
+      "text": "Desinformació i fake news: mecanismes de difusió, verificació de fonts i fact-checking",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Biaix algorísmic: com els algorismes poden reproduir i amplificar discriminacions"
+      "text": "Biaix algorísmic: com els algorismes poden reproduir i amplificar discriminacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Inclusió digital i bretxa digital: causes, impacte social i mesures de reducció"
+      "text": "Inclusió digital i bretxa digital: causes, impacte social i mesures de reducció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Drets d'autoria en el món digital: llicències Creative Commons, copyleft i domini públic"
+      "text": "Drets d'autoria en el món digital: llicències Creative Commons, copyleft i domini públic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Impacte mediambiental de la tecnologia: consum energètic de centres de dades, e-waste"
+      "text": "Impacte mediambiental de la tecnologia: consum energètic de centres de dades, e-waste",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Tecnologia sostenible: principis d'eco-disseny, repairability i obsolescència programada"
+      "text": "Tecnologia sostenible: principis d'eco-disseny, repairability i obsolescència programada",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Salut digital: addicció a la tecnologia, temps de pantalla i ergonomia digital"
+      "text": "Salut digital: addicció a la tecnologia, temps de pantalla i ergonomia digital",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "etica_digital",
       "subapartat": null,
-      "text": "Participació cívica digital: e-democràcia, peticions en línia i activisme digital responsable"
+      "text": "Participació cívica digital: e-democràcia, peticions en línia i activisme digital responsable",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

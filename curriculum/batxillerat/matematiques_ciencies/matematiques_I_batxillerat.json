@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/Matematiques-I.pdf",
     "nota_estructura": "Matemàtiques I és matèria de 1r de Batxillerat de la modalitat Ciències i Tecnologia. Els sabers bàsics s'organitzen en quatre blocs: Nombres i àlgebra, Anàlisi matemàtica, Geometria, i Estadística i probabilitat.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "Les Matemàtiques I de Batxillerat de la modalitat de Ciències i Tecnologia constitueixen la base del pensament formal i quantitatiu que necessiten els alumnes per accedir a estudis d'Enginyeria, Física, Matemàtiques, Economia, Arquitectura i qualsevol disciplina on la modelització sigui clau. Consoliden els fonaments del càlcul, l'àlgebra i la geometria analítica.\n\nEls sabers bàsics s'articulen en quatre grans blocs. El bloc de nombres i àlgebra treballa els nombres reals i complexos, els polinomis, les equacions i sistemes d'equacions, i les progressions aritmètiques i geomètriques. L'anàlisi matemàtica introdueix les funcions reals, els límits i la continuïtat, el càlcul diferencial —derivades, regles de derivació i aplicacions a l'estudi de funcions— i una iniciació al càlcul integral. La geometria analítica treballa vectors, rectes i còniques al pla. Finalment, l'estadística i la probabilitat aborden la distribució de Laplace, la distribució normal i els rudiments del raonament probabilístic, preparant el terreny per a l'estadística inferencial de segon curs.\n\nL'enfocament pedagògic de la matèria prioritza la resolució de problemes en contextos reals i la comunicació matemàtica rigorosa, tant oral com escrita. L'alumne aprèn a planificar estratègies, validar resultats i usar recursos digitals —calculadores gràfiques, fulls de càlcul, programari de geometria dinàmica— com a eines de comprovació i exploració, sense substituir el raonament fonamental."
   },
   "competencies_clau": [
@@ -36,7 +36,7 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "1.1 Identificar i interpretar l'estructura d'un problema matemàtic, reformulant-lo si cal per facilitar-ne la resolució.",
           "1.2 Seleccionar i aplicar estratègies adequades per resoldre problemes, valorant la correcció del procediment i la raonabilitat del resultat.",
           "1.3 Argumentar i justificar les solucions obtingudes, utilitzant el vocabulari matemàtic adequat tant en forma escrita com oral."
@@ -53,7 +53,7 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "2.1 Traduir situacions reals a expressions algebraiques, funcionals o geomètriques, identificant les variables rellevants.",
           "2.2 Interpretar els resultats del model en el context real, valorant la seva coherència i propietat.",
           "2.3 Utilitzar eines digitals per a l'exploració i la representació de models matemàtics."
@@ -70,7 +70,7 @@
         "CP"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "3.1 Identificar relacions entre conceptes algebraics, geomètrics i analítics, establint ponts entre els diferents blocs de contingut.",
           "3.2 Reconèixer aplicacions de les matemàtiques en contextos de la física, la química i altres ciències.",
           "3.3 Valorar el paper de la història de les matemàtiques en el desenvolupament del pensament científic."
@@ -87,7 +87,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "4.1 Interpretar i produir representacions gràfiques de funcions, dades estadístiques i figures geomètriques amb precisió.",
           "4.2 Expressar processos i resultats matemàtics de forma escrita clara, amb notació simbòlica adequada.",
           "4.3 Llegir i comprendre textos matemàtics i científics elementals que incorporin notació formal."
@@ -104,7 +104,7 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "5.1 Calcular i interpretar mesures de centralització i dispersió per descriure conjunts de dades.",
           "5.2 Calcular probabilitats d'esdeveniments simples i compostos, aplicant les regles i teoremes elementals.",
           "5.3 Analitzar distribucions estadístiques, identificant-ne la forma, la centralitat i la dispersió per extreure'n conclusions."
@@ -188,181 +188,242 @@
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Nombres reals i complexos",
-      "text": "El conjunt dels nombres reals: propietats, representació i operacions"
+      "text": "El conjunt dels nombres reals: propietats, representació i operacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Nombres reals i complexos",
-      "text": "Nombres complexos en forma binòmica: operacions bàsiques, mòdul i argument"
+      "text": "Nombres complexos en forma binòmica: operacions bàsiques, mòdul i argument",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Nombres reals i complexos",
-      "text": "Aplicació dels nombres complexos en situacions geomètriques i científiques"
+      "text": "Aplicació dels nombres complexos en situacions geomètriques i científiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Polinomis i fraccions algebraiques",
-      "text": "Operacions amb polinomis: divisió, teorema del residu i del factor"
+      "text": "Operacions amb polinomis: divisió, teorema del residu i del factor",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Polinomis i fraccions algebraiques",
-      "text": "Descomposició factorial de polinomis"
+      "text": "Descomposició factorial de polinomis",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Polinomis i fraccions algebraiques",
-      "text": "Fraccions algebraiques: simplificació i operacions"
+      "text": "Fraccions algebraiques: simplificació i operacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Sistemes d'equacions",
-      "text": "Sistemes d'equacions lineals: mètodes de resolució (substitució, igualació, reducció, Cramer)"
+      "text": "Sistemes d'equacions lineals: mètodes de resolució (substitució, igualació, reducció, Cramer)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Sistemes d'equacions",
-      "text": "Sistemes no lineals amb dues incògnites"
+      "text": "Sistemes no lineals amb dues incògnites",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Nombres i àlgebra",
       "subapartat": "Sistemes d'equacions",
-      "text": "Interpretació geomètrica dels sistemes d'equacions"
+      "text": "Interpretació geomètrica dels sistemes d'equacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Funcions reals",
-      "text": "Funcions elementals: polynomials, racionals, irracionals, exponencials, logarítmiques i trigonomètriques"
+      "text": "Funcions elementals: polynomials, racionals, irracionals, exponencials, logarítmiques i trigonomètriques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Funcions reals",
-      "text": "Propietats de les funcions: domini, recorregut, paritat, periodicitat"
+      "text": "Propietats de les funcions: domini, recorregut, paritat, periodicitat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Funcions reals",
-      "text": "Composició i inversió de funcions"
+      "text": "Composició i inversió de funcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Límits i continuïtat",
-      "text": "Concepte de límit d'una funció en un punt i a l'infinit"
+      "text": "Concepte de límit d'una funció en un punt i a l'infinit",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Límits i continuïtat",
-      "text": "Propietats dels límits i indeterminacions elementals"
+      "text": "Propietats dels límits i indeterminacions elementals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Límits i continuïtat",
-      "text": "Continuïtat d'una funció: definició, tipus de discontinuïtat i teorema de Bolzano"
+      "text": "Continuïtat d'una funció: definició, tipus de discontinuïtat i teorema de Bolzano",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Derivació",
-      "text": "Derivada d'una funció en un punt: definició i interpretació geomètrica"
+      "text": "Derivada d'una funció en un punt: definició i interpretació geomètrica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Derivació",
-      "text": "Regles de derivació: derivada de la suma, producte, quocient i composició (regla de la cadena)"
+      "text": "Regles de derivació: derivada de la suma, producte, quocient i composició (regla de la cadena)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Anàlisi matemàtica",
       "subapartat": "Derivació",
-      "text": "Aplicació de les derivades: monotonia, extrems, concavitat i representació de funcions"
+      "text": "Aplicació de les derivades: monotonia, extrems, concavitat i representació de funcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Geometria",
       "subapartat": "Trigonometria",
-      "text": "Raons trigonomètriques: sinus, cosinus, tangent i les seves relacions"
+      "text": "Raons trigonomètriques: sinus, cosinus, tangent i les seves relacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Geometria",
       "subapartat": "Trigonometria",
-      "text": "Identitats trigonomètriques fonamentals i fórmules d'addició"
+      "text": "Identitats trigonomètriques fonamentals i fórmules d'addició",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Geometria",
       "subapartat": "Trigonometria",
-      "text": "Resolució de triangles rectangles i obliquangles (teorema del sinus i del cosinus)"
+      "text": "Resolució de triangles rectangles i obliquangles (teorema del sinus i del cosinus)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Geometria",
       "subapartat": "Geometria analítica en el pla",
-      "text": "Vectors en el pla: operacions, producte escalar i angle entre vectors"
+      "text": "Vectors en el pla: operacions, producte escalar i angle entre vectors",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Geometria",
       "subapartat": "Geometria analítica en el pla",
-      "text": "Rectes en el pla: equacions, posicions relatives i distàncies"
+      "text": "Rectes en el pla: equacions, posicions relatives i distàncies",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Geometria",
       "subapartat": "Geometria analítica en el pla",
-      "text": "Còniques: equació i elements de la circumferència, la paràbola, l'el·lipse i la hipèrbola"
+      "text": "Còniques: equació i elements de la circumferència, la paràbola, l'el·lipse i la hipèrbola",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Estadística i probabilitat",
       "subapartat": "Estadística unidimensional",
-      "text": "Variables estadístiques: distribució de freqüències, representacions gràfiques"
+      "text": "Variables estadístiques: distribució de freqüències, representacions gràfiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Estadística i probabilitat",
       "subapartat": "Estadística unidimensional",
-      "text": "Mesures de centralització: mitjana, mediana i moda"
+      "text": "Mesures de centralització: mitjana, mediana i moda",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Estadística i probabilitat",
       "subapartat": "Estadística unidimensional",
-      "text": "Mesures de dispersió: rang, variança i desviació típica"
+      "text": "Mesures de dispersió: rang, variança i desviació típica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Estadística i probabilitat",
       "subapartat": "Probabilitat",
-      "text": "Espai mostral, succés i probabilitat: definicions i propietats"
+      "text": "Espai mostral, succés i probabilitat: definicions i propietats",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Estadística i probabilitat",
       "subapartat": "Probabilitat",
-      "text": "Probabilitat condicionada, regla del producte i teorema de Bayes"
+      "text": "Probabilitat condicionada, regla del producte i teorema de Bayes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Estadística i probabilitat",
       "subapartat": "Probabilitat",
-      "text": "Distribucions de probabilitat discretes: distribució binomial"
+      "text": "Distribucions de probabilitat discretes: distribució binomial",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

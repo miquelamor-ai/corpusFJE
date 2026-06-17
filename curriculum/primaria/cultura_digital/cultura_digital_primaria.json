@@ -8,7 +8,7 @@
     "data_decret": "2022-08-22",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Cultura-Digital.pdf",
     "descripcio": "La Cultura Digital a Primària prepara l'alumnat de 6 a 12 anys per viure i participar de forma activa, crítica i responsable en la societat digital. Connecta amb els àmbits personal, acadèmic i social, dotant l'infant d'eines per comprendre, usar i valorar de manera ètica els entorns i recursos tecnològics que impregnen la vida quotidiana.\n\nEl currículum articula els sabers al voltant de quatre grans eixos: la competència en dispositius i sistemes digitals (maquinari, programari, sistemes operatius, xarxes), la creació de continguts digitals (textos, presentacions, imatges, codi bàsic), la seguretat i privadesa en línia (identitat digital, protecció de dades, drets d'autoria) i la recerca i gestió crítica de la informació (cerca eficient, avaluació de fonts, citació). El pensament computacional, entès com la capacitat de descompondre problemes, detectar patrons i dissenyar algorismes simples, és un constructe transversal a tota la matèria. La ciutadania digital i el benestar en línia completen el marc de sabers.\n\nL'aprenentatge de la Cultura Digital a Primària és eminentment pràctic i situat: aprendre fent, resolent reptes reals i col·laborant en projectes digitals. La programació per blocs, la robòtica educativa i la creació multimèdia donen sentit als conceptes teòrics. Es fomenta la mirada crítica i reflexiva davant la tecnologia, evitant un ús passiu i promovent l'agència digital de l'alumnat.",
-    "versio_schema": "1.0"
+    "versio_schema": "1.2"
   },
   "competencies_clau": [
     "CCL",
@@ -25,46 +25,55 @@
       "codi": "CE1",
       "text": "Comprendre i usar de forma autònoma i responsable els dispositius, sistemes i entorns digitals, identificant les seves funcions, possibilitats i limitacions, per a l'aprenentatge, la comunicació i la participació en la societat digital de forma segura i eficient.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Identificar i usar de forma bàsica els dispositius digitals habituals (ordinador, tauleta, pissarra digital) i els seus components principals."
+            "text": "Identificar i usar de forma bàsica els dispositius digitals habituals (ordinador, tauleta, pissarra digital) i els seus components principals.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Realitzar operacions bàsiques amb els dispositius digitals: encendre, apagar, obrir programes, guardar fitxers en carpetes."
+            "text": "Realitzar operacions bàsiques amb els dispositius digitals: encendre, apagar, obrir programes, guardar fitxers en carpetes.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.3",
-            "text": "Usar el teclat i el ratolí (o les funcions tàctils) amb progressiva destresa per interactuar amb el dispositiu."
+            "text": "Usar el teclat i el ratolí (o les funcions tàctils) amb progressiva destresa per interactuar amb el dispositiu.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA1.1",
-            "text": "Usar de forma autònoma i eficient els dispositius digitals per a l'aprenentatge, organitzant fitxers i carpetes de treball."
+            "text": "Usar de forma autònoma i eficient els dispositius digitals per a l'aprenentatge, organitzant fitxers i carpetes de treball.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar i usar els principals sistemes operatius, programari bàsic i aplicacions educatives del centre."
+            "text": "Identificar i usar els principals sistemes operatius, programari bàsic i aplicacions educatives del centre.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.3",
-            "text": "Connectar perifèrics i dispositius externs bàsics (impressora, projecció, auriculars) i solucionar problemes tècnics simples de forma autònoma."
+            "text": "Connectar perifèrics i dispositius externs bàsics (impressora, projecció, auriculars) i solucionar problemes tècnics simples de forma autònoma.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA1.1",
-            "text": "Usar amb fluïdesa i autonomia els dispositius i sistemes operatius, configurant l'entorn de treball digital de forma personalitzada i eficient."
+            "text": "Usar amb fluïdesa i autonomia els dispositius i sistemes operatius, configurant l'entorn de treball digital de forma personalitzada i eficient.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.2",
-            "text": "Comprendre els conceptes bàsics del pensament computacional (algorismes, seqüències, bucles, condicions) i aplicar-los en activitats de programació bàsica."
+            "text": "Comprendre els conceptes bàsics del pensament computacional (algorismes, seqüències, bucles, condicions) i aplicar-los en activitats de programació bàsica.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.3",
-            "text": "Usar eines de programació per blocs o text bàsic per crear projectes digitals senzills (animacions, jocs, simulacions)."
+            "text": "Usar eines de programació per blocs o text bàsic per crear projectes digitals senzills (animacions, jocs, simulacions).",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -73,42 +82,50 @@
       "codi": "CE2",
       "text": "Buscar, seleccionar, organitzar i avaluar críticament la informació disponible en entorns digitals, aplicant estratègies de verificació i contrastació de fonts per construir coneixement fiable i responsable en la cultura de la informació digital.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Realitzar cerques bàsiques d'informació en un navegador web amb ajuda del docent, identificant alguns elements d'una pàgina web."
+            "text": "Realitzar cerques bàsiques d'informació en un navegador web amb ajuda del docent, identificant alguns elements d'una pàgina web.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Distingir entre informació verídica i falsa en exemples senzills i concrets amb orientació del docent."
+            "text": "Distingir entre informació verídica i falsa en exemples senzills i concrets amb orientació del docent.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Realitzar cerques d'informació en fonts digitals diverses, aplicant criteris de selecció i contrastació de fonts bàsics."
+            "text": "Realitzar cerques d'informació en fonts digitals diverses, aplicant criteris de selecció i contrastació de fonts bàsics.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.2",
-            "text": "Distingir fonts fiables de fonts no fiables i identificar notícies falses (fake news) en exemples senzills."
+            "text": "Distingir fonts fiables de fonts no fiables i identificar notícies falses (fake news) en exemples senzills.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.3",
-            "text": "Organitzar i gestionar la informació digital trobada (guardar en carpetes, crear marcadors, fer esquemes digitals)."
+            "text": "Organitzar i gestionar la informació digital trobada (guardar en carpetes, crear marcadors, fer esquemes digitals).",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Aplicar estratègies avançades de cerca i avaluació de la informació digital, verificant la fiabilitat, actualitat i autoritat de les fonts."
+            "text": "Aplicar estratègies avançades de cerca i avaluació de la informació digital, verificant la fiabilitat, actualitat i autoritat de les fonts.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.2",
-            "text": "Analitzar críticament la informació digital, identificant biaix, manipulació, desinformació i estratègies propagandístiques."
+            "text": "Analitzar críticament la informació digital, identificant biaix, manipulació, desinformació i estratègies propagandístiques.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.3",
-            "text": "Gestionar el propi entorn d'informació digital de forma autònoma i eficient, usant eines de gestió de la informació."
+            "text": "Gestionar el propi entorn d'informació digital de forma autònoma i eficient, usant eines de gestió de la informació.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -117,42 +134,50 @@
       "codi": "CE3",
       "text": "Crear continguts digitals de tipologia diversa (textos, imatges, àudios, vídeos, presentacions, programes) de forma original i responsable, usant eines i recursos digitals per expressar idees, comunicar coneixements i participar en la cultura digital.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Crear produccions digitals molt senzilles (dibuixos digitals, presentacions amb imatges, texts breus) usant programes bàsics del nivell."
+            "text": "Crear produccions digitals molt senzilles (dibuixos digitals, presentacions amb imatges, texts breus) usant programes bàsics del nivell.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Enregistrar àudios o vídeos molt breus amb un dispositiu digital amb ajuda del docent."
+            "text": "Enregistrar àudios o vídeos molt breus amb un dispositiu digital amb ajuda del docent.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Crear produccions digitals de tipologia diversa (presentacions, documents de text, vídeos, pòdcasts, infografies senzilles) amb eines digitals."
+            "text": "Crear produccions digitals de tipologia diversa (presentacions, documents de text, vídeos, pòdcasts, infografies senzilles) amb eines digitals.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Usar programes bàsics de creació audiovisual (editor de vídeo, editor d'àudio) per crear produccions senzilles."
+            "text": "Usar programes bàsics de creació audiovisual (editor de vídeo, editor d'àudio) per crear produccions senzilles.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.3",
-            "text": "Respectar la propietat intel·lectual i el dret d'autoria en les produccions digitals pròpies (citar fonts, usar llicències Creative Commons)."
+            "text": "Respectar la propietat intel·lectual i el dret d'autoria en les produccions digitals pròpies (citar fonts, usar llicències Creative Commons).",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Crear produccions digitals complexes i originals (vídeos d'edició avançada, pòdcasts, pàgines web senzilles, aplicacions bàsiques) amb intenció comunicativa."
+            "text": "Crear produccions digitals complexes i originals (vídeos d'edició avançada, pòdcasts, pàgines web senzilles, aplicacions bàsiques) amb intenció comunicativa.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar el pensament computacional en la resolució de problemes reals: descomposició, reconeixement de patrons, abstracció i algorismes."
+            "text": "Aplicar el pensament computacional en la resolució de problemes reals: descomposició, reconeixement de patrons, abstracció i algorismes.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.3",
-            "text": "Respectar la propietat intel·lectual i les llicències de ús en les produccions digitals i en el consum de contingut en línia."
+            "text": "Respectar la propietat intel·lectual i les llicències de ús en les produccions digitals i en el consum de contingut en línia.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -161,30 +186,35 @@
       "codi": "CE4",
       "text": "Comunicar-se i col·laborar en entorns digitals de forma efectiva, respectuosa i responsable, usant les eines i plataformes digitals per a la interacció, el treball en equip i la participació en comunitats d'aprenentatge en línia.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Participar en activitats digitals col·lectives de l'aula (treball compartit en una pissarra digital, votació, formulari senzill) de forma respectuosa."
+            "text": "Participar en activitats digitals col·lectives de l'aula (treball compartit en una pissarra digital, votació, formulari senzill) de forma respectuosa.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Col·laborar en documents i projectes digitals compartits, usant eines de treball cooperatiu en línia."
+            "text": "Col·laborar en documents i projectes digitals compartits, usant eines de treball cooperatiu en línia.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA4.2",
-            "text": "Comunicar-se de forma respectuosa i responsable en entorns digitals escolars (correu electrònic, plataforma educativa)."
+            "text": "Comunicar-se de forma respectuosa i responsable en entorns digitals escolars (correu electrònic, plataforma educativa).",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Col·laborar de forma eficaç en projectes digitals col·laboratius, usant eines de gestió de projectes i comunicació en línia."
+            "text": "Col·laborar de forma eficaç en projectes digitals col·laboratius, usant eines de gestió de projectes i comunicació en línia.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA4.2",
-            "text": "Participar de forma responsable, respectuosa i crítica en comunitats digitals d'aprenentatge i en les xarxes socials."
+            "text": "Participar de forma responsable, respectuosa i crítica en comunitats digitals d'aprenentatge i en les xarxes socials.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -193,46 +223,55 @@
       "codi": "CE5",
       "text": "Adoptar hàbits d'ús segur, saludable i ètic de les tecnologies digitals, protegint la pròpia privacitat i identitat digital, identificant riscos i amenaces en línia i gestionant el temps de pantalla de forma equilibrada per al benestar digital.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA5.1",
-            "text": "Identificar informació personal bàsica (nom, adreça, telèfon, foto) i comprendre per què no s'ha de compartir a Internet sense permís d'un adult."
+            "text": "Identificar informació personal bàsica (nom, adreça, telèfon, foto) i comprendre per què no s'ha de compartir a Internet sense permís d'un adult.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer situacions de risc bàsiques en l'ús d'Internet (contingut inadequat, desconeguts) i saber a qui demanar ajuda."
+            "text": "Reconèixer situacions de risc bàsiques en l'ús d'Internet (contingut inadequat, desconeguts) i saber a qui demanar ajuda.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.3",
-            "text": "Adoptar hàbits bàsics d'ús saludable de la tecnologia: postura correcta, distància a la pantalla, temps de pantalla limitat."
+            "text": "Adoptar hàbits bàsics d'ús saludable de la tecnologia: postura correcta, distància a la pantalla, temps de pantalla limitat.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA5.1",
-            "text": "Gestionar la pròpia identitat digital i la privacitat en línia, configurant paràmetres bàsics de privacitat."
+            "text": "Gestionar la pròpia identitat digital i la privacitat en línia, configurant paràmetres bàsics de privacitat.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.2",
-            "text": "Identificar riscos i amenaces digitals (phishing, ciberbullying, contingut inadequat) i aplicar mesures bàsiques de protecció."
+            "text": "Identificar riscos i amenaces digitals (phishing, ciberbullying, contingut inadequat) i aplicar mesures bàsiques de protecció.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.3",
-            "text": "Adoptar hàbits d'ús equilibrat i saludable de les tecnologies digitals, gestionant el temps de pantalla de forma responsable."
+            "text": "Adoptar hàbits d'ús equilibrat i saludable de les tecnologies digitals, gestionant el temps de pantalla de forma responsable.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA5.1",
-            "text": "Analitzar i gestionar l'empremta digital pròpia i protegir la privacitat i les dades personals en entorns digitals complexos."
+            "text": "Analitzar i gestionar l'empremta digital pròpia i protegir la privacitat i les dades personals en entorns digitals complexos.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.2",
-            "text": "Identificar i respondre de forma adequada davant situacions de risc digital (ciberbullying, sexting, grooming, addicció digital)."
+            "text": "Identificar i respondre de forma adequada davant situacions de risc digital (ciberbullying, sexting, grooming, addicció digital).",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.3",
-            "text": "Reflexionar críticament sobre l'impacte de les tecnologies digitals en la societat, l'economia, la cultura i el medi ambient."
+            "text": "Reflexionar críticament sobre l'impacte de les tecnologies digitals en la societat, l'economia, la cultura i el medi ambient.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -395,643 +434,858 @@
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Els dispositius digitals: ordinador de taula, portàtil, tauleta i telèfon intel·ligent — funcions bàsiques"
+      "text": "Els dispositius digitals: ordinador de taula, portàtil, tauleta i telèfon intel·ligent — funcions bàsiques",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Components bàsics de l'ordinador: pantalla, teclat, ratolí, altaveus, càmera"
+      "text": "Components bàsics de l'ordinador: pantalla, teclat, ratolí, altaveus, càmera",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "El sistema operatiu: escriptori, icones, finestres, barra de tasques"
+      "text": "El sistema operatiu: escriptori, icones, finestres, barra de tasques",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Operacions bàsiques: engegar i apagar el dispositiu, obrir i tancar programes"
+      "text": "Operacions bàsiques: engegar i apagar el dispositiu, obrir i tancar programes",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "El teclat: lletres, números, tecles de funció principals (barra espaiadora, intro, majúscules, esborrar)"
+      "text": "El teclat: lletres, números, tecles de funció principals (barra espaiadora, intro, majúscules, esborrar)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "El ratolí o el trackpad: clic, doble clic, clic dret, arrossegar"
+      "text": "El ratolí o el trackpad: clic, doble clic, clic dret, arrossegar",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Fitxers i carpetes: crear una carpeta, guardar un fitxer, obrir un fitxer"
+      "text": "Fitxers i carpetes: crear una carpeta, guardar un fitxer, obrir un fitxer",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "La pissarra digital interactiva: interacció bàsica i ús col·lectiu"
+      "text": "La pissarra digital interactiva: interacció bàsica i ús col·lectiu",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Ús de perifèrics bàsics: impressora, auriculars, micròfon"
+      "text": "Ús de perifèrics bàsics: impressora, auriculars, micròfon",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Seguretat del dispositiu: cura dels dispositius, no menjar ni beure davant de l'ordinador"
+      "text": "Seguretat del dispositiu: cura dels dispositius, no menjar ni beure davant de l'ordinador",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "El navegador web: finestres, pestanyes, barra de navegació, enrere/endavant"
+      "text": "El navegador web: finestres, pestanyes, barra de navegació, enrere/endavant",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Motors de cerca: usar Google o similar per fer cerques senzilles amb paraules clau"
+      "text": "Motors de cerca: usar Google o similar per fer cerques senzilles amb paraules clau",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Pàgines web: reconèixer la URL, distingir entre la web i les aplicacions"
+      "text": "Pàgines web: reconèixer la URL, distingir entre la web i les aplicacions",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Seleccionar informació: identificar si una imatge o text respon a la pregunta plantejada"
+      "text": "Seleccionar informació: identificar si una imatge o text respon a la pregunta plantejada",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Demanar ajuda: quan no entenc o trobo contingut inadequat, qui és l'adult de confiança a qui acudir"
+      "text": "Demanar ajuda: quan no entenc o trobo contingut inadequat, qui és l'adult de confiança a qui acudir",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "La biblioteca digital: plataformes educatives i de lectura del centre (Moodle, Google Classroom)"
+      "text": "La biblioteca digital: plataformes educatives i de lectura del centre (Moodle, Google Classroom)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Pintura digital bàsica: eines de dibuix (llapis, pinzell, omplir, borrar) en aplicacions com Paint o similars"
+      "text": "Pintura digital bàsica: eines de dibuix (llapis, pinzell, omplir, borrar) en aplicacions com Paint o similars",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Processador de text bàsic: escriure, esborrar, canviar mida i color de lletra, inserir imatge"
+      "text": "Processador de text bàsic: escriure, esborrar, canviar mida i color de lletra, inserir imatge",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Presentació digital senzilla: crear una diapositiva amb text i imatge"
+      "text": "Presentació digital senzilla: crear una diapositiva amb text i imatge",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Fotografia bàsica: fer fotos o capturar la pantalla amb el dispositiu"
+      "text": "Fotografia bàsica: fer fotos o capturar la pantalla amb el dispositiu",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Enregistrament d'àudio: gravar la veu amb el micròfon integrat"
+      "text": "Enregistrament d'àudio: gravar la veu amb el micròfon integrat",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Vídeo bàsic: enregistrar un vídeo molt breu amb el dispositiu"
+      "text": "Vídeo bàsic: enregistrar un vídeo molt breu amb el dispositiu",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Plataformes educatives de l'escola: accés, navegació i ús bàsic (Moodle, Google Classroom, Teams)"
+      "text": "Plataformes educatives de l'escola: accés, navegació i ús bàsic (Moodle, Google Classroom, Teams)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "El correu electrònic: concepte i estructura bàsica (de, per a, assumpte, cos); lectura d'un missatge"
+      "text": "El correu electrònic: concepte i estructura bàsica (de, per a, assumpte, cos); lectura d'un missatge",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Treball cooperatiu en una pissarra digital: aportació d'idees en un mural col·lectiu"
+      "text": "Treball cooperatiu en una pissarra digital: aportació d'idees en un mural col·lectiu",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Normes bàsiques de la comunicació digital: ser amable, respectuós i no compartir informació personal"
+      "text": "Normes bàsiques de la comunicació digital: ser amable, respectuós i no compartir informació personal",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "La informació personal: nom, foto, adreça, escola, telèfon — per què és privada"
+      "text": "La informació personal: nom, foto, adreça, escola, telèfon — per què és privada",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Regla de l'adult de confiança: sempre demanar permís als adults per fer coses noves a Internet"
+      "text": "Regla de l'adult de confiança: sempre demanar permís als adults per fer coses noves a Internet",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Contenits inadequats: com reconèixer-los i com actuar (tancar, dir-ho a un adult)"
+      "text": "Contenits inadequats: com reconèixer-los i com actuar (tancar, dir-ho a un adult)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "El temps de pantalla: importància de fer pauses i de fer altres activitats"
+      "text": "El temps de pantalla: importància de fer pauses i de fer altres activitats",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Postura correcta davant de la pantalla: distància, llum, postura de l'esquena"
+      "text": "Postura correcta davant de la pantalla: distància, llum, postura de l'esquena",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Les contrasenyes: per a què serveixen; importància de no compartir-les"
+      "text": "Les contrasenyes: per a què serveixen; importància de no compartir-les",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Sistemes operatius: Windows, macOS, ChromeOS, Android — similituds i diferències bàsiques"
+      "text": "Sistemes operatius: Windows, macOS, ChromeOS, Android — similituds i diferències bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Gestió de fitxers i carpetes: organitzar en carpetes per projectes, còpia, enganxar, eliminar"
+      "text": "Gestió de fitxers i carpetes: organitzar en carpetes per projectes, còpia, enganxar, eliminar",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "El núvol (cloud): què és; serveis bàsics (Google Drive, OneDrive); sincronització"
+      "text": "El núvol (cloud): què és; serveis bàsics (Google Drive, OneDrive); sincronització",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Programari i aplicacions: distingir entre programari lliure i propietari; llicències bàsiques"
+      "text": "Programari i aplicacions: distingir entre programari lliure i propietari; llicències bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Configuració bàsica del dispositiu: idioma, accessibilitat, WiFi, Bluetooth"
+      "text": "Configuració bàsica del dispositiu: idioma, accessibilitat, WiFi, Bluetooth",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Solució de problemes tècnics senzills: reiniciar, actualitzar, recuperar un fitxer esborrat"
+      "text": "Solució de problemes tècnics senzills: reiniciar, actualitzar, recuperar un fitxer esborrat",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Pensament computacional: seqüències, instruccions i algorismes bàsics (sense codi)"
+      "text": "Pensament computacional: seqüències, instruccions i algorismes bàsics (sense codi)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Introducció a la robòtica: robots de terra (Bee-Bot, Blue-Bot) o similars; programació per blocs"
+      "text": "Introducció a la robòtica: robots de terra (Bee-Bot, Blue-Bot) o similars; programació per blocs",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Introducció a Scratch o similar: seqüències d'instruccions, bucles, condicionals bàsics"
+      "text": "Introducció a Scratch o similar: seqüències d'instruccions, bucles, condicionals bàsics",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Estratègies de cerca avançada: operadors bàsics (cometes, site:, filtratge de temps i tipus de contingut)"
+      "text": "Estratègies de cerca avançada: operadors bàsics (cometes, site:, filtratge de temps i tipus de contingut)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Avaluació de fonts: autor, data, URL (.gov, .edu, .cat), propòsit del lloc"
+      "text": "Avaluació de fonts: autor, data, URL (.gov, .edu, .cat), propòsit del lloc",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Fake news: definició, exemples senzills, estratègies bàsiques de verificació (contrastar fonts)"
+      "text": "Fake news: definició, exemples senzills, estratègies bàsiques de verificació (contrastar fonts)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Eines de verificació de fets: ús de pàgines de fact-checking en exemples guiats"
+      "text": "Eines de verificació de fets: ús de pàgines de fact-checking en exemples guiats",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Organització de la informació digital: marcadors, carpetes al navegador, notes digitals"
+      "text": "Organització de la informació digital: marcadors, carpetes al navegador, notes digitals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Bases de dades i enciclopèdies en línia: ús de la Viquipèdia, Britannica Kids, etc., amb esperit crític"
+      "text": "Bases de dades i enciclopèdies en línia: ús de la Viquipèdia, Britannica Kids, etc., amb esperit crític",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Propietat intel·lectual: dret d'autor, Creative Commons; com citar fonts digitals"
+      "text": "Propietat intel·lectual: dret d'autor, Creative Commons; com citar fonts digitals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Processador de text avançat: taules, llistes, encapçalaments, peu de pàgina, estils"
+      "text": "Processador de text avançat: taules, llistes, encapçalaments, peu de pàgina, estils",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Presentació digital: disseny, animació de diapositives, inserció de vídeo, slideshows"
+      "text": "Presentació digital: disseny, animació de diapositives, inserció de vídeo, slideshows",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Editor d'imatge bàsic: retallar, girar, ajustar llum i color, afegir text a la imatge"
+      "text": "Editor d'imatge bàsic: retallar, girar, ajustar llum i color, afegir text a la imatge",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Editor de vídeo bàsic: tallar clips, afegir títols i música, transicions"
+      "text": "Editor de vídeo bàsic: tallar clips, afegir títols i música, transicions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Pòdcast: planificar, gravar i editar un pòdcast breu (Audacity, GarageBand o similar)"
+      "text": "Pòdcast: planificar, gravar i editar un pòdcast breu (Audacity, GarageBand o similar)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Infografia digital: crear una infografia senzilla amb Canva o similar"
+      "text": "Infografia digital: crear una infografia senzilla amb Canva o similar",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Programació per blocs: Scratch — sprites, events, bucles, condicionals, variables bàsiques"
+      "text": "Programació per blocs: Scratch — sprites, events, bucles, condicionals, variables bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Robòtica educativa: programació de robots de terra o similars"
+      "text": "Robòtica educativa: programació de robots de terra o similars",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "El correu electrònic: enviar, respondre, reenviar, adjuntar fitxers, etiquetes bàsiques"
+      "text": "El correu electrònic: enviar, respondre, reenviar, adjuntar fitxers, etiquetes bàsiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Documents compartits: Google Docs, Word Online — edició simultània, comentaris, historial de canvis"
+      "text": "Documents compartits: Google Docs, Word Online — edició simultània, comentaris, historial de canvis",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Plataformes educatives: ús avançat (lliurar tasques, participar en fòrums, comunicar-se amb el docent)"
+      "text": "Plataformes educatives: ús avançat (lliurar tasques, participar en fòrums, comunicar-se amb el docent)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Videoconferència: ús de Meet, Zoom o Teams; normes de participació en línia"
+      "text": "Videoconferència: ús de Meet, Zoom o Teams; normes de participació en línia",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Netiqueta: normes de comportament en la comunicació digital (cortesia, respecte, claredat)"
+      "text": "Netiqueta: normes de comportament en la comunicació digital (cortesia, respecte, claredat)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Col·laboració en projectes en línia: repartiment de tasques, seguiment del treball, retroalimentació"
+      "text": "Col·laboració en projectes en línia: repartiment de tasques, seguiment del treball, retroalimentació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Murals digitals i eines de col·laboració: Padlet, Mural, Jamboard"
+      "text": "Murals digitals i eines de col·laboració: Padlet, Mural, Jamboard",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "La identitat digital: empremta digital, reputació en línia; tot el que publico queda a Internet"
+      "text": "La identitat digital: empremta digital, reputació en línia; tot el que publico queda a Internet",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Privacitat en línia: configuració de privacitat bàsica en plataformes educatives i aplicacions"
+      "text": "Privacitat en línia: configuració de privacitat bàsica en plataformes educatives i aplicacions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Ciberbullying: definició, tipus, com actuar de víctima, testimoni o agressor"
+      "text": "Ciberbullying: definició, tipus, com actuar de víctima, testimoni o agressor",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Phishing i engany en línia: reconèixer correus i missatges fraudulents; no fer clic en links sospitosos"
+      "text": "Phishing i engany en línia: reconèixer correus i missatges fraudulents; no fer clic en links sospitosos",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Contrasenyes segures: característiques, gestors de contrasenyes; autenticació en dos passos (concepte)"
+      "text": "Contrasenyes segures: característiques, gestors de contrasenyes; autenticació en dos passos (concepte)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Benestar digital: temps de pantalla, FOMO, addicció a dispositius; estratègies d'equilibri"
+      "text": "Benestar digital: temps de pantalla, FOMO, addicció a dispositius; estratègies d'equilibri",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Continguts inadequats en línia: com actuar i a qui comunicar-ho; filtres parentals (concepte)"
+      "text": "Continguts inadequats en línia: com actuar i a qui comunicar-ho; filtres parentals (concepte)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Pensament computacional avançat: descomposició de problemes, reconeixement de patrons, abstracció, algorismes"
+      "text": "Pensament computacional avançat: descomposició de problemes, reconeixement de patrons, abstracció, algorismes",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Programació per blocs avançada: Scratch — funcions, variables, llistes, missatges, clons"
+      "text": "Programació per blocs avançada: Scratch — funcions, variables, llistes, missatges, clons",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Introducció a la programació en text: Python bàsic (variables, condicions, bucles, funcions senzilles) o similar"
+      "text": "Introducció a la programació en text: Python bàsic (variables, condicions, bucles, funcions senzilles) o similar",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Robòtica avançada: programació de robots (mBot, micro:bit, Arduino bàsic) per a projectes reals"
+      "text": "Robòtica avançada: programació de robots (mBot, micro:bit, Arduino bàsic) per a projectes reals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Sistemes en xarxa: Internet, xarxes d'ordinadors, IP, servidors (conceptes bàsics)"
+      "text": "Sistemes en xarxa: Internet, xarxes d'ordinadors, IP, servidors (conceptes bàsics)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Intel·ligència artificial: conceptes bàsics (aprenentatge automàtic, reconeixement d'imatges, assistents de veu); usos i limitacions"
+      "text": "Intel·ligència artificial: conceptes bàsics (aprenentatge automàtic, reconeixement d'imatges, assistents de veu); usos i limitacions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "Big data i privacitat: com les empreses recullen i usen les nostres dades"
+      "text": "Big data i privacitat: com les empreses recullen i usen les nostres dades",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "alfabetitzacio_digital",
       "subapartat": null,
-      "text": "L'automatització i el mercat de treball: com la tecnologia transforma les professions"
+      "text": "L'automatització i el mercat de treball: com la tecnologia transforma les professions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Cerca avançada i especialitzada: bases de dades acadèmiques, repositoris digitals, cercadors especialitzats"
+      "text": "Cerca avançada i especialitzada: bases de dades acadèmiques, repositoris digitals, cercadors especialitzats",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Avaluació crítica de fonts digitals: fiabilitat, autoritat, exactitud, propòsit, actualitat (CRAAP test adaptat)"
+      "text": "Avaluació crítica de fonts digitals: fiabilitat, autoritat, exactitud, propòsit, actualitat (CRAAP test adaptat)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Desinformació i manipulació informativa: propaganda, bots, cambres d'eco, filtre de bombolla"
+      "text": "Desinformació i manipulació informativa: propaganda, bots, cambres d'eco, filtre de bombolla",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Eines de fact-checking: Newtral, Maldita.es, Snopes; metodologia bàsica de verificació de fets"
+      "text": "Eines de fact-checking: Newtral, Maldita.es, Snopes; metodologia bàsica de verificació de fets",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Gestió avançada de la informació digital: eines de curació de continguts (Wakelet, Symbaloo, Notion bàsic)"
+      "text": "Gestió avançada de la informació digital: eines de curació de continguts (Wakelet, Symbaloo, Notion bàsic)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "Drets d'autor i Creative Commons: tipus de llicències, ús legal de continguts d'altri en les pròpies creacions"
+      "text": "Drets d'autor i Creative Commons: tipus de llicències, ús legal de continguts d'altri en les pròpies creacions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "cerca_i_informacio",
       "subapartat": null,
-      "text": "La propietat intel·lectual en l'era digital: pirateria, streaming, serveis de subscripció"
+      "text": "La propietat intel·lectual en l'era digital: pirateria, streaming, serveis de subscripció",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Creació de pàgines web senzilles: editors web bàsics (Google Sites, Wix Education); estructura i contingut"
+      "text": "Creació de pàgines web senzilles: editors web bàsics (Google Sites, Wix Education); estructura i contingut",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Edició de vídeo avançada: transicions, efectes, correccions de color, subtítols, exportació en formats diversos"
+      "text": "Edició de vídeo avançada: transicions, efectes, correccions de color, subtítols, exportació en formats diversos",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Creació de pòdcasts de qualitat: guió, gravació, edició professional bàsica, publicació"
+      "text": "Creació de pòdcasts de qualitat: guió, gravació, edició professional bàsica, publicació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Programació de projectes digitals complets: aplicació o joc amb Scratch, App Inventor o similar"
+      "text": "Programació de projectes digitals complets: aplicació o joc amb Scratch, App Inventor o similar",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Disseny gràfic: principis bàsics (tipografia, color, composició, contrast); eines (Canva, Inkscape bàsic)"
+      "text": "Disseny gràfic: principis bàsics (tipografia, color, composició, contrast); eines (Canva, Inkscape bàsic)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Animació i stop motion: tècniques d'animació bàsiques; edició d'animació"
+      "text": "Animació i stop motion: tècniques d'animació bàsiques; edició d'animació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Intel·ligència artificial generativa: concepte, eines (generadors de text, imatge, àudio); ús responsable i crític"
+      "text": "Intel·ligència artificial generativa: concepte, eines (generadors de text, imatge, àudio); ús responsable i crític",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "creacio_digital",
       "subapartat": null,
-      "text": "Realitat augmentada i virtual: concepte; eines educatives bàsiques (CoSpaces, Merge Cube)"
+      "text": "Realitat augmentada i virtual: concepte; eines educatives bàsiques (CoSpaces, Merge Cube)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Gestió de projectes col·laboratius en línia: Trello, Asana bàsic; metodologies àgils senzilles (Kanban)"
+      "text": "Gestió de projectes col·laboratius en línia: Trello, Asana bàsic; metodologies àgils senzilles (Kanban)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Comunitats d'aprenentatge en línia: participació en fòrums, wikis, xarxes professionals educatives"
+      "text": "Comunitats d'aprenentatge en línia: participació en fòrums, wikis, xarxes professionals educatives",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Xarxes socials educatives: ús responsable i crític de plataformes com Instagram, YouTube, TikTok"
+      "text": "Xarxes socials educatives: ús responsable i crític de plataformes com Instagram, YouTube, TikTok",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Comunicació professional digital: correu electrònic formal, LinkedIn Bàsic (concepte), portfoli digital"
+      "text": "Comunicació professional digital: correu electrònic formal, LinkedIn Bàsic (concepte), portfoli digital",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "Projectes col·laboratius internacionals: eTwinning, Minecraft Education, Scratch (compartir projectes)"
+      "text": "Projectes col·laboratius internacionals: eTwinning, Minecraft Education, Scratch (compartir projectes)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_i_collaboracio",
       "subapartat": null,
-      "text": "La netiqueta avançada: discurs d'odi, drets digitals, llibertat d'expressió i els seus límits en línia"
+      "text": "La netiqueta avançada: discurs d'odi, drets digitals, llibertat d'expressió i els seus límits en línia",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "La identitat digital complexa: gestió de la reputació en línia; dret a l'oblit"
+      "text": "La identitat digital complexa: gestió de la reputació en línia; dret a l'oblit",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Protecció de dades personals: RGPD (concepte bàsic), consentiment informat, drets dels usuaris"
+      "text": "Protecció de dades personals: RGPD (concepte bàsic), consentiment informat, drets dels usuaris",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Amenaces digitals avançades: ransomware, phishing sofisticat, enginyeria social; mesures de protecció"
+      "text": "Amenaces digitals avançades: ransomware, phishing sofisticat, enginyeria social; mesures de protecció",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Ciberseguretat bàsica: antivirus, actualitzacions, xarxes WiFi segures, VPN (concepte)"
+      "text": "Ciberseguretat bàsica: antivirus, actualitzacions, xarxes WiFi segures, VPN (concepte)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Benestar digital: addicció als dispositius, nomofòbia, FOMO, ansietat digital; estratègies de desconnexió"
+      "text": "Benestar digital: addicció als dispositius, nomofòbia, FOMO, ansietat digital; estratègies de desconnexió",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Grooming i sexting: identificació, prevenció i actuació; recursos d'ajuda (IS4K, Pantallas Amigas)"
+      "text": "Grooming i sexting: identificació, prevenció i actuació; recursos d'ajuda (IS4K, Pantallas Amigas)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Impacte ambiental de la tecnologia: empremta de carboni digital, deixalles electròniques, consum energètic dels centres de dades"
+      "text": "Impacte ambiental de la tecnologia: empremta de carboni digital, deixalles electròniques, consum energètic dels centres de dades",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "seguretat_i_benestar",
       "subapartat": null,
-      "text": "Ètica de la intel·ligència artificial: biaix algorítmic, transparència, responsabilitat; IA i drets humans"
+      "text": "Ètica de la intel·ligència artificial: biaix algorítmic, transparència, responsabilitat; IA i drets humans",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

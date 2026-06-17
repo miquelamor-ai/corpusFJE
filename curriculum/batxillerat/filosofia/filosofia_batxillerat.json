@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Filosofia.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Filosofia al Batxillerat és la matèria que introdueix l'alumnat en la reflexió sistemàtica sobre les grans preguntes de l'existència humana: el coneixement, la realitat, l'ètica, la política i el llenguatge. Desenvolupa el pensament crític i argumentatiu com a competència transversal que enriqueix totes les altres matèries, i connecta especialment amb la Història de la Filosofia, la Llengua i Literatura, les Ciències Socials i les Ciències Naturals.\n\nEls nuclis temàtics cobreixen les branques fonamentals de la filosofia: epistemologia i filosofia de la ciència (veritat, coneixement, mètodes, límits de la raó), ontologia i metafísica (ser, identitat, ment i cos, llibertat i determinisme), ètica i filosofia política (fonaments de la moral, teories ètiques, justícia, democràcia, drets humans), estètica (bellesa, art, sublim) i lògica i argumentació (raonament deductiu, fal·làcies, argumentació pràctica). La història de les idees vertebra els continguts sense ser l'eix exclusiu.\n\nL'enfocament pedagògic prioritza el diàleg filosòfic socràtic, la lectura de textos originals i la redacció d'assajos argumentatius estructurats. La comunitat d'indagació i el debat regulat fomenten la construcció col·lectiva del pensament. L'avaluació valora la coherència argumentativa, la capacitat de problematitzar, la qualitat de l'assaig filosòfic i l'ús adequat de la terminologia, per damunt de la memorització de doctrines."
   },
@@ -18,18 +18,21 @@
       "codi": "CE1",
       "text": "Avaluar i generar arguments a partir de l’anàlisi formal i informal, per produir i valorar discursos orals i escrits de forma rigorosa, evitar dogmatismes, biaixos i fal·làcies i distingir els sabers que aporten certesa a l’hora de sostenir opinions i hipòtesis.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Avaluar críticament discursos, orals i escrits, sobre qüestions i problemes filosòfics, demostrant una comprensió correcta de les estructures argumentatives."
+            "text": "Avaluar críticament discursos, orals i escrits, sobre qüestions i problemes filosòfics, demostrant una comprensió correcta de les estructures argumentatives.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.2",
-            "text": "Produir rigorosament arguments, aplicant normes lògiques, retòriques i argumentatives, i detectant i evitant maneres dogmàtiques, fal·laces i esbiaixades per exposar les pròpies opinions i idees, tant oralment com per escrit."
+            "text": "Produir rigorosament arguments, aplicant normes lògiques, retòriques i argumentatives, i detectant i evitant maneres dogmàtiques, fal·laces i esbiaixades per exposar les pròpies opinions i idees, tant oralment com per escrit.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.3",
-            "text": "Distingir entre els sabers que aporten certesa i aquells que no, a partir de la identificació de les seves característiques i l’anàlisi de les estructures argumentatives que els sostenen."
+            "text": "Distingir entre els sabers que aporten certesa i aquells que no, a partir de la identificació de les seves característiques i l’anàlisi de les estructures argumentatives que els sostenen.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -38,14 +41,16 @@
       "codi": "CE2",
       "text": "Interpretar, generar i comunicar qüestions filosòfiques a partir de la selecció i l’anàlisi rigorosa de fonts per produir i transmetre judicis i tesis personals i desenvolupar una actitud indagadora, autònoma, rigorosa i creativa en l’àmbit de la reflexió filosòfica.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Demostrar un coneixement pràctic dels procediments elementals de la recerca filosòfica mitjançant tasques com la identificació de fonts confiables, la cerca eficient i fiable d’informació i l’anàlisi, la interpretació i l’avaluació d’aquesta."
+            "text": "Demostrar un coneixement pràctic dels procediments elementals de la recerca filosòfica mitjançant tasques com la identificació de fonts confiables, la cerca eficient i fiable d’informació i l’anàlisi, la interpretació i l’avaluació d’aquesta.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.2",
-            "text": "Desenvolupar tesis filosòfiques pròpies a partir del disseny, l’elaboració i la comunicació pública de creacions originals com treballs de recerca, dissertacions, comentaris de text i altres."
+            "text": "Desenvolupar tesis filosòfiques pròpies a partir del disseny, l’elaboració i la comunicació pública de creacions originals com treballs de recerca, dissertacions, comentaris de text i altres.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -54,18 +59,21 @@
       "codi": "CE3",
       "text": "Reconèixer i aplicar les normes de l’argumentació i del diàleg filosòfic, en diferents suports i activitats, per expressar-se amb rigor argumentatiu i desenvolupar el diàleg respectuós i constructiu amb els altres.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Intercanviar i avaluar críticament idees sobre qüestions filosòfiques a partir del diàleg filosòfic."
+            "text": "Intercanviar i avaluar críticament idees sobre qüestions filosòfiques a partir del diàleg filosòfic.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.2",
-            "text": "Argumentar rigorosament les pròpies idees en activitats de diàleg filosòfic."
+            "text": "Argumentar rigorosament les pròpies idees en activitats de diàleg filosòfic.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.3",
-            "text": "Participar de manera oberta, compromesa i respectuosa en activitats de diàleg sobre qüestions i problemes filosòficament rellevants."
+            "text": "Participar de manera oberta, compromesa i respectuosa en activitats de diàleg sobre qüestions i problemes filosòficament rellevants.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -74,14 +82,16 @@
       "codi": "CE4",
       "text": "Reconèixer com els problemes filosòfics s’han plantejat en les diferents èpoques i les autores i els autors, i comparar-ho, a partir de l’anàlisi i la interpretació de textos i altres formes d’expressió filosòfica i cultural, per reconèixer la radicalitat i la transcendència d’aquestes qüestions i abordar-les amb el bagatge de les aportacions de la tradició filosòfica.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Distingir les principals preguntes de la filosofia i les diferents respostes filosòfiques mitjançant la indagació, l’anàlisi i la interpretació de textos filosòfics."
+            "text": "Distingir les principals preguntes de la filosofia i les diferents respostes filosòfiques mitjançant la indagació, l’anàlisi i la interpretació de textos filosòfics.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA4.2",
-            "text": "Valorar la radicalitat i la transcendència dels problemes filosòfics mitjançant el reconeixement i l’anàlisi de textos filosòfics i altres formes d’expressió cultural."
+            "text": "Valorar la radicalitat i la transcendència dels problemes filosòfics mitjançant el reconeixement i l’anàlisi de textos filosòfics i altres formes d’expressió cultural.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -90,14 +100,16 @@
       "codi": "CE5",
       "text": "Avaluar de manera global, sistèmica i transdisciplinària problemes ètics i polítics fonamentals i d’actualitat analitzant-los filosòficament per poder tractar-los de manera creativa i prendre una posició.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Desenvolupar una concepció complexa i no dogmàtica dels problemes i de les qüestions fonamentals i d’actualitat mitjançant l’anàlisi filosòfica d’aquests."
+            "text": "Desenvolupar una concepció complexa i no dogmàtica dels problemes i de les qüestions fonamentals i d’actualitat mitjançant l’anàlisi filosòfica d’aquests.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.2",
-            "text": "Desenvolupar una posició pròpia amb relació a problemes fonamentals i qüestions d’actualitat mitjançant l’argumentació i el diàleg filosòfics."
+            "text": "Desenvolupar una posició pròpia amb relació a problemes fonamentals i qüestions d’actualitat mitjançant l’argumentació i el diàleg filosòfics.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -106,14 +118,16 @@
       "codi": "CE6",
       "text": "Desenvolupar la sensibilitat i la comprensió crítica de l’art i altres manifestacions amb valor estètic a partir de les principals idees filosòfiques sobre la bellesa i la creació artística per contribuir a l’educació estètica.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar críticament obres d’art i altres manifestacions estètiques a partir de les principals idees filosòfiques sobre art i creació."
+            "text": "Analitzar críticament obres d’art i altres manifestacions estètiques a partir de les principals idees filosòfiques sobre art i creació.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.2",
-            "text": "Construir judicis propis sobre diferents expressions artístiques, tot aplicant conceptes filosòfics."
+            "text": "Construir judicis propis sobre diferents expressions artístiques, tot aplicant conceptes filosòfics.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -136,109 +150,146 @@
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Identificació i classificació de les divisions tradicionals de la filosofia en l’abordatge de les problemàtiques humanes"
+      "text": "Identificació i classificació de les divisions tradicionals de la filosofia en l’abordatge de les problemàtiques humanes",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Especificitat de la filosofia en relació amb altres camps de saber per analitzar la natura i l’activitat humana"
+      "text": "Especificitat de la filosofia en relació amb altres camps de saber per analitzar la natura i l’activitat humana",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Reconeixement de la filosofia i la pregunta filosòfica com a tret pròpiament humà"
+      "text": "Reconeixement de la filosofia i la pregunta filosòfica com a tret pròpiament humà",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi i valoració de l’especificitat natural i dels condicionants historicoculturals en el debat sobre la gènesi i la definició de la naturalesa humana"
+      "text": "Anàlisi i valoració de l’especificitat natural i dels condicionants historicoculturals en el debat sobre la gènesi i la definició de la naturalesa humana",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Reconeixement i valoració del paper de la sensibilitat, l’emotivitat i les facultats cognitives en l’anàlisi de la identitat personal"
+      "text": "Reconeixement i valoració del paper de la sensibilitat, l’emotivitat i les facultats cognitives en l’anàlisi de la identitat personal",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi i valoració del paper de la consciència i el llenguatge en l’estructura psicosomàtica de la identitat personal"
+      "text": "Anàlisi i valoració del paper de la consciència i el llenguatge en l’estructura psicosomàtica de la identitat personal",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi i valoració del paper de l’art i la creació com a part de la naturalesa humana"
+      "text": "Anàlisi i valoració del paper de l’art i la creació com a part de la naturalesa humana",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Reconeixement del valor i l’especificitat del saber filosòfic en l’anàlisi del coneixement humà en relació amb altres sabers"
+      "text": "Reconeixement del valor i l’especificitat del saber filosòfic en l’anàlisi del coneixement humà en relació amb altres sabers",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Utilització i aplicació dels mètodes i de les estratègies bàsics del fer filosòfic com a selecció i anàlisi crítica de les fonts, identificació i anàlisi de problemes filosòfics, argumentació i diàleg argumentat i investigació i dissertació filosòfica"
+      "text": "Utilització i aplicació dels mètodes i de les estratègies bàsics del fer filosòfic com a selecció i anàlisi crítica de les fonts, identificació i anàlisi de problemes filosòfics, argumentació i diàleg argumentat i investigació i dissertació filosòfica",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Justificació i valoració de la filosofia en l’anàlisi dels problemes del segle XX"
+      "text": "Justificació i valoració de la filosofia en l’anàlisi dels problemes del segle XX",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Anàlisi crítica del problema del coneixement i les teories de la veritat per enfrontar-se a la desinformació i al fenomen de la postveritat"
+      "text": "Anàlisi crítica del problema del coneixement i les teories de la veritat per enfrontar-se a la desinformació i al fenomen de la postveritat",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Argumentació i raonament mitjançant l’aplicació de nocions bàsiques de lògica formal i detecció de fal·làcies i biaixos cognitius en l’anàlisi crítica i producció dels discursos"
+      "text": "Argumentació i raonament mitjançant l’aplicació de nocions bàsiques de lògica formal i detecció de fal·làcies i biaixos cognitius en l’anàlisi crítica i producció dels discursos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què he de fer?",
       "subapartat": null,
-      "text": "Avaluació de situacions que plantegen problemes ètics mitjançant l’anàlisi de la dualitat entre ser i haver de ser, la deliberació moral, el diàleg ètic i la caracterització dels judicis morals"
+      "text": "Avaluació de situacions que plantegen problemes ètics mitjançant l’anàlisi de la dualitat entre ser i haver de ser, la deliberació moral, el diàleg ètic i la caracterització dels judicis morals",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què he de fer?",
       "subapartat": null,
-      "text": "Avaluació de situacions que plantegen problemes ètics actuals relacionats amb la cura i el medi ambient a través de les aportacions dels diferents tipus d’ètiques (ètiques de la felicitat, del deure i de la virtut) i altres aportacions de l’ètica contemporània"
+      "text": "Avaluació de situacions que plantegen problemes ètics actuals relacionats amb la cura i el medi ambient a través de les aportacions dels diferents tipus d’ètiques (ètiques de la felicitat, del deure i de la virtut) i altres aportacions de l’ètica contemporània",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Com vivim junts?",
       "subapartat": null,
-      "text": "Diàleg aportant raons pertinents i relacionant-les amb les dels altres, trobant punts d’encontre, per arribar a conclusions complexes i creatives"
+      "text": "Diàleg aportant raons pertinents i relacionant-les amb les dels altres, trobant punts d’encontre, per arribar a conclusions complexes i creatives",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Com vivim junts?",
       "subapartat": null,
-      "text": "Anàlisi crítica de les condicions socials, de gènere i culturals en la història de la filosofia"
+      "text": "Anàlisi crítica de les condicions socials, de gènere i culturals en la història de la filosofia",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Com vivim junts?",
       "subapartat": null,
-      "text": "Avaluació crítica de problemes ètics actuals en relació amb les diferents generacions dels drets humans: drets de generacions futures, drets dels col·lectius, drets digitals, mediambientals i drets dels animals. El subjecte de drets, el cercle expansiu de l’ètica i la possibilitat d’una ètica de mínims"
+      "text": "Avaluació crítica de problemes ètics actuals en relació amb les diferents generacions dels drets humans: drets de generacions futures, drets dels col·lectius, drets digitals, mediambientals i drets dels animals. El subjecte de drets, el cercle expansiu de l’ètica i la possibilitat d’una ètica de mínims",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Com vivim junts?",
       "subapartat": null,
-      "text": "Anàlisi crítica dels problemes ètics del nostre temps com ara la desigualtat, la pobresa, la guerra i altres formes de violència, la desigualtat entre homes i dones, la discriminació i els problemes mediambientals i ecosocials, per desenvolupar un posicionament ètic i argumentat"
+      "text": "Anàlisi crítica dels problemes ètics del nostre temps com ara la desigualtat, la pobresa, la guerra i altres formes de violència, la desigualtat entre homes i dones, la discriminació i els problemes mediambientals i ecosocials, per desenvolupar un posicionament ètic i argumentat",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

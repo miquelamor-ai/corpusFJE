@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Biologia-i-Geologia.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Biologia i Geologia a l'ESO introdueix l'alumnat en el coneixement científic dels éssers vius i de la Terra com a sistema dinàmic. Connecta l'estudi dels organismes amb els processos geològics que conformen el planeta, i proporciona les bases científiques necessàries per comprendre les grans qüestions ambientals i de salut del segle XXI. La matèria prepara per a la continuïtat en Biologia i Geologia de Batxillerat i per a estudis de ciències de la salut i de la natura.\n\nEls grans constructes disciplinaris inclouen la teoria cel·lular, la genètica i l'herència (gen, al·lel, fenotip, genotip), l'evolució darwiniana (selecció natural, adaptació, especiació), l'ecologia (ecosistema, cadena tròfica, cicles biogeoquímics, biodiversitat) i la geologia dinàmica (tectònica de plaques, roques i minerals, temps geològic, riscos naturals). La taxonomia, la histologia i la fisiologia dels sistemes orgànics (digestiu, circulatori, nerviós, reproductor) completen el cos conceptual.\n\nL'enfocament pedagògic combina la indagació científica (observació, hipòtesi, experimentació, comunicació) amb el treball de camp i el laboratori. El disseny experimental senzill, l'ús del microscopi i la interpretació de gràfiques i dades en context real caracteritzen la pràctica d'aula. La connexió amb la salut, el medi ambient i les decisions personals (alimentació, vacunació, canvi climàtic) fa de la matèria un espai d'educació científica per a la ciutadania."
   },
@@ -18,32 +18,38 @@
       "codi": "CE1",
       "text": "Interpretar fenòmens de la naturalesa, predient i argumentant el seu comportament a partir de models, lleis i teories propis de la biologia i la geologia per apropiar-se de conceptes i processos propis de la ciència.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la biologia i la geologia, interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques."
+            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la biologia i la geologia, interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.2",
-            "text": "Interpretar i predir el comportament de fenòmens quotidians rellevants, relacionant-los amb models, lleis i teories adequades de la biologia i la geologia."
+            "text": "Interpretar i predir el comportament de fenòmens quotidians rellevants, relacionant-los amb models, lleis i teories adequades de la biologia i la geologia.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.3",
-            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic i proporcionar possible solucions."
+            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic i proporcionar possible solucions.",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA1.1",
-            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la biologia i la geologia, interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques i defensant amb criteri opinions pròpies fonamentades."
+            "text": "Analitzar conceptes, fenòmens i processos relacionats amb els sabers de la biologia i la geologia, interpretant informació en diferents formats (models, gràfics, taules, diagrames, fórmules, esquemes, símbols, pàgines web…), mantenint una actitud crítica i obtenint conclusions fonamentades en raons científiques i defensant amb criteri opinions pròpies fonamentades.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA1.2",
-            "text": "Interpretar i predir el comportament de fenòmens quotidians, argumentant-ho amb rigor sobre la base de models, lleis i teories adequades de la biologia i la geologia."
+            "text": "Interpretar i predir el comportament de fenòmens quotidians, argumentant-ho amb rigor sobre la base de models, lleis i teories adequades de la biologia i la geologia.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA1.3",
-            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic, proporcionar possibles solucions i argumentar sobre la seva validesa."
+            "text": "Identificar els conceptes relacionats amb situacions problemàtiques reals de caràcter científic, proporcionar possibles solucions i argumentar sobre la seva validesa.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -52,24 +58,28 @@
       "codi": "CE2",
       "text": "Identificar, seleccionar, organitzar i avaluar críticament dades i informació, contrastant-ne la fiabilitat per resoldre preguntes relacionades amb la biologia i la geologia i descartar solucions pseudocientífiques.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Resoldre qüestions relacionades amb els sabers de la matèria de Biologia i Geologia localitzant, seleccionant fonts fiables i organitzant informació mitjançant l’ús i citació correctes de diferents fonts."
+            "text": "Resoldre qüestions relacionades amb els sabers de la matèria de Biologia i Geologia localitzant, seleccionant fonts fiables i organitzant informació mitjançant l’ús i citació correctes de diferents fonts.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.2",
-            "text": "Reconèixer la informació amb base científica distingint-la de pseudociències, rumors, teories conspiratòries, falses notícies i creences, etc., i mantenint una actitud escèptica davant d’aquests."
+            "text": "Reconèixer la informació amb base científica distingint-la de pseudociències, rumors, teories conspiratòries, falses notícies i creences, etc., i mantenint una actitud escèptica davant d’aquests.",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA2.1",
-            "text": "Resoldre qüestions i aprofundir en aspectes relacionats amb els sabers de la matèria de Biologia i Geologia localitzant, seleccionant, organitzant i analitzant críticament la informació de diferents fonts, citant-les correctament amb respecte per la propietat intel·lectual."
+            "text": "Resoldre qüestions i aprofundir en aspectes relacionats amb els sabers de la matèria de Biologia i Geologia localitzant, seleccionant, organitzant i analitzant críticament la informació de diferents fonts, citant-les correctament amb respecte per la propietat intel·lectual.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA2.2",
-            "text": "Contrastar la fiabilitat de la informació sobre temes relacionats amb els sabers de la matèria de Biologia i Geologia, utilitzant fonts fiables (tenint en compte si s’identifica l’autor o responsable, si hi ha una institució al darrere, quina és la finalitat o intenció de publicar aquella informació, si es pot verificar amb altres fonts, si hi ha bibliografia, etc.) adoptant una actitud crítica i escèptica vers informacions no fonamentades en la ciència, com pseudociències, teories conspiratòries, creences, falses notícies, mentides, etc."
+            "text": "Contrastar la fiabilitat de la informació sobre temes relacionats amb els sabers de la matèria de Biologia i Geologia, utilitzant fonts fiables (tenint en compte si s’identifica l’autor o responsable, si hi ha una institució al darrere, quina és la finalitat o intenció de publicar aquella informació, si es pot verificar amb altres fonts, si hi ha bibliografia, etc.) adoptant una actitud crítica i escèptica vers informacions no fonamentades en la ciència, com pseudociències, teories conspiratòries, creences, falses notícies, mentides, etc.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -78,52 +88,63 @@
       "codi": "CE3",
       "text": "Dissenyar, desenvolupar i comunicar el plantejament i les conclusions de recerques dins de l’àmbit escolar, incloent la formulació de preguntes i d’hipòtesis i la seva contrastació experimental, seguint els passos de les metodologies pròpies de la ciència, com l’experimentació i la cerca d’evidències, cooperant quan calgui, per indagar en aspectes relacionats amb la biologia i la geologia.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l’experimentació, la presa de dades i l’anàlisi de fenòmens biològics i geològics"
+            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l’experimentació, la presa de dades i l’anàlisi de fenòmens biològics i geològics",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.2",
-            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l’ús de la deducció, el treball experimental i el raonament logicomatemàtic."
+            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l’ús de la deducció, el treball experimental i el raonament logicomatemàtic.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.3",
-            "text": "Portar a terme dissenys experimentals fent servir els instruments, eines o tècniques adequades amb correcció i interpretar-ne els resultats utilitzant, quan sigui necessari, eines matemàtiques i tecnològiques."
+            "text": "Portar a terme dissenys experimentals fent servir els instruments, eines o tècniques adequades amb correcció i interpretar-ne els resultats utilitzant, quan sigui necessari, eines matemàtiques i tecnològiques.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.4",
-            "text": "Cooperar en un projecte científic assumint responsablement una funció concreta, utilitzant espais virtuals quan sigui necessari, respectant la diversitat i afavorint la inclusió."
+            "text": "Cooperar en un projecte científic assumint responsablement una funció concreta, utilitzant espais virtuals quan sigui necessari, respectant la diversitat i afavorint la inclusió.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.5",
-            "text": "Presentar els resultats i les conclusions obtingudes mitjançant l’experimentació i observació de camp utilitzant el format adequat (taules, gràfics, informes, etc.) i, quan sigui necessari, eines digitals."
+            "text": "Presentar els resultats i les conclusions obtingudes mitjançant l’experimentació i observació de camp utilitzant el format adequat (taules, gràfics, informes, etc.) i, quan sigui necessari, eines digitals.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.6",
-            "text": "Valorar la contribució de la ciència a la societat i la tasca de les persones que s’hi han dedicat, reflexionant sobre els biaixos de gènere en les ciències i la"
+            "text": "Valorar la contribució de la ciència a la societat i la tasca de les persones que s’hi han dedicat, reflexionant sobre els biaixos de gènere en les ciències i la",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA3.1",
-            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l’experimentació, la presa de dades i l’anàlisi de fenòmens biològics i geològics, diferenciant-les d’aquelles qüestions pseudocientífiques que no admeten comprovació experimental."
+            "text": "Plantejar preguntes sobre fenòmens quotidians i formular hipòtesis que puguin ser respostes o contrastades en el context escolar a través de l’experimentació, la presa de dades i l’anàlisi de fenòmens biològics i geològics, diferenciant-les d’aquelles qüestions pseudocientífiques que no admeten comprovació experimental.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA3.2",
-            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l’ús de la deducció, el treball experimental i el raonament logicomatemàtic."
+            "text": "Dissenyar, fent servir metodologies pròpies de la ciència, procediments de recerca que impliquin l’ús de la deducció, el treball experimental i el raonament logicomatemàtic.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA3.3",
-            "text": "Portar a terme l’experimentació plantejada fent servir els instruments, eines o tècniques adequades amb correcció i interpretar-ne els resultats quan sigui necessari amb eines matemàtiques i tecnològiques per obtenir conclusions raonades i fonamentades o valorar la impossibilitat de fer-ho."
+            "text": "Portar a terme l’experimentació plantejada fent servir els instruments, eines o tècniques adequades amb correcció i interpretar-ne els resultats quan sigui necessari amb eines matemàtiques i tecnològiques per obtenir conclusions raonades i fonamentades o valorar la impossibilitat de fer-ho.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA3.4",
-            "text": "Establir col·laboracions quan sigui necessari en les diferents fases del projecte científic per treballar amb més eficiència, valorant la importància de la cooperació en la investigació, respectant la diversitat i afavorint la inclusió."
+            "text": "Establir col·laboracions quan sigui necessari en les diferents fases del projecte científic per treballar amb més eficiència, valorant la importància de la cooperació en la investigació, respectant la diversitat i afavorint la inclusió.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA3.5",
-            "text": "Presentar de manera clara i rigorosa els resultats i les conclusions obtingudes mitjançant l’experimentació, argumentant la connexió entre uns i altres, i l’observació de camp, utilitzant el format"
+            "text": "Presentar de manera clara i rigorosa els resultats i les conclusions obtingudes mitjançant l’experimentació, argumentant la connexió entre uns i altres, i l’observació de camp, utilitzant el format",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -132,20 +153,23 @@
       "codi": "CE4",
       "text": "Fer servir diverses formes de raonament, com el pensament hipoteticodeductiu i el pensament computacional, per resoldre problemes o donar explicació a fenòmens naturals i processos de la vida quotidiana relacionats amb la biologia i la geologia, mitjançant l’anàlisi crítica de les respostes i solucions i reformulant el procediment, si fos necessari.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Resoldre problemes o donar explicació a processos biològics o geològics utilitzant coneixements, dades"
+            "text": "Resoldre problemes o donar explicació a processos biològics o geològics utilitzant coneixements, dades",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.2",
-            "text": "Analitzar críticament la solució a un"
+            "text": "Analitzar críticament la solució a un",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA4.1",
-            "text": "Resoldre problemes o donar explicació a processos biològics o geològics utilitzant coneixements, dades"
+            "text": "Resoldre problemes o donar explicació a processos biològics o geològics utilitzant coneixements, dades",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -154,36 +178,43 @@
       "codi": "CE5",
       "text": "Analitzar els efectes de determinades accions sobre el medi ambient i la salut, basant-se en els fonaments de les ciències biològiques i geològiques, per fer propostes d’acció i per decidir de manera informada sobre problemàtiques actuals i adoptar hàbits que minimitzin els impactes mediambientals, que siguin compatibles amb un desenvolupament sostenible i que permetin mantenir i millorar la salut individual i col·lectiva.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA5.1",
-            "text": "Justificar amb fonaments científics la importància de la preservació de la biodiversitat, la conservació de l’entorn,"
+            "text": "Justificar amb fonaments científics la importància de la preservació de la biodiversitat, la conservació de l’entorn,",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.2",
-            "text": "Justificar la necessitat de tenir hàbits determinades accions humanes sobre sostenibles analitzant d’una manera una zona geogràfica, tenint en compte crítica les activitats pròpies i alienes i les seves característiques litològiques, el basant-se en els raonaments propis, relleu i la vegetació."
+            "text": "Justificar la necessitat de tenir hàbits determinades accions humanes sobre sostenibles analitzant d’una manera una zona geogràfica, tenint en compte crítica les activitats pròpies i alienes i les seves característiques litològiques, el basant-se en els raonaments propis, relleu i la vegetació.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.3",
-            "text": "Justificar la necessitat de tenir hàbits accions pròpies i alienes (hàbits de saludables, analitzant les accions consum, generació residus, transport...), pròpies i alienes (alimentació, higiene, amb actitud crítica i basant-se en postura corporal, activitat física, fonaments del funcionament dels desplaçaments, relacions interpersonals, sistemes naturals."
+            "text": "Justificar la necessitat de tenir hàbits accions pròpies i alienes (hàbits de saludables, analitzant les accions consum, generació residus, transport...), pròpies i alienes (alimentació, higiene, amb actitud crítica i basant-se en postura corporal, activitat física, fonaments del funcionament dels desplaçaments, relacions interpersonals, sistemes naturals.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.4",
-            "text": "Identificar algunes situacions en què interpersonals, descans, exposició a les els coneixements derivats de la biologia i pantalles, maneig de l’estrès, seguretat la geologia poden contribuir a millorar la en les pràctiques sexuals, consum de sostenibilitat ambiental i la salut substàncies ..."
+            "text": "Identificar algunes situacions en què interpersonals, descans, exposició a les els coneixements derivats de la biologia i pantalles, maneig de l’estrès, seguretat la geologia poden contribuir a millorar la en les pràctiques sexuals, consum de sostenibilitat ambiental i la salut substàncies ...",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.5",
-            "text": "Emprendre, de manera guiada i amb"
+            "text": "Emprendre, de manera guiada i amb",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA5.6",
-            "text": "Justificar la necessitat de la"
+            "text": "Justificar la necessitat de la",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA5.1",
-            "text": "Justificar amb fonaments científics la importància de la preservació de la biodiversitat, la conservació de l’entorn,"
+            "text": "Justificar amb fonaments científics la importància de la preservació de la biodiversitat, la conservació de l’entorn,",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -192,40 +223,48 @@
       "codi": "CE6",
       "text": "Analitzar els elements del paisatge, utilitzant de forma integrada els coneixements procedents de la biologia, la geologia i les ciències ambientals per explicar-ne l’origen i la possible evolució, així com les característiques de la comunitat d’organismes, la dinàmica del relleu i els possibles riscos naturals.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA6.1",
-            "text": "Identificar els diferents elements del paisatge i justificar el seu grau de desenvolupament."
+            "text": "Identificar els diferents elements del paisatge i justificar el seu grau de desenvolupament.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA6.2",
-            "text": "Reconèixer la transformació dels paisatges associada als canvis geològics, biològics i ambientals que experimenten."
+            "text": "Reconèixer la transformació dels paisatges associada als canvis geològics, biològics i ambientals que experimenten.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA6.3",
-            "text": "Relacionar les activitats humanes amb els impactes que reben els paisatges."
+            "text": "Relacionar les activitats humanes amb els impactes que reben els paisatges.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA6.4",
-            "text": "Identificar els principals riscos geològics derivats de causes naturals o antròpiques i proposar mesures de prevenció i correcció."
+            "text": "Identificar els principals riscos geològics derivats de causes naturals o antròpiques i proposar mesures de prevenció i correcció.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA6.5",
-            "text": "Deduir i explicar la història d’un paisatge concret identificar-ne els elements més rellevants, utilitzant el raonament, els coneixements sobre la successió i els principis geològics bàsics (horitzontalitat, superposició, actualisme, neocatastrofisme...)."
+            "text": "Deduir i explicar la història d’un paisatge concret identificar-ne els elements més rellevants, utilitzant el raonament, els coneixements sobre la successió i els principis geològics bàsics (horitzontalitat, superposició, actualisme, neocatastrofisme...).",
+            "clau_origen": "ESO13"
           }
         ],
-        "ESO4": [
+        "ESO_C2": [
           {
             "codi": "CA6.1",
-            "text": "Justificar les relacions i la influència mútua que mantenen els diferents elements del paisatge"
+            "text": "Justificar les relacions i la influència mútua que mantenen els diferents elements del paisatge",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA6.2",
-            "text": "Relacionar el grau de desenvolupament integral d’un paisatge amb els esdeveniments biològics, geològics i ambientals esdevinguts."
+            "text": "Relacionar el grau de desenvolupament integral d’un paisatge amb els esdeveniments biològics, geològics i ambientals esdevinguts.",
+            "clau_origen": "ESO4"
           },
           {
             "codi": "CA6.3",
-            "text": "Identificar i analitzar críticament les activitats humanes que impacten en el paisatge i fer propostes plausibles de reversió."
+            "text": "Identificar i analitzar críticament les activitats humanes que impacten en el paisatge i fer propostes plausibles de reversió.",
+            "clau_origen": "ESO4"
           }
         ]
       }
@@ -248,385 +287,514 @@
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Formulació de preguntes, hipòtesis i conjectures científiques"
+      "text": "Formulació de preguntes, hipòtesis i conjectures científiques",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Estratègies d’utilització d’eines digitals per a la cerca d’informació, col·laboració i comunicació de processos, resultats o idees en diferents formats (presentació, gràfica, vídeo, pòster, informe…) en el context de problemes investigables"
+      "text": "Estratègies d’utilització d’eines digitals per a la cerca d’informació, col·laboració i comunicació de processos, resultats o idees en diferents formats (presentació, gràfica, vídeo, pòster, informe…) en el context de problemes investigables",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Reconeixement i utilització de fonts fiables d’informació científica"
+      "text": "Reconeixement i utilització de fonts fiables d’informació científica",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Disseny de recerques, experiments i estudis observacionals, per respondre a una qüestió científica determinada fent servir instruments i espais (laboratori, aules, entorn…) de manera adequada"
+      "text": "Disseny de recerques, experiments i estudis observacionals, per respondre a una qüestió científica determinada fent servir instruments i espais (laboratori, aules, entorn…) de manera adequada",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Elaboració de maquetes i models per a la representació i comprensió de conceptes, processos o elements de la natura"
+      "text": "Elaboració de maquetes i models per a la representació i comprensió de conceptes, processos o elements de la natura",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Utilització de diferents mètodes d’observació i presa de dades de fenòmens naturals en el context de problemes investigables"
+      "text": "Utilització de diferents mètodes d’observació i presa de dades de fenòmens naturals en el context de problemes investigables",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Utilització de diferents mètodes estadístics d’anàlisi de resultats i diferenciació entre correlació i causalitat"
+      "text": "Utilització de diferents mètodes estadístics d’anàlisi de resultats i diferenciació entre correlació i causalitat",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Contribució de les grans científiques i científics al desenvolupament de les ciències biològiques i geològiques"
+      "text": "Contribució de les grans científiques i científics al desenvolupament de les ciències biològiques i geològiques",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Relació i diferenciació entre el concepte de roca i mineral"
+      "text": "Relació i diferenciació entre el concepte de roca i mineral",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Ús d’estratègies de classificació de les roques sedimentàries, metamòrfiques i ígnies de l’entorn"
+      "text": "Ús d’estratègies de classificació de les roques sedimentàries, metamòrfiques i ígnies de l’entorn",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Identificació d’algunes roques i minerals rellevants de l’entorn"
+      "text": "Identificació d’algunes roques i minerals rellevants de l’entorn",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Relació de determinats objectes i materials quotidians amb els minerals i les roques que s’utilitzen en la seva fabricació i anàlisi de casos amb impacte econòmic i social"
+      "text": "Relació de determinats objectes i materials quotidians amb els minerals i les roques que s’utilitzen en la seva fabricació i anàlisi de casos amb impacte econòmic i social",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Anàlisi de l’estructura bàsica de la geosfera i relació amb el seu origen"
+      "text": "Anàlisi de l’estructura bàsica de la geosfera i relació amb el seu origen",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La cèl·lula",
       "subapartat": null,
-      "text": "Reflexió i justificació sobre la cèl·lula com a unitat estructural i funcional de tots els éssers vius, el cas dels virus"
+      "text": "Reflexió i justificació sobre la cèl·lula com a unitat estructural i funcional de tots els éssers vius, el cas dels virus",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La cèl·lula",
       "subapartat": null,
-      "text": "Diferenciació entre la cèl·lula procariota i l’eucariota i identificació dels organismes de què formen part"
+      "text": "Diferenciació entre la cèl·lula procariota i l’eucariota i identificació dels organismes de què formen part",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La cèl·lula",
       "subapartat": null,
-      "text": "Diferenciació entre la cèl·lula animal i vegetal i relació amb l’estratègia nutritiva dels organismes de què formen part"
+      "text": "Diferenciació entre la cèl·lula animal i vegetal i relació amb l’estratègia nutritiva dels organismes de què formen part",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La cèl·lula",
       "subapartat": null,
-      "text": "Relació entre el material genètic i les funcions que exerceix qualsevol tipus cel·lular"
+      "text": "Relació entre el material genètic i les funcions que exerceix qualsevol tipus cel·lular",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La cèl·lula",
       "subapartat": null,
-      "text": "Ús del microscopi i de diferents tècniques per a l’observació i la comparació de tipus de cèl·lules al microscopi"
+      "text": "Ús del microscopi i de diferents tècniques per a l’observació i la comparació de tipus de cèl·lules al microscopi",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Éssers vius",
       "subapartat": null,
-      "text": "Observació i identificació de les característiques distintives d’espècies representatives de l’entorn proper i ubicació dels principals grups taxonòmics corresponents (regne)"
+      "text": "Observació i identificació de les característiques distintives d’espècies representatives de l’entorn proper i ubicació dels principals grups taxonòmics corresponents (regne)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Éssers vius",
       "subapartat": null,
-      "text": "Ús d’estratègies per al reconeixement de les espècies més comunes dels ecosistemes de l’entorn (guies, claus dicotòmiques, eines digitals, visualment…)"
+      "text": "Ús d’estratègies per al reconeixement de les espècies més comunes dels ecosistemes de l’entorn (guies, claus dicotòmiques, eines digitals, visualment…)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ecologia i sostenibilitat",
       "subapartat": null,
-      "text": "Identificació dels elements integrants de diferents ecosistemes de l’entorn, així com de les relacions intraespecífiques i interespecífiques que tenen"
+      "text": "Identificació dels elements integrants de diferents ecosistemes de l’entorn, així com de les relacions intraespecífiques i interespecífiques que tenen",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ecologia i sostenibilitat",
       "subapartat": null,
-      "text": "Reconeixement de la importància de la conservació dels ecosistemes, la biodiversitat i la implantació d’un model de desenvolupament sostenible. Anàlisi de la relació de la sostenibilitat amb alguns ODS (ODS 11. Ciutats i comunitats sostenibles; ODS 12. Consum i producció responsables; ODS 13. Acció climàtica)"
+      "text": "Reconeixement de la importància de la conservació dels ecosistemes, la biodiversitat i la implantació d’un model de desenvolupament sostenible. Anàlisi de la relació de la sostenibilitat amb alguns ODS (ODS 11. Ciutats i comunitats sostenibles; ODS 12. Consum i producció responsables; ODS 13. Acció climàtica)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ecologia i sostenibilitat",
       "subapartat": null,
-      "text": "Anàlisi de les funcions de l’atmosfera i la hidrosfera i el seu paper essencial per a la vida a la Terra a partir dels impactes que genera l’activitat humana i dels riscos que se’n deriven"
+      "text": "Anàlisi de les funcions de l’atmosfera i la hidrosfera i el seu paper essencial per a la vida a la Terra a partir dels impactes que genera l’activitat humana i dels riscos que se’n deriven",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ecologia i sostenibilitat",
       "subapartat": null,
-      "text": "Descripció de la importància de diferents interaccions entre atmosfera, hidrosfera, geosfera i biosfera en processos clau per a la vida"
+      "text": "Descripció de la importància de diferents interaccions entre atmosfera, hidrosfera, geosfera i biosfera en processos clau per a la vida",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ecologia i sostenibilitat",
       "subapartat": null,
-      "text": "Anàlisi de comportaments relacionats amb les causes del canvi climàtic i de les conseqüències sobre els ecosistemes i la vida de les persones. Anàlisi de la relació de la sostenibilitat amb alguns ODS (ODS 14. Vida submarina; ODS 15. Vida terrestre)"
+      "text": "Anàlisi de comportaments relacionats amb les causes del canvi climàtic i de les conseqüències sobre els ecosistemes i la vida de les persones. Anàlisi de la relació de la sostenibilitat amb alguns ODS (ODS 14. Vida submarina; ODS 15. Vida terrestre)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ecologia i sostenibilitat",
       "subapartat": null,
-      "text": "Valoració de la importància dels hàbits i producció sostenibles (consum responsable, gestió de residus, respecte al medi ambient…)"
+      "text": "Valoració de la importància dels hàbits i producció sostenibles (consum responsable, gestió de residus, respecte al medi ambient…)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Cos humà",
       "subapartat": null,
-      "text": "Reflexió sobre les necessitats de l’organisme humà relatives a la seva supervivència i relació amb el conjunt d’aparells i sistemes d’òrgans que integren el cos humà"
+      "text": "Reflexió sobre les necessitats de l’organisme humà relatives a la seva supervivència i relació amb el conjunt d’aparells i sistemes d’òrgans que integren el cos humà",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Cos humà",
       "subapartat": null,
-      "text": "Relació entre l’anatomia, la fisiologia i la funció dels aparells i sistemes d’òrgans implicats en les diferents necessitats (nutrició, relació, reproducció)"
+      "text": "Relació entre l’anatomia, la fisiologia i la funció dels aparells i sistemes d’òrgans implicats en les diferents necessitats (nutrició, relació, reproducció)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Cos humà",
       "subapartat": null,
-      "text": "Investigació sobre situacions i problemes relatius a la salut relacionats amb l’anatomia i la fisiologia de l’organisme humà"
+      "text": "Investigació sobre situacions i problemes relatius a la salut relacionats amb l’anatomia i la fisiologia de l’organisme humà",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Hàbits saludables",
       "subapartat": null,
-      "text": "Comparació i valoració de dietes saludables i no recomanables a partir de la identificació dels seus components"
+      "text": "Comparació i valoració de dietes saludables i no recomanables a partir de la identificació dels seus components",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Hàbits saludables",
       "subapartat": null,
-      "text": "Diferenciació entre sexe, gènere, identitat i orientació sexual i valoració de la importància del respecte vers la llibertat i la diversitat sexual"
+      "text": "Diferenciació entre sexe, gènere, identitat i orientació sexual i valoració de la importància del respecte vers la llibertat i la diversitat sexual",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Hàbits saludables",
       "subapartat": null,
-      "text": "Investigació i reflexió sobre situacions relatives a les malalties de transmissió sexual i els embarassos no desitjats i la importància de la seva prevenció mitjançant l’ús d’anticonceptius i pràctiques sexuals responsables"
+      "text": "Investigació i reflexió sobre situacions relatives a les malalties de transmissió sexual i els embarassos no desitjats i la importància de la seva prevenció mitjançant l’ús d’anticonceptius i pràctiques sexuals responsables",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Hàbits saludables",
       "subapartat": null,
-      "text": "Investigació, reflexió i debat sobre situacions relatives a temes afectivosexuals, de manera respectuosa i responsable, avaluant idees preconcebudes mitjançant l’ús de fonts d’informació adequades"
+      "text": "Investigació, reflexió i debat sobre situacions relatives a temes afectivosexuals, de manera respectuosa i responsable, avaluant idees preconcebudes mitjançant l’ús de fonts d’informació adequades",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Hàbits saludables",
       "subapartat": null,
-      "text": "Investigació, reflexió i debat sobre situacions relatives al consum de drogues (incloent-hi aquelles de curs legal) destacant els efectes perjudicials sobre la salut dels consumidors i les persones del seu entorn proper"
+      "text": "Investigació, reflexió i debat sobre situacions relatives al consum de drogues (incloent-hi aquelles de curs legal) destacant els efectes perjudicials sobre la salut dels consumidors i les persones del seu entorn proper",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Hàbits saludables",
       "subapartat": null,
-      "text": "Valoració del desenvolupament d’hàbits encaminats a la conservació de la salut física, mental i social (higiene de son, hàbits posturals, ús responsable de les noves tecnologies, exercici físic, desplaçaments segurs, control de l’estrès…)"
+      "text": "Valoració del desenvolupament d’hàbits encaminats a la conservació de la salut física, mental i social (higiene de son, hàbits posturals, ús responsable de les noves tecnologies, exercici físic, desplaçaments segurs, control de l’estrès…)",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Anàlisi dels factors que incideixen sobre la salut i de les causes de les malalties"
+      "text": "Anàlisi dels factors que incideixen sobre la salut i de les causes de les malalties",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Diferenciació entre malaltia i símptomes, exploració i diagnòstic a partir de casos concrets"
+      "text": "Diferenciació entre malaltia i símptomes, exploració i diagnòstic a partir de casos concrets",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Estudi dels tipus de fàrmacs més comuns a la farmaciola i diferenciació de la seva acció terapèutica"
+      "text": "Estudi dels tipus de fàrmacs més comuns a la farmaciola i diferenciació de la seva acció terapèutica",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Diferenciació de les malalties infeccioses i raonament sobre les mesures de prevenció i tractaments en funció de l’agent causant i la reflexió sobre l’ús adequat dels antibiòtics i de l’automedicació"
+      "text": "Diferenciació de les malalties infeccioses i raonament sobre les mesures de prevenció i tractaments en funció de l’agent causant i la reflexió sobre l’ús adequat dels antibiòtics i de l’automedicació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Anàlisi dels diferents tipus de mecanismes de defensa de l’organisme davant d’agents patògens (barreres externes i sistema immunitari) i el seu paper en la prevenció i la superació de malalties infeccioses"
+      "text": "Anàlisi dels diferents tipus de mecanismes de defensa de l’organisme davant d’agents patògens (barreres externes i sistema immunitari) i el seu paper en la prevenció i la superació de malalties infeccioses",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Argumentació sobre la importància de la vacunació en la prevenció de malalties i la millora de la qualitat de vida humana a partir de l’anàlisi de casos"
+      "text": "Argumentació sobre la importància de la vacunació en la prevenció de malalties i la millora de la qualitat de vida humana a partir de l’anàlisi de casos",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Salut i malaltia",
       "subapartat": null,
-      "text": "Valoració de la importància dels trasplantaments i la donació d’òrgans"
+      "text": "Valoració de la importància dels trasplantaments i la donació d’òrgans",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Formulació de preguntes, hipòtesis i conjectures científiques"
+      "text": "Formulació de preguntes, hipòtesis i conjectures científiques",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Estratègies d’utilització d’eines digitals per a la cerca d’informació, col·laboració i comunicació de processos, resultats o idees en diferents formats (presentació, gràfica, vídeo, pòster, informe…) en el context de problemes investigables"
+      "text": "Estratègies d’utilització d’eines digitals per a la cerca d’informació, col·laboració i comunicació de processos, resultats o idees en diferents formats (presentació, gràfica, vídeo, pòster, informe…) en el context de problemes investigables",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Reconeixement i utilització de fonts fiables d’informació científica"
+      "text": "Reconeixement i utilització de fonts fiables d’informació científica",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Argumentació sobre l’essencialitat del control experimental amb relació a la validesa científica dels resultats experimentals"
+      "text": "Argumentació sobre l’essencialitat del control experimental amb relació a la validesa científica dels resultats experimentals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Disseny i realització d’experiments que impliquin control experimental (negatiu i positiu), per respondre a una qüestió científica determinada utilitzant els instruments i espais (laboratori, aules, entorn…) de forma adequada i precisa"
+      "text": "Disseny i realització d’experiments que impliquin control experimental (negatiu i positiu), per respondre a una qüestió científica determinada utilitzant els instruments i espais (laboratori, aules, entorn…) de forma adequada i precisa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Elaboració de maquetes i models per a la representació i comprensió de conceptes, processos o elements de la natura"
+      "text": "Elaboració de maquetes i models per a la representació i comprensió de conceptes, processos o elements de la natura",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Utilització de diferents mètodes d’observació i de recollida de dades de fenòmens naturals en el context de problemes investigables"
+      "text": "Utilització de diferents mètodes d’observació i de recollida de dades de fenòmens naturals en el context de problemes investigables",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Utilització de diferents mètodes estadístics d’anàlisi de resultats i diferenciació entre correlació i causalitat"
+      "text": "Utilització de diferents mètodes estadístics d’anàlisi de resultats i diferenciació entre correlació i causalitat",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Paper de les grans científiques i científics en el desenvolupament de les ciències biològiques i geològiques"
+      "text": "Paper de les grans científiques i científics en el desenvolupament de les ciències biològiques i geològiques",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Projecte científic",
       "subapartat": null,
-      "text": "Anàlisi de l’evolució històrica d’un descobriment científic determinat"
+      "text": "Anàlisi de l’evolució històrica d’un descobriment científic determinat",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La cèl·lula",
       "subapartat": null,
-      "text": "Justificació de la importància de la mitosi i de la meiosi en el context de la interpretació del cicle cel·lular dels humans, del desenvolupament, creixement i reproducció"
+      "text": "Justificació de la importància de la mitosi i de la meiosi en el context de la interpretació del cicle cel·lular dels humans, del desenvolupament, creixement i reproducció",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Genètica i evolució",
       "subapartat": null,
-      "text": "Interpretació del model simplificat de l’estructura de l’ADN i de l’ARN i relació amb la seva funció i síntesi"
+      "text": "Interpretació del model simplificat de l’estructura de l’ADN i de l’ARN i relació amb la seva funció i síntesi",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Genètica i evolució",
       "subapartat": null,
-      "text": "Relació entre el material genètic i les característiques observables d’un organisme (especialment en humans) a través de les etapes de l’expressió gènica i diferenciació entre genotip i fenotip"
+      "text": "Relació entre el material genètic i les característiques observables d’un organisme (especialment en humans) a través de les etapes de l’expressió gènica i diferenciació entre genotip i fenotip",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Genètica i evolució",
       "subapartat": null,
-      "text": "Investigació sobre la naturalesa i mecanisme d’herència de malalties genètiques a partir de l’anàlisi de casos"
+      "text": "Investigació sobre la naturalesa i mecanisme d’herència de malalties genètiques a partir de l’anàlisi de casos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Genètica i evolució",
       "subapartat": null,
-      "text": "Argumentació sobre el paper de les mutacions a l’origen de la biodiversitat i la seva relació amb els processos evolutius"
+      "text": "Argumentació sobre el paper de les mutacions a l’origen de la biodiversitat i la seva relació amb els processos evolutius",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Genètica i evolució",
       "subapartat": null,
-      "text": "Interpretació dels fenòmens evolutius des de la perspectiva de diferents teories explicatives (lamarckiana, neodarwinista), anàlisi de casos"
+      "text": "Interpretació dels fenòmens evolutius des de la perspectiva de diferents teories explicatives (lamarckiana, neodarwinista), anàlisi de casos",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Genètica i evolució",
       "subapartat": null,
-      "text": "Resolució de problemes senzills d’herència genètica de caràcters amb relació de dominància, recessivitat, de codominància, dominància incompleta i al·lelisme múltiple. Resolució de problemes relatius al mecanisme de determinació del sexe genètic i herència lligada a aquest mecanisme"
+      "text": "Resolució de problemes senzills d’herència genètica de caràcters amb relació de dominància, recessivitat, de codominància, dominància incompleta i al·lelisme múltiple. Resolució de problemes relatius al mecanisme de determinació del sexe genètic i herència lligada a aquest mecanisme",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Relació i interpretació de l’estructura i dinàmica de la geosfera i les manifestacions externes a través de la tectònica de plaques"
+      "text": "Relació i interpretació de l’estructura i dinàmica de la geosfera i les manifestacions externes a través de la tectònica de plaques",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Geologia",
       "subapartat": null,
-      "text": "Investigació i anàlisi dels riscos naturals i la seva relació amb els processos geològics externs i interns"
+      "text": "Investigació i anàlisi dels riscos naturals i la seva relació amb els processos geològics externs i interns",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La Terra en l’univers",
       "subapartat": null,
-      "text": "Descripció de l’origen de l’univers i la seva relació amb els astres que componen el sistema solar"
+      "text": "Descripció de l’origen de l’univers i la seva relació amb els astres que componen el sistema solar",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La Terra en l’univers",
       "subapartat": null,
-      "text": "Anàlisi i comparació de les hipòtesis sobre l’origen de la vida, arguments"
+      "text": "Anàlisi i comparació de les hipòtesis sobre l’origen de la vida, arguments",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La Terra en l’univers",
       "subapartat": null,
-      "text": "Discussió sobre les investigacions principals en el camp de l’astrobiologia"
+      "text": "Discussió sobre les investigacions principals en el camp de l’astrobiologia",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

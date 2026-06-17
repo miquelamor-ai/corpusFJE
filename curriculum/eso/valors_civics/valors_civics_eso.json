@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Educacio-en-Valors-Civics-i-Etics.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "Els Valors Cívics i Ètics a l'ESO és la matèria que forma l'alumnat en la reflexió moral, el pensament crític i la participació cívica activa. A partir de l'ètica, la filosofia política i els drets humans, l'alumne desenvolupa la capacitat d'analitzar dilemes morals, comprendre els fonaments de la convivència democràtica i actuar com a ciutadà responsable i compromès. Connecta amb les Ciències Socials, la Filosofia de Batxillerat i la formació per a la ciutadania global.\n\nEls constructes disciplinaris clau inclouen la dignitat humana i els drets fonamentals (DUDH), la democràcia i l'estat de dret, la justícia social i la igualtat (gènere, diversitat, inclusió), la llibertat i la responsabilitat, els conceptes d'identitat personal i col·lectiva, les teories ètiques clàssiques (utilitarisme, deontologia, virtut), i els grans reptes globals (sostenibilitat, migracions, desigualtats, fake news, IA). L'argumentació moral i el debat filosòfic estructurat són pràctiques centrals.\n\nL'enfocament pedagògic és dialògic i socràtic: la matèria es construeix sobre el debat, el diàleg filosòfic i l'anàlisi de casos reals i dilemes morals. La lectura de textos filosòfics i literaris, el visionament de documentals i l'estudi de notícies d'actualitat proporcionen els materials de reflexió. L'alumne aprèn a argumentar, a escoltar posicions diverses i a defensar la pròpia postura amb raons. L'avaluació valora la qualitat del raonament, l'escolta activa i la capacitat de connectar teoria i realitat."
   },
@@ -18,26 +18,31 @@
       "codi": "CE1",
       "text": "Indagar i analitzar aspectes vinculats a la construcció de la pròpia identitat i a les qüestions ètiques relatives al projecte vital, en un context social, analitzant de forma reflexiva i crítica la informació obtinguda, per promoure l’autoconeixement i la resolució de dilemes morals de forma autònoma i raonada.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Implicar-se en el procés d’autoconeixement i creixement personal mostrant-se actiu i proactiu davant les propostes educatives d’aula, de centre i de la comunitat."
+            "text": "Implicar-se en el procés d’autoconeixement i creixement personal mostrant-se actiu i proactiu davant les propostes educatives d’aula, de centre i de la comunitat.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.2",
-            "text": "Construir un autoconcepte ajustat manifestant idees i propòsits personals realistes en el seu context educatiu i social."
+            "text": "Construir un autoconcepte ajustat manifestant idees i propòsits personals realistes en el seu context educatiu i social.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.3",
-            "text": "Analitzar de forma crítica i raonada la informació obtinguda per mitjà de diverses fonts aplicant criteris ètics de forma autònoma."
+            "text": "Analitzar de forma crítica i raonada la informació obtinguda per mitjà de diverses fonts aplicant criteris ètics de forma autònoma.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.4",
-            "text": "Resoldre dilemes morals i altres situacions relatives al projecte vital amb responsabilitat i autonomia moral a través de la indagació."
+            "text": "Resoldre dilemes morals i altres situacions relatives al projecte vital amb responsabilitat i autonomia moral a través de la indagació.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.5",
-            "text": "Avaluar de forma proactiva els riscos derivats de l’ús acrític i de l’abús de les xarxes socials com a factor de prevenció de situacions de ciberassetjament en diferents contextos."
+            "text": "Avaluar de forma proactiva els riscos derivats de l’ús acrític i de l’abús de les xarxes socials com a factor de prevenció de situacions de ciberassetjament en diferents contextos.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -46,30 +51,36 @@
       "codi": "CE2",
       "text": "Integrar de forma crítica normes i valors cívics i ètics i actuar i interactuar, a partir del reconeixement de la seva importància en la regulació de la vida individual i comunitària, per aplicar-los de forma efectiva i justificada en diferents contextos i per promoure una convivència pacífica, respectuosa, democràtica i compromesa amb el bé comú i una societat inclusiva.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Manifestar actituds que promouen una convivència pacífica, respectuosa, democràtica i compromesa amb el bé comú i una societat inclusiva."
+            "text": "Manifestar actituds que promouen una convivència pacífica, respectuosa, democràtica i compromesa amb el bé comú i una societat inclusiva.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.2",
-            "text": "Manifestar actituds de ciutadania activa i democràtica a partir del coneixement del moviment associatiu i la participació respectuosa i constructiva en activitats de grup."
+            "text": "Manifestar actituds de ciutadania activa i democràtica a partir del coneixement del moviment associatiu i la participació respectuosa i constructiva en activitats de grup.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.3",
-            "text": "Aplicar principis ètics en la presa de decisions col·lectives, en la planificació d’accions coordinades i en la resolució de problemes."
+            "text": "Aplicar principis ètics en la presa de decisions col·lectives, en la planificació d’accions coordinades i en la resolució de problemes.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.4",
-            "text": "Mostrar un compromís actiu amb el bé comú a través del diàleg raonat sobre qüestions ètiques d’actualitat."
+            "text": "Mostrar un compromís actiu amb el bé comú a través del diàleg raonat sobre qüestions ètiques d’actualitat.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.5",
-            "text": "Reflexionar sobre el problema de la violència contra les dones i actuar a favor de la defensa d’una efectiva igualtat de gènere, a través de l’anàlisi de les mesures de prevenció de la desigualtat i la discriminació per raó de gènere."
+            "text": "Reflexionar sobre el problema de la violència contra les dones i actuar a favor de la defensa d’una efectiva igualtat de gènere, a través de l’anàlisi de les mesures de prevenció de la desigualtat i la discriminació per raó de gènere.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.6",
-            "text": "Analitzar críticament el paper de les institucions públiques, dels organismes internacionals i les organitzacions no governamentals en la promoció de la pau, dels drets humans, del respecte per la diversitat, de la solidaritat i de la cooperació entre nacions, a través del diàleg argumentatiu i raonat."
+            "text": "Analitzar críticament el paper de les institucions públiques, dels organismes internacionals i les organitzacions no governamentals en la promoció de la pau, dels drets humans, del respecte per la diversitat, de la solidaritat i de la cooperació entre nacions, a través del diàleg argumentatiu i raonat.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -78,18 +89,21 @@
       "codi": "CE3",
       "text": "Integrar i avaluar les relacions sistèmiques entre l’individu, la societat i la natura i l’ecodependència de les activitats humanes, mitjançant la identificació i l’anàlisi de problemes ecosocials de rellevància, per desenvolupar hàbits i actituds èticament compromeses amb l’assoliment d’un estil de vida sostenible.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Avaluar la interconnexió i l’ecodependència de les activitats humanes adoptant compromisos i participant en la societat amb accions locals de millora, sostenibles, en relació amb els problemes ecosocials de més rellevància."
+            "text": "Avaluar la interconnexió i l’ecodependència de les activitats humanes adoptant compromisos i participant en la societat amb accions locals de millora, sostenibles, en relació amb els problemes ecosocials de més rellevància.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.2",
-            "text": "Realitzar i promoure accions que afavoreixen l’assoliment dels objectius de desenvolupament sostenible a través d’acords i actuacions individuals i col·lectives de forma activa i compromesa."
+            "text": "Realitzar i promoure accions que afavoreixen l’assoliment dels objectius de desenvolupament sostenible a través d’acords i actuacions individuals i col·lectives de forma activa i compromesa.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.3",
-            "text": "Desenvolupar actituds i valors de compromís basats en el respecte, cura i protecció de les persones, dels animals i del planeta, a través d’accions individuals i col·lectives, a escala local i global, vinculades al consum responsable i de productes de proximitat, a la mobilitat sostenible, a la preservació del patrimoni natural i al respecte per la diversitat etnicocultural."
+            "text": "Desenvolupar actituds i valors de compromís basats en el respecte, cura i protecció de les persones, dels animals i del planeta, a través d’accions individuals i col·lectives, a escala local i global, vinculades al consum responsable i de productes de proximitat, a la mobilitat sostenible, a la preservació del patrimoni natural i al respecte per la diversitat etnicocultural.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -98,22 +112,26 @@
       "codi": "CE4",
       "text": "Desenvolupar i mostrar una adequada estima de si mateix i de l’entorn, reconeixent i valorant les emocions i els sentiments propis i aliens, per a l’assoliment d’una actitud empàtica, respectuosa i acurada envers un mateix, els altres i la natura.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Expressar de manera respectuosa i assertiva les pròpies emocions manifestant una ajustada autoestima en diferents contextos educatius i socials."
+            "text": "Expressar de manera respectuosa i assertiva les pròpies emocions manifestant una ajustada autoestima en diferents contextos educatius i socials.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.2",
-            "text": "Regular adequadament les pròpies emocions a partir de la identificació d’aquestes i de les dels altres, en situacions de participació tant individuals com col·lectives."
+            "text": "Regular adequadament les pròpies emocions a partir de la identificació d’aquestes i de les dels altres, en situacions de participació tant individuals com col·lectives.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.3",
-            "text": "Manifestar una actitud empàtica i respectuosa envers un mateix, els altres i la natura, en activitats realitzades en l’entorn escolar i comunitari."
+            "text": "Manifestar una actitud empàtica i respectuosa envers un mateix, els altres i la natura, en activitats realitzades en l’entorn escolar i comunitari.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.4",
-            "text": "Avaluar situacions de conflicte i prendre-hi partit des d’un posicionament proactiu com a factor de prevenció de relacions abusives, de situacions d’assetjament i de maltractament entre iguals en el context educatiu."
+            "text": "Avaluar situacions de conflicte i prendre-hi partit des d’un posicionament proactiu com a factor de prevenció de relacions abusives, de situacions d’assetjament i de maltractament entre iguals en el context educatiu.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -136,271 +154,362 @@
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Investigació ètica i resolució de problemes complexos a partir del pensament crític i filosòfic en situacions de debat a l’aula"
+      "text": "Investigació ètica i resolució de problemes complexos a partir del pensament crític i filosòfic en situacions de debat a l’aula",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Construcció de l’autoconcepte i la identitat personal en un context plural, a partir de la identificació de les pròpies capacitats, tant físiques i sensorials, com cognitives i emocionals"
+      "text": "Construcció de l’autoconcepte i la identitat personal en un context plural, a partir de la identificació de les pròpies capacitats, tant físiques i sensorials, com cognitives i emocionals",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Manifestació d’actituds de superació personal, basades en la resiliència i la perseverança, en la relació amb un mateix, amb els altres i amb l’entorn"
+      "text": "Manifestació d’actituds de superació personal, basades en la resiliència i la perseverança, en la relació amb un mateix, amb els altres i amb l’entorn",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Desenvolupament crític de l’autonomia i la responsabilitat, tenint en compte la voluntat i el judici moral en diversos entorns amb gran varietat d’interessos"
+      "text": "Desenvolupament crític de l’autonomia i la responsabilitat, tenint en compte la voluntat i el judici moral en diversos entorns amb gran varietat d’interessos",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Valoració de l’ètica com a principi de les nostres accions i de l’establiment de normes presents a la societat, de forma crítica i raonada"
+      "text": "Valoració de l’ètica com a principi de les nostres accions i de l’establiment de normes presents a la societat, de forma crítica i raonada",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Anàlisi del conflicte entre moralitat i legalitat, tenint en compte els drets individuals en un context global"
+      "text": "Anàlisi del conflicte entre moralitat i legalitat, tenint en compte els drets individuals en un context global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Identificació i presa de consciència dels riscos que implica l’ús acrític, l’abús i la sobreexposició a les xarxes socials en la preservació de la privacitat i la vulneració de la pròpia identitat i la dels altres en la societat actual"
+      "text": "Identificació i presa de consciència dels riscos que implica l’ús acrític, l’abús i la sobreexposició a les xarxes socials en la preservació de la privacitat i la vulneració de la pròpia identitat i la dels altres en la societat actual",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Identificació i presa de consciència de les conseqüències d’un mal ús i abús de les noves tecnologies, en el temps de lleure, que poden derivar en conductes addictives relacionades tant amb l’ús dels dispositius com amb els continguts que ofereixen"
+      "text": "Identificació i presa de consciència de les conseqüències d’un mal ús i abús de les noves tecnologies, en el temps de lleure, que poden derivar en conductes addictives relacionades tant amb l’ús dels dispositius com amb els continguts que ofereixen",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Valoració del diàleg i de l’argumentació en la presa democràtica de decisions i en la resolució pacífica de conflictes en la relació amb els altres i en contextos diversos"
+      "text": "Valoració del diàleg i de l’argumentació en la presa democràtica de decisions i en la resolució pacífica de conflictes en la relació amb els altres i en contextos diversos",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Investigació sobre la naturalesa social i política de l’ésser humà, i la comprensió crítica i l’ús dels conceptes de «llei», «poder», «sobirania», «justícia», «estat», «democràcia» i «drets humans» en el context social"
+      "text": "Investigació sobre la naturalesa social i política de l’ésser humà, i la comprensió crítica i l’ús dels conceptes de «llei», «poder», «sobirania», «justícia», «estat», «democràcia» i «drets humans» en el context social",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Estudi de la naturalesa i origen de la societat, i de conceptes relacionats, com «competència», «cooperació», «egoisme» i «altruisme» a escala relacional i social"
+      "text": "Estudi de la naturalesa i origen de la societat, i de conceptes relacionats, com «competència», «cooperació», «egoisme» i «altruisme» a escala relacional i social",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Identificació de les estructures socials i dels grups de pertinença que conformen una societat en propostes d’aula que ho requereixin"
+      "text": "Identificació de les estructures socials i dels grups de pertinença que conformen una societat en propostes d’aula que ho requereixin",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Anàlisi de les formes d’estat i tipus de govern, així com dels principis, procediments i institucions democràtics fins arribar a la memòria democràtica en projectes d’aula que hi estiguin vinculats"
+      "text": "Anàlisi de les formes d’estat i tipus de govern, així com dels principis, procediments i institucions democràtics fins arribar a la memòria democràtica en projectes d’aula que hi estiguin vinculats",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Integració de la constitució històrica de les diferents generacions de drets humans, en especial dels drets de l’infant, atenent a la seva rellevància ètica en la relació entre les persones tant en el centre educatiu com fora d’aquest"
+      "text": "Integració de la constitució històrica de les diferents generacions de drets humans, en especial dels drets de l’infant, atenent a la seva rellevància ètica en la relació entre les persones tant en el centre educatiu com fora d’aquest",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Promoció de l’associacionisme i el voluntariat, i la participació democràtica en el marc d’uns codis deontològics i ètics en el context social proper"
+      "text": "Promoció de l’associacionisme i el voluntariat, i la participació democràtica en el marc d’uns codis deontològics i ètics en el context social proper",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Anàlisi i diàleg raonat sobre la desigualtat econòmica i la lluita contra la pobresa; el dret a la feina, la salut, l’educació i la justícia, i la promoció del comerç just en una societat globalitzada"
+      "text": "Anàlisi i diàleg raonat sobre la desigualtat econòmica i la lluita contra la pobresa; el dret a la feina, la salut, l’educació i la justícia, i la promoció del comerç just en una societat globalitzada",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Reflexió sobre la bioètica, el desafiament de la intel·ligència artificial, les propostes transhumanistes i els fins i límits ètics de la investigació científica en la societat moderna i global"
+      "text": "Reflexió sobre la bioètica, el desafiament de la intel·ligència artificial, les propostes transhumanistes i els fins i límits ètics de la investigació científica en la societat moderna i global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Presa de consciència de la importància de les accions individuals i col·lectives i de la contribució de l’Estat, dels organismes internacionals, de les ONG i de les ONGD a favor de la pau, la seguretat i la cooperació internacional en la societat actual"
+      "text": "Presa de consciència de la importància de les accions individuals i col·lectives i de la contribució de l’Estat, dels organismes internacionals, de les ONG i de les ONGD a favor de la pau, la seguretat i la cooperació internacional en la societat actual",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Relació entre el dret internacional i la ciutadania global en un món actual interconnectat"
+      "text": "Relació entre el dret internacional i la ciutadania global en un món actual interconnectat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Manifestació d’una posició informada i èticament fonamentada sobre el valor i pertinència dels drets humans, el respecte per la diversitat etnicocultural, la consideració dels bens públics globals i la percepció del valor social dels impostos en el context proper"
+      "text": "Manifestació d’una posició informada i èticament fonamentada sobre el valor i pertinència dels drets humans, el respecte per la diversitat etnicocultural, la consideració dels bens públics globals i la percepció del valor social dels impostos en el context proper",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Reconeixement de la història democràtica de l’Estat espanyol, les seves"
+      "text": "Reconeixement de la història democràtica de l’Estat espanyol, les seves",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "institucions, la realitat democràtica i institucional catalana, organismes internacionals i associacions civils dirigides a assolir la pau, la seguretat i la solidaritat entre els pobles i les persones, en projectes d’aula que hi estiguin vinculats"
+      "text": "institucions, la realitat democràtica i institucional catalana, organismes internacionals i associacions civils dirigides a assolir la pau, la seguretat i la solidaritat entre els pobles i les persones, en projectes d’aula que hi estiguin vinculats",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Identificació de l’ecodependència i la interconnexió entre els estils de vida i l’entorn, en situacions quotidianes"
+      "text": "Identificació de l’ecodependència i la interconnexió entre els estils de vida i l’entorn, en situacions quotidianes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Proposta d’accions locals i globals sobre la relació individu-natura des de diferents perspectives en situacions de debat crític a l’aula"
+      "text": "Proposta d’accions locals i globals sobre la relació individu-natura des de diferents perspectives en situacions de debat crític a l’aula",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Anàlisi crítica dels límits del planeta, l’emergència climàtica i la petjada ecològica de les accions humanes en el món actual"
+      "text": "Anàlisi crítica dels límits del planeta, l’emergència climàtica i la petjada ecològica de les accions humanes en el món actual",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Creació d’estratègies per al desenvolupament sostenible en un context local i global"
+      "text": "Creació d’estratègies per al desenvolupament sostenible en un context local i global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Debat sobre diversos plantejaments ètics, científics i polítics en relació amb els problemes ecosocials i ambientals, en el marc de projectes realitzats a l’aula"
+      "text": "Debat sobre diversos plantejaments ètics, científics i polítics en relació amb els problemes ecosocials i ambientals, en el marc de projectes realitzats a l’aula",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Desenvolupament i promoció d’hàbits i actuacions individuals i col·lectives en el marc dels objectius de desenvolupament sostenible en un context local i global"
+      "text": "Desenvolupament i promoció d’hàbits i actuacions individuals i col·lectives en el marc dels objectius de desenvolupament sostenible en un context local i global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Integració de l’ecofeminisme, l’economia circular i l’economia blava en el propi projecte vital i en situacions de la vida quotidiana"
+      "text": "Integració de l’ecofeminisme, l’economia circular i l’economia blava en el propi projecte vital i en situacions de la vida quotidiana",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Establiment d’un compromís actiu amb la protecció de la vida animal i el medi ambient des de la perspectiva biocèntrica en situacions de debat a l’aula"
+      "text": "Establiment d’un compromís actiu amb la protecció de la vida animal i el medi ambient des de la perspectiva biocèntrica en situacions de debat a l’aula",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Consolidació i promoció d’hàbits de vida sostenible tenint en compte el consum responsable i de productes de proximitat, la gestió òptima dels recursos naturals i dels residus, i de la mobilitat en l’orientació que donem al nostre estil de vida"
+      "text": "Consolidació i promoció d’hàbits de vida sostenible tenint en compte el consum responsable i de productes de proximitat, la gestió òptima dels recursos naturals i dels residus, i de la mobilitat en l’orientació que donem al nostre estil de vida",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Coneixement de la sobirania alimentària i d’estratègies que afavoreixen la reducció del malbaratament alimentari en un context global"
+      "text": "Coneixement de la sobirania alimentària i d’estratègies que afavoreixen la reducció del malbaratament alimentari en un context global",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Presa de consciència, expressió assertiva i regulació de les emocions pròpies i alienes, basades en una autoestima ajustada, com a aspecte determinant en la millora del benestar individual i col·lectiu amb un mateix i amb els altres"
+      "text": "Presa de consciència, expressió assertiva i regulació de les emocions pròpies i alienes, basades en una autoestima ajustada, com a aspecte determinant en la millora del benestar individual i col·lectiu amb un mateix i amb els altres",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Construcció i valoració de relacions afectives saludables a partir del reconeixement de la igualtat i del respecte mutu, com a factors que les determinen, en el context social"
+      "text": "Construcció i valoració de relacions afectives saludables a partir del reconeixement de la igualtat i del respecte mutu, com a factors que les determinen, en el context social",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Integració crítica i constructiva de la interdependència entre els aspectes afectius i el desenvolupament de la sexualitat, implicant-se de forma responsable en la millora del benestar emocional individual i col·lectiu en les relacions entre iguals"
+      "text": "Integració crítica i constructiva de la interdependència entre els aspectes afectius i el desenvolupament de la sexualitat, implicant-se de forma responsable en la millora del benestar emocional individual i col·lectiu en les relacions entre iguals",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Manifestació d’actituds de respecte i empatia amb relació als drets LGTBIQ+ i a la pluralitat cultural, política, religiosa i altres, com a condicions essencials per a la millora del benestar individual i col·lectiu en una societat moderna amb diversitat d’opcions"
+      "text": "Manifestació d’actituds de respecte i empatia amb relació als drets LGTBIQ+ i a la pluralitat cultural, política, religiosa i altres, com a condicions essencials per a la millora del benestar individual i col·lectiu en una societat moderna amb diversitat d’opcions",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Valoració de situacions de conflicte i desenvolupament d’accions de prevenció enfront les relacions abusives i el maltractament entre iguals en l’entorn educatiu"
+      "text": "Valoració de situacions de conflicte i desenvolupament d’accions de prevenció enfront les relacions abusives i el maltractament entre iguals en l’entorn educatiu",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Gestió personal i emocional",
       "subapartat": null,
-      "text": "Organització i participació activa de gran varietat de situacions motrius essent capaç d’assumir diferents rols"
+      "text": "Organització i participació activa de gran varietat de situacions motrius essent capaç d’assumir diferents rols",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Gestió personal i emocional",
       "subapartat": null,
-      "text": "Desenvolupament de la consciència, regulació i autonomia emocional com a capacitat de reconèixer, gestionar i autoregular les emocions (superació, perseverança, estrès, autocontrol en les situacions de contacte…) en contextos fisicoesportius"
+      "text": "Desenvolupament de la consciència, regulació i autonomia emocional com a capacitat de reconèixer, gestionar i autoregular les emocions (superació, perseverança, estrès, autocontrol en les situacions de contacte…) en contextos fisicoesportius",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Habilitats socials i valors",
       "subapartat": null,
-      "text": "Aplicació d’habilitats socials que fomentin la convivència i la cohesió social en tot tipus de situacions"
+      "text": "Aplicació d’habilitats socials que fomentin la convivència i la cohesió social en tot tipus de situacions",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Habilitats socials i valors",
       "subapartat": null,
-      "text": "Comunicació assertiva, respecte per la resta i col·laboració i cooperació responsable i activa en contextos motrius diversos"
+      "text": "Comunicació assertiva, respecte per la resta i col·laboració i cooperació responsable i activa en contextos motrius diversos",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Habilitats socials i valors",
       "subapartat": null,
-      "text": "Interiorització dels valors educatius de l’esport en el creixement personal"
+      "text": "Interiorització dels valors educatius de l’esport en el creixement personal",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Activitat física, gènere i discriminació",
       "subapartat": null,
-      "text": "Responsabilitat i compromís actiu davant d’estereotips, actuacions discriminatòries de gènere, ètniques, socioeconòmiques, de competència motriu i qualsevol tipus de violència que es pugui donar"
+      "text": "Responsabilitat i compromís actiu davant d’estereotips, actuacions discriminatòries de gènere, ètniques, socioeconòmiques, de competència motriu i qualsevol tipus de violència que es pugui donar",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Activitat física, gènere i discriminació",
       "subapartat": null,
-      "text": "Promoció de la igualtat de gènere en la pràctica de qualsevol esport, en la difusió en mitjans de comunicació i en el reconeixement de referents esportius"
+      "text": "Promoció de la igualtat de gènere en la pràctica de qualsevol esport, en la difusió en mitjans de comunicació i en el reconeixement de referents esportius",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Activitat física, gènere i discriminació",
       "subapartat": null,
-      "text": "Influència social, cultural i econòmica de l’esport en la societat actual: aspectes positius i negatius"
+      "text": "Influència social, cultural i econòmica de l’esport en la societat actual: aspectes positius i negatius",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

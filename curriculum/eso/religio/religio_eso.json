@@ -8,7 +8,7 @@
     "data_decret": "2022-08-24",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/materies/Religio-Catolica.pdf",
     "nota_estructura": "Religió Catòlica és matèria optativa de l'ESO regulada per l'Acord entre l'Estat espanyol i la Santa Seu (1979) i el Decret 175/2022. S'organitza en quatre blocs temàtics al llarg dels quatre cursos, amb criteris agrupats en 1r-3r i 4t per reflectir el progressiu aprofundiment.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "La Religió Catòlica és una matèria optativa de l'ESO, regulada per l'acord entre l'Estat espanyol i la Santa Seu, que acompanya l'alumnat en la reflexió sobre les grans preguntes de l'existència humana des de la perspectiva de la tradició cristiana. Connecta amb àmbits com la filosofia, la història, l'ètica, la literatura i les arts, i contribueix a la formació integral de la persona en el seu context cultural i social.\n\nLa matèria s'estructura al voltant d'un conjunt de conceptes i nocions específics: la dimensió religiosa de la persona, les preguntes existencials fonamentals (sentit de la vida, mort, mal, felicitat) i el diàleg interreligiós entre les grans tradicions (judaisme, islamisme, hinduisme, budisme); la Bíblia com a text fundacional del cristianisme, els seus gèneres literaris (narràtiu, profètic, poètic, epistolar, evangèlic) i la seva hermenèutica; la cristologia fonamental —Regne de Déu, benaurances, paràboles, passió, mort i resurrecció— i l'eclesiogia (sacraments, litúrgia, any litúrgic, concilis, Vaticà II); i l'ètica cristiana i la Doctrina Social de l'Església, amb conceptes com dignitat de la persona, solidaritat, subsidiarietat i els reptes globals des de la moral cristiana (Laudato Si', bioètica, pau).\n\nEl plantejament pedagògic de la matèria afavoreix la reflexió personal i el diàleg respectuós en la diversitat. Es treballa a partir de la lectura i comentari de textos bíblics, l'anàlisi de l'art religiós i el patrimoni cultural, el debat sobre dilemes ètics contemporanis i l'elaboració de reflexions personals argumentades. Al llarg dels cursos, l'abordatge progressa des del reconeixement de signes religiosos i relats bàsics fins a la reflexió crítica sobre la relació entre fe, raó i cultura."
   },
   "competencies_clau": [
@@ -35,12 +35,12 @@
         "CC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           "1.1 Identificar les preguntes fonamentals de l'existència humana (sentit de la vida, mort, mal, felicitat) i relacionar-les amb les respostes que ofereix la religió.",
           "1.2 Reconèixer les grans tradicions religioses del món i els seus elements comuns, mostrant respecte per la diversitat religiosa.",
           "1.3 Identificar el fet religiós com a element constitutiu de moltes cultures i civilitzacions al llarg de la història."
         ],
-        "4t": [
+        "ESO_C2": [
           "1.4 Analitzar el diàleg interreligiós i el seu paper en la convivència pacífica, identificant els punts de trobada entre les grans religions.",
           "1.5 Reflexionar sobre la relació entre fe i raó, i el paper de la religió en el món contemporani."
         ]
@@ -56,12 +56,12 @@
         "CC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           "2.1 Identificar l'estructura de la Bíblia (Antic i Nou Testament) i els seus principals gèneres literaris (narratiu, poètic, profètic, evangèlic).",
           "2.2 Llegir i interpretar textos bíblics rellevants del Antic Testament, contextualitzant-los en la seva època i cultura.",
           "2.3 Llegir i interpretar textos evangèlics significatius, relacionant-los amb el missatge central de Jesucrist."
         ],
-        "4t": [
+        "ESO_C2": [
           "2.4 Analitzar la influència de la Bíblia en la literatura, les arts i la cultura occidental al llarg de la història.",
           "2.5 Comparar relats bíblics amb tradicions d'altres religions, identificant similituds i diferències."
         ]
@@ -77,12 +77,12 @@
         "CCEC"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           "3.1 Identificar els elements biogràfics de Jesús de Natzaret i comprendre el nucli del seu missatge (Regne de Déu, amor, justícia).",
           "3.2 Conèixer els elements fonamentals de la fe cristiana: incarnació, passió, mort i resurrecció de Jesucrist.",
           "3.3 Reconèixer l'Església com a comunitat nascuda de la fe en Jesucrist, identificant els seus sacraments, la seva estructura i la seva missió."
         ],
-        "4t": [
+        "ESO_C2": [
           "3.4 Analitzar moments clau de la història de l'Església i el seu paper en la formació de la cultura europea.",
           "3.5 Reconèixer la contribució de l'Església en l'àmbit social, educatiu i cultural (hospitals, universitats, art, caritat)."
         ]
@@ -98,12 +98,12 @@
         "CCL"
       ],
       "criteris_avaluacio": {
-        "1r_3r": [
+        "ESO_C1": [
           "4.1 Identificar els valors fonamentals del missatge cristià (amor, justícia, solidaritat, perdonament) i relacionar-los amb dilemes morals quotidians.",
           "4.2 Reconèixer el compromís social de l'Església a través de la Doctrina Social i les organitzacions humanitàries catòliques.",
           "4.3 Relacionar els drets humans amb el principi de dignitat de la persona en la tradició cristiana."
         ],
-        "4t": [
+        "ESO_C2": [
           "4.4 Analitzar els reptes ètics globals (pobresa, medi ambient, pau, igualtat) des de la perspectiva de la moral cristiana.",
           "4.5 Elaborar reflexions personals sobre el compromís ètic i social inspirades en els valors evangèlics."
         ]
@@ -204,187 +204,250 @@
       "nivell": "1r_3r",
       "bloc": "La pregunta religiosa i la persona",
       "subapartat": "Experiència religiosa",
-      "text": "La religió com a resposta a les preguntes fonamentals de la persona"
+      "text": "La religió com a resposta a les preguntes fonamentals de la persona",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La pregunta religiosa i la persona",
       "subapartat": "Experiència religiosa",
-      "text": "Elements comuns de les religions: el sagrat, el ritu, la pregària, els textos sagrats"
+      "text": "Elements comuns de les religions: el sagrat, el ritu, la pregària, els textos sagrats",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La pregunta religiosa i la persona",
       "subapartat": "Experiència religiosa",
-      "text": "Les grans religions del món: judaisme, cristianisme, islam, hinduisme, budisme"
+      "text": "Les grans religions del món: judaisme, cristianisme, islam, hinduisme, budisme",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La Bíblia: text i context",
       "subapartat": "La Bíblia com a text",
-      "text": "Estructura de la Bíblia: Antic i Nou Testament"
+      "text": "Estructura de la Bíblia: Antic i Nou Testament",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La Bíblia: text i context",
       "subapartat": "La Bíblia com a text",
-      "text": "Gèneres literaris bíblics: mite, narració, poesia, profecia, evangelis, cartes"
+      "text": "Gèneres literaris bíblics: mite, narració, poesia, profecia, evangelis, cartes",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La Bíblia: text i context",
       "subapartat": "La Bíblia com a text",
-      "text": "Textos fonamentals de l'Antic Testament: creació, alliberament, profecia"
+      "text": "Textos fonamentals de l'Antic Testament: creació, alliberament, profecia",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "La Bíblia: text i context",
       "subapartat": "La Bíblia com a text",
-      "text": "Els evangelis: Jesús de Natzaret en la seva vida i missatge"
+      "text": "Els evangelis: Jesús de Natzaret en la seva vida i missatge",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "Jesucrist",
-      "text": "Context històric de Palestina al segle I"
+      "text": "Context històric de Palestina al segle I",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "Jesucrist",
-      "text": "El missatge de Jesús: el Regne de Déu, les benaurances, les paràboles"
+      "text": "El missatge de Jesús: el Regne de Déu, les benaurances, les paràboles",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "Jesucrist",
-      "text": "Passió, mort i resurrecció: nucli de la fe cristiana"
+      "text": "Passió, mort i resurrecció: nucli de la fe cristiana",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "Jesucrist",
-      "text": "Sacraments: Baptisme, Eucaristia, Reconciliació"
+      "text": "Sacraments: Baptisme, Eucaristia, Reconciliació",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església",
-      "text": "Naixement i expansió de l'Església primitiva"
+      "text": "Naixement i expansió de l'Església primitiva",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església",
-      "text": "Estructura de l'Església catòlica: papa, bisbes, preveres, laics"
+      "text": "Estructura de l'Església catòlica: papa, bisbes, preveres, laics",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església",
-      "text": "L'Església en la vida: litúrgia, celebracions i any litúrgic"
+      "text": "L'Església en la vida: litúrgia, celebracions i any litúrgic",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Valors cristians",
-      "text": "L'amor al proïsme i la solidaritat com a mandat evangèlic"
+      "text": "L'amor al proïsme i la solidaritat com a mandat evangèlic",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Valors cristians",
-      "text": "La justícia social en la Doctrina Social de l'Església"
+      "text": "La justícia social en la Doctrina Social de l'Església",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "1r_3r",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Valors cristians",
-      "text": "Drets humans i dignitat de la persona en la tradició cristiana"
+      "text": "Drets humans i dignitat de la persona en la tradició cristiana",
+      "nivell_norm": "ESO_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La pregunta religiosa i la persona",
       "subapartat": "Fe i raó",
-      "text": "La relació entre fe i raó en la tradició cristiana"
+      "text": "La relació entre fe i raó en la tradició cristiana",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La pregunta religiosa i la persona",
       "subapartat": "Fe i raó",
-      "text": "El diàleg interreligiós: fonaments i exemples contemporanis"
+      "text": "El diàleg interreligiós: fonaments i exemples contemporanis",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La pregunta religiosa i la persona",
       "subapartat": "Fe i raó",
-      "text": "Laïcitat i presència de la religió en l'esfera pública"
+      "text": "Laïcitat i presència de la religió en l'esfera pública",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La Bíblia: text i context",
       "subapartat": "Influència cultural de la Bíblia",
-      "text": "La Bíblia en la literatura, les arts plàstiques i la música"
+      "text": "La Bíblia en la literatura, les arts plàstiques i la música",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La Bíblia: text i context",
       "subapartat": "Influència cultural de la Bíblia",
-      "text": "Textos bíblics comparats amb tradicions d'altres religions"
+      "text": "Textos bíblics comparats amb tradicions d'altres religions",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "La Bíblia: text i context",
       "subapartat": "Influència cultural de la Bíblia",
-      "text": "Hermenèutica bíblica: com s'interpreta la Bíblia avui"
+      "text": "Hermenèutica bíblica: com s'interpreta la Bíblia avui",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església en la història",
-      "text": "L'Església en l'Edat Mitjana: evangelització, art i cultura"
+      "text": "L'Església en l'Edat Mitjana: evangelització, art i cultura",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església en la història",
-      "text": "La Reforma i el Concili de Trento"
+      "text": "La Reforma i el Concili de Trento",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església en la història",
-      "text": "El Concili Vaticà II: renovació i obertura al món"
+      "text": "El Concili Vaticà II: renovació i obertura al món",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Jesucrist i l'Església",
       "subapartat": "L'Església en la història",
-      "text": "L'Església avui: missió, càritas i presència social"
+      "text": "L'Església avui: missió, càritas i presència social",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Reptes ètics globals",
-      "text": "Pobresa i desigualtat: la resposta de la moral cristiana"
+      "text": "Pobresa i desigualtat: la resposta de la moral cristiana",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Reptes ètics globals",
-      "text": "Medi ambient i cura de la creació: l'encíclica Laudato Si'"
+      "text": "Medi ambient i cura de la creació: l'encíclica Laudato Si'",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Reptes ètics globals",
-      "text": "Pau, violència i reconciliació en el pensament cristià"
+      "text": "Pau, violència i reconciliació en el pensament cristià",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "Ètica cristiana i compromís social",
       "subapartat": "Reptes ètics globals",
-      "text": "Bioètica: vida humana, dignitat i fi de la vida"
+      "text": "Bioètica: vida humana, dignitat i fi de la vida",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

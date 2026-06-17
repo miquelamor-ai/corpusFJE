@@ -8,7 +8,7 @@
     "data_decret": "2022-08-22",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Emprenedoria.pdf",
     "nota_estructura": "Matèria optativa de 4t d'ESO.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "L'Emprenedoria a l'ESO és una matèria optativa que desenvolupa la competència emprenedora i les habilitats per identificar oportunitats, dissenyar projectes i actuar amb iniciativa i autonomia. No es limita al negoci o la empresa: conrea l'emprenedoria personal, social i comunitària, formant ciutadans capaços de transformar idees en accions amb impacte real. Connecta amb Tecnologia, Ciències Socials i el conjunt de les competències clau de la LOMLOE.\n\nEls constructes clau inclouen la ideació (brainstorming, design thinking, mapa d'empatia), el model de negoci (Canvas, proposta de valor, segments de clients, fonts d'ingressos), el prototipat i la validació (MVP, feedback d'usuari, iteració), el treball en equip i la distribució de rols, i la comunicació persuasiva (elevator pitch, presentació davant d'inversors). El pensament creatiu, la resolució de problemes i la tolerància al fracàs com a part del procés emprenedor són eixos transversals.\n\nL'enfocament pedagògic és actiu i basat en projectes reals o simulats: l'alumnat crea microempreses, participa en reptes del territori i presenta els seus projectes a audiències reals. La metodologia combina el treball en equip, el rol de mentor extern (empresari, entitat social, expert) i la reflexió sobre el procés. L'avaluació és essencialment competencial: valora l'autonomia, la creativitat, el treball cooperatiu i la capacitat de presentar i defensar una idea."
   },
   "competencies_clau": [
@@ -25,19 +25,22 @@
       "codi": "CE1",
       "text": "Reconèixer i desenvolupar actituds i aptituds emprenedores —iniciativa, creativitat, resiliència, responsabilitat, treball en equip, pensament crític— a través de la reflexió sobre la pròpia identitat i les pròpies capacitats, per construir una actitud proactiva davant els reptes personals, socials i professionals del present i del futur.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO_C1": [],
+        "ESO_C2": [
           {
             "codi": "CA1.1",
-            "text": "Reflexiona sobre les pròpies habilitats, motivacions, valors i perfil emprenedor, identificant fortaleses i àrees de millora mitjançant eines d'autoconeixement (test de perfil, mapa de competències)."
+            "text": "Reflexiona sobre les pròpies habilitats, motivacions, valors i perfil emprenedor, identificant fortaleses i àrees de millora mitjançant eines d'autoconeixement (test de perfil, mapa de competències).",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA1.2",
-            "text": "Analitza casos d'emprenedors i emprenedores reals —locals, nacionals i internacionals— identificant les actituds i les decisions que van marcar l'èxit o el fracàs dels seus projectes."
+            "text": "Analitza casos d'emprenedors i emprenedores reals —locals, nacionals i internacionals— identificant les actituds i les decisions que van marcar l'èxit o el fracàs dels seus projectes.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA1.3",
-            "text": "Desenvolupa actituds de resiliència, creativitat i treball col·laboratiu en dinàmiques de grup i reptes pràctics, valorant la diversitat d'equip com un actiu."
+            "text": "Desenvolupa actituds de resiliència, creativitat i treball col·laboratiu en dinàmiques de grup i reptes pràctics, valorant la diversitat d'equip com un actiu.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -46,19 +49,22 @@
       "codi": "CE2",
       "text": "Identificar oportunitats de negoci i necessitats de la societat a partir de l'observació de l'entorn, l'anàlisi del mercat i de les tendències socials, econòmiques i tecnològiques, per generar idees innovadores que responguin a problemes reals o a noves demandes, aplicant eines de creativitat i de validació d'idees.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO_C1": [],
+        "ESO_C2": [
           {
             "codi": "CA2.1",
-            "text": "Detecta oportunitats de negoci o necessitats socials no resoltes a partir de l'observació de l'entorn, l'anàlisi de tendències (PESTEL, STEEP) i tècniques d'empatia amb possibles usuaris."
+            "text": "Detecta oportunitats de negoci o necessitats socials no resoltes a partir de l'observació de l'entorn, l'anàlisi de tendències (PESTEL, STEEP) i tècniques d'empatia amb possibles usuaris.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA2.2",
-            "text": "Genera i selecciona idees de negoci o d'impacte social mitjançant tècniques de creativitat (brainstorming, SCAMPER, mapa d'empatia, prototipatge ràpid)."
+            "text": "Genera i selecciona idees de negoci o d'impacte social mitjançant tècniques de creativitat (brainstorming, SCAMPER, mapa d'empatia, prototipatge ràpid).",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA2.3",
-            "text": "Valida una idea de negoci o iniciativa social recopilant dades reals de mercat —enquestes, entrevistes, observació— i analitzant la viabilitat inicial."
+            "text": "Valida una idea de negoci o iniciativa social recopilant dades reals de mercat —enquestes, entrevistes, observació— i analitzant la viabilitat inicial.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -67,27 +73,32 @@
       "codi": "CE3",
       "text": "Elaborar un pla d'empresa bàsic —Canvas, DAFO, pla financer elemental— per a un projecte emprenedor o una iniciativa social, integrant aspectes de màrqueting, gestió, viabilitat econòmica i estructura organitzativa, i presentar-lo de manera convincent davant d'una audiència simulant un context real de pitching.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO_C1": [],
+        "ESO_C2": [
           {
             "codi": "CA3.1",
-            "text": "Elabora un model de negoci Canvas complet per al projecte emprenedor, definint amb precisió els segments de clients, la proposta de valor, els canals, les fonts d'ingressos i l'estructura de costos."
+            "text": "Elabora un model de negoci Canvas complet per al projecte emprenedor, definint amb precisió els segments de clients, la proposta de valor, els canals, les fonts d'ingressos i l'estructura de costos.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.2",
-            "text": "Realitza un anàlisi DAFO del projecte identificant debilitats, amenaces, fortaleses i oportunitats, i establint estratègies de resposta per a cada dimensió."
+            "text": "Realitza un anàlisi DAFO del projecte identificant debilitats, amenaces, fortaleses i oportunitats, i establint estratègies de resposta per a cada dimensió.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.3",
-            "text": "Elabora un pla de màrqueting bàsic que inclou la definició del públic objectiu, les 4P (producte, preu, distribució, comunicació) i les accions de difusió en xarxes socials."
+            "text": "Elabora un pla de màrqueting bàsic que inclou la definició del públic objectiu, les 4P (producte, preu, distribució, comunicació) i les accions de difusió en xarxes socials.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.4",
-            "text": "Realitza projeccions financeres elementals —compte de resultats simplificat, punt d'equilibri, flux de caixa bàsic— per avaluar la viabilitat econòmica del projecte."
+            "text": "Realitza projeccions financeres elementals —compte de resultats simplificat, punt d'equilibri, flux de caixa bàsic— per avaluar la viabilitat econòmica del projecte.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA3.5",
-            "text": "Presenta el pla d'empresa en format pitching davant d'una audiència (professorat, convidats del món empresarial), de manera clara, convincent i estructurada."
+            "text": "Presenta el pla d'empresa en format pitching davant d'una audiència (professorat, convidats del món empresarial), de manera clara, convincent i estructurada.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -96,19 +107,22 @@
       "codi": "CE4",
       "text": "Aplicar el pensament creatiu, el Design Thinking i la innovació com a eines de generació i validació d'idees de negoci o d'impacte social, experimentant amb prototips, iterant a partir del feedback i comprenent el valor del fracàs com a font d'aprenentatge en el procés emprenedor.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO_C1": [],
+        "ESO_C2": [
           {
             "codi": "CA4.1",
-            "text": "Aplica el procés de Design Thinking —empatia, definició, ideació, prototipatge, test— per iterar i millorar el prototip del producte o servei a partir del feedback dels usuaris."
+            "text": "Aplica el procés de Design Thinking —empatia, definició, ideació, prototipatge, test— per iterar i millorar el prototip del producte o servei a partir del feedback dels usuaris.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA4.2",
-            "text": "Construeix prototips físics o digitals del producte o servei, aplicant criteris d'usabilitat, estètica i funcionalitat, i recollint feedback sistemàtic per millorar-los."
+            "text": "Construeix prototips físics o digitals del producte o servei, aplicant criteris d'usabilitat, estètica i funcionalitat, i recollint feedback sistemàtic per millorar-los.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA4.3",
-            "text": "Reflexiona sobre el fracàs com a part del procés d'innovació, analitzant casos d'empreses que han pivotat o fracassat i extreient-ne aprenentatges transferibles."
+            "text": "Reflexiona sobre el fracàs com a part del procés d'innovació, analitzant casos d'empreses que han pivotat o fracassat i extreient-ne aprenentatges transferibles.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -117,19 +131,22 @@
       "codi": "CE5",
       "text": "Reflexionar sobre la responsabilitat social, ambiental i ètica de les iniciatives emprenedores —ODS, empresa social, economia circular, consum responsable, impacte en la comunitat— per generar propostes de valor que combinin la viabilitat econòmica amb la sostenibilitat i la justícia social, i comprendre el paper de l'emprenedoria en la transformació social.",
       "criteris_avaluacio": {
-        "1r_3r": [],
-        "4t": [
+        "ESO_C1": [],
+        "ESO_C2": [
           {
             "codi": "CA5.1",
-            "text": "Incorpora els Objectius de Desenvolupament Sostenible (ODS) en el disseny del projecte emprenedor, identificant quins ODS aborda la proposta i com els integra de manera coherent."
+            "text": "Incorpora els Objectius de Desenvolupament Sostenible (ODS) en el disseny del projecte emprenedor, identificant quins ODS aborda la proposta i com els integra de manera coherent.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA5.2",
-            "text": "Analitza casos d'empresa social, economia social i solidària, empreses B Corp i economia circular, identificant-ne els models de negoci i l'impacte en la comunitat i el medi."
+            "text": "Analitza casos d'empresa social, economia social i solidària, empreses B Corp i economia circular, identificant-ne els models de negoci i l'impacte en la comunitat i el medi.",
+            "clau_origen": "4t"
           },
           {
             "codi": "CA5.3",
-            "text": "Reflexiona críticament sobre l'impacte social, ambiental i ètic del projecte propi, identificant riscos i proposant mesures de mitigació o millora."
+            "text": "Reflexiona críticament sobre l'impacte social, ambiental i ètic del projecte propi, identificant riscos i proposant mesures de mitigació o millora.",
+            "clau_origen": "4t"
           }
         ]
       }
@@ -202,241 +219,322 @@
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "El perfil emprenedor: característiques, actituds i competències (iniciativa, creativitat, resiliència, lideratge, treball en equip)"
+      "text": "El perfil emprenedor: característiques, actituds i competències (iniciativa, creativitat, resiliència, lideratge, treball en equip)",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Autoconeixement i fortaleses personals: tests de perfil emprenedor, mapa de competències, intel·ligències múltiples"
+      "text": "Autoconeixement i fortaleses personals: tests de perfil emprenedor, mapa de competències, intel·ligències múltiples",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Motivació intrínseca i extrínseca en l'emprenedoria: valors personals i propòsit del projecte"
+      "text": "Motivació intrínseca i extrínseca en l'emprenedoria: valors personals i propòsit del projecte",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Casos d'emprenedors i emprenedores de referència: locals, nacionals i internacionals, amb perspectiva de gènere"
+      "text": "Casos d'emprenedors i emprenedores de referència: locals, nacionals i internacionals, amb perspectiva de gènere",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Resiliència i gestió del fracàs: la cultura de l'error, el pivot, el fracàs com a aprenentatge"
+      "text": "Resiliència i gestió del fracàs: la cultura de l'error, el pivot, el fracàs com a aprenentatge",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Treball en equip emprenedor: rols en l'equip (connector, creador, executor, analista), gestió del conflicte"
+      "text": "Treball en equip emprenedor: rols en l'equip (connector, creador, executor, analista), gestió del conflicte",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Diversitat en els equips emprenedors: diversitat de gènere, cultural, funcional com a factor d'innovació"
+      "text": "Diversitat en els equips emprenedors: diversitat de gènere, cultural, funcional com a factor d'innovació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "identitat_emprenedora",
       "subapartat": null,
-      "text": "Mentalitat de creixement (growth mindset) versus mentalitat fixa: implicacions per a l'emprenedoria"
+      "text": "Mentalitat de creixement (growth mindset) versus mentalitat fixa: implicacions per a l'emprenedoria",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Observació de l'entorn per detectar necessitats: tècniques d'observació etnogràfica, shadowing, escolta activa"
+      "text": "Observació de l'entorn per detectar necessitats: tècniques d'observació etnogràfica, shadowing, escolta activa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Anàlisi de tendències socials, econòmiques i tecnològiques: PESTEL, STEEP, noves tecnologies emergents"
+      "text": "Anàlisi de tendències socials, econòmiques i tecnològiques: PESTEL, STEEP, noves tecnologies emergents",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Mapa d'empatia: comprensió profunda del client o usuari, necessitats latents versus explícites"
+      "text": "Mapa d'empatia: comprensió profunda del client o usuari, necessitats latents versus explícites",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Tècniques de generació d'idees: brainstorming, SCAMPER, pensament lateral, random input, mètode dels 6 barrets"
+      "text": "Tècniques de generació d'idees: brainstorming, SCAMPER, pensament lateral, random input, mètode dels 6 barrets",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Validació d'idees: entrevistes amb potencials clients, enquestes, MVP (Producte Mínim Viable)"
+      "text": "Validació d'idees: entrevistes amb potencials clients, enquestes, MVP (Producte Mínim Viable)",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Anàlisi de la competència: mapa de competidors, diferenciació, proposta de valor única"
+      "text": "Anàlisi de la competència: mapa de competidors, diferenciació, proposta de valor única",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "L'ecosistema emprenedor català: incubadores, acceleradores, business angels, concursos d'emprenedoria"
+      "text": "L'ecosistema emprenedor català: incubadores, acceleradores, business angels, concursos d'emprenedoria",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "oportunitats_i_ideas",
       "subapartat": null,
-      "text": "Propietat intel·lectual bàsica: patents, marques, drets d'autor, llicències Creative Commons"
+      "text": "Propietat intel·lectual bàsica: patents, marques, drets d'autor, llicències Creative Commons",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "El Business Model Canvas: 9 blocs, relacions entre blocs, exemples pràctics de models de negoci"
+      "text": "El Business Model Canvas: 9 blocs, relacions entre blocs, exemples pràctics de models de negoci",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Proposta de valor: definició clara del problema que es resol, beneficis per al client, diferenciació"
+      "text": "Proposta de valor: definició clara del problema que es resol, beneficis per al client, diferenciació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Segments de clients: definició del client ideal (buyer persona), segmentació de mercat, early adopters"
+      "text": "Segments de clients: definició del client ideal (buyer persona), segmentació de mercat, early adopters",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Canals de distribució i comunicació: canals físics i digitals, omnicanalitat, experiència de client"
+      "text": "Canals de distribució i comunicació: canals físics i digitals, omnicanalitat, experiència de client",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Fonts d'ingressos: models de negoci (freemium, subscripció, venda directa, plataforma, franquícia)"
+      "text": "Fonts d'ingressos: models de negoci (freemium, subscripció, venda directa, plataforma, franquícia)",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Estructura de costos i recursos clau: costos fixos i variables, recursos humans, tecnològics i relacionals"
+      "text": "Estructura de costos i recursos clau: costos fixos i variables, recursos humans, tecnològics i relacionals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Anàlisi DAFO aplicat al projecte: fortaleses, debilitats, oportunitats i amenaces"
+      "text": "Anàlisi DAFO aplicat al projecte: fortaleses, debilitats, oportunitats i amenaces",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "model_de_negoci",
       "subapartat": null,
-      "text": "Pitch i presentació del pla d'empresa: estructura del pitch (problema, solució, mercat, model, equip, necessitats)"
+      "text": "Pitch i presentació del pla d'empresa: estructura del pitch (problema, solució, mercat, model, equip, necessitats)",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Conceptes financers bàsics: ingressos, costos, benefici, pèrdues, marge, punt d'equilibri"
+      "text": "Conceptes financers bàsics: ingressos, costos, benefici, pèrdues, marge, punt d'equilibri",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Compte de resultats simplificat: estructura, interpretació, diferència entre benefici i caixa"
+      "text": "Compte de resultats simplificat: estructura, interpretació, diferència entre benefici i caixa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Flux de caixa bàsic: ingressos i despeses mensuals, importància de la tresoreria"
+      "text": "Flux de caixa bàsic: ingressos i despeses mensuals, importància de la tresoreria",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Fonts de finançament per a startups: autofinançament, FFF (Family, Friends & Fools), crowdfunding, inversors"
+      "text": "Fonts de finançament per a startups: autofinançament, FFF (Family, Friends & Fools), crowdfunding, inversors",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Subvencions i ajudes per a l'emprenedoria jove: programes europeus, autonòmics i locals"
+      "text": "Subvencions i ajudes per a l'emprenedoria jove: programes europeus, autonòmics i locals",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Pla de màrqueting bàsic: definició del públic objectiu, 4P, estratègia de xarxes socials, pressupost"
+      "text": "Pla de màrqueting bàsic: definició del públic objectiu, 4P, estratègia de xarxes socials, pressupost",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "El preu del producte o servei: cost-plus pricing, value-based pricing, estratègies de preus"
+      "text": "El preu del producte o servei: cost-plus pricing, value-based pricing, estratègies de preus",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "finances_basiques",
       "subapartat": null,
-      "text": "Introducció als aspectes legals i fiscals de l'empresa: formes jurídiques, autònom, SL, cooperativa"
+      "text": "Introducció als aspectes legals i fiscals de l'empresa: formes jurídiques, autònom, SL, cooperativa",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Design Thinking: les cinc fases (empatia, definició, ideació, prototipatge, test) i la seva aplicació pràctica"
+      "text": "Design Thinking: les cinc fases (empatia, definició, ideació, prototipatge, test) i la seva aplicació pràctica",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Prototipatge ràpid: paper, cartró, wire­frames digitals, aplicacions de prototipatge (Figma, Marvel)"
+      "text": "Prototipatge ràpid: paper, cartró, wire­frames digitals, aplicacions de prototipatge (Figma, Marvel)",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Test amb usuaris: tècniques d'usability testing, recollida de feedback, mètriques d'avaluació"
+      "text": "Test amb usuaris: tècniques d'usability testing, recollida de feedback, mètriques d'avaluació",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Pivot i iteració: quan i com canviar el rumb del projecte a partir del feedback rebut"
+      "text": "Pivot i iteració: quan i com canviar el rumb del projecte a partir del feedback rebut",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Innovació social: emprenedoria social, empresa B, economia social i solidària"
+      "text": "Innovació social: emprenedoria social, empresa B, economia social i solidària",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Economia circular aplicada a l'emprenedoria: models de negoci circulars, reducció de residus, simbiosi industrial"
+      "text": "Economia circular aplicada a l'emprenedoria: models de negoci circulars, reducció de residus, simbiosi industrial",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Tecnologia i innovació: aplicació de la IA, big data, IoT, blockchain a nous models de negoci"
+      "text": "Tecnologia i innovació: aplicació de la IA, big data, IoT, blockchain a nous models de negoci",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "4t",
       "bloc": "innovacio_i_creativitat",
       "subapartat": null,
-      "text": "Els ODS com a brússola per a l'emprenedoria responsable: integració dels ODS en la proposta de valor"
+      "text": "Els ODS com a brússola per a l'emprenedoria responsable: integració dels ODS en la proposta de valor",
+      "nivell_norm": "ESO_C2",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Literatura-Universal.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Literatura Universal al Batxillerat ofereix un recorregut per les obres i els moviments literaris més rellevants de la tradició occidental i d'altres cultures, des de l'antiguitat fins al s. XX. Desenvolopa la competència lectora en textos complexos, el gaudi estètic i la comprensió de la literatura com a forma de coneixement humà, connectant amb les Llengues i Literatura, la Història, la Filosofia i la Història de l'Art.\n\nEls eixos disciplinaris organitzen-se al voltant dels gèneres i moviments literaris (èpica, tragèdia, novel·la, lírica, teatre; classicisme, romanticisme, realisme, modernisme, avantguardes, literatura de postguerra), els procediments d'anàlisi literària (context, autor, temes, estructura, estil, intertextualitat), la lectura íntegra d'obres representatives (Homer, Shakespeare, Goethe, Kafka, García Márquez, Woolf), i la comparació entre tradicions literàries i cultures diverses. La mediació lectora i la construcció de la pròpia identitat com a lector informen tota la matèria.\n\nL'enfocament pedagògic dona centralitat a la lectura autònoma i compartida de textos íntegres, al cercles de lectura i al debat interpretativo. L'escriptura creativa per imitació o contrastació de models literaris i l'assaig crític d'anàlisi reforcen la comprensió. L'avaluació valora la qualitat de la interpretació argumentada, la intertextualitat, l'autonomia lectora i la capacitat de relacionar literatura i experiència humana contemporània."
   },
@@ -18,10 +18,11 @@
       "codi": "CE1",
       "text": "Llegir, interpretar i valorar clàssics de la literatura universal atenent tant les relacions internes dels elements constitutius del gènere i les seves funcions en les obres, com les relacions externes de les obres amb el seu context de producció i la seva inscripció en la tradició cultural, per eixamplar les possibilitats de gaudi de la literatura.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Explicar i argumentar la interpretació de les obres llegides a partir de l’anàlisi de les relacions internes dels seus elements constitutius amb el sentit de l’obra i de les relacions externes del text amb el context sociohistòric i amb la tradició literària, utilitzant un metallenguatge específic i incorporant judicis de valor vinculats a l’apreciació estètica de les obres."
+            "text": "Explicar i argumentar la interpretació de les obres llegides a partir de l’anàlisi de les relacions internes dels seus elements constitutius amb el sentit de l’obra i de les relacions externes del text amb el context sociohistòric i amb la tradició literària, utilitzant un metallenguatge específic i incorporant judicis de valor vinculats a l’apreciació estètica de les obres.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -30,18 +31,21 @@
       "codi": "CE2",
       "text": "Llegir de manera autònoma clàssics de la literatura universal com a font de plaer i coneixement, compartir experiències de lectura i crear textos d’intenció literària, per construir la pròpia identitat lectora, gaudir de la dimensió social de la lectura i estimular la creació literària i artística.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Elaborar una interpretació personal a partir de la lectura autònoma d’obres rellevants de la literatura universal, atenent aspectes temàtics, de gènere i subgènere, elements de l’estructura i l’estil, i valors ètics i estètics de les obres, i establint vincles argumentats amb altres obres i altres experiències artístiques i culturals."
+            "text": "Elaborar una interpretació personal a partir de la lectura autònoma d’obres rellevants de la literatura universal, atenent aspectes temàtics, de gènere i subgènere, elements de l’estructura i l’estil, i valors ètics i estètics de les obres, i establint vincles argumentats amb altres obres i altres experiències artístiques i culturals.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.2",
-            "text": "Accedir a diverses manifestacions de la cultura literària en el marc d’un itinerari lector personal que enriqueixi, de manera conscient i sistemàtica, la identitat lectora pròpia, i compartir les experiències de lectura pròpies amb l’ajuda d’un metallenguatge específic."
+            "text": "Accedir a diverses manifestacions de la cultura literària en el marc d’un itinerari lector personal que enriqueixi, de manera conscient i sistemàtica, la identitat lectora pròpia, i compartir les experiències de lectura pròpies amb l’ajuda d’un metallenguatge específic.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.3",
-            "text": "Crear textos personals o col·lectius amb intenció literària i consciència d’estil, en diferents suports i amb l’ajuda d’altres llenguatges artístics i audiovisuals, a partir de la lectura d’obres o fragments significatius en què es facin servir les convencions formals dels diversos gèneres i estils literaris."
+            "text": "Crear textos personals o col·lectius amb intenció literària i consciència d’estil, en diferents suports i amb l’ajuda d’altres llenguatges artístics i audiovisuals, a partir de la lectura d’obres o fragments significatius en què es facin servir les convencions formals dels diversos gèneres i estils literaris.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -50,14 +54,16 @@
       "codi": "CE3",
       "text": "Establir vincles entre obres de diferents èpoques, contextos, gèneres i llenguatges artístics, reconeixent semblances i diferències en funció dels respectius contextos de producció i de la interrelació entre literatura i societat, per constatar l’existència d’universals temàtics i de vies formals recurrents al llarg de la història de la cultura.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Comparar dos textos literaris o un fragment literari i una obra artística argumentant oralment o per escrit els elements de semblança i contrast, tant pel que fa a aspectes temàtics i de contingut, com formals i expressius, atenent també els seus valors ètics i estètics."
+            "text": "Comparar dos textos literaris o un fragment literari i una obra artística argumentant oralment o per escrit els elements de semblança i contrast, tant pel que fa a aspectes temàtics i de contingut, com formals i expressius, atenent també els seus valors ètics i estètics.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.2",
-            "text": "Desenvolupar projectes de recerca que es concretin en una exposició oral, un assaig o una presentació multimodal i que mostrin la implicació i la resposta personal com a lector o lectora, al voltant d’una qüestió que estableixi vincles argumentats entre els clàssics de la literatura universal objecte de lectura guiada i altres textos i manifestacions artístiques d’ahir i d’avui, en funció de"
+            "text": "Desenvolupar projectes de recerca que es concretin en una exposició oral, un assaig o una presentació multimodal i que mostrin la implicació i la resposta personal com a lector o lectora, al voltant d’una qüestió que estableixi vincles argumentats entre els clàssics de la literatura universal objecte de lectura guiada i altres textos i manifestacions artístiques d’ahir i d’avui, en funció de",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -66,10 +72,11 @@
       "codi": "CE4",
       "text": "Consolidar un marc de referències compartides a partir del coneixement d’alguns trets dels principals moviments estètics i d’algunes de les obres literàries més rellevants del patrimoni universal per construir un mapa cultural en el qual inscriure les experiències literàries i culturals personals.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Elaborar de manera individual o col·lectiva una exposició multimodal que situï els textos llegits al seu horitzó historicocultural, i que ofereixi una panoràmica de conjunt sobre moviments artístics i obres rellevants de la literatura universal."
+            "text": "Elaborar de manera individual o col·lectiva una exposició multimodal que situï els textos llegits al seu horitzó historicocultural, i que ofereixi una panoràmica de conjunt sobre moviments artístics i obres rellevants de la literatura universal.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -78,14 +85,16 @@
       "codi": "CE5",
       "text": "Participar en la construcció d’un cànon literari universal que integri la perspectiva d’experiència de les dones mitjançant la lectura d’obres d’escriptores i que superi els marcs de la cultura occidental per desenvolupar el pensament crític pel que fa a la construcció discursiva del món i els seus imaginaris.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Realitzar un projecte de recerca sobre autores de rellevància, obres literàries de contextos no occidentals o qüestions temàtiques o formals que aportin una mirada diversa i crítica sobre la construcció d’imaginaris que proposa la tradició literària."
+            "text": "Realitzar un projecte de recerca sobre autores de rellevància, obres literàries de contextos no occidentals o qüestions temàtiques o formals que aportin una mirada diversa i crítica sobre la construcció d’imaginaris que proposa la tradició literària.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.2",
-            "text": "Elaborar comentaris crítics de textos, orals o escrits, i participar en converses literàries sobre lectures en què s’incorpori la perspectiva de gènere i es posi en qüestió la mirada etnocèntrica pròpia del cànon occidental, i també qualsevol altre discurs predominant en la nostra societat que representi opressió sobre qualsevol minoria."
+            "text": "Elaborar comentaris crítics de textos, orals o escrits, i participar en converses literàries sobre lectures en què s’incorpori la perspectiva de gènere i es posi en qüestió la mirada etnocèntrica pròpia del cànon occidental, i també qualsevol altre discurs predominant en la nostra societat que representi opressió sobre qualsevol minoria.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -108,115 +117,154 @@
       "nivell": "general",
       "bloc": null,
       "subapartat": "Temes i formes de la literatura universal:",
-      "text": "Dir el jo. Anàlisi, contrast i valoració de textos i obres literaris en què s’expressi el jo a partir de la poesia lírica, la literatura testimonial i biogràfica (diaris, cartes, memòries, autobiografies, autoficció, etc.) i la narrativa existencial, sobretot dels personatges en crisi"
+      "text": "Dir el jo. Anàlisi, contrast i valoració de textos i obres literaris en què s’expressi el jo a partir de la poesia lírica, la literatura testimonial i biogràfica (diaris, cartes, memòries, autobiografies, autoficció, etc.) i la narrativa existencial, sobretot dels personatges en crisi",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Temes i formes de la literatura universal:",
-      "text": "Dialogar amb els altres. Anàlisi, contrast i valoració de textos i obres literaris en què s’expressi la relació amb els altres, davant la llei o el destí (la tragèdia), les convencions socials (el drama) i l’humor crític versus l’humor complaent (la comèdia)"
+      "text": "Dialogar amb els altres. Anàlisi, contrast i valoració de textos i obres literaris en què s’expressi la relació amb els altres, davant la llei o el destí (la tragèdia), les convencions socials (el drama) i l’humor crític versus l’humor complaent (la comèdia)",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Temes i formes de la literatura universal:",
-      "text": "Imaginar el món, observar el món, actuar en el món. Anàlisi, contrast i valoració de textos i obres literaris en què s’expressi la relació amb els altres centrats a imaginar el món, observar-lo i actuar-hi, mitjançant la narrativa de mons imaginats (mites i narrativa): mitologies; herois i heroïnes; viatges imaginaris; espais i criatures fantàstiques; utopies, distòpies, ciència-ficció. També mitjançant els mons observats (conte i novel·la): Bildungsroman o novel·la de formació; espais privats, espais públics: afectes íntims i llaços socials; desigualtats, discriminació, violències; guerra i revolució; migracions i identitats culturals; colonialisme i emancipació. I els mons d’evasió (relat breu i novel·la de gènere): la literatura d’aventures i la novel·la policíaca; la literatura de terror. Finalment, mitjançant l’art com a compromís (l’assaig): la literatura d’idees"
+      "text": "Imaginar el món, observar el món, actuar en el món. Anàlisi, contrast i valoració de textos i obres literaris en què s’expressi la relació amb els altres centrats a imaginar el món, observar-lo i actuar-hi, mitjançant la narrativa de mons imaginats (mites i narrativa): mitologies; herois i heroïnes; viatges imaginaris; espais i criatures fantàstiques; utopies, distòpies, ciència-ficció. També mitjançant els mons observats (conte i novel·la): Bildungsroman o novel·la de formació; espais privats, espais públics: afectes íntims i llaços socials; desigualtats, discriminació, violències; guerra i revolució; migracions i identitats culturals; colonialisme i emancipació. I els mons d’evasió (relat breu i novel·la de gènere): la literatura d’aventures i la novel·la policíaca; la literatura de terror. Finalment, mitjançant l’art com a compromís (l’assaig): la literatura d’idees",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Temes i formes de la literatura universal:",
-      "text": "Indagació sobre l’ésser humà, els animals i la naturalesa a partir de les emocions que generen (admiració, esglai i denúncia) i del gènere en què apareixen (poesia, narrativa i assaig)"
+      "text": "Indagació sobre l’ésser humà, els animals i la naturalesa a partir de les emocions que generen (admiració, esglai i denúncia) i del gènere en què apareixen (poesia, narrativa i assaig)",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Construcció compartida de la interpretació de les obres a través de discussions o converses literàries"
+      "text": "Construcció compartida de la interpretació de les obres a través de discussions o converses literàries",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Anàlisi dels elements constitutius del gènere literari i de la relació amb el sentit de l’obra, amb especial atenció als efectes en la recepció dels seus recursos expressius"
+      "text": "Anàlisi dels elements constitutius del gènere literari i de la relació amb el sentit de l’obra, amb especial atenció als efectes en la recepció dels seus recursos expressius",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Utilització de la informació sociohistòrica, cultural i artística necessària per interpretar les obres i comprendre el lloc que ocupen en la tradició literària"
+      "text": "Utilització de la informació sociohistòrica, cultural i artística necessària per interpretar les obres i comprendre el lloc que ocupen en la tradició literària",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Establiment d’enllaços intertextuals entre obres i altres manifestacions artístiques segons temes, tòpics, estructures i llenguatges, tenint en compte els elements de continuïtat i ruptura"
+      "text": "Establiment d’enllaços intertextuals entre obres i altres manifestacions artístiques segons temes, tòpics, estructures i llenguatges, tenint en compte els elements de continuïtat i ruptura",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Indagació entorn del funcionament de la literatura com a artefacte ideològic determinant en la construcció dels imaginaris socials, fent especial èmfasi en la perspectiva de gènere"
+      "text": "Indagació entorn del funcionament de la literatura com a artefacte ideològic determinant en la construcció dels imaginaris socials, fent especial èmfasi en la perspectiva de gènere",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Expressió argumentada de la interpretació dels textos, integrant els diferents aspectes analitzats i atenent els seus valors culturals, ètics i estètics"
+      "text": "Expressió argumentada de la interpretació dels textos, integrant els diferents aspectes analitzats i atenent els seus valors culturals, ètics i estètics",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Lectura expressiva, dramatització i recitació de textos literaris atenent els processos de comprensió i d’oralització implicats"
+      "text": "Lectura expressiva, dramatització i recitació de textos literaris atenent els processos de comprensió i d’oralització implicats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Creació de textos d’intenció literària a partir de les obres llegides. Lectura autònoma d’obres rellevants del patrimoni universal desenvolupant les estratègies següents:"
+      "text": "Creació de textos d’intenció literària a partir de les obres llegides. Lectura autònoma d’obres rellevants del patrimoni universal desenvolupant les estratègies següents:",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Selecció de les obres de manera autònoma i amb l’ajuda de recomanacions especialitzades"
+      "text": "Selecció de les obres de manera autònoma i amb l’ajuda de recomanacions especialitzades",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Participació en converses literàries i en intercanvis de recomanacions lectores en contextos presencial i digital"
+      "text": "Participació en converses literàries i en intercanvis de recomanacions lectores en contextos presencial i digital",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Utilització autònoma i freqüent de biblioteques. Accés a altres experiències culturals"
+      "text": "Utilització autònoma i freqüent de biblioteques. Accés a altres experiències culturals",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Expressió argumentada dels gustos lectors personals, tot atenent la diversificació del corpus llegit"
+      "text": "Expressió argumentada dels gustos lectors personals, tot atenent la diversificació del corpus llegit",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Expressió de l’experiència lectora utilitzant un metallenguatge específic i atenent aspectes temàtics, de gènere i subgènere, elements de l’estructura i de l’estil, i valors ètics i estètics de les obres"
+      "text": "Expressió de l’experiència lectora utilitzant un metallenguatge específic i atenent aspectes temàtics, de gènere i subgènere, elements de l’estructura i de l’estil, i valors ètics i estètics de les obres",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Mobilització de l’experiència personal, lectora i cultural per establir vincles entre l’obra llegida i aspectes de l’actualitat i altres manifestacions literàries o artístiques"
+      "text": "Mobilització de l’experiència personal, lectora i cultural per establir vincles entre l’obra llegida i aspectes de l’actualitat i altres manifestacions literàries o artístiques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Ús d’estratègies d’anàlisi, interpretació, recreació i valoració crítica per a la lectura compartida dels aspectes següents:",
-      "text": "Recomanació de les lectures en suports variats atenent aspectes temàtics, formals i intertextuals"
+      "text": "Recomanació de les lectures en suports variats atenent aspectes temàtics, formals i intertextuals",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

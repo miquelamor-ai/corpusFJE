@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Dibuix-Tecnic-II.pdf",
     "nota_estructura": "Matèria de 2n BAT.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "El Dibuix Tècnic II és la matèria de segon de Batxillerat que consolida i amplia els coneixements iniciats a Dibuix Tècnic I. Aprofundeix en la representació de geometria complexa i en l'ús professional del CAD 3D, i prepara l'alumnat per a les proves d'accés a la universitat en itineraris d'arquitectura, enginyeria i disseny, on el pensament espacial és una competència clau.\n\nLa matèria tracta la representació de seccions, talls i trencaments de sòlids i peces tècniques, el desenvolupament de superfícies polihèdriques i de revolució —prismes, piràmides, cilindres, cons—, i la perspectiva cònica frontal i obliqua per representar espais i propostes arquitectòniques amb realisme. S'incorpora la lectura i l'elaboració de plànols d'arquitectura i urbanisme amb la seva simbologia específica —plantes, seccions, alçats, cotes i indicadors de materials. El modelatge CAD 3D permet visualitzar, girar i documentar objectes des de qualsevol punt de vista i genera renders i vistes explosionades per a la comunicació professional.\n\nL'enfocament pedagògic integra la resolució d'exercicis tècnics progressivament complexos amb el treball de projectes que simulen encàrrecs reals de disseny de producte o interiorisme. L'alumnat aprèn a triar el sistema de representació més adequat en funció del propòsit comunicatiu, alternant el dibuix manual i el CAD 3D."
   },
   "competencies_clau": [
@@ -31,23 +31,27 @@
       "codi": "CE1",
       "text": "Representar seccions, talls i trencaments de sòlids i peces tècniques per facilitar la comprensió de formes interiors complexes i la producció de documentació tècnica completa.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Realitza seccions rectes, oblíqua i per plans girats d'objectes complexos, aplicant les convencions de ratllat i identificant les superfícies seccionades."
+            "text": "Realitza seccions rectes, oblíqua i per plans girats d'objectes complexos, aplicant les convencions de ratllat i identificant les superfícies seccionades.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.2",
-            "text": "Representa talls totals, mig tall i talls parcials, seleccionant el tipus adequat en funció de la geometria de la peça i la informació a transmetre."
+            "text": "Representa talls totals, mig tall i talls parcials, seleccionant el tipus adequat en funció de la geometria de la peça i la informació a transmetre.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.3",
-            "text": "Interpreta i produeix plànols amb trencaments i ruptures de peces llargues, aplicant les convencions normalitzades (UNE-EN ISO 129)."
+            "text": "Interpreta i produeix plànols amb trencaments i ruptures de peces llargues, aplicant les convencions normalitzades (UNE-EN ISO 129).",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.4",
-            "text": "Integra seccions i vistes en una mateixa làmina, garantint la coherència entre les representacions i la llegibilitat del conjunt."
+            "text": "Integra seccions i vistes en una mateixa làmina, garantint la coherència entre les representacions i la llegibilitat del conjunt.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -56,23 +60,27 @@
       "codi": "CE2",
       "text": "Obtenir i dibuixar el desenvolupament de superfícies polihèdriques i de revolució per resoldre problemes de fabricació, patronatge i disseny de productes.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Desenvolupa superfícies polihèdriques (prismes, piràmides, troncs) aplicant el mètode de la triangulació o de la línia de màxima pendent."
+            "text": "Desenvolupa superfícies polihèdriques (prismes, piràmides, troncs) aplicant el mètode de la triangulació o de la línia de màxima pendent.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.2",
-            "text": "Obté el desenvolupament de superfícies de revolució (cilindre, con, tronc de con), calculant la longitud d'arc i l'angle del sector."
+            "text": "Obté el desenvolupament de superfícies de revolució (cilindre, con, tronc de con), calculant la longitud d'arc i l'angle del sector.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.3",
-            "text": "Resol problemes de patronatge i tall de materials (planxes, cartronats) a partir dels desenvolupaments obtinguts."
+            "text": "Resol problemes de patronatge i tall de materials (planxes, cartronats) a partir dels desenvolupaments obtinguts.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.4",
-            "text": "Identifica les superfícies no desenvolupables (esfera, toroide) i aplica mètodes aproximats per al seu tractament."
+            "text": "Identifica les superfícies no desenvolupables (esfera, toroide) i aplica mètodes aproximats per al seu tractament.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -81,23 +89,27 @@
       "codi": "CE3",
       "text": "Representar objectes i espais en perspectiva cònica (frontal i oblíqua) per comunicar propostes de disseny i arquitectura amb realisme i expressivitat.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Construeix perspectives còniques frontals (un punt de fuga) d'interiors i exteriors arquitectònics, situant correctament el punt de vista i l'horitzont."
+            "text": "Construeix perspectives còniques frontals (un punt de fuga) d'interiors i exteriors arquitectònics, situant correctament el punt de vista i l'horitzont.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.2",
-            "text": "Realitza perspectives còniques oblíqus (dos punts de fuga) d'objectes i edificis, determinant els punts de fuga sobre la línia d'horitzont."
+            "text": "Realitza perspectives còniques oblíqus (dos punts de fuga) d'objectes i edificis, determinant els punts de fuga sobre la línia d'horitzont.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.3",
-            "text": "Aplica recursos de representació (escales humanes, ombres, textures) per incrementar el realisme i la qualitat comunicativa de la perspectiva cònica."
+            "text": "Aplica recursos de representació (escales humanes, ombres, textures) per incrementar el realisme i la qualitat comunicativa de la perspectiva cònica.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.4",
-            "text": "Obté la perspectiva cònica a partir de les vistes dièdriques d'un espai, mantenint la coherència entre tots dos sistemes de representació."
+            "text": "Obté la perspectiva cònica a partir de les vistes dièdriques d'un espai, mantenint la coherència entre tots dos sistemes de representació.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -106,23 +118,27 @@
       "codi": "CE4",
       "text": "Llegir, interpretar i elaborar plànols d'arquitectura i urbanisme aplicant la simbologia i les normes específiques del sector.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Llegeix i interpreta plànols d'arquitectura residencial (planta, secció, alçat, coberta), identificant els elements constructius i les seves cotes."
+            "text": "Llegeix i interpreta plànols d'arquitectura residencial (planta, secció, alçat, coberta), identificant els elements constructius i les seves cotes.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.2",
-            "text": "Elabora plànols d'habitatge senzill a escala, aplicant la simbologia normalitzada per a obertures, mobiliari i instal·lacions."
+            "text": "Elabora plànols d'habitatge senzill a escala, aplicant la simbologia normalitzada per a obertures, mobiliari i instal·lacions.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.3",
-            "text": "Interpreta plànols d'urbanisme bàsics (parcel·lari, xarxa viària, zonificació) i situa un edifici en el seu emplaçament amb cotes de referència."
+            "text": "Interpreta plànols d'urbanisme bàsics (parcel·lari, xarxa viària, zonificació) i situa un edifici en el seu emplaçament amb cotes de referència.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.4",
-            "text": "Relaciona els plànols de representació arquitectònica amb les fases d'un projecte constructiu (avantprojecte, projecte bàsic, projecte executiu)."
+            "text": "Relaciona els plànols de representació arquitectònica amb les fases d'un projecte constructiu (avantprojecte, projecte bàsic, projecte executiu).",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -131,23 +147,27 @@
       "codi": "CE5",
       "text": "Utilitzar programari CAD 3D per modelar, visualitzar i documentar objectes i espais, valorant les possibilitats professionals del disseny assistit per ordinador.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Crea models tridimensionals de peces i conjunts mecànics senzills amb un programa CAD 3D, aplicant operacions d'extrusió, revolució i tallat boola."
+            "text": "Crea models tridimensionals de peces i conjunts mecànics senzills amb un programa CAD 3D, aplicant operacions d'extrusió, revolució i tallat boola.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.2",
-            "text": "Genera vistes ortogonals, seccions i perspectives a partir del model 3D, integrant-les en una làmina tècnica normalitzada."
+            "text": "Genera vistes ortogonals, seccions i perspectives a partir del model 3D, integrant-les en una làmina tècnica normalitzada.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.3",
-            "text": "Aplica materials, llums i renderitzat bàsic per obtenir visualitzacions realistes destinades a la comunicació del projecte."
+            "text": "Aplica materials, llums i renderitzat bàsic per obtenir visualitzacions realistes destinades a la comunicació del projecte.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.4",
-            "text": "Valora les possibilitats professionals del CAD 3D (enginyeria, arquitectura, animació, impressió 3D) i reflexiona sobre la seva incidència en el món laboral."
+            "text": "Valora les possibilitats professionals del CAD 3D (enginyeria, arquitectura, animació, impressió 3D) i reflexiona sobre la seva incidència en el món laboral.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -243,421 +263,562 @@
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Concepte de secció i tall en representació tècnica. Distinció entre tots dos"
+      "text": "Concepte de secció i tall en representació tècnica. Distinció entre tots dos",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Pla secant: posició, representació i simbologia del traç de secció"
+      "text": "Pla secant: posició, representació i simbologia del traç de secció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Tall total: obtenció, representació i ratllat de superfícies seccionades"
+      "text": "Tall total: obtenció, representació i ratllat de superfícies seccionades",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Mig tall: avantatges en peces simètriques. Representació normalitzada"
+      "text": "Mig tall: avantatges en peces simètriques. Representació normalitzada",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Tall parcial i escotadura: aplicacions en peces amb details interiors puntuals"
+      "text": "Tall parcial i escotadura: aplicacions en peces amb details interiors puntuals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Secció abatuda i secció transportada: definició i casos d'ús"
+      "text": "Secció abatuda i secció transportada: definició i casos d'ús",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Secció per plans paral·lels (escalonada): representació i simbologia"
+      "text": "Secció per plans paral·lels (escalonada): representació i simbologia",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Ratllat de seccions: angles, separació i orientació en conjunts de materials"
+      "text": "Ratllat de seccions: angles, separació i orientació en conjunts de materials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Convencions de secció en peces específiques: dentats, roscats, nervadures"
+      "text": "Convencions de secció en peces específiques: dentats, roscats, nervadures",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Trencaments i ruptures: tipus i convencions segun el tipus de peça"
+      "text": "Trencaments i ruptures: tipus i convencions segun el tipus de peça",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Lectura i interpretació de seccions en plànols industrials reals"
+      "text": "Lectura i interpretació de seccions en plànols industrials reals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Aplicació de seccions en plànols arquitectònics: seccions constructives"
+      "text": "Aplicació de seccions en plànols arquitectònics: seccions constructives",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Normes UNE-EN ISO 128 i 129 aplicables a seccions i talls"
+      "text": "Normes UNE-EN ISO 128 i 129 aplicables a seccions i talls",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "seccions_i_trencaments",
       "subapartat": null,
-      "text": "Integració de seccions i vistes en una mateixa làmina de documentació tècnica"
+      "text": "Integració de seccions i vistes en una mateixa làmina de documentació tècnica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Superfícies polihèdriques: definició, classificació i condicions de desenvolupabilitat"
+      "text": "Superfícies polihèdriques: definició, classificació i condicions de desenvolupabilitat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Desenvolupament de prismes rectes: mètode de la línia d'intersecció"
+      "text": "Desenvolupament de prismes rectes: mètode de la línia d'intersecció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Desenvolupament de piràmides rectes i oblíqus: mètode de la triangulació"
+      "text": "Desenvolupament de piràmides rectes i oblíqus: mètode de la triangulació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Troncs de piràmide i de prisma: obtenció del desenvolupament complet"
+      "text": "Troncs de piràmide i de prisma: obtenció del desenvolupament complet",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Cilindre recte: desenvolupament i càlcul de la longitud de la directriu"
+      "text": "Cilindre recte: desenvolupament i càlcul de la longitud de la directriu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Con recte: desenvolupament (sector circular) i càlcul de l'angle del sector"
+      "text": "Con recte: desenvolupament (sector circular) i càlcul de l'angle del sector",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Tronc de con recte: metodologia i càlcul de les generatrius"
+      "text": "Tronc de con recte: metodologia i càlcul de les generatrius",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Superfícies regles no desenvolupables: aproximació per triangulació"
+      "text": "Superfícies regles no desenvolupables: aproximació per triangulació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Esfera: mètode dels fusos i de les cintes. Limitacions del mètode"
+      "text": "Esfera: mètode dels fusos i de les cintes. Limitacions del mètode",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Intersecció de sòlids: càlcul i representació de la línia d'intersecció"
+      "text": "Intersecció de sòlids: càlcul i representació de la línia d'intersecció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Aplicacions en planxisteria, calderia i disseny d'envasos i envolupants"
+      "text": "Aplicacions en planxisteria, calderia i disseny d'envasos i envolupants",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Patronatge bàsic aplicat al disseny de producte i packaging"
+      "text": "Patronatge bàsic aplicat al disseny de producte i packaging",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Eines CAD per a la generació automàtica de desenvolupaments (sheet metal)"
+      "text": "Eines CAD per a la generació automàtica de desenvolupaments (sheet metal)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "desenvolupaments",
       "subapartat": null,
-      "text": "Criteris de qualitat i eficiència material en el disseny de desenvolupaments"
+      "text": "Criteris de qualitat i eficiència material en el disseny de desenvolupaments",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Fonaments de la perspectiva cònica: punt de vista, pla del quadre, horitzont"
+      "text": "Fonaments de la perspectiva cònica: punt de vista, pla del quadre, horitzont",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Elements de la perspectiva cònica: PV, PC, PF, línia de terra, línia d'horitzont"
+      "text": "Elements de la perspectiva cònica: PV, PC, PF, línia de terra, línia d'horitzont",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Perspectiva cònica frontal (un punt de fuga): construcció pas a pas"
+      "text": "Perspectiva cònica frontal (un punt de fuga): construcció pas a pas",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Perspectiva d'interiors arquitectònics amb un punt de fuga"
+      "text": "Perspectiva d'interiors arquitectònics amb un punt de fuga",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Perspectiva cònica oblíqua (dos punts de fuga): determinació dels PF"
+      "text": "Perspectiva cònica oblíqua (dos punts de fuga): determinació dels PF",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Perspectiva de conjunts d'edificis en perspectiva oblíqua"
+      "text": "Perspectiva de conjunts d'edificis en perspectiva oblíqua",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Perspectiva cònica aèria (tres punts de fuga): cas especial i aplicacions"
+      "text": "Perspectiva cònica aèria (tres punts de fuga): cas especial i aplicacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Escala de figures humanes en perspectiva cònica: mètode del punt de mesura"
+      "text": "Escala de figures humanes en perspectiva cònica: mètode del punt de mesura",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Ombres en perspectiva cònica: llum artificial i llum natural (solar)"
+      "text": "Ombres en perspectiva cònica: llum artificial i llum natural (solar)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Reflexos i transparències: recursos gràfics per a la representació d'espais"
+      "text": "Reflexos i transparències: recursos gràfics per a la representació d'espais",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Perspectiva i comunicació visual: de l'esbos a la representació professional"
+      "text": "Perspectiva i comunicació visual: de l'esbos a la representació professional",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Eines digitals per a la generació de perspectiva cònica (SketchUp, Revit, CAD 3D)"
+      "text": "Eines digitals per a la generació de perspectiva cònica (SketchUp, Revit, CAD 3D)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "Comparativa entre perspectiva axonomètrica i cònica: intenció comunicativa"
+      "text": "Comparativa entre perspectiva axonomètrica i cònica: intenció comunicativa",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "perspectiva_conica",
       "subapartat": null,
-      "text": "La perspectiva cònica en l'art i l'arquitectura a través de la història"
+      "text": "La perspectiva cònica en l'art i l'arquitectura a través de la història",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "El projecte arquitectònic: fases i tipus de plànols (avantprojecte, bàsic, executiu)"
+      "text": "El projecte arquitectònic: fases i tipus de plànols (avantprojecte, bàsic, executiu)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Planta arquitectònica: convencions de talls, representació d'obertures i escales"
+      "text": "Planta arquitectònica: convencions de talls, representació d'obertures i escales",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Simbologia normalitzada en plànols d'arquitectura: mobiliari, instal·lacions, estructura"
+      "text": "Simbologia normalitzada en plànols d'arquitectura: mobiliari, instal·lacions, estructura",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Secció constructiva: representació d'elements (fonamentació, estructura, coberta)"
+      "text": "Secció constructiva: representació d'elements (fonamentació, estructura, coberta)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Alçat: representació exterior d'un edifici i simbologia de materials"
+      "text": "Alçat: representació exterior d'un edifici i simbologia de materials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Plànol de coberta: tipologies i representació de pendents"
+      "text": "Plànol de coberta: tipologies i representació de pendents",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Plànol d'implantació: situació de l'edifici en el solar amb cotes topogràfiques"
+      "text": "Plànol d'implantació: situació de l'edifici en el solar amb cotes topogràfiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Plànols d'urbanisme: parcel·lari, xarxa viària, zonificació i usos del sòl"
+      "text": "Plànols d'urbanisme: parcel·lari, xarxa viària, zonificació i usos del sòl",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Cotes i acotació en plànols d'arquitectura: criteris específics del sector"
+      "text": "Cotes i acotació en plànols d'arquitectura: criteris específics del sector",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Llegenda i quadre de superfícies en plànols d'habitatge"
+      "text": "Llegenda i quadre de superfícies en plànols d'habitatge",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Normativa bàsics: CTE (Codi Tècnic de l'Edificació), accessibilitat i normativa local"
+      "text": "Normativa bàsics: CTE (Codi Tècnic de l'Edificació), accessibilitat i normativa local",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Modelat BIM: introducció al Building Information Modeling i eines associades"
+      "text": "Modelat BIM: introducció al Building Information Modeling i eines associades",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Lectura crítica de plànols d'obres reals: anàlisi i comprensió"
+      "text": "Lectura crítica de plànols d'obres reals: anàlisi i comprensió",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "plantes_i_urbanisme",
       "subapartat": null,
-      "text": "Relació entre el plànol i l'obra: visita tècnica virtual o presencial"
+      "text": "Relació entre el plànol i l'obra: visita tècnica virtual o presencial",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Introducció al CAD 3D: entorn de treball, sistemes de coordenades 3D"
+      "text": "Introducció al CAD 3D: entorn de treball, sistemes de coordenades 3D",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Modelat sòlid: extrusió, revolució, tallat boolles (unió, diferència, intersecció)"
+      "text": "Modelat sòlid: extrusió, revolució, tallat boolles (unió, diferència, intersecció)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Modelat de superfícies: conceptes bàsics, diferències respecte al sòlid"
+      "text": "Modelat de superfícies: conceptes bàsics, diferències respecte al sòlid",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Arbre de disseny (feature tree): gestió i edició de l'historial de modelat"
+      "text": "Arbre de disseny (feature tree): gestió i edició de l'historial de modelat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Restriccions i cotes en esquissos 2D: disseny paramètric"
+      "text": "Restriccions i cotes en esquissos 2D: disseny paramètric",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Assemblatge de conjunts: restriccions entre peces, graus de llibertat"
+      "text": "Assemblatge de conjunts: restriccions entre peces, graus de llibertat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Obtenció automàtica de vistes i seccions des del model 3D"
+      "text": "Obtenció automàtica de vistes i seccions des del model 3D",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Renderitzat i visualització: materials, textures, llums i càmeres"
+      "text": "Renderitzat i visualització: materials, textures, llums i càmeres",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Exportació a formats d'impressió 3D: STL, OBJ, STEP"
+      "text": "Exportació a formats d'impressió 3D: STL, OBJ, STEP",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Introducció al CAM: connexió entre el model 3D i la fabricació digital"
+      "text": "Introducció al CAM: connexió entre el model 3D i la fabricació digital",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Programari 3D lliure i professional: FreeCAD, Fusion 360, SolidWorks, Revit"
+      "text": "Programari 3D lliure i professional: FreeCAD, Fusion 360, SolidWorks, Revit",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Tendències: IA generativa aplicada al disseny 3D i al prototipat ràpid"
+      "text": "Tendències: IA generativa aplicada al disseny 3D i al prototipat ràpid",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Projecte de disseny integrador: de l'esbos manual al model 3D documentat"
+      "text": "Projecte de disseny integrador: de l'esbos manual al model 3D documentat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "cad_3d",
       "subapartat": null,
-      "text": "Ètica i sostenibilitat en el disseny de producte: economia circular i eco-disseny"
+      "text": "Ètica i sostenibilitat en el disseny de producte: economia circular i eco-disseny",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

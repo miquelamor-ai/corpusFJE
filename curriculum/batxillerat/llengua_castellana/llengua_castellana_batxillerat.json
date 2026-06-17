@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-comunes/Llengua-Castellana-i-Literatura.pdf",
     "nota_estructura": "Matèria comuna als dos cursos de Batxillerat. Integra les dimensions de comprensió, expressió, interacció i mediació lingüística i literària en castellà, en el marc del plurilingüisme de Catalunya.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "La Llengua Castellana i Literatura és matèria comuna als dos cursos de Batxillerat i integra les dimensions de comprensió, expressió, interacció i mediació lingüística i literària en castellà. Forma part del marc plurilingüe de Catalunya i consolida la competència comunicativa de l'alumnat en una de les dues llenüees cooficials. Connecta amb estudis de filologia hispànica, comunicació, periodisme, dret, educació i qualsevol àmbit professional que requereixi domini de la llengua escrita i oral en castellà.\n\nEl vocabulari específic inclou conceptes com coherència i cohesió textual, adequació comunicativa, registre, varietats geolectals i sociolectals del castellà, modalitat discursiva, narració, descripció, exposició, argumentació i instrucció, normativa ortogràfica i gramatical, recursos retòrics, intertextualitat, gènere literàri i tradició literària hispànica. L'alumnat treballa amb textos acadèmics, periodístics, literàris i multimodals, i desenvolupa estratègies de mediació com el resum, la paràfrasi i l'adaptació de textos a diversos registres i destinataris.\n\nEl plantejament pedagògic és comunicatiu i reflexiu, orientat a l'ús real de la llengua. Activitats com el comentari de text, l'assaig argumentatiu, el debat acadèmic, la producció de textos d'opinió i la creació literària es combinen amb la lectura d'obres de la literatura en castellà per treballar simultàniament la competència lingüística i la literària."
   },
   "competencies_clau": [
@@ -24,28 +24,33 @@
       "codi": "CE1",
       "text": "Comprendre, interpretar i valorar textos orals i multimodals de tipologia diversa, identificant les intencions comunicatives, les estratègies discursives i els elements no verbals, per construir coneixement i participar de manera activa i reflexiva en contextos acadèmics i socials.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global i les idees principals de textos orals formals i informals, identificant la intenció comunicativa i el punt de vista del parlant."
+            "text": "Comprendre el sentit global i les idees principals de textos orals formals i informals, identificant la intenció comunicativa i el punt de vista del parlant.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar els elements no verbals i paraverbals en discursos orals i valorar la seva funció en la construcció del significat."
+            "text": "Identificar els elements no verbals i paraverbals en discursos orals i valorar la seva funció en la construcció del significat.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.3",
-            "text": "Analitzar l'estructura d'un text oral argumentatiu i avaluar la solidesa dels arguments i les fal·làcies presents."
+            "text": "Analitzar l'estructura d'un text oral argumentatiu i avaluar la solidesa dels arguments i les fal·làcies presents.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Analitzar i avaluar textos orals complexos (conferències, entrevistes, debats), identificant les estratègies argumentatives i el posicionament dels interlocutors."
+            "text": "Analitzar i avaluar textos orals complexos (conferències, entrevistes, debats), identificant les estratègies argumentatives i el posicionament dels interlocutors.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.2",
-            "text": "Valorar críticament el contingut de missatges multimodals en mitjans de comunicació i xarxes socials, detectant manipulació i desinformació."
+            "text": "Valorar críticament el contingut de missatges multimodals en mitjans de comunicació i xarxes socials, detectant manipulació i desinformació.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -54,24 +59,28 @@
       "codi": "CE2",
       "text": "Produir textos orals i multimodals coherents, cohesionats i adequats al context, adaptant el registre i el canal comunicatiu a les situacions formals i informals de l'àmbit acadèmic, professional i social, demostrant consciència comunicativa i creativitat.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Produir discursos orals formals (exposicions, debats, presentacions) amb adequació, coherència i cohesió, adaptant el registre al context comunicatiu."
+            "text": "Produir discursos orals formals (exposicions, debats, presentacions) amb adequació, coherència i cohesió, adaptant el registre al context comunicatiu.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.2",
-            "text": "Participar en interaccions orals respectant els torns de paraula i construint diàlegs argumentats i respectuosos."
+            "text": "Participar en interaccions orals respectant els torns de paraula i construint diàlegs argumentats i respectuosos.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Produir textos orals argumentatius amb recursos retòrics eficaços i una gestió adequada del temps i l'espai comunicatiu."
+            "text": "Produir textos orals argumentatius amb recursos retòrics eficaços i una gestió adequada del temps i l'espai comunicatiu.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.2",
-            "text": "Moderar i participar en debats formals, valorant les aportacions alienes i construint discursos raonats."
+            "text": "Moderar i participar en debats formals, valorant les aportacions alienes i construint discursos raonats.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -80,28 +89,33 @@
       "codi": "CE3",
       "text": "Llegir, comprendre i interpretar textos escrits de gèneres i tipologies diverses, aplicant estratègies de lectura crítica i analítica per construir coneixement, identificar intencions i valorar la dimensió estètica dels textos.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Aplicar estratègies de lectura comprensiva i crítica en textos expositius, argumentatius, periodístics i literaris."
+            "text": "Aplicar estratègies de lectura comprensiva i crítica en textos expositius, argumentatius, periodístics i literaris.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.2",
-            "text": "Detectar la intenció comunicativa, els biasos ideològics i les estratègies retòriques en textos d'opinió i informació."
+            "text": "Detectar la intenció comunicativa, els biasos ideològics i les estratègies retòriques en textos d'opinió i informació.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA3.3",
-            "text": "Relacionar el contingut d'un text amb coneixements previs i contextos culturals i socials."
+            "text": "Relacionar el contingut d'un text amb coneixements previs i contextos culturals i socials.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Llegir i interpretar textos de tipologia complexa (assaig, article d'opinió, textos científics divulgatius), distingint fets, opinions i arguments."
+            "text": "Llegir i interpretar textos de tipologia complexa (assaig, article d'opinió, textos científics divulgatius), distingint fets, opinions i arguments.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.2",
-            "text": "Analitzar les relacions intertextuals i contextualitzar els textos en el marc cultural i social de producció."
+            "text": "Analitzar les relacions intertextuals i contextualitzar els textos en el marc cultural i social de producció.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -110,24 +124,28 @@
       "codi": "CE4",
       "text": "Produir textos escrits coherents, cohesionats i adequats a la situació comunicativa, amb domini de les convencions ortogràfiques, morfosintàctiques i lèxiques del castellà, i amb capacitat d'autocorrecció i millora progressiva.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Redactar textos expositius i argumentatius acadèmics amb estructura clara, vocabulari precís i correcció ortogràfica i gramatical."
+            "text": "Redactar textos expositius i argumentatius acadèmics amb estructura clara, vocabulari precís i correcció ortogràfica i gramatical.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.2",
-            "text": "Planificar, redactar i revisar textos seguint un procés d'escriptura estructurat, amb atenció a la coherència i la cohesió textual."
+            "text": "Planificar, redactar i revisar textos seguint un procés d'escriptura estructurat, amb atenció a la coherència i la cohesió textual.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Redactar textos acadèmics complexos (comentaris de text, assajos, informes) amb rigor, originalitat i coherència argumentativa."
+            "text": "Redactar textos acadèmics complexos (comentaris de text, assajos, informes) amb rigor, originalitat i coherència argumentativa.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.2",
-            "text": "Utilitzar eines digitals per a la cerca, selecció i citació de fonts, respectant els drets d'autoria i les convencions acadèmiques."
+            "text": "Utilitzar eines digitals per a la cerca, selecció i citació de fonts, respectant els drets d'autoria i les convencions acadèmiques.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -136,28 +154,33 @@
       "codi": "CE5",
       "text": "Llegir, analitzar i interpretar obres i fragments de la literatura en llengua castellana des de l'edat mitjana fins a l'actualitat, situant-los en el seu context històric, cultural i literari, i valorant-ne la seva rellevància en el patrimoni literari hispànic i universal.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Llegir i comentar obres i fragments de la literatura castellana medieval i del Segle d'Or, situant-los en el seu context i identificant-ne els trets característics."
+            "text": "Llegir i comentar obres i fragments de la literatura castellana medieval i del Segle d'Or, situant-los en el seu context i identificant-ne els trets característics.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer els principals gèneres literaris i les seves convencions, aplicant la terminologia específica de l'anàlisi literària."
+            "text": "Reconèixer els principals gèneres literaris i les seves convencions, aplicant la terminologia específica de l'anàlisi literària.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Llegir, analitzar i interpretar obres representatives del Romanticisme, el Realisme, el Modernisme i la literatura castellana del segle XX fins a l'actualitat."
+            "text": "Llegir, analitzar i interpretar obres representatives del Romanticisme, el Realisme, el Modernisme i la literatura castellana del segle XX fins a l'actualitat.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.2",
-            "text": "Relacionar obres i autors de la literatura castellana amb els moviments literaris europeus i valorar-ne l'aportació al patrimoni literari universal."
+            "text": "Relacionar obres i autors de la literatura castellana amb els moviments literaris europeus i valorar-ne l'aportació al patrimoni literari universal.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.3",
-            "text": "Elaborar comentaris literaris argumentats que integrin anàlisi formal, contextualització i valoració personal."
+            "text": "Elaborar comentaris literaris argumentats que integrin anàlisi formal, contextualització i valoració personal.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -166,24 +189,28 @@
       "codi": "CE6",
       "text": "Reflexionar sobre el funcionament de la llengua castellana i les seves varietats, reconeixent les normes gramaticals i pragmàtiques, i comprendre la diversitat lingüística i dialectal del castellà com a llengua pluricèntrica per actuar com a parlant reflexiu i responsable.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA6.1",
-            "text": "Identificar categories gramaticals i analitzar sintagmes i oracions en textos reals, comprenent la seva funció comunicativa."
+            "text": "Identificar categories gramaticals i analitzar sintagmes i oracions en textos reals, comprenent la seva funció comunicativa.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA6.2",
-            "text": "Reconèixer les varietats dialectals i socials del castellà i reflexionar sobre el seu valor com a llengua pluricèntrica."
+            "text": "Reconèixer les varietats dialectals i socials del castellà i reflexionar sobre el seu valor com a llengua pluricèntrica.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA6.1",
-            "text": "Aplicar el coneixement gramatical per a la millora de la producció pròpia, identificant errades i proposant correccions justificades."
+            "text": "Aplicar el coneixement gramatical per a la millora de la producció pròpia, identificant errades i proposant correccions justificades.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA6.2",
-            "text": "Analitzar la diversitat lingüística del castellà al món i reflexionar sobre la convivència de llengües en contextos plurilingües com Catalunya."
+            "text": "Analitzar la diversitat lingüística del castellà al món i reflexionar sobre la convivència de llengües en contextos plurilingües com Catalunya.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -291,385 +318,514 @@
       "nivell": "1r",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Estratègies de comprensió oral: anticipació, inferència, síntesi i avaluació crítica"
+      "text": "Estratègies de comprensió oral: anticipació, inferència, síntesi i avaluació crítica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Elements verbals, paraverbals i no verbals en la comunicació oral"
+      "text": "Elements verbals, paraverbals i no verbals en la comunicació oral",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Gèneres orals formals en castellà: exposició, debat, presentació acadèmica"
+      "text": "Gèneres orals formals en castellà: exposició, debat, presentació acadèmica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Planificació i producció de discursos argumentatius en castellà"
+      "text": "Planificació i producció de discursos argumentatius en castellà",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Gestió dels torns de paraula i les normes de cortesia lingüística"
+      "text": "Gestió dels torns de paraula i les normes de cortesia lingüística",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Recursos de la comunicació oral persuasiva: recursos retòrics bàsics"
+      "text": "Recursos de la comunicació oral persuasiva: recursos retòrics bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Tipologia textual en castellà: textos expositius, argumentatius, descriptius i narratius"
+      "text": "Tipologia textual en castellà: textos expositius, argumentatius, descriptius i narratius",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Propietats textuals: coherència, cohesió i adequació"
+      "text": "Propietats textuals: coherència, cohesió i adequació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Mecanismes de cohesió: connectors, anàfora, el·lipsi, substitució lèxica"
+      "text": "Mecanismes de cohesió: connectors, anàfora, el·lipsi, substitució lèxica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Gèneres acadèmics: resum, síntesi, comentari de text, informe breu"
+      "text": "Gèneres acadèmics: resum, síntesi, comentari de text, informe breu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "El procés d'escriptura: planificació, textualització, revisió i edició"
+      "text": "El procés d'escriptura: planificació, textualització, revisió i edició",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Normativa ortogràfica i morfosintàctica del castellà: puntuació, accentuació, conjugació verbal"
+      "text": "Normativa ortogràfica i morfosintàctica del castellà: puntuació, accentuació, conjugació verbal",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Lèxic i fraseologia: locucions, expressions idiomàtiques i terminologia acadèmica"
+      "text": "Lèxic i fraseologia: locucions, expressions idiomàtiques i terminologia acadèmica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Introducció als gèneres literaris: narrativa, poesia, teatre i assaig"
+      "text": "Introducció als gèneres literaris: narrativa, poesia, teatre i assaig",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Recursos estilístics i figures retòriques en castellà"
+      "text": "Recursos estilístics i figures retòriques en castellà",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La literatura medieval castellana: el Mester de Juglaría i el Mester de Clerecía"
+      "text": "La literatura medieval castellana: el Mester de Juglaría i el Mester de Clerecía",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La novel·la picaresca i el Lazarillo de Tormes"
+      "text": "La novel·la picaresca i el Lazarillo de Tormes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La literatura del Segle d'Or: Cervantes, Lope de Vega, Calderón de la Barca"
+      "text": "La literatura del Segle d'Or: Cervantes, Lope de Vega, Calderón de la Barca",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La poesia mística i renaixentista: Fray Luis de León, San Juan de la Cruz"
+      "text": "La poesia mística i renaixentista: Fray Luis de León, San Juan de la Cruz",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Tècniques bàsiques del comentari de text literari"
+      "text": "Tècniques bàsiques del comentari de text literari",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Categories gramaticals i funcions sintàctiques en castellà"
+      "text": "Categories gramaticals i funcions sintàctiques en castellà",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El sintagma nominal i verbal: estructura i funcions"
+      "text": "El sintagma nominal i verbal: estructura i funcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'oració simple: predicat verbal i nominal, complements"
+      "text": "L'oració simple: predicat verbal i nominal, complements",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Introducció a l'oració composta: coordinació i tipus"
+      "text": "Introducció a l'oració composta: coordinació i tipus",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El sistema fonètic del castellà: fonemes i al·lòfons"
+      "text": "El sistema fonètic del castellà: fonemes i al·lòfons",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Variació lingüística: dialectes peninsulars i americanismes"
+      "text": "Variació lingüística: dialectes peninsulars i americanismes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "El castellà com a llengua pluricèntrica: varietats d'Espanya i Llatinoamèrica"
+      "text": "El castellà com a llengua pluricèntrica: varietats d'Espanya i Llatinoamèrica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "La convivència del castellà i el català a Catalunya: context sociolingüístic"
+      "text": "La convivència del castellà i el català a Catalunya: context sociolingüístic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "La intercomprensió entre les llengües romàniques"
+      "text": "La intercomprensió entre les llengües romàniques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "El castellà en el context europeu i internacional"
+      "text": "El castellà en el context europeu i internacional",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "Actituds lingüístiques i foment del respecte per la diversitat lingüística"
+      "text": "Actituds lingüístiques i foment del respecte per la diversitat lingüística",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Anàlisi crítica de discursos orals en mitjans de comunicació i debats públics"
+      "text": "Anàlisi crítica de discursos orals en mitjans de comunicació i debats públics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Estratègies de manipulació i persuasió en el discurs mediàtic"
+      "text": "Estratègies de manipulació i persuasió en el discurs mediàtic",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Gèneres orals complexos: debat parlamentari, conferència, entrevista formal"
+      "text": "Gèneres orals complexos: debat parlamentari, conferència, entrevista formal",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Recursos retòrics avançats: ironia, paradoxa, antítesi en el discurs oral"
+      "text": "Recursos retòrics avançats: ironia, paradoxa, antítesi en el discurs oral",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Planificació i presentació del Treball de Recerca en format oral"
+      "text": "Planificació i presentació del Treball de Recerca en format oral",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "La comunicació intercultural: varietats del castellà i diversitat cultural"
+      "text": "La comunicació intercultural: varietats del castellà i diversitat cultural",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "L'assaig en castellà: estructura, tradició i referents actuals"
+      "text": "L'assaig en castellà: estructura, tradició i referents actuals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "El comentari de text argumentatiu: metodologia i criteris"
+      "text": "El comentari de text argumentatiu: metodologia i criteris",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "La recerca documental: cerca, selecció i avaluació de fonts en castellà"
+      "text": "La recerca documental: cerca, selecció i avaluació de fonts en castellà",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "La citació acadèmica: normes APA, MLA i presentació de referències"
+      "text": "La citació acadèmica: normes APA, MLA i presentació de referències",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Gèneres digitals en castellà: article periodístic, correu formal, publicació professional"
+      "text": "Gèneres digitals en castellà: article periodístic, correu formal, publicació professional",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Revisió i autocorrecció de textos propis: eines i criteris lingüístics"
+      "text": "Revisió i autocorrecció de textos propis: eines i criteris lingüístics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "comunicacio_escrita",
       "subapartat": null,
-      "text": "Transferència lingüística entre català i castellà: interferències i solucions"
+      "text": "Transferència lingüística entre català i castellà: interferències i solucions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El Romanticisme castellà: Espronceda, Bécquer, el duc de Rivas"
+      "text": "El Romanticisme castellà: Espronceda, Bécquer, el duc de Rivas",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El Realisme i el Naturalisme: Galdós, Clarín, Pardo Bazán"
+      "text": "El Realisme i el Naturalisme: Galdós, Clarín, Pardo Bazán",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El Modernisme i el 98: Unamuno, Machado, Valle-Inclán, Azorín"
+      "text": "El Modernisme i el 98: Unamuno, Machado, Valle-Inclán, Azorín",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La Generació del 27: Lorca, Alberti, Cernuda, Hernández"
+      "text": "La Generació del 27: Lorca, Alberti, Cernuda, Hernández",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La literatura castellana de postguerra: Camilo José Cela, Miguel Delibes"
+      "text": "La literatura castellana de postguerra: Camilo José Cela, Miguel Delibes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La narrativa hispanoamericana: boom llatinoamericà i autors contemporanis"
+      "text": "La narrativa hispanoamericana: boom llatinoamericà i autors contemporanis",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La literatura castellana contemporània: tendències i autors actuals"
+      "text": "La literatura castellana contemporània: tendències i autors actuals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Intertextualitat i diàleg entre la literatura castellana i la universal"
+      "text": "Intertextualitat i diàleg entre la literatura castellana i la universal",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Elaboració d'un comentari literari argumentat sobre una obra de lectura obligatòria"
+      "text": "Elaboració d'un comentari literari argumentat sobre una obra de lectura obligatòria",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'oració composta en castellà: subordinades substantives, adjectives i adverbials"
+      "text": "L'oració composta en castellà: subordinades substantives, adjectives i adverbials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El mode subjuntiu: usos i equivalències amb el català"
+      "text": "El mode subjuntiu: usos i equivalències amb el català",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'estil directe i indirecte en castellà: transformacions i usos"
+      "text": "L'estil directe i indirecte en castellà: transformacions i usos",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Recursos lingüístics per a la coherència textual avançada"
+      "text": "Recursos lingüístics per a la coherència textual avançada",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Anàlisi pragmàtica: actes de parla, inferències i context comunicatiu"
+      "text": "Anàlisi pragmàtica: actes de parla, inferències i context comunicatiu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Neologia, préstecs i anglicismes: adaptació al castellà contemporani"
+      "text": "Neologia, préstecs i anglicismes: adaptació al castellà contemporani",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "El castellà a la xarxa: usos digitals, registres i normes de netiqueta"
+      "text": "El castellà a la xarxa: usos digitals, registres i normes de netiqueta",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "La literatura castellana i la seva projecció internacional"
+      "text": "La literatura castellana i la seva projecció internacional",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "Multilingüisme a Catalunya: drets lingüístics i convivència de llengües"
+      "text": "Multilingüisme a Catalunya: drets lingüístics i convivència de llengües",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "El castellà i les altres llengües d'Espanya: marc constitucional i estatutari"
+      "text": "El castellà i les altres llengües d'Espanya: marc constitucional i estatutari",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "dimensio_social_i_cultural",
       "subapartat": null,
-      "text": "Identitat cultural i literària en el context plurilingüe de Catalunya"
+      "text": "Identitat cultural i literària en el context plurilingüe de Catalunya",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

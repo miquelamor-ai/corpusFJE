@@ -8,7 +8,7 @@
     "data_decret": "2022-08-22",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Llengua-Castellana-i-Literatura.pdf",
     "descripcio": "La Llengua Castellana i Literatura a Primària forma part del projecte lingüístic de l'escola i contribueix a la competència plurilingüe de l'alumnat de 6 a 12 anys. Com a llengua cooficial de Catalunya, connecta amb els àmbits personal, social i acadèmic, i obre l'accés a un patrimoni literari i cultural ric i divers en l'entorn hispanòfon.\n\nEls sabers de la matèria s'articulen entorn de les quatre habilitats lingüístiques: comprensió oral, expressió oral, comprensió lectora i expressió escrita. Els constructes propis inclouen el sistema fonètic i ortoèpic del castellà, les normes ortogràfiques i els principals reptes per a parlants de català (diacrítics, dígrafs, puntuació), la morfologia i la sintaxi de l'oració simple i composta, els gèneres textuals habituals (narratiu, descriptiu, expositiu, argumentatiu, instructiu) i les estratègies de comprensió i producció de textos. L'educació literària s'enriqueix amb la lectura de textos de la literatura hispànica i llatinoamericana, la recitació poètica, el comentari de text i la creació literària. La reflexió metalingüística i la comparació entre el català i el castellà afavoreixen la consciència interlingüística.\n\nLa metodologia és comunicativa i basada en l'ús real de la llengua en contextos significatius per a l'infant. El treball per tasques i projectes, l'escriptura processual, el debat i la conversa argumentada i la lectura dialògica constitueixen les estratègies pedagògiques centrals. Es posa èmfasi en la transferència de competències entre les dues llengües de l'escola.",
-    "versio_schema": "1.0"
+    "versio_schema": "1.2"
   },
   "competencies_clau": [
     "CCL",
@@ -25,46 +25,55 @@
       "codi": "CE1",
       "text": "Comprendre i interpretar textos orals de tipologia diversa en llengua castellana, identificant el tema, les idees rellevants i la intenció comunicativa, per construir coneixement i participar de manera activa i reflexiva en situacions de comunicació.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre el sentit global de textos orals breus i senzills en castellà de l'entorn quotidià, identificant el tema i la intenció comunicativa."
+            "text": "Comprendre el sentit global de textos orals breus i senzills en castellà de l'entorn quotidià, identificant el tema i la intenció comunicativa.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Participar en converses i diàlegs en castellà respectant el torn de paraula i les convencions bàsiques de la comunicació oral."
+            "text": "Participar en converses i diàlegs en castellà respectant el torn de paraula i les convencions bàsiques de la comunicació oral.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.3",
-            "text": "Escoltar atentament textos orals breus (contes, explicacions, instruccions) en castellà i respondre preguntes literals sobre el contingut."
+            "text": "Escoltar atentament textos orals breus (contes, explicacions, instruccions) en castellà i respondre preguntes literals sobre el contingut.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre textos orals de tipologia diversa en castellà (explicatius, narratius, argumentatius senzills), identificant el tema, les idees principals i la intenció comunicativa."
+            "text": "Comprendre textos orals de tipologia diversa en castellà (explicatius, narratius, argumentatius senzills), identificant el tema, les idees principals i la intenció comunicativa.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.2",
-            "text": "Participar activament en interaccions orals en castellà (debats, presentacions, discussions), aportant idees de forma ordenada i respectuosa."
+            "text": "Participar activament en interaccions orals en castellà (debats, presentacions, discussions), aportant idees de forma ordenada i respectuosa.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.3",
-            "text": "Utilitzar estratègies de comprensió oral (anticipació, inferència) per interpretar missatges en castellà en contextos formals i informals."
+            "text": "Utilitzar estratègies de comprensió oral (anticipació, inferència) per interpretar missatges en castellà en contextos formals i informals.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA1.1",
-            "text": "Comprendre i interpretar textos orals de tipologia complexa en castellà, identificant el punt de vista de l'emissor, les estratègies argumentatives i la intenció comunicativa."
+            "text": "Comprendre i interpretar textos orals de tipologia complexa en castellà, identificant el punt de vista de l'emissor, les estratègies argumentatives i la intenció comunicativa.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.2",
-            "text": "Produir discursos orals planificats en castellà (exposicions, debats, entrevistes) amb adequació, coherència, cohesió i correcció lingüística."
+            "text": "Produir discursos orals planificats en castellà (exposicions, debats, entrevistes) amb adequació, coherència, cohesió i correcció lingüística.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.3",
-            "text": "Avaluar críticament missatges orals en castellà de l'entorn (publicitat, notícies, discursos) identificant la intenció i els mecanismes de manipulació."
+            "text": "Avaluar críticament missatges orals en castellà de l'entorn (publicitat, notícies, discursos) identificant la intenció i els mecanismes de manipulació.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -73,46 +82,55 @@
       "codi": "CE2",
       "text": "Llegir textos de gèneres i suports diversos en castellà amb fluïdesa, comprensió i esperit crític, identificant el tema, les idees principals, la intenció de l'autor i els recursos expressius, per aprendre, gaudir i participar en la cultura hispànica.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Llegir en veu alta textos breus en castellà amb entonació i ritme apropiats, descodificant correctament les grafies específiques del castellà."
+            "text": "Llegir en veu alta textos breus en castellà amb entonació i ritme apropiats, descodificant correctament les grafies específiques del castellà.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Comprendre textos escrits senzills en castellà, identificant el tema principal i les idees més importants amb ajuda visual o contextual."
+            "text": "Comprendre textos escrits senzills en castellà, identificant el tema principal i les idees més importants amb ajuda visual o contextual.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.3",
-            "text": "Distingir tipologies textuals bàsiques (contes, instruccions, descripcions) en textos senzills en castellà."
+            "text": "Distingir tipologies textuals bàsiques (contes, instruccions, descripcions) en textos senzills en castellà.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Llegir textos de gèneres diversos en castellà amb fluïdesa i comprensió, identificant les idees principals i secundàries."
+            "text": "Llegir textos de gèneres diversos en castellà amb fluïdesa i comprensió, identificant les idees principals i secundàries.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.2",
-            "text": "Distingir el fet de l'opinió en textos informatius senzills en castellà i identificar la intenció de l'autor."
+            "text": "Distingir el fet de l'opinió en textos informatius senzills en castellà i identificar la intenció de l'autor.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.3",
-            "text": "Aplicar estratègies de comprensió lectora (predicció, inferència, resum) en textos en castellà de forma creixentment autònoma."
+            "text": "Aplicar estratègies de comprensió lectora (predicció, inferència, resum) en textos en castellà de forma creixentment autònoma.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Llegir textos de gèneres i suports variats en castellà amb estratègies d'interpretació crítica, identificant la ideologia i el punt de vista de l'autor."
+            "text": "Llegir textos de gèneres i suports variats en castellà amb estratègies d'interpretació crítica, identificant la ideologia i el punt de vista de l'autor.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.2",
-            "text": "Sintetitzar i relacionar informació de fonts diverses en castellà per construir coneixement propi i elaborar produccions personals documentades."
+            "text": "Sintetitzar i relacionar informació de fonts diverses en castellà per construir coneixement propi i elaborar produccions personals documentades.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.3",
-            "text": "Valorar la lectura en castellà com a eina d'aprenentatge, plaer i accés a la cultura hispànica universal."
+            "text": "Valorar la lectura en castellà com a eina d'aprenentatge, plaer i accés a la cultura hispànica universal.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -121,46 +139,55 @@
       "codi": "CE3",
       "text": "Produir textos escrits de tipologia diversa en castellà, adequats a la situació comunicativa, amb correcció gramatical i ortogràfica i coherència, planificant, redactant, revisant i millorant el text per comunicar idees, sentiments i coneixements.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Escriure textos breus i senzills en castellà seguint un model, amb les convencions gràfiques i ortogràfiques bàsiques del castellà."
+            "text": "Escriure textos breus i senzills en castellà seguint un model, amb les convencions gràfiques i ortogràfiques bàsiques del castellà.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar les normes ortogràfiques bàsiques del castellà treballades (majúscules, separació de paraules, punt) en les produccions pròpies."
+            "text": "Aplicar les normes ortogràfiques bàsiques del castellà treballades (majúscules, separació de paraules, punt) en les produccions pròpies.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Revisar els textos escrits en castellà amb l'ajuda del docent per millorar l'adequació i la correcció bàsica."
+            "text": "Revisar els textos escrits en castellà amb l'ajuda del docent per millorar l'adequació i la correcció bàsica.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Planificar i redactar textos de tipologia diversa en castellà (narratius, descriptius, instructius) adequats a la situació i al destinatari."
+            "text": "Planificar i redactar textos de tipologia diversa en castellà (narratius, descriptius, instructius) adequats a la situació i al destinatari.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar les normes ortogràfiques i gramaticals del castellà pròpies del nivell en les produccions escrites."
+            "text": "Aplicar les normes ortogràfiques i gramaticals del castellà pròpies del nivell en les produccions escrites.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.3",
-            "text": "Revisar i millorar les produccions pròpies en castellà atenent aspectes de coherència, cohesió i adequació."
+            "text": "Revisar i millorar les produccions pròpies en castellà atenent aspectes de coherència, cohesió i adequació.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Planificar, redactar, revisar i editar textos complexos en castellà de tipologia diversa (argumentatius, expositius, creatius) amb adequació, coherència, cohesió i correcció."
+            "text": "Planificar, redactar, revisar i editar textos complexos en castellà de tipologia diversa (argumentatius, expositius, creatius) amb adequació, coherència, cohesió i correcció.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Aplicar estratègies avançades de revisió i millora de les produccions escrites en castellà de forma autònoma."
+            "text": "Aplicar estratègies avançades de revisió i millora de les produccions escrites en castellà de forma autònoma.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.3",
-            "text": "Produir textos en entorns digitals en castellà, adaptant el format, el registre i el canal a la situació comunicativa."
+            "text": "Produir textos en entorns digitals en castellà, adaptant el format, el registre i el canal a la situació comunicativa.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -169,22 +196,25 @@
       "codi": "CE4",
       "text": "Reconèixer i valorar la diversitat lingüística del castellà (varietats geogràfiques i socials) i les relacions amb altres llengües, reflexionant sobre el funcionament de la llengua per al desenvolupament de la consciència plurilingüe.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Identificar les similituds i diferències entre el català i el castellà a nivell fonètic i ortogràfic bàsic."
+            "text": "Identificar les similituds i diferències entre el català i el castellà a nivell fonètic i ortogràfic bàsic.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Reflexionar sobre les similituds i diferències entre el castellà i les altres llengües del repertori propi i valorar el plurilingüisme."
+            "text": "Reflexionar sobre les similituds i diferències entre el castellà i les altres llengües del repertori propi i valorar el plurilingüisme.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar la situació sociolingüística del castellà al món i reflexionar sobre les relacions entre les diverses varietats i les dinàmiques interculturals."
+            "text": "Analitzar la situació sociolingüística del castellà al món i reflexionar sobre les relacions entre les diverses varietats i les dinàmiques interculturals.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -193,34 +223,40 @@
       "codi": "CE5",
       "text": "Llegir, escoltar i interpretar textos literaris de la tradició castellana i hispanoamericana, identificant els elements formals i temàtics i la intenció estètica de l'autor, per gaudir de la literatura com a font de plaer, coneixement i identitat cultural.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA5.1",
-            "text": "Escoltar i llegir textos literaris breus en castellà (contes, poemes, cançons) i gaudir-ne."
+            "text": "Escoltar i llegir textos literaris breus en castellà (contes, poemes, cançons) i gaudir-ne.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer elements bàsics dels textos literaris en castellà (personatges, espai, temps) en narracions senzilles."
+            "text": "Reconèixer elements bàsics dels textos literaris en castellà (personatges, espai, temps) en narracions senzilles.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA5.1",
-            "text": "Llegir i comentar textos literaris de gèneres diversos en castellà (narrativa, poesia, teatre) identificant elements formals i temàtics."
+            "text": "Llegir i comentar textos literaris de gèneres diversos en castellà (narrativa, poesia, teatre) identificant elements formals i temàtics.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer les característiques dels gèneres literaris en castellà i relacionar els textos amb el context cultural hispànic."
+            "text": "Reconèixer les característiques dels gèneres literaris en castellà i relacionar els textos amb el context cultural hispànic.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA5.1",
-            "text": "Llegir i interpretar textos literaris de la tradició castellana i hispanoamericana, analitzant els recursos expressius, la intenció estètica i el context de producció."
+            "text": "Llegir i interpretar textos literaris de la tradició castellana i hispanoamericana, analitzant els recursos expressius, la intenció estètica i el context de producció.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.2",
-            "text": "Crear textos literaris propis en castellà (narracions, poemes, textos dramàtics) utilitzant recursos expressius treballats i mostrant creativitat."
+            "text": "Crear textos literaris propis en castellà (narracions, poemes, textos dramàtics) utilitzant recursos expressius treballats i mostrant creativitat.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -229,34 +265,40 @@
       "codi": "CE6",
       "text": "Reflexionar sobre el funcionament de la llengua castellana en els seus aspectes gramaticals, ortogràfics i lèxics, identificant regularitats i normatives per millorar la producció lingüística i l'autonomia com a aprenents de la llengua.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA6.1",
-            "text": "Identificar les categories gramaticals bàsiques del castellà (nombre, gènere, verb) en contextos significatius."
+            "text": "Identificar les categories gramaticals bàsiques del castellà (nombre, gènere, verb) en contextos significatius.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.2",
-            "text": "Reconèixer les principals diferències ortogràfiques entre el català i el castellà (h muda, ll, ñ, b/v, etc.)."
+            "text": "Reconèixer les principals diferències ortogràfiques entre el català i el castellà (h muda, ll, ñ, b/v, etc.).",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA6.1",
-            "text": "Identificar i usar correctament les categories gramaticals en castellà (nom, verb, adjectiu, determinant, preposició) en contextos comunicatius."
+            "text": "Identificar i usar correctament les categories gramaticals en castellà (nom, verb, adjectiu, determinant, preposició) en contextos comunicatius.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA6.2",
-            "text": "Aplicar les normes ortogràfiques específiques del castellà (h, b/v, g/j, ll/y, m davant p/b, uso de la tilde) en les produccions escrites."
+            "text": "Aplicar les normes ortogràfiques específiques del castellà (h, b/v, g/j, ll/y, m davant p/b, uso de la tilde) en les produccions escrites.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA6.1",
-            "text": "Analitzar les estructures morfosintàctiques de la llengua castellana per millorar la producció i comprensió de textos complexos."
+            "text": "Analitzar les estructures morfosintàctiques de la llengua castellana per millorar la producció i comprensió de textos complexos.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.2",
-            "text": "Aplicar autònomament les normes ortogràfiques i gramaticals del castellà en produccions de diferent tipus i suport."
+            "text": "Aplicar autònomament les normes ortogràfiques i gramaticals del castellà en produccions de diferent tipus i suport.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -265,22 +307,25 @@
       "codi": "CE7",
       "text": "Participar de manera activa i responsable en situacions comunicatives en castellà de l'entorn, reconeixent el valor de la llengua com a vehicle de comunicació intercultural i eina d'aprenentatge en el context multilingüe de Catalunya.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA7.1",
-            "text": "Valorar la llengua castellana com a vehicle de comunicació i mostrar actitud positiva envers el seu aprenentatge."
+            "text": "Valorar la llengua castellana com a vehicle de comunicació i mostrar actitud positiva envers el seu aprenentatge.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA7.1",
-            "text": "Reconèixer la diversitat dialectal del castellà i valorar les varietats lingüístiques com a riquesa cultural."
+            "text": "Reconèixer la diversitat dialectal del castellà i valorar les varietats lingüístiques com a riquesa cultural.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA7.1",
-            "text": "Argumentar sobre la dimensió intercultural del castellà com a llengua de comunicació internacional i reflexionar sobre la coexistència del castellà i el català a Catalunya."
+            "text": "Argumentar sobre la dimensió intercultural del castellà com a llengua de comunicació internacional i reflexionar sobre la coexistència del castellà i el català a Catalunya.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -466,781 +511,1042 @@
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Escolta activa en castellà: atenció, postura i mirada en situacions de comunicació"
+      "text": "Escolta activa en castellà: atenció, postura i mirada en situacions de comunicació",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Torn de paraula i normes bàsiques de la conversa en castellà"
+      "text": "Torn de paraula i normes bàsiques de la conversa en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Comprensió de missatges orals senzills en castellà: instruccions, explicacions, contes"
+      "text": "Comprensió de missatges orals senzills en castellà: instruccions, explicacions, contes",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Vocabulari bàsic en castellà per a la comunicació oral quotidiana"
+      "text": "Vocabulari bàsic en castellà per a la comunicació oral quotidiana",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Expressió oral: narració de fets viscuts o imaginats en castellà de forma ordenada"
+      "text": "Expressió oral: narració de fets viscuts o imaginats en castellà de forma ordenada",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Fórmules de cortesia en castellà: salutacions, agraïments, peticions"
+      "text": "Fórmules de cortesia en castellà: salutacions, agraïments, peticions",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Jocs orals en castellà: endevinalles, trabalengues, cançons, dites populars"
+      "text": "Jocs orals en castellà: endevinalles, trabalengues, cançons, dites populars",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Similituds i diferències fonètiques entre el català i el castellà"
+      "text": "Similituds i diferències fonètiques entre el català i el castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Descodificació en castellà: grafies específiques (h muda, ll, ñ, rr, ch)"
+      "text": "Descodificació en castellà: grafies específiques (h muda, ll, ñ, rr, ch)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura en veu alta de textos breus en castellà amb entonació bàsica"
+      "text": "Lectura en veu alta de textos breus en castellà amb entonació bàsica",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Comprensió literal de textos breus en castellà: tema i idees principals"
+      "text": "Comprensió literal de textos breus en castellà: tema i idees principals",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Tipologia textual bàsica en castellà: contes, instruccions, poemes"
+      "text": "Tipologia textual bàsica en castellà: contes, instruccions, poemes",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Inferències senzilles en textos en castellà a partir del context"
+      "text": "Inferències senzilles en textos en castellà a partir del context",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Identificació de la intenció comunicativa bàsica en textos senzills en castellà"
+      "text": "Identificació de la intenció comunicativa bàsica en textos senzills en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Estratègies bàsiques de comprensió lectora en castellà: rellegir, preguntar-se"
+      "text": "Estratègies bàsiques de comprensió lectora en castellà: rellegir, preguntar-se",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Ús de la biblioteca: selecció de lectures en castellà per plaer"
+      "text": "Ús de la biblioteca: selecció de lectures en castellà per plaer",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia bàsica del castellà: majúscules en noms propis i inici de frase"
+      "text": "Ortografia bàsica del castellà: majúscules en noms propis i inici de frase",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Grafies específiques del castellà: h, ll, ñ, rr, b/v en contextos bàsics"
+      "text": "Grafies específiques del castellà: h, ll, ñ, rr, b/v en contextos bàsics",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ús del punt i la coma en castellà"
+      "text": "Ús del punt i la coma en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Escriptura de frases simples en castellà"
+      "text": "Escriptura de frases simples en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Planificació bàsica de textos breus en castellà"
+      "text": "Planificació bàsica de textos breus en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Producció de textos breus en castellà: descripció, narració senzilla"
+      "text": "Producció de textos breus en castellà: descripció, narració senzilla",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Revisió de textos en castellà amb el docent"
+      "text": "Revisió de textos en castellà amb el docent",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Recursos per escriure en castellà: diccionari d'imatges, vocabulari bàsic"
+      "text": "Recursos per escriure en castellà: diccionari d'imatges, vocabulari bàsic",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Escolta i lectura de contes populars i rondalles en castellà"
+      "text": "Escolta i lectura de contes populars i rondalles en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Poesia en castellà: cançons, jocs de ritme i rima, poemes breus"
+      "text": "Poesia en castellà: cançons, jocs de ritme i rima, poemes breus",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Personatges, espai i temps en narracions senzilles en castellà"
+      "text": "Personatges, espai i temps en narracions senzilles en castellà",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Àlbums il·lustrats en castellà: relació imatge-text"
+      "text": "Àlbums il·lustrats en castellà: relació imatge-text",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Autors clàssics de la literatura infantil en castellà (Andersen en castellà, Perrault en castellà)"
+      "text": "Autors clàssics de la literatura infantil en castellà (Andersen en castellà, Perrault en castellà)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Hàbit lector en castellà: lectura per plaer de textos adequats al nivell"
+      "text": "Hàbit lector en castellà: lectura per plaer de textos adequats al nivell",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Nom comú i propi en castellà: distinció i ús de la majúscula"
+      "text": "Nom comú i propi en castellà: distinció i ús de la majúscula",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Gènere i nombre en castellà: formació regular i casos irregulars freqüents"
+      "text": "Gènere i nombre en castellà: formació regular i casos irregulars freqüents",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El verb en castellà: accions; present d'indicatiu dels verbs regulars (-ar, -er, -ir)"
+      "text": "El verb en castellà: accions; present d'indicatiu dels verbs regulars (-ar, -er, -ir)",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'adjectiu en castellà: concordança amb el nom"
+      "text": "L'adjectiu en castellà: concordança amb el nom",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Diferències ortogràfiques bàsiques entre el català i el castellà: h, ll, y, ñ"
+      "text": "Diferències ortogràfiques bàsiques entre el català i el castellà: h, ll, y, ñ",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El diccionari bàsic en castellà: ordre alfabètic i consulta senzilla"
+      "text": "El diccionari bàsic en castellà: ordre alfabètic i consulta senzilla",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'accent en castellà: reconeixement de paraules amb accent gràfic als textos"
+      "text": "L'accent en castellà: reconeixement de paraules amb accent gràfic als textos",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Estratègies de comprensió oral en castellà: anticipació, inferència i verificació"
+      "text": "Estratègies de comprensió oral en castellà: anticipació, inferència i verificació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Tipologia de textos orals en castellà: exposicions, diàlegs, notícies"
+      "text": "Tipologia de textos orals en castellà: exposicions, diàlegs, notícies",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Debat i discussió en castellà: argumentació senzilla i respecte per les opinions"
+      "text": "Debat i discussió en castellà: argumentació senzilla i respecte per les opinions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Presentació oral en castellà: estructura i suports visuals"
+      "text": "Presentació oral en castellà: estructura i suports visuals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Registres formals i informals en castellà"
+      "text": "Registres formals i informals en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Vocabulari per a la comunicació acadèmica en castellà: connectors, marcadors del discurs"
+      "text": "Vocabulari per a la comunicació acadèmica en castellà: connectors, marcadors del discurs",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Valoració crítica de missatges orals en castellà de l'entorn"
+      "text": "Valoració crítica de missatges orals en castellà de l'entorn",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Narració en castellà d'experiències i esdeveniments amb detall i ordre"
+      "text": "Narració en castellà d'experiències i esdeveniments amb detall i ordre",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Diversitat dialectal del castellà: reconeixement de varietats principals"
+      "text": "Diversitat dialectal del castellà: reconeixement de varietats principals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Lectura en veu alta expressiva de textos literaris en castellà"
+      "text": "Lectura en veu alta expressiva de textos literaris en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Fluïdesa lectora en castellà: velocitat i entonació adequades al tipus de text"
+      "text": "Fluïdesa lectora en castellà: velocitat i entonació adequades al tipus de text",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Estratègies de comprensió en castellà: predicció, inferència, connexió i visualització"
+      "text": "Estratègies de comprensió en castellà: predicció, inferència, connexió i visualització",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Identificació d'idees principals i secundàries en textos en castellà"
+      "text": "Identificació d'idees principals i secundàries en textos en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Distinció entre fet i opinió en textos informatius en castellà"
+      "text": "Distinció entre fet i opinió en textos informatius en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Inferències sobre la intenció de l'autor en textos en castellà"
+      "text": "Inferències sobre la intenció de l'autor en textos en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos multimodals en castellà: relació entre text, imatge i gràfic"
+      "text": "Textos multimodals en castellà: relació entre text, imatge i gràfic",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Tipologia textual en castellà: notícia, text expositiu, text instructiu"
+      "text": "Tipologia textual en castellà: notícia, text expositiu, text instructiu",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Cerca d'informació en fonts en castellà (enciclopèdia, web, diccionari)"
+      "text": "Cerca d'informació en fonts en castellà (enciclopèdia, web, diccionari)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Resum i esquema de textos en castellà com a estratègies de síntesi"
+      "text": "Resum i esquema de textos en castellà com a estratègies de síntesi",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Comparació de textos en català i en castellà sobre un mateix tema"
+      "text": "Comparació de textos en català i en castellà sobre un mateix tema",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "El procés d'escriptura en castellà: planificació, redacció, revisió i edició"
+      "text": "El procés d'escriptura en castellà: planificació, redacció, revisió i edició",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Tipologia textual en castellà: narració, descripció, text instructiu, carta"
+      "text": "Tipologia textual en castellà: narració, descripció, text instructiu, carta",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Cohesió textual en castellà: connectors temporals, causals i adversatius"
+      "text": "Cohesió textual en castellà: connectors temporals, causals i adversatius",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Coherència en castellà: estructura del paràgraf i progressió temàtica"
+      "text": "Coherència en castellà: estructura del paràgraf i progressió temàtica",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia del castellà: regles d'accentuació (agudas, llanas, esdrújulas), dièresi"
+      "text": "Ortografia del castellà: regles d'accentuació (agudas, llanas, esdrújulas), dièresi",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia del castellà: h, b/v, g/j, ll/y, r/rr, c/qu, c/z, m davant p/b"
+      "text": "Ortografia del castellà: h, b/v, g/j, ll/y, r/rr, c/qu, c/z, m davant p/b",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "El diccionari en castellà: ús autònom per resoldre dubtes"
+      "text": "El diccionari en castellà: ús autònom per resoldre dubtes",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Escriptura en entorns digitals en castellà"
+      "text": "Escriptura en entorns digitals en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Revisió de textos en castellà entre iguals"
+      "text": "Revisió de textos en castellà entre iguals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Adequació al registre i al destinatari en castellà"
+      "text": "Adequació al registre i al destinatari en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Gèneres literaris en castellà: narració, poesia i teatre — característiques"
+      "text": "Gèneres literaris en castellà: narració, poesia i teatre — característiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Elements de la narració en castellà: narrador, personatges, espai, temps, trama"
+      "text": "Elements de la narració en castellà: narrador, personatges, espai, temps, trama",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Recursos literaris en castellà: comparació, personificació, metàfora, rima"
+      "text": "Recursos literaris en castellà: comparació, personificació, metàfora, rima",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Literatura castellana per a infants: autors i obres representatives"
+      "text": "Literatura castellana per a infants: autors i obres representatives",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Lectura guiada de novel·les en castellà adequades al nivell"
+      "text": "Lectura guiada de novel·les en castellà adequades al nivell",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Creació literària en castellà: continuació de textos, canvi de final"
+      "text": "Creació literària en castellà: continuació de textos, canvi de final",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El teatre en castellà: lectura dramatitzada i representació"
+      "text": "El teatre en castellà: lectura dramatitzada i representació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Relació entre la literatura castellana i la catalana: temes i tradicions comuns"
+      "text": "Relació entre la literatura castellana i la catalana: temes i tradicions comuns",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Categories gramaticals en castellà: nom, verb, adjectiu, determinant"
+      "text": "Categories gramaticals en castellà: nom, verb, adjectiu, determinant",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "El verb en castellà: present, pretèrit imperfet i pretèrit indefinit d'indicatiu"
+      "text": "El verb en castellà: present, pretèrit imperfet i pretèrit indefinit d'indicatiu",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Concordança nominal i verbal en castellà"
+      "text": "Concordança nominal i verbal en castellà",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Tipus d'oració en castellà: enunciativa, interrogativa, exclamativa, imperativa"
+      "text": "Tipus d'oració en castellà: enunciativa, interrogativa, exclamativa, imperativa",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Ortografia del castellà: regles d'accentuació (agudas, llanas, esdrújulas)"
+      "text": "Ortografia del castellà: regles d'accentuació (agudas, llanas, esdrújulas)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Ortografia del castellà: ús de b/v, g/j, h, ll/y, c/z, r/rr"
+      "text": "Ortografia del castellà: ús de b/v, g/j, h, ll/y, c/z, r/rr",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Lèxic en castellà: sinònims, antònims, camp semàntic"
+      "text": "Lèxic en castellà: sinònims, antònims, camp semàntic",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Comparació de la gramàtica del castellà i el català: similituds i diferències"
+      "text": "Comparació de la gramàtica del castellà i el català: similituds i diferències",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Formació de paraules en castellà: prefixos i sufixos comuns"
+      "text": "Formació de paraules en castellà: prefixos i sufixos comuns",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "L'oració simple en castellà: subjecte, verb i complements"
+      "text": "L'oració simple en castellà: subjecte, verb i complements",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Producció de discursos orals planificats en castellà: exposicions, debats, entrevistes"
+      "text": "Producció de discursos orals planificats en castellà: exposicions, debats, entrevistes",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Argumentació en castellà: tesis, arguments i contraarguments"
+      "text": "Argumentació en castellà: tesis, arguments i contraarguments",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Avaluació crítica de missatges orals en castellà: intenció i estratègies persuasives"
+      "text": "Avaluació crítica de missatges orals en castellà: intenció i estratègies persuasives",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Recursos retòrics bàsics en castellà: anàfora, hipèrbole, ironia"
+      "text": "Recursos retòrics bàsics en castellà: anàfora, hipèrbole, ironia",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Gestió de la interacció en castellà: moderació, síntesi i reformulació"
+      "text": "Gestió de la interacció en castellà: moderació, síntesi i reformulació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Adaptació del registre oral en castellà a contextos formals i informals"
+      "text": "Adaptació del registre oral en castellà a contextos formals i informals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Comunicació digital en castellà: podcast, vídeo explicatiu, videoconferència"
+      "text": "Comunicació digital en castellà: podcast, vídeo explicatiu, videoconferència",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Varietats geogràfiques i socials del castellà: reconeixement i valoració"
+      "text": "Varietats geogràfiques i socials del castellà: reconeixement i valoració",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comunicacio_oral",
       "subapartat": null,
-      "text": "Relació entre la comunicació oral en castellà i en català en contextos bilingües"
+      "text": "Relació entre la comunicació oral en castellà i en català en contextos bilingües",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura crítica en castellà: identificació del punt de vista i la ideologia"
+      "text": "Lectura crítica en castellà: identificació del punt de vista i la ideologia",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Estratègies avançades en castellà: síntesi, comparació de fonts, avaluació de la fiabilitat"
+      "text": "Estratègies avançades en castellà: síntesi, comparació de fonts, avaluació de la fiabilitat",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos argumentatius en castellà: identificació de tesi, arguments i fal·làcies"
+      "text": "Textos argumentatius en castellà: identificació de tesi, arguments i fal·làcies",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos digitals en castellà: lectura hipertextual i multimodal"
+      "text": "Textos digitals en castellà: lectura hipertextual i multimodal",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos periodístics en castellà: notícia, reportatge, crònica, editorial, article d'opinió"
+      "text": "Textos periodístics en castellà: notícia, reportatge, crònica, editorial, article d'opinió",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Textos científics i divulgatius en castellà: estructura i recursos"
+      "text": "Textos científics i divulgatius en castellà: estructura i recursos",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Intertextualitat en castellà: relació entre textos d'una mateixa temàtica"
+      "text": "Intertextualitat en castellà: relació entre textos d'una mateixa temàtica",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Reflexió sobre el propi procés lector en castellà i les estratègies utilitzades"
+      "text": "Reflexió sobre el propi procés lector en castellà i les estratègies utilitzades",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "comprensio_lectora",
       "subapartat": null,
-      "text": "Lectura comparada de textos en català i en castellà sobre un mateix tema o autor"
+      "text": "Lectura comparada de textos en català i en castellà sobre un mateix tema o autor",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos argumentatius en castellà: article d'opinió, carta al director, debat escrit"
+      "text": "Textos argumentatius en castellà: article d'opinió, carta al director, debat escrit",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos expositius en castellà: treball de recerca, informe, resum elaborat"
+      "text": "Textos expositius en castellà: treball de recerca, informe, resum elaborat",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos creatius en castellà: relat, poema, text dramàtic"
+      "text": "Textos creatius en castellà: relat, poema, text dramàtic",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Textos digitals en castellà: blog, correu electrònic formal, presentació digital"
+      "text": "Textos digitals en castellà: blog, correu electrònic formal, presentació digital",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "El procés d'escriptura en castellà: planificació, esborrany, revisió i edició final"
+      "text": "El procés d'escriptura en castellà: planificació, esborrany, revisió i edició final",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Revisió autònoma i entre iguals de textos en castellà"
+      "text": "Revisió autònoma i entre iguals de textos en castellà",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ortografia avançada del castellà: casos especials d'accentuació, dièresi"
+      "text": "Ortografia avançada del castellà: casos especials d'accentuació, dièresi",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Sintaxi del castellà: oracions compostes coordinades i subordinades"
+      "text": "Sintaxi del castellà: oracions compostes coordinades i subordinades",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "expressio_escrita",
       "subapartat": null,
-      "text": "Ús d'eines digitals de suport per a la producció en castellà"
+      "text": "Ús d'eines digitals de suport per a la producció en castellà",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Història de la literatura castellana: períodes i autors principals"
+      "text": "Història de la literatura castellana: períodes i autors principals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Literatura hispanoamericana: autors i obres representatives"
+      "text": "Literatura hispanoamericana: autors i obres representatives",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Anàlisi literària en castellà: tema, estructura, veu narrativa, recursos expressius i context"
+      "text": "Anàlisi literària en castellà: tema, estructura, veu narrativa, recursos expressius i context",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "La poesia en castellà: mètrica, rima, figures retòriques (metàfora, símil, al·literació, hipèrbaton)"
+      "text": "La poesia en castellà: mètrica, rima, figures retòriques (metàfora, símil, al·literació, hipèrbaton)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "El teatre castellà: Lorca, Valle-Inclán (textos adaptats); estructura dramàtica"
+      "text": "El teatre castellà: Lorca, Valle-Inclán (textos adaptats); estructura dramàtica",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Lectura extensiva de novel·les en castellà de diversos gèneres"
+      "text": "Lectura extensiva de novel·les en castellà de diversos gèneres",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Creació literària en castellà: relat breu, poema amb forma fixa, text dramàtic"
+      "text": "Creació literària en castellà: relat breu, poema amb forma fixa, text dramàtic",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "educacio_literaria",
       "subapartat": null,
-      "text": "Relació entre la literatura castellana i la literatura en altres llengües"
+      "text": "Relació entre la literatura castellana i la literatura en altres llengües",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Morfologia en castellà: flexió verbal completa (indicatiu, subjuntiu, imperativo)"
+      "text": "Morfologia en castellà: flexió verbal completa (indicatiu, subjuntiu, imperativo)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Sintaxi en castellà: l'oració composta — coordinació i subordinació"
+      "text": "Sintaxi en castellà: l'oració composta — coordinació i subordinació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Categories gramaticals en castellà: pronoms personals, preposicions, conjuncions"
+      "text": "Categories gramaticals en castellà: pronoms personals, preposicions, conjuncions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Els pronoms en castellà: personals, reflexius, relatius; formes àtones (clítics)"
+      "text": "Els pronoms en castellà: personals, reflexius, relatius; formes àtones (clítics)",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Lèxic en castellà: polisèmia, homonímia, tecnicismes, cultismes"
+      "text": "Lèxic en castellà: polisèmia, homonímia, tecnicismes, cultismes",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Formació de paraules en castellà: derivació i composició"
+      "text": "Formació de paraules en castellà: derivació i composició",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Varietats del castellà: dialectes i registres; estàndard lingüístic"
+      "text": "Varietats del castellà: dialectes i registres; estàndard lingüístic",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Normativa ortogràfica avançada del castellà: casos especials d'accent, dièresi"
+      "text": "Normativa ortogràfica avançada del castellà: casos especials d'accent, dièresi",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "Comparació sistemàtica de la gramàtica del castellà i el català"
+      "text": "Comparació sistemàtica de la gramàtica del castellà i el català",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "reflexio_sobre_la_llengua",
       "subapartat": null,
-      "text": "La interferència lingüística entre el català i el castellà: identificació i correcció"
+      "text": "La interferència lingüística entre el català i el castellà: identificació i correcció",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

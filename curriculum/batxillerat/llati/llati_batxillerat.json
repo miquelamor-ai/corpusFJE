@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/humanitats-cs/Llati.pdf",
     "nota_estructura": "Matèria de 1r i 2n de Batxillerat, modalitat Humanitats.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "El Llatí és matèria dels dos cursos de Batxillerat, modalitat Humanitats, i ofereix accés directe a la llengua i la cultura que han vertebrat la civilització occidental durant segles. Aporta una formació filològica i cultural que connecta amb estudis de lletres clàssiques, dret, medicina, història antiga i lingüística, i proporciona eines essencials per comprendre el lèxic científic, jurídic i humanístic d'origen llatí present en nombroses disciplines.\n\nLa matèria s'articula al voltant de la gramàtica llatina: les cinc declinacions nominals, les quatre conjugacions verbals, els temps del sistema d'infectum i perfectum, la veu passiva, els casos i les seves funcions sintàctiques, i les oracions subordinades de relatiu, infinitiu i conjunció. S'hi treballa també el lèxic, amb etimologia, derivació, composició i préstecs al català i al castellà, i la literatura i la cultura romanes, incloent-hi la República i l'Imperi i autors com Cèsar, Ciceró, Virgili, Horaci o Ovidi.\n\nEl mètode didàctic se centra en la traducció progressiva de textos originals o adaptats, combinada amb l'anàlisi morfosintàctica sistemàtica i la contextualització cultural i literària. L'ús del diccionari bilingüe, la comparació amb les llenüees romàniques derivades del llatí i el comentari de textos de prosa i poesia llatina clàssica en constitueixen les activitats didàctiques centrals."
   },
   "competencies_clau": [
@@ -26,28 +26,33 @@
       "codi": "CE1",
       "text": "Comprendre i traduir textos llatins de dificultat progressiva, aplicant els coneixements de morfologia, sintaxi i lèxic, i interpretant-los en el seu context históric, cultural i literari.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Reconèixer i analitzar les formes nominals de les cinc declinacions llatines, identificant el gènere, el nombre i el cas, i aplicant el seu valor sintàctic a la traducció."
+            "text": "Reconèixer i analitzar les formes nominals de les cinc declinacions llatines, identificant el gènere, el nombre i el cas, i aplicant el seu valor sintàctic a la traducció.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar i conjugar les formes verbals de les quatre conjugacions en els temps del sistema d'infectum (present, imperfet i futur imperfet) en veu activa i passiva."
+            "text": "Identificar i conjugar les formes verbals de les quatre conjugacions en els temps del sistema d'infectum (present, imperfet i futur imperfet) en veu activa i passiva.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.3",
-            "text": "Traduir frases i textos breus llatins adaptats o autèntics, aplicant les estructures morfosintàctiques bàsiques i fent ús del diccionari."
+            "text": "Traduir frases i textos breus llatins adaptats o autèntics, aplicant les estructures morfosintàctiques bàsiques i fent ús del diccionari.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Traduir textos de dificultat mitjana d'autors com Cèsar, Ciceró, Fedre o Nepos, aplicant tota la morfologia i sintaxi llatina treballades."
+            "text": "Traduir textos de dificultat mitjana d'autors com Cèsar, Ciceró, Fedre o Nepos, aplicant tota la morfologia i sintaxi llatina treballades.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.2",
-            "text": "Comparar i valorar versions diverses d'un mateix text llatí, justificant les opcions de traducció i avaluant la fidelitat al sentit original."
+            "text": "Comparar i valorar versions diverses d'un mateix text llatí, justificant les opcions de traducció i avaluant la fidelitat al sentit original.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -56,24 +61,28 @@
       "codi": "CE2",
       "text": "Sistematitzar i aplicar els coneixements de morfologia i sintaxi llatina per analitzar i traduir textos originals, reconeixent les estructures pròpies de la llengua llatina i les seves diferències amb les llengües romàniques.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer les principals estructures sintàctiques llatines: l'ús dels casos, les oracions de relatiu, les oracions completives d'infinitiu (AcI) i les oracions subordinades temporals i causals."
+            "text": "Reconèixer les principals estructures sintàctiques llatines: l'ús dels casos, les oracions de relatiu, les oracions completives d'infinitiu (AcI) i les oracions subordinades temporals i causals.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.2",
-            "text": "Identificar el lèxic llatí fonamental (300-400 lexemes) i relacionar-lo amb els derivats en català, castellà, anglès i altres llengües romàniques."
+            "text": "Identificar el lèxic llatí fonamental (300-400 lexemes) i relacionar-lo amb els derivats en català, castellà, anglès i altres llengües romàniques.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer i analitzar les formes verbals del sistema de perfectum (perfet, plusquamperfet i futur perfet) en veu activa i passiva, i les formes nominals del verb (infinitiu, participi, gerundi i supí)."
+            "text": "Reconèixer i analitzar les formes verbals del sistema de perfectum (perfet, plusquamperfet i futur perfet) en veu activa i passiva, i les formes nominals del verb (infinitiu, participi, gerundi i supí).",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.2",
-            "text": "Analitzar les oracions subordinades circumstancials (finals, consecutives, condicionals, concessives) i les construccions de participi absolut i ablatius absoluts."
+            "text": "Analitzar les oracions subordinades circumstancials (finals, consecutives, condicionals, concessives) i les construccions de participi absolut i ablatius absoluts.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -82,20 +91,23 @@
       "codi": "CE3",
       "text": "Llegir, analitzar i comentar obres i fragments de la literatura llatina en versió original o en traducció, identificant els gèneres literaris, els autors principals i les seves aportacions a la tradició occidental.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Situar cronològicament els principals períodes de la literatura llatina i identificar els seus autors i gèneres més representatius."
+            "text": "Situar cronològicament els principals períodes de la literatura llatina i identificar els seus autors i gèneres més representatius.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Llegir i comentar fragments de la poesia llatina (Virgili, Ovidi, Horaci, Catul) i de la prosa literària (Ciceró, Sèneca, Tàcit), analitzant estil, temes i context."
+            "text": "Llegir i comentar fragments de la poesia llatina (Virgili, Ovidi, Horaci, Catul) i de la prosa literària (Ciceró, Sèneca, Tàcit), analitzant estil, temes i context.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.2",
-            "text": "Comentar i contextualitzar fragments d'obres historiogràfiques (Tit Livi, Sal·lusti, Suetoni), identificant el mètode i la intencionalitat de cada autor."
+            "text": "Comentar i contextualitzar fragments d'obres historiogràfiques (Tit Livi, Sal·lusti, Suetoni), identificant el mètode i la intencionalitat de cada autor.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -104,28 +116,33 @@
       "codi": "CE4",
       "text": "Conèixer i valorar la civilització romana —organització política, societat, dret, religió i art— i reconèixer la seva contribució a la configuració de la civilització europea i occidental.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Descriure les formes d'organització política de Roma: monarquia, república i principat, identificant les institucions principals (Senat, cònsols, tribuns, comicis)."
+            "text": "Descriure les formes d'organització política de Roma: monarquia, república i principat, identificant les institucions principals (Senat, cònsols, tribuns, comicis).",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.2",
-            "text": "Explicar les característiques de la societat romana: patricis, plebeus, esclaus, la família i el paper de la dona."
+            "text": "Explicar les característiques de la societat romana: patricis, plebeus, esclaus, la família i el paper de la dona.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.3",
-            "text": "Identificar la religió romana: panteó, culte imperial, sacerdocis i relació amb les religions orientals."
+            "text": "Identificar la religió romana: panteó, culte imperial, sacerdocis i relació amb les religions orientals.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar les manifestacions de l'art romà (arquitectura, escultura, pintura, mosaic) identificant tipologies, funció i influència."
+            "text": "Analitzar les manifestacions de l'art romà (arquitectura, escultura, pintura, mosaic) identificant tipologies, funció i influència.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.2",
-            "text": "Explicar les aportacions del dret romà a la cultura jurídica occidental: conceptes fonamentals, Corpus Iuris Civilis i pervivència."
+            "text": "Explicar les aportacions del dret romà a la cultura jurídica occidental: conceptes fonamentals, Corpus Iuris Civilis i pervivència.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -134,24 +151,28 @@
       "codi": "CE5",
       "text": "Identificar i analitzar la pervivència del llatí i de la tradició clàssica romana en les llengües romàniques, el dret, la política, la literatura, l'art, la ciència i el pensament contemporanis.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Identificar cultismes i préstecs llatins en el vocabulari català, castellà, anglès i en el llenguatge jurídic, científic i litúrgic."
+            "text": "Identificar cultismes i préstecs llatins en el vocabulari català, castellà, anglès i en el llenguatge jurídic, científic i litúrgic.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer expressions llatines d'ús comú en el context actual: jurídic, acadèmic, eclesiàstic i quotidià."
+            "text": "Reconèixer expressions llatines d'ús comú en el context actual: jurídic, acadèmic, eclesiàstic i quotidià.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Analitzar la influència del llatí en la formació de les llengües romàniques, identificant el procés d'evolució fonètica i morfológica."
+            "text": "Analitzar la influència del llatí en la formació de les llengües romàniques, identificant el procés d'evolució fonètica i morfológica.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.2",
-            "text": "Produir treballs de recerca o presentacions que mostrin la rellevància del llegat llatí en la cultura contemporània, incorporant exemples multidisciplinaris."
+            "text": "Produir treballs de recerca o presentacions que mostrin la rellevància del llegat llatí en la cultura contemporània, incorporant exemples multidisciplinaris.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -282,565 +303,754 @@
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "El llatí: llengua indoeuropea, origen, extensió geogràfica i períodes de la llengua"
+      "text": "El llatí: llengua indoeuropea, origen, extensió geogràfica i períodes de la llengua",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "El sistema de casos llatins: nominatiu, vocatiu, acusatiu, genitiu, datiu i ablatiu"
+      "text": "El sistema de casos llatins: nominatiu, vocatiu, acusatiu, genitiu, datiu i ablatiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "La primera declinació: temes en -a, paradigmes masculins i femenins"
+      "text": "La primera declinació: temes en -a, paradigmes masculins i femenins",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "La segona declinació: temes en -o, substantius masculins i neutres"
+      "text": "La segona declinació: temes en -o, substantius masculins i neutres",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "La tercera declinació: temes consonàntics i en -i, paradigmes més freqüents"
+      "text": "La tercera declinació: temes consonàntics i en -i, paradigmes més freqüents",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "La quarta declinació: temes en -u, paradigmes bàsics"
+      "text": "La quarta declinació: temes en -u, paradigmes bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "La cinquena declinació: temes en -e, paradigmes bàsics"
+      "text": "La cinquena declinació: temes en -e, paradigmes bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "L'adjectiu: adjectius de primera i segona declinació, adjectius de tercera declinació"
+      "text": "L'adjectiu: adjectius de primera i segona declinació, adjectius de tercera declinació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "Els graus de l'adjectiu: comparatiu i superlatiu, formes regulars i irregulars"
+      "text": "Els graus de l'adjectiu: comparatiu i superlatiu, formes regulars i irregulars",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "Els pronoms: personals, possessius, demostratius (hic, ille, iste) i el relatiu qui, quae, quod"
+      "text": "Els pronoms: personals, possessius, demostratius (hic, ille, iste) i el relatiu qui, quae, quod",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "Numerals: cardinals i ordinals del 1 al 20 i els principals"
+      "text": "Numerals: cardinals i ordinals del 1 al 20 i els principals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "El sistema verbal llatí: tema de present, de perfet i de supí"
+      "text": "El sistema verbal llatí: tema de present, de perfet i de supí",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "Les quatre conjugacions: característiques i conjugació del present d'indicatiu actiu"
+      "text": "Les quatre conjugacions: característiques i conjugació del present d'indicatiu actiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "L'imperfet d'indicatiu actiu i passiu: formació i ús"
+      "text": "L'imperfet d'indicatiu actiu i passiu: formació i ús",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "El futur imperfet d'indicatiu actiu i passiu"
+      "text": "El futur imperfet d'indicatiu actiu i passiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "L'imperatiu present actiu: formes i ús"
+      "text": "L'imperatiu present actiu: formes i ús",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "Els verbs irregulars bàsics: esse, posse, ire, velle i nolle"
+      "text": "Els verbs irregulars bàsics: esse, posse, ire, velle i nolle",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "morfologia_llatina",
       "subapartat": null,
-      "text": "Lèxic llatí fonamental: 350 lexemes de major freqüència"
+      "text": "Lèxic llatí fonamental: 350 lexemes de major freqüència",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "La frase llatina: ordre de paraules (SOV) i flexibilitat sintàctica"
+      "text": "La frase llatina: ordre de paraules (SOV) i flexibilitat sintàctica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Usos del nominatiu: subjecte i atribut"
+      "text": "Usos del nominatiu: subjecte i atribut",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Usos de l'acusatiu: objecte directe, doble acusatiu, acusatiu de direcció i d'extensió"
+      "text": "Usos de l'acusatiu: objecte directe, doble acusatiu, acusatiu de direcció i d'extensió",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Usos del genitiu: genitiu possessiu, subjectiu, objectiu i partitiu"
+      "text": "Usos del genitiu: genitiu possessiu, subjectiu, objectiu i partitiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Usos del datiu: complement indirecte, datiu ètic i datiu d'interès"
+      "text": "Usos del datiu: complement indirecte, datiu ètic i datiu d'interès",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Usos de l'ablatiu: instrument, companyia, separació, causa, lloc i temps"
+      "text": "Usos de l'ablatiu: instrument, companyia, separació, causa, lloc i temps",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Les preposicions llatines i els seus casos: in, ad, cum, de, ex, ab, per, sub"
+      "text": "Les preposicions llatines i els seus casos: in, ad, cum, de, ex, ab, per, sub",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Les oracions de relatiu: concordança del pronom relatiu i les seves funcions"
+      "text": "Les oracions de relatiu: concordança del pronom relatiu i les seves funcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "L'accusativus cum Infinitivo (AcI): estructura, temps de l'infinitiu i traducció"
+      "text": "L'accusativus cum Infinitivo (AcI): estructura, temps de l'infinitiu i traducció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Oracions temporals: postquam, ubi, cum + indicatiu, antequam i priusquam"
+      "text": "Oracions temporals: postquam, ubi, cum + indicatiu, antequam i priusquam",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Oracions causals: quod, quia i quoniam; mode indicatiu o subjuntiu"
+      "text": "Oracions causals: quod, quia i quoniam; mode indicatiu o subjuntiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Oracions comparatives: ut, sicut, tamquam i les seves estructures"
+      "text": "Oracions comparatives: ut, sicut, tamquam i les seves estructures",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Estratègies de traducció: identificació del verb, anàlisi morfológica i reconstrucció semàntica"
+      "text": "Estratègies de traducció: identificació del verb, anàlisi morfológica i reconstrucció semàntica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Ús del diccionari llatí: entrades, codis morfológics i accepcions"
+      "text": "Ús del diccionari llatí: entrades, codis morfológics i accepcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Textos adaptats per a la traducció: Cèsar (De Bello Gallico adaptat), Fedre (faules)"
+      "text": "Textos adaptats per a la traducció: Cèsar (De Bello Gallico adaptat), Fedre (faules)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "sintaxi_i_traduccio",
       "subapartat": null,
-      "text": "Revisió de traduccions: autoavaluació, revisió per parells i millora del text"
+      "text": "Revisió de traduccions: autoavaluació, revisió per parells i millora del text",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "Roma: llegenda fundacional (Ròmul i Rem), topografia i expansió territorial"
+      "text": "Roma: llegenda fundacional (Ròmul i Rem), topografia i expansió territorial",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La monarquia romana: reis, institucions primitives i tradició oral"
+      "text": "La monarquia romana: reis, institucions primitives i tradició oral",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La República Romana: Senat, cònsols, tribuns de la plebs i comicis"
+      "text": "La República Romana: Senat, cònsols, tribuns de la plebs i comicis",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "Les guerres púniques: Cartago, Anníbal i l'expansió mediterrànea de Roma"
+      "text": "Les guerres púniques: Cartago, Anníbal i l'expansió mediterrànea de Roma",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La crisi de la República: Gracs, Sila, Cèsar, Marc Antoni i la guerra civil"
+      "text": "La crisi de la República: Gracs, Sila, Cèsar, Marc Antoni i la guerra civil",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "August i el principat: la reforma política, la Pax Romana i l'administració imperial"
+      "text": "August i el principat: la reforma política, la Pax Romana i l'administració imperial",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "L'expansió de l'Imperi: provincies, romanització i la Via Romana"
+      "text": "L'expansió de l'Imperi: provincies, romanització i la Via Romana",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La societat romana: patricis, plebeus, equites, esclaus i lliberts"
+      "text": "La societat romana: patricis, plebeus, equites, esclaus i lliberts",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La família romana: paterfamilias, matrimoni, educació i vida quotidiana"
+      "text": "La família romana: paterfamilias, matrimoni, educació i vida quotidiana",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La dona a Roma: drets legals, vida domèstica i excepcions il·lustres"
+      "text": "La dona a Roma: drets legals, vida domèstica i excepcions il·lustres",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La religió romana: panteó, ritus públics i privats, augurs i sacerdocis"
+      "text": "La religió romana: panteó, ritus públics i privats, augurs i sacerdocis",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "El culte imperial: divinització dels emperadors i la seva funció política"
+      "text": "El culte imperial: divinització dels emperadors i la seva funció política",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "La romanització de Hispania: ciutats, calçades, aquaductes i monuments"
+      "text": "La romanització de Hispania: ciutats, calçades, aquaductes i monuments",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "L'art romà: arquitectura (Panteó, Colosseu, arc de triomf), escultura i mosaic"
+      "text": "L'art romà: arquitectura (Panteó, Colosseu, arc de triomf), escultura i mosaic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_romana",
       "subapartat": null,
-      "text": "El dret romà: Llei de les XII Taules, conceptes jurídics bàsics i la seva influència"
+      "text": "El dret romà: Llei de les XII Taules, conceptes jurídics bàsics i la seva influència",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El sistema de perfectum: perfet d'indicatiu actiu, formació regular i irregular"
+      "text": "El sistema de perfectum: perfet d'indicatiu actiu, formació regular i irregular",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El plusquamperfet d'indicatiu actiu i passiu"
+      "text": "El plusquamperfet d'indicatiu actiu i passiu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El futur perfet d'indicatiu actiu i passiu"
+      "text": "El futur perfet d'indicatiu actiu i passiu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El subjuntiu present i imperfet actiu i passiu: formació i usos"
+      "text": "El subjuntiu present i imperfet actiu i passiu: formació i usos",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El subjuntiu perfet i plusquamperfet actiu i passiu"
+      "text": "El subjuntiu perfet i plusquamperfet actiu i passiu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "La consecutio temporum: concordança de temps en les oracions subordinades"
+      "text": "La consecutio temporum: concordança de temps en les oracions subordinades",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Oracions finals: ut/ne + subjuntiu; causa i significació"
+      "text": "Oracions finals: ut/ne + subjuntiu; causa i significació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Oracions consecutives: ut + subjuntiu; tipus i traducció"
+      "text": "Oracions consecutives: ut + subjuntiu; tipus i traducció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Oracions condicionals: tipus (reals, potencials, irreals) i modes verbals"
+      "text": "Oracions condicionals: tipus (reals, potencials, irreals) i modes verbals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Oracions concessives: quamquam, quamvis, etsi i modo"
+      "text": "Oracions concessives: quamquam, quamvis, etsi i modo",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "L'ablatiu absolut: estructura, usos i traducció"
+      "text": "L'ablatiu absolut: estructura, usos i traducció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El participi: de present, de perfet i de futur; usos predicatius i atributius"
+      "text": "El participi: de present, de perfet i de futur; usos predicatius i atributius",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Gerundi i gerundiu: formació, casos i construccions"
+      "text": "Gerundi i gerundiu: formació, casos i construccions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "El supí: actiu i passiu, usos i freqüència"
+      "text": "El supí: actiu i passiu, usos i freqüència",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Traducció de Cèsar: fragments autèntics de De Bello Gallico"
+      "text": "Traducció de Cèsar: fragments autèntics de De Bello Gallico",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Traducció de Ciceró: cartes i discursos adaptats (Catilina)"
+      "text": "Traducció de Ciceró: cartes i discursos adaptats (Catilina)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Traducció de Nepos: Vides d'homes il·lustres"
+      "text": "Traducció de Nepos: Vides d'homes il·lustres",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_literaris",
       "subapartat": null,
-      "text": "Traducció de Sal·lusti o Tit Livi: fragments historiogràfics"
+      "text": "Traducció de Sal·lusti o Tit Livi: fragments historiogràfics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "Periodització de la literatura llatina: arcaica, republicana, clàssica, augustal, imperial"
+      "text": "Periodització de la literatura llatina: arcaica, republicana, clàssica, augustal, imperial",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La comèdia llatina: Plaute i Terenci, temes, personatges i influència"
+      "text": "La comèdia llatina: Plaute i Terenci, temes, personatges i influència",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La poesia lírica: Catul, el cercle neotèric, temes amorosos i forma"
+      "text": "La poesia lírica: Catul, el cercle neotèric, temes amorosos i forma",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "Lucreci i el poema didàctic filosòfic: De Rerum Natura i l'epicureisme"
+      "text": "Lucreci i el poema didàctic filosòfic: De Rerum Natura i l'epicureisme",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "L'era augustal: mecenes, Virgili, Horaci i Ovidi"
+      "text": "L'era augustal: mecenes, Virgili, Horaci i Ovidi",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "Virgili: l'Eneida, estructura, temes (fundació de Roma, pietat i destí) i model èpic"
+      "text": "Virgili: l'Eneida, estructura, temes (fundació de Roma, pietat i destí) i model èpic",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "Horaci: odes, epodes i epístoles; l'art poètica horaciana"
+      "text": "Horaci: odes, epodes i epístoles; l'art poètica horaciana",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "Ovidi: Metamorfosis, tema del canvi i mite; les Heroides i l'elegies amoroses"
+      "text": "Ovidi: Metamorfosis, tema del canvi i mite; les Heroides i l'elegies amoroses",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La prosa de Ciceró: discursos, tractats filosòfics i correspondència"
+      "text": "La prosa de Ciceró: discursos, tractats filosòfics i correspondència",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "Sèneca: tragèdies, cartes a Lucili i l'estoïcisme imperial"
+      "text": "Sèneca: tragèdies, cartes a Lucili i l'estoïcisme imperial",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La historiografia: Tit Livi, Tàcit, Suetoni; mètode, estil i intencionalitat"
+      "text": "La historiografia: Tit Livi, Tàcit, Suetoni; mètode, estil i intencionalitat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La sàtira: Juvenal i Persi; crítica social i moral a Roma"
+      "text": "La sàtira: Juvenal i Persi; crítica social i moral a Roma",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La novel·la llatina: Petroni (Satiricó) i Apuleu (L'ase d'or)"
+      "text": "La novel·la llatina: Petroni (Satiricó) i Apuleu (L'ase d'or)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_llatina",
       "subapartat": null,
-      "text": "La literatura cristiana en llatí: Tertul·lià, Lactanci, sant Agustí i la Vulgata"
+      "text": "La literatura cristiana en llatí: Tertul·lià, Lactanci, sant Agustí i la Vulgata",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "El llatí com a llengua internacional: de l'Edat Antiga al Renaixement"
+      "text": "El llatí com a llengua internacional: de l'Edat Antiga al Renaixement",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "La formació de les llengües romàniques a partir del llatí vulgar"
+      "text": "La formació de les llengües romàniques a partir del llatí vulgar",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "Evolució fonètica del llatí al català: vocalisme, consonantisme i morfologia"
+      "text": "Evolució fonètica del llatí al català: vocalisme, consonantisme i morfologia",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "Cultismes i semicultes en català i castellà: exemples i mecanismes d'incorporació"
+      "text": "Cultismes i semicultes en català i castellà: exemples i mecanismes d'incorporació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "El dret romà a l'Europa moderna: Corpus Iuris Civilis i codificació napoleònica"
+      "text": "El dret romà a l'Europa moderna: Corpus Iuris Civilis i codificació napoleònica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "La literatura medieval en llatí: hagiografia, cròniques i poesia goliàrdica"
+      "text": "La literatura medieval en llatí: hagiografia, cròniques i poesia goliàrdica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "L'humanisme del Renaixement: redescoberta dels clàssics, filologia i impremta"
+      "text": "L'humanisme del Renaixement: redescoberta dels clàssics, filologia i impremta",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "La mitologia romana en l'art del Renaixement i del Barroc: Ticià, Botticelli, Bernini"
+      "text": "La mitologia romana en l'art del Renaixement i del Barroc: Ticià, Botticelli, Bernini",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "La retòrica clàssica en l'oratòria, la política i la publicitat contemporànies"
+      "text": "La retòrica clàssica en l'oratòria, la política i la publicitat contemporànies",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "Expressions llatines en el món actual: aforismes, termes jurídics, ciència i medicina"
+      "text": "Expressions llatines en el món actual: aforismes, termes jurídics, ciència i medicina",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "La influència de Roma en l'urbanisme: la planta hipodàmica, el forum i els eixamples moderns"
+      "text": "La influència de Roma en l'urbanisme: la planta hipodàmica, el forum i els eixamples moderns",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "Roma i la construcció de la identitat europea: Unió Europea, dret, institucions"
+      "text": "Roma i la construcció de la identitat europea: Unió Europea, dret, institucions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "pervivencia_classica",
       "subapartat": null,
-      "text": "Projecte de recerca: la pervivència del llatí o de la civilització romana en un àmbit cultural actual"
+      "text": "Projecte de recerca: la pervivència del llatí o de la civilització romana en un àmbit cultural actual",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

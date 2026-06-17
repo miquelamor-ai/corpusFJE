@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Matematiques-Generals.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "Les Matemàtiques Generals al Batxillerat és una matèria que ofereix formació matemàtica de base per als alumnes que no segueixen els itineraris específics de ciències o ciències socials, garantint la cultura matemàtica necessària per a la ciutadania i per als estudis superiors de perfil artístic, humanístic o professional. Conecta amb les Ciències Generals, l'Economia, la Tecnologia i la vida quotidiana.\n\nEls constructes fonamentals cobreixen el raonament numèric i algebraic (nombres reals i complexos elementals, expressions algebraiques, equacions i inequacions), la geometria plana i espacial aplicada (àrees, volums, trigonometria bàsica, similitud), les funcions i la variació (representació, tipus, interpretació de gràfics), l'estadística descriptiva i la probabilitat bàsica, i la matemàtica financera elemental. La resolució de problemes en contextos reals i la modelització senzilla articulen tots els blocs.\n\nL'enfocament pedagògic prioritza la comprensió sobre el formalisme, el context real sobre l'abstracció pura, i la resolució col·laborativa sobre la pràctica individual repetitiva. L'ús de calculadora, full de càlcul i eines digitals és habitual i legítim. L'avaluació valora la capacitat de plantejar i resoldre situacions matemàtiques del món real, justificar el procés i comunicar resultats de manera clara, per damunt del domini tècnic exhaustiu."
   },
@@ -18,18 +18,21 @@
       "codi": "CE1",
       "text": "Modelitzar i resoldre problemes de la vida quotidiana i de diversos àmbits de coneixement, incloent-hi el matemàtic, aplicant diferents estratègies i formes de raonament per plantejar i resoldre reptes.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Generar models a partir situacions plantejades en contextos diversos, tant de la vida quotidiana com del seu àmbit acadèmic, que permeten convertir les situacions en reptes o problemes matemàtics."
+            "text": "Generar models a partir situacions plantejades en contextos diversos, tant de la vida quotidiana com del seu àmbit acadèmic, que permeten convertir les situacions en reptes o problemes matemàtics.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.2",
-            "text": "Utilitzar eines i estratègies que permetin resoldre problemes o fer propostes creatives a les situacions que hagin estat modelitzades."
+            "text": "Utilitzar eines i estratègies que permetin resoldre problemes o fer propostes creatives a les situacions que hagin estat modelitzades.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.3",
-            "text": "Obtenir solucions i fer propostes creatives a les situacions plantejades en contextos diversos, tant de la vida quotidiana com del seu àmbit acadèmic, per a l’aprenentatge de les matemàtiques, ja que són processos centrals en la construcció del coneixement matemàtic."
+            "text": "Obtenir solucions i fer propostes creatives a les situacions plantejades en contextos diversos, tant de la vida quotidiana com del seu àmbit acadèmic, per a l’aprenentatge de les matemàtiques, ja que són processos centrals en la construcció del coneixement matemàtic.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -38,14 +41,16 @@
       "codi": "CE2",
       "text": "Argumentar la idoneïtat de les solucions d’un problema emprant el raonament i la lògica matemàtica per verificar-ne la validesa.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Expressar, amb coherència científica, idees i raonaments que permetin justificar la validesa de les solucions, dels processos i de les conclusions."
+            "text": "Expressar, amb coherència científica, idees i raonaments que permetin justificar la validesa de les solucions, dels processos i de les conclusions.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.2",
-            "text": "Construir i expressar amb coherència científica textos amb arguments matemàtics que permeten fer judicis crítics o prendre decisions tecnològiques, socials, artístiques i culturals en un context sostenible, ètic i respectuós amb el medi ambient, en relació amb la situació o amb el problema plantejat."
+            "text": "Construir i expressar amb coherència científica textos amb arguments matemàtics que permeten fer judicis crítics o prendre decisions tecnològiques, socials, artístiques i culturals en un context sostenible, ètic i respectuós amb el medi ambient, en relació amb la situació o amb el problema plantejat.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -54,18 +59,21 @@
       "codi": "CE3",
       "text": "Formular conjectures o problemes, utilitzant el raonament i l’argumentació, la creativitat i les eines tecnològiques, per generar nou coneixement matemàtic.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Plantejar preguntes en contextos diversos que es puguin respondre mitjançant el coneixement matemàtic."
+            "text": "Plantejar preguntes en contextos diversos que es puguin respondre mitjançant el coneixement matemàtic.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.2",
-            "text": "Fer conjectures matemàtiques de manera autònoma i raonada en un context en el qual l’alumnat tingui llibertat creativa fent ús, si cal, d’eines tecnològiques (llenguatges de programació, fulls de càlcul, GeoGebra, fotografia matemàtica, vídeo, etc.)."
+            "text": "Fer conjectures matemàtiques de manera autònoma i raonada en un context en el qual l’alumnat tingui llibertat creativa fent ús, si cal, d’eines tecnològiques (llenguatges de programació, fulls de càlcul, GeoGebra, fotografia matemàtica, vídeo, etc.).",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.3",
-            "text": "Proposar problemes de manera autònoma, creativa i raonada en un context en el qual l’alumnat tingui llibertat creativa fent ús, si cal, d’eines tecnològiques (llenguatges de programació, fulls de càlcul, GeoGebra, fotografia matemàtica, vídeo, etc.)."
+            "text": "Proposar problemes de manera autònoma, creativa i raonada en un context en el qual l’alumnat tingui llibertat creativa fent ús, si cal, d’eines tecnològiques (llenguatges de programació, fulls de càlcul, GeoGebra, fotografia matemàtica, vídeo, etc.).",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -74,22 +82,26 @@
       "codi": "CE4",
       "text": "Utilitzar el pensament computacional modificant, creant i generalitzant estratègies i algorismes amb suport digital per modelitzar i resoldre situacions de la vida quotidiana o de diversos àmbits del coneixement, incloent-hi el matemàtic.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Descompondre un problema o una situació de la vida quotidiana en diferents parts, abordant-les d’una en una per poder trobar després la solució global amb dispositius digitals."
+            "text": "Descompondre un problema o una situació de la vida quotidiana en diferents parts, abordant-les d’una en una per poder trobar després la solució global amb dispositius digitals.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA4.2",
-            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar."
+            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA4.3",
-            "text": "Trobar els principis que generen els patrons d’un problema descartant les dades irrellevants tot identificant les parts més importants."
+            "text": "Trobar els principis que generen els patrons d’un problema descartant les dades irrellevants tot identificant les parts més importants.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA4.4",
-            "text": "Generar instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb llenguatges de programació o també amb fulls de càlcul, GeoGebra i desenvolupadors d’aplicacions mòbils entre d’altres."
+            "text": "Generar instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb llenguatges de programació o també amb fulls de càlcul, GeoGebra i desenvolupadors d’aplicacions mòbils entre d’altres.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -98,22 +110,26 @@
       "codi": "CE5",
       "text": "Connectar diferents idees matemàtiques, establint vincles entre conceptes, procediments, arguments i models, per donar significat a l’aprenentatge matemàtic i estructurar-lo.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Identificar vincles entre diferents models matemàtics per disposar de més eines a l’hora d’abordar un repte."
+            "text": "Identificar vincles entre diferents models matemàtics per disposar de més eines a l’hora d’abordar un repte.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.2",
-            "text": "Traduir entre diferents representacions d’un mateix concepte matemàtic per extreure’n informació d’un i aplicar-la a l’altre."
+            "text": "Traduir entre diferents representacions d’un mateix concepte matemàtic per extreure’n informació d’un i aplicar-la a l’altre.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.3",
-            "text": "Aplicar conceptes matemàtics interconnectats per abordar un repte."
+            "text": "Aplicar conceptes matemàtics interconnectats per abordar un repte.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.4",
-            "text": "Treure conclusions per mitjà d’una visió integrada de les matemàtiques."
+            "text": "Treure conclusions per mitjà d’una visió integrada de les matemàtiques.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -122,26 +138,31 @@
       "codi": "CE6",
       "text": "Vincular i contextualitzar les matemàtiques a altres àrees de coneixement, abordant les situacions que se’n desprenguin, per modelitzar, resoldre problemes i desenvolupar la capacitat crítica, creativa i innovadora en situacions diverses.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA6.1",
-            "text": "Reconèixer i utilitzar les matemàtiques presents a la vida quotidiana usant els processos inherents a la investigació científica i matemàtica: inferir, mesurar, comunicar, classificar, predir, etc., en situacions susceptibles de ser abordades en termes matemàtics."
+            "text": "Reconèixer i utilitzar les matemàtiques presents a la vida quotidiana usant els processos inherents a la investigació científica i matemàtica: inferir, mesurar, comunicar, classificar, predir, etc., en situacions susceptibles de ser abordades en termes matemàtics.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.2",
-            "text": "Reconèixer i utilitzar les connexions entre les matemàtiques i altres matèries en situacions susceptibles de ser abordades en termes matemàtics."
+            "text": "Reconèixer i utilitzar les connexions entre les matemàtiques i altres matèries en situacions susceptibles de ser abordades en termes matemàtics.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.3",
-            "text": "Utilitzar el potencial creatiu de les matemàtiques per fer propostes innovadores en contextos científics, tecnològics, socials, artístics i culturals."
+            "text": "Utilitzar el potencial creatiu de les matemàtiques per fer propostes innovadores en contextos científics, tecnològics, socials, artístics i culturals.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.4",
-            "text": "Identificar i valorar l’aportació actual i històrica de les matemàtiques al progrés de la humanitat, també des d’una perspectiva de gènere, davant dels reptes que planteja la societat actual."
+            "text": "Identificar i valorar l’aportació actual i històrica de les matemàtiques al progrés de la humanitat, també des d’una perspectiva de gènere, davant dels reptes que planteja la societat actual.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.5",
-            "text": "Argumentar matemàticament i amb esperit crític sobre diferents aspectes socioculturals com ara pseudociències, política, medi ambient, economia i consumisme, desigualtats, tradicions i costums, etc."
+            "text": "Argumentar matemàticament i amb esperit crític sobre diferents aspectes socioculturals com ara pseudociències, política, medi ambient, economia i consumisme, desigualtats, tradicions i costums, etc.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -150,34 +171,41 @@
       "codi": "CE7",
       "text": "Comunicar i representar, de forma individual i col·lectiva, conceptes, procediments i resultats matemàtics usant el llenguatge oral, escrit, gràfic i multimèdia, mitjançant diferents tipus de suports, incloent-hi els tecnològics, per donar significat al coneixement, transferir-lo i compartir-lo.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA7.1",
-            "text": "Mostrar organització en comunicar les idees matemàtiques."
+            "text": "Mostrar organització en comunicar les idees matemàtiques.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.2",
-            "text": "Usar la terminologia, la simbologia i el rigor matemàtic en la comunicació i la representació de les matemàtiques."
+            "text": "Usar la terminologia, la simbologia i el rigor matemàtic en la comunicació i la representació de les matemàtiques.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.3",
-            "text": "Expressar oralment les idees matemàtiques amb un registre coherent i precís."
+            "text": "Expressar oralment les idees matemàtiques amb un registre coherent i precís.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.4",
-            "text": "Escriure textos matemàtics de tot tipus (descriptius, argumentatius, expositius, instructius, etc.) amb rigor científic, de lectura fluïda i coherent i en els quals l’ús del llenguatge i de la simbologia matemàtica sigui precís."
+            "text": "Escriure textos matemàtics de tot tipus (descriptius, argumentatius, expositius, instructius, etc.) amb rigor científic, de lectura fluïda i coherent i en els quals l’ús del llenguatge i de la simbologia matemàtica sigui precís.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.5",
-            "text": "Dissenyar representacions matemàtiques que siguin capaces, per si soles, d’expressar idees matemàtiques sintetitzades."
+            "text": "Dissenyar representacions matemàtiques que siguin capaces, per si soles, d’expressar idees matemàtiques sintetitzades.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.6",
-            "text": "Utilitzar l’expressió artística i creativa per comunicar, representar i expressar idees i raonaments matemàtics, com per exemple la fotografia matemàtica, els vídeos matemàtics, les obres visuals i la música."
+            "text": "Utilitzar l’expressió artística i creativa per comunicar, representar i expressar idees i raonaments matemàtics, com per exemple la fotografia matemàtica, els vídeos matemàtics, les obres visuals i la música.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.7",
-            "text": "Dialogar entre iguals i debatre idees matemàtiques per descriure, explicar i justificar raonaments, processos i conclusions."
+            "text": "Dialogar entre iguals i debatre idees matemàtiques per descriure, explicar i justificar raonaments, processos i conclusions.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -186,26 +214,31 @@
       "codi": "CE8",
       "text": "Desenvolupar l’autoregulació i les destreses personals que ajudin a identificar i gestionar emocions, aprenent de l’error i afrontant les situacions d’incertesa com una oportunitat, per perseverar i gaudir del procés d’aprendre matemàtiques.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA8.1",
-            "text": "Identificar els errors propis que es fan en matemàtiques, descobrir els elements conceptuals, de procediment o d’estratègia que els provoquen i, finalment, expressar de manera raonada el motiu de l’error."
+            "text": "Identificar els errors propis que es fan en matemàtiques, descobrir els elements conceptuals, de procediment o d’estratègia que els provoquen i, finalment, expressar de manera raonada el motiu de l’error.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.2",
-            "text": "Decidir i posar en pràctica estratègies concretes que permetin evitar l’error i superar la dificultat."
+            "text": "Decidir i posar en pràctica estratègies concretes que permetin evitar l’error i superar la dificultat.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.3",
-            "text": "Perseverar en la consecució dels objectius implementant noves estratègies matemàtiques identificant i gestionant les pròpies emocions."
+            "text": "Perseverar en la consecució dels objectius implementant noves estratègies matemàtiques identificant i gestionant les pròpies emocions.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.4",
-            "text": "Participar activament de l’autoavaluació, compartint i consensuant amb el professorat les estratègies de millora."
+            "text": "Participar activament de l’autoavaluació, compartint i consensuant amb el professorat les estratègies de millora.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.5",
-            "text": "Desenvolupar la capacitat creativa fent propostes matemàtiques innovadores relacionades amb aspectes artístics, culturals, socials i tecnològics gaudint de la llibertat de decidir sense mostrar por a equivocar-se."
+            "text": "Desenvolupar la capacitat creativa fent propostes matemàtiques innovadores relacionades amb aspectes artístics, culturals, socials i tecnològics gaudint de la llibertat de decidir sense mostrar por a equivocar-se.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -214,26 +247,31 @@
       "codi": "CE9",
       "text": "Cooperar, desenvolupant les destreses socials necessàries per participar activament en els equips de treball inclusius i reconeixent la diversitat i el valor de les aportacions dels altres, per compartir i construir coneixement matemàtic de manera col·lectiva.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA9.1",
-            "text": "Aportar i compartir estratègies i raonaments matemàtics amb els companys, valorar l’èxit col·lectiu com una estratègia de millora personal."
+            "text": "Aportar i compartir estratègies i raonaments matemàtics amb els companys, valorar l’èxit col·lectiu com una estratègia de millora personal.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA9.2",
-            "text": "Col·laborar en el treball en equip tant en entorns presencials com virtuals, escoltant els altres i valorant les seves aportacions, respectant la perspectiva de gènere i la multiculturalitat, compartint i construint coneixement matemàtic de manera conjunta."
+            "text": "Col·laborar en el treball en equip tant en entorns presencials com virtuals, escoltant els altres i valorant les seves aportacions, respectant la perspectiva de gènere i la multiculturalitat, compartint i construint coneixement matemàtic de manera conjunta.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA9.3",
-            "text": "Idear, dissenyar i aportar activitats i problemes matemàtics de qualitat conceptual a la resta de companys per tal de participar activament en la construcció col·lectiva del coneixement matemàtic."
+            "text": "Idear, dissenyar i aportar activitats i problemes matemàtics de qualitat conceptual a la resta de companys per tal de participar activament en la construcció col·lectiva del coneixement matemàtic.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA9.4",
-            "text": "Ajudar a identificar errors i dificultats d’aprenentatge de les companyes i companys fent aportacions constructives i concretes que puguin ajudar a superar-los i a millorar."
+            "text": "Ajudar a identificar errors i dificultats d’aprenentatge de les companyes i companys fent aportacions constructives i concretes que puguin ajudar a superar-los i a millorar.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA9.5",
-            "text": "Utilitzar la llengua catalana en l’aprenentatge de les matemàtiques com una eina de cohesió, inclusió i equitat."
+            "text": "Utilitzar la llengua catalana en l’aprenentatge de les matemàtiques com una eina de cohesió, inclusió i equitat.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -256,229 +294,306 @@
       "nivell": "general",
       "bloc": null,
       "subapartat": "Sentit de les operacions",
-      "text": "Interpretació de la informació numèrica en documents de la vida quotidiana: documents financers, factures, nòmines, notícies, etc"
+      "text": "Interpretació de la informació numèrica en documents de la vida quotidiana: documents financers, factures, nòmines, notícies, etc",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Sentit de les operacions",
-      "text": "Ús d’eines tecnològiques i digitals per resoldre problemes numèrics"
+      "text": "Ús d’eines tecnològiques i digitals per resoldre problemes numèrics",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Relacions/educació financera",
-      "text": "Aplicació de les relacions entre raons, proporcions, percentatges, taxes (tant per un, tant per cent, tant per mil, etc.), impostos i increments absoluts i relatius, en la representació de relacions quantitatives en contextos reals"
+      "text": "Aplicació de les relacions entre raons, proporcions, percentatges, taxes (tant per un, tant per cent, tant per mil, etc.), impostos i increments absoluts i relatius, en la representació de relacions quantitatives en contextos reals",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": null,
       "subapartat": "Relacions/educació financera",
-      "text": "Ús del raonament proporcional en la resolució de problemes financers: mitjans de pagament amb cobrament d’interessos i comissions, canvis de divises, etc., fent ús d’eines tecnològiques"
+      "text": "Ús del raonament proporcional en la resolució de problemes financers: mitjans de pagament amb cobrament d’interessos i comissions, canvis de divises, etc., fent ús d’eines tecnològiques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit de la mesura",
       "subapartat": "Canvi",
-      "text": "Estudi de la variació absoluta i de la variació mitjana d’una funció com a pas previ per a la construcció del concepte de derivada"
+      "text": "Estudi de la variació absoluta i de la variació mitjana d’una funció com a pas previ per a la construcció del concepte de derivada",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit de la mesura",
       "subapartat": "Canvi",
-      "text": "Construcció del concepte de derivada d’una funció a partir de l’estudi del canvi de la funció en diferents contextos"
+      "text": "Construcció del concepte de derivada d’una funció a partir de l’estudi del canvi de la funció en diferents contextos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit algebraic",
       "subapartat": "Model matemàtic",
-      "text": "Ús de fulls de geometria dinàmica o fulls de càlcul per modelitzar situacions del món real fent servir funcions lineals, quadràtiques, racionals senzilles, exponencials, logarítmiques, a trossos i periòdiques"
+      "text": "Ús de fulls de geometria dinàmica o fulls de càlcul per modelitzar situacions del món real fent servir funcions lineals, quadràtiques, racionals senzilles, exponencials, logarítmiques, a trossos i periòdiques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit algebraic",
       "subapartat": "Igualtat i desigualtat",
-      "text": "Resolució de sistemes d’equacions i inequacions per resoldre problemes relacionats amb la modelització o les funcions en diferents contextos mitjançant eines digitals"
+      "text": "Resolució de sistemes d’equacions i inequacions per resoldre problemes relacionats amb la modelització o les funcions en diferents contextos mitjançant eines digitals",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit algebraic",
       "subapartat": "Relacions i funcions",
-      "text": "Representació gràfica a partir d’eines de geometria dinàmica o taules de valors per analitzar les propietats de les classes de funcions, incloent-hi lineals, quadràtiques, racionals senzilles, exponencials i logarítmiques"
+      "text": "Representació gràfica a partir d’eines de geometria dinàmica o taules de valors per analitzar les propietats de les classes de funcions, incloent-hi lineals, quadràtiques, racionals senzilles, exponencials i logarítmiques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit algebraic",
       "subapartat": "Relacions i funcions",
-      "text": "Interpretació de les propietats d’una funció per resoldre problemes en contextos diversos"
+      "text": "Interpretació de les propietats d’una funció per resoldre problemes en contextos diversos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit algebraic",
       "subapartat": "Pensament computacional",
-      "text": "Formulació, resolució, anàlisi, representació i interpretació de relacions i problemes de la vida quotidiana i de diferents àmbits utilitzant algoritmes, programes i eines tecnològiques adequats"
+      "text": "Formulació, resolució, anàlisi, representació i interpretació de relacions i problemes de la vida quotidiana i de diferents àmbits utilitzant algoritmes, programes i eines tecnològiques adequats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Geometria Sentit espacial",
       "subapartat": "Visualització, raonament i modelització geomètrica",
-      "text": "Representació de situacions de la vida quotidiana mitjançant diferents tipus de grafs (dirigits, plànols, ponderats, arbres, etc.)"
+      "text": "Representació de situacions de la vida quotidiana mitjançant diferents tipus de grafs (dirigits, plànols, ponderats, arbres, etc.)",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Geometria Sentit espacial",
       "subapartat": "Visualització, raonament i modelització geomètrica",
-      "text": "Resolució de problemes de camins i circuits fent ús de grafs eulerians i hamiltonians. Coloració de grafs"
+      "text": "Resolució de problemes de camins i circuits fent ús de grafs eulerians i hamiltonians. Coloració de grafs",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Geometria Sentit espacial",
       "subapartat": "Visualització, raonament i modelització geomètrica",
-      "text": "Resolució del problema del camí mínim en diferents contextos"
+      "text": "Resolució del problema del camí mínim en diferents contextos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Probabilitat i estadística Sentit numèric",
       "subapartat": "Comptatge",
-      "text": "Ús de regles i estratègies bàsiques per calcular el cardinal de conjunts finits per resoldre problemes en contextos diversos"
+      "text": "Ús de regles i estratègies bàsiques per calcular el cardinal de conjunts finits per resoldre problemes en contextos diversos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit de la mesura",
       "subapartat": "Mesura",
-      "text": "Anàlisi de la incertesa associada a un fenomen aleatori per mitjà de la probabilitat"
+      "text": "Anàlisi de la incertesa associada a un fenomen aleatori per mitjà de la probabilitat",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Organització i anàlisi de dades",
-      "text": "Interpretació i anàlisi d’informació estadística en diversos contextos"
+      "text": "Interpretació i anàlisi d’informació estadística en diversos contextos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Organització i anàlisi de dades",
-      "text": "Organització de les dades procedents de variables bidimensionals mitjançant la distribució conjunta i les distribucions marginals i condicionades. Anàlisi de la dependència estadística"
+      "text": "Organització de les dades procedents de variables bidimensionals mitjançant la distribució conjunta i les distribucions marginals i condicionades. Anàlisi de la dependència estadística",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Organització i anàlisi de dades",
-      "text": "Ús i diferenciació entre la regressió lineal o la quadràtica per a l’estudi de la relació entre dues variables, valorant la pertinença dels diferents ajustaments"
+      "text": "Ús i diferenciació entre la regressió lineal o la quadràtica per a l’estudi de la relació entre dues variables, valorant la pertinença dels diferents ajustaments",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Organització i anàlisi de dades",
-      "text": "Ús del coeficient de correlació lineal per quantificar la relació lineal entre dues variables. Anàlisi de la seva fiabilitat per fer prediccions en diferents contextos, en particular els científics i tecnològics"
+      "text": "Ús del coeficient de correlació lineal per quantificar la relació lineal entre dues variables. Anàlisi de la seva fiabilitat per fer prediccions en diferents contextos, en particular els científics i tecnològics",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Organització i anàlisi de dades",
-      "text": "Ús de la calculadora, del full de càlcul o de programari específic en l’anàlisi de dades estadístiques"
+      "text": "Ús de la calculadora, del full de càlcul o de programari específic en l’anàlisi de dades estadístiques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Predictibilitat i incertesa",
-      "text": "Càlcul de probabilitats en experiments compostos per mitjà de l’ús del concepte de probabilitat condicionada i de la independència entre successos aleatoris. Ús dels diagrames d’arbre i de les taules de contingència com a eines de suport al càlcul de probabilitats. Contextualització del teorema de probabilitats totals"
+      "text": "Càlcul de probabilitats en experiments compostos per mitjà de l’ús del concepte de probabilitat condicionada i de la independència entre successos aleatoris. Ús dels diagrames d’arbre i de les taules de contingència com a eines de suport al càlcul de probabilitats. Contextualització del teorema de probabilitats totals",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Modelització de fenòmens estocàstics mitjançant les distribucions de probabilitat binomial i normal. Càlcul de probabilitats associades mitjançant eines tecnològiques"
+      "text": "Modelització de fenòmens estocàstics mitjançant les distribucions de probabilitat binomial i normal. Càlcul de probabilitats associades mitjançant eines tecnològiques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sentit estocàstic",
       "subapartat": "Inferència",
-      "text": "Disseny d’estudis estadístics relacionats amb diversos contextos utilitzant eines digitals. Anàlisi i valoració de la representativitat de la mostra utilitzada en un estudi estadístic"
+      "text": "Disseny d’estudis estadístics relacionats amb diversos contextos utilitzant eines digitals. Anàlisi i valoració de la representativitat de la mostra utilitzada en un estudi estadístic",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Creences, actituds i emocions",
-      "text": "Habilitats d’autoregulació encaminades a descobrir els propis espais de millora i de recorregut personal"
+      "text": "Habilitats d’autoregulació encaminades a descobrir els propis espais de millora i de recorregut personal",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Creences, actituds i emocions",
-      "text": "Predisposició a endinsar-se en determinats aspectes de l’abstracció matemàtica com a únic camí per millorar-ne l’aplicabilitat"
+      "text": "Predisposició a endinsar-se en determinats aspectes de l’abstracció matemàtica com a únic camí per millorar-ne l’aplicabilitat",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Creences, actituds i emocions",
-      "text": "Perseverança en la consecució d’una fita explorant i redefinint, si cal, les estratègies necessàries en el creixement personal"
+      "text": "Perseverança en la consecució d’una fita explorant i redefinint, si cal, les estratègies necessàries en el creixement personal",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Creences, actituds i emocions",
-      "text": "Capacitat creativa fent propostes matemàtiques innovadores relacionades amb aspectes artístics, culturals, socials i tecnològics en els quals el gaudi de fer matemàtiques sigui present"
+      "text": "Capacitat creativa fent propostes matemàtiques innovadores relacionades amb aspectes artístics, culturals, socials i tecnològics en els quals el gaudi de fer matemàtiques sigui present",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Creences, actituds i emocions",
-      "text": "Habilitat d’identificar les confusions conceptuals pròpies que determinen els errors que es fan en matemàtiques valorant-les com una important font d’aprenentatge"
+      "text": "Habilitat d’identificar les confusions conceptuals pròpies que determinen els errors que es fan en matemàtiques valorant-les com una important font d’aprenentatge",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Presa de decisions",
-      "text": "Capacitat de posar en pràctica estratègies concretes que ajudin a superar confusions conceptuals pròpies"
+      "text": "Capacitat de posar en pràctica estratègies concretes que ajudin a superar confusions conceptuals pròpies",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Presa de decisions",
-      "text": "Destreses per explorar i valorar diferents estratègies en el tractament matemàtic d’un problema o d’una situació"
+      "text": "Destreses per explorar i valorar diferents estratègies en el tractament matemàtic d’un problema o d’una situació",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Presa de decisions",
-      "text": "Destreses a l’hora de millorar les estratègies d’aprenentatge a partir dels suggeriments de millora que es fan en les avaluacions i coavaluacions"
+      "text": "Destreses a l’hora de millorar les estratègies d’aprenentatge a partir dels suggeriments de millora que es fan en les avaluacions i coavaluacions",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Presa de decisions",
-      "text": "Capacitat de prendre decisions personals a partir de l’anàlisi crítica d’una situació susceptible de ser tractada amb argumentació matemàtica"
+      "text": "Capacitat de prendre decisions personals a partir de l’anàlisi crítica d’una situació susceptible de ser tractada amb argumentació matemàtica",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Inclusió, respecte i diversitat",
-      "text": "Capacitat d’escoltar, respectar i provar estratègies matemàtiques proposades per una altra persona"
+      "text": "Capacitat d’escoltar, respectar i provar estratègies matemàtiques proposades per una altra persona",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Inclusió, respecte i diversitat",
-      "text": "Habilitat d’aportar idees i arguments que ajudin a l’aprenentatge dels companys"
+      "text": "Habilitat d’aportar idees i arguments que ajudin a l’aprenentatge dels companys",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Inclusió, respecte i diversitat",
-      "text": "Capacitat de consensuar opinions i estratègies diverses a l’hora de prendre una decisió col·lectiva en el desenvolupament d’una activitat matemàtica"
+      "text": "Capacitat de consensuar opinions i estratègies diverses a l’hora de prendre una decisió col·lectiva en el desenvolupament d’una activitat matemàtica",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Inclusió, respecte i diversitat",
-      "text": "Apreciació de l’èxit col·lectiu com un èxit individual"
+      "text": "Apreciació de l’èxit col·lectiu com un èxit individual",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sabers socioemocionals Sentit socioemocional",
       "subapartat": "Inclusió, respecte i diversitat",
-      "text": "Apreciació de la contribució de les matemàtiques i del paper de matemàtics i matemàtiques al llarg de la història en múltiples aspectes que ens envolten, tant de l’àmbit artístic, com cultural, social, científic i tecnològic"
+      "text": "Apreciació de la contribució de les matemàtiques i del paper de matemàtics i matemàtiques al llarg de la història en múltiples aspectes que ens envolten, tant de l’àmbit artístic, com cultural, social, científic i tecnològic",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

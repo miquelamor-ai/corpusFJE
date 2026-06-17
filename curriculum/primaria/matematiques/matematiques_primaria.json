@@ -9,43 +9,50 @@
     "font": "PDF oficial XTEC: Matematiques.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
-    "descripcio": "Les Matemàtiques a Primària construeixen el pensament lògic, quantitatiu i espacial de l'alumnat, proporcionant eines per comprendre el món, resoldre problemes quotidians i comunicar idees amb precisió. La matèria és eix transversal de totes les àrees del currículum: el Coneixement del Medi (mesura, estadística, representació), la Llengua (comunicació matemàtica oral i escrita) i la Tecnologia (pensament computacional). Estableix les bases per a les Matemàtiques de l'ESO i per a tot l'itinerari acadèmic posterior que requereixi raonament formal i tractament de dades.\n\nEls grans constructes disciplinaris inclouen el sentit numèric (comptatge, quantitat, operacions, educació financera bàsica), el sentit de la mesura (magnituds, unitats convencionals i no convencionals, estimació), el sentit espacial (geometria plana i tridimensional, localització, moviments i transformacions, visualització), el sentit algebraic (patrons, model matemàtic, relacions, funcions, pensament computacional) i el sentit estocàstic (recollida de dades, representació gràfica, probabilitat elemental). La resolució de problemes i el raonament matemàtic travessen tots els blocs, juntament amb el sentit socioemocional: gestió de les emocions davant reptes matemàtics i treball cooperatiu.\n\nL'enfocament pedagògic prioritza la comprensió sobre el càlcul mecànic i el context real sobre l'exercici abstracte. La manipulació, la representació gràfica i l'ús de recursos digitals (calculadora, aplicacions matemàtiques) acompanyen el camí cap a la formalització. Les tasques obertes i els problemes rics, resolts individualment i en equip, afavoreixen la comunicació matemàtica oral i la construcció col·lectiva de coneixement. L'avaluació valora el procés de resolució i la justificació del raonament, l'ús flexible d'estratègies i la capacitat de transferir aprenentatges a situacions noves, no exclusivament el resultat final correcte."
+    "descripcio": "Les Matemàtiques a Primària construeixen el pensament lògic, quantitatiu i espacial de l'alumnat, proporcionant eines per comprendre el món, resoldre problemes quotidians i comunicar idees amb precisió. La matèria és eix transversal de totes les àrees del currículum: el Coneixement del Medi (mesura, estadística, representació), la Llengua (comunicació matemàtica oral i escrita) i la Tecnologia (pensament computacional). Estableix les bases per a les Matemàtiques de l'ESO i per a tot l'itinerari acadèmic posterior que requereixi raonament formal i tractament de dades.\n\nEls grans constructes disciplinaris inclouen el sentit numèric (comptatge, quantitat, operacions, educació financera bàsica), el sentit de la mesura (magnituds, unitats convencionals i no convencionals, estimació), el sentit espacial (geometria plana i tridimensional, localització, moviments i transformacions, visualització), el sentit algebraic (patrons, model matemàtic, relacions, funcions, pensament computacional) i el sentit estocàstic (recollida de dades, representació gràfica, probabilitat elemental). La resolució de problemes i el raonament matemàtic travessen tots els blocs, juntament amb el sentit socioemocional: gestió de les emocions davant reptes matemàtics i treball cooperatiu.\n\nL'enfocament pedagògic prioritza la comprensió sobre el càlcul mecànic i el context real sobre l'exercici abstracte. La manipulació, la representació gràfica i l'ús de recursos digitals (calculadora, aplicacions matemàtiques) acompanyen el camí cap a la formalització. Les tasques obertes i els problemes rics, resolts individualment i en equip, afavoreixen la comunicació matemàtica oral i la construcció col·lectiva de coneixement. L'avaluació valora el procés de resolució i la justificació del raonament, l'ús flexible d'estratègies i la capacitat de transferir aprenentatges a situacions noves, no exclusivament el resultat final correcte.",
+    "origen_dato": "re-extret-coordenades"
   },
   "competencies_especifiques": [
     {
       "codi": "CE1",
       "text": "Traduir problemes i interpretar situacions quotidianes fent-ne una representació matemàtica personal a través de conceptes, eines i estratègies per analitzar-ne els elements més rellevants.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Iniciar-se en la interpretació de la informació d’un problema i d’una situació de la vida quotidiana responent a les preguntes plantejades o fent noves preguntes."
+            "text": "Iniciar-se en la interpretació de la informació d’un problema i d’una situació de la vida quotidiana responent a les preguntes plantejades o fent noves preguntes.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Proposar representacions matemàtiques, amb recursos manipulatius, gràfics i digitals, orientades a la resolució de problemes i de situacions de la vida quotidiana."
+            "text": "Proposar representacions matemàtiques, amb recursos manipulatius, gràfics i digitals, orientades a la resolució de problemes i de situacions de la vida quotidiana.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA1.1",
-            "text": "Interpretar la informació d’un problema i d’una situació de la vida quotidiana responent a les preguntes plantejades o fent noves preguntes."
+            "text": "Interpretar la informació d’un problema i d’una situació de la vida quotidiana responent a les preguntes plantejades o fent noves preguntes.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA1.2",
-            "text": "Proposar representacions matemàtiques, amb recursos manipulatius, gràfics i digitals, que ajudin en la resolució de problemes i de situacions de la vida quotidiana."
+            "text": "Proposar representacions matemàtiques, amb recursos manipulatius, gràfics i digitals, que ajudin en la resolució de problemes i de situacions de la vida quotidiana.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA1.1",
-            "text": "Interpretar i reformular de forma verbal i gràfica, problemes i situacions de la vida quotidiana, responent a les preguntes plantejades o fent noves preguntes."
+            "text": "Interpretar i reformular de forma verbal i gràfica, problemes i situacions de la vida quotidiana, responent a les preguntes plantejades o fent noves preguntes.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA1.2",
-            "text": "Elaborar representacions matemàtiques eficaces, amb recursos manipulatius, gràfics i digitals, que portin a la resolució de problemes i de situacions de la vida quotidiana."
+            "text": "Elaborar representacions matemàtiques eficaces, amb recursos manipulatius, gràfics i digitals, que portin a la resolució de problemes i de situacions de la vida quotidiana.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -54,46 +61,55 @@
       "codi": "CE2",
       "text": "Resoldre problemes, aplicant diferents tècniques, estratègies i formes de raonament, per explorar i compartir diferents maneres de procedir, obtenir solucions i assegurar la seva validesa des d’un punt de vista formal i en relació amb el context plantejat i generar noves preguntes i reptes.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Emprar estratègies i formes pròpies de raonar per resoldre un problema i explicar el procés."
+            "text": "Emprar estratègies i formes pròpies de raonar per resoldre un problema i explicar el procés.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Explorar, compartir i resoldre un mateix problema a partir de diferents propostes, parlant-ne sense biaix de gènere."
+            "text": "Explorar, compartir i resoldre un mateix problema a partir de diferents propostes, parlant-ne sense biaix de gènere.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.3",
-            "text": "Comprovar que les solucions obtingudes es corresponen amb la pregunta formulada relacionant les solucions amb la pregunta."
+            "text": "Comprovar que les solucions obtingudes es corresponen amb la pregunta formulada relacionant les solucions amb la pregunta.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA2.1",
-            "text": "Emprar estratègies i formes de raonament diverses per resoldre un problema i explicar-ne el procés."
+            "text": "Emprar estratègies i formes de raonament diverses per resoldre un problema i explicar-ne el procés.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.2",
-            "text": "Explorar, compartir i resoldre un mateix problema a partir de diferents propostes, parlant-ne sense biaix de gènere."
+            "text": "Explorar, compartir i resoldre un mateix problema a partir de diferents propostes, parlant-ne sense biaix de gènere.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA2.3",
-            "text": "Demostrar la correcció matemàtica de les solucions d’un problema i la seva coherència en el context plantejat."
+            "text": "Demostrar la correcció matemàtica de les solucions d’un problema i la seva coherència en el context plantejat.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA2.1",
-            "text": "Seleccionar entre diferents estratègies per resoldre un problema i compartint i justificant l’estratègia seleccionada."
+            "text": "Seleccionar entre diferents estratègies per resoldre un problema i compartint i justificant l’estratègia seleccionada.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.2",
-            "text": "Compartir i obtenir possibles solucions d’un problema seleccionant d’entre diverses opcions compartides i justificant l’escollida sense biaix de gènere."
+            "text": "Compartir i obtenir possibles solucions d’un problema seleccionant d’entre diverses opcions compartides i justificant l’escollida sense biaix de gènere.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA2.3",
-            "text": "Argumentar la correcció matemàtica de les solucions d’un problema i la seva coherència en el context plantejat generant, si escau, noves preguntes i reptes."
+            "text": "Argumentar la correcció matemàtica de les solucions d’un problema i la seva coherència en el context plantejat generant, si escau, noves preguntes i reptes.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -102,46 +118,55 @@
       "codi": "CE3",
       "text": "Explorar, formular i comprovar conjectures senzilles, reconeixent el valor del raonament espacial, raonament lògic i incorporar-hi l’argumentació per integrar i generar nou coneixement matemàtic.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Iniciar-se en la realització de conjectures matemàtiques investigant patrons i propietats, fent deduccions i comprovant- les."
+            "text": "Iniciar-se en la realització de conjectures matemàtiques investigant patrons i propietats, fent deduccions i comprovant- les.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Proposar exemples de problemes i situacions i explicant com es poden resoldre matemàticament."
+            "text": "Proposar exemples de problemes i situacions i explicant com es poden resoldre matemàticament.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l’espai."
+            "text": "Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l’espai.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA3.1",
-            "text": "Formular conjectures matemàtiques senzilles i investigant patrons, propietats i relacions, així com fent deduccions i comprovant-les."
+            "text": "Formular conjectures matemàtiques senzilles i investigant patrons, propietats i relacions, així com fent deduccions i comprovant-les.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.2",
-            "text": "Proposar exemples de problemes i situacions, explicant com es poden resoldre raonant i argumentant en les situacions en què calgui aplicar-ho."
+            "text": "Proposar exemples de problemes i situacions, explicant com es poden resoldre raonant i argumentant en les situacions en què calgui aplicar-ho.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA3.3",
-            "text": "Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l’espai."
+            "text": "Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l’espai.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA3.1",
-            "text": "Analitzar conjectures matemàtiques senzilles investigant patrons, propietats i relacions, així com fent deduccions i comprovant-les."
+            "text": "Analitzar conjectures matemàtiques senzilles investigant patrons, propietats i relacions, així com fent deduccions i comprovant-les.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.2",
-            "text": "Crear exemples de problemes i situacions justificant que es poden resoldre oferint els propis raonaments i arguments."
+            "text": "Crear exemples de problemes i situacions justificant que es poden resoldre oferint els propis raonaments i arguments.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA3.3",
-            "text": "Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l’espai."
+            "text": "Incorporar la utilització de la visualització i del raonament geomètric com a forma de raonament per entendre i gestionar la informació referida a l’espai.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -150,58 +175,70 @@
       "codi": "CE4",
       "text": "Utilitzar el pensament computacional, descompondre en parts més petites, reconeixent patrons i dissenyant algorismes per solucionar problemes i situacions de la vida quotidiana.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Descriure rutines i activitats senzilles que es realitzin pas a pas, en situacions de l’aula i de la vida quotidiana."
+            "text": "Descriure rutines i activitats senzilles que es realitzin pas a pas, en situacions de l’aula i de la vida quotidiana.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.2",
-            "text": "Descompondre un problema o situació de la vida quotidiana en tasques concretes, abordant-les d’una en una per poder trobar la solució global."
+            "text": "Descompondre un problema o situació de la vida quotidiana en tasques concretes, abordant-les d’una en una per poder trobar la solució global.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.3",
-            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar."
+            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.4",
-            "text": "Explicar instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb dispositius digitals i sense."
+            "text": "Explicar instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb dispositius digitals i sense.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA4.1",
-            "text": "Descriure rutines i activitats senzilles que es realitzin pas a pas, en situacions de l’aula i de la vida quotidiana."
+            "text": "Descriure rutines i activitats senzilles que es realitzin pas a pas, en situacions de l’aula i de la vida quotidiana.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA4.2",
-            "text": "Descompondre un problema o situació de la vida quotidiana en tasques concretes, abordant-les d’una en una per poder trobar la solució global."
+            "text": "Descompondre un problema o situació de la vida quotidiana en tasques concretes, abordant-les d’una en una per poder trobar la solució global.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA4.3",
-            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar."
+            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA4.4",
-            "text": "Definir instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb dispositius digitals i sense."
+            "text": "Definir instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb dispositius digitals i sense.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA4.1",
-            "text": "Descompondre un problema o situació de la vida quotidiana en tasques, abordant-les d’una en una per poder trobar la solució global, entre d’altres, amb dispositius digitals."
+            "text": "Descompondre un problema o situació de la vida quotidiana en tasques, abordant-les d’una en una per poder trobar la solució global, entre d’altres, amb dispositius digitals.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA4.2",
-            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar."
+            "text": "Reconèixer patrons, similituds i tendències en els problemes o situacions que es volen solucionar.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA4.3",
-            "text": "Trobar els principis que generen els patrons d’un problema, descartant les dades irrellevants tot identificant les parts més importants."
+            "text": "Trobar els principis que generen els patrons d’un problema, descartant les dades irrellevants tot identificant les parts més importants.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA4.4",
-            "text": "Definir instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb dispositius digitals."
+            "text": "Definir instruccions pas a pas per resoldre un problema i d’altres de similars provant i duent a terme possibles solucions amb dispositius digitals.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -210,34 +247,40 @@
       "codi": "CE5",
       "text": "Utilitzar connexions entre diferents idees matemàtiques, així com identificar les matemàtiques implicades en altres àrees o amb la vida quotidiana, interrelacionant conceptes i procediments per interpretar situacions i contextos diversos.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA5.1",
-            "text": "Reconèixer connexions entre els diferents elements matemàtics relacionant i ampliar coneixements en un context matemàtic."
+            "text": "Reconèixer connexions entre els diferents elements matemàtics relacionant i ampliar coneixements en un context matemàtic.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer les matemàtiques presents en la vida quotidiana i en altres àrees en situacions en què se’n pugui fer ús."
+            "text": "Reconèixer les matemàtiques presents en la vida quotidiana i en altres àrees en situacions en què se’n pugui fer ús.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA5.1",
-            "text": "Realitzar connexions entre els diferents elements matemàtics valorant-ne la utilitat per raonar i fixar coneixements en un context matemàtic."
+            "text": "Realitzar connexions entre els diferents elements matemàtics valorant-ne la utilitat per raonar i fixar coneixements en un context matemàtic.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA5.2",
-            "text": "Interpretar situacions en contextos diversos reconeixent les connexions entre les matemàtiques i la vida quotidiana en situacions en què se’n pugui fer ús (se’n faci ús)."
+            "text": "Interpretar situacions en contextos diversos reconeixent les connexions entre les matemàtiques i la vida quotidiana en situacions en què se’n pugui fer ús (se’n faci ús).",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA5.1",
-            "text": "Connectar diferents elements de les matemàtiques valorant-ne la utilitat per relacionar i ampliar coneixements en un context matemàtic."
+            "text": "Connectar diferents elements de les matemàtiques valorant-ne la utilitat per relacionar i ampliar coneixements en un context matemàtic.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA5.2",
-            "text": "Utilitzar les connexions entre les matemàtiques i altres àrees i també entre les matemàtiques i situacions de contextos no matemàtics en què se’n pugui fer ús, desenvolupant la capacitat crítica, creativa i innovadora."
+            "text": "Utilitzar les connexions entre les matemàtiques i altres àrees i també entre les matemàtiques i situacions de contextos no matemàtics en què se’n pugui fer ús, desenvolupant la capacitat crítica, creativa i innovadora.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -246,38 +289,45 @@
       "codi": "CE6",
       "text": "Comunicar i representar, de forma individual i col·lectiva, conceptes, procediments i resultats matemàtics utilitzant el llenguatge oral, escrit, gràfic, multimodal, en diferents formats i amb la terminologia matemàtica adequada, per donar significat i permanència a les idees matemàtiques.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA6.1",
-            "text": "Seleccionar el llenguatge matemàtic bàsic present en la vida quotidiana donant-li significat."
+            "text": "Seleccionar el llenguatge matemàtic bàsic present en la vida quotidiana donant-li significat.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA6.2",
-            "text": "Explicar idees i processos matemàtics utilitzats en la resolució d’un problema o justificant la solució obtinguda de forma verbal, amb l’ajuda del gest o de la representació gràfica."
+            "text": "Explicar idees i processos matemàtics utilitzats en la resolució d’un problema o justificant la solució obtinguda de forma verbal, amb l’ajuda del gest o de la representació gràfica.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA6.1",
-            "text": "Reconèixer i usar llenguatge matemàtic present en el seu entorn donant-li significat."
+            "text": "Reconèixer i usar llenguatge matemàtic present en el seu entorn donant-li significat.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA6.2",
-            "text": "Explicar idees i processos matemàtics utilitzats en la resolució d’un problema o justificant la solució obtinguda de forma verbal, amb l’ajuda del gest, la representació gràfica i també la representació digital."
+            "text": "Explicar idees i processos matemàtics utilitzats en la resolució d’un problema o justificant la solució obtinguda de forma verbal, amb l’ajuda del gest, la representació gràfica i també la representació digital.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA6.1",
-            "text": "Interpretar i usar llenguatge matemàtic adequat donant-li significat."
+            "text": "Interpretar i usar llenguatge matemàtic adequat donant-li significat.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.2",
-            "text": "Representar conceptes, procediments i resultats matemàtics utilitzant diferents eines i formes de representació, inclosa la digital, per visualitzar idees i estructurar processos matemàtics."
+            "text": "Representar conceptes, procediments i resultats matemàtics utilitzant diferents eines i formes de representació, inclosa la digital, per visualitzar idees i estructurar processos matemàtics.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA6.3",
-            "text": "Explicar idees i processos matemàtics utilitzats en la resolució d’un problema o argumentant la solució obtinguda de forma verbal, amb l’ajuda del gest, la representació gràfica i també la representació digital."
+            "text": "Explicar idees i processos matemàtics utilitzats en la resolució d’un problema o argumentant la solució obtinguda de forma verbal, amb l’ajuda del gest, la representació gràfica i també la representació digital.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -286,34 +336,40 @@
       "codi": "CE7",
       "text": "Desenvolupar destreses personals que ajudin a identificar i gestionar emocions, aprenent de l’error i afrontant les situacions d’incertesa com una oportunitat, per perseverar i gaudir del procés d’aprendre matemàtiques.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA7.1",
-            "text": "Reconèixer les pròpies emocions en abordar nous reptes matemàtics, sent proactiu en la cerca de possibles solucions, demanant ajuda només després d’un primer intent."
+            "text": "Reconèixer les pròpies emocions en abordar nous reptes matemàtics, sent proactiu en la cerca de possibles solucions, demanant ajuda només després d’un primer intent.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA7.2",
-            "text": "Expressar actituds positives davant de nous reptes matemàtics, com ara la predisposició i la receptivitat, entenent l’error com una oportunitat d’aprenentatge."
+            "text": "Expressar actituds positives davant de nous reptes matemàtics, com ara la predisposició i la receptivitat, entenent l’error com una oportunitat d’aprenentatge.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA7.1",
-            "text": "Identificar les pròpies emocions en abordar nous reptes matemàtics, sent proactiu en la cerca de possibles solucions, demanant ajuda, si cal, formulant clarament la pregunta."
+            "text": "Identificar les pròpies emocions en abordar nous reptes matemàtics, sent proactiu en la cerca de possibles solucions, demanant ajuda, si cal, formulant clarament la pregunta.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA7.2",
-            "text": "Mostrar actituds positives davant de nous reptes matemàtics, com ara l’esforç i la flexibilitat, entenent l’error com una oportunitat d’aprenentatge."
+            "text": "Mostrar actituds positives davant de nous reptes matemàtics, com ara l’esforç i la flexibilitat, entenent l’error com una oportunitat d’aprenentatge.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA7.1",
-            "text": "Regular les pròpies emocions i desenvolupar l’autoconfiança per abordar nous reptes matemàtics, identificant les pròpies fortaleses i superant les debilitats."
+            "text": "Regular les pròpies emocions i desenvolupar l’autoconfiança per abordar nous reptes matemàtics, identificant les pròpies fortaleses i superant les debilitats.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA7.2",
-            "text": "Mantenir actituds positives davant de nous reptes matemàtics, com ara la perseverança i la flexibilitat, entenent l’error com una oportunitat d’aprenentatge."
+            "text": "Mantenir actituds positives davant de nous reptes matemàtics, com ara la perseverança i la flexibilitat, entenent l’error com una oportunitat d’aprenentatge.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -322,30 +378,35 @@
       "codi": "CE8",
       "text": "Desenvolupar destreses socials participant activament en els equips de treball i reconeixent la diversitat i el valor de les aportacions dels altres, per compartir i construir coneixement matemàtic de manera col·lectiva.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA8.1",
-            "text": "Participar en el treball en equip, tant en entorn presencial com virtual, escoltant les altres persones reconeixent les seves aportacions, en situacions en què es comparteixi i construeixi coneixement matemàtic de manera conjunta."
+            "text": "Participar en el treball en equip, tant en entorn presencial com virtual, escoltant les altres persones reconeixent les seves aportacions, en situacions en què es comparteixi i construeixi coneixement matemàtic de manera conjunta.",
+            "clau_origen": "CI"
           }
         ],
-        "CM": [
+        "PRI_C2": [
           {
             "codi": "CA8.1",
-            "text": "Col·laborar en el treball en equip, tant en entorn presencial com virtual, assumint-ne responsabilitats per construir coneixement matemàtic."
+            "text": "Col·laborar en el treball en equip, tant en entorn presencial com virtual, assumint-ne responsabilitats per construir coneixement matemàtic.",
+            "clau_origen": "CM"
           },
           {
             "codi": "CA8.2",
-            "text": "Implicar-se amb el grup, amb empatia i respecte, compartint les pròpies opinions, maneres de fer, estratègies i pensaments tot escoltant i reconeixent les aportacions de les altres persones per enriquir l’aprenentatge propi i col·lectiu."
+            "text": "Implicar-se amb el grup, amb empatia i respecte, compartint les pròpies opinions, maneres de fer, estratègies i pensaments tot escoltant i reconeixent les aportacions de les altres persones per enriquir l’aprenentatge propi i col·lectiu.",
+            "clau_origen": "CM"
           }
         ],
-        "CS": [
+        "PRI_C3": [
           {
             "codi": "CA8.1",
-            "text": "Col·laborar i aportar estratègies i raonaments matemàtics en el treball en equip, tant en entorn presencial com virtual, construint coneixement matemàtic de manera conjunta."
+            "text": "Col·laborar i aportar estratègies i raonaments matemàtics en el treball en equip, tant en entorn presencial com virtual, construint coneixement matemàtic de manera conjunta.",
+            "clau_origen": "CS"
           },
           {
             "codi": "CA8.2",
-            "text": "Equilibrar les necessitats personals amb les del grup, des de l’empatia i el respecte, reconeixent la diversitat i el valor de les aportacions de les altres persones per generar nou aprenentatge matemàtic, tant individual com col·lectiu."
+            "text": "Equilibrar les necessitats personals amb les del grup, des de l’empatia i el respecte, reconeixent la diversitat i el valor de les aportacions de les altres persones per generar nou aprenentatge matemàtic, tant individual com col·lectiu.",
+            "clau_origen": "CS"
           }
         ]
       }
@@ -358,749 +419,1314 @@
     }
   ],
   "_validacio": {
-    "fragments_ok": 411,
-    "fragments_no_trobats": 0,
-    "pct_verificat": 100.0,
-    "errors_mostra": []
+    "validacio_pendent": false,
+    "metode": "re-extracció per coordenades/layout (negreta=bloc, guió=saber, normal=wrap); cicle per secció",
+    "total_sabers": 162
   },
   "sabers_items": [
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús d’estratègies variades del comptatge, recompte sistemàtic i adaptació del comptatge a la mida dels nombres en situacions de la vida quotidiana amb quantitats de fins al 9.999. ● Quantitat"
+      "text": "Ús d’estratègies variades de comptatge i recompte sistemàtic en situacions de la vida quotidiana amb quantitats fins al 199 adquirint una base sòlida en la comprensió i maneig d’aquestes quantitats.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies i tècniques d’interpretació i manipulació de l’ordre de magnitud dels nombres (desenes, centenes i milers)"
+      "text": "Realització d’estimacions raonades de quantitats en contextos de resolució de problemes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Realització d’estimacions i aproximacions raonades de quantitats en contextos de resolució de problemes"
+      "text": "Domini de la lectura, representació (inclosa la recta numèrica), composició, descomposició de nombres naturals fins al 199.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Domini de la lectura, representació (inclosa la recta numèrica), composició, descomposició de nombres naturals fins al 9.999"
+      "text": "Exploració de la representació d’una mateixa quantitat de diferents maneres (manipulativa, gràfica o numèrica) i estratègies d’elecció de la representació adequada per a cada situació problematitzada fent especial esment al nombre 10.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Familiarització amb les fraccions pròpies amb denominador fins al nombre 10 aprofitant els contextos de la vida quotidiana en què s’ha de descriure una situació. ● Sentit de les operacions"
+      "text": "Familiarització d’estratègies de càlcul mental amb nombres naturals fins al 199, posant especial atenció al rang 1-20 en situacions en què es treballi la descomposició de dígits, especialment el 10, dobles i quasi dobles.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Posada en pràctica d’estratègies de càlcul mental amb nombres naturals"
+      "text": "Pràctica de la suma i la resta de nombres naturals amb flexibilitat i sentit en situacions contextualitzades, usant estratègies i eines de resolució i propietats.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement d’estratègies de càlcul mental amb fraccions senzilles (½, ⅓ o ¾), com a part d’una col·lecció"
+      "text": "Aplicació de les relacions que es generen en les operacions fent ús del sistema de numeració de base deu fins al 199.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús estratègic de les operacions (suma, resta, multiplicació, divisió) per resoldre situacions contextualitzades"
+      "text": "Comparació i ordenació dels nombres naturals en contextos de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Construcció de les taules de multiplicar amb el suport de la idea del nombre de vegades, suma repetida o disposició en quadrícules i combinacions diverses"
+      "text": "Identificació de les relacions entre la suma i la resta descobrint la seva aplicació en contextos quotidians.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Automatització dels resultats més freqüents i estratègies per trobar la resta"
+      "text": "Reconeixement del sistema monetari europeu: monedes i bitllets d’euro (1, 2, 5, 10, 20 i 50), valor i equivalència.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Maneig de la suma, resta, multiplicació i divisió de nombres naturals resoltes amb flexibilitat i sentit, mentalment, de manera escrita o amb calculadora en situacions contextualitzades, usant estratègies i eines de resolució i propietats"
+      "text": "Apreciació dels atributs mesurables dels objectes (longitud, massa, capacitat), distàncies i temps.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies per fer càlculs aproximats de sumes, restes, multiplicacions i divisions amb nombres naturals. ● Relacions"
+      "text": "Introducció de les unitats convencionals (metre, quilo i litre) i no convencionals en situacions en què es facin mesuraments en el context escolar o de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de les relacions que es generen en les operacions fent ús del sistema de numeració de base deu fins al 9.999"
+      "text": "Reconeixement de les unitats de mesura del temps (any, mes, setmana, dia i hora) en situacions de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comparació i ordenació dels nombres naturals en contextos de la vida quotidiana copsant el patró que segueix el sistema de numeració decimal"
+      "text": "Aplicació de processos de mesura a través d’una repetició d’una unitat i a través de la utilització d’instruments no convencionals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús de les relacions entre les operacions per ajudar a comprendre-les i per agilitzar el càlcul, mental o escrit. ● Educació financera"
+      "text": "Experimentació de processos de mesura amb instruments convencionals (regles, cintes mètriques, balances, calendaris...) en contextos quotidians.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit numèric ● Comptatge",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació del càlcul i l’estimació de quantitats i canvi (euros i cèntims d’euro) en la vida quotidiana (ingressos, despeses i estalvi), promovent decisions per a una gestió responsable dels diners"
+      "text": "Selecció d’estratègies de comparació directa i ordenació de mesures de la mateixa magnitud segons la demanda del problema.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització dels atributs mesurables dels objectes (longitud, massa, capacitat, superfície, volum i amplitud de l’angle)"
+      "text": "Estimació de mesures (distàncies, mides, masses, capacitats...) cercant formes de comparar-les amb altres mesures.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Maneig de les unitats convencionals (km, m, cm, mm; kg, g; l i ml) i no convencionals en situacions de la vida quotidiana"
+      "text": "Identificació i classificació de formes geomètriques de dues dimensions en objectes de la vida quotidiana tenint en compte els seus elements.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de la mesura del temps (any, mes, setmana, dia, hora i minuts) i referències de la durada de períodes de temps. ● Mesura"
+      "text": "Introducció d’estratègies i tècniques de construcció de composició i descomposició de formes geomètriques senzilles d’una, dues o tres dimensions de forma manipulativa.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Pràctica d’estratègies per fer mesuraments amb instruments i unitats no convencionals (repetició d’una unitat, ús de quadrícules...) i convencionals"
+      "text": "Introducció del vocabulari geomètric bàsic en la descripció verbal dels elements i les propietats de formes geomètriques senzilles.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Realització de mesuraments mitjançant instruments convencionals (regla, cinta mètrica, balança, rellotge analògic i digital). ● Estimació i relacions"
+      "text": "Reconeixement de les propietats de formes geomètriques de dues i tres dimensions explorant amb materials manipulables (mecanos, tangram, jocs de figures…) i també amb eines digitals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús d’estratègies de comparació i ordenació de mesures de la mateixa magnitud (km, m, cm, mm; kg, g; l i ml) i aplicació d’equivalències entre unitats en problemes de la vida quotidiana que impliquin convertir unitats"
+      "text": "Descripció de la posició relativa d’objectes en l’espai amb relació a un mateix amb el vocabulari adequat (a dalt, a baix, davant, darrere, entremig, a prop, lluny…) i també de dos objectes entre si (junts, separats, un sobre l’altre, etc.) en situacions d’interpretació de moviments.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Estimació per comparació de mesures de longitud, massa i capacitat"
+      "text": "Representació i elaboració d’itineraris senzills amb referents de l’entorn proper.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Avaluació de resultats de mesuraments i estimacions o càlculs de mesures"
+      "text": "Construcció de figures a partir de moviments, girs, fent simetries, superposant figures per comprovar semblances, diferències, encaixos, fer noves agrupacions…",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i classificació de formes geomètriques de dues o tres dimensions en objectes de la vida quotidiana atenent als seus elements i a les relacions entre ells"
+      "text": "Utilització de models geomètrics en la resolució de problemes relacionats amb els altres sentits.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització d’estratègies i tècniques de construcció de formes geomètriques de dues dimensions per composició i descomposició, a través de materials manipulables, instruments de dibuix (regle i cartabó) i aplicacions informàtiques"
+      "text": "Reconeixement de l’entorn a través de les relacions geomètriques.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús del vocabulari geomètric en la descripció verbal dels elements i les propietats de formes geomètriques"
+      "text": "Reconeixement i representació d’una figura en tres dimensions a partir d’una fotografia o fent una predicció de la part oculta d’un cos.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Experimentació amb les propietats de les formes geomètriques de dues i tres dimensions amb materials manipulables (quadrícules, geoplans, policubs...) i també amb eines digitals (programes de geometria dinàmica, realitat augmentada, robòtica educativa...). ● Localització i sistemes de representació"
+      "text": "Representació d’un espai conegut de manera que es pugui identificar.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Descripció de la posició relativa d’objectes en l’espai o representacions d’aquests utilitzant vocabulari geomètric adequat (paral·lel, perpendicular, oblic, dreta, esquerra, etc.)"
+      "text": "Reconeixement d’objectes des de diverses perspectives.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Descripció i interpretació de moviments, amb relació a un mateix o a altres punts de referència utilitzant vocabulari geomètric adequat"
+      "text": "Composició i descomposició de figures manipulant-les.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Interpretació d’itineraris en plànols fent servir suports físics i virtuals. ● Moviments i transformacions"
+      "text": "Agrupació d’elements a partir de semblances i diferències d’objectes, en aspectes diversos, i ordenació seguint criteris qualitatius i quantitatius.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de figures transformades mitjançant translacions, girs ampliacions/reduccions i simetries en elements de l’entorn que ens envolta"
+      "text": "Exploració d’estratègies per identificar, descriure, completar i estendre seqüències a partir de regularitats en una col·lecció de nombres, figures o imatges.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Generació de figures transformades a partir de simetries i translacions d’un patró inicial i predicció del resultat. ● Raonament, modelització i visualització geomètrica"
+      "text": "Descoberta d’estratègies de modelització de situacions de la vida quotidiana mitjançant dibuixos, esquemes, diagrames, objectes manipulables, dramatitzacions…",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de models geomètrics en la resolució de problemes semblants"
+      "text": "Comprensió de l’expressió de relacions d’igualtat i desigualtat amb els signes = i ≠, < i > entre expressions que incloguin operacions.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies en el càlcul de perímetres de figures planes utilitzant-les en la resolució de problemes de la vida quotidiana"
+      "text": "Comprensió i representació de la igualtat com a expressió d’una relació d’equivalència entre dos elements i obtenció de dades senzilles desconegudes (representades a través d’un símbol) en qualsevol dels dos elements.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement de relacions geomètriques en l’art, les ciències i la vida quotidiana"
+      "text": "Identificació dels canvis que es produeixen com a resultat d’una acció.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús de punts de referència per indicar una posició o bé un desplaçament fet en un context conegut"
+      "text": "algorismes senzills que incorporen processos seqüencials i instruccions de bucle i condicionals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús de les visualitzacions dels moviments d’un cos per identificar una figura i raonant els resultats obtinguts"
+      "text": "Reconeixement i formulació de preguntes en situacions properes que es resolen recollint dades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació, descripció verbal, representació i predicció raonada de termes a partir de les regularitats en una col·lecció de nombres, figures o imatges"
+      "text": "Organització i estratègies per a la recollida de dades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Exploració i adquisició d’estratègies per identificar, descriure, completar i estendre seqüències a partir de regularitats en una col·lecció de nombres, figures o imatges. ● Model matemàtic"
+      "text": "Representació gràfica i interpretació de les dades recollides (tenint en compte la classificació de les dades, la durada de la recollida i el context).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Modelització de situacions de la vida quotidiana de forma pautada usant representacions matemàtiques (gràfiques, taules...). ● Relacions i funcions"
+      "text": "Introducció a la lectura i interpretació de la freqüència absoluta.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de relacions d’igualtat i desigualtat i ús dels signes = i ≠ entre expressions que incloguin operacions i les seves propietats"
+      "text": "Identificació dels elements que intervenen en els gràfics estadístics de fets o situacions de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Expressió de la igualtat com a equivalència entre dos elements i obtenció de dades senzilles desconegudes (representades a través d’un símbol) en qualsevol dels dos elements"
+      "text": "Reconeixement en situacions concretes de si un esdeveniment és impossible, possible o segur, i fins a quin punt és més o menys possible.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Representació de la relació major que i menor que, i ús dels signes < i >"
+      "text": "Identificació i expressió de les pròpies emocions en situacions d’aprenentatge de les matemàtiques amb curiositat i iniciativa envers aquests aprenentatges.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació del canvi com a resultat d’una acció i de l’acció que pot revertir-la. ● Pensament computacional"
+      "text": "Adquisició d’autonomia i estratègies per a la presa de decisions en situacions de resolució de problemes, tant per donar resposta a la situació plantejada com per fer- se altres preguntes i continuar aprenent.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comprensió i aplicació d’estratègies quan s’interpreten, modifiquen o creen algorismes senzills de programació per blocs que incorporen: diferenciació entre processos seqüencials i paral·lels; comprensió de les instruccions de bucle i condicionals; comprensió de la gestió de dades amb variables; ús d’operadors lògics i d’esdeveniments"
+      "text": "Identificació de la contribució de les matemàtiques (numeració, geometria, estadística…) als diversos àmbits de coneixement humà des d’una perspectiva de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement i formulació de preguntes en situacions properes que es resolen recollint dades"
+      "text": "Participació activa en el treball en equip en matemàtiques valorant i incorporant les idees de tots i totes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CI",
+      "nivell_norm": "PRI_C1",
+      "bloc": null,
       "subapartat": null,
-      "text": "Organització i estratègies per a la recollida de dades"
+      "text": "Identificació i rebuig d’actituds discriminatòries mostrant sensibilitat i respecte envers les diferències individuals, també les referents a la diversitat de gènere, presents a l’aula.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Presa de decisions a partir de les dades. ● Distribució: criteris per organitzar les dades"
+      "text": "Ús d’estratègies variades del comptatge, recompte sistemàtic i adaptació del comptatge a la mida dels nombres en situacions de la vida quotidiana amb quantitats de fins al 9.999.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Representació gràfica i interpretació de les dades recollides (tenint en compte la classificació de les dades, la durada de la recollida i el context)"
+      "text": "Aplicació d’estratègies i tècniques d’interpretació i manipulació de l’ordre de magnitud dels nombres (desenes, centenes i milers).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Iniciació en la representació de dades amb eines digitals, entre d’altres"
+      "text": "Realització d’estimacions i aproximacions raonades de quantitats en contextos de resolució de problemes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Interpretació de la freqüència absoluta i la moda de la situació a analitzar"
+      "text": "Domini de la lectura, representació (inclosa la recta numèrica), composició, descomposició de nombres naturals fins al 9.999.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de la lectura i de la interpretació de gràfics estadístics de la vida quotidiana (pictogrames, gràfics de barres, histogrames...). ● Predictibilitat i incertesa: atzar i probabilitat"
+      "text": "Familiarització amb les fraccions pròpies amb denominador fins al nombre 10 aprofitant els contextos de la vida quotidiana en què s’ha de descriure una situació.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Discriminació de situacions susceptibles de ser predites per poder saber si un fenomen és impossible, possible o segur"
+      "text": "Posada en pràctica d’estratègies de càlcul mental amb nombres naturals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comparació de la probabilitat de dos successos de forma intuïtiva"
+      "text": "Reconeixement d’estratègies de càlcul mental amb fraccions senzilles (½, ⅓ o ¾), com a part d’una col·lecció.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de les pròpies emocions i de les dels altres en contextos d’aprenentatge de les matemàtiques, fomentant la iniciativa i tolerància en l’alumnat quan s’enfronten a aquestes situacions"
+      "text": "Ús estratègic de les operacions (suma, resta, multiplicació, divisió) per resoldre situacions contextualitzades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Foment de l’autonomia i estratègies per a la presa de decisions en situacions de resolució de problemes tant per donar resposta a la situació plantejada com per fer- se altres preguntes i continuar aprenent"
+      "text": "Construcció de les taules de multiplicar amb el suport de la idea del nombre de vegades, suma repetida o disposició en quadrícules i combinacions diverses.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració de la contribució de les matemàtiques (numeració, geometria, estadística...) als diferents àmbits del coneixement humà des d’una perspectiva de gènere. ● Treball en equip, inclusió, respecte i diversitat"
+      "text": "Automatització dels resultats més freqüents i estratègies per trobar la resta.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Descoberta i ús de les tècniques cooperatives en el treball en equip en matemàtiques, escolta activa i respecte pel treball dels altres"
+      "text": "Maneig de la suma, resta, multiplicació i divisió de nombres naturals resoltes amb flexibilitat i sentit, mentalment, de manera escrita o amb calculadora en situacions contextualitzades, usant estratègies i eines de resolució i propietats.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i rebuig d’actituds discriminatòries mostrant sensibilitat i respecte envers les diferències individuals, també les referents a la diversitat de gènere, presents a l’aula"
+      "text": "Aplicació d’estratègies per fer càlculs aproximats de sumes, restes, multiplicacions i divisions amb nombres naturals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús d’estratègies variades de comptatge, recompte sistemàtic (ús de taules de doble entrada i diagrames d’arbre) i adaptació del comptatge a la mida dels nombres en situacions de la vida quotidiana. ● Quantitat"
+      "text": "Aplicació de les relacions que es generen en les operacions fent ús del sistema de numeració de base deu fins al 9.999.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies i tècniques d’interpretació i manipulació de l’ordre de magnitud dels nombres"
+      "text": "Comparació i ordenació dels nombres naturals en contextos de la vida quotidiana copsant el patró que segueix el sistema de numeració decimal.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Realització d’estimacions i aproximacions raonades de quantitats en contextos de resolució de problemes"
+      "text": "Ús de les relacions entre les operacions per ajudar a comprendre-les i per agilitzar el càlcul, mental o escrit.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Domini de la lectura, interpretació i representació de nombres naturals i decimals (inclosa la recta numèrica) i reflexió sobre les característiques del sistema de numeració decimal"
+      "text": "vida quotidiana (ingressos, despeses i estalvi), promovent decisions per a una gestió responsable dels diners.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús amb seguretat de la composició i descomposició de nombres naturals i decimals fins a les mil·lèsimes"
+      "text": "Utilització dels atributs mesurables dels objectes (longitud, massa, capacitat, superfície, volum i amplitud de l’angle).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de fraccions, percentatges i decimals per expressar quantitats en contextos de la vida quotidiana i elecció de la millor representació per a cada situació o problema. ● Sentit de les operacions"
+      "text": "Maneig de les unitats convencionals (km, m, cm, mm; kg, g; l i ml) i no convencionals en situacions de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització d’estratègies de càlcul mental amb nombres naturals i decimals"
+      "text": "Aplicació de la mesura del temps (any, mes, setmana, dia, hora i minuts) i referències de la durada de períodes de temps.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies de càlcul mental amb fraccions senzilles com a part d’una col·lecció"
+      "text": "Pràctica d’estratègies per fer mesuraments amb instruments i unitats no convencionals (repetició d’una unitat, ús de quadrícules...) i convencionals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús estratègic d’operacions simples o combinades (suma, resta, multiplicació, divisió) per resoldre situacions contextualitzades"
+      "text": "Realització de mesuraments mitjançant instruments convencionals (regla, cinta mètrica, balança, rellotge analògic i digital).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement de la potència com a producte de factors iguals. Quadrats i cubs"
+      "text": "Ús d’estratègies de comparació i ordenació de mesures de la mateixa magnitud (km, m, cm, mm; kg, g; l i m l) i aplicació d’equivalències entre unitats en problemes de la vida quotidiana que impliquin convertir unitats.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Domini de les estratègies de resolució d’operacions aritmètiques, simples o combinades i de les propietats, amb nombres naturals i decimals (fins a les mil·lèsimes), amb flexibilitat i sentit mentalment, de forma escrita o amb calculadora en situacions contextualitzades"
+      "text": "Estimació per comparació de mesures de longitud, massa i capacitat.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies per fer càlculs aproximats de sumes, restes, multiplicacions i divisions amb nombres naturals, decidint quin tipus de càlcul és el pertinent. ● Relacions"
+      "text": "Avaluació de resultats de mesuraments i estimacions o càlculs de mesures.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reflexió sobre les característiques del sistema de numeració de base deu (nombres naturals i decimals fins a les mil·lèsimes) i aplicació de les relacions que es generen en les operacions"
+      "text": "Identificació i classificació de formes geomètriques de dues o tres dimensions en objectes de la vida quotidiana atenent als seus elements i a les relacions entre ells.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Comparació i ordenació de nombres naturals, fraccions i decimals fins a les mil·lèsimes en contextos de la vida quotidiana"
+      "text": "Utilització d’estratègies i tècniques de construcció de formes geomètriques de dues dimensions per composició i descomposició, a través de materials manipulables, instruments de dibuix (regle i cartabó) i aplicacions informàtiques.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i aplicació de les relacions entre les operacions aritmètiques en contextos quotidians"
+      "text": "Ús del vocabulari geomètric en la descripció verbal dels elements i les propietats de formes geomètriques.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixement de la relació entre fraccions senzilles, decimals i percentatges"
+      "text": "Experimentació amb les propietats de les formes geomètriques de dues i tres dimensions amb materials manipulables (quadrícules, geoplans, policubs...) i també amb eines digitals (programes de geometria dinàmica, realitat augmentada, robòtica educativa...).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús de les relacions i propietats de les operacions per ajudar a comprendre-les i per agilitzar el càlcul, mental o escrit"
+      "text": "Descripció de la posició relativa d’objectes en l’espai o representacions d’aquests utilitzant vocabulari geomètric adequat (paral·lel, perpendicular, oblic, dreta, esquerra, etc.).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i ús de les relacions entre nombres naturals basats en la divisibilitat, divisors i múltiples. ● Educació financera"
+      "text": "Descripció i interpretació de moviments, amb relació a un mateix o a altres punts de referència utilitzant vocabulari geomètric adequat.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Resolució de problemes relacionats amb el consum responsable (valor/preu, qualitat/preu i el millor preu) i amb els diners (preus, interessos, impostos i rebaixes). ● Raonament proporcional"
+      "text": "Interpretació d’itineraris en plànols fent servir suports físics i virtuals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de situacions proporcionals i no proporcionals en problemes de la vida quotidiana: identificació com a comparació multiplicativa entre magnituds"
+      "text": "Identificació de figures transformades mitjançant translacions, girs ampliacions/reduccions i simetries en elements de l’entorn que ens envolta.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Cinquè i sisè curs Sentit numèric ● Comptatge",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Resolució de problemes de proporcionalitat, percentatges i escales de la vida quotidiana, a través de la comparació multiplicativa entre magnituds"
+      "text": "Generació de figures transformades a partir de simetries i translacions d’un patró inicial i predicció del resultat.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció i ús de les unitats adequades de longitud, massa, capacitat i superfície, volum, magnituds informàtiques bàsiques, temps i graus (angles) en contextos de la vida quotidiana. ● Mesura"
+      "text": "Identificació de models geomètrics en la resolució de problemes semblants.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Selecció i ús d’instruments (analògics o digitals) i unitats adequades per mesurar longituds, objectes (massa, capacitat, superfície…), angles i temps. ● Estimació i relacions"
+      "text": "Aplicació d’estratègies en el càlcul de perímetres de figures planes utilitzant-les en la resolució de problemes de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Ús d’estratègies de comparació i ordenació de mesures de la mateixa magnitud aplicant les equivalències entre unitats (sistema mètric decimal) en problemes de la vida quotidiana"
+      "text": "Reconeixement de relacions geomètriques en l’art, les ciències i la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de la relació entre el sistema mètric decimal i el sistema de numeració decimal"
+      "text": "Ús de punts de referència per indicar una posició o bé un desplaçament fet en un context conegut.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Estimació per comparació de la mesura d’angles i superfícies"
+      "text": "Ús de les visualitzacions dels moviments d’un cos per identificar una figura i raonant els resultats obtinguts.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit de la mesura ● Magnitud",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Avaluació de resultats de mesuraments i estimacions o càlculs de mesures, raonant si són o no possibles"
+      "text": "Identificació, descripció verbal, representació i predicció raonada de termes a partir de les regularitats en una col·lecció de nombres, figures o imatges.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació i classificació de formes geomètriques en objectes de la vida quotidiana en funció dels seus elements i de les relacions que hi ha entre aquests"
+      "text": "Exploració i adquisició d’estratègies per identificar, descriure, completar i estendre seqüències a partir de regularitats en una col·lecció de nombres, figures o imatges.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Coneixença de tècniques de construcció de formes geomètriques per composició i descomposició, amb materials manipulables, instruments de dibuix i aplicacions informàtiques"
+      "text": "Modelització de situacions de la vida quotidiana de forma pautada usant representacions matemàtiques (gràfiques, taules...).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Domini del vocabulari geomètric en la descripció verbal dels elements i les propietats de formes geomètriques"
+      "text": "Utilització de relacions d’igualtat i desigualtat i ús dels signes = i ≠ entre expressions que incloguin operacions i les seves propietats.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aprofundiment en les propietats de formes geomètriques transformant-les, a partir de materials manipulables (quadrícules, geoplans, policubs...) i també amb eines digitals (programes de geometria dinàmica, realitat augmentada, robòtica educativa...). ● Localització i sistemes de representació"
+      "text": "Expressió de la igualtat com a equivalència entre dos elements i obtenció de dades senzilles desconegudes (representades a través d’un símbol) en qualsevol dels dos elements.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Domini en la localització i desplaçaments en plànols i mapes a partir de punts de referència (inclosos els punts cardinals), direccions i càlcul de distàncies (escales)"
+      "text": "Representació de la relació major que i menor que, i ús dels signes < i >.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Disseny i interpretació de plànols amb suports físics i virtuals usant un vocabulari adient. ● Moviments i transformacions"
+      "text": "Identificació del canvi com a resultat d’una acció i de l’acció que pot revertir-la.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de figures transformades a partir de girs, translacions, simetries i de patrons inicials i també fent una predicció dels resultats en elements de l’entorn que ens envolta"
+      "text": "Comprensió i aplicació d’estratègies quan s’interpreten, modifiquen o creen algorismes senzills de programació per blocs que incorporen: diferenciació entre processos seqüencials i paral·lels; comprensió de les instruccions de bucle i condicionals; comprensió de la gestió de dades amb variables; ús d’operadors lògics i d’esdeveniments.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Generació de figures transformades a partir de patrons inicials i fent una predicció del resultat"
+      "text": "Presa de decisions a partir de les dades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de figures semblants, generació a partir de patrons inicials i predicció del resultat en situacions de la realitat propera. ● Raonament i modelització i visualització geomètrica"
+      "text": "Iniciació en la representació de dades amb eines digitals, entre d’altres.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies per al càlcul d’àrees i perímetres de figures planes en situacions de la vida quotidiana"
+      "text": "Interpretació de la freqüència absoluta i la moda de la situació a analitzar.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Posada en pràctica de models geomètrics en la resolució de problemes relacionats amb els altres sentits matemàtics"
+      "text": "Utilització de la lectura i de la interpretació de gràfics estadístics de la vida quotidiana (pictogrames, gràfics de barres, histogrames...).",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Elaboració de conjectures sobre propietats geomètriques utilitzant instruments de dibuix (compàs i transportador d’angles) i programes de geometria dinàmica"
+      "text": "Discriminació de situacions susceptibles de ser predites per poder saber si un fenomen és impossible, possible o segur.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació de les idees i les relacions geomètriques en l’art, les ciències i la vida quotidiana"
+      "text": "Comparació de la probabilitat de dos successos de forma intuïtiva.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Representació de recorreguts dels quals es té una vivència personal"
+      "text": "Identificació de les pròpies emocions i de les dels altres en contextos d’aprenentatge de les matemàtiques, fomentant la iniciativa i tolerància en l’alumnat quan s’enfronten a aquestes situacions.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit espacial ● Formes geomètriques de dues i tres dimensions",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Modificació mental d’un cos o d’una figura quan fem prediccions sobre el resultat"
+      "text": "Foment de l’autonomia i estratègies per a la presa de decisions en situacions de resolució de problemes tant per donar resposta a la situació plantejada com per fer- se altres preguntes i continuar aprenent.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Creació de patrons recurrents a partir de regularitats o d’altres patrons utilitzant nombres, figures o imatges"
+      "text": "Valoració de la contribució de les matemàtiques (numeració, geometria, estadística...) als diferents àmbits del coneixement humà des d’una perspectiva de gènere.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies d’identificació, representació (verbal, taules, gràfics i notacions inventades) i predicció raonada de termes a partir de les regularitats en una col·lecció de nombres, figures o imatges. ● Model matemàtic"
+      "text": "Descoberta i ús de les tècniques cooperatives en el treball en equip en matemàtiques, escolta activa i respecte pel treball dels altres.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CM",
+      "nivell_norm": "PRI_C2",
+      "bloc": null,
       "subapartat": null,
-      "text": "Modelització de problemes de la vida quotidiana usant representacions matemàtiques. ● Relacions i funcions"
+      "text": "Identificació i rebuig d’actituds discriminatòries mostrant sensibilitat i respecte envers les diferències individuals, també les referents a la diversitat de gènere, presents a l’aula.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Utilització de relacions d’igualtat i desigualtat usant els signes < i > en expressions senzilles relacionades a través d’aquests signes i els signes = i ≠"
+      "text": "Ús d’estratègies variades de comptatge, recompte sistemàtic (ús de taules de doble entrada i diagrames d’arbre) i adaptació del comptatge a la mida dels nombres en situacions de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Construcció d’igualtats en què observar i determinar dades senzilles desconegudes representades a través d’una lletra o símbol"
+      "text": "Aplicació d’estratègies i tècniques d’interpretació i manipulació de l’ordre de magnitud dels nombres.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació del canvi com a resultat d’una acció i de l’acció que pot revertir-la així com dels símbols que ho indiquen. ● Pensament computacional"
+      "text": "Domini de la lectura, interpretació i representació de nombres naturals i decimals (inclosa la recta numèrica) i reflexió sobre les característiques del sistema de numeració decimal.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit algebraic ● Patrons",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació d’estratègies quan s’interpreten, modifiquen o creen algorismes de programació per blocs que incorporen diferenciació entre processos seqüencials i paral·lels, comprensió de les instruccions de bucle i condicionals, comprensió de la gestió de dades amb variables i l’ús d’operadors lògics i d’esdeveniments"
+      "text": "Ús amb seguretat de la composició i descomposició de nombres naturals i decimals fins a les mil·lèsimes.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Reconeixement i formulació de preguntes en situacions properes que es resolen recollint dades"
+      "text": "Utilització de fraccions, percentatges i decimals per expressar quantitats en contextos de la vida quotidiana i elecció de la millor representació per a cada situació o problema.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Organització i estratègies per a la recollida de dades"
+      "text": "Utilització d’estratègies de càlcul mental amb nombres naturals i decimals.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Presa de decisions a partir de les dades, tenint en compte la mesura de la mostra. ● Distribució: criteris per organitzar les dades"
+      "text": "Aplicació d’estratègies de càlcul mental amb fraccions senzilles com a part d’una col·lecció.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Representació gràfica i interpretació de les dades recollides (tenint en compte la classificació de les dades, la durada de la recollida i el context)"
+      "text": "Ús estratègic d’operacions simples o combinades (suma, resta, multiplicació, divisió) per resoldre situacions contextualitzades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Representació de dades amb eines digitals, entre d’altres"
+      "text": "Reconeixement de la potència com a producte de factors iguals. Quadrats i cubs.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Interpretació de la freqüència absoluta, la moda, la mitjana i la mediana de la situació a analitzar"
+      "text": "Domini de les estratègies de resolució d’operacions aritmètiques, simples o combinades i de les propietats, amb nombres naturals i decimals (fins a les mil·lèsimes), amb flexibilitat i sentit mentalment, de forma escrita o amb calculadora en situacions contextualitzades.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Descripció, interpretació i anàlisi crítica de conjunts de dades i gràfics estadístics de la vida quotidiana. ● Predictibilitat i incertesa: atzar i probabilitat"
+      "text": "Aplicació d’estratègies per fer càlculs aproximats de sumes, restes, multiplicacions i divisions amb nombres naturals, decidint quin tipus de càlcul és el pertinent.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Descripció de successos i discussió del seu grau de probabilitat"
+      "text": "Reflexió sobre les característiques del sistema de numeració de base deu (nombres naturals i decimals fins a les mil·lèsimes) i aplicació de les relacions que es generen en les operacions.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit estocàstic ● Inferència: recollir dades per resoldre preguntes",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Realització de prediccions i discussió si els resultats obtinguts concorden o no amb les prediccions"
+      "text": "Comparació i ordenació de nombres naturals, fraccions i decimals fins a les mil·lèsimes en contextos de la vida quotidiana.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Identificació d’estratègies de millora de la perseverança i el sentit de la responsabilitat envers l’aprenentatge de les matemàtiques tant per donar resposta al repte inicial com per continuar fent-se preguntes i seguir aprenent"
+      "text": "Identificació i aplicació de les relacions entre les operacions aritmètiques en contextos quotidians.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Treball de la flexibilitat cognitiva, l’adaptació i el canvi d’estratègia en cas necessari. Valorar l’error com a oportunitat d’aprenentatge"
+      "text": "Coneixement de la relació entre fraccions senzilles, decimals i percentatges.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Valoració de la contribució de les matemàtiques (numeració, geometria, estadística…) als diferents àmbits del coneixement humà des d’una perspectiva de gènere. ● Treball en equip, inclusió, respecte i diversitat"
+      "text": "Ús de les relacions i propietats de les operacions per ajudar a comprendre-les i per agilitzar el càlcul, mental o escrit.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Aplicació de tècniques cooperatives per al treball en equip en matemàtiques i estratègies per a la gestió de conflictes"
+      "text": "Identificació i ús de les relacions entre nombres naturals basats en la divisibilitat, divisors i múltiples.",
+      "academic_avancat": false
     },
     {
-      "nivell": "4t",
-      "bloc": "Sentit socioemocional ● Creences, actituds i emocions",
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
       "subapartat": null,
-      "text": "Promoció de conductes empàtiques i inclusives i acceptació de la diversitat, també les referents a la diversitat de gènere, present en l’aula i en la societat"
+      "text": "Resolució de problemes relacionats amb el consum responsable (valor/preu, qualitat/preu i el millor preu) i amb els diners (preus, interessos, impostos i rebaixes).",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació de situacions proporcionals i no proporcionals en problemes de la vida quotidiana: identificació com a comparació multiplicativa entre magnituds.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Resolució de problemes de proporcionalitat, percentatges i escales de la vida quotidiana, a través de la comparació multiplicativa entre magnituds.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Selecció i ús de les unitats adequades de longitud, massa, capacitat i superfície, volum, magnituds informàtiques bàsiques, temps i graus (angles) en contextos de la vida quotidiana.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Selecció i ús d’instruments (analògics o digitals) i unitats adequades per mesurar longituds, objectes (massa, capacitat, superfície…), angles i temps.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Ús d’estratègies de comparació i ordenació de mesures de la mateixa magnitud aplicant les equivalències entre unitats (sistema mètric decimal) en problemes de la vida quotidiana.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació de la relació entre el sistema mètric decimal i el sistema de numeració decimal.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Estimació per comparació de la mesura d’angles i superfícies.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Avaluació de resultats de mesuraments i estimacions o càlculs de mesures, raonant si són o no possibles.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació i classificació de formes geomètriques en objectes de la vida quotidiana en funció dels seus elements i de les relacions que hi ha entre aquests.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Coneixença de tècniques de construcció de formes geomètriques per composició i descomposició, amb materials manipulables, instruments de dibuix i aplicacions informàtiques.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Domini del vocabulari geomètric en la descripció verbal dels elements i les propietats de formes geomètriques.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aprofundiment en les propietats de formes geomètriques transformant-les, a partir de materials manipulables (quadrícules, geoplans, policubs...) i també amb eines digitals (programes de geometria dinàmica, realitat augmentada, robòtica educativa...).",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Domini en la localització i desplaçaments en plànols i mapes a partir de punts de referència (inclosos els punts cardinals), direccions i càlcul de distàncies (escales).",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Disseny i interpretació de plànols amb suports físics i virtuals usant un vocabulari adient.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació de figures transformades a partir de girs, translacions, simetries i de patrons inicials i també fent una predicció dels resultats en elements de l’entorn que ens envolta.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Generació de figures transformades a partir de patrons inicials i fent una predicció del resultat.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació de figures semblants, generació a partir de patrons inicials i predicció del resultat en situacions de la realitat propera.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació d’estratègies per al càlcul d’àrees i perímetres de figures planes en situacions de la vida quotidiana.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Posada en pràctica de models geomètrics en la resolució de problemes relacionats amb els altres sentits matemàtics.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Elaboració de conjectures sobre propietats geomètriques utilitzant instruments de dibuix (compàs i transportador d’angles) i programes de geometria dinàmica.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació de les idees i les relacions geomètriques en l’art, les ciències i la vida quotidiana.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Representació de recorreguts dels quals es té una vivència personal.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Modificació mental d’un cos o d’una figura quan fem prediccions sobre el resultat.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Creació de patrons recurrents a partir de regularitats o d’altres patrons utilitzant nombres, figures o imatges.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació d’estratègies d’identificació, representació (verbal, taules, gràfics i notacions inventades) i predicció raonada de termes a partir de les regularitats en una col·lecció de nombres, figures o imatges.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Modelització de problemes de la vida quotidiana usant representacions matemàtiques.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Utilització de relacions d’igualtat i desigualtat usant els signes < i > en expressions senzilles relacionades a través d’aquests signes i els signes = i ≠.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Construcció d’igualtats en què observar i determinar dades senzilles desconegudes representades a través d’una lletra o símbol.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació del canvi com a resultat d’una acció i de l’acció que pot revertir-la així com dels símbols que ho indiquen.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació d’estratègies quan s’interpreten, modifiquen o creen algorismes de programació per blocs que incorporen diferenciació entre processos seqüencials i paral·lels, comprensió de les instruccions de bucle i condicionals, comprensió de la gestió de dades amb variables i l’ús d’operadors lògics i d’esdeveniments.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Presa de decisions a partir de les dades, tenint en compte la mesura de la mostra.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Representació de dades amb eines digitals, entre d’altres.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Interpretació de la freqüència absoluta, la moda, la mitjana i la mediana de la situació a analitzar.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Descripció, interpretació i anàlisi crítica de conjunts de dades i gràfics estadístics de la vida quotidiana.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Descripció de successos i discussió del seu grau de probabilitat.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Realització de prediccions i discussió si els resultats obtinguts concorden o no amb les prediccions.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Identificació d’estratègies de millora de la perseverança i el sentit de la responsabilitat envers l’aprenentatge de les matemàtiques tant per donar resposta al repte inicial com per continuar fent-se preguntes i seguir aprenent.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Treball de la flexibilitat cognitiva, l’adaptació i el canvi d’estratègia en cas necessari. Valorar l’error com a oportunitat d’aprenentatge.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Aplicació de tècniques cooperatives per al treball en equip en matemàtiques i estratègies per a la gestió de conflictes.",
+      "academic_avancat": false
+    },
+    {
+      "nivell": "CS",
+      "nivell_norm": "PRI_C3",
+      "bloc": null,
+      "subapartat": null,
+      "text": "Promoció de conductes empàtiques i inclusives i acceptació de la diversitat, també les referents a la diversitat de gènere, present en l’aula i en la societat.",
+      "academic_avancat": false
     }
   ]
 }

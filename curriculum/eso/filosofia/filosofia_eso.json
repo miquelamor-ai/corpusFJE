@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Filosofia.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/eso/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Filosofia a l'ESO introdueix l'alumnat en el pensament rigorós, la pregunta fonamental i l'anàlisi crítica dels discursos. La seva funció no és transmetre un cos de doctrina, sinó entrenar la capacitat de fer-se preguntes rellevants sobre la natura humana, el coneixement, l'ètica i la convivència. Connecta transversalment amb la Llengua i Literatura (argumentació i retòrica), les Ciències Socials (filosofia política i social) i les Ciències (epistemologia i filosofia de la ciència), i prepara per a la Filosofia de Batxillerat i la Història de la Filosofia.\n\nEls grans constructes disciplinaris s'articulen entorn de quatre preguntes estructurants: Què és l'ésser humà? (naturalesa, identitat, consciència, transhumanisme); Què puc saber? (epistemologia, mètode científic, fal·làcies, biaixos cognitius, postveritat); Què he de fer? (ètica, autonomia moral, responsabilitat ecològica, democràcia i pluralisme); Com podem viure junts? (justícia, drets, desigualtats, resolució de conflictes). La lògica bàsica, l'argumentació formal i la detecció de raonaments fallaciosos travessen tots els blocs com a eines metodològiques centrals.\n\nL'enfocament pedagògic descansa en el diàleg filosòfic com a pràctica central: debats, seminaris socràtics, comunitats de recerca i producció escrita argumentada. L'alumnat llegeix i interpreta textos filosòfics breus, contrasta posicions i elabora les seves pròpies idees amb rigor. L'avaluació prioritza la qualitat argumentativa —coherència, pertinença, absència de fal·làcies— per sobre de la reproducció de continguts, i inclou tant la participació oral en el diàleg com la producció escrita filosòfica."
   },
@@ -18,18 +18,21 @@
       "codi": "CE1",
       "text": "Identificar i valorar l’especificitat del saber filosòfic i dels sabers que aporten certesa enfront d’altres tipus de saber, per tal d’avaluar críticament els discursos i arguments.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA1.1",
-            "text": "Distingir entre opinions i arguments en els raonaments."
+            "text": "Distingir entre opinions i arguments en els raonaments.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.2",
-            "text": "Valorar críticament els sabers que aporten certesa i aquells que no, a partir de la identificació de les seves característiques i l’anàlisi de les estructures argumentatives que els sostenen."
+            "text": "Valorar críticament els sabers que aporten certesa i aquells que no, a partir de la identificació de les seves característiques i l’anàlisi de les estructures argumentatives que els sostenen.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA1.3",
-            "text": "Valorar críticament el paper de la filosofia i de la ciència en l’abordatge de problemes rellevants per a la natura i el saber humà."
+            "text": "Valorar críticament el paper de la filosofia i de la ciència en l’abordatge de problemes rellevants per a la natura i el saber humà.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -38,14 +41,16 @@
       "codi": "CE2",
       "text": "Avaluar i generar arguments per valorar i produir discursos orals i escrits de forma rigorosa, evitar dogmatismes, biaixos i fal·làcies, per tal de desenvolupar i sostenir opinions.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA2.1",
-            "text": "Produir rigorosament arguments, aplicant les normes lògiques, retòriques i argumentatives, i detectant i evitant maneres dogmàtiques, fal·laces i esbiaixades per exposar les pròpies opinions i idees, tant oralment com per escrit."
+            "text": "Produir rigorosament arguments, aplicant les normes lògiques, retòriques i argumentatives, i detectant i evitant maneres dogmàtiques, fal·laces i esbiaixades per exposar les pròpies opinions i idees, tant oralment com per escrit.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA2.2",
-            "text": "Avaluar críticament discursos, orals i escrits, sobre qüestions i problemes filosòfics, demostrant una comprensió correcta de les estructures argumentatives."
+            "text": "Avaluar críticament discursos, orals i escrits, sobre qüestions i problemes filosòfics, demostrant una comprensió correcta de les estructures argumentatives.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -54,18 +59,21 @@
       "codi": "CE3",
       "text": "Reconèixer i aplicar les normes de l’argumentació i del diàleg filosòfic, en diferents suports i activitats, per expressar-se amb rigor argumentatiu i desenvolupar el diàleg respectuós i constructiu amb els altres i poder arribar a idees comunes.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA3.1",
-            "text": "Intercanviar i avaluar críticament idees sobre qüestions filosòfiques a partir del diàleg filosòfic."
+            "text": "Intercanviar i avaluar críticament idees sobre qüestions filosòfiques a partir del diàleg filosòfic.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.2",
-            "text": "Argumentar rigorosament les pròpies idees en activitats de diàleg filosòfic."
+            "text": "Argumentar rigorosament les pròpies idees en activitats de diàleg filosòfic.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA3.3",
-            "text": "Participar de manera oberta, compromesa i respectuosa en activitats de diàleg sobre qüestions i problemes filosòficament rellevants."
+            "text": "Participar de manera oberta, compromesa i respectuosa en activitats de diàleg sobre qüestions i problemes filosòficament rellevants.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -74,18 +82,21 @@
       "codi": "CE4",
       "text": "Avaluar de manera global, sistèmica i transdisciplinària els problemes ètics i polítics fonamentals i d’actualitat analitzant-los filosòficament per a poder tractar-les de manera creativa i prendre una posició.",
       "criteris_avaluacio": {
-        "ESO13": [
+        "ESO_C1": [
           {
             "codi": "CA4.1",
-            "text": "Distingir les principals preguntes de la filosofia i les diferents respostes filosòfiques a través de la indagació, l’anàlisi i la interpretació de textos filosòfics i altres formes d’expressió cultural."
+            "text": "Distingir les principals preguntes de la filosofia i les diferents respostes filosòfiques a través de la indagació, l’anàlisi i la interpretació de textos filosòfics i altres formes d’expressió cultural.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.2",
-            "text": "Desenvolupar una concepció complexa i no dogmàtica dels problemes i qüestions fonamentals i d’actualitat, mitjançant l’anàlisi filosòfica d’aquests."
+            "text": "Desenvolupar una concepció complexa i no dogmàtica dels problemes i qüestions fonamentals i d’actualitat, mitjançant l’anàlisi filosòfica d’aquests.",
+            "clau_origen": "ESO13"
           },
           {
             "codi": "CA4.3",
-            "text": "Desenvolupar una actitud oberta, respectuosa i compromesa amb la resolució de conflictes ètics i polítics a través de l’exposició argumentada i crítica de les idees."
+            "text": "Desenvolupar una actitud oberta, respectuosa i compromesa amb la resolució de conflictes ètics i polítics a través de l’exposició argumentada i crítica de les idees.",
+            "clau_origen": "ESO13"
           }
         ]
       }
@@ -108,139 +119,186 @@
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi i valoració de l’especificitat natural i dels condicionants historicoculturals en el debat sobre la gènesi i la definició de la naturalesa humana"
+      "text": "Anàlisi i valoració de l’especificitat natural i dels condicionants historicoculturals en el debat sobre la gènesi i la definició de la naturalesa humana",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi crítica de les condicions socials, de gènere i culturals en la identitat personal"
+      "text": "Anàlisi crítica de les condicions socials, de gènere i culturals en la identitat personal",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Reconeixement i valoració del paper de la sensibilitat, l’emotivitat i les facultats cognitives en l’anàlisi de la identitat personal"
+      "text": "Reconeixement i valoració del paper de la sensibilitat, l’emotivitat i les facultats cognitives en l’anàlisi de la identitat personal",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi i valoració del paper de la consciència i el llenguatge en l’estructura psicosomàtica de la identitat personal"
+      "text": "Anàlisi i valoració del paper de la consciència i el llenguatge en l’estructura psicosomàtica de la identitat personal",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què és l’ésser humà?",
       "subapartat": null,
-      "text": "Anàlisi crítica de la natura humana en l’abordatge de qüestions vinculades al transhumanisme"
+      "text": "Anàlisi crítica de la natura humana en l’abordatge de qüestions vinculades al transhumanisme",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Anàlisi i valoració de la filosofia com a saber fonamental en la història d’Occident i en l’abordatge de les problemàtiques humanes"
+      "text": "Anàlisi i valoració de la filosofia com a saber fonamental en la història d’Occident i en l’abordatge de les problemàtiques humanes",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Especificitat de la filosofia en relació amb altres camps de saber per analitzar la natura i l’activitat humana"
+      "text": "Especificitat de la filosofia en relació amb altres camps de saber per analitzar la natura i l’activitat humana",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Caracterització de la cosmovisió mítica i la teorització filosòfica a Grècia com a origen de la filosofia occidental"
+      "text": "Caracterització de la cosmovisió mítica i la teorització filosòfica a Grècia com a origen de la filosofia occidental",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Anàlisi i constatació de la pervivència dels problemes filosòfics per tal de poder abordar- los des de la contemporaneïtat"
+      "text": "Anàlisi i constatació de la pervivència dels problemes filosòfics per tal de poder abordar- los des de la contemporaneïtat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Redacció de tipus de textos filosòfics per tal de poder desenvolupar i aprofundir en les pròpies idees"
+      "text": "Redacció de tipus de textos filosòfics per tal de poder desenvolupar i aprofundir en les pròpies idees",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Identificació de les característiques de la ciència i del mètode científic en el saber humà i en la història de la cultura per enfrontar-se a la desinformació, la postveritat i les pseudociències"
+      "text": "Identificació de les característiques de la ciència i del mètode científic en el saber humà i en la història de la cultura per enfrontar-se a la desinformació, la postveritat i les pseudociències",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Valoració del saber, les metodologies científiques i la filosofia de la ciència en l’abordatge dels problemes i límits del coneixement"
+      "text": "Valoració del saber, les metodologies científiques i la filosofia de la ciència en l’abordatge dels problemes i límits del coneixement",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Anàlisi crítica del problema del coneixement i les teories de la veritat per enfrontar-se a la desinformació i al fenomen de la postveritat"
+      "text": "Anàlisi crítica del problema del coneixement i les teories de la veritat per enfrontar-se a la desinformació i al fenomen de la postveritat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Anàlisi crítica de les condicions socials, de gènere i culturals en la història de la filosofia"
+      "text": "Anàlisi crítica de les condicions socials, de gènere i culturals en la història de la filosofia",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Valoració i anàlisi crítica de la dimensió social i política del coneixement, dels poders i els interessos que hi intervenen i del paper de les dones en la ciència i en la creació de coneixement"
+      "text": "Valoració i anàlisi crítica de la dimensió social i política del coneixement, dels poders i els interessos que hi intervenen i del paper de les dones en la ciència i en la creació de coneixement",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Desenvolupament d’idees filosòfiques en textos escrits"
+      "text": "Desenvolupament d’idees filosòfiques en textos escrits",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Argumentació, raonament mitjançant l’aplicació de nocions bàsiques de lògica formal i detecció de fal·làcies i biaixos cognitius en l’anàlisi crítica i la producció dels discursos"
+      "text": "Argumentació, raonament mitjançant l’aplicació de nocions bàsiques de lògica formal i detecció de fal·làcies i biaixos cognitius en l’anàlisi crítica i la producció dels discursos",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què puc saber?",
       "subapartat": null,
-      "text": "Interpretació i producció d’informació amb rigor argumentatiu per desenvolupar un criteri propi amb relació a problemes filosòfics"
+      "text": "Interpretació i producció d’informació amb rigor argumentatiu per desenvolupar un criteri propi amb relació a problemes filosòfics",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què he de fer?",
       "subapartat": null,
-      "text": "Reconeixement i valoració del saber i el pensament propi com a element clau en la construcció de projectes de vida autònoms i lliures"
+      "text": "Reconeixement i valoració del saber i el pensament propi com a element clau en la construcció de projectes de vida autònoms i lliures",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què he de fer?",
       "subapartat": null,
-      "text": "Anàlisi i valoració crítica dels elements que permeten la construcció de societats plurals i democràtiques. Diferència i discrepància. La convivència en el pluralisme. Societat, política, societat i consens"
+      "text": "Anàlisi i valoració crítica dels elements que permeten la construcció de societats plurals i democràtiques. Diferència i discrepància. La convivència en el pluralisme. Societat, política, societat i consens",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Què he de fer?",
       "subapartat": null,
-      "text": "Valoració de l’ètica expansiva i la responsabilitat ecològica en l’anàlisi de les problemàtiques contemporànies"
+      "text": "Valoració de l’ètica expansiva i la responsabilitat ecològica en l’anàlisi de les problemàtiques contemporànies",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Com podem viure junts?",
       "subapartat": null,
-      "text": "Anàlisi crítica dels problemes ètics del nostre temps, com ara la desigualtat, la pobresa, la guerra i altres formes de violència, la desigualtat entre homes i dones, la discriminació i els problemes mediambientals i ecosocials, per desenvolupar un posicionament ètic i argumentat"
+      "text": "Anàlisi crítica dels problemes ètics del nostre temps, com ara la desigualtat, la pobresa, la guerra i altres formes de violència, la desigualtat entre homes i dones, la discriminació i els problemes mediambientals i ecosocials, per desenvolupar un posicionament ètic i argumentat",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Com podem viure junts?",
       "subapartat": null,
-      "text": "Conèixer i participar en diferents modalitats de diàleg a l’aula (debats, seminari, taula rodona, diàleg filosòfic) aportant raons pertinents i relacionant-les amb les dels altres, trobant punts de trobada, per arribar a conclusions complexes i creatives"
+      "text": "Conèixer i participar en diferents modalitats de diàleg a l’aula (debats, seminari, taula rodona, diàleg filosòfic) aportant raons pertinents i relacionant-les amb les dels altres, trobant punts de trobada, per arribar a conclusions complexes i creatives",
+      "nivell_norm": "ESO_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

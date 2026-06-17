@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/Tecnologia-Industrial-I.pdf",
     "nota_estructura": "Tecnologia Industrial I és matèria de 1r de Batxillerat de la modalitat Ciències i Tecnologia. Tracta els materials industrials, els sistemes mecànics, els circuits elèctrics i electrònics bàsics, i la metodologia de projectes tecnològics.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "La Tecnologia Industrial I de Batxillerat introdueix l'alumne en els fonaments tècnics dels sistemes productius i dels processos d'enginyeria, amb una orientació clarament pràctica i professional. Proporciona els coneixements de base necessaris per accedir als estudis d'Enginyeria Industrial, Mecànica, Electrònica, Automoció i Disseny, i connecta igualment amb cicles formatius de grau superior en branques tecnològiques i de fabricació.\n\nLa matèria aborda quatre grans àmbits de coneixement. Els materials industrials —metalls, polímers, ceràmics i compostos— s'estudien des de les seves propietats físiques, mecàniques i químiques fins als processos de conformació, tractament i reciclatge. La mecànica de màquines treballa els mecanismes de transmissió i transformació del moviment: engranatges, politges, lleves, biela-manovella i trens d'engranatges. Els circuits elèctrics i electrònics inclouen la llei d'Ohm, els teoremes de Kirchhoff, els dispositius semiconductors —díodes i transistors— i els circuits lògics combinacionals. La metodologia de projectes tecnològics ensenya a formalitzar el disseny: especificació de requisits, estudi de viabilitat, pressupost, plànols i memòria tècnica.\n\nL'enfocament didàctic de la matèria és eminentment pràctic i centrat en el projecte. L'alumne dissenya solucions tècniques, construeix maquetes o prototips, i utilitza programari de disseny assistit per ordinador (CAD) i simuladors de circuits. El treball en equip, la documentació tècnica i la presentació oral de projectes formen part integrant de l'avaluació, reflectint les condicions reals d'un entorn professional d'enginyeria."
   },
   "competencies_clau": [
@@ -35,7 +35,7 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "1.1 Classificar els materials industrials (metalls, polímers, ceràmiques i compostos) identificant-ne les propietats característiques i les aplicacions principals.",
           "1.2 Relacionar les propietats mecàniques dels materials (resistència, duresa, elasticitat) amb els assaigs tècnics corresponents.",
           "1.3 Seleccionar materials adequats per a una aplicació donada, valorant criteris tècnics, econòmics i mediambientals."
@@ -51,7 +51,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "2.1 Identificar els elements bàsics de màquines i mecanismes (engranatges, corrioles, maniveles, lleves) i explicar-ne el funcionament.",
           "2.2 Calcular les relacions de transmissió i transformació del moviment en mecanismes simples.",
           "2.3 Analitzar màquines tèrmiques bàsiques (motor de combustió, turbina), identificant-ne els elements i el cicle de funcionament."
@@ -67,7 +67,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "3.1 Aplicar les lleis de Kirchhoff i la llei d'Ohm per a l'anàlisi de circuits de corrent continu en sèrie, paral·lel i mixtos.",
           "3.2 Analitzar circuits de corrent altern monofàsics, calculant impedàncies, potències i factors de potència.",
           "3.3 Identificar i descriure components electrònics bàsics (díodes, transistors) i la seva funció en circuits senzills de commutació i amplificació."
@@ -85,7 +85,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "4.1 Aplicar la metodologia del projecte tecnològic per a la resolució de problemes tècnics: identificació del problema, especificacions, disseny, pressupost i memòria.",
           "4.2 Interpretar i elaborar croquis i plànols tècnics amb les normes bàsiques de representació gràfica (vistes, escales, acotació).",
           "4.3 Emprar eines digitals (CAD, simuladors) per al disseny i la simulació de solucions tecnològiques senzilles."
@@ -171,193 +171,258 @@
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Classificació i propietats dels materials",
-      "text": "Metalls i aliatges: ferrosos (acer, fosa) i no ferrosos (alumini, coure)"
+      "text": "Metalls i aliatges: ferrosos (acer, fosa) i no ferrosos (alumini, coure)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Classificació i propietats dels materials",
-      "text": "Polímers: termoplàstics, termoestables i elastòmers"
+      "text": "Polímers: termoplàstics, termoestables i elastòmers",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Classificació i propietats dels materials",
-      "text": "Materials ceràmics i compostos: característiques i aplicacions"
+      "text": "Materials ceràmics i compostos: característiques i aplicacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Classificació i propietats dels materials",
-      "text": "Propietats mecàniques: resistència a la tracció, duresa, elasticitat, tenacitat i fragilitat"
+      "text": "Propietats mecàniques: resistència a la tracció, duresa, elasticitat, tenacitat i fragilitat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Classificació i propietats dels materials",
-      "text": "Propietats tecnològiques: soldabilitat, maquinabilitat i conformabilitat"
+      "text": "Propietats tecnològiques: soldabilitat, maquinabilitat i conformabilitat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Tractaments i reciclatge",
-      "text": "Tractaments tèrmics dels metalls: recuit, temples i reveniment"
+      "text": "Tractaments tèrmics dels metalls: recuit, temples i reveniment",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Tractaments i reciclatge",
-      "text": "Corrosió i protecció dels metalls: pintures, galvanitzat i anoditzat"
+      "text": "Corrosió i protecció dels metalls: pintures, galvanitzat i anoditzat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Materials industrials",
       "subapartat": "Tractaments i reciclatge",
-      "text": "Cicle de vida dels materials i reciclatge: impacte ambiental i economia circular"
+      "text": "Cicle de vida dels materials i reciclatge: impacte ambiental i economia circular",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Mecanismes de transmissió",
-      "text": "Transmissió per fricció: corretges i politges. Relació de transmissió"
+      "text": "Transmissió per fricció: corretges i politges. Relació de transmissió",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Mecanismes de transmissió",
-      "text": "Transmissió per engranatges: tipus i càlcul de la relació de transmissió"
+      "text": "Transmissió per engranatges: tipus i càlcul de la relació de transmissió",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Mecanismes de transmissió",
-      "text": "Transmissió per cadena: aplicacions i característiques"
+      "text": "Transmissió per cadena: aplicacions i característiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Mecanismes de transformació",
-      "text": "Mecanisme biela-manovella: transformació de moviment rotatiu en alternatiu"
+      "text": "Mecanisme biela-manovella: transformació de moviment rotatiu en alternatiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Mecanismes de transformació",
-      "text": "Lleves i excèntrics: perfils i aplicacions"
+      "text": "Lleves i excèntrics: perfils i aplicacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Mecanismes de transformació",
-      "text": "Cargol i femella: moviment helicoïdal i aplicacions"
+      "text": "Cargol i femella: moviment helicoïdal i aplicacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Màquines tèrmiques",
-      "text": "Motor de combustió interna de 4 temps: cicle Otto i cicle Diesel"
+      "text": "Motor de combustió interna de 4 temps: cicle Otto i cicle Diesel",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Màquines tèrmiques",
-      "text": "Turbines de gas i vapor: principi de funcionament"
+      "text": "Turbines de gas i vapor: principi de funcionament",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Sistemes mecànics",
       "subapartat": "Màquines tèrmiques",
-      "text": "Rendiment tèrmic i factors que l'afecten"
+      "text": "Rendiment tèrmic i factors que l'afecten",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Circuits de corrent continu",
-      "text": "Llei d'Ohm i lleis de Kirchhoff"
+      "text": "Llei d'Ohm i lleis de Kirchhoff",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Circuits de corrent continu",
-      "text": "Circuits en sèrie, paral·lel i mixtos: resolució i càlcul de potència"
+      "text": "Circuits en sèrie, paral·lel i mixtos: resolució i càlcul de potència",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Circuits de corrent continu",
-      "text": "Condensadors i inductors en CC: càrrega i descàrrega"
+      "text": "Condensadors i inductors en CC: càrrega i descàrrega",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Corrent altern monofàsic",
-      "text": "Magnituds del corrent altern: amplitud, freqüència, període i fase"
+      "text": "Magnituds del corrent altern: amplitud, freqüència, període i fase",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Corrent altern monofàsic",
-      "text": "Circuits RL, RC i RLC en sèrie: impedància i freqüència de ressonància"
+      "text": "Circuits RL, RC i RLC en sèrie: impedància i freqüència de ressonància",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Corrent altern monofàsic",
-      "text": "Potència en CA: activa, reactiva i aparent. Factor de potència"
+      "text": "Potència en CA: activa, reactiva i aparent. Factor de potència",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Electrònica bàsica",
-      "text": "Díode: funcionament, polarització i aplicació en rectificació"
+      "text": "Díode: funcionament, polarització i aplicació en rectificació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Electrònica bàsica",
-      "text": "Transistor bipolar: funcionament en commutació i amplificació"
+      "text": "Transistor bipolar: funcionament en commutació i amplificació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Circuits i sistemes elèctrics",
       "subapartat": "Electrònica bàsica",
-      "text": "Circuits integrats bàsics: amplificador operacional com a comparador"
+      "text": "Circuits integrats bàsics: amplificador operacional com a comparador",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Projectes tecnològics",
       "subapartat": "Metodologia del projecte",
-      "text": "Fases del projecte tecnològic: definició, anàlisi, disseny, construcció, avaluació"
+      "text": "Fases del projecte tecnològic: definició, anàlisi, disseny, construcció, avaluació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Projectes tecnològics",
       "subapartat": "Metodologia del projecte",
-      "text": "Especificacions tècniques i restriccions del disseny"
+      "text": "Especificacions tècniques i restriccions del disseny",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Projectes tecnològics",
       "subapartat": "Metodologia del projecte",
-      "text": "Planificació del projecte: diagrames de Gantt i estimació de costos"
+      "text": "Planificació del projecte: diagrames de Gantt i estimació de costos",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Projectes tecnològics",
       "subapartat": "Representació gràfica",
-      "text": "Sistemes de representació: vistes (alçat, planta, perfil) i perspectiva isomètrica"
+      "text": "Sistemes de representació: vistes (alçat, planta, perfil) i perspectiva isomètrica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Projectes tecnològics",
       "subapartat": "Representació gràfica",
-      "text": "Normes de dibuix tècnic: escales, acotació i caixetí"
+      "text": "Normes de dibuix tècnic: escales, acotació i caixetí",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "Projectes tecnològics",
       "subapartat": "Representació gràfica",
-      "text": "Disseny assistit per ordinador (CAD 2D): eines bàsiques"
+      "text": "Disseny assistit per ordinador (CAD 2D): eines bàsiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

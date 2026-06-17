@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Educacio-en-Valors-Civics-i-Etics.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/primaria/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "L'Educació en Valors Cívics i Ètics a Primària acompanya l'alumnat en la construcció de la seva identitat personal i moral, el desenvolupament de la consciència cívica i l'adquisició de valors per viure en societat de manera democràtica, justa i sostenible. La matèria connecta amb el Coneixement del Medi (societat, institucions, medi ambient), la Llengua (diàleg argumentatiu, resolució de conflictes), l'Educació Física (convivència, gestió emocional) i totes les àrees que treballen la perspectiva de gènere i la igualtat. És eix transversal del Projecte Educatiu de Centre i preparació per a l'Educació per a la Ciutadania de l'ESO.\n\nEls grans constructes disciplinaris abasten l'autoconeixement i l'autonomia moral (identitat personal, pensament crític i ètic, prevenció de riscos digitals), la societat, la justícia i la democràcia (drets humans, Convenció dels Drets de l'Infant, institucions democràtiques, cultura de pau, solidaritat, igualtat de gènere), la sostenibilitat i l'ètica ambiental (relació individu-societat-natura, canvi climàtic, ODS, consum responsable) i l'educació emocional (identificació i regulació d'emocions, empatia, relacions afectives saludables, prevenció de l'assetjament).\n\nL'enfocament pedagògic es basa en el diàleg filosòfic, el debat argumentatiu i la reflexió col·lectiva a partir de situacions reals o dilemes ètics propers a l'experiència de l'alumnat. Les assemblees de classe, els projectes de servei a l'entorn i la connexió amb els ODS converteixen la matèria en un espai d'acció, no només de reflexió. La perspectiva de gènere i la inclusió de totes les identitats travessen tots els blocs de contingut. L'avaluació posa l'accent en l'argumentació, la coherència entre valors i actuacions, la capacitat de reconèixer prejudicis i la presa de decisions moralment justificades en situacions concretes."
   },
@@ -18,26 +18,31 @@
       "codi": "CE1",
       "text": "Identificar aspectes vinculats a la pròpia identitat i a les qüestions ètiques relatives a un mateix, en el seu entorn proper, buscant la informació a l’abast i interpretant-la de forma reflexiva i crítica per promoure l’autoconeixement i el desenvolupament de l’autonomia moral.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA1.1",
-            "text": "Reconèixer les pròpies capacitats físiques, sensorials i cognitives tenint en compte els punts forts i febles de la pròpia identitat promovent l’autoconeixement."
+            "text": "Reconèixer les pròpies capacitats físiques, sensorials i cognitives tenint en compte els punts forts i febles de la pròpia identitat promovent l’autoconeixement.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar trets personals que facilitin el procés de construcció de la pròpia identitat amb responsabilitat i autonomia."
+            "text": "Identificar trets personals que facilitin el procés de construcció de la pròpia identitat amb responsabilitat i autonomia.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.3",
-            "text": "Interpretar críticament la informació de l’entorn afavorint la construcció de la pròpia identitat."
+            "text": "Interpretar críticament la informació de l’entorn afavorint la construcció de la pròpia identitat.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.4",
-            "text": "Mostrar conductes que evidenciïn autonomia moral en un context social amb gran diversitat d’interessos."
+            "text": "Mostrar conductes que evidenciïn autonomia moral en un context social amb gran diversitat d’interessos.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA1.5",
-            "text": "Mostrar una actitud responsable, respectuosa i assertiva amb relació a problemàtiques diverses i riscos derivats de l’ús acrític i de l’abús de les xarxes socials, com a factors de prevenció de situacions de ciberassetjament entre iguals i en el context educatiu."
+            "text": "Mostrar una actitud responsable, respectuosa i assertiva amb relació a problemàtiques diverses i riscos derivats de l’ús acrític i de l’abús de les xarxes socials, com a factors de prevenció de situacions de ciberassetjament entre iguals i en el context educatiu.",
+            "clau_origen": "CI"
           }
         ]
       }
@@ -46,26 +51,31 @@
       "codi": "CE2",
       "text": "Actuar i interactuar atenent a normes i valors cívics i ètics, reflexionant sobre la seva importància per a la vida individual i col·lectiva, per aplicar-los de manera efectiva i argumentada en diferents contextos i amb la finalitat de promoure una convivència pacífica, respectuosa, democràtica i justa.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA2.1",
-            "text": "Investigar sobre la naturalesa social i política de l’ésser humà en el marc d’una convivència democràtica."
+            "text": "Investigar sobre la naturalesa social i política de l’ésser humà en el marc d’una convivència democràtica.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.2",
-            "text": "Interactuar amb els altres adoptant conductes cíviques i democràtiques en un marc de respecte, empatia i consideració adequada de les relacions afectives que s’estableixin."
+            "text": "Interactuar amb els altres adoptant conductes cíviques i democràtiques en un marc de respecte, empatia i consideració adequada de les relacions afectives que s’estableixin.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.3",
-            "text": "Manifestar actituds alineades amb valors com la justícia, la pau i el rebuig a la violència, la solidaritat i el respecte per les minories i les diferents identitats humanes i personals en el seu entorn."
+            "text": "Manifestar actituds alineades amb valors com la justícia, la pau i el rebuig a la violència, la solidaritat i el respecte per les minories i les diferents identitats humanes i personals en el seu entorn.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.4",
-            "text": "Analitzar el paper de les institucions públiques, dels organismes internacionals i les organitzacions no governamentals en la promoció de la pau, la solidaritat i la cooperació entre nacions a través del diàleg argumentatiu."
+            "text": "Analitzar el paper de les institucions públiques, dels organismes internacionals i les organitzacions no governamentals en la promoció de la pau, la solidaritat i la cooperació entre nacions a través del diàleg argumentatiu.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA2.5",
-            "text": "Reflexionar sobre la defensa d’una efectiva igualtat de gènere i sobre el problema de la violència contra les dones i la conducta sexista, a través de l’anàlisi de les mesures de prevenció de la desigualtat, la violència i la discriminació per raó de gènere i orientació sexual."
+            "text": "Reflexionar sobre la defensa d’una efectiva igualtat de gènere i sobre el problema de la violència contra les dones i la conducta sexista, a través de l’anàlisi de les mesures de prevenció de la desigualtat, la violència i la discriminació per raó de gènere i orientació sexual.",
+            "clau_origen": "CI"
           }
         ]
       }
@@ -74,18 +84,21 @@
       "codi": "CE3",
       "text": "Interpretar les relacions sistèmiques entre l’individu, la societat i la natura, així com la importància de l’acció local i les seves conseqüències en l’entorn proper, per desenvolupar un paper actiu i conseqüent amb el respecte, la cura i la protecció de les persones i del planeta.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA3.1",
-            "text": "Identificar propostes per afavorir l’aturada del canvi climàtic a partir de l’anàlisi de les problemàtiques en el context local i argumentant el deure ètic de protegir i tenir cura de la natura."
+            "text": "Identificar propostes per afavorir l’aturada del canvi climàtic a partir de l’anàlisi de les problemàtiques en el context local i argumentant el deure ètic de protegir i tenir cura de la natura.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.2",
-            "text": "Realitzar accions que afavoreixen l’assoliment dels objectius de desenvolupament sostenible a través d’acords i actuacions individuals i col·lectives."
+            "text": "Realitzar accions que afavoreixen l’assoliment dels objectius de desenvolupament sostenible a través d’acords i actuacions individuals i col·lectives.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA3.3",
-            "text": "Desenvolupar actituds i valors de compromís basats en el respecte, cura i protecció de les persones, dels animals i del planeta, a través d’accions individuals, en l’àmbit local, vinculades al consum responsable i de productes de proximitat, l’ús sostenible de l’aigua, de l’energia, de la mobilitat, la gestió dels residus i el respecte per la diversitat ètnica i cultural."
+            "text": "Desenvolupar actituds i valors de compromís basats en el respecte, cura i protecció de les persones, dels animals i del planeta, a través d’accions individuals, en l’àmbit local, vinculades al consum responsable i de productes de proximitat, l’ús sostenible de l’aigua, de l’energia, de la mobilitat, la gestió dels residus i el respecte per la diversitat ètnica i cultural.",
+            "clau_origen": "CI"
           }
         ]
       }
@@ -94,22 +107,26 @@
       "codi": "CE4",
       "text": "Desenvolupar l’autoestima i l’estima de l’entorn, a partir de la identificació, expressió i gestió de les emocions i sentiments propis i reconeixent i valorant els dels altres, amb la finalitat d’assolir una actitud empàtica i respectuosa envers un mateix, els altres i la natura.",
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           {
             "codi": "CA4.1",
-            "text": "Expressar de manera respectuosa les pròpies emocions manifestant una ajustada autoestima en activitats creatives individuals i de grup."
+            "text": "Expressar de manera respectuosa les pròpies emocions manifestant una ajustada autoestima en activitats creatives individuals i de grup.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.2",
-            "text": "Regular adequadament les pròpies emocions a partir de la identificació d’aquestes i les dels altres, en activitats de reflexió tant individuals com col·lectives."
+            "text": "Regular adequadament les pròpies emocions a partir de la identificació d’aquestes i les dels altres, en activitats de reflexió tant individuals com col·lectives.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.3",
-            "text": "Manifestar una actitud empàtica i respectuosa envers un mateix, els altres i la natura, en activitats realitzades en l’entorn escolar."
+            "text": "Manifestar una actitud empàtica i respectuosa envers un mateix, els altres i la natura, en activitats realitzades en l’entorn escolar.",
+            "clau_origen": "CI"
           },
           {
             "codi": "CA4.4",
-            "text": "Identificar i prendre consciència de fets i accions dirigides a membres de la comunitat educativa que, si persisteixen en el temps, poden derivar en relacions abusives, situacions d’assetjament i maltractament entre iguals en el context educatiu i, en aquest cas, prendre-hi partit des d’un posicionament proactiu com a factor de prevenció."
+            "text": "Identificar i prendre consciència de fets i accions dirigides a membres de la comunitat educativa que, si persisteixen en el temps, poden derivar en relacions abusives, situacions d’assetjament i maltractament entre iguals en el context educatiu i, en aquest cas, prendre-hi partit des d’un posicionament proactiu com a factor de prevenció.",
+            "clau_origen": "CI"
           }
         ]
       }
@@ -132,169 +149,226 @@
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Desenvolupament del pensament crític i ètic en situacions de debat a l’aula"
+      "text": "Desenvolupament del pensament crític i ètic en situacions de debat a l’aula",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Construcció de la pròpia identitat personal en un context plural des del reconeixement de les diferències individuals tenint en compte la perspectiva de gènere"
+      "text": "Construcció de la pròpia identitat personal en un context plural des del reconeixement de les diferències individuals tenint en compte la perspectiva de gènere",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Desenvolupament de l’autonomia i la responsabilitat, en funció dels propis desitjos i raons, amb voluntat i judici moral en un entorn amb gran diversitat d’interessos"
+      "text": "Desenvolupament de l’autonomia i la responsabilitat, en funció dels propis desitjos i raons, amb voluntat i judici moral en un entorn amb gran diversitat d’interessos",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Valoració de l’ètica com a principi de les nostres accions en entorns propers relacionats amb la vida quotidiana"
+      "text": "Valoració de l’ètica com a principi de les nostres accions en entorns propers relacionats amb la vida quotidiana",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Reconeixement de la importància de l’ètica en l’establiment de normes presents a la societat"
+      "text": "Reconeixement de la importància de l’ètica en l’establiment de normes presents a la societat",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Coneixement i prevenció dels riscos que implica l’ús acrític, l’abús i la sobreexposició a les xarxes socials en la preservació de la privacitat i la vulneració de la pròpia identitat i la dels altres, en la relació entre iguals"
+      "text": "Coneixement i prevenció dels riscos que implica l’ús acrític, l’abús i la sobreexposició a les xarxes socials en la preservació de la privacitat i la vulneració de la pròpia identitat i la dels altres, en la relació entre iguals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Cinquè o sisè Autoconeixement i autonomia moral",
       "subapartat": null,
-      "text": "Coneixement i prevenció de les conseqüències d’un mal ús i abús de les noves tecnologies, en el temps de lleure, que poden derivar en conductes addictives relacionades tant amb l’ús dels dispositius com amb els continguts que ofereixen"
+      "text": "Coneixement i prevenció de les conseqüències d’un mal ús i abús de les noves tecnologies, en el temps de lleure, que poden derivar en conductes addictives relacionades tant amb l’ús dels dispositius com amb els continguts que ofereixen",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Valoració del diàleg i de l’argumentació en la presa democràtica de decisions i en la resolució pacífica de conflictes en la relació entre iguals i en contextos propers"
+      "text": "Valoració del diàleg i de l’argumentació en la presa democràtica de decisions i en la resolució pacífica de conflictes en la relació entre iguals i en contextos propers",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Comprensió i ús dels conceptes de llei, Estat, democràcia, justícia, ciutadania i drets humans en el context social proper"
+      "text": "Comprensió i ús dels conceptes de llei, Estat, democràcia, justícia, ciutadania i drets humans en el context social proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Presa de consciència de la conducta cívica, les lleis, els principis i valors democràtics i la justícia en les interrelacions a l’aula i en el centre educatiu"
+      "text": "Presa de consciència de la conducta cívica, les lleis, els principis i valors democràtics i la justícia en les interrelacions a l’aula i en el centre educatiu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Coneixement de la Declaració Universal dels Drets Humans i la Convenció sobre els Drets de l’Infant i la seva rellevància ètica en la relació entre les persones tant a l’escola com fora"
+      "text": "Coneixement de la Declaració Universal dels Drets Humans i la Convenció sobre els Drets de l’Infant i la seva rellevància ètica en la relació entre les persones tant a l’escola com fora",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Anàlisi de les causes de la pobresa i l’explotació infantil en la societat globalitzada"
+      "text": "Anàlisi de les causes de la pobresa i l’explotació infantil en la societat globalitzada",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Recerca de solucions locals i globals en situacions properes de desigualtat econòmica"
+      "text": "Recerca de solucions locals i globals en situacions properes de desigualtat econòmica",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Promoció de la cultura de la pau i la no-violència a favor de la convivència en l’entorn proper"
+      "text": "Promoció de la cultura de la pau i la no-violència a favor de la convivència en l’entorn proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societat, justícia i democràcia",
       "subapartat": null,
-      "text": "Identificació del paper i valoració de les actuacions de les organitzacions no governamentals i les organitzacions no governamentals per al desenvolupament en l’entorn proper"
+      "text": "Identificació del paper i valoració de les actuacions de les organitzacions no governamentals i les organitzacions no governamentals per al desenvolupament en l’entorn proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Desenvolupament de l’empatia, la cura i el respecte als éssers vius i el medi natural, en actuacions quotidianes relacionades amb l’entorn proper"
+      "text": "Desenvolupament de l’empatia, la cura i el respecte als éssers vius i el medi natural, en actuacions quotidianes relacionades amb l’entorn proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Valoració i reconeixement de l’impacte de l’activitat humana en el planeta a partir d’accions quotidianes"
+      "text": "Valoració i reconeixement de l’impacte de l’activitat humana en el planeta a partir d’accions quotidianes",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Anàlisi del grau de sostenibilitat d’un determinat mode de vida amb relació als ecosistemes i les societats en el territori més proper"
+      "text": "Anàlisi del grau de sostenibilitat d’un determinat mode de vida amb relació als ecosistemes i les societats en el territori més proper",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Anàlisi dels límits del planeta i el canvi climàtic en el món actual en el marc de projectes realitzats a l’aula"
+      "text": "Anàlisi dels límits del planeta i el canvi climàtic en el món actual en el marc de projectes realitzats a l’aula",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Identificació de mecanismes i estratègies per al desenvolupament sostenible en el context local"
+      "text": "Identificació de mecanismes i estratègies per al desenvolupament sostenible en el context local",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Realització d’accions individuals vinculades a l’economia circular, al consum responsable i de productes de proximitat, a l’ús sostenible de l’aigua, de l’energia, de la mobilitat, i a la gestió dels residus, en l’àmbit local"
+      "text": "Realització d’accions individuals vinculades a l’economia circular, al consum responsable i de productes de proximitat, a l’ús sostenible de l’aigua, de l’energia, de la mobilitat, i a la gestió dels residus, en l’àmbit local",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Presa de consciència del deure ètic i l’obligació legal de protegir i tenir cura del medi natural en la construcció d’un compromís col·lectiu"
+      "text": "Presa de consciència del deure ètic i l’obligació legal de protegir i tenir cura del medi natural en la construcció d’un compromís col·lectiu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Sostenibilitat i ètica ambiental",
       "subapartat": null,
-      "text": "Desenvolupament d’hàbits i actuacions individuals i col·lectives en el marc dels objectius de desenvolupament sostenible en el context proper i en l’orientació que donem al nostre estil de vida"
+      "text": "Desenvolupament d’hàbits i actuacions individuals i col·lectives en el marc dels objectius de desenvolupament sostenible en el context proper i en l’orientació que donem al nostre estil de vida",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Presa de consciència, expressió i regulació de les emocions pròpies i alienes, basades en una autoestima ajustada, com a aspecte determinant en la millora del benestar individual i col·lectiu en la relació amb un mateix i amb els iguals"
+      "text": "Presa de consciència, expressió i regulació de les emocions pròpies i alienes, basades en una autoestima ajustada, com a aspecte determinant en la millora del benestar individual i col·lectiu en la relació amb un mateix i amb els iguals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Construcció de relacions afectives saludables a partir del reconeixement de la igualtat i del respecte mutu com a factors que les determinen en la relació entre iguals"
+      "text": "Construcció de relacions afectives saludables a partir del reconeixement de la igualtat i del respecte mutu com a factors que les determinen en la relació entre iguals",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Coneixement de la interrelació entre els aspectes afectius i el desenvolupament de la sexualitat i la seva influència en el benestar emocional individual i col·lectiu, en el marc de projectes realitzats a l’aula"
+      "text": "Coneixement de la interrelació entre els aspectes afectius i el desenvolupament de la sexualitat i la seva influència en el benestar emocional individual i col·lectiu, en el marc de projectes realitzats a l’aula",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Reconeixement de l’empatia com una habilitat emocional afavoridora del benestar mutu en les relacions amb els altres"
+      "text": "Reconeixement de l’empatia com una habilitat emocional afavoridora del benestar mutu en les relacions amb els altres",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Educació emocional",
       "subapartat": null,
-      "text": "Identificació de fets, accions i actituds que poden derivar en situacions de relacions abusives i maltractament entre iguals en l’entorn educatiu"
+      "text": "Identificació de fets, accions i actituds que poden derivar en situacions de relacions abusives i maltractament entre iguals en l’entorn educatiu",
+      "nivell_norm": "PRI_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

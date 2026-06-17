@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/Tecnologia-Industrial-II.pdf",
     "nota_estructura": "Tecnologia Industrial II és matèria de 2n de Batxillerat de la modalitat Ciències i Tecnologia, continuació de Tecnologia Industrial I. Aprofundeix en sistemes automàtics i de control, màquines elèctriques, circuits pneumàtics i hidràulics, i projectes tecnològics complexos.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "La Tecnologia Industrial II de Batxillerat aprofundeix en els sistemes tècnics més complexos que l'alumne ha iniciat a primer curs i consolida una formació tecnològica avançada. És la porta d'entrada natural als estudis d'Enginyeria Industrial, Electrònica, Automàtica, Robòtica i altres branques d'enginyeria aplicada, i representa el nivell de maduresa tècnica que exigeix l'accés universitari en aquestes titulacions.\n\nLa matèria s'estructura en quatre grans nuclis temàtics. Els sistemes automàtics i de control estudien la cadena de regulació —sensor, controlador, actuador—, els sistemes de llaç obert i tancat, els reguladors proporcionals, integrals i derivatius (PID) i la seva representació mitjançant diagrames de blocs i funcions de transferència. Les màquines elèctriques de corrent continu i altern —motors asíncrons, transformadors i alternadors— s'analitzen tant en règim de funcionament com en les seves aplicacions industrials. La pneumàtica i la hidràulica industrials presenten els components dels circuits —compressors, vàlvules, actuadors lineals i rotatius— i els esquemes de comandament. Finalment, els projectes tecnològics complexos exigeixen la integració de coneixements de les diferents branques per proposar solucions completes, documentades i viables.\n\nL'enfocament pedagògic de la matèria es basa en el cicle complet del projecte tecnològic: anàlisi del problema, disseny de la solució, simulació amb programari especialitzat —autòmats programables, SCADA, simuladors hidràulics i pneumàtics—, prototipat i avaluació. La presentació davant de tribunal simulat d'empresa i la defensa tècnica del projecte preparen l'alumne per a exigències reals del món professional i universitari."
   },
   "competencies_clau": [
@@ -34,7 +34,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "1.1 Identificar els elements d'un sistema de control (sensor, controlador, actuador) i explicar el funcionament dels sistemes en llaç obert i tancat.",
           "1.2 Analitzar sistemes de control bàsics: regulació proporcional (P), proporcional-integral (PI) i proporcional-integral-derivativa (PID).",
           "1.3 Dissenyar i simular sistemes automàtics elementals amb lògica combinacional i seqüencial, incloent-hi autòmats programables (PLC)."
@@ -50,7 +50,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "2.1 Explicar el principi de funcionament del transformador monofàsic i trifàsic, i calcular relacions de transformació, potències i rendiment.",
           "2.2 Analitzar el motor de corrent altern trifàsic asíncron: construcció, principi de funcionament, lliscament i característiques.",
           "2.3 Descriure els sistemes d'arrencada i variació de velocitat de motors elèctrics i identificar les seves aplicacions industrials."
@@ -66,7 +66,7 @@
         "CD"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "3.1 Identificar els components dels circuits pneumàtics i hidràulics (compressor, vàlvules, actuadors) i explicar-ne la funció.",
           "3.2 Interpretar i elaborar esquemes pneumàtics i hidràulics seguint la simbologia normalitzada.",
           "3.3 Dissenyar circuits pneumàtics o hidràulics per a aplicacions industrials senzilles, simulant-los amb programari específic."
@@ -85,7 +85,7 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "2n": [
+        "BAT_2N": [
           "4.1 Elaborar un projecte tecnològic complet que integri coneixements de màquines, circuits i automatismes, incloent-hi memòria, plànols i pressupost.",
           "4.2 Avaluar la viabilitat tècnica i econòmica d'un projecte tecnològic, argumentant les decisions de disseny adoptades.",
           "4.3 Presentar i defensar el projecte tecnològic de manera clara i estructurada, responent a preguntes tècniques."
@@ -161,157 +161,210 @@
       "nivell": "2n",
       "bloc": "Sistemes automàtics i de control",
       "subapartat": "Control automàtic",
-      "text": "Sistemes de control en llaç obert i tancat: components i diagrames de blocs"
+      "text": "Sistemes de control en llaç obert i tancat: components i diagrames de blocs",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Sistemes automàtics i de control",
       "subapartat": "Control automàtic",
-      "text": "Reguladors P, PI i PID: característiques i ajust"
+      "text": "Reguladors P, PI i PID: característiques i ajust",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Sistemes automàtics i de control",
       "subapartat": "Control automàtic",
-      "text": "Estabilitat dels sistemes de control: conceptes bàsics"
+      "text": "Estabilitat dels sistemes de control: conceptes bàsics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Sistemes automàtics i de control",
       "subapartat": "Automatismes elèctrics i programables",
-      "text": "Lògica combinacional: portes lògiques, circuits combinacionals bàsics"
+      "text": "Lògica combinacional: portes lògiques, circuits combinacionals bàsics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Sistemes automàtics i de control",
       "subapartat": "Automatismes elèctrics i programables",
-      "text": "Lògica seqüencial: flip-flops, comptadors, memòries"
+      "text": "Lògica seqüencial: flip-flops, comptadors, memòries",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Sistemes automàtics i de control",
       "subapartat": "Automatismes elèctrics i programables",
-      "text": "Autòmat programable (PLC): estructura, programació en lladre (Ladder) i aplicacions"
+      "text": "Autòmat programable (PLC): estructura, programació en lladre (Ladder) i aplicacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Transformadors",
-      "text": "Transformador ideal i real: principi de funcionament i circuit equivalent"
+      "text": "Transformador ideal i real: principi de funcionament i circuit equivalent",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Transformadors",
-      "text": "Relació de transformació i càlcul de potències"
+      "text": "Relació de transformació i càlcul de potències",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Transformadors",
-      "text": "Transformadors trifàsics: connexions estrella-triangle i aplicacions"
+      "text": "Transformadors trifàsics: connexions estrella-triangle i aplicacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Motors elèctrics",
-      "text": "Motor de CC: tipus (sèrie, paral·lel, compost) i característiques"
+      "text": "Motor de CC: tipus (sèrie, paral·lel, compost) i característiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Motors elèctrics",
-      "text": "Motor d'inducció trifàsic: construcció, lliscament i corba de parell"
+      "text": "Motor d'inducció trifàsic: construcció, lliscament i corba de parell",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Motors elèctrics",
-      "text": "Arrencada de motors: estrella-triangle i variadors de freqüència"
+      "text": "Arrencada de motors: estrella-triangle i variadors de freqüència",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Màquines elèctriques",
       "subapartat": "Motors elèctrics",
-      "text": "Selecció i dimensionament de motors per a aplicacions industrials"
+      "text": "Selecció i dimensionament de motors per a aplicacions industrials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Circuits pneumàtics i hidràulics",
       "subapartat": "Pneumàtica industrial",
-      "text": "Components del circuit pneumàtic: compressor, unitat de manteniment, vàlvules i actuadors"
+      "text": "Components del circuit pneumàtic: compressor, unitat de manteniment, vàlvules i actuadors",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Circuits pneumàtics i hidràulics",
       "subapartat": "Pneumàtica industrial",
-      "text": "Vàlvules de control direccional: 2/2, 3/2, 5/2 i el seu accionament"
+      "text": "Vàlvules de control direccional: 2/2, 3/2, 5/2 i el seu accionament",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Circuits pneumàtics i hidràulics",
       "subapartat": "Pneumàtica industrial",
-      "text": "Circuits pneumàtics bàsics: directe, indirecte i de seqüència simple"
+      "text": "Circuits pneumàtics bàsics: directe, indirecte i de seqüència simple",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Circuits pneumàtics i hidràulics",
       "subapartat": "Hidràulica industrial",
-      "text": "Components del circuit hidràulic: bomba, vàlvules de pressió, cilindres i motors hidràulics"
+      "text": "Components del circuit hidràulic: bomba, vàlvules de pressió, cilindres i motors hidràulics",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Circuits pneumàtics i hidràulics",
       "subapartat": "Hidràulica industrial",
-      "text": "Principi de Pascal i transmissió de forces"
+      "text": "Principi de Pascal i transmissió de forces",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Circuits pneumàtics i hidràulics",
       "subapartat": "Hidràulica industrial",
-      "text": "Circuits hidràulics elementals i aplicacions industrials"
+      "text": "Circuits hidràulics elementals i aplicacions industrials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Metodologia avançada de projectes",
-      "text": "Anàlisi de requisits i especificacions tècniques detallades"
+      "text": "Anàlisi de requisits i especificacions tècniques detallades",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Metodologia avançada de projectes",
-      "text": "Disseny conceptual i disseny de detall: eines i metodologia"
+      "text": "Disseny conceptual i disseny de detall: eines i metodologia",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Metodologia avançada de projectes",
-      "text": "Gestió de projectes: planificació, riscos i qualitat"
+      "text": "Gestió de projectes: planificació, riscos i qualitat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Documentació tècnica",
-      "text": "Memòria tècnica: estructura i contingut"
+      "text": "Memòria tècnica: estructura i contingut",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Documentació tècnica",
-      "text": "Plànols de conjunt i de detall en CAD"
+      "text": "Plànols de conjunt i de detall en CAD",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Documentació tècnica",
-      "text": "Pressupost: amidaments, preus unitaris i cost total"
+      "text": "Pressupost: amidaments, preus unitaris i cost total",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "Projectes tecnològics avançats",
       "subapartat": "Documentació tècnica",
-      "text": "Estudi d'impacte ambiental i cicle de vida del producte"
+      "text": "Estudi d'impacte ambiental i cicle de vida del producte",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

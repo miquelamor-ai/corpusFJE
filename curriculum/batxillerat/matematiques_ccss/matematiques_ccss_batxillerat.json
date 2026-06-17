@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/humanitats-cs/Matematiques-CCSS.pdf",
     "nota_estructura": "Matèria de la modalitat Humanitats i Ciències Socials. S'imparteix a 1r i 2n de Batxillerat. Els criteris d'avaluació s'organitzen per curs ('1r' i '2n'). Els sabers bàsics també s'organitzen per curs, amb blocs específics a cada nivell.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "Les Matemàtiques Aplicades a les Ciències Socials s'imparteixen a 1r i 2n de Batxillerat en la modalitat d'Humanitats i Ciències Socials i proporcionen a l'alumnat les eines quantitatives per comprendre, analitzar i interpretar fenòmens socials, econòmics i humanístics. Constitueixen un requisit habitual per accedir a estudis superiors d'economia, administració d'empreses, sociologia, ciències polítiques, psicologia, periodisme i gestió pública.\n\nEl repertori conceptual de la matèria s'organitza en grans àmbits: el sentit numèric (percentatges, índexs socioeconòmics, progressions, interès simple i compost, rendes financeres i amortització de préstecs); l'àlgebra lineal i matricial (operacions amb matrius, determinants, matriu inversa, sistemes d'equacions i teorema de Rouché-Fröbenius); les funcions i la modelització (funcions lineals, quadràtiques, exponencials, logarítmiques i la seva aplicació a contextos socials); l'anàlisi matemàtica (límits, continuïtat, derivada com a taxa de variació, optimització de funcions econòmiques, integral definida i excedent del consumidor); i, especialment, l'estadística i la probabilitat: estadística descriptiva univariant i bivariada, covariança, coeficient de correlació de Pearson, recta de regressió, probabilitat condicionada, teorema de Bayes, distribucions binomial i normal, inferència estadística, intervals de confiança i contrast d'hipòtesi.\n\nEl plantejament didàctic parteix de contextos socials i econòmics reals per introduir i treballar els conceptes matemàtics. L'ús de fulls de càlcul i programari estadístic és estructural, i la lectura crítica d'estudis estadístics, enquestes i informes de dades dels mitjans de comunicació constitueix un format d'aprenentatge recurrent. El treball cooperatiu en resolució de problemes i la comunicació clara dels processos i resultats matemàtics —oral i escrita— són competències transversals que travessen tota la matèria."
   },
   "competencies_clau": [
@@ -40,12 +40,12 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "1.1 Identificar patrons, regularitats i propietats matemàtiques en situacions del context social i econòmic, i formular conjectures sobre ells.",
           "1.2 Verificar conjectures matemàtiques en l'àmbit de les ciències socials, mitjançant exemples i contraexemples, i reconèixer la necessitat de la demostració formal.",
           "1.3 Construir i comunicar argumentacions lògiques senzilles per justificar afirmacions matemàtiques en contextos socials i econòmics, identificant premisses, passos intermedis i conclusions."
         ],
-        "2n": [
+        "BAT_2N": [
           "1.1 Formular conjectures matemàtiques complexes en situacions del context social, econòmic i estadístic, i planificar estratègies per verificar-les o refutar-les.",
           "1.2 Construir argumentacions lògiques i demostratives rigoroses per justificar resultats matemàtics rellevants en les ciències socials, tot avaluant la solidesa i la correcció dels raonaments propis i aliens.",
           "1.3 Comunicar de manera precisa i estructurada argumentacions matemàtiques, utilitzant el llenguatge simbòlic, gràfic i formal adequat a cada situació."
@@ -62,12 +62,12 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "2.1 Comprendre i analitzar problemes de l'àmbit social i econòmic, identificant les dades rellevants i les condicions del problema, i traduint-los al llenguatge matemàtic.",
           "2.2 Planificar i aplicar estratègies de resolució de problemes matemàtics en contextos socials, seleccionant els recursos i mètodes adequats (algebraics, estadístics, gràfics o numèrics).",
           "2.3 Valorar i interpretar críticament les solucions obtingudes en el context del problema original, comprovant la seva adequació i raonabilitat."
         ],
-        "2n": [
+        "BAT_2N": [
           "2.1 Analitzar problemes complexos de l'àmbit social, econòmic i estadístic, descomposant-los en subproblemes manejables i identificant estratègies adequades per a la seva resolució.",
           "2.2 Aplicar de manera integrada coneixements matemàtics de diversos àmbits (àlgebra, estadística, probabilitat, anàlisi) per resoldre problemes multidisciplinaris de les ciències socials.",
           "2.3 Revisar i millorar les solucions obtingudes, avaluant la seva idoneïtat des del punt de vista matemàtic i del context social o econòmic, i comunicant el procés i els resultats de manera clara i estructurada."
@@ -84,11 +84,11 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "3.1 Identificar les connexions entre conceptes i procediments matemàtics de diferent naturalesa (numèrics, algebraics, estadístics, gràfics) en la resolució de situacions de l'àmbit social.",
           "3.2 Reconèixer la presència i la utilitat de les matemàtiques en contextos socials, econòmics i humanístics reals, valorant la seva capacitat de modelar i descriure fenòmens socials."
         ],
-        "2n": [
+        "BAT_2N": [
           "3.1 Establir connexions profundes entre els diversos àmbits de les matemàtiques aplicades a les ciències socials, transferint coneixements i estratègies d'un context a un altre de manera autònoma.",
           "3.2 Analitzar situacions reals de les ciències socials integrant conceptes i eines matemàtiques de diferent naturalesa, valorant la matematització com a eina de comprensió i millora de la societat."
         ]
@@ -104,11 +104,11 @@
         "STEM"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "4.1 Interpretar i produir representacions gràfiques, tabulars i algebraiques de fenòmens socials i econòmics, triant la representació més adequada en cada context.",
           "4.2 Comunicar processos i resultats matemàtics de manera clara, precisa i ordenada, emprant vocabulari matemàtic específic i adaptant el discurs a l'interlocutor i al context."
         ],
-        "2n": [
+        "BAT_2N": [
           "4.1 Seleccionar, combinar i produir de manera autònoma representacions matemàtiques variades (gràfiques, algebraiques, estadístiques, infogràfiques) per comunicar informació complexa de fenòmens socials.",
           "4.2 Redactar i exposar informes matemàtics sobre fenòmens socials i econòmics, integrant argumentació, representació i ús crític de la tecnologia, de manera rigorosa i adaptada a diverses audiències."
         ]
@@ -124,11 +124,11 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "5.1 Utilitzar calculadores, fulls de càlcul i programari estadístic per realitzar càlculs, representar dades i explorar propietats matemàtiques en contextos socials.",
           "5.2 Emprar estratègies de pensament computacional (descomposició, reconeixement de patrons, algoritmització) per planificar i executar la resolució de problemes matemàtics de les ciències socials amb l'ajut de la tecnologia."
         ],
-        "2n": [
+        "BAT_2N": [
           "5.1 Emprar de manera autònoma i crítica eines tecnològiques avançades (fulls de càlcul, programari estadístic, eines de visualització de dades) per analitzar conjunts de dades reals de les ciències socials i extreure'n conclusions.",
           "5.2 Dissenyar i implementar procediments algorítmics senzills per resoldre problemes matemàtics de les ciències socials, avaluant críticament els resultats i les limitacions de les eines tecnològiques emprades."
         ]
@@ -145,12 +145,12 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "6.1 Organitzar i representar dades estadístiques unidimensionals provinents de contextos socials i econòmics, calculant i interpretant els paràmetres de centralització i dispersió més rellevants.",
           "6.2 Analitzar distributions estadístiques de dues variables, calculant i interpretant la covariança, el coeficient de correlació i la recta de regressió, i valorant la fiabilitat de les prediccions.",
           "6.3 Calcular probabilitats de successos simples i compostos aplicant les tècniques adequades (llei de Laplace, probabilitat condicionada, teorema de Bayes), i interpretar-les en contextos socials reals."
         ],
-        "2n": [
+        "BAT_2N": [
           "6.1 Aplicar la distribució binomial i la distribució normal per modelar fenòmens socials i econòmics, calculant probabilitats i interpretant els resultats en context.",
           "6.2 Comprendre els fonaments de la inferència estadística, planificant i executant processos de mostreig, calculant intervals de confiança i realitzant contrastos d'hipòtesi senzills per prendre decisions fonamentades.",
           "6.3 Avaluar críticament estudis estadístics i informes de dades presents als mitjans de comunicació i a la vida social, identificant possibles biaixos, errors metodològics i males interpretacions."
@@ -167,12 +167,12 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "7.1 Interpretar, representar i analitzar funcions reals (lineals, quadràtiques, exponencials, logarítmiques) en contextos socials i econòmics, identificant les seves propietats globals i locals i el seu significat en el context.",
           "7.2 Utilitzar les operacions bàsiques amb matrius i el càlcul de determinants i sistemes d'equacions lineals per resoldre problemes de l'àmbit social i econòmic.",
           "7.3 Resoldre sistemes d'equacions lineals i no lineals aplicant mètodes algebraics i interpretar les solucions en contextos econòmics i socials."
         ],
-        "2n": [
+        "BAT_2N": [
           "7.1 Calcular i interpretar límits i derivades de funcions en contextos socials i econòmics, aplicant-los a l'estudi del creixement, la optimització i la presa de decisions.",
           "7.2 Aplicar les tècniques de derivació per estudiar l'increment i el decreixement, els extrems relatius i absoluts i la concavitat de funcions en contextos econòmics i socials, interpretant els resultats obtinguts.",
           "7.3 Calcular integrals indefinides i definides de funcions elementals, interpretant la integral com a àrea i aplicant-la al càlcul de magnituds econòmiques i socials."
@@ -189,11 +189,11 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           "8.1 Mostrar una actitud positiva, curiosa i perseverant davant reptes matemàtics, gestionant la frustració i la incertesa de manera constructiva en contextos individuals i cooperatius.",
           "8.2 Participar activament en activitats col·laboratives de resolució de problemes matemàtics, assumint rols responsables, respectant les aportacions dels companys i valorant la diversitat de perspectives."
         ],
-        "2n": [
+        "BAT_2N": [
           "8.1 Reflexionar de manera autònoma sobre els propis processos d'aprenentatge matemàtic, identificant fortaleses i àrees de millora, i dissenyant estratègies per superar les dificultats.",
           "8.2 Reconèixer i valorar el paper de les matemàtiques com a eina de comprensió crítica, argumentació i transformació de la realitat social, econòmica i política, adoptant una actitud ètica i responsable en l'ús de dades i models matemàtics."
         ]
@@ -356,427 +356,570 @@
       "nivell": "1r",
       "bloc": "A. Sentit numèric",
       "subapartat": "Nombres i operacions",
-      "text": "Ús dels nombres reals i de la notació científica en contextos socials i econòmics"
+      "text": "Ús dels nombres reals i de la notació científica en contextos socials i econòmics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "A. Sentit numèric",
       "subapartat": "Nombres i operacions",
-      "text": "Càlcul percentual i variació percentual aplicats a situacions econòmiques, demogràfiques i socials (IPC, taxes de creixement, índexs)"
+      "text": "Càlcul percentual i variació percentual aplicats a situacions econòmiques, demogràfiques i socials (IPC, taxes de creixement, índexs)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "A. Sentit numèric",
       "subapartat": "Nombres i operacions",
-      "text": "Estimació i aproximació de resultats amb valoració de l'error absolut i relatiu"
+      "text": "Estimació i aproximació de resultats amb valoració de l'error absolut i relatiu",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "A. Sentit numèric",
       "subapartat": "Nombres i operacions",
-      "text": "Proporcionalitat directa i inversa en contextos econòmics i socials"
+      "text": "Proporcionalitat directa i inversa en contextos econòmics i socials",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "A. Sentit numèric",
       "subapartat": "Raons i proporcions en context social",
-      "text": "Interpretació i càlcul d'índexs socioeconòmics i demogràfics (índex de Gini, ràtio, taxa de natalitat, etc.)"
+      "text": "Interpretació i càlcul d'índexs socioeconòmics i demogràfics (índex de Gini, ràtio, taxa de natalitat, etc.)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "A. Sentit numèric",
       "subapartat": "Raons i proporcions en context social",
-      "text": "Aplicació de progressions aritmètiques i geomètriques al càlcul d'interessos simples i compostos i a la modelació de fenòmens de creixement i decreixement"
+      "text": "Aplicació de progressions aritmètiques i geomètriques al càlcul d'interessos simples i compostos i a la modelació de fenòmens de creixement i decreixement",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Àlgebra lineal i matricial",
-      "text": "Operacions amb matrius: suma, producte per un escalar i producte de matrius. Interpretació matricial de sistemes d'informació social"
+      "text": "Operacions amb matrius: suma, producte per un escalar i producte de matrius. Interpretació matricial de sistemes d'informació social",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Àlgebra lineal i matricial",
-      "text": "Determinants d'ordre 2 i 3. Propietats i càlcul"
+      "text": "Determinants d'ordre 2 i 3. Propietats i càlcul",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Àlgebra lineal i matricial",
-      "text": "Matriu inversa: existència i càlcul per a matrius d'ordre 2"
+      "text": "Matriu inversa: existència i càlcul per a matrius d'ordre 2",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Àlgebra lineal i matricial",
-      "text": "Sistemes d'equacions lineals: mètodes de resolució (substitució, reducció, Gauss, Cramer) i interpretació geomètrica. Aplicació a problemes econòmics i socials"
+      "text": "Sistemes d'equacions lineals: mètodes de resolució (substitució, reducció, Gauss, Cramer) i interpretació geomètrica. Aplicació a problemes econòmics i socials",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Àlgebra lineal i matricial",
-      "text": "Discussió de sistemes: sistema compatible determinat, compatible indeterminat i incompatible. Teorema de Rouché-Fröbenius (nivell introductori)"
+      "text": "Discussió de sistemes: sistema compatible determinat, compatible indeterminat i incompatible. Teorema de Rouché-Fröbenius (nivell introductori)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Funcions i modelització",
-      "text": "Concepte de funció real de variable real: domini, recorregut, creixement, decreixement, extrems, paritat, periodicitat"
+      "text": "Concepte de funció real de variable real: domini, recorregut, creixement, decreixement, extrems, paritat, periodicitat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Funcions i modelització",
-      "text": "Funcions lineals i afins, quadràtiques, de valor absolut, racionals senzilles, exponencials i logarítmiques: representació gràfica i interpretació en contextos socials i econòmics"
+      "text": "Funcions lineals i afins, quadràtiques, de valor absolut, racionals senzilles, exponencials i logarítmiques: representació gràfica i interpretació en contextos socials i econòmics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Funcions i modelització",
-      "text": "Modelització de situacions socials i econòmiques mitjançant funcions"
+      "text": "Modelització de situacions socials i econòmiques mitjançant funcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "B. Sentit algebraic",
       "subapartat": "Funcions i modelització",
-      "text": "Ús de la tecnologia (full de càlcul, programari matemàtic) per representar i analitzar funcions"
+      "text": "Ús de la tecnologia (full de càlcul, programari matemàtic) per representar i analitzar funcions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística descriptiva univariant",
-      "text": "Tipus de variables estadístiques: qualitatives i quantitatives (discretes i contínues)"
+      "text": "Tipus de variables estadístiques: qualitatives i quantitatives (discretes i contínues)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística descriptiva univariant",
-      "text": "Taules de freqüències. Representacions gràfiques: diagrama de barres, histograma, diagrama de sectors, pictograma, diagrama de caixa"
+      "text": "Taules de freqüències. Representacions gràfiques: diagrama de barres, histograma, diagrama de sectors, pictograma, diagrama de caixa",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística descriptiva univariant",
-      "text": "Paràmetres de posició: mitjana, mediana, moda, quartils, percentils. Càlcul i interpretació"
+      "text": "Paràmetres de posició: mitjana, mediana, moda, quartils, percentils. Càlcul i interpretació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística descriptiva univariant",
-      "text": "Paràmetres de dispersió: rang, variància, desviació típica, coeficient de variació. Càlcul i interpretació"
+      "text": "Paràmetres de dispersió: rang, variància, desviació típica, coeficient de variació. Càlcul i interpretació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística descriptiva univariant",
-      "text": "Ús del full de càlcul i programari estadístic per al tractament de dades"
+      "text": "Ús del full de càlcul i programari estadístic per al tractament de dades",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística bivariada i regressió",
-      "text": "Taules de doble entrada i núvol de punts. Interpretació de la dependència entre dues variables"
+      "text": "Taules de doble entrada i núvol de punts. Interpretació de la dependència entre dues variables",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística bivariada i regressió",
-      "text": "Covariança i coeficient de correlació de Pearson: càlcul, interpretació i limitacions"
+      "text": "Covariança i coeficient de correlació de Pearson: càlcul, interpretació i limitacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística bivariada i regressió",
-      "text": "Recta de regressió: càlcul, representació i ús per a la predicció. Valoració de la fiabilitat de la predicció"
+      "text": "Recta de regressió: càlcul, representació i ús per a la predicció. Valoració de la fiabilitat de la predicció",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Estadística bivariada i regressió",
-      "text": "Distinció entre correlació i causalitat en contextos socials"
+      "text": "Distinció entre correlació i causalitat en contextos socials",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Probabilitat",
-      "text": "Espai mostral, succés, probabilitat: definició freqüencial i de Laplace"
+      "text": "Espai mostral, succés, probabilitat: definició freqüencial i de Laplace",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Probabilitat",
-      "text": "Operacions amb successos: unió, intersecció, complementari"
+      "text": "Operacions amb successos: unió, intersecció, complementari",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Probabilitat",
-      "text": "Probabilitat condicionada. Successos independents i dependents"
+      "text": "Probabilitat condicionada. Successos independents i dependents",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Probabilitat",
-      "text": "Teorema de la probabilitat total i teorema de Bayes: aplicació a contextos socials i econòmics"
+      "text": "Teorema de la probabilitat total i teorema de Bayes: aplicació a contextos socials i econòmics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "C. Sentit estadístic i probabilístic",
       "subapartat": "Probabilitat",
-      "text": "Diagrames d'arbre i taules de contingència com a eines de càlcul probabilístic"
+      "text": "Diagrames d'arbre i taules de contingència com a eines de càlcul probabilístic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Actituds i emocions matemàtiques",
-      "text": "Gestió de la incertesa, l'error i la frustració com a part del procés d'aprenentatge matemàtic"
+      "text": "Gestió de la incertesa, l'error i la frustració com a part del procés d'aprenentatge matemàtic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Actituds i emocions matemàtiques",
-      "text": "Reconeixement i valoració de l'esforç, la perseverança i la creativitat en la resolució de problemes"
+      "text": "Reconeixement i valoració de l'esforç, la perseverança i la creativitat en la resolució de problemes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Actituds i emocions matemàtiques",
-      "text": "Autoregulació del procés d'aprenentatge: planificació, revisió i reflexió metacognitiva"
+      "text": "Autoregulació del procés d'aprenentatge: planificació, revisió i reflexió metacognitiva",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Actituds i emocions matemàtiques",
-      "text": "Actitud oberta i crítica davant de resultats i procediments matemàtics propis i aliens"
+      "text": "Actitud oberta i crítica davant de resultats i procediments matemàtics propis i aliens",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Treball cooperatiu i comunicació",
-      "text": "Col·laboració en equip en la resolució de problemes matemàtics: distribució de rols, comunicació efectiva i construcció col·lectiva del coneixement"
+      "text": "Col·laboració en equip en la resolució de problemes matemàtics: distribució de rols, comunicació efectiva i construcció col·lectiva del coneixement",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Treball cooperatiu i comunicació",
-      "text": "Presentació oral i escrita de processos i resultats matemàtics amb rigor i claredat"
+      "text": "Presentació oral i escrita de processos i resultats matemàtics amb rigor i claredat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Treball cooperatiu i comunicació",
-      "text": "Ús responsable i crític de les fonts d'informació i les eines tecnològiques en matemàtiques"
+      "text": "Ús responsable i crític de les fonts d'informació i les eines tecnològiques en matemàtiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Límits i continuïtat",
-      "text": "Límit d'una funció en un punt i en l'infinit: càlcul i interpretació gràfica"
+      "text": "Límit d'una funció en un punt i en l'infinit: càlcul i interpretació gràfica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Límits i continuïtat",
-      "text": "Indeterminacions freqüents: resolució de 0/0, ∞/∞ i ∞ − ∞ en funcions polinòmiques, racionals i irracionals"
+      "text": "Indeterminacions freqüents: resolució de 0/0, ∞/∞ i ∞ − ∞ en funcions polinòmiques, racionals i irracionals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Límits i continuïtat",
-      "text": "Continuïtat d'una funció en un punt i en un interval. Tipus de discontinuïtat"
+      "text": "Continuïtat d'una funció en un punt i en un interval. Tipus de discontinuïtat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Límits i continuïtat",
-      "text": "Aplicació dels límits a l'estudi del comportament asimptòtic de funcions econòmiques"
+      "text": "Aplicació dels límits a l'estudi del comportament asimptòtic de funcions econòmiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Derivació",
-      "text": "Derivada d'una funció en un punt: definició com a límit del quocient incremental. Interpretació geomètrica (pendent de la tangent) i interpretació en context (taxa de variació instantània)"
+      "text": "Derivada d'una funció en un punt: definició com a límit del quocient incremental. Interpretació geomètrica (pendent de la tangent) i interpretació en context (taxa de variació instantània)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Derivació",
-      "text": "Regles de derivació: funcions elementals, suma, producte, quocient i regla de la cadena"
+      "text": "Regles de derivació: funcions elementals, suma, producte, quocient i regla de la cadena",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Derivació",
-      "text": "Derivades successives"
+      "text": "Derivades successives",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Derivació",
-      "text": "Aplicació de la derivada a l'estudi de funcions: creixement, decreixement, extrems relatius i absoluts, concavitat, convexitat i punts d'inflexió"
+      "text": "Aplicació de la derivada a l'estudi de funcions: creixement, decreixement, extrems relatius i absoluts, concavitat, convexitat i punts d'inflexió",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Derivació",
-      "text": "Optimització de funcions en contextos econòmics i socials (maximització de beneficis, minimització de costos, etc.)"
+      "text": "Optimització de funcions en contextos econòmics i socials (maximització de beneficis, minimització de costos, etc.)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Derivació",
-      "text": "Representació gràfica completa de funcions a partir de l'anàlisi de les seves propietats locals i globals"
+      "text": "Representació gràfica completa de funcions a partir de l'anàlisi de les seves propietats locals i globals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Integració",
-      "text": "Integral indefinida: concepte de primitiva i regles bàsiques d'integració (funcions elementals, integració per parts, canvi de variable senzill)"
+      "text": "Integral indefinida: concepte de primitiva i regles bàsiques d'integració (funcions elementals, integració per parts, canvi de variable senzill)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Integració",
-      "text": "Integral definida: concepte i interpretació com a àrea sota la corba. Teorema fonamental del càlcul"
+      "text": "Integral definida: concepte i interpretació com a àrea sota la corba. Teorema fonamental del càlcul",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Integració",
-      "text": "Càlcul d'àrees de regions planes en contextos econòmics i socials (excedent del consumidor i del productor)"
+      "text": "Càlcul d'àrees de regions planes en contextos econòmics i socials (excedent del consumidor i del productor)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "A. Sentit algebraic i anàlisi",
       "subapartat": "Integració",
-      "text": "Ús de la tecnologia per al càlcul i la representació d'integrals"
+      "text": "Ús de la tecnologia per al càlcul i la representació d'integrals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Variable aleatòria discreta: distribució de probabilitat, esperança matemàtica i variància"
+      "text": "Variable aleatòria discreta: distribució de probabilitat, esperança matemàtica i variància",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Distribució binomial: condicions d'aplicació, càlcul de probabilitats i paràmetres. Aplicació a fenòmens socials"
+      "text": "Distribució binomial: condicions d'aplicació, càlcul de probabilitats i paràmetres. Aplicació a fenòmens socials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Variable aleatòria contínua: concepte de funció de densitat"
+      "text": "Variable aleatòria contínua: concepte de funció de densitat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Distribució normal: característiques, càlcul de probabilitats amb la distribució N(0,1) i tipificació. Aplicació al control de qualitat i a fenòmens socials"
+      "text": "Distribució normal: característiques, càlcul de probabilitats amb la distribució N(0,1) i tipificació. Aplicació al control de qualitat i a fenòmens socials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Distribucions de probabilitat",
-      "text": "Aproximació de la binomial a la normal: condicions i aplicació"
+      "text": "Aproximació de la binomial a la normal: condicions i aplicació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Inferència estadística",
-      "text": "Mostreig: tipus de mostreig i representativitat. Error mostral"
+      "text": "Mostreig: tipus de mostreig i representativitat. Error mostral",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Inferència estadística",
-      "text": "Distribució mostral de la proporció i de la mitjana"
+      "text": "Distribució mostral de la proporció i de la mitjana",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Inferència estadística",
-      "text": "Estimació puntual i per intervals de confiança per a la proporció i per a la mitjana (amb variància coneguda). Interpretació i ús en contextos socials"
+      "text": "Estimació puntual i per intervals de confiança per a la proporció i per a la mitjana (amb variància coneguda). Interpretació i ús en contextos socials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Inferència estadística",
-      "text": "Contrast d'hipòtesi per a la proporció i per a la mitjana (nivell introductori): plantejament, estadístic de contrast, valor p i presa de decisions"
+      "text": "Contrast d'hipòtesi per a la proporció i per a la mitjana (nivell introductori): plantejament, estadístic de contrast, valor p i presa de decisions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "B. Sentit estadístic i probabilístic",
       "subapartat": "Inferència estadística",
-      "text": "Lectura i interpretació crítica d'estudis estadístics i enquestes de l'àmbit social i econòmic: error de mostreig, interval de confiança, marge d'error i nivell de confiança"
+      "text": "Lectura i interpretació crítica d'estudis estadístics i enquestes de l'àmbit social i econòmic: error de mostreig, interval de confiança, marge d'error i nivell de confiança",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "C. Sentit numèric aplicat",
       "subapartat": "Matemàtica financera",
-      "text": "Interès simple i interès compost: capitalització i actualització"
+      "text": "Interès simple i interès compost: capitalització i actualització",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "C. Sentit numèric aplicat",
       "subapartat": "Matemàtica financera",
-      "text": "Rendes financeres: concepte, classificació i càlcul del valor actual i el valor final en rendes constants"
+      "text": "Rendes financeres: concepte, classificació i càlcul del valor actual i el valor final en rendes constants",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "C. Sentit numèric aplicat",
       "subapartat": "Matemàtica financera",
-      "text": "Préstecs: amortització de préstecs per el mètode francès (quota constant). Interpretació del quadre d'amortització"
+      "text": "Préstecs: amortització de préstecs per el mètode francès (quota constant). Interpretació del quadre d'amortització",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "C. Sentit numèric aplicat",
       "subapartat": "Matemàtica financera",
-      "text": "Aplicació de la tecnologia (full de càlcul) per a la resolució de problemes financers"
+      "text": "Aplicació de la tecnologia (full de càlcul) per a la resolució de problemes financers",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Autonomia i responsabilitat en l'aprenentatge",
-      "text": "Reflexió metacognitiva sobre el propi procés d'aprenentatge matemàtic al llarg de l'etapa"
+      "text": "Reflexió metacognitiva sobre el propi procés d'aprenentatge matemàtic al llarg de l'etapa",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Autonomia i responsabilitat en l'aprenentatge",
-      "text": "Disseny i seguiment d'estratègies personals per superar dificultats matemàtiques"
+      "text": "Disseny i seguiment d'estratègies personals per superar dificultats matemàtiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Autonomia i responsabilitat en l'aprenentatge",
-      "text": "Valoració del rigor, la precisió i la coherència interna com a valors matemàtics i socials"
+      "text": "Valoració del rigor, la precisió i la coherència interna com a valors matemàtics i socials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Matemàtiques, societat i ètica",
-      "text": "Reconeixement del poder i les limitacions de la matematització de fenòmens socials"
+      "text": "Reconeixement del poder i les limitacions de la matematització de fenòmens socials",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Matemàtiques, societat i ètica",
-      "text": "Ús responsable de les dades i els models matemàtics: privacitat, biaixos algorítmics i impacte social"
+      "text": "Ús responsable de les dades i els models matemàtics: privacitat, biaixos algorítmics i impacte social",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Matemàtiques, societat i ètica",
-      "text": "Lectura crítica d'informació estadística i matemàtica en els mitjans de comunicació i en el discurs polític"
+      "text": "Lectura crítica d'informació estadística i matemàtica en els mitjans de comunicació i en el discurs polític",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "D. Sentit socioafectiu",
       "subapartat": "Matemàtiques, societat i ètica",
-      "text": "Valoració de la contribució de les matemàtiques a la comprensió i millora de la societat"
+      "text": "Valoració de la contribució de les matemàtiques a la comprensió i millora de la societat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

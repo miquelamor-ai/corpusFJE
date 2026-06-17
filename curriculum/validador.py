@@ -270,12 +270,15 @@ class AgentCoherencia:
         else:
             print(f"    CE: {len(ces)} competències específiques, codis únics ✓")
 
-        # Criteris d'avaluació: revisar que cada CE té almenys un agrupament vàlid per etapa
+        # Criteris d'avaluació: revisar que cada CE té almenys un agrupament vàlid per etapa.
+        # Vocabulari CANÒNIC v1.2 (normalització 2026-06): claus de cicle/curs unificades
+        # PRI_C1/C2/C3, ESO_C1/C2, BAT_1R/2N. (La variant antiga CI/CM/CS, 1r_3r/4t, 1r/2n
+        # queda migrada; vegeu migració curriculum v1.2.)
         etapa = self.data.get("meta", {}).get("etapa", "")
         agrupaments_valids = {
-            "eso":         {"1r_3r", "4t"},
-            "primaria":    {"CI", "CM", "CS"},
-            "batxillerat": {"1r", "2n"},
+            "eso":         {"ESO_C1", "ESO_C2"},
+            "primaria":    {"PRI_C1", "PRI_C2", "PRI_C3"},
+            "batxillerat": {"BAT_1R", "BAT_2N"},
         }
         valids = agrupaments_valids.get(etapa, set())
 

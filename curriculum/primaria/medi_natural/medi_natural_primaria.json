@@ -9,7 +9,7 @@
     "font": "https://xtec.gencat.cat/web/.content/curriculum/primaria/curriculum-175-2022/Medi-Natural-Social-i-Cultural.pdf",
     "nota_estructura": "Generat des del Decret 175/2022 (accés directe al PDF protegit). Sabers organitzats per cicles: CI=1r-2n, CM=3r-4t, CS=5è-6è. Els criteris d'avaluació es graduen per cicle. La matèria integra ciències naturals, ciències socials i cultura, amb especial èmfasi en la indagació científica, la perspectiva historical i la identitat cultural.",
     "descripcio": "El Medi Natural, Social i Cultural és la gran matèria integradora de Primària per a l'alumnat de 6 a 12 anys. Articula els coneixements científics, socials, geogràfics i culturals en un marc holístic que ajuda l'infant a comprendre i actuar en el món que l'envolta, connectant amb els àmbits natural, convivencial, identitari i de la ciutadania activa.\n\nEls sabers de la matèria s'articulen en sis grans àmbits. La naturalesa i el medi físic inclou els éssers vius, els ecosistemes, els materials i els fenòmens naturals. La societat i la cultura treballa les formes d'organització social i la diversitat cultural. La indagació i la ciència desenvolupa el mètode científic, la formulació d'hipòtesis i l'experimentació. La història i el temps construeix la consciència temporal i el patrimoni. El territori i la sostenibilitat aborda la cartografia, el paisatge, el canvi climàtic i la responsabilitat ecològica. La identitat i la ciutadania treballa els drets, la participació democràtica i la convivència intercultural.\n\nLa metodologia és indagadora i basada en preguntes investigables: l'alumnat formula hipòtesis, recull dades del seu entorn proper, interpreta evidències i comunica conclusions de manera argumentada. El treball per projectes, les sortides al medi, l'aprenentatge servei i la discussió dialògica sobre temes socials i científics del món real constitueixen les estratègies pedagògiques centrals d'aquesta matèria.",
-    "versio_schema": "1.0"
+    "versio_schema": "1.2"
   },
   "competencies_clau": [
     "CCL",
@@ -40,17 +40,17 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           "1.1 Identificar fenòmens i situacions de l'entorn proper i formular-hi preguntes senzilles.",
           "1.2 Proposar hipòtesis simples sobre fenòmens naturals observables amb suport del professorat.",
           "1.3 Recollir informació sobre el medi natural i social a través d'observació directa, imatges i recursos digitals senzills."
         ],
-        "CM": [
+        "PRI_C2": [
           "1.1 Formular preguntes investigables sobre fenòmens naturals i socials i proposar hipòtesis fonamentades.",
           "1.2 Dissenyar i realitzar experiments senzills recollint dades i traient conclusions.",
           "1.3 Cercar informació en fonts diverses i contrastar-ne la fiabilitat per respondre preguntes d'investigació."
         ],
-        "CS": [
+        "PRI_C3": [
           "1.1 Planificar investigacions sobre fenòmens naturals i socials, definint variables i mètodes de recollida de dades.",
           "1.2 Analitzar i interpretar dades d'experiments i investigacions, elaborant conclusions fonamentades.",
           "1.3 Comunicar els resultats d'investigacions de manera rigorosa, usant vocabulari científic i formats variats."
@@ -67,17 +67,17 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           "2.1 Identificar i classificar éssers vius de l'entorn proper (animals i plantes) per les seves característiques bàsiques.",
           "2.2 Reconèixer les necessitats vitals dels éssers vius i les relacions entre ells.",
           "2.3 Identificar elements del medi natural proper (llum, temperatura, aigua) i el seu efecte en els éssers vius."
         ],
-        "CM": [
+        "PRI_C2": [
           "2.1 Identificar i classificar els principals ecosistemes del territori català i les espècies que hi viuen.",
           "2.2 Relacionar les adaptacions dels éssers vius amb les condicions del seu medi i les xarxes alimentàries.",
           "2.3 Reconèixer fenòmens físics i químics del medi (estats de la matèria, mescles, propietats) i els seus efectes."
         ],
-        "CS": [
+        "PRI_C3": [
           "2.1 Analitzar les relacions entre els éssers vius i el medi ambient, identificant factors d'equilibri i desequilibri dels ecosistemes.",
           "2.2 Explicar fenòmens naturals complexos (clima, geologia, astronomia) relacionant-los amb els cicles de la natura.",
           "2.3 Avaluar l'impacte de les activitats humanes sobre els ecosistemes i proposar mesures de conservació."
@@ -94,17 +94,17 @@
         "CPSAA"
       ],
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           "3.1 Ordenar cronològicament fets i esdeveniments de la vida quotidiana i de la història propera.",
           "3.2 Identificar canvis i continuïtats en el temps a partir de comparacions entre el passat recent i el present.",
           "3.3 Reconèixer elements del patrimoni cultural proper (festes, monuments, tradicions) i el seu valor."
         ],
-        "CM": [
+        "PRI_C2": [
           "3.1 Situar en el temps fets i processos històrics rellevants de la història de Catalunya i d'Espanya usant eixos cronològics.",
           "3.2 Identificar les causes i conseqüències de fets i processos històrics, reconeixent la multicausalitat.",
           "3.3 Reconèixer la contribució de les civilitzacions antigues (Grècia, Roma) en la configuració del món actual."
         ],
-        "CS": [
+        "PRI_C3": [
           "3.1 Analitzar processos de canvi i continuïtat en la història moderna i contemporània de Catalunya i el món.",
           "3.2 Explicar les causes i conseqüències dels principals esdeveniments i processos de la història contemporània.",
           "3.3 Valorar la diversitat cultural i el patrimoni històric com a elements de riquesa col·lectiva que cal preservar."
@@ -122,17 +122,17 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           "4.1 Identificar els elements bàsics del paisatge proper (relleu, clima, vegetació, rius) i les activitats humanes.",
           "4.2 Reconèixer alguns problemes mediambientals de l'entorn (contaminació, residus) i proposar accions senzilles.",
           "4.3 Usar mapes i plànols senzills per orientar-se i localitzar llocs."
         ],
-        "CM": [
+        "PRI_C2": [
           "4.1 Descriure i comparar els principals paisatges de Catalunya, relacionant-los amb el relleu, el clima i la vegetació.",
           "4.2 Identificar les activitats econòmiques del territori (agricultura, ramaderia, indústria, serveis) i la seva relació amb el medi.",
           "4.3 Usar mapes, escales i representacions cartogràfiques per localitzar i descriure territoris."
         ],
-        "CS": [
+        "PRI_C3": [
           "4.1 Analitzar l'organització política i administrativa de Catalunya, Espanya i Europa, i les relacions entre territoris.",
           "4.2 Avaluar els impactes mediambientals de les activitats humanes i argumentar la necessitat del desenvolupament sostenible.",
           "4.3 Interpretar dades i representacions cartogràfiques i estadístiques per analitzar problemes territorials i socials."
@@ -150,17 +150,17 @@
         "CE"
       ],
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           "5.1 Identificar les principals institucions i serveis de la vida en comunitat (escola, ajuntament, hospital) i el seu paper.",
           "5.2 Reconèixer normes de convivència i de respecte en l'entorn proper (família, escola, barri).",
           "5.3 Identificar la diversitat cultural de l'entorn proper i expressar-hi respecte."
         ],
-        "CM": [
+        "PRI_C2": [
           "5.1 Descriure l'organització de la societat catalana (famílies, grups, institucions) i les relacions entre els seus membres.",
           "5.2 Reconèixer els drets i deures dels ciutadans i el funcionament bàsic de les institucions democràtiques de Catalunya.",
           "5.3 Valorar la diversitat cultural, lingüística i religiosa de Catalunya i del món com a riquesa col·lectiva."
         ],
-        "CS": [
+        "PRI_C3": [
           "5.1 Analitzar el funcionament de les institucions democràtiques a Catalunya, Espanya i la UE, identificant els seus òrgans i funcions.",
           "5.2 Reflexionar sobre problemes socials actuals (desigualtat, migracions, drets humans) i proposar respostes fonamentades.",
           "5.3 Argumentar la importància dels valors democràtics, la igualtat de gènere i la defensa dels drets humans en la societat actual."
@@ -177,16 +177,16 @@
         "CCEC"
       ],
       "criteris_avaluacio": {
-        "CI": [
+        "PRI_C1": [
           "6.1 Expressar la pròpia identitat en relació amb la família, l'escola i el barri, reconeixent-se com a part d'una comunitat.",
           "6.2 Identificar les responsabilitats personals en la cura del medi ambient i la convivència pacífica."
         ],
-        "CM": [
+        "PRI_C2": [
           "6.1 Identificar els trets culturals propis de Catalunya (llengua, tradicions, patrimoni) i el seu valor identitari.",
           "6.2 Mostrar actituds de respecte i solidaritat envers persones de cultures, orígens i condicions diverses.",
           "6.3 Reconèixer i exercir les responsabilitats individuals i col·lectives en la cura del medi natural i social."
         ],
-        "CS": [
+        "PRI_C3": [
           "6.1 Reflexionar sobre la pròpia identitat com a membre de diverses comunitats (local, catalana, espanyola, europea, global).",
           "6.2 Argumentar la necessitat de la solidaritat global, la justícia social i la sostenibilitat per garantir el benestar de les generacions futures.",
           "6.3 Comprometre's en accions concretes que contribueixin a la millora del medi natural, social i cultural de l'entorn proper."
@@ -409,565 +409,754 @@
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "essers_vius",
-      "text": "Identificació dels éssers vius: animals i plantes de l'entorn"
+      "text": "Identificació dels éssers vius: animals i plantes de l'entorn",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "essers_vius",
-      "text": "Necessitats bàsiques dels éssers vius: alimentació, reproducció, moviment"
+      "text": "Necessitats bàsiques dels éssers vius: alimentació, reproducció, moviment",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "essers_vius",
-      "text": "Cicles vitals: naixement, creixement, reproducció i mort"
+      "text": "Cicles vitals: naixement, creixement, reproducció i mort",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "essers_vius",
-      "text": "Animals vertebrats i invertebrats: característiques bàsiques"
+      "text": "Animals vertebrats i invertebrats: característiques bàsiques",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "medi_fisic",
-      "text": "Elements de l'entorn natural: terra, aigua, aire i llum"
+      "text": "Elements de l'entorn natural: terra, aigua, aire i llum",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "medi_fisic",
-      "text": "Estats de la matèria: sòlid, líquid i gas. Observació i classificació"
+      "text": "Estats de la matèria: sòlid, líquid i gas. Observació i classificació",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "medi_fisic",
-      "text": "El temps atmosfèric: temperatura, pluja, vent. Mesura senzilla"
+      "text": "El temps atmosfèric: temperatura, pluja, vent. Mesura senzilla",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "medi_fisic",
-      "text": "El sol i la terra: dia i nit, estacions de l'any"
+      "text": "El sol i la terra: dia i nit, estacions de l'any",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "vida_en_comunitat",
-      "text": "La família: tipus de famílies i rols"
+      "text": "La família: tipus de famílies i rols",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "vida_en_comunitat",
-      "text": "El barri i la localitat: serveis, institucions i espais"
+      "text": "El barri i la localitat: serveis, institucions i espais",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "vida_en_comunitat",
-      "text": "Normes de convivència a l'escola i al barri"
+      "text": "Normes de convivència a l'escola i al barri",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "vida_en_comunitat",
-      "text": "Diversitat de persones: cultures, llengües i tradicions"
+      "text": "Diversitat de persones: cultures, llengües i tradicions",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "patrimoni_cultural",
-      "text": "Festes i tradicions locals i catalanes: Sant Jordi, Castellers, Sardana"
+      "text": "Festes i tradicions locals i catalanes: Sant Jordi, Castellers, Sardana",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "patrimoni_cultural",
-      "text": "Monuments i llocs d'interès del territori"
+      "text": "Monuments i llocs d'interès del territori",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "societat_i_cultura",
       "subapartat": "patrimoni_cultural",
-      "text": "Cançons, contes i expressions culturals pròpies"
+      "text": "Cançons, contes i expressions culturals pròpies",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "historia_i_temps",
       "subapartat": "temps_historic",
-      "text": "Conceptes de passat, present i futur. Eix cronològic senzill"
+      "text": "Conceptes de passat, present i futur. Eix cronològic senzill",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "historia_i_temps",
       "subapartat": "temps_historic",
-      "text": "Canvis en la vida quotidiana: l'escola, la família, els transports de fa 50 anys i ara"
+      "text": "Canvis en la vida quotidiana: l'escola, la família, els transports de fa 50 anys i ara",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "historia_i_temps",
       "subapartat": "temps_historic",
-      "text": "Fonts d'informació sobre el passat: fotografies, objectes, testimonis"
+      "text": "Fonts d'informació sobre el passat: fotografies, objectes, testimonis",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "orientacio_i_paisatge",
-      "text": "El paisatge de l'entorn: elements naturals i humans"
+      "text": "El paisatge de l'entorn: elements naturals i humans",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "orientacio_i_paisatge",
-      "text": "Orientació bàsica: punts cardinals, plànols senzills"
+      "text": "Orientació bàsica: punts cardinals, plànols senzills",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CI",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "orientacio_i_paisatge",
-      "text": "Cura del medi ambient: reciclatge, estalvi d'aigua i energia"
+      "text": "Cura del medi ambient: reciclatge, estalvi d'aigua i energia",
+      "nivell_norm": "PRI_C1",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "ecosistemes",
-      "text": "Ecosistemes de Catalunya: bosc mediterrani, alta muntanya, zones humides, litoral"
+      "text": "Ecosistemes de Catalunya: bosc mediterrani, alta muntanya, zones humides, litoral",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "ecosistemes",
-      "text": "Cadenes alimentàries i xarxes tròfiques"
+      "text": "Cadenes alimentàries i xarxes tròfiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "ecosistemes",
-      "text": "Adaptacions dels éssers vius al medi"
+      "text": "Adaptacions dels éssers vius al medi",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "ecosistemes",
-      "text": "Plantes: parts, funcions, reproducció. Fotosíntesi"
+      "text": "Plantes: parts, funcions, reproducció. Fotosíntesi",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "materia_i_energia",
-      "text": "Propietats de la matèria: massa, volum, densitat"
+      "text": "Propietats de la matèria: massa, volum, densitat",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "materia_i_energia",
-      "text": "Canvis físics i químics: mescles, dissolucions, combustió"
+      "text": "Canvis físics i químics: mescles, dissolucions, combustió",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "materia_i_energia",
-      "text": "L'energia: formes d'energia, fonts renovables i no renovables"
+      "text": "L'energia: formes d'energia, fonts renovables i no renovables",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "materia_i_energia",
-      "text": "Electricitat: circuits senzills, conductors i aïllants"
+      "text": "Electricitat: circuits senzills, conductors i aïllants",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "terra_i_univers",
-      "text": "Relleu de Catalunya: serralades, planes, rius, costes"
+      "text": "Relleu de Catalunya: serralades, planes, rius, costes",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "terra_i_univers",
-      "text": "El cicle de l'aigua: evaporació, condensació, precipitació"
+      "text": "El cicle de l'aigua: evaporació, condensació, precipitació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "terra_i_univers",
-      "text": "El sistema solar: planetes, moviments de la Terra (rotació i translació)"
+      "text": "El sistema solar: planetes, moviments de la Terra (rotació i translació)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "terra_i_univers",
-      "text": "Fenòmens meteorològics: tipus de núvols, vents, precipitacions"
+      "text": "Fenòmens meteorològics: tipus de núvols, vents, precipitacions",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "institucions_i_democracia",
-      "text": "L'ajuntament: estructura i funcions. Participació ciutadana"
+      "text": "L'ajuntament: estructura i funcions. Participació ciutadana",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "institucions_i_democracia",
-      "text": "La Generalitat de Catalunya: institucions principals"
+      "text": "La Generalitat de Catalunya: institucions principals",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "institucions_i_democracia",
-      "text": "Drets i deures dels ciutadans. La Constitució i l'Estatut"
+      "text": "Drets i deures dels ciutadans. La Constitució i l'Estatut",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "institucions_i_democracia",
-      "text": "Diversitat cultural a Catalunya: comunitats d'origen divers"
+      "text": "Diversitat cultural a Catalunya: comunitats d'origen divers",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "activitats_economiques",
-      "text": "Sectors econòmics: primari, secundari i terciari"
+      "text": "Sectors econòmics: primari, secundari i terciari",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "activitats_economiques",
-      "text": "Activitats agràries, ramaderes i pesqueres a Catalunya"
+      "text": "Activitats agràries, ramaderes i pesqueres a Catalunya",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "activitats_economiques",
-      "text": "La indústria i els serveis al territori"
+      "text": "La indústria i els serveis al territori",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "societat_i_cultura",
       "subapartat": "activitats_economiques",
-      "text": "El comerç local i global. Consum responsable"
+      "text": "El comerç local i global. Consum responsable",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "prehistoria_i_antiguitat",
-      "text": "La prehistòria: Paleolític, Neolític, Edat dels Metalls"
+      "text": "La prehistòria: Paleolític, Neolític, Edat dels Metalls",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "prehistoria_i_antiguitat",
-      "text": "Les civilitzacions antigues: Egipte, Grècia, Roma"
+      "text": "Les civilitzacions antigues: Egipte, Grècia, Roma",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "prehistoria_i_antiguitat",
-      "text": "La romanització de la Península Ibèrica: restes arqueològiques"
+      "text": "La romanització de la Península Ibèrica: restes arqueològiques",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "prehistoria_i_antiguitat",
-      "text": "L'edat mitjana: castells, esglésies, vida feudal"
+      "text": "L'edat mitjana: castells, esglésies, vida feudal",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "catalunya_i_espanya",
-      "text": "Orígens de Catalunya: Comtats catalans, expansió medieval"
+      "text": "Orígens de Catalunya: Comtats catalans, expansió medieval",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "catalunya_i_espanya",
-      "text": "Els Reis Catòlics i la unificació d'Espanya"
+      "text": "Els Reis Catòlics i la unificació d'Espanya",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "catalunya_i_espanya",
-      "text": "Descobriment d'Amèrica: causes i conseqüències"
+      "text": "Descobriment d'Amèrica: causes i conseqüències",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "historia_i_temps",
       "subapartat": "catalunya_i_espanya",
-      "text": "Fonts històriques: documents, mapes, obres d'art"
+      "text": "Fonts històriques: documents, mapes, obres d'art",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "cartografia",
-      "text": "Mapes: escala, llegenda, coordenades"
+      "text": "Mapes: escala, llegenda, coordenades",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "cartografia",
-      "text": "Paisatges de Catalunya: descripció i comparació"
+      "text": "Paisatges de Catalunya: descripció i comparació",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "cartografia",
-      "text": "Divisions administratives: municipis, comarques, províncies"
+      "text": "Divisions administratives: municipis, comarques, províncies",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "cartografia",
-      "text": "L'aigua: rius, llacs, embassaments de Catalunya"
+      "text": "L'aigua: rius, llacs, embassaments de Catalunya",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "mediambient",
-      "text": "Problemes mediambientals: contaminació, deforestació, canvi climàtic"
+      "text": "Problemes mediambientals: contaminació, deforestació, canvi climàtic",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "mediambient",
-      "text": "Espais naturals protegits de Catalunya"
+      "text": "Espais naturals protegits de Catalunya",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "mediambient",
-      "text": "Energies renovables: solar, eòlica, hidràulica"
+      "text": "Energies renovables: solar, eòlica, hidràulica",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CM",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "mediambient",
-      "text": "Consum sostenible: les 3R (reduir, reutilitzar, reciclar)"
+      "text": "Consum sostenible: les 3R (reduir, reutilitzar, reciclar)",
+      "nivell_norm": "PRI_C2",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "biologia_i_geologia",
-      "text": "L'ésser humà: aparells i sistemes del cos humà, funcions vitals"
+      "text": "L'ésser humà: aparells i sistemes del cos humà, funcions vitals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "biologia_i_geologia",
-      "text": "Salut i malaltia: hàbits saludables, vacunació, primers auxilis bàsics"
+      "text": "Salut i malaltia: hàbits saludables, vacunació, primers auxilis bàsics",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "biologia_i_geologia",
-      "text": "Reproducció dels éssers vius: sexuada i asexuada"
+      "text": "Reproducció dels éssers vius: sexuada i asexuada",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "biologia_i_geologia",
-      "text": "Relleu i roques: tipus de roques, erosió, formació del relleu"
+      "text": "Relleu i roques: tipus de roques, erosió, formació del relleu",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "biologia_i_geologia",
-      "text": "Geologia interna: volcans, terratrèmols, plaques tectòniques"
+      "text": "Geologia interna: volcans, terratrèmols, plaques tectòniques",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "fisica_i_quimica",
-      "text": "Forces i moviment: gravetat, fricció, forces de contacte"
+      "text": "Forces i moviment: gravetat, fricció, forces de contacte",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "fisica_i_quimica",
-      "text": "La llum: reflexió, refracció, descomposició espectral"
+      "text": "La llum: reflexió, refracció, descomposició espectral",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "fisica_i_quimica",
-      "text": "El so: vibració, propagació, aplicacions"
+      "text": "El so: vibració, propagació, aplicacions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "fisica_i_quimica",
-      "text": "Reaccions químiques: oxidació, fermentació, combustió"
+      "text": "Reaccions químiques: oxidació, fermentació, combustió",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "astronomia",
-      "text": "L'univers: galàxies, estrelles, nebuloses"
+      "text": "L'univers: galàxies, estrelles, nebuloses",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "astronomia",
-      "text": "El sistema solar: característiques dels planetes"
+      "text": "El sistema solar: característiques dels planetes",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "astronomia",
-      "text": "La lluna: fases, marees, eclipsis"
+      "text": "La lluna: fases, marees, eclipsis",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "naturalesa_i_medi_fisic",
       "subapartat": "astronomia",
-      "text": "Eines astronòmiques: telescopi, satèl·lits artificials"
+      "text": "Eines astronòmiques: telescopi, satèl·lits artificials",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "democracia_i_drets",
-      "text": "Les institucions europees: Parlament, Comissió, Tribunal"
+      "text": "Les institucions europees: Parlament, Comissió, Tribunal",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "democracia_i_drets",
-      "text": "Els drets humans: Declaració Universal de 1948"
+      "text": "Els drets humans: Declaració Universal de 1948",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "democracia_i_drets",
-      "text": "Desigualtats al món: causes i conseqüències de la pobresa"
+      "text": "Desigualtats al món: causes i conseqüències de la pobresa",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "democracia_i_drets",
-      "text": "Moviments socials i lluites per la igualtat al llarg de la història"
+      "text": "Moviments socials i lluites per la igualtat al llarg de la història",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "economia_global",
-      "text": "El comerç internacional: importacions, exportacions, globalització"
+      "text": "El comerç internacional: importacions, exportacions, globalització",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "economia_global",
-      "text": "Problemes econòmics actuals: atur, desigualtat, crisi climàtica"
+      "text": "Problemes econòmics actuals: atur, desigualtat, crisi climàtica",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "economia_global",
-      "text": "Organitzacions internacionals: ONU, UE, OMS"
+      "text": "Organitzacions internacionals: ONU, UE, OMS",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "societat_i_cultura",
       "subapartat": "economia_global",
-      "text": "Consum responsable i comerç just"
+      "text": "Consum responsable i comerç just",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_moderna",
-      "text": "L'Edat Moderna: Renaixement, Reforma protestant, monarquies absolutes"
+      "text": "L'Edat Moderna: Renaixement, Reforma protestant, monarquies absolutes",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_moderna",
-      "text": "La Il·lustració i les revolucions liberals"
+      "text": "La Il·lustració i les revolucions liberals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_moderna",
-      "text": "La Revolució Industrial: causes, conseqüències socials i ambientals"
+      "text": "La Revolució Industrial: causes, conseqüències socials i ambientals",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_moderna",
-      "text": "Catalunya al segle XIX: Renaixença, industrialització, moviment obrer"
+      "text": "Catalunya al segle XIX: Renaixença, industrialització, moviment obrer",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_contemporania",
-      "text": "El segle XX: guerres mundials, dictadures i democràcies"
+      "text": "El segle XX: guerres mundials, dictadures i democràcies",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_contemporania",
-      "text": "La transició democràtica a Espanya i l'Estatut d'Autonomia de Catalunya"
+      "text": "La transició democràtica a Espanya i l'Estatut d'Autonomia de Catalunya",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_contemporania",
-      "text": "La construcció europea i la globalització"
+      "text": "La construcció europea i la globalització",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "historia_i_temps",
       "subapartat": "historia_contemporania",
-      "text": "Reptes del segle XXI: canvi climàtic, migracions, tecnologia"
+      "text": "Reptes del segle XXI: canvi climàtic, migracions, tecnologia",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "geografia_mundial",
-      "text": "Continents, oceans i grans regions del món"
+      "text": "Continents, oceans i grans regions del món",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "geografia_mundial",
-      "text": "Climes del món: tropical, polar, mediterrani, continental"
+      "text": "Climes del món: tropical, polar, mediterrani, continental",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "geografia_mundial",
-      "text": "Recursos naturals i la seva distribució al planeta"
+      "text": "Recursos naturals i la seva distribució al planeta",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "geografia_mundial",
-      "text": "Grans problemes mediambientals: desertificació, pèrdua de biodiversitat, contaminació"
+      "text": "Grans problemes mediambientals: desertificació, pèrdua de biodiversitat, contaminació",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "sostenibilitat",
-      "text": "Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030"
+      "text": "Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "sostenibilitat",
-      "text": "Canvi climàtic: causes, efectes i solucions"
+      "text": "Canvi climàtic: causes, efectes i solucions",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "sostenibilitat",
-      "text": "Economia circular i transició ecològica"
+      "text": "Economia circular i transició ecològica",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     },
     {
       "nivell": "CS",
       "bloc": "territori_i_sostenibilitat",
       "subapartat": "sostenibilitat",
-      "text": "Acció local per a un futur sostenible: exemples de bones pràctiques"
+      "text": "Acció local per a un futur sostenible: exemples de bones pràctiques",
+      "nivell_norm": "PRI_C3",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

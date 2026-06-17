@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/ciencies/Ciencies-de-la-Terra-i-del-Medi-Ambient.pdf",
     "nota_estructura": "Matèria de 2n de Batxillerat, modalitat Ciències. Integra geologia, meteorologia i ciències ambientals.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "Les Ciències de la Terra i del Medi Ambient s'ofereix a 2n de Batxillerat com una matèria integradora que articula geologia, meteorologia i ciències ambientals. Forma alumnes capaços d'entendre el planeta com un sistema complex i interconnectat, i prepara per a estudis universitaris de Geologia, Ciències Ambientals, Enginyeria Civil, Meteorologia i àmbits relacionats amb la sostenibilitat.\n\nLa matèria treballa la dinàmica interna i externa de la Terra entenent-la com un sistema de sistemes: la geosfera, la hidrosfera, l'atmosfera i la biosfera interaccionen en processos com la tectònica de plaques, el vulcanisme o la formació de relleu. El canvi climàtic hi ocupa un lloc central, abordant l'efecte hivernacle, les emissions de gasos, els escenaris de temperatura i les polítiques d'adaptació i mitigació. S'estudien els riscos geològics i meteorològics —sismes, tsunamis, inundacions, sequeres— i els mecanismes de predicció i gestió. La contaminació de l'aire, l'aigua i el sòl, la gestió dels recursos naturals —energia, biodiversitat, minerals— i el marc del desenvolupament sostenible completen el vocabulari específic de la disciplina.\n\nL'enfocament pedagògic d'aquesta matèria privilegia l'anàlisi de casos reals i problemes ambientals actuals. L'alumne treballa amb cartografia, imatges de satèl·lit, gràfics climàtics i dades d'organismes com l'IPCC o l'IPMA. Les sortides de camp, l'observació de perfils geològics i la interpretació de mapes topogràfics i geològics donen concreció pràctica a uns continguts que exigeixen constant connexió entre l'escala local i la global."
   },
   "competencies_clau": [
@@ -26,23 +26,27 @@
       "codi": "CE1",
       "text": "Analitzar el funcionament de la Terra com a sistema de sistemes interconnectats (geosfera, hidrosfera, atmosfera i biosfera), interpretant els fluxos d'energia i de matèria entre els subsistemes per comprendre l'origen dels recursos naturals i la dinàmica del planeta.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Descriure l'estructura interna de la Terra (escorça, mantell, nucli extern i intern), relacionar-la amb les ones sísmiques i interpretar les discontinuïtats de Mohorovičić, Gutenberg i Lehmann com a evidències de la diferenciació interna."
+            "text": "Descriure l'estructura interna de la Terra (escorça, mantell, nucli extern i intern), relacionar-la amb les ones sísmiques i interpretar les discontinuïtats de Mohorovičić, Gutenberg i Lehmann com a evidències de la diferenciació interna.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.2",
-            "text": "Explicar la teoria de la tectònica de plaques: moviment de les plaques litosferiques, límits (divergents, convergents i transformants) i fenòmens associats (expansió oceànica, subducció, orogènesi, vulcanisme i sismicitat)."
+            "text": "Explicar la teoria de la tectònica de plaques: moviment de les plaques litosferiques, límits (divergents, convergents i transformants) i fenòmens associats (expansió oceànica, subducció, orogènesi, vulcanisme i sismicitat).",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.3",
-            "text": "Analitzar el cicle de les roques (ígnia, sedimentàries i metamòrfiques), identificant els processos de formació, erosió, transport, sedimentació i metamorfisme, i relacionant el tipus de roca amb el context geotectònic."
+            "text": "Analitzar el cicle de les roques (ígnia, sedimentàries i metamòrfiques), identificant els processos de formació, erosió, transport, sedimentació i metamorfisme, i relacionant el tipus de roca amb el context geotectònic.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.4",
-            "text": "Descriure el cicle hidrològic global: evaporació, transpiració, precipitació, escorrentia, infiltració i flux subterrani; calcular el balanç hídric d'una conca i interpretar-ne les implicacions."
+            "text": "Descriure el cicle hidrològic global: evaporació, transpiració, precipitació, escorrentia, infiltració i flux subterrani; calcular el balanç hídric d'una conca i interpretar-ne les implicacions.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -51,23 +55,27 @@
       "codi": "CE2",
       "text": "Interpretar el canvi climàtic com a fenomen global d'origen principalment antròpic, analitzant les causes, els mecanismes i les conseqüències sobre els sistemes terrestres, per avaluar la urgència d'una transició cap a un model de societat baix en carboni.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Descriure la composició i l'estructura de l'atmosfera (troposfera, estratosfera, mesosfera i termosfera), explicant el paper de cada capa en la regulació del clima i la protecció envers la radiació UV."
+            "text": "Descriure la composició i l'estructura de l'atmosfera (troposfera, estratosfera, mesosfera i termosfera), explicant el paper de cada capa en la regulació del clima i la protecció envers la radiació UV.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.2",
-            "text": "Interpretar el balanç de radiació de la Terra (albedo, efecte hivernacle natural i antropogènic) i relacionar-lo amb la temperatura global; analitzar les dades de CO₂ atmosfèric (corba de Keeling) i de temperatura global des de l'era preindustrial."
+            "text": "Interpretar el balanç de radiació de la Terra (albedo, efecte hivernacle natural i antropogènic) i relacionar-lo amb la temperatura global; analitzar les dades de CO₂ atmosfèric (corba de Keeling) i de temperatura global des de l'era preindustrial.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.3",
-            "text": "Analitzar les conseqüències del canvi climàtic: augment del nivell del mar, acidificació dels oceans, intensificació d'extrems meteorològics, desplaçament de biomes, pèrdua de biodiversitat i desplaçaments de població."
+            "text": "Analitzar les conseqüències del canvi climàtic: augment del nivell del mar, acidificació dels oceans, intensificació d'extrems meteorològics, desplaçament de biomes, pèrdua de biodiversitat i desplaçaments de població.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.4",
-            "text": "Avaluar les polítiques de mitigació del canvi climàtic (reducció d'emissions, energia renovable, eficiència energètica, captura de carboni) i d'adaptació (infraestructures resilients, gestió del risc, adaptació agrícola), argumentant la urgència i la viabilitat de les propostes."
+            "text": "Avaluar les polítiques de mitigació del canvi climàtic (reducció d'emissions, energia renovable, eficiència energètica, captura de carboni) i d'adaptació (infraestructures resilients, gestió del risc, adaptació agrícola), argumentant la urgència i la viabilitat de les propostes.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -76,19 +84,22 @@
       "codi": "CE3",
       "text": "Analitzar els riscos geològics i meteorològics (sismes, volcans, inundacions, sequeres, onades de calor) identificant els factors que en determinen la perillositat, la vulnerabilitat i el risc, per argumentar mesures de prevenció, mitigació i adaptació.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Analitzar els processos geològics interns que generen riscos: sismicitat (magnitud, intensitat, escales de Richter i Mercalli), vulcanisme (tipus d'erupcions i productes) i tsunamis; identificar les zones de major perillositat al món i a Catalunya."
+            "text": "Analitzar els processos geològics interns que generen riscos: sismicitat (magnitud, intensitat, escales de Richter i Mercalli), vulcanisme (tipus d'erupcions i productes) i tsunamis; identificar les zones de major perillositat al món i a Catalunya.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.2",
-            "text": "Identificar els riscos geomorfològics (esllavissades, despreniments, subsidència, karst) i les situacions meteorològiques extremes (inundacions, sequeres, onades de calor, tornados) que afecten Catalunya, analitzant els factors d'exposició i vulnerabilitat de la població."
+            "text": "Identificar els riscos geomorfològics (esllavissades, despreniments, subsidència, karst) i les situacions meteorològiques extremes (inundacions, sequeres, onades de calor, tornados) que afecten Catalunya, analitzant els factors d'exposició i vulnerabilitat de la població.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.3",
-            "text": "Avaluar l'impacte social i econòmic dels riscos naturals, comparant la gestió preventiva (cartografia de riscos, ordenació del territori, sistemes d'alerta primerenca) i la gestió d'emergències; analitzar casos reals de desastres naturals."
+            "text": "Avaluar l'impacte social i econòmic dels riscos naturals, comparant la gestió preventiva (cartografia de riscos, ordenació del territori, sistemes d'alerta primerenca) i la gestió d'emergències; analitzar casos reals de desastres naturals.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -97,19 +108,22 @@
       "codi": "CE4",
       "text": "Identificar i avaluar els problemes ambientals derivats de la contaminació de l'aire, de l'aigua i del sòl, relacionant-los amb les activitats humanes i analitzant les tecnologies i les polítiques de reducció i remediació ambiental.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Identificar els contaminants atmosfèrics principals (SO₂, NOx, O₃ troposfèric, partícules en suspensió PM2.5 i PM10, CO, compostos orgànics volàtils), les seves fonts i els efectes sobre la salut humana i l'ecosistema; relacionar-los amb la pluja àcida i el smog fotoquímic."
+            "text": "Identificar els contaminants atmosfèrics principals (SO₂, NOx, O₃ troposfèric, partícules en suspensió PM2.5 i PM10, CO, compostos orgànics volàtils), les seves fonts i els efectes sobre la salut humana i l'ecosistema; relacionar-los amb la pluja àcida i el smog fotoquímic.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.2",
-            "text": "Analitzar el problema de la destrucció de la capa d'ozó estratosfèric: el paper dels CFC i altres halogenurs, el forat de l'ozó a l'Antàrtida i el Protocol de Mont-real com a exemple d'acció global efectiva."
+            "text": "Analitzar el problema de la destrucció de la capa d'ozó estratosfèric: el paper dels CFC i altres halogenurs, el forat de l'ozó a l'Antàrtida i el Protocol de Mont-real com a exemple d'acció global efectiva.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.3",
-            "text": "Descriure els processos de contaminació de l'aigua (eutrofització, contaminants emergents, plàstics, metalls pesants, nitrats) i del sòl (pesticides, hidrocarburs, abocaments), avaluant les tècniques de tractament i remediació."
+            "text": "Descriure els processos de contaminació de l'aigua (eutrofització, contaminants emergents, plàstics, metalls pesants, nitrats) i del sòl (pesticides, hidrocarburs, abocaments), avaluant les tècniques de tractament i remediació.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -118,23 +132,27 @@
       "codi": "CE5",
       "text": "Analitzar la gestió dels recursos naturals (energia, aigua, sòl, minerals i biodiversitat), avaluant la petjada ecològica de les activitats humanes i argumentant estratègies de gestió sostenible que compatibilitzin el benestar humà amb la capacitat de càrrega del planeta.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Analitzar els recursos energètics (combustibles fòssils, energia nuclear, energies renovables: solar, eòlica, hidràulica, geotèrmica, biomassa), comparant-ne la disponibilitat, l'impacte ambiental i el potencial en el mix energètic de Catalunya."
+            "text": "Analitzar els recursos energètics (combustibles fòssils, energia nuclear, energies renovables: solar, eòlica, hidràulica, geotèrmica, biomassa), comparant-ne la disponibilitat, l'impacte ambiental i el potencial en el mix energètic de Catalunya.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.2",
-            "text": "Descriure el cicle de l'aigua com a recurs: disponibilitat global, ús agrícola, industrial i domèstic; analitzar la gestió de l'aigua a Catalunya (conques, embassaments, aqüífers, depuració) i les amenaces (sequera, contaminació, sobreexplotació)."
+            "text": "Descriure el cicle de l'aigua com a recurs: disponibilitat global, ús agrícola, industrial i domèstic; analitzar la gestió de l'aigua a Catalunya (conques, embassaments, aqüífers, depuració) i les amenaces (sequera, contaminació, sobreexplotació).",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.3",
-            "text": "Analitzar el sòl com a recurs no renovable: formació i estructura de l'horitzó edàfic, factors de degradació (erosió, salinització, desertificació, contaminació) i estratègies de conservació i restauració."
+            "text": "Analitzar el sòl com a recurs no renovable: formació i estructura de l'horitzó edàfic, factors de degradació (erosió, salinització, desertificació, contaminació) i estratègies de conservació i restauració.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.4",
-            "text": "Avaluar l'impacte de l'activitat humana des de la perspectiva de la petjada ecològica i la petjada de carboni; comparar el consum de recursos entre països i argumentar models de producció i consum sostenibles (economia circular, zero residus)."
+            "text": "Avaluar l'impacte de l'activitat humana des de la perspectiva de la petjada ecològica i la petjada de carboni; comparar el consum de recursos entre països i argumentar models de producció i consum sostenibles (economia circular, zero residus).",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -143,19 +161,22 @@
       "codi": "CE6",
       "text": "Comprendre i aplicar els principis del desenvolupament sostenible i de la sostenibilitat planetària, analitzant les eines de governança ambiental (ODS, Acords de París, legislació ambiental), per participar de manera crítica i responsable en els debats sobre el futur del planeta.",
       "criteris_avaluacio": {
-        "1r": [],
-        "2n": [
+        "BAT_1R": [],
+        "BAT_2N": [
           {
             "codi": "CA6.1",
-            "text": "Comprendre els Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030 i els Acords de París (COP21), analitzant els mecanismes de seguiment, els compromisos dels estats i les bretxes entre objectius i realitats."
+            "text": "Comprendre els Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030 i els Acords de París (COP21), analitzant els mecanismes de seguiment, els compromisos dels estats i les bretxes entre objectius i realitats.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA6.2",
-            "text": "Analitzar la legislació ambiental europea i catalana (Directiva Marc de l'Aigua, Directiva d'Hàbitats, Llei de Residus) com a eines de regulació i de protecció ambiental; valorar el paper de la ciutadania i dels moviments socials en la transició ecològica."
+            "text": "Analitzar la legislació ambiental europea i catalana (Directiva Marc de l'Aigua, Directiva d'Hàbitats, Llei de Residus) com a eines de regulació i de protecció ambiental; valorar el paper de la ciutadania i dels moviments socials en la transició ecològica.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA6.3",
-            "text": "Dissenyar i comunicar una proposta d'acció local per a la millora ambiental (eficiència energètica, gestió de residus, biodiversitat urbana, mobilitat sostenible), argumentant-la amb dades científiques i integrant criteris de justícia social."
+            "text": "Dissenyar i comunicar una proposta d'acció local per a la millora ambiental (eficiència energètica, gestió de residus, biodiversitat urbana, mobilitat sostenible), argumentant-la amb dades científiques i integrant criteris de justícia social.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -248,361 +269,482 @@
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "La Terra com a sistema: interaccions entre geosfera, hidrosfera, atmosfera i biosfera; concepte d'esferes terrestres i retroalimentació"
+      "text": "La Terra com a sistema: interaccions entre geosfera, hidrosfera, atmosfera i biosfera; concepte d'esferes terrestres i retroalimentació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "L'estructura interna de la Terra: escorça continental i oceànica, mantell superior i inferior, nucli extern líquid i nucli intern sòlid"
+      "text": "L'estructura interna de la Terra: escorça continental i oceànica, mantell superior i inferior, nucli extern líquid i nucli intern sòlid",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "Les ones sísmiques: ones P (longitudinals) i ones S (transversals); velocitat de propagació i discontinuïtats de Mohorovičić, Gutenberg i Lehmann"
+      "text": "Les ones sísmiques: ones P (longitudinals) i ones S (transversals); velocitat de propagació i discontinuïtats de Mohorovičić, Gutenberg i Lehmann",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "La tectònica de plaques: teoria de la deriva continental (Wegener) i evidències; expansió del fons oceànic (anomalies magnètiques, dorsals)"
+      "text": "La tectònica de plaques: teoria de la deriva continental (Wegener) i evidències; expansió del fons oceànic (anomalies magnètiques, dorsals)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "Els límits de plaques: divergents (rifts i dorsals oceàniques), convergents (subducció i col·lisió continental) i transformants; fenòmens associats"
+      "text": "Els límits de plaques: divergents (rifts i dorsals oceàniques), convergents (subducció i col·lisió continental) i transformants; fenòmens associats",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "El vulcanisme: tipus de volcans (escudells, estrombolians, plinions); productes volcànics (lava, piroclastos, gasos); zones de vulcanisme"
+      "text": "El vulcanisme: tipus de volcans (escudells, estrombolians, plinions); productes volcànics (lava, piroclastos, gasos); zones de vulcanisme",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "La sismicitat: focus i epicentre; escala de magnitud (Richter, moment sísmic) i d'intensitat (Mercalli); distribució geogràfica"
+      "text": "La sismicitat: focus i epicentre; escala de magnitud (Richter, moment sísmic) i d'intensitat (Mercalli); distribució geogràfica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "El cicle de les roques: roques ígnies (intrusives i efusives), sedimentàries (detritiques, químiques i orgàniques) i metamòrfiques; diagrames del cicle"
+      "text": "El cicle de les roques: roques ígnies (intrusives i efusives), sedimentàries (detritiques, químiques i orgàniques) i metamòrfiques; diagrames del cicle",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "L'orogènesi: formació de serralades per col·lisió continental (Himàlaies, Alps) i per acreció d'arcs insulars"
+      "text": "L'orogènesi: formació de serralades per col·lisió continental (Himàlaies, Alps) i per acreció d'arcs insulars",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "El cicle hidrològic: evaporació, transpiració, condensació, precipitació, escorrentia superficial, infiltració i flux subterrani"
+      "text": "El cicle hidrològic: evaporació, transpiració, condensació, precipitació, escorrentia superficial, infiltració i flux subterrani",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "Les aigües subterrànies: aqüífers lliures i confinats, piezometria i recàrrega; vulnerabilitat a la contaminació"
+      "text": "Les aigües subterrànies: aqüífers lliures i confinats, piezometria i recàrrega; vulnerabilitat a la contaminació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "El balanç hídric d'una conca: precipitació = evapotranspiració + escorrentia + variació d'emmagatzematge"
+      "text": "El balanç hídric d'una conca: precipitació = evapotranspiració + escorrentia + variació d'emmagatzematge",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "sistemes_terrestres",
       "subapartat": null,
-      "text": "L'acció geològica del vent, les glaceres i els rius: erosió, transport i sedimentació; modelat del relleu"
+      "text": "L'acció geològica del vent, les glaceres i els rius: erosió, transport i sedimentació; modelat del relleu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "La composició de l'atmosfera: nitrogen (78%), oxigen (21%), argó, CO₂ i gasos traça; variació temporal de la composició"
+      "text": "La composició de l'atmosfera: nitrogen (78%), oxigen (21%), argó, CO₂ i gasos traça; variació temporal de la composició",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "L'estructura vertical de l'atmosfera: troposfera, tropopausa, estratosfera, mesosfera, termosfera i exosfera; perfils de temperatura"
+      "text": "L'estructura vertical de l'atmosfera: troposfera, tropopausa, estratosfera, mesosfera, termosfera i exosfera; perfils de temperatura",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "La radiació solar i terrestre: espectre electromagnètic, albedo, efecte hivernacle natural; l'atmosfera com a reguladora del clima"
+      "text": "La radiació solar i terrestre: espectre electromagnètic, albedo, efecte hivernacle natural; l'atmosfera com a reguladora del clima",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "El balanç de radiació de la Terra: radiació incident solar vs. radiació infraroja emesa; forçament radiatiu i sensibilitat climàtica"
+      "text": "El balanç de radiació de la Terra: radiació incident solar vs. radiació infraroja emesa; forçament radiatiu i sensibilitat climàtica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "La circulació general de l'atmosfera: cel·les de Hadley, Ferrel i polar; vents de superfície, la jet stream i els anticiclons"
+      "text": "La circulació general de l'atmosfera: cel·les de Hadley, Ferrel i polar; vents de superfície, la jet stream i els anticiclons",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "El cicle de l'aigua a l'atmosfera: humitat relativa, punt de rosada, formació de núvols i precipitació (pluja, neu, calamarsa)"
+      "text": "El cicle de l'aigua a l'atmosfera: humitat relativa, punt de rosada, formació de núvols i precipitació (pluja, neu, calamarsa)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "Els fenòmens meteorològics extrems: temporals, llevantades, inundacions, sequeres, onades de calor i tornados a Catalunya i a la Mediterrània"
+      "text": "Els fenòmens meteorològics extrems: temporals, llevantades, inundacions, sequeres, onades de calor i tornados a Catalunya i a la Mediterrània",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "Els oceans: corrents oceàniques superficials (impulsats pel vent) i profundes (circulació termohalina); el paper dels oceans en la regulació del clima"
+      "text": "Els oceans: corrents oceàniques superficials (impulsats pel vent) i profundes (circulació termohalina); el paper dels oceans en la regulació del clima",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "El fenomen El Niño-Oscil·lació del Sud (ENSO): mecanisme, periodicitat i efectes globals sobre precipitació i temperatura"
+      "text": "El fenomen El Niño-Oscil·lació del Sud (ENSO): mecanisme, periodicitat i efectes globals sobre precipitació i temperatura",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "L'acidificació dels oceans: absorció de CO₂, formació d'àcid carbònic, disminució del pH i efecte sobre els arrecifes de corall i la cadena tròfica marina"
+      "text": "L'acidificació dels oceans: absorció de CO₂, formació d'àcid carbònic, disminució del pH i efecte sobre els arrecifes de corall i la cadena tròfica marina",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "La criosfera: glaceres alpines i polars, permafrost, casquets polars; indicadors del canvi climàtic i retroalimentació positiva (albedo glacial)"
+      "text": "La criosfera: glaceres alpines i polars, permafrost, casquets polars; indicadors del canvi climàtic i retroalimentació positiva (albedo glacial)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "atmosfera_i_hidrosfera",
       "subapartat": null,
-      "text": "Les projeccions climàtiques: models de circulació general (GCM), escenaris RCP i SSP de l'IPCC; incerteses i intervals de confiança"
+      "text": "Les projeccions climàtiques: models de circulació general (GCM), escenaris RCP i SSP de l'IPCC; incerteses i intervals de confiança",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La composició mineralògica i petrològica de l'escorça: minerals principals (quars, feldspats, miques, calcita, dolomita); roca mare i sòl"
+      "text": "La composició mineralògica i petrològica de l'escorça: minerals principals (quars, feldspats, miques, calcita, dolomita); roca mare i sòl",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La formació del sòl: processos de meteorització física i química (hidròlisi, oxidació, carbonatació); perfil edàfic: horitzons O, A, B, C i R"
+      "text": "La formació del sòl: processos de meteorització física i química (hidròlisi, oxidació, carbonatació); perfil edàfic: horitzons O, A, B, C i R",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "Les propietats del sòl: textura (argila, llim, sorra), estructura, porositat, permeabilitat, capacitat de retenció d'aigua i contingut de matèria orgànica"
+      "text": "Les propietats del sòl: textura (argila, llim, sorra), estructura, porositat, permeabilitat, capacitat de retenció d'aigua i contingut de matèria orgànica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La microbiota del sòl: bacteris, fongs, actinomicets i fauna edàfica; mineralització i humificació de la matèria orgànica"
+      "text": "La microbiota del sòl: bacteris, fongs, actinomicets i fauna edàfica; mineralització i humificació de la matèria orgànica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La degradació del sòl: erosió hídrica i eòlica, compactació, salinització, acidificació i contaminació; indicadors de qualitat"
+      "text": "La degradació del sòl: erosió hídrica i eòlica, compactació, salinització, acidificació i contaminació; indicadors de qualitat",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La desertificació: zones susceptibles (regions semiàrides), factors climàtics i antròpics; situació a la Mediterrània i en especial a Catalunya i Espanya"
+      "text": "La desertificació: zones susceptibles (regions semiàrides), factors climàtics i antròpics; situació a la Mediterrània i en especial a Catalunya i Espanya",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La restauració de sòls degradats: revegetació, tècniques antieros és (bancals, cobertes vegetals, contorn), compostatge i remediació de sòls contaminats"
+      "text": "La restauració de sòls degradats: revegetació, tècniques antieros és (bancals, cobertes vegetals, contorn), compostatge i remediació de sòls contaminats",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "El risc geomorfològic: esllavissades (tipus: cau, relliscament, flux de fang), factors desencadenants (pluja intensa, sisme, canvi d'ús del sòl)"
+      "text": "El risc geomorfològic: esllavissades (tipus: cau, relliscament, flux de fang), factors desencadenants (pluja intensa, sisme, canvi d'ús del sòl)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "Els processos càrstics: dissolució de carbonats, espeleogènesi, dolines, poljes i aqüífers càrstics; vulnerabilitat a la contaminació"
+      "text": "Els processos càrstics: dissolució de carbonats, espeleogènesi, dolines, poljes i aqüífers càrstics; vulnerabilitat a la contaminació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "litosfera",
       "subapartat": null,
-      "text": "La subsidència i el col·lapse del terreny: causes naturals i antròpiques (explotació d'aqüífers, mineria); exemples a Catalunya"
+      "text": "La subsidència i el col·lapse del terreny: causes naturals i antròpiques (explotació d'aqüífers, mineria); exemples a Catalunya",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La contaminació atmosfèrica urbana: contaminants primaris (NOx, SO₂, CO, partícules) i secundaris (O₃ troposfèric, nitrats, sulfats); índex de qualitat de l'aire (ICA)"
+      "text": "La contaminació atmosfèrica urbana: contaminants primaris (NOx, SO₂, CO, partícules) i secundaris (O₃ troposfèric, nitrats, sulfats); índex de qualitat de l'aire (ICA)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "El smog fotoquímic: condicions meteorològiques (inversió tèrmica, calma), reaccions químiques i efectes sobre la salut"
+      "text": "El smog fotoquímic: condicions meteorològiques (inversió tèrmica, calma), reaccions químiques i efectes sobre la salut",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La pluja àcida: formació (SO₂ + NOx + H₂O), deposició seca i humida, efectes sobre boscos, llacs i edificis; mesures de reducció"
+      "text": "La pluja àcida: formació (SO₂ + NOx + H₂O), deposició seca i humida, efectes sobre boscos, llacs i edificis; mesures de reducció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La destrucció de la capa d'ozó: reaccions de descomposició (CFC + hv → Cl·; Cl· + O₃ → ClO + O₂); el forat de l'ozó antàrtic i el Protocol de Mont-real"
+      "text": "La destrucció de la capa d'ozó: reaccions de descomposició (CFC + hv → Cl·; Cl· + O₃ → ClO + O₂); el forat de l'ozó antàrtic i el Protocol de Mont-real",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "El canvi climàtic: gasos d'efecte hivernacle (CO₂, CH₄, N₂O, vapor d'aigua, CFC); fonts antròpiques i naturals; concentracions actuals i tendències"
+      "text": "El canvi climàtic: gasos d'efecte hivernacle (CO₂, CH₄, N₂O, vapor d'aigua, CFC); fonts antròpiques i naturals; concentracions actuals i tendències",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "L'efecte hivernacle antropogènic: forçament radiatiu per GEH, retroalimentacions (permafrost, albedo, vapor d'aigua), sèries de temperatura global"
+      "text": "L'efecte hivernacle antropogènic: forçament radiatiu per GEH, retroalimentacions (permafrost, albedo, vapor d'aigua), sèries de temperatura global",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La contaminació de l'aigua superficial: eutrofització (nitrats i fosfats, floracions d'algues, hipoxia), contaminants orgànics persistents (POPs), metalls pesants"
+      "text": "La contaminació de l'aigua superficial: eutrofització (nitrats i fosfats, floracions d'algues, hipoxia), contaminants orgànics persistents (POPs), metalls pesants",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La contaminació de l'aigua subterrània: nitrats agrícoles, pesticides, hidrocarburs, compostos farmacèutics; dificultat de remediació"
+      "text": "La contaminació de l'aigua subterrània: nitrats agrícoles, pesticides, hidrocarburs, compostos farmacèutics; dificultat de remediació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "Els microplàstics i la contaminació plàstica: fonts (residus urbans, fibres tèxtils, pneumàtics), transports als oceans, impacte sobre la biota marina i la cadena alimentària humana"
+      "text": "Els microplàstics i la contaminació plàstica: fonts (residus urbans, fibres tèxtils, pneumàtics), transports als oceans, impacte sobre la biota marina i la cadena alimentària humana",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La contaminació del sòl: hidrocarburs, metalls pesants (plom, cadmi, mercuri), pesticides organoclorats; lloc contaminat, perill i remediació (biorremediació, fitoremediació)"
+      "text": "La contaminació del sòl: hidrocarburs, metalls pesants (plom, cadmi, mercuri), pesticides organoclorats; lloc contaminat, perill i remediació (biorremediació, fitoremediació)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "El soroll i la contaminació lluminosa: fonts, efectes sobre la salut i la biodiversitat, mesures de mitigació"
+      "text": "El soroll i la contaminació lluminosa: fonts, efectes sobre la salut i la biodiversitat, mesures de mitigació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "problemes_ambientals",
       "subapartat": null,
-      "text": "La generació de residus: residus sòlids urbans (RSU), residus industrials, residus perillosos i residus radioactius; gestió (prevenció, reutilització, reciclatge, tractament, abocador)"
+      "text": "La generació de residus: residus sòlids urbans (RSU), residus industrials, residus perillosos i residus radioactius; gestió (prevenció, reutilització, reciclatge, tractament, abocador)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "El desenvolupament sostenible: definició (Informe Brundtland 1987), tres dimensions (ambiental, social i econòmica) i els límits planetaris (Rockström)"
+      "text": "El desenvolupament sostenible: definició (Informe Brundtland 1987), tres dimensions (ambiental, social i econòmica) i els límits planetaris (Rockström)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "Els Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030: estructura, indicadors i progrés global; ODS rellevants per al medi ambient (6, 7, 11, 12, 13, 14, 15)"
+      "text": "Els Objectius de Desenvolupament Sostenible (ODS) de l'Agenda 2030: estructura, indicadors i progrés global; ODS rellevants per al medi ambient (6, 7, 11, 12, 13, 14, 15)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "El canvi climàtic i la governança internacional: IPCC (informes, grups de treball), Cimeres del Clima (COP), Acords de París (objectiu 1,5 °C) i el Pacte Verd Europeu"
+      "text": "El canvi climàtic i la governança internacional: IPCC (informes, grups de treball), Cimeres del Clima (COP), Acords de París (objectiu 1,5 °C) i el Pacte Verd Europeu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "La transició energètica: mix energètic actual (global i de Catalunya), potencial de les energies renovables, obstacles i polítiques d'impuls; el pla PROENCAT"
+      "text": "La transició energètica: mix energètic actual (global i de Catalunya), potencial de les energies renovables, obstacles i polítiques d'impuls; el pla PROENCAT",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "L'economia circular: principis (disseny per a la durabilitat i la reparabilitat, reducció de residus, recuperació de materials), exemples d'aplicació industrial i domèstica"
+      "text": "L'economia circular: principis (disseny per a la durabilitat i la reparabilitat, reducció de residus, recuperació de materials), exemples d'aplicació industrial i domèstica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "La petjada ecològica i la petjada de carboni: concepte, càlcul simplificat, comparativa entre països i estils de vida; biocapacitat i dèficit ecològic"
+      "text": "La petjada ecològica i la petjada de carboni: concepte, càlcul simplificat, comparativa entre països i estils de vida; biocapacitat i dèficit ecològic",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "La gestió forestal sostenible: funcions del bosc (captura de carboni, regulació hidrològica, biodiversitat), amenaces (incendis, sequera, canvi climàtic), certificació FSC"
+      "text": "La gestió forestal sostenible: funcions del bosc (captura de carboni, regulació hidrològica, biodiversitat), amenaces (incendis, sequera, canvi climàtic), certificació FSC",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "La gestió dels recursos hídrics: demanda agrícola (70%), industrial (20%) i urbana (10%); mesures d'estalvi, reutilització d'aigües regenerades i dessalació"
+      "text": "La gestió dels recursos hídrics: demanda agrícola (70%), industrial (20%) i urbana (10%); mesures d'estalvi, reutilització d'aigües regenerades i dessalació",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "La gestió de la biodiversitat: xarxa Natura 2000, corredors ecològics, espècies protegides i espècies invasores; estratègia de biodiversitat de la UE 2030"
+      "text": "La gestió de la biodiversitat: xarxa Natura 2000, corredors ecològics, espècies protegides i espècies invasores; estratègia de biodiversitat de la UE 2030",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "L'avaluació d'impacte ambiental (AIA): procediment, continguts de l'EIA, participació pública i declaració d'impacte ambiental; exemples a Catalunya"
+      "text": "L'avaluació d'impacte ambiental (AIA): procediment, continguts de l'EIA, participació pública i declaració d'impacte ambiental; exemples a Catalunya",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "La legislació ambiental catalana i europea: Llei de Residus i Sòls Contaminats, Directiva Marc de l'Aigua (DMA), Directiva d'Emissions Industrials (DEI) i Reglament de Floresta Europea"
+      "text": "La legislació ambiental catalana i europea: Llei de Residus i Sòls Contaminats, Directiva Marc de l'Aigua (DMA), Directiva d'Emissions Industrials (DEI) i Reglament de Floresta Europea",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "L'ecologia urbana i la mobilitat sostenible: concepte de ciutat sostenible, infraestructura verda, transport públic, vehicle elèctric i micromovilitat; el cas de les superilles a Barcelona"
+      "text": "L'ecologia urbana i la mobilitat sostenible: concepte de ciutat sostenible, infraestructura verda, transport públic, vehicle elèctric i micromovilitat; el cas de les superilles a Barcelona",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "gestio_sostenible",
       "subapartat": null,
-      "text": "El paper de la ciutadania en la transició ecològica: consum responsable, activisme climàtic, participació en polítiques locals i moviments socials (Fridays for Future, Extinction Rebellion)"
+      "text": "El paper de la ciutadania en la transició ecològica: consum responsable, activisme climàtic, participació en polítiques locals i moviments socials (Fridays for Future, Extinction Rebellion)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

@@ -8,7 +8,7 @@
     "data_decret": "2022-09-20",
     "font": "https://xtec.gencat.cat/web/.content/curriculum/batxillerat/curriculum-171-2022/materies-modalitat/humanitats-cs/Grec.pdf",
     "nota_estructura": "Matèria de 1r i 2n de Batxillerat, modalitat Humanitats.",
-    "versio_schema": "1.0",
+    "versio_schema": "1.2",
     "descripcio": "El Grec és matèria dels dos cursos de Batxillerat, modalitat Humanitats, i serveix per accedir directament a les fonts de la cultura occidental clàssica. Aporta formació filològica sòlida que connecta amb estudis de lletres clàssiques, filosofia, història antiga, lingüística i medicina, i proporciona eines per a la comprensió del lèxic científic i cultural d'origen hel·lènic presents en nombrosos àmbits del coneixement.\n\nLa matèria combina tres eixos: la gramàtica grega clàssica, que inclou alfabet, sistema de declinació nominal, conjugació verbal temàtica i atememàtica, aspectes verbals i sintaxi oracional; el lèxic, amb etimologia, famílies lèxiques i préstecs al català i al castellà; i la cultura i la literatura gregues, abastant èpica, lírica, tragèdia, comèdia, filosofia, historiografia i oratòria. Termes com transliteració, morfema, radical, desinència, nominatiu, genitiu, datiu, acusatiu, vocatiu, infinitiu, participi i optiu formen el vocabulari tècnic central.\n\nEl mètode didàctic s'articula entorn de la traducció progressiva de textos originals d'autors com Xenofont, Plató, Llucà o Sòfocles, combinada amb l'anàlisi morfosintàctica i la contextualització cultural. L'ús de diccionaris bilingües, la comparació amb altres llenüees i el comentari de textos literàris i filosòfics completen el ventall d'activitats pròpies d'aquesta matèria."
   },
   "competencies_clau": [
@@ -26,32 +26,38 @@
       "codi": "CE1",
       "text": "Comprendre i traduir textos en grec clàssic de dificultat progressiva, aplicant els coneixements de morfologia, sintaxi i lèxic, i interpretant-los en el seu context cultural i literari.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Transliterar i llegir correctament textos en alfabet grec, aplicant les normes de pronúncia i accentuació de la llengua grega clàssica."
+            "text": "Transliterar i llegir correctament textos en alfabet grec, aplicant les normes de pronúncia i accentuació de la llengua grega clàssica.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.2",
-            "text": "Identificar i analitzar morfològicament les formes nominals (substantius, adjectius i pronoms) de les declinacions gregues, reconeixent el gènere, el nombre i el cas."
+            "text": "Identificar i analitzar morfològicament les formes nominals (substantius, adjectius i pronoms) de les declinacions gregues, reconeixent el gènere, el nombre i el cas.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.3",
-            "text": "Reconèixer i conjugar les formes verbals del present i de l'imperfet d'indicatiu actiu i mig-passiu dels verbs temàtics i atemàtics més freqüents."
+            "text": "Reconèixer i conjugar les formes verbals del present i de l'imperfet d'indicatiu actiu i mig-passiu dels verbs temàtics i atemàtics més freqüents.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA1.4",
-            "text": "Traduir frases i textos breus adaptats o autèntics, aplicant les estructures morfosintàctiques treballades i fent ús del diccionari."
+            "text": "Traduir frases i textos breus adaptats o autèntics, aplicant les estructures morfosintàctiques treballades i fent ús del diccionari.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA1.1",
-            "text": "Traduir textos de dificultat mitjana d'autors com Xenofont, Plató o Llucià, aplicant tota la morfologia i la sintaxi grega treballades."
+            "text": "Traduir textos de dificultat mitjana d'autors com Xenofont, Plató o Llucià, aplicant tota la morfologia i la sintaxi grega treballades.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA1.2",
-            "text": "Revisar i millorar les traduccions pròpies i alienes, justificant les opcions de traducció adoptades i comparant versions diverses."
+            "text": "Revisar i millorar les traduccions pròpies i alienes, justificant les opcions de traducció adoptades i comparant versions diverses.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -60,24 +66,28 @@
       "codi": "CE2",
       "text": "Sistematitzar i aplicar els coneixements de la llengua grega —fonètica, morfologia nominal i verbal, sintaxi oracional i de la frase complexa— per comprendre i traduir textos originals.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer les principals estructures sintàctiques de la frase grega: concordança, règim de casos, oracions subordinades completives i relatives."
+            "text": "Reconèixer les principals estructures sintàctiques de la frase grega: concordança, règim de casos, oracions subordinades completives i relatives.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA2.2",
-            "text": "Identificar el lèxic grec bàsic (300-400 lexemes) i relacionar-lo amb derivats en català, castellà i anglès."
+            "text": "Identificar el lèxic grec bàsic (300-400 lexemes) i relacionar-lo amb derivats en català, castellà i anglès.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer i analitzar les formes verbals del sistema d'aorist i de perfet, actiu i mig-passiu, i les formes nominals del participi i l'infinitiu."
+            "text": "Reconèixer i analitzar les formes verbals del sistema d'aorist i de perfet, actiu i mig-passiu, i les formes nominals del participi i l'infinitiu.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA2.2",
-            "text": "Analitzar les oracions subordinades circumstancials (causals, finals, consecutives, temporals, condicionals) i les construccions de participi concertat i absolut."
+            "text": "Analitzar les oracions subordinades circumstancials (causals, finals, consecutives, temporals, condicionals) i les construccions de participi concertat i absolut.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -86,24 +96,28 @@
       "codi": "CE3",
       "text": "Llegir, analitzar i interpretar obres i fragments de la literatura grega clàssica en versió original o en traducció, reconeixent els gèneres literaris, els autors principals i les seves aportacions a la tradició occidental.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Situar cronològicament els grans períodes de la literatura grega i els seus autors principals (Homer, Hesíode, poetes lírics, tragèdia, comèdia, historiadors, oradors, filòsofs)."
+            "text": "Situar cronològicament els grans períodes de la literatura grega i els seus autors principals (Homer, Hesíode, poetes lírics, tragèdia, comèdia, historiadors, oradors, filòsofs).",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA3.1",
-            "text": "Llegir i comentar fragments de tragèdies (Èsquil, Sòfocles, Eurípides) o comèdies (Aristòfanes) en versió original o traducció, analitzant estructura, temes i personatges."
+            "text": "Llegir i comentar fragments de tragèdies (Èsquil, Sòfocles, Eurípides) o comèdies (Aristòfanes) en versió original o traducció, analitzant estructura, temes i personatges.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.2",
-            "text": "Analitzar textos filosòfics de Plató o Aristòtil, identificant les idees principals i les argumentacions, i relacionant-los amb el pensament contemporani."
+            "text": "Analitzar textos filosòfics de Plató o Aristòtil, identificant les idees principals i les argumentacions, i relacionant-los amb el pensament contemporani.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA3.3",
-            "text": "Situar i comentar textos historiogràfics de Tucídides o Heròdot, reconeixent el mètode historiogràfic i la seva influència posterior."
+            "text": "Situar i comentar textos historiogràfics de Tucídides o Heròdot, reconeixent el mètode historiogràfic i la seva influència posterior.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -112,28 +126,33 @@
       "codi": "CE4",
       "text": "Conèixer i valorar la civilització grega clàssica —organització política, societat, religió, art, filosofia i ciència— i reconèixer la seva influència en la configuració de la cultura i el pensament d'Occident.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Descriure les formes d'organització política grega, especialment la democràcia atenenca: institucions, participació ciutadana i limitacions."
+            "text": "Descriure les formes d'organització política grega, especialment la democràcia atenenca: institucions, participació ciutadana i limitacions.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.2",
-            "text": "Explicar les característiques bàsiques de la societat grega: vida quotidiana, rol de la dona, esclavitud i diferències entre polis."
+            "text": "Explicar les característiques bàsiques de la societat grega: vida quotidiana, rol de la dona, esclavitud i diferències entre polis.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA4.3",
-            "text": "Identificar les principals divinitats del panteó grec, els mites fonamentals i les seves funcions religioses i culturals."
+            "text": "Identificar les principals divinitats del panteó grec, els mites fonamentals i les seves funcions religioses i culturals.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar manifestacions de l'art grec (arquitectura, escultura, ceràmica), identificant estils, períodes i funció social i religiosa."
+            "text": "Analitzar manifestacions de l'art grec (arquitectura, escultura, ceràmica), identificant estils, períodes i funció social i religiosa.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA4.2",
-            "text": "Explicar les aportacions de la filosofia grega (presocràtics, Sòcrates, Plató, Aristòtil) al pensament occidental."
+            "text": "Explicar les aportacions de la filosofia grega (presocràtics, Sòcrates, Plató, Aristòtil) al pensament occidental.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -142,24 +161,28 @@
       "codi": "CE5",
       "text": "Identificar i analitzar l'herència grecollatina en la llengua, la cultura, la literatura, l'art, la ciència, la política i el dret contemporanis, valorant la rellevància del llegat clàssic en el món actual.",
       "criteris_avaluacio": {
-        "1r": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Identificar cultismes i préstecs de l'arrel grega en el vocabulari científic, mèdic, filosòfic i tecnològic contemporani."
+            "text": "Identificar cultismes i préstecs de l'arrel grega en el vocabulari científic, mèdic, filosòfic i tecnològic contemporani.",
+            "clau_origen": "1r"
           },
           {
             "codi": "CA5.2",
-            "text": "Reconèixer motius mitològics grecs en obres d'art, literatura i cultura popular actuals."
+            "text": "Reconèixer motius mitològics grecs en obres d'art, literatura i cultura popular actuals.",
+            "clau_origen": "1r"
           }
         ],
-        "2n": [
+        "BAT_2N": [
           {
             "codi": "CA5.1",
-            "text": "Analitzar la pervivència de la tradició clàssica grega en la literatura, el cinema, la política i el pensament contemporani, amb exemples concrets."
+            "text": "Analitzar la pervivència de la tradició clàssica grega en la literatura, el cinema, la política i el pensament contemporani, amb exemples concrets.",
+            "clau_origen": "2n"
           },
           {
             "codi": "CA5.2",
-            "text": "Produir textos escrits o presentacions que mostrin la relació entre el món grec i el món actual, argumentant la rellevància del llegat clàssic."
+            "text": "Produir textos escrits o presentacions que mostrin la relació entre el món grec i el món actual, argumentant la rellevància del llegat clàssic.",
+            "clau_origen": "2n"
           }
         ]
       }
@@ -282,517 +305,690 @@
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "L'alfabet grec: origen, noms de les lletres, transliteració i pronúncia"
+      "text": "L'alfabet grec: origen, noms de les lletres, transliteració i pronúncia",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Accent i esperit: normes d'accentuació i distinció entre esperit suau i aspre"
+      "text": "Accent i esperit: normes d'accentuació i distinció entre esperit suau i aspre",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Les declinacions del nom: primera declinació (temes en -a)"
+      "text": "Les declinacions del nom: primera declinació (temes en -a)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "La primera declinació: substantius femenins i masculins, paradigmes bàsics"
+      "text": "La primera declinació: substantius femenins i masculins, paradigmes bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "La segona declinació: temes en -o, substantius masculins i neutres"
+      "text": "La segona declinació: temes en -o, substantius masculins i neutres",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "La tercera declinació: temes consonàntics, en oclusiva, en líquida i en nasal"
+      "text": "La tercera declinació: temes consonàntics, en oclusiva, en líquida i en nasal",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "L'adjectiu: declinació dels adjectius de dues i tres terminacions"
+      "text": "L'adjectiu: declinació dels adjectius de dues i tres terminacions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Els pronoms: personals, demostratius i relatius bàsics"
+      "text": "Els pronoms: personals, demostratius i relatius bàsics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "El verb grec: sistema verbal, tema, temps i veus"
+      "text": "El verb grec: sistema verbal, tema, temps i veus",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "El present d'indicatiu actiu dels verbs temàtics (tipus λύω)"
+      "text": "El present d'indicatiu actiu dels verbs temàtics (tipus λύω)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "L'imperfet d'indicatiu actiu: formació i ús"
+      "text": "L'imperfet d'indicatiu actiu: formació i ús",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "La veu mitjana i passiva al present i l'imperfet"
+      "text": "La veu mitjana i passiva al present i l'imperfet",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Verbs atemàtics bàsics: εἰμί i δίδωμι en present"
+      "text": "Verbs atemàtics bàsics: εἰμί i δίδωμι en present",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Lèxic grec fonamental: 300 lexemes de major freqüència"
+      "text": "Lèxic grec fonamental: 300 lexemes de major freqüència",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Diccionari grec-català/castellà: ús, estructura i convencions"
+      "text": "Diccionari grec-català/castellà: ús, estructura i convencions",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Etimologia: derivats grecs en català, castellà i anglès (ciències, medicina, filosofia)"
+      "text": "Etimologia: derivats grecs en català, castellà i anglès (ciències, medicina, filosofia)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "Sintaxi bàsica: concordança de subjecte i predicat, règim de casos principals"
+      "text": "Sintaxi bàsica: concordança de subjecte i predicat, règim de casos principals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "L'acusatiu com a cas de l'objecte directe i dels complements d'extensió i temps"
+      "text": "L'acusatiu com a cas de l'objecte directe i dels complements d'extensió i temps",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "El genitiu: usos principals (possessió, partitiu, genitiu absolut)"
+      "text": "El genitiu: usos principals (possessió, partitiu, genitiu absolut)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "llengua_i_morfologia",
       "subapartat": null,
-      "text": "El datiu: usos principals (complement indirecte, instrument, companyia)"
+      "text": "El datiu: usos principals (complement indirecte, instrument, companyia)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Lectura i comprensió de frases simples en grec clàssic"
+      "text": "Lectura i comprensió de frases simples en grec clàssic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Traducció de frases amb estructures nominal i verbal bàsiques"
+      "text": "Traducció de frases amb estructures nominal i verbal bàsiques",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Textos adaptats d'autors de tradició senzilla: faules d'Isop"
+      "text": "Textos adaptats d'autors de tradició senzilla: faules d'Isop",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Textos adaptats de la historiografia: fragments senzills de Xenofont (Anàbasi)"
+      "text": "Textos adaptats de la historiografia: fragments senzills de Xenofont (Anàbasi)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Estratègies de traducció: identificació del verb principal, subjecte i objectes"
+      "text": "Estratègies de traducció: identificació del verb principal, subjecte i objectes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Ús del diccionari: cerca de formes verbals irregulars i substantius de tercera declinació"
+      "text": "Ús del diccionari: cerca de formes verbals irregulars i substantius de tercera declinació",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Revisió i correcció de traduccions: autoavaluació i revisió entre iguals"
+      "text": "Revisió i correcció de traduccions: autoavaluació i revisió entre iguals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "textos_elementals",
       "subapartat": null,
-      "text": "Comprensió global de textos breus sense traducció completa (lectura extensiva)"
+      "text": "Comprensió global de textos breus sense traducció completa (lectura extensiva)",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "El món grec: mar Egeu, polis, colònia i espai geogràfic hel·lènic"
+      "text": "El món grec: mar Egeu, polis, colònia i espai geogràfic hel·lènic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "La polis grega: estructura política, territori i ciutadania"
+      "text": "La polis grega: estructura política, territori i ciutadania",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "La democràcia atenenca: Eclessia, Boulé, tribunals populars i magistratures"
+      "text": "La democràcia atenenca: Eclessia, Boulé, tribunals populars i magistratures",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "Esparta: organització social, l'exèrcit i el contrast amb Atenes"
+      "text": "Esparta: organització social, l'exèrcit i el contrast amb Atenes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "Les guerres Mèdiques: Marató, Salamina i les seves conseqüències culturals"
+      "text": "Les guerres Mèdiques: Marató, Salamina i les seves conseqüències culturals",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "Les guerres del Peloponnès: causes, fases i conseqüències"
+      "text": "Les guerres del Peloponnès: causes, fases i conseqüències",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "La societat grega: homes lliures, metecs, esclaus i condició de la dona"
+      "text": "La societat grega: homes lliures, metecs, esclaus i condició de la dona",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "La família grega: oikos, matrimoni i educació dels fills"
+      "text": "La família grega: oikos, matrimoni i educació dels fills",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "La religió grega: panteó olímpic, mites, herois i culte als déus"
+      "text": "La religió grega: panteó olímpic, mites, herois i culte als déus",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "Els jocs olímpics i els grans santuaris panhel·lènics"
+      "text": "Els jocs olímpics i els grans santuaris panhel·lènics",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "El teatre grec: origen, estructura de les representacions i funció cívica"
+      "text": "El teatre grec: origen, estructura de les representacions i funció cívica",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "L'arquitectura grega: ordres arquitectònics, temple i agora"
+      "text": "L'arquitectura grega: ordres arquitectònics, temple i agora",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "L'escultura grega: període arcaic, clàssic i hel·lenístic"
+      "text": "L'escultura grega: període arcaic, clàssic i hel·lenístic",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "La filosofia presocrática: Milèsia, Parmènides i els atomistes"
+      "text": "La filosofia presocrática: Milèsia, Parmènides i els atomistes",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "1r",
       "bloc": "civilitzacio_grega",
       "subapartat": null,
-      "text": "Sòcrates i el mètode socrà tic: la filosofia com a cerca de la veritat"
+      "text": "Sòcrates i el mètode socrà tic: la filosofia com a cerca de la veritat",
+      "nivell_norm": "BAT_1R",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "L'aorist d'indicatiu actiu i mig: aorist sigmàtic, asigmàtic i fort"
+      "text": "L'aorist d'indicatiu actiu i mig: aorist sigmàtic, asigmàtic i fort",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "L'aorist passiu: formació i usos"
+      "text": "L'aorist passiu: formació i usos",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El perfet d'indicatiu actiu i mig-passiu: significat i ús"
+      "text": "El perfet d'indicatiu actiu i mig-passiu: significat i ús",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El plusquamperfet: formació i usos"
+      "text": "El plusquamperfet: formació i usos",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El futur d'indicatiu actiu, mig i passiu"
+      "text": "El futur d'indicatiu actiu, mig i passiu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El mode optatiu: present i aorist, usos en oracions independents i subordinades"
+      "text": "El mode optatiu: present i aorist, usos en oracions independents i subordinades",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El mode subjuntiu: present i aorist, usos en oracions finals i condicionals"
+      "text": "El mode subjuntiu: present i aorist, usos en oracions finals i condicionals",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "L'infinitiu i els seus usos: infinitiu subjecte, objecte i en construcció d'acusatiu + infinitiu"
+      "text": "L'infinitiu i els seus usos: infinitiu subjecte, objecte i en construcció d'acusatiu + infinitiu",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El participi: declinació, usos predicatius, atributius i en construcció absoluta"
+      "text": "El participi: declinació, usos predicatius, atributius i en construcció absoluta",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Oracions subordinades temporals: conjuncions, mode i concordança"
+      "text": "Oracions subordinades temporals: conjuncions, mode i concordança",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Oracions subordinades condicionals: protasi i apòdosi, tipus de condicionalment"
+      "text": "Oracions subordinades condicionals: protasi i apòdosi, tipus de condicionalment",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Oracions subordinades finals: ἵνα, ὅπως i mode"
+      "text": "Oracions subordinades finals: ἵνα, ὅπως i mode",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Oracions subordinades causals i consecutives"
+      "text": "Oracions subordinades causals i consecutives",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "El genitiu absolut: construcció, funció i traducció"
+      "text": "El genitiu absolut: construcció, funció i traducció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Traducció de textos de Xenofont: Anàbasi i Memorables"
+      "text": "Traducció de textos de Xenofont: Anàbasi i Memorables",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Traducció de textos de Plató: diàlegs de Sòcrates (Apologia, Menó)"
+      "text": "Traducció de textos de Plató: diàlegs de Sòcrates (Apologia, Menó)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Traducció de textos de Llucià: Diàlegs dels déus"
+      "text": "Traducció de textos de Llucià: Diàlegs dels déus",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "textos_complexos",
       "subapartat": null,
-      "text": "Estratègies avançades de traducció: perífrasis, notes de peu i variants"
+      "text": "Estratègies avançades de traducció: perífrasis, notes de peu i variants",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La poesia èpica: Homer (Ilíada i Odissea), estructura, temes i personatges"
+      "text": "La poesia èpica: Homer (Ilíada i Odissea), estructura, temes i personatges",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La poesia didàctica: Hesíode, Teogonia i Els treballs i els dies"
+      "text": "La poesia didàctica: Hesíode, Teogonia i Els treballs i els dies",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La poesia lírica: Arquíloc, Safo, Píndar; gèneres i temes"
+      "text": "La poesia lírica: Arquíloc, Safo, Píndar; gèneres i temes",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La tragèdia grega: orígens, estructura (pròleg, pàrodes, episodis, èxode) i funció"
+      "text": "La tragèdia grega: orígens, estructura (pròleg, pàrodes, episodis, èxode) i funció",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "Èsquil: les Orestíada, el conflicte entre llei divina i humana"
+      "text": "Èsquil: les Orestíada, el conflicte entre llei divina i humana",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "Sòfocles: Edip rei, tragèdia del destí i el coneixement"
+      "text": "Sòfocles: Edip rei, tragèdia del destí i el coneixement",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "Eurípides: Medea, innovació dramàtica i paper de les passions"
+      "text": "Eurípides: Medea, innovació dramàtica i paper de les passions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La comèdia: Aristòfanes, sàtira política i comèdia nova (Menandre)"
+      "text": "La comèdia: Aristòfanes, sàtira política i comèdia nova (Menandre)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La historiografia: Heròdot, investigació i etnografia; Tucídides, mètode crític"
+      "text": "La historiografia: Heròdot, investigació i etnografia; Tucídides, mètode crític",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "L'oratòria: Lísies, Isòcrates i Demòstenes; gèneres i tècniques retòriques"
+      "text": "L'oratòria: Lísies, Isòcrates i Demòstenes; gèneres i tècniques retòriques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La filosofia: Plató, diàlegs i teoria de les idees; Aristòtil, lògica i ciència"
+      "text": "La filosofia: Plató, diàlegs i teoria de les idees; Aristòtil, lògica i ciència",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "La novel·la grega: Longus, Aquil·les Taci i el novel la d'amor i aventura"
+      "text": "La novel·la grega: Longus, Aquil·les Taci i el novel la d'amor i aventura",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "literatura_grega",
       "subapartat": null,
-      "text": "Transmissió dels textos grecs: còpies manuscrites, humanisme i edicions crítiques"
+      "text": "Transmissió dels textos grecs: còpies manuscrites, humanisme i edicions crítiques",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "El grec com a llengua de cultura: del grec clàssic al grec hel·lenístic (koiné)"
+      "text": "El grec com a llengua de cultura: del grec clàssic al grec hel·lenístic (koiné)",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "El llegat de la filosofia grega a l'Edat Mitjana: neoplatonisme i escolàstica"
+      "text": "El llegat de la filosofia grega a l'Edat Mitjana: neoplatonisme i escolàstica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "La mitologia grega en la literatura occidental: Dante, Shakespeare, Racine"
+      "text": "La mitologia grega en la literatura occidental: Dante, Shakespeare, Racine",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "La mitologia grega en l'art: Renaixement, Barroc i Neoclassicisme"
+      "text": "La mitologia grega en l'art: Renaixement, Barroc i Neoclassicisme",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "La democràcia grega com a precedent: debats sobre el seu model i les seves limitacions"
+      "text": "La democràcia grega com a precedent: debats sobre el seu model i les seves limitacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "La filosofia grega i el pensament modern: Descartes, Kant i la tradició platònica"
+      "text": "La filosofia grega i el pensament modern: Descartes, Kant i la tradició platònica",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "El teatre grec i la dramatúrgia contemporània: reescriptures i adaptacions"
+      "text": "El teatre grec i la dramatúrgia contemporània: reescriptures i adaptacions",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "La medicina hipocràtica: principis i pervivència en la medicina occidental"
+      "text": "La medicina hipocràtica: principis i pervivència en la medicina occidental",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "El vocabulari científic i tècnic d'arrel grega: ciències naturals, medicina i tecnologia"
+      "text": "El vocabulari científic i tècnic d'arrel grega: ciències naturals, medicina i tecnologia",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "Topònims i antropònims d'origen grec: a Catalunya i arreu del món"
+      "text": "Topònims i antropònims d'origen grec: a Catalunya i arreu del món",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "La presència del grec en el cinema i la cultura popular contemporanis"
+      "text": "La presència del grec en el cinema i la cultura popular contemporanis",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     },
     {
       "nivell": "2n",
       "bloc": "herencia_classica",
       "subapartat": null,
-      "text": "Projecte de recerca: la petjada del món grec en un àmbit de la cultura actual"
+      "text": "Projecte de recerca: la petjada del món grec en un àmbit de la cultura actual",
+      "nivell_norm": "BAT_2N",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }

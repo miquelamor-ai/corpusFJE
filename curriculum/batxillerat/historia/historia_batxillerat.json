@@ -9,7 +9,7 @@
     "font": "PDF oficial XTEC: Historia.pdf",
     "font_referencia": "https://xtec.gencat.cat/ca/curriculum/batxillerat/",
     "metode_extraccio": "pdfplumber (mecanic) + regex (deterministic) — 0 IA generativa",
-    "versio_schema": "1.1",
+    "versio_schema": "1.2",
     "data_generacio": "2026-05-09",
     "descripcio": "La Història al Batxillerat aborda el món contemporani des de les revolucions liberals del s. XVIII fins al present, analitzant els processos que han configurat les societats actuals: industrialització, imperialisme, guerres mundials, totalitarismes, descolonització, Guerra Freda i globalització. Connecta amb la Història de la Filosofia (pensament polític modern), la Geografia (geopolítica), les Ciències Socials i l'Economia, i prepara per a estudis universitaris d'humanitats i ciències socials.\n\nEls constructes metodològics i conceptuals inclouen l'anàlisi de fonts primàries i secundàries (comentari de text, mapa, gràfic, imatge), la causalitat múltiple i la multicausalitat, el canvi i la continuïtat, la perspectiva i el punt de vista historiogràfic, els conceptes de revolució, imperialisme, totalitarisme, democràcia i globalització, i les tensions entre identitat nacional i pluralitat cultural. La consciència temporal i la contextualització rigorosa d'esdeveniments i processos articulen la matèria.\n\nL'enfocament pedagògic prioritza el treball directe amb fonts documentals, la construcció d'arguments historiogràfics i la discussió de perspectives diverses sobre els mateixos fets. La redacció d'assajos d'anàlisi i la presentació oral estructurada reforcen les competències comunicatives. L'avaluació mesura la capacitat d'anàlisi crítica, la qualitat de l'argumentació, el domini conceptual i la connexió entre passats i presents."
   },
@@ -18,18 +18,21 @@
       "codi": "CE1",
       "text": "Aplicar els procediments de la recerca històrica a partir de la formulació de preguntes i l’anàlisi de fonts, per interpretar el passat, formar-se un criteri propi a partir del contrast d’informacions i desenvolupar el pensament crític.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA1.1",
-            "text": "Plantejar-se preguntes i hipòtesis sobre fets o fenòmens històrics, seleccionar, analitzar i obtenir informació de diferents fonts per interpretar el passat de manera crítica, aportant arguments i dades contrastats."
+            "text": "Plantejar-se preguntes i hipòtesis sobre fets o fenòmens històrics, seleccionar, analitzar i obtenir informació de diferents fonts per interpretar el passat de manera crítica, aportant arguments i dades contrastats.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.2",
-            "text": "Comunicar i transferir els coneixements adquirits mitjançant recursos expressius que incorporin formats i llenguatges diversos i la presentació de la informació en mitjans i entorns digitals, així com usar adequadament el vocabulari específic de la història contemporània mitjançant la lectura activa, l’elaboració de textos escrits, les intervencions orals i les produccions audiovisuals,"
+            "text": "Comunicar i transferir els coneixements adquirits mitjançant recursos expressius que incorporin formats i llenguatges diversos i la presentació de la informació en mitjans i entorns digitals, així com usar adequadament el vocabulari específic de la història contemporània mitjançant la lectura activa, l’elaboració de textos escrits, les intervencions orals i les produccions audiovisuals,",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA1.3",
-            "text": "Demostrar la comprensió integrada de sabers i mostrar una actitud participativa en el marc de l’exercici d’una ciutadania democràtica."
+            "text": "Demostrar la comprensió integrada de sabers i mostrar una actitud participativa en el marc de l’exercici d’una ciutadania democràtica.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -38,18 +41,21 @@
       "codi": "CE2",
       "text": "Analitzar de forma crítica i comparar els diferents règims polítics de la contemporaneïtat i la construcció de l’estat de dret per participar de manera respectuosa i compromesa en activitats comunitàries que promoguin la convivència, la cohesió social i l’equitat, posant en valor els principis democràtics.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA2.1",
-            "text": "Reconèixer el llegat democràtic i les accions a favor de la llibertat identificant i comparant els diferents règims polítics des de la fallida de la monarquia absoluta i els inicis de l’estat liberal fins a l’actualitat, i l’evolució de les seves institucions i lleis."
+            "text": "Reconèixer el llegat democràtic i les accions a favor de la llibertat identificant i comparant els diferents règims polítics des de la fallida de la monarquia absoluta i els inicis de l’estat liberal fins a l’actualitat, i l’evolució de les seves institucions i lleis.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.2",
-            "text": "Identificar i valorar de manera crítica la transició cap a la democràcia, analitzant les ruptures i les continuïtats, mitjançant l’estudi de les memòries plurals."
+            "text": "Identificar i valorar de manera crítica la transició cap a la democràcia, analitzant les ruptures i les continuïtats, mitjançant l’estudi de les memòries plurals.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA2.3",
-            "text": "Valorar de manera crítica la potencialitat del sistema democràtic actual i els reptes pendents, aportant possibles solucions a les problemàtiques actuals."
+            "text": "Valorar de manera crítica la potencialitat del sistema democràtic actual i els reptes pendents, aportant possibles solucions a les problemàtiques actuals.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -58,14 +64,16 @@
       "codi": "CE3",
       "text": "Identificar la pluralitat nacional, cultural i lingüística per respectar els sentiments de pertinença, l’existència d’identitats múltiples i desenvolupar l’empatia i el respecte com a base de la convivència en una societat democràtica.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA3.1",
-            "text": "Identificar els diferents processos polítics, socials i culturals que han tingut lloc al llarg de la història en la formació de l’Estat i en la construcció de les diferents nacionalitats i, específicament, en l’evolució del catalanisme."
+            "text": "Identificar els diferents processos polítics, socials i culturals que han tingut lloc al llarg de la història en la formació de l’Estat i en la construcció de les diferents nacionalitats i, específicament, en l’evolució del catalanisme.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA3.2",
-            "text": "Reconèixer i identificar les identitats múltiples existents als territoris per entendre que el respecte dels diferents sentiments de pertinença és la base d’una convivència pacífica en el marc d’un sistema democràtic i plural."
+            "text": "Reconèixer i identificar les identitats múltiples existents als territoris per entendre que el respecte dels diferents sentiments de pertinença és la base d’una convivència pacífica en el marc d’un sistema democràtic i plural.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -74,14 +82,16 @@
       "codi": "CE4",
       "text": "Analitzar l’evolució econòmica de l’Estat espanyol i els seus efectes, relacionar-la amb la desigualtat social i territorial, percebre la natura dels canvis en el món actual i actuar amb criteris de sostenibilitat i de manera crítica i compromesa per a la millora de la societat i de l’entorn.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA4.1",
-            "text": "Analitzar l’evolució econòmica de l’Estat espanyol, els seus diferents ritmes i cicles de creixement, en el context dels països del seu entorn."
+            "text": "Analitzar l’evolució econòmica de l’Estat espanyol, els seus diferents ritmes i cicles de creixement, en el context dels països del seu entorn.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA4.2",
-            "text": "Identificar les conseqüències del creixement econòmic, en els contextos històrics i actualment, analitzant críticament la idea de progrés i valorant els seus efectes pel que fa a la desigualtat social, els desequilibris territorials, la degradació ambiental i les relacions de dependència, reflectint actituds en favor dels objectius de desenvolupament sostenible i comportaments"
+            "text": "Identificar les conseqüències del creixement econòmic, en els contextos històrics i actualment, analitzant críticament la idea de progrés i valorant els seus efectes pel que fa a la desigualtat social, els desequilibris territorials, la degradació ambiental i les relacions de dependència, reflectint actituds en favor dels objectius de desenvolupament sostenible i comportaments",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -90,22 +100,26 @@
       "codi": "CE5",
       "text": "Analitzar la societat espanyola, els canvis i les continuïtats al llarg del temps, en relació amb l’evolució de la població, els nivells i les formes de vida i treball i els moviments i conflictes socials, per valorar els progressos i les limitacions per avançar en l’equitat, la justícia i la cohesió social.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA5.1",
-            "text": "Descriure les transformacions socials i les diferents maneres d’organització i participació política que s’han produït del pas de l’Antic Règim a la nova societat de classes, analitzant el sorgiment i l’evolució del concepte de ciutadania i les noves formes de relació social, identificant les desigualtats i la concentració del poder en determinats grups socials."
+            "text": "Descriure les transformacions socials i les diferents maneres d’organització i participació política que s’han produït del pas de l’Antic Règim a la nova societat de classes, analitzant el sorgiment i l’evolució del concepte de ciutadania i les noves formes de relació social, identificant les desigualtats i la concentració del poder en determinats grups socials.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.2",
-            "text": "Analitzar de manera multicausal l’evolució demogràfica de l’Estat espanyol, la desigual distribució de la població i el paper de les migracions interiors i exteriors i els exilis en la història contemporània d’Espanya."
+            "text": "Analitzar de manera multicausal l’evolució demogràfica de l’Estat espanyol, la desigual distribució de la població i el paper de les migracions interiors i exteriors i els exilis en la història contemporània d’Espanya.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.3",
-            "text": "Caracteritzar el naixement i l’evolució del moviment obrer durant els segles XIX i XX, interpretant les causes de la conflictivitat social i laboral i la seva articulació en moviments socials i polítics."
+            "text": "Caracteritzar el naixement i l’evolució del moviment obrer durant els segles XIX i XX, interpretant les causes de la conflictivitat social i laboral i la seva articulació en moviments socials i polítics.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA5.4",
-            "text": "Deduir, per mitjà de l’estudi crític de notícies i dades estadístiques, l’evolució de la societat, identificant els èxits i els retrocessos experimentats i les mesures adoptades per les institucions fins al present, l’evolució dels nivells de vida i de benestar, així com els límits i reptes de futur, des d’una perspectiva solidària a favor dels col·lectius més vulnerables."
+            "text": "Deduir, per mitjà de l’estudi crític de notícies i dades estadístiques, l’evolució de la societat, identificant els èxits i els retrocessos experimentats i les mesures adoptades per les institucions fins al present, l’evolució dels nivells de vida i de benestar, així com els límits i reptes de futur, des d’una perspectiva solidària a favor dels col·lectius més vulnerables.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -114,14 +128,16 @@
       "codi": "CE6",
       "text": "Analitzar críticament el paper de les creences i les ideologies en l’evolució de l’articulació social, en l’ús del poder i en la configuració d’identitats i projectes polítics, per comprendre la complexitat de la contemporaneïtat i per valorar i respectar la convivència en una societat plural i democràtica.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA6.1",
-            "text": "Generar opinions argumentades, debatre i transferir idees i coneixements sobre la funció que han exercit les diferents ideologies a l’articulació social i política de l’Espanya contemporània, identificant les principals cultures polítiques que s’han anat succeint, les formes d’organització i els diferents projectes polítics que representaven i expressant actituds respectuoses davant les idees"
+            "text": "Generar opinions argumentades, debatre i transferir idees i coneixements sobre la funció que han exercit les diferents ideologies a l’articulació social i política de l’Espanya contemporània, identificant les principals cultures polítiques que s’han anat succeint, les formes d’organització i els diferents projectes polítics que representaven i expressant actituds respectuoses davant les idees",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA6.2",
-            "text": "Emprar el rigor metodològic de la història en l’estudi de les grans reformes estructurals que va emprendre la Segona República, identificant-ne els èxits i les reaccions antidemocràtiques que van derivar en el cop d’estat i l’esclat de la Guerra Civil, i en l’estudi del marc conceptual sobre els sistemes"
+            "text": "Emprar el rigor metodològic de la història en l’estudi de les grans reformes estructurals que va emprendre la Segona República, identificant-ne els èxits i les reaccions antidemocràtiques que van derivar en el cop d’estat i l’esclat de la Guerra Civil, i en l’estudi del marc conceptual sobre els sistemes",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -130,14 +146,16 @@
       "codi": "CE7",
       "text": "Analitzar les dinàmiques d’interdependència entre diferents agents en el context d’un món globalitzat per avalar els compromisos de cooperació, promoure actituds solidàries i proposar alternatives a les problemàtiques locals i globals basades en la cultura de la pau i en la consecució d’un món més solidari i sostenible.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA7.1",
-            "text": "Assenyalar els reptes globals i els principals compromisos de cooperació en l’esfera internacional, així com els que emanen d’una ciutadania europea responsable i solidària."
+            "text": "Assenyalar els reptes globals i els principals compromisos de cooperació en l’esfera internacional, així com els que emanen d’una ciutadania europea responsable i solidària.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA7.2",
-            "text": "Plantejar propostes d’acció que fomentin una actitud solidària i pacífica i alternatives davant de les problemàtiques que es viuen actualment a escala local, europea i global."
+            "text": "Plantejar propostes d’acció que fomentin una actitud solidària i pacífica i alternatives davant de les problemàtiques que es viuen actualment a escala local, europea i global.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -146,18 +164,21 @@
       "codi": "CE8",
       "text": "Analitzar els processos i els fenòmens històrics des de la perspectiva de gènere i la investigació sobre el moviment feminista, per visibilitzar-ne la presència dins la història, promoure actituds en defensa de la igualtat i rebutjar qualsevol forma de discriminació i violència.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA8.1",
-            "text": "Introduir la perspectiva de gènere en l’observació i l’anàlisi de la realitat històrica i actual, identificant els mecanismes de dominació que han generat i mantingut la desigualtat entre homes i dones i l’assignació de rols de gènere i que han relegat les dones a un paper subordinat a la societat."
+            "text": "Introduir la perspectiva de gènere en l’observació i l’anàlisi de la realitat històrica i actual, identificant els mecanismes de dominació que han generat i mantingut la desigualtat entre homes i dones i l’assignació de rols de gènere i que han relegat les dones a un paper subordinat a la societat.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.2",
-            "text": "Reconèixer els moviments, les causes i els lideratges en pro de l’equitat de gènere i d’opció afectivosexual en l’època contemporània i les aportacions de les dones en diferents àmbits socials, econòmics, polítics i culturals."
+            "text": "Reconèixer els moviments, les causes i els lideratges en pro de l’equitat de gènere i d’opció afectivosexual en l’època contemporània i les aportacions de les dones en diferents àmbits socials, econòmics, polítics i culturals.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA8.3",
-            "text": "Participar en debats i projectes o accions de defensa de l’equitat de gènere i de rebuig de qualsevol manifestació de discriminació i violència per mitjà de propostes d’actuació."
+            "text": "Participar en debats i projectes o accions de defensa de l’equitat de gènere i de rebuig de qualsevol manifestació de discriminació i violència per mitjà de propostes d’actuació.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -166,14 +187,16 @@
       "codi": "CE9",
       "text": "Analitzar el llegat cultural i patrimonial per valorar-lo com a expressió de les memòries plurals, individuals i col·lectives i contribuir a la seva recuperació, conservació i promoció com a element conformador de les identitats i cohesionador de la comunitat.",
       "criteris_avaluacio": {
-        "BAT1": [
+        "BAT_1R": [
           {
             "codi": "CA9.1",
-            "text": "Elaborar treballs d’indagació i recerca, iniciant-se en la metodologia històrica i la historiografia, generant productes relacionats amb la memòria col·lectiva sobre esdeveniments, personatges o elements patrimonials d’interès social o cultural de l’entorn local, posant en valor el patrimoni històric i considerant-lo un bé comú que s’ha de protegir."
+            "text": "Elaborar treballs d’indagació i recerca, iniciant-se en la metodologia històrica i la historiografia, generant productes relacionats amb la memòria col·lectiva sobre esdeveniments, personatges o elements patrimonials d’interès social o cultural de l’entorn local, posant en valor el patrimoni històric i considerant-lo un bé comú que s’ha de protegir.",
+            "clau_origen": "BAT1"
           },
           {
             "codi": "CA9.2",
-            "text": "Participar en accions, recerques i projectes de recuperació de la memòria històrica a partir de la recollida de fonts directes i indirectes i d’arxius personals, locals i institucionals."
+            "text": "Participar en accions, recerques i projectes de recuperació de la memòria històrica a partir de la recollida de fonts directes i indirectes i d’arxius personals, locals i institucionals.",
+            "clau_origen": "BAT1"
           }
         ]
       }
@@ -196,277 +219,370 @@
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Ús de fonts històriques diverses per a la construcció del coneixement sobre el passat recent. Contrast i valoració crítica d’informacions diferents, incloent-hi les dels mitjans de comunicació, sobre un mateix fet o fenomen, valorant solucions i alternatives als problemes"
+      "text": "Ús de fonts històriques diverses per a la construcció del coneixement sobre el passat recent. Contrast i valoració crítica d’informacions diferents, incloent-hi les dels mitjans de comunicació, sobre un mateix fet o fenomen, valorant solucions i alternatives als problemes",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Anàlisi de textos, interpretació i elaboració de mapes, esquemes i síntesis, representació de gràfics i interpretació d’imatges a través de mitjans digitals accessibles"
+      "text": "Anàlisi de textos, interpretació i elaboració de mapes, esquemes i síntesis, representació de gràfics i interpretació d’imatges a través de mitjans digitals accessibles",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Identificació dels components econòmics, socials, polítics i culturals que intervenen en els processos històrics i anàlisi de les interrelacions que s’hi produeixen per elaborar explicacions sobre els fets. Anàlisi de les interpretacions historiogràfiques sobre determinats processos i esdeveniments rellevants de la història d’Espanya"
+      "text": "Identificació dels components econòmics, socials, polítics i culturals que intervenen en els processos històrics i anàlisi de les interrelacions que s’hi produeixen per elaborar explicacions sobre els fets. Anàlisi de les interpretacions historiogràfiques sobre determinats processos i esdeveniments rellevants de la història d’Espanya",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Aplicació de metodologies de recerca en l’anàlisi i la interpretació de problemes socials rellevants, individualment i en equip, amb l’ús específic del lèxic històric. Aplicació de l’argumentació històrica en la interpretació de fets i fenòmens"
+      "text": "Aplicació de metodologies de recerca en l’anàlisi i la interpretació de problemes socials rellevants, individualment i en equip, amb l’ús específic del lèxic històric. Aplicació de l’argumentació històrica en la interpretació de fets i fenòmens",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Ús de mitjans, gèneres i formats digitals diversos per crear produccions personals i comunicar resultats de recerques. Ús de recursos propis de l’audiovisual, el cinema i la fotografia en la creació de productes digitals en la narració de fets, en l’expressió de sentiments i en la denúncia de situacions de violència o discriminació que afectin col·lectius i persones"
+      "text": "Ús de mitjans, gèneres i formats digitals diversos per crear produccions personals i comunicar resultats de recerques. Ús de recursos propis de l’audiovisual, el cinema i la fotografia en la creació de productes digitals en la narració de fets, en l’expressió de sentiments i en la denúncia de situacions de violència o discriminació que afectin col·lectius i persones",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Maneig i utilització segura de dispositius tecnològics, aplicacions informàtiques i plataformes digitals, valorant les seves aportacions a la història en la cerca, el tractament de la informació i l’elaboració de coneixement"
+      "text": "Maneig i utilització segura de dispositius tecnològics, aplicacions informàtiques i plataformes digitals, valorant les seves aportacions a la història en la cerca, el tractament de la informació i l’elaboració de coneixement",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Cerca, tractament de la informació, ús de dades en entorns digitals, interpretació de les fonts i avaluació de la fiabilitat. Identificació de les notícies falses i enganyoses en els mitjans de comunicació"
+      "text": "Cerca, tractament de la informació, ús de dades en entorns digitals, interpretació de les fonts i avaluació de la fiabilitat. Identificació de les notícies falses i enganyoses en els mitjans de comunicació",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Elaboració de judicis propis i argumentats davant problemes d’actualitat contextualitzats històricament i establiment de vincles entre el passat i el present. Defensa i exposició crítica per mitjà de presentacions i debats"
+      "text": "Elaboració de judicis propis i argumentats davant problemes d’actualitat contextualitzats històricament i establiment de vincles entre el passat i el present. Defensa i exposició crítica per mitjà de presentacions i debats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Aplicació dels mètodes de recerca de les ciències socials en l’anàlisi problematitzada i multicausal de fenòmens de l’entorn i dels seus vincles amb fenòmens globals. Relació entre la cronologia històrica general i la història personal, familiar i comunitària"
+      "text": "Aplicació dels mètodes de recerca de les ciències socials en l’anàlisi problematitzada i multicausal de fenòmens de l’entorn i dels seus vincles amb fenòmens globals. Relació entre la cronologia històrica general i la història personal, familiar i comunitària",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Aproximació a la història",
       "subapartat": null,
-      "text": "Valoració del paper de les persones, individualment i col·lectivament, com a subjectes de la història i exercitació de l’empatia històrica, especialment amb col·lectius minoritzats"
+      "text": "Valoració del paper de les persones, individualment i col·lectivament, com a subjectes de la història i exercitació de l’empatia històrica, especialment amb col·lectius minoritzats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Identificació de les causes i les conseqüències dels fets històrics i dels principals processos d’evolució i canvi anteriors a l’època contemporània que permetin l’anàlisi de situacions posteriors, així com les particularitats de l’evolució històrica de Catalunya. Valoració argumentada de les continuïtats i dels canvis en la societat d’època contemporània respecte de l’Antic Règim"
+      "text": "Identificació de les causes i les conseqüències dels fets històrics i dels principals processos d’evolució i canvi anteriors a l’època contemporània que permetin l’anàlisi de situacions posteriors, així com les particularitats de l’evolució històrica de Catalunya. Valoració argumentada de les continuïtats i dels canvis en la societat d’època contemporània respecte de l’Antic Règim",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Anàlisi i sistematització dels fets polítics més rellevants de la construcció de l’estat liberal a Espanya. Identificació de l’impacte de la guerra del Francès i anàlisi dels punts més significatius de la Constitució de Cadis, en comparació amb altres textos constitucionals posteriors"
+      "text": "Anàlisi i sistematització dels fets polítics més rellevants de la construcció de l’estat liberal a Espanya. Identificació de l’impacte de la guerra del Francès i anàlisi dels punts més significatius de la Constitució de Cadis, en comparació amb altres textos constitucionals posteriors",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Anàlisi del procés de domini colonial i sotmetiment de les poblacions i de l’emancipació de les colònies a llarg dels segles XIX i XX. Valoració de les conseqüències de la colonització sobre les poblacions autòctones fins a l’actualitat a través d’alguns casos o situacions"
+      "text": "Anàlisi del procés de domini colonial i sotmetiment de les poblacions i de l’emancipació de les colònies a llarg dels segles XIX i XX. Valoració de les conseqüències de la colonització sobre les poblacions autòctones fins a l’actualitat a través d’alguns casos o situacions",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Interpretació dels canvis en les condicions de vida dels diferents grups socials aplicant la perspectiva de gènere. Debat sobre els mecanismes de dominació, rols de gènere, espais d’activitat i escenaris de sociabilitat de les dones en alguns episodis històrics de l’entorn proper"
+      "text": "Interpretació dels canvis en les condicions de vida dels diferents grups socials aplicant la perspectiva de gènere. Debat sobre els mecanismes de dominació, rols de gènere, espais d’activitat i escenaris de sociabilitat de les dones en alguns episodis històrics de l’entorn proper",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Interpretació del procés d’industrialització al segle XIX i de les transformacions econòmiques, demogràfiques, socials i culturals. Caracterització del naixement i de l’evolució del moviment obrer, en la seva pluralitat de manifestacions. Identificació de les singularitats de la industrialització i de la lluita obrera a Catalunya"
+      "text": "Interpretació del procés d’industrialització al segle XIX i de les transformacions econòmiques, demogràfiques, socials i culturals. Caracterització del naixement i de l’evolució del moviment obrer, en la seva pluralitat de manifestacions. Identificació de les singularitats de la industrialització i de la lluita obrera a Catalunya",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Identificació de l’evolució de la distribució demogràfica de la població a Espanya i Catalunya a partir d’exemples locals: de la societat agrària a l’èxode rural"
+      "text": "Identificació de l’evolució de la distribució demogràfica de la població a Espanya i Catalunya a partir d’exemples locals: de la societat agrària a l’èxode rural",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Anàlisi i caracterització del règim polític de la Restauració i de la seva crisi, així com de l’oposició al sistema i el sorgiment de noves cultures polítiques: de la Primera República a la Segona República"
+      "text": "Anàlisi i caracterització del règim polític de la Restauració i de la seva crisi, així com de l’oposició al sistema i el sorgiment de noves cultures polítiques: de la Primera República a la Segona República",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Interpretació del procés de recuperació de la identitat nacional i dels orígens i de l’evolució del catalanisme polític i de les realitzacions de la Mancomunitat de Catalunya"
+      "text": "Interpretació del procés de recuperació de la identitat nacional i dels orígens i de l’evolució del catalanisme polític i de les realitzacions de la Mancomunitat de Catalunya",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Sistematització de les fases polítiques de la Segona República i valoració argumentada de la política reformista i les reaccions antidemocràtiques. Anàlisi de l’evolució política i de les realitzacions de la Generalitat republicana"
+      "text": "Sistematització de les fases polítiques de la Segona República i valoració argumentada de la política reformista i les reaccions antidemocràtiques. Anàlisi de l’evolució política i de les realitzacions de la Generalitat republicana",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Anàlisi del context de la insurrecció militar i de les fases principals de la Guerra Civil. Establiment de relacions amb la situació internacional: l’auge dels totalitarismes i els feixismes, la Segona Guerra Mundial i l’Holocaust"
+      "text": "Anàlisi del context de la insurrecció militar i de les fases principals de la Guerra Civil. Establiment de relacions amb la situació internacional: l’auge dels totalitarismes i els feixismes, la Segona Guerra Mundial i l’Holocaust",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Anàlisi de la situació de Catalunya durant el conflicte: guerra, revolució i situació de la població civil a la rereguarda. Explicació argumentada del desenllaç de la guerra i de les conseqüències del conflicte: repressió, exili i resistència"
+      "text": "Anàlisi de la situació de Catalunya durant el conflicte: guerra, revolució i situació de la població civil a la rereguarda. Explicació argumentada del desenllaç de la guerra i de les conseqüències del conflicte: repressió, exili i resistència",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Identificació dels elements que defineixen la dictadura franquista i sistematització de l’evolució política, econòmica i social del franquisme a Catalunya. Anàlisi de la dictadura franquista en relació amb l’àmbit europeu i internacional. Interpretació del paper de les migracions internes i externes"
+      "text": "Identificació dels elements que defineixen la dictadura franquista i sistematització de l’evolució política, econòmica i social del franquisme a Catalunya. Anàlisi de la dictadura franquista en relació amb l’àmbit europeu i internacional. Interpretació del paper de les migracions internes i externes",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Anàlisi de la repressió política, ideològica i social en el conjunt d’Espanya i de la repressió identitària. Descripció i valoració de l’evolució de les diverses formes d’oposició al règim franquista i reconeixement del paper de la memòria històrica de la lluita per la democràcia"
+      "text": "Anàlisi de la repressió política, ideològica i social en el conjunt d’Espanya i de la repressió identitària. Descripció i valoració de l’evolució de les diverses formes d’oposició al règim franquista i reconeixement del paper de la memòria històrica de la lluita per la democràcia",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Societats en el temps",
       "subapartat": null,
-      "text": "Recerca sobre canvis i continuïtats en la vida quotidiana, la cultura i les mentalitats a Catalunya i Espanya durant el franquisme. Reflexió sobre la situació de les dones durant el franquisme i en relació amb altres etapes històriques"
+      "text": "Recerca sobre canvis i continuïtats en la vida quotidiana, la cultura i les mentalitats a Catalunya i Espanya durant el franquisme. Reflexió sobre la situació de les dones durant el franquisme i en relació amb altres etapes històriques",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Caracterització dels fets més rellevants de la transició política cap a l’establiment d’un estat democràtic: limitacions i reptes. Coneixement dels principals ordenaments jurídics d’àmbit autonòmic, estatal, europeu i internacional com a garants de drets i llibertats per a l’exercici de la ciutadania. Anàlisi dels aspectes rellevants de la Constitució Espanyola i de l’Estatut d’autonomia de Catalunya"
+      "text": "Caracterització dels fets més rellevants de la transició política cap a l’establiment d’un estat democràtic: limitacions i reptes. Coneixement dels principals ordenaments jurídics d’àmbit autonòmic, estatal, europeu i internacional com a garants de drets i llibertats per a l’exercici de la ciutadania. Anàlisi dels aspectes rellevants de la Constitució Espanyola i de l’Estatut d’autonomia de Catalunya",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Descripció del model d’organització territorial de l’Estat espanyol. Reconeixement del concepte plurinacional de l’Estat i de la necessitat de preservació de les identitats, les llengües i les cultures pròpies com a font de riquesa compartida. Anàlisi del procés de restauració de la Generalitat de Catalunya"
+      "text": "Descripció del model d’organització territorial de l’Estat espanyol. Reconeixement del concepte plurinacional de l’Estat i de la necessitat de preservació de les identitats, les llengües i les cultures pròpies com a font de riquesa compartida. Anàlisi del procés de restauració de la Generalitat de Catalunya",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Identificació dels trets fonamentals de les societats democràtiques, valorant les consecucions de la democràcia en pro de la justícia social. Participació en projectes comunitaris de l’entorn, mostrant empatia i accions de suport a col·lectius en situacions de pobresa, vulnerabilitat i exclusió social"
+      "text": "Identificació dels trets fonamentals de les societats democràtiques, valorant les consecucions de la democràcia en pro de la justícia social. Participació en projectes comunitaris de l’entorn, mostrant empatia i accions de suport a col·lectius en situacions de pobresa, vulnerabilitat i exclusió social",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Debat sobre els reptes de la democràcia actual i valoració de la necessitat del compromís individual i col·lectiu amb les institucions democràtiques. Reconeixement dels valors de la pluralitat i la igualtat i rebuig de les conductes discriminatòries i violentes a partir de l’estudi de casos"
+      "text": "Debat sobre els reptes de la democràcia actual i valoració de la necessitat del compromís individual i col·lectiu amb les institucions democràtiques. Reconeixement dels valors de la pluralitat i la igualtat i rebuig de les conductes discriminatòries i violentes a partir de l’estudi de casos",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Aplicació dels conceptes bàsics de demografia a la comprensió d’algunes dinàmiques demogràfiques actuals i els moviments migratoris, analitzant-ne les causes i les conseqüències. Interpretació de les causes de la despoblació i la concentració urbana i de les conseqüències de la petjada humana en els territoris propers"
+      "text": "Aplicació dels conceptes bàsics de demografia a la comprensió d’algunes dinàmiques demogràfiques actuals i els moviments migratoris, analitzant-ne les causes i les conseqüències. Interpretació de les causes de la despoblació i la concentració urbana i de les conseqüències de la petjada humana en els territoris propers",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Reconeixement dels factors de diversitat social, etnicocultural i de gènere i la seva contribució a la cultura i la societat locals. Identificació de les característiques de les cultures originàries d’indrets sotmesos a la dominació i l’aculturació"
+      "text": "Reconeixement dels factors de diversitat social, etnicocultural i de gènere i la seva contribució a la cultura i la societat locals. Identificació de les característiques de les cultures originàries d’indrets sotmesos a la dominació i l’aculturació",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Maneig de dades, aplicacions i gràfics per a l’anàlisi de l’evolució de l’economia espanyola contemporània: desequilibris socials, territorials i ambientals. Interpretació de les transformacions del territori i valoració de la preservació dels paisatges propers"
+      "text": "Maneig de dades, aplicacions i gràfics per a l’anàlisi de l’evolució de l’economia espanyola contemporània: desequilibris socials, territorials i ambientals. Interpretació de les transformacions del territori i valoració de la preservació dels paisatges propers",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Anàlisi de les derivacions econòmiques, socials i polítiques del procés d’integració a la Unió Europea, situació actual i expectatives de futur. Identificació dels reptes de la Unió Europea dins el sistema món. Participació en projectes educatius amb estudiants de països europeus"
+      "text": "Anàlisi de les derivacions econòmiques, socials i polítiques del procés d’integració a la Unió Europea, situació actual i expectatives de futur. Identificació dels reptes de la Unió Europea dins el sistema món. Participació en projectes educatius amb estudiants de països europeus",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Interpretació del paper de Catalunya i de l’Estat espanyol dins el marc europeu i internacional en l’àmbit de la cooperació mundial i la seva participació en els organismes internacionals. Identificació dels fonaments geoestratègics des de la segona meitat del segle XX fins a l’actualitat: la política de blocs i els conflictes de la descolonització"
+      "text": "Interpretació del paper de Catalunya i de l’Estat espanyol dins el marc europeu i internacional en l’àmbit de la cooperació mundial i la seva participació en els organismes internacionals. Identificació dels fonaments geoestratègics des de la segona meitat del segle XX fins a l’actualitat: la política de blocs i els conflictes de la descolonització",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Reptes del món actual",
       "subapartat": null,
-      "text": "Identificació d’alguns moviments, causes i lideratges per a l’equitat i la no discriminació per raó de gènere i d’opció afectiva i sexual a l’època contemporània"
+      "text": "Identificació d’alguns moviments, causes i lideratges per a l’equitat i la no discriminació per raó de gènere i d’opció afectiva i sexual a l’època contemporània",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Col·laboració en projectes de l’entorn proper que lluitin per l’equitat i la no discriminació i actitud participativa davant dels programes i els projectes comunitaris. Ús de la mediació i de la gestió pacífica dels conflictes en l’àmbit escolar i comunitari"
+      "text": "Col·laboració en projectes de l’entorn proper que lluitin per l’equitat i la no discriminació i actitud participativa davant dels programes i els projectes comunitaris. Ús de la mediació i de la gestió pacífica dels conflictes en l’àmbit escolar i comunitari",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Reconeixement del concepte plurinacional de l’Estat i de la necessitat de preservació de les llengües i les cultures pròpies com a font de riquesa compartida"
+      "text": "Reconeixement del concepte plurinacional de l’Estat i de la necessitat de preservació de les llengües i les cultures pròpies com a font de riquesa compartida",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Assumpció de compromisos davant dels Objectius del Desenvolupament Sostenible per mitjà d’accions que generin valor afegit en la comunitat"
+      "text": "Assumpció de compromisos davant dels Objectius del Desenvolupament Sostenible per mitjà d’accions que generin valor afegit en la comunitat",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Valoració de les consecucions de la democràcia a Catalunya i Espanya, identificant els reptes pendents. Rebuig de qualsevol forma d’injustícia, discriminació, domini o genocidi. Assumpció d’una visió crítica vers les situacions injustes i valoració del diàleg i de la recerca del consens per a la resolució de conflictes"
+      "text": "Valoració de les consecucions de la democràcia a Catalunya i Espanya, identificant els reptes pendents. Rebuig de qualsevol forma d’injustícia, discriminació, domini o genocidi. Assumpció d’una visió crítica vers les situacions injustes i valoració del diàleg i de la recerca del consens per a la resolució de conflictes",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Valoració i respecte a la diversitat social, ètnica i cultural: tolerància i intolerància dins la història. Actitud oberta i receptiva davant de formes culturals diverses i, en especial, de col·lectius minoritzats"
+      "text": "Valoració i respecte a la diversitat social, ètnica i cultural: tolerància i intolerància dins la història. Actitud oberta i receptiva davant de formes culturals diverses i, en especial, de col·lectius minoritzats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Identificació d’algunes protagonistes individuals i col·lectives de l’emancipació de les dones i reconeixement de les polítiques d’igualtat, els avenços i els reptes pendents"
+      "text": "Identificació d’algunes protagonistes individuals i col·lectives de l’emancipació de les dones i reconeixement de les polítiques d’igualtat, els avenços i els reptes pendents",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Qüestionament dels rols de gènere i la seva manifestació en diversos àmbits de la societat i la cultura, incloent-hi l’entorn escolar. Participació en debats i projectes per a l’eliminació de les desigualtats, les discriminacions i les violències"
+      "text": "Qüestionament dels rols de gènere i la seva manifestació en diversos àmbits de la societat i la cultura, incloent-hi l’entorn escolar. Participació en debats i projectes per a l’eliminació de les desigualtats, les discriminacions i les violències",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Reconeixement de les aportacions de les dones en diferents àmbits (social, econòmic, polític, cultural, etc.) i en la transformació de les mentalitats"
+      "text": "Reconeixement de les aportacions de les dones en diferents àmbits (social, econòmic, polític, cultural, etc.) i en la transformació de les mentalitats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Distinció i complementarietat entre la història i la memòria. Preservació de les memòries plurals de persones i col·lectius de l’entorn proper. Valoració de la funció de la memòria històrica en la construcció del futur"
+      "text": "Distinció i complementarietat entre la història i la memòria. Preservació de les memòries plurals de persones i col·lectius de l’entorn proper. Valoració de la funció de la memòria històrica en la construcció del futur",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Participació i exercici de la ciutadania global mitjançant les tecnologies digitals. Prevenció i defensa davant de la desinformació i la manipulació. Reflexió crítica sobre les oportunitats i els reptes de la societat de la informació i de les xarxes socials. Ús responsable, col·laboratiu i ètic de les plataformes virtuals. Actitud oberta a l’aprenentatge permanent al llarg de la vida"
+      "text": "Participació i exercici de la ciutadania global mitjançant les tecnologies digitals. Prevenció i defensa davant de la desinformació i la manipulació. Reflexió crítica sobre les oportunitats i els reptes de la societat de la informació i de les xarxes socials. Ús responsable, col·laboratiu i ètic de les plataformes virtuals. Actitud oberta a l’aprenentatge permanent al llarg de la vida",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Participació en activitats que promoguin actituds de respecte envers persones i col·lectius per mitjà del diàleg intergeneracional i d’una aproximació intercultural. Superació dels estereotips i els prejudicis i actitud oberta per incorporar les experiències i sabers dels altres. Assumpció de responsabilitats individuals i col·lectives per contribuir a la cura i al benestar dels membres de la comunitat escolar i de l’entorn"
+      "text": "Participació en activitats que promoguin actituds de respecte envers persones i col·lectius per mitjà del diàleg intergeneracional i d’una aproximació intercultural. Superació dels estereotips i els prejudicis i actitud oberta per incorporar les experiències i sabers dels altres. Assumpció de responsabilitats individuals i col·lectives per contribuir a la cura i al benestar dels membres de la comunitat escolar i de l’entorn",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     },
     {
       "nivell": "general",
       "bloc": "Compromís cívic",
       "subapartat": null,
-      "text": "Respecte per la diversitat de manifestacions artístiques i culturals i actitud proactiva en la conservació del patrimoni material i immaterial de l’entorn. Participació en accions de posada en valor, difusió i gestió del patrimoni local amb actitud col·laborativa i creativa, conjuntament amb arxius, museus i altres entitats"
+      "text": "Respecte per la diversitat de manifestacions artístiques i culturals i actitud proactiva en la conservació del patrimoni material i immaterial de l’entorn. Participació en accions de posada en valor, difusió i gestió del patrimoni local amb actitud col·laborativa i creativa, conjuntament amb arxius, museus i altres entitats",
+      "nivell_norm": "BAT_GEN",
+      "academic_avancat": false
     }
-  ]
+  ],
+  "te_sabers": true
 }
