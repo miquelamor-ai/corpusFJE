@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar una biografia: narració cronològ
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: biografia
+macro_tipologia: narrativa
+label_ca: "Biografia"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

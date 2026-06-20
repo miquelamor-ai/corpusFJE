@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar una recepta: text instructiu culin
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: receptari
+macro_tipologia: instructiva
+label_ca: "Recepta"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar una entrada de diari: narració en
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: diari
+macro_tipologia: narrativa
+label_ca: "Diari personal"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

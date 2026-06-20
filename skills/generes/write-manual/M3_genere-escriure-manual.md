@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar un manual: text expositiu organitz
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: manual
+macro_tipologia: explicativa
+label_ca: "Manual"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

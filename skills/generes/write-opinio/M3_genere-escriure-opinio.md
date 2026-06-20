@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar un article d'opinió argumentatiu 
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: opinio
+macro_tipologia: argumentativa
+label_ca: "Article d'opinió"
 translanguaging: true
 multimodal: false
 moduls_relacionats: [M3]

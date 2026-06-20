@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar una descripció: presentació de l
 mecr_range: [pre-A1, A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: descripcio
+macro_tipologia: descriptiva
+label_ca: "Descripció"
 translanguaging: false
 multimodal: true
 moduls_relacionats: [M3]

@@ -8,6 +8,10 @@ descripcio: "Instrument per adaptar o generar un contrarelat de l'odi: resposta 
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: contrarelat_odi
+description: 'Use when adapting or generating a counter-narrative response to a hate message (online or face-to-face). Activates when genre_discursiu == "contrarelat_odi". Dismantles the hate message with data, perspective and an alternative narrative, without reproducing its rhetoric. Output: counter-narrative text in markdown with empathic framing and evidence.'
+tipologia: "Argumentativa / Reflexiva"
+macro_tipologia: argumentativa
+label_ca: "Contrarelat de l'odi"
 translanguaging: true
 multimodal: false
 moduls_relacionats: [M3, M8]

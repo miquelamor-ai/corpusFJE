@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar un informe: presentació organitza
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: informe
+macro_tipologia: explicativa
+label_ca: "Informe"
 translanguaging: false
 multimodal: true
 moduls_relacionats: [M3]

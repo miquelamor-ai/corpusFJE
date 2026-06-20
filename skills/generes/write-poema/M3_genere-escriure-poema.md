@@ -5,9 +5,11 @@ tipus: genere-discursiu
 categoria_principal: generes
 categories_secundaries: []
 descripcio: "Instrument per adaptar o generar un poema (gènere líric): preservacio de l'estructura estrofica i la divisio en versos, metafores concretes i visuals, simplificacio de vocabulari mantenint el ritme i la veu poetica. HCL Descriure (expressiva). Pre-A1 SÍ (oral i ludic, mediat per adult). Rubrica gradada 7 passos × 6 nivells MECR (pre-A1→C1)."
-mecr_range: [pre_A1, A1, A2, B1, B2, C1]
+mecr_range: [pre-A1, A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: poema
+macro_tipologia: poetica
+label_ca: "Poema"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]
