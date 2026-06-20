@@ -19,6 +19,7 @@ on:
       - '.tooling/build_rubrica.py'
       - '.tooling/build_matriu_cobertura.py'
       - '.tooling/build_per_al_docent.py'
+      - '.tooling/validate_skills_writers.py'
       - '.github/workflows/build-skills.yml'
 
 jobs:
@@ -36,6 +37,13 @@ jobs:
 
       - name: Install dependencies
         run: pip install pyyaml
+
+      - name: Validate skills write-* (canon 2026-06-19, catàleg derivable ATNE)
+        run: |
+          echo "→ Validant frontmatter de totes les skills write-* contra el canon..."
+          python .tooling/validate_skills_writers.py
+          # Exit != 0 ⇒ build s'atura ABANS de regenerar derivats.
+          # Així una skill mal formada NO arriba mai a producció ni trenca ATNE.
 
       - name: Regenerate derivats per a tots els instruments i generes
         run: |
