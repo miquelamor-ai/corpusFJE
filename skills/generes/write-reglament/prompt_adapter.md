@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-reglament.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 02cb8ce47080ea50
+checksum_font: 544d64629e7dba12
 ---
 
 # Escriure/adaptar un reglament — prompt d'adaptació parametritzat per nivell

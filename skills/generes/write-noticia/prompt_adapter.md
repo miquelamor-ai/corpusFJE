@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-noticia.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 46bc1184369e743f
+checksum_font: 5d3a350040661ca9
 ---
 
 # Escriure/adaptar una notícia — prompt d'adaptació parametritzat per nivell

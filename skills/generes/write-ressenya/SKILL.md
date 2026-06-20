@@ -23,11 +23,13 @@ triggers:
   equals: ressenya
 moduls_relacionats:
 - M3
+macro_tipologia: argumentativa
+label_ca: Ressenya
 font_canonic: M3_genere-escriure-ressenya.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 3c7588ce98d083b7
+checksum_font: e5892ec3e46270c2
 ---
 
 # Escriure/adaptar una ressenya — skill operativa per a LLM

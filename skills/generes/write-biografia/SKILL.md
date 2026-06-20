@@ -23,11 +23,13 @@ triggers:
   equals: biografia
 moduls_relacionats:
 - M3
+macro_tipologia: narrativa
+label_ca: Biografia
 font_canonic: M3_genere-escriure-biografia.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 15d0dad0b6e1da5e
+checksum_font: bc3e5957c80751e0
 ---
 
 # Escriure/adaptar una biografia — skill operativa per a LLM

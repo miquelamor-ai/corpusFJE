@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-entrevista.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: d6162eecae9b5e0e
+checksum_font: c7940ac368d7267e
 ---
 
 # Escriure/adaptar una entrevista — prompt d'adaptació parametritzat per nivell

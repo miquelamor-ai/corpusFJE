@@ -23,11 +23,13 @@ triggers:
   equals: carta
 moduls_relacionats:
 - M3
+macro_tipologia: conversacional
+label_ca: Carta
 font_canonic: M3_genere-escriure-carta.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: d665eb4e9c28a9c3
+checksum_font: b2814a508b93ec18
 ---
 
 # Escriure/adaptar una carta — skill operativa per a LLM

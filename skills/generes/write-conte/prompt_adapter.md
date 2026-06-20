@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-conte.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 1cb2bd96aedf78f7
+checksum_font: 12d25ccdae7b9bae
 ---
 
 # Escriure/adaptar un conte — prompt d'adaptació parametritzat per nivell

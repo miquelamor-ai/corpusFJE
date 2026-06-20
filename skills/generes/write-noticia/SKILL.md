@@ -23,11 +23,13 @@ triggers:
   equals: noticia
 moduls_relacionats:
 - M3
+macro_tipologia: narrativa
+label_ca: Notícia de premsa
 font_canonic: M3_genere-escriure-noticia.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 46bc1184369e743f
+checksum_font: 5d3a350040661ca9
 ---
 
 # Escriure/adaptar una notícia — skill operativa per a LLM

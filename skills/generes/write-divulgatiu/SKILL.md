@@ -23,11 +23,13 @@ triggers:
   equals: divulgatiu
 moduls_relacionats:
 - M3
+macro_tipologia: explicativa
+label_ca: Text divulgatiu
 font_canonic: M3_genere-escriure-divulgatiu.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 5616f5933412ef43
+checksum_font: 0950228492a445e6
 ---
 
 # Escriure/adaptar un text divulgatiu — skill operativa per a LLM

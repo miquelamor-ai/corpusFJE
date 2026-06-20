@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-dialeg.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 9f1447474d8f3ca8
+checksum_font: 18c26096b6c9d33a
 ---
 
 # Escriure/adaptar un diàleg — prompt d'adaptació parametritzat per nivell

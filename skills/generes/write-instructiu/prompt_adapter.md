@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-instructiu.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 3d1e320968642a3f
+checksum_font: 9a869c3db4a2fa7c
 ---
 
 # Escriure/adaptar un text instructiu — prompt d'adaptació parametritzat per nivell

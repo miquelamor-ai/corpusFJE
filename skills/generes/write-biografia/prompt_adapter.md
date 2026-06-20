@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-biografia.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 15d0dad0b6e1da5e
+checksum_font: bc3e5957c80751e0
 ---
 
 # Escriure/adaptar una biografia — prompt d'adaptació parametritzat per nivell

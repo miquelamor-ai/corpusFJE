@@ -23,11 +23,13 @@ triggers:
   equals: diari
 moduls_relacionats:
 - M3
+macro_tipologia: narrativa
+label_ca: Diari personal
 font_canonic: M3_genere-escriure-diari.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 6da2ae5763cb4771
+checksum_font: f11a8f14a534561d
 ---
 
 # Escriure/adaptar una entrada de diari — skill operativa per a LLM

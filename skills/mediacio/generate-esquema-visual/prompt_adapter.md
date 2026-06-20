@@ -3,7 +3,7 @@ tipus: derivat
 font_canonic: M3_instrument-generar-esquema-visual.md
 font_version: 1.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
 checksum_font: 153f17d80ff1c914
 ---

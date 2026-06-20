@@ -23,11 +23,13 @@ triggers:
   equals: poema
 moduls_relacionats:
 - M3
+macro_tipologia: poetica
+label_ca: Poema
 font_canonic: M3_genere-escriure-poema.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 5951b3be11b80fa3
+checksum_font: c3b70a46bc3928c1
 ---
 
 # Escriure/adaptar un poema — skill operativa per a LLM

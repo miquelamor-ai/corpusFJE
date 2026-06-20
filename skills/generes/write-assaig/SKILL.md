@@ -23,11 +23,13 @@ triggers:
   equals: assaig
 moduls_relacionats:
 - M3
+macro_tipologia: argumentativa
+label_ca: Assaig
 font_canonic: M3_genere-escriure-assaig.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: c73ffa809ede24af
+checksum_font: 5b94a928cc66f384
 ---
 
 # Escriure/adaptar un assaig — skill operativa per a LLM

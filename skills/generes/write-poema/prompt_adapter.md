@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-poema.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 5951b3be11b80fa3
+checksum_font: c3b70a46bc3928c1
 ---
 
 # Escriure/adaptar un poema — prompt d'adaptació parametritzat per nivell

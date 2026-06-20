@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-receptari.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 1d9ba51d307f5c5d
+checksum_font: d9d4fb15bcc889a7
 ---
 
 # Escriure/adaptar una recepta — prompt d'adaptació parametritzat per nivell

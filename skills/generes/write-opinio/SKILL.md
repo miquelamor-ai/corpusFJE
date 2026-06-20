@@ -23,11 +23,13 @@ triggers:
   equals: opinio
 moduls_relacionats:
 - M3
+macro_tipologia: argumentativa
+label_ca: Article d'opinió
 font_canonic: M3_genere-escriure-opinio.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 39c4371b047a7c96
+checksum_font: 554fa0285a4be904
 ---
 
 # Escriure/adaptar un article d'opinió — skill operativa per a LLM

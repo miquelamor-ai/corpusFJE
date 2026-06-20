@@ -23,11 +23,13 @@ triggers:
   equals: resum
 moduls_relacionats:
 - M3
+macro_tipologia: explicativa
+label_ca: Resum
 font_canonic: M3_genere-escriure-resum.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: d6ba1ea0a1bdf465
+checksum_font: 8d4599fcf3055e80
 ---
 
 # Escriure/adaptar un resum — skill operativa per a LLM

@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-enciclopedic.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 1432d06cb6eb9d4d
+checksum_font: cb1e83aff3352dd4
 ---
 
 # Escriure/adaptar una entrada enciclopèdica — prompt d'adaptació parametritzat per nivell

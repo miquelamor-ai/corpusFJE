@@ -23,11 +23,13 @@ triggers:
   equals: cronica
 moduls_relacionats:
 - M3
+macro_tipologia: narrativa
+label_ca: Crònica
 font_canonic: M3_genere-escriure-cronica.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 9320d584bb2e0dd4
+checksum_font: 7695fb453ef6f0c0
 ---
 
 # Escriure/adaptar una crònica — skill operativa per a LLM

@@ -23,11 +23,13 @@ triggers:
   equals: fabula
 moduls_relacionats:
 - M3
+macro_tipologia: narrativa
+label_ca: Faula
 font_canonic: M3_genere-escriure-fabula.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-14'
+generat_at: '2026-06-20'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 7a9325556e56de4c
+checksum_font: 952f37c4fbfcac05
 ---
 
 # Escriure/adaptar una fàbula — skill operativa per a LLM
