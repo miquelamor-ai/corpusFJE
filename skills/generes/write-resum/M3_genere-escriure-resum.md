@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar un resum (gènere autònom de cond
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: resum
+macro_tipologia: explicativa
+label_ca: "Resum"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

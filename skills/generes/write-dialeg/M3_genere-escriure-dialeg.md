@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar un dialeg teatral: personatges lli
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: dialeg
+macro_tipologia: conversacional
+label_ca: "Diàleg"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

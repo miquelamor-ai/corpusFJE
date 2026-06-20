@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar un conte narratiu breu (situació-
 mecr_range: [pre-A1, A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: conte
+macro_tipologia: narrativa
+label_ca: "Conte"
 translanguaging: true
 multimodal: true
 moduls_relacionats: [M3]

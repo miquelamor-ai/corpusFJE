@@ -2,18 +2,18 @@
 modul: M3
 titol: "Gèneres discursius — Marc conceptual i inventari MALL"
 tipus: marc
-descripcio: "Marc taxonòmic MALL: tipologies textuals (Adam, criteri intern) vs gèneres discursius (Bakhtin, esferes d'activitat sociocultural). Set macro-tipologies fonamentals i inventari dels 22 subgèneres operatius a FJE amb HCL associades. Document conceptual: les regles productives per gènere viuen a corpusFJE/skills/genres/."
+descripcio: "Marc taxonòmic MALL: tipologies textuals (Adam, criteri intern) vs gèneres discursius (Bakhtin, esferes d'activitat sociocultural). Set macro-tipologies fonamentals i inventari dels 24 subgèneres operatius a FJE amb HCL associades. Document conceptual: les regles productives per gènere viuen a corpusFJE/skills/genres/."
 review_status: revisat
 generat_at: 2026-03-28T20:00:00
-actualitzat_at: 2026-05-16T00:00:00
-nota_revisio: "Refet 2026-05-16 com a marc conceptual. Validat amb NotebookLM MALL FJE (sessió 2026-05-16): 7 macro-tipologies (incloent Conversacional i Poètica), distinció tipologia/gènere segons Adam/Bakhtin, classificació híbrids per seqüència dominant. Substitueix continguts productius previs (migrats a skills)."
+actualitzat_at: 2026-06-19T00:00:00
+nota_revisio: "Refet 2026-05-16 com a marc conceptual. Validat amb NotebookLM MALL FJE (sessió 2026-05-16): 7 macro-tipologies (incloent Conversacional i Poètica), distinció tipologia/gènere segons Adam/Bakhtin, classificació híbrids per seqüència dominant. Substitueix continguts productius previs (migrats a skills). Ampliació 2026-06-19: catàleg passa de 22 a 24 subgèneres amb la incorporació de `diari de camp` (escissió canònica de `diari`: personal vs observacional/empíric) i `contrarelat d'odi` (gènere argumentatiu de l'esfera valors/ciutadania global, M0). Pendents de validació MALL específica les .md font de les noves skills."
 ---
 
 # Gèneres discursius — Marc conceptual i inventari MALL
 
 ## Abstract
 
-El marc dels Gèneres Discursius MALL distingeix els gèneres (realitat sociocultural, criteri extern) de les tipologies o seqüències textuals (abstracció lingüística, criteri intern), seguint la tradició Bakhtin/Adam/Halliday, i estableix l'inventari operatiu de FJE: 7 macro-tipologies + 22 subgèneres treballats a l'aula. Pretén que el treball amb el text **operi com a treball amb el pensament**, ja que cada tipologia activa una Habilitat Cognitivolingüística nuclear (narrar, descriure, explicar, justificar, argumentar). Aporta el marc conceptual compartit que dóna coherència transversal al treball de llengua a totes les etapes; les regles productives per gènere viuen a `skills/genres/`. Idees-força: el text com a unitat semàntica de sentit (Halliday); heterogeneïtat com a norma (classificació per seqüència dominant); llengua-pensament-aprenentatge com a sistema integrat. NO és una tipologia tancada ni una classificació formal sense funció didàctica.
+El marc dels Gèneres Discursius MALL distingeix els gèneres (realitat sociocultural, criteri extern) de les tipologies o seqüències textuals (abstracció lingüística, criteri intern), seguint la tradició Bakhtin/Adam/Halliday, i estableix l'inventari operatiu de FJE: 7 macro-tipologies + 24 subgèneres treballats a l'aula. Pretén que el treball amb el text **operi com a treball amb el pensament**, ja que cada tipologia activa una Habilitat Cognitivolingüística nuclear (narrar, descriure, explicar, justificar, argumentar). Aporta el marc conceptual compartit que dóna coherència transversal al treball de llengua a totes les etapes; les regles productives per gènere viuen a `skills/genres/`. Idees-força: el text com a unitat semàntica de sentit (Halliday); heterogeneïtat com a norma (classificació per seqüència dominant); llengua-pensament-aprenentatge com a sistema integrat. NO és una tipologia tancada ni una classificació formal sense funció didàctica.
 
 ## Definició i principis
 
@@ -82,8 +82,8 @@ GÈNERES DISCURSIUS — MARC MALL
 │       └── HCL nuclear: (creativa, no convencional HCL)
 │       └── Gèneres FJE: poema
 │
-└── 22 SUBGÈNERES (criteri extern, esferes d'activitat)
-    │   → veure secció "Catàleg dels 22 subgèneres FJE"
+└── 24 SUBGÈNERES (criteri extern, esferes d'activitat)
+    │   → veure secció "Catàleg dels 24 subgèneres FJE"
     │   → regles productives a `corpusFJE/skills/genres/`
 ```
 
@@ -124,7 +124,7 @@ GÈNERES DISCURSIUS — MARC MALL
 - Expressions de lloc i situació
 - Recursos: comparació, metàfora, enumeració
 
-**Gèneres FJE d'aquesta macro**: descripció, enciclopèdic.
+**Gèneres FJE d'aquesta macro**: descripció, enciclopèdic, diari de camp (dominant descriptiva + secundària narrativa).
 
 ---
 
@@ -163,7 +163,7 @@ GÈNERES DISCURSIUS — MARC MALL
 - Marcadors d'opinió i modalització (crec que, és evident, sens dubte)
 - Estructures concessives (encara que, malgrat, tot i que)
 
-**Gèneres FJE d'aquesta macro**: opinió, ressenya, assaig.
+**Gèneres FJE d'aquesta macro**: opinió, ressenya, assaig, contrarelat d'odi.
 
 ---
 
@@ -226,7 +226,7 @@ GÈNERES DISCURSIUS — MARC MALL
 
 ---
 
-## Catàleg dels 22 subgèneres FJE
+## Catàleg dels 24 subgèneres FJE
 
 Inventari operatiu. Cada entrada indica: macro-tipologia(es), HCL principal, HCL secundàries, essència del gènere i ruta de la skill productiva. **Les regles productives no són aquí** — viuen a `corpusFJE/skills/genres/write-<key>/SKILL.md`.
 
@@ -268,11 +268,19 @@ Inventari operatiu. Cada entrada indica: macro-tipologia(es), HCL principal, HCL
 - **Skill**: `skills/genres/write-cronica/`
 
 #### diari
-- **Macro-tipologia**: Narrativa / Reflexiva (personal) o Expositiva / Justificativa (acadèmic)
+- **Macro-tipologia**: Narrativa / Reflexiva (personal)
 - **HCL principal**: Narrar + Interpretar/Valorar
-- **HCL secundàries**: Explicar (causes, B1+), Justificar (diari acadèmic/laboratori, B1+)
-- **Essència**: text personal en primera persona que combina fets, emocions i reflexió
+- **HCL secundàries**: Explicar (causes, B1+)
+- **Essència**: text personal en primera persona que combina fets, emocions i reflexió íntima
 - **Skill**: `skills/genres/write-diari/`
+- **Distinció amb `diari de camp`**: el `diari` és **personal i reflexiu** (veu íntima, esfera privada); el `diari de camp` és **observacional i metòdic** (esfera científica/empírica, registre sistemàtic). Són gèneres autònoms, no variants. Vegeu §Descriptiva.
+
+#### diari de camp
+- **Macro-tipologia**: Descriptiva (dominant) + Narrativa (secundària)
+- **HCL principal**: Descriure / Definir
+- **HCL secundàries**: Narrar (seqüència d'observacions), Interpretar/Valorar (B1+), Justificar (vincular observació a model, B2+)
+- **Essència**: registre sistemàtic d'observacions empíriques amb data, lloc, metodologia i dades, per a treball de camp científic, antropològic o naturalístic
+- **Skill**: `skills/genres/write-diari-camp/`
 
 ### Descriptiva
 
@@ -342,6 +350,14 @@ Inventari operatiu. Cada entrada indica: macro-tipologia(es), HCL principal, HCL
 - **HCL secundàries**: Justificar (evidències vinculades a models, B1+)
 - **Essència**: text reflexiu i argumentatiu amb tesi clara i desenvolupament ordenat
 - **Skill**: `skills/genres/write-assaig/`
+
+#### contrarelat d'odi
+- **Macro-tipologia**: Argumentativa / Reflexiva
+- **HCL principal**: Argumentar / Justificar
+- **HCL secundàries**: Interpretar/Valorar (B1+), Narrar (testimoni alternatiu, B2+)
+- **Essència**: resposta argumentada i empàtica a un missatge d'odi (online o presencial) que el desmunta amb dades, perspectiva i alternativa narrativa, sense reproduir-ne la retòrica
+- **Skill**: `skills/genres/write-contrarelat-odi/`
+- **Esfera d'activitat**: educació en valors, ciutadania global, alfabetització mediàtica, convivència. Específica de l'apartat M0 (identitat i missió FJE).
 
 ### Instructiva
 

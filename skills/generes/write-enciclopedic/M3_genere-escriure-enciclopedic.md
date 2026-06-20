@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar una entrada enciclopèdica: defini
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: enciclopedic
+macro_tipologia: descriptiva
+label_ca: "Entrada enciclopèdica"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]

@@ -8,6 +8,8 @@ descripcio: "Instrument per adaptar o generar una notícia periodística (piràm
 mecr_range: [pre-A1, A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
 genre_key: noticia
+macro_tipologia: narrativa
+label_ca: "Notícia de premsa"
 translanguaging: true
 multimodal: true
 moduls_relacionats: [M3]
