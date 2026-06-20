@@ -229,10 +229,13 @@ def derivat_frontmatter(
 # Camps Agent Skills (consumits per ATNE skills_loader.py):
 # - name, description, author, version, agent_role, tools_required, triggers
 # - genre_key (gèneres) o complement_key (mediació)
+# - macro_tipologia + label_ca: canon 2026-06-19 per al catàleg derivable d'ATNE
+#   (vegeu docs/canon_generes_skills_atne_2026-06-19.md)
 # - opcionals: tipologia, mecr_range, translanguaging, multimodal, moduls_relacionats
 AGENT_SKILLS_FIELDS = {
     "name", "description", "author", "version", "agent_role",
     "tools_required", "triggers", "genre_key", "complement_key",
+    "macro_tipologia", "label_ca",
     "tipologia", "mecr_range", "translanguaging", "multimodal",
     "moduls_relacionats", "skill_meta",
 }
@@ -288,7 +291,8 @@ def _derive_agent_skills_frontmatter(instrument: Instrument, font_path: Path) ->
         fm["triggers"] = [{"path": f"params.complements.{src_fm['complement_key']}", "equals": True}]
 
     # Opcionals propagats si existeixen
-    for k in ("tipologia", "mecr_range", "translanguaging", "multimodal", "moduls_relacionats"):
+    for k in ("macro_tipologia", "label_ca",
+              "tipologia", "mecr_range", "translanguaging", "multimodal", "moduls_relacionats"):
         if k in src_fm:
             fm[k] = src_fm[k]
 
@@ -313,12 +317,14 @@ def skill_md_frontmatter(instrument: Instrument, font_path: Path) -> str:
     if existing and existing.get("name"):
         # Preserva Agent Skills existent i actualitza només camps de traçabilitat.
         fm = {k: v for k, v in existing.items() if k in AGENT_SKILLS_FIELDS}
-        # Actualitza version i moduls_relacionats des del M*.md (fonts de veritat)
+        # Actualitza des del M*.md (fonts de veritat) els camps que evolucionen
+        # al canon i el .md font mana per damunt del SKILL.md preexistent:
+        #   - version, moduls_relacionats: històric.
+        #   - macro_tipologia, label_ca: canon 2026-06-19 (catàleg derivable ATNE).
         src_fm = instrument.frontmatter
-        if "version" in src_fm:
-            fm["version"] = src_fm["version"]
-        if "moduls_relacionats" in src_fm:
-            fm["moduls_relacionats"] = src_fm["moduls_relacionats"]
+        for k in ("version", "moduls_relacionats", "macro_tipologia", "label_ca"):
+            if k in src_fm:
+                fm[k] = src_fm[k]
     else:
         # No hi ha SKILL.md previ: construeix tot des del M*.md font.
         fm = _derive_agent_skills_frontmatter(instrument, font_path)
