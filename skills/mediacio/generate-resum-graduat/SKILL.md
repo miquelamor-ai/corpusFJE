@@ -21,7 +21,7 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-resum-graduat.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-20'
+generat_at: '2026-06-21'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: c9e54c8302e0bb76
 ---

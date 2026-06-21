@@ -22,7 +22,7 @@ moduls_relacionats:
 - M3
 font_canonic: M3_instrument-generar-mapa-mental.md
 font_version: 1.1.0-canonic
-generat_at: '2026-06-20'
+generat_at: '2026-06-21'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 326a7b69817dc91d
 ---

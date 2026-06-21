@@ -20,7 +20,7 @@ moduls_relacionats:
 - M6
 font_canonic: M3_instrument-generar-rubriques.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-20'
+generat_at: '2026-06-21'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 6923f54163438e53
 ---

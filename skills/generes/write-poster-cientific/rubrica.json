@@ -1,0 +1,484 @@
+{
+  "_meta": {
+    "name": "rubrica_write_poster_cientific",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-poster-cientific/M3_genere-escriure-poster-cientific.md",
+    "font_version": "4.2.0-canonic",
+    "generat_at": "2026-06-21",
+    "skill_name": "write-poster-cientific",
+    "family": "generes",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "poster_cientific",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol-etiqueta (1-3 paraules) + imatge. La pregunta la formula oralment l'adult.",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_procediment",
+          "descriptor": "Imatge dels materials amb etiquetes mínimes. Sense text de mètode."
+        },
+        {
+          "pas_id": "pas_3_lligadura_dada_visual",
+          "descriptor": "Dada nuclear amb la seva imatge/icona. La dada (valor + unitat) es manté intacta; el text és l'etiqueta."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Dades, unitats, símbols i termes tècnics INTACTES. El text mínim els envolta sense deformar-los."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Etiquetes i paraules clau. Mediació oral de l'adult. Frase 0 o 1 idea per bloc."
+        },
+        {
+          "pas_id": "pas_6_tancament_argumentatiu",
+          "descriptor": "Conclusió ancorada a la dada i la imatge amb el vincle causal preservat (\"Flota per la densitat [valor]\"), mediada oralment. Per a alumnes amb CALP en L1, admet conclusions més riques via oralitat/L1: el límit és la superfície lingüística, no l'operació cognitiva."
+        },
+        {
+          "pas_id": "pas_7_rigor_i_honestedat",
+          "descriptor": "No cal (mediació de l'adult)."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral, amb l'adult, mediada en L1 si cal) \"El dibuix explica què passa?\" — l'adult acompanya l'alumne a valorar si la representació triada (dibuix, icona, taula nuclear) deixa veure el fenomen, no només a constatar que ha dibuixat."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol curt + pregunta de 3-5 paraules (\"Què flota?\").",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_procediment",
+          "descriptor": "Llista visual de materials (paraula + icona). Mètode en 1 frase molt simple."
+        },
+        {
+          "pas_id": "pas_3_lligadura_dada_visual",
+          "descriptor": "2-3 dades amb representació visual simple (barres, símbols). Valor + unitat sempre."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Els termes tècnics poden portar un pictograma de suport."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases de 3-5 paraules. Vocabulari nuclear. 1 idea per bloc.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_6_tancament_argumentatiu",
+          "descriptor": "Conclusió simple amb vincle causal lligat a la dada (\"El més pesat va al fons perquè la densitat és més alta\"). Per a alumnes amb CALP en L1, admet conclusions més riques via oralitat/L1."
+        },
+        {
+          "pas_id": "pas_7_rigor_i_honestedat",
+          "descriptor": "No cal, o icona de \"d'on ve\" si és extern."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral o escrit mínim) \"El meu dibuix i la dada expliquen què he trobat?\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol + pregunta o objectiu en 1 frase clara."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_procediment",
+          "descriptor": "Materials en llista. Mètode en 1-2 frases simples.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_lligadura_dada_visual",
+          "descriptor": "Dades en taula o gràfic simple etiquetat. Frase que diu què mostra."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Els termes tècnics poden portar definició integrada molt breu."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases simples (8-12 paraules). Connectors bàsics (\"perquè\", \"i\").",
+          "countable": {
+            "min": 8,
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_6_tancament_argumentatiu",
+          "descriptor": "1-2 conclusions derivades de les dades. Connector \"per tant\"."
+        },
+        {
+          "pas_id": "pas_7_rigor_i_honestedat",
+          "descriptor": "La font de les dades externes s'indica de forma simple."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He explicat què mostren les dades.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol informatiu + pregunta d'indagació explícita."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_procediment",
+          "descriptor": "Materials + mètode en 2-3 frases. Què s'ha fet i com.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_lligadura_dada_visual",
+          "descriptor": "Dades en gràfic/taula. Frase que descriu la tendència (\"el valor puja quan...\")."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Definicions integrades on calgui."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases amb connectors causals (\"per tant\", \"ja que\"). Veu impersonal emergent."
+        },
+        {
+          "pas_id": "pas_6_tancament_argumentatiu",
+          "descriptor": "2 conclusions justificades explícitament des de la dada (HCL Justificar: \"X perquè la dada mostra Y\") + 1 implicació."
+        },
+        {
+          "pas_id": "pas_7_rigor_i_honestedat",
+          "descriptor": "Totes les dades externes porten font atribuïda."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"La meva conclusió surt de les dades del gràfic.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol precís + objectiu o hipòtesi formulada."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_procediment",
+          "descriptor": "Mètode concís amb variables identificades."
+        },
+        {
+          "pas_id": "pas_3_lligadura_dada_visual",
+          "descriptor": "Dades en gràfic adequat al tipus. Descripció objectiva de la relació."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Terminologia disciplinària plena."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Veu impersonal consistent. Vocabulari acadèmic."
+        },
+        {
+          "pas_id": "pas_6_tancament_argumentatiu",
+          "descriptor": "Conclusió argumentada + implicació o aplicació del resultat."
+        },
+        {
+          "pas_id": "pas_7_rigor_i_honestedat",
+          "descriptor": "Referències en format consistent, diferenciant fonts primàries (dades d'indagació pròpia) de secundàries (marc teòric)."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He mantingut les dades i unitats exactes i he argumentat la conclusió.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol acadèmic + pregunta de recerca i marc del problema."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_procediment",
+          "descriptor": "Mètode amb control de variables i justificació breu del disseny."
+        },
+        {
+          "pas_id": "pas_3_lligadura_dada_visual",
+          "descriptor": "Dades en format rigorós. Anàlisi de la relació i de la seva fiabilitat."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Rigor terminològic i simbòlic complet, sense glosses."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Registre acadèmic ple. Precisió i economia del llenguatge de pòster."
+        },
+        {
+          "pas_id": "pas_6_tancament_argumentatiu",
+          "descriptor": "Conclusió amb discussió de límits de les dades i obertura a noves preguntes."
+        },
+        {
+          "pas_id": "pas_7_rigor_i_honestedat",
+          "descriptor": "Rigor bibliogràfic complet: dades pròpies vs secundàries diferenciades amb format acadèmic, indicació de fiabilitat i traçabilitat de cada dada."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El pòster és rigorós: dades intactes, conclusió justificada, límits reconeguts.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_orientacio",
+      "titol": "Títol i pregunta/objectiu",
+      "dimensio": "Orientació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de títol i pregunta/objectiu; qualitative: LLM-jutge sobre claredat per nivell"
+    },
+    {
+      "id": "pas_2_sintesi_del_procediment",
+      "titol": "Materials i mètode (breu)",
+      "dimensio": "Síntesi del procediment",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar bloc de mètode; qualitative: brevetat i adequació al nivell"
+    },
+    {
+      "id": "pas_3_lligadura_dada_visual",
+      "titol": "Resultats: dades + visual",
+      "dimensio": "Lligadura dada–visual",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: cada dada nuclear té representació o etiqueta visual ([GRAFIC]/[TAULA]); structural: dada no desvinculada del visual"
+    },
+    {
+      "id": "pas_4_inviolabilitat_de_l",
+      "titol": "Invariant disciplinari",
+      "dimensio": "Inviolabilitat de l'objecte",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary/cross_source: valors, unitats, símbols i termes tècnics del font es conserven idèntics; detectar arrodoniments, unitats eliminades o termes substituïts"
+    },
+    {
+      "id": "pas_5_superficie_del_text",
+      "titol": "Bastida lingüística (forma)",
+      "dimensio": "Superfície del text",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "longitud de frase i vocabulari per nivell; LLM-jutge sobre adequació MECR de la FORMA (no del contingut)"
+    },
+    {
+      "id": "pas_6_tancament_argumentatiu",
+      "titol": "Conclusió",
+      "dimensio": "Tancament argumentatiu",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar conclusions; LLM-jutge: la conclusió deriva de les dades del pòster"
+    },
+    {
+      "id": "pas_7_rigor_i_honestedat",
+      "titol": "Referències i fonts",
+      "dimensio": "Rigor i honestedat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (B1+): dades externes amb font atribuïda"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un pòster científic que mantingui SEMPRE la lligadura dada–visual (cada dada quantitativa amb la seva representació o etiqueta visual) i l'estructura modular (títol · pregunta/objectiu · materials-mètode breu · resultats amb dades/gràfic · conclusió · referències), preservant **intacte l'invariant disciplinari** (dades, unitats, magnituds, símbols i termes tècnics) i modulant **només la bastida lingüística** que l'envolta segons el nivell MECR (pre-A1→C1).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una dada és correcta, si un gràfic és el més adequat o si una conclusió científica és vàlida; només ha de garantir l'estructura modular, la lligadura dada–visual, la preservació de l'invariant disciplinari i la fidelitat a les dades del text font. La validesa científica del contingut i el disseny didàctic són responsabilitat del docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada pre-A1→C1 ja capta el gruix de la diferenciació; el nivell MECR és la variable principal de selecció de la forma lingüística, mentre l'invariant disciplinari es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "*"
+      ],
+      "raonament": "El pòster és el gènere on la multimodalitat compensa millor la barrera lingüística: un nouvingut pre-A1 amb CALP en L1 pot interpretar un gràfic de barres o una taula de dades abans de poder llegir-ne la prosa. El disseny per capes permet aprofitar el pont L1 (Principi 1 del MALL; **TOLC**; **textos d'identitat lingüística** de Cummins/LIT; **Principi 10 del MELVIVES**: \"acollir cada infant en la seva llengua reforça la seva competència lingüística\"; **MALL MOPI/PIN p. 31**: l'ús efectiu de les llengües d'origen té \"efectes positius en la motivació i rendiment\") sense renunciar al rigor disciplinari (l'invariant científic és universal i no es tradueix). La decisió \"translanguaging textual sí, però dirigit i jerarquitzat\" preserva totes dues prioritats."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de descodificació textual quan la informació és quantitativa o relacional: el gràfic etiquetat és l'accés alternatiu nadiu del pòster, no un afegit."
+    },
+    "alumne_disc_visual": {
+      "raonament": "El pòster científic és, per definició del gènere, multimodal: la lligadura dada–visual és constitutiva. Per a un alumne que no pot accedir al canal visual, la solució no és buidar el contingut científic ni rebaixar el pòster a un altre gènere, sinó **duplicar el canal** (visual + textual equivalent) tot preservant l'objecte científic. Aquesta és la traducció gènere-específica del principi DUA de representació múltiple i, sobretot, de la `M1_discapacitat-visual.md` (perfil canon `locked: true`: descripcions d'imatges, lector de pantalla, format digital compatible). Marc complementari d'estàndards a `M5_accessibilitat-digital.md` (alt-text, equivalent textual; avui `esborrany`)."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la profunditat metodològica i la interpretació crítica de les dades són la via natural d'extensió en un gènere científic."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_vol_que",
+      "description": "La unitat vol que l'alumne comuniqui una indagació, un experiment o un tema científic de manera sintètica i visual."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un pòster, una infografia científica, un resum de recerca o un apartat de resultats amb dades i gràfics."
+    },
+    {
+      "name": "l_objectiu_es_exposar",
+      "description": "L'objectiu és exposar (jornada de ciència, fira, mural d'aula), no llegir un text continu."
+    },
+    {
+      "name": "la_materia_treballa_la",
+      "description": "La matèria treballa la competència científica amb dades i representacions visuals (Ciències Naturals, Física i Química, Biologia, Tecnologia, Matemàtiques aplicades)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_un",
+      "description": "El text és un informe continu amb seccions llargues i sense vocació visual → informe."
+    },
+    {
+      "name": "el_text_explica_un",
+      "description": "El text explica un fenomen de manera narrativitzada i sense dades pròpies → divulgatiu."
+    },
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dona instruccions per fer un experiment pas a pas → instructiu."
+    },
+    {
+      "name": "el_text_defensa_una",
+      "description": "El text defensa una postura sense base de dades → assaig o opinió."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"La dada i el dibuix van casats.\"",
+      "descripcio": "Explico als alumnes que cap dada pot viure sola i cap imatge pot ser decoració: cada número va amb la seva representació i cada gràfic amb les seves xifres. Proposo que abans de muntar el pòster facin parelles \"dada ↔ visual\". Si una dada no té parella visual o un visual no té dada, sobra o falta alguna cosa. Eficaç des de pre-A1 (amb dibuix) fins a C1 (amb gràfic)."
+    },
+    {
+      "id": "H2",
+      "titol": "\"El número no es toca.\"",
+      "descripcio": "Quan un alumne vol \"fer més fàcil\" una dada (arrodonir-la, treure la unitat, dir-la amb paraules), pregunto: \"Si canvies el número, encara és veritat?\" La dada, la unitat i el símbol són l'objecte científic: es mantenen sempre intactes. El que es pot fer més fàcil és el text del voltant, no el número. El test funciona a tots els nivells i és el cor de l'invariant disciplinari."
+    },
+    {
+      "id": "H3",
+      "titol": "\"Tres preguntes, tres blocs.\"",
+      "descripcio": "Proposo estructurar el pòster responent tres preguntes: \"Què vull saber?\" (pregunta/objectiu), \"Què he trobat?\" (dades + visual), \"Què vol dir?\" (conclusió). Tres preguntes, tres blocs nuclears. La resta (materials, referències) són suport. Aquesta tríada fa visible la cadena pregunta → evidència → conclusió a qualsevol nivell."
+    },
+    {
+      "id": "H4",
+      "titol": "\"El pòster es llegeix de lluny.\"",
+      "descripcio": "Recordo que un pòster s'exposa i es llegeix a distància: si hi ha massa text, no és un pòster, és un informe penjat a la paret. Proposo el test \"tres metres\": el títol, la pregunta i la conclusió s'han d'entendre a tres metres; les dades, mirant-lo de prop. Això força la síntesi i la jerarquia visual, especialment útil a B1+ quan l'alumne tendeix a escriure de més."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_logografic_etiqueta_visual": {
+      "trigger": {
+        "raw": "pre_A1_logografic_etiqueta_visual"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1 AND fase_lectora_equals: logografica\n\n**Modulació:**\n- format_text: etiquetes_minimes_sobre_imatge\n- mediacio_oral_adult: obligatoria\n- invariant_disciplinari: intacte (dada + unitat + símbol es mantenen com a objecte visual)\n- pont_L1: oral, si l'alumne en té\n- longitud_text_max: 3 paraules per bloc\n\n**Raonament pedagògic.** A pre-A1 logogràfic, el text escrit es redueix a etiquetes que ancoren la imatge, però l'objecte científic (la dada amb la seva unitat, el "
+      }
+    },
+    "a1_dada_amb_suport_visual": {
+      "trigger": {
+        "raw": "A1_dada_amb_suport_visual"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1\n\n**Modulació:**\n- cada_dada_nuclear: amb_representacio_visual_obligatoria\n- termes_tecnics: amb_pictograma_de_suport\n- longitud_frase_max: 5 paraules\n- conclusions_max: 1\n\n**Raonament pedagògic.** A A1 la lligadura dada–visual és el bastiment que permet llegir dades sense desbordar el processament lingüístic encara inicial. El pictograma sobre el terme tècnic dona accés al concepte sense substituir-lo (l'invariant es manté)."
+      }
+    },
+    "c1_discussio_fiabilitat": {
+      "trigger": {
+        "raw": "C1_discussio_fiabilitat"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- afegir_bloc: discussió de la fiabilitat de les dades i límits de la indagació\n- referenciar_fonts: rigor_bibliografic (dades pròpies vs secundàries)\n- conclusio: amb obertura a noves preguntes de recerca\n\n**Raonament pedagògic.** A C1 el pòster esdevé científic en sentit ple: reconèixer els límits de les dades (mostra petita, error de mesura, condicions no controlades) és part del rigor epistèmic que distingeix el pòster acadèmic del divulgatiu."
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

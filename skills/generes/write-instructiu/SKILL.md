@@ -27,7 +27,7 @@ macro_tipologia: instructiva
 label_ca: Text instructiu
 font_canonic: M3_genere-escriure-instructiu.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-20'
+generat_at: '2026-06-21'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 9a869c3db4a2fa7c
 ---
