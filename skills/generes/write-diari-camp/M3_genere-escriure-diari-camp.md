@@ -302,6 +302,14 @@ no aplica
 [Observo:] / [Crec que:] / [Interpretació:] — separació observació–interpretació
 ```
 
+**Convenció de fórmules matemàtiques i químiques (ADR-004):**
+```
+$T = 18{,}5\ °C$          ← dada numèrica amb unitat
+$pH = 6{,}8$              ← mesura química
+$n = 3\ \text{individus}$ ← comptatge amb unitat
+```
+Totes les dades numèriques amb unitat que formin part de l'invariant del registre s'escriuen en format LaTeX delimitat amb `$...$`. Això garanteix que el valor i la unitat es renderitzin correctament i no es deformin en cap adaptació.
+
 **Headers explícitament PROHIBITS:**
 ```
 ## Reflexió

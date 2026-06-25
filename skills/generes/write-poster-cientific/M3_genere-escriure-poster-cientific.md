@@ -298,6 +298,14 @@ no aplica
 [IMATGE: descripcio_breu]
 ```
 
+**Convenció de fórmules matemàtiques i químiques (ADR-004):**
+```
+$F = m \cdot a$           ← inline (dins la frase)
+$$\rho = \frac{m}{V}$$   ← display (línia pròpia)
+$H_2O$, $CO_2$, $pH = 7$ ← químiques
+```
+Totes les fórmules, símbols i equacions s'escriuen en format LaTeX delimitat amb `$...$` (inline) o `$$...$$` (display). L'invariant disciplinari (valor + unitat + símbol) és intocable: mai verbalitzis una fórmula en prosa ("la densitat és la massa dividida pel volum" en lloc de `$\rho = m/V$`).
+
 **Headers explícitament PROHIBITS:**
 ```
 ## Introducció

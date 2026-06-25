@@ -319,6 +319,16 @@ La pràctica de laboratori combina per naturalesa múltiples modes de representa
 [L1: idea_nuclear_en_L1]
 ```
 
+**Convenció de fórmules matemàtiques i químiques (ADR-004):**
+```
+$F = m \cdot a$                           ← llei de Newton
+$T = 23{,}4\ °C$                          ← dada experimental
+$\rho = \frac{m}{V}$                      ← fracció/fórmula
+$\mathrm{NaCl} \rightarrow Na^+ + Cl^-$  ← reacció química
+$$E_k = \frac{1}{2}mv^2$$                ← equació display
+```
+Totes les fórmules, símbols i dades experimentals s'escriuen en format LaTeX delimitat amb `$...$` (inline) o `$$...$$` (display). L'invariant disciplinari és intocable: mai arrodoneixis una dada ni substitueixis una fórmula per prosa. La hipòtesi s'ha d'expressar també en format LaTeX si conté símbols ("Crec que $v \propto t$").
+
 **Headers explícitament PROHIBITS:**
 ```
 ## Introducció
