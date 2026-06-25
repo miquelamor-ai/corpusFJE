@@ -5,7 +5,7 @@ font_version: 1.1.0
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-25'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: d8643f3768533065
+checksum_font: 1506ac44089babf3
 ---
 
 # Escriure/adaptar un diari de camp — prompt d'adaptació parametritzat per nivell

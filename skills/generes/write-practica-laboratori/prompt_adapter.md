@@ -5,7 +5,7 @@ font_version: 1.0.0
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-25'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 14460d06ebfdfc63
+checksum_font: ab740d351200be86
 ---
 
 # Escriure/adaptar una pràctica de laboratori — prompt d'adaptació parametritzat per nivell

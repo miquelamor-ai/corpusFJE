@@ -33,7 +33,7 @@ font_canonic: M3_genere-escriure-diari-camp.md
 font_version: 1.1.0
 generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: d8643f3768533065
+checksum_font: 1506ac44089babf3
 ---
 
 # Escriure/adaptar un diari de camp — skill operativa per a LLM

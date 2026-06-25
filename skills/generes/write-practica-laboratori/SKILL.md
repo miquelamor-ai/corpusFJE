@@ -34,7 +34,7 @@ font_canonic: M3_genere-escriure-practica-laboratori.md
 font_version: 1.0.0
 generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 14460d06ebfdfc63
+checksum_font: ab740d351200be86
 ---
 
 # Escriure/adaptar una pràctica de laboratori — skill operativa per a LLM

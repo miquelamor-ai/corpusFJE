@@ -5,7 +5,7 @@ font_version: 4.2.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-25'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 9b85b94da72f8873
+checksum_font: b3a0e9e9d77b8ab9
 ---
 
 # Escriure/adaptar un pòster científic — prompt d'adaptació parametritzat per nivell
