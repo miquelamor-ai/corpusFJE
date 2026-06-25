@@ -3,12 +3,12 @@
   "generat": "2026-06-12",
   "font": "Derivat del front-matter i les seccions ## Fonts dels docs de corpusFJE. Índex de relacions (no graph). Graph-upgradable. Join amb l'app per slug de tema i id de dinàmica. Universe = _manifest.json.",
   "stats": {
-    "documents": 867,
-    "contingut": 237,
+    "documents": 869,
+    "contingut": 239,
     "curriculum": 630,
-    "amb_fonts": 165,
+    "amb_fonts": 167,
     "amb_relacionats": 99,
-    "temes": 1265,
+    "temes": 1267,
     "objectius_A-D-D": 12
   },
   "documents": [
@@ -4765,6 +4765,33 @@
       "relacionats": []
     },
     {
+      "id": "M3_genere-escriure-diari-camp",
+      "path": "skills/generes/write-diari-camp/M3_genere-escriure-diari-camp.md",
+      "modul": "M3",
+      "tipus": "genere-discursiu",
+      "titol": "Escriure/adaptar un diari de camp",
+      "fase": null,
+      "tags": [],
+      "temes": [
+        "escriure-diari-camp"
+      ],
+      "fonts": [
+        "MALL (Model d'Aprenentatge de Llengües i Literacitat): HCL Descriure + Narrar com a base del gènere; Interpretar/Valorar (B1+) i Justificar (B2+) com a HCL creixents. CALP graduat per a vocabulari d'observació. Principi 1 (TOLC, translanguaging) com a base del disseny per capes a `alumne_nouvingut_L1`.",
+        "MALL Educació Secundària: p. 13 (competència subjacent comuna, Cummins) com a fonament del canal no-lingüístic per a nouvinguts; p. 21 (HCL Justificar a l'àmbit científic) com a base del Pas 6 a B2+ (vincle observació→model teòric).",
+        "MALL MOPI/PIN: p. 31 (efectes positius de l'ús de les llengües d'origen) com a fonament del pont L1 escrit per a alumnes alfabetitzats en L1.",
+        "Cummins, J. (2000): Language, Power and Pedagogy — la distinció BICS/CALP i el principi que la competència acadèmica en L1 sosté l'accés al contingut abans que la L2 estigui consolidada. Textos d'identitat lingüística (LIT) com a justificació de la \"1 línia d'observació clau en L1\" opcional.",
+        "MELVIVES (Principi 10): \"Acollir cada infant en la seva llengua reforça la seva competència lingüística\" — suport per al pont L1 dins el registre.",
+        "Wilson, S. (1977): \"The Use of Ethnographic Techniques in Educational Research\" — la distinció entre observació i interpretació com a principi fonamental del treball de camp etnogràfic; el registre ha de precedir l'anàlisi.",
+        "Emerson, R.M., Fretz, R.I. i Shaw, L.L. (2011): Writing Ethnographic Fieldnotes (2a ed.) — estructura del diari de camp: notas de campo descriptivas (observació) vs. notas analíticas (interpretació); la separació com a pràctica epistèmica.",
+        "Ogborn, J., Kress, G., Martins, I. i McGillicuddy, K. (1996): Explaining Science in the Classroom — el rol de la descripció sistemàtica en la construcció del coneixement científic escolar.",
+        "Kress, G. i van Leeuwen, T. (2006): Reading Images: The Grammar of Visual Design — el croquis i l'esquema d'observació com a mode semiètic propi del camp científic.",
+        "CAST (2018): Universal Design for Learning Guidelines — representació múltiple (multimodalitat del croquis + text + dada) i opcions d'expressió (mediació de l'adult com a escriba).",
+        "Decret 175/2022 (currículum Catalunya): competència científica (observació sistemàtica, metodologia empírica) i competència en comunicació lingüística.",
+        "Jorba, J., Gómez, I. i Prat, A. (1998): Parlar i escriure per aprendre — les HCL Descriure i Justificar en la comunicació científica escolar; la distinció entre la descripció objectiva i la interpretació en el discurs de ciència."
+      ],
+      "relacionats": []
+    },
+    {
       "id": "M3_genere-escriure-divulgatiu",
       "path": "skills/generes/write-divulgatiu/M3_genere-escriure-divulgatiu.md",
       "modul": "M3",
@@ -4980,6 +5007,22 @@
         "$H_2O$, $CO_2$, $pH = 7$ ← químiques",
         "Totes les fórmules, símbols i equacions s'escriuen en format LaTeX delimitat amb `$...$` (inline) o `$$...$$` (display). L'invariant disciplinari (valor + unitat + símbol) és intocable: mai verbalitzis una fórmula en prosa (\"la densitat és la massa dividida pel volum\" en lloc de `$\\rho = m/V$`).",
         "Headers explícitament PROHIBITS:"
+      ],
+      "relacionats": []
+    },
+    {
+      "id": "M3_genere-escriure-practica-laboratori",
+      "path": "skills/generes/write-practica-laboratori/M3_genere-escriure-practica-laboratori.md",
+      "modul": "M3",
+      "tipus": "genere-discursiu",
+      "titol": "Escriure/adaptar una pràctica de laboratori",
+      "fase": null,
+      "tags": [],
+      "temes": [
+        "escriure-practica-laboratori"
+      ],
+      "fonts": [
+        "Pas X: [text del pas] (dins ### Procediment, a partir de A2)"
       ],
       "relacionats": []
     },
@@ -18934,6 +18977,9 @@
     "escriure-diari": [
       "M3_genere-escriure-diari"
     ],
+    "escriure-diari-camp": [
+      "M3_genere-escriure-diari-camp"
+    ],
     "escriure-divulgatiu": [
       "M3_genere-escriure-divulgatiu"
     ],
@@ -18966,6 +19012,9 @@
     ],
     "escriure-poster-cientific": [
       "M3_genere-escriure-poster-cientific"
+    ],
+    "escriure-practica-laboratori": [
+      "M3_genere-escriure-practica-laboratori"
     ],
     "escriure-receptari": [
       "M3_genere-escriure-receptari"
