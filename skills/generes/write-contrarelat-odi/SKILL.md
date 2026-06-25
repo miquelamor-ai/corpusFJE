@@ -29,7 +29,7 @@ macro_tipologia: argumentativa
 label_ca: Contrarelat de l'odi
 font_canonic: M3_genere-escriure-contrarelat-odi.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 562dc178c65cf28c
 ---

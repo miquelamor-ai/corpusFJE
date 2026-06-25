@@ -27,7 +27,7 @@ macro_tipologia: poetica
 label_ca: Poema
 font_canonic: M3_genere-escriure-poema.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: c3b70a46bc3928c1
 ---

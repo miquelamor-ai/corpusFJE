@@ -27,7 +27,7 @@ macro_tipologia: instructiva
 label_ca: Reglament
 font_canonic: M3_genere-escriure-reglament.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 544d64629e7dba12
 ---

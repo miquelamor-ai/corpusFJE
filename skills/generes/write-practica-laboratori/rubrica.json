@@ -1,0 +1,504 @@
+{
+  "_meta": {
+    "name": "rubrica_write_practica_laboratori",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-practica-laboratori/M3_genere-escriure-practica-laboratori.md",
+    "font_version": "1.0.0",
+    "generat_at": "2026-06-25",
+    "skill_name": "write-practica-laboratori",
+    "family": "generes",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "practica_laboratori",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_prediccio",
+          "descriptor": "Títol-etiqueta (1-3 paraules). La hipòtesi la formula oralment l'adult; l'alumne la valida amb un gest o una imatge (\"Sí/No\").",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_identificacio_dels_elements",
+          "descriptor": "Imatge o dibuix del muntatge amb etiquetes mínimes. L'adult llegeix la llista de materials."
+        },
+        {
+          "pas_id": "pas_3_passos_de_la",
+          "descriptor": "Adult guia oralment. L'alumne segueix el muntatge visual. Cap text de procediment."
+        },
+        {
+          "pas_id": "pas_4_registre_de_les",
+          "descriptor": "Taula de dades simple preomplerta amb 1-2 valors nuclears (valor + unitat intactes). L'adult llegeix la taula. Imatge del resultat visible."
+        },
+        {
+          "pas_id": "pas_5_inviolabilitat_de_l",
+          "descriptor": "Dades, unitats, símbols, termes tècnics i hipòtesi original INTACTES. El text mínim els envolta."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar_el",
+          "descriptor": "Vincle causal mínim mediat oralment per l'adult: \"[El resultat] passa perquè [terme tècnic].\" L'adult verbalitza la connexió dada–teoria; l'alumne confirma. Per a alumnes amb CALP en L1, la connexió pot ser més rica via oralitat/L1."
+        },
+        {
+          "pas_id": "pas_7_tancament_de_la",
+          "descriptor": "Conclusió oral mediada per l'adult: \"La nostra predicció era [X]. Hem obtingut [Y]. [Confirmada/No confirmada].\" Etiqueta visual."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral, amb l'adult, mediada en L1 si cal) \"La meva predicció i el resultat, coincideixen?\" — l'adult acompanya l'alumne a valorar si allò que havia predit s'ha complert, sense corregir la hipòtesi original."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_prediccio",
+          "descriptor": "Títol curt (3-5 paraules). Hipòtesi en 1 frase molt simple: \"Crec que [el/la X] [fa/és]...\" amb vocabulari nuclear.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_identificacio_dels_elements",
+          "descriptor": "Llista de materials (nom + icona si cal). Dibuix del muntatge etiquetat amb els noms dels elements."
+        },
+        {
+          "pas_id": "pas_3_passos_de_la",
+          "descriptor": "2-3 passos en frases molt simples (\"Primer... Després... Final...\"). Imatge de cada pas clau."
+        },
+        {
+          "pas_id": "pas_4_registre_de_les",
+          "descriptor": "Taula de dades amb valors mesurats (valor + unitat sempre). 1 frase que diu \"He obtingut [X unitat].\""
+        },
+        {
+          "pas_id": "pas_5_inviolabilitat_de_l",
+          "descriptor": "Idem. Els termes tècnics poden portar un pictograma de suport. La hipòtesi oral de l'adult es manté sense corregir."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar_el",
+          "descriptor": "1 frase de justificació simple ancorada a la dada: \"[X] ha passat perquè [raó nuclear].\" Connector causal \"perquè\" obligatori."
+        },
+        {
+          "pas_id": "pas_7_tancament_de_la",
+          "descriptor": "1 frase que respon la hipòtesi: \"La nostra hipòtesi [és certa / no és certa] perquè hem obtingut [X].\""
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral o escrit mínim) \"La meva hipòtesi i el que he obtingut, coincideixen? Per què?\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_prediccio",
+          "descriptor": "Títol + hipòtesi en 1 frase clara: \"Crec que si [condició], llavors [resultat], perquè [raó breu].\""
+        },
+        {
+          "pas_id": "pas_2_identificacio_dels_elements",
+          "descriptor": "Llista de materials. Esquema del muntatge etiquetat. 1-2 frases del procediment principal.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_passos_de_la",
+          "descriptor": "3-5 passos numerats en frases simples (8-12 paraules). Connectors bàsics de seqüència (\"primer\", \"a continuació\", \"finalment\").",
+          "countable": {
+            "min": 8,
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_registre_de_les",
+          "descriptor": "Taula de dades completa. Gràfic simple si escau. 1-2 frases que descriuen el resultat principal (\"La temperatura ha pujat fins a [X °C].\").",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_inviolabilitat_de_l",
+          "descriptor": "Idem. Els termes tècnics poden portar definició integrada molt breu. La hipòtesi escrita no es modifica."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar_el",
+          "descriptor": "1-2 frases de justificació amb connector causal. Connexió directa resultat → explicació: \"Els resultats mostren [X] perquè [principi científic simple].\"",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_tancament_de_la",
+          "descriptor": "1-2 conclusions que responen la hipòtesi amb la dada: \"La hipòtesi ha estat [confirmada/refutada] perquè [resultat + dada].\""
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He explicat per què els meus resultats confirmen o refuten la hipòtesi.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_prediccio",
+          "descriptor": "Títol informatiu + hipòtesi amb relació entre variables: \"Si augmento [variable independent], espero que [variable dependent] augmenti perquè [marc teòric breu].\""
+        },
+        {
+          "pas_id": "pas_2_identificacio_dels_elements",
+          "descriptor": "Materials llistats + esquema del muntatge. Procediment en 3-5 passos numerats. Identificació de la variable que es canvia."
+        },
+        {
+          "pas_id": "pas_3_passos_de_la",
+          "descriptor": "5-7 passos numerats. Connectors de seqüència i frases amb veu activa. Inclusió de les condicions de control."
+        },
+        {
+          "pas_id": "pas_4_registre_de_les",
+          "descriptor": "Taula + gràfic adequat al tipus de dada. 2-3 frases que descriuen la tendència (\"A mesura que [X] augmenta, [Y] disminueix.\").",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_inviolabilitat_de_l",
+          "descriptor": "Idem. Definicions integrades on calgui. La hipòtesi és la referència explícita de la conclusió."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar_el",
+          "descriptor": "2-3 frases de justificació amb connexió explícita dada–teoria: \"El valor de [X unitat] confirma que [principi científic], ja que [dada suport].\" Veu impersonal emergent.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_tancament_de_la",
+          "descriptor": "2-3 conclusions que responen la hipòtesi justificant amb les dades. 1 implicació o aplicació del resultat. Connexió explícita amb la teoria."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"La meva justificació connecta les dades amb la teoria. He explicat les diferències si n'hi ha.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_prediccio",
+          "descriptor": "Títol precís + hipòtesi formulada amb variables nomenades explícitament i fonamentació teòrica breu."
+        },
+        {
+          "pas_id": "pas_2_identificacio_dels_elements",
+          "descriptor": "Materials + esquema. Procediment en passos numerats. Variables independent, dependent i controlades identificades."
+        },
+        {
+          "pas_id": "pas_3_passos_de_la",
+          "descriptor": "Passos numerats amb justificació breu de les condicions experimentals. Veu impersonal emergent."
+        },
+        {
+          "pas_id": "pas_4_registre_de_les",
+          "descriptor": "Taula + gràfic. Descripció objectiva de la relació entre variables. Indicació de la unitat de mesura de cada valor."
+        },
+        {
+          "pas_id": "pas_5_inviolabilitat_de_l",
+          "descriptor": "Idem. Terminologia disciplinària plena. La hipòtesi s'esmenta explícitament a la conclusió (\"La nostra hipòtesi ha estat [confirmada/refutada] perquè...\")."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar_el",
+          "descriptor": "Paràgraf d'anàlisi: justificació de cada resultat clau connectant amb la teoria de referència. Discussió si els resultats s'aparten de l'esperable. Connectors acadèmics (\"per tant\", \"en conseqüència\", \"tot i que\")."
+        },
+        {
+          "pas_id": "pas_7_tancament_de_la",
+          "descriptor": "Conclusions argumentades amb la hipòtesi com a referència. Discussió si hi ha discrepàncies entre els resultats i l'esperable. 1 implicació o aplicació real."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He justificat cada resultat clau amb la teoria i he discutit les diferències amb el valor esperat.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio_i_prediccio",
+          "descriptor": "Títol acadèmic + hipòtesi rigorosa amb relació de causalitat explícita, variables i marc teòric de referència citat."
+        },
+        {
+          "pas_id": "pas_2_identificacio_dels_elements",
+          "descriptor": "Materials + esquema. Procediment detallat. Variables identificades i justificació breu del disseny experimental."
+        },
+        {
+          "pas_id": "pas_3_passos_de_la",
+          "descriptor": "Procediment detallat en veu impersonal. Justificació del control de variables. Pot incloure referències a protocols estàndard."
+        },
+        {
+          "pas_id": "pas_4_registre_de_les",
+          "descriptor": "Taula + gràfic rigorosos. Descripció analítica de la relació, identificació de valors atípics i valoració de la repetibilitat."
+        },
+        {
+          "pas_id": "pas_5_inviolabilitat_de_l",
+          "descriptor": "Idem. Rigor terminològic i simbòlic complet. La hipòtesi és el fil conductor de tot el document."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar_el",
+          "descriptor": "Anàlisi rigorosa: connexió explícita dada–teoria amb citació de referència. Discussió de les fonts d'error experimental (error instrumental, error humà, condicions no controlades). Contrastació del resultat obtingut amb el valor teòric o experimental esperat."
+        },
+        {
+          "pas_id": "pas_7_tancament_de_la",
+          "descriptor": "Conclusions rigoroses: resposta a la hipòtesi justificada per les dades, reconeixement dels límits de l'experiment (mostra, repeticions, condicions), obertura a noves preguntes de recerca."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"L'experiment és rigorós: dades intactes, hipòtesi revisada honestament, fonts d'error reconegudes, conclusions justificades amb la teoria.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_orientacio_i_prediccio",
+      "titol": "Títol i hipòtesi",
+      "dimensio": "Orientació i predicció",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de títol i hipòtesi (o evidència de formulació oral a pre-A1/A1); qualitative: LLM-jutge sobre adequació de la hipòtesi al nivell (forma, no correcció científica)"
+    },
+    {
+      "id": "pas_2_identificacio_dels_elements",
+      "titol": "Material i muntatge",
+      "dimensio": "Identificació dels elements",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar bloc de materials i esquema; binary: presència d'esquema del muntatge; structural: variables identificades a partir de B1"
+    },
+    {
+      "id": "pas_3_passos_de_la",
+      "titol": "Procediment",
+      "dimensio": "Passos de la investigació",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "countable: nombre de passos numerats; structural: presència de connectors de seqüència adequats al nivell"
+    },
+    {
+      "id": "pas_4_registre_de_les",
+      "titol": "Resultats i dades",
+      "dimensio": "Registre de les observacions",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: cada dada nuclear té taula o representació; structural: la taula precedeix la descripció textual; cross_source si és adaptació (dades intactes)"
+    },
+    {
+      "id": "pas_5_inviolabilitat_de_l",
+      "titol": "Invariant disciplinari",
+      "dimensio": "Inviolabilitat de l'objecte",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary/cross_source: valors, unitats, símbols, termes tècnics i hipòtesi del text font es conserven idèntics; detectar arrodoniments, unitats eliminades, termes substituïts, o hipòtesi modificada a posteriori"
+    },
+    {
+      "id": "pas_6_hcl_justificar_el",
+      "titol": "Anàlisi i discussió",
+      "dimensio": "HCL Justificar (el cor del gènere)",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "qualitative (LLM-jutge): la justificació connecta dades amb teoria (no es limita a Descriure); structural: presència de connector causal obligatori a tots els nivells; countable a B2+: fonts d'error esmentades"
+    },
+    {
+      "id": "pas_7_tancament_de_la",
+      "titol": "Conclusions",
+      "dimensio": "Tancament de la cadena",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: la conclusió respon explícitament la hipòtesi; qualitative: LLM-jutge sobre si la resposta deriva de les dades (no d'allò que \"s'esperava\")"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés experimental",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta una pràctica de laboratori que mantingui SEMPRE la cadena hipòtesi → procediment → resultats → conclusió-justificada (l'invariant estructural del gènere), preserva **intactes les dades experimentals** (valors mesurats, unitats, condicions) i la **hipòtesi original** (mai corregida a posteriori), i modula **només la bastida lingüística** de cada secció segons el nivell MECR (pre-A1→C1). El cor del gènere és la secció d'anàlisi i discussió (Pas 6): és aquí on l'alumne justifica connectant els resultats amb la teoria científica de referència (HCL Justificar).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una hipòtesi és científicament correcta, si les dades experimentals són fiables o si una conclusió científica és vàlida; només ha de garantir la cadena estructural, la preservació de l'invariant disciplinari i la fidelitat a les dades del text font. La validesa científica del contingut i el disseny didàctic de l'experiment són responsabilitat del docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada pre-A1→C1 ja capta el gruix de la diferenciació; el nivell MECR és la variable principal de selecció de la forma lingüística, mentre l'invariant disciplinari (dades, hipòtesi, cadena lògica) es manté constant. El fet que la justificació sigui obligatòria fins i tot a pre-A1 (mediada oralment per l'adult) expressa el principi MALL de \"MECR = superfície, no sostre\"."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "*"
+      ],
+      "raonament": "El disseny per capes permet aprofitar el pont L1 (**TOLC**; **textos d'identitat lingüística** de Cummins/LIT; **Principi 10 del MELVIVES**: \"acollir cada infant en la seva llengua reforça la seva competència lingüística\"; **MALL MOPI/PIN p. 31**) sense renunciar al rigor disciplinari. La hipòtesi i les dades experimentals pertanyen a l'invariant científic universal."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de descodificació textual quan la informació és procedimental o quantitativa. L'esquema del muntatge i la taula de dades són les representacions nadiues de la pràctica de laboratori, no afegits: usades sistemàticament, permeten mantenir la cadena hipòtesi→conclusió fins i tot amb forma lingüística simplificada."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la profunditat metodològica (disseny experimental) i la interpretació crítica (discussió d'errors) són la via natural d'extensió en un gènere que exigeix Justificar com a HCL nuclear."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_inclou_un",
+      "description": "La unitat inclou un experiment controlat al laboratori amb hipòtesi prèvia, mesures i variables identificables."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un informe de laboratori, un protocol d'experiment o un registre de dades amb hipòtesi i procediment."
+    },
+    {
+      "name": "l_objectiu_es_que",
+      "description": "L'objectiu és que l'alumne interpreti els seus propis resultats connectant-los amb la teoria (HCL Justificar), no només que descrigui el que ha passat."
+    },
+    {
+      "name": "la_materia_treballa_la",
+      "description": "La matèria treballa la competència científica experimental (Ciències Naturals, Física i Química, Biologia, Tecnologia STEM)."
+    },
+    {
+      "name": "el_docent_vol_que",
+      "description": "El docent vol que l'alumne aprengui a distingir descripció de dades (Descriure) de connexió amb teoria (Justificar)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_una",
+      "description": "El text és una observació naturalística sense experiment controlat ni hipòtesi → diari de camp."
+    },
+    {
+      "name": "el_text_es_una",
+      "description": "El text és una síntesi visual per exposar a una audiència → pòster científic."
+    },
+    {
+      "name": "el_text_explica_un",
+      "description": "El text explica un fenomen sense dades pròpies → divulgatiu o informe genèric."
+    },
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dona instruccions per fer un experiment pas a pas, sense hipòtesi ni resultats → instructiu / protocol."
+    },
+    {
+      "name": "el_text_defensa_una",
+      "description": "El text defensa una postura sense base de dades experimentals → assaig o opinió."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"La hipòtesi no s'esmena: es respon.\"",
+      "descripcio": "Explico als alumnes que la hipòtesi és la predicció que feien ABANS de l'experiment, i que quan escrivim la conclusió hem de respondre-la honestament amb les dades que hem obtingut — no canviar-la per fer-la coincidir amb el resultat. Si la hipòtesi ha estat refutada, la conclusió ho diu i explica per quin motiu els resultats difereixen. Aprendre a afrontar una hipòtesi refutada és el cor del mètode científic. Funciona a tots els nivells: a pre-A1 l'adult verbalitza \"La nostra predicció era X. Hem obtingut Y. No coincideix.\" A C1 l'alumne analitza per quina font d'error pot haver-hi la discrepància."
+    },
+    {
+      "id": "H2",
+      "titol": "\"La dada experimental no es millora.\"",
+      "descripcio": "Quan un alumne vol arrodonir un valor (\"23,4 °C\" → \"uns 23 °C\") o treure una unitat per fer el text \"més senzill\", pregunto: \"Si canvies el número, estàs dient el que realment vas mesurar?\" La dada, la unitat i les condicions mesures exactes de l'experiment no es toquen: representar bé les dades és la competència científica. El text al voltant es pot simplificar; la mesura, mai. Complement indispensable de H1: si la hipòtesi no s'esmena i la dada no es toca, la connexió que estableixes a l'anàlisi és el que realment has après."
+    },
+    {
+      "id": "H3",
+      "titol": "\"Cinc preguntes, cinc blocs.\"",
+      "descripcio": "Proposo estructurar tota la pràctica responent cinc preguntes: \"Què crec que passarà?\" (hipòtesi), \"Com ho faré?\" (material i procediment), \"Què he obtingut?\" (resultats i dades), \"Per què ha passat això?\" (anàlisi i discussió), \"La meva predicció era correcta?\" (conclusions). Cinc preguntes, cinc blocs. La pregunta clau és la quarta — \"per quin motiu?\" — perquè és la que obliga a connectar l'experiment amb la teoria. Si l'alumne no pot respondre \"per quina raó\", és que l'experiment no ha acabat. Funciona des de pre-A1 (verbalment, mediat per l'adult) fins a C1 (per escrit, amb connexió a la teoria citada)."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Si els resultats no coincideixen amb la hipòtesi, pots aprendre el doble.\"",
+      "descripcio": "Molts alumnes es posen nerviosos quan els resultats \"no surten bé\" perquè difereixen de la hipòtesi. Explico que una hipòtesi refutada no és un error: és una oportunitat d'aprendre per quin motiu la predicció era incorrecta o per quin motiu l'experiment tenia limitacions. La ciència avança quan els resultats sorprenen. Proposo la pregunta: \"Quin és el motiu més probable de la diferència?\" Això introdueix el raonament sobre les fonts d'error experimental (B2+) d'una manera que l'alumne viu com una exploració, no com un fracàs."
+    },
+    {
+      "id": "H5",
+      "titol": "\"La justificació és el pont entre les dades i la teoria.\"",
+      "descripcio": "Mostro als alumnes la diferència entre Descriure (\"La temperatura ha pujat 5 °C\") i Justificar (\"La temperatura ha pujat 5 °C perquè la reacció és exotèrmica i allibera calor al medi\"). La primera frase informa; la segona aprèn. Proposo una plantilla de bastida lingüística com a punt de partida: \"Els resultats mostren [X] perquè [principi científic].\" A mesura que el nivell MECR augmenta, la bastida s'enriqueix amb \"tal com prediu la teoria de [Y]\" o \"tot i que el valor esperat era [Z], la discrepància s'explica per [font d'error].\" El connector \"perquè\" és l'obligatori mínim a tots els nivells — sense ell, no hi ha justificació, hi ha descripció."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_hipotesi_oral": {
+      "trigger": {
+        "raw": "pre_A1_hipotesi_oral"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1\n\n**Modulació:**\n- hipotesi: formulada_oralment_per_adult, validada_per_alumne_amb_gest_o_imatge\n- format_text: etiquetes_minimes_sobre_esquema_muntatge\n- mediacio_oral_adult: obligatoria\n- invariant_disciplinari: intacte (dada + unitat + terme tècnic es mantenen com a objecte visual)\n- pont_L1: oral, si l'alumne en té\n- longitud_text_max: 3 paraules per bloc\n- analisi_discussio: vincle_causal_oral_adult_obligatori (\"Passa perquè [terme]\")\n\n**Raonament pedagògic.*"
+      }
+    },
+    "b2_discussio_errors_experimentals": {
+      "trigger": {
+        "raw": "B2_discussio_errors_experimentals"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B2\n\n**Modulació:**\n- afegir_bloc_analisi: discussió breu de les fonts d'error experimental (error instrumental, error humà, condicions no controlades)\n- hipotesi_a_conclusions: citar explícitament si ha estat confirmada o refutada, i per quant s'aparta del valor esperat\n- connectors_obligatoris: \"per tant\", \"en conseqüència\", \"tot i que\", \"tot i que els resultats mostren\"\n- veu_impersonal: consistent a tot el document\n\n**Raonament pedagògic.** A B2 l'alumne comença a en"
+      }
+    },
+    "c1_rigor_metodologic": {
+      "trigger": {
+        "raw": "C1_rigor_metodologic"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- afegir_a_material_muntatge: justificació del disseny experimental (per què s'han escollit les variables, per què s'han controlat les condicions)\n- afegir_a_analisi: contrastació del resultat obtingut amb el valor teòric o experimental de referència citat; discussió de la validesa interna de l'experiment (repeticions, mida de la mostra, error sistemàtic vs. aleatori)\n- referenciar_fonts: rigor bibliogràfic (dades pròpies vs. marc teòric de referència"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

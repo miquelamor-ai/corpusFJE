@@ -27,7 +27,7 @@ macro_tipologia: explicativa
 label_ca: Text divulgatiu
 font_canonic: M3_genere-escriure-divulgatiu.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 0950228492a445e6
 ---

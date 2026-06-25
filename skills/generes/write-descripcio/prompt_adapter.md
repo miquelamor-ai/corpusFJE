@@ -3,7 +3,7 @@ tipus: derivat
 font_canonic: M3_genere-escriure-descripcio.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@prototip-2026-05-24
 checksum_font: add77b7c71a804e8
 ---

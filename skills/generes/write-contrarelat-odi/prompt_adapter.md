@@ -3,7 +3,7 @@ tipus: derivat
 font_canonic: M3_genere-escriure-contrarelat-odi.md
 font_version: 4.0.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@prototip-2026-05-24
 checksum_font: 562dc178c65cf28c
 ---

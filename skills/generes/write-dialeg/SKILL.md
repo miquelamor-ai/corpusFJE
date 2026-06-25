@@ -27,7 +27,7 @@ macro_tipologia: conversacional
 label_ca: Diàleg
 font_canonic: M3_genere-escriure-dialeg.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-21'
+generat_at: '2026-06-25'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 18c26096b6c9d33a
 ---

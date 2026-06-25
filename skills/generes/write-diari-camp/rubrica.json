@@ -1,0 +1,476 @@
+{
+  "_meta": {
+    "name": "rubrica_write_diari_camp",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-diari-camp/M3_genere-escriure-diari-camp.md",
+    "font_version": "1.1.0",
+    "generat_at": "2026-06-25",
+    "skill_name": "write-diari-camp",
+    "family": "generes",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "diari_camp",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_contextualitzacio",
+          "descriptor": "Pictograma de data (número del dia) + nom del lloc en 1 paraula + icona del temps meteorològic. L'adult completa la capçalera i la llegeix en veu alta."
+        },
+        {
+          "pas_id": "pas_2_orientacio",
+          "descriptor": "L'adult formula l'objectiu oralment. L'alumne pot assenyalar o dibuixar \"què busquem\"."
+        },
+        {
+          "pas_id": "pas_3_registre_fidel",
+          "descriptor": "Croquis de l'element observat + etiqueta d'1 paraula (nombre o nom). Mediació oral de l'adult (\"Quants en veus?\"). La dada (número, mesura) es manté intacta."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Allò vist és allò vist. L'adult no omple el que l'alumne no ha observat. Croquis = document de camp."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Etiquetes i números. Mediació oral de l'adult. 0 o 1 paraula per element observat."
+        },
+        {
+          "pas_id": "pas_6_salt_inferencial_explicit",
+          "descriptor": "No s'escriu. L'adult formula oralment la pregunta \"Per què creus que...?\" L'alumne respon oralment."
+        },
+        {
+          "pas_id": "pas_7_projeccio_cientifica",
+          "descriptor": "L'adult formula oralment \"Què vols veure la propera vegada?\" L'alumne pot dibuixar-ho."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral, amb l'adult, mediada en L1 si cal) \"El dibuix mostra el que has vist de veritat?\" — l'adult acompanya l'alumne a valorar si el croquis és fidel a l'observació, no si és bonic. L'accent és la fidelitat al registre, no l'estètica."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_contextualitzacio",
+          "descriptor": "Data (dia/mes) + lloc en 1-2 paraules + 1 condició ambiental breu (\"Sol\", \"Pluja\").",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_orientacio",
+          "descriptor": "1 frase molt simple (\"Busquem ocells\"). L'adult pot dictar."
+        },
+        {
+          "pas_id": "pas_3_registre_fidel",
+          "descriptor": "Croquis + etiqueta (nom + número). \"He vist [N] [element].\" 1 observació per bloc."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "El nombre i el nom de l'element observat es mantenen exactes. L'adult no \"corregeix\" allò no observat."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases de 3-5 paraules. Verbs d'observació bàsics (\"veig\", \"hi ha\", \"compto\"). 1 idea per línia.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_6_salt_inferencial_explicit",
+          "descriptor": "Oral o dibuix breu. L'adult escriu la idea de l'alumne amb l'etiqueta `[Idea:]`."
+        },
+        {
+          "pas_id": "pas_7_projeccio_cientifica",
+          "descriptor": "1 pregunta oral o en 1-3 paraules (\"Vull veure [element]\").",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral o escrit mínim) \"El que he dibuixat/escrit és el que he vist de veritat?\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_contextualitzacio",
+          "descriptor": "Data completa + lloc + hora + 1-2 condicions ambientals en frase breu (\"Fa sol i 20 °C\")."
+        },
+        {
+          "pas_id": "pas_2_orientacio",
+          "descriptor": "Objectiu en 1 frase clara (\"Observem quines plantes creixen vora l'estany\")."
+        },
+        {
+          "pas_id": "pas_3_registre_fidel",
+          "descriptor": "2-3 observacions amb nom, número o mesura. Frases simples. Ús de \"He vist\", \"He comptat\", \"He mesurat\"."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Les observacions s'escriuen tal com s'han produït, no com \"haurien\" de ser."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases simples (8-12 paraules). Connectors temporals (\"primer\", \"després\"). Verbs de registre (\"he observat\", \"he mesurat\").",
+          "countable": {
+            "min": 8,
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_6_salt_inferencial_explicit",
+          "descriptor": "1 frase d'interpretació, clarament separada i marcada `[Crec que:]`. Connector \"potser\"."
+        },
+        {
+          "pas_id": "pas_7_projeccio_cientifica",
+          "descriptor": "1 pregunta breu (\"La propera vegada miraré...\")."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He escrit el que he vist, no el que creia que hauria de veure.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_contextualitzacio",
+          "descriptor": "Capçalera completa: data, lloc, hora, condicions meteorològiques/ambientals, observador. Frase per element."
+        },
+        {
+          "pas_id": "pas_2_orientacio",
+          "descriptor": "Objectiu d'observació explícit, pot incloure hipòtesi inicial."
+        },
+        {
+          "pas_id": "pas_3_registre_fidel",
+          "descriptor": "Observació seqüenciada: hora/ordre + allò observat + dada. Inici de veu impersonal (\"S'observa\")."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Distinció explícita entre \"he vist\" (observació) i \"crec que\" (interpretació)."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases amb connectors temporals i causals. Veu impersonal emergent (\"s'observa\", \"es registra\")."
+        },
+        {
+          "pas_id": "pas_6_salt_inferencial_explicit",
+          "descriptor": "Interpretació explícita i etiquetada (`[Interpretació:]`): \"Potser X perquè he observat Y.\" Vincula observació i hipòtesi."
+        },
+        {
+          "pas_id": "pas_7_projeccio_cientifica",
+          "descriptor": "1-2 preguntes que deriven de les observacions d'avui. Connexió explícita."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"La meva interpretació surt de les observacions que he registrat, no d'allò que esperava trobar.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_contextualitzacio",
+          "descriptor": "Capçalera completa amb precisió: coordenades del lloc si aplica, metodologia d'observació declarada en 1 frase."
+        },
+        {
+          "pas_id": "pas_2_orientacio",
+          "descriptor": "Objectiu formulat com a pregunta d'investigació + hipòtesi prèvia."
+        },
+        {
+          "pas_id": "pas_3_registre_fidel",
+          "descriptor": "Registre sistemàtic amb variables declarades (hora, localització dins el transsecte, condicions locals). Veu impersonal consistent."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Metodologia d'observació declarada i seguida; qualsevol desviació es registra."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Veu impersonal consistent. Vocabulari tècnic d'observació (CALP). Precisió en la descripció."
+        },
+        {
+          "pas_id": "pas_6_salt_inferencial_explicit",
+          "descriptor": "Bloc `[Interpretació:]` amb argumentació: observació → hipòtesi → vinculació amb model de referència."
+        },
+        {
+          "pas_id": "pas_7_projeccio_cientifica",
+          "descriptor": "2-3 preguntes obertes formulades com a preguntes d'investigació. Suggeriment de propera observació."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He mantingut la separació observació–interpretació. Les meves dades són traçables.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_contextualitzacio",
+          "descriptor": "Capçalera de protocol científic: data, localització precisa, condicions ambientals amb mesures, observadors, protocol de mostratge."
+        },
+        {
+          "pas_id": "pas_2_orientacio",
+          "descriptor": "Objectiu amb marc teòric de referència: la pregunta d'investigació es situa en relació a models o estudis previs."
+        },
+        {
+          "pas_id": "pas_3_registre_fidel",
+          "descriptor": "Registre de protocol: variables múltiples, mètode de mostratge explícit, referència al protocol declarat a la capçalera."
+        },
+        {
+          "pas_id": "pas_4_inviolabilitat_de_l",
+          "descriptor": "Idem. Rigor metodològic complet: l'observació és traçable, reproductible en condicions similars, i els límits de l'observació es reconeixen."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Registre acadèmic de camp ple. Terminologia disciplinària específica. Precisió i economia del llenguatge científic."
+        },
+        {
+          "pas_id": "pas_6_salt_inferencial_explicit",
+          "descriptor": "Discussió crítica de la interpretació: observació → hipòtesi → model de referència → límits de la inferència. Reconeixement del salt lògic."
+        },
+        {
+          "pas_id": "pas_7_projeccio_cientifica",
+          "descriptor": "Propostes de millora del protocol + preguntes d'investigació derivades + connexió amb literatura o models teòrics."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El meu registre és fidel, la meva interpretació és explícita i els límits de la inferència estan reconeguts.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_contextualitzacio",
+      "titol": "Capçalera d'observació",
+      "dimensio": "Contextualització",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de data + lloc; qualitative: LLM-jutge sobre completesa per nivell (pre-A1: pictograma+número acceptat; C1: protocol complet)"
+    },
+    {
+      "id": "pas_2_orientacio",
+      "titol": "Objectiu de l'observació",
+      "dimensio": "Orientació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència d'objectiu o pregunta d'observació; qualitative: adequació al nivell (oral/dibuix a pre-A1, pregunta d'investigació a B2+)"
+    },
+    {
+      "id": "pas_3_registre_fidel",
+      "titol": "Observació sistemàtica",
+      "dimensio": "Registre fidel",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: presència de verbs d'observació + dades (nombres, mesures); qualitative: LLM-jutge sobre sistematicitat per nivell"
+    },
+    {
+      "id": "pas_4_inviolabilitat_de_l",
+      "titol": "Invariant del registre",
+      "dimensio": "Inviolabilitat de l'observació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary/cross_source: les observacions i dades del font es conserven idèntiques; detectar interpolacions (allò \"afegit\" que no era al registre original), arrodoniments o omissions de dades"
+    },
+    {
+      "id": "pas_5_superficie_del_text",
+      "titol": "Bastida lingüística (forma)",
+      "dimensio": "Superfície del text",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "longitud de frase i vocabulari per nivell; LLM-jutge sobre adequació MECR de la FORMA (no del contingut observat)"
+    },
+    {
+      "id": "pas_6_salt_inferencial_explicit",
+      "titol": "Interpretació / hipòtesi (etiquetada)",
+      "dimensio": "Salt inferencial explicit",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (B1+): presència de bloc d'interpretació separat i etiquetat; qualitative: LLM-jutge sobre separació real observació–interpretació (detectar barreges)"
+    },
+    {
+      "id": "pas_7_projeccio_cientifica",
+      "titol": "Preguntes obertes / properes observacions",
+      "dimensio": "Projecció científica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (A2+): presència de mínim 1 pregunta o projecció; qualitative: deriva de les observacions d'aquesta sessió"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent; accent sobre fidelitat al registre, no sobre estètica"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un diari de camp que mantingui SEMPRE la separació neta observació–interpretació (l'observació és el registre fidel de la realitat; la interpretació s'etiqueta explícitament com a tal) i l'estructura de capçalera (data · lloc · hora · condicions · observador), preservant **intacte l'invariant del registre** (allò vist, mesurat o recollit no s'altera, no s'infla, no s'omple amb allò que \"deuria\" haver-se vist) i modulant **només la forma lingüística del registre** segons el nivell MECR (pre-A1→C1).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una observació és correcta, si una hipòtesi és vàlida o si la metodologia d'observació ha estat rigorosa; només ha de garantir l'estructura de capçalera, la separació observació–interpretació, la preservació del registre fidel i la fidelitat a les dades del text font. La validesa científica del contingut i el disseny didàctic del treball de camp són responsabilitat del docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada pre-A1→C1 ja capta el gruix de la diferenciació; el nivell MECR és la variable principal de selecció de la forma lingüística del registre, mentre l'invariant observacional es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "*"
+      ],
+      "raonament": "El diari de camp és el gènere on el canal no-lingüístic (croquis, mapa, esquema) compensa millor la barrera lingüística inicial: un nouvingut pre-A1 pot dibuixar el que veu, comptar individus i anotar una temperatura abans de poder escriure en català. El disseny per capes permet aprofitar el pont L1 (Principi 1 del MALL; **TOLC**; **LIT** de Cummins; **MELVIVES Principi 10**) sense renunciar al rigor del registre d'observació."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de descodificació textual quan la informació és descriptiva o relacional: el croquis etiquetat és l'accés alternatiu nadiu del diari de camp, no un afegit."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: el rigor metodològic i l'anàlisi del propi procés d'observació són la via natural d'extensió en un gènere empíric."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_inclou_una",
+      "description": "La unitat inclou una sortida de camp, una visita a un entorn natural o urbà, una observació prolongada en un espai concret (estany, jardí, laboratori, mercat, barri)."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un diari de camp, un protocol d'observació, un quadern de camp d'un científic o naturalista."
+    },
+    {
+      "name": "l_objectiu_es_registrar",
+      "description": "L'objectiu és **registrar** i **documentar** allò que es veu (no sintetitzar per a una audiència, que seria el pòster, ni narrar experiències personals, que seria el diari personal)."
+    },
+    {
+      "name": "la_materia_treballa_l",
+      "description": "La matèria treballa l'observació sistemàtica com a mètode: Ciències Naturals (flora, fauna, ecosistemes), Ciències Socials (observació antropològica, itineraris urbans), Biologia, Experimentació Científica."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_explica_un",
+      "description": "El text explica un fenomen de manera elaborada amb conclusions consolidades → informe o pòster."
+    },
+    {
+      "name": "el_text_narra_experiencies",
+      "description": "El text narra experiències personals i emocions d'una sortida → diari personal o crònica."
+    },
+    {
+      "name": "el_text_presenta_dades",
+      "description": "El text presenta dades finals analitzades i sintetitzades → informe científic."
+    },
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dóna instruccions per fer una observació pas a pas → instructiu o protocol."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"El que he vist i el que crec que significa: dues columnes.\"",
+      "descripcio": "Proposo als alumnes que estructurin el diari en dues columnes físiques: a l'esquerra, \"He vist / He comptat / He mesurat\" (el registre pur); a la dreta, \"Crec que / Podria ser que\" (la interpretació). Si no poden col·locar una frase en una de les dues columnes, és que no saben si estan observant o interpretant. La doble columna és eficaç des d'A2 fins a C1 i es pot introduir visualment a pre-A1/A1 amb dos colors o dues zones del full."
+    },
+    {
+      "id": "H2",
+      "titol": "\"No posis el que hauries d'haver vist.\"",
+      "descripcio": "Quan un alumne escriu \"he vist una papallona\" sense haver-ne vist cap (perquè \"n'hi hauria d'haver en primavera\"), pregunto: \"Tens el dibuix? On és al registre?\" Si no hi és al croquis ni a les dades, no va al diari. Aquesta heurística és el cor de l'invariant del registre: la ciència de camp és el que hi ha, no el que caldria haver-hi. Funciona a tots els nivells: a pre-A1, el croquis és el test (\"has dibuixat el que has vist?\"); a C1, el protocol és el test (\"la teva metodologia d'observació captura realment el que dius que has vist?\")."
+    },
+    {
+      "id": "H3",
+      "titol": "\"La capçalera és el passaport del registre.\"",
+      "descripcio": "Recordo als alumnes que un registre sense data, lloc i hora és un text sobre natura o un text científic, però no un diari de camp. La capçalera és el que fa que el diari sigui traçable: permet repetir l'observació, comparar amb altres registres del mateix lloc en dates diferents, i saber en quines condicions s'ha observat. Proposo un ritual d'entrada al camp: abans de mirar cap a l'entorn, completar la capçalera. \"Passaport primer, observació després.\" Eficaç des d'A1 (capçalera mínima) fins a C1 (protocol complet)."
+    },
+    {
+      "id": "H4",
+      "titol": "\"L'observació és com una fotografia; la interpretació és el peu de foto.\"",
+      "descripcio": "Per a nivells A2-B1, proposo la metàfora fotogràfica: la descripció de l'observació ha de ser com una fotografia (el que es veu objectivament); la interpretació és el peu de foto (el que el fotògraf n'explica o en pensa). Si barrejo la fotografia i el peu de foto en la mateixa frase, el registre perd rigor. A B2+, la metàfora evoluciona: el peu de foto ha d'explicitar el salt lògic (\"la fotografia mostra X; el peu de foto és Y perquè...\")."
+    },
+    {
+      "id": "H5",
+      "titol": "\"Quants n'has vist? Escriu el número.\"",
+      "descripcio": "Per a pre-A1/A1, la instrucció més senzilla per ancrar el registre a l'observació real. Quan un alumne diu \"molts ocells\", pregunto: \"Quants en has comptat?\" Si ha comptat 7, escriu 7. Si no ha comptat, escriu \"?\" o \"NR\" (no registrat). Aprendre a distingir entre \"no he vist\" (0), \"he vist però no he comptat\" (NR) i \"he comptat N\" (N) és una de les competències d'observació científica més bàsiques i més difícils d'automatitzar. Eficaç des de pre-A1 fins a B1."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_logografic_croquis_camp": {
+      "trigger": {
+        "raw": "pre_A1_logografic_croquis_camp"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1 AND fase_lectora_equals: logografica\n\n**Modulació:**\n- format_text: croquis_i_etiquetes_numeriques_minimes\n- mediacio_oral_adult: obligatoria\n- invariant_registre: intacte (allò vist és allò vist; l'adult no omple allò no observat)\n- lligadura_dada_visual: obligatoria — el número (comptatge, mesura) ha d'aparèixer SEMPRE vora el croquis, no en un bloc separat. \"3 ocells\" = el dibuix de l'ocell + el número \"3\" al costat. La dada sense el visual (o el visual sense "
+      }
+    },
+    "c1_rigor_metodologic": {
+      "trigger": {
+        "raw": "C1_rigor_metodologic"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- capçalera: protocol complet (localització precisa, protocol de mostratge, nombre d'observadors, variables controlades)\n- observació: registre amb variables múltiples i metodologia explícita i traçable\n- interpretació: discussió crítica que explica el salt lògic observació→hipòtesi i reconeix els límits de la inferència\n- preguntes_obertes: connexió amb literatura o models teòrics de referència\n- autoavaluació: anàlisi del propi biaix d'observació i "
+      }
+    },
+    "b1_interpretacio_etiquetada_obligatoria": {
+      "trigger": {
+        "raw": "B1_interpretacio_etiquetada_obligatoria"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_in: [B1, B2, C1]\n\n**Modulació:**\n- bloc_interpretacio: obligatori i etiquetat (`[Interpretació:]` o equivalent en registre acadèmic)\n- vincle_observacio_hipotesi: explícit (\"He observat X, per tant podria ser que Y\")\n- observacio_i_interpretacio: en seccions físicament separades, mai barrejades dins la mateixa frase\n\n**Raonament pedagògic.** A B1 s'activa la HCL Interpretar/Valorar: l'alumne comença a fer el salt del \"he vist\" al \"potser significa\". Sense l'etiqueta, el risc és"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}
