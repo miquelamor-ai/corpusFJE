@@ -27,8 +27,24 @@ jobs:
 
       - name: Commit manifest
         run: |
+          set -e
           git config user.name "corpus-bot"
           git config user.email "corpus-bot@fje.edu"
           git add _manifest.json
-          git diff --staged --quiet || git commit -m "chore: regenera _manifest.json [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "Cap canvi al manifest: res a commitejar."
+            exit 0
+          fi
+          git commit -m "chore: regenera _manifest.json [skip ci]"
+          # Race protection: pot haver-hi un push concurrent (build-skills, build-relacions).
+          # Rebase amb fins a 3 reintents abans de rendir-se.
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push correcte (intent $i)."
+              exit 0
+            fi
+            echo "Push rebutjat, rebase i reintento (intent $i)..."
+            git pull --rebase origin master
+          done
+          echo "ERROR: 3 intents fallits."
+          exit 1
