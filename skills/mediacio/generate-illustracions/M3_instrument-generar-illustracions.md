@@ -6,7 +6,7 @@ categoria_principal: mediacio
 categories_secundaries: []
 descripcio: "Instrument per inserir marcadors d'il·lustracions IA al text adaptat. Format: [IMATGE: concepte curt en catala]. Backend: Wikimedia (llicencia lliure) → FLUX (generativa) → skip. 7 presets d'estil. Pre-A1/A1 davant del concepte com a anticipacio; A2+ al costat o dins del paragraf. Principi 'menys és mes': maxim 3-4 per document. Rubrica gradada 5 passos × 6 nivells MECR (pre-A1→C1)."
 mecr_range: [pre_A1, A1, A2, B1, B2, C1]
-agent_roles: [generator]
+agent_roles: [adapter]
 complement_key: illustracions
 translanguaging: false
 multimodal: true

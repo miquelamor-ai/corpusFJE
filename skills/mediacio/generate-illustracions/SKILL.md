@@ -11,7 +11,7 @@ description: 'Use when the teacher has activated the "illustracions" complement 
 author: FJE — Fundació Jesuïtes Educació
 version: 4.0.0-canonic
 complement_key: illustracions
-agent_role: complements
+agent_role: adapter
 tools_required:
 - name: image_generation
   provider: pollinations
