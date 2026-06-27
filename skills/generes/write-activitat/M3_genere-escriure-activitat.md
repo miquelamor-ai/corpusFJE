@@ -4,11 +4,11 @@ titol: "Adaptar un document d'activitat"
 tipus: genere-discursiu
 categoria_principal: generes
 categories_secundaries: []
-descripcio: "Instrument per adaptar un document d'activitat escolar (exercici o tasca): gènere híbrid Instructiu (consigna) + Explicatiu (context/dades). Invariant crític: la consigna i les dades del problema son INTOCABLES; es modula només la bastida lingüística del context introductori i la forma lingüística de la consigna (sense canviar-ne el contingut). Advertència PI/PAD: reduir variables, simplificar números o rebaixar el repte cognitiu és territori de Pla Individualitzat, no d'adaptació lingüística ordinària. HCL Interpretar (consigna) + les HCL que la pròpia activitat demana (Descriure, Explicar, Justificar, variable). Rúbrica gradada 8 passos × 6 nivells MECR (pre-A1→C1)."
+descripcio: "Instrument per adaptar un enunciat escolar (exercici, activitat o tasca): el docent parteix d'una situació —més o menys globalitzada, concreta i situada o abstracta— i demana a l'alumne que la resolgui. Macro-tipologia instructiva: la consigna domina i dona existència al gènere, amb un component explicatiu fort al context i les dades. Invariant crític: la consigna i les dades del problema son INTOCABLES; es modula només la bastida lingüística del context introductori i la forma lingüística de la consigna (sense canviar-ne el contingut). Advertència PI/PAD: reduir variables, simplificar números o rebaixar el repte cognitiu és territori de Pla Individualitzat, no d'adaptació lingüística ordinària. Competència d'accés (prerequisit, no HCL): comprendre la consigna. Operació demandada (variable i intocable, la fixa la consigna): pot ser una HCL del MALL (Descriure, Definir, Explicar, Justificar, Argumentar, Demostrar) o una operació procedimental (calcular, resoldre, ordenar, classificar). Rúbrica gradada 8 passos × 6 nivells MECR (pre-A1→C1)."
 mecr_range: [pre-A1, A1, A2, B1, B2, C1]
 agent_roles: [adapter]
 genre_key: activitat
-macro_tipologia: hibrida
+macro_tipologia: instructiva
 label_ca: "Activitat (exercici / tasca)"
 translanguaging: true
 multimodal: true
@@ -18,9 +18,9 @@ variables_configurables:
   fase_lectora: [logografica, alfabetica_emergent, alfabetica_fluida]
 skill_meta: write-activitat@corpusFJE/skills/generes/write-activitat
 review_status: revisat
-version: 1.1.0
+version: 1.2.0
 generat_at: 2026-06-25
-actualitzat_at: 2026-06-25
+actualitzat_at: 2026-06-27
 notebooklm_review:
   data: 2026-06-25
   veredicte: validat
@@ -29,7 +29,7 @@ notebooklm_review:
   conversation_id: f5f90250-7d3a-4611-b227-9a60e810a91a
   aplicades_des_d_inici: [patro-canonic-pilots-fase-a, invariant-consigna-intocable, advertencia-pi-pad-frontera-m3-m4, mecr-superficie-no-sostre-cognitiu]
   aplicades_post_review: [bastides-procedimentals-tea-adaptacio-m3-legitima-Q3]
-  nota_validacio: "Validat NotebookLM MALL FJE 2026-06-25 (f5f90250). Gradació MECR correcta, consigna com a invariant pedagògicament impecable, frontera PI/PAD ben definida. Correcció post-review: bastides procedimentals per a TEA (checklists, sub-passos) són adaptació M3 legítima que no requereix PI — afegit al perfil TEA."
+  nota_validacio: "Validat NotebookLM MALL FJE 2026-06-25 (f5f90250). Gradació MECR correcta, consigna com a invariant pedagògicament impecable, frontera PI/PAD ben definida. Correcció post-review: bastides procedimentals per a TEA (checklists, sub-passos) són adaptació M3 legítima que no requereix PI — afegit al perfil TEA. Ajust de canon 2026-06-27 (decisió pedagògica de Miquel, no NotebookLM): macro_tipologia hibrida→instructiva (vocabulari controlat que ATNE consumeix; la naturalesa híbrida es manté explicada al cos del document) i reenquadrament de l'HCL — comprendre la consigna és el prerequisit d'accés, no una HCL del MALL; l'operació demandada és variable i la fixa la consigna, i pot ser una HCL del MALL (Descriure, Definir, Explicar, Justificar, Argumentar, Demostrar) o una operació procedimental (calcular, resoldre, ordenar, classificar)."
   comentari_key: null
 ---
 
@@ -39,9 +39,12 @@ notebooklm_review:
 
 El document d'activitat escolar és el **gènere híbrid de l'esfera acadèmica** per excel·lència: combina una **macro-tipologia Instructiva** (la consigna —"fes X"— que li dona forma i existència) i una **macro-tipologia Explicativa** (el context i les dades —"donades les dades X, Y..."— que li aporten el contingut sobre el qual actuar). El MALL el cita explícitament ("examen tipus test", "pla de treball") i identifica com a problema prioritari que "saben llegir però no entenen l'enunciat dels problemes" — el que confirma la necessitat d'una didàctica específica de la consigna i justifica la seva presència com a gènere autònom.
 
-**Tipologia MALL (macro)**: Híbrida — Instructiva (dominant a la consigna) + Explicativa (dominant al context i les dades). El gènere opera amb dues macrotipologies simultàniament: la consigna mana fer ("Explica per què...", "Calcula...", "Ordena..."); el context dóna el marc sobre el qual fer-ho ("Donats els resultats de l'experiment...", "A partir del text següent..."). Adaptar l'activitat implica entendre on pertany cada part.
-**HCL principal (invariant)**: Interpretar — l'alumne ha de llegir la consigna i inferir correctament la tasca demanada. Sense comprensió de la consigna, cap altra HCL és possible.
-**HCL variables (depèn del tipus d'activitat)**: Descriure, Explicar, Justificar, Argumentar, Resumir — les que la pròpia activitat demana un cop la consigna és compresa. ATNE les preserva i no les rebaixa.
+**Tipologia MALL (macro)**: Instructiva (família canònica). La consigna —el que mana fer ("Explica per què...", "Calcula...", "Ordena...")— domina i dona existència al gènere; per això la macro-família és la **instructiva**. Ara bé, el gènere té un **component explicatiu fort**: el context i les dades ("Donats els resultats de l'experiment...", "A partir del text següent...") aporten el marc sobre el qual l'alumne ha d'operar. Adaptar l'enunciat implica entendre on pertany cada part: la consigna (instructiva, intocable) i el context (explicatiu, modulable).
+**Competència d'accés (prerequisit, NO és una HCL)**: comprendre la consigna — l'alumne ha de llegir la consigna i inferir correctament la tasca demanada. No és una HCL del MALL, sinó la competència prèvia que habilita qualsevol operació posterior: sense comprensió de la consigna, cap HCL ni cap operació és possible. És, justament, el cor de la dificultat que el MALL assenyala ("saben llegir però no entenen l'enunciat dels problemes").
+**Operació demandada (variable i INVARIANT — la fixa la consigna)**: un cop compresa la consigna, l'alumne ha d'executar l'operació que aquesta demani, i ATNE la preserva sense rebaixar-la mai. Pot ser de dos tipus:
+- una **HCL del MALL** (operació cognitivolingüística: Descriure, Definir, Explicar, Justificar, Argumentar, Demostrar), quan la consigna demana verbalitzar o raonar discursivament. Exemples: "compara i contrasta les dues guerres" → Explicar/Argumentar; "argumenta per què" → Argumentar/Justificar; "demostra que..." → Demostrar.
+- una **operació procedimental** (calcular, resoldre, ordenar, classificar, mesurar, encerclar...), que NO és una HCL lingüística però sí l'operació cognitiva nuclear de l'enunciat. Exemples: "calcula el màxim comú múltiple", "resol els exercicis de probabilitat", "ordena de menor a major".
+Sovint es combinen ("calcula **i justifica** el resultat" = operació procedimental + HCL). Tant si l'operació és una HCL com si és procedimental, és INTOCABLE: ATNE adapta la forma lingüística de la consigna, mai l'operació que demana.
 **S'adapta a tots els nivells (pre-A1→C1)**: el gènere és accessible a tots els nivells MECR perquè el contingut (la tasca) és independent de la forma lingüística que el vehicula. El MECR modula la **bastida lingüística** del context i la **forma** de la consigna, **no el repte cognitiu** ni la tasca demandada.
 
 **Subtipus dins d'un sol gènere:**
@@ -373,7 +376,7 @@ El document d'activitat és el gènere escolar on la càrrega lingüística i la
 
 ## Fonts principals
 
-- MALL (Model d'Aprenentatge de Llengües i Literacitat): HCL Interpretar com a competència nuclear per a l'accés a l'activitat acadèmica. Cita explícita del gènere ("examen tipus test", "pla de treball") i del problema de comprensió de consignes ("saben llegir però no entenen l'enunciat dels problemes"). **Principi 1 (TOLC, translanguaging)** com a base del disseny per capes a `alumne_nouvingut_L1`.
+- MALL (Model d'Aprenentatge de Llengües i Literacitat): la comprensió de la consigna com a competència nuclear d'accés a l'activitat acadèmica (prerequisit que habilita les HCL del MALL —Descriure, Definir, Explicar, Justificar, Argumentar, Demostrar— i les operacions procedimentals, no una HCL en si). Cita explícita del gènere ("examen tipus test", "pla de treball") i del problema de comprensió de consignes ("saben llegir però no entenen l'enunciat dels problemes"). **Principi 1 (TOLC, translanguaging)** com a base del disseny per capes a `alumne_nouvingut_L1`.
 - MALL Educació Secundària (MALL ESO): p. 13 (competència subjacent comuna, Cummins; l'accés al contingut disciplinari depèn de comprendre la instrucció en L2, no dels coneixements en si) i p. 21 (HCL com a operacions cognitives específiques que l'alumne ha de dominar en la nova llengua vehicular).
 - MALL MOPI/PIN: p. 31 (efectes positius de l'ús de les llengües d'origen en la motivació i el rendiment; pont L1 per a la comprensió de la consigna com a accés, no com a substitut).
 - Cummins, J. (2000): *Language, Power and Pedagogy* — distinció BICS/CALP aplicada a la comprensió de consignes acadèmiques: l'alumne nouvingut pot tenir el contingut però no el CALP de la instrucció. **Textos d'identitat lingüística (LIT)** com a justificació de la instrucció clau en L1.

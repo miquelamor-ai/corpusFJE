@@ -1,0 +1,333 @@
+{
+  "_meta": {
+    "name": "rubrica_write_instancia",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-instancia/M3_genere-escriure-instancia.md",
+    "font_version": "1.1.0",
+    "generat_at": "2026-06-27",
+    "skill_name": "write-instancia",
+    "family": "generes",
+    "mecr_range": [
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "instancia",
+    "translanguaging": false,
+    "multimodal": false,
+    "variables_configurables": []
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_completesa_i_format",
+          "descriptor": "Nom complet + DNI/NIE + adreça en un bloc compacte. Format convencional simplificat: \"Jo, [NOM], amb DNI/NIE [X], domiciliat/ada a [ADREÇA]\"."
+        },
+        {
+          "pas_id": "pas_2_formalitat_del_carrec",
+          "descriptor": "Càrrec en majúscules al final del document: \"AL/A LA [CÀRREC] DE [INSTITUCIÓ]\". Càrrecs habituals del context educatiu o local."
+        },
+        {
+          "pas_id": "pas_3_densitat_i_estructura",
+          "descriptor": "1 motiu clar exposat en 1-2 frases simples. Connector introductori: \"Que\". Fets verificables, no opinions.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_presencia_i_precisio",
+          "descriptor": "Absent o molt breu si és evident (\"d'acord amb la normativa vigent\"). No és obligatòria a B1 però no penalitza si és simple."
+        },
+        {
+          "pas_id": "pas_5_concrecio_i_formula",
+          "descriptor": "Petició única, concreta i delimitable, precedida de \"SOL·LICITA:\" o \"Per tot l'anterior, SOL·LICITA:\". 1-2 frases màxim. Infinitiu o que + subjuntiu.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_formalitat",
+          "descriptor": "Fórmula simple: \"Cosa que espero em serà concedida.\""
+        },
+        {
+          "pas_id": "pas_7_completesa",
+          "descriptor": "Lloc + data (dia, mes en lletres, any). Signatura (representada com a línia per a l'alumne)."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He separat clarament el que exposo del que demano?\" \"He escrit el nom, el DNI i l'adreça?\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_completesa_i_format",
+          "descriptor": "Bloc d'identificació complet amb totes les dades reglamentàries. Format administratiu rigorós."
+        },
+        {
+          "pas_id": "pas_2_formalitat_del_carrec",
+          "descriptor": "Càrrec institucional precís. Si el destinatari immediat no és el màxim òrgan, s'adreça a qui té competència sobre la petició."
+        },
+        {
+          "pas_id": "pas_3_densitat_i_estructura",
+          "descriptor": "2-3 motius exposats en paràgrafs numerats o en seqüència causal. Motius jerarquitzats: del més rellevant al més secundari. Connectors argumentatius (\"en primer lloc\", \"a més a més\", \"per últim\")."
+        },
+        {
+          "pas_id": "pas_4_presencia_i_precisio",
+          "descriptor": "Referència normativa present i identificada: article + llei o decret + any. Breu però precisa (\"a l'empara de l'article 14 de la Llei X/YYYY\")."
+        },
+        {
+          "pas_id": "pas_5_concrecio_i_formula",
+          "descriptor": "Petició principal + 1-2 peticions secundàries si escau (en ordre de preferència). Estructura clara: \"1. Que se m'atorgui...; 2. Que se m'informi de...\"."
+        },
+        {
+          "pas_id": "pas_6_formalitat",
+          "descriptor": "Fórmula estàndard: \"En espera de la vostra resolució favorable, us saludo atentament.\""
+        },
+        {
+          "pas_id": "pas_7_completesa",
+          "descriptor": "Idem, amb format administratiu complet. Pot afegir \"Signat:\" abans de la signatura."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"Els motius que exposo justifiquen la petició que faig? Segueixen un ordre lògic?\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_completesa_i_format",
+          "descriptor": "Bloc d'identificació complet. Si escau, títol professional o condició que reforça la legitimitat de la petició (qualitat de llicenciat/ada, de veí/na empadronat/da, de tutor/a legal)."
+        },
+        {
+          "pas_id": "pas_2_formalitat_del_carrec",
+          "descriptor": "Càrrec amb fórmula de tractament completa si el protocol ho exigeix (\"Il·lm./Il·lma. Sr./Sra.\"). Coneixement del circuit administratiu: a qui s'adreça i per quins canals."
+        },
+        {
+          "pas_id": "pas_3_densitat_i_estructura",
+          "descriptor": "3 o més motius elaborats, amb jerarquització lògica i anticipació d'objeccions. Pot incitar a la concepció de la legitimitat de la petició i la competència de l'organisme. Argumentació densa i cohesionada."
+        },
+        {
+          "pas_id": "pas_4_presencia_i_precisio",
+          "descriptor": "Citació legal precisa amb identificació de la norma, l'article i el seu contingut rellevant. Pot comparar normes o citar jurisprudència si escau. El LLM no valida si la norma és vigent; el docent revisa."
+        },
+        {
+          "pas_id": "pas_5_concrecio_i_formula",
+          "descriptor": "Petició principal amb condicions o terminis si el context ho requereix. Referència al procediment administratiu esperat (resolució, notificació, termini legal)."
+        },
+        {
+          "pas_id": "pas_6_formalitat",
+          "descriptor": "Fórmula completa adaptada al context institucional. Pot incloure referència al procediment de notificació preferit."
+        },
+        {
+          "pas_id": "pas_7_completesa",
+          "descriptor": "Idem. Si hi ha documentació adjunta (còpia del DNI, titulació, comprovant), s'anuncia amb \"Adjunto la documentació següent:\" al peu."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"La meva argumentació és coherent i la petició és precisa i delimitable? He citat la norma correctament? He anticipat possibles objeccions?\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": []
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": []
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_completesa_i_format",
+      "titol": "Encapçalament i identificació",
+      "dimensio": "Completesa i format",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de nom complet + DNI/NIE + adreça"
+    },
+    {
+      "id": "pas_2_formalitat_del_carrec",
+      "titol": "Destinatari",
+      "dimensio": "Formalitat del càrrec",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: càrrec en majúscules present; qualitative: LLM-jutge sobre adequació del càrrec al context"
+    },
+    {
+      "id": "pas_3_densitat_i_estructura",
+      "titol": "Bloc EXPOSA",
+      "dimensio": "Densitat i estructura argumentativa",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "structural: bloc EXPOSA separat del SOL·LICITA; countable: nombre de motius per nivell (B1: 1; B2: 2-3; C1: 3+)"
+    },
+    {
+      "id": "pas_4_presencia_i_precisio",
+      "titol": "Referència normativa",
+      "dimensio": "Presència i precisió",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (B2+): referència normativa present; qualitative: LLM-jutge sobre precisió (article + llei)"
+    },
+    {
+      "id": "pas_5_concrecio_i_formula",
+      "titol": "Bloc SOL·LICITA",
+      "dimensio": "Concreció i fórmula",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: bloc SOL·LICITA present i separat; qualitative: LLM-jutge sobre si la petició és delimitable"
+    },
+    {
+      "id": "pas_6_formalitat",
+      "titol": "Fórmula de comiat",
+      "dimensio": "Formalitat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: fórmula de comiat present i formal (no col·loquial)"
+    },
+    {
+      "id": "pas_7_completesa",
+      "titol": "Data i signatura",
+      "dimensio": "Completesa",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: data (lloc + dia + mes en lletres + any) i signatura presents al peu"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta una instància que mantingui SEMPRE l'estructura bipartida EXPOSA/SOL·LICITA, el destinatari en majúscules, la identificació completa del sol·licitant (nom + DNI/NIE + adreça), el tractament de vostè i la data i signatura al peu; modulant **la complexitat argumentativa, la referència normativa i la jerarquització de motius** segons el nivell MECR (B1→C1).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una sol·licitud és legalment procedent, si un dret existeix o si una norma citada és vigent; només ha de garantir l'estructura bipartida, la formalitat del registre, la identificació del sol·licitant i la coherència entre EXPOSA (motius) i SOL·LICITA (petició). La validesa legal del contingut és responsabilitat del docent i, en context real, de l'assessorament jurídic."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada B1→C1 capta la diferenciació principal; el nivell MECR és la variable principal de selecció de la complexitat argumentativa i de la referència normativa, mentre l'invariant convencional es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "raonament": "Per al nouvingut, la instància és especialment rellevant des del punt de vista cívic i pràctic: és probable que la necessiti en context real (sol·licitud de documentació, reclamació acadèmica, accés a serveis). La bastida no s'introdueix dins el document (que ha de ser formalment vàlid) sinó en el procés d'aprenentatge: models anotats, templates guiats, mediació oral prèvia."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega cognitiva quan l'objectiu és apoderar l'alumne per participar en l'esfera pública. La template completable redueix la càrrega de \"com s'estructura\" per alliberar capacitat cognitiva per al \"per què ho demano i com ho argumento\" — que és l'operació cognitiva nuclear del gènere."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la sofisticació argumentativa (jerarquització de motius, anticipació d'objeccions, precisió normativa) és la via natural d'extensió en un gènere del domini legal/administratiu."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_treballa_la",
+      "description": "La unitat treballa la competència cívica i la participació en l'esfera administrativa."
+    },
+    {
+      "name": "el_context_es_fp",
+      "description": "El context és FP, Batxillerat o Cicles Formatius amb situació comunicativa real o simulada davant l'administració."
+    },
+    {
+      "name": "l_objectiu_es_que",
+      "description": "L'objectiu és que l'alumne practiqui un gènere de l'esfera pública amb conseqüències reals o realistes: beca, certificat, reclamació, permís."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és una instància real que cal adaptar per a lectura o com a model per a producció guiada."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_expressa_una",
+      "description": "El text expressa una opinió o argumenta sense demanar cap acció → assaig o opinió."
+    },
+    {
+      "name": "el_text_s_adreca",
+      "description": "El text s'adreça a una persona física, no a una institució → carta."
+    },
+    {
+      "name": "el_text_prescriu_normes",
+      "description": "El text prescriu normes o regles → reglament."
+    },
+    {
+      "name": "el_text_informa_d",
+      "description": "El text informa d'un fet sense sol·licitar res → notícia o informe."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"Primer el perquè, després el què.\"",
+      "descripcio": "Explico als alumnes que la instància té dos moments separats: primer expliques per qué ho demanes (EXPOSA), després dius exactament el que demanes (SOL·LICITA). Si s'entenen els dos moments separats, el document funciona. Si s'escriu \"vull la beca perquè me la mereixo\" en un sol bloc, l'administrador no sap on acaba l'argument i on comença la petició. La separació visual dels blocs és la clau."
+    },
+    {
+      "id": "H2",
+      "titol": "\"L'administrador ha de poder respondre sí o no.\"",
+      "descripcio": "Quan un alumne escriu el SOL·LICITA, li pregunto: \"L'administrador pot respondre sí o no a això?\" Si la petició és vaga (\"que em tractin bé\") o múltiple i confusa, cal refinar-la fins que sigui una sol·licitud concreta i delimitable. Eficaç a tots els nivells: força la precisió de l'objectiu comunicatiu."
+    },
+    {
+      "id": "H3",
+      "titol": "\"El càrrec en majúscules, al final.\"",
+      "descripcio": "Recordo als alumnes que la instància s'adreça al final del document (no a l'encapçalament com una carta) i que el càrrec va en majúscules perquè s'adreça a la funció, no a la persona. Proposo que facin el \"test del substitut\": si demà hi ha una altra persona en aquell càrrec, la instància ha de ser igual de vàlida. Això aclara la diferència entre la carta (personal) i la instància (institucional)."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Un motiu ben argumentat val més que tres de febles.\"",
+      "descripcio": "A B1, proposo escriure un sol motiu fort i ben fonamentat en lloc de tres motius afeblits. A B2+, proposo jerarquitzar: del motiu més fort al més secundari, i connectar-los amb \"en primer lloc\", \"a més a més\", \"per tot l'anterior\". Eficaç per evitar l'acumulació desordenada de raons que és el error més freqüent en instàncies de nivell baix."
+    },
+    {
+      "id": "H5",
+      "titol": "\"La norma és el teu aliat (B2+).\"",
+      "descripcio": "A B2 i C1, proposo que els alumnes busquin la norma que empara la seva sol·licitud: \"d'acord amb l'article X de la Llei Y\". Explico que citar la norma no és pedanteria, és argumentació: transforma \"ho vull\" en \"hi tinc dret per llei\". Si no coneixen la norma, el docent la proporciona; el LLM no valida normes sense supervisió docent."
+    }
+  ],
+  "case_overrides": {
+    "b1_template_completable": {
+      "trigger": {
+        "raw": "B1_template_completable"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B1\n\n**Modulació:**\n- format_bastida: template_amb_buits_delimitats\n- motius_max: 1\n- referencia_normativa: absent_o_generica\n- peticio: unica_i_concreta\n- fomules_fixes: activades (EXPOSA / SOL·LICITA com a ancoratge visual)\n\n**Raonament pedagògic.** A B1, la complexitat principal és dominar l'estructura convencional i el registre formal: les fórmules fixes (EXPOSA / SOL·LICITA) actuen com a bastida que permet a l'alumne construir el document bloc a bloc, sense haver de"
+      }
+    },
+    "b2_referencia_normativa": {
+      "trigger": {
+        "raw": "B2_referencia_normativa"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B2\n\n**Modulació:**\n- referencia_normativa: present_i_identificada\n- motius: 2_a_3_jerarquitzats\n- connectors_argumentatius: actius (en primer lloc / a més a més / per tot l'anterior)\n- peticio: principal_mes_secundaries_opcionals\n\n**Raonament pedagògic.** A B2, l'alumne pot integrar el marc legal com a argument, que és el que distingeix la instància forta de la dèbil: no és \"vull una beca\" sinó \"tinc dret a sol·licitar-la d'acord amb l'article X\". La referència normativ"
+      }
+    },
+    "c1_anticipacio_objeccions": {
+      "trigger": {
+        "raw": "C1_anticipacio_objeccions"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- argumentacio: elaborada_amb_anticipacio_objeccions\n- referencia_normativa: precisa_amb_article_i_any\n- circuit_administratiu: actiu (destinatari competent, canal, termini esperat)\n- documentacio_adjunta: anunciada_al_peu_si_escau\n\n**Raonament pedagògic.** A C1, la instància esdevé un document plenament competent en sentit legal: l'argumentació no es limita a exposar motius favorables, sinó que anticipa les raons per les quals l'administració podria "
+      }
+    }
+  }
+}

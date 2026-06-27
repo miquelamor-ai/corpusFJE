@@ -1,0 +1,400 @@
+{
+  "_meta": {
+    "name": "rubrica_write_cv",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-cv/M3_genere-escriure-cv.md",
+    "font_version": "1.0.0",
+    "generat_at": "2026-06-27",
+    "skill_name": "write-cv",
+    "family": "generes",
+    "mecr_range": [
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "cv",
+    "translanguaging": true,
+    "multimodal": false,
+    "variables_configurables": []
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio",
+          "descriptor": "Nom + correu + telèfon. Sense foto, sense DNI. Format llista simple."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_valor",
+          "descriptor": "No s'inclou (massa abstracte per a A2)."
+        },
+        {
+          "pas_id": "pas_3_trajectoria_academica",
+          "descriptor": "Llistat simple: títol + any + centre. Ordre cronològic invers. Frases nominals mínimes (3-6 paraules).",
+          "countable": {
+            "min": 3,
+            "max": 6,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_trajectoria_laboral",
+          "descriptor": "1-2 entrades màxim. Càrrec + empresa + dates. 1 frase nominal de funció per entrada (\"Atenció al client\", \"Preparació de comandes\")."
+        },
+        {
+          "pas_id": "pas_5_plurilinguisme_del_candidat",
+          "descriptor": "Llista: llengua + nivell (paraula simple: \"bàsic\", \"bo\", \"natiu\"). La L1 del candidat s'inclou amb \"llengua materna\" o \"nivell nadiu\"."
+        },
+        {
+          "pas_id": "pas_6_habilitats_transversals",
+          "descriptor": "Llista simple: nom de la competència o eina (\"Word\", \"Instagram\", \"Caixa registradora\"). Sense nivells."
+        },
+        {
+          "pas_id": "pas_7_perfil_ampli_del",
+          "descriptor": "Opcional. Si s'inclou: nom de l'activitat + entitat + any. Sense descripció."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El meu CV explica qui soc i quina formació tinc.\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio",
+          "descriptor": "Ídem. Pot afegir-se perfil LinkedIn si n'hi ha."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_valor",
+          "descriptor": "Opcional: 1-2 frases nominals molt simples sobre l'objectiu professional.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_trajectoria_academica",
+          "descriptor": "Llistat estructurat. Pot afegir-se una línia breu de descripció per entrada rellevant."
+        },
+        {
+          "pas_id": "pas_4_trajectoria_laboral",
+          "descriptor": "Totes les entrades rellevants. 2-3 frases nominals de funcions per entrada. Connector d'enumeració (\"Tasques principals: ...\").",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_plurilinguisme_del_candidat",
+          "descriptor": "Llista amb nivell MECR si es coneix (\"Català B2\", \"Castellà C1\"). L1 amb \"parlant natiu de...\"."
+        },
+        {
+          "pas_id": "pas_6_habilitats_transversals",
+          "descriptor": "Llista amb nivell simple (\"coneixements de...\", \"experiència en...\")."
+        },
+        {
+          "pas_id": "pas_7_perfil_ampli_del",
+          "descriptor": "Opcional. Entrades rellevants amb 1 frase nominal de descripció."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El meu CV té totes les seccions i les dates i els noms son correctes.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio",
+          "descriptor": "Ídem. Selecció conscient de les dades rellevants per al context (p.ex. omissió de dades no pertinents)."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_valor",
+          "descriptor": "2-3 frases nominals que sintetitzen el perfil i l'objectiu de manera específica per a l'oferta.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_trajectoria_academica",
+          "descriptor": "Selecció de la formació rellevant per a l'oferta. Cursos i certificacions identificats com a valor afegit."
+        },
+        {
+          "pas_id": "pas_4_trajectoria_laboral",
+          "descriptor": "Entrades seleccionades per rellevància. Funcions amb verbs d'acció en forma nominal (\"Gestió de...\", \"Coordinació de...\"). Resultats si n'hi ha."
+        },
+        {
+          "pas_id": "pas_5_plurilinguisme_del_candidat",
+          "descriptor": "Taula o llista estructurada amb nivell MECR i, si n'hi ha, certificació acreditada."
+        },
+        {
+          "pas_id": "pas_6_habilitats_transversals",
+          "descriptor": "Competències digitals categoritzades (ofimàtica, eines de sector, xarxes). Competències transversals seleccionades per rellevància."
+        },
+        {
+          "pas_id": "pas_7_perfil_ampli_del",
+          "descriptor": "Inclou-lo si aporta valor al perfil per a l'oferta. Selecció estratègica."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He seleccionat la informació del meu CV pensant en el lloc de feina que vull.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio",
+          "descriptor": "Ídem. Format net i professional, adaptat a l'estàndard del sector."
+        },
+        {
+          "pas_id": "pas_2_sintesi_del_valor",
+          "descriptor": "3-5 frases nominals que argumenten el valor del candidat, amb paraules clau del sector i quantificació si és possible.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_trajectoria_academica",
+          "descriptor": "Formació presentada amb relació explícita a les competències i al perfil professional. Distinció formació reglada / complementària."
+        },
+        {
+          "pas_id": "pas_4_trajectoria_laboral",
+          "descriptor": "Entrades amb funcions detallades, resultats quantificats si és possible (\"Increment de les vendes en un 15%\", \"Atenció a 50+ clients diaris\"). Relació explícita amb les competències del perfil."
+        },
+        {
+          "pas_id": "pas_5_plurilinguisme_del_candidat",
+          "descriptor": "Format complet: llengua, nivell MECR, certificació, context d'ús professional si és rellevant."
+        },
+        {
+          "pas_id": "pas_6_habilitats_transversals",
+          "descriptor": "Competències digitals amb nivell i evidència si és possible. Competències transversals argumentades amb exemples breus."
+        },
+        {
+          "pas_id": "pas_7_perfil_ampli_del",
+          "descriptor": "Inclou voluntariat, publicacions o premis si consoliden el perfil professional. Format consistent amb la resta del CV."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El meu CV argumenta per què soc el candidat adequat per a aquesta oferta concreta.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": []
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_identificacio",
+      "titol": "Dades personals i contacte",
+      "dimensio": "Identificació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de nom + contacte; absència de DNI/foto obligatòria"
+    },
+    {
+      "id": "pas_2_sintesi_del_valor",
+      "titol": "Perfil professional / resum",
+      "dimensio": "Síntesi del valor del candidat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: present/absent per nivell (absent A2, opcional B1, obligatori B2+); qualitative: LLM-jutge sobre si és nominal i específic"
+    },
+    {
+      "id": "pas_3_trajectoria_academica",
+      "titol": "Formació",
+      "dimensio": "Trajectòria acadèmica",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "detectar estructura secció; binary: presència de titulació + any + centre; structural: ordre cronològic invers"
+    },
+    {
+      "id": "pas_4_trajectoria_laboral",
+      "titol": "Experiència professional",
+      "dimensio": "Trajectòria laboral",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "cross_source: càrrec, empresa i dates del font es conserven idèntics; structural: frases nominals (no narratives en 1a persona)"
+    },
+    {
+      "id": "pas_5_plurilinguisme_del_candidat",
+      "titol": "Competències lingüístiques",
+      "dimensio": "Plurilingüisme del candidat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: L1 del candidat inclosa si és nouvingut; cross_source: nivells declarats no inflats respecte al font"
+    },
+    {
+      "id": "pas_6_habilitats_transversals",
+      "titol": "Competències digitals i altres",
+      "dimensio": "Habilitats transversals",
+      "tipus": "qualitative",
+      "requires_source_text": false,
+      "validation_hint": "LLM-jutge: competències factuals (no inventades), presentació adequada al nivell"
+    },
+    {
+      "id": "pas_7_perfil_ampli_del",
+      "titol": "Altres (voluntariat, formació complementària, publicacions)",
+      "dimensio": "Perfil ampli del candidat",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: present/absent per decisió estratègica (B2+ si aporta valor); format consistent si present"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés de construcció del CV",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un CV que mantingui SEMPRE la veracitat del contingut (el CV reflecteix la realitat del candidat, no competències o experiències inventades) i l'estructura reconeixible per un seleccionador (dades personals · formació · experiència · competències), modulant **només la forma lingüística** de les seccions (longitud de frase, connectius, vocabulari) segons el nivell MECR (A2→C1) i preservant **intacte l'invariant del CV** (nom, dates, entitats, titulacions i competències tal com les ha aportat el candidat).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una competència és prou bona per a una oferta, si una experiència és rellevant o si una titulació val prou; només ha de garantir l'estructura canònica, el registre nominal, la preservació del contingut del candidat i l'adequació lingüística al nivell MECR. La orientació professional i la selecció estratègica del contingut per a una oferta concreta és responsabilitat del docent i, progressivament, de l'alumne (HCL Argumentar, B2+)."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada A2→C1 capta la diferenciació de la forma lingüística; el nivell MECR és la variable principal de selecció de com s'expressa cada secció, mentre l'invariant de contingut es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "raonament": "El CV és el gènere on l'alumnat nouvingut pot descobrir que la seva competència en L1 és un actiu professional real, especialment en sectors on el plurilingüisme és valorat (hostaleria, atenció al client, mediació). El principi MALL d'**identitat lingüística** (Cummins, LIT) troba aquí una aplicació concreta i funcional: no com a suport temporal, sinó com a competència permanent del perfil."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de descodificació de l'estructura. El CV és un gènere amb estructura canònica molt marcada: aprofitar-la amb etiquetes clares redueix la demanda cognitiva i permet centrar l'atenció en el contingut."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC el CV és l'espai d'aprenentatge de la retòrica professional: no només saber presentar-se, sinó saber argumentar (per selecció i omissió estratègiques) per a un destinatari concret. Aquesta és la dimensió acadèmica i professional del gènere que va més enllà de la llista de fets."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "l_alumne_ha_de",
+      "description": "L'alumne ha de preparar una sol·licitud de feina, una pràctica, una beca o un accés a formació professional."
+    },
+    {
+      "name": "la_unitat_treballa_l",
+      "description": "La unitat treballa l'orientació professional, la inserció laboral o la identitat professional."
+    },
+    {
+      "name": "l_alumne_te_un",
+      "description": "L'alumne té un CV existent (en la seva L1 o en un format poc estructurat) que cal adaptar o reorganitzar."
+    },
+    {
+      "name": "el_docent_vol_proporcionar",
+      "description": "El docent vol proporcionar una plantilla de CV ajustada al nivell lingüístic de l'alumne per omplir amb les seves dades reals."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_una",
+      "description": "El text és una presentació personal oral o un vídeo-currículum → el gènere és la presentació oral (gènere diferent)."
+    },
+    {
+      "name": "el_text_dirigeix_un",
+      "description": "El text dirigeix un missatge argumentatiu a un destinatari concret → carta de presentació (`write-carta`)."
+    },
+    {
+      "name": "el_text_narra_la",
+      "description": "El text narra la trajectòria d'una persona en prosa contínua amb connectors temporals narratius → biografia (`write-biografia`)."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"Si no és veritat, no va al CV.\"",
+      "descripcio": "Recordo a l'alumne que el CV és un document legal i professional: si hi posa una competència que no té o exagera el nivell d'una llengua, un seleccionador ho pot descobrir a l'entrevista o al primer dia de feina. La pregunta de revisió és simple: \"Pots demostrar o explicar cadascuna de les coses que has posat?\" Si la resposta és no, cal treure-ho. Aquesta heurística és activa a tots els nivells i és el cor de l'invariant del CV."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Escriu com un document, no com una conversa.\"",
+      "descripcio": "Quan l'alumne tendeix a escriure en primera persona narrativa (\"Vaig treballar a...\"), proposo que imagini que el CV l'escriu un tercer que el descriu: \"Experiència com a...\", \"Formació en...\", \"Coneixements de...\". El test és: \"Si treus el 'jo', la frase té sentit?\" La forma nominal és el registre canònic del gènere i aprendre-la és aprenentatge lingüístic real, no convenció arbitrària."
+    },
+    {
+      "id": "H3",
+      "titol": "\"El teu idioma és una competència.\"",
+      "descripcio": "Per a alumnat nouvingut, proposo que la primera cosa que posin a la secció de competències lingüístiques sigui la seva llengua materna amb \"parlant natiu\" o \"llengua materna\". Sovint és la competència que ningú altre del grup té. El CV és el document on la seva L1, que pot haver viscut com a barrera, apareix per primera vegada com a fortalesa professional. Eficaç com a punt d'entrada al gènere i com a activació de la motivació."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Menys i millor: el CV no és una llista de tot.\"",
+      "descripcio": "A B2+, proposo el test del seleccionador: \"Si tinguessis 30 segons per llegir aquest CV per a aquesta oferta concreta, quines tres coses voldries que et quedessin?\" Allò que no queda en 30 segons probablement no és prou rellevant per a aquesta oferta. Ajuda l'alumne a practicar la selecció estratègica i la jerarquització de la informació, que és l'HCL Argumentar aplicada al gènere professional."
+    },
+    {
+      "id": "H5",
+      "titol": "\"Ordre cronològic invers: el més recent és el més important.\"",
+      "descripcio": "Molts alumnes posen les entrades de formació i experiència en ordre cronològic ascendent (primer el més antic). Recordo que el model europeu (Europass) va al revés: el més recent primer, perquè és el que millor descriu qui és l'alumne ara. La pregunta és: \"Qui vols que em recordi de tu quan llegeixi el CV — el tu d'ara o el tu de fa cinc anys?\""
+    }
+  ],
+  "case_overrides": {
+    "a2_cv_funcional_minim": {
+      "trigger": {
+        "raw": "A2_cv_funcional_minim"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A2\n\n**Modulació:**\n- estructura: [dades_personals, formacio, competencies_linguistiques]\n- experiencia: opcional (inclou-la si l'alumne en té, en frases nominals simples)\n- perfil_professional: no s'inclou\n- longitud_maxima_per_entrada: 1 frase nominal (3-6 paraules)\n- seccions_obligatories: dades_personals, formacio, competencies_linguistiques\n\n**Raonament pedagògic.** A A2 l'objectiu és que l'alumne tingui un document funcional real que pugui usar. Tres seccions ben f"
+      }
+    },
+    "b2_cv_estrategic_paraules_clau": {
+      "trigger": {
+        "raw": "B2_cv_estrategic_paraules_clau"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B2\n\n**Modulació:**\n- afegir_instruccio_docent: selecció de la informació per rellevància per a l'oferta\n- paraules_clau: identificar i incorporar termes del sector a les descripcions de funcions\n- perfil_professional: obligatori (2-3 frases nominals orientades a l'oferta)\n- resultats: quantificar on sigui possible i factual\n\n**Raonament pedagògic.** A B2 el CV deixa de ser una llista de fets per convertir-se en un argument. La HCL Argumentar emergeix com a competència l"
+      }
+    },
+    "c1_cv_professional_ple": {
+      "trigger": {
+        "raw": "C1_cv_professional_ple"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- afegir_bloc: perfil_professional elaborat (3-5 frases nominals)\n- resultats: quantificació sistemàtica on sigui factual (\"50+ clients diaris\", \"15% d'increment de vendes\")\n- adaptacio_multiple: el mateix CV base pot tenir variants per a perfils d'oferta different\n- registre: rigor nominal complet, sense cap forma verbal en 1a persona\n\n**Raonament pedagògic.** A C1 el CV és el gènere professional en sentit ple: l'alumne no només descriu qui és, sinó "
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

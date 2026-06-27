@@ -1,0 +1,419 @@
+{
+  "_meta": {
+    "name": "rubrica_write_informe_tecnic",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-informe-tecnic/M3_genere-escriure-informe-tecnic.md",
+    "font_version": "1.0.0",
+    "generat_at": "2026-06-27",
+    "skill_name": "write-informe-tecnic",
+    "family": "generes",
+    "mecr_range": [
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "informe_tecnic",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio_professional",
+          "descriptor": "Títol + nom de l'alumne + a qui va dirigit (1 línia: \"Per a: [empresa/persona]\"). Data."
+        },
+        {
+          "pas_id": "pas_2_sintesi_per_al",
+          "descriptor": "Absenta o molt breu (2-3 frases: \"He inspeccionat X. He trobat Y. Cal fer Z.\"). Pot ser oral amb l'adult.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_context_i_abast",
+          "descriptor": "2-3 frases: de quina instal·lació/producte/situació es tracta i per quin motiu s'ha fet l'informe.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_tracabilitat_del_proces",
+          "descriptor": "Llista de 3-5 passos de com s'ha fet la inspecció o l'anàlisi. Frases simples."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_a_les",
+          "descriptor": "Dades en taula simple (2-3 columnes). Valor + unitat sempre intactes. 1-2 frases que diuen \"s'ha observat X\".",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar",
+          "descriptor": "1-2 frases: \"Això vol dir que...\" o \"Per tant...\". La connexió resultat → implicació és explícita però simple.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_cadena_logica_tancada",
+          "descriptor": "Conclusions: 1-2 frases (\"He trobat que...\"). Recomanacions: llista de 2-3 ítems simples (\"Cal canviar X\"). Blocs SEPARATS.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He separat el que he trobat del que cal fer?\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio_professional",
+          "descriptor": "Portada completa: títol, autor, data, destinatari (nom + càrrec + empresa), número d'informe si escau."
+        },
+        {
+          "pas_id": "pas_2_sintesi_per_al",
+          "descriptor": "Resum executiu de 3-5 línies: problema principal + conclusió central + recomanació clau. Autònom: llegit sol, el decisor pot actuar."
+        },
+        {
+          "pas_id": "pas_3_context_i_abast",
+          "descriptor": "Context, objectiu de l'informe i abast (què s'ha inspeccionat/analitzat i què no)."
+        },
+        {
+          "pas_id": "pas_4_tracabilitat_del_proces",
+          "descriptor": "Procediment en paràgraf breu: instruments usats, condicions de la inspecció, mostra o àmbit analitzat."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_a_les",
+          "descriptor": "Dades en taula o gràfic amb llegenda. Descripció objectiva de la tendència o l'estat (\"el valor supera el llindar de...\")."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar",
+          "descriptor": "Anàlisi per bloc de resultats: connexió resultat → causa probable → implicació. Connector \"per tant\" i \"a causa de\" actius."
+        },
+        {
+          "pas_id": "pas_7_cadena_logica_tancada",
+          "descriptor": "Conclusions: 2-3 derivades explícitament de l'anàlisi. Recomanacions: llista ordenada, cada una lligada a una conclusió específica."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El meu resum explica el problema i la recomanació principal en 3-5 línies.\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio_professional",
+          "descriptor": "Portada professional amb tots els camps estàndard del sector."
+        },
+        {
+          "pas_id": "pas_2_sintesi_per_al",
+          "descriptor": "Resum executiu de 1 paràgraf: context breu + principals troballes + recomanació prioritària. Formal."
+        },
+        {
+          "pas_id": "pas_3_context_i_abast",
+          "descriptor": "Introducció estructurada: context sectorial, objectiu, abast, marc normatiu o legal aplicable si escau."
+        },
+        {
+          "pas_id": "pas_4_tracabilitat_del_proces",
+          "descriptor": "Metodologia amb instruments, mostra, condicions i limitacions del procés. Variables identificades."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_a_les",
+          "descriptor": "Dades organitzades per categories o subsistemes. Gràfic o taula per a la comparació. Descripció objectiva."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar",
+          "descriptor": "Anàlisi argumentada: relació causal entre resultats i causes, comparació amb valors de referència o normativa. Justificació de les conclusions."
+        },
+        {
+          "pas_id": "pas_7_cadena_logica_tancada",
+          "descriptor": "Conclusions argumentades amb referència als resultats. Recomanacions prioritzades (urgents / a mig termini). Blocs diferenciats amb H3 propis."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"Les meves recomanacions deriven de les conclusions, i les conclusions, de les dades.\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_identificacio_professional",
+          "descriptor": "Portada formal amb identificació institucional completa (empresa emissora, empresa receptora, referència de l'encàrrec)."
+        },
+        {
+          "pas_id": "pas_2_sintesi_per_al",
+          "descriptor": "Resum executiu professional complet: context, objectiu, metodologia sintètica, conclusions principals prioritzades, recomanació clau. Llegit sol, substitueix el cos per a la direcció."
+        },
+        {
+          "pas_id": "pas_3_context_i_abast",
+          "descriptor": "Introducció acadèmico-professional: context, objectiu, hipòtesi o pregunta tècnica, abast, normativa i referències al sector."
+        },
+        {
+          "pas_id": "pas_4_tracabilitat_del_proces",
+          "descriptor": "Metodologia rigorosa: instruments calibrats, condicions de mesura, mostra representativa, normativa tècnica aplicada, incertesa de mesura."
+        },
+        {
+          "pas_id": "pas_5_fidelitat_a_les",
+          "descriptor": "Dades en formats variats (taules, gràfics, fotografies etiquetades). Anàlisi estadística si escau. Traçabilitat de cada mesura."
+        },
+        {
+          "pas_id": "pas_6_hcl_justificar",
+          "descriptor": "Anàlisi crítica: relació causal documentada, discussió de causes alternatives, comparació amb normativa i literatura tècnica, reconeixement de limitacions de l'anàlisi."
+        },
+        {
+          "pas_id": "pas_7_cadena_logica_tancada",
+          "descriptor": "Conclusions amb discussió de limitacions. Recomanacions prioritzades per impacte, cost i urgència. Proposta de seguiment. Blocs amb rigor acadèmico-professional."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"L'informe és autònom: el decisor pot llegir el resum i actuar sense llegir el cos complet. Les recomanacions estan prioritzades i justificades.\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": []
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_identificacio_professional",
+      "titol": "Portada i destinatari",
+      "dimensio": "Identificació professional",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de destinatari explícit (nom, empresa o organisme); absència = no és informe tècnic"
+    },
+    {
+      "id": "pas_2_sintesi_per_al",
+      "titol": "Resum executiu",
+      "dimensio": "Síntesi per al decisor",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (B1+): presència del resum executiu; qualitative: LLM-jutge sobre autonomia (llegit sol, permet actuar) i presència de recomanació clau"
+    },
+    {
+      "id": "pas_3_context_i_abast",
+      "titol": "Introducció",
+      "dimensio": "Context i abast",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència d'introducció; qualitative: LLM-jutge sobre context, objectiu i abast per nivell"
+    },
+    {
+      "id": "pas_4_tracabilitat_del_proces",
+      "titol": "Metodologia / Procediment",
+      "dimensio": "Traçabilitat del procés",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar bloc de procediment; qualitative: adequació al nivell (llista simple A2 → metodologia rigorosa C1)"
+    },
+    {
+      "id": "pas_5_fidelitat_a_les",
+      "titol": "Resultats i dades",
+      "dimensio": "Fidelitat a les mesures",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary/cross_source: valors i unitats del text font conservats idèntics; detectar arrodoniments o unitats eliminades"
+    },
+    {
+      "id": "pas_6_hcl_justificar",
+      "titol": "Anàlisi i discussió",
+      "dimensio": "HCL Justificar",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "detectar connectors causals (\"per tant\", \"a causa de\", \"per consegüent\"); qualitative: LLM-jutge sobre profunditat de la justificació per nivell"
+    },
+    {
+      "id": "pas_7_cadena_logica_tancada",
+      "titol": "Conclusions i recomanacions",
+      "dimensio": "Cadena lògica tancada",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "comptar conclusions; LLM-jutge: cada conclusió deriva explícitament de dades presents al text"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un informe tècnic que mantingui SEMPRE la cadena lògica problema → anàlisi → conclusions → recomanacions, el resum executiu (B1+), el destinatari explícit i les dades i mesures **intactes** (valor + unitat, sense aproximació), modulant **només la bastida lingüística** que les envolta segons el nivell MECR (A2→C1).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una mesura és correcta, si una instal·lació és perillosa o si una recomanació és la millor opció tècnica; només ha de garantir l'estructura (resum executiu · dades · anàlisi · conclusions · recomanacions), la fidelitat a les dades del text font i la cadena lògica del gènere. La validesa tècnica del contingut i l'adequació al disseny didàctic són responsabilitat del docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada A2→C1 ja capta el gruix de la diferenciació; el nivell MECR és la variable principal de selecció de la forma lingüística, mentre la cadena lògica del gènere es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "*"
+      ],
+      "raonament": "A FP, l'alumnat nouvingut arriba sovint amb CALP tècnic en L1 (sap de manteniment, de cuina, d'administració en la seva llengua) abans que el català vehicular estigui consolidat. El pont L1 (Principi 1 MALL TOLC; **MELVIVES Principi 10**; Cummins BICS/CALP) permet aprofitar el coneixement professional previ i accelerar la lectura de l'informe tècnic. La glossa bilingüe és la traducció didàctica d'aquest principi en un gènere professional."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de processament textual quan la informació és quantitativa o relacional. Per a l'alumnat DUA d'accés, la taula de mesures i la llista de recomanacions són el bastiment que permet accedir al contingut professional sense desbordar la memòria de treball."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la profunditat analítica i la priorització raonada de les recomanacions son la via natural d'extensió en un gènere professional."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_treballa_generes",
+      "description": "La unitat treballa gèneres professionals de comunicació en contextos FP (cicles formatius de grau mig o superior, batxillerat tecnològic)."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un informe d'inspecció, una memòria tècnica, un informe de qualitat, un informe de sinistre, un informe de visita comercial o un document institucional sectorial."
+    },
+    {
+      "name": "l_objectiu_es_que",
+      "description": "L'objectiu és que l'alumne llegeixi un document professional adreçat a un client, una empresa o un organisme i comprengui la cadena problema → anàlisi → conclusions → recomanacions."
+    },
+    {
+      "name": "la_materia_demana_escriptura",
+      "description": "La matèria demana escriptura professional tècnica (instal·lacions, restauració, sanitat, comerç, administració, construcció)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_presenta_resultats",
+      "description": "El text presenta resultats a un professor per a avaluació, sense destinatari extern → informe acadèmic (`write-informe`)."
+    },
+    {
+      "name": "el_text_explica_un",
+      "description": "El text explica un fenomen científic de manera narrativa sense resultat ni recomanació → divulgatiu."
+    },
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dona instruccions tècniques per fer una tasca → instructiu o manual (`write-manual`)."
+    },
+    {
+      "name": "el_text_recull_observacions",
+      "description": "El text recull observacions de camp sense anàlisi ni recomanació → diari de camp (`write-diari-camp`)."
+    },
+    {
+      "name": "el_text_defensa_una",
+      "description": "El text defensa una postura → assaig o opinió."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"Qui ho llegirà i què haurà de fer?\"",
+      "descripcio": "Abans de llegir (o produir) l'informe, demano a l'alumne que respongui dues preguntes: \"Qui llegirà aquest informe?\" i \"Quina decisió haurà de prendre?\" Si no pot respondre-les, l'informe no té destinatari ni objectiu professionalitzador. Eficaç des d'A2 per activar la consciència del gènere i distingir l'informe tècnic de l'acadèmic."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Troballes vs. recomanacions: dues columnes.\"",
+      "descripcio": "Proposo que l'alumne empleni dues columnes ABANS de llegir o escriure el cos: \"Què s'ha trobat\" (resultats) i \"Què cal fer\" (recomanacions). La separació visual prèvia evita la confusió entre descripció de l'estat i prescripció de l'acció. Eficaç a A2-B1, quan la distinció conclusions/recomanacions és el bloqueig principal del gènere."
+    },
+    {
+      "id": "H3",
+      "titol": "\"El resum es llegeix en 30 segons.\"",
+      "descripcio": "Proposo que, un cop llegit l'informe, l'alumne intenti explicar-lo a un company en 30 segons. El que diu en 30 segons és el resum executiu. Si no pot fer-ho, el resum no és autònom. El test \"30 segons\" força la síntesi real i garanteix que el resum executiu no sigui un índex de temes. Especialment eficaç a B1-B2, quan el resum executiu és la habilitat nova central."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Cada recomanació té una conclusió pare.\"",
+      "descripcio": "Demano a l'alumne que traci una línia entre cada recomanació i la conclusió que la justifica. Si una recomanació no té conclusió pare visible al text, o bé falta una conclusió, o bé la recomanació és gratuïta. El test visual de les línies garanteix la cadena lògica constitutiva del gènere professional. Eficaç a B1+ quan les recomanacions tendeixen a aparèixer com a llista independent sense connexió amb l'anàlisi."
+    }
+  ],
+  "case_overrides": {
+    "a2_informe_tecnic_simplificat": {
+      "trigger": {
+        "raw": "A2_informe_tecnic_simplificat"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A2\n\n**Modulació:**\n- resum_executiu: opcionals_o_oral (pot ser 2-3 frases o mediat oralment per l'adult)\n- introduccio_max_frases: 3\n- no_incloure_h3: `### Metodologia` (substituït per llista simple de passos dins `### Procediment`)\n- format_dades: taula_2col_o_3col_bastida_visual\n- conclusions_max: 2\n- recomanacions_max: 3 (llista simple, frases molt curtes)\n- no_incloure_h3: `### Anàlisi i discussió` (la justificació s'integra en 1-2 frases dins `### Resultats`)\n\n**Ra"
+      }
+    },
+    "b1_resum_executiu_autonom": {
+      "trigger": {
+        "raw": "B1_resum_executiu_autònom"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B1\n\n**Modulació:**\n- resum_executiu: obligatori_autònom (3-5 línies, llegit sol dóna la informació decisiva)\n- no_duplicar_dades_al_resum (el resum no és un índex de dades, és una síntesi)\n- recomanacio_clau_al_resum: obligatoria\n- veu: impersonal_es_verb_prioritari\n\n**Raonament pedagògic.** A B1, el resum executiu és la competència nova central del gènere. Cal que sigui autònom (el decisor llegeix el resum i pot actuar) i que la recomanació clau hi aparegui explícitame"
+      }
+    },
+    "b2_recomanacions_prioritzades": {
+      "trigger": {
+        "raw": "B2_recomanacions_prioritzades"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B2\n\n**Modulació:**\n- recomanacions: prioritzades per urgència o impacte (categories: immediat / a mig termini / millora contínua)\n- conclusions: amb referència explícita als resultats que les sustenten\n- normativa: referència a normativa sectorial si el text font la conté\n\n**Raonament pedagògic.** A B2, la distinció entre recomanació urgent (risc immediat) i millora a mig termini és la competència professional tècnica central. El lector decisor professional treballa amb"
+      }
+    },
+    "c1_limitacions_i_seguiment": {
+      "trigger": {
+        "raw": "C1_limitacions_i_seguiment"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- afegir_subapartat: limitacions de l'anàlisi i incerteses de les mesures (dins `### Anàlisi i discussió` o com a bloc separat)\n- recomanacions: amb proposta de seguiment o revisió periòdica\n- referenciar_normativa: rigor_complet (normes UNE, ISO, RD reglamentaris si aplica)\n- resum_executiu: professional_complet_autònom\n\n**Raonament pedagògic.** A C1, l'informe tècnic és professional en sentit ple: reconèixer les limitacions de la metodologia i propo"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

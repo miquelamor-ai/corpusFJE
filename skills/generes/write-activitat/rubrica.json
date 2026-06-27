@@ -1,0 +1,545 @@
+{
+  "_meta": {
+    "name": "rubrica_write_activitat",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-activitat/M3_genere-escriure-activitat.md",
+    "font_version": "1.2.0",
+    "generat_at": "2026-06-27",
+    "skill_name": "write-activitat",
+    "family": "generes",
+    "mecr_range": [
+      "pre-A1",
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter"
+    ],
+    "genre_key": "activitat",
+    "translanguaging": true,
+    "multimodal": true,
+    "variables_configurables": {
+      "subtipus": [
+        "exercici",
+        "tasca"
+      ],
+      "fase_lectora": [
+        "logografica",
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol-etiqueta (1-3 paraules) + icona de l'acció. La consigna la llegeix oralment l'adult.",
+          "countable": {
+            "min": 1,
+            "max": 3,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_bastida_del_marc",
+          "descriptor": "Absent o 1 oració mínima (SVO, present). Mediació oral de l'adult. Visual obligatori si hi ha dades."
+        },
+        {
+          "pas_id": "pas_3_invariant_de_contingut",
+          "descriptor": "Dades invariants. Imatge o esquema visual obligatori per a cada dada. Etiquetes mínimes."
+        },
+        {
+          "pas_id": "pas_4_nucli_de_la",
+          "descriptor": "1 consigna: verb d'1 sílaba + objecte mínim (\"Dibuixa X\", \"Encercla X\"). Icona del verb. Mediació oral obligatòria."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Etiquetes i paraules clau isolades. 0-1 frases per bloc. Mediació oral de l'adult.",
+          "countable": {
+            "min": 0,
+            "max": 1,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_andamiatge_del_format",
+          "descriptor": "\"Respon aquí: ___\" amb espai grafiat o gràfic. L'adult inicia la resposta oralment."
+        },
+        {
+          "pas_id": "pas_7_metacognicio_avaluadora",
+          "descriptor": "Absent. L'adult dona feedback oral immediat."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral, amb l'adult, mediada en L1 si cal) \"He entès què havia de fer?\" — l'adult acompanya l'alumne a valorar si ha comprès la consigna, no només si ha omplert l'espai."
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol curt (3-5 paraules) + icona o imatge de referència.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_bastida_del_marc",
+          "descriptor": "1-2 frases molt simples (SVO, vocabulari nuclear). Context ancorat en imatge o esquema.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_invariant_de_contingut",
+          "descriptor": "Dades invariants. Representació visual de suport. Vocabulari de les etiquetes al mínim necessari."
+        },
+        {
+          "pas_id": "pas_4_nucli_de_la",
+          "descriptor": "1 consigna: verb + objecte clar (3-5 paraules). Icona del verb obligatòria. 0-1 subconsigna.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases de 3-5 paraules. Vocabulari nuclear. 1 idea per frase. Senyaladors visuals màxims.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_6_andamiatge_del_format",
+          "descriptor": "\"Escriu aquí:\" + espai. Opció de dibuix o marca si la consigna ho permet."
+        },
+        {
+          "pas_id": "pas_7_metacognicio_avaluadora",
+          "descriptor": "Absent o 1-2 criteris en forma d'icona (\"he dibuixat?\", \"he escrit el nom?\").",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral o escrit mínim) \"He entès el que havia de fer? He fet el que deia la pregunta?\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol clar + breu descripció de la tasca en 1 frase."
+        },
+        {
+          "pas_id": "pas_2_bastida_del_marc",
+          "descriptor": "2-3 frases simples. Connectors bàsics (\"i\", \"però\", \"perquè\"). Context comprensible de manera autònoma.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_invariant_de_contingut",
+          "descriptor": "Dades invariants. Taula o gràfic si existia al original. Petita llegenda si cal."
+        },
+        {
+          "pas_id": "pas_4_nucli_de_la",
+          "descriptor": "1-2 consignes curtes. Verb de la consigna en **negreta**. Numeració explícita si n'hi ha més d'una."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases simples (8-12 paraules). Connectors bàsics. Sagnat i separació entre context i consigna.",
+          "countable": {
+            "min": 8,
+            "max": 12,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_6_andamiatge_del_format",
+          "descriptor": "\"Escriu 1-2 frases.\" o \"Marca amb X.\" Format de resposta explícit.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_metacognicio_avaluadora",
+          "descriptor": "1-2 criteris simples en forma de llista (\"He respost la pregunta? Sí / No\").",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "criteris"
+          }
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He respost el que se'm demanava.\" Autocomprovació senzilla de la correspondència consigna-resposta."
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol informatiu + indicació de la HCL (\"Expliqueu per què...\")."
+        },
+        {
+          "pas_id": "pas_2_bastida_del_marc",
+          "descriptor": "1-2 frases amb connector causal o temporal. Context que dona el marc suficient per a la consigna.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_invariant_de_contingut",
+          "descriptor": "Dades invariants. Taula o gràfic etiquetat amb frase explicativa breu."
+        },
+        {
+          "pas_id": "pas_4_nucli_de_la",
+          "descriptor": "Consigna completa amb connector causal o condicional (\"A partir de X, explica per què Y\"). Subconsignes numerades."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Frases amb connectors causals i condicionals. Separació visual clara entre parts. Registre funcional-acadèmic emergent."
+        },
+        {
+          "pas_id": "pas_6_andamiatge_del_format",
+          "descriptor": "\"Respon en 2-3 frases. Usa 'per tant' o 'perquè'.\" Connector guia explícit.",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_7_metacognicio_avaluadora",
+          "descriptor": "Criteris breus (2-3) derivats de la HCL (\"He explicat per què? He usat evidències?\")."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"La meva resposta respon la consigna? He usat la HCL correcta (explicar, justificar...)?\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol precís que anticipa l'operació i el context."
+        },
+        {
+          "pas_id": "pas_2_bastida_del_marc",
+          "descriptor": "Paràgraf concís (3-5 frases) amb vocabulari acadèmic. Context que emmarca el problema amb precisió.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_3_invariant_de_contingut",
+          "descriptor": "Dades invariants. Tots els elements del text font presents. Descripció objectiva si hi ha gràfics."
+        },
+        {
+          "pas_id": "pas_4_nucli_de_la",
+          "descriptor": "Múltiples subconsignes jerarquitzades. Format visual que marca la jerarquia (numeració i sagnat)."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Veu impersonal consistent. Vocabulari acadèmic. Estructura visual clara però sense senyaladors excessius."
+        },
+        {
+          "pas_id": "pas_6_andamiatge_del_format",
+          "descriptor": "Format de resposta implícit en la consigna. Estructura esperada derivada de la HCL."
+        },
+        {
+          "pas_id": "pas_7_metacognicio_avaluadora",
+          "descriptor": "Rúbrica amb criteris i nivells. Formulació acadèmica. Autoavaluació guiada."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He completat totes les subconsignes i he usat el vocabulari acadèmic adequat.\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": [
+        {
+          "pas_id": "pas_1_orientacio",
+          "descriptor": "Títol acadèmic amb formulació que inclou el repte i el marc disciplinari."
+        },
+        {
+          "pas_id": "pas_2_bastida_del_marc",
+          "descriptor": "Context ric amb vocabulari disciplinari, connexions conceptuals i marc del problema ben delimitat."
+        },
+        {
+          "pas_id": "pas_3_invariant_de_contingut",
+          "descriptor": "Dades invariants. Text font complet. Anàlisi de la relació entre les dades si la consigna ho demana."
+        },
+        {
+          "pas_id": "pas_4_nucli_de_la",
+          "descriptor": "Consigna acadèmica amb múltiples operacions cognitives encadenades. Formulació precisa i densa."
+        },
+        {
+          "pas_id": "pas_5_superficie_del_text",
+          "descriptor": "Registre acadèmic ple. Precisió i densitat del llenguatge acadèmic. Sense bastides visuals addicionals."
+        },
+        {
+          "pas_id": "pas_6_andamiatge_del_format",
+          "descriptor": "Cap indicador de format. L'alumne domina el format de resposta acadèmica."
+        },
+        {
+          "pas_id": "pas_7_metacognicio_avaluadora",
+          "descriptor": "Rúbrica analítica completa. L'alumne pot autoavaluar i argumentar la seva nota."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"La meva resposta és rigorosa: respon exactament el que es demana, amb evidències i sense divagació.\""
+        }
+      ]
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_orientacio",
+      "titol": "Títol i nom de l'activitat",
+      "dimensio": "Orientació",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència de títol; qualitative: LLM-jutge sobre adequació al nivell i anticipació de la tasca"
+    },
+    {
+      "id": "pas_2_bastida_del_marc",
+      "titol": "Context introductori",
+      "dimensio": "Bastida del marc",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "longitud i complexitat del context per nivell; LLM-jutge sobre suficiència per comprendre la consigna"
+    },
+    {
+      "id": "pas_3_invariant_de_contingut",
+      "titol": "Dades, textos font i materials",
+      "dimensio": "Invariant de contingut",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary/cross_source: valors, unitats i textos font del document original es conserven idèntics; detectar arrodoniments o omissions"
+    },
+    {
+      "id": "pas_4_nucli_de_la",
+      "titol": "Consigna(es)",
+      "dimensio": "Nucli de la tasca (INVARIANT de contingut)",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary/cross_source: el verb i l'objecte de la consigna originals es conserven; detectar canvis d'operació cognitiva o eliminació de subconsignes"
+    },
+    {
+      "id": "pas_5_superficie_del_text",
+      "titol": "Bastida lingüística (forma)",
+      "dimensio": "Superfície del text",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "longitud de frase i vocabulari del context per nivell; LLM-jutge sobre adequació MECR de la forma (no de la consigna)"
+    },
+    {
+      "id": "pas_6_andamiatge_del_format",
+      "titol": "Indicadors de resposta",
+      "dimensio": "Andamiatge del format",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: presència d'indicadors de format a pre-A1/A1/A2; qualitative: adequació al nivell i a la HCL demanada"
+    },
+    {
+      "id": "pas_7_metacognicio_avaluadora",
+      "titol": "Rúbrica o criteris",
+      "dimensio": "Metacognició avaluadora",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary (B1+): presència de criteris derivats de la HCL demanada"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent; LLM-jutge: la pregunta metacognitiva fa referència a la comprensió de la consigna"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Adapta un document d'activitat modulant SEMPRE la bastida lingüística del context introductori i la forma lingüística de la consigna (sense canviar-ne el contingut ni el repte cognitiu), i preservant **INTACTES** la consigna (el que l'alumne ha de fer), les dades del problema (valors, enunciats, textos font) i la(les) HCL demandada(es), segons el nivell MECR (pre-A1→C1).",
+    "no_judici_qualitatiu_complex": "El LLM no ha de decidir si una activitat és adequada per al nivell del curs, si el nombre de subconsignes és excesiu o si els valors numèrics de l'exercici s'haurien de simplificar; només ha de garantir la preservació de la consigna i les dades, i ajustar la bastida lingüística al voltant. La idoneïtat curricular és responsabilitat del docent. Quan ATNE detecta una sol·licitud que podria implicar modificar el repte cognitiu, adverteix explícitament en lloc d'actuar."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada pre-A1→C1 capta el gruix de la diferenciació; el nivell MECR és la variable principal de selecció de la forma lingüística del context i de la bastida de la consigna, mentre l'INVARIANT (consigna + dades) es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "*"
+      ],
+      "raonament": "El fracàs acadèmic de l'alumnat nouvingut en activitats sovint no és de contingut sinó de comprensió de la consigna (CALP de la instrucció). El pont L1 a la consigna és, doncs, accés al contingut disciplinari, no baixada de nivell. El Principi 1 del MALL (TOLC, translanguaging) i els textos d'identitat lingüística (Cummins/LIT) sostenen el disseny per capes: la L1 com a pont d'accés i no com a substitut del registre acadèmic objectiu."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "El principi DUA d'accés demana minimitzar la càrrega de processament que no és nuclear a la tasca. A l'activitat, la càrrega no nuclear és el context introductori: simplificar-lo al màxim allibera memòria de treball per a la tasca real."
+    },
+    "alumne_TEA": {
+      "raonament": "L'alumnat TEA sovint té una comprensió lingüística i cognitiva adequada però es perd en la densitat visual i estructural del document. La intervenció primària (i legítimament ATNE) és l'organització visual i la claredat de la seqüència; la secundària (territoris PI) és la reducció del repte."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC, l'adaptació pot incloure una bastida d'aprofundiment al context introductori sense modificar la consigna base; les extensions al repte s'afegeixen com a capes optatives, mai substituint el nivell de l'activitat original."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "el_document_es_un",
+      "description": "El document és un full d'exercicis, una prova, un control o una tasca amb consignes explícites per a l'alumne."
+    },
+    {
+      "name": "el_text_conte_verbs",
+      "description": "El text conté verbs imperatius d'acció cognitiva: Explica, Calcula, Ordena, Identifica, Compara, Justifica, Argumenta."
+    },
+    {
+      "name": "el_docent_vol_que",
+      "description": "El docent vol que l'alumne pugui fer la mateixa activitat amb una bastida lingüística adequada al seu nivell MECR."
+    },
+    {
+      "name": "el_text_conte_dades",
+      "description": "El text conté dades (valors, textos font, gràfics) sobre les quals l'alumne ha d'operar."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_dona_instruccions",
+      "description": "El text dóna instruccions pas a pas per fer alguna cosa sense plantejar un repte → instructiu."
+    },
+    {
+      "name": "el_text_presenta_resultats",
+      "description": "El text presenta resultats o informació sense demanar cap operació a l'alumne → informe o text divulgatiu."
+    },
+    {
+      "name": "el_text_explica_com",
+      "description": "El text explica com funciona alguna cosa → manual o enciclopèdic."
+    },
+    {
+      "name": "el_document_es_una",
+      "description": "El document és una rúbrica d'avaluació sense consignes per a l'alumne → no és una activitat."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"La consigna és intocable: adapto el voltant, no el cor.\"",
+      "descripcio": "Quan preparo l'adaptació, primer identifico el verb de la consigna (Explica, Calcula, Ordena, Justifica) i el marco com a INTOCABLE. Tot el que ve al voltant (el context introductori, la bastida visual, els senyaladors) és on treballo. Si em trobo reescrivint el verb o eliminant una subconsigna, m'atura: no estic adaptant, estic canviant l'activitat. Eficaç per a tots els nivells."
+    },
+    {
+      "id": "H2",
+      "titol": "\"Primer la consigna; el context, al servei.\"",
+      "descripcio": "Llegeixo l'activitat d'enrere cap endavant: primer miro QUÈ ha de fer l'alumne (la consigna) i QUINES dades necessita (l'invariant). Llavors decido quina bastida contextual mínima necessita l'alumne per arribar a la consigna. Evita el perill de simplificar tant el context que l'alumne ja no tingui prou informació per respondre, o de simplificar tant que la consigna se'n ressenti."
+    },
+    {
+      "id": "H3",
+      "titol": "\"El verb de la consigna revela la HCL: no el rebaixis.\"",
+      "descripcio": "Faig als meus alumnes un diccionari de verbs de consigna: \"Explica = digues com i per què\", \"Justifica = dóna raons amb proves\", \"Calcula = fes l'operació matemàtica\", \"Compara = digues en que s'assemblen i en que difereixen\". Quan l'alumne sap QUÈ demana cada verb, la barrera lingüística de la consigna cau i el contingut disciplinari queda accessible. Funciona especialment bé a A2-B1 i per a nouvinguts amb CALP en L1."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Separa visualment: llegeix / mira / fes.\"",
+      "descripcio": "Estructuro visualment l'activitat en tres zones: la zona \"Llegeix o Mira\" (el context i les dades), la zona \"Fes\" (la consigna, en negreta i numerada), i la zona \"Escriu aquí\" (l'espai de resposta). Quan l'alumne veu on ha de llegir, on ha de mirar i on ha de respondre, la càrrega cognitiva d'interpretació del document baixa dràsticament. Eficaç des de pre-A1 (amb icones) fins a B1 (amb zones textuals). A B2+ desapareix."
+    },
+    {
+      "id": "H5",
+      "titol": "\"Adverteix quan el repte és curricular, no lingüístic.\"",
+      "descripcio": "Quan el docent em demana que \"simplifiqui\" una activitat i el que en realitat vol és reduir el nombre de variables, simplificar els números o eliminar preguntes, paro i aviso: \"Això ja no és una adaptació lingüística: és una modificació de la tasca. Necessites un PI o un PAD.\" Saber distingir la barrera lingüística (que ATNE pot resoldre) de la barrera cognitiva (que requereix una intervenció pedagògica diferent) és la competència docent clau per usar bé l'eina."
+    },
+    {
+      "id": "H6",
+      "titol": "\"Modela la resposta esperada (bastida de producció).\"",
+      "descripcio": "A A2 i B1, afegeixo un starter de frase al costat de la consigna: \"La meva resposta: El resultat és ___ perquè ___.\" o \"Jo crec que X perquè ___.\" Aquesta bastida de producció dona a l'alumne la motxilla lingüística per respondre sense haver de construir el format de resposta des de zero. No és fer la feina per l'alumne: és mostrar-li la forma que ha d'omplir amb el seu contingut."
+    }
+  ],
+  "case_overrides": {
+    "pre_a1_consigna_oral_mediada": {
+      "trigger": {
+        "raw": "pre_A1_consigna_oral_mediada"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: pre-A1 AND fase_lectora_equals: logografica\n\n**Modulació:**\n- format_consigna: etiqueta_verb_amb_icona (el text escrit és mínim, la icona del verb porta el pes)\n- mediacio_oral_adult: obligatoria (la consigna la llegeix i explica l'adult en L1 si cal)\n- invariant_consigna: intacte (la tasca que es demana no canvia; canvia com es vehicula)\n- longitud_context_max: 1 frase o absent\n- espai_resposta: grafiat o dibuix si la consigna ho permet\n\n**Raonament pedagògic.** A pre-"
+      }
+    },
+    "a2_consigna_bastida_explicita": {
+      "trigger": {
+        "raw": "A2_consigna_bastida_explicita"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A2\n\n**Modulació:**\n- verb_consigna: en **negreta** sempre\n- consignes_multiples: numerades explícitament\n- connector_guia: afegit si la consigna implica relació entre dades (\"Fixa't en X. Ara, ...\")\n- longitud_context_max: 3 frases simples\n- format_resposta_explicat: \"Escriu X frases\" o format concret\n\n**Raonament pedagògic.** A A2 l'alumne pot llegir consignes simples autònomament però perd el fil quan hi ha múltiples instruccions o quan la consigna és llarga. La numer"
+      }
+    },
+    "b1_connector_causal_obligatori": {
+      "trigger": {
+        "raw": "B1_connector_causal_obligatori"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B1 AND hcl_includes: [explicar, justificar]\n\n**Modulació:**\n- consigna_format: inclou connector causal explícit (\"A partir de X, explica per què Y\")\n- indicador_resposta: \"Usa 'per tant' o 'perquè' a la teva resposta\"\n- subconsignes: jerarquitzades amb numeració i sagnat\n\n**Raonament pedagògic.** A B1, les HCL Explicar i Justificar requereixen connectors causals que l'alumne en fase estratègica no produeix espontàniament. Modelar el connector a la consigna és una bastid"
+      }
+    },
+    "c1_consigna_academica_encadenada": {
+      "trigger": {
+        "raw": "C1_consigna_academica_encadenada"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- consigna_format: formulació acadèmica densa amb múltiples operacions cognitives encadenades\n- rúbrica: analítica completa inclosa al document\n- bastida_visual: absent (no ressaltar verbs, no indicadors de format)\n- extensio_resposta: l'alumne determina el format a partir de la consigna\n\n**Raonament pedagògic.** A C1 l'alumne ha de poder llegir i interpretar una consigna acadèmica complexa de manera autònoma. La bastida desapareix perquè la competènc"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}

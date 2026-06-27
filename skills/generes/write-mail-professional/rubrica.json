@@ -1,0 +1,478 @@
+{
+  "_meta": {
+    "name": "rubrica_write_mail_professional",
+    "version": "1.0.1",
+    "font_canonic": "skills/generes/write-mail-professional/M3_genere-escriure-mail-professional.md",
+    "font_version": "1.1.0",
+    "generat_at": "2026-06-27",
+    "skill_name": "write-mail-professional",
+    "family": "generes",
+    "mecr_range": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "C1"
+    ],
+    "agent_roles": [
+      "adapter",
+      "generator"
+    ],
+    "genre_key": "mail_professional",
+    "translanguaging": true,
+    "multimodal": false,
+    "variables_configurables": {
+      "fase_lectora": [
+        "alfabetica_emergent",
+        "alfabetica_fluida"
+      ]
+    }
+  },
+  "transversals": {},
+  "levels": {
+    "pre-A1": {
+      "etiqueta": "Emergent",
+      "passos": [
+        {
+          "pas_id": "pas_1_sintesi_del_proposit",
+          "descriptor": "2-4 paraules. Propòsit central (\"Sol·licitud informació\"). Fórmula fixada.",
+          "countable": {
+            "min": 2,
+            "max": 4,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_ancoratge_formal",
+          "descriptor": "Fórmula fixada: \"Benvolguda / Benvolgut,\" (sense nom). Pot usar \"A qui correspongui,\"."
+        },
+        {
+          "pas_id": "pas_3_proposit_al_1r",
+          "descriptor": "1 frase: qui sóc + per quin motiu escric. Frase simple (8-10 paraules).",
+          "countable": {
+            "min": 8,
+            "max": 10,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_4_informacio_sol_licitud",
+          "descriptor": "1 frase. 1 sol punt, 1 sol·licitud. Vocabulari molt freqüent."
+        },
+        {
+          "pas_id": "pas_5_accio_esperada",
+          "descriptor": "1 frase fixada: \"Quedo a l'espera de resposta.\""
+        },
+        {
+          "pas_id": "pas_6_formula_de_tancament",
+          "descriptor": "Fórmula fixada: \"Atentament,\""
+        },
+        {
+          "pas_id": "pas_7_identificacio_del_remitent",
+          "descriptor": "Nom + cognom."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "(oral o escrit mínim) \"El meu mail diu qui sóc i per quin motiu escric?\""
+        }
+      ]
+    },
+    "A1": {
+      "etiqueta": "Inicial",
+      "passos": [
+        {
+          "pas_id": "pas_1_sintesi_del_proposit",
+          "descriptor": "4-6 paraules. Propòsit + objecte (\"Demanda de pressupost material escolar\").",
+          "countable": {
+            "min": 4,
+            "max": 6,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_ancoratge_formal",
+          "descriptor": "Fórmula fixada + càrrec si es coneix (\"Benvolguda directora,\")."
+        },
+        {
+          "pas_id": "pas_3_proposit_al_1r",
+          "descriptor": "1-2 frases: qui sóc + motiu + context breu.",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_informacio_sol_licitud",
+          "descriptor": "2-3 frases. 1 motiu, 1 sol·licitud. Connectors bàsics (\"perquè\", \"i\").",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_accio_esperada",
+          "descriptor": "1-2 frases. Indica l'acció esperada (\"Li demano que m'enviï...\").",
+          "countable": {
+            "min": 1,
+            "max": 2,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_6_formula_de_tancament",
+          "descriptor": "\"Atentament,\" o \"Cordialment,\""
+        },
+        {
+          "pas_id": "pas_7_identificacio_del_remitent",
+          "descriptor": "Nom + cognom + curs/grup."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He explicat el motiu i he demanat una sola cosa clarament?\""
+        }
+      ]
+    },
+    "A2": {
+      "etiqueta": "Funcional",
+      "passos": [
+        {
+          "pas_id": "pas_1_sintesi_del_proposit",
+          "descriptor": "5-8 paraules. Assumpte informatiu i específic. Pot incloure referència (\"Ref: oferta X\").",
+          "countable": {
+            "min": 5,
+            "max": 8,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_ancoratge_formal",
+          "descriptor": "Salutació ajustada al destinatari (nom, càrrec, institució)."
+        },
+        {
+          "pas_id": "pas_3_proposit_al_1r",
+          "descriptor": "2-3 frases: presentació, motiu i referència al context (reunió prèvia, anunci, etc.).",
+          "countable": {
+            "min": 2,
+            "max": 3,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_4_informacio_sol_licitud",
+          "descriptor": "3-5 frases. Motiu justificat. Connector causal (\"per tant\", \"ja que\"). Veu formal consistent.",
+          "countable": {
+            "min": 3,
+            "max": 5,
+            "unitat": "frases"
+          }
+        },
+        {
+          "pas_id": "pas_5_accio_esperada",
+          "descriptor": "Tancament amb acció esperada + termini si cal (\"Esperaria resposta abans del...\")."
+        },
+        {
+          "pas_id": "pas_6_formula_de_tancament",
+          "descriptor": "\"Atentament,\" / \"Amb una salutació cordial,\" / \"Cordialment,\""
+        },
+        {
+          "pas_id": "pas_7_identificacio_del_remitent",
+          "descriptor": "Nom + cognom + centre + curs."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El meu mail és formal de principi a fi? El lector sap exactament què li demano?\""
+        }
+      ]
+    },
+    "B1": {
+      "etiqueta": "Estratègic",
+      "passos": [
+        {
+          "pas_id": "pas_1_sintesi_del_proposit",
+          "descriptor": "Assumpte precís i complet. Indica propòsit i context en 8-10 paraules.",
+          "countable": {
+            "min": 8,
+            "max": 10,
+            "unitat": "paraules"
+          }
+        },
+        {
+          "pas_id": "pas_2_ancoratge_formal",
+          "descriptor": "Salutació precisa amb nom/càrrec/títol."
+        },
+        {
+          "pas_id": "pas_3_proposit_al_1r",
+          "descriptor": "Introducció clara i directa. Pot incloure referència a interacció prèvia o marc."
+        },
+        {
+          "pas_id": "pas_4_informacio_sol_licitud",
+          "descriptor": "Múltiples punts ben organitzats. Connectors acadèmics. Veu impersonal si cal. Pot usar llista numerada."
+        },
+        {
+          "pas_id": "pas_5_accio_esperada",
+          "descriptor": "Tancament estratègic: acció esperada + disponibilitat per ampliar informació."
+        },
+        {
+          "pas_id": "pas_6_formula_de_tancament",
+          "descriptor": "Fórmula ajustada al grau de formalitat del destinatari."
+        },
+        {
+          "pas_id": "pas_7_identificacio_del_remitent",
+          "descriptor": "Nom + cognom + càrrec si escau + dades de contacte."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"He organitzat bé els punts? El to és consistent? He revisat l'assumpte?\""
+        }
+      ]
+    },
+    "B2": {
+      "etiqueta": "Acadèmic",
+      "passos": [
+        {
+          "pas_id": "pas_1_sintesi_del_proposit",
+          "descriptor": "Assumpte professional ple. Pot incloure referència, data o número d'expedient."
+        },
+        {
+          "pas_id": "pas_2_ancoratge_formal",
+          "descriptor": "Salutació protocol·lària completa. Admet matisació de to (Sr./Sra. + cognom en contextos molt formals)."
+        },
+        {
+          "pas_id": "pas_3_proposit_al_1r",
+          "descriptor": "Introducció estratègica: situa el context, indica el propòsit i anticipa l'estructura del mail."
+        },
+        {
+          "pas_id": "pas_4_informacio_sol_licitud",
+          "descriptor": "Cos argumentat. Veu professional plena. Anticipació d'objeccions o riscos si cal. Gestió de la persuasió."
+        },
+        {
+          "pas_id": "pas_5_accio_esperada",
+          "descriptor": "Tancament professional: acció esperada, termini, oferta de seguiment, to de col·laboració."
+        },
+        {
+          "pas_id": "pas_6_formula_de_tancament",
+          "descriptor": "Fórmula protocol·lària ajustada al context (institució, empresa, rang del destinatari)."
+        },
+        {
+          "pas_id": "pas_7_identificacio_del_remitent",
+          "descriptor": "Signatura professional completa: nom, càrrec, departament, telèfon, adreça electrònica."
+        },
+        {
+          "pas_id": "pas_8_reflexio_sobre_el",
+          "descriptor": "\"El mail és professional, precís i estratègic? El to és adequat a la relació amb el destinatari?\""
+        }
+      ]
+    },
+    "C1+": {
+      "etiqueta": "Crític",
+      "passos": []
+    }
+  },
+  "passos_meta": [
+    {
+      "id": "pas_1_sintesi_del_proposit",
+      "titol": "Assumpte",
+      "dimensio": "Síntesi del propòsit",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: assumpte present i no buit/genèric; qualitative: LLM-jutge sobre especificitat i informativitat per nivell"
+    },
+    {
+      "id": "pas_2_ancoratge_formal",
+      "titol": "Salutació",
+      "dimensio": "Ancoratge formal",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: salutació formal present, seguida de coma, sense tuteo ni \"Hola\""
+    },
+    {
+      "id": "pas_3_proposit_al_1r",
+      "titol": "Introducció",
+      "dimensio": "Propòsit al 1r paràgraf",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: propòsit detectat al primer paràgraf; qualitative: LLM-jutge sobre claredat del QUI i PERQUÈ"
+    },
+    {
+      "id": "pas_4_informacio_sol_licitud",
+      "titol": "Cos",
+      "dimensio": "Informació / sol·licitud",
+      "tipus": "structural",
+      "requires_source_text": false,
+      "validation_hint": "structural: un sol punt a A1-A2, múltiples ben organitzats a B2+; qualitative: LLM-jutge sobre registre consistent i absència d'informalitats"
+    },
+    {
+      "id": "pas_5_accio_esperada",
+      "titol": "Tancament",
+      "dimensio": "Acció esperada",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: tancament present; qualitative: acció esperada explicitada per nivell"
+    },
+    {
+      "id": "pas_6_formula_de_tancament",
+      "titol": "Comiat",
+      "dimensio": "Fórmula de tancament",
+      "tipus": "binary",
+      "requires_source_text": false,
+      "validation_hint": "binary: comiat formal present, seguida de coma, sense emoji ni expressió informal"
+    },
+    {
+      "id": "pas_7_identificacio_del_remitent",
+      "titol": "Signatura",
+      "dimensio": "Identificació del remitent",
+      "tipus": "countable",
+      "requires_source_text": false,
+      "validation_hint": "binary: signatura present; countable: nombre d'elements (nom / nom+càrrec / completa) per nivell"
+    },
+    {
+      "id": "pas_8_reflexio_sobre_el",
+      "titol": "Autoavaluació metacognitiva",
+      "dimensio": "Reflexió sobre el procés",
+      "tipus": "metacognitive",
+      "requires_source_text": false,
+      "validation_hint": "derivar a vista d'autoavaluació alumne + registre docent"
+    }
+  ],
+  "principi_general": {
+    "regla_seleccio_simple": "Genera o adapta un correu electrònic professional que mantingui SEMPRE l'estructura de 7 elements (assumpte + salutació + introducció + cos + tancament + comiat + signatura), el propòsit comunicatiu clar al primer paràgraf (piràmide directa), i un registre formal consistent sense barrejar formalitat i informalitat. Modula la longitud, la complexitat sintàctica i el vocabulari segons el nivell MECR (A1→C1), preservant intacta l'estructura del canal (camp `Assumpte:` sempre present) i la convenció sociolingüística (mai emojis, mai abreviatures de xat).",
+    "no_judici_qualitatiu_complex": "El LLM no decideix si la sol·licitud és pedagògicament adequada ni si el to és el correcte per a la relació real entre emissor i receptor; applica el registre i el propòsit que el text font o el docent indiquen. La decisió sobre l'adequació sociolingüística i contextual la pren el docent."
+  },
+  "regla_seleccio_per_perfil": {
+    "alumne_general": {
+      "raonament": "La rúbrica gradada A1→C1 ja capta el gruix de la diferenciació; el nivell MECR és la variable principal de selecció de la forma lingüística, mentre l'invariant del gènere (estructura i registre) es manté constant."
+    },
+    "alumne_nouvingut_L1": {
+      "exclou_explicitament": [
+        "L"
+      ],
+      "raonament": "El mail professional és un dels gèneres de transició cap al món laboral i la vida adulta independent que l'alumne nouvingut afrontarà ràpidament (cita al metge, sol·licitud a l'escola, resposta a una oferta de feina). El disseny per capes permet que l'alumne comuniqui contingut real mentre consolida les convencions formals, sense buidar la situació comunicativa ni abandonar l'L1 com a recurs cognitiu (Principi 1 MALL, TOLC). La distinció \"L1 al cos com a pont vs. ancoratge formal en llengua meta\" preserva totes dues prioritats alhora."
+    },
+    "alumne_DUA_acces": {
+      "raonament": "La càrrega cognitiva del mail professional és doble: cal gestionar la situació comunicativa i la convenció formal simultàniament. Reduir la longitud de frase i focalitzar en un sol propòsit elimina la complexitat adicional, sense rebaixar l'objectiu comunicatiu real."
+    },
+    "alumne_FP_contextos_laborals": {
+      "raonament": "El mail professional és el gènere de comunicació laboral per excel·lència a l'àmbit de la FP. Anclar la pràctica en situacions laborals reals (no fictícies) dota l'aprenentatge de transferibilitat immediata i motiva l'alumne de FP, que percep la utilitat pràctica directa."
+    },
+    "alumne_AACC_o_capacitat_alta": {
+      "raonament": "Per a AACC mantenim el sostre alt sense saltar el nivell lingüístic: la profunditat argumentativa i la gestió retòrica del mail son la via natural d'extensió en un gènere conversacional professional."
+    }
+  },
+  "senyals_activacio": [
+    {
+      "name": "la_unitat_vol_que",
+      "description": "La unitat vol que l'alumne practiqui comunicació escrita formal en l'àmbit laboral o institucional."
+    },
+    {
+      "name": "el_text_font_es",
+      "description": "El text font és un correu electrònic professional real (sol·licitud, resposta, comunicat, candidatura)."
+    },
+    {
+      "name": "l_objectiu_es_modelar",
+      "description": "L'objectiu és modelar les convencions del canal electrònic formal (assumpte, salutació, cos, comiat, signatura)."
+    },
+    {
+      "name": "la_materia_treballa_competencies",
+      "description": "La matèria treballa competències de comunicació professional o laboral (FP, Llengua, Tutoria laboral, Empresa)."
+    }
+  ],
+  "anti_senyals": [
+    {
+      "name": "el_text_es_un",
+      "description": "El text és un intercanvi informal entre iguals → xat o missatge de mòbil, no mail professional."
+    },
+    {
+      "name": "el_text_va_en",
+      "description": "El text va en paper amb adreça postal → carta, no mail."
+    },
+    {
+      "name": "el_text_es_una",
+      "description": "El text és una seqüència d'intercanvis sincrònics → diàleg oral o xat, no mail."
+    }
+  ],
+  "heuristiques_docent": [
+    {
+      "id": "H1",
+      "titol": "\"L'assumpte és el títol del teu mail.\"",
+      "descripcio": "Demano als alumnes que escriguin l'assumpte com si fos el titular d'una notícia: ha de dir exactament de QUÈ parla el mail sense obrir-lo. Si l'assumpte diu \"Consulta\", el destinatari no sap res; si diu \"Sol·licitud de pressupost per a material d'impressió\", ja sap tot el que necessita. Proposo el test: \"Si el destinatari llegís només l'assumpte, sabria per a quin motiu li escric?\" Eficaç de A1 (fórmula fixada) a C1 (precisió professional)."
+    },
+    {
+      "id": "H2",
+      "titol": "\"El primer paràgraf respon: qui sóc i per quin motiu escric.\"",
+      "descripcio": "Recordo que en un mail professional el destinatari no té temps de buscar el motiu a la meitat del text. El primer paràgraf ha de respondre les dues preguntes bàsiques: qui sóc (si no em coneix) i per quin motiu li escric. Proposo que l'alumne provi de llegir NOMÉS el primer paràgraf del seu mail i es pregunti: \"Entenc per quin motiu m'han escrit?\" Si la resposta és \"no\", cal reescriure la introducció. Eficaç des de A1 (1 frase) fins a C1 (introducció estratègica)."
+    },
+    {
+      "id": "H3",
+      "titol": "\"Un mail, un propòsit. Si en tens dos, escriu dos mails.\"",
+      "descripcio": "La regla del propòsit únic és la competència de focus comunicatiu. Si l'alumne vol demanar un pressupost I queixar-se d'un retard, son dos mails distints, no un amb dos cossos. Proposo el test: \"El meu mail fa UNA sola cosa clarament?\" Quan l'alumne acumula sol·licituds, el destinatari tendeix a respondre la més fàcil i ignorar les altres. La regla del propòsit únic és directament transferible a la vida laboral. Funciona especialment bé a A1-B1 per evitar la tendència a acumular."
+    },
+    {
+      "id": "H4",
+      "titol": "\"Si ho escriviries en un WhatsApp, no ho escriguis en el mail.\"",
+      "descripcio": "La distinció entre mail professional i missatge informal és la competència sociolingüística central del gènere. Proposo fer una llista a classe de \"coses que fem al WhatsApp i que NO fem en un mail professional\": emojis, abreviatures (`xq`, `kk`, `ok`), majúscules excessives, \"!!\" finals, tuteo, expressions molt col·loquials. Cada cop que l'alumne és temtat d'escriure alguna d'aquestes coses, ha d'aplicar el filtre. Eficaç des de A2 fins a B1, on la interferència del registre informal és més freqüent."
+    },
+    {
+      "id": "H5",
+      "titol": "\"Llegeix el mail en veu alta. Sonaríes professional?\"",
+      "descripcio": "La prova de la lectura en veu alta és eficaç per detectar errors de registre que l'alumne no veu escrivint: si al llegir-lo en veu alta sona massa col·loquial, massa agressiu o massa sec, cal ajustar el to. Proposo que l'alumne es pregunti: \"Si el meu professor/la meva professora m'escrivís un mail amb aquest to, com em sentiria?\" El to del mail és una responsabilitat comunicativa, no un afegit estètic. Especialment útil a B2-C1 per a la gestió de queixes i candidatures."
+    }
+  ],
+  "case_overrides": {
+    "a1_formules_fixades": {
+      "trigger": {
+        "raw": "A1_fórmules_fixades"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: A1\n\n**Modulació:**\n- salutació: \"Benvolguda / Benvolgut,\" (fixada, sense variants)\n- comiat: \"Atentament,\" (fixada, sense variants)\n- cos_frases_max: 1\n- sol·licituds_max: 1\n- translanguaging: actiu al cos si `alfabetitzacio_l1: true`\n\n**Raonament pedagògic.** A A1 les fórmules fixes son l'andamiatge que permet produir un mail professional correcte sense sobrecarregar la memòria de treball. L'alumne A1 no ha de decidir entre fórmules: n'aprèn una per element i la usa. L"
+      }
+    },
+    "b1_justificacio_obligatoria": {
+      "trigger": {
+        "raw": "B1_justificació_obligatòria"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B1\n\n**Modulació:**\n- cos: inclou justificació del motiu (HCL Justificar activat: \"Li escric perquè...\", \"El motiu de la meva sol·licitud és...\")\n- veu: formal consistent (vostè o veu impersonal)\n- connectors: causals i consecutius (\"per tant\", \"ja que\", \"per aquest motiu\")\n\n**Raonament pedagògic.** B1 és el nivell on la HCL Justificar s'incorpora com a exigència: l'alumne no només comunica el QUÈ sinó el PER QUÈ. Aquesta transició és central al MALL per a l'accés al dis"
+      }
+    },
+    "b2_gestio_multipunt": {
+      "trigger": {
+        "raw": "B2_gestió_multipunt"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: B2\n\n**Modulació:**\n- cos: admet llista numerada o punts separats si hi ha diverses sol·licituds o informacions\n- connectors: acadèmics (\"en primer lloc\", \"a més a més\", \"finalment\")\n- tancament: estratègic (disponibilitat, termini)\n\n**Raonament pedagògic.** A B2 la complexitat comunicativa pot requerir un cos amb diverses dimensions. La llista numerada és la convenció professional per organitzar múltiples punts sense perdre la claredat ni la coherència del mail."
+      }
+    },
+    "c1_to_professional_plen": {
+      "trigger": {
+        "raw": "C1_to_professional_plen"
+      },
+      "modulacio": {
+        "descripcio": "**Trigger:** mecr_equals: C1\n\n**Modulació:**\n- assumpte: pot incloure referència, número d'expedient o data\n- cos: argumentació amb anticipació d'objeccions, persuasió indirecta, gestió del to de col·laboració\n- signatura: professional completa (càrrec, departament, contactes)\n- metacognició: reflexió sobre l'estratègia comunicativa, no només la forma\n\n**Raonament pedagògic.** A C1 el mail professional és domini del discurs professional en sentit ple: no és només \"correcte\" formalment sinó estra"
+      }
+    }
+  },
+  "alfabets_no_llatins_que_activen_translit": [
+    "ar-Arab",
+    "ar-MA-Arab",
+    "zgh-Tfng",
+    "fa-Arab",
+    "ur-Arab",
+    "zh-Hans",
+    "zh-Hant",
+    "pa-Guru",
+    "hi-Deva",
+    "bn-Beng",
+    "ru-Cyrl",
+    "uk-Cyrl",
+    "bg-Cyrl",
+    "ja-Jpan",
+    "ko-Hang",
+    "he-Hebr",
+    "th-Thai",
+    "am-Ethi",
+    "hy-Armn",
+    "ka-Geor"
+  ]
+}
