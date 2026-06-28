@@ -72,6 +72,21 @@ Miquel: pendent. Per defecte s'assumeix (A) tret que digueu el contrari.
 
 ---
 
+## Segon rename (decisió Miquel 2026-06-28) — write-instructiu → write-instruccions
+
+Motiu conceptual: "instructiu" s'usa a dos nivells (macro-tipologia nivell 1 **i** gènere
+nivell 2). Es reserva **instructiu** per a la macro i s'anomena **instruccions** el gènere
+(recepta/manual/protocol de passos, on el lector executa). Fonamentat a
+`M3_generes-discursius.md` §"Nota terminològica" i validat amb el MALL FJE.
+
+Mateixa mecànica i mateix risc que el rename de l'enunciat:
+- corpusFJE: dir `write-instructiu/` → `write-instruccions/`, fitxer M3, frontmatter
+  (`genre_key: instructiu` → `instruccions`, `label_ca`, `titol`, `skill_meta`), netejar orfes.
+- ATNE: el selector ha d'enviar `params.genere_discursiu = "instruccions"` (abans "instructiu").
+- Es pot fer en el **mateix lockstep** que el rename de l'enunciat (un sol desplegament coordinat).
+- Actualitzar l'entrada del catàleg a `M3_generes-discursius.md` §Instructiva (instructiu → instruccions)
+  i afegir-hi l'entrada nova **enunciat** (avui no hi és).
+
 ## 🔎 Troballa separada (NO és aquest rename) — HCL "Interpretar/Valorar"
 
 Revisant tot el corpus, **"Interpretar/Valorar"** apareix com a HCL principal o de
@@ -83,6 +98,12 @@ Justificar, Argumentar, Demostrar). És una **HCL composta diferent** de la
 "Interpretar" sola de write-activitat (ja corregida). No s'ha tocat: és una decisió
 pedagògica separada i de més abast.
 
-**Pregunta per a Miquel:** "Interpretar/Valorar" és una HCL acceptada al canon MALL
-de FJE (algunes formulacions de Jorba/Sanmartí l'inclouen) o també s'ha de normalitzar?
-Segons la resposta, caldria una passada coordinada a aquestes 6 skills.
+**Actualització 2026-06-28:** `M3_generes-discursius.md` (línia ~45) JA reconeix
+"interpretar/valorar" com una **variant pedagògica d'HCL** acceptada (juntament amb
+demostrar i instruir), al costat de les 5 nuclears (narrar, descriure, explicar,
+justificar, argumentar). Per tant NO és un error a les 6 skills: és una variant canònica.
+
+La inconsistència real és una altra: el briefing parlava de "6 HCL canòniques"
+(amb Definir) mentre el marc del corpus parla de "5 nuclears + variants". **Pregunta
+per a Miquel (no urgent):** volem una llista d'HCL única i tancada al canon, o mantenim
+el model "5 nuclears + variants pedagògiques obertes"? No bloqueja res.

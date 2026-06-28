@@ -5,8 +5,8 @@ tipus: marc
 descripcio: "Marc taxonòmic MALL: tipologies textuals (Adam, criteri intern) vs gèneres discursius (Bakhtin, esferes d'activitat sociocultural). Set macro-tipologies fonamentals i inventari dels 24 subgèneres operatius a FJE amb HCL associades. Document conceptual: les regles productives per gènere viuen a corpusFJE/skills/genres/."
 review_status: revisat
 generat_at: 2026-03-28T20:00:00
-actualitzat_at: 2026-06-19T00:00:00
-nota_revisio: "Refet 2026-05-16 com a marc conceptual. Validat amb NotebookLM MALL FJE (sessió 2026-05-16): 7 macro-tipologies (incloent Conversacional i Poètica), distinció tipologia/gènere segons Adam/Bakhtin, classificació híbrids per seqüència dominant. Substitueix continguts productius previs (migrats a skills). Ampliació 2026-06-19: catàleg passa de 22 a 24 subgèneres amb la incorporació de `diari de camp` (escissió canònica de `diari`: personal vs observacional/empíric) i `contrarelat d'odi` (gènere argumentatiu de l'esfera valors/ciutadania global, M0). Pendents de validació MALL específica les .md font de les noves skills."
+actualitzat_at: 2026-06-28T00:00:00
+nota_revisio: "Refet 2026-05-16 com a marc conceptual. Validat amb NotebookLM MALL FJE (sessió 2026-05-16): 7 macro-tipologies (incloent Conversacional i Poètica), distinció tipologia/gènere segons Adam/Bakhtin, classificació híbrids per seqüència dominant. Substitueix continguts productius previs (migrats a skills). Ampliació 2026-06-19: catàleg passa de 22 a 24 subgèneres amb la incorporació de `diari de camp` (escissió canònica de `diari`: personal vs observacional/empíric) i `contrarelat d'odi` (gènere argumentatiu de l'esfera valors/ciutadania global, M0). Pendents de validació MALL específica les .md font de les noves skills. Ampliació 2026-06-28 (validada NotebookLM MALL FJE, sessió f5f90250): jerarquia completa de 4 nivells (tipus/Adam · gènere/Bakhtin · unitat didàctica tasca-activitat-exercici/Camps-Dolz-Schneuwly · HCL/Jorba-Sanmartí); cas paradigmàtic de l'enunciat escolar (gènere híbrid instructiu+explicatiu; l'enunciat és la porta per on entren exercici/activitat/tasca, no el calaix que els conté; comprendre la consigna = competència d'accés, no HCL; operació demandada = HCL del MALL O operació procedimental); decisió de canon instructiu (macro) vs instruccions (gènere). Renaming write-activitat→write-enunciat i write-instructiu→write-instruccions pendents de Fase 2 (lockstep ATNE)."
 ---
 
 # Gèneres discursius — Marc conceptual i inventari MALL
@@ -43,6 +43,37 @@ Així doncs:
 ### Llengua, pensament i HCL (Jorba/Gómez/Prat)
 
 Les **Habilitats Cognitivolingüístiques (HCL)** són els processos cognitius que es realitzen a través del llenguatge i que configuren l'aprenentatge acadèmic: **narrar, descriure, explicar, justificar, argumentar**, i en variants pedagògiques (interpretar/valorar, demostrar, instruir). Cada tipologia textual activa una HCL nuclear; treballar els gèneres és, per tant, treballar el pensament.
+
+### Un tercer i un quart nivell: de la tipologia a l'aula
+
+La distinció tipologia/gènere es completa amb dos nivells més que sovint s'hi confonen. La jerarquia completa té **quatre nivells d'abstracció**, cadascun amb el seu referent:
+
+| Nivell | Concepte | Què és | Referent |
+|---|---|---|---|
+| **1. Abstracció lingüística** | Tipus de text / macro-tipologia / *seqüència* (p.ex. instructiva) | Categoria abstracta segons el focus dominant i criteris **interns** (lingüístics) | **J.M. Adam** |
+| **2. Pràctica social** | **Gènere discursiu** (p.ex. enunciat, recepta, notícia) | Tipus estable d'enunciats d'una *esfera d'activitat*; criteris **externs** (propòsit, destinatari, tradició) | **Bakhtin** |
+| **3. Unitat didàctica** | **Tasca / activitat / exercici** | Engranatges de la *seqüència didàctica*: la tasca té objectiu comunicatiu situat; l'exercici és microprocés sobre la forma | **Camps, Dolz, Schneuwly** |
+| **4. Habilitat** | **HCL** (descriure, explicar, justificar…) | Operacions cognitivolingüístiques que es despleguen dins el gènere | **Jorba, Sanmartí** |
+
+Els nivells 1-2 classifiquen **el text**; els nivells 3-4 organitzen **el treball d'aula**. La **seqüència didàctica** (SD) MALL —tradició Camps (2003), transferida de Dolz i Schneuwly— ordena el treball de llengua en petits projectes de comunicació: la **tasca** és la unitat superior (un encàrrec amb objectiu comunicatiu situat que emula la vida real); l'**exercici** és la subactivitat puntual, sovint mecànica, sobre microprocessos o la forma; l'**activitat** se situa entre totes dues segons l'abast i el grau de situació.
+
+### Cas paradigmàtic — l'enunciat escolar
+
+L'**enunciat** (o *encàrrec de treball*) és el gènere discursiu de l'esfera acadèmica amb què el docent planteja un repte a l'alumne perquè el resolgui: parteix d'una situació —més o menys globalitzada, concreta i situada o abstracta— i en demana la resolució. És un **gènere híbrid**: combina una **seqüència instructiva dominant** (la *consigna* —"calcula", "compara i contrasta", "justifica"—, que n'és l'invariant intocable) i una **seqüència explicativa** (el context i les dades sobre què operar). La *consigna* és, dins l'enunciat, la part que conté la instrucció d'acció.
+
+**L'enunciat NO "engloba" l'exercici, l'activitat i la tasca** — són de nivells diferents (gènere vs unitat didàctica). La relació és a l'inrevés: **tots tres es vehiculen a través d'un enunciat**. Cada exercici, cada activitat i cada tasca arriba a l'alumne en forma d'enunciat. L'enunciat no és el calaix que els conté, sinó **la porta textual per on entren tots tres**. (Per això una sola skill d'adaptació cobreix els enunciats dels tres contextos.)
+
+> **Habilitat demandada per l'enunciat.** Comprendre la consigna **no és una HCL**: és la **competència d'accés prèvia** que habilita qualsevol operació (és el cor de la dificultat que assenyala el MALL: "saben llegir però no entenen l'enunciat dels problemes"). L'operació que la consigna demana és **variable** i pot ser una **HCL del MALL** (descriure, explicar, justificar, argumentar, demostrar) **o una operació procedimental** (calcular, resoldre, ordenar, classificar) que no és una HCL lingüística. L'operació, sigui del tipus que sigui, és intocable: s'adapta la forma lingüística de la consigna, mai l'operació que demana.
+
+### Nota terminològica — "instructiu" a dos nivells
+
+El terme **instructiu** s'usa a dos nivells, i convé no confondre'ls:
+- **instructiu** = nom de la **macro-tipologia** (nivell 1), la família que comparteixen tots els gèneres de seqüència instructiva dominant.
+- les **instruccions** (recepta, manual, protocol de passos) = un **gènere** concret (nivell 2) on el lector *executa* els passos.
+
+**Decisió de canon (Miquel, 2026-06-28):** reservar **instructiu** per a la macro i anomenar **instruccions** el gènere, per netejar la col·lisió de nivells. L'enunciat és un gènere instructiu-dominant **diferent** de les instruccions: a les instruccions el lector executa passos; a l'enunciat l'alumne resol un repte.
+
+> **Implementació pendent (Fase 2, coordinació amb ATNE):** els renaming de skills `write-activitat → write-enunciat` i `write-instructiu → write-instruccions` toquen el `genre_key` que consumeix el selector d'ATNE; es faran en lockstep. El catàleg de sota (§Instructiva) i les entrades del catàleg s'actualitzaran en aquell mateix moment. Vegeu `docs/handoff_rename_enunciat_2026-06-27.md`.
 
 ---
 
