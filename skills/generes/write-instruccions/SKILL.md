@@ -30,7 +30,7 @@ font_canonic: M3_genere-escriure-instruccions.md
 font_version: 4.1.0-canonic
 generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 4de4e9c83eefbc68
+checksum_font: 85d63cd34c65d178
 ---
 
 # Escriure/adaptar unes instruccions — skill operativa per a LLM

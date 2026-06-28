@@ -40,7 +40,7 @@ font_canonic: M3_genere-escriure-enunciat.md
 font_version: 1.3.0
 generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 42c9ed234b92b143
+checksum_font: 0a8478074ae52891
 ---
 
 # Adaptar un enunciat escolar — skill operativa per a LLM

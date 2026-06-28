@@ -5,7 +5,7 @@ font_version: 1.3.0
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-28'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 42c9ed234b92b143
+checksum_font: 0a8478074ae52891
 ---
 
 # Adaptar un enunciat escolar — prompt d'adaptació parametritzat per nivell
