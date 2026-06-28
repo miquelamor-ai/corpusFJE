@@ -1,25 +1,25 @@
 ---
 modul: M3
-titol: "Escriure/adaptar un text instructiu"
+titol: "Escriure/adaptar unes instruccions"
 tipus: genere-discursiu
 categoria_principal: generes
 categories_secundaries: []
-descripcio: "Instrument per adaptar o generar un text instructiu: guia pas a pas per realitzar una acció amb materials en llista prèvia, verb imperatiu per pas, ordre cronològic estricte i resultat esperat. HCL Narrar processal + Descriure (materials). No s'adapta a pre-A1. Rúbrica gradada 7 passos × 5 nivells MECR (A1→C1)."
+descripcio: "Instrument per adaptar o generar unes instruccions (recepta, manual, protocol de passos): guia pas a pas per realitzar una acció amb materials en llista prèvia, verb imperatiu per pas, ordre cronològic estricte i resultat esperat. Gènere de macro-tipologia instructiva on el lector executa els passos (distint de l'enunciat escolar, on l'alumne resol un repte). HCL Narrar processal + Descriure (materials). No s'adapta a pre-A1. Rúbrica gradada 7 passos × 5 nivells MECR (A1→C1)."
 mecr_range: [A1, A2, B1, B2, C1]
 agent_roles: [adapter, generator]
-genre_key: instructiu
+genre_key: instruccions
 macro_tipologia: instructiva
-label_ca: "Text instructiu"
+label_ca: "Instruccions (recepta / manual / protocol)"
 translanguaging: false
 multimodal: false
 moduls_relacionats: [M3]
 variables_configurables:
   fase_lectora: [alfabetica_emergent, alfabetica_fluida]
-skill_meta: write-instructiu@corpusFJE/skills/generes/write-instructiu
+skill_meta: write-instruccions@corpusFJE/skills/generes/write-instruccions
 review_status: pilot-fusio-6
-version: 4.0.0-canonic
+version: 4.1.0-canonic
 generat_at: 2026-05-26
-actualitzat_at: 2026-05-26
+actualitzat_at: 2026-06-28
 notebooklm_review:
   data: 2026-05-26
   veredicte: si
@@ -28,7 +28,7 @@ notebooklm_review:
   comentari_key: "translanguaging-false-correcte-H4-estrategia-gramatical-no-L1"
 ---
 
-# Escriure/adaptar un text instructiu
+# Escriure/adaptar unes instruccions
 
 ## Descripció
 

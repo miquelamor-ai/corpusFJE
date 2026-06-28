@@ -1,21 +1,21 @@
 ---
 tipus: derivat
-font_canonic: M3_genere-escriure-activitat.md
-font_version: 1.2.0
+font_canonic: M3_genere-escriure-enunciat.md
+font_version: 1.3.0
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-28'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 397d7f525549a16c
+checksum_font: 42c9ed234b92b143
 ---
 
-# Adaptar un document d'activitat — prompt d'adaptació parametritzat per nivell
+# Adaptar un enunciat escolar — prompt d'adaptació parametritzat per nivell
 
 Aquest prompt s'omple amb el nivell objectiu MECR (`{{NIVELL}}`) i opcionalment amb les variables de perfil (`{{fase_lectora}}`).
 
 ## Plantilla
 
 ```
-Adapta el text font següent al gènere adaptar un document d'activitat per a un alumne de nivell {{NIVELL}} ({{ETIQUETA_MALL}}).
+Adapta el text font següent al gènere adaptar un enunciat escolar per a un alumne de nivell {{NIVELL}} ({{ETIQUETA_MALL}}).
 
 Segueix aquests criteris (extrets de la rúbrica canònica):
 
