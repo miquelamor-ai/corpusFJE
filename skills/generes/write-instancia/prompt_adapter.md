@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-instancia.md
 font_version: 1.1.0
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-27'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 1c7642a5c4ca8ceb
+checksum_font: 8e2c49a289a2610f
 ---
 
 # Escriure/adaptar una instància — prompt d'adaptació parametritzat per nivell

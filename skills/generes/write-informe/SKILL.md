@@ -27,7 +27,7 @@ macro_tipologia: explicativa
 label_ca: Informe
 font_canonic: M3_genere-escriure-informe.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 44b06c58a2a4ac8c
 ---

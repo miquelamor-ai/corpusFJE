@@ -27,9 +27,9 @@ moduls_relacionats:
 - M9
 font_canonic: M3_genere-escriure-instancia.md
 font_version: 1.1.0
-generat_at: '2026-06-27'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 1c7642a5c4ca8ceb
+checksum_font: 8e2c49a289a2610f
 ---
 
 # Escriure/adaptar una instància — skill operativa per a LLM

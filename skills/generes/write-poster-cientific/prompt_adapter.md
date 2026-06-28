@@ -3,7 +3,7 @@ tipus: derivat
 font_canonic: M3_genere-escriure-poster-cientific.md
 font_version: 4.2.0-canonic
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@prototip-2026-05-24
 checksum_font: b3a0e9e9d77b8ab9
 ---

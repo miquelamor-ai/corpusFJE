@@ -3,9 +3,9 @@ tipus: derivat
 font_canonic: M3_genere-escriure-mail-professional.md
 font_version: 1.1.0
 vista: C.prompt-adapter-llm
-generat_at: '2026-06-27'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 367ece841adf25bf
+checksum_font: 31fbbf354a6d6b2c
 ---
 
 # Escriure/adaptar un correu electrònic professional — prompt d'adaptació parametritzat per nivell

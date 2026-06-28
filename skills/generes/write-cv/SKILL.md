@@ -30,9 +30,9 @@ moduls_relacionats:
 - M7
 font_canonic: M3_genere-escriure-cv.md
 font_version: 1.0.0
-generat_at: '2026-06-27'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 91b2f58f9db84108
+checksum_font: f2613f61f48cd95a
 ---
 
 # Escriure/adaptar un currículum vitae (CV) — skill operativa per a LLM

@@ -29,7 +29,7 @@ moduls_relacionats:
 - M2
 font_canonic: M3_genere-escriure-poster-cientific.md
 font_version: 4.2.0-canonic
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: b3a0e9e9d77b8ab9
 ---

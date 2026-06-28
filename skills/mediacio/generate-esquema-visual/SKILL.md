@@ -26,7 +26,7 @@ moduls_relacionats:
 - M5
 font_canonic: M3_instrument-generar-esquema-visual.md
 font_version: 1.0.0-canonic
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: 153f17d80ff1c914
 ---

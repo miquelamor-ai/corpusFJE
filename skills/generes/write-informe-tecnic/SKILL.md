@@ -27,9 +27,9 @@ moduls_relacionats:
 - M2
 font_canonic: M3_genere-escriure-informe-tecnic.md
 font_version: 1.0.0
-generat_at: '2026-06-27'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 0812766766edaf22
+checksum_font: 7dac85ea4fce79f3
 ---
 
 # Escriure/adaptar un informe tècnic — skill operativa per a LLM

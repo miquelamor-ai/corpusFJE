@@ -32,7 +32,7 @@ moduls_relacionats:
 - M2
 font_canonic: M3_genere-escriure-practica-laboratori.md
 font_version: 1.0.0
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: ab740d351200be86
 ---

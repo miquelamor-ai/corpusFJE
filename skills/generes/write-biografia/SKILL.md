@@ -27,7 +27,7 @@ macro_tipologia: narrativa
 label_ca: Biografia
 font_canonic: M3_genere-escriure-biografia.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: bc3e5957c80751e0
 ---

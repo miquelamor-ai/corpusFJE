@@ -27,7 +27,7 @@ macro_tipologia: conversacional
 label_ca: Carta
 font_canonic: M3_genere-escriure-carta.md
 font_version: 4.0.0-canonic
-generat_at: '2026-06-25'
+generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
 checksum_font: b2814a508b93ec18
 ---
