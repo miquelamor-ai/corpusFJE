@@ -73,7 +73,9 @@ El terme **instructiu** s'usa a dos nivells, i convé no confondre'ls:
 
 **Decisió de canon (Miquel, 2026-06-28):** reservar **instructiu** per a la macro i anomenar **instruccions** el gènere, per netejar la col·lisió de nivells. L'enunciat és un gènere instructiu-dominant **diferent** de les instruccions: a les instruccions el lector executa passos; a l'enunciat l'alumne resol un repte.
 
-> **Implementació pendent (Fase 2, coordinació amb ATNE):** els renaming de skills `write-activitat → write-enunciat` i `write-instructiu → write-instruccions` toquen el `genre_key` que consumeix el selector d'ATNE; es faran en lockstep. El catàleg de sota (§Instructiva) i les entrades del catàleg s'actualitzaran en aquell mateix moment. Vegeu `docs/handoff_rename_enunciat_2026-06-27.md`.
+> **Implementació (Fase 2):** els renaming de skills `write-activitat → write-enunciat` i `write-instructiu → write-instruccions` estan **aplicats a la branca `fix/fase2-renames-enunciat-instruccions`** (inclou el catàleg de sota §Instructiva, ja actualitzat). Toquen el `genre_key` que consumeix el selector d'ATNE; el merge a `master` es fa **en lockstep** amb el desplegament d'ATNE. Vegeu `docs/handoff_rename_enunciat_2026-06-27.md`.
+>
+> *Nota: el catàleg d'aquest document encara no llista totes les skills de Fase 3 (cv, instància, mail-professional, informe-tècnic, pràctica-laboratori, pòster-científic); pendent una resincronització completa catàleg↔skills, independent d'aquest rename.*
 
 ---
 
@@ -392,12 +394,19 @@ Inventari operatiu. Cada entrada indica: macro-tipologia(es), HCL principal, HCL
 
 ### Instructiva
 
-#### instructiu
+#### enunciat
+- **Macro-tipologia**: Instructiva (consigna, dominant) + Explicativa (context i dades) — gènere híbrid
+- **Competència d'accés**: comprendre la consigna (prerequisit, no és una HCL)
+- **Operació demandada**: variable, la fixa la consigna — una HCL del MALL (Descriure, Explicar, Justificar, Argumentar, Demostrar) **o** una operació procedimental (calcular, resoldre, ordenar, classificar)
+- **Essència**: gènere de l'esfera acadèmica; el docent parteix d'una situació i planteja un repte perquè l'alumne el resolgui. Vehicula exercici, activitat i tasca (unitats de la seqüència didàctica), no els engloba com a subtipus
+- **Skill**: `skills/genres/write-enunciat/`
+
+#### instruccions
 - **Macro-tipologia**: Instructiva / Prescriptiva
 - **HCL principal**: Narrar (seqüència processal)
 - **HCL secundàries**: Descriure (materials i quantitats)
-- **Essència**: guia per fer alguna cosa amb passos clars, ordenats i executables
-- **Skill**: `skills/genres/write-instructiu/`
+- **Essència**: guia per executar una acció amb passos clars, ordenats i executables (recepta, manual, protocol); el lector **executa** els passos
+- **Skill**: `skills/genres/write-instruccions/`
 
 #### receptari
 - **Macro-tipologia**: Instructiva

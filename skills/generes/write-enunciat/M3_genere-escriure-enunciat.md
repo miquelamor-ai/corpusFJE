@@ -1,26 +1,26 @@
 ---
 modul: M3
-titol: "Adaptar un document d'activitat"
+titol: "Adaptar un enunciat escolar"
 tipus: genere-discursiu
 categoria_principal: generes
 categories_secundaries: []
 descripcio: "Instrument per adaptar un enunciat escolar (exercici, activitat o tasca): el docent parteix d'una situació —més o menys globalitzada, concreta i situada o abstracta— i demana a l'alumne que la resolgui. Macro-tipologia instructiva: la consigna domina i dona existència al gènere, amb un component explicatiu fort al context i les dades. Invariant crític: la consigna i les dades del problema son INTOCABLES; es modula només la bastida lingüística del context introductori i la forma lingüística de la consigna (sense canviar-ne el contingut). Advertència PI/PAD: reduir variables, simplificar números o rebaixar el repte cognitiu és territori de Pla Individualitzat, no d'adaptació lingüística ordinària. Competència d'accés (prerequisit, no HCL): comprendre la consigna. Operació demandada (variable i intocable, la fixa la consigna): pot ser una HCL del MALL (Descriure, Definir, Explicar, Justificar, Argumentar, Demostrar) o una operació procedimental (calcular, resoldre, ordenar, classificar). Rúbrica gradada 8 passos × 6 nivells MECR (pre-A1→C1)."
 mecr_range: [pre-A1, A1, A2, B1, B2, C1]
 agent_roles: [adapter]
-genre_key: activitat
+genre_key: enunciat
 macro_tipologia: instructiva
-label_ca: "Activitat (exercici / tasca)"
+label_ca: "Enunciat (exercici / activitat / tasca)"
 translanguaging: true
 multimodal: true
 moduls_relacionats: [M3, M2, M4]
 variables_configurables:
   subtipus: [exercici, tasca]
   fase_lectora: [logografica, alfabetica_emergent, alfabetica_fluida]
-skill_meta: write-activitat@corpusFJE/skills/generes/write-activitat
+skill_meta: write-enunciat@corpusFJE/skills/generes/write-enunciat
 review_status: revisat
-version: 1.2.0
+version: 1.3.0
 generat_at: 2026-06-25
-actualitzat_at: 2026-06-27
+actualitzat_at: 2026-06-28
 notebooklm_review:
   data: 2026-06-25
   veredicte: validat
@@ -33,7 +33,7 @@ notebooklm_review:
   comentari_key: null
 ---
 
-# Adaptar un document d'activitat
+# Adaptar un enunciat escolar
 
 ## Descripció
 
@@ -60,7 +60,7 @@ Ambdós subtipus comparteixen la mateixa lògica consigna + dades i la mateixa r
 - *Advertència PI/PAD*: modificar el repte cognitiu de l'activitat (reduir el nombre de variables, simplificar els valors numèrics, eliminar subconsignes per rebaixar la complexitat de la tasca) pertany al Pla Individualitzat o al PAD i requereix coordinació amb l'equip docent. ATNE adverteix explícitament quan una sol·licitud supera la capa lingüística.
 
 **Aclariment d'ús — distincions de gènere.**
-- vs `write-instructiu`: l'instructiu dóna **passos per fer alguna cosa** (recepta, manual de muntatge); l'activitat planteja **un repte per resoldre** que demana una operació cognitiva específica.
+- vs `write-instruccions`: les instruccions donen **passos per executar** alguna cosa (recepta, manual de muntatge); l'enunciat planteja **un repte per resoldre** que demana una operació cognitiva específica.
 - vs `write-informe`: l'informe **presenta resultats** ja elaborats; l'activitat **demana que l'alumne els elabori**.
 - vs `write-manual`: el manual **explica conceptes**; l'activitat **aplica conceptes** en una situació concreta.
 
@@ -189,7 +189,7 @@ La taula distingeix què es modula per MECR (la bastida lingüística) del que e
 - Activitats amb ús intensiu de vocabulari acadèmic a la consigna (CALP).
 
 **Anti-senyals** (quan NO adaptar com a activitat):
-- El text dóna instruccions pas a pas per fer alguna cosa sense plantejar un repte → instructiu.
+- El text dóna instruccions pas a pas per fer alguna cosa sense plantejar un repte → instruccions.
 - El text presenta resultats o informació sense demanar cap operació a l'alumne → informe o text divulgatiu.
 - El text explica com funciona alguna cosa → manual o enciclopèdic.
 - El document és una rúbrica d'avaluació sense consignes per a l'alumne → no és una activitat.

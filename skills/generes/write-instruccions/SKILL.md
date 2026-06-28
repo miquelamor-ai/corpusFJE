@@ -1,38 +1,39 @@
 ---
-name: write-instructiu
-description: 'Use when adapting or generating an instructiu text for students. Activates
-  when genre_discursiu == "instructiu". Applies strict chronological order, single-verb
-  steps, and independent steps. Output: instructiu in markdown with materials, numbered
-  steps, and expected result.
-
-  '
+name: write-instruccions
+description: 'Instrument per adaptar o generar unes instruccions (recepta, manual,
+  protocol de passos): guia pas a pas per realitzar una acció amb materials en llista
+  prèvia, verb imperatiu per pas, ordre cronològic estricte i resultat esperat. Gènere
+  de macro-tipologia instructiva on el lector executa els passos (distint de l''enunciat
+  escolar, on l''alumne resol un repte). HCL Narrar processal + Descriure (materials).
+  No s''adapta a pre-A1. Rúbrica gradada 7 passos × 5 nivells MECR (A1→C1).'
 author: FJE — Fundació Jesuïtes Educació
-version: 4.0.0-canonic
-genre_key: instructiu
-tipologia: Instructiva
+version: 4.1.0-canonic
+tools_required: []
+agent_role: adapter
+genre_key: instruccions
+triggers:
+- path: params.genere_discursiu
+  equals: instruccions
+macro_tipologia: instructiva
+label_ca: Instruccions (recepta / manual / protocol)
 mecr_range:
 - A1
 - A2
 - B1
 - B2
 - C1
-agent_role: adapter
-tools_required: []
-triggers:
-- path: params.genere_discursiu
-  equals: instructiu
+translanguaging: false
+multimodal: false
 moduls_relacionats:
 - M3
-macro_tipologia: instructiva
-label_ca: Text instructiu
-font_canonic: M3_genere-escriure-instructiu.md
-font_version: 4.0.0-canonic
+font_canonic: M3_genere-escriure-instruccions.md
+font_version: 4.1.0-canonic
 generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 9a869c3db4a2fa7c
+checksum_font: 4de4e9c83eefbc68
 ---
 
-# Escriure/adaptar un text instructiu — skill operativa per a LLM
+# Escriure/adaptar unes instruccions — skill operativa per a LLM
 
 El text instructiu guia el lector pas a pas per realitzar una acció amb **ordre cronològic processal estricte**. El seu tret definitori és la doble estructura invariant: la **llista de materials** (sempre prèvia als passos) i els **passos numerats** (un verb imperatiu + un objecte per pas). A diferència del text divulgatiu (que explica per qué funciona un procés), l'instructiu no explica: prescriu accions.
 

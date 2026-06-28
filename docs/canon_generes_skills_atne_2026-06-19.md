@@ -63,7 +63,8 @@ I el M3 dóna la dominant de cada gènere. Aquí l'aplico:
 | write-opinio | opinio | **argumentativa** | M3 §4 + §Catàleg "opinió" |
 | write-ressenya | ressenya | **argumentativa** | M3 §Catàleg "ressenya" → "Argumentativa / Avaluativa" |
 | write-assaig | assaig | **argumentativa** | M3 §4 + §Catàleg "assaig" |
-| write-instructiu | instructiu | **instructiva** | M3 §5 + §Catàleg "instructiu" |
+| write-instruccions | instruccions | **instructiva** | M3 §5 + §Catàleg "instruccions" |
+| write-enunciat | enunciat | **instructiva** | M3 §Catàleg "enunciat" (híbrid instructiu+explicatiu) |
 | write-receptari | receptari | **instructiva** | M3 §5 + §Catàleg "receptari" |
 | write-reglament | reglament | **instructiva** | M3 §5 + §Catàleg "reglament" |
 | write-carta | carta | **conversacional** | M3 §Catàleg "carta" → "Conversacional (dominant) + Argumentativa (si defensa) o Narrativa (si narra)" |

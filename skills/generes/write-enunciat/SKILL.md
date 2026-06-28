@@ -1,5 +1,5 @@
 ---
-name: write-activitat
+name: write-enunciat
 description: 'Instrument per adaptar un enunciat escolar (exercici, activitat o tasca):
   el docent parteix d''una situació —més o menys globalitzada, concreta i situada
   o abstracta— i demana a l''alumne que la resolgui. Macro-tipologia instructiva:
@@ -14,15 +14,15 @@ description: 'Instrument per adaptar un enunciat escolar (exercici, activitat o 
   Argumentar, Demostrar) o una operació procedimental (calcular, resoldre, ordenar,
   classificar). Rúbrica gradada 8 passos × 6 nivells MECR (pre-A1→C1).'
 author: FJE — Fundació Jesuïtes Educació
-version: 1.2.0
+version: 1.3.0
 tools_required: []
 agent_role: adapter
-genre_key: activitat
+genre_key: enunciat
 triggers:
 - path: params.genere_discursiu
-  equals: activitat
+  equals: enunciat
 macro_tipologia: instructiva
-label_ca: Activitat (exercici / tasca)
+label_ca: Enunciat (exercici / activitat / tasca)
 mecr_range:
 - pre-A1
 - A1
@@ -36,14 +36,14 @@ moduls_relacionats:
 - M3
 - M2
 - M4
-font_canonic: M3_genere-escriure-activitat.md
-font_version: 1.2.0
+font_canonic: M3_genere-escriure-enunciat.md
+font_version: 1.3.0
 generat_at: '2026-06-28'
 generat_per: build_skills.py@v2-2026-05-26
-checksum_font: 397d7f525549a16c
+checksum_font: 42c9ed234b92b143
 ---
 
-# Adaptar un document d'activitat — skill operativa per a LLM
+# Adaptar un enunciat escolar — skill operativa per a LLM
 
 El document d'activitat escolar és el **gènere híbrid de l'esfera acadèmica** per excel·lència: combina una **macro-tipologia Instructiva** (la consigna —"fes X"— que li dona forma i existència) i una **macro-tipologia Explicativa** (el context i les dades —"donades les dades X, Y..."— que li aporten el contingut sobre el qual actuar). El MALL el cita explícitament ("examen tipus test", "pla de treball") i identifica com a problema prioritari que "saben llegir però no entenen l'enunciat dels problemes" — el que confirma la necessitat d'una didàctica específica de la consigna i justifica la seva presència com a gènere autònom.
 
@@ -68,7 +68,7 @@ Ambdós subtipus comparteixen la mateixa lògica consigna + dades i la mateixa r
 - *Advertència PI/PAD*: modificar el repte cognitiu de l'activitat (reduir el nombre de variables, simplificar els valors numèrics, eliminar subconsignes per rebaixar la complexitat de la tasca) pertany al Pla Individualitzat o al PAD i requereix coordinació amb l'equip docent. ATNE adverteix explícitament quan una sol·licitud supera la capa lingüística.
 
 **Aclariment d'ús — distincions de gènere.**
-- vs `write-instructiu`: l'instructiu dóna **passos per fer alguna cosa** (recepta, manual de muntatge); l'activitat planteja **un repte per resoldre** que demana una operació cognitiva específica.
+- vs `write-instruccions`: les instruccions donen **passos per executar** alguna cosa (recepta, manual de muntatge); l'enunciat planteja **un repte per resoldre** que demana una operació cognitiva específica.
 - vs `write-informe`: l'informe **presenta resultats** ja elaborats; l'activitat **demana que l'alumne els elabori**.
 - vs `write-manual`: el manual **explica conceptes**; l'activitat **aplica conceptes** en una situació concreta.
 

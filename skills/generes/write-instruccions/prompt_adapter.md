@@ -1,21 +1,21 @@
 ---
 tipus: derivat
-font_canonic: M3_genere-escriure-instructiu.md
-font_version: 4.0.0-canonic
+font_canonic: M3_genere-escriure-instruccions.md
+font_version: 4.1.0-canonic
 vista: C.prompt-adapter-llm
 generat_at: '2026-06-28'
 generat_per: build_skills.py@prototip-2026-05-24
-checksum_font: 9a869c3db4a2fa7c
+checksum_font: 4de4e9c83eefbc68
 ---
 
-# Escriure/adaptar un text instructiu — prompt d'adaptació parametritzat per nivell
+# Escriure/adaptar unes instruccions — prompt d'adaptació parametritzat per nivell
 
 Aquest prompt s'omple amb el nivell objectiu MECR (`{{NIVELL}}`) i opcionalment amb les variables de perfil (`{{fase_lectora}}`).
 
 ## Plantilla
 
 ```
-Adapta el text font següent al gènere escriure/adaptar un text instructiu per a un alumne de nivell {{NIVELL}} ({{ETIQUETA_MALL}}).
+Adapta el text font següent al gènere escriure/adaptar unes instruccions per a un alumne de nivell {{NIVELL}} ({{ETIQUETA_MALL}}).
 
 Segueix aquests criteris (extrets de la rúbrica canònica):
 
