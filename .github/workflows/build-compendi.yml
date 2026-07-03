@@ -1,0 +1,97 @@
+name: Build compendi (PDF imprimible)
+
+# Genera compendis imprimibles (PDF) del corpus a partir d'una selecció de mòduls
+# i/o documents, i els puja a compendi/. Extracció 100% determinista (sense LLM):
+# Markdown -> HTML -> PDF amb Chromium headless (doble passada per a l'índex amb
+# números de pàgina reals) + PyMuPDF (footer paginat + marcadors PDF).
+#
+# Es dispara de dues maneres:
+#   1) workflow_dispatch  — manualment des de la pestanya Actions de GitHub.
+#   2) repository_dispatch (event_type: build-compendi) — des de Scriptorium, que
+#      envia la selecció a client_payload.spec.
+#
+# La selecció (spec) és un JSON:
+#   {"mode":"per-module"|"combined"|"per-document",
+#    "modules":["M1","M3"], "files":["M3_generes-discursius.md", ...],
+#    "title":"Nom del volum", "presets":["generes"]}
+#
+# Veure .tooling/build_compendi.py.
+
+on:
+  workflow_dispatch:
+    inputs:
+      spec:
+        description: 'Selecció JSON (mode + modules + files + title)'
+        required: true
+        default: '{"mode":"per-module","modules":["M1","M3"]}'
+  repository_dispatch:
+    types: [build-compendi]
+
+# Evita que dues generacions concurrents es trepitgin el push a compendi/.
+concurrency:
+  group: build-compendi
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install markdown pymupdf
+
+      - name: Install Chromium
+        uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
+
+      - name: Genera els compendis
+        env:
+          CHROME_BIN: ${{ steps.chrome.outputs.chrome-path }}
+          COMPENDI_SPEC: ${{ github.event.inputs.spec || toJSON(github.event.client_payload.spec) }}
+        run: python .tooling/build_compendi.py
+
+      - name: Commit dels PDFs a compendi/
+        id: commit
+        run: |
+          set -e
+          git config user.name "corpus-bot"
+          git config user.email "corpus-bot@fje.edu"
+          git add -A compendi || true
+          if git diff --staged --quiet; then
+            echo "Cap PDF nou o modificat: res a commitejar."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "docs(compendi): genera PDF(s) imprimible(s) via Action [skip ci]"
+          # Race protection: pot haver-hi un push concorrent (p.ex. build-manifest).
+          for i in 1 2 3; do
+            if git push; then
+              echo "Push correcte (intent $i)."
+              echo "changed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "Push rebutjat, rebase i reintento (intent $i)..."
+            git pull --rebase origin master
+          done
+          echo "ERROR: 3 intents fallits."
+          exit 1
+
+      - name: Resum
+        run: |
+          echo "### Compendi generat :page_facing_up:" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo '```json' >> "$GITHUB_STEP_SUMMARY"
+          echo '${{ github.event.inputs.spec || toJSON(github.event.client_payload.spec) }}' >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "PDFs disponibles a la carpeta [\`compendi/\`](../../tree/master/compendi)." >> "$GITHUB_STEP_SUMMARY"
