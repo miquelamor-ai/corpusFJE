@@ -247,8 +247,6 @@ Tres elements resulten decisius en aquest itinerari:
   - **Fonament:** el pas a equip motor amb un document d'organització i progressió de continguts i habilitats per cicles és el que converteix una pràctica en projecte de centre.
   - **Exemple de raonament:** davant una escola amb dues mestres que fan escola de bosc molt bé però sense res escrit: el següent pas no és formar més gent en pedagogia, sinó acompanyar aquestes dues persones a escriure la progressió per cicles, el mapa de riscos per zona i els protocols d'eines. Sense això, quan canviïn de curs el projecte torna a zero.
 
----
-
 ## 6. INSTRUCCIONS OPERATIVES PER A L'LLM
 
 ### Ús previst
