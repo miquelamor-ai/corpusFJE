@@ -3,8 +3,10 @@ modul: M2
 titol: "Educació en la Natura i Escola de Bosc"
 tipus: estrategia
 descripcio: "Model d'aprenentatge regular, estructurat i directe a la natura: pilars de la Forest School, currículum estacional, gestió del benefici del risc i estructura de sessió. Ancorat a la cura de la Casa Comuna (PAU D) i documentat a partir del projecte ClaverNatura (Jesuïtes Lleida)"
-review_status: esborrany
+review_status: revisat
 generat_at: 2026-09-15
+etapa: [infantil, primaria]
+idioma: ca
 paraules_clau: [educacio-natura, escola-de-bosc, forest-school, curriculum-estacional, gestio-del-risc, ecologia-integral, casa-comuna, friluftsliv, interioritat, joc-lliure]
 ---
 
@@ -18,11 +20,13 @@ El model té dues arrels que convergeixen:
 
 **1. La tradició pedagògica de les escoles a l'aire lliure.** Aristòtil ja defensava l'aprenentatge per experiència directa a l'aire lliure, i la línia continua amb Rousseau, Dewey, Pestalozzi, Froebel, Steiner i Montessori. Les primeres escoles a l'aire lliure europees són la *Waldschule* de Charlottenburg (Berlín, 1905) i la *Open Air School* de Londres (1908). La primera escola de bosc pròpiament dita és la *Udeskole* danesa creada per Ella Flautau el 1952; als anys 60 s'assenten a Alemanya com a *Waldkindergarten*, i des de 1993 hi són escoles oficials.
 
-A Catalunya el precedent és directe i propi: l'**Escola de Bosc de Montjuïc**, oberta la primavera de 1914, on **Rosa Sensat** —primera directora de la secció de nenes— va posar en pràctica els principis de l'escola activa i l'estudi del medi natural més proper a l'alumnat. El seu model es basava en dos pilars: l'harmonia entre instrucció i medi natural, i la participació de l'alumnat en el disseny de les tasques. Sensat afirmava que "la natura és l'ambient més adequat a la normal evolució del nen, assegurant el dret que aquest té a l'aire pur, a la llum del sol, a l'aigua, a l'exercici físic i a la llibertat i l'alegria" (Sensat Vilà, 1921).
+Els referents espanyols que la mateixa associació EDNA reconeix són **Francisco Giner de los Ríos** i la Institución Libre de Enseñanza ("el ideal de toda escuela es aproximarse al aire libre cuanto sea posible") i **Rosa Sensat**. A Catalunya els precedents són directes i propis: l'**Escola de Bosc de Montjuïc** i l'**Escola del Mar** de Barcelona. L'Escola de Bosc, oberta la primavera de 1914, on **Rosa Sensat** —primera directora de la secció de nenes— va posar en pràctica els principis de l'escola activa i l'estudi del medi natural més proper a l'alumnat. El 1912 Sensat havia rebut una beca per visitar escoles europees i havia quedat colpida pel model de Decroly, on els infants treballaven lliurement a la natura, recollien material, el classificaven i creaven: "una mostra evident d'esperit d'investigació i d'estudi, i de que l'ensenyança és viva i real" (Sensat Vilà, 1934). El seu model es basava en dos pilars: l'harmonia entre instrucció i medi natural, i la participació de l'alumnat en el disseny de les tasques. Sensat afirmava que "la natura és l'ambient més adequat a la normal evolució del nen, assegurant el dret que aquest té a l'aire pur, a la llum del sol, a l'aigua, a l'exercici físic i a la llibertat i l'alegria" (Sensat Vilà, 1921).
 
 **2. La cura de la Casa Comuna.** Per a una escola de la Companyia de Jesús, l'educació en la natura no és una metodologia importada sinó la concreció pedagògica de la quarta Preferència Apostòlica Universal. El P. Arturo Sosa SJ situa la cura de la Casa Comuna com a responsabilitat compartida que exigeix una **conversió ecològica**: un canvi profund en la relació amb la natura i amb els altres éssers vius, guiat per la justícia i l'equitat. *Laudato Si'* hi afegeix l'itinerari educatiu: "potser per als infants i joves l'itinerari adequat sigui fer les coses —crear hàbits— per generar canvis".
 
 La conseqüència pedagògica és l'ordre: **primer el vincle, després el compromís**. Com resumeix David Sobel, si volem que els infants es desenvolupin saludablement cal donar-los temps per connectar amb la natura i la Terra *abans* de demanar-los que la salvin. O, en la formulació del Manual ClaverNatura: "res no es pot estimar si no es coneix. I més diríem: res no es pot estimar si no es viu."
+
+Avui el moviment és ampli i, en diversos països, homologat: segons l'associació EDNA es compten unes 3.000 escoles a la natura al món; a Alemanya les *Waldkindergarten* superen el miler i a Noruega les *I Ur och Skur* passen de dues-centes. A Espanya el moviment reneix el 2011 i s'expandeix a partir del 2014, amb una trentena de centres d'aquest tipus. Peter Higgins, consultor de la UNESCO i assessor dels governs escocès i britànic, sosté en un informe de 2013 que l'aprenentatge a l'aire lliure és un eix central del sistema educatiu escocès i no un complement de l'activitat escolar: "l'aprenentatge a l'aire lliure, en un sentit ampli, ha de ser una experiència quotidiana per a tots els nens i nenes que passen pel sistema educatiu".
 
 ### Els sis pilars de la Forest School
 
@@ -64,6 +68,8 @@ La Forest School Association defineix l'escola de bosc com "un procés d'aprenen
 
 **De seguretat**
 - Formació en primers auxilis per a almenys un acompanyant, farmaciola preparada per infermeria i comunicació directa amb el centre (walkie-talkie).
+
+> **Nota de realisme.** El cinquè pilar de la Forest School demana titulació específica d'escola de bosc i primers auxilis a la natura vigents per als acompanyants. El desplegament documentat a FJE s'hi acosta de manera **progressiva**: formació plurianual amb formadora externa, modelatge de sessions i formació de primers auxilis incorporada per fases. Convé nomenar aquesta distància explícitament en el pla de centre —quin estàndard es pren com a horitzó i en quin punt del camí s'és— en lloc de donar-la per resolta.
 - **Mapa d'avaluació del benefici del risc** per emplaçament, que inclogui perills, riscos i beneficis associats.
 - **Checklist prèvia** de seguretat de l'emplaçament, a confirmar abans de cada sessió.
 - Assegurança de responsabilitat civil revisada (què cobreix i quines limitacions té).
@@ -124,6 +130,8 @@ El desplegament documentat a Jesuïtes Lleida mostra que **no s'implanta en un c
 | 2024-25 | Formació de l'**equip motor** per elaborar el document d'organització i progressió de continguts i habilitats per cicles + assessorament (2 sessions/trimestre) |
 | 2025-26 | Formació introductòria per a una etapa nova (25 h, 6 trobades) + **7 sessions de modelatge** + assessorament trimestral per estació |
 
+Els continguts que vertebren aquest itinerari són estables: la filosofia de l'escola de bosc, **la roda de l'any i el calendari estacional**, el desenvolupament infantil en entorns naturals, **el llibre de la natura (les vuit portes d'entrada a la natura)** com a eina de planificació, les **rutines centrals** de la sessió, l'avaluació i gestió de riscos, la gestió emocional ("els límits que cuiden") i el rol de l'ésser humà en una natura sana.
+
 Tres elements resulten decisius en aquest itinerari:
 - **El modelatge**: sessions de mostra conduïdes per la formadora perquè l'equip vegi i visqui a la pràctica el que treballa a la formació. "Per iniciar un nou camí pedagògic ajuda molt tenir una referència."
 - **L'assessorament per estació**: acompanyament trimestral on l'equip envia prèviament la seva planificació i els dubtes reals.
@@ -135,7 +143,7 @@ Tres elements resulten decisius en aquest itinerari:
 
 **Primària (PIN)** — Currículum estacional articulat amb els continguts de medi: a l'hivern, identificació de petjades i rastres i construcció de refugis, connectant amb els continguts d'adaptació animal. Introducció progressiva de l'ús d'eines amb el protocol DUMP i un producte que requereix diverses sessions.
 
-**Primària superior / Secundària** — Aprofundiment cap a la responsabilitat sobre l'emplaçament: inventari d'espècies per zona, valoració de l'impacte de la pròpia presència, elaboració del pla de sostenibilitat i decisions de rotació entre zones. Aquí el model enllaça directament amb la ciutadania global i amb projectes d'ApS sobre l'entorn.
+**Primària superior (5è i 6è)** — Aprofundiment cap a la responsabilitat sobre l'emplaçament: inventari d'espècies per zona, valoració de l'impacte de la pròpia presència, elaboració del pla de sostenibilitat i decisions de rotació entre zones. Aquí el model enllaça directament amb la ciutadania global i amb projectes d'ApS sobre l'entorn. *(L'extensió a Secundària és una projecció raonada d'aquest model: el desplegament documentat a FJE arriba, de moment, fins al final de Primària.)*
 
 ## Indicadors d'èxit
 
@@ -181,24 +189,29 @@ Tres elements resulten decisius en aquest itinerari:
 - Vol donar contingut real a la línia de sostenibilitat i no sap com passar de la campanya al procés.
 - Mostra inquietud per la seguretat i per la responsabilitat davant les famílies si surten al bosc.
 - Detecta dificultats d'autoregulació i de vincle de grup que no milloren amb intervencions d'aula.
+- Fa sortides a la natura per iniciativa pròpia però no sap com enllaçar-les amb el currículum ni com reprendre-les a l'aula.
+- Pregunta què s'hi fa, al bosc, quan plou o fa fred, i si això obliga a suspendre la sessió.
 
 ### Senyals de l'alumne
 - Mostra curiositat per elements naturals i vol conservar-los, classificar-los o saber-ne el nom.
 - Es regula millor i mostra un joc més ric quan té entorn obert i no estructurat.
 - Manifesta preocupació pel medi ambient però de manera abstracta, sense experiència directa que hi doni cos.
 - Demostra aprensió o desconeixement davant elements bàsics de l'entorn (insectes, fang, pluja).
+- Reclama instruccions constants quan no hi ha material predeterminat, i li costa iniciar joc propi.
 
 ### Senyals de context
 - El centre disposa d'entorn natural propi o accessible i l'utilitza poc o de manera no estructurada.
 - El projecte educatiu recull la cura de la Casa Comuna però es concreta en activitats puntuals.
 - Hi ha un grup de docents que ja fa sortides per iniciativa pròpia, sense marc compartit.
 - Es plantegen reformes de pati o naturalització d'espais.
+- L'horari està tan fragmentat que cap grup té una franja de tres hores seguides disponible.
 
 ### Anti-senyals
 - No hi ha entorn natural accessible amb regularitat setmanal ni possibilitat de desplaçament sostenible.
 - L'equip no pot garantir dos adults per grup ni formació en primers auxilis.
 - Es busca una activitat puntual d'impacte per a un dia assenyalat, no un procés.
 - La direcció no pot blindar la franja horària al calendari.
+- Es demana el model com a resposta immediata a un conflicte de convivència concret: els efectes documentats són de procés llarg, no d'intervenció puntual.
 
 ### Heurístiques
 
@@ -224,10 +237,73 @@ Tres elements resulten decisius en aquest itinerari:
   - **Fonament:** sense el pas de reflexió, l'experiència no esdevé aprenentatge — és el mateix principi del PPI i el mateix error que l'activisme sense discerniment. La fase d'agraïment connecta, a més, amb l'examen diari ignasià.
   - **Exemple de raonament:** davant un equip que arriba just d'horari i suprimeix el cercle final: millor escurçar l'exploració lliure deu minuts que suprimir el tancament. El cercle final és on l'infant posa paraula al que ha viscut, on l'equip recull què ha passat de debò per planificar la sessió següent, i on la vivència es connecta amb el sentit.
 
+- **Heurística: Cancel·la per criteri, no per incomoditat.**
+  - **Quan aplica:** quan el mal temps posa en dubte la sessió i la decisió es pren cada setmana sobre la marxa.
+  - **Fonament:** el model demana un protocol escrit de condicions climàtiques adverses —amb criteris objectius, com l'escala de vent— i una programació alternativa d'interior. Sense protocol, la decisió depèn de l'ànim de l'adult i la regularitat, que és el primer pilar, s'erosiona sola.
+  - **Exemple de raonament:** davant un equip que suspèn quan plovisqueja: la pregunta no és si plou, sinó si les condicions són segures i si l'alumnat va equipat. Amb equip de pluja i roba de muda a l'aula, un matí plujós és una de les sessions més riques de l'any —bassals, rastres, olors, refugi—; amb vent fort i branques que es mouen, en canvi, la decisió és clara i no cal deliberar. El que fa sostenible el projecte és que aquest llindar estigui escrit abans, no discutit cada dimarts al matí.
+
 - **Heurística: Documenta la progressió o el projecte desapareix.**
   - **Quan aplica:** quan el projecte funciona gràcies a l'empenta d'una o dues persones.
   - **Fonament:** el pas a equip motor amb un document d'organització i progressió de continguts i habilitats per cicles és el que converteix una pràctica en projecte de centre.
   - **Exemple de raonament:** davant una escola amb dues mestres que fan escola de bosc molt bé però sense res escrit: el següent pas no és formar més gent en pedagogia, sinó acompanyar aquestes dues persones a escriure la progressió per cicles, el mapa de riscos per zona i els protocols d'eines. Sense això, quan canviïn de curs el projecte torna a zero.
+
+---
+
+## 6. INSTRUCCIONS OPERATIVES PER A L'LLM
+
+### Ús previst
+
+Aquest bloc s'activa quan es demana **dissenyar, revisar o enriquir una sessió d'educació en la natura, una planificació estacional o un pla de desplegament de centre**. No és una capa d'adaptació textual: no transforma textos, sinó que produeix o revisa planificació pedagògica.
+
+### Dades que cal demanar abans de generar
+
+| Variable | Per què és necessària |
+|---|---|
+| Etapa i curs | Determina el nivell de progressió d'eines, d'autonomia i de responsabilitat sobre l'entorn |
+| Emplaçament disponible i zones | Sense zona concreta no hi ha ni mapa de riscos ni propostes reals |
+| Estació de l'any | El currículum estacional és el fil conductor, no un decorat |
+| Periodicitat i durada reals | Distingeix un procés d'escola de bosc d'una sortida |
+| Nombre d'acompanyants i formació | Condiciona què és assumible amb seguretat |
+| Contingut curricular que s'hi vol enllaçar | Evita el bosc com a activitat paral·lela al currículum |
+
+Si falta alguna d'aquestes dades, cal demanar-la abans de generar; no s'inventa.
+
+### Regles crítiques (FER)
+
+1. **Estructurar sempre la sessió en les set fases** (cercle de benvinguda · desplaçament i indicacions · despertem l'entusiasme · esmorzar · explorem la natura · vivim una experiència directa · reflexions i agraïments), amb el previ i el després.
+2. **Tancar sempre amb reflexió i agraïment**, amb la lectura ignasiana d'examen diari quan el context FJE ho fa pertinent.
+3. **Ancorar la proposta a l'estació** i, quan s'indiqui, al contingut curricular declarat.
+4. **Explicitar l'avaluació de benefici del risc** de cada activitat que ho requereixi (eines, foc, cordes, cabanes, enfilar-se), no només els perills.
+5. **Aplicar el protocol DUMP** sencer sempre que aparegui una eina, i respectar-ne la progressió (pelador → navalla → ganivet).
+6. **Deixar espai no programat**: l'exploració lliure i el joc són fases del model, no farciment; les propostes es formulen com a possibilitats, no com a guió tancat.
+7. **Tancar la retroalimentació bosc–aula**: indicar què es reprèn a l'aula els dies següents.
+8. **Recordar el mínim de dos adults per grup** i la rotació entre zones quan es planifiquin diverses sessions.
+
+### Contraindicacions (NO FER)
+
+- No generar activitats que es podrien fer igual dins l'aula: si la proposta no necessita l'entorn viu, no és escola de bosc.
+- No proposar una sortida única o puntual com si fos el model; si la demanda és aquesta, dir-ho i oferir com convertir-la en procés.
+- No eliminar el risc per prudència: gestionar-lo amb criteris, acompanyament i llindars d'autoregulació explícits.
+- No inventar espècies, zones, rutes ni dades de l'emplaçament del centre.
+- No atribuir a FJE pràctiques documentades només en altres models; el que és estàndard de la Forest School i el que és desplegament real del centre es marquen per separat.
+- No començar la sensibilització ambiental per la crisi o per la culpa: primer el vincle, després el compromís.
+- No suprimir el cercle final per manca de temps: escurçar abans qualsevol altra fase.
+
+### Format de sortida per a una sessió
+
+```
+Curs · Estació · Zona · Durada
+1. Cercle de benvinguda — [proposta]
+2. Desplaçament i indicacions — [límits, zones de risc, material, lavabo]
+3. Despertem l'entusiasme — [joc motriu / pregunta detonant]
+4. Esmorzar
+5. Explorem la natura — [focus sensorial obert]
+6. Experiència directa — [activitat central + enllaç curricular]
+7. Reflexions i agraïments — [pregunta de tancament]
+Material: infant / grup / adult
+Benefici del risc: [perill → mesura → benefici que es preserva]
+Retorn a l'aula: [què s'endreça al racó de bosc i què s'hi investiga]
+```
 
 ---
 
@@ -247,3 +323,9 @@ Tres elements resulten decisius en aquest itinerari:
 - Castellana, M. Formació en escola de bosc (Forest School Association, 2018); formadora de l'equip de ClaverNatura. https://mariacastellana.com/
 - Departament de Salut, Generalitat de Catalunya (Canal Salut). Beneficis del contacte regular amb la natura.
 - Higgins, P. (2013). Informes sobre l'aprenentatge a l'aire lliure al sistema educatiu escocès. University of Edinburgh.
+- Sobel, D. Principi de vincle previ al compromís en educació ambiental (citat al *Manual ClaverNatura*).
+- Renz-Polster, H. i Hüther, G. La natura com a entorn a mida per al desenvolupament infantil (citats per l'associació SILVIVA).
+- Freire, H. Educació i desenvolupament humà en contacte amb la natura (citada al *Manual ClaverNatura*).
+- Giner de los Ríos, F. — Institución Libre de Enseñanza. Referent d'escola a l'aire lliure reconegut per EDNA.
+- Castellana, M. Propostes de formació, modelatge i assessorament d'escola de bosc per al Col·legi Claver (cursos 2022 a 2025-26). Documents interns no publicats.
+- Escola de Bosc del Montseny · La Ginesta. Referents pràctics de la formació rebuda per l'equip.
