@@ -140,7 +140,7 @@ La competència de formular instruccions a la IA segueix una progressió:
 
 5. FASE 3 — SENSE IA (Síntesi i metacognició)
    - Què fa l'alumnat amb el resultat de la IA
-   - On resideix la propietat cognitiva (McCrea)
+   - On resideix la propietat cognitiva (Mccrea)
    - Documentació del procés: diari reflexiu, log de prompts, comparació abans/després
    - Verificació: càrrega externalitzada = extrínseca (no germana)
 

@@ -108,10 +108,10 @@ En tots aquests casos, **el docent es manté com a autor i com a filtre crític*
 
 **Docent dins l'aula a PRI-2 (zona de debat).** El mapa marca aquí "Parcial". És el moment en què cal una conversa explícita d'equip: pot el docent usar la IA en directe davant l'alumnat? En quines condicions? Per què sí, per què no? Riscos a anticipar:
 
-- **Erosió del criteri pedagògic** (paradoxa del rendiment aplicada al docent): qui delega sistemàticament la planificació a la IA pot perdre, sense adonar-se'n, la capacitat de prendre decisions de disseny amb criteri propi. Macnamara et al. (2024) ho documenten en altres àmbits experts; el mecanisme és transversal.
+- **Erosió del criteri pedagògic** (paradoxa del rendiment aplicada al docent): qui delega sistemàticament la planificació a la IA pot perdre, sense adonar-se'n, la capacitat de prendre decisions de disseny amb criteri propi. En altres àmbits experts ja se n'han vist els primers indicis (Casner et al., 2014; Budzyń et al., 2025; Macnamara et al., 2024); el mecanisme és transversal.
 - **Factualitat**: la IA generativa pot produir errors històrics, geogràfics, o sobre el territori catalanoparlant. A aquesta edat, l'autoritat docent fa que l'error es fixi.
 - **Estètica homogènia**: la imatgeria generativa té un estil reconeixible que tendeix a colonitzar el material visual. Un aula on totes les imatges semblen sortides del mateix sistema empobreix la diversitat estètica que els nens necessiten.
-- **Biaixos**: els sistemes reprodueixen biaixos de gènere, raça, cos i diversitat funcional (Hundt et al., 2026, citat al marc). Material generat sense filtre crític pot reforçar-los.
+- **Biaixos**: els sistemes reprodueixen biaixos de gènere, raça, cos i diversitat funcional (Alon et al., 2026, citat al marc). Material generat sense filtre crític pot reforçar-los.
 - **Llengua catalana**: la qualitat de la generació en català varia molt segons el sistema. Hi ha riscos d'introduir calcs, estructures forçades o lèxic empobrit. A una etapa on el català es consolida, això no és menor.
 
 L'orientació institucional és clara: ús docent fora de l'aula amb criteri (N2/N3 supervisat), i a PRI-2 **debat d'equip explícit** abans de qualsevol ús dins l'aula.
@@ -181,12 +181,12 @@ Les fonts següents són les ja citades al Marc General. Es recullen aquí com a
 - **Sweller, J. (2011).** Teoria de la càrrega cognitiva. Distinció entre càrrega extrínseca, intrínseca i germana. Referenciat al §Fonament Cognitiu del marc.
 - **Dehaene, S.** Treball sobre el desenvolupament cognitiu, l'aprenentatge de la lectura i la consolidació de circuits neurals en finestres sensibles.
 - **Common Sense Media.** Informes anuals sobre consum mediàtic i d'IA en menors. Referència sobre presència estructural d'assistents i de contingut generat al consum infantil.
-- **Macnamara, B. et al. (2024).** Decadència d'habilitats induïda per la IA en professionals experts (aviació, medicina, cirurgia). Referenciat al §Fonament Cognitiu.
+- **Casner et al. (2014); Budzyń et al. (2025); Macnamara et al. (2024).** Erosió d'habilitats expertes amb l'automatització (aviació) i primers indicis amb la IA (colonoscòpia; revisió en radiologia i cirurgia). Referenciat al §Fonament Cognitiu.
 - **Bastani, H. et al. (2025).** Estudi randomitzat sobre l'impacte de la IA amb i sense disseny pedagògic en l'aprenentatge. Referenciat al §Fonament Cognitiu.
-- **Yan, L. et al. (2025).** Formulació de la paradoxa del rendiment: millora immediata vs. erosió de la competència durable. Referenciat al §Fonament Cognitiu.
+- **Yan, L. et al. (2024).** Formulació de la paradoxa del rendiment: millora immediata vs. erosió de la competència durable. Referenciat al §Fonament Cognitiu.
 - **Shaw i Nave (2026).** Sistema 3 i rendició cognitiva (*cognitive surrender*). N = 1.372. Referenciat al §Fonament Cognitiu.
-- **Hundt et al. (2026).** Biaixos en eines generatives de text i imatge. Referenciat al §Marc de Reflexió Crítica i Ètica.
-- **Dakan i Feller (2026).** Marc de Fluïdesa en IA (*AI Fluency*) i Model 4D. Base operativa del marc.
+- **Alon, Hadar Shoval i Levkovich (2026).** Biaixos i representació en la generació d'imatges amb IA en educació (revisió sistemàtica). Referenciat al §Marc de Reflexió Crítica i Ètica.
+- **Dakan i Feller (2025).** Marc de Fluïdesa en IA (*AI Fluency*) i Model 4D. Base operativa del marc.
 
 ---
 

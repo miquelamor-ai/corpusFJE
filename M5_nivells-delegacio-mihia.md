@@ -18,7 +18,7 @@ El catàleg és consumit per docents que dissenyen activitats, equips que define
 
 ## Criteris d'inclusió
 
-L'escala MIHIA és una adaptació institucional de Jesuïtes Educació a partir del Marc General sobre la Integració de la IA (MAGINIA, 2026), que al seu torn recull el *AI Fluency Framework* de Dakan i Feller (2026) i el mapa de delegació del Model 4D.
+L'escala MIHIA és una adaptació institucional de Jesuïtes Educació a partir del Marc General sobre la Integració de la IA (MAGINIA, 2026), que al seu torn recull el *AI Fluency Framework* de Dakan i Feller (2025) i el mapa de delegació del Model 4D.
 
 **Criteris de manteniment del catàleg:**
 - S'inclou un nivell si defineix un **perfil de delegació diferenciable** que no es redueix a un altre nivell de l'escala.
@@ -46,7 +46,7 @@ L'escala MIHIA és una adaptació institucional de Jesuïtes Educació a partir 
 **Resum (1 línia):** L'alumne utilitza la IA com a font d'informació, aclariment de dubtes o mirall d'idees; no es genera cap artefacte final.
 **Quan aplica:** Ampliació del coneixement, pràctica del pensament crític, primers contactes supervisats amb la IA, familiarització amb com funciona un model de llenguatge.
 **Característiques:** Fricció alta. 4D principals: D2 (formular preguntes clares) + D3 (avaluar respostes). L'alumne transforma informació en raonament propi. Risc baix: pot consumir passivament si no hi ha una tasca activa que el forci a processar.
-**Exemple:** Primària Superior (guiat) — l'alumne pregunta a la IA sobre el cicle de l'aigua i contrasta la resposta amb el que ha observat en un experiment, identificant diferències.
+**Exemple:** Tercer cicle de Primària (guiat) — l'alumne pregunta a la IA sobre el cicle de l'aigua i contrasta la resposta amb el que ha observat en un experiment, identificant diferències.
 **Conflictes/incompatibilitats:** Si l'alumne copia les respostes sense processar, l'activitat ha degenerat a consum passiu. Cal dissenyar una tasca de producció posterior que forci la transformació de la informació.
 
 ---
@@ -104,13 +104,14 @@ L'escala MIHIA és una adaptació institucional de Jesuïtes Educació a partir 
 | Etapa | Sostre MIHIA | Nivells predominants |
 |---|---|---|
 | Infantil (I3-I5) | N0 | N0 — manipulació, sensorialitat, joc |
-| Primària Inicial (PRI-CI) | N0–N1 | N0 — introducció conceptual: què és la IA |
-| Primària Superior (PRI-CS) | N0–N1 | N0–N1 — exploració guiada i supervisada |
-| ESO 1r cicle (12–14) | N0–N2 | N0–N2 — suport i reacció, fricció alta |
-| ESO 2n cicle (14–16) | N0–N3 | N1–N3 — cocreació, iteració amb IA |
+| Primària, 1r i 2n cicle (PRI-1, PRI-2) | N0 | N0 — l'alumnat no usa la IA; el docent la pot usar fora de l'aula (a PRI-2 s'obre el debat sobre l'ús docent dins l'aula) |
+| Tercer cicle de Primària (PRI-3) | N0–N1 | N0–N1 — exploració guiada i supervisada |
+| ESO-1 | N0–N2 | N0–N2 — suport i revisió, fricció alta |
+| ESO-2 | N0–N3 | N1–N2; N3 pot aparèixer cap al final del curs (accés guiat) |
+| ESO-3 i ESO-4 | N0–N3 | N1–N3 — cocreació, transició d'accés guiat a autònom |
 | Batxillerat (16–18) | N0–N4 | N1–N4 — delegació supervisada |
-| FP Grau Mitjà | N0–N4 | N1–N4 — contextual al mòdul professional |
-| FP Grau Superior | N0–N5 | N2–N5 — inclou disseny d'agents |
+| FP Grau Mitjà | N0–N3 | N1–N3 — contextual al mòdul professional |
+| FP Grau Superior | N0–N4 | N2–N4 — N5 (disseny d'agents) només en casos especials de cicles vinculats a la IA |
 
 **El sostre és un màxim, no un objectiu.** Un alumne de batxillerat pot (i sovint ha de) treballar a N2.
 

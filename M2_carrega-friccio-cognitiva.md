@@ -18,11 +18,11 @@ El marc de la càrrega cognitiva i la fricció productiva és un model cognitiu 
 
 ### 1. La tensió central
 
-La IA pot millorar el rendiment immediat en una tasca i, alhora, socavar l'aprenentatge durable. Aquest fenomen s'anomena **paradoxa del rendiment** (Yan et al., 2025; Bastani et al., 2025) i és la troballa empírica més sòlida de la recerca sobre IA i aprenentatge.
+La IA pot millorar el rendiment immediat en una tasca i, alhora, socavar l'aprenentatge durable. Aquest fenomen s'anomena **paradoxa del rendiment** (Yan et al., 2024; Bastani et al., 2025) i és la troballa empírica més sòlida de la recerca sobre IA i aprenentatge.
 
 La resposta no és prohibir ni acceptar acríticament, sinó dissenyar activitats i assistents que **preservin la càrrega cognitiva que genera aprenentatge** i que **externalitzin únicament la que no hi aporta valor**.
 
-> Com ha formulat Paul McCrea: *qui fa el pensament, s'emporta l'aprenentatge* (*cognitive ownership*).
+> Com ha formulat Peps Mccrea: *qui fa el pensament, s'emporta l'aprenentatge* (*cognitive ownership*).
 
 Les decisions sobre la IA en l'aprenentatge no són tecnològiques, sinó **pedagògiques** sobre qui fa la feina cognitiva.
 
@@ -101,6 +101,8 @@ La **rendició cognitiva** és el fenomen pel qual l'usuari adopta els outputs d
 
 #### 3.4. Decadència d'habilitats (Macnamara et al., 2024)
 
+Macnamara et al. (2024) formulen el risc a partir de la radiologia i la cirurgia robòtica; l'evidència empírica prové de l'aviació (Casner et al., 2014) i, amb IA, dels primers estudis observacionals en colonoscòpia (Budzyń et al., 2025).
+
 Dos fenòmens diferenciats:
 
 - **Skill decay** (en experts): l'ús continuat d'IA que fa part del treball cognitiu provoca decadència de les habilitats pròpies.
@@ -155,7 +157,7 @@ Generar una resposta activament produeix millor retenció que rebre-la passivame
 
 > Qualsevol disseny d'activitat amb IA ha de preservar un moment de generació per part de l'alumne.
 
-#### 4.4. Propietat cognitiva (McCrea, 2025)
+#### 4.4. Propietat cognitiva (Mccrea, 2025)
 
 > «Whoever does the thinking gets the learning.»
 
@@ -302,7 +304,7 @@ PRINCIPIS DE DISSENY
   Dificultats Desitjables (Bjork) + S2D2
   Fracàs Productiu (Kapur)
   Efecte Generació
-  Propietat Cognitiva (McCrea)
+  Propietat Cognitiva (Mccrea)
                     ↓
 EINES DE DISSENY
   Fricció Productiva (3 moviments + 3 fallades)
@@ -343,15 +345,17 @@ Activar aquest document quan:
 
 ## 5. Fonts
 
-- Yan et al. (2025) — Paradoxa del rendiment: IA i aprenentatge durable
-- Bastani et al. (2025) — Evidència empírica de la paradoxa del rendiment
+- Yan, L. et al. (2024) — Practical and ethical challenges of large language models in education (BJET, 55(1))
+- Bastani, H. et al. (2025) — Evidència empírica de la paradoxa del rendiment (PNAS, 122(26))
 - Sweller, J. → Kalyuga, S. & Plass, J. L. (2025) — Teoria de la càrrega cognitiva (CLT)
 - Chi, M. T. H. & Wylie, R. (2014) — Marc ICAP: modes d'implicació cognitiva
 - Zimmerman, B. — Aprenentatge autoregulat (SRL)
 - Lodge, J. M. & Loble, M. (2026) — Descàrrega cognitiva beneficiosa vs. detrimental
-- Shaw, G. & Nave, E. (2026) — Sistema 3 i rendició cognitiva (N=1.372)
+- Shaw, S. D. & Nave, G. (2026) — Sistema 3 i rendició cognitiva (N=1.372) [Preprint SSRN]
 - Messeri, N. & Crockett, M. J. (2024) — Les tres il·lusions cognitives amb IA
-- Macnamara, B. N. et al. (2024) — Decadència d'habilitats induïda per IA
+- Macnamara, B. N. et al. (2024) — Decadència d'habilitats i IA (Cognitive Research: Principles and Implications, 9, 46)
+- Casner, S. M. et al. (2014) — Retenció d'habilitats de pilotatge manual amb automatització (Human Factors)
+- Budzyń, K. et al. (2025) — Desqualificació d'endoscopistes després de l'exposició a IA (Lancet Gastroenterol. Hepatol.)
 - Parasuraman, R. & Manzey, D. (2010) — Crossover point (70% d'encert)
 - Fan, Y. et al. (2024) — Mandra metacognitiva (*metacognitive laziness*)
 - Lodge, J. M. (2023) — Il·lusió de competència amb IA
@@ -360,7 +364,7 @@ Activar aquest document quan:
 - de Bruin, A. B. H. et al. (2023) — S2D2: Start and Stick to Desirable Difficulties
 - Kapur, M. (2008+); Sinha, T. & Kapur, M. (2021) — Fracàs productiu (metaanàlisi 160 estudis)
 - Slamecka, N. J. & Graf, P. (1978); Duplice, J. (2025) — Efecte generació
-- McCrea, P. (2025) — Propietat cognitiva (*cognitive ownership*)
+- Mccrea, P. (2025) — *Cognitive outsourcing* (Evidence Snacks): «qui fa el pensament, s'emporta l'aprenentatge»
 - Novokshanova, E. (2025) — Fricció productiva: 3 moviments i 3 modes de fallada
 - Croskerry, P. (2003); Buçinca, Z., Malaya, M. B. & Gajos, K. Z. (2021) — Funcions de forçat cognitiu (CFF)
 - Martin, F. et al. (2025) — Load Reduction Instruction (LRI)

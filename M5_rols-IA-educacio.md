@@ -84,7 +84,7 @@ Els rols s'organitzen en **tres famílies** segons el rang de delegació MIHIA o
 **Resum (1 línia):** La IA simula ser un "alumne" que aprèn: l'alumne li explica conceptes, la IA simula malentesos, l'alumne detecta els seus propis buits.
 **Quan aplica:** Consolidació d'aprenentatge, autoavaluació, comprensió conceptual profunda — especialment ciències i tècnica.
 **Característiques:** Família A (procesual). Indueix Descoberta ★★ i Resistència ★★. El mecanisme *learning by teaching* és molt efectiu: ensenyar obliga a estructurar i a detectar llacunes que la simple lectura amaga.
-**Exemple:** Primària Superior (guiat, N1) — l'alumne explica el cicle de l'aigua a la IA-alumne; la IA pregunta "però llavors on va l'aigua quan s'evapora?", forçant l'alumne a aprofundir.
+**Exemple:** Tercer cicle de Primària (guiat, N1) — l'alumne explica el cicle de l'aigua a la IA-alumne; la IA pregunta "però llavors on va l'aigua quan s'evapora?", forçant l'alumne a aprofundir.
 **Conflictes/incompatibilitats:** Col·lapsa a N4. Requereix un disseny de prompt acurat perquè la IA mantingui el rol d'"alumne confós" sense derrapar cap a "professor que explica".
 
 ---
@@ -136,8 +136,8 @@ Els rols s'organitzen en **tres famílies** segons el rang de delegació MIHIA o
 | ESO 1r cicle (12–14) | N0–N2 | Mentor Socràtic, Teachable Agent, Crític |
 | ESO 2n cicle (14–16) | N1–N3 | Tots, èmfasi en Crític i Simulador |
 | Batxillerat (16–18) | N1–N4 | Contrincant, Generador de Casos, Cocreació |
-| FP Grau Mitjà | N1–N4 contextual | Simulador, Adaptador, Generador (cas tècnic) |
-| FP Grau Superior | N2–N5 | Tots, incloent disseny d'agents (N5) |
+| FP Grau Mitjà | N1–N3 contextual | Simulador, Adaptador, Generador (cas tècnic) |
+| FP Grau Superior | N2–N4 | Tots; disseny d'agents (N5) només en casos especials de cicles vinculats a la IA |
 
 ## Relació amb altres catàlegs
 

@@ -51,15 +51,15 @@ La irrupció de la IA no planteja respostes tancades; és una invitació a un pr
 
 **Profunditat cognitiva: Fricció productiva vs. Eficiència.** Davant la temptació de la resposta fàcil, defensem el valor de la *dificultat desitjable* que fomenta l'esforç i el pensament. L'aprenentatge profund requereix fricció cognitiva (esforç, dubte, temps), però la nostra acció educativa se centra a garantir que aquesta fricció sigui *productiva*. La IA ha de servir per plantejar reptes més complexos i acompanyar l'alumne a travessar la dificultat amb ajut, sense eludir-la.
 
-**Vincles i presència: Economia de l'atenció vs. Acompanyament.** Davant una economia de l'atenció que fragmenta la presència, proposem una *economia de la intenció* i un acompanyament docent que utilitzi la IA per personalitzar la proposta educativa. L'acompanyament humà és insustituïble allà on intervenen l'empatia i l'apoderament, el vincle emocional i la confiança relacional. És en l'encontre personal on es juga la *cura personalis* i el creixement integral de l'alumnat.
+**Vincles i presència: Economia de l'atenció vs. Acompanyament.** Davant una economia de l'atenció que fragmenta la presència, proposem una *economia de la intenció* i un acompanyament docent que utilitzi la IA per personalitzar la proposta educativa. L'acompanyament humà és insubstituïble allà on intervenen l'empatia i l'apoderament, el vincle emocional i la confiança relacional. És en l'encontre personal on es juga la *cura personalis* i el creixement integral de l'alumnat.
 
 **Justícia i equitat: Justícia algorítmica i biaixos.** La IA no és neutra —ni en text ni en imatge, on les eines generatives reprodueixen biaixos de gènere, raça, cos i diversitat funcional. Ens comprometem a una auditoria social i ètica que identifiqui biaixos i promogui la *justícia algorítmica*, assegurant que l'ús de la IA a les nostres escoles no perpetuï desigualtats sinó que esdevingui una eina d'inclusió.
 
-**Integritat intel·lectual: Plausibilitat vs. Realisme.** La IA generativa opera en el domini de la versemblança estadística, creant respostes plausibles però no necessàriament veraces. En un món amenaçat per la desinformació i les al·lucinacions algorítmiques, el nostre repte és rebutjar la passivitat intel·lectual i formar persones que entenguin que la IA és un motor de probabilitats, no un oracle de la veritat.
+**Integritat intel·lectual: Versemblança vs. Veracitat.** La IA generativa opera en el domini de la versemblança estadística, creant respostes versemblants però no necessàriament veraces. En un món amenaçat per la desinformació i les al·lucinacions algorítmiques, el nostre repte és rebutjar la passivitat intel·lectual i formar persones que entenguin que la IA és un motor de probabilitats, no un oracle de la veritat.
 
 ## Model operatiu
 
-Per habitar les tensions sense perdre el rumb, adoptem el marc de la **Fluïdesa en IA** (*AI Fluency*) de Dakan i Feller (2026), estructurat en quatre dimensions recursives que denominemModel 4D. No és una llista de competències tècniques sinó una competència sòcio-tècnica basada en el judici crític i la responsabilitat ètica. Les 4D s'exerceixen en **cascada** a tres nivells: la **institució** estableix el marc i les eines; el **docent** dissenya les activitats i modela l'ús responsable; l'**alumnat** opera dins l'espai preparat per la institució i el docent.
+Per habitar les tensions sense perdre el rumb, adoptem el marc de la **Fluïdesa en IA** (*AI Fluency*) de Dakan i Feller (2025), estructurat en quatre dimensions recursives que denominemModel 4D. No és una llista de competències tècniques sinó una competència sòcio-tècnica basada en el judici crític i la responsabilitat ètica. Les 4D s'exerceixen en **cascada** a tres nivells: la **institució** estableix el marc i les eines; el **docent** dissenya les activitats i modela l'ús responsable; l'**alumnat** opera dins l'espai preparat per la institució i el docent.
 
 **D1 · Delegació** — La funció executiva i estratègica de distribuir la càrrega cognitiva entre l'agent humà i l'artificial. No és una simple assignació de tasques: comença amb la pregunta *per a què?* Aquesta pregunta orienta tres sub-dimensions: consciència del problema (entendre els objectius del treball), consciència de la plataforma (conèixer les capacitats i limitacions de l'eina triada), i delegació de tasques (distribuir el treball aprofitant les fortaleses úniques de cadascú per automatització, augmentació o agència). En la nostra tradició, delegar amb sentit és delegar des del *Magis*: buscar el major bé, la major profunditat, el major servei.
 
@@ -80,7 +80,7 @@ Per habitar les tensions sense perdre el rumb, adoptem el marc de la **Fluïdesa
 | N4 | Delegació supervisada | Arquitecte (prompting) i validador crític final | Genera el producte complet sota directrius precises |
 | N5 | Agència autònoma | Dissenyador del sistema i supervisor estratègic | Gestiona autònomament dins un marc i paràmetres definits |
 
-**Mapa pedagògic per etapes.** El mapa de delegació pedagògica per etapes estableix quins graus apliquen a l'alumnat en cada moment formatiu: Infantil i Primària Inicial treballen en N0; Primària Superior inicia el contacte guiat en N1; ESO progressa de N2 (1r) fins a N3 (3r–4t); Batxillerat i FP operen majoritàriament en N4. El mapa és una visió de consens inicial, no prescriptiva, que caldrà revisar periòdicament.
+**Mapa pedagògic per etapes.** El mapa de delegació pedagògica per etapes estableix quins graus apliquen a l'alumnat en cada moment formatiu: Infantil i primer i segon cicle de Primària treballen en N0; el Tercer cicle de Primària inicia el contacte guiat en N1; l'ESO progressa de N2 (1r) a N3, que pot aparèixer cap al final d'ESO-2 i es consolida a 3r–4t; Batxillerat i FP de grau superior operen majoritàriament en N4, i FP de grau mitjà fins a N3. L'agència autònoma (N5) queda reservada a casos especials de cicles d'FP vinculats a la IA. El mapa és una visió de consens inicial, no prescriptiva, que caldrà revisar periòdicament.
 
 **Criteris d'aplicació.** Per al bon ús del mapa, cinc criteris orienten el discerniment pedagògic: (1) l'objectiu d'aprenentatge com a brúixola (la pregunta és "l'ús de la IA serveix l'objectiu que persegueixo?"); (2) optimitzar, no maximitzar (usar la IA quan suposa un guany real en qualitat o en possibilitats augmentades); (3) personalització: l'alumne i el moment, sempre (el context ho determina tot); (4) responsabilitat de modelatge (si no som nosaltres els qui oferim exemples d'ús adequat, potser ningú no ho farà); i (5) gradualitat i revisió permanent (el mapa és un document viu).
 
@@ -141,11 +141,11 @@ Les orientacions es concreten en dues capes: quatre criteris compartits per toth
 - UNESCO (2025) — *Guia d'IA i Educació*. Paris: UNESCO.
 - OCDE (2026) — *Informe sobre ús de la IA en aprenentatge*. Paris: OCDE.
 - Bastani et al. (2025) — Estudi randomitzat (N≈1.000 alumnes) sobre la paradoxa del rendiment de la IA generativa sense disseny pedagògic.
-- Dakan i Feller (2026) — *AI Fluency Framework* (Model 4D: Delegation, Description, Discernment, Diligence).
+- Dakan i Feller (2025) — *AI Fluency Framework* (Model 4D: Delegation, Description, Discernment, Diligence).
 - Shaw i Nave (2026) — *Sistema 3 i rendició cognitiva* (N=1.372). Extensió empírica del procés dual de Kahneman.
-- Macnamara et al. (2024) — Decadència d'habilitats induïda per IA en professionals experts (aviació, medicina, cirurgia).
+- Casner et al. (2014); Budzyń et al. (2025); Macnamara et al. (2024) — Erosió d'habilitats expertes amb l'automatització i primers indicis amb la IA.
 - Sweller (2011) — Teoria de la càrrega cognitiva (càrrega extrínseca, intrínseca i germana).
-- Gaević i Yan (2026) — Reorientació del focus de la IA: dels productes als processos centrats en la persona.
+- Gašević i Yan (2026) — Reorientació del focus de la IA: dels productes als processos centrats en la persona.
 - Vendrell i Johnston (2026) — Estructura temporal en tres fases per preservar la fricció productiva en activitats amb IA.
 - Govern d'Espanya (2024) — *Estratègia Espanyola d'Intel·ligència Artificial*.
 - Wiggins i McTighe (2005) — *Understanding by Design* (backward design aplicat a l'avaluació amb IA).
