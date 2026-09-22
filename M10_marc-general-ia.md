@@ -20,7 +20,7 @@ L'arribada de la Intel·ligència Artificial s'emmarca en un procés de transfor
 
 En aquest context, la xarxa d'escoles de Jesuïtes Educació a Catalunya assumeix el compromís d'habitar l'ecosistema digital amb una mirada humanitzadora i cristiana. La clau de volta no és la tecnologia en si, sinó el sentit que li donem. Tal com assenyala la recent carta apostòlica del Papa León XIV (2025), hem de vetllar perquè la màquina no substitueixi l'essència de l'acte educatiu: «Cap algoritme podrà substituir el que fa humana l'educació: la poesia, la ironia, l'amor, l'art, la imaginació, l'alegria de la descoberta i fins i tot l'educació en l'error com a oportunitat de creixement» (n. 9.2). En aquesta mateixa línia, l'Estratègia Espanyola d'Intel·ligència Artificial (Govern d'Espanya, 2024\) subratlla que el desplegament de la IA s'ha d'afrontar garantint «la transparència, la seguretat i la inclusió social», amb una aposta per una «transformació digital justa i equitativa que impulsi el benestar econòmic i social del país».
 
-Així, la integració de la IA a les nostres aules s'ha de viure no com una adaptació passiva, sinó com una oportunitat per «renovar la nostra tradició viva en l'educació, com un exercici continu de discerniment» (Sosa, 2019, p. 5). L'objectiu no és simplement preparar els estudiants per adaptar-se a la tecnologia, sinó dotar-los dels «valors, els coneixements i les habilitats necessaris per a l'ús eficaç i la cocreació activa de la IA» (UNESCO, 2025, p. 12). Ara bé, com adverteix l'OCDE, aquesta integració no pot ser espontània ni acrítica: «les eines d'IA s'han d'emprar dins de situacions d'aprenentatge dissenyades intencionalment pels docents per assolir objectius d'aprenentatge específics» (OCDE, 2026, p. 31). En última instància, com recorden Gašević i Yan (2026), el repte és «reorientar la nostra mirada: dels productes generats per la IA als processos centrats en la persona, garantint que les eines d'IA estiguin dissenyades per bastimentar el pensament humà, i no per substituir-lo \[...\] creant un futur educatiu que no sigui només més eficient, sinó autènticament humà» (p. 57). Amb la «audàcia de l'impossible» que reclama el nostre temps, volem formar ciutadans globals que sàpiguen posar la tecnologia al servei d'una missió de reconciliació i justícia amb Déu, amb la humanitat i amb la creació.
+Així, la integració de la IA a les nostres aules s'ha de viure no com una adaptació passiva, sinó com una oportunitat per «renovar la nostra tradició viva en l'educació, com un exercici continu de discerniment» (Sosa, 2019, p. 5). L'objectiu no és simplement preparar els estudiants per adaptar-se a la tecnologia, sinó dotar-los dels «valors, els coneixements i les habilitats necessaris per a l'ús eficaç i la cocreació activa de la IA» (UNESCO, 2025, p. 12). Ara bé, com adverteix l'OCDE, aquesta integració no pot ser espontània ni acrítica: «les eines d'IA s'han d'emprar dins de situacions d'aprenentatge dissenyades intencionalment pels docents per assolir objectius d'aprenentatge específics» (OCDE, 2026, p. 32). En última instància, com recorden Gašević i Yan (2026), el repte és «reorientar la nostra mirada: dels productes generats per la IA als processos centrats en la persona, garantint que les eines d'IA estiguin dissenyades per bastimentar el pensament humà, i no per substituir-lo \[...\] creant un futur educatiu que no sigui només més eficient, sinó autènticament humà» (p. 58). Amb la «audàcia de l'impossible» que reclama el nostre temps, volem formar ciutadans globals que sàpiguen posar la tecnologia al servei d'una missió de reconciliació i justícia amb Déu, amb la humanitat i amb la creació.
 
 ### Una exploració amb propòsit
 Aquest marc general neix amb la voluntat d’orientar la incorporació de la IA, i com aquesta pot transformar la nostra realitat educativa en tres àmbits principalment: la gestió institucional, els processos de docència i l’aprenentatge de l’alumnat. El nostre objectiu final és aprofundir en la nostra missió educativa.
@@ -134,7 +134,7 @@ La irrupció i incorporació de la intel·ligència artificial no és tan sols u
 
 - **Profunditat cognitiva: Fricció productiva vs. Eficiència.** Davant la temptació de la resposta fàcil i immediata que ofereix la IA, defensem el valor d'una *dificultat desitjable* que fomenti l'esforç i el pensament. L’aprenentatge profund requereix *fricció cognitiva* (esforç, dubte, temps, paciència), però la nostra acció educativa se centra a garantir que aquesta fricció sigui *productiva*. No es tracta de generar dificultat per se, sinó de desafiar l'alumnat amb reptes superiors, proporcionant alhora l'*acompanyament i les bastides* (scaffolding) necessàries. La IA ha de servir com una eina que ens permeti plantejar reptes més complexos i acompanyar l'alumne a travessar la dificultat amb ajut, sense eludir-la, per tal d’evitar el bloqueig i la deserció, i potenciar així un aprenentatge genuí i significatiu. 
 
-- **Vincles i presència: Economia de l’atenció vs. Acompanyament.** Vivim immergits en una economia de l’atenció que busca fragmentar la nostra presència. Davant d’això, proposem una *economia de la intenció* i un acompanyament docent que utilitzi la IA per personalitzar  la proposta educativa, assegurant que la tecnologia sigui un pont per a la trobada humana, a estar més presents els uns per als altres, i no una pantalla de distracció. L’evidència emergent mostra que la retroalimentació generada per IA pot assolir una qualitat pedagògica comparable a la humana en dimensions tècniques i informatives (Kaliisa et al., 2026). Tanmateix, l’acompanyament humà és insubstituïble allà on intervenen l’*empatia* i l’*apoderament* (Go i Atienza, 2019), el vincle emocional i la confiança relacional. No defensem la superioritat del feedback humà per defecte, sinó la seva irreemplaçabilitat en la dimensió relacional i ètica de l’educació: és en l’encontre personal on es juga la *cura personalis* i el creixement integral de l’alumnat.
+- **Vincles i presència: Economia de l’atenció vs. Acompanyament.** Vivim immergits en una economia de l’atenció que busca fragmentar la nostra presència. Davant d’això, proposem una *economia de la intenció* i un acompanyament docent que utilitzi la IA per personalitzar  la proposta educativa, assegurant que la tecnologia sigui un pont per a la trobada humana, a estar més presents els uns per als altres, i no una pantalla de distracció. L’evidència emergent mostra que la retroalimentació generada per IA pot assolir una qualitat pedagògica comparable a la humana en dimensions tècniques i informatives (Kaliisa et al., 2026). Tanmateix, l’acompanyament humà és insubstituïble allà on intervenen l’*empatia* i l’*apoderament* —que caracteritzen la relació docent-alumne (Go i Atienza, 2019)—, el vincle emocional i la confiança relacional. No defensem la superioritat del feedback humà per defecte, sinó la seva irreemplaçabilitat en la dimensió relacional i ètica de l’educació: és en l’encontre personal on es juga la *cura personalis* i el creixement integral de l’alumnat.
 
 - **Justícia i equitat: Justícia algorítmica i Biaixos.** Com a institució compromesa amb la justícia social, mirem la IA amb ulls crítics per identificar biaixos i assegurar que cap algorisme perpetuï la desigualtat o l'exclusió. Reconeixem que la IA no és neutra —ni en text ni en imatge, on les eines generatives reprodueixen biaixos de gènere, raça, cos i diversitat funcional (Alon et al., 2026). Ens comprometem a una auditoria social i ètica que identifiqui els biaixos i promogui la *justícia algorítmica*, assegurant que l’ús de la IA a les nostres escoles no perpetuï desigualtats, sinó que esdevingui una eina d’inclusió i equitat.
 
@@ -479,7 +479,7 @@ Per preservar la fricció productiva quan la IA forma part de l'activitat, el di
 
 No tota activitat requereix les tres fases —una exploració breu pot ser tota Fase 2—, però quan l'objectiu és l'aprenentatge profund, la seqüència completa protegeix l'autonomia cognitiva de l'alumnat.
 
-Per decidir quins moments de l'activitat admeten IA i quins no, la clau és **desempaquetar l'objectiu d'aprenentatge fins a indicadors observables** i prendre la decisió indicador per indicador, no activitat per activitat (Chase i Galvin, 2026, a partir de Griffin, Francis i Robertson, 2017):
+Per decidir quins moments de l'activitat admeten IA i quins no, la clau és **desempaquetar l'objectiu d'aprenentatge fins a indicadors observables** i prendre la decisió indicador per indicador, no activitat per activitat (Chase i Galvin, 2026, a partir de Griffin, Francis i Robertson, 2017; adaptat a l'escala de delegació del marc):
 
 1. **Alinear** l'objectiu d'aprenentatge amb la tasca: la tasca mesura realment el que diem que l'alumnat ha d'aprendre?
 
@@ -738,7 +738,7 @@ Aprendre *amb* la IA és el tercer cercle: l'**aplicació pràctica** en activit
 L'adopció a l'aula s'estructura en tres conceptes jeràrquics: els **propòsits d'aprenentatge** (què ha de passar cognitivament), els **rols de la IA** (com actua la màquina per servir aquest propòsit) i els **nivells de delegació** (quanta autonomia es cedeix).
 
 ##### 2.3.1. Propòsits d'aprenentatge
-El propòsit d'aprenentatge és el concepte primari del disseny d'activitats amb IA. Respon a la pregunta del docent: **"què vull que passi cognitivament en aquesta activitat?"** El marc adopta els deu propòsits d'aprenentatge proposats per Khan et al. (2025), cadascun dels quals defineix una intenció pedagògica concreta:
+El propòsit d'aprenentatge és el concepte primari del disseny d'activitats amb IA. Respon a la pregunta del docent: **"què vull que passi cognitivament en aquesta activitat?"** El marc reinterpreta com a propòsits d'aprenentatge les deu *learning quests* de Khan et al. (2025); la intenció pedagògica de cadascun és formulació del marc:
 
 | Propòsit | Intenció pedagògica |
 | :---- | :---- |
@@ -766,7 +766,7 @@ Cada propòsit mobilitza un moviment de fricció productiva diferent, externalit
 La consonància entre famílies i moviments de fricció és emergent, no imposada: els propòsits de la família *Comprendre* tendeixen a la descoberta, els d'*Avaluar* a la resistència i els de *Fer* a la recursivitat. Quan un docent tria un propòsit, implícitament selecciona el tipus de fricció productiva que vol provocar a l'aula.
 
 ##### 2.3.2. Rols de la IA
-Els rols — adaptats de Mollick i Mollick (2023) — defineixen **com actua la IA per servir un propòsit concret**. No són un catàleg independent sinó la capa d'implementació dels propòsits d'aprenentatge:
+Els rols — inspirats en Mollick i Mollick (2023); el Generador de casos i el Traductor/Adaptador són aportació del marc — defineixen **com actua la IA per servir un propòsit concret**. No són un catàleg independent sinó la capa d'implementació dels propòsits d'aprenentatge:
 
 | Rol | Funció | Nivells nadius |
 | :---- | :---- | :---- |
@@ -886,7 +886,7 @@ Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la ge
 
 **Comissió Internacional de l'Apostolat de l'Educació de la Companyia de Jesús \[ICAJE\]. (2019).** *Escoles Jesuïtes: Una Tradició Viva en el Segle XXI*. Roma: Secretariat d'Educació de la Companyia de Jesús.
 
-**Dakan, R., i Feller, J. (2025).** *The AI Fluency Framework: A descriptive and normative model of Human-AI interaction.* National Forum for the Enhancement of Teaching and Learning in Higher Education. https://eprints.teachingandlearning.ie/id/eprint/6805
+**Dakan, R., i Feller, J. (2025).** *The AI Fluency Framework: A descriptive and normative model of Human-AI interaction for higher education.* Higher Education Authority / National Forum for the Enhancement of Teaching and Learning in Higher Education. https://eprints.teachingandlearning.ie/id/eprint/6805
 
 **Departament d'Educació de la Generalitat de Catalunya. (2024).** *La intel·ligència artificial en l'educació: Orientacions i recomanacions per al seu ús als centres*. Generalitat de Catalunya.
 
@@ -908,7 +908,7 @@ Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la ge
 
 **Khan, S., Fisher, D., Frey, N., Marshall, J., i Hargrave, M. (2025).** *Teaching students to use AI ethically & responsibly: Exploring AI with intentionality, curiosity, and care.* Corwin Press.
 
-**Kong, S. C., i Hu, X. (2026).** Unleashing human potential: An artificial intelligence competency framework for K–12 education. *Computers and Education: Artificial Intelligence*.
+**Kong, S. C., i Hu, X. (2026).** Unleashing human potential: An artificial intelligence competency framework for K–12 education. *Computers and Education: Artificial Intelligence, 10*, 100556. https://doi.org/10.1016/j.caeai.2026.100556
 
 **León XIV. (2025, 27 d'octubre).** *Diseñar nuevos mapas de esperanza* \[Carta Apostòlica\]. Ciutat del Vaticà: Santa Seu. https://www.vatican.va/content/leo-xiv/es/apost\_letters/documents/20251027-disegnare-nuove-mappe.html
 
@@ -916,7 +916,7 @@ Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la ge
 
 **Mccrea, P. (2025, 1 de maig).** *Cognitive outsourcing*. Evidence Snacks. https://snacks.pepsmccrea.com/p/cognitive-outsourcing
 
-**Mollick, E. R., i Mollick, L. (2023).** *Assigning AI: Seven approaches for students, with prompts*. Wharton School Research Paper.
+**Mollick, E. R., i Mollick, L. (2023).** *Assigning AI: Seven approaches for students, with prompts*. Wharton School Research Paper. https://doi.org/10.2139/ssrn.4475995
 
 **Nicolás, A. (2010).** *Profundidad, Universalidad y Ministerio Intelectual*. Ciutat de Mèxic: Trobada de Xarxes d'Educació Superior Jesuïta.
 
@@ -942,7 +942,7 @@ Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la ge
 
 **UNESCO. (2025).** *Marco de competencias para estudiantes en materia de IA* \[AI competency framework for students, trad. L. Pavón\]. UNESCO. https://doi.org/10.54675/EKCU4552
 
-**Vendrell, M., i Johnston, S.-K. (2026).** Scaffolding critical thinking with generative AI: Design principles for integrating large language models in higher education. *Computers and Education: Artificial Intelligence, 10*, 100572\.
+**Vendrell, M., i Johnston, S.-K. (2026).** Scaffolding critical thinking with generative AI: Design principles for integrating large language models in higher education. *Computers and Education: Artificial Intelligence, 10*, 100572. https://doi.org/10.1016/j.caeai.2026.100572 https://doi.org/10.1016/j.caeai.2026.100572
 
 **Wiggins, G., i McTighe, J. (2005).** *Understanding by Design* (2a ed.). Association for Supervision and Curriculum Development.
 
@@ -988,7 +988,7 @@ Els sis graus de delegació (N0–N5) definits al marc s'apliquen també a la ge
 
 ## 5. Fonts
 
-- Dakan, R., i Feller, J. (2025). *The AI Fluency Framework: A descriptive and normative model of Human-AI interaction.* National Forum for the Enhancement of Teaching and Learning in Higher Education.
+- Dakan, R., i Feller, J. (2025). *The AI Fluency Framework: A descriptive and normative model of Human-AI interaction for higher education.* National Forum for the Enhancement of Teaching and Learning in Higher Education.
 - Bastani, H., et al. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), e2422633122.
 - Shaw, S. D., i Nave, G. (2026). Thinking—Fast, slow, and artificial: How AI is reshaping human reasoning and the rise of cognitive surrender [Preprint]. SSRN.
 - Macnamara, B. N., et al. (2024). Does using artificial intelligence assistance accelerate skill decay and hinder skill development without performers' awareness? *Cognitive Research: Principles and Implications, 9*, 46.
