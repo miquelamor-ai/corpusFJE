@@ -766,7 +766,7 @@ Cada propòsit mobilitza un moviment de fricció productiva diferent, externalit
 La consonància entre famílies i moviments de fricció és emergent, no imposada: els propòsits de la família *Comprendre* tendeixen a la descoberta, els d'*Avaluar* a la resistència i els de *Fer* a la recursivitat. Quan un docent tria un propòsit, implícitament selecciona el tipus de fricció productiva que vol provocar a l'aula.
 
 ##### 2.3.2. Rols de la IA
-Els rols — inspirats en Mollick i Mollick (2023); el Generador de casos i el Traductor/Adaptador són aportació del marc — defineixen **com actua la IA per servir un propòsit concret**. No són un catàleg independent sinó la capa d'implementació dels propòsits d'aprenentatge:
+Els rols — adaptats i ampliats a partir de Mollick i Mollick (2023) — defineixen **com actua la IA per servir un propòsit concret**. No són un catàleg independent sinó la capa d'implementació dels propòsits d'aprenentatge:
 
 | Rol | Funció | Nivells nadius |
 | :---- | :---- | :---- |
@@ -777,6 +777,8 @@ Els rols — inspirats en Mollick i Mollick (2023); el Generador de casos i el T
 | **Alumne invers** (*Teachable Agent*) | L'alumnat ensenya la IA | N1-N2 |
 | **Contrincant** | Defensa la posició contrària | N2-N3 |
 | **Traductor / Adaptador** | Simplifica o canvia de registre | N2-N4 |
+
+La metacognició no és un rol propi: es treballa com a habilitat (PER A la Delegació), i el Mentor socràtic pot incorporar moments de reflexió de l'alumnat sobre el propi procés.
 
 Cada propòsit admet un subconjunt de rols compatibles. La correspondència no és 1:1; és una matriu dispersa que el docent navega amb doble entrada: pot partir del propòsit ("què vull que passi?") o del rol ("conec aquest rol, a quins propòsits serveix?"). La coherència institucional es preserva perquè la jerarquia conceptual és una sola: **propòsit → rol → nivell**.
 
