@@ -61,7 +61,7 @@ L'aprenentatge depèn de **construir i modificar esquemes mentals**. Construir e
 
 #### 2.4. Aprenentatge autoregulat (SRL, Zimmerman)
 
-L'SRL (planificar, monitorar, avaluar) té un cost cognitiu propi. La IA, oferint solucions sense exigir planificació ni reflexió, facilita el bypass de l'SRL (Fan et al., 2024: *metacognitive laziness*).
+L'SRL (planificar, monitorar, avaluar) té un cost cognitiu propi. La IA, oferint solucions sense exigir planificació ni reflexió, facilita el bypass de l'SRL (Fan et al., 2025: *metacognitive laziness*).
 
 ---
 
@@ -108,13 +108,13 @@ Dos fenòmens diferenciats:
 - **Skill decay** (en experts): l'ús continuat d'IA que fa part del treball cognitiu provoca decadència de les habilitats pròpies.
 - **Skill development hindrance** (en aprenents): els aprenents formats amb IA poden no desenvolupar mai les habilitats que desenvoluparien sense ella.
 
-**Crossover point** (Parasuraman & Manzey, 2010): per sota d'un 70% d'encert, l'automatització degrada el rendiment. Un assistent que "té raó" el 70% del temps pot estar fent més mal que bé.
+**Llindar de fiabilitat** (Wickens & Dixon, 2007): en sistemes de diagnòstic automàtic, i sobretot amb alta càrrega de treball, per sota d'una fiabilitat d'aproximadament el 70% el rendiment amb l'ajuda cau per sota del rendiment manual. És una referència orientativa: no s'ha comprovat en assistents educatius.
 
 **El problema de la consciència**: els usuaris no detecten la pròpia decadència.
 
 #### 3.5. Mandra metacognitiva i il·lusió de competència
 
-- **Metacognitive laziness** (Fan et al., 2024): els alumnes redueixen planificació, monitoratge i avaluació quan els outputs de la IA estan disponibles.
+- **Metacognitive laziness** (Fan et al., 2025): els alumnes redueixen planificació, monitoratge i avaluació quan els outputs de la IA estan disponibles.
 - **Il·lusió de competència** (Lodge, 2023): la fluïdesa de la IA és un senyal metacognitiu enganyós — l'alumne confon facilitat de processament amb profunditat d'aprenentatge.
 - **Paradoxa de l'autoeficàcia** (Zhang & Xu, 2025): l'ús d'IA augmenta la confiança alhora que augmenta la dependència.
 - **Dunning-Kruger amplificat**: els alumnes amb menys expertesa sobreestimen més la seva competència. La IA amplifica l'efecte en aprenents novicis.
@@ -133,13 +133,13 @@ Els alumnes amb menys habilitats metacognitives prèvies fan més descàrrega de
 
 Condicions que alenteixen l'adquisició inicial però milloren la retenció i la transferència: pràctica espaiada, intercalada, de recuperació, variabilitat de condicions.
 
-**S2D2** (*Start and Stick to Desirable Difficulties*, de Bruin et al., 2023): començar amb dificultat desitjable i quedar-s'hi, resistint la temptació d'eliminar-la via IA.
+**S2D2** (*Start and Stick to Desirable Difficulties*, de Bruin et al., 2023): començar amb dificultat desitjable i quedar-s'hi, resistint la temptació d'eliminar-la. L'aplicació a la IA és una extrapolació nostra, no del marc original.
 
 La pregunta de disseny no és "podem facilitar això?" sinó **"aquesta dificultat és desitjable? Si ho és, l'hem de preservar"**.
 
 #### 4.2. Fracàs productiu (Kapur, 2008+)
 
-Deixar que l'alumne fracassi abans d'instruir-lo és més efectiu que instrucció directa prèvia (validat en 160 estudis, metaanàlisi Sinha & Kapur, 2021 — fort en matemàtiques i ciències).
+Deixar que l'alumne fracassi abans d'instruir-lo és més efectiu que instrucció directa prèvia (metaanàlisi de Sinha & Kapur, 2021: 53 estudis i 166 comparacions, g = 0,36, fort en matemàtiques i ciències; l'efecte s'inverteix en alumnat petit, aproximadament de 2n a 5è de primària).
 
 Les **4 A** del mecanisme:
 - **Activació**: la lluita desperta coneixements previs
@@ -151,7 +151,7 @@ Les **4 A** del mecanisme:
 
 **Implicació per a la IA**: si la IA està sempre disponible, l'alumne pot no tenir ocasió de fracassar productivament. Dissenyar una fase de lluita autònoma prèvia és especialment rellevant en matemàtiques, ciències i resolució de problemes.
 
-#### 4.3. Efecte generació (Slamecka & Graf, 1978; Duplice, 2025)
+#### 4.3. Efecte generació (Slamecka & Graf, 1978)
 
 Generar una resposta activament produeix millor retenció que rebre-la passivament, fins i tot quan la informació finalment coneguda és idèntica. La IA, usada com a "oracle de respostes", permet saltar-se exactament el procés que construiria l'esquema durador.
 
@@ -167,7 +167,7 @@ La propietat cognitiva és el moment en què l'alumne fa pensament substantiu so
 
 ### 5. Eines de disseny
 
-#### 5.1. Fricció productiva: 3 moviments + 3 fallades (Novokshanova, 2025)
+#### 5.1. Fricció productiva: 3 moviments + 3 fallades (Novokshanova, 2025, document no publicat)
 
 **Moviments de fricció productiva** (indicadors que l'alumne pensa):
 
@@ -190,7 +190,7 @@ Aquesta dualitat és el mapa de diagnòstic més operatiu: serveix per dissenyar
 
 #### 5.2. Funcions de forçat cognitiu (CFF)
 
-Tècniques que obliguen a aturar-se i reflexionar abans d'acceptar automàticament un resultat (Croskerry, 2003; Buçinca, Malaya & Gajos, 2021):
+Tècniques que obliguen a aturar-se i reflexionar abans d'acceptar automàticament un resultat (estratègies de forçat cognitiu de Croskerry, 2003; funcions de forçat cognitiu de Buçinca, Malaya & Gajos, 2021). La llista següent és una síntesi pròpia:
 
 | CFF | Descripció | Exemple a l'aula |
 |---|---|---|
@@ -264,7 +264,7 @@ Adaptació de la instrucció directa a contextos d'IA:
 5. En 10 repeticions, l'alumne millorarà l'habilitat o la perdrà? (pregunta Macnamara)
 6. L'alumne ho pot fer sense IA? (No = risc de *skill development hindrance*. Sí = delegació legítima.)
 7. L'avaluació discrimina entre rendiment i aprenentatge? (No = cega a la paradoxa.)
-8. L'assistent té una fiabilitat auditada? (Si no supera el 70% d'encert, pot empitjorar el rendiment.)
+8. L'assistent té una fiabilitat auditada? (Referència orientativa: en automatització diagnòstica, per sota del ~70% de fiabilitat el rendiment empitjora; Wickens & Dixon, 2007.)
 
 #### 7.3. Criteris de disseny d'assistents institucionals
 
@@ -279,7 +279,7 @@ Cada criteri exerceix una o més dimensions del Model 4D per part de la instituc
 | **E** | Està alineat amb propòsits d'aprenentatge i Rols explícits (no és "genèric") | D1+D2 |
 | **F** | Desencoratja la rendició cognitiva (respon amb pregunta davant "fes-me X") | D2+D3 |
 | **G** | Té comportament pedagògic per defecte, no eficient | D2 |
-| **H** | Passa autoauditoria periòdica segons el crossover point (70%) | D3 |
+| **H** | Passa autoauditoria periòdica amb un llindar de fiabilitat orientatiu (~70%, Wickens & Dixon, 2007) | D3 |
 | **I** | No s'autoavalua sense ancoratge: davant peticions del tipus "critica la teva resposta" o "què canviaries", demana primer un ancoratge al context (criteri de millora, contingut treballat a l'aula, destinatari del text). Evita la **delegació recursiva** (§5.1) | D3 |
 
 **Compliment normatiu** (D4 transversal): Reglament IA de la UE, protecció de dades, accessibilitat, seguretat. Responsabilitat institucional.
@@ -350,25 +350,26 @@ Activar aquest document quan:
 - Sweller, J. → Kalyuga, S. & Plass, J. L. (2025) — Teoria de la càrrega cognitiva (CLT)
 - Chi, M. T. H. & Wylie, R. (2014) — Marc ICAP: modes d'implicació cognitiva
 - Zimmerman, B. — Aprenentatge autoregulat (SRL)
-- Lodge, J. M. & Loble, M. (2026) — Descàrrega cognitiva beneficiosa vs. detrimental
+- Lodge, J. M. & Loble, L. (2026). *Artificial intelligence, cognitive offloading and implications for education*. UTS — Descàrrega cognitiva beneficiosa vs. detrimental
 - Shaw, S. D. & Nave, G. (2026) — Sistema 3 i rendició cognitiva (N=1.372) [Preprint SSRN]
-- Messeri, N. & Crockett, M. J. (2024) — Les tres il·lusions cognitives amb IA
+- Messeri, L. & Crockett, M. J. (2024). *Nature, 627*, 49–58 — Les tres il·lusions (estudi sobre recerca científica; l'aplicació a l'alumnat és una extrapolació)
 - Macnamara, B. N. et al. (2024) — Decadència d'habilitats i IA (Cognitive Research: Principles and Implications, 9, 46)
 - Casner, S. M. et al. (2014) — Retenció d'habilitats de pilotatge manual amb automatització (Human Factors)
 - Budzyń, K. et al. (2025) — Desqualificació d'endoscopistes després de l'exposició a IA (Lancet Gastroenterol. Hepatol.)
-- Parasuraman, R. & Manzey, D. (2010) — Crossover point (70% d'encert)
-- Fan, Y. et al. (2024) — Mandra metacognitiva (*metacognitive laziness*)
-- Lodge, J. M. (2023) — Il·lusió de competència amb IA
-- Zhang, X. & Xu, Y. (2025) — Paradoxa de l'autoeficàcia amb IA
+- Wickens, C. D. & Dixon, S. R. (2007). *Theoretical Issues in Ergonomics Science, 8*(3), 201–212 — Llindar de fiabilitat (~70%) en automatització diagnòstica
+- Parasuraman, R. & Manzey, D. H. (2010). *Human Factors, 52*(3), 381–410 — Complaença i biaix d'automatització
+- Fan, Y. et al. (2025). *BJET, 56*(2), 489–530 — Mandra metacognitiva (*metacognitive laziness*)
+- Lodge, J. M., Yang, S., Furze, L. & Dawson, P. (2023). *Learning: Research and Practice, 9*(2), 117–124 — Il·lusió de competència amb IA
+- Zhang, L. & Xu, J. (2025). *The Internet and Higher Education, 65*, 100978 — Paradoxa de l'autoeficàcia amb IA (enquesta, n = 200)
 - Bjork, R. A. & Bjork, E. L. — Dificultats desitjables i pràctica espaiada
 - de Bruin, A. B. H. et al. (2023) — S2D2: Start and Stick to Desirable Difficulties
-- Kapur, M. (2008+); Sinha, T. & Kapur, M. (2021) — Fracàs productiu (metaanàlisi 160 estudis)
-- Slamecka, N. J. & Graf, P. (1978); Duplice, J. (2025) — Efecte generació
+- Kapur, M. (2008); Sinha, T. & Kapur, M. (2021). *Review of Educational Research, 91*(5), 761–798 — Fracàs productiu (53 estudis, 166 comparacions)
+- Slamecka, N. J. & Graf, P. (1978) — Efecte generació
 - Mccrea, P. (2025) — *Cognitive outsourcing* (Evidence Snacks): «qui fa el pensament, s'emporta l'aprenentatge»
-- Novokshanova, E. (2025) — Fricció productiva: 3 moviments i 3 modes de fallada
-- Croskerry, P. (2003); Buçinca, Z., Malaya, M. B. & Gajos, K. Z. (2021) — Funcions de forçat cognitiu (CFF)
+- Novokshanova, E. (2025) — Fricció productiva: 3 moviments i 3 modes de fallada [document no publicat]
+- Croskerry, P. (2003) — Estratègies de forçat cognitiu; Buçinca, Z., Malaya, M. B. & Gajos, K. Z. (2021) — Funcions de forçat cognitiu (CFF)
 - Martin, F. et al. (2025) — Load Reduction Instruction (LRI)
 - Tai, J. et al. (2018) — Judici avaluatiu (*evaluative judgement*)
-- Iqbal, M. et al. (2025) — Metacognició compartida (n=465)
+- Iqbal, J. et al. (2025). *Scientific Reports, 15*, 16610 — Metacognició compartida (n = 465)
 - Chase, J. & Galvin, T. (2026) — Disseny = Avaluació
 - Font primària: *Friccio-cognitiva-extens.md* (v1.1) — marc teòric extens que aquest document sintetitza
