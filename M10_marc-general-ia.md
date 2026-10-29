@@ -677,12 +677,12 @@ El docent és el segon nivell de la cascada 4D: exerceix les quatre dimensions (
 **El paper irreductible del docent.** En tots cinc àmbits, el patró és el mateix: la IA pot generar, organitzar, sintetitzar o adaptar, però el judici professional — pedagògic, relacional, ètic — és exclusivament humà. El docent no és un validador passiu de productes generats per la màquina; és el dissenyador de les condicions en què l'aprenentatge es fa possible. Quan la IA s'integra bé a la pràctica docent, el resultat no és un professor que treballa menys, sinó un professor que dedica més temps al que realment importa: pensar, acompanyar i decidir amb criteri.
 
 ### 2\. ÀMBIT ALUMNAT: APRENDRE SOBRE, PER A I AMB LA IA
-L’alumnat no només *usa* la IA; necessita *comprendre-la*, *preparar-se per conviure-hi* i *aplicar-la amb criteri*. Aquestes tres dimensions —**SOBRE**, **PER A** i **AMB**— no són àmbits separats sinó tres capes concèntriques d’una mateixa competència, articulades a través del Model 4D.
+L’alumnat no només *usa* la IA; necessita *comprendre-la*, *preparar-se per conviure-hi* i *aplicar-la amb criteri*. Aquestes tres dimensions —**SOBRE**, **PER A** i **AMB**— no són àmbits separats sinó tres capes concèntriques d’una mateixa competència, articulades a través del Model 4D. L’estructura en tres dimensions segueix la proposta de Khan et al. (2025), que distingeix entre ensenyar *sobre*, *per a* i *amb* la IA.
 
 #### Tres capes, una sola competència
 Cada dimensió del 4D es pot llegir des de tres profunditats progressives:
 
-| Dimensió | SOBRE (conèixer) | PER A (capacitar-se) | AMB (aplicar) |
+| Dimensió | SOBRE (entendre) | PER A (pensar i decidir amb criteri) | AMB (aprendre-hi) |
 | :---- | :---- | :---- | :---- |
 | **D1 · Delegació** | Entendre què pot fer la IA i què no, i per què | Saber decidir quan delegar i quan preservar la feina pròpia | Prendre decisions de delegació en activitats reals d’aprenentatge |
 | **D2 · Descripció** | Entendre com funciona la interacció amb un model generatiu | Saber formular instruccions precises i iterar | Guiar la IA per obtenir resultats de qualitat al servei d’un objectiu |
@@ -716,7 +716,7 @@ Organitzat per les quatre dimensions del 4D:
 - **SOBRE la Diligència (D4).** L’alumnat comprèn les implicacions ètiques del seu ús de la IA: privacitat de les dades (pròpies i alienes), impacte ambiental del processament, propietat intel·lectual i transparència en la declaració d’ús. Reconeix que la tecnologia no és neutra i que el seu ús és un acte de ciutadania.
 
 #### 2.2. Aprendre PER A la IA
-Aprendre *per a* la IA és el segon cercle: les **habilitats que l'alumnat necessita per conviure amb sistemes generatius sense perdre capacitat pròpia**. Si el SOBRE respon a "què és la IA?", el PER A respon a "què necessito jo per no ser-ne dependent?".
+Aprendre *per a* la IA és el segon cercle: les **habilitats que l'alumnat necessita per conviure amb sistemes generatius sense perdre capacitat pròpia**. Si el SOBRE respon a "què és la IA?", el PER A respon a "què necessito jo per no ser-ne dependent?". Seguint Khan et al. (2025), es tracta de preparar l'alumnat no només per fer servir la IA, sinó per qüestionar-la, avaluar-la i decidir, amb criteri i valors, com serveix l'aprenentatge, les decisions i la societat.
 
 Tal com documenta la secció de fonament cognitiu d'aquest marc, la paradoxa del rendiment és un risc real: la IA pot millorar el resultat d'una tasca i, alhora, erosionar les habilitats que l'haurien de sostenir. Les habilitats PER A són la resposta educativa a aquesta paradoxa: capacitats humanes que cal **protegir i enfortir** precisament perquè la IA les pot substituir.
 
