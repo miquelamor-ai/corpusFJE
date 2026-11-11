@@ -1,14 +1,14 @@
 ---
 modul: M10
-titol: "Protocol de governança de dades sensibles · DOP i NESE"
+titol: "Protocol de governança de dades sensibles · EO i NESE"
 tipus: protocol-operatiu
-descripcio: "Protocol operatiu de governança de dades sensibles per a Departaments d'Orientació Pedagògica (DOP), SIEI, SIAL, Aula d'Acollida i professionals NESE. Categories d'eines IA segons risc, regles operatives per al tractament d'informes psicopedagògics i dades NESE. Versió en producció (no màrtir)."
+descripcio: "Protocol operatiu de governança de dades sensibles per a equips d'orientadores (EO), SIEI, SIAL, Aula d'Acollida i professionals NESE. Categories d'eines IA segons risc, regles operatives per al tractament d'informes psicopedagògics i dades NESE. Versió en producció (no màrtir)."
 review_status: revisat
 generat_at: 2026-05-25
-paraules_clau: ["protocol", "governança dades", "DOP", "NESE", "SIEI", "SIAL", "informes psicopedagògics", "dades sensibles", "categories eines IA", "professionals NESE"]
+paraules_clau: ["protocol", "governança dades", "EO", "DOP", "NESE", "SIEI", "SIAL", "informes psicopedagògics", "dades sensibles", "categories eines IA", "professionals NESE"]
 ---
 
-# Protocol de governança de dades sensibles · DOPS i NESE
+# Protocol de governança de dades sensibles · EO i NESE
 ## Document operatiu per a equips directius i professionals NESE
 
 > **Com entenem la integració de la IA**

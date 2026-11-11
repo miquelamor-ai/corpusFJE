@@ -205,3 +205,24 @@ Davant la temptació d'usar vocabulari ignasià al títol d'una dinàmica, un pr
 3. **Reversible?** ¿Si traguéssim el nom ignasià, la pràctica continuaria sent vàlida? Si sí, el nom era ornamental. **Treu-lo i fes explícita l'actitud que volies senyalar.**
 
 Aquestes regles són complementàries a la veu genèrica del corpus i a la regla de no citar noms propis d'eines: el carisma ignasià també es preserva amb un ús precís del seu vocabulari.
+
+---
+
+## Addenda 2026-11-11 — EO en lloc de DOP
+
+Decisió de Miquel Amor (2-11-2026, aplicada al kit l'11-11-2026). Aplica a tot el corpus i a tots els materials que se'n deriven (kit, guies, assistents, RAG).
+
+- Es diu **EO (equip d'orientadores)**, no DOP (Departament d'Orientació Psicopedagògica / Pedagògica i Suport). Entre els grups d'homòlegs hi ha els d'etapa, EO, acollida i SIEI.
+- Concordança: «l'EO», «de l'EO», «a l'EO», «per l'EO» (no «el DOP», «del DOP», «al DOP», «pel DOP»). Davant d'una sigla sense article: «professionals EO/SIEI/SIAL», «Per a EO, SIEI…».
+- Per escrit sencer: «equip d'orientadores» (o «equips d'orientadores (EO) i de suport» quan inclou SIEI, SIAL i acollida).
+- **Es pot conservar «DOP» només** com a paraula clau de cerca a `paraules_clau` (al costat d'«EO»), perquè el RAG trobi el document amb la sigla antiga, i en els noms de fitxer (`M10_casuistica-dops.md`, `M10_protocol-governanca-dades-dop.md`): canviar-los trencaria enllaços i adreces publicades.
+- **No es toquen** els materials històrics que es van fer amb aquest nom (p. ex. la sessió d'homòlegs DOP del 15-5-2026).
+
+### Estat (11-11-2026)
+
+- Fet: `M10_casuistica-dops.md`, `M10_protocol-governanca-dades-dop.md`, `M10_politica-proteccio-dades-ia.md`, `M10_politica-us-ia-professorat.md` i els documents del kit publicats a MAGINIA.
+- Pendent (fora del kit): `M11_constituir-cpa.md` (2 mencions) i `M2_sequencia-aprenentatge-FJE.md` (2 mencions, amb la sigla desplegada). Aplicar-ho en la propera revisió d'aquests mòduls.
+
+### Test ràpid
+
+`grep -rnE "\bDOPS?\b" --include=*.md .` només ha de trobar `paraules_clau` i noms de fitxer.

@@ -1,22 +1,22 @@
 ---
 modul: M10
-titol: "Casuística · IA als Departaments d'Orientació Pedagògica (DOP) i Suport"
+titol: "Casuística · IA als equips d'orientadores (EO) i de suport"
 tipus: casuistica-col-lectiu
-descripcio: "Casuística professional per a DOP, SIEI, SIAL, Aula d'Acollida i professionals NESE (grup d'homòlegs DOP). Inclou casuística per perfil (DOP, SIEI, SIAL, AACC) + protocol d'ús de dades sensibles en l'orientació pedagògica. Equitat, NESE, dades."
+descripcio: "Casuística professional per a EO, SIEI, SIAL, Aula d'Acollida i professionals NESE (grup d'homòlegs EO). Inclou casuística per perfil (EO, SIEI, SIAL, AACC) + protocol d'ús de dades sensibles en l'orientació pedagògica. Equitat, NESE, dades."
 review_status: esborrany
 generat_at: 2026-05-24
-paraules_clau: ["casuística", "DOP", "SIEI", "SIAL", "AACC", "NESE", "Aula d'Acollida", "orientació pedagògica", "dades sensibles", "equitat", "homòlegs DOP"]
+paraules_clau: ["casuística", "EO", "DOP", "SIEI", "SIAL", "AACC", "NESE", "Aula d'Acollida", "orientació pedagògica", "dades sensibles", "equitat", "homòlegs EO"]
 ---
 
-# Casuística professional · IA als Departaments d'Orientació Pedagògica i Suport
-## Per a DOP, SIEI, SIAL, Aula d'Acollida, professionals NESE
+# Casuística professional · IA als equips d'orientadores (EO) i de suport
+## Per a EO, SIEI, SIAL, Aula d'Acollida, professionals NESE
 
 > **Com entenem la integració de la IA**
 > A Jesuïtes Educació, entenem que la integració de la IA ha d'estar al servei de la persona i del seu desenvolupament integral. Cerquem augmentar la qualitat de l'aprenentatge, de la pràctica docent i de la gestió, no substituir cap dimensió que els fa créixer integralment. Aquest marc concreta com fer-ho possible.
 
 ---
 
-Els Departaments d'Orientació i Suport són transversals: travessen totes les etapes i atenen els alumnes que demanen el judici professional més específicament humà. Aquí la pressió de la IA és diferent: no només és **tecnològica** (eines noves cada mes), sinó **simbòlica** (eines amb pretensió diagnòstica, predictiva, terapèutica) i **pedagògica** (alumnes a qui mai una eina no podria sostenir el desenvolupament).
+Els equips d'orientadores (EO) i de suport són transversals: travessen totes les etapes i atenen els alumnes que demanen el judici professional més específicament humà. Aquí la pressió de la IA és diferent: no només és **tecnològica** (eines noves cada mes), sinó **simbòlica** (eines amb pretensió diagnòstica, predictiva, terapèutica) i **pedagògica** (alumnes a qui mai una eina no podria sostenir el desenvolupament).
 
 Quatre tensions específiques d'aquest col·lectiu:
 
@@ -25,7 +25,7 @@ Quatre tensions específiques d'aquest col·lectiu:
 3. **Governança de dades sensibles.** Les dades NESE són les més sensibles del centre. Sortir-ne sense protocol és cessió de criteri institucional.
 4. **Equitat entre dignitat present i autonomia futura.** L'eina pot facilitar inclusió aparent erosionant formació pròpia (cas: traducció a aula d'acollida).
 
-Aquesta casuística és material per a la conversa entre professionals DOP/SIEI/SIAL/Acollida. La pregunta de fons: **"què la IA pot ajudar i què no pot mai certificar?"**
+Aquesta casuística és material per a la conversa entre professionals EO/SIEI/SIAL/Acollida. La pregunta de fons: **"què la IA pot ajudar i què no pot mai certificar?"**
 
 ---
 
@@ -43,14 +43,14 @@ Aquesta casuística és material per a la conversa entre professionals DOP/SIEI/
 
 ## A. Per perfil professional
 
-### A.1. DOP · Diagnòstic, derivació, coordinació
+### A.1. EO · Diagnòstic, derivació, coordinació
 
 **Casos legítims (N1-N2):**
 
-- **Cas:** El DOP utilitza una IA com a suport per redactar la part formal d'un dictamen — després d'haver fet l'observació clínica i la conversa amb tutors. La IA polit el llenguatge formal; el contingut és íntegrament del professional.
+- **Cas:** L'EO utilitza una IA com a suport per redactar la part formal d'un dictamen — després d'haver fet l'observació clínica i la conversa amb tutors. La IA polit el llenguatge formal; el contingut és íntegrament del professional.
 **Posició defensable:** N2 amb governança estricta (dades anonimitzades + eines amb contracte adequat). §Avaluació + D4.
 
-- **Cas:** El DOP utilitza IA per generar materials de comunicació amb famílies en diferents idiomes/registres.
+- **Cas:** L'EO utilitza IA per generar materials de comunicació amb famílies en diferents idiomes/registres.
 **Posició defensable:** N2-N3. Comunicació institucional adaptada culturalment.
 
 **Casos discutibles (N1 com a llindar):**
@@ -142,7 +142,7 @@ Aquesta casuística és material per a la conversa entre professionals DOP/SIEI/
 
 **Casos a evitar:**
 
-- **Cas:** Considerar que l'alumne AACC és "més autònom" i requereix menys atenció DOP.
+- **Cas:** Considerar que l'alumne AACC és "més autònom" i requereix menys atenció de l'EO.
 **Per què cal evitar-ho:** AACC és NESE. Igual atenció que altres, no menys.
 
 ---
@@ -177,7 +177,7 @@ Cinc indicadors que una eina IA està patologitzant en lloc d'orientar:
 1. Genera **etiquetes** (TDAH, dislèxia, TEA) en lloc de descripció comportamental.
 2. Proposa **plans intervenció** sense haver vist l'alumne ni el context.
 3. Es presenta amb **percentatges de probabilitat** d'un diagnòstic.
-4. Recomana **derivació externa** sense passar pel DOP.
+4. Recomana **derivació externa** sense passar per l'EO.
 5. Es comercialitza com a **"detecció precoç"** sense distingir entre indicador i diagnòstic.
 
 Davant d'una eina amb aquests indicadors: **N0 institucional**. No s'integra al centre, sigui quina sigui la qualitat tècnica.

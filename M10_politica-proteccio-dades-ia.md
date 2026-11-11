@@ -55,7 +55,7 @@ No s'aplica a:
 
 ## 4. Categories d'eines i ús permès
 
-Inspirada en el protocol de governança de dades sensibles DOP, aquesta classificació s'estén a totes les eines d'IA professional.
+Inspirada en el protocol de governança de dades sensibles de l'EO, aquesta classificació s'estén a totes les eines d'IA professional.
 
 ### Categoria A · IA institucional amb governança plena
 - Eina self-hosted del centre o de la xarxa (per exemple, ATNE).

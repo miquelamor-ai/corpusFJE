@@ -143,7 +143,7 @@ Aquesta política es desplega operativament a través de:
 
 - **Protocol de declaració d'ús d'IA** (alumnat i docent).
 - **Protocol davant detecció d'ús no declarat**.
-- **Protocol de governança de dades sensibles** (versió DOP existent · extensió professorat pendent).
+- **Protocol de governança de dades sensibles** (versió de l'EO existent · extensió professorat pendent).
 - **Protocol d'incorporació d'una eina nova** al centre.
 - **Protocol d'auditoria periòdica** del referent IA d'escola.
 - **Rúbrica de grau de delegació** N0–N5 per a treballs i materials.
