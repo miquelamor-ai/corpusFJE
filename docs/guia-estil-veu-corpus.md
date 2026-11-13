@@ -218,10 +218,10 @@ Decisió de Miquel Amor (2-11-2026, aplicada al kit l'11-11-2026). Aplica a tot 
 - **Es pot conservar «DOP» només** com a paraula clau de cerca a `paraules_clau` (al costat d'«EO»), perquè el RAG trobi el document amb la sigla antiga, i en els noms de fitxer (`M10_casuistica-dops.md`, `M10_protocol-governanca-dades-dop.md`): canviar-los trencaria enllaços i adreces publicades.
 - **No es toquen** els materials històrics que es van fer amb aquest nom (p. ex. la sessió d'homòlegs DOP del 15-5-2026).
 
-### Estat (11-11-2026)
+### Estat (13-11-2026)
 
 - Fet: `M10_casuistica-dops.md`, `M10_protocol-governanca-dades-dop.md`, `M10_politica-proteccio-dades-ia.md`, `M10_politica-us-ia-professorat.md` i els documents del kit publicats a MAGINIA.
-- Pendent (fora del kit): `M11_constituir-cpa.md` (2 mencions) i `M2_sequencia-aprenentatge-FJE.md` (2 mencions, amb la sigla desplegada). Aplicar-ho en la propera revisió d'aquests mòduls.
+- Fet el 13-11-2026: `M11_constituir-cpa.md` (2 mencions) i `M2_sequencia-aprenentatge-FJE.md` (2 mencions, amb la sigla desplegada → «EO (equip d'orientadores)»). Ja no en queda cap fora de `paraules_clau`.
 
 ### Test ràpid
 

@@ -70,7 +70,7 @@ En finalitzar la roda de sessions, valorar l'assoliment dels objectius pedagògi
 | Facilitador | Conduir les sessions, triar i valorar el protocol adequat a cada sessió, compartir el procediment i fomentar la coneixença, l'escolta i la síntesi. |
 | Cofacilitador | Acompanyar el facilitador en la conducció i el registre de les sessions. |
 | Participants (docents) | Definir els objectius específics de l'equip, aportar casos i evidències, aplicar els acords a l'aula i corresponsabilitzar-se de la comunitat. |
-| Altres membres (DOP, especialistes, direcció) | Enriquir l'equip amb mirades de cursos, etapes i rols diferents. |
+| Altres membres (EO, especialistes, direcció) | Enriquir l'equip amb mirades de cursos, etapes i rols diferents. |
 
 ## Documents i registres
 
@@ -81,7 +81,7 @@ En finalitzar la roda de sessions, valorar l'assoliment dels objectius pedagògi
 ## Recomanacions
 
 - Equips de **8-10 membres** com a màxim: un nombre reduït afavoreix la confiança, l'apropament i la participació de tothom.
-- Composició **diversa**: docents de cursos i etapes diferents i professionals amb altres rols (DOP, especialistes, direccions).
+- Composició **diversa**: docents de cursos i etapes diferents i professionals amb altres rols (EO, especialistes, direccions).
 - Trobades d'un mínim de **45 min - 1 h**, per poder seguir la seqüència sense converses obertes ni experiències frustrants.
 - **Evitar generar espais addicionals**: reaprofitar espais ja existents (p. ex. reunions de claustre) reenfocant-ne la seqüència.
 - Un mínim d'**una o dues sessions per trimestre**.

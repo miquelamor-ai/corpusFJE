@@ -579,7 +579,7 @@ Per a afavorir bons espais de planificació, el document FJE 2024 ofereix tres o
 ### Abans
 
 - **Reservar un espai de qualitat** (mínim 2 hores).
-- **Equip múltiple**: direcció, DOP (Departament d'Orientació Psicopedagògica), pastoral, etc.
+- **Equip múltiple**: direcció, EO (equip d'orientadores), pastoral, etc.
 - **Previsió dels aspectes/temes a treballar**.
 - **Distribució anual de trobades** segons objectius.
 - **Identificació de necessitats** sobre les quals focalitzar.
@@ -873,7 +873,7 @@ Activar aquest document quan:
 - **MOPI** (Model Pedagògic d'Infantil): marc institucional FJE per a Educació Infantil (3-6 anys), amb la seva pròpia lògica però compatible amb els principis Horitzó+.
 - **4C ignasianes**: Consciència / Competència / Compassió / Compromís. Eix vocacional de l'aprenentatge FJE.
 - **PPI** (Paradigma Pedagògic Ignasià): paradigma educatiu de la Companyia de Jesús, amb dinamisme Experiència-Reflexió-Acció. Vegeu [[M0_PPI-paradigma-pedagogic-ignasia]].
-- **DOP** (Departament d'Orientació Psicopedagògica): equip que acompanya alumnat NESE i col·labora en planificació de projectes amb suport.
+- **EO** (equip d'orientadores): equip que acompanya alumnat NESE i col·labora en planificació de projectes amb suport.
 - **Codocència**: model d'organització docent on dos (o més) docents comparteixen la responsabilitat d'una aula i d'un projecte.
 
 ## Fonts
