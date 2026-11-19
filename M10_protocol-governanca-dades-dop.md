@@ -2,7 +2,7 @@
 modul: M10
 titol: "Protocol de governança de dades sensibles · EO i NESE"
 tipus: protocol-operatiu
-descripcio: "Protocol operatiu de governança de dades sensibles per a equips d'orientadores (EO), SIEI, SIAL, Aula d'Acollida i professionals NESE. Categories d'eines IA segons risc, regles operatives per al tractament d'informes psicopedagògics i dades NESE. Versió en producció (no màrtir)."
+descripcio: "Protocol operatiu de governança de dades sensibles per a equips d'orientadores (EO), SIEI, SIAL, Aula d'Acollida i professionals NESE. Categories d'eines IA, regla de cap dada personal a la IA generativa i casos pràctics amb informes psicopedagògics i dades NESE. Revisat el 19-11-2026. Versió en producció (no màrtir)."
 review_status: revisat
 generat_at: 2026-05-25
 paraules_clau: ["protocol", "governança dades", "EO", "DOP", "NESE", "SIEI", "SIAL", "informes psicopedagògics", "dades sensibles", "categories eines IA", "professionals NESE"]
@@ -11,77 +11,90 @@ paraules_clau: ["protocol", "governança dades", "EO", "DOP", "NESE", "SIEI", "S
 # Protocol de governança de dades sensibles · EO i NESE
 ## Document operatiu per a equips directius i professionals NESE
 
+> Revisat el novembre de 2026 per ajustar-lo a la normativa vigent; pendent de l'assessoria jurídica i de la validació del CDX.
+
 > **Com entenem la integració de la IA**
 > A Jesuïtes Educació, entenem que la integració de la IA ha d'estar al servei de la persona i del seu desenvolupament integral. Cerquem augmentar la qualitat de l'aprenentatge, de la pràctica docent i de la gestió, no substituir cap dimensió que els fa créixer integralment. Aquest marc concreta com fer-ho possible.
 
 ---
 
-Aquest protocol estableix què entra a IA i què no, en el treball amb dades NESE. **És inflexible.** No està obert a interpretació individual ni a excepcions sense decisió institucional formal.
+Aquest protocol estableix què entra a la IA i què no en el treball amb dades de l'alumnat NESE. **És inflexible.** No està obert a interpretació individual ni a excepcions sense decisió institucional formal.
+
+---
+
+## Definicions
+
+- **Dada personal:** qualsevol informació sobre una persona identificada o identificable (art. 4.1 RGPD). Les dades pseudonimitzades (el nom substituït per «alumne A») continuen sent dades personals.
+- **Categories especials de dades:** salut, discapacitat, origen ètnic, conviccions, dades biomètriques… (art. 9 RGPD). Un diagnòstic (TDAH, TEA, dislèxia) és una dada de salut.
+- **Dades d'especial protecció a l'escola:** informes psicopedagògics, dades NESE (SIEI, SIAL, Acollida, AACC), conducta i mesures disciplinàries, situació familiar i socioeconòmica, valoracions personals. Algunes són categories especials i d'altres no, però aquest protocol les protegeix igual.
 
 ---
 
 ## Principi de fons
 
-Les dades NESE pertanyen a l'alumne i al seu nucli pedagògic immediat. Sortir-ne sense protocol explícit és **cessió de criteri institucional** a un tercer (proveïdor d'IA) sense mandat per fer-ho. La intenció (estalvi de temps, qualitat d'output) és irrellevant per al fet jurídic.
+L'alumne és el titular de les seves dades NESE; la Fundació n'és la responsable del tractament i les custodia dins del nucli pedagògic immediat. Treure-les cap a un proveïdor d'IA fora d'un tractament homologat és una **comunicació de dades a un tercer sense base jurídica**. La intenció (estalvi de temps, qualitat del resultat) no hi canvia res.
+
+> **Regla de fons · Cap dada personal a la IA generativa**
+> A cap eina d'IA generativa no hi entra cap dada personal d'alumnat, famílies o professionals, de cap categoria, tampoc pseudonimitzada (DOIGC, Protecció de dades, §19.9). Treure el nom no n'hi ha prou: en un grup petit, el curs i un tret com un diagnòstic ja identifiquen l'alumne. Per tractar un cas es fa servir un perfil genèric que no permeti reconèixer ningú en el seu context.
+>
+> Única excepció: els tractaments específics que la xarxa homologui per a una finalitat concreta (protocol d'incorporació d'eines, amb avaluació d'impacte i contracte d'encàrrec). Hi entren només les dades que fixi aquella avaluació.
 
 ---
 
 ## Mapa de tipologies d'eines
 
-### Categoria A · IA institucional amb governança
+### Categoria A · Eines pròpies de la xarxa
 
-- IA self-hosted del centre o de la xarxa
-- Serveis amb contracte LOPD/RGPD signat amb la institució
-- Compromís explícit de no-utilització de dades per entrenament
+- Desenvolupades i governades per la xarxa (p. ex. MAGINIA, ATNE)
+- El model de llenguatge és d'un proveïdor extern (Anthropic, Google), que actua com a encarregat del tractament amb contracte
+- Compromís del proveïdor de no fer servir les dades per entrenar models
 
-**Ús permès:** Sí, amb les regles operatives més avall.
+**Ús permès:** Sí, per a informació institucional i materials, sense dades personals.
 
 ### Categoria B · IA empresarial amb compte institucional
 
-- Versions empresa de Microsoft Copilot, Google Workspace AI, Claude Enterprise, etc.
-- Compte gestionat pel centre amb contracte adequat
-- Generalment compleixen però **cal verificar el contracte específic**
+- Microsoft 365 Copilot, Gemini i NotebookLM de Google Workspace for Education, etc.
+- Compte gestionat pel centre, amb contracte d'encàrrec del tractament
+- **Cal verificar el contracte de cada servei**
 
-**Ús permès:** Sí, amb anonimització obligatòria de dades nominatives.
+**Ús permès:** Sí, per a informació institucional i materials, sense dades personals.
 
-### Categoria C · IA pública o personal
+### Categoria C · IA de consumidor
 
-- ChatGPT públic, Gemini públic, Claude.ai personal, etc.
-- Comptes individuals dels professionals
-- **No** ofereixen garanties contractuals
+- ChatGPT, Gemini, Claude.ai… amb compte personal, gratuïtes o de pagament
+- **Sense** contracte ni garanties amb la institució
 
-**Ús permès:** **No** per a dades nominatives o derivades. Sí per a consultes generals abstractes (com es planteja un problema teòric, com es redacta una secció general d'un document).
+**Ús permès:** **No** per a cap informació institucional ni cap dada personal. Només consultes generals abstractes (com es planteja un problema teòric, com s'estructura un tipus de document).
 
 ---
 
 ## Regles operatives
 
-### Regla 1 · Anonimització obligatòria
+### Regla 1 · Perfil genèric, no pseudonimització (eines A i B)
 
-**Abans de qualsevol consulta a IA** (categoria A, B o C), substituir:
+Si cal parlar d'una situació, descriure-la de manera que no permeti reconèixer ningú en el seu context:
 
-- Noms propis → "alumne A", "alumna B"
-- Dates exactes de naixement → franja d'edat
-- Centres concrets → "centre"
-- Cognoms → eliminats
-- Localitzacions específiques → "barri", "ciutat"
-- Identificadors administratius → eliminats
+- Sense noms, cognoms, inicials ni sobrenoms
+- Sense curs ni grup concrets: cicle o etapa
+- Sense dates de naixement, centre, barri ni identificadors administratius
+- Sense diagnòstic ni dades de salut: necessitats d'aprenentatge observables («dificultats de lectura»)
+- Sense combinacions de trets que, juntes, identifiquin l'alumne
 
 ### Regla 2 · Mínim necessari
 
-Posar només la informació imprescindible per a la consulta. Si la pregunta és sobre estructura d'informe, no cal context clínic complet. Si és sobre adaptació curricular, no cal historial complet.
+Posar només la informació imprescindible per a la consulta. Si la pregunta és sobre l'estructura d'un informe, no cal cap context clínic. Si és sobre adaptació curricular, no cal cap historial.
 
-### Regla 3 · Sense copy-paste de fragments
+### Regla 3 · Sense copiar fragments
 
-Mai retallar i enganxar a IA fragments d'informes existents. Reescriure'n el resum anonimitzat per a la consulta.
+Mai copiar i enganxar a la IA fragments d'informes, dictàmens o expedients, tampoc reescrits amb pseudònims.
 
 ### Regla 4 · Eines locals quan sigui possible
 
 Per a tasques que es poden fer amb eines locals (correcció ortogràfica, formatatge), preferir-les a la IA del núvol.
 
-### Regla 5 · Sandbox del centre quan es disposi
+### Regla 5 · Entorns aïllats, només si s'homologuen
 
-Si el centre disposa d'IA self-hosted o sandbox aïllat, és preferible per a aquestes tasques específiques.
+Si la xarxa homologa un entorn d'IA que no envia dades fora de la institució, l'avaluació d'impacte que l'acompanyi dirà quines tasques s'hi poden fer. Fins aleshores, s'apliquen les regles 1 a 4.
 
 ---
 
@@ -89,53 +102,55 @@ Si el centre disposa d'IA self-hosted o sandbox aïllat, és preferible per a aq
 
 ### Cas P.1. Esborrany d'informe psicopedagògic
 
-**Què fer:** Redactar el contingut del dictamen amb dades reals al sistema gestor del centre. Per al pulit lingüístic i estructural, fer una versió anonimitzada (substituir noms, dates) i passar-la per IA categoria A o B. Recuperar la versió pulida i reintegrar les dades reals al sistema gestor.
+**Què fer:** Redactar el dictamen amb dades reals al sistema gestor del centre, sense IA. Per millorar-ne la redacció o l'estructura, fer servir la IA (A o B) amb una plantilla buida o un text fictici del mateix tipus, i aplicar després els criteris al dictamen real.
 
-**Què NO fer:** Copy-paste del dictamen complet a ChatGPT públic.
+**Què NO fer:** Introduir el dictamen o fragments del dictamen a cap eina d'IA, tampoc pseudonimitzats.
 
 ---
 
 ### Cas P.2. Comunicació amb família en altre idioma
 
-**Què fer:** Redactar el missatge en català sense dades sensibles (només informació general: "ens reunim X dia, parlarem de l'evolució del seu fill"). Traduir amb IA. Si cal personalitzar més, fer-ho manualment.
+**Què fer:** Redactar el missatge en català sense cap dada personal (només informació general: «ens reunim X dia, parlarem de l'evolució del seu fill»). Traduir-lo amb una eina A o B. Si cal personalitzar-lo més, fer-ho manualment.
 
-**Què NO fer:** Generar amb IA el missatge complet incloent-hi historial.
+**Què NO fer:** Generar amb IA el missatge complet incloent-hi l'historial.
 
 ---
 
 ### Cas P.3. Adaptació curricular per a alumne concret
 
-**Què fer:** Especificar a la IA el perfil de manera abstracta ("alumne de 5è amb dificultats lectores i d'atenció, amb diagnòstic de TDAH"). NO el nom ni el codi d'expedient.
+**Què fer:** Descriure a la IA un perfil d'aprenentatge genèric, sense diagnòstic ni dades de salut («alumne de cicle superior amb dificultats de lectura, que necessita consignes curtes i suport visual»).
 
-**Què NO fer:** Posar el nom o cap dada que permeti reidentificació.
+**Què NO fer:** Posar-hi el nom, el codi d'expedient, el curs i el grup concrets, el diagnòstic o qualsevol dada que permeti reconèixer l'alumne.
 
 ---
 
 ### Cas P.4. Anàlisi de patrons en un grup
 
-**Què fer:** Si voleu analitzar patrons del grup, exportar dades agregades i anonimitzades. Si la mostra és petita (menys de 5 alumnes), més restricció encara.
+**Què fer:** Treballar les dades del grup al sistema gestor o als fulls de càlcul del centre. A la IA només hi poden anar dades agregades i anonimitzades, que no permetin reconèixer ningú; amb menys de 5 alumnes, no s'hi porten.
 
-**Què NO fer:** Pujar fitxers Excel amb columnes nominatives a IA.
+**Què NO fer:** Pujar a la IA fitxers amb columnes nominatives o amb dades individuals.
 
 ---
 
 ## Què passa quan algú trenca el protocol?
 
-El protocol és **institucional** — no és una opinió individual. Quan es detecta:
+El protocol és **institucional**: no és una opinió individual. Quan es detecta:
 
-1. **Conversa primer.** No sancionar abans d'entendre. Sovint és bona intenció + manca de formació.
-2. **Auditoria del flux de dades.** Quina informació ha sortit, on, com.
-3. **Comunicació institucional segons gravetat.** En els casos més greus, comunicació a la persona afectada (alumne/família).
-4. **Reforç de formació.** No esperar que tothom entengui el protocol per inferència — fer-lo explícit periòdicament.
-5. **Eines accessibles.** Si el protocol és restrictiu però no hi ha eina alternativa fàcilment accessible, l'incompliment és previsible. Responsabilitat institucional.
+1. **Conversa primer.** No sancionar abans d'entendre. Sovint és bona intenció i manca de formació.
+2. **Protocol d'incidència de dades.** Si han sortit dades personals, s'avisa la direcció i el DPD dins de les 24 hores i es revisa quina informació ha sortit, on i com.
+3. **Comunicació a les persones afectades** quan ho decideixi el responsable del tractament, amb l'informe del DPD (art. 34 RGPD).
+4. **Reforç de formació.** No esperar que tothom entengui el protocol per inferència: fer-lo explícit periòdicament.
+5. **Eines accessibles.** Si el protocol és restrictiu però no hi ha cap eina alternativa fàcilment accessible, l'incompliment és previsible. Responsabilitat institucional.
+
+Si escau una mesura disciplinària, s'aplica el règim del conveni col·lectiu: aquest protocol no en crea cap de propi.
 
 ---
 
 ## Auditoria periòdica
 
-**Anual mínim:** revisió de quines eines IA s'usen al centre, quines categories, quin contracte, qui té accés.
-**Trimestral preferible:** mostra aleatòria de fluxos de treball amb consentiment dels professionals.
-**Davant cada nova eina:** procés formal de validació abans d'integració.
+**Anual mínim:** revisió de quines eines d'IA s'usen al centre, de quina categoria, amb quin contracte i qui hi té accés.
+**Revisió del sistema:** centrada en eines i fluxos de treball, no en persones, i sempre amb criteris d'ús comunicats prèviament al personal (art. 87 LOPDGDD i art. 20.3 ET).
+**Davant cada eina nova:** protocol d'incorporació d'eines abans de fer-la servir.
 
 ---
 
@@ -143,9 +158,9 @@ El protocol és **institucional** — no és una opinió individual. Quan es det
 
 Aquest protocol ha de ser:
 
-1. **Aprovat** per equip directiu.
-2. **Signat** per professionals NESE com a part del contracte de funcions.
-3. **Renovat** anualment amb actualització de categories d'eines.
-4. **Visible** als documents d'alta de personal nou.
+1. **Aprovat** per l'òrgan competent de la Fundació com a instrucció del responsable del tractament, i desplegat per l'equip directiu de cada centre.
+2. **Comunicat** a cada professional NESE com a instrucció del responsable del tractament, amb acús de recepció (art. 29 i 32.4 RGPD; deure de confidencialitat, art. 5 LOPDGDD). No cal modificar cap contracte.
+3. **Renovat** anualment amb l'actualització de les categories d'eines.
+4. **Visible** als documents d'alta del personal nou.
 
-Sense aquest formalisme, el protocol és recomanació individual sense força institucional.
+Sense aquest formalisme, el protocol és una recomanació individual sense força institucional.

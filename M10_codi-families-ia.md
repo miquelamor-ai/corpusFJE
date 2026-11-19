@@ -147,4 +147,4 @@ Aquest codi no demana signatura única ni acceptació passiva. Us convidem a **u
 
 ---
 
-*Document de proposta màrtir v0 · Maig 2026 · Jesuïtes Educació · Equip de redacció: Coordinació Marc IA + responsable de famílies de xarxa. Mappat al pla mestre: B2 (esborrany v0) → C5 (revisió curs 26-27) → D2 (versió per validar CDX Q1 27). Aquest codi es complementa amb la P6 (autoritzacions famílies, prevista per al curs 27-28) com a dimensió jurídica formal de la relació centre-famílies en matèria d'IA.*
+*Document de proposta màrtir v0 · Maig 2026 · Jesuïtes Educació · Equip de redacció: Coordinació Marc IA + responsable de famílies de xarxa. Mappat al pla mestre: B2 (esborrany v0) → C5 (revisió curs 26-27) → D2 (versió per validar CDX Q1 27). Aquest codi es complementa amb el document d'autoritzacions de famílies (en preparació, curs 27-28; el consentiment només es demana per als usos opcionals i, a partir dels 14 anys, el dona l'alumne, art. 7 LOPDGDD) com a dimensió jurídica formal de la relació centre-famílies en matèria d'IA.*
