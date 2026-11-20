@@ -7,8 +7,8 @@
     "contingut": 245,
     "curriculum": 630,
     "amb_fonts": 173,
-    "amb_relacionats": 98,
-    "temes": 1282,
+    "amb_relacionats": 99,
+    "temes": 1285,
     "objectius_A-D-D": 12
   },
   "documents": [
@@ -700,7 +700,8 @@
         "orientació pedagògica",
         "dades sensibles",
         "equitat",
-        "homòlegs EO"
+        "homòlegs EO",
+        "modalitats d'eines"
       ],
       "temes": [
         "aacc",
@@ -712,6 +713,7 @@
         "eo",
         "equitat",
         "homolegs-eo",
+        "modalitats-d-eines",
         "nese",
         "orientacio-pedagogica",
         "sial",
@@ -829,7 +831,9 @@
         "tercer-cami"
       ],
       "fonts": [],
-      "relacionats": []
+      "relacionats": [
+        "M10_politica-us-ia-alumnat"
+      ]
     },
     {
       "id": "M10_curriculum-vertical-cd-ia",
@@ -869,9 +873,7 @@
       ],
       "fonts": [],
       "relacionats": [
-        "M10_politica-integracio-curricular-ia",
-        "M10_politica-us-ia-alumnat",
-        "M10_politica-us-ia-professorat"
+        "M10_politica-integracio-curricular-ia"
       ]
     },
     {
@@ -1579,20 +1581,24 @@
         "protecció de dades",
         "RGPD",
         "LOPDGDD",
+        "Reglament d'IA",
         "IA generativa",
         "incidència",
-        "DPO",
-        "proposta màrtir"
+        "DPD",
+        "modalitats d'eines",
+        "en revisió"
       ],
       "temes": [
-        "dpo",
+        "dpd",
+        "en-revisio",
         "ia-generativa",
         "incidencia",
         "lopdgdd",
+        "modalitats-d-eines",
         "politica",
         "politica-proteccio-dades-ia",
-        "proposta-martir",
         "proteccio-de-dades",
+        "reglament-d-ia",
         "rgpd"
       ],
       "fonts": [],
@@ -1612,28 +1618,30 @@
         "política",
         "alumnat",
         "ús IA",
-        "proposta màrtir",
+        "en revisió",
         "etapes educatives",
         "zones operatives",
         "MIHIA",
         "menors",
-        "famílies"
+        "famílies",
+        "regla d'edat"
       ],
       "temes": [
         "alumnat",
+        "en-revisio",
         "etapes-educatives",
         "families",
         "menors",
         "mihia",
         "politica",
         "politica-us-ia-alumnat",
-        "proposta-martir",
+        "regla-d-edat",
         "us-ia",
         "zones-operatives"
       ],
       "fonts": [],
       "relacionats": [
-        "M10_curriculum-vertical-cd-ia",
+        "M10_codi-families-ia",
         "M10_full-ruta-desplegament-ia",
         "M10_politica-integracio-curricular-ia",
         "M10_politica-proteccio-dades-ia",
@@ -1651,28 +1659,29 @@
         "política",
         "professorat",
         "ús IA",
-        "proposta màrtir",
+        "en revisió",
         "zones operatives",
         "obligacions docents",
         "drets docents",
         "DigComp",
-        "marc general IA"
+        "marc general IA",
+        "modalitats d'eines"
       ],
       "temes": [
         "digcomp",
         "drets-docents",
+        "en-revisio",
         "marc-general-ia",
+        "modalitats-d-eines",
         "obligacions-docents",
         "politica",
         "politica-us-ia-professorat",
         "professorat",
-        "proposta-martir",
         "us-ia",
         "zones-operatives"
       ],
       "fonts": [],
       "relacionats": [
-        "M10_curriculum-vertical-cd-ia",
         "M10_politica-integracio-curricular-ia",
         "M10_politica-proteccio-dades-ia",
         "M10_politica-us-ia-alumnat"
@@ -18855,7 +18864,7 @@
     "dpa": [
       "M10_llista-eines-homologades"
     ],
-    "dpo": [
+    "dpd": [
       "M10_politica-proteccio-dades-ia"
     ],
     "dret-a-l-educacio": [
@@ -19059,7 +19068,10 @@
       "curriculum/fp/transport_vehicles/EMV/MP13_formacio_en_centres_de_treball"
     ],
     "en-revisio": [
-      "M10_codi-families-ia"
+      "M10_codi-families-ia",
+      "M10_politica-proteccio-dades-ia",
+      "M10_politica-us-ia-alumnat",
+      "M10_politica-us-ia-professorat"
     ],
     "energia-aigua": [
       "MP01_subestacions_electriques",
@@ -21188,6 +21200,11 @@
       "curriculum/fp/installacio_manteniment/mitf/MP13_sintesi",
       "curriculum/fp/installacio_manteniment/mitf/MP14_formacio_en_centres_de_treball"
     ],
+    "modalitats-d-eines": [
+      "M10_casuistica-dops",
+      "M10_politica-proteccio-dades-ia",
+      "M10_politica-us-ia-professorat"
+    ],
     "modalitats-eines-ia": [
       "M10_protocol-governanca-dades-dop"
     ],
@@ -22775,10 +22792,7 @@
       "M5_proposits-aprenentatge"
     ],
     "proposta-martir": [
-      "M10_curriculum-vertical-cd-ia",
-      "M10_politica-proteccio-dades-ia",
-      "M10_politica-us-ia-alumnat",
-      "M10_politica-us-ia-professorat"
+      "M10_curriculum-vertical-cd-ia"
     ],
     "proteccio-de-dades": [
       "M10_politica-proteccio-dades-ia"
@@ -22883,6 +22897,12 @@
     ],
     "reflexio-sistematica": [
       "M11_educador-reflexiu"
+    ],
+    "regla-d-edat": [
+      "M10_politica-us-ia-alumnat"
+    ],
+    "reglament-d-ia": [
+      "M10_politica-proteccio-dades-ia"
     ],
     "reglament-europeu-ia-ria": [
       "M8_reglament-europeu-IA-RIA"
