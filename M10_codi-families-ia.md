@@ -2,16 +2,16 @@
 modul: M10
 titol: "Codi de relació família-escola davant la IA"
 tipus: codi-relacional
-descripcio: "Codi v0 (proposta màrtir) família-escola davant la IA a FJE. 4 pàgines · sortida explícita del parany tecnofília/tecnofòbia · 7 compromisos del centre + 6 propostes a famílies · 5 claus compartides (decàleg del marc + brúixola del tercer camí) · drets famílies · invitació a la conversa continuada · tractament mixt vosaltres/nosaltres · per a validació CDX Q1 27."
+descripcio: "Codi en revisió família-escola davant la IA a FJE. 4 pàgines · sortida explícita del parany tecnofília/tecnofòbia · 7 compromisos del centre + 6 propostes a famílies · 5 claus compartides (decàleg del marc + brúixola del tercer camí) · drets famílies · invitació a la conversa continuada · tractament mixt vosaltres/nosaltres · pendent de l'assessoria jurídica i de la posada en vigor per l'òrgan competent."
 review_status: esborrany
 generat_at: 2026-05-24
-paraules_clau: ["codi de relació", "famílies", "tercer camí", "tecnofília", "tecnofòbia", "decàleg famílies", "compromisos", "proposta màrtir"]
+paraules_clau: ["codi de relació", "famílies", "tercer camí", "tecnofília", "tecnofòbia", "decàleg famílies", "compromisos", "en revisió"]
 ---
 
 # Codi de relació família-escola davant la intel·ligència artificial
-## Proposta màrtir · v0 · Maig 2026
+## En revisió · Novembre de 2026
 
-> **Aquest document és una proposta màrtir.** El Consell de Direcció de Xarxa el revisarà i validarà entre gener i març de 2027 (Fase D del pla de desplegament). Fins aleshores té caràcter orientatiu. Es publica ara per acompanyar la primera trobada d'equips directius del novembre de 2026 i obrir una conversa entre centre i famílies abans de la versió definitiva.
+> **Aquest document és en revisió.** Té valor orientatiu i no és vinculant fins que l'òrgan o les àrees implicades el posin en vigor. Revisat el novembre de 2026 per ajustar-lo a la normativa vigent; pendent de l'assessoria jurídica. Es publica ara per obrir una conversa entre centre i famílies abans de la versió definitiva.
 
 ---
 
@@ -147,4 +147,4 @@ Aquest codi no demana signatura única ni acceptació passiva. Us convidem a **u
 
 ---
 
-*Document de proposta màrtir v0 · Maig 2026 · Jesuïtes Educació · Equip de redacció: Coordinació Marc IA + responsable de famílies de xarxa. Mappat al pla mestre: B2 (esborrany v0) → C5 (revisió curs 26-27) → D2 (versió per validar CDX Q1 27). Aquest codi es complementa amb el document d'autoritzacions de famílies (en preparació, curs 27-28; el consentiment només es demana per als usos opcionals i, a partir dels 14 anys, el dona l'alumne, art. 7 LOPDGDD) com a dimensió jurídica formal de la relació centre-famílies en matèria d'IA.*
+*Document en revisió · Novembre de 2026 · Jesuïtes Educació · Equip de redacció: Coordinació Marc IA + responsable de famílies de xarxa. Mappat al pla mestre: B2 (esborrany v0) → C5 (revisió curs 26-27) → D2 (versió per posar en vigor). Aquest codi es complementa amb el document d'autoritzacions de famílies (en preparació, curs 27-28; el consentiment només es demana per als usos opcionals i, a partir dels 14 anys, el dona l'alumne, art. 7 LOPDGDD) com a dimensió jurídica formal de la relació centre-famílies en matèria d'IA.*
