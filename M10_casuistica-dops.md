@@ -11,6 +11,8 @@ paraules_clau: ["casuística", "EO", "DOP", "SIEI", "SIAL", "AACC", "NESE", "Aul
 # Casuística professional · IA als equips d'orientadores (EO) i de suport
 ## Per a EO, SIEI, SIAL, Aula d'Acollida, professionals NESE
 
+> **En revisió** · Té valor orientatiu i no és vinculant fins que l'òrgan o les àrees implicades la posin en vigor. Revisada el novembre de 2026 per ajustar-la a la normativa vigent; pendent de l'assessoria jurídica.
+
 > **Com entenem la integració de la IA**
 > A Jesuïtes Educació, entenem que la integració de la IA ha d'estar al servei de la persona i del seu desenvolupament integral. Cerquem augmentar la qualitat de l'aprenentatge, de la pràctica docent i de la gestió, no substituir cap dimensió que els fa créixer integralment. Aquest marc concreta com fer-ho possible.
 
