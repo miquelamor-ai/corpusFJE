@@ -2,10 +2,10 @@
 modul: M10
 titol: "Casuística · IA als equips d'orientadores (EO) i de suport"
 tipus: casuistica-col-lectiu
-descripcio: "Casuística professional per a EO, SIEI, SIAL, Aula d'Acollida i professionals NESE (grup d'homòlegs EO). Inclou casuística per perfil (EO, SIEI, SIAL, AACC) + protocol d'ús de dades sensibles en l'orientació pedagògica. Equitat, NESE, dades."
+descripcio: "Casuística professional per a EO, SIEI, SIAL, Aula d'Acollida i professionals NESE (grup d'homòlegs EO). Inclou casuística per perfil (EO, SIEI, SIAL, AACC) + protocol d'ús de dades sensibles en l'orientació pedagògica (cap dada personal a la IA generativa, tampoc pseudonimitzada; modalitats d'eines 1/2a/2b/2c/3). Equitat, NESE, dades."
 review_status: esborrany
 generat_at: 2026-05-24
-paraules_clau: ["casuística", "EO", "DOP", "SIEI", "SIAL", "AACC", "NESE", "Aula d'Acollida", "orientació pedagògica", "dades sensibles", "equitat", "homòlegs EO"]
+paraules_clau: ["casuística", "EO", "DOP", "SIEI", "SIAL", "AACC", "NESE", "Aula d'Acollida", "orientació pedagògica", "dades sensibles", "equitat", "homòlegs EO", "modalitats d'eines"]
 ---
 
 # Casuística professional · IA als equips d'orientadores (EO) i de suport
@@ -20,12 +20,12 @@ Els equips d'orientadores (EO) i de suport són transversals: travessen totes le
 
 Quatre tensions específiques d'aquest col·lectiu:
 
-1. **Patologització precoç.** Eines d'IA "predictiva" tendeixen a etiquetar abans-d'hora alumnes que evolucionarien sols. La detecció precoç té valor; l'etiqueta predeterminada té cost.
+1. **Patologització precoç.** Eines d'IA "predictiva" tendeixen a etiquetar abans d'hora alumnes que evolucionarien sols. La detecció precoç té valor; l'etiqueta predeterminada té cost.
 2. **Biaixos algorítmics.** Els models s'entrenen amb mitjana poblacional. Per a perfils minoritaris (NESE no-TEA, dialectes, contextos socioculturals diversos) la fiabilitat baixa.
 3. **Governança de dades sensibles.** Les dades NESE són les més sensibles del centre. Sortir-ne sense protocol és cessió de criteri institucional.
 4. **Equitat entre dignitat present i autonomia futura.** L'eina pot facilitar inclusió aparent erosionant formació pròpia (cas: traducció a aula d'acollida).
 
-Aquesta casuística és material per a la conversa entre professionals EO/SIEI/SIAL/Acollida. La pregunta de fons: **"què la IA pot ajudar i què no pot mai certificar?"**
+Aquesta casuística és material per a la conversa entre professionals EO/SIEI/SIAL/Acollida. La pregunta de fons: **"en què pot ajudar la IA i què no pot certificar mai?"**
 
 ---
 
@@ -33,11 +33,11 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 **D1 · Delegació — Què mai no es delega?** El judici clínic-pedagògic del professional especialitzat. La decisió de derivació. La interpretació contextual del comportament d'un alumne.
 
-**D2 · Descripció — Sap formular sense biaixar?** Els prompts a IA per a casos NESE arrosseguen biaix automàticament. "Genera un pla per a un alumne amb TDAH" pressuposa que l'eina sap millor que el professional.
+**D2 · Descripció — Sap formular sense esbiaixar?** Els prompts a IA per a casos NESE arrosseguen biaix automàticament. "Genera un pla per a un alumne amb TDAH" pressuposa que el que genera l'eina val més que el criteri del professional.
 
-**D3 · Discerniment — Reconeix el biaix algorítmic?** La revisió crítica de la sortida de IA és més carregada en NESE que en altres àmbits. Cal pràctica explícita d'identificació de biaix.
+**D3 · Discerniment — Reconeix el biaix algorítmic?** La revisió crítica de la sortida d'IA és més carregada en NESE que en altres àmbits. Cal pràctica explícita d'identificació de biaix.
 
-**D4 · Diligència — Compleix governança?** Les dades NESE tenen normativa més restrictiva. Sortir-ne d'aquesta normativa per ús de IA és violació, no oblit.
+**D4 · Diligència — Compleix governança?** Les dades NESE tenen normativa més restrictiva. Sortir d'aquesta normativa per ús d'IA és violació, no oblit.
 
 ---
 
@@ -47,8 +47,8 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 **Casos legítims (N1-N2):**
 
-- **Cas:** L'EO utilitza una IA com a suport per redactar la part formal d'un dictamen — després d'haver fet l'observació clínica i la conversa amb tutors. La IA polit el llenguatge formal; el contingut és íntegrament del professional.
-**Posició defensable:** N2 amb governança estricta (dades anonimitzades + eines amb contracte adequat). §Avaluació + D4.
+- **Cas:** L'EO utilitza una IA com a suport per preparar la part formal d'un dictamen (estructura i fórmules) a partir d'una plantilla buida o d'un text fictici — després d'haver fet l'observació clínica i la conversa amb tutors. El dictamen no entra a la IA; el contingut és íntegrament del professional.
+**Posició defensable:** N2 amb governança estricta: cap dada del dictamen a la IA, tampoc pseudonimitzada (protocol de governança de dades sensibles, cas P.1). §Avaluació + D4.
 
 - **Cas:** L'EO utilitza IA per generar materials de comunicació amb famílies en diferents idiomes/registres.
 **Posició defensable:** N2-N3. Comunicació institucional adaptada culturalment.
@@ -77,17 +77,17 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 **Casos discutibles:**
 
-- **Cas:** Família arriba amb una eina IA "que ha funcionat amb un altre alumne TEA" i demana al SIEI que l'apliqui al seu fill.
+- **Cas:** Família arriba amb una eina d'IA "que ha funcionat amb un altre alumne TEA" i demana al SIEI que l'apliqui al seu fill.
 **Posició defensable:** N1. La professional pot mirar i valorar aplicabilitat — sense compromís d'aplicació. La transparència del judici és pedagògicament valuosa per a la família.
 
 **Casos a evitar:**
 
-- **Cas:** Eines IA genèriques de "personalització educativa" aplicades sense avaluar-ne l'alineament amb el perfil concret.
+- **Cas:** Eines d'IA genèriques de "personalització educativa" aplicades sense avaluar-ne l'alineament amb el perfil concret.
 **Per què cal evitar-ho:** els models s'entrenen amb mitjana poblacional; per a perfils SIEI la fiabilitat baixa significativament.
 
 ---
 
-### A.3. SIAL · Adaptació curricular individualitzada
+### A.3. SIAL · Suport intensiu a l'audició i el llenguatge
 
 **Casos legítims:**
 
@@ -101,7 +101,7 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 **Casos a evitar:**
 
-- **Cas:** Algoritme adaptatiu que ajusta materialment al ritme de l'alumne sense supervisió periòdica del SIAL.
+- **Cas:** Algoritme adaptatiu que ajusta el material al ritme de l'alumne sense supervisió periòdica del SIAL.
 **Per què cal evitar-ho:** delegació del judici professional a un sistema sense rendició de comptes.
 
 ---
@@ -113,7 +113,7 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 - **Cas:** IA traductora per a comunicació social ràpida durant les primeres setmanes (festes, comunicació informal amb companys).
 **Posició defensable:** N2 amb declaració d'ús. La dignitat present té valor.
 
-- **Cas:** Generació de materials curriculars en versió adaptada per a temps de immersió.
+- **Cas:** Generació de materials curriculars en versió adaptada per a temps d'immersió.
 **Posició defensable:** N2 com a suport docent. La fricció lingüística necessària es preserva en moments designats.
 
 **Casos discutibles:**
@@ -123,7 +123,7 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 **Casos a evitar:**
 
-- **Cas:** Permetre l'ús generalitzat de IA traductora "per evitar fer-la sentir malament".
+- **Cas:** Permetre l'ús generalitzat d'IA traductora "per evitar fer-la sentir malament".
 **Per què cal evitar-ho:** silenci protector que es tradueix en pèrdua permanent de la llengua.
 
 ---
@@ -138,7 +138,7 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 **Casos discutibles:**
 
 - **Cas:** Alumne AACC progressa cognitivament mentre la integració social s'erosiona.
-**Posició defensable:** N2 amb mediació pedagògica. El centre dissenya contextos socials estructurats no compensables amb la IA. La cognitiva sola no és desenvolupament integral.
+**Posició defensable:** N2 amb mediació pedagògica. El centre dissenya contextos socials estructurats no compensables amb la IA. La dimensió cognitiva sola no és desenvolupament integral.
 
 **Casos a evitar:**
 
@@ -147,20 +147,22 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 ---
 
-## B. Protocol governança de dades sensibles
+## B. Protocol de governança de dades sensibles
 
 **Línia inflexible institucional:**
 
-1. **Mai** dades nominatives d'alumnes a IA d'ús general (ChatGPT públic, Gemini, Claude públic, etc.).
-2. **Sempre** anonimització abans de qualsevol consulta amb IA, encara que sigui IA institucional.
-3. **Sempre** sandbox o eina amb contracte de protecció de dades adequat per a documents que contenen dades NESE.
-4. **Mai** copy-paste de fragments de informes a xatbots externs per "obtenir esborrany".
+1. **Mai** cap dada personal d'alumnes a cap eina d'IA generativa, tampoc pseudonimitzada (Política de protecció de dades, regla 1).
+2. **Sempre** un perfil genèric que no permeti reconèixer ningú en el seu context, també a les eines institucionals; mai diagnòstics ni dades de salut.
+3. **Mai** documents amb dades NESE a cap eina d'IA, excepte a les modalitats 1 i 2a, dins del que fixi l'avaluació d'impacte.
+4. **Mai** copy-paste de fragments d'informes a cap eina d'IA per "obtenir esborrany".
 
-**Eines compatibles amb governança:**
+**Modalitats d'eines** (Política de protecció de dades, secció 4):
 
-- IA self-hosted del centre amb dades anonimitzades.
-- Serveis amb contracte explícit de no-utilització per entrenament i compliment LOPD/RGPD vigent.
-- Eines locals (que no envien res a la xarxa).
+- **1 · Model allotjat per la institució**: el text no surt de la xarxa. Avui no n'hi ha cap.
+- **2a · Plataforma educativa específica homologada**, amb avaluació d'impacte: només les dades que aquesta fixi.
+- **2b i 2c · Eines corporatives** (Workspace for Education, Microsoft 365) **i pròpies de la xarxa** (MAGINIA, ATNE): el text surt cap a un proveïdor extern encarregat; cap dada personal.
+- **3 · Eines de consumidor**: cap informació institucional.
+- Per a correcció ortogràfica o format, eines locals sense IA generativa (que no envien res a la xarxa).
 
 **Tres tipus d'incompliment habituals:**
 
@@ -172,10 +174,10 @@ Aquesta casuística és material per a la conversa entre professionals EO/SIEI/S
 
 ## C. Risc de patologització precoç · Pràctica institucional
 
-Cinc indicadors que una eina IA està patologitzant en lloc d'orientar:
+Cinc indicadors que una eina d'IA està patologitzant en lloc d'orientar:
 
 1. Genera **etiquetes** (TDAH, dislèxia, TEA) en lloc de descripció comportamental.
-2. Proposa **plans intervenció** sense haver vist l'alumne ni el context.
+2. Proposa **plans d'intervenció** sense haver vist l'alumne ni el context.
 3. Es presenta amb **percentatges de probabilitat** d'un diagnòstic.
 4. Recomana **derivació externa** sense passar per l'EO.
 5. Es comercialitza com a **"detecció precoç"** sense distingir entre indicador i diagnòstic.

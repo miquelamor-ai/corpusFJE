@@ -2,16 +2,16 @@
 modul: M10
 titol: "Política d'integració curricular amb IA"
 tipus: politica
-descripcio: "Política institucional v0 (proposta màrtir) sobre integració curricular de la IA a FJE. 6 pàgines · 4 vessants (SOBRE/PER A/AMB/MÉS ENLLÀ) + Model 4D · mapa 11 etapes × 4 vessants + mapa per àrea curricular · 8 precondicions blindades · adopció 7 requisits UE 2019 · correspondència DigComp 3.0 · per a validació CDX Q1 27."
+descripcio: "Política institucional en revisió sobre integració curricular de la IA a FJE. 6 pàgines · 4 vessants (SOBRE/PER A/AMB/MÉS ENLLÀ) + Model 4D · mapa 11 etapes × 4 vessants + mapa per àrea curricular · 8 precondicions blindades · adopció 7 requisits UE 2019 · correspondència DigComp 3.0."
 review_status: esborrany
 generat_at: 2026-05-24
 paraules_clau: ["política", "integració curricular", "competència digital", "DigComp", "4 vessants", "sobre per a amb", "MIHIA", "Model 4D", "etapes educatives"]
 ---
 
 # Política d'integració curricular amb intel·ligència artificial
-## Proposta màrtir · v0 · Maig 2026
+## En revisió · Maig 2026
 
-> **Aquest document és una proposta màrtir.** El Consell Pedagògic la revisarà al primer trimestre del curs 26-27 i la versió definitiva es validarà al Consell de Direcció de Xarxa entre gener i març de 2027 (Fase D del pla de desplegament). Fins aleshores té caràcter orientatiu. Es publica ara per acompanyar la primera trobada d'equips directius del novembre de 2026 i facilitar el debat informat sobre què s'aprèn, a quina etapa i sota quines condicions.
+> **Aquest document és en revisió.** Té valor orientatiu i no és vinculant fins que l'òrgan o les àrees implicades el posin en vigor. Es publica per facilitar el debat informat sobre què s'aprèn, a quina etapa i sota quines condicions.
 
 ---
 
@@ -145,7 +145,7 @@ Cada combinació etapa × vessant identifica un sostre d'aprenentatge esperat. A
 | **FP-GM** | IA al sector professional propi: oportunitats i límits | Ús sectorial responsable, comunicació amb empresa | Suport a aprenentatge tècnic i professional | Identitat professional, ètica de l'ofici |
 | **FP-GS** | Disseny crític d'eines i serveis amb IA al sector | Lideratge d'ús responsable en equips professionals | IA com a eina autoral a projectes finals | Compromís professional, lideratge ètic sectorial |
 
-Aquesta taula és la pedra angular operativa de la política. Les rúbriques específiques per a cada cel·la es desenvoluparan en una segona iteració (post-validació CDX), com a recursos pedagògics no normatius.
+Aquesta taula és la pedra angular operativa de la política. Les rúbriques específiques per a cada cel·la es desenvoluparan en una segona iteració (un cop la política sigui en vigor), com a recursos pedagògics no normatius.
 
 ## 9. Mapa per àrea curricular
 
@@ -290,4 +290,4 @@ Vegeu cap. 7 del Marc General per al detall complet. Sostres per etapa: I3-PRI1 
 
 ---
 
-*Document de proposta màrtir v0 · Maig 2026 · Jesuïtes Educació. Equip de redacció: Coordinació Marc IA + Consell Pedagògic (pendent integració grup ampliat caps d'etapa). Mappat al pla mestre: B3 (esborrany v0) → C4 (revisió CPe Q1 26-27) → D4 (versió per validar CDX Q1 27). Revisió prevista: Consell Pedagògic Q1 26-27 → Consell de Direcció de Xarxa Q3 26-27. Fonts normatives consultades: LOMLOE estatal (RD 95/2022, RD 157/2022, RD 217/2022, RD 243/2022), LOMLOE catalana (Decret 175/2022 i Decret 171/2022), Orientacions Generalitat 2024, DigComp 3.0 (JRC, novembre 2025), Directrius ètiques UE 2019 (Ethics guidelines for trustworthy AI). Aprenentatges internacionals: casos documentats a Corea del Sud, Suècia, Regne Unit (Ofsted), Estats Units (LAUSD), Austràlia (NSW), Escòcia, Estònia, Singapur.*
+*Document en revisió · Maig 2026 · Jesuïtes Educació. Equip de redacció: Coordinació Marc IA + Consell Pedagògic (pendent integració grup ampliat caps d'etapa). Fonts normatives consultades: LOMLOE estatal (RD 95/2022, RD 157/2022, RD 217/2022, RD 243/2022), LOMLOE catalana (Decret 175/2022 i Decret 171/2022), Orientacions Generalitat 2024, DigComp 3.0 (JRC, novembre 2025), Directrius ètiques UE 2019 (Ethics guidelines for trustworthy AI). Aprenentatges internacionals: casos documentats a Corea del Sud, Suècia, Regne Unit (Ofsted), Estats Units (LAUSD), Austràlia (NSW), Escòcia, Estònia, Singapur.*
